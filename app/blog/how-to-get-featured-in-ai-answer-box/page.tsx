@@ -93,11 +93,15 @@ Article for long-form content</code></pre>
         <p><strong>Supporting Detail:</strong> 2-4 sentences of context or examples <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         <p><strong>CTA or Source Link:</strong> Subtle pointer back to your website <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-        <div className="ae-cta-block not-prose">
-          <h3>Get Your Website in AI Answer Boxes</h3>
-          <p>Most answer box citations go to companies optimizing for it. We will audit your content structure and fix what AI platforms cannot find. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          <p><Link href="/contact" className="ae-cta-button">Get an Answer Box Audit</Link> Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
+            </div>
 
         <h2>Common Answer Box Mistakes</h2>
         <p><strong>Mistake #1: Burying the answer</strong> — Do not write 200 words before answering the question. Answer first, explain second. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>

@@ -338,10 +338,7 @@ export default function AEOGrader() {
             <p>Current grader tools on the market query AI platforms with your brand name and return sentiment and recognition scores. Those tools are useful for brand-level tracking. The TAE framework below measures something different: your structural readiness to be cited on market queries (&quot;best HVAC company in Dallas,&quot; &quot;who does slab leak repair in Austin&quot;) rather than on branded queries where AI platforms already know you exist. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>TAE&apos;s AERO scan runs live queries across ChatGPT, Perplexity, and Google AI Mode, measures your actual citation rate against competitors, and delivers a 10-point score with a prioritized fix list.</p>
-              <Link href="/blindspot">Get Your Free AERO Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 2: Framework */}
             <span className="ae-section-label" id="aeo-grader-framework">The Framework</span>
@@ -438,10 +435,7 @@ export default function AEOGrader() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The AERO scan runs 20 market-relevant queries across four AI platforms and returns your citation rate versus your top three competitors. Free, no commitment. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link href="/blindspot">Run My Free AERO Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 4: Dimension 2 */}
             <span className="ae-section-label" id="dimension-2-schema">Dimension 2 of 5</span>
@@ -537,10 +531,7 @@ export default function AEOGrader() {
             </div>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Most businesses we scan have fewer than 10 FAQ schema blocks across their entire site. The AERO scan surfaces your exact gap count versus your top competitors.</p>
-              <Link href="/blindspot">See My FAQ Gap Free &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 6: Dimension 4 */}
             <span className="ae-section-label" id="dimension-4-eeat">Dimension 4 of 5</span>
@@ -659,10 +650,7 @@ export default function AEOGrader() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>TAE&apos;s content team restructures existing pages for AI extractability in a single sprint. The AERO scan identifies exactly which pages need it most.</p>
-              <Link href="/blindspot">Get My Free AERO Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 8: Score Interpretation */}
             <span className="ae-section-label" id="interpret-your-score">Score Interpretation</span>
@@ -785,10 +773,7 @@ export default function AEOGrader() {
             <p>The two tools are complementary. Run the manual AEO grader to understand your structural baseline. Then request the free AERO scan to see how that structural baseline translates into actual citation performance on queries that matter to your revenue.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>You have your AEO grade. Now see your AERO score. The AERO scan is free. It takes 24-48 hours and returns a competitor citation comparison, your current citation rate by platform, and a ranked fix list. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <Link href="/blindspot">Request My Free AERO Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Quick Reference Cheat Sheet */}
             <span className="ae-section-label">Quick Reference</span>
@@ -856,19 +841,13 @@ export default function AEOGrader() {
             </div>
 
             {/* CTA Block */}
-            <div className="ae-cta-block not-prose">
-              <h3>Ready to Win in AI Search?</h3>
-              <p>Join the businesses that are already getting cited by ChatGPT, Claude, and Google AI. The first step is understanding where you stand today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot" className="ae-cta-primary">Claim Your Free Report &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Run Your Free AEO Grader — See Exactly Where AI Ranks You</h3>
+              <p>390 businesses/month search for AEO services. One wins your market. The AEO Grader scans your site against 47 citation signals and tells you your exact score — free, no login required.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Grader →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
               </div>
             </div>
 
@@ -907,30 +886,35 @@ export default function AEOGrader() {
             </ul>
 
             {/* Final CTA Inline */}
-            <div className="ae-cta-inline not-prose">
-              <p>Use this framework to self-score. Then request the AERO scan so we can show you how your infrastructure translates into actual citation performance against your competitors.</p>
-              <Link href="/blindspot">Get My Free AERO Scan Now &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
           </div>
 
           {/* Final CTA */}
-          <div className="ae-final-cta">
-            <div className="ae-final-cta-pulse"></div>
-            <h2>Your Competitors Are Already Being Cited. Find Out Where You Stand.</h2>
-            <p>The AERO scan runs your actual market queries across ChatGPT, Perplexity, Google AI Mode, and Claude. You get your citation rate, your competitors&apos; citation rates, and a ranked fix list. No commitment. No cost. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your AEO Score Determines Who AI Recommends
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Every month 390 businesses search for AEO services. The Answer Engine's Origin Protocol gets businesses cited where competitors get ignored. One slot per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free AEO Grader Score
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
         </article>
       </main>

@@ -290,10 +290,7 @@ export default function Page() {
             <p>For a deeper look at how this process works across all business types, see our guide on <Link href="/blog/what-happens-when-customer-asks-ai-find-business">what happens when a customer asks AI to find a business</Link>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your gym. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: AI EVALUATION */}
             <span className="ae-section-label" id="ai-evaluation">AI Evaluation</span>
@@ -322,10 +319,7 @@ export default function Page() {
             <p>To understand how AI evaluates business authority in more detail, read our breakdown on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link>.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when someone searches for a gym like yours? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3: CONTENT DEPTH */}
             <span className="ae-section-label" id="content-depth">Content Strategy</span>
@@ -344,10 +338,7 @@ export default function Page() {
             <p>For more on why content depth drives AI visibility, see our article on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether having a blog helps AI recommend your business</Link>.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your content depth compares to the gyms AI is already recommending in your market. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 4: DIRECTORY SIGNALS */}
             <span className="ae-section-label" id="directory-signals">Directory Signals</span>
@@ -387,10 +378,7 @@ export default function Page() {
             <p>For more on which directories carry the most weight, read our guide on <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">optimizing your Google Business Profile for AI</Link>.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which directories AI platforms are pulling your gym&apos;s data from? Our report shows you. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5: WEBSITE GAPS */}
             <span className="ae-section-label" id="website-gaps">Technical Gaps</span>
@@ -448,10 +436,7 @@ export default function Page() {
             </table>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover whether AI crawlers can actually read your gym website. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: REVIEWS */}
             <span className="ae-section-label" id="reviews-trust">Trust Layer</span>
@@ -468,10 +453,7 @@ export default function Page() {
             <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;The 6 AM CrossFit class with Coach Marcus completely transformed my fitness. He modified every movement for my bad knee and I have lost 30 pounds in four months&quot; carries far more weight than &quot;Great gym, would recommend.&quot; Specific reviews mentioning classes, trainers, outcomes, and experiences give AI the confidence it needs to recommend your gym for those specific queries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI can actually read your member reviews or if they are hidden behind JavaScript.</p>
-              <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 7: VOICE SEARCH */}
             <span className="ae-section-label" id="voice-search">Voice Search</span>
@@ -486,10 +468,7 @@ export default function Page() {
             </div>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your gym the one answer voice assistants give? Our report tests this directly.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 8: COMMON GAPS */}
             <span className="ae-section-label" id="common-gaps">Common Gaps</span>
@@ -561,16 +540,10 @@ export default function Page() {
             </table>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Which of these gaps is hurting your gym? Our free report identifies every one of them. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk strategy with a human? We work with gyms, studios, and fitness businesses across the country.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -590,10 +563,7 @@ export default function Page() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your gym&apos;s specific classes, market, and competitors? We do that. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 9: LOOKING AHEAD */}
             <span className="ae-section-label">Looking Ahead</span>
@@ -608,22 +578,21 @@ export default function Page() {
             </div>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The gyms acting now will own their market in AI search. The ones waiting will be playing catch-up. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <Link href="/blindspot">See Where Your Gym Stands &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 12 */}
-            <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for fitness businesses and local service companies. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -690,35 +659,37 @@ export default function Page() {
             <p>Voice searches tend to be more conversational and location-specific. Someone typing might search &quot;best gym downtown.&quot; Someone speaking to Siri or Alexa says &quot;find me a gym near my office that has yoga classes before 7 AM.&quot; Voice assistants pull from structured data, directory listings, and business profiles to give a single recommendation rather than a list. Gyms with detailed, structured information about classes, hours, and amenities are more likely to be the one answer voice AI delivers.</p>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where your gym stands in AI search? The report is free and takes 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your fitness business? Call us and we will walk you through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Gym Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone searches for a gym in your area. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
         </article>
       </main>

@@ -248,10 +248,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           </div>
 
           {/* CTA INLINE 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Find out if AI can actually find your business right now. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION 1 */}
           <span className="ae-section-label">Step 1 of 6</span>
@@ -329,10 +326,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           </div>
 
           {/* CTA INLINE 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is your Google Business Profile your only online presence? That is a problem. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <Link href="/blindspot">Check What AI Actually Sees</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION 3 */}
           <span className="ae-section-label">Step 3 of 6</span>
@@ -380,10 +374,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           </div>
 
           {/* CTA INLINE 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>What evidence does AI find when it researches your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-            <Link href="/blindspot">See Your Digital Authority Score</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION 4 */}
           <span className="ae-section-label">Step 4 of 6</span>
@@ -423,10 +414,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           </div>
 
           {/* CTA INLINE 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Google ranking alone will not save you. See where AI actually ranks your business. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-            <Link href="/blindspot">Get Your AI Ranking Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION 5 */}
           <span className="ae-section-label">Step 5 of 6</span>
@@ -470,10 +458,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           </div>
 
           {/* CTA INLINE 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Are you in the answer or invisible? There is no middle ground. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            <Link href="/blindspot">Check Your AI Visibility Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION 6 */}
           <span className="ae-section-label">Step 6 of 6</span>
@@ -489,10 +474,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           </div>
 
           {/* CTA INLINE 6 (tel) */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want to discuss how to capture this high-converting traffic?</p>
-            <a href="tel:+12134442229">Call Us: (213) 444-2229</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* TIMELINE */}
           <span className="ae-section-label">Full Journey</span>
@@ -534,10 +516,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           </div>
 
           {/* CTA INLINE 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Which step is your business failing? Find out with a free analysis.</p>
-            <Link href="/blindspot">Identify Your Weak Point</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* WHAT THIS MEANS */}
           <span className="ae-section-label">Implications</span>
@@ -598,23 +577,21 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           </div>
 
           {/* CTA INLINE 8 (email) */}
-          <div className="ae-cta-inline not-prose">
-            <p>Have questions about AI visibility? Reach out directly.</p>
-            <a href="mailto:support@theanswerengine.ai">Email: support@theanswerengine.ai</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* CTA INLINE 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to see exactly where your business stands in AI search?</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* CTA BLOCK */}
-          <div className="ae-cta-block not-prose">
-            <h3>Is AI Recommending Your Business or Skipping It?</h3>
-            <p>Most businesses are completely invisible to AI search. Our free Blind Spot Report shows you exactly what ChatGPT, Claude, Perplexity, and Google AI say when customers ask about your industry. No pitch, just the data.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
+            </div>
 
           {/* FAQ */}
           <span className="ae-section-label">FAQ</span>
@@ -623,10 +600,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <h3>What data sources does ChatGPT use to find local businesses?</h3>
           <p>ChatGPT pulls from a combination of web search results, business directories like Yelp and Bing Places, review platforms, industry publications, and business websites. It does not directly access Google Business Profiles, so businesses relying solely on GBP may be invisible to ChatGPT.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>See which data sources AI is pulling for your business.</p>
-            <Link href="/blindspot">Check Your Source Coverage</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>How long does it take for AI to process a local business query?</h3>
           <p>The entire process, from receiving the query to delivering a recommendation, happens in seconds. The AI interprets the question, searches the web for relevant sources, evaluates what it finds, and generates a response all within a single interaction.</p>
@@ -634,10 +608,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <h3>Why does AI recommend my competitor but not me?</h3>
           <p>AI platforms recommend businesses they can verify through multiple independent sources. If your competitor has a well-structured website, consistent directory listings, strong reviews across platforms, and content that directly answers common questions, the AI has more evidence to work with when forming its recommendation.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Find out why AI picks your competitors. The answer might surprise you.</p>
-            <Link href="/blindspot">See Your Competitor Comparison</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Does Google ranking affect whether AI recommends my business?</h3>
           <p>It depends on the platform. Perplexity cites top-10 Google results about 91% of the time. ChatGPT, however, only overlaps with Google top-10 results about 14% of the time. Each AI platform has its own evaluation criteria beyond traditional search rankings.</p>
@@ -645,18 +616,12 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <h3>Can I pay to appear in AI search results?</h3>
           <p>Currently, there is no way to pay for placement in most AI search responses. AI platforms evaluate businesses based on the quality, consistency, and authority of publicly available information. The only way to improve visibility is by strengthening your digital footprint across the sources AI actually reads.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>You cannot buy your way in. But you can earn it. Here is how.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 to Learn More</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>What percentage of consumers now use AI instead of Google to search?</h3>
           <p>According to a 2025 survey by Eight Oh Two Marketing, 37% of consumers now start new information searches with AI tools rather than traditional search engines. Additionally, 43% of consumers use AI search tools daily, and three-quarters report using them more often than a year ago.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>37% of your customers are searching with AI. Are you there?</p>
-            <Link href="/blindspot">Run Your AI Visibility Check</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card">
@@ -673,16 +638,30 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
             </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Find Out What AI Says About Your Business</h2>
-            <p>Most businesses have no idea they are invisible to AI search. Our free Blind Spot Report shows exactly how you appear across ChatGPT, Claude, Perplexity, and Google AI. See what your customers see when they ask AI about your industry.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p style={{color:'rgba(255,255,255,0.4)',fontSize:'14px',marginTop:'12px'}}>No pitch, just the data.</p>
-          </div>
+          </section>
 
         </div>
       </article>

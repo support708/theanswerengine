@@ -270,10 +270,7 @@ export default function NearMeSearchesInAIEra() {
             <p>The phrase is not dead. The phrase as a strategy is dead. This article explains what replaces it, platform by platform, and exactly what you need to do to stay visible when your customers ask AI to find you.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms can actually locate and recommend your business right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: HOW AI HANDLES LOCATION */}
             <span className="ae-section-label" id="how-ai-handles-location">Location Intelligence</span>
@@ -347,10 +344,7 @@ export default function NearMeSearchesInAIEra() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Curious how each platform represents your business right now? We test all of them.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3: NEW ANATOMY */}
             <span className="ae-section-label" id="new-anatomy">Query Evolution</span>
@@ -375,10 +369,7 @@ export default function NearMeSearchesInAIEra() {
             <p><strong>Specificity escalation</strong> means AI users are asking more specific questions than traditional search users ever did, because they know AI can handle specificity. This is good news for local businesses that have built detailed, accurate, structured content. It is disqualifying for businesses that have only a basic GBP listing and a phone number. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See which of your business facts are machine-readable and which are invisible to AI constraint matching.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 4: PLATFORM COMPARISON */}
             <span className="ae-section-label" id="platform-comparison">Platform Analysis</span>
@@ -426,10 +417,7 @@ export default function NearMeSearchesInAIEra() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which platforms are showing your competitors instead of you? We run the test for free.</p>
-              <Link href="/blindspot">Start Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5: GOOGLE BUSINESS PROFILE */}
             <span className="ae-section-label" id="google-business-profile">GBP Strategy</span>
@@ -450,10 +438,7 @@ export default function NearMeSearchesInAIEra() {
             <p>The practical implication: businesses should actively encourage detailed, specific reviews. The content of reviews, not just the count or average, is becoming a primary AI data input for local recommendations. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know if your GBP is feeding Gemini the right signals? Our report covers this.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: CITY-SPECIFIC PAGES */}
             <span className="ae-section-label" id="city-specific-pages">Content Strategy</span>
@@ -517,10 +502,7 @@ export default function NearMeSearchesInAIEra() {
             </table>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your service pages pass the AI city-specificity test? We will check them for you. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <Link href="/blindspot">Get Your Free Content Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 7: SCHEMA MARKUP */}
             <span className="ae-section-label" id="schema-markup">Technical Foundation</span>
@@ -582,10 +564,7 @@ export default function NearMeSearchesInAIEra() {
             </div>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your schema is correctly implemented? We audit this as part of every Blind Spot Report.</p>
-              <Link href="/blindspot">Get Your Free Schema Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 8: VOICE SEARCH */}
             <span className="ae-section-label" id="voice-search">Voice Layer</span>
@@ -608,10 +587,7 @@ export default function NearMeSearchesInAIEra() {
             <p>For voice-specific optimization, the practical implications are: ensure your GBP hours are always accurate (voice queries about operating hours are extremely common and extremely action-driven), add your phone number in schema markup that voice AI can parse directly, and ensure your business name is consistent across all platforms exactly as you want it to be read aloud.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your business the one voice AI recommends, or does a competitor get that call? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Find Out &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 9: MISTAKES */}
             <span className="ae-section-label" id="mistakes">Common Pitfalls</span>
@@ -640,10 +616,7 @@ export default function NearMeSearchesInAIEra() {
             <p>The 55% of businesses that rank well on Google but do not appear in ChatGPT recommendations have optimized for one platform and left another entirely unaddressed. ChatGPT and Perplexity source from different data layers than Google Maps. A business that is well-represented in Google&apos;s local pack may have no substantive presence in the web-crawled content that ChatGPT pulls from. The optimization required for ChatGPT visibility (substantive website content, citations in authoritative sources, consistent NAP across non-Google directories) is different from GBP optimization. Both are necessary. Most businesses are doing only one.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes? Our free report identifies exactly which gaps are costing you AI visibility.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* TAKEAWAY */}
             <div className="ae-takeaway not-prose">
@@ -670,10 +643,7 @@ export default function NearMeSearchesInAIEra() {
             <p>The phrase &ldquo;near me&rdquo; was never really about the words. It was about expressing local intent to a system that needed explicit signals. AI has removed that need. What remains is the underlying customer intent, which has not changed at all, and the businesses that understand their job is to satisfy that intent in a format AI can confidently relay will thrive in this environment regardless of what words customers use to express it.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The window to build AI-era local visibility before your market gets crowded is open right now.</p>
-              <Link href="/blindspot">See Where You Stand &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -738,35 +708,37 @@ export default function NearMeSearchesInAIEra() {
             <p>The three highest-value schema types are LocalBusiness (or a specific subtype like Plumber or Restaurant), geo coordinates within your LocalBusiness schema, and Place schema for each area you serve. Combine these with FAQPage schema on your service pages and Review schema on testimonial content for maximum AI-readability across ChatGPT, Google, and Perplexity.</p>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Questions about your specific business type or city? We answer them on the first call, free.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to start with the written report? We deliver your Blind Spot analysis within 48 hours.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Business Visible When AI Recommends Local Services?</h2>
-            <p>Find out exactly what ChatGPT, Google AI Overviews, and Perplexity say when someone in your city searches for what you offer. Our free Blind Spot Report shows every gap in your AI local visibility and the specific steps to close them.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees about your local business.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

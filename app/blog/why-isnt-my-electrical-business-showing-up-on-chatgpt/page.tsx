@@ -263,10 +263,7 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
             <p>Here is what is actually happening: when AI platforms look for an electrician to recommend, they pull information from five main sources. Your website. Your Google Business Profile. Local directories like Angi and HomeAdvisor. Review platforms. And local business listings. If you are weak or missing in any of these areas, you become invisible. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what ChatGPT says about your electrical business right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <Link href="/blindspot">Get Your Free AI Visibility Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 2: HOW AI FINDS */}
             <span className="ae-section-label" id="how-ai-finds">The Process</span>
@@ -316,10 +313,7 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Let's run an audit on your current visibility across all platforms AI uses. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Start Your Free Audit Now &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 3: FOUR TACTICS */}
             <span className="ae-section-label" id="four-tactics">Actionable Tactics</span>
@@ -399,10 +393,7 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
             <p>Focus your energy on the high-impact list. Consistency across those platforms will do far more for your AI visibility than being scattered across dozens of low-value sites. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which directories are helping your AI visibility? We audit all of them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <Link href="/blindspot">Get Your Free Directory Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 5: COMMON MISTAKES */}
             <span className="ae-section-label" id="common-mistakes">Pitfalls to Avoid</span>
@@ -456,10 +447,7 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to skip the guesswork? We track your AI visibility monthly and show you exactly what is working.</p>
-              <Link href="/blindspot">Get Your Free Baseline Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* FINAL TEXT BEFORE FAQ */}
             <h2>The Opportunity is Now</h2>
@@ -514,35 +502,37 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
             <p>Absolutely. AI platforms prioritize local relevance and specific expertise over brand size. A local electrician with a complete Google Business Profile, consistent local directory listings, real customer reviews, and a website explaining their services often ranks higher than a national chain with generic information. AI rewards businesses that are clearly available in the customer's area.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to start? The first step is always the free audit. No obligation, no pitch.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have specific questions about your service area or business type? Call us.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Electrical Business Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone searches for an electrician in your area. Our free AI Visibility Audit shows you what is working, what is missing, and your exact competitive position.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Audit &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

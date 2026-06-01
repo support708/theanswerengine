@@ -286,13 +286,7 @@ export default function Page() {
           </section>
 
           {/* Inline CTA 1 */}
-          <div className="ae-cta-inline mb-12">
-            <p className="text-white font-semibold mb-1">Not sure if AI can find your shop right now? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <p className="text-gray-400 text-sm mb-3">Get your free Blind Spot Report and see exactly how AI platforms describe your business today.</p>
-            <Link href="/blindspot" className="ae-cta-primary">
-              Get My Free Blind Spot Report
-            </Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 2 */}
           <section id="how-ai-search-actually-works" className="mb-12">
@@ -412,13 +406,7 @@ export default function Page() {
           </section>
 
           {/* Inline CTA 2 */}
-          <div className="ae-cta-inline mb-12">
-            <p className="text-white font-semibold mb-1">Which gaps does your shop have right now? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-            <p className="text-gray-400 text-sm mb-3">Our Blind Spot Report maps exactly where your AI visibility breaks down and what category of fix each gap requires.</p>
-            <Link href="/blindspot" className="ae-cta-primary">
-              Get Your Free Report
-            </Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 5 */}
           <section id="trust-signals-that-move-the-needle" className="mb-12">
@@ -596,13 +584,7 @@ export default function Page() {
           </section>
 
           {/* Inline CTA 3 */}
-          <div className="ae-cta-inline mb-12">
-            <p className="text-white font-semibold mb-1">Ready to know exactly where you stand on each platform? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <p className="text-gray-400 text-sm mb-3">Talk to our team about a full AI visibility assessment for your auto repair shop.</p>
-            <a href="tel:+12134442229" className="ae-cta-primary">
-              Call (213) 444-2229
-            </a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 9: Independent vs Chain */}
           <section id="independent-vs-chain" className="mb-12">
@@ -813,27 +795,30 @@ export default function Page() {
           </section>
 
           {/* Final CTA */}
-          <div className="ae-final-cta">
-            <div className="ae-cta-block">
-              <h2 className="font-plus-jakarta text-3xl sm:text-4xl font-bold text-white mb-4">
-                Stop Being Invisible to AI
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
               </h2>
-              <p className="text-gray-300 text-lg mb-8 max-w-xl mx-auto">
-                Every day your shop is not showing up in AI search, a competitor is getting that referral instead. Get your free Blind Spot Report and find out exactly where your AI visibility breaks down.
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
               </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-                <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-[#F27D24]/25">
-                  Get My Free Blind Spot Report
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-                <a href="tel:+12134442229" className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-[#F27D24] hover:text-[#F27D24] transition-colors">
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  Call (213) 444-2229
-                </a>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
-              <p className="text-gray-600 text-sm">Free report. No commitment. Delivered within 24 hours.</p>
             </div>
-          </div>
+          </section>
 
         </article>
       </main>

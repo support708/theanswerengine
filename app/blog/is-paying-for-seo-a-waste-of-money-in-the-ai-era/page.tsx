@@ -328,10 +328,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Before you make any budget decisions, find out whether AI is sending customers to you or your competitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-            <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 2: SEO ROI REALITY ── */}
           <span className="ae-section-label" id="seo-roi-reality">The Data</span>
@@ -377,10 +374,7 @@ export default function BlogPost() {
           <p>The takeaway is not that SEO has zero ROI. It clearly does. The takeaway is that the ROI is eroding quarter over quarter as AI captures more of the high-intent searches that used to drive leads. Your SEO spend is buying you a smaller and smaller slice of a pie that AI is eating from the other side. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your ROI numbers may look healthy on paper. See what they look like when you factor in AI search. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-            <Link href="/blindspot">Run Your Free AI Visibility Check &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 3: THE ZERO-CLICK PROBLEM ── */}
           <span className="ae-section-label" id="zero-click-problem">The Shift</span>
@@ -402,10 +396,7 @@ export default function BlogPost() {
           <p>Your SEO budget is fighting for a shrinking share of clicks while the total addressable market of searchers grows. The customers are there. They are just taking a path that bypasses your website entirely. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Zero-click searches mean zero leads from traditional SEO. See where your customers are actually going. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Discover Your AI Blind Spots &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 4: WHERE SEO STILL WORKS ── */}
           <span className="ae-section-label" id="where-seo-works">Still Valuable</span>
@@ -454,10 +445,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is your SEO building a strong foundation or just generating reports? Find out what AI actually sees. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your AI Foundation Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 5: WHERE SEO IS BURNING MONEY ── */}
           <span className="ae-section-label" id="where-seo-fails">Money Pit</span>
@@ -499,10 +487,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Spending money on rankings that AI has already claimed? See exactly which of your keywords are affected. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot">Audit Your Keyword Exposure &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 6: AI CONVERSION ADVANTAGE ── */}
           <span className="ae-section-label" id="ai-conversion-advantage">The Multiplier</span>
@@ -524,10 +509,7 @@ export default function BlogPost() {
           <p>This does not mean SEO leads are worthless. It means that <Link href="/blog/aeo-vs-seo-local-business-guide">the highest-value leads in 2026 come from AI recommendations</Link>, and your budget allocation should reflect that reality. Every dollar you shift from declining-ROI SEO tactics toward AI visibility optimization buys you access to a higher-converting customer pool.</p>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your competitors are already capturing these 23x-higher-converting visitors. Are you?</p>
-            <Link href="/blindspot">Check Who AI Recommends in Your Market &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 7: BUDGET REALLOCATION ── */}
           <span className="ae-section-label" id="budget-reallocation">The Strategy</span>
@@ -616,10 +598,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Phase 1 starts with knowing exactly where you stand. Our free report gives you the complete picture.</p>
-            <Link href="/blindspot">Start Your AI Visibility Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── CHEAT SHEET ── */}
           <div className="ae-cheat-sheet not-prose">
@@ -673,25 +652,22 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Use this cheat sheet with your agency. But first, get the data that makes the conversation productive.</p>
-            <Link href="/blindspot">Get Your Free Data Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <div className="ae-quote not-prose">
             <blockquote>SEO is the foundation. AI visibility is the building. You need both, but a foundation alone does not generate revenue. Stop paying for a foundation and calling it a growth strategy.</blockquote>
           </div>
 
           {/* ── 3-TIER CTA BLOCK ── */}
-          <div className="ae-cta-block not-prose">
-            <h3>Your SEO Budget Deserves Better Returns</h3>
-            <p>You are not wasting money on SEO. You are underinvesting in where the returns are heading. Every month that passes, AI captures more of the high-intent searches that used to be SEO territory. Get your free Blind Spot Report and see exactly where your business stands across ChatGPT, Claude, Perplexity, and Google AI. Then make informed budget decisions based on data, not assumptions.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-          </div>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card">
@@ -715,10 +691,7 @@ export default function BlogPost() {
           <p>Not entirely, but paying for SEO alone is increasingly wasteful. SEO still returns roughly $7.48 for every $1 spent in some sectors, but that ROI is shrinking as 60% of searches now end without a click. The businesses getting the best returns are those combining SEO with AI visibility optimization. Pure SEO without an AI strategy is like optimizing a storefront on a street where foot traffic drops every quarter.</p>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure if your SEO is pulling its weight? Get the numbers that tell the truth.</p>
-            <Link href="/blindspot">See Your Real Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>What is the ROI of SEO in 2026?</h3>
           <p>The median SEO ROI is approximately 748% according to industry benchmarks. However, this figure includes campaigns that blend traditional SEO with AI-optimized content. Pure traditional SEO without AI visibility strategies is seeing declining returns as zero-click searches consume more than half of all queries. The best ROI comes from a combined approach where SEO provides the foundation and AI visibility captures the high-converting traffic.</p>
@@ -727,10 +700,7 @@ export default function BlogPost() {
           <p>No. SEO provides the technical foundation that AI systems also rely on. Clean site architecture, structured data, and topical authority all feed into how AI evaluates your business. The smarter strategy is to keep your SEO foundation while layering AI visibility optimization on top. Think of SEO as the infrastructure and AEO as the amplifier that makes your content visible to AI recommendation engines.</p>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>The best results come from combining SEO with AI visibility. See what combination works for your market.</p>
-            <Link href="/blindspot">Get Your Custom Strategy Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>How much of my marketing budget should go to AI visibility?</h3>
           <p>Forward-thinking businesses are allocating 20 to 40 percent of their search marketing budget toward AI visibility strategies. The exact split depends on your industry and how aggressively AI search is consuming your target queries. Service businesses where high-intent queries dominate should lean toward the higher end. E-commerce and informational businesses may weight more toward traditional SEO since their customers still browse and compare.</p>
@@ -739,10 +709,7 @@ export default function BlogPost() {
           <p>According to Semrush 2025 data, 58.5% of US searches and 59.7% of EU searches end without a click. When AI Overviews appear, the zero-click rate jumps to 83%. On mobile devices, zero-click searches hit 75%. Google AI Mode, currently in testing, shows a 93% zero-click rate. These numbers are trending in one direction, and it is not in favor of traditional SEO.</p>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Zero-click searches are the new normal. Adapt your strategy or lose market share. Start here.</p>
-            <Link href="/blindspot">Run Your Zero-Click Impact Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Do AI-referred visitors actually convert better than organic search visitors?</h3>
           <p>Yes. Research shows AI-referred visitors convert at up to 23 times higher rates than traditional organic search visitors. B2B SaaS companies report 6 to 27 times higher conversion rates from AI traffic. The reason is simple: when AI recommends your business, the visitor arrives with pre-built trust. AI has already done the comparison shopping. The customer is not browsing. They are buying.</p>
@@ -751,10 +718,7 @@ export default function BlogPost() {
           <p>No. SEO is not dead, but it is no longer sufficient on its own. The global SEO services market is still growing at 16.2% annually, and 91% of marketers report positive impact from SEO. What has changed is that SEO now serves primarily as a foundation rather than a complete lead generation strategy. The businesses thriving in 2026 treat SEO as the base layer and AI visibility as the growth layer. One without the other leaves money on the table.</p>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>SEO is the base layer. AI visibility is the growth layer. See which layer you are missing.</p>
-            <Link href="/blindspot">Get Your Free Layered Analysis &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SOURCES ── */}
           <span className="ae-section-label">Sources</span>
@@ -769,15 +733,30 @@ export default function BlogPost() {
         </div>
 
         {/* ── FINAL CTA ── */}
-        <div className="ae-final-cta">
-          <h2>Stop Guessing. Start Measuring.</h2>
-          <p>Your SEO budget is not wasted. It is misallocated. The highest-converting customers in 2026 come through AI recommendations, and every month you wait, your competitors build more authority signals that lock them into the top AI recommendation spots. Get your free Blind Spot Report and see exactly where your business stands across ChatGPT, Claude, Perplexity, and Google AI. Make your next budget decision with data, not hope.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </main>
     </>
   )

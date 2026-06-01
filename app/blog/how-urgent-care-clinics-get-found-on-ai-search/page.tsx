@@ -119,11 +119,15 @@ export default function Page() {
          Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         <p>AI platforms cannot discover them because wait time data is not published, appointment availability is not accessible, service scope is vague, and insurance information is buried. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
-        <div className="ae-cta-block not-prose">
-          <h3>Ready to Get Found on AI?</h3>
-          <p>Most urgent care clinics are invisible to ChatGPT and Perplexity. Clinics that optimize for AI visibility acquire new patients continuously. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-          <p><Link href="/contact" className="ae-cta-button">Start Your Urgent Care AEO Program</Link> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
+            </div>
 
         <h2>Frequently Asked Questions</h2>
         <h3>How long does it take to see results?</h3>

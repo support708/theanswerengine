@@ -302,10 +302,7 @@ export default function Page() {
             <p>Most businesses creating YouTube content are optimizing for the wrong metrics. They focus on views, likes, and subscribers. But AI platforms do not care about any of those signals. The videos that get cited by AI look fundamentally different from the videos that go viral. Understanding that difference is the key to AI visibility through video. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Not sure if AI platforms are citing your videos, or your competitors? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Check Your AI Visibility Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 1 */}
           <span className="ae-section-label" id="youtube-ai-dominance">YouTube and AI</span>
@@ -322,10 +319,7 @@ export default function Page() {
             <p>If you are producing educational or reference-style video content on any platform other than YouTube, AI will almost certainly never cite it. The structural advantages of YouTube, from its transcript system to its chapter markers to its integration with Google's AI pipeline, make it the only viable video platform for AI visibility. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Is your YouTube channel producing content that AI can actually cite? We can audit your video presence. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 2 */}
           <span className="ae-section-label" id="what-ai-reads">Transcripts and Text</span>
@@ -348,10 +342,7 @@ export default function Page() {
             <p>The three layers AI reads from your YouTube videos are transcripts, descriptions, and chapter structures. Optimizing all three is what separates videos that get cited from videos that get ignored. The visual production quality of your video matters far less than the quality of these text layers. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Your video transcripts could be the missing link in your AI visibility. Let us find the gaps. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            <Link href="/blindspot">Run Your Free AI Audit</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 3 */}
           <span className="ae-section-label" id="video-length">Length and Citations</span>
@@ -397,10 +388,7 @@ export default function Page() {
             <p>Many businesses have shifted their YouTube strategy toward Shorts because of the algorithm boost for short-form content. While Shorts may drive views and subscriber growth, they are nearly invisible to AI citation systems. If your goal is AI visibility, Shorts alone will not get you there. Think of Shorts as a discovery tool and long-form as your citation engine. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Is your video strategy optimized for AI citations or just views? There is a big difference. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            <Link href="/blindspot">See What AI Sees</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 4 */}
           <span className="ae-section-label" id="structure-signals">Structure Signals</span>
@@ -467,10 +455,7 @@ export default function Page() {
             <p>The majority of YouTube creators have not yet optimized their videos for AI citation. That gap is your opportunity. Videos with chapters, clean transcripts, and metadata-rich descriptions are the ones AI platforms prefer to cite. The good news: you can retroactively add these elements to your existing video library. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Want to know which of your existing videos are closest to being AI-citable? Start with a visibility audit. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <Link href="/blindspot">Get Your Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 5 */}
           <span className="ae-section-label" id="platform-differences">Platform Differences</span>
@@ -513,10 +498,7 @@ export default function Page() {
             <p>Winning YouTube citations on Google AI Overviews does not automatically mean you are winning on Perplexity, or vice versa. Each platform evaluates video content through its own lens. A comprehensive strategy accounts for these differences rather than assuming one-size-fits-all optimization will work everywhere.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>We check your visibility across every major AI platform. One report, complete picture.</p>
-            <Link href="/blindspot">See All Your AI Blind Spots</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 6 */}
           <span className="ae-section-label" id="vanity-metrics">Vanity Metrics</span>
@@ -556,10 +538,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Your competitors might have fewer subscribers but more AI citations. The numbers might surprise you.</p>
-            <Link href="/blindspot">Compare Your AI Visibility</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 7 */}
           <span className="ae-section-label" id="cross-platform">Cross-Platform Strategy</span>
@@ -613,10 +592,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Every day your competitors publish structured video content is another day they pull ahead in AI search.</p>
-            <Link href="/blindspot">See How Far Behind You Are</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Cheat Sheet */}
           <div className="ae-cheat-sheet">
@@ -677,21 +653,15 @@ export default function Page() {
           </div>
 
           {/* 3-Tier CTA Block before FAQ */}
-          <div className="ae-cta-block">
-            <h3>Your YouTube Videos Could Be Getting Cited by AI. Are They?</h3>
-            <p>Our free Blind Spot Report reveals exactly where your video content stands across ChatGPT, Perplexity, and Google AI Overviews. No pitch, just the data you need to start earning AI citations.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>
-                <svg className="inline w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>
-                <svg className="inline w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
-          </div>
 
           {/* Author Card */}
           <div className="not-prose">
@@ -715,10 +685,7 @@ export default function Page() {
           <h3>Does YouTube video length affect AI citation rates?</h3>
           <p>Yes. Long-form video accounts for 94% of all AI citations from YouTube. The largest citation cluster falls in the 10 to 20 minute range at 32.1%, followed by 5 to 10 minutes at 26.1%. Shorts and videos under 2 minutes account for only 5.7% of observed AI citations.</p>
 
-          <div className="ae-cta-inline">
-            <p>Not sure if your video lengths are optimized for AI? We can show you exactly where you stand.</p>
-            <Link href="/blindspot">Check Your Video Visibility</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Which AI platforms cite YouTube videos most often?</h3>
           <p>Perplexity accounts for 38.7% of total YouTube citations across AI platforms, followed by Google AI Overviews at 36.6%. ChatGPT contributes just 4.4% of YouTube citations. Each platform evaluates video content differently, so optimizing for one does not guarantee visibility on the others.</p>
@@ -726,10 +693,7 @@ export default function Page() {
           <h3>Do views and subscriber count help get YouTube videos cited by AI?</h3>
           <p>Research shows that views, likes, and subscriber count have near-zero correlation with AI citation frequency. What matters is structural elements: timestamps that function like headers, descriptions that read like metadata, and content designed for extraction rather than entertainment.</p>
 
-          <div className="ae-cta-inline">
-            <p>Your competitor with fewer views might be earning more AI citations than you. Find out why.</p>
-            <Link href="/blindspot">Run Your Free AI Audit</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Are YouTube transcripts important for AI search visibility?</h3>
           <p>Transcripts are critical. AI platforms read the spoken content of YouTube videos by processing transcript text. Uploading accurate, manually reviewed transcripts reduces noise from auto-generated captions and gives AI platforms clean, quotable text to cite in search results.</p>
@@ -737,10 +701,7 @@ export default function Page() {
           <h3>Do YouTube chapters and timestamps affect AI citations?</h3>
           <p>Only 31% of cited videos currently contain timestamp or chapter structure, which suggests significant optimization potential. Chapters divide your video into identifiable sections that AI can reference individually, making it easier for AI to locate and extract specific answers from your content.</p>
 
-          <div className="ae-cta-inline">
-            <p>Adding chapters to your existing videos could unlock AI citations you are currently missing.</p>
-            <Link href="/blindspot">See Your Optimization Gaps</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Can YouTube Shorts get cited by AI platforms?</h3>
           <p>Shorts are rarely cited. They account for only 5.7% of observed AI citations from YouTube. AI platforms overwhelmingly prefer long-form, reference-style content because it provides the depth and context needed to generate accurate, attributed answers.</p>
@@ -748,10 +709,7 @@ export default function Page() {
           <h3>How does YouTube compare to other video platforms for AI citations?</h3>
           <p>YouTube dominates with a 200x citation advantage over its nearest competitor. Vimeo accounts for roughly 0.1% of video citations. Even non-Google AI platforms like ChatGPT and Perplexity choose YouTube almost exclusively when citing video content.</p>
 
-          <div className="ae-cta-inline">
-            <p>Is your video content on the right platform? We audit every channel AI actually pays attention to.</p>
-            <Link href="/blindspot">Get Your Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Does having a blog help my YouTube videos get cited by AI?</h3>
           <p>Yes. Embedding YouTube videos in relevant blog posts creates additional crawl paths for AI platforms. When your video content is corroborated by written content on the same topic, AI platforms gain more confidence in citing your expertise. Cross-referencing between blog and video strengthens both.</p>
@@ -759,21 +717,30 @@ export default function Page() {
         </div>
 
         {/* Final CTA */}
-        <div className="ae-final-cta">
-          <h2>AI Is Already Citing YouTube Videos. Make Sure Yours Are in the Mix.</h2>
-          <p>YouTube earns 200x more AI citations than any other video platform. Our free Blind Spot Report reveals whether AI is citing your videos, your competitors, or neither. No pitch, just the data you need to start earning citations.</p>
-          <Link href="/blindspot" className="ae-cta-primary pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>
-              <svg className="inline w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              (213) 444-2229
-            </a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>
-              <svg className="inline w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              support@theanswerengine.ai
-            </a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </main>

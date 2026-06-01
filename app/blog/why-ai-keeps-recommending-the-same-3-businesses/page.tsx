@@ -307,24 +307,7 @@ export default function Page() {
             </p>
 
             {/* Hero Inline CTA */}
-            <div className="ae-cta-inline flex flex-wrap items-center gap-4 mb-4">
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#F27D24' }}
-              >
-                Check If AI Recommends You
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <a
-                href="tel:+12134442229"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
         </section>
 
@@ -462,17 +445,7 @@ export default function Page() {
             </div>
 
             {/* CTA Inline */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to see exactly where your business appears (and where it does not) across every major AI platform? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                Get Your Free AI Blind Spot Report
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 2: Platform Biases */}
@@ -511,17 +484,7 @@ export default function Page() {
             </div>
 
             {/* CTA Inline */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Understanding which platforms matter for your specific industry is the first step. Our analysis covers all major AI engines. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link
-                href="/blog/how-ai-platforms-choose-businesses-to-cite"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                How AI Platforms Choose Which Businesses to Cite
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 3: Compounding Advantage */}
@@ -559,18 +522,7 @@ export default function Page() {
              Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA Inline */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Every day your competitors are building AI authority while you are invisible. The compounding gap is real. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a
-                href="mailto:support@theanswerengine.ai"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                Email Us to Discuss Your AI Visibility Strategy
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 4: Comparison Table */}
@@ -660,17 +612,7 @@ export default function Page() {
             </div>
 
             {/* CTA Inline */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Curious how these citation patterns play out when two similar businesses compete head to head? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link
-                href="/blog/how-ai-picks-between-two-similar-businesses"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                How AI Picks Between Two Similar Businesses
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 5: The Rotation Myth */}
@@ -759,17 +701,7 @@ export default function Page() {
             </div>
 
             {/* CTA Inline */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Wondering why your competitor appears in AI results and you do not? The answer is almost always in the signals, not the service quality. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link
-                href="/blog/why-is-my-competitor-on-ai-search-not-me"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                Why Is My Competitor on AI Search and Not Me?
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 6: Decision Matrix */}
@@ -857,25 +789,7 @@ export default function Page() {
             </div>
 
             {/* CTA Inline */}
-            <div className="ae-cta-inline mt-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">If you scored &quot;Invisible&quot; in three or more areas, AI is actively choosing your competitors over you right now. That gap grows wider every week.</p>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href="/blindspot"
-                  className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg text-white transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#F27D24' }}
-                >
-                  Get Your Free Blind Spot Report
-                </Link>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
-                >
-                  Or call (213) 444-2229
-                </a>
-              </div>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Internal Link Block */}
@@ -1081,26 +995,7 @@ export default function Page() {
             </div>
 
             {/* CTA after FAQ */}
-            <div className="ae-cta-inline mt-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Have a specific question about your business&apos;s AI recommendation standing? Our team analyzes these patterns every day.</p>
-              <div className="flex flex-wrap gap-3">
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
-                >
-                  Email support@theanswerengine.ai
-                </a>
-                <span className="text-gray-600 text-sm">or</span>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
-                >
-                  Call (213) 444-2229
-                </a>
-              </div>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Author Card */}
@@ -1120,66 +1015,30 @@ export default function Page() {
           </div>
 
           {/* Final CTA */}
-          <div className="ae-final-cta">
-            <div
-              className="rounded-2xl p-10 text-center relative overflow-hidden"
-              style={{
-                background: 'linear-gradient(135deg, rgba(255,106,0,0.15) 0%, rgba(255,106,0,0.05) 50%, rgba(255,106,0,0.15) 100%)',
-                border: '2px solid rgba(255,106,0,0.4)',
-                boxShadow: '0 0 40px rgba(255,106,0,0.15), 0 0 80px rgba(255,106,0,0.05)',
-              }}
-            >
-              <div
-                className="absolute inset-0 rounded-2xl pointer-events-none"
-                style={{
-                  background: 'radial-gradient(ellipse at center, rgba(255,106,0,0.08) 0%, transparent 70%)',
-                }}
-              />
-              <div className="relative">
-                <div
-                  className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}
-                >
-                  <span className="inline-block w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: '#F27D24' }} />
-                  Free AI Blind Spot Report Available Now
-                </div>
-
-                <h2 className="font-plus-jakarta text-3xl md:text-4xl font-extrabold text-white mb-4">
-                  Break Into AI&apos;s Inner Circle
-                </h2>
-
-                <p className="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed text-lg">
-                  Get your free AI Blind Spot Report and discover what separates the businesses AI recommends from the ones it ignores. The concentration data is clear. The window is narrowing. The question is whether you act now or watch the gap widen.
-                </p>
-
-                <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-                  <Link
-                    href="/blindspot"
-                    className="ae-cta-primary inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white text-lg transition-all hover:opacity-90"
-                    style={{
-                      backgroundColor: '#F27D24',
-                      boxShadow: '0 0 20px rgba(255,106,0,0.4)',
-                    }}
-                  >
-                    Get Your Free Blind Spot Report
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                  </Link>
-                  <a
-                    href="tel:+12134442229"
-                    className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-80"
-                    style={{ color: '#F27D24', border: '2px solid rgba(255,106,0,0.4)', backgroundColor: 'rgba(255,106,0,0.08)' }}
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                    (213) 444-2229
-                  </a>
-                </div>
-
-                <p className="text-xs text-gray-500">
-                  No commitment. We audit your AI visibility across ChatGPT, Perplexity, Google AI, and Copilot and show you exactly where you stand, for free.
-                </p>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
-          </div>
+          </section>
 
         </div>
       </main>

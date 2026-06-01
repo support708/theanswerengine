@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'SEO waste of money AI era',
     'AI search marketing 2026',
   ],
-  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
+  authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
     title: "I Spent Thousands on SEO and AI Still Can't Find Me",
     description:
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-29T00:00:00Z',
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['The Answer Engine Team'],
     images: [
       {
         url: 'https://theanswerengine.ai/blog/i-spent-thousands-on-seo-and-ai-still-cant-find-me.webp',
@@ -75,25 +75,16 @@ const jsonLd = {
         height: 630,
       },
       author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        '@type': 'Organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
       },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/blog/i-spent-thousands-on-seo-and-ai-still-cant-find-me.webp',
+          url: 'https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png',
         },
       },
       datePublished: '2026-03-29T00:00:00Z',
@@ -230,7 +221,7 @@ export default function ISpentThousandsOnSEOPage() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#F27D24"
+                  stroke="#FF6A00"
                   strokeWidth="0.8"
                 />
               </pattern>
@@ -245,23 +236,14 @@ export default function ISpentThousandsOnSEOPage() {
               <span>/</span>
               <Link href="/blog" style={{ color: '#9CA3AF' }} className="hover:text-white transition-colors">Blog</Link>
               <span>/</span>
-              <span style={{ color: '#F27D24' }}>Business Pain Points</span>
+              <span style={{ color: '#FF6A00' }}>Business Pain Points</span>
             </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/i-spent-thousands-on-seo-and-ai-still-cant-find-me.webp"
-              alt="i spent thousands on seo and ai still cant find me"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
 
             {/* Category badge */}
             <div className="mb-4">
               <span
                 className="inline-block text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 Business Pain Points
               </span>
@@ -272,7 +254,7 @@ export default function ISpentThousandsOnSEOPage() {
               style={{ color: '#FFFFFF' }}
             >
               I Spent Thousands on SEO and{' '}
-              <span style={{ color: '#F27D24' }}>AI Still Can&apos;t Find Me</span>
+              <span style={{ color: '#FF6A00' }}>AI Still Can&apos;t Find Me</span>
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed mb-8" style={{ color: '#D1D5DB', maxWidth: '720px' }}>
@@ -280,7 +262,7 @@ export default function ISpentThousandsOnSEOPage() {
             </p>
 
             <div className="flex flex-wrap items-center gap-4 text-sm" style={{ color: '#6B7280' }}>
-              <span>By Justin Borges</span>
+              <span>By The Answer Engine Team</span>
               <span>|</span>
               <time dateTime="2026-03-29">March 29, 2026</time>
               <span>|</span>
@@ -289,14 +271,14 @@ export default function ISpentThousandsOnSEOPage() {
 
             {/* Hero CTA */}
             <div className="mt-8">
-              <Link
-                href="/blindspot"
+              <a
+                href="https://theanswerengine.ai/#audit"
                 className="ae-cta-inline inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-lg transition-all"
-                style={{ backgroundColor: '#F27D24', color: '#FFFFFF' }}
+                style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
               >
-                Get Your Free Blind Spot Report
+                Find Your AI Blind Spots Free
                 <span aria-hidden="true">&#8594;</span>
-              </Link>
+              </a>
             </div>
           </div>
         </section>
@@ -336,7 +318,7 @@ export default function ISpentThousandsOnSEOPage() {
               >
                 <div
                   className="text-3xl md:text-4xl font-extrabold font-plus-jakarta mb-2"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   {item.stat}
                 </div>
@@ -363,7 +345,7 @@ export default function ISpentThousandsOnSEOPage() {
           >
             <h2
               className="font-plus-jakarta text-base font-bold mb-4 uppercase tracking-wider"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               In This Article
             </h2>
@@ -408,13 +390,13 @@ export default function ISpentThousandsOnSEOPage() {
             </h2>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Imagine paying your SEO agency every month for two years. Keyword rankings climb. Your domain authority rises. The monthly PDF reports show green arrows everywhere. On paper, things look healthy.
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+            </p>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Then a friend asks ChatGPT to recommend the best HVAC company in Dallas. Or a potential client types &quot;who does the best tax planning for real estate investors in Phoenix&quot; into Perplexity. Or a buyer asks Google for a recommendation and sees an AI Overview at the top of the page.
-             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+            </p>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Your name is nowhere. Three competitors are cited with full explanations. One of them has a website that looks like it was built in 2019, but AI knows exactly what they do, who they serve, and why they&apos;re trustworthy.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+            </p>
 
             <div
               className="ae-callout-warning rounded-xl p-6 my-8"
@@ -428,30 +410,30 @@ export default function ISpentThousandsOnSEOPage() {
                 <div>
                   <p className="font-bold mb-1" style={{ color: '#FBBF24' }}>
                     The SEO Paradox
-                   Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                  </p>
                   <p className="text-sm leading-relaxed" style={{ color: '#D1D5DB' }}>
                     You can rank on page one of Google and be completely absent from every AI platform simultaneously. These are separate visibility systems with different rules, different signals, and increasingly different audiences. Winning one does not mean you win the other.
-                   Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+                  </p>
                 </div>
               </div>
             </div>
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               This is the SEO paradox that agencies are not telling you about, either because they don&apos;t fully understand it yet, or because admitting it means admitting your existing investment has a blind spot the size of a freight train.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+            </p>
 
             {/* Inline CTA */}
             <div className="ae-cta-block rounded-xl p-6 my-8" style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="font-semibold mb-3" style={{ color: '#F27D24' }}>
+              <p className="font-semibold mb-3" style={{ color: '#FF6A00' }}>
                 Wondering if AI can find your business right now?
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+              </p>
               <p className="text-sm mb-4" style={{ color: '#D1D5DB' }}>
                 Most business owners have never checked. A quick audit reveals exactly where you stand across ChatGPT, Perplexity, and Google AI Overviews.
-               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+              </p>
               <a
-                href="/blindspot"
+                href="https://theanswerengine.ai/#audit"
                 className="ae-cta-inline inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg transition-all"
-                style={{ backgroundColor: '#F27D24', color: '#FFFFFF' }}
+                style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
               >
                 Get My Free AI Visibility Audit &#8594;
               </a>
@@ -468,13 +450,13 @@ export default function ISpentThousandsOnSEOPage() {
             </h2>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               This is the core misconception that costs businesses thousands of dollars in misdirected budget. Google and AI search platforms are not the same system. They were not built the same way, they do not evaluate content the same way, and they do not produce the same results.
-             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Google&apos;s algorithm has, for decades, been trained to reward backlinks, keyword relevance, and domain authority. Build enough links from reputable sites, hit the right keyword densities, make sure your technical setup is clean, and Google will rank you. It&apos;s a well-understood game with well-understood rules.
-             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            </p>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               AI platforms work on an entirely different logic. ChatGPT, Perplexity, Claude, and Google&apos;s AI Overviews are trained on vast corpora of text and then fine-tuned to produce trustworthy, well-sourced answers to conversational questions. When someone asks one of these systems to recommend a business, it draws on a completely different set of signals:
-             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            </p>
 
             <ul className="space-y-3 mb-6" style={{ color: '#D1D5DB' }}>
               {[
@@ -485,7 +467,7 @@ export default function ISpentThousandsOnSEOPage() {
                 'How much topical depth exists in your content ecosystem',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm">
-                  <span style={{ color: '#F27D24', marginTop: '2px' }} aria-hidden="true">&#10003;</span>
+                  <span style={{ color: '#FF6A00', marginTop: '2px' }} aria-hidden="true">&#10003;</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -493,7 +475,7 @@ export default function ISpentThousandsOnSEOPage() {
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Notice that none of those items are &quot;have 500 backlinks&quot; or &quot;use the keyword phrase 12 times per page.&quot; Research from multiple sources confirms that traditional SEO metrics like backlink counts and traffic volume have little to no measurable impact on whether an AI platform cites a business. Content depth, readability, and structured clarity are what matter most.
-             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+            </p>
 
             <div
               className="ae-callout-info rounded-xl p-6 my-8"
@@ -507,21 +489,21 @@ export default function ISpentThousandsOnSEOPage() {
                 <div>
                   <p className="font-bold mb-1" style={{ color: '#60A5FA' }}>
                     The Decoupling That&apos;s Draining Your ROI
-                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+                  </p>
                   <p className="text-sm leading-relaxed" style={{ color: '#D1D5DB' }}>
                     Since Google launched AI Overviews in May 2024, nearly 4 in 10 marketers report traffic losses even when their rankings stayed strong. Impressions stay up. Clicks fall. The buyer got the answer from AI and never visited your site. This is called &quot;The Great Decoupling&quot; and it is accelerating.
-                   Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+                  </p>
                 </div>
               </div>
             </div>
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               For more context on how this shift is affecting businesses that depend on Google traffic, see our deep dive on{' '}
-              <Link href="/blog/seo-not-generating-leads" style={{ color: '#F27D24' }} className="underline hover:opacity-80">
+              <Link href="/blog/seo-not-generating-leads" style={{ color: '#FF6A00' }} className="underline hover:opacity-80">
                 why SEO is no longer generating leads the way it used to
               </Link>
               .
-             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            </p>
           </section>
 
           {/* SECTION 3 */}
@@ -534,10 +516,10 @@ export default function ISpentThousandsOnSEOPage() {
             </h2>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Understanding the mechanics behind AI citations is the first step toward closing the gap. These systems are not running keyword searches against a database. They are generating responses based on patterns learned during training and retrieval augmentation at query time.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            </p>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               When a retrieval-augmented system like Perplexity searches the web to construct an answer, it is looking for sources that are authoritative, clearly structured, and directly responsive to the question at hand. When a model like ChatGPT draws on training data, it surfaces businesses and entities it encountered frequently in trustworthy contexts.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+            </p>
 
             <div className="grid md:grid-cols-3 gap-4 my-8">
               {[
@@ -574,26 +556,26 @@ export default function ISpentThousandsOnSEOPage() {
                   </h3>
                   <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>
                     {card.desc}
-                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+                  </p>
                 </div>
               ))}
             </div>
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               The businesses that consistently show up in AI responses have something in common: they&apos;ve built a content presence that reads like a reference document, not a sales pitch. They answer questions. They define their niche. They appear in the places that AI systems trust.
-             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
 
             {/* Inline CTA */}
             <p className="mb-2 leading-relaxed" style={{ color: '#D1D5DB' }}>
               The good news is that this is a solvable problem. The bad news is that your current SEO agency almost certainly isn&apos;t solving it.{' '}
               <a
-                href="/blindspot"
+                href="https://theanswerengine.ai/#audit"
                 className="ae-cta-inline font-semibold underline"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 See where your AI visibility stands right now.
               </a>
-             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            </p>
           </section>
 
           {/* COMPARISON TABLE */}
@@ -606,13 +588,13 @@ export default function ISpentThousandsOnSEOPage() {
             </h2>
             <p className="mb-6 leading-relaxed" style={{ color: '#D1D5DB' }}>
               The table below captures the fundamental differences between what it takes to rank on Google and what it takes to be cited by AI. These are not the same game.
-             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+            </p>
 
             <div className="ae-comparison-table overflow-x-auto rounded-xl mb-6" style={{ border: '1px solid rgba(255,255,255,0.1)' }}>
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
-                    <th className="text-left px-5 py-4 font-semibold" style={{ color: '#F27D24' }}>Factor</th>
+                    <th className="text-left px-5 py-4 font-semibold" style={{ color: '#FF6A00' }}>Factor</th>
                     <th className="text-left px-5 py-4 font-semibold" style={{ color: '#9CA3AF' }}>Traditional SEO</th>
                     <th className="text-left px-5 py-4 font-semibold" style={{ color: '#34D399' }}>AI Search Visibility</th>
                   </tr>
@@ -648,7 +630,7 @@ export default function ISpentThousandsOnSEOPage() {
 
             <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>
               The gap between these two columns explains why businesses with strong SEO are routinely invisible to AI. They optimized for a game that is being replaced in real time.
-             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+            </p>
           </section>
 
           {/* SECTION 4 - REAL COST */}
@@ -661,10 +643,10 @@ export default function ISpentThousandsOnSEOPage() {
             </h2>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Let&apos;s put numbers to this. A typical small business paying for SEO spends between $1,500 and $5,000 per month, roughly $18,000 to $60,000 per year. That investment buys Google rankings. It does nothing for AI visibility.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+            </p>
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Meanwhile, AI-driven referral traffic converts at six times the rate of standard organic search traffic. Buyers who get a recommendation from ChatGPT or Perplexity are not browsing options. They are ready to act. They were told to call you.
-             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
 
             <div className="grid md:grid-cols-2 gap-5 my-8">
               <div
@@ -725,21 +707,21 @@ export default function ISpentThousandsOnSEOPage() {
                 border: '1px solid rgba(255,106,0,0.3)',
               }}
             >
-              <p className="font-bold mb-2" style={{ color: '#F27D24' }}>
+              <p className="font-bold mb-2" style={{ color: '#FF6A00' }}>
                 The Compounding Cost
-               Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+              </p>
               <p className="text-sm leading-relaxed" style={{ color: '#D1D5DB' }}>
                 Every month you spend optimizing only for Google, a competitor who understands AI visibility gets mentioned in AI responses instead of you. That competitor gets the high-intent buyer. You get the invoice from your SEO agency. The gap compounds every single month.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+              </p>
             </div>
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               For a broader look at whether your SEO budget is delivering returns in the AI era, our analysis of{' '}
-              <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era" style={{ color: '#F27D24' }} className="underline hover:opacity-80">
+              <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era" style={{ color: '#FF6A00' }} className="underline hover:opacity-80">
                 whether paying for SEO is a waste of money
               </Link>{' '}
               covers the full financial picture.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+            </p>
           </section>
 
           {/* SECTION 5 - WARNING SIGNS */}
@@ -752,7 +734,7 @@ export default function ISpentThousandsOnSEOPage() {
             </h2>
             <p className="mb-6 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Most business owners don&apos;t know they&apos;re invisible to AI because nobody has told them to check. Here are the signs that the problem is already costing you money:
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+            </p>
 
             <div className="space-y-4 mb-8">
               {[
@@ -802,7 +784,7 @@ export default function ISpentThousandsOnSEOPage() {
                     </h3>
                     <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>
                       {item.desc}
-                     Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                    </p>
                   </div>
                 </div>
               ))}
@@ -816,16 +798,16 @@ export default function ISpentThousandsOnSEOPage() {
                 border: '1px solid rgba(255,106,0,0.2)',
               }}
             >
-              <p className="text-sm font-semibold mb-2" style={{ color: '#F27D24' }}>
+              <p className="text-sm font-semibold mb-2" style={{ color: '#FF6A00' }}>
                 Recognize any of these signs?
-               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+              </p>
               <p className="text-sm mb-3" style={{ color: '#D1D5DB' }}>
                 Call us at{' '}
-                <a href="tel:+12134442229" style={{ color: '#F27D24' }} className="font-semibold">
+                <a href="tel:+12134442229" style={{ color: '#FF6A00' }} className="font-semibold">
                   (213) 444-2229
                 </a>{' '}
                 or email{' '}
-                <a href="mailto:support@theanswerengine.ai" style={{ color: '#F27D24' }} className="font-semibold">
+                <a href="mailto:support@theanswerengine.ai" style={{ color: '#FF6A00' }} className="font-semibold">
                   support@theanswerengine.ai
                 </a>{' '}
                 and we&apos;ll run a free AI visibility audit and tell you exactly where your blind spots are.
@@ -914,7 +896,7 @@ export default function ISpentThousandsOnSEOPage() {
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               If you&apos;re wondering how long you have before AI invisibility becomes a crisis-level problem, our piece on{' '}
-              <Link href="/blog/will-business-vanish-stop-doing-seo" style={{ color: '#F27D24' }} className="underline hover:opacity-80">
+              <Link href="/blog/will-business-vanish-stop-doing-seo" style={{ color: '#FF6A00' }} className="underline hover:opacity-80">
                 whether your business will vanish if you stop doing SEO
               </Link>{' '}
               addresses that timeline directly.
@@ -1004,7 +986,7 @@ export default function ISpentThousandsOnSEOPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.1)' }}>
-                    <th className="text-left px-5 py-4 font-semibold" style={{ color: '#F27D24' }}>Your Situation</th>
+                    <th className="text-left px-5 py-4 font-semibold" style={{ color: '#FF6A00' }}>Your Situation</th>
                     <th className="text-left px-5 py-4 font-semibold" style={{ color: '#9CA3AF' }}>SEO-Only Risk</th>
                     <th className="text-left px-5 py-4 font-semibold" style={{ color: '#34D399' }}>Recommended Action</th>
                   </tr>
@@ -1084,7 +1066,7 @@ export default function ISpentThousandsOnSEOPage() {
                 <span className="text-2xl" aria-hidden="true">&#128203;</span>
                 <h2
                   className="font-plus-jakarta text-xl md:text-2xl font-bold"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   AI Visibility Audit Cheat Sheet
                 </h2>
@@ -1133,13 +1115,13 @@ export default function ISpentThousandsOnSEOPage() {
                   },
                 ].map((section) => (
                   <div key={section.category}>
-                    <h3 className="font-plus-jakarta font-bold text-sm mb-3" style={{ color: '#F27D24' }}>
+                    <h3 className="font-plus-jakarta font-bold text-sm mb-3" style={{ color: '#FF6A00' }}>
                       {section.category}
                     </h3>
                     <ul className="space-y-2">
                       {section.items.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-sm" style={{ color: '#D1D5DB' }}>
-                          <span style={{ color: '#F27D24', marginTop: '2px', flexShrink: 0 }} aria-hidden="true">&#9744;</span>
+                          <span style={{ color: '#FF6A00', marginTop: '2px', flexShrink: 0 }} aria-hidden="true">&#9744;</span>
                           <span>{item}</span>
                         </li>
                       ))}
@@ -1154,9 +1136,9 @@ export default function ISpentThousandsOnSEOPage() {
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="/blindspot"
+                    href="https://theanswerengine.ai/#audit"
                     className="ae-cta-inline inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg"
-                    style={{ backgroundColor: '#F27D24', color: '#FFFFFF' }}
+                    style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
                   >
                     Get a Full AI Audit &#8594;
                   </a>
@@ -1165,7 +1147,7 @@ export default function ISpentThousandsOnSEOPage() {
                     className="inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg"
                     style={{
                       backgroundColor: 'transparent',
-                      color: '#F27D24',
+                      color: '#FF6A00',
                       border: '1px solid rgba(255,106,0,0.5)',
                     }}
                   >
@@ -1198,9 +1180,9 @@ export default function ISpentThousandsOnSEOPage() {
 
               <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
                 <a
-                  href="/blindspot"
+                  href="https://theanswerengine.ai/#audit"
                   className="ae-cta-inline inline-flex items-center gap-2 font-bold px-7 py-4 rounded-xl text-base transition-all"
-                  style={{ backgroundColor: '#F27D24', color: '#FFFFFF' }}
+                  style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
                 >
                   Find My AI Blind Spots Free &#8594;
                 </a>
@@ -1280,7 +1262,7 @@ export default function ISpentThousandsOnSEOPage() {
                     className="font-plus-jakarta font-bold mb-3 flex items-start gap-3"
                     style={{ color: '#FFFFFF' }}
                   >
-                    <span style={{ color: '#F27D24', flexShrink: 0 }} aria-hidden="true">Q.</span>
+                    <span style={{ color: '#FF6A00', flexShrink: 0 }} aria-hidden="true">Q.</span>
                     {item.q}
                   </h3>
                   <p className="text-sm leading-relaxed pl-6" style={{ color: '#9CA3AF' }}>
@@ -1302,14 +1284,14 @@ export default function ISpentThousandsOnSEOPage() {
             >
               <div
                 className="shrink-0 w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold"
-                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#F27D24' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
                 aria-hidden="true"
               >
                 AE
               </div>
               <div>
                 <p className="font-plus-jakarta font-bold mb-1" style={{ color: '#FFFFFF' }}>
-                  Justin Borges
+                  The Answer Engine Team
                 </p>
                 <p className="text-xs mb-2" style={{ color: '#6B7280' }}>
                   Published March 29, 2026 &bull; Business Pain Points
@@ -1402,10 +1384,10 @@ export default function ISpentThousandsOnSEOPage() {
 
               <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap mb-6">
                 <a
-                  href="/blindspot"
+                  href="https://theanswerengine.ai/#audit"
                   className="ae-cta-inline inline-flex items-center gap-2 font-extrabold text-lg px-8 py-4 rounded-xl transition-all"
                   style={{
-                    backgroundColor: '#F27D24',
+                    backgroundColor: '#FF6A00',
                     color: '#FFFFFF',
                     boxShadow: '0 0 24px rgba(255,106,0,0.5)',
                   }}
@@ -1418,7 +1400,7 @@ export default function ISpentThousandsOnSEOPage() {
                 <a
                   href="tel:+12134442229"
                   className="flex items-center gap-2 font-semibold"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   &#128222; (213) 444-2229
                 </a>

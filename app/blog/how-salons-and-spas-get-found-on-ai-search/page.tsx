@@ -287,10 +287,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <p>For a deeper look at how this process works across all business types, see our guide on <Link href="/blog/what-happens-when-customer-asks-ai-find-business">what happens when a customer asks AI to find a business</Link>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your salon or spa. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: AI EVALUATION */}
             <span className="ae-section-label" id="ai-evaluation">AI Evaluation</span>
@@ -319,10 +316,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <p>SalonToday has noted that SEO and AI are transforming how clients find salons in 2026. The businesses that have built verifiable authority across multiple platforms are the ones AI trusts enough to recommend.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when someone searches for a salon or spa like yours? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3: SPECIALIZATION */}
             <span className="ae-section-label" id="specialization-signal">Specialization Signals</span>
@@ -351,10 +345,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <p>When a beauty business is featured in a local publication, a beauty blog, or an industry outlet, that mention builds the authority AI uses when generating recommendations. A salon that has been covered by a local lifestyle magazine for their balayage work now has a third-party source confirming the specialization. AI weighs external citations heavily, which is why earned media and publication features have outsized impact on beauty business AI visibility.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your specialization language compares to the salons AI is recommending instead of you. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* BAR GROUP - AI Query Match Rates */}
             <div className="ae-bar-group not-prose">
@@ -437,10 +428,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <p>The most important factor across all directories is consistency. Your business name, address, phone number, hours, and services listed must be identical everywhere. AI platforms use this consistency as a reliability signal. Even minor discrepancies, like &quot;The Glow Spa&quot; on one platform and &quot;Glow Spa &amp; Wellness&quot; on another, reduce AI confidence in your business data and suppress recommendations.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which directories AI platforms are pulling your salon data from? Our report shows you exactly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5: WEBSITE VISIBILITY */}
             <span className="ae-section-label" id="website-visibility">Technical Gaps</span>
@@ -500,10 +488,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             </table>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover whether AI crawlers can actually read your salon or spa website.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: REVIEWS */}
             <span className="ae-section-label" id="reviews-trust">Trust Layer</span>
@@ -522,10 +507,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <p>Recency also matters. AI platforms treat a cluster of recent reviews as evidence that a business is actively operating and maintaining quality. A salon with 200 reviews and none in the last year signals less reliability than one with 80 reviews and a steady monthly cadence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI can actually read your client reviews or if they are hidden behind JavaScript.</p>
-              <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 7: COMMON GAPS */}
             <span className="ae-section-label" id="common-gaps">Common Gaps</span>
@@ -602,16 +584,10 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             </table>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Which of these gaps is hurting your beauty business? Our free report identifies every one of them. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk strategy with a human? We work exclusively with service businesses and know the beauty industry.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -631,10 +607,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             </div>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your specific services and local market? We do that. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 8: LOOKING AHEAD */}
             <span className="ae-section-label">Looking Ahead</span>
@@ -655,22 +628,13 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The salons and spas acting now will own their market in AI search. The ones waiting will be playing catch-up. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot">See Where Your Business Stands &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for local service businesses including salons, spas, and med spas. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -724,42 +688,41 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <p>The single highest-impact action is making your website content crawlable to AI. This means ensuring your service descriptions, team bios, specializations, and client testimonials are rendered as plain HTML that AI crawlers can read without executing JavaScript. After that, declaring clear specializations and building consistent directory listings across Yelp, StyleSeat, Vagaro, and industry directories drives the most AI visibility improvement.</p>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where your beauty business stands in AI search? The report is free and takes 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your type of beauty business? Call us and we will walk you through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure where to start? Email us your website URL and we will take a look before we even talk.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Salon or Spa Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when a client searches for a salon or spa in your area and specialty. Our free Blind Spot Report shows you the gaps, the competitors being recommended instead of you, and the opportunities in your AI visibility right now.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

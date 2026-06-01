@@ -320,10 +320,7 @@ export default function Page() {
             </div>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure what AI actually sees on your website? Find out in 48 hours.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 1 */}
             <span className="ae-section-label" id="why-platform-matters">The Foundation</span>
@@ -346,10 +343,7 @@ export default function Page() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly what AI crawlers encounter on your pages? We explain it here.</p>
-              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">What Your Website Looks Like to an AI Crawler &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 2 */}
             <span className="ae-section-label" id="what-crawlers-see">Under the Hood</span>
@@ -403,10 +397,7 @@ export default function Page() {
             </div>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Heavy page builders and JavaScript frameworks can hide your content from AI. Here is why. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link href="/blog/is-your-website-too-complicated-for-ai">Is Your Website Too Complicated for AI? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 3: Wix Strengths */}
             <span className="ae-section-label" id="wix-strengths">Wix Advantages</span>
@@ -427,10 +418,14 @@ export default function Page() {
             <p>Wix uses AI to automatically generate alt text for images, which contributes to the overall accessibility and crawlability signal that AI search engines evaluate. WordPress requires a plugin or manual effort for the same functionality. While alt text alone does not drive AI citations, it contributes to the structured, well-documented pages that AI platforms prefer to reference.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-block not-prose">
-              <h3>Want to Know If Wix Is Limiting Your AI Visibility?</h3>
-              <p>Our Blind Spot Report shows you exactly what AI sees on your site versus your competitors. Free, no obligation. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Schema Markup, Site Speed, GptBot — The Technical Signals That Determine AI Citations</h3>
+              <p>AI engines evaluate your technical signals: schema markup, crawl access, page authority, and entity consistency. A free audit shows exactly where your technical setup is costing you citations.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Technical AI Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
 
             {/* Section 4: WordPress Strengths */}
@@ -452,10 +447,7 @@ export default function Page() {
             <p>While WordPress lacks native AI optimization tools, its plugin ecosystem fills every gap. Schema generators, sitemap controllers, page speed optimizers, broken link checkers, and AI-specific monitoring tools are all available. The ecosystem is mature, well-documented, and continuously updated as AI search requirements evolve.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Schema markup is the AI visibility multiplier. Learn how it works. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link href="/blog/does-schema-markup-help-ai-search">Does Schema Markup Help AI Search? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 5: Head to Head */}
             <span className="ae-section-label" id="head-to-head">Side by Side</span>
@@ -539,10 +531,7 @@ export default function Page() {
             </div>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Need help figuring out which factors matter most for your specific business? Talk to us. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 6: Schema Showdown */}
             <span className="ae-section-label" id="schema-showdown">The AI Multiplier</span>
@@ -567,10 +556,7 @@ export default function Page() {
             </div>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Already on one of these platforms and want a professional AI visibility assessment? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 7: Pros and Cons */}
             <span className="ae-section-label" id="pros-cons">Strengths and Weaknesses</span>
@@ -627,10 +613,7 @@ export default function Page() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your competitors may already be optimized for AI search. See how you compare.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 8: Common Mistakes */}
             <span className="ae-section-label" id="common-mistakes">Avoidable Errors</span>
@@ -663,10 +646,7 @@ export default function Page() {
             </div>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering if your site is too complex for AI to read? We wrote a full guide on this. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <Link href="/blog/is-your-website-too-complicated-for-ai">Is Your Website Too Complicated for AI? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 9: Decision Matrix */}
             <span className="ae-section-label" id="decision-matrix">Make Your Choice</span>
@@ -718,10 +698,7 @@ export default function Page() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure where your business falls? We can tell you exactly what to prioritize. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="tel:+12134442229">Call us at (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 10: What Matters More */}
             <span className="ae-section-label" id="what-matters-more">The Bigger Picture</span>
@@ -740,10 +717,7 @@ export default function Page() {
             <p><strong>Structured data beyond the basics.</strong> Both Wix and WordPress can deliver basic schema. The businesses that dominate AI search go further, implementing detailed service schemas, FAQ markup, review aggregation, and local business data that give AI crawlers a complete, structured picture of their business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Schema markup is one of the most powerful tools for AI visibility. Learn more.</p>
-              <Link href="/blog/does-schema-markup-help-ai-search">Does Schema Markup Help AI Search? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 11: Cheat Sheet */}
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
@@ -782,18 +756,13 @@ export default function Page() {
             </div>
 
             {/* CTA 12 - 3-tier CTA block */}
-            <div className="ae-cta-block not-prose">
-              <h3>Find Out What AI Search Engines See on Your Website</h3>
-              <p>Whether you are on Wix, WordPress, or any other platform, our Blind Spot Report reveals exactly how AI crawlers interpret your site versus your competitors. Free analysis, delivered in 48 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <div className="flex flex-col sm:flex-row gap-4 mt-6">
-                <Link href="/blindspot" className="inline-flex items-center justify-center px-6 py-3 bg-[#F27D24] text-white font-semibold rounded-lg hover:bg-[#F27D24]/90 transition-colors">
-                  Get Your Free Blind Spot Report
-                </Link>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-4 mt-4 text-sm text-gray-400">
-                <a href="tel:+12134442229" className="hover:text-white transition-colors">Phone: (213) 444-2229</a>
-                <span className="hidden sm:inline">|</span>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-white transition-colors">Email: support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Schema Markup, Site Speed, GptBot — The Technical Signals That Determine AI Citations</h3>
+              <p>AI engines evaluate your technical signals: schema markup, crawl access, page authority, and entity consistency. A free audit shows exactly where your technical setup is costing you citations.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Technical AI Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
               </div>
             </div>
 
@@ -838,32 +807,35 @@ export default function Page() {
             <p>Absolutely. Businesses on both Wix and WordPress appear in AI search results from ChatGPT, Perplexity, Google AI Mode, and Claude regularly. The platform is not a direct ranking factor. What matters is whether your content is accessible in raw HTML, whether you have structured data, and whether your site demonstrates topical authority on the subjects people are asking about.</p>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still not sure which platform is right for your AI strategy? Let us help you decide.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           </div>
 
           {/* Final CTA */}
-          <div className="ae-final-cta not-prose">
-            <h3 className="text-2xl font-bold text-white font-plus-jakarta mb-4">
-              Stop Guessing. Start Getting Found.
-            </h3>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Your platform is just the foundation. What you build on it determines whether AI search engines cite your business or your competitor. Get a free Blind Spot Report and see exactly where you stand.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/blindspot" className="inline-flex items-center justify-center px-8 py-3 bg-[#F27D24] text-white font-semibold rounded-lg hover:bg-[#F27D24]/90 transition-colors">
-                Get Your Free Blind Spot Report &rarr;
-              </Link>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Technical Optimization for AI Search Is Different From Traditional SEO
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                The signals that get you cited in AI engines are specific and measurable. The Answer Engine audits all 47 and fixes the ones holding you back. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Technical Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4 text-sm text-gray-400">
-              <a href="tel:+12134442229" className="hover:text-white transition-colors">(213) 444-2229</a>
-              <span className="hidden sm:inline">|</span>
-              <a href="mailto:support@theanswerengine.ai" className="hover:text-white transition-colors">support@theanswerengine.ai</a>
-            </div>
-          </div>
+          </section>
 
         </article>
       </main>

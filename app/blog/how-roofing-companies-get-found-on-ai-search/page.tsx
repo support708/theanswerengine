@@ -310,9 +310,7 @@ export default function Page() {
           </ol>
         </div>
 
-        <div className="ae-cta-inline not-prose">
-          <p>Wondering if AI platforms even know your roofing business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         <h2 id="how-ai-finds-roofers">How AI Platforms Find and Rank Roofing Companies</h2>
 
@@ -400,9 +398,7 @@ export default function Page() {
           </table>
         </div>
 
-        <div className="ae-cta-inline not-prose">
-          <p>Not sure if your storm damage content is citation-ready? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and see exactly what AI knows about your roofing company. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         <h2 id="local-citations">Why Local Citations Are the Foundation of Roofing AI Visibility</h2>
 
@@ -481,9 +477,7 @@ export default function Page() {
 
         <p>The gap between these two schema profiles is enormous in terms of AI query matching. A roofer with full multi-service schema can potentially surface for "who does storm damage roof repair in [city]," "best roofer for insurance claims near me," "emergency roof tarping [city]," and "GAF certified roofer [city]" as separate citation events. A roofer with no schema is unlikely to surface for any of them specifically. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-        <div className="ae-cta-inline not-prose">
-          <p>Not sure if your schema setup covers all your services? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> to see your full structured data profile. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         <h2 id="service-pages">Service Pages That Become Citation Assets</h2>
 
@@ -684,15 +678,30 @@ export default function Page() {
         </div>
 
         {/* Final CTA */}
-        <div className="ae-final-cta not-prose">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Storm Job Could Be Yours</h2>
-          <p className="text-gray-300 mb-8 text-lg">Every AI-referred roofing call that goes to a competitor is a lost job. Our Blind Spot Report shows exactly what AI sees when a homeowner searches for a roofer in your area after a storm, and what you need to change to capture that call. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
-            Get Your Free Blind Spot Report
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes.</p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </>

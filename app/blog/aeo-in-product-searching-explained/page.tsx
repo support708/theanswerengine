@@ -276,10 +276,7 @@ export default function BlogPost() {
             <p>This analysis draws on the foundational <Link href="/blog/answer-engine-optimization-aeo-guide" className="cta-inline">Answer Engine Optimization (AEO) research</Link> (Aggarwal et al., KDD 2024; Zhang et al., 2026; GEO-SFE, 2026; Chen et al., 2025) and verified citation outcomes across product-category client engagements. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* CTA 1 — Blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see whether ChatGPT, Perplexity, and Claude name your products today when buyers ask? The free AERO Blind Spot Scan runs the query across all four AI platforms in 60 seconds.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 1: WHAT AEO IN PRODUCT SEARCH IS */}
             <span className="ae-section-label" id="what-aeo-product-search-is">The Definition</span>
@@ -295,10 +292,7 @@ export default function BlogPost() {
             <p>Product SEO optimizes for Google&apos;s product feed, Merchant Center inclusion, Shopping ad ranking, and organic product page indexing. AEO optimizes for whether an AI platform will type your brand name into the answer text when asked. The Aggarwal et al. (KDD 2024) study confirmed the divergence: passages containing direct quotations earned a 37% citation lift and passages with statistics earned a 22% lift across LLM ranking — neither of which moves traditional product SEO scoring. The signal stacks overlap at the schema layer and diverge sharply above it.</p>
 
             {/* CTA 2 — Calendly Territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>One brand per product category, per market. Lock in your territory before a competitor takes the AEO position in your vertical.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Claim Your Territory →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: HOW AI SURFACES PRODUCTS */}
             <span className="ae-section-label" id="how-ai-surfaces-products">The Mechanism</span>
@@ -314,10 +308,7 @@ export default function BlogPost() {
             <p>AI platforms map product queries to candidate products through a multi-source lookup that emphasizes editorial roundups and review aggregators over individual product pages. When ChatGPT or Perplexity answers &quot;best running shoes for flat feet,&quot; it draws on the &quot;best of&quot; lists published by trusted consumer publications, the review density on independent platforms, and the brand entity signals it can cross-reference across multiple contexts. The product page enters the picture late, mainly to confirm the structured attributes (price, availability, rating) of products the model has already shortlisted. The implication is structural: winning product search citation requires winning the editorial coverage layer first, then ensuring the product page passes the legibility check. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI visibility scan.</a></p>
 
             {/* CTA 3 — Email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want the editorial publications ChatGPT cites for your specific product category? We map them as part of every Blind Spot Report.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3: GEO RESEARCH */}
             <span className="ae-section-label" id="the-geo-research">The Research</span>
@@ -333,10 +324,7 @@ export default function BlogPost() {
             <p>Chen et al. (2025) documented a systematic LLM preference for earned media over brand-published content in product ranking contexts. <strong className="named-thesis">The Editorial Authority Transfer: a product mentioned in an editorial roundup on a publication an AI platform already trusts for informational queries inherits a recommendation authority that the brand&apos;s own product page cannot generate (Chen et al., 2025).</strong> The finding has a sharp strategic edge: the publications that drive product citation are the publications that ChatGPT and Perplexity already cite for informational queries in the same vertical. Identifying those publications and pursuing coverage in them produces a far higher AEO return than coverage in affiliate-heavy listicle sites with no editorial backbone. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA 4 — Blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blind Spot Report identifies the specific publications ChatGPT cites for your product category and maps the editorial coverage gaps.</p>
-              <Link href="/blindspot">Get Your Free Editorial Authority Map →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 4: WHAT TAE DOES DIFFERENTLY */}
             <span className="ae-section-label" id="what-tae-does">The Playbook</span>
@@ -352,10 +340,7 @@ export default function BlogPost() {
             <p>Every AEO engagement runs against a Proof Ledger — a monthly log of which product queries the brand appears in, across which AI platforms, and which competitors are taking the citation slots when the brand is not. The Proof Ledger turns AEO from an invisible discipline into a measurable one. Without it, an operator has no way to distinguish a working AEO program from a stalled one. With it, the citation pattern is visible in 30-day windows and the gaps are explicit. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if you want to see a sample Proof Ledger for your category.</p>
 
             {/* CTA 5 — Territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>We work with one brand per product category, per metro. When the slot is claimed, we close the category. Check yours before a competitor does.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Check Category Availability →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5: MEASURE RESULTS */}
             <span className="ae-section-label" id="measure-results">The Measurement</span>
@@ -371,10 +356,7 @@ export default function BlogPost() {
             <p>The measurement stack for AEO product search is narrower and more manual than traditional analytics dashboards. It consists of the monthly product query audit across four AI platforms, citation velocity tracking, brand mention monitoring across editorial publications, review velocity tracking across third-party platforms, and competitor citation tracking for the queries the brand is not yet winning. Each metric maps to a specific signal layer in the three-layer selection stack, which means a decline in one metric points to a specific signal gap to address. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full measurement template.</p>
 
             {/* CTA 6 — Blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blind Spot Report runs your top product queries across all four AI platforms and produces your first monthly query audit baseline automatically.</p>
-              <Link href="/blindspot">Get Your Free Baseline Audit →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: COMPARISON */}
             <span className="ae-section-label" id="comparison">Head to Head</span>
@@ -440,10 +422,7 @@ export default function BlogPost() {
             </table>
 
             {/* CTA 7 — Calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>We model the AEO and SEO mix against your actual catalog and category, free of charge. The deliverable is a prioritized signal investment plan.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Book a 30-Min Strategy Call →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* PROS / CONS */}
             <div className="not-prose my-12">
@@ -474,10 +453,7 @@ export default function BlogPost() {
             </div>
 
             {/* CTA 8 — Email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want a written breakdown of the AEO product search opportunity specific to your category? Email us with your top three buyer queries and we will respond with data.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* PULL QUOTE */}
             <div className="ae-quote not-prose">
@@ -485,10 +461,7 @@ export default function BlogPost() {
             </div>
 
             {/* CTA 9 — Text */}
-            <div className="ae-cta-inline not-prose">
-              <p>If you are spending on retail media or Shopping ads and want to model what redirecting 20% of that budget into AEO would produce, call us. We answer the phone.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CHEAT SHEET BOTTOM */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -508,10 +481,7 @@ export default function BlogPost() {
             </div>
 
             {/* CTA 10 — Calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>30 minutes. Free. We run the four-model product query scan live on the call and walk you through what we find for your category.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Book Your Free Audit Call →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* FAQ — ae-faq-item */}
             <span className="ae-section-label" id="faq">FAQ</span>
@@ -560,10 +530,7 @@ export default function BlogPost() {
             </div>
 
             {/* CTA 11 — Blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blind Spot Report is free, takes 60 seconds, and runs against ChatGPT, Claude, Perplexity, and Google AI Overviews for your top product queries.</p>
-              <Link href="/blindspot">Get Your Blind Spot Report →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* AUTHOR CARD */}
             <div className="not-prose ae-author-card">
@@ -577,149 +544,100 @@ export default function BlogPost() {
             </div>
 
             {/* CTA BLOCK */}
-            <div className="ae-cta-block not-prose">
-              <h3>Buyers Are Asking AI What To Buy. The Answer Is Already Being Written.</h3>
-              <p>Your free Blind Spot Report shows exactly what ChatGPT, Claude, Perplexity, and Google AI Overviews say about your products today, which competitors are taking the citation slots, and what it takes to become the brand AI names in the answer. One brand per category, per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-min territory call</a> to see if yours is still open.</p>
-              <Link href="/blindspot" className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-8 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase">
-                Get Your Free Blind Spot Report →
-              </Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
             {/* CTA 12 — Email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer email? Send us your top three product queries and we will tell you which competitors AI names today.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <p>The question for product brands is no longer whether AI changes how buyers research products. The answer is settled. The question is whether your brand is the one AI names when the buyer asks, or the one it leaves out. Every day a competitor publishes editorial coverage, accumulates reviews, and tightens its entity graph is a day the AEO gap widens. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Find your gaps with a free AERO scan.</a></p>
 
             {/* CTA 13 — Calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>The first call is free and runs 30 minutes. We will show you which products in your category are winning AI citations and what it takes to displace them.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Book Your Strategy Call →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 14 — Territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>One brand per product category, per metro. When the spot is claimed, we close the category. Check yours before a competitor does.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Check Territory Availability →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 15 — Text */}
-            <div className="ae-cta-inline not-prose">
-              <p>Quick question that needs a quick answer? Call us — we answer the phone Monday through Friday, 9am-6pm Pacific.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 16 — Blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly what ChatGPT says when buyers in your category ask what to buy. The scan runs in 60 seconds.</p>
-              <Link href="/blindspot">Run Your Free Blind Spot Scan →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 17 — Email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want a written breakdown specific to your category before booking a call? Email us your top buyer query.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 18 — Calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>30 minutes. Free. We run the four-model scan live on the call and walk you through what we find.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Book Your Free Audit Call →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 19 — Territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>When we take your category, we close it. Markets fill in the order operators commit. Lock in before competitors do.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Lock In Your Market →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 20 — Text */}
-            <div className="ae-cta-inline not-prose">
-              <p>If your operator wants the AEO vs Shopping ads math modeled side by side, bring them on the call. 15 minutes.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 21 — Blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blind Spot Report runs your product queries against ChatGPT, Claude, Perplexity, and Google AI Overviews in parallel.</p>
-              <Link href="/blindspot">Get Your Blind Spot Report →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 22 — Email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have a category-specific question we have not answered here? Send it to us and we will reply with data.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 23 — Calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Half an hour on the calendar gets you a model-by-model breakdown of where AI sends product buyers in your category today.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Schedule Your Strategy Call →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 24 — Territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your competitor is reading this article too. Whoever moves first holds the category. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Move first.</a></p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Claim Your Territory →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 25 — Text */}
-            <div className="ae-cta-inline not-prose">
-              <p>If the article answered most of your questions and you want the rest live, call us. Real conversation, no gatekeeper.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 26 — Blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Three steps: scan, review, call. The scan is the only one that takes 60 seconds.</p>
-              <Link href="/blindspot">Start With the Scan →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 27 — Email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want the GEO research bibliography behind this article? We will send the full paper list — Aggarwal, Zhang, GEO-SFE, and Chen.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 28 — Calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>If your operator is on the fence about retail media budget vs. AEO investment, bring them on the call. We will model both.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Book the Decision Call →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 29 — Territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>Categories we have already closed: most of the top 20 metros across home improvement, beauty, and consumer electronics verticals. Check yours.</p>
-              <Link href="https://calendly.com/theanswerengine-support/30min">Check Category Availability →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 30 — Text */}
-            <div className="ae-cta-inline not-prose">
-              <p>Final ask: if your category is high-stakes and your territory is still open, call us today. We respond within 24 hours.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* FINAL CTA */}
-            <section className="ae-final-cta not-prose">
-              <h2>The Brand AI Names In The Answer Is Already Being Decided.</h2>
-              <p>The brands earning product citations on ChatGPT, Perplexity, Claude, and Google AI Overviews did not pay for placement. They engineered the signals AI platforms verify. Your free Blind Spot Report shows you exactly where the gaps are between your products and the products being named in answers today.</p>
-              <Link href="/blindspot" className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase">
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
                 Get Your Free Blind Spot Report →
-              </Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-8 pt-6 border-t border-white/[0.07] text-sm font-mono uppercase tracking-wider">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-[rgba(229,226,225,0.55)] hover:text-[#F27D24] transition-colors">
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-[rgba(229,226,225,0.55)] hover:text-[#F27D24] transition-colors">
-                  support@theanswerengine.ai
-                </a>
-                <Link href="https://calendly.com/theanswerengine-support/30min" className="flex items-center gap-2 text-[rgba(229,226,225,0.55)] hover:text-[#F27D24] transition-colors">
-                  Book a Call
-                </Link>
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
-            </section>
+            </div>
+          </section>
 
             {/* RELATED ARTICLES */}
             <span className="ae-section-label">Keep Reading</span>

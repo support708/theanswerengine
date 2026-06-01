@@ -167,10 +167,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Meta AI is recommending businesses to 3.3 billion users. Is yours one of them?</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: THE META AI LANDSCAPE */}
           <span className="ae-section-label" id="meta-ai-landscape">The Landscape</span>
@@ -218,10 +215,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Meta AI decides who sees your content. Find out what it thinks of your business.</p>
-            <Link href="/blindspot">Check Your AI Visibility &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: HOW RECOMMENDATIONS WORK */}
           <span className="ae-section-label" id="how-recommendations-work">How It Works</span>
@@ -262,10 +256,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Meta&apos;s AI evaluates your business across multiple layers. See where you are falling short. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-            <Link href="/blindspot">Run Your Free Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: AI CHAT INFLUENCE */}
           <span className="ae-section-label" id="ai-chat-influence">AI Chat</span>
@@ -285,10 +276,7 @@ export default function BlogPost() {
           <p>The implications for business visibility are significant. Meta is building a system where a single AI chat about &quot;best coffee shops near me&quot; can trigger a cascade of coffee shop content, ads, and recommendations across the user&apos;s Instagram and Facebook experience. Businesses that are visible across multiple AI platforms, not just Meta, benefit because the signals compound. Learn more about <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>.</p>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Users are asking Meta AI about businesses like yours. What does it say? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-            <Link href="/blindspot">See What AI Says About You &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: BUSINESS AI AGENT */}
           <span className="ae-section-label" id="business-ai-agent">Business AI</span>
@@ -352,10 +340,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Meta Business AI is creating winners and losers. Find out which side you are on. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: FEED ALGORITHM */}
           <span className="ae-section-label" id="feed-algorithm">Feed Algorithm</span>
@@ -403,10 +388,7 @@ export default function BlogPost() {
           <p>On Facebook, the dynamics are similar but with additional emphasis on video content and group engagement. Feed and video ranking improvements in Q4 2025 delivered a 7% lift in organic views, signaling that Meta is actively rewarding businesses that produce video content the AI deems high quality. The social signals AI reads are shifting rapidly, and what worked last year may not work today. Explore <Link href="/blog/does-social-media-help-ai-recommend-you">which social signals AI actually reads</Link> for a deeper look at this shift. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Shares beat likes. Saves beat follows. But only if Meta AI sees your content first.</p>
-            <Link href="/blindspot">Check What AI Sees &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: AI SHOPPING */}
           <span className="ae-section-label" id="ai-shopping">AI Shopping</span>
@@ -449,10 +431,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Meta AI is summarizing reviews and recommending products right now. How does yours look? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Run Your Free AI Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: META VS OTHERS */}
           <span className="ae-section-label" id="meta-vs-others">Platform Comparison</span>
@@ -521,10 +500,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your business needs visibility across Meta AI, ChatGPT, Google AI, and more. See where you stand on all of them.</p>
-            <Link href="/blindspot">Get Your Cross-Platform AI Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: SIGNALS THAT MATTER */}
           <span className="ae-section-label" id="signals-that-matter">Key Signals</span>
@@ -610,10 +586,7 @@ export default function BlogPost() {
           <p>The pattern is clear. Meta AI rewards signals that indicate genuine user interest: sharing, saving, watching, and conversing. It discounts signals that are easy to inflate: follower counts and passive likes. This is consistent with Meta&apos;s stated goal of surfacing content people find genuinely valuable, not content that simply accumulates vanity metrics.</p>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>These signals determine whether Meta AI recommends you or ignores you. See your scores. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <Link href="/blindspot">Check Your Signal Scores &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* SECTION: COMMON MISTAKES */}
           <span className="ae-section-label" id="common-mistakes">Common Mistakes</span>
@@ -657,10 +630,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>These five mistakes are costing businesses visibility every single day. See if you are making them. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* RELATED READING */}
           <span className="ae-section-label">Related Reading</span>
@@ -673,10 +643,7 @@ export default function BlogPost() {
           </ul>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Each article above covers a different dimension of AI visibility. Start with your data.</p>
-            <Link href="/blindspot">Run Your Free Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -720,10 +687,7 @@ export default function BlogPost() {
           <p>Yes. Meta AI surfaces business recommendations inside Instagram and Facebook through multiple channels: AI-powered shopping suggestions when users interact with ads, conversational recommendations via Meta AI chat, and algorithmically curated feed content that highlights businesses based on user behavior and stated interests. Over 50% of Facebook feed content now comes from AI-recommended sources outside a user&apos;s existing network. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Meta AI is already recommending businesses. The question is whether it recommends yours.</p>
-            <Link href="/blindspot">See What AI Recommends &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>How does Meta AI decide which businesses to recommend?</h3>
           <p>Meta AI evaluates a combination of signals including engagement quality (shares carry the most weight), content relevance and recency, user conversation topics in Meta AI chat, ad interaction history, review sentiment, and product catalog completeness. The system uses Llama large language models to process these signals and match businesses to user intent in real time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
@@ -732,10 +696,7 @@ export default function BlogPost() {
           <p>Yes. When you discuss topics with Meta AI, such as planning a vacation or asking about home improvement, those conversations directly influence the content and ads you see in your Facebook and Instagram feeds. Meta confirmed in late 2025 that AI chat interactions are now used as recommendation signals alongside likes, follows, and video engagement.</p>
 
           {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI chat is a new discovery channel. Is your business positioned to benefit from it? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot">Check Your AI Positioning &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>What is Meta Business AI and how does it affect small businesses?</h3>
           <p>Meta Business AI is a turnkey agent that helps small and medium businesses offer AI-powered product recommendations and sales guidance across ads, messaging threads, and their own websites. The tool learns from your existing social posts, ad campaigns, and website to provide personalized responses to consumers. Businesses that activate it gain an additional recommendation channel that competitors without it do not have.</p>
@@ -744,10 +705,7 @@ export default function BlogPost() {
           <p>Follower counts alone carry minimal weight in Meta AI recommendations. The algorithm prioritizes content engagement quality over audience size. Shares are the strongest signal, followed by saves, comments, and watch time. A business with 500 followers whose content gets shared frequently will outperform a business with 50,000 followers whose content only receives passive likes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           {/* CTA 14 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Followers are vanity metrics. AI looks at engagement quality. See how your signals compare.</p>
-            <Link href="/blindspot">Run Your Free Signal Check &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>How is Meta AI different from ChatGPT or Perplexity for business discovery?</h3>
           <p>Meta AI operates inside the platforms where 3.3 billion people already spend time, making it a passive discovery engine rather than an active search tool. Users do not need to type a query. Meta AI recommends businesses through feed content, shopping suggestions, and conversational nudges. This means businesses need platform-native signals (engagement quality, ad performance, catalog data) in addition to the web-wide authority signals that drive recommendations on standalone AI platforms.</p>
@@ -756,10 +714,7 @@ export default function BlogPost() {
           <p>Meta AI is not replacing advertising. It is transforming it. Meta now uses AI agents inside Ads Manager to automate campaign optimization, creator matching, and bid management. Click-to-message ad revenue grew over 50% year over year in Q4 2025, driven by AI-optimized targeting. The businesses that combine organic Meta AI visibility with AI-optimized paid campaigns will outperform those relying on either channel alone.</p>
 
           {/* CTA 15 */}
-          <div className="ae-cta-inline not-prose">
-            <p>You now understand how Meta AI works. The next step is seeing where your business stands.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -782,26 +737,41 @@ export default function BlogPost() {
         </div>
 
         {/* CTA BLOCK */}
-        <div className="ae-cta-block not-prose">
-          <h3>Meta AI Is Choosing Winners Right Now</h3>
-          <p>3.3 billion users. Over 50% of feed content driven by AI. AI-powered shopping summaries. Conversational discovery through Meta AI chat. The businesses Meta AI recommends today are building compounding advantages their competitors cannot easily reverse. Your free Blind Spot Report reveals exactly how AI platforms see your business across Meta, Google, ChatGPT, and more.</p>
-          <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
         {/* FINAL CTA */}
-        <div className="ae-final-cta">
-          <h2>Your Competitors Are Already Visible to Meta AI</h2>
-          <p>Every day Meta AI recommends businesses to billions of users across Instagram and Facebook. It evaluates content shares, catalog data, review quality, and AI chat relevance to decide who gets surfaced and who gets skipped. While you are reading this, your competitors may already be activating Business AI, optimizing for shares over likes, and building the signals Meta AI values most. The gap compounds. Get your free Blind Spot Report and see exactly where you stand across every major AI platform before the gap becomes permanent.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   )

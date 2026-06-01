@@ -314,9 +314,7 @@ export default function Page() {
             <p>The rollout is already in motion. Bixby 4.0 launched with the Galaxy S26 series, and Samsung has confirmed expansion to additional Galaxy devices via Galaxy Store updates. Smart home appliances across the Samsung ecosystem are also receiving Galaxy AI updates, meaning Bixby&apos;s reach extends beyond just phones and tablets into connected home devices. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Inline CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering if Bixby can already find your business? <Link href="/blindspot" className="ae-cta-primary">Get your free Blind Spot Report</Link> and find out in minutes. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 2: Perplexity Partnership */}
             <span className="ae-section-label" id="perplexity-partnership">The Engine</span>
@@ -393,9 +391,7 @@ export default function Page() {
             </div>
 
             {/* Inline CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Right now, a Galaxy user somewhere near your business may be asking Bixby to find exactly what you offer. <Link href="/blindspot" className="ae-cta-primary">Find out if Bixby knows you exist.</Link> Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 4: How Bixby Searches */}
             <span className="ae-section-label" id="how-bixby-searches">The Mechanics</span>
@@ -522,9 +518,7 @@ export default function Page() {
             <p>We have explored <Link href="/blog/how-siri-decides-which-businesses-to-suggest">how Siri decides which businesses to suggest</Link> and <Link href="/blog/what-happens-when-you-ask-alexa-to-find-a-business">what happens when you ask Alexa to find a business</Link> in detail. The pattern across all of them is the same: each platform has specific data sources it trusts most, and your visibility depends on being well-represented in those sources. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* Inline CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>You need visibility across all of these platforms, not just one. <Link href="/blindspot" className="ae-cta-primary">See where your business has gaps across every major AI assistant.</Link> Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 6: Signals */}
             <span className="ae-section-label" id="signals">What Matters</span>
@@ -601,9 +595,7 @@ export default function Page() {
             <p>The limitations are real, but they are narrowing fast. The historical knock on Bixby was that users skipped it in favor of Google Assistant. That behavioral pattern was driven primarily by capability gaps. Bixby 4.0 closes many of those gaps, and as users discover that Bixby can now answer complex queries competently, usage patterns will shift. Smart home integration accelerates this further: a Samsung TV owner who asks their living room display to find a pizza place nearby is not thinking about whether they prefer Bixby or Google. They are talking to the device in front of them.</p>
 
             {/* Inline CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The businesses getting Bixby recommendations now are building an advantage that will compound as usage grows. <Link href="/blindspot" className="ae-cta-primary">Find out where you stand today.</Link></p>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 8: Blind Spots */}
             <span className="ae-section-label" id="blind-spots">The Problem</span>
@@ -631,9 +623,7 @@ export default function Page() {
             </div>
 
             {/* Inline CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>There are specific, known patterns of web presence that Perplexity trusts and others it ignores. <Link href="/blindspot" className="ae-cta-primary">Get a custom analysis of your business</Link> before your competitors do.</p>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 9: Cheat Sheet */}
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
@@ -684,9 +674,7 @@ export default function Page() {
             </div>
 
             {/* Inline CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The cheat sheet gives you the framework. What you need is the specific diagnosis for your business. <Link href="/blindspot" className="ae-cta-primary">Get your free Blind Spot Report.</Link></p>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <p>For a broader view of how the AI search landscape is reshaping local business discovery, see our piece on <Link href="/blog/how-apple-intelligence-picks-local-businesses">how Apple Intelligence picks local businesses</Link>. The cross-platform pattern is consistent and the opportunity for businesses that act early is significant.</p>
 
@@ -772,50 +760,30 @@ export default function Page() {
           </section>
 
           {/* Final CTA with Pulse Glow */}
-          <div className="ae-final-cta not-prose relative overflow-hidden rounded-2xl p-10 text-center">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/20 via-[#F27D24]/5 to-transparent" aria-hidden="true" />
-            <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-[#F27D24]/10 blur-3xl animate-pulse" aria-hidden="true" />
-            <div className="absolute -bottom-24 -left-24 w-64 h-64 rounded-full bg-[#F27D24]/10 blur-3xl animate-pulse" aria-hidden="true" />
-            <div className="relative">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/20 text-[#F27D24] text-sm font-semibold mb-6">
-                <span className="w-2 h-2 rounded-full bg-[#F27D24] animate-pulse" aria-hidden="true" />
-                Free for a Limited Time
-              </div>
-              <h2 className="font-plus-jakarta text-3xl sm:text-4xl font-bold text-white mb-4">
-                Stop Being Invisible to<br />Samsung Galaxy Users
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
               </h2>
-              <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
-                Get your free Blind Spot Report and discover exactly what Bixby, Siri, ChatGPT, Perplexity, and Google AI say about your business right now. No obligation. No sales pitch. Just the truth.
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
               </p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-3 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-[#F27D24]/25"
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free Blind Spot Report
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <div className="flex flex-wrap justify-center items-center gap-6 mt-8 text-sm text-gray-500">
-                <div className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  No credit card required
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  Results in 24 hours
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  Covers all major AI platforms
-                </div>
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
-          </div>
+          </section>
 
           {/* Related Articles */}
           <div className="not-prose mt-16 pt-12 border-t border-white/10">

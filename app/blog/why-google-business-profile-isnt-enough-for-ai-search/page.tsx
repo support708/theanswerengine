@@ -312,10 +312,7 @@ export default function WhyGBPIsntEnoughPage() {
             <p>For a foundational understanding of how AI platforms evaluate which businesses to surface, read our analysis of <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out exactly where your business stands in the AI recommendation graph today — the Blind Spot Report inventories your off-GBP footprint and identifies the signal gaps costing you AI citations. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 2: LOCAL PACK ERA */}
             <span className="ae-section-label" id="local-pack-era">The Shift</span>
@@ -332,10 +329,7 @@ export default function WhyGBPIsntEnoughPage() {
             <p>The structural change matters because it inverts the optimization priority order that worked in the local pack era. In 2018, the right priority sequence for a local business was: claim GBP, optimize GBP, build citation directory consistency, accumulate Google reviews, then expand to a website and broader content if budget allowed. In 2026, the priority sequence has flipped: claim and maintain GBP as a baseline, then immediately invest in the off-GBP footprint — independent reviews, schema markup, named-author content, third-party platform presence — because that broader footprint is what produces AI citations. The same dollars spent on additional GBP optimization beyond a baseline produce diminishing returns in an environment where GBP is no longer the primary recommendation surface.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We track AI citation rates across ChatGPT, Google AI Overviews, Perplexity, and Copilot for our clients and identify exactly where the off-GBP signal gaps are. Call to discuss your category.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Citation Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 3: BEYOND GBP SIGNALS */}
             <span className="ae-section-label" id="beyond-gbp-signals">The Signal Stack</span>
@@ -367,10 +361,7 @@ export default function WhyGBPIsntEnoughPage() {
             <p>For a deeper analysis of how AI platforms construct citation evaluations across these signal categories, see our framework on <Link href="/blog/e-e-a-t-for-ai-search">E-E-A-T for AI search</Link> and our breakdown of <Link href="/blog/anatomy-of-an-ai-citation">the anatomy of an AI citation</Link>.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blind Spot Report maps your business&rsquo;s footprint across all seven signal categories and shows which gaps are costing you the most AI citations. No pitch, just data. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <Link href="/blindspot">Get Your Free Off-GBP Footprint Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 4: CHATGPT AND PERPLEXITY */}
             <span className="ae-section-label" id="chatgpt-perplexity">The Retrieval Reality</span>
@@ -416,10 +407,7 @@ export default function WhyGBPIsntEnoughPage() {
             <p>Search Reddit, Quora, Nextdoor, and category-specific forums for unprompted mentions of the business. Community mentions cannot be optimized directly — they are a lagging indicator of organic reputation — but their presence or absence is a meaningful signal in the audit, and active named-team-member participation on relevant forums can produce community presence over time.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want our team to run the full off-GBP footprint audit on your business and deliver the prioritized fix list? Email us or book a 30-minute call to set up the review.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to Schedule an Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 6: PERFECT GBP ZERO CITATIONS */}
             <span className="ae-section-label" id="perfect-gbp-zero-citations">The Paradox</span>
@@ -459,10 +447,7 @@ export default function WhyGBPIsntEnoughPage() {
             <p>The unifying principle across categories is that GBP is the floor in every industry, but the ceiling sits at different platforms depending on the category. The off-GBP investment needs to map to the platforms AI systems weight most heavily for the specific industry rather than following a generic local SEO checklist.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which off-GBP platforms matter most for your specific industry? We map the AI signal weight by category and prioritize your investment plan accordingly. Book a 30-minute call to get the breakdown.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a 30-Minute Category Strategy Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 8: THIRD PARTY PLATFORMS */}
             <span className="ae-section-label" id="third-party-platforms">The Platform Stack</span>
@@ -496,10 +481,7 @@ export default function WhyGBPIsntEnoughPage() {
             <p>For a deeper analysis of how to earn AI citations through owned-domain optimization, read our guide on <Link href="/blog/how-to-get-featured-in-google-ai-overviews">how to get featured in Google AI Overviews</Link>. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want a full schema and citation-readiness audit of your existing website? We identify every missing schema type, every Trustworthiness gap, and every Expertise signal deficit. Email or call to set up the review.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Website Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 10: 90 DAY PLAYBOOK */}
             <span className="ae-section-label" id="ninety-day-playbook">The Playbook</span>
@@ -548,10 +530,7 @@ export default function WhyGBPIsntEnoughPage() {
             <p>Content without visible Last Updated dates is interpreted by AI platforms as potentially stale, and AI platforms apply a recency discount to undated content. The fix is to display Last Updated dates on all key content and update both the content and the date when substantive revisions are made. A timestamp update without a content update is detectable and produces negative signal weight if patterns are repeated, so the discipline is to update substance and timestamp together.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blind Spot Report catches each of these pitfalls in your current setup and quantifies the citation impact of each gap. Free, no pitch, just the data on where your off-GBP footprint stands today. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           </div>
 
@@ -630,10 +609,7 @@ export default function WhyGBPIsntEnoughPage() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>We run the full off-GBP signal stack audit as part of every Blind Spot Report and prioritize gaps by projected citation impact for the specific category and service area.</p>
-            <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a 30-Minute Off-GBP Strategy Review &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
@@ -705,16 +681,10 @@ export default function WhyGBPIsntEnoughPage() {
             <p>An off-GBP footprint audit inventories every signal a business produces outside of its Google Business Profile that contributes to AI recommendation. The audit covers seven categories: independent review platform presence, citation consensus (NAP alignment across directories), website schema markup completeness, authored content with named bylines and credentials, earned media mentions, industry-specific directory listings, and community mentions on forums and discussion platforms. A business runs the audit by searching for its name, address, and phone across each category, recording presence-or-absence and quality of each listing, and identifying the gaps that AI models would have nothing to retrieve from. The audit produces a prioritized fix list ranked by AI citation impact.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see exactly where your off-GBP footprint stands today? The Blind Spot Report gives you a category-by-category breakdown in plain language, at no cost. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your specific industry and competitive situation before committing to any work? We are available by phone and will give you a straight assessment with no sales pitch.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* RELATED ARTICLES */}
             <h2 className="text-2xl font-bold mt-16 mb-6">Related Articles</h2>
@@ -744,26 +714,30 @@ export default function WhyGBPIsntEnoughPage() {
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Business Earning AI Citations Beyond Google?</h2>
-            <p>Find out exactly how your business performs across all seven off-GBP signal categories — which platforms you appear on, which schema is present on your site, which named-author signals are missing, and where your category competitors are outpacing you in the AI recommendation graph. Our free Blind Spot Report delivers the analysis without a sales pitch. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                Book a 30-min Strategy Call
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just data on where your off-GBP footprint stands for AI citation today.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

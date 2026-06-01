@@ -296,10 +296,7 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>Financial services digital advertising spending is projected to reach $44.42 billion through 2026. That is an enormous investment in channels that may not even matter if AI is intercepting the client before they ever see an ad. The discovery channel is shifting, and the advisors who understand what AI evaluates will capture clients their competitors never see.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your practice. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: THE TRUST PARADOX */}
             <span className="ae-section-label" id="trust-paradox">The Paradox</span>
@@ -318,10 +315,7 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>For a deeper look at how AI evaluates business authority across all industries, see our analysis on <Link href="/blog/how-claude-ai-evaluates-business-authority">how Claude AI evaluates business authority</Link>.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly what AI says when a client searches for your specialty in your area? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3: YMYL SCRUTINY */}
             <span className="ae-section-label" id="ymyl-scrutiny">YMYL Standards</span>
@@ -342,10 +336,7 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>A financial advisor website that publishes investment guidance without attributing it to a named, credentialed professional is treated by AI as unverified financial advice. Under YMYL guidelines, unverified financial content is nearly impossible to get cited. Every piece of financial content on your site must connect to a verifiable human with real credentials.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your advisory practice scores on E-E-A-T signals compared to competitors in your market. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 4: CREDENTIAL GAP */}
             <span className="ae-section-label" id="credential-gap">Credentials</span>
@@ -407,10 +398,7 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>The advisors who make their credentials AI-readable and cross-referenceable gain a compounding advantage. Every verified credential strengthens AI&apos;s confidence in recommending that advisor, and that confidence builds over time as AI sees consistent, verifiable information across multiple authoritative sources. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI can actually read your credentials? Our report maps every signal AI checks for financial advisors.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5: HUMAN VS ROBO */}
             <span className="ae-section-label" id="human-vs-robo">Human vs. Robo</span>
@@ -449,10 +437,7 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>When a client asks AI for a financial advisor to help with a complex situation, like coordinating a business sale with retirement planning, AI heavily favors content from human advisors who have demonstrated experience with that exact scenario. The specificity of the content matters more than the volume. One detailed article about navigating concentrated stock positions during an IPO signals more expertise than fifty generic articles about portfolio diversification. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is AI categorizing your practice alongside robo-advisors instead of recognizing your expertise?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Find Out &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: TEMPLATE TRAP */}
             <span className="ae-section-label" id="template-trap">The Template Problem</span>
@@ -519,10 +504,7 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>If your business has experienced a sudden loss of AI visibility, the dynamics are similar across industries. Our guide on <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight">businesses disappearing from AI search overnight</Link> covers the most common triggers.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Trapped on a template site? Our report shows exactly what AI can and cannot see on your current website. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 7: CONTENT & AUTHORITY */}
             <span className="ae-section-label" id="content-authority">Content Strategy</span>
@@ -547,10 +529,7 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>The key principle: every piece of content must be attributed to a named advisor with verifiable credentials. Anonymous or firm-attributed content carries significantly less weight under YMYL guidelines. AI wants to know which specific human with which specific qualifications is making these financial statements. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure what content is working for advisors in your market? We analyze your competitors too.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 8: COMPLIANCE AND VISIBILITY */}
             <span className="ae-section-label" id="compliance-visibility">Compliance Tension</span>
@@ -588,16 +567,10 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>Healthcare providers navigate a similar tension between compliance (HIPAA) and AI visibility. Our guide on <Link href="/blog/how-medical-practices-get-found-on-ai-search">how medical practices get found on AI search</Link> explores that parallel. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Need a compliance-friendly approach to AI visibility? That is exactly what we specialize in.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your AI visibility strategy with a specialist? We work exclusively with financial and service businesses. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -619,10 +592,7 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your advisory niche and market? We do that.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 9: LOOKING AHEAD */}
             <span className="ae-section-label">Looking Ahead</span>
@@ -639,22 +609,21 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>The wealth management firms that invested early in SEO a decade ago still reap the benefits of that head start. AI visibility follows the same compounding pattern, but the window is narrower because AI adoption is accelerating faster than web search ever did.</p>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The advisors acting now will own their market in AI search. The ones waiting will be playing catch-up. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot">See Where Your Practice Stands &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 12 */}
-            <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for financial and service businesses. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -721,35 +690,37 @@ export default function HowFinancialAdvisorsGetFoundOnAISearch() {
             <p>The most common mistake is assuming that compliance-approved template websites provide adequate AI visibility. Most advisor websites use JavaScript-heavy rendering that AI crawlers cannot read, embed credentials in image-based formats AI cannot parse, lack dedicated service pages for each planning specialty, and contain no original educational content. A second critical mistake is blocking AI crawlers in robots.txt, which many compliance departments do by default without understanding the visibility cost.</p>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where your advisory practice stands in AI search? The report is free and takes 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your advisory specialty? Call us and we will walk you through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Advisory Practice Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when a prospective client searches for your planning specialty in your area. Our free Blind Spot Report shows you the gaps, the opportunities, and the specific signals keeping your competitors ahead of you in AI recommendations.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
         </article>
       </main>

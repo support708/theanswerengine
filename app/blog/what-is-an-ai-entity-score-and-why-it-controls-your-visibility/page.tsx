@@ -299,9 +299,7 @@ export default function Page() {
             <p>Traditional SEO optimizes individual pages for keyword rankings. Entity authority optimizes your business as a whole for AI confidence. A business with perfect SEO but low entity authority will not get recommended by AI. A business with modest SEO but strong entity authority will. This is the fundamental shift most businesses have not yet internalized. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Want to know your current entity score across AI platforms? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where your entity authority is strong and where it is costing you recommendations. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
         </section>
 
         <section id="how-it-works">
@@ -346,9 +344,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Curious how AI is currently scoring your business entity? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see your entity confidence across ChatGPT, Perplexity, and Google AI. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
         </section>
 
         <section id="entity-drift">
@@ -416,9 +412,7 @@ export default function Page() {
             </tbody>
           </table>
 
-          <div className="ae-cta-inline mt-6">
-            <p>Concerned about entity drift in your business? <Link href="/blindspot">Get your free Blind Spot Report</Link> to see exactly where inconsistencies are lowering your AI entity confidence score. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
         </section>
 
         <section id="knowledge-graph">
@@ -440,9 +434,7 @@ export default function Page() {
             <p>The more your business entity connects to other trusted entities in the knowledge graph, the higher its confidence score. This is why third-party mentions in authoritative publications, industry association listings, and category-specific directories matter so much for AI visibility. They are not just links. They are connections that increase your entity's credibility in the graph. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Want to know how well-connected your entity is in the AI knowledge graph? <a href="tel:+12134442229">Call (213) 444-2229</a> for a knowledge graph analysis of your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
         </section>
 
         <section id="score-factors">
@@ -539,9 +531,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Scoring low on any of these entity factors? <Link href="/blindspot">Get your free Blind Spot Report</Link> to see exactly which factors are holding back your AI recommendations. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
         </section>
 
         <section id="improvement">
@@ -568,9 +558,7 @@ export default function Page() {
             <p>AI does not recommend businesses based on how good they are. It recommends businesses based on how confident it is in what it knows about them. That confidence is your entity score. Improving it is not about tricks or shortcuts. It is about building a web of consistent, authoritative, structured information that gives AI every reason to trust you completely. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Ready to improve your entity score and get recommended by AI? <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a> to start your entity audit. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
         </section>
 
         {/* Cheat Sheet */}
@@ -729,26 +717,30 @@ export default function Page() {
         </section>
 
         {/* Final CTA */}
-        <div className="ae-final-cta not-prose mt-16">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            Build the Entity Authority That Makes AI Recommend You
-          </h2>
-          <p className="text-gray-300 mb-8 text-lg">
-            Every business has an entity score. Most do not know what theirs is or what is dragging it down. Get your Blind Spot Report and find out exactly what AI platforms currently think about your business entity.
-          </p>
-          <Link
-            href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
-          >
-            Get Your Free Blind Spot Report
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-          <p className="text-gray-500 text-sm mt-4">
-            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
-          </p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </>

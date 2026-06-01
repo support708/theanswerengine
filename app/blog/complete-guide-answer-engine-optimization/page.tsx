@@ -288,10 +288,7 @@ export default function CompleteGuideAEO() {
           </p>
 
           {/* CTA 1 — Blindspot */}
-          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">
-            <p>See exactly where AI cites you and where it cites competitors instead.</p>
-            <span>→ Run the free Blindspot Scan</span>
-          </a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
           {/* ── TOC ── */}
           <span className="ae-section-label">What This Guide Covers</span>
@@ -342,10 +339,7 @@ export default function CompleteGuideAEO() {
           </p>
 
           {/* CTA 3 — Inline CTA block */}
-          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">
-            <p>Find out which of your competitors AI is currently citing in your market.</p>
-            <span>→ Free Blindspot Scan</span>
-          </a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
           {/* ══════════════════════════════════════════ */}
           {/* SECTION 2 */}
@@ -444,10 +438,7 @@ export default function CompleteGuideAEO() {
           </p>
 
           {/* CTA 6 — Inline CTA block */}
-          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">
-            <p>30 minutes with our team — citation map of your market, candidly delivered.</p>
-            <span>→ Book the call</span>
-          </a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
           {/* ══════════════════════════════════════════ */}
           {/* SECTION 4 */}
@@ -482,10 +473,7 @@ export default function CompleteGuideAEO() {
           </div>
 
           {/* CTA 8 — Territory */}
-          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">
-            <p>We onboard one operator per market. Markets fill faster than expected.</p>
-            <span>→ Claim your territory</span>
-          </a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
           {/* ══════════════════════════════════════════ */}
           {/* SECTION 5 */}
@@ -550,10 +538,7 @@ export default function CompleteGuideAEO() {
           <p>Markets close in the order operators commit. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your territory on a 30-minute call</a> while your category is still open.</p>
 
           {/* CTA 10 — Blindspot */}
-          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">
-            <p>Your free Blindspot Scan delivers your first Proof Ledger snapshot in 24 hours.</p>
-            <span>→ Run it now</span>
-          </a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
           {/* ══════════════════════════════════════════ */}
           {/* FAQ */}
@@ -620,26 +605,40 @@ export default function CompleteGuideAEO() {
           </div>
 
           {/* ── CTA BLOCK ── */}
-          <div className="ae-cta-block not-prose">
-            <h3>One Client Per Market</h3>
-            <p>We onboard one operator per geographic market. Once your territory is claimed, no direct competitor of yours can hire us inside the same radius.</p>
-            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-block-btn">Book a Territory Call</a>
-          </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Run Your Free AEO Grader — See Exactly Where AI Ranks You</h3>
+              <p>390 businesses/month search for AEO services. One wins your market. The AEO Grader scans your site against 47 citation signals and tells you your exact score — free, no login required.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Grader →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+              </div>
+            </div>
 
           {/* ── FINAL CTA ── */}
-          <section className="ae-final-cta">
-            <h2>See Where AI Cites You — Free</h2>
-            <p>Our Blindspot Scan maps your citation share across ChatGPT, Claude, Perplexity, and Google AI Overviews. You get a Proof Ledger snapshot inside 24 hours. No call required.</p>
-            <a
-              href="https://theanswerengine.ai/blindspot"
-              className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-            >
-              Run the Free Blindspot Scan
-            </a>
-            <p className="mt-6 text-sm font-mono">
-              Or text us directly: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> · <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>
-            </p>
-            <p className="mt-2 text-xs font-mono text-[rgba(229,226,225,0.55)]">One client per market. Claim your territory before a competitor does.</p>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your AEO Score Determines Who AI Recommends
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Every month 390 businesses search for AEO services. The Answer Engine's Origin Protocol gets businesses cited where competitors get ignored. One slot per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free AEO Grader Score
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
           </section>
 
         </div>

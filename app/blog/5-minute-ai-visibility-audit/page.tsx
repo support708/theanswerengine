@@ -318,10 +318,7 @@ export default function Page() {
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Curious what AI platforms say about your business right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Why This Audit Matters */}
@@ -390,10 +387,7 @@ export default function Page() {
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Skip the DIY and get a professional-grade audit in minutes. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-                <Link href="/blindspot">Run the Full Analysis →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* The Audit: Step by Step */}
@@ -449,10 +443,7 @@ export default function Page() {
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want the professional version of this audit done for you, free? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Step 1 Detail */}
@@ -547,10 +538,7 @@ export default function Page() {
 
             {/* CTA Inline 4 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not showing up on ChatGPT? We can tell you exactly why. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Step 3 Detail */}
@@ -602,10 +590,7 @@ export default function Page() {
 
             {/* CTA Inline 5 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Need help interpreting your Perplexity results? Talk to our team. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-                <a href="tel:+12134442229">Call (213) 444-2229 →</a>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Step 4 Detail */}
@@ -638,10 +623,7 @@ export default function Page() {
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to see how you compare across all AI platforms at once? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-                <Link href="/blindspot">Run the Full Audit →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Step 5 Detail */}
@@ -731,10 +713,7 @@ export default function Page() {
 
             {/* CTA Inline 7 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Scored below 7? Our free report shows you exactly what to fix. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* What to Do With Your Results */}
@@ -804,10 +783,7 @@ export default function Page() {
 
             {/* CTA Inline 8 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not sure where to start? Email us and we will point you in the right direction. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-                <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             <h3 className="text-xl font-bold text-white mt-8 mb-3 font-plus-jakarta">
@@ -836,10 +812,7 @@ export default function Page() {
 
             {/* CTA Inline 9 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not sure where your NAP data is inconsistent? We check that too. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             <h3 className="text-xl font-bold text-white mt-8 mb-3 font-plus-jakarta">
@@ -878,10 +851,7 @@ export default function Page() {
 
             {/* CTA Inline 10 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want a structured optimization plan tailored to your business? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Common Mistakes */}
@@ -942,10 +912,7 @@ export default function Page() {
 
             {/* CTA Inline 11 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Making any of these mistakes? Find out in 60 seconds.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* DIY vs Professional */}
@@ -1013,10 +980,7 @@ export default function Page() {
 
             {/* CTA Inline 12 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Ready for the full physical exam? It is free.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Platform-by-Platform Breakdown */}
@@ -1063,10 +1027,7 @@ export default function Page() {
 
             {/* CTA Inline 13 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to see exactly which platforms are missing your business?</p>
-                <a href="tel:+12134442229">Call us at (213) 444-2229 →</a>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Key Signals Cheat Sheet */}
@@ -1128,10 +1089,7 @@ export default function Page() {
 
             {/* CTA Inline 14 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to know which signals you are missing?</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Monthly Audit Checklist */}
@@ -1207,10 +1165,7 @@ export default function Page() {
 
             {/* CTA Inline 15 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Tired of manual tracking? Our reports monitor your AI visibility automatically.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             </div>
 
             {/* Takeaway */}
@@ -1247,20 +1202,13 @@ export default function Page() {
 
           {/* Full CTA Block */}
           <div className="not-prose">
-            <div className="ae-cta-block">
-              <h2>Stop Guessing. Start Knowing.</h2>
-              <p>
-                Your 5-minute audit gave you a snapshot. Our Blind Spot Report gives you
-                the complete picture: every AI platform, dozens of prompt variations,
-                competitor mapping, structured data analysis, and a prioritized action plan.
-                No pitch, just the data.
-              </p>
-              <div style={{display:'flex',flexDirection:'column',alignItems:'center',gap:'16px',marginTop:'24px'}}>
-                <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-                <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'8px'}}>
-                  <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.7)',fontSize:'0.9rem'}}>📞 (213) 444-2229</a>
-                  <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.7)',fontSize:'0.9rem'}}>✉️ support@theanswerengine.ai</a>
-                </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
               </div>
             </div>
           </div>
@@ -1310,16 +1258,30 @@ export default function Page() {
 
           {/* Final CTA */}
           <div className="not-prose">
-            <div className="ae-final-cta">
-              <div className="ae-final-cta-pulse"></div>
-              <h2>Ready for the Full Picture?</h2>
-              <p>Our Blind Spot Report goes deeper than any 5-minute audit. Dozens of prompt variations, all major AI platforms, competitor mapping, structured data analysis, and a prioritized action plan. No pitch, just the data.</p>
-              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-              <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-                <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)',fontSize:'0.9rem'}}>📞 (213) 444-2229</a>
-                <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)',fontSize:'0.9rem'}}>✉️ support@theanswerengine.ai</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
           </div>
 
         </div>

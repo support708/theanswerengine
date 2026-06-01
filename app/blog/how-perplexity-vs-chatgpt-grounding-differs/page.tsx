@@ -320,10 +320,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             <p>This article unpacks the downstream consequences of that architectural divergence: how it shapes citation counts, which signals each platform weighs, why the same query produces different citation lists on each platform, and what it means for brands building a multi-platform AEO strategy. For a broader view of how all the major platforms select sources, see our breakdown of the <Link href="/blog/anatomy-of-an-ai-citation">anatomy of an AI citation</Link>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly where your brand stands on both Perplexity and ChatGPT today? Our free Blind Spot Report measures your citation visibility on each platform and shows which gaps are largest. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Dual-Platform Citation Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 2: PERPLEXITY CITATION MECHANICS */}
             <span className="ae-section-label" id="perplexity-citation-mechanics">Platform One</span>
@@ -346,10 +343,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             <p>Domain authority is a factor but not a dominant one in Perplexity compared to traditional search. A newer domain with deep, fresh, directly relevant content will frequently outrank a high-authority domain with older or more generic content on the same query in Perplexity&rsquo;s retrieval results. This is a deliberate characteristic of a system built around recency and relevance rather than accumulated authority. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Perplexity rewards freshness and depth above most other signals. We can show you which of your current pages have the structural characteristics Perplexity&rsquo;s retrieval system rewards and which are being passed over.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Discuss Your Perplexity Strategy &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 3: CHATGPT CITATION MECHANICS */}
             <span className="ae-section-label" id="chatgpt-citation-mechanics">Platform Two</span>
@@ -372,10 +366,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             <p>ChatGPT also exhibits a citation selectivity that Perplexity does not share. Research from Superlines found a 15.43 percent citation rate for Perplexity versus 2.78 percent for ChatGPT across equivalent query sets, meaning ChatGPT cites far fewer pages relative to the volume it retrieves. Only about 15 percent of pages ChatGPT retrieves during a search session are actually cited in the response. The filter is stringent, and the brands that pass it tend to have a compound of training-corpus authority, structured data, strong Bing-index presence, and content that directly addresses the query&rsquo;s precise claim.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>ChatGPT optimization starts with knowing your Bing presence, schema coverage, and current citation rate. We measure all three in the Blind Spot Report. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Get Your Free ChatGPT Citation Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           </div>
 
@@ -461,10 +452,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
           <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The architecture table above shows the divergence. Our measurement framework shows you exactly where your brand sits on each axis. Start with the Blind Spot Report.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Platform Comparison Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 5: SOURCE RANKING SIGNALS */}
             <span className="ae-section-label" id="source-ranking-signals">The Signals</span>
@@ -491,10 +479,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             </div>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know which signals your current site satisfies for Perplexity vs ChatGPT? We run a side-by-side signal audit across both platforms as part of our Blind Spot Report.</p>
-              <Link href="/blindspot">Get a Side-by-Side Signal Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 6: SAME QUERY DIFFERENT CITATIONS */}
             <span className="ae-section-label" id="same-query-different-citations">The Evidence</span>
@@ -513,10 +498,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             <p>Neither situation is categorically better. A single ChatGPT citation in an answer read by 900 million weekly users, shared with three other brands, may produce more raw visibility than a Perplexity citation in an answer read by a smaller audience, shared with eight other brands. The strategic question is not which platform is more valuable in the abstract but which platform a specific brand is currently most underperforming on relative to competitors &mdash; and which platform gap, when closed, produces the most revenue impact. That question requires measurement, not assumption. For more on the cross-platform citation divergence pattern, see our analysis of <Link href="/blog/why-some-ai-platforms-cite-you-but-others-dont">why some AI platforms cite you but others don&rsquo;t</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We run matched query comparisons across Perplexity and ChatGPT for our clients&rsquo; specific categories and map where each brand has the largest competitive citation gap. Start with a free baseline.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a 30-Minute Platform Comparison Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 7: CITATION OVERLAP */}
             <span className="ae-section-label" id="citation-overlap">The Data</span>
@@ -533,10 +515,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             <p>The low overlap also explains why brands experience citation visibility that feels inconsistent or contradictory. A brand that regularly sees its name in Perplexity answers may be mystified by its absence in ChatGPT answers for what seems like the same question. The query may be similar in language but the platforms are searching different indexes, applying different filters, and drawing on different authority signals. The brand is not failing on ChatGPT; it simply has not been optimized for ChatGPT&rsquo;s specific signal hierarchy.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Measuring your brand on both platforms with the same query set is the fastest way to understand your actual citation gap. The Blind Spot Report covers both platforms in a single deliverable. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Get a Free Dual-Platform Citation Baseline &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 8: PERPLEXITY BRAND STRATEGY */}
             <span className="ae-section-label" id="perplexity-brand-strategy">Platform One Strategy</span>
@@ -577,10 +556,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure whether PerplexityBot can access your top content pages? We run a crawl accessibility check as part of our citation audit process.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Perplexity Crawl Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 9: CHATGPT BRAND STRATEGY */}
             <span className="ae-section-label" id="chatgpt-brand-strategy">Platform Two Strategy</span>
@@ -619,10 +595,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             </div>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Schema markup and Bing presence are the two fastest ChatGPT citation wins for most brands we audit. We flag both in the Blind Spot Report with a prioritized fix list.</p>
-              <Link href="/blindspot">Get Your Free ChatGPT Signal Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 10: WHERE BRANDS GO WRONG */}
             <span className="ae-section-label" id="where-brands-go-wrong">The Mistake</span>
@@ -639,10 +612,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We can show you exactly which platform your brand is underperforming on, what the gap costs you in competitive citation share, and what the highest-priority fixes are. No pitch, just measurement. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to See Your Platform-Level Citation Gap &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 11: DUAL PLATFORM APPROACH */}
             <span className="ae-section-label" id="dual-platform-approach">The Strategy</span>
@@ -659,10 +629,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
             <p>Measurement ties the two workstreams together. Running the same query set through both platforms monthly, comparing citation rates against a documented baseline, and attributing lift to specific optimization actions is what transforms a dual-platform strategy from a cost center into a measured investment. The brands that win the AEO competition are not the ones with the most content or the most schema. They are the ones with the most precise understanding of where they currently stand on each platform and which specific moves shift that standing most efficiently.</p>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We run dual-platform AEO programs as a managed service, including monthly measurement, both-platform optimization, and a progress dashboard that shows citation movement on each platform separately. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a 30-Minute Dual-Platform Strategy Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           </div>
 
@@ -733,16 +700,10 @@ export default function PerplexityVsChatGPTGroundingPage() {
             <p>Perplexity and Bing Generative Search (which powers Microsoft Copilot and parts of ChatGPT) share the use of real-time retrieval but differ significantly in how they rank and weight sources. Bing Generative Search draws on Bing&rsquo;s established web index with authority-weighted ranking, while Perplexity&rsquo;s proprietary crawler and retrieval system is built specifically to prioritize recency and query-level relevance. For a detailed breakdown of how Bing Generative Search selects sources and how it differs from both Perplexity and ChatGPT, see our analysis of <Link href="/blog/how-bing-generative-search-picks-businesses">how Bing Generative Search picks businesses</Link>.</p>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to understand exactly where your brand stands on both platforms today? The Blind Spot Report covers Perplexity and ChatGPT citation rates in a single deliverable, at no cost.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your specific category and competitive situation first? We are available by phone and will give you a direct assessment of where to start.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* RELATED ARTICLES */}
             <span className="ae-section-label" id="related">Continue Reading</span>
@@ -776,26 +737,30 @@ export default function PerplexityVsChatGPTGroundingPage() {
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Brand Winning Citations on Both Platforms?</h2>
-            <p>Find out exactly how your brand performs on Perplexity and ChatGPT for queries in your category &mdash; which platform is citing you, which competitors hold the slots you are missing, and which specific architecture-level signals on your site are costing you citations. Our free Blind Spot Report delivers the analysis at no cost and no pitch.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                Book a 30-min Strategy Call
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just data on where your citation visibility stands across both platforms today.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

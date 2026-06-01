@@ -344,10 +344,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know whether ChatGPT is citing your business directly or through third parties? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* ── SECTION 2: FOUR PHASE DISCOVERY ── */}
             <span className="ae-section-label" id="four-phase">How It Finds You</span>
@@ -382,10 +379,7 @@ export default function Page() {
             <p>The sliding-window reading behavior explains why businesses with dense, well-organized content sections outperform businesses with long narrative pages. Short, dense, clearly labeled content blocks are more likely to fall within a sampled window than long flowing paragraphs that could be skipped entirely. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your page structure is optimized for the sliding-window reading model? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <Link href="/what-your-website-looks-like-to-an-ai-crawler">See What AI Crawlers Actually See on Your Site &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* ── SECTION 3: CRAWLERS ── */}
             <span className="ae-section-label" id="crawlers">The Bots</span>
@@ -435,10 +429,7 @@ export default function Page() {
             <p>The raw crawl numbers matter too. GPTBot makes 3.6x more requests to websites than Googlebot does. The total ChatGPT crawl volume increased 2,825% year over year in 2025. These are not exploratory crawls. This is a system actively building and maintaining the data it needs to power 775 million daily searches. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know if GPTBot or OAI-SearchBot are blocked on your site right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <Link href="/blog/does-blocking-gptbot-hurt-ai-search">Learn What Happens When You Block GPTBot &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* ── SECTION 4: INDEXING ── */}
             <span className="ae-section-label" id="indexing">The Infrastructure</span>
@@ -516,10 +507,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering if your Bing setup is blocking you from ChatGPT Search? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link href="/blindspot">Get a Free AI Visibility Assessment &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* ── SECTION 5: CITED VS IGNORED ── */}
             <span className="ae-section-label" id="cited-vs-ignored">What Gets You Cited</span>
@@ -569,10 +557,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 5 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly which of these signals your site is missing?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Signal Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* ── SECTION 6: 90 PERCENT RULE ── */}
             <span className="ae-section-label" id="90-percent-rule">The Discovery Shift</span>
@@ -645,10 +630,7 @@ export default function Page() {
             <p>For a deeper exploration of how schema specifically drives these citation advantages, the article on <Link href="/blog/does-schema-markup-help-ai-search">how schema markup affects AI search visibility</Link> covers the technical mechanics and prioritization by platform.</p>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out where you stand in the ChatGPT Search citation landscape right now.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* ── SECTION 7: GOTCHAS ── */}
             <span className="ae-section-label" id="gotchas">Common Failure Points</span>
@@ -720,10 +702,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this checklist executed for your business by our team?</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* ── FAQ SECTION ── */}
             <span className="ae-section-label" id="faq">FAQ</span>
@@ -764,20 +743,30 @@ export default function Page() {
             </div>
 
             {/* ── FINAL CTA BLOCK ── */}
-            <div className="ae-final-cta not-prose">
-              <div className="ae-final-cta-inner">
-                <h2 className="ae-final-cta-title font-plus-jakarta">Is Your Business Inside the ChatGPT Search Pipeline?</h2>
-                <p className="ae-final-cta-desc">Most businesses are not. Not because their content is weak, but because the infrastructure signals that feed ChatGPT Search have never been set up. Our Blind Spot Report tells you exactly which signals are missing, in order of impact, with a clear path to fixing each one.</p>
-                <div className="ae-final-cta-actions">
-                  <Link href="/blindspot" className="ae-cta-button-primary">
-                    Get Your Free Blind Spot Report
-                  </Link>
-                  <a href="tel:+12134442229" className="ae-cta-button-secondary">
-                    Call (213) 444-2229
-                  </a>
-                </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
 
             {/* ── AUTHOR CARD ── */}
             <div className="ae-author-card">

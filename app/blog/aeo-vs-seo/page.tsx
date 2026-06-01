@@ -354,10 +354,7 @@ export default function AEOvsSEOPage() {
             <p>SEO ends at the SERP. Once a user clicks, the win is logged; what they do next belongs to a different system. The problem is that the SERP is no longer the only interface where high-intent queries get resolved. ChatGPT, Perplexity, Claude, and Gemini now intercept a growing share of research-stage queries before the user reaches a search engine at all. A page that ranks first on Google but is invisible to those four engines wins one interface and loses three. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want us to map your current site to both surfaces and show you exactly which queries you are winning on Google but losing on AI? Book a 30-minute audit walkthrough. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book the Dual-Surface Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 2 — What is AEO */}
             <span className="ae-section-label" id="what-is-aeo">Definition</span>
@@ -373,10 +370,7 @@ export default function AEOvsSEOPage() {
             <p>AEO wins inside the generative response, not on a results page. A user asking ChatGPT &quot;who is the best plumber in Austin for slab leaks&quot; receives a synthesized answer with two or three inline citations &mdash; not a list of ten blue links to evaluate. The citation is the visibility. Operators cited in those responses gain attribution surface that compounds across millions of queries; operators not cited are invisible on that interface entirely, regardless of their Google rank. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our free Blindspot Scan runs your site through the AEO citation pipeline on 20 market queries across ChatGPT, Perplexity, Claude, and Gemini, and returns the exact pages costing you attribution. Free, no commitment. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 3 — Core Differences */}
             <span className="ae-section-label" id="core-differences">Mechanism</span>
@@ -454,10 +448,7 @@ export default function AEOvsSEOPage() {
             </div>
 
             {/* CTA — territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>We work with one operator per market. If your competitor claims your territory first, we will not take you as a client in that geography. Lock your seat before someone else does. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score &mdash; free.</a></p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Claim Your Territory Slot &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 4 — Why Now */}
             <span className="ae-section-label" id="why-now">Timing</span>
@@ -478,10 +469,7 @@ export default function AEOvsSEOPage() {
             </div>
 
             {/* CTA — text/phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Faster path: text us your domain and your top three competitor URLs. We will run the dual-surface read and reply with which engine each of you is winning on and which you are losing. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 5 — TAE Method */}
             <span className="ae-section-label" id="dual-surface">TAE Method</span>
@@ -510,10 +498,7 @@ export default function AEOvsSEOPage() {
             </div>
 
             {/* CTA — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want the Origin Protocol mapped to your industry and territory? Email us with your domain and we will return a one-page dual-surface diagnostic within 48 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <a href="mailto:support@theanswerengine.ai?subject=Dual-Surface%20Diagnostic">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 6 — Quick Reference */}
             <span className="ae-section-label">Quick Reference</span>
@@ -564,10 +549,7 @@ export default function AEOvsSEOPage() {
             </div>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Pick a 30-minute slot and we will walk your site through this exact cheat sheet on a screen-share, marking up which surface is leaking your traffic and citation share. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book Your Dual-Surface Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Author Card */}
             <div className="not-prose ae-author-card">
@@ -584,17 +566,13 @@ export default function AEOvsSEOPage() {
             </div>
 
             {/* CTA Block */}
-            <div className="ae-cta-block not-prose">
-              <h3>Run Both Surfaces, Concede Neither</h3>
-              <p>The Origin Protocol engineers every page to win Google rank and LLM citation in the same pass. One operator per market. Free Blindspot Scan to start.</p>
-              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blindspot Scan &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <span>(213) 444-2229</span>
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <span>support@theanswerengine.ai</span>
-                </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Run Your Free AEO Grader — See Exactly Where AI Ranks You</h3>
+              <p>390 businesses/month search for AEO services. One wins your market. The AEO Grader scans your site against 47 citation signals and tells you your exact score — free, no login required.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Grader →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
               </div>
             </div>
 
@@ -633,10 +611,7 @@ export default function AEOvsSEOPage() {
             </details>
 
             {/* CTA — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still not sure where your site is leaking citations or rank? The Blindspot Scan returns the dual-surface read and the exact pages costing you attribution on both. Free.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Related */}
             <span className="ae-section-label">Continue Reading</span>
@@ -651,30 +626,33 @@ export default function AEOvsSEOPage() {
             </ul>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>If you would rather talk it through than read another article, grab a 30-minute slot with our team.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Schedule a Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
           </div>
 
           {/* Final CTA */}
-          <section className="ae-final-cta">
-            <h2 className="font-headline font-black uppercase tracking-tighter">Your Competitor Just Won Both Surfaces. Did You?</h2>
-            <p>The free Blindspot Scan reads your site against the dual-surface architecture across 20 market queries on Google plus ChatGPT, Perplexity, Claude, and Gemini. You get the per-surface gap and the ranked fix list. One operator per market.</p>
-            <Link
-              href="/blindspot"
-              className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-            >
-              Get Your Free Blindspot Report
-            </Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10 font-mono text-sm">
-              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your AEO Score Determines Who AI Recommends
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Every month 390 businesses search for AEO services. The Answer Engine's Origin Protocol gets businesses cited where competitors get ignored. One slot per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free AEO Grader Score
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors">
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
           </section>
 

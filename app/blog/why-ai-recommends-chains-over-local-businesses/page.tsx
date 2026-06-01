@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     'AI search structured data',
     'local vs national AI search',
   ],
-  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
+  authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
     modifiedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -76,18 +76,9 @@ const jsonLd = {
       datePublished: '2026-04-03T09:00:00-07:00',
       dateModified: '2026-04-03T09:00:00-07:00',
       author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        '@type': 'Organization',
+        name: 'The Answer Engine Team',
+        url: 'https://theanswerengine.ai',
       },
       publisher: {
         '@type': 'Organization',
@@ -268,14 +259,14 @@ export default function Page() {
                 <path
                   d="M 60 0 L 0 0 0 60"
                   fill="none"
-                  stroke="#F27D24"
+                  stroke="#FF6A00"
                   strokeWidth="0.5"
                 />
                 {/* Store vs chain icon hints */}
-                <rect x="8" y="30" width="18" height="22" fill="#F27D24" opacity="0.08" rx="1" />
-                <rect x="10" y="36" width="6" height="8" fill="#F27D24" opacity="0.15" rx="0.5" />
-                <rect x="34" y="22" width="18" height="30" fill="#F27D24" opacity="0.15" rx="1" />
-                <rect x="36" y="28" width="14" height="4" fill="#F27D24" opacity="0.2" rx="0.5" />
+                <rect x="8" y="30" width="18" height="22" fill="#FF6A00" opacity="0.08" rx="1" />
+                <rect x="10" y="36" width="6" height="8" fill="#FF6A00" opacity="0.15" rx="0.5" />
+                <rect x="34" y="22" width="18" height="30" fill="#FF6A00" opacity="0.15" rx="1" />
+                <rect x="36" y="28" width="14" height="4" fill="#FF6A00" opacity="0.2" rx="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-126)" />
@@ -289,7 +280,7 @@ export default function Page() {
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
                 style={{
                   backgroundColor: 'rgba(255,106,0,0.15)',
-                  color: '#F27D24',
+                  color: '#FF6A00',
                   border: '1px solid rgba(255,106,0,0.3)',
                 }}
               >
@@ -304,17 +295,8 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               Why AI Recommends{' '}
-              <span style={{ color: '#F27D24' }}>Chains Over Local Businesses</span>
+              <span style={{ color: '#FF6A00' }}>Chains Over Local Businesses</span>
             </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
-              <img
-                src="/blog/why-ai-recommends-chains-over-local-businesses.webp"
-                alt="why ai recommends chains over local businesses"
-                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-                loading="eager"
-              />
-            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               You searched for the best plumber, dentist, or contractor near you on an AI assistant. The response listed a national franchise and two well-known chains. Your neighbor, who has run a five-star local operation for twelve years, never got a mention. This is not a glitch. It is a structural information problem, and most local businesses have no idea it is happening.
@@ -325,7 +307,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
               >
                 Check If AI Finds Your Business
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -337,7 +319,7 @@ export default function Page() {
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
                 style={{
                   backgroundColor: 'rgba(255,106,0,0.1)',
-                  color: '#F27D24',
+                  color: '#FF6A00',
                   border: '1px solid rgba(255,106,0,0.3)',
                 }}
               >
@@ -358,7 +340,7 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>
                 87%
               </div>
               <div className="text-xs text-gray-400 leading-snug">
@@ -369,7 +351,7 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>
                 3x
               </div>
               <div className="text-xs text-gray-400 leading-snug">
@@ -380,7 +362,7 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>
                 60-90
               </div>
               <div className="text-xs text-gray-400 leading-snug">
@@ -391,7 +373,7 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>
                 1 in 4
               </div>
               <div className="text-xs text-gray-400 leading-snug">
@@ -454,7 +436,7 @@ export default function Page() {
 
             {/* Section 1: The Misconception */}
             <section id="the-misconception" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
                 Section 01
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -463,11 +445,11 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 The most important thing to understand about AI and business recommendations is this: AI models do not have a preference for big brands. They do not know or care whether a business has 3 locations or 3,000. What they care about is information quality.
-               Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+              </p>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 When a user asks ChatGPT, Perplexity, or Google AI to recommend a business, the model scans everything it has learned from the web and synthesizes an answer. The businesses that appear are the ones whose information was clearest, most consistent, and most widely referenced across authoritative sources. National chains tend to score well on all three of those dimensions, not because they are better businesses, but because they have more resources devoted to structured online presence.
-               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+              </p>
 
               <div
                 className="ae-callout ae-callout-info rounded-xl p-6 mb-8"
@@ -478,29 +460,29 @@ export default function Page() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <div>
-                    <p className="text-blue-300 font-semibold mb-1">Key Insight <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+                    <p className="text-blue-300 font-semibold mb-1">Key Insight</p>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       AI recommendation engines are not biased toward size, they are biased toward signal clarity. A local business with clear, structured, and widely distributed information can absolutely outperform a national chain in AI search results.
-                     Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                    </p>
                   </div>
                 </div>
               </div>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 This distinction matters enormously for local business owners. If the problem were that AI simply preferred chains by design, there would be nothing to do. But the actual problem, an information gap, is solvable. That is what this article breaks down.
-               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+              </p>
 
-              <blockquote className="ae-quote border-l-4 pl-6 py-2 my-8" style={{ borderColor: '#F27D24' }}>
+              <blockquote className="ae-quote border-l-4 pl-6 py-2 my-8" style={{ borderColor: '#FF6A00' }}>
                 <p className="text-xl text-gray-200 italic leading-relaxed">
                   "AI does not recommend the biggest business in your category. It recommends the one it understands best."
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-                <footer className="text-sm text-gray-500 mt-3">Justin Borges</footer>
+                </p>
+                <footer className="text-sm text-gray-500 mt-3">The Answer Engine Team</footer>
               </blockquote>
             </section>
 
             {/* Section 2: Why Chains Have an Advantage */}
             <section id="why-chains-have-an-advantage" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
                 Section 02
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -509,37 +491,37 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 To understand the gap, you need to understand what national chains are doing that most local businesses are not. It is not magic, and it is not spending enormous budgets on AI-specific strategies. It is the cumulative effect of consistent, well-resourced execution across several dimensions that AI models happen to weight heavily.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+              </p>
 
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Consistent NAP Data at Scale</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 NAP stands for name, address, and phone number. Chains have entire operations teams whose job is to ensure every location is listed correctly and consistently across every major directory, from Yelp and Google to niche platforms and local chamber of commerce sites. When AI models see a business referenced with identical information across 80 platforms, they build strong confidence in that entity. A local business with three different phone numbers across five listings creates confusion AI models quietly penalize by recommending alternatives.
-               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+              </p>
 
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Massive Link Profiles Built Over Time</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 National brands accumulate mentions and links from news coverage, industry publications, partner sites, and press releases over years or decades. Every mention on an authoritative source is a trust signal that AI models absorb. A local business that has never been mentioned outside its own website and its Google Business Profile starts with near-zero signal, regardless of how good the actual service is.
-               Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              </p>
 
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Dedicated Content Teams</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Large brands employ content teams that produce structured, keyword-optimized, FAQ-rich content continuously. That content answers the exact questions AI models are asked, which means it gets pulled into AI-generated answers. Most local business websites have a home page, an about page, a services list, and maybe a contact form. They do not have content that directly answers the questions their potential customers are typing into AI assistants.
-               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              </p>
 
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Structured Data at Scale</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Large brands invest in schema markup: machine-readable tags that tell search engines and AI crawlers exactly what type of business this is, what services it offers, where it operates, what its hours are, and how customers have rated it. Local businesses almost universally skip this step, either because they do not know it exists or because they assume their website developer handled it. Most did not.
-               One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+              </p>
 
               {/* Inline CTA */}
               <div className="ae-cta-inline my-10 p-6 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.18)' }}>
                 <p className="text-gray-300 mb-4 text-sm">
                   Not sure if your business is making these mistakes? Our free Blind Spot Report shows you exactly where AI cannot see you.
-                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+                </p>
                 <Link
                   href="/blindspot"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-white text-sm transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#F27D24' }}
+                  style={{ backgroundColor: '#FF6A00' }}
                 >
                   Get Your Free Blind Spot Report
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -551,7 +533,7 @@ export default function Page() {
 
             {/* Section 3: AI Visibility Gap */}
             <section id="the-ai-visibility-gap" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
                 Section 03
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -560,15 +542,15 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 There is a phenomenon in AI search that we call the AI visibility gap. It describes a business that is genuinely excellent, well-reviewed, and well-regarded in its community, yet completely invisible to AI recommendation engines. The gap is not about quality of service. It is about quality of online signals.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+              </p>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 Consider a family-owned HVAC company that has served the same metro area for eighteen years. They have 200 five-star reviews on Google. Their technicians are licensed and their prices are fair. But their website was built in 2019 and has not been updated since. Their information on Yelp, Angi, and HomeAdvisor is outdated or missing. Their service pages do not answer the specific questions people ask AI assistants. They have never added schema markup to their site.
-               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+              </p>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 When a potential customer asks an AI assistant for the best HVAC company in their area, that company does not appear. A national franchise with mediocre reviews but complete, structured, and widely distributed information does. The customer calls the franchise. The local company loses a lead it never knew existed.
-               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              </p>
 
               <div
                 className="ae-callout ae-callout-warning rounded-xl p-6 mb-8"
@@ -579,17 +561,17 @@ export default function Page() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
                   <div>
-                    <p className="text-yellow-400 font-semibold mb-1">The Silent Lead Loss Problem <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+                    <p className="text-yellow-400 font-semibold mb-1">The Silent Lead Loss Problem</p>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Local businesses that are invisible to AI do not receive rejection notices. They simply never appear in the conversation. You cannot recover a lead you never knew about, which is why the AI visibility gap is so dangerous: it compounds silently, month after month.
-                     <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+                    </p>
                   </div>
                 </div>
               </div>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 This is not a small problem. According to multiple studies on AI search behavior, a growing share of purchase-intent queries are now being handled entirely by AI assistants. Users ask for a recommendation, receive a short list of three to five names, and contact one of those businesses. If your business is not on that list, you do not get a second chance. The customer never visits your website. They never see your reviews. They never call you.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+              </p>
 
               <p className="text-gray-300 leading-relaxed">
                 For more on how this dynamic plays out when two businesses are nearly identical in quality, see our analysis of{' '}
@@ -597,12 +579,12 @@ export default function Page() {
                   how AI picks between two similar businesses
                 </Link>
                 .
-               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              </p>
             </section>
 
             {/* Section 4: Local Advantages */}
             <section id="local-advantages" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
                 Section 04
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -611,7 +593,7 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 Here is where the story gets interesting. National chains have structural advantages in information volume, but local businesses have something chains cannot buy: specificity, authenticity, and niche depth. These are precisely the qualities that AI models are increasingly rewarding, because they make for better, more useful answers.
-               Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              </p>
 
               <div className="ae-pros-cons grid md:grid-cols-2 gap-6 my-10">
                 <div
@@ -693,7 +675,7 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 The insight here is that local businesses have genuine competitive advantages, they just have not been translated into the signals AI models look for. A local HVAC expert who knows every quirk of homes built in their area in the 1970s has deeper expertise than any national chain. But if that expertise only lives in their head and not on their website, AI cannot see it.
-               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+              </p>
 
               <p className="text-gray-300 leading-relaxed">
                 This is also why the recommendation gaps are rarely about quality. In many cases, the local business is objectively better. It is why we talk about the AI visibility gap as a separate problem from the service quality gap. You can read more about how this dynamic shows up in{' '}
@@ -701,12 +683,12 @@ export default function Page() {
                   why AI sometimes recommends businesses with worse reviews
                 </Link>
                 .
-               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+              </p>
             </section>
 
             {/* Section 5: Comparison Table */}
             <section id="chain-vs-local-comparison" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
                 Section 05
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -715,14 +697,14 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-8">
                 AI models evaluate businesses across a set of trust and relevance signals. Here is how a typical national chain compares to a typical unoptimized local business across the dimensions that matter most.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+              </p>
 
               <div className="ae-comparison-table overflow-x-auto rounded-xl mb-10" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
                 <table className="w-full text-sm">
                   <thead>
                     <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
                       <th className="text-left p-4 font-plus-jakarta font-bold text-white">AI Signal</th>
-                      <th className="text-center p-4 font-plus-jakarta font-bold" style={{ color: '#F27D24' }}>National Chain</th>
+                      <th className="text-center p-4 font-plus-jakarta font-bold" style={{ color: '#FF6A00' }}>National Chain</th>
                       <th className="text-center p-4 font-plus-jakarta font-bold text-gray-400">Unoptimized Local</th>
                       <th className="text-center p-4 font-plus-jakarta font-bold" style={{ color: '#22C55E' }}>Optimized Local</th>
                     </tr>
@@ -825,25 +807,25 @@ export default function Page() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <div>
-                    <p className="text-green-400 font-semibold mb-1">The Opportunity Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                    <p className="text-green-400 font-semibold mb-1">The Opportunity</p>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Look at the "Optimized Local" column. An optimized local business matches or exceeds the chain on every dimension that AI models weight most heavily, and beats the chain on local specificity and niche expertise, the two dimensions chains can never truly own.
-                     Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+                    </p>
                   </div>
                 </div>
               </div>
 
               {/* Inline CTA */}
               <div className="ae-cta-inline my-10 p-6 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.18)' }}>
-                <p className="text-white font-semibold mb-2">Where does your business fall in this table? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+                <p className="text-white font-semibold mb-2">Where does your business fall in this table?</p>
                 <p className="text-gray-400 text-sm mb-4">
                   Our Blind Spot Report audits your business across all eight of these AI signal categories and tells you exactly what to fix first.
-                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                </p>
                 <div className="flex flex-wrap gap-3">
                   <Link
                     href="/blindspot"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-white text-sm transition-all hover:opacity-90"
-                    style={{ backgroundColor: '#F27D24' }}
+                    style={{ backgroundColor: '#FF6A00' }}
                   >
                     Get Your Free Blind Spot Report
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -853,7 +835,7 @@ export default function Page() {
                   <a
                     href="tel:+12134442229"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:opacity-90"
-                    style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
+                    style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
                   >
                     Call (213) 444-2229
                   </a>
@@ -863,7 +845,7 @@ export default function Page() {
 
             {/* Section 6: Decision Matrix */}
             <section id="decision-matrix" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
                 Section 06
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -872,7 +854,7 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-8">
                 Not all visibility gaps are equally important. Use this matrix to prioritize your efforts based on what chains do well and what a local business can realistically address first.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+              </p>
 
               <div className="ae-decision-matrix space-y-4 mb-10">
                 {[
@@ -892,13 +874,13 @@ export default function Page() {
                     condition: 'Chain has FAQ-rich content answering category questions',
                     localAction: 'Create a dedicated FAQ page and embed relevant Q&A sections on each service page. Answer the exact questions your customers ask, in plain language.',
                     priority: 'High',
-                    priorityColor: '#F27D24',
+                    priorityColor: '#FF6A00',
                   },
                   {
                     condition: 'Chain has reviews on Google, Yelp, Angi, and industry platforms',
                     localAction: 'Build a multi-platform review presence. A business with 40 reviews across 6 platforms signals more trust than 200 reviews on one platform.',
                     priority: 'High',
-                    priorityColor: '#F27D24',
+                    priorityColor: '#FF6A00',
                   },
                   {
                     condition: 'Chain has press mentions on authoritative publications',
@@ -910,7 +892,7 @@ export default function Page() {
                     condition: 'Chain has generic service descriptions for every market',
                     localAction: 'Write hyper-local service pages that reference your specific service area, local conditions, and community knowledge. This is where local beats chain every time.',
                     priority: 'High',
-                    priorityColor: '#F27D24',
+                    priorityColor: '#FF6A00',
                   },
                   {
                     condition: 'Chain content avoids deep niche expertise',
@@ -926,11 +908,11 @@ export default function Page() {
                   >
                     <div>
                       <div className="text-xs text-gray-500 mb-1 uppercase tracking-wider">Chain Does This</div>
-                      <p className="text-sm text-gray-300">{item.condition} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                      <p className="text-sm text-gray-300">{item.condition}</p>
                     </div>
                     <div>
                       <div className="text-xs text-gray-500 mb-1 uppercase tracking-wider">Your Local Response</div>
-                      <p className="text-sm text-gray-300">{item.localAction} <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+                      <p className="text-sm text-gray-300">{item.localAction}</p>
                     </div>
                     <div className="flex items-center md:justify-end">
                       <span
@@ -949,11 +931,11 @@ export default function Page() {
                 style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}
               >
                 <div className="flex items-start gap-3">
-                  <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                   <div>
-                    <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>Start with the Critical items</p>
+                    <p className="font-semibold mb-1" style={{ color: '#FF6A00' }}>Start with the Critical items</p>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       NAP consistency and schema markup are foundational. Every other signal you build on top of a weak foundation underperforms. Fix these first, then layer in the High and Medium priority items.
                     </p>
@@ -972,7 +954,7 @@ export default function Page() {
 
             {/* Section 7: Cheat Sheet */}
             <section id="cheat-sheet" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
                 Section 07
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -984,7 +966,7 @@ export default function Page() {
                 style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}
               >
                 <h3 className="font-plus-jakarta text-lg font-bold text-white mb-6 flex items-center gap-2">
-                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
                   The Local Business AI Visibility Checklist
@@ -1003,7 +985,7 @@ export default function Page() {
                         'FAQPage schema on FAQ sections',
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                           </svg>
                           {item}
@@ -1023,7 +1005,7 @@ export default function Page() {
                         'Service area page naming specific neighborhoods and cities',
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                           </svg>
                           {item}
@@ -1041,7 +1023,7 @@ export default function Page() {
                         'Owner credentials and expertise explained on About page',
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                           </svg>
                           {item}
@@ -1059,7 +1041,7 @@ export default function Page() {
                         'Community involvement or local partnerships referenced',
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                           </svg>
                           {item}
@@ -1077,7 +1059,7 @@ export default function Page() {
                     <Link
                       href="/blindspot"
                       className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-white text-sm transition-all hover:opacity-90"
-                      style={{ backgroundColor: '#F27D24' }}
+                      style={{ backgroundColor: '#FF6A00' }}
                     >
                       Get Your Free Blind Spot Report
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1087,7 +1069,7 @@ export default function Page() {
                     <a
                       href="mailto:support@theanswerengine.ai"
                       className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:opacity-90"
-                      style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
+                      style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
                     >
                       Email Us
                     </a>
@@ -1103,12 +1085,12 @@ export default function Page() {
             <div className="flex items-start gap-4">
               <div
                 className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-plus-jakarta font-bold text-white text-lg"
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
               >
                 AE
               </div>
               <div>
-                <div className="font-plus-jakarta font-bold text-white mb-1">Justin Borges</div>
+                <div className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</div>
                 <div className="text-xs text-gray-500 mb-3">Answer Engine Optimization Specialists</div>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   We help local businesses close the AI visibility gap and compete against national chains on AI platforms including ChatGPT, Perplexity, Google AI, and more. Our Blind Spot Reports have uncovered critical visibility gaps for hundreds of local service businesses across the U.S.
@@ -1118,7 +1100,7 @@ export default function Page() {
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
               Is a National Chain Stealing Your AI Recommendations?
             </h3>
@@ -1127,14 +1109,14 @@ export default function Page() {
             </p>
             <Link
               href="/blindspot"
-              className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
             >
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -1152,7 +1134,7 @@ export default function Page() {
 
           {/* FAQ */}
           <section id="faq" className="mb-16">
-            <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3 not-prose" style={{ color: '#F27D24' }}>
+            <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3 not-prose" style={{ color: '#FF6A00' }}>
               FAQ
             </div>
             <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8 not-prose">
@@ -1223,7 +1205,7 @@ export default function Page() {
               aria-hidden="true"
             />
             <div className="relative">
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}>
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}>
                 Free for qualifying businesses
               </div>
               <h2 className="font-plus-jakarta text-3xl md:text-4xl font-extrabold text-white mb-4">
@@ -1236,7 +1218,7 @@ export default function Page() {
                 <Link
                   href="/blindspot"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#F27D24', boxShadow: '0 0 30px rgba(255,106,0,0.4)' }}
+                  style={{ backgroundColor: '#FF6A00', boxShadow: '0 0 30px rgba(255,106,0,0.4)' }}
                 >
                   Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1246,7 +1228,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}
+                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.4)' }}
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

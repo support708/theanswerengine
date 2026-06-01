@@ -5,7 +5,7 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'Traditional Marketing vs AI Visibility in 2026'
+const title = 'Traditional Marketing vs AI Visibility: What Actually Works in 2026 | The Answer Engine'
 const description =
   'Linear TV is down 11%, print is fading, and 37% of consumers now start searches with AI. Learn what actually drives customers in 2026.'
 const slug = 'traditional-marketing-vs-ai-visibility-what-actually-works-in-2026'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,18 +64,9 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        '@type': 'Organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
       },
       publisher: {
         '@type': 'Organization',
@@ -241,7 +232,7 @@ export default function Page() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#F27D24"
+                  stroke="#FF6A00"
                   strokeWidth="0.5"
                 />
               </pattern>
@@ -257,7 +248,7 @@ export default function Page() {
               <span
                 style={{
                   backgroundColor: 'rgba(255, 106, 0, 0.15)',
-                  color: '#F27D24',
+                  color: '#FF6A00',
                   border: '1px solid rgba(255, 106, 0, 0.3)',
                 }}
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
@@ -271,19 +262,10 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               Traditional Marketing vs{' '}
-              <span style={{ color: '#F27D24' }}>AI Visibility</span>
+              <span style={{ color: '#FF6A00' }}>AI Visibility</span>
               <br />
               What Actually Works in 2026
             </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
-              <img
-                src="/blog/traditional-marketing-vs-ai-visibility-what-actually-works-in-2026.webp"
-                alt="traditional marketing vs ai visibility what actually works in 2026"
-                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-                loading="eager"
-              />
-            </div>
 
             <p className="text-xl text-gray-300 max-w-3xl mb-8 leading-relaxed">
               Linear TV ad spend is down over 11%. Traditional search volume is forecast to drop
@@ -295,13 +277,13 @@ export default function Page() {
             {/* Author + date row */}
             <div className="flex items-center gap-4 text-sm text-gray-500">
               <div
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
                 className="w-9 h-9 rounded-full flex items-center justify-center font-bold text-white text-sm"
               >
                 AE
               </div>
               <div>
-                <span className="text-gray-300 font-medium">Justin Borges</span>
+                <span className="text-gray-300 font-medium">The Answer Engine Team</span>
                 <span className="mx-2">·</span>
                 <time dateTime={publishDate} className="text-gray-500">
                   March 29, 2026
@@ -327,7 +309,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 37%
               </div>
@@ -346,7 +328,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 4.4x
               </div>
@@ -365,7 +347,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 25%
               </div>
@@ -384,7 +366,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 11%+
               </div>
@@ -406,7 +388,7 @@ export default function Page() {
           >
             <h2
               className="font-plus-jakarta text-lg font-bold mb-4"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               In This Article
             </h2>
@@ -468,7 +450,7 @@ export default function Page() {
               certain audiences. Radio still reaches 71% of adults aged 25 to 54 weekly. But the
               trajectory of each major traditional channel is unmistakable: shrinking budgets,
               fragmenting audiences, and diminishing returns at the top end.
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               Linear television, the king of brand building for three decades, is absorbing the
               sharpest blow. Global linear TV ad spend is dropping over 11% in 2026 alone. A
@@ -476,7 +458,7 @@ export default function Page() {
               year, a larger share of the audience is streaming, and streaming inventory behaves
               more like digital than traditional: targetable, measurable, and increasingly
               competitive.
-             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+            </p>
 
             <div
               className="ae-callout-warning rounded-xl p-6 mb-8"
@@ -500,7 +482,7 @@ export default function Page() {
                     is the best plumber near me?" That question goes to ChatGPT, Google AI Mode, or
                     Perplexity. If your business is not in that AI answer, the billboard you paid
                     for does not close the loop.
-                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -512,7 +494,7 @@ export default function Page() {
               which recorded a remarkable 161% ROI in 2025, the highest of any paid marketing
               channel. But direct mail is increasingly a retention and upsell tool for existing
               customer lists, not a customer acquisition engine for cold audiences.
-             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-6">
               Out-of-home advertising, including billboards, is the outlier performing reasonably
@@ -520,7 +502,7 @@ export default function Page() {
               grew 14.5% while static formats barely moved at 1.5%. Even billboards are going
               digital and programmatic, which says something important: the channels that survive
               are the ones borrowing principles from digital.
-             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+            </p>
 
             {/* Pros/cons: Traditional */}
             <div
@@ -610,16 +592,16 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     Is your business invisible to AI?
                   </span>{' '}
                   Find out in 5 minutes with a free AI Blind Spot Audit.
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+                </p>
               </div>
               <a
-                href="/blindspot"
+                href="/#contact"
                 style={{
-                  backgroundColor: '#F27D24',
+                  backgroundColor: '#FF6A00',
                   color: '#FFFFFF',
                 }}
                 className="text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
@@ -643,14 +625,14 @@ export default function Page() {
               $43.6 billion in 2024, is on a trajectory to capture 62.2% of total search volume
               by 2030. But 2030 feels abstract. What is happening right now is already material
               for businesses.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               Google AI Overviews alone reach 1.5 billion monthly users. ChatGPT has 810 million
               daily active users. Perplexity, Claude, Grok, Copilot, and Gemini collectively
               handle hundreds of millions more queries every day. These are not niche tools used
               by tech enthusiasts. They are the new front door through which a rapidly growing
               share of your potential customers first encounter your category.
-             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            </p>
 
             <div
               className="ae-callout-info rounded-xl p-6 mb-8"
@@ -676,7 +658,7 @@ export default function Page() {
                     ranking. It is the one whose authority, reviews, descriptions, and structured
                     data gave the AI enough confidence to recommend. That is a fundamentally
                     different game.
-                   Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -688,7 +670,7 @@ export default function Page() {
               deciding. The reason is clear: AI does the qualification work before the visit.
               By the time a user clicks through, they already received a specific recommendation
               that matched their stated need.
-             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The zero-click reality also reshapes the calculation. 93% of AI search sessions
               end without any website click at all. This means that AI visibility is not only
@@ -696,7 +678,7 @@ export default function Page() {
               recommended even when the user never visits your site. For service businesses,
               having your phone number and location confirmed by an AI recommendation carries
               brand value that no billboard can replicate at that moment of intent.
-             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            </p>
 
             {/* Internal link CTA */}
             <div
@@ -706,18 +688,18 @@ export default function Page() {
                 border: '1px solid rgba(255,255,255,0.1)',
               }}
             >
-              <p className="text-sm text-gray-400 mb-3">Related reading on this topic: Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+              <p className="text-sm text-gray-400 mb-3">Related reading on this topic:</p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   href="/blog/hidden-cost-ignoring-ai-search"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                   className="text-sm font-medium hover:underline"
                 >
                   The Hidden Cost of Ignoring AI Search →
                 </Link>
                 <Link
                   href="/blog/ai-search-vs-google-maps-which-one-sends-more-customers"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                   className="text-sm font-medium hover:underline"
                 >
                   AI Search vs Google Maps: Who Sends More Customers →
@@ -735,15 +717,15 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     Curious what AI says about your business right now?
                   </span>{' '}
                   Talk to a visibility specialist.
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+                </p>
               </div>
               <a
                 href="tel:+12134442229"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Call (213) 444-2229
@@ -764,7 +746,7 @@ export default function Page() {
               useful frame is: which channel owns which stage of the customer journey, and which
               stage is growing fastest? The answer shapes where additional investment creates the
               most leverage.
-             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+            </p>
 
             {/* Journey stage cards */}
             <div className="grid md:grid-cols-3 gap-5 mb-10">
@@ -790,7 +772,7 @@ export default function Page() {
                 <p className="text-sm text-gray-400 mb-3 leading-relaxed">
                   Customer learns your brand exists. TV, radio, and OOH still own much of this
                   stage, particularly for broad local audiences.
-                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+                </p>
                 <div
                   className="text-xs font-medium px-2 py-1 rounded"
                   style={{
@@ -825,12 +807,12 @@ export default function Page() {
                 <p className="text-sm text-gray-400 mb-3 leading-relaxed">
                   Customer asks "who should I hire for X near me?" This stage is rapidly
                   migrating from Google to AI platforms. Whoever wins here wins the lead.
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+                </p>
                 <div
                   className="text-xs font-medium px-2 py-1 rounded"
                   style={{
                     backgroundColor: 'rgba(255,106,0,0.1)',
-                    color: '#F27D24',
+                    color: '#FF6A00',
                     display: 'inline-block',
                   }}
                 >
@@ -860,7 +842,7 @@ export default function Page() {
                 <p className="text-sm text-gray-400 mb-3 leading-relaxed">
                   Customer evaluates options. Reviews, website, and AI confirmation all play a
                   role. AI-referred visitors convert 4.4x higher because the AI pre-qualifies them.
-                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+                </p>
                 <div
                   className="text-xs font-medium px-2 py-1 rounded"
                   style={{
@@ -886,7 +868,7 @@ export default function Page() {
                 <div>
                   <h3
                     className="font-plus-jakarta font-bold text-lg mb-2"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                   >
                     The Stage That Determines Whether You Win or Lose
                   </h3>
@@ -896,7 +878,7 @@ export default function Page() {
                     almost entirely in Google. In 2026, it is splitting rapidly between Google and
                     AI platforms. A business that owns Stage 1 through traditional advertising but
                     is invisible in Stage 2 is paying to generate demand that competitors capture.
-                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -911,15 +893,15 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     See exactly where your business stands in Stage 2.
                   </span>{' '}
                   We audit ChatGPT, Perplexity, Gemini, and more.
-                 Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                </p>
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Email Us
@@ -938,7 +920,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-8">
               This table does not declare a winner. It maps each channel to the dimensions that
               matter most for businesses making real budget decisions in 2026.
-             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            </p>
 
             <div className="ae-comparison-table overflow-x-auto rounded-xl mb-8">
               <table
@@ -955,7 +937,7 @@ export default function Page() {
                   >
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
-                      style={{ color: '#F27D24' }}
+                      style={{ color: '#FF6A00' }}
                     >
                       Dimension
                     </th>
@@ -973,7 +955,7 @@ export default function Page() {
                     </th>
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
-                      style={{ color: '#F27D24' }}
+                      style={{ color: '#FF6A00' }}
                     >
                       AI Search Visibility
                     </th>
@@ -1041,7 +1023,7 @@ export default function Page() {
                       <td className="p-4 text-gray-400">{row.ooh}</td>
                       <td
                         className="p-4 font-medium"
-                        style={{ color: '#F27D24' }}
+                        style={{ color: '#FF6A00' }}
                       >
                         {row.ai}
                       </td>
@@ -1061,16 +1043,16 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     Not sure how to read this for your specific industry?
                   </span>{' '}
                   We build channel-specific visibility strategies every week.
-                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+                </p>
               </div>
               <a
-                href="/blindspot"
+                href="/#contact"
                 style={{
-                  backgroundColor: '#F27D24',
+                  backgroundColor: '#FF6A00',
                   color: '#FFFFFF',
                 }}
                 className="text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
@@ -1092,7 +1074,7 @@ export default function Page() {
               The majority of small and mid-sized businesses we speak with have no idea what AI
               platforms say about them. Some have never checked. Others assume that good Google
               rankings automatically translate to AI visibility. They do not.
-             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               AI platforms build their understanding of a business from an entirely different set
               of signals than Google uses for rankings. Entity recognition, structured data,
@@ -1100,7 +1082,7 @@ export default function Page() {
               and the clarity of the business's own website content all feed the AI's confidence
               level. A business can rank on page one of Google and still be completely absent from
               ChatGPT, Perplexity, and Gemini responses.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+            </p>
 
             <div
               className="ae-callout-success rounded-xl p-6 mb-8"
@@ -1121,7 +1103,7 @@ export default function Page() {
                   <p className="text-gray-300 text-sm leading-relaxed mb-3">
                     After analyzing hundreds of AI citation patterns, a few consistent themes
                     emerge among businesses that reliably appear in AI answers:
-                   Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                  </p>
                   <ul className="space-y-1 text-sm text-gray-300">
                     <li className="flex items-start gap-2">
                       <span style={{ color: '#22C55E' }} className="flex-shrink-0">•</span>
@@ -1153,12 +1135,12 @@ export default function Page() {
               are not running more TV ads. They are not bidding more on Google. They are being
               named by AI platforms to high-intent customers every hour of every day, with no
               cost-per-click.
-             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The businesses that have not done this work are spending more on traditional
               channels to capture a shrinking share of an audience that is increasingly finding
               alternatives before the traditional ad even has a chance to work.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+            </p>
 
             <Link
               href="/blog/seo-agency-vs-ai-optimization-which-one"
@@ -1171,10 +1153,10 @@ export default function Page() {
                 textDecoration: 'none',
               }}
             >
-              <p className="text-xs text-gray-500 mb-1 uppercase tracking-widest">Related Article <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+              <p className="text-xs text-gray-500 mb-1 uppercase tracking-widest">Related Article</p>
               <p className="font-plus-jakarta font-semibold text-white hover:text-orange-400 transition-colors">
                 SEO Agency vs AI Optimization: Which One Does Your Business Actually Need? →
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+              </p>
             </Link>
 
             {/* Inline CTA 5 */}
@@ -1187,15 +1169,15 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     Want to know exactly what ChatGPT says about your business today?
                   </span>{' '}
                   We run the audit and show you the exact gap.
-                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                </p>
               </div>
               <a
                 href="tel:+12134442229"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Call (213) 444-2229
@@ -1214,7 +1196,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-8">
               Your ideal channel mix depends on your business type, customer demographics, and
               current visibility gaps. Use this matrix as a starting framework, not a final answer.
-             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+            </p>
 
             <div className="ae-decision-matrix overflow-x-auto rounded-xl mb-8">
               <table
@@ -1229,7 +1211,7 @@ export default function Page() {
                   <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
-                      style={{ color: '#F27D24' }}
+                      style={{ color: '#FF6A00' }}
                     >
                       Business Situation
                     </th>
@@ -1241,7 +1223,7 @@ export default function Page() {
                     </th>
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
-                      style={{ color: '#F27D24' }}
+                      style={{ color: '#FF6A00' }}
                     >
                       AI Visibility Priority
                     </th>
@@ -1301,7 +1283,7 @@ export default function Page() {
                     >
                       <td className="p-4 text-white font-medium">{row.situation}</td>
                       <td className="p-4 text-gray-400">{row.traditional}</td>
-                      <td className="p-4 font-medium" style={{ color: '#F27D24' }}>{row.ai}</td>
+                      <td className="p-4 font-medium" style={{ color: '#FF6A00' }}>{row.ai}</td>
                       <td className="p-4 text-gray-400">{row.mix}</td>
                     </tr>
                   ))}
@@ -1348,7 +1330,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     Not sure which row describes your business?
                   </span>{' '}
                   We'll map it out in a free consultation.
@@ -1357,7 +1339,7 @@ export default function Page() {
               <a
                 href="mailto:support@theanswerengine.ai"
                 style={{
-                  backgroundColor: '#F27D24',
+                  backgroundColor: '#FF6A00',
                   color: '#FFFFFF',
                 }}
                 className="text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
@@ -1455,16 +1437,16 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     We handle all six of these signal categories.
                   </span>{' '}
                   See which ones your business is missing.
                 </p>
               </div>
               <a
-                href="/blindspot"
+                href="/#contact"
                 style={{
-                  backgroundColor: '#F27D24',
+                  backgroundColor: '#FF6A00',
                   color: '#FFFFFF',
                 }}
                 className="text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
@@ -1547,8 +1529,8 @@ export default function Page() {
                       className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0"
                       style={{
                         backgroundColor: i === 3 ? 'rgba(255,106,0,0.2)' : 'rgba(255,255,255,0.05)',
-                        border: i === 3 ? '1px solid #F27D24' : '1px solid rgba(255,255,255,0.1)',
-                        color: i === 3 ? '#F27D24' : '#9CA3AF',
+                        border: i === 3 ? '1px solid #FF6A00' : '1px solid rgba(255,255,255,0.1)',
+                        color: i === 3 ? '#FF6A00' : '#9CA3AF',
                       }}
                     >
                       {item.step}
@@ -1556,7 +1538,7 @@ export default function Page() {
                     <div>
                       <span
                         className="text-xs font-semibold uppercase tracking-widest"
-                        style={{ color: i === 3 ? '#F27D24' : '#6B7280' }}
+                        style={{ color: i === 3 ? '#FF6A00' : '#6B7280' }}
                       >
                         {item.label}
                       </span>
@@ -1577,7 +1559,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     Step 4 in the example above is where most businesses lose.
                   </span>{' '}
                   We can make sure it works for you.
@@ -1585,7 +1567,7 @@ export default function Page() {
               </div>
               <a
                 href="tel:+12134442229"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Call (213) 444-2229
@@ -1604,7 +1586,7 @@ export default function Page() {
             >
               <h2
                 className="font-plus-jakarta text-2xl font-bold mb-2"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 2026 Marketing Channel Cheat Sheet
               </h2>
@@ -1660,7 +1642,7 @@ export default function Page() {
                 <div>
                   <h3
                     className="font-plus-jakarta font-bold text-sm uppercase tracking-widest mb-4"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                   >
                     AI and Digital Channels
                   </h3>
@@ -1684,7 +1666,7 @@ export default function Page() {
                                 : 'rgba(234,179,8,0.15)',
                             color:
                               item.verdict === 'Invest Now'
-                                ? '#F27D24'
+                                ? '#FF6A00'
                                 : item.verdict === 'Maintain'
                                 ? '#22C55E'
                                 : '#EAB308',
@@ -1713,9 +1695,9 @@ export default function Page() {
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="/blindspot"
+                    href="/#contact"
                     style={{
-                      backgroundColor: '#F27D24',
+                      backgroundColor: '#FF6A00',
                       color: '#FFFFFF',
                     }}
                     className="text-sm font-bold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
@@ -1726,7 +1708,7 @@ export default function Page() {
                     href="tel:+12134442229"
                     style={{
                       border: '1px solid rgba(255,106,0,0.4)',
-                      color: '#F27D24',
+                      color: '#FF6A00',
                     }}
                     className="text-sm font-bold px-5 py-2.5 rounded-lg hover:opacity-80 transition-opacity"
                   >
@@ -1748,7 +1730,7 @@ export default function Page() {
             >
               <p
                 className="text-xs font-semibold uppercase tracking-widest mb-3"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Free for Business Owners
               </p>
@@ -1768,9 +1750,9 @@ export default function Page() {
               {/* Tier 1: Primary CTA button */}
               <div className="mb-6">
                 <a
-                  href="/blindspot"
+                  href="/#contact"
                   style={{
-                    background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
+                    background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
                     color: '#FFFFFF',
                     boxShadow: '0 0 30px rgba(255,106,0,0.4)',
                   }}
@@ -1786,7 +1768,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="font-plus-jakarta text-2xl font-bold hover:opacity-80 transition-opacity"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   (213) 444-2229
                 </a>
@@ -1874,7 +1856,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     Have a question not answered above?
                   </span>{' '}
                   Our team responds within one business day.
@@ -1882,7 +1864,7 @@ export default function Page() {
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Ask Us Directly
@@ -1901,7 +1883,7 @@ export default function Page() {
             >
               <div
                 className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0"
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
                 aria-hidden="true"
               >
                 AE
@@ -1911,7 +1893,7 @@ export default function Page() {
                   className="font-plus-jakarta font-bold text-base mb-1"
                   style={{ color: '#FFFFFF' }}
                 >
-                  Justin Borges
+                  The Answer Engine Team
                 </div>
                 <div className="text-xs text-gray-500 mb-3">
                   Published March 29, 2026 · Competitive Intelligence
@@ -1925,21 +1907,21 @@ export default function Page() {
                 <div className="flex flex-wrap gap-4 mt-4">
                   <a
                     href="tel:+12134442229"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     (213) 444-2229
                   </a>
                   <a
                     href="mailto:support@theanswerengine.ai"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     support@theanswerengine.ai
                   </a>
                   <a
                     href="https://theanswerengine.ai"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     theanswerengine.ai
@@ -1992,9 +1974,9 @@ export default function Page() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                 <a
-                  href="/blindspot"
+                  href="/#contact"
                   style={{
-                    background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
+                    background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
                     color: '#FFFFFF',
                     boxShadow: '0 0 40px rgba(255,106,0,0.5)',
                   }}
@@ -2006,7 +1988,7 @@ export default function Page() {
                   href="tel:+12134442229"
                   style={{
                     border: '2px solid rgba(255,106,0,0.5)',
-                    color: '#F27D24',
+                    color: '#FF6A00',
                   }}
                   className="inline-block text-base font-bold px-8 py-4 rounded-xl hover:border-orange-400 transition-colors"
                 >

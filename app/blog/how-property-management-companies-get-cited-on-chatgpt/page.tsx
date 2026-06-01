@@ -344,13 +344,7 @@ export default function PropertyManagementAICitationsPage() {
               sufficient one.
              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Find out whether your property management company currently appears in ChatGPT and
-                Perplexity when landlords search for managers in your market.
-               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label" id="how-ai-selects">The Mechanism</span>
             <h2>How AI Retrieval Systems Select Which Companies to Cite</h2>
@@ -402,13 +396,7 @@ export default function PropertyManagementAICitationsPage() {
               numerical data.
              Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Speak directly with an AEO strategist about your property management
-                company&rsquo;s current citation baseline and what it would take to change it.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <a href="tel:+12134442229">(213) 444-2229 →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label" id="aggregator-trap">Named Thesis</span>
             <h2>The Aggregator Trap — Why 60% of Citations Miss You</h2>
@@ -462,15 +450,7 @@ export default function PropertyManagementAICitationsPage() {
               infrastructure that competes with aggregator pages in AI retrieval.
              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Want a detailed breakdown of which aggregators are capturing your citations right
-                now? We pull that data for free.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <a href="mailto:support@theanswerengine.ai">
-                support@theanswerengine.ai →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label" id="three-layers">The Framework</span>
             <h2>The Three Citation Layers Property Management Companies Need</h2>
@@ -544,19 +524,7 @@ export default function PropertyManagementAICitationsPage() {
               attributes in reviews is a direct citation-building tactic.
              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                We review property management AEO stacks in a 30-minute strategy session at no
-                cost. One client per market — claim your territory before a competitor does.
-               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a
-                href="https://calendly.com/theanswerengine-support/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Book a Free Strategy Session →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label" id="website-content">The Content Stack</span>
             <h2>What Property Management Websites Must Contain for AI Visibility</h2>
@@ -616,19 +584,7 @@ export default function PropertyManagementAICitationsPage() {
               directory presence and above-threshold review volume.
              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                TAE works with one property management company per market. If your city is still
-                available, a competitor has not yet claimed it. Check availability now.
-               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <a
-                href="https://calendly.com/theanswerengine-support/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Check Your Market Availability →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label" id="review-floor">Named Thesis</span>
             <h2>The Review Authority Floor</h2>
@@ -684,13 +640,7 @@ export default function PropertyManagementAICitationsPage() {
               quickly we resolved maintenance requests, that would be especially helpful.&rdquo;
             </p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                We audit your current review profile against the citation threshold and tell you
-                exactly how many reviews you need and what language gaps exist.
-              </p>
-              <Link href="/blindspot">Get Your Free Citation Audit →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label" id="measuring">Proof and Performance</span>
             <h2>Measuring AI Citation Performance for Your Property Management Company</h2>
@@ -751,19 +701,7 @@ export default function PropertyManagementAICitationsPage() {
               and what makes one source beat another in AI retrieval.
             </p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                One property management company per market. If your city is still unclaimed by a
-                TAE client, you have a window. We do not take competing clients in the same market.
-              </p>
-              <a
-                href="https://calendly.com/theanswerengine-support/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Claim Your Market Territory →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label">Citation Audit</span>
             <h2>Property Management AI Citation Readiness Audit</h2>
@@ -838,15 +776,7 @@ export default function PropertyManagementAICitationsPage() {
               </table>
             </div>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                We run this exact audit for property management companies and return a scored
-                citation gap report. No cost, no commitment.
-              </p>
-              <a href="mailto:support@theanswerengine.ai">
-                Request Your Citation Gap Report →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label" id="faq">FAQ</span>
             <h2>Frequently Asked Questions</h2>
@@ -882,13 +812,7 @@ export default function PropertyManagementAICitationsPage() {
               </p>
             </details>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Not sure if your current digital presence is set up to generate AI citations? We
-                diagnose this in the free blind spot report.
-              </p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <details className="ae-faq-item">
               <summary className="cursor-pointer text-white font-semibold py-3">
@@ -955,13 +879,7 @@ export default function PropertyManagementAICitationsPage() {
               </p>
             </details>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Have a specific question about your property management company&rsquo;s citation
-                situation? We respond to every email personally.
-              </p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <span className="ae-section-label">Keep Learning</span>
             <h2>Related Articles</h2>
@@ -1021,12 +939,7 @@ export default function PropertyManagementAICitationsPage() {
               </Link>
             </div>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Still reading? You clearly take AI citations seriously. Take the next step with us.
-              </p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI recommends your property management company</a>
 
             <div className="not-prose ae-author-card">
               <img
@@ -1063,94 +976,39 @@ export default function PropertyManagementAICitationsPage() {
             </div>
 
             <div className="ae-cta-block not-prose my-16">
-              <h3>Ready to Get Your Property Management Company Cited on ChatGPT?</h3>
-              <p>
-                Find out whether your current digital presence is structured to earn AI citations,
-                or where the gap is. Our free blind spot report analyzes your directory coverage,
-                review profile, and content structure across all four major LLM platforms. No
-                pitch. Just the data.
-              </p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-                <a
-                  href="tel:+12134442229"
-                  className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
-                  (213) 444-2229
-                </a>
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                  support@theanswerengine.ai
-                </a>
+              <h3>When Property Owners Ask ChatGPT for a Management Company — Does Your Name Appear?</h3>
+              <p>Investors and landlords use AI to find property managers before ever browsing Google. Is your company being recommended — or are you invisible while a competitor captures every AI-referred lead?</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Property Management Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
             </div>
 
-            <section className="ae-final-cta not-prose text-center py-12 border-t border-white/[0.05]">
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                A Competitor in Your Market Is Building Citation Authority Right Now
+                AI Search Is Sending Property Owners to Someone in Your Market
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                The 90-day citation window is running for someone in your property management
-                market today. The company that builds directory coverage, structured content, and
-                review authority first earns the citations. Our free blind spot report shows you
-                exactly where you stand and what it will take to own your territory before someone
-                else does.
+                Landlords ask ChatGPT for property managers now. The Answer Engine puts your company in those answers — not a competitor. Free audit. One firm per market.
               </p>
-              <Link
-                href="/blindspot"
+              <a
+                href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free Blind Spot Report
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
+                Run Free PM Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </Link>
-              <p className="text-gray-500 text-sm mt-4">
-                No pitch. Just the data. One client per market.
-              </p>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
-                <a
-                  href="tel:+12134442229"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
-                >
-                  (213) 444-2229
-                </a>
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
-                >
-                  support@theanswerengine.ai
-                </a>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
-            </section>
+            </div>
+          </section>
 
           </div>
         </article>

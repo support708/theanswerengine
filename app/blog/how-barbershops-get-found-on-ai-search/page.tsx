@@ -381,10 +381,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 game, and most barbershops are playing it without knowing the rules.
               </p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Find out if AI is recommending your competitors instead of your barbershop. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 2 */}
@@ -442,10 +439,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 .
                <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Want to know exactly what AI says when someone asks for a barber near you?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 3 */}
@@ -503,10 +497,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 moved, changed hours, or rebranded, AI reduces its confidence in recommending you.
               </p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>See how your shop scores on AI trust signals compared to others in your area. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 4 */}
@@ -563,13 +554,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 .
                <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                Not sure if AI can read your reviews? Our free report tells you which platforms AI
-                can and cannot access.
-              </p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 5 */}
@@ -667,13 +652,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </tr>
               </tbody>
             </table>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                Find out whether AI crawlers can actually read your barbershop&apos;s website right
-                now.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <Link href="/blindspot">Check Your AI Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 6 */}
@@ -747,13 +726,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 .
               </p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                Ready to compete with the chains on AI search? We help independent shops build the
-                signals that matter.
-               Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 7 */}
@@ -838,13 +811,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </tr>
               </tbody>
             </table>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                Is your shop&apos;s specialization visible to AI? Our free report checks every signal
-                that matters.
-              </p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 8 */}
@@ -907,13 +874,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 .
               </p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                Want to know if your booking setup is helping or hurting your AI visibility? We can
-                tell you in 48 hours.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
             <div className="ae-bar-group not-prose mt-6">
               <h3>Consumer AI Usage for Local Service Discovery</h3>
               <div className="ae-bar-item">
@@ -979,37 +940,44 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 both the problem and the opportunity.
                <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                The shops acting now will own their neighborhood in AI search. The ones waiting will
-                be playing catch-up.
-              </p>
-              <Link href="/blindspot">See Where Your Shop Stands &rarr;</Link>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-            <div className="ae-cta-block not-prose mt-6">
-              <p>
-                Prefer email? Send us your questions and we will get back to you within 24 hours.
-               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Or call us directly. We specialize in AI visibility for local service businesses.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Barbershop Invisible When Customers Ask AI?</h2>
-            <p>Most barbershops have no idea what AI says about them. Find out what&apos;s keeping you out of AI recommendations with a free Blind Spot Report. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Link href="/blindspot" className="ae-cta-primary">
-                Get Your Free Blind Spot Report
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
           {/* CHEAT SHEET SECTION */}
           <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
@@ -1059,12 +1027,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </li>
               </ul>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                Want this cheat sheet turned into an action plan specific to your shop? We do that.
-              </p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* FAQ SECTION */}
@@ -1159,65 +1122,35 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 cannot verify, and it cannot verify a shop that only exists inside walled gardens.
               </p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                Ready to see where your shop stands in AI search? The report is free and takes 2
-                minutes.
-              </p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>
-                Have questions about your specific situation? Call us and we will walk through it with
-                you.
-              </p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Barbershop Visible to AI Search?</h2>
-            <p>
-              Find out exactly what ChatGPT, Google AI, and Perplexity say when a customer searches
-              for a barber in your neighborhood. Our free Blind Spot Report shows you the gaps, the
-              missed service queries, and the opportunities in your AI visibility right now.
-            </p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">
-              Get Your Free Blind Spot Report &rarr;
-            </Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
               <a
-                href="tel:+12134442229"
-                className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                  />
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-                (213) 444-2229
               </a>
-              <a
-                href="mailto:support@theanswerengine.ai"
-                className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card">

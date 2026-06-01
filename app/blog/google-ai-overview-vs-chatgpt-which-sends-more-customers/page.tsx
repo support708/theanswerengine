@@ -295,9 +295,7 @@ export default function Page() {
             <p>A business getting 10 leads per month from ChatGPT at a 40% close rate generates more revenue than a business getting 100 leads from Google at a 4% close rate, assuming similar deal sizes. The volume story favors Google. The quality story favors ChatGPT. Your business model determines which metric matters more. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Not sure which AI platform is currently sending customers to your business? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where your AI visibility gaps are. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         <section id="how-each-works">
@@ -333,9 +331,7 @@ export default function Page() {
             <p>60% of searches in traditional search engines now end without a click because AI summaries answer the question directly. If your business depends heavily on organic search traffic, AI Overviews are already reducing that traffic whether or not you are being recommended. The businesses winning in this environment are the ones inside the AI answer, not the ones ranking below it. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Is your business appearing in Google AI Overviews right now? Find out instantly. <Link href="/blindspot">Run your free AI visibility scan</Link>. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         <section id="buyer-journey">
@@ -374,9 +370,7 @@ export default function Page() {
             This is why <Link href="/blog/how-to-measure-if-ai-is-sending-you-customers" className="text-[#F27D24] hover:text-orange-400 transition-colors">measuring AI-referred traffic requires different attribution</Link> than standard organic search. Much of the ChatGPT-driven customer journey happens inside the AI platform before anyone ever visits your website.
            Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-          <div className="ae-cta-inline">
-            <p>Want to see how your competitors are reaching decision-stage buyers through ChatGPT? <a href="tel:+12134442229">Call (213) 444-2229</a> for a live demo of your AI visibility. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         <section id="side-by-side">
@@ -445,9 +439,7 @@ export default function Page() {
             </tbody>
           </table>
 
-          <div className="ae-cta-inline mt-6">
-            <p>Want to know which platform is currently sending customers to your competitors instead of you? <Link href="/blindspot">Your Blind Spot Report</Link> shows exactly where your AI visibility stands on both platforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         <section id="optimization">
@@ -488,9 +480,7 @@ export default function Page() {
             <p>The entity foundation that drives both platforms is largely the same: consistent business information, authoritative content, structured data, and external validation. The businesses that show up in both Google AI Overviews and ChatGPT recommendations tend to be those that built this foundation correctly rather than optimizing for one platform at the expense of the other. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Ready to build the entity foundation that wins on both platforms? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where to start. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         <section id="which-first">
@@ -533,9 +523,7 @@ export default function Page() {
             <p>Google AI Overview sends more traffic. ChatGPT sends better customers. The businesses winning in AI search in 2026 are optimizing for both simultaneously, not choosing between them. The entity foundation that powers both platforms is largely the same. Build it correctly once and both platforms benefit. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Not sure which platform gap is costing you the most? <Link href="/blindspot">Your free Blind Spot Report</Link> breaks it down by platform with specific recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         {/* Dollar Compare */}
@@ -562,9 +550,7 @@ export default function Page() {
           </div>
           <p className="text-gray-400 text-sm mt-4 italic">These are illustrative estimates based on reported AI traffic conversion benchmarks. Actual results vary by business type, market, and service category. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
-          <div className="ae-cta-inline">
-            <p>What is your current AI visibility gap costing you per month? <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a> and we will run the numbers for your market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         {/* 3-Tier CTA Block */}
@@ -653,32 +639,34 @@ export default function Page() {
             ))}
           </div>
 
-          <div className="ae-cta-inline mt-8">
-            <p>Questions about AI visibility for your specific business type? <a href="tel:+12134442229">Call (213) 444-2229</a> and talk to a specialist today. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         {/* Final CTA */}
-        <div className="ae-final-cta not-prose mt-16">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            Start Winning on Both AI Platforms
-          </h2>
-          <p className="text-gray-300 mb-8 text-lg">
-            The businesses showing up in both Google AI Overviews and ChatGPT have one thing in common: strong entity authority. Find out exactly where your business stands and what it will take to get recommended across both platforms.
-          </p>
-          <Link
-            href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
-          >
-            Get Your Free Blind Spot Report
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-          <p className="text-gray-500 text-sm mt-4">
-            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
-          </p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </>

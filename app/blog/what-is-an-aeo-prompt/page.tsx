@@ -388,19 +388,13 @@ export default function WhatIsAnAEOPromptPage() {
             <p>The phrase &ldquo;AEO prompt&rdquo; surfaces in three different contexts. The first is the user prompt — the natural-language query a customer types into ChatGPT or Perplexity. The second is the system prompt — the internal instructions the model itself uses to format an answer. The third is the retrieval query — the rewritten internal query the engine generates after prompt mediation. Only the first is operational for AEO measurement. When this article uses the term AEO prompt without qualification, it means the user-facing prompt — the one the operator&rsquo;s customer would actually submit. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA — text */}
-            <div className="ae-cta-inline not-prose">
-              <p>If you want a same-day read on which AEO prompts your business is invisible on, text us your domain and your top three competitor URLs. We will return the cross-engine prompt map inside the business day.</p>
-              <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>Why the AEO prompt is the only number that decides whether a brand exists in AI search</h3>
             <p>A brand can hold strong SEO rankings, paid impressions, and direct traffic and still be structurally invisible inside ChatGPT or Perplexity. The reason is the AEO prompt is the gate. If the brand is not cited when a customer submits a prompt in its category, the brand was not part of the conversation. There is no &ldquo;page two&rdquo; of a generated answer. There is no ranked alternative the user can scroll to. Either the brand is named inside the AI response or it does not exist for that prompt, that user, that retrieval event. The binary nature of the AEO prompt is what makes it a decision-grade measurement unit and what makes it brutally honest. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Send us your domain and we will reply with a one-page diagnostic showing the exact prompts where your brand is invisible and the competitor cited in its place. Email arrives inside 48 hours.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=AEO%20Prompt%20Diagnostic">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <p>See <a href="/concepts/aeo-prompt" className="concept-link">The AEO Prompt</a> for the standalone concept definition the rest of the Concept Lattice links back to. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
@@ -415,19 +409,13 @@ export default function WhatIsAnAEOPromptPage() {
             <p>The classic marketing funnel unfolded across multiple touches: a Google search for awareness, a click into a comparison article for consideration, a second search for intent, then a transaction. Generative search collapses that sequence. <strong className="named-thesis">The Intent Compression: a single AEO prompt collapses awareness, consideration, and recommendation into one retrieval event, so the brand cited inside the answer wins the consideration set before the user clicks anywhere (Zhang et al., 2026).</strong> The implication for operators: by the time the AI answer is generated, the brand is either named or it is not. There is no retargeting flight that recovers a prompt the brand failed to be cited inside. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want us to map your category&rsquo;s intent-compression flow on a screen-share? Pick a 30-minute slot and we will walk the AEO prompts your customers actually submit and the citations your competitors are clearing.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book the 30-Minute Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>The interrogative skew</h3>
             <p>AEO prompts skew interrogative. SEO keywords skew noun-phrase. <strong className="named-thesis">The Question Surface: AEO prompts open with who, what, how, why, best, or cheapest at substantially higher rates than SEO keywords, which is why content opening with a definitional H3 earns 57% higher citation probability than content opening with a marketing hook (Zhang et al., 2026).</strong> The operational consequence is direct: content built for SEO that opens with a brand introduction, a hero quote, or a campaign tagline loses to content that opens with a definitional answer to the implied question. Definitional openings collide cleanly with the way users actually phrase AEO prompts. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* CTA — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blindspot Scan submits 20 AEO prompts in your category across ChatGPT, Perplexity, Claude, and Gemini, then returns the per-engine citation gap and the competitor cited in your place. Free, no commitment.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>The attribution model collapses too</h3>
             <p>A generated answer that names a brand does not carry a UTM tag, a referrer, or a click ID. The user reads the cited brand inside the AI response and either acts on it directly or remembers the name later. Legacy attribution registers the citation as zero — last-click attribution will systematically under-credit every AEO prompt the brand actually wins. Operators that measure AEO performance only through Google Analytics report a shrinking channel. Operators that adopt a prompt-level citation log see the channel clearly. The measurement unit has to be the AEO prompt itself, not the click that may or may not follow it. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
@@ -477,10 +465,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             {/* CTA — territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Answer Engine takes one operator per market. The moment a competitor in your category claims their seat, we are locked out of serving you for the duration of that engagement. Book the territory call before someone else does.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Claim Your Territory Slot &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* === Section 3: Research === */}
             <span className="ae-section-label" id="research">Research</span>
@@ -490,37 +475,25 @@ export default function WhatIsAnAEOPromptPage() {
             <p>The foundational AEO paper at KDD 2024 documented that AI search engines do not retrieve directly against the user-submitted prompt. The engine first rewrites the prompt into multiple internal retrieval queries, expanding synonyms and scoping the retrieval window. <strong className="named-thesis">The Prompt Mediation Layer: every AEO model rewrites the user prompt into multiple synonymous retrieval queries before pulling candidates, so content using two or three phrasings of the same concept qualifies for more retrieval candidates than content using one (Aggarwal et al., KDD 2024).</strong> The practical consequence is direct: a service page that names &ldquo;slab leak repair,&rdquo; &ldquo;under-slab leak,&rdquo; and &ldquo;foundation pipe leak&rdquo; in the same passage clears the retrieval bar on more rewritten queries than a page that uses only one phrasing. Synonym coverage is a structural lever, not a rhetorical one. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA — text */}
-            <div className="ae-cta-inline not-prose">
-              <p>If you want the prompt-mediation rewrite map for your top three service pages, text us your URLs. We will return the synonym-coverage gap inside the business day.</p>
-              <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>The Definition Premium (Zhang et al., 2026)</h3>
             <p>Zhang et al. measured where retrievers extract definitional content from inside a document and found that opening position dominates. A passage that opens with a clear, bounded definition of its subject earns a 57% higher citation probability than a passage that buries the definition mid-article. The mechanism is mechanical: the scoring layer weights the first sentence of a passage heaviest, and a definition-first opening collides cleanly with both relevance and authority signals. AEO prompts that begin with &ldquo;what is&rdquo; or &ldquo;define&rdquo; — a substantial share of the question surface — are scored against the first 150 tokens of the most relevant passage in the index. Content engineered to win those prompts has to open with the answer, not the warmup. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Email us your homepage URL and we will return the &ldquo;definition-first&rdquo; audit on it inside 24 hours — the exact passages a retriever would extract and the gaps where your brand is losing the definitional prompts to a competitor.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=Definition%20Audit">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>The Chunk Ceiling (GEO-SFE, 2026)</h3>
             <p>The GEO-SFE benchmark stress-tested passage length across the major retrievers and found a measurable cliff. Passages over 300 words trigger a 31% attention degradation in RAG retrievers. Splitting them into bounded units of 80 to 180 tokens restores full extraction accuracy. The implication for AEO prompts is direct: a 4,000-word thought-leadership article that addresses an AEO prompt in a single 800-word block of prose loses to a 4,000-word article that addresses the same prompt in six 130-word self-contained passages. The retriever pulls the chunk, not the article. Operators who write for human linear flow without chunking for retriever extraction are publishing content that AI cannot use. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The free Blindspot Scan flags every page over the chunk ceiling and ranks them by AEO prompt loss. Free, returned same-day, runs across ChatGPT, Perplexity, Claude, and Gemini.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>The Earned-Trust Premium on prompt mediation (Chen et al., 2025)</h3>
             <p>Chen et al. (2025) documented a systematic bias inside AI search retrievers toward earned-media corroboration over self-published brand content. The bias compounds at the prompt-mediation layer: when the engine rewrites a user prompt and expands synonyms, the candidate pool tilts toward sources that other indexed pages cite. A press placement, a podcast appearance, or a directory mention raises the candidate-pool weight on every rewritten variant of the prompt. The operator with a healthy earned-media footprint clears more AEO prompts than the operator with an identical content footprint and zero third-party mentions. Earned media is an AEO lever, not a PR vanity metric. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want your existing earned-media footprint scored against the AEO prompts in your category? Book a 30-minute strategy call and we will walk the top ten earned mentions and rank them by prompt-mediation weight.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book a 30-Minute Strategy Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <div className="ae-quote not-prose">
               <p><strong className="named-thesis">The Synonym Multiplier: content that matches two or three natural-language phrasings of the same intent qualifies for more retrieval candidates and is cited across more AEO prompt variants than single-phrasing content, which is why synonym-bridging inside SUBSTRATE chunks is a structural lift and not a style choice (Aggarwal et al., KDD 2024).</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
@@ -537,46 +510,31 @@ export default function WhatIsAnAEOPromptPage() {
             <p>Comparative prompts take the form &ldquo;X vs Y&rdquo; or &ldquo;is X better than Y.&rdquo; The retrievers favor content that addresses both sides of the comparison with named criteria, side-by-side structure, and inline citations. Comparison tables earn outsized lift because the rendering format maps cleanly to the retriever&rsquo;s extraction pattern. A single comparative article published with a clean comparison table can clear a dozen prompt variants in the same week. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* CTA — text */}
-            <div className="ae-cta-inline not-prose">
-              <p>Text us your top competitor and we will return the comparative prompts your category is being scored against — and where the citation gap actually sits.</p>
-              <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>Type 3: Recommendation prompts</h3>
             <p>Recommendation prompts read &ldquo;best X for Y,&rdquo; &ldquo;top-rated X,&rdquo; or &ldquo;which X should I pick.&rdquo; The retrievers weight earned-media corroboration heavily on recommendation prompts because the engine is being asked to make a judgment call and looks for third-party validation. Recommendation prompts are where Chen et al. (2025) earned-media bias is most visible: a brand with zero third-party mentions almost never clears a recommendation prompt regardless of self-published content quality. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Email us your domain and the phrase &ldquo;recommendation prompts&rdquo; — we return the top ten recommendation queries in your category and your current 0-of-4 to 4-of-4 parity score per prompt.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=Recommendation%20Prompts">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>Type 4: Local intent prompts</h3>
             <p>Local intent prompts include a geographic modifier: &ldquo;near me,&rdquo; &ldquo;in [city],&rdquo; &ldquo;[city] [service],&rdquo; or scenario-based location phrasing. Gemini and Google AI Overviews handle these most natively because they share the Google entity graph. ChatGPT and Perplexity resolve local intent through indexed sources rather than a live geo-graph, so structural local signals — LocalBusiness schema, NAP consistency, city-named landing pages — carry disproportionate weight. The same physical business can be cited locally on Gemini and invisible locally on ChatGPT if the structural signals diverge between the two surfaces. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Book a 30-minute call and we will run your local intent prompts live on all four engines and screen-share the gap between your Gemini parity and your ChatGPT parity.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book the Local-Intent Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>Type 5: Problem-led prompts</h3>
             <p>Problem-led prompts start with the symptom: &ldquo;how do I fix,&rdquo; &ldquo;why is my X doing Y,&rdquo; &ldquo;what causes Z.&rdquo; These prompts compress consideration the hardest — the user is in active problem-solving mode and the brand cited as the solution wins the next action. Service pages that lead with the problem the customer is searching with, not the service the operator wants to sell, clear problem-led prompts at materially higher rates than service-led copy. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blindspot Scan ranks every problem-led prompt in your category by current citation gap. Free, returned the same day, runs across ChatGPT, Perplexity, Claude, and Gemini.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>Type 6: Transactional prompts</h3>
             <p>Transactional prompts include pricing, hiring, scheduling, and purchase intent: &ldquo;how much does X cost,&rdquo; &ldquo;hire an X,&rdquo; &ldquo;X near me with availability tomorrow.&rdquo; The citation threshold on transactional prompts is the highest of the six types because the engine is making a judgment that maps to user money. Operators who publish transparent pricing, named availability windows, and direct booking links clear transactional prompts at far higher rates than operators that gate that data behind a contact form. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA — territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>One operator per market. If your competitor claims your category seat first, we cannot serve you for the duration of that engagement. Lock your territory before someone else does.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Claim Your Territory Slot &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <div className="not-prose overflow-x-auto my-8">
               <table className="ae-comparison-table w-full text-sm">
@@ -632,19 +590,13 @@ export default function WhatIsAnAEOPromptPage() {
             <p><strong className="named-thesis">The Prompt Library: a fixed set of 20 to 50 measured prompts is the only credible AEO scoreboard, because retrievers re-cite winning passages across query variants and decay attribution for sources that stop publishing, so movement is only visible against a stable measurement baseline (GEO-SFE, 2026).</strong> Operators that measure citation against a rotating set of prompts cannot tell whether the brand is gaining ground or losing it — the noise floor is too high. A fixed library is the only way to detect compounding versus drift. The Answer Engine runs every operator engagement against a 20-prompt minimum library that does not change for the duration of the engagement.</p>
 
             {/* CTA — text */}
-            <div className="ae-cta-inline not-prose">
-              <p>Text us &ldquo;library template&rdquo; and your domain. We will return the 20-prompt starter library tailored to your category inside the business day. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>How to build the library from scratch</h3>
             <p>Start with the operator&rsquo;s category vocabulary — every service offered and every phrasing a customer uses to describe the problem the service solves. Map each service to all six prompt types. Add two or three synonym variants per prompt to test the prompt-mediation rewrite layer. A six-service operator with full coverage produces 36 prompts before deduplication and 20 to 30 prompts after consolidation. The library is then frozen for the engagement. Movement is measured against the frozen baseline, monthly, across all four major engines.</p>
 
             {/* CTA — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Email us with the subject &ldquo;prompt library&rdquo; and your domain. We return the annotated 20-prompt starter library for your category inside 48 hours, no engagement required. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <a href="mailto:support@theanswerengine.ai?subject=Prompt%20Library">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>Platform parity as the single decision-grade number</h3>
             <p>Each prompt is scored 0 of 4 to 4 of 4 — the number of major LLMs (ChatGPT, Perplexity, Claude, Gemini) that cited the brand for that exact prompt. Aggregated across the library, platform parity is the single most decision-grade AEO number an operator can hold. The Answer Engine&rsquo;s own platform parity score on AEO-related prompts is 4 of 4 across the four major engines. The metric matters because the retrievers diverge: a brand cited only by Perplexity has a brittle position because Perplexity weights earned media heavily and one news cycle can swing the result. Cross-platform parity is what proves the underlying structural quality is sound.</p>
@@ -653,10 +605,7 @@ export default function WhatIsAnAEOPromptPage() {
             <p>AEO citations are sticky once earned and erode if abandoned. A passage that earns a citation in month two will typically retain that citation through month six — if the cadence of publishing, earned-media corroboration, and schema maintenance continues. Stop publishing and the same passage drops out of the candidate pool within 60 to 90 days. Monthly re-runs of the fixed library reveal compounding (the goal) or decay (a cadence problem) before either gets out of hand. Operators that measure quarterly catch decay too late to recover the lost ground inside the same calendar year. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Book a 30-minute walkthrough and we will run the 20-prompt baseline live on your domain across all four engines, mark the platform parity scores per prompt, and rank the structural fixes.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book the 30-Minute Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <div className="not-prose overflow-x-auto my-8">
               <table className="ae-comparison-table w-full text-sm">
@@ -698,25 +647,16 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             {/* CTA — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The free Blindspot Scan runs a 20-prompt library on your domain across all four engines and returns the per-engine citation gap. Free, no commitment, no signup wall. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA — territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>Once an operator in your category claims the territory, we cannot engage a competitor for the duration of that engagement. One client per market. Book the territory call before the seat is locked by someone else.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Claim Your Territory Slot &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <h3>The Origin Protocol mapping</h3>
             <p>Every prompt the library tracks is mapped to a SUBSTRATE-engineered passage on the operator&rsquo;s site — definition-first H3 for definitional prompts, comparison table for comparative prompts, earned-media-corroborated bio for recommendation prompts, LocalBusiness schema and city-named pages for local intent prompts, problem-first opener for problem-led prompts, transparent pricing block for transactional prompts. The mapping is what turns the library from a measurement scoreboard into an action queue. Movement on a prompt traces back to a specific passage. Decay on a prompt traces back to a specific cadence gap. The library is decision-grade because every score has an addressable cause. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Email us with &ldquo;Origin Protocol mapping&rdquo; in the subject. We return the annotated example showing how a single prompt traces through every layer of the operator&rsquo;s site, from passage to schema to earned-media corroboration.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=Origin%20Protocol%20Mapping">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* === Cheat sheet section === */}
             <span className="ae-section-label">Quick Reference</span>
@@ -760,10 +700,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Book a 30-minute slot and we will walk this cheat sheet against your live domain on a screen-share, ranking the highest-yield prompts to win first. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Schedule the 30-Minute Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Author Card */}
             <div className="not-prose ae-author-card">
@@ -780,17 +717,13 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             {/* CTA Block */}
-            <div className="ae-cta-block not-prose">
-              <h3>Get Your AEO Prompt Library Built and Measured</h3>
-              <p>The free Blindspot Scan runs a 20-prompt baseline on your domain across ChatGPT, Perplexity, Claude, and Gemini, then returns the per-engine citation gap and ranked fix list. One operator per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blindspot Scan &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <span>(213) 444-2229</span>
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <span>support@theanswerengine.ai</span>
-                </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
             </div>
 
@@ -829,10 +762,7 @@ export default function WhatIsAnAEOPromptPage() {
             </details>
 
             {/* CTA — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still not sure where your brand stands on the AEO prompts that actually matter in your category? The free Blindspot Scan returns the per-engine score and the ranked fix list.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Related */}
             <span className="ae-section-label">Continue Reading</span>
@@ -847,30 +777,33 @@ export default function WhatIsAnAEOPromptPage() {
             </ul>
 
             {/* CTA — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>If you would rather talk it through than read another article, grab a 30-minute slot with our team and we will run your AEO prompt library live on a screen-share. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Schedule a Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
           {/* Final CTA */}
-          <section className="ae-final-cta">
-            <h2 className="font-headline font-black uppercase tracking-tighter">Every AEO Prompt In Your Category Has An Answer. Is Your Brand In It?</h2>
-            <p>The free Blindspot Scan submits a 20-prompt baseline across ChatGPT, Perplexity, Claude, and Gemini and returns your per-engine platform parity score, the competitor cited in each gap, and the ranked structural fixes. One operator per market.</p>
-            <Link
-              href="/blindspot"
-              className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-            >
-              Get Your Free Blindspot Report
-            </Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10 font-mono text-sm">
-              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors">
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
           </section>
 

@@ -363,18 +363,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Inline CTA 1 */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <div className="flex-1">
-                <p className="text-white font-semibold text-sm mb-1">Is your photography business showing up? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-                <p className="text-gray-400 text-xs">Find out what AI platforms actually say when someone searches for a photographer in your city. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              </div>
-              <Link
-                href="/blindspot"
-                className="flex-shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap"
-              >
-                Get Free Blind Spot Report
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <div className="ae-quote border-l-4 border-[#F27D24] pl-6 py-2 my-8">
               <p className="text-lg text-gray-200 italic leading-relaxed">
@@ -538,18 +527,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
              Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Inline CTA 2 */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <div className="flex-1">
-                <p className="text-white font-semibold text-sm mb-1">How many of these signals does your studio have? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-                <p className="text-gray-400 text-xs">Our Blind Spot Report shows you exactly where your AI visibility gaps are - and what to fix first. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              </div>
-              <Link
-                href="/blindspot"
-                className="flex-shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap"
-              >
-                Get My Free Report
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* ── SECTION 4: PHOTOGRAPHY NICHES AND AI ── */}
@@ -687,18 +665,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
              Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* Inline CTA 3 */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <div className="flex-1">
-                <p className="text-white font-semibold text-sm mb-1">Which of these gaps does your studio have? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-                <p className="text-gray-400 text-xs">Our free Blind Spot Report audits your AI presence across ChatGPT, Perplexity, and Google AI - no tech knowledge required.</p>
-              </div>
-              <Link
-                href="/blindspot"
-                className="flex-shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap"
-              >
-                Run My Free Audit
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* ── SECTION 6: COMPARISON TABLE ── */}
@@ -839,18 +806,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
             </div>
 
             {/* Inline CTA 4 */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <div className="flex-1">
-                <p className="text-white font-semibold text-sm mb-1">Stop guessing. Get the real data.</p>
-                <p className="text-gray-400 text-xs">Our Blind Spot Report shows you exactly what ChatGPT and Perplexity say about your studio right now.</p>
-              </div>
-              <Link
-                href="/blindspot"
-                className="flex-shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap"
-              >
-                Get My Blind Spot Report
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* ── CHEAT SHEET ── */}
@@ -1078,83 +1034,30 @@ export default function HowPhotographersGetFoundOnAISearch() {
           </section>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta relative overflow-hidden rounded-2xl p-8 sm:p-12 text-center mb-12"
-            style={{
-              background: 'linear-gradient(135deg, rgba(255,106,0,0.15) 0%, rgba(255,106,0,0.05) 50%, rgba(255,255,255,0.02) 100%)',
-              border: '1px solid rgba(255,106,0,0.3)',
-              boxShadow: '0 0 60px rgba(255,106,0,0.1), 0 0 120px rgba(255,106,0,0.05)',
-            }}
-          >
-            <div
-              className="absolute inset-0 rounded-2xl pointer-events-none"
-              style={{
-                boxShadow: '0 0 40px rgba(255,106,0,0.15) inset',
-                animation: 'pulse 3s ease-in-out infinite',
-              }}
-              aria-hidden="true"
-            />
-            <div className="relative">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4 bg-[#F27D24]/15 border border-[#F27D24]/30">
-                <span className="w-2 h-2 rounded-full bg-[#F27D24] animate-pulse" />
-                <span className="text-sm font-semibold text-[#F27D24]">Free Report Available</span>
-              </div>
-
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white font-plus-jakarta mb-4 leading-tight">
-                Your Competitors Are Invisible to AI.<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">
-                  You Do Not Have to Be.
-                </span>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
               </h2>
-
-              <p className="text-gray-300 mb-8 max-w-xl mx-auto leading-relaxed">
-                The Blind Spot Report shows you exactly what ChatGPT, Perplexity, and Google AI say
-                when someone searches for a photographer like you - right now, in your city.
-                No fluff. No guessing. Real AI output, with a clear picture of your gaps and opportunities.
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
               </p>
-
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-                <Link
-                  href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors"
-                >
-                  Get Your Free Blind Spot Report
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors font-semibold"
-                >
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  Call (213) 444-2229
-                </a>
-              </div>
-
-              <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
-                <span className="flex items-center gap-1.5">
-                  <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  100% Free
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  No tech knowledge required
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  Results in 48 hours
-                </span>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
-          </div>
+          </section>
 
           {/* ── RELATED ARTICLES ── */}
           <section className="mb-12">

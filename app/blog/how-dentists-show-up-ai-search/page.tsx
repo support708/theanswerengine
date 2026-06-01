@@ -279,10 +279,7 @@ export default function HowDentistsShowUpAISearch() {
             <p>For a deeper look at how this process works across all business types, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your practice. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: AI EVALUATION */}
             <span className="ae-section-label" id="ai-evaluation">AI Evaluation</span>
@@ -309,10 +306,7 @@ export default function HowDentistsShowUpAISearch() {
             <p>AI measures your practice&apos;s authority through citations, backlinks, directory presence, professional association memberships, and the overall depth of your digital footprint. A practice that appears on the American Dental Association site, has a verified Healthgrades profile, maintains a Zocdoc listing, and publishes educational content carries more weight than a practice with only a basic website and a Google Business Profile. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when someone searches for a dentist like you?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3: E-E-A-T */}
             <span className="ae-section-label" id="eeat-dental">Trust Signals</span>
@@ -341,10 +335,7 @@ export default function HowDentistsShowUpAISearch() {
             <p>For dental YMYL content, trustworthiness carries the most weight. AI checks for HTTPS, verifiable contact information, a clear privacy policy, and content that cites clinical sources rather than making unsupported claims. A dental website that says &quot;implants have a 95% success rate&quot; without citing the clinical data behind that claim is treated differently than one that references peer-reviewed studies.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your practice scores on E-E-A-T signals compared to competitors in your market. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 4: DIRECTORY SIGNALS */}
             <span className="ae-section-label" id="directory-signals">Directory Signals</span>
@@ -384,10 +375,7 @@ export default function HowDentistsShowUpAISearch() {
             <p>The most important factor across all directories is consistency. Your practice name, address, phone number, office hours, and services listed must be identical everywhere. AI platforms use this consistency as a reliability signal. Even small discrepancies, like &quot;Dr. Smith Dental&quot; on one site and &quot;Smith Family Dentistry&quot; on another, reduce AI confidence in your practice data.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which directories AI platforms are pulling your practice data from? Our report shows you. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5: WEBSITE VISIBILITY */}
             <span className="ae-section-label" id="website-visibility">Technical Gaps</span>
@@ -442,10 +430,7 @@ export default function HowDentistsShowUpAISearch() {
             </table>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover whether AI crawlers can actually read your dental website.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: REVIEWS */}
             <span className="ae-section-label" id="reviews-trust">Trust Layer</span>
@@ -464,10 +449,7 @@ export default function HowDentistsShowUpAISearch() {
             <p>For more on how reviews shape AI recommendations, read <Link href="/blog/do-google-reviews-affect-ai-recommendations">our analysis of whether Google reviews affect AI recommendations</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI can actually read your patient reviews or if they are hidden behind JavaScript.</p>
-              <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 7: COMMON GAPS */}
             <span className="ae-section-label" id="common-gaps">Common Gaps</span>
@@ -539,16 +521,10 @@ export default function HowDentistsShowUpAISearch() {
             </table>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Which of these gaps is hurting your practice? Our free report identifies every one of them. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk strategy with a human? We work exclusively with service businesses and healthcare practices.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -568,10 +544,7 @@ export default function HowDentistsShowUpAISearch() {
             </div>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your practice specialties and market? We do that. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 8: LOOKING AHEAD */}
             <span className="ae-section-label">Looking Ahead</span>
@@ -586,22 +559,21 @@ export default function HowDentistsShowUpAISearch() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The practices acting now will own their market in AI search. The ones waiting will be playing catch-up. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">See Where Your Practice Stands &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 11 */}
-            <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for healthcare and service businesses. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -652,35 +624,37 @@ export default function HowDentistsShowUpAISearch() {
             <p>Google reviews help with Google AI Overviews, but most other AI platforms like ChatGPT and Perplexity cannot access them because they are rendered via JavaScript. For broader AI visibility, dental practices need reviews on crawlable platforms like Healthgrades, Zocdoc, and Yelp, plus patient testimonials published directly on their website as plain HTML text. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where your practice stands in AI search? The report is free and takes 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your dental specialty? Call us and we will walk you through it. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Dental Practice Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when a patient searches for a dentist in your area and specialty. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

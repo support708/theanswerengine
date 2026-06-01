@@ -351,10 +351,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <p>Those are fundamentally different problems. And they require fundamentally different approaches.</p>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure how AI platforms see your Google Business Profile right now? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* ── ENTITY VERIFICATION ── */}
             <span className="ae-section-label" id="entity-verification">Signal 1</span>
@@ -374,9 +371,14 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <p>The businesses that dominate AI recommendations are the ones where every listing, directory, social profile, and web mention tells the exact same story. Their GBP is not a standalone asset. It is the anchor of a consistent digital identity.</p>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-block not-prose">
-              <p>We audit your GBP alongside 50+ data sources to find exactly where AI trust breaks down. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <Link href="/blindspot">See Your Full Consistency Report &rarr;</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
 
             {/* ── GOOGLE POSTS ── */}
@@ -397,10 +399,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <p>The specifics of what to post, how often, and what format drives the strongest AI signals is where the real value lies. The general principle is clear: if you are not posting to your GBP regularly, you are leaving a confirmed AI signal on the table.</p>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know which GBP signals you are missing? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a free profile review &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* ── REVIEWS ── */}
             <span className="ae-section-label" id="reviews-and-ai-citations">Signal 3</span>
@@ -470,10 +469,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <p>Want to learn more about how reviews shape AI recommendations? Read our deep dive: <Link href="/blog/how-online-reviews-shape-ai-recommendations">How Online Reviews Shape AI Recommendations</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure how AI reads your review profile? We will show you.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* ── PHOTOS AND VISUAL SEARCH ── */}
             <span className="ae-section-label" id="photos-visual-search">Signal 4</span>
@@ -507,9 +503,14 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <p>This is where most GBP optimization guides fall short. They focus entirely on what you can control within the profile itself. But AI visibility requires a broader strategy that considers every touchpoint where your business is discussed, mentioned, or reviewed. For more on this topic, see our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* ── CTA 5 ── */}
-            <div className="ae-cta-block not-prose">
-              <p>We track your business across 50+ platforms to show exactly where your entity data conflicts.</p>
-              <a href="mailto:support@theanswerengine.ai">Email us for a consultation &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Map Pack Rank Means Nothing If AI Search Ignores You</h3>
+              <p>A business can rank #1 on Google Maps and score 0 AI citations. The two systems are entirely separate. The Answer Engine optimizes for both — so you capture every type of search intent. One local business per market slot.</p>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">Check Your Local Market Slot →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">Free AI Visibility Scan</a>
+                <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">Email Us</a>
+              </div>
             </div>
 
             {/* ── WHAT MOST BUSINESSES GET WRONG ── */}
@@ -558,10 +559,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             </div>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering which signal is costing you AI recommendations right now?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* ── PROS/CONS ── */}
             <span className="ae-section-label" id="gbp-vs-website-only">Comparison</span>
@@ -595,10 +593,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <p>Neither approach is wrong in isolation. But one captures dramatically more AI signal surface area than the other. The businesses winning in AI search in 2026 are doing both. Related reading: <Link href="/blog/does-schema-markup-help-ai-search">Does Schema Markup Help AI Search?</Link></p>
 
             {/* ── CTA 7 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly how your GBP compares to competitors in AI visibility. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -615,16 +610,10 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             </div>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see what AI actually thinks about your business?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* ── CTA 9 (phone) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your situation first? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <a href="tel:+12134442229">Call The Answer Engine: (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* ── TAKEAWAY ── */}
             <div className="ae-takeaway not-prose">
@@ -632,10 +621,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             </div>
 
             {/* ── CTA 10 (email) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Questions about AI visibility for your business? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           </article>
 
@@ -678,16 +664,10 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
           </div>
 
           {/* ── CTA 11 ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Still not sure where to start? We will tell you exactly what to fix first.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── CTA 12 (phone) ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Talk to a human about your AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── FAQ SECTION ── */}
           <section className="not-prose mt-16" id="faq">
@@ -727,29 +707,47 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
           </section>
 
           {/* ── CTA 13 ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Have a question we did not cover? Reach out.</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── CTA 14 ── */}
-          <div className="ae-cta-block not-prose my-8">
-            <p>Your competitors might already be optimizing their GBP for AI. Find out where you stand. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
           {/* ── CTA 15 (phone) ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Want the fastest path to AI visibility?</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 today &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── FINAL CTA WITH PULSE GLOW ── */}
-          <div className="ae-final-cta">
-            <h2>Stop Guessing. Start Getting Recommended.</h2>
-            <p>Get your free AI Blind Spot Report and see exactly where your business stands across every major AI platform.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
         </div>
       </main>

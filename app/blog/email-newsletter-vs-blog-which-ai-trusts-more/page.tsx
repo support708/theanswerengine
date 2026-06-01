@@ -245,9 +245,7 @@ export default function Page() {
           This is one of the most common and most painful content strategy mismatches we see. Businesses invest enormous effort in email and treat it as their primary content channel, then wonder why AI does not know they exist. The answer is structural: email lives behind closed doors that AI crawlers cannot open.
          <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-        <div className="ae-cta-inline mb-10">
-          <p>Wondering where your AI visibility actually stands? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and find out in 2 minutes. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
         {/* TOC */}
         <div className="ae-toc mb-12">
@@ -410,9 +408,7 @@ export default function Page() {
           </div>
         </section>
 
-        <div className="ae-cta-inline mb-10">
-          <p>Not sure which of your content channels are actually visible to AI? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">Call (213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">get your free Blind Spot Report</Link>. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
         {/* Side by Side */}
         <section id="side-by-side" className="mb-14">
@@ -543,9 +539,7 @@ export default function Page() {
            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
         </section>
 
-        <div className="ae-cta-inline mb-10">
-          <p>Not generating enough AI citations from your blog? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Your Blind Spot Report shows the exact content gaps</Link> holding you back. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
         {/* Do You Need Both */}
         <section id="both" className="mb-14">
@@ -810,24 +804,30 @@ export default function Page() {
         </section>
 
         {/* Final CTA */}
-        <div className="ae-final-cta">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            Make Your Content Work for AI, Not Just Your Inbox
-          </h2>
-          <p className="text-gray-400 mb-8 max-w-xl mx-auto">
-            Your Blind Spot Report shows exactly which content channels are building your AI visibility and which are leaving you invisible to the fastest-growing search channel in history.
-          </p>
-          <Link
-            href="/blindspot"
-            className="ae-cta-primary inline-flex items-center gap-2"
-          >
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-          <p className="text-gray-600 text-sm mt-4">No credit card. No commitment. Results in 2 minutes.</p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Content Should Work in Both Google and AI Search
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Most content only works in one. The Answer Engine's dual-engine strategy makes every piece compound across both channels. Free content audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Audit Your Content for AI Citations →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </main>
     </>

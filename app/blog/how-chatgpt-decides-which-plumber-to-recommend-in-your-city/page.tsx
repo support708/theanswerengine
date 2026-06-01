@@ -710,32 +710,27 @@ export default function ChatGPTPlumberPage() {
           </section>
 
           {/* CTA */}
-          <section className="ae-final-cta text-center">
-            <div className="ae-final-cta-pulse" />
-            <div className="relative z-10">
-              <p className="ae-section-label mb-4">One plumbing operator per city <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <h2 className="font-headline text-3xl md:text-4xl font-black tracking-tighter uppercase mb-4">
-                Claim the ChatGPT Plumber Citation Slot in Your City
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
               </h2>
-              <p className="text-white/65 mb-8 max-w-xl mx-auto leading-relaxed">
-                The Answer Engine works with one plumbing operator per city. Once a territory locks,
-                the seat is held until the operator releases it. Audit the AEO gap on a single domain,
-                see the open queries inside ChatGPT, Claude, Gemini, and Perplexity AI, and decide
-                whether to claim the city.
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="https://calendly.com/theanswerengine-support/30min"
-                  className="ae-cta-primary ae-cta-inline"
-                >
-                  Book the Territory Audit
-                </a>
-                <Link
-                  href="/blindspot"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-white/20 rounded-lg text-white/70 hover:text-white hover:border-white/40 transition-all font-headline font-black tracking-tighter uppercase text-sm"
-                >
-                  Free Blindspot Report
-                </Link>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
           </section>

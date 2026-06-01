@@ -352,10 +352,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p>The mechanics behind this process involve two interlocking systems: Named Entity Recognition (NER) and Knowledge Graph integration. Together, they function as the AI&apos;s gatekeeping layer. Every question about a local business passes through both before an answer is generated.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure whether AI systems recognize your business as a trusted entity? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CALLOUT: WARNING */}
             <div className="ae-callout ae-callout-warning not-prose">
@@ -412,10 +409,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p>When NER confidence is low, AI systems face a choice: recommend a business they are uncertain about and risk a wrong answer, or skip that entity entirely. They almost always skip. The risk to the AI platform&apos;s credibility is too high to recommend a business it cannot confidently verify. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Inconsistent listings could be suppressing your entity recognition score right now.</p>
-              <Link href="/blindspot">Check Your Entity Consistency &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* KNOWLEDGE GRAPH INTEGRATION */}
             <span className="ae-section-label" id="knowledge-graph-integration">Layer 2</span>
@@ -435,16 +429,10 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p>Platforms like Google, Bing, Apple Maps, and Yelp all feed into the broader web of structured data that AI systems draw from. Each platform where your business is completely and accurately represented is another node in your knowledge graph presence. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering what your knowledge graph entry actually looks like to AI? We can show you.</p>
-              <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* INTERNAL LINK */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to understand how AI crawlers read your website in the first place? Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">What Your Website Looks Like to an AI Crawler &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ENTITY COMPLETENESS */}
             <span className="ae-section-label" id="entity-completeness">The Standard</span>
@@ -491,10 +479,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p>The difference between these two profiles is not the quality of the business. It is the quality of the data structure surrounding the business. An entity-complete business gives AI systems everything they need to answer confidently. An entity-incomplete business forces the AI to guess, and AI systems do not guess when they can simply cite someone else.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out which column your business falls into today. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <Link href="/blindspot">Get Your Free AI Visibility Assessment &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* MINIMUM THRESHOLD CHECKLIST */}
             <span className="ae-section-label" id="minimum-threshold">The Floor</span>
@@ -536,16 +521,10 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p>Businesses that do not meet this minimum threshold are operating in a pre-citation state. They may have great content, excellent reviews, and a beautiful website, but until these foundational signals are in place, AI systems will not have enough confidence to include them in answers. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Unsure whether your business passes the minimum threshold? We will audit it for free.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* INTERNAL LINK */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly what schema markup does for your AI citation rate. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <Link href="/blog/does-schema-markup-help-ai-search">Does Schema Markup Help AI Search? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* FOUR DIMENSIONS */}
             <span className="ae-section-label" id="four-dimensions">The Framework</span>
@@ -619,10 +598,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p><strong>Technical Implementation</strong> covers schema markup completeness, website crawlability, page speed, and structured data accuracy. Even the best content can be suppressed by technical barriers that prevent AI systems from reading and indexing it correctly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Which of these four dimensions is your weakest link? Our audit identifies it.</p>
-              <Link href="/blindspot">Get Your Free Visibility Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CALLOUT: SUCCESS */}
             <div className="ae-callout ae-callout-success not-prose">
@@ -685,10 +661,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p>Every stage of the GEAF format maps to a specific type of content or data signal. A business optimized for all six stages will appear more frequently and more prominently than one that only addresses two or three. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Learn how to structure content so AI cites your business at every stage.</p>
-              <Link href="/blog/why-ai-never-mentions-your-business-by-name">Why AI Never Mentions Your Business by Name &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* VISIBLE VS INVISIBLE */}
             <span className="ae-section-label" id="visibility-vs-invisible">Side by Side</span>
@@ -751,10 +724,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p>The invisible business is not a bad business. Its 4.7-star rating is excellent. Its eight years of operation reflects genuine experience. But none of that matters once it falls below the AI&apos;s confidence threshold. The AI cannot verify enough about it to risk citing it.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Which column describes your business right now? We can tell you in 48 hours. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CALLOUT: ORANGE */}
             <div className="ae-callout ae-callout-orange not-prose">
@@ -780,16 +750,10 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             <p>The window is not permanent. As more businesses become entity-aware and begin optimizing these signals, the average entity quality in every local market will rise. The businesses that optimize first will have compounding citation histories that make them progressively harder to displace. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The knowledge graph window is open now. Find out where to start.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* INTERNAL LINK */}
-            <div className="ae-cta-inline not-prose">
-              <p>See why your AI answers may be based on outdated training data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <Link href="/blog/why-ai-never-mentions-your-business-by-name">Why AI Never Mentions Your Business by Name &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CALLOUT: SUCCESS */}
             <div className="ae-callout ae-callout-success not-prose">
@@ -798,16 +762,10 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Understand the full picture of how AI evaluates your business credibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link href="/blog/does-schema-markup-help-ai-search">Does Schema Markup Help AI Search? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly what an AI crawler reads when it visits your website.</p>
-              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">What Your Website Looks Like to an AI Crawler &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* AUTHOR CARD */}
             <div className="ae-author-card">
@@ -824,10 +782,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             </div>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see how we build entity completeness for businesses like yours?</p>
-              <Link href="/blindspot">Explore Our Approach &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* 3-TIER CTA BLOCK */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -850,39 +805,39 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             </div>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still have questions? Email us and we will respond with real answers, no pitch.</p>
-              <a href="mailto:support@theanswerengine.ai">Ask Us Anything at support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* FINAL CTA */}
-            <div className="ae-final-cta not-prose">
-              <h3>AI Is Answering Questions About Your Market Right Now</h3>
-              <p>Every hour someone asks an AI assistant about a service in your area, that AI is deciding whether to mention you or your competitor. The decision is based on entity signals you can control. The question is whether you are going to control them.</p>
-              <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Learn what your website actually looks like to AI right now.</p>
-              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">See What AI Sees on Your Website &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Curious why AI gives wrong or missing information about your business?</p>
-              <Link href="/blog/why-ai-never-mentions-your-business-by-name">Why AI Never Mentions Your Business by Name &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* FAQ SECTION */}
             <span className="ae-section-label" id="faq">FAQ</span>

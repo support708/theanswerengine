@@ -330,10 +330,7 @@ export default function Page() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure whether AI platforms are citing your business or a competitor? Find out in 60 seconds.</p>
-            <Link href="/blindspot">Check Your AI Visibility Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 1 */}
           <span className="ae-section-label" id="youtube-ai-dominance">The Scale</span>
@@ -375,10 +372,7 @@ export default function Page() {
           </p>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is your YouTube channel set up to earn AI citations? We can audit your video presence against the signals that matter. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 2 */}
           <span className="ae-section-label" id="how-youtube-ai-works">How It Works</span>
@@ -427,10 +421,7 @@ export default function Page() {
           </div>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>A competitor with fewer views might already be earning more AI citations than you. The numbers may surprise you. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">See How You Compare</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 4 */}
           <span className="ae-section-label" id="across-platforms">Platform by Platform</span>
@@ -457,10 +448,7 @@ export default function Page() {
           </p>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>One audit shows your YouTube visibility across all three major AI platforms at once. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <Link href="/blindspot">Run Your Free AI Audit</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 5 */}
           <span className="ae-section-label" id="shorts-vs-longform">Format Matters</span>
@@ -549,10 +537,7 @@ export default function Page() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure whether your current video strategy is working for AI or against it? We check every signal that matters. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 6 */}
           <span className="ae-section-label" id="ask-for-me">New Feature</span>
@@ -584,10 +569,7 @@ export default function Page() {
            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is your business appearing in AI-mediated local discovery? Our free report shows exactly where you stand.</p>
-            <Link href="/blindspot">See Your AI Visibility Gaps</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 7 */}
           <span className="ae-section-label" id="what-ai-looks-for">Citation Signals</span>
@@ -694,37 +676,18 @@ export default function Page() {
           </div>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Every video your competitor publishes with proper structure is another citation opportunity they earn and you do not. Start closing that gap today.</p>
-            <Link href="/blindspot">Get Your Free AI Visibility Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* 3-Tier CTA Block */}
-          <div className="ae-cta-block not-prose">
-            <h2 className="ae-cta-block-heading font-plus-jakarta">YouTube AI Is Picking Winners Right Now. Is Your Business One of Them?</h2>
-            <p className="ae-cta-block-sub">YouTube AI features are already deciding which businesses get cited, recommended, and called. Most businesses have never checked whether they are in those results. Our free Blind Spot Report shows exactly where you stand. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <div className="ae-cta-tier-grid">
-              <div className="ae-cta-tier">
-                <div className="ae-cta-tier-icon">01</div>
-                <div className="ae-cta-tier-heading">Free Blind Spot Report</div>
-                <p>We audit how YouTube AI features, Google AI Overviews, ChatGPT, and Perplexity currently evaluate your business and identify every gap costing you citations.</p>
-                <Link href="/blindspot" className="ae-cta-tier-btn">Get Your Free Report</Link>
-              </div>
-              <div className="ae-cta-tier ae-cta-tier-featured">
-                <div className="ae-cta-tier-badge">Most Popular</div>
-                <div className="ae-cta-tier-icon">02</div>
-                <div className="ae-cta-tier-heading">Full Video AI Audit</div>
-                <p>Comprehensive analysis of your YouTube channel, transcript quality, metadata structure, and citation eligibility across every major AI platform. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-                <a href="tel:+12134442229" className="ae-cta-tier-btn ae-cta-tier-btn-primary">Call (213) 444-2229</a>
-              </div>
-              <div className="ae-cta-tier">
-                <div className="ae-cta-tier-icon">03</div>
-                <div className="ae-cta-tier-heading">Done-For-You Optimization</div>
-                <p>We build your YouTube AI visibility profile from the ground up: transcript optimization, metadata structure, content strategy, and GBP alignment for Ask for Me.</p>
-                <a href="mailto:support@theanswerengine.ai" className="ae-cta-tier-btn">Email Us to Get Started</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
             </div>
-          </div>
 
           {/* Author Card */}
           <div className="ae-author-card">
@@ -789,26 +752,35 @@ export default function Page() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Have more questions about how your specific business can earn YouTube AI citations? We can answer them in a free consultation.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         </div>
 
         {/* Final CTA */}
-        <div className="ae-final-cta">
-          <div className="ae-final-cta-pulse" aria-hidden="true" />
-          <div className="ae-final-cta-content">
-            <h2 className="font-plus-jakarta">YouTube AI Is Deciding Right Now. Make Sure Your Business Is in the Answer.</h2>
-            <p>YouTube earns 200x more AI citations than any other video platform, and 41% of cited videos have fewer than 1,000 views. The algorithm is not looking for popularity. It is looking for structure. Our free Blind Spot Report shows exactly where your YouTube content stands against the signals AI actually uses.</p>
-            <div className="ae-final-cta-actions">
-              <Link href="/blindspot">Get My Free AI Visibility Report</Link>
-              <a href="tel:+12134442229">Call (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai">Email Us</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
-        </div>
+          </section>
 
       </article>
     </main>

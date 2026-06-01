@@ -281,10 +281,7 @@ export default function WeddingVenuesAISearchPage() {
             <p>Research confirms the content mechanics driving this dynamic. Zhang et al. (2026) found that definition-first content earns a 57% higher citation probability than content that assumes prior knowledge. Aggarwal et al. (KDD 2024) showed that quotations and specific statistics increase citation rates by 37% and 22% respectively. Lists and tables earn a 43% lift in citation frequency (GEO-SFE, 2026). This guide applies each of those principles specifically to the wedding and events industry.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out whether your venue or vendor business currently appears in AI search results for the queries your couples are actually asking. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 2: FOUR-PLATFORM CLUSTER ── */}
             <span className="ae-section-label" id="four-platform-cluster">Core Strategy</span>
@@ -305,10 +302,7 @@ export default function WeddingVenuesAISearchPage() {
             <p>Pinterest and Instagram provide visual verification. Perplexity and Google AI Overviews increasingly cite venues with consistent visual presence on these platforms, because visual content allows the AI to confirm that the venue&rsquo;s appearance matches its written description. A venue claiming &ldquo;rustic barn aesthetic&rdquo; that has no Pinterest boards or Instagram gallery of actual spaces gives AI no visual anchor to confirm the claim. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our team audits your four-platform cluster and identifies exactly which signals are missing or incomplete.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Platform Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 3: THE KNOT / WEDDINGWIRE ── */}
             <span className="ae-section-label" id="knot-weddingwire">Directory Optimization</span>
@@ -329,10 +323,7 @@ export default function WeddingVenuesAISearchPage() {
             <p>Directory photo galleries are one of the primary sources AI systems use to verify that a venue&rsquo;s descriptions are accurate. A venue claiming to have a &ldquo;naturally lit bridal suite&rdquo; needs photos of that suite in the gallery. A venue describing a &ldquo;ceremony lawn with mountain views&rdquo; needs photos that show that specific space. We recommend a minimum of 30 professional photos across all primary venue spaces: ceremony area, cocktail hour space, reception space, bridal suite, outdoor grounds, and any unique architectural features. Galleries under 10 photos are a consistent weak point in AI citation audits for wedding venues.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We audit Knot and WeddingWire profiles against AI citation criteria and identify exactly where structured data is missing. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get Your Free Directory Profile Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 4: GBP ── */}
             <span className="ae-section-label" id="gbp-categories">Google Business Profile</span>
@@ -355,10 +346,7 @@ export default function WeddingVenuesAISearchPage() {
             <p>For a complete framework on GBP optimization for AI, read our guide on <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">how to optimize your Google Business Profile for AI</Link>.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our GBP audit checks category selection, services completeness, and post freshness against AI citation standards for wedding venues. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a GBP Review &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 5: REVIEWS ── */}
             <span className="ae-section-label" id="review-patterns">Review Strategy</span>
@@ -385,10 +373,7 @@ export default function WeddingVenuesAISearchPage() {
             <p>Because the wedding booking window runs 12 to 14 months before the event date, a venue&rsquo;s peak query exposure arrives in January through March when newly engaged couples begin planning for weddings that will occur the following year. Reviews published between October and December carry forward as fresh signals into that peak planning window. Venues that run review request campaigns in the fall, following summer wedding seasons, are positioned to enter the January peak with their most recent reviews less than 90 days old. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We build review coaching frameworks specific to wedding venues and event vendors, including follow-up email templates that drive service-specific review language.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Build Your Review Strategy &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 6: VISUAL CONTENT ── */}
             <span className="ae-section-label" id="visual-content">Visual Signals</span>
@@ -409,10 +394,7 @@ export default function WeddingVenuesAISearchPage() {
             <p>Instagram content functions slightly differently for AI citation purposes. While Instagram images are not as directly indexed by AI retrieval systems as Pinterest boards, Instagram functions as a social proof validator. When AI systems pull venue information from directories and GBP and then seek visual corroboration, an active Instagram presence with consistent branding and real event photography provides the secondary confirmation that strengthens citation confidence. Venues with dormant Instagram accounts, particularly those whose most recent post is more than 60 days old, show a reduced visual presence signal that AI systems register as a potential staleness indicator. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We audit your Pinterest and Instagram presence against AI citation criteria and build a visual content strategy specific to your venue type.</p>
-              <Link href="/blindspot">Get Your Free Visual Presence Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 7: BOOKING WINDOW ── */}
             <span className="ae-section-label" id="booking-window">Seasonal Strategy</span>
@@ -483,10 +465,7 @@ export default function WeddingVenuesAISearchPage() {
             <p>Wedding planners benefit more than any other vendor category from definition-first content that clearly explains their service tiers, process, and deliverables. Couples asking AI about wedding planners frequently ask questions like &ldquo;what does a day-of coordinator do&rdquo; or &ldquo;difference between a wedding planner and a wedding coordinator.&rdquo; Planners whose websites contain clear, authoritative answers to these definitional questions are cited as the explanatory source and simultaneously positioned as the recommended vendor. This dual citation function makes content depth a higher-leverage investment for planners than for most other wedding vendor categories. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We build vendor-type-specific AEO strategies for photographers, florists, caterers, and planners. Each category gets a tailored platform emphasis.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener noreferrer">Book a 30-Minute Vendor Strategy Session &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 9: DECISION MATRIX ── */}
             <span className="ae-section-label" id="decision-matrix">Platform Audit</span>
@@ -547,10 +526,7 @@ export default function WeddingVenuesAISearchPage() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We run this exact audit for wedding venues and event vendors and deliver a scored report with prioritized next actions.</p>
-              <Link href="/blindspot">Get Your Free Platform Audit Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -594,40 +570,38 @@ export default function WeddingVenuesAISearchPage() {
             <p>Reviews that mention specific named services earn higher AI citation probability than generic praise. High-value review language for wedding venues includes references to &ldquo;ceremony space,&rdquo; &ldquo;bridal suite,&rdquo; &ldquo;cocktail hour area,&rdquo; &ldquo;in-house catering,&rdquo; &ldquo;preferred vendor list,&rdquo; and specific capacity figures. AI systems ground their answers in concrete service entities. A review that says &ldquo;the ceremony lawn held 200 guests and the bridal suite had natural light&rdquo; gives AI a factual anchor to cite. Generic adjective praise does not.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to build your venue&rsquo;s four-platform Vendor Trust Cluster? Start with the free Blind Spot Report. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your venue&rsquo;s AI visibility gaps with our team directly? We work with wedding venues and event vendors across all major markets.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Get Your Venue on the AI Shortlist Before Competitors Do</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when engaged couples search for wedding venues and event vendors in your market. Our free Blind Spot Report shows which platforms are missing, which citation signals are weak, and which competitors are appearing in your place.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                Book a Strategy Session
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just the data on how AI sees your venue or vendor business today and what it will take to appear on the shortlist.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

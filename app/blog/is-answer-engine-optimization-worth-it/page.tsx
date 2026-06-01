@@ -301,10 +301,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure where you stand with AI platforms right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get your free AI visibility report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── THREE VARIABLES ── */}
             <span className="ae-section-label">The Math That Matters</span>
@@ -383,10 +380,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know your exact AEO ROI potential? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a free assessment</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── SECTION 2: TIER BREAKDOWN ── */}
             <span className="ae-section-label">Industry Breakdown</span>
@@ -484,10 +478,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if your industry and market are a fit for AEO. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email us for a free market assessment</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── SECTION 3: TIMELINE ── */}
             <span className="ae-section-label">Realistic Expectations</span>
@@ -533,10 +524,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering where your competitors are in the AI citation timeline? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Run a free competitive AI audit</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── SECTION 4: HIDDEN COST OF WAITING ── */}
             <span className="ae-section-label">Opportunity Cost</span>
@@ -583,10 +571,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 5 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if your competitors have already claimed AI citation positions. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Check your AI visibility gap for free</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── SECTION 5: PARTIAL IMPLEMENTATION ── */}
             <span className="ae-section-label">Common Mistakes</span>
@@ -612,10 +597,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly which foundation elements you are missing? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a free implementation audit</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── SECTION 6: DECISION FRAMEWORK ── */}
             <span className="ae-section-label">Your Decision Framework</span>
@@ -694,10 +676,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 7 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Score yourself on the framework above. If you land on &quot;Invest Now&quot; for 3+ criteria: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Start with your free AI visibility report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── SECTION 7: THE BOTTOM LINE ── */}
             <span className="ae-section-label">Final Verdict</span>
@@ -721,16 +700,17 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to find out where you stand?</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a confidential ROI assessment</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── CTA BLOCK ── */}
-            <div className="ae-cta-block not-prose">
-              <h3>Not Sure If AEO Makes Sense for Your Business?</h3>
-              <p>We provide honest ROI assessments before any commitment. If AEO does not make strategic sense for your situation, we will tell you exactly why. If it does, we will show you the specific timeline and expected returns based on your market dynamics.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Run Your Free AEO Grader — See Exactly Where AI Ranks You</h3>
+              <p>390 businesses/month search for AEO services. One wins your market. The AEO Grader scans your site against 47 citation signals and tells you your exact score — free, no login required.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Grader →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+              </div>
             </div>
 
             {/* ── FAQ SECTION ── */}
@@ -741,10 +721,7 @@ export default function IsAEOWorthItBlogPost() {
             <p>Investment varies significantly based on business complexity, market competition, and implementation scope. Factors include technical infrastructure needs, content volume requirements, expertise documentation complexity, and competitive displacement difficulty. The right question is not cost in isolation. It is whether the investment generates positive ROI within your acceptable timeline.</p>
 
             {/* ── CTA 9 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want specific pricing for your business?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a custom quote</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             <h3>Can I start with basic AEO and expand later?</h3>
             <p>Partial implementation often wastes investment. The four foundation elements (technical schema, Q&A content, verifiable expertise, comprehensive coverage) are interdependent. Implementing some but not others typically means AI platforms cannot properly process what you do implement. Better to assess whether complete systematic implementation makes sense, then commit fully or wait.</p>
@@ -753,10 +730,7 @@ export default function IsAEOWorthItBlogPost() {
             <p>Test systematically across AI platforms. Ask questions your customers would ask on Google AI Overviews, ChatGPT, Claude, and Perplexity. Document which businesses get cited and why. If competitors appear consistently while you do not, they have likely optimized. If nobody appears consistently, you are in early market timing with the strongest opportunity window.</p>
 
             {/* ── CTA 10 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Skip the manual testing. We will check all four platforms for you.</p>
-              <Link href="/blindspot">Get your free blind spot report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             <h3>What if I invest in AEO and it does not work?</h3>
             <p>Proper implementation with correct technical foundation, systematic content architecture, and verifiable expertise documentation typically works. The variable is timeline. When clients say &quot;it did not work,&quot; it usually means premature abandonment before reaching authority-building phases, or broken implementation that was never properly diagnosed. This is why diagnostic capability matters.</p>
@@ -768,10 +742,7 @@ export default function IsAEOWorthItBlogPost() {
             <p>Treating it like traditional marketing with expected immediate returns. AEO builds compound authority over time. Businesses expecting results in weeks abandon working strategies before reaching the phase where returns accelerate. The second biggest mistake: partial implementation hoping for full results.</p>
 
             {/* ── CTA 11 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Avoid the mistakes. Get the strategy right from the start.</p>
-              <a href="mailto:support@theanswerengine.ai">Email us your biggest AEO question</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             <h3>How is AEO ROI different from traditional SEO ROI?</h3>
             <p>Traditional SEO delivered incremental traffic increases you could measure weekly. AEO delivers citation authority that compounds over time but builds more slowly at the start. Early months show minimal return while the foundation is built. Later months show accelerating returns as authority compounds. Your timeline expectations determine whether you perceive success or failure.</p>
@@ -780,10 +751,7 @@ export default function IsAEOWorthItBlogPost() {
             <p>Often, yes. Local businesses have geographic specificity advantages that national companies lack. AI platforms favor specific local expertise over generic national presence. A Phoenix landscape architect with deep local plant knowledge beats a national chain&apos;s generic advice. Small businesses with proper implementation often win local citations over larger competitors.</p>
 
             {/* ── CTA 12 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Small business owner wondering if you can compete? You probably can.</p>
-              <Link href="/blindspot">See your AI visibility score for free</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── CHEAT SHEET: QUICK REFERENCE ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -799,10 +767,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 13 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions this guide did not answer?</p>
-              <a href="tel:+12134442229">Call us at (213) 444-2229</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── AUTHOR CARD ── */}
             <div className="ae-author-card not-prose">
@@ -812,10 +777,7 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 14 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to talk directly with Justin about your AEO strategy?</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ── RELATED ARTICLES ── */}
             <span className="ae-section-label">Keep Reading</span>
@@ -855,27 +817,33 @@ export default function IsAEOWorthItBlogPost() {
             </div>
 
             {/* ── CTA 15 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Done reading? Take action.</p>
-              <Link href="/blindspot">Get your free AI blind spot report now</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* ══════════════ FINAL CTA ══════════════ */}
-            <div className="ae-final-cta not-prose">
-              <h2>Find Out If AI Is Recommending Your Business</h2>
-              <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand across ChatGPT, Google AI Overviews, Claude, and Perplexity.</p>
-              <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your AEO Score Determines Who AI Recommends
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Every month 390 businesses search for AEO services. The Answer Engine's Origin Protocol gets businesses cited where competitors get ignored. One slot per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free AEO Grader Score
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
 
           </div>
         </article>

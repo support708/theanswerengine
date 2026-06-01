@@ -304,10 +304,7 @@ export default function HowFloristsWinAISearch() {
             <p>For context on why AI consistently skips local businesses in favor of national brands, our guide on <Link href="/blog/why-ai-recommends-chains-over-local-businesses">why AI recommends chains over local businesses</Link> covers the structural dynamics that put independents at a disadvantage.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out what AI says when someone searches for a florist in your area right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2 */}
             <span className="ae-section-label" id="why-ai-favors-national">Root Causes</span>
@@ -334,10 +331,7 @@ export default function HowFloristsWinAISearch() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your advantages over wire services are real. AI just cannot see them yet. That is what we fix.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3 */}
             <span className="ae-section-label" id="trust-signals">Trust Signals</span>
@@ -364,10 +358,7 @@ export default function HowFloristsWinAISearch() {
             <p>To understand more about how AI decides between two similar-seeming businesses, read our analysis of <Link href="/blog/how-ai-picks-between-two-similar-businesses">how AI picks between two similar businesses</Link>.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is AI finding your designer credentials, local sourcing story, and same-day capabilities? Most florist sites have none of these signals in crawlable form. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 4 */}
             <span className="ae-section-label" id="platform-trap">Platform Trap</span>
@@ -436,10 +427,7 @@ export default function HowFloristsWinAISearch() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Are you operating on a wire service platform? Find out whether AI is attributing your visibility to your shop or to Teleflora. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5 */}
             <span className="ae-section-label" id="review-power">Review Signals</span>
@@ -484,10 +472,7 @@ export default function HowFloristsWinAISearch() {
             <p>For a deeper look at how reviews affect AI recommendations, read our analysis of <Link href="/blog/does-more-reviews-help-ai-find-you">whether more reviews help AI find your business</Link>.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your 4.9-star Google rating might be invisible to ChatGPT. Find out which reviews actually count for AI recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6 */}
             <span className="ae-section-label" id="seasonal-content">Content Strategy</span>
@@ -559,10 +544,7 @@ export default function HowFloristsWinAISearch() {
             </div>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Does your website have dedicated occasion pages that AI can find and evaluate? Most florist sites have zero.</p>
-              <Link href="/blindspot">Find Your AI Content Gaps &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 7 */}
             <span className="ae-section-label" id="competitive-window">The Opportunity</span>
@@ -581,10 +563,7 @@ export default function HowFloristsWinAISearch() {
             <p>For an overview of what kinds of directory listings amplify this competitive position, see our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The window to be the first AI-visible florist in your market is open right now. First-mover advantage in AI is enormous.</p>
-              <Link href="/blindspot">Claim Your Market Position &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 8: DECISION MATRIX */}
             <span className="ae-section-label" id="decision-matrix">By Specialty</span>
@@ -653,10 +632,7 @@ export default function HowFloristsWinAISearch() {
             <p>The matrix reveals a consistent theme: the competition for AI-visible local florist positions is low across nearly every specialty. Wire services dominate the generic recommendation space, but they cannot compete on specificity. A florist who builds AI visibility around a specific niche, sympathy arrangements, corporate services, or local farm-sourced designs, faces almost no competition in that specific AI query category.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Which florist specialty is most underserved by AI in your market? Our report shows you exactly where the gap is. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 9: CHEAT SHEET */}
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
@@ -709,10 +685,7 @@ export default function HowFloristsWinAISearch() {
             </div>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>This cheat sheet shows the signals that matter. Building them into your presence requires expertise. We handle it for you.</p>
-              <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* THE BOTTOM LINE */}
             <span className="ae-section-label">The Bottom Line</span>
@@ -808,36 +781,38 @@ export default function HowFloristsWinAISearch() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still have questions about AI visibility for your flower shop? We answer them for free.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to start with the data? The Blind Spot Report shows you exactly where you stand in under 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2 className="font-plus-jakarta">Local Florists Deserve to Win AI Search.</h2>
-            <p>Find out what ChatGPT, Google AI, and Perplexity say when a customer searches for flowers in your city and for the occasions you specialize in. Our free Blind Spot Report shows you the gaps and the path to being the florist AI recommends.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just the data. See what AI sees about your shop.</p>
-          </div>
+          </section>
 
         </article>
       </main>

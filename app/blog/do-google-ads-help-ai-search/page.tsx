@@ -165,10 +165,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering if AI even knows your business exists? Find out in 60 seconds.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: THE MYTH */}
           <span className="ae-section-label" id="the-myth">The Myth</span>
@@ -192,10 +189,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your ad budget is not building AI authority. See what AI actually says about your business.</p>
-            <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: HOW AI SOURCES */}
           <span className="ae-section-label" id="how-ai-sources">How AI Works</span>
@@ -241,10 +235,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI reads authority, not ads. Find out if your authority signals are strong enough. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Run Your Free Authority Check &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: COMPARISON TABLE */}
           <span className="ae-section-label" id="google-ads-vs-ai">Head to Head</span>
@@ -323,10 +314,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Google Ads reach 35% of searchers. AI reaches the other 65%. Are you visible to both? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">See Your Full Visibility Picture &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: WHERE MONEY GOES */}
           <span className="ae-section-label" id="where-money-goes">Follow the Money</span>
@@ -374,10 +362,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>How much of your ad budget is going toward channels AI cannot see? Get the data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <Link href="/blindspot">Audit Your Visibility Gaps &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: WHAT AI READS */}
           <span className="ae-section-label" id="what-ai-reads">AI Signals</span>
@@ -439,10 +424,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your ads are running. But AI is recommending someone else. See who.</p>
-            <Link href="/blindspot">Discover Who AI Recommends &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: REAL COST */}
           <span className="ae-section-label" id="real-cost">The Real Cost</span>
@@ -481,10 +463,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>While you read this, AI is answering questions about your industry. Are you the answer?</p>
-            <Link href="/blindspot">Find Out Now &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: SMARTER BUDGET */}
           <span className="ae-section-label" id="smarter-budget">Smarter Strategy</span>
@@ -540,10 +519,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to see what AI-first marketing looks like for your business? Start with the data. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            <Link href="/blindspot">Get Your Custom AI Visibility Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* RELATED READING */}
           <span className="ae-section-label">Related Reading</span>
@@ -556,10 +532,7 @@ export default function BlogPost() {
           </ul>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Every article above leads to the same conclusion: AI visibility is not optional. Take the first step.</p>
-            <Link href="/blindspot">Start Your Free Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -603,10 +576,7 @@ export default function BlogPost() {
           <p>No. Google Ads have zero influence on whether ChatGPT, Perplexity, Claude, or other AI platforms recommend your business. These AI systems pull from organic web content, brand mentions, reviews, and authoritative sources. Paid Google Ads operate on a completely separate infrastructure that AI platforms do not access. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>If Google Ads are not driving AI visibility, what is? Find your gaps.</p>
-            <Link href="/blindspot">See What AI Sees &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Does spending more on Google Ads improve AI search visibility?</h3>
           <p>No. Increasing your Google Ads budget will not improve your AI search visibility. AI platforms like ChatGPT and Perplexity do not factor ad spend into their citation algorithms. They evaluate content quality, brand authority, and third-party mentions. You could double your ad budget tomorrow and ChatGPT would not notice. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
@@ -615,10 +585,7 @@ export default function BlogPost() {
           <p>Google Ads are paid placements that appear at the top of Google search results and disappear when you stop paying. AI search citations are organic recommendations made by AI platforms based on content authority, brand mentions, and structured data. The two systems operate independently with entirely different ranking signals.</p>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI citations compound over time. Ads disappear overnight. Build something lasting. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <Link href="/blindspot">Start Building AI Authority &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Should I stop running Google Ads and invest in AI optimization instead?</h3>
           <p>Not necessarily. Google Ads still drive traffic for transactional searches where buyers are ready to purchase today. But with 65% of searches now ending without a click, you should allocate part of your budget to AI visibility. The most effective strategy combines paid search for immediate traffic with AI optimization for long-term compounding authority.</p>
@@ -627,10 +594,7 @@ export default function BlogPost() {
           <p>AI platforms evaluate domain authority, brand mentions across the web, review signals on platforms like Yelp and BBB, structured data markup, content freshness, and appearances on authoritative best-of lists. None of these signals involve paid advertising. The key is building genuine authority across the channels AI platforms actively crawl. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Most businesses have blind spots in the exact signals AI evaluates. Find yours.</p>
-            <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Will Google AI Overviews show my ads?</h3>
           <p>Google has begun placing ads within AI Overviews and AI Mode. However, these are clearly labeled sponsored placements that are architecturally separate from the organic citations AI provides. Having ads appear alongside AI Overviews does not influence which businesses AI cites as authoritative answers. The paid and organic layers remain distinct. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
@@ -639,10 +603,7 @@ export default function BlogPost() {
           <p>Start by running a free Blind Spot Report to see exactly where you stand across ChatGPT, Perplexity, Claude, and Google AI. Then focus on building the authority signals AI platforms actually read: consistent business information across directories, reviews on AI-accessible platforms, expert content that answers common questions, and brand mentions on authoritative third-party sites.</p>
 
           {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure where to start? The Blind Spot Report tells you exactly which signals to build first. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            <Link href="/blindspot">Get Your Personalized Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -650,10 +611,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 14 */}
-          <div className="ae-cta-inline not-prose">
-            <p>You now know the truth about ads and AI. The next step is seeing where your business stands. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SOURCES */}
           <span className="ae-section-label">Sources</span>
@@ -668,26 +626,41 @@ export default function BlogPost() {
         </div>
 
         {/* CTA BLOCK */}
-        <div className="ae-cta-block not-prose">
-          <h3>Your Ads Are Running. But AI Is Recommending Someone Else.</h3>
-          <p>Google Ads and AI search are separate worlds. While you pour money into clicks, your competitors are building the authority signals that make AI recommend them by default. Get your free Blind Spot Report and see exactly what AI says when customers ask about your industry. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-          <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
+            </div>
 
         {/* FINAL CTA */}
-        <div className="ae-final-cta">
-          <h2>Stop Paying for Visibility AI Cannot See</h2>
-          <p>Every dollar spent on Google Ads is invisible to ChatGPT, Perplexity, and Claude. Your competitors are building AI authority signals right now. Every month you wait, the gap widens. Get your free Blind Spot Report and see exactly where you stand across every major AI platform.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   )

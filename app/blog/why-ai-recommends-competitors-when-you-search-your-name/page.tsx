@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     'ChatGPT business name search',
     'AI wrong company recommendation',
   ],
-  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
+  authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
     modifiedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -76,18 +76,9 @@ const jsonLd = {
       datePublished: '2026-04-19T09:00:00-07:00',
       dateModified: '2026-04-19T09:00:00-07:00',
       author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        '@type': 'Organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
       },
       publisher: {
         '@type': 'Organization',
@@ -268,12 +259,12 @@ export default function Page() {
                 <path
                   d="M 60 0 L 0 0 0 60"
                   fill="none"
-                  stroke="#F27D24"
+                  stroke="#FF6A00"
                   strokeWidth="0.5"
                 />
                 {/* Two business icons: one highlighted, one dim */}
-                <rect x="8" y="22" width="18" height="26" fill="#F27D24" opacity="0.3" rx="1" />
-                <rect x="32" y="28" width="18" height="20" fill="#F27D24" opacity="0.08" rx="1" />
+                <rect x="8" y="22" width="18" height="26" fill="#FF6A00" opacity="0.3" rx="1" />
+                <rect x="32" y="28" width="18" height="20" fill="#FF6A00" opacity="0.08" rx="1" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-190)" />
@@ -287,7 +278,7 @@ export default function Page() {
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
                 style={{
                   backgroundColor: 'rgba(255,106,0,0.15)',
-                  color: '#F27D24',
+                  color: '#FF6A00',
                   border: '1px solid rgba(255,106,0,0.3)',
                 }}
               >
@@ -302,18 +293,9 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               Why AI Recommends{' '}
-              <span style={{ color: '#F27D24' }}>Competitors</span>{' '}
+              <span style={{ color: '#FF6A00' }}>Competitors</span>{' '}
               When You Search Your Name
             </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
-              <img
-                src="/blog/why-ai-recommends-competitors-when-you-search-your-name.webp"
-                alt="why ai recommends competitors when you search your name"
-                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-                loading="eager"
-              />
-            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               You typed your own company name into ChatGPT. Your competitor showed up. This is not an accident, a glitch, or something that will fix itself. It is a structural problem rooted in how AI models understand brands, and it is costing you customers right now.
@@ -324,7 +306,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
               >
                 Check If AI Is Confusing Your Brand
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -336,7 +318,7 @@ export default function Page() {
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
                 style={{
                   backgroundColor: 'rgba(255,106,0,0.1)',
-                  color: '#F27D24',
+                  color: '#FF6A00',
                   border: '1px solid rgba(255,106,0,0.3)',
                 }}
               >
@@ -390,7 +372,7 @@ export default function Page() {
                 <div className="ae-stat-emoji text-2xl mb-1">{stat.emoji}</div>
                 <div
                   className="ae-stat-value font-plus-jakarta text-3xl font-extrabold mb-1"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   {stat.value}
                 </div>
@@ -406,7 +388,7 @@ export default function Page() {
             style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
             aria-label="Table of Contents"
           >
-            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#F27D24' }}>
+            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#FF6A00' }}>
               In This Article
             </h2>
             <ol className="space-y-2 text-sm text-gray-300">
@@ -421,7 +403,7 @@ export default function Page() {
                 { num: '08', href: '#faq', text: 'Frequently Asked Questions' },
               ].map((item) => (
                 <li key={item.num} className="flex items-start gap-2">
-                  <span style={{ color: '#F27D24' }}>{item.num}</span>
+                  <span style={{ color: '#FF6A00' }}>{item.num}</span>
                   <a href={item.href} className="hover:text-orange-400 transition-colors">
                     {item.text}
                   </a>
@@ -434,13 +416,13 @@ export default function Page() {
           <section className="mb-14">
             <p className="text-gray-300 leading-relaxed mb-5 text-lg">
               You typed your own company name into ChatGPT. Your competitor showed up. Maybe they appeared in a list of &ldquo;top options&rdquo; where your name should have been. Maybe the AI described services that belong to your competitor while using language that almost fits your business. Maybe your name appeared at the bottom of a list, under three competitors, as an afterthought.
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-5">
               Whatever happened, the feeling is the same: AI does not really know who you are. And if AI does not know who you are, neither will the growing segment of customers who are using AI as their first stop when looking for a business like yours.
-             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-5">
               The core truth behind what you experienced: AI does not recommend the best business. It recommends the best-understood one. Your competitor is appearing not because they are superior, but because AI has more confident, consistent, and corroborated information about them than it does about you. The gap is not in your product. It is in your brand signal footprint.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+            </p>
 
             {/* Inline CTA 1 */}
             <div
@@ -452,11 +434,11 @@ export default function Page() {
             >
               <p className="text-sm text-gray-300 mb-3">
                 Not sure if AI is confusing your brand with a competitor right now? Find out in 48 hours with a free audit.
-               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              </p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Get Your Free AI Blind Spot Report
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -470,7 +452,7 @@ export default function Page() {
           <section id="not-best-most-understood" className="mb-14">
             <span
               className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4 block"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               The Core Problem
             </span>
@@ -480,41 +462,41 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               AI language models do not browse the internet in real time to evaluate your business against competitors. They generate responses based on probability patterns learned from billions of documents. When someone asks ChatGPT which business to use in your category, the model does not compare your offerings side by side. It calculates which brand names and descriptions are most statistically probable and coherent given the context of the question.
-             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               That calculation depends almost entirely on how often and how consistently your brand appears in the types of sources the model was trained on. Analyst reports. Comparison articles. G2 and Trustpilot reviews. Reddit discussions. Trade publication features. Earned press mentions. If your competitor appears in 200 of those sources and you appear in five, the model defaults to your competitor. Not because it evaluated quality. Because it is following the weight of evidence.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+            </p>
 
             {/* Quote Box */}
             <div
               className="ae-quote rounded-xl p-6 my-8 border-l-4"
-              style={{ backgroundColor: 'rgba(255,106,0,0.06)', borderColor: '#F27D24' }}
+              style={{ backgroundColor: 'rgba(255,106,0,0.06)', borderColor: '#FF6A00' }}
             >
               <p className="text-gray-200 italic text-lg leading-relaxed mb-2">
                 &ldquo;AI does not recommend the best business. It recommends the best-understood one. The gap is not in your product. It is in your brand signal footprint.&rdquo;
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <p className="text-sm" style={{ color: '#F27D24' }}>The Answer Engine Research Team Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+              </p>
+              <p className="text-sm" style={{ color: '#FF6A00' }}>The Answer Engine Research Team</p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is why 80% of users rely on AI summaries for 40% or more of their purchasing decisions, and yet most businesses have never audited what AI actually says about them. The customers are already there. The question is whether AI is sending them to you or your competitors.
-             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Only 2 to 7 domains get cited per AI response, compared to Google&apos;s ten results. That is a dramatically smaller window to be included. And if your brand signal footprint is thin compared to competitors who have been intentionally building it, you are structurally excluded from those citations, not ranked lower in them. There is no position 8 in AI search. There is only cited and not cited.
-             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               For more on how <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-orange-400 hover:underline">AI has wrong information about your business</Link> and how those errors compound into recommendation failures, see our deep dive on that specific pattern.
-             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            </p>
           </section>
 
           {/* Section 2: Five Signals */}
           <section id="five-signals" className="mb-14">
             <span
               className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4 block"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               Signal Analysis
             </span>
@@ -524,7 +506,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               When AI consistently recommends your competitor over you, it is almost always because they are stronger across one or more of these five signal dimensions. The gap is rarely dramatic at any single point. It is the accumulation that tips the scale.
-             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+            </p>
 
             <div className="space-y-6 mb-10">
               {[
@@ -565,13 +547,13 @@ export default function Page() {
                   <div className="flex items-start gap-4">
                     <div
                       className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 font-plus-jakarta font-extrabold text-sm"
-                      style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#F27D24' }}
+                      style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
                     >
                       {item.num}
                     </div>
                     <div>
                       <h3 className="font-plus-jakarta font-bold text-white mb-2">{item.title}</h3>
-                      <p className="text-sm text-gray-300 leading-relaxed">{item.body} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+                      <p className="text-sm text-gray-300 leading-relaxed">{item.body}</p>
                     </div>
                   </div>
                 </div>
@@ -602,7 +584,7 @@ export default function Page() {
                 <div>
                   <p className="font-semibold mb-3" style={{ color: '#FCD34D' }}>
                     Signs AI Has Confused Your Brand with a Competitor
-                   Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+                  </p>
                   <ul className="space-y-2">
                     {[
                       'AI describes services that belong to your competitor when asked about your business',
@@ -643,11 +625,11 @@ export default function Page() {
             >
               <p className="text-sm text-gray-300 mb-3">
                 Understanding how <Link href="/blog/how-press-mentions-help-ai-recommend-you" className="text-orange-400 hover:underline">press mentions and third-party validation</Link> drive AI citations is the first step toward closing the signal gap.
-               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              </p>
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -664,7 +646,7 @@ export default function Page() {
           <section id="entity-disambiguation" className="mb-14">
             <span
               className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4 block"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               How AI Actually Works
             </span>
@@ -674,15 +656,15 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               There is a technical name for what is happening when AI confuses your brand with a competitor: entity disambiguation failure. AI models do not have a precise, verified registry of every business in the world. They build a probabilistic understanding of entities, including businesses, based on patterns in their training data.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When a user asks about your business, the model tries to identify which entity they mean by matching the query to the most probable entity in its knowledge. If your brand signals are weak or inconsistent, the model has low confidence in your entity. When confidence is low and a similar, better-understood entity exists nearby in the model&apos;s probability space, the model blends or substitutes. The result is that AI confidently recommends the wrong company.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is not a bug. It is working as designed. The model is trying to give the most helpful answer it can with the information it has. The problem is that the information it has about your brand is thin, inconsistent, or contradicted by stronger signals for your competitor.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+            </p>
 
             {/* Callout Info */}
             <div
@@ -708,10 +690,10 @@ export default function Page() {
                 <div>
                   <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>
                     The 18% Hallucination Problem
-                   Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                  </p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Stanford AI Index 2024 found that 18% of LLM brand mentions contain hallucinations or entity misattributions. That means nearly one in five times AI mentions a brand, it may be attributing information that belongs to a different company. If your brand signals are weak and a competitor&apos;s are strong, your company is the likely recipient of misattributed facts, not the source of accurate ones. The model fills in gaps with what it is most confident about, and that confidence belongs to your competitor.
-                   Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -722,7 +704,7 @@ export default function Page() {
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
               Here is what the difference actually looks like between a brand AI confidently recommends and a brand AI confuses or ignores.
-             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+            </p>
 
             <div
               className="ae-comparison-table overflow-x-auto mb-10 rounded-xl"
@@ -793,11 +775,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When AI encounters a brand with strong signals, entity disambiguation succeeds. The model knows exactly who you are, what you do, and why you are a credible answer. When the signals are weak, disambiguation fails. The model substitutes the nearest confident entity, which is usually your best-resourced competitor.
-             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is also why <Link href="/blog/does-schema-markup-help-ai-search" className="text-orange-400 hover:underline">schema markup for clarity</Link> matters more than most business owners realize. Structured data does not just help Google. It gives AI models a machine-readable anchor point for your entity that reduces disambiguation errors.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+            </p>
 
             {/* Inline CTA 3 */}
             <div
@@ -809,11 +791,11 @@ export default function Page() {
             >
               <p className="text-sm text-gray-300 mb-3">
                 Wondering if your brand has an entity disambiguation problem? We audit this specifically in our blind spot report.
-               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              </p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Get Your Free AI Blind Spot Report
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -827,7 +809,7 @@ export default function Page() {
           <section id="revenue-stakes" className="mb-14">
             <span
               className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4 block"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               The Business Impact
             </span>
@@ -837,11 +819,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               It is tempting to frame AI brand confusion as a reputation annoyance rather than a revenue problem. The data does not support that framing. Forty-one percent of consumers have purchased a product recommended by AI in the past six months. Eighty percent of users rely on AI summaries for 40% or more of their purchasing decisions. These are not tech early adopters. These are mainstream consumers making real purchase decisions based on what AI tells them.
-             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When AI recommends your competitor instead of you in response to a high-intent query, the typical outcome is not that the customer searches further. AI recommendation carries enough authority that most users act on the first confident answer. The conversion path from AI recommendation is shorter than almost any other channel. That is why 41% purchase rates from AI recommendations are so significant. The lead never entered your funnel.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+            </p>
 
             {/* Takeaway Box */}
             <div
@@ -851,32 +833,32 @@ export default function Page() {
                 border: '1px solid rgba(255,106,0,0.3)',
               }}
             >
-              <div className="font-plus-jakarta font-bold mb-2" style={{ color: '#F27D24' }}>
+              <div className="font-plus-jakarta font-bold mb-2" style={{ color: '#FF6A00' }}>
                 Key Takeaway
               </div>
               <p className="text-gray-200 leading-relaxed">
                 AI brand confusion is a lead generation problem disguised as a brand problem. When AI recommends your competitor, you do not just lose visibility. You lose a customer who was ready to buy and never knew you existed as an option. The revenue loss is invisible because it never shows up in your analytics as a lost lead. It simply never appears at all.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+              </p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The compounding dimension makes this worse. When AI consistently recommends your competitor, they accumulate more reviews, more press, more third-party mentions. Every citation they receive strengthens their signal footprint for the next round of training data. The gap between your brand confidence score and theirs widens with every passing month you do not address it.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Consider also the risk of <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="text-orange-400 hover:underline">sudden drops in AI visibility</Link>. A brand that is marginally present today can disappear entirely after a model update that raises the confidence threshold. Businesses that have not built robust brand signal footprints are one model update away from complete AI invisibility.
-             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               There is also a customer trust dimension. When a potential customer searches your business name and AI recommends your competitor instead, some will interpret that as a signal of legitimacy. &ldquo;If AI thinks the competitor is better, maybe they are.&rdquo; AI carries implicit authority for a growing segment of consumers. A competitor who wins the AI recommendation for your branded query is effectively borrowing that authority.
-             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+            </p>
           </section>
 
           {/* Section 5: Pros/Cons */}
           <section id="quick-fixes-vs-authority" className="mb-14">
             <span
               className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4 block"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               Your Options
             </span>
@@ -1003,14 +985,14 @@ export default function Page() {
                 <Link
                   href="/blindspot"
                   className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg text-white transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#F27D24' }}
+                  style={{ backgroundColor: '#FF6A00' }}
                 >
                   Get My Free Blind Spot Report
                 </Link>
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   Or call (213) 444-2229
                 </a>
@@ -1022,7 +1004,7 @@ export default function Page() {
           <section id="what-changes-pattern" className="mb-14">
             <span
               className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4 block"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               The Path Forward
             </span>
@@ -1115,7 +1097,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Start Your Free AI Audit Today
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1163,7 +1145,7 @@ export default function Page() {
                   >
                     <p
                       className="text-xs uppercase tracking-wide mb-1"
-                      style={{ color: '#F27D24' }}
+                      style={{ color: '#FF6A00' }}
                     >
                       {link.tag}
                     </p>
@@ -1178,7 +1160,7 @@ export default function Page() {
           <section id="cheat-sheet" className="mb-14">
             <span
               className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4 block"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               Quick Reference
             </span>
@@ -1197,7 +1179,7 @@ export default function Page() {
                 >
                   <svg
                     className="w-5 h-5"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -1212,7 +1194,7 @@ export default function Page() {
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>
+                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>
                     Citation Footprint
                   </h4>
                   <ul className="space-y-2">
@@ -1224,7 +1206,7 @@ export default function Page() {
                       'Trade publication or industry press coverage present',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#F27D24' }} className="mt-0.5">&#8594;</span>
+                        <span style={{ color: '#FF6A00' }} className="mt-0.5">&#8594;</span>
                         {item}
                       </li>
                     ))}
@@ -1232,7 +1214,7 @@ export default function Page() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>
+                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>
                     Entity Consistency
                   </h4>
                   <ul className="space-y-2">
@@ -1244,7 +1226,7 @@ export default function Page() {
                       'No conflicting or outdated information in major directories',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#F27D24' }} className="mt-0.5">&#8594;</span>
+                        <span style={{ color: '#FF6A00' }} className="mt-0.5">&#8594;</span>
                         {item}
                       </li>
                     ))}
@@ -1252,7 +1234,7 @@ export default function Page() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>
+                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>
                     Review Platform Breadth
                   </h4>
                   <ul className="space-y-2">
@@ -1263,7 +1245,7 @@ export default function Page() {
                       'Overall rating is consistent across platforms',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#F27D24' }} className="mt-0.5">&#8594;</span>
+                        <span style={{ color: '#FF6A00' }} className="mt-0.5">&#8594;</span>
                         {item}
                       </li>
                     ))}
@@ -1310,7 +1292,7 @@ export default function Page() {
             <Link
               href="/blindspot"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-colors hover:opacity-90"
-              style={{ backgroundColor: '#F27D24' }}
+              style={{ backgroundColor: '#FF6A00' }}
             >
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1343,17 +1325,46 @@ export default function Page() {
           </div>
 
           {/* Author Card */}
-          <div className="not-prose">
-            <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
+          <div
+            className="ae-author-card rounded-xl p-6 mb-14"
+            style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
+          >
+            <div className="flex items-start gap-4">
+              <div
+                className="ae-author-avatar w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 font-plus-jakarta font-extrabold text-xl"
+                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
+              >
+                AE
+              </div>
               <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
+                <p className="text-xs text-gray-500 mb-2">Published April 19, 2026 · Business Pain Points</p>
+                <p className="text-sm text-gray-400 leading-relaxed">
+                  The Answer Engine is a Los Angeles-based AEO and AI visibility agency. We help local and regional businesses get cited correctly by ChatGPT, Perplexity, Google AI Overviews, Microsoft Copilot, and every major AI recommendation engine. Our team has audited hundreds of brands for entity disambiguation failures and brand signal gaps. We know exactly why AI confuses brands and what it takes to fix it.
+                </p>
+                <div className="flex flex-wrap gap-4 mt-3">
+                  <a
+                    href="https://theanswerengine.ai"
+                    className="text-xs transition-colors hover:opacity-80"
+                    style={{ color: '#FF6A00' }}
+                  >
+                    theanswerengine.ai
+                  </a>
+                  <a
+                    href="tel:+12134442229"
+                    className="text-xs transition-colors hover:opacity-80"
+                    style={{ color: '#FF6A00' }}
+                  >
+                    (213) 444-2229
+                  </a>
+                  <a
+                    href="mailto:support@theanswerengine.ai"
+                    className="text-xs transition-colors hover:opacity-80"
+                    style={{ color: '#FF6A00' }}
+                  >
+                    support@theanswerengine.ai
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -1362,7 +1373,7 @@ export default function Page() {
           <section id="faq" className="mb-14">
             <span
               className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4 block"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               FAQ
             </span>
@@ -1431,7 +1442,7 @@ export default function Page() {
                 <a
                   href="mailto:support@theanswerengine.ai"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   Email support@theanswerengine.ai
                 </a>
@@ -1439,7 +1450,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   Call (213) 444-2229
                 </a>
@@ -1471,13 +1482,13 @@ export default function Page() {
                   className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6"
                   style={{
                     backgroundColor: 'rgba(255,106,0,0.2)',
-                    color: '#F27D24',
+                    color: '#FF6A00',
                     border: '1px solid rgba(255,106,0,0.4)',
                   }}
                 >
                   <span
                     className="inline-block w-2 h-2 rounded-full animate-pulse"
-                    style={{ backgroundColor: '#F27D24' }}
+                    style={{ backgroundColor: '#FF6A00' }}
                   />
                   Free AI Blind Spot Report Available Now
                 </div>
@@ -1495,7 +1506,7 @@ export default function Page() {
                     href="/blindspot"
                     className="ae-cta-primary inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white text-lg transition-all hover:opacity-90"
                     style={{
-                      backgroundColor: '#F27D24',
+                      backgroundColor: '#FF6A00',
                       boxShadow: '0 0 20px rgba(255,106,0,0.4)',
                     }}
                   >
@@ -1508,7 +1519,7 @@ export default function Page() {
                     href="tel:+12134442229"
                     className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-80"
                     style={{
-                      color: '#F27D24',
+                      color: '#FF6A00',
                       border: '2px solid rgba(255,106,0,0.4)',
                       backgroundColor: 'rgba(255,106,0,0.08)',
                     }}

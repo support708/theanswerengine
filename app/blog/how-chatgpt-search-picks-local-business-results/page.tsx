@@ -414,31 +414,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
              Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* INLINE CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">
-                Does ChatGPT mention your business when someone searches your
-                category?
-               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
-              >
-                Get your free Blind Spot Report
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 2: HOW IT WORKS */}
             <span className="ae-section-label" id="how-it-works">
@@ -738,31 +714,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
              We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* INLINE CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">
-                Want to know your ChatGPT Search signal score? We can show you
-                exactly where you stand.
-               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
-              >
-                Get your free Blind Spot Report
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 6: BASE VS SEARCH */}
             <span className="ae-section-label" id="base-vs-search">
@@ -925,31 +877,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* INLINE CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">
-                Not sure if your current marketing strategy is building ChatGPT
-                Search visibility?
-               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
-              >
-                Find out with a free Blind Spot Report
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 9: ACTION PLAN */}
             <span className="ae-section-label" id="action-plan">
@@ -1249,35 +1177,30 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
             </div>
 
             {/* FINAL CTA */}
-            <div className="ae-final-cta not-prose">
-              <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-                Ready to Show Up When Customers Search ChatGPT?
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
               </h2>
-              <p className="text-gray-300 mb-8 text-lg">
-                900 million people use ChatGPT every week. Get your free Blind
-                Spot Report and find out exactly what is keeping your business
-                out of those results.
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
               </p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-3 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-all duration-200 shadow-[0_0_30px_rgba(255,106,0,0.4)] hover:shadow-[0_0_50px_rgba(255,106,0,0.6)]"
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free Blind Spot Report
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </Link>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
+          </section>
 
           </div>
         </article>

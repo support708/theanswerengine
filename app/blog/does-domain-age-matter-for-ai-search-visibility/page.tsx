@@ -256,15 +256,7 @@ export default function Page() {
           </section>
 
           {/* Inline CTA 1 */}
-          <div className="ae-cta-inline rounded-xl p-5 mb-10 flex flex-col sm:flex-row items-start sm:items-center gap-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
-            <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Not sure where your domain stands with AI search?</p>
-              <p className="text-gray-400 text-sm">Get a free AI visibility audit and find out exactly what's holding you back. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-            </div>
-            <Link href="/contact" className="shrink-0 px-5 py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
-              Get Free Audit
-            </Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Table of Contents */}
           <nav className="ae-toc rounded-xl p-6 mb-12" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }} aria-label="Table of contents">
@@ -347,13 +339,7 @@ export default function Page() {
             </p>
 
             {/* Inline CTA 2 */}
-            <div className="ae-cta-inline rounded-xl p-5 mb-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
-              <p className="text-white font-semibold mb-1">Ready to stop guessing what AI thinks of your domain? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <p className="text-gray-400 text-sm mb-3">Our team audits the exact signals AI platforms use to evaluate your business.</p>
-              <Link href="/contact" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
-                Request an AI Audit
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* Section 3: Platform Breakdown */}
@@ -570,16 +556,7 @@ export default function Page() {
             </div>
 
             {/* Inline CTA 3 */}
-            <div className="ae-cta-inline rounded-xl p-5" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
-              <p className="text-white font-semibold mb-1">New domain or old, the optimization strategy differs significantly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <p className="text-gray-400 text-sm mb-3">We diagnose exactly where you are and build the right roadmap for your situation.</p>
-              <a href="tel:+12134442229" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105 mr-3" style={{ background: '#F27D24', color: '#fff' }}>
-                Call (213) 444-2229
-              </a>
-              <Link href="/contact" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', border: '1px solid rgba(255,255,255,0.15)' }}>
-                Or Contact Us Online
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* Section 6: Decision Matrix */}
@@ -638,45 +615,15 @@ export default function Page() {
           </section>
 
           {/* 3-Tier CTA Block */}
-          <section className="ae-cta-block rounded-2xl p-8 mb-14" style={{ background: 'linear-gradient(135deg, rgba(255,106,0,0.1) 0%, rgba(255,106,0,0.05) 100%)', border: '1px solid rgba(255,106,0,0.3)' }}>
-            <div className="text-center mb-8">
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-plus-jakarta">
-                Is Your Domain Leaving AI Citations on the Table?
-              </h2>
-              <p className="text-gray-300 max-w-2xl mx-auto">
-                Whether your domain is 2 months old or 20 years old, the signals AI platforms evaluate can be built and optimized. Find out exactly what's missing for your domain with a professional AI visibility assessment.
-              </p>
-            </div>
-            <div className="grid sm:grid-cols-3 gap-5">
-              {/* Tier 1 */}
-              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)' }}>
-                <div className="text-3xl mb-3">&#128269;</div>
-                <h3 className="text-white font-bold mb-2 font-plus-jakarta">Find Your Blind Spots</h3>
-                <p className="text-gray-400 text-sm mb-4">Discover which AI visibility signals your domain is missing right now. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-                <Link href="/blindspot" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
-                  Get Your Free Blind Spot Report
-                </Link>
-              </div>
-              {/* Tier 2 */}
-              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)' }}>
-                <div className="text-3xl mb-3">&#128222;</div>
-                <h3 className="text-white font-bold mb-2 font-plus-jakarta">Talk to an Expert</h3>
-                <p className="text-gray-400 text-sm mb-4">Get direct answers about your domain's AI search position in a quick call.</p>
-                <a href="tel:+12134442229" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}>
-                  (213) 444-2229
-                </a>
-              </div>
-              {/* Tier 3 */}
-              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)' }}>
-                <div className="text-3xl mb-3">&#128231;</div>
-                <h3 className="text-white font-bold mb-2 font-plus-jakarta">Email Us Directly</h3>
-                <p className="text-gray-400 text-sm mb-4">Send your domain and we'll send back a preliminary assessment within 24 hours. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-                <a href="mailto:support@theanswerengine.ai" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105 truncate" style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}>
-                  support@theanswerengine.ai
-                </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
               </div>
             </div>
-          </section>
 
           {/* Cheat Sheet */}
           <section id="cheat-sheet" className="mb-14">
@@ -857,28 +804,29 @@ export default function Page() {
           </div>
 
           {/* Final CTA */}
-          <section className="ae-final-cta rounded-2xl p-10 text-center mb-8" style={{ background: 'linear-gradient(135deg, rgba(255,106,0,0.15) 0%, rgba(255,106,0,0.05) 100%)', border: '2px solid rgba(255,106,0,0.4)', boxShadow: '0 0 40px rgba(255,106,0,0.15), 0 0 80px rgba(255,106,0,0.05)' }}>
-            <div className="text-4xl mb-4">&#127919;</div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">
-              Stop Wondering. Start Showing Up.
-            </h2>
-            <p className="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Domain age is the myth. Content quality, trust signals, and structured optimization are the reality. Find out exactly where your domain stands and what it will take to earn consistent AI citations, before your competitors figure it out first.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link href="/contact" className="px-8 py-4 rounded-xl font-bold text-base transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff', boxShadow: '0 0 20px rgba(255,106,0,0.4)' }}>
-                Get My Free AI Visibility Audit
-              </Link>
-              <a href="tel:+12134442229" className="px-8 py-4 rounded-xl font-bold text-base transition-all hover:scale-105" style={{ background: 'rgba(255,255,255,0.06)', color: '#fff', border: '1px solid rgba(255,255,255,0.15)' }}>
-                Call (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-gray-600 text-sm mt-6">
-              Free assessment. No commitment. Just answers.{' '}
-              <a href="mailto:support@theanswerengine.ai" className="hover:text-gray-400 transition-colors" style={{ color: '#F27D24' }}>
-                support@theanswerengine.ai
-              </a>
-            </p>
           </section>
 
         </article>

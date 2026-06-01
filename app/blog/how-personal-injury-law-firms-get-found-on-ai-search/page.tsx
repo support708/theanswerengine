@@ -354,13 +354,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               — legal is one of the highest-urgency verticals for the same structural reasons.
              Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Find out whether your PI firm appears when injury victims ask AI who to call in your
-                market.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <Link href="/blindspot">Get Your Free AI Blind Spot Report →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <span className="ae-section-label" id="mechanism">The Mechanism</span>
             <h2>How AI Decides Which PI Firms to Recommend</h2>
@@ -425,19 +419,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               experience a 31% attention degradation in RAG retrieval systems.
              One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                We audit your full directory stack across all seven citation sources and identify
-                every gap.
-               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <a
-                href="https://calendly.com/theanswerengine-support/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Schedule a Free Directory Audit →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <span className="ae-section-label" id="research">The Research</span>
             <h2>What the Data Says About Legal AI Citations</h2>
@@ -510,15 +492,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               that publishes the same verdict information on its own blog.
              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                We audit existing PI firm content for AI citation gaps and deliver a prioritized
-                retrofitting plan within 48 hours.
-               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">
-                Email support@theanswerengine.ai for a Content Audit →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <span className="ae-section-label" id="methodology">The TAE Methodology</span>
             <h2>What We Do Differently for PI Firms</h2>
@@ -571,19 +545,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               results for both. One firm per market, full stop.
              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Check whether your market is still available. Markets lock when we begin an
-                engagement.
-               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a
-                href="https://calendly.com/theanswerengine-support/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Check Your Market Availability →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <span className="ae-section-label" id="proof">Proof and Performance</span>
             <h2>How to Measure AI Visibility for PI Law</h2>
@@ -629,13 +591,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               across four states from 2025 to 2026.
              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                We run the citation frequency test for PI firms. 24-hour turnaround with your
-                baseline citation rate included.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <Link href="/blindspot">Run My Citation Frequency Test →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <span className="ae-section-label" id="audit">Citation Audit</span>
             <h2>PI Firm AI Citation Readiness Audit</h2>
@@ -710,15 +666,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               </table>
             </div>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                We run this exact audit for PI firms and return a scored citation gap report.
-                No cost, no commitment.
-               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <a href="mailto:support@theanswerengine.ai">
-                Request Your Citation Gap Report →
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <span className="ae-section-label" id="faq">FAQ</span>
             <h2>Frequently Asked Questions</h2>
@@ -753,13 +701,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               </p>
             </details>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Not sure if your current directory presence is complete? We check all seven sources
-                for free.
-              </p>
-              <Link href="/blindspot">Get Your Free Directory Stack Audit →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <details className="ae-faq-item">
               <summary className="cursor-pointer text-white font-semibold py-3">
@@ -822,13 +764,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               </p>
             </details>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Have a specific question about your PI firm&rsquo;s citation situation? We respond
-                to every email personally.
-              </p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <span className="ae-section-label">Keep Learning</span>
             <h2>Related Articles</h2>
@@ -888,12 +824,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               </Link>
             </div>
 
-            <div className="ae-cta-inline not-prose">
-              <p>
-                Still reading? You clearly take AI citations seriously. Take the next step with us.
-              </p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             <div className="not-prose ae-author-card">
               <img
@@ -931,95 +862,39 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
             </div>
 
             <div className="ae-cta-block not-prose my-16">
-              <h3>Is Your PI Firm Invisible to AI Search?</h3>
-              <p>
-                Injury victims in your market are asking ChatGPT and Perplexity who to call right
-                now. We will show you exactly which queries you are missing, which competitors are
-                winning them, and what it takes to change that within 90 days. Our free blind spot
-                report analyzes your directory coverage, review profile, and content structure
-                across all four major AI platforms. No pitch. Just the data.
-              </p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-                <a
-                  href="tel:+12134442229"
-                  className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
-                  (213) 444-2229
-                </a>
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                  support@theanswerengine.ai
-                </a>
+              <h3>Is Your PI Firm Getting Cases from AI Search — or Losing Them to a Competitor?</h3>
+              <p>When someone types &quot;best personal injury lawyer near me&quot; into ChatGPT, which firm appears? We audit your firm&apos;s AI citation rate across every major engine and tell you exactly what it takes to appear — free, 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free PI Firm Citation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
             </div>
 
-            <section className="ae-final-cta not-prose text-center py-12 border-t border-white/[0.05]">
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                A Competitor in Your Market Is Claiming AI Territory Right Now
+                The PI Firm That Gets Cited by AI Gets the Case
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                The 90-day citation window is running for someone in your PI market today. The firm
-                that completes the directory stack, builds structured case-type content, and
-                accumulates outcome-specific reviews first earns the citations — and holds them.
-                Our free blind spot report shows you exactly where you stand and what it takes to
-                own your territory before a competitor does.
+                ChatGPT recommends specific lawyers. Perplexity cites specific firms. Google AI Overviews name names. The Answer Engine puts your PI firm in those citations — and keeps competitors out. Free citation audit. One firm per market.
               </p>
-              <Link
-                href="/blindspot"
+              <a
+                href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free Blind Spot Report
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
+                Run Free PI Citation Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </Link>
-              <p className="text-gray-500 text-sm mt-4">
-                No pitch. Just the data. One PI firm per market.
-              </p>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
-                <a
-                  href="tel:+12134442229"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
-                >
-                  (213) 444-2229
-                </a>
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
-                >
-                  support@theanswerengine.ai
-                </a>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
-            </section>
+            </div>
+          </section>
 
           </div>
         </article>

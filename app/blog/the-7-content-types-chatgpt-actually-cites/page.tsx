@@ -298,10 +298,7 @@ export default function Page() {
               <p>AI platforms do not read your content the way a human does. They extract structured passages and evaluate whether those passages directly answer a question. If your content is not built around that extraction model, it will not be cited regardless of how well-written it is. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which content types your site is missing? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* -- TYPE 1: GUIDES -- */}
             <span className="ae-section-label" id="type-1-guides">Content Type 1 of 7</span>
@@ -353,10 +350,7 @@ export default function Page() {
 
             <p><strong>Standalone FAQ pages outperform FAQ sections appended to service pages.</strong> AI platforms treat dedicated FAQ URLs as more authoritative than embedded FAQ widgets that share a URL with promotional content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see which questions ChatGPT is answering in your category without citing you? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <Link href="/blindspot">Run Your AI Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* -- TYPE 3: REVIEWS -- */}
             <span className="ae-section-label" id="type-3-reviews">Content Type 3 of 7</span>
@@ -455,10 +449,7 @@ export default function Page() {
 
             <p>Note for service businesses: you do not need to list your competitors to publish effective local list content. Lists can cover complementary services (&quot;best structural engineers in Dallas for residential additions&quot; published by a custom home builder), adjacent categories (&quot;best title companies in Phoenix&quot; published by a real estate agent), or sub-specialties within your own field.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Are your competitors showing up in local AI answers while you are invisible?</p>
-              <Link href="/blindspot">Find Out With Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* -- TYPE 7: NEWS AND TRENDS -- */}
             <span className="ae-section-label" id="type-7-news">Content Type 7 of 7</span>
@@ -511,12 +502,13 @@ export default function Page() {
             <p>The seven content types are the vehicle. Structural clarity, expert attribution, and genuine depth are the fuel. Build both and AI citations follow.</p>
 
             {/* -- CTA BLOCK -- */}
-            <div className="ae-cta-block not-prose">
-              <h3>Find Out Which Content Types You Are Missing</h3>
-              <p>Our AI Blind Spot Report maps the exact queries your competitors are getting cited for, the content types driving those citations, and what you need to build to compete. It takes three minutes and costs nothing.</p>
-              <div className="flex flex-wrap gap-4">
-                <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
-                <Link href="/blog" className="ae-cta-secondary">Read More Strategy Articles</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Content That Ranks in Google AND Gets Cited in AI — The Dual-Engine Strategy</h3>
+              <p>Most content agencies optimize for one or the other. The Answer Engine&apos;s Origin Protocol writes content that satisfies both systems in the same pass — Google ranking and AI citation, one market. Free audit to start.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Content Citation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
             </div>
 

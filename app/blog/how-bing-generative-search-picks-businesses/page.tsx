@@ -278,10 +278,7 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             <p>The entity model within Bing&rsquo;s index is particularly important. Bing maintains an internal knowledge graph that maps businesses, locations, topics, and entities into structured relationships. When a user asks Copilot to recommend a plumber in Phoenix, Bing does not start from a keyword search. Bing&rsquo;s entity model identifies known plumbing businesses in Phoenix, scores them against reputability and verification signals, and passes the top candidates to the generative layer for synthesis into an answer. Businesses that exist in Bing&rsquo;s entity graph have a structural advantage that cannot be replicated by on-page SEO alone. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure whether Bing&rsquo;s entity model has your business in its index? We check that as part of every Blind Spot Report &mdash; free, no pitch. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 2: WHY BING MATTERS ── */}
             <span className="ae-section-label" id="why-bing-matters">The Multiplier Effect</span>
@@ -300,10 +297,7 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             <p>Bing also operates in a different competitive landscape than Google at the query level. Copilot&rsquo;s user base skews toward professional and enterprise users on Microsoft platforms. DuckDuckGo&rsquo;s user base skews toward privacy-conscious consumers. ChatGPT&rsquo;s user base is broad but concentrated among higher-income, higher-education demographics. Businesses in professional services, B2B, software, and premium consumer categories may find that Bing-powered platforms represent a disproportionate share of their highest-value audience, regardless of raw market share statistics. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly how your business appears across Copilot, DuckDuckGo, and ChatGPT search? We map that in the Blind Spot Report. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Cross-Platform Visibility Assessment &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 3: HOW THE ALGORITHM DECIDES ── */}
             <span className="ae-section-label" id="how-bing-algorithm-works">The Algorithm</span>
@@ -325,10 +319,7 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             </div>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our team audits your entity model confidence, reputability score, and freshness posture across all Bing-powered platforms. It starts with the free Blind Spot Report. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 4: BING PLACES ── */}
             <span className="ae-section-label" id="bing-places">Highest-Leverage Action</span>
@@ -349,10 +340,7 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We verify, optimize, and monitor Bing Places listings as part of our AEO service. If your listing is unclaimed or incomplete, that is the first gap we close. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to start your Bing Places optimization &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 5: INDEXING DIFFERENCES ── */}
             <span className="ae-section-label" id="indexing-differences">The Index Gap</span>
@@ -373,10 +361,7 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             </div>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We audit Bing index coverage and configure IndexNow as part of our AEO technical setup. Call us to discuss your specific platform. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Discuss Bing Technical Indexing &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 6: REPUTABILITY LAYER ── */}
             <span className="ae-section-label" id="reputability-layer">Off-Domain Signals</span>
@@ -394,10 +379,7 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             <p>Professional directories, trade association member listings, government licensing databases, and certification registries are high-authority third-party sources that Bing indexes and treats as reputability signals. A licensed contractor listed in a state licensing database, a law firm listed in the state bar&rsquo;s attorney directory, or a physician listed in the AMA&rsquo;s physician finder all carry reputability signals that Bing weights as evidence of legitimate, verifiable professional standing. These registrations are often prerequisites for business operation, but their reputability value for Bing AI recommendations is frequently overlooked.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We build reputability scaffolding across news coverage, social signals, and authoritative directory listings. Book a strategy session to see where your gaps are.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener noreferrer">Book a Free Strategy Session on Calendly &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 7: DECISION MATRIX ── */}
             <span className="ae-section-label" id="decision-matrix">Platform Comparison</span>
@@ -478,10 +460,7 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             <p>The most important practical implication of this comparison: the signals that separate Bing performance from Google performance are primarily off-domain reputability signals and social signal weighting. A business investing equally in both platforms should treat Bing as requiring its own off-domain authority-building strategy, not an extension of Google-optimized content. The on-site content and schema work transfers well. The entity verification and reputability work requires platform-specific execution.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We build dual-platform AEO strategies that address both Bing&rsquo;s reputability layer and Google&rsquo;s E-E-A-T framework in a single coordinated program.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Talk Dual-Platform AEO Strategy &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 8: 60-MINUTE AUDIT ── */}
             <span className="ae-section-label" id="sixty-minute-audit">Practical Audit</span>
@@ -505,10 +484,7 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             <p>Run your homepage and primary service page through Bing Webmaster Tools&rsquo; URL inspection tool. Check whether structured data is being detected. Separately, review your core service pages for definition-first structure: does each page lead with a clear definition of the service or topic? Research from Zhang et al. (2026) indicates that definition-first content earns 57% higher citation probability in AI retrieval systems. Flagging pages that bury their definitions in body paragraphs rather than leading with them is a content restructuring priority with documented impact.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer a professional audit rather than a DIY checklist? We conduct full Bing presence audits and deliver prioritized action plans. Email us to get started.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Professional Bing Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -575,39 +551,37 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
             <p>Bing operates a distinct retrieval mode called deep search for complex or research-oriented queries. In deep search mode, Copilot retrieves from a broader source set with additional weight given to comprehensive, well-structured content that directly addresses multi-part questions. Businesses whose content leads with clear definitions, uses H2 and H3 structure throughout, and covers topics with subsections under 300 words earn significantly higher citation probability in deep search mode. Definition-first content organization earns 57% higher citation probability in retrieval-based AI systems according to Zhang et al. (2026), making structured content the primary optimization target for Copilot&rsquo;s complex-query layer.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see exactly where your Bing, Copilot, and ChatGPT search visibility stands today? The Blind Spot Report maps it in full.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer a direct conversation with a strategist who can walk through your Bing-specific gaps? We are available by phone, same day.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Copilot, DuckDuckGo, and ChatGPT Are Recommending Businesses Right Now. Is Yours One of Them?</h2>
-            <p>All three platforms draw from Bing&rsquo;s index. A single gap in Bing verification, indexing, or reputability removes your business from all three recommendation pools simultaneously. Our free Blind Spot Report maps exactly where your Bing presence stands today and what your highest-priority optimization actions are.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                Book a Strategy Call
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. No obligation. Just a clear map of where Bing-powered AI sees you today &mdash; and what to do about it.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

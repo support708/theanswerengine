@@ -336,15 +336,7 @@ export default function Page() {
              Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
-          <div className="ae-cta-inline mb-6">
-            <p>
-              Not sure if your practice appears when someone asks ChatGPT for a therapist
-              near you?{' '}
-              <Link href="/blindspot">
-                Run a free AI Blind Spot Report and find out in minutes.
-              </Link>
-             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
         </section>
 
         {/* Section 2 */}
@@ -457,14 +449,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline mb-6">
-            <p>
-              Curious whether your practice has these structural gaps?{' '}
-              <Link href="/blindspot">
-                The free Blind Spot Report flags exactly which signals are missing.
-              </Link>
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
         </section>
 
         {/* Section 4: HIPAA */}
@@ -705,24 +690,15 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="ae-cta-block mb-8">
-            <div className="ae-cta-block-inner">
-              <p className="font-plus-jakarta font-semibold text-white mb-2">
-                Is your practice building these signals?
-              </p>
-              <p className="text-gray-400 text-sm mb-4">
-                The free Blind Spot Report from The Answer Engine shows which specific
-                trust signals your practice has and which are missing, including a
-                live test of what AI says when someone searches for therapists near you.
-              </p>
-              <Link
-                href="/blindspot"
-                className="ae-cta-primary"
-              >
-                Get Your Free Blind Spot Report
-              </Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-          </div>
         </section>
 
         {/* Section 7: Comparison Table */}
@@ -876,14 +852,7 @@ export default function Page() {
         </div>
 
         {/* Inline CTA before final section */}
-        <div className="ae-cta-inline mb-10">
-          <p>
-            Wondering how your practice compares to others in your area on AI visibility?{' '}
-            <Link href="/blindspot">
-              The free Blind Spot Report gives you a side-by-side picture.
-            </Link>
-          </p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         {/* 3-Tier CTA Block (MANDATORY) */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -1001,37 +970,30 @@ export default function Page() {
         </section>
 
         {/* Final CTA with pulse glow */}
-        <div className="ae-final-cta">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            Find Out If Your Practice Shows Up for Patients Asking AI
-          </h2>
-          <p className="text-gray-400 mb-6 max-w-xl mx-auto">
-            The free Blind Spot Report tests what ChatGPT and Perplexity say when someone
-            near you asks for a therapist. You will see exactly where your practice stands
-            and which signals are missing.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
-            <Link
-              href="/blindspot"
-              className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
-            >
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-            <a
-              href="tel:+12134442229"
-              className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors font-medium"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              (213) 444-2229
-            </a>
-          </div>
-          <p className="text-gray-600 text-sm">Free, no obligation. Results in under 5 minutes.</p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </>

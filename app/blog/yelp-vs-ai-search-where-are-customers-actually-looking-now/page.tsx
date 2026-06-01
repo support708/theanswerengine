@@ -345,10 +345,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 1 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Is your business showing up when customers ask AI for recommendations? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get your free AI visibility report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 2 */}
@@ -409,10 +406,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 2 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>How much of your marketing budget is going to a shrinking platform? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email us for a visibility channel audit</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 3 */}
@@ -477,10 +471,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 3 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>See how AI search platforms compare for local businesses.</p>
-              <Link href="/blog/chatgpt-vs-perplexity-vs-google-ai-local">Read our full platform comparison</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 4 - Comparison Table */}
@@ -561,10 +552,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 4 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Find out which channel actually drives customers to your business. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <Link href="/blindspot">Get your free cross-platform visibility report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 5 - Customer Behavior */}
@@ -629,10 +617,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 5 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Your future customers are asking AI for recommendations right now.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to discuss your AI visibility</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 6 - Where Yelp Still Matters */}
@@ -677,10 +662,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 6 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Understand how reviews on every platform shape AI recommendations. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <Link href="/blog/how-online-reviews-shape-ai-recommendations">Read our review impact analysis</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 7 - Where AI Wins */}
@@ -711,10 +693,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 7 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Are AI platforms recommending your competitors instead of you?</p>
-              <Link href="/blindspot">Find out in your free Blind Spot Report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 8 - Reviews Feed AI */}
@@ -741,10 +720,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 8 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Want to understand which review platforms have the biggest impact on AI visibility?</p>
-              <a href="mailto:support@theanswerengine.ai">Email us for a review ecosystem audit</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 9 - Visibility Gaps */}
@@ -771,10 +747,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 9 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Stop guessing where your customers are looking.</p>
-              <Link href="/blindspot">See your actual visibility across every AI platform (free)</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Section 10 - What Smart Businesses Do */}
@@ -835,10 +808,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 10 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>The businesses moving now will own their local AI search results.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to get started</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Cheat Sheet */}
@@ -908,18 +878,12 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 11 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Want this action plan customized for your business and market? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email us for a personalized AI visibility strategy</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* CTA 12 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Your competitors are already building AI visibility. Every day you wait, they get further ahead.</p>
-              <Link href="/blindspot">Check your AI visibility now (free report)</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Author Card */}
@@ -1043,50 +1007,45 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           {/* CTA 13 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Still have questions about Yelp vs AI search for your business?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a quick chat</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* CTA 14 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Your customers have already moved to AI search. Has your business?</p>
-              <Link href="/blindspot">Find out now with a free report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* CTA 15 */}
           <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Every day without AI search visibility is a day your competitors capture customers that should be yours.</p>
-              <a href="tel:+12134442229">Talk to us today: (213) 444-2229</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
           </div>
 
           {/* Final CTA */}
           <div className="not-prose">
-            <div className="ae-final-cta">
-              <div className="ae-final-cta-pulse"></div>
-              <h2 style={{ color: 'white', fontSize: '1.75rem', fontWeight: 700, marginBottom: '0.75rem', position: 'relative' }}>Your Customers Have Moved. Will You?</h2>
-              <p style={{ color: '#D1D5DB', marginBottom: '1.5rem', position: 'relative', maxWidth: '40rem' }}>
-                45% of consumers now use AI search to find local businesses. Yelp is no longer the default discovery channel it once was. Find out exactly where your business shows up, where it does not, and what your competitors are doing differently. Get your free blind spot report. No pitch, just the data.
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
               </p>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', position: 'relative' }}>
-                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#F27D24', color: 'white', fontWeight: 700, padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', fontSize: '1.125rem' }}>
-                  Get Your Free Blind Spot Report
-                </Link>
-              </div>
-              <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', marginTop: '1.5rem', position: 'relative' }}>
-                <a href="tel:+12134442229" style={{ color: '#D1D5DB', textDecoration: 'none', fontSize: '0.875rem' }}>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" style={{ color: '#D1D5DB', textDecoration: 'none', fontSize: '0.875rem' }}>
-                  support@theanswerengine.ai
-                </a>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
           </div>
 
         </article>

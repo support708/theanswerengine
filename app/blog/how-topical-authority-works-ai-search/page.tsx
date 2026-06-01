@@ -295,10 +295,7 @@ export default function Page() {
             <p>The transition happening right now is that search behavior has shifted from &quot;show me pages about X&quot; to &quot;tell me who the authority on X is.&quot; AI platforms answer the second question by consulting the authority model they have built during training. If your business does not appear in that model as a recognized authority, you are not in the running for a citation, regardless of your domain authority score or page-one rankings. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out whether AI platforms recognize your business as a topical authority in your category today. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 2 */}
             <span className="ae-section-label" id="how-ai-builds-authority-maps">Mechanism</span>
@@ -317,10 +314,7 @@ export default function Page() {
             <p>The practical implication: authority maps are built on patterns observed across many pieces of content, not on the strength of individual pages. This is why a content cluster of 24 articles earns authority while a single highly-optimized article does not. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering which AI platforms your competitors are appearing on right now? We track citation surfaces across all four major platforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 3 */}
             <span className="ae-section-label" id="why-isolated-articles-fail">The Single-Article Trap</span>
@@ -340,10 +334,7 @@ export default function Page() {
             <p>The <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">surface test is simple</Link>: ask ChatGPT to recommend a business in your category in your geography. If you have fewer than 20 topically connected articles published, the probability of appearing is near zero. This is not an algorithm secret. It is a data density threshold. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your current content has enough density to register as topical authority? Get a specific count and gap analysis. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Check Your Content Density &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 4 */}
             <span className="ae-section-label" id="hub-and-spoke">Architecture</span>
@@ -363,10 +354,7 @@ export default function Page() {
             <p>Internal linking within the cluster matters as much as the articles themselves. Each spoke should link to the hub and to 2-3 other spokes. The hub should link to every spoke. This creates a topical mesh that AI systems can traverse, building a richer authority signal than any individual article provides alone. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see what a hub-and-spoke architecture built for your specific business would look like before committing to a program? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Free Content Blueprint &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 5 */}
             <span className="ae-section-label" id="geographic-authority">Geographic Depth</span>
@@ -385,10 +373,7 @@ export default function Page() {
             <p>This is why local businesses have a structural advantage in AI search that they do not have in traditional SEO. A local plumber with 192 hyperlocal articles about plumbing in the Inland Empire will be cited by AI ahead of a national brand with generic plumbing content and 1,000 backlinks. The AI authority model rewards demonstrated local expertise, and national brands cannot fake local expertise at scale. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your current content building geographic authority or generic authority? The distinction determines whether AI cites you for your actual market.</p>
-              <Link href="/blindspot">Audit Your Geographic Authority &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 6 */}
             <span className="ae-section-label" id="compounding-effect">Timeline</span>
@@ -443,10 +428,7 @@ export default function Page() {
             </div>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to start the clock on your 90-day first-citation window? The program starts with a blueprint, not a contract.</p>
-              <Link href="/blindspot">Get Your Authority Blueprint &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 7: Comparison table */}
             <span className="ae-section-label" id="comparison">Head-to-Head</span>
@@ -514,10 +496,7 @@ export default function Page() {
             <p>For a deeper look at how the hub-and-spoke architecture applies to specific industries, read <Link href="/blog/aeo-vs-seo">AEO vs. SEO: What is the Difference</Link> and <Link href="/blog/answer-engine-optimization-aeo-guide">The Complete Guide to Answer Engine Optimization</Link>. Both articles provide implementation context that directly connects to the authority architecture described here.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want the full comparison applied to your specific industry and geography? We build custom authority roadmaps for every client.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Build Your Roadmap &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Cheat sheet */}
             <div className="ae-cheat-sheet not-prose">
@@ -573,23 +552,13 @@ export default function Page() {
             </div>
 
             {/* Inline CTA block */}
-            <div className="ae-cta-block not-prose">
-              <h3>Start Building Your Authority Cluster Today</h3>
-              <p>Topical authority is not a mystery. It is a content volume and specificity problem. We build the cluster, you earn the citations. Most clients see first citations within 90 days.</p>
-              <Link href="/blindspot" className="ae-cta-primary">Claim Your Free Authority Report &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  support@theanswerengine.ai
-                </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
             </div>
 
@@ -616,34 +585,35 @@ export default function Page() {
             <p>Yes, and hyperlocal specificity is the mechanism. Topical authority rewards depth over scale. A local plumber publishing 16 articles per month about plumbing in Redlands, CA, with specific references to local soil conditions, water hardness, and housing stock vintage, can outrank a national brand publishing generic plumbing content. National brands rarely invest in that level of local specificity, which is why local businesses have a structural advantage in AI citation.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Questions about building topical authority in your specific market? Get a direct answer from someone who has done it at scale.</p>
-              <Link href="/blindspot">Request a Free Strategy Call &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
           {/* Final CTA */}
-          <div className="ae-final-cta">
-            <div className="ae-final-cta-pulse"></div>
-            <h2>Is AI Citing Your Competitors Instead of You?</h2>
-            <p>Topical authority is what separates businesses that AI recommends from businesses that AI ignores. Our free blind spot report shows you your current citation status, which competitors are building authority in your geography, and exactly what cluster architecture would close the gap.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-                (213) 444-2229
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
         </article>
       </main>

@@ -315,10 +315,7 @@ export default function Page() {
                 The businesses that dominate local AI recommendations have one thing in common: they have built a dense, consistent, multi-platform entity footprint that AI systems can confidently read and verify. Wikipedia is not part of that footprint for any of them.
               </p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Wondering how AI actually sees your business right now? Find the exact signals AI platforms use to evaluate you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
           </section>
 
           {/* Section 2: Notability Requirements */}
@@ -431,11 +428,7 @@ export default function Page() {
                 Wikipedia provides a convenient, AI-readable bundle of all three signals for major brands. Local businesses need to build each of those signals through channels that are actually accessible to them. The destination is the same; the path is different.
                Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p className="font-semibold mb-1">Not sure which entity signals your business is missing?</p>
-              <p className="text-sm mb-3">Your Blind Spot Report reveals exactly where the gaps are and how AI currently sees you. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get My Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
           </section>
 
           {/* Section 4: Wikidata Connection */}
@@ -650,14 +643,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="ae-cta-inline not-prose mt-6">
-              <p className="font-semibold mb-1">Want to know which of these signals you&apos;re missing? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <p className="text-sm mb-3">Our Blind Spot Report audits your complete entity footprint against what AI platforms expect to see.</p>
-              <div className="flex flex-wrap gap-4">
-                <Link href="/blindspot">Get My Free Blind Spot Report &rarr;</Link>
-                <a href="tel:+12134442229">Call (213) 444-2229</a>
-              </div>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
           </section>
 
           {/* Section 7: Entity Score */}
@@ -820,17 +806,30 @@ export default function Page() {
 
           {/* Mid-article Final CTA */}
           <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <div className="ae-final-cta not-prose">
-              <h2>Skip Wikipedia. Find the Signals That Actually Work.</h2>
-              <p>Your Blind Spot Report shows the actual gaps between you and the businesses AI keeps recommending instead.</p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/blindspot" className="ae-cta-primary">
-                  Get Your Free Blind Spot Report
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                A 5-Star Rating Means Nothing if AI Search Has Never Heard of You
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                AI engines build recommendations from editorial sources, not review counts. The Answer Engine builds the authority signals that get you cited — free audit shows your current AI reputation score. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Reputation Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
           </section>
 
           {/* Section 9: Decision Matrix */}
@@ -1112,18 +1111,30 @@ export default function Page() {
 
           {/* Final CTA Section */}
           <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <div className="ae-final-cta not-prose">
-              <div className="ae-final-cta-pulse" />
-              <h2 className="font-headline text-3xl font-bold text-white mb-4 relative">Stop Chasing Wikipedia. Start Building What AI Actually Looks For.</h2>
-              <p className="text-gray-400 mb-8 relative">The businesses that win in AI search are not the ones who got lucky with a Wikipedia page. They are the ones who built a dense, consistent, multi-platform entity footprint and your Blind Spot Report shows exactly what yours is missing right now.</p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/blindspot" className="ae-cta-primary">
-                  Get Your Free Blind Spot Report
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                A 5-Star Rating Means Nothing if AI Search Has Never Heard of You
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                AI engines build recommendations from editorial sources, not review counts. The Answer Engine builds the authority signals that get you cited — free audit shows your current AI reputation score. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Reputation Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
           </section>
 
           {/* Author Card */}

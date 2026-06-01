@@ -297,10 +297,7 @@ export default function BlogPost() {
           <p>Now the question has shifted entirely. It is no longer &quot;do bought links help with Google?&quot; (the answer is increasingly no). The real question is whether they do anything at all for the AI platforms that are rapidly replacing traditional search. And the data on that is clear.</p>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering if your backlink investment is actually helping, or silently hurting? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* SECTION 2: HOW AI EVALUATES TRUST */}
           <span className="ae-section-label" id="how-ai-evaluates-trust">The New Rules</span>
@@ -320,10 +317,7 @@ export default function BlogPost() {
           <p>Perplexity, which has become one of the fastest-growing AI search tools, is particularly interesting. It prioritizes content freshness and real-time indexing. Reddit accounts for 46.7% of Perplexity&apos;s top citations. Not because Reddit has strong backlinks, but because Reddit has recent, authentic, experience-based discussions that AI considers more trustworthy than polished marketing pages. This is a pattern that <Link href="/blog/reddit-mentions-boost-ai-search-visibility">we have explored in depth</Link>.</p>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Find out what AI platforms actually see when they evaluate your business. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* SECTION 3: BACKLINKS VS AI SIGNALS */}
           <span className="ae-section-label" id="backlinks-vs-ai-signals">The Comparison</span>
@@ -388,10 +382,7 @@ export default function BlogPost() {
           <p>This represents a fundamental shift in how visibility is earned online. For twenty years, money could buy rankings through links. In the AI era, money cannot buy citations. Only verifiable quality earns them. Understanding this shift is central to everything we cover in our exploration of <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era">whether paying for SEO is still worth it</Link>.</p>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Curious how your trust signals stack up against competitors in AI search? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* SECTION 4: GOOGLE CRACKDOWN */}
           <span className="ae-section-label" id="google-crackdown">The Enforcement</span>
@@ -438,10 +429,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Concerned about whether past link building is hurting your visibility?</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 for an Honest Assessment &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* SECTION 5: WHAT AI CITES */}
           <span className="ae-section-label" id="what-ai-cites">The Evidence</span>
@@ -485,10 +473,7 @@ export default function BlogPost() {
           <p>The data tells a story that should concern anyone still investing in link buying: AI platforms do not care how many websites point to yours. They care whether your content answers the question clearly, whether your business data is consistent across the web, and whether real people are discussing your services authentically. These are things that cannot be purchased, and they are exactly what the old SEO playbook taught businesses to ignore.</p>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want to know which AI platforms currently cite your competitors but not you? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Competitive Analysis &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* SECTION 6: PROS AND CONS */}
           <span className="ae-section-label" id="pros-cons">The Honest Assessment</span>
@@ -523,10 +508,7 @@ export default function BlogPost() {
           <p>The distinction comes down to intent and authenticity. Activities that build genuine recognition, create real business relationships, and generate authentic mentions still contribute value. Activities designed primarily to manipulate ranking algorithms provide diminishing or negative returns. And critically, none of the purchasing tactics directly influence AI citation decisions. The money would be better spent on the signals AI platforms actually evaluate. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure which of your current strategies are helping vs. hurting? We can tell you.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* SECTION 7: TRUST SIGNAL COMPARISON */}
           <span className="ae-section-label" id="trust-signal-comparison">The Decision Matrix</span>
@@ -595,10 +577,7 @@ export default function BlogPost() {
           <p>This connects directly to the broader question of <Link href="/blog/can-you-game-ai-search-like-people-used-to-game-google">whether you can game AI search the way people used to game Google</Link>. The answer across every tactic, including link buying, is consistent: manipulation fails, quality wins. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to redirect your link building budget toward strategies that actually work?</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 to Discuss a Smarter Strategy &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* SECTION 8: WHAT TO DO INSTEAD */}
           <span className="ae-section-label" id="what-to-do-instead">The Alternative</span>
@@ -628,22 +607,13 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Every month you spend on links instead of AI signals is a month your competitors pull ahead. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-            <Link href="/blindspot">Start Your Free AI Audit Today &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure where to start? We build the roadmap for you.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Prefer email? Send us your website URL and we will send back what AI sees. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* DIVIDER */}
           <hr />
@@ -719,35 +689,27 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Have a question about backlinks and AI that we did not cover? We answer every inquiry.</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to see how AI platforms currently evaluate your business? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* CTA BLOCK */}
-          <div className="ae-cta-block not-prose">
-            <h3>Links Cannot Buy What AI Gives for Free</h3>
-            <p>AI platforms cite the businesses they trust. Trust is not for sale. It is built through structured data, consistent information, genuine expertise, and real customer experiences. Your free Blind Spot Report shows you exactly where the gaps are and what it takes to close them.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Schema Markup, Site Speed, GptBot — The Technical Signals That Determine AI Citations</h3>
+              <p>AI engines evaluate your technical signals: schema markup, crawl access, page authority, and entity consistency. A free audit shows exactly where your technical setup is costing you citations.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Technical AI Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
           {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Prefer to talk it through with a real person? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* CTA 14 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Send us your website and we will tell you what AI sees.</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">
@@ -764,27 +726,33 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 15 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Learn how we help local businesses dominate AI search without buying a single link.</p>
-            <Link href="/blindspot">See Our Process &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h3>Stop Buying Links. Start Building Trust.</h3>
-            <p>The businesses getting cited by ChatGPT, Claude, and Perplexity did not get there through purchased backlinks. They got there by being verifiably worth recommending. Your free Blind Spot Report shows exactly what AI platforms see about your business today, and what it would take to become the one they cite tomorrow. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Technical Optimization for AI Search Is Different From Traditional SEO
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                The signals that get you cited in AI engines are specific and measurable. The Answer Engine audits all 47 and fixes the ones holding you back. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Technical Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
           {/* RELATED ARTICLES */}
           <span className="ae-section-label">Keep Reading</span>

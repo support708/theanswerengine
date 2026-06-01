@@ -282,10 +282,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             <p>For context on how this connects to the broader replacement of traditional search interfaces, read our analysis of <Link href="/blog/google-ai-overviews-replacing-search">whether Google AI Overviews are replacing search as we know it</Link>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out whether your brand is currently being cited in Google AI Overviews, and which queries are triggering them for your category. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 2: CTR IMPACT ── */}
             <span className="ae-section-label" id="ctr-impact">The Stakes</span>
@@ -302,10 +299,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             <p>The strategic implication is direct: businesses should be pursuing AIO citation as a separate, parallel goal alongside traditional organic ranking. Ranking first without earning an AIO citation in an AIO-dominated SERP is a losing position. Earning an AIO citation even from a position outside the top three can partially compensate for CTR loss on other keywords. The two goals use related but distinct optimization tactics. This playbook covers both. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See the exact queries where AI Overviews are intercepting your traffic and how many citations your competitors are earning.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AIO Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 3: WHO GETS CITED ── */}
             <span className="ae-section-label" id="who-gets-cited">Citation Patterns</span>
@@ -324,10 +318,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             <p>For a foundational understanding of how AI platforms broadly decide which sources to cite, read our analysis of <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our Blind Spot Report shows you exactly which AIO citation signals your content is missing and how to fix them.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 4: SNIPPET-ABLE CONTENT ── */}
             <span className="ae-section-label" id="snippet-able-content">Step 1</span>
@@ -350,10 +341,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             <p>Most brand content pages were written for human readers moving linearly through an article, not for AI extraction systems pulling isolated paragraphs. This means most existing content requires restructuring rather than replacement. A practical audit looks for pages ranking in positions 5 through 20 for informational queries and evaluates whether the opening paragraph of each section directly answers the section question. Pages where sections open with throat-clearing, context-setting, or transitions (rather than direct answers) are the highest-priority candidates for restructuring. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We audit your existing content for snippet-ability as part of the Blind Spot Report. No pitch, just the data.</p>
-              <Link href="/blindspot">Start With a Free Content Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 5: SCHEMA MARKUP ── */}
             <span className="ae-section-label" id="schema-markup">Step 2</span>
@@ -378,10 +366,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             <p>For a deeper technical guide to schema markup and AI citation, see our dedicated breakdown on <Link href="/blog/how-to-get-cited-google-gemini">how to get cited in Google Gemini</Link>, which covers the full schema stack in detail.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which schema types your site is missing or implementing incorrectly? We cover schema in the Blind Spot Report. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Schema Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 6: E-E-A-T ── */}
             <span className="ae-section-label" id="eeat">Step 3</span>
@@ -404,10 +389,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             <p>Citing primary sources within your content is both an E-E-A-T signal and a practical content quality marker. When your article references BrightEdge Q1 2026 data rather than saying &ldquo;most searches now trigger AI Overviews,&rdquo; you are making a verifiable claim that Google can cross-reference. Content with specific, sourced statistics consistently outperforms equivalent content with vague, unsourced claims in AIO citation rates. Link to the primary source when available. If the primary source is paywalled, cite the publication and date. The specificity itself is the signal.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Struggling to build E-E-A-T signals on a new or thin-content domain? We map the fastest path to citation authority for your specific industry. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <Link href="/blindspot">Get Your Free E-E-A-T Gap Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 7: QUESTION HEADINGS ── */}
             <span className="ae-section-label" id="question-headings">Step 4</span>
@@ -426,10 +408,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             </div>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see which of your pages are closest to earning AIO citations with targeted heading restructuring? The report shows priority pages.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 8: INDEPENDENT CITATIONS ── */}
             <span className="ae-section-label" id="independent-citations">Step 5</span>
@@ -519,10 +498,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Which content types on your site are closest to earning AIO citations? We identify priority pages in the Blind Spot Report. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Discuss Your Content Strategy &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── BAR CHART ── */}
             <div className="ae-bar-group not-prose">
@@ -572,10 +548,7 @@ export default function GoogleAIOverviewsFeaturedPage() {
             <p>For a complete framework on tracking AI search visibility across platforms including Perplexity, ChatGPT, and Google, read our guide on <Link href="/blog/how-to-track-ai-search-visibility">how to track AI search visibility</Link>. And for businesses starting to assess overall AI readiness, <Link href="/blog/is-your-business-ready-for-google-ai-mode">check whether your business is ready for Google AI Mode</Link> with our preparedness framework.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We run AIO visibility tracking as part of our ongoing client work. Ask us how we set up citation monitoring for your category. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Start With Your Free AIO Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── 3-TIER CTA BLOCK ── */}
           </div>
@@ -643,36 +616,38 @@ export default function GoogleAIOverviewsFeaturedPage() {
             <p>Experience, Expertise, Authoritativeness, and Trustworthiness are the core signals Google uses to evaluate whether a source is appropriate to cite in an AI Overview. Practical signals include: named author bylines with credentials, publication dates kept current, external links to primary sources, organizational schema markup, and third-party citations of the author or brand in independent publications. Content from anonymous or undated sources is significantly less likely to earn AIO inclusion regardless of topical relevance or organic ranking position.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see exactly how your site scores on AIO citation readiness? The Blind Spot Report is free and takes two minutes to request.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your specific situation with someone who does this every day? We are one call away.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Brand Being Cited in Google AI Overviews?</h2>
-            <p>Find out exactly how your content performs against AIO citation criteria: which pages are closest to earning citations, which schema signals are missing, and which competitors are getting cited in your category right now. Our free Blind Spot Report gives you the data.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just data on where your content stands for AI citation today.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

@@ -362,10 +362,7 @@ export default function Page() {
             <p>When someone asks Claude to recommend a plumber in Austin, a financial advisor in LA, or a SaaS platform for project management, Claude is not scrolling through a ranked list of web pages. It is reasoning about the business itself: who it is, what it has done, and whether the evidence supports a recommendation. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out right now whether Claude is recommending your business or your competitors.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <p>This is a paradigm shift. Traditional SEO rewarded keyword density, backlink volume, and technical page optimization. Claude does not care about any of that. It cares about something harder to fake: genuine authority. The model reads, interprets, and cross-references information the way an experienced analyst would. It looks for patterns of credibility across multiple sources, not just signals on a single page. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
@@ -425,10 +422,7 @@ export default function Page() {
             </table>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly how Claude sees your business compared to competitors?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── THE FIVE PILLARS ── */}
             <span className="ae-section-label">The Framework</span>
@@ -507,10 +501,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your entity data is consistent across all platforms? We audit every source.</p>
-              <Link href="/blindspot">Run Your Free Authority Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── DEEP DIVE: Entity Consistency ── */}
             <span className="ae-section-label">Deep Dive</span>
@@ -538,10 +529,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>We check every listing, directory, and platform for entity conflicts. Takes 48 hours. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">Email Us to Start Your Entity Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── Third-Party Validation ── */}
             <h2>Third-Party Validation: Why Self-Promotion Falls Flat</h2>
@@ -574,10 +562,7 @@ export default function Page() {
             <p>The structure of your content matters as much as the substance. Claude processes information more reliably when it follows a logical flow: problem identification, cause analysis, solution framework, and practical considerations. This is the kind of structured reasoning that <Link href="/blog/does-schema-markup-help-ai-search">schema markup can reinforce for AI search</Link>, giving Claude clearer signals about your content&apos;s purpose. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CTA 5 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover which third-party sources mention your competitors but not you.</p>
-              <Link href="/blindspot">Get Your Competitive Gap Analysis &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── DECISION MATRIX ── */}
             <span className="ae-section-label">Strategy</span>
@@ -630,10 +615,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly which queries trigger your competitors in Claude results.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Discuss Your Strategy &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── COLD START PROBLEM ── */}
             <span className="ae-section-label">The Challenge</span>
@@ -666,10 +648,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 7 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>New business? We can accelerate your Claude authority timeline significantly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <Link href="/blindspot">Start With a Free Visibility Assessment &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── WHAT CLAUDE PENALIZES ── */}
             <span className="ae-section-label">Pitfalls</span>
@@ -709,10 +688,7 @@ export default function Page() {
             <p>Stale, abandoned content also works against you. A blog that was last updated in 2023 tells Claude that the business may not be actively operating at the same level. In a model that weights freshness at 65% for top results, stagnant content is a competitive disadvantage.</p>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure what Claude is penalizing about your brand? We will show you. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">Email Us for a Penalty Assessment &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── ENTERPRISE FACTOR ── */}
             <span className="ae-section-label">Enterprise Impact</span>
@@ -760,10 +736,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 9 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>B2B company? Claude visibility is your highest-leverage growth channel. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <Link href="/blindspot">Get Your Enterprise Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CHEAT SHEET: B2B vs B2C ── */}
             <h3>B2B vs B2C: How Claude Weighs Signals Differently</h3>
@@ -792,10 +765,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 10 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which signal strategy fits your business model? Let us map it out.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Strategy Session &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── WHERE BUSINESSES STAND ── */}
             <span className="ae-section-label">Reality Check</span>
@@ -825,16 +795,10 @@ export default function Page() {
             </div>
 
             {/* ── CTA 11 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>The window to build Claude authority before competitors catch on is still open.</p>
-              <Link href="/blindspot">Claim Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CTA 12 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions about how Claude evaluates your specific industry? Reach out. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── FAQ SECTION ── */}
             <span className="ae-section-label">FAQ</span>
@@ -945,40 +909,47 @@ export default function Page() {
             </div>
 
             {/* ── CTA 13 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still have questions? Our team specializes in Claude authority optimization.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CTA BLOCK ── */}
-            <div className="ae-cta-block not-prose">
-              <h3>Is Claude Recommending Your Business?</h3>
-              <p>Most businesses have no idea how they appear to AI platforms. Our free Blindspot Report reveals exactly how Claude, ChatGPT, and Perplexity see your brand, what they recommend instead, and where the gaps are. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <Link href="/blindspot">Get Your Free Blindspot Report &rarr;</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
             {/* ── CTA 14 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer email? Send us your website URL and we will start the analysis.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── FINAL CTA ── */}
-            <div className="ae-final-cta not-prose">
-              <h3>Your Competitors Are Already Optimizing for Claude</h3>
-              <p>Every day you wait, another business in your industry builds the authority signals Claude needs to recommend them over you. The window for early-mover advantage is closing. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report Now &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
 
             {/* ── AUTHOR CARD ── */}
             <div className="ae-author-card not-prose">

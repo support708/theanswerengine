@@ -277,10 +277,7 @@ export default function LocalSEOvsAISearch() {
             <p>The businesses that misunderstand this shift are the ones saying "we are still doing fine with local SEO." Sure. For now. But their market share is eroding to competitors who show up in AI recommendations. Their Google Ads costs are rising while conversion rates stagnate. Their website traffic declines even as they rank higher. The problem is not with local SEO being broken. The problem is with relying exclusively on a channel that is shrinking.</p>
 
             {/* CTA Inline 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover if AI platforms are already recommending your competitors instead of you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 2: What Local SEO Still Wins At */}
             <p className="ae-section-label not-prose" id="local-seo-wins">THE DEFENSIVE FORTRESS</p>
@@ -334,10 +331,7 @@ export default function LocalSEOvsAISearch() {
             <p>The mistake most businesses make is thinking local SEO is becoming irrelevant. It is not. It is becoming a baseline expectation. Do it well enough to stay visible. Then invest your growth capital elsewhere.</p>
 
             {/* CTA Inline 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know if your local SEO foundation is strong enough to support AI search growth? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Request an Audit</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 3: Where AI Search Dominates */}
             <p className="ae-section-label not-prose" id="ai-dominates">THE GROWTH FRONTIER</p>
@@ -481,10 +475,7 @@ export default function LocalSEOvsAISearch() {
             </div>
 
             {/* CTA Inline 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how much you are currently paying per customer and where you could optimize. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <Link href="/blindspot">Get Your Free Report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 5: Timeline */}
             <p className="ae-section-label not-prose" id="timeline">THE TRANSITION</p>
@@ -566,10 +557,7 @@ export default function LocalSEOvsAISearch() {
             </div>
 
             {/* CTA Inline 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want help designing a hybrid strategy optimized for your specific business?</p>
-              <Link href="/blindspot">Schedule a Strategy Call</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 7: Red Flags */}
             <p className="ae-section-label not-prose" id="common-mistakes">MISTAKES TO AVOID <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
@@ -682,11 +670,30 @@ export default function LocalSEOvsAISearch() {
             </div>
 
             {/* Final CTA with pulse glow */}
-            <div className="ae-final-cta not-prose">
-              <h2>See Where AI Search Is Sending Your Customers</h2>
-              <p>Get a free, personalized report showing exactly how AI platforms talk about your business and your competitors. Know exactly where to invest.</p>
-              <Link href="/blindspot" className="ae-cta-primary">Start Your Free Analysis</Link>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
+          </section>
 
             {/* 3-Tier CTA Block */}
             <div className="not-prose" style={{ marginTop: '48px', marginBottom: '48px' }}>

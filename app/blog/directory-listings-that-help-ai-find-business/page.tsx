@@ -349,10 +349,7 @@ export default function Page() {
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not sure which directories are helping or hurting your AI visibility? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: How AI Platforms Use Directory Data */}
@@ -397,10 +394,7 @@ export default function Page() {
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to see exactly what AI platforms say about you right now? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: What Each AI Platform Cites */}
@@ -500,10 +494,7 @@ export default function Page() {
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Wondering if ChatGPT is citing your competitors instead of you? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: Directories That Move the Needle */}
@@ -589,10 +580,7 @@ export default function Page() {
 
             {/* CTA Inline 4 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Have questions about which directories matter for your industry? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-                <a href="tel:+12134442229">Call us: (213) 444-2229 →</a>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             <h3>Tier 2: High-Impact Supporting Listings</h3>
@@ -659,10 +647,7 @@ export default function Page() {
 
             {/* CTA Inline 5 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not sure which industry directories AI actually pulls from for your business? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: 86% Brand-Managed */}
@@ -733,10 +718,7 @@ export default function Page() {
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to know exactly which brand-managed sources AI is pulling from for your business? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: NAP Consistency */}
@@ -796,10 +778,7 @@ export default function Page() {
 
             {/* CTA Inline 7 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>NAP issues hiding in your listings? We will find them. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Callout: 11% Overlap */}
@@ -858,10 +837,7 @@ export default function Page() {
 
             {/* CTA Inline 8 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Skip the manual audit. We check all of this for you, free.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: Listing Optimization Checklist */}
@@ -890,10 +866,7 @@ export default function Page() {
 
             {/* CTA Inline 9 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want a personalized checklist for your business? Talk to our team.</p>
-                <a href="mailto:support@theanswerengine.ai">Email us: support@theanswerengine.ai →</a>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: What to Skip */}
@@ -937,10 +910,7 @@ export default function Page() {
 
             {/* CTA Inline 10 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not sure if a directory is helping or hurting? We will tell you.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: DIY vs Professional */}
@@ -1011,10 +981,7 @@ export default function Page() {
 
             {/* CTA Inline 11 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Ready for the full diagnostic? It is free.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: Building a Strategy */}
@@ -1071,10 +1038,7 @@ export default function Page() {
 
             {/* CTA Inline 12 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to accelerate the compounding effect? Start with a baseline audit.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
             {/* Section: The Bottom Line */}
@@ -1110,10 +1074,7 @@ export default function Page() {
 
             {/* CTA Inline 13 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Need help prioritizing? Call us directly.</p>
-                <a href="tel:+12134442229">Call (213) 444-2229 →</a>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
             </div>
 
           </article>
@@ -1136,19 +1097,13 @@ export default function Page() {
 
           {/* Full CTA Block */}
           <div className="not-prose">
-            <div className="ae-cta-block">
-              <h2>Are Your Listings Helping or Hurting Your AI Visibility?</h2>
-              <p>
-                Our free Blind Spot Report audits your business across all major AI
-                platforms, checks your directory presence, maps your competitors, and
-                delivers a prioritized action plan. No pitch, just the data.
-              </p>
-              <div style={{display:'flex',flexDirection:'column',alignItems:'center',gap:'16px',marginTop:'24px'}}>
-                <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-                <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'8px'}}>
-                  <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.7)',fontSize:'0.9rem'}}>📞 (213) 444-2229</a>
-                  <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.7)',fontSize:'0.9rem'}}>✉️ support@theanswerengine.ai</a>
-                </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
               </div>
             </div>
           </div>
@@ -1198,16 +1153,30 @@ export default function Page() {
 
           {/* Final CTA */}
           <div className="not-prose">
-            <div className="ae-final-cta">
-              <div className="ae-final-cta-pulse"></div>
-              <h2>Stop Guessing. Start Getting Recommended.</h2>
-              <p>Your directory listings are either working for you or against you. Our Blind Spot Report checks every major AI platform, audits your directory presence, maps your competitors, and delivers a prioritized action plan. No pitch, just the data.</p>
-              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-              <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-                <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)',fontSize:'0.9rem'}}>📞 (213) 444-2229</a>
-                <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)',fontSize:'0.9rem'}}>✉️ support@theanswerengine.ai</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
           </div>
 
         </div>

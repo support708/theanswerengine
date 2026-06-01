@@ -285,10 +285,7 @@ export default function WebsiteSpeedAISearch() {
             <p>This distinction matters because it changes where you should focus your optimization effort. Many businesses spend thousands on speed optimization when they should be spending time on expertise demonstration and information architecture. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out what AI actually signals you have—and what is missing.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── THE MYTH VS THE TRUTH ── */}
             <span className="ae-section-label">Reality Check</span>
@@ -340,33 +337,11 @@ export default function WebsiteSpeedAISearch() {
             </div>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Before you optimize speed, know which signals AI actually evaluates for your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── WHY AI CRAWLERS ARE PATIENT ── */}
             <span className="ae-section-label">Technical Reality</span>
             <h2>Why AI Crawlers Are Patient (Unlike Google Bots)</h2>
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Stop Losing Customers to AI-Cited Competitors</h3>
-              <p>
-                Every day AI platforms answer questions in your niche and cite your competitors instead
-                of you. The Answer Engine builds the citation authority stack that puts your business
-                inside the answer — permanently. Book a free 30-minute call to see exactly what it takes.
-              </p>
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
-                Book Free 30-Min Strategy Call →
-              </a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="tel:+12134442229" className="ae-cta-secondary">
-                  Call (213) 444-2229
-                </a>
-                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">
-                  Run Free AERO Scan
-                </a>
-              </div>
-            </div>
 
             <p>Google crawlers operate on a tight budget. They have millions of websites to crawl, and they prioritize efficiency. A site that takes 5 seconds to load is wasting crawl budget. That is why Google penalizes slow sites.</p>
 
@@ -392,10 +367,7 @@ export default function WebsiteSpeedAISearch() {
             <p>Most businesses have normal slow sites. A few percent have genuinely broken crawlability. Speed optimization helps the first group slightly and does not help either group with AI citations specifically. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your site even crawlable by AI? Most businesses have no idea.</p>
-              <Link href="/blindspot">Check Your AI Crawlability Score &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── WHAT AI ACTUALLY EVALUATES ── */}
             <span className="ae-section-label">Real Signals</span>
@@ -456,33 +428,11 @@ export default function WebsiteSpeedAISearch() {
             </div>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Know your actual AI visibility score across all the signals that matter. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link href="/blindspot">Get Your Complete AI Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── SPEED VS. CONTENT QUALITY ── */}
             <span className="ae-section-label">Strategy</span>
             <h2>Speed vs. Content: Which Should You Prioritize?</h2>
-            <div className="ae-cta-block not-prose my-16">
-              <h3>One Business Per Market — Is Yours Still Available?</h3>
-              <p>
-                The Answer Engine works with one client per territory. We install permanent citation
-                authority across ChatGPT, Perplexity, Google AI, and Claude. Once your market is
-                claimed, it is closed to competitors. Check your territory now.
-              </p>
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
-                Check Territory Availability →
-              </a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">
-                  Free AI Visibility Scan
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">
-                  support@theanswerengine.ai
-                </a>
-              </div>
-            </div>
 
             <p>If you have a limited optimization budget, where should it go? The answer depends on where you stand right now.</p>
 
@@ -527,10 +477,7 @@ export default function WebsiteSpeedAISearch() {
             <p>But if forced to choose, content wins for AI visibility.</p>
 
             {/* ── CTA 5 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Get a clear assessment of where your optimization budget will have the highest impact. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <Link href="/blindspot">Get Your Custom Optimization Roadmap &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── WHEN SPEED ACTUALLY MATTERS ── */}
             <span className="ae-section-label">Important Exception</span>
@@ -577,10 +524,7 @@ export default function WebsiteSpeedAISearch() {
             </div>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Make sure you are optimizing the right things for your business goals.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Strategy Session &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── REAL-WORLD EXAMPLES ── */}
             <span className="ae-section-label">Proof</span>
@@ -608,33 +552,11 @@ export default function WebsiteSpeedAISearch() {
             <p>These examples are not exceptions. They are the rule. AI prioritizes authority, accuracy, and expertise. Speed is incidental.</p>
 
             {/* ── CTA 7 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>See which authority signals your business has and which ones are missing. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Get Your AI Authority Assessment &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── WHAT YOU SHOULD DO INSTEAD ── */}
             <span className="ae-section-label">Action Plan</span>
             <h2>What to Do Instead of Speed Optimization (For AI Visibility)</h2>
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Is Your Business Invisible to AI Search?</h3>
-              <p>
-                ChatGPT, Perplexity, and Google AI are recommending competitors in your market right now.
-                Our free Blind Spot Report shows exactly which queries you are losing, which competitors
-                are winning them, and what it takes to own your territory within 90 days.
-              </p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
-                Get Your Free Blind Spot Report →
-              </a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">
-                  Book a Free Strategy Call
-                </a>
-                <a href="tel:+12134442229" className="ae-cta-secondary">
-                  (213) 444-2229
-                </a>
-              </div>
-            </div>
 
             <p>If you want to improve your AI visibility, here are the actions that actually move the needle:</p>
 
@@ -695,10 +617,7 @@ export default function WebsiteSpeedAISearch() {
             <p>Notice: The first four steps help BOTH AI and SEO. Speed optimization (the item with ❌) only helps Google, not AI.</p>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Get a specific action plan for your business based on your actual AI visibility gaps. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot">Get Your Personalized Content Strategy &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── BOTTOM LINE ── */}
             <span className="ae-section-label">Summary</span>
@@ -732,53 +651,13 @@ export default function WebsiteSpeedAISearch() {
             </div>
 
             {/* ── FINAL CTA ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Know your real AI visibility score and the actual gaps holding you back from AI citations. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <Link href="/blindspot">Get Your Free AI Visibility Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* ── CONTACT ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions about how AI evaluation works? Our team specializes in this.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           </div>
-        
-            <section className="ae-final-cta not-prose text-center py-12 border-t border-white/[0.05]">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Competitors Are Claiming AI Territory Right Now
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                The 90-day citation window is open in your market today. The business that builds
-                structured authority content first earns the citations — and holds them. Our free
-                Blind Spot Report shows exactly where you stand and what it takes to own your
-                territory before a competitor does.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Get Your Free Blind Spot Report
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="flex items-center justify-center gap-6 mt-6 text-sm text-gray-500">
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">
-                  Book Free Call
-                </a>
-                <span>·</span>
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">
-                  (213) 444-2229
-                </a>
-                <span>·</span>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">
-                  support@theanswerengine.ai
-                </a>
-              </div>
-            </section>
-</article>
+        </article>
       </main>
     </>
   );

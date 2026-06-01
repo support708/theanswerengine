@@ -245,9 +245,7 @@ export default function Page() {
           The instinct is to assume something is broken. That the AI made a mistake. That your years of experience and hundreds of reviews should count for more. But here is the reality: AI search is not a tenure award. It is a clarity competition. And your newer competitor might simply be competing in it while you are not.
          <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-        <div className="ae-cta-inline mb-10">
-          <p>Want to know exactly why AI is recommending them and not you? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps in plain language. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         {/* TOC */}
         <div className="ae-toc mb-12">
@@ -405,9 +403,7 @@ export default function Page() {
           </div>
         </section>
 
-        <div className="ae-cta-inline mb-10">
-          <p>Not sure where your freshness or authority gaps are? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">Call (213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">get your Blind Spot Report free</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         {/* Entity Authority */}
         <section id="entity-authority" className="mb-14">
@@ -545,9 +541,7 @@ export default function Page() {
           </p>
         </section>
 
-        <div className="ae-cta-inline mb-10">
-          <p>Your advantages may be invisible to AI right now. A <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">free Blind Spot Report</Link> shows exactly which signals you need to activate.</p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         {/* Close the Gap */}
         <section id="close-the-gap" className="mb-14">
@@ -824,24 +818,30 @@ export default function Page() {
         </section>
 
         {/* Final CTA */}
-        <div className="ae-final-cta">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            Reclaim Your AI Visibility in 30 Days
-          </h2>
-          <p className="text-gray-400 mb-8 max-w-xl mx-auto">
-            You have the authority. You just need the structure. Start with your free Blind Spot Report and know exactly what to fix first.
-          </p>
-          <Link
-            href="/blindspot"
-            className="ae-cta-primary inline-flex items-center gap-2"
-          >
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-          <p className="text-gray-600 text-sm mt-4">No credit card. No commitment. Results in 2 minutes.</p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </main>
     </>

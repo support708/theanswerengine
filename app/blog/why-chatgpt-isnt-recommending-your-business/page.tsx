@@ -327,10 +327,7 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 1 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure whether ChatGPT recommends your business or your competitor? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- THE 177K STORY -- */}
           <span className="ae-section-label">Case Study</span>
@@ -352,10 +349,7 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 2 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering if your marketing investments are actually visible to AI platforms? Get the data. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Check Your AI Visibility Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- THREE CRITICAL FAILURES -- */}
           <span className="ae-section-label">The Problem</span>
@@ -448,10 +442,7 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 3 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Most businesses have NAP inconsistencies across 30+ platforms without knowing it. See where yours stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            <Link href="/blindspot">Audit Your Entity Consistency</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- REASON 2 -- */}
           <h3>Reason 2: You Are Speaking Human, But AI Only Reads Structure</h3>
@@ -534,10 +525,7 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 4 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Schema markup is the language AI platforms speak. Find out if your site is fluent or completely silent. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Check Your Schema Coverage</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- REASON 3 -- */}
           <h3>Reason 3: Your Content Sounds Like Everyone Else (Including AI)</h3>
@@ -592,10 +580,7 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 5 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is your content the kind AI cites, or the kind it skips? There is only one way to find out. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Analyze Your Content Authority</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- FLAG DON'T FABRICATE -- */}
           <span className="ae-section-label">Integrity Standard</span>
@@ -629,10 +614,7 @@ export default function WhyChatGPTIsntRecommending() {
           <p>Our standard is simple: <strong>Flag, do not fabricate.</strong> Every claim is verified through client records, extracted from actual expertise, backed by real experience, and documented with permission. It takes longer. But it creates authority that lasts. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* -- CTA 6 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want to build real authority that compounds over time instead of fake signals that collapse? Talk to us. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            <a href="tel:+12134442229">Call (213) 444-2229</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- THE 3-STEP FIX -- */}
           <span className="ae-section-label">The Solution</span>
@@ -660,10 +642,7 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 7 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want to skip the trial and error? We have spent two years testing exactly what makes AI platforms cite businesses. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot">See What AI Sees About Your Business</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- CHEAT SHEET: Entity Consistency -- */}
           <span className="ae-section-label">Quick Reference</span>
@@ -727,10 +706,7 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 8 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Fixing 47+ platforms yourself takes 15-20 hours of tedious work. Or you can have us handle it in the first two weeks. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <a href="mailto:support@theanswerengine.ai">Email Us to Get Started</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- ANSWER AUTHORITY FOUNDATION -- */}
           <span className="ae-section-label">The Offer</span>
@@ -808,21 +784,18 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 9 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>80-120 hours of DIY work or a 30-minute discovery call to get started. The math speaks for itself.</p>
-            <Link href="/blindspot">Start With a Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* -- CTA BLOCK (3-tier) -- */}
-          <div className="ae-cta-block not-prose">
-            <h3>Stop Wasting Months on Trial and Error</h3>
-            <p>We have spent two years testing exactly what makes AI platforms cite businesses instead of competitors. We know which schema implementations work, which content structures get ignored, and how to systematically build authority that compounds over time. The Answer Authority Foundation process takes 6 weeks, not 6 months of guesswork.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>ChatGPT Recommends Businesses Every Day — Is Yours One of Them?</h3>
+              <p>You can&apos;t pay to be recommended by ChatGPT. You have to earn it — through authoritative content, citations from credible sources, and consistent entity signals. We build all three. Free scan shows your current ChatGPT citation rate.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free ChatGPT Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-          </div>
 
           {/* -- AUTHOR CARD -- */}
           <div className="ae-author-card">
@@ -845,10 +818,7 @@ export default function WhyChatGPTIsntRecommending() {
           <h3>How long does it take to see results from AEO?</h3>
           <p>Most businesses see initial featured snippet wins within 30-45 days and consistent AI citations within 90 days. The complete Answer Authority Foundation process takes 6 weeks to implement.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Want to know your current baseline before starting? See where AI ranks your business today.</p>
-            <Link href="/blindspot">Get Your AI Visibility Baseline</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           <h3>Can I do this myself instead of hiring The Answer Engine?</h3>
           <p>Yes, but it requires 80-120 hours of work across entity consistency audits, schema markup implementation, and content creation. The DIY opportunity cost at typical business owner rates of $75-$115 per hour far exceeds our done-for-you investment.</p>
@@ -856,10 +826,7 @@ export default function WhyChatGPTIsntRecommending() {
           <h3>What makes your process different from other AEO agencies?</h3>
           <p>We extract and document authentic expertise instead of fabricating case studies. Every claim is verified through our "flag, do not fabricate" protocol. We have completed over 50 local business AEO implementations and deployed more than 500 schema markup configurations.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Still on the fence? A phone call costs nothing and takes 30 minutes. We will show you exactly what AI sees when it looks at your business.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           <h3>What if ChatGPT does not cite my business after 90 days?</h3>
           <p>We track AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period. Results vary by industry and implementation quality, but the foundation we build compounds over time as AI platforms re-crawl and re-evaluate your signals.</p>
@@ -867,10 +834,7 @@ export default function WhyChatGPTIsntRecommending() {
           <h3>Which businesses benefit most from AEO?</h3>
           <p>Local service businesses with high-value transactions ($5,000+ average) and expertise-based services see the best ROI. This includes real estate teams, HVAC companies, legal practices, dental offices, financial advisors, and similar professional services.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure if your business qualifies? Ask us. We will tell you straight.</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           <h3>What platforms do you track besides ChatGPT?</h3>
           <p>We monitor AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period. Each platform uses slightly different signals, so our implementation covers all of them simultaneously.</p>
@@ -881,10 +845,7 @@ export default function WhyChatGPTIsntRecommending() {
           <h3>Do you offer payment plans?</h3>
           <p>We accept payment via Stripe or Zelle. Qualified businesses can request Net 30 terms.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to stop being invisible to AI? It starts with understanding where you stand right now.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           <h3>What happens during the discovery process?</h3>
           <p>We work with you to document your expertise, client experiences, and unique methodologies. You provide the knowledge, we handle the content creation, schema implementation, and platform auditing. The entire process starts with a single 30-minute discovery call.</p>
@@ -895,23 +856,35 @@ export default function WhyChatGPTIsntRecommending() {
           </div>
 
           {/* -- CTA 15 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>You have read the data. You know the three failures. The only question left is whether AI recommends your business or your competitor.</p>
-            <Link href="/blindspot">Find Out in 60 Seconds</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
         </div>
 
         {/* -- FINAL CTA -- */}
-        <div className="ae-final-cta">
-          <h2>ChatGPT Should Be Recommending Your Business. Let Us Make It Happen.</h2>
-          <p>Every day your business is invisible to AI search, potential customers are finding and choosing your competitors instead. The 3-step fix works. It worked for a team that went from zero to 177,000 weekly impressions in 90 days. Get your free Blind Spot Report and see exactly where you stand across ChatGPT, Claude, Perplexity, and Google AI.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   );

@@ -331,9 +331,7 @@ export default function Page() {
           </ol>
         </div>
 
-        <div className="ae-cta-inline not-prose">
-          <p>Want to see which AI queries your pest control competitors are already winning in your market? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out exactly where you are visible and where you are invisible. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         <h2 id="emergency-queries">Emergency Queries: The Highest-Urgency AI Traffic</h2>
 
@@ -397,9 +395,7 @@ export default function Page() {
           <p>The operators we see most frequently invisible on AI search are those who optimized exclusively for Yelp, HomeAdvisor, or Angi over the last five years. Those platforms trained operators to collect reviews and pay for placement. AI platforms reward something else entirely: the depth and specificity of your own website content. The operators who have been building their own content infrastructure, even quietly, are the ones showing up in AI answers today. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
         </div>
 
-        <div className="ae-cta-inline not-prose">
-          <p>Not sure how your pest control company appears in AI answers right now? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what ChatGPT and Perplexity know about your business today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         <h2 id="licensing-trust">State Licensing as an AI Trust Signal</h2>
 
@@ -514,9 +510,7 @@ export default function Page() {
           </table>
         </div>
 
-        <div className="ae-cta-inline not-prose">
-          <p>We have helped pest control companies across the country identify exactly which queries they are invisible for and build the content structure that captures them. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> to see your specific gaps. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         <h2 id="quick-wins">Quick Wins for Pest Control Companies</h2>
 
@@ -605,15 +599,30 @@ export default function Page() {
         </div>
 
         {/* Final CTA */}
-        <div className="ae-final-cta not-prose">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Get Your Pest Control Company Into AI Answers Before Your Competitors Do</h2>
-          <p className="text-gray-300 mb-8 text-lg">Homeowners with active pest problems are asking AI for recommendations right now. Our Blind Spot Report shows exactly what AI knows about your pest control company, which emergency and seasonal queries you are missing, and what structural changes would put you in those answers. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
-            Get Your Free Blind Spot Report
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes.</p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </>

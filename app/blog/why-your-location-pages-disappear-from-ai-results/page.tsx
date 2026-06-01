@@ -260,10 +260,7 @@ export default function WhyLocationPagesDisappearFromAI() {
            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           {/* ── CTA INLINE 1 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want to see exactly what AI platforms think about your location pages? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* ── SECTION: THE HARSH TRUTH ── */}
           <span className="ae-section-label">The Reality</span>
@@ -329,33 +326,11 @@ export default function WhyLocationPagesDisappearFromAI() {
            One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* ── CTA INLINE 2 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is your location content being detected as boilerplate? Find out instantly. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-            <Link href="/blindspot">Check Your Location Page Signals &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* ── SECTION: ROOT CAUSE ANALYSIS ── */}
           <span className="ae-section-label">Why This Happens</span>
           <h2>The Three Reasons Location Pages Fail AI</h2>
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Stop Losing Customers to AI-Cited Competitors</h3>
-              <p>
-                Every day AI platforms answer questions in your niche and cite your competitors instead
-                of you. The Answer Engine builds the citation authority stack that puts your business
-                inside the answer — permanently. Book a free 30-minute call to see exactly what it takes.
-              </p>
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
-                Book Free 30-Min Strategy Call →
-              </a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="tel:+12134442229" className="ae-cta-secondary">
-                  Call (213) 444-2229
-                </a>
-                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">
-                  Run Free AERO Scan
-                </a>
-              </div>
-            </div>
 
           <h3>1. The Duplication Penalty: Templated Content Loses All Weight</h3>
 
@@ -515,10 +490,7 @@ export default function WhyLocationPagesDisappearFromAI() {
           </div>
 
           {/* ── CTA INLINE 3 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Are your location pages missing critical authority signals? We will show you exactly which ones. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-            <Link href="/blindspot">Get Your Signal Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* ── SECTION: COMMON MISTAKES ── */}
           <span className="ae-section-label">Mistakes to Avoid</span>
@@ -600,25 +572,6 @@ export default function WhyLocationPagesDisappearFromAI() {
           {/* ── SECTION: WHAT ACTUALLY WORKS ── */}
           <span className="ae-section-label">The Solution</span>
           <h2>How to Make Location Pages Visible to AI</h2>
-            <div className="ae-cta-block not-prose my-16">
-              <h3>One Business Per Market — Is Yours Still Available?</h3>
-              <p>
-                The Answer Engine works with one client per territory. We install permanent citation
-                authority across ChatGPT, Perplexity, Google AI, and Claude. Once your market is
-                claimed, it is closed to competitors. Check your territory now.
-              </p>
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
-                Check Territory Availability →
-              </a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">
-                  Free AI Visibility Scan
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">
-                  support@theanswerengine.ai
-                </a>
-              </div>
-            </div>
 
           <p>
             Location pages can work. But they have to be built for AI, not just for Google. This is not a minor tweak.
@@ -726,33 +679,11 @@ export default function WhyLocationPagesDisappearFromAI() {
           </p>
 
           {/* ── CTA INLINE 4 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to rebuild your location pages for AI visibility?</p>
-            <Link href="/contact">Schedule a Strategy Call &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* ── SECTION: BOTTOM LINE ── */}
           <span className="ae-section-label">Bottom Line</span>
           <h2>Location Pages Can Work—If Built for AI, Not Google</h2>
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Is Your Business Invisible to AI Search?</h3>
-              <p>
-                ChatGPT, Perplexity, and Google AI are recommending competitors in your market right now.
-                Our free Blind Spot Report shows exactly which queries you are losing, which competitors
-                are winning them, and what it takes to own your territory within 90 days.
-              </p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
-                Get Your Free Blind Spot Report →
-              </a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">
-                  Book a Free Strategy Call
-                </a>
-                <a href="tel:+12134442229" className="ae-cta-secondary">
-                  (213) 444-2229
-                </a>
-              </div>
-            </div>
 
           <p>
             Your location pages are not useless. But they are invisible to AI because they were optimized for a
@@ -863,41 +794,7 @@ export default function WhyLocationPagesDisappearFromAI() {
             </ul>
           </section>
         </div>
-      
-            <section className="ae-final-cta not-prose text-center py-12 border-t border-white/[0.05]">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Competitors Are Claiming AI Territory Right Now
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                The 90-day citation window is open in your market today. The business that builds
-                structured authority content first earns the citations — and holds them. Our free
-                Blind Spot Report shows exactly where you stand and what it takes to own your
-                territory before a competitor does.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Get Your Free Blind Spot Report
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="flex items-center justify-center gap-6 mt-6 text-sm text-gray-500">
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">
-                  Book Free Call
-                </a>
-                <span>·</span>
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">
-                  (213) 444-2229
-                </a>
-                <span>·</span>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">
-                  support@theanswerengine.ai
-                </a>
-              </div>
-            </section>
-</article>
+      </article>
     </>
   );
 }

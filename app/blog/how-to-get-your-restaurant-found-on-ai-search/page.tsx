@@ -286,10 +286,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <p>To understand the broader shift in how customers use AI for local business discovery, our analysis of <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link> covers the full picture across industries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your restaurant.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── HOW AI DECIDES ── */}
             <span className="ae-section-label">The Mechanics</span>
@@ -335,10 +332,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             </div>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when diners ask about restaurants like yours? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CITATION SOURCES ── */}
             <span className="ae-section-label">The Data</span>
@@ -412,10 +406,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             </div>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly which AI platforms can find your restaurant and which ones cannot.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── WEBSITE AS AI ASSET ── */}
             <span className="ae-section-label">Your Website</span>
@@ -434,10 +425,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <p>This does not mean your website needs to be ugly or text-heavy for human visitors. It means the information needs to be there, even if design elements present it beautifully. The text still needs to exist in the underlying code. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI can actually read your restaurant website? We will check for free.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── REVIEWS SIGNAL ── */}
             <span className="ae-section-label">Reviews</span>
@@ -480,10 +468,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <p>The data is clear: restaurants that gain 20 or more fresh reviews on AI-accessible platforms within a 3-month window are 2.5 times more likely to appear in ChatGPT answers than restaurants with stagnant review profiles. Recency and volume on the right platforms matter enormously. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── CTA 5 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out which of your reviews AI can actually see. The answer might surprise you.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── MENU VISIBILITY ── */}
             <span className="ae-section-label">Menus</span>
@@ -521,10 +506,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <p>The difference is stark. A restaurant with a detailed HTML menu that describes its &quot;wood-fired margherita with San Marzano tomatoes, fresh mozzarella, and basil from our rooftop garden&quot; gives AI rich, specific language to work with. A PDF that says &quot;Margherita $14&quot; gives AI nothing.</p>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering if AI can read your restaurant menu? We will tell you in 24 hours. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── DIRECTORY ECOSYSTEM ── */}
             <span className="ae-section-label">Listings</span>
@@ -543,10 +525,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <p>For a broader look at how other local businesses build this kind of directory presence, our guide on <Link href="/blog/how-home-service-companies-dominate-ai-search">how home service companies dominate AI search</Link> explores similar directory strategies that apply across industries.</p>
 
             {/* ── CTA 7 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>We audit your restaurant&apos;s presence across all the directories that feed AI platforms. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">See Your Full AI Visibility Profile &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CHAIN VS INDEPENDENT ── */}
             <span className="ae-section-label">Competition</span>
@@ -602,10 +581,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <p>The independent restaurant&apos;s greatest strength in AI search is the same quality that makes it special to diners: its uniqueness. AI rewards the restaurants that give it the most specific, detailed, and authentic information to work with. Cookie-cutter chain pages cannot compete with a well-crafted independent restaurant website that tells a genuine story.</p>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your restaurant stacks up against the competition in AI search. Free report, no commitment. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── TIMELINE ── */}
             <span className="ae-section-label">Timeline</span>
@@ -647,10 +623,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             </div>
 
             {/* ── CTA 9 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to start the clock on your restaurant&apos;s AI visibility? The first step is knowing where you stand today.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── MISTAKES ── */}
             <span className="ae-section-label">Pitfalls</span>
@@ -674,10 +647,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <p>Schema markup is how you translate your restaurant information into a language that AI platforms natively understand. Without it, AI has to guess what your hours are, what your cuisine type is, and what your price range is. With it, there is no guessing. The data is explicit.</p>
 
             {/* ── CTA 10 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Every one of these mistakes is fixable. We can show you exactly which ones affect your restaurant. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -694,16 +664,10 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             </div>
 
             {/* ── CTA 11 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want help prioritizing which items on this list matter most for your restaurant?</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── CTA 12 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer a phone conversation? Our team specializes in restaurant AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -775,40 +739,39 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
           </section>
 
           {/* ── CTA 13 ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Still have questions about AI search for your restaurant? We are happy to help.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── CTA 14 ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Prefer email? Send us your questions and we will respond within 24 hours. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── CTA 15 ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Ready to see where your restaurant stands in AI search? The report is free and takes 2 minutes.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Restaurant Visible to AI?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when diners search for restaurants like yours. Our free Blind Spot Report shows you the gaps in your AI visibility and where the opportunities are.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees about your restaurant.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

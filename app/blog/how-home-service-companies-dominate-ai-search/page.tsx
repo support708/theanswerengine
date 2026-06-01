@@ -248,10 +248,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <p>Here is what the winning companies are doing differently, backed by real data from 2025 and 2026. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of you.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── THE AI SEARCH SHIFT ── */}
             <span className="ae-section-label">The Data</span>
@@ -290,10 +287,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             </div>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says about your business? We will show you for free.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── WHY HOME SERVICES IS PERFECT ── */}
             <span className="ae-section-label">The Opportunity</span>
@@ -348,10 +342,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <p>Think about it this way: remember when Google Maps and local SEO first became important? The companies that got on board early dominated their markets for years. AI search is following the same pattern, but the window is closing faster.</p>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>See where your home service company stands in AI search before your competitors figure it out. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── THE 5 STRATEGIES ── */}
             <span className="ae-section-label">The Playbook</span>
@@ -396,10 +387,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <p>If you want to learn more about how AI decides what to cite, check out our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your website passes the AI readability test? We will check for you. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email Us for a Free Content Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── STRATEGY 2 ── */}
             <h3>2. They Diversify Reviews Beyond Google</h3>
@@ -441,10 +429,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <p>We cover this in detail in our article about <Link href="/blog/do-google-reviews-affect-ai-recommendations">whether Google reviews affect AI recommendations</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── CTA 5 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see which review platforms AI actually reads for your industry?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── STRATEGY 3 ── */}
             <h3>3. They Claim and Optimize Every Directory Listing</h3>
@@ -474,10 +459,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             </div>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>We will show you every directory where your business is missing or inconsistent. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Directory Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── STRATEGY 4 ── */}
             <h3>4. They Create Genuinely Helpful Content (Not Keyword Stuffing)</h3>
@@ -544,10 +526,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             </div>
 
             {/* ── CTA 7 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure what content to create first? Let us build you a roadmap. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">Email Us for a Free Content Strategy Session &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── STRATEGY 5 ── */}
             <h3>5. They Treat AI Visibility as a Separate Channel</h3>
@@ -565,10 +544,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <p>For a complete walkthrough of how this works, see our <Link href="/blog/complete-guide-answer-engine-optimization">complete guide to Answer Engine Optimization</Link>.</p>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to make AI search a real channel for your business? Start with the data. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── RESULTS SECTION ── */}
             <span className="ae-section-label">The Evidence</span>
@@ -623,10 +599,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             </div>
 
             {/* ── CTA 9 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Be part of the 12% leading the charge. See what AI sees about your business today.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── THE OPPORTUNITY WINDOW ── */}
             <span className="ae-section-label">Act Now</span>
@@ -653,18 +626,12 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             </div>
 
             {/* ── CTA 10 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to skip the guesswork and see exactly where you stand right now?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 and We Will Walk You Through It &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <p>To learn more about how ChatGPT specifically decides which businesses to recommend, read our deep dive on <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">how ChatGPT chooses businesses to recommend</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* ── CTA 11 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions about AI search for your specific trade? Reach out directly.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -708,40 +675,39 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
           </section>
 
           {/* ── CTA 12 ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Still have questions about AI search for home services? We are happy to help.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── CTA 13 ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Prefer email? Send us your questions and we will get back to you within 24 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── CTA 14 ── */}
-          <div className="ae-cta-inline not-prose my-8">
-            <p>Ready to see where your business stands in AI search? The report is free and takes 2 minutes.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Home Service Company Visible to AI?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone asks about businesses like yours. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

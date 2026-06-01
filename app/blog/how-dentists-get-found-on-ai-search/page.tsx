@@ -431,30 +431,7 @@ export default function HowDentistsGetFoundOnAISearch() {
              Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* INLINE CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">
-                Not sure if your practice shows up when patients search AI?
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
-              >
-                Get your free Blind Spot Report
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: HOW AI PICKS */}
             <span className="ae-section-label" id="how-ai-picks">
@@ -618,31 +595,7 @@ export default function HowDentistsGetFoundOnAISearch() {
              Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* INLINE CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">
-                Inconsistent listings are the silent killer of AI
-                recommendations.
-               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
-              >
-                Find out where your data breaks down
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 4: REVIEWS */}
             <span className="ae-section-label" id="reviews">
@@ -845,31 +798,7 @@ export default function HowDentistsGetFoundOnAISearch() {
              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* INLINE CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">
-                Most dental practices are missing at least two of the four
-                critical directories.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
-              >
-                See which directories you&apos;re missing
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: SERVICE PAGES */}
             <span className="ae-section-label" id="service-pages">
@@ -1061,30 +990,7 @@ export default function HowDentistsGetFoundOnAISearch() {
             </p>
 
             {/* INLINE CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">
-                Is your practice in the AI recommendation at step two? Find out.
-              </p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
-              >
-                Run your free Blind Spot Report
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 9: MISTAKES */}
             <span className="ae-section-label" id="mistakes">
@@ -1300,30 +1206,7 @@ export default function HowDentistsGetFoundOnAISearch() {
             </div>
 
             {/* INLINE CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">
-                Want to know your current score on each of these signals?
-              </p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
-              >
-                Get your free dental practice AI audit
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* THE COMPETITIVE REALITY */}
             <span className="ae-section-label">Competitive Landscape</span>
@@ -1537,34 +1420,30 @@ export default function HowDentistsGetFoundOnAISearch() {
             </div>
 
             {/* FINAL CTA */}
-            <div className="ae-final-cta not-prose">
-              <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-                Ready to Get Your Dental Practice Found on AI?
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
               </h2>
-              <p className="text-gray-300 mb-8 text-lg">
-                Stop losing new patients to AI-invisible competitors. Get your
-                free Blind Spot Report and see exactly where you stand.
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
               </p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-3 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-all duration-200 shadow-[0_0_30px_rgba(255,106,0,0.4)] hover:shadow-[0_0_50px_rgba(255,106,0,0.6)]"
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free Blind Spot Report
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </Link>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
+          </section>
 
           </div>
         </article>

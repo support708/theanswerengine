@@ -354,16 +354,10 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             <p>ChatGPT applies a higher citation threshold to personal injury queries than to most verticals. The reason is mechanical: the recommendation carries financial consequence (the claimant is entering a fee agreement) and reputational consequence (the model is recommending an attorney). The scoring layer requires more authority signals to clear the bar — typically a multi-source citation chain (Avvo, Martindale, FindLaw, Justia), at least one third-party press mention, outcome-vocabulary reviews, and jurisdiction-tagged content. Most firms running standard SEO clear two of those four. The firms cited by ChatGPT clear all four.</p>
 
             {/* CTA 1 — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want us to map your PI firm against the four authority signals ChatGPT scores and show you exactly which ones you are short on? Book a 30-minute audit walkthrough.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book the PI AEO Audit Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 2 — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our free Blindspot Scan runs your firm against 20 personal injury queries on ChatGPT, Perplexity, Claude, and Gemini and returns the exact firms beating you on each.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* Section 2 */}
             <span className="ae-section-label" id="how-chatgpt-decides">Mechanism</span>
@@ -384,22 +378,13 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </div>
 
             {/* CTA 3 — territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>We work with one personal injury firm per market. If your competitor claims your territory first, we will not take you as a client in that geography. Lock your seat before another PI firm does.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Claim Your PI Territory Slot &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 4 — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want the Recommendation Threshold mapped to your jurisdiction? Email us with your firm domain and your top three competitor URLs and we will return a one-page diagnostic within 48 hours.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=PI%20Firm%20AEO%20Diagnostic">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 5 — phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Faster path: text your firm name and your primary market. We will run the engine-level read and reply with where your firm stands on the Recommendation Threshold.</p>
-              <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* Section 3 */}
             <span className="ae-section-label" id="research-data">The Evidence</span>
@@ -456,22 +441,13 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </div>
 
             {/* CTA 6 — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Pick a 30-minute slot and we will walk your firm through the five PI authority signals on a screen-share, marking up which ones are leaking your citations.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book the Signal Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 7 — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>The Blindspot Scan returns your firm&apos;s read on each of the five signals across all four major engines. Free, no commitment, delivered in 24 hours.</p>
-              <Link href="/blindspot">Get Your Free Blindspot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 8 — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Send us your three highest-value practice area pages and we will reply with the chunk-ceiling and definition-first read on each. No charge.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=PI%20Page%20Review">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* Section 4 */}
             <span className="ae-section-label" id="tae-method">TAE Method</span>
@@ -492,22 +468,13 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </div>
 
             {/* CTA 9 — territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>One personal injury firm per market. If a competitor in your city books first, we will not work with you in that territory. The territory lock is the entire point.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Lock Your Market Territory &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 10 — phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to confirm your market is still open? Call us and we will check the territory map while you are on the line.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 11 — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Run the free Blindspot Scan first. It returns the Recommendation Threshold read on your firm and the named competitors taking the citation slots you should be in.</p>
-              <Link href="/blindspot">Get the Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* Section 5 */}
             <span className="ae-section-label" id="measure">Measurement</span>
@@ -523,16 +490,10 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             <p>Three actions clear the lowest-effort, highest-yield gaps in most personal injury firm AEO programs. First, claim and fully complete profiles on Avvo, Martindale-Hubbell, FindLaw, Justia, Lawyers.com, and Super Lawyers — NAP must match across all six. Second, add FAQPage schema to your top five jurisdiction-specific questions (statute of limitations, comparative fault rule, recoverable damages, attorney fee structure, claim filing process). Third, send a post-resolution review request email to the last 20 clients whose cases closed well, asking them to mention the outcome and the attorney by name. These three actions clear roughly 60% of the gap most PI firms have on the Recommendation Threshold.</p>
 
             {/* CTA 12 — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want us to run the 20-query measurement set on your firm before you start? Book a 30-minute scoping call and we will share the prompt library on a screen-share.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book the Scoping Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 13 — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer email? Send your firm domain and your primary market and we will return the baseline citation read within 48 hours. No charge.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=PI%20Baseline%20Citation%20Read">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* Section 6 — Quick-reference cheat */}
             <span className="ae-section-label">Quick Reference</span>
@@ -583,16 +544,10 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </div>
 
             {/* CTA 14 — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Pick a 30-minute slot and we will walk your firm through this cheat sheet on a screen-share, marking up the bottleneck on every row.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book Your Cheat Sheet Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 15 — phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk it through? Call our team directly and we will run the cheat sheet against your firm on the call.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* Author Card */}
             <div className="not-prose ae-author-card">
@@ -609,17 +564,13 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </div>
 
             {/* CTA Block */}
-            <div className="ae-cta-block not-prose">
-              <h3>Get the AEO Model Working for Your PI Firm</h3>
-              <p>The Origin Protocol maps every page on your firm site to the three-stage AEO model and the five PI-specific authority signals. One personal injury firm per market. Free Blindspot Scan to start.</p>
-              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blindspot Scan &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <span>(213) 444-2229</span>
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <span>support@theanswerengine.ai</span>
-                </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Is Your PI Firm Getting Cases from AI Search — or Losing Them to a Competitor?</h3>
+              <p>When someone types &quot;best personal injury lawyer near me&quot; into ChatGPT, which firm appears? We audit your firm&apos;s AI citation rate across every major engine and tell you exactly what it takes to appear — free, 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free PI Firm Citation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
             </div>
 
@@ -658,34 +609,19 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </details>
 
             {/* CTA 16 — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still not sure where your firm stands? The Blindspot Scan returns the three-stage AEO model read on your domain and the exact PI queries your competitors are taking from you. Free.</p>
-              <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 17 — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>Talk it through with our team instead. Pick a 30-minute slot and we will run the read on your firm on a screen-share.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Schedule a 30-Minute Walkthrough &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 18 — territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or claim your market territory before another personal injury firm in your city books it first. One operator per market is the rule, and we hold to it.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Claim Your PI Market Slot &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 19 — phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Faster path: text or call us with your firm name and your primary market and we will check the territory and citation read in real time.</p>
-              <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 20 — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or send the same details by email if you prefer written follow-up. We respond within one business day.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=PI%20Firm%20Territory%20%2B%20Citation%20Read">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* Related */}
             <span className="ae-section-label">Continue Reading</span>
@@ -700,57 +636,45 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </ul>
 
             {/* CTA 21 — calendly */}
-            <div className="ae-cta-inline not-prose">
-              <p>If you would rather talk it through than read another article, grab a 30-minute slot with our team.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Schedule a Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 22 — blindspot */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or run the free Blindspot Scan first and bring the report to the call. The walkthrough is sharper when we both have the data in front of us.</p>
-              <Link href="/blindspot">Get the Free Blindspot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 23 — email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer email-only? Send your firm domain to support and we will return a one-page diagnostic within 48 hours.</p>
-              <a href="mailto:support@theanswerengine.ai?subject=PI%20One-Page%20Diagnostic">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 24 — phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or pick up the phone. We answer during business hours and return after-hours messages within four hours.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 25 — territory */}
-            <div className="ae-cta-inline not-prose">
-              <p>The territory map is updated weekly. If your market is still open, your booking holds the slot for 14 days while we run the citation baseline.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Check Territory Availability &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
           </div>
 
           {/* Final CTA */}
-          <section className="ae-final-cta">
-            <h2 className="font-headline font-black uppercase tracking-tighter">A Competing PI Firm Just Cleared the Recommendation Threshold in Your Market. Did You?</h2>
-            <p>The free Blindspot Scan reads your firm against the three-stage AEO model across 20 personal injury queries on ChatGPT, Perplexity, Claude, and Gemini. You get the per-engine citation gap, the firms taking the slots that should be yours, and the ranked fix list. One personal injury firm per market.</p>
-            <Link
-              href="/blindspot"
-              className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-            >
-              Get Your Free Blindspot Report
-            </Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10 font-mono text-sm">
-              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                The PI Firm That Gets Cited by AI Gets the Case
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                ChatGPT recommends specific lawyers. Perplexity cites specific firms. Google AI Overviews name names. The Answer Engine puts your PI firm in those citations — and keeps competitors out. Free citation audit. One firm per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free PI Citation Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors">
-                support@theanswerengine.ai
-              </a>
-              <a href="https://calendly.com/theanswerengine-support/30min" className="text-gray-400 hover:text-white transition-colors">
-                Book a 30-Minute Audit
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
           </section>
 

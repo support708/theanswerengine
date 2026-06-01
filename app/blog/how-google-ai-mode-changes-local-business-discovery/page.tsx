@@ -289,10 +289,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 1 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure if Google AI Mode is recommending your business right now? Find out in under 60 seconds with a free audit. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <Link href="/blindspot">Get Your Free AI Visibility Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 1 ── */}
           <span className="ae-section-label" id="what-ai-mode-is">The Platform</span>
@@ -395,10 +392,7 @@ export default function Page() {
            One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* ── CTA 2 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your website traffic may be masking a deeper problem: AI is routing customers past you entirely. Let&apos;s run the numbers. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-            <a href="tel:+15555550100">Call Us to Discuss Your Visibility Gap</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 3 ── */}
           <span className="ae-section-label" id="ai-vs-traditional">Head to Head</span>
@@ -512,10 +506,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 3 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Would your business survive an AI comparison call right now? Our team audits exactly how AI Mode evaluates and presents local businesses. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <a href="mailto:hello@theanswerengine.ai">Email Us for a Local AI Audit</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 5 ── */}
           <span className="ae-section-label" id="citation-logic">Citation Intelligence</span>
@@ -577,10 +568,7 @@ export default function Page() {
            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* ── CTA 4 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Curious about your third-party authority footprint? We map exactly where AI Mode is and is not finding your business. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Run Your Free Blind Spot Analysis</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 6 ── */}
           <span className="ae-section-label" id="what-determines-visibility">Visibility Signals</span>
@@ -616,10 +604,7 @@ export default function Page() {
           </p>
 
           {/* ── CTA 5 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure which of these signals your business is missing? Text us for a quick answer.</p>
-            <a href="sms:+15555550100">Text Us Your Business Name and URL</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 7 ── */}
           <span className="ae-section-label" id="action-framework">The Framework</span>
@@ -719,31 +704,15 @@ export default function Page() {
           </div>
 
           {/* ── 3-TIER CTA BLOCK ── */}
-          <div className="ae-cta-block not-prose">
-            <h2 className="ae-cta-block-heading font-plus-jakarta">Is Your Business Ready for Google AI Mode?</h2>
-            <p className="ae-cta-block-sub">Most local businesses have at least three critical gaps in their AI visibility profile. Find yours before your competitors fill them first.</p>
-            <div className="ae-cta-tier-grid">
-              <div className="ae-cta-tier">
-                <div className="ae-cta-tier-icon">01</div>
-                <div className="ae-cta-tier-heading">Free Blind Spot Report</div>
-                <p>We audit how Google AI Mode, ChatGPT, and Perplexity currently see your business and identify every gap causing you to be skipped.</p>
-                <Link href="/blindspot" className="ae-cta-tier-btn">Get Your Free Report</Link>
-              </div>
-              <div className="ae-cta-tier ae-cta-tier-featured">
-                <div className="ae-cta-tier-badge">Most Popular</div>
-                <div className="ae-cta-tier-icon">02</div>
-                <div className="ae-cta-tier-heading">Full AI Visibility Audit</div>
-                <p>Comprehensive analysis of your GBP, citations, website content, schema, and review profile against AI Mode citation requirements.</p>
-                <a href="tel:+15555550100" className="ae-cta-tier-btn ae-cta-tier-btn-primary">Book a Call</a>
-              </div>
-              <div className="ae-cta-tier">
-                <div className="ae-cta-tier-icon">03</div>
-                <div className="ae-cta-tier-heading">Done-For-You Optimization</div>
-                <p>We build your AI-readable authority profile from the ground up: GBP optimization, content, schema, citation network, and review strategy.</p>
-                <a href="mailto:hello@theanswerengine.ai" className="ae-cta-tier-btn">Email Us to Get Started</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
               </div>
             </div>
-          </div>
 
           {/* ── FAQ SECTION ── */}
           <span className="ae-section-label">Common Questions</span>
@@ -784,18 +753,30 @@ export default function Page() {
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <div className="ae-final-cta-pulse" aria-hidden="true" />
-            <div className="ae-final-cta-content">
-              <h2 className="font-plus-jakarta">Stop Losing Customers to Competitors in AI Mode</h2>
-              <p>Google AI Mode is recommending businesses to your potential customers right now. Either your business is in those recommendations, or a competitor is. We help local businesses close the gap fast.</p>
-              <div className="ae-final-cta-actions">
-                <Link href="/blindspot">Get My Free AI Visibility Report</Link>
-                <a href="tel:+15555550100">Call Us Now</a>
-                <a href="sms:+15555550100">Text Us Your URL</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
-          </div>
+          </section>
 
         </div>
       </article>

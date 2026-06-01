@@ -318,10 +318,7 @@ export default function Page() {
             </div>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI shopping assistants can find your store? Find out in 48 hours.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 1 */}
             <span className="ae-section-label" id="why-ecommerce-different">The Core Problem</span>
@@ -348,10 +345,7 @@ export default function Page() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Schema markup is the language AI crawlers speak. Here is why it matters for every business.</p>
-              <Link href="/blog/does-schema-markup-help-ai-search">Does Schema Markup Help AI Search? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 2 */}
             <span className="ae-section-label" id="how-ai-shopping-works">Behind the Curtain</span>
@@ -374,10 +368,7 @@ export default function Page() {
             <p>Across all three platforms, the pattern is identical: <strong>AI evaluates your product data quality, your store authority, and your ability to answer the user&apos;s specific question.</strong> The store that provides the most complete, most trustworthy, most relevant data wins the recommendation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>AI trust is built differently than traditional SEO rankings. Here is what actually matters.</p>
-              <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">How to Create Content That ChatGPT Actually Trusts &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 3 */}
             <span className="ae-section-label" id="signals-ai-uses">What AI Evaluates</span>
@@ -434,10 +425,7 @@ export default function Page() {
             <p>AI does not simply recommend the cheapest option. It evaluates total value, including shipping costs, return policies, bundle deals, and promotional offers. A slightly higher-priced product with free shipping and a generous return policy can outperform a cheaper alternative with hidden fees. AI platforms are getting better at understanding value rather than just sticker price. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Zero-click search is reshaping how buyers find products. Here is what store owners need to know.</p>
-              <Link href="/blog/zero-click-search-killing-website-traffic">Is Zero-Click Search Killing Your Website Traffic? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 4 */}
             <span className="ae-section-label" id="platform-comparison">Platform Showdown</span>
@@ -538,10 +526,7 @@ export default function Page() {
             <p>A custom e-commerce build gives you total control over HTML output, schema implementation, crawler access, and API endpoints. For stores that need real-time inventory data accessible to AI agents, custom product feeds, or specialized structured data, a custom build removes all platform constraints. The cost is that everything must be built and maintained from scratch.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly how AI crawlers perceive your current store setup? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 5 */}
             <span className="ae-section-label" id="product-data-foundation">The Foundation</span>
@@ -574,10 +559,7 @@ export default function Page() {
             </div>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Need help structuring your product data for AI crawlers? Our team does this every day. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 6 */}
             <span className="ae-section-label" id="content-strategy">Beyond Product Pages</span>
@@ -602,10 +584,7 @@ export default function Page() {
             <p>Well-structured category pages serve as the AI entry point to your product catalog. A category page for &quot;Trail Running Shoes&quot; that includes a category description, filtering by terrain type, price range, and user level, plus links to buying guides and FAQ content, gives AI a comprehensive understanding of your expertise in that product space.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>AI trust depends on more than product data. Here is how to build content AI actually believes. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">Creating Content That ChatGPT Trusts &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section 7 */}
             <span className="ae-section-label" id="common-mistakes">Avoidable Errors</span>
@@ -669,17 +648,18 @@ export default function Page() {
             <p>This is the window of opportunity for small and mid-size online stores. Large retailers are slow to optimize for AI because they have massive catalogs and complex organizational structures. A focused store that intentionally structures its product data for AI visibility today can establish positions that are difficult to displace once AI shopping becomes the dominant discovery channel.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-block not-prose">
-              <h3>Your Competitors Might Already Be Optimizing for AI Shopping</h3>
-              <p>Our Blind Spot Report shows you exactly where your store stands in AI search compared to your top competitors. Free, no obligation, delivered within 48 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Questions about AI visibility for your online store? We respond within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Takeaway */}
             <div className="ae-takeaway not-prose">
@@ -688,10 +668,7 @@ export default function Page() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See what your website looks like through the eyes of an AI shopping assistant.</p>
-              <Link href="/blindspot">Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Cheat Sheet */}
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
@@ -752,16 +729,10 @@ export default function Page() {
             </div>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Running through this checklist and finding gaps? We fix these issues for online stores every day.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your store&apos;s AI visibility in person? Our team is ready. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Author Card */}
             <div className="ae-author-card">
@@ -823,52 +794,39 @@ export default function Page() {
             <p>AI crawlers revisit sites regularly and favor pages with fresh, accurate information. Product pages should be updated whenever pricing, availability, or specifications change. Beyond transactional updates, adding new customer reviews, updating FAQ sections with recent customer questions, and refreshing product descriptions with seasonal relevance all signal to AI platforms that your product data is current and reliable. Stale pages with outdated pricing or discontinued products can damage your store&apos;s credibility across all AI platforms.</p>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have a question about AI visibility for your online store that we did not cover? Our team responds within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to discuss your store&apos;s specific AI visibility challenges? Call us directly.</p>
-              <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Schema markup is the single most impactful thing you can add to your store. Learn more here.</p>
-              <Link href="/blog/does-schema-markup-help-ai-search">Does Schema Markup Help AI Search? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Final CTA */}
-            <div className="ae-final-cta not-prose">
-              <div className="ae-final-cta-glow" />
-              <div className="ae-final-cta-content">
-                <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mb-4">
-                  Your Products Deserve to Be Recommended by AI
-                </h2>
-                <p className="text-gray-300 mb-8 max-w-xl mx-auto">
-                  AI shopping assistants are recommending products right now. If your store is not part of those conversations, every recommendation is going to a competitor. Find out where you stand and what it takes to change that.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link
-                    href="/blindspot"
-                    className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors"
-                  >
-                    Get Your Free Blind Spot Report
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                  </Link>
-                  <a
-                    href="tel:+12134442229"
-                    className="inline-flex items-center justify-center gap-2 border border-white/20 text-white px-8 py-4 rounded-xl font-bold text-lg hover:border-white/40 hover:bg-white/5 transition-colors"
-                  >
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                    (213) 444-2229
-                  </a>
-                </div>
-                <p className="text-gray-500 text-sm mt-6">Free report. No obligation. Results delivered within 48 hours.</p>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
 
           </div>
         </article>

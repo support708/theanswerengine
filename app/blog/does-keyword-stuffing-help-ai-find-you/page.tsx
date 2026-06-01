@@ -271,10 +271,7 @@ export default function BlogPost() {
             <p>The keyword stuffing myth persists because the underlying intuition feels reasonable. If AI is searching for information about plumbers in Los Angeles, then a page mentioning &ldquo;plumber Los Angeles&rdquo; fifty times should be highly relevant, right? Wrong. The AI is not scanning for phrase matches. It is evaluating whether your business represents genuine, verifiable expertise in your field and location. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             <p>Understanding why requires a clear picture of how AI platforms actually process content.</p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Wondering if your current content strategy is helping or hurting your AI visibility? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* SECTION 2: HOW AI READS */}
@@ -297,10 +294,7 @@ export default function BlogPost() {
             <p>Beyond semantic analysis, AI platforms use retrieval layers that cross-reference your content against external signals. This means the AI is not just reading your page in isolation. It is comparing what your page says against what directories, review platforms, licensing databases, and other authoritative sources say about your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             <p>To understand exactly what AI sees when it visits your site, our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">what your website looks like to an AI crawler</Link> breaks down the specific elements that matter and how they get interpreted.</p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Find out exactly what AI platforms currently see when they crawl your site. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-            <a href="tel:+12134442229">Call (213) 444-2229 for a Free Strategy Session &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* SECTION 3: WHY IT BACKFIRES */}
@@ -357,10 +351,7 @@ export default function BlogPost() {
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>The chart above illustrates relative impact on AI citation probability based on signal type. Keyword density sits at the bottom because AI platforms do not use it as a meaningful ranking factor. Every percentage point of effort spent on keyword stuffing is a percentage point not spent on the signals that actually move the needle.</p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>See which signals your site is currently missing. No obligation, no pitch. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Request Your Free AI Visibility Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* SECTION 4: SEO VS AI */}
@@ -429,10 +420,7 @@ export default function BlogPost() {
             <p>The most important row in that table is the last one about penalties. Traditional SEO over-optimization could drop you from position three to position eight. AI search over-optimization through keyword stuffing can remove you from the citation pool entirely. That is not a ranking drop. That is invisibility. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <p>For a deeper look at how the two systems interact in practice, our analysis of <Link href="/blog/does-having-more-web-pages-help-ai-find-you">whether having more web pages helps AI find you</Link> explores the volume-vs-depth question that many businesses get wrong.</p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Not sure which approach your current strategy follows? We audit free of charge. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* SECTION 5: WHAT AI WANTS */}
@@ -462,10 +450,7 @@ export default function BlogPost() {
             <div className="ae-callout-title">The Good News for Legitimate Businesses</div>
             <p>If your business is genuinely excellent at what it does, you have a structural advantage in AI search that no amount of keyword stuffing by a competitor can neutralize. The signals AI platforms evaluate favor real expertise and verified presence. The keyword-stuffing playbook that let low-quality competitors outrank good businesses in old-school SEO simply does not work in the AI era. Quality wins.</p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Find out if your genuine expertise is being recognized by AI platforms. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 for a Direct Consultation &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* SECTION 6: ENTITY SIGNALS */}
@@ -510,10 +495,7 @@ export default function BlogPost() {
             <p>A business with strong entity signals and zero keyword optimization will consistently outperform a business with heavy keyword optimization and weak entity signals in AI search. This is the core reality that most traditional SEO approaches have not yet absorbed.</p>
             <p>Building an FAQ page that AI can cite is one of the most effective structural moves for establishing topical entity authority. Our guide on <Link href="/blog/how-to-build-faq-page-ai-cites">how to build an FAQ page that AI cites</Link> covers exactly what that requires. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Want to know how strong your entity signals currently are? We measure it free.</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for an Entity Audit &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* SECTION 7: WRITING CONTENT FOR AI */}
@@ -540,10 +522,7 @@ export default function BlogPost() {
             <div className="ae-callout-title">The Content Trap to Avoid</div>
             <p>The second-most damaging content mistake after keyword stuffing is thin content. Pages that repeat your keyword phrase at the right density but fail to deliver substantive information are caught in a middle ground: optimized enough to look like SEO content, but shallow enough to be dismissed by AI quality filters. Depth beats density every time. One genuinely comprehensive service page outperforms twenty keyword-optimized thin pages for AI citation purposes.</p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Ready to see what AI-optimized content looks like for your specific industry? Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* SECTION 8: DECISION MATRIX */}
@@ -592,32 +571,39 @@ export default function BlogPost() {
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>Regardless of your current situation, the universal first step is understanding exactly where you stand. The 1.2% of local businesses currently being cited by ChatGPT did not get there by accident. They have specific signals in place that the other 98.8% do not. The gap is measurable and closeable, but only once you know precisely where it exists. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Find out exactly which signals are keeping you out of AI recommendations.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>The conversion math makes the urgency clear. AI-referred traffic converts at 4.4x the rate of traditional search traffic. That is not a marginal improvement. That is a fundamentally different quality of visitor: someone who has already received an AI recommendation to contact your business specifically. Every month without AI visibility is a month of 4.4x conversion traffic going to whoever AI does recommend. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>45% of consumers now use AI to find local services. Are any of them finding you?</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 to Find Out &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* FINAL CTA SECTION */}
         <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-          <div className="ae-final-cta not-prose">
-            <h2>Know Exactly Where AI Can&apos;t Find You</h2>
-            <p>Our Blind Spot Report reveals which AI platforms are ignoring your business and why. No keyword tricks required. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Link href="/blindspot" className="ae-cta-primary">
-                Get Your Free Blind Spot Report
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Technical Optimization for AI Search Is Different From Traditional SEO
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                The signals that get you cited in AI engines are specific and measurable. The Answer Engine audits all 47 and fixes the ones holding you back. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Technical Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
         </section>
 
         {/* AUTHOR CARD */}
@@ -689,54 +675,49 @@ export default function BlogPost() {
               </div>
             ))}
           </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Have a question not covered here? We answer every inquiry personally.</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* CTA BLOCK + FINAL CTA */}
         <section className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-          <div className="ae-cta-inline not-prose mb-6">
-            <p>Ready to see exactly how AI platforms currently evaluate your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
-          <div className="ae-cta-block not-prose mb-6">
-            <h3>Keywords Never Built AI Authority. Signals Do.</h3>
-            <p>The 1.2% of local businesses being cited by ChatGPT did not get there by stuffing keywords. They built verifiable entity authority, implemented structured data correctly, and created content that AI platforms trust. Your Blind Spot Report shows exactly which signals you are missing and how to close the gap.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
-          <div className="ae-final-cta not-prose">
-            <h3>The Keyword Era Is Over. The Entity Era Has Arrived.</h3>
-            <p>Businesses still optimizing for keyword density are playing a game that ended years ago for traditional search and was never valid for AI search. The 45% of consumers now using AI to find local services are being directed to businesses with strong entity signals, structured data, and verified authority. Your free Blind Spot Report shows you exactly what is standing between your business and those recommendations. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Schema Markup, Site Speed, GptBot — The Technical Signals That Determine AI Citations</h3>
+              <p>AI engines evaluate your technical signals: schema markup, crawl access, page authority, and entity consistency. A free audit shows exactly where your technical setup is costing you citations.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Technical AI Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
-          </div>
-          <div className="ae-cta-inline not-prose mt-6">
-            <p>Prefer to talk through your strategy with someone who has done this before?</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
-          <div className="ae-cta-inline not-prose mt-4">
-            <p>Want a strategic review of your content before your next publish cycle? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
-          <div className="ae-cta-inline not-prose mt-4">
-            <p>See how we build the entity signals that make AI recommend you by name.</p>
-            <Link href="/blindspot">Explore Our Process &rarr;</Link>
-          </div>
-          <div className="ae-cta-inline not-prose mt-4">
-            <p>Still on the fence? Ask us anything about your specific situation. No pitch, just data. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <a href="mailto:support@theanswerengine.ai">Email Your Questions to support@theanswerengine.ai &rarr;</a>
-          </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Technical Optimization for AI Search Is Different From Traditional SEO
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                The signals that get you cited in AI engines are specific and measurable. The Answer Engine audits all 47 and fixes the ones holding you back. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Technical Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
         </section>
 
         {/* RELATED ARTICLES */}

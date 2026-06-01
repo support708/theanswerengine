@@ -311,9 +311,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Want to know what AI platforms are currently saying about your pricing? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out exactly what customers are being told before they contact you. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
         </section>
 
         <section id="platform-differences">
@@ -409,9 +407,7 @@ export default function Page() {
             This connects directly to the broader problem of <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">why AI gives outdated information about businesses</Link>. Pricing is just the most financially damaging version of this problem because it creates direct purchase friction at the exact moment a customer is ready to decide.
            Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-          <div className="ae-cta-inline">
-            <p>Not sure what AI is currently telling customers about your prices? <Link href="/blindspot">Run your Blind Spot Report</Link> and get a complete audit of what AI platforms say about your business today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
         </section>
 
         <section id="signals">
@@ -514,9 +510,7 @@ export default function Page() {
             The pattern here connects to the broader challenge of <Link href="/blog/how-to-fix-wrong-ai-answers-about-your-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">fixing wrong AI answers about your business</Link>. Pricing is just one category of factual error, but it is the one that creates the most direct purchase friction and the most immediate revenue impact.
            Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <div className="ae-cta-inline">
-            <p>Dealing with a specific pricing error AI is spreading about your business? <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">Call us at (213) 444-2229</a> or <Link href="/blindspot">get your Blind Spot Report</Link> to start with a complete picture of what AI platforms are saying. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
         </section>
 
         <section id="prevention">
@@ -695,26 +689,30 @@ export default function Page() {
         </section>
 
         {/* Final CTA */}
-        <div className="ae-final-cta not-prose mt-16">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            Stop Losing Customers to Wrong AI Pricing
-          </h2>
-          <p className="text-gray-300 mb-8 text-lg">
-            Every customer AI sends you with the wrong price expectation is a potential lost sale. Get your Blind Spot Report and see exactly what AI platforms are telling customers about your pricing before they call.
-           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-          <Link
-            href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
-          >
-            Get Your Free Blind Spot Report
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-          <p className="text-gray-500 text-sm mt-4">
-            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
-           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </>

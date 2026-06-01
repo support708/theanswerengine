@@ -289,10 +289,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             </div>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out whether AI platforms trust your website or skip straight to your competitors. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 2: WHAT WEBSITES PROVIDE */}
             <span className="ae-section-label" id="what-websites-provide">Your Website</span>
@@ -324,10 +321,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <p>This is why websites drive 58% of AI recommendations. They are the richest, most flexible, and most controllable source of business information on the internet. For a deeper look at how AI evaluates the content on your site, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your website giving AI enough information to recommend you? Most are not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 3: THE EVOLVING ROLE OF CITATIONS */}
             <span className="ae-section-label" id="citation-role">Citations</span>
@@ -346,10 +340,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <p>An iPullRank study analyzing 6.9 million citations confirmed this pattern. The businesses that earned the most AI citations were not the ones with the most directory listings. They were the ones with consistent information across core platforms combined with deep, structured website content. For more on which directory listings actually move the needle, read our breakdown on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Inconsistent citations could be sabotaging your AI visibility right now. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Check Your Listings With a Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 4: COMPARISON TABLE */}
             <span className="ae-section-label" id="comparison">Comparison</span>
@@ -415,10 +406,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <p>The pattern is clear. Websites are the primary driver of AI trust. Directories provide the verification infrastructure that supports what your website claims. Both matter, but the balance of investment should reflect this reality. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly where your AI presence has gaps? We map it for free. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 5: MULTI-PLATFORM PRESENCE */}
             <span className="ae-section-label" id="multi-platform">Multi-Platform</span>
@@ -435,10 +423,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <p>This is why the &quot;website vs. directories&quot; framing is ultimately misleading. It is not one or the other. It is a layered system where your website sits at the center and every other platform reinforces it. Community mentions on Reddit carry particular weight because they represent third-party validation AI treats as especially trustworthy. For more on this, see our article on <Link href="/blog/reddit-mentions-boost-ai-search-visibility">how Reddit mentions boost AI search visibility</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Multi-platform presence sounds simple. Getting it right across every platform takes expertise. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 6: COMMON MISTAKES */}
             <span className="ae-section-label" id="common-mistakes">Mistakes</span>
@@ -479,10 +464,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             </div>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Directory inconsistencies silently destroy AI trust. Find yours before they cost you leads.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 7: DECISION FRAMEWORK */}
             <span className="ae-section-label" id="decision-framework">Framework</span>
@@ -572,10 +554,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             </div>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure where you fall in this framework? We will tell you for free.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* TAKEAWAY */}
             <div className="ae-takeaway not-prose">
@@ -584,10 +563,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your website is the single biggest lever for AI visibility. Is yours pulling its weight?</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 8: CHEAT SHEET */}
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
@@ -644,10 +620,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             </div>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>This cheat sheet gives you the framework. We handle the execution.</p>
-              <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* THE BOTTOM LINE */}
             <span className="ae-section-label">The Bottom Line</span>
@@ -660,10 +633,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <p>The businesses that understand this hierarchy and invest accordingly will capture the growing stream of AI-driven customer discovery. The ones that keep chasing directory volume while neglecting their website will wonder why AI recommends their competitors instead. For more on what drives AI platform decisions, explore our guide on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether a blog actually helps AI recommend your business</Link>.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The AI trust hierarchy is clear. The question is where you stand in it right now.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* 3-TIER CTA BLOCK */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -740,42 +710,36 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             </div>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still have questions about your AI visibility strategy? We answer them for free.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           </div>
         </article>
 
         {/* FINAL CTA */}
-        <section className="ae-final-cta">
-          <div className="max-w-4xl mx-auto px-6 py-20 text-center">
-            <div className="ae-pulse-glow" />
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white font-plus-jakarta">
-              AI Trusts What It Can Verify.
-              <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Make Sure It Can Verify You.</span>
-            </h2>
-            <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-              Get a free Blind Spot Report showing exactly how AI platforms evaluate your website, your directories, and your entire digital footprint.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#D96416] transition-colors">
-                Get Your Free Blind Spot Report
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <a href="tel:+12134442229" className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-lg">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-lg">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
       </main>
     </>
   )

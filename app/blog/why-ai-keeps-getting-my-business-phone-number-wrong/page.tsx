@@ -278,10 +278,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
             <p>The frustrating part: this isn't a mystery. It's not random. There are specific reasons why AI systems cite outdated contact information, and there are concrete signals you can control that tell AI your business data is current.</p>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending you—to the wrong phone number. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -353,10 +350,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
             <p>But it's not. It's just old. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see which phone numbers AI systems are actually citing for your business?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── IMPACT SECTION ── */}
             <span className="ae-section-label">Real Consequences</span>
@@ -417,10 +411,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
             </div>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your business suffering from stale contact info? We audit this for free.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SOLUTIONS SECTION ── */}
             <span className="ae-section-label">What Actually Works</span>
@@ -522,17 +513,14 @@ export default function WhyAIGetsPhoneNumberWrong() {
 
             <p>The Answer Engine has built tools to audit what AI platforms actually see about your business, where contact information is stale, and what signals are telling AI your data is outdated.</p>
 
-            <div className="ae-cta-block not-prose">
-              <div>
-                <h3>Your Free Blind Spot Report Includes:</h3>
-                <ul>
-                  <li>What ChatGPT, Claude, and Google AI Overview are currently citing for your business</li>
-                  <li>Which phone numbers and addresses appear across the web</li>
-                  <li>Identification of stale or conflicting listings</li>
-                  <li>Priority recommendations to fix the biggest contact info issues</li>
-                </ul>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
-              <Link href="/blindspot" className="ae-button">Get Your Free Report &rarr;</Link>
             </div>
 
             <p>The audit takes 15 minutes and surfaces exactly which data is costing you lost leads.</p>

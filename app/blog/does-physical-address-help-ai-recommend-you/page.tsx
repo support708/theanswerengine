@@ -167,10 +167,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Think your storefront gives you an AI edge? See what AI actually knows about your business.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: THE MYTH */}
           <span className="ae-section-label" id="the-myth">The Myth</span>
@@ -194,10 +191,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your storefront is not your AI advantage. Find out what signals AI is actually evaluating.</p>
-            <Link href="/blindspot">Check Your AI Visibility Now &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: THE 45% GAP */}
           <span className="ae-section-label" id="the-45-gap">The Data</span>
@@ -219,10 +213,7 @@ export default function BlogPost() {
           <p>A business with a complete Google Business Profile and a convenient location can win traditional local search. To win AI recommendations requires building a web presence that looks credible from every angle AI evaluates, and physical address is not one of those angles.</p>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Are you in the 45% that appears in AI results, or the 55% that does not? Find out now. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">See Your AI Recommendation Status &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: HOW AI USES LOCATION */}
           <span className="ae-section-label" id="how-ai-uses-location">Location Logic</span>
@@ -278,10 +269,7 @@ export default function BlogPost() {
           <p>This distinction matters enormously for service-area businesses, virtual offices, and any business that does not operate from a customer-facing storefront. If you are within the geographic filter, you compete on authority. And authority is built through reviews, mentions, and content, not through having a sign on a building. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>You are past the geographic filter. Now find out how your authority signals compare to competitors.</p>
-            <Link href="/blindspot">Get Your Free Authority Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: WHAT AI RANKS BY */}
           <span className="ae-section-label" id="what-ai-ranks-by">Ranking Factors</span>
@@ -307,10 +295,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Third-party mentions are your biggest AI lever. See how your web presence stacks up. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            <Link href="/blindspot">Analyze Your Web Presence &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: SERVICE-AREA BUSINESSES */}
           <span className="ae-section-label" id="service-area-businesses">Service-Area Businesses</span>
@@ -330,10 +315,7 @@ export default function BlogPost() {
           <p>This does not mean that service-area businesses can ignore location data entirely. Establishing your service area clearly on your website, in your Google Business Profile, and across directories is still essential for getting past the geographic filter. But once you are in the pool, the competition is about reputation and content, and those are signals any business can build regardless of whether they have a physical address.</p>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Service-area businesses can win in AI search. See exactly where you stand today. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: REVIEW AND WEB MENTION EFFECT */}
           <span className="ae-section-label" id="review-web-mention-effect">The Review Effect</span>
@@ -388,10 +370,7 @@ export default function BlogPost() {
           <p>The implications are straightforward. A business that actively builds review volume across multiple platforms and earns consistent web mentions through directories, media coverage, and third-party content is building the two highest-impact AI visibility signals available. A business that relies on its storefront address and a completed Google Business Profile is building low-impact signals while leaving the high-impact signals untouched.</p>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Reviews and web mentions are the top AI signals. How does your business score on each? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-            <Link href="/blindspot">Get Your Signal Breakdown &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: VIRTUAL VS PHYSICAL */}
           <span className="ae-section-label" id="virtual-vs-physical">Virtual vs Physical</span>
@@ -436,10 +415,7 @@ export default function BlogPost() {
           <p>For businesses thinking about how to invest their marketing budget: the high-impact AI signals are review generation across multiple platforms, earning web mentions through directories and media, and creating website content that directly answers customer questions. Those investments work equally well whether you have a storefront or not. Learn more about how <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings for AI</Link> contribute to your citation ecosystem.</p>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Which businesses in your market are winning the AI signals race? Find out now. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <Link href="/blindspot">Run Your Competitive AI Analysis &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* CHEAT SHEET */}
           <span className="ae-section-label" id="cheat-sheet">Cheat Sheet</span>
@@ -515,10 +491,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Save this cheat sheet. Then run your free report to see where you stand on every signal. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* WHAT VIRTUAL BUSINESSES NEED */}
           <span className="ae-section-label">What You Actually Need</span>
@@ -537,10 +510,7 @@ export default function BlogPost() {
           <p>One signal you do not need: a storefront. ChatGPT recommendation rate is only 1.2% across all businesses. Gemini recommends 11% and Perplexity 7.4%. Every one of those rates is driven by authority signals that have nothing to do with your office address. The 32% of consumers already using AI for local business searches are being sent to businesses with the strongest authority profiles, storefront or not. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>You do not need a storefront to win in AI. You need the right signals. Let us show you which ones you are missing.</p>
-            <Link href="/blindspot">Discover Your AI Blind Spots &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -584,10 +554,7 @@ export default function BlogPost() {
           <p>No. ChatGPT, Gemini, and Perplexity do not require a physical address to recommend your business. These platforms evaluate review signals, web mentions, website content quality, and structured data. A service-area business with strong reviews and consistent web mentions will outrank a storefront with thin content and few citations. The 45% overlap between traditional local leaders and AI recommendation leaders proves that physical presence does not determine AI visibility.</p>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>No storefront required. But the right signals are. See which ones your business is missing.</p>
-            <Link href="/blindspot">Get Your Free Signal Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>Does Google AI Overviews rank businesses by proximity, or by quality?</h3>
           <p>Google AI Overviews use proximity as a filter, not a ranking factor. Once AI identifies businesses within a relevant geographic window, ranking is determined by review signals, web mentions, content quality, and authority. Two businesses in the same city compete on reputation and content, not on which one is physically closer to the searcher. Geographic proximity gets you into the pool. Authority determines your position in it.</p>
@@ -596,10 +563,7 @@ export default function BlogPost() {
           <p>Yes. Virtual businesses compete on equal footing with brick-and-mortar in AI search because AI ranks by authority signals, not storefront presence. Focus on building review volume and recency across multiple platforms, earning web mentions through directories and third-party sources, publishing content that directly answers customer questions, and maintaining consistent business data across all platforms. These signals are equally available to virtual and physical businesses.</p>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Virtual or physical, the signals AI reads are the same. Are you building them?</p>
-            <Link href="/blindspot">Check Your AI Readiness &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>Should I use a virtual address, home address, or PO box for my business?</h3>
           <p>For AI visibility purposes, your address type matters less than consistency. Whatever address you use must appear identically across your website, Google Business Profile, Bing Places, Yelp, and all directories. A virtual address that is consistent everywhere outperforms a home address that varies across profiles. PO boxes are generally less effective because they signal to AI that verification of your physical location is limited. A consistent virtual address from a registered service is typically the strongest option for service-area businesses.</p>
@@ -608,10 +572,7 @@ export default function BlogPost() {
           <p>There is no published universal threshold, but research consistently shows that review volume, recency, and rating consistency are the top-ranked signals in AI recommendation algorithms. Businesses with 50 or more recent reviews with consistent ratings significantly outperform those with fewer reviews. Recency matters most: a steady stream of new reviews signals an active, credible business. An older review profile, even with high volume, signals a business that may no longer be operating at the same level.</p>
 
           {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Reviews are the top AI signal. Find out how your review profile looks to AI platforms today.</p>
-            <Link href="/blindspot">Analyze Your Review Signals &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>What is more important for AI: Google Business Profile or my website?</h3>
           <p>Both matter, but for different reasons. Your Google Business Profile helps AI verify your business details and contributes to local trust signals. Your website provides the content depth AI needs to evaluate your expertise and relevance. Neither alone is sufficient. A strong <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">Google Business Profile optimization</Link> paired with substantive website content and web mentions produces the strongest AI visibility. Businesses that neglect either one leave significant signal gaps that competitors can exploit.</p>
@@ -620,19 +581,13 @@ export default function BlogPost() {
           <p>Yes, significantly. <Link href="/blog/directory-listings-that-help-ai-find-business">Directory listings for AI</Link> contribute in two ways: they provide consistent NAP data that AI uses to verify your business identity, and they create third-party citations that AI treats as authority signals. Businesses are 6.5 times more likely to be cited by AI through third-party sources than through their own domain. Directories are a core part of that citation ecosystem and one of the highest-return investments for AI visibility.</p>
 
           {/* CTA 14 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Directories are the 6.5x citation multiplier. See which ones your business is missing.</p>
-            <Link href="/blindspot">Get Your Directory Coverage Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>If I have multiple locations, which address should I focus on?</h3>
           <p>For multi-location businesses, each location needs its own optimized presence with consistent NAP data, location-specific reviews, and location-specific content. AI evaluates each location as a separate entity. Focusing exclusively on your main address while neglecting other locations creates AI visibility gaps that competitors can fill. Build each location as its own authority profile with its own review presence, directory listings, and content strategy. The same signals that matter for a single location matter for each location independently.</p>
 
           {/* CTA 15 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Now you know what AI actually reads. The next step is seeing exactly where your signals stand.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Bottom Line</div>
@@ -652,26 +607,41 @@ export default function BlogPost() {
         </div>
 
         {/* CTA BLOCK */}
-        <div className="ae-cta-block not-prose">
-          <h3>Your Storefront Is Not Your AI Strategy</h3>
-          <p>More than half the businesses winning in traditional local search are invisible in AI recommendations. The signals AI uses to decide who gets recommended have nothing to do with whether you have a physical address. While you focus on foot traffic and Google Maps, competitors are building review volume, earning web mentions, and stacking the authority signals that make AI recommend them first. Get your free Blind Spot Report and see exactly what AI sees about your business right now.</p>
-          <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
         {/* FINAL CTA */}
-        <div className="ae-final-cta">
-          <h2>Stop Letting a Myth Cost You AI Visibility</h2>
-          <p>Fifty-five percent of traditional local search winners are invisible in AI recommendations. Physical address is the last thing on AI&apos;s ranking list. Every month that passes, businesses with strong reviews, broad web mentions, and expert content are widening their AI visibility lead over businesses that assume their storefront is doing the work. ChatGPT only recommends 1.2% of businesses. Gemini recommends 11%. The ones making those lists are not the ones with the nicest offices. They are the ones with the strongest authority profiles. Get your free Blind Spot Report and find out where you actually stand.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   )

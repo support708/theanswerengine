@@ -281,10 +281,7 @@ export default function WhySomeAIPlatformsCiteYouPage() {
             <p>The business impact is significant. Consumers increasingly use AI platforms as discovery engines for local services, professional services, products, and information. If a competitor appears consistently across all six major platforms and you appear on only two, that competitor captures a structurally larger share of AI-mediated discovery. The citation gap is a competitive gap. Diagnosing and closing it is no longer optional for businesses that want to maintain visibility as AI search continues to grow. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which platforms are citing you and which are ignoring you? We map it across all six major AI platforms in one free report.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 2: FOUR DATA SOURCES ── */}
             <span className="ae-section-label" id="four-data-sources">Data Architecture</span>
@@ -324,10 +321,7 @@ export default function WhySomeAIPlatformsCiteYouPage() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what ChatGPT currently says about your business and why? We test it as part of the Blind Spot Report. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 4: PERPLEXITY ── */}
             <span className="ae-section-label" id="perplexity">Platform Deep-Dive</span>
@@ -360,10 +354,7 @@ export default function WhySomeAIPlatformsCiteYouPage() {
             </div>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We audit your data accuracy across all AI platforms as part of the Blind Spot Report. See what each platform currently says about you.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 6: CLAUDE ── */}
             <span className="ae-section-label" id="claude">Platform Deep-Dive</span>
@@ -393,10 +384,7 @@ export default function WhySomeAIPlatformsCiteYouPage() {
             <p>Bing Places for Business profile (claimed, complete, current). Strong Bing organic rankings. LinkedIn company page with complete information, current content, and keyword-relevant description. Bing Webmaster Tools verification and sitemap submission. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Copilot and Grok gaps are often the most overlooked. We check all six platforms in the free Blind Spot Report.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── DECISION MATRIX ── */}
             <div className="ae-decision-matrix not-prose">
@@ -484,10 +472,7 @@ export default function WhySomeAIPlatformsCiteYouPage() {
             </div>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We run this audit for you and deliver a platform-by-platform gap profile with prioritized recommendations. Free, no pitch.</p>
-              <Link href="/blindspot">Get Your Free Cross-Platform Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── BAR GROUP ── */}
             <div className="ae-bar-group not-prose">
@@ -544,10 +529,7 @@ export default function WhySomeAIPlatformsCiteYouPage() {
             <p>Claim and fully optimize your Bing Places for Business profile. Verify your site in Bing Webmaster Tools and submit a sitemap. Ensure your LinkedIn company page is complete, keyword-rich, and regularly updated. Improve your Bing organic rankings for your core queries. B2B businesses especially should treat Copilot as a high-priority platform because LinkedIn integration makes it uniquely relevant to professional-context discovery. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Fixing platform gaps requires knowing which gaps exist first. We find them in the free report so you can prioritize correctly.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Talk Through Your Gap Profile &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 10: FIX VS IGNORE ── */}
             <span className="ae-section-label" id="fix-vs-ignore">Strategic Prioritization</span>
@@ -571,16 +553,10 @@ export default function WhySomeAIPlatformsCiteYouPage() {
             <p>For a broader comparison of how different AI platforms serve different search intent types, see our guide on <Link href="/blog/chatgpt-vs-perplexity-vs-google-ai-local">ChatGPT vs Perplexity vs Google AI for local search</Link>. And for the underlying reason AI answers vary even on the same platform, see our analysis of <Link href="/blog/why-ai-gives-different-answers-every-time">why AI gives different answers every time</Link>.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which gaps matter most for your specific business and audience? We map it in the Blind Spot Report so you know exactly where to focus. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <Link href="/blindspot">Get Your Free Prioritized Gap Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your specific situation with someone who has audited hundreds of businesses? Call us directly.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -647,35 +623,37 @@ export default function WhySomeAIPlatformsCiteYouPage() {
             <p>Some fixes overlap across platforms. Strong organic rankings help Perplexity, Gemini, Claude, and Copilot simultaneously. Structured data accuracy helps Gemini and Perplexity. Wikipedia presence helps ChatGPT, Claude, and Gemini. But closing a Grok gap requires X-specific signals, and closing a ChatGPT training data gap requires earning mentions in sources that feed LLM training pipelines such as Reddit and authoritative press. A full cross-platform strategy addresses each platform&rsquo;s primary data sources in priority order, starting with the gap where the business opportunity is largest.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We map your citation gap profile across all six platforms in one free report. No pitch, just data on where you stand today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to talk through your specific gap profile with a real person? Our team has audited hundreds of businesses across every major industry.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Know Exactly Where AI Is Ignoring You</h2>
-            <p>Only 14% of businesses appear consistently on all four major AI platforms. Find out which platforms are citing you, which are ignoring you, and what data source issue is causing each gap. Our free Blind Spot Report gives you the full cross-platform picture with prioritized fixes.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just the data on where each AI platform stands on your business today.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

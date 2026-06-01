@@ -260,10 +260,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 1 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering whether Google AI Mode can see your business right now? Find out in under 60 seconds. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 2: AI MODE VS AI OVERVIEWS ── */}
           <span className="ae-section-label">Head to Head</span>
@@ -332,10 +329,7 @@ export default function Page() {
           <p>This is the critical takeaway. A business that gets cited in AI Overviews may not get cited in AI Mode at all, and vice versa. These are two separate citation ecosystems operating within the same search engine, each pulling from different source pools to reach similar conclusions. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* ── CTA 2 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Two citation ecosystems. Two chances to be invisible. Check your visibility across both right now. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-            <Link href="/blindspot">Run Your AI Visibility Check</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 3: ZERO-CLICK PROBLEM ── */}
           <span className="ae-section-label">The Data</span>
@@ -384,10 +378,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 3 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>93% zero-click. Is your business one of the 7% that still gets traffic? Or are you already invisible? Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Find Out Where You Stand</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 4: WHO USES IT ── */}
           <span className="ae-section-label">User Behavior</span>
@@ -430,10 +421,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 4 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Complex queries drive the highest-value leads. And AI Mode is intercepting them. See if your business is part of those answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-            <Link href="/blindspot">Check Your AI Citations</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 5: SEO STRATEGY ── */}
           <span className="ae-section-label">Strategy</span>
@@ -496,10 +484,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 5 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Are you inside the answer or below it? The difference is 35% more organic clicks vs. 61% fewer. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-            <Link href="/blindspot">See Where AI Places Your Business</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 6: ECOSYSTEM ── */}
           <span className="ae-section-label">The Big Picture</span>
@@ -546,10 +531,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 6 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Need help figuring out which row describes your business? We will show you the data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <Link href="/blindspot">Get Your Free AI Audit</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 7: FUTURE ── */}
           <span className="ae-section-label">Looking Ahead</span>
@@ -565,10 +547,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 7 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>The window to build AI visibility is narrowing. Find out where you stand before your competitors lock in their advantage. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <Link href="/blindspot">Check Your AI Visibility Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── SECTION 8: THE QUESTION ── */}
           <span className="ae-section-label">Action Required</span>
@@ -647,10 +626,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 8 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Step 1 on the checklist is the hardest to do alone. We built a tool that does it for free.</p>
-            <Link href="/blindspot">Start With a Free AI Audit</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -658,15 +634,15 @@ export default function Page() {
           </div>
 
           {/* ── CTA BLOCK ── */}
-          <div className="ae-cta-block not-prose">
-            <h3>Google AI Mode Is Live. Your Competitors Are Already in the Answer.</h3>
-            <p>93% of AI Mode searches end without a click. The only businesses that benefit are the ones being cited in the response. Get your free Blind Spot Report and see exactly where you stand across Google AI Mode, ChatGPT, Claude, Perplexity, and every major AI platform.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-          </div>
 
           {/* ── FAQ SECTION ── */}
           <span className="ae-section-label">FAQ</span>
@@ -676,10 +652,7 @@ export default function Page() {
           <p>Google AI Mode is a standalone, interactive chat tab within Google Search powered by Gemini 2.5. Unlike AI Overviews, which appear automatically as brief summaries atop regular results, AI Mode is a conversational interface users actively enter. It generates responses that are <strong>4x longer than AI Overviews</strong> and uses a query fan-out technique to search multiple subtopics simultaneously for deeper answers.</p>
 
           {/* ── CTA 9 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI Mode searches 4x deeper than AI Overviews. Is your business showing up in either one?</p>
-            <Link href="/blindspot">Check Both AI Surfaces Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Does Google AI Mode use the same sources as AI Overviews?</h3>
           <p>No. Research analyzing over 730,000 responses found that AI Mode and AI Overviews share only <strong>13.7% citation overlap</strong>, despite reaching 86% semantic similarity in their conclusions. This means the two features draw from largely different source pools, which creates separate opportunities for businesses to earn visibility in each.</p>
@@ -688,10 +661,7 @@ export default function Page() {
           <p>Around <strong>93% of AI Mode searches end without a click</strong> to any external website, compared to 43% for searches with AI Overviews and 34% for traditional Google searches without AI features. This makes AI Mode the most zero-click-heavy search experience Google has ever launched.</p>
 
           {/* ── CTA 10 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Traffic dropping but rankings holding steady? AI Mode might be the reason. See the full picture.</p>
-            <Link href="/blindspot">Diagnose Your Traffic Drop</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Is Google AI Mode available to all users?</h3>
           <p>Google AI Mode launched as a Search Labs experiment in March 2025 and became available to all U.S. users in May 2025. Since October 2025, it has also been available in Germany, Austria, and Switzerland. Expansion to additional markets is expected to continue through 2026.</p>
@@ -700,19 +670,13 @@ export default function Page() {
           <p>AI Mode does not require a completely separate optimization strategy. Google has stated that the same foundational principles apply: helpful, reliable, people-first content. However, because AI Mode cites different sources than AI Overviews and uses deeper query analysis, businesses that only focus on traditional SEO may miss visibility in this new channel entirely.</p>
 
           {/* ── CTA 11 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Same SEO principles, different citation pool. Make sure you are visible in both.</p>
-            <Link href="/blindspot">Run a Full AI Visibility Check</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>What types of queries trigger Google AI Mode responses?</h3>
           <p>AI Mode is designed for complex, multi-layered queries that benefit from deeper exploration. Research questions, comparison queries, planning tasks, and questions with multiple angles are most likely to trigger AI Mode conversations. Simple factual lookups tend to stay within standard search or AI Overviews.</p>
 
           {/* ── CTA 12 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Complex queries drive the most valuable leads. Find out if AI Mode recommends you when they search.</p>
-            <Link href="/blindspot">Get Your Free Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -720,23 +684,35 @@ export default function Page() {
           </div>
 
           {/* ── CTA 13 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>You have seen the data. You know the shift is real. The only question left: does AI recommend your business or your competitor?</p>
-            <Link href="/blindspot">Find Out in 60 Seconds</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         </div>
 
         {/* ── FINAL CTA ── */}
-        <div className="ae-final-cta">
-          <h2>Google AI Mode Is Here. Make Sure Your Business Is Inside the Answer.</h2>
-          <p>93% of AI Mode searches end without a click. The businesses that get cited earn 35% more organic traffic. The businesses that do not get cited lose 61% of their click-through rate. Your competitors are already optimizing for this. Get your free Blind Spot Report and see exactly where you stand across Google AI Mode, ChatGPT, Claude, Perplexity, and every major AI platform.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
         {/* ── AUTHOR CARD ── */}
         <div className="ae-author-card">

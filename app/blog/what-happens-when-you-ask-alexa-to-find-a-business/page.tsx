@@ -306,24 +306,7 @@ export default function Page() {
             </p>
 
             {/* Inline CTA */}
-            <div className="ae-cta-inline flex flex-wrap items-center gap-4 mb-4">
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#F27D24' }}
-              >
-                Check Your Voice Search Visibility
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <a
-                href="tel:+12134442229"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
         </section>
 
@@ -461,17 +444,7 @@ export default function Page() {
             </div>
 
             {/* Inline CTA */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Not sure if Alexa can even find your business right now? We audit your visibility across every major voice and AI platform. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link
-                href="/blindspot"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                Get Your Free AI Visibility Audit
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 2: Where Alexa Pulls Data */}
@@ -525,17 +498,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to understand which directories actually matter for AI and voice search? Read our deep dive. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <Link
-                href="/blog/directory-listings-that-help-ai-find-business"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                Directory Listings That Help AI Find Your Business
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               To understand why data consistency matters so much, it helps to think about how Alexa&apos;s knowledge layer is actually structured. At the outermost layer sits the real-time query interpreter — this is where your spoken request gets parsed into a business category, intent, and location. That parsed intent then passes to the local resolution layer, which matches the query against its cached business index. The businesses in that index were not placed there by their owners. They were promoted into it by the aggregated weight of signals Alexa collected from its data sources over weeks and months. Getting into that index requires sustained, consistent signal pressure from multiple trusted sources simultaneously.
@@ -644,17 +607,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Our team has mapped exactly which signals each voice assistant prioritizes. The overlap is real, but so are the gaps. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a
-                href="mailto:support@theanswerengine.ai"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                Email Us for a Full Voice Search Signal Audit
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 4: Alexa vs Others */}
@@ -725,17 +678,7 @@ export default function Page() {
               The pattern is clear: each voice assistant has a different &quot;front door.&quot; Google Assistant trusts Google data. Siri trusts Apple data. Alexa trusts Yelp and directory data. A business that only optimizes for Google is invisible to two out of three major voice assistants, including the one that owns the majority of smart speakers in American homes.
              Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">See our full breakdown of how Siri evaluates businesses differently from Alexa and Google Assistant. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <Link
-                href="/blog/how-siri-decides-which-businesses-to-suggest"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                How Siri Decides Which Businesses to Suggest
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 5: Who Wins */}
@@ -822,17 +765,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to know how voice assistants and AI platforms like ChatGPT choose between you and your competitors?</p>
-              <Link
-                href="/blog/how-do-i-get-my-business-found-voice-search-ai"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                How Do I Get My Business Found in Voice Search and AI?
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Section 6: Decision Matrix */}
@@ -919,25 +852,7 @@ export default function Page() {
               </table>
             </div>
 
-            <div className="ae-cta-inline mt-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">If you scored &quot;Invisible&quot; or &quot;Partial&quot; in three or more areas, Alexa is almost certainly not recommending your business. That gap is sending customers to your competitors every day.</p>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href="/blindspot"
-                  className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg text-white transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#F27D24' }}
-                >
-                  Get Your Full Alexa Readiness Score
-                </Link>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
-                >
-                  Or call (213) 444-2229
-                </a>
-              </div>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Internal Link Block */}
@@ -1082,17 +997,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="ae-cta-inline mt-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">This cheat sheet covers the signals. Implementing them at scale across 300+ directories is the hard part. That is exactly what we do.</p>
-              <a
-                href="tel:+12134442229"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                Call (213) 444-2229 for a Voice Search Strategy Session
-              </a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* 3-Tier CTA Block (MANDATORY before FAQ) */}
@@ -1164,26 +1069,7 @@ export default function Page() {
               ))}
             </div>
 
-            <div className="ae-cta-inline mt-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Have a specific question about your business and voice search? Our team answers these every day.</p>
-              <div className="flex flex-wrap gap-3">
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
-                >
-                  Email support@theanswerengine.ai
-                </a>
-                <span className="text-gray-600 text-sm">or</span>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
-                >
-                  Call (213) 444-2229
-                </a>
-              </div>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </section>
 
           {/* Author Card */}
@@ -1203,65 +1089,30 @@ export default function Page() {
           </div>
 
           {/* Final CTA */}
-          <div className="ae-final-cta">
-            <div
-              className="rounded-2xl p-10 text-center relative overflow-hidden"
-              style={{
-                background: 'linear-gradient(135deg, rgba(255,106,0,0.15) 0%, rgba(255,106,0,0.05) 50%, rgba(255,106,0,0.15) 100%)',
-                border: '2px solid rgba(255,106,0,0.4)',
-                boxShadow: '0 0 40px rgba(255,106,0,0.15), 0 0 80px rgba(255,106,0,0.05)',
-              }}
-            >
-              <div
-                className="absolute inset-0 rounded-2xl pointer-events-none"
-                style={{
-                  background: 'radial-gradient(ellipse at center, rgba(255,106,0,0.08) 0%, transparent 70%)',
-                }}
-              />
-              <div className="relative">
-                <div
-                  className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}
-                >
-                  <span className="inline-block w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: '#F27D24' }} />
-                  Free AI Visibility Assessment Available Now
-                </div>
-
-                <h2 className="font-plus-jakarta text-3xl md:text-4xl font-extrabold text-white mb-4">
-                  Be the Business Alexa Recommends
-                </h2>
-
-                <p className="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed text-lg">
-                  Get your free AI Blind Spot Report and find out if voice assistants can even find your business. Every day Alexa answers a question in your category, a competitor gets the customer you should have. The fix is concrete, measurable, and faster than most businesses expect.
-                </p>
-
-                <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-                  <Link
-                    href="/blindspot"
-                    className="ae-cta-primary inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white text-lg transition-all hover:opacity-90"
-                    style={{
-                      backgroundColor: '#F27D24',
-                      boxShadow: '0 0 20px rgba(255,106,0,0.4)',
-                    }}
-                  >
-                    Get Your Free Blind Spot Report &#8594;
-                  </Link>
-                  <a
-                    href="tel:+12134442229"
-                    className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-80"
-                    style={{ color: '#F27D24', border: '2px solid rgba(255,106,0,0.4)', backgroundColor: 'rgba(255,106,0,0.08)' }}
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                    (213) 444-2229
-                  </a>
-                </div>
-
-                <p className="text-xs text-gray-500">
-                  No commitment. We audit your AI visibility across Alexa, Siri, ChatGPT, Perplexity, and Google AI and show you where you stand, for free.
-                </p>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
-          </div>
+          </section>
 
         </div>
       </main>

@@ -302,10 +302,7 @@ export default function CertifiedAEOSpecialist() {
             </div>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out where you stand right now. TAE runs a free AERO scan across 10-15 AI-representative queries for your business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <Link href="/blindspot">Get Your Free AERO Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 2 */}
             <span className="ae-section-label" id="aeo-vs-seo">The Core Difference</span>
@@ -379,10 +376,7 @@ export default function CertifiedAEOSpecialist() {
             </table>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your content is citation-ready? See exactly how AI platforms view your business today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <Link href="/blindspot">Check Your AI Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 3 */}
             <span className="ae-section-label" id="what-aeo-does">The Skillset</span>
@@ -422,10 +416,7 @@ export default function CertifiedAEOSpecialist() {
             </div>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your content may already be failing citation tests. TAE&apos;s free AERO scan shows you exactly which queries cite competitors and skip you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Run My Free AERO Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 4 */}
             <span className="ae-section-label" id="certification-landscape">Certification</span>
@@ -454,10 +445,7 @@ export default function CertifiedAEOSpecialist() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Questions about what real AEO work looks like for your business? We are happy to walk you through our methodology. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 5 */}
             <span className="ae-section-label" id="hiring-criteria">Hiring</span>
@@ -511,10 +499,7 @@ export default function CertifiedAEOSpecialist() {
             <p>Industry research on the build-hire-partner decision for AI search (Hireawiz, 2026) notes that the 10-30 hours per week range of AI search work maps better to a specialist agency than to an in-house hire. In-house AEO hiring makes more sense when the work exceeds 40 hours per week across multiple domains and when the business has sufficient content infrastructure to justify a dedicated optimization function. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure whether you need a specialist or if your current content can be restructured? Start with the data. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <Link href="/blindspot">Get Your Free Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Section 6 */}
             <span className="ae-section-label" id="tae-approach">TAE&apos;s Approach</span>
@@ -537,10 +522,7 @@ export default function CertifiedAEOSpecialist() {
             <p>The AERO scan is TAE&apos;s diagnostic tool. It runs 10-15 queries representative of what a potential client would ask an AI assistant, tests them across ChatGPT, Perplexity, and Google AI Overviews, and maps the results against the client&apos;s current content architecture. The free version produces a citation gap report with the three highest-priority fixes. The full engagement produces a 90-day citation roadmap.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See what your AERO scan reveals. We map your citation gaps against competitors and give you a fix list ranked by citation impact.</p>
-              <Link href="/blindspot">Get My Free AERO Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Cheat Sheet */}
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
@@ -590,10 +572,7 @@ export default function CertifiedAEOSpecialist() {
             </table>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Reading is great. Data is better. Get a concrete picture of your AI visibility in under 48 hours.</p>
-              <Link href="/blindspot">Request Your Free Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
             {/* Author Card */}
             <div className="ae-author-card">
@@ -610,19 +589,13 @@ export default function CertifiedAEOSpecialist() {
             </div>
 
             {/* CTA Block */}
-            <div className="ae-cta-block not-prose">
-              <h3>Ready to Win in AI Search?</h3>
-              <p>Join the businesses that are already getting cited by ChatGPT, Claude, and Google AI. The first step is understanding where you stand today.</p>
-              <Link href="/blindspot" className="ae-cta-primary">Claim Your Free Report &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Run Your Free AEO Grader — See Exactly Where AI Ranks You</h3>
+              <p>390 businesses/month search for AEO services. One wins your market. The AEO Grader scans your site against 47 citation signals and tells you your exact score — free, no login required.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Grader →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
               </div>
             </div>
 
@@ -649,30 +622,35 @@ export default function CertifiedAEOSpecialist() {
             <p>An AERO scan is a structured diagnostic that tests your business across 10-15 AI-representative queries, measures citation rate, citation position, and attribution quality on ChatGPT, Perplexity, and Google AI Overviews, and identifies the specific content gaps causing citation failures. TAE offers a free AERO scan. The scan takes 24-48 hours and produces a prioritized fix list, not a generic recommendations report.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still have questions? The fastest way to get answers is to see exactly how AI platforms view your business today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
 
           </div>
 
           {/* Final CTA */}
-          <div className="ae-final-cta">
-            <div className="ae-final-cta-pulse"></div>
-            <h2>Find Out If AI Is Citing Your Business</h2>
-            <p>TAE&apos;s free AERO scan tests 10-15 queries across ChatGPT, Perplexity, and Google AI Overviews. You get your citation rate, a competitor comparison, and the three fixes most likely to move the needle. No retainer. No pitch call required.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free AERO Scan</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your AEO Score Determines Who AI Recommends
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Every month 390 businesses search for AEO services. The Answer Engine's Origin Protocol gets businesses cited where competitors get ignored. One slot per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free AEO Grader Score
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
         </article>
       </main>

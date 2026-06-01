@@ -306,15 +306,7 @@ export default function Page() {
           </div>
 
           {/* CTA Inline 1 */}
-          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="flex-1">
-              <p className="text-sm font-semibold text-white mb-1">Is your platform hurting your AI visibility? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <p className="text-xs text-gray-400">Find out which signals AI platforms are using to evaluate your site right now. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </div>
-            <Link href="/blindspot" className="ae-cta-primary shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap">
-              Get Your Free Blind Spot Report
-            </Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 1 */}
           <div id="the-real-question" className="prose prose-invert prose-lg max-w-none mt-12">
@@ -595,15 +587,7 @@ export default function Page() {
           </div>
 
           {/* CTA Inline 2 */}
-          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="flex-1">
-              <p className="text-sm font-semibold text-white mb-1">See how your site looks to AI right now <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <p className="text-xs text-gray-400">Our Blind Spot Report reveals exactly which AI signals you are missing, on any platform. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-            </div>
-            <Link href="/blindspot" className="ae-cta-primary shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap">
-              Get Your Free Report
-            </Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Section 5 */}
           <div id="content-architecture" className="prose prose-invert prose-lg max-w-none mt-12">
@@ -718,15 +702,7 @@ export default function Page() {
           </div>
 
           {/* CTA Inline 3 */}
-          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="flex-1">
-              <p className="text-sm font-semibold text-white mb-1">Running a Shopify or Squarespace store? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <p className="text-xs text-gray-400">We audit your AI visibility gaps and build the schema, content, and signals AI platforms need to recommend you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            </div>
-            <a href="tel:+12134442229" className="shrink-0 bg-white/[0.06] border border-white/[0.10] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-white/[0.10] transition-colors whitespace-nowrap">
-              Call (213) 444-2229
-            </a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* Takeaway Box */}
           <div className="ae-takeaway not-prose my-10 p-6 bg-[#F27D24]/5 border-l-4 border-[#F27D24] rounded-r-xl">
@@ -940,36 +916,30 @@ export default function Page() {
           </div>
 
           {/* Final CTA with pulse glow */}
-          <div className="ae-final-cta not-prose mt-16 relative overflow-hidden rounded-2xl p-8 sm:p-10 text-center" style={{ background: 'linear-gradient(135deg, #0F1117 0%, #1a0a00 100%)' }}>
-            <div className="absolute inset-0 rounded-2xl border border-[#F27D24]/30" />
-            <div className="absolute inset-0 rounded-2xl" style={{ boxShadow: '0 0 60px rgba(255, 106, 0, 0.15) inset' }} />
-            <div className="relative z-10">
-              <div className="inline-flex items-center gap-2 bg-[#F27D24]/10 border border-[#F27D24]/20 rounded-full px-4 py-1.5 text-xs font-semibold text-[#F27D24] uppercase tracking-wider mb-6">
-                Free Platform Audit
-              </div>
-              <h2 className="font-plus-jakarta text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight">
-                Know Exactly Where Your Platform Is Failing AI
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
               </h2>
-              <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
-                Whether you are on Squarespace, Shopify, or somewhere else, your Blind Spot Report shows the exact AI visibility gaps costing you customers right now.
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
               </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link
-                  href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-base hover:bg-[#D96416] transition-all"
-                  style={{ boxShadow: '0 0 30px rgba(255, 106, 0, 0.4)' }}
-                >
-                  Get Your Free Blind Spot Report
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-                <a href="tel:+12134442229" className="inline-flex items-center gap-2 border border-white/[0.12] text-white px-8 py-4 rounded-xl font-semibold text-base hover:border-white/20 hover:bg-white/[0.04] transition-all">
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
-              <p className="text-gray-600 text-sm mt-6">No commitment. Results in 24 hours.</p>
             </div>
-          </div>
+          </section>
 
           {/* Related Articles */}
           <div className="not-prose mt-16 pt-10 border-t border-white/[0.06]">

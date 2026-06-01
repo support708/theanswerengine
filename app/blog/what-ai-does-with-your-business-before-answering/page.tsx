@@ -244,9 +244,7 @@ export default function Page() {
         </section>
 
         {/* Inline CTA 1 */}
-        <div className="ae-cta-inline">
-          <p>Want to know what AI's current picture of your business looks like? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out what is in it, and what is missing. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
         {/* Stage 1 */}
         <section id="stage-1-ingestion" className="mt-12">
@@ -407,9 +405,7 @@ export default function Page() {
         </section>
 
         {/* Inline CTA 2 */}
-        <div className="ae-cta-inline">
-          <p>Which bucket is your business in? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out exactly where you fall on the AI confidence spectrum. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
         {/* Platform Differences */}
         <section id="platform-differences" className="mt-12">
@@ -534,14 +530,15 @@ export default function Page() {
         </section>
 
         {/* CTA Block */}
-        <div className="ae-cta-block">
-          <h3>Know What AI's Picture of Your Business Actually Looks Like</h3>
-          <p>Our Blind Spot Report analyzes your AI confidence profile across all the signals that matter and shows you exactly where the gaps are. Stop guessing and start building the signals that create citations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-          <Link href="/blindspot" className="ae-cta-primary">
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>ChatGPT Recommends Businesses Every Day — Is Yours One of Them?</h3>
+              <p>You can&apos;t pay to be recommended by ChatGPT. You have to earn it — through authoritative content, citations from credible sources, and consistent entity signals. We build all three. Free scan shows your current ChatGPT citation rate.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free ChatGPT Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
+            </div>
 
         {/* Key Takeaways */}
         <div className="ae-cheat-sheet mt-8">
@@ -670,15 +667,30 @@ export default function Page() {
         </section>
 
         {/* Final CTA */}
-        <div className="ae-final-cta mt-16">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">AI Is Evaluating Your Business Right Now</h2>
-          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">Every time a customer asks AI for a recommendation in your category, AI runs through the pipeline we described. Your Blind Spot Report shows you exactly where you stand in that process and what to build to get on the right side of the confidence threshold.</p>
-          <Link href="/blindspot" className="ae-cta-primary text-lg px-8 py-4">
-            Get Your Free Blind Spot Report
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-          <p className="text-gray-500 text-sm mt-4">Free analysis. No credit card. Know your position in minutes.</p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </>

@@ -221,10 +221,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure if your blog is helping AI find you? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: THE MYTH */}
           <span className="ae-section-label" id="the-myth">The Myth</span>
@@ -256,10 +253,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your competitors may have cracked the AI blog code. See how your content compares. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: WHAT AI READS */}
           <span className="ae-section-label" id="what-ai-reads">How AI Reads Blogs</span>
@@ -303,10 +297,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Does your blog follow AI citation structure? We audit it and tell you exactly what to fix. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <Link href="/contact">Schedule a Content Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: BLOG THAT GETS CITED */}
           <span className="ae-section-label" id="blog-that-gets-cited">Cited vs. Ignored</span>
@@ -394,10 +385,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is your blog in column one or column two? One call identifies which, and what to do about it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-            <Link href="tel:+18004470003">Call Us for a Blog Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: CONTENT TYPES */}
           <span className="ae-section-label" id="content-types">Content Type Data</span>
@@ -502,10 +490,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Which list does your blog fall into? We review it and give you a straight answer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <Link href="/blindspot">Get Your Free Blog Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: SEO VS AEO */}
           <span className="ae-section-label" id="seo-vs-aeo">SEO vs. AEO</span>
@@ -554,10 +539,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Most businesses score under 4 out of 10 on this checklist. Where does yours stand? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <Link href="/contact">Request a Full AEO Content Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: DECISION MATRIX */}
           <span className="ae-section-label" id="decision-matrix">Decision Matrix</span>
@@ -596,10 +578,7 @@ export default function BlogPost() {
           </p>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure which row your current blog falls into? We identify it and build a plan to move you up.</p>
-            <Link href="mailto:hello@theanswerengine.ai">Email Us to Start &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: PLATFORM DIFFERENCES */}
           <span className="ae-section-label" id="platform-differences">Platform Breakdown</span>
@@ -633,10 +612,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Which AI platforms are sending your competitors traffic right now? We find out for you.</p>
-            <Link href="/blindspot">Run Your Competitor AI Comparison &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card">
@@ -653,35 +629,15 @@ export default function BlogPost() {
             </div>
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="ae-cta-block not-prose" id="cta-main">
-            <div className="ae-cta-block-header">
-              <div className="ae-cta-block-eyebrow">Find Out If Your Blog Is Working for AI</div>
-              <h3 className="font-plus-jakarta text-2xl font-bold text-white">Your Blog May Be Invisible to Every AI Platform</h3>
-              <p className="text-gray-400 mt-2">Most business blogs score below 4 out of 10 on AI citation readiness. We audit your content, identify the exact gaps, and build a plan to turn your blog into an AI citation asset.</p>
-            </div>
-            <div className="ae-cta-tiers">
-              <div className="ae-cta-tier">
-                <div className="ae-cta-tier-title">Free Blind Spot Report</div>
-                <div className="ae-cta-tier-desc">Find out if AI can even see your business right now. Takes 60 seconds.</div>
-                <Link href="/blindspot" className="ae-cta-tier-btn ae-cta-tier-btn-primary">Get Free Report &rarr;</Link>
-              </div>
-              <div className="ae-cta-tier">
-                <div className="ae-cta-tier-title">Blog Content Audit</div>
-                <div className="ae-cta-tier-desc">We review your existing blog against AI citation criteria and give you a detailed scorecard.</div>
-                <Link href="/contact" className="ae-cta-tier-btn ae-cta-tier-btn-secondary">Request Audit &rarr;</Link>
-              </div>
-              <div className="ae-cta-tier">
-                <div className="ae-cta-tier-title">Full AEO Program</div>
-                <div className="ae-cta-tier-desc">We rebuild your content strategy from the ground up for maximum AI citation performance.</div>
-                <Link href="tel:+18004470003" className="ae-cta-tier-btn ae-cta-tier-btn-secondary">Call to Discuss &rarr;</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Content That Ranks in Google AND Gets Cited in AI — The Dual-Engine Strategy</h3>
+              <p>Most content agencies optimize for one or the other. The Answer Engine&apos;s Origin Protocol writes content that satisfies both systems in the same pass — Google ranking and AI citation, one market. Free audit to start.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Content Citation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
             </div>
-            <div className="ae-cta-contact-row">
-              <a href="tel:+18004470003" className="ae-cta-contact-item">Call: +1 (800) 447-0003</a>
-              <a href="sms:+18004470003" className="ae-cta-contact-item">Text Us</a>
-              <a href="mailto:hello@theanswerengine.ai" className="ae-cta-contact-item">hello@theanswerengine.ai</a>
-            </div>
-          </div>
 
           {/* FAQ SECTION */}
           <span className="ae-section-label" id="faq">FAQ</span>
@@ -718,26 +674,33 @@ export default function BlogPost() {
           </p>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>These FAQ answers describe the system. We build it for your business.</p>
-            <Link href="/contact">Start Your AEO Engagement &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <div className="ae-final-cta-eyebrow">Ready to Turn Your Blog Into an AI Citation Machine?</div>
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Publishing into a Void</h3>
-            <p className="text-gray-400 mb-6">Every month you publish content that AI cannot cite is a month your competitors have the AI recommendation field to themselves. The businesses showing up in ChatGPT and Perplexity results right now built their content strategy around AI citation principles, not 2019 SEO tactics.</p>
-            <div className="ae-final-cta-actions">
-              <Link href="/blindspot" className="ae-btn-primary">Get Your Free Blind Spot Report</Link>
-              <Link href="/contact" className="ae-btn-secondary">Talk to an AEO Specialist</Link>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Content Should Work in Both Google and AI Search
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Most content only works in one. The Answer Engine's dual-engine strategy makes every piece compound across both channels. Free content audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Audit Your Content for AI Citations →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <div className="ae-final-cta-contact">
-              <span>Call: <a href="tel:+18004470003">+1 (800) 447-0003</a></span>
-              <span>Text: <a href="sms:+18004470003">+1 (800) 447-0003</a></span>
-              <span>Email: <a href="mailto:hello@theanswerengine.ai">hello@theanswerengine.ai</a></span>
-            </div>
-          </div>
+          </section>
 
         </div>
       </article>

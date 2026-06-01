@@ -197,10 +197,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Not sure where your business stands in AI search? Find out in 60 seconds. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Check Your Visibility →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 2 */}
           <span className="ae-section-label">The Reddit Effect</span>
@@ -220,10 +217,7 @@ export default function Page() {
             <p>Reddit communities are aggressive about identifying and downvoting promotional content. Fake accounts, shill posts, and self-promotion get flagged instantly. And AI models can likely detect astroturfing patterns as well. Spamming will hurt your visibility, not help it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Is your competitor getting Reddit mentions while you are invisible? We can show you the gap. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 3 */}
           <span className="ae-section-label">YouTube Strategy</span>
@@ -282,10 +276,7 @@ export default function Page() {
             </tbody>
           </table>
 
-          <div className="ae-cta-inline">
-            <p>Which platforms are citing your competitors but not you? Get the full picture. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-            <Link href="/blindspot">Run Your Free AI Audit →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 4 */}
           <span className="ae-section-label">Platform Variance</span>
@@ -305,10 +296,7 @@ export default function Page() {
             <p>You need to track your AI visibility on ChatGPT, Claude, Perplexity, and Gemini separately. Each platform has its own citation preferences, and a strong presence on one does not guarantee visibility on the others. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>We check your visibility across all major AI platforms. One report, complete coverage. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <Link href="/blindspot">See All Your AI Blind Spots →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 5 */}
           <span className="ae-section-label">Website Myth</span>
@@ -351,10 +339,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Are you building community presence the right way? Let us audit your approach. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            <Link href="/blindspot">Get Your Visibility Score →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 6 */}
           <span className="ae-section-label">Community Strategy</span>
@@ -399,10 +384,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Your competitors started building community presence months ago. Every day you wait, they pull further ahead. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <Link href="/blindspot">See How Far Behind You Are →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Cheat Sheet */}
           <div className="ae-cheat-sheet">
@@ -456,10 +438,7 @@ export default function Page() {
             <p>Community presence compounds over time. A Reddit answer you write today could get upvoted and referenced for years. A YouTube video you publish this month could rank in AI citations for the next decade. The businesses that start now will have an insurmountable advantage over those that wait.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Stop guessing where you are invisible. Our report shows every platform where competitors outrank you.</p>
-            <Link href="/blindspot">Get Your Free Report →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -467,11 +446,15 @@ export default function Page() {
           </div>
 
           {/* CTA Block before FAQ */}
-          <div className="ae-cta-block">
-            <h3>Your Competitors Are Being Discussed Online. Are You?</h3>
-            <p>Our free Blind Spot Report shows exactly which community platforms mention your competitors but not you. No pitch, just the data you need to close the gap.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-          </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
           {/* Author Card */}
           <div className="not-prose">
@@ -495,10 +478,7 @@ export default function Page() {
           <h3>Does Reddit activity affect whether AI recommends my business?</h3>
           <p>Yes, significantly. Nearly half of all AI search citations come from community platforms like Reddit and YouTube. When people discuss your business (or your competitors) on Reddit, AI platforms treat those conversations as credibility signals.</p>
 
-          <div className="ae-cta-inline">
-            <p>Not sure if Reddit is driving AI recommendations for your competitors? We will show you.</p>
-            <Link href="/blindspot">Check Your AI Visibility →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Why do AI platforms cite Reddit threads about my competitors?</h3>
           <p>AI platforms value third-party validation over self-promotion. When real users on Reddit discuss, recommend, or review a business, AI treats that as authentic social proof. If your competitors are being discussed on Reddit and you are not, AI has more data to justify recommending them.</p>
@@ -506,10 +486,7 @@ export default function Page() {
           <h3>How do I get my business mentioned on Reddit without spamming?</h3>
           <p>The key is contributing genuine value to relevant subreddits, not promoting your business directly. Answer questions in your area of expertise. Share insights without linking to your website. Build a reputation as a helpful community member. Organic mentions happen when people recognize your expertise.</p>
 
-          <div className="ae-cta-inline">
-            <p>Want to know which subreddits matter most for your industry? Start with a visibility audit.</p>
-            <Link href="/blindspot">Run Your Free Audit →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>What community platforms matter most for AI search visibility?</h3>
           <p>Reddit and YouTube are the two largest community-driven citation sources for AI platforms. Industry-specific forums, Quora, and professional communities also contribute. The common thread is authentic, user-generated discussions where your business gets mentioned naturally.</p>
@@ -517,10 +494,7 @@ export default function Page() {
           <h3>Do YouTube videos help my business get cited by AI?</h3>
           <p>Yes. YouTube is one of the top community platforms that AI draws citations from. Video content, especially how-to guides and expert explanations, gets referenced by AI when answering related questions. The transcript content is what AI actually reads and cites.</p>
 
-          <div className="ae-cta-inline">
-            <p>Your YouTube strategy could be the missing link in your AI visibility. Find out what is working.</p>
-            <Link href="/blindspot">Get Your Blind Spot Report →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Is it true that AI trusts third-party mentions more than my own website?</h3>
           <p>The data supports this. The vast majority of brand mentions in AI answers originate from third-party pages, not the brand's own website. AI platforms use third-party corroboration as a trust signal, similar to how a recommendation from a friend carries more weight than a company's own advertising.</p>
@@ -528,23 +502,35 @@ export default function Page() {
           <h3>How do online forums influence what ChatGPT recommends?</h3>
           <p>Online forums provide AI with real user opinions, comparisons, and experiences. When multiple forum users recommend the same business in response to genuine questions, AI learns to associate that business with reliability and quality in its domain.</p>
 
-          <div className="ae-cta-inline">
-            <p>Forums, Reddit, YouTube. Where are your competitors winning that you are not?</p>
-            <Link href="/blindspot">Find Your Blind Spots →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
         </div>
 
         {/* Final CTA */}
-        <div className="ae-final-cta">
-          <h2>AI Is Already Deciding Who to Recommend. Make Sure It Picks You.</h2>
-          <p>Your competitors are being discussed on Reddit, cited on YouTube, and mentioned in forums. Our free Blind Spot Report reveals exactly where you are invisible and what it is costing you. No pitch, just the data.</p>
-          <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </>

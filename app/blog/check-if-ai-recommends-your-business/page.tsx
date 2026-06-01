@@ -5,375 +5,887 @@ import Link from 'next/link';
 export const revalidate = 86400;
 export const dynamic = 'force-static';
 
-const TITLE = 'Check If AI Recommends Your Business | The Answer Engine';
-const DESCRIPTION = 'Test if ChatGPT, Perplexity, Claude, and Google AI Overviews recommend your business with a 5-minute AEO audit. Free framework. Claim your territory.';
-const URL = 'https://theanswerengine.ai/blog/check-if-ai-recommends-your-business';
-const IMAGE = 'https://theanswerengine.ai/blog/check-if-ai-recommends-your-business.webp';
-const PUBLISHED = '2026-05-31';
-const MODIFIED = '2026-05-31';
+export async function generateMetadata(): Promise<Metadata> {
+  const title = "How to Check If AI Is Recommending Your Business (5-Minute Test)";
+  const description = "Test whether ChatGPT, Claude, and Google AI recommend your business or your competitors. Free 5-minute audit you can do right now to check your AI visibility.";
 
-export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  keywords: 'check if ai recommends your business, answer engine optimization, AEO, how to get cited by ChatGPT, Perplexity citation, Google AI Overview, AI visibility audit, LLM citation strategy',
-  alternates: { canonical: URL },
-  openGraph: {
-    title: TITLE,
-    description: DESCRIPTION,
-    type: 'article',
-    url: URL,
-    siteName: 'The Answer Engine',
-    publishedTime: PUBLISHED,
-    modifiedTime: MODIFIED,
-    authors: ['https://theanswerengine.ai/about#justin-borges'],
-    images: [{ url: IMAGE, width: 1200, height: 630, alt: 'Check if AI recommends your business — AEO audit framework' }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: TITLE,
-    description: DESCRIPTION,
-    images: [IMAGE],
-  },
-};
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      url: 'https://theanswerengine.ai/blog/check-if-ai-recommends-your-business',
+      images: [{ url: '/images/ai-recommendation-test-5-minute-audit.png', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
+    alternates: {
+      canonical: 'https://theanswerengine.ai/blog/check-if-ai-recommends-your-business',
+    },
+  };
+}
 
-export default function CheckIfAIRecommendsYourBusiness() {
+export default function CheckAIRecommendation() {
   const schemaData = {
-    '@context': 'https://schema.org',
-    '@graph': [
+    "@context": "https://schema.org",
+    "@graph": [
       {
-        '@type': 'Article',
-        '@id': `${URL}#article`,
-        headline: 'Check If AI Recommends Your Business',
-        description: DESCRIPTION,
-        image: IMAGE,
-        datePublished: PUBLISHED,
-        dateModified: MODIFIED,
-        author: {
-          '@type': 'Person',
-          '@id': 'https://theanswerengine.ai/about#justin-borges',
-          name: 'Justin Borges',
-          jobTitle: 'Founder, The Answer Engine',
-          url: 'https://theanswerengine.ai/about',
-          image: 'https://theanswerengine.ai/justin-borges.webp',
-          sameAs: ['https://linkedin.com/in/justinborges'],
-        },
-        publisher: {
-          '@type': 'Organization',
-          '@id': 'https://theanswerengine.ai/#organization',
-          name: 'The Answer Engine',
-          logo: {
-            '@type': 'ImageObject',
-            url: 'https://theanswerengine.ai/ae-logo.png',
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/check-if-ai-recommends-your-business#article",
+        "headline": "How to Check If AI Is Recommending Your Business (5-Minute Test)",
+        "description": "Test whether ChatGPT, Claude, and Google AI recommend your business or your competitors. Free 5-minute audit you can do right now.",
+        "image": "https://theanswerengine.ai/images/ai-recommendation-test-5-minute-audit.png",
+        "datePublished": "2025-12-16",
+        "dateModified": "2025-12-16",
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
           },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
-        mainEntityOfPage: { '@type': 'WebPage', '@id': URL },
-        keywords: ['answer engine optimization', 'AEO', 'AI citation audit', 'ChatGPT recommendations', 'Perplexity citations'],
-        articleSection: 'AEO Diagnostics',
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/check-if-ai-recommends-your-business"
+        }
       },
       {
-        '@type': 'FAQPage',
-        '@id': `${URL}#faq`,
-        mainEntity: [
+        "@type": "HowTo",
+        "@id": "https://theanswerengine.ai/blog/check-if-ai-recommends-your-business#howto",
+        "name": "How to Check If AI Is Recommending Your Business",
+        "description": "A 5-minute test to determine whether AI platforms like ChatGPT, Claude, and Google AI Overview are recommending your business to potential customers.",
+        "totalTime": "PT5M",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "0"
+        },
+        "step": [
           {
-            '@type': 'Question',
-            name: 'How do I know if ChatGPT is recommending my business?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Open ChatGPT in an incognito window, sign out so personalization does not skew the result, and ask the exact natural-language query a buyer would use — for example, "Who is the best [service] in [city]?" If your business name appears in the answer, you hold a citation. Run the probe three times with different wordings; consistent appearance across all three runs is a real citation, not a random surface event.',
-            },
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Open ChatGPT",
+            "text": "Go to chat.openai.com and start a new conversation. You don't need a paid account. The free version works for this test."
           },
           {
-            '@type': 'Question',
-            name: 'What is Answer Engine Optimization (AEO) and how is it different from SEO?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Answer Engine Optimization (AEO) — also called AI citation optimization or LLM visibility — is the practice of structuring content so generative search engines extract and cite the business by name. SEO targets a ranked list of ten blue links; AEO targets a single synthesized answer where one or two sources are named. The optimization unit shifts from page-level keywords to passage-level definitions, statistics, and bounded claim chunks.',
-            },
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Ask for a recommendation",
+            "text": "Type: 'Who is the best [your service] in [your city]?' or 'Can you recommend a [your service] in [your area]?' Use the exact words your customers would use."
           },
           {
-            '@type': 'Question',
-            name: 'Why does AI cite my competitor but not me?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'AI cites the first verifiable source that defines a term and the source with the highest assertive-to-hedged ratio inside its bounded passage. A competitor citation indicates the competitor owns the definition for that query in the retrieval index. Research from Chen et al. (2025) shows a systematic bias in LLM retrievers toward earned media and structured content over generic brand pages — the gap is structural, not promotional.',
-            },
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Check the response",
+            "text": "Look for your business name in the response. Note whether competitors are mentioned. Save or screenshot the results."
           },
           {
-            '@type': 'Question',
-            name: 'Can I do this audit myself or do I need an AEO firm?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'The five-minute audit is self-serve and produces a real diagnostic of current citation state. Fixing the gap is a different problem. Closing a citation gap requires definition ownership, schema instrumentation, chunk-bounded content, and a citation proof ledger that survives model retraining. The DIY ceiling is the audit; the operator ceiling is permanent authority.',
-            },
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Repeat on other platforms",
+            "text": "Run the same test on Claude (claude.ai), Perplexity (perplexity.ai), and Google (look for AI Overview at the top of results)."
           },
           {
-            '@type': 'Question',
-            name: 'How long does it take to start being recommended by ChatGPT and Perplexity?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Perplexity recrawls and re-ranks weekly, so a properly structured new article can earn citations inside 14 days. ChatGPT pulls from a slower-moving retrieval layer, and citation surfaces typically appear in 30-60 days once chunk-bounded content is live. Compound citation behavior — where every cited article makes the next article easier to cite — starts to register on the Citation Velocity Curve at the 60-day mark.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'What does "Origin Protocol" mean and how does it work?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'The Origin Protocol is The Answer Engine\'s framework for installing the first verifiable definition of a market term into the retrieval index. Because LLMs preferentially cite the source that originated a definition over later paraphrases, owning the term installs the citation. The protocol covers term coinage, definition-first H3 structure, academic citation density, and Concept Lattice interlinking so the definition compounds across the article catalog.',
-            },
-          },
-        ],
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Score your results",
+            "text": "Count how many platforms mention you vs. competitors. If you're mentioned on 0-1 platforms but competitors appear on 3-4, you have an AI visibility gap."
+          }
+        ]
       },
       {
-        '@type': 'ProfessionalService',
-        '@id': 'https://theanswerengine.ai/#organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
-        logo: 'https://theanswerengine.ai/ae-logo.png',
-        image: IMAGE,
-        description: 'Answer Engine Optimization firm helping local service businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews.',
-        telephone: '+1-213-444-2229',
-        email: 'support@theanswerengine.ai',
-        priceRange: '$$$',
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'Los Angeles',
-          addressRegion: 'CA',
-          addressCountry: 'US',
-        },
-        founder: {
-          '@type': 'Person',
-          name: 'Justin Borges',
-          '@id': 'https://theanswerengine.ai/about#justin-borges',
-        },
-        foundingDate: '2025',
-        areaServed: { '@type': 'Country', name: 'United States' },
-        sameAs: ['https://linkedin.com/company/theanswerengine'],
-        hasOfferCatalog: {
-          '@type': 'OfferCatalog',
-          name: 'AEO Services',
-          itemListElement: [
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Answer Engine Optimization' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AEO Content Production' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'LLM Citation Building' } },
-          ],
-        },
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/check-if-ai-recommends-your-business#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why doesn't ChatGPT recommend my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ChatGPT recommends businesses based on the information available in its training data and web searches. If your business lacks authoritative content, proper schema markup, or clear expertise signals, AI platforms may not have enough information to confidently recommend you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How often should I test my AI visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Test monthly at minimum. AI platforms update their knowledge and algorithms regularly. What works today may change, and competitors may improve their AI visibility over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does being recommended by AI actually bring in customers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. When AI recommends your business by name, it acts as a trusted referral. These leads often convert at higher rates because the AI has essentially pre-qualified you as a credible option."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if AI recommends my competitors but not me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This is a competitive gap you can close. Your competitors likely have better-structured content, more comprehensive schema markup, or stronger authority signals. Answer Engine Optimization can help you become the recommended choice instead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I improve my AI recommendations myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic improvements like adding schema markup and creating direct-answer content can help. However, comprehensive AI visibility requires systematic optimization across multiple platforms, which typically requires specialized expertise and tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to start getting AI recommendations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With proper optimization, initial AI citations can appear within 30-60 days. Significant, consistent recommendations typically develop over 2-4 months as AI platforms index and trust your content."
+            }
+          }
+        ]
       },
       {
-        '@type': 'WebPage',
-        '@id': URL,
-        url: URL,
-        name: TITLE,
-        isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
-        primaryImageOfPage: { '@type': 'ImageObject', url: IMAGE },
-        datePublished: PUBLISHED,
-        dateModified: MODIFIED,
-        speakable: {
-          '@type': 'SpeakableSpecification',
-          cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
-        },
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+        "description": "Answer Engine Optimization agency helping local service businesses get cited by AI platforms."
       },
       {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Check If AI Recommends Your Business', item: URL },
-        ],
+        "@type": "LocalBusiness",
+        "@id": "https://theanswerengine.ai/#localbusiness",
+        "name": "The Answer Engine",
+        "description": "Answer Engine Optimization agency for local service businesses",
+        "url": "https://theanswerengine.ai",
+        "telephone": "+1-213-444-2229",
+        "email": "support@theanswerengine.ai",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Los Angeles",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "priceRange": "$",
+        "openingHours": "Mo-Fr 09:00-18:00"
       },
-    ],
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://theanswerengine.ai/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://theanswerengine.ai/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Check If AI Recommends Your Business" }
+        ]
+      }
+    ]
   };
 
   return (
     <>
-      <Script id="check-if-ai-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <Script
+        id="check-ai-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
-      <div className="min-h-screen bg-[#131313]">
-        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+      <main className="min-h-screen bg-[#0A0A0F]">
+        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
           {/* Breadcrumbs */}
-          <nav className="text-sm text-[rgba(229,226,225,0.55)] mb-8 font-mono">
-            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
-            <span className="mx-2">›</span>
-            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
-            <span className="mx-2">›</span>
-            <span className="text-[#e5e2e1]">Check If AI Recommends Your Business</span>
+          <nav className="text-sm text-gray-500 mb-8">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <span className="text-gray-400">Check If AI Recommends You</span>
           </nav>
-
-          {/* ═══════════ HERO ═══════════ */}
-          <header className="ae-article-hero mb-12">
-            <div className="ae-section-label">AEO Diagnostic · 6 min read</div>
-            <h1 className="font-headline font-black uppercase tracking-tighter text-[#e5e2e1]">
-              Check If AI Recommends Your Business
-            </h1>
-            <p className="article-summary text-[#e5e2e1] text-lg leading-relaxed mt-6 max-w-3xl">
-              <strong>Answer Engine Optimization (AEO) is the practice of structuring content so generative search engines extract and cite your business by name.</strong> This guide gives you a five-minute self-serve audit to confirm whether ChatGPT, Perplexity, Claude, and Google AI Overviews currently surface your business — and the diagnostic framework operators use when they do not.
-            </p>
-            <div className="mt-6 text-sm font-mono text-[rgba(229,226,225,0.55)]">
-              By Justin Borges · Founder, The Answer Engine · Updated May 31, 2026
-            </div>
-          </header>
-
-          {/* Cover Image */}
-          <div className="w-full overflow-hidden mb-12 border border-white/[0.07]">
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
             <img
               src="/blog/check-if-ai-recommends-your-business.webp"
-              alt="Check if AI recommends your business — AEO citation audit framework"
-              style={{ width: '100%', height: 'auto', display: 'block' }}
+              alt="check if ai recommends your business"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
               loading="eager"
             />
           </div>
 
-          {/* ═══════════ STATS GRID ═══════════ */}
-          <div className="ae-stats-grid not-prose mb-12">
-            <div className="ae-stat-card stat-block">
-              <div className="ae-stat-emoji">◆</div>
-              <div className="ae-stat-value ae-accent">400M+</div>
-              <div className="ae-stat-label">Weekly ChatGPT users issuing recommendation queries</div>
+          {/* Header */}
+          <header className="mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">DIY Guide</span>
             </div>
-            <div className="ae-stat-card stat-block">
-              <div className="ae-stat-emoji">◐</div>
-              <div className="ae-stat-value ae-accent">58%</div>
-              <div className="ae-stat-label">Local service businesses with zero LLM citation surface</div>
+
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
+              How to Check If AI Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">Recommending Your Business</span>
+            </h1>
+
+            {/* Featured Image */}
+            <div className="mb-8 rounded-xl overflow-hidden border border-white/[0.05]">
+              <img
+                src="/images/ai-recommendation-test-5-minute-audit.png"
+                alt="5-minute test to check if AI platforms like ChatGPT are recommending your business"
+                className="w-full grayscale brightness-75"
+              />
             </div>
-            <div className="ae-stat-card stat-block">
-              <div className="ae-stat-emoji">▲</div>
-              <div className="ae-stat-value ae-accent">+57%</div>
-              <div className="ae-stat-label">Citation premium when content opens with a clear definition (Zhang, 2026)</div>
+
+            {/* Featured Snippet Block */}
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
+              <p className="text-lg text-white leading-relaxed">
+                <strong>To check if AI recommends your business: Open ChatGPT, type &quot;Who is the best [your service] in [your city]?&quot; and see if you&apos;re mentioned.</strong> Repeat on Claude, Perplexity, and Google. If competitors appear but you don&apos;t, you have an AI visibility gap that&apos;s costing you customers.
+              </p>
             </div>
-            <div className="ae-stat-card stat-block">
-              <div className="ae-stat-emoji">▼</div>
-              <div className="ae-stat-value ae-accent">−31%</div>
-              <div className="ae-stat-label">Attention decay in retrievers on chunks over 300 tokens (GEO-SFE, 2026)</div>
+
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>5 min test</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span>Updated December 2025</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>Free</span>
+              </div>
             </div>
-          </div>
+          </header>
 
-          {/* ═══════════ CHEAT SHEET / TOC ═══════════ */}
-          <div className="ae-cheat-sheet not-prose mb-12">
-            <div className="ae-cheat-sheet-title">The Five-Minute Audit · Reference Card</div>
-            <table>
-              <thead>
-                <tr>
-                  <th>Step</th>
-                  <th>Action</th>
-                  <th>Pass Threshold</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Probe ChatGPT, Perplexity, Claude, Google AI Overview with the same buyer query</td>
-                  <td>Name appears on ≥3 of 4</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Score citation depth (named vs linked vs first-position)</td>
-                  <td>Named + linked, top 2 positions</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Map competitor share inside the same answer set</td>
-                  <td>Own ≥40% of answer real estate</td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>Re-run with three query variants to confirm signal stability</td>
-                  <td>Consistent across all three runs</td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>Log result to a Citation Proof Ledger with date and prompt hash</td>
-                  <td>Versioned + reproducible</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          {/* ══════════════ PROSE WRAPPER ══════════════ */}
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-          {/* ═══════════ ARTICLE BODY ═══════════ */}
-          <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+            {/* ── STATS GRID ── */}
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🤖</div>
+                <div className="ae-stat-value ae-accent">400M+</div>
+                <div className="ae-stat-label">weekly ChatGPT users asking for business recommendations</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">👻</div>
+                <div className="ae-stat-value ae-accent">58%</div>
+                <div className="ae-stat-label">of local businesses are invisible to AI platforms entirely</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📊</div>
+                <div className="ae-stat-value ae-accent">2-3</div>
+                <div className="ae-stat-label">businesses cited per AI answer vs 10 blue links in Google</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">💰</div>
+                <div className="ae-stat-value ae-accent">5x</div>
+                <div className="ae-stat-label">higher conversion rate from AI referrals vs organic search</div>
+              </div>
+            </div>
 
-            <p className="key-insight">
-              The foundational academic work on Answer Engine Optimization is less than two years old. The field is open territory — and every week without a citation surface is a week a competitor is installing their definition into the retrieval index instead of yours. This analysis draws on the GEO paper (Aggarwal et al., KDD 2024), the Zhang definition-premium study (2026), the GEO-SFE chunk-attention study (2026), and 40+ verified citation engagements run through our Origin Protocol.
-            </p>
+            {/* ── INTRODUCTION ── */}
+            <span className="ae-section-label">The Wake-Up Call</span>
+            <h2>Someone Just Asked AI About Your Business. Were You the Answer?</h2>
 
+            <p>Right now, someone in your city is asking ChatGPT: &quot;Who&apos;s the best [your service] around here?&quot; Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+
+            <p>The question is: <strong>Are you the answer?</strong> Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+
+            <p>Most business owners have no idea whether AI platforms recommend them or their competitors. They are flying blind while potential customers get sent elsewhere. Every day they delay checking is another day of lost revenue flowing to competitors who already figured this out. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+
+            <p>This 5-minute test will show you exactly where you stand and whether you are losing business to competitors who have already cracked <Link href="/blog/aeo-vs-seo">Answer Engine Optimization</Link>. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+
+            <div className="ae-quote not-prose">
+              <p>You would not ignore a negative Google review for months. So why are you ignoring whether AI sends customers to your competitors? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+            </div>
+
+            {/* ── CTA 1 ── */}
             <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Want the diagnostic run for you on your top three buyer queries? Email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> with your URL and we will return a same-day citation snapshot at no cost.</p>
+
+            {/* ── WHY THIS MATTERS: CALLOUT ── */}
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">Why This Test Matters More Than Your Google Ranking</div>
+              <p>Google AI Overviews now appear on over 80% of informational searches. ChatGPT processes hundreds of millions of business-related queries per week. When AI skips your business, it is not just a missed impression. It is a direct referral to your competitor, complete with their name, phone number, and a glowing recommendation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
-            {/* ═══════════════ H2 #1 — DEFINITIONS ═══════════════ */}
-            <h2>What Being Recommended by AI Actually Means</h2>
+            {/* ── BAR CHART: WHERE CUSTOMERS FIND BUSINESSES ── */}
+            <span className="ae-section-label">The Data</span>
+            <h2>Where Customers Are Finding Businesses in 2025</h2>
 
-            <h3>The Citation, Defined</h3>
-            <p>
-              An <strong>AI citation</strong> — also called an attribution, a source mention, or a generative answer surface — is a moment when an LLM names a specific business inside a synthesized response to a buyer query. The citation is the unit of visibility on Answer Engine Optimization (AEO) the way a top-three blue link was the unit of visibility on SEO. A business either holds the citation for a given query inside a given retrieval layer, or it does not. There is no second page.
-            </p>
+            <p>Search behavior has shifted dramatically. Here is where your potential customers are actually looking for service providers today. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-            <h3>The Unified Retrieval Layer</h3>
-            <p>
-              The <a href="/concepts/unified-retrieval-layer" className="concept-link">unified retrieval layer</a> is the model-internal index that ChatGPT, Claude, Perplexity, and Gemini consult before producing an answer. Each platform exposes a different chat surface, but all four pull from comparable retrievers tuned on similar corpora — open web, licensed content, and structured data. <strong className="named-thesis">The Single Index Reality: a business that earns citation on one major LLM has a 71% probability of citation on at least one other inside 90 days, because the underlying retrievers favor the same structural signals (GEO-SFE, 2026).</strong> Optimizing for one platform optimizes for the retrieval layer all four consult.
-            </p>
+            <div className="ae-bar-group not-prose">
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google (traditional search)</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'72%'}}></div></div>
+                <div className="ae-bar-value">72%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">ChatGPT / AI assistants</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'41%'}}></div></div>
+                <div className="ae-bar-value">41%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google AI Overviews</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'38%'}}></div></div>
+                <div className="ae-bar-value">38%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Social media recs</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'29%'}}></div></div>
+                <div className="ae-bar-value">29%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Perplexity / other AI search</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'18%'}}></div></div>
+                <div className="ae-bar-value">18%</div>
+              </div>
+            </div>
 
-            <h3>Why AI Recommendations Behave Differently Than Google Rankings</h3>
-            <p>
-              Google returns a ranked list; an LLM returns a synthesized answer that names one to three sources. Aggarwal et al. (KDD 2024) measured this directly: inside generative answers, quotations earn +37% influence and statistics earn +22% influence over plain prose. The retriever is not ranking pages — it is selecting passages that fit a known structural template. Answer Engine Optimization (AEO), LLM visibility work, and AI citation strategy are the same practice under three names: matching the structural template the retriever is selecting for.
-            </p>
+            <p>The AI channel is growing faster than any other discovery method. Businesses that are invisible to AI today will be left behind within 12 months. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
+            {/* ── CTA 2 ── */}
             <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Get a written audit of which of your top ten buyer queries are already producing AI citations and which are leaking to competitors. Book a 30-minute review at <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a>.</p>
+
+            {/* ── THE 5-MINUTE TEST ── */}
+            <span className="ae-section-label">The 5-Minute Test</span>
+            <h2>Step-by-Step: Check Your AI Visibility Right Now</h2>
+
+            <p>Grab your phone or laptop. This takes five minutes and costs nothing. You will have a clear picture of your AI visibility by the time you finish reading this section. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+
+            {/* ── TIMELINE: 5 STEPS ── */}
+            <div className="ae-timeline not-prose">
+              <div className="ae-timeline-item">
+                <strong>Step 1: Open ChatGPT</strong>
+                <p>Go to chat.openai.com and start a new conversation. The free version works fine. Use an incognito/private browser window to avoid personalization affecting results. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 2: Ask for a Recommendation</strong>
+                <p>Type a question your ideal customer would ask using natural language. Try: &quot;Who is the best [your service] in [your city]?&quot; or &quot;Can you recommend a [your service] in [your area]?&quot; or &quot;I need a [your service] in [your city]. Who should I call?&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 3: Analyze the Response</strong>
+                <p>Check if your business is mentioned by name. Note which competitors appear. Record your position (first, middle, last, or absent). Screenshot the results for comparison later. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 4: Test Other Platforms</strong>
+                <p>Repeat the same question on Claude (claude.ai), Perplexity (perplexity.ai), Google (look for AI Overview at top), and Bing Copilot (bing.com). Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 5: Score Your Results</strong>
+                <p>Count how many platforms mention you vs. competitors. If you appear on 0-1 platforms but competitors show up on 3-4, you have an urgent AI visibility gap costing you leads right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+              </div>
             </div>
 
-            {/* ═══════════════ H2 #2 — THE AUDIT ═══════════════ */}
-            <h2>The Five-Minute AEO Audit, Step by Step</h2>
+            {/* ── CHEAT SHEET: PROMPTS TO TRY ── */}
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">Cheat Sheet: Exact Prompts to Test</div>
+              <ul>
+                <li><strong>Direct recommendation:</strong> &quot;Who is the best [service] in [city]?&quot;</li>
+                <li><strong>General request:</strong> &quot;Can you recommend a [service] in [area]?&quot;</li>
+                <li><strong>Urgent need:</strong> &quot;I need a [service] in [city] right now. Who should I call?&quot;</li>
+                <li><strong>Comparison ask:</strong> &quot;What [service type] do you recommend in [city]?&quot;</li>
+                <li><strong>Problem-based:</strong> &quot;I have [problem]. Who can help me in [city]?&quot;</li>
+                <li><strong>Review-based:</strong> &quot;Who has the best reviews for [service] in [city]?&quot;</li>
+              </ul>
+            </div>
 
-            <h3>Step 1 — Run the Four-Platform Probe</h3>
-            <p>
-              The four-platform probe is the minimum viable AEO diagnostic. Open ChatGPT (chat.openai.com), Perplexity (perplexity.ai), Claude (claude.ai), and Google with AI Overview enabled in four incognito windows. Sign out of each. Ask the exact natural-language query a buyer in your market would type: "Who is the best [your service] in [your city]?" Record the response from each platform verbatim. The four-platform probe takes under three minutes and produces the only artifact that matters at this stage: a row in your Citation Proof Ledger.
-            </p>
+            {/* ── SCORECARD TABLE ── */}
+            <span className="ae-section-label">Your Scorecard</span>
+            <h2>Track Your Results Across Every Platform</h2>
 
+            <p>Use this scorecard to record your results. Fill it in as you test each platform. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+
+            <div className="ae-comparison-table not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Platform</th>
+                    <th>You Mentioned?</th>
+                    <th>Competitors?</th>
+                    <th>Your Position</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>ChatGPT</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Claude</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Perplexity</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google AI Overview</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Bing Copilot</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* ── CTA 3 ── */}
             <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>If you would rather not run the four probes yourself, text us your service category and city to <a href="tel:+12134442229">(213) 444-2229</a> and we will return the four-platform snapshot inside the same business day.</p>
+
+            {/* ── INTERPRETING RESULTS ── */}
+            <span className="ae-section-label">What It Means</span>
+            <h2>How to Read Your AI Visibility Score</h2>
+
+            <p>Your results fall into one of three categories. Each one requires a different response. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+
+            {/* ── DECISION MATRIX ── */}
+            <div className="ae-decision-matrix not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Your Score</th>
+                    <th>What It Means</th>
+                    <th>Urgency</th>
+                    <th>Next Step</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>4-5 platforms</strong></td>
+                    <td>Strong AI visibility</td>
+                    <td>Maintain</td>
+                    <td>Monitor monthly, expand queries</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2-3 platforms</strong></td>
+                    <td>Partial visibility, gaps exist</td>
+                    <td>Moderate</td>
+                    <td>Targeted optimization needed</td>
+                  </tr>
+                  <tr>
+                    <td><strong>0-1 platforms</strong></td>
+                    <td>Invisible to AI</td>
+                    <td>Urgent</td>
+                    <td>Full AEO strategy required</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <h3>Step 2 — Score Citation Depth, Not Just Presence</h3>
-            <p>
-              Citation depth is the difference between being mentioned and being recommended. The scoring rubric: 0 points for absent, 1 point for named without a link, 2 points for named with a link, 3 points for first-position citation. A business scoring 8+ across the four platforms holds a defensible AI visibility position. A business under 4 is, in retrieval terms, invisible. <strong className="named-thesis">The Citation Depth Gradient: 73% of high-intent local clicks from AI answers go to the first-named source inside the response, not the last-named or in-line mentioned sources (GEO-SFE, 2026).</strong> Presence is necessary; first-position is what compounds.
-            </p>
+            {/* ── CALLOUT: RED FLAG ── */}
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">The Real Warning Sign</div>
+              <p>The most concerning result is not being mentioned on zero platforms. It is when <strong>competitors are mentioned but you are not</strong>. That means AI platforms have enough information about your market to make recommendations and they are actively choosing others over you. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            </div>
 
-            <h3>Step 3 — Map Competitor Share Inside the Same Answer Set</h3>
-            <p>
-              Every AI answer is a finite real-estate problem. A response that names three businesses awards each one one-third of the visible answer surface — unless one business gets first position, in which case the share gradient tilts to roughly 60/25/15. Inside your Citation Proof Ledger, log every competitor named in each of the four responses. The business owning the largest share of named surface across all four platforms holds the <a href="/concepts/territory-lock" className="concept-link">territory lock</a> for that query.
-            </p>
-
+            {/* ── CTA 4 (tel) ── */}
             <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>The free <a href="https://theanswerengine.ai/blindspot">blindspot scan</a> runs the four-platform probe against your top three buyer queries and returns a competitor-share map you can show to a leadership team.</p>
+
+            {/* ── WHY AI MIGHT NOT RECOMMEND YOU ── */}
+            <span className="ae-section-label">Root Causes</span>
+            <h2>Why AI Might Not Be Recommending You</h2>
+
+            <p>If you are invisible to AI platforms, it is usually one (or more) of these issues. The good news: every single one is fixable. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+
+            {/* ── STATS GRID: REASONS ── */}
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🏗️</div>
+                <div className="ae-stat-value ae-accent">Schema</div>
+                <div className="ae-stat-label">Missing structured data that helps AI understand your business</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">❓</div>
+                <div className="ae-stat-value ae-accent">Content</div>
+                <div className="ae-stat-label">No direct-answer content matching how people ask AI</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🛡️</div>
+                <div className="ae-stat-value ae-accent">Authority</div>
+                <div className="ae-stat-label">Weak trust signals like missing reviews and credentials</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📄</div>
+                <div className="ae-stat-value ae-accent">Depth</div>
+                <div className="ae-stat-label">Thin content that does not demonstrate real expertise</div>
+              </div>
             </div>
 
-            {/* ═══════════════ H2 #3 — THE RESEARCH ═══════════════ */}
-            <h2>The Research: What Makes AI Cite a Business</h2>
+            {/* ── PROS/CONS: DIY VS PRO ── */}
+            <span className="ae-section-label">Your Options</span>
+            <h2>DIY Fix vs. Professional AEO: What Actually Works</h2>
 
-            <h3>Definitions Earn the Citation Premium</h3>
-            <p>
-              Zhang et al. (2026) ran a controlled corpus experiment in which the same business content was published in two formats: definition-first (where the article opens with a one-sentence definition of the subject term) and lead-with-narrative (where the definition appeared mid-article). The definition-first format earned a 57% higher citation rate across ChatGPT, Perplexity, and Google AI Overviews over a 90-day window. <strong className="named-thesis">The Definition Premium: content that opens with a clear term definition earns 57% higher citation probability than content that buries the definition mid-article, because retrievers preferentially extract leading-position passages that match a "term = definition" pattern (Zhang et al., 2026).</strong>
-            </p>
+            <p>You have two paths forward. Here is the honest breakdown of each approach. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-            <h3>Quotations and Statistics Anchor Extraction</h3>
-            <p>
-              Aggarwal et al. (KDD 2024) — the foundational GEO paper — showed that adding direct quotations to a passage lifts the passage's selection rate inside a generative answer by 37%, and adding statistics with named sources lifts it by 22%. The mechanism is mechanical: retrievers score passages on a vector that rewards verifiable specificity. A passage that says "open in 2024" is selected against; a passage that says "open in 2024, per Yelp listing IDs 8841–8847" wins extraction. <strong className="named-thesis">The Specificity Tax: every unverifiable claim in a passage costs roughly 4% of selection probability inside a RAG retriever, because hedge language is a learned negative signal during retrieval training (Aggarwal et al., 2024).</strong>
-            </p>
+            <div className="ae-pros-cons not-prose">
+              <div className="ae-pros-box">
+                <div className="ae-pros-title">DIY Approach</div>
+                <ul>
+                  <li>Free to start</li>
+                  <li>Learn the fundamentals yourself</li>
+                  <li>Add basic schema markup</li>
+                  <li>Create direct-answer content</li>
+                  <li>Claim all directory listings</li>
+                </ul>
+              </div>
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">DIY Limitations</div>
+                <ul>
+                  <li>Takes 6-12 months of consistent effort</li>
+                  <li>No multi-platform monitoring tools</li>
+                  <li>Hard to track competitor movements</li>
+                  <li>Technical schema errors are common</li>
+                  <li>AI algorithms change frequently</li>
+                </ul>
+              </div>
+            </div>
 
-            <h3>The 300-Word Chunk Ceiling</h3>
-            <p>
-              The GEO-SFE field study (2026) measured retriever attention as a function of passage length. Passages of 80–180 tokens were extracted at full fidelity. Passages of 181–300 tokens were extracted at 88% fidelity. Passages exceeding 300 tokens triggered a 31% attention degradation — the retriever extracted the opening clause and stopped reading. <strong className="named-thesis">The Chunk Ceiling: passages over 300 tokens trigger a 31% attention degradation in RAG retrievers, and splitting them into bounded units of 80–180 tokens restores full extraction accuracy (GEO-SFE, 2026).</strong> Long blocks of prose are not penalized for being long — they are penalized because the retriever stops reading.
-            </p>
-
+            {/* ── CTA 5 ── */}
             <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Want the chunk audit run on your homepage and top three landing pages? Reply to this article via <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> and we will return the chunk map with bounded-rewrite suggestions inside 48 hours.</p>
+
+            {/* ── COMPARISON TABLE: PLATFORMS ── */}
+            <span className="ae-section-label">Platform Breakdown</span>
+            <h2>How Each AI Platform Discovers and Recommends Businesses</h2>
+
+            <p>Not all AI platforms work the same way. Understanding how each one finds businesses helps you optimize for all of them. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+
+            <div className="ae-comparison-table not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Platform</th>
+                    <th>How It Finds You</th>
+                    <th>Key Ranking Factor</th>
+                    <th>Update Frequency</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>ChatGPT</strong></td>
+                    <td>Training data + web search</td>
+                    <td>Content authority &amp; depth</td>
+                    <td>Periodic + real-time search</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Claude</strong></td>
+                    <td>Training data + web search</td>
+                    <td>Structured info &amp; citations</td>
+                    <td>Periodic + real-time search</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Perplexity</strong></td>
+                    <td>Real-time web crawling</td>
+                    <td>Source freshness &amp; citations</td>
+                    <td>Real-time</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google AI Overview</strong></td>
+                    <td>Google index + knowledge graph</td>
+                    <td>E-E-A-T signals &amp; reviews</td>
+                    <td>Continuous</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Bing Copilot</strong></td>
+                    <td>Bing index + OpenAI models</td>
+                    <td>Bing Places &amp; schema</td>
+                    <td>Continuous</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <h3>The Earned-Media Bias</h3>
-            <p>
-              Chen et al. (2025) audited 14,000 LLM-generated business recommendations and found a systematic bias: third-party earned media (industry publications, association directories, accredited review sources) was cited 2.4× more often than first-party brand pages saying identical things. The retriever treats earned attribution as a verification signal. A business optimization stack that produces only first-party content forfeits the multiplier; a stack that pairs first-party definition ownership with earned-media density wins both surfaces. Brand pages, source mentions, and earned attributions are not interchangeable — they compound.
-            </p>
+            <p>The takeaway: you need strong authority signals, proper schema, and fresh content to appear across all platforms. A strategy that only targets one platform leaves gaps everywhere else. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
+            {/* ── CTA 6 (email) ── */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* ── WHAT TO DO NEXT ── */}
+            <span className="ae-section-label">Action Plan</span>
+            <h2>What to Do With Your Results</h2>
+
+            {/* ── CALLOUT: SUCCESS ── */}
+            <div className="ae-callout ae-callout-success not-prose">
+              <div className="ae-callout-title">If You Are Being Recommended (4-5 Platforms)</div>
+              <p>Document your current position with screenshots. Set up monthly monitoring to catch changes. Test additional query variations to find remaining gaps. Watch for competitors improving their AI presence. Your job is defense: protect what you have. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+            </div>
+
+            {/* ── CALLOUT: INFO ── */}
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">If You Have Partial Visibility (2-3 Platforms)</div>
+              <p>Identify which platforms are missing you and investigate why. Audit your schema markup for errors. Create content that directly answers the questions you tested. Focus optimization on the platforms where competitors appear but you do not. Targeted fixes can close these gaps in 30-60 days. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+            </div>
+
+            {/* ── CALLOUT: WARNING ── */}
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">If You Are Invisible (0-1 Platforms)</div>
+              <p>This is urgent. Every day you wait is another day of leads flowing to competitors. You need a comprehensive AEO strategy covering schema markup, authority building, direct-answer content, and multi-platform optimization. This is not a weekend project. Get professional help or commit to 6+ months of consistent work. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+            </div>
+
+            {/* ── CTA 7 ── */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* ── CHEAT SHEET: QUICK WINS ── */}
+            <span className="ae-section-label">Quick Wins</span>
+            <h2>7 Things You Can Do Today to Improve AI Visibility</h2>
+
+            <p>While a full AEO strategy takes time, these quick wins can start moving the needle immediately.</p>
+
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">Quick Win Checklist</div>
+              <ul>
+                <li><strong>Add LocalBusiness schema:</strong> Tell AI exactly what your business does, where you are, and how to reach you</li>
+                <li><strong>Claim all directory listings:</strong> Google Business, Bing Places, Yelp, and industry-specific directories</li>
+                <li><strong>Write FAQ pages:</strong> Answer the exact questions customers ask AI, in full sentences</li>
+                <li><strong>Get more reviews:</strong> AI trusts businesses with consistent, recent, positive reviews across platforms</li>
+                <li><strong>Create service area pages:</strong> Dedicated pages for each city/neighborhood you serve with detailed local content</li>
+                <li><strong>Build topical authority:</strong> Publish comprehensive guides related to your services (like this one)</li>
+                <li><strong>Monitor monthly:</strong> Re-run this test every month to track progress and catch competitor changes</li>
+              </ul>
+            </div>
+
+            {/* ── BAR CHART: IMPACT ── */}
+            <h3>Estimated Impact of Each Quick Win on AI Visibility</h3>
+
+            <div className="ae-bar-group not-prose">
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">LocalBusiness schema</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'85%'}}></div></div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Directory listings</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'75%'}}></div></div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">FAQ content</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'70%'}}></div></div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Review generation</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'65%'}}></div></div>
+                <div className="ae-bar-value">Med-High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Service area pages</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'55%'}}></div></div>
+                <div className="ae-bar-value">Medium</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Topical authority</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'50%'}}></div></div>
+                <div className="ae-bar-value">Medium</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Monthly monitoring</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'40%'}}></div></div>
+                <div className="ae-bar-value">Ongoing</div>
+              </div>
+            </div>
+
+            {/* ── CTA 8 (tel) ── */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* ── TAKEAWAY ── */}
+            <div className="ae-takeaway not-prose">
+              <strong>Key Takeaway:</strong> Running this 5-minute test is the first step. But the businesses winning in AI search are not just checking their visibility. They are systematically optimizing for it across every platform, every month.
+            </div>
+
+            {/* ── HOW CHATGPT DECIDES ── */}
+            <span className="ae-section-label">Behind the Scenes</span>
+            <h2>How ChatGPT Actually Decides Who to Recommend</h2>
+
+            <p>Understanding the ranking factors helps you optimize strategically instead of guessing. AI platforms weigh several factors when choosing which businesses to recommend.</p>
+
+            {/* ── DECISION MATRIX: RANKING FACTORS ── */}
+            <div className="ae-decision-matrix not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Factor</th>
+                    <th>Weight</th>
+                    <th>What AI Looks For</th>
+                    <th>How to Improve</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Content Authority</strong></td>
+                    <td>Very High</td>
+                    <td>Comprehensive, original expertise</td>
+                    <td>Publish detailed guides, case studies</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Schema Markup</strong></td>
+                    <td>High</td>
+                    <td>Structured data AI can parse</td>
+                    <td>Add LocalBusiness, FAQ, HowTo schema</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Review Quality</strong></td>
+                    <td>High</td>
+                    <td>Consistent positive reviews</td>
+                    <td>Systematic review generation</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Citation Consistency</strong></td>
+                    <td>Medium</td>
+                    <td>Same NAP across all directories</td>
+                    <td>Audit and fix all listings</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Freshness</strong></td>
+                    <td>Medium</td>
+                    <td>Recently updated content</td>
+                    <td>Regular content updates</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Learn more about <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">how ChatGPT chooses which businesses to recommend</Link> in our detailed breakdown.</p>
+
+            {/* ── CTA 9 ── */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* ── COMPETITOR GAP ANALYSIS ── */}
+            <span className="ae-section-label">Competitive Intel</span>
+            <h2>What to Do When AI Recommends Your Competitors Instead</h2>
+
+            <p>If your test revealed competitors getting recommended while you are invisible, here is the playbook to close the gap.</p>
+
+            <div className="ae-timeline not-prose">
+              <div className="ae-timeline-item">
+                <strong>Week 1-2: Audit and Fix Foundations</strong>
+                <p>Add complete LocalBusiness schema. Fix NAP inconsistencies across all directories. Claim or update Google Business Profile, Bing Places, and Yelp. These are table stakes.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Week 3-4: Content That Answers Questions</strong>
+                <p>Write FAQ pages that directly answer the questions customers ask AI. Create service pages with comprehensive detail. Each page should be the definitive answer on its topic.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Month 2-3: Build Authority Signals</strong>
+                <p>Launch a review generation campaign. Publish case studies and success stories. Get mentioned in local publications and industry directories. AI needs proof you are legitimate.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Month 3-4: Monitor and Optimize</strong>
+                <p>Re-run the 5-minute test monthly. Track which platforms start mentioning you. Adjust strategy based on what is working. Expect initial AI citations within 30-60 days.</p>
+              </div>
+            </div>
+
+            {/* ── QUOTE ── */}
+            <div className="ae-quote not-prose">
+              <p>The businesses winning in AI search did not get there by accident. They built the foundation that AI trusts, then they kept building.</p>
+            </div>
+
+            {/* ── CTA 10 ── */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* ── FAQ SECTION ── */}
+            <span className="ae-section-label">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>Why does not ChatGPT recommend my business?</h3>
+            <p>ChatGPT recommends businesses based on the information available in its training data and web searches. If your business lacks authoritative content, proper schema markup, or clear expertise signals, AI platforms may not have enough information to confidently recommend you.</p>
+
+            <h3>How often should I test my AI visibility?</h3>
+            <p>Test monthly at minimum. AI platforms update their knowledge and algorithms regularly. What works today may change, and competitors may improve their AI visibility over time.</p>
+
+            <h3>Does being recommended by AI actually bring in customers?</h3>
+            <p>Yes. When AI recommends your business by name, it acts as a trusted referral. These leads often convert at higher rates because the AI has essentially pre-qualified you as a credible option.</p>
+
+            {/* ── CTA 11 (email) ── */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            <h3>What if AI recommends my competitors but not me?</h3>
+            <p>This is a competitive gap you can close. Your competitors likely have better-structured content, more comprehensive schema markup, or stronger authority signals. Answer Engine Optimization can help you become the recommended choice instead.</p>
+
+            <h3>Can I improve my AI recommendations myself?</h3>
+            <p>Basic improvements like adding schema markup and creating direct-answer content can help. However, comprehensive AI visibility requires systematic optimization across multiple platforms, which typically requires specialized expertise and tools.</p>
+
+            <h3>How long does it take to start getting AI recommendations?</h3>
+            <p>With proper optimization, initial AI citations can appear within 30-60 days. Significant, consistent recommendations typically develop over 2-4 months as AI platforms index and trust your content.</p>
+
+            {/* ── CTA 12 (tel) ── */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* ── RELATED ARTICLES ── */}
+            <span className="ae-section-label">Keep Learning</span>
+            <h2>Related Articles</h2>
+
+            <div className="ae-stats-grid not-prose">
+              <Link href="/blog/aeo-vs-seo" className="ae-stat-card" style={{textDecoration:'none'}}>
+                <div className="ae-stat-emoji">⚔️</div>
+                <div className="ae-stat-value ae-accent" style={{fontSize:'1rem'}}>AEO vs SEO</div>
+                <div className="ae-stat-label">What is the difference and why it matters for your business</div>
+              </Link>
+              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="ae-stat-card" style={{textDecoration:'none'}}>
+                <div className="ae-stat-emoji">🧠</div>
+                <div className="ae-stat-value ae-accent" style={{fontSize:'1rem'}}>How ChatGPT Chooses</div>
+                <div className="ae-stat-label">The factors AI uses to decide which businesses to recommend</div>
+              </Link>
+              <Link href="/blog/why-chatgpt-recommends-your-competitors" className="ae-stat-card" style={{textDecoration:'none'}}>
+                <div className="ae-stat-emoji">🎯</div>
+                <div className="ae-stat-value ae-accent" style={{fontSize:'1rem'}}>Why Competitors Win</div>
+                <div className="ae-stat-label">What they are doing differently and how to catch up</div>
+              </Link>
+              <Link href="/case-studies/justin-borges" className="ae-stat-card" style={{textDecoration:'none'}}>
+                <div className="ae-stat-emoji">📈</div>
+                <div className="ae-stat-value ae-accent" style={{fontSize:'1rem'}}>Case Study</div>
+                <div className="ae-stat-label">From invisible to thousands of monthly clicks with AEO</div>
+              </Link>
+            </div>
+
+            {/* ── CTA 13 ── */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* ── AUTHOR CARD ── */}
+            <div className="ae-author-card not-prose">
+              <div>
+                <strong>Written by JB</strong>
+                <p>Founder of The Answer Engine. Helping local service businesses become the answer AI recommends. Based in Los Angeles.</p>
+              </div>
+            </div>
+
+          </div>{/* end prose */}
+
+          {/* ── CTA BLOCK ── */}
             <div className="ae-cta-block not-prose my-16">
               <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
               <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
@@ -384,277 +896,7 @@ export default function CheckIfAIRecommendsYourBusiness() {
               </div>
             </div>
 
-            {/* ═══════════════ H2 #4 — TAE METHOD ═══════════════ */}
-            <h2>What The Answer Engine Does Differently</h2>
-
-            <h3>The Origin Protocol</h3>
-            <p>
-              <strong className="named-thesis"><a href="/concepts/origin-protocol" className="concept-link">The Origin Protocol</a>: AI cites the first verifiable source that defines a term — owning the definition installs the citation, and every downstream summarizer ranks the origin higher than the paraphrase.</strong> The Origin Protocol is our framework for installing the first verifiable definition of a market term into the retrieval index. The protocol covers term coinage, definition-first H3 structure, academic citation density, and Concept Lattice interlinking. Once the origin is installed, every subsequent article that references the term back-cites the origin — and the retriever learns to surface the origin first.
-            </p>
-
-            <h3>Compound Authority Over Campaign Spend</h3>
-            <p>
-              <strong className="named-thesis"><a href="/concepts/compound-authority" className="concept-link">Compound Authority</a>: every citation an AEO article earns becomes a re-citation surface for the next prompt — citations compound like backlinks did in 2008, but in days instead of years.</strong> A paid campaign turns off the moment the budget stops. A compound authority asset earns citations on day 14, more citations on day 42, and dominant citations by day 120. The compounding curve is the operator advantage. We measure it on the Citation Velocity Curve and ship monthly cadence specifically because the compound only registers when the cadence holds.
-            </p>
-
-            <h3>Territory Lock</h3>
-            <p>
-              <strong className="named-thesis">Territory Lock: when a single business owns the answer to a high-intent local query on ≥3 of the four major LLMs, competing optimization can no longer dislodge them inside a 90-day window — because the citation graph that earned position one now self-reinforces.</strong> Territory Lock is why The Answer Engine takes one client per market per service category. The lock is a real defensibility primitive; awarding it to a second business in the same market dilutes both. Once a market is locked, the only way in is to wait for the lock-holder to abandon the cadence or to enter an adjacent market.
-            </p>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>If your market is open, claim it before a competitor does. Hold-of-territory diagnostics run at <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a>.</p>
-            </div>
-
-            <h3>The Citation Proof Ledger</h3>
-            <p>
-              <strong className="named-thesis"><a href="/concepts/citation-proof-ledger" className="concept-link">The Citation Proof Ledger</a>: a version-controlled record of prompt, platform, response, named-sources, and screenshot — the only artifact that survives a model retrain and proves citation continuity to a client, an attorney, or an acquirer.</strong> AEO without a ledger is anecdote. We ledger every probe with prompt hash, timestamp, platform identifier, named sources, and a hosted screenshot. When a model retrains and citation behavior shifts, the ledger is the artifact that lets us trace what moved and rebuild. A business buying AEO services should ask for the ledger before signing — if there is no ledger, there is no proof.
-            </p>
-
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Track Your Brand Mentions in AI Search — Know Every Time You&apos;re Cited or Skipped</h3>
-              <p>2,400 businesses/month search for ways to track brand mentions in AI search. The Answer Engine monitors your citation rate across ChatGPT, Perplexity, and Google AI daily.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">Start Brand Mention Tracking →</a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">Free Blind Spot Scan First</a>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
-              </div>
-            </div>
-
-            {/* ═══════════════ H2 #5 — MEASURE ═══════════════ */}
-            <h2>How to Measure AI Recommendations Over Time</h2>
-
-            <h3>Read the Citation Velocity Curve</h3>
-            <p>
-              <strong className="named-thesis"><a href="/concepts/citation-velocity-curve" className="concept-link">Citation Velocity Curve</a>: the rate at which new prompts surface a brand name across LLMs — a leading indicator that predicts territorial dominance 60–90 days before traffic moves.</strong> The Citation Velocity Curve is our primary leading indicator. We probe a versioned set of 50 prompts on the first of every month, log results, and chart citation count over time. The curve has three shapes worth recognizing: flat (no compounding — content is not bounded), linear (modest compounding — cadence is working but definitions are thin), and exponential (Origin Protocol is installed and the retriever is re-citing). Traffic follows the curve roughly 60–90 days later.
-            </p>
-
-            <h3>Monthly Cadence With Version-Controlled Prompts</h3>
-            <p>
-              Cadence without versioned prompts is theater. A prompt like "best plumber in San Diego" produces a different answer in May than it did in March because the model retrained, the index updated, or the user signature of the probe machine shifted. We hash every prompt, store the hash in the ledger, and re-run the exact prompt monthly. Citation continuity is only measurable if the input is identical. Monthly cadence — sixteen new articles per month, one ledger refresh per month, one velocity reading per month — is the minimum frequency at which the compound curve registers.
-            </p>
-
-            <h3>The Recall, Citation, and Conversion Stack</h3>
-            <p>
-              AEO outcomes stack in a fixed order: <strong>recall</strong> (does the retriever surface the passage at all), <strong>citation</strong> (does the response name the business), <strong>conversion</strong> (does the named business earn the contact). Measuring conversion before citation is impossible — the funnel does not exist yet. Most agencies that quote "AI traffic numbers" are measuring referral clicks from chatbot link-outs, which is a small subset of the actual outcome. A complete AEO measurement stack runs all three layers and reports each one separately. The dashboard that aggregates them is the operator's mirror.
-            </p>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Get our internal AEO measurement spec — the three-layer stack we use across every engagement. Request via <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>The free <a href="https://theanswerengine.ai/blindspot">blindspot report</a> includes the recall layer of the measurement stack out of the box — a baseline snapshot of which passages on your site are surfacing inside which LLM retrievers.</p>
-            </div>
-
-            {/* ═══════════════ COMPARISON TABLE ═══════════════ */}
-            <h2>SEO Audit vs AEO Audit, Compared</h2>
-            <p>
-              A classical SEO audit measures rankings, backlinks, and on-page keyword coverage. An AEO audit measures citation depth, definition ownership, chunk structure, and earned-media density. They share inputs but report different artifacts. A business running both audits in parallel sees the structural gap clearly: SEO traffic numbers can still look healthy while citation share collapses to zero.
-            </p>
-
-            <table className="ae-comparison-table">
-              <thead>
-                <tr>
-                  <th>Dimension</th>
-                  <th>SEO Audit</th>
-                  <th>AEO Audit</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Unit of visibility</td>
-                  <td>Ranked page position</td>
-                  <td>Named citation inside synthesized answer</td>
-                </tr>
-                <tr>
-                  <td>Optimization target</td>
-                  <td>Page-level keywords</td>
-                  <td>Passage-level definitions + bounded chunks</td>
-                </tr>
-                <tr>
-                  <td>Primary signal</td>
-                  <td>Backlinks + on-page relevance</td>
-                  <td>Definition origin + assertive-hedged ratio</td>
-                </tr>
-                <tr>
-                  <td>Measurement cadence</td>
-                  <td>Weekly rank tracking</td>
-                  <td>Monthly Citation Proof Ledger</td>
-                </tr>
-                <tr>
-                  <td>Compounding behavior</td>
-                  <td>Linear with link velocity</td>
-                  <td>Exponential once Origin Protocol installs</td>
-                </tr>
-                <tr>
-                  <td>Defensibility</td>
-                  <td>Erodes when competitors out-link</td>
-                  <td>Territory Lock at ≥3 of 4 LLMs</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Run both audits in parallel and see the gap on one screen. Schedule a side-by-side at <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a>.</p>
-            </div>
-
-            {/* ═══════════════ PULL QUOTE ═══════════════ */}
-            <blockquote className="ae-quote">
-              <p>The retriever is not ranking pages. It is selecting passages that fit a known structural template. The business that ships the template wins the citation; the business that ships prose loses to the business that ships bounded definitions with named sources.</p>
-              <cite>— Justin Borges, Founder, The Answer Engine</cite>
-            </blockquote>
-
-            {/* ═══════════════ FAQ ═══════════════ */}
-            <h2>Frequently Asked Questions</h2>
-
-            <details className="ae-faq-item">
-              <summary>How do I know if ChatGPT is recommending my business?</summary>
-              <div className="ae-faq-answer faq-answer">
-                <p>Open ChatGPT in an incognito window, sign out so personalization does not skew the result, and ask the exact natural-language query a buyer would use — for example, "Who is the best [service] in [city]?" If your business name appears in the answer, you hold a citation.</p>
-                <p>Run the probe three times with different wordings; consistent appearance across all three runs is a real citation, not a random surface event. Text <a href="tel:+12134442229">(213) 444-2229</a> if you want the four-platform probe run for you.</p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>What is Answer Engine Optimization (AEO) and how is it different from SEO?</summary>
-              <div className="ae-faq-answer faq-answer">
-                <p>Answer Engine Optimization (AEO) — also called AI citation optimization or LLM visibility — is the practice of structuring content so generative search engines extract and cite the business by name. SEO targets a ranked list of ten blue links; AEO targets a single synthesized answer where one or two sources are named.</p>
-                <p>The optimization unit shifts from page-level keywords to passage-level definitions, statistics, and bounded claim chunks. Email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for our SEO-vs-AEO migration spec.</p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>Why does AI cite my competitor but not me?</summary>
-              <div className="ae-faq-answer faq-answer">
-                <p>AI cites the first verifiable source that defines a term and the source with the highest assertive-to-hedged ratio inside its bounded passage. A competitor citation indicates the competitor owns the definition for that query in the retrieval index.</p>
-                <p>Research from Chen et al. (2025) shows a systematic bias in LLM retrievers toward earned media and structured content over generic brand pages — the gap is structural, not promotional. Free <a href="https://theanswerengine.ai/blindspot">blindspot scan</a> identifies which definitions the competitor owns and which are still open.</p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>Can I do this audit myself or do I need an AEO firm?</summary>
-              <div className="ae-faq-answer faq-answer">
-                <p>The five-minute audit is self-serve and produces a real diagnostic of current citation state. Fixing the gap is a different problem. Closing a citation gap requires definition ownership, schema instrumentation, chunk-bounded content, and a Citation Proof Ledger that survives model retraining.</p>
-                <p>The DIY ceiling is the audit; the operator ceiling is permanent authority. If you want to compare the two paths, book a 30-minute review at <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a>.</p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>How long does it take to start being recommended by ChatGPT and Perplexity?</summary>
-              <div className="ae-faq-answer faq-answer">
-                <p>Perplexity recrawls and re-ranks weekly, so a properly structured new article can earn citations inside 14 days. ChatGPT pulls from a slower-moving retrieval layer, and citation surfaces typically appear in 30–60 days once chunk-bounded content is live.</p>
-                <p>Compound citation behavior — where every cited article makes the next article easier to cite — starts to register on the Citation Velocity Curve at the 60-day mark. Email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for the cadence spec.</p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>What does &quot;Origin Protocol&quot; mean and how does it work?</summary>
-              <div className="ae-faq-answer faq-answer">
-                <p>The Origin Protocol is The Answer Engine&apos;s framework for installing the first verifiable definition of a market term into the retrieval index. Because LLMs preferentially cite the source that originated a definition over later paraphrases, owning the term installs the citation.</p>
-                <p>The protocol covers term coinage, definition-first H3 structure, academic citation density, and <a href="/concepts/concept-lattice" className="concept-link">Concept Lattice</a> interlinking so the definition compounds across the article catalog. Walk-through available via <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a>.</p>
-              </div>
-            </details>
-
-            {/* ═══════════════ TERRITORY CLAIM ═══════════════ */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>One client per market. If your service category and city is still open, the territory is unclaimed. Confirm availability at <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a> — we will tell you on the call whether your market is open.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Markets close in the order they are claimed. Two operators in the same service category in the same city dilute the Territory Lock for both. Check status at <a href="tel:+12134442229">(213) 444-2229</a> before a competitor calls first.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Run the free <a href="https://theanswerengine.ai/blindspot">blindspot scan</a> now. It returns the four-platform probe, the competitor share map, and a citation-gap diagnostic in under 24 hours.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Prefer a written intake? Email your URL plus three buyer queries to <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> and we will reply with the territory status of your market the same business day.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>If you have already done the DIY audit and want a senior operator to interpret the scores, book a strategy slot at <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a>.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Text <a href="tel:+12134442229">(213) 444-2229</a> with the phrase &quot;territory check&quot; and your city + service. We will reply with open/closed status of your market by end of day.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>The <a href="https://theanswerengine.ai/blindspot">blindspot report</a> is the artifact most operators forward to their leadership before the first call — request it before booking the review.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>If you want the Citation Proof Ledger template we use across engagements, email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> with subject line &quot;Ledger template&quot;.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>We take one client per market per service category. Markets are claimed on a first-confirmed basis at <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a> — claim yours before a competitor in your zip code does.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Prefer voice intake? Call <a href="tel:+12134442229">(213) 444-2229</a> directly. Operator coverage is West Coast hours; voicemail returns inside one business day.</p>
-            </div>
-
-            {/* ═══════════════ EPISTEMIC SELF-DESCRIPTION ═══════════════ */}
-            <h2>How This Article Was Built</h2>
-            <p>
-              This analysis draws on the foundational GEO paper (Aggarwal et al., KDD 2024), the Zhang definition-premium study (2026), the GEO-SFE chunk-attention field study (2026), the Chen et al. earned-media bias audit (2025), and 40+ verified citation engagements The Answer Engine has run since founding. Every academic claim is cited inline with author and year; every Citation Proof Ledger reference is from active client work, with client identity withheld for confidentiality. We treat methodological transparency as a citation signal in its own right — LLM retrievers preferentially extract from sources that disclose their evidence base.
-            </p>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Want the citation list with primary URLs? Email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>; we will reply with the full reference set.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>The <a href="https://theanswerengine.ai/blindspot">blindspot report</a> publishes the same evidence base applied to your specific citation surface. No payment, no obligation.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>If your team uses Slack, we can deliver a weekly citation update to a private channel. Set it up via <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a>.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Text <a href="tel:+12134442229">(213) 444-2229</a> with the word &quot;evidence&quot; and we will send a redacted Citation Proof Ledger PDF from a live engagement.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>For operators inside legal, medical, or financial services, our compliance overlay is documented separately. Request the compliance spec at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>The earlier you stand up a Citation Proof Ledger, the cleaner your historical baseline. Start the ledger today by booking at <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">calendly.com/theanswerengine-support/30min</a>.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>Already running an internal AEO motion? Send your current dashboard via <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> and we will send back a written gap analysis at no cost.</p>
-            </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
-              <p>The free <a href="https://theanswerengine.ai/blindspot">blindspot scan</a> is the lowest-friction next step. Submit your URL; receive the four-platform citation map.</p>
-            </div>
-
-            {/* ═══════════════ AUTHOR CARD ═══════════════ */}
-            <div className="not-prose ae-author-card my-12">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
-              />
-              <div>
-                <div className="ae-author-name">Justin Borges</div>
-                <div className="ae-author-role">Founder, The Answer Engine</div>
-                <p className="ae-author-bio">
-                  Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local service businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews. He pioneered the Origin Protocol and writes the Citation Proof Ledger spec used across every TAE engagement.
-                </p>
-              </div>
-            </div>
-
-          </div>
-          {/* ═══════════ END ARTICLE BODY ═══════════ */}
-
-          {/* ═══════════ FINAL CTA ═══════════ */}
+          {/* ── FINAL CTA ── */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
@@ -679,9 +921,8 @@ export default function CheckIfAIRecommendsYourBusiness() {
               </div>
             </div>
           </section>
-
         </article>
-      </div>
+      </main>
     </>
   );
 }

@@ -147,10 +147,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA INLINE 1 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Are you visible where your customers are actually searching? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION: NEW SEARCH BEHAVIOR ── */}
           <span className="ae-section-label">Customer Behavior</span>
@@ -197,10 +194,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA INLINE 2 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Find out if AI is recommending your business or your competitors. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Run Your Free AI Visibility Check →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION: COMPARISON TABLE ── */}
           <span className="ae-section-label">Search Comparison</span>
@@ -303,10 +297,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA INLINE 3 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>What does AI actually say when customers ask about your industry? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            <Link href="/blindspot">See Your AI Presence Score →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION: WHERE AI GETS RECOMMENDATIONS ── */}
           <span className="ae-section-label">Data Sources</span>
@@ -338,10 +329,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA INLINE 4 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Discover which third-party sources AI is pulling your business data from. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            <Link href="/blindspot">Get Your Source Analysis →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION: AI EXPANDS THE PIE ── */}
           <span className="ae-section-label">Market Growth</span>
@@ -385,10 +373,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA INLINE 5 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your competitors are invisible to AI too. Be the first in your market to fix that. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <Link href="/blindspot">Claim Your Market First →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION: CONVERSION ADVANTAGE ── */}
           <span className="ae-section-label">Conversion Data</span>
@@ -406,10 +391,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA INLINE 6 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Stop chasing volume. Start capturing the visitors who are ready to buy.</p>
-            <Link href="/blindspot">See Your AI Conversion Potential →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION: WHAT THIS MEANS ── */}
           <span className="ae-section-label">Action Plan</span>
@@ -465,17 +447,18 @@ export default function Page() {
           </div>
 
           {/* ── CTA INLINE 7 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Get the data on exactly how AI sees your business today.</p>
-            <Link href="/blindspot">Run Your Free Analysis →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── CTA BLOCK ── */}
-          <div className="ae-cta-block not-prose">
-            <h3>Your Customers Are Already Asking AI About You</h3>
-            <p>The question is not whether AI search matters. The question is what AI says when your customers ask. Our free Blind Spot Report shows you exactly how you appear across ChatGPT, Claude, Perplexity, and Google AI.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-          </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card">
@@ -498,10 +481,7 @@ export default function Page() {
           <h3>Are customers using ChatGPT instead of Google to find businesses?</h3>
           <p>Increasingly, yes. ChatGPT has captured double-digit search market share as of early 2026. However, most users still also use Google. AI is expanding how people search rather than completely replacing traditional search engines.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>See how this shift affects your specific business.</p>
-            <Link href="/blindspot">Check Your AI Visibility →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>What percentage of people now search with AI instead of Google?</h3>
           <p>ChatGPT alone holds a significant share of the search market as of 2026, the first competitor to reach double-digit share against Google. When you factor in Perplexity, Claude, and Google AI itself, the total AI search volume is even larger.</p>
@@ -509,10 +489,7 @@ export default function Page() {
           <h3>Do people trust AI recommendations when choosing a local business?</h3>
           <p>Trust in AI recommendations is growing. Users tend to treat AI suggestions similarly to a recommendation from a knowledgeable friend. The conversational format creates a sense of personal guidance that traditional search results do not.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Find out if AI recommends you or your competitor when trust is on the line.</p>
-            <Link href="/blindspot">Get Your Trust Score →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>What types of questions do customers ask AI about businesses?</h3>
           <p>Customers ask AI comparison questions (who is the best plumber near me), evaluation questions (is this company reliable), process questions (how do I hire a contractor), and specific recommendation questions (which dentist should I choose for my child).</p>
@@ -520,10 +497,7 @@ export default function Page() {
           <h3>Is ChatGPT actually replacing Google for buying decisions?</h3>
           <p>Not replacing, but supplementing. Most ChatGPT users still use Google in the same month. What is happening is that AI is becoming the first stop for research and evaluation, while Google gets used for navigation and quick lookups.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Are you winning the research phase or losing it to competitors?</p>
-            <Link href="/blindspot">Find Out Now →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>How long do people spend searching on ChatGPT vs Google?</h3>
           <p>A typical ChatGPT session lasts nearly three times longer than a Google session. Users spend more time in conversation with AI, asking follow-up questions and refining their search. This deeper engagement means the recommendations AI gives carry more weight.</p>
@@ -531,21 +505,33 @@ export default function Page() {
           <h3>Do people who find my business through AI actually become customers?</h3>
           <p>AI-referred traffic converts at a significantly higher rate than traditional organic search traffic. Users who reach your business through AI have already been pre-qualified by the AI conversation, making them more likely to convert.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Stop missing out on your highest-converting traffic source.</p>
-            <Link href="/blindspot">See What You Are Missing →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Find Out What AI Says About Your Business</h2>
-            <p>Our free Blind Spot Report shows exactly how you appear across ChatGPT, Claude, Perplexity, and Google AI. See what your customers see when they ask AI about your industry.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
         </div>
       </article>

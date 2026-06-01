@@ -284,10 +284,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>What makes this especially challenging is that only 30% of brands stay visible from one AI response to the next, and just 20% remain present across five consecutive queries on the same topic. Even established brands struggle with consistency. For startups with thin signal networks, the odds are worse.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out exactly how AI platforms see your startup right now, before your competitors do. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* HOW AI BUILDS TRUST */}
             <span className="ae-section-label">The Mechanics</span>
@@ -306,10 +303,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>Our deep-dive into <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">what makes content that ChatGPT actually trusts</Link> covers the specific content signals AI platforms look for when deciding whether to recommend a source.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your startup has the right trust signals? Our Blind Spot Report maps every gap. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <Link href="/blindspot">Run a Free AI Visibility Check &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* THE SIGNAL GAP */}
             <span className="ae-section-label">The Gap</span>
@@ -348,10 +342,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>Understanding the specific relationship between <Link href="/blog/does-domain-age-matter-for-ai-search-visibility">domain age and AI search visibility</Link> will help you calibrate realistic expectations for your timeline. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Know exactly where your signal gaps are before spending another dollar on marketing.</p>
-              <Link href="/blindspot">Get the Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CONTENT CLARITY */}
             <span className="ae-section-label">Content Strategy</span>
@@ -374,10 +365,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>If your startup&apos;s blog exists but is not generating AI citations, the problem is usually not that you are not writing enough. It is that what you are writing is not structured for AI to consume. Our analysis of <Link href="/blog/why-your-blog-not-getting-ai-citations">why blogs fail to get AI citations</Link> breaks down the specific structural issues that cause this.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your startup&apos;s content structured for AI to cite it? Find out in minutes. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Run the Free Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* THIRD-PARTY PRESENCE */}
             <span className="ae-section-label">External Signals</span>
@@ -452,10 +440,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>The pattern is clear: the signals AI trusts most are the ones that require external validation. A startup that spends its entire marketing budget on its own website while ignoring third-party signal development is optimizing the wrong variable. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our Blind Spot Report scores your startup&apos;s third-party signal density across every major AI data source.</p>
-              <Link href="/blindspot">See Where You Stand for Free &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* DOMAIN FRESHNESS */}
             <span className="ae-section-label">The Age Factor</span>
@@ -474,10 +459,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>If your website itself was recently launched, the specific dynamics at play are detailed in our analysis of <Link href="/blog/why-new-website-invisible-to-ai">why new websites are invisible to AI</Link> and what the path to visibility actually looks like. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>You cannot fix what you cannot measure. Start with the free Blind Spot Report.</p>
-              <Link href="/blindspot">Audit Your AI Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* COMPARISON: STARTUP vs ESTABLISHED */}
             <span className="ae-section-label">Head to Head</span>
@@ -546,10 +528,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>The pattern that emerges from this comparison is instructive. Startups are genuinely behind in most dimensions, but two areas offer real advantages: content specificity and content freshness. These are the leverage points. A startup that leans into razor-sharp positioning and consistent content updates can close the citation gap faster than most founders realize.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly how your startup scores across every dimension that AI uses to recommend businesses. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get the Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* TIMELINE */}
             <span className="ae-section-label">What to Expect</span>
@@ -682,10 +661,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know which of these your startup is missing? The Blind Spot Report tells you in plain language.</p>
-              <Link href="/blindspot">Get Your Free Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* BUDGET REALITY */}
             <span className="ae-section-label">The Investment Reality</span>
@@ -704,10 +680,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>What is clear from the data is that the cost of invisibility compounds. AI referral traffic converts at 14.2% compared to Google&apos;s 2.8%. A startup that is invisible in AI search is not just missing traffic. It is missing the highest-converting traffic channel in the digital landscape.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Understand what AI visibility would actually be worth to your startup before deciding where to invest.</p>
-              <Link href="/blindspot">Start with the Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* 3-TIER CTA BLOCK */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -772,42 +745,33 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>In 2026, AI search and traditional SEO share enough foundational signals that optimizing for one helps with the other. However, AI search is where the growth is. AI referral traffic is growing approximately 1% month over month across all industries, while traditional organic search traffic is being compressed by AI Overviews. For a startup choosing where to invest limited marketing resources, building an AI-first foundation that also supports traditional SEO delivers better long-term return than the reverse.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to stop being invisible to AI? The first step is understanding exactly where you stand.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* FINAL CTA */}
-            <div className="ae-final-cta not-prose">
-              <div className="ae-final-cta-glow" />
-              <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-                Your Startup Deserves to Be in the Answer
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
               </h2>
-              <p className="text-gray-400 mb-8 max-w-xl mx-auto leading-relaxed">
-                Every day your startup is invisible to AI, high-intent buyers are being directed to your competitors. The Blind Spot Report shows you the exact gaps in your signal network and the clearest path to fixing them.
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
               </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link
-                  href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-[#F27D24]/25"
-                >
-                  Get Your Free Blind Spot Report
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/5 transition-colors"
-                >
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  Call (213) 444-2229
-                </a>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
-              <p className="text-gray-500 text-sm mt-6">Free report. No credit card. Results in 48 hours.</p>
             </div>
+          </section>
 
           </div>
         </article>

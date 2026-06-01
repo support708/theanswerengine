@@ -299,10 +299,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>The traditional CPA growth strategy — referrals from existing clients and directory listings on Yelp or Google Business Profile — no longer works the way it once did. Referrals still happen, but the first thing a referred prospect does is ask an AI assistant to validate the recommendation. Directory listings still exist, but AI systems do not pull from them the same way traditional search does. Copilot, ChatGPT, and Claude are now the gatekeepers between your firm and your next client. If these platforms do not recognize your firm as a trusted, credible source, you are invisible to a growing portion of the market — regardless of how many referrals or five-star reviews you have accumulated. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your firm.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: YMYL */}
             <span className="ae-section-label" id="ymyl-stakes">The YMYL Factor</span>
@@ -324,10 +321,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when someone searches for an accountant like you?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3: TRUST SIGNALS */}
             <span className="ae-section-label" id="trust-signals">Trust Signals</span>
@@ -360,10 +354,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>For YMYL financial content, trustworthiness is the most heavily weighted factor. AI checks whether your site uses HTTPS, whether your contact information is verifiable, whether you have a clear privacy policy, and whether your content cites official sources like IRS publications, state tax codes, and GAAP standards.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your firm scores on E-E-A-T signals compared to competitors in your market. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* COMPARISON TABLE */}
             <div className="overflow-x-auto">
@@ -421,10 +412,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>To understand exactly how Microsoft Copilot evaluates and recommends businesses, read our deep dive on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure how Copilot, ChatGPT, and Google AI see your firm? We check all of them.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* DECISION MATRIX */}
             <div className="ae-decision-matrix not-prose">
@@ -481,10 +469,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover which AI platforms are already talking about firms in your market. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5: SEASONAL */}
             <span className="ae-section-label" id="seasonal-advantage">Timing Matters</span>
@@ -501,10 +486,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>Seasonal search patterns also affect what kind of content AI platforms prioritize at different times of year. During tax season, AI favors content about filing deadlines, deduction strategies, and tax preparation. During Q4, year-end planning and tax projection content rises. Firms that have dedicated, up-to-date pages for each of these seasonal topics capture searches across the entire calendar. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your firm positioned to capture the next wave of seasonal AI searches?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: OLD PLAYBOOK */}
             <span className="ae-section-label" id="old-playbook">The Old Playbook</span>
@@ -523,10 +505,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>For a deeper understanding of how AI platforms evaluate and select sources, see our article on <Link href="/blog/does-schema-markup-help-ai-search">whether schema markup helps you show up on AI search</Link>. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still relying on the old playbook? See what AI platforms actually see when they look at your firm.</p>
-              <Link href="/blindspot">Check Your AI Visibility Now &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* PROS/CONS */}
             <div className="ae-pros-cons not-prose">
@@ -557,10 +536,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering which category your firm falls into? Our report shows you exactly where you stand. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 7: MISTAKES */}
             <span className="ae-section-label" id="mistakes">Common Pitfalls</span>
@@ -589,10 +565,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>Schema markup tells AI platforms exactly what your content is about in a machine-readable format. AccountingService schema, ProfessionalService schema, FAQPage schema, and Review schema all help AI understand your firm&apos;s offerings, location, and credentials. Without it, AI platforms have to guess, and for YMYL content, guessing means not citing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes? Our free report identifies every AI visibility gap in your firm&apos;s presence.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* 4-TIER AI READINESS MATRIX */}
             <div className="ae-decision-matrix not-prose">
@@ -680,10 +653,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>For a look at how another regulated profession is handling the same challenge, see our guide on <Link href="/blog/how-lawyers-get-found-ai-search">how lawyers get found on AI search</Link>. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk strategy with a human? We work with professional service firms every day.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* WHAT IS COMING NEXT */}
             <span className="ae-section-label">Looking Ahead</span>
@@ -698,10 +668,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The firms acting now will own their market in AI search. The ones waiting will be playing catch-up.</p>
-              <Link href="/blindspot">See Where Your Firm Stands &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -721,15 +688,17 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your specialization and market? We do that. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 13 */}
-            <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
           </div>
@@ -778,24 +747,37 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>Absolutely. AI search queries for accounting services spike dramatically during tax season, year-end planning periods, and quarterly filing deadlines. Firms that have their AI presence optimized before these seasonal surges capture the majority of AI-driven referrals. Firms that wait until the busy season has started are already too late because AI platforms need time to crawl, index, and build confidence in your content.</p>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where your firm stands in AI search? The report is free and takes 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your specialization? Call us and we will walk you through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta">
-            <h2>Get Your Firm Found by the Clients Who Need You</h2>
-            <p>See exactly where your accounting firm stands on ChatGPT, Perplexity, and Google AI with a free Blind Spot Report.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card">

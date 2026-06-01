@@ -270,10 +270,7 @@ export default function Page() {
           </div>
 
           {/* -- CTA 1 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering how fresh your content looks to AI platforms? Find out exactly where you stand. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* -- THE DATA -- */}
           <span className="ae-section-label">The Data</span>
@@ -322,10 +319,7 @@ export default function Page() {
           <p>This is not a technical curiosity. It is a competitive advantage hiding in plain sight. While most businesses treat their website as a set-and-forget asset, the ones updating regularly are capturing a growing share of AI recommendations. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* -- CTA 2 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your competitors who update monthly are getting 3.2x more AI citations. See how you compare. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Run a Free AI Visibility Check</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* -- PLATFORM COMPARISON -- */}
           <span className="ae-section-label">Platform Breakdown</span>
@@ -384,10 +378,7 @@ export default function Page() {
           </div>
 
           {/* -- CTA 3 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure how Perplexity, ChatGPT, and Google AI see your content? We check all three. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <Link href="/blindspot">See Your Multi-Platform Visibility</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* -- REAL VS FAKE UPDATES -- */}
           <span className="ae-section-label">Update Quality</span>
@@ -431,10 +422,7 @@ export default function Page() {
           </div>
 
           {/* -- CTA 4 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering which of your pages need updates most urgently? Our report identifies the gaps. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-            <Link href="/blindspot">Find Your Content Gaps</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* -- COST OF INACTION -- */}
           <span className="ae-section-label">The Cost</span>
@@ -486,10 +474,7 @@ export default function Page() {
           <p>If your competitors are updating their content regularly and you are not, the gap in AI visibility will widen every month. For more on how this shift is reshaping search, read our analysis of <Link href="/blog/google-ai-overviews-replacing-search">how Google AI Overviews are replacing traditional search</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           {/* -- CTA 5 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>How long has it been since your website was updated? See how AI platforms score your freshness. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-            <Link href="/blindspot">Check Your Freshness Score</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* -- FRESHNESS CALENDAR -- */}
           <span className="ae-section-label">Action Plan</span>
@@ -547,10 +532,7 @@ export default function Page() {
           </div>
 
           {/* -- CTA 6 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Need help identifying which pages to update first? Our report prioritizes your opportunities. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            <Link href="/blindspot">Get Your Prioritized Action Plan</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* -- FRESHNESS + AUTHORITY -- */}
           <span className="ae-section-label">The Full Picture</span>
@@ -600,10 +582,7 @@ export default function Page() {
           </div>
 
           {/* -- CTA 7 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>Fresh content is only half the equation. Find out if your authority signals are strong enough for AI.</p>
-            <Link href="/blindspot">Audit Your AI Authority Signals</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* -- COMPOUND GROWTH -- */}
           <span className="ae-section-label">Compound Effect</span>
@@ -646,21 +625,18 @@ export default function Page() {
           </div>
 
           {/* -- CTA 8 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>The best time to start was three months ago. The second best time is right now.</p>
-            <Link href="/blindspot">Start Building Your AI Visibility Today</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* -- CTA BLOCK (3-tier) -- */}
-          <div className="ae-cta-block not-prose">
-            <h3>Your Content Is Either Getting Fresher or Getting Ignored</h3>
-            <p>AI platforms are making decisions about your business right now. They are either citing your updated, authoritative content, or they are citing your competitor who updated last week. There is no middle ground. Get your free Blind Spot Report and see exactly how AI search platforms view your content freshness.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
-          </div>
 
           {/* -- AUTHOR CARD -- */}
           <div className="ae-author-card">
@@ -683,10 +659,7 @@ export default function Page() {
           <h3>How often should I update my website content for AI visibility?</h3>
           <p>Research shows that content updated within the last 30 to 90 days gets cited significantly more often by AI platforms. For competitive topics, aim to review and update your key pages at least once per quarter. Even a monthly refresh of your most important service pages can dramatically improve your chances of being cited.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure which pages to update first? Our report tells you exactly where to focus.</p>
-            <Link href="/blindspot">Get Your Content Priority List</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Does changing the publish date on a page count as a content update?</h3>
           <p>No. AI platforms evaluate whether updates change the substance of the page, including intent alignment, examples, data, and context. Simply changing a date or swapping a screenshot is a cosmetic change that AI systems can detect. Google recommends that substantive updates involve changes to 20 to 30 percent of the textual content on a page.</p>
@@ -694,10 +667,7 @@ export default function Page() {
           <h3>Which AI platform cares most about content freshness?</h3>
           <p>Perplexity shows the strongest freshness preference. Approximately 50 percent of Perplexity citations come from content published or updated in the current year. ChatGPT also favors newer pages, while Google AI Overviews tend to cite content that is slightly older, behaving more like traditional search results.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>We test your visibility across Perplexity, ChatGPT, and Google AI. All three. For free.</p>
-            <Link href="/blindspot">Check All Three Platforms Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Can a small local business compete with larger websites for AI citations?</h3>
           <p>Yes. AI platforms do not simply cite the biggest websites. They cite the most authoritative and current source on a specific topic. A local HVAC company that regularly updates its content with seasonal tips, current pricing, and recent project examples can outperform a national directory that has not updated its pages in years.</p>
@@ -705,10 +675,7 @@ export default function Page() {
           <h3>What kind of content updates actually improve AI visibility?</h3>
           <p>Meaningful updates include adding new statistics, data points, or research findings from the current year, updating recommendations based on current best practices, adding recent case studies or examples, refreshing pricing or availability information, and incorporating new industry developments.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Know what to update but not sure if AI notices? Our report shows what AI actually sees.</p>
-            <Link href="/blindspot">See What AI Sees</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>How long does stale content take to lose AI visibility?</h3>
           <p>Content without freshness signals can begin losing citation priority in as little as 14 days for fast-moving topics. For most service-related content, visibility drops noticeably after three to six months without meaningful updates. Pages not updated quarterly are three times more likely to lose citations in AI-generated answers.</p>
@@ -719,23 +686,35 @@ export default function Page() {
           </div>
 
           {/* -- CTA 9 -- */}
-          <div className="ae-cta-inline not-prose">
-            <p>You have read the playbook. Now see where your business actually stands in AI search.</p>
-            <Link href="/blindspot">Get Your Free Report in 60 Seconds</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
         </div>
 
         {/* -- FINAL CTA -- */}
-        <div className="ae-final-cta">
-          <h2>Stop Letting Stale Content Cost You AI Citations</h2>
-          <p>Your competitors who update their content regularly are building an AI visibility advantage that compounds every month. Every week your website sits untouched, AI platforms move on to fresher sources. Get your free Blind Spot Report and see exactly how AI search platforms score your content freshness across ChatGPT, Perplexity, Claude, and Google AI.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   )

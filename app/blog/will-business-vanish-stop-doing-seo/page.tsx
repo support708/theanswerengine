@@ -262,10 +262,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Before you make any changes to your SEO strategy, find out where you actually stand in AI search. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: THE DATA */}
           <span className="ae-section-label">The Data</span>
@@ -310,10 +307,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure where your traffic actually comes from? Our report breaks down your visibility across every major AI and search platform. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-            <Link href="/blindspot">See Your Full Visibility Map &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* BAR GROUP */}
           <div className="ae-bar-group not-prose">
@@ -360,10 +354,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your SEO rankings tell half the story. Find out if AI platforms even know your business exists. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* COMPARISON TABLE */}
           <table className="ae-comparison-table not-prose">
@@ -400,10 +391,7 @@ export default function BlogPost() {
           <p>The businesses asking "should I stop SEO?" are focused on the wrong threat. The right question is: <strong>"Am I visible in both traditional search AND AI search?"</strong> Because your competitors who figured this out are capturing buyers from channels you do not even know exist. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your competitors may already be optimizing for AI search. See how you compare. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Run Your Competitive AI Analysis &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: SEO VS AEO */}
           <span className="ae-section-label">SEO vs. AEO</span>
@@ -445,10 +433,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Learn how SEO and AEO work together in our detailed comparison guide. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blog/aeo-vs-seo">Read: AEO vs. SEO: The Complete Breakdown &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: WHAT AI CHANGES */}
           <span className="ae-section-label">The AI Factor</span>
@@ -521,10 +506,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your domain authority is strong but AI platforms are recommending your competitors. Find out why. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <Link href="/blindspot">Discover Your AI Signal Gaps &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: THE FRAMEWORK */}
           <span className="ae-section-label">The Framework</span>
@@ -560,10 +542,7 @@ export default function BlogPost() {
           <p>This framework protects you regardless of what happens with Google, AI, or any single platform. When your authority is distributed across the entire web, no single algorithm change can erase your business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Most businesses are missing 3 or more layers of this framework. Our report shows you exactly which ones. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            <Link href="/blindspot">Get Your Framework Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: WARNING SIGNS */}
           <span className="ae-section-label">Warning Signs</span>
@@ -618,10 +597,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>The <Link href="/blog/zero-click-search-killing-website-traffic">zero-click search trend</Link> is accelerating. See how it affects your specific business.</p>
-            <Link href="/blindspot">Get Your Personalized Analysis &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SECTION: WHAT TO DO */}
           <span className="ae-section-label">Action Plan</span>
@@ -638,21 +614,18 @@ export default function BlogPost() {
           <p>The question was never "will my business vanish if I stop SEO?" The answer to that is yes, eventually, your organic traffic will decline. But the more important question is: <strong>are you visible where your customers are actually looking right now?</strong> Because in 2026, they are looking in places your SEO strategy does not cover. <Link href="/blog/google-rankings-dont-matter">Google rankings alone no longer guarantee visibility</Link>.</p>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Stop wondering. Start knowing. Our free report covers your visibility across every major AI and search platform.</p>
-            <Link href="/blindspot">Get Your Complete Visibility Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="ae-cta-block not-prose">
-            <h3>Your Business Deserves to Be Found Everywhere Customers Look</h3>
-            <p>SEO protects your Google rankings. AEO protects your future. Every month you wait, competitors build more authority signals that make them the default AI recommendation in your market. Get your free Blind Spot Report and see exactly where you stand across ChatGPT, Claude, Perplexity, and Google AI.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-          </div>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card">
@@ -676,10 +649,7 @@ export default function BlogPost() {
           <p>Your organic search traffic will begin declining within 2 to 4 weeks as competitors publish new content and algorithm updates reshuffle rankings. Most businesses see a 20 to 40 percent traffic drop within 6 months. High-authority domains with strong backlink profiles decay more slowly than newer sites, but all sites eventually lose ground.</p>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Worried about your traffic trajectory? Get clarity on where your visibility actually stands.</p>
-            <Link href="/blindspot">Diagnose Your Visibility Risk &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Will my Google rankings drop immediately if I stop SEO?</h3>
           <p>Not immediately. Rankings decay gradually rather than disappearing overnight. Pages with strong backlinks and topical authority can hold position for weeks or months. But without fresh content, technical maintenance, and link building, competitors will eventually overtake your positions one by one.</p>
@@ -688,10 +658,7 @@ export default function BlogPost() {
           <p>AEO is not replacing SEO. It is expanding the playing field. SEO still captures the 40 percent of searches where users click through to websites. AEO captures the growing segment of searches answered by AI directly. The businesses winning in 2026 run both strategies simultaneously. <Link href="/blog/seo-not-generating-leads">If your SEO is not generating leads</Link>, the gap is likely on the AI side.</p>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Learn exactly how AEO and SEO work together for maximum visibility.</p>
-            <Link href="/blog/aeo-vs-seo">Read Our AEO vs. SEO Guide &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>How much does organic traffic drop without ongoing SEO?</h3>
           <p>Research shows the average B2B website experiences a 34 percent year-over-year decline in organic traffic when SEO efforts stall. Smaller sites without strong domain authority can see drops of 50 percent or more within 6 to 12 months as competitors outpace them in content and backlinks.</p>
@@ -700,10 +667,7 @@ export default function BlogPost() {
           <p>Do not abandon SEO entirely. The smart play is to allocate a portion of your budget toward AI visibility while maintaining your SEO foundation. Think of SEO as the base layer and AEO as the growth layer. Together they cover both traditional search and the rapidly expanding AI search channel.</p>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure how to split your budget? Our report shows where you are losing the most visibility.</p>
-            <Link href="/blindspot">See Where Your Budget Should Go &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>How long does it take to recover lost SEO rankings?</h3>
           <p>Recovery typically takes 4 to 12 weeks for minor ranking drops, but 3 to 6 months or longer for significant declines. The longer you go without SEO, the harder and more expensive recovery becomes. Some competitive keywords may never be recaptured once a competitor establishes dominance.</p>
@@ -714,10 +678,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>You have seen the data. You know the trend. The only question left is whether AI recommends your business or your competitor.</p>
-            <Link href="/blindspot">Find Out in 60 Seconds &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* SOURCES */}
           <span className="ae-section-label">Sources</span>
@@ -734,15 +695,30 @@ export default function BlogPost() {
         </div>
 
         {/* FINAL CTA */}
-        <div className="ae-final-cta">
-          <h2>Do Not Let Your Business Fade From Search</h2>
-          <p>Your SEO foundation matters. Your AI visibility determines your future. Every day you wait, competitors build more authority signals that make them the default recommendation across ChatGPT, Claude, Perplexity, and Google AI. Get your free Blind Spot Report and see exactly where you stand.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   )

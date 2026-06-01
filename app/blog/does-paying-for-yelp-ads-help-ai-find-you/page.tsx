@@ -205,10 +205,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering if AI even knows your business exists? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: THE MYTH */}
           <span className="ae-section-label" id="the-myth">The Myth</span>
@@ -234,10 +231,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your Yelp budget is not building AI authority. See what AI actually says about your business. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-            <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: YELP ECOSYSTEM */}
           <span className="ae-section-label" id="yelp-ecosystem">Inside Yelp</span>
@@ -273,10 +267,7 @@ export default function BlogPost() {
           <p>This is similar to the <Link href="/blog/do-google-ads-help-ai-search">Google Ads and AI search disconnect</Link>. Paid advertising on any platform operates on infrastructure that AI recommendation engines do not access. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Yelp Ads work inside Yelp. AI works across the entire web. Are you visible in both? Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">See Your Full Visibility Picture &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: HOW AI USES YELP */}
           <span className="ae-section-label" id="how-ai-uses-yelp">AI and Yelp</span>
@@ -330,10 +321,7 @@ export default function BlogPost() {
           <p>This is why <Link href="/blog/do-google-reviews-affect-ai-recommendations">reviews across multiple platforms</Link> matter so much for AI visibility. AI reads the reputation layer, not the advertising layer. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI reads your reputation, not your ad budget. Find out what it sees today. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            <Link href="/blindspot">Run Your Free AI Visibility Check &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: PAID VS ORGANIC */}
           <span className="ae-section-label" id="paid-vs-organic">Head to Head</span>
@@ -412,10 +400,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Yelp Ads reach Yelp users. AI reaches everyone asking questions. Are you the answer? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <Link href="/blindspot">Discover Who AI Recommends &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: WHAT AI READS */}
           <span className="ae-section-label" id="what-ai-reads">AI Signals</span>
@@ -482,10 +467,7 @@ export default function BlogPost() {
           <p>This connects directly to why <Link href="/blog/yelp-vs-ai-search-where-are-customers-actually-looking-now">customers are shifting from Yelp to AI search</Link>. As more consumers ask AI for recommendations instead of searching Yelp directly, the value of organic signals (which AI can read) grows while the value of Yelp-only paid placements (which AI cannot read) shrinks. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your organic Yelp signals are what AI reads. Are they strong enough? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            <Link href="/blindspot">Audit Your Visibility Gaps &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: REAL COST */}
           <span className="ae-section-label" id="real-cost">The Real Cost</span>
@@ -522,10 +504,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>While you read this, AI is answering questions about your industry. Are you the answer?</p>
-            <Link href="/blindspot">Find Out Now &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SECTION: SMARTER STRATEGY */}
           <span className="ae-section-label" id="smarter-strategy">Smarter Strategy</span>
@@ -569,10 +548,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to see what AI-first marketing looks like for your business? Start with the data.</p>
-            <Link href="/blindspot">Get Your Custom AI Visibility Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* CHEAT SHEET */}
           <span className="ae-section-label" id="cheat-sheet-section">Quick Reference</span>
@@ -664,10 +640,7 @@ export default function BlogPost() {
           </ul>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Every article above leads to the same conclusion: AI visibility is not optional. Take the first step.</p>
-            <Link href="/blindspot">Start Your Free Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -711,10 +684,7 @@ export default function BlogPost() {
           <p>No. Yelp Ads are paid placements that boost your visibility within the Yelp platform itself. They do not influence whether ChatGPT, Perplexity, Claude, or other AI platforms recommend your business. AI systems read organic Yelp data like reviews, categories, and business descriptions. They cannot see which businesses are paying for Yelp advertising.</p>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>If Yelp Ads are not driving AI visibility, what is? Find your gaps.</p>
-            <Link href="/blindspot">See What AI Sees &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>Does Yelp ad spend improve AI search visibility?</h3>
           <p>No. Increasing your Yelp advertising budget improves your placement within Yelp search results and may display your listing on competitor profiles. But AI platforms do not factor Yelp ad spend into their recommendation algorithms. AI evaluates organic signals: reviews, business information completeness, mentions across the web, and content authority. You could triple your Yelp budget tomorrow and ChatGPT would not notice.</p>
@@ -723,10 +693,7 @@ export default function BlogPost() {
           <p>ChatGPT pulls from Yelp organic data through web crawling and Bing integrations. It reads your reviews, star rating, business category, and description. Research shows 48.73% of ChatGPT business citations come from third-party sites like Yelp, TripAdvisor, and MapQuest. ChatGPT reads the organic listing data, not paid ad placements.</p>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI citations compound over time. Ads disappear overnight. Build something lasting.</p>
-            <Link href="/blindspot">Start Building AI Authority &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>Should I cancel my Yelp Ads if they do not help AI visibility?</h3>
           <p>Not necessarily. Yelp Ads still drive leads for high-intent local searches within the Yelp ecosystem. For high-ticket services like law, HVAC, and cosmetic surgery, one or two Yelp conversions can cover an entire month of ad spend. The key is understanding that Yelp Ads serve a different purpose than AI visibility. Invest in both channels separately rather than assuming one covers the other.</p>
@@ -735,10 +702,7 @@ export default function BlogPost() {
           <p>AI platforms read your organic Yelp profile: review volume, review recency, average star rating, business category accuracy, complete business descriptions, and owner responses to reviews. All of these organic signals are free to build and maintain. None of them require a paid Yelp advertising account.</p>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Most businesses have blind spots in the exact signals AI evaluates. Find yours.</p>
-            <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <h3>Do Yelp reviews affect AI recommendations more than Yelp Ads?</h3>
           <p>Yes, significantly. Yelp reviews are organic signals that AI platforms actively crawl and cite. Yelp Ads are paid placements visible only within the Yelp ecosystem. When ChatGPT recommends a local plumber or restaurant, it references review sentiment and volume. It does not check which businesses paid for premium Yelp placement. Reviews are the signal. Ads are noise to AI.</p>
@@ -747,10 +711,7 @@ export default function BlogPost() {
           <p>Focus on building organic authority signals across platforms AI actually crawls: consistent business information across directories, reviews on multiple platforms (not just Yelp), expert content on your website, brand mentions on authoritative third-party sites, and structured data markup. Start with a free <Link href="/blindspot">Blind Spot Report</Link> to see exactly where your AI visibility gaps are.</p>
 
           {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure where to start? The Blind Spot Report tells you exactly which signals to build first.</p>
-            <Link href="/blindspot">Get Your Personalized Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -758,10 +719,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 14 */}
-          <div className="ae-cta-inline not-prose">
-            <p>You now know the truth about Yelp Ads and AI. The next step is seeing where your business stands.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* SOURCES */}
           <span className="ae-section-label">Sources</span>
@@ -777,26 +735,41 @@ export default function BlogPost() {
         </div>
 
         {/* CTA BLOCK */}
-        <div className="ae-cta-block not-prose">
-          <h3>Your Yelp Ads Are Running. But AI Is Recommending Someone Else.</h3>
-          <p>Yelp Ads and AI search are separate worlds. While you pay for clicks inside the Yelp ecosystem, your competitors are building the organic authority signals that make AI recommend them by default. Get your free Blind Spot Report and see exactly what AI says when customers ask about your industry.</p>
-          <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
         {/* FINAL CTA */}
-        <div className="ae-final-cta not-prose">
-          <h2>Stop Paying for Visibility AI Cannot See</h2>
-          <p>Every dollar spent on Yelp Ads is invisible to ChatGPT, Perplexity, and Claude. Your competitors are building organic AI authority signals right now. Every month you wait, the gap widens. Get your free Blind Spot Report and see exactly where you stand across every major AI platform.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   )

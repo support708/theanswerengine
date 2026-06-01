@@ -230,9 +230,7 @@ export default function Page() {
         </div>
 
         {/* Intro CTA inline */}
-        <div className="ae-cta-inline mb-10">
-          <p>Not sure if ChatGPT can find your business? <Link href="/blindspot">Run a free Blind Spot Report</Link> and see exactly what AI sees when someone asks about your services. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
         {/* TOC */}
         <div className="ae-toc mb-12">
@@ -287,9 +285,7 @@ export default function Page() {
             This is not an argument to abandon Google SEO. It is an argument that the signals driving AI recommendation visibility are distinct enough to require deliberate attention. What Bing trusts, what schema tells crawlers, what third-party sources confirm about your entity: these are the levers that move ChatGPT citations.
            Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-          <div className="ae-cta-inline mb-4">
-            <p>Curious how your business shows up across AI platforms? <Link href="/blindspot">Get a free Blind Spot Report</Link> to find out exactly where you stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         {/* Section 3 */}
@@ -443,9 +439,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline mb-4">
-            <p>These gaps show up clearly in our Blind Spot Report. <Link href="/blindspot">Run yours free</Link> and see which of these is holding your business back.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
         </section>
 
         {/* Section 6 */}
@@ -716,15 +710,30 @@ export default function Page() {
         </section>
 
         {/* Final CTA */}
-        <div className="ae-final-cta">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Ready to Show Up Where Your Customers Are Looking?</h2>
-          <p className="text-gray-300 mb-6">ChatGPT web search is live. Every day without structured optimization is a day your competitors are getting cited and you are not. Find your blind spots, fix your signals, and earn the recommendations your business deserves.</p>
-          <Link href="/blindspot" className="ae-cta-primary ae-pulse-glow inline-flex items-center gap-2">
-            Get Your Free Blind Spot Report
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-          <p className="text-gray-500 text-sm mt-4">Free analysis. No credit card. Takes 2 minutes.</p>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </main>
     </>

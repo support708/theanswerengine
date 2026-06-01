@@ -282,10 +282,7 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>This guide covers the exact strategies that allow HVAC companies, pool services, landscaping businesses, and tax preparation firms to maintain AI citation presence across all 12 months, not just during peak. The approach applies equally to any business with cyclical demand patterns, from holiday retail to tourism operators.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out exactly when AI platforms stop citing your business during the off-season and what it is costing you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Seasonal Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 2: HOW AI HANDLES SEASONAL QUERIES ── */}
             <span className="ae-section-label" id="ai-seasonal-queries">AI Behavior</span>
@@ -304,10 +301,7 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>Understanding this dynamic reframes the off-season entirely. The months before peak are not slow months for marketing. They are the months when AI authority is built or lost. The content published in February determines which businesses get cited when homeowners start asking AI for AC recommendations in late April.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know which anticipation queries your business is currently missing in AI search? We map them by category. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Assessment &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 3: FOUR ARCHETYPES ── */}
             <span className="ae-section-label" id="four-archetypes">Business Archetypes</span>
@@ -342,10 +336,7 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>Event-based seasonal businesses (holiday lighting installation, party rental, wedding services with spring/fall peaks, and similar) face a different challenge: intense but short peak windows and extended off-seasons. For these businesses, the off-season strategy centers on planning-phase content that captures intent long before service delivery. A holiday lighting company that publishes &ldquo;how much does professional holiday lighting cost&rdquo; content in August is capturing research-phase queries from homeowners who will not book until October. AI citations earned during the research phase convert when peak season arrives. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which off-season content opportunities apply to your specific business category? We have mapped them by archetype.</p>
-              <Link href="/blindspot">Get Your Industry-Specific Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 4: OFF-SEASON STRATEGY ── */}
             <span className="ae-section-label" id="off-season-strategy">Core Strategy</span>
@@ -382,10 +373,7 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>For how reviews specifically influence AI recommendation behavior, read our guide on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link>.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your current off-season content strategy compares to competitors who are staying cited year-round. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <Link href="/blindspot">Run Your Free Seasonal AI Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 5: CONTENT CALENDAR ── */}
             <span className="ae-section-label" id="content-calendar">12-Month Plan</span>
@@ -467,10 +455,7 @@ export default function SeasonalBusinessesAISearchPage() {
             </div>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Need help building the content calendar for your specific business type? We build seasonal AEO roadmaps by industry.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 6: LOCAL SCHEMA & GBP ── */}
             <span className="ae-section-label" id="schema-gbp">Technical Signals</span>
@@ -499,10 +484,7 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>GBP special hours functionality allows businesses to flag extended hours during peak season, reduced hours during off-season, or temporary closures. AI platforms that reference local business data use hours accuracy as a quality signal. A business with accurate, current hours earns higher citation confidence than one with outdated or generic hours. Update hours with each seasonal transition and flag any temporary availability changes promptly. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your GBP aligned with your current season? Our free report checks for schema and GBP consistency gaps.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 7: SERVICE PIVOTS ── */}
             <span className="ae-section-label" id="service-pivots">Content Pivots</span>
@@ -531,10 +513,7 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>For a plumbing-specific example of this pivot framework in action, read our guide on <Link href="/blog/how-plumbers-get-found-on-ai-search">how plumbers get found on AI search</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Need help mapping your specific service pivot opportunities by month? We build those roadmaps for every major service category.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 8: REVIEWS, REDDIT, MENTIONS ── */}
             <span className="ae-section-label" id="reviews-reddit">Off-Site Signals</span>
@@ -561,10 +540,7 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>For a deeper look at how content freshness and publishing frequency affect AI visibility, read <Link href="/blog/why-fresh-content-key-ai-search-visibility">why fresh content is key to AI search visibility</Link> and <Link href="/blog/does-posting-every-day-help-ai-find-your-business">does posting every day help AI find your business</Link>. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your off-site mention profile compares to local competitors who are staying cited all year.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 9: MISTAKES ── */}
             <span className="ae-section-label" id="mistakes">Common Pitfalls</span>
@@ -597,10 +573,7 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>Leaving schema markup static while the business pivots its service focus creates structured data inconsistency. AI platforms that read schema to understand current service offerings encounter data that describes last season&rsquo;s service mix. This inconsistency reduces citation confidence and can cause the business to be cited for services it is not currently offering, damaging user experience and review sentiment in turn.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Identify which of these mistakes is affecting your AI citations right now. The Blind Spot Report shows you exactly where the gaps are.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -666,36 +639,38 @@ export default function SeasonalBusinessesAISearchPage() {
             <p>Industry estimates indicate that businesses maintaining a year-round content cadence receive approximately 3.4 times more AI citations during peak season than comparable businesses that only publish during peak months. The reason is compound: year-round publishers maintain site freshness signals, accumulate more indexed content, capture off-season anticipation queries, and build topical authority depth that AI systems reward when high-volume peak queries arrive. The off-season investment directly amplifies peak-season returns.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to build a year-round AI visibility strategy for your seasonal business? Start with the free Blind Spot Report.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your seasonal content strategy with our team? We specialize in exactly this.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Stop Losing Off-Season Citations to Competitors Who Stay Active</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone searches for your service category right now. Our free Blind Spot Report shows which months you are cited, which months you go dark, and what year-round publishers are doing that you are not.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Seasonal Visibility Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just the data on how AI sees your business today and which months you are missing.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

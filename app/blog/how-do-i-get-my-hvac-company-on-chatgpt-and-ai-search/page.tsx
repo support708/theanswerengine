@@ -273,10 +273,7 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
 
             <p>The good news: all four of these are fixable. None of them require a large budget. They require focused effort applied in the right places. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which gaps are hurting your HVAC company most? We will show you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 2: HOW AI SOURCES HVAC RECOMMENDATIONS */}
             <span className="ae-section-label" id="how-ai-sources-hvac">How AI Works</span>
@@ -310,10 +307,7 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
 
             <p>For a broader look at how AI platforms decide what to recommend, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what each AI platform says about your HVAC company right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* SECTION 3: FOUR TACTICS */}
             <span className="ae-section-label" id="four-tactics">The Tactics</span>
@@ -346,10 +340,7 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
 
             <p>This level of detail is not just for AI. It is exactly what high-intent homeowners want to read before calling. The content serves both purposes simultaneously. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure how to structure service pages for AI? Our guide covers the exact format. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <Link href="/blog/write-service-pages-ai-platforms-recommend">Read: How to Write Service Pages AI Recommends &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* TACTIC 2 */}
             <h3>Tactic 2: Lock Down Your Directory Listings</h3>
@@ -386,10 +377,7 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
 
             <p>For the full list of directories that matter most, read our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>We can identify every directory where your HVAC company is missing or inconsistent. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* TACTIC 3 */}
             <h3>Tactic 3: Move Your Reviews Where AI Can Read Them</h3>
@@ -427,10 +415,7 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
 
             <p>Ask customers who leave you a Google review to also post on Yelp or leave a review directly on your website via a simple form. Two platforms beats one. Three beats two. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Find out which of your reviews AI can actually see and which are invisible.</p>
-              <Link href="/blog/do-google-reviews-affect-ai-recommendations">Read: Do Google Reviews Affect AI Recommendations? &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* TACTIC 4 */}
             <h3>Tactic 4: Add Schema Markup Across Your Site</h3>
@@ -484,10 +469,7 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
 
             <p>For a full guide on how schema markup affects AI visibility, read <Link href="/blog/does-schema-markup-help-ai-search">our breakdown of whether schema markup helps AI search</Link>.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly what schema gaps your HVAC site has? The audit is free.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
             {/* PUTTING IT TOGETHER */}
             <span className="ae-section-label">The Compound Effect</span>
@@ -508,10 +490,7 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
 
             <p>To understand how this plays out against larger national brands, read our guide on <Link href="/blog/how-home-service-companies-dominate-ai-search">how home service companies dominate AI search</Link>.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to find out exactly where your HVAC company stands in AI search right now?</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           </div>
 
@@ -555,34 +534,36 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
             <h3>Can a small HVAC company compete with large national brands in AI search?</h3>
             <p>Yes. AI platforms optimize for relevance, not brand size. A local HVAC company with detailed service pages, specific service area content, genuine customer testimonials on the website, and consistent directory listings will often outperform a national brand with a generic, templated site. The local specificity that large brands struggle to provide is exactly what AI rewards.</p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Still have questions about AI visibility for your HVAC company? We are happy to talk through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer email? We respond within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Find Out If AI Is Sending Customers to Your Competitors</h2>
-            <p>Get a free AI Visibility Audit showing exactly what ChatGPT, Perplexity, and Google AI say when a homeowner searches for an HVAC company in your area. No pitch, just the data.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free AI Visibility Audit &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

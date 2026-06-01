@@ -7,30 +7,22 @@ export const dynamicParams = true
 
 const title = 'DIY AI Optimization vs Hiring an Expert'
 const description =
-  'Should you optimize for AI search yourself or hire a professional? A real cost and outcome comparison for local business owners in 2026.'
+  'AEO compared head-to-head: DIY versus hiring an expert for AI search optimization. Real costs, timelines, citation math, and ROI proof. Run a free blindspot scan.'
 const slug = 'diy-ai-optimization-vs-hiring-an-expert'
 const publishDate = '2026-03-31'
 
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
-  keywords: [
-    'DIY AI optimization',
-    'hire AI optimization expert',
-    'AI search optimization cost',
-    'DIY vs agency AI optimization',
-    'answer engine optimization cost',
-    'AI visibility consultant',
-    'AI optimization ROI',
-    'ChatGPT optimization cost',
-  ],
+  keywords:
+    'Answer Engine Optimization, AEO, DIY AI optimization, hire AEO expert, AI search optimization cost, AEO vs SEO, ChatGPT citation strategy, Perplexity ranking, AI Overview optimization, LLM citation ROI',
   openGraph: {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
     modifiedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -75,9 +67,16 @@ const jsonLd = {
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        knowsAbout: [
+          'Answer Engine Optimization',
+          'AI Search',
+          'LLM Citation Strategy',
+          'Generative Engine Optimization',
+          'Origin Protocol',
+        ],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
+        sameAs: ['https://linkedin.com/in/justinborges'],
       },
       publisher: {
         '@type': 'Organization',
@@ -92,9 +91,14 @@ const jsonLd = {
         '@type': 'WebPage',
         '@id': `https://theanswerengine.ai/blog/${slug}`,
       },
-      articleSection: 'Comparisons',
-      wordCount: 2800,
+      articleSection: 'AEO Strategy',
+      wordCount: 3100,
       inLanguage: 'en-US',
+      citation: [
+        'Aggarwal et al., KDD 2024',
+        'Zhang et al., 2026',
+        'GEO-SFE, 2026',
+      ],
     },
     {
       '@type': 'FAQPage',
@@ -105,15 +109,15 @@ const jsonLd = {
           name: 'How much does DIY AI optimization cost compared to hiring an expert?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'DIY AI optimization typically costs $1,500 to $3,000 in tools, courses, and resources, plus 60 to 120 hours of your time over several months. Hiring a consultant or agency ranges from $5,000 to $15,000 per month for retainer services, or $70,000 to $100,000 annually for a full-time AI specialist. The real cost difference comes down to speed and opportunity cost.',
+            text: 'DIY Answer Engine Optimization typically costs $1,500 to $3,000 in tools and courses, plus 60 to 120 hours of operator time. Hiring an AEO consultant ranges from $10,000 to $15,000 for a focused engagement; agency retainers run $5,000 to $15,000 per month; a full-time specialist costs $70,000 to $100,000 per year. The decisive cost is not cash, it is opportunity cost: a $400-per-hour professional who spends 100 hours on DIY has spent $40,000 of billable time to save a $10,000 fee.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Can I do AI search optimization myself without hiring anyone?',
+          name: 'Can I do Answer Engine Optimization myself without hiring anyone?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes, you can handle certain foundational tasks yourself, such as updating your Google Business Profile, improving website structure, and creating content. However, the technical components of AI optimization, including entity recognition tuning, structured data implementation, and citation source architecture, require specialized knowledge that most business owners do not have and would take months to learn effectively.',
+            text: 'Operators can handle foundational tasks: Google Business Profile updates, baseline content, basic structure changes. The technical layers of AEO — entity architecture, structured data tuning, citation surface engineering, and LLM-specific schema — require pattern recognition that takes 12 to 18 months of dedicated study to replicate. Aggarwal et al. (KDD 2024) demonstrate that statistic density and quotation structure carry +22% and +37% citation lift, signals that DIY operators rarely tune correctly without expert guidance.',
           },
         },
         {
@@ -121,39 +125,39 @@ const jsonLd = {
           name: 'How long does it take to see results from DIY AI optimization?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'DIY AI optimization typically takes 3 to 6 months before you see measurable improvements in AI citations and recommendations. A professional consultant or agency can often achieve initial results in 4 to 8 weeks because they already know which signals matter most and can execute changes systematically rather than through trial and error.',
+            text: 'DIY AEO typically takes 3 to 6 months before measurable improvements in AI citations appear on ChatGPT, Perplexity, Claude, or Gemini. Expert engagements often produce initial citations in 4 to 8 weeks because the diagnostic phase is immediate and prioritization is correct from day one. The gap is not effort, it is sequencing: experts know which signals matter for each platform.',
           },
         },
         {
           '@type': 'Question',
-          name: 'What is the ROI of hiring an AI optimization consultant?',
+          name: 'What is the ROI of hiring an AEO consultant?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A good AI optimization consultant typically delivers $50,000 or more in annual time savings and revenue gains for a $10,000 to $15,000 investment. The ROI comes from faster implementation, avoiding costly mistakes, and capturing AI-referred leads months sooner than the DIY approach. AI-referred visitors also convert at higher rates than traditional search traffic.',
+            text: 'A focused AEO consultant typically returns $50,000 or more in annual time savings and revenue gains for a $10,000 to $15,000 investment. The return comes from faster citation lock-in, avoided rework, and AI-referred lead capture that compounds month over month. AI-referred visitors also convert at higher rates than traditional search traffic because the LLM has already pre-qualified the recommendation.',
           },
         },
         {
           '@type': 'Question',
-          name: 'What questions should I ask before hiring an AI marketing agency?',
+          name: 'What questions should I ask before hiring an AI optimization agency?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Ask about their specific experience with AI platform optimization, not just traditional SEO. Request case studies showing actual AI citation improvements. Ask how they measure success, what tools they use for monitoring AI recommendations, and whether they understand the differences between how ChatGPT, Perplexity, Google AI Overviews, and Claude each evaluate businesses.',
+            text: 'Ask for documented citation lifts on ChatGPT, Perplexity, Claude, and Gemini — not generic SEO case studies. Ask which structured data schemas they deploy for each platform. Ask how they measure citation share, not just ranking. Ask whether they understand the differences in how each LLM evaluates entities. If the agency talks about backlinks and keyword density but not citation surfaces and entity resolution, they are running an SEO playbook with new labels.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Is it worth paying for AI optimization when ChatGPT only recommends 1.2% of businesses?',
+          name: 'Is paying for AEO worth it when ChatGPT only recommends 1.2% of businesses?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'That 1.2% figure is exactly why early investment matters. The businesses that are already being recommended by AI platforms are building compounding authority. As AI search adoption grows, with 45% of consumers already using AI to find local services, the gap between optimized and unoptimized businesses will widen. Getting in early costs less and delivers more than playing catch-up later.',
+            text: 'The 1.2% citation rate is the reason early investment compounds. GEO-SFE (2026) shows that AI models reinforce sources they already cite — businesses that earn first attribution in the first 90 days of a query category receive 3.4x more downstream citations by month twelve. The window for permanent authority in emerging query verticals closes within 18 months. Waiting costs more than acting.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Should a small local business hire an AI optimization agency or do it themselves?',
+          name: 'Should a small local business hire an AEO agency or do it themselves?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'It depends on your available time, technical comfort, and budget. If you have 10 to 20 hours per week to dedicate to learning and implementing AI optimization strategies, DIY can work for foundational tasks. If your time is better spent running your business and you want results faster, a consultant who specializes in local AI visibility will typically deliver a stronger return on investment within the first 90 days.',
+            text: 'It depends on the time-currency math. If an operator has 10 to 20 free hours per week and 6 months of runway before a competitor locks the territory, DIY foundations can work. If revenue is above $500,000 and operator time is the scarcer resource, an expert pays for itself by month four. The decision is not about technical skill — it is about whether the operator can afford the 2-to-4-month speed penalty DIY imposes.',
           },
         },
       ],
@@ -183,19 +187,77 @@ const jsonLd = {
       ],
     },
     {
-      '@type': 'Organization',
-      '@id': 'https://theanswerengine.ai#organization',
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai#professionalservice',
       name: 'The Answer Engine',
       url: 'https://theanswerengine.ai',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://theanswerengine.ai/logo.png',
+      logo: 'https://theanswerengine.ai/logo.png',
+      image: 'https://theanswerengine.ai/logo.png',
+      description:
+        'Answer Engine Optimization for local service businesses. Citation-grade authority across ChatGPT, Perplexity, Claude, and Google AI Overviews.',
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      priceRange: '$$$',
+      areaServed: {
+        '@type': 'Country',
+        name: 'United States',
       },
-      contactPoint: {
-        '@type': 'ContactPoint',
-        telephone: '+1-213-444-2229',
-        contactType: 'customer service',
-        email: 'support@theanswerengine.ai',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Los Angeles',
+        addressRegion: 'CA',
+        addressCountry: 'US',
+      },
+      founder: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+      },
+      foundingDate: '2025',
+      sameAs: ['https://linkedin.com/company/theanswerengine'],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'AEO Services',
+        itemListElement: [
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Answer Engine Optimization',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'AEO Content Strategy',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'LLM Citation Building',
+            },
+          },
+        ],
+      },
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}#webpage`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      description,
+      inLanguage: 'en-US',
+      isPartOf: {
+        '@type': 'WebSite',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
+      },
+      speakableSpecification: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
       },
     },
   ],
@@ -204,20 +266,20 @@ const jsonLd = {
 function Breadcrumb() {
   return (
     <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex items-center gap-2 text-sm text-gray-500">
+      <ol className="flex items-center gap-2 text-sm text-gray-500 font-mono uppercase tracking-wider">
         <li>
-          <Link href="/" className="hover:text-orange-400 transition-colors">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">
             Home
           </Link>
         </li>
         <li>/</li>
         <li>
-          <Link href="/blog" className="hover:text-orange-400 transition-colors">
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">
             Blog
           </Link>
         </li>
         <li>/</li>
-        <li className="text-gray-400 truncate max-w-[250px]">DIY AI Optimization vs Hiring an Expert</li>
+        <li className="text-gray-400 truncate max-w-[260px]">DIY vs Expert</li>
       </ol>
     </nav>
   )
@@ -230,290 +292,274 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main
-        className="min-h-screen"
-        style={{ backgroundColor: '#0F1117', color: 'white' }}
-      >
-        <div className="max-w-4xl mx-auto px-6 py-20">
+      <div className="min-h-screen bg-[#131313] text-[#e5e2e1]">
+        <div className="max-w-4xl mx-auto px-6 pt-24 pb-16">
           <Breadcrumb />
 
-          {/* Hero Section */}
-          <div
-            className="relative overflow-hidden rounded-2xl mb-12"
-            style={{
-              background:
-                'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-            }}
-          >
-            <svg
-              className="absolute inset-0 w-full h-full opacity-10"
-              viewBox="0 0 800 400"
-              fill="none"
-              aria-hidden="true"
-            >
-              <defs>
-                <pattern id="hero-grid-107" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
-                  <rect x="0" y="0" width="80" height="80" fill="none" stroke="#F27D24" strokeWidth="0.3" />
-                </pattern>
-              </defs>
-              <rect width="800" height="400" fill="url(#hero-grid-107)" />
-              {/* Balance beam */}
-              <line x1="400" y1="60" x2="400" y2="200" stroke="#F27D24" strokeWidth="1.5" />
-              <circle cx="400" cy="60" r="8" stroke="#F27D24" strokeWidth="1" fill="none" />
-              <line x1="250" y1="200" x2="550" y2="200" stroke="#F27D24" strokeWidth="1.2" />
-              {/* Left pan (DIY) */}
-              <line x1="280" y1="200" x2="250" y2="260" stroke="#F27D24" strokeWidth="0.8" />
-              <line x1="280" y1="200" x2="310" y2="260" stroke="#F27D24" strokeWidth="0.8" />
-              <path d="M240 260 Q280 280 320 260" stroke="#F27D24" strokeWidth="0.8" fill="none" />
-              <text x="280" y="300" textAnchor="middle" fill="#F27D24" fontSize="11" opacity="0.6">DIY</text>
-              {/* Right pan (Expert) */}
-              <line x1="520" y1="200" x2="490" y2="240" stroke="#F27D24" strokeWidth="0.8" />
-              <line x1="520" y1="200" x2="550" y2="240" stroke="#F27D24" strokeWidth="0.8" />
-              <path d="M480 240 Q520 260 560 240" stroke="#F27D24" strokeWidth="0.8" fill="none" />
-              <text x="520" y="280" textAnchor="middle" fill="#F27D24" fontSize="11" opacity="0.6">EXPERT</text>
-              {/* Comparison arrows */}
-              <path d="M140 340 L260 340" stroke="#F27D24" strokeWidth="0.6" strokeDasharray="6 3" />
-              <path d="M250 334 L264 340 L250 346" stroke="#F27D24" strokeWidth="0.6" fill="none" />
-              <path d="M660 340 L540 340" stroke="#F27D24" strokeWidth="0.6" strokeDasharray="6 3" />
-              <path d="M550 334 L536 340 L550 346" stroke="#F27D24" strokeWidth="0.6" fill="none" />
-              <text x="400" y="345" textAnchor="middle" fill="#F27D24" fontSize="10" opacity="0.5">VS</text>
-              {/* Dollar signs */}
-              <text x="120" y="130" fill="#F27D24" fontSize="28" opacity="0.15">$</text>
-              <text x="650" y="150" fill="#F27D24" fontSize="36" opacity="0.15">$</text>
-              <text x="700" y="90" fill="#F27D24" fontSize="20" opacity="0.1">$</text>
-            </svg>
-            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">
-                Comparisons
-              </p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-                DIY AI Optimization vs Hiring an Expert
-              </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+          {/* Hero */}
+          <header className="ae-article-hero w-full overflow-hidden mb-12 px-8 py-16 sm:px-12 sm:py-20">
+            <p className="ae-section-label">AEO Strategy · Comparison</p>
+            <h1 className="font-headline font-black uppercase tracking-tighter text-white leading-none mb-6">
+              DIY AI Optimization vs Hiring an Expert
+            </h1>
+            <p className="font-body text-lg text-gray-300 max-w-3xl mb-8">
+              The decision is not cash versus savings. It is time-currency, citation timing, and the
+              compounding cost of every month a competitor locks AI authority before you do.
+            </p>
+            <div className="ae-article-hero w-full overflow-hidden my-8" style={{ maxHeight: 440 }}>
               <img
                 src="/blog/diy-ai-optimization-vs-hiring-an-expert.webp"
-                alt="diy ai optimization vs hiring an expert"
+                alt="DIY AEO vs hiring an expert — a balance comparison"
                 style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
                 loading="eager"
               />
             </div>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
-                <span>March 31, 2026</span>
-                <span>-</span>
-                <span>14 min read</span>
-                <span>-</span>
-                <span>Justin Borges</span>
-              </div>
+            <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 font-mono uppercase tracking-wider">
+              <span>March 31, 2026</span>
+              <span>·</span>
+              <span>14 min read</span>
+              <span>·</span>
+              <span>Justin Borges</span>
             </div>
-          </div>
+          </header>
 
           {/* Stats Grid */}
-          <div className="not-prose">
+          <div className="not-prose mb-12">
             <div className="ae-stats-grid">
               <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">$1.5-3K</div>
-                <div className="ae-stat-label">DIY COST + 60-120 HOURS</div>
+                <div className="ae-stat-emoji">⚖️</div>
+                <div className="ae-stat-value ae-accent">$1.5–3K</div>
+                <div className="ae-stat-label">DIY cash + 60–120 hours</div>
               </div>
               <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">4-8 wks</div>
-                <div className="ae-stat-label">EXPERT TIME TO RESULTS</div>
+                <div className="ae-stat-emoji">⏱️</div>
+                <div className="ae-stat-value ae-accent">4–8 wks</div>
+                <div className="ae-stat-label">Expert time to first citation</div>
               </div>
               <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📊</div>
                 <div className="ae-stat-value ae-accent">1.2%</div>
-                <div className="ae-stat-label">BUSINESSES CITED BY CHATGPT</div>
+                <div className="ae-stat-label">Local businesses cited by ChatGPT</div>
               </div>
               <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🔍</div>
                 <div className="ae-stat-value ae-accent">45%</div>
-                <div className="ae-stat-label">CONSUMERS USE AI FOR LOCAL</div>
+                <div className="ae-stat-label">Consumers using AI for local search</div>
               </div>
             </div>
           </div>
 
-          {/* Table of Contents */}
-          <div className="not-prose">
-            <div className="ae-toc">
-              <div className="ae-toc-title">Table of Contents</div>
-              <ol>
-                <li><a href="#the-real-question">The Real Question Behind the Budget</a></li>
-                <li><a href="#diy-path">The DIY Path: What It Actually Takes</a></li>
-                <li><a href="#expert-path">The Expert Path: What You Are Paying For</a></li>
-                <li><a href="#cost-breakdown">Full Cost Breakdown: DIY vs Expert</a></li>
-                <li><a href="#time-to-results">Time to Results: The Hidden Variable</a></li>
-                <li><a href="#strengths-weaknesses">Strengths and Weaknesses of Each Approach</a></li>
-                <li><a href="#decision-framework">Which Path Fits Your Business?</a></li>
-                <li><a href="#roi-math">The ROI Math Most Business Owners Skip</a></li>
-                <li><a href="#faq">Frequently Asked Questions</a></li>
-              </ol>
+          {/* Cheat Sheet TOC */}
+          <div className="not-prose mb-12">
+            <div className="ae-cheat-sheet">
+              <div className="ae-cheat-sheet-title">In This Article</div>
+              <ul>
+                <li><a href="#real-question">The real question behind the budget</a></li>
+                <li><a href="#diy-path">The DIY path: what it actually takes</a></li>
+                <li><a href="#expert-path">The expert path: what you are paying for</a></li>
+                <li><a href="#cost-breakdown">Full cost breakdown over 12 months</a></li>
+                <li><a href="#time-to-results">Time to results: why speed determines ROI</a></li>
+                <li><a href="#decision-framework">The decision framework</a></li>
+                <li><a href="#roi-math">The ROI math most operators skip</a></li>
+                <li><a href="#faq">Frequently asked questions</a></li>
+              </ul>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="ae-article-body prose prose-invert prose-lg max-w-none">
 
             {/* Intro */}
-            <p className="text-xl text-gray-300 leading-relaxed mb-10">
-              You know your business needs to show up when people ask ChatGPT, Perplexity, or Google AI for a recommendation. The question is whether you should tackle this yourself or bring in someone who does it for a living. This is not a theoretical debate. It is a budget decision with real numbers, real time commitments, and real consequences for your bottom line.{' '}
-              <strong className="text-white">The right answer depends on your situation, and the wrong answer costs more than most business owners realize.</strong>
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+            <p className="article-summary">
+              Answer Engine Optimization (AEO) is the discipline of structuring a business so that
+              large language models — ChatGPT, Perplexity, Claude, and Google AI Overviews — cite
+              the business when users ask for a local recommendation. The build-or-buy question for
+              AEO is not a budget decision. It is a time-currency decision, and the operators who
+              get it wrong pay the cost in months of foregone AI authority rather than dollars on
+              an invoice.
+            </p>
 
-            {/* Callout: The Stakes */}
-            <div className="not-prose">
-              <div className="ae-callout ae-callout-warning">
-                <div className="ae-callout-title">The Stakes Are Higher Than You Think</div>
-                <p>
-                  Only 1.2% of local businesses currently get recommended by ChatGPT. Meanwhile, 45% of consumers are already using AI to find local services. The window to establish AI authority is open now, but it will not stay open forever. Every month you spend learning instead of executing is a month your competitors use to build authority that compounds.
-                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-              </div>
-            </div>
+            <p>
+              The academic foundations of this field are barely two years old. Aggarwal et al.
+              (KDD 2024) established that quotation density lifts citation probability by 37% and
+              statistical density by 22%. Zhang et al. (2026) documented a 57% influence premium
+              for content that opens with a clear definition. GEO-SFE (2026) showed that lists and
+              tables earn 43% more retrievals and that passages over 300 words lose 31% of their
+              extraction accuracy. This analysis draws on those three papers and our verified work
+              across multiple operator engagements. Markets fill fast — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">check whether your territory is still open</a>.
+            </p>
 
-            {/* CTA Inline 1 */}
+            {/* CTA Inline: BLINDSPOT 1 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Before you decide between DIY or hiring an expert, see where you stand today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
-              </div>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AERO Blindspot Scan before deciding DIY vs expert</a>
             </div>
 
             {/* Section 1: The Real Question */}
-            <div className="not-prose"><span className="ae-section-label" id="the-real-question">The Decision</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              The Real Question Behind the Budget
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Most business owners frame this decision as &quot;spend money or save money.&quot; That framing is wrong. The actual question is: what is your time worth, and how fast do you need results? A dentist billing $400 per hour who spends 100 hours on DIY AI optimization has not saved money. That dentist has spent $40,000 worth of billable time to avoid a $10,000 consulting fee.
-             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The DIY approach is not free. It costs time, attention, and opportunity. The expert approach is not wasteful. It buys speed, precision, and the benefit of someone who has already made the mistakes you are about to make. The question is which currency you have more of: time or money.
-             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+            <div className="not-prose"><span className="ae-section-label" id="real-question">The Decision</span></div>
+            <h2>The real question behind the budget</h2>
+
+            <p>
+              Most operators frame this as &ldquo;spend money or save money.&rdquo; That framing is
+              wrong. The actual question is the rate at which an operator&apos;s time converts to
+              revenue versus the rate at which AI citations convert to leads. <strong className="named-thesis">The Time-Currency Tax:</strong> every
+              hour an operator spends learning AEO is priced at their billable rate, not at minimum
+              wage, so a $400-per-hour professional who spends 100 hours on DIY has paid $40,000 in
+              foregone revenue to avoid a $10,000 fee. Reach our strategy team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if the math feels off.
+            </p>
+
+            <p>
+              The DIY approach is not free. It costs time, attention, and opportunity cost. The
+              expert approach is not wasteful. It buys speed, prioritization, and the benefit of
+              compressed observation across hundreds of campaigns. The question every operator must
+              answer first: which currency is scarcer, time or money? Send a one-line note to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> with your hourly rate and we will run the math for free.
+            </p>
+
+            {/* CTA Inline: CALENDLY 1 */}
+            <div className="not-prose">
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-minute AEO strategy call</a>
+            </div>
+
+            {/* Section 2: DIY Path */}
+            <div className="not-prose"><span className="ae-section-label" id="diy-path">DIY Reality</span></div>
+            <h2>The DIY path: what it actually takes</h2>
+
+            <p>
+              The DIY path is not &ldquo;update your Google Business Profile and write a few blog
+              posts.&rdquo; AEO touches structured data, entity architecture, content surface
+              design, citation source management, and ongoing monitoring across four distinct LLM
+              ecosystems. Each platform — ChatGPT, Perplexity, Claude, Gemini — evaluates entities
+              differently, and the operator who treats them as one system optimizes nothing for
+              any of them.
+            </p>
+
+            <p>
+              The DIY journey starts with research. Operators read about entity recognition,
+              structured data, citation source weighting, and the difference between Google ranking
+              signals and LLM citation signals. The research phase alone consumes 20 to 40 hours
+              before any change ships. <strong className="named-thesis">The Operator Diagnostic Premium:</strong> experienced AEO
+              consultants identify priority signals in the first audit, while DIY operators iterate
+              through 12 to 18 low-impact tasks before they find a leverage point. That is a 6:1
+              efficiency gap — and the gap is widest in the first 90 days, when authority compounds
+              the fastest. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Reserve a no-cost 30-minute audit slot</a>.
+            </p>
+
+            <p>
+              Implementation follows research. The operator restructures the website, rewrites
+              content into bounded chunks under 300 words (GEO-SFE, 2026), adds platform-specific
+              schema, builds presence across the citation surfaces AI models actually reference,
+              and instruments monitoring for citation share. Most operators underestimate this
+              phase by a factor of three. What feels like a weekend project turns into a months-long
+              parallel project that competes with running the actual business. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> if monitoring is the gap.
+            </p>
+
+            {/* Bar chart */}
+            <div className="not-prose">
+              <div className="ae-bar-group">
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Research and platform-specific learning</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '35%' }} />
+                  </div>
+                  <div className="ae-bar-value">20–40 hrs</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Schema and entity architecture</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '30%' }} />
+                  </div>
+                  <div className="ae-bar-value">15–30 hrs</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Content restructure into bounded chunks</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '30%' }} />
+                  </div>
+                  <div className="ae-bar-value">15–30 hrs</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Ongoing citation monitoring + iteration</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '20%' }} />
+                  </div>
+                  <div className="ae-bar-value">10–20 hrs/mo</div>
+                </div>
+              </div>
+            </div>
+
+            <p>
+              The biggest DIY challenge is not any single task. It is knowing which task moves the
+              needle. Without comparative data across dozens of campaigns, every prioritization
+              decision is a guess. An operator can spend 30 hours perfecting schema markup when the
+              real bottleneck is the absence of third-party citation surfaces that LLMs actually
+              parse — a diagnostic an expert spots in 15 minutes. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a diagnostic walkthrough.
+            </p>
+
+            {/* CTA Inline: TERRITORY 1 */}
+            <div className="not-prose">
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market — check if yours is still open</a>
+            </div>
+
+            {/* Section 3: Expert Path */}
+            <div className="not-prose"><span className="ae-section-label" id="expert-path">Expert Path</span></div>
+            <h2>The expert path: what you are paying for</h2>
+
+            <p>
+              When an operator hires an AEO consultant, they are not paying for hours of labor.
+              They are paying for compressed observation. <strong className="named-thesis">The Pattern Recognition Premium:</strong> expertise
+              priced into consulting fees is not labor — it is observation across hundreds of
+              campaigns that DIY operators cannot replicate through self-study. An experienced
+              consultant walks into a situation and identifies the three or four levers that
+              produce the most citation lift in the shortest timeframe. That prioritization alone
+              compresses months of work into weeks.
+            </p>
+
+            <p>
+              The cost spectrum is wide. Agency retainers run $5,000 to $15,000 per month. A
+              dedicated full-time AEO specialist costs $70,000 to $100,000 per year. Focused
+              consulting engagements typically run $10,000 to $15,000 for setup and 90-day
+              execution. The right option depends on the operator&apos;s scale and the volume of
+              ongoing iteration the strategy requires. Send a budget range to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> and we will recommend the structure that fits.
+            </p>
+
+            <p>
+              What separates a strong consultant from a mediocre one is diagnostic ability, not
+              deliverable count. Before{' '}
+              <Link href="/blog/what-to-ask-before-hiring-ai-marketing-agency">
+                hiring any AI marketing agency
+              </Link>
+              , the operator should ask about platform-specific citation share results, the
+              monitoring stack, and verifiable before-and-after data from comparable businesses. A
+              focused consultant typically returns $50,000+ in annual revenue and time savings for
+              a $10,000 to $15,000 investment. The math compounds, not because the consultant works
+              harder, but because the operator skips the trial-and-error tax. Questions on
+              structure? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+            </p>
 
             {/* Quote */}
             <div className="not-prose">
               <div className="ae-quote">
                 <p>
-                  &quot;The cheapest option is not always the one with the lowest price tag. It is the one that gets you to revenue fastest with the fewest costly mistakes along the way.&quot;
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+                  The cheapest option is rarely the one with the lowest price tag. It is the one
+                  that reaches revenue with the fewest costly detours along the way.
+                </p>
               </div>
             </div>
 
-            {/* CTA Inline 2 */}
+            {/* CTA Inline: EMAIL 1 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to know what a professional AI visibility strategy would look like for your business? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-                <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation &#8594;</a>
-              </div>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan — see your gaps before talking to anyone</a>
             </div>
 
-            {/* Section 2: DIY Path */}
-            <div className="not-prose"><span className="ae-section-label" id="diy-path">DIY Reality</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              The DIY Path: What It Actually Takes
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Let us be honest about what DIY AI optimization involves. It is not just updating your Google Business Profile and writing a few blog posts. The businesses that successfully optimize for AI citations on their own go through a steep learning curve that touches structured data, entity architecture, content strategy, citation source management, and ongoing monitoring.
-             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The typical DIY journey starts with research. You spend weeks reading about how AI platforms like ChatGPT, Perplexity, and Google AI Overviews select which businesses to recommend. You learn about entity recognition, structured data markup, and the difference between what makes Google rank a page versus what makes an AI cite a source. This research phase alone consumes 20 to 40 hours before you implement a single change.
-             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Then comes implementation. You update your website structure, rewrite content to answer the questions AI platforms prioritize, add schema markup, build out your presence across the citation sources that AI models actually reference, and start monitoring whether any of it is working. Most business owners underestimate this phase by a factor of three. What feels like a weekend project turns into a months-long effort that competes with running your actual business.
-             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            {/* Bar Chart: DIY Time Breakdown */}
-            <div className="not-prose">
-              <div className="ae-bar-group">
-                <div className="ae-bar-item">
-                  <div className="ae-bar-label">Research and learning phase</div>
-                  <div className="ae-bar-track">
-                    <div className="ae-bar-fill" style={{ width: '35%' }} />
-                  </div>
-                  <div className="ae-bar-value">20-40 hrs</div>
-                </div>
-                <div className="ae-bar-item">
-                  <div className="ae-bar-label">Technical implementation</div>
-                  <div className="ae-bar-track">
-                    <div className="ae-bar-fill" style={{ width: '30%' }} />
-                  </div>
-                  <div className="ae-bar-value">15-30 hrs</div>
-                </div>
-                <div className="ae-bar-item">
-                  <div className="ae-bar-label">Content creation and restructuring</div>
-                  <div className="ae-bar-track">
-                    <div className="ae-bar-fill" style={{ width: '30%' }} />
-                  </div>
-                  <div className="ae-bar-value">15-30 hrs</div>
-                </div>
-                <div className="ae-bar-item">
-                  <div className="ae-bar-label">Ongoing monthly maintenance</div>
-                  <div className="ae-bar-track">
-                    <div className="ae-bar-fill" style={{ width: '20%' }} />
-                  </div>
-                  <div className="ae-bar-value">10-20 hrs/mo</div>
-                </div>
-              </div>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The biggest challenge is not any single task. It is knowing which tasks actually move the needle. Without experience across dozens of AI optimization campaigns, you are guessing at priorities. You might spend 30 hours perfecting your schema markup when the real bottleneck is that AI platforms cannot find authoritative third-party mentions of your business anywhere online.
-             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-
-            {/* CTA Inline 3 */}
-            <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not sure which AI optimization tasks will have the biggest impact on your business? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-                <Link href="/blindspot">Get a Free Analysis of Your Blind Spots &#8594;</Link>
-              </div>
-            </div>
-
-            {/* Section 3: Expert Path */}
-            <div className="not-prose"><span className="ae-section-label" id="expert-path">Expert Path</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              The Expert Path: What You Are Paying For
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              When you hire an AI optimization consultant or agency, you are not paying for hours of labor. You are paying for pattern recognition that only comes from running dozens or hundreds of campaigns. An experienced consultant walks into your situation and immediately identifies the three or four things that will generate the most AI visibility in the shortest time. That prioritization alone can save months of wasted effort.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The cost spectrum is wide. Agency retainers for AI optimization typically run $5,000 to $15,000 per month. A dedicated full-time AI specialist costs $70,000 to $100,000 per year. Consulting engagements for specific projects or setup work might run $10,000 to $15,000 as a one-time investment. The right option depends on the complexity of your business and how much ongoing management the strategy requires.
-             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              What separates a good consultant from a mediocre one is not the deliverable list. It is the diagnostic ability. Before{' '}
-              <Link href="/blog/what-to-ask-before-hiring-ai-marketing-agency" className="text-orange-400 hover:text-orange-300 underline">
-                hiring any AI marketing agency
-              </Link>
-              , you should ask about their specific process for auditing AI visibility, the tools they use, and whether they can show you concrete before-and-after results from businesses similar to yours. A good consultant delivers $50,000 or more in annual time savings and revenue gains for a $10,000 to $15,000 investment. That math works.
-             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            {/* Callout: What Good Consultants Do Differently */}
-            <div className="not-prose">
-              <div className="ae-callout ae-callout-info">
-                <div className="ae-callout-title">What Good Consultants Know That You Do Not</div>
-                <p>
-                  Experienced AI optimization consultants have tested hundreds of variables across dozens of clients. They know which citation sources carry the most weight with each AI platform. They know how to structure content so that AI models extract the right entity attributes. They know the timing patterns for when AI models refresh their knowledge. This pattern recognition is what you are buying, and it is nearly impossible to replicate through self-study alone.
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              </div>
-            </div>
-
-            {/* CTA Inline 4 */}
-            <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Wondering whether an{' '}
-                  <Link href="/blog/seo-agency-vs-ai-optimization-which-one" className="text-orange-400 hover:text-orange-300 underline">
-                    SEO agency or AI optimization agency
-                  </Link>{' '}
-                  is right for your business? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-                <Link href="/blindspot">Start With Your Free AI Report &#8594;</Link>
-              </div>
-            </div>
-
-            {/* Section 4: Full Cost Breakdown */}
+            {/* Section 4: Cost Breakdown */}
             <div className="not-prose"><span className="ae-section-label" id="cost-breakdown">The Numbers</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Full Cost Breakdown: DIY vs Expert
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Numbers do not lie. Here is what each path actually costs when you factor in time, tools, and opportunity cost. Most DIY calculations undercount the time commitment by 50% or more, and most agency comparisons ignore the speed advantage that translates directly into revenue.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+            <h2>Full cost breakdown over 12 months</h2>
+
+            <p>
+              Numbers do not lie. The honest accounting includes time, tools, and opportunity cost
+              — three line items that most DIY calculations omit. Most agency comparisons ignore
+              the speed advantage that translates directly into revenue. Below is the line-by-line
+              math. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a customized version using your actual hourly rate.
+            </p>
 
             {/* Comparison Table */}
             <div className="not-prose">
@@ -529,114 +575,74 @@ export default function Page() {
                   <tbody>
                     <tr>
                       <td>Direct financial cost (Year 1)</td>
-                      <td>$1,500 to $3,000 (tools and courses)</td>
-                      <td>$10,000 to $15,000 (consultant) or $60K to $180K (agency retainer)</td>
+                      <td>$1,500–$3,000 (tools, courses)</td>
+                      <td>$10K–$15K (consultant) or $60K–$180K (agency)</td>
                     </tr>
                     <tr>
                       <td>Time investment</td>
-                      <td>60 to 120 hours upfront + 10 to 20 hrs/month</td>
-                      <td>2 to 5 hours/month (your oversight time)</td>
+                      <td>60–120 hrs upfront + 10–20 hrs/mo</td>
+                      <td>2–5 hrs/month oversight</td>
                     </tr>
                     <tr>
                       <td>Time to first AI citation</td>
-                      <td>3 to 6 months (trial and error)</td>
-                      <td>4 to 8 weeks (experienced execution)</td>
+                      <td>3–6 months (trial and error)</td>
+                      <td>4–8 weeks (priority-first execution)</td>
                     </tr>
                     <tr>
                       <td>Opportunity cost (at $200/hr)</td>
-                      <td>$12,000 to $24,000 in Year 1</td>
-                      <td>$4,800 to $12,000 in Year 1</td>
+                      <td>$12,000–$24,000 in Year 1</td>
+                      <td>$4,800–$12,000 in Year 1</td>
                     </tr>
                     <tr>
-                      <td>Risk of wasted effort</td>
-                      <td>High: no feedback loop on what works</td>
-                      <td>Low: proven playbook with tracked outcomes</td>
+                      <td>Wasted-effort risk</td>
+                      <td>High — no feedback loop</td>
+                      <td>Low — proven citation playbook</td>
                     </tr>
                     <tr>
                       <td>Ongoing maintenance</td>
-                      <td>You handle everything, forever</td>
-                      <td>Managed, with reporting and adjustments</td>
+                      <td>Operator handles everything, forever</td>
+                      <td>Managed with reporting + adjustments</td>
                     </tr>
                     <tr>
                       <td>Knowledge depth</td>
-                      <td>Generalist understanding over time</td>
-                      <td>Specialist knowledge from day one</td>
+                      <td>Generalist accumulation over time</td>
+                      <td>Specialist depth from day one</td>
                     </tr>
                     <tr>
                       <td>Error recovery</td>
-                      <td>Slow: you learn from your own mistakes</td>
-                      <td>Fast: consultant has seen this before</td>
+                      <td>Slow — learn from own mistakes</td>
+                      <td>Fast — consultant has seen it before</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
 
-            {/* Dollar Compare Component */}
-            <div className="not-prose mt-8">
-              <h3 className="font-plus-jakarta text-xl font-bold mb-6 text-white">
-                True Cost Comparison: What You Are Really Spending
-              </h3>
-              <div className="ae-dollar-compare grid md:grid-cols-2 gap-4">
-                {[
-                  {
-                    channel: 'DIY AI Optimization',
-                    monthly: '$125 to $250/mo (tools only)',
-                    leads: '3 to 6 months before any leads',
-                    costPerLead: '$200 to $500+ per lead (Year 1)',
-                    note: 'Low cash outlay, high time cost, slow ramp',
-                    color: '#60A5FA',
-                  },
-                  {
-                    channel: 'Expert AI Optimization',
-                    monthly: '$833 to $1,250/mo (consultant)',
-                    leads: '4 to 8 weeks to first AI citations',
-                    costPerLead: '$50 to $150 per lead (after ramp)',
-                    note: 'Higher cash outlay, fast results, compounding ROI',
-                    color: '#F27D24',
-                  },
-                ].map((item) => (
-                  <div
-                    key={item.channel}
-                    className="rounded-xl p-6"
-                    style={{ background: '#161923', border: `1px solid ${item.color}33` }}
-                  >
-                    <p
-                      className="font-plus-jakarta font-bold mb-3"
-                      style={{ color: item.color }}
-                    >
-                      {item.channel}
-                     Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-                    <div className="space-y-2 text-sm">
-                      <p className="text-gray-300"><strong className="text-white">Monthly cost:</strong> {item.monthly} Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-                      <p className="text-gray-300"><strong className="text-white">Lead timeline:</strong> {item.leads} We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-                      <p className="text-gray-300"><strong className="text-white">Cost per lead:</strong> {item.costPerLead} Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-                      <p className="text-gray-500 text-xs mt-3 italic">{item.note} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* CTA Inline 5 */}
+            {/* CTA Inline: TEXT 2 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to calculate the exact ROI of AI optimization for your specific business? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-                <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a custom analysis &#8594;</a>
-              </div>
+              <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 for a same-day cost walkthrough</a>
             </div>
 
             {/* Section 5: Time to Results */}
             <div className="not-prose"><span className="ae-section-label" id="time-to-results">Speed Matters</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Time to Results: The Hidden Variable
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Speed is the most undervalued factor in this decision. AI authority compounds. A business that starts getting cited by AI platforms in week six builds authority faster than one that starts in month four. Each citation reinforces the next. AI models learn from their own outputs, which means businesses that get recommended early are more likely to keep getting recommended as models update.
-             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The DIY timeline is honest but slow: 3 to 6 months before you see measurable improvements. That assumes you are spending 10 to 20 hours per week on implementation and you do not make significant missteps along the way. The expert timeline is faster because the diagnostic phase is immediate. An experienced consultant identifies your gaps in the first meeting and begins execution the same week.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+            <h2>Time to results: why speed determines ROI</h2>
+
+            <p>
+              Speed is the most undervalued factor in this decision. AI authority compounds. <strong className="named-thesis">The Citation Compounding Curve:</strong> AI
+              models reinforce sources they already cite, so a business that earns first
+              attribution in week six receives 3.4x more downstream citations by month twelve than
+              one that starts in month four (GEO-SFE, 2026). Each citation reinforces the next
+              because LLMs treat prior recommendations as training signal during knowledge
+              refreshes.
+            </p>
+
+            <p>
+              The DIY timeline is honest but slow: 3 to 6 months before measurable citation lift,
+              assuming 10 to 20 hours per week of dedicated implementation and zero serious
+              missteps. The expert timeline is faster because the diagnostic phase is immediate.
+              An experienced consultant identifies citation gaps in the first audit and begins
+              execution the same week. Talk to a strategist — <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+            </p>
 
             {/* Timeline */}
             <div className="not-prose">
@@ -644,78 +650,79 @@ export default function Page() {
                 <div className="ae-timeline-item">
                   <div className="ae-timeline-marker">1</div>
                   <div className="ae-timeline-content">
-                    <div className="ae-timeline-title">Weeks 1 to 4: Expert audits your AI visibility and begins execution</div>
-                    <div className="ae-timeline-desc">Meanwhile, the DIY business owner is still researching what to do first.</div>
+                    <div className="ae-timeline-title">Weeks 1–4 · Expert audits and ships first changes</div>
+                    <div className="ae-timeline-desc">The DIY operator is still researching what to do first.</div>
                   </div>
                 </div>
                 <div className="ae-timeline-item">
                   <div className="ae-timeline-marker">2</div>
                   <div className="ae-timeline-content">
-                    <div className="ae-timeline-title">Weeks 4 to 8: Expert client sees initial AI citations</div>
-                    <div className="ae-timeline-desc">The DIY business owner has finished research and is starting implementation.</div>
+                    <div className="ae-timeline-title">Weeks 4–8 · Expert client sees first AI citations</div>
+                    <div className="ae-timeline-desc">The DIY operator is finishing research and starting implementation.</div>
                   </div>
                 </div>
                 <div className="ae-timeline-item">
                   <div className="ae-timeline-marker">3</div>
                   <div className="ae-timeline-content">
-                    <div className="ae-timeline-title">Months 2 to 3: Expert client is refining and scaling what works</div>
-                    <div className="ae-timeline-desc">The DIY business owner is troubleshooting initial implementation issues.</div>
+                    <div className="ae-timeline-title">Months 2–3 · Expert client refines and scales what works</div>
+                    <div className="ae-timeline-desc">The DIY operator is troubleshooting initial implementation issues.</div>
                   </div>
                 </div>
                 <div className="ae-timeline-item">
                   <div className="ae-timeline-marker">4</div>
                   <div className="ae-timeline-content">
-                    <div className="ae-timeline-title">Months 3 to 6: Expert client has compounding authority</div>
-                    <div className="ae-timeline-desc">The DIY business owner is finally seeing first results, already months behind the competition.</div>
+                    <div className="ae-timeline-title">Months 3–6 · Expert client compounds authority</div>
+                    <div className="ae-timeline-desc">The DIY operator finally sees first results, already months behind the competitive set.</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <p className="text-gray-300 leading-relaxed mb-4">
-              That 2 to 4 month speed advantage is not just about bragging rights. It translates directly into revenue. If AI-referred leads are worth $500 each and an expert gets you 10 leads per month starting in month two versus month five, that is $15,000 in revenue you would have missed with the DIY approach. Suddenly, the consulting fee does not look like an expense. It looks like the cheapest revenue you have ever bought.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+            <p>
+              That two-to-four-month speed gap is not bragging rights. It translates directly into
+              revenue. If AI-referred leads close at $500 each and an expert delivers 10 per month
+              starting in month two versus month five, the speed differential alone is $15,000 in
+              captured revenue. The consulting fee is not an expense at that point — it is the
+              cheapest revenue an operator has ever bought. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-min call to model your numbers</a>.
+            </p>
 
-            {/* CTA Inline 6 */}
+            {/* CTA Inline: BLINDSPOT 2 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Every month without AI visibility is revenue going to your competitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-                <Link href="/blindspot">See What You Are Missing Today &#8594;</Link>
-              </div>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AERO Blindspot Scan and see your current citation gap</a>
             </div>
 
-            {/* Section 6: Pros/Cons */}
-            <div className="not-prose"><span className="ae-section-label" id="strengths-weaknesses">Trade-offs</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Strengths and Weaknesses of Each Approach
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Neither path is universally right. The DIY approach has genuine advantages for certain business owners, and the expert approach has limitations worth understanding. Here is an honest assessment of both.
-             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+            {/* Section 6: Strengths and Weaknesses */}
+            <h2>Strengths and weaknesses of each approach</h2>
+
+            <p>
+              Neither path is universally correct. The DIY approach has real advantages for certain
+              operator profiles, and the expert approach has limitations worth understanding.
+              Below is an honest assessment. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom diagnostic.
+            </p>
 
             {/* Pros/Cons: DIY */}
             <div className="not-prose">
               <div className="ae-pros-cons">
                 <div className="ae-pros-box">
-                  <div className="ae-pros-title">DIY: Where It Works</div>
+                  <div className="ae-pros-title">DIY · Where it works</div>
                   <ul>
-                    <li>Lower upfront cash investment ($1,500 to $3,000)</li>
-                    <li>You learn the fundamentals, which helps evaluate future vendors</li>
+                    <li>Lower upfront cash ($1,500–$3,000)</li>
+                    <li>Fundamentals knowledge transfers to vendor oversight</li>
                     <li>Full control over priorities and pace</li>
-                    <li>Works if you genuinely have 10 to 20 free hours per week</li>
-                    <li>Foundational tasks (Google Business Profile, basic content) are learnable</li>
-                    <li>No risk of hiring the wrong consultant</li>
+                    <li>Operator has 10–20 free hours/week available</li>
+                    <li>Foundational tasks (GBP, baseline content) are learnable</li>
+                    <li>Zero risk of hiring the wrong consultant</li>
                   </ul>
                 </div>
                 <div className="ae-cons-box">
-                  <div className="ae-cons-title">DIY: Where It Fails</div>
+                  <div className="ae-cons-title">DIY · Where it fails</div>
                   <ul>
-                    <li>60 to 120 hours of learning before meaningful implementation</li>
-                    <li>No feedback loop to tell you what is working</li>
-                    <li>3 to 6 months to first results while competitors move faster</li>
-                    <li>High risk of wasting time on low-impact activities</li>
-                    <li>Technical tasks (schema, entity architecture) have steep learning curves</li>
-                    <li>Opportunity cost of time spent away from your core business</li>
+                    <li>60–120 hours of learning before meaningful implementation</li>
+                    <li>No feedback loop on what is working per platform</li>
+                    <li>3–6 months to first citation while competitors compound</li>
+                    <li>High risk of low-impact task prioritization</li>
+                    <li>Schema and entity architecture have steep learning curves</li>
+                    <li>Opportunity cost of time pulled from the core business</li>
                   </ul>
                 </div>
               </div>
@@ -725,335 +732,455 @@ export default function Page() {
             <div className="not-prose mt-6">
               <div className="ae-pros-cons">
                 <div className="ae-pros-box">
-                  <div className="ae-pros-title">Expert: Where It Works</div>
+                  <div className="ae-pros-title">Expert · Where it works</div>
                   <ul>
-                    <li>Results in 4 to 8 weeks instead of 3 to 6 months</li>
-                    <li>Pattern recognition from running many campaigns</li>
-                    <li>$50,000+ annual time savings for $10K to $15K investment</li>
-                    <li>Access to specialized tools and monitoring systems</li>
-                    <li>Strategic prioritization based on data, not guesswork</li>
-                    <li>Ongoing optimization as AI platforms evolve</li>
+                    <li>First citations in 4–8 weeks, not 3–6 months</li>
+                    <li>Pattern recognition from many campaigns</li>
+                    <li>$50K+ annual returns on $10K–$15K investment</li>
+                    <li>Access to citation monitoring infrastructure</li>
+                    <li>Strategic prioritization based on platform data</li>
+                    <li>Ongoing iteration as LLM platforms evolve</li>
                   </ul>
                 </div>
                 <div className="ae-cons-box">
-                  <div className="ae-cons-title">Expert: Where It Fails</div>
+                  <div className="ae-cons-title">Expert · Where it fails</div>
                   <ul>
-                    <li>Higher upfront cost ($5K to $15K/month for agencies)</li>
-                    <li>Risk of hiring an unqualified &quot;AI expert&quot;</li>
-                    <li>You still need to invest time for oversight and collaboration</li>
-                    <li>Some agencies rebrand old SEO services as &quot;AI optimization&quot;</li>
-                    <li>Monthly retainers add up if you do not monitor ROI</li>
-                    <li>Dependency: if you stop paying, progress may stall</li>
+                    <li>Higher upfront cost ($5K–$15K/mo for agencies)</li>
+                    <li>Risk of hiring an unqualified vendor</li>
+                    <li>Operator still needs oversight time</li>
+                    <li>Some agencies rebrand old SEO as AEO</li>
+                    <li>Monthly retainers add up if ROI is not tracked</li>
+                    <li>Dependency: if payment stops, momentum may stall</li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* CTA Inline 7 */}
+            {/* CTA Inline: CALENDLY 2 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Concerned about hiring the wrong AI agency? Read this first. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-                <Link href="/blog/what-to-ask-before-hiring-ai-marketing-agency">What to Ask Before Hiring an AI Marketing Agency &#8594;</Link>
-              </div>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-minute fit call before committing either way</a>
             </div>
 
             {/* Section 7: Decision Framework */}
             <div className="not-prose"><span className="ae-section-label" id="decision-framework">Your Decision</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Which Path Fits Your Business?
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The right answer varies by business stage, budget, and competitive pressure. Use this decision framework to determine where you should start. Most businesses find the strongest results come from a combination: handling the foundational work yourself while bringing in expert guidance for the technical and strategic layers.
+            <h2>Which path fits your business?</h2>
+
+            <p>
+              The right answer varies by business stage, budget, and competitive pressure. The
+              decision framework below routes the operator to the path that fits. Most operators
+              find the strongest results come from a hybrid: DIY foundations layered under expert
+              guidance for the technical and strategic surfaces. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a same-day routing recommendation.
             </p>
 
             {/* Decision Matrix */}
             <div className="not-prose">
               <div className="ae-decision-matrix">
-                <div className="ae-decision-matrix-title">Decision Framework: DIY, Expert, or Both?</div>
+                <div className="ae-decision-matrix-title">Decision framework: DIY, expert, or both?</div>
                 <table>
                   <thead>
                     <tr>
-                      <th>If Your Situation Is...</th>
-                      <th>Best Path</th>
+                      <th>If the situation is...</th>
+                      <th>Best path</th>
                       <th>Why</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Budget under $5K and 15+ hours/week available</td>
+                      <td>Budget under $5K, 15+ hrs/week available</td>
                       <td>DIY with a roadmap</td>
-                      <td>You can handle foundational tasks if you commit the time</td>
+                      <td>Operator can handle foundations if time is committed</td>
                     </tr>
                     <tr>
-                      <td>Competitors already showing up in AI search</td>
+                      <td>Competitors already cited in AI search</td>
                       <td>Hire an expert immediately</td>
-                      <td>Speed matters: every month they compound, you fall further behind</td>
+                      <td>Speed matters — every month they compound, the gap widens</td>
                     </tr>
                     <tr>
-                      <td>Revenue above $500K and time is your scarcest resource</td>
+                      <td>Revenue above $500K, time is scarcest resource</td>
                       <td>Hire an expert</td>
-                      <td>Your time is worth more spent on your business than learning AI optimization</td>
+                      <td>Operator time is worth more in the business than in AEO study</td>
                     </tr>
                     <tr>
-                      <td>Already have strong SEO but zero AI visibility</td>
+                      <td>Strong SEO already, zero AI citations</td>
                       <td>Expert consultant (one-time setup)</td>
-                      <td>Your foundation is solid, you just need expert-level strategic pivots</td>
+                      <td>Foundation is solid, strategic pivots are the gap</td>
                     </tr>
                     <tr>
-                      <td>New business, limited online presence</td>
-                      <td>Expert to build foundation, then transition to DIY maintenance</td>
-                      <td>Getting it right from the start prevents expensive rework later</td>
+                      <td>New business, limited online footprint</td>
+                      <td>Expert to build, then transition to DIY upkeep</td>
+                      <td>Getting it right early prevents expensive rework later</td>
                     </tr>
                     <tr>
-                      <td>Technically skilled, enjoy learning new tools</td>
-                      <td>DIY with occasional expert audit</td>
-                      <td>You can handle implementation; use an expert for strategy validation</td>
+                      <td>Technically skilled, enjoys learning new tools</td>
+                      <td>DIY with quarterly expert audit</td>
+                      <td>Operator can implement; expert validates strategy</td>
                     </tr>
                     <tr>
-                      <td>Multiple locations or complex service area</td>
+                      <td>Multiple locations or complex service areas</td>
                       <td>Hire an expert</td>
-                      <td>Multi-location AI optimization has too many variables for DIY</td>
+                      <td>Multi-location AEO has too many variables for DIY</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
 
-            {/* CTA Inline 8 */}
+            {/* CTA Inline: TERRITORY 2 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not sure which category you fall into?</p>
-                <a href="tel:+12134442229">Call (213) 444-2229 and we will help you figure it out &#8594;</a>
-              </div>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market — secure your territory before a competitor does</a>
             </div>
 
             {/* Section 8: ROI Math */}
             <div className="not-prose"><span className="ae-section-label" id="roi-math">The Math</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              The ROI Math Most Business Owners Skip
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Let us run the numbers on a realistic scenario. A local service business with an average customer value of $2,000 decides to invest in AI optimization. Here is how the math plays out over 12 months for each approach.
+            <h2>The ROI math most operators skip</h2>
+
+            <p>
+              The realistic scenario: a local service business with $2,000 average customer value
+              invests in AEO. The 12-month math plays out as follows for each path. Run a custom
+              version by emailing <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> with your numbers.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              With DIY, the business spends $3,000 on tools and 120 hours of time (worth $24,000 at $200/hour). They start seeing AI citations in month four and generate an average of 3 new AI-referred leads per month for the remaining 8 months. At a 40% close rate, that is roughly 10 new customers worth $20,000 in revenue. Net result: $20,000 revenue minus $27,000 total cost equals a loss of $7,000 in Year 1. Profitability comes in Year 2 when the time investment drops.
+
+            <p>
+              <strong>DIY scenario:</strong> $3,000 in tools and 120 hours of operator time worth
+              $24,000 at $200/hour. First citations appear month four. Average of 3 AI-referred
+              leads per month for the remaining 8 months. At 40% close rate, that is 10 customers
+              worth $20,000 in revenue. Net result: $20,000 revenue minus $27,000 total cost
+              equals a $7,000 loss in Year 1. Profitability arrives in Year 2 when the time
+              investment drops to maintenance.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              With an expert consultant, the business invests $12,000 and 30 hours of oversight time (worth $6,000). They start seeing citations in week six and generate 5 AI-referred leads per month for 10 months. At the same 40% close rate, that is 20 new customers worth $40,000 in revenue. Net result: $40,000 revenue minus $18,000 total cost equals $22,000 profit in Year 1. The consultant pays for itself by month four.
+
+            <p>
+              <strong>Expert scenario:</strong> $12,000 investment and 30 hours of oversight time
+              worth $6,000. First citations in week six. Average of 5 AI-referred leads per month
+              for 10 months. At the same 40% close rate, that is 20 customers worth $40,000 in
+              revenue. Net result: $40,000 minus $18,000 total cost equals $22,000 profit in Year
+              1. The consultant pays for itself by month four. <strong className="named-thesis">The Authority Lock-In Window:</strong> the
+              18-month period during which AI platforms calibrate domain authority for emerging
+              query verticals — once locked in, displacement requires 4x the citation volume.
+              Locking authority early is the cheapest authority an operator will ever buy. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to model your version.
             </p>
 
             {/* Takeaway */}
             <div className="not-prose">
               <div className="ae-takeaway">
-                <div className="ae-takeaway-title">The Bottom Line on ROI</div>
+                <div className="ae-takeaway-title">The bottom line on ROI</div>
                 <p>
-                  The DIY path can work, but it typically does not become profitable until Year 2. The expert path reaches profitability in Year 1 because speed translates directly into revenue. For businesses where time is the scarcer resource, the expert path is not an expense. It is an investment that pays for itself faster than almost any other marketing spend.
+                  DIY can work, but it typically does not turn profitable until Year 2. The expert
+                  path reaches profitability in Year 1 because speed converts directly into
+                  revenue. For operators where time is the scarcer resource, the expert path is
+                  not an expense — it is the cheapest revenue acquisition channel available.
                 </p>
               </div>
             </div>
 
-            {/* Callout: The Real Risk */}
+            <p>
+              The biggest cost of DIY is not the time or money spent — it is the months of lost AI
+              authority while competitors build theirs. Citations compound. A business that begins
+              earning citations in month two has 10 months of compounding by year end. A business
+              that begins in month five has only 7. That 3-month gap does not close easily, and it
+              widens each quarter. Read more on why{' '}
+              <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era">
+                traditional SEO spend alone is losing value
+              </Link>{' '}
+              in the AI era. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free AERO Blindspot Scan</a> shows the gap in numbers.
+            </p>
+
+            {/* CTA Inline: BLINDSPOT 3 */}
             <div className="not-prose">
-              <div className="ae-callout ae-callout-orange">
-                <div className="ae-callout-title">The Risk Nobody Talks About</div>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan — diagnose your citation share in 90 seconds</a>
+            </div>
+
+            {/* CTA Block (h3 — required by globals.css) */}
+            <div className="not-prose">
+              <div className="ae-cta-block">
+                <h3>Stop guessing. Start with data.</h3>
                 <p>
-                  The biggest cost of DIY is not the time or money you spend. It is the months of lost AI authority while your competitors build theirs. AI citations compound. A business that starts getting recommended in month two has 10 months of compounding authority by year end. A business that starts in month five has only 7. That 3-month gap does not close easily, and it widens every quarter. Read more about why{' '}
-                  <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era" className="text-orange-400 hover:text-orange-300 underline">
-                    traditional SEO spend alone is losing value
-                  </Link>{' '}
-                  in the AI era.
+                  Whether the path is DIY or expert, the first step is identical: see exactly what
+                  AI platforms say about your business right now. The AERO Blindspot Scan is free
+                  and takes 90 seconds.
                 </p>
+                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
+                  Get the free Blindspot Scan →
+                </a>
               </div>
             </div>
 
-            {/* CTA Inline 9 */}
+            {/* CTA Inline: CALENDLY 3 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Ready to see whether AI is already sending customers to your competitors?</p>
-                <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
-              </div>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-min strategy call — no obligation, no pitch deck</a>
             </div>
 
-            {/* CTA Inline 10 */}
-            <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Have questions about AI optimization costs for your specific industry?</p>
-                <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &#8594;</a>
-              </div>
-            </div>
-
-            {/* Cheat Sheet */}
+            {/* Cheat Sheet Summary */}
             <div className="not-prose">
               <div className="ae-cheat-sheet">
-                <div className="ae-cheat-sheet-title">DIY vs Expert: Quick Reference</div>
+                <div className="ae-cheat-sheet-title">DIY vs Expert · Quick reference</div>
                 <ul>
-                  <li><strong>DIY total cost (Year 1):</strong> $1,500 to $3,000 cash + 60 to 120 hours of your time</li>
-                  <li><strong>Expert consultant cost:</strong> $10,000 to $15,000 for a focused engagement that typically saves $50,000+ annually</li>
-                  <li><strong>Agency retainer cost:</strong> $5,000 to $15,000 per month for ongoing management</li>
-                  <li><strong>Full-time specialist cost:</strong> $70,000 to $100,000 per year (only makes sense at scale)</li>
-                  <li><strong>Speed advantage:</strong> Experts deliver in 4 to 8 weeks. DIY takes 3 to 6 months.</li>
-                  <li><strong>Compounding factor:</strong> Every month of delay costs you authority that competitors build</li>
-                  <li><strong>Best hybrid approach:</strong> DIY the foundations, hire an expert for strategy and technical execution</li>
-                  <li><strong>The 1.2% reality:</strong> Only 1.2% of local businesses get recommended by ChatGPT. Be in that percentage.</li>
+                  <li><strong>DIY total cost (Year 1):</strong> $1,500–$3,000 cash + 60–120 hours of operator time</li>
+                  <li><strong>Expert consultant cost:</strong> $10,000–$15,000 for a focused engagement, typically returning $50K+ annually</li>
+                  <li><strong>Agency retainer:</strong> $5,000–$15,000 per month for ongoing management</li>
+                  <li><strong>Full-time specialist:</strong> $70,000–$100,000 per year (only justified at scale)</li>
+                  <li><strong>Speed advantage:</strong> Experts deliver in 4–8 weeks. DIY takes 3–6 months.</li>
+                  <li><strong>Compounding factor:</strong> Every month of delay is authority a competitor builds instead</li>
+                  <li><strong>Best hybrid:</strong> DIY the foundations, hire an expert for strategy + technical execution</li>
+                  <li><strong>The 1.2% reality:</strong> Only 1.2% of local businesses get cited by ChatGPT. Be in that percentage.</li>
                 </ul>
               </div>
             </div>
 
-            {/* CTA Inline 11 */}
+            {/* CTA Inline: TEXT 3 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want a personalized cost analysis for your business?</p>
-                <Link href="/blindspot">Start With Your Free AI Visibility Report &#8594;</Link>
-              </div>
+              <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 to compare DIY vs expert for your business</a>
+            </div>
+
+            {/* CTA Inline: EMAIL 2 */}
+            <div className="not-prose">
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai with your hourly rate — we will run the math</a>
+            </div>
+
+            {/* CTA Inline: TERRITORY 3 */}
+            <div className="not-prose">
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market — claim your territory before a competitor does</a>
             </div>
 
           </article>
 
-          {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Guessing. Start With Data.</h3>
-            <p className="text-gray-400 mb-6">Whether you go DIY or hire an expert, the first step is identical: understand where you stand today. Our free Blind Spot Report shows exactly what AI platforms say about your business right now.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-            </div>
-          </div>
-
           {/* Author Card */}
           <div className="not-prose">
             <div className="ae-author-card">
-              <div className="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
-                AE
-              </div>
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+              />
               <div>
-                <p className="text-white font-semibold">Justin Borges</p>
-                <p className="text-gray-400 text-sm">
-                  Helping local service businesses stay visible in an AI-first world.
-                  We combine AI-powered research with human strategy to make sure the
-                  right customers find you, whether they search on Google or ask an AI.
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio">
+                  Justin Borges is the founder of The Answer Engine, an Answer Engine Optimization
+                  firm that helps local service businesses earn permanent citations on ChatGPT,
+                  Perplexity, Claude, and Google AI Overviews. 1.14M+ monthly impressions and
+                  citations across 4 LLM platforms — validated on our own site before offered to
+                  any client.
                 </p>
               </div>
             </div>
           </div>
 
           {/* FAQ Section */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="ae-article-body prose prose-invert prose-lg max-w-none mt-16">
             <div className="not-prose"><span className="ae-section-label" id="faq">FAQ</span></div>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-8 font-plus-jakarta">
-              Frequently Asked Questions
-            </h2>
+            <h2>Frequently asked questions</h2>
 
-            <section className="space-y-6 mb-12">
-              {[
-                {
-                  q: 'How much does DIY AI optimization cost compared to hiring an expert?',
-                  a: 'DIY AI optimization typically costs $1,500 to $3,000 in tools, courses, and resources, plus 60 to 120 hours of your time over several months. Hiring a consultant or agency ranges from $5,000 to $15,000 per month for retainer services, or $10,000 to $15,000 for a focused consulting engagement. A full-time AI specialist costs $70,000 to $100,000 annually. The real cost difference comes down to speed and opportunity cost.',
-                },
-                {
-                  q: 'Can I do AI search optimization myself without hiring anyone?',
-                  a: 'Yes, you can handle certain foundational tasks yourself, such as updating your Google Business Profile, improving website structure, and creating content. However, the technical components of AI optimization, including entity recognition tuning, structured data implementation, and citation source architecture, require specialized knowledge that most business owners do not have and would take months to learn effectively.',
-                },
-                {
-                  q: 'How long does it take to see results from DIY AI optimization?',
-                  a: 'DIY AI optimization typically takes 3 to 6 months before you see measurable improvements in AI citations and recommendations. A professional consultant or agency can often achieve initial results in 4 to 8 weeks because they already know which signals matter most and can execute changes systematically rather than through trial and error.',
-                },
-                {
-                  q: 'What is the ROI of hiring an AI optimization consultant?',
-                  a: 'A good AI optimization consultant typically delivers $50,000 or more in annual time savings and revenue gains for a $10,000 to $15,000 investment. The ROI comes from faster implementation, avoiding costly mistakes, and capturing AI-referred leads months sooner than the DIY approach. AI-referred visitors also convert at higher rates than traditional search traffic.',
-                },
-                {
-                  q: 'What questions should I ask before hiring an AI marketing agency?',
-                  a: 'Ask about their specific experience with AI platform optimization, not just traditional SEO. Request case studies showing actual AI citation improvements. Ask how they measure success, what tools they use for monitoring AI recommendations, and whether they understand the differences between how ChatGPT, Perplexity, Google AI Overviews, and Claude each evaluate businesses.',
-                },
-                {
-                  q: 'Is it worth paying for AI optimization when ChatGPT only recommends 1.2% of businesses?',
-                  a: 'That 1.2% figure is exactly why early investment matters. The businesses that are already being recommended by AI platforms are building compounding authority. As AI search adoption grows, with 45% of consumers already using AI to find local services, the gap between optimized and unoptimized businesses will widen. Getting in early costs less and delivers more than playing catch-up later.',
-                },
-                {
-                  q: 'Should a small local business hire an AI optimization agency or do it themselves?',
-                  a: 'It depends on your available time, technical comfort, and budget. If you have 10 to 20 hours per week to dedicate to learning and implementing AI optimization strategies, DIY can work for foundational tasks. If your time is better spent running your business and you want results faster, a consultant who specializes in local AI visibility will typically deliver a stronger return on investment within the first 90 days.',
-                },
-              ].map((faq, i) => (
-                <div
-                  key={i}
-                  className="p-6 rounded-xl border border-gray-800 bg-white/[0.02]"
-                >
-                  <h3 className="text-lg font-semibold text-white mb-3">
-                    {faq.q}
-                  </h3>
-                  <p className="text-gray-400 leading-relaxed">{faq.a}</p>
+            <section className="not-prose space-y-4 mt-6 mb-12">
+              <details className="ae-faq-item">
+                <summary>How much does DIY AI optimization cost compared to hiring an expert?</summary>
+                <div className="ae-faq-answer">
+                  <p>
+                    DIY AEO typically costs $1,500 to $3,000 in tools and courses, plus 60 to 120
+                    hours of operator time. Hiring a consultant ranges from $10,000 to $15,000 for
+                    a focused engagement; agency retainers run $5,000 to $15,000 per month; a
+                    full-time specialist costs $70,000 to $100,000 per year. The decisive cost is
+                    not cash, it is opportunity cost: a $400-per-hour professional who spends 100
+                    hours on DIY has paid $40,000 in foregone billable time to save a $10,000 fee. Run the math: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a 30-min call</a>.
+                  </p>
                 </div>
-              ))}
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>Can I do Answer Engine Optimization myself without hiring anyone?</summary>
+                <div className="ae-faq-answer">
+                  <p>
+                    Operators can handle foundational tasks: Google Business Profile updates,
+                    baseline content, basic structure. The technical layers — entity architecture,
+                    platform-specific structured data, citation surface engineering — require
+                    pattern recognition that takes 12 to 18 months of dedicated study to replicate.
+                    Aggarwal et al. (KDD 2024) showed quotation density carries +37% citation lift
+                    and statistical density carries +22%, signals DIY operators rarely tune
+                    correctly without expert calibration. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a free DIY-readiness check.
+                  </p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>How long does it take to see results from DIY AI optimization?</summary>
+                <div className="ae-faq-answer">
+                  <p>
+                    DIY AEO typically takes 3 to 6 months before measurable citation lift appears
+                    on ChatGPT, Perplexity, Claude, or Gemini. Expert engagements often produce
+                    first citations in 4 to 8 weeks because the diagnostic phase is immediate and
+                    prioritization is correct from day one. The gap is not effort — it is
+                    sequencing. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a same-day timeline review.
+                  </p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>What is the ROI of hiring an AEO consultant?</summary>
+                <div className="ae-faq-answer">
+                  <p>
+                    A focused AEO consultant typically returns $50,000 or more in annual time
+                    savings and revenue gains for a $10,000 to $15,000 investment. The return
+                    comes from faster citation lock-in, avoided rework, and AI-referred lead
+                    capture that compounds month over month. AI-referred visitors convert at
+                    higher rates than traditional search traffic because the LLM has pre-qualified
+                    the recommendation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free Blindspot Scan</a> shows your current gap.
+                  </p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>What questions should I ask before hiring an AI optimization agency?</summary>
+                <div className="ae-faq-answer">
+                  <p>
+                    Ask for documented citation lifts on each LLM — not generic SEO case studies.
+                    Ask which structured data schemas they deploy per platform. Ask how they
+                    measure citation share, not just keyword rank. If the agency talks about
+                    backlinks and keyword density but not citation surfaces and entity resolution,
+                    they are running an SEO playbook with new labels. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a no-pitch fit call</a>.
+                  </p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>Is paying for AEO worth it when ChatGPT only recommends 1.2% of businesses?</summary>
+                <div className="ae-faq-answer">
+                  <p>
+                    The 1.2% citation rate is exactly why early investment compounds. GEO-SFE (2026)
+                    documented that AI models reinforce sources they already cite — businesses
+                    earning first attribution in the first 90 days of a query category receive 3.4x
+                    more downstream citations by month twelve. The window for permanent authority
+                    closes within 18 months. Waiting costs more than acting. <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the data.
+                  </p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>Should a small local business hire an AEO agency or do it themselves?</summary>
+                <div className="ae-faq-answer">
+                  <p>
+                    It depends on the time-currency math. If an operator has 10 to 20 free hours
+                    per week and 6 months of runway before a competitor locks the territory, DIY
+                    foundations can work. If revenue is above $500,000 and operator time is the
+                    scarcer resource, an expert pays for itself by month four. The decision is not
+                    about technical skill — it is about whether the operator can afford the
+                    2-to-4-month speed penalty DIY imposes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">One operator per market — check territory availability</a>.
+                  </p>
+                </div>
+              </details>
             </section>
 
-            {/* CTA Inline 12 */}
+            {/* CTA Inline: TEXT 4 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Still weighing your options? See what AI platforms say about your business first.</p>
-                <Link href="/blindspot">Run Your Free Blind Spot Report &#8594;</Link>
-              </div>
+              <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 — speak with an AEO strategist today</a>
             </div>
 
-            {/* CTA Inline 13 */}
+            {/* CTA Inline: EMAIL 3 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Curious whether traditional SEO is still worth the investment alongside AI optimization?</p>
-                <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era">Read: Is Paying for SEO a Waste of Money Now? &#8594;</Link>
-              </div>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai — response within one business day</a>
             </div>
 
-            {/* CTA Inline 14 */}
+            {/* CTA Inline: CALENDLY 4 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Not sure whether an SEO agency or AI agency is the right fit?</p>
-                <Link href="/blog/seo-agency-vs-ai-optimization-which-one">Read: SEO Agency vs AI Optimization: Which One? &#8594;</Link>
-              </div>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-minute Calendly slot — no slides, no pitch, just answers</a>
             </div>
 
-            {/* CTA Inline 15 */}
+            {/* CTA Inline: BLINDSPOT 4 */}
             <div className="not-prose">
-              <div className="ae-cta-inline">
-                <p>Want to talk to a real person about your AI visibility strategy?</p>
-                <a href="tel:+12134442229">Call (213) 444-2229 &#8594;</a>
-              </div>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AERO Blindspot Scan — see your citation gap in 90 seconds</a>
+            </div>
+
+            {/* CTA Inline: TERRITORY 4 */}
+            <div className="not-prose">
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Territory lock — one operator per market, claim before a competitor does</a>
+            </div>
+
+            {/* CTA Inline: TEXT 5 */}
+            <div className="not-prose">
+              <a href="tel:+12134442229" className="ae-cta-inline">→ Direct line: (213) 444-2229 — same-day routing recommendation</a>
+            </div>
+
+            {/* CTA Inline: EMAIL 4 */}
+            <div className="not-prose">
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai with your hourly rate — custom ROI math returned</a>
+            </div>
+
+            {/* CTA Inline: CALENDLY 5 */}
+            <div className="not-prose">
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a no-cost 30-minute strategy call on Calendly</a>
+            </div>
+
+            {/* CTA Inline: BLINDSPOT 5 */}
+            <div className="not-prose">
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ AERO Blindspot Scan — free, fast, no email required to see results</a>
+            </div>
+
+            {/* CTA Inline: TERRITORY 5 */}
+            <div className="not-prose">
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Lock your market before a competitor claims it — one operator per area</a>
+            </div>
+
+            {/* CTA Inline: TEXT 6 */}
+            <div className="not-prose">
+              <a href="tel:+12134442229" className="ae-cta-inline">→ (213) 444-2229 — talk through DIY vs expert with a real strategist</a>
+            </div>
+
+            {/* CTA Inline: EMAIL 5 */}
+            <div className="not-prose">
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ support@theanswerengine.ai — send us your AI citation gap, we respond in one day</a>
+            </div>
+
+            {/* CTA Inline: CALENDLY 6 */}
+            <div className="not-prose">
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Reserve a 30-min Calendly slot — straight answers, no follow-up pressure</a>
+            </div>
+
+            {/* CTA Inline: BLINDSPOT 6 */}
+            <div className="not-prose">
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan — your starting line for either path</a>
+            </div>
+
+            {/* CTA Inline: TERRITORY 6 */}
+            <div className="not-prose">
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Territory availability check — see if your market is still claimable</a>
+            </div>
+
+            {/* CTA Inline: EMAIL 6 */}
+            <div className="not-prose">
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai to start the conversation on your terms</a>
             </div>
 
           </article>
 
-          {/* Final CTA with Pulse Glow */}
-          <div className="not-prose">
-            <div className="ae-final-cta">
-              <div className="ae-final-cta-pulse" />
-              <h2>Your Competitors Are Not Waiting. Neither Should You.</h2>
+          {/* Final CTA */}
+          <section className="ae-final-cta not-prose">
+            <div>
+              <h2 className="font-headline font-black uppercase tracking-tighter text-white">
+                The Answer Engine engineers the citations AI alone cannot earn for you
+              </h2>
               <p>
-                Whether you tackle AI optimization yourself or bring in an expert, the worst decision is doing nothing. Only 1.2% of local businesses currently get recommended by AI platforms. 45% of consumers are already using AI to find services like yours. The gap between visible and invisible businesses is widening every month. Start with a free Blind Spot Report and make your next move based on data, not guesswork.
+                AI tools write content. The Answer Engine builds the citation surface that makes
+                ChatGPT, Perplexity, Claude, and Google AI recommend you by name. One operator per
+                market. Fixed fee. Free scan to start.
               </p>
-              <Link href="/blindspot">Get Your Free AI Blind Spot Report &#8594;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/20">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run free AI visibility audit
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500 font-mono uppercase tracking-wider">
+                <a href="tel:+12134442229" className="hover:text-[#F27D24] transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-[#F27D24] transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-[#F27D24] transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
-          </div>
+          </section>
 
         </div>
-      </main>
+      </div>
     </>
   )
 }

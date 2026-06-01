@@ -277,10 +277,7 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             <p>The mortgage industry sits at a crossroads. Borrowers increasingly start their search on AI platforms before they ever reach a lender website, a Zillow profile, or a referral call. The brokers who understand what AI evaluates will capture those borrowers first. The ones who do not will watch competitors get recommended to clients they never knew existed. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your brokerage. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if your mortgage practice appears in AI search</a>
 
             {/* SECTION 2 */}
             <span className="ae-section-label" id="why-brokers-are-invisible">The Problem</span>
@@ -309,10 +306,7 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see what AI actually says when a borrower searches for mortgage brokers in your market? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if your mortgage practice appears in AI search</a>
 
             {/* SECTION 3 */}
             <span className="ae-section-label" id="how-ai-evaluates">How AI Decides</span>
@@ -373,10 +367,7 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             </div>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI can actually read your licensing, reviews, and service pages? Our report maps every signal. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if your mortgage practice appears in AI search</a>
 
             {/* SECTION 4 */}
             <span className="ae-section-label" id="four-tactical-moves">The Playbook</span>
@@ -448,10 +439,7 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this playbook applied to your specific brokerage, market, and loan specialties?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if your mortgage practice appears in AI search</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose">
@@ -471,10 +459,7 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             </div>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions about your specific situation? Call us and we will walk you through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if your mortgage practice appears in AI search</a>
 
             <span className="ae-section-label">The Window</span>
             <h2>The Brokers Who Move Now Will Own Their Local AI Results</h2>
@@ -490,14 +475,16 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             <p>For a broader look at how local businesses are navigating the shift from Google to AI search, see our guide on <Link href="/blog/local-seo-vs-ai-search-which-matters-more">local SEO vs. AI search: which matters more</Link>.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The brokers acting now will own their market in AI search. The ones waiting will be playing catch-up.</p>
-              <Link href="/blindspot">See Where Your Brokerage Stands &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if your mortgage practice appears in AI search</a>
 
-            <div className="ae-cta-block not-prose">
-              <p>Prefer to send us a note? We respond within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Does Your Name Come Up When Buyers Ask ChatGPT for a Mortgage Broker?</h3>
+              <p>Homebuyers ask AI &quot;who&apos;s the best mortgage broker in [city]&quot; before they ever Google you. Is your name appearing — or is a competitor getting that referral? Free citation audit — 48 hours.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Mortgage Broker Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
 
           </div>
@@ -556,34 +543,36 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             <p>Brokers who implement structured optimization typically begin seeing AI citations within 60 to 90 days. This assumes they have addressed the four core gaps: NMLS verification visibility, NAP consistency across major directories, loan-type-specific service pages, and crawlable client reviews. Brokers in less competitive local markets often see results faster. The timeline extends in markets where large regional lenders have already built deep AI-readable content libraries.</p>
 
             {/* CTA final */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where your brokerage stands in AI search? The report is free and takes 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if your mortgage practice appears in AI search</a>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions about your specific loan specialties or market? Call us directly.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if your mortgage practice appears in AI search</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Brokerage Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when a borrower searches for a mortgage broker in your area. Our free Blind Spot Report shows you the gaps, the opportunities, and the specific signals keeping your competitors ahead of you in AI recommendations.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get an AI Visibility Audit &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                AI Search Is Sending Borrowers to Someone in Your Market
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Buyers ask ChatGPT and Perplexity for mortgage recommendations before calling anyone. The Answer Engine puts your name in front of those buyers — not a competitor. Free citation audit. One lender per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Citation Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
         </article>
       </main>

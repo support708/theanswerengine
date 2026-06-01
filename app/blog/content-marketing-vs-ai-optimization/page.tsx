@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,18 +65,9 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        '@type': 'Organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
       },
       publisher: {
         '@type': 'Organization',
@@ -268,7 +259,7 @@ export default function Page() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#F27D24"
+                  stroke="#FF6A00"
                   strokeWidth="0.5"
                 />
               </pattern>
@@ -284,7 +275,7 @@ export default function Page() {
               <span
                 style={{
                   backgroundColor: 'rgba(255, 106, 0, 0.15)',
-                  color: '#F27D24',
+                  color: '#FF6A00',
                   border: '1px solid rgba(255, 106, 0, 0.3)',
                 }}
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
@@ -298,17 +289,8 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               Content Marketing vs{' '}
-              <span style={{ color: '#F27D24' }}>AI Optimization</span>
+              <span style={{ color: '#FF6A00' }}>AI Optimization</span>
             </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
-              <img
-                src="/blog/content-marketing-vs-ai-optimization.webp"
-                alt="content marketing vs ai optimization"
-                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-                loading="eager"
-              />
-            </div>
 
             <p className="text-xl text-gray-300 max-w-3xl mb-8 leading-relaxed">
               Content marketing still returns $7.65 for every dollar invested. But 60% of Google
@@ -320,13 +302,13 @@ export default function Page() {
             {/* Author + date row */}
             <div className="flex items-center gap-4 text-sm text-gray-500">
               <div
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
                 className="w-9 h-9 rounded-full flex items-center justify-center font-bold text-white text-sm"
               >
                 AE
               </div>
               <div>
-                <span className="text-gray-300 font-medium">Justin Borges</span>
+                <span className="text-gray-300 font-medium">The Answer Engine Team</span>
                 <span className="mx-2">·</span>
                 <time dateTime={publishDate} className="text-gray-500">
                   April 2, 2026
@@ -352,7 +334,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 $7.65
               </div>
@@ -371,7 +353,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 60%
               </div>
@@ -390,7 +372,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 23x
               </div>
@@ -409,7 +391,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 58%
               </div>
@@ -431,7 +413,7 @@ export default function Page() {
           >
             <h2
               className="font-plus-jakarta text-lg font-bold mb-4"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               In This Article
             </h2>
@@ -500,7 +482,7 @@ export default function Page() {
               to you when they are ready to buy. The worldwide content marketing industry is
               projected to surpass $107 billion in revenue by the end of 2026, and 54.5% of
               businesses plan to increase their content marketing spend this year.
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The ROI numbers are real. Content marketing generates an average of $7.65 for
               every dollar invested. Short-form video leads the pack with an 890% ROI, the
@@ -508,7 +490,7 @@ export default function Page() {
               $42 for every $1 spent. These are not hypothetical projections. Businesses running
               serious content programs see these returns, and the compounding effect over 12 to
               24 months can be powerful.
-             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               But here is where the picture gets complicated. Content marketing was built for a
               world where people clicked links. Where a blog post on page one of Google meant
@@ -516,7 +498,7 @@ export default function Page() {
               phone call. That pipeline still exists, but it is eroding. The mechanism that
               carried content to customers is changing underneath every marketer, and most
               content teams have not adjusted.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+            </p>
 
             {/* Callout: Content ROI context */}
             <div
@@ -541,7 +523,7 @@ export default function Page() {
                     is shrinking. Gartner projects traditional search engine volume will decline
                     25% by the end of 2026. You are building better content for a smaller audience
                     unless you solve the distribution side.
-                   Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -570,7 +552,7 @@ export default function Page() {
                 <div key={i} className="mb-4">
                   <div className="flex justify-between text-sm mb-1">
                     <span className="text-gray-300">{item.label}</span>
-                    <span style={{ color: '#F27D24' }} className="font-semibold text-xs">
+                    <span style={{ color: '#FF6A00' }} className="font-semibold text-xs">
                       {item.display}
                     </span>
                   </div>
@@ -582,7 +564,7 @@ export default function Page() {
                       className="h-2.5 rounded-full"
                       style={{
                         width: `${item.pct}%`,
-                        background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
+                        background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
                       }}
                     />
                   </div>
@@ -590,7 +572,7 @@ export default function Page() {
               ))}
               <p className="text-xs text-gray-600 mt-3">
                 Sources: Content Marketing Institute, RankTracker, HubSpot, 2025-2026
-               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+              </p>
             </div>
           </section>
 
@@ -604,15 +586,15 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#F27D24' }} className="font-semibold">
+                <span style={{ color: '#FF6A00' }} className="font-semibold">
                   Publishing great content but traffic is flat?
                 </span>{' '}
                 The problem might not be your content. It might be where customers are looking.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+              </p>
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Free AI Audit &rarr;
@@ -635,14 +617,14 @@ export default function Page() {
               platforms do not show ten blue links. They synthesize a single answer from multiple
               sources and present it directly to the user. If your business is not in that
               answer, you do not exist to that customer in that moment.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The scale of this shift is not incremental. In 2026, 37% of consumers start their
               searches with AI tools instead of Google or Bing. AI Overviews now appear in 58%
               of all Google queries, up from just 12% in 2024. Among searches that trigger AI
               Overviews, 83% result in zero clicks to any external website. This is not a
               forecast. It is the current reality.
-             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               AI optimization works differently than content marketing. Instead of creating
               volume to attract audiences over time, it focuses on structural signals that AI
@@ -651,7 +633,7 @@ export default function Page() {
               topical depth, and trust indicators that most content marketers have never
               considered. The discipline is newer, more technical, and for most businesses,
               completely uncharted.
-             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
 
             {/* Visual: AI platform growth cards */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
@@ -671,7 +653,7 @@ export default function Page() {
                 >
                   <div
                     className="font-plus-jakarta text-xl font-extrabold mb-1"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                   >
                     {item.stat}
                   </div>
@@ -705,7 +687,7 @@ export default function Page() {
                     content marketing if 200 AI-referred visitors convert at 23x the rate. The
                     game is shifting from volume to precision, and AI optimization is how you play
                     the precision game.
-                   Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -720,11 +702,11 @@ export default function Page() {
               <Link
                 href="/blog/traditional-marketing-vs-ai-visibility-what-actually-works-in-2026"
                 className="underline hover:text-orange-400 transition-colors"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 traditional marketing compares to AI visibility
               </Link>, we covered the full data in a recent analysis.
-             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            </p>
           </section>
 
           {/* Inline CTA 2 */}
@@ -737,15 +719,15 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#F27D24' }} className="font-semibold">
+                <span style={{ color: '#FF6A00' }} className="font-semibold">
                   Not sure where your business stands on AI search?
                 </span>{' '}
                 A free Blind Spot Audit shows you exactly what ChatGPT, Perplexity, and Google AI say about you today.
-               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+              </p>
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Start Your Audit &rarr;
@@ -764,7 +746,7 @@ export default function Page() {
               The differences between content marketing and AI optimization are not subtle once
               you line them up. They operate on different timelines, target different platforms,
               and measure success in fundamentally different ways.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+            </p>
 
             <div className="overflow-x-auto mb-8">
               <table
@@ -780,7 +762,7 @@ export default function Page() {
                       className="text-left py-4 px-4 font-plus-jakarta font-bold text-sm rounded-tl-lg"
                       style={{
                         backgroundColor: 'rgba(255,106,0,0.15)',
-                        color: '#F27D24',
+                        color: '#FF6A00',
                         border: '1px solid rgba(255,106,0,0.25)',
                         borderRight: 'none',
                       }}
@@ -791,7 +773,7 @@ export default function Page() {
                       className="text-left py-4 px-4 font-plus-jakarta font-bold text-sm"
                       style={{
                         backgroundColor: 'rgba(255,106,0,0.15)',
-                        color: '#F27D24',
+                        color: '#FF6A00',
                         border: '1px solid rgba(255,106,0,0.25)',
                         borderRight: 'none',
                       }}
@@ -802,7 +784,7 @@ export default function Page() {
                       className="text-left py-4 px-4 font-plus-jakarta font-bold text-sm rounded-tr-lg"
                       style={{
                         backgroundColor: 'rgba(255,106,0,0.15)',
-                        color: '#F27D24',
+                        color: '#FF6A00',
                         border: '1px solid rgba(255,106,0,0.25)',
                       }}
                     >
@@ -908,13 +890,13 @@ export default function Page() {
               }}
             >
               <p className="text-sm text-gray-300 leading-relaxed">
-                <span style={{ color: '#F27D24' }} className="font-semibold">Key insight:</span>{' '}
+                <span style={{ color: '#FF6A00' }} className="font-semibold">Key insight:</span>{' '}
                 Notice that content marketing and AI optimization are not substitutes for each
                 other. They operate at different stages of the customer journey, target different
                 platforms, and compound in different ways. The businesses winning right now are
                 the ones that have figured out how to make them work together. That integration,
                 however, is where most teams hit a wall.
-               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+              </p>
             </div>
           </section>
 
@@ -928,15 +910,15 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#F27D24' }} className="font-semibold">
+                <span style={{ color: '#FF6A00' }} className="font-semibold">
                   Where does your business fall on this table?
                 </span>{' '}
                 Get a free AI Blind Spot Audit and find out in 5 minutes.
-               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              </p>
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Get Your Audit &rarr;
@@ -957,7 +939,7 @@ export default function Page() {
               website. For queries that trigger AI Overviews, the zero-click rate jumps to 83%.
               Organic CTR on informational queries has dropped by as much as 61% since AI
               Overviews became widespread.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               This is the structural problem content marketing cannot fix on its own. You can
               write the best blog post ever published on your topic. You can optimize it
@@ -965,7 +947,7 @@ export default function Page() {
               may still summarize your content in an AI Overview, give the user the answer, and
               never send a single visitor to your site. Your content becomes training data for
               the AI, not a traffic source for your business.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+            </p>
 
             {/* Warning callout */}
             <div
@@ -991,7 +973,7 @@ export default function Page() {
                     problem. Faster content production into a shrinking organic channel is a
                     treadmill, not a strategy. The question is not "how do we create more?"
                     but "how do we get found where customers are actually looking?"
-                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -1006,11 +988,11 @@ export default function Page() {
               <Link
                 href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business"
                 className="underline hover:text-orange-400 transition-colors"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 practical business problem
               </Link>.
-             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
 
             {/* Visual: Zero-click funnel */}
             <div
@@ -1055,7 +1037,7 @@ export default function Page() {
               ))}
               <p className="text-xs text-gray-600 mt-3">
                 Sources: SparkToro, GoodFirms, ClickVision, Position Digital, 2026
-               Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              </p>
             </div>
           </section>
 
@@ -1069,15 +1051,15 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#F27D24' }} className="font-semibold">
+                <span style={{ color: '#FF6A00' }} className="font-semibold">
                   Is your content feeding AI answers for competitors?
                 </span>{' '}
                 Find out who AI platforms are recommending instead of you.
-               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+              </p>
             </div>
             <a
               href="tel:+12134442229"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Call (213) 444-2229 &rarr;
@@ -1096,7 +1078,7 @@ export default function Page() {
               Neither content marketing nor AI optimization is universally better. Each has
               genuine strengths and real limitations. Understanding both is the first step toward
               a strategy that actually covers the full customer journey.
-             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+            </p>
 
             {/* Content Marketing Pros/Cons */}
             <h3
@@ -1273,15 +1255,15 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#F27D24' }} className="font-semibold">
+                <span style={{ color: '#FF6A00' }} className="font-semibold">
                   Wondering which approach fits your business?
                 </span>{' '}
                 A 5-minute AI audit reveals the answer.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+              </p>
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Run Your Free Audit &rarr;
@@ -1302,7 +1284,7 @@ export default function Page() {
               information that AI platforms use as source material. AI optimization ensures that
               authority actually translates into AI citations and recommendations. One without
               the other leaves a gap.
-             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               Content without AI optimization means you create valuable assets that AI platforms
               may reference but never attribute to your business. AI optimization without content
@@ -1311,7 +1293,7 @@ export default function Page() {
               advantage lives. Businesses that integrate both approaches effectively are
               capturing customers at every stage: awareness through content, and conversion
               through AI citation at the exact moment of purchase intent.
-             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The problem is execution. Integrating content marketing with AI optimization
               requires expertise that sits at the intersection of content strategy, technical
@@ -1325,11 +1307,11 @@ export default function Page() {
               <Link
                 href="/blog/diy-ai-optimization-vs-hiring-an-expert"
                 className="underline hover:text-orange-400 transition-colors"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 doing it yourself versus hiring an expert
               </Link>, the complexity of integration is the deciding factor for most teams.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+            </p>
 
             {/* Decision cards */}
             <div className="grid md:grid-cols-3 gap-4 mb-8">
@@ -1373,7 +1355,7 @@ export default function Page() {
                   </h3>
                   <p className="text-sm text-gray-400 leading-relaxed mb-4">
                     {card.desc}
-                   <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                  </p>
                   <span
                     className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full"
                     style={{
@@ -1399,15 +1381,15 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#F27D24' }} className="font-semibold">
+                <span style={{ color: '#FF6A00' }} className="font-semibold">
                   Already doing content marketing? Good.
                 </span>{' '}
                 Now find out if any of that work is actually reaching AI platforms.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+              </p>
             </div>
             <a
               href="mailto:support@theanswerengine.ai"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Email Our Team &rarr;
@@ -1430,7 +1412,7 @@ export default function Page() {
               generates citation signals: entity consistency, structured data accuracy,
               third-party authority mentions, topical coverage depth. These signals tell AI
               platforms your business is trustworthy enough to recommend.
-             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+            </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The gap appears when businesses invest heavily in content marketing signals but
               ignore citation signals entirely. A company can rank on page one of Google for a
@@ -1442,13 +1424,13 @@ export default function Page() {
               <Link
                 href="/blog/why-fresh-content-key-ai-search-visibility"
                 className="underline hover:text-orange-400 transition-colors"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 keep fresh content flowing
               </Link>{' '}
               while also building structural authority signals are the ones AI platforms learn
               to trust and cite repeatedly.
-             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+            </p>
 
             {/* Signal comparison visual */}
             <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -1497,29 +1479,29 @@ export default function Page() {
               >
                 <h3
                   className="font-plus-jakarta font-bold text-base mb-4"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   AI Optimization Signals
                 </h3>
                 <ul className="space-y-3 text-sm text-gray-300">
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Entity consistency across web mentions
                   </li>
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Structured data accuracy and completeness
                   </li>
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Third-party authority citations and mentions
                   </li>
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Topical depth and coverage breadth
                   </li>
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Cross-platform trust indicators and review sentiment
                   </li>
                 </ul>
@@ -1562,7 +1544,7 @@ export default function Page() {
                 <a
                   href="/blindspot"
                   style={{
-                    background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
+                    background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
                     color: '#FFFFFF',
                     boxShadow: '0 0 30px rgba(255,106,0,0.4)',
                   }}
@@ -1574,7 +1556,7 @@ export default function Page() {
                   href="tel:+12134442229"
                   style={{
                     border: '2px solid rgba(255,106,0,0.4)',
-                    color: '#F27D24',
+                    color: '#FF6A00',
                   }}
                   className="inline-block text-sm font-bold px-7 py-3.5 rounded-xl hover:border-orange-400 transition-colors"
                 >
@@ -1582,7 +1564,7 @@ export default function Page() {
                 </a>
                 <a
                   href="mailto:support@theanswerengine.ai"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                   className="text-sm font-semibold hover:underline"
                 >
                   support@theanswerengine.ai
@@ -1653,7 +1635,7 @@ export default function Page() {
                 >
                   <div className="p-4" style={{ borderRight: '1px solid rgba(255,255,255,0.06)' }}>
                     <p className="text-sm text-gray-300 font-semibold">
-                      <span style={{ color: '#F27D24' }} className="mr-2">If:</span>
+                      <span style={{ color: '#FF6A00' }} className="mr-2">If:</span>
                       {row.situation}
                     </p>
                   </div>
@@ -1678,7 +1660,7 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#F27D24' }} className="font-semibold">
+                <span style={{ color: '#FF6A00' }} className="font-semibold">
                   Not sure which row describes you?
                 </span>{' '}
                 We will tell you. The audit is free and takes 5 minutes.
@@ -1686,7 +1668,7 @@ export default function Page() {
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Get Your Audit &rarr;
@@ -1766,7 +1748,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#F27D24' }} className="font-semibold">
+                  <span style={{ color: '#FF6A00' }} className="font-semibold">
                     Have a question not answered above?
                   </span>{' '}
                   Our team responds within one business day.
@@ -1774,7 +1756,7 @@ export default function Page() {
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Ask Us Directly &rarr;
@@ -1793,7 +1775,7 @@ export default function Page() {
             >
               <div
                 className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0"
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
                 aria-hidden="true"
               >
                 AE
@@ -1803,7 +1785,7 @@ export default function Page() {
                   className="font-plus-jakarta font-bold text-base mb-1"
                   style={{ color: '#FFFFFF' }}
                 >
-                  Justin Borges
+                  The Answer Engine Team
                 </div>
                 <div className="text-xs text-gray-500 mb-3">
                   Published April 2, 2026 · Comparisons
@@ -1817,21 +1799,21 @@ export default function Page() {
                 <div className="flex flex-wrap gap-4 mt-4">
                   <a
                     href="tel:+12134442229"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     (213) 444-2229
                   </a>
                   <a
                     href="mailto:support@theanswerengine.ai"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     support@theanswerengine.ai
                   </a>
                   <a
                     href="https://theanswerengine.ai"
-                    style={{ color: '#F27D24' }}
+                    style={{ color: '#FF6A00' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     theanswerengine.ai
@@ -1886,7 +1868,7 @@ export default function Page() {
                 <a
                   href="/blindspot"
                   style={{
-                    background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
+                    background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
                     color: '#FFFFFF',
                     boxShadow: '0 0 40px rgba(255,106,0,0.5)',
                   }}
@@ -1898,7 +1880,7 @@ export default function Page() {
                   href="tel:+12134442229"
                   style={{
                     border: '2px solid rgba(255,106,0,0.5)',
-                    color: '#F27D24',
+                    color: '#FF6A00',
                   }}
                   className="inline-block text-base font-bold px-8 py-4 rounded-xl hover:border-orange-400 transition-colors"
                 >

@@ -310,10 +310,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             <p>The problem compounds because AI citation patterns are self-reinforcing. The practitioners who earn citations today get more web mentions because people share AI responses, which makes them more likely to be cited tomorrow. The practitioners who do not earn citations today remain invisible regardless of how their actual results compare. Understanding what drives the initial citation entry is the only way to break the cycle. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see whether any AI platform is currently citing your coaching practice or any of your competitors? Our free Blind Spot Report runs the queries and shows you exactly what is happening in plain language.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 2: WHY INVISIBLE ── */}
             <span className="ae-section-label" id="why-invisible">The Structural Gaps</span>
@@ -334,10 +331,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             <p>None of these gaps are difficult to close once you understand what AI citation systems are actually evaluating. The challenge is that most coaches receive website and marketing advice calibrated for human conversion, not for AI citation eligibility. The two are not mutually exclusive, but they require different implementation decisions that most coaching site builders are not making. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our team audits coaching and consulting sites specifically for AI citation eligibility and produces a prioritized gap list with implementation guidance. Start with the free Blind Spot Report.</p>
-              <Link href="/blindspot">Get Your Free Coaching Site AI Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 3: PLATFORM BREAKDOWN ── */}
             <span className="ae-section-label" id="platform-breakdown">The Platform Landscape</span>
@@ -394,10 +388,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
           </div>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure which platform is most realistic for your coaching niche right now? We run a category feasibility check as part of the Blind Spot Report and tell you where to invest first.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 for a Platform Feasibility Check &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
@@ -426,10 +417,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             <p>The outcome layer and the consensus layer compound on top of identity and credentials. A practitioner who has a clean identity layer and a verified credential layer but no independent editorial coverage is still invisible in most AI citation scenarios. The coverage is what moves a practitioner from the background of the AI&rsquo;s knowledge graph to its foreground. Understanding where each platform draws that coverage from is the key to knowing where to build it. For the foundational framework that applies across all expert categories, see our guide on <Link href="/blog/e-e-a-t-for-ai-search">E-E-A-T for AI search</Link>. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We map your current trust signal stack against the four layers and identify exactly which gaps are blocking AI citations for your practice. Get the map in the Blind Spot Report.</p>
-              <Link href="/blindspot">Get Your Trust Signal Map &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 5: PERSON SCHEMA ── */}
             <span className="ae-section-label" id="person-schema">The Identity Layer</span>
@@ -446,10 +434,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             <p>The schema should live on the practitioner&rsquo;s primary about page and be linked from any content they publish. If the practitioner has a separate blog or resource section, each article should reference the Person schema entity as its author so that every piece of content is machine-attributed to the same verified identity. For the broader citation mechanics this feeds into, see our breakdown of the <Link href="/blog/anatomy-of-an-ai-citation">anatomy of an AI citation</Link>.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our team implements Person schema with credential markup as part of the coaching AI visibility stack. Get the audit to see exactly what is missing from your current implementation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <Link href="/blindspot">Get a Person Schema Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 6: CREDENTIALS ── */}
             <span className="ae-section-label" id="credentials">The Credential Signal</span>
@@ -468,10 +453,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             </div>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We build the schema and directory connection layer that turns your certifications from text claims into verified AI signals. Email us to learn what that implementation looks like for your specific credentials.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to Discuss Credential Markup &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 7: THIRD-PARTY PLATFORMS ── */}
             <span className="ae-section-label" id="third-party">The Platform Layer</span>
@@ -486,10 +468,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             <p>The non-negotiable requirement across all platform listings is NAP consistency: name, accreditation, and positioning must be identical across every platform where you have a listing. AI systems build entity confidence by cross-referencing what different sources say about the same person. Inconsistencies undermine that confidence. A practitioner who is listed as an &ldquo;Executive Coach&rdquo; on their website, a &ldquo;Leadership Coach&rdquo; on ICF, a &ldquo;Business Coach&rdquo; on Noomii, and a &ldquo;Performance Coach&rdquo; on LinkedIn is presenting four different versions of their professional identity to AI systems that need to resolve them into one coherent entity. That resolution failure translates directly into lower citation confidence and fewer citations. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We audit third-party platform presence and NAP consistency as part of the Blind Spot Report and produce a prioritized build-out plan based on which platforms each AI engine draws from for your specific niche.</p>
-              <Link href="/blindspot">Get Your Platform Presence Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 8: TESTIMONIALS ── */}
             <span className="ae-section-label" id="testimonials">The Social Proof Problem</span>
@@ -504,10 +483,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We convert coaching testimonial libraries from AI-invisible formats into structured, schema-marked text with outcome specificity as part of the visibility build. Start with the Blind Spot Report to see your current state.</p>
-              <Link href="/blindspot">Get a Testimonial Visibility Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 9: OUTCOMES ── */}
             <span className="ae-section-label" id="outcomes">The Evidence Layer</span>
@@ -522,10 +498,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             <p>The outcomes content framework for coaches pursuing AI visibility has three tiers. Tier one is the case study format: a full-length documented engagement with methodology, timeline, and measurable result. This content is the highest-value AI signal but requires client permission and more production effort. Tier two is the outcome-specific testimonial: a brief client statement expressed as a specific result rather than a general sentiment, published as text with attribution and Review schema. Tier three is the aggregated outcomes statement: a summary of across-client results expressed as ranges or averages with appropriate privacy protections. All three tiers contribute to the evidence layer, with case studies producing the strongest AI citation signal and aggregated outcomes statements producing the most scalable presence across many pages. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We help coaches structure their existing client results into AI-readable outcome content at all three tiers. Email us to start the conversation about what that looks like for your practice.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Discuss Outcomes Content Strategy &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 10: SUB-NICHE ── */}
             <span className="ae-section-label" id="sub-niche">The Positioning Strategy</span>
@@ -540,10 +513,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             <p>The right sub-niche for AI citation leverage is the intersection of high query specificity and low citation competition. The query &ldquo;executive coach for first-time founders raising Series A&rdquo; has far fewer incumbent citations than &ldquo;executive coach&rdquo; and is the kind of specific query a founder in that situation might actually ask an AI. A practitioner who has worked with founders in that context, documented the outcomes, and expressed the specialty consistently across their web presence has a realistic path to appearing in AI responses for that query within a reasonable timeframe. The same practitioner competing on the generic term is invisible. For examples of how this strategy plays out across different expert categories, see our breakdown of <Link href="/blog/how-medical-practices-get-found-on-ai-search">how medical practices get found on AI search</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We map the sub-niche query landscape for your coaching specialty and identify the specific compound queries where citation visibility is most achievable right now. Get the map in the Blind Spot Report.</p>
-              <Link href="/blindspot">Get Your Sub-Niche Query Map &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 11: ROADMAP ── */}
             <span className="ae-section-label" id="roadmap">The Roadmap</span>
@@ -568,10 +538,7 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             </div>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We execute this roadmap as a managed program for coaches and consultants who want the results without managing the process. Start by understanding your current baseline.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for the Managed Coaching Visibility Program &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -641,16 +608,10 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
             <p>The most common and most damaging mistake is building a personal brand site with no Person schema and no third-party platform reciprocity. A beautiful website that describes credentials, certifications, and client outcomes in text is invisible to AI systems as an identity signal because none of it is machine-readable and none of it is corroborated by independent sources. AI platforms need to see your credentials confirmed by sources they already trust, not just asserted on your own domain. The second most common mistake is publishing testimonials as image graphics, which means AI systems cannot read the social proof that would otherwise contribute to your credibility signal. Both mistakes are easy to fix once you know what you are looking for. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see exactly where your AI visibility stands across all four major platforms today? The Blind Spot Report gives you the full picture at no cost.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your coaching niche and what is realistically achievable for your situation before committing to any work? We give straight answers by phone.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── RELATED ARTICLES ── */}
             <span className="ae-section-label" id="related">Continue Reading</span>
@@ -679,26 +640,30 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Coaching Practice Appearing in AI Search?</h2>
-            <p>Find out exactly how each AI platform is currently treating your practice for queries in your specialty, whether you appear in citations, which competitors are capturing those slots, and what specific signals are blocking you today. Our free Blind Spot Report delivers the analysis without a sales pitch.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                Book a 30-min Strategy Call
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just data on where your AI citation visibility stands today.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

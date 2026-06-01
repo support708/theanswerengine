@@ -298,10 +298,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <p>The firms that understand how AI selects which lawyers to recommend are capturing cases their competitors never even know existed. The firms relying solely on Google rankings and paid ads are watching their intake numbers erode without understanding why.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your firm. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION 2: YMYL LEGAL */}
             <span className="ae-section-label" id="ymyl-legal">YMYL Standards</span>
@@ -324,10 +321,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <p>For a deeper look at how AI platforms evaluate business authority across industries, see our guide on <Link href="/blog/how-claude-ai-evaluates-business-authority">how Claude AI evaluates business authority</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your firm scores on E-E-A-T signals compared to competitors in your market.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION 3: TEMPLATE TRAP */}
             <span className="ae-section-label" id="template-trap">The Template Problem</span>
@@ -387,10 +381,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             </table>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know if your law firm website is falling into the template trap? Our report reveals it. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION 4: TRUST SIGNALS */}
             <span className="ae-section-label" id="trust-signals">AI Evaluation</span>
@@ -419,10 +410,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <p>Inconsistencies signal unreliability. If Avvo lists you as a family law firm and your website emphasizes criminal defense, AI has lower confidence in your data. If your firm moved offices two years ago and three directories still show the old address, AI treats your entire profile as potentially outdated.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which signals are helping or hurting your AI visibility? Our report maps every one. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION 5: PRACTICE AREA DEPTH */}
             <span className="ae-section-label" id="practice-area-depth">Content Authority</span>
@@ -467,10 +455,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             </table>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know how your practice area content compares to firms AI is already recommending?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Content Assessment &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION 6: DIRECTORY ECOSYSTEM */}
             <span className="ae-section-label" id="directory-ecosystem">Directory Signals</span>
@@ -531,10 +516,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <p>The power of this ecosystem is in consistency. When AI sees the same firm name, the same phone number, the same practice areas, and the same attorney credentials across seven or eight legal directories plus your own website, it builds high confidence in your data. When it finds inconsistencies, that confidence drops rapidly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover which of your directory listings are helping and which are hurting your AI visibility.</p>
-              <Link href="/blindspot">Check Your Directory Consistency &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION 7: REVIEWS */}
             <span className="ae-section-label" id="reviews-layer">Trust Layer</span>
@@ -551,10 +533,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;Attorney Rodriguez handled our commercial lease dispute expertly, negotiated a settlement that saved our company six figures, and kept us informed at every stage&quot; carries far more weight than &quot;Great lawyer, highly recommend.&quot; Specific reviews that mention practice areas, outcomes, communication style, and case complexity give AI the information it needs to recommend your firm for those specific legal queries.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI can actually read your client reviews or if they are trapped behind JavaScript. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION 8: TECHNICAL BARRIERS */}
             <span className="ae-section-label" id="technical-barriers">Technical Gaps</span>
@@ -595,10 +574,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover whether AI crawlers can actually read your law firm website. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Check Your AI Crawlability &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION 9: CONTENT FRESHNESS */}
             <span className="ae-section-label" id="content-freshness">Content Freshness</span>
@@ -617,16 +593,10 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <p>The medical industry faces a similar challenge with clinical content freshness. For a parallel look at how another YMYL-classified industry navigates this, see our guide on <Link href="/blog/how-medical-practices-get-found-on-ai-search">how medical practices get found on AI search</Link>.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>How fresh is your legal content in AI&apos;s eyes? Our report shows when AI last crawled your pages. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your firm&apos;s AI visibility strategy with a specialist? We work with law firms across every practice area.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -648,10 +618,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your practice area and market? We do that. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* SECTION: LOOKING AHEAD */}
             <span className="ae-section-label">Looking Ahead</span>
@@ -666,22 +633,21 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             </div>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The firms acting now will own their market in AI search. The ones waiting will be playing catch-up. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              <Link href="/blindspot">See Where Your Firm Stands &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 13 */}
-            <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Is Your PI Firm Getting Cases from AI Search — or Losing Them to a Competitor?</h3>
+              <p>When someone types &quot;best personal injury lawyer near me&quot; into ChatGPT, which firm appears? We audit your firm&apos;s AI citation rate across every major engine and tell you exactly what it takes to appear — free, 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free PI Firm Citation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for law firms and professional service businesses. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
           </div>
 
@@ -739,35 +705,37 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <p>A blog helps only if it publishes original legal analysis attributed to a named, bar-admitted attorney. Generic legal articles without author attribution are treated as unverified legal information under YMYL guidelines. AI platforms look for content that demonstrates genuine legal experience, references specific jurisdictional nuances, and addresses the questions potential clients actually ask. A blog full of thin, template content can actually hurt by diluting your site&apos;s overall authority signals.</p>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where your law firm stands in AI search? The report is free and takes 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
 
             {/* CTA 16 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your practice area? Call us and we will walk you through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Law Firm Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when a potential client searches for your practice area in your market. Our free Blind Spot Report shows you the gaps, the opportunities, and the specific signals keeping your competitors ahead of you in AI recommendations.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                The PI Firm That Gets Cited by AI Gets the Case
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                ChatGPT recommends specific lawyers. Perplexity cites specific firms. Google AI Overviews name names. The Answer Engine puts your PI firm in those citations — and keeps competitors out. Free citation audit. One firm per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free PI Citation Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
         </article>
       </main>

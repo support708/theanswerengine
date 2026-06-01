@@ -215,10 +215,7 @@ export default function HowAISearchChangesSalesFunnel() {
           <p>But there is good news. The visitors who do come through AI search are dramatically more valuable. And local businesses that understand the new funnel have an opportunity to capture higher-quality leads than ever before. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 1 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering if your business is visible in the new AI-powered sales funnel? Find out what AI platforms actually say about you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── THE OLD FUNNEL ── */}
           <span className="ae-section-label">The Problem</span>
@@ -294,10 +291,7 @@ export default function HowAISearchChangesSalesFunnel() {
           </div>
 
           {/* ── CTA 2 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is AI sending your potential customers somewhere else? See exactly where your leads are going. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Run a Free AI Visibility Check &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── THE NEW BUYER JOURNEY ── */}
           <span className="ae-section-label">New Reality</span>
@@ -358,10 +352,7 @@ export default function HowAISearchChangesSalesFunnel() {
           </table>
 
           {/* ── CTA 3 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>The buyer journey changed. Has your website kept up? Talk to us about your AI visibility strategy. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── THE CONVERSION ADVANTAGE ── */}
           <span className="ae-section-label">Conversion Data</span>
@@ -405,10 +396,7 @@ export default function HowAISearchChangesSalesFunnel() {
           <p>The businesses winning in this new model are not necessarily the ones with the biggest ad budgets. They are the ones with the clearest expertise signals, the most consistent directory data, and the kind of structured content that AI platforms trust. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* ── CTA 4 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Are you capturing the 4.4x conversion advantage? Find out if AI platforms recommend your business. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            <Link href="/blindspot">Check Your AI Recommendation Status &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── FUNNEL STAGES ── */}
           <span className="ae-section-label">Stage-by-Stage Breakdown</span>
@@ -479,10 +467,7 @@ export default function HowAISearchChangesSalesFunnel() {
           </div>
 
           {/* ── CTA 5 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure which funnel stage is broken? Our free report shows exactly where AI loses sight of your business. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <Link href="/blindspot">Diagnose Your Funnel Gaps &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── REBUILDING YOUR FUNNEL ── */}
           <span className="ae-section-label">Action Plan</span>
@@ -557,10 +542,7 @@ export default function HowAISearchChangesSalesFunnel() {
           </div>
 
           {/* ── CTA 6 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Step 1 is the hardest to do alone. We built a tool that does it for you, completely free.</p>
-            <Link href="/blindspot">Start With a Free AI Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <p>Our <Link href="/blog/5-minute-ai-visibility-audit">5-minute AI visibility audit guide</Link> walks you through the full process of checking what AI platforms say about your business.</p>
 
@@ -593,10 +575,7 @@ export default function HowAISearchChangesSalesFunnel() {
           </div>
 
           {/* ── CTA 7 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Which column does your business fall into? Get the data to find out.</p>
-            <a href="mailto:support@theanswerengine.ai">Email Us for a Free Assessment &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── THE URGENCY ── */}
           <span className="ae-section-label">Urgency</span>
@@ -637,21 +616,18 @@ export default function HowAISearchChangesSalesFunnel() {
           <p>The businesses that recognize this shift and adapt their strategy accordingly will not just survive the AI search transition. They will come out of it with better leads, higher conversion rates, and a competitive advantage that traditional SEO alone cannot match.</p>
 
           {/* ── CTA 8 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your competitors are building AI authority right now. Every day you wait, they get harder to catch.</p>
-            <Link href="/blindspot">See Where You Stand Today &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           {/* ── CTA BLOCK ── */}
-          <div className="ae-cta-block not-prose">
-            <h3>Your Sales Funnel Has Already Changed. Have You?</h3>
-            <p>AI search is compressing, rerouting, and reshaping how customers find local businesses. The businesses that adapt now will capture the 4.4x conversion advantage. The ones that wait will keep losing leads they never knew existed. Get your free Blind Spot Report and see exactly where you stand.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-          </div>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card">
@@ -675,10 +651,7 @@ export default function HowAISearchChangesSalesFunnel() {
           <p>AI search compresses the traditional awareness-consideration-decision funnel into fewer steps. Instead of visiting multiple websites to compare options, customers get AI-generated answers that pre-qualify businesses before a single click happens. The &quot;consideration&quot; stage now happens inside the AI platform, not on your website. Businesses that AI platforms recommend get high-intent traffic, while those that are invisible get skipped entirely.</p>
 
           {/* ── CTA 9 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is your business getting skipped by AI? There is only one way to find out.</p>
-            <Link href="/blindspot">Check Your AI Visibility Now &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>What percentage of searches now end without a click to any website?</h3>
           <p>According to Semrush&apos;s 2025 zero-click study, 58.5% of US searches and 59.7% of EU searches end entirely within Google&apos;s search results page. For queries that trigger AI Overviews specifically, the zero-click rate jumps to 83%. On mobile devices, the rate is even higher at 75%.</p>
@@ -687,10 +660,7 @@ export default function HowAISearchChangesSalesFunnel() {
           <p>Yes, significantly. Research shows that AI search traffic converts at 14.2% compared to Google organic&apos;s 2.8%. AI-driven visitors convert on average 4.4 times higher than standard organic visits. This is because AI platforms pre-qualify users by answering basic questions before they click, filtering out casual browsers and sending only high-intent prospects to your site.</p>
 
           {/* ── CTA 10 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want the 4.4x conversion advantage working for your business? Start by understanding your current AI visibility.</p>
-            <Link href="/blindspot">Get Your Free Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>How many consumers use AI tools to research purchases in 2026?</h3>
           <p>According to Net Conversion&apos;s 2026 consumer study, 64% of consumers now use AI tools to research purchases, up from 45% in 2025. Additionally, 57% say AI has increased the number of sources they consult during the buying process. AI is expanding research while concentrating the final decision into fewer trusted recommendations.</p>
@@ -699,19 +669,13 @@ export default function HowAISearchChangesSalesFunnel() {
           <p>Local businesses need to shift from optimizing for clicks to optimizing for AI citations. This means building authoritative, well-structured content that AI platforms can easily parse, maintaining consistent business information across all directories, collecting and responding to reviews, implementing structured data markup, and creating content that directly answers the questions customers ask AI platforms about your industry.</p>
 
           {/* ── CTA 11 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure where to start with AI optimization? We will show you exactly what needs fixing.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <h3>Is Google AI Overviews reducing organic click-through rates for local searches?</h3>
           <p>Yes. According to Seer Interactive&apos;s September 2025 analysis, organic CTR dropped 61% for queries where AI Overviews appeared, falling from 1.76% to 0.61%. Paid CTR dropped even more sharply at 68%. Even ranking number one on Google may not drive the same traffic if an AI Overview answers the query before users scroll down.</p>
 
           {/* ── CTA 12 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Rankings alone cannot protect your traffic anymore. See what AI is doing to your visibility.</p>
-            <Link href="/blindspot">Get Your AI Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -719,23 +683,35 @@ export default function HowAISearchChangesSalesFunnel() {
           </div>
 
           {/* ── CTA 13 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>You have read the data. You know the shift is real. The only question left is whether AI recommends your business or your competitor.</p>
-            <Link href="/blindspot">Find Out in 60 Seconds &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
         </div>
 
         {/* ── FINAL CTA ── */}
-        <div className="ae-final-cta">
-          <h2>Your Sales Funnel Changed. Get the Data to Adapt.</h2>
-          <p>AI search is reshaping how local customers find, compare, and choose businesses. The companies that optimize for AI visibility now will own the new funnel. Get your free Blind Spot Report and see exactly what ChatGPT, Claude, Perplexity, and Google AI say about your business.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   );

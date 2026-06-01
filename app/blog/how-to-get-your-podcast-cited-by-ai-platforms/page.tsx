@@ -307,10 +307,7 @@ export default function Page() {
             <p>Your podcast could contain the single most authoritative answer to a question in your industry. If that answer exists only as audio, no AI platform on Earth will ever cite it. The gap between what you know and what AI can find is entirely a format problem. Solving it requires converting your spoken expertise into machine-readable text, and doing it in a way that AI platforms trust enough to cite. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Wondering if AI platforms can find any of your podcast content today? Find out in 60 seconds. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <Link href="/blindspot">Check Your AI Visibility Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 1 */}
           <span className="ae-section-label" id="invisible-medium">The Invisible Medium</span>
@@ -328,10 +325,7 @@ export default function Page() {
 
           <p>The podcasters who understand this gap are the ones whose content shows up when AI answers questions. They treat the audio recording as the starting point, not the finished product. The real work, the work that earns AI citations, happens after the microphone is off. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <div className="ae-cta-inline">
-            <p>Your competitors might already be converting their podcast content for AI. Are you falling behind? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 2 */}
           <span className="ae-section-label" id="transcript-gap">Transcripts and AI</span>
@@ -348,10 +342,7 @@ export default function Page() {
             <p>Publishing 200 episodes without transcripts produces zero AI citation opportunities. Publishing 20 episodes with well-structured, web-hosted transcripts produces 20 potential citation sources. The podcasters winning in AI search are not necessarily the most prolific. They are the ones who treat every episode as a piece of written content waiting to be unlocked. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Not sure if your transcripts are formatted for AI discovery? We can evaluate your podcast presence across every AI platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            <Link href="/blindspot">Run Your Free AI Audit</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 3 */}
           <span className="ae-section-label" id="where-to-publish">Publishing Strategy</span>
@@ -418,10 +409,7 @@ export default function Page() {
             <p>Your podcast hosting platform is for distribution to listeners. Your website is for distribution to AI. These are two separate distribution channels with two separate strategies. Treating them the same way leaves AI citation potential on the table. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Is your podcast content published where AI can actually find it? We audit every channel that matters. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            <Link href="/blindspot">See What AI Sees</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 4 */}
           <span className="ae-section-label" id="structure-matters">Structure Over Volume</span>
@@ -467,10 +455,7 @@ export default function Page() {
             <p>Podcast networks that publish daily episodes often have worse AI citation rates than independent shows that publish biweekly with full transcripts and supporting blog content. AI does not care how often you publish. It cares whether the content it finds is structured, specific, and authoritative enough to cite confidently. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Your episode count means nothing if AI cannot read your content. Let us show you what AI actually sees. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <Link href="/blindspot">Check Your AI Visibility</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 5 */}
           <span className="ae-section-label" id="youtube-advantage">The YouTube Factor</span>
@@ -488,10 +473,7 @@ export default function Page() {
 
           <p>This does not mean you need a professional video studio. Many of the most-cited video podcasts use simple setups: a camera on a tripod, decent lighting, and the same microphone they were already using. The production quality matters far less than the structural advantages YouTube provides. AI does not evaluate cinematography. It evaluates text.</p>
 
-          <div className="ae-cta-inline">
-            <p>Are your competitors already publishing video podcasts on YouTube? You might be losing AI citations to them right now.</p>
-            <Link href="/blindspot">See How You Compare</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 6 */}
           <span className="ae-section-label" id="cross-platform-signals">Authority Signals</span>
@@ -510,10 +492,7 @@ export default function Page() {
             <p>Every podcast episode you convert into text-based content creates a citation asset that can earn AI references for years. The podcasters who started building this infrastructure six months ago now have a growing library of AI-citable content. Starting today means your first AI citation could come within weeks. Waiting another quarter means your competitors extend their lead further.</p>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Your podcast is a goldmine of expertise. AI just cannot find it yet. We can show you how to change that.</p>
-            <Link href="/blindspot">Get Your Visibility Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Section 7 */}
           <span className="ae-section-label" id="what-not-to-do">Common Mistakes</span>
@@ -586,10 +565,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="ae-cta-inline">
-            <p>Every one of these mistakes is fixable. The question is whether you fix them before or after your competitors do.</p>
-            <Link href="/blindspot">Find Your Blind Spots Now</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           {/* Cheat Sheet */}
           <div className="ae-cheat-sheet">
@@ -656,21 +632,15 @@ export default function Page() {
           </div>
 
           {/* 3-Tier CTA Block before FAQ */}
-          <div className="ae-cta-block">
-            <h3>Your Podcast Could Be Earning AI Citations. Is It?</h3>
-            <p>Our free Blind Spot Report reveals exactly where your podcast content stands across ChatGPT, Perplexity, and Google AI Overviews. No pitch, just the data you need to start earning citations from your existing episodes.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>
-                <svg className="inline w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>
-                <svg className="inline w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
-          </div>
 
           {/* Author Card */}
           <div className="not-prose">
@@ -694,10 +664,7 @@ export default function Page() {
           <h3>Can AI platforms actually listen to my podcast?</h3>
           <p>No. AI platforms like ChatGPT, Perplexity, and Google AI cannot process audio files directly. They rely on text-based representations of your content, primarily transcripts, show notes, and associated web pages. If your podcast exists only as an audio file without any text layer, AI has no way to discover, evaluate, or cite your expertise.</p>
 
-          <div className="ae-cta-inline">
-            <p>Your podcast might be completely invisible to AI. One free report reveals exactly where you stand.</p>
-            <Link href="/blindspot">Check Your AI Visibility</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Do podcast transcripts actually improve AI citation rates?</h3>
           <p>Yes, dramatically. Transcripts convert your spoken expertise into machine-readable text that AI platforms can crawl, index, and quote. Without a transcript, your podcast episode is invisible to every AI search engine. With a well-structured transcript published on your website, your content becomes eligible for citation across ChatGPT, Perplexity, and Google AI Overviews.</p>
@@ -705,10 +672,7 @@ export default function Page() {
           <h3>Where should I publish my podcast transcript for maximum AI visibility?</h3>
           <p>Publish transcripts on your own website as dedicated pages with proper heading structure, schema markup, and internal links. Hosting transcripts only on your podcast platform (like Apple Podcasts or Spotify) limits AI crawlability. Your website gives you full control over how AI encounters and processes your content.</p>
 
-          <div className="ae-cta-inline">
-            <p>We audit your podcast content across every platform AI actually pays attention to.</p>
-            <Link href="/blindspot">Get Your Blind Spot Report</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>Does podcast episode length affect whether AI cites it?</h3>
           <p>Indirectly, yes. Longer episodes produce longer transcripts with more content for AI to evaluate and cite. However, depth and specificity matter more than length alone. A focused 20-minute episode that thoroughly covers one topic will outperform a rambling 90-minute conversation that touches on everything superficially.</p>
@@ -716,10 +680,7 @@ export default function Page() {
           <h3>Should I repurpose podcast episodes into blog posts for AI visibility?</h3>
           <p>Publishing a raw transcript is a starting point, but reformatting key insights into structured blog posts with headers, statistics, and citations creates content that is significantly more citable by AI. Blog-format content with clear structure gives AI platforms the clean text they prefer when generating cited answers.</p>
 
-          <div className="ae-cta-inline">
-            <p>Turning episodes into AI-citable content is what we do. Find out what you are missing.</p>
-            <Link href="/blindspot">Run Your Free AI Audit</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
           <h3>How do show notes affect whether AI platforms cite my podcast?</h3>
           <p>Show notes serve as metadata that helps AI determine topical relevance before processing the full transcript. Detailed show notes that summarize key points, list topics covered, and include timestamps function like a table of contents for AI crawlers. Sparse show notes with just a guest name and episode number provide almost no value for AI discovery.</p>
@@ -727,29 +688,35 @@ export default function Page() {
           <h3>Do YouTube podcasts get cited more than audio-only podcasts?</h3>
           <p>YouTube overtook Reddit as the most-cited social platform in AI responses in early 2026. Podcasts published as YouTube videos benefit from automatic transcript generation, chapter markers, and YouTube integration with Google AI systems. An audio-only podcast without a web-published transcript has virtually no path to AI citation.</p>
 
-          <div className="ae-cta-inline">
-            <p>Your competitors may already be publishing video podcasts. See how your AI visibility compares.</p>
-            <Link href="/blindspot">Compare Your Visibility</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
         </div>
 
         {/* Final CTA */}
-        <div className="ae-final-cta">
-          <h2>AI Is Answering Questions Your Podcast Already Covers. Make Sure You Get Cited.</h2>
-          <p>Your podcast episodes contain expertise that AI platforms want to cite. They just cannot hear it. Our free Blind Spot Report reveals exactly what AI can and cannot find from your podcast, and shows you the fastest path to earning citations from your existing content.</p>
-          <Link href="/blindspot" className="ae-cta-primary pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>
-              <svg className="inline w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              (213) 444-2229
-            </a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>
-              <svg className="inline w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              support@theanswerengine.ai
-            </a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
       </article>
     </main>

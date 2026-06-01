@@ -519,14 +519,15 @@ export default function SocialMediaAIVisibility() {
 
             {/* CTA Block */}
             <div className="not-prose ae-cta-block">
-              <div className="ae-cta-block-inner">
-                <h3>See Exactly What AI Knows About Your Business</h3>
-                <p>Our free Blind Spot Report shows you which signals AI platforms are reading, which ones are missing, and where your competitors are beating you in AI search results. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-                <div className="ae-cta-block-actions">
-                  <Link href="/blindspot" className="ae-btn ae-btn-primary">Get Your Free Blind Spot Report</Link>
-                  <a href="tel:+12134442229" className="ae-btn ae-btn-secondary">Call (213) 444-2229</a>
-                </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Content That Ranks in Google AND Gets Cited in AI — The Dual-Engine Strategy</h3>
+              <p>Most content agencies optimize for one or the other. The Answer Engine&apos;s Origin Protocol writes content that satisfies both systems in the same pass — Google ranking and AI citation, one market. Free audit to start.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Content Citation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
               </div>
+            </div>
             </div>
 
             {/* Section 6: The Uncomfortable Math */}

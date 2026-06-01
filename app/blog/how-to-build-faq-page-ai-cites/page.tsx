@@ -274,10 +274,7 @@ export default function Page() {
             <p>BrightEdge found that sites implementing structured data and FAQ blocks saw a <strong>44% increase in AI search citations</strong>. That is not a marginal improvement. That is the difference between being invisible to AI and being cited regularly. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your FAQ page earning AI citations or collecting dust? Find out in 60 seconds.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── WHY AI LOVES FAQ PAGES ── */}
             <span className="ae-section-label">The Opportunity</span>
@@ -319,10 +316,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI platforms can even read your FAQ content? We will check for free. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── THE THREE LAYERS ── */}
             <span className="ae-section-label">The Blueprint</span>
@@ -352,10 +346,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want us to audit your FAQ page structure against all three layers? It takes less than a minute to start. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link href="/blindspot">Run Your Free AI Visibility Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── LAYER 1 DEEP DIVE ── */}
             <span className="ae-section-label">Layer 1</span>
@@ -373,10 +364,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Need help identifying the questions your customers are actually asking AI? We pull real query data.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── LAYER 2 DEEP DIVE ── */}
             <span className="ae-section-label">Layer 2</span>
@@ -430,10 +418,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 5 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>How do your FAQ answers stack up against the citation test? We will score every answer on your page.</p>
-              <Link href="/blindspot">Get Your Free AI Content Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── LAYER 3 DEEP DIVE ── */}
             <span className="ae-section-label">Layer 3</span>
@@ -490,10 +475,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your schema is valid or if AI can even see it? We check every line.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Schedule a Schema Review &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── SCHEMA QUALITY VS DOMAIN AUTHORITY ── */}
             <span className="ae-section-label">The Equalizer</span>
@@ -529,10 +511,7 @@ export default function Page() {
             <p>A well-structured FAQ page with complete schema markup can help smaller businesses earn AI citations that would otherwise go to larger competitors with higher domain authority. This is the equalizer that makes AEO accessible to businesses of every size.</p>
 
             {/* ── CTA 7 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Competing against bigger companies in AI search? Schema quality is your advantage. Let us show you where you stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <Link href="/blindspot">Check Your Schema vs Competitors &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── EMBED FAQS EVERYWHERE ── */}
             <span className="ae-section-label">Multiply Your Reach</span>
@@ -566,10 +545,7 @@ export default function Page() {
             <p>This approach connects directly to the <Link href="/blog/hub-spoke-content-strategy-ai-citations">hub and spoke content strategy</Link> that drives AI citations. Your main FAQ page acts as the hub, and the FAQ sections embedded across service pages act as spokes. Together, they build the topical authority that AI platforms need to confidently cite your business.</p>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want a hub-and-spoke FAQ strategy built for your specific service area? We map it out for free. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── FRESHNESS ── */}
             <span className="ae-section-label">Stay Current</span>
@@ -606,10 +582,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 9 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>When was your FAQ page last updated? If you cannot remember, your AI citations are slipping.</p>
-              <Link href="/blindspot">Check Your AI Visibility Now &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── COMMON MISTAKES ── */}
             <span className="ae-section-label">Avoid These</span>
@@ -661,10 +634,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 10 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes? Our audit catches all five and shows you exactly how to fix them. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free FAQ Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── ACTION PLAN ── */}
             <span className="ae-section-label">Your Action Plan</span>
@@ -705,16 +675,17 @@ export default function Page() {
             </div>
 
             {/* ── CTA 11 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want us to build your FAQ blueprint for you? We handle every step from research to schema validation.</p>
-              <Link href="/blindspot">Start With Your Free AI Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── CTA BLOCK ── */}
-            <div className="ae-cta-block not-prose">
-              <h3>Your FAQ Page Is Either Working For You Or Against You</h3>
-              <p>Every day your FAQ page sits without proper schema, formatted answers, and real customer questions, you are handing AI citations to your competitors. The businesses that treat their FAQ page as a living, AI-optimized asset are the ones AI platforms consistently recommend. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
 
             {/* ── FAQ SECTION ── */}
@@ -802,22 +773,13 @@ export default function Page() {
 
           {/* ── CTA 12 ── */}
           <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-            <div className="ae-cta-inline not-prose">
-              <p>Have more questions about FAQ pages and AI visibility? We answer them all in your free report.</p>
-              <Link href="/blindspot">Get Your Custom Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── CTA 13 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your FAQ strategy with an AEO specialist? We are happy to help.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── CTA 14 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want the full breakdown emailed to you? Send us a note and we will share our complete FAQ optimization guide.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             {/* ── AUTHOR CARD ── */}
             <div className="ae-author-card">
@@ -835,22 +797,30 @@ export default function Page() {
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta">
-            <div className="ae-final-cta-pulse"></div>
-            <h2>Is Your FAQ Page Earning AI Citations or Collecting Dust?</h2>
-            <p>Most businesses have FAQ pages that AI platforms completely ignore. Our free blind spot report checks your schema markup, content structure, and citation potential across ChatGPT, Perplexity, and Google AI. No pitch, just the data on where you stand and what to fix first.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
         </article>
       </main>

@@ -267,10 +267,7 @@ export default function HowToGetCitedByAISearchPage() {
 
             <p><strong>4. Specificity of claims.</strong> AI prefers sources that make specific, falsifiable claims over generic ones. &ldquo;We serve Los Angeles&rdquo; is weak. &ldquo;We serve Glendale, Burbank, Pasadena, and the San Fernando Valley with same-day service&rdquo; is specific enough to cite as an answer to &ldquo;who serves my area.&rdquo; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI platforms can find your business right now? Get a free citation check across ChatGPT, Perplexity, Claude, and Google AI. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <Link href="/blindspot">Check Your AI Citation Status &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             <span className="ae-section-label">PLATFORM BY PLATFORM</span>
             <h2>What Each AI Platform Uses to Cite Businesses</h2>
@@ -306,10 +303,7 @@ export default function HowToGetCitedByAISearchPage() {
 
             <p><strong>Step 7: Build platform-specific profiles.</strong> For Meta AI: complete your Facebook Business page and post weekly. For Google AI: optimize your Google Business Profile monthly. For ChatGPT Search: ensure your site is indexed in Bing. For Perplexity: make your site fast, crawlable, and structured. Each platform has its own data source, and you need to feed all of them. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know which of these steps would have the biggest impact on your specific business? The BlindSpot Report shows you exactly where AI stands on your business today. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Get Your Free BlindSpot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
 
             <span className="ae-section-label">COMMON MISTAKES</span>
             <h2>Why Most Businesses Are Still Invisible to AI After Making Changes</h2>
@@ -350,26 +344,30 @@ export default function HowToGetCitedByAISearchPage() {
           </div>
 
           {/* Final CTA */}
-          <div className="ae-final-cta">
-            <div className="ae-final-cta-pulse"></div>
-            <h2>Find Out If AI Is Citing Your Competitors Instead of You</h2>
-            <p>We query ChatGPT, Perplexity, Claude, Google AI, and Meta AI for your exact service and market. The BlindSpot Report shows you exactly who gets cited, what signals they have that you are missing, and what it would take to become the recommended answer. Free. No pitch.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free BlindSpot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-                (213) 444-2229
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
         </article>
       </main>

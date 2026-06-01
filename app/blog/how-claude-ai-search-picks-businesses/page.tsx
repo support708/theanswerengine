@@ -310,10 +310,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>This article walks through the algorithm Claude applies when selecting citations, the trust filter that decides which brands get through, the domains and signal types Claude over- and under-weights, and a practical optimization playbook for earning Claude citations without compromising visibility on the other major platforms. For broader context on how all the major AI engines pick sources, read our analysis of <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know whether Claude is currently citing your brand, your competitors, or neither? Our free Blind Spot Report runs the queries and shows you the answer in plain language.</p>
-              <Link href="/blindspot">Get Your Free Claude Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 2: CONSTITUTIONAL AI ── */}
             <span className="ae-section-label" id="constitutional-ai">The Mechanism</span>
@@ -334,10 +331,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>The filter has a corollary that brands often miss. Because Claude is conservative about citations, the brands it does cite gain a disproportionate trust signal in the eyes of users who notice which platforms cite them. A user who sees the same brand cited by Claude, ChatGPT, and Perplexity for the same query has a stronger trust association than a user who sees the brand cited by only one platform. Claude citations are scarcer but more compounding when earned, and that pattern shapes how Claude should fit into a multi-platform AEO strategy. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We track Claude citation patterns alongside ChatGPT, Perplexity, and Google AI Overviews for our clients on a recurring monitoring cadence. Start with a free baseline snapshot.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Discuss Your Claude Strategy &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 3: CLAUDE TRUST FILTER ── */}
             <span className="ae-section-label" id="trust-filter">The Filter</span>
@@ -358,10 +352,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>The practical takeaway for brand content strategy is that Claude rewards a tone that resembles institutional editorial standards more than direct-response marketing. Articles that acknowledge tradeoffs, cite counter-evidence, and resist hyperbolic claims do better in Claude citations than articles optimized for click-through and conversion. This does not mean every brand page needs to read like an academic paper. It means the pages a brand most wants to be cited for by Claude should be the pages where editorial discipline is most carefully enforced. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our team audits brand content libraries for Claude trust filter alignment and identifies the specific pages where editorial framing is costing you citations. The Blind Spot Report covers this analysis.</p>
-              <Link href="/blindspot">Get Your Free Editorial Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 4: DOMAIN AUTHORITY ── */}
             <span className="ae-section-label" id="domain-authority">The Signals</span>
@@ -378,10 +369,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>For a commercial brand, the implication is that the path to consistent Claude citation runs through borrowed institutional authority more than through pure on-domain optimization. A commercial brand cited in a trade journal or referenced in a peer-reviewed study inherits some of that source&rsquo;s institutional weight when Claude evaluates citations on related queries. Building those external references is slower than publishing more on-domain content, but the citation lift is more durable.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We help brands identify the institutional publishers Claude already trusts for their category and build a structured earned-media program to compound that borrowed authority. Email us to start the conversation. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for an Earned Media Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 5: UNDER/OVER CITE ── */}
             <span className="ae-section-label" id="under-cite">The Comparison</span>
@@ -402,10 +390,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>The strategic implication: not every category needs a Claude-specific optimization push, but in categories where institutional sourcing is available — regulated industries, technical fields, health and finance, B2B services with trade association coverage — Claude visibility is achievable and worth pursuing as a discrete optimization track alongside the broader AEO program.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering whether your category is one where Claude visibility is actually achievable? We run a category-specific feasibility check as part of the Blind Spot Report so you do not waste effort on platforms where the structural odds are against you. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link href="/blindspot">Get a Claude Feasibility Check &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 6: NAMED AUTHORS ── */}
             <span className="ae-section-label" id="authors">The Expertise Layer</span>
@@ -422,10 +407,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>The schema layer is non-negotiable. Person schema on author bio pages makes the author identity machine-readable and provides the structured data hooks AI crawlers use to confirm identity claims. The schema should include name, jobTitle, worksFor, and at least one sameAs reference to a verified external profile. Without Person schema, named bylines improve human reader trust but contribute less to the machine-readable expertise signal that Claude and other AI citation systems evaluate. For more on the broader expertise framework, see our piece on <Link href="/blog/e-e-a-t-for-ai-search">E-E-A-T for AI search</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our team audits author bylines and Person schema implementation across your top content pages and produces a prioritized implementation plan. Get the audit as part of the Blind Spot Report.</p>
-              <Link href="/blindspot">Get a Named Expertise Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 7: RECENCY ── */}
             <span className="ae-section-label" id="recency">The Time Layer</span>
@@ -446,10 +428,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>The recency layer compounds with the named-author and primary-source layers. A page with a named expert author, primary-source links, and a current update date is the configuration Claude treats with the strongest presumption of citability. Any one of the three signals helps. All three in combination is the configuration that wins competitive citation races against larger but staler competitors. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which of your top pages are bleeding Claude citations because of stale dates and missing updates? We flag the specific pages in the Blind Spot Report and rank them by projected citation impact.</p>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a 30-Minute Recency Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 8: TOPICAL AUTHORITY ── */}
             <span className="ae-section-label" id="topical-authority">The Topic Layer</span>
@@ -466,10 +445,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>The compounding curve matters. Entity consensus does not produce linear returns. The first three or four independent mentions of a brand on a topic move it from invisible to recognizable in Claude&rsquo;s evaluation. After roughly five to ten independent mentions across distinct publications, the brand starts being treated as a default-citable authority on the topic — meaning Claude will cite the brand even when the originating reference is not directly in front of the model. For brands that have not yet built this layer, the cold-start period is real but the compounding payoff is substantial. For deeper context on cross-platform citation divergence, see our analysis of <Link href="/blog/why-some-ai-platforms-cite-you-but-others-dont">why some AI platforms cite you but others don&rsquo;t</Link>.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We map your entity consensus footprint against category competitors and identify the specific publications where targeted earned media would have the highest Claude citation impact. The mapping is part of every Blind Spot Report. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Get an Entity Consensus Map &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 9: OPTIMIZATION PLAYBOOK ── */}
             <span className="ae-section-label" id="optimization">The Playbook</span>
@@ -502,10 +478,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>Establish a monthly query measurement cadence. Run a structured set of category-relevant queries through Claude with web search enabled. Log which sources are cited, whether your brand appears, which competitors appear, and how the citation pattern is shifting. Without the measurement layer, the rest of the playbook is invisible. With it, you can identify which moves are producing the most traction and double down.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We run the full Claude optimization playbook as a managed program for clients who want the results without managing the process. Start by understanding your current baseline. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to Learn About Managed AEO &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 10: LOSING CITATIONS ── */}
             <span className="ae-section-label" id="losing-citations">The Reversal</span>
@@ -526,10 +499,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>The reversal pattern reinforces why ongoing measurement matters. A brand that does not measure Claude citation visibility will discover citation loss months after it happens, when the cumulative damage is already significant. A brand that measures monthly catches the loss in the first cycle and can diagnose the cause while the trail is still warm.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Worried that you may be silently losing Claude citations you used to have? We run a recovery audit that traces specific citation losses to their cause and produces a remediation plan. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Citation Recovery Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── DECISION MATRIX ── */}
             <span className="ae-section-label" id="decision-matrix">The Audit</span>
@@ -607,10 +577,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
           </div>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>We run the full Claude citation audit against your site as part of the Blind Spot Report and prioritize the gaps by projected citation impact. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a 30-Minute Claude Audit Review &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
@@ -637,10 +604,7 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             </div>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We execute the 30/60/90 roadmap as a managed program for clients who want the results without managing the process themselves. Start with a free baseline assessment.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for the Managed Roadmap &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
@@ -708,16 +672,10 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
             <p>Three actions produce the fastest measurable lift. First, add named author bylines with credentials and Person schema to your top content pages, because Claude weights identifiable expert authorship heavily under Constitutional AI honesty principles. Second, link every statistical claim to a primary source such as a government dataset, peer-reviewed study, or named institutional research report, because Claude&rsquo;s accuracy filter rewards verifiable chains of evidence. Third, pursue earned coverage in publications that already appear in Claude citations for your category, because Claude&rsquo;s institutional bias means borrowed authority from a Claude-trusted publisher transfers faster than building your own authority from scratch.</p>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see exactly where your Claude visibility stands today? The Blind Spot Report gives you a category-specific breakdown in plain language, at no cost.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your specific category and competitive situation before committing to any work? We are available by phone and will give you a straight assessment.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── RELATED ARTICLES ── */}
             <span className="ae-section-label" id="related">Continue Reading</span>
@@ -751,26 +709,30 @@ export default function HowClaudeAISearchPicksBusinessesPage() {
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Claude Already Citing Your Brand?</h2>
-            <p>Find out exactly how Claude is currently treating your brand for queries in your category — whether you appear in citations, which competitors are taking your citation slots, and which specific signals on your site are blocking Claude citations today. Our free Blind Spot Report delivers the analysis without a sales pitch.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                Book a 30-min Strategy Call
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just data on where your Claude visibility stands today.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

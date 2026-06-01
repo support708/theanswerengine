@@ -1,1064 +1,715 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+import type { Metadata } from 'next';
+import Link from 'next/link';
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
-export const dynamicParams = true
-
-const PUBLISHED = '2026-05-31T00:00:00Z'
-const URL = 'https://theanswerengine.ai/blog/ai-citation-loss-diagnosis'
-const TITLE = 'Why Your Business Lost AI Citations | The Answer Engine'
-const DESCRIPTION =
-  'AI citation loss is not random. The five diagnostic categories that explain why your business disappeared from ChatGPT, Claude, Perplexity, and Google AI Overviews — and how AEO recovery works.'
+export const revalidate = 86400;
+export const dynamic = 'force-static';
+export const dynamicParams = true;
 
 export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  keywords:
-    'lost AI citations, AI citation loss, why ChatGPT stopped citing my business, AEO diagnostic, Answer Engine Optimization, AI search visibility loss, Perplexity citation loss, entity consensus, schema breakage AI, off-page AI signals, citation recovery, AEO',
-  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
+  title: "Why Your Business Lost AI Citations | The Answer Engine",
+  description: "Your brand used to show up in ChatGPT, Perplexity, and Google AI Overviews. Now it doesn't. This diagnostic framework identifies what broke and why recovery requires expert diagnosis.",
+  keywords: [
+    "lost AI citations",
+    "AI citation loss",
+    "why AI stopped citing my business",
+    "AI citation recovery",
+    "AEO diagnostic",
+    "answer engine optimization",
+    "AI search visibility loss",
+    "ChatGPT stopped citing",
+    "Perplexity citation loss",
+    "entity consensus",
+    "schema breakage AI",
+    "off-page AI signals"
+  ],
   openGraph: {
-    title: 'Why Your Business Lost AI Citations: A Diagnostic Framework',
-    description: DESCRIPTION,
-    url: URL,
-    siteName: 'The Answer Engine',
+    title: "Why Your Business Lost AI Citations: A Diagnostic Framework",
+    description: "Your brand used to show up in AI answers. Now it doesn't. Here is the diagnostic framework that identifies what broke and why recovery requires more than guessing.",
     type: 'article',
-    publishedTime: PUBLISHED,
-    authors: ['https://theanswerengine.ai/about'],
-    images: [
-      {
-        url: 'https://theanswerengine.ai/blog/ai-citation-loss-diagnosis.svg',
-        width: 1600,
-        height: 900,
-        alt: 'AI citation loss diagnostic framework for local businesses',
-      },
-    ],
+    url: 'https://theanswerengine.ai/blog/ai-citation-loss-diagnosis',
+    images: [{ url: 'https://theanswerengine.ai/blog/ai-citation-loss-diagnosis.webp', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Why Your Business Lost AI Citations: A Diagnostic Framework',
-    description: DESCRIPTION,
-    site: '@theanswerengine',
-    images: ['https://theanswerengine.ai/blog/ai-citation-loss-diagnosis.svg'],
+    title: "Why Your Business Lost AI Citations: A Diagnostic Framework",
+    description: "AI citation loss is not random. This framework maps the five diagnostic categories that explain why brands disappear from AI answers.",
   },
-  alternates: { canonical: URL },
-}
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/ai-citation-loss-diagnosis',
+  },
+};
 
 const jsonLd = {
-  '@context': 'https://schema.org',
-  '@graph': [
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      '@type': 'Article',
-      '@id': `${URL}#article`,
-      headline: 'Why Your Business Lost AI Citations: A Diagnostic Framework',
-      description: DESCRIPTION,
-      url: URL,
-      datePublished: PUBLISHED,
-      dateModified: PUBLISHED,
-      author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: [
-          'Answer Engine Optimization',
-          'AI Citation Loss',
-          'Entity Consensus',
-          'LLM Visibility',
-          'Citation Surface',
-          'Schema Markup',
-        ],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
-        sameAs: ['https://www.linkedin.com/in/justinborges'],
+      "@type": "Article",
+      "@id": "https://theanswerengine.ai/blog/ai-citation-loss-diagnosis#article",
+      "headline": "Why Your Business Lost AI Citations: A Diagnostic Framework",
+      "description": "AI citation loss is not random. This diagnostic framework maps the five root cause categories that explain why businesses disappear from ChatGPT, Perplexity, Claude, and Google AI Overviews.",
+      "image": "https://theanswerengine.ai/blog/ai-citation-loss-diagnosis.webp",
+      "datePublished": "2026-05-21",
+      "dateModified": "2026-05-21",
+      "author": {
+        "@type": "Organization",
+        "name": "The Answer Engine Team",
+        "url": "https://theanswerengine.ai/about"
       },
-      publisher: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/logo.png',
-        },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization"
       },
-      image: 'https://theanswerengine.ai/blog/ai-citation-loss-diagnosis.svg',
-      mainEntityOfPage: { '@type': 'WebPage', '@id': URL },
-      keywords:
-        'lost AI citations, AI citation loss, AEO diagnostic, ChatGPT citation loss, Perplexity citation loss, entity consensus, schema breakage, off-page signals, Answer Engine Optimization, citation recovery',
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/ai-citation-loss-diagnosis"
+      },
+      "about": [
+        { "@type": "Thing", "name": "AI Citation Loss" },
+        { "@type": "Thing", "name": "Answer Engine Optimization" },
+        { "@type": "Thing", "name": "Entity Consensus" },
+        { "@type": "Thing", "name": "AI Search Visibility" },
+        { "@type": "Thing", "name": "Schema Markup" }
+      ]
     },
     {
-      '@type': 'FAQPage',
-      '@id': `${URL}#faq`,
-      mainEntity: [
+      "@type": "FAQPage",
+      "@id": "https://theanswerengine.ai/blog/ai-citation-loss-diagnosis#faq",
+      "mainEntity": [
         {
-          '@type': 'Question',
-          name: 'Why would my business suddenly stop appearing in AI citations after months of consistent visibility?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Citation loss is almost never random. In our citation lab work, the vast majority of sudden citation drops trace to one of five root causes: a change to the cited page itself, a change to the off-page footprint that was supporting the citation, schema breakage introduced during a site update, a competitor gaining enough entity consensus to displace your brand, or a platform-level algorithm shift that re-weighted the trust signals your content previously relied on. The critical distinction is whether the loss is platform-specific or universal. Platform-specific loss points to a trust signal mismatch unique to that platform. Universal loss across all platforms points to a structural collapse on-page, in your schema, or in your off-page authority footprint.',
-          },
+          "@type": "Question",
+          "name": "Why would my business suddenly stop appearing in AI citations after months of consistent visibility?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Citation loss is almost never random. In our citation lab work, the vast majority of sudden citation drops trace to one of five root causes: a change to the cited page itself, a change to the off-page footprint that was supporting the citation, schema breakage introduced during a site update, a competitor gaining enough entity consensus to displace your brand, or a platform-level algorithm shift that re-weighted the trust signals your content previously relied on. The critical distinction is whether the loss is platform-specific or universal. If you have vanished from ChatGPT but still appear in Perplexity, the root cause is almost certainly a trust signal mismatch specific to how ChatGPT evaluates your content, not a collapse in your overall authority. If you have vanished from all platforms simultaneously, the cause is more likely structural: a major on-page change, schema collapse, or off-page authority erosion that cut across the signals all platforms share."
+          }
         },
         {
-          '@type': 'Question',
-          name: 'How long does it typically take to recover AI citations after losing them?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Recovery timelines vary by root cause. On-page causes — broken schema, removed author byline, content rewrites that stripped definitions or statistics — typically resolve in two to six weeks because AI platforms re-crawl and re-evaluate frequently. Off-page causes — review density collapse, lost press mentions, weakened entity consensus across third-party platforms — take three to six months because the work compounds slowly. Competitor displacement is the hardest scenario: recovering citations means building a superior entity consensus footprint, which is a sustained earned-media program, not a content sprint. The single largest variable is diagnostic accuracy. Brands that spend months applying general AEO optimizations without naming the actual failure category rarely recover on a predictable timeline.',
-          },
+          "@type": "Question",
+          "name": "How long does it typically take to recover AI citations after losing them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Recovery timelines vary significantly based on what caused the loss. In our citation recovery work, on-page causes tend to be the fastest to resolve: restoring a named author byline, repairing broken schema, or refreshing a stale publication date can produce citation recovery within two to six weeks because AI platforms re-crawl and re-evaluate frequently. Off-page causes take longer because rebuilding review density, recovering lost press mentions, or reestablishing entity consensus across third-party platforms involves work that compounds slowly. Competitor displacement is the most difficult scenario: if a competitor has built a genuinely stronger entity consensus footprint, recovering citations means building a superior footprint, which typically takes three to six months of sustained earned media and authority-building work. The most important variable is how quickly the root cause is accurately identified. Brands that spend months applying general AEO optimizations without diagnosing the actual failure category rarely recover on a predictable timeline."
+          }
         },
         {
-          '@type': 'Question',
-          name: 'Is AI citation loss related to my Google rankings or are they independent?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'They are related but not identical. Several trust signals overlap: page authority, named authorship, schema completeness, recency, off-page mention density all matter to both systems. Citation loss and ranking loss can diverge. A page can hold strong organic rankings while losing AI citations because the citation evaluation applies additional filters that traditional ranking does not — entity consensus checks, off-page brand mention analysis, and conversational trust filters that are not primary ranking factors in SEO. The reverse is also true: a page can earn AI citations on queries where it does not rank in the top ten if the platform weights expertise and accuracy higher than pure link authority. Citation loss should be diagnosed independently from ranking changes rather than assumed to share the same cause.',
-          },
+          "@type": "Question",
+          "name": "Is AI citation loss related to my Google rankings or are they independent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They are related but not identical. Several of the trust signals that AI platforms use to evaluate citation-worthiness overlap with signals that influence Google rankings: page authority, named authorship, schema completeness, recency, and off-page mention density all matter to both systems. However, citation loss and ranking loss can and do diverge. A page can maintain strong organic rankings while losing AI citations because the citation evaluation applies additional filters that organic ranking does not. Specifically, AI platforms apply entity consensus checks, off-page brand mention analysis, and conversational trust filters that are not primary ranking factors in traditional SEO. The reverse is also true: a page can earn AI citations on queries where it does not rank in the top ten organically if the AI platform's trust evaluation weights the page's expertise and accuracy signals higher than its pure link authority. This means citation loss should be diagnosed independently from ranking changes rather than assumed to have the same cause."
+          }
         },
         {
-          '@type': 'Question',
-          name: 'What does platform-specific citation loss tell me versus universal citation loss?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Platform-specific loss — where you disappear from one AI platform but remain visible on others — is one of the most informative diagnostic signals available. Each major AI platform weights trust signals differently. ChatGPT emphasizes breadth of citation and third-party source density. Claude applies Constitutional AI honesty and accuracy filters. Perplexity weights recency and source diversity heavily. Google AI Overviews ties citation eligibility tightly to existing organic authority. Disappearing from Claude but holding on ChatGPT typically points to a Constitutional AI alignment issue: promotional framing, anonymous authorship, or unsupported statistical claims. Disappearing from Google AI Overviews but holding on Perplexity typically points to an organic authority issue. Universal loss across all four platforms simultaneously points to a cross-cutting structural failure: schema collapse, a major off-page authority event, or a fundamental change to the cited page.',
-          },
+          "@type": "Question",
+          "name": "What does 'platform-specific' citation loss tell me versus 'universal' citation loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Platform-specific loss, where you disappear from one AI platform but remain visible on others, is one of the most informative diagnostic signals available. Each major AI platform weights trust signals differently: ChatGPT emphasizes breadth of citation and third-party source density; Claude applies Constitutional AI honesty and accuracy filters; Perplexity weights recency and source diversity heavily; Google AI Overviews ties citation eligibility tightly to existing organic authority. If you disappear from Claude but remain in ChatGPT, the likely culprit is a Constitutional AI alignment issue: promotional framing, anonymous authorship, or unsupported statistical claims that Claude penalizes but ChatGPT does not. If you disappear from Google AI Overviews but remain in Perplexity, the likely culprit is an organic authority issue, since Google ties AI citation eligibility more tightly to traditional search signals. Universal loss across all platforms simultaneously is the most serious pattern and typically points to a cross-cutting structural failure: schema collapse, a major off-page authority event, or a fundamental change to the cited page."
+          }
         },
         {
-          '@type': 'Question',
-          name: 'Can a competitor gaining citations actually cause me to lose mine?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes. AI platforms do not have unlimited citation slots per answer. When a stronger entity consensus signal emerges for a competitor on a topic your brand previously owned, the citation slot can shift to the competitor even without any degradation in your own signals. Competitor displacement is most common in categories where two or three brands are competing for the same informational query territory and one brand executes a sustained authority-building program while the others do not. Citation monitoring needs to track who appears when you do not — a competitor showing up in your place is a fundamentally different diagnostic finding from a generic authoritative source showing up, and each requires a different recovery response.',
-          },
+          "@type": "Question",
+          "name": "Can a competitor gaining citations actually cause me to lose mine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and this is one of the most overlooked causes of citation loss. AI platforms do not have unlimited citation slots per answer. When a stronger entity consensus signal emerges for a competitor on a topic your brand previously owned, the citation slot can shift to the competitor even without any degradation in your own signals. This displacement pattern is most common in categories where two or three brands are competing for the same informational query territory and one brand executes a sustained authority-building program while the others do not. The practical implication is that citation monitoring needs to track not just whether you appear, but who appears when you do not. A competitor showing up in your place is a fundamentally different diagnostic finding from a generic authoritative source showing up, and each requires a different recovery response. We cover the competitive displacement pattern in detail in our analysis of what happens when AI cites a competitor using your content."
+          }
         },
         {
-          '@type': 'Question',
-          name: 'Should I try to fix citation loss myself or work with an AEO specialist?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The answer depends on which diagnostic category your loss falls into. On-page causes involving clear content changes or broken schema can often be addressed by an in-house team with the right technical guidance. Off-page causes involving review density, press mention recovery, and entity consensus rebuilding are significantly harder to execute and measure without dedicated tooling and a structured earned-media program. The most common mistake is misidentifying the root cause and applying the wrong fix — spending months publishing more content when the actual issue is broken schema or a vanished press mention that was anchoring the citation. Accurate diagnosis is the single most valuable thing a specialist brings. Without it, recovery efforts are directionally wrong from day one. The free Blindspot Scan we offer is designed to produce exactly that diagnosis as a starting point.',
-          },
-        },
-      ],
+          "@type": "Question",
+          "name": "Should I try to fix citation loss myself or work with an AEO specialist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer depends on which diagnostic category your loss falls into. On-page causes involving clear content changes or broken schema can often be addressed by an in-house team with the right technical guidance. Off-page causes involving review density, press mention recovery, and entity consensus rebuilding are significantly more complex to execute and measure without dedicated tooling and a structured earned media program. The most common mistake brands make is misidentifying the root cause and applying the wrong fix: spending months publishing more content when the actual issue is a broken Schema or a vanished press mention that was anchoring the citation. An accurate diagnosis is the single most valuable thing a specialist brings. Without it, recovery efforts are directionally wrong from the start and compounding in the wrong direction. The Blind Spot Report we offer is designed to produce exactly that diagnosis as a starting point."
+          }
+        }
+      ]
     },
     {
-      '@type': 'BreadcrumbList',
-      '@id': `${URL}#breadcrumb`,
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
-        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
-        {
-          '@type': 'ListItem',
-          position: 3,
-          name: 'Why Your Business Lost AI Citations: A Diagnostic Framework',
-          item: URL,
-        },
-      ],
+      "@type": "Organization",
+      "@id": "https://theanswerengine.ai/#organization",
+      "name": "The Answer Engine",
+      "url": "https://theanswerengine.ai",
+      "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+      "description": "Answer Engine Optimization agency helping businesses get cited by AI platforms including ChatGPT, Google AI Overviews, Perplexity, Claude, and Microsoft Copilot."
     },
     {
-      '@type': 'ProfessionalService',
-      '@id': 'https://theanswerengine.ai/#organization',
-      name: 'The Answer Engine',
-      legalName: 'The Answer Engine LLC',
-      url: 'https://theanswerengine.ai',
-      telephone: '+1-213-444-2229',
-      email: 'support@theanswerengine.ai',
-      priceRange: '$$$$',
-      foundingDate: '2025',
-      founder: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-      },
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Los Angeles',
-        addressRegion: 'CA',
-        addressCountry: 'US',
-      },
-      areaServed: 'US',
-      serviceType: 'Answer Engine Optimization',
-      description:
-        'Answer Engine Optimization for local service businesses. One client per market, 90-day citation guarantee across ChatGPT, Claude, Perplexity, and Google AI Overviews.',
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://theanswerengine.ai/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://theanswerengine.ai/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Why Your Business Lost AI Citations: A Diagnostic Framework" }
+      ]
     },
     {
-      '@type': 'WebPage',
-      '@id': URL,
-      url: URL,
-      name: 'Why Your Business Lost AI Citations: A Diagnostic Framework',
-      isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
-      primaryImageOfPage: {
-        '@type': 'ImageObject',
-        url: 'https://theanswerengine.ai/blog/ai-citation-loss-diagnosis.svg',
-      },
-      speakable: {
-        '@type': 'SpeakableSpecification',
-        cssSelector: ['h1', 'h2', '.ae-takeaway', '.ae-faq-answer', '.ae-stat-card'],
-      },
-    },
-    {
-      '@type': 'HowTo',
-      '@id': `${URL}#howto`,
-      name: 'How to Diagnose AI Citation Loss for Your Business',
-      step: [
+      "@type": "HowTo",
+      "@id": "https://theanswerengine.ai/blog/ai-citation-loss-diagnosis#howto",
+      "name": "How to Diagnose AI Citation Loss for Your Business",
+      "step": [
         {
-          '@type': 'HowToStep',
-          position: 1,
-          name: 'Determine whether the loss is platform-specific or universal',
-          text: 'Run your target queries through ChatGPT, Claude, Perplexity, and Google AI Overviews and log where your brand appears and where it does not. Platform-specific loss points to a trust signal mismatch specific to that platform. Universal loss points to a structural on-page or off-page failure.',
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Determine whether the loss is platform-specific or universal",
+          "text": "Run your target queries through ChatGPT, Claude, Perplexity, and Google AI Overviews and log where your brand appears and where it does not. Platform-specific loss points to a trust signal mismatch specific to that platform's evaluation model. Universal loss across all platforms points to a structural on-page or off-page failure. The distinction shapes everything downstream."
         },
         {
-          '@type': 'HowToStep',
-          position: 2,
-          name: 'Audit the cited page for on-page changes',
-          text: 'Review version history of previously cited pages for content edits, authorship changes, URL modifications, and schema alterations. A CMS migration, redesign, or editorial update is frequently the unintentional culprit.',
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Audit the cited page for on-page changes",
+          "text": "Review version history of previously cited pages for content edits, authorship changes, URL modifications, and schema alterations. A CMS migration, redesign, or editorial update is frequently the unintentional culprit. Compare the current state of the page against the state it was in when citations were occurring."
         },
         {
-          '@type': 'HowToStep',
-          position: 3,
-          name: 'Audit the off-page footprint for authority erosion',
-          text: 'Check whether the review platforms, press mentions, and third-party citations supporting your entity authority are still intact. Review removals, lost backlinks, and vanished press mentions are off-page causes that are invisible until specifically measured.',
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Audit the off-page footprint for authority erosion",
+          "text": "Check whether the review platforms, press mentions, and third-party citations that were supporting your entity authority are still intact. Review removals on Google, Yelp, or industry platforms, lost backlinks from authoritative sources, and vanished press mentions are off-page causes that are invisible until specifically measured."
         },
         {
-          '@type': 'HowToStep',
-          position: 4,
-          name: 'Validate schema integrity',
-          text: 'Run the previously cited URL through a JSON-LD validator. Check for broken Organization schema, missing Article schema, invalid Person schema on author pages, and malformed FAQ schema. Schema regression after a CMS update is one of the most preventable causes of citation loss.',
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Validate schema integrity",
+          "text": "Run the previously cited URL through Google's Rich Results Test and a JSON-LD validator. Check for broken Organization schema, missing Article schema, invalid Person schema on author pages, and malformed FAQ schema. Schema regression after a CMS or theme update is one of the most common and most preventable causes of citation loss."
         },
         {
-          '@type': 'HowToStep',
-          position: 5,
-          name: 'Map competitor entity consensus gains',
-          text: 'Identify who is appearing in citation slots where your brand used to appear. If a specific competitor is consistently displacing you, their recent earned-media activity, review growth, and on-page changes tell you what they did that you have not.',
-        },
-      ],
-    },
-  ],
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Map competitor entity consensus gains",
+          "text": "Identify who is appearing in citation slots where your brand used to appear. If a specific competitor is consistently displacing you, their recent earned media activity, review growth, and on-page changes tell you what they did that you have not. Competitor displacement requires a different recovery response than on-page or off-page degradation."
+        }
+      ]
+    }
+  ]
+};
+
+function Breadcrumb() {
+  return (
+    <nav className="text-sm text-gray-500 mb-8">
+      <Link href="/" className="hover:text-white transition-colors">Home</Link>
+      <span className="mx-2">&rsaquo;</span>
+      <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+      <span className="mx-2">&rsaquo;</span>
+      <span className="text-gray-400">Diagnostic &amp; Troubleshooting</span>
+    </nav>
+  );
 }
 
 export default function AICitationLossDiagnosisPage() {
   return (
-    <div className="min-h-screen bg-[#131313]">
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
-        {/* Breadcrumb */}
-        <nav aria-label="Breadcrumb" className="mb-10">
-          <ol className="flex flex-wrap items-center gap-2 font-mono text-[10px] tracking-widest uppercase text-white/40">
-            <li>
-              <Link href="/" className="hover:text-[#F27D24] transition-colors">
-                Home
-              </Link>
-            </li>
-            <li className="text-white/20">/</li>
-            <li>
-              <Link href="/blog" className="hover:text-[#F27D24] transition-colors">
-                Blog
-              </Link>
-            </li>
-            <li className="text-white/20">/</li>
-            <li className="text-white/70 truncate max-w-xs">Why Your Business Lost AI Citations</li>
-          </ol>
-        </nav>
+      <main className="min-h-screen bg-[#0F1117]">
 
-        {/* ARTICLE HERO HEADER */}
-        <header className="ae-article-hero mb-10">
-          <div className="ae-section-label">Diagnostic · Citation Lab Field Report</div>
-          <h1 className="font-headline font-black uppercase tracking-tighter text-[#e5e2e1] text-4xl sm:text-5xl lg:text-6xl leading-[1.02] mt-6 mb-6">
-            WHY YOUR BUSINESS LOST <span className="text-[#F27D24]">AI CITATIONS</span>
-          </h1>
-          <p className="text-lg sm:text-xl text-white/70 leading-relaxed max-w-3xl mb-8">
-            Your brand used to appear in ChatGPT, Claude, Perplexity, and Google AI Overviews
-            answers. Now it does not. AI citation loss is never random. Here is the diagnostic
-            framework The Answer Engine runs in our citation lab — the five categories that explain
-            what actually broke, and the recovery sequence that maps to each one.
-          </p>
-          <div className="ae-article-meta">
-            <span>May 31, 2026</span>
-            <span>·</span>
-            <span>14 min read</span>
-            <span>·</span>
-            <span>Justin Borges, Founder</span>
-          </div>
-          <div className="w-full overflow-hidden border border-white/10 mt-6" style={{ maxHeight: 440 }}>
-            <img
-              src="/blog/ai-citation-loss-diagnosis.svg"
-              alt="AI citation loss diagnostic framework for local businesses"
-              style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
-        </header>
-
-        {/* STATS GRID */}
-        <div className="not-prose">
-          <div className="ae-stats-grid">
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">🩺</div>
-              <div className="ae-stat-value ae-accent">67%</div>
-              <div className="ae-stat-label">of businesses that lose AI citations never identify the root cause before attempting recovery (TAE citation lab, 2026)</div>
+        {/* HERO */}
+        <section className="relative overflow-hidden border-b border-white/5">
+          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
+          <svg className="absolute inset-0 w-full h-full opacity-[0.03]" aria-hidden="true">
+            <defs>
+              <pattern id="hero-grid-diag" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" strokeWidth="0.5" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#hero-grid-diag)" />
+          </svg>
+          <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
+            <Breadcrumb />
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Diagnostic &amp; Troubleshooting</span>
             </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">🧭</div>
-              <div className="ae-stat-value ae-accent">4</div>
-              <div className="ae-stat-label">major AI platforms a business must be diagnosed across: ChatGPT, Claude, Perplexity, and Google AI Overviews each apply different citation trust models</div>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight font-plus-jakarta">
+              Why Your Business Lost{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">AI Citations</span>
+              {': '}A Diagnostic Framework
+            </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/ai-citation-loss-diagnosis.svg"
+                alt="ai citation loss diagnosis"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
             </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📉</div>
-              <div className="ae-stat-value ae-accent">58%</div>
-              <div className="ae-stat-label">of citation loss cases involve off-page footprint erosion as a primary or contributing cause, not on-page content changes (TAE citation lab, 2026)</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">⏱️</div>
-              <div className="ae-stat-value ae-accent">2-6 wks</div>
-              <div className="ae-stat-label">typical recovery window for on-page citation causes once correctly diagnosed. Off-page causes average 3-6 months (TAE citation lab, 2026)</div>
-            </div>
-          </div>
-        </div>
-
-        {/* CHEAT SHEET / TOC */}
-        <div className="not-prose ae-cheat-sheet">
-          <div className="ae-cheat-sheet-title">What You Will Get From This Article</div>
-          <table>
-            <thead>
-              <tr>
-                <th>Section</th>
-                <th>What You Learn</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1. Citation Loss Defined</td>
-                <td>What AI citation loss actually means and why it is a separate diagnosis from ranking loss</td>
-              </tr>
-              <tr>
-                <td>2. The Research</td>
-                <td>What the academic literature has measured about why LLMs stop citing a source</td>
-              </tr>
-              <tr>
-                <td>3. The Five Diagnostic Categories</td>
-                <td>Platform scope, on-page change, off-page erosion, schema breakage, competitor displacement</td>
-              </tr>
-              <tr>
-                <td>4. The Recovery Protocol</td>
-                <td>How the Origin Protocol maps to each diagnostic category and the recovery sequence</td>
-              </tr>
-              <tr>
-                <td>5. Measurement &amp; FAQs</td>
-                <td>The Diagnostic Ledger approach to recovery measurement and the 6 questions we get most</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        {/* INLINE CTA 1 — Calendly */}
-        <div className="not-prose">
-          <div className="ae-cta-inline">
-            <p>
-              Want us to run this diagnostic against your market and tell you exactly which
-              category your citation loss belongs to?
+            <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
+              Your brand used to appear in ChatGPT, Perplexity, and Google AI Overviews answers. Now it doesn&rsquo;t. AI citation loss is not random. Here are the five diagnostic categories that explain what actually broke.
             </p>
-            <a href="https://calendly.com/theanswerengine-support/30min">Book a 30-minute diagnostic review →</a>
+            <div className="flex flex-wrap gap-6 text-sm text-gray-400">
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span>May 21, 2026</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>14 min read</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                <span>The Answer Engine Team</span>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
 
         {/* ARTICLE BODY */}
-        <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-          {/* SECTION 1 ============================================ */}
-          <div className="not-prose"><div className="ae-section-label">01 · The Surface</div></div>
-          <h2>What AI Citation Loss Actually Means</h2>
-
-          <p>
-            AI citation loss is the disappearance of a business from the source list a generative
-            system attributes inside its synthesized answer. The page may still rank on Google. The
-            domain may still pass crawlability checks. The business is simply no longer named when a
-            customer asks ChatGPT, Claude, Perplexity, or Google AI Overviews the question that used
-            to surface it. Answer Engine Optimization treats citation loss as a separate diagnosis
-            from ranking loss because the citation surface is a separate physical layer.
-          </p>
-
-          <p>
-            <strong className="named-thesis">The Citation Loss Asymmetry:</strong> losses propagate
-            platform-by-platform, not all at once, because each major LLM weights trust signals
-            differently. A business can vanish from Claude while holding steady on ChatGPT, or
-            disappear from Google AI Overviews while remaining strong on Perplexity. The pattern of
-            which platforms drop the citation is the first and most informative diagnostic signal
-            available. This analysis draws on four academic studies and 47 verified TAE client
-            engagements executed between 2025 and 2026. Email{' '}
-            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>{' '}
-            to request the field methodology.
-          </p>
-
-          <h3>Citation Loss, Defined</h3>
-          <p>
-            Citation loss is the measurable reduction in named attribution for a business inside
-            generative answers, holding query volume and intent constant. The unit of measurement is
-            distinct query slots — a specific question, asked of a specific platform, on a specific
-            week — where the brand was previously named and is no longer named. AI citation loss is
-            never a generic visibility score. It is a query-by-query, platform-by-platform record.
-            Without that granularity, no recovery program has a target.
-          </p>
-
-          <h3>Citation Loss Versus Ranking Loss</h3>
-          <p>
-            Search Engine Optimization measures rank position on a list of blue links. AEO measures
-            named attribution inside a synthesized answer. The two surfaces share signals — schema,
-            authorship, recency — but apply additional filters at the citation layer that organic
-            ranking does not. Entity consensus checks, off-page brand mention analysis, and
-            conversational trust filters are layered on top of the traditional ranking stack. A page
-            can hold its rank and still lose its citation slot. Reach us at{' '}
-            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if you want a
-            same-week diagnostic on your category.
-          </p>
-
-          <h3>Why The Citation Surface Is The Right Diagnostic Frame</h3>
-          <p>
-            Diagnosing citation loss requires looking at the citation surface, not the ranking
-            surface. A business that runs an organic audit after a citation drop finds nothing
-            wrong, because the loss did not occur on the surface the audit measured. The five
-            diagnostic categories below are organized around the citation surface itself: how the
-            page reads to a retriever, how the brand resolves as an entity, how the off-page
-            footprint supports the citation, and who is competing for the same slot. Get the{' '}
-            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blindspot Scan</a>{' '}
-            to see your current citation surface for your top 10 queries.
-          </p>
-
-          {/* INLINE CTA 2 — Blindspot */}
-          <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Want to see exactly which AI platforms can — and cannot — find you today?</p>
-              <a href="https://theanswerengine.ai/blindspot">Run the free Blindspot Scan →</a>
+            {/* STATS GRID */}
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">67%</div>
+                <div className="ae-stat-label">of businesses that lose AI citations never identify the root cause before attempting recovery (AE citation lab, 2026)</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">4</div>
+                <div className="ae-stat-label">major AI platforms a business must be diagnosed across: ChatGPT, Claude, Perplexity, and Google AI Overviews each apply different citation trust models</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">58%</div>
+                <div className="ae-stat-label">of citation loss cases involve off-page footprint erosion as a primary or contributing cause, not on-page content changes (AE citation lab, 2026)</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">2-6 wks</div>
+                <div className="ae-stat-label">typical recovery window for on-page citation causes once correctly diagnosed and fixed. Off-page causes average 3-6 months (AE citation lab, 2026)</div>
+              </div>
             </div>
+
+            {/* TABLE OF CONTENTS */}
+            <div className="ae-toc not-prose">
+              <div className="ae-toc-title">Table of Contents</div>
+              <ol>
+                <li><a href="#citation-loss-defined">What AI Citation Loss Actually Means</a></li>
+                <li><a href="#platform-scope">Diagnostic Category 1: Platform Scope</a></li>
+                <li><a href="#on-page-changes">Diagnostic Category 2: On-Page Changes</a></li>
+                <li><a href="#off-page-footprint">Diagnostic Category 3: Off-Page Footprint Erosion</a></li>
+                <li><a href="#schema-breakage">Diagnostic Category 4: Schema Breakage</a></li>
+                <li><a href="#competitor-entity">Diagnostic Category 5: Competitor Entity Consensus</a></li>
+                <li><a href="#recovery-levers">Recovery Levers: What Exists and Why It Is Not Simple</a></li>
+                <li><a href="#misdiagnosis-cost">The Cost of Misdiagnosis</a></li>
+                <li><a href="#monitoring-gap">The Monitoring Gap That Makes Loss Invisible</a></li>
+                <li><a href="#comparison-platform">Platform Comparison: How Trust Models Diverge</a></li>
+                <li><a href="#cheat-sheet">Citation Loss Diagnostic Cheat Sheet</a></li>
+                <li><a href="#faq">Frequently Asked Questions</a></li>
+              </ol>
+            </div>
+
+            {/* SECTION 1: DEFINITION */}
+            <span className="ae-section-label" id="citation-loss-defined">The Problem</span>
+            <h2>What AI Citation Loss Actually Means</h2>
+
+            <p>AI citation loss is the point at which a business that previously appeared in the cited sources of ChatGPT, Claude, Perplexity, Google AI Overviews, or Microsoft Copilot answers stops appearing in those answers for queries it previously owned. The loss is distinct from organic ranking drops: a business can maintain strong page-one rankings in traditional search while simultaneously vanishing from AI citations on the same queries. The two systems are related but not identical, and the causes of loss in each system often diverge.</p>
+
+            <p>The frustration that accompanies citation loss is specific and recognizable. Business owners or marketing teams notice the drop either through direct testing, a monitoring alert, or a client or colleague who reports that the business is no longer appearing when they ask ChatGPT about a relevant topic. The immediate impulse is to assume the business did something wrong, or that a Google-style algorithm update penalized the site. Both assumptions are often incorrect. AI citation loss is more frequently the result of something the business stopped doing, something a third party removed, or something a competitor started doing, rather than a direct penalty issued by the AI platform. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+
+            <div className="ae-quote not-prose">
+              <p><strong className="ae-named-thesis">The Core Diagnostic Principle:</strong> AI citation loss is not random and it is not a black box. Every citation loss case traces to one or more of five diagnostic categories. Identifying which category applies before attempting any recovery action is the single most important step. Applying the wrong remedy to the wrong cause is the most common reason recovery efforts fail.</p>
+            </div>
+
+            <p>This article maps those five diagnostic categories, explains what evidence to look for in each, and outlines the recovery levers that exist for each type. It is intentionally structured as a framework for understanding what kind of problem you have, not as a step-by-step recovery guide. The reason is straightforward: the specific remediation steps vary considerably depending on which category applies, what platform is affected, and how far the off-page footprint has degraded. A framework tells you what questions to ask. Answering those questions accurately is where a diagnostic partner becomes essential. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+
+            {/* CTA 1 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 2: PLATFORM SCOPE */}
+            <span className="ae-section-label" id="platform-scope">Diagnostic Category 1</span>
+            <h2>Platform Scope: Is the Loss Everywhere or Somewhere?</h2>
+
+            <p>The first and most important diagnostic question is whether the citation loss is platform-specific or universal. This question costs almost nothing to answer: run your most important queries through ChatGPT, Claude, Perplexity, and Google AI Overviews within a 24-hour window and log which platforms cite your brand and which do not. The answer narrows the root cause space dramatically before any deeper investigation is required. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+
+            <p>Platform-specific loss, where a brand disappears from one AI platform but remains visible on others, is one of the most informative diagnostic signals available because each major AI platform applies a meaningfully different citation trust model. ChatGPT weighs source breadth and third-party citation density. Claude applies Constitutional AI honesty and accuracy filters that penalize promotional framing and anonymous authorship. Perplexity weights recency and source diversity particularly heavily. Google AI Overviews ties citation eligibility more tightly to existing organic authority signals than any other major platform. A brand that disappears from Claude but not Perplexity has a very different problem than a brand that disappears from Google AI Overviews but not ChatGPT. For a detailed map of how platform trust models diverge, see our analysis of <Link href="/blog/why-some-ai-platforms-cite-you-but-others-dont">why some AI platforms cite you but others don&rsquo;t</Link>.</p>
+
+            <h3>Universal Loss Is the Serious Scenario</h3>
+
+            <p>Universal citation loss, disappearing from all four major platforms simultaneously, points to a structural failure that cuts across the trust signals all platforms share. The cross-cutting signals are: schema integrity, named authorship, off-page brand entity presence, and the basic indexability and crawlability of the cited pages. When all four platforms lose a brand simultaneously, it is almost always one of these shared structural signals that collapsed. The event is often traceable to a specific date: a CMS migration, a site redesign, a domain change, or a moment when a significant press mention or review corpus was removed from the web. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <p><strong>Platform scope is not always visible at the query level.</strong> A brand may still appear in some AI answers on some queries on a platform where it has lost citations on its most important queries. This partial presence creates false reassurance: teams assume the brand is still visible because it shows up occasionally, missing the fact that it has been displaced from the high-value queries that were previously driving awareness and conversions. Accurate diagnosis requires testing the specific queries that matter, not just any query that returns the brand name.</p>
+            </div>
+
+            {/* CTA 2 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 3: ON-PAGE CHANGES */}
+            <span className="ae-section-label" id="on-page-changes">Diagnostic Category 2</span>
+            <h2>On-Page Changes: Did the Cited Page Change?</h2>
+
+            <p>The second diagnostic category is the most intuitive and also the most frequently overlooked in practice. When a page that was previously earning AI citations changes in meaningful ways, the citation can disappear even if the change was not intended to affect AI visibility. The reason AI platforms are sensitive to on-page changes is that they evaluate the current state of a page at the time of citation, not the historical state. A page that was citeable six months ago is re-evaluated each time the platform crawls or considers it. If the current page is materially different from the page that earned the original citation, the evaluation result can be materially different as well.</p>
+
+            <p>The on-page changes most likely to cost a brand its AI citations include: removing or obscuring the named author byline during a template redesign, changing the URL structure without proper redirects (which breaks the citation chain and resets the page&rsquo;s trust history), editing the core content of the page in ways that reduce its factual specificity or add promotional language that AI platforms read as lower-trust, removing primary source links during a content refresh, and adding pop-ups, paywalls, or interstitials that interrupt the AI crawler&rsquo;s ability to read the full page. Each of these changes is made routinely by marketing and content teams for reasons entirely unrelated to AI visibility, and each carries citation loss risk that is invisible without a dedicated monitoring system in place. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+
+            <h3>The URL Change Problem</h3>
+
+            <p>URL changes are a particularly high-risk on-page event. When a page URL changes, even with a 301 redirect in place, the AI platform&rsquo;s citation behavior can reset for that URL. The trust history accumulated by the old URL does not automatically transfer to the new URL in the way that traditional SEO link equity transfers. The redirect ensures crawlability, but AI citation systems evaluate the new URL on its own merits and with its own (initially shorter) credibility history. Brands that restructured their URL taxonomies during a site migration and then noticed AI citation drops shortly after are almost always seeing this mechanism at work.</p>
+
+            <div className="ae-callout not-prose">
+              <p><strong>Content edits are the silent killer of AI citations.</strong> A page that earns a citation from Perplexity because it was the most precise and factually grounded source on a specific query can lose that citation if the page is later updated to be more general, more promotional, or more keyword-stuffed in the traditional SEO sense. The edit might improve traditional search performance and simultaneously destroy the citation eligibility. The two systems reward different content characteristics, and changes optimized for one can be counterproductive for the other. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+            </div>
+
+            {/* CTA 3 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 4: OFF-PAGE FOOTPRINT */}
+            <span className="ae-section-label" id="off-page-footprint">Diagnostic Category 3</span>
+            <h2>Off-Page Footprint Erosion: Did the Supporting Evidence Disappear?</h2>
+
+            <p>The third diagnostic category is the most commonly overlooked and, in our citation lab measurement work, the most frequently present as a contributing cause in citation loss cases. Off-page footprint erosion refers to the loss or degradation of the third-party signals that were supporting a brand&rsquo;s entity authority: review removals, lost press mentions, deleted backlinks from authoritative sources, vanished third-party platform profiles, and the retirement of content on external sites that referenced the brand. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+
+            <p>AI platforms do not cite businesses solely on the basis of what is on the business&rsquo;s own website. They evaluate whether the open web corroborates the brand&rsquo;s claimed authority on a topic. A business that has been cited in two trade publications, mentioned in three news articles, and maintained a consistent four-and-a-half-star review presence across Google, Yelp, and an industry-specific platform has a different entity authority profile than a business that has only its own on-domain content. When any of those external signals disappear, the entity authority profile degrades even if the business&rsquo;s own website has not changed at all. The brand has not done anything wrong. The supporting evidence that was holding the citation in place has been removed.</p>
+
+            <h3>Review Erosion as a Citation Factor</h3>
+
+            <p>Review density and recency are off-page signals that AI platforms in the local and service business categories treat as entity trust markers. A business that drops from 180 reviews to 140 reviews because Google removed a tranche of flagged reviews has not lost search rankings on a traditional signal, but it has lost an element of its entity trust profile that AI platforms use when evaluating whether to include the business in answers to service-related queries. The review removal can trigger citation loss on exactly the type of queries most valuable to the business: &ldquo;best [service] in [city],&rdquo; &ldquo;most trusted [category] near me,&rdquo; &ldquo;highly recommended [profession].&rdquo; For more on how off-page authority interacts with citation dynamics, see our analysis of <Link href="/blog/ai-cites-competitor-using-your-content">what happens when AI cites a competitor using your content</Link>. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <p><strong>Off-page footprint erosion is invisible without a measurement system.</strong> Most brands have no visibility into the third-party signals that are supporting their AI citation authority until those signals disappear and the citation drops. By the time the drop is noticed, the trail may be weeks old. The only remedy is proactive monitoring of review platforms, press mention indexes, and backlink profiles on a cadence that is frequent enough to catch erosion before it compounds.</p>
+            </div>
+
+            {/* CTA 4 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 5: SCHEMA BREAKAGE */}
+            <span className="ae-section-label" id="schema-breakage">Diagnostic Category 4</span>
+            <h2>Schema Breakage: Did Structured Data Break or Disappear?</h2>
+
+            <p>The fourth diagnostic category is the most technically specific and the most actionable when correctly identified. Schema markup provides machine-readable structure that AI platforms use to verify identity claims, understand content classification, and evaluate whether a page meets the structured data requirements that correlate with citation trustworthiness. When schema breaks or disappears, the machine-readable trust signals that were reinforcing the brand&rsquo;s citation eligibility vanish, and citation loss can follow within weeks.</p>
+
+            <p>Schema breakage is among the most common unintentional causes of AI citation loss because it is introduced by exactly the kind of site maintenance that brands perform routinely: CMS updates, plugin changes, theme migrations, site redesigns, and third-party tag manager updates can all overwrite or corrupt structured data implementations without generating any visible errors in the site&rsquo;s normal operation. The site looks fine to human visitors, loads without issues, and retains its traditional organic rankings. But the machine-readable layer that AI platforms evaluate has been silently broken. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+
+            <h3>Which Schema Types Matter Most for AI Citations</h3>
+
+            <p>Organization schema validates the brand&rsquo;s identity, establishes the official name, URL, and logo associations, and provides the machine-readable brand entity that AI platforms cross-reference when attributing citations. Person schema on author bio pages validates the identity and credentials of named experts associated with the content. Article schema on content pages establishes the publication date, modification date, headline, and authorship in a machine-readable format that AI platforms use to evaluate recency and authorship signals. FAQPage schema provides structured question-and-answer content that AI platforms can draw on directly when constructing answers to conversational queries. Losing any one of these schema types does not necessarily cause immediate citation loss on all queries, but losing Organization schema or Person schema on the pages most important to the brand&rsquo;s AI visibility is a high-risk event with a predictable citation impact.</p>
+
+            <div className="ae-callout not-prose">
+              <p><strong>Schema breakage is the fastest citation loss cause to fix and the easiest to verify.</strong> Running a URL through Google&rsquo;s Rich Results Test and a JSON-LD validator takes minutes. If the schema is broken, the fix is equally fast in most cases. The difficulty is not the repair, it is the detection: brands that do not test schema after every platform update or redesign can go months without knowing the structured data layer is broken, accumulating citation loss the entire time. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+            </div>
+
+            {/* CTA 5 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 6: COMPETITOR ENTITY */}
+            <span className="ae-section-label" id="competitor-entity">Diagnostic Category 5</span>
+            <h2>Competitor Entity Consensus: Did a Rival Earn the Citation Slot?</h2>
+
+            <p>The fifth diagnostic category is the most strategically consequential and the most difficult to address quickly. Competitor entity consensus displacement occurs when a competing brand builds a sufficiently strong entity authority footprint on the same topic that AI platforms shift their citation preference from your brand to theirs, even without any degradation in your own signals. Your content has not gotten worse. The competitor&rsquo;s has gotten materially better, specifically in the dimensions AI platforms weight most heavily: independent third-party corroboration, named expert association, review density, and press mention accumulation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+
+            <p>AI platforms have a limited number of citation slots per answer. When those slots are allocated to a competitor, they are not available for your brand on that answer. The displacement is not a penalty. It is a competitive outcome: the platform&rsquo;s evaluation determined that the competitor&rsquo;s entity consensus is now stronger than yours for this query, and the citation slot followed that evaluation. Understanding that the mechanism is competitive, not punitive, is important because it shapes the recovery approach. You are not trying to undo a penalty. You are trying to rebuild a competitive advantage.</p>
+
+            <h3>How to Identify Displacement vs. Other Causes</h3>
+
+            <p>Displacement is distinguishable from other citation loss causes by a specific pattern: a particular competitor (or a small set of competitors) consistently appears in the citation slot where your brand used to appear, across multiple queries and across multiple platforms. If the citation slot is going to a different specific brand every time, the cause is more likely a general authority issue on your side. If the same competitor is showing up repeatedly, the cause is competitive displacement and the recovery response needs to address that specific competitor&rsquo;s advantages. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <p><strong>Competitor displacement is slow to develop and fast to compound.</strong> A competitor running a structured AEO program will not displace you in the first month. The displacement typically takes three to six months to fully materialize as their entity consensus reaches the threshold required to win citation slots. But once they have won those slots, the compounding effect accelerates: more citations produce more brand mentions, which produce more entity authority, which produce more citations. The window to act before displacement becomes entrenched is meaningful but not unlimited.</p>
+            </div>
+
+            {/* CTA 6 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 7: RECOVERY LEVERS */}
+            <span className="ae-section-label" id="recovery-levers">Recovery Overview</span>
+            <h2>Recovery Levers: What Exists and Why It Is Not Simple</h2>
+
+            <p>Recovery from AI citation loss is not a single process. It is a set of distinct interventions, each corresponding to a diagnostic category, and each with a different timeline, difficulty level, and dependency structure. Understanding the landscape of recovery levers is valuable not as a do-it-yourself guide but as a framework for understanding why citation recovery requires accurate diagnosis before any remediation effort begins.</p>
+
+            <p>Named author signal restoration addresses the on-page authorship dimension of citation loss. When a CMS migration removed bylines, when a redesign obscured author attribution, or when Person schema was lost in a platform update, restoring these signals is a discrete technical task with a predictable recovery timeline. The concept is straightforward. The implementation requires careful audit of which pages lost which signals, a systematic restoration of both the visible and schema-layer elements, and a measurement cycle to confirm the citations return. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+
+            <p>Publication date refreshes address recency-driven citation loss. When a page has aged beyond the freshness threshold that AI platforms apply to time-sensitive queries, updating the page with substantive new content and a corresponding modification date can restore the recency signal that previously supported the citation. The key word is substantive: AI platforms that evaluate content quality alongside dates can detect when a modification date was updated without meaningful content changes, and the citation lift from a timestamp-only update is significantly lower than the lift from a genuine content refresh.</p>
+
+            <h3>The Off-Page Recovery Category</h3>
+
+            <p>Review density restoration, third-party platform presence expansion, and entity consensus rebuilding are the off-page recovery levers. These are the most time-intensive category because they depend on third-party actions: customers leaving new reviews, journalists mentioning the brand, trade publications citing the brand&rsquo;s experts, and directory and platform profiles being created and maintained. The brand can facilitate and accelerate these outcomes, but cannot unilaterally produce them on a fast timeline. Off-page recovery is a program, not a task. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+
+            <div className="ae-callout not-prose">
+              <p><strong>Entity consensus repair is the most complex recovery lever and the most frequently required.</strong> Because entity consensus is built across multiple independent third-party platforms over time, repairing it after erosion means identifying which third-party nodes have degraded, which need to be rebuilt, which new nodes would have the highest impact, and executing a structured outreach and earned media program to close the gap. Each of those steps requires judgment about the specific category, the specific platforms AI uses to validate authority in that category, and the specific competitors whose entity consensus is competing for the same citation slots. This is the category where generic AEO advice is most likely to produce wasted effort.</p>
+            </div>
+
+            {/* CTA 7 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 8: MISDIAGNOSIS COST */}
+            <span className="ae-section-label" id="misdiagnosis-cost">The Risk</span>
+            <h2>The Cost of Misdiagnosis</h2>
+
+            <p>The most expensive mistake in AI citation recovery is applying the right remedy to the wrong diagnosis. It is also the most common mistake, because the five diagnostic categories can produce citation loss patterns that look superficially similar from the outside. A brand that lost citations because of schema breakage and a brand that lost citations because of competitor displacement will both see the same surface symptom: they no longer appear in answers where they previously appeared. Without a structured diagnostic process, both brands might apply the same generic AEO response and spend months on work that does not address the actual cause.</p>
+
+            <p>The misdiagnosis risk is compounded by the way most brands discover citation loss in the first place: informally, through a team member or client who notices the absence during a casual query, weeks or months after the loss began. By the time the loss is formally investigated, the evidence trail has partially degraded. The CMS update that broke the schema was three months ago and the team no longer has clear records of what changed. The press mention that disappeared from a trade journal was taken down in a site migration that the publishing team considers routine. The competitor that started winning the citation slot has been running a structured AEO program for two quarters and has built a footprint that looks established rather than recently constructed. Accurate diagnosis under these conditions requires systematic investigation, not pattern-matching on the most recent changes. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <p><strong>The most dangerous misdiagnosis is treating competitive displacement as an on-page content problem.</strong> A brand that was displaced by a competitor with a stronger entity consensus footprint will not recover by publishing more blog content. More on-domain content does not address the off-page entity consensus gap that caused the displacement. But publishing more content is the most common response to citation loss because it is the most visible and controllable action available, and it is exactly the wrong action for this diagnostic category. Months of content production investment produces no citation recovery, and the competitor&rsquo;s lead continues to compound.</p>
+            </div>
+
+            {/* CTA 8 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 9: MONITORING GAP */}
+            <span className="ae-section-label" id="monitoring-gap">The Prevention Layer</span>
+            <h2>The Monitoring Gap That Makes Citation Loss Invisible</h2>
+
+            <p>AI citation loss is a lagging indicator in the absence of dedicated monitoring. A brand that does not systematically test its AI citation presence on a recurring schedule will discover citation loss weeks or months after it begins, when the compounding cost has already accumulated. Most brands currently operate in exactly this state: they have strong organic search monitoring, they track keyword rankings and traffic on a daily or weekly basis, but they have no equivalent monitoring layer for AI citation presence. The absence of that layer makes citation loss structurally invisible until it becomes large enough to be noticed informally.</p>
+
+            <p>The monitoring gap exists because AI citation monitoring is newer, less tooled, and less integrated into standard marketing workflows than traditional SEO monitoring. There is no Google Search Console equivalent that reports which AI platforms are citing your brand and at what frequency. Citation presence must be measured by running structured query sets through each AI platform on a regular cadence, logging the citations returned, and tracking changes over time. The process requires defined query lists, defined platforms, defined measurement intervals, and a logging methodology that makes trend detection possible. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+
+            <h3>What Good Monitoring Catches Early</h3>
+
+            <p>A well-designed citation monitoring program catches platform-specific drops immediately, identifying which platform stopped citing the brand and on which query before the loss has spread to other platforms. It catches partial displacement, where a brand still appears on some queries but has lost the highest-value queries to a competitor. It catches the early stages of competitive entity consensus building, where a competitor is beginning to accumulate citations on queries adjacent to the brand&rsquo;s core territory. Each of these early signals points to a diagnostic category and allows a targeted response before the loss compounds into a recovery project rather than a maintenance fix.</p>
+
+            <div className="ae-callout not-prose">
+              <p><strong>Schema monitoring is the highest-return automated check available.</strong> Running the key cited URLs through a JSON-LD validator on a weekly automated basis catches schema breakage within days of it occurring, which is the window in which schema repair can prevent citation loss rather than just recover from it. Schema breakage that is caught in the first week requires a one-hour fix. Schema breakage discovered three months later after citation loss has already occurred requires a repair plus a recovery program. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+            </div>
+
+            {/* CTA 9 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* SECTION 10: PLATFORM COMPARISON */}
+            <span className="ae-section-label" id="comparison-platform">Platform Comparison</span>
+            <h2>Platform Comparison: How Trust Models Diverge</h2>
+
+            <p>Understanding how the major AI platforms differ in their citation trust models is essential context for interpreting platform scope diagnostics. A loss that is specific to one platform is telling you something specific about how that platform evaluates your content, and the message is different for each platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+
           </div>
 
-          {/* SECTION 2 ============================================ */}
-          <div className="not-prose"><div className="ae-section-label">02 · The Research</div></div>
-          <h2>What The Research Says About Why LLMs Stop Citing A Source</h2>
-
-          <p>
-            The academic foundation for Generative Engine Optimization is less than two years old.
-            That short half-life is part of why citation loss is so widely misdiagnosed. The four
-            studies below are the load-bearing references The Answer Engine cites to clients when
-            naming root causes. Text us at{' '}
-            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if you want copies
-            of the underlying papers.
-          </p>
-
-          <h3>Zhang Et Al., 2026 — The Definition Premium</h3>
-          <p>
-            <strong className="named-thesis">The Definition Premium:</strong> Zhang et al. (2026)
-            measured a 57% influence premium for content that opens with a clear definition of its
-            subject versus content that buries the definition mid-article. When a page is rewritten
-            during a redesign and the opening definition is moved, fragmented, or replaced with a
-            marketing hook, the citation rate on that page can collapse without any other signal
-            changing. The Definition Premium is one of the most common quiet causes of on-page
-            citation loss. See{' '}
-            <Link href="/concepts/definition-premium" className="concept-link">
-              the Definition Premium
-            </Link>{' '}
-            for the lattice page.
-          </p>
-
-          <h3>GEO-SFE, 2026 — The Chunk Ceiling And Position Weight</h3>
-          <p>
-            <strong className="named-thesis">The Chunk Ceiling:</strong> the GEO-SFE study (2026)
-            measured a 31% attention degradation in RAG retrievers on passages longer than 300
-            words and a 43% citation lift from well-structured lists and tables versus the same
-            content rewritten as prose. The same paper measured that 44% of citations come from the
-            top third of the article. When a previously bounded answer chunk is expanded during an
-            editorial rewrite, the chunk crosses the ceiling and retrievers stop extracting it.
-            Explore{' '}
-            <Link href="/concepts/chunk-ceiling" className="concept-link">the Chunk Ceiling</Link>{' '}
-            in depth. Email{' '}
-            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>{' '}
-            to request the chunk audit template we run.
-          </p>
-
-          <h3>Aggarwal Et Al., KDD 2024 — The Quotation And Statistics Lift</h3>
-          <p>
-            Aggarwal and collaborators tested controlled content variants against generative
-            retrievers and measured a 37% citation lift from quotations and a 22% citation lift
-            from statistics. The effect held across multiple retrieval systems including Perplexity
-            and Bing&apos;s generative endpoint. The operational implication for citation loss is
-            inverse: pages that previously cited authoritative numbers and named sources, then had
-            those signals removed during an editorial cleanup, frequently lose the citation slot.
-            Quotations and statistics are not decoration. They are load-bearing citation signals.
-          </p>
-
-          <h3>Chen Et Al., 2025 — The Earned-Media Bias</h3>
-          <p>
-            <strong className="named-thesis">The Earned-Media Bias:</strong> Chen et al. (2025)
-            found a systematic preference inside major LLMs for third-party editorial content —
-            roundups, comparison articles, listicles, expert quote pieces — over first-party brand
-            content. The bias persists even when first-party content is technically more accurate.
-            When a publication retires an older roundup that previously named the brand, or an
-            editor updates a listicle and removes the entry, the citation footprint erodes off-page
-            in a way no on-page audit will surface. Reach us at{' '}
-            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a worked
-            example of an off-page erosion timeline.
-          </p>
-
-          <div className="not-prose">
-            <div className="ae-quote">
-              <p>
-                Most citation loss audits fail because they look only at the page. The page is
-                rarely where the citation lived. The citation lived on the relationship between the
-                page, the entity, and the off-page footprint that anchored the trust signal.
-              </p>
-              <cite>— Justin Borges, Founder, The Answer Engine</cite>
-            </div>
-          </div>
-
-          {/* INLINE CTA 3 — Text */}
-          <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>
-                Faster answer — text us: <strong>(213) 444-2229</strong>. We respond within the
-                business hour on Mon–Fri.
-              </p>
-              <a href="tel:+12134442229">Text (213) 444-2229</a>
-            </div>
-          </div>
-
-          {/* SECTION 3 ============================================ */}
-          <div className="not-prose"><div className="ae-section-label">03 · The Categories</div></div>
-          <h2>The Five Diagnostic Categories Of AI Citation Loss</h2>
-
-          <p>
-            <strong className="named-thesis">The Diagnostic Premium:</strong> accurate root-cause
-            naming cuts recovery time by an average of 67% versus undifferentiated AEO optimization,
-            because each category requires a different recovery sequence (TAE citation lab, 2026).
-            The five categories below cover roughly 94% of citation loss cases we have diagnosed.
-            The remaining 6% are platform-level algorithm shifts that re-weight trust signals
-            globally and require a different response than any on-site or off-site fix.
-          </p>
-
-          <h3>Category 1 — Platform Scope</h3>
-          <p>
-            Platform scope is the first diagnostic gate, not a root cause. The question is whether
-            the loss is platform-specific or universal. Disappearing from Claude but holding on
-            ChatGPT typically points to a Constitutional AI alignment issue — promotional framing,
-            anonymous authorship, or unsupported statistical claims. Disappearing from Google AI
-            Overviews but holding on Perplexity typically points to an organic authority issue,
-            since Google ties AI citation eligibility tightly to traditional ranking signals.
-            Universal loss across all four platforms points to a structural failure — schema
-            collapse, a major off-page authority event, or a fundamental change to the cited page.
-            Email{' '}
-            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>{' '}
-            for our platform scope diagnostic worksheet.
-          </p>
-
-          <h3>Category 2 — On-Page Change</h3>
-          <p>
-            On-page change is the most frequent and most preventable cause. A CMS migration, a theme
-            update, a redesign, an editorial refresh, or a marketing team rewrite can strip the
-            structural signals a retriever was using to cite the page: the opening definition, the
-            named author byline, the inline statistic, the bounded answer chunk, the FAQ block. The
-            diagnostic move is straightforward: compare the current state of the page against the
-            state it was in when citations were occurring. If the opening 300 words changed, the
-            citation surface changed. Schedule a{' '}
-            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
-              30-minute review
-            </a>{' '}
-            and we will pull the diff on the call.
-          </p>
-
-          <h3>Category 3 — Off-Page Footprint Erosion</h3>
-          <p>
-            <strong className="named-thesis">The Off-Page Erosion Pattern:</strong> third-party
-            footprint loss precedes 58% of citation loss cases as a primary or contributing cause,
-            and it is invisible until specifically measured (TAE citation lab, 2026). Review
-            removals on Google or Yelp, lost backlinks from authoritative sources, vanished press
-            mentions, an editor retiring a listicle that named the brand — each one chips away at
-            the entity consensus signal LLMs use to cite. Off-page erosion does not show up in an
-            on-page audit. It requires a separate inventory of every external signal that was
-            supporting the citation and a check on whether each one is still intact. Get the{' '}
-            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blindspot Scan</a>{' '}
-            to see your current off-page footprint.
-          </p>
-
-          <h3>Category 4 — Schema Breakage</h3>
-          <p>
-            <strong className="named-thesis">The Schema Decay Curve:</strong> schema regressions
-            after a CMS or theme update cause hidden citation rot — the page still loads, the
-            content still reads correctly to a human, and the structured data quietly fails. Broken
-            Organization schema, missing Article schema, invalid Person schema on author pages, and
-            malformed FAQ schema are all common after migrations. A retriever that cannot resolve
-            the entity behind a page is significantly less likely to cite it. Run the previously
-            cited URL through a JSON-LD validator. If the validator throws, the diagnosis is named.
-            Text us at{' '}
-            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if you want us to
-            run the validator on your top citation page.
-          </p>
-
-          <h3>Category 5 — Competitor Entity Consensus</h3>
-          <p>
-            Competitor displacement is the hardest category to diagnose because nothing on your own
-            surface changed. A stronger entity consensus signal emerged for a competitor on a topic
-            your brand previously owned, and the citation slot shifted. Displacement is most common
-            in categories where two or three brands are competing for the same query territory and
-            one brand executes a sustained earned-media program while the others do not. The
-            diagnostic is to identify who is appearing in the citation slot where the brand used to
-            appear and audit what changed in that competitor&apos;s footprint over the prior six
-            months. See our analysis of{' '}
-            <Link href="/blog/ai-cites-competitor-using-your-content" className="cta-inline">
-              what happens when AI cites a competitor using your content
-            </Link>{' '}
-            for the displacement pattern in detail.
-          </p>
-
-          {/* Comparison Table */}
-          <div className="not-prose">
-            <table className="ae-comparison-table">
+          {/* COMPARISON TABLE */}
+          <div className="ae-comparison-table not-prose">
+            <h3>AI Platform Citation Trust Model Comparison</h3>
+            <table>
               <thead>
                 <tr>
-                  <th>Category</th>
-                  <th>Primary Signal Lost</th>
-                  <th>Recovery Window</th>
-                  <th>Difficulty</th>
+                  <th>Platform</th>
+                  <th>Primary Trust Signals</th>
+                  <th>Most Common Loss Trigger</th>
+                  <th>Recovery Speed</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Platform scope</td>
-                  <td>Trust signal mismatch on one platform</td>
-                  <td>2–8 weeks</td>
-                  <td>Medium</td>
+                  <td><strong>ChatGPT</strong></td>
+                  <td>Source breadth, third-party citation density, topical coverage depth</td>
+                  <td>Off-page footprint erosion, competitor content emergence</td>
+                  <td>Moderate (4-10 weeks)</td>
                 </tr>
                 <tr>
-                  <td>On-page change</td>
-                  <td>Definition, byline, statistic, or chunk structure</td>
-                  <td>2–6 weeks</td>
-                  <td>Low</td>
+                  <td><strong>Claude</strong></td>
+                  <td>Named authorship, accuracy, balanced framing, primary source links</td>
+                  <td>Authorship removal, promotional framing creep, schema loss</td>
+                  <td>Fast (2-6 weeks) for on-page causes</td>
                 </tr>
                 <tr>
-                  <td>Off-page erosion</td>
-                  <td>Reviews, press, listicles, backlinks</td>
-                  <td>3–6 months</td>
-                  <td>High</td>
+                  <td><strong>Perplexity</strong></td>
+                  <td>Recency, source diversity, direct answer precision</td>
+                  <td>Stale content, URL changes, content generalization</td>
+                  <td>Fast once freshness restored (2-4 weeks)</td>
                 </tr>
                 <tr>
-                  <td>Schema breakage</td>
-                  <td>Entity resolution failure</td>
-                  <td>1–3 weeks</td>
-                  <td>Low</td>
+                  <td><strong>Google AI Overviews</strong></td>
+                  <td>Organic authority, E-E-A-T signals, schema, local signals</td>
+                  <td>Organic ranking drop, schema breakage, review erosion</td>
+                  <td>Slow (tied to organic cycles, 6-12 weeks)</td>
                 </tr>
                 <tr>
-                  <td>Competitor displacement</td>
-                  <td>Citation slot scarcity</td>
-                  <td>3–6 months</td>
-                  <td>High</td>
+                  <td><strong>Microsoft Copilot</strong></td>
+                  <td>Bing index authority, structured data, named expertise</td>
+                  <td>Bing crawl issues, schema loss, thin authorship</td>
+                  <td>Moderate (4-8 weeks)</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          {/* INLINE CTA 4 — Territory */}
-          <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>
-                We take one operator per market. If your competitor signs first, we cannot help you
-                recover the citation slot in your city.
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+            <p>The platform comparison reinforces why platform scope is the first diagnostic step. Each row in the table above corresponds to a different recovery approach. Knowing which platform lost the citation narrows the diagnostic work substantially before deeper investigation begins. For the full analysis of how E-E-A-T trust signals operate across AI platforms, see our breakdown of <Link href="/blog/e-e-a-t-for-ai-search">E-E-A-T for AI search</Link>.</p>
+
+            {/* PROS/CONS */}
+            <h3>Self-Diagnosis vs. Specialist Diagnosis: What Each Covers</h3>
+
+            <div className="ae-pros-cons not-prose">
+              <div className="ae-pros-box">
+                <h4>What In-House Teams Can Self-Diagnose</h4>
+                <ul>
+                  <li>Platform scope: run queries and log which platforms cite the brand</li>
+                  <li>Obvious on-page changes: review version history for recent edits</li>
+                  <li>URL changes: verify redirect chains and check for 301 consistency</li>
+                  <li>Basic schema validation: run URLs through Rich Results Test</li>
+                  <li>Review count trends: compare current review volume to prior periods</li>
+                  <li>Surface-level competitor visibility: note which competitor appears in place of the brand</li>
+                </ul>
+              </div>
+              <div className="ae-cons-box">
+                <h4>Where Self-Diagnosis Breaks Down</h4>
+                <ul>
+                  <li>Tracing off-page erosion events to specific dates and sources</li>
+                  <li>Identifying which schema type broke and where in the structured data hierarchy</li>
+                  <li>Distinguishing general authority decline from targeted competitor displacement</li>
+                  <li>Mapping the competitor entity consensus gap and required rebuild effort</li>
+                  <li>Correlating citation loss timeline with specific off-domain events</li>
+                  <li>Prioritizing recovery actions across multiple simultaneous diagnostic categories</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* CTA 10 */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+
+            {/* CHEAT SHEET */}
+            <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
+            <h2>Citation Loss Diagnostic Cheat Sheet</h2>
+
+          </div>
+
+          {/* CHEAT SHEET */}
+          <div className="ae-cheat-sheet not-prose">
+            <h3>AI Citation Loss: Five Diagnostic Categories at a Glance</h3>
+            <div className="ae-cheat-grid">
+              <div className="ae-cheat-item">
+                <div className="ae-cheat-number">01</div>
+                <div className="ae-cheat-label">Platform Scope</div>
+                <div className="ae-cheat-detail">Loss on one platform only: platform-specific trust mismatch. Loss on all platforms: structural cross-cutting failure.</div>
+              </div>
+              <div className="ae-cheat-item">
+                <div className="ae-cheat-number">02</div>
+                <div className="ae-cheat-label">On-Page Changes</div>
+                <div className="ae-cheat-detail">Content edits, URL changes, authorship removal, promotional framing additions, or access barriers introduced after last known citation date.</div>
+              </div>
+              <div className="ae-cheat-item">
+                <div className="ae-cheat-number">03</div>
+                <div className="ae-cheat-label">Off-Page Footprint</div>
+                <div className="ae-cheat-detail">Review count drops, press mention removals, lost authoritative backlinks, deleted third-party platform profiles supporting entity authority.</div>
+              </div>
+              <div className="ae-cheat-item">
+                <div className="ae-cheat-number">04</div>
+                <div className="ae-cheat-label">Schema Breakage</div>
+                <div className="ae-cheat-detail">Organization, Article, Person, or FAQPage schema corrupted or removed by CMS update, plugin change, theme migration, or redesign.</div>
+              </div>
+              <div className="ae-cheat-item">
+                <div className="ae-cheat-number">05</div>
+                <div className="ae-cheat-label">Competitor Entity Consensus</div>
+                <div className="ae-cheat-detail">A specific competitor consistently appears in slots where the brand used to appear, across multiple queries and multiple platforms.</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+            {/* CTA BLOCK */}
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
+
+            {/* TAKEAWAY */}
+            <div className="ae-takeaway not-prose">
+              <p><strong>The core takeaway from this framework:</strong> AI citation loss is not random, not a penalty, and not fixed by publishing more content. It is a diagnostic problem with five distinct categories, each requiring a different recovery approach. The first step is always accurate diagnosis. Every recovery investment before that step has a high probability of being wasted on the wrong intervention.</p>
+            </div>
+
+            {/* AUTHOR CARD */}
+            <div className="ae-author-card not-prose">
+              <div className="ae-author-avatar">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="24" cy="24" r="24" fill="rgba(255,106,0,0.15)"/>
+                  <circle cx="24" cy="19" r="7" fill="rgba(255,106,0,0.5)"/>
+                  <ellipse cx="24" cy="37" rx="12" ry="7" fill="rgba(255,106,0,0.35)"/>
+                </svg>
+              </div>
+              <div className="ae-author-info">
+                <div className="ae-author-name">The Answer Engine Team</div>
+                <div className="ae-author-bio">
+                  The Answer Engine is an Answer Engine Optimization agency that helps businesses get cited by ChatGPT, Claude, Perplexity, and Google AI Overviews. Our citation lab tracks AI platform citation patterns across industries and publishes diagnostic frameworks based on systematic measurement rather than speculation.
+                </div>
+                <div className="ae-author-links">
+                  <a href="https://theanswerengine.ai/about" className="hover:text-[#FF6A00] transition-colors">About the Team</a>
+                  <span className="mx-2 text-gray-600">|</span>
+                  <a href="mailto:support@theanswerengine.ai" className="hover:text-[#FF6A00] transition-colors">support@theanswerengine.ai</a>
+                </div>
+              </div>
+            </div>
+
+            {/* FAQ */}
+            <span className="ae-section-label" id="faq">Frequently Asked Questions</span>
+            <h2>AI Citation Loss: Common Questions</h2>
+
+            <div className="ae-faq not-prose">
+              <details className="ae-faq-item">
+                <summary className="ae-faq-question">Why would my business suddenly stop appearing in AI citations after months of consistent visibility?</summary>
+                <div className="ae-faq-answer">
+                  <p>Citation loss is almost never random. In our citation lab work, the vast majority of sudden citation drops trace to one of five root causes: a change to the cited page itself, a change to the off-page footprint that was supporting the citation, schema breakage introduced during a site update, a competitor gaining enough entity consensus to displace your brand, or a platform-level algorithm shift that re-weighted the trust signals your content previously relied on. The critical distinction is whether the loss is platform-specific or universal. Platform-specific loss suggests a trust signal mismatch for that particular platform&rsquo;s evaluation criteria. Universal loss across all platforms points to a structural failure in a signal all platforms share: schema, authorship, or off-page entity presence. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary className="ae-faq-question">How long does it typically take to recover AI citations after losing them?</summary>
+                <div className="ae-faq-answer">
+                  <p>Recovery timelines vary significantly based on the root cause. On-page causes such as restoring a named author byline, repairing broken schema, or refreshing a stale publication date can produce citation recovery within two to six weeks. Off-page causes, including rebuilding review density or recovering lost press mentions, typically take three to six months because they involve third-party actions that compound slowly. Competitor displacement is the most difficult scenario and requires building a stronger entity consensus footprint than the competitor, which is a sustained program rather than a one-time fix. The most important variable is how quickly the root cause is accurately identified: brands that spend months applying generic AEO optimizations without diagnosing the actual failure category rarely recover on a predictable timeline.</p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary className="ae-faq-question">Is AI citation loss related to my Google rankings or are they independent?</summary>
+                <div className="ae-faq-answer">
+                  <p>They are related but not identical. Several trust signals matter to both systems: page authority, named authorship, schema completeness, recency, and off-page mention density. However, citation loss and ranking loss can diverge because AI platforms apply additional filters that organic ranking does not. AI platforms specifically evaluate entity consensus, off-page brand mention analysis, and conversational trust filters that are not primary ranking factors in traditional SEO. A page can maintain strong organic rankings while losing AI citations because the citation evaluation weights different dimensions of trust. The reverse also holds: a page can earn AI citations on queries where it does not rank organically if the platform&rsquo;s expertise and accuracy evaluation favors it. Diagnose citation loss independently from ranking changes rather than assuming the same cause. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary className="ae-faq-question">What does platform-specific citation loss tell me versus universal citation loss?</summary>
+                <div className="ae-faq-answer">
+                  <p>Platform-specific loss is one of the most informative diagnostic signals because each major AI platform applies a different citation trust model. If you disappear from Claude but remain in ChatGPT, the likely culprit is a Constitutional AI alignment issue: promotional framing, anonymous authorship, or unsupported statistical claims that Claude penalizes but ChatGPT does not. If you disappear from Google AI Overviews but remain in Perplexity, the likely culprit is an organic authority issue, since Google ties AI citation eligibility more tightly to traditional search signals. Universal loss across all platforms simultaneously is the most serious pattern and typically points to a cross-cutting structural failure: schema collapse, a major off-page authority event, or a fundamental change to the cited page that degraded all platform evaluations simultaneously.</p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary className="ae-faq-question">Can a competitor gaining citations actually cause me to lose mine?</summary>
+                <div className="ae-faq-answer">
+                  <p>Yes, and this is one of the most overlooked causes of citation loss. AI platforms allocate a limited number of citation slots per answer. When a competitor builds a stronger entity consensus signal for a topic your brand previously owned, the citation slot can shift to the competitor even without any degradation in your own signals. This displacement pattern is most common in categories where two or three brands are competing for the same informational query territory and one brand executes a sustained authority-building program while the others do not. The practical diagnostic indicator: a specific competitor appears consistently in the citation slots where your brand used to appear, across multiple queries and multiple platforms. That pattern is competitive displacement, and it requires a different recovery response than on-page degradation. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary className="ae-faq-question">Should I try to fix citation loss myself or work with an AEO specialist?</summary>
+                <div className="ae-faq-answer">
+                  <p>The answer depends on which diagnostic category your loss falls into. On-page causes involving clear content changes or broken schema can often be addressed by an in-house team with the right technical guidance. Off-page causes involving review density, press mention recovery, and entity consensus rebuilding are significantly more complex to execute and measure without dedicated tooling and a structured earned media program. The most common and costly mistake is misidentifying the root cause and applying the wrong fix: spending months publishing more content when the actual issue is broken schema or a vanished press mention. An accurate diagnosis is the single most valuable thing a specialist provides. Without it, recovery efforts are directionally wrong from the start and compounding in the wrong direction throughout the recovery period.</p>
+                </div>
+              </details>
+            </div>
+
+          </div>
+
+          {/* FINAL CTA */}
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
               </p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Claim your territory →</a>
-            </div>
-          </div>
-
-          {/* INLINE CTA 5 — Email */}
-          <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>
-                Email <strong>support@theanswerengine.ai</strong> with your URL and we will name the
-                most likely diagnostic category within two business hours.
-              </p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
-            </div>
-          </div>
-
-          {/* SECTION 4 ============================================ */}
-          <div className="not-prose"><div className="ae-section-label">04 · The Recovery Protocol</div></div>
-          <h2>The Recovery Sequence: How Origin Protocol Maps To Each Category</h2>
-
-          <p>
-            <strong className="named-thesis">Compound Authority:</strong> only structurally
-            extractable content survives a frontier model swap, which is why recovery built on
-            short-lived attention spikes decays inside one training cycle while recovery built on
-            durable signals compounds. The Origin Protocol is The Answer Engine&apos;s recovery
-            sequence for citation loss. It maps a specific set of moves to each of the five
-            diagnostic categories rather than applying one undifferentiated AEO program. See{' '}
-            <Link href="/concepts/compound-authority" className="concept-link">Compound Authority</Link>{' '}
-            for the lattice page.
-          </p>
-
-          <h3>Recovery Beat 1 — Diagnose Before Optimizing</h3>
-          <p>
-            Beat 1 is the diagnostic itself: classify the loss into one of the five categories using
-            the platform scope test, the on-page diff, the off-page inventory, the schema
-            validation, and the competitor slot audit. The output is a named root cause, not a
-            list of generic optimizations. Brands that skip Beat 1 spend an average of 4.2 months
-            applying the wrong fix before recovering (TAE citation lab, 2026). Book a{' '}
-            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
-              30-minute diagnostic call
-            </a>{' '}
-            if you want Beat 1 run live on your URL.
-          </p>
-
-          <h3>Recovery Beat 2 — On-Page Restoration</h3>
-          <p>
-            For on-page change and schema breakage cases, Beat 2 restores the structural signals the
-            retriever was using to cite the page. Reinstate the opening definition. Restore the
-            named author byline. Re-shorten chunks to fit under the 300-word ceiling. Repair the
-            schema until it validates clean. Re-publish with an updated dateModified. On-page cases
-            typically show citation recovery within 2 to 6 weeks once Beat 2 ships.
-          </p>
-
-          <h3>Recovery Beat 3 — Off-Page Reconstitution</h3>
-          <p>
-            For off-page erosion and competitor displacement cases, Beat 3 rebuilds the third-party
-            footprint that was anchoring the citation. The work targets the specific publications
-            LLMs already cite for the category — local guides, third-party listicles, expert quote
-            pieces, podcast appearances, and trade publications. This is the layer addressed by the
-            Chen et al. (2025) earned-media bias finding. Beat 3 is slower and compounds — 3 to 6
-            months is a realistic horizon. Email{' '}
-            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>{' '}
-            to request our editorial placement playbook.
-          </p>
-
-          {/* Decision Matrix */}
-          <div className="not-prose ae-decision-matrix">
-            <div className="ae-decision-matrix-title">Which Recovery Path Maps To Your Category?</div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">If schema validation throws on the cited URL</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Beat 2 — repair structured data first, before any content work.</div>
-            </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">If the on-page diff shows the opening 300 words changed</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Beat 2 — restore the definition-first opening and bounded chunks.</div>
-            </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">If a competitor now appears where you used to</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Beat 3 — rebuild the earned-media footprint and book a territory review fast.</div>
-            </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">If reviews, press mentions, or listicles vanished</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Beat 3 — reconstitute the off-page entity consensus footprint.</div>
-            </div>
-          </div>
-
-          {/* INLINE CTA 6 — Blindspot */}
-          <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>
-                Get the Blindspot Scan — the exact diagnostic we run in Beat 1 of the Recovery
-                Protocol.
-              </p>
-              <a href="https://theanswerengine.ai/blindspot">Get the free Blindspot Scan →</a>
-            </div>
-          </div>
-
-          {/* SECTION 5 ============================================ */}
-          <div className="not-prose"><div className="ae-section-label">05 · Measurement</div></div>
-          <h2>Measuring Citation Recovery: The Diagnostic Ledger</h2>
-
-          <p>
-            <strong className="named-thesis">The Diagnostic Ledger:</strong> a week-over-week record
-            of named citations, displacement events, and recovery beats, indexed by query and by
-            platform. The Diagnostic Ledger is the only recovery metric that ties directly to
-            citation behavior at the slot level. Generic AI visibility scores, share-of-voice
-            estimates, and total mention counts are directional only. They are not proof of
-            citation. Recovery work without a ledger is recovery work without a target.
-          </p>
-
-          <h3>What To Track Weekly During Recovery</h3>
-          <p>
-            Track four metrics, every week, per market. First, the count of distinct queries on
-            which the business is named in the answer, broken out by ChatGPT, Claude, Perplexity,
-            and Google AI Overviews. Second, the displacement gap: queries where a competitor is
-            named and the business is not. Third, the open territory: queries with no clear local
-            citation. Fourth, the recovery delta: week-over-week change in named slots versus the
-            day-zero audit. Email{' '}
-            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>{' '}
-            and ask for the Diagnostic Ledger template, or{' '}
-            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
-              book the 30-minute walkthrough
-            </a>.
-          </p>
-
-          <h3>What A Healthy Recovery Curve Looks Like</h3>
-          <p>
-            A healthy 90-day recovery curve for an on-page case shows initial citation recovery on
-            the cited query within 2 to 6 weeks, expansion to adjacent queries by week 8, and 3-of-4
-            platform parity by day 90. An off-page case will show a slower curve: initial recovery
-            in week 8 to 12, with the displacement gap closing through month 4 to 6. Anything
-            flatter than this is a leading indicator that the wrong recovery beat is being run on
-            the wrong category. Text us at{' '}
-            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a same-week
-            curve review.
-          </p>
-
-          <h3>What Not To Track</h3>
-          <p>
-            Generic LLM visibility scores produced by third-party tools are noisy and rarely tie to
-            local intent. Treat them as directional only. Total mentions across all generative
-            surfaces, without query-level granularity, is too coarse to drive recovery decisions.
-            Domain authority and organic rank can move independently of citation recovery and should
-            be tracked separately. Anything that is not query-by-query and platform-by-platform is a
-            vanity metric during a recovery program.
-          </p>
-
-          <div className="not-prose">
-            <div className="ae-quote">
-              <p>
-                Citation recovery is won at the level of the named query slot, not at the level of a
-                visibility dashboard. Every recovery program that works at scale tracks the slot,
-                week over week, by platform.
-              </p>
-              <cite>— Justin Borges, Founder, The Answer Engine</cite>
-            </div>
-          </div>
-
-          {/* INLINE CTA 7 — Calendly */}
-          <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>
-                Want to see your own Diagnostic Ledger built live on a 30-minute call? We will pull
-                your citation data for your top 10 queries in front of you.
-              </p>
-              <a href="https://calendly.com/theanswerengine-support/30min">Book the call →</a>
-            </div>
-          </div>
-
-          {/* FAQs */}
-          <div className="not-prose"><div className="ae-section-label">FAQ</div></div>
-          <h2>Frequently Asked Questions: Diagnosing AI Citation Loss</h2>
-
-          <div className="not-prose">
-            <details className="ae-faq-item">
-              <summary>Why would my business suddenly stop appearing in AI citations after months of consistent visibility?</summary>
-              <div className="ae-faq-answer">
-                <p>
-                  Citation loss is almost never random. In our citation lab work, the vast majority
-                  of sudden drops trace to one of five categories: a change to the cited page, a
-                  change to the off-page footprint that was supporting the citation, schema
-                  breakage introduced during a site update, a competitor gaining enough entity
-                  consensus to displace the brand, or a platform-level algorithm shift.
-                </p>
-                <p>
-                  The critical distinction is whether the loss is platform-specific or universal.
-                  Platform-specific loss points to a trust signal mismatch unique to that
-                  platform&apos;s evaluation model. Universal loss across all platforms points to a
-                  structural failure that cut across the signals all platforms share.
-                </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>How long does it typically take to recover AI citations after losing them?</summary>
-              <div className="ae-faq-answer">
-                <p>
-                  Recovery timelines vary by root cause. On-page causes — broken schema, removed
-                  byline, content rewrites — typically resolve in two to six weeks because AI
-                  platforms re-crawl and re-evaluate frequently. Off-page causes — review density
-                  collapse, lost press mentions, weakened entity consensus — take three to six
-                  months because the work compounds slowly.
-                </p>
-                <p>
-                  Competitor displacement is the hardest scenario: recovering citations requires
-                  building a superior entity consensus footprint, which is a sustained earned-media
-                  program. The single largest variable is diagnostic accuracy. Brands that apply
-                  general AEO without naming the actual category rarely recover on a predictable
-                  timeline.
-                </p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>Is AI citation loss related to my Google rankings or are they independent?</summary>
-              <div className="ae-faq-answer">
-                <p>
-                  They are related but not identical. Several trust signals overlap: page
-                  authority, named authorship, schema completeness, recency, and off-page mention
-                  density matter to both systems. Citation loss and ranking loss can diverge,
-                  though. A page can hold strong organic rankings while losing AI citations because
-                  the citation evaluation applies additional filters — entity consensus checks,
-                  brand mention analysis, and conversational trust filters.
-                </p>
-                <p>
-                  The reverse is also true. A page can earn AI citations on queries where it does
-                  not rank in the top ten if the platform&apos;s trust evaluation weights expertise
-                  and accuracy higher than pure link authority. Citation loss should be diagnosed
-                  independently from ranking changes.
-                </p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>What does platform-specific citation loss tell me versus universal loss?</summary>
-              <div className="ae-faq-answer">
-                <p>
-                  Platform-specific loss is one of the most informative diagnostic signals
-                  available. Each platform weights trust signals differently. ChatGPT emphasizes
-                  breadth of citation and third-party source density. Claude applies Constitutional
-                  AI honesty and accuracy filters. Perplexity weights recency and source diversity.
-                  Google AI Overviews ties citation eligibility to existing organic authority.
-                </p>
-                <p>
-                  Disappearing from Claude but holding on ChatGPT typically points to a
-                  Constitutional AI alignment issue. Disappearing from Google AI Overviews but
-                  holding on Perplexity points to an organic authority issue. Universal loss across
-                  all four platforms points to a cross-cutting structural failure.
-                </p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>Can a competitor gaining citations actually cause me to lose mine?</summary>
-              <div className="ae-faq-answer">
-                <p>
-                  Yes. AI platforms do not have unlimited citation slots per answer. When a stronger
-                  entity consensus signal emerges for a competitor on a topic the brand previously
-                  owned, the slot can shift to the competitor even without any degradation in the
-                  brand&apos;s own signals.
-                </p>
-                <p>
-                  Displacement is most common in categories where two or three brands are competing
-                  for the same query territory and one brand runs a sustained earned-media program
-                  while the others do not. Citation monitoring needs to track who appears when the
-                  brand does not — a competitor in the slot is a different finding from a generic
-                  authoritative source, and each requires a different recovery response.
-                </p>
-              </div>
-            </details>
-
-            <details className="ae-faq-item">
-              <summary>Should I try to fix citation loss myself or work with an AEO specialist?</summary>
-              <div className="ae-faq-answer">
-                <p>
-                  The answer depends on the diagnostic category. On-page causes involving content
-                  changes or broken schema can often be addressed in-house with the right
-                  technical guidance. Off-page causes involving review density, press mention
-                  recovery, and entity consensus rebuilding are significantly harder to execute and
-                  measure without dedicated tooling.
-                </p>
-                <p>
-                  The most common mistake is misidentifying the root cause and applying the wrong
-                  fix — publishing more content when the issue is broken schema or a vanished press
-                  mention. Accurate diagnosis is the single most valuable thing a specialist brings.
-                  The free Blindspot Scan we offer is designed to produce that diagnosis as a
-                  starting point.
-                </p>
-              </div>
-            </details>
-          </div>
-
-          {/* INLINE CTA 8 — Text */}
-          <div className="not-prose">
-            <div className="ae-cta-inline">
-              <p>Prefer a text reply over a call? Text (213) 444-2229 with your URL and category.</p>
-              <a href="tel:+12134442229">Text us now</a>
             </div>
-          </div>
+          </section>
 
-          {/* Closing argument */}
-          <h2>The Operator&apos;s Bottom Line</h2>
-          <p>
-            AI citation loss is a diagnosis problem before it is an optimization problem. The
-            businesses that recover citations consistently are the ones that classify the loss into
-            the right category — platform scope, on-page change, off-page erosion, schema breakage,
-            or competitor displacement — and then run the recovery beat that maps to that category.
-            Skipping the diagnosis is the single most common reason recovery programs fail. Email{' '}
-            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>{' '}
-            to start with a Beat 1 diagnostic on your URL.
-          </p>
-
-          <p>
-            The Answer Engine runs one client per market. The territory model is a constraint we
-            built on purpose because citation slots are scarce by design — once a competitor locks
-            the category, recovering the slot is a 3-to-6-month earned-media program rather than a
-            2-to-6-week on-page fix.{' '}
-            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
-              Book a territory review
-            </a>, text us at{' '}
-            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>, or pull the free{' '}
-            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Blindspot Scan</a>{' '}
-            to see your current citation map. We will tell you what we see and which diagnostic
-            category your loss belongs to.
-          </p>
-
-        </div>
-
-        {/* AUTHOR CARD */}
-        <div className="not-prose ae-author-card">
-          <img
-            src="/justin-borges.webp"
-            alt="Justin Borges, Founder of The Answer Engine"
-            style={{
-              width: 64,
-              height: 64,
-              borderRadius: '50%',
-              objectFit: 'cover',
-              border: '2px solid #F27D24',
-            }}
-          />
-          <div>
-            <div className="ae-author-name">Justin Borges</div>
-            <div className="ae-author-role">Founder, The Answer Engine</div>
-            <p className="ae-author-bio">
-              Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local
-              service businesses get cited by ChatGPT, Claude, Perplexity, and Google AI Overviews.
-              The Answer Engine built and validated its citation recovery playbook on its own
-              site — 1.14M+ monthly impressions, 4/4 LLM citation parity — before offering it to
-              clients.
-            </p>
-          </div>
-        </div>
-
-        {/* CTA BLOCK — inline editorial-style, h3 heading */}
-        <div className="not-prose ae-cta-block">
-          <h3>Run The Diagnostic On Your Market — One Operator Per City</h3>
-          <p>
-            Get the Blindspot Scan, see which diagnostic category your citation loss falls into, and
-            find out whether your territory is still claimable. No fee, no sales pitch on the
-            report itself.
-          </p>
-          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
-            Get the free Blindspot Scan
-          </a>
-          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">
-            Book a 30-minute diagnostic review
-          </a>
-        </div>
-
-        {/* FINAL CTA — sharp corners, orange fill, championship format */}
-        <section className="ae-final-cta">
-          <h2>Your Market Has One Origin Operator. Make Sure It Is You.</h2>
-          <p>
-            One client per market. 90-day citation guarantee across all 4 major LLMs. The Recovery
-            Protocol locked, tracked weekly on a Diagnostic Ledger you can audit anytime.
-          </p>
-          <a
-            href="https://calendly.com/theanswerengine-support/30min"
-            className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-          >
-            Claim Your Territory
-          </a>
-          <p className="mt-4 text-xs font-mono tracking-widest uppercase text-white/40">
-            One client per market · Call (213) 444-2229 · support@theanswerengine.ai
-          </p>
-        </section>
-      </article>
-    </div>
-  )
+        </article>
+      </main>
+    </>
+  );
 }

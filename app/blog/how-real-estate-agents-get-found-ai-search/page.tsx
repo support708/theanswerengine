@@ -269,10 +269,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <p>Most agents have not even considered how AI sees them from the outside. That blind spot is costing them closings.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 2: HOW BUYERS SEARCH */}
             <span className="ae-section-label" id="how-buyers-search">Buyer Behavior</span>
@@ -338,10 +335,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when someone searches for an agent like you?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 3: TRUST SIGNALS */}
             <span className="ae-section-label" id="trust-signals">Trust Signals</span>
@@ -407,10 +401,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             </div>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See how your trust signals compare to the top agents in your market.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 4: CONTENT STRATEGY */}
             <span className="ae-section-label" id="content-strategy">Content Strategy</span>
@@ -442,10 +433,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your content meets the threshold for AI citations? We can tell you in 48 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* COMPARISON TABLE */}
             <table className="ae-comparison-table not-prose">
@@ -486,10 +474,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             </table>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover which of your pages are AI-ready and which need work. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 5: PORTALS VS AI */}
             <span className="ae-section-label" id="portals-vs-ai">The Portal Problem</span>
@@ -534,10 +519,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <p>This does not mean you should abandon portals. They still drive significant business through their own ecosystems. But relying on them exclusively for your online presence leaves you completely invisible to the fastest-growing search channel in real estate. For a deeper look at why this matters across industries, read our guide on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which platforms AI is actually reading to form opinions about you? Our report shows you.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 6: DIRECTORIES + SCHEMA */}
             <span className="ae-section-label" id="directories-schema">Technical Foundation</span>
@@ -591,10 +573,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             </div>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want a customized 90-day plan built around your specific market and specialty areas? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Start With Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 7: REVIEWS */}
             <span className="ae-section-label" id="reviews-reputation">Trust Layer</span>
@@ -611,10 +590,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <p>For a comprehensive look at how reviews influence AI recommendations, check out our article on <Link href="/blog/optimize-about-page-ai-recommendations">optimizing your about page for AI recommendations</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI can actually read your client reviews or if they are hidden behind JavaScript walls.</p>
-              <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 8: MISTAKES */}
             <span className="ae-section-label" id="mistakes">Common Pitfalls</span>
@@ -643,10 +619,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <p>Without RealEstateAgent schema, FAQPage schema, and Review schema, AI platforms have to guess what your content means. With schema, they know precisely who you are, what you specialize in, and where you operate. The difference in citation rates is substantial.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes? Our free report identifies every AI visibility gap in your online presence. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* COMPARISON TABLE: Real Estate vs Other Industries */}
             <table className="ae-comparison-table not-prose">
@@ -689,10 +662,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <p>For a detailed look at how another local service industry is tackling the same challenge, see how <Link href="/blog/how-home-service-companies-dominate-ai-search">home service companies are dominating AI search</Link>.</p>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk strategy with a human? We specialize in AI visibility for real estate professionals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -712,10 +682,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             </div>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your market and specialty areas? We do that.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* LOOKING AHEAD */}
             <span className="ae-section-label">Looking Ahead</span>
@@ -730,22 +697,21 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             </div>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The agents acting now will own their market in AI search. The ones waiting will be playing catch-up for years.</p>
-              <Link href="/blindspot">See Where You Stand &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* CTA 13 */}
-            <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Do Insurance Agents Show Up When Clients Ask ChatGPT for Recommendations?</h3>
+              <p>AI search is the new word-of-mouth. When someone asks &quot;best insurance agent near me&quot; in ChatGPT — whose name appears? We audit your AI citation rate across all major engines — free.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Insurance Agent Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for real estate professionals and local service businesses.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
           </div>
 
@@ -806,35 +772,37 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <p>The most common mistake is relying entirely on portal sites (Zillow, Realtor.com) and Google Business Profile for online presence while neglecting their own website. AI platforms like ChatGPT and Perplexity cannot access GBP data or portal profiles behind JavaScript. Agents need substantive, crawlable content on their own domain with schema markup, neighborhood expertise pages, and testimonials published as plain HTML text.</p>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where you stand in AI search? The report is free and takes 2 minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* CTA 16 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your market or brokerage? Call us and we will walk you through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Real Estate Business Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone searches for an agent in your market and specialty. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                AI Search Is the New Referral — Own It Before a Competitor Does
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Every day AI engines recommend insurance agents to people in your market. You should be the one they cite. Free audit shows your current AI citation rate. One agent per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Insurance Agent Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
         </article>
       </main>

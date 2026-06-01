@@ -287,10 +287,7 @@ export default function HowDogGroomersWinAICitations() {
               <p>This shift matters enormously for independent groomers. In traditional search, proximity gave local businesses a natural advantage. In AI search, proximity is one factor among many. A groomer ten miles away with deep, structured content about specific breeds and safety practices will be recommended over the closest groomer with an Instagram page and no website. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               <p>The $10.4 billion pet grooming market is large enough to support independent operators at scale, but only those whose digital presence tells AI what it needs to hear. For context on how AI is reshaping local discovery across industries, see our broader guide on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>.</p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Find out if AI is sending pet owners to a competitor instead of your grooming business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 2: CHAIN ADVANTAGE */}
@@ -315,10 +312,7 @@ export default function HowDogGroomersWinAICitations() {
               <p>An independent groomer who builds service-specific pages, earns and publishes detailed reviews about specific breeds and behavioral accommodations, maintains consistent directory listings, and earns recognition from grooming associations can absolutely compete with chain visibility. AI rewards the business that makes its expertise most legible.</p>
               <p>For a deeper look at why this gap exists across all industries, read our analysis of <Link href="/blog/why-ai-recommends-chains-over-local-businesses">why AI recommends chains over local businesses</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Want to know what AI says when a pet owner searches for a groomer in your area right now?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 3: TRUST SIGNALS */}
@@ -344,10 +338,7 @@ export default function HowDogGroomersWinAICitations() {
               <h3>Content Depth as an Authority Signal</h3>
               <p>AI evaluates the depth of your web content as a proxy for expertise. A website with a single page listing services as bullets tells AI almost nothing about your actual capabilities. A website with dedicated pages for different coat types, breed-specific grooming approaches, puppy introduction protocols, and senior pet accommodations signals genuine expertise that AI can match against specific queries.</p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>See how your grooming business scores on AI trust signals compared to competitors in your market. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 4: REVIEWS */}
@@ -371,10 +362,7 @@ export default function HowDogGroomersWinAICitations() {
               <p>Not all review platforms are accessible to AI crawlers. Yelp reviews are largely crawlable and carry significant weight with ChatGPT and Perplexity. Google reviews help with Google AI Overviews but are blocked to most other AI platforms via JavaScript rendering. The most reliable strategy is to publish client testimonials as plain text directly on your website, alongside maintaining active Yelp and pet-specific directory profiles. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <p>For a complete breakdown of how review platforms affect AI recommendations, read our guide on <Link href="/blog/does-more-reviews-help-ai-find-you">whether more reviews actually help AI find you</Link>.</p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Find out which of your reviews AI can actually read and which are invisible. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
             <div className="ae-pros-cons not-prose mt-6">
               <div className="ae-pros-box">
                 <h4>Reviews AI Can Read</h4>
@@ -456,10 +444,7 @@ export default function HowDogGroomersWinAICitations() {
                 </tr>
               </tbody>
             </table>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Mobile groomer or brick-and-mortar, we can show you exactly where your AI visibility gaps are. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 6: SERVICE PAGES */}
@@ -487,10 +472,7 @@ export default function HowDogGroomersWinAICitations() {
               <p>One of the fastest-growing search categories in pet grooming is behavioral accommodation. Pet owners with anxious, reactive, or fearful dogs are actively searching for groomers who specialize in low-stress handling. Searches like &quot;groomer for anxious dogs,&quot; &quot;fear-free groomer near me,&quot; and &quot;groomer experienced with rescue dogs&quot; are high-intent queries with significant conversion value. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p>A page dedicated to your low-stress grooming approach, describing specific handling techniques, extended appointment times, and the types of dogs you work best with, can capture this high-value segment. The key is that these pages must exist as crawlable HTML content on your website, not as Instagram captions or Facebook posts.</p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Not sure which service pages are worth building first for your market? Our report shows you the exact queries AI is not matching to your business. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 7: SAFETY AND CERTS */}
@@ -512,10 +494,7 @@ export default function HowDogGroomersWinAICitations() {
             <div className="ae-callout ae-callout-info not-prose mt-6">
               <p><strong>A critical distinction:</strong> Saying &quot;we care about your pet&apos;s safety&quot; is generic and invisible to AI. Saying &quot;we use a force-free handling approach, never cage dry, and structure appointments to minimize stress for anxious and reactive dogs&quot; contains specific, searchable terms that AI can match against pet owner queries. The specificity is the signal.</p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Find out whether AI can verify your certifications and safety practices or if they are buried in image files. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <Link href="/blindspot">Check Your AI Safety Signal Visibility &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* SECTION 8: WEBSITE INVISIBILITY */}
@@ -583,14 +562,8 @@ export default function HowDogGroomersWinAICitations() {
                 </tr>
               </tbody>
             </table>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Which of these gaps is hurting your grooming business? Our free report identifies every one of them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-            <div className="ae-cta-inline not-prose mt-4">
-              <p>Prefer to talk with someone who has already helped pet service businesses show up in AI recommendations?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* CHEAT SHEET */}
@@ -616,10 +589,7 @@ export default function HowDogGroomersWinAICitations() {
                 <li><strong>Encourage clients to leave detailed reviews</strong> that mention breeds, behavioral accommodations, and specific services</li>
               </ul>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>Want this cheat sheet applied to your specific grooming business and local market? We do that. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* LOOKING AHEAD */}
@@ -637,33 +607,45 @@ export default function HowDogGroomersWinAICitations() {
             <div className="ae-callout ae-callout-orange not-prose mt-6">
               <p><strong>The window is open.</strong> Chains have structural advantages, but independent groomers have something chains cannot replicate: genuine specialization, personal relationships with clients and their dogs, and the kind of specific expertise that generates the detailed, trust-building reviews AI values most. That expertise just needs to be made visible.</p>
             </div>
-            <div className="ae-cta-inline not-prose mt-6">
-              <p>The groomers acting now will own their local AI results. The ones waiting will compete against entrenched advantages. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link href="/blindspot">See Where Your Business Stands &rarr;</Link>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Business</h3>
+              <p>2,400 businesses/month search for AI visibility tools. Most discover they&apos;re invisible. Our Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
-            <div className="ae-cta-block not-prose mt-4">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
-            <div className="ae-cta-inline not-prose mt-4">
-              <p>Or call us directly. We specialize in AI visibility for local service businesses. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* PRE-FAQ FINAL CTA */}
           <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <div className="ae-final-cta not-prose">
-              <h2>Is AI Sending Pet Owners to Your Competitors?</h2>
-              <p>Find out exactly what AI says when a pet owner searches for groomers in your area. Get your free Blind Spot Report.</p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/blindspot" className="ae-cta-primary">
-                  Get Your Free Blind Spot Report
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
           </section>
 
           {/* FAQ SECTION */}
@@ -704,40 +686,36 @@ export default function HowDogGroomersWinAICitations() {
                 <p className="text-gray-400 leading-relaxed">A groomer&apos;s website needs dedicated pages for each service type, breed-specific pages for your most common clients, groomer credentials and certifications in plain HTML text, client testimonials published directly on the site, explicit service area information with city and neighborhood names, consistent contact information matching your directory listings, and proper schema markup identifying the business as a LocalBusiness with pet grooming services. Websites that rely entirely on Instagram or use JavaScript-heavy builders that AI crawlers cannot read are effectively invisible to AI recommendation systems.</p>
               </div>
             </div>
-            <div className="ae-cta-inline not-prose mt-8">
-              <p>Ready to see where your grooming business stands in AI search? The report is free and takes two minutes.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-            <div className="ae-cta-inline not-prose mt-4">
-              <p>Have questions specific to your grooming business or service area? Call us and we will walk you through it.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI Visibility Report — 48-hour turnaround</a>
           </section>
 
           {/* FINAL CTA */}
           <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <div className="ae-final-cta not-prose">
-              <h2>Is Your Pet Grooming Business Visible to AI Search?</h2>
-              <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when a pet owner searches for a groomer in your area. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility.</p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/blindspot" className="ae-cta-primary">
-                  Get Your Free Blind Spot Report
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                How to Improve Brand Visibility in AI Search Engines — Starting Today
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for exactly this. The Answer Engine improves your citation rate across ChatGPT, Perplexity, Gemini, and Google AI Overviews. One market slot. Free scan to start.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Improve Your AI Visibility — Free Scan
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
-              </div>
-              <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
             </div>
+          </section>
           </section>
 
           {/* AUTHOR CARD */}

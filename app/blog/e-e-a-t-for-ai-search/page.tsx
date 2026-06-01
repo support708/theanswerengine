@@ -309,10 +309,7 @@ export default function EEATAISearchTrustStackPage() {
             <p>For a foundational understanding of how AI platforms use these signals in practice, read our analysis of <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out where your brand stands across all four E-E-A-T pillars and which missing signals are preventing AI citations today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <Link href="/blindspot">Get Your Free Trust Stack Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 2: WHY CITATION ── */}
             <span className="ae-section-label" id="why-citation">The Stakes</span>
@@ -329,10 +326,7 @@ export default function EEATAISearchTrustStackPage() {
             <p>Chen et al. (2025) documented systematic bias in AI citation patterns toward earned media over brand-owned content. The research confirmed what practitioners have observed empirically: content that appears on the brand&rsquo;s own domain, no matter how well-crafted, earns fewer AI citations than the same content distributed through independent editorial channels. This means the E-E-A-T optimization effort must extend beyond the brand website to the full off-page presence, including earned coverage, third-party profiles, and community mentions. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We track AI citation rates for our clients across ChatGPT, Google AI Overviews, Perplexity, and Copilot. Start with a free snapshot of where your brand stands. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Citation Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 3: EXPERIENCE ── */}
             <span className="ae-section-label" id="experience">Pillar One</span>
@@ -355,10 +349,7 @@ export default function EEATAISearchTrustStackPage() {
             <p>Brands that do not yet have published original research can build Experience signals progressively. A survey of 50 to 100 clients or prospects produces proprietary data within weeks. A documented case study from a current client engagement adds first-hand specificity. A series of practitioner commentary posts where named internal experts reflect on real project challenges demonstrates applied experience without requiring a formal research budget. The Experience pillar does not require years of published research to activate — it requires one genuine first-hand data point that competitors cannot reproduce. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We help brands identify and publish their proprietary experience signals as part of a structured AEO content program. The Blind Spot Report shows where your experience layer is currently missing. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 4: EXPERTISE ── */}
             <span className="ae-section-label" id="expertise">Pillar Two</span>
@@ -381,10 +372,7 @@ export default function EEATAISearchTrustStackPage() {
             <p>Some content categories are best attributed to an organizational author rather than an individual: research reports, industry benchmarks, and policy positions, for example. When organizational authorship is the right choice, the Expertise signal depends on the organization&rsquo;s own credibility indicators: how long it has been operating, whether its research has been cited by other publications, and whether named individual experts are identified elsewhere on the site as contributors to the research. Pure anonymous brand authorship — content that has neither a named individual nor a credentialed organization behind it — is the weakest possible Expertise signal in the 2026 trust stack. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our team can audit every page on your site for Expertise signals and produce a prioritized implementation plan for bylines and Person schema. Call or email to set up the review. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to Schedule an Expertise Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 5: AUTHORITATIVENESS ── */}
             <span className="ae-section-label" id="authoritativeness">Pillar Three</span>
@@ -413,10 +401,7 @@ export default function EEATAISearchTrustStackPage() {
             <p>Brands with active presence across 4 or more third-party platforms see a 2.8x citation likelihood increase compared to brands with presence on fewer than 2 platforms. The diversity of platform presence matters because it signals category breadth: a brand referenced in review databases, trade publications, expert directories, and community platforms has demonstrated relevance across multiple independent context types, which is a stronger authority signal than deep presence in only one platform category. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We map your off-page footprint against category competitors and identify the platform gaps costing you the most AI citations. The Blind Spot Report covers this analysis.</p>
-              <Link href="/blindspot">Get Your Free Off-Page Authority Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 6: TRUSTWORTHINESS ── */}
             <span className="ae-section-label" id="trustworthiness">Pillar Four</span>
@@ -439,10 +424,7 @@ export default function EEATAISearchTrustStackPage() {
             <p>Brands that publicly correct errors in their content when those errors are identified build a Trustworthiness signal that is visible across the web: the correction itself is evidence of accountability. A blog post with a visible correction notice and updated statistics is more trustworthy to an AI citation system than the same post without a correction, because the correction demonstrates that the source prioritizes accuracy over self-preservation. Establishing a clear internal process for catching and correcting content errors is not just editorial hygiene — it is an active component of the Trustworthiness pillar that compounds over time as the correction history builds.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which pages in your content library have Trustworthiness deficits? We identify accuracy gaps, stale dates, and missing primary source links in the Blind Spot Report.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Discuss Your Trust Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── SECTION 7: DECISION MATRIX ── */}
             <span className="ae-section-label" id="decision-matrix">The Audit</span>
@@ -513,10 +495,7 @@ export default function EEATAISearchTrustStackPage() {
           </div>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>We run the full trust stack audit against your site as part of the Blind Spot Report and prioritize the gaps by projected citation impact.</p>
-            <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a 30-Minute Trust Stack Review &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
@@ -543,10 +522,7 @@ export default function EEATAISearchTrustStackPage() {
             <p>The third phase focuses on maximizing the distribution of existing content across independent channels and establishing measurement infrastructure. Distribute 3 to 5 high-value articles to independent publications through guest posting, content licensing, or republication agreements. The Muck Rack research confirms that distributing across multiple publications increases AI citations by up to 325% — this phase is where that leverage is activated. Simultaneously, set up AI-specific citation tracking using available monitoring tools or manual spot-checks for target queries. By day 90, the brand should have a baseline measurement of AI citation rates, a functioning off-page footprint, and a clear picture of which pillar is contributing the most traction.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We execute the 30/60/90 roadmap as a managed program for clients who want the results without managing the process themselves. Start by understanding your current baseline.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to Learn About Managed AEO Programs &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* ── 3-TIER CTA BLOCK ── */}
           </div>
@@ -614,40 +590,38 @@ export default function EEATAISearchTrustStackPage() {
             <p>A structured 90-day effort produces measurable AI citation gains for most brands. The first 30 days should focus on on-page signals: named author bylines, Person schema, Organization schema, and current publication dates across all key content. Days 31 through 60 should target the off-page footprint: review platform profiles, expert quote placements, and earned media outreach. Days 61 through 90 should focus on content distribution across multiple publications and establishing AI citation tracking infrastructure. Citation rates do not shift overnight, but the 90-day window is sufficient to produce a baseline measurement and identify which pillar investments are generating the most traction for the specific brand category.</p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see exactly where your trust stack stands today? The Blind Spot Report gives you a pillar-by-pillar breakdown in plain language, at no cost.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your specific category and competitive situation before committing to any work? We are available by phone and will give you a straight assessment.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Brand&rsquo;s Trust Stack Earning AI Citations?</h2>
-            <p>Find out exactly how your brand performs across all four E-E-A-T pillars — which signals are present, which are missing, and which gaps are costing you AI citations in your category right now. Our free Blind Spot Report delivers the analysis without a sales pitch.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-              <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                Book a 30-min Strategy Call
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. Just data on where your trust stack stands for AI citation today.</p>
-          </div>
+          </section>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">

@@ -74,11 +74,15 @@ export default function Page() {
           <li>Schema markup</li>
         </ol>
 
-        <div className="ae-cta-block not-prose">
-          <h3>Get on Grok Before Competitors</h3>
-          <p>The window to dominate Grok citations closes soon. Businesses that act now get months of lead generation advantage. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-          <p><Link href="/contact" className="ae-cta-button">Audit Your Grok Visibility</Link> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>ChatGPT Recommends Businesses Every Day — Is Yours One of Them?</h3>
+              <p>You can&apos;t pay to be recommended by ChatGPT. You have to earn it — through authoritative content, citations from credible sources, and consistent entity signals. We build all three. Free scan shows your current ChatGPT citation rate.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free ChatGPT Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
+            </div>
 
         <h2>Your 30-Day Grok Strategy</h2>
         <p><strong>Days 1-5:</strong> Verify X business account. Add current info and links. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>

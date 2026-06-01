@@ -314,10 +314,7 @@ export default function Page() {
            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           {/* ── CTA 1 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Is Samsung Galaxy AI recommending your business or your competitors? Find out in under 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── CALLOUT: WARNING ── */}
           <div className="ae-callout ae-callout-warning not-prose">
@@ -370,10 +367,7 @@ export default function Page() {
            Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 2 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Galaxy AI is recommending businesses right now. Is yours one of them? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 2: PERPLEXITY ENGINE ── */}
           <span className="ae-section-label" id="perplexity-engine">The Engine</span>
@@ -406,10 +400,7 @@ export default function Page() {
            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           {/* ── CTA 3 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Perplexity powers both its own platform and Samsung Bixby. See if either one knows about your business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-            <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 3: LOCAL DISCOVERY ── */}
           <span className="ae-section-label" id="local-discovery">Local Discovery</span>
@@ -468,13 +459,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 4 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Bixby recommends businesses, it does not list them. Make sure your business is the one it names. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            <a href="tel:+12134442229" className="flex items-center gap-2">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              Call (213) 444-2229 to Talk Strategy
-            </a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 4: DATA SOURCES ── */}
           <span className="ae-section-label" id="data-sources">The Data</span>
@@ -544,10 +529,7 @@ export default function Page() {
            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* ── CTA 5 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your website is the foundation of your Bixby visibility. We audit it across every AI platform. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 5: SAMSUNG vs APPLE ── */}
           <span className="ae-section-label" id="samsung-vs-apple">The Comparison</span>
@@ -617,13 +599,7 @@ export default function Page() {
            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* ── CTA 6 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Apple and Samsung together cover nearly 90% of the U.S. smartphone market. Are you visible on both? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              Email support@theanswerengine.ai
-            </a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 6: BEYOND PHONES ── */}
           <span className="ae-section-label" id="beyond-phones">The Expansion</span>
@@ -654,10 +630,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 7 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Bixby is expanding to every Samsung device. Get ahead of the curve before your competitors do.</p>
-            <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION 7: VISIBILITY FACTORS ── */}
           <span className="ae-section-label" id="visibility-factors">Visibility</span>
@@ -731,10 +704,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 8 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure if your website meets the requirements for Galaxy AI visibility? We will tell you exactly where you stand.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── QUOTE ── */}
           <div className="ae-quote not-prose">
@@ -766,10 +736,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 9 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Stop paying per click. Start getting recommended for free by AI platforms.</p>
-            <Link href="/get-started">Learn How We Help Local Businesses &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── CALLOUT: ORANGE ── */}
           <div className="ae-callout ae-callout-orange not-prose">
@@ -778,10 +745,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 10 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Check your Perplexity visibility and your Bixby visibility in one report.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── SECTION: STRATEGY ── */}
           <h3>Building a Samsung Galaxy AI Strategy Without Giving Away the Farm</h3>
@@ -799,13 +763,7 @@ export default function Page() {
           </p>
 
           {/* ── CTA 11 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>The strategy differs by industry. Talk to our team about what works for your specific business type.</p>
-            <a href="tel:+12134442229" className="flex items-center gap-2">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              Call (213) 444-2229
-            </a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── CHEAT SHEET ── */}
           <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
@@ -848,10 +806,7 @@ export default function Page() {
           </div>
 
           {/* ── CTA 12 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want help implementing every item on this checklist? We handle the full optimization for you.</p>
-            <Link href="/get-started">Get Started With Our Team &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* ── TAKEAWAY BOX ── */}
           <div className="ae-takeaway not-prose">
@@ -938,33 +893,44 @@ export default function Page() {
         </section>
 
         {/* ── CTA 13 ── */}
-        <div className="ae-cta-block not-prose mb-10">
-          <p className="text-gray-300 mb-4">Still have questions about Samsung Galaxy AI and your business? Our team specializes in multi-platform AI visibility.</p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/blindspot" className="ae-cta-primary">Free Blind Spot Report &rarr;</Link>
-            <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              (213) 444-2229
-            </a>
-            <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              support@theanswerengine.ai
-            </a>
-          </div>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
         {/* ── CTA 14 ── */}
-        <div className="ae-cta-inline not-prose mb-10">
-          <p>Every day you wait, Bixby is recommending someone else. See your visibility score now.</p>
-          <Link href="/blindspot">Check Your AI Visibility &rarr;</Link>
-        </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
         {/* ── FINAL CTA ── */}
-        <div className="ae-final-cta not-prose">
-          <h2>300 Million Galaxy Users Are Asking Bixby for Recommendations</h2>
-          <p>Make sure your business is the answer. Find out where you stand across every AI platform that matters.</p>
-          <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </main>
   )

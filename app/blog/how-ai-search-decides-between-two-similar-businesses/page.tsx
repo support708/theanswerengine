@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     'content depth AI ranking',
     'cross-platform consistency AI',
   ],
-  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
+  authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
     title: titleWithSuffix,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -111,18 +111,9 @@ const jsonLd = {
       datePublished: publishDate + 'T00:00:00Z',
       dateModified: publishDate + 'T00:00:00Z',
       author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        '@type': 'Organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
       },
       publisher: {
         '@type': 'Organization',
@@ -232,7 +223,7 @@ export default function Page() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#F27D24"
+                  stroke="#FF6A00"
                   strokeWidth="0.5"
                 />
               </pattern>
@@ -246,7 +237,7 @@ export default function Page() {
             <div className="flex items-center gap-3 mb-6">
               <span
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 Platform Deep Dives
               </span>
@@ -259,17 +250,8 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               How AI Search Decides Between{' '}
-              <span style={{ color: '#F27D24' }}>Two Similar Businesses</span>
+              <span style={{ color: '#FF6A00' }}>Two Similar Businesses</span>
             </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
-              <img
-                src="/blog/how-ai-search-decides-between-two-similar-businesses.webp"
-                alt="how ai search decides between two similar businesses"
-                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-                loading="eager"
-              />
-            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               Two plumbers. Same city. Same services. Same star rating. But when a customer asks ChatGPT, Perplexity, or Google AI for a recommendation, only one of them gets named. The other does not exist. Here is what separates the business that gets cited from the one that gets skipped.
@@ -280,7 +262,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
               >
                 Find Your AI Blind Spots
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -288,7 +270,7 @@ export default function Page() {
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -305,28 +287,28 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>4.2x</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>4.2x</div>
               <div className="text-xs text-gray-400 leading-snug">Higher citation rate for content scoring 8.5+ on semantic completeness</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>34%</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>34%</div>
               <div className="text-xs text-gray-400 leading-snug">Citation rate decline possible in just five weeks without updates</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>86%</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>86%</div>
               <div className="text-xs text-gray-400 leading-snug">Of the citation landscape varies across different AI platforms</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>65%</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>65%</div>
               <div className="text-xs text-gray-400 leading-snug">Of AI bot hits target content less than one year old</div>
             </div>
           </section>
@@ -337,40 +319,40 @@ export default function Page() {
             style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
             aria-label="Table of Contents"
           >
-            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#F27D24' }}>
+            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#FF6A00' }}>
               In This Article
             </h2>
             <ol className="space-y-2 text-sm text-gray-300">
               <li className="flex items-start gap-2">
-                <span style={{ color: '#F27D24' }}>01</span>
+                <span style={{ color: '#FF6A00' }}>01</span>
                 <a href="#identical-problem" className="hover:text-orange-400 transition-colors">The Identical Business Problem</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#F27D24' }}>02</span>
+                <span style={{ color: '#FF6A00' }}>02</span>
                 <a href="#tiebreaker-signals" className="hover:text-orange-400 transition-colors">The Seven Tiebreaker Signals AI Actually Weighs</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#F27D24' }}>03</span>
+                <span style={{ color: '#FF6A00' }}>03</span>
                 <a href="#citation-momentum" className="hover:text-orange-400 transition-colors">Citation Momentum: The Compounding Advantage</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#F27D24' }}>04</span>
+                <span style={{ color: '#FF6A00' }}>04</span>
                 <a href="#platform-differences" className="hover:text-orange-400 transition-colors">How Each Platform Breaks Ties Differently</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#F27D24' }}>05</span>
+                <span style={{ color: '#FF6A00' }}>05</span>
                 <a href="#entity-recognition" className="hover:text-orange-400 transition-colors">Entity Recognition: The Signal Most Businesses Ignore</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#F27D24' }}>06</span>
+                <span style={{ color: '#FF6A00' }}>06</span>
                 <a href="#decision-matrix" className="hover:text-orange-400 transition-colors">Decision Matrix: Which Business Would AI Pick?</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#F27D24' }}>07</span>
+                <span style={{ color: '#FF6A00' }}>07</span>
                 <a href="#cheat-sheet" className="hover:text-orange-400 transition-colors">AI Tiebreaker Cheat Sheet</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#F27D24' }}>08</span>
+                <span style={{ color: '#FF6A00' }}>08</span>
                 <a href="#faq" className="hover:text-orange-400 transition-colors">Frequently Asked Questions</a>
               </li>
             </ol>
@@ -388,7 +370,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Now a homeowner opens ChatGPT and types: "Who is the best electrician near me in Phoenix?" ChatGPT does not return both. It names one. The other electrician does not get a mention, a footnote, or even an honorable mention. That business simply does not exist in the AI's answer.
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is the new reality of local business discovery. AI platforms do not present ten blue links. They do not show a map pack with three pins. They give one answer, sometimes two or three, and the rest of the market is invisible. The question every business owner needs to ask is not "am I good at what I do?" but "does the AI know I am good at what I do?"
@@ -402,7 +384,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The "Good Enough" Trap Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The "Good Enough" Trap</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Being a great business is necessary but no longer sufficient. AI platforms are not evaluating whether you are good at your job. They are evaluating whether the internet proves you are good at your job. The gap between those two things is where most businesses lose the tiebreaker.
                   </p>
@@ -412,7 +394,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               AI Overviews now appear on roughly 48% of tracked search queries, up 58% year over year. Every month that passes, more customers are getting their answers from AI instead of scrolling through traditional results. The tiebreaker between two similar businesses is not a marginal concern. It is the entire game.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+            </p>
 
             {/* CTA 2: Section End */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
@@ -420,7 +402,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Run Your Free AI Blind Spot Report
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -436,7 +418,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               When two businesses look identical on the surface, AI platforms dig deeper into a set of signals that most business owners never think about. These are the dimensions that break the tie.
-             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
 
             {/* Signal Cards Grid */}
             <div className="grid md:grid-cols-2 gap-5 mb-8">
@@ -450,7 +432,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">1. Content Depth and Semantic Completeness</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -467,12 +449,12 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Authority Signals Across the Web</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Domain authority remains the top predictor of AI citations. High-traffic sites earn 3x more AI citations than low-traffic ones. But it is not just your own site. Mentions on third-party publications, industry directories, and community platforms build the authority footprint that AI models evaluate during retrieval.
-                 Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+                </p>
               </div>
 
               {/* Signal 3 */}
@@ -484,7 +466,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">3. Content Freshness</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -501,12 +483,12 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Entity Recognition and Structured Data</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   AI models build an internal representation of your business as an "entity" in a knowledge graph. Clean schema markup, consistent NAP data (name, address, phone), and structured attributes help the AI confidently identify what your business is, what it does, and where it operates. Ambiguity is a disqualifier.
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+                </p>
               </div>
 
               {/* Signal 5 */}
@@ -518,7 +500,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">5. Review Patterns, Not Just Ratings</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -535,12 +517,12 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">6. Response Consistency Across Platforms</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   When the information about your business is consistent across your website, directories, social profiles, and review sites, AI models gain confidence. When your phone number differs on Yelp vs. your website, or your service list varies between directories, the AI discounts your reliability. Consistency is a trust multiplier.
-                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+                </p>
               </div>
 
               {/* Signal 7 */}
@@ -552,7 +534,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">7. Multi-Modal Content Integration</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -563,11 +545,11 @@ export default function Page() {
 
             {/* CTA 3: After signals */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to know which of these seven signals your business is weakest on? Our AI Blind Spot Report scores you on every dimension. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+              <p className="text-sm text-gray-300 mb-3">Want to know which of these seven signals your business is weakest on? Our AI Blind Spot Report scores you on every dimension.</p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Get Your Signal Breakdown
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -587,16 +569,16 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This happens because AI platforms reinforce their own patterns. When ChatGPT cites a business and the user engages positively (clicks the link, does not ask a follow-up correction), that signals the model made a good recommendation. Over time, the businesses that get early citation traction build a reinforcement loop that makes them increasingly difficult to displace.
-             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto my-8">
               <table className="w-full text-sm" style={{ borderCollapse: 'separate', borderSpacing: 0 }}>
                 <thead>
                   <tr>
-                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}>Signal Dimension</th>
-                    <th className="text-center p-4 font-plus-jakarta font-bold" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}>Business With Momentum</th>
-                    <th className="text-center p-4 font-plus-jakarta font-bold rounded-tr-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}>Business Without Momentum</th>
+                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Signal Dimension</th>
+                    <th className="text-center p-4 font-plus-jakarta font-bold" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Business With Momentum</th>
+                    <th className="text-center p-4 font-plus-jakarta font-bold rounded-tr-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Business Without Momentum</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -640,7 +622,7 @@ export default function Page() {
                   <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Why First-Mover Advantage Matters More Than Ever</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Distributing content across multiple platforms can increase AI citations by up to 325% compared to publishing only on your own site. The businesses that build citation momentum first are not just winning today. They are making it structurally harder for competitors to catch up tomorrow.
-                   Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+                  </p>
                 </div>
               </div>
             </div>
@@ -651,11 +633,11 @@ export default function Page() {
 
             {/* CTA 4: Internal link */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to understand how Perplexity specifically evaluates citation-worthiness? Read our deep dive. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+              <p className="text-sm text-gray-300 mb-3">Want to understand how Perplexity specifically evaluates citation-worthiness? Read our deep dive.</p>
               <Link
                 href="/blog/how-perplexity-decides-what-to-cite"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 How Perplexity Decides What to Cite
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -682,7 +664,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">ChatGPT: Trained Knowledge + Live Retrieval</h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   ChatGPT combines its training data with live Bing web searches. For local queries, it heavily weights branded web mentions, YouTube presence, and review aggregator data. Businesses with strong content on third-party platforms (not just their own website) perform significantly better in ChatGPT recommendations.
-                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+                </p>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   The tiebreaker in ChatGPT often comes down to which business has more diverse, corroborating mentions across the web. A single strong website is not enough. ChatGPT wants to see your name in multiple trusted contexts.
                 </p>
@@ -695,7 +677,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">Perplexity: Source Quality and Recency</h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   Perplexity operates more like a research engine. It pulls from its own index and ranks sources by freshness, citation density, and source authority. Perplexity is especially sensitive to how recently content was published or updated. A competitor who published a comprehensive guide last week can overtake you even if your content has been ranking for years.
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+                </p>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Perplexity also surfaces inline citations, which means the quality and structure of your content directly impacts whether you get named or merely linked in a footnote.
                 </p>
@@ -708,7 +690,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">Google AI (AI Mode and AI Overviews)</h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   Google's AI features draw from its own search index, and there is a strong correlation between traditional organic rankings and AI citation selection. Data from early 2026 shows that roughly 76% of AI Overview citations used to come from top-10 ranked pages, but that figure has dropped to as low as one in six. Google is increasingly pulling from authoritative sources regardless of traditional ranking position.
-                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+                </p>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   For tiebreakers, Google AI weighs structured data, schema markup, and E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness) more heavily than other platforms.
                 </p>
@@ -721,7 +703,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">Claude: Authority Depth and Content Structure</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Claude evaluates business authority through the depth and structure of available content. It places significant weight on how well-organized and logically structured your information is. Businesses with comprehensive, hierarchically structured service pages, clear FAQ sections, and well-attributed claims consistently outperform competitors with equivalent but poorly structured content.
-                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+                </p>
               </div>
             </div>
 
@@ -732,7 +714,7 @@ export default function Page() {
                 <Link
                   href="/blog/how-claude-ai-evaluates-business-authority"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   How Claude AI Evaluates Business Authority
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -740,7 +722,7 @@ export default function Page() {
                 <Link
                   href="/blog/which-ai-assistant-is-best-for-finding-local-businesses"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   Which AI Assistant Is Best for Finding Local Businesses
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -757,7 +739,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               AI platforms do not think in terms of websites. They think in terms of entities. An entity is the AI's internal representation of your business: what it is, what it does, where it operates, and how confident the model is in that identification. When the AI cannot confidently identify your entity, it will not recommend you, period.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Entity recognition is where most tiebreakers are won and lost. Two businesses might have equally good websites, but if one has a clean, unambiguous entity footprint across the web and the other has conflicting information, inconsistent naming, or fragmented digital presence, the AI will always choose the one it can identify with higher confidence.
@@ -814,7 +796,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The 85% Factor <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The 85% Factor</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Research shows that 85% of brand mentions in AI responses originate from third-party pages, not from the business's own website. This means the entity signals that matter most are the ones you do not directly control. Building your presence on external platforms is not optional for AI visibility.
                   </p>
@@ -824,11 +806,11 @@ export default function Page() {
 
             {/* CTA 6: Email */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Our team audits entity recognition across every major AI platform. If your competitor is getting cited and you are not, entity signals are usually why. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+              <p className="text-sm text-gray-300 mb-3">Our team audits entity recognition across every major AI platform. If your competitor is getting cited and you are not, entity signals are usually why.</p>
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Email Us for an Entity Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
@@ -850,7 +832,7 @@ export default function Page() {
               <table className="w-full text-sm" style={{ borderCollapse: 'separate', borderSpacing: 0 }}>
                 <thead>
                   <tr>
-                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}>Evaluation Criteria</th>
+                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Evaluation Criteria</th>
                     <th className="text-center p-4 font-plus-jakarta font-bold" style={{ backgroundColor: 'rgba(34,197,94,0.15)', color: '#22C55E' }}>Business A (Cited)</th>
                     <th className="text-center p-4 font-plus-jakarta font-bold rounded-tr-xl" style={{ backgroundColor: 'rgba(239,68,68,0.15)', color: '#EF4444' }}>Business B (Invisible)</th>
                   </tr>
@@ -903,7 +885,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>Both Businesses Have 4.7 Stars Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>Both Businesses Have 4.7 Stars</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Notice that both businesses in this scenario could have identical star ratings. The difference is not quality of service. It is quality of digital presence. Business B might actually be the better electrician, but the AI will never know that because the signals are not there. AI cannot evaluate what it cannot see.
                   </p>
@@ -913,11 +895,11 @@ export default function Page() {
 
             {/* CTA 7: Phone */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to see your own head-to-head comparison against your top competitor? We build these reports for businesses every day. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              <p className="text-sm text-gray-300 mb-3">Want to see your own head-to-head comparison against your top competitor? We build these reports for businesses every day.</p>
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229 for a Competitor Comparison
@@ -938,57 +920,57 @@ export default function Page() {
             <div className="ae-cheat-sheet rounded-xl p-6 mb-8" style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}>
               <div className="space-y-4">
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>1</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>1</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Content Depth Wins Over Content Volume We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+                    <p className="font-semibold text-white mb-1">Content Depth Wins Over Content Volume</p>
                     <p className="text-sm text-gray-400">20 comprehensive pages outperform 200 thin pages. Semantic completeness is the single highest-correlation factor for AI citations.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>2</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>2</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Entity Clarity Is Non-Negotiable Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+                    <p className="font-semibold text-white mb-1">Entity Clarity Is Non-Negotiable</p>
                     <p className="text-sm text-gray-400">Consistent NAP data, clean schema markup, and unambiguous entity identification across all platforms. Any conflicting signal is a penalty.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>3</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>3</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Third-Party Mentions Trump Self-Promotion <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+                    <p className="font-semibold text-white mb-1">Third-Party Mentions Trump Self-Promotion</p>
                     <p className="text-sm text-gray-400">85% of AI brand mentions come from third-party pages. Your own website is the starting point, not the finish line.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>4</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>4</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Freshness Is a Tiebreaker, Not a Bonus Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                    <p className="font-semibold text-white mb-1">Freshness Is a Tiebreaker, Not a Bonus</p>
                     <p className="text-sm text-gray-400">When all else is equal, the business with more recent content wins. Quarterly updates are the minimum. Monthly is the standard for competitive markets.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>5</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>5</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Review Velocity Matters More Than Review Count Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+                    <p className="font-semibold text-white mb-1">Review Velocity Matters More Than Review Count</p>
                     <p className="text-sm text-gray-400">A steady stream of recent, detailed reviews across multiple platforms signals active customer engagement. 500 reviews from 2022 are worth less than 50 from this month.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>6</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>6</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Multi-Platform Optimization Is Required <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+                    <p className="font-semibold text-white mb-1">Multi-Platform Optimization Is Required</p>
                     <p className="text-sm text-gray-400">86% of the citation landscape varies across AI platforms. Winning on ChatGPT does not mean winning on Perplexity. You need a strategy for each.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>7</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>7</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Citation Momentum Compounds <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                    <p className="font-semibold text-white mb-1">Citation Momentum Compounds</p>
                     <p className="text-sm text-gray-400">The first business to build citation momentum in a market creates a structural advantage that becomes harder to overcome with every passing month. Starting today is the best move available.</p>
                   </div>
                 </div>
@@ -997,11 +979,11 @@ export default function Page() {
 
             {/* CTA 8: Blindspot */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">This cheat sheet is the starting point. The specific priorities for your business depend on your market, your competitors, and your current signal profile. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+              <p className="text-sm text-gray-300 mb-3">This cheat sheet is the starting point. The specific priorities for your business depend on your market, your competitors, and your current signal profile.</p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Get Your Personalized Priority List
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1020,7 +1002,7 @@ export default function Page() {
             >
               <h2 className="font-plus-jakarta text-3xl md:text-4xl font-extrabold text-center mb-4" style={{ color: '#FFFFFF' }}>
                 Find Out Which Business AI Is{' '}
-                <span style={{ color: '#F27D24' }}>Actually Recommending</span>
+                <span style={{ color: '#FF6A00' }}>Actually Recommending</span>
               </h2>
 
               <p className="text-gray-300 text-center leading-relaxed mb-8 max-w-2xl mx-auto">
@@ -1032,7 +1014,7 @@ export default function Page() {
                 <a
                   href="https://theanswerengine.ai/blindspot"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-lg text-white transition-all hover:opacity-90 hover:scale-105"
-                  style={{ backgroundColor: '#F27D24', boxShadow: '0 0 30px rgba(255,106,0,0.3)' }}
+                  style={{ backgroundColor: '#FF6A00', boxShadow: '0 0 30px rgba(255,106,0,0.3)' }}
                 >
                   Run Your AI Blind Spot Report
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1042,7 +1024,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
+                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   Call (213) 444-2229
@@ -1052,7 +1034,7 @@ export default function Page() {
                 <a
                   href="mailto:support@theanswerengine.ai"
                   className="inline-flex items-center gap-2 text-sm transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                   support@theanswerengine.ai
@@ -1071,19 +1053,19 @@ export default function Page() {
                 className="w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0"
                 style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
               >
-                <svg className="w-8 h-8" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
               <div>
-                <p className="font-plus-jakarta font-bold text-white mb-1">Justin Borges Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   We help businesses become the answer AI gives. Our team audits, optimizes, and monitors AI visibility across every major platform so that when a customer asks AI for a recommendation, your business is the one that gets named.
                 </p>
                 <a
                   href="https://theanswerengine.ai/blindspot"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#F27D24' }}
+                  style={{ color: '#FF6A00' }}
                 >
                   Learn What We Do
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1109,7 +1091,7 @@ export default function Page() {
                     <h3 className="font-plus-jakarta font-bold text-white mb-3 flex items-start gap-3">
                       <span
                         className="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold mt-0.5"
-                        style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}
+                        style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}
                       >
                         {index + 1}
                       </span>
@@ -1117,7 +1099,7 @@ export default function Page() {
                     </h3>
                     <p className="text-sm text-gray-400 leading-relaxed pl-10">
                       {item.answer}
-                     <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+                    </p>
                   </div>
                 </div>
               ))}
@@ -1129,7 +1111,7 @@ export default function Page() {
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#F27D24' }}
+                style={{ color: '#FF6A00' }}
               >
                 Ask Us Anything
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1149,7 +1131,7 @@ export default function Page() {
                 className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
                 style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
               >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#F27D24' }}>Platform Deep Dive</span>
+                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Platform Deep Dive</span>
                 <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">How Perplexity Decides What to Cite</span>
               </Link>
 
@@ -1158,7 +1140,7 @@ export default function Page() {
                 className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
                 style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
               >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#F27D24' }}>Platform Deep Dive</span>
+                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Platform Deep Dive</span>
                 <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">How Claude AI Evaluates Business Authority</span>
               </Link>
 
@@ -1167,7 +1149,7 @@ export default function Page() {
                 className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
                 style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
               >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#F27D24' }}>Comparison Guide</span>
+                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Comparison Guide</span>
                 <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">Which AI Assistant Is Best for Finding Local Businesses</span>
               </Link>
             </div>
@@ -1192,7 +1174,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="ae-final-cta-pulse inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#F27D24' }}
+                style={{ backgroundColor: '#FF6A00' }}
               >
                 See Where You Stand in AI Search
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1214,7 +1196,7 @@ export default function Page() {
             <a
               href="https://theanswerengine.ai/blindspot"
               className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               Get Your AI Blind Spot Report
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

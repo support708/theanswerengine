@@ -264,10 +264,7 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             <p>The opportunity here is real. Because so few agents have addressed AI visibility, the ones who do act now can establish a dominant position before the rest of the industry catches on. Insurance is a trust-driven business. AI is a trust-driven recommendation engine. The two fit together, but only for agents who give AI something to work with. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out exactly what AI says when someone searches for an insurance agent in your market. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 2: HOW AI SOURCES */}
             <span className="ae-section-label" id="how-ai-sources">How AI Works</span>
@@ -337,10 +334,7 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             </table>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know which of your current profiles AI can actually read? We check all of them in your free report. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 3: FOUR TACTICS */}
             <span className="ae-section-label" id="four-tactics">The Playbook</span>
@@ -380,10 +374,7 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             </div>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if your FAQ content has the right structure for AI citations? We check that in your free report. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             <h3>Tactic 4: Build Consistent Listings on AI-Readable Directories</h3>
 
@@ -422,10 +413,7 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             <p>Inconsistency is a red flag for AI. If your website says your name is &quot;James R. Thornton Insurance&quot; but your LinkedIn says &quot;Jim Thornton&quot; and your IIABA listing says &quot;Thornton Insurance Group,&quot; AI cannot confidently connect these as the same entity. It will either recommend someone else or omit you entirely. Consistency across every platform you control is a prerequisite for AI trust. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Inconsistent listings are one of the most common AI visibility killers. We audit yours for free. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Check Your Listing Consistency &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* SECTION 4: WHAT DOES NOT WORK */}
             <span className="ae-section-label" id="what-not-to-do">Common Mistakes</span>
@@ -475,10 +463,7 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             </div>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly how your current online presence scores on the signals AI actually uses to recommend agents.</p>
-              <Link href="/blindspot">Get Your Free AI Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
             {/* CHEAT SHEET */}
             <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
@@ -496,10 +481,7 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             </div>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this checklist walked through against your actual website? That is exactly what the free report covers.</p>
-              <Link href="/blindspot">Start With Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
           </div>
 
@@ -544,30 +526,35 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             <p>No, and this is a common assumption that costs agents new business. Carrier websites and agency network portals promote the brand, not the individual agent. AI platforms looking for an independent insurance agent in your city need to find content on your own domain, with your name, your service lines, your credentials, and your client stories. Carrier branding does not transfer to individual agent AI visibility.</p>
 
             {/* CTA FINAL FAQ */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to find out exactly where you stand? The audit is free and takes 2 minutes to request.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if AI recommends your insurance agency</a>
 
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Insurance Practice Visible to AI Search?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone asks for an insurance agent in your market. Our free AI Visibility Audit shows you the gaps, the opportunities, and the exact steps to fix them. No pitch, just the data.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free AI Visibility Audit &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                AI Search Is the New Referral — Own It Before a Competitor Does
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Every day AI engines recommend insurance agents to people in your market. You should be the one they cite. Free audit shows your current AI citation rate. One agent per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Insurance Agent Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

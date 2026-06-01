@@ -323,10 +323,7 @@ export default function Page() {
             <p>The crawl volume growth tells the story clearly: a 2,825% increase year-over-year from 2024 to 2025. That trajectory is not slowing. GPTBot traffic now accounts for 4.5% of all desktop requests and 4.2% of mobile requests globally. ChatGPT-User alone made over 133,000 requests in a 55-day analysis window. These numbers are why a single line in your robots.txt file can quietly eliminate your business from the fastest-growing search channel in the world. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is GPTBot blocked on your site right now? Most businesses have no idea. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 2: Three Bots */}
             <span id="three-bots" className="ae-section-label">Know Your Bots</span>
@@ -358,10 +355,7 @@ export default function Page() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which bots have access to your site? We check this in every Blind Spot Report. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Crawl Access Audit &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 3: The Blocking Myth */}
             <span id="blocking-myth" className="ae-section-label">Myth Busted</span>
@@ -399,10 +393,7 @@ export default function Page() {
             <p>The businesses that block GPTBot thinking they are protecting themselves are actually handing the competitive advantage to every competitor who left their site open. In ChatGPT Search mode, first-party business pages are actively prioritized over third-party aggregators. If you are not in the pool, the aggregator wins by default. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know if ChatGPT is currently using accurate information about your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 4: Search Mode vs Training Mode */}
             <span id="search-vs-training" className="ae-section-label">Two Very Different Outcomes</span>
@@ -463,12 +454,7 @@ export default function Page() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is ChatGPT giving users wrong information about your business right now? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blog/how-to-fix-wrong-ai-answers-about-your-business" className="text-[#F27D24] hover:underline">
-                Read: How to Fix Wrong AI Answers About Your Business &rarr;
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 5: Discovery Process */}
             <span id="discovery-process" className="ae-section-label">How ChatGPT Reads Your Site</span>
@@ -503,12 +489,7 @@ export default function Page() {
             </div>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Curious what your website actually looks like when an AI crawler visits it? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">
-                Read: What Your Website Looks Like to an AI Crawler &rarr;
-              </Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 6: Schema Signal */}
             <span id="schema-signal" className="ae-section-label">The Citation Edge</span>
@@ -557,10 +538,7 @@ export default function Page() {
             <p>For a deeper look at the schema side of the equation, the relationship between structured data and AI citation rates is covered in full detail in our article on <Link href="/blog/does-schema-markup-help-ai-search">whether schema markup actually helps with AI search</Link>. The short version: it does, measurably, and the data supports a clear implementation priority order.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Does your schema markup meet the bar ChatGPT is looking for?</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Schema Review &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 7: Decision Matrix */}
             <span id="decision" className="ae-section-label">The Decision</span>
@@ -628,10 +606,7 @@ export default function Page() {
             <p>The granular approach matters because many businesses conflate the three bots. If your primary concern is that OpenAI is using your content to train future models, you can address that specifically by blocking GPTBot while allowing OAI-SearchBot. You retain real-time search visibility while limiting training data contribution. Most small businesses have no meaningful reason to pursue even that level of restriction.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Need help thinking through the right configuration for your specific situation?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section 8: After Allowing */}
             <span id="after-allowing" className="ae-section-label">After You Allow GPTBot</span>
@@ -666,10 +641,7 @@ export default function Page() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want a complete diagnosis of your ChatGPT search readiness from robots.txt to schema to Bing indexing?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             {/* Section: Cheat Sheet */}
             <span id="cheat-sheet" className="ae-section-label">Quick Reference</span>
@@ -807,49 +779,53 @@ export default function Page() {
               </div>
 
               {/* CTA 9 */}
-              <div className="ae-cta-inline not-prose">
-                <p>Have more questions about ChatGPT crawl access and your specific setup?</p>
-                <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-              </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
             </div>
           </section>
 
           {/* CTA Block */}
-          <div className="ae-cta-block not-prose mt-16">
-            <h2>Your robots.txt File May Be Quietly Blocking Every ChatGPT Query About Your Business</h2>
-            <p>Most business owners have never looked at their robots.txt. Our free Blind Spot Report audits your GPTBot access, Bing indexing status, schema coverage, and metadata quality. We show you exactly where you stand and what it is costing you in ChatGPT visibility, with no sales pitch attached.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Schema Markup, Site Speed, GptBot — The Technical Signals That Determine AI Citations</h3>
+              <p>AI engines evaluate your technical signals: schema markup, crawl access, page authority, and entity consistency. A free audit shows exactly where your technical setup is costing you citations.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Technical AI Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
+            </div>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose mt-8">
-            <p>Prefer to talk through your robots.txt situation directly? Our team is available.</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose mt-4">
-            <p>Or reach us by email any time. We respond within one business day.</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
 
           {/* Final CTA */}
-          <div className="ae-final-cta not-prose mt-16">
-            <h2>Every Day With a Blocked GPTBot Is a Day ChatGPT Recommends Someone Else</h2>
-            <p>The businesses that open their doors to ChatGPT crawlers now are building a citation advantage that compounds over time. The ones that stay blocked are handing that advantage to every competitor in their category who made the fix.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Technical Optimization for AI Search Is Different From Traditional SEO
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                The signals that get you cited in AI engines are specific and measurable. The Answer Engine audits all 47 and fixes the ones holding you back. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Technical Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
+          </section>
 
           {/* Author Card */}
           <div className="ae-author-card not-prose mt-12">

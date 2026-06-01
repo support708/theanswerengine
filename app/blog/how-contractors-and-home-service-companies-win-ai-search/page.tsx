@@ -291,10 +291,7 @@ export default function HowContractorsWinAISearch() {
             <p>For a broader look at how this shift affects all local businesses, see our guide on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your company.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 2: THE LEAD GEN TRAP */}
             <span className="ae-section-label" id="lead-gen-gap">The Trap</span>
@@ -361,10 +358,7 @@ export default function HowContractorsWinAISearch() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Wondering if AI can even find your company right now? Most contractors are shocked by the answer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 3: AI EVALUATION */}
             <span className="ae-section-label" id="ai-evaluation">AI Evaluation</span>
@@ -395,10 +389,7 @@ export default function HowContractorsWinAISearch() {
             <p>AI platforms evaluate response patterns as a proxy for reliability. How quickly does the company respond to inquiries? Do they have 24/7 availability for emergency services? Is there a clear call-to-action on every page? These behavioral signals, combined with review sentiment about responsiveness, influence whether AI trusts a contractor enough to recommend them for urgent queries.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly what AI platforms say (or do not say) about your contracting company. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 4: CONTENT DEPTH */}
             <span className="ae-section-label" id="content-depth">Content Depth</span>
@@ -417,10 +408,7 @@ export default function HowContractorsWinAISearch() {
             <p>To understand why publishing educational content matters for AI citations, read our guide on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether a blog actually helps AI recommend your business</Link>.</p>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your competitors are publishing content that AI reads. Are you? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <Link href="/blindspot">Check Your AI Content Gap &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 5: REVIEWS AND RESPONSE PATTERNS */}
             <span className="ae-section-label" id="reviews-signals">Reviews</span>
@@ -465,10 +453,7 @@ export default function HowContractorsWinAISearch() {
             <p>For more on how reviews influence AI recommendations across industries, see our deep dive on <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">optimizing your Google Business Profile for AI</Link>.</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your 5-star reviews might be invisible to AI. Find out which ones actually count. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 6: EMERGENCY AND VOICE */}
             <span className="ae-section-label" id="emergency-voice">Emergency + Voice</span>
@@ -485,10 +470,7 @@ export default function HowContractorsWinAISearch() {
             </div>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Emergency queries are the highest-value leads in home services. Is AI sending them to you or your competitor?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 7: COMMON MISTAKES */}
             <span className="ae-section-label" id="common-mistakes">Common Mistakes</span>
@@ -527,10 +509,7 @@ export default function HowContractorsWinAISearch() {
             <p>Each of these mistakes is fixable. But fixing them requires understanding not just what AI looks for, but how to structure the solution so AI platforms can actually process it. This is where most contractors get stuck: they know they need a better website, but they do not know what &quot;better&quot; means in the context of AI search.</p>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>How many of these 6 mistakes is your company making? Most contractors score 4 out of 6. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <Link href="/blindspot">Find Out With a Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 8: DECISION MATRIX */}
             <span className="ae-section-label" id="decision-matrix">By Trade</span>
@@ -607,10 +586,7 @@ export default function HowContractorsWinAISearch() {
             <p>The key insight from this matrix: AI competition is low across nearly every home service trade because so few contractors have optimized for it. The early movers in each trade and each local market will capture a dominant position that becomes increasingly difficult for competitors to displace once established. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The AI search landscape for your trade is wide open. The first mover in your market wins.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to Claim Your Market &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* SECTION 9: CHEAT SHEET */}
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
@@ -663,10 +639,7 @@ export default function HowContractorsWinAISearch() {
             </div>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>This cheat sheet shows what matters. Getting it right takes expertise. We handle it for you. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* THE BOTTOM LINE */}
             <span className="ae-section-label">The Bottom Line</span>
@@ -761,38 +734,36 @@ export default function HowContractorsWinAISearch() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still have questions? We answer them for free. No pitch, no pressure.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
         </article>
 
         {/* FINAL CTA */}
-        <section className="ae-final-cta">
-          <div className="max-w-4xl mx-auto px-6 py-20 text-center">
-            <div className="ae-pulse-glow" />
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white font-plus-jakarta">
-              Your Competitors Are Already Invisible to AI.
-              <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Do Not Join Them.</span>
-            </h2>
-            <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-              Get a free Blind Spot Report showing exactly what AI platforms say (and do not say) when homeowners search for a contractor like you.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#D96416] transition-colors">
-                Get Your Free Blind Spot Report
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <a href="tel:+12134442229" className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-lg">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
       </main>
     </>
   )

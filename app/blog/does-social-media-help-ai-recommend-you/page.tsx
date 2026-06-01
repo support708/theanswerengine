@@ -165,10 +165,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Think your social media presence is driving AI visibility? Find out what AI actually sees.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: THE MYTH */}
           <span className="ae-section-label" id="the-myth">The Myth</span>
@@ -190,10 +187,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your social media strategy may be thriving, but is AI even aware your business exists? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: WHAT AI READS */}
           <span className="ae-section-label" id="what-ai-reads">How AI Works</span>
@@ -213,10 +207,7 @@ export default function BlogPost() {
           <p>Brand mentions now matter more than traditional backlinks for AI systems. When AI surfaces a recommendation, it cross-references brands discussed across trusted sources: reviews, forums, podcasts, and social channels. The key word is &quot;discussed.&quot; AI looks for substantive text mentions, not emoji reactions.</p>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI reads authority signals you probably are not tracking. See the full picture. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-            <Link href="/blindspot">Run Your Free Authority Check &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: PLATFORMS THAT MATTER */}
           <span className="ae-section-label" id="platforms-that-matter">What Works</span>
@@ -245,10 +236,7 @@ export default function BlogPost() {
           <p>The common thread across these three platforms: they all produce substantial, crawlable text content. LinkedIn articles, Reddit threads, and YouTube transcripts are text-first or text-accessible. That is what makes them visible to AI. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>LinkedIn and Reddit are driving AI recommendations. But are they driving them to your competitors?</p>
-            <Link href="/blindspot">See Who AI Recommends Instead &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: PLATFORMS THAT DON'T */}
           <span className="ae-section-label" id="platforms-that-dont">What Fails</span>
@@ -351,10 +339,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Most businesses invest in the platforms AI ignores. Find out if you are one of them. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-            <Link href="/blindspot">Discover Your AI Blind Spots &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: TEXT VS METRICS */}
           <span className="ae-section-label" id="text-vs-metrics">The Real Signal</span>
@@ -407,10 +392,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI search converts 40% better than Google organic. Are you earning that traffic? Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">See Where You Stand &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: NAP CONSISTENCY */}
           <span className="ae-section-label" id="nap-consistency">Data Consistency</span>
@@ -430,10 +412,7 @@ export default function BlogPost() {
           <p>This is the hidden value of social profiles for AI visibility. Not the content you post. Not the followers you build. The consistent business data you display. AI cross-references this data with reviews, directories, and your website to build a confidence score about who your business is and where it operates. Learn more about how <Link href="/blog/how-online-reviews-shape-ai-recommendations">online reviews shape AI recommendations</Link>.</p>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Inconsistent data across your profiles could be silently hurting your AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-            <Link href="/blindspot">Get Your Data Consistency Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION: WHAT ACTUALLY BUILDS AI VISIBILITY */}
           <span className="ae-section-label" id="what-works">Strategy</span>
@@ -493,10 +472,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to stop guessing which signals matter? Get the definitive answer for your business. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Start Your Free AI Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* CHEAT SHEET */}
           <div className="ae-cheat-sheet not-prose">
@@ -542,10 +518,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Print this cheat sheet. Then run your Blind Spot Report to see where you actually stand.</p>
-            <Link href="/blindspot">Get Your Free Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* RELATED READING */}
           <span className="ae-section-label">Related Reading</span>
@@ -558,10 +531,7 @@ export default function BlogPost() {
           </ul>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Every article above reveals a different piece of the AI visibility puzzle. Start with the data. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            <Link href="/blindspot">Run Your Free Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -605,10 +575,7 @@ export default function BlogPost() {
           <p>No. Instagram follower counts, likes, and engagement metrics have zero influence on whether AI platforms like ChatGPT, Perplexity, or Claude recommend your business. AI platforms cannot access Instagram engagement data. They evaluate text-based content, brand mentions, reviews, and authoritative sources across the open web instead.</p>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Instagram followers look great on paper. But AI needs different signals. See yours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <Link href="/blindspot">See What AI Sees &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           <h3>Which social media platforms actually influence AI recommendations?</h3>
           <p>LinkedIn and Reddit have the strongest influence on AI recommendations. LinkedIn content is heavily cited by AI platforms due to its professional authority signals and indexable text content. Reddit discussions appear in a significant portion of Perplexity citations. YouTube transcripts also contribute. Facebook, Instagram, and TikTok have minimal to no direct influence on AI citations.</p>
@@ -617,10 +584,7 @@ export default function BlogPost() {
           <p>LinkedIn publishes text-heavy, professionally authoritative content that AI crawlers can read and index. LinkedIn profiles and articles contain structured professional data that AI platforms treat as credibility signals. Instagram is primarily visual with limited indexable text, and much of its content is gated from AI crawlers behind authentication. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>LinkedIn builds AI authority. Instagram builds followers. Only one earns AI recommendations.</p>
-            <Link href="/blindspot">Check Your AI Authority &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           <h3>Do Facebook likes and shares affect AI search visibility?</h3>
           <p>No. Facebook engagement metrics like likes, shares, and comments do not influence AI platform recommendations. AI systems do not factor social engagement counts into their citation algorithms. However, having consistent business information (name, address, phone) on your Facebook page can contribute to NAP data consistency, which AI does evaluate as a trust signal. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
@@ -629,10 +593,7 @@ export default function BlogPost() {
           <p>Reddit discussions carry significant weight with AI platforms because they represent authentic, user-generated conversations. When real users discuss, compare, or recommend businesses in Reddit threads, AI treats those mentions as genuine third-party validation. Perplexity in particular draws heavily from Reddit as a primary citation source for business recommendations.</p>
 
           {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Reddit conversations are shaping AI recommendations right now. Is your business part of them? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <Link href="/blindspot">Discover Your AI Presence &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           <h3>Does posting more on social media improve my AI visibility?</h3>
           <p>Posting frequency alone does not improve AI visibility. What matters is whether your social content contains substantive, text-based information that AI crawlers can access and index. A single well-written LinkedIn article demonstrating industry expertise carries more AI weight than hundreds of Instagram posts or TikTok videos combined.</p>
@@ -641,10 +602,7 @@ export default function BlogPost() {
           <p>Focus on brand mentions across authoritative sources, reviews on AI-accessible platforms like Yelp and BBB, LinkedIn thought leadership content, authentic Reddit community presence, consistent business data across all directories and profiles, and structured content on your website. These are the signals AI platforms actually evaluate when deciding which businesses to recommend. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           {/* CTA 14 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Now you know which signals matter. The next step is seeing where your business stands.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -652,10 +610,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 15 */}
-          <div className="ae-cta-inline not-prose">
-            <p>You now know the truth about social media and AI. See exactly where your business stands.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SOURCES */}
           <span className="ae-section-label">Sources</span>
@@ -670,26 +625,41 @@ export default function BlogPost() {
         </div>
 
         {/* CTA BLOCK */}
-        <div className="ae-cta-block not-prose">
-          <h3>Your Followers Are Not Your AI Strategy</h3>
-          <p>Instagram followers, Facebook likes, and TikTok views are invisible to the AI platforms now answering 37% of consumer searches. While you grow your social following, your competitors are building the authority signals that make AI recommend them by default. Get your free Blind Spot Report and see exactly what AI sees when customers ask about your industry.</p>
-          <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Content That Ranks in Google AND Gets Cited in AI — The Dual-Engine Strategy</h3>
+              <p>Most content agencies optimize for one or the other. The Answer Engine&apos;s Origin Protocol writes content that satisfies both systems in the same pass — Google ranking and AI citation, one market. Free audit to start.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Content Citation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
+            </div>
 
         {/* FINAL CTA */}
-        <div className="ae-final-cta">
-          <h2>Stop Confusing Followers with AI Visibility</h2>
-          <p>Every dollar you spend growing Instagram followers is invisible to ChatGPT, Perplexity, and Claude. AI recommends businesses with authority, not popularity. Your competitors are building LinkedIn presence, earning Reddit mentions, and stacking the signals AI actually reads. Every month you wait, the gap widens. Get your free Blind Spot Report and see exactly where you stand across every major AI platform. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Content Should Work in Both Google and AI Search
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Most content only works in one. The Answer Engine's dual-engine strategy makes every piece compound across both channels. Free content audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Audit Your Content for AI Citations →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   )

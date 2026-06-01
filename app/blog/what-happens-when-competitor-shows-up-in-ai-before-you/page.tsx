@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,18 +65,9 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        '@type': 'Organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
       },
       publisher: {
         '@type': 'Organization',
@@ -238,54 +229,45 @@ export default function Page() {
               aria-hidden="true"
             >
               {/* Competitor podium/trophy */}
-              <rect x="500" y="120" width="120" height="180" rx="6" stroke="#F27D24" strokeWidth="1" fill="rgba(255,106,0,0.12)" />
-              <circle cx="560" cy="100" r="25" stroke="#F27D24" strokeWidth="0.8" fill="rgba(255,106,0,0.15)" />
-              <text x="548" y="105" fontFamily="monospace" fontSize="14" fill="#F27D24" opacity="0.5">1st</text>
-              <text x="510" y="220" fontFamily="monospace" fontSize="10" fill="#F27D24" opacity="0.3">COMPETITOR</text>
-              <text x="520" y="235" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.25">AI CITED</text>
+              <rect x="500" y="120" width="120" height="180" rx="6" stroke="#FF6A00" strokeWidth="1" fill="rgba(255,106,0,0.12)" />
+              <circle cx="560" cy="100" r="25" stroke="#FF6A00" strokeWidth="0.8" fill="rgba(255,106,0,0.15)" />
+              <text x="548" y="105" fontFamily="monospace" fontSize="14" fill="#FF6A00" opacity="0.5">1st</text>
+              <text x="510" y="220" fontFamily="monospace" fontSize="10" fill="#FF6A00" opacity="0.3">COMPETITOR</text>
+              <text x="520" y="235" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.25">AI CITED</text>
               {/* Your business, faded and behind */}
-              <rect x="180" y="180" width="100" height="120" rx="6" stroke="#F27D24" strokeWidth="0.4" fill="rgba(255,106,0,0.03)" strokeDasharray="4 4" />
-              <text x="190" y="250" fontFamily="monospace" fontSize="10" fill="#F27D24" opacity="0.15">YOUR BIZ</text>
-              <text x="195" y="265" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.1">NOT CITED</text>
+              <rect x="180" y="180" width="100" height="120" rx="6" stroke="#FF6A00" strokeWidth="0.4" fill="rgba(255,106,0,0.03)" strokeDasharray="4 4" />
+              <text x="190" y="250" fontFamily="monospace" fontSize="10" fill="#FF6A00" opacity="0.15">YOUR BIZ</text>
+              <text x="195" y="265" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.1">NOT CITED</text>
               {/* Arrow showing traffic flowing to competitor */}
-              <path d="M320 200 Q400 160 480 180" stroke="#F27D24" strokeWidth="0.6" fill="none" opacity="0.3" />
-              <path d="M330 190 Q400 140 470 170" stroke="#F27D24" strokeWidth="0.4" fill="none" opacity="0.2" />
-              <path d="M340 210 Q410 180 475 195" stroke="#F27D24" strokeWidth="0.3" fill="none" opacity="0.15" />
+              <path d="M320 200 Q400 160 480 180" stroke="#FF6A00" strokeWidth="0.6" fill="none" opacity="0.3" />
+              <path d="M330 190 Q400 140 470 170" stroke="#FF6A00" strokeWidth="0.4" fill="none" opacity="0.2" />
+              <path d="M340 210 Q410 180 475 195" stroke="#FF6A00" strokeWidth="0.3" fill="none" opacity="0.15" />
               {/* Small dots representing leads */}
-              <circle cx="350" cy="195" r="2" fill="#F27D24" opacity="0.3" />
-              <circle cx="380" cy="175" r="2" fill="#F27D24" opacity="0.25" />
-              <circle cx="420" cy="170" r="2" fill="#F27D24" opacity="0.3" />
-              <circle cx="450" cy="178" r="2" fill="#F27D24" opacity="0.35" />
+              <circle cx="350" cy="195" r="2" fill="#FF6A00" opacity="0.3" />
+              <circle cx="380" cy="175" r="2" fill="#FF6A00" opacity="0.25" />
+              <circle cx="420" cy="170" r="2" fill="#FF6A00" opacity="0.3" />
+              <circle cx="450" cy="178" r="2" fill="#FF6A00" opacity="0.35" />
               {/* Growing gap indicator */}
-              <text x="100" y="350" fontFamily="monospace" fontSize="11" fill="#F27D24" opacity="0.2">GAP WIDENING</text>
-              <line x1="100" y1="360" x2="300" y2="360" stroke="#F27D24" strokeWidth="0.3" opacity="0.15" />
+              <text x="100" y="350" fontFamily="monospace" fontSize="11" fill="#FF6A00" opacity="0.2">GAP WIDENING</text>
+              <line x1="100" y1="360" x2="300" y2="360" stroke="#FF6A00" strokeWidth="0.3" opacity="0.15" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">Competitive Intelligence</p>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
                 {title}
               </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
-              <img
-                src="/blog/what-happens-when-competitor-shows-up-in-ai-before-you.webp"
-                alt="what happens when competitor shows up in ai before you"
-                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-                loading="eager"
-              />
-            </div>
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
                 <span>April 1, 2026</span>
                 <span>-</span>
                 <span>14 min read</span>
                 <span>-</span>
-                <span>Justin Borges</span>
+                <span>The Answer Engine Team</span>
               </div>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Table of Contents */}
             <div className="ae-toc not-prose">
@@ -328,13 +310,13 @@ export default function Page() {
 
             <p>There is a race happening right now that most business owners do not even know they are running. It is not about Google rankings, ad spend, or social media followers. It is about which business AI recommends when a customer asks a question.</p>
 
-            <p>When someone opens ChatGPT, Perplexity, or Google AI and types a question like &ldquo;best plumber near me&rdquo; or &ldquo;who should I hire for home renovations in Dallas,&rdquo; the AI responds with a short list of recommendations. Not ten. Not twenty. Usually three to five. And one of those businesses is getting the call while the others are never seen at all. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+            <p>When someone opens ChatGPT, Perplexity, or Google AI and types a question like &ldquo;best plumber near me&rdquo; or &ldquo;who should I hire for home renovations in Dallas,&rdquo; the AI responds with a short list of recommendations. Not ten. Not twenty. Usually three to five. And one of those businesses is getting the call while the others are never seen at all.</p>
 
             <p>If your competitor is on that list and you are not, the outcome is simple: they get the lead, you do not. But the problem is much deeper than a single missed lead. AI search has a reinforcement mechanism that makes early visibility compound over time, meaning every day your competitor holds that citation slot, the harder it becomes for you to take it.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">This Is Not a Slow Moving Trend</div>
-              <p>AI platforms generated over 1.13 billion referral visits in June 2025, a 357% increase from the prior year. Google searches per user dropped nearly 20% year over year in 2025. The shift is already happening. Your customers are already asking AI who to call. The only question is whether they are hearing your name or your competitor&apos;s. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+              <p>AI platforms generated over 1.13 billion referral visits in June 2025, a 357% increase from the prior year. Google searches per user dropped nearly 20% year over year in 2025. The shift is already happening. Your customers are already asking AI who to call. The only question is whether they are hearing your name or your competitor&apos;s.</p>
             </div>
 
             {/* CTA 1 */}
@@ -347,7 +329,7 @@ export default function Page() {
             <span id="first-mover" className="ae-section-label">First Mover Dynamics</span>
             <h2>Why First Movers Win Disproportionately in AI Search</h2>
 
-            <p>In traditional SEO, being first to a keyword gave you an edge, but competitors could catch up with better content, more backlinks, and time. AI search works differently. The advantage of being cited first is not just a head start. It is a structural advantage that compounds. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+            <p>In traditional SEO, being first to a keyword gave you an edge, but competitors could catch up with better content, more backlinks, and time. AI search works differently. The advantage of being cited first is not just a head start. It is a structural advantage that compounds.</p>
 
             <p>The reason comes down to how AI platforms select sources. They evaluate topical authority, entity consistency, content depth, review signals, and structured data quality. The business that reaches the citation threshold first begins accumulating secondary signals (more website visits from AI referrals, more reviews from those visitors, more backlinks as publications reference the AI-recommended business) that make it even harder to displace.</p>
 
@@ -391,13 +373,13 @@ export default function Page() {
               </table>
             </div>
 
-            <p>Research confirms this concentration effect. The top 10 domains capture 46% of all ChatGPT citations in a given topic. The top 30 capture 67%. This is not a gentle distribution. It is winner-take-most economics, and the winners are the businesses that showed up first. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            <p>Research confirms this concentration effect. The top 10 domains capture 46% of all ChatGPT citations in a given topic. The top 30 capture 67%. This is not a gentle distribution. It is winner-take-most economics, and the winners are the businesses that showed up first.</p>
 
             <p>For a deeper exploration of how AI platforms evaluate competing businesses, see our analysis of <Link href="/blog/ai-search-vs-google-maps-which-one-sends-more-customers">AI search vs. Google Maps and which one sends more customers</Link>.</p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Your competitor may already be building this compounding advantage. See where you stand right now. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+              <p>Your competitor may already be building this compounding advantage. See where you stand right now.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Competitive AI Audit &rarr;</a>
             </div>
 
@@ -408,21 +390,21 @@ export default function Page() {
             <p>When a competitor is cited by AI, the benefits extend far beyond a single customer interaction. Each citation creates a cascade of secondary effects that reinforce their position.</p>
 
             <h3>They Become the Trusted Default</h3>
-            <p>AI platforms carry inherent authority. When ChatGPT or Perplexity recommends a business, the user treats that recommendation with the same trust they would give a referral from a friend. Your competitor is not just appearing in a list. They are being endorsed by what the customer perceives as an objective, intelligent system. That perception of endorsement is more powerful than any ad, and it costs your competitor nothing after the initial optimization. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+            <p>AI platforms carry inherent authority. When ChatGPT or Perplexity recommends a business, the user treats that recommendation with the same trust they would give a referral from a friend. Your competitor is not just appearing in a list. They are being endorsed by what the customer perceives as an objective, intelligent system. That perception of endorsement is more powerful than any ad, and it costs your competitor nothing after the initial optimization.</p>
 
             <h3>They Capture the Highest Value Customers</h3>
             <p>Data shows that AI search visitors convert at 4.4 times the rate of traditional organic search visitors. These are not window shoppers. These are people who asked a specific question, received a specific recommendation, and are ready to take action. Your competitor is capturing the most valuable segment of your shared market while you compete for the lower-intent traffic left behind.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <div className="ae-callout-title">The Revenue Gap Is Real</div>
-              <p>ChatGPT alone accounts for more than 77% of all AI-driven website referral traffic. Perplexity drives roughly 15% of all AI referral visits. If your competitor is being cited on these platforms and you are not, the revenue they are capturing from these channels is growing every month while yours stays at zero. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+              <p>ChatGPT alone accounts for more than 77% of all AI-driven website referral traffic. Perplexity drives roughly 15% of all AI referral visits. If your competitor is being cited on these platforms and you are not, the revenue they are capturing from these channels is growing every month while yours stays at zero.</p>
             </div>
 
             <h3>They Build a Moat Around Their Position</h3>
             <p>Every citation generates downstream signals: reviews from AI-referred customers, mentions in media coverage about AI-recommended businesses, social proof that attracts more customers organically. These signals feed back into the AI evaluation loop, making the competitor harder to displace with each passing week.</p>
 
             <h3>They Own the Narrative About Your Category</h3>
-            <p>When AI consistently recommends one business in a category, that business becomes the de facto answer for the entire category in your area. Customers stop searching further. They accept the AI recommendation, contact the business, and the transaction happens without any other competitor entering the conversation. Your competitor is not just getting more leads. They are removing you from consideration entirely. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            <p>When AI consistently recommends one business in a category, that business becomes the de facto answer for the entire category in your area. Customers stop searching further. They accept the AI recommendation, contact the business, and the transaction happens without any other competitor entering the conversation. Your competitor is not just getting more leads. They are removing you from consideration entirely.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
@@ -434,7 +416,7 @@ export default function Page() {
             <span id="what-you-lose" className="ae-section-label">Your Cost</span>
             <h2>What You Lose Every Day You Are Not in the Answer</h2>
 
-            <p>The cost of being absent from AI search is not theoretical. It is measurable and it compounds daily. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            <p>The cost of being absent from AI search is not theoretical. It is measurable and it compounds daily.</p>
 
             {/* Pros/Cons */}
             <div className="ae-pros-cons not-prose">
@@ -462,18 +444,18 @@ export default function Page() {
 
             <p>Consider the math. If 60% of marketing teams are planning to reallocate part of their SEO budgets toward AI search optimization, and you are not among them, you are falling behind an industry trend, not just a single competitor. The window to establish AI visibility as an early mover is closing. 2026 is the year this transition accelerates.</p>
 
-            <p>Pages that are not updated quarterly are 3 times more likely to lose their AI citations. So even businesses that achieved visibility early can lose it through inaction. But businesses that never achieved visibility in the first place face a double challenge: building authority from zero while competitors maintain and expand their lead. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            <p>Pages that are not updated quarterly are 3 times more likely to lose their AI citations. So even businesses that achieved visibility early can lose it through inaction. But businesses that never achieved visibility in the first place face a double challenge: building authority from zero while competitors maintain and expand their lead.</p>
 
             <div className="ae-quote not-prose">
               <p>&ldquo;We thought SEO was enough. Then we noticed every lead was mentioning our competitor by name. They said ChatGPT recommended them. We had never even checked.&rdquo;</p>
-              <p className="ae-quote-attribution">Business owner, professional services, Austin TX One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+              <p className="ae-quote-attribution">Business owner, professional services, Austin TX</p>
             </div>
 
             <p>For businesses already feeling this pressure, our analysis of <Link href="/blog/i-spent-thousands-on-seo-and-ai-still-cant-find-me">spending thousands on SEO while remaining invisible to AI</Link> explains why traditional investments are not protecting your visibility in the new search landscape.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Stop losing leads to competitors who showed up in AI before you. Get clarity on where you stand today. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+              <p>Stop losing leads to competitors who showed up in AI before you. Get clarity on where you stand today.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Free Assessment &rarr;</a>
             </div>
 
@@ -488,7 +470,7 @@ export default function Page() {
                 <div className="ae-timeline-marker">1</div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Initial Citation</div>
-                  <p>AI cites your competitor based on their current authority signals: content depth, structured data quality, entity consistency, review volume, and brand mentions across the web. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+                  <p>AI cites your competitor based on their current authority signals: content depth, structured data quality, entity consistency, review volume, and brand mentions across the web.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -502,7 +484,7 @@ export default function Page() {
                 <div className="ae-timeline-marker">3</div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Signal Amplification</div>
-                  <p>The new reviews, traffic, and mentions create stronger authority signals. Media outlets begin listing the competitor as the &ldquo;AI-recommended&rdquo; option. Brand mentions increase across third-party sites. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+                  <p>The new reviews, traffic, and mentions create stronger authority signals. Media outlets begin listing the competitor as the &ldquo;AI-recommended&rdquo; option. Brand mentions increase across third-party sites.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -516,7 +498,7 @@ export default function Page() {
                 <div className="ae-timeline-marker">5</div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Market Position Lock-In</div>
-                  <p>After multiple cycles, the competitor becomes the de facto recommendation. Displacing them now requires not just matching their original signals, but overcoming the accumulated compound advantage built over months of AI endorsement. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+                  <p>After multiple cycles, the competitor becomes the de facto recommendation. Displacing them now requires not just matching their original signals, but overcoming the accumulated compound advantage built over months of AI endorsement.</p>
                 </div>
               </div>
             </div>
@@ -525,7 +507,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Citation Concentration Problem</div>
-              <p>AI systems cite only 3 to 5 sources per query on average. The top 10 domains take 46% of all citations. The top 30 take 67%. This means the vast majority of businesses in any category receive zero AI citations. Once a competitor locks into one of those top citation slots, the path back in requires a strategic, systematic approach that addresses every authority signal simultaneously. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+              <p>AI systems cite only 3 to 5 sources per query on average. The top 10 domains take 46% of all citations. The top 30 take 67%. This means the vast majority of businesses in any category receive zero AI citations. Once a competitor locks into one of those top citation slots, the path back in requires a strategic, systematic approach that addresses every authority signal simultaneously.</p>
             </div>
 
             {/* CTA 5 */}
@@ -538,7 +520,7 @@ export default function Page() {
             <span id="the-cost-of-waiting" className="ae-section-label">The Math</span>
             <h2>The Real Cost of Waiting</h2>
 
-            <p>Business owners often frame AI visibility as a &ldquo;next quarter&rdquo; priority. The data makes clear why that framing is a mistake. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+            <p>Business owners often frame AI visibility as a &ldquo;next quarter&rdquo; priority. The data makes clear why that framing is a mistake.</p>
 
             {/* Comparison Table */}
             <table className="ae-comparison-table not-prose">
@@ -587,7 +569,7 @@ export default function Page() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">The Window Is Closing</div>
-              <p>60% of marketing teams plan to reallocate part of their SEO budgets toward AI search optimization. The businesses that move in 2026 will have first-mover advantage. The businesses that wait until 2027 will be trying to displace entrenched competitors who have been compounding their AI authority for over a year. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+              <p>60% of marketing teams plan to reallocate part of their SEO budgets toward AI search optimization. The businesses that move in 2026 will have first-mover advantage. The businesses that wait until 2027 will be trying to displace entrenched competitors who have been compounding their AI authority for over a year.</p>
             </div>
 
             {/* CTA 6 */}
@@ -600,7 +582,7 @@ export default function Page() {
             <span id="closing-the-gap" className="ae-section-label">The Path Forward</span>
             <h2>What It Takes to Close the Gap</h2>
 
-            <p>Catching a competitor who is already being cited by AI is not impossible. But it requires a fundamentally different approach than traditional SEO or marketing tactics. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            <p>Catching a competitor who is already being cited by AI is not impossible. But it requires a fundamentally different approach than traditional SEO or marketing tactics.</p>
 
             <p>The businesses that successfully close the gap share common characteristics: they treat AI visibility as a strategic priority rather than a marketing experiment, they invest in a comprehensive audit before taking action, and they commit to the sustained effort required to build and maintain citation-worthy authority signals.</p>
 
@@ -609,7 +591,7 @@ export default function Page() {
               <div className="ae-cheat-sheet-grid">
                 <div className="ae-cheat-sheet-item">
                   <div className="ae-cheat-sheet-check">Visibility Audit</div>
-                  <p>Map exactly which queries your competitor is being cited for and which AI platforms are citing them. Know the full scope of the gap before planning the response. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+                  <p>Map exactly which queries your competitor is being cited for and which AI platforms are citing them. Know the full scope of the gap before planning the response.</p>
                 </div>
                 <div className="ae-cheat-sheet-item">
                   <div className="ae-cheat-sheet-check">Signal Diagnosis</div>
@@ -617,7 +599,7 @@ export default function Page() {
                 </div>
                 <div className="ae-cheat-sheet-item">
                   <div className="ae-cheat-sheet-check">Entity Foundation</div>
-                  <p>Ensure your business entity is consistent, verified, and present across every platform AI uses for cross-referencing. Fragmented entity data is one of the most common reasons businesses fail to get cited. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+                  <p>Ensure your business entity is consistent, verified, and present across every platform AI uses for cross-referencing. Fragmented entity data is one of the most common reasons businesses fail to get cited.</p>
                 </div>
                 <div className="ae-cheat-sheet-item">
                   <div className="ae-cheat-sheet-check">Authority Content</div>
@@ -625,7 +607,7 @@ export default function Page() {
                 </div>
                 <div className="ae-cheat-sheet-item">
                   <div className="ae-cheat-sheet-check">Structured Data</div>
-                  <p>Implement and maintain comprehensive schema markup that makes it easy for AI platforms to parse, verify, and cite your business information accurately. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+                  <p>Implement and maintain comprehensive schema markup that makes it easy for AI platforms to parse, verify, and cite your business information accurately.</p>
                 </div>
                 <div className="ae-cheat-sheet-item">
                   <div className="ae-cheat-sheet-check">Ongoing Monitoring</div>
@@ -634,13 +616,13 @@ export default function Page() {
               </div>
             </div>
 
-            <p>What this process does not involve: more generic blog posts, keyword stuffing, or paid advertising on AI platforms (which does not exist). The businesses that try to game AI search the way they gamed traditional Google rankings tend to waste resources and fall further behind. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+            <p>What this process does not involve: more generic blog posts, keyword stuffing, or paid advertising on AI platforms (which does not exist). The businesses that try to game AI search the way they gamed traditional Google rankings tend to waste resources and fall further behind.</p>
 
             <p>The path back is not about producing more content. It is about producing the right signals. As we explored in <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight">what happens when your business disappears from AI search overnight</Link>, the recovery process follows a specific diagnostic sequence that addresses root causes, not symptoms.</p>
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to find out exactly where your competitor is being cited and where you can close the gap? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              <p>Ready to find out exactly where your competitor is being cited and where you can close the gap?</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to Get Started &rarr;</a>
             </div>
 
@@ -652,7 +634,7 @@ export default function Page() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>AI search is fragmenting across multiple platforms. Know where your competitor is visible and where you can win. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+              <p>AI search is fragmenting across multiple platforms. Know where your competitor is visible and where you can win.</p>
               <Link href="/blindspot">Get Your Multi-Platform Visibility Report &rarr;</Link>
             </div>
 
@@ -710,24 +692,19 @@ export default function Page() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Your competitor&apos;s AI advantage is growing while you read this. The time to act was yesterday. The next best time is right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+              <p>Your competitor&apos;s AI advantage is growing while you read this. The time to act was yesterday. The next best time is right now.</p>
               <Link href="/blindspot">Get My Free Blind Spot Report &rarr;</Link>
             </div>
 
           </article>
 
           {/* Author Card */}
-          <div className="not-prose">
-            <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+          <div className="ae-author-card mt-16">
+            <div className="ae-author-avatar">AE</div>
+            <div className="ae-author-info">
+              <div className="ae-author-name">The Answer Engine Team</div>
+              <div className="ae-author-bio">
+                We help businesses build and defend AI search visibility across ChatGPT, Perplexity, Google Gemini, and Google AI Overviews. Our team has audited hundreds of businesses for competitive AI gaps and knows exactly what it takes to close them.
               </div>
             </div>
           </div>
@@ -746,11 +723,11 @@ export default function Page() {
                 <h3 className="text-white font-semibold mb-2 font-plus-jakarta">Free Blind Spot Report</h3>
                 <p className="text-gray-400 text-sm mb-4">
                   We query ChatGPT, Perplexity, and Google AI for your top customer questions and show you exactly which competitors are being cited instead of you.
-                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                </p>
                 <Link
                   href="/blindspot"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#F27D24', color: 'white' }}
+                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
                 >
                   Get My Free Report
                 </Link>
@@ -759,7 +736,7 @@ export default function Page() {
                 className="rounded-xl p-6 flex flex-col items-center text-center"
                 style={{ backgroundColor: '#1a1a2e', border: '1px solid rgba(255,106,0,0.3)' }}
               >
-                <div className="text-3xl mb-3" style={{ color: '#F27D24' }}>02</div>
+                <div className="text-3xl mb-3" style={{ color: '#FF6A00' }}>02</div>
                 <h3 className="text-white font-semibold mb-2 font-plus-jakarta">Competitive AI Audit</h3>
                 <p className="text-gray-400 text-sm mb-4">
                   A full diagnosis of which competitors are being cited, on which platforms, and for which queries, with a prioritized action plan to close the gap.
@@ -767,7 +744,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#F27D24', color: 'white' }}
+                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
                 >
                   Call (213) 444-2229
                 </a>
@@ -780,11 +757,11 @@ export default function Page() {
                 <h3 className="text-white font-semibold mb-2 font-plus-jakarta">Ongoing AEO Management</h3>
                 <p className="text-gray-400 text-sm mb-4">
                   Monthly citation monitoring, authority content, and structured data maintenance so you never lose ground to a competitor again.
-                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+                </p>
                 <a
                   href="mailto:support@theanswerengine.ai"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#F27D24', color: 'white' }}
+                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
                 >
                   Email Us to Learn More
                 </a>
@@ -812,7 +789,7 @@ export default function Page() {
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   When a competitor is cited first by AI platforms like ChatGPT, Perplexity, or Google AI, they begin accumulating authority signals that reinforce future citations. AI systems tend to recommend the same businesses they have already recommended, creating a compounding advantage. Your potential customers receive your competitor as the trusted answer, and you are excluded from the conversation entirely. The longer this continues, the wider the gap becomes.
-                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                </p>
               </div>
 
               <div
@@ -836,7 +813,7 @@ export default function Page() {
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   Yes, but the longer you wait, the harder and more expensive it becomes. AI citations are not permanent rankings. They are re-evaluated with each query. A focused answer engine optimization strategy can begin shifting citations within 60 to 90 days. However, every week of inaction allows your competitor to compound their advantage further, making the eventual recovery effort significantly larger.
-                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+                </p>
               </div>
 
               <div
@@ -912,7 +889,7 @@ export default function Page() {
           >
             <p
               className="text-xs font-semibold uppercase tracking-widest mb-4"
-              style={{ color: '#F27D24' }}
+              style={{ color: '#FF6A00' }}
             >
               The Gap Is Growing Right Now
             </p>
@@ -926,7 +903,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="ae-final-cta-pulse inline-block px-6 py-3 rounded-lg font-semibold text-sm transition-opacity hover:opacity-90"
-                style={{ backgroundColor: '#F27D24', color: 'white' }}
+                style={{ backgroundColor: '#FF6A00', color: 'white' }}
               >
                 Get My Free Blind Spot Report
               </Link>
@@ -935,7 +912,7 @@ export default function Page() {
                 className="inline-block px-6 py-3 rounded-lg font-semibold text-sm transition-colors"
                 style={{
                   border: '1px solid rgba(255,106,0,0.5)',
-                  color: '#F27D24',
+                  color: '#FF6A00',
                 }}
               >
                 Call (213) 444-2229

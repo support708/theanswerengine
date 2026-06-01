@@ -290,10 +290,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             <p>Why does any of this matter for a plumber in Pasadena or a dental practice in Denver? Because when someone types a local business query into DeepSeek, whether through the app, the website, or one of thousands of third-party integrations, the model generates an answer based on a specific set of signals. Understanding those signals is the entire game.</p>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if DeepSeek is recommending your competitors instead of you right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 2: USAGE SCALE */}
             <span className="ae-section-label" id="usage-scale">Scale</span>
@@ -341,10 +338,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             <p>The practical implication for businesses: DeepSeek is not a fringe tool. It is a platform that hundreds of millions of queries pass through monthly. Local business recommendation queries, while a subset of that volume, represent a real and growing traffic source that most businesses are not optimizing for at all.</p>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to understand your current AI visibility across DeepSeek and every other major platform? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Assessment &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 3: ARCHITECTURE */}
             <span className="ae-section-label" id="architecture">Architecture</span>
@@ -365,10 +359,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             <p>For practical business optimization, V3 is the model to understand. It draws its answers from training data for general queries and shifts to live web retrieval when the web search feature is active. The model that answers "best HVAC contractor near me" is almost certainly a V3-class model, not R1.</p>
 
             {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which AI platforms are actively generating recommendations about your business category? Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Run Your Free Blind Spot Scan &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 4: DATA SOURCES */}
             <span className="ae-section-label" id="data-sources">Data Sources</span>
@@ -423,10 +414,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if your business exists in the crawlable web layer that DeepSeek actually reads.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 5: RANKING SIGNALS */}
             <span className="ae-section-label" id="ranking-signals">Ranking Signals</span>
@@ -511,10 +499,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             <p>When a user asks "best electrician in Austin for panel upgrades," DeepSeek needs to match the query against businesses it knows about. A business whose content specifically addresses panel upgrade services, in Austin, with relevant context about pricing range, typical project scope, and licensing, satisfies the query context far more completely than one whose site only says "residential electrician."</p>
 
             {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know which of these signals your business is missing right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 6: PLATFORM COMPARISON */}
             <span className="ae-section-label" id="platform-comparison">Comparison</span>
@@ -591,10 +576,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             <p>Optimizing for one platform does not mean ignoring the others. The foundational signals (crawlable content, consistent NAP, specific factual information, schema markup) benefit all of them. But platform-specific strategies differ, particularly around Gemini&apos;s GBP integration and Perplexity&apos;s real-time retrieval. For a deeper dive into Perplexity&apos;s citation mechanics, see our guide on <Link href="/blog/how-perplexity-decides-what-to-cite">how Perplexity decides what to cite</Link>.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>We run AI visibility assessments across all four major platforms. One report, full picture. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <Link href="/blindspot">Get Your Multi-Platform AI Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 7: OPTIMIZATION */}
             <span className="ae-section-label" id="optimization">Optimization Strategy</span>
@@ -650,10 +632,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             </div>
 
             {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want this roadmap customized to your specific business category and market? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 8: BILINGUAL */}
             <span className="ae-section-label" id="bilingual">Bilingual Challenge</span>
@@ -680,10 +659,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             <p>Businesses with multilingual customer bases (English and Spanish, English and Mandarin) may find that creating content in multiple languages produces a meaningful lift in DeepSeek visibility, since those language combinations appear more frequently in its training data composition. This is not guaranteed, and it requires legitimate multilingual content, not machine-translated filler.</p>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure how DeepSeek is currently handling your specific business category and location? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 9: MISTAKES */}
             <span className="ae-section-label" id="mistakes">Common Pitfalls</span>
@@ -712,10 +688,7 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             <p>One well-optimized homepage is not enough to build a meaningful training data footprint. Businesses that publish consistent, substantive content across multiple pages — service pages, FAQ pages, location pages, blog posts, case studies — appear in more training snapshots and build stronger learned associations. The businesses that dominate AI recommendations in any local category are typically the ones that have published the most useful, specific, crawlable content about that category. There is no algorithmic shortcut to this. Volume and quality of crawlable content is the long-term moat. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes? Our audit identifies every gap in your AI visibility foundation.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* SECTION 10: TRAJECTORY */}
             <span className="ae-section-label" id="trajectory">Looking Ahead</span>
@@ -742,16 +715,10 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>The early movers in AI search are already pulling ahead. See where you stand today.</p>
-              <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your specific situation? We are available by phone.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           </div>
 
@@ -816,42 +783,49 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
             <p>Not in any reliable or direct way. DeepSeek&apos;s training data consists primarily of plain web pages and e-books. JavaScript-rendered platforms like Google Maps, Yelp listings, and most review aggregators are either not crawled or poorly represented in training data. Businesses that rely solely on GBP or Yelp for their online presence are largely invisible to DeepSeek&apos;s recommendation engine.</p>
 
             {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to build the AI visibility foundation that works across every major platform?</p>
-              <Link href="/blindspot">Start with Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your business category or market? Call us directly.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
             {/* CTA 14 */}
-            <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will respond within 24 hours.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
+              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
 
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Business Ready for the DeepSeek Era?</h2>
-            <p>Find out exactly what DeepSeek, ChatGPT, Perplexity, and Google AI say when someone searches for your business category in your market. Our free Blind Spot Report shows you the gaps, the opportunities, and what the businesses outranking you are doing differently.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Local Search Just Split in Two — Are You Winning Both Halves?
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free Local AI Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
-            <p className="text-sm text-gray-500 mt-4">No pitch. No paywall. Just the data.</p>
-          </div>
+          </section>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">

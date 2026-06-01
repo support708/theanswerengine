@@ -222,10 +222,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Find out right now whether AI is recommending you or sending leads to your competitors. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: THE REPORT LOOKS GOOD */}
           <span className="ae-section-label">The Disconnect</span>
@@ -270,10 +267,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Stop guessing why leads dried up. See the data that explains everything. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Run Your Free AI Visibility Check &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: WHAT SEO DELIVERS NOW */}
           <span className="ae-section-label">Honest Assessment</span>
@@ -320,10 +314,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Are you capturing browsers while your competitors capture buyers? Find out in 60 seconds. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <Link href="/blindspot">See Who AI Recommends Instead &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: WHAT YOUR AGENCY ISN'T TELLING YOU */}
           <span className="ae-section-label">The Blind Spot</span>
@@ -375,10 +366,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your SEO metrics look great, but do AI platforms even know you exist? There is only one way to find out. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-            <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: THE REAL REASON */}
           <span className="ae-section-label">Root Cause</span>
@@ -405,10 +393,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI uses the same retrieval logic as search — but it only cites businesses that give it the right signals. See exactly where you are losing leads. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Map Your Lead Leak &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: PROOF */}
           <span className="ae-section-label">Real Results</span>
@@ -443,10 +428,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
-            <p>These results came from understanding exactly where AI visibility gaps existed. Find yours. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <Link href="/blindspot">Get the Same Analysis Free &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: BUT MY RANKINGS */}
           <span className="ae-section-label">Hard Truth</span>
@@ -464,10 +446,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Rankings mean nothing if AI never mentions you. See what AI actually says when someone asks about your industry. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot">Test Your AI Presence &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: AGENCY CONVERSATION */}
           <span className="ae-section-label">Take Action</span>
@@ -500,10 +479,7 @@ export default function BlogPost() {
           <p>SEO and AI visibility are becoming separate disciplines. Your agency might be excellent at one and have no expertise in the other. The agencies that tell you honestly that they need to expand their approach are the ones worth keeping.</p>
 
           {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Bring real data to that conversation. Show your agency exactly where AI visibility gaps exist.</p>
-            <Link href="/blindspot">Get Data for Your Agency Meeting &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: 4-STEP FRAMEWORK */}
           <span className="ae-section-label">The Framework</span>
@@ -556,10 +532,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Step 1 starts with knowing where you stand. Our free report covers all four steps for your specific business.</p>
-            <Link href="/blindspot">Start Your 4-Step Assessment &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SECTION: FIND OUT WHAT AI SAYS */}
           <span className="ae-section-label">Self-Audit</span>
@@ -594,21 +567,18 @@ export default function BlogPost() {
           <p>If AI is not recommending you, that is your leak. That is where your leads are going. And no amount of SEO will fix it.</p>
 
           {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
-            <p>These manual tests give you a snapshot. Our report gives you the full picture across every major AI platform.</p>
-            <Link href="/blindspot">Get the Complete AI Audit &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* CTA BLOCK */}
-          <div className="ae-cta-block not-prose">
-            <h3>Your SEO Is Not Broken. The Market Changed.</h3>
-            <p>You do not need to fire your SEO agency. You need to add AI visibility to your marketing strategy before your competitors lock in the top recommendation spots. Every month you wait, they build more authority signals. Get your free report and see exactly where you stand.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>More Reviews Help Google — But AI Search Uses Completely Different Signals</h3>
+              <p>AI engines weigh editorial citations, authority mentions, and structured data alongside reviews. Most businesses with great ratings are still invisible in AI search. Free Blind Spot Report — exactly where you stand in 48 hours.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AI Reputation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
-          </div>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card">
@@ -632,10 +602,7 @@ export default function BlogPost() {
           <p>Nearly 60% of searches now end without a click because AI answers questions directly. Your SEO rankings may be strong, but high-intent buyers are getting recommendations from AI before they see search results. They call whoever AI recommends.</p>
 
           {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
-            <p>If your leads dropped despite strong rankings, AI search is the most likely explanation. Get the data.</p>
-            <Link href="/blindspot">Diagnose Your Lead Drop &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           <h3>Should I stop paying for SEO?</h3>
           <p>No. SEO still provides value for informational and research searches, and it builds topical authority that AI also recognizes. But SEO alone is no longer enough. You need AI visibility alongside your SEO to capture high-intent buyers who ask AI for recommendations.</p>
@@ -644,10 +611,7 @@ export default function BlogPost() {
           <p>SEO optimizes for search engine rankings using factors like keywords, backlinks, and technical performance. AI visibility optimizes for being recommended when people ask AI assistants like ChatGPT, Google AI Overview, and Perplexity for suggestions. Research shows AI uses different signals. Brand mentions and authoritative list appearances matter more than domain authority scores.</p>
 
           {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>AI visibility requires different signals than SEO. Find out which ones your business is missing.</p>
-            <Link href="/blindspot">See Your AI Signal Gaps &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           <h3>Can my SEO agency handle AI visibility?</h3>
           <p>Some can, most cannot. Ask your agency specifically about their strategy for AI-generated answers. If they do not have data on which AI platforms mention your business or a strategy for increasing AI citations, you may need specialized help alongside your SEO.</p>
@@ -656,10 +620,7 @@ export default function BlogPost() {
           <p>ChatGPT uses Bing's web index, not Google's data. This means it cannot directly access Google Business Profile information including reviews. To influence AI recommendations, you need reviews on platforms AI can read: Yelp, BBB, industry directories, and sites indexed by Bing.</p>
 
           {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Most businesses have reviews in all the wrong places for AI. See where yours stand.</p>
-            <Link href="/blindspot">Check Your Review Visibility &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           <h3>How long before I see results from AI visibility optimization?</h3>
           <p>Most businesses see measurable changes in AI citations within 90 to 120 days. Unlike SEO, which compounds slowly over years, AI visibility can shift more quickly when you establish clear authority signals across the right platforms. The key is consistency across all platforms AI reads, not just Google.</p>
@@ -670,10 +631,7 @@ export default function BlogPost() {
           </div>
 
           {/* CTA 14 */}
-          <div className="ae-cta-inline not-prose">
-            <p>You have read the data. You know the trend. The only question left is whether AI recommends your business or your competitor.</p>
-            <Link href="/blindspot">Find Out in 60 Seconds &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           {/* SOURCES */}
           <span className="ae-section-label">Sources</span>
@@ -687,15 +645,30 @@ export default function BlogPost() {
         </div>
 
         {/* FINAL CTA */}
-        <div className="ae-final-cta">
-          <h2>Stop Paying for Rankings That Do Not Generate Leads</h2>
-          <p>Your SEO is not broken. The market shifted to AI. Every day you wait, your competitors build more authority signals that make them the default AI recommendation in your market. Get your free Blind Spot Report and see exactly where you stand across ChatGPT, Claude, Perplexity, and Google AI.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                A 5-Star Rating Means Nothing if AI Search Has Never Heard of You
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                AI engines build recommendations from editorial sources, not review counts. The Answer Engine builds the authority signals that get you cited — free audit shows your current AI reputation score. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Reputation Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   );

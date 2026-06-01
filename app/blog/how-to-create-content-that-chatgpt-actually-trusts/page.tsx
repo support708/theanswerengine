@@ -283,10 +283,7 @@ export default function Page() {
           </div>
 
           {/* ══════════════ CTA 1 ══════════════ */}
-          <div className="ae-cta-inline not-prose">
-            <p>Wondering if AI trusts your content right now? Find out in under 60 seconds. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* ══════════════ TABLE OF CONTENTS ══════════════ */}
           <div className="ae-toc not-prose">
@@ -327,10 +324,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your content might read beautifully. But does ChatGPT see it as trustworthy? Find out. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <Link href="/blindspot">Get Your Free AI Trust Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── SECTION 2: WHAT CHATGPT EVALUATES ── */}
             <span className="ae-section-label" id="what-chatgpt-evaluates">The Evaluation</span>
@@ -389,16 +383,10 @@ export default function Page() {
             <p>The businesses that get cited consistently are not the ones with the most content. They are the ones that score well across all of these layers simultaneously. Learn more about how this applies to your site in our guide on <Link href="/blog/make-your-site-the-one-ai-trusts">making your site the one AI trusts</Link>. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CTA 2b (Comparison Table — inline) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly how your site scores against these six trust factors — free in under 60 seconds. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Get Your Free AI Trust Score &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── CTA 3 (tel) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know how your site scores across all six trust factors? Talk to our team. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── SECTION 3: ANSWER CAPSULES ── */}
             <span className="ae-section-label" id="answer-capsules">The Content Format</span>
@@ -449,10 +437,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our Blind Spot Report shows you exactly which pages need answer capsules and which are already optimized. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── SECTION 4: AUTHORITY SIGNALS ── */}
             <span className="ae-section-label" id="authority-signals">Trust Architecture</span>
@@ -499,10 +484,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 5 (mailto) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure what trust signals your business already has (or is missing)? We will map them for you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── SECTION 5: SCHEMA AND STRUCTURE ── */}
             <span className="ae-section-label" id="schema-and-structure">Technical Foundation</span>
@@ -540,10 +522,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Our audit checks your schema implementation, content structure, and answer-readiness across every page. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── SECTION 6: FRESHNESS ── */}
             <span className="ae-section-label" id="freshness-factor">The Decay Problem</span>
@@ -562,10 +541,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 7 (tel) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Your highest-value pages might be losing citations right now due to staleness. Let us check.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── SECTION 7: WHAT NOT TO DO ── */}
             <span className="ae-section-label" id="what-not-to-do">Common Mistakes</span>
@@ -624,10 +600,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Concerned about hidden trust issues on your site? Our report catches problems you cannot see.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -645,16 +618,10 @@ export default function Page() {
             </div>
 
             {/* ── CTA 8b (Cheat Sheet — inline) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to implement this checklist on your site? Our team can do it for you.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Checklist Review &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── CTA 9 (mailto) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want us to audit your content against this entire checklist? Email us your URL.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── SECTION: THE BOTTOM LINE ── */}
             <span className="ae-section-label">The Bottom Line</span>
@@ -673,10 +640,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 10 (tel) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to build a content trust system that earns citations month after month?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Strategy Call &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── RELATED ARTICLES ── */}
             <span className="ae-section-label">Keep Learning</span>
@@ -706,10 +670,7 @@ export default function Page() {
             </div>
 
             {/* ── CTA 11 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still reading? You clearly care about earning AI trust. Take the next step.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ══════════════ 3-TIER CTA BLOCK ══════════════ */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -742,10 +703,7 @@ export default function Page() {
             <p>Yes. Pages with properly implemented schema markup see significantly higher citation rates compared to pages without it. Schema helps AI platforms parse your content structure, identify key entities, and understand the relationships between your pages. It is not a guarantee of citation, but it removes a major barrier.</p>
 
             {/* ── CTA 12 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know if your schema implementation is helping or hurting? We check it all.</p>
-              <Link href="/blindspot">Get Your Free Schema Audit &rarr;</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             <h3>How often should I update content to maintain AI trust?</h3>
             <p>At minimum, update key pages quarterly. AI platforms weight content freshness as a trust signal, and stale content loses citations to competitors who refresh more frequently. Pages with outdated statistics, references, or examples signal to AI that the source may no longer be reliable.</p>
@@ -757,19 +715,13 @@ export default function Page() {
             <p>Community sentiment is one of several signals ChatGPT weighs when evaluating source credibility. Positive mentions on platforms like Reddit, industry forums, and review sites contribute to an overall trust profile. Businesses with strong community reputations across multiple platforms are more likely to surface in AI recommendations.</p>
 
             {/* ── CTA 13 (tel) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions about your AI visibility that are not covered here? Let us talk.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             <h3>What is an answer capsule and why does it matter for AI?</h3>
             <p>An answer capsule is a concise summary of 40 to 60 words that directly answers a specific question. It is the single strongest content pattern among pages that get cited by AI platforms. When your content leads with a clear, direct answer before expanding into detail, AI platforms can extract and verify your answer more efficiently than from content that buries the answer deep in the text.</p>
 
             {/* ── CTA 14 (mailto) ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want us to review your content for answer capsule readiness? Send your URL.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
             {/* ── AUTHOR CARD ── */}
             <div className="ae-author-card">
@@ -788,28 +740,41 @@ export default function Page() {
           </div>{/* end prose */}
 
           {/* ══════════════ CTA BLOCK ══════════════ */}
-          <div className="ae-cta-block not-prose my-16">
-            <h2>Want to See How ChatGPT Evaluates Your Content?</h2>
-            <p>Our free Blind Spot Report analyzes your content across every trust factor ChatGPT evaluates: entity authority, schema markup, content structure, freshness, third-party validation, and community sentiment. No pitch, just the data you need to start earning citations.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Content That Ranks in Google AND Gets Cited in AI — The Dual-Engine Strategy</h3>
+              <p>Most content agencies optimize for one or the other. The Answer Engine&apos;s Origin Protocol writes content that satisfies both systems in the same pass — Google ranking and AI citation, one market. Free audit to start.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Content Citation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-          </div>
 
           {/* ══════════════ FINAL CTA WITH PULSE GLOW ══════════════ */}
-          <div className="ae-final-cta">
-            <h2>Stop Publishing Content AI Ignores</h2>
-            <p>Get your free AI Blind Spot Report and discover exactly what ChatGPT sees (and misses) about your business.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
-          </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Content Should Work in Both Google and AI Search
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Most content only works in one. The Answer Engine's dual-engine strategy makes every piece compound across both channels. Free content audit. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Audit Your Content for AI Citations →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
 
         </article>
       </main>

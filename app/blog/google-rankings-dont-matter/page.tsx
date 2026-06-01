@@ -276,10 +276,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to know if AI is recommending your business or your competitors? Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             <p>If your business is not the source AI platforms cite in those answers, you are invisible. This article breaks down exactly what changed, why traditional SEO is failing, and what local businesses must do to stay competitive.</p>
 
@@ -337,10 +334,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
-              <p>How much traffic are you losing to AI Overviews right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-              <Link href="/blindspot">Find Out Free</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section: ChatGPT, Claude, Perplexity */}
             <p className="ae-section-label not-prose">BEYOND GOOGLE</p>
@@ -385,10 +379,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 3 - Phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Questions about how AI search impacts your business? Talk to a specialist.</p>
-              <a href="tel:+12134442229">(213) 444-2229</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section: Why Traditional SEO Fails */}
             <p className="ae-section-label not-prose">THE DISCONNECT Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
@@ -478,10 +469,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still investing in old-school SEO tactics? See what AI actually thinks about your business. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <Link href="/blindspot">Run Your Free AI Visibility Audit</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section: Real-World Impact */}
             <p className="ae-section-label not-prose">REAL-WORLD SCENARIO</p>
@@ -554,10 +542,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 5 - Email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want a detailed breakdown of where your competitors are getting cited and you are not?</p>
-              <a href="mailto:support@theanswerengine.ai">Email Us for a Custom Analysis</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section: What It Takes */}
             <p className="ae-section-label not-prose">THE IMPLEMENTATION <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
@@ -596,10 +581,7 @@ export default function GoogleRankingsDontMatter() {
             <p>AI platforms verify credentials before citing sources. This is not about claiming expertise. It is about structuring your credentials in machine-readable formats that AI can validate.</p>
 
             {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Think your schema markup is correct? Let us check it for free. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <Link href="/blindspot">Request a Free Schema Audit</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Stats: Citation Impact */}
             <div className="ae-stats-grid not-prose">
@@ -650,10 +632,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 7 - Phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to start the 5-step framework? We will walk you through it. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section: Common Objections */}
             <p className="ae-section-label not-prose">ADDRESSING CONCERNS</p>
@@ -692,10 +671,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure how to transition from SEO to AEO without losing ground? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link href="/blindspot">Get a Free Transition Roadmap</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section: Local Businesses Benefit Most */}
             <p className="ae-section-label not-prose">LOCAL ADVANTAGE</p>
@@ -745,10 +721,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 9 - Email */}
-            <div className="ae-cta-inline not-prose">
-              <p>Own a local service business? Get a custom AI visibility analysis for your industry.</p>
-              <a href="mailto:support@theanswerengine.ai">Request Your Industry Report</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Section: The Window Is Closing */}
             <p className="ae-section-label not-prose">TIMING MATTERS</p>
@@ -765,16 +738,17 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 10 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to be the first in your market to capture AI citations?</p>
-              <Link href="/blindspot">Check Your Market Now</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA Block */}
-            <div className="ae-cta-block not-prose">
-              <h3>Stop Losing Customers to Competitors Who Show Up in AI Answers</h3>
-              <p>We have spent two years figuring out exactly what makes AI platforms cite businesses instead of competitors. We know which implementations work, which break, and how to get you cited in 60-90 days.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
+              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
 
             {/* FAQ Section */}
@@ -824,16 +798,10 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have a question that is not listed here?</p>
-              <a href="mailto:support@theanswerengine.ai">Email Us Directly</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* CTA 12 - Phone */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk it through? Our team is available Monday through Friday.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229</a>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Takeaway */}
             <div className="ae-takeaway not-prose">
@@ -841,10 +809,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to see where you stand in the AI visibility race?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Author Card */}
             <div className="ae-author-card not-prose">
@@ -857,33 +822,36 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to work with us? Start with a free audit.</p>
-              <Link href="/blindspot">Start Your Free Audit</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
             {/* Final CTA */}
-            <div className="ae-final-cta not-prose">
-              <h3>Your Competitors Are Getting Cited by AI. Are You?</h3>
-              <p>Every day you wait, another business in your market is building the citation history that makes them the default AI recommendation. Do not let that business be your competitor.</p>
-              <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report Now</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/20">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Search Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
+          </section>
 
             {/* CTA 15 */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still reading? That means you know this matters. Take the first step.</p>
-              <Link href="/blindspot">Get Your Free Report</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
 
           </div>
         </article>

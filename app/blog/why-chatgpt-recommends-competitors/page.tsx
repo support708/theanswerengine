@@ -275,10 +275,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <p>This guide explains exactly why your competitors appear, how ChatGPT decides who to trust, and what you can do over the next 60 to 90 days to shift the balance in your favor. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 1 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want to see exactly who ChatGPT recommends instead of you? We will show you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── HOW CHATGPT CHOOSES ── */}
           <span className="ae-section-label">The Algorithm</span>
@@ -336,10 +333,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           {/* ── CTA 2 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Not sure if your online presence passes the trust test? Find out what ChatGPT actually sees. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Run a Free AI Visibility Check →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── 7 BIGGEST REASONS ── */}
           <span className="ae-section-label">Root Causes</span>
@@ -413,10 +407,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <p>AI prefers pages with clear structure. FAQs, headings, and proper markup make content easy to extract and verify. <Link href="/blog/does-schema-markup-help-ai-search">Schema markup directly influences how AI platforms process your content</Link>. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 3 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Which of these 7 gaps is costing you the most AI visibility? Our free report shows you. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <Link href="/blindspot">Identify Your Biggest Gap →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── DECISION MATRIX ── */}
           <span className="ae-section-label">Diagnosis</span>
@@ -463,10 +454,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           {/* ── CTA 4 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Stop guessing and start diagnosing. Our report tells you exactly which signals you are missing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <Link href="/blindspot">Get Your Diagnosis →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── YOU VS. COMPETITOR ── */}
           <span className="ae-section-label">Head to Head</span>
@@ -503,10 +491,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           {/* ── CTA 5 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Which column does your business fall into? Get the honest answer. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <Link href="/blindspot">See How AI Scores Your Business →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── TIMELINE ── */}
           <span className="ae-section-label">The Playbook</span>
@@ -543,10 +528,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           {/* ── CTA 6 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Ready to start your 90-day shift? The first step is knowing where you stand today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            <Link href="/blindspot">Start With a Free AI Audit →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── CHEAT SHEET ── */}
           <span className="ae-section-label">Quick Reference</span>
@@ -618,10 +600,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           {/* ── CTA 7 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Step 1 on the checklist is the hardest to do alone. We built a tool that does it for you, for free. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            <Link href="/blindspot">Run the Free Audit Now →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── WHAT MATTERS AND WHAT DOESN'T ── */}
           <span className="ae-section-label">Myth Busting</span>
@@ -677,21 +656,18 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           {/* ── CTA 8 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Stop investing in signals that AI ignores. See which ones actually matter for your business.</p>
-            <Link href="/blindspot">Discover What AI Actually Sees →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── CTA BLOCK ── */}
-          <div className="ae-cta-block not-prose">
-            <h3>Your Competitors Are Not Waiting</h3>
-            <p>Every day you are not building AI authority signals, your competitors are. The businesses that act first will own the recommendation space in their markets. Do not let them lock you out. Get the data that shows exactly where you stand and what to fix first.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>ChatGPT Recommends Businesses Every Day — Is Yours One of Them?</h3>
+              <p>You can&apos;t pay to be recommended by ChatGPT. You have to earn it — through authoritative content, citations from credible sources, and consistent entity signals. We build all three. Free scan shows your current ChatGPT citation rate.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free ChatGPT Visibility Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              </div>
             </div>
-          </div>
 
           {/* ── FAQ ── */}
           <span className="ae-section-label">FAQ</span>
@@ -700,10 +676,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <h3>Why is my competitor showing up when I have better reviews?</h3>
           <p>ChatGPT cannot see reviews the way humans do. It prioritizes structured expertise, not popularity. If your competitor explains their services more clearly, with detailed process pages, FAQ schema, and consistent information across platforms, they will get picked over a business with more five-star reviews but less structured content.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Reviews are not the problem. Your authority signals are. See what is actually missing.</p>
-            <Link href="/blindspot">Audit Your Authority Signals →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           <h3>Can small businesses really appear in ChatGPT?</h3>
           <p>Yes. We have seen small service providers surface when they have strong authority content, clear niches, and consistent online information. Size is not the deciding factor. Clarity and expertise depth are. A solo attorney who publishes the definitive guide on probate in their city can outperform a fifty-person firm with a generic website.</p>
@@ -711,10 +684,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <h3>How long does it take to shift ChatGPT recommendations?</h3>
           <p>Typically around 90 days. Sometimes faster if your foundation is strong, sometimes longer if comprehensive optimization is needed. The timeline depends on how many authority signals you need to build versus how many already exist. <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">Understanding how ChatGPT chooses businesses</Link> accelerates the process significantly.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Want to know if your foundation is strong enough for a fast turnaround? There is one way to find out.</p>
-            <Link href="/blindspot">Check Your Foundation →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           <h3>Is this worth it for a local business?</h3>
           <p>Considering ChatGPT has over 100 million weekly users and usually gives only three to five recommendations per query, the visibility upside is significant. Local businesses that appear in AI recommendations report dramatically higher conversion rates because the leads are pre-qualified by the AI before they ever reach out.</p>
@@ -722,19 +692,13 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <h3>Do I need to rewrite my entire website?</h3>
           <p>No. Most businesses need strategic authority content that demonstrates niche expertise. Your existing site can stay. You are adding authority layers, not rebuilding from scratch. Focus on building the content AI needs to confidently recommend you, not on redesigning what is already working.</p>
 
-          <div className="ae-cta-inline not-prose">
-            <p>Need to know exactly which pages to add and which to fix? Our report maps it out.</p>
-            <Link href="/blindspot">Get Your Custom Action Plan →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           <h3>What if my competitor is already showing up?</h3>
           <p>That is actually valuable intelligence. It means ChatGPT sees your category as credible and is willing to cite businesses in your space. Your goal is to demonstrate clearer, deeper expertise so you appear alongside or instead of them. The fact that your competitor appears proves the opportunity exists.</p>
 
           {/* ── CTA 9 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>Your competitor already proved the opportunity. Now it is your turn to claim it.</p>
-            <Link href="/blindspot">See Your Competitor Comparison →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -742,10 +706,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           {/* ── CTA 10 ── */}
-          <div className="ae-cta-inline not-prose">
-            <p>You have the knowledge. You have the expertise. You just have not made it visible to AI. Let us fix that.</p>
-            <Link href="/blindspot">Make Your Expertise Visible →</Link>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card">
@@ -769,15 +730,30 @@ export default function WhyChatGPTRecommendsCompetitors() {
         </div>
 
         {/* ── FINAL CTA ── */}
-        <div className="ae-final-cta">
-          <h2>Stop Watching Competitors Get Recommended. Start Getting Recommended Yourself.</h2>
-          <p>Your competitors are showing up in ChatGPT because they have stronger authority signals, not because they are better than you. The difference between being recommended and being invisible comes down to how your expertise is documented, structured, and verified online. Get your free Blind Spot Report and see exactly what ChatGPT sees when someone asks about your industry.</p>
-          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
-            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
-            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
-          </div>
-        </div>
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                ChatGPT Is Making Business Recommendations in Your Market Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free ChatGPT Visibility Scan →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
       </article>
     </>
   )
