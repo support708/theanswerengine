@@ -10,11 +10,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         password: { label: 'Password', type: 'password' },
       },
       async authorize(credentials) {
-        // Dev bypass: skip password check if DEV_AUTH_BYPASS is set
-        if (process.env.DEV_AUTH_BYPASS === 'true') {
-          return { id: 'admin', name: 'Admin', email: 'admin@theanswerengine.ai' };
-        }
-
+        // DEV_AUTH_BYPASS is disabled — always require password in all environments
         if (!credentials?.password || typeof credentials.password !== 'string') {
           return null;
         }
