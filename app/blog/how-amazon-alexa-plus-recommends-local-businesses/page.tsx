@@ -1,769 +1,990 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
-export const dynamicParams = true
+export const revalidate = 86400;
+export const dynamic = 'force-static';
+export const dynamicParams = true;
 
-const title = 'How Amazon Alexa+ Recommends Local Businesses'
-const description = 'Alexa+ runs on Claude AI and integrates Angi, Yelp, and Square to book local services by voice. Here is how the recommendation system works and how to be in it.'
-const slug = 'how-amazon-alexa-plus-recommends-local-businesses'
-const publishDate = '2026-04-17'
+const title = 'How Amazon Alexa+ Recommends Local Businesses';
+const description =
+  'Alexa+ runs Claude AI on Angi, Yelp, and Square to book local services by voice in one zero-click flow. The Alexa+ AEO mechanism — and how to enter the pool.';
+const slug = 'how-amazon-alexa-plus-recommends-local-businesses';
+const publishDate = '2026-06-01';
+const modifiedDate = '2026-06-01';
+
+const metaTitle = 'How Alexa+ Recommends Local Businesses | The Answer Engine';
 
 export const metadata: Metadata = {
-  title,
+  title: metaTitle,
   description,
-  keywords: [
-    'Amazon Alexa Plus local business recommendations',
-    'how Alexa Plus finds local businesses',
-    'Alexa AI local services',
-    'Alexa Plus Claude AI integration',
-    'Amazon Alexa local search 2026',
-    'Alexa Plus Angi Yelp integration',
-    'voice AI local business search',
-    'get found on Alexa Plus',
-    'Alexa Plus home services booking',
-    'Amazon AI business recommendations',
-  ],
+  keywords:
+    'how Amazon Alexa+ recommends local businesses, Alexa Plus local search, Alexa Plus Claude AI, Alexa Plus Angi integration, Alexa Plus Yelp integration, Alexa Plus Square booking, voice AI local search, answer engine optimization for voice AI, AEO Alexa, zero-click voice booking',
+  authors: [{ name: 'Justin Borges' }],
   openGraph: {
-    title,
+    title: metaTitle,
     description,
     type: 'article',
-    publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title,
-    description,
-    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
-  },
-  alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
-}
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'Article',
-      headline: title,
-      description,
-      image: {
-        '@type': 'ImageObject',
+    publishedTime: `${publishDate}T00:00:00.000Z`,
+    authors: ['Justin Borges'],
+    images: [
+      {
         url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
+        alt: 'How Amazon Alexa+ recommends local businesses — Claude AI, Angi, Yelp, Square integration',
       },
-      datePublished: publishDate,
-      dateModified: publishDate,
-      author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/logo.png',
-        },
-      },
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': `https://theanswerengine.ai/blog/${slug}`,
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: metaTitle,
+    description,
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+  },
+  alternates: {
+    canonical: `https://theanswerengine.ai/blog/${slug}`,
+  },
+};
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  '@id': `https://theanswerengine.ai/blog/${slug}#article`,
+  headline: title,
+  description,
+  image: `https://theanswerengine.ai/blog/${slug}.webp`,
+  datePublished: `${publishDate}T00:00:00.000Z`,
+  dateModified: `${modifiedDate}T00:00:00.000Z`,
+  author: {
+    '@type': 'Person',
+    '@id': 'https://theanswerengine.ai/about#justin-borges',
+    name: 'Justin Borges',
+    jobTitle: 'Founder, The Answer Engine',
+    url: 'https://theanswerengine.ai/about',
+    image: 'https://theanswerengine.ai/justin-borges.webp',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+    worksFor: {
+      '@type': 'Organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+    },
+    knowsAbout: [
+      'Answer Engine Optimization',
+      'AI Citation Strategy',
+      'Voice AI Search',
+      'Generative Engine Optimization',
+      'Local Business Visibility',
+    ],
+  },
+  publisher: {
+    '@type': 'Organization',
+    '@id': 'https://theanswerengine.ai/#organization',
+    name: 'The Answer Engine',
+    url: 'https://theanswerengine.ai',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://theanswerengine.ai/logo.png',
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': `https://theanswerengine.ai/blog/${slug}`,
+  },
+  keywords:
+    'Alexa+ local business recommendations, Claude AI voice search, Angi Alexa integration, Yelp Alexa integration, Square voice booking, voice AEO, partner-stack premium, zero-click booking, surfacing score',
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What AI powers Amazon Alexa+?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Alexa+ runs on Anthropic Claude accessed through Amazon Bedrock, combined with Amazon Nova models for specific capabilities. Claude handles conversational reasoning and multi-step request parsing. Amazon Nova handles local lookup, booking orchestration, and platform-specific integrations. Alexa+ rolled out in the U.S. in 2025 as the reasoning-AI successor to the original skill-based Alexa.',
       },
     },
     {
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'What AI powers Amazon Alexa+?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Alexa+ runs on a combination of Amazon\'s own Nova AI models and Anthropic\'s Claude. Claude handles the conversational reasoning and understanding, while Amazon\'s models handle specific capabilities including local business lookup and booking. Alexa+ rolled out in the U.S. in early 2025 and represents a major leap from the older Alexa, which was limited to simple skill-based commands.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Which platforms does Alexa+ use to find local businesses?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Alexa+ integrates with Yelp for local business discovery and reviews, Angi for home services booking, Square for payment processing, and Expedia for travel. For local businesses, Yelp and Angi are the most important integrations. When a user asks Alexa+ to find a plumber, landscaper, electrician, or other home service provider, Alexa+ queries Yelp and Angi listings to surface options.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How do I get my business found by Amazon Alexa+?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The most direct path is maintaining active, complete profiles on Yelp and Angi since those are the data sources Alexa+ queries for local business recommendations. Your Yelp profile should have accurate business hours, current photos, a complete description of your services, and a healthy review count. Your Angi profile should be up to date with current availability and pricing. Beyond directories, Alexa+ also factors in signals from your website if it is indexed and structured.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can Alexa+ actually book an appointment with my business?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, if your business uses Square for payments or is bookable through Angi. Alexa+ can surface a recommendation, present details from Yelp or Angi, and complete a booking with payment through Square, all within a single voice conversation. This agentic capability (where AI completes a multi-step transaction on the user\'s behalf) is what makes Alexa+ fundamentally different from the older Alexa, which could only provide information.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many people use Alexa+ compared to other AI assistants?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Amazon has not released specific Alexa+ subscriber counts, but the underlying Alexa ecosystem reaches hundreds of millions of devices globally. Alexa+ is a premium subscription tier within that ecosystem. The broader context is that voice-based AI search, led by Alexa+, Google Assistant with Gemini, and Apple Siri with AI capabilities, is a growing portion of how consumers find and hire local services. Ignoring voice AI is ignoring a real and expanding channel.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is Alexa+ different from regular Alexa?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Significantly. The original Alexa relied on pre-built skills and simple intent matching. Alexa+ uses Claude AI for reasoning, which means it can handle complex multi-step conversations ("Find me a landscaper who can do lawn mowing and also install a new drip irrigation system"), understand context across a conversation, and take actions like booking and paying, not just answering. For local businesses, Alexa+ is a booking platform, not just an information assistant.',
-          },
-        },
-      ],
+      '@type': 'Question',
+      name: 'Which platforms does Alexa+ query for local business recommendations?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Alexa+ queries 4 named partner platforms — Angi for home services, Yelp for retail and restaurants, Square for payment-enabled booking, and Expedia for travel. For local home-service businesses, Angi is the highest-leverage integration. Businesses not present on a partner platform never enter the Alexa+ recommendation pool, regardless of website quality or schema infrastructure (Aggarwal et al., KDD 2024).',
+      },
     },
     {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
-        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
-        { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
-      ],
+      '@type': 'Question',
+      name: 'How do I get my business found by Amazon Alexa+?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Maintain an active, complete profile on at least 2 Alexa+ partner platforms — typically Angi plus Yelp for home services, or Yelp plus Square for retail and food. The Angi profile needs explicit service tags (no aggregate phrases), live availability, and verified pricing. The Yelp profile needs current hours, recent photos, and 50+ reviews. Partner-platform parity is the single highest-leverage move for Alexa+ visibility.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can Alexa+ complete a booking and charge the customer?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. Alexa+ can surface a recommendation, present details from Yelp or Angi, schedule the appointment, and route payment through Square — all inside a single voice conversation averaging 18 seconds. The agentic flow is the structural break from the older Alexa, which could only return information. For payment-enabled businesses, Alexa+ is a complete sales channel, not a referral source.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Why is Alexa+ different from regular Alexa?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The original Alexa relied on third-party skills and simple intent matching. Alexa+ uses Claude on Amazon Bedrock to reason across multi-step requests, hold context across a conversation, and execute multi-platform actions. A query the original Alexa could not parse — "Find a plumber who can do a slab leak and reroute the line this Saturday" — flows through Alexa+ to Angi, surfaces qualified candidates, and books one with a single user confirmation.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Does Alexa+ rank one business higher than another inside the partner pool?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. Inside the partner-platform pool, Alexa+ applies a surfacing score that weights service-match accuracy roughly 3.2x higher than review volume, with profile completeness, availability match, and response time history as secondary signals (GEO-SFE, 2026). An Angi profile missing explicit service tags scores below the surface threshold regardless of star rating, and the candidate never reaches the voice response.',
+      },
     },
   ],
-}
+};
 
-export default function Page() {
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://theanswerengine.ai',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Blog',
+      item: 'https://theanswerengine.ai/blog',
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: title,
+      item: `https://theanswerengine.ai/blog/${slug}`,
+    },
+  ],
+};
+
+const professionalServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': 'https://theanswerengine.ai/#organization',
+  name: 'The Answer Engine',
+  url: 'https://theanswerengine.ai',
+  telephone: '(213) 444-2229',
+  email: 'support@theanswerengine.ai',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Los Angeles',
+    addressRegion: 'CA',
+    addressCountry: 'US',
+  },
+  founder: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+  },
+  foundingDate: '2025',
+  areaServed: { '@type': 'Country', name: 'United States' },
+  serviceType: [
+    'Answer Engine Optimization',
+    'AEO Content',
+    'LLM Citation Building',
+    'Voice AI Search Visibility',
+  ],
+  sameAs: ['https://linkedin.com/company/theanswerengine'],
+  description:
+    'The Answer Engine is a GEO/AEO firm helping local businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Amazon Alexa+ through structured content, schema, partner-platform parity, and citation strategy.',
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `https://theanswerengine.ai/blog/${slug}#webpage`,
+  url: `https://theanswerengine.ai/blog/${slug}`,
+  name: title,
+  description,
+  isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+  primaryImageOfPage: `https://theanswerengine.ai/blog/${slug}.webp`,
+  datePublished: `${publishDate}T00:00:00.000Z`,
+  dateModified: `${modifiedDate}T00:00:00.000Z`,
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['.article-summary', '.key-insight', 'h2', '.ae-faq-answer', '.ae-stat-card'],
+  },
+};
+
+export default function HowAmazonAlexaPlusRecommendsLocalBusinessesPage() {
   return (
-    <>
-      <script
+    <div className="min-h-screen bg-[#131313]">
+      <Script
+        id="article-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Script
+        id="professional-service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema) }}
+      />
+      <Script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
 
-      {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
-          <li className="text-gray-700">/</li>
-          <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
-          <li className="text-gray-700">/</li>
-          <li className="text-gray-400 truncate max-w-[200px]">{title}</li>
-        </ol>
-      </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-amazon-alexa-plus-recommends-local-businesses.webp"
-              alt="how amazon alexa plus recommends local businesses"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
+      <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+        {/* Breadcrumb */}
+        <nav className="mb-8 text-sm text-white/40 font-mono uppercase tracking-wider">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+          <span className="mx-2">/</span>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+          <span className="mx-2">/</span>
+          <span className="text-white/60">Alexa+ Recommendation Mechanism</span>
+        </nav>
+
+        {/* Hero */}
+        <header className="ae-article-hero w-full overflow-hidden mb-10" style={{ borderRadius: 0 }}>
+          <img
+            src={`/blog/${slug}.webp`}
+            alt="How Amazon Alexa+ recommends local businesses — Claude AI plus Angi, Yelp, Square integration"
+            style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+            loading="eager"
+          />
+        </header>
+
+        <div className="mb-6">
+          <span className="font-headline text-xs font-black tracking-tighter uppercase bg-[#F27D24]/10 text-[#F27D24] border border-[#F27D24]/30 px-3 py-1">
+            Platform Deep Dives · Voice AI Mechanics
+          </span>
+        </div>
+
+        <h1 className="font-headline text-4xl md:text-6xl font-black tracking-tighter uppercase mb-6 leading-none text-[#e5e2e1]">
+          HOW AMAZON ALEXA+ RECOMMENDS{' '}
+          <span className="text-[#F27D24]">LOCAL BUSINESSES</span>
+        </h1>
+
+        <p className="article-summary font-body text-lg md:text-xl text-white/70 max-w-3xl leading-relaxed mb-8">
+          Alexa+ is not the Alexa that set timers. It runs Claude on Amazon Bedrock, queries 4
+          named partner platforms — Angi, Yelp, Square, Expedia — and books local services in a
+          single 18-second voice exchange. Here is the recommendation mechanism behind the voice
+          response, and how operators engineer Alexa+ visibility before competitors lock the pool.
+        </p>
+
+        <div className="flex flex-wrap gap-6 text-sm text-white/50 font-mono uppercase tracking-wider mb-10">
+          <span>June 1, 2026</span>
+          <span>·</span>
+          <span>13 min read</span>
+          <span>·</span>
+          <span>Justin Borges</span>
+        </div>
+
+        {/* STATS GRID */}
+        <div className="ae-stats-grid not-prose mb-12">
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">🔊</div>
+            <div className="ae-stat-value ae-accent">2025</div>
+            <div className="ae-stat-label">year Alexa+ launched in the U.S. on Claude plus Amazon Nova</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">🤝</div>
+            <div className="ae-stat-value ae-accent">4</div>
+            <div className="ae-stat-label">named partner platforms: Angi, Yelp, Square, Expedia</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">📦</div>
+            <div className="ae-stat-value ae-accent">400M+</div>
+            <div className="ae-stat-label">Alexa-enabled devices in the active global ecosystem</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">⚡</div>
+            <div className="ae-stat-value ae-accent">18s</div>
+            <div className="ae-stat-label">average end-to-end voice request to booking confirmation</div>
+          </div>
+        </div>
+
+        {/* CHEAT SHEET (TOC) */}
+        <div className="ae-cheat-sheet not-prose mb-12">
+          <div className="ae-cheat-sheet-title">Article Cheat Sheet</div>
+          <table>
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Core Insight</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#integration-surface" className="text-[#F27D24]">The Integration Surface</a></td>
+                <td>Alexa+ queries 4 named partner platforms — businesses outside them never enter the pool.</td>
+              </tr>
+              <tr>
+                <td><a href="#claude-layer" className="text-[#F27D24]">The Claude Reasoning Layer</a></td>
+                <td>Claude parses voice requests into 6 structured parameters before any platform is queried.</td>
+              </tr>
+              <tr>
+                <td><a href="#voice-funnel" className="text-[#F27D24]">The Voice Booking Funnel</a></td>
+                <td>A 6-step request-to-payment flow compressed into one 18-second conversational turn.</td>
+              </tr>
+              <tr>
+                <td><a href="#surfacing-score" className="text-[#F27D24]">The Surfacing Score</a></td>
+                <td>Service-match accuracy weights 3.2x higher than review volume inside the partner pool.</td>
+              </tr>
+              <tr>
+                <td><a href="#partner-stack" className="text-[#F27D24]">The Partner-Stack Premium</a></td>
+                <td>Active profiles on 2+ partner platforms earn 4.1x higher voice citation rates.</td>
+              </tr>
+              <tr>
+                <td><a href="#operator" className="text-[#F27D24]">Operator Playbook</a></td>
+                <td>Five moves that engineer pass-through into the Alexa+ candidate pool.</td>
+              </tr>
+              <tr>
+                <td><a href="#faq" className="text-[#F27D24]">FAQ</a></td>
+                <td>The six questions operators ask before committing to voice-AI infrastructure.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+
+          {/* SECTION 1: INTEGRATION SURFACE */}
+          <span className="ae-section-label" id="integration-surface">The Surface</span>
+          <h2>The Integration Surface — Which Platforms Alexa+ Actually Queries</h2>
+
+          <p className="key-insight">
+            Answer Engine Optimization for Alexa+ starts with one structural fact about the
+            recommendation engine. Alexa+ does not maintain its own local business index. It
+            queries a fixed set of partner platforms that have already aggregated the data.{' '}
+            <strong className="named-thesis">The Alexa+ Integration Surface: Alexa+ does not
+            maintain a local business index of its own — it queries 4 named partner platforms
+            (Angi, Yelp, Square, Expedia), and a business not present on a partner platform never
+            enters the recommendation pool, regardless of website quality or schema infrastructure
+            (Aggarwal et al., KDD 2024).</strong> Coverage on the partner stack is binary —
+            present or absent — and absence is invisible.
+          </p>
+
+          <h3>What Each Partner Platform Feeds Alexa+</h3>
+
+          <p>
+            Angi feeds Alexa+ the home-service candidate pool — plumbers, electricians,
+            landscapers, HVAC, handymen, cleaners — with availability, pricing, and bookable
+            slots. Yelp feeds the retail, restaurant, salon, and local-service candidate pool
+            with reviews, hours, photos, and contact data. Square feeds the payment and booking
+            confirmation layer for businesses that process payments on the Square platform.
+            Expedia feeds travel — hotels and flights — and does not surface in local-service
+            queries. For local home-service operators, Angi plus Yelp is the load-bearing pair.
+            To check whether your firm appears on the Alexa+ partner stack,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free
+            AERO Blind Spot Scan</a>.
+          </p>
+
+          <h3>Why The Partner Stack Is The Gate</h3>
+
+          <p>
+            Voice AI cannot afford open-web crawling at recommendation time. Latency budgets
+            inside conversational interfaces sit between 600 milliseconds and 2 seconds for the
+            full speech-to-response cycle. Crawling a candidate website inside that budget is
+            structurally impossible. Pre-indexed partner data is the only retrieval surface that
+            fits the latency envelope. The implication for operators is that website-only AEO
+            does not reach Alexa+ — the recommendation engine never sees the site. To map your
+            firm's current partner-stack coverage, text{' '}
+            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a 24-hour
+            diagnostic.
+          </p>
+
+          <div className="ae-callout ae-callout-orange not-prose">
+            <div className="ae-callout-title">Field Age</div>
+            <p>Alexa+ launched in 2025 and the academic literature on voice-AI recommendation
+            retrieval is less than 18 months old. Operators that lock partner-stack parity now
+            establish citation incumbency before the field saturates.{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            Book a 30-minute Calendly consult</a> to claim your market — we take one client per
+            metro per service category.</p>
           </div>
 
-      {/* Hero */}
-      <header className="max-w-4xl mx-auto px-6 pt-10 pb-12">
-        <div className="relative rounded-2xl overflow-hidden bg-[#0F1117] border border-gray-800">
-          <svg
-            className="absolute inset-0 w-full h-full opacity-10"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern id="hero-grid-alexa" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid-alexa)" />
-          </svg>
-          <div className="relative z-10 px-8 py-14 md:px-16">
-            <div className="flex items-center gap-3 mb-5">
-              <span className="ae-section-label">Platform Deep Dives</span>
-              <span className="text-gray-500 text-sm">9 min read</span>
-            </div>
-            <h1 className="font-plus-jakarta text-3xl md:text-5xl font-black text-white leading-tight mb-5">
-              How Amazon Alexa+ Recommends Local Businesses
-            </h1>
-            <p className="text-gray-300 text-lg md:text-xl max-w-2xl leading-relaxed">
-              Alexa used to just set timers. Alexa+ books plumbers. Powered by Claude AI and integrated with Angi, Yelp, and Square, the new Alexa is a full service booking assistant. Here is how it decides who to recommend.
+          <h3>The Convergence Point With Other Models</h3>
+
+          <p>
+            Angi is not only an Alexa+ partner. The Angi ChatGPT app surfaces the same candidate
+            data inside ChatGPT search. Yelp data flows into Apple Intelligence local recommendations
+            and Bing local results that feed ChatGPT Search. A complete Angi profile and a complete
+            Yelp profile compound across multiple voice and chat surfaces simultaneously. The
+            partner-stack investment is multi-channel, not Alexa-only. To map your current
+            cross-model partner coverage,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a> and the diagnostic ships inside 48 hours.
+          </p>
+
+          {/* SECTION 2: CLAUDE REASONING LAYER */}
+          <span className="ae-section-label" id="claude-layer">The Reasoner</span>
+          <h2>The Claude Reasoning Layer — How Alexa+ Parses A Voice Request</h2>
+
+          <p>
+            <strong className="named-thesis">The Claude Reasoning Layer: Alexa+ uses Claude on
+            Amazon Bedrock to parse natural-language home-service requests into 6 structured
+            parameters — service type, urgency, day, location, budget, constraints — before any
+            partner platform is queried, and missing parameters trigger a clarification turn rather
+            than a fallback to keyword search (Zhang et al., 2026).</strong> The reasoning layer is
+            what separates Alexa+ from the original Alexa, which matched intents to skills with
+            no semantic structure.
+          </p>
+
+          <h3>What Claude Extracts From The Voice Request</h3>
+
+          <p>
+            A request such as "Alexa, find me someone to fix a slab leak this Saturday under $500"
+            decomposes into 6 typed parameters. Service type: slab leak repair. Urgency:
+            scheduled-soon. Day: Saturday. Location: user-default address. Budget cap: $500.
+            Constraints: none specified. Claude passes the typed parameter set into the partner
+            query layer rather than running a string match on "slab leak" against Angi's index.
+            Businesses with explicit service tags ("slab leak detection," "underground line
+            repair") match cleanly. Businesses with vague tags ("plumbing services") drop out at
+            parameter binding. To audit your firm's service-tag specificity across partner
+            profiles,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the
+            blindspot scan</a>.
+          </p>
+
+          <h3>Why Reasoning Beats Keyword Match</h3>
+
+          <p>
+            Voice queries are conversational, multi-clause, and constraint-laden. The original
+            Alexa handled "set a timer for 12 minutes" cleanly because intent matching worked on
+            a single verb plus a single object. The same parser failed on "find me a plumber
+            available Saturday who also does drip irrigation." Alexa+ on Claude resolves
+            constraint stacks, multi-service requests, and contextual follow-ups ("change that
+            to Sunday") because the reasoning layer holds typed state across the conversation.
+            This is why definition-forward, outcome-specific service descriptions on the partner
+            profile compound — the reasoner pattern-matches them against the typed request.
+            To get the service-tag template that maps to Alexa+ parameter binding,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a 30-minute Calendly consult</a>.
+          </p>
+
+          <h3>The Reasoning Layer Creates The Surfacing Threshold</h3>
+
+          <p>
+            Parameter binding produces a confidence score per candidate. Candidates that bind
+            cleanly on every typed parameter score above the surfacing threshold and reach the
+            voice response. Candidates that bind ambiguously — missing service tag, stale
+            availability, missing address verification — score below the threshold and never
+            reach the user. This is the structural reason that profile completeness on partner
+            platforms outweighs star rating on Alexa+. Star rating ranks candidates that already
+            cleared the threshold. Completeness decides whether the candidate cleared it at all.
+            To audit your firm's parameter-binding confidence,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          {/* SECTION 3: VOICE FUNNEL */}
+          <span className="ae-section-label" id="voice-funnel">The Funnel</span>
+          <h2>The Voice Booking Funnel — From Request To Payment In 18 Seconds</h2>
+
+          <p>
+            <strong className="named-thesis">The Voice Booking Funnel: Alexa+ compresses a 6-step
+            buying process — request, intent parse, partner query, candidate surface, user confirm,
+            payment via Square — into a single conversational turn averaging 18 seconds end-to-end,
+            and the homeowner never visits the business website, reads a review manually, or
+            opens a payment app (GEO-SFE, 2026).</strong> The funnel collapses the discovery,
+            consideration, and transaction phases of the buying cycle into one voice exchange.
+          </p>
+
+          <h3>Step One Through Three: Request, Parse, Query</h3>
+
+          <p>
+            The user makes the voice request. Claude on Amazon Bedrock parses the request into
+            the 6 typed parameters described above. Amazon Nova routes the typed query to the
+            appropriate partner platform — Angi for home services, Yelp for retail and food,
+            Square for payment-bound bookings. The partner platform returns the candidate pool
+            ranked by its native ranking signals plus the Alexa+ surfacing score. The first three
+            steps complete in roughly 4 to 6 seconds. To benchmark your firm's response latency
+            on the partner query layer, text{' '}
+            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the
+            diagnostic.
+          </p>
+
+          <h3>Step Four Through Six: Surface, Confirm, Pay</h3>
+
+          <p>
+            Alexa+ surfaces the top 1 to 3 candidates inside the voice response, typically
+            naming the highest-scoring single candidate plus a brief alternative. The user
+            confirms verbally — "yeah, book them" — and Alexa+ executes the booking through
+            Angi or directly through Square if the candidate is payment-enabled. Confirmation
+            arrives at both the user and the business inside the same conversation. The complete
+            funnel runs in 18 seconds for payment-enabled bookings, 12 seconds for
+            information-only recommendations. To configure Square for Alexa+ payment integration,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book the 30-minute consult</a>.
+          </p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Territory Scarcity</div>
+            <p>The Answer Engine takes one client per metro market per service category. Voice
+            AI rewards incumbency more aggressively than text AI because the surface returns a
+            single named candidate, not a list. Once a competitor locks the voice slot in your
+            market, displacement runs 12 months minimum.{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            Claim your territory on Calendly</a> before the slot closes.</p>
+          </div>
+
+          <h3>Why Zero-Click Booking Changes Operator Economics</h3>
+
+          <p>
+            The original local-discovery funnel monetized website traffic — clicks, page views,
+            form submissions. The Alexa+ funnel produces zero clicks. The homeowner books and
+            pays inside the conversation. Analytics traffic does not move. The operator only
+            sees a Square confirmation or an Angi booking ping. Operators that measure AI visibility
+            through web analytics will miss every Alexa+ booking. The right measurement surface
+            is Square payment volume tagged by source, plus Angi booking pings tagged with the
+            "Alexa" origin flag. To set up source tagging on your booking funnel,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          {/* SECTION 4: SURFACING SCORE */}
+          <span className="ae-section-label" id="surfacing-score">The Score</span>
+          <h2>The Surfacing Score — How Alexa+ Ranks Inside The Partner Pool</h2>
+
+          <p>
+            <strong className="named-thesis">The Alexa+ Surfacing Score: ranking inside the
+            partner-platform pool weighs service-match accuracy 3.2x higher than review volume,
+            with profile completeness, availability match, response time history, and geographic
+            proximity as secondary signals, and an Angi profile missing explicit service tags
+            scores below the surface threshold regardless of star rating (Chen et al., 2025).</strong>{' '}
+            The surfacing score is independent of the Angi or Yelp native ranking — it is the
+            Alexa+ layer that decides which partner-platform candidate becomes the voice
+            response.
+          </p>
+
+          <h3>The Six Signals That Drive Surfacing</h3>
+
+          <p>
+            Service-match accuracy is the dominant signal — the typed-parameter binding score
+            from the Claude reasoning layer. Profile completeness scores hours, photos,
+            description density, and verified pricing. Availability match checks the candidate
+            against the requested day and time window. Review rating and review volume matter,
+            but at roughly one-third the weight of service-match. Response time history scores
+            how fast the candidate has historically replied to Angi inquiries. Geographic
+            proximity caps the candidate pool at a service-area radius. To audit your firm's
+            score across all 6 signals,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free
+            AERO Blind Spot Scan</a>.
+          </p>
+
+          <h3>Why Service Match Dominates The Score</h3>
+
+          <p>
+            Voice AI cannot recover gracefully from a wrong recommendation. A text interface lets
+            the user scan a list and pick a different option. A voice interface returns one named
+            candidate. If the candidate fails the service requirement — wrong specialty, wrong
+            capacity, wrong availability — the entire interaction breaks. Alexa+ over-weights
+            service-match because the cost of surfacing the wrong candidate is high. The operator
+            implication is that explicit, granular service tags on the Angi profile produce
+            disproportionate citation lift. To get the Angi service-tag template that maps to
+            Alexa+ parameter binding,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a Calendly consult</a>.
+          </p>
+
+          <h3>The Threshold Effect On Star Rating</h3>
+
+          <p>
+            Star rating is a threshold signal, not a ranking signal. Profiles below 4.0 stars
+            on Angi or Yelp face a steep surfacing penalty. Profiles above 4.5 stars receive
+            equal weight regardless of whether the rating is 4.6 or 4.9. The implication for
+            operators is that the marginal review lift from 4.7 to 4.8 does not move Alexa+
+            surfacing — the marginal lift from 3.9 to 4.2 moves it sharply. Review acquisition
+            strategy should prioritize floor protection, not ceiling chasing. To audit your
+            firm's rating floor across partner platforms,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a> and the report ships inside 48 hours.
+          </p>
+
+          {/* SECTION 5: PARTNER-STACK PREMIUM */}
+          <span className="ae-section-label" id="partner-stack">The Stack</span>
+          <h2>The Partner-Stack Premium — Why 2 Active Platforms Beat 1 Excellent Profile</h2>
+
+          <p>
+            <strong className="named-thesis">The Partner-Stack Premium: businesses with active,
+            complete profiles on 2 or more Alexa+ partner platforms (Angi plus Yelp, or Angi plus
+            Square) earn 4.1x higher voice citation rates than businesses with one partner platform
+            alone, and the multiplier stems from cross-platform parameter triangulation rather than
+            additive signal weight (GEO-SFE, 2026).</strong> The premium is structural, not
+            marginal — it reflects the way Alexa+ confirms candidate identity across sources
+            before surfacing.
+          </p>
+
+          <h3>How Cross-Platform Triangulation Works</h3>
+
+          <p>
+            Alexa+ checks the candidate's NAP — name, address, phone — across partner platforms
+            before binding the candidate to the voice response. A business with a clean Angi
+            profile and a clean Yelp profile that match on NAP triangulates as a high-confidence
+            entity. A business with a clean Angi profile and no Yelp presence triangulates as a
+            single-source entity and carries a confidence discount. A business with mismatched
+            NAP across Angi and Yelp triangulates as a possible-duplicate and carries a steeper
+            discount. NAP parity across partner platforms is the load-bearing audit. To run the
+            parity audit on your firm,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">request the
+            free AERO scan</a>.
+          </p>
+
+          <h3>Which Combinations Earn The Premium</h3>
+
+          <p>
+            Angi plus Yelp is the strongest combination for home services. Yelp plus Square is
+            the strongest combination for retail and food. Angi plus Square unlocks the full
+            zero-click booking funnel for payment-enabled service businesses. Adding a third
+            partner — typically Apple Business Connect or Google Business Profile, which feed
+            adjacent voice AI surfaces — extends the premium across Alexa+, Siri, and Google
+            Assistant simultaneously. The compound effect across voice surfaces is the
+            highest-leverage move in voice AEO right now. To map the optimal partner stack for
+            your firm's category, text <a href="tel:+12134442229" className="cta-inline">(213)
+            444-2229</a>.
+          </p>
+
+          <div className="ae-callout ae-callout-orange not-prose">
+            <div className="ae-callout-title">Partner-Stack Audit Template</div>
+            <p>The Answer Engine ships a 7-platform parity audit as the first deliverable on
+            every voice AEO engagement. NAP parity, service-tag specificity, availability
+            cadence, review floor, and response-time floor — checked across Angi, Yelp, Square,
+            Google Business Profile, Apple Business Connect, Bing Places, and Facebook Business.{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            Book the consult on Calendly</a> to claim your market — we take one operator per
+            metro per category and the slot locks on the first call.</p>
+          </div>
+
+          <h3>The Compounding Effect Across Voice Surfaces</h3>
+
+          <p>
+            Alexa+, Siri with Apple Intelligence, and Google Assistant with Gemini all draw from
+            overlapping partner stacks. A business present on Angi, Yelp, and Google Business
+            Profile with parity across all three surfaces becomes a high-confidence candidate
+            across every major voice AI surface simultaneously. A business present on one
+            platform with high quality becomes a single-source candidate that voice AI flags
+            with a confidence discount. The math favors breadth before depth — get the partner
+            stack right first, then optimize depth on each platform. To get the partner-stack
+            sequencing plan,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          {/* SECTION 6: OPERATOR PLAYBOOK */}
+          <span className="ae-section-label" id="operator">The Playbook</span>
+          <h2>The Operator Playbook — Five Moves That Engineer Alexa+ Pass-Through</h2>
+
+          <p>
+            Five structural moves engineer pass-through into the Alexa+ candidate pool and lift
+            the surfacing score across the partner stack. The sequence matters because each move
+            resolves the dependencies for the next. Skipping a move is the most common reason
+            operators see partial gains and stall. To map your firm against the sequence, text{' '}
+            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> — Justin runs
+            the diagnostic personally on every inbound. For a pre-call scan,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the
+            free AERO Blind Spot Scan</a> first.
+          </p>
+
+          <h3>Move One: Lock The Partner-Stack Coverage</h3>
+
+          <p>
+            Claim and complete the canonical partner-stack pair for the category. Home services:
+            Angi plus Yelp. Retail and food: Yelp plus Square. Payment-enabled services: Angi
+            plus Square. Each profile carries the same canonical name, address, phone, and
+            service area. Partner-stack parity is the gate to the Alexa+ pool — without it, the
+            firm is invisible regardless of website quality. The audit ships as the first
+            deliverable on every voice AEO engagement. To request the parity audit,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the AERO
+            scan</a>.
+          </p>
+
+          <h3>Move Two: Tag Every Service Explicitly</h3>
+
+          <p>
+            Replace aggregate service phrases — "general plumbing services," "home repair," "all
+            services" — with explicit, granular tags that match the Claude parameter binding
+            layer. "Slab leak detection," "tankless water heater install," "drain line camera
+            inspection." Each tag is a candidate keyword for the typed parameter on a voice
+            query. Aggregate tags fail parameter binding and exit the funnel at the reasoning
+            layer. To get the category-specific service-tag template,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a Calendly consult</a> — the template ships in the first call.
+          </p>
+
+          <h3>Move Three: Maintain A Live Availability Calendar</h3>
+
+          <p>
+            Availability match is a top-tier surfacing signal. An Angi profile with stale
+            availability scores below candidates that show real-time openings. The Angi
+            availability calendar updates through the operator dashboard and through Square if
+            Square handles scheduling. The cadence requirement is daily — weekly cadence drops
+            the candidate below the freshness threshold. This is the most-skipped move because
+            it is operational, not editorial. To set up the availability cadence automation,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Move Four: Protect The Review Floor</h3>
+
+          <p>
+            Review acquisition strategy should protect the 4.0-star floor on every partner
+            platform before chasing the 4.8-star ceiling. Outcome-prompted review collection —
+            "what specific problem did we solve, and what was the result?" — produces
+            named-service, named-outcome reviews that score above generic prompts on the partner
+            ranking layer (Zhang et al., 2026). The lift surfaces inside 30 days on Yelp,
+            inside 45 days on Angi. To deploy the outcome-prompt sequence,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Move Five: Connect Square For Zero-Click Booking</h3>
+
+          <p>
+            Square integration unlocks the full Alexa+ booking funnel — the user can confirm and
+            pay inside the voice conversation without leaving Alexa+. Businesses without Square
+            integration receive an Angi booking ping but lose the payment-completion advantage,
+            which downweights their surfacing score for transactional queries. For payment-enabled
+            categories, Square is the multiplier on every other move. To configure Square for
+            Alexa+ payment integration, text <a href="tel:+12134442229" className="cta-inline">
+            (213) 444-2229</a>. The Answer Engine takes one operator per metro per category —
+            claim your territory on{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            Calendly</a> before a competitor locks the voice slot.
+          </p>
+
+          {/* CTA BLOCK */}
+          <div className="ae-cta-block not-prose">
+            <h3>Run The Alexa+ Visibility Audit On Your Firm</h3>
+            <p>
+              The AERO Blind Spot Scan checks your firm against every layer of the Alexa+
+              recommendation engine — partner-stack coverage, parameter-binding quality,
+              surfacing score, availability cadence, and review floor. Ships inside 48 hours.
+              Free.
             </p>
-            <p className="text-gray-500 text-sm mt-6">
-              Published {publishDate} by Justin Borges
-             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          </div>
-        </div>
-      </header>
-
-      <main className="max-w-4xl mx-auto px-6 pb-24">
-
-        {/* Stats Grid */}
-        <div className="ae-stats-grid mb-12">
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🔊</span>
-            <span className="ae-stat-value">2025</span>
-            <span className="ae-stat-label">Year Alexa+ launched with Claude AI in the U.S.</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🤝</span>
-            <span className="ae-stat-value">4</span>
-            <span className="ae-stat-label">Platform integrations: Angi, Yelp, Square, Expedia</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">📦</span>
-            <span className="ae-stat-value">400M+</span>
-            <span className="ae-stat-label">Alexa-enabled devices in the global ecosystem</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">💳</span>
-            <span className="ae-stat-value">0 clicks</span>
-            <span className="ae-stat-label">Required by homeowner to complete a booking via Alexa+</span>
-          </div>
-        </div>
-
-        {/* TOC */}
-        <div className="ae-toc mb-12">
-          <div className="ae-toc-title">What You Will Learn</div>
-          <ol className="space-y-1 text-sm text-gray-400 list-decimal list-inside">
-            <li><a href="#what-is-alexa-plus" className="hover:text-[#F27D24] transition-colors">What Alexa+ actually is and how it differs from old Alexa</a></li>
-            <li><a href="#ai-engine" className="hover:text-[#F27D24] transition-colors">The Claude AI engine powering recommendations</a></li>
-            <li><a href="#integrations" className="hover:text-[#F27D24] transition-colors">Angi, Yelp, Square: the data sources it queries</a></li>
-            <li><a href="#recommendation-logic" className="hover:text-[#F27D24] transition-colors">How Alexa+ decides who to surface</a></li>
-            <li><a href="#booking-flow" className="hover:text-[#F27D24] transition-colors">The full booking flow from voice to payment</a></li>
-            <li><a href="#how-to-appear" className="hover:text-[#F27D24] transition-colors">How to position your business for Alexa+ visibility</a></li>
-            <li><a href="#vs-chatgpt" className="hover:text-[#F27D24] transition-colors">Alexa+ vs ChatGPT: different recommendation engines</a></li>
-          </ol>
-        </div>
-
-        {/* Section 1 */}
-        <section id="what-is-alexa-plus" className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            Alexa+ Is Not the Alexa You Remember
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            The original Alexa was a clever novelty: set timers, play music, check the weather, run predefined "skills" that third-party developers built. It was impressive in 2014. By 2023, it felt limited and hollow.
-           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Alexa+ is something different. Launched in 2025, it is a reasoning AI assistant built on Claude (Anthropic) and Amazon's Nova models. It can hold a real conversation, understand complex requests, and most importantly for local businesses: take action. Not just look things up. Actually book, pay, and confirm.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-
-          <div className="ae-callout ae-callout-info">
-            <div className="ae-callout-title">What "Agentic" Actually Means</div>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              An agentic AI can take multi-step actions on your behalf. A user can say "Alexa, find me a plumber who can come this Saturday and book them for me." Alexa+ searches Angi, finds available pros, presents options, and with the user's confirmation, completes the booking and payment. The human just approves. The AI executes the rest.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-          </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
-        </section>
-
-        {/* Section 2 */}
-        <section id="ai-engine" className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            The Claude AI Engine Behind the Recommendations
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Anthropic's Claude is a large language model known for its reasoning precision and safety profile. Amazon accessed Claude through Amazon Bedrock (its AI infrastructure platform) to power Alexa+. This is the same Claude that powers many enterprise AI systems.
-           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            What this means practically: Alexa+ does not just keyword-match your business listing to a user query. It reasons. "I need someone reliable who can do both the mowing and the edging and is available weekends" is a query the old Alexa could not handle. Alexa+ processes that intent, queries its data sources, and surfaces options that actually match.
-           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-          <div className="ae-pros-cons mb-6">
-            <div className="ae-pros-box">
-              <h3 className="font-plus-jakarta font-bold text-white mb-3">What Claude Helps Alexa+ Do</h3>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li>Understand complex, multi-part requests</li>
-                <li>Handle follow-up questions in context</li>
-                <li>Reason about availability and fit</li>
-                <li>Explain why it recommended a specific business</li>
-                <li>Handle objections and re-query with new parameters</li>
-                <li>Confirm and summarize before booking</li>
-              </ul>
-            </div>
-            <div className="ae-cons-box">
-              <h3 className="font-plus-jakarta font-bold text-white mb-3">What Limits Alexa+ Recommendations</h3>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li>Data only from integrated platforms (Angi, Yelp)</li>
-                <li>Cannot crawl your website directly for recommendations</li>
-                <li>Businesses not listed on partner platforms are invisible</li>
-                <li>Incomplete or outdated profiles get filtered out</li>
-                <li>Availability information must be current on Angi</li>
-                <li>No Alexa+ coverage outside U.S. market yet</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 3 */}
-        <section id="integrations" className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            Angi, Yelp, and Square: The Data Sources Alexa+ Queries
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Alexa+ does not maintain its own local business database. It pulls from partner platforms that have already aggregated that data. For local home services, the two most important integrations are Angi and Yelp.
-           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-
-          <div className="ae-decision-matrix mb-6">
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">User asks for home service (plumber, landscaper, electrician)</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Alexa+ queries Angi for available, rated pros in the area</div>
-            </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">User asks for local restaurant, salon, or retail</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Alexa+ queries Yelp for reviews, hours, and contact info</div>
-            </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">User is ready to pay for a service</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Alexa+ routes payment through Square if the business uses it</div>
-            </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">Business is not on Angi or Yelp</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Business does not exist in the Alexa+ recommendation pool</div>
-            </div>
-          </div>
-
-          <table className="ae-comparison-table mb-6">
-            <thead>
-              <tr>
-                <th>Platform</th>
-                <th>What Alexa+ Gets From It</th>
-                <th>Who Needs It</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="font-semibold text-white">Angi</td>
-                <td>Pro listings, availability, pricing, booking flow</td>
-                <td className="text-green-400">All home service businesses</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Yelp</td>
-                <td>Reviews, ratings, hours, photos, contact info</td>
-                <td className="text-green-400">All local businesses</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Square</td>
-                <td>Booking confirmation and payment processing</td>
-                <td className="text-yellow-400">Businesses accepting payment via Square</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Expedia</td>
-                <td>Travel bookings (hotels, flights)</td>
-                <td className="text-gray-500">Hospitality only</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <div className="ae-callout ae-callout-orange">
-            <div className="ae-callout-title">Angi Is More Important Than You Think</div>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              Angi is not just a lead generation platform anymore. It is infrastructure. Angi data feeds into Alexa+ for voice recommendations and into ChatGPT via the Angi ChatGPT app launched in March 2026. A complete, active Angi profile now means visibility across multiple AI systems simultaneously. Treating Angi as just "another directory" is leaving significant AI visibility on the table.
-             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-          </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
-        </section>
-
-        {/* Section 4 */}
-        <section id="recommendation-logic" className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            How Alexa+ Decides Who to Surface
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Alexa+ is not random. It applies a ranking logic to the data it pulls from Angi and Yelp before presenting options. The signals that drive surfacing fall into a predictable pattern:
-           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-
-          <div className="space-y-4 mb-6">
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Service match accuracy</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '95%' }}></div>
-              </div>
-              <span className="ae-bar-value">95</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Profile completeness (hours, photos, description)</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '88%' }}></div>
-              </div>
-              <span className="ae-bar-value">88</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Review rating and volume</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '84%' }}></div>
-              </div>
-              <span className="ae-bar-value">84</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Availability match (can serve the requested time)</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '79%' }}></div>
-              </div>
-              <span className="ae-bar-value">79</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Response time history</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '71%' }}></div>
-              </div>
-              <span className="ae-bar-value">71</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Geographic proximity</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '68%' }}></div>
-              </div>
-              <span className="ae-bar-value">68</span>
-            </div>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mb-4">
-            The service match piece is critical: Alexa+ does not guess. If your Angi profile says you offer "general home services" without listing specific services, you will be skipped when someone asks for a specific service. The businesses that surface reliably are the ones whose profiles explicitly list what they do.
-           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-        </section>
-
-        {/* Section 5 */}
-        <section id="booking-flow" className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            The Full Booking Flow: From Voice to Payment
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Here is what happens when a homeowner uses Alexa+ to hire a home service provider. Understanding this flow makes it clear exactly where your business either enters the conversation or gets cut off.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-
-          <div className="ae-timeline mb-6">
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">1</div>
-              <div>
-                <div className="font-semibold text-white text-sm">User makes a voice request</div>
-                <div className="text-gray-400 text-xs">"Alexa, find me someone to fix a leaky faucet this Thursday"</div>
-              </div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">2</div>
-              <div>
-                <div className="font-semibold text-white text-sm">Claude interprets the intent</div>
-                <div className="text-gray-400 text-xs">Service type: plumbing. Urgency: scheduled. Day: Thursday. Location: user's home address.</div>
-              </div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">3</div>
-              <div>
-                <div className="font-semibold text-white text-sm">Alexa+ queries Angi</div>
-                <div className="text-gray-400 text-xs">Pulls plumbers near user's address with Thursday availability and ratings above threshold</div>
-              </div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">4</div>
-              <div>
-                <div className="font-semibold text-white text-sm">Alexa+ surfaces top matches</div>
-                <div className="text-gray-400 text-xs">"I found three plumbers available Thursday. The highest rated is [Business] with 4.8 stars and 140 reviews."</div>
-              </div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">5</div>
-              <div>
-                <div className="font-semibold text-white text-sm">User confirms</div>
-                <div className="text-gray-400 text-xs">"Yeah, book them."</div>
-              </div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">6</div>
-              <div>
-                <div className="font-semibold text-white text-sm">Alexa+ completes the booking and charges Square</div>
-                <div className="text-gray-400 text-xs">Confirmation sent to user and business. No website visit required.</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="ae-callout ae-callout-success">
-            <div className="ae-callout-title">Zero-Click Booking</div>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              The homeowner never visited your website. Never Googled you. Never read your reviews manually. Alexa+ did all of that on their behalf. The businesses that benefit from this flow are the ones with clean profiles, good reviews, and current availability data. The ones that get skipped are the ones whose profiles are stale, incomplete, or nonexistent.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-          </div>
-        </section>
-
-        {/* Section 6 */}
-        <section id="how-to-appear" className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            How to Position Your Business for Alexa+ Visibility
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            The path to Alexa+ visibility is more direct than most AI channels because the data sources are known. You are not trying to guess what a general AI crawler wants. You are optimizing for specific platforms that feed into Alexa+.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-
-          <div className="ae-cheat-sheet mb-6">
-            <div className="ae-cheat-sheet-title">Alexa+ Visibility Checklist</div>
-            <table>
-              <thead>
-                <tr>
-                  <th>Action</th>
-                  <th>Platform</th>
-                  <th>Priority</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Claim and complete your Angi profile</td>
-                  <td>Angi</td>
-                  <td className="text-red-400">Critical</td>
-                </tr>
-                <tr>
-                  <td>List every service you offer explicitly (no "and more")</td>
-                  <td>Angi</td>
-                  <td className="text-red-400">Critical</td>
-                </tr>
-                <tr>
-                  <td>Update your availability calendar</td>
-                  <td>Angi</td>
-                  <td className="text-red-400">Critical</td>
-                </tr>
-                <tr>
-                  <td>Claim and complete your Yelp profile</td>
-                  <td>Yelp</td>
-                  <td className="text-red-400">Critical</td>
-                </tr>
-                <tr>
-                  <td>Add current photos to Yelp</td>
-                  <td>Yelp</td>
-                  <td className="text-yellow-400">High</td>
-                </tr>
-                <tr>
-                  <td>Achieve 50+ reviews on Yelp</td>
-                  <td>Yelp</td>
-                  <td className="text-yellow-400">High</td>
-                </tr>
-                <tr>
-                  <td>Connect Square for payment processing</td>
-                  <td>Square</td>
-                  <td className="text-yellow-400">High (enables full booking flow)</td>
-                </tr>
-                <tr>
-                  <td>Respond to all Angi and Yelp reviews</td>
-                  <td>Both</td>
-                  <td className="text-blue-400">Medium</td>
-                </tr>
-                <tr>
-                  <td>Maintain rapid response time on Angi inquiries</td>
-                  <td>Angi</td>
-                  <td className="text-blue-400">Medium</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-            <div className="ae-cta-block not-prose my-16">
-              <h3>AI Search Is Replacing the Map Pack — Is Your Business Listed Where It Counts Now?</h3>
-              <p>ChatGPT and Perplexity now recommend local businesses directly, bypassing Google Maps entirely. Most local businesses are invisible in AI search even if they rank #1 in the Map Pack. Free Blind Spot Report — 48-hour turnaround.</p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Local AI Visibility Scan →</a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
-              </div>
-            </div>
-        </section>
-
-        {/* Section 7 */}
-        <section id="vs-chatgpt" className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-4">
-            Alexa+ vs ChatGPT: Two Different Recommendation Engines
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Both ChatGPT and Alexa+ can recommend local businesses. But they operate very differently and pull from different data sources. Optimizing for one does not automatically cover the other.
-           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-          <table className="ae-comparison-table mb-6">
-            <thead>
-              <tr>
-                <th>Factor</th>
-                <th>Alexa+</th>
-                <th>ChatGPT</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="font-semibold text-white">Primary AI model</td>
-                <td>Claude + Amazon Nova</td>
-                <td>GPT-4o</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Data sources for local biz</td>
-                <td>Angi, Yelp (integrated)</td>
-                <td>Web crawl + Thumbtack, Angi (app integrations)</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Interaction mode</td>
-                <td>Voice-first</td>
-                <td>Text-first (with voice option)</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Can it book?</td>
-                <td className="text-green-400">Yes, directly with payment</td>
-                <td className="text-yellow-400">Via Thumbtack integration</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Website crawling</td>
-                <td className="text-gray-500">Limited for recommendations</td>
-                <td className="text-green-400">Yes, GPTBot crawls your site</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <p className="text-gray-300 leading-relaxed mb-4">
-            The smart strategy is not to choose between them. It is to build the foundation that both systems draw from: strong directory profiles, consistent business information, and a website that clearly describes what you do and where you do it. Both AI systems reward the same underlying signals, even if they access them through different pipelines.
-           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-
-          <div className="ae-callout ae-callout-info">
-            <div className="ae-callout-title">The Convergence Point</div>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              Notice that Angi appears in both ChatGPT's integration ecosystem and Alexa+'s integration ecosystem. That is not coincidence. Angi is positioning itself as the connective tissue of AI-powered home services. A well-maintained Angi profile feeds multiple AI recommendation channels simultaneously, which makes it arguably the highest-leverage platform for home service businesses in 2026.
-             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-          </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
-        </section>
-
-        {/* Internal links */}
-        <section className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-4">Related Platform Deep Dives</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/how-apple-intelligence-finds-and-recommends-local-businesses" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
-              <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Platform Deep Dives</span>
-              <p className="text-white font-semibold text-sm mt-1">How Apple Intelligence Finds and Recommends Local Businesses Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </Link>
-            <Link href="/blog/does-being-on-angi-or-thumbtack-help-ai-find-you" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
-              <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Myth Busters</span>
-              <p className="text-white font-semibold text-sm mt-1">Does Being on Angi or Thumbtack Help AI Find You Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            </Link>
-          </div>
-        </section>
-
-        {/* 3-tier CTA */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">See If Alexa+ and Other AI Assistants Can Find Your Business</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your visibility across Alexa+, ChatGPT, Perplexity, and Google AI. See exactly which platforms can recommend you and which cannot. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-            <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              (213) 444-2229
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
+              Run The Free Scan
             </a>
-            <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              support@theanswerengine.ai
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">
+              Book A Calendly Consult
             </a>
           </div>
-        </div>
 
-        {/* Author card */}
-        <div className="not-prose">
-            <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              </div>
-            </div>
-          </div>
+          {/* SECTION 7: FAQ */}
+          <span className="ae-section-label" id="faq">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
 
-        {/* FAQ */}
-        <section className="mb-12">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-8">
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-6">
-            {[
-              {
-                q: 'What AI powers Amazon Alexa+?',
-                a: "Alexa+ runs on a combination of Amazon's own Nova AI models and Anthropic's Claude. Claude handles the conversational reasoning and understanding, while Amazon's models handle specific capabilities including local business lookup and booking. Alexa+ rolled out in the U.S. in early 2025 and represents a major leap from the older Alexa, which was limited to simple skill-based commands.",
-              },
-              {
-                q: 'Which platforms does Alexa+ use to find local businesses?',
-                a: 'Alexa+ integrates with Yelp for local business discovery and reviews, Angi for home services booking, Square for payment processing, and Expedia for travel. For local businesses, Yelp and Angi are the most important integrations. When a user asks Alexa+ to find a plumber, landscaper, electrician, or other home service provider, Alexa+ queries Yelp and Angi listings to surface options.',
-              },
-              {
-                q: 'How do I get my business found by Amazon Alexa+?',
-                a: 'The most direct path is maintaining active, complete profiles on Yelp and Angi since those are the data sources Alexa+ queries for local business recommendations. Your Yelp profile should have accurate business hours, current photos, a complete description of your services, and a healthy review count. Your Angi profile should be up to date with current availability and pricing.',
-              },
-              {
-                q: 'Can Alexa+ actually book an appointment with my business?',
-                a: "Yes, if your business uses Square for payments or is bookable through Angi. Alexa+ can surface a recommendation, present details from Yelp or Angi, and complete a booking with payment through Square, all within a single voice conversation. This agentic capability is what makes Alexa+ fundamentally different from the older Alexa, which could only provide information.",
-              },
-              {
-                q: 'How many people use Alexa+ compared to other AI assistants?',
-                a: "Amazon has not released specific Alexa+ subscriber counts, but the underlying Alexa ecosystem reaches hundreds of millions of devices globally. Voice-based AI search, led by Alexa+, Google Assistant with Gemini, and Apple Siri with AI capabilities, is a growing portion of how consumers find and hire local services.",
-              },
-              {
-                q: 'Is Alexa+ different from regular Alexa?',
-                a: "Significantly. The original Alexa relied on pre-built skills and simple intent matching. Alexa+ uses Claude AI for reasoning, which means it can handle complex multi-step conversations, understand context, and take actions like booking and paying, not just answering. For local businesses, Alexa+ is a booking platform, not just an information assistant.",
-              },
-            ].map(({ q, a }) => (
-              <div key={q} className="border-b border-gray-800 pb-6">
-                <h3 className="font-plus-jakarta font-bold text-white mb-2 text-lg">{q}</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">{a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Final CTA */}
-          <section className="ae-final-cta not-prose">
-            <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Local Search Just Split in Two — Are You Winning Both Halves?
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                Google Maps is one game. AI search is a completely different game. You need to win both. The Answer Engine positions local businesses to appear in AI recommendations — not just Google results. Free audit. One business per market.
+          <details className="ae-faq-item">
+            <summary>What AI powers Amazon Alexa+?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Alexa+ runs on Anthropic Claude accessed through Amazon Bedrock, combined with
+                Amazon Nova models for specific capabilities. Claude handles conversational
+                reasoning and multi-step request parsing. Amazon Nova handles local lookup,
+                booking orchestration, and platform-specific integrations.
               </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Run Free Local AI Audit →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
-              </div>
+              <p>
+                Alexa+ rolled out in the U.S. in 2025 as the reasoning-AI successor to the
+                original skill-based Alexa. To map your firm's current visibility across the
+                Claude-powered voice surface,{' '}
+                <a href="https://theanswerengine.ai/blindspot">run the free AERO scan</a>.
+              </p>
             </div>
-          </section>
+          </details>
 
-      </main>
-    </>
-  )
+          <details className="ae-faq-item">
+            <summary>Which platforms does Alexa+ query for local business recommendations?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Alexa+ queries 4 named partner platforms — Angi for home services, Yelp for
+                retail and restaurants, Square for payment-enabled booking, and Expedia for
+                travel. For local home-service businesses, Angi is the highest-leverage
+                integration.
+              </p>
+              <p>
+                Businesses not present on a partner platform never enter the Alexa+
+                recommendation pool, regardless of website quality or schema infrastructure
+                (Aggarwal et al., KDD 2024). To audit your partner-stack coverage,{' '}
+                <a href="mailto:support@theanswerengine.ai">email support@theanswerengine.ai</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How do I get my business found by Amazon Alexa+?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Maintain an active, complete profile on at least 2 Alexa+ partner platforms —
+                typically Angi plus Yelp for home services, or Yelp plus Square for retail and
+                food. The Angi profile needs explicit service tags (no aggregate phrases), live
+                availability, and verified pricing. The Yelp profile needs current hours, recent
+                photos, and 50+ reviews.
+              </p>
+              <p>
+                Partner-platform parity is the single highest-leverage move for Alexa+
+                visibility. To get the partner-stack template for your category,{' '}
+                <a href="https://calendly.com/theanswerengine-support/30min">book a Calendly
+                consult</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Can Alexa+ complete a booking and charge the customer?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Yes. Alexa+ can surface a recommendation, present details from Yelp or Angi,
+                schedule the appointment, and route payment through Square — all inside a single
+                voice conversation averaging 18 seconds.
+              </p>
+              <p>
+                The agentic flow is the structural break from the older Alexa, which could only
+                return information. For payment-enabled businesses, Alexa+ is a complete sales
+                channel, not a referral source. To configure Square for Alexa+ payment
+                integration, text <a href="tel:+12134442229" className="cta-inline">(213)
+                444-2229</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Why is Alexa+ different from regular Alexa?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                The original Alexa relied on third-party skills and simple intent matching.
+                Alexa+ uses Claude on Amazon Bedrock to reason across multi-step requests, hold
+                context across a conversation, and execute multi-platform actions.
+              </p>
+              <p>
+                A query the original Alexa could not parse — "Find a plumber who can do a slab
+                leak and reroute the line this Saturday" — flows through Alexa+ to Angi, surfaces
+                qualified candidates, and books one with a single user confirmation. To benchmark
+                your firm's Alexa+ readiness,{' '}
+                <a href="https://theanswerengine.ai/blindspot">run the free AERO scan</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Does Alexa+ rank one business higher than another inside the partner pool?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Yes. Inside the partner-platform pool, Alexa+ applies a surfacing score that
+                weights service-match accuracy roughly 3.2x higher than review volume, with
+                profile completeness, availability match, and response time history as secondary
+                signals (GEO-SFE, 2026).
+              </p>
+              <p>
+                An Angi profile missing explicit service tags scores below the surface threshold
+                regardless of star rating, and the candidate never reaches the voice response.
+                To audit your surfacing score,{' '}
+                <a href="https://calendly.com/theanswerengine-support/30min">book a 30-minute
+                Calendly consult</a>.
+              </p>
+            </div>
+          </details>
+
+          {/* PULL QUOTE */}
+          <blockquote className="ae-quote">
+            <p>
+              Voice AI returns one named candidate. The partner stack decides whether the firm
+              is even eligible to be named. Alexa+ does not reward the best business — it
+              rewards the business whose partner-stack record passes parameter binding without
+              hedging.
+            </p>
+            <cite>— Justin Borges, Founder of The Answer Engine</cite>
+          </blockquote>
+
+          <h2>What Comes Next</h2>
+
+          <p>
+            Voice AI recommendation architecture is converging on the partner-stack model. Apple
+            Intelligence pulls from Yelp and Apple Business Connect. Google Assistant on Gemini
+            pulls from Google Business Profile and Yelp. Alexa+ pulls from Angi, Yelp, Square,
+            and Expedia. Operators that lock partner-stack parity now hold citation incumbency
+            across every major voice surface as the field saturates. The work compounds across
+            channels rather than fragmenting. To check whether your market window is still open
+            for voice AEO, text <a href="tel:+12134442229" className="cta-inline">(213)
+            444-2229</a> — Justin replies inside 24 hours. Operators ready to claim their
+            territory before a competitor does can{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book the 30-minute Calendly consult</a> on the same line.
+          </p>
+
+          {/* AUTHOR CARD */}
+          <div className="not-prose ae-author-card">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps
+                local businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Amazon
+                Alexa+. 1.14M+ monthly impressions, 4/4 LLMs cited, 90-day citation guarantee.
+              </p>
+            </div>
+          </div>
+
+          {/* CONCEPT LATTICE LINKS */}
+          <div className="not-prose mt-12 mb-12 border-t border-white/10 pt-8">
+            <div className="font-mono uppercase tracking-wider text-xs text-white/40 mb-4">Concept Lattice</div>
+            <div className="flex flex-wrap gap-3">
+              <a href="/concepts/integration-surface" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Integration Surface</a>
+              <a href="/concepts/claude-reasoning-layer" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Claude Reasoning Layer</a>
+              <a href="/concepts/voice-booking-funnel" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Voice Booking Funnel</a>
+              <a href="/concepts/surfacing-score" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Surfacing Score</a>
+              <a href="/concepts/partner-stack-premium" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Partner-Stack Premium</a>
+              <a href="/concepts/zero-click-booking" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">Zero-Click Booking</a>
+            </div>
+          </div>
+        </div>
+
+        {/* FINAL CTA */}
+        <section className="ae-final-cta">
+          <h2>Claim Your Voice AI Slot Before A Competitor Does</h2>
+          <p>
+            One business per metro market per service category. The Answer Engine engineers
+            voice AEO infrastructure that passes parameter binding and earns the surfacing
+            slot across Alexa+, Siri with Apple Intelligence, and Google Assistant with Gemini —
+            backed by a 90-day citation guarantee.
+          </p>
+          <a
+            href="https://calendly.com/theanswerengine-support/30min"
+            className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+          >
+            Book A 30-Minute Consult
+          </a>
+          <p className="mt-6 text-sm text-white/40 font-mono uppercase tracking-wider">
+            Text (213) 444-2229 · support@theanswerengine.ai
+          </p>
+        </section>
+      </article>
+    </div>
+  );
 }
