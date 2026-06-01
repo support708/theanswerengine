@@ -167,6 +167,15 @@ export default function AISearchForLawFirmsPage() {
               <span className="mx-2">/</span>
               <span className="text-white/60">AI Search for Law Firms</span>
             </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/ai-search-for-law-firms.webp"
+              alt="ai search for law firms"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
             <div className="mb-6 inline-block">
               <span className="font-headline text-xs font-black tracking-tighter uppercase bg-[#F27D24]/10 text-[#F27D24] border border-[#F27D24]/30 px-3 py-1 rounded">

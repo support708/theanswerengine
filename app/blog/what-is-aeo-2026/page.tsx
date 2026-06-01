@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     authors: ["Justin Borges"],
     images: [
       {
-        url: "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
+        url: 'https://theanswerengine.ai/blog/what-is-aeo-2026.webp',
         width: 1200,
         height: 630,
         alt: "The Answer Engine — Answer Engine Optimization",
@@ -50,7 +50,7 @@ export default function BlogPost() {
               "Answer Engine Optimization (AEO) is the discipline of being cited by ChatGPT, Perplexity, and Google AI Overviews. The 2026 definition, the academic research, and the operating system The Answer Engine uses to install permanent citation authority.",
             image: {
               "@type": "ImageObject",
-              url: "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
+              url: 'https://theanswerengine.ai/blog/what-is-aeo-2026.webp',
               width: 1200,
               height: 630,
             },
@@ -70,7 +70,7 @@ export default function BlogPost() {
               name: "The Answer Engine",
               logo: {
                 "@type": "ImageObject",
-                url: "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
+                url: 'https://theanswerengine.ai/blog/what-is-aeo-2026.webp',
               },
             },
             datePublished: "2026-05-30",
@@ -203,7 +203,7 @@ export default function BlogPost() {
             description:
               "Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) firm. We install permanent citation authority across ChatGPT, Perplexity, Google AI Overviews, Claude, and Gemini for one operator per territory.",
             url: "https://theanswerengine.ai",
-            logo: "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
+            logo: 'https://theanswerengine.ai/blog/what-is-aeo-2026.webp',
             telephone: "+1-213-444-2229",
             email: "support@theanswerengine.ai",
             address: {
@@ -290,6 +290,15 @@ export default function BlogPost() {
             <span className="mx-2 text-gray-700">&rsaquo;</span>
             <span className="text-gray-400">What Is AEO? Answer Engine Optimization 2026</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/what-is-aeo-2026.webp"
+              alt="what is aeo 2026"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Article Header */}
           <header className="mb-16">

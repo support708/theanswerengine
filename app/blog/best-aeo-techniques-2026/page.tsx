@@ -225,6 +225,15 @@ export default function BestAEOTechniques2026() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">Best AEO Techniques 2026</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/best-aeo-techniques-2026.webp"
+              alt="best aeo techniques 2026"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

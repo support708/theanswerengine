@@ -190,6 +190,15 @@ export default function WhyLocationPagesDisappearFromAI() {
           <span>/</span>
           <span className="text-gray-400">Location Pages & AI Results</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/why-your-location-pages-disappear-from-ai-results.webp"
+              alt="why your location pages disappear from ai results"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       <header className="max-w-4xl mx-auto px-6 pb-12">

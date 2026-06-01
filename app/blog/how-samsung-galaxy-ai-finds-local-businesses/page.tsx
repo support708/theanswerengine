@@ -224,6 +224,15 @@ export default function Page() {
             <span>/</span>
             <span className="text-gray-400">How Samsung Galaxy AI Finds Local Businesses</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-samsung-galaxy-ai-finds-local-businesses.webp"
+              alt="how samsung galaxy ai finds local businesses"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
         </div>
 
         {/* ── HEADER ── */}

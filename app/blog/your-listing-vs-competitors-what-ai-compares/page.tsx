@@ -230,6 +230,15 @@ function Breadcrumb() {
         </li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/your-listing-vs-competitors-what-ai-compares.webp"
+              alt="your listing vs competitors what ai compares"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

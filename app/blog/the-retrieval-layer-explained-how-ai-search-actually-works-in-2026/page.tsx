@@ -180,6 +180,15 @@ export default function Page() {
               <span className="mx-2">/</span>
               <span className="text-[rgba(229,226,225,0.7)]">The Retrieval Layer</span>
             </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/the-retrieval-layer-explained-how-ai-search-actually-works-in-2026.webp"
+              alt="the retrieval layer explained how ai search actually works in 2026"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
             <div className="mb-6">
               <span className="font-mono text-xs tracking-[0.25em] uppercase text-[#F27D24]">
