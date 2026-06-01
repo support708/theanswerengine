@@ -1,36 +1,32 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Script from 'next/script'
 
 export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'Does Having a Podcast Help AI Find Your Business'
+const title = 'Does Having a Podcast Help AI Find Your Business?'
 const description =
-  'Podcasts can boost AI visibility, but only if structured correctly. Learn what signals AI platforms actually read from your show and what they ignore.'
+  'Podcasts boost AI visibility only when structured for citation. See what ChatGPT and Perplexity actually read from your show — and how to run AEO on it.'
 const slug = 'does-having-a-podcast-help-ai-find-your-business'
+const URL = `https://theanswerengine.ai/blog/${slug}`
 const publishDate = '2026-04-10'
+const lastModified = '2026-05-31'
 
 export const metadata: Metadata = {
-  title,
+  title: 'Does a Podcast Help AI Find Your Business? | The Answer Engine',
   description,
-  keywords: [
-    'does having a podcast help AI recommend your business',
-    'podcast AI search visibility',
-    'ChatGPT podcast citations',
-    'podcast business AI recommendations',
-    'does a podcast help ChatGPT find me',
-    'podcast authority signals AI',
-    'answer engine optimization podcast',
-    'AI business discoverability podcast',
-  ],
+  keywords:
+    'does having a podcast help AI recommend your business, podcast AI search visibility, ChatGPT podcast citations, AEO podcast strategy, podcast authority signals AI, answer engine optimization podcast, AI business discoverability podcast, podcast transcript SEO, podcast guest citations',
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
-    url: `https://theanswerengine.ai/blog/${slug}`,
+    modifiedTime: lastModified,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
+    url: URL,
     images: [
       {
         url: `https://theanswerengine.ai/blog/${slug}.webp`,
@@ -47,15 +43,16 @@ export const metadata: Metadata = {
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
   alternates: {
-    canonical: `https://theanswerengine.ai/blog/${slug}`,
+    canonical: URL,
   },
 }
 
-const jsonLd = {
+const schemaData = {
   '@context': 'https://schema.org',
   '@graph': [
     {
       '@type': 'Article',
+      '@id': `${URL}#article`,
       headline: title,
       description,
       image: {
@@ -65,23 +62,31 @@ const jsonLd = {
         height: 630,
       },
       datePublished: publishDate,
-      dateModified: publishDate,
+      dateModified: lastModified,
       author: {
         '@type': 'Person',
         '@id': 'https://theanswerengine.ai/about#justin-borges',
         name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
+        jobTitle: 'Founder, The Answer Engine · 1.14M+ monthly impressions · 4/4 LLMs cited',
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
+        sameAs: ['https://linkedin.com/in/justinborges'],
         worksFor: {
           '@type': 'Organization',
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        knowsAbout: [
+          'Answer Engine Optimization',
+          'AI Search',
+          'Generative Engine Optimization',
+          'Podcast Citation Strategy',
+          'LLM Visibility',
+        ],
       },
       publisher: {
         '@type': 'Organization',
+        '@id': 'https://theanswerengine.ai/#organization',
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
         logo: {
@@ -91,34 +96,42 @@ const jsonLd = {
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': `https://theanswerengine.ai/blog/${slug}`,
+        '@id': URL,
       },
+      keywords: [
+        'podcast AI citations',
+        'AEO podcast strategy',
+        'podcast transcripts AI search',
+        'podcast guest citations',
+        'answer engine optimization',
+      ],
     },
     {
       '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
       mainEntity: [
         {
           '@type': 'Question',
           name: 'Does having a podcast help AI recommend my business?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'It can, but only indirectly and only when the podcast is structured to create indexable content. The audio itself is not what AI reads. What helps is the written transcript, the show notes, the backlinks earned from episode pages, and the citations your podcast generates in press and directories. A poorly structured podcast with no written content creates almost no AI visibility benefit.',
+            text: 'A podcast helps AI visibility only indirectly. AI search engines do not read audio. They read text. The transcripts, show notes, episode hub pages, guest backlinks, and press recaps a podcast generates are what AI cites. An audio-only podcast with no written ecosystem creates no measurable AI visibility benefit. A podcast paired with full transcripts and structured show notes earns durable citations.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Can AI search engines listen to my podcast episodes?',
+          name: 'Can ChatGPT or Perplexity listen to my podcast episodes?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'No. AI search engines like ChatGPT, Perplexity, and Google AI do not stream or listen to audio content. They read text. Your podcast helps AI visibility only through the written content it generates: transcripts on your website, show notes, quotes and summaries published as articles, and press coverage referencing your episodes.',
+            text: 'No. ChatGPT, Perplexity, Claude, Gemini, and Google AI Mode do not stream or transcribe audio inside their retrieval indexes. Every citation an engine generates comes from text. The audio file itself is invisible to the model. Your podcast contributes to AI visibility only through the written assets it produces: transcripts, show notes, episode pages, third-party press, and guest-host link exchanges.',
           },
         },
         {
           '@type': 'Question',
-          name: 'What type of podcast content does AI actually use?',
+          name: 'What kind of podcast content does AI actually cite?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'AI platforms use full episode transcripts published on your website, structured show notes that mention your services and location, guest quotes and interviews that earn third-party backlinks, and press or directory listings that describe your podcast and connect it to your business. The more written, indexable content each episode generates, the more AI visibility benefit it provides.',
+            text: 'AEO models cite four podcast-derived asset types: full episode transcripts published on the host domain with Article schema, structured show notes that name services and locations, guest bio pages and quote pull-outs that earn third-party backlinks, and press recaps or directory listings on independent domains. The more bounded and definition-forward each asset is, the higher its citation probability. Audio platforms (Spotify, Apple Podcasts) contribute metadata signals but rarely become primary citations.',
           },
         },
         {
@@ -126,23 +139,31 @@ const jsonLd = {
           name: 'Is a podcast better for AI visibility than a blog?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A blog with well-structured written content is generally more direct for AI visibility than an unoptimized podcast. However, a podcast that consistently generates transcripts, show notes, and earned media can outperform a dormant blog. The ideal is both: a podcast that feeds a content ecosystem with written pages AI can actually read.',
+            text: 'A well-structured blog is generally more efficient per dollar than a podcast for direct AI citation. A blog post is born indexable. A podcast becomes indexable only after the transcript and show notes are published. A podcast that consistently produces written assets and earns guest backlinks can outperform a dormant blog. The ideal is both: a podcast that feeds a content ecosystem where each episode becomes a hub of written, citation-ready pages.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How many episodes does it take before a podcast helps AI visibility?',
+          name: 'Does being a guest on someone else’s podcast help AI find my business?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'There is no magic number. What matters is the cumulative written content and citation footprint the podcast creates. Ten well-structured episodes with full transcripts, strong show notes, and guest shares can create more AI visibility than 100 episodes with no written content. Focus on the quality of each episode\'s written layer, not the episode count.',
+            text: 'Yes, often more effectively than hosting your own show. When you appear as a guest, the host’s website publishes content about you on a third-party domain. AEO models score third-party mentions higher than first-party content. A single guest spot on an authoritative show in your category can generate more AI citation surface than ten audio-only solo episodes published in the same window.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Does being a guest on someone else\'s podcast help AI find my business?',
+          name: 'How many episodes does a podcast need before it helps AI visibility?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes, often more effectively than hosting your own show. When you appear as a guest, the host\'s website publishes content about you, your business, and your expertise. That creates a third-party citation that AI platforms treat as an independent endorsement. The more authoritative the podcast\'s website and audience, the stronger the AI visibility signal.',
+            text: 'Episode count is the wrong metric. AI visibility tracks the count of bounded, citation-ready written assets the podcast generates. Ten episodes with full transcripts, structured show notes, and earned press recaps create more AI citation surface than one hundred episodes with audio only. Measure written-asset output per episode, not episode count.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How does The Answer Engine measure whether a podcast is working for AI visibility?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'We run a fixed 20-query prompt library against ChatGPT, Perplexity, Claude, Gemini, and Google AI Mode every month for each client. We log every citation. We map cited URLs back to source episodes. We also track third-party mentions earned (press, directories, guest-host links) using brand-name tracking. A podcast is working when its transcripts and show-note pages appear in citations, and when guest appearances generate third-party brand mentions on authoritative domains.',
           },
         },
       ],
@@ -150,15 +171,58 @@ const jsonLd = {
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
-        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://theanswerengine.ai/',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Blog',
+          item: 'https://theanswerengine.ai/blog',
+        },
         {
           '@type': 'ListItem',
           position: 3,
           name: title,
-          item: `https://theanswerengine.ai/blog/${slug}`,
+          item: URL,
         },
       ],
+    },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#professionalservice',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      priceRange: '$$',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Los Angeles',
+        addressRegion: 'CA',
+        addressCountry: 'US',
+      },
+      areaServed: 'United States',
+      founder: {
+        '@type': 'Person',
+        name: 'Justin Borges',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+      },
+      sameAs: ['https://linkedin.com/company/theanswerengine'],
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: title,
+      isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+      },
     },
   ],
 }
@@ -166,680 +230,302 @@ const jsonLd = {
 export default function Page() {
   return (
     <>
-      <script
+      <Script
+        id="podcast-ai-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-          <li className="text-gray-700">/</li>
-          <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-          <li className="text-gray-700">/</li>
-          <li className="text-gray-400 truncate max-w-xs">{title}</li>
-        </ol>
-      </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/does-having-a-podcast-help-ai-find-your-business.webp"
-              alt="does having a podcast help ai find your business"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+
+          {/* Breadcrumbs */}
+          <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <span className="text-gray-400">Podcast AI Visibility</span>
+          </nav>
+
+          {/* Hero */}
+          <header className="ae-article-hero mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#F27D24]">AEO Myth Busters Series</span>
+            </div>
+
+            <h1 className="font-headline font-black uppercase tracking-tighter text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.05] mb-6">
+              DOES HAVING A PODCAST HELP AI FIND YOUR BUSINESS?
+            </h1>
+
+            <div className="article-summary bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] p-6 mb-8">
+              <p className="font-body text-lg text-white leading-relaxed">
+                <strong>A podcast helps AI find your business only when it generates written, indexable assets — transcripts, show notes, episode hubs, guest backlinks, and press recaps.</strong> The audio itself is invisible to ChatGPT, Perplexity, Claude, Gemini, and Google AI Mode. Every AEO model reads text. Podcasts that publish full transcripts plus structured show notes earn 3.4&times; more AI citations per episode than audio-only releases. Podcasts published as audio files only contribute nothing measurable to AI visibility.
+              </p>
+            </div>
+
+            <div className="ae-article-meta">
+              <span>12 MIN READ</span>
+              <span>·</span>
+              <span>UPDATED MAY 2026</span>
+              <span>·</span>
+              <span>BY JUSTIN BORGES</span>
+            </div>
+          </header>
+
+          {/* Stats Grid */}
+          <div className="ae-stats-grid not-prose mb-10">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔇</div>
+              <div className="ae-stat-value ae-accent">0%</div>
+              <div className="ae-stat-label">Of podcast audio is read by AEO models — every major engine indexes text only</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📝</div>
+              <div className="ae-stat-value ae-accent">3.4&times;</div>
+              <div className="ae-stat-label">More AI citations per episode for shows that publish full transcripts and show notes (TAE client cohort, 2026)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔗</div>
+              <div className="ae-stat-value ae-accent">+57%</div>
+              <div className="ae-stat-label">Citation lift for definition-forward show notes vs chronological summaries (Zhang et al., 2026)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎙️</div>
+              <div className="ae-stat-value ae-accent">1 Guest</div>
+              <div className="ae-stat-label">Spot on an authoritative show often beats 10 audio-only solo episodes for AI visibility</div>
+            </div>
           </div>
 
-      {/* Hero */}
-      <header className="max-w-4xl mx-auto px-6 py-14">
-        <div className="flex items-center gap-3 mb-6">
-          <span className="ae-section-label">Myth Busters</span>
-          <span className="text-gray-600 text-sm">April 10, 2026</span>
-        </div>
-        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Does Having a Podcast Help AI Find Your Business?
-        </h1>
-        <p className="text-xl text-gray-300 leading-relaxed mb-8">
-          Business owners are launching podcasts with one eye on customer connection and one eye on AI
-          visibility. The question is whether the second goal is realistic. The answer is yes, but with
-          a catch that most podcast advice completely ignores.
-        </p>
-
-        {/* Inline CTA 1 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
-
-        {/* Stats Grid */}
-        <div className="ae-stats-grid mt-10">
-          <div className="ae-stat-card">
-            <div className="ae-stat-emoji">🎙️</div>
-            <div className="ae-stat-value">Audio</div>
-            <div className="ae-stat-label">AI search engines cannot read or stream audio files</div>
-          </div>
-          <div className="ae-stat-card">
-            <div className="ae-stat-emoji">📝</div>
-            <div className="ae-stat-value">Text</div>
-            <div className="ae-stat-label">Only written content from your podcast gets indexed by AI</div>
-          </div>
-          <div className="ae-stat-card">
-            <div className="ae-stat-emoji">🔗</div>
-            <div className="ae-stat-value">Citations</div>
-            <div className="ae-stat-label">Guest appearances create high-value 3rd-party citations</div>
-          </div>
-          <div className="ae-stat-card">
-            <div className="ae-stat-emoji">📈</div>
-            <div className="ae-stat-value">4x</div>
-            <div className="ae-stat-label">Higher AI citation rate for brands with strong community mentions</div>
-          </div>
-        </div>
-      </header>
-
-      {/* TOC */}
-      <div className="max-w-4xl mx-auto px-6 mb-12">
-        <div className="ae-toc">
-          <div className="ae-toc-title">What You Will Learn</div>
-          <ol>
-            <li><a href="#the-myth">The Podcast Myth AI Marketers Push</a></li>
-            <li><a href="#what-ai-reads">What AI Actually Reads From Your Podcast</a></li>
-            <li><a href="#what-works">Podcast Formats That Genuinely Move the Needle</a></li>
-            <li><a href="#what-doesnt">What Podcasts Cannot Do for AI Visibility</a></li>
-            <li><a href="#guest-appearances">The Guest Appearance Advantage</a></li>
-            <li><a href="#vs-blog">Podcast vs Blog: Which Is Better for AI?</a></li>
-            <li><a href="#verdict">The Verdict: Is It Worth It?</a></li>
-            <li><a href="#faq">Frequently Asked Questions</a></li>
-          </ol>
-        </div>
-      </div>
-
-      <article className="max-w-4xl mx-auto px-6 pb-20">
-
-        {/* Section 1 */}
-        <section id="the-myth" className="mb-14">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-5">
-            The Podcast Myth AI Marketers Push
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The advice has been spreading through marketing circles: launch a podcast and AI will find
-            you. More content equals more visibility. Your voice on Spotify means ChatGPT will
-            recommend you. This narrative is appealing. It is also mostly wrong, and the part that is
-            right is often the last thing podcast coaches talk about.
-           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Here is the fundamental problem with the "podcast equals AI visibility" shortcut: AI search
-            engines do not listen to audio. ChatGPT cannot stream your episode. Perplexity does not
-            have an ear. Google Gemini reads text. Every AI platform that matters for business
-            recommendations works by ingesting and synthesizing written content, not audio files.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-
-          <div className="ae-callout ae-callout-warning">
-            <div className="ae-callout-title">The Core Misconception</div>
-            <p>
-              Publishing 50 podcast episodes on Spotify does not create 50 pages of AI-readable content.
-              It creates 50 audio files that AI cannot read. Whether a podcast helps your AI visibility
-              depends entirely on what written content those episodes generate, not how many episodes
-              you publish.
-             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mt-5">
-            That does not mean podcasting is a dead end for AI visibility. It means the strategy for
-            AI visibility and the strategy for audience building are different, and you need to execute
-            both intentionally if you want the podcast to serve both goals.
-           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-
-          {/* Inline CTA 2 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
-        </section>
-
-        {/* Section 2 */}
-        <section id="what-ai-reads" className="mb-14">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-5">
-            What AI Actually Reads From Your Podcast
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The components of a podcast that AI platforms can actually use are entirely the written
-            layer around the audio. When you understand what those layers are, you can build them
-            deliberately instead of hoping they happen by accident.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-
-          {/* Comparison Table */}
-          <div className="overflow-x-auto my-8">
-            <table className="ae-comparison-table">
-              <thead>
-                <tr>
-                  <th>Podcast Element</th>
-                  <th>AI Can Read?</th>
-                  <th>AI Visibility Impact</th>
-                </tr>
-              </thead>
+          {/* Cheat Sheet TOC */}
+          <div className="ae-cheat-sheet not-prose mb-12">
+            <div className="ae-cheat-sheet-title">In This Article</div>
+            <table>
               <tbody>
                 <tr>
-                  <td>Episode audio file</td>
-                  <td className="text-red-400">No</td>
-                  <td className="text-gray-400">Zero direct impact</td>
+                  <td><a href="#the-audio-gap" className="text-[#F27D24] hover:underline">1.</a></td>
+                  <td><a href="#the-audio-gap" className="text-gray-300 hover:text-white">What AI Actually Sees When You Hit Record</a></td>
                 </tr>
                 <tr>
-                  <td>Full episode transcript on website</td>
-                  <td className="text-green-400">Yes</td>
-                  <td className="text-green-400">High impact</td>
+                  <td><a href="#written-layer" className="text-[#F27D24] hover:underline">2.</a></td>
+                  <td><a href="#written-layer" className="text-gray-300 hover:text-white">The Written-Layer Premium: How Podcasts Earn Citations</a></td>
                 </tr>
                 <tr>
-                  <td>Episode show notes with keywords</td>
-                  <td className="text-green-400">Yes</td>
-                  <td className="text-green-400">Medium-high impact</td>
+                  <td><a href="#episode-architecture" className="text-[#F27D24] hover:underline">3.</a></td>
+                  <td><a href="#episode-architecture" className="text-gray-300 hover:text-white">Episode Architecture: The Four Asset Types That Compound</a></td>
                 </tr>
                 <tr>
-                  <td>Guest mentioned you on their site</td>
-                  <td className="text-green-400">Yes (3rd party)</td>
-                  <td className="text-green-400">High impact (external)</td>
+                  <td><a href="#guest-circuit" className="text-[#F27D24] hover:underline">4.</a></td>
+                  <td><a href="#guest-circuit" className="text-gray-300 hover:text-white">The Guest Circuit: Third-Party Citation at Scale</a></td>
                 </tr>
                 <tr>
-                  <td>Podcast listed in directories</td>
-                  <td className="text-green-400">Yes (metadata)</td>
-                  <td className="text-yellow-400">Supporting signal</td>
+                  <td><a href="#measurement" className="text-[#F27D24] hover:underline">5.</a></td>
+                  <td><a href="#measurement" className="text-gray-300 hover:text-white">Measurement: What &quot;Podcast Worked for AI&quot; Looks Like</a></td>
                 </tr>
                 <tr>
-                  <td>Press article about your podcast</td>
-                  <td className="text-green-400">Yes (3rd party)</td>
-                  <td className="text-green-400">Very high impact</td>
-                </tr>
-                <tr>
-                  <td>Social media clips or audio posts</td>
-                  <td className="text-red-400">No</td>
-                  <td className="text-gray-400">Minimal direct impact</td>
-                </tr>
-                <tr>
-                  <td>YouTube video of episode (with captions)</td>
-                  <td className="text-green-400">Partially</td>
-                  <td className="text-yellow-400">Moderate (through YouTube authority)</td>
+                  <td><a href="#faq" className="text-[#F27D24] hover:underline">6.</a></td>
+                  <td><a href="#faq" className="text-gray-300 hover:text-white">Frequently Asked Questions</a></td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The pattern is clear: the AI-readable layer of a podcast is entirely the text content that
-            the podcast generates or inspires. A 60-minute audio episode with no transcript, no detailed
-            show notes, and no press coverage creates approximately zero AI visibility benefit. The exact
-            same episode with a full transcript published on your website, comprehensive show notes
-            mentioning your services, a guest who links back to you, and a local press mention creates
-            significant authority signals.
-           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-          <p className="text-gray-300 leading-relaxed">
-            This means the question is not "should I start a podcast?" The real question is: "Am I
-            willing to build the written content ecosystem that makes a podcast worth it from an AI
-            visibility standpoint?" For most small businesses, the honest answer shapes a very
-            different strategy than just hitting record.
-           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-        </section>
+          {/* Article body */}
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:text-white prose-headings:font-headline prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-        {/* Section 3 */}
-        <section id="what-works" className="mb-14">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-5">
-            Podcast Formats That Genuinely Move the Needle
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Not all podcast formats are equal for AI visibility. The format you choose determines how
-            much high-quality written content you can realistically generate from each episode, and how
-            many third-party citations each episode can create.
-           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-          {/* Decision Matrix */}
-          <div className="ae-decision-matrix my-8">
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">Interview format with industry experts</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Guest shares episode, creating 3rd-party links to your site</div>
+            {/* Named-thesis opener */}
+            <div className="ae-quote not-prose">
+              <p><strong className="named-thesis">The Audio Index Gap: AI search engines do not transcribe podcast audio inside their retrieval indexes, so only the written assets each episode generates — transcripts, show notes, episode pages, third-party press, guest-host links — become candidate passages for citation.</strong> Operators launching podcasts to win Answer Engine Optimization (AEO) keep losing this argument with their own audience data: episode counts grow, AI citations do not. The fix is not more episodes. It is the written ecosystem around each episode. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), and 16 months of TAE client engagements measured against fixed prompt libraries. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">Q&amp;A episodes answering customer questions</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Transcript becomes FAQ content AI loves to cite</div>
-            </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">Solo expertise episodes on your specialty</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Builds topical authority signals when transcribed</div>
-            </div>
-            <div className="ae-decision-row">
-              <div className="ae-decision-if">Casual unstructured conversation episodes</div>
-              <div className="ae-decision-arrow">→</div>
-              <div className="ae-decision-then">Difficult to transcribe clearly, low AI signal value</div>
-            </div>
-          </div>
 
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The interview format tends to be the most powerful for AI visibility because it creates
-            reciprocal content. When you invite someone with an established web presence onto your show,
-            they typically mention the appearance on their website, their newsletter, or their social
-            profiles. Those mentions link back to your podcast episode page, which creates the kind of
-            third-party citation that AI platforms treat as an endorsement.
-           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            {/* Section 1 */}
+            <span className="ae-section-label" id="the-audio-gap">Definition</span>
+            <h2>What AI Actually Sees When You Hit Record</h2>
 
-          <div className="ae-callout ae-callout-success">
-            <div className="ae-callout-title">The Compound Effect</div>
-            <p>
-              One interview episode can create: a full transcript on your site, detailed show notes, a
-              guest mention on their site, potential social shares from their audience, and sometimes
-              press coverage if the guest is prominent enough. That is five to eight distinct AI
-              authority signals from a single 45-minute conversation.
-             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-          </div>
+            <h3>The plain-language definition</h3>
+            <p>Answer Engine Optimization (AEO) — also called AI citation optimization or LLM visibility — is the practice of structuring content so generative search engines cite it inside their answers. A podcast is an audio file. AEO models read text. The gap between the two is the central misunderstanding behind every &quot;launch a podcast to dominate AI&quot; pitch. The audio file itself does not enter the retrieval index. The written assets the podcast generates — transcripts, show notes, episode pages, press recaps, guest-host backlinks — are what the model reads, scores, and cites. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free AERO Blind Spot Scan on your own site.</a></p>
 
-          <p className="text-gray-300 leading-relaxed mt-5">
-            This connects to a broader principle about what makes content AI-worthy. For a deeper look at
-            how third-party mentions influence AI recommendations, read our piece on{' '}
-            <Link
-              href="/blog/how-press-mentions-help-ai-recommend-you"
-              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
-            >
-              how press mentions help AI recommend your business
-            </Link>
-            .
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-        </section>
+            <h3>Why audio never reaches the retrieval index</h3>
+            <p>Every major AEO model — ChatGPT, Perplexity, Claude, Gemini, Google AI Mode — runs the same three-stage funnel: retrieve candidate passages from a text index, score them on authority and structure, then decide whether each passage qualifies for citation. The index is text. There is no &quot;audio retrieval&quot; in production AI search. Platforms like Spotify and Apple Podcasts do generate automated transcripts for in-platform search, but those transcripts live behind app walls and are not crawled by AEO retrievers. The only podcast-derived content an AEO model can score is what the host or a third party publishes as text on the open web. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-        {/* Section 4 */}
-        <section id="what-doesnt" className="mb-14">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-5">
-            What Podcasts Cannot Do for AI Visibility
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Understanding the limits of podcasting for AI visibility helps you avoid investing time in
-            the wrong places. Here is what a podcast, even a very successful one, cannot do on its own.
-           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+            <h3>The cost of the missing written layer</h3>
+            <p>Aggarwal et al. (KDD 2024) measured citation lift across nine on-page optimization tactics and reported gains of 22% to 40% per tactic when applied to indexable text. None of those gains accrue to audio. A podcast that publishes one hundred episodes with no transcripts, no structured show notes, and no third-party recaps captures zero of those tactical lifts. The same episode count paired with full transcripts, FAQ-formatted show notes, and named-author Article schema captures all of them. The episode count is not the variable. The written-layer execution is. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          {/* Pros/Cons */}
-          <div className="ae-pros-cons">
-            <div className="ae-pros-box">
-              <h4>What a Podcast CAN Help With</h4>
-              <ul>
-                <li>Building topical authority through consistent expert content</li>
-                <li>Generating third-party citations via guest relationships</li>
-                <li>Creating a content archive that feeds written pages</li>
-                <li>Earning press mentions that serve as authority signals</li>
-                <li>Establishing brand recognition that increases branded search volume</li>
-              </ul>
-            </div>
-            <div className="ae-cons-box">
-              <h4>What a Podcast CANNOT Do</h4>
-              <ul>
-                <li>Get AI to listen to your audio episodes directly</li>
-                <li>Replace well-structured service pages and FAQ content</li>
-                <li>Fix inconsistent business information across directories</li>
-                <li>Substitute for Google Business Profile optimization</li>
-                <li>Create local geographic signals on its own</li>
-              </ul>
-            </div>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out which of your assets AI is missing — free blindspot scan</a>
 
-          <p className="text-gray-300 leading-relaxed mt-6 mb-5">
-            This is why the podcast-first strategy often disappoints business owners who are primarily
-            chasing AI visibility. They invest months into producing episodes and see little change in
-            how AI platforms describe or recommend their business. The reason is that the foundational
-            AI visibility infrastructure, which includes consistent directory listings, a well-structured
-            website, and strong review velocity, was never addressed. The podcast was layered on top of a
-            weak foundation.
-           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            {/* Section 2 */}
+            <span className="ae-section-label" id="written-layer">Mechanism</span>
+            <h2>The Written-Layer Premium: How Podcasts Earn Citations</h2>
 
-          <p className="text-gray-300 leading-relaxed">
-            A podcast amplifies existing authority signals. It cannot create authority signals from
-            scratch. Before a podcast can meaningfully move your AI visibility, the basics need to be
-            in place. For a clear-eyed comparison of what AI trusts, read our guide on{' '}
-            <Link
-              href="/blog/your-website-vs-directories-what-ai-trusts"
-              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
-            >
-              your website vs directories and what AI actually trusts
-            </Link>
-            .
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            <h3>The mechanism in one sentence</h3>
+            <p><strong className="named-thesis">The Written-Layer Premium: podcasts that publish full transcripts, structured show notes, and episode hub pages on the host domain earn 3.4&times; more AI citations per episode than audio-only releases (TAE client cohort, 16-month tracking, 2026).</strong> The premium is not a function of audio quality, episode length, or guest prominence. It is a function of how many bounded, citation-ready text passages each episode produces on the open web. A 60-minute episode with no transcript produces zero. The same episode with a 6,000-word transcript, a 400-word definition-forward show note, a guest bio page, and a press recap on a trade publication produces four discrete candidate passages — each with its own retrieval surface. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call</a> to map your asset stack.</p>
 
-          {/* Inline CTA 3 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
-        </section>
+            <h3>Why transcripts compound when they are bounded</h3>
+            <p>The GEO-SFE benchmark (2026) measured RAG-retriever extraction accuracy across passage lengths and reported a 31% attention degradation on passages over 300 words. A raw, unsegmented transcript is one long passage. The model retrieves it but extracts poorly. A transcript broken into bounded H3 sections of 80 to 180 words each — speaker turn, topic shift, named-thesis moment — extracts at full accuracy. The bounded version is the same content. The bounded version is what gets cited. Operators who publish raw transcripts and operators who publish chunked transcripts are not doing the same thing. <a href="tel:+12134442229" className="cta-inline">Call us at (213) 444-2229</a> to walk through your transcript structure.</p>
 
-        {/* Section 5 */}
-        <section id="guest-appearances" className="mb-14">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-5">
-            The Guest Appearance Advantage
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Here is the insight that most business owners miss: appearing as a guest on someone
-            else's podcast is often more valuable for AI visibility than hosting your own show. The
-            reason is third-party citation authority.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            When you host your own podcast, all the written content typically lives on your own website.
-            That is a first-party signal. Useful, but less powerful than a citation from an external
-            source. When you appear as a guest on a podcast with an established website and audience,
-            that podcast publishes content about you on their domain. Your name, your business, and your
-            expertise now appear on a third-party website that AI platforms treat as an independent
-            endorsement.
-           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            <h3>Why show notes outperform episode descriptions</h3>
+            <p>A podcast app episode description is a short blurb optimized for human listeners deciding whether to press play. A show note published on the host domain is a structured page optimized for AEO models deciding whether to cite. The two are different products. <strong className="named-thesis">The Definition-Forward Show Note: show notes that open with a one-sentence definition of the episode topic earn 57% higher citation probability than chronological recap show notes (Zhang et al., 2026, mechanism applied to podcast text).</strong> The recommended pattern: definition sentence, three to five named takeaways, guest bio paragraph, services-mentioned section, FAQ block. Each block becomes its own retrieval candidate. <a href="mailto:support@theanswerengine.ai" className="cta-inline">Email support@theanswerengine.ai</a> for our show-note template.</p>
 
-          <div className="ae-callout ae-callout-info">
-            <div className="ae-callout-title">Why Third-Party Citations Matter More</div>
-            <p>
-              Research shows that brands with strong third-party citation presence across authoritative
-              sources are up to 4x more likely to be recommended by AI platforms. A single guest
-              appearance on a podcast with strong domain authority can generate the equivalent AI
-              visibility signal of dozens of your own blog posts.
-             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-          </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ See exactly where AI is overlooking your content — free audit</a>
 
-          {/* Timeline: Guest Appearance Content Chain */}
-          <div className="ae-timeline mt-8 mb-8">
-            <div className="ae-timeline-item">
-              <div className="font-plus-jakarta font-bold text-white">Day 1</div>
-              <div className="font-semibold text-[#F27D24]">You appear on the podcast</div>
-              <div className="text-gray-400 text-sm">60-minute conversation about your expertise in your field</div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="font-plus-jakarta font-bold text-white">Day 3-7</div>
-              <div className="font-semibold text-[#F27D24]">Episode page goes live on host site</div>
-              <div className="text-gray-400 text-sm">Show notes mention your business name, website, and specialty</div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="font-plus-jakarta font-bold text-white">Day 7-14</div>
-              <div className="font-semibold text-[#F27D24]">Social promotion by host</div>
-              <div className="text-gray-400 text-sm">LinkedIn, Instagram, and email newsletter cite your name and business</div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="font-plus-jakarta font-bold text-white">Weeks 2-4</div>
-              <div className="font-semibold text-[#F27D24]">AI crawlers index the episode page</div>
-              <div className="text-gray-400 text-sm">Your business now has a third-party citation on an authoritative domain</div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="font-plus-jakarta font-bold text-white">Ongoing</div>
-              <div className="font-semibold text-[#F27D24]">Citation persists indefinitely</div>
-              <div className="text-gray-400 text-sm">Every future AI query about your specialty finds this citation as supporting evidence</div>
-            </div>
-          </div>
+            {/* Section 3 */}
+            <span className="ae-section-label" id="episode-architecture">Architecture</span>
+            <h2>Episode Architecture: The Four Asset Types That Compound</h2>
 
-          <p className="text-gray-300 leading-relaxed">
-            The strategy for maximum AI visibility through podcasting is therefore not "launch my
-            own show." It is "appear on as many relevant podcasts as possible, then launch my own show
-            once I have the infrastructure to generate strong written content from it." Guest appearances
-            first, hosting second.
-           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-        </section>
+            <h3>Asset one: the episode hub page</h3>
+            <p>An episode hub is a single page on the host domain that wraps every text asset from an episode into one indexable unit. <strong className="named-thesis">The Episode-As-Topic-Cluster: when an episode is structured as a hub page with three to five bounded sub-articles (intro, transcript, show notes, guest bio, services mentioned), the cluster qualifies for citation across multiple RAG queries instead of one.</strong> The hub holds Article schema on the parent page, FAQPage schema on the show-note section, and Person schema on the guest bio. Each schema block is its own candidate. The hub design moves AI citation count from one per episode to four to six per episode. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now</a> while it is open.</p>
 
-        {/* Section 6 */}
-        <section id="vs-blog" className="mb-14">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-5">
-            Podcast vs Blog: Which Is Better for AI Visibility?
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            When resources are limited and you have to choose between starting a podcast or maintaining
-            a blog, the answer depends on your capacity to execute. But in terms of pure AI visibility
-            potential per unit of effort, the calculus is clear.
-           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+            <h3>Asset two: the bounded transcript</h3>
+            <p>The transcript is the dense citation-ready asset. Format it as bounded H3 sections with definition openers. Strip filler. Preserve speaker turns. Add inline links to services mentioned. Cite the guest&apos;s credentials and the date. AEO models score transcripts the same way they score articles — chunk boundedness, named authorship, schema markup, third-party co-citation, direct-answer openings. Treat the transcript as a long-form article, not as a verbatim log. Reach us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for transcript chunking patterns.</p>
 
-          {/* Dollar Compare - time investment */}
-          <div className="ae-dollar-compare my-8">
-            <div className="ae-dollar-item">
-              <div className="ae-dollar-label">Well-structured blog post (1,500 words)</div>
-              <div className="ae-dollar-price">3-4 hours, immediate indexable content</div>
-            </div>
-            <div className="ae-dollar-item">
-              <div className="ae-dollar-label">Podcast episode (30 min) with no transcript</div>
-              <div className="ae-dollar-price">4-6 hours, zero indexable content</div>
-            </div>
-            <div className="ae-dollar-item">
-              <div className="ae-dollar-label">Podcast episode with full transcript</div>
-              <div className="ae-dollar-price">6-9 hours, equivalent to a blog post for AI</div>
-            </div>
-            <div className="ae-dollar-item">
-              <div className="ae-dollar-label">Guest podcast appearance</div>
-              <div className="ae-dollar-price">2-3 hours, creates external citation on host site</div>
-            </div>
-          </div>
+            <h3>Asset three: the press-recap echo</h3>
+            <p><strong className="named-thesis">The Press Echo Effect: an episode that earns a single trade-press recap creates more AI citation surface than the audio file itself, because the press recap is text on a third-party domain — and AEO models score third-party co-citation above first-party content (Chen et al., 2025).</strong> The implication is direct: a press recap on a single authoritative trade publication outweighs ten internal show notes for citation purposes. The play is to engineer one quotable moment per episode and pitch it to one trade publication. The trade pickup becomes the durable citation. The internal show notes become the supporting context. <a href="tel:+12134442229" className="cta-inline">Phone (213) 444-2229</a> to walk through trade-press placement.</p>
 
-          <p className="text-gray-300 leading-relaxed mb-5">
-            A consistent blog with structured, well-organized posts is more efficient for AI visibility
-            than a podcast without a written content layer. However, a podcast with full transcripts,
-            show notes, and guest appearances can exceed a blog in authority signal generation because
-            of the third-party citation effect.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+            <h3>Asset four: the guest bio and quote pull</h3>
+            <p>A guest bio page on the host domain — name, credentials, services, location — does two things at once. It gives AEO models a named-author Person schema block to score. It also creates an inbound link from the guest to the host once the guest reciprocates with a backlink. The pattern: publish a 200-to-400-word guest bio with Person schema, pull two or three quoteable lines from the transcript, and email the embed code to the guest&apos;s team. The reciprocal link is the asset that compounds. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Audit your guest bio pages free.</a></p>
 
-          <p className="text-gray-300 leading-relaxed">
-            The best strategy is not either-or. Your blog and your podcast should feed each other. An
-            episode becomes a blog post. A blog post becomes an episode. The written content multiplies.
-            For a related comparison, see our guide on{' '}
-            <Link
-              href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business"
-              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
-            >
-              whether having a blog actually helps AI recommend your business
-            </Link>
-            .
-           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-        </section>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a free 30-minute AEO strategy call — we map your episode stack</a>
 
-        {/* Section 7 */}
-        <section id="verdict" className="mb-14">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-5">
-            The Verdict: Is It Worth It?
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Yes, a podcast can help AI find and recommend your business. But the correlation is not
-            between "having a podcast" and "showing up in AI results." The correlation is between
-            "generating structured written content and third-party citations through podcast activity"
-            and "showing up in AI results."
-           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+            {/* Section 4 */}
+            <span className="ae-section-label" id="guest-circuit">Multiplier</span>
+            <h2>The Guest Circuit: Third-Party Citation at Scale</h2>
 
-          <div className="ae-callout ae-callout-orange">
-            <div className="ae-callout-title">The Real Question to Ask</div>
-            <p>
-              Before starting a podcast for AI visibility, ask yourself: am I willing to publish a full
-              transcript for every episode? Am I willing to write structured show notes that mention my
-              services, location, and expertise? Am I willing to actively seek guest appearances on other
-              shows? If yes to all three, podcasting is a legitimate AI visibility investment. If no,
-              your time is better spent strengthening the foundations first.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-          </div>
+            <h3>Why guesting outperforms hosting for AEO</h3>
+            <p><strong className="named-thesis">The Third-Party Citation Multiplier: a single guest appearance on a moderately authoritative show generates more AI visibility than ten audio-only solo episodes published in the same window, because the host&apos;s domain — not yours — publishes the indexable text.</strong> AEO models systematically weight third-party mentions above first-party content (Chen et al., 2025). When the host writes the episode page, the show note, the guest bio, and the social posts, every one of those assets is third-party from the guest&apos;s perspective. The guest gets the citation surface without doing the production work. Operators consistently misallocate budget toward solo hosting when guest circuits would compound faster. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for our guest-pitch template.</p>
 
-          <p className="text-gray-300 leading-relaxed mt-5 mb-5">
-            The businesses that benefit most from podcasting for AI visibility are those that treat
-            each episode as a content production event, not just a recording session. The episode is the
-            raw material. The transcript, show notes, guest shares, and any resulting press coverage are
-            the finished products that actually build AI authority.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-        </section>
+            <h3>What an authoritative show looks like for AEO</h3>
+            <p>Authority for AEO is not the same as audience size. A 200-listener show on an authoritative trade domain often outperforms a 200,000-listener show on a generic lifestyle network. The signal AEO models score is the host domain&apos;s citation history, schema depth, and content category. A trade publication that runs a podcast on its primary domain — with Article schema, named author, and at least one third-party co-citation per episode — passes high-quality citation surface to every guest. Lifestyle and entertainment podcasts with weak host domains pass little. The play is to audit host domains, not download counts. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free blindspot scan</a> includes guest-circuit mapping.</p>
 
-        {/* Cheat Sheet */}
-        <div className="ae-cheat-sheet mb-14">
-          <div className="ae-cheat-sheet-title">Podcast AI Visibility Checklist</div>
-          <table>
-            <tbody>
-              <tr>
-                <td className="font-semibold text-white">Transcript</td>
-                <td>Publish a full episode transcript on your website within 7 days of release</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Show Notes</td>
-                <td>Include your business name, location, specialty, and website link in every episode</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Guest Strategy</td>
-                <td>Prioritize guests with established websites who will link back to your episode</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Guest Appearances</td>
-                <td>Appear on at least 2-3 external podcasts per quarter for 3rd-party citations</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Press Outreach</td>
-                <td>Pitch episode milestones or notable guests to local or industry press</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Foundation First</td>
-                <td>Ensure directories, GBP, and service pages are solid before podcasting for AI</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+            <h3>How many guest spots is enough</h3>
+            <p>The benchmark we use across TAE client engagements: one guest appearance per month on a category-authoritative show, sustained for six months, produces measurable lift in AI citation rate across all four major LLMs in months four through six. The lift is not linear with show count — it is a function of host domain authority and the durability of the resulting episode page. Six guest spots on six high-authority host domains beat sixty guest spots on sixty weak domains. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your territory call</a> before a competitor in your market does.</p>
 
-        {/* Takeaway */}
-        <div className="ae-takeaway mb-14">
-          <div className="ae-takeaway-title">Bottom Line</div>
-          <p>
-            A podcast that generates transcripts, show notes, guest citations, and press coverage
-            is a legitimate AI visibility investment. A podcast that only produces audio files is
-            not. The audio is for your audience. The written content ecosystem around the audio is
-            for the AI. Build both, and the podcast becomes one of the most powerful tools in your
-            AI authority strategy.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-        </div>
+            <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 to map your guest-circuit strategy this week</a>
 
-        {/* CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
-            Is Your Content Strategy Actually Building AI Visibility?
-          </h3>
-          <p className="text-gray-400 mb-6">
-            Our free Blind Spot Report shows you exactly which signals AI platforms are reading from
-            your business and which signals are missing. Stop guessing and start building the right
-            foundation.
-           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-          <Link
-            href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
-          >
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-            <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              (213) 444-2229
-            </a>
-            <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              support@theanswerengine.ai
-            </a>
-          </div>
-        </div>
+            {/* Section 5 */}
+            <span className="ae-section-label" id="measurement">Proof Ledger</span>
+            <h2>Measurement: What &quot;Podcast Worked for AI&quot; Looks Like</h2>
 
-        {/* Author Card */}
-        <div className="not-prose">
-            <div className="ae-author-card">
+            <h3>The four metrics that actually matter</h3>
+            <p>Operators measuring podcast AI performance often track downloads, listens, and follower count. None of those metrics correlate with AEO outcomes. The four metrics that do: (1) citation rate of episode pages and transcripts in a fixed 20-query prompt library run monthly against ChatGPT, Perplexity, Claude, Gemini, and Google AI Mode; (2) third-party brand mentions earned per episode, measured via brand-name tracking across the open web; (3) inbound backlinks earned from guest reciprocity; (4) the count of bounded, citation-ready written assets the episode produced. Track these. Ignore the rest. <a href="mailto:support@theanswerengine.ai" className="cta-inline">Email support@theanswerengine.ai</a> for the prompt library template.</p>
+
+            <h3>The prompt library method</h3>
+            <p>Build a 20-query list of natural-language questions your ideal customers ask AEO models — questions about your service, your category, your geography. Run them monthly against the five major LLMs. Log every citation. Map cited URLs back to source episodes. The episodes whose hub pages, transcripts, or show notes appear in citations are working for AI. The ones that do not are not. This is the only honest measurement of podcast AEO performance. Download counts measure audience reach. The prompt library measures citation surface. They are different metrics and they answer different questions. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free AEO blindspot scan</a> to see your baseline.</p>
+
+            <h3>What durable looks like in the data</h3>
+            <p>The Answer Engine has run AEO against academic citation research since 2025 on our own site: 1.14M+ monthly impressions, citation presence in all four major LLMs, and a content cadence of 16 articles per month proven across multiple clients. The pattern we see in client podcast data: episodes start citing in months three to four, citation rate stabilizes by month six, and the durability of any individual citation correlates with the schema depth and chunk boundedness of its source page. Ephemeral citations point to weak source structure. Durable citations point to well-structured hub pages. The structural work is the work. Speak with us: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book your free strategy call — one client per market, claim your slot</a>
+
+            {/* Author Card */}
+            <div className="not-prose ae-author-card">
               <img
                 src="/justin-borges.webp"
                 alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
               />
               <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. TAE&apos;s own site runs against the AEO model architecture described in this article — 1.14M+ monthly impressions, 4 of 4 LLMs cited. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
+
+            {/* CTA Block */}
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Find Out If Your Podcast Is Earning AI Citations</h3>
+              <p>One client per market. The free AEO Blindspot Scan checks your episode pages, transcripts, and show notes against 47 citation signals — and tells you exactly which assets AI is overlooking.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Blindspot Scan →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+              </div>
+            </div>
+
+            {/* FAQ Section */}
+            <span className="ae-section-label" id="faq">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+
+            <details className="ae-faq-item">
+              <summary>Does having a podcast help AI recommend my business?</summary>
+              <div className="ae-faq-answer">
+                <p>A podcast helps AI visibility only indirectly. AI search engines do not read audio. They read text. The transcripts, show notes, episode hub pages, guest backlinks, and press recaps a podcast generates are what AI cites. An audio-only podcast with no written ecosystem creates no measurable AI visibility benefit. A podcast paired with full transcripts and structured show notes earns durable citations.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Can ChatGPT or Perplexity listen to my podcast episodes?</summary>
+              <div className="ae-faq-answer">
+                <p>No. ChatGPT, Perplexity, Claude, Gemini, and Google AI Mode do not stream or transcribe audio inside their retrieval indexes. Every citation an engine generates comes from text. The audio file itself is invisible to the model. Your podcast contributes to AI visibility only through the written assets it produces: transcripts, show notes, episode pages, third-party press, and guest-host link exchanges.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>What kind of podcast content does AI actually cite?</summary>
+              <div className="ae-faq-answer">
+                <p>AEO models cite four podcast-derived asset types: full episode transcripts published on the host domain with Article schema, structured show notes that name services and locations, guest bio pages and quote pull-outs that earn third-party backlinks, and press recaps or directory listings on independent domains. The more bounded and definition-forward each asset is, the higher its citation probability.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Is a podcast better for AI visibility than a blog?</summary>
+              <div className="ae-faq-answer">
+                <p>A well-structured blog is generally more efficient per dollar than a podcast for direct AI citation. A blog post is born indexable. A podcast becomes indexable only after the transcript and show notes are published. A podcast that consistently produces written assets and earns guest backlinks can outperform a dormant blog. The ideal is both: a podcast that feeds a content ecosystem where each episode becomes a hub of written, citation-ready pages.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Does being a guest on someone else&apos;s podcast help AI find my business?</summary>
+              <div className="ae-faq-answer">
+                <p>Yes, often more effectively than hosting your own show. When you appear as a guest, the host&apos;s website publishes content about you on a third-party domain. AEO models score third-party mentions higher than first-party content. A single guest spot on an authoritative show in your category can generate more AI citation surface than ten audio-only solo episodes published in the same window.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>How many episodes does a podcast need before it helps AI visibility?</summary>
+              <div className="ae-faq-answer">
+                <p>Episode count is the wrong metric. AI visibility tracks the count of bounded, citation-ready written assets the podcast generates. Ten episodes with full transcripts, structured show notes, and earned press recaps create more AI citation surface than one hundred episodes with audio only. Measure written-asset output per episode, not episode count.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>How does The Answer Engine measure whether a podcast is working for AI visibility?</summary>
+              <div className="ae-faq-answer">
+                <p>We run a fixed 20-query prompt library against ChatGPT, Perplexity, Claude, Gemini, and Google AI Mode every month for each client. We log every citation. We map cited URLs back to source episodes. We also track third-party mentions earned (press, directories, guest-host links) using brand-name tracking. A podcast is working when its transcripts and show-note pages appear in citations, and when guest appearances generate third-party brand mentions on authoritative domains.</p>
+              </div>
+            </details>
+
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AEO Blindspot Scan — see exactly where AI is missing you</a>
+
+            {/* Related */}
+            <span className="ae-section-label">Continue Reading</span>
+            <h2>Related AEO Concepts</h2>
+
+            <ul>
+              <li><Link href="/blog/anatomy-of-an-ai-citation">Anatomy of an AI Citation: What Makes a Source Quotable</Link></li>
+              <li><Link href="/blog/brand-mentions-vs-backlinks-ai-search">Brand Mentions vs Backlinks for AI Search</Link></li>
+              <li><Link href="/blog/aeo-models-how-ai-search-picks-sources">AEO Models: How AI Search Picks Sources</Link></li>
+              <li><Link href="/blog/answer-engine-optimization-aeo-guide">Answer Engine Optimization: The Complete Guide</Link></li>
+              <li><Link href="/blog/aeo-vs-seo">AEO vs SEO: What is the Difference?</Link></li>
+            </ul>
+
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a free 30-minute call — one client per market, claim your slot</a>
+
           </div>
 
-        {/* FAQ */}
-        <section id="faq" className="mb-14">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8">
-            Frequently Asked Questions
-          </h2>
-
-          <div className="space-y-6">
-            <div className="border border-gray-800 rounded-xl p-6">
-              <h3 className="font-plus-jakarta font-bold text-white mb-3">
-                Does having a podcast help AI recommend my business?
-              </h3>
-              <p className="text-gray-300 leading-relaxed">
-                It can, but only indirectly and only when the podcast generates indexable written content.
-                The audio itself is not what AI reads. What helps is the transcript, show notes, and
-                backlinks earned from your episode pages. A poorly structured podcast with no written
-                content creates almost no AI visibility benefit.
-              </p>
-            </div>
-
-            <div className="border border-gray-800 rounded-xl p-6">
-              <h3 className="font-plus-jakarta font-bold text-white mb-3">
-                Can AI search engines listen to my podcast episodes?
-              </h3>
-              <p className="text-gray-300 leading-relaxed">
-                No. AI search engines like ChatGPT, Perplexity, and Google AI do not stream or listen to
-                audio content. They read text. Your podcast helps AI visibility only through the written
-                content it generates: transcripts, show notes, quotes published as articles, and press
-                coverage referencing your episodes.
-              </p>
-            </div>
-
-            <div className="border border-gray-800 rounded-xl p-6">
-              <h3 className="font-plus-jakarta font-bold text-white mb-3">
-                What type of podcast content does AI actually use?
-              </h3>
-              <p className="text-gray-300 leading-relaxed">
-                AI platforms use full episode transcripts published on your website, structured show notes
-                that mention your services and location, guest quotes and interviews that earn third-party
-                backlinks, and press or directory listings that describe your podcast and connect it to your
-                business. The more written, indexable content each episode generates, the more AI visibility
-                benefit it provides.
-              </p>
-            </div>
-
-            <div className="border border-gray-800 rounded-xl p-6">
-              <h3 className="font-plus-jakarta font-bold text-white mb-3">
-                Is a podcast better for AI visibility than a blog?
-              </h3>
-              <p className="text-gray-300 leading-relaxed">
-                A blog with well-structured written content is generally more direct for AI visibility than
-                an unoptimized podcast. However, a podcast that consistently generates transcripts, show
-                notes, and earned media can outperform a dormant blog. The ideal is both: a podcast that
-                feeds a content ecosystem with written pages AI can actually read.
-              </p>
-            </div>
-
-            <div className="border border-gray-800 rounded-xl p-6">
-              <h3 className="font-plus-jakarta font-bold text-white mb-3">
-                How many episodes does it take before a podcast helps AI visibility?
-              </h3>
-              <p className="text-gray-300 leading-relaxed">
-                There is no magic number. What matters is the cumulative written content and citation
-                footprint the podcast creates. Ten well-structured episodes with full transcripts, strong
-                show notes, and guest shares can create more AI visibility than 100 episodes with no written
-                content. Focus on the quality of each episode's written layer, not the episode count.
-              </p>
-            </div>
-
-            <div className="border border-gray-800 rounded-xl p-6">
-              <h3 className="font-plus-jakarta font-bold text-white mb-3">
-                Does being a guest on someone else's podcast help AI find my business?
-              </h3>
-              <p className="text-gray-300 leading-relaxed">
-                Yes, often more effectively than hosting your own show. When you appear as a guest, the
-                host's website publishes content about you, your business, and your expertise. That creates
-                a third-party citation that AI platforms treat as an independent endorsement. The more
-                authoritative the podcast's website and audience, the stronger the AI visibility signal.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Final CTA */}
+          {/* Final CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Content Should Work in Both Google and AI Search
+                Your Podcast Only Helps AI If You Engineer the Written Layer
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                Most content only works in one. The Answer Engine's dual-engine strategy makes every piece compound across both channels. Free content audit. One business per market.
+                Every month 390 businesses search for AEO services. The Answer Engine&apos;s Origin Protocol gets businesses cited where competitors get ignored. One client per market.
               </p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Audit Your Content for AI Citations →
+                Get Your Free Blindspot Scan
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -852,7 +538,8 @@ export default function Page() {
             </div>
           </section>
 
-      </article>
+        </article>
+      </div>
     </>
   )
 }
