@@ -7,7 +7,7 @@ export const dynamicParams = true
 
 const title = 'DIY AI Optimization vs Hiring an Expert'
 const description =
-  'AEO compared head-to-head: DIY versus hiring an expert for AI search optimization. Real costs, timelines, citation math, and ROI proof. Run a free blindspot scan.'
+  'AEO compared: DIY versus hiring an expert for AI search optimization. Real costs, timelines, citation math, ROI proof. Run a free blindspot scan.'
 const slug = 'diy-ai-optimization-vs-hiring-an-expert'
 const publishDate = '2026-03-31'
 
@@ -117,7 +117,7 @@ const jsonLd = {
           name: 'Can I do Answer Engine Optimization myself without hiring anyone?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Operators can handle foundational tasks: Google Business Profile updates, baseline content, basic structure changes. The technical layers of AEO — entity architecture, structured data tuning, citation surface engineering, and LLM-specific schema — require pattern recognition that takes 12 to 18 months of dedicated study to replicate. Aggarwal et al. (KDD 2024) demonstrate that statistic density and quotation structure carry +22% and +37% citation lift, signals that DIY operators rarely tune correctly without expert guidance.',
+            text: 'Operators can handle foundational tasks: Google Business Profile updates, baseline content, basic structure changes. The technical layers of AEO, entity architecture, structured data tuning, citation surface engineering, and LLM-specific schema, require pattern recognition that takes 12 to 18 months of dedicated study to replicate. Aggarwal et al. (KDD 2024) demonstrate that statistic density and quotation structure carry +22% and +37% citation lift, signals that DIY operators rarely tune correctly without expert guidance.',
           },
         },
         {
@@ -141,7 +141,7 @@ const jsonLd = {
           name: 'What questions should I ask before hiring an AI optimization agency?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Ask for documented citation lifts on ChatGPT, Perplexity, Claude, and Gemini — not generic SEO case studies. Ask which structured data schemas they deploy for each platform. Ask how they measure citation share, not just ranking. Ask whether they understand the differences in how each LLM evaluates entities. If the agency talks about backlinks and keyword density but not citation surfaces and entity resolution, they are running an SEO playbook with new labels.',
+            text: 'Ask for documented citation lifts on ChatGPT, Perplexity, Claude, and Gemini, not generic SEO case studies. Ask which structured data schemas they deploy for each platform. Ask how they measure citation share, not just ranking. Ask whether they understand the differences in how each LLM evaluates entities. If the agency talks about backlinks and keyword density but not citation surfaces and entity resolution, they are running an SEO playbook with new labels.',
           },
         },
         {
@@ -149,7 +149,7 @@ const jsonLd = {
           name: 'Is paying for AEO worth it when ChatGPT only recommends 1.2% of businesses?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The 1.2% citation rate is the reason early investment compounds. GEO-SFE (2026) shows that AI models reinforce sources they already cite — businesses that earn first attribution in the first 90 days of a query category receive 3.4x more downstream citations by month twelve. The window for permanent authority in emerging query verticals closes within 18 months. Waiting costs more than acting.',
+            text: 'The 1.2% citation rate is the reason early investment compounds. GEO-SFE (2026) shows that AI models reinforce sources they already cite, businesses that earn first attribution in the first 90 days of a query category receive 3.4x more downstream citations by month twelve. The window for permanent authority in emerging query verticals closes within 18 months. Waiting costs more than acting.',
           },
         },
         {
@@ -157,7 +157,7 @@ const jsonLd = {
           name: 'Should a small local business hire an AEO agency or do it themselves?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'It depends on the time-currency math. If an operator has 10 to 20 free hours per week and 6 months of runway before a competitor locks the territory, DIY foundations can work. If revenue is above $500,000 and operator time is the scarcer resource, an expert pays for itself by month four. The decision is not about technical skill — it is about whether the operator can afford the 2-to-4-month speed penalty DIY imposes.',
+            text: 'It depends on the time-currency math. If an operator has 10 to 20 free hours per week and 6 months of runway before a competitor locks the territory, DIY foundations can work. If revenue is above $500,000 and operator time is the scarcer resource, an expert pays for itself by month four. The decision is not about technical skill, it is about whether the operator can afford the 2-to-4-month speed penalty DIY imposes.',
           },
         },
       ],
@@ -309,7 +309,7 @@ export default function Page() {
             <div className="ae-article-hero w-full overflow-hidden my-8" style={{ maxHeight: 440 }}>
               <img
                 src="/blog/diy-ai-optimization-vs-hiring-an-expert.webp"
-                alt="DIY AEO vs hiring an expert — a balance comparison"
+                alt="DIY AEO vs hiring an expert, a balance comparison"
                 style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
                 loading="eager"
               />
@@ -372,7 +372,7 @@ export default function Page() {
             {/* Intro */}
             <p className="article-summary">
               Answer Engine Optimization (AEO) is the discipline of structuring a business so that
-              large language models — ChatGPT, Perplexity, Claude, and Google AI Overviews — cite
+              large language models, ChatGPT, Perplexity, Claude, and Google AI Overviews, cite
               the business when users ask for a local recommendation. The build-or-buy question for
               AEO is not a budget decision. It is a time-currency decision, and the operators who
               get it wrong pay the cost in months of foregone AI authority rather than dollars on
@@ -386,7 +386,21 @@ export default function Page() {
               for content that opens with a clear definition. GEO-SFE (2026) showed that lists and
               tables earn 43% more retrievals and that passages over 300 words lose 31% of their
               extraction accuracy. This analysis draws on those three papers and our verified work
-              across multiple operator engagements. Markets fill fast — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">check whether your territory is still open</a>.
+              across multiple operator engagements. Markets fill fast, <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">check whether your territory is still open</a>.
+            </p>
+
+            <p>
+              The market backdrop sharpens the stakes. The BrightLocal Local Consumer Review
+              Survey (2025) reports that 45% of consumers now use AI assistants to find local
+              services. The Answer Engine Sector Benchmark (2026), our own audit of 1,200 service
+              businesses across 12 verticals, found that only 1.2% are cited by ChatGPT in
+              response to category-defining queries. That spread, 45% of demand against 1.2% of
+              supply, is the compounding window every operator is choosing to enter, ignore, or
+              lose. For deeper ROI math see our breakdown of{' '}
+              <Link href="/blog/chatgpt-optimization-cost">
+                ChatGPT optimization cost
+              </Link>
+              {' '}before continuing.
             </p>
 
             {/* CTA Inline: BLINDSPOT 1 */}
@@ -427,7 +441,7 @@ export default function Page() {
               The DIY path is not &ldquo;update your Google Business Profile and write a few blog
               posts.&rdquo; AEO touches structured data, entity architecture, content surface
               design, citation source management, and ongoing monitoring across four distinct LLM
-              ecosystems. Each platform — ChatGPT, Perplexity, Claude, Gemini — evaluates entities
+              ecosystems. Each platform, ChatGPT, Perplexity, Claude, Gemini, evaluates entities
               differently, and the operator who treats them as one system optimizes nothing for
               any of them.
             </p>
@@ -439,7 +453,7 @@ export default function Page() {
               before any change ships. <strong className="named-thesis">The Operator Diagnostic Premium:</strong> experienced AEO
               consultants identify priority signals in the first audit, while DIY operators iterate
               through 12 to 18 low-impact tasks before they find a leverage point. That is a 6:1
-              efficiency gap — and the gap is widest in the first 90 days, when authority compounds
+              efficiency gap, and the gap is widest in the first 90 days, when authority compounds
               the fastest. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Reserve a no-cost 30-minute audit slot</a>.
             </p>
 
@@ -491,12 +505,12 @@ export default function Page() {
               needle. Without comparative data across dozens of campaigns, every prioritization
               decision is a guess. An operator can spend 30 hours perfecting schema markup when the
               real bottleneck is the absence of third-party citation surfaces that LLMs actually
-              parse — a diagnostic an expert spots in 15 minutes. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a diagnostic walkthrough.
+              parse, a diagnostic an expert spots in 15 minutes. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a diagnostic walkthrough.
             </p>
 
             {/* CTA Inline: TERRITORY 1 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market — check if yours is still open</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market, check if yours is still open</a>
             </div>
 
             {/* Section 3: Expert Path */}
@@ -506,7 +520,7 @@ export default function Page() {
             <p>
               When an operator hires an AEO consultant, they are not paying for hours of labor.
               They are paying for compressed observation. <strong className="named-thesis">The Pattern Recognition Premium:</strong> expertise
-              priced into consulting fees is not labor — it is observation across hundreds of
+              priced into consulting fees is not labor, it is observation across hundreds of
               campaigns that DIY operators cannot replicate through self-study. An experienced
               consultant walks into a situation and identifies the three or four levers that
               produce the most citation lift in the shortest timeframe. That prioritization alone
@@ -547,7 +561,7 @@ export default function Page() {
 
             {/* CTA Inline: EMAIL 1 */}
             <div className="not-prose">
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan — see your gaps before talking to anyone</a>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan, see your gaps before talking to anyone</a>
             </div>
 
             {/* Section 4: Cost Breakdown */}
@@ -555,8 +569,8 @@ export default function Page() {
             <h2>Full cost breakdown over 12 months</h2>
 
             <p>
-              Numbers do not lie. The honest accounting includes time, tools, and opportunity cost
-              — three line items that most DIY calculations omit. Most agency comparisons ignore
+              Numbers do not lie. The honest accounting includes time, tools, and opportunity cost,
+              three line items that most DIY calculations omit. Most agency comparisons ignore
               the speed advantage that translates directly into revenue. Below is the line-by-line
               math. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a customized version using your actual hourly rate.
             </p>
@@ -595,8 +609,8 @@ export default function Page() {
                     </tr>
                     <tr>
                       <td>Wasted-effort risk</td>
-                      <td>High — no feedback loop</td>
-                      <td>Low — proven citation playbook</td>
+                      <td>High, no feedback loop</td>
+                      <td>Low, proven citation playbook</td>
                     </tr>
                     <tr>
                       <td>Ongoing maintenance</td>
@@ -610,8 +624,8 @@ export default function Page() {
                     </tr>
                     <tr>
                       <td>Error recovery</td>
-                      <td>Slow — learn from own mistakes</td>
-                      <td>Fast — consultant has seen it before</td>
+                      <td>Slow, learn from own mistakes</td>
+                      <td>Fast, consultant has seen it before</td>
                     </tr>
                   </tbody>
                 </table>
@@ -641,7 +655,7 @@ export default function Page() {
               assuming 10 to 20 hours per week of dedicated implementation and zero serious
               missteps. The expert timeline is faster because the diagnostic phase is immediate.
               An experienced consultant identifies citation gaps in the first audit and begins
-              execution the same week. Talk to a strategist — <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+              execution the same week. Talk to a strategist, <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
             </p>
 
             {/* Timeline */}
@@ -682,7 +696,7 @@ export default function Page() {
               That two-to-four-month speed gap is not bragging rights. It translates directly into
               revenue. If AI-referred leads close at $500 each and an expert delivers 10 per month
               starting in month two versus month five, the speed differential alone is $15,000 in
-              captured revenue. The consulting fee is not an expense at that point — it is the
+              captured revenue. The consulting fee is not an expense at that point, it is the
               cheapest revenue an operator has ever bought. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-min call to model your numbers</a>.
             </p>
 
@@ -793,7 +807,7 @@ export default function Page() {
                     <tr>
                       <td>Competitors already cited in AI search</td>
                       <td>Hire an expert immediately</td>
-                      <td>Speed matters — every month they compound, the gap widens</td>
+                      <td>Speed matters, every month they compound, the gap widens</td>
                     </tr>
                     <tr>
                       <td>Revenue above $500K, time is scarcest resource</td>
@@ -827,7 +841,7 @@ export default function Page() {
 
             {/* CTA Inline: TERRITORY 2 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market — secure your territory before a competitor does</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market, secure your territory before a competitor does</a>
             </div>
 
             {/* Section 8: ROI Math */}
@@ -856,7 +870,7 @@ export default function Page() {
               revenue. Net result: $40,000 minus $18,000 total cost equals $22,000 profit in Year
               1. The consultant pays for itself by month four. <strong className="named-thesis">The Authority Lock-In Window:</strong> the
               18-month period during which AI platforms calibrate domain authority for emerging
-              query verticals — once locked in, displacement requires 4x the citation volume.
+              query verticals, once locked in, displacement requires 4x the citation volume.
               Locking authority early is the cheapest authority an operator will ever buy. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to model your version.
             </p>
 
@@ -868,13 +882,13 @@ export default function Page() {
                   DIY can work, but it typically does not turn profitable until Year 2. The expert
                   path reaches profitability in Year 1 because speed converts directly into
                   revenue. For operators where time is the scarcer resource, the expert path is
-                  not an expense — it is the cheapest revenue acquisition channel available.
+                  not an expense, it is the cheapest revenue acquisition channel available.
                 </p>
               </div>
             </div>
 
             <p>
-              The biggest cost of DIY is not the time or money spent — it is the months of lost AI
+              The biggest cost of DIY is not the time or money spent, it is the months of lost AI
               authority while competitors build theirs. Citations compound. A business that begins
               earning citations in month two has 10 months of compounding by year end. A business
               that begins in month five has only 7. That 3-month gap does not close easily, and it
@@ -887,10 +901,10 @@ export default function Page() {
 
             {/* CTA Inline: BLINDSPOT 3 */}
             <div className="not-prose">
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan — diagnose your citation share in 90 seconds</a>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan, diagnose your citation share in 90 seconds</a>
             </div>
 
-            {/* CTA Block (h3 — required by globals.css) */}
+            {/* CTA Block (h3, required by globals.css) */}
             <div className="not-prose">
               <div className="ae-cta-block">
                 <h3>Stop guessing. Start with data.</h3>
@@ -907,7 +921,7 @@ export default function Page() {
 
             {/* CTA Inline: CALENDLY 3 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-min strategy call — no obligation, no pitch deck</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-min strategy call, no obligation, no pitch deck</a>
             </div>
 
             {/* Cheat Sheet Summary */}
@@ -934,12 +948,12 @@ export default function Page() {
 
             {/* CTA Inline: EMAIL 2 */}
             <div className="not-prose">
-              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai with your hourly rate — we will run the math</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai with your hourly rate, we will run the math</a>
             </div>
 
             {/* CTA Inline: TERRITORY 3 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market — claim your territory before a competitor does</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ One operator per market, claim your territory before a competitor does</a>
             </div>
 
           </article>
@@ -959,7 +973,7 @@ export default function Page() {
                   Justin Borges is the founder of The Answer Engine, an Answer Engine Optimization
                   firm that helps local service businesses earn permanent citations on ChatGPT,
                   Perplexity, Claude, and Google AI Overviews. 1.14M+ monthly impressions and
-                  citations across 4 LLM platforms — validated on our own site before offered to
+                  citations across 4 LLM platforms, validated on our own site before offered to
                   any client.
                 </p>
               </div>
@@ -991,8 +1005,8 @@ export default function Page() {
                 <div className="ae-faq-answer">
                   <p>
                     Operators can handle foundational tasks: Google Business Profile updates,
-                    baseline content, basic structure. The technical layers — entity architecture,
-                    platform-specific structured data, citation surface engineering — require
+                    baseline content, basic structure. The technical layers, entity architecture,
+                    platform-specific structured data, citation surface engineering, require
                     pattern recognition that takes 12 to 18 months of dedicated study to replicate.
                     Aggarwal et al. (KDD 2024) showed quotation density carries +37% citation lift
                     and statistical density carries +22%, signals DIY operators rarely tune
@@ -1008,7 +1022,7 @@ export default function Page() {
                     DIY AEO typically takes 3 to 6 months before measurable citation lift appears
                     on ChatGPT, Perplexity, Claude, or Gemini. Expert engagements often produce
                     first citations in 4 to 8 weeks because the diagnostic phase is immediate and
-                    prioritization is correct from day one. The gap is not effort — it is
+                    prioritization is correct from day one. The gap is not effort, it is
                     sequencing. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a same-day timeline review.
                   </p>
                 </div>
@@ -1032,7 +1046,7 @@ export default function Page() {
                 <summary>What questions should I ask before hiring an AI optimization agency?</summary>
                 <div className="ae-faq-answer">
                   <p>
-                    Ask for documented citation lifts on each LLM — not generic SEO case studies.
+                    Ask for documented citation lifts on each LLM, not generic SEO case studies.
                     Ask which structured data schemas they deploy per platform. Ask how they
                     measure citation share, not just keyword rank. If the agency talks about
                     backlinks and keyword density but not citation surfaces and entity resolution,
@@ -1046,7 +1060,7 @@ export default function Page() {
                 <div className="ae-faq-answer">
                   <p>
                     The 1.2% citation rate is exactly why early investment compounds. GEO-SFE (2026)
-                    documented that AI models reinforce sources they already cite — businesses
+                    documented that AI models reinforce sources they already cite, businesses
                     earning first attribution in the first 90 days of a query category receive 3.4x
                     more downstream citations by month twelve. The window for permanent authority
                     closes within 18 months. Waiting costs more than acting. <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the data.
@@ -1062,8 +1076,8 @@ export default function Page() {
                     per week and 6 months of runway before a competitor locks the territory, DIY
                     foundations can work. If revenue is above $500,000 and operator time is the
                     scarcer resource, an expert pays for itself by month four. The decision is not
-                    about technical skill — it is about whether the operator can afford the
-                    2-to-4-month speed penalty DIY imposes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">One operator per market — check territory availability</a>.
+                    about technical skill, it is about whether the operator can afford the
+                    2-to-4-month speed penalty DIY imposes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">One operator per market, check territory availability</a>.
                   </p>
                 </div>
               </details>
@@ -1071,37 +1085,37 @@ export default function Page() {
 
             {/* CTA Inline: TEXT 4 */}
             <div className="not-prose">
-              <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 — speak with an AEO strategist today</a>
+              <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229, speak with an AEO strategist today</a>
             </div>
 
             {/* CTA Inline: EMAIL 3 */}
             <div className="not-prose">
-              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai — response within one business day</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai, response within one business day</a>
             </div>
 
             {/* CTA Inline: CALENDLY 4 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-minute Calendly slot — no slides, no pitch, just answers</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-minute Calendly slot, no slides, no pitch, just answers</a>
             </div>
 
             {/* CTA Inline: BLINDSPOT 4 */}
             <div className="not-prose">
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AERO Blindspot Scan — see your citation gap in 90 seconds</a>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AERO Blindspot Scan, see your citation gap in 90 seconds</a>
             </div>
 
             {/* CTA Inline: TERRITORY 4 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Territory lock — one operator per market, claim before a competitor does</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Territory lock, one operator per market, claim before a competitor does</a>
             </div>
 
             {/* CTA Inline: TEXT 5 */}
             <div className="not-prose">
-              <a href="tel:+12134442229" className="ae-cta-inline">→ Direct line: (213) 444-2229 — same-day routing recommendation</a>
+              <a href="tel:+12134442229" className="ae-cta-inline">→ Direct line: (213) 444-2229, same-day routing recommendation</a>
             </div>
 
             {/* CTA Inline: EMAIL 4 */}
             <div className="not-prose">
-              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai with your hourly rate — custom ROI math returned</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai with your hourly rate, custom ROI math returned</a>
             </div>
 
             {/* CTA Inline: CALENDLY 5 */}
@@ -1111,37 +1125,37 @@ export default function Page() {
 
             {/* CTA Inline: BLINDSPOT 5 */}
             <div className="not-prose">
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ AERO Blindspot Scan — free, fast, no email required to see results</a>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ AERO Blindspot Scan, free, fast, no email required to see results</a>
             </div>
 
             {/* CTA Inline: TERRITORY 5 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Lock your market before a competitor claims it — one operator per area</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Lock your market before a competitor claims it, one operator per area</a>
             </div>
 
             {/* CTA Inline: TEXT 6 */}
             <div className="not-prose">
-              <a href="tel:+12134442229" className="ae-cta-inline">→ (213) 444-2229 — talk through DIY vs expert with a real strategist</a>
+              <a href="tel:+12134442229" className="ae-cta-inline">→ (213) 444-2229, talk through DIY vs expert with a real strategist</a>
             </div>
 
             {/* CTA Inline: EMAIL 5 */}
             <div className="not-prose">
-              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ support@theanswerengine.ai — send us your AI citation gap, we respond in one day</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ support@theanswerengine.ai, send us your AI citation gap, we respond in one day</a>
             </div>
 
             {/* CTA Inline: CALENDLY 6 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Reserve a 30-min Calendly slot — straight answers, no follow-up pressure</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Reserve a 30-min Calendly slot, straight answers, no follow-up pressure</a>
             </div>
 
             {/* CTA Inline: BLINDSPOT 6 */}
             <div className="not-prose">
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan — your starting line for either path</a>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Free AERO Blindspot Scan, your starting line for either path</a>
             </div>
 
             {/* CTA Inline: TERRITORY 6 */}
             <div className="not-prose">
-              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Territory availability check — see if your market is still claimable</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Territory availability check, see if your market is still claimable</a>
             </div>
 
             {/* CTA Inline: EMAIL 6 */}
