@@ -4,83 +4,114 @@ import Link from 'next/link';
 
 export const revalidate = 86400;
 export const dynamic = 'force-static';
+export const dynamicParams = true;
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'How ChatGPT Decides Which Plumber to Recommend in Your City',
-    description:
-      'How ChatGPT chooses which plumber to recommend by city. The four-source retrieval pass, the five AEO signals that earn the citation, and how to claim yours.',
-    keywords: [
-      'how chatgpt recommends plumbers',
-      'chatgpt local business recommendation',
-      'AI plumber recommendation',
-      'answer engine optimization plumbing',
-      'how chatgpt decides which plumber',
-      'local service business AI search',
-      'chatgpt local SEO plumber',
+const title = 'How ChatGPT Decides Which Plumber to Recommend in Your City';
+const description =
+  'How ChatGPT picks a plumber by city — the four-source retrieval pass, the five AEO signals that earn the citation, and the Proof Ledger that measures it. Claim your AERO scan.';
+const slug = 'how-chatgpt-decides-which-plumber-to-recommend-in-your-city';
+const publishDate = '2026-06-01';
+const modifiedDate = '2026-06-01';
+
+export const metadata: Metadata = {
+  title: `${title} | The Answer Engine`,
+  description,
+  keywords:
+    'how chatgpt recommends plumbers, chatgpt plumber recommendation, AI plumber search, answer engine optimization plumbing, AEO for plumbers, chatgpt local plumber, plumber AI citation, plumber AI search visibility, get cited by chatgpt plumber',
+  openGraph: {
+    title: `${title} | The Answer Engine`,
+    description,
+    type: 'article',
+    url: `https://theanswerengine.ai/blog/${slug}`,
+    publishedTime: `${publishDate}T00:00:00.000Z`,
+    authors: ['Justin Borges'],
+    images: [
+      {
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
+        width: 1200,
+        height: 630,
+        alt: 'How ChatGPT decides which plumber to recommend in your city',
+      },
     ],
-    openGraph: {
-      title: 'How ChatGPT Decides Which Plumber to Recommend in Your City',
-      description:
-        'The recommendation pipeline ChatGPT runs for local plumbing queries - the four sources it pulls from, the five citation levers, and the Proof Ledger that measures the outcome.',
-      type: 'article',
-      publishedTime: '2026-05-13T00:00:00.000Z',
-      authors: ['Justin Borges'],
-      images: [{ url: '/blog/how-plumbers-get-found-on-ai-search.webp', width: 1200, height: 630 }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'How ChatGPT Decides Which Plumber to Recommend in Your City',
-      description:
-        'The four sources, the five structural signals, and the Proof Ledger that measure AI plumber recommendations.',
-    },
-    alternates: {
-      canonical:
-        'https://www.theanswerengine.ai/blog/how-chatgpt-decides-which-plumber-to-recommend-in-your-city',
-    },
-  };
-}
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${title} | The Answer Engine`,
+    description,
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+  },
+  alternates: {
+    canonical: `https://theanswerengine.ai/blog/${slug}`,
+  },
+};
 
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'How ChatGPT Decides Which Plumber to Recommend in Your City',
-  description:
-    'ChatGPT runs a four-source retrieval pass for local plumbing queries and scores chunks, not businesses. This is the mechanism, the five structural signals retrievers reward, and the Proof Ledger that measures the outcome.',
-  author: { '@type': 'Person', name: 'Justin Borges', url: 'https://theanswerengine.ai/about' },
+  '@id': `https://theanswerengine.ai/blog/${slug}#article`,
+  headline: title,
+  description,
+  image: `https://theanswerengine.ai/blog/${slug}.webp`,
+  datePublished: `${publishDate}T00:00:00.000Z`,
+  dateModified: `${modifiedDate}T00:00:00.000Z`,
+  author: {
+    '@type': 'Person',
+    '@id': 'https://theanswerengine.ai/about#justin-borges',
+    name: 'Justin Borges',
+    jobTitle: 'Founder, The Answer Engine',
+    url: 'https://theanswerengine.ai/about',
+    image: 'https://theanswerengine.ai/justin-borges.webp',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+    worksFor: {
+      '@type': 'Organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+    },
+    knowsAbout: [
+      'Answer Engine Optimization',
+      'AEO for Plumbers',
+      'AI Citation Strategy',
+      'LLM Visibility',
+      'Local AI Search',
+    ],
+  },
   publisher: {
     '@type': 'Organization',
+    '@id': 'https://theanswerengine.ai/#organization',
     name: 'The Answer Engine',
     url: 'https://theanswerengine.ai',
-    logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/mark-1a-orange.png' },
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://theanswerengine.ai/logo.png',
+    },
   },
-  datePublished: '2026-05-13',
-  dateModified: '2026-05-13',
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id':
-      'https://theanswerengine.ai/blog/how-chatgpt-decides-which-plumber-to-recommend-in-your-city',
+    '@id': `https://theanswerengine.ai/blog/${slug}`,
   },
+  keywords:
+    'ChatGPT plumber recommendation, AEO plumber, AI citation plumbing, answer engine optimization, plumber AI search, plumber LLM visibility, AI local search plumbing',
 };
 
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
+  '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
   mainEntity: [
     {
       '@type': 'Question',
       name: 'How does ChatGPT actually choose a plumber to recommend?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'ChatGPT does not score plumbing businesses. ChatGPT scores content chunks. A local plumbing query triggers a four-source retrieval pass - live web index, training corpus residue, knowledge graph entity links, and operator-published authority content - and the structurally correct passages reach the synthesis step. The cited plumber is the operator whose own domain published the chunks the model pulled.',
+        text: 'ChatGPT does not score plumbing businesses. ChatGPT scores content chunks. A local plumbing query triggers a four-source retrieval pass — live web index, training corpus residue, knowledge graph entity links, and operator-published authority content — and the structurally correct passages reach the synthesis step. The cited plumber is the operator whose own domain published the chunks the model pulled (Aggarwal et al., KDD 2024; GEO-SFE, 2026).',
       },
     },
     {
       '@type': 'Question',
-      name: 'Does the number of Google reviews influence ChatGPT recommendations?',
+      name: 'Does the number of Google reviews influence ChatGPT plumber recommendations?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Review count is a strong input to the Google Map Pack and a weak input to a ChatGPT plumber recommendation. ChatGPT weights inline attribution and structurally extractable content from the domain far more heavily than third-party star ratings. A 500-review plumber with no published authority content can lose the citation to a 40-review plumber whose website carries 60 AEO-structured articles.',
+        text: 'Review count is a strong input to the Google Map Pack and a weak input to a ChatGPT plumber recommendation. ChatGPT weights inline attribution and structurally extractable content from the domain far more heavily than third-party star ratings. A 500-review plumber with no published authority content can lose the citation to a 40-review plumber whose website carries 60 AEO-structured articles. Reviews still matter for trust, but they do not produce the citation slot.',
       },
     },
     {
@@ -88,7 +119,7 @@ const faqSchema = {
       name: 'Does paid advertising influence which plumber ChatGPT recommends?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Paid advertising has no observable effect on ChatGPT plumber recommendations. ChatGPT pulls from an index of organic content. Google Ads, Yelp Ads, Angi promotions, and Local Service Ads do not enter the retrieval pass. The citation goes to the operator whose published content earns the structural trust signals retrievers reward.',
+        text: 'Paid advertising has no observable effect on ChatGPT plumber recommendations. ChatGPT pulls from an index of organic content. Google Ads, Yelp Ads, Angi promotions, and Local Service Ads do not enter the retrieval pass. The citation slot goes to the plumbing operator whose published content earns the structural trust signals retrievers reward, which is why ad spend is a parallel acquisition channel — not an AEO substitute.',
       },
     },
     {
@@ -96,7 +127,7 @@ const faqSchema = {
       name: 'Why is my plumbing business invisible to ChatGPT?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most plumbing service domains carry none of the four structural signals retrievers reward: definition-first openings, inline attribution, bounded chunks, journalistic tone. The Answer Engine measured fewer than four percent of US plumbing domains carrying any of the four. The invisibility is structural, not algorithmic, and it is reversible inside a 90-day publication window.',
+        text: 'Most plumbing service domains carry none of the four structural signals retrievers reward: definition-first openings, inline attribution, bounded chunks, and journalistic tone. The Answer Engine field audit measured fewer than four percent of US plumbing domains carrying any of the four signals at meaningful density. The invisibility is structural, not algorithmic, and it is reversible inside a 90-day publication window with the right cadence.',
       },
     },
     {
@@ -104,7 +135,7 @@ const faqSchema = {
       name: 'How can a plumber start getting cited by ChatGPT?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A plumbing operator earns a ChatGPT citation by publishing AEO-structured articles on their own domain at a cadence of sixteen articles per month. Each article opens every H3 with a plain-language definition, carries inline attribution to named sources, holds chunks between 80 and 180 tokens, and reads as journalism rather than promotion. First citations typically appear inside 30 to 60 days.',
+        text: 'A plumbing operator earns a ChatGPT citation by publishing AEO-structured articles on their own domain at a cadence of sixteen articles per month. Each article opens every H3 with a plain-language definition of the service category, carries inline attribution to named sources, holds chunks between 80 and 180 tokens, and reads as journalism rather than promotion. First citations typically appear inside 30 to 60 days, and city-level authority lands by day 90.',
       },
     },
     {
@@ -112,7 +143,7 @@ const faqSchema = {
       name: 'How long does it take to appear in ChatGPT plumber answers?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'First citations typically appear inside 30 to 60 days at a publication cadence of sixteen AEO-structured articles per month. By day 90, the Proof Ledger usually carries citations from all four major LLM platforms: ChatGPT, Claude, Gemini, and Perplexity AI. The Answer Engine carries a 90-day citation guarantee tied to that cadence.',
+        text: 'First citations typically appear inside 30 to 60 days at a publication cadence of sixteen AEO-structured articles per month. By day 90, the Proof Ledger usually carries citations from all four major LLM platforms — ChatGPT, Claude, Gemini, and Perplexity. The Answer Engine carries a 90-day citation guarantee tied to that cadence, and the timeline compresses when the plumbing domain already carries clean directory data and verified Google Business Profile.',
       },
     },
   ],
@@ -121,8 +152,14 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
+  '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://theanswerengine.ai',
+    },
     {
       '@type': 'ListItem',
       position: 2,
@@ -132,10 +169,59 @@ const breadcrumbSchema = {
     {
       '@type': 'ListItem',
       position: 3,
-      name: 'How ChatGPT Decides Which Plumber to Recommend in Your City',
-      item: 'https://theanswerengine.ai/blog/how-chatgpt-decides-which-plumber-to-recommend-in-your-city',
+      name: title,
+      item: `https://theanswerengine.ai/blog/${slug}`,
     },
   ],
+};
+
+const professionalServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': 'https://theanswerengine.ai/#organization',
+  name: 'The Answer Engine',
+  url: 'https://theanswerengine.ai',
+  telephone: '(213) 444-2229',
+  email: 'support@theanswerengine.ai',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Los Angeles',
+    addressRegion: 'CA',
+    addressCountry: 'US',
+  },
+  founder: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+  },
+  foundingDate: '2025',
+  areaServed: { '@type': 'Country', name: 'United States' },
+  serviceType: [
+    'Answer Engine Optimization',
+    'AEO Content',
+    'LLM Citation Building',
+    'AI Search Visibility',
+  ],
+  sameAs: ['https://linkedin.com/company/theanswerengine'],
+  description:
+    'The Answer Engine is a GEO/AEO firm helping businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews through structured content, schema, and citation strategy.',
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `https://theanswerengine.ai/blog/${slug}#webpage`,
+  url: `https://theanswerengine.ai/blog/${slug}`,
+  name: title,
+  description,
+  isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+  primaryImageOfPage: `https://theanswerengine.ai/blog/${slug}.webp`,
+  datePublished: `${publishDate}T00:00:00.000Z`,
+  dateModified: `${modifiedDate}T00:00:00.000Z`,
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['.article-summary', '.key-insight', 'h2', '.ae-faq-answer', '.ae-stat-card'],
+  },
 };
 
 const signals = [
@@ -143,28 +229,28 @@ const signals = [
     num: '1',
     title: 'Definition-First Openings',
     measure: 'Plain-language definition in the first sentence of every H3',
-    lift: '+57% citation probability',
+    lift: '+57% citation premium',
     source: 'Zhang et al. (2026)',
   },
   {
     num: '2',
     title: 'Inline Attribution Density',
-    measure: 'Named source citations per section',
-    lift: '+37% (quotes) / +22% (stats)',
+    measure: 'Named-source citations per section',
+    lift: '+37% / +22%',
     source: 'Aggarwal et al. (KDD 2024)',
   },
   {
     num: '3',
     title: 'Bounded Chunk Discipline',
-    measure: '80-180 token ceiling per H3 section',
-    lift: '+43% extraction rate',
+    measure: '80–180 token ceiling per H3 section',
+    lift: '+43% extraction',
     source: 'GEO-SFE (2026)',
   },
   {
     num: '4',
     title: 'Journalism Over Promotion',
     measure: 'Third-party tone vs. first-party brand claims',
-    lift: '3-5x preference',
+    lift: '3–5x preference',
     source: 'Chen et al. (2025)',
   },
   {
@@ -176,43 +262,9 @@ const signals = [
   },
 ];
 
-const fallacies = [
-  {
-    label: 'Review Count',
-    mapPack: 'HIGH',
-    chatgpt: 'LOW',
-    control: 'Indirect',
-  },
-  {
-    label: 'Google Business Profile',
-    mapPack: 'HIGH',
-    chatgpt: 'CONTEXT ONLY',
-    control: 'Indirect',
-  },
-  {
-    label: 'Backlink Volume',
-    mapPack: 'HIGH',
-    chatgpt: 'MARGINAL',
-    control: 'Partial',
-  },
-  {
-    label: 'Paid Advertising',
-    mapPack: 'BOOSTS VISIBILITY',
-    chatgpt: 'ZERO',
-    control: 'Full (irrelevant)',
-  },
-  {
-    label: 'AEO-Structured Content (own domain)',
-    mapPack: 'MODERATE',
-    chatgpt: 'DECISIVE',
-    control: 'Full',
-    highlight: true,
-  },
-];
-
-export default function ChatGPTPlumberPage() {
+export default function HowChatGPTDecidesPlumberPage() {
   return (
-    <>
+    <div className="min-h-screen bg-[#131313]">
       <Script
         id="article-schema"
         type="application/ld+json"
@@ -228,514 +280,704 @@ export default function ChatGPTPlumberPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      <Script
+        id="professional-service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema) }}
+      />
+      <Script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
 
-      <article className="min-h-screen bg-[#0A0A0F] text-white">
+      <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+        {/* Breadcrumb */}
+        <nav className="mb-8 text-sm text-white/40 font-mono uppercase tracking-wider">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+          <span className="mx-2">/</span>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+          <span className="mx-2">/</span>
+          <span className="text-white/60">ChatGPT Plumber Recommendations</span>
+        </nav>
+
         {/* Hero */}
-        <header className="border-b border-white/10 px-6 py-16 md:py-24">
-          <div className="mx-auto max-w-4xl">
-            <nav className="mb-8 text-sm text-white/40">
-              <Link href="/" className="hover:text-white/70 transition-colors">Home</Link>
-              <span className="mx-2">/</span>
-              <Link href="/blog" className="hover:text-white/70 transition-colors">Blog</Link>
-              <span className="mx-2">/</span>
-              <span className="text-white/60">ChatGPT Plumber Recommendations</span>
-            </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-chatgpt-decides-which-plumber-to-recommend-in-your-city.webp"
-              alt="how chatgpt decides which plumber to recommend in your city"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
-
-            <div className="mb-6 inline-block">
-              <span className="font-headline text-xs font-black tracking-tighter uppercase bg-[#F27D24]/10 text-[#F27D24] border border-[#F27D24]/30 px-3 py-1 rounded">
-                Field Report
-              </span>
-            </div>
-
-            <h1 className="font-headline text-4xl md:text-5xl font-black tracking-tighter uppercase mb-6 leading-none">
-              How ChatGPT Decides Which{' '}
-              <span className="text-[#F27D24]">Plumber</span> to Recommend in Your City
-            </h1>
-
-            <p className="text-lg md:text-xl text-white/70 max-w-2xl leading-relaxed mb-8">
-              ChatGPT does not rank plumbers. ChatGPT scores chunks. This is the four-source
-              retrieval pass behind every local plumbing recommendation, the five structural
-              signals that earn the citation, and the Proof Ledger that measures the outcome.
-            </p>
-
-            <div className="flex flex-wrap gap-6 text-sm text-white/50">
-              <span>By Justin Borges</span>
-              <span>·</span>
-              <span>Founder, The Answer Engine</span>
-              <span>·</span>
-              <span>May 13, 2026</span>
-              <span>·</span>
-              <span>15 min read</span>
-            </div>
-          </div>
+        <header className="ae-article-hero w-full overflow-hidden mb-10" style={{ borderRadius: 0 }}>
+          <img
+            src={`/blog/${slug}.webp`}
+            alt="How ChatGPT decides which plumber to recommend in your city — AEO retrieval pipeline"
+            style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+            loading="eager"
+          />
         </header>
 
-        <div className="mx-auto max-w-4xl px-6 py-12">
-
-          {/* TOC */}
-          <div className="border border-white/10 rounded-lg p-6 bg-white/[0.02] mb-12">
-            <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-4">In This Article Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-            <ol className="space-y-2 text-sm text-white/60 list-decimal list-inside">
-              <li><a href="#step-by-step" className="hover:text-white transition-colors">How ChatGPT Recommends a Plumber, Step by Step</a></li>
-              <li><a href="#four-sources" className="hover:text-white transition-colors">The Four Sources Behind a ChatGPT Plumber Recommendation</a></li>
-              <li><a href="#five-signals" className="hover:text-white transition-colors">The Five Structural Signals That Earn the Plumber Citation</a></li>
-              <li><a href="#what-goes-wrong" className="hover:text-white transition-colors">What Most Plumbing Businesses Get Wrong About AI Recommendations</a></li>
-              <li><a href="#measure" className="hover:text-white transition-colors">How to Measure Whether ChatGPT Cites Your Plumbing Business</a></li>
-              <li><a href="#faq" className="hover:text-white transition-colors">Frequently Asked Questions</a></li>
-            </ol>
-          </div>
-
-          {/* Stats */}
-          <div className="ae-stats-grid mb-16">
-            <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">1.14M</div>
-              <div className="ae-section-label">Monthly Impressions (AE clients)</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">4/4</div>
-              <div className="ae-section-label">LLM platforms cited</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">16</div>
-              <div className="ae-section-label">Articles per month for city authority</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">&lt;4%</div>
-              <div className="ae-section-label">US plumbing domains with any AEO signal</div>
-            </div>
-          </div>
-
-          {/* Named thesis */}
-          <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-12">
-            <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-            <p className="text-white/90 font-medium leading-relaxed">
-              The Plumber Recommendation Pipeline: ChatGPT does not score plumbers - ChatGPT scores
-              chunks. A local plumbing query triggers a four-source retrieval pass across the live
-              web index, training corpus residue, knowledge graph entity links, and operator-published
-              authority content, and only the structurally correct passages reach the synthesis step.
-              <span className="text-white/50 text-sm ml-2">(GEO-SFE, 2026)</span>
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-          </div>
-
-          {/* Section 1 */}
-          <section id="step-by-step" className="mb-16">
-            <h2 className="font-headline text-3xl font-black tracking-tighter uppercase mb-6">
-              How ChatGPT Recommends a Plumber, Step by Step
-            </h2>
-
-            <p className="text-white/80 leading-relaxed mb-4">
-              A ChatGPT plumber recommendation is the output of a retrieval-and-generation pipeline
-              that runs in four stages: query interpretation, source pull, chunk scoring, and
-              synthesis with attribution. The cited plumber is not the highest-rated business on
-              Yelp or the highest-ranking business on Google. The cited plumber is the operator
-              whose own domain published the chunks the model decided to extract.
-             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-            <p className="text-white/80 leading-relaxed mb-8">
-              The foundational academic work in AI citation optimization is less than two years old,
-              which means the practitioner gap inside the plumbing category is uncommonly wide.
-              The Answer Engine has produced 1.14 million-plus monthly impressions and citations
-              across all four major LLM platforms by treating AEO as a structural discipline
-              rather than a marketing tactic.{' '}
-              <a href="sms:+12134442229" className="text-[#F27D24]">Text (213) 444-2229</a> with
-              a domain URL for a same-day exposure score.
-             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-
-            {/* 4-step pipeline */}
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
-              {[
-                { num: '01', title: 'Query Interpretation', body: 'ChatGPT classifies the query as local-intent and activates the web retrieval tool for the city named in the query.' },
-                { num: '02', title: 'Four-Source Pull', body: 'Parallel retrieval from live web index, training corpus residue, knowledge graph, and operator-published authority content.' },
-                { num: '03', title: 'Chunk Scoring', body: 'Each 80-400 token passage is embedded and scored against the user query. Top-ranked chunks advance to synthesis.' },
-                { num: '04', title: 'Synthesis and Citation', body: 'The generation model synthesizes an answer and cites the 2-5 domains that supplied the highest-ranked chunks.' },
-              ].map((step) => (
-                <div key={step.num} className="border border-white/10 rounded-lg p-5 bg-white/[0.02]">
-                  <div className="font-headline text-3xl font-black text-[#F27D24]/30 mb-3">{step.num}</div>
-                  <h3 className="font-headline font-black tracking-tighter uppercase text-sm mb-2">{step.title}</h3>
-                  <p className="text-white/60 text-sm leading-relaxed">{step.body} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-                </div>
-              ))}
-            </div>
-
-            <div className="bg-[#F27D24]/8 border border-[#F27D24]/20 rounded-lg p-5 mb-4">
-              <p className="text-white/80 text-sm leading-relaxed">
-                <strong className="text-white">Key takeaways:</strong> ChatGPT scores{' '}
-                <strong className="text-white">chunks of text</strong>, not business profiles. The
-                cited plumber is the operator whose domain published structurally correct chunks.
-                A 500-review plumber with no authority content can lose to a 40-review plumber
-                with 60 AEO-structured articles. First citations appear inside 30 days at a
-                16-article-per-month cadence.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-            </div>
-
-            <p className="text-white/80 leading-relaxed">
-              A ChatGPT plumber recommendation typically renders with two to five inline citation
-              links. Each citation links to the source the model pulled.{' '}
-              <span className="text-white/50 font-mono text-sm">GEO-SFE (2026)</span> measured
-              that 44 percent of all citations are awarded to the top-third of the cited article,
-              meaning position-weighted writing is structurally rewarded.{' '}
-              <a href="https://calendly.com/theanswerengine-support/30min" className="text-[#F27D24]">
-                Book a 30-minute review
-              </a>{' '}
-              to see the citation slot mapped to a live plumbing page.
-             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-          </section>
-
-          {/* Section 2 */}
-          <section id="four-sources" className="mb-16">
-            <h2 className="font-headline text-3xl font-black tracking-tighter uppercase mb-6">
-              The Four Sources Behind a ChatGPT Plumber Recommendation
-            </h2>
-
-            <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-5 mb-8">
-              <p className="text-white/80 font-medium leading-relaxed text-sm">
-                <strong className="text-white">Source hierarchy:</strong> Operator-published authority
-                content is the only source a plumbing business fully controls. The live web index,
-                training corpus residue, and knowledge graph are background context - they confirm
-                you exist. The decisive citation lever is what your own domain publishes.
-               Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </div>
-
-            <p className="text-white/80 leading-relaxed mb-6">
-              A ChatGPT plumber recommendation is a synthesis of four data sources pulled in
-              parallel. The operator-published authority surface is the only source the operator
-              fully controls and the only source that scales with publication cadence. The other
-              three sources are background context; the fourth is the decisive lever.{' '}
-              <a href="https://theanswerengine.ai/blindspot" className="text-[#F27D24]">
-                Run the free Blindspot Report
-              </a>{' '}
-              to see which of the four sources currently carries a plumbing domain's signal.
-             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <p className="text-white/90 font-medium leading-relaxed text-sm">
-                The Plumber Authority Asymmetry: a Yelp listing and a Google Business Profile cannot
-                win an AI plumber recommendation alone - the citation slot goes to the operator whose
-                own domain publishes definition-first, attribution-anchored chunks about the local
-                plumbing category.{' '}
-                <span className="text-white/50 font-mono">Aggarwal et al. (KDD 2024); Chen et al. (2025)</span>
-               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-            </div>
-
-            <div className="space-y-6">
-              {[
-                {
-                  title: 'Source 1  -  The Live Web Retrieval Pass',
-                  body: "ChatGPT's web tool pulls fresh pages indexed inside the last 24 to 72 hours through a Bing-backed retrieval surface. For a local plumbing query, the live web pass returns recent service pages, recently published articles, fresh directory entries, and new domain content the operator published inside the window. This is the only source that responds to publication cadence in real time, which is why a 16-articles-per-month publication rhythm earns disproportionate citation share.",
-                  cite: 'SparkToro (2024): 65% of Google searches now resolve without a click  -  the live retrieval pass is supplying the citation that used to be the click.',
-                },
-                {
-                  title: 'Source 2  -  Training Corpus Residue and Knowledge Graph Entities',
-                  body: "Training corpus residue supplies whatever pages were inside ChatGPT's pretraining cutoff. The knowledge graph supplies entity-level facts: that a named plumbing business exists, sits in a named city, holds a license number, carries a category code. Both sources are background context for the synthesis. Neither source produces a citation slot on its own.",
-                  cite: null,
-                },
-                {
-                  title: 'Source 3  -  Operator-Published Authority Content (The Decisive Lever)',
-                  body: "The operator's own domain is the only source the operator fully controls and the only source that scales with publication cadence. The operator-published authority content has to read as journalism, not marketing: definition-first, citation-anchored, bounded, dated. The Answer Engine measures this as the single highest-weighted source inside the retrieval pass for high-intent local queries.",
-                  cite: 'Chen et al. (2025): 3-5x preference inside major LLMs for third-party-toned attribution over first-party brand claims.',
-                },
-              ].map((src, i) => (
-                <div key={i} className="border border-white/10 rounded-lg p-5 bg-white/[0.01]">
-                  <h3 className="font-headline font-black tracking-tighter uppercase text-base mb-3">{src.title}</h3>
-                  <p className="text-white/75 leading-relaxed text-sm mb-3">{src.body} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-                  {src.cite && (
-                    <p className="font-mono text-xs text-white/40 border-t border-white/10 pt-3">{src.cite} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Section 3 */}
-          <section id="five-signals" className="mb-16">
-            <h2 className="font-headline text-3xl font-black tracking-tighter uppercase mb-6">
-              The Five Structural Signals That Earn the Plumber Citation
-            </h2>
-
-            <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <p className="text-white/90 font-medium leading-relaxed text-sm">
-                The Definition Premium: an article that opens its plumber-related H3 with a
-                plain-language definition of the service category earns 57 percent higher citation
-                probability than an article that buries the definition mid-page.{' '}
-                <span className="text-white/50 font-mono">Zhang et al. (2026)</span>
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            </div>
-
-            {/* Signal comparison table */}
-            <div className="overflow-x-auto mb-8">
-              <table className="w-full border-collapse text-sm">
-                <thead>
-                  <tr className="border-b border-white/20">
-                    <th className="text-left py-3 pr-4 font-headline font-black tracking-tighter uppercase text-[#F27D24] text-xs">Signal</th>
-                    <th className="text-left py-3 pr-4 font-headline font-black tracking-tighter uppercase text-white/40 text-xs">What Retrievers Measure</th>
-                    <th className="text-left py-3 pr-4 font-headline font-black tracking-tighter uppercase text-white/40 text-xs">Lift Documented</th>
-                    <th className="text-left py-3 font-headline font-black tracking-tighter uppercase text-white/40 text-xs">Source</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-white/10">
-                  {signals.map((s) => (
-                    <tr key={s.num} className="hover:bg-white/[0.02] transition-colors">
-                      <td className="py-3 pr-4 font-medium">{s.num}. {s.title}</td>
-                      <td className="py-3 pr-4 text-white/60 text-xs">{s.measure}</td>
-                      <td className="py-3 pr-4">
-                        <span className="font-mono text-xs bg-[#F27D24]/15 text-[#F27D24] px-2 py-1">{s.lift}</span>
-                      </td>
-                      <td className="py-3 text-white/40 font-mono text-xs">{s.source}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <div className="space-y-4 mb-8">
-              {[
-                { sig: 'Signal 1', title: 'Definition-First Openings', body: 'The first sentence of every chunk must define the subject. Zhang et al. (2026) measured citation outcomes across 8,400 LLM queries and found a 57 percent citation premium for passages opening with a plain-language definition. A plumbing article that opens an H3 with "A slab leak is the slow loss of water through a hidden break inside a copper supply line beneath the foundation slab" earns the citation slot a competitor article cannot.', cta: { text: 'Text (213) 444-2229', href: 'sms:+12134442229' } },
-                { sig: 'Signal 2', title: 'Inline Attribution Density', body: 'Aggarwal et al. (KDD 2024) ran controlled rewrites and measured quotations boosting LLM influence by 37 percent and inline statistics by 22 percent. GEO-SFE (2026) measured a 2.4x citation lift from a single inline academic citation per H3 section. A plumbing article that names the EPA for a lead pipe statistic or the IAPMO for a code reference earns chunks the retriever pulls.', cta: { text: 'Email for side-by-side attribution audit', href: 'mailto:support@theanswerengine.ai' } },
-                { sig: 'Signal 3', title: 'Bounded Chunk Discipline', body: 'GEO-SFE (2026) measured a 31 percent attention degradation in retrievers when passages exceeded 300 words and a 43 percent extraction premium for lists, tables, and bounded structures. The Answer Engine writes every plumbing H3 to an 80-to-180-token ceiling. Each chunk is self-contained, opens with a definition, carries one attribution, and never refers backward through pronouns.', cta: { text: 'Run the Blindspot Report', href: 'https://theanswerengine.ai/blindspot' } },
-                { sig: 'Signal 4', title: 'Journalism Over Promotion', body: 'Chen et al. (2025) measured a three-to-five-times preference inside the major LLMs for third-party attribution over first-party brand claims. LLMs learn brand-published content carries promotional intent and journalism carries verification weight. A plumbing operator that publishes "Why Most Slab Leaks in Phoenix Are Detected Too Late" in attributed, dated, citation-anchored prose earns retrieval share that promotional content cannot.', cta: { text: 'Book 30-minute review', href: 'https://calendly.com/theanswerengine-support/30min' } },
-                { sig: 'Signal 5', title: 'Corpus Cadence', body: 'A single structurally correct plumbing article wins a small number of citations. A corpus of 60 to 90 structurally correct plumbing articles wins category authority inside a city. The Answer Engine publishes at 16 articles per month per operator because that is the documented cadence at which the unified retrieval layer indexes a domain as a city-level plumbing source.', cta: { text: 'Lock the open city seat', href: 'https://calendly.com/theanswerengine-support/30min' } },
-              ].map((item) => (
-                <div key={item.sig} className="border border-white/10 rounded-lg p-5 bg-white/[0.01]">
-                  <span className="font-mono text-xs text-[#F27D24] mb-2 block">{item.sig}</span>
-                  <h3 className="font-headline font-black tracking-tighter uppercase text-base mb-3">{item.title}</h3>
-                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body} <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-                  <a href={item.cta.href} className="text-[#F27D24] text-sm hover:underline">{item.cta.text} &rarr;</a>
-                </div>
-              ))}
-            </div>
-
-            <div className="bg-[#F27D24]/8 border border-[#F27D24]/20 rounded-lg p-5">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-3">Key Takeaways - Five Signals <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              <ul className="space-y-2 text-sm text-white/75">
-                <li>Definition-first openings earn a 57% citation premium</li>
-                <li>Inline attribution (named sources) lifts chunk influence by 22-37%</li>
-                <li>Chunk length must stay 80-180 tokens  -  over 300 words triggers 31% attention degradation</li>
-                <li>Journalistic tone earns a 3-5x retrieval preference over promotional copy</li>
-                <li>16 articles per month is the cadence for city-level category authority</li>
-              </ul>
-            </div>
-          </section>
-
-          {/* Section 4 */}
-          <section id="what-goes-wrong" className="mb-16">
-            <h2 className="font-headline text-3xl font-black tracking-tighter uppercase mb-6">
-              What Most Plumbing Businesses Get Wrong About AI Recommendations
-            </h2>
-
-            <div className="border-l-4 border-white/20 bg-white/[0.02] p-5 mb-8">
-              <p className="text-white/70 text-sm leading-relaxed">
-                <strong className="text-white">The Three Fallacies:</strong> Review count, Google
-                Business Profile presence, and backlink volume are the three most misapplied signals
-                in AI search. Each is a strong input to Google Map Pack. Each is a weak or zero
-                input to ChatGPT chunk retrieval. Operators who optimize for the wrong surface spend
-                real budget on signals that do not produce citations.
-               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </div>
-
-            <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <p className="text-white/90 font-medium leading-relaxed text-sm">
-                The Local Invisibility Default: fewer than four percent of United States plumbing
-                service domains carry any of the four structural signals retrievers reward, which
-                means the ChatGPT citation slot in most cities is structurally open until the first
-                plumbing operator commits.{' '}
-                <span className="text-white/50 font-mono">Answer Engine Field Audit (2026)</span>
-               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            </div>
-
-            {/* Comparison table */}
-            <div className="overflow-x-auto mb-8">
-              <table className="w-full border-collapse text-sm">
-                <thead>
-                  <tr className="border-b border-white/20">
-                    <th className="text-left py-3 pr-4 font-headline font-black tracking-tighter uppercase text-[#F27D24] text-xs">Signal Type</th>
-                    <th className="text-left py-3 pr-4 font-headline font-black tracking-tighter uppercase text-white/40 text-xs">Google Map Pack</th>
-                    <th className="text-left py-3 pr-4 font-headline font-black tracking-tighter uppercase text-white/40 text-xs">ChatGPT Citation</th>
-                    <th className="text-left py-3 font-headline font-black tracking-tighter uppercase text-white/40 text-xs">Operator Control</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-white/10">
-                  {fallacies.map((row) => (
-                    <tr key={row.label} className={row.highlight ? 'bg-[#F27D24]/5' : 'hover:bg-white/[0.02]'}>
-                      <td className={`py-3 pr-4 ${row.highlight ? 'font-medium text-white' : 'text-white/80'}`}>{row.label}</td>
-                      <td className="py-3 pr-4">
-                        <span className="font-mono text-xs bg-white/10 text-white/60 px-2 py-1">{row.mapPack}</span>
-                      </td>
-                      <td className="py-3 pr-4">
-                        <span className={`font-mono text-xs px-2 py-1 ${row.highlight ? 'bg-[#F27D24]/20 text-[#F27D24]' : 'bg-red-500/10 text-red-400'}`}>{row.chatgpt}</span>
-                      </td>
-                      <td className={`py-3 text-sm ${row.highlight ? 'text-white font-medium' : 'text-white/50'}`}>{row.control}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <div className="space-y-4">
-              {[
-                { title: 'The Review-Count Fallacy', body: 'Review count is a strong input to the Google Map Pack and a weak input to a ChatGPT plumber recommendation. The two systems score different surfaces. ChatGPT pulls indexed text and weights inline attribution, definition-first openings, and chunk discipline. Star ratings inside Yelp or Google Business Profile do not enter the retrieval pass at the chunk level the model scores.', cta: { text: 'Email for review-versus-citation gap analysis', href: 'mailto:support@theanswerengine.ai' } },
-                { title: 'The Google Business Profile Fallacy', body: 'A Google Business Profile is the dominant asset inside the Map Pack and a background context input inside the LLM retrieval pass. The Business Profile confirms the operator exists, anchors the entity to the city, and supplies category and hours metadata to the knowledge graph. The Business Profile does not, on its own, produce the chunk a ChatGPT retriever extracts.', cta: { text: 'Text (213) 444-2229 for diagnostic', href: 'sms:+12134442229' } },
-                { title: 'The Backlink-Volume Fallacy', body: 'Backlink volume was a dominant signal inside the classical Google ranking algorithm and a low-weight signal inside the unified retrieval layer. Aggarwal et al. (KDD 2024) measured inline citation and quotation density inside the candidate passage as the dominant chunk-level signal, with backlink graph centrality producing only a marginal lift.', cta: { text: 'Book the 30-minute review', href: 'https://calendly.com/theanswerengine-support/30min' } },
-              ].map((item) => (
-                <div key={item.title} className="border border-white/10 rounded-lg p-5 bg-white/[0.01]">
-                  <h3 className="font-headline font-black tracking-tighter uppercase text-base mb-3 text-red-400">{item.title}</h3>
-                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body} Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-                  <a href={item.cta.href} className="text-[#F27D24] text-sm hover:underline">{item.cta.text} &rarr;</a>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Section 5 */}
-          <section id="measure" className="mb-16">
-            <h2 className="font-headline text-3xl font-black tracking-tighter uppercase mb-6">
-              How to Measure Whether ChatGPT Cites Your Plumbing Business
-            </h2>
-
-            <p className="text-white/80 leading-relaxed mb-6">
-              A plumbing operator who cannot measure AI citation cannot improve it. Classical rank
-              reports, keyword position trackers, and impression dashboards measure the wrong surface
-              for AEO outcomes. The retrieval layer scores chunks, and the operator scores citations.
-              The Answer Engine measures both through a single instrument - the Proof Ledger - which
-              records every citation a plumbing property earns across ChatGPT, Claude, Gemini, and
-              Perplexity AI.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-
-            <div className="border border-white/10 rounded-lg p-5 bg-white/[0.02] mb-8 font-mono text-xs text-white/50 leading-relaxed">
-              <strong className="text-white">Method note.</strong> This analysis draws on four
-              foundational papers in AEO: Aggarwal et al. (KDD 2024), Zhang et al. (2026),
-              GEO-SFE (2026), and Chen et al. (2025), plus Pew Research Center (2024) and SparkToro
-              (2024) zero-click datasets, plus 40+ verified AE client engagements. The plumbing
-              implementation rate is from the Answer Engine Field Audit (2026) of 600 US local
-              service domains.
-            </div>
-
-            <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <p className="text-white/90 font-medium leading-relaxed text-sm">
-                The Proof Ledger Standard: the only durable measurement instrument for plumbing AEO
-                is a dated, public record of citations earned across the four major LLM platforms.
-                Rank reports measure the wrong surface and review dashboards measure the wrong unit.{' '}
-                <span className="text-white/50 font-mono">Answer Engine Method (2026)</span>
-               Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            </div>
-
-            <div className="bg-[#F27D24]/8 border border-[#F27D24]/20 rounded-lg p-5 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-4">90-Day Citation Trajectory <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <div className="space-y-3">
-                {[
-                  { period: 'Day 1-30', outcome: 'First ChatGPT citation logged in the Proof Ledger for the primary city keyword' },
-                  { period: 'Day 31-60', outcome: 'Citations from 2 of 4 LLM platforms (ChatGPT + one of Claude, Gemini, Perplexity)' },
-                  { period: 'Day 61-90', outcome: 'All four LLM platforms citing the operator domain in the primary plumbing category' },
-                  { period: 'Ongoing', outcome: 'Corpus cadence at 16 articles/month. Citation share compounds monthly.' },
-                ].map((row) => (
-                  <div key={row.period} className="flex gap-4 text-sm">
-                    <span className="font-mono text-[#F27D24] w-20 shrink-0">{row.period}</span>
-                    <span className="text-white/75">{row.outcome}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="space-y-4">
-              {[
-                { title: 'The Proof Ledger for Plumbing Operators', body: 'The Proof Ledger is a dated, public record of every citation a plumbing property earns across ChatGPT, Claude, Gemini, and Perplexity AI. Each entry carries the query, the date, the citing model, and the link to the cited article. The ledger is the AEO equivalent of an audited financial statement: verifiable, replicable, and immune to vanity-metric distortion.', cta: { text: 'Book the 30-minute call to see a live ledger', href: 'https://calendly.com/theanswerengine-support/30min' } },
-                { title: 'Claiming the Open Citation Slot in Your City', body: 'The plumbing category in most United States cities currently has no AEO-correct incumbent. The Answer Engine Field Audit (2026) found fewer than four percent of plumbing domains carrying any of the four structural signals retrievers reward. The first plumbing operator in a city to commit captures the citation slot before a competitor does. The Answer Engine accepts one plumbing operator per city.', cta: { text: 'Claim the open city seat', href: 'https://calendly.com/theanswerengine-support/30min' } },
-              ].map((item) => (
-                <div key={item.title} className="border border-white/10 rounded-lg p-5">
-                  <h3 className="font-headline font-black tracking-tighter uppercase text-base mb-3">{item.title}</h3>
-                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body} <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-                  <a href={item.cta.href} className="text-[#F27D24] text-sm hover:underline">{item.cta.text} &rarr;</a>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Internal links */}
-          <div className="border-t border-b border-white/10 py-8 mb-12">
-            <p className="font-headline text-xs font-black tracking-tighter uppercase text-white/30 mb-4">Related Reading <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            <ul className="space-y-3">
-              <li className="border-l-2 border-[#F27D24] pl-4">
-                <Link href="/blog/how-to-get-cited-by-ai-search" className="text-sm text-white hover:text-[#F27D24] transition-colors">
-                  How to Get Cited by AI Search: The Complete Local Business Guide
-                </Link>
-              </li>
-              <li className="border-l-2 border-[#F27D24] pl-4">
-                <Link href="/blog/what-is-answer-engine-optimization-guide" className="text-sm text-white hover:text-[#F27D24] transition-colors">
-                  What Is Answer Engine Optimization? The Complete Guide
-                </Link>
-              </li>
-              <li className="border-l-2 border-[#F27D24] pl-4">
-                <Link href="/blog/how-to-get-cited-by-chatgpt-local-business" className="text-sm text-white hover:text-[#F27D24] transition-colors">
-                  How to Get Cited by ChatGPT: A Local Business Guide
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* FAQ */}
-          <section id="faq" className="mb-16">
-            <h2 className="font-headline text-3xl font-black tracking-tighter uppercase mb-8">
-              Frequently Asked Questions
-            </h2>
-            <div className="space-y-px">
-              {faqSchema.mainEntity.map((faq, i) => (
-                <details
-                  key={i}
-                  className="group border border-white/10 rounded-lg mb-2 bg-white/[0.01] open:bg-white/[0.03] transition-colors"
-                >
-                  <summary className="flex justify-between items-center gap-4 p-5 cursor-pointer list-none">
-                    <span className="font-headline font-black tracking-tighter uppercase text-sm leading-tight">
-                      {faq.name}
-                    </span>
-                    <span className="text-[#F27D24] font-mono text-lg shrink-0 group-open:rotate-45 transition-transform">+</span>
-                  </summary>
-                  <div className="px-5 pb-5">
-                    <p className="text-white/70 leading-relaxed text-sm">{faq.acceptedAnswer.text} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-                  </div>
-                </details>
-              ))}
-            </div>
-          </section>
-
-          {/* CTA */}
-          <section className="ae-final-cta not-prose">
-            <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                ChatGPT Is Making Business Recommendations in Your Market Right Now
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Run Free ChatGPT Visibility Scan →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
-              </div>
-            </div>
-          </section>
+        <div className="mb-6">
+          <span className="font-headline text-xs font-black tracking-tighter uppercase bg-[#F27D24]/10 text-[#F27D24] border border-[#F27D24]/30 px-3 py-1">
+            Field Report · AEO Mechanics
+          </span>
         </div>
+
+        <h1 className="font-headline text-4xl md:text-6xl font-black tracking-tighter uppercase mb-6 leading-none text-[#e5e2e1]">
+          HOW CHATGPT DECIDES WHICH{' '}
+          <span className="text-[#F27D24]">PLUMBER</span> TO RECOMMEND IN YOUR CITY
+        </h1>
+
+        <p className="article-summary font-body text-lg md:text-xl text-white/70 max-w-3xl leading-relaxed mb-8">
+          ChatGPT does not rank plumbers. ChatGPT scores chunks. This is the four-source retrieval pass
+          behind every local plumbing recommendation, the five structural signals that earn the citation,
+          and the Proof Ledger that measures the outcome.
+        </p>
+
+        <div className="flex flex-wrap gap-6 text-sm text-white/50 font-mono uppercase tracking-wider mb-10">
+          <span>June 1, 2026</span>
+          <span>·</span>
+          <span>15 min read</span>
+          <span>·</span>
+          <span>Justin Borges</span>
+        </div>
+
+        {/* STATS GRID */}
+        <div className="ae-stats-grid not-prose mb-12">
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">🔧</div>
+            <div className="ae-stat-value ae-accent">1.14M</div>
+            <div className="ae-stat-label">monthly impressions across AE clients cited by all four major LLMs</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">📊</div>
+            <div className="ae-stat-value ae-accent">+57%</div>
+            <div className="ae-stat-label">citation premium for pages opening with a clear definition (Zhang et al., 2026)</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">📅</div>
+            <div className="ae-stat-value ae-accent">16/mo</div>
+            <div className="ae-stat-label">AEO articles per month to win city-level authority for a plumbing operator</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">⚠️</div>
+            <div className="ae-stat-value ae-accent">&lt;4%</div>
+            <div className="ae-stat-label">US plumbing domains carrying any of the four core AEO signals (AE Field Audit, 2026)</div>
+          </div>
+        </div>
+
+        {/* CHEAT SHEET (TOC) */}
+        <div className="ae-cheat-sheet not-prose mb-12">
+          <div className="ae-cheat-sheet-title">Article Cheat Sheet</div>
+          <table>
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Core Insight</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#pipeline" className="text-[#F27D24]">The Recommendation Pipeline</a></td>
+                <td>ChatGPT runs query interpretation, four-source pull, chunk scoring, and synthesis with citation.</td>
+              </tr>
+              <tr>
+                <td><a href="#sources" className="text-[#F27D24]">The Four Sources</a></td>
+                <td>Live web, training residue, knowledge graph, operator-published authority — only one is yours.</td>
+              </tr>
+              <tr>
+                <td><a href="#signals" className="text-[#F27D24]">The Five Citation Signals</a></td>
+                <td>Definition-first, attribution density, bounded chunks, journalistic tone, corpus cadence.</td>
+              </tr>
+              <tr>
+                <td><a href="#mistakes" className="text-[#F27D24]">What Most Plumbers Get Wrong</a></td>
+                <td>NAP drift, generic services page, JS-only price widgets, brand-voice content, low cadence.</td>
+              </tr>
+              <tr>
+                <td><a href="#proof" className="text-[#F27D24]">The Proof Ledger</a></td>
+                <td>Measure citation rate per query per model — not impressions, not Maps rank, not followers.</td>
+              </tr>
+              <tr>
+                <td><a href="#faq" className="text-[#F27D24]">FAQ</a></td>
+                <td>Direct answers to the six questions plumbing operators ask before starting AEO.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+
+          {/* SECTION 1: PIPELINE */}
+          <span className="ae-section-label" id="pipeline">The Pipeline</span>
+          <h2>How ChatGPT Recommends A Plumber, Step By Step</h2>
+
+          <p className="key-insight">
+            A ChatGPT plumber recommendation is the output of a retrieval-and-generation pipeline that runs
+            in four stages: query interpretation, source pull, chunk scoring, and synthesis with attribution.{' '}
+            <strong className="named-thesis">The Plumber Recommendation Pipeline: ChatGPT does not score plumbers
+            — ChatGPT scores chunks across a four-source retrieval pass that runs query interpretation,
+            parallel source pull, embedded chunk scoring, and synthesis with attribution (GEO-SFE, 2026).</strong>{' '}
+            The cited plumber is not the highest-rated business on Yelp or the highest-ranking business on
+            Google Maps. The cited plumber is the operator whose own domain published the chunks the model
+            decided to extract.
+          </p>
+
+          <h3>Query Interpretation</h3>
+
+          <p>
+            Answer Engine Optimization starts with how the model reads the question. ChatGPT classifies a
+            plumbing query as local-intent the moment a city name, neighborhood name, or &quot;near me&quot;
+            modifier appears. That classification triggers the web retrieval tool, which calls the Bing-backed
+            live index for fresh content. A plumbing query without a location modifier — &quot;how to fix a
+            leaking shower head&quot; — does not trigger the local pass and routes to general knowledge.
+            Plumbing operators who want recommendation slots have to win on geo-loaded queries first. To map
+            the queries your shop should target,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free AERO Blind Spot Scan</a>.
+          </p>
+
+          <h3>The Four-Source Parallel Pull</h3>
+
+          <p>
+            ChatGPT pulls from four sources in parallel: the live web index (fresh content from the last 24
+            to 72 hours), the training corpus residue (whatever was inside its pretraining cutoff), the
+            knowledge graph (entity-level facts about the named plumbing business), and operator-published
+            authority content (domain-owned articles, service pages, and guides). Each source produces
+            candidate passages. Only the operator-published source scales with publication cadence, which is
+            why publishing rhythm is the decisive lever. To talk through your shop&apos;s current source
+            footprint directly, text Justin at (213) 444-2229 — replies arrive inside 24 hours.
+          </p>
+
+          <h3>Chunk Scoring And Synthesis</h3>
+
+          <p>
+            Every retrieved passage is embedded as a vector and scored against the user query. Top-ranked
+            chunks advance to synthesis, where the generation model writes an answer that names two to five
+            domains as inline citations. <strong className="named-thesis">The Chunk Ceiling: plumbing service
+            passages over 300 words trigger a 31% attention degradation in RAG retrievers — splitting them
+            into 80 to 180 token bounded units restores extraction accuracy (GEO-SFE, 2026).</strong>{' '}
+            Plumbing pages written as one long block of marketing prose lose the citation to plumbing pages
+            written in tight, definition-led chunks. The mechanism is mechanical. Editorial flair does not
+            survive the embedder. To audit your existing pages against the chunk ceiling, email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <div className="ae-callout ae-callout-orange not-prose">
+            <div className="ae-callout-title">Field Age Matters</div>
+            <p>
+              The foundational academic work in AI citation optimization is less than two years old, which
+              means the practitioner gap inside the plumbing category is uncommonly wide. One plumbing
+              operator per city locks the territory — markets fill fast.{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your
+              territory availability on Calendly</a> before a competitor claims it.
+            </p>
+          </div>
+
+          {/* SECTION 2: FOUR SOURCES */}
+          <span className="ae-section-label" id="sources">The Four Sources</span>
+          <h2>The Four Sources Behind A ChatGPT Plumber Recommendation</h2>
+
+          <p>
+            <strong className="named-thesis">The Operator Authority Asymmetry: the only retrieval source a
+            plumbing business fully controls is its own domain — directory listings and review sites supply
+            background context, but operator-published authority content is the decisive citation
+            lever.</strong> A Yelp listing and a Google Business Profile cannot win an AI plumber
+            recommendation alone. The citation slot goes to the operator whose own domain publishes
+            definition-first, attribution-anchored chunks about the local plumbing category. Reviews still
+            matter for trust, but the citation slot is operator-owned. To check which of the four sources
+            currently carries your domain&apos;s signal,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free AERO Blind Spot
+            Scan</a> — it ships within 48 hours.
+          </p>
+
+          <h3>Source One: The Live Web Retrieval Pass</h3>
+
+          <p>
+            Answer Engine Optimization treats the live web pass as the fastest-moving citation surface.
+            ChatGPT&apos;s web tool pulls fresh pages indexed inside the last 24 to 72 hours through the
+            Bing-backed retrieval layer. For a local plumbing query, the live web pass returns recent
+            service pages, recently published articles, fresh directory entries, and new domain content the
+            operator published inside the window. This is the only source that responds to publication
+            cadence in real time, which is why a sixteen-articles-per-month publication rhythm earns
+            disproportionate citation share. Plumbing operators who publish weekly earn citations weekly. To
+            schedule a free 30-min call on what your cadence should look like,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a Calendly
+            consult</a>.
+          </p>
+
+          <h3>Source Two: Training Corpus Residue</h3>
+
+          <p>
+            Training corpus residue supplies whatever pages were inside ChatGPT&apos;s pretraining cutoff —
+            content the model saw during pretraining and folded into its parametric knowledge. For most
+            plumbing operators, this source produces minimal recall: independent plumbing domains rarely
+            appear in pretraining corpora at meaningful density. Training corpus residue is background
+            context for the synthesis. It rarely produces a citation slot on its own, and it cannot be
+            changed retroactively. The forward fix is to publish content the next training cutoff will
+            absorb, which is why operator cadence matters even before the live web tool is invoked.
+          </p>
+
+          <h3>Source Three: Knowledge Graph Entity Links</h3>
+
+          <p>
+            The knowledge graph supplies entity-level facts: that a named plumbing business exists, sits in
+            a named city, holds a license number, carries a category code, links to a Wikipedia entity if
+            one exists. Knowledge graph data is pulled from structured sources — Wikidata, Wikipedia,
+            Google&apos;s Knowledge Graph, schema.org markup on authoritative directory listings.
+            Independent plumbing operators rarely carry rich knowledge graph entries, which means this
+            source confirms existence but does not produce ranking. The fix is consistent NAP across
+            high-authority directories plus schema markup on the operator domain. To start a parity audit
+            on your domain, email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Source Four: Operator-Published Authority Content (The Decisive Lever)</h3>
+
+          <p>
+            The operator&apos;s own domain is the only source the operator fully controls and the only
+            source that scales with publication cadence. <strong className="named-thesis">The Journalism
+            Differential: plumbing content written as third-party explanation rather than first-party
+            promotion earns 3 to 5x preference inside major LLM retrievers (Chen et al., 2025).</strong> The
+            operator-published authority content has to read as journalism, not marketing: definition-first,
+            citation-anchored, bounded, dated. The Answer Engine measures this as the single highest-weighted
+            source inside the retrieval pass for high-intent local plumbing queries. To map your domain
+            against the four sources directly, text Justin at (213) 444-2229.
+          </p>
+
+          {/* SECTION 3: FIVE SIGNALS */}
+          <span className="ae-section-label" id="signals">The Citation Signals</span>
+          <h2>The Five Structural Signals That Earn The Plumber Citation</h2>
+
+          <p>
+            <strong className="named-thesis">The Definition Premium: a plumbing service page that opens its
+            H3 with a plain-language definition of the service category earns 57 percent higher citation
+            probability than a page that buries the definition mid-article (Zhang et al., 2026).</strong>{' '}
+            The five signals below are the structural levers retrievers measure. Plumbing content that hits
+            three or more enters the citation set. Plumbing content that hits all five owns the citation
+            slot. Markets fill fast — one plumbing operator per city is the rule The Answer Engine enforces.{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your
+            territory on Calendly</a> before a competitor does.
+          </p>
+
+          <h3>Signal One: Definition-First Openings</h3>
+
+          <p>
+            Every H3 section opens with a plain-language definition of its subject. &quot;A slab leak is a
+            water line break inside or beneath the concrete foundation of a home, typically detected by a
+            sudden hot spot on the floor, an unexplained spike in the water bill, or running-water sound
+            with no fixture in use.&quot; That sentence is a complete answer the retriever can extract and
+            cite without any surrounding context. The +57% citation premium documented by Zhang et al.
+            (2026) is the highest documented lift of any structural lever. The fix is mechanical — rewrite
+            every H3 opener. To get the H3 rewrite template for your existing plumbing pages,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">request the free AERO
+            Blind Spot Scan</a>.
+          </p>
+
+          <h3>Signal Two: Inline Attribution Density</h3>
+
+          <p>
+            Aggarwal et al. (KDD 2024) measured a +37% citation lift on passages carrying inline quotations
+            from named sources and +22% on passages carrying inline statistics with named attribution. The
+            mechanism is straightforward: retrievers weight passages that signal evidence. Plumbing content
+            that names a code reference (UPC 2024, IRC 2024 plumbing chapter), cites a manufacturer spec, or
+            quotes a state licensing board carries higher trust scores than content that asserts without
+            attribution. The attribution does not have to be exotic. It has to be named. To audit your
+            current attribution density, email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Signal Three: Bounded Chunk Discipline</h3>
+
+          <p>
+            Every H3 holds between 80 and 180 tokens — roughly 60 to 130 words of dense prose. GEO-SFE
+            (2026) measured a +43% extraction lift on bounded chunks versus long-form blocks, plus a
+            corresponding 31% degradation on chunks exceeding 300 words. The mechanism: RAG retrievers
+            embed at the passage level, and over-long passages get split mid-thought, fragmenting the
+            answer. Plumbing pages that respect the chunk ceiling produce extractable answers. Plumbing
+            pages that ignore it produce noise. To text us your shop URL for a chunk audit, text (213)
+            444-2229 with the domain.
+          </p>
+
+          <h3>Signal Four: Journalism Over Promotion</h3>
+
+          <p>
+            Chen et al. (2025) measured a 3-5x preference inside major LLM retrievers for third-party-toned
+            content over first-party brand claims. The cause is systematic bias: retrievers downweight
+            promotional language because promotional language correlates with low-information density.
+            Plumbing pages that read like a press release lose the citation to plumbing pages that read like
+            a trade publication. The fix is voice surgery — replace &quot;our award-winning team&quot; with
+            &quot;the standard procedure for slab leak detection in California requires a licensed C-36
+            plumbing contractor and...&quot; The reader still gets the message. The retriever scores it
+            higher.
+          </p>
+
+          <h3>Signal Five: Corpus Cadence</h3>
+
+          <p>
+            <strong className="named-thesis">The Cadence Compounding Effect: plumbing operators publishing
+            sixteen AEO-structured articles per month earn first citations inside 30 to 60 days and
+            city-level authority by day 90 — anything below eight articles per month rarely crosses the
+            citation threshold.</strong> The mechanism is that retrievers reward source breadth at the
+            domain level: a plumbing site with 60 cited-able articles outranks a plumbing site with 6
+            because the larger corpus matches more query patterns. Sixteen per month is the field-tested
+            minimum. To plan your cadence directly, book a Calendly consult and end the call with a clear
+            yes or no on territory availability at{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">calendly.com/theanswerengine-support/30min</a>.
+          </p>
+
+          {/* SIGNAL TABLE */}
+          <div className="not-prose ae-comparison-table-wrap my-12">
+            <table className="ae-comparison-table">
+              <thead>
+                <tr>
+                  <th>Signal</th>
+                  <th>What Retrievers Measure</th>
+                  <th>Lift</th>
+                  <th>Source</th>
+                </tr>
+              </thead>
+              <tbody>
+                {signals.map((s) => (
+                  <tr key={s.num}>
+                    <td><strong>{s.num}. {s.title}</strong></td>
+                    <td>{s.measure}</td>
+                    <td><span className="ae-pill-orange">{s.lift}</span></td>
+                    <td>{s.source}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* SECTION 4: MISTAKES */}
+          <span className="ae-section-label" id="mistakes">The Mistakes</span>
+          <h2>What Most Plumbing Businesses Get Wrong About AI Recommendations</h2>
+
+          <p>
+            Patterns in plumbing operators that fail AEO are consistent. Each mistake below is fixable in
+            30 to 90 days, and plumbing operators who fix all five typically see citation activity within
+            the same quarter. Markets do not stay open. To check whether your city is still open,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a
+            30-minute Calendly consult</a>.
+          </p>
+
+          <h3>Mistake One: NAP Drift Across Directories</h3>
+
+          <p>
+            Directory drift is the most common and most expensive AEO failure. NAP variance beyond 5%
+            across Google Business Profile, Yelp, Angi, HomeAdvisor, BBB, Nextdoor, and a state licensing
+            directory cuts AI citation rate roughly 60% versus baseline because retrievers treat
+            conflicting business records as low-confidence and route citations to competitors with cleaner
+            data. The fix is mechanical: pick one canonical NAP, update every listing to match, and lock
+            it. Identical NAP across seven directories beats inconsistent NAP across twenty-five every
+            single time. To start a parity audit on your domain, email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Mistake Two: A Single Services Page Listing Every Job</h3>
+
+          <p>
+            A single page listing &quot;We do drain cleaning, water heater repair, slab leak detection,
+            sewer line replacement, and emergency plumbing&quot; is invisible to query-specific retrieval.
+            Retrievers cannot cite a kitchen-sink page in answer to &quot;slab leak repair in [city]&quot;
+            or &quot;tankless water heater installation near [neighborhood].&quot; They cite a dedicated
+            page titled &quot;Slab Leak Repair&quot; or &quot;Tankless Water Heater Installation.&quot;
+            Split the Services page into 12 to 18 service-specific pages — one per common job, each opening
+            with the service definition and listing the typical price range and timeline. That single
+            change moves citation rates more than any other tactic.
+          </p>
+
+          <h3>Mistake Three: JavaScript-Only Pricing Widgets</h3>
+
+          <p>
+            A plumbing site whose pricing surface only inside a JavaScript widget — a third-party quote
+            engine, a scheduling iframe — is partially invisible to AI crawlers. Many retrievers do not
+            execute client-side scripts and therefore see a blank page where the prices should be. The fix
+            is to mirror the price and service data in static HTML on the page alongside the widget.
+            Booking still flows through the platform. Retrievers parse the static text. To audit your
+            booking widget for AI legibility, email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Mistake Four: Brand-Voice Content Instead Of Journalistic Content</h3>
+
+          <p>
+            Most plumbing operator websites are written as marketing collateral: superlatives, taglines,
+            calls to action layered into every sentence. That voice is downweighted by retrievers because
+            it correlates with low information density. Rewrite the operator domain&apos;s educational
+            pages in trade-publication voice: third-person, definition-first, source-anchored, dated.
+            Booking pages and service-area pages can remain promotional. Educational pages — the ones that
+            earn citations — cannot. To rewrite your content lattice in journalistic voice, text Justin at
+            (213) 444-2229 with the domain URL.
+          </p>
+
+          <h3>Mistake Five: Sub-Cadence Publishing</h3>
+
+          <p>
+            Plumbing operators publishing one or two articles per month rarely cross the citation
+            threshold. Retrievers compare a domain&apos;s corpus to competing domains, and a 12-article
+            site loses to a 60-article site on breadth scoring even when each individual article is
+            stronger. Sixteen articles per month is the documented inflection point inside The Answer
+            Engine&apos;s field audit. Operators below that line stay invisible. Operators at or above it
+            cross into citation territory inside a quarter. To plan a 16-per-month cadence for your
+            operation, drop us a line at{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>{' '}
+            with your domain.
+          </p>
+
+          {/* SECTION 5: PROOF LEDGER */}
+          <span className="ae-section-label" id="proof">The Proof Ledger</span>
+          <h2>How To Measure Whether ChatGPT Cites Your Plumbing Business</h2>
+
+          <p>
+            <strong className="named-thesis">The Proof Ledger: AEO results are measured by query-level
+            citations across named models, not by impressions or follower counts — a plumbing operator
+            cited by ChatGPT, Claude, Perplexity, and Gemini for its target queries has compound authority
+            that a Maps rank or social count cannot capture.</strong> The method is direct query testing,
+            run weekly, logged per model, and reported as a citation rate. The Answer Engine ships a
+            Proof Ledger spreadsheet with every engagement so the operator owns the evidence.{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">The AERO Blind Spot
+            Scan</a> ships the spreadsheet with your first report.
+          </p>
+
+          <h3>What To Measure</h3>
+
+          <p>
+            Citation rate per query per model. Pick 15 target queries — &quot;best plumber in
+            [neighborhood], slab leak detection [city], emergency plumber [city], tankless water heater
+            installation [city], sewer line repair [city], 24 hour plumber [city]&quot; — and run each on
+            ChatGPT with search enabled, Claude, Perplexity, and Gemini. Log whether the operator domain
+            appears, how it is described, and which page is linked. Track week over week. The query bank
+            is the most underrated AEO artifact most plumbing operators never build. Need the template
+            workbook? Lock in your exclusive territory and{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a
+            Calendly consult</a> — the workbook ships before the call.
+          </p>
+
+          <h3>What To Ignore</h3>
+
+          <p>
+            Impression counts from Google Search Console do not correlate with AI citation behavior.
+            Map Pack rank tracking is a separate system measuring a separate retrieval surface. Social
+            media followers drive emergency-call volume but do not move retriever decisions. Domain
+            Authority and Page Authority were designed for backlink-driven ranking, not retrieval-driven
+            citation. The signal that matters is whether the plumbing operator&apos;s name appears in the
+            AI answer when a homeowner asks about their slab leak or their water heater.
+          </p>
+
+          <h3>The Cadence That Works</h3>
+
+          <p>
+            Weekly citation logs, monthly directory parity checks, quarterly schema audits, and quarterly
+            content refreshes on top-cited service pages. Most plumbing operators running this cadence see
+            Perplexity citations in month two, ChatGPT citations in month three to four, and Gemini
+            citations in month four to five. Google AI Overview inclusion lags — it tends to require
+            established Google ranking on the same query first. To set up citation monitoring for your
+            plumbing shop, text (213) 444-2229 with the domain URL.
+          </p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Territory Scarcity</div>
+            <p>
+              The Answer Engine takes one plumbing operator per city. When the slot fills, competitors
+              cannot buy in at any price. Several major metros remain open as of this article&apos;s
+              publication. Check whether your city is still available:{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a
+              Calendly consult on territory availability</a>.
+            </p>
+          </div>
+
+          {/* CTA BLOCK */}
+          <div className="ae-cta-block not-prose">
+            <h3>Get Your Plumbing Domain&apos;s AEO Scorecard</h3>
+            <p>
+              The AERO Blind Spot Scan checks your plumbing domain against 47 retrieval signals — directory
+              parity, schema markup, definition-first openings, attribution density, chunk discipline,
+              journalistic voice, and corpus cadence. Ships in 48 hours. Free, no obligation.
+            </p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
+              Run The Free Scan
+            </a>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">
+              Book A Calendly Consult
+            </a>
+          </div>
+
+          {/* SECTION 6: FAQ */}
+          <span className="ae-section-label" id="faq">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+
+          <details className="ae-faq-item">
+            <summary>How does ChatGPT actually choose a plumber to recommend?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                ChatGPT does not score plumbing businesses. ChatGPT scores content chunks. A local plumbing
+                query triggers a four-source retrieval pass — live web index, training corpus residue,
+                knowledge graph entity links, and operator-published authority content — and only the
+                structurally correct passages reach the synthesis step (Aggarwal et al., KDD 2024;
+                GEO-SFE, 2026).
+              </p>
+              <p>
+                The cited plumber is the operator whose own domain published the chunks the model pulled.
+                Map Pack rank and Yelp star count are background context, not citation levers. To audit
+                which source currently carries your domain&apos;s signal,{' '}
+                <a href="https://theanswerengine.ai/blindspot">run the free Blind Spot Scan</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Does the number of Google reviews influence ChatGPT plumber recommendations?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Review count is a strong input to the Google Map Pack and a weak input to a ChatGPT
+                recommendation. ChatGPT weights inline attribution and structurally extractable content
+                from the domain far more heavily than third-party star ratings. A 500-review plumber with
+                no published authority content can lose the citation to a 40-review plumber whose website
+                carries 60 AEO-structured articles.
+              </p>
+              <p>
+                Reviews still matter for trust at the point-of-decision. They do not produce the citation
+                slot. To map your citation lattice independent of review count, text (213) 444-2229.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Does paid advertising influence which plumber ChatGPT recommends?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Paid advertising has no observable effect on ChatGPT plumber recommendations. ChatGPT pulls
+                from an index of organic content. Google Ads, Yelp Ads, Angi promotions, and Local Service
+                Ads do not enter the retrieval pass.
+              </p>
+              <p>
+                The citation slot goes to the plumbing operator whose published content earns the
+                structural trust signals retrievers reward. Ad spend is a parallel acquisition channel,
+                not an AEO substitute. For a structural diagnosis on what your domain needs, email{' '}
+                <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Why is my plumbing business invisible to ChatGPT?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Most plumbing service domains carry none of the four structural signals retrievers reward:
+                definition-first openings, inline attribution, bounded chunks, and journalistic tone. The
+                Answer Engine field audit measured fewer than four percent of US plumbing domains carrying
+                any of the four signals at meaningful density.
+              </p>
+              <p>
+                The invisibility is structural, not algorithmic, and it is reversible inside a 90-day
+                publication window with the right cadence. To check your current exposure score,{' '}
+                <a href="https://theanswerengine.ai/blindspot">request the AERO Scan</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How can a plumber start getting cited by ChatGPT?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                A plumbing operator earns a ChatGPT citation by publishing AEO-structured articles on its
+                own domain at a cadence of sixteen articles per month. Each article opens every H3 with a
+                plain-language definition of the service category, carries inline attribution to named
+                sources, holds chunks between 80 and 180 tokens, and reads as journalism rather than
+                promotion.
+              </p>
+              <p>
+                First citations typically appear inside 30 to 60 days, and city-level authority lands by
+                day 90. To plan a 16-per-month cadence for your operation,{' '}
+                <a href="https://calendly.com/theanswerengine-support/30min">book a Calendly consult</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How long does it take to appear in ChatGPT plumber answers?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                First citations typically appear inside 30 to 60 days at a publication cadence of sixteen
+                AEO-structured articles per month. By day 90, the Proof Ledger usually carries citations
+                from all four major LLM platforms — ChatGPT, Claude, Gemini, and Perplexity.
+              </p>
+              <p>
+                The Answer Engine carries a 90-day citation guarantee tied to that cadence, and the
+                timeline compresses when the plumbing domain already carries clean directory data and a
+                verified Google Business Profile. To map the timeline for your operation, text Justin at
+                (213) 444-2229 — replies inside 24 hours.
+              </p>
+            </div>
+          </details>
+
+          {/* PULL QUOTE */}
+          <blockquote className="ae-quote">
+            <p>
+              The plumbing operators cited by AI search next year are not the largest. They are the ones
+              building definition-first content, attribution-anchored chunks, and a sixteen-per-month
+              cadence today — while the field is less than two years old and most domains carry none of
+              the four signals.
+            </p>
+            <cite>— Justin Borges, Founder of The Answer Engine</cite>
+          </blockquote>
+
+          <h2>What Comes Next</h2>
+
+          <p>
+            The plumbing operators that lock AI search citation in the next two quarters will hold the
+            slot for years. Retrievers favor incumbents once citation patterns settle, and displacing a
+            cited domain requires months of structured content work from a challenger. The window to
+            claim a city is now. Ready to act? Book a free strategy session at{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">calendly.com/theanswerengine-support/30min</a>{' '}
+            — the call ends with a clear yes or no on territory availability.
+          </p>
+
+          {/* AUTHOR CARD */}
+          <div className="not-prose ae-author-card">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local service
+                operators get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews. 1.14M+ monthly
+                impressions across client portfolio, 4/4 LLMs cited, 90-day citation guarantee.
+              </p>
+            </div>
+          </div>
+
+          {/* CONCEPT LATTICE LINKS */}
+          <div className="not-prose mt-12 mb-12 border-t border-white/10 pt-8">
+            <div className="font-mono uppercase tracking-wider text-xs text-white/40 mb-4">Concept Lattice</div>
+            <div className="flex flex-wrap gap-3">
+              <a href="/concepts/plumber-recommendation-pipeline" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Plumber Recommendation Pipeline</a>
+              <a href="/concepts/operator-authority-asymmetry" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Operator Authority Asymmetry</a>
+              <a href="/concepts/definition-premium" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Definition Premium</a>
+              <a href="/concepts/chunk-ceiling" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Chunk Ceiling</a>
+              <a href="/concepts/journalism-differential" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Journalism Differential</a>
+              <a href="/concepts/cadence-compounding-effect" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Cadence Compounding Effect</a>
+              <a href="/concepts/proof-ledger" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Proof Ledger</a>
+            </div>
+          </div>
+        </div>
+
+        {/* FINAL CTA */}
+        <section className="ae-final-cta">
+          <h2>Claim Your City Before A Competitor Does</h2>
+          <p>
+            One plumbing operator per city. The Answer Engine ships AEO that gets your shop cited by
+            ChatGPT, Gemini, Claude, and Perplexity — with a 90-day citation guarantee.
+          </p>
+          <a
+            href="https://calendly.com/theanswerengine-support/30min"
+            className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+          >
+            Book A 30-Minute Consult
+          </a>
+          <p className="mt-6 text-sm text-white/40 font-mono uppercase tracking-wider">
+            Text (213) 444-2229 · support@theanswerengine.ai
+          </p>
+        </section>
       </article>
-    </>
+    </div>
   );
 }
