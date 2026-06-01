@@ -188,15 +188,6 @@ function Breadcrumb() {
         <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/optimize-about-page-ai-recommendations.webp"
-              alt="optimize about page ai recommendations"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -223,6 +214,15 @@ export default function Page() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-plus-jakarta">
               How to Optimize Your About Page for AI Recommendations
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/optimize-about-page-ai-recommendations.webp"
+                alt="optimize about page ai recommendations"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
               <p className="text-lg text-white leading-relaxed">

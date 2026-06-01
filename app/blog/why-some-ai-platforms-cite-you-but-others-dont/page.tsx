@@ -155,15 +155,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Diagnostic &amp; Troubleshooting</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/why-some-ai-platforms-cite-you-but-others-dont.svg"
-              alt="why some ai platforms cite you but others dont"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -197,6 +188,15 @@ export default function WhySomeAIPlatformsCiteYouPage() {
               Why Some AI Platforms Cite You{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">But Others Don&rsquo;t</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/why-some-ai-platforms-cite-you-but-others-dont.svg"
+                alt="why some ai platforms cite you but others dont"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               ChatGPT recommends you. Perplexity ignores you. Gemini gets your hours wrong. This is not random. Each AI platform reads from a different data source, which means your authority signals land differently on each one. Here is the diagnostic framework for the cross-platform citation gap and how to close it.
             </p>

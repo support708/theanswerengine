@@ -183,15 +183,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Dentists &amp; AI Search</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-dentists-get-found-on-ai-search.webp"
-              alt="how dentists get found on ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -242,6 +233,15 @@ export default function HowDentistsGetFoundOnAISearch() {
                 AI Search
               </span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-dentists-get-found-on-ai-search.webp"
+                alt="how dentists get found on ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               AI Overviews appear on 75% of dental queries. Nearly half of
               patients under 40 already use AI to find their next provider. If

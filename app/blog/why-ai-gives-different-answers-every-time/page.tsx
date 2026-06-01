@@ -95,6 +95,15 @@ export default function WhyAIDifferentAnswers() {
       />
       <article style={{ maxWidth: '900px', margin: '0 auto', padding: '40px 20px', fontFamily: 'system-ui' }}>
         <h1>Why AI Gives Different Answers Every Time You Ask</h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/why-ai-gives-different-answers-every-time.webp"
+                alt="why ai gives different answers every time"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
         <p>Quick answer: Temperature settings and probability sampling. AI systems don't work like Google Search—they generate answers probabilistically, which means the same query can produce different results.</p>
         <a href="https://theanswerengine.ai/blindspot">Get Your Consistency Score</a>
         <h2>The 7 Reasons for AI Inconsistency</h2>

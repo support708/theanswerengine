@@ -170,6 +170,15 @@ export default function Page() {
             <h1 className="text-4xl sm:text-5xl font-plus-jakarta font-bold text-white mb-6 leading-tight">
               How FAQ Sections Help AI Recommend Your Business
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-faq-sections-help-ai-recommend-your-business.webp"
+                alt="how faq sections help ai recommend your business"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed">
               FAQs are one of the clearest signals you can send to AI platforms. When done right, they make AI platforms see your business as authoritative, trustworthy, and relevant to customer questions.

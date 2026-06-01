@@ -183,15 +183,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Strategy &amp; Tactics</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/e-e-a-t-for-ai-search.svg"
-              alt="e e a t for ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -225,6 +216,15 @@ export default function EEATAISearchTrustStackPage() {
               E-E-A-T for AI Search:{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">The 2026 Trust Stack</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/e-e-a-t-for-ai-search.svg"
+                alt="e e a t for ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               E-E-A-T started as a Google quality framework. In 2026, it is the trust stack AI platforms use to decide which brands to cite. Here is how to build each pillar.
             </p>

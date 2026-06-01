@@ -106,6 +106,15 @@ export default function LocalSEOvsAI() {
       />
       <article style={{ maxWidth: '900px', margin: '0 auto', padding: '40px 20px' }}>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '20px' }}>Local SEO vs AI Search: Which Matters More in 2025?</h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/local-seo-vs-ai-search.webp"
+                alt="local seo vs ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
         <p style={{ fontSize: '1.1rem', color: '#666', marginBottom: '20px' }}>
           <strong>TL;DR:</strong> Local SEO still drives 40% of searches (2.2B searches/day). AI search is at 15% and growing fast. You need both, but do not abandon Local SEO for AI yet.
         </p>

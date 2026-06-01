@@ -172,15 +172,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Pet Services &amp; AI Search</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-dog-groomers-and-pet-services-win-ai-citations.webp"
-              alt="how dog groomers and pet services win ai citations"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -201,6 +192,15 @@ export default function HowDogGroomersWinAICitations() {
             <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               How Dog Groomers and Pet Services Win AI Citations
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-dog-groomers-and-pet-services-win-ai-citations.webp"
+                alt="how dog groomers and pet services win ai citations"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Pet owners no longer scroll ten search results to find a groomer. They ask AI. If your business is not showing up in those answers, a national chain is getting the booking instead.
             </p>

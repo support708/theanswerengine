@@ -193,6 +193,15 @@ export default function AppleIntelligenceLocal() {
           <h1 style={{ fontSize: '2.5rem', marginBottom: '20px', color: '#1a1a1a', fontWeight: '700' }}>
             How Apple Intelligence Picks Local Businesses (2025 Guide)
           </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-apple-intelligence-picks-local-businesses.svg"
+                alt="how apple intelligence picks local businesses"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
           <p style={{ fontSize: '1.1rem', color: '#666', marginBottom: '20px', lineHeight: '1.8' }}>
             Apple Intelligence isn't Siri anymore. It's a sophisticated AI system that reads your business information from multiple sources, analyzes reviews, checks your website, and determines whether to recommend you to customers. If you're not optimized for Apple Intelligence, you're losing iOS users to competitors who are.
           </p>

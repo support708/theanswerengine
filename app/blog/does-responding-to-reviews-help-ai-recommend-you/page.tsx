@@ -177,15 +177,6 @@ function Breadcrumb() {
       <span className="mx-2">/</span>
       <span className="text-gray-400">Myth Busters</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/does-responding-to-reviews-help-ai-recommend-you.webp"
-              alt="does responding to reviews help ai recommend you"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -216,6 +207,15 @@ export default function Page() {
               Does Responding to Reviews{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Help AI Recommend You</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/does-responding-to-reviews-help-ai-recommend-you.webp"
+                alt="does responding to reviews help ai recommend you"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               The advice sounds reasonable: respond to every review and AI will reward you. The reality is more complicated, and most businesses responding to reviews are doing it in a way that adds zero AI visibility.
             </p>

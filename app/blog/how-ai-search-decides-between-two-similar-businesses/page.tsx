@@ -194,15 +194,6 @@ function Breadcrumb() {
         <li className="text-gray-300 truncate max-w-xs">AI Search Tiebreaker Signals</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-ai-search-decides-between-two-similar-businesses.webp"
-              alt="how ai search decides between two similar businesses"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -270,6 +261,15 @@ export default function Page() {
               How AI Search Decides Between{' '}
               <span style={{ color: '#F27D24' }}>Two Similar Businesses</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-ai-search-decides-between-two-similar-businesses.webp"
+                alt="how ai search decides between two similar businesses"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               Two plumbers. Same city. Same services. Same star rating. But when a customer asks ChatGPT, Perplexity, or Google AI for a recommendation, only one of them gets named. The other does not exist. Here is what separates the business that gets cited from the one that gets skipped.

@@ -148,15 +148,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">HVAC &amp; AI Search</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-do-i-get-my-hvac-company-on-chatgpt-and-ai-search.webp"
-              alt="how do i get my hvac company on chatgpt and ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -189,6 +180,15 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
               How Do I Get My HVAC Company on{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">ChatGPT and AI Search</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-do-i-get-my-hvac-company-on-chatgpt-and-ai-search.webp"
+                alt="how do i get my hvac company on chatgpt and ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               When a homeowner asks ChatGPT for an HVAC recommendation, most local companies never appear. This guide explains exactly why, and the four things you can fix this week.
             </p>

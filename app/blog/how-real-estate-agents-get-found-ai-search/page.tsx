@@ -144,15 +144,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Real Estate &amp; AI Search</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-real-estate-agents-get-found-ai-search.webp"
-              alt="how real estate agents get found ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -185,6 +176,15 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
               How Real Estate Agents Get Found on{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">AI Search</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-real-estate-agents-get-found-ai-search.webp"
+                alt="how real estate agents get found ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               82% of Americans now use AI for housing market research. When homebuyers ask ChatGPT for agent recommendations, certain names keep appearing. Here is what separates them from everyone else.
             </p>

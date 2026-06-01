@@ -177,15 +177,6 @@ function Breadcrumb() {
       <span className="mx-2">/</span>
       <span className="text-gray-400">AI Reviews &amp; Recommendations</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/why-ai-recommends-businesses-with-worse-reviews.webp"
-              alt="why ai recommends businesses with worse reviews"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -216,6 +207,15 @@ export default function Page() {
               Why AI Recommends Businesses With{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Worse Reviews</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/why-ai-recommends-businesses-with-worse-reviews.webp"
+                alt="why ai recommends businesses with worse reviews"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               You have 500 five-star reviews and a flawless reputation. Your competitor has 200 reviews and a lower rating. Yet AI keeps recommending them. Here is why review count alone no longer wins.
             </p>

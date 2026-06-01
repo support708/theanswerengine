@@ -219,15 +219,6 @@ function Breadcrumb() {
         <li className="text-gray-300 truncate max-w-xs">{title}</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/what-happens-when-you-ask-alexa-to-find-a-business.webp"
-              alt="what happens when you ask alexa to find a business"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -300,6 +291,15 @@ export default function Page() {
               What Happens When You Ask Alexa to{' '}
               <span style={{ color: '#F27D24' }}>Find a Business</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/what-happens-when-you-ask-alexa-to-find-a-business.webp"
+                alt="what happens when you ask alexa to find a business"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               Over 70% of US smart speakers are Amazon Echos. When someone in your city says &quot;Alexa, find a plumber near me,&quot; Alexa gives one answer. Maybe two. If that answer is not your business, you never existed in that customer&apos;s world. Here is what actually happens behind the scenes, and why most businesses never get named.

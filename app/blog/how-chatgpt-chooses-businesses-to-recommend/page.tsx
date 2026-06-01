@@ -253,15 +253,6 @@ function Breadcrumb() {
         <li className="text-gray-500">How ChatGPT Chooses Businesses</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-chatgpt-chooses-businesses-to-recommend.webp"
-              alt="how chatgpt chooses businesses to recommend"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -297,6 +288,15 @@ export default function HowChatGPTChoosesBusiness() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-6 leading-tight text-white">
               How ChatGPT Chooses Which Businesses to Recommend: Inside the Algorithm
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-chatgpt-chooses-businesses-to-recommend.webp"
+                alt="how chatgpt chooses businesses to recommend"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <div className="flex items-center gap-4 text-sm text-gray-400 mb-8">
               <time dateTime="2025-11-21">November 21, 2025</time>

@@ -159,15 +159,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">{title}</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-accountants-and-cpas-get-found-on-ai-search.webp"
-              alt="how accountants and cpas get found on ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -206,6 +197,15 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
               How Accountants and CPAs Get Found on{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">AI Search</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-accountants-and-cpas-get-found-on-ai-search.webp"
+                alt="how accountants and cpas get found on ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               AI adoption in accounting surged from 9% to 41% in a single year. The same AI revolution happening inside your firm is now reshaping how clients find you. Here is what that means for your pipeline.
             </p>

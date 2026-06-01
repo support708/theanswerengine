@@ -154,15 +154,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">AI Algorithm Series</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-bing-generative-search-picks-businesses.svg"
-              alt="how bing generative search picks businesses"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -196,6 +187,15 @@ export default function HowBingGenerativeSearchPicksBusinessesPage() {
               How Bing Generative Search{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Picks Businesses to Recommend</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-bing-generative-search-picks-businesses.svg"
+                alt="how bing generative search picks businesses"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Bing Generative Search is the engine behind Copilot, DuckDuckGo, and parts of ChatGPT. Here is exactly how its recommendation algorithm decides which businesses to cite in 2026.
             </p>

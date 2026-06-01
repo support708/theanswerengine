@@ -230,15 +230,6 @@ function Breadcrumb() {
         </li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/your-listing-vs-competitors-what-ai-compares.webp"
-              alt="your listing vs competitors what ai compares"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -584,6 +575,15 @@ export default function Page() {
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
                 Your Listing vs Your Competitors
               </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/your-listing-vs-competitors-what-ai-compares.webp"
+                alt="your listing vs competitors what ai compares"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
               <p className="text-xl text-gray-300 mb-6 max-w-2xl">
                 What AI Actually Compares (It's Not What You Think)
                <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>

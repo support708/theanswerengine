@@ -229,15 +229,6 @@ function Breadcrumb() {
         <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-to-optimize-your-google-business-profile-for-ai.webp"
-              alt="how to optimize your google business profile for ai"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -278,6 +269,15 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">How-To Guides</p>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">{title}</h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-to-optimize-your-google-business-profile-for-ai.webp"
+                alt="how to optimize your google business profile for ai"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
               <p className="text-lg text-gray-300 max-w-2xl mb-6">Your Google Business Profile is the single richest data source AI platforms use for local recommendations. Most businesses treat it as a set-it-and-forget-it listing. AI treats it as a trust signal.</p>
               <div className="flex items-center gap-4 text-sm text-gray-400">
                 <span>March 30, 2026</span><span>&#183;</span><span>12 min read</span><span>&#183;</span><span>Justin Borges</span>

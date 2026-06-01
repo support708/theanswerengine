@@ -184,15 +184,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Diagnostic &amp; Troubleshooting</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/ai-cites-competitor-using-your-content.svg"
-              alt="ai cites competitor using your content"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -227,6 +218,15 @@ export default function AICitesCompetitorUsingYourContentPage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Your Content</span>
               : Why It Happens and How to Fix It
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/ai-cites-competitor-using-your-content.svg"
+                alt="ai cites competitor using your content"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               AI quotes your data but credits your competitor as the source. This is not random. It is the predictable result of how AI platforms weigh off-page signals over publication date. Here is the attribution gap explained, and the exact playbook for recovering your citations.
             </p>

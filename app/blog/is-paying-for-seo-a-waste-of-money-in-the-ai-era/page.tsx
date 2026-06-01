@@ -202,15 +202,6 @@ function Breadcrumb() {
       <span>/</span>
       <span className="text-gray-400">Is Paying for SEO a Waste of Money Now?</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era.webp"
-              alt="is paying for seo a waste of money in the ai era"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -261,6 +252,15 @@ export default function BlogPost() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
               Is Paying for SEO a Waste of Money Now?
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era.webp"
+                alt="is paying for seo a waste of money in the ai era"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <div className="flex items-center gap-4 text-sm text-gray-400">
               <span>March 27, 2026</span>
               <span>-</span>

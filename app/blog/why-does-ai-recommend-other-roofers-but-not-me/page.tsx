@@ -153,15 +153,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">AI Visibility for Roofers</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/why-does-ai-recommend-other-roofers-but-not-me.webp"
-              alt="why does ai recommend other roofers but not me"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -199,6 +190,15 @@ export default function WhyDoesAIRecommendOtherRoofers() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Other Roofers</span>{' '}
               But Not Me?
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/why-does-ai-recommend-other-roofers-but-not-me.webp"
+                alt="why does ai recommend other roofers but not me"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Your competitor shows up when a homeowner asks ChatGPT for a roofer. You do not. It is not luck, and it is not your fault yet. But it will cost you if you do not understand what is actually happening.
             </p>

@@ -190,15 +190,6 @@ function Breadcrumb() {
         <li className="text-gray-300 truncate max-w-xs">Microsoft Copilot Business Recommendations</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-microsoft-copilot-decides-which-businesses-to-recommend.webp"
-              alt="how microsoft copilot decides which businesses to recommend"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -266,6 +257,15 @@ export default function Page() {
               How Microsoft Copilot Decides Which{' '}
               <span style={{ color: '#F27D24' }}>Businesses to Recommend</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-microsoft-copilot-decides-which-businesses-to-recommend.webp"
+                alt="how microsoft copilot decides which businesses to recommend"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               Microsoft Copilot now reaches over 140 million daily Bing users with AI-generated answers. If your business is not in those answers, you are invisible to a massive and growing audience. Here is exactly what Copilot evaluates before it puts your name in front of a potential customer.

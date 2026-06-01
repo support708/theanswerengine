@@ -193,6 +193,15 @@ export default function SocialMediaAIBusiness() {
           <h1 style={{ fontSize: '2.5rem', marginBottom: '20px', color: '#1e40af', fontWeight: '700' }}>
             Does Social Media Help AI Find Your Business? (2025 Guide)
           </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/does-social-media-help-ai-find-your-business.webp"
+                alt="does social media help ai find your business"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
           <p style={{ fontSize: '1.1rem', color: '#666', marginBottom: '20px', lineHeight: '1.8' }}>
             The short answer: <strong>Yes, absolutely.</strong> But not in the way you might think. Social media doesn't just drive customers to your site anymore. It now drives AI systems to recommend your business when customers ask ChatGPT, Claude, or Google AI for a local recommendation.
           </p>

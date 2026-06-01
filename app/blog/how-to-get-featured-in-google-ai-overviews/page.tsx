@@ -153,15 +153,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Strategy &amp; Tactics</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-to-get-featured-in-google-ai-overviews.svg"
-              alt="how to get featured in google ai overviews"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -196,6 +187,15 @@ export default function GoogleAIOverviewsFeaturedPage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Google AI Overviews</span>
               {': '}2026 Playbook
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-to-get-featured-in-google-ai-overviews.svg"
+                alt="how to get featured in google ai overviews"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Google AI Overviews now appear in over 50% of US searches and cut click-through to position 1 by 34%. The brands being cited inside those answers are not winning by accident. Here is the 2026 playbook for becoming the source Google quotes instead of the link Google buries.
             </p>

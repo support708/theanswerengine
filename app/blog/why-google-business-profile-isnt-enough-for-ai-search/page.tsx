@@ -183,15 +183,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Business Pain Points</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/why-google-business-profile-isnt-enough-for-ai-search.svg"
-              alt="why google business profile isnt enough for ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -225,6 +216,15 @@ export default function WhyGBPIsntEnoughPage() {
               Why Your Google Business Profile{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Isn&rsquo;t Enough for AI Search</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/why-google-business-profile-isnt-enough-for-ai-search.svg"
+                alt="why google business profile isnt enough for ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               A well-optimized GBP used to be the local visibility ceiling. In the AI search era it is the floor. Here is what AI platforms actually weight when they pick businesses to recommend.
             </p>

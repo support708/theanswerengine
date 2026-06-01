@@ -229,15 +229,6 @@ function Breadcrumb() {
         <li className="text-gray-300 truncate max-w-xs">{title}</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/why-ai-recommends-chains-over-local-businesses.webp"
-              alt="why ai recommends chains over local businesses"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -315,6 +306,15 @@ export default function Page() {
               Why AI Recommends{' '}
               <span style={{ color: '#F27D24' }}>Chains Over Local Businesses</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/why-ai-recommends-chains-over-local-businesses.webp"
+                alt="why ai recommends chains over local businesses"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               You searched for the best plumber, dentist, or contractor near you on an AI assistant. The response listed a national franchise and two well-known chains. Your neighbor, who has run a five-star local operation for twelve years, never got a mention. This is not a glitch. It is a structural information problem, and most local businesses have no idea it is happening.

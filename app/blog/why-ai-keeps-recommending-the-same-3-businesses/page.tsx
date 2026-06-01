@@ -220,15 +220,6 @@ function Breadcrumb() {
         <li className="text-gray-300 truncate max-w-xs">{title}</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/why-ai-keeps-recommending-the-same-3-businesses.webp"
-              alt="why ai keeps recommending the same 3 businesses"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -301,6 +292,15 @@ export default function Page() {
               Why AI Keeps Recommending the{' '}
               <span style={{ color: '#F27D24' }}>Same 3 Businesses</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/why-ai-keeps-recommending-the-same-3-businesses.webp"
+                alt="why ai keeps recommending the same 3 businesses"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               You have probably noticed it. Ask ChatGPT, Perplexity, or Google AI for a recommendation in your industry, and the same handful of names appear over and over. Meanwhile, hundreds of qualified businesses never get mentioned. This is not random. It is structural, and the data behind it is more extreme than most business owners realize.

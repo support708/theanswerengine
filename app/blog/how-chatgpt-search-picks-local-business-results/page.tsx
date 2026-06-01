@@ -184,15 +184,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">ChatGPT Search Deep Dive</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-chatgpt-search-picks-local-business-results.webp"
-              alt="how chatgpt search picks local business results"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -243,6 +234,15 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                 Local Business Results
               </span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-chatgpt-search-picks-local-business-results.webp"
+                alt="how chatgpt search picks local business results"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               ChatGPT has 900 million weekly users and processes 2 billion
               queries daily. When someone asks it to find a business near them,

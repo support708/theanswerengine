@@ -157,15 +157,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Mortgage Brokers &amp; AI Search</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/do-mortgage-brokers-show-up-on-chatgpt.webp"
-              alt="do mortgage brokers show up on chatgpt"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -200,6 +191,15 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
               Do Mortgage Brokers Show Up on{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">ChatGPT</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/do-mortgage-brokers-show-up-on-chatgpt.webp"
+                alt="do mortgage brokers show up on chatgpt"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               When a homebuyer asks ChatGPT to recommend a mortgage broker, most brokers never appear. The gap is not about qualifications. It is about trust signals AI can actually verify. Here is what is happening, and what to do about it.
             </p>

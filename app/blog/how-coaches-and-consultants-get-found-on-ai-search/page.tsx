@@ -183,15 +183,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Industry Guides</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-coaches-and-consultants-get-found-on-ai-search.svg"
-              alt="how coaches and consultants get found on ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -225,6 +216,15 @@ export default function HowCoachesConsultantsGetFoundOnAISearchPage() {
               How Coaches and Consultants{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Get Found on AI Search</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-coaches-and-consultants-get-found-on-ai-search.svg"
+                alt="how coaches and consultants get found on ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               232,000 coaches compete for AI citations that go to the same 50 names. Here is how independent practitioners break the expert echo problem and build real visibility across ChatGPT, Perplexity, Claude, and Google AI.
             </p>

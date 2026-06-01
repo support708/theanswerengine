@@ -162,15 +162,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">DeepSeek &amp; Business Discovery</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-deepseek-recommends-local-businesses.svg"
-              alt="how deepseek recommends local businesses"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -204,6 +195,15 @@ export default function HowDeepSeekRecommendsLocalBusinesses() {
               How DeepSeek Decides Which Local Businesses{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">to Recommend</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-deepseek-recommends-local-businesses.svg"
+                alt="how deepseek recommends local businesses"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               DeepSeek reached 350 million monthly visits by early 2026 and operates on a fundamentally different architecture than ChatGPT or Gemini. Understanding how it ranks and surfaces local businesses is no longer optional for businesses competing in AI search.
             </p>

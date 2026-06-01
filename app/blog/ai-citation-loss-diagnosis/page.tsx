@@ -190,15 +190,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Diagnostic &amp; Troubleshooting</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/ai-citation-loss-diagnosis.svg"
-              alt="ai citation loss diagnosis"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -233,6 +224,15 @@ export default function AICitationLossDiagnosisPage() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">AI Citations</span>
               {': '}A Diagnostic Framework
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/ai-citation-loss-diagnosis.svg"
+                alt="ai citation loss diagnosis"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Your brand used to appear in ChatGPT, Perplexity, and Google AI Overviews answers. Now it doesn&rsquo;t. AI citation loss is not random. Here are the five diagnostic categories that explain what actually broke.
             </p>

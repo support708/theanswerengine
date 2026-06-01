@@ -158,15 +158,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Restaurant AI Search</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-to-get-your-restaurant-found-on-ai-search.webp"
-              alt="how to get your restaurant found on ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -199,6 +190,15 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
               How to Get Your Restaurant Found on{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">AI Search</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-to-get-your-restaurant-found-on-ai-search.webp"
+                alt="how to get your restaurant found on ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Every night, diners are asking ChatGPT, Google AI, and Perplexity where to eat. Some restaurants keep showing up. Most are completely invisible. Here is what separates the two.
             </p>

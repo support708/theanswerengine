@@ -197,15 +197,6 @@ function Breadcrumb() {
       <span className="mx-2">/</span>
       <span className="text-gray-400">{title}</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/does-updating-your-site-weekly-help-ai-find-you.webp"
-              alt="does updating your site weekly help ai find you"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -246,6 +237,15 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               Does Updating Your Site Weekly{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-500">Help AI Find You</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/does-updating-your-site-weekly-help-ai-find-you.webp"
+                alt="does updating your site weekly help ai find you"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-xl text-gray-400 leading-relaxed mb-8 max-w-3xl">
               The internet is full of advice telling you to post more, update more, and refresh your content every single week.

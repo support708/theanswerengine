@@ -210,15 +210,6 @@ function Breadcrumb() {
         </li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/why-businesses-fail-answer-engine-optimization.webp"
-              alt="why businesses fail answer engine optimization"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -264,6 +255,15 @@ export default function WhyBusinessesFailAEO() {
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
                 Why Most Businesses Fail at Answer Engine Optimization
               </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/why-businesses-fail-answer-engine-optimization.webp"
+                alt="why businesses fail answer engine optimization"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
               <p className="text-lg text-gray-300 mb-6 max-w-2xl">
                 The 8 invisible mistakes that silently kill your AI visibility while competitors lock in citation authority you may never recover.
                Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>

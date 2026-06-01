@@ -214,15 +214,6 @@ function Breadcrumb() {
         <li className="text-gray-300 truncate max-w-xs">Grok Business Recommendations</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-grok-decides-which-businesses-to-recommend.webp"
-              alt="how grok decides which businesses to recommend"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -290,6 +281,15 @@ export default function Page() {
               How Grok Decides Which Businesses to{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Recommend</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-grok-decides-which-businesses-to-recommend.webp"
+                alt="how grok decides which businesses to recommend"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
               Grok is the only major AI assistant with direct access to the X data stream. That gives it a recommendation engine unlike anything else on the market. If your business is invisible to Grok, you are missing the fastest-growing AI discovery channel in 2026.

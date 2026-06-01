@@ -144,15 +144,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Local Search Evolution</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/near-me-searches-in-ai-era.svg"
-              alt="near me searches in ai era"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   );
 }
 
@@ -185,6 +176,15 @@ export default function NearMeSearchesInAIEra() {
               What &ldquo;Near Me&rdquo; Searches Look Like in the{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">AI Era</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/near-me-searches-in-ai-era.svg"
+                alt="near me searches in ai era"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               AI Overviews now appear in 68% of local business queries. ChatGPT can pinpoint your location without you typing a single word. The phrase &ldquo;near me&rdquo; is becoming redundant, and the businesses optimizing for it alone are falling behind.
             </p>

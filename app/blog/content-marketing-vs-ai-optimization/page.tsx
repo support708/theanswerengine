@@ -224,15 +224,6 @@ function Breadcrumb() {
         <li className="text-gray-400 truncate max-w-[280px]">Content Marketing vs AI Optimization</li>
       </ol>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/content-marketing-vs-ai-optimization.webp"
-              alt="content marketing vs ai optimization"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -309,6 +300,15 @@ export default function Page() {
               Content Marketing vs{' '}
               <span style={{ color: '#F27D24' }}>AI Optimization</span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/content-marketing-vs-ai-optimization.webp"
+                alt="content marketing vs ai optimization"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
 
             <p className="text-xl text-gray-300 max-w-3xl mb-8 leading-relaxed">
               Content marketing still returns $7.65 for every dollar invested. But 60% of Google

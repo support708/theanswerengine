@@ -176,15 +176,6 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Florists &amp; AI Search</span>
     </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-florists-and-flower-shops-win-ai-search.webp"
-              alt="how florists and flower shops win ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
   )
 }
 
@@ -219,6 +210,15 @@ export default function HowFloristsWinAISearch() {
                 Win AI Search
               </span>
             </h1>
+            {/* Championship Cover Image */}
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+              <img
+                src="/blog/how-florists-and-flower-shops-win-ai-search.webp"
+                alt="how florists and flower shops win ai search"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Customers no longer page through Google to find flowers for a wedding or a last-minute anniversary.
               They ask AI. And right now, AI almost never names a local florist.
