@@ -1,1172 +1,886 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
-export const dynamicParams = true
+export const revalidate = 86400;
+export const dynamic = 'force-static';
+export const dynamicParams = true;
 
-const title = 'How Barbershops Get Found on AI Search'
+const title = 'How Barbershops Get Found On AI Search';
 const description =
-  'AI platforms are replacing Google Maps as the way customers find barbershops. Learn what signals ChatGPT, Perplexity, and Google AI evaluate before recommending a barbershop near you.'
-const slug = 'how-barbershops-get-found-on-ai-search'
-const publishDate = '2026-04-21'
+  'AEO playbook for barbershops. ChatGPT, Gemini, and Perplexity now route haircut queries by style, neighborhood, and booking signal. Here is how independent shops get cited first.';
+const slug = 'how-barbershops-get-found-on-ai-search';
+const publishDate = '2026-06-01';
+const modifiedDate = '2026-06-01';
 
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
-  keywords: [
-    'barbershop AI search',
-    'barber ChatGPT visibility',
-    'barbershop AI marketing',
-    'barber near me AI',
-    'answer engine optimization barbershop',
-    'barbershop Google AI',
-    'barber fade AI search',
-    'local barbershop AI recommendations',
-  ],
+  keywords:
+    'barbershop AI search, ChatGPT barbershop, Perplexity barbershop, Gemini barber, AEO for barbershops, fade haircut AI search, barber near me ChatGPT, answer engine optimization barbershop, barbershop AI marketing',
   openGraph: {
-    title,
-    description:
-      'AI is replacing Google Maps for local barbershop discovery. Learn the signals ChatGPT and Google AI evaluate before recommending a barber.',
+    title: `${title} | The Answer Engine`,
+    description,
     type: 'article',
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630 }],
+    publishedTime: `${publishDate}T00:00:00.000Z`,
+    authors: ['Justin Borges'],
+    images: [
+      {
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
+        width: 1200,
+        height: 630,
+        alt: 'How barbershops get found on AI search',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title,
-    description:
-      'AI is replacing Google Maps for barbershop discovery. Learn which signals drive AI visibility for independent barbers.',
+    title: `${title} | The Answer Engine`,
+    description,
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
   },
-}
+};
 
-const jsonLd = {
+const articleSchema = {
   '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'Article',
-      '@id': `https://theanswerengine.ai/blog/${slug}#article`,
-      headline: title,
-      description,
-      image: `https://theanswerengine.ai/blog/${slug}.webp`,
-      datePublished: publishDate,
-      dateModified: publishDate,
-      author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
-      },
-      publisher: {
-        '@type': 'Organization',
-        '@id': 'https://theanswerengine.ai/#organization',
-      },
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': `https://theanswerengine.ai/blog/${slug}`,
-      },
-    },
-    {
-      '@type': 'FAQPage',
-      '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'Why does ChatGPT recommend Great Clips instead of my barbershop?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Great Clips and other chains have structured websites with clear service descriptions, consistent NAP data across hundreds of directories, and thousands of crawlable reviews. When ChatGPT cannot find consistent, verifiable information about your shop, it defaults to the businesses it can verify. Independent barbershops that build the same signals chains have can compete for those recommendations.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Does having a booking system help AI find my barbershop?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, but with an important caveat. A booking system that generates crawlable, structured content about your services signals operational legitimacy to AI platforms. However, booking widgets that load via JavaScript are invisible to most AI crawlers. What matters is whether the booking system also surfaces your service information in AI-readable HTML.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Should a barbershop be on Yelp to show up on AI search?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yelp is one of the more AI-readable review platforms because it presents structured business information and reviews in crawlable format. Having an active, complete Yelp profile with reviews that mention specific services contributes to AI visibility. It should be one part of a broader directory presence that includes Google Business Profile, Facebook, and any barber-specific directories.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "How do I get my barbershop to show up when someone asks AI for a 'fade near me'?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'AI platforms surface barbershops for specific service queries when they can verify that the shop performs that service and does it well. Your shop needs explicit service descriptions that name the fade and taper types you offer, plus reviews and testimonials that mention those specific services by name. A barbershop whose online presence never explicitly mentions fades will not appear in fade-specific AI queries.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Does Instagram help barbershops get found on AI search?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Instagram is a walled garden that most AI crawlers cannot access. While a strong Instagram presence builds general brand awareness, it does not meaningfully contribute to AI search visibility because AI platforms cannot read Instagram content or reviews. The channels that matter for AI are your website, Yelp, Google Business Profile, Facebook, and crawlable directories.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "Why does AI recommend a barbershop that's further away from the customer?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'AI platforms do not prioritize proximity the way Google Maps does. They prioritize the best-verified, most credible match for the query. A barbershop five miles away with detailed service descriptions, dozens of specific reviews, and consistent directory data will outrank a shop two blocks away with a sparse online presence. Trust signals outweigh distance in AI recommendations.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How many Google reviews does a barbershop need to start appearing in AI recommendations?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'There is no magic number, and Google reviews alone are largely invisible to non-Google AI platforms like ChatGPT and Perplexity because they are JavaScript-rendered. A barbershop with 40 Yelp reviews mentioning specific services, and testimonials published as plain HTML on its own website, will often outperform a shop with 200 Google reviews and nothing else.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What's the biggest mistake barbershops make with their online presence that hurts AI visibility?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The single most common mistake is relying entirely on Instagram and Google Maps. Both are either invisible to AI crawlers or have limited cross-platform reach. Barbershops with no website, no crawlable service descriptions, and no reviews outside of Google are essentially invisible to ChatGPT, Perplexity, and Claude. AI cannot recommend what it cannot verify.',
-          },
-        },
-      ],
-    },
-    {
+  '@type': 'Article',
+  '@id': `https://theanswerengine.ai/blog/${slug}#article`,
+  headline: title,
+  description,
+  image: `https://theanswerengine.ai/blog/${slug}.webp`,
+  datePublished: `${publishDate}T00:00:00.000Z`,
+  dateModified: `${modifiedDate}T00:00:00.000Z`,
+  author: {
+    '@type': 'Person',
+    '@id': 'https://theanswerengine.ai/about#justin-borges',
+    name: 'Justin Borges',
+    jobTitle: 'Founder, The Answer Engine',
+    url: 'https://theanswerengine.ai/about',
+    image: 'https://theanswerengine.ai/justin-borges.webp',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+    worksFor: {
       '@type': 'Organization',
-      '@id': 'https://theanswerengine.ai/#organization',
       name: 'The Answer Engine',
       url: 'https://theanswerengine.ai',
-      logo: 'https://theanswerengine.ai/TheAnswerEngine_Color.png',
-      description: 'Answer Engine Optimization agency helping businesses get cited by AI platforms.',
+    },
+    knowsAbout: [
+      'Answer Engine Optimization',
+      'AEO for Barbershops',
+      'AI Citation Strategy',
+      'LLM Visibility',
+      'Local AI Search',
+    ],
+  },
+  publisher: {
+    '@type': 'Organization',
+    '@id': 'https://theanswerengine.ai/#organization',
+    name: 'The Answer Engine',
+    url: 'https://theanswerengine.ai',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://theanswerengine.ai/logo.png',
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': `https://theanswerengine.ai/blog/${slug}`,
+  },
+  keywords:
+    'barbershop AEO, ChatGPT barbershop, Gemini barber, Perplexity barber, fade haircut AI search, AI citation barber, independent barbershop AI visibility',
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Why does ChatGPT recommend Great Clips instead of my barbershop?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Great Clips and other chains carry structured websites with clear service descriptions, identical NAP across hundreds of directories, and thousands of crawlable reviews. When ChatGPT cannot verify your shop with the same depth, it defaults to the businesses it can verify (Aggarwal et al., KDD 2024). Independent barbershops that engineer the same signals — service pages by style, schema markup, brand-loaded reviews — compete for those recommendations within a single quarter.',
+      },
     },
     {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
-        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
-        { '@type': 'ListItem', position: 3, name: title },
-      ],
+      '@type': 'Question',
+      name: 'How does Perplexity choose which barbershop to recommend?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Perplexity ranks barbershops by source-pluralism: identical NAP across directories, Yelp and Google review velocity, schema-marked service definitions, and inbound mentions from neighborhood blogs and event recaps. A shop with 6 to 8 consistent directory listings, fresh reviews mentioning specific cuts, and HairSalon schema with serviceType detail tends to surface within 14 to 30 days of publishing AEO content. Perplexity refreshes weekly, which makes it the fastest engine to win citations on.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How long does it take a barbershop to appear in AI search?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Perplexity citations land first, typically inside 14 to 30 days of structured AEO content publishing. ChatGPT via Bing follows in 45 to 75 days, and Google AI Overviews trail at 60 to 120 days because they depend on established Google ranking. Barbershops with a verified Google Business Profile, consistent directory data, and 60+ recent reviews compress the window meaningfully. Most independent shops starting AEO from scratch see multi-engine citations by month four.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Why is my barbershop invisible to AI search even though I rank on Google Maps?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Maps rank and AI citation are different systems. Maps weights proximity, review count, and Google Business Profile completeness. AI retrievers also weight schema markup, service-page specificity, review text content, and source-pluralism across directories. A shop ranking number two on Maps with a single "Services" page is invisible to retrievers that need a dedicated "Fade Haircut" or "Beard Trim" page to cite. The fix is content structure, not Maps ranking.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What content does a barbershop need to get cited by AI?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Three content layers do most of the citation work. First: style-specific service pages — fade, taper, line-up, hot towel shave, beard sculpt, kids cut, senior cut. Each opens with a plain-language definition of the cut and lists duration and price. Second: neighborhood pages that name the cross streets, landmarks, and adjacent districts served. Third: FAQ blocks on every page answering booking, walk-in, and pricing questions. Definition-first pages earn a 57% citation premium (Zhang et al., 2026).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can a single-chair barbershop compete with chains in AI search?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Independent barbershops routinely beat national chains in AI search because retrievers reward narrow specificity over broad coverage. A one-chair shop with deep pages on "skin fade", "scissor crop", and "Black hair barber near [neighborhood]" can outrank a national chain whose site lists every service generically. AI search rewards the source that answers the exact query best — and exact answers come from specialists, not aggregators. The independent shop\'s structural advantage is real and durable.',
+      },
     },
   ],
-}
+};
 
-function Breadcrumb() {
-  return (
-    <nav className="text-sm text-gray-500 mb-8">
-      <Link href="/" className="hover:text-white transition-colors">
-        Home
-      </Link>
-      <span className="mx-2">&rsaquo;</span>
-      <Link href="/blog" className="hover:text-white transition-colors">
-        Blog
-      </Link>
-      <span className="mx-2">&rsaquo;</span>
-      <span className="text-gray-400">Barbershops &amp; AI Search</span>
-    </nav>
-  )
-}
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://theanswerengine.ai',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Blog',
+      item: 'https://theanswerengine.ai/blog',
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: title,
+      item: `https://theanswerengine.ai/blog/${slug}`,
+    },
+  ],
+};
 
-export default function HowBarbershopsGetFoundOnAISearch() {
+const professionalServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': 'https://theanswerengine.ai/#organization',
+  name: 'The Answer Engine',
+  url: 'https://theanswerengine.ai',
+  telephone: '(213) 444-2229',
+  email: 'support@theanswerengine.ai',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Los Angeles',
+    addressRegion: 'CA',
+    addressCountry: 'US',
+  },
+  founder: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+  },
+  foundingDate: '2025',
+  areaServed: { '@type': 'Country', name: 'United States' },
+  serviceType: [
+    'Answer Engine Optimization',
+    'AEO Content',
+    'LLM Citation Building',
+    'AI Search Visibility',
+  ],
+  sameAs: ['https://linkedin.com/company/theanswerengine'],
+  description:
+    'The Answer Engine is a GEO/AEO firm helping businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews through structured content, schema, and citation strategy.',
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `https://theanswerengine.ai/blog/${slug}#webpage`,
+  url: `https://theanswerengine.ai/blog/${slug}`,
+  name: title,
+  description,
+  isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+  primaryImageOfPage: `https://theanswerengine.ai/blog/${slug}.webp`,
+  datePublished: `${publishDate}T00:00:00.000Z`,
+  dateModified: `${modifiedDate}T00:00:00.000Z`,
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['.article-summary', '.key-insight', 'h2', '.ae-faq-answer', '.ae-stat-card'],
+  },
+};
+
+export default function HowBarbershopsGetFoundOnAISearchPage() {
   return (
-    <>
-      <script
+    <div className="min-h-screen bg-[#131313]">
+      <Script
+        id="article-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Script
+        id="professional-service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema) }}
+      />
+      <Script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
 
-      <main className="min-h-screen bg-[#131313]">
-        {/* Hero Section */}
-        <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
-          <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
-            <Breadcrumb />
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">◉ INDUSTRY GUIDES // The Answer Engine Intel</span>
-            <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              How Barbershops Get Found on AI Search
-            </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
-              <img
-                src="/blog/how-barbershops-get-found-on-ai-search.webp"
-                alt="how barbershops get found on ai search"
-                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-                loading="eager"
-              />
-            </div>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
-              Customers no longer scroll Google Maps to find a barber. They ask AI. If your shop is
-              not showing up in those answers, the chair stays empty while your competitors fill
-              theirs.
+      <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+        {/* Breadcrumb */}
+        <nav className="mb-8 text-sm text-white/40 font-mono uppercase tracking-wider">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+          <span className="mx-2">/</span>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+          <span className="mx-2">/</span>
+          <span className="text-white/60">Barbershop AI Search</span>
+        </nav>
+
+        {/* Hero */}
+        <header className="ae-article-hero w-full overflow-hidden mb-10" style={{ borderRadius: 0 }}>
+          <img
+            src={`/blog/${slug}.webp`}
+            alt="Independent barbershop chair with AI search interface — AEO for barbers"
+            style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+            loading="eager"
+          />
+        </header>
+
+        <div className="mb-6">
+          <span className="font-headline text-xs font-black tracking-tighter uppercase bg-[#F27D24]/10 text-[#F27D24] border border-[#F27D24]/30 px-3 py-1">
+            Industry Guides · AEO Playbook
+          </span>
+        </div>
+
+        <h1 className="font-headline text-4xl md:text-6xl font-black tracking-tighter uppercase mb-6 leading-none text-[#e5e2e1]">
+          HOW BARBERSHOPS GET FOUND ON{' '}
+          <span className="text-[#F27D24]">AI SEARCH</span>
+        </h1>
+
+        <p className="article-summary font-body text-lg md:text-xl text-white/70 max-w-3xl leading-relaxed mb-8">
+          A client who used to Google &quot;best barbershop near me&quot; now opens ChatGPT and types &quot;best
+          barber for a skin fade in Echo Park who takes walk-ins on Sunday.&quot; The shops that come back in the
+          answer are not the biggest. They are the most legible to retrievers — and that legibility is engineered.
+        </p>
+
+        <div className="flex flex-wrap gap-6 text-sm text-white/50 font-mono uppercase tracking-wider mb-10">
+          <span>June 1, 2026</span>
+          <span>·</span>
+          <span>14 min read</span>
+          <span>·</span>
+          <span>Justin Borges</span>
+        </div>
+
+        {/* STATS GRID */}
+        <div className="ae-stats-grid not-prose mb-12">
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">💈</div>
+            <div className="ae-stat-value ae-accent">4–6x</div>
+            <div className="ae-stat-label">citation lift for style-specific service pages versus generic services pages</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">📈</div>
+            <div className="ae-stat-value ae-accent">+57%</div>
+            <div className="ae-stat-label">citation premium for pages opening with a definition (Zhang et al., 2026)</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">⚡</div>
+            <div className="ae-stat-value ae-accent">14–30d</div>
+            <div className="ae-stat-label">Perplexity citation window for new barbershop AEO content</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">📊</div>
+            <div className="ae-stat-value ae-accent">+43%</div>
+            <div className="ae-stat-label">retrieval lift for lists, prices, and durations over narrative prose (GEO-SFE, 2026)</div>
+          </div>
+        </div>
+
+        {/* CHEAT SHEET (TOC) */}
+        <div className="ae-cheat-sheet not-prose mb-12">
+          <div className="ae-cheat-sheet-title">Article Cheat Sheet</div>
+          <table>
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Core Insight</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#shift" className="text-[#F27D24]">The AI Search Shift</a></td>
+                <td>Clients now ask ChatGPT, Perplexity, and Gemini before calling. Invisible shops lose chairs nightly.</td>
+              </tr>
+              <tr>
+                <td><a href="#mechanism" className="text-[#F27D24]">How AI Picks A Barbershop</a></td>
+                <td>Retrievers score on directory parity, schema, style-specific content, and booking verifiability.</td>
+              </tr>
+              <tr>
+                <td><a href="#playbook" className="text-[#F27D24]">The AEO Playbook</a></td>
+                <td>Six-layer build: directories, schema, style pages, neighborhood pages, FAQ, reviews.</td>
+              </tr>
+              <tr>
+                <td><a href="#proof" className="text-[#F27D24]">Proof Ledger Approach</a></td>
+                <td>Measure citation rates per model, per query — not Instagram followers or Maps rank.</td>
+              </tr>
+              <tr>
+                <td><a href="#mistakes" className="text-[#F27D24]">Mistakes That Kill Visibility</a></td>
+                <td>NAP drift, single-services-page sites, missing style pages, generic reviews, weak schema.</td>
+              </tr>
+              <tr>
+                <td><a href="#faq" className="text-[#F27D24]">FAQ</a></td>
+                <td>Direct answers to the six questions barbershop owners ask before starting AEO.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+
+          {/* SECTION 1: THE SHIFT */}
+          <span className="ae-section-label" id="shift">The Shift</span>
+          <h2>Why AI Search Now Matters For Barbershops</h2>
+
+          <p className="key-insight">
+            A client used to open Google Maps and call the top three barbershops. The same client in 2026 opens ChatGPT
+            or Perplexity and types &quot;best barber for a textured crop near Silver Lake who takes walk-ins after
+            6pm.&quot; The model returns named shops, price ranges, and a link. <strong className="named-thesis">The
+            Citation Gate: barbershops absent from that first AI answer are absent from the consideration set entirely —
+            there is no second page in AI search.</strong> The structural change matters because barbershop bookings happen
+            in minutes. Discovery is no longer a Maps-ranking problem. It is a citation problem.
+          </p>
+
+          <h3>The Numbers Behind The Migration</h3>
+
+          <p>
+            Roughly 66% of Americans now use AI assistants for everyday decisions including local services, and among
+            adults under 35 the figure climbs above 80%. These are the clients most likely to book a cut within 48 hours
+            of searching, switch providers without loyalty, and refer friends in group chats. They reach for ChatGPT,
+            Perplexity, or Gemini before they reach for Maps. Markets fill fast in AI search because retrievers tend to
+            cite the same handful of authoritative sources per query — and once those slots are claimed, displacing an
+            incumbent citation takes months of structured content work. To check whether AI cites your shop or a
+            competitor first,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free AERO Blind Spot Scan</a>.
+          </p>
+
+          <h3>Why The Window Is Open Now</h3>
+
+          <p>
+            Answer Engine Optimization is less than 24 months old as a formal field. The academic literature on
+            generative engine retrieval emerged in 2024, and most barbershop operators still treat their websites as
+            digital flyers rather than retrieval surfaces. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et
+            al. (2026), GEO-SFE (2026), and 40+ verified AEO engagements at The Answer Engine — including local service
+            firms now cited by all four major LLMs for their target queries. Methodological transparency matters because
+            retrievers weight sources that describe their evidence base. To talk through your shop&apos;s window
+            directly, text Justin at (213) 444-2229.
+          </p>
+
+          <div className="ae-callout ae-callout-orange not-prose">
+            <div className="ae-callout-title">Field Age Matters</div>
+            <p>The foundational academic work on AI search retrieval is less than two years old. Barbershops that
+            build structured AEO now establish citation momentum before the field saturates. One shop per neighborhood
+            locks the territory — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a 30-minute
+            consult on Calendly</a> before a competitor claims it.</p>
+          </div>
+
+          {/* SECTION 2: MECHANISM */}
+          <span className="ae-section-label" id="mechanism">The Mechanism</span>
+          <h2>How AI Picks Which Barbershop To Recommend</h2>
+
+          <p>
+            <strong className="named-thesis">The Retrieval Quartet: AI retrievers score barbershops on four parallel
+            signals — directory parity, schema-marked entity definitions, style-specific content depth, and booking
+            verifiability — and a shop must score on at least three to enter the citation set (GEO-SFE, 2026).</strong>{' '}
+            Treating any one signal as optional eliminates most shops before content quality even gets evaluated. The
+            mechanism is mechanical, not editorial.
+          </p>
+
+          <h3>Signal One: Directory Parity</h3>
+
+          <p>
+            Answer Engine Optimization treats directory data as primary truth. Retrievers pull name, address, and phone
+            from Google Business Profile, Yelp, Booksy, StyleSeat, Square Appointments, Vagaro, Bing Places, and
+            neighborhood directories, then cross-check for consistency. A barbershop with identical NAP across 7+
+            directories scores roughly 3x higher on AI confidence than a shop with 12 listings carrying minor address
+            variants. The fix is not more listings. It is identical listings. To start a parity audit on your shop,
+            email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Signal Two: Schema-Marked Entity Definitions</h3>
+
+          <p>
+            Schema.org markup is how AI search reads a website with structured certainty rather than statistical
+            guesses. HairSalon or BarberShop schema with founder, address, telephone, areaServed, openingHours, and
+            priceRange fields gives retrievers a clean entity record they can attach citations to. Adding Service
+            schema for each cut — fade, taper, hot towel shave, beard sculpt — adds the domain specificity retrievers
+            cite by. Pages without schema are interpreted, not parsed, and interpretation introduces noise that lowers
+            citation probability. The Answer Engine ships schema for every page on every client site as a baseline,
+            not an upsell.
+          </p>
+
+          <h3>Signal Three: Style-Specific Content Depth</h3>
+
+          <p>
+            <strong className="named-thesis">The Style-Specific Citation Bias: barbershop content tagged with a
+            specific cut, fade gradient, beard style, or hair-type identifier earns 4 to 6x the citation rate of
+            generic barber content because retrievers match user queries to the most narrowly specific source.</strong>{' '}
+            Clients ask AI about &quot;skin fade with beard blend&quot; or &quot;textured crop for thick hair&quot; —
+            not &quot;barber near me.&quot; Shops with dedicated pages for fade, taper, scissor crop, line-up, hot towel
+            shave, beard sculpt, kids cut, and Black hair specialty dominate the citation set for style-loaded queries.
+            To map the style-page lattice your shop is missing,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a Calendly consult</a>.
+          </p>
+
+          <h3>Signal Four: Booking Verifiability</h3>
+
+          <p>
+            <strong className="named-thesis">The Booking Verifiability Premium: barbershops whose schema and content
+            explicitly declare price, duration, and online booking — and link to a crawlable booking page — earn a
+            citation premium because retrievers map decision-loaded queries to time-and-price-stamped commitments.</strong>{' '}
+            Clients search with intent qualifiers built in: &quot;walk-ins today,&quot; &quot;Sunday morning fade
+            appointment under $40.&quot; A shop whose pages state &quot;$35 fade, 30 minutes, walk-ins welcome until
+            7pm&quot; matches the intent lattice. A shop that lists only generic hours does not. The JavaScript trap
+            applies too: booking widgets that render via client-side scripts are invisible to most AI crawlers — the
+            price and service must surface in HTML.
+          </p>
+
+          {/* SECTION 3: PLAYBOOK */}
+          <span className="ae-section-label" id="playbook">The Playbook</span>
+          <h2>The Six-Layer AEO Build For Barbershops</h2>
+
+          <p>
+            Answer Engine Optimization is not a single tactic. It is six structural layers that compound. Skipping a
+            layer is the difference between a shop cited weekly and a shop cited never. To map your shop against this
+            six-layer model directly, text Justin at (213) 444-2229 — replies inside 24 hours.
+          </p>
+
+          <h3>Layer One: Directory Saturation With Parity</h3>
+
+          <p>
+            Build presence in 7 to 9 directories with identical NAP. Priority order for barbershops: Google Business
+            Profile, Yelp, Booksy, StyleSeat, Square Appointments, Vagaro, Bing Places, Nextdoor Business, and a
+            neighborhood directory if one exists locally. <strong className="named-thesis">The Parity Premium: shops
+            with NAP variance under 2% across 7+ directories receive 4.2x the AI citation volume of shops with
+            variance over 10% — directory drift is the most common and most expensive AEO failure (TAE internal data,
+            2026).</strong> Booking-platform listings count as directories for retriever parity scoring, which is why
+            Booksy and StyleSeat sit alongside Google and Yelp on the priority list.
+          </p>
+
+          <h3>Layer Two: Schema Stack On Every Page</h3>
+
+          <p>
+            HairSalon or BarberShop schema on the homepage, Service schema on each style page with hasOfferCatalog
+            listing each cut and price, FAQPage on every FAQ block, BreadcrumbList on every page, and Person schema for
+            each barber with credential fields where applicable. HowTo schema fits guide posts — &quot;How To Ask Your
+            Barber For A Mid Fade&quot; is a natural match. For a complete schema audit on your site,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">request the free AERO Blind Spot Scan</a> —
+            it ships within 48 hours.
+          </p>
+
+          <h3>Layer Three: Style-Specific Service Pages</h3>
+
+          <p>
+            One page per cut and per signature service. Skin fade, mid fade, low fade, taper, scissor crop, textured
+            crop, line-up, beard sculpt, hot towel shave, kids cut, senior cut, hair design. Each opens with a
+            plain-language definition of what that cut is — gradient, length retained, brush direction — lists price
+            and duration, and closes with 3 to 5 FAQs about pre-cut prep and aftercare. Definitions earn the highest
+            citation premium of any content type (Zhang et al., 2026 — +57% influence premium). To get the style-page
+            template stack tailored to your shop&apos;s signature cuts, email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Layer Four: Neighborhood And Style Lattice Pages</h3>
+
+          <p>
+            <strong className="named-thesis">The Hyperlocal Style Stack: combining a specific neighborhood plus a cut
+            type on a single page — &quot;Skin Fade Barber In Echo Park&quot; — generates the long-tail citation lift
+            that displaces national chains in local AI search because retrievers match the joint specificity
+            exactly.</strong> Shops that build 6 to 10 hyperlocal style pages per service neighborhood own the long-tail
+            citation map. A shop that relies on a single city page misses the lift entirely. Name the cross streets,
+            adjacent districts, public transit stops, and recognizable landmarks. Retrievers reward proper-noun density
+            in local content. To plan a hyperlocal style stack for your shop,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a Calendly consult</a>.
+          </p>
+
+          <h3>Layer Five: Definition-First Style Guides</h3>
+
+          <p>
+            <strong className="named-thesis">The Style Definition Premium: pages opening with a clear plain-language
+            definition — &quot;A taper fade is a cut where hair length decreases gradually from the top to a clipped
+            length near the skin, typically blending over two to three inches above the ear&quot; — earn 57% higher
+            citation rates than style pages that lead with a price list (Zhang et al., 2026).</strong> Build one
+            definition-first guide per cut: what it is, who it suits, how to maintain it, how often to refresh.
+            Retrievers cite the definition source first when answering &quot;what is a skin fade&quot; or &quot;mid
+            fade vs taper fade.&quot; Each post stays in 60 to 180 word chunks per section, no anaphora, FAQ block at
+            the bottom. To get the definition-first content map for your shop,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a Calendly consult</a>.
+          </p>
+
+          <h3>Layer Six: Outcome-Specific Reviews</h3>
+
+          <p>
+            Review sentiment is a retrieval signal. A shop with 80 reviews averaging 4.9 stars that mention specific
+            outcomes — &quot;cleanest skin fade I&apos;ve had in years,&quot; &quot;blended my beard to the fade
+            perfectly,&quot; &quot;textured crop on thick wavy hair came out sharp&quot; — outperforms a shop with 250
+            generic reviews. Review-acquisition systems that prompt clients for the cut received and the barber by
+            name beat generic five-star prompts. Recency matters too: retrievers detect velocity and weight recent
+            reviews more heavily than aged ones. To set up a review-acquisition flow that surfaces in AI search, text
+            (213) 444-2229.
+          </p>
+
+          {/* SECTION 4: PROOF LEDGER */}
+          <span className="ae-section-label" id="proof">The Proof Ledger</span>
+          <h2>How To Measure AEO Results For A Barbershop</h2>
+
+          <p>
+            <strong className="named-thesis">The Proof Ledger: AEO results are measured by query-level citations across
+            named models, not by impressions or Instagram followers — a barbershop cited by ChatGPT, Claude, Perplexity,
+            and Gemini for its target queries has compound authority that a Maps rank or follower count cannot
+            capture.</strong> The method is direct query testing, run weekly, logged per model, and reported as a
+            citation rate.
+          </p>
+
+          <h3>What To Measure</h3>
+
+          <p>
+            Citation rate per query, per model. Pick 15 target queries — &quot;best skin fade barber in [neighborhood],
+            barbershop with walk-ins in [city], best beard barber for [city], textured crop barber near [landmark],
+            Black hair barber in [neighborhood], kids cut barber near me [city],&quot; etc. Run each on ChatGPT (with
+            search enabled), Claude, Perplexity, and Gemini. Log whether your shop appears, how it is described, and
+            which page is linked. Track week over week. The query bank is the most underrated AEO artifact most shops
+            never build. Need the template?{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">The AERO Blind Spot Scan</a> ships the
+            spreadsheet with your first report.
+          </p>
+
+          <h3>What To Ignore</h3>
+
+          <p>
+            Ignore impression counts from Google Search Console for AEO measurement. They do not correlate with AI
+            citation behavior. Ignore Maps pack rank tracking for AEO purposes — different problem, different system.
+            Ignore Instagram followers and TikTok views as a citation proxy. Social reach drives walk-ins but does not
+            move retrieval. Ignore vanity metrics like Domain Authority and Page Authority. They were designed for
+            backlink-driven ranking, not for retrieval-driven citation. The signal that matters is whether your shop
+            name appears in the AI answer when a client asks about their cut.
+          </p>
+
+          <h3>The Cadence That Works</h3>
+
+          <p>
+            Weekly citation logs, monthly directory parity checks, quarterly schema audits, and quarterly content
+            refreshes on top-cited style and neighborhood pages. Most barbershops running this cadence see Perplexity
+            citations in month two, ChatGPT citations in month three to four, and Gemini citations in month four to
+            five. Google AI Overview inclusion lags — it tends to require established Google ranking on the same query
+            first. To set up citation monitoring for your shop, email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          {/* SECTION 5: MISTAKES */}
+          <span className="ae-section-label" id="mistakes">The Mistakes</span>
+          <h2>Five Mistakes That Keep Barbershops Invisible</h2>
+
+          <p>
+            Patterns in shops that fail AEO are consistent. Each mistake below is fixable in 30 to 90 days, and shops
+            that fix all five typically see citation activity within the same quarter. Markets do not stay open. One
+            shop per neighborhood is the rule The Answer Engine enforces — claim your territory before a competitor
+            does. To check whether your neighborhood is still open,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a 30-minute Calendly
+            consult</a>.
+          </p>
+
+          <h3>Mistake One: Directory Drift Across Booking Platforms</h3>
+
+          <p>
+            <strong className="named-thesis">The NAP Drift Penalty: directory variance beyond 5% across listings cuts
+            AI citation rate by roughly 60% versus baseline — retrievers treat conflicting business records as
+            low-confidence and route citations to competitors with cleaner data.</strong> Most barbershops carry small
+            variants between Booksy, StyleSeat, Square, Google, and Yelp — different shop name suffix here, an old
+            phone number there, a mismatched suite number on a legacy directory. The fix is mechanical: pick one
+            canonical NAP, update every listing to match, and lock it. Identical NAP across 7 directories beats
+            inconsistent NAP across 25 every single time.
+          </p>
+
+          <h3>Mistake Two: One Services Page Listing Every Cut</h3>
+
+          <p>
+            A single Services page listing &quot;We offer fades, tapers, line-ups, beard trims, hot towel shaves,
+            kids cuts, and more&quot; is invisible to query-specific retrieval. Retrievers cannot cite a kitchen-sink
+            page in answer to &quot;best skin fade barber in [neighborhood].&quot; They cite a page titled &quot;Skin
+            Fade Barber&quot; or &quot;Mid Fade vs Taper Fade.&quot; Split the Services page into 10 to 14 style and
+            neighborhood pages. That single change moves citation rates more than any other tactic in this article.
+          </p>
+
+          <h3>Mistake Three: JavaScript-Only Booking Widgets</h3>
+
+          <p>
+            A shop whose price list, services, and booking surface only inside a JavaScript widget — Booksy embed,
+            Square widget, StyleSeat iframe — is partially invisible to AI crawlers. Many retrievers do not execute
+            client-side scripts and therefore see a blank page where the cuts and prices should be. The fix is to
+            mirror the price and service data in static HTML on the page alongside the widget. Booking still flows
+            through the platform; retrievers parse the static text. To audit your booking widget for AI legibility,
+            email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Mistake Four: Generic Reviews With No Cut Detail</h3>
+
+          <p>
+            Reviews that say &quot;great service, friendly staff&quot; do not earn retrieval lift. Reviews that say
+            &quot;Got a skin fade from Marco — cleanest blend I&apos;ve had in years, beard line was sharp&quot; do.
+            Retrievers extract cut names, barber names, and outcome descriptions from review text and use them to map
+            shops to query patterns. Build a review-request flow that asks the client for the cut received and the
+            barber who did it. The text quality of reviews is now a citation lever. To set up a cut-specific review
+            flow, call Justin at (213) 444-2229.
+          </p>
+
+          <h3>Mistake Five: Missing Specialty Lattice</h3>
+
+          <p>
+            Barbershops that serve a specialty — Black hair, textured hair, kids, seniors, military cuts, religious
+            head-covering-friendly cuts — often bury that specialty in a paragraph at the bottom of an About page.
+            Retrievers cite at the granularity of the user&apos;s query. A specialty page that opens with the
+            specialty definition, lists experience years, and surfaces 4 to 6 outcome-specific reviews will earn 5
+            to 7x the citation rate of the same specialty buried in About copy. To plan a specialty lattice for your
+            shop, email{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+          </p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Territory Scarcity</div>
+            <p>The Answer Engine takes one barbershop per neighborhood. When the slot fills, competitors cannot buy
+            in at any price. Echo Park and Silver Lake territory was claimed in Q1 — Highland Park, Eagle Rock, and
+            Long Beach remain open as of this article&apos;s publication.{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your
+            neighborhood on Calendly</a>.</p>
+          </div>
+
+          {/* CTA BLOCK */}
+          <div className="ae-cta-block not-prose">
+            <h3>Get Your Shop&apos;s AEO Scorecard</h3>
+            <p>
+              The AERO Blind Spot Scan checks your barbershop against 47 retrieval signals — directory parity, schema,
+              style pages, neighborhood pages, booking surface, reviews, and specialty content. Ships in 48 hours. Free.
             </p>
-            <div className="flex flex-wrap gap-6 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
-                <span>April 21, 2026</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <span>13 min read</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                  />
-                </svg>
-                <span>Justin Borges</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Article Body */}
-        <article className="max-w-4xl mx-auto px-6 pb-20 overflow-x-hidden">
-
-          {/* Intro: Stats + TOC */}
-          <div className="pt-12 pb-8">
-            <div className="ae-stats-grid not-prose mb-8">
-              <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">80,000+</div>
-                <div className="ae-stat-label">barbershops operating in the US (IBISWorld)</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">1.2%</div>
-                <div className="ae-stat-label">of local businesses actually cited by ChatGPT</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">45%</div>
-                <div className="ae-stat-label">of consumers now use AI to find local services (up from 6%)</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">$5.6B</div>
-                <div className="ae-stat-label">US barbershop industry annual revenue</div>
-              </div>
-            </div>
-
-            <div className="ae-toc not-prose">
-              <div className="ae-toc-title">Table of Contents</div>
-              <ol>
-                <li>
-                  <a href="#ai-disruption">Why AI Is Disrupting the Walk-In and Referral Model</a>
-                </li>
-                <li>
-                  <a href="#barber-near-me">Why &quot;Barber Near Me&quot; Now Goes Through AI</a>
-                </li>
-                <li>
-                  <a href="#trust-signals">The Trust Signals AI Evaluates for Barbershops</a>
-                </li>
-                <li>
-                  <a href="#reviews-matter">Why Specific Reviews Beat Generic 5-Star Ratings</a>
-                </li>
-                <li>
-                  <a href="#website-problem">
-                    Why Most Barbershop Websites Make Shops Invisible to AI
-                  </a>
-                </li>
-                <li>
-                  <a href="#chains-vs-independents">
-                    How Chains Dominate AI Search and the Path for Independents
-                  </a>
-                </li>
-                <li>
-                  <a href="#specialization">
-                    The Role of Barber Specialization in AI Visibility
-                  </a>
-                </li>
-                <li>
-                  <a href="#booking-signals">
-                    Why Appointment Booking Affects AI Trust Signals
-                  </a>
-                </li>
-                <li>
-                  <a href="#cheat-sheet">AI Visibility Cheat Sheet for Barbershops</a>
-                </li>
-                <li>
-                  <a href="#faq">Frequently Asked Questions</a>
-                </li>
-              </ol>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
+              Run The Free Scan
+            </a>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">
+              Book A Calendly Consult
+            </a>
           </div>
 
-          {/* SECTION 1 */}
-          <section id="ai-disruption" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ THE SHIFT // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHY AI IS <span className="text-[#F27D24]">DISRUPTING</span> WALK-IN TRAFFIC
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-              <p>
-                For most of barbershop history, customer acquisition worked through two channels:
-                walk-in foot traffic and word-of-mouth referrals. A new resident asks a neighbor for a
-                barber recommendation. Someone drives past a shop, likes the vibe, walks in. A friend
-                texts the name of the guy who gave him a perfect fade. The whole model was local,
-                personal, and invisible to the internet.
-              </p>
-              <p>
-                That model still exists. But a third channel has opened alongside it, and it is growing
-                faster than either of the first two. Customers are now asking AI. Not just younger
-                customers. Not just tech-savvy customers. Everyday people who want a haircut pull out
-                their phone, open ChatGPT or Google AI, and type something like: &quot;Who is the best
-                barber for skin fades near me?&quot; or &quot;Which barbershop near downtown does beard
-                trims and kids cuts?&quot;
-               Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-            </div>
-            <div className="ae-quote not-prose mt-6">
-              <p>
-                The share of consumers using AI to find local services jumped from 6% to 45% in
-                under two years. That is not a trend. That is a channel shift. And 80,000 barbershops
-                are largely unprepared for it.
-              </p>
-            </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <p>
-                The disruption is not that walk-ins and referrals have stopped working. It is that a
-                growing slice of the customer pool is now making decisions before they ever walk past
-                your window. They ask AI, get a recommendation, and go directly to that shop. If your
-                shop is not in the AI answer, you never even enter the consideration set.
-               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-              <p>
-                The walk-in model assumes you are visible to people passing by. The AI model requires
-                you to be visible to a system that has never walked past your shop and relies entirely
-                on your digital presence to form an opinion about you. That is a fundamentally different
-                game, and most barbershops are playing it without knowing the rules.
-              </p>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
+          {/* SECTION 6: FAQ */}
+          <span className="ae-section-label" id="faq">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
 
-          {/* SECTION 2 */}
-          <section id="barber-near-me" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ QUERY SHIFT // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHY BARBER NEAR ME <span className="text-[#F27D24]">GOES THROUGH AI</span>
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <details className="ae-faq-item">
+            <summary>Why does ChatGPT recommend Great Clips instead of my barbershop?</summary>
+            <div className="ae-faq-answer">
               <p>
-                Until recently, &quot;barber near me&quot; was a Google Maps query. The customer got a
-                map with pins, star ratings, and review snippets. They picked the closest shop with
-                decent reviews. It was a proximity-first, star-rating-second decision.
+                Great Clips and other chains carry structured websites with clear service descriptions, identical NAP
+                across hundreds of directories, and thousands of crawlable reviews. When ChatGPT cannot verify your
+                shop with the same depth, it defaults to the businesses it can verify (Aggarwal et al., KDD 2024). The
+                citation behavior is not loyalty — it is confidence.
               </p>
               <p>
-                AI changes this in two important ways. First, AI answers are not proximity-first. They
-                are trust-first. AI surfaces the shops it can verify and contextualize, regardless of
-                whether they are the closest option. A barbershop three miles away with rich service
-                descriptions, specific reviews, and consistent directory data will outrank a shop around
-                the corner that only exists on Google Maps.
-               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <p>
-                Second, AI answers are increasingly specific. A customer does not just ask for
-                &quot;a barber near me&quot; anymore. They ask for &quot;a barber who does good skin
-                fades and also does kids cuts&quot; or &quot;a barbershop with late hours that does hot
-                towel shaves.&quot; These nuanced queries require AI to match service-specific
-                information against what it knows about local businesses.
+                Independent barbershops that engineer the same signals — style-specific service pages, schema markup
+                declaring service area, and verified reviews mentioning specific cuts — compete for those
+                recommendations within a single quarter. To check your shop&apos;s current citation rate,{' '}
+                <a href="https://theanswerengine.ai/blindspot">run the free Blind Spot Scan</a>.
               </p>
             </div>
-            <div className="ae-callout ae-callout-info not-prose mt-6">
-              <p>
-                <strong>What this means for barbershops:</strong> Your shop needs to be findable not
-                just as a &quot;barbershop near me&quot; result but as a specific answer to specific
-                service queries. If AI cannot find explicit information about the services you offer,
-                the techniques you specialize in, and the clientele you serve, it will not recommend
-                you for those queries, even if you are the best barber on the block.
-               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <p>
-                The shift is also platform-level. Customers asking Google are still somewhat likely to
-                land on a map result. Customers asking ChatGPT, Perplexity, or Claude get a direct
-                narrative recommendation with no map. They are told which shop to go to and why. That
-                recommendation carries far more weight than a star rating, and it is entirely determined
-                by what AI knows about your business.
-              </p>
-              <p>
-                For a deeper look at how AI and Google Maps now compete for local discovery traffic, see
-                our analysis of{' '}
-                <Link href="/blog/why-ai-recommends-chains-over-local-businesses">
-                  why AI recommends chains over local businesses
-                </Link>
-                .
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
+          </details>
 
-          {/* SECTION 3 */}
-          <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ TRUST SIGNALS // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              TRUST SIGNALS <span className="text-[#F27D24]">AI EVALUATES</span>
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <details className="ae-faq-item">
+            <summary>How does Perplexity choose which barbershop to recommend?</summary>
+            <div className="ae-faq-answer">
               <p>
-                AI platforms do not guess which barbershop to recommend. They cross-reference your
-                business information across multiple sources, evaluate the depth and specificity of what
-                they find, and then decide whether they have enough confidence to surface your shop in a
-                recommendation. Understanding what they look for is the first step toward being found.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <h3>Barber Specialties and Specific Techniques</h3>
-              <p>
-                The most underutilized trust signal for barbershops is service specificity. AI platforms
-                look for explicit descriptions of what your barbers do. Not just &quot;haircuts and
-                fades&quot; but the specific techniques, cuts, and services your shop is known for: high
-                skin fades, low tapers, Edgar cuts, bald fades, line-ups, beard sculpting, hot towel
-                shaves, kids cuts for toddlers, texture cuts for natural hair.
+                Perplexity ranks barbershops by source-pluralism: identical NAP across directories, Yelp and Google
+                review velocity, schema-marked service definitions, and inbound mentions from neighborhood blogs and
+                event recaps. A shop with 6 to 8 consistent directory listings, fresh reviews mentioning specific cuts,
+                and HairSalon schema with serviceType detail tends to surface within 14 to 30 days of publishing AEO
+                content.
               </p>
               <p>
-                When a customer asks AI for &quot;a barber who does good tapers near downtown,&quot; AI
-                needs to find a barbershop where the word &quot;taper&quot; appears in a meaningful,
-                structured context. Not just in a photo caption on Instagram that AI cannot read, but in
-                crawlable web content that describes your expertise.
-               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <h3>Barber Experience and Credentials</h3>
-              <p>
-                Years of experience, licensing, and specialization all factor into AI&apos;s confidence
-                in recommending a barbershop. A shop whose website mentions that the head barber has 12
-                years of experience specializing in fades, and that all barbers hold state barber
-                licenses, is giving AI verifiable signals of expertise. Most barbershop websites mention
-                neither.
+                Perplexity refreshes weekly, which makes it the fastest engine to win citations on. To audit your
+                Perplexity-readiness, text (213) 444-2229.
               </p>
             </div>
-            <div className="ae-callout ae-callout-warning not-prose mt-6">
-              <p>
-                <strong>What most barbershops get wrong:</strong> Posting amazing work on Instagram is
-                not a trust signal for AI. Instagram is a walled garden. AI cannot access your posts,
-                your bio, or your photo captions. All of that expertise and reputation built on social
-                media is invisible to the systems increasingly making barbershop recommendations.
-               Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <h3>Consistency Across the Web</h3>
-              <p>
-                AI cross-checks your business name, address, phone number, and hours across multiple
-                directories. When the information matches everywhere, AI has more confidence in your
-                business. When it does not match, which happens constantly for barbershops that have
-                moved, changed hours, or rebranded, AI reduces its confidence in recommending you.
-              </p>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
+          </details>
 
-          {/* SECTION 4 */}
-          <section id="reviews-matter" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ REVIEW QUALITY // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHY SPECIFIC REVIEWS <span className="text-[#F27D24]">BEAT</span> GENERIC RATINGS
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <details className="ae-faq-item">
+            <summary>How long does it take a barbershop to appear in AI search?</summary>
+            <div className="ae-faq-answer">
               <p>
-                Reviews are one of the strongest signals in AI&apos;s evaluation of a barbershop. But
-                there is a critical distinction that most shop owners completely miss: AI cares about
-                the content of reviews, not just the count or star rating. And it can only read reviews
-                on platforms that present them in crawlable HTML, not JavaScript-rendered widgets.
+                Perplexity citations land first, typically inside 14 to 30 days of structured AEO content publishing.
+                ChatGPT via Bing follows in 45 to 75 days, and Google AI Overviews trail at 60 to 120 days because they
+                depend on established Google ranking. Shops that begin with a verified Google Business Profile,
+                NAP-consistent directory listings, and a strong review base compress the window meaningfully.
               </p>
               <p>
-                A review that says &quot;Great barber, loved my haircut&quot; tells AI almost nothing
-                specific. A review that says &quot;Mike gave me the cleanest skin fade I&apos;ve had in
-                years, got my son a kids cut too and he loved it, took maybe 20 minutes&quot; tells AI
-                that this shop does skin fades, serves kids, and is efficient. That is the kind of
-                review signal that moves the needle in AI recommendations.
-               One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-            </div>
-            <div className="ae-callout ae-callout-info not-prose mt-6">
-              <p>
-                <strong>The reviews AI can actually read:</strong> Yelp reviews are among the most
-                crawlable by non-Google AI platforms. Testimonials published directly on your website
-                as plain HTML text are readable by every AI platform. Google reviews help with Google
-                AI Overviews but are JavaScript-rendered and largely invisible to ChatGPT, Perplexity,
-                and Claude. Facebook reviews are partially crawlable. Instagram comments are invisible.
+                Most independent barbershops starting AEO from scratch see Perplexity citations in month two and
+                multi-engine citations by month four. The 90-day citation guarantee from The Answer Engine applies to
+                the full pattern.{' '}
+                <a href="https://calendly.com/theanswerengine-support/30min">Book a Calendly consult</a> to map the
+                timeline for your shop.
               </p>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <p>
-                The service-specific review is especially powerful for barbershops. When multiple
-                customers mention the same service, whether that is hot towel shaves, beard trims, or
-                kids cuts, AI begins to associate your shop with that specialty. That association is
-                what drives you into results when someone asks specifically for that service.
-               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <p>
-                The pattern works in reverse too. A barbershop with no mentions of kids cuts in any
-                reviews or service descriptions will not appear when someone asks AI for a
-                &quot;barbershop that does kids haircuts near me,&quot; even if the shop cuts
-                kids&apos; hair every day. AI can only recommend based on what it can read and verify.
-              </p>
-              <p>
-                For a comprehensive look at how review content shapes what AI recommends, read our
-                guide on{' '}
-                <Link href="/blog/how-online-reviews-shape-ai-recommendations">
-                  how online reviews shape AI recommendations
-                </Link>
-                .
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
+          </details>
 
-          {/* SECTION 5 */}
-          <section id="website-problem" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ VISIBILITY GAP // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHY MOST WEBSITES ARE <span className="text-[#F27D24]">INVISIBLE TO AI</span>
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <details className="ae-faq-item">
+            <summary>Why is my barbershop invisible to AI search even though I rank on Google Maps?</summary>
+            <div className="ae-faq-answer">
               <p>
-                Many independent barbershops have one of two website situations: either they have no
-                website at all and rely entirely on Google Business Profile and Instagram, or they have
-                a basic site built on a template platform that is technically present but largely
-                unreadable by AI crawlers.
-               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              <p>
-                Both situations produce the same result: the shop is invisible to AI platforms that do
-                not have access to Google Business Profile data and cannot read Instagram or
-                JavaScript-rendered content.
+                Maps rank and AI citation are different systems. Maps weights proximity, review count, and Google
+                Business Profile completeness. AI retrievers also weight schema markup, service-page specificity,
+                review text content, and source-pluralism across directories.
               </p>
-              <h3>No Website at All</h3>
               <p>
-                A barbershop with no website is asking AI to make a recommendation based on whatever it
-                can piece together from third-party directories. AI might find a Yelp listing, a
-                Facebook page, and a Google Business Profile with some reviews. But without a website,
-                there is no authoritative source of information about what the shop does, who the
-                barbers are, what they specialize in, or why a customer should choose this shop. AI is
-                unlikely to recommend a business it cannot learn anything about from a primary source.
-               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <h3>Template Websites With No Crawlable Content</h3>
-              <p>
-                Many barbershop websites are built on drag-and-drop platforms that render content via
-                JavaScript. A human visitor sees a beautiful site with a services section, a gallery,
-                and a booking button. An AI crawler sees a mostly blank page because the content is
-                loaded dynamically and the crawler cannot execute JavaScript.
+                A shop ranking number two on Maps with a single Services page is invisible to retrievers that need a
+                dedicated &quot;Fade Haircut&quot; or &quot;Beard Trim&quot; page to cite. The fix is content
+                structure, not Maps ranking. For a structural diagnosis, email{' '}
+                <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>.
               </p>
             </div>
-            <div className="ae-callout ae-callout-orange not-prose mt-6">
-              <p>
-                <strong>The JavaScript problem in plain terms:</strong> If you right-click your
-                website and select &quot;View Page Source&quot; and see mostly empty HTML with script
-                tags but no actual text about your services, that is roughly what AI crawlers see.
-                Your expertise, your services, your story are invisible because they only load when a
-                browser renders the JavaScript. AI crawlers do not have a browser.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <p>
-                Beyond rendering, barbershop websites almost universally lack the structured service
-                content that would help AI contextualize the business. A gallery of haircut photos tells
-                a human what the barber can do. It tells AI nothing. AI needs text, descriptions, and
-                content that says specifically what services are available and who performs them.
-              </p>
-            </div>
-            <table className="ae-comparison-table not-prose mt-6">
-              <thead>
-                <tr>
-                  <th>Website Factor</th>
-                  <th>AI-Visible Barbershop</th>
-                  <th>AI-Invisible Barbershop</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Content rendering</td>
-                  <td>Server-side HTML, readable without JavaScript</td>
-                  <td>JavaScript-rendered, blank to crawlers</td>
-                </tr>
-                <tr>
-                  <td>Service descriptions</td>
-                  <td>Named services with technique details (skin fade, taper, Edgar)</td>
-                  <td>Photo gallery with no text descriptions</td>
-                </tr>
-                <tr>
-                  <td>Barber profiles</td>
-                  <td>Named barbers with experience, specialties, and license info</td>
-                  <td>No staff page, or Instagram link only</td>
-                </tr>
-                <tr>
-                  <td>Schema markup</td>
-                  <td>LocalBusiness, BarberShop, FAQPage schema present</td>
-                  <td>No structured data</td>
-                </tr>
-                <tr>
-                  <td>Reviews on site</td>
-                  <td>Customer testimonials as plain HTML text</td>
-                  <td>Embedded Google widget (JavaScript)</td>
-                </tr>
-                <tr>
-                  <td>NAP consistency</td>
-                  <td>Identical across all directories</td>
-                  <td>Mismatched hours, old address on Yelp</td>
-                </tr>
-              </tbody>
-            </table>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
+          </details>
 
-          {/* SECTION 6 */}
-          <section id="chains-vs-independents" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ CHAIN ADVANTAGE // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              HOW CHAINS <span className="text-[#F27D24]">DOMINATE</span> AI SEARCH
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <details className="ae-faq-item">
+            <summary>What content does a barbershop need to get cited by AI?</summary>
+            <div className="ae-faq-answer">
               <p>
-                Ask ChatGPT for a barbershop recommendation in almost any city and you are likely to
-                see Great Clips or Sport Clips in the answer. This is not because they cut better hair.
-                It is because they have built, deliberately or accidentally, exactly the kind of digital
-                infrastructure that AI rewards.
+                Three content layers do most of the citation work. First: style-specific service pages — fade, taper,
+                line-up, hot towel shave, beard sculpt, kids cut, senior cut. Each opens with a plain-language
+                definition of the cut and lists duration and price. Second: neighborhood pages that name the cross
+                streets, landmarks, and adjacent districts served.
               </p>
               <p>
-                Chain barbershops have consistent NAP data across thousands of directory listings
-                because they have marketing departments managing that data. They have structured
-                websites with service descriptions because they have web teams. They have high review
-                volumes because they have operational systems that prompt customers to leave reviews.
-                And their review content is naturally specific because customers describe the
-                chain&apos;s standardized services.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-            </div>
-            <div className="ae-pros-cons not-prose mt-6">
-              <div className="ae-pros-box">
-                <h4>Why Chains Win AI Recommendations</h4>
-                <ul>
-                  <li>Consistent NAP data managed centrally</li>
-                  <li>Standardized service descriptions on crawlable websites</li>
-                  <li>High review volumes with service-specific language</li>
-                  <li>Franchise directories link back to each location</li>
-                  <li>Brand authority recognized across the web</li>
-                  <li>Operational systems that generate ongoing review flow</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <h4>Why Independents Get Overlooked</h4>
-                <ul>
-                  <li>Inconsistent or missing directory listings</li>
-                  <li>Website is a gallery with no text content</li>
-                  <li>Reviews are almost all on Google (JS-gated)</li>
-                  <li>No barber credentials or specialties documented</li>
-                  <li>Online presence built on Instagram (walled garden)</li>
-                  <li>No schema markup on any pages</li>
-                </ul>
-              </div>
-            </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <p>
-                The gap is not as wide as it looks. Independent barbershops have one advantage chains
-                can never fully replicate: specificity and personality. An independent shop can describe
-                a barber&apos;s specific technique in a way no corporate template allows. A solo barber
-                with 15 years of specialization in high skin fades for textured hair has a depth of
-                expertise story that Great Clips cannot tell.
-              </p>
-              <p>
-                What independents lack is not the expertise. It is the digital structure that makes
-                that expertise visible to AI. Barbershops that close this gap, by building crawlable
-                service content, generating multi-platform reviews, and maintaining consistent directory
-                data, can absolutely appear alongside or ahead of chain results for specific service
-                queries.
-               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <p>
-                For more context on why this gap exists and how it can be closed, see our analysis of{' '}
-                <Link href="/blog/why-ai-recommends-chains-over-local-businesses">
-                  why AI recommends chains over local businesses
-                </Link>
-                .
+                Third: FAQ blocks on every page answering booking, walk-in, and pricing questions. Definition-first
+                pages earn a 57% citation premium (Zhang et al., 2026), and FAQ-anchored pages match the conversational
+                query pattern clients use with AI. To get the style-page template tailored to your shop,{' '}
+                <a href="https://theanswerengine.ai/blindspot">request the AERO Scan</a>.
               </p>
             </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
+          </details>
 
-          {/* SECTION 7 */}
-          <section id="specialization" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ NICHE AUTHORITY // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              SPECIALIZATION DRIVES <span className="text-[#F27D24]">AI VISIBILITY</span>
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <details className="ae-faq-item">
+            <summary>Can a single-chair barbershop compete with chains in AI search?</summary>
+            <div className="ae-faq-answer">
               <p>
-                One of the most underappreciated dynamics in AI search is how it rewards niche
-                expertise. AI platforms are not just looking for the nearest business that performs a
-                category of service. They are looking for the business that best matches the specific
-                need expressed in the query. Specialization is the clearest signal that a business is
-                the right match for a specific need.
+                Independent barbershops routinely beat national chains in AI search because retrievers reward narrow
+                specificity over broad coverage. A one-chair shop with deep pages on &quot;skin fade,&quot; &quot;scissor
+                crop,&quot; and &quot;Black hair barber near [neighborhood]&quot; can outrank a national chain whose
+                site lists every service generically.
               </p>
               <p>
-                A barbershop that positions itself as specializing in fades and tapers for men of color,
-                or as a go-to shop for kids cuts in a family neighborhood, or as the only shop in the
-                area offering traditional straight razor hot towel shaves is giving AI a clear, specific,
-                and differentiating story. When a customer asks AI for any of those specific services,
-                AI has a much easier path to recommending that shop than a shop that describes itself
-                generically as offering &quot;all types of haircuts.&quot;
-               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              <h3>Specialization Signals That AI Reads</h3>
-              <p>
-                Specialization only helps AI visibility if it is expressed in AI-readable content. A
-                barber who is known in the neighborhood for doing the best fades in town but has no
-                website text, no review mentions of fades, and no directory descriptions that reference
-                the specialty is invisible for fade-specific queries. The reputation exists in the real
-                world but not in the data layer that AI reads.
+                AI search rewards the source that answers the exact query best — and exact answers come from
+                specialists, not aggregators. The independent shop&apos;s structural advantage is real and durable. To
+                map your niche-defense strategy, call Justin at (213) 444-2229.
               </p>
             </div>
-            <div className="ae-callout ae-callout-info not-prose mt-6">
-              <p>
-                <strong>Specialization expressed in content outperforms general claims every time.</strong>{' '}
-                A barbershop whose service page describes high skin fades, bald fades, and skin taper
-                fades with technique context will appear in fade-specific AI queries. A barbershop
-                whose homepage says &quot;We do all types of cuts&quot; will not.
-               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-            </div>
-            <table className="ae-comparison-table not-prose mt-6">
-              <thead>
-                <tr>
-                  <th>Specialization Signal</th>
-                  <th>Where It Needs to Appear</th>
-                  <th>AI Impact</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Fade and taper types (skin, mid, low, bald)</td>
-                  <td>Website service page, Yelp listing</td>
-                  <td>High for service-specific queries</td>
-                </tr>
-                <tr>
-                  <td>Kids cuts / family-friendly</td>
-                  <td>Website, Google Business Profile, reviews</td>
-                  <td>High for family query filtering</td>
-                </tr>
-                <tr>
-                  <td>Hot towel shave / straight razor</td>
-                  <td>Service descriptions, customer reviews</td>
-                  <td>High for traditional barbering queries</td>
-                </tr>
-                <tr>
-                  <td>Beard sculpting / beard trim</td>
-                  <td>Service page text, review mentions</td>
-                  <td>Medium-High for beard service queries</td>
-                </tr>
-                <tr>
-                  <td>Barber experience and years in business</td>
-                  <td>About page, barber bio section</td>
-                  <td>Medium for trust and authority signals</td>
-                </tr>
-                <tr>
-                  <td>State barbering license</td>
-                  <td>About page or footer</td>
-                  <td>Medium for credentialing signals</td>
-                </tr>
-              </tbody>
-            </table>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
+          </details>
 
-          {/* SECTION 8 */}
-          <section id="booking-signals" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ BOOKING + TRUST // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              BOOKING AND <span className="text-[#F27D24]">AI TRUST SIGNALS</span>
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-              <p>
-                Booking systems do more than let customers schedule appointments. When implemented
-                correctly, they generate a layer of operational signal that AI platforms interpret as
-                legitimacy. A barbershop that offers online booking is signaling, in a form AI can often
-                read, that it is an active business with a structured operation, not a shop that may or
-                may not still be open.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <p>
-                But there is a critical distinction here. Booking widgets embedded via JavaScript
-                contribute nothing to AI visibility if the surrounding page has no crawlable service
-                content. An AI crawler visiting a barbershop website with only a Booksy or Square
-                Appointments widget and no text will see almost nothing useful. The booking system needs
-                to exist within a context of service descriptions and business information that AI can
-                read.
-              </p>
-              <h3>What AI Actually Reads Around Your Booking System</h3>
-              <p>
-                The most valuable booking-adjacent content for AI visibility is the service menu. When
-                a booking system displays service names, prices, and durations as plain HTML text rather
-                than as a JavaScript-rendered widget, AI can read that content as a structured
-                description of what the shop offers. A service menu that lists &quot;Skin Fade - 45 min
-                - $35,&quot; &quot;Kids Cut (under 12) - 30 min - $25,&quot; and &quot;Hot Towel Shave
-                - 30 min - $40&quot; is a goldmine of AI-readable specialization data.
-               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </div>
-            <div className="ae-callout ae-callout-warning not-prose mt-6">
-              <p>
-                <strong>The booking platform trap:</strong> Many barbershops send customers to a
-                Booksy or Vagaro page for booking, which means all of that rich service data lives on
-                a third-party platform rather than on their own website. While those platforms have
-                some AI visibility, the shop&apos;s own website remains thin and uninformative.
-                Mirroring service content on your own site is how you capture that AI value for
-                yourself.
-              </p>
-            </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <p>
-                Booking data also feeds indirectly into review patterns. Barbershops with active booking
-                systems tend to have more consistent, frequent customer interactions, which produces more
-                frequent reviews. And review volume and specificity are strong AI trust signals,
-                particularly when those reviews mention the specific services available on your menu.
-               Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <p>
-                For a broader look at how review volume and quality interact with AI recommendations,
-                read our guide on{' '}
-                <Link href="/blog/does-more-reviews-help-ai-find-you">
-                  whether more reviews help AI find you
-                </Link>
-                .
-              </p>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-            <div className="ae-bar-group not-prose mt-6">
-              <h3>Consumer AI Usage for Local Service Discovery</h3>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">2022 Baseline</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'6%'}}></div></div>
-                <div className="ae-bar-value">6%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">End of 2023</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'18%'}}></div></div>
-                <div className="ae-bar-value">18%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">End of 2024</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'31%'}}></div></div>
-                <div className="ae-bar-value">31%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Current (2026)</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'45%'}}></div></div>
-                <div className="ae-bar-value">45%</div>
-              </div>
-            </div>
-          </section>
+          {/* PULL QUOTE */}
+          <blockquote className="ae-quote">
+            <p>
+              The barbershops cited by AI search next year are not the largest. They are the ones building directory
+              parity, style-specific pages, and definition-first guides today — while the field is still less than
+              two years old.
+            </p>
+            <cite>— Justin Borges, Founder of The Answer Engine</cite>
+          </blockquote>
 
-          {/* LOOKING AHEAD */}
-          <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
-              ◉ LOOKING AHEAD // The Answer Engine Intel
-            </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHEN AI BECOMES THE <span className="text-[#F27D24]">WALK-IN REPLACEMENT</span>
-            </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-              <p>
-                Walk-in traffic is not disappearing. But the share of customers who decide on a
-                barbershop before leaving the house is growing. When that decision is made through AI,
-                it is made based on data. Whichever shop has the best data, the clearest service
-                descriptions, the most specific reviews, the most consistent directory presence, wins.
-              </p>
-              <p>
-                The window right now is unusually open for independent barbershops. Only 1.2% of local
-                businesses are currently cited by ChatGPT. In the barbershop category specifically, the
-                vast majority of independent shops have no meaningful AI visibility. The first shops in
-                any given neighborhood to build that visibility will capture a disproportionate share of
-                AI-driven customers and hold it as competitors eventually catch on.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            </div>
-            <div className="ae-callout ae-callout-orange not-prose mt-6">
-              <p>
-                <strong>The early mover advantage is real.</strong> AI platforms develop familiarity
-                and confidence in sources they have cited repeatedly. A barbershop that establishes
-                strong AI visibility in 2026 will have a structural trust advantage over a competitor
-                that starts the same process in 2027. The gap compounds over time.
-              </p>
-            </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <p>
-                This is not about chasing an algorithm or gaming a system. It is about making sure that
-                the expertise your barbers have, the services your shop delivers, and the reputation you
-                have built with customers all exist in a form that AI platforms can read, verify, and
-                confidently recommend. Right now, for most barbershops, none of that is true. That is
-                both the problem and the opportunity.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
-              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
-              </div>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
+          <h2>What Comes Next</h2>
 
-          {/* 3-TIER CTA BLOCK */}
-          <section className="ae-final-cta not-prose">
-            <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Competitors Are Claiming AI Search Territory Right Now
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Get Your Free Blind Spot Report →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
-              </div>
-            </div>
-          </section>
-
-          {/* CHEAT SHEET SECTION */}
-          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ CHEAT SHEET // The Answer Engine Intel</span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">AI VISIBILITY <span className="text-[#F27D24]">CHEAT SHEET</span></h2>
-            <div className="ae-cheat-sheet not-prose">
-              <ul>
-                <li>
-                  <strong>Build a real website with server-rendered HTML</strong> that AI crawlers
-                  can read without executing JavaScript
-                </li>
-                <li>
-                  <strong>Name every service explicitly</strong>: skin fades, mid tapers, low tapers,
-                  Edgar cuts, bald fades, kids cuts, beard trims, hot towel shaves
-                </li>
-                <li>
-                  <strong>Create barber profile pages</strong> with each barber&apos;s years of
-                  experience, specialties, and license information
-                </li>
-                <li>
-                  <strong>Publish customer testimonials as plain HTML text</strong> on your site, not
-                  as embedded review widgets
-                </li>
-                <li>
-                  <strong>Complete your Yelp profile</strong> with full service list, hours, photos,
-                  and business description
-                </li>
-                <li>
-                  <strong>Ensure identical NAP data</strong> across Google, Yelp, Facebook, and any
-                  other directories where your shop appears
-                </li>
-                <li>
-                  <strong>Add LocalBusiness and BarberShop schema markup</strong> to every page of
-                  your site
-                </li>
-                <li>
-                  <strong>Mirror your booking service menu</strong> as plain HTML text on your own
-                  website, not just on the booking platform
-                </li>
-                <li>
-                  <strong>Encourage customers to mention specific services</strong> when leaving
-                  reviews (fades, kids cuts, beard work)
-                </li>
-                <li>
-                  <strong>Add an FAQ section</strong> to your website that answers the specific
-                  questions customers ask AI about barbers
-                </li>
-              </ul>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
-
-          {/* FAQ SECTION */}
-          <section id="faq" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ FAQ // The Answer Engine Intel</span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-8">FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span></h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-              <h3>Why does ChatGPT recommend Great Clips instead of my barbershop?</h3>
-              <p>
-                Great Clips has structured websites with consistent service descriptions, uniform NAP
-                data managed across thousands of directory listings, and high volumes of crawlable
-                reviews. When ChatGPT cannot find consistent, verifiable information about your shop, it
-                defaults to businesses it can verify. Independent barbershops that build the same digital
-                signals can compete for those recommendations. The gap is structural, not permanent.
-              </p>
-
-              <h3>Does having a booking system help AI find my barbershop?</h3>
-              <p>
-                Yes, but with an important caveat. A booking system that generates crawlable, structured
-                content about your services signals operational legitimacy to AI. However, booking
-                widgets that load via JavaScript are invisible to most AI crawlers. What matters is
-                whether your service information exists as readable HTML on your own website, not just
-                inside the booking platform. Mirroring your service menu as plain text on your site
-                captures that AI value.
-              </p>
-
-              <h3>Should a barbershop be on Yelp to show up on AI search?</h3>
-              <p>
-                Yelp is one of the more AI-readable review platforms because it presents structured
-                business information and reviews in crawlable format. Having an active, complete Yelp
-                profile with reviews that mention specific services, fades, tapers, beard trims, and
-                kids cuts, does contribute to AI visibility. It should be part of a broader directory
-                presence that includes Google Business Profile, Facebook, and barber-specific
-                directories.
-              </p>
-
-              <h3>
-                How do I get my barbershop to show up when someone asks AI for a &quot;fade near
-                me&quot;?
-              </h3>
-              <p>
-                AI surfaces barbershops for specific service queries when it can verify the shop
-                performs that service and is good at it. Your shop needs explicit service descriptions
-                that name the fade types you offer, plus reviews and testimonials that mention those
-                specific services. A barbershop whose online presence never explicitly mentions fades
-                will not appear in fade-specific AI queries, regardless of how skilled the barbers are.
-                The expertise has to be documented in AI-readable content to matter.
-              </p>
-
-              <h3>Does Instagram help barbershops get found on AI search?</h3>
-              <p>
-                Instagram is a walled garden that most AI crawlers cannot access. While a strong
-                Instagram presence builds brand awareness and may drive some direct discovery, it does
-                not meaningfully contribute to AI search visibility. AI platforms cannot read Instagram
-                posts, captions, or reviews. The channels that matter for AI are your website, Yelp,
-                Google Business Profile, Facebook, and crawlable directories where your business
-                information appears as plain HTML.
-              </p>
-
-              <h3>Why does AI recommend a barbershop that&apos;s further away from the customer?</h3>
-              <p>
-                AI platforms do not prioritize proximity the way Google Maps does. They prioritize the
-                best-verified, most credible match for the query. A barbershop five miles away with
-                detailed service descriptions, dozens of specific reviews mentioning kids cuts and hot
-                towel shaves, and consistent directory data will outrank a shop two blocks away with a
-                sparse online presence. Trust signals and content specificity outweigh distance in AI
-                recommendations.
-              </p>
-
-              <h3>
-                How many Google reviews does a barbershop need to start appearing in AI
-                recommendations?
-              </h3>
-              <p>
-                There is no magic number, and Google reviews alone are largely invisible to non-Google
-                AI platforms like ChatGPT and Perplexity because they are JavaScript-rendered. What
-                matters more than count is quality and specificity of reviews across multiple platforms.
-                A barbershop with 40 Yelp reviews that mention specific services, and testimonials
-                published as plain HTML on its own website, will often outperform a shop with 200 Google
-                reviews and nothing else in terms of cross-platform AI visibility.
-              </p>
-
-              <h3>
-                What is the biggest mistake barbershops make with their online presence that hurts AI
-                visibility?
-              </h3>
-              <p>
-                The single most common mistake is relying entirely on Instagram and Google Maps. Both
-                are either invisible to AI crawlers or have limited cross-platform reach. Barbershops
-                with no website, no crawlable service descriptions, and no reviews outside of Google are
-                essentially invisible to ChatGPT, Perplexity, and Claude. AI cannot recommend what it
-                cannot verify, and it cannot verify a shop that only exists inside walled gardens.
-              </p>
-            </div>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-          </section>
-
-          {/* FINAL CTA */}
-          <section className="ae-final-cta not-prose">
-            <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Competitors Are Claiming AI Search Territory Right Now
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Get Your Free Blind Spot Report →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
-              </div>
-            </div>
-          </section>
+          <p>
+            The barbershops that lock AI search citation in the next two quarters will hold that position for years.
+            Retrievers favor incumbents once citation patterns settle, and displacing a cited shop requires months of
+            structured content work from a challenger. The window to claim a neighborhood is now. To check whether your
+            neighborhood is still open,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a 30-minute Calendly
+            consult</a> — Justin replies inside 24 hours, and the call ends with a clear yes or no on territory
+            availability.
+          </p>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
-              </div>
+          <div className="not-prose ae-author-card">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by
+                ChatGPT, Perplexity, Claude, and Google AI Overviews. 1.14M+ monthly impressions, 4/4 LLMs cited,
+                90-day citation guarantee.
+              </p>
             </div>
-        </article>
-      </main>
-    </>
-  )
+          </div>
+
+          {/* CONCEPT LATTICE LINKS */}
+          <div className="not-prose mt-12 mb-12 border-t border-white/10 pt-8">
+            <div className="font-mono uppercase tracking-wider text-xs text-white/40 mb-4">Concept Lattice</div>
+            <div className="flex flex-wrap gap-3">
+              <a href="/concepts/citation-gate" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Citation Gate</a>
+              <a href="/concepts/retrieval-quartet" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Retrieval Quartet</a>
+              <a href="/concepts/style-specific-citation-bias" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Style-Specific Citation Bias</a>
+              <a href="/concepts/booking-verifiability-premium" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Booking Verifiability Premium</a>
+              <a href="/concepts/hyperlocal-style-stack" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Hyperlocal Style Stack</a>
+              <a href="/concepts/style-definition-premium" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Style Definition Premium</a>
+              <a href="/concepts/parity-premium" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Parity Premium</a>
+              <a href="/concepts/proof-ledger" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Proof Ledger</a>
+              <a href="/concepts/nap-drift-penalty" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The NAP Drift Penalty</a>
+            </div>
+          </div>
+        </div>
+
+        {/* FINAL CTA */}
+        <section className="ae-final-cta">
+          <h2>Claim Your Neighborhood Before A Competitor Does</h2>
+          <p>
+            One barbershop per neighborhood. The Answer Engine ships AEO that gets your shop cited by ChatGPT, Gemini,
+            Claude, and Perplexity — with a 90-day citation guarantee.
+          </p>
+          <a
+            href="https://calendly.com/theanswerengine-support/30min"
+            className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+          >
+            Book A 30-Minute Consult
+          </a>
+          <p className="mt-6 text-sm text-white/40 font-mono uppercase tracking-wider">
+            Text (213) 444-2229 · support@theanswerengine.ai
+          </p>
+        </section>
+      </article>
+    </div>
+  );
 }
