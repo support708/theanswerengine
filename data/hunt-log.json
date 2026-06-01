@@ -542,5 +542,20 @@
       "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbRJUHmNnsB4eaG3UYtbL\"}"
     ],
     "completedAt": "2026-05-26T14:00:56.628Z"
+  },
+  {
+    "id": "hunt_1780322412807_tooj",
+    "startedAt": "2026-06-01T14:00:12.807Z",
+    "trigger": "cron_daily",
+    "vertical": "Roofing Contractor",
+    "metro": "Dallas",
+    "prospectsFound": 10,
+    "p1Queued": 1,
+    "p2Queued": 4,
+    "p3Backlogged": 5,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 5,
+    "errors": [],
+    "completedAt": "2026-06-01T14:01:06.899Z"
   }
 ]

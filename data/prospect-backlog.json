@@ -1799,5 +1799,181 @@
       "total": 24
     },
     "priority": "P3"
+  },
+  {
+    "businessName": "Holden Roofing",
+    "contactName": "Brett Holden",
+    "website": "https://www.holdenroofing.com/",
+    "phone": "(972) 510-8242",
+    "city": "Dallas",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "Holden Roofing appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Lon Smith Roofing",
+          "New View Roofing"
+        ]
+      }
+    ],
+    "differentiator": "65 years in business since 1961, Owens Corning Platinum Preferred Contractor, family-owned, serves 7 locations in Texas",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 3,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 18
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "T Rock Roofing & Contracting",
+    "contactEmail": "info@dallasroofer.com",
+    "website": "https://www.dallasroofer.com/",
+    "phone": "(469) 931-9867",
+    "city": "Dallas",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "T Rock Roofing & Contracting has multiple Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Lon Smith Roofing",
+          "New View Roofing",
+          "Holden Roofing"
+        ]
+      }
+    ],
+    "differentiator": "65+ years in business since 1952, specializes in premium roofing systems (clay tile, slate, synthetic slate, copper, metal), supports veterans through Operation: Mutt 22",
+    "outreachReady": false,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 4,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Premier Roofing",
+    "contactName": "Luke Marklin",
+    "website": "https://premier-roofing.com/",
+    "phone": "(469) 431-2416",
+    "city": "Dallas",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "Premier Roofing has multiple Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Lon Smith Roofing",
+          "New View Roofing",
+          "Holden Roofing"
+        ]
+      }
+    ],
+    "differentiator": "20+ years in experience, A+ BBB rated, Master Elite contractor by GAF, 24,000+ restoration projects completed",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 23.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Dalco Contractors and Roofing",
+    "contactName": "Brook Stokes",
+    "website": "https://www.roofingdalco.com/",
+    "phone": "(214) 632-7177",
+    "city": "Dallas",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "reviewCount": 43,
+    "rating": 5,
+    "painSignals": [
+      "Dalco Contractors and Roofing has 43 Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Lon Smith Roofing",
+          "New View Roofing",
+          "Holden Roofing"
+        ]
+      }
+    ],
+    "differentiator": "20+ years in business, A+ BBB rated, 5.0 Google rating, single-day installations, known for exceptional customer service",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 9,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 32.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Baker Roofing & Construction",
+    "contactName": "Christopher Baker",
+    "website": "https://www.baker-roofing.com/",
+    "phone": "(214) 566-1893",
+    "city": "Dallas",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "Baker Roofing & Construction has multiple Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Lon Smith Roofing",
+          "New View Roofing",
+          "Holden Roofing"
+        ]
+      }
+    ],
+    "differentiator": "21+ years in business since 2003, A+ BBB rated, Owens Corning Preferred Contractor, CertainTeed Master Shingle Applicator, multi-state operations",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 23.5
+    },
+    "priority": "P3"
   }
 ]
