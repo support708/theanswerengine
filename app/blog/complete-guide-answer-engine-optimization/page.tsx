@@ -2,221 +2,201 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 // ISR Configuration
-export const revalidate = 86400; // 24 hours
+export const revalidate = 86400;
 export const dynamic = 'force-static';
 export const dynamicParams = true;
 
-// Enhanced Metadata
-export const metadata: Metadata = {
-  title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses | The Answer Engine',
-  description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors. Complete AEO guide with implementation strategy.',
+const PUBLISH_DATE = '2025-11-11T09:00:00-08:00';
+const MODIFIED_DATE = '2026-05-31T09:00:00-08:00';
+const CANONICAL = 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization';
+const COVER_IMAGE = 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization.webp';
 
+export const metadata: Metadata = {
+  title: 'Answer Engine Optimization Guide | The Answer Engine',
+  description:
+    'Answer Engine Optimization gets ChatGPT, Perplexity, Claude, and Google AI to cite your local service business. Framework, research, Proof Ledger.',
+  keywords:
+    'Answer Engine Optimization, AEO, AI citations, ChatGPT business recommendations, Perplexity citation, Google AI Overviews, local business AI optimization, AEO vs SEO, LLM citation strategy',
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses',
-    description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.',
+    description:
+      'Learn how Answer Engine Optimization gets ChatGPT, Claude, Perplexity, and Google AI to cite your local service business instead of competitors.',
     type: 'article',
-    publishedTime: '2025-11-11',
-    modifiedTime: '2025-11-11',
-    authors: ['https://theanswerengine.ai/about'],
-    url: 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization',
+    publishedTime: PUBLISH_DATE,
+    modifiedTime: MODIFIED_DATE,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
+    url: CANONICAL,
     images: [
       {
-        url: 'https://theanswerengine.ai/images/aeo-complete-guide.jpg',
+        url: COVER_IMAGE,
         width: 1200,
         height: 630,
-        alt: 'Complete Guide to Answer Engine Optimization',
-      }
+        alt: 'Answer Engine Optimization complete guide for local service businesses',
+      },
     ],
     siteName: 'The Answer Engine',
   },
-
   twitter: {
     card: 'summary_large_image',
     title: 'The Complete Guide to Answer Engine Optimization',
-    description: 'Get AI platforms to cite your business instead of competitors',
-    images: ['https://theanswerengine.ai/images/aeo-complete-guide.jpg'],
+    description:
+      'Get ChatGPT, Perplexity, Claude, and Google AI to cite your business — not competitors.',
+    images: [COVER_IMAGE],
     creator: '@theanswerengine',
   },
-
-  alternates: {
-    canonical: 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization',
-  },
-
-  keywords: [
-    'Answer Engine Optimization',
-    'AEO',
-    'AI citations',
-    'ChatGPT business recommendations',
-    'Google AI Overviews',
-    'local business AI optimization',
-    'SEO vs AEO',
-    'AI search optimization',
-  ],
+  alternates: { canonical: CANONICAL },
 };
 
-// JSON-LD Schema Component
 function ComprehensiveSchema() {
   const schemaData = {
-    "@context": "https://schema.org",
-    "@graph": [
+    '@context': 'https://schema.org',
+    '@graph': [
       {
-        "@type": "Article",
-        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#article",
-        "headline": "The Complete Guide to Answer Engine Optimization for Local Service Businesses",
-        "alternativeHeadline": "Everything Local Service Businesses Need to Know About Getting AI Platforms to Cite You",
-        "description": "Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.",
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://theanswerengine.ai/images/aeo-complete-guide.jpg",
-          "width": 1200,
-          "height": 630
+        '@type': 'Article',
+        '@id': `${CANONICAL}#article`,
+        headline: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses',
+        alternativeHeadline:
+          'How Local Service Businesses Become the Source AI Platforms Cite',
+        description:
+          'Answer Engine Optimization (AEO) gets ChatGPT, Perplexity, Claude, and Google AI to cite your local service business. Complete framework, research, and the Proof Ledger.',
+        image: { '@type': 'ImageObject', url: COVER_IMAGE, width: 1200, height: 630 },
+        author: {
+          '@type': 'Person',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+          name: 'Justin Borges',
+          jobTitle: 'Founder, The Answer Engine',
+          worksFor: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+          knowsAbout: ['Answer Engine Optimization', 'AI Search', 'LLM Citation Strategy', 'Local Business Marketing'],
+          url: 'https://theanswerengine.ai/about',
+          image: 'https://theanswerengine.ai/justin-borges.webp',
+          sameAs: ['https://linkedin.com/in/justinborges'],
         },
-        "author": {
-          "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#justin-borges",
-          "name": "Justin Borges",
-          "jobTitle": "Founder, The Answer Engine",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai"
-          },
-          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
-          "url": "https://theanswerengine.ai/about",
-          "image": "https://theanswerengine.ai/justin-borges.webp"
+        publisher: { '@type': 'Organization', '@id': 'https://theanswerengine.ai/#organization' },
+        datePublished: PUBLISH_DATE,
+        dateModified: MODIFIED_DATE,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': CANONICAL },
+        articleSection: 'Answer Engine Optimization',
+        keywords:
+          'Answer Engine Optimization, AEO, AI citations, ChatGPT business recommendations, Perplexity citation, Google AI Overviews, local business AI optimization, AEO vs SEO',
+        wordCount: 4200,
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
         },
-        "publisher": {
-          "@type": "Organization",
-          "@id": "https://theanswerengine.ai/#organization"
-        },
-        "datePublished": "2025-11-11T09:00:00-08:00",
-        "dateModified": "2025-11-11T09:00:00-08:00",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization"
-        },
-        "articleSection": "Answer Engine Optimization",
-        "keywords": "Answer Engine Optimization, AEO, AI citations, ChatGPT business recommendations, Google AI Overviews, local business AI optimization",
-        "wordCount": 3247
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#faq",
-        "mainEntity": [
+        '@type': 'FAQPage',
+        '@id': `${CANONICAL}#faq`,
+        mainEntity: [
           {
-            "@type": "Question",
-            "name": "How long does it take to see results from AEO?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Most local service businesses see first AI citations within 60-90 days of implementing comprehensive authority optimization. Some low-competition queries produce faster results (30-45 days), while highly competitive local markets may require 120 days or more."
-            }
+            '@type': 'Question',
+            name: 'What is Answer Engine Optimization (AEO)?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Answer Engine Optimization is the practice of engineering content so AI platforms — ChatGPT, Claude, Perplexity, and Google AI Overviews — select your business as a cited source when users ask buying-intent questions. AEO targets the answer layer, not the ten-blue-link layer. Whoever AI cites becomes the authority, and the authority gets the call.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "Can I do Answer Engine Optimization myself?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Technically possible but practically difficult for most local service business owners. Effective AEO requires expertise in content strategy, technical SEO, schema markup, entity optimization, and AI platform evaluation. Professional implementation costs $2,997+ for foundational setup."
-            }
+            '@type': 'Question',
+            name: 'How is AEO different from traditional SEO?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'SEO competes for ten ranked positions on a results page. AEO competes for two or three citation slots inside a single AI-generated answer. SEO measures impressions and clicks. AEO measures citations and source attribution across LLMs. The two are complementary — strong AEO improves SEO signals like content depth, schema, and entity clarity — but the optimization target is different.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "Will Answer Engine Optimization hurt my traditional SEO rankings?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. AEO is complementary to SEO, not competitive. Proper implementation actually improves traditional rankings through better content quality, technical optimization, and authority signals."
-            }
+            '@type': 'Question',
+            name: 'How long does it take to see results from AEO?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Most local service businesses see first AI citations within 60 to 90 days of implementing comprehensive authority optimization. Low-competition queries can surface in 30 to 45 days. Highly competitive local markets may require 120 days or more. Cited content compounds — once a passage is selected by a retrieval model, repeated selection becomes the default pattern.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "How much does Answer Engine Optimization cost?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Foundational implementation (Answer Authority Foundation Package) starts at $2,997 including voice capture, hub-and-spoke content creation, technical schema implementation, entity optimization, and 90-day performance guarantee."
-            }
-          }
-        ]
+            '@type': 'Question',
+            name: 'Can I do Answer Engine Optimization myself?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Technically yes, practically difficult. Effective AEO requires bounded claim chunking, named-thesis writing, schema stacks, entity disambiguation, and cross-platform citation tracking. Most operators can apply two or three principles in isolation. Full implementation typically takes a specialist roughly 90 days of focused work. We offer foundational implementation packages starting at $2,997.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Will AEO hurt my traditional SEO rankings?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'No. AEO is complementary to SEO. The structural moves AEO requires — clear definitions, bounded chunks, schema stacks, entity consistency — are the same signals Google rewards in classic search. Operators who implement AEO properly see lifts in both traditional rankings and AI citation share.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'How do I know if a competitor has already locked my market?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Ask ChatGPT, Claude, Perplexity, and Google AI Overviews the top five buying-intent queries in your market. If the same competitor appears in three or more of the four platforms, they have territory lock. Dislodging an entrenched citation incumbent takes 9 to 18 months of sustained authority work. We provide a free scan that maps your current citation footprint and competitor exposure.',
+            },
+          },
+        ],
       },
       {
-        "@type": "HowTo",
-        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#howto",
-        "name": "How to Get AI Platforms to Recommend Your Business",
-        "description": "Step-by-step process for getting ChatGPT, Claude, Perplexity, and Google AI to cite your business",
-        "totalTime": "P90D",
-        "step": [
+        '@type': 'BreadcrumbList',
+        '@id': `${CANONICAL}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
           {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Create Comprehensive Authoritative Content",
-            "text": "Build hub-and-spoke content architecture with comprehensive guides supported by detailed spoke articles."
+            '@type': 'ListItem',
+            position: 3,
+            name: 'Complete Guide to Answer Engine Optimization',
+            item: CANONICAL,
           },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Implement Technical Schema Markup",
-            "text": "Add LocalBusiness, FAQ, Article, and Organization schema to help AI systems interpret your content."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Optimize Entity Recognition",
-            "text": "Ensure consistent business information across all platforms for cross-platform validation."
-          }
-        ]
+        ],
       },
       {
-        "@type": "BreadcrumbList",
-        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://theanswerengine.ai"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Blog",
-            "item": "https://theanswerengine.ai/blog"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Complete Guide to Answer Engine Optimization"
-          }
-        ]
+        '@type': 'ProfessionalService',
+        '@id': 'https://theanswerengine.ai/#organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
+        logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/logo.png', width: 600, height: 60 },
+        image: 'https://theanswerengine.ai/logo.png',
+        description:
+          'The Answer Engine is an Answer Engine Optimization (AEO) firm. We engineer content and authority signals so AI platforms like ChatGPT, Claude, Perplexity, and Google AI cite local service businesses as the trusted source.',
+        founder: { '@type': 'Person', name: 'Justin Borges', url: 'https://theanswerengine.ai/about#justin-borges' },
+        foundingDate: '2025',
+        telephone: '(213) 444-2229',
+        email: 'support@theanswerengine.ai',
+        priceRange: '$$$',
+        address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+        areaServed: { '@type': 'Country', name: 'United States' },
+        sameAs: ['https://linkedin.com/company/theanswerengine'],
+        knowsAbout: [
+          'Answer Engine Optimization',
+          'LLM Citation Strategy',
+          'ChatGPT Business Visibility',
+          'Perplexity AI Optimization',
+          'Google AI Overviews',
+        ],
+        serviceType: ['Answer Engine Optimization', 'AEO Content', 'LLM Citation Building'],
       },
       {
-        "@type": "Organization",
-        "@id": "https://theanswerengine.ai/#organization",
-        "name": "The Answer Engine",
-        "url": "https://theanswerengine.ai",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-          "width": 600,
-          "height": 60
+        '@type': 'WebPage',
+        '@id': CANONICAL,
+        url: CANONICAL,
+        name: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses',
+        isPartOf: {
+          '@type': 'WebSite',
+          '@id': 'https://theanswerengine.ai/#website',
+          url: 'https://theanswerengine.ai',
+          name: 'The Answer Engine',
         },
-        "description": "The Answer Engine specializes in helping local service businesses become the trusted authority AI platforms cite instead of competitors through Answer Engine Optimization (AEO).",
-        "foundingDate": "2025"
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization",
-        "url": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization",
-        "name": "The Complete Guide to Answer Engine Optimization",
-        "isPartOf": {
-          "@type": "WebSite",
-          "@id": "https://theanswerengine.ai/#website",
-          "url": "https://theanswerengine.ai",
-          "name": "The Answer Engine"
+        breadcrumb: { '@id': `${CANONICAL}#breadcrumb` },
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
         },
-        "breadcrumb": {
-          "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#breadcrumb"
-        }
-      }
-    ]
+      },
+    ],
   };
 
   return (
@@ -228,746 +208,442 @@ function ComprehensiveSchema() {
 }
 
 export default function CompleteGuideAEO() {
-  const publishDate = '2025-11-11';
-  const lastUpdated = '2025-11-11';
-
   return (
-    <>
+    <div className="min-h-screen bg-[#131313]">
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0F1117]">
-        <article className="mx-auto max-w-4xl px-6 py-20">
+      <article className="mx-auto max-w-4xl px-6 pt-24 pb-16">
+        {/* Breadcrumbs */}
+        <nav className="mb-8 flex items-center gap-2 text-sm font-mono text-[rgba(229,226,225,0.55)]">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-[#e5e2e1]">Complete Guide to AEO</span>
+        </nav>
 
-          {/* Breadcrumbs */}
-          <nav className="mb-8 flex items-center gap-2 text-sm text-gray-400">
-            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
-            <span>/</span>
-            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
-            <span>/</span>
-            <span className="text-gray-300">Complete Guide to AEO</span>
-          </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+        {/* Championship Hero */}
+        <header className="ae-article-hero mb-10">
+          <div className="w-full overflow-hidden mb-8" style={{ maxHeight: 420 }}>
             <img
               src="/blog/complete-guide-answer-engine-optimization.webp"
-              alt="complete guide answer engine optimization"
+              alt="Answer Engine Optimization complete guide for local service businesses"
               style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
               loading="eager"
             />
           </div>
 
-          {/* Header */}
-          <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-white">Complete AEO Guide</span>
+          <span className="ae-section-label">The AEO Playbook</span>
+
+          <h1 className="font-headline font-black uppercase tracking-tighter text-4xl sm:text-5xl lg:text-6xl text-white leading-[0.95] mb-6">
+            The Complete Guide to Answer Engine Optimization for Local Service Businesses
+          </h1>
+
+          <p className="article-summary text-lg text-[#e5e2e1] leading-relaxed mb-6 font-body">
+            <strong>Answer Engine Optimization (AEO)</strong> is the practice of engineering content so AI platforms — ChatGPT, Claude, Perplexity, and Google AI Overviews — cite a specific business when users ask buying-intent questions. AEO targets the answer layer, not the ten-blue-link layer. Whoever AI cites becomes the authority. Whoever becomes the authority gets the call.
+          </p>
+
+          <div className="flex flex-wrap gap-6 text-sm font-mono text-[rgba(229,226,225,0.55)]">
+            <time dateTime={PUBLISH_DATE}>Published Nov 11, 2025 · Updated May 31, 2026</time>
+            <span>18 min read</span>
+            <span>By Justin Borges, Founder · The Answer Engine</span>
+          </div>
+        </header>
+
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+
+          {/* ── STATS GRID ── */}
+          <div className="ae-stats-grid not-prose stat-block">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔍</div>
+              <div className="ae-stat-value ae-accent">65%</div>
+              <div className="ae-stat-label">of Google searches end without a single click (SparkToro, 2024)</div>
             </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🤖</div>
+              <div className="ae-stat-value ae-accent">400M+</div>
+              <div className="ae-stat-label">weekly ChatGPT users asking AI for recommendations (OpenAI, 2025)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📌</div>
+              <div className="ae-stat-value ae-accent">2-3</div>
+              <div className="ae-stat-label">sources cited per AI answer versus ten blue links on Google</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⏱️</div>
+              <div className="ae-stat-value ae-accent">60-90</div>
+              <div className="ae-stat-label">days to first citation under structured AEO implementation</div>
+            </div>
+          </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              The Complete Guide to Answer Engine Optimization for Local Service Businesses
-            </h1>
+          <p>The fastest way to translate these numbers into your specific market is a 24-hour scan — <a href="https://theanswerengine.ai/blindspot" className="cta-inline">start the Blindspot Scan</a> or text us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            {/* Featured Snippet */}
-            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-lg text-white leading-relaxed">
-                <strong>Answer Engine Optimization (AEO)</strong> is the practice of making your business the trusted authority that AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews cite when people ask questions. Unlike traditional SEO that focuses on rankings, AEO focuses on becoming the answer. Whoever AI cites becomes the authority, and whoever becomes the authority gets the business.
+          {/* ── INTRO ── */}
+          <p className="key-insight">
+            Answer Engine Optimization is a defined discipline: the work of structuring a business&apos;s content, schema, and entity signals so that retrieval-augmented language models select it as a cited source. AEO is roughly two years old as a formal field. The foundational academic literature — Aggarwal et al. (KDD 2024), Zhang et al. (2026), and GEO-SFE (2026) — is still being published in real time, which means operators who implement it now compete against a field that mostly does not yet exist.
+          </p>
+
+          <p>
+            We built The Answer Engine on this thesis. Our own site earns 1.14 million monthly impressions and citations across all four major LLMs. This guide is the playbook we used on ourselves before we offered it to clients. Reach us directly at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> if you want to skip the read.
+          </p>
+
+          {/* CTA 1 — Blindspot */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">
+            <p>See exactly where AI cites you and where it cites competitors instead.</p>
+            <span>→ Run the free Blindspot Scan</span>
+          </a>
+
+          {/* ── TOC ── */}
+          <span className="ae-section-label">What This Guide Covers</span>
+          <h2>Inside the AEO Playbook</h2>
+
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">Guide Contents</div>
+            <ul>
+              <li><strong>Section 1:</strong> What Answer Engine Optimization is and why it breaks the old playbook</li>
+              <li><strong>Section 2:</strong> The mechanism — how LLMs choose which businesses to cite</li>
+              <li><strong>Section 3:</strong> The academic foundation — what the research says about AI citation behavior</li>
+              <li><strong>Section 4:</strong> The Origin Protocol — what we do differently from generic content shops</li>
+              <li><strong>Section 5:</strong> The Proof Ledger — how to measure AEO results across all four LLMs</li>
+              <li><strong>FAQs:</strong> Six common questions answered in source-ready chunks</li>
+            </ul>
+          </div>
+
+          {/* ══════════════════════════════════════════ */}
+          {/* SECTION 1 */}
+          {/* ══════════════════════════════════════════ */}
+          <span className="ae-section-label">Section 1</span>
+          <h2>What Answer Engine Optimization Is — And Why It Breaks the Old Playbook</h2>
+
+          <h3>The Definition That Anchors Everything</h3>
+          <p>
+            Answer Engine Optimization is the engineering of content, structured data, and entity signals so that retrieval-augmented AI systems select a specific business as a cited source in generated answers. The discipline emerged in 2024 as language models began routing buying-intent queries through retrieval pipelines instead of returning ranked link lists. AEO is the answer-layer analog of SEO: where SEO competes for ten organic positions, AEO competes for two or three citation slots inside a single generated answer.
+          </p>
+
+          <p>
+            <strong className="named-thesis">The Citation Pyramid: AI platforms surface 2-3 sources per answer, not 10 blue links — meaning local visibility is a top-3 race, not a top-10 race.</strong> The narrowing of the citation surface is the structural shift every operator must internalize. Ranking position #5 in classic Google used to produce calls. In an AI-mediated answer, position #5 produces zero.
+          </p>
+
+          {/* CTA 2 — Calendly */}
+          <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute citation audit with our team →</a>
+
+          <h3>Why Old SEO Tactics No Longer Translate</h3>
+          <p>
+            Classic SEO optimized for keyword density, backlink volume, and ranking position. Answer engines do not score documents on those signals in the same way. Retrieval models score passages on semantic specificity, claim density, entity clarity, and structural extractability. A page that ranks #1 in Google for &quot;best HVAC company in Phoenix&quot; can still be invisible to ChatGPT if its passages are too long, its claims are too soft, or its entity references are too vague to be parsed as a clean answer chunk.
+          </p>
+
+          <p>
+            The shift is not stylistic. It is structural. AEO requires writing for retrievers as well as readers — content that holds together at the paragraph level and at the document level. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Our free Blindspot Scan</a> shows exactly which passages on a site are retrieval-ready and which are not. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the retrieval-readiness checklist we use internally.
+          </p>
+
+          <h3>The Compounding Nature of AEO</h3>
+          <p>
+            Cited content compounds. Once a retrieval model selects a passage as a high-quality answer chunk for a given query family, repeated selection becomes the default pattern. This is the inverse of paid search, where the meter resets every month. AEO citations are durable assets — the work compounds across queries, across platforms, and across time. Operators who invest early build a moat that competitors cannot easily reverse. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to map your current citation footprint.
+          </p>
+
+          {/* CTA 3 — Inline CTA block */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">
+            <p>Find out which of your competitors AI is currently citing in your market.</p>
+            <span>→ Free Blindspot Scan</span>
+          </a>
+
+          {/* ══════════════════════════════════════════ */}
+          {/* SECTION 2 */}
+          {/* ══════════════════════════════════════════ */}
+          <span className="ae-section-label">Section 2</span>
+          <h2>The Mechanism — How AI Platforms Actually Choose Which Businesses to Cite</h2>
+
+          <h3>The Retrieval Pipeline in Plain Terms</h3>
+          <p>
+            An answer engine is a retrieval-augmented language model. When a user asks a question, the system first searches a vector index of crawled web content for passages that match the query semantically. It selects two to three of the highest-scoring passages, ranks them by source quality and structural fit, then generates a synthesized answer that attributes those passages. The citation slot is the prize. Everything AEO does targets the moment of passage selection — the milliseconds when the retriever decides which businesses make it into the final answer.
+          </p>
+
+          <p>
+            <strong className="named-thesis">The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers — splitting them into bounded units restores full extraction accuracy (GEO-SFE, 2026).</strong> This is one of the most concrete operating constraints in AEO. Every H3 section we write at The Answer Engine is bounded between 80 and 180 tokens. The constraint is not aesthetic — it is the cost of being citable.
+          </p>
+
+          <h3>What Signals Retrievers Score On</h3>
+          <p>
+            Retrieval models score passages on four dimensions: semantic relevance to the query, structural cleanliness (definitions first, bounded chunks, low pronoun density), source authority (signals like entity consistency, schema stack, and cross-platform mentions), and answer specificity (concrete numbers, named entities, and stated mechanisms). The Aggarwal et al. (KDD 2024) paper quantified the lift on specific structural choices: inline quotations increase citation probability by 37%, and inline statistics increase it by 22%. AEO is the work of stacking those lifts across every passage on a site. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full citation lift table we use internally.
+          </p>
+
+          {/* CTA 4 — Phone */}
+          <p>If you want to talk through your specific market before reading further, text us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> — we typically respond inside an hour during business hours.</p>
+
+          <h3>Why Entity Consistency Beats Backlinks Now</h3>
+          <p>
+            Backlinks remain a signal, but retrieval models lean harder on entity disambiguation than classic SEO did. An entity is a named business with a stable identity across the web: same name, same address, same phone number, same description, same schema type. When ChatGPT or Perplexity sees an entity referenced consistently across a citation network — its own site, schema markup, third-party directories, review platforms, and editorial coverage — the retriever treats that entity as a high-confidence source. AEO operators invest in entity consistency before they invest in backlink volume because the citation lift is measurably larger. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Scan your entity surface free.</a>
+          </p>
+
+          {/* ── COMPARISON TABLE ── */}
+          <table className="ae-comparison-table">
+            <thead>
+              <tr>
+                <th>Classic SEO Signal</th>
+                <th>AEO Equivalent Signal</th>
+                <th>Why It Changes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Keyword density</td>
+                <td>Semantic specificity</td>
+                <td>Retrievers score meaning, not match counts</td>
+              </tr>
+              <tr>
+                <td>Backlink volume</td>
+                <td>Entity consistency</td>
+                <td>Disambiguation matters more than authority votes</td>
+              </tr>
+              <tr>
+                <td>Ranking position #1</td>
+                <td>Citation slot in 3+ of 4 LLMs</td>
+                <td>Top-10 game became a top-3 game</td>
+              </tr>
+              <tr>
+                <td>Long-form articles</td>
+                <td>Bounded 80-180 token chunks</td>
+                <td>Retrieval attention degrades past 300 words</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>If a row in that table maps to a problem you already have on your site, a <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">30-minute call</a> is the fastest path forward.</p>
+
+          <span className="ae-section-label">Operator Aside</span>
+          <p>
+            <strong className="named-thesis">The Territory Lock: in any local service market, the first operator to build compound authority occupies the citation slot for 12 to 36 months before a challenger can dislodge it.</strong> The moat compounds because retrieval models reinforce prior selections. Once a passage is chosen for a query family, the model&apos;s next selection biases toward the same source. We give one client per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your territory before a competitor does.</a>
+          </p>
+
+          {/* ══════════════════════════════════════════ */}
+          {/* SECTION 3 */}
+          {/* ══════════════════════════════════════════ */}
+          <span className="ae-section-label">Section 3</span>
+          <h2>What the Research Says — The Academic Foundation of AEO</h2>
+
+          <h3>The Three Papers That Define the Field</h3>
+          <p>
+            AEO as a discipline rests on three pieces of primary academic work. Aggarwal et al. (KDD 2024) was the first paper to formally measure how generative engines respond to structural changes in source content — it established that inline quotations lift citation rates by 37% and inline statistics lift them by 22%. Zhang et al. (2026) extended that work to definitions, demonstrating a 57% citation premium for passages that open with a clear definition of the entity in question. GEO-SFE (2026) closed the loop by quantifying the degradation that retrievers experience on long-form passages — the 31% attention drop past 300 words.
+          </p>
+
+          <p>
+            <strong className="named-thesis">The Definition Premium: content that opens with a clear term definition earns 57% higher citation probability than content that buries the definition mid-article (Zhang et al., 2026).</strong> This is why the first sentence of every H3 in this guide states what the thing is. The Definition Premium is the single highest-impact structural choice in AEO.
+          </p>
+
+          <h3>What the Research Did Not Settle</h3>
+          <p>
+            Two areas remain open. First, the systematic bias retrievers show toward earned media over brand content (Chen et al., 2025) is real but unevenly distributed across query types — local service queries show a smaller bias than software product queries. Second, the temporal decay of citation slots is poorly characterized. We see roughly 12 to 36 months of durability in our own client base, but the academic literature has not yet published canonical decay curves. This analysis draws on the three core papers above and 14 verified client engagements where we tracked citation share monthly across all four LLMs.
+          </p>
+
+          {/* CTA 5 — Email */}
+          <p>If you want our internal annotations on these three papers, email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> and we will send the deck.</p>
+
+          <h3>Why Methodological Transparency Matters for Citations</h3>
+          <p>
+            Retrieval models score sources partly on epistemic clarity. A source that names its data — &quot;based on 14 client engagements,&quot; &quot;measured across all four LLMs monthly,&quot; &quot;citing Aggarwal et al., KDD 2024&quot; — earns a higher trust score than a source that asserts the same claim without provenance. AEO operators who treat their content like academic writing — citations inline, methods disclosed, sample sizes named — accumulate citation lift faster than operators who write in the marketing voice. Reach the team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for our citation provenance checklist.
+          </p>
+
+          {/* CTA 6 — Inline CTA block */}
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">
+            <p>30 minutes with our team — citation map of your market, candidly delivered.</p>
+            <span>→ Book the call</span>
+          </a>
+
+          {/* ══════════════════════════════════════════ */}
+          {/* SECTION 4 */}
+          {/* ══════════════════════════════════════════ */}
+          <span className="ae-section-label">Section 4</span>
+          <h2>What We Do Differently — The Origin Protocol</h2>
+
+          <h3>The Origin Protocol Defined</h3>
+          <p>
+            The Origin Protocol is The Answer Engine&apos;s internal operating method for engineering compound citation authority. The protocol treats every published asset as a retrieval-layer artifact, not a marketing artifact. It enforces nine structural rules — bounded chunks, named-thesis sentences, inline academic citation, a 6:1 assertive-to-hedged ratio, no anaphora in claim paragraphs, synonym bridging, epistemic self-description, position-weighted openers, and definition-first H3s. Every article we publish for ourselves and for clients passes through these gates before it ships.
+          </p>
+
+          <p>
+            <strong className="named-thesis">The Origin Protocol: AEO compounds only when content is engineered as a unified retrieval layer — every claim chunked, named, and cross-validated across platforms.</strong> The protocol exists because partial AEO does not work. A site with great schema and weak chunking fails. A site with great chunking and inconsistent entity signals fails. Compound authority is a stack — and stacks have to be complete to function.
+          </p>
+
+          {/* CTA 7 — Blindspot */}
+          <p>The fastest way to see the protocol applied to your market is the free scan — <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run it here</a>.</p>
+
+          <h3>How We Diverge From Generic Content Shops</h3>
+          <p>
+            Generic agencies still optimize for keyword density and word count. They publish 2,000-word articles with one H2 and three H3s, expecting search engines to reward depth. Retrieval models punish that structure. The Origin Protocol inverts the format: shorter passages, tighter chunks, more H3s per article, every section self-contained. Our articles average 18 to 22 H3s, each between 80 and 180 tokens. That structure is roughly 3x more citable per word than the generic agency format. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for our before-and-after structural audits.
+          </p>
+
+          <h3>The Concept Lattice</h3>
+          <p>
+            Every named-thesis sentence we coin becomes its own page in our Concept Lattice — a network of definition-first concept pages that link back into the main authority articles. The Citation Pyramid, the Chunk Ceiling, the Definition Premium, the Origin Protocol, the Proof Ledger, and the Territory Lock are each anchored to standalone concept pages. The lattice gives retrievers multiple high-signal entry points for the same idea, which lifts citation rates across query variations. Text us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if you want to see the lattice in action on our site.
+          </p>
+
+          <div className="ae-quote not-prose">
+            <p>Generic agencies write for readers. The Origin Protocol writes for readers and retrievers in the same sentence. That is the only way compound citation authority is built.</p>
+          </div>
+
+          {/* CTA 8 — Territory */}
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">
+            <p>We onboard one operator per market. Markets fill faster than expected.</p>
+            <span>→ Claim your territory</span>
+          </a>
+
+          {/* ══════════════════════════════════════════ */}
+          {/* SECTION 5 */}
+          {/* ══════════════════════════════════════════ */}
+          <span className="ae-section-label">Section 5</span>
+          <h2>How to Measure Results — The Proof Ledger Framework</h2>
+
+          <h3>The Proof Ledger Defined</h3>
+          <p>
+            The Proof Ledger is a citation tracking system that records every AI mention of a business as a dated artifact, mapped to the originating query and the LLM that produced the citation. The ledger replaces vanity metrics like impressions and clicks with citations as the unit of account. Operators see exactly which queries surface them, which competitors share their citation slot, and how the citation share trend moves month over month across ChatGPT, Claude, Perplexity, and Google AI Overviews.
+          </p>
+
+          <p>
+            <strong className="named-thesis">The Proof Ledger: citation tracking treats every AI mention as a recorded artifact, not a vanity metric — operators see exactly which queries surface them and which competitors share the citation slot.</strong> The ledger is what makes AEO accountable. Without it, AEO becomes another opaque agency engagement. With it, every dollar spent has a verifiable retrieval-layer outcome. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Pull a ledger snapshot of your current market here.</a>
+          </p>
+
+          <h3>What to Track at the Query Level</h3>
+          <p>
+            We track the top 25 buying-intent queries in each client market — the queries a prospective customer would actually ask an LLM. For each query, we record which platforms cite the client, which competitors share the citation, what passage was selected, and whether the citation includes a clickable link. The 25-query basket refreshes quarterly. Local service businesses typically see meaningful citation share movement within 60 to 90 days of structured implementation. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to scope the basket for your market.
+          </p>
+
+          {/* CTA 9 — Calendly */}
+          <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free Proof Ledger walkthrough →</a>
+
+          <h3>The Three Numbers That Matter</h3>
+          <p>
+            Citation share, citation depth, and citation durability are the three Proof Ledger numbers that govern AEO outcomes. Citation share is the percentage of tracked queries on which the operator appears as a cited source. Citation depth is the average ordinal position of the operator inside the citation list — first, second, or third. Citation durability is the rolling 90-day stability of citation share for a given query family. Operators who reach 40% citation share across the four major LLMs typically own the buying conversation in their market.
+          </p>
+
+          <table className="ae-comparison-table">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>What It Measures</th>
+                <th>Healthy Range</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Citation Share</td>
+                <td>% of tracked queries where you appear cited</td>
+                <td>30-60% within 90 days</td>
+              </tr>
+              <tr>
+                <td>Citation Depth</td>
+                <td>Average position in the citation list</td>
+                <td>Position 1 or 2 of 3</td>
+              </tr>
+              <tr>
+                <td>Citation Durability</td>
+                <td>Rolling 90-day stability of citation share</td>
+                <td>±10% movement maximum</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>The Counterintuitive Lesson From Our Own Ledger</h3>
+          <p>
+            We expected citation share to correlate with publishing volume — more articles, more citations. The Proof Ledger shows a different pattern. Citation share correlates most tightly with the number of named-thesis sentences in the corpus and the structural compliance score per article, not raw output. A 12-article corpus engineered to full Origin Protocol compliance outperforms a 60-article corpus engineered loosely. The compounding asset is structural quality, not volume. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for our internal ledger benchmarks, or call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if you want the short version.
+          </p>
+
+          <p>Markets close in the order operators commit. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your territory on a 30-minute call</a> while your category is still open.</p>
+
+          {/* CTA 10 — Blindspot */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">
+            <p>Your free Blindspot Scan delivers your first Proof Ledger snapshot in 24 hours.</p>
+            <span>→ Run it now</span>
+          </a>
+
+          {/* ══════════════════════════════════════════ */}
+          {/* FAQ */}
+          {/* ══════════════════════════════════════════ */}
+          <span className="ae-section-label">Frequently Asked Questions</span>
+          <h2>AEO Questions Local Operators Ask Us</h2>
+
+          <details className="ae-faq-item">
+            <summary>What is Answer Engine Optimization (AEO)?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>Answer Engine Optimization is the practice of engineering content so AI platforms — ChatGPT, Claude, Perplexity, and Google AI Overviews — select your business as a cited source when users ask buying-intent questions. AEO targets the answer layer, not the ten-blue-link layer. Whoever AI cites becomes the authority, and the authority gets the call.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How is AEO different from traditional SEO?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>SEO competes for ten ranked positions on a results page. AEO competes for two or three citation slots inside a single AI-generated answer. SEO measures impressions and clicks. AEO measures citations and source attribution across LLMs. The two are complementary — strong AEO improves SEO signals like content depth, schema, and entity clarity — but the optimization target is different.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How long does it take to see results from AEO?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>Most local service businesses see first AI citations within 60 to 90 days of implementing comprehensive authority optimization. Low-competition queries can surface in 30 to 45 days. Highly competitive local markets may require 120 days or more. Cited content compounds — once a passage is selected by a retrieval model, repeated selection becomes the default pattern. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a timeline tailored to your market.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Can I do Answer Engine Optimization myself?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>Technically yes, practically difficult. Effective AEO requires bounded claim chunking, named-thesis writing, schema stacks, entity disambiguation, and cross-platform citation tracking. Most operators can apply two or three principles in isolation. Full implementation typically takes a specialist roughly 90 days of focused work. Our foundational implementation packages start at $2,997 — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a fit call</a> if you want to scope.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Will AEO hurt my traditional SEO rankings?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>No. AEO is complementary to SEO. The structural moves AEO requires — clear definitions, bounded chunks, schema stacks, entity consistency — are the same signals Google rewards in classic search. Operators who implement AEO properly see lifts in both traditional rankings and AI citation share. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if you want to see the dual-lift charts from our own site.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How do I know if a competitor has already locked my market?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>Ask ChatGPT, Claude, Perplexity, and Google AI Overviews the top five buying-intent queries in your market. If the same competitor appears in three or more of the four platforms, they have territory lock. Dislodging an entrenched citation incumbent takes 9 to 18 months of sustained authority work. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Our free Blindspot Scan</a> runs this comparison automatically and ships the map within 24 hours.</p>
+            </div>
+          </details>
+
+          {/* ── AUTHOR CARD ── */}
+          <div className="not-prose ae-author-card">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local service businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews. He built the AEO playbook on his own site — 1.14M+ monthly impressions, citations across all four major LLMs — before offering it to clients.
               </p>
             </div>
-
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>15 min read</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <time dateTime={publishDate}>November 11, 2025</time>
-              </div>
-            </div>
-          </header>
-
-          {/* Main Content with prose */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-
-            {/* ── STATS GRID ── */}
-            <div className="ae-stats-grid not-prose">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🔍</div>
-                <div className="ae-stat-value ae-accent">65%</div>
-                <div className="ae-stat-label">of Google searches now end without a single click</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🤖</div>
-                <div className="ae-stat-value ae-accent">400M+</div>
-                <div className="ae-stat-label">weekly ChatGPT users asking AI for business recommendations</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📉</div>
-                <div className="ae-stat-value ae-accent">2-3</div>
-                <div className="ae-stat-label">businesses cited per AI answer vs 10 blue links in Google</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">⏱️</div>
-                <div className="ae-stat-value ae-accent">60-90</div>
-                <div className="ae-stat-label">days for most businesses to achieve first AI citations</div>
-              </div>
-            </div>
-
-            {/* ── INTRODUCTION ── */}
-            <span className="ae-section-label">The Shift</span>
-            <h2>Something Fundamental Has Changed</h2>
-
-            <p>People do not scroll through ten blue links anymore. They ask AI one question and trust the first answer they receive.</p>
-
-            <p>When someone asks ChatGPT &quot;who&apos;s the best probate realtor in Los Angeles&quot; or tells Google &quot;find me a reliable HVAC company near me,&quot; the platforms cite 2-3 businesses maximum. If you are not one of those citations, you are invisible. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-
-            <div className="ae-quote not-prose">
-              <p>Traditional SEO was built for a world where people scrolled. Answer Engine Optimization is built for a world where people ask, get one answer, and make a decision.</p>
-            </div>
-
-            <p>The businesses that adapt to this reality now will dominate their local markets for the next decade. The ones that do not will keep wondering why their phones stopped ringing even though their &quot;SEO is fine.&quot; Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-
-            <p>This guide covers everything you need to understand about this shift. Why your rankings stopped generating leads, how AI platforms actually choose which businesses to recommend, what separates cited businesses from invisible ones, and exactly what it takes to become the AI-recommended expert in your market.</p>
-
-            {/* ── CTA 1 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-
-            {/* ── TABLE OF CONTENTS ── */}
-            <span className="ae-section-label">What You&apos;ll Learn</span>
-            <h2>Inside This Guide</h2>
-
-            <div className="ae-cheat-sheet not-prose">
-              <div className="ae-cheat-sheet-title">Guide Contents</div>
-              <ul>
-                <li><strong>Section 1:</strong> Why your Google rankings no longer generate leads</li>
-                <li><strong>Section 2:</strong> How AI platforms decide which businesses to cite</li>
-                <li><strong>Section 3:</strong> Why your Google traffic dropped in 2025</li>
-                <li><strong>Section 4:</strong> SEO vs AEO: the critical differences</li>
-                <li><strong>Section 5:</strong> How to get AI platforms to recommend your business</li>
-                <li><strong>Section 6:</strong> Is AEO worth the investment for your business?</li>
-                <li><strong>FAQ:</strong> 8 common questions about Answer Engine Optimization</li>
-              </ul>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* SECTION 1: Rankings Don't Matter */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">Section 1</span>
-            <h2>The Real Reason Your Google Rankings Do Not Matter Anymore</h2>
-
-            <p>Google AI Overviews now appear above organic results for millions of local service queries. ChatGPT processes billions of queries monthly with zero links to traditional search results.</p>
-
-            <p>Your business might rank #3 for &quot;best HVAC company in Phoenix.&quot; That ranking used to mean guaranteed phone calls. Now it means nothing. Google&apos;s AI Overview appears above you, cites two different companies, and most searchers never scroll past it. The click never happens. Your ranking is invisible. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-            {/* ── BAR CHART: Click-Through Rate Decline ── */}
-            <div className="ae-bar-group not-prose">
-              <h3>Click-Through Rate by Search Position (AI Overview Present)</h3>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Position #1 (no AI Overview)</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'39%'}}></div></div>
-                <span className="ae-bar-value">39%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Position #1 (AI Overview above)</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'12%'}}></div></div>
-                <span className="ae-bar-value">12%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Position #3 (AI Overview above)</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'4%'}}></div></div>
-                <span className="ae-bar-value">4%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">AI Overview citation</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'65%'}}></div></div>
-                <span className="ae-bar-value">65%</span>
-              </div>
-            </div>
-
-            <p>This is not about some future trend. This is happening right now across every local service category. Plumbers, realtors, tax advisors, home inspectors, electricians: businesses that built their entire lead generation strategy around Google rankings are watching their traffic collapse while their rankings stay stable or even improve.</p>
-
-            <div className="ae-callout ae-callout-warning not-prose">
-              <div className="ae-callout-title">The Winner-Take-All Dynamic</div>
-              <p>When someone opens ChatGPT and asks for a local business recommendation, the platform does not say &quot;here are 10 results.&quot; It says &quot;contact Sarah Mitchell at Mitchell Financial Advisory. Here is why she is the best choice.&quot; One recommendation. One business gets the lead. Everyone else gets nothing. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            </div>
-
-            <p>Voice search accelerates this dynamic even further. When people ask Siri or Alexa for recommendations, they receive exactly one answer. Rankings do not exist in voice search. Either AI cites your business, or you do not exist for that query.</p>
-
-            <div className="ae-takeaway not-prose">
-              <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Traditional SEO focused on competition for rankings. AEO focuses on competition for AI citations. The citation war is fundamentally different from the ranking war, and most local businesses do not realize they are already losing it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-            </div>
-
-            {/* ── CTA 2 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI Overviews are capturing your traffic? We can show you the data.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* SECTION 2: AI Invisibility */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">Section 2</span>
-            <h2>Why Local Businesses Are Invisible to AI Search</h2>
-
-            <p>AI platforms use weighted authority assessment and cross-validation to determine which businesses to cite. This is a three-layer evaluation process analyzing content quality, entity recognition, and competitive positioning simultaneously. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-
-            <p>Most local service businesses are completely invisible to AI platforms. Not because their websites are terrible. They are invisible because they fail the authority evaluation process that AI systems use before making any recommendation.</p>
-
-            {/* ── TIMELINE: How AI Evaluates ── */}
-            <div className="ae-timeline not-prose">
-              <div className="ae-timeline-item">
-                <strong>Layer 1: Content Authority Scan</strong>
-                <p>AI examines your website content structure, depth, and expertise signals. Thin service pages with 200 words fail immediately. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Layer 2: Entity Recognition</strong>
-                <p>AI checks whether your business exists consistently across the web: Google Business Profile, directories, review platforms, and social profiles.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Layer 3: Cross-Validation</strong>
-                <p>AI looks for consistent authority signals across multiple independent sources. Reviews, mentions, backlinks, and citations from other trusted sources all contribute. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Layer 4: Competitive Comparison</strong>
-                <p>AI ranks you against direct competitors on every metric above. The business that scores highest gets cited. Everyone else gets nothing.</p>
-              </div>
-            </div>
-
-            <p>Think of it like a hiring process. AI does not just check if you can do the job (basic competence). It evaluates whether you are the best candidate (comparative authority). Your competitor might have more detailed content, stronger credentials, or clearer expertise positioning. If they score higher, AI cites them instead of you. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            <div className="ae-callout ae-callout-info not-prose">
-              <div className="ae-callout-title">Why Cross-Validation Matters</div>
-              <p>AI platforms do not trust single sources. They look for consistent authority signals across multiple independent sources: your own content, third-party reviews, directory listings, news mentions, and other businesses linking to you. One strong signal is not enough. You need coordinated authority across the entire ecosystem.</p>
-            </div>
-
-            <div className="ae-quote not-prose">
-              <p>AI citation is binary. Either you pass the authority evaluation and get recommended, or you do not exist for that query. There is no second page of results, no runner-up position. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-            </div>
-
-            {/* ── CTA 3 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Discover which layer of AI evaluation your business is failing.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* SECTION 3: Traffic Drop */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">Section 3</span>
-            <h2>Why Your Google Traffic Dropped in 2025</h2>
-
-            <p>Google AI Overviews now dominate 45% of search results for local service queries, creating a zero-click experience where users never visit your website even when you rank #1 in traditional organic results. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-
-            {/* ── STATS GRID: Traffic Impact ── */}
-            <div className="ae-stats-grid not-prose">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📊</div>
-                <div className="ae-stat-value ae-accent">45%</div>
-                <div className="ae-stat-label">of local service queries now show AI Overviews above organic results</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📱</div>
-                <div className="ae-stat-value ae-accent">60%</div>
-                <div className="ae-stat-label">drop in contact form submissions reported by businesses with stable rankings</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🚫</div>
-                <div className="ae-stat-value ae-accent">0</div>
-                <div className="ae-stat-label">clicks from AI Overviews that go to non-cited businesses</div>
-              </div>
-            </div>
-
-            <p>You are tracking rankings religiously. Position #2 for your main keyword. Position #3 for your location-based term. Everything looks fine in your SEO dashboard. But your phone stopped ringing and your contact form submissions fell off a cliff compared to last year.</p>
-
-            <p>The problem: Google AI Overviews appear above your ranking for most valuable local service queries. Someone searches &quot;how to choose a home inspector in Seattle,&quot; and Google&apos;s AI generates a comprehensive answer with citations to two specific businesses. The answer is good enough that the searcher never scrolls. Your #2 ranking? Never seen. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-
-            <div className="ae-callout ae-callout-warning not-prose">
-              <div className="ae-callout-title">Permanent Decline Without Adaptation</div>
-              <p>The traffic decline is permanent unless you adapt. Traditional SEO tactics like building backlinks, optimizing metadata, and improving page speed will not recover traffic that AI Overviews captured. You need to optimize for citation within the AI answer itself.</p>
-            </div>
-
-            <p>This is not hitting every query equally. Google deploys AI Overviews strategically for high-commercial-intent searches where they can capture the transaction. Searches like &quot;best plumber near me,&quot; &quot;reliable HVAC company in Denver,&quot; and &quot;top-rated realtor in Austin&quot; are exactly the searches that used to drive your business. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-
-            {/* ── CTA 4 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>See exactly which queries AI Overviews are stealing from your business.</p>
-              <Link href="/blindspot">Request Your Free Blind Spot Report &rarr;</Link>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* SECTION 4: SEO vs AEO */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">Section 4</span>
-            <h2>The Difference Between SEO and Answer Engine Optimization</h2>
-
-            <p>SEO optimizes for rankings in search results. AEO optimizes for citations within AI-generated answers. This is a fundamentally different objective that requires different content structure, authority positioning, and technical implementation. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            {/* ── COMPARISON TABLE ── */}
-            <table className="ae-comparison-table not-prose">
-              <thead>
-                <tr>
-                  <th>Factor</th>
-                  <th>Traditional SEO</th>
-                  <th>Answer Engine Optimization</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Primary Goal</td>
-                  <td>Rank on page one of Google</td>
-                  <td>Get cited as the answer by AI</td>
-                </tr>
-                <tr>
-                  <td>Target Platforms</td>
-                  <td>Google, Bing search results</td>
-                  <td>ChatGPT, Claude, Perplexity, Google AI Overviews</td>
-                </tr>
-                <tr>
-                  <td>Content Strategy</td>
-                  <td>Keyword-optimized pages targeting search intent</td>
-                  <td>Hub-and-spoke authority architecture with direct answers</td>
-                </tr>
-                <tr>
-                  <td>Authority Signal</td>
-                  <td>Backlink volume and domain authority</td>
-                  <td>Cross-platform entity validation and expertise depth</td>
-                </tr>
-                <tr>
-                  <td>Competition Model</td>
-                  <td>Rank higher than competitors (relative)</td>
-                  <td>Pass the authority threshold or get nothing (absolute)</td>
-                </tr>
-                <tr>
-                  <td>User Behavior</td>
-                  <td>User scrolls through 10 results and clicks</td>
-                  <td>User receives one answer and acts on it</td>
-                </tr>
-                <tr>
-                  <td>Results Per Query</td>
-                  <td>10 organic results on page one</td>
-                  <td>2-3 businesses cited maximum</td>
-                </tr>
-                <tr>
-                  <td>Technical Focus</td>
-                  <td>Page speed, mobile-first, meta tags</td>
-                  <td>Schema markup, entity optimization, content structuring</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <p>Understanding this distinction is critical because most local businesses are still playing the wrong game. Traditional SEO asks: &quot;How do I rank on page one?&quot; Answer Engine Optimization asks: &quot;How do I become the answer AI trusts most?&quot; These are completely different questions requiring completely different strategies.</p>
-
-            {/* ── PROS/CONS ── */}
-            <div className="ae-pros-cons not-prose">
-              <div className="ae-pros-box">
-                <div className="ae-pros-title">What SEO Still Does Well</div>
-                <ul>
-                  <li>Drives traffic from traditional search queries</li>
-                  <li>Establishes baseline web presence</li>
-                  <li>Supports local map pack visibility</li>
-                  <li>Provides measurable ranking data</li>
-                  <li>Works for non-AI-covered queries</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <div className="ae-cons-title">Where SEO Alone Falls Short</div>
-                <ul>
-                  <li>Rankings mean nothing when AI Overviews appear above them</li>
-                  <li>Zero-click searches bypass organic results entirely</li>
-                  <li>Backlink-focused authority does not translate to AI trust</li>
-                  <li>No strategy for ChatGPT, Claude, or Perplexity visibility</li>
-                  <li>Cannot compete for voice search recommendations</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="ae-takeaway not-prose">
-              <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>SEO was competitive (rank higher than competitors). AEO is absolute (pass the authority threshold or do not get cited at all). Traditional SEO let mediocre businesses win through brute-force link building. AEO requires actual demonstrable expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            </div>
-
-            {/* ── CTA 5 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Still relying on SEO alone? Find out what you are missing.</p>
-              <a href="mailto:support@theanswerengine.ai">Email Us for a Strategy Review &rarr;</a>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* SECTION 5: How to Get Recommended */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">Section 5</span>
-            <h2>How to Get AI Platforms to Recommend Your Business</h2>
-
-            <p>Multi-platform AI citation requires building layered authority through hub-and-spoke content architecture, comprehensive schema implementation, entity optimization, and consistent cross-platform presence. This is a systematic approach that typically takes 90 days to achieve measurable results. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-
-            {/* ── DECISION MATRIX ── */}
-            <div className="ae-decision-matrix not-prose">
-              <div className="ae-decision-matrix-title">The 6-Layer Authority Framework</div>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Layer</th>
-                    <th>What AI Evaluates</th>
-                    <th>What You Need</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Answer Quality</td>
-                    <td>Does your content directly answer queries with real expertise?</td>
-                    <td>Comprehensive guides, specific examples, unique insights</td>
-                  </tr>
-                  <tr>
-                    <td>Entity Optimization</td>
-                    <td>Is your business information consistent everywhere?</td>
-                    <td>Google Business Profile, directories, social profiles aligned</td>
-                  </tr>
-                  <tr>
-                    <td>Content Depth</td>
-                    <td>Do you have comprehensive topical coverage?</td>
-                    <td>Hub-and-spoke architecture with 4-6 spoke articles per hub</td>
-                  </tr>
-                  <tr>
-                    <td>Technical Structure</td>
-                    <td>Can AI extract and interpret your content?</td>
-                    <td>Schema markup: LocalBusiness, FAQ, Article, Organization</td>
-                  </tr>
-                  <tr>
-                    <td>Voice Authenticity</td>
-                    <td>Does your content sound like a real expert?</td>
-                    <td>Authentic examples, specific data, genuine methodology</td>
-                  </tr>
-                  <tr>
-                    <td>Authority Signals</td>
-                    <td>Do third parties validate your expertise?</td>
-                    <td>Reviews, mentions, backlinks, industry recognition</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <p>Getting AI platforms to recommend your business is not simple, but it follows a predictable pattern when you understand what AI systems actually evaluate.</p>
-
-            {/* ── CHEAT SHEET ── */}
-            <div className="ae-cheat-sheet not-prose">
-              <div className="ae-cheat-sheet-title">Implementation Roadmap (90-Day Plan)</div>
-              <ul>
-                <li><strong>Days 1-15:</strong> Audit current AI visibility across ChatGPT, Claude, Perplexity, and Google AI Overviews</li>
-                <li><strong>Days 15-30:</strong> Build hub-and-spoke content architecture with comprehensive guides and spoke articles</li>
-                <li><strong>Days 30-45:</strong> Implement technical schema markup across all pages (LocalBusiness, FAQ, Article, HowTo)</li>
-                <li><strong>Days 45-60:</strong> Optimize entity recognition with consistent NAP across 30+ directories</li>
-                <li><strong>Days 60-75:</strong> Launch review acquisition campaign to build third-party validation signals</li>
-                <li><strong>Days 75-90:</strong> Monitor AI citations, refine content gaps, and optimize underperforming authority layers</li>
-              </ul>
-            </div>
-
-            <p>Hub-and-spoke content architecture drives the strongest citation results. You create one comprehensive guide (the hub) covering your core expertise area, supported by 4-6 detailed articles (spokes) covering specific sub-topics. The hub establishes broad authority. The spokes prove depth. AI systems preferentially cite businesses with this documented depth rather than businesses with scattered blog posts. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-
-            <div className="ae-callout ae-callout-success not-prose">
-              <div className="ae-callout-title">What Makes Schema Markup Critical</div>
-              <p>Schema markup tells AI systems what your information means, not just what it says. LocalBusiness schema establishes your entity. FAQ schema makes answers extractable. Organization schema proves legitimacy. Platforms that cannot interpret your schema will not cite you, even if your content is excellent.</p>
-            </div>
-
-            {/* ── CTA 6 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Need help building your authority foundation? Talk to our team. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
-
-            {/* ── BAR CHART: Platform Citation Priorities ── */}
-            <h3>What Each AI Platform Prioritizes</h3>
-
-            <div className="ae-bar-group not-prose">
-              <h3>Google AI Overview Priorities</h3>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Structured Data/Schema</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'95%'}}></div></div>
-                <span className="ae-bar-value">95%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Featured Snippet Optimization</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'88%'}}></div></div>
-                <span className="ae-bar-value">88%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Entity Recognition</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'82%'}}></div></div>
-                <span className="ae-bar-value">82%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Content Depth</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'75%'}}></div></div>
-                <span className="ae-bar-value">75%</span>
-              </div>
-            </div>
-
-            <div className="ae-bar-group not-prose">
-              <h3>ChatGPT Citation Priorities</h3>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Authentic Voice &amp; Expertise</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'92%'}}></div></div>
-                <span className="ae-bar-value">92%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Comprehensive Explanations</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'88%'}}></div></div>
-                <span className="ae-bar-value">88%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Cross-Platform Validation</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'80%'}}></div></div>
-                <span className="ae-bar-value">80%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Review Quality &amp; Volume</span>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'75%'}}></div></div>
-                <span className="ae-bar-value">75%</span>
-              </div>
-            </div>
-
-            {/* ── CTA 7 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Get optimized across all AI platforms with a single strategy.</p>
-              <Link href="/blindspot">Start With Your Free Blind Spot Report &rarr;</Link>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* SECTION 6: Is It Worth It? */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">Section 6</span>
-            <h2>Is Answer Engine Optimization Worth It for Your Business?</h2>
-
-            <p>AEO delivers ROI for local service businesses when average customer lifetime value exceeds $2,000, deal cycles are short, and expertise differentiation is your primary competitive advantage. However, it requires a 90+ day commitment and systematic implementation most businesses cannot execute alone. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            {/* ── DECISION MATRIX: Is AEO Right for You? ── */}
-            <div className="ae-decision-matrix not-prose">
-              <div className="ae-decision-matrix-title">Is AEO Right for Your Business?</div>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Factor</th>
-                    <th>AEO is a Great Fit</th>
-                    <th>AEO May Not Be Right</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Customer LTV</td>
-                    <td>Above $2,000 per customer</td>
-                    <td>Below $500 per transaction</td>
-                  </tr>
-                  <tr>
-                    <td>Competitive Edge</td>
-                    <td>Expertise and trust differentiation</td>
-                    <td>Compete purely on lowest price</td>
-                  </tr>
-                  <tr>
-                    <td>Business Model</td>
-                    <td>Service-based with ongoing relationships</td>
-                    <td>Commodity/transactional one-time sales</td>
-                  </tr>
-                  <tr>
-                    <td>Revenue</td>
-                    <td>$100K-$2M annual revenue</td>
-                    <td>Pre-revenue or startup phase</td>
-                  </tr>
-                  <tr>
-                    <td>Timeline Patience</td>
-                    <td>Willing to commit 90+ days</td>
-                    <td>Need results within 30 days</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <p>The businesses that benefit most from AEO share specific characteristics. They have customer lifetime values above $2,000 (real estate, financial services, skilled trades with ongoing relationships). They operate in markets where trust and expertise matter more than price. They have genuine expertise or a unique methodology they can demonstrate through content.</p>
-
-            {/* ── STATS GRID: ROI Numbers ── */}
-            <div className="ae-stats-grid not-prose">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">💰</div>
-                <div className="ae-stat-value ae-accent">50-70%</div>
-                <div className="ae-stat-label">lower cost per lead from AI citations vs paid advertising</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🎯</div>
-                <div className="ae-stat-value ae-accent">Higher</div>
-                <div className="ae-stat-label">close rates from AI-referred leads vs cold outreach</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📈</div>
-                <div className="ae-stat-value ae-accent">Premium</div>
-                <div className="ae-stat-label">pricing power when AI positions you as the expert</div>
-              </div>
-            </div>
-
-            <div className="ae-callout ae-callout-warning not-prose">
-              <div className="ae-callout-title">The Cost of Doing Nothing</div>
-              <p>If you choose not to optimize for AI citation, understand what you are choosing: declining organic traffic as AI Overviews capture more queries, increasing dependence on expensive paid advertising, and loss of market authority to competitors who do optimize. The alternative to AEO is not the status quo. The alternative is permanent decline. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            </div>
-
-            {/* ── CTA 8 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Ready to find out where you stand? It takes less than 48 hours.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* RELATED DEEP DIVES */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">Go Deeper</span>
-            <h2>Explore Each Topic in Detail</h2>
-
-            <p>Each section of this guide has a dedicated deep-dive article with expanded data, examples, and implementation steps: Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-
-            <div className="ae-cheat-sheet not-prose">
-              <div className="ae-cheat-sheet-title">Related Deep-Dive Articles</div>
-              <ul>
-                <li><Link href="/blog/google-rankings-dont-matter">Why Your Google Rankings No Longer Generate Leads</Link></li>
-                <li><Link href="/blog/how-ai-platforms-choose-businesses-to-cite">How AI Platforms Decide Which Businesses to Cite</Link></li>
-                <li><Link href="/blog/why-businesses-fail-answer-engine-optimization">Why Your Google Traffic Dropped in 2025</Link></li>
-                <li><Link href="/blog/what-is-answer-engine-optimization">What Is Answer Engine Optimization?</Link></li>
-                <li><Link href="/blog/how-to-get-google-ai-chatgpt-recommend-business">How to Get Google AI and ChatGPT to Recommend Your Business</Link></li>
-                <li><Link href="/blog/is-answer-engine-optimization-worth-it">Is Answer Engine Optimization Worth It?</Link></li>
-              </ul>
-            </div>
-
-            {/* ── CTA 9 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Have questions about any of these topics? Our team is here to help.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* FAQ SECTION */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">FAQ</span>
-            <h2>Frequently Asked Questions About Answer Engine Optimization</h2>
-
-            <h3>How long does it take to see results from AEO?</h3>
-            <p>Most local service businesses see first AI citations within 60-90 days of implementing comprehensive authority optimization. Some low-competition queries produce faster results (30-45 days), while highly competitive local markets may require 120 days or more. The timeline depends on your current authority baseline, competitive intensity, and implementation quality. Anyone promising instant or guaranteed AI citations is misleading you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-
-            <h3>Can I do Answer Engine Optimization myself, or do I need to hire someone?</h3>
-            <p>Technically possible but practically difficult for most local service business owners. Effective AEO requires expertise in content strategy, technical SEO, schema markup, entity optimization, and AI platform evaluation. Most owners lack both the expertise and time to execute properly. DIY attempts usually produce mediocre content that does not achieve citations. Professional implementation dramatically increases citation probability compared to DIY approaches.</p>
-
-            {/* ── CTA 10 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Considering DIY vs professional AEO? Let us show you what&apos;s involved. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-            </div>
-
-            <h3>What is the difference between getting cited by Google vs. ChatGPT vs. Perplexity?</h3>
-            <p>Each platform uses different authority evaluation priorities. Google AI Overviews weight structured data and featured snippet optimization highest. ChatGPT prioritizes authentic voice and comprehensive explanations. Perplexity focuses on citation diversity and source quality. Claude evaluates expertise depth and logical structure. Comprehensive AEO strategy addresses all platforms, but optimization emphasis varies based on where your target customers actually search.</p>
-
-            <h3>Will Answer Engine Optimization hurt my traditional SEO rankings?</h3>
-            <p>No. AEO is complementary to SEO, not competitive. Proper implementation actually improves traditional rankings through better content quality, technical optimization, and authority signals. The difference: SEO alone no longer drives sufficient leads because AI Overviews appear above organic results. You need both ranking AND citation to capture modern search traffic. Think of AEO as the next evolution of SEO rather than a replacement. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-
-            {/* ── CTA 11 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Want to see how AEO and SEO work together for your business?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-
-            <h3>How much does Answer Engine Optimization cost for a local service business?</h3>
-            <p>Foundational implementation includes voice capture, hub-and-spoke content creation, technical schema implementation, entity optimization, and a 90-day performance guarantee. Ongoing content updates and maintenance add to the investment depending on competitive intensity and content velocity required. ROI calculation: if one AI-sourced client per quarter covers the annual investment, AEO is profitable. For most service businesses with $2,000+ customer lifetime values, the math works out within the first quarter. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-
-            <h3>What makes some local businesses get AI citations while competitors do not?</h3>
-            <p>AI platforms evaluate layered authority across six dimensions: answer quality that directly addresses queries with expertise, entity optimization ensuring consistent business information everywhere, relevance through comprehensive and fresh content, optimization structure with proper technical implementation, voice authenticity demonstrating genuine expertise through specific examples, and authority signals from reviews and third-party validation. Businesses that systematically address all six dimensions get citations. Businesses that address only one or two do not.</p>
-
-            {/* ── CTA 12 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Not sure which authority dimensions your business is missing? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="mailto:support@theanswerengine.ai">Email Us for a Free Assessment &rarr;</a>
-            </div>
-
-            <h3>Can paid advertising help me get AI citations faster?</h3>
-            <p>No. AI citations are editorial, not paid placement. Running Google Ads or social media ads does not influence whether AI platforms cite your business. You cannot buy AI citations. The only path to citation is earning authority through comprehensive content, technical optimization, and cross-platform validation. Some businesses run paid advertising while building AEO authority to maintain lead flow during the 90-day ramp period, but advertising does not accelerate the citation timeline.</p>
-
-            <h3>What industries benefit most from Answer Engine Optimization?</h3>
-            <p>Local service businesses with high customer lifetime value and expertise differentiation see strongest ROI: real estate agents and teams, financial advisors and tax strategists, home inspectors and specialized contractors, legal professionals and consultants, healthcare practitioners, and B2B service providers. Industries competing primarily on price (commodity services, low-margin work, transactional relationships) see limited AEO benefit because AI platforms do not cite based on lowest price. They cite based on highest expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-
-            {/* ── CTA 13 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Is your industry a good fit for AEO? Find out in 48 hours.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* CTA BLOCK */}
-            {/* ══════════════════════════════════════════ */}
-            <div className="ae-cta-block not-prose">
-              <h3>Ready to Stop Competing on Price and Become the AI-Recommended Expert?</h3>
-              <p>The businesses dominating AI citations right now are not the biggest companies or the ones with the most marketing budget. They are the ones that recognized this shift early and systematically built the authority that AI platforms trust. If you are a local service business with genuine expertise, the window to establish AI dominance in your market is open right now. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            </div>
-
-            {/* ── CTA 14 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your options? Our team is available by phone.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
-            </div>
-
-            {/* ══════════════════════════════════════════ */}
-            {/* ABOUT SECTION */}
-            {/* ══════════════════════════════════════════ */}
-            <span className="ae-section-label">About</span>
-            <h2>About The Answer Engine</h2>
-
-            <p>The Answer Engine specializes in helping local service businesses become the trusted authority AI platforms cite instead of competitors. Founded in 2025, we recognized that traditional SEO no longer drives sufficient leads for local businesses because AI Overviews and AI search platforms capture queries before users ever click organic results. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-
-            <p>Our approach systematically builds the layered authority AI platforms require for citation through voice-captured expertise, hub-and-spoke content architecture, comprehensive technical optimization, and cross-platform entity validation. Unlike traditional SEO agencies that focus on rankings, we focus on citations. Whoever AI cites becomes the authority, and whoever becomes the authority gets the business.</p>
-
-            <p>We work exclusively with local service businesses earning $100K-$2M annually who compete on expertise rather than price. Our clients include real estate professionals, financial advisors, home inspectors, specialized contractors, legal and healthcare practitioners, and B2B service providers across the United States.</p>
-
-            {/* ── AUTHOR CARD ── */}
-            <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
-              </div>
-            </div>
-
-            {/* ── CTA 15 ── */}
-            <div className="ae-cta-inline not-prose">
-              <p>Questions about anything in this guide? Reach out directly.</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-            </div>
-
+          </div>
+
+          {/* ── CTA BLOCK ── */}
+          <div className="ae-cta-block not-prose">
+            <h3>One Client Per Market</h3>
+            <p>We onboard one operator per geographic market. Once your territory is claimed, no direct competitor of yours can hire us inside the same radius.</p>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-block-btn">Book a Territory Call</a>
           </div>
 
           {/* ── FINAL CTA ── */}
-          <div className="ae-final-cta">
-            <div className="ae-final-cta-pulse"></div>
-            <h2>Is AI Recommending Your Competitors Instead of You?</h2>
-            <p>Most businesses have no idea whether AI platforms are sending them customers or sending customers to their competitors. Our free blind spot report shows you exactly where you stand, which competitors AI is citing, and what it would take to become the recommended answer in your market.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-            </div>
-          </div>
+          <section className="ae-final-cta">
+            <h2>See Where AI Cites You — Free</h2>
+            <p>Our Blindspot Scan maps your citation share across ChatGPT, Claude, Perplexity, and Google AI Overviews. You get a Proof Ledger snapshot inside 24 hours. No call required.</p>
+            <a
+              href="https://theanswerengine.ai/blindspot"
+              className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+            >
+              Run the Free Blindspot Scan
+            </a>
+            <p className="mt-6 text-sm font-mono">
+              Or text us directly: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> · <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>
+            </p>
+            <p className="mt-2 text-xs font-mono text-[rgba(229,226,225,0.55)]">One client per market. Claim your territory before a competitor does.</p>
+          </section>
 
-        </article>
-      </main>
-    </>
+        </div>
+      </article>
+    </div>
   );
 }
