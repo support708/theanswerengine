@@ -1801,17 +1801,15 @@
     "priority": "P3"
   },
   {
-    "businessName": "Arrington Roofing",
-    "contactName": "Chris Arrington",
-    "website": "https://arringtonroofing.com/",
-    "phone": "(214) 698-8443",
+    "businessName": "Holden Roofing",
+    "contactName": "Brett Holden",
+    "website": "https://www.holdenroofing.com/",
+    "phone": "(972) 510-8242",
     "city": "Dallas",
     "state": "",
     "serviceNiche": "Roofing Contractor",
-    "reviewCount": 350,
-    "rating": 4.9,
     "painSignals": [
-      "Arrington Roofing appears in AI recommendations but may have optimization gaps"
+      "Holden Roofing appears in AI recommendations but may have optimization gaps"
     ],
     "citationResults": [
       {
@@ -1819,23 +1817,92 @@
         "query": "best Roofing Contractor in Dallas",
         "cited": true,
         "competitorsCited": [
-          "New View Roofing",
           "Lon Smith Roofing",
-          "Dwell Roofing & Exteriors"
+          "New View Roofing"
         ]
       }
     ],
-    "differentiator": "Since 1983 (40+ years), 350+ Google reviews at 4.9-star rating, GAF Master Elite Certified, emergency 24/7 service available",
+    "differentiator": "65 years in business since 1961, Owens Corning Platinum Preferred Contractor, family-owned, serves 7 locations in Texas",
     "outreachReady": true,
     "scoreBreakdown": {
-      "aiBlindSpot": 4.5,
-      "reputationStrength": 12.5,
+      "aiBlindSpot": 3,
+      "reputationStrength": 0,
       "contentGap": 6,
       "revenuePotential": 6,
       "contactQuality": 3,
-      "total": 32
+      "total": 18
     },
-    "priority": "P2"
+    "priority": "P3"
+  },
+  {
+    "businessName": "T Rock Roofing & Contracting",
+    "contactEmail": "info@dallasroofer.com",
+    "website": "https://www.dallasroofer.com/",
+    "phone": "(469) 931-9867",
+    "city": "Dallas",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "T Rock Roofing & Contracting has multiple Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Lon Smith Roofing",
+          "New View Roofing",
+          "Holden Roofing"
+        ]
+      }
+    ],
+    "differentiator": "65+ years in business since 1952, specializes in premium roofing systems (clay tile, slate, synthetic slate, copper, metal), supports veterans through Operation: Mutt 22",
+    "outreachReady": false,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 4,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Premier Roofing",
+    "contactName": "Luke Marklin",
+    "website": "https://premier-roofing.com/",
+    "phone": "(469) 431-2416",
+    "city": "Dallas",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "Premier Roofing has multiple Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Lon Smith Roofing",
+          "New View Roofing",
+          "Holden Roofing"
+        ]
+      }
+    ],
+    "differentiator": "20+ years in experience, A+ BBB rated, Master Elite contractor by GAF, 24,000+ restoration projects completed",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 23.5
+    },
+    "priority": "P3"
   },
   {
     "businessName": "Dalco Contractors and Roofing",
@@ -1856,59 +1923,244 @@
         "query": "best Roofing Contractor in Dallas",
         "cited": false,
         "competitorsCited": [
-          "New View Roofing",
           "Lon Smith Roofing",
-          "Arrington Roofing",
-          "Dwell Roofing & Exteriors"
+          "New View Roofing",
+          "Holden Roofing"
         ]
       }
     ],
-    "differentiator": "20+ years in business, A+ BBB rated, 5-star Google reviews, known for expert insurance claim navigation, same-day installations",
+    "differentiator": "20+ years in business, A+ BBB rated, 5.0 Google rating, single-day installations, known for exceptional customer service",
     "outreachReady": true,
     "scoreBreakdown": {
-      "aiBlindSpot": 9,
+      "aiBlindSpot": 8.5,
       "reputationStrength": 9,
       "contentGap": 6,
       "revenuePotential": 6,
       "contactQuality": 3,
-      "total": 33
+      "total": 32.5
     },
     "priority": "P2"
   },
   {
-    "businessName": "Dwell Roofing & Exteriors",
-    "contactName": "Jesse Summerlin",
-    "website": "https://dwellroofing.com/",
-    "phone": "(972) 994-6386",
+    "businessName": "Baker Roofing & Construction",
+    "contactName": "Christopher Baker",
+    "website": "https://www.baker-roofing.com/",
+    "phone": "(214) 566-1893",
     "city": "Dallas",
     "state": "",
     "serviceNiche": "Roofing Contractor",
-    "reviewCount": 181,
-    "rating": 5,
     "painSignals": [
-      "Dwell Roofing & Exteriors appears in AI recommendations but may have optimization gaps"
+      "Baker Roofing & Construction has multiple Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Dallas\""
     ],
     "citationResults": [
       {
         "platform": "chatgpt",
         "query": "best Roofing Contractor in Dallas",
-        "cited": true,
+        "cited": false,
         "competitorsCited": [
-          "New View Roofing",
           "Lon Smith Roofing",
-          "Arrington Roofing"
+          "New View Roofing",
+          "Holden Roofing"
         ]
       }
     ],
-    "differentiator": "Since 2011 (15+ years), 5-star Houzz rating, 181 Yelp reviews, owner is licensed insurance adjuster, 24/7 emergency services, full-service exterior remodeling company",
+    "differentiator": "21+ years in business since 2003, A+ BBB rated, Owens Corning Preferred Contractor, CertainTeed Master Shingle Applicator, multi-state operations",
     "outreachReady": true,
     "scoreBreakdown": {
-      "aiBlindSpot": 4.5,
-      "reputationStrength": 12.5,
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
       "contentGap": 6,
       "revenuePotential": 6,
       "contactQuality": 3,
-      "total": 32
+      "total": 23.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "John Foy & Associates",
+    "contactName": "John M. Foy",
+    "website": "https://www.johnfoy.com/",
+    "phone": "(404) 400-4000",
+    "city": "Atlanta",
+    "state": "GA",
+    "serviceNiche": "Personal Injury Attorney",
+    "reviewCount": 88,
+    "rating": 4.4,
+    "painSignals": [
+      "John Foy & Associates appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Atlanta",
+        "cited": true,
+        "competitorsCited": [
+          "Gary Martin Hays & Associates",
+          "Montlick Injury Attorneys",
+          "Tobin Injury Law",
+          "The Millar Law Firm"
+        ]
+      }
+    ],
+    "differentiator": "Over 25 years in business, $1 billion+ recovered, known as 'The Strong Arm,' contingency fee basis",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 8.5,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 30
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Montlick Injury Attorneys",
+    "contactName": "David R. Montlick",
+    "website": "https://www.montlick.com/",
+    "phone": "(800) 529-6333",
+    "city": "Atlanta",
+    "state": "GA",
+    "serviceNiche": "Personal Injury Attorney",
+    "reviewCount": 1227,
+    "rating": 4.7,
+    "painSignals": [
+      "Montlick Injury Attorneys appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Atlanta",
+        "cited": true,
+        "competitorsCited": [
+          "John Foy & Associates",
+          "Gary Martin Hays & Associates",
+          "Tobin Injury Law",
+          "The Millar Law Firm"
+        ]
+      }
+    ],
+    "differentiator": "Established 1984, 40+ years experience, billions recovered, 24/7 availability, AV Martindale-Hubbell rating",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 34
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Atlanta Personal Injury Law Group - Gore LLC",
+    "contactName": "Jennifer Gore-Cuthbert",
+    "website": "https://atlinjurylawgroup.com/",
+    "phone": "(678) 944-9516",
+    "city": "Atlanta",
+    "state": "GA",
+    "serviceNiche": "Personal Injury Attorney",
+    "painSignals": [
+      "Atlanta Personal Injury Law Group - Gore LLC has multiple Google reviews but is not recommended by AI assistants for \"Personal Injury Attorney in Atlanta\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Atlanta",
+        "cited": false,
+        "competitorsCited": [
+          "John Foy & Associates",
+          "Gary Martin Hays & Associates",
+          "Montlick Injury Attorneys",
+          "Tobin Injury Law",
+          "The Millar Law Firm"
+        ]
+      }
+    ],
+    "differentiator": "Founded 2013, founded by Jennifer Gore-Cuthbert, focuses on accident victim representation",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 25.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Van Sant Law",
+    "contactName": "David M. Van Sant",
+    "website": "https://www.vansantlaw.com/",
+    "phone": "(770) 886-9199",
+    "city": "Atlanta",
+    "state": "GA",
+    "serviceNiche": "Personal Injury Attorney",
+    "painSignals": [
+      "Van Sant Law has multiple Google reviews but is not recommended by AI assistants for \"Personal Injury Attorney in Atlanta\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Atlanta",
+        "cited": false,
+        "competitorsCited": [
+          "John Foy & Associates",
+          "Gary Martin Hays & Associates",
+          "Montlick Injury Attorneys",
+          "Tobin Injury Law",
+          "The Millar Law Firm"
+        ]
+      }
+    ],
+    "differentiator": "Top 100 Trial Lawyers Georgia, Super Lawyers since 2014, Avvo 10.0 rating (Superb), millions recovered",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 25.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Hammers Law Firm",
+    "contactName": "Robert M. Hammers Jr.",
+    "website": "https://hammerslawfirm.com/",
+    "phone": "(770) 900-9000",
+    "city": "Atlanta",
+    "state": "GA",
+    "serviceNiche": "Personal Injury Attorney",
+    "reviewCount": 9,
+    "painSignals": [
+      "Hammers Law Firm has 9 Google reviews but is not recommended by AI assistants for \"Personal Injury Attorney in Atlanta\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Atlanta",
+        "cited": false,
+        "competitorsCited": [
+          "John Foy & Associates",
+          "Gary Martin Hays & Associates",
+          "Montlick Injury Attorneys",
+          "Tobin Injury Law",
+          "The Millar Law Firm"
+        ]
+      }
+    ],
+    "differentiator": "Over 50 years combined experience, $100+ million verdicts, Super Lawyers designation",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 1,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 26.5
     },
     "priority": "P2"
   }
