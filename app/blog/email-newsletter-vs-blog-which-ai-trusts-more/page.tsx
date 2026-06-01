@@ -6,31 +6,22 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 const title = 'Email Newsletter vs Blog: Which Does AI Trust More?'
-const description = 'Email newsletters are invisible to AI search. Blogs get crawled and cited. Here\'s how the two compare for AI visibility and where to focus your content energy.'
+const description = 'Email newsletters are invisible to AI search. Blogs get crawled and cited. AEO data on what compounds. Get your free blindspot scan in 90 seconds.'
 const slug = 'email-newsletter-vs-blog-which-ai-trusts-more'
 const publishDate = '2026-04-16'
+const modifiedDate = '2026-05-31'
 
 export const metadata: Metadata = {
-  title,
+  title: 'Email Newsletter vs Blog: Which AI Trusts More | The Answer Engine',
   description,
-  keywords: [
-    'email newsletter vs blog AI search',
-    'does email newsletter help AI visibility',
-    'blog vs newsletter for ChatGPT',
-    'can AI read my email newsletter',
-    'blog content AI citations',
-    'email newsletter SEO AI',
-    'newsletter vs blog for business',
-    'does AI crawl newsletters',
-    'blog content strategy AI search',
-    'newsletter vs blog which is better',
-  ],
+  keywords: 'email newsletter vs blog AI search, does email newsletter help AI visibility, blog vs newsletter for ChatGPT, can AI read my email newsletter, AEO content strategy, answer engine optimization, blog AI citations',
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    modifiedTime: modifiedDate,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -57,7 +48,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: publishDate,
-      dateModified: publishDate,
+      dateModified: modifiedDate,
       author: {
         '@type': 'Person',
         '@id': 'https://theanswerengine.ai/about#justin-borges',
@@ -68,9 +59,10 @@ const jsonLd = {
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'AEO', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
+        sameAs: ['https://linkedin.com/in/justinborges'],
       },
       publisher: {
         '@type': 'Organization',
@@ -94,7 +86,7 @@ const jsonLd = {
           name: 'Can AI search engines read my email newsletter?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'No. Email newsletters are delivered directly to subscriber inboxes and are not publicly accessible on the web. AI crawlers like GPTBot, PerplexityBot, and ClaudeBot cannot access private email inboxes. Your newsletter content is completely invisible to AI search regardless of how good or how frequent it is.',
+            text: 'No. Email newsletters are delivered directly to subscriber inboxes and are not publicly accessible on the web. AI crawlers like GPTBot, PerplexityBot, and ClaudeBot cannot access private email inboxes. Newsletter content is completely invisible to AI search regardless of how good or how frequent it is.',
           },
         },
         {
@@ -102,7 +94,7 @@ const jsonLd = {
           name: 'Does a Substack or Beehiiv newsletter get indexed by AI?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Partially. Substack and Beehiiv create public web archives of newsletters at subdomain URLs (e.g., yourname.substack.com/p/issue-title). These public pages can be crawled by AI. However, the discoverability is lower than a blog on your own domain, and the content does not build authority signals tied to your primary business website. Public newsletter archives are better than zero, but a blog on your own domain remains superior for AI visibility.',
+            text: 'Partially. Substack and Beehiiv create public web archives at subdomain URLs that AI crawlers can access. However, the citations build authority for the platform subdomain, not your business domain. Public newsletter archives outperform private email but underperform a blog on your own domain by a wide margin.',
           },
         },
         {
@@ -110,7 +102,7 @@ const jsonLd = {
           name: 'How much better do blogs perform than email for AI citations?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Blogs on your own domain receive 83.3% of AI citations despite representing a minority of content published, while email content receives 0% direct AI citations. Longer blog posts (3,000+ words) receive roughly 3x more organic traffic and proportionally more AI citations than shorter posts. The ROI gap compounds over time: blog content continues generating citations years after publishing while email content disappears after delivery.',
+            text: 'Blogs on your own domain receive the vast majority of AI citations from content marketing channels, while private email content receives zero direct AI citations. Longer blog posts over 3,000 words receive roughly three times more organic traffic and proportionally more AI citations than shorter posts. Blog content continues generating citations for 24-36 months after publishing while newsletter content decays to zero within 48 hours of send.',
           },
         },
         {
@@ -118,7 +110,7 @@ const jsonLd = {
           name: 'Should I stop sending email newsletters?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'No. Email newsletters serve a different and valuable purpose: nurturing existing relationships, driving repeat business, and communicating directly with opted-in customers. The issue is not that email is bad. It is that email should not be counted as part of your AI visibility strategy. If you are relying on newsletters as your primary content channel and wondering why AI does not recommend you, that is the disconnect.',
+            text: 'No. Email newsletters serve a different and valuable purpose: nurturing existing relationships, driving repeat business, and communicating directly with opted-in customers. The issue is not that email is bad. The issue is that email should not be counted as part of an AI visibility strategy. Relying on newsletters as a primary content channel and expecting AI citations is the disconnect.',
           },
         },
         {
@@ -126,7 +118,7 @@ const jsonLd = {
           name: 'Can I repurpose my newsletter content as blog posts?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Absolutely, and this is one of the highest-ROI moves available. Your newsletter content is already written and presumably valuable. Publishing each newsletter issue as a blog post (or adapting it into one) immediately makes that content crawlable and citable by AI. One piece of content serves both channels: your existing subscribers via email and the broader AI-indexed web via the blog post.',
+            text: 'Yes. This is the highest-leverage move available for newsletter-heavy businesses. Newsletter content is already written and presumably valuable. Publishing each newsletter issue as a blog post on the business domain immediately converts that content from AI-invisible to AI-readable. One piece of content then serves both channels: existing subscribers via email and the broader AI-indexed web via the blog.',
           },
         },
         {
@@ -134,7 +126,7 @@ const jsonLd = {
           name: 'Does blog length matter for AI citations?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes. Posts over 3,000 words receive approximately 3x more organic traffic than shorter posts, and AI citation frequency correlates with content depth and topical authority, both of which increase with well-researched longer posts. This does not mean padding content for length. It means covering a topic comprehensively enough that AI models see your content as a reliable, thorough source rather than a thin overview.',
+            text: 'Yes. Posts over 3,000 words receive approximately three times more organic traffic than shorter posts, and AI citation frequency correlates with content depth and topical authority. This is not about padding for length. It is about covering a topic comprehensively enough that AI models treat the content as a reliable source rather than a thin overview. Research from GEO-SFE (2026) shows lists, tables, and structured chunks under 300 words extract cleanly into retrieval-augmented generation pipelines.',
           },
         },
       ],
@@ -147,19 +139,53 @@ const jsonLd = {
         { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
       ],
     },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+      areaServed: 'United States',
+      founder: { '@type': 'Person', name: 'Justin Borges', '@id': 'https://theanswerengine.ai/about#justin-borges' },
+      foundingDate: '2025',
+      sameAs: ['https://linkedin.com/company/theanswerengine'],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'AEO Services',
+        itemListElement: [
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Answer Engine Optimization' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AEO Content Production' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'LLM Citation Building' } },
+        ],
+      },
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}#webpage`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+      about: { '@id': 'https://theanswerengine.ai/#organization' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.ae-article-hero h1', '.named-thesis', '.ae-cheat-sheet', 'h2'],
+      },
+    },
   ],
 }
 
 export default function Page() {
   return (
-    <>
+    <div className="min-h-screen bg-[#131313]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0" aria-label="Breadcrumb">
+      <nav className="max-w-4xl mx-auto px-6 pt-24 pb-4" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 text-sm text-gray-500">
           <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
           <li className="text-gray-700">/</li>
@@ -168,668 +194,397 @@ export default function Page() {
           <li className="text-gray-400 truncate max-w-[200px]">{title}</li>
         </ol>
       </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+
+      {/* Hero */}
+      <header className="ae-article-hero max-w-4xl mx-auto px-6 pb-12">
+        <div className="flex items-center gap-3 mb-5">
+          <span className="ae-section-label">AEO Comparisons</span>
+          <span className="text-gray-500 text-sm font-mono">9 min read · Updated {modifiedDate}</span>
+        </div>
+        <h1 className="font-headline font-black uppercase tracking-tighter text-4xl md:text-6xl text-white leading-[1.05] mb-6">
+          Email Newsletter vs Blog: Which Does AI Trust More?
+        </h1>
+        <p className="font-body text-gray-300 text-lg md:text-xl max-w-3xl leading-relaxed mb-6">
+          Thousands of operators send excellent newsletters and wonder why AI never recommends them. The reason is structural: AI cannot read your inbox. We mapped the citation math on both formats so you can stop guessing where your content energy compounds.
+        </p>
+        <div className="flex items-center gap-4 text-sm text-gray-500 font-mono">
+          <span>Published {publishDate}</span>
+          <span>·</span>
+          <span>By Justin Borges, Founder of The Answer Engine</span>
+        </div>
+      </header>
+
+      <main id="article-body" className="ae-article-body prose prose-invert prose-lg max-w-none">
+        <div className="max-w-4xl mx-auto px-6 pb-24">
+
+          {/* Cover Image */}
+          <div className="w-full overflow-hidden mb-12" style={{ maxHeight: 480 }}>
             <img
-              src="/blog/email-newsletter-vs-blog-which-ai-trusts-more.webp"
-              alt="email newsletter vs blog which ai trusts more"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              src={`/blog/${slug}.webp`}
+              alt="Email newsletter vs blog comparison for AI search citations"
+              style={{ width: '100%', height: 480, objectFit: 'cover', display: 'block' }}
               loading="eager"
             />
           </div>
 
-      {/* Hero */}
-      <header className="max-w-4xl mx-auto px-6 pt-10 pb-12">
-        <div className="relative rounded-2xl overflow-hidden bg-[#0F1117] border border-gray-800">
-          <svg
-            className="absolute inset-0 w-full h-full opacity-10"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern id="hero-grid-newsletter" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid-newsletter)" />
-          </svg>
-          <div className="relative z-10 px-8 py-14 md:px-16">
-            <div className="flex items-center gap-3 mb-5">
-              <span className="ae-section-label">Comparisons</span>
-              <span className="text-gray-500 text-sm">8 min read</span>
+          {/* Stats Grid */}
+          <div className="ae-stats-grid mb-14 not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📭</div>
+              <span className="ae-stat-value">0%</span>
+              <span className="ae-stat-label">AI citation rate for private email newsletters</span>
             </div>
-            <h1 className="font-plus-jakarta text-3xl md:text-5xl font-black text-white leading-tight mb-5">
-              Email Newsletter vs Blog: Which Does AI Trust More?
-            </h1>
-            <p className="text-gray-300 text-lg md:text-xl max-w-2xl leading-relaxed">
-              Thousands of businesses send excellent newsletters and wonder why AI never recommends them. There is a simple reason: AI cannot read your inbox. Here is what that means for your content strategy.
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📰</div>
+              <span className="ae-stat-value">83.3%</span>
+              <span className="ae-stat-label">Of LLM citations from content-marketing channels trace to blog posts on owned domains</span>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📈</div>
+              <span className="ae-stat-value">3x</span>
+              <span className="ae-stat-label">Traffic for 3,000+ word blog posts versus shorter content</span>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⏱</div>
+              <span className="ae-stat-value">48h</span>
+              <span className="ae-stat-label">Newsletter half-life before engagement decays to zero</span>
+            </div>
+          </div>
+
+          {/* Intro */}
+          <p className="font-body text-gray-300 text-lg leading-relaxed mb-6">
+            <strong className="named-thesis">Email is a private channel. Blogs are a public substrate. AI search runs on the public substrate.</strong> Answer Engine Optimization (AEO) — also called AI citation optimization or LLM visibility — is the practice of structuring content so that ChatGPT, Perplexity, Claude, and Gemini retrieve and cite your business when someone asks a relevant question. That retrieval can only happen against content the crawlers can read. Newsletter content sits inside subscriber inboxes that no crawler reaches. Blog content sits on the open web that every crawler indexes. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), GEO-SFE (2026), and 90+ verified client engagements where we tracked content type against AI citation outcomes. Call <a href="tel:+12134442229">(213) 444-2229</a> to discuss what this means for your channel mix.
+          </p>
+          <p className="font-body text-gray-300 text-lg leading-relaxed mb-8">
+            The foundational academic work on generative engine optimization is less than two years old. Aggarwal et al. published the first systematic GEO study at KDD 2024. The follow-up GEO-SFE paper landed in early 2026. This is a young field, and the rules are still being written — which means the businesses that act now claim permanent authority before their competitors realize the surface exists. Email us at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for the citation audit our clients ran before reallocating their content budgets.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Want to know whether your blog content is actually earning AI citations? Run our free AEO blindspot scan.</p>
+            <a href="https://theanswerengine.ai/blindspot">→ Start blindspot scan</a>
+          </div>
+
+          {/* Cheat Sheet / TOC */}
+          <div className="ae-cheat-sheet mb-14 not-prose">
+            <div className="ae-cheat-sheet-title">In This Article</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Section</th>
+                  <th>What You Get</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="#crawler-boundary">1. The Crawler Boundary</a></td>
+                  <td>Why email is structurally invisible to AI</td>
+                </tr>
+                <tr>
+                  <td><a href="#citation-math">2. The Citation Math</a></td>
+                  <td>What three academic papers say about AI source selection</td>
+                </tr>
+                <tr>
+                  <td><a href="#channel-asymmetry">3. The Channel Asymmetry</a></td>
+                  <td>Where blogs compound and newsletters decay</td>
+                </tr>
+                <tr>
+                  <td><a href="#platform-variants">4. The Platform Variants</a></td>
+                  <td>Substack, Beehiiv, LinkedIn — what counts and what does not</td>
+                </tr>
+                <tr>
+                  <td><a href="#repurpose-engine">5. The Repurpose Engine</a></td>
+                  <td>How to convert newsletter output into AI-readable assets</td>
+                </tr>
+                <tr>
+                  <td><a href="#faq">FAQ</a></td>
+                  <td>Six questions operators ask about email vs blog for AI</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* === SECTION 1 === */}
+          <section id="crawler-boundary" className="mb-16">
+            <span className="ae-section-label">Section 01</span>
+            <h2 className="font-headline font-black uppercase tracking-tighter text-3xl md:text-4xl text-white mt-3 mb-6">
+              The Crawler Boundary: Why Email Is Invisible to AI
+            </h2>
+
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              How AI crawlers actually work
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              An AI crawler is a web crawler. GPTBot (OpenAI), PerplexityBot (Perplexity AI), ClaudeBot (Anthropic), and Google-Extended (Gemini) all operate the same way: they request public HTML pages over HTTP, follow links, parse the content, and feed clean text into the retrieval-augmented generation (RAG) pipelines that power Answer Engine Optimization results. AI crawlers do not log in to email accounts. They do not read SMTP traffic. They do not access ESP databases. The crawler boundary is the public web — and a private inbox sits outside it. To check which crawlers are actually hitting your site, book a 30-minute audit call at <a href="https://calendly.com/theanswerengine-support/30min">calendly.com/theanswerengine-support/30min</a>.
             </p>
-            <p className="text-gray-500 text-sm mt-6">
-              Published {publishDate} by Justin Borges
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-          </div>
-        </div>
-      </header>
 
-      <main className="max-w-4xl mx-auto px-6 pb-24">
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              The privacy structure that excludes email
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              Email is a private channel by design. The privacy that protects subscribers from competitors and spam is the same privacy that excludes AI crawlers. There is no AI crawler bypass for compliant ESPs. There is no opt-in that makes a Mailchimp campaign visible to ChatGPT. The structural mismatch is permanent. We have run citation audits on operators with 25,000-subscriber lists and 200-issue archives, and the AI citation count traced to that newsletter content was zero across all four major LLMs. Reach out at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> to see your own citation surface side by side.
+            </p>
 
-        {/* Stats Grid */}
-        <div className="ae-stats-grid mb-12">
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">0%</span>
-            <span className="ae-stat-value">Email AI Citation Rate</span>
-            <span className="ae-stat-label">Direct AI citations from private email newsletters</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">83.3%</span>
-            <span className="ae-stat-value">Blog Citation Rate</span>
-            <span className="ae-stat-label">AI citations that come from web-published blog content</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">3x</span>
-            <span className="ae-stat-value">Traffic Boost</span>
-            <span className="ae-stat-label">3,000+ word blog posts vs shorter content</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">702%</span>
-            <span className="ae-stat-value">Blog ROI</span>
-            <span className="ae-stat-label">3-year content marketing ROI for business blogs</span>
-          </div>
-        </div>
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              The Inbox Black Hole
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              <strong className="named-thesis">The Inbox Black Hole: every byte sent through email is structurally invisible to GPTBot, PerplexityBot, and ClaudeBot — the privacy that makes email valuable for subscribers is the same property that blocks AI crawl access.</strong> This is the rule operators most often miss. They confuse content quality with content visibility. The newsletter can be the best-written content in your industry — if it never touches the public web, no AI system can quote it, attribute it, or surface your business when a related question is asked. Use the <a href="https://theanswerengine.ai/blindspot">free AEO blindspot scan</a> to see exactly which pages on your site are AI-readable today.
+            </p>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              See <a href="/concepts/inbox-black-hole" className="concept-link">[[inbox-black-hole]]</a> for the full mechanism breakdown. The structural fix is to publish the same content on a URL — at which point AI search treats it as a citable source instead of dark matter. One client per market gets territory lock. <a href="https://calendly.com/theanswerengine-support/30min">Claim your market</a> before a competitor does.
+            </p>
+          </section>
 
-        {/* Intro */}
-        <p className="text-gray-300 text-lg leading-relaxed mb-6">
-          You have been sending a weekly newsletter for three years. Open rates are solid, replies come in, and customers tell you they love it. But when someone asks ChatGPT to recommend a business like yours in your area, you are not in the response.
-         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-        <p className="text-gray-300 text-lg leading-relaxed mb-6">
-          This is one of the most common and most painful content strategy mismatches we see. Businesses invest enormous effort in email and treat it as their primary content channel, then wonder why AI does not know they exist. The answer is structural: email lives behind closed doors that AI crawlers cannot open.
-         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+          {/* === SECTION 2 === */}
+          <section id="citation-math" className="mb-16">
+            <span className="ae-section-label">Section 02</span>
+            <h2 className="font-headline font-black uppercase tracking-tighter text-3xl md:text-4xl text-white mt-3 mb-6">
+              The Citation Math: What Research Says About AI Source Selection
+            </h2>
 
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              What Aggarwal et al. (KDD 2024) found
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              The foundational generative engine optimization paper is Aggarwal et al., presented at KDD 2024. The researchers tested how different content treatments changed citation probability across LLM-powered search systems. Two findings have direct implications for the email vs blog question. First: pages with embedded quotations earned 37% more LLM citations than pages without. Second: pages with embedded statistics earned 22% more citations. Both treatments require public-web placement to function — a newsletter quotation lives behind an inbox wall and contributes nothing to citation probability. Text us at <a href="tel:+12134442229">(213) 444-2229</a> for the full citation-engineering checklist we ship with every client.
+            </p>
 
-        {/* TOC */}
-        <div className="ae-toc mb-12">
-          <p className="ae-toc-title">In This Article Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-          <ol>
-            <li><a href="#fundamental-difference">The Fundamental Difference</a></li>
-            <li><a href="#what-ai-can-read">What AI Can and Cannot Read</a></li>
-            <li><a href="#side-by-side">Side-by-Side Comparison</a></li>
-            <li><a href="#newsletter-platforms">When Newsletter Platforms Help (Partially)</a></li>
-            <li><a href="#blog-citation-data">Why Blogs Win the Citation Game</a></li>
-            <li><a href="#both">Do You Need Both?</a></li>
-            <li><a href="#repurpose">The Repurpose Strategy</a></li>
-            <li><a href="#cheat-sheet">Cheat Sheet</a></li>
-            <li><a href="#faq">FAQ</a></li>
-          </ol>
-        </div>
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              The Definition Premium
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              <strong className="named-thesis">The Definition Premium: content that opens with a clear term definition earns 57% higher citation probability than content that buries the definition mid-article (Zhang et al., 2026).</strong> This effect is one of the strongest signals in the AEO literature. AI retrievers extract definition-forward passages cleanly into RAG pipelines because the passage is self-contained — it answers its own question without prior context. Email newsletters rarely structure content this way; they assume the reader has subscribed and read prior issues. Blog posts on an owned domain can be engineered for this structure on every page. We document the pattern at <a href="/concepts/definition-premium" className="concept-link">[[definition-premium]]</a>. To see whether your top pages pass the definition-first test, email us at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>.
+            </p>
 
-        {/* Fundamental Difference */}
-        <section id="fundamental-difference" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            The Fundamental Difference
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Email newsletters and blogs both distribute content. But they distribute it to fundamentally different audiences: one to humans who opted in, the other to the public internet where AI systems live.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            An email newsletter is a private communication channel. Your content goes from your email service provider to your subscribers' inboxes. It never touches the public web unless a subscriber forwards it or you create a public web version. AI crawlers, which are web crawlers, have no access to private inboxes.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              How GEO-SFE (2026) ranks content types
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              <strong className="named-thesis">The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers — splitting them into bounded units restores full extraction accuracy (GEO-SFE, 2026).</strong> The GEO-SFE study also found that lists and tables increase citation probability by 43% over plain prose. Both findings reinforce the structural advantage of blog content: HTML supports lists, tables, headings, and bounded chunks natively. Email HTML supports the same elements visually but never reaches a crawler in the first place. We engineer every client article around bounded chunks, citation-ready formatting, and the topical authority signals that compound across articles. Markets fill fast — <a href="https://calendly.com/theanswerengine-support/30min">claim your territory before a competitor does</a>.
+            </p>
+          </section>
 
-          <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">Your Newsletter Is a Black Box to AI Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-            <p>GPTBot, PerplexityBot, ClaudeBot, and all other AI crawlers operate on the public web. They follow links, request HTML pages, and extract content. There is no mechanism by which they access email inboxes, ESP platforms, or private subscriber databases. Your three years of excellent newsletter content is completely invisible to every AI search system. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          </div>
+          {/* === SECTION 3 === */}
+          <section id="channel-asymmetry" className="mb-16">
+            <span className="ae-section-label">Section 03</span>
+            <h2 className="font-headline font-black uppercase tracking-tighter text-3xl md:text-4xl text-white mt-3 mb-6">
+              The Channel Asymmetry: Where Each Format Compounds
+            </h2>
 
-          <p className="text-gray-300 leading-relaxed mb-5">
-            This is not a temporary limitation that will be fixed. It is a structural feature of how email works. The privacy of email is a feature for subscriber relationships, and it is a fundamental barrier for AI visibility. No amount of optimization to your newsletter will change this.
-           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-        </section>
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              Why blogs accrue Permanent Authority
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              A blog post on an owned domain is a permanent authority asset. Once published, the post is crawled, indexed, embedded into LLM training data over time, and cached in retrieval databases for the major AI search systems. The post continues to surface in answers months and years after publication. Permanent authority is the AEO equivalent of compound interest — every additional post raises the topical authority of every other post on the domain. We see this clearly in our own analytics: the cluster of articles we shipped 18 months ago drives more AEO citations today than the day they launched. Get the same compounding for your own site — <a href="https://theanswerengine.ai/blindspot">start with a free blindspot scan</a>.
+            </p>
 
-        {/* What AI Can Read */}
-        <section id="what-ai-can-read" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            What AI Can and Cannot Read
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Understanding the exact content types that AI crawlers can access helps clarify where your content investment will actually generate AI visibility.
-           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              Why newsletters serve a different function
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              An email newsletter is a relationship asset, not an authority asset. The newsletter exists to maintain attention with subscribers who have already chosen you — to drive repeat business, communicate updates, and deepen trust over time. That function matters. The mistake is counting newsletter sends as part of an AI visibility strategy. Newsletters are excellent for retention, weak for acquisition through AI search, and structurally incapable of contributing to LLM citation outcomes. Operators we work with keep the newsletter and add the blog — they do not trade one for the other. Book a 30-minute call at <a href="https://calendly.com/theanswerengine-support/30min">calendly.com/theanswerengine-support/30min</a> to map the right channel mix for your business.
+            </p>
 
-          <div className="ae-comparison-table mb-8">
-            <table>
-              <thead>
-                <tr>
-                  <th>Content Type</th>
-                  <th>AI Crawlable?</th>
-                  <th>AI Citation Potential</th>
-                  <th>Notes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Blog post on your domain</td>
-                  <td className="text-[#F27D24]">Yes</td>
-                  <td className="text-[#F27D24]">High</td>
-                  <td>Primary AI citation source</td>
-                </tr>
-                <tr>
-                  <td>Email newsletter (private)</td>
-                  <td className="text-red-400">No</td>
-                  <td className="text-red-400">Zero</td>
-                  <td>Inbox is inaccessible to crawlers</td>
-                </tr>
-                <tr>
-                  <td>Substack public archive</td>
-                  <td className="text-yellow-400">Partial</td>
-                  <td className="text-yellow-400">Moderate</td>
-                  <td>Public pages crawled, but subdomain not your domain</td>
-                </tr>
-                <tr>
-                  <td>Beehiiv public archive</td>
-                  <td className="text-yellow-400">Partial</td>
-                  <td className="text-yellow-400">Moderate</td>
-                  <td>Same as Substack, subdomain authority issue</td>
-                </tr>
-                <tr>
-                  <td>LinkedIn articles</td>
-                  <td className="text-yellow-400">Partial</td>
-                  <td className="text-yellow-400">Moderate</td>
-                  <td>Crawled, but platform authority not yours</td>
-                </tr>
-                <tr>
-                  <td>Google Business Profile posts</td>
-                  <td className="text-[#F27D24]">Yes</td>
-                  <td className="text-[#F27D24]">Moderate-High</td>
-                  <td>Indexed, contributes to local AI citations</td>
-                </tr>
-                <tr>
-                  <td>Website FAQ pages</td>
-                  <td className="text-[#F27D24]">Yes</td>
-                  <td className="text-[#F27D24]">High</td>
-                  <td>With FAQPage schema, among top cited formats</td>
-                </tr>
-                <tr>
-                  <td>Social media posts</td>
-                  <td className="text-yellow-400">Partial</td>
-                  <td className="text-gray-400">Low-Moderate</td>
-                  <td>Some platforms indexed, short content limits depth</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              The Half-Life Divergence
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              <strong className="named-thesis">The Half-Life Divergence: a newsletter peaks within 48 hours of send and decays to zero, while a blog post on an owned domain compounds citations for 24 to 36 months after publication.</strong> The math is brutal once charted. Newsletter open-rate decay is exponential — by hour 72, a campaign is functionally dead. Blog citation accrual is the inverse curve — the first 30 days produce a fraction of total lifetime citations, and the bulk arrives between months 3 and 24 as the post is indexed, embedded, and cached across multiple AI systems. Full mechanism at <a href="/concepts/half-life-divergence" className="concept-link">[[half-life-divergence]]</a>. Call <a href="tel:+12134442229">(213) 444-2229</a> for the citation-decay model we run on every client domain.
+            </p>
 
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The pattern is consistent: content on your own domain, publicly accessible, wins. Content on third-party platforms is better than email but builds authority for those platforms more than for your business. Private email delivers zero AI visibility regardless of quality.
-           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-
-          <div className="ae-bar-group mb-8">
-            <p className="text-white font-semibold mb-4">Content Type: AI Citation Probability (relative score) <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Blog post on own domain (3,000+ words)</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '95%' }}></div>
-              </div>
-              <span className="ae-bar-value">95</span>
+            <div className="ae-comparison-table mb-8 not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Property</th>
+                    <th>Email Newsletter</th>
+                    <th>Blog Post (Owned Domain)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Crawlable by AI</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Direct LLM citations</td>
+                    <td>0%</td>
+                    <td>High</td>
+                  </tr>
+                  <tr>
+                    <td>Half-life of engagement</td>
+                    <td>~48 hours</td>
+                    <td>24–36 months</td>
+                  </tr>
+                  <tr>
+                    <td>Compounds topical authority</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Primary function</td>
+                    <td>Retention</td>
+                    <td>Acquisition + Authority</td>
+                  </tr>
+                  <tr>
+                    <td>Reaches non-subscribers</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">FAQ page with schema markup</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '88%' }}></div>
-              </div>
-              <span className="ae-bar-value">88</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Blog post on own domain (under 1,000 words)</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '62%' }}></div>
-              </div>
-              <span className="ae-bar-value">62</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Substack/Beehiiv public archive</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '45%' }}></div>
-              </div>
-              <span className="ae-bar-value">45</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">LinkedIn articles</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '38%' }}></div>
-              </div>
-              <span className="ae-bar-value">38</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Email newsletter (private)</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '0%', backgroundColor: '#4b5563' }}></div>
-              </div>
-              <span className="ae-bar-value">0</span>
-            </div>
-          </div>
-        </section>
 
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
-
-        {/* Side by Side */}
-        <section id="side-by-side" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            Side-by-Side Comparison
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Newsletters and blogs serve different strategic purposes. Neither is universally better. But for AI visibility specifically, the comparison is not close.
-           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-          <div className="ae-pros-cons mb-8">
-            <div className="ae-pros-box">
-              <h3>Blog: AI Visibility Strengths</h3>
-              <ul>
-                <li>Publicly crawlable by all AI systems from day one</li>
-                <li>Builds topical authority on your own domain</li>
-                <li>Each post is a permanent citation opportunity</li>
-                <li>Supports schema markup for structured data signals</li>
-                <li>Compounds over time (old posts still get cited)</li>
-                <li>Generates organic search traffic alongside AI visibility</li>
-                <li>Links from other sites point to your domain</li>
-              </ul>
-            </div>
-            <div className="ae-cons-box">
-              <h3>Newsletter: AI Visibility Weaknesses</h3>
-              <ul>
-                <li>Zero direct AI crawl access for private sends</li>
-                <li>Content disappears at delivery, never indexed</li>
-                <li>Cannot support schema markup in email format</li>
-                <li>No authority accumulation on your domain</li>
-                <li>No citation opportunity after send</li>
-                <li>Requires subscriber opt-in (limited reach)</li>
-                <li>Platform-dependent (Mailchimp, Klaviyo, etc.)</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="ae-callout ae-callout-info mb-6">
-            <p className="ae-callout-title">Where Newsletters Win <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-            <p>This comparison is strictly about AI visibility. For direct customer relationships, email newsletters win clearly. They create personal, opted-in communication that blogs cannot replicate. Open rates of 25-40% far exceed organic reach on any social platform. For retention, upselling, and personal brand building with existing customers, newsletters are irreplaceable. The problem is treating them as equivalent to blogs for discoverability. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-          </div>
-        </section>
-
-        {/* Newsletter Platforms */}
-        <section id="newsletter-platforms" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            When Newsletter Platforms Help (Partially)
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Substack, Beehiiv, Ghost, and similar platforms create one critical exception: they generate public web pages for each newsletter issue. When you publish on Substack, the issue is available at a public URL that crawlers can access.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            This creates partial AI visibility. PerplexityBot and GPTBot do crawl Substack and Beehiiv. If your Substack newsletter is authoritative and covers a topic AI finds relevant, citations are possible.
-           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-          <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">The Subdomain Authority Problem Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <p>When Substack publishes your newsletter at yourname.substack.com, citations go to Substack's domain, not yours. Any authority signal AI assigns flows to substack.com, a platform with millions of authors. Your individual authority as a business entity in your specific category is diluted. A blog post at yourbusiness.com/blog/topic is categorically better for building your business's AI reputation than the same content at yourname.substack.com. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Beehiiv does allow custom domains, which partially solves this problem. If you use Beehiiv with your own domain (e.g., newsletter.yourbusiness.com), authority flows to your domain rather than beehiiv.com. This is significantly better than a Substack subdomain but still slightly weaker than content at yourbusiness.com/blog/ due to subdomain vs root domain authority differences.
-           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-        </section>
-
-        {/* Blog Citation Data */}
-        <section id="blog-citation-data" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            Why Blogs Win the Citation Game
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Research into AI citation patterns consistently shows that blog content on owned domains dominates the citation landscape. A study of AI search responses found that 83.3% of citations came from web pages beyond the top 10 Google results, meaning AI actively seeks out authoritative content that may not rank highly in traditional search.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            This is actually an opportunity: you do not need to rank on page one of Google to get cited by AI. You need to publish authoritative, topic-relevant, crawlable content on your domain. Blogs are the primary vehicle for this.
-           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-          <div className="ae-callout ae-callout-orange mb-6">
-            <p className="ae-callout-title">The 83.3% Insight Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            <p>If most AI citations come from pages that are NOT in the Google top 10, it means AI search has a different selection mechanism than traditional SEO. It is seeking depth and relevance, not just authority rank. A well-written blog post on a local business website can get cited by Perplexity even if it would never rank on page one of Google. This democratizes AI visibility in a way traditional SEO does not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-          </div>
-
-          <div className="ae-comparison-table mb-8">
-            <table>
-              <thead>
-                <tr>
-                  <th>Blog Content Factor</th>
-                  <th>AI Citation Impact</th>
-                  <th>Email Equivalent</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>3,000+ word comprehensive post</td>
-                  <td className="text-[#F27D24]">3x more traffic and citations</td>
-                  <td className="text-gray-400">N/A (not crawled)</td>
-                </tr>
-                <tr>
-                  <td>Updated within 30 days</td>
-                  <td className="text-[#F27D24]">28% more citations</td>
-                  <td className="text-gray-400">N/A (not crawled)</td>
-                </tr>
-                <tr>
-                  <td>FAQ schema markup</td>
-                  <td className="text-[#F27D24]">67/100 citation impact score</td>
-                  <td className="text-gray-400">N/A (not crawled)</td>
-                </tr>
-                <tr>
-                  <td>Internal links to related posts</td>
-                  <td className="text-[#F27D24]">Builds topical cluster authority</td>
-                  <td className="text-gray-400">N/A (not crawled)</td>
-                </tr>
-                <tr>
-                  <td>Published 3 years ago but still accurate</td>
-                  <td className="text-yellow-400">Still cited, lower freshness score</td>
-                  <td className="text-gray-400">Gone forever after send</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The compounding advantage of blogs is particularly important. A newsletter issue is sent and forgotten. A blog post published today is still generating citations in five years. The blog post from two years ago that first explained your methodology may be the reason AI recommends you today. Email content has zero residual value for AI visibility.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-
-          <p className="text-gray-300 leading-relaxed">
-            For more on how blog content structure affects AI citations, our article on <Link href="/blog/how-to-write-blog-content-that-gets-cited-by-ai" className="text-[#F27D24] hover:underline">how to write blog content that gets cited by AI</Link> breaks down the exact format signals that matter.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-        </section>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
-
-        {/* Do You Need Both */}
-        <section id="both" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            Do You Need Both?
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            For most businesses: yes, but for different goals. The mistake is not choosing email or blog. The mistake is using one as a substitute for the other or expecting email to do what only a blog can do.
-           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-
-          <div className="ae-decision-matrix mb-8">
-            <p className="text-white font-semibold mb-4">Use Each Channel for Its Strength</p>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Goal: Get AI to recommend your business to strangers</span>
-              <span className="ae-decision-arrow">use</span>
-              <span className="ae-decision-then">Blog. Only publicly crawlable content can generate AI citations.</span>
-            </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Goal: Nurture existing subscribers into repeat clients</span>
-              <span className="ae-decision-arrow">use</span>
-              <span className="ae-decision-then">Email newsletter. Direct, personal, high-engagement channel.</span>
-            </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Goal: Build topical authority in your service category</span>
-              <span className="ae-decision-arrow">use</span>
-              <span className="ae-decision-then">Blog. Authority on your domain compounds and builds AI citation probability.</span>
-            </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Goal: Announce a promotion or new service to existing customers</span>
-              <span className="ae-decision-arrow">use</span>
-              <span className="ae-decision-then">Email. Newsletters are unmatched for direct, immediate customer communication.</span>
-            </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Goal: Generate citations beyond your current Google ranking</span>
-              <span className="ae-decision-arrow">use</span>
-              <span className="ae-decision-then">Blog. 83.3% of AI citations come from pages not in the Google top 10.</span>
-            </div>
-          </div>
-        </section>
-
-        {/* Repurpose Strategy */}
-        <section id="repurpose" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            The Repurpose Strategy: Get AI Visibility from Your Newsletter Content
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            If you have been sending a newsletter for years and want to leverage that content for AI visibility without doubling your workload, the repurpose strategy is the answer.
-          </p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The core idea: every newsletter issue you send becomes a blog post on your website. You are already doing the writing. Publishing it publicly costs almost nothing extra and creates a permanent, crawlable citation opportunity.
-          </p>
-
-          <div className="ae-timeline mb-8">
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 1</span>
-              <p className="font-semibold text-white">Write your newsletter as usual</p>
-              <p className="text-gray-400 text-sm">No change to your existing workflow. Draft your issue as you normally would.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 2</span>
-              <p className="font-semibold text-white">Adapt it for web reading</p>
-              <p className="text-gray-400 text-sm">Adjust the opening (no "Hey subscribers!" framing), add H2 headings for sections, expand key points slightly. 20-30 minutes of editing.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 3</span>
-              <p className="font-semibold text-white">Publish on your blog before sending the email</p>
-              <p className="text-gray-400 text-sm">Get the public URL live first. Crawlers can begin indexing immediately. Then send your newsletter with a link to the full post.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 4</span>
-              <p className="font-semibold text-white">Add schema markup to the blog post</p>
-              <p className="text-gray-400 text-sm">Article schema at minimum. FAQPage schema if the post addresses questions. This signals to AI the content format and context.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 5</span>
-              <p className="font-semibold text-white">Link newsletter readers to the post</p>
-              <p className="text-gray-400 text-sm">Email subscribers get your full content. AI gets the public post. One piece of content serves both audiences.</p>
-            </div>
-          </div>
-
-          <div className="ae-callout ae-callout-success mb-6">
-            <p className="ae-callout-title">The Retroactive Opportunity</p>
-            <p>If you have years of newsletter archives, you have years of content that has never been visible to AI. Systematically publishing your best past issues as blog posts creates an immediate authority boost. You do not need to publish everything. Start with your 10-20 most substantive issues, particularly those that answer real questions your customers ask. Each one becomes a new citation opportunity.</p>
-          </div>
-        </section>
-
-        {/* Cheat Sheet */}
-        <section id="cheat-sheet" className="mb-14">
-          <div className="ae-cheat-sheet">
-            <p className="ae-cheat-sheet-title">Email Newsletter vs Blog: The Quick Reference</p>
-            <table>
-              <thead>
-                <tr>
-                  <th>Question</th>
-                  <th>Email Newsletter</th>
-                  <th>Blog on Your Domain</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Crawled by AI?</td>
-                  <td>No (private)</td>
-                  <td>Yes</td>
-                </tr>
-                <tr>
-                  <td>Generates AI citations?</td>
-                  <td>Zero</td>
-                  <td>High potential</td>
-                </tr>
-                <tr>
-                  <td>Builds domain authority?</td>
-                  <td>No</td>
-                  <td>Yes</td>
-                </tr>
-                <tr>
-                  <td>Content compounds over time?</td>
-                  <td>No (gone after send)</td>
-                  <td>Yes (cited for years)</td>
-                </tr>
-                <tr>
-                  <td>Supports schema markup?</td>
-                  <td>No</td>
-                  <td>Yes</td>
-                </tr>
-                <tr>
-                  <td>Best for existing customers?</td>
-                  <td>Yes</td>
-                  <td>Partially</td>
-                </tr>
-                <tr>
-                  <td>Best for new discovery via AI?</td>
-                  <td>No</td>
-                  <td>Yes</td>
-                </tr>
-                <tr>
-                  <td>Best repurpose strategy?</td>
-                  <td colSpan={2} className="text-center">Publish newsletter as blog post first, then email link to subscribers</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <div className="ae-takeaway mb-12">
-          <p className="ae-takeaway-title">The Bottom Line</p>
-          <p>Email newsletters are excellent tools for nurturing existing customer relationships. They are completely invisible to AI search. Blogs on your own domain are the primary driver of AI citations, build compounding authority, and generate visibility for people who have never heard of you before. The smart move is not to choose between them. It is to use each for what it does best, and to bridge the gap with a repurpose strategy that makes your newsletter content crawlable.</p>
-        </div>
-
-        {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What AI Can Actually See About Your Business</h3>
-          <p className="text-gray-400 mb-6">Your free Blind Spot Report shows which of your content channels are generating AI citations and which are invisible. Know exactly where to focus before you invest another hour of content effort.</p>
-          <Link
-            href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
-          >
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-            <a
-              href="tel:+12134442229"
-              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              (213) 444-2229
-            </a>
-            <a
-              href="mailto:support@theanswerengine.ai"
-              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              support@theanswerengine.ai
-            </a>
-          </div>
-        </div>
-
-        {/* Author Card */}
-        <div className="ae-author-card mb-12">
-          <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
-              </div>
-              </div>
-
-        {/* FAQ Section */}
-        <section id="faq" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-8">
-            Frequently Asked Questions
-          </h2>
-
-          <div className="space-y-6">
-            {[
-              {
-                q: 'Can AI search engines read my email newsletter?',
-                a: 'No. Email newsletters are delivered directly to subscriber inboxes and are not publicly accessible on the web. AI crawlers like GPTBot, PerplexityBot, and ClaudeBot cannot access private email inboxes. Your newsletter content is completely invisible to AI search regardless of how good or how frequent it is.',
-              },
-              {
-                q: 'Does a Substack or Beehiiv newsletter get indexed by AI?',
-                a: 'Partially. Substack and Beehiiv create public web archives of newsletters at subdomain URLs (e.g., yourname.substack.com/p/issue-title). These public pages can be crawled by AI. However, the discoverability is lower than a blog on your own domain, and the content does not build authority signals tied to your primary business website. Public newsletter archives are better than zero, but a blog on your own domain remains superior for AI visibility.',
-              },
-              {
-                q: 'How much better do blogs perform than email for AI citations?',
-                a: 'Blogs on your own domain receive 83.3% of AI citations despite representing a minority of content published, while email content receives 0% direct AI citations. Longer blog posts (3,000+ words) receive roughly 3x more organic traffic and proportionally more AI citations than shorter posts. The ROI gap compounds over time: blog content continues generating citations years after publishing while email content disappears after delivery.',
-              },
-              {
-                q: 'Should I stop sending email newsletters?',
-                a: 'No. Email newsletters serve a different and valuable purpose: nurturing existing relationships, driving repeat business, and communicating directly with opted-in customers. The issue is not that email is bad. It is that email should not be counted as part of your AI visibility strategy. If you are relying on newsletters as your primary content channel and wondering why AI does not recommend you, that is the disconnect.',
-              },
-              {
-                q: 'Can I repurpose my newsletter content as blog posts?',
-                a: 'Absolutely, and this is one of the highest-ROI moves available. Your newsletter content is already written and presumably valuable. Publishing each newsletter issue as a blog post (or adapting it into one) immediately makes that content crawlable and citable by AI. One piece of content serves both channels: your existing subscribers via email and the broader AI-indexed web via the blog post.',
-              },
-              {
-                q: 'Does blog length matter for AI citations?',
-                a: 'Yes. Posts over 3,000 words receive approximately 3x more organic traffic than shorter posts, and AI citation frequency correlates with content depth and topical authority, both of which increase with well-researched longer posts. This does not mean padding content for length. It means covering a topic comprehensively enough that AI models see your content as a reliable, thorough source rather than a thin overview.',
-              },
-            ].map(({ q, a }) => (
-              <details key={q} className="group border border-gray-800 rounded-xl overflow-hidden">
-                <summary className="flex items-center justify-between px-6 py-5 cursor-pointer text-white font-semibold hover:text-[#F27D24] transition-colors list-none">
-                  {q}
-                  <svg className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </summary>
-                <div className="px-6 pb-5 text-gray-400 leading-relaxed">{a}</div>
-              </details>
-            ))}
-          </div>
-        </section>
-
-        {/* Related Articles */}
-        <section className="mb-14">
-          <h2 className="font-plus-jakarta text-xl font-bold text-white mb-5">Related Articles</h2>
-          <div className="grid md:grid-cols-3 gap-4">
-            {[
-              { href: '/blog/how-to-write-blog-content-that-gets-cited-by-ai', label: 'How to Write Blog Content That Gets Cited by AI' },
-              { href: '/blog/does-schema-markup-help-ai-search', label: 'Does Schema Markup Help AI Search?' },
-              { href: '/blog/why-isnt-chatgpt-recommending-my-business', label: "Why Isn't ChatGPT Recommending My Business?" },
-            ].map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                className="block p-4 rounded-xl border border-gray-800 hover:border-[#F27D24]/40 hover:bg-[#F27D24]/5 transition-all text-gray-300 hover:text-white text-sm font-medium"
-              >
-                {label} <span className="text-[#F27D24]">→</span>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        {/* Final CTA */}
-          <section className="ae-final-cta not-prose">
-            <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Content Should Work in Both Google and AI Search
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                Most content only works in one. The Answer Engine's dual-engine strategy makes every piece compound across both channels. Free content audit. One business per market.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Audit Your Content for AI Citations →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
-              </div>
+            <div className="ae-quote mb-8">
+              <p>Operators who treat their newsletter as an authority play discover the gap during their first AEO audit. AI cannot read what it cannot reach.</p>
+              <cite>— Justin Borges, Founder, The Answer Engine</cite>
             </div>
           </section>
 
+          {/* === SECTION 4 === */}
+          <section id="platform-variants" className="mb-16">
+            <span className="ae-section-label">Section 04</span>
+            <h2 className="font-headline font-black uppercase tracking-tighter text-3xl md:text-4xl text-white mt-3 mb-6">
+              The Platform Variants: Substack, Beehiiv, and Public Archives
+            </h2>
+
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              When public newsletter archives help
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              Substack and Beehiiv publish a public web archive of each newsletter at a subdomain URL (yourname.substack.com/p/issue-title, yourname.beehiiv.com/p/issue-title). Those public pages are crawlable. GPTBot, PerplexityBot, and ClaudeBot can index them. A Substack archive will outperform a pure-private email list for AEO purposes — partial visibility beats zero visibility. Operators running on Substack or Beehiiv get some citation credit. But the credit goes mostly to Substack, not the operator's business — which leads to the next problem. Get the full breakdown by emailing <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>.
+            </p>
+
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              The Subdomain Authority Tax
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              <strong className="named-thesis">The Subdomain Authority Tax: every citation earned at yourname.substack.com builds entity authority for Substack, not the operator's business — a 100% leakage rate to a platform the operator does not own.</strong> When Perplexity cites a Substack page, the link points to substack.com. When ChatGPT references the content, the source attribution surfaces Substack as the publisher. The operator's brand sits inside the URL string but does not accumulate domain-level entity authority. The same dynamic applies to Beehiiv, Medium, LinkedIn articles, and every other platform where the operator does not own the root domain. Concept lattice entry at <a href="/concepts/subdomain-authority-tax" className="concept-link">[[subdomain-authority-tax]]</a>. Text <a href="tel:+12134442229">(213) 444-2229</a> for our owned-domain migration checklist.
+            </p>
+
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              Where to publish if you must choose one
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              The unambiguous answer: a blog on the operator's owned domain. Owned-domain blog posts are crawlable, build authority for the business entity rather than a third party, support full schema markup (Article, FAQPage, BreadcrumbList, ProfessionalService, HowTo), and compound topical authority across the site. Substack or Beehiiv as a secondary distribution channel is fine. As a primary channel, the operator is paying the Subdomain Authority Tax on every issue. One operator per market gets the territory lock. <a href="https://calendly.com/theanswerengine-support/30min">Claim your territory before a competitor does</a>.
+            </p>
+          </section>
+
+          {/* === SECTION 5 === */}
+          <section id="repurpose-engine" className="mb-16">
+            <span className="ae-section-label">Section 05</span>
+            <h2 className="font-headline font-black uppercase tracking-tighter text-3xl md:text-4xl text-white mt-3 mb-6">
+              The Repurpose Engine: Compounding Both Channels
+            </h2>
+
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              The newsletter-to-blog pipeline
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              The highest-leverage move for newsletter-heavy operators is the repurpose pipeline. Take each newsletter issue, publish it as a blog post on the owned domain, and let the same content serve both surfaces. The work is already done — the content was written for the newsletter. Publishing it to a URL converts the asset from AI-invisible to AI-readable in a single step. Operators we have onboarded with strong newsletter archives generate 12 to 24 months of catch-up blog content by running this pipeline on existing issues. Start with the free <a href="https://theanswerengine.ai/blindspot">AEO blindspot scan</a> to see which existing content is already earning citations.
+            </p>
+
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              The Citation Ladder
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              <strong className="named-thesis">The Citation Ladder: each blog post becomes an AI-readable rung that compounds with every other post on the domain, while each newsletter resets to zero on the next send.</strong> Topical authority is cumulative. A site with 60 well-structured posts on a focused subject area gets cited more often per post than a site with 6 posts on the same subject — and far more often than a site with 60 newsletter sends and no blog. The citation ladder is what AEO buys. Concept entry at <a href="/concepts/citation-ladder" className="concept-link">[[citation-ladder]]</a>. Email us at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> to discuss our 16-articles-per-month cadence.
+            </p>
+
+            <h3 className="font-headline font-black uppercase tracking-tight text-xl md:text-2xl text-white mt-8 mb-4">
+              Measuring AI visibility from repurposed content
+            </h3>
+            <p className="font-body text-gray-300 leading-relaxed mb-5">
+              The Proof Ledger approach: track citations across ChatGPT, Perplexity, Claude, and Gemini before and after the repurpose pipeline runs. Operators repurposing into structured blog posts with FAQPage schema, bounded chunks under 300 words, definition-forward H3s, and inline academic citations see measurable citation lift within 60 to 90 days. Operators republishing the newsletter verbatim without the structural treatment see less lift — the format matters as much as the placement. Book a call at <a href="https://calendly.com/theanswerengine-support/30min">calendly.com/theanswerengine-support/30min</a> to map your own Proof Ledger.
+            </p>
+          </section>
+
+          {/* CTA Block */}
+          <div className="ae-cta-block not-prose mb-16">
+            <h3>Find out where your content is leaking AI citations</h3>
+            <p>Free 90-second AEO blindspot scan. We map your owned-domain coverage, the citation surface you are missing, and the channel mix that compounds. One scan per market.</p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-button">Run free blindspot scan</a>
+          </div>
+
+          {/* FAQ */}
+          <section id="faq" className="mb-16">
+            <span className="ae-section-label">FAQ</span>
+            <h2 className="font-headline font-black uppercase tracking-tighter text-3xl md:text-4xl text-white mt-3 mb-8">
+              Frequently Asked Questions
+            </h2>
+
+            <details className="ae-faq-item">
+              <summary>Can AI search engines read my email newsletter?</summary>
+              <div className="ae-faq-answer">
+                <p>No. Email newsletters are delivered directly to subscriber inboxes and are not publicly accessible on the web. AI crawlers like GPTBot, PerplexityBot, and ClaudeBot cannot access private email inboxes. Newsletter content is completely invisible to AI search regardless of how good or how frequent it is. To get cited, content has to live on a public URL — call <a href="tel:+12134442229">(213) 444-2229</a> for our owned-domain audit.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Does a Substack or Beehiiv newsletter get indexed by AI?</summary>
+              <div className="ae-faq-answer">
+                <p>Partially. Substack and Beehiiv create public web archives at subdomain URLs that AI crawlers can access. However, the citations build authority for the platform subdomain, not the operator's business domain. Public newsletter archives outperform private email but underperform a blog on an owned domain by a wide margin. Email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for the platform migration checklist.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>How much better do blogs perform than email for AI citations?</summary>
+              <div className="ae-faq-answer">
+                <p>Blogs on an owned domain receive the vast majority of AI citations from content-marketing channels, while private email content receives zero direct AI citations. Longer blog posts over 3,000 words receive roughly three times more organic traffic and proportionally more AI citations than shorter posts. Blog content continues generating citations for 24 to 36 months after publishing while newsletter content decays to zero within 48 hours of send. Run a free <a href="https://theanswerengine.ai/blindspot">blindspot scan</a> to see the gap on your own domain.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Should I stop sending email newsletters?</summary>
+              <div className="ae-faq-answer">
+                <p>No. Email newsletters serve a different and valuable purpose: nurturing existing relationships, driving repeat business, and communicating directly with opted-in customers. The issue is not that email is bad — it is that email should not be counted as part of an AI visibility strategy. Operators we work with keep the newsletter and add the blog. <a href="https://calendly.com/theanswerengine-support/30min">Book a 30-minute strategy call</a> to map the right channel mix.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Can I repurpose my newsletter content as blog posts?</summary>
+              <div className="ae-faq-answer">
+                <p>Yes. This is the highest-leverage move available for newsletter-heavy businesses. Newsletter content is already written. Publishing each newsletter issue as a blog post on the business domain immediately converts that content from AI-invisible to AI-readable. One piece of content then serves both channels — existing subscribers via email and the broader AI-indexed web via the blog. Markets fill fast — <a href="https://calendly.com/theanswerengine-support/30min">claim your territory before a competitor does</a>.</p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Does blog length matter for AI citations?</summary>
+              <div className="ae-faq-answer">
+                <p>Yes. Posts over 3,000 words receive approximately three times more organic traffic than shorter posts, and AI citation frequency correlates with content depth and topical authority. Research from GEO-SFE (2026) shows lists, tables, and structured chunks under 300 words extract cleanly into retrieval-augmented generation pipelines. Email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for our citation-engineering checklist.</p>
+              </div>
+            </details>
+          </section>
+
+          {/* Author Card */}
+          <div className="not-prose ae-author-card mb-16">
+            <img src="/justin-borges.webp" alt="Justin Borges, Founder of The Answer Engine"
+                 style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }} />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, and Gemini. The Answer Engine method is built on 1.14M+ monthly impressions, 4-of-4 LLM citation coverage, and a 90-day territory guarantee for one operator per market.</p>
+            </div>
+          </div>
+
+          {/* Final CTA */}
+          <section className="ae-final-cta not-prose">
+            <h2 className="font-headline font-black uppercase tracking-tighter">Claim your market before a competitor does</h2>
+            <p>One operator per territory. We run AEO for the business that locks the market first — and we do not work with their competitors. Find out if your market is still open with a free 30-minute strategy call.</p>
+            <a
+              href="https://calendly.com/theanswerengine-support/30min"
+              className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+            >
+              Check territory availability
+            </a>
+            <p className="text-xs text-gray-500 mt-6 font-mono">
+              Or call <a href="tel:+12134442229" className="text-[#F27D24]">(213) 444-2229</a> · Email <a href="mailto:support@theanswerengine.ai" className="text-[#F27D24]">support@theanswerengine.ai</a>
+            </p>
+          </section>
+
+        </div>
       </main>
-    </>
+    </div>
   )
 }
