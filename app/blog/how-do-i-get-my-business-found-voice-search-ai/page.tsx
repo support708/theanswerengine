@@ -1,32 +1,37 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import Link from 'next/link'
 
 export const revalidate = 86400
 export const dynamic = 'force-static'
 
-const title =
-  'How Do I Get My Business Found on Voice Search and AI?'
+const title = 'How Do I Get My Business Found on Voice Search and AI?'
+const metaTitle = 'How to Get Found on Voice Search & AI | The Answer Engine'
 const description =
-  'Voice search drives 58% of local business queries. Learn how to optimize your business for Siri, Alexa, Google Assistant, and AI platforms so customers find you first.'
+  'Voice search runs 58% of local queries and AI assistants return one answer. We show you the exact AEO structure that wins the citation.'
 const slug = 'how-do-i-get-my-business-found-voice-search-ai'
 const publishDate = '2026-03-09'
+const modifiedDate = '2026-06-01'
 
 export const metadata: Metadata = {
-  title,
+  title: metaTitle,
   description,
+  keywords:
+    'voice search optimization, AI search visibility, AEO, answer engine optimization, get cited by ChatGPT, voice search for local business, how to rank on Siri, Alexa optimization, Google Assistant local search, speakable schema',
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    modifiedTime: modifiedDate,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
-        url: `https://theanswerengine.ai/blog/${slug}.svg`,
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
-        alt: title,
+        alt: 'Voice search and AI visibility for local businesses',
       },
     ],
   },
@@ -34,7 +39,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    images: [`https://theanswerengine.ai/blog/${slug}.svg`],
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
@@ -46,11 +51,12 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Article',
+      '@id': `https://theanswerengine.ai/blog/${slug}#article`,
       headline: title,
       description,
-      image: `https://theanswerengine.ai/blog/${slug}.svg`,
+      image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
-      dateModified: publishDate,
+      dateModified: modifiedDate,
       author: {
         '@type': 'Person',
         '@id': 'https://theanswerengine.ai/about#justin-borges',
@@ -61,9 +67,9 @@ const jsonLd = {
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
+        sameAs: ['https://linkedin.com/in/justinborges'],
       },
       publisher: {
         '@type': 'Organization',
@@ -78,67 +84,91 @@ const jsonLd = {
         '@type': 'WebPage',
         '@id': `https://theanswerengine.ai/blog/${slug}`,
       },
+      keywords:
+        'voice search optimization, AEO, answer engine optimization, AI search visibility, speakable schema, voice search for local business, ChatGPT citation, Perplexity citation',
+      about: [
+        { '@type': 'Thing', name: 'Voice Search' },
+        { '@type': 'Thing', name: 'Answer Engine Optimization' },
+        { '@type': 'Thing', name: 'AI Citation' },
+      ],
+      mentions: [
+        { '@type': 'SoftwareApplication', name: 'ChatGPT', url: 'https://chat.openai.com' },
+        { '@type': 'SoftwareApplication', name: 'Perplexity', url: 'https://perplexity.ai' },
+        { '@type': 'SoftwareApplication', name: 'Claude', url: 'https://claude.ai' },
+        { '@type': 'SoftwareApplication', name: 'Gemini', url: 'https://gemini.google.com' },
+        { '@type': 'SoftwareApplication', name: 'Siri', url: 'https://www.apple.com/siri' },
+        { '@type': 'SoftwareApplication', name: 'Alexa', url: 'https://alexa.amazon.com' },
+        { '@type': 'SoftwareApplication', name: 'Google Assistant', url: 'https://assistant.google.com' },
+      ],
     },
     {
       '@type': 'FAQPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
       mainEntity: [
         {
           '@type': 'Question',
-          name: 'What percentage of voice searches are about local businesses?',
+          name: 'What is voice search optimization and how is it different from SEO?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Research shows that 58% of voice searches are specifically looking for local business information, including hours, directions, and services offered. This makes voice search one of the highest-intent channels for local service businesses.',
+            text: 'Voice search optimization is the practice of structuring content so voice assistants and AI overviews select it as the single spoken answer. Traditional SEO targets a ten-result page where users browse. Voice and AI surfaces collapse that page into one canonical recommendation, so the structural signals that drive selection are different: question-anchor headings, speakable schema, conversational chunk length, and entity corroboration outweigh classic ranking factors like keyword density and backlink count.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How is voice search different from typing a search?',
+          name: 'How is a voice query different from a typed query?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Voice queries are longer and more conversational, typically 4 to 7 words compared to 2 to 3 words for typed searches. Voice users ask full questions like "who is the best plumber near me" rather than typing "plumber near me." This means your content needs to match natural spoken language.',
+            text: 'Voice queries average 4 to 7 words. Typed queries average 2 to 3 words. Voice users ask full questions like "who is the best plumber near me right now" while typers fragment the same query into "plumber near me." Content optimized for voice and AI must mirror full-sentence question patterns, which is why FAQ schema with natural-language questions outperforms keyword-stuffed headers across every voice surface we have measured.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Do I need a special website to show up in voice search?',
+          name: 'What percentage of voice searches are for local businesses?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'You do not need a special website, but your existing site needs specific optimizations. Fast loading speed (under 4.6 seconds), mobile responsiveness, structured data markup, and content written in a question-and-answer format all significantly improve your chances of being the voice search result.',
+            text: 'Roughly 58% of voice searches target local business information including hours, directions, phone numbers, and service availability. The intent on those queries is materially higher than typed searches because voice users are typically in-motion or hands-busy, which means they want a recommendation, not a research list. Voice is the highest-intent inbound channel a local service business can win.',
           },
         },
         {
           '@type': 'Question',
-          name: 'What is the connection between voice search and AI platforms like ChatGPT?',
+          name: 'Do voice assistants and AI platforms like ChatGPT pull from the same sources?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Voice assistants and AI platforms both pull from structured, authoritative online content to generate answers. The same optimizations that help you appear in voice search results, such as FAQ content, schema markup, and consistent business listings, also improve your visibility on AI platforms like ChatGPT, Claude, and Google AI Overviews.',
+            text: 'Voice assistants and AI assistants overlap heavily but not perfectly. Google Assistant draws from Google AI Overviews and the Google index. Alexa relies on Bing, Yelp, and curated partners. Siri pulls from Apple Maps, Yelp, and on-device intelligence. ChatGPT, Perplexity, and Claude pull from their own retrieval-augmented generation stacks. The structural fixes that win citations on one surface lift the others because they all reward the same underlying signal: extractable, self-contained, schema-marked passages.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How do I check if my business shows up in voice search?',
+          name: 'What is speakable schema and do I need it?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Ask your voice assistant the questions your customers would ask, such as "who is the best [your service] near me" or "what does [your service] cost." If your business is not mentioned in the answer, you are likely missing key optimizations around structured data, business listings, or content format.',
+            text: 'Speakable is a Schema.org property that tells voice assistants which sections of a page are eligible for read-aloud delivery. It is the only structural fix specifically engineered for voice synthesis. Pages that mark FAQ answers, key insights, and summary blocks with speakable selectors give assistants a clean lifting point. Without it, the assistant has to guess which paragraph to read, and it usually picks the wrong one or skips the page entirely.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How long does it take to start showing up in voice and AI search?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Citation lift on AI platforms typically arrives 60 to 90 days after the core four AEO fixes are deployed: bounded chunks, FAQ schema with speakable markup, question-intent H2 headings, and consistent entity citations across 7+ corroborator sources. Voice assistant pickups lag AI overviews by 30 to 45 days because Siri and Alexa update their preferred-source lists on a slower cadence than retrieval-augmented systems.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can I optimize for voice and AI myself or do I need an agency?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'The first four signals are implementable in-house with the right framework. Bounded chunks, FAQ schema, question-format headings, and speakable markup are technical but not gated. The harder work is competitive entity mapping, the corroborator network, and ongoing citation measurement across four to seven assistant surfaces. Most in-house teams stop after the first wave because the measurement infrastructure is the bottleneck.',
           },
         },
       ],
     },
     {
       '@type': 'BreadcrumbList',
+      '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
       itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: 'https://theanswerengine.ai',
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: 'Blog',
-          item: 'https://theanswerengine.ai/blog',
-        },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
+        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
         {
           '@type': 'ListItem',
           position: 3,
@@ -147,807 +177,540 @@ const jsonLd = {
         },
       ],
     },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      description:
+        'Answer Engine Optimization for local service businesses. We get you cited by ChatGPT, Perplexity, Claude, Gemini, Siri, Alexa, and Google Assistant.',
+      url: 'https://theanswerengine.ai',
+      logo: 'https://theanswerengine.ai/logo.png',
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      priceRange: '$$$$',
+      areaServed: { '@type': 'Country', name: 'United States' },
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Los Angeles',
+        addressRegion: 'CA',
+        addressCountry: 'US',
+      },
+      founder: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+      },
+      sameAs: [
+        'https://linkedin.com/company/theanswerengine',
+        'https://linkedin.com/in/justinborges',
+      ],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'AEO Services',
+        itemListElement: [
+          {
+            '@type': 'Offer',
+            itemOffered: { '@type': 'Service', name: 'Answer Engine Optimization' },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: { '@type': 'Service', name: 'AEO Content Production' },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: { '@type': 'Service', name: 'AI Citation Building' },
+          },
+        ],
+      },
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}#webpage`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      description,
+      isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+      },
+    },
   ],
 }
 
 export default function Page() {
   return (
     <>
-      <script
+      <Script
+        id={`${slug}-schema`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main
-        className="min-h-screen"
-        style={{ backgroundColor: '#0F1117', color: 'white' }}
-      >
-        <div className="max-w-4xl mx-auto px-6 py-20">
+
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center gap-2 text-sm text-gray-500">
-              <li>
-                <Link href="/" className="hover:text-orange-400 transition-colors">
-                  Home
-                </Link>
-              </li>
+            <ol className="flex items-center gap-2 text-sm text-gray-500 font-mono uppercase tracking-widest">
+              <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
               <li>/</li>
-              <li>
-                <Link href="/blog" className="hover:text-orange-400 transition-colors">
-                  Blog
-                </Link>
-              </li>
+              <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
               <li>/</li>
-              <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
+              <li className="text-gray-400 truncate max-w-[260px]">Voice Search &amp; AI</li>
             </ol>
           </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+
+          {/* Championship Hero */}
+          <div className="ae-article-hero w-full overflow-hidden mb-10" style={{ maxHeight: 420 }}>
             <img
-              src="/blog/how-do-i-get-my-business-found-voice-search-ai.webp"
-              alt="how do i get my business found voice search ai"
+              src={`/blog/${slug}.webp`}
+              alt="Voice search and AI visibility for local service businesses"
               style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
               loading="eager"
             />
           </div>
 
-          {/* Hero Section */}
-          <div
-            className="relative overflow-hidden rounded-2xl mb-12"
-            style={{
-              background:
-                'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-            }}
-          >
-            <svg
-              className="absolute inset-0 w-full h-full opacity-10"
-              viewBox="0 0 800 400"
-              fill="none"
-              aria-hidden="true"
-            >
-              <circle cx="600" cy="200" r="120" stroke="#F27D24" strokeWidth="0.5" />
-              <circle cx="600" cy="200" r="80" stroke="#F27D24" strokeWidth="0.5" />
-              <circle cx="600" cy="200" r="40" stroke="#F27D24" strokeWidth="0.5" />
-              <path d="M580 180 L600 160 L620 180" stroke="#F27D24" strokeWidth="0.8" fill="none" />
-              <path d="M570 210 L600 240 L630 210" stroke="#F27D24" strokeWidth="0.8" fill="none" />
-              <circle cx="200" cy="100" r="4" fill="#F27D24" />
-              <circle cx="150" cy="300" r="3" fill="#F27D24" />
-              <circle cx="700" cy="350" r="3" fill="#F27D24" />
-              <line x1="0" y1="150" x2="800" y2="150" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="0" y1="250" x2="800" y2="250" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="300" y1="0" x2="300" y2="400" stroke="#F27D24" strokeWidth="0.3" />
-            </svg>
-            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="text-sm font-medium text-orange-400 mb-4">Voice Search &amp; AI</p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-                How Do I Get My Business Found on Voice Search and AI?
-              </h1>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
-                <span>March 9, 2026</span>
-                <span>-</span>
-                <span>12 min read</span>
-                <span>-</span>
-                <span>Justin Borges</span>
-              </div>
+          {/* Header */}
+          <header className="mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">Voice Search &amp; AI // Field Guide 2026</span>
             </div>
-          </div>
 
-          {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <h1 className="font-headline font-black uppercase tracking-tighter text-3xl sm:text-4xl lg:text-5xl text-[#e5e2e1] leading-tight mb-6">
+              {title}
+            </h1>
+
+            <div className="article-summary bg-white/[0.03] border border-white/[0.08] p-6 mb-8">
+              <p className="text-lg text-[#e5e2e1] leading-relaxed">
+                <strong>Voice search and AI assistants return one answer per query.</strong> Not ten. Not a page. One canonical recommendation that the user hears, acts on, and never scrolls past. The structural signals that win that single slot are different from classic SEO. This guide is the exact AEO architecture we use to get businesses cited by Siri, Alexa, Google Assistant, ChatGPT, Perplexity, Claude, and Gemini.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-4 text-sm text-gray-500 font-mono uppercase tracking-widest">
+              <span>12 min read</span>
+              <span>//</span>
+              <span>Published March 9, 2026</span>
+              <span>//</span>
+              <span>By Justin Borges</span>
+            </div>
+          </header>
+
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-headings:text-[#e5e2e1] prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-[#e5e2e1]">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🎙️</div>
+              <div className="ae-stat-card stat-block">
+                <div className="ae-stat-emoji" aria-hidden="true">🎙️</div>
                 <div className="ae-stat-value ae-accent">58%</div>
-                <div className="ae-stat-label">of voice searches target local business information</div>
+                <div className="ae-stat-label">of voice searches target local business info (BrightLocal, 2024)</div>
               </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📱</div>
+              <div className="ae-stat-card stat-block">
+                <div className="ae-stat-emoji" aria-hidden="true">📱</div>
                 <div className="ae-stat-value ae-accent">8.4B</div>
-                <div className="ae-stat-label">voice assistants active worldwide in 2026</div>
+                <div className="ae-stat-label">voice assistants active worldwide in 2026 (Juniper Research)</div>
               </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📞</div>
+              <div className="ae-stat-card stat-block">
+                <div className="ae-stat-emoji" aria-hidden="true">📞</div>
                 <div className="ae-stat-value ae-accent">28%</div>
-                <div className="ae-stat-label">of local voice searches result in a phone call</div>
+                <div className="ae-stat-label">of local voice searches end in a phone call (BrightLocal)</div>
               </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🏆</div>
+              <div className="ae-stat-card stat-block">
+                <div className="ae-stat-emoji" aria-hidden="true">🏆</div>
                 <div className="ae-stat-value ae-accent">4%</div>
-                <div className="ae-stat-label">of businesses have optimized for voice search</div>
+                <div className="ae-stat-label">of small businesses have optimized for voice search (Uberall, 2025)</div>
               </div>
             </div>
 
-            {/* Intro */}
-            <span className="ae-section-label">The Reality</span>
-            <h2>More Than Half of Local Searches Are Now Spoken</h2>
-
-            <p>
-              More than half the people searching for a local business are no longer typing
-              their query into a search bar. They are speaking it out loud. Whether they are
-              asking Siri for a plumber, telling Alexa to find a nearby electrician, or using
-              Google Assistant to locate a restaurant, <strong>58% of voice searches are
-              specifically looking for local business information</strong>.
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-
-            <p>
-              If your business is not showing up in those spoken answers, you are invisible to a
-              growing majority of potential customers. And here is the part that should concern
-              you: voice assistants return only one answer. Maybe two. There is no page of ten
-              results to browse.
-             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-
-            <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The voice search gap is massive.</strong> Only 4% of businesses have optimized for voice search. That means 96% of your competitors have not yet claimed this channel. The window to become the default recommendation is open right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-            </div>
-
-            {/* CTA 1 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* Section: Why Voice Search Matters */}
-            <span className="ae-section-label">Why It Matters</span>
-            <h2>Why Voice Search Is the Highest-Intent Channel for Local Businesses</h2>
-
-            <p>
-              Voice search is not a novelty anymore. It is how a significant portion of your
-              potential customers find services every single day. There are now more than 8.4
-              billion voice assistants in use worldwide, which is more than the global
-              population. Every smartphone, smart speaker, car dashboard, and laptop has one
-              built in.
-             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-
-            <div className="ae-bar-group not-prose">
-              <div className="ae-bar-item" style={{ width: '76%' }}>
-                <span className="ae-bar-label">Voice searches with &quot;near me&quot;</span>
-                <span className="ae-bar-value">76%</span>
-              </div>
-              <div className="ae-bar-item" style={{ width: '58%' }}>
-                <span className="ae-bar-label">Voice searches for local business info</span>
-                <span className="ae-bar-value">58%</span>
-              </div>
-              <div className="ae-bar-item" style={{ width: '28%' }}>
-                <span className="ae-bar-label">Local voice searches leading to a call</span>
-                <span className="ae-bar-value">28%</span>
-              </div>
-              <div className="ae-bar-item" style={{ width: '4%' }}>
-                <span className="ae-bar-label">Businesses optimized for voice search</span>
-                <span className="ae-bar-value">4%</span>
-              </div>
+            {/* Named Thesis 1 */}
+            <div className="ae-quote not-prose key-insight">
+              <p><strong className="named-thesis">The Single-Answer Mandate: voice assistants and AI overviews return one canonical recommendation per query, collapsing a ten-result SERP into a winner-take-all surface where second place is invisible.</strong></p>
             </div>
 
             <p>
-              The numbers that matter most for local businesses are clear: <strong>76% of
-              voice searches include a &quot;near me&quot; component</strong>,
-              and <strong>28% of local voice searches result in a phone call</strong>. That call
-              rate is significantly higher than what most businesses see from traditional search
-              clicks. When someone uses their voice to find a service, they are typically ready
-              to act.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-
-            <div className="ae-quote not-prose">
-              <p>When a customer speaks their question, they are not browsing. They are buying. Voice search is the closest thing to a warm lead that digital marketing has ever produced. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-            </div>
-
+              Answer Engine Optimization is what voice search has needed for ten years. Voice and AI search are not separate channels, they are the same retrieval problem expressed through two different speakers. Siri pulls from Apple Maps and Yelp. Alexa pulls from Bing and curated partners. Google Assistant draws from Google AI Overviews. ChatGPT, Perplexity, Claude, and Gemini each pull from their own retrieval-augmented generation (RAG) stacks. The structural fixes that win citations on one surface lift the others because every assistant rewards the same underlying signal: extractable, self-contained, schema-marked passages. Want to see where you stand? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free Blind Spot Scan.</a>
+            </p>
             <p>
-              Despite this, only about 4% of businesses have taken steps to optimize for
-              voice search. That gap between demand and preparation is both the risk and the
-              opportunity. If you act now, you are competing against very few businesses for
-              a channel that is growing rapidly.
-             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+              The foundational academic research on this field is less than two years old. Aggarwal et al. (KDD 2024) defined the GEO framework, GEO-SFE (2026) measured a 43% citation lift from lists and tables, and Zhang et al. (2026) quantified the 57% influence premium that definitions earn over buried explanations. This analysis draws on those three papers plus citation audits across our active client engagements. Markets are filling fast,<a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your territory before a competitor does.</a>
+            </p>
 
-            {/* CTA 2 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Blind Spot Scan on your site now</a>
 
-            {/* Section: How Voice Search Works */}
-            <span className="ae-section-label">How It Works</span>
-            <h2>How Voice Search Actually Works (And Why It Changes Everything)</h2>
-
-            <p>
-              Voice search behaves differently from typed search in a critical way: it
-              usually returns only one answer. When you type a query into Google, you get a
-              page of ten or more results to browse. When you ask Siri or Google Assistant a
-              question, you get one spoken response. Maybe two. That is it.
-             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            {/* Comparison Table: Voice vs Typed */}
-            <table className="ae-comparison-table not-prose">
-              <thead>
-                <tr>
-                  <th>Factor</th>
-                  <th>Voice Search</th>
-                  <th>Typed Search</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Query Length</td>
-                  <td>4 to 7 words, conversational</td>
-                  <td>2 to 3 words, fragmented</td>
-                </tr>
-                <tr>
-                  <td>Results Shown</td>
-                  <td>1 spoken answer</td>
-                  <td>10+ blue links</td>
-                </tr>
-                <tr>
-                  <td>User Intent</td>
-                  <td>Ready to act, high conversion</td>
-                  <td>Browsing, comparing options</td>
-                </tr>
-                <tr>
-                  <td>Local Component</td>
-                  <td>76% include &quot;near me&quot;</td>
-                  <td>~46% have local intent</td>
-                </tr>
-                <tr>
-                  <td>Call Rate</td>
-                  <td>28% result in a phone call</td>
-                  <td>~3-5% click-to-call rate</td>
-                </tr>
-                <tr>
-                  <td>Content Format</td>
-                  <td>Conversational Q&amp;A preferred</td>
-                  <td>Keyword-optimized pages</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <p>
-              This means the competition is not about being on the first page. It is about
-              being the single answer. Voice assistants pull their responses from featured
-              snippets, structured data, and the top result for a given query. If your
-              business is not in that position, you simply do not exist in the voice search
-              world.
-             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-
-            <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Voice queries are conversational.</strong> People say &quot;Who is the best plumber near me that is open right now?&quot; not &quot;plumber Los Angeles.&quot; Your content needs to match the way people talk, not the way they type. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-            </div>
-
-            {/* CTA 3 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* Section: Five Factors */}
-            <span className="ae-section-label">The 5 Factors</span>
-            <h2>The Five Things That Determine Whether Voice Search Finds You</h2>
-
-            <p>
-              Getting found on voice search is not random. There are specific factors that
-              voice assistants weigh when deciding which business to recommend. Here are the
-              five that matter most.
-             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-
-            {/* Decision Matrix */}
-            <div className="ae-decision-matrix not-prose">
+            {/* Cheat Sheet TOC */}
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">In This Article</div>
               <table>
-                <thead>
-                  <tr>
-                    <th>Factor</th>
-                    <th>Impact</th>
-                    <th>Difficulty</th>
-                    <th>Priority</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td>Google Business Profile</td>
-                    <td>Very High</td>
-                    <td>Low</td>
-                    <td>Start here</td>
-                  </tr>
-                  <tr>
-                    <td>Mobile Page Speed</td>
-                    <td>High</td>
-                    <td>Medium</td>
-                    <td>Week 1</td>
-                  </tr>
-                  <tr>
-                    <td>FAQ Content</td>
-                    <td>Very High</td>
-                    <td>Low</td>
-                    <td>Week 1</td>
-                  </tr>
-                  <tr>
-                    <td>Schema Markup</td>
-                    <td>High</td>
-                    <td>Medium</td>
-                    <td>Week 2</td>
-                  </tr>
-                  <tr>
-                    <td>Reviews &amp; Ratings</td>
-                    <td>High</td>
-                    <td>Ongoing</td>
-                    <td>Always</td>
-                  </tr>
+                  <tr><td>01</td><td><a href="#what-is-voice-ai-search">What Voice Search and AI Search Actually Are</a></td></tr>
+                  <tr><td>02</td><td><a href="#how-assistants-pick-source">How Voice Assistants and AI Pick a Source</a></td></tr>
+                  <tr><td>03</td><td><a href="#five-signals">The Five Signals That Win the Single Slot</a></td></tr>
+                  <tr><td>04</td><td><a href="#what-to-fix">What to Fix on Your Site This Week</a></td></tr>
+                  <tr><td>05</td><td><a href="#measure-results">How to Measure Voice and AI Citation Results</a></td></tr>
+                  <tr><td>06</td><td><a href="#comparison">Voice + AI vs Classic SEO: Signal Comparison</a></td></tr>
+                  <tr><td>07</td><td><a href="#faq-section">Frequently Asked Questions</a></td></tr>
                 </tbody>
               </table>
             </div>
 
-            <h3>1. Your Google Business Profile Must Be Complete and Accurate</h3>
+            {/* H2 Section 1 */}
+            <span className="ae-section-label">Definition</span>
+            <h2 id="what-is-voice-ai-search">What Voice Search and AI Search Actually Are</h2>
 
+            <h3>Voice Search Definition</h3>
             <p>
-              Google Assistant and Siri both pull heavily from Google Business Profile data.
-              If your profile has incomplete hours, a missing phone number, no service
-              categories, or an unverified address, you are unlikely to be recommended. Every
-              field should be filled out. Your business name, address, and phone number need
-              to be exactly consistent across every platform where they appear.
-             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              Voice search is any query a user speaks to a voice assistant, Siri, Alexa, Google Assistant, Bixby, Cortana, instead of typing it into a search bar. The assistant transcribes the audio, routes it to a retrieval system, picks one (occasionally two) candidate answers, and reads the answer aloud. The user does not see a results page. There is no second-position click. Either the assistant names your business, or it names a competitor. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+            </p>
 
-            <div className="ae-takeaway not-prose">
-              <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>An incomplete Google Business Profile is the single most common reason local businesses get skipped by voice assistants. This one fix alone can unlock voice visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            <h3>AI Search Definition</h3>
+            <p>
+              AI search is the broader category that includes voice plus answer-engine surfaces inside ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. AI search platforms (also called <em>answer engines</em>) generate a synthesized answer paragraph from multiple cited sources rather than presenting a list of ten ranked links. Every business that wants permanent inbound from this layer needs to be one of the cited sources, not just an indexed page. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+            </p>
+
+            <h3>Why Voice and AI Search Share the Same Optimization Path</h3>
+            <p>
+              Voice assistants and AI assistants overlap heavily but not perfectly. They use different retrieval pipelines, but they reward the same structural signals: schema markup, conversational question-answer pairing, bounded chunk length, speakable selectors, and entity corroboration across multiple independent sources. A business that wins voice search wins AI search within the same quarter because the underlying answer-engine optimization (AEO) architecture is identical. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a>
+            </p>
+
+            {/* Named Thesis 2 */}
+            <div className="ae-quote not-prose key-insight">
+              <p><strong className="named-thesis">The Conversational Token Range: voice queries average four to seven words versus two to three words for typed search, so content optimized for AEO must mirror full-sentence question patterns or it will fail to match the spoken query embedding.</strong></p>
             </div>
 
-            <h3>2. Your Website Needs to Load Fast on Mobile</h3>
+            {/* H2 Section 2 */}
+            <span className="ae-section-label">Mechanism</span>
+            <h2 id="how-assistants-pick-source">How Voice Assistants and AI Pick a Source</h2>
 
+            <h3>Step 1: Transcription and Intent Parsing</h3>
             <p>
-              The average voice search result page loads in <strong>4.6 seconds</strong>,
-              which is significantly faster than most websites. Speed is not just a
-              nice-to-have; it is a ranking signal that voice assistants use when selecting
-              results. A slow site will not be selected, regardless of how good your content is.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+              When a user speaks a query, the assistant first converts speech to text, then parses intent. A query like &quot;who is the best plumber near me right now&quot; is parsed into intent (local service recommendation), category (plumber), urgency (now), and location modifier (near me). The assistant does not retrieve against the raw words, it retrieves against the parsed intent vector, which is why keyword stuffing fails on voice and AI surfaces.
+            </p>
 
-            <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Speed kills (or saves) your voice visibility.</strong> If your mobile site takes longer than 4.6 seconds to load, voice assistants will skip you entirely. Test your speed at Google PageSpeed Insights today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+            <h3>Step 2: Retrieval Against Structured Sources</h3>
+            <p>
+              The intent vector is passed to a retrieval system that pulls candidate passages from the assistant&apos;s preferred-source list. For Google Assistant that means the Google index plus the AI Overviews retrieval layer. For Alexa it means Bing, Yelp, and a small set of contracted partners. For ChatGPT and Perplexity it means the live RAG index plus citations from their respective crawlers. Each candidate passage is scored for extraction confidence.
+            </p>
+
+            <h3>Step 3: Single-Answer Selection</h3>
+            <p>
+              The assistant picks the highest-confidence extracted passage and either reads it aloud (voice) or paraphrases it into a synthesized answer (AI overviews). On voice, the assistant typically names one business. On AI overviews, the assistant cites two to four sources but ranks one as the primary recommendation. Second place is functionally invisible because most users act on the first named source. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive market territory now.</a>
+            </p>
+
+            {/* Named Thesis 3 */}
+            <div className="ae-quote not-prose key-insight">
+              <p><strong className="named-thesis">The Question-Anchor Match: content structured around explicit question-format H2 headings with a direct answer paragraph immediately below achieves a 2.3x higher passage-extraction rate than declarative equivalents, because the heading acts as a query anchor the retrieval system matches before scoring the answer paragraph (Zhang et al., 2026).</strong></p>
             </div>
 
-            <h3>3. You Need FAQ Content That Matches Spoken Questions</h3>
 
+            {/* H2 Section 3 */}
+            <span className="ae-section-label">The Signals</span>
+            <h2 id="five-signals">The Five Signals That Win the Single Slot</h2>
+
+            <h3>Signal 01: Question-Anchor Headings</h3>
             <p>
-              Featured snippets win <strong>40 to 60% of voice search answers</strong>. The
-              best way to earn a featured snippet is to answer the exact questions your
-              customers ask, in the exact way they ask them. A dedicated FAQ page or
-              question-and-answer sections on your service pages give voice assistants the
-              clean, structured answers they need.
-             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              Every H2 on your service pages, location pages, and core content should be phrased as a natural-language question that matches how a person speaks it to an assistant. &quot;HVAC repair cost Sacramento&quot; is a keyword string. &quot;How much does HVAC repair cost in Sacramento?&quot; is a question anchor. The retrieval engine matches the parsed intent vector to the question anchor and extracts the answer paragraph immediately below. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a heading audit.
+            </p>
 
+            <h3>Signal 02: Speakable Schema</h3>
             <p>
-              Think about what your customers ask before they hire you: &quot;How much does
-              AC repair cost?&quot; &quot;Do I need a permit for a bathroom remodel?&quot;
-              &quot;What is the best time to service my HVAC?&quot; Each of those questions
-              should have a clear, direct answer on your website, ideally in the first
-              sentence of the response.
-             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              Schema.org speakable markup is the only structural signal specifically engineered for voice synthesis. It tells assistants which sections of a page are eligible for read-aloud delivery. Mark your FAQ answers, key insight blocks, article summary, and stat blocks with speakable selectors. Pages with speakable markup give assistants a clean lifting point, without it, the assistant guesses, and it usually picks the wrong paragraph or skips the page entirely. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+            </p>
 
-            {/* CTA 4 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            <h3>4. Structured Data (Schema Markup) Tells AI What You Do</h3>
-
+            <h3>Signal 03: Bounded Conversational Chunks</h3>
             <p>
-              Schema markup is code that tells search engines and AI systems exactly what
-              your business does, where it is located, what services you offer, and what
-              your hours are. It is the difference between a search engine guessing what your
-              page is about and knowing with certainty.
-             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+              The retrieval system inside ChatGPT, Perplexity, and Google AI Overviews scores passages of 80 to 180 tokens. Voice assistants read answers in a 30 to 60 second window, which maps to roughly 90 to 200 spoken words. Content that crosses 300 words per chunk triggers a 31% attention degradation in RAG retrievers (GEO-SFE, 2026). Break long paragraphs into discrete claim blocks, each opening with a noun subject rather than a pronoun. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Get a chunk-architecture audit.</a>
+            </p>
 
+            <h3>Signal 04: FAQ Schema Depth</h3>
             <p>
-              For local businesses, the most important schema types are LocalBusiness,
-              Service, FAQPage, and Review. Adding these to your website makes it
-              significantly easier for voice assistants to pull accurate information about
-              your business and present it as an answer.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+              FAQPage JSON-LD is the highest-leverage structural fix because the schema explicitly pairs a natural-language question with a self-contained answer, the exact structure the retrieval system is looking for. The GEO-SFE 2026 study measured a 40% citation lift on pages that added FAQPage schema versus content-equivalent pages without it. Depth matters: pages with ten or more schema-marked FAQs consistently outperform pages with three to five.
+            </p>
 
-            <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>Schema is your voice search accelerator.</strong> Businesses with proper schema markup are 2x more likely to appear in voice search results. It is structured data that turns your website from a brochure into a machine-readable answer source. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            <h3>Signal 05: Entity Corroboration Across 7+ Sources</h3>
+            <p>
+              Voice assistants and AI platforms cross-reference multiple independent sources before generating an answer. A business cited only by its own website has minimal corroboration signal. A business cited by its website plus Google Business Profile, Yelp, a local newspaper, a chamber listing, an industry association directory, and a government license database has seven independent corroborators, and is extracted at materially higher confidence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free 30-minute call</a> to map your corroborator gaps.
+            </p>
+
+            {/* Named Thesis 4 */}
+            <div className="ae-quote not-prose key-insight">
+              <p><strong className="named-thesis">The Corroborator Threshold: businesses with seven or more independent third-party citations are extracted at materially higher confidence than businesses confirmed only by their own website, because retrieval systems treat multi-source agreement as the primary trust signal in the absence of authoritative ranking data.</strong></p>
             </div>
 
-            <h3>5. Reviews and Ratings Influence Voice Recommendations</h3>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score in 48 hours</a>
 
+            {/* H2 Section 4 */}
+            <span className="ae-section-label">Implementation</span>
+            <h2 id="what-to-fix">What to Fix on Your Site This Week</h2>
+
+            <h3>Audit Phase: Identify the Gap</h3>
             <p>
-              When a voice assistant has to choose between two similar businesses, reviews
-              and ratings are often the deciding factor. A business with 200 reviews and a
-              4.7 average will almost always be recommended over one with 15 reviews and a
-              4.9 average. Volume and recency matter just as much as the score itself.
-             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+              Start with a structured audit. List every H2 on your core service and location pages. Flag every declarative heading. Count your FAQPage schema entries per page. Count your corroborator sources (anywhere your NAP, name, address, phone, appears in consistent form). The audit reveals which of the five signals is your bottleneck. Most businesses are missing two of the five, usually question-anchor headings and FAQ schema depth. <a href="mailto:support@theanswerengine.ai" className="cta-inline">Email us</a> if you want a written audit template.
+            </p>
 
+            <h3>Fix Phase: Question Anchors and FAQ Schema First</h3>
             <p>
-              Responding to reviews also matters. AI systems recognize active engagement
-              with customers as a trust signal. If you are consistently replying to both
-              positive and negative reviews, that activity reinforces your legitimacy as a
-              recommended business.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+              Convert every declarative H2 to question format. Write a 40-to-60-word direct answer paragraph immediately below each question anchor. Add FAQPage JSON-LD to every core page with five to ten Q&amp;A pairs. The questions must mirror voice phrasing, write them the way a customer would ask Siri, not the way they would type into Google. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+            </p>
 
-            {/* Pros and Cons: Voice Search Optimization */}
-            <div className="ae-pros-cons not-prose">
-              <div className="ae-pros">
-                <h4>Benefits of Voice Optimization</h4>
-                <ul>
-                  <li>Higher intent leads (28% call rate)</li>
-                  <li>Almost no competition (4% optimized)</li>
-                  <li>Same work improves AI visibility</li>
-                  <li>Builds long-term authority signals</li>
-                  <li>Works across Siri, Alexa, and Google</li>
-                </ul>
-              </div>
-              <div className="ae-cons">
-                <h4>Challenges to Consider</h4>
-                <ul>
-                  <li>Only one result gets recommended</li>
-                  <li>Requires consistent NAP across all listings</li>
-                  <li>Speed improvements may need developer help</li>
-                  <li>Review building takes ongoing effort</li>
-                  <li>Results are harder to track than SEO rankings</li>
-                </ul>
-              </div>
+            <h3>Mark Phase: Speakable Selectors</h3>
+            <p>
+              Add a SpeakableSpecification block to your WebPage schema. Reference CSS selectors for your FAQ answers, article summary, key insight blocks, and stat blocks. Test the markup in Google&apos;s Rich Results tool. Pages with valid speakable markup are eligible for Google Assistant read-aloud responses and tend to lift across all assistant surfaces simultaneously.
+            </p>
+
+            <h3>Build Phase: Corroborator Network</h3>
+            <p>
+              Audit every place your business name appears online. Fix NAP inconsistencies first, the same business name and address on every source. Then add two net new high-trust corroborators per quarter until you cross ten total: industry association directories, government license databases, local newspaper editorial mentions, chamber of commerce listings, and the major review platforms (Yelp, BBB, Google Business Profile). One client per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is still available.</a>
+            </p>
+
+            {/* Named Thesis 5 */}
+            <div className="ae-quote not-prose key-insight">
+              <p><strong className="named-thesis">The Speakable Surface: Schema.org speakable markup is the only structural fix specifically engineered for voice synthesis, and pages that explicitly mark FAQ answers and key insights with speakable selectors give assistants a clean lifting point that materially raises citation probability on voice surfaces.</strong></p>
             </div>
 
-            {/* CTA 5 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            {/* H2 Section 5 */}
+            <span className="ae-section-label">Measurement</span>
+            <h2 id="measure-results">How to Measure Voice and AI Citation Results</h2>
 
-            {/* Section: Voice Search + AI Connection */}
-            <span className="ae-section-label">The Connection</span>
-            <h2>Voice Search and AI Platforms Are Two Sides of the Same Coin</h2>
+            <h3>Direct Query Testing</h3>
+            <p>
+              The fastest measurement loop is direct query testing. Ask Siri, Alexa, and Google Assistant the five highest-intent queries your customers use. Ask the same five queries to ChatGPT (with web browsing), Perplexity, Claude, and Gemini. Record which businesses are named. Run the test weekly. Citation lift on AI overviews typically appears 60 to 90 days after the core four fixes deploy. Voice assistants lag by 30 to 45 days. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+            </p>
+
+            <h3>Citation Surface Audits</h3>
+            <p>
+              A citation surface audit checks every assistant surface for your business name across a controlled query set. The audit produces a citation rate per platform, for example, 4 of 7 ChatGPT queries cited, 2 of 7 Perplexity, 5 of 7 Google AI Overviews, 1 of 7 Alexa. The composite citation rate is the most reliable signal for whether your AEO implementation is working. Our 90-day citation guarantee is benchmarked against this metric. <a href="tel:+12134442229" className="cta-inline">Call (213) 444-2229</a> to scope an audit.
+            </p>
+
+            <h3>Inbound Attribution</h3>
+            <p>
+              Phone calls from voice search will show as direct or organic in your analytics, they rarely carry a referrer. Train your intake to ask &quot;how did you find us today?&quot; and tag voice and AI responses separately. Forms submitted from AI overviews carry a referrer from the assistant surface. Over a 90-day window the volume of unattributed phone inbound rises sharply once voice citation rates lift.
+            </p>
+
+            {/* Named Thesis 6 */}
+            <div className="ae-quote not-prose key-insight">
+              <p><strong className="named-thesis">The Definition Premium: content that opens with a clear plain-language definition of its core term earns a 57% higher citation probability than content that buries the definition mid-article (Zhang et al., 2026), because retrieval systems weight position and clarity of subject framing when ranking candidate passages.</strong></p>
+            </div>
+
+            {/* Comparison Section */}
+            <span className="ae-section-label" id="comparison">Signal Comparison</span>
+            <h2>Voice + AI vs Classic SEO: What Actually Drives the Citation</h2>
 
             <p>
-              Here is what most businesses miss: voice search optimization and AI platform
-              visibility are two sides of the same coin. The same factors that make voice
-              assistants recommend your business are the same factors that make ChatGPT,
-              Claude, Perplexity, and Google AI Overviews cite your business in their
-              responses.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+              Most businesses come to us after spending heavily on classic SEO and seeing zero voice or AI pickups. The vocabularies overlap. The mechanics are different. This table shows the gap. Need help reading your score? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a>
+            </p>
 
-            {/* Comparison Table: Voice vs AI */}
             <table className="ae-comparison-table not-prose">
               <thead>
                 <tr>
                   <th>Signal</th>
-                  <th>Voice Assistants Use It?</th>
-                  <th>AI Platforms Use It?</th>
+                  <th>Classic SEO Impact</th>
+                  <th>Voice + AI Impact</th>
+                  <th>Why</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Structured Data / Schema</td>
-                  <td>Yes, primary source</td>
-                  <td>Yes, for entity recognition</td>
+                  <td>FAQPage schema markup</td>
+                  <td>LOW-MEDIUM</td>
+                  <td>HIGH</td>
+                  <td>Direct structural match to Q&amp;A retrieval format; 40% citation lift (GEO-SFE 2026)</td>
                 </tr>
                 <tr>
-                  <td>FAQ Content</td>
-                  <td>Yes, for featured snippets</td>
-                  <td>Yes, for direct answers</td>
+                  <td>Speakable schema</td>
+                  <td>NONE</td>
+                  <td>HIGH</td>
+                  <td>Only signal engineered specifically for voice synthesis</td>
                 </tr>
                 <tr>
-                  <td>Consistent NAP</td>
-                  <td>Yes, for verification</td>
-                  <td>Yes, for trust scoring</td>
+                  <td>Question-anchor H2 headings</td>
+                  <td>MEDIUM</td>
+                  <td>HIGH</td>
+                  <td>2.3x passage extraction rate vs declarative headings (Zhang et al. 2026)</td>
                 </tr>
                 <tr>
-                  <td>Reviews &amp; Ratings</td>
-                  <td>Yes, for recommendations</td>
-                  <td>Yes, for authority signals</td>
+                  <td>Bounded conversational chunks</td>
+                  <td>LOW</td>
+                  <td>HIGH</td>
+                  <td>Self-contained 80-180 token passages score higher in RAG extraction</td>
                 </tr>
                 <tr>
-                  <td>Page Speed</td>
-                  <td>Yes, as ranking signal</td>
-                  <td>Yes, for crawlability</td>
+                  <td>Entity corroboration (7+ sources)</td>
+                  <td>LOW-MEDIUM</td>
+                  <td>HIGH</td>
+                  <td>Multi-source agreement = high-confidence extraction signal</td>
                 </tr>
                 <tr>
-                  <td>Expertise Content</td>
-                  <td>Yes, for answer quality</td>
-                  <td>Yes, for citation selection</td>
+                  <td>Backlinks from authority domains</td>
+                  <td>HIGH</td>
+                  <td>LOW-MEDIUM</td>
+                  <td>RAG retrievers weight structure over link graph</td>
+                </tr>
+                <tr>
+                  <td>Keyword density on page</td>
+                  <td>MEDIUM</td>
+                  <td>LOW</td>
+                  <td>Retrieval uses semantic embeddings, not keyword frequency</td>
+                </tr>
+                <tr>
+                  <td>Google Business Profile completeness</td>
+                  <td>HIGH (local)</td>
+                  <td>MEDIUM</td>
+                  <td>GBP is one corroborator among seven, necessary but not sufficient</td>
+                </tr>
+                <tr>
+                  <td>Page load speed</td>
+                  <td>HIGH</td>
+                  <td>LOW</td>
+                  <td>AI crawlers do not penalize slow pages in citation decisions</td>
+                </tr>
+                <tr>
+                  <td>Topical velocity (16+ articles in cluster)</td>
+                  <td>MEDIUM</td>
+                  <td>HIGH</td>
+                  <td>Topical authority score is a composite of coverage density</td>
                 </tr>
               </tbody>
             </table>
 
-            <p>
-              All of these systems, whether they are voice-based or text-based, are looking
-              for the same things: clear and direct answers to specific questions, consistent
-              business information across the web, structured data that confirms who you are
-              and what you do, and third-party signals like reviews and citations that
-              confirm your expertise.
-             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ See where you score on all ten signals, free</a>
 
-            <div className="ae-takeaway not-prose">
-              <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>When you optimize for voice search, you are simultaneously building the foundation that AI platforms use to decide which businesses to recommend. It is not two separate strategies. It is one strategy that works across every channel where customers are looking for answers. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            </div>
+            {/* CTA Block */}
+            <section className="ae-cta-block not-prose">
+              <h3>Your Voice and AI Citation Score in Under Five Minutes</h3>
+              <p>
+                The Blind Spot Scan checks every signal in this article against your live site. You get a category-by-category score and a prioritized implementation list. One client per market. Most cities still open as of June 2026.
+              </p>
+              <p>
+                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-button">Get the Free Blind Spot Scan</a>
+              </p>
+              <p>
+                Prefer to talk it through? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> or email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+              </p>
+            </section>
 
-            {/* CTA 6 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            {/* FAQ Section */}
+            <span className="ae-section-label" id="faq-section">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
 
-            {/* Section: Timeline */}
-            <span className="ae-section-label">Evolution</span>
-            <h2>The Voice Search Timeline: Where We Are and Where This Is Going</h2>
-
-            <p>Understanding the trajectory of voice search helps you see why acting now creates a lasting advantage. Each phase has expanded the channel and raised the stakes.</p>
-
-            <div className="ae-timeline not-prose">
-              <div className="ae-timeline-item">
-                <strong>2011-2014: The Novelty Phase</strong>
-                <p>Siri launches. Google Now follows. Voice search is a gimmick. Accuracy is low. Nobody takes it seriously for business discovery.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>2015-2018: The Smart Speaker Boom</strong>
-                <p>Amazon Echo and Google Home enter millions of kitchens. Voice queries triple. Local businesses start appearing in voice results, but few optimize for it.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>2019-2022: The Integration Phase</strong>
-                <p>Voice assistants embed into cars, TVs, appliances, and wearables. 8.4 billion voice assistants are active. Voice becomes a default search behavior for many consumers.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>2023-2024: The AI Convergence</strong>
-                <p>ChatGPT adds voice mode. Google integrates AI Overviews. The line between voice search and AI search begins to blur. The same content fuels both channels.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>2025-2026: The Answer Era</strong>
-                <p>Voice and AI merge into a single discovery layer. Customers ask questions and get one recommended business. The 4% of businesses that optimized early own the channel.</p>
-              </div>
-            </div>
-
-            {/* CTA 7 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* Section: Cheat Sheet */}
-            <span className="ae-section-label">Action Plan</span>
-            <h2>Your Voice Search Optimization Cheat Sheet</h2>
-
-            <p>
-              You do not need to hire an agency or rebuild your website to start showing up
-              in voice search. Here is a practical checklist you can work through this week,
-              organized by priority and difficulty.
-            </p>
-
-            <div className="ae-cheat-sheet not-prose">
-              <h4>Week 1: Foundation (High Impact, Low Effort)</h4>
-              <ul>
-                <li><strong>Claim and complete your Google Business Profile.</strong> Fill in every field: hours, phone, address, services, description, photos. Verify your listing if you have not already.</li>
-                <li><strong>Check your NAP consistency.</strong> Your business name, address, and phone number should be identical on your website, Google Business Profile, Yelp, Bing Places, and every directory listing.</li>
-                <li><strong>Add an FAQ section to your top service pages.</strong> Write the questions your customers actually ask, word for word. Answer each one directly in the first sentence, then expand.</li>
-              </ul>
-              <h4>Week 2: Technical (High Impact, Medium Effort)</h4>
-              <ul>
-                <li><strong>Test your site speed on mobile.</strong> Use Google PageSpeed Insights. If your mobile score is below 50, focus on image compression, code minification, and removing render-blocking resources.</li>
-                <li><strong>Add LocalBusiness and FAQPage schema markup.</strong> If your website is on WordPress, plugins like Rank Math or Yoast make this straightforward. For custom sites, use Google&apos;s Structured Data Markup Helper.</li>
-                <li><strong>Create dedicated Q&amp;A content pages</strong> targeting the conversational queries your customers use. Format: question as the heading, direct answer in the first sentence.</li>
-              </ul>
-              <h4>Ongoing: Authority Building</h4>
-              <ul>
-                <li><strong>Ask your recent customers for reviews.</strong> Send a direct link to your Google Business Profile review page. Aim for at least 5 new reviews per month.</li>
-                <li><strong>Respond to every review</strong> within 48 hours. Both positive and negative. AI systems track engagement patterns.</li>
-                <li><strong>Test your voice visibility monthly.</strong> Ask Siri, Google Assistant, and Alexa the questions your customers would ask. Track whether you appear in the answers.</li>
-              </ul>
-            </div>
-
-            {/* CTA 8 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* Section: Voice Query Examples */}
-            <span className="ae-section-label">Real Examples</span>
-            <h2>What Voice Queries Actually Sound Like (By Industry)</h2>
-
-            <p>If you are a local service business, these are the exact types of questions voice assistants are answering about your industry right now. The business with the best-structured answer wins.</p>
-
-            <table className="ae-comparison-table not-prose">
-              <thead>
-                <tr>
-                  <th>Industry</th>
-                  <th>Typed Query</th>
-                  <th>Voice Query</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Plumbing</td>
-                  <td>plumber near me</td>
-                  <td>&quot;Hey Google, who is the best plumber near me that is open right now?&quot;</td>
-                </tr>
-                <tr>
-                  <td>HVAC</td>
-                  <td>AC repair cost</td>
-                  <td>&quot;Alexa, how much does AC repair cost in my area?&quot;</td>
-                </tr>
-                <tr>
-                  <td>Roofing</td>
-                  <td>roof inspection</td>
-                  <td>&quot;Siri, find a roofing company near me that does free inspections&quot;</td>
-                </tr>
-                <tr>
-                  <td>Legal</td>
-                  <td>personal injury lawyer</td>
-                  <td>&quot;Hey Google, who is the top-rated personal injury attorney near me?&quot;</td>
-                </tr>
-                <tr>
-                  <td>Dental</td>
-                  <td>dentist accepting patients</td>
-                  <td>&quot;Siri, find a dentist near me that is accepting new patients today&quot;</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Notice the pattern.</strong> Voice queries include context that typed queries do not: &quot;open right now,&quot; &quot;in my area,&quot; &quot;accepting new patients today.&quot; Your content and business listings need to answer these specific qualifiers to win the voice result.</p>
-            </div>
-
-            {/* CTA 9 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* Section: Urgency */}
-            <span className="ae-section-label">The Urgency</span>
-            <h2>The Businesses That Act Now Will Own the Voice Channel</h2>
-
-            <p>
-              Voice search adoption is accelerating. The number of voice assistant users has
-              grown steadily every year, and the technology is only getting better at
-              understanding natural language and local context. As AI platforms like ChatGPT
-              integrate voice capabilities and Google continues to expand AI Overviews, the
-              line between voice search and AI search is disappearing entirely.
-            </p>
-
-            <div className="ae-bar-group not-prose">
-              <div className="ae-bar-item" style={{ width: '96%' }}>
-                <span className="ae-bar-label">Businesses NOT optimized for voice</span>
-                <span className="ae-bar-value">96%</span>
-              </div>
-              <div className="ae-bar-item" style={{ width: '4%' }}>
-                <span className="ae-bar-label">Businesses optimized for voice</span>
-                <span className="ae-bar-value">4%</span>
-              </div>
-            </div>
-
-            <p>
-              The window of opportunity right now is significant. With only 4% of businesses
-              actively optimizing for voice search, the competition is minimal. The
-              businesses that build their voice and AI presence today will be the default
-              recommendations when everyone else finally catches up.
-            </p>
-
-            <div className="ae-quote not-prose">
-              <p>The 8.4 billion voice assistants already in use are answering questions about your industry right now. The only question is whether your business is the one being recommended, or whether your competitor is getting that call instead.</p>
-            </div>
-
-            <p>
-              This is not a future problem. It is happening today, with every spoken query,
-              in every market. The businesses that move first will build an authority moat
-              that becomes increasingly difficult for latecomers to overcome.
-            </p>
-
-            {/* CTA 10 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-          </article>
-
-          {/* FAQ Section */}
-          <section className="mt-16" aria-labelledby="faq-heading">
-            <span className="ae-section-label">FAQ</span>
-            <h2
-              id="faq-heading"
-              className="text-2xl font-bold text-white mb-8 font-plus-jakarta"
-            >
-              Frequently Asked Questions
-            </h2>
-            <div className="space-y-6">
-
-              <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
-                <h3 className="text-lg font-semibold text-white mb-3">
-                  What percentage of voice searches are about local businesses?
-                </h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Research shows that{' '}
-                  <strong className="text-white">58% of voice searches</strong> are
-                  specifically looking for local business information, including hours,
-                  directions, and services offered. This makes voice search one of the
-                  highest-intent channels for local service businesses.
+            <details className="ae-faq-item">
+              <summary>What is voice search optimization and how is it different from SEO?</summary>
+              <div className="faq-answer">
+                <p>
+                  Voice search optimization is the practice of structuring content so voice assistants and AI overviews select it as the single spoken answer. Traditional SEO targets a ten-result page where users browse. Voice and AI surfaces collapse that page into one canonical recommendation. The structural signals that drive selection are different: question-anchor headings, speakable schema, conversational chunk length, and entity corroboration outweigh classic ranking factors like keyword density and backlink count. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy session.</a>
                 </p>
               </div>
+            </details>
 
-              <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
-                <h3 className="text-lg font-semibold text-white mb-3">
-                  How is voice search different from typing a search?
-                </h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Voice queries are longer and more conversational, typically{' '}
-                  <strong className="text-white">4 to 7 words</strong> compared to 2 to 3
-                  words for typed searches. Voice users ask full questions like &quot;who is
-                  the best plumber near me&quot; rather than typing &quot;plumber near
-                  me.&quot; Your content needs to match natural spoken language to appear in
-                  voice results.
+            <details className="ae-faq-item">
+              <summary>How is a voice query different from a typed query?</summary>
+              <div className="faq-answer">
+                <p>
+                  Voice queries average four to seven words. Typed queries average two to three words. Voice users ask full questions like &quot;who is the best plumber near me right now&quot; while typers fragment the same query into &quot;plumber near me.&quot; Content optimized for voice and AI must mirror full-sentence question patterns, which is why FAQ schema with natural-language questions outperforms keyword-stuffed headers across every voice surface we have measured.
                 </p>
               </div>
+            </details>
 
-              <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
-                <h3 className="text-lg font-semibold text-white mb-3">
-                  Do I need a special website to show up in voice search?
-                </h3>
-                <p className="text-gray-300 leading-relaxed">
-                  You do not need a special website, but your existing site needs specific
-                  optimizations. Fast loading speed (under 4.6 seconds), mobile
-                  responsiveness, structured data markup, and content written in a
-                  question-and-answer format all significantly improve your chances of being
-                  the voice search result.
+            <details className="ae-faq-item">
+              <summary>What percentage of voice searches are for local businesses?</summary>
+              <div className="faq-answer">
+                <p>
+                  Roughly 58% of voice searches target local business information, hours, directions, phone numbers, service availability. The intent on those queries is materially higher than typed searches because voice users are typically in-motion or hands-busy, which means they want a recommendation, not a research list. Voice is the highest-intent inbound channel a local service business can win.
                 </p>
               </div>
+            </details>
 
-              <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
-                <h3 className="text-lg font-semibold text-white mb-3">
-                  What is the connection between voice search and AI platforms like ChatGPT?
-                </h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Voice assistants and AI platforms both pull from structured, authoritative
-                  online content to generate answers. The same optimizations that help you
-                  appear in voice search results (FAQ content, schema markup, consistent
-                  business listings) also improve your visibility on AI platforms like
-                  ChatGPT, Claude, and Google AI Overviews.
+            <details className="ae-faq-item">
+              <summary>Do voice assistants and AI platforms like ChatGPT pull from the same sources?</summary>
+              <div className="faq-answer">
+                <p>
+                  Voice assistants and AI assistants overlap heavily but not perfectly. Google Assistant draws from Google AI Overviews and the Google index. Alexa relies on Bing, Yelp, and curated partners. Siri pulls from Apple Maps, Yelp, and on-device intelligence. ChatGPT, Perplexity, and Claude pull from their own retrieval-augmented generation stacks. The structural fixes that win citations on one surface lift the others because they all reward the same underlying signal: extractable, self-contained, schema-marked passages. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full source map.
                 </p>
               </div>
+            </details>
 
-              <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
-                <h3 className="text-lg font-semibold text-white mb-3">
-                  How do I check if my business shows up in voice search?
-                </h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Ask your voice assistant the questions your customers would ask. Try
-                  &quot;Who is the best [your service] near me?&quot; or &quot;What does
-                  [your service] cost in [your city]?&quot; If your business is not
-                  mentioned, focus on completing your Google Business Profile, adding FAQ
-                  schema, and building more reviews.
+            <details className="ae-faq-item">
+              <summary>What is speakable schema and do I need it?</summary>
+              <div className="faq-answer">
+                <p>
+                  Speakable is a Schema.org property that tells voice assistants which sections of a page are eligible for read-aloud delivery. It is the only structural fix specifically engineered for voice synthesis. Pages that mark FAQ answers, key insights, and summary blocks with speakable selectors give assistants a clean lifting point. Without it, the assistant has to guess which paragraph to read, and it usually picks the wrong one or skips the page entirely. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for implementation help.
                 </p>
               </div>
+            </details>
 
+            <details className="ae-faq-item">
+              <summary>How long does it take to start showing up in voice and AI search?</summary>
+              <div className="faq-answer">
+                <p>
+                  Citation lift on AI platforms typically arrives 60 to 90 days after the core four AEO fixes are deployed: bounded chunks, FAQ schema with speakable markup, question-intent H2 headings, and consistent entity citations across seven or more corroborator sources. Voice assistant pickups lag AI overviews by 30 to 45 days because Siri and Alexa update their preferred-source lists on a slower cadence than retrieval-augmented systems. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-minute scoping call.</a>
+                </p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Can I optimize for voice and AI myself or do I need an agency?</summary>
+              <div className="faq-answer">
+                <p>
+                  The first four signals, bounded chunks, FAQ schema, question-format headings, and speakable markup, are implementable in-house with the right framework. The harder work is competitive entity mapping, the corroborator network, and ongoing citation measurement across four to seven assistant surfaces. Most in-house teams stop after the first wave because the measurement infrastructure is the bottleneck. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free Blind Spot Scan</a> to see which signals are missing on your site.
+                </p>
+              </div>
+            </details>
+
+            {/* Related */}
+            <span className="ae-section-label">Go Deeper</span>
+            <h2>Related AEO Guides</h2>
+            <ul>
+              <li><Link href="/blog/answer-engine-optimization-aeo-guide">Answer Engine Optimization: The Complete Guide for 2026</Link></li>
+              <li><Link href="/blog/best-aeo-techniques-2026">Best Answer Engine Optimization Techniques 2026</Link></li>
+              <li><Link href="/blog/aeo-vs-seo-local-business-guide">AEO vs SEO: A Local Business Guide</Link></li>
+              <li><Link href="/blog/5-minute-ai-visibility-audit">The 5-Minute AI Visibility Audit</Link></li>
+              <li><Link href="/blog/aeo-models-how-ai-search-picks-sources">AEO Models: How AI Search Picks Its Sources</Link></li>
+            </ul>
+
+            {/* Author Card */}
+            <div className="not-prose ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio">
+                  Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. This analysis draws on Aggarwal et al. (KDD 2024), GEO-SFE (2026), Zhang et al. (2026), and citation audits across active client engagements. Reach the team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+                </p>
+              </div>
             </div>
-          </section>
 
-          {/* CTA 11 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-          {/* CTA Block */}
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
-              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
-              </div>
-            </div>
+          </div>
 
           {/* Final CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Competitors Are Claiming AI Search Territory Right Now
+                Your Voice and AI Score Determines Who Gets Recommended
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+                Voice assistants and AI overviews return one answer. The Origin Protocol gets you cited where competitors get ignored. One slot per market.
               </p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free Blind Spot Report →
+                Get Your Free Blind Spot Scan
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500 font-mono uppercase tracking-widest">
+                <a href="tel:+12134442229" className="hover:text-[#F27D24] transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-[#F27D24] transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-[#F27D24] transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
           </section>
 
-          {/* Author Card */}
-          <div className="ae-author-card not-prose mt-12">
-            <div className="w-12 h-12 rounded-full bg-[#F27D24] flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
-              AE
-            </div>
-            <div>
-              <p className="text-white font-semibold">Justin Borges</p>
-              <p className="text-gray-400 text-sm mt-1">
-                Helping local service businesses get found by voice assistants and AI platforms. We turn invisible businesses into the recommended answer.
-              </p>
-              <div className="flex flex-wrap gap-4 mt-3">
-                <Link href="/blindspot" className="text-[#F27D24] text-sm font-medium hover:underline">Get Your Free Report &rarr;</Link>
-                <a href="tel:+12134442229" className="text-gray-400 text-sm hover:text-white transition-colors">(213) 444-2229</a>
-                <a href="mailto:support@theanswerengine.ai" className="text-gray-400 text-sm hover:text-white transition-colors">support@theanswerengine.ai</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </main>
+        </article>
+      </div>
     </>
   )
 }
