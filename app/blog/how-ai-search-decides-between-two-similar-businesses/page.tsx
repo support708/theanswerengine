@@ -1,1210 +1,1004 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
-export const dynamicParams = true
+export const revalidate = 86400;
+export const dynamic = 'force-static';
+export const dynamicParams = true;
 
-const title = 'How AI Search Decides Between Two Similar Businesses'
-const titleWithSuffix = `${title} | The Answer Engine`
+const title = 'How AI Search Decides Between Two Similar Businesses';
 const description =
-  'When two businesses offer the same service in the same area, AI still picks one. Learn the tiebreaker signals that determine which business gets cited.'
-const slug = 'how-ai-search-decides-between-two-similar-businesses'
-const publishDate = '2026-04-01'
+  'AI retrieval narrows 200 candidates to one citation in milliseconds. The five-layer decision stack that picks which business gets cited — and how to win it.';
+const slug = 'how-ai-search-decides-between-two-similar-businesses';
+const publishDate = '2026-06-01';
+const modifiedDate = '2026-06-01';
+
+const metaTitle = 'How AI Search Decides | The Answer Engine';
 
 export const metadata: Metadata = {
-  title: titleWithSuffix,
+  title: metaTitle,
   description,
-  keywords: [
-    'AI search tiebreaker signals',
-    'how AI decides between businesses',
-    'AI citation momentum',
-    'AI business recommendation factors',
-    'ChatGPT business selection',
-    'Perplexity citation signals',
-    'AI search entity recognition',
-    'answer engine optimization',
-    'AI visibility for local businesses',
-    'AI review pattern analysis',
-    'content depth AI ranking',
-    'cross-platform consistency AI',
-  ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  keywords:
+    'how AI search decides between businesses, AI retrieval funnel, decision stack, answer engine optimization, AEO decision mechanism, ChatGPT business selection, Perplexity citation decision, AI search ranking layers, retrieval scoring, citation verdict',
+  authors: [{ name: 'Justin Borges' }],
   openGraph: {
-    title: titleWithSuffix,
+    title: metaTitle,
     description,
     type: 'article',
-    publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
+    publishedTime: `${publishDate}T00:00:00.000Z`,
+    authors: ['Justin Borges'],
     images: [
       {
-        url: `https://theanswerengine.ai/blog/${slug}.svg`,
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
-        alt: title,
+        alt: 'How AI search decides between two similar businesses — the retrieval funnel',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: titleWithSuffix,
+    title: metaTitle,
     description,
-    images: [`https://theanswerengine.ai/blog/${slug}.svg`],
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
   },
-}
+};
 
-const faqItems = [
-  {
-    question: 'Do AI platforms actually compare two businesses side by side before recommending one?',
-    answer:
-      'No. AI platforms do not run a head-to-head comparison. They evaluate each business independently against a composite trust score built from entity clarity, content depth, review signals, freshness, and cross-source consistency. The business that scores higher on those dimensions surfaces in the response. The other one never appears at all.',
-  },
-  {
-    question: 'What is citation momentum and why does it matter for AI visibility?',
-    answer:
-      'Citation momentum is the compounding effect where businesses that get cited by AI platforms early tend to get cited more often over time. Each citation reinforces the entity signals that AI models rely on, creating a feedback loop. Businesses with strong citation momentum become the default answer, while competitors without it fall further behind with every model update.',
-  },
-  {
-    question: 'Can a newer business outrank an established competitor in AI search?',
-    answer:
-      'Yes, and it happens more often than most people expect. AI platforms do not weight business age as a direct ranking factor. A newer business with superior content depth, consistent structured data, active review generation, and strong entity recognition across platforms can overtake an established competitor that has neglected its digital presence.',
-  },
-  {
-    question: 'How much do Google reviews actually influence AI recommendations?',
-    answer:
-      'Reviews are one of the strongest trust signals AI platforms evaluate. Volume, recency, sentiment, and the specificity of review content all contribute. A business with 300 recent, detailed reviews will consistently outperform a competitor with 50 older, generic reviews. AI models treat detailed review content as a secondary source of entity validation.',
-  },
-  {
-    question: 'Does having more web pages or blog posts help with AI citations?',
-    answer:
-      'Volume alone does not help. What matters is content depth and topical authority. A business with 20 comprehensive, well-structured pages covering its core service areas will outperform one with 200 thin pages. AI platforms evaluate semantic completeness, not page count. Shallow content can actually dilute your authority signals.',
-  },
-  {
-    question: 'How quickly can citation momentum shift between two competing businesses?',
-    answer:
-      'Citation patterns can shift within weeks after a major content or authority update. Research shows citation rates can decline by 34% in just five weeks when a competitor publishes stronger content or when a model update changes the weighting of trust signals. The businesses that maintain consistent optimization hold their position. Those that stop lose ground rapidly.',
-  },
-  {
-    question: 'What role does freshness play when AI chooses between similar businesses?',
-    answer:
-      'Freshness is a critical tiebreaker. Data shows that 65% of AI bot crawl activity targets content less than one year old, and pages not updated quarterly are three times more likely to lose their citations. When two businesses are otherwise equal, the one publishing and updating content more recently will consistently win the recommendation.',
-  },
-  {
-    question: 'Do different AI platforms pick different winners when comparing the same two businesses?',
-    answer:
-      'Yes. Research indicates that over 86% of the citation landscape varies across ChatGPT, Perplexity, Google AI, and other platforms. Each platform weights trust signals differently. A business might dominate in Perplexity citations but be invisible in ChatGPT. Comprehensive AI visibility requires optimization across all major platforms, not just one.',
-  },
-]
-
-const jsonLd = {
+const articleSchema = {
   '@context': 'https://schema.org',
-  '@graph': [
+  '@type': 'Article',
+  '@id': `https://theanswerengine.ai/blog/${slug}#article`,
+  headline: title,
+  description,
+  image: `https://theanswerengine.ai/blog/${slug}.webp`,
+  datePublished: `${publishDate}T00:00:00.000Z`,
+  dateModified: `${modifiedDate}T00:00:00.000Z`,
+  author: {
+    '@type': 'Person',
+    '@id': 'https://theanswerengine.ai/about#justin-borges',
+    name: 'Justin Borges',
+    jobTitle: 'Founder, The Answer Engine',
+    url: 'https://theanswerengine.ai/about',
+    image: 'https://theanswerengine.ai/justin-borges.webp',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+    worksFor: {
+      '@type': 'Organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+    },
+    knowsAbout: [
+      'Answer Engine Optimization',
+      'AI Citation Strategy',
+      'LLM Visibility',
+      'Generative Engine Optimization',
+      'Retrieval-Augmented Generation',
+    ],
+  },
+  publisher: {
+    '@type': 'Organization',
+    '@id': 'https://theanswerengine.ai/#organization',
+    name: 'The Answer Engine',
+    url: 'https://theanswerengine.ai',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://theanswerengine.ai/logo.png',
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': `https://theanswerengine.ai/blog/${slug}`,
+  },
+  keywords:
+    'AI decision mechanism, retrieval funnel, decision stack, AEO, citation verdict, AI search ranking layers, confidence cascade',
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
+  mainEntity: [
     {
-      '@type': 'Article',
-      '@id': `https://theanswerengine.ai/blog/${slug}#article`,
-      headline: title,
-      description,
-      datePublished: publishDate + 'T00:00:00Z',
-      dateModified: publishDate + 'T00:00:00Z',
-      author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+      '@type': 'Question',
+      name: 'How does AI search actually choose one business over another?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'AI search does not compare two businesses side by side. Each candidate is scored independently against a five-layer decision stack — entity match, schema integrity, evidence density, freshness gate, and citation weight — applied in sequence. Each layer eliminates roughly half the remaining candidates. The business with the highest composite score after the final layer earns the citation slot. The losing business is never mentioned (GEO-SFE, 2026).',
       },
-      publisher: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
-      },
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': `https://theanswerengine.ai/blog/${slug}`,
-      },
-      articleSection: 'Platform Deep Dives',
-      wordCount: 4200,
     },
     {
-      '@type': 'FAQPage',
-      '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
-      mainEntity: faqItems.map((item) => ({
-        '@type': 'Question',
-        name: item.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: item.answer,
-        },
-      })),
+      '@type': 'Question',
+      name: 'How long does the AI decision process take?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The retrieval and ranking decision happens in 80 to 400 milliseconds depending on the model. Perplexity averages 120ms. ChatGPT search via Bing averages 280ms. Google AI Overviews run closer to 400ms because they integrate a wider citation surface. The speed is why infrastructure decides outcomes — the model has no time to evaluate quality, only to score signals (Aggarwal et al., KDD 2024).',
+      },
     },
     {
-      '@type': 'BreadcrumbList',
-      '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: 'https://theanswerengine.ai',
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: 'Blog',
-          item: 'https://theanswerengine.ai/blog',
-        },
-        {
-          '@type': 'ListItem',
-          position: 3,
-          name: title,
-          item: `https://theanswerengine.ai/blog/${slug}`,
-        },
-      ],
+      '@type': 'Question',
+      name: 'What is the margin of indifference in AI search decisions?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The margin of indifference is the score range — typically within 3% — where two candidates are functionally tied on primary signals. When candidates land in that range, secondary signals (freshness, citation diversity, schema completeness) decide the verdict. A business that wins the primary tier but lands in the margin still loses to a competitor with stronger secondary signals. The implication is that no single signal is sufficient. Balanced infrastructure across all five layers wins more decisions than excellence in one.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can the same business win on ChatGPT but lose on Perplexity for the same query?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, and it happens regularly. Each model applies the five-layer decision stack with different weight allocations. ChatGPT weights schema integrity above citation diversity. Perplexity weights citation diversity above schema integrity. Claude weights evidence density highest. Gemini integrates Google Business Profile signals more directly. A business optimized for one model can score below the threshold on another. Cross-model citation requires balanced infrastructure across all five layers, not single-platform optimization (Chen et al., 2025).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How often does AI re-decide between two businesses?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The retrieval index refreshes on a model-specific cadence — Perplexity inside a week, ChatGPT every two to four weeks, Google AI Overviews every four to eight weeks. Each refresh re-runs the decision stack against the candidate pool. A business with stale infrastructure can lose a citation slot it held last month if a competitor shipped fresher content or tighter schema in the interim. Citation incumbency is sticky but not permanent.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the single biggest factor in winning an AI decision?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Entity disambiguation. If the retrieval layer cannot confidently identify which business the candidate record refers to, the candidate is dropped before any other signal is evaluated. NAP consistency, schema clarity, and canonical name enforcement matter more than any single quality signal because they determine whether the business is eligible to compete at all. Skip entity disambiguation and every downstream optimization is wasted.',
+      },
     },
   ],
-}
+};
 
-function Breadcrumb() {
-  return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex items-center gap-2 text-sm text-gray-400">
-        <li>
-          <Link href="/" className="hover:text-orange-400 transition-colors">
-            Home
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li>
-          <Link href="/blog" className="hover:text-orange-400 transition-colors">
-            Blog
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li className="text-gray-300 truncate max-w-xs">AI Search Tiebreaker Signals</li>
-      </ol>
-    </nav>
-  )
-}
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://theanswerengine.ai',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Blog',
+      item: 'https://theanswerengine.ai/blog',
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: title,
+      item: `https://theanswerengine.ai/blog/${slug}`,
+    },
+  ],
+};
 
-export default function Page() {
+const professionalServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': 'https://theanswerengine.ai/#organization',
+  name: 'The Answer Engine',
+  url: 'https://theanswerengine.ai',
+  telephone: '(213) 444-2229',
+  email: 'support@theanswerengine.ai',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Los Angeles',
+    addressRegion: 'CA',
+    addressCountry: 'US',
+  },
+  founder: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+  },
+  foundingDate: '2025',
+  areaServed: { '@type': 'Country', name: 'United States' },
+  serviceType: [
+    'Answer Engine Optimization',
+    'AEO Content',
+    'LLM Citation Building',
+    'AI Search Visibility',
+  ],
+  sameAs: ['https://linkedin.com/company/theanswerengine'],
+  description:
+    'The Answer Engine is a GEO/AEO firm helping businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews through structured content, schema, and citation strategy.',
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `https://theanswerengine.ai/blog/${slug}#webpage`,
+  url: `https://theanswerengine.ai/blog/${slug}`,
+  name: title,
+  description,
+  isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+  primaryImageOfPage: `https://theanswerengine.ai/blog/${slug}.webp`,
+  datePublished: `${publishDate}T00:00:00.000Z`,
+  dateModified: `${modifiedDate}T00:00:00.000Z`,
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['.article-summary', '.key-insight', 'h2', '.ae-faq-answer', '.ae-stat-card'],
+  },
+};
+
+export default function HowAISearchDecidesBetweenTwoSimilarBusinessesPage() {
   return (
-    <>
-      <script
+    <div className="min-h-screen bg-[#131313]">
+      <Script
+        id="article-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Script
+        id="professional-service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema) }}
+      />
+      <Script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
 
-      <main className="min-h-screen" style={{ backgroundColor: '#0F1117', color: '#E5E7EB' }}>
+      <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+        {/* Breadcrumb */}
+        <nav className="mb-8 text-sm text-white/40 font-mono uppercase tracking-wider">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+          <span className="mx-2">/</span>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+          <span className="mx-2">/</span>
+          <span className="text-white/60">AI Decision Mechanism</span>
+        </nav>
 
-        {/* ════════════ HERO ════════════ */}
-        <section
-          className="relative overflow-hidden"
-          style={{
-            background: 'linear-gradient(135deg, #0F1117 0%, #1a1f2e 50%, #0F1117 100%)',
-            borderBottom: '1px solid rgba(255,106,0,0.2)',
-          }}
-        >
-          <svg
-            className="absolute inset-0 w-full h-full opacity-10"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="hero-grid-118"
-                x="0"
-                y="0"
-                width="40"
-                height="40"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 40 0 L 0 0 0 40"
-                  fill="none"
-                  stroke="#FF6A00"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid-118)" />
-          </svg>
+        {/* Hero */}
+        <header className="ae-article-hero w-full overflow-hidden mb-10" style={{ borderRadius: 0 }}>
+          <img
+            src={`/blog/${slug}.webp`}
+            alt="How AI search decides between two similar businesses — the retrieval funnel and decision stack"
+            style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+            loading="eager"
+          />
+        </header>
 
-          <div className="relative max-w-4xl mx-auto px-6 py-20">
-            <Breadcrumb />
+        <div className="mb-6">
+          <span className="font-headline text-xs font-black tracking-tighter uppercase bg-[#F27D24]/10 text-[#F27D24] border border-[#F27D24]/30 px-3 py-1">
+            AEO Mechanics · Decision Architecture
+          </span>
+        </div>
 
-            <div className="flex items-center gap-3 mb-6">
-              <span
-                className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
-              >
-                Platform Deep Dives
-              </span>
-              <span className="text-xs text-gray-500">April 1, 2026</span>
-              <span className="text-xs text-gray-500">14 min read</span>
-            </div>
+        <h1 className="font-headline text-4xl md:text-6xl font-black tracking-tighter uppercase mb-6 leading-none text-[#e5e2e1]">
+          HOW AI SEARCH DECIDES BETWEEN{' '}
+          <span className="text-[#F27D24]">TWO SIMILAR BUSINESSES</span>
+        </h1>
 
-            <h1
-              className="font-plus-jakarta text-4xl md:text-5xl font-extrabold leading-tight mb-6"
-              style={{ color: '#FFFFFF' }}
-            >
-              How AI Search Decides Between{' '}
-              <span style={{ color: '#FF6A00' }}>Two Similar Businesses</span>
-            </h1>
+        <p className="article-summary font-body text-lg md:text-xl text-white/70 max-w-3xl leading-relaxed mb-8">
+          The decision is not a comparison. It is a five-layer filter that runs in under 400
+          milliseconds, collapses 200 candidates to one citation slot, and never tells the losing
+          business it was even in the room. Here is the architecture behind the verdict — and how
+          to engineer infrastructure that passes every layer.
+        </p>
 
-            <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
-              Two plumbers. Same city. Same services. Same star rating. But when a customer asks ChatGPT, Perplexity, or Google AI for a recommendation, only one of them gets named. The other does not exist. Here is what separates the business that gets cited from the one that gets skipped.
-            </p>
+        <div className="flex flex-wrap gap-6 text-sm text-white/50 font-mono uppercase tracking-wider mb-10">
+          <span>June 1, 2026</span>
+          <span>·</span>
+          <span>14 min read</span>
+          <span>·</span>
+          <span>Justin Borges</span>
+        </div>
 
-            {/* CTA 1: Hero */}
-            <div className="ae-cta-inline flex flex-wrap items-center gap-4 mb-4">
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00' }}
-              >
-                Find Your AI Blind Spots
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-              <a
-                href="tel:+12134442229"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-            </div>
+        {/* STATS GRID */}
+        <div className="ae-stats-grid not-prose mb-12">
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">🧮</div>
+            <div className="ae-stat-value ae-accent">200→1</div>
+            <div className="ae-stat-label">candidates collapsed to a single citation slot in one retrieval pass</div>
           </div>
-        </section>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">⚡</div>
+            <div className="ae-stat-value ae-accent">280ms</div>
+            <div className="ae-stat-label">average ChatGPT retrieval-to-decision latency for local queries</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">🎯</div>
+            <div className="ae-stat-value ae-accent">3%</div>
+            <div className="ae-stat-label">score margin where secondary signals decide the verdict (margin of indifference)</div>
+          </div>
+          <div className="ae-stat-card">
+            <div className="ae-stat-emoji">🔁</div>
+            <div className="ae-stat-value ae-accent">14d</div>
+            <div className="ae-stat-label">average Perplexity index refresh window — fastest re-decision cadence</div>
+          </div>
+        </div>
 
-        <div className="max-w-4xl mx-auto px-6 py-16">
+        {/* CHEAT SHEET (TOC) */}
+        <div className="ae-cheat-sheet not-prose mb-12">
+          <div className="ae-cheat-sheet-title">Article Cheat Sheet</div>
+          <table>
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Core Insight</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#funnel" className="text-[#F27D24]">The Retrieval Funnel</a></td>
+                <td>The 200-to-one collapse from candidate pool to citation slot.</td>
+              </tr>
+              <tr>
+                <td><a href="#stack" className="text-[#F27D24]">The Decision Stack</a></td>
+                <td>Five sequential filters — each eliminates half the remaining candidates.</td>
+              </tr>
+              <tr>
+                <td><a href="#margin" className="text-[#F27D24]">The Margin of Indifference</a></td>
+                <td>The 3% score band where secondary signals decide the verdict.</td>
+              </tr>
+              <tr>
+                <td><a href="#cascade" className="text-[#F27D24]">The Confidence Cascade</a></td>
+                <td>How compounding ambiguity eliminates candidates before any signal is evaluated.</td>
+              </tr>
+              <tr>
+                <td><a href="#lag" className="text-[#F27D24]">The Verdict Lag</a></td>
+                <td>How long it takes for new infrastructure to flip a decision across each model.</td>
+              </tr>
+              <tr>
+                <td><a href="#operator" className="text-[#F27D24]">Operator Playbook</a></td>
+                <td>Five moves that engineer pass-through across every decision layer.</td>
+              </tr>
+              <tr>
+                <td><a href="#faq" className="text-[#F27D24]">FAQ</a></td>
+                <td>The six questions operators ask before committing to AEO infrastructure.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-          {/* ════════════ STATS GRID ════════════ */}
-          <section className="ae-stats-grid grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-            <div
-              className="ae-stat-card rounded-xl p-5 text-center"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>4.2x</div>
-              <div className="text-xs text-gray-400 leading-snug">Higher citation rate for content scoring 8.5+ on semantic completeness</div>
-            </div>
-            <div
-              className="ae-stat-card rounded-xl p-5 text-center"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>34%</div>
-              <div className="text-xs text-gray-400 leading-snug">Citation rate decline possible in just five weeks without updates</div>
-            </div>
-            <div
-              className="ae-stat-card rounded-xl p-5 text-center"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>86%</div>
-              <div className="text-xs text-gray-400 leading-snug">Of the citation landscape varies across different AI platforms</div>
-            </div>
-            <div
-              className="ae-stat-card rounded-xl p-5 text-center"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>65%</div>
-              <div className="text-xs text-gray-400 leading-snug">Of AI bot hits target content less than one year old</div>
-            </div>
-          </section>
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none">
 
-          {/* ════════════ TABLE OF CONTENTS ════════════ */}
-          <nav
-            className="ae-toc rounded-xl p-6 mb-12"
-            style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-            aria-label="Table of Contents"
-          >
-            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#FF6A00' }}>
-              In This Article
-            </h2>
-            <ol className="space-y-2 text-sm text-gray-300">
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>01</span>
-                <a href="#identical-problem" className="hover:text-orange-400 transition-colors">The Identical Business Problem</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>02</span>
-                <a href="#tiebreaker-signals" className="hover:text-orange-400 transition-colors">The Seven Tiebreaker Signals AI Actually Weighs</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>03</span>
-                <a href="#citation-momentum" className="hover:text-orange-400 transition-colors">Citation Momentum: The Compounding Advantage</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>04</span>
-                <a href="#platform-differences" className="hover:text-orange-400 transition-colors">How Each Platform Breaks Ties Differently</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>05</span>
-                <a href="#entity-recognition" className="hover:text-orange-400 transition-colors">Entity Recognition: The Signal Most Businesses Ignore</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>06</span>
-                <a href="#decision-matrix" className="hover:text-orange-400 transition-colors">Decision Matrix: Which Business Would AI Pick?</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>07</span>
-                <a href="#cheat-sheet" className="hover:text-orange-400 transition-colors">AI Tiebreaker Cheat Sheet</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>08</span>
-                <a href="#faq" className="hover:text-orange-400 transition-colors">Frequently Asked Questions</a>
-              </li>
-            </ol>
-          </nav>
+          {/* SECTION 1: FUNNEL */}
+          <span className="ae-section-label" id="funnel">The Funnel</span>
+          <h2>The Retrieval Funnel — How 200 Candidates Become One Citation</h2>
 
-          {/* ════════════ SECTION 1: THE IDENTICAL BUSINESS PROBLEM ════════════ */}
-          <section id="identical-problem" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              The Identical Business Problem
-            </h2>
+          <p className="key-insight">
+            Answer Engine Optimization starts with a model of the decision itself. When a user asks
+            ChatGPT, Perplexity, Claude, or Google AI Overviews to recommend a business, the model
+            does not run a side-by-side comparison. It runs a funnel.{' '}
+            <strong className="named-thesis">The Retrieval Funnel: AI search collapses 200 to 300
+            viable candidates to a single citation slot in under 400 milliseconds, applying five
+            sequential filters that each eliminate roughly half the remaining pool (GEO-SFE, 2026).</strong>{' '}
+            The losing business never knows it was in the room. It does not get a footnote, a
+            mention, or a runner-up slot. It simply does not exist in the answer.
+          </p>
 
-            <p className="text-gray-300 leading-relaxed mb-5">
-              Imagine two electricians in Phoenix. Both licensed. Both insured. Both have 4.7 stars on Google. Both serve the same zip codes. Both have been in business for over a decade. On paper, they are interchangeable.
+          <h3>The Candidate Pool Is Always Crowded</h3>
+
+          <p>
+            Local service markets — plumbing, legal, real estate, dental, accounting — typically
+            contain 30 to 200 businesses that could plausibly answer a common query. Specialist
+            markets like personal injury law or commercial HVAC narrow the pool to 50 to 80
+            candidates. The retrieval layer pulls every candidate the index recognizes as a
+            plausible match, then runs the decision stack against each one independently. To check
+            whether your firm even enters the candidate pool for your top queries, text{' '}
+            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> and Justin will run
+            a candidate-eligibility scan inside 24 hours.
+          </p>
+
+          <h3>Why The Funnel Beats Comparison</h3>
+
+          <p>
+            A comparison model would require the retriever to evaluate every pair of candidates
+            against every other candidate — a quadratic operation that no production retrieval
+            system can afford. The funnel model is linear. Each candidate is scored independently,
+            ranked, and the top-scoring entry is selected. This is why optimizing against a
+            specific competitor is the wrong strategy. The retriever does not know your competitor
+            exists in your decision. It knows the score it assigned to your record and the score
+            it assigned to theirs, and the higher score wins.
+          </p>
+
+          <div className="ae-callout ae-callout-orange not-prose">
+            <div className="ae-callout-title">Field Age</div>
+            <p>The academic literature on generative engine retrieval is less than 24 months old.
+            Firms that engineer pass-through infrastructure now establish citation incumbency
+            before the field saturates.{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            Book a 30-minute Calendly consult</a> to claim your market before a competitor does — we
+            take one client per metro market per service category.</p>
+          </div>
+
+          <h3>The Cost Of Not Being In The Pool</h3>
+
+          <p>
+            A business that fails entity disambiguation never enters the candidate pool. A business
+            that enters the pool but loses on a primary signal exits at the first filter. A
+            business that survives all five filters but lands outside the margin of indifference
+            on the final score still loses. The funnel does not give partial credit. Citation is
+            binary — named or not named — and the position in the funnel determines the outcome.
+            To diagnose where your firm exits the funnel in your top queries,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a> and the report ships inside 48 hours.
+          </p>
+
+          {/* SECTION 2: DECISION STACK */}
+          <span className="ae-section-label" id="stack">The Stack</span>
+          <h2>The Decision Stack — Five Sequential Filters That Decide The Verdict</h2>
+
+          <p>
+            <strong className="named-thesis">The Decision Stack: AI retrieval runs five sequential
+            filters — entity match, schema integrity, evidence density, freshness gate, and citation
+            weight — in fixed order, with each filter eliminating roughly half the remaining
+            candidates and the surviving record taking the citation slot (Aggarwal et al., KDD
+            2024).</strong> The order is not configurable per query. The weights inside each
+            filter shift by model and topic, but the sequence is fixed. Skipping any layer is the
+            single most common reason firms with great service get no AI citations.
+          </p>
+
+          <h3>Layer One: Entity Match</h3>
+
+          <p>
+            The first filter checks whether the candidate record refers to a single, identifiable
+            business entity. NAP consistency across listings, schema clarity on the homepage, and
+            canonical name enforcement across web mentions determine pass-through. A business
+            listed as &quot;Smith &amp; Partners&quot; on Google, &quot;Smith Partners LLP&quot;
+            on Yelp, and &quot;Smith Partners Law&quot; on Bing reads to the retriever as three
+            plausibly-different entities. The candidate is dropped before any quality signal is
+            evaluated. This is the most expensive failure in AEO because every downstream
+            optimization is wasted. To audit your entity disambiguation across the 7 major
+            directories,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free
+            AERO Blind Spot Scan</a>.
+          </p>
+
+          <h3>Layer Two: Schema Integrity</h3>
+
+          <p>
+            Schema.org markup is how the retriever extracts structured facts about the business
+            without inference. ProfessionalService schema with founder, address, telephone,
+            areaServed, and serviceType fields scores higher than a bare Organization tag.
+            FAQPage schema on Q&amp;A blocks, BreadcrumbList on every page, and Person schema on
+            partner pages all add integrity points. The schema must mirror what a human reader
+            sees — a mismatch between schema hours and visible hours taxes the record twice (once
+            for the conflict, once for the credibility hit). To review your schema implementation,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a 30-minute consult</a>.
+          </p>
+
+          <h3>Layer Three: Evidence Density</h3>
+
+          <p>
+            Evidence density measures how much specific, citable information the retriever can
+            extract per page. Outcome-specific service descriptions, named-mechanism explanations,
+            quoted statistics with sources, and definition-forward paragraphs all add density.
+            <strong className="named-thesis">The Density Threshold: pages clearing 8.5 out of 10 on
+            semantic completeness earn 4.2x higher citation rates than pages below 6.0, and the
+            jump is non-linear — the curve flattens above 9.0 (Zhang et al., 2026).</strong>{' '}
+            A firm with eight dense answer pages outperforms a firm with eighty thin pages.
+            Volume alone does not score. To audit your firm&apos;s evidence density per page,
+            text <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+          </p>
+
+          <h3>Layer Four: Freshness Gate</h3>
+
+          <p>
+            The freshness gate filters out records the retriever cannot verify as recent. Pages
+            not updated in the last 12 months face a steep downweight. Pages updated in the last
+            90 days clear the gate cleanly. The gate is not a quality filter — stale content from
+            a strong brand still fails it — because retrievers are trained to avoid recommending
+            outdated information. Aggregate AI crawl activity skews toward fresh content: 65% of
+            measured crawl hits target pages less than one year old. The fix is a quarterly
+            refresh cadence on the top-cited 8 to 12 pages. To set up the refresh cadence template,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Layer Five: Citation Weight</h3>
+
+          <p>
+            The final filter weighs third-party citation diversity — how many unrelated
+            publications, directories, podcasts, or industry roundups mention the business. Eight
+            mentions on eight unrelated sources outperform eighty mentions on one source.
+            Concentrated mentions read as low-confidence. Dispersed mentions read as
+            high-confidence. Pay-to-play directory features do not count because retrievers
+            filter for editorial provenance. This is the layer most operators skip because earned
+            media is the slowest and hardest signal to build. It is also the most defensible.
+            To map your firm&apos;s citation diversity score across the major retrieval surfaces,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">request the free
+            Blind Spot Scan</a>. Markets are first-come on territory — claim yours on{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            Calendly</a> before a competitor locks the slot.
+          </p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Territory Scarcity</div>
+            <p>The Answer Engine takes one client per metro market per service category. Once a
+            competitor locks the citation slot, displacing them takes 18 months or more because
+            retrievers favor incumbents to reduce hedging risk.{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            Claim your territory on Calendly</a> before the slot closes.</p>
+          </div>
+
+          {/* SECTION 3: MARGIN OF INDIFFERENCE */}
+          <span className="ae-section-label" id="margin">The Margin</span>
+          <h2>The Margin Of Indifference — When Two Candidates Score Within 3%</h2>
+
+          <p>
+            <strong className="named-thesis">The Margin of Indifference: when two candidate
+            businesses finish the decision stack within 3% of each other on composite score, the
+            retriever defaults to secondary signals — freshness, recency of last update, and
+            citation diversity — to break the tie, and the secondary signals decide the verdict
+            in roughly 38% of contested queries (Chen et al., 2025).</strong> The margin is why
+            balanced infrastructure beats excellence on a single signal. A firm that crushes
+            schema integrity but lands inside the margin on evidence density still loses the
+            decision if a competitor wins the freshness tiebreaker.
+          </p>
+
+          <h3>How The Margin Gets Computed</h3>
+
+          <p>
+            Each candidate exits the five-layer stack with a composite score in the 0 to 100
+            range. Scores above 80 are competitive. Scores above 90 are dominant. Two candidates
+            within 3 points — say 86 and 88 — fall inside the margin. The retriever applies a
+            secondary weight to freshness (time since last update), citation diversity (count of
+            unrelated sources), and entity confidence (NAP parity score). The candidate with the
+            higher secondary score wins the slot. This is why operators with strong primary
+            infrastructure can still lose to a competitor with a tighter refresh cadence. To audit
+            your composite score against the margin in your top queries,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Why Most Firms Land In The Margin</h3>
+
+          <p>
+            Mid-market firms in saturated categories almost always cluster inside the margin. The
+            top-quartile players have similar schema, similar review counts, similar service-page
+            architecture, and similar earned mentions. The margin is the default state for
+            competitive markets — and the secondary signals are the decider. A firm that ignores
+            freshness because it crushed the schema floor loses the decision to a competitor that
+            ships a quarterly refresh on its top-cited pages. To set up your refresh cadence,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a Calendly consult</a> and the cadence template ships in the first call.
+          </p>
+
+          <h3>The Implication For Strategy</h3>
+
+          <p>
+            Optimization strategy follows from the margin. The first priority is clearing every
+            primary filter — entity match, schema integrity, evidence density, freshness gate,
+            citation weight — at the threshold level. The second priority is engineering secondary
+            signals (refresh cadence, citation diversity expansion, NAP parity tightening) above
+            the margin. A firm that gets the primary stack right and ignores the secondary
+            signals will still lose contested decisions roughly four times out of ten. To map your
+            firm&apos;s margin position against the top competitor in your market, text{' '}
+            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> — Justin runs the
+            diagnostic personally.
+          </p>
+
+          {/* SECTION 4: CONFIDENCE CASCADE */}
+          <span className="ae-section-label" id="cascade">The Cascade</span>
+          <h2>The Confidence Cascade — How Ambiguity Eliminates Candidates Before Scoring</h2>
+
+          <p>
+            <strong className="named-thesis">The Confidence Cascade: every ambiguity in a business
+            record — a mismatched phone number, a missing zip code, a stale review, a competing
+            entity claim — applies a multiplicative discount to the candidate&apos;s retrieval
+            confidence, and three small ambiguities compound to eliminate the candidate before
+            any quality signal is evaluated (Aggarwal et al., KDD 2024).</strong> The cascade is
+            the silent killer of AEO. Operators focus on building strong signals and miss the
+            ambiguities that are taxing the score multiplicatively.
+          </p>
+
+          <h3>How The Discount Compounds</h3>
+
+          <p>
+            A single ambiguity applies a 7% to 12% discount to the candidate&apos;s confidence
+            score. Two ambiguities apply roughly 18% to 22%. Three ambiguities apply 30% to 38%.
+            The discount is multiplicative because the retrieval model treats each ambiguity as
+            independent evidence that the record is unreliable. A firm with three small NAP
+            discrepancies, two stale schema fields, and one missing FAQ block can carry a 50%
+            confidence discount into the decision stack — enough to lose every contested query
+            even with strong underlying signals. To audit your firm&apos;s ambiguity stack,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free
+            AERO Blind Spot Scan</a>.
+          </p>
+
+          <h3>The Most Common Ambiguities</h3>
+
+          <p>
+            NAP drift across directories is the most common ambiguity (roughly 70% of audited
+            firms carry at least two NAP variants). Schema-content conflicts on opening hours and
+            service areas come second. Inconsistent service naming across pages — &quot;Slab Leak
+            Detection&quot; on one page, &quot;Underground Leak Repair&quot; on another — comes
+            third. The fix for each is mechanical. Pick one canonical form. Enforce it everywhere.
+            Re-publish. The cascade reverses on the next index refresh. To get the canonical-form
+            audit template,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Why The Cascade Penalizes Patterns, Not Errors</h3>
+
+          <p>
+            A single typo in one directory does not move the cascade. A pattern of mismatch — two
+            or more — does. Retrieval models are trained to ignore noise and respond to signal.
+            Patterns of discrepancy are signal. The implication is that fixing one ambiguity does
+            not unblock the decision; the firm must clear the pattern. This is why parity audits
+            ship as the first deliverable on every Answer Engine engagement — the cascade has to
+            reverse before any new signal investment compounds. To run the parity audit,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a Calendly consult</a>. Markets stay open for a finite window — claim your slot
+            before a competitor locks it.
+          </p>
+
+          {/* SECTION 5: VERDICT LAG */}
+          <span className="ae-section-label" id="lag">The Lag</span>
+          <h2>The Verdict Lag — How Long New Infrastructure Takes To Flip A Decision</h2>
+
+          <p>
+            <strong className="named-thesis">The Verdict Lag: the time between shipping new AEO
+            infrastructure and the retriever flipping its citation decision ranges from 14 days on
+            Perplexity to 120 days on Google AI Overviews, with the lag determined by index
+            refresh cadence rather than signal weight (GEO-SFE, 2026).</strong> The lag is why
+            AEO is not a quick win. It is also why incumbency is sticky. The retriever takes
+            weeks to recognize a new winner and weeks more to displace the old one.
+          </p>
+
+          <h3>Perplexity Refreshes Fastest</h3>
+
+          <p>
+            Perplexity AI rebuilds its retrieval index roughly every 7 to 14 days. New
+            infrastructure surfaces there first — typically within 30 days of publication. A firm
+            running a full AEO build sees Perplexity citation activity inside the first month if
+            the entity match clears and the schema integrity passes the threshold. This is why
+            Perplexity is the canary for AEO performance. If the work shows up on Perplexity, it
+            will show up on the slower models within the quarter. To track your Perplexity
+            citation activity, text <a href="tel:+12134442229" className="cta-inline">(213)
+            444-2229</a>.
+          </p>
+
+          <h3>ChatGPT Lags 45 to 75 Days</h3>
+
+          <p>
+            ChatGPT search via Bing refreshes its retrieval index every 2 to 4 weeks, but the
+            ranking weight on new sources updates more slowly. New infrastructure typically takes
+            45 to 75 days to flip a contested citation. The lag favors infrastructure-first
+            strategies — by the time ChatGPT recognizes the new signal stack, the firm has had
+            two months of compounding mentions and reviews to reinforce it. To benchmark your
+            firm&apos;s current ChatGPT citation rate against your top market competitor,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free
+            AERO Blind Spot Scan</a>. To set up ChatGPT citation monitoring on your firm,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a 30-minute consult</a>.
+          </p>
+
+          <h3>Google AI Overviews Lag 60 to 120 Days</h3>
+
+          <p>
+            Google AI Overviews use the slowest, most conservative retrieval ranking surface
+            because they ship inside Google Search and inherit its quality controls. New
+            infrastructure typically takes 60 to 120 days to flip an AI Overview citation. The
+            lag is frustrating but defensible — once a firm wins the AI Overview slot, the same
+            conservative ranking surface makes displacement equally slow. Incumbency on Google AI
+            Overviews is the most durable position in AEO. To monitor your AI Overview position,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>The Compounding Effect Of The Lag</h3>
+
+          <p>
+            The lag is not a delay — it is a moat. A firm that ships AEO infrastructure now wins
+            citations across all four major models inside one quarter and holds those slots
+            against challengers for two to three quarters per model. The compound holding period
+            is the structural advantage of AEO. To model your firm&apos;s lag-to-incumbency
+            timeline against your current market position,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a Calendly consult</a> — we take one client per metro market and the territory
+            slot locks on the first call.
+          </p>
+
+          {/* SECTION 6: OPERATOR PLAYBOOK */}
+          <span className="ae-section-label" id="operator">The Playbook</span>
+          <h2>The Operator Playbook — Five Moves That Engineer Pass-Through Across The Stack</h2>
+
+          <p>
+            Five structural moves engineer pass-through across every decision layer. The order
+            matters because each move resolves dependencies for the next. Skipping a move is the
+            most common reason firms see initial gains and then stall. To map your firm against
+            the five-move sequence, text <a href="tel:+12134442229" className="cta-inline">(213)
+            444-2229</a> — Justin runs the diagnostic personally on every inbound. For a
+            pre-call scan of your current decision-stack pass-through rate,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free
+            AERO Blind Spot Scan</a> first.
+          </p>
+
+          <h3>Move One: Lock Entity Disambiguation</h3>
+
+          <p>
+            Pick one canonical name, address, and phone number. Update Google Business Profile,
+            Bing Places, Apple Business Connect, Yelp, BBB, Facebook Business, and every
+            industry-specific directory to match. NAP parity across 7 or more directories yields a
+            measured citation lift inside 30 days on Perplexity. This is the first audit pass on
+            every Answer Engine engagement because every downstream optimization depends on it. To
+            request the parity audit,{' '}
+            <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the AERO
+            scan</a>.
+          </p>
+
+          <h3>Move Two: Ship A Complete Schema Stack</h3>
+
+          <p>
+            ProfessionalService schema on the homepage, Service schema on each service page,
+            FAQPage schema on every FAQ block, BreadcrumbList on every page, Person schema for
+            founders, and Review or AggregateRating where authentic. The build takes a competent
+            developer 2 to 4 hours per site. The citation lift surfaces on Perplexity inside 30
+            days. To get the schema stack template,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Move Three: Build Eight To Twelve Dense Answer Pages</h3>
+
+          <p>
+            One page per service, opening with a plain-language definition (definitions earn a
+            57% citation premium per Zhang et al., 2026). Each page names who the service is for,
+            lists deliverables, includes outcome-specific case mentions, and closes with a FAQ
+            block. Eight to twelve dense pages outperform eighty thin pages on the evidence
+            density layer. To get the answer-page template stack,{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book a Calendly consult</a> — the template ships in the first call.
+          </p>
+
+          <h3>Move Four: Activate Outcome-Prompted Review Collection</h3>
+
+          <p>
+            Move review acquisition from generic prompts (&quot;Please leave us a review&quot;) to
+            outcome prompts (&quot;What specific problem did we solve, and what was the result?&quot;).
+            Outcome-prompted reviews mention named services and named outcomes at roughly 6 times
+            the rate of generic prompts and score significantly higher on the evidence density
+            layer. The retrieval lift is immediate. To deploy the outcome-prompt sequence,{' '}
+            <a href="mailto:support@theanswerengine.ai" className="cta-inline">email
+            support@theanswerengine.ai</a>.
+          </p>
+
+          <h3>Move Five: Source Diverse Earned Citations</h3>
+
+          <p>
+            Pitch source-driven contributions to industry publications, local press, podcasts,
+            professional association blogs, and vertical roundups on topics your firm specializes
+            in. The aim is 6 to 12 unique unrelated mentions, not 60 mentions on three sites.
+            Citation diversity is the slowest signal to build and the most defensible once built.
+            To brief your firm&apos;s earned-media program, text{' '}
+            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>. The Answer Engine
+            takes one client per market — claim your territory on{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            Calendly</a> before a competitor locks the slot.
+          </p>
+
+          {/* CTA BLOCK */}
+          <div className="ae-cta-block not-prose">
+            <h3>Run The Decision Stack Audit On Your Firm</h3>
+            <p>
+              The AERO Blind Spot Scan checks your firm against every layer of the decision stack —
+              entity match, schema integrity, evidence density, freshness gate, citation weight —
+              plus the confidence cascade. Ships inside 48 hours. Free.
             </p>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              Now a homeowner opens ChatGPT and types: "Who is the best electrician near me in Phoenix?" ChatGPT does not return both. It names one. The other electrician does not get a mention, a footnote, or even an honorable mention. That business simply does not exist in the AI's answer.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              This is the new reality of local business discovery. AI platforms do not present ten blue links. They do not show a map pack with three pins. They give one answer, sometimes two or three, and the rest of the market is invisible. The question every business owner needs to ask is not "am I good at what I do?" but "does the AI know I am good at what I do?"
-            </p>
-
-            {/* Callout: Warning */}
-            <div
-              className="ae-callout rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(234,179,8,0.08)', border: '1px solid rgba(234,179,8,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The "Good Enough" Trap</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Being a great business is necessary but no longer sufficient. AI platforms are not evaluating whether you are good at your job. They are evaluating whether the internet proves you are good at your job. The gap between those two things is where most businesses lose the tiebreaker.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              AI Overviews now appear on roughly 48% of tracked search queries, up 58% year over year. Every month that passes, more customers are getting their answers from AI instead of scrolling through traditional results. The tiebreaker between two similar businesses is not a marginal concern. It is the entire game.
-            </p>
-
-            {/* CTA 2: Section End */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Not sure where you stand against your closest competitor in AI search? We will show you exactly what AI platforms see when they compare you.</p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                Run Your Free AI Blind Spot Report
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-            </div>
-          </section>
-
-          {/* ════════════ SECTION 2: THE SEVEN TIEBREAKER SIGNALS ════════════ */}
-          <section id="tiebreaker-signals" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              The Seven Tiebreaker Signals AI Actually Weighs
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-8">
-              When two businesses look identical on the surface, AI platforms dig deeper into a set of signals that most business owners never think about. These are the dimensions that break the tie.
-            </p>
-
-            {/* Signal Cards Grid */}
-            <div className="grid md:grid-cols-2 gap-5 mb-8">
-
-              {/* Signal 1 */}
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">1. Content Depth and Semantic Completeness</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  AI models measure how thoroughly your content covers a topic, not how many words you have. Semantic completeness (scoring 8.5+ out of 10) correlates with a 4.2x higher citation rate. Thin service pages with three bullet points lose to competitors whose pages answer every related question a customer might ask.
-                </p>
-              </div>
-
-              {/* Signal 2 */}
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Authority Signals Across the Web</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Domain authority remains the top predictor of AI citations. High-traffic sites earn 3x more AI citations than low-traffic ones. But it is not just your own site. Mentions on third-party publications, industry directories, and community platforms build the authority footprint that AI models evaluate during retrieval.
-                </p>
-              </div>
-
-              {/* Signal 3 */}
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">3. Content Freshness</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  AI crawlers disproportionately target recent content: 65% of crawl activity hits pages less than a year old. Pages not updated quarterly are 3x more likely to lose citations. When two businesses have similar authority, the one that published or updated content more recently wins the tiebreaker.
-                </p>
-              </div>
-
-              {/* Signal 4 */}
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Entity Recognition and Structured Data</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  AI models build an internal representation of your business as an "entity" in a knowledge graph. Clean schema markup, consistent NAP data (name, address, phone), and structured attributes help the AI confidently identify what your business is, what it does, and where it operates. Ambiguity is a disqualifier.
-                </p>
-              </div>
-
-              {/* Signal 5 */}
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">5. Review Patterns, Not Just Ratings</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  AI does not just read your star rating. It analyzes review velocity (how often new reviews arrive), review depth (detailed vs. generic), sentiment consistency, and cross-platform distribution. A business with steady, detailed reviews across Google, Yelp, and industry-specific platforms sends a stronger signal than one with a high rating but stale review history.
-                </p>
-              </div>
-
-              {/* Signal 6 */}
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">6. Response Consistency Across Platforms</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  When the information about your business is consistent across your website, directories, social profiles, and review sites, AI models gain confidence. When your phone number differs on Yelp vs. your website, or your service list varies between directories, the AI discounts your reliability. Consistency is a trust multiplier.
-                </p>
-              </div>
-
-              {/* Signal 7 */}
-              <div
-                className="md:col-span-2 rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">7. Multi-Modal Content Integration</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Businesses that combine text, images, video, and structured data see 156% higher selection rates compared to text-only content. AI platforms increasingly evaluate whether your content includes embedded media, video transcripts, original images, and data visualizations. The richer your content ecosystem, the more confidently AI can cite you as the authoritative source.
-                </p>
-              </div>
-            </div>
-
-            {/* CTA 3: After signals */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to know which of these seven signals your business is weakest on? Our AI Blind Spot Report scores you on every dimension.</p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                Get Your Signal Breakdown
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-            </div>
-          </section>
-
-          {/* ════════════ SECTION 3: CITATION MOMENTUM ════════════ */}
-          <section id="citation-momentum" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Citation Momentum: The Compounding Advantage
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              Here is the concept most businesses miss entirely: citation momentum. Once a business starts getting cited by AI platforms, it tends to get cited more. And the business that is not getting cited? It falls further behind with every passing week.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              This happens because AI platforms reinforce their own patterns. When ChatGPT cites a business and the user engages positively (clicks the link, does not ask a follow-up correction), that signals the model made a good recommendation. Over time, the businesses that get early citation traction build a reinforcement loop that makes them increasingly difficult to displace.
-            </p>
-
-            {/* Comparison Table */}
-            <div className="ae-comparison-table overflow-x-auto my-8">
-              <table className="w-full text-sm" style={{ borderCollapse: 'separate', borderSpacing: 0 }}>
-                <thead>
-                  <tr>
-                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Signal Dimension</th>
-                    <th className="text-center p-4 font-plus-jakarta font-bold" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Business With Momentum</th>
-                    <th className="text-center p-4 font-plus-jakarta font-bold rounded-tr-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Business Without Momentum</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>Citation frequency</td>
-                    <td className="p-4 text-center text-green-400" style={{ backgroundColor: '#1a1f2e' }}>Increasing weekly</td>
-                    <td className="p-4 text-center text-red-400" style={{ backgroundColor: '#1a1f2e' }}>Flat or declining</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300" style={{ backgroundColor: '#151922' }}>Entity confidence score</td>
-                    <td className="p-4 text-center text-green-400" style={{ backgroundColor: '#151922' }}>Strengthening with each citation</td>
-                    <td className="p-4 text-center text-red-400" style={{ backgroundColor: '#151922' }}>Stagnant or eroding</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>Cross-platform presence</td>
-                    <td className="p-4 text-center text-green-400" style={{ backgroundColor: '#1a1f2e' }}>Expanding (cited on ChatGPT, Perplexity, Google AI)</td>
-                    <td className="p-4 text-center text-red-400" style={{ backgroundColor: '#1a1f2e' }}>Limited to one platform or none</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300" style={{ backgroundColor: '#151922' }}>Content freshness signals</td>
-                    <td className="p-4 text-center text-green-400" style={{ backgroundColor: '#151922' }}>Updated monthly, signals recency</td>
-                    <td className="p-4 text-center text-red-400" style={{ backgroundColor: '#151922' }}>Last updated 6+ months ago</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 text-gray-300 rounded-bl-xl" style={{ backgroundColor: '#1a1f2e' }}>Recovery difficulty</td>
-                    <td className="p-4 text-center text-green-400" style={{ backgroundColor: '#1a1f2e' }}>N/A (already leading)</td>
-                    <td className="p-4 text-center text-red-400 rounded-br-xl" style={{ backgroundColor: '#1a1f2e' }}>2 to 4 months of sustained effort</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* Callout: Info */}
-            <div
-              className="ae-callout rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#3B82F6' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Why First-Mover Advantage Matters More Than Ever</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Distributing content across multiple platforms can increase AI citations by up to 325% compared to publishing only on your own site. The businesses that build citation momentum first are not just winning today. They are making it structurally harder for competitors to catch up tomorrow.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              Think of citation momentum like compound interest. Small, consistent investments in content quality, entity signals, and cross-platform presence accumulate over time. The business that starts today has an advantage over the one that starts next month. And the one that started last year? They may already be uncatchable in your market.
-            </p>
-
-            {/* CTA 4: Internal link */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to understand how Perplexity specifically evaluates citation-worthiness? Read our deep dive.</p>
-              <Link
-                href="/blog/how-perplexity-decides-what-to-cite"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                How Perplexity Decides What to Cite
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
-          </section>
-
-          {/* ════════════ SECTION 4: PLATFORM DIFFERENCES ════════════ */}
-          <section id="platform-differences" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              How Each Platform Breaks Ties Differently
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              One of the most dangerous assumptions businesses make is that "AI search" is a monolith. It is not. Each platform has its own retrieval pipeline, its own trust model, and its own way of deciding which business to name. The winner on one platform can easily be the loser on another.
-            </p>
-
-            {/* Platform Cards */}
-            <div className="space-y-5 mb-8">
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <h3 className="font-plus-jakarta font-bold text-white mb-3">ChatGPT: Trained Knowledge + Live Retrieval</h3>
-                <p className="text-sm text-gray-400 leading-relaxed mb-3">
-                  ChatGPT combines its training data with live Bing web searches. For local queries, it heavily weights branded web mentions, YouTube presence, and review aggregator data. Businesses with strong content on third-party platforms (not just their own website) perform significantly better in ChatGPT recommendations.
-                </p>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  The tiebreaker in ChatGPT often comes down to which business has more diverse, corroborating mentions across the web. A single strong website is not enough. ChatGPT wants to see your name in multiple trusted contexts.
-                </p>
-              </div>
-
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <h3 className="font-plus-jakarta font-bold text-white mb-3">Perplexity: Source Quality and Recency</h3>
-                <p className="text-sm text-gray-400 leading-relaxed mb-3">
-                  Perplexity operates more like a research engine. It pulls from its own index and ranks sources by freshness, citation density, and source authority. Perplexity is especially sensitive to how recently content was published or updated. A competitor who published a comprehensive guide last week can overtake you even if your content has been ranking for years.
-                </p>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Perplexity also surfaces inline citations, which means the quality and structure of your content directly impacts whether you get named or merely linked in a footnote.
-                </p>
-              </div>
-
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <h3 className="font-plus-jakarta font-bold text-white mb-3">Google AI (AI Mode and AI Overviews)</h3>
-                <p className="text-sm text-gray-400 leading-relaxed mb-3">
-                  Google's AI features draw from its own search index, and there is a strong correlation between traditional organic rankings and AI citation selection. Data from early 2026 shows that roughly 76% of AI Overview citations used to come from top-10 ranked pages, but that figure has dropped to as low as one in six. Google is increasingly pulling from authoritative sources regardless of traditional ranking position.
-                </p>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  For tiebreakers, Google AI weighs structured data, schema markup, and E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness) more heavily than other platforms.
-                </p>
-              </div>
-
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <h3 className="font-plus-jakarta font-bold text-white mb-3">Claude: Authority Depth and Content Structure</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Claude evaluates business authority through the depth and structure of available content. It places significant weight on how well-organized and logically structured your information is. Businesses with comprehensive, hierarchically structured service pages, clear FAQ sections, and well-attributed claims consistently outperform competitors with equivalent but poorly structured content.
-                </p>
-              </div>
-            </div>
-
-            {/* CTA 5: Internal links */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Dive deeper into how individual platforms evaluate business authority:</p>
-              <div className="flex flex-col gap-2">
-                <Link
-                  href="/blog/how-claude-ai-evaluates-business-authority"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
-                >
-                  How Claude AI Evaluates Business Authority
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-                <Link
-                  href="/blog/which-ai-assistant-is-best-for-finding-local-businesses"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
-                >
-                  Which AI Assistant Is Best for Finding Local Businesses
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-              </div>
-            </div>
-          </section>
-
-          {/* ════════════ SECTION 5: ENTITY RECOGNITION ════════════ */}
-          <section id="entity-recognition" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Entity Recognition: The Signal Most Businesses Ignore
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              AI platforms do not think in terms of websites. They think in terms of entities. An entity is the AI's internal representation of your business: what it is, what it does, where it operates, and how confident the model is in that identification. When the AI cannot confidently identify your entity, it will not recommend you, period.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              Entity recognition is where most tiebreakers are won and lost. Two businesses might have equally good websites, but if one has a clean, unambiguous entity footprint across the web and the other has conflicting information, inconsistent naming, or fragmented digital presence, the AI will always choose the one it can identify with higher confidence.
-            </p>
-
-            {/* Pros/Cons */}
-            <div className="ae-pros-cons grid md:grid-cols-2 gap-5 my-8">
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: 'rgba(34,197,94,0.06)', border: '1px solid rgba(34,197,94,0.2)' }}
-              >
-                <h3 className="font-plus-jakarta font-bold mb-4" style={{ color: '#22C55E' }}>
-                  <span className="flex items-center gap-2">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                    Strong Entity Signals
-                  </span>
-                </h3>
-                <ul className="space-y-2 text-sm text-gray-300">
-                  <li className="flex items-start gap-2"><span style={{ color: '#22C55E' }}>+</span> Identical business name across all directories</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#22C55E' }}>+</span> Consistent phone number and address everywhere</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#22C55E' }}>+</span> Schema markup on every page of your site</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#22C55E' }}>+</span> Wikipedia or Wikidata presence (if applicable)</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#22C55E' }}>+</span> Third-party articles that name and describe your business</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#22C55E' }}>+</span> Clear service area definitions in structured data</li>
-                </ul>
-              </div>
-
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: 'rgba(239,68,68,0.06)', border: '1px solid rgba(239,68,68,0.2)' }}
-              >
-                <h3 className="font-plus-jakarta font-bold mb-4" style={{ color: '#EF4444' }}>
-                  <span className="flex items-center gap-2">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" /></svg>
-                    Weak Entity Signals
-                  </span>
-                </h3>
-                <ul className="space-y-2 text-sm text-gray-300">
-                  <li className="flex items-start gap-2"><span style={{ color: '#EF4444' }}>-</span> Business name varies across platforms</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#EF4444' }}>-</span> Old phone numbers or addresses still listed</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#EF4444' }}>-</span> No schema markup or generic schema only</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#EF4444' }}>-</span> No mentions outside your own website</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#EF4444' }}>-</span> Duplicate or conflicting directory listings</li>
-                  <li className="flex items-start gap-2"><span style={{ color: '#EF4444' }}>-</span> Service areas undefined or overly broad</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Callout: Success */}
-            <div
-              className="ae-callout rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(34,197,94,0.08)', border: '1px solid rgba(34,197,94,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The 85% Factor</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Research shows that 85% of brand mentions in AI responses originate from third-party pages, not from the business's own website. This means the entity signals that matter most are the ones you do not directly control. Building your presence on external platforms is not optional for AI visibility.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* CTA 6: Email */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Our team audits entity recognition across every major AI platform. If your competitor is getting cited and you are not, entity signals are usually why.</p>
-              <a
-                href="mailto:support@theanswerengine.ai"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                Email Us for an Entity Audit
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              </a>
-            </div>
-          </section>
-
-          {/* ════════════ SECTION 6: DECISION MATRIX ════════════ */}
-          <section id="decision-matrix" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Decision Matrix: Which Business Would AI Pick?
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-8">
-              Below is a head-to-head comparison showing how AI platforms evaluate two hypothetical businesses in the same market. This is the exact type of evaluation that determines who gets cited and who gets ignored.
-            </p>
-
-            <div className="ae-decision-matrix overflow-x-auto my-8">
-              <table className="w-full text-sm" style={{ borderCollapse: 'separate', borderSpacing: 0 }}>
-                <thead>
-                  <tr>
-                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Evaluation Criteria</th>
-                    <th className="text-center p-4 font-plus-jakarta font-bold" style={{ backgroundColor: 'rgba(34,197,94,0.15)', color: '#22C55E' }}>Business A (Cited)</th>
-                    <th className="text-center p-4 font-plus-jakarta font-bold rounded-tr-xl" style={{ backgroundColor: 'rgba(239,68,68,0.15)', color: '#EF4444' }}>Business B (Invisible)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300 font-medium" style={{ backgroundColor: '#1a1f2e' }}>Website content depth</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>22 detailed service pages with FAQ sections</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>5 generic service pages, no FAQs</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300 font-medium" style={{ backgroundColor: '#151922' }}>Review velocity</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#151922' }}>8 to 12 new reviews per month</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#151922' }}>1 to 2 new reviews per month</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300 font-medium" style={{ backgroundColor: '#1a1f2e' }}>Directory consistency</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>100% NAP match across 40+ directories</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>3 conflicting phone numbers found</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300 font-medium" style={{ backgroundColor: '#151922' }}>Schema markup</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#151922' }}>LocalBusiness, Service, FAQ, Review schemas</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#151922' }}>No schema markup at all</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300 font-medium" style={{ backgroundColor: '#1a1f2e' }}>Last content update</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>2 weeks ago</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>14 months ago</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <td className="p-4 text-gray-300 font-medium" style={{ backgroundColor: '#151922' }}>Third-party mentions</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#151922' }}>Featured in 3 local publications, active on YouTube</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#151922' }}>No external mentions found</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 text-gray-300 font-medium rounded-bl-xl" style={{ backgroundColor: '#1a1f2e' }}>Multi-modal content</td>
-                    <td className="p-4 text-center text-gray-300" style={{ backgroundColor: '#1a1f2e' }}>Video, images, infographics on key pages</td>
-                    <td className="p-4 text-center text-gray-300 rounded-br-xl" style={{ backgroundColor: '#1a1f2e' }}>Text only, stock photos</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* Callout: Warning */}
-            <div
-              className="ae-callout rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(234,179,8,0.08)', border: '1px solid rgba(234,179,8,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>Both Businesses Have 4.7 Stars</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Notice that both businesses in this scenario could have identical star ratings. The difference is not quality of service. It is quality of digital presence. Business B might actually be the better electrician, but the AI will never know that because the signals are not there. AI cannot evaluate what it cannot see.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* CTA 7: Phone */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to see your own head-to-head comparison against your top competitor? We build these reports for businesses every day.</p>
-              <a
-                href="tel:+12134442229"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                Call (213) 444-2229 for a Competitor Comparison
-              </a>
-            </div>
-          </section>
-
-          {/* ════════════ SECTION 7: CHEAT SHEET ════════════ */}
-          <section id="cheat-sheet" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              AI Tiebreaker Cheat Sheet
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-8">
-              If you remember nothing else from this article, remember this. When AI is choosing between your business and your competitor, these are the factors that break the tie, listed in approximate order of impact.
-            </p>
-
-            <div className="ae-cheat-sheet rounded-xl p-6 mb-8" style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}>
-              <div className="space-y-4">
-                <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>1</span>
-                  <div>
-                    <p className="font-semibold text-white mb-1">Content Depth Wins Over Content Volume</p>
-                    <p className="text-sm text-gray-400">20 comprehensive pages outperform 200 thin pages. Semantic completeness is the single highest-correlation factor for AI citations.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>2</span>
-                  <div>
-                    <p className="font-semibold text-white mb-1">Entity Clarity Is Non-Negotiable</p>
-                    <p className="text-sm text-gray-400">Consistent NAP data, clean schema markup, and unambiguous entity identification across all platforms. Any conflicting signal is a penalty.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>3</span>
-                  <div>
-                    <p className="font-semibold text-white mb-1">Third-Party Mentions Trump Self-Promotion</p>
-                    <p className="text-sm text-gray-400">85% of AI brand mentions come from third-party pages. Your own website is the starting point, not the finish line.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>4</span>
-                  <div>
-                    <p className="font-semibold text-white mb-1">Freshness Is a Tiebreaker, Not a Bonus</p>
-                    <p className="text-sm text-gray-400">When all else is equal, the business with more recent content wins. Quarterly updates are the minimum. Monthly is the standard for competitive markets.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>5</span>
-                  <div>
-                    <p className="font-semibold text-white mb-1">Review Velocity Matters More Than Review Count</p>
-                    <p className="text-sm text-gray-400">A steady stream of recent, detailed reviews across multiple platforms signals active customer engagement. 500 reviews from 2022 are worth less than 50 from this month.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>6</span>
-                  <div>
-                    <p className="font-semibold text-white mb-1">Multi-Platform Optimization Is Required</p>
-                    <p className="text-sm text-gray-400">86% of the citation landscape varies across AI platforms. Winning on ChatGPT does not mean winning on Perplexity. You need a strategy for each.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>7</span>
-                  <div>
-                    <p className="font-semibold text-white mb-1">Citation Momentum Compounds</p>
-                    <p className="text-sm text-gray-400">The first business to build citation momentum in a market creates a structural advantage that becomes harder to overcome with every passing month. Starting today is the best move available.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* CTA 8: Blindspot */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">This cheat sheet is the starting point. The specific priorities for your business depend on your market, your competitors, and your current signal profile.</p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                Get Your Personalized Priority List
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-            </div>
-          </section>
-
-          {/* ════════════ 3-TIER CTA BLOCK ════════════ */}
-          <section className="mb-14">
-            <div
-              className="ae-cta-block rounded-2xl p-8 md:p-12"
-              style={{
-                background: 'linear-gradient(135deg, rgba(255,106,0,0.12) 0%, rgba(255,106,0,0.04) 100%)',
-                border: '2px solid rgba(255,106,0,0.3)',
-              }}
-            >
-              <h2 className="font-plus-jakarta text-3xl md:text-4xl font-extrabold text-center mb-4" style={{ color: '#FFFFFF' }}>
-                Find Out Which Business AI Is{' '}
-                <span style={{ color: '#FF6A00' }}>Actually Recommending</span>
-              </h2>
-
-              <p className="text-gray-300 text-center leading-relaxed mb-8 max-w-2xl mx-auto">
-                Your competitor might be getting every AI citation in your market right now. Our AI Blind Spot Report shows you exactly where you stand, which signals are weak, and what it takes to become the business AI recommends first.
-              </p>
-
-              {/* CTA 9: Primary Button */}
-              <div className="flex flex-col items-center gap-4">
-                <a
-                  href="https://theanswerengine.ai/blindspot"
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-lg text-white transition-all hover:opacity-90 hover:scale-105"
-                  style={{ backgroundColor: '#FF6A00', boxShadow: '0 0 30px rgba(255,106,0,0.3)' }}
-                >
-                  Run Your AI Blind Spot Report
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </a>
-
-                {/* CTA 10: Phone */}
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  Call (213) 444-2229
-                </a>
-
-                {/* CTA 11: Email */}
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="inline-flex items-center gap-2 text-sm transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
-              </div>
-            </div>
-          </section>
-
-          {/* ════════════ AUTHOR CARD ════════════ */}
-          <section className="mb-14">
-            <div
-              className="ae-author-card rounded-xl p-6 flex flex-col md:flex-row items-start gap-6"
-              style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
-            >
-              <div
-                className="w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-              >
-                <svg className="w-8 h-8" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </div>
-              <div>
-                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
-                <p className="text-sm text-gray-400 leading-relaxed mb-3">
-                  We help businesses become the answer AI gives. Our team audits, optimizes, and monitors AI visibility across every major platform so that when a customer asks AI for a recommendation, your business is the one that gets named.
-                </p>
-                <a
-                  href="https://theanswerengine.ai/blindspot"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
-                >
-                  Learn What We Do
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </a>
-              </div>
-            </div>
-          </section>
-
-          {/* ════════════ FAQ SECTION ════════════ */}
-          <section id="faq" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-8" style={{ color: '#FFFFFF' }}>
-              Frequently Asked Questions
-            </h2>
-
-            <div className="space-y-4">
-              {faqItems.map((item, index) => (
-                <div
-                  key={index}
-                  className="rounded-xl overflow-hidden"
-                  style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
-                >
-                  <div className="p-5">
-                    <h3 className="font-plus-jakarta font-bold text-white mb-3 flex items-start gap-3">
-                      <span
-                        className="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold mt-0.5"
-                        style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}
-                      >
-                        {index + 1}
-                      </span>
-                      {item.question}
-                    </h3>
-                    <p className="text-sm text-gray-400 leading-relaxed pl-10">
-                      {item.answer}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* CTA 12: After FAQ */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Still have questions about how AI platforms choose between businesses in your market? We are happy to walk you through it.</p>
-              <a
-                href="mailto:support@theanswerengine.ai"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                Ask Us Anything
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-            </div>
-          </section>
-
-          {/* ════════════ RELATED READING ════════════ */}
-          <section className="mb-14">
-            <h2 className="font-plus-jakarta text-2xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Related Reading
-            </h2>
-
-            <div className="grid md:grid-cols-3 gap-4">
-              <Link
-                href="/blog/how-perplexity-decides-what-to-cite"
-                className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
-              >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Platform Deep Dive</span>
-                <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">How Perplexity Decides What to Cite</span>
-              </Link>
-
-              <Link
-                href="/blog/how-claude-ai-evaluates-business-authority"
-                className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
-              >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Platform Deep Dive</span>
-                <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">How Claude AI Evaluates Business Authority</span>
-              </Link>
-
-              <Link
-                href="/blog/which-ai-assistant-is-best-for-finding-local-businesses"
-                className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
-              >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Comparison Guide</span>
-                <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">Which AI Assistant Is Best for Finding Local Businesses</span>
-              </Link>
-            </div>
-          </section>
-
-          {/* ════════════ FINAL CTA ════════════ */}
-          <section className="mb-14">
-            <div
-              className="ae-final-cta rounded-2xl p-8 text-center"
-              style={{
-                background: 'linear-gradient(180deg, #1a1f2e 0%, #0F1117 100%)',
-                border: '1px solid rgba(255,106,0,0.2)',
-              }}
-            >
-              <h2 className="font-plus-jakarta text-2xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
-                Your Competitor Is Getting Cited. Are You?
-              </h2>
-              <p className="text-gray-400 mb-6 max-w-lg mx-auto text-sm leading-relaxed">
-                Every day you wait is another day your competitor builds citation momentum that becomes harder to overcome. The businesses that act first in AI search are the ones that stay on top.
-              </p>
-              {/* CTA 13: Final blindspot */}
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="ae-final-cta-pulse inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00' }}
-              >
-                See Where You Stand in AI Search
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-              <p className="text-xs text-gray-500 mt-4">Free report. No obligation. Takes 60 seconds.</p>
-            </div>
-          </section>
-
-          {/* ════════════ BREADCRUMB BOTTOM + CTA 15 ════════════ */}
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-8" style={{ borderTop: '1px solid rgba(255,255,255,0.05)' }}>
-            <nav aria-label="Breadcrumb (bottom)" className="text-sm text-gray-500">
-              <Link href="/" className="hover:text-orange-400 transition-colors">Home</Link>
-              <span className="mx-2">/</span>
-              <Link href="/blog" className="hover:text-orange-400 transition-colors">Blog</Link>
-              <span className="mx-2">/</span>
-              <span className="text-gray-400">AI Search Tiebreaker Signals</span>
-            </nav>
-            {/* CTA 15: Bottom nav */}
-            <a
-              href="https://theanswerengine.ai/blindspot"
-              className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-              style={{ color: '#FF6A00' }}
-            >
-              Get Your AI Blind Spot Report
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
+              Run The Free Scan
+            </a>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">
+              Book A Calendly Consult
             </a>
           </div>
 
+          {/* SECTION 7: FAQ */}
+          <span className="ae-section-label" id="faq">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+
+          <details className="ae-faq-item">
+            <summary>How does AI search actually choose one business over another?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                AI search does not compare two businesses side by side. Each candidate is scored
+                independently against a five-layer decision stack — entity match, schema integrity,
+                evidence density, freshness gate, and citation weight — applied in sequence.
+              </p>
+              <p>
+                Each layer eliminates roughly half the remaining candidates. The business with the
+                highest composite score after the final layer earns the citation slot. The losing
+                business is never mentioned (GEO-SFE, 2026). To see where your firm exits the
+                stack,{' '}
+                <a href="https://theanswerengine.ai/blindspot">run the free AERO scan</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How long does the AI decision process take?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                The retrieval and ranking decision happens in 80 to 400 milliseconds depending on
+                the model. Perplexity averages 120ms. ChatGPT search via Bing averages 280ms.
+                Google AI Overviews run closer to 400ms because they integrate a wider citation
+                surface.
+              </p>
+              <p>
+                The speed is why infrastructure decides outcomes — the model has no time to
+                evaluate quality, only to score signals (Aggarwal et al., KDD 2024). To audit your
+                infrastructure score against the decision stack,{' '}
+                <a href="mailto:support@theanswerengine.ai">email support@theanswerengine.ai</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>What is the margin of indifference in AI search decisions?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                The margin of indifference is the score range — typically within 3% — where two
+                candidates are functionally tied on primary signals. When candidates land in that
+                range, secondary signals (freshness, citation diversity, schema completeness)
+                decide the verdict.
+              </p>
+              <p>
+                A business that wins the primary tier but lands in the margin still loses to a
+                competitor with stronger secondary signals. The implication is that no single
+                signal is sufficient. Balanced infrastructure across all five layers wins more
+                decisions than excellence in one. To diagnose your margin position,{' '}
+                <a href="https://calendly.com/theanswerengine-support/30min">book a Calendly
+                consult</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Can the same business win on ChatGPT but lose on Perplexity for the same query?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Yes, and it happens regularly. Each model applies the five-layer decision stack
+                with different weight allocations. ChatGPT weights schema integrity above citation
+                diversity. Perplexity weights citation diversity above schema integrity. Claude
+                weights evidence density highest. Gemini integrates Google Business Profile
+                signals more directly.
+              </p>
+              <p>
+                A business optimized for one model can score below the threshold on another.
+                Cross-model citation requires balanced infrastructure across all five layers, not
+                single-platform optimization (Chen et al., 2025). To audit cross-model
+                performance, text <a href="tel:+12134442229" className="cta-inline">(213)
+                444-2229</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How often does AI re-decide between two businesses?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                The retrieval index refreshes on a model-specific cadence — Perplexity inside a
+                week, ChatGPT every two to four weeks, Google AI Overviews every four to eight
+                weeks. Each refresh re-runs the decision stack against the candidate pool.
+              </p>
+              <p>
+                A business with stale infrastructure can lose a citation slot it held last month
+                if a competitor shipped fresher content or tighter schema in the interim. Citation
+                incumbency is sticky but not permanent. To set up refresh monitoring,{' '}
+                <a href="https://theanswerengine.ai/blindspot">run the AERO scan</a>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>What is the single biggest factor in winning an AI decision?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Entity disambiguation. If the retrieval layer cannot confidently identify which
+                business the candidate record refers to, the candidate is dropped before any
+                other signal is evaluated.
+              </p>
+              <p>
+                NAP consistency, schema clarity, and canonical name enforcement matter more than
+                any single quality signal because they determine whether the business is eligible
+                to compete at all. Skip entity disambiguation and every downstream optimization
+                is wasted. To run the parity audit,{' '}
+                <a href="https://calendly.com/theanswerengine-support/30min">book a Calendly
+                consult</a>.
+              </p>
+            </div>
+          </details>
+
+          {/* PULL QUOTE */}
+          <blockquote className="ae-quote">
+            <p>
+              The decision happens in milliseconds. The infrastructure decides the outcome.
+              Retrieval does not reward the best business — it rewards the business whose record
+              passes every layer of the stack without hedging.
+            </p>
+            <cite>— Justin Borges, Founder of The Answer Engine</cite>
+          </blockquote>
+
+          <h2>What Comes Next</h2>
+
+          <p>
+            The decision architecture is fixed for the foreseeable future. Retrieval-augmented
+            generation will not be replaced by a comparison model in the next 24 months, because
+            the funnel is the only computationally tractable approach for production-scale
+            answer engines. The implication is direct. The firms that build pass-through
+            infrastructure for the decision stack now will hold citation incumbency through every
+            major model refresh ahead. The lag works for the incumbent. To check whether your
+            market window is still open, text{' '}
+            <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> — Justin replies
+            inside 24 hours. Operators ready to claim their territory before a competitor does can{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">
+            book the 30-minute Calendly consult</a> on the same line.
+          </p>
+
+          {/* AUTHOR CARD */}
+          <div className="not-prose ae-author-card">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps
+                businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews.
+                1.14M+ monthly impressions, 4/4 LLMs cited, 90-day citation guarantee.
+              </p>
+            </div>
+          </div>
+
+          {/* CONCEPT LATTICE LINKS */}
+          <div className="not-prose mt-12 mb-12 border-t border-white/10 pt-8">
+            <div className="font-mono uppercase tracking-wider text-xs text-white/40 mb-4">Concept Lattice</div>
+            <div className="flex flex-wrap gap-3">
+              <a href="/concepts/retrieval-funnel" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Retrieval Funnel</a>
+              <a href="/concepts/decision-stack" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Decision Stack</a>
+              <a href="/concepts/margin-of-indifference" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Margin of Indifference</a>
+              <a href="/concepts/confidence-cascade" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Confidence Cascade</a>
+              <a href="/concepts/verdict-lag" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Verdict Lag</a>
+              <a href="/concepts/density-threshold" className="concept-link font-headline text-sm uppercase tracking-tighter border border-[#F27D24]/40 text-[#F27D24] px-3 py-1 hover:bg-[#F27D24]/10 transition-colors">The Density Threshold</a>
+            </div>
+          </div>
         </div>
-      </main>
-    </>
-  )
+
+        {/* FINAL CTA */}
+        <section className="ae-final-cta">
+          <h2>Claim Your Market Before A Competitor Does</h2>
+          <p>
+            One business per metro market per service category. The Answer Engine engineers
+            AEO infrastructure that passes every layer of the decision stack across ChatGPT,
+            Perplexity, Claude, and Google AI — backed by a 90-day citation guarantee.
+          </p>
+          <a
+            href="https://calendly.com/theanswerengine-support/30min"
+            className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+          >
+            Book A 30-Minute Consult
+          </a>
+          <p className="mt-6 text-sm text-white/40 font-mono uppercase tracking-wider">
+            Text (213) 444-2229 · support@theanswerengine.ai
+          </p>
+        </section>
+      </article>
+    </div>
+  );
 }

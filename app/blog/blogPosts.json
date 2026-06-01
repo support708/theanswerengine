@@ -3073,19 +3073,19 @@
     "id": 118,
     "title": "How AI Search Decides Between Two Similar Businesses",
     "slug": "how-ai-search-decides-between-two-similar-businesses",
-    "excerpt": "When two businesses offer the same service, what makes AI pick one? The tiebreaker signals that determine which business gets the recommendation.",
+    "excerpt": "AI retrieval narrows 200 candidates to one citation in milliseconds. The five-layer decision stack that picks which business gets cited — and how to win it.",
     "category": "Platform Deep Dives",
     "author": "Justin Borges",
     "readTime": "14 min",
     "image": "/blog/how-ai-search-decides-between-two-similar-businesses.webp",
-    "publishDate": "2026-04-01",
-    "lastModified": "2026-04-01",
+    "publishDate": "2026-06-01",
+    "lastModified": "2026-06-01",
     "featured": true,
     "tags": [
       "Platform Deep Dives",
-      "AI Tiebreakers",
-      "Citation Momentum",
-      "Business Authority"
+      "Decision Architecture",
+      "Retrieval Funnel",
+      "AEO Mechanics"
     ]
   },
   {
