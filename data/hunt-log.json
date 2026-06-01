@@ -544,33 +544,33 @@
     "completedAt": "2026-05-26T14:00:56.628Z"
   },
   {
-    "id": "hunt_1780322412807_tooj",
-    "startedAt": "2026-06-01T14:00:12.807Z",
+    "id": "hunt_1780322442611_9lwn",
+    "startedAt": "2026-06-01T14:00:42.611Z",
     "trigger": "cron_daily",
     "vertical": "Roofing Contractor",
     "metro": "Dallas",
     "prospectsFound": 10,
-    "p1Queued": 1,
-    "p2Queued": 4,
-    "p3Backlogged": 5,
+    "p1Queued": 2,
+    "p2Queued": 5,
+    "p3Backlogged": 3,
     "duplicatesSkipped": 0,
-    "outreachReadyCount": 5,
+    "outreachReadyCount": 7,
     "errors": [],
-    "completedAt": "2026-06-01T14:01:06.899Z"
+    "completedAt": "2026-06-01T14:01:37.670Z"
   },
   {
-    "id": "hunt_1780322470306_pinu",
-    "startedAt": "2026-06-01T14:01:10.306Z",
+    "id": "hunt_1780322500278_a75t",
+    "startedAt": "2026-06-01T14:01:40.279Z",
     "trigger": "cron_daily",
     "vertical": "Personal Injury Attorney",
     "metro": "Atlanta, GA",
     "prospectsFound": 10,
     "p1Queued": 4,
-    "p2Queued": 1,
-    "p3Backlogged": 5,
+    "p2Queued": 2,
+    "p3Backlogged": 4,
     "duplicatesSkipped": 0,
-    "outreachReadyCount": 5,
+    "outreachReadyCount": 6,
     "errors": [],
-    "completedAt": "2026-06-01T14:02:12.578Z"
+    "completedAt": "2026-06-01T14:02:36.179Z"
   }
 ]
