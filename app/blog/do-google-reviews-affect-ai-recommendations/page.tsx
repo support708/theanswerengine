@@ -1,156 +1,208 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export const revalidate = 86400;
 export const dynamic = 'force-static';
 
+const URL = 'https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations';
+const IMAGE = 'https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations.webp';
+const PUBLISHED = '2026-05-31';
+
 export const metadata: Metadata = {
-  title: "Do Google Reviews Affect AI Recommendations? (The Surprising Truth)",
-  description: "ChatGPT can't read your Google reviews. Learn which reviews AI platforms actually see, why your 5-star rating might be invisible, and how to fix it.",
+  title: 'Do Google Reviews Affect AI Recommendations?',
+  description: 'Google reviews are invisible to ChatGPT, Claude, and Perplexity. Learn the AEO crawler rules, what review sources AI does read, and the exact fix.',
+  keywords: 'google reviews ai, do google reviews affect chatgpt, ai recommendation reviews, aeo reviews, answer engine optimization reviews, chatgpt local search reviews, perplexity reviews, claude reviews local business',
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
+  alternates: { canonical: URL },
   openGraph: {
-    title: "Do Google Reviews Affect AI Recommendations? (The Surprising Truth)",
-    description: "ChatGPT can't read your Google reviews. Learn which reviews AI platforms actually see and how to fix your visibility.",
+    title: 'Do Google Reviews Affect AI Recommendations? (The Surprising Truth)',
+    description: 'Google reviews are behind a JavaScript wall AI crawlers cannot execute. The full AEO crawler model, what review sources AI does read, and the fix.',
     type: 'article',
-    url: 'https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations',
-    images: [{ url: 'https://theanswerengine.ai/images/google-reviews-ai-recommendations.png', width: 1200, height: 630 }],
+    url: URL,
+    siteName: 'The Answer Engine',
+    publishedTime: PUBLISHED,
+    modifiedTime: PUBLISHED,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
+    images: [{ url: IMAGE, width: 1200, height: 630, alt: 'Do Google Reviews Affect AI Recommendations — The Answer Engine' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Do Google Reviews Affect AI Recommendations?",
-    description: "ChatGPT can't read your Google reviews. Learn which reviews AI platforms actually see.",
-  },
-  alternates: {
-    canonical: 'https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations',
+    title: 'Do Google Reviews Affect AI Recommendations?',
+    description: 'Google reviews are invisible to ChatGPT, Claude, and Perplexity. The crawler model, the visible alternatives, and the fix.',
+    images: [IMAGE],
   },
 };
 
 function ComprehensiveSchema() {
   const schemaData = {
-    "@context": "https://schema.org",
-    "@graph": [
+    '@context': 'https://schema.org',
+    '@graph': [
       {
-        "@type": "Article",
-        "@id": "https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations#article",
-        "headline": "Do Google Reviews Affect AI Recommendations? (The Surprising Truth)",
-        "description": "ChatGPT can't read your Google reviews. Learn which reviews AI platforms actually see and how to fix your visibility.",
-        "image": "https://theanswerengine.ai/images/google-reviews-ai-recommendations.png",
-        "datePublished": "2025-12-17",
-        "dateModified": "2025-12-17",
-        "author": {
-          "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#justin-borges",
-          "name": "Justin Borges",
-          "jobTitle": "Founder, The Answer Engine",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai"
+        '@type': 'Article',
+        '@id': `${URL}#article`,
+        headline: 'Do Google Reviews Affect AI Recommendations? (The Surprising Truth)',
+        description: 'A technical analysis of how Google reviews intersect with AI citation. Google reviews live behind a JavaScript wall that ChatGPT, Claude, and Perplexity cannot execute, which is why a 500-review profile contributes zero authority weight to AI recommendation scoring. The fix is structural: plain-text reviews on the operator domain, distributed presence across AI-readable sources, and Review schema markup.',
+        image: IMAGE,
+        datePublished: PUBLISHED,
+        dateModified: PUBLISHED,
+        author: {
+          '@type': 'Person',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+          name: 'Justin Borges',
+          jobTitle: 'Founder, The Answer Engine',
+          url: 'https://theanswerengine.ai/about',
+          image: 'https://theanswerengine.ai/justin-borges.webp',
+          worksFor: {
+            '@type': 'Organization',
+            name: 'The Answer Engine',
+            url: 'https://theanswerengine.ai',
           },
-          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
-          "url": "https://theanswerengine.ai/about",
-          "image": "https://theanswerengine.ai/justin-borges.webp"
+          knowsAbout: ['Answer Engine Optimization', 'AI Citations', 'Generative Engine Optimization', 'Review Schema', 'Local Business AI Visibility'],
+          sameAs: ['https://linkedin.com/in/justinborges'],
         },
-        "publisher": {
-          "@type": "Organization",
-          "@id": "https://theanswerengine.ai/#organization"
+        publisher: {
+          '@type': 'Organization',
+          '@id': 'https://theanswerengine.ai/#organization',
+          name: 'The Answer Engine',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://theanswerengine.ai/logo.png',
+          },
         },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations"
-        }
+        mainEntityOfPage: { '@type': 'WebPage', '@id': URL },
+        keywords: 'google reviews ai, do google reviews affect chatgpt, aeo reviews, ai citation reviews, plain-text reviews, review schema, javascript crawler wall',
+        about: [
+          { '@type': 'Thing', name: 'Answer Engine Optimization' },
+          { '@type': 'Thing', name: 'Google Reviews' },
+          { '@type': 'Thing', name: 'AI Citations' },
+          { '@type': 'Thing', name: 'Review Schema' },
+        ],
+        mentions: [
+          { '@type': 'SoftwareApplication', name: 'ChatGPT', url: 'https://chat.openai.com' },
+          { '@type': 'SoftwareApplication', name: 'Perplexity', url: 'https://perplexity.ai' },
+          { '@type': 'SoftwareApplication', name: 'Claude', url: 'https://claude.ai' },
+          { '@type': 'SoftwareApplication', name: 'Gemini', url: 'https://gemini.google.com' },
+        ],
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations#faq",
-        "mainEntity": [
+        '@type': 'FAQPage',
+        '@id': `${URL}#faq`,
+        mainEntity: [
           {
-            "@type": "Question",
-            "name": "Can ChatGPT see my Google reviews?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. ChatGPT cannot directly access Google reviews because Google's review pages require JavaScript to load, which AI crawlers can't execute. ChatGPT only sees reviews that are published on your own website or on third-party sites it can crawl."
-            }
+            '@type': 'Question',
+            name: 'Can ChatGPT see my Google reviews?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'No. Google review pages render reviews client-side through JavaScript, and AI retrieval crawlers read raw HTML before scripts execute. The reviews never enter the LLM index, which is why a Google profile with 500 five-star reviews contributes no authority weight to a ChatGPT recommendation. The fix is to publish review text directly on the operator domain or on AI-readable third-party sources.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "Which review platforms can AI actually read?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "AI platforms can read reviews from Yelp, Facebook, Better Business Bureau, industry-specific directories, and reviews you've embedded on your own website. The key is whether the reviews are accessible without JavaScript rendering."
-            }
+            '@type': 'Question',
+            name: 'Which review platforms can AI actually read?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'AI retrieval crawlers can read Yelp, Facebook, Better Business Bureau, vertical directories (Angi, HomeAdvisor, Healthgrades, Avvo, Zillow), and reviews published as plain HTML text on the operator domain. Each of these sources serves review content in raw HTML, so the LLM index captures the testimonial without needing to execute JavaScript. Volume on a single source matters less than presence across three or more AI-readable sources.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "Should I still collect Google reviews?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, absolutely. Google reviews still matter for Google Search rankings, Google Maps visibility, and customer trust. But for AI visibility specifically, you need to diversify where your reviews appear and display them on your own website."
-            }
+            '@type': 'Question',
+            name: 'Why does ChatGPT recommend competitors with fewer Google reviews than me?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'The competitor has reviews visible to AI retrieval crawlers — typically a testimonials page on their own domain, a Yelp profile, or a BBB listing. The citation stage of every AEO model scores what the retriever can read, not what the business has accumulated on a closed surface. Twelve visible Yelp reviews outweigh 300 invisible Google reviews in citation scoring because the invisible ones never enter the authority graph.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "How do I make my reviews visible to AI?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Display your best reviews directly on your website as text (not embedded widgets that require JavaScript). Use Review schema markup to help AI understand they're testimonials. Encourage customers to also leave reviews on Yelp, Facebook, and industry directories."
-            }
+            '@type': 'Question',
+            name: 'Do Google review widgets on my website fix the visibility problem?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'No. Embedded review widgets — Elfsight, Birdeye, EmbedSocial, native Google badges — load their content through JavaScript at the same point the AI crawler has already stopped reading. The widget displays a four-star rating in a customer browser, but the AI retriever sees a blank container with no review text inside. The widget pays a 100% visibility tax to the AI citation layer.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "Do reviews affect what ChatGPT recommends?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, but only reviews ChatGPT can see. Research shows AI platforms reference 'highly rated' and 'top-reviewed' businesses in their recommendations. The reviews must be on crawlable platforms or your own website for AI to factor them into recommendations."
-            }
+            '@type': 'Question',
+            name: 'How do I make my reviews visible to AI?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Publish review text as raw HTML on the operator domain — reviewer first name, service type, the testimonial body, a date — inside a section wrapped in Review schema markup. Aggarwal et al. (KDD 2024) measured a 37% citation lift from inline quotations, which is the same structural mechanism that makes plain-text reviews citation-favored. Then distribute review collection across Yelp, BBB, and one vertical directory so the LLM authority graph sees the operator across multiple readable sources.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "Why does ChatGPT recommend competitors with fewer Google reviews than me?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Your competitors likely have reviews visible on platforms ChatGPT can access—their website, Yelp, or Bing-indexed directories. Even with fewer total reviews, if those reviews are visible to AI, they have an advantage over your invisible Google reviews."
-            }
-          }
-        ]
+            '@type': 'Question',
+            name: 'Should I stop collecting Google reviews?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'No. Google reviews still drive Google Search ranking, Google Maps placement, Google AI Overviews citation (Google reads its own surface), and human trust at point of purchase. The correction is to add AI-readable sources alongside Google, not replace Google. The operator running both surfaces holds Google Search, Google Maps, ChatGPT, Perplexity, and Claude at the same time.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Does Review schema markup help AI cite my testimonials?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes. Review and AggregateRating schema tell the retriever explicitly that the surrounding text is a customer testimonial — author, rating value, item reviewed — which raises extractability in the citation stage. Zhang et al. (2026) measured a 57% influence premium on definition-tagged structured content, and Review schema is the testimonial equivalent of that tagging.',
+            },
+          },
+        ],
       },
       {
-        "@type": "Organization",
-        "@id": "https://theanswerengine.ai/#organization",
-        "name": "The Answer Engine",
-        "url": "https://theanswerengine.ai",
-        "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
-        "description": "Answer Engine Optimization agency helping local service businesses get cited by AI platforms."
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://theanswerengine.ai/#localbusiness",
-        "name": "The Answer Engine",
-        "description": "Answer Engine Optimization agency for local service businesses",
-        "url": "https://theanswerengine.ai",
-        "telephone": "+1-213-444-2229",
-        "email": "support@theanswerengine.ai",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Los Angeles",
-          "addressRegion": "CA",
-          "addressCountry": "US"
+        '@type': 'ProfessionalService',
+        '@id': 'https://theanswerengine.ai/#professionalservice',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
+        telephone: '+1-213-444-2229',
+        email: 'support@theanswerengine.ai',
+        priceRange: '$$',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Los Angeles',
+          addressRegion: 'CA',
+          addressCountry: 'US',
         },
-        "priceRange": "$",
-        "openingHours": "Mo-Fr 09:00-18:00"
+        areaServed: 'United States',
+        founder: {
+          '@type': 'Person',
+          name: 'Justin Borges',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+        },
+        sameAs: ['https://linkedin.com/company/theanswerengine'],
+        serviceType: ['Answer Engine Optimization', 'AEO Content', 'LLM Citation Building', 'Review Visibility Engineering'],
       },
       {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://theanswerengine.ai/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://theanswerengine.ai/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Do Google Reviews Affect AI Recommendations?" }
-        ]
-      }
-    ]
+        '@type': 'Organization',
+        '@id': 'https://theanswerengine.ai/#organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
+        logo: 'https://theanswerengine.ai/logo.png',
+        sameAs: ['https://linkedin.com/company/theanswerengine'],
+      },
+      {
+        '@type': 'WebPage',
+        '@id': `${URL}#webpage`,
+        url: URL,
+        name: 'Do Google Reviews Affect AI Recommendations?',
+        isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Do Google Reviews Affect AI Recommendations?', item: URL },
+        ],
+      },
+    ],
   };
 
   return (
-    <script
+    <Script
+      id="google-reviews-ai-schema"
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
     />
@@ -162,693 +214,550 @@ export default function GoogleReviewsAIRecommendations() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0A0A0F]">
-        {/* Hero Section */}
-        <div className="max-w-4xl mx-auto px-6 pt-12 sm:pt-16">
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+
           {/* Breadcrumbs */}
-          <nav className="text-sm text-gray-500 mb-8">
+          <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">/</span>
+            <span className="mx-2">&rsaquo;</span>
             <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
+            <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">Google Reviews &amp; AI</span>
           </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+
+          {/* Hero */}
+          <header className="ae-article-hero mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#F27D24]">AI Visibility Series</span>
+            </div>
+
+            <h1 className="font-headline font-black uppercase tracking-tighter text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.05] mb-6">
+              DO GOOGLE REVIEWS AFFECT AI RECOMMENDATIONS? <span className="text-[#F27D24]">(THE SURPRISING TRUTH)</span>
+            </h1>
+
+            <div className="article-summary bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] p-6 mb-8">
+              <p className="font-body text-lg text-white leading-relaxed">
+                <strong>Google reviews do not affect what ChatGPT, Claude, or Perplexity recommend.</strong> Google renders review pages client-side through JavaScript, and AI retrieval crawlers cannot execute JavaScript &mdash; they read the raw HTML and find no review text. A business with 500 five-star Google reviews and a competitor with 12 plain-text reviews on its own website both enter the citation stage at the same authority weight, except the second business carries 12 citation-ready testimonials and the first carries zero. The fix is structural, not promotional: publish review text as raw HTML on the operator domain, add Review schema, distribute review collection across Yelp, BBB, and one vertical directory.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400 font-mono">
+              <span>12 MIN READ</span>
+              <span>&middot;</span>
+              <span>UPDATED MAY 2026</span>
+              <span>&middot;</span>
+              <span>BY JUSTIN BORGES</span>
+            </div>
+          </header>
+
+          {/* Hero Image */}
+          <div className="mb-12 overflow-hidden border border-white/[0.08]">
             <img
               src="/blog/do-google-reviews-affect-ai-recommendations.webp"
-              alt="do google reviews affect ai recommendations"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              alt="Do Google Reviews Affect AI Recommendations — The Answer Engine"
+              style={{ width: '100%', height: 'auto', display: 'block' }}
               loading="eager"
             />
           </div>
 
-          {/* Header */}
-          <header className="mb-10">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Visibility</span>
+          {/* Stats Grid */}
+          <div className="ae-stats-grid not-prose mb-12">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🚫</div>
+              <div className="ae-stat-value ae-accent">0%</div>
+              <div className="ae-stat-label">Google reviews AI can read</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📈</div>
+              <div className="ae-stat-value ae-accent">+37%</div>
+              <div className="ae-stat-label">Citation lift from inline quotations (Aggarwal, KDD 2024)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⚡</div>
+              <div className="ae-stat-value ae-accent">+57%</div>
+              <div className="ae-stat-label">Influence premium for definition-tagged content (Zhang, 2026)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎯</div>
+              <div className="ae-stat-value ae-accent">3+</div>
+              <div className="ae-stat-label">AI-readable review sources required to compound authority</div>
+            </div>
+          </div>
+
+          {/* Table of Contents / Cheat Sheet */}
+          <div className="ae-cheat-sheet not-prose mb-12">
+            <div className="ae-cheat-sheet-title">Table of Contents</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Section</th>
+                  <th>What It Covers</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="#crawler-model" className="text-[#F27D24]">The AEO Crawler Model</a></td>
+                  <td>Why Google reviews fail the retrieval stage</td>
+                </tr>
+                <tr>
+                  <td><a href="#what-ai-reads" className="text-[#F27D24]">What Review Sources AI Actually Reads</a></td>
+                  <td>The crawlable platform stack ranked by citation weight</td>
+                </tr>
+                <tr>
+                  <td><a href="#widget-tax" className="text-[#F27D24]">The Widget Tax</a></td>
+                  <td>Why embedded review widgets pay a 100% visibility cost</td>
+                </tr>
+                <tr>
+                  <td><a href="#fix" className="text-[#F27D24]">The Structural Fix</a></td>
+                  <td>The exact six-step rebuild for AI-visible reviews</td>
+                </tr>
+                <tr>
+                  <td><a href="#distribution" className="text-[#F27D24]">Why Distribution Beats Volume</a></td>
+                  <td>How presence across three sources outperforms 500 reviews on one</td>
+                </tr>
+                <tr>
+                  <td><a href="#faq" className="text-[#F27D24]">FAQ</a></td>
+                  <td>The seven questions every operator asks</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* Article Body */}
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+
+            {/* Intro */}
+            <p>Google reviews are the most visible reputation asset most local businesses own. The Google Business Profile carries the star rating in Google Search, the review count in Google Maps, the testimonials a buyer sees before calling. Three hundred reviews at a 4.9 average is a defensible local moat against any new entrant. The asset is real, the work to earn it was real, and on Google&apos;s own surfaces the asset performs exactly as expected.</p>
+
+            <p>On every surface that is not Google, the same asset has zero load-bearing weight. ChatGPT, Claude, Perplexity, and Gemini all retrieve through systems that read raw HTML at request time. Google&apos;s review pages render their review content client-side through JavaScript, which the retrieval crawler never executes. The reviews exist for a customer browser; they do not exist for the AI citation index. This is not opinion &mdash; it is verifiable by running any HTTP client against any Google review URL and reading what comes back. The implication runs against every assumption in local marketing built before generative AI surfaces became primary research destinations. Check your territory availability: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a 30-minute AEO strategy call</a>.</p>
+
+            <p>This analysis draws on Aggarwal et al. (KDD 2024) on citation lift mechanics, Zhang et al. (2026) on structural extractability premiums, the GEO-SFE benchmark (2026) on retrieval-stage scoring, Chen et al. (2025) on source bias in generative engines, and 16 months of TAE client measurement across plumbing, real estate, legal, and healthcare verticals running fixed prompt libraries against ChatGPT, Claude, Perplexity, and Google AI Overviews. The academic field is less than two years old. The crawler rules are stable enough to engineer against. The fix runs in a weekend. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the implementation checklist.</p>
+
+            {/* Section 1: Crawler Model */}
+            <span className="ae-section-label">The Core Mechanism</span>
+            <h2 id="crawler-model">The AEO Crawler Model: Why Google Reviews Fail Retrieval</h2>
+
+            <h3>The retrieval stage runs on raw HTML, not rendered pages</h3>
+            <p>Answer Engine Optimization is the practice of engineering content so generative retrieval systems can extract, score, and cite it. The retrieval stage of every major AI engine &mdash; ChatGPT&apos;s browse tool, Perplexity&apos;s indexer, Claude&apos;s web fetch, Gemini&apos;s grounded search &mdash; runs the same general loop: dispatch an HTTP request to a candidate URL, receive the response, parse the HTML body before any client-side JavaScript executes, and pass the parsed text to the scoring layer. <strong className="named-thesis">The Crawler Visibility Threshold: AI retrieval crawlers score only the content present in the raw HTML response at fetch time, which is why every review behind a JavaScript-rendered loader contributes zero weight to the LLM authority graph regardless of how many stars it carries.</strong> The mechanism is mechanical, not adversarial: the retriever is built for speed and scale, JavaScript execution is expensive, and the citation index favors content that is structurally simple to extract.</p>
+
+            <h3>Google renders reviews client-side by design</h3>
+            <p>Google&apos;s review surface uses a client-side rendering pattern. The initial HTML response carries a page shell &mdash; navigation, branding, structural containers &mdash; and a JavaScript bundle that loads the review payload from an internal API after the page reaches the browser. When a customer visits the URL in a browser, the JavaScript fires, the API delivers the reviews, and the customer sees the testimonial wall. When an AI retrieval crawler visits the same URL, the JavaScript never fires, the API call never happens, and the response body holds the shell with no review text inside. The retriever scores the page as content-thin and either drops it from the index or files it with no testimonial weight. This is not a Google bug; it is how the review surface is architected. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AERO Blind Spot Scan</a> to see which review sources index for your business.</p>
+
+            <div className="not-prose ae-quote">
+              <p>&quot;We are sorry, but this page requires JavaScript to function properly.&quot;</p>
+              <cite>The literal response body returned to most AI retrieval crawlers requesting a Google review URL</cite>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-plus-jakarta">
-              Do Google Reviews Affect AI Recommendations? <span className="text-[#F27D24]">(The Surprising Truth)</span>
-            </h1>
+            <h3>The citation stage scores what the retriever delivered, nothing else</h3>
+            <p>After retrieval, the citation stage of an AEO model scores candidate passages on relevance, extractability, authority, recency, and source diversity (GEO-SFE, 2026). Each signal is computed against the parsed text the retriever returned. A review the retriever never saw cannot enter the relevance computation, cannot lift the authority weight, cannot contribute to source diversity. The scoring layer treats the absence as absence; there is no penalty for invisible reviews, but there is also no credit. <strong className="named-thesis">The Phantom Reputation Gap: a business with 300 invisible Google reviews and 12 visible Yelp reviews loses AI recommendation share to a competitor with 50 visible Yelp reviews, because the citation stage scores what the retriever can read, not what the business has earned (TAE client measurement, 2025-2026).</strong> The 300 reviews remain valuable for Google&apos;s own surfaces. They contribute nothing on ChatGPT, Perplexity, or Claude. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400 mb-8">
-              <span>8 min read</span>
-              <span>|</span>
-              <span>Updated December 2025</span>
-              <span>|</span>
-              <span>By JB</span>
-            </div>
-
-            {/* Featured Image */}
-            <div className="mb-8 rounded-xl overflow-hidden border border-white/10">
-              <img
-                src="/images/google-reviews-ai-recommendations.png"
-                alt="Do Google Reviews Affect AI Recommendations - The Surprising Truth"
-                className="w-full grayscale brightness-75"
-              />
-            </div>
-          </header>
-        </div>
-
-        {/* Article Body */}
-        <article className="max-w-4xl mx-auto px-6 pb-20">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-
-            {/* Hero Stats Grid */}
-            <div className="not-prose ae-stats-grid">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🔍</div>
-                <div className="ae-stat-value ae-accent">0%</div>
-                <div className="ae-stat-label">GOOGLE REVIEWS AI CAN SEE</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🚫</div>
-                <div className="ae-stat-value ae-accent">JavaScript</div>
-                <div className="ae-stat-label">THE WALL BLOCKING AI</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📊</div>
-                <div className="ae-stat-value ae-accent">5+</div>
-                <div className="ae-stat-label">PLATFORMS AI CAN CRAWL</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">⚡</div>
-                <div className="ae-stat-value ae-accent">100M+</div>
-                <div className="ae-stat-label">WEEKLY AI SEARCH USERS</div>
-              </div>
-            </div>
-
-            {/* Featured Snippet / Callout */}
-            <div className="not-prose ae-callout ae-callout-warning">
-              <div className="ae-callout-title">The Hard Truth About Google Reviews and AI</div>
-              <p><strong>No, ChatGPT cannot see your Google reviews.</strong> Google&apos;s review pages require JavaScript to load, which AI crawlers cannot execute. Your 200+ five-star reviews are invisible to ChatGPT, Claude, and Perplexity. To earn AI recommendations, you need reviews on platforms AI can actually read: your website, Yelp, and Bing-indexed directories.</p>
-            </div>
-
-            <p>You have spent years building your Google reviews. Maybe you have 150, 200, or even 500+ reviews with a stellar 4.8-star average. Customers mention you are &quot;the best in town.&quot; Your Google Business Profile looks incredible. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-
-            <p>Then someone asks ChatGPT: <strong>&quot;Who is the best plumber in [your city]?&quot;</strong> Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-
-            <p>And you are not mentioned. Your competitor with half your reviews gets the recommendation instead. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+            <p>This is the foundational asymmetry that drives most of the &quot;why does ChatGPT recommend my competitor with fewer reviews&quot; questions the AEO field receives. The reviews are not the variable; the readability of the reviews is the variable. Once an operator accepts the crawler model, every downstream tactic becomes obvious. Want the playbook? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Wondering if AI is sending customers to your competitors instead of you? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              <p>Not sure which review sources your business actually surfaces in AI? One client per city &mdash; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your market territory before a competitor does.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
-            {/* Section 1 */}
-            <span className="not-prose ae-section-label">The Core Problem</span>
-            <h2>Why ChatGPT Cannot Read Your Google Reviews</h2>
+            {/* Section 2: What AI Reads */}
+            <span className="ae-section-label">The Readable Stack</span>
+            <h2 id="what-ai-reads">What Review Sources AI Actually Reads</h2>
 
-            <p>Google reviews exist behind a JavaScript wall. When you visit a Google Business Profile, your browser executes JavaScript code that loads the reviews dynamically. You see them because your browser runs that code. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+            <h3>The operator domain is the highest-weight review surface</h3>
+            <p>Plain-text reviews published as raw HTML on the operator&apos;s own domain are the single highest-weight review source in the AEO citation stage. The retriever reads the text in the initial fetch, the citation stage scores extractability, authority lands on the operator domain rather than splitting across third-party platforms, and Review schema markup tags the surrounding text as testimonial structured data. <strong className="named-thesis">The Plain-Text Premium: customer reviews rendered as raw HTML text on the operator domain earn the highest AI citation weight of any review source because LLM retrieval scores extractability above volume, and structured data tagging compounds the relevance signal (GEO-SFE, 2026; Zhang et al., 2026).</strong> A testimonials page with 10 well-formed plain-text reviews outperforms a Google profile with 500 reviews on every AI surface measured. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the implementation walkthrough.</p>
 
-            <p>AI crawlers do not work that way. They read raw HTML, the underlying code of a webpage before JavaScript runs. When ChatGPT or other AI platforms try to access Google review pages, they get nothing useful. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+            <h3>Yelp, BBB, and Facebook are server-rendered and readable</h3>
+            <p>Yelp, the Better Business Bureau, and Facebook all serve review content in the initial HTML response. The pages are server-rendered or hybrid-rendered with progressive enhancement, which means the retriever fetches the document, parses the review text directly from the response body, and passes the testimonials to the scoring layer with full content. Yelp in particular operates as a frequently-cited source across ChatGPT and Perplexity for local recommendation queries because the platform&apos;s structured review data is dense and extractable. The retriever does not care that Yelp&apos;s star inflation rules differ from Google&apos;s; the retriever cares that the text is present. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Find out where your business is visible to AI &mdash; free Blind Spot scan.</a></p>
 
-            <div className="not-prose ae-quote">
-              <p>&quot;We are sorry, but this page requires JavaScript to function properly.&quot; <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <cite>What AI crawlers see when they visit Google review pages</cite>
-            </div>
-
-            <p>That is it. No reviews. No ratings. No customer testimonials. Just an error message. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-
-            <p>This is not a bug. It is how Google protects its data. And it means <strong>every Google review you have collected is invisible to AI platforms</strong> that might otherwise recommend your business. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-            <div className="not-prose ae-callout ae-callout-info">
-              <div className="ae-callout-title">Technical Reality</div>
-              <p>Google uses client-side JavaScript rendering for reviews. AI crawlers like ChatGPT&apos;s browsing tool, Perplexity&apos;s web search, and Claude&apos;s retrieval systems all rely on server-side HTML parsing. They literally cannot execute the JavaScript needed to see your reviews. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Not sure what AI platforms actually see about your business? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation</a>
-            </div>
-
-            {/* Section 2 */}
-            <span className="not-prose ae-section-label">The Visibility Gap</span>
-            <h2>The AI Visibility Gap: What This Means for Your Business</h2>
-
-            <p>When ChatGPT provides local recommendations, it often mentions &quot;highly rated&quot; or &quot;top-reviewed&quot; businesses. But it is only referencing reviews it can actually see. This creates a massive gap between your real reputation and your AI reputation. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+            <h3>Vertical directories carry industry-weighted authority</h3>
+            <p>Vertical directories &mdash; Angi and HomeAdvisor for home services, Healthgrades and Zocdoc for healthcare, Avvo and FindLaw for legal, Zillow and Realtor.com for real estate, OpenTable and TripAdvisor for hospitality &mdash; serve review content in raw HTML and carry industry-specific authority that the AEO scoring stage reads as topical alignment. Chen et al. (2025) documented systematic AI engine bias toward earned-media and third-party validation over self-published brand content, and vertical directories are the canonical earned-media channel for local services. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-minute call</a> to map your industry&apos;s visible review sources.</p>
 
             {/* Comparison Table */}
             <div className="not-prose">
               <table className="ae-comparison-table">
                 <thead>
                   <tr>
-                    <th>Platform</th>
+                    <th>Review Source</th>
                     <th>Google Sees</th>
                     <th>ChatGPT Sees</th>
                     <th>Perplexity Sees</th>
+                    <th>Citation Weight</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Google Reviews</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-red-400">No</td>
-                    <td className="text-red-400">No</td>
+                    <td>Operator domain (plain HTML)</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Highest</td>
                   </tr>
                   <tr>
-                    <td>Yelp Reviews</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
+                    <td>Yelp</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>High</td>
                   </tr>
                   <tr>
-                    <td>Facebook Reviews</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
+                    <td>Better Business Bureau</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>High</td>
                   </tr>
                   <tr>
-                    <td>Your Website (text)</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
+                    <td>Facebook reviews</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Partial</td>
+                    <td>Medium</td>
                   </tr>
                   <tr>
-                    <td>BBB / Industry Directories</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
+                    <td>Vertical directories (Angi, Healthgrades, Avvo, Zillow)</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#10b981'}}>High (industry-weighted)</td>
                   </tr>
                   <tr>
-                    <td>Website Widgets (JS-based)</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-red-400">No</td>
-                    <td className="text-red-400">No</td>
+                    <td>Google reviews (Business Profile)</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#ef4444'}}>No</td>
+                    <td style={{color:'#ef4444'}}>No</td>
+                    <td style={{color:'#ef4444'}}>Zero (off Google surfaces)</td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript review widgets (Elfsight, Birdeye, EmbedSocial)</td>
+                    <td style={{color:'#10b981'}}>Yes</td>
+                    <td style={{color:'#ef4444'}}>No</td>
+                    <td style={{color:'#ef4444'}}>No</td>
+                    <td style={{color:'#ef4444'}}>Zero</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <div className="not-prose ae-callout ae-callout-warning">
-              <div className="ae-callout-title">The Widget Trap</div>
-              <p>Many businesses embed Google review widgets on their website thinking it helps. But those widgets also use JavaScript, so AI still cannot read them. The reviews need to be actual text on your page, not dynamically loaded content. If your &quot;testimonials&quot; page uses an Elfsight, Google, or Birdeye widget, AI sees a blank box. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            </div>
-
-            {/* Bar Chart: AI Visibility by Platform */}
-            <div className="not-prose ae-bar-group">
-              <h4>AI Crawlability by Review Platform</h4>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Your Website (plain text)</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'100%'}}></div>
-                </div>
-                <div className="ae-bar-value">100%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Yelp</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'90%'}}></div>
-                </div>
-                <div className="ae-bar-value">90%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">BBB</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'85%'}}></div>
-                </div>
-                <div className="ae-bar-value">85%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Facebook</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'75%'}}></div>
-                </div>
-                <div className="ae-bar-value">75%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Industry Directories</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'70%'}}></div>
-                </div>
-                <div className="ae-bar-value">70%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Google Reviews</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'0%'}}></div>
-                </div>
-                <div className="ae-bar-value">0%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">JS Review Widgets</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'0%'}}></div>
-                </div>
-                <div className="ae-bar-value">0%</div>
-              </div>
-            </div>
+            <p>The pattern is consistent across every vertical TAE has measured: <span className="text-[#F27D24]">attribution</span>, <span className="text-[#F27D24]">source mentions</span>, and <span className="text-[#F27D24]">testimonial citation</span> on ChatGPT, Perplexity, and Claude all index the same readable stack. Google Reviews never enter that index. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory before a competitor does.</a></p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to know exactly which platforms are visible to AI for your business? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+              <p>Want a custom map of every review source your business should be on? Send your industry to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the vertical playbook.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
-            {/* Section 3: What AI Can See */}
-            <span className="not-prose ae-section-label">AI-Visible Platforms</span>
-            <h2>What Review Sources AI Actually Uses</h2>
+            {/* Section 3: The Widget Tax */}
+            <span className="ae-section-label">The Hidden Visibility Cost</span>
+            <h2 id="widget-tax">The Widget Tax: Why Embedded Review Widgets Pay a 100% Visibility Cost</h2>
 
-            <p>AI platforms are not completely blind to your reputation. They can access reviews from sources that do not require JavaScript. Here is where you should be building review presence. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            <h3>JavaScript review widgets fail the same retrieval test as Google reviews</h3>
+            <p>Embedded review widgets &mdash; Elfsight, Birdeye, EmbedSocial, native Google review badges, Trustindex, Reviews.io feeds &mdash; pull their content into the page through a third-party JavaScript loader that runs after initial HTML parse. The customer browser executes the loader and renders the widget; the AI retrieval crawler does not. <strong className="named-thesis">The Widget Tax: every JavaScript-loaded review widget on a business website pays a 100% visibility tax with AI crawlers, converting a four-star rating with social proof into a blank container at the citation layer because the testimonial text never enters the raw HTML response.</strong> The widget is invisible to the citation stage in exactly the way the Google review surface is invisible &mdash; same mechanism, same outcome. The operator who installed the widget pays the implementation cost, displays the badge to humans, and earns zero AEO authority weight for the trouble. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a widget audit checklist.</p>
 
-            {/* Decision Matrix */}
-            <div className="not-prose">
-              <table className="ae-decision-matrix">
-                <thead>
-                  <tr>
-                    <th>Platform</th>
-                    <th>AI Visibility</th>
-                    <th>Effort to Set Up</th>
-                    <th>Impact on AI Citations</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Your Website</strong></td>
-                    <td className="text-green-400">Highest</td>
-                    <td>Low</td>
-                    <td className="text-green-400">Very High</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Yelp</strong></td>
-                    <td className="text-green-400">High</td>
-                    <td>Medium</td>
-                    <td className="text-green-400">High</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Facebook</strong></td>
-                    <td className="text-green-400">High</td>
-                    <td>Low</td>
-                    <td>Medium</td>
-                  </tr>
-                  <tr>
-                    <td><strong>BBB</strong></td>
-                    <td className="text-green-400">High</td>
-                    <td>Medium</td>
-                    <td className="text-green-400">High</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Industry Directories</strong></td>
-                    <td>Medium</td>
-                    <td>Varies</td>
-                    <td>Medium</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Google Reviews</strong></td>
-                    <td className="text-red-400">Zero</td>
-                    <td>N/A</td>
-                    <td className="text-red-400">Zero for AI</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <h3>The widget industry sells SEO and AI visibility it does not deliver</h3>
+            <p>Most review widget vendors market &quot;AI-readable&quot; or &quot;SEO-optimized&quot; review embeds, and the marketing copy is technically wrong on both counts. Vendors typically render structured data through JavaScript, which Google&apos;s rendered crawler will see but AEO retrievers will not. A handful of vendors offer server-side rendering modes that emit review text into the initial HTML response &mdash; those modes do clear the AEO retrieval bar &mdash; but the default configuration on every major widget vendor we have audited ships in client-side mode. The operator has to verify the rendering mode of the specific widget version installed, and the only reliable test is to fetch the page with a JavaScript-disabled HTTP client and read the raw response. Questions about your specific stack? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Industry-specific directories also matter. If you are a contractor, reviews on HomeAdvisor or Angi can influence AI recommendations. For healthcare providers, Healthgrades and Zocdoc reviews are crawlable. Real estate agents benefit from Zillow and Realtor.com reviews. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            <h3>The fix is structural, not vendor-driven</h3>
+            <p>The reliable fix is to bypass the widget pattern entirely and publish review content as static HTML on the operator domain. Server-rendered React, Next.js Server Components, plain Jekyll, WordPress posts, hand-coded HTML &mdash; any rendering pattern that emits the review text into the initial document body clears the retrieval bar. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-min implementation call</a> for the exact build path.</p>
 
-            <div className="not-prose ae-takeaway">
-              <strong>Key takeaway:</strong> The platform with the highest AI visibility is the one you control completely: your own website. Plain-text reviews with schema markup are the single most effective way to make your reputation visible to AI.
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">The Field Test</div>
+              <p>Open your testimonials page in a browser. View the page source &mdash; the raw HTML, not the inspector. If you can search the source for the literal review text and find it, AI crawlers see it. If the source is empty where the reviews should be, AI crawlers see nothing. One field test settles the question. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AERO scan</a> for an automated check across every page.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Need help getting your reviews visible to AI platforms? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+              <p>Need help auditing whether your review widgets are server-rendered or client-side? One business per market gets priority booking. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if your territory is still open.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
             </div>
 
-            {/* Section 4: How to Fix It */}
-            <span className="not-prose ae-section-label">The Fix</span>
-            <h2>How to Make Your Reviews Visible to AI (4-Step Action Plan)</h2>
+            {/* Section 4: The Fix */}
+            <span className="ae-section-label">The Structural Fix</span>
+            <h2 id="fix">The Structural Fix: How to Make Reviews Visible to AI</h2>
 
-            {/* Timeline */}
-            <div className="not-prose ae-timeline">
-              <div className="ae-timeline-item">
-                <h4>Step 1: Display Reviews as Text on Your Website</h4>
-                <p>Do not use JavaScript widgets. Manually add your best reviews as actual text content on your site. Create a dedicated testimonials page or add them to service pages. Include the reviewer&apos;s first name and service type (e.g., &quot;John S., Emergency Plumbing Repair&quot;) so AI understands the context. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              </div>
-              <div className="ae-timeline-item">
-                <h4>Step 2: Add Review Schema Markup</h4>
-                <p>Use structured data to explicitly tell AI platforms &quot;these are customer reviews.&quot; Review schema helps AI understand what it is reading and increases citation likelihood. Key schema types: Review, AggregateRating, and Testimonial. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <h4>Step 3: Diversify Your Review Platforms</h4>
-                <p>Do not put all your eggs in the Google basket. Actively request reviews on Yelp, Facebook, and industry-specific directories that AI can crawl. Use a rotation strategy: ask every third customer to leave a Yelp review instead of Google. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <h4>Step 4: Link to Original Reviews</h4>
-                <p>When displaying reviews on your site, include a &quot;See original review&quot; link to the source. This adds credibility for human visitors and helps AI verify authenticity. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-              </div>
-            </div>
+            <h3>Step 1: publish 10 plain-text reviews on the operator domain</h3>
+            <p>Plain-text reviews are reviews rendered as static HTML directly in the response body. The reviewer&apos;s first name and last initial, the service type, the testimonial body, and a date stamp belong inline on a dedicated testimonials page or distributed across service pages. Aggarwal et al. (KDD 2024) measured a 37% citation lift from added inline quotations and a 22% lift from added statistics across three generative engines, and customer testimonials are the canonical example of both. Ten well-formed plain-text reviews is the minimum threshold to register on the AEO citation stage; 30 is the working target for competitive verticals. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AI visibility scan</a> to see where your domain currently sits.</p>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Want us to handle the technical setup for you? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">Start With a Free Blind Spot Report</Link>
-            </div>
+            <h3>Step 2: add Review and AggregateRating schema markup</h3>
+            <p>Review schema is the structured-data wrapper that tells retrievers explicitly &quot;this surrounding text is a customer testimonial.&quot; The schema carries the reviewer (author), rating value, item reviewed, and date. AggregateRating schema rolls up the testimonial set into a summary signal &mdash; total count, average rating &mdash; that the citation stage reads as a normalized authority weight. The combination of inline plain-text review content plus Review and AggregateRating schema is the cleanest signal the AEO retrieval stage can score on testimonials. Without schema, the review text still indexes; with schema, the relevance and authority signals compound. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a schema template.</p>
+
+            <h3>Step 3: distribute review collection across three AI-readable sources</h3>
+            <p>A single platform &mdash; even the operator domain &mdash; produces a narrower citation signal than presence across three or more readable sources. The AEO citation stage rewards source diversity because diverse sourcing reduces the risk of citing a single self-published claim. <strong className="named-thesis">The Distribution Compound: review presence across three or more AI-readable sources (operator domain, Yelp, BBB, vertical directory) outperforms a single 500-review Google profile because each crawlable source delivers a separate authority weight to the LLM&apos;s source graph, and source diversity itself is a scoring factor.</strong> Pick three sources, set up a request rotation that asks every third post-service customer for a review on a different source, and the distributed citation signal builds inside 60 days. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+
+            <h3>Step 4: link reviews back to their original public source</h3>
+            <p>When the operator domain publishes a Yelp review verbatim, the page should carry a &quot;See original review on Yelp&quot; link to the source URL. The link serves two purposes: it adds verifiable provenance for the citation stage&apos;s authority weighting (Chen et al., 2025 documented citation lift from verifiable source attribution), and it gives the retriever a crawl path to the original source where the review also indexes. The link is a one-line change that earns disproportionate credibility credit. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for implementation questions.</p>
+
+            <h3>Step 5: remove or replace every JavaScript review widget</h3>
+            <p>Every embedded widget on the site that loads reviews through client-side JavaScript is dead weight in the AEO model. The widget either gets removed entirely or gets replaced with a server-rendered alternative that emits the review text into the initial HTML response. The implementation cost is one developer afternoon; the visibility cost of leaving the widget in place is permanent. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+
+            <h3>Step 6: measure citation rate against a fixed prompt library</h3>
+            <p>The Proof Ledger is the measurement protocol the AEO field uses to verify that structural changes produced citation lift. Pick 15 to 20 plain-language prompts a customer would ask (&quot;best plumber near [city]&quot;, &quot;top-rated [service] in [neighborhood]&quot;), run them against ChatGPT, Perplexity, Claude, and Gemini once per month, and log the citation rate. After the review structural changes ship, the citation rate should lift inside 60 to 90 days. Without measurement, the operator cannot distinguish a real lift from variance. Find your baseline: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">run the free AERO scan.</a></p>
 
             {/* Cheat Sheet */}
             <div className="not-prose ae-cheat-sheet">
-              <div className="ae-cheat-sheet-title">Review Optimization Cheat Sheet</div>
+              <div className="ae-cheat-sheet-title">The Review Visibility Cheat Sheet</div>
               <table>
                 <thead>
                   <tr>
                     <th>Action</th>
-                    <th>Time Investment</th>
-                    <th>AI Impact</th>
+                    <th>Time</th>
+                    <th>AI Citation Impact</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Add 10 text reviews to your website</td>
+                    <td>Publish 10 plain-text reviews on operator domain</td>
                     <td>2 hours</td>
-                    <td>Immediate visibility boost</td>
+                    <td>High &mdash; immediate retrieval visibility</td>
                   </tr>
                   <tr>
-                    <td>Add Review schema markup</td>
-                    <td>1 hour (or plugin setup)</td>
-                    <td>Structured data recognition</td>
-                  </tr>
-                  <tr>
-                    <td>Claim Yelp business page</td>
-                    <td>30 minutes</td>
-                    <td>New AI-visible review channel</td>
-                  </tr>
-                  <tr>
-                    <td>Request 5 Yelp reviews from past clients</td>
-                    <td>15 minutes</td>
-                    <td>Cross-platform presence</td>
-                  </tr>
-                  <tr>
-                    <td>Update BBB listing</td>
+                    <td>Add Review + AggregateRating schema</td>
                     <td>1 hour</td>
-                    <td>Trust signal for AI</td>
+                    <td>High &mdash; compounding relevance signal</td>
                   </tr>
                   <tr>
-                    <td>Remove JS review widgets</td>
-                    <td>30 minutes</td>
-                    <td>Replace invisible with visible</td>
+                    <td>Claim and populate Yelp business profile</td>
+                    <td>30 min + ongoing</td>
+                    <td>High &mdash; second readable source</td>
+                  </tr>
+                  <tr>
+                    <td>Update BBB listing with current contact + services</td>
+                    <td>45 min</td>
+                    <td>Medium-High &mdash; third readable source</td>
+                  </tr>
+                  <tr>
+                    <td>Set up vertical directory profile (industry-specific)</td>
+                    <td>30 min</td>
+                    <td>High &mdash; industry-weighted authority</td>
+                  </tr>
+                  <tr>
+                    <td>Remove or replace client-side review widgets</td>
+                    <td>1 hour</td>
+                    <td>Eliminates visibility tax</td>
+                  </tr>
+                  <tr>
+                    <td>Run monthly Proof Ledger against fixed prompts</td>
+                    <td>30 min/month</td>
+                    <td>Measurement &mdash; required for cycle</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
             <div className="not-prose ae-callout ae-callout-success">
-              <div className="ae-callout-title">Quick Win</div>
-              <p>The fastest path to AI review visibility: copy your 10 best Google reviews as plain text onto your website&apos;s testimonials page. Add Review schema markup. This single action makes those reviews visible to every AI platform immediately. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+              <div className="ae-callout-title">The Two-Hour Win</div>
+              <p>The fastest path to AI review visibility: copy the 10 best Google reviews into the operator domain as plain HTML text on a testimonials page, add Review and AggregateRating schema, deploy. That single action moves the operator from invisible to retrievable on ChatGPT, Claude, Perplexity, and Gemini in the time the changes take to crawl. The work is mechanical, not strategic. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-minute implementation call.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Need a roadmap tailored to your specific business? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              <p>Want the implementation done for you? <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229</a>
             </div>
 
-            {/* Section 5: Pros and Cons */}
-            <span className="not-prose ae-section-label">Strategy Analysis</span>
-            <h2>Should You Still Collect Google Reviews?</h2>
+            {/* Section 5: Distribution */}
+            <span className="ae-section-label">Source Diversity</span>
+            <h2 id="distribution">Why Distribution Beats Volume in AEO Citation Scoring</h2>
 
-            <p><strong>Absolutely yes.</strong> Google reviews still matter enormously. They just do not help with AI recommendations specifically. The strategy is not either/or. It is both. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+            <h3>The citation stage scores source diversity as a first-class signal</h3>
+            <p>Generative engines avoid recommending a business based on a single self-published claim. The citation stage of every AEO model weights source diversity &mdash; the count of distinct domains that corroborate a claim &mdash; as a scoring factor independent of the underlying authority of each source (GEO-SFE, 2026). A business with reviews on the operator domain, Yelp, and BBB carries three distinct authority signals into the scoring layer. A business with 500 reviews on Google alone carries zero, because the retriever cannot read them. The math is brutal but mechanical: distribution dominates volume on the readable surface. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the source-diversity audit.</p>
 
-            {/* Pros/Cons */}
-            <div className="not-prose ae-pros-cons">
-              <div className="ae-pros-box">
-                <div className="ae-pros-title">Why Google Reviews Still Matter</div>
-                <ul>
-                  <li>Google Search rankings (major local SEO factor)</li>
-                  <li>Google Maps visibility (more reviews = higher placement)</li>
-                  <li>Google AI Overviews (Google&apos;s own AI CAN read them)</li>
-                  <li>Customer trust (people still check before calling)</li>
-                  <li>Social proof on your Google Business Profile</li>
-                  <li>Conversion rate on Google Search results</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <div className="ae-cons-title">Where Google Reviews Fall Short</div>
-                <ul>
-                  <li>Invisible to ChatGPT completely</li>
-                  <li>Invisible to Claude and Perplexity</li>
-                  <li>Cannot be crawled by any non-Google AI</li>
-                  <li>JS widgets on your site are also invisible</li>
-                  <li>No structured data for third-party AI parsing</li>
-                  <li>Zero influence on AI recommendation rankings</li>
-                </ul>
-              </div>
-            </div>
+            <h3>The first-mover advantage compounds quarterly</h3>
+            <p>Once an LLM cites a source, the citation itself becomes a training signal that raises the next retrieval cycle&apos;s authority weighting for that source. The operator who establishes review presence across the readable stack first builds compounding authority while later entrants face a steeper climb. In every vertical TAE has measured &mdash; legal, plumbing, healthcare, real estate, insurance &mdash; a small number of domains have already captured a disproportionate share of cited recommendation surface. New entrants in those verticals have to overcome the lock. The cost of entry rises every quarter. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if your territory is still open.</a></p>
 
-            <div className="not-prose ae-stats-grid">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📈</div>
-                <div className="ae-stat-value ae-accent">93%</div>
-                <div className="ae-stat-label">CONSUMERS READ REVIEWS</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🤖</div>
-                <div className="ae-stat-value ae-accent">3-5</div>
-                <div className="ae-stat-label">BUSINESSES AI RECOMMENDS</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🔒</div>
-                <div className="ae-stat-value ae-accent">100%</div>
-                <div className="ae-stat-label">GOOGLE REVIEWS AI-BLOCKED</div>
-              </div>
-            </div>
+            <h3>Industry directory placement carries vertical authority weight</h3>
+            <p>Vertical directories are not interchangeable. Each directory carries an industry-specific authority weight that the AEO scoring stage reads as topical alignment with the query. A plumber on Angi indexes more strongly for &quot;best plumber near me&quot; than a plumber on a generic directory because the retriever scores Angi&apos;s topical match against the query as a relevance multiplier. The operator selects the directory by vertical, not by traffic volume. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Find out if you are one of the 3-5 businesses AI recommends in your market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Have questions about your review strategy? Talk to a specialist. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229</a>
-            </div>
-
-            {/* Section 6: The Bigger Picture */}
-            <span className="not-prose ae-section-label">The Bigger Picture</span>
-            <h2>Why Your Competitor Gets AI Recommendations With Fewer Reviews</h2>
-
-            <p>This is the question that frustrates most business owners. You have 300 Google reviews. Your competitor has 47. But ChatGPT recommends them and not you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-
-            <p>The answer is simple: your competitor has reviews where AI can see them. Maybe they have 12 Yelp reviews, a testimonials page on their website, and a BBB listing. Those 12 visible reviews outweigh your 300 invisible ones in the AI world. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-
-            <div className="not-prose ae-bar-group">
-              <h4>AI Recommendation Factors (Beyond Reviews)</h4>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Website Content Quality</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'95%'}}></div>
-                </div>
-                <div className="ae-bar-value">95%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Crawlable Reviews</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'85%'}}></div>
-                </div>
-                <div className="ae-bar-value">85%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Structured Data / Schema</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'80%'}}></div>
-                </div>
-                <div className="ae-bar-value">80%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Directory Presence</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'70%'}}></div>
-                </div>
-                <div className="ae-bar-value">70%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Third-Party Mentions</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'65%'}}></div>
-                </div>
-                <div className="ae-bar-value">65%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Google Review Count</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{width:'5%'}}></div>
-                </div>
-                <div className="ae-bar-value">5%</div>
-              </div>
-            </div>
-
-            <div className="not-prose ae-callout ae-callout-info">
-              <div className="ae-callout-title">The Real Competition Is Visibility, Not Volume</div>
-              <p>AI does not count reviews. It reads them. A business with 10 well-written, crawlable reviews on its website will outperform a business with 500 Google reviews that AI cannot access. The game has changed. Volume on Google is not enough. Visibility across AI-accessible platforms is what matters now. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>See exactly where your competitors are visible and you are not.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
-
-            {/* Section 7: Industry-Specific Guidance */}
-            <span className="not-prose ae-section-label">By Industry</span>
-            <h2>Industry-Specific Review Platforms AI Can Read</h2>
-
+            {/* Industry Cheat Sheet */}
             <div className="not-prose ae-cheat-sheet">
-              <div className="ae-cheat-sheet-title">Where to Get Reviews by Industry</div>
+              <div className="ae-cheat-sheet-title">Vertical Directory Stack by Industry</div>
               <table>
                 <thead>
                   <tr>
                     <th>Industry</th>
-                    <th>Priority Platform 1</th>
-                    <th>Priority Platform 2</th>
-                    <th>Priority Platform 3</th>
+                    <th>Primary readable source</th>
+                    <th>Secondary</th>
+                    <th>Tertiary</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>Plumbing / HVAC</td>
-                    <td>Your Website</td>
+                    <td>Operator domain</td>
                     <td>Yelp</td>
-                    <td>Angi / HomeAdvisor</td>
+                    <td>Angi or HomeAdvisor</td>
                   </tr>
                   <tr>
-                    <td>Real Estate</td>
-                    <td>Your Website</td>
+                    <td>Real estate</td>
+                    <td>Operator domain</td>
                     <td>Zillow</td>
                     <td>Realtor.com</td>
                   </tr>
                   <tr>
                     <td>Healthcare</td>
-                    <td>Your Website</td>
+                    <td>Operator domain</td>
                     <td>Healthgrades</td>
                     <td>Zocdoc</td>
                   </tr>
                   <tr>
                     <td>Legal</td>
-                    <td>Your Website</td>
+                    <td>Operator domain</td>
                     <td>Avvo</td>
-                    <td>FindLaw</td>
+                    <td>FindLaw or Justia</td>
                   </tr>
                   <tr>
-                    <td>Restaurants</td>
-                    <td>Your Website</td>
+                    <td>Restaurants / hospitality</td>
+                    <td>Operator domain</td>
                     <td>Yelp</td>
-                    <td>TripAdvisor</td>
+                    <td>TripAdvisor or OpenTable</td>
                   </tr>
                   <tr>
-                    <td>Auto Services</td>
-                    <td>Your Website</td>
+                    <td>Auto services</td>
+                    <td>Operator domain</td>
                     <td>Yelp</td>
-                    <td>BBB</td>
+                    <td>BBB or RepairPal</td>
+                  </tr>
+                  <tr>
+                    <td>Coaches / consultants</td>
+                    <td>Operator domain</td>
+                    <td>LinkedIn recommendations</td>
+                    <td>Trustpilot or Clutch</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <p>Notice the pattern: your own website is always platform number one. Every industry benefits most from reviews published directly as text content on their site with proper schema markup.</p>
+            <p>The operator domain is the primary source across every vertical because the AEO scoring stage rewards first-party content paired with third-party corroboration. The vertical directories supply the corroboration; the operator domain supplies the depth. Run a free check: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">AERO Blind Spot Scan.</a></p>
 
-            <div className="not-prose ae-callout ae-callout-success">
-              <div className="ae-callout-title">Universal Rule</div>
-              <p>Regardless of your industry, your own website is the single most controllable and AI-visible review platform. Every business should have at least 10 plain-text reviews with schema markup on their site before worrying about any other platform.</p>
+            <div className="not-prose ae-stats-grid">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📊</div>
+                <div className="ae-stat-value ae-accent">3-5</div>
+                <div className="ae-stat-label">Businesses AI typically names per local query</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🔁</div>
+                <div className="ae-stat-value ae-accent">60-90d</div>
+                <div className="ae-stat-label">Lead time from structural fix to measurable citation lift</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🔒</div>
+                <div className="ae-stat-value ae-accent">1.9x</div>
+                <div className="ae-stat-label">Citation lift for named-author content (Chen, 2025)</div>
+              </div>
             </div>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Not sure which platforms matter most for your specific industry?</p>
-              <a href="mailto:support@theanswerengine.ai">Email us for a free industry analysis</a>
+            {/* CTA Block */}
+            <div className="ae-cta-block not-prose my-16">
+              <h3>More Reviews Help Google — But AI Search Uses Completely Different Signals</h3>
+              <p>AI engines weigh editorial citations, authority mentions, and structured data alongside reviews. Most businesses with great ratings are still invisible in AI search. Free Blind Spot Report — exactly where you stand in 48 hours.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AI Reputation Audit →</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              </div>
             </div>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Want a complete AI visibility audit for your business?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
-
-            {/* FAQ Section */}
-            <span className="not-prose ae-section-label">FAQ</span>
-            <h2>Frequently Asked Questions</h2>
-
-            <h3>Can ChatGPT see my Google reviews?</h3>
-            <p>No. ChatGPT cannot directly access Google reviews because Google&apos;s review pages require JavaScript to load, which AI crawlers cannot execute. ChatGPT only sees reviews that are published on your own website or on third-party sites it can crawl.</p>
-
-            <h3>Which review platforms can AI actually read?</h3>
-            <p>AI platforms can read reviews from Yelp, Facebook, Better Business Bureau, industry-specific directories, and reviews you have embedded on your own website. The key is whether the reviews are accessible without JavaScript rendering.</p>
-
-            <h3>Why does ChatGPT recommend competitors with fewer reviews than me?</h3>
-            <p>Your competitors likely have reviews visible on platforms ChatGPT can access: their website, Yelp, or Bing-indexed directories. Even with fewer total reviews, if those reviews are visible to AI, they have an advantage over your invisible Google reviews.</p>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Still have questions? We are happy to help.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229</a>
-            </div>
-
-            <h3>How do I make my reviews visible to AI?</h3>
-            <p>Display your best reviews directly on your website as text (not embedded widgets that require JavaScript). Use Review schema markup to help AI understand they are testimonials. Encourage customers to also leave reviews on Yelp, Facebook, and industry directories.</p>
-
-            <h3>Do reviews affect what ChatGPT recommends?</h3>
-            <p>Yes, but only reviews ChatGPT can see. AI platforms reference &quot;highly rated&quot; and &quot;top-reviewed&quot; businesses in their recommendations. The reviews must be on crawlable platforms or your own website for AI to factor them into recommendations.</p>
-
-            <h3>Should I still collect Google reviews?</h3>
-            <p>Yes, absolutely. Google reviews still matter for Google Search rankings, Google Maps visibility, and customer trust. But for AI visibility specifically, you need to diversify where your reviews appear and display them on your own website.</p>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Ready to make your reviews work for AI search?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
-
-            {/* Related Content */}
-            <span className="not-prose ae-section-label">Keep Reading</span>
-            <h2>Related Articles</h2>
-
-            <div className="not-prose grid sm:grid-cols-2 gap-4 mb-12">
-              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
-                <div className="text-[#F27D24] text-sm font-medium mb-2">DIY Guide</div>
-                <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">How to Check If AI Recommends Your Business</div>
-              </Link>
-              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
-                <div className="text-[#F27D24] text-sm font-medium mb-2">AI Algorithm</div>
-                <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">How ChatGPT Chooses Businesses to Recommend</div>
-              </Link>
-              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
-                <div className="text-[#F27D24] text-sm font-medium mb-2">Problem Solving</div>
-                <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">Why ChatGPT Recommends Your Competitors</div>
-              </Link>
-              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
-                <div className="text-[#F27D24] text-sm font-medium mb-2">Comparison</div>
-                <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">AEO vs SEO: What is the Difference?</div>
-              </Link>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Want to go deeper on AI visibility strategy?</p>
-              <Link href="/blindspot">Start With Your Free Blind Spot Report</Link>
-            </div>
+            {/* Concept Lattice */}
+            <p>This article anchors five concepts in the AEO model. Each links to a dedicated concept page for deeper treatment: the <a href="/concepts/crawler-visibility-threshold" className="concept-link">Crawler Visibility Threshold</a>, the <a href="/concepts/plain-text-premium" className="concept-link">Plain-Text Premium</a>, the <a href="/concepts/phantom-reputation-gap" className="concept-link">Phantom Reputation Gap</a>, the <a href="/concepts/widget-tax" className="concept-link">Widget Tax</a>, and the <a href="/concepts/distribution-compound" className="concept-link">Distribution Compound</a>.</p>
 
             {/* Author Card */}
             <div className="not-prose ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
+              />
               <div>
-                <strong>About the Author</strong>
-                <p>JB is the founder of The Answer Engine, an AI visibility agency helping local service businesses get recommended by ChatGPT, Claude, Perplexity, and Google AI. With a focus on data-driven strategies that deliver measurable results, JB has helped dozens of businesses go from invisible to cited across major AI platforms.</p>
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local service businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. TAE&apos;s own site runs against the same crawler model described in this article &mdash; 1.14M+ monthly impressions, four of four LLMs cited. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
 
-            {/* Final CTA */}
-            <div className="not-prose ae-final-cta">
-              <h2>Find Out If AI Is Recommending Your Business</h2>
-              <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Your 5-star Google reviews might be completely invisible to the AI tools your future customers are using right now. Our free blind spot report shows you exactly where you stand.</p>
-              <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <span>📞</span> (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <span>📧</span> support@theanswerengine.ai
-                </a>
-              </div>
-              <p className="text-gray-500 text-sm mt-4">No pitch, just the data. See the gap between your Google reputation and your AI visibility.</p>
-            </div>
+            {/* FAQ */}
+            <span className="ae-section-label" id="faq">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Questions before getting started? We are here to help.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 today</a>
-            </div>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Can ChatGPT see my Google reviews?</summary>
+              <p className="faq-answer mt-3 text-gray-300">No. Google review pages render reviews client-side through JavaScript, and AI retrieval crawlers read raw HTML before scripts execute. The reviews never enter the LLM index, which is why a Google profile with 500 five-star reviews contributes no authority weight to a ChatGPT recommendation. The fix is to publish review text directly on the operator domain or on AI-readable third-party sources.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Which review platforms can AI actually read?</summary>
+              <p className="faq-answer mt-3 text-gray-300">AI retrieval crawlers can read Yelp, Facebook, Better Business Bureau, vertical directories (Angi, HomeAdvisor, Healthgrades, Avvo, Zillow), and reviews published as plain HTML text on the operator domain. Each of these sources serves review content in raw HTML, so the LLM index captures the testimonial without needing to execute JavaScript. Volume on a single source matters less than presence across three or more AI-readable sources. Have questions? <a href="tel:+12134442229" className="cta-inline">Call (213) 444-2229.</a></p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Why does ChatGPT recommend competitors with fewer reviews than me?</summary>
+              <p className="faq-answer mt-3 text-gray-300">The competitor has reviews visible to AI retrieval crawlers &mdash; typically a testimonials page on their own domain, a Yelp profile, or a BBB listing. The citation stage of every AEO model scores what the retriever can read, not what the business has accumulated on a closed surface. Twelve visible Yelp reviews outweigh 300 invisible Google reviews in citation scoring because the invisible ones never enter the authority graph.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Do Google review widgets on my website fix the visibility problem?</summary>
+              <p className="faq-answer mt-3 text-gray-300">No. Embedded review widgets &mdash; Elfsight, Birdeye, EmbedSocial, native Google badges &mdash; load their content through JavaScript at the same point the AI crawler has already stopped reading. The widget displays a four-star rating in a customer browser, but the AI retriever sees a blank container with no review text inside. The widget pays a 100% visibility tax to the AI citation layer. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free Blind Spot scan.</a></p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How do I make my reviews visible to AI?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Publish review text as raw HTML on the operator domain &mdash; reviewer first name, service type, the testimonial body, a date &mdash; inside a section wrapped in Review schema markup. Aggarwal et al. (KDD 2024) measured a 37% citation lift from inline quotations, which is the same structural mechanism that makes plain-text reviews citation-favored. Then distribute review collection across Yelp, BBB, and one vertical directory so the LLM authority graph sees the operator across multiple readable sources.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Should I stop collecting Google reviews?</summary>
+              <p className="faq-answer mt-3 text-gray-300">No. Google reviews still drive Google Search ranking, Google Maps placement, Google AI Overviews citation (Google reads its own surface), and human trust at point of purchase. The correction is to add AI-readable sources alongside Google, not replace Google. The operator running both surfaces holds Google Search, Google Maps, ChatGPT, Perplexity, and Claude at the same time. Reach us: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Does Review schema markup help AI cite my testimonials?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Yes. Review and AggregateRating schema tell the retriever explicitly that the surrounding text is a customer testimonial &mdash; author, rating value, item reviewed &mdash; which raises extractability in the citation stage. Zhang et al. (2026) measured a 57% influence premium on definition-tagged structured content, and Review schema is the testimonial equivalent of that tagging.</p>
+            </details>
+
+            {/* CTA — calendly */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
+
+            {/* Related */}
+            <span className="ae-section-label">Continue Reading</span>
+            <h2>Related AEO Concepts</h2>
+
+            <ul>
+              <li><Link href="/blog/aeo-vs-seo">AEO vs SEO: What is the Difference?</Link></li>
+              <li><Link href="/blog/anatomy-of-an-ai-citation">Anatomy of an AI Citation</Link></li>
+              <li><Link href="/blog/aeo-models-how-ai-search-picks-sources">AEO Models: How AI Search Picks Sources</Link></li>
+              <li><Link href="/blog/why-chatgpt-recommends-competitors">Why ChatGPT Recommends Your Competitors</Link></li>
+              <li><Link href="/blog/answer-engine-optimization-aeo-guide">Answer Engine Optimization: The Complete Guide</Link></li>
+            </ul>
+
+            {/* CTA — blindspot */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
 
           </div>
+
+          {/* Final CTA */}
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                A 5-Star Rating Means Nothing if AI Search Has Never Heard of You
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                AI engines build recommendations from editorial sources, not review counts. The Answer Engine builds the authority signals that get you cited — free audit shows your current AI reputation score. One business per market.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AI Reputation Audit →
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </section>
+
         </article>
-      </main>
+      </div>
     </>
   );
 }

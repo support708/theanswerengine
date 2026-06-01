@@ -961,20 +961,24 @@
     "id": 17,
     "title": "Do Google Reviews Affect AI Recommendations? (The Surprising Truth)",
     "slug": "do-google-reviews-affect-ai-recommendations",
-    "excerpt": "ChatGPT can't read your Google reviews. Learn which reviews AI platforms actually see, why your 5-star rating might be invisible, and how to fix it.",
+    "excerpt": "Google reviews are invisible to ChatGPT, Claude, and Perplexity because the review surface renders client-side and AI crawlers cannot execute JavaScript. The AEO crawler model, the readable alternatives, and the structural fix.",
     "category": "AI Visibility",
-    "author": "JB",
-    "readTime": "8 min",
+    "author": "Justin Borges",
+    "readTime": "12 min",
     "image": "/blog/do-google-reviews-affect-ai-recommendations.webp",
-    "publishDate": "2025-12-17",
-    "lastModified": "2025-12-17",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
     "featured": true,
     "tags": [
       "Google Reviews",
       "AI Visibility",
-      "ChatGPT",
-      "Reviews",
-      "Local Business"
+      "AEO Reviews",
+      "ChatGPT Reviews",
+      "Review Schema",
+      "JavaScript Wall",
+      "Plain-Text Premium",
+      "Local Business AI",
+      "Answer Engine Optimization"
     ]
   },
   {
