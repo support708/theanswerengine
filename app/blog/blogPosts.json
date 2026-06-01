@@ -5722,5 +5722,27 @@
       "AEO",
       "AI Search"
     ]
+  },
+  {
+    "id": 273,
+    "title": "Is AI Search Replacing Google? AEO Data",
+    "slug": "is-ai-search-replacing-google",
+    "excerpt": "AI search intercepts 60% of Google queries before the click. We mapped the citation shift across ChatGPT, Perplexity, Gemini, and AI Overviews. See the AEO data.",
+    "category": "AEO Strategy",
+    "author": "Justin Borges",
+    "readTime": "14 min read",
+    "image": "/blog/is-ai-search-replacing-google.webp",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": true,
+    "tags": [
+      "AEO",
+      "Answer Engine Optimization",
+      "AI Search",
+      "AI Overviews",
+      "ChatGPT Search",
+      "Perplexity",
+      "Citation Strategy"
+    ]
   }
 ]
