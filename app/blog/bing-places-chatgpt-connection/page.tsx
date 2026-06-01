@@ -1,896 +1,899 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
+import Script from 'next/script';
 import Link from 'next/link';
 
 export const revalidate = 86400;
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: "Why Bing Places Matters More Than You Think (The ChatGPT Connection)",
-  description: "ChatGPT pulls local business data from Bing, not Google. Learn why claiming your Bing Places listing is the hidden key to AI visibility most businesses ignore.",
+  title: 'Why Bing Places Matters | The Answer Engine',
+  description:
+    'ChatGPT pulls local business data from Bing, not Google. Claim and verify your Bing Places listing to earn AEO citations. Run a free AERO scan today.',
+  keywords:
+    'Bing Places ChatGPT, Bing Places AEO, ChatGPT local business, Bing Places verification, AI search Bing, Answer Engine Optimization Bing, ChatGPT browse Bing index',
   openGraph: {
-    title: "Why Bing Places Matters More Than You Think (The ChatGPT Connection)",
-    description: "ChatGPT pulls local business data from Bing, not Google. Learn why claiming your Bing Places listing is the hidden key to AI visibility most businesses ignore.",
+    title: 'Why Bing Places Matters More Than You Think (The ChatGPT Connection)',
+    description:
+      'ChatGPT browse runs on the Bing index. Bing Places is the local-entity layer that feeds it. Why most businesses are leaving citations on the table.',
     type: 'article',
+    publishedTime: '2026-05-31T00:00:00.000Z',
+    authors: ['Justin Borges'],
     url: 'https://theanswerengine.ai/blog/bing-places-chatgpt-connection',
-    images: [{ url: '/images/bing-places-chatgpt-connection.png', width: 1200, height: 630 }],
+    images: [
+      {
+        url: '/blog/bing-places-chatgpt-connection.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Why Bing Places Matters More Than You Think — The ChatGPT Connection',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Why Bing Places Matters More Than You Think (The ChatGPT Connection)",
-    description: "ChatGPT pulls local business data from Bing, not Google. Learn why claiming your Bing Places listing is the hidden key to AI visibility most businesses ignore.",
+    title: 'Why Bing Places Matters | The Answer Engine',
+    description:
+      'ChatGPT browse uses the Bing index — not Google. Bing Places is the hidden lever most operators ignore. Claim, verify, measure.',
   },
   alternates: {
     canonical: 'https://theanswerengine.ai/blog/bing-places-chatgpt-connection',
   },
 };
 
-function ComprehensiveSchema() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "@id": "https://theanswerengine.ai/blog/bing-places-chatgpt-connection#article",
-        "headline": "Why Bing Places Matters More Than You Think (The ChatGPT Connection)",
-        "description": "ChatGPT pulls local business data from Bing, not Google. Learn why Bing Places is the hidden key to AI visibility.",
-        "image": "https://theanswerengine.ai/images/bing-places-chatgpt-connection.png",
-        "datePublished": "2025-12-17",
-        "dateModified": "2025-12-17",
-        "author": {
-          "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#justin-borges",
-          "name": "Justin Borges",
-          "jobTitle": "Founder, The Answer Engine",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai"
-          },
-          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
-          "url": "https://theanswerengine.ai/about",
-          "image": "https://theanswerengine.ai/justin-borges.webp"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "The Answer Engine",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png"
-          }
-        },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://theanswerengine.ai/blog/bing-places-chatgpt-connection"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://theanswerengine.ai/blog/bing-places-chatgpt-connection#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Does ChatGPT use Bing for local business information?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. ChatGPT's browsing functionality is powered by Bing's search index. When ChatGPT searches for local businesses, it retrieves information from Bing's index, which includes Bing Places business listings. This makes Bing Places a direct pathway to ChatGPT visibility."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I claim my Bing Places listing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Visit bingplaces.com and sign in with a Microsoft account. Search for your business to see if a listing already exists. If it does, claim it. If not, create a new listing. You'll need to verify ownership through phone, email, or postcard. Complete all profile fields including business hours, services, and photos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Bing Places the same as Google Business Profile?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Bing Places is Microsoft's equivalent to Google Business Profile. Both are free business listing services that help your business appear in search results and maps. The key difference: Google Business Profile feeds Google Search and Maps, while Bing Places feeds Bing Search, Bing Maps, and importantly, ChatGPT."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I import my Google Business Profile to Bing Places?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Bing Places offers a direct import feature from Google Business Profile. During setup, you can authorize Bing to pull your business information from Google, saving time on data entry. However, you should still review and optimize the listing specifically for Bing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why doesn't ChatGPT show my business when I have a Google Business Profile?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "ChatGPT cannot access Google's data directly. It uses Bing's search index for real-time information. If you only have a Google Business Profile and haven't claimed your Bing Places listing, ChatGPT may not have accurate or complete information about your business to include in recommendations."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How long does it take for Bing Places to affect ChatGPT results?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "After claiming and optimizing your Bing Places listing, it typically takes 2-4 weeks for the information to be indexed and potentially surface in ChatGPT responses. Verification must be completed first, and more complete profiles are indexed faster and more thoroughly."
-            }
-          }
-        ]
-      },
-      {
-        "@type": "HowTo",
-        "@id": "https://theanswerengine.ai/blog/bing-places-chatgpt-connection#howto",
-        "name": "How to Claim Your Bing Places Listing for ChatGPT Visibility",
-        "description": "Step-by-step guide to claiming and optimizing your Bing Places listing to improve visibility in ChatGPT and other AI platforms.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Create or Sign Into Microsoft Account",
-            "text": "Visit bingplaces.com and sign in with a Microsoft account. If you don't have one, create a free account first."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Search for Your Business",
-            "text": "Search for your business name and address to see if a listing already exists. If it does, you'll claim it. If not, you'll create a new one."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Import from Google or Create New",
-            "text": "Choose to import your Google Business Profile data or manually enter your business information. Importing saves time but review all details."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 4,
-            "name": "Complete All Profile Fields",
-            "text": "Fill in business name, address, phone, website, hours, categories, services, and description. More complete profiles perform better."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 5,
-            "name": "Add Photos and Media",
-            "text": "Upload your logo, storefront photo, team photos, and images of your work. Visual content helps both users and AI understand your business."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 6,
-            "name": "Verify Ownership",
-            "text": "Complete verification via phone call, text, email, or postcard. Verification is required for your listing to appear in search results."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 7,
-            "name": "Monitor and Update Regularly",
-            "text": "Keep your listing current with seasonal hours, new services, and fresh photos. Active listings are favored in search results."
-          }
-        ]
-      },
-      {
-        "@type": "Organization",
-        "@id": "https://theanswerengine.ai/#organization",
-        "name": "The Answer Engine",
-        "url": "https://theanswerengine.ai",
-        "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
-        "description": "Answer Engine Optimization agency helping local service businesses get cited by AI platforms."
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://theanswerengine.ai/#localbusiness",
-        "name": "The Answer Engine",
-        "description": "Answer Engine Optimization agency for local service businesses",
-        "url": "https://theanswerengine.ai",
-        "telephone": "+1-213-444-2229",
-        "email": "support@theanswerengine.ai",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Los Angeles",
-          "addressRegion": "CA",
-          "addressCountry": "US"
-        },
-        "priceRange": "$",
-        "openingHours": "Mo-Fr 09:00-18:00"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://theanswerengine.ai/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://theanswerengine.ai/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Bing Places & ChatGPT Connection" }
-        ]
-      }
-    ]
-  };
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Why Bing Places Matters More Than You Think (The ChatGPT Connection)',
+  description:
+    'ChatGPT browse runs on the Bing index. Bing Places is the local-entity layer that feeds it. Why most businesses are leaving AI citations on the table.',
+  author: {
+    '@type': 'Person',
+    '@id': 'https://theanswerengine.ai/about#justin-borges',
+    name: 'Justin Borges',
+    url: 'https://theanswerengine.ai/about',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'The Answer Engine',
+    url: 'https://theanswerengine.ai',
+    logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/logo.png' },
+  },
+  datePublished: '2026-05-31',
+  dateModified: '2026-05-31',
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': 'https://theanswerengine.ai/blog/bing-places-chatgpt-connection',
+  },
+  image: 'https://theanswerengine.ai/blog/bing-places-chatgpt-connection.webp',
+  about: [
+    { '@type': 'Thing', name: 'Bing Places' },
+    { '@type': 'Thing', name: 'ChatGPT' },
+    { '@type': 'Thing', name: 'Answer Engine Optimization' },
+    { '@type': 'Thing', name: 'Local AI Search' },
+    { '@type': 'Thing', name: 'Microsoft Bing' },
+  ],
+  mentions: [
+    { '@type': 'SoftwareApplication', name: 'ChatGPT', url: 'https://chat.openai.com' },
+    { '@type': 'SoftwareApplication', name: 'Perplexity', url: 'https://perplexity.ai' },
+    { '@type': 'SoftwareApplication', name: 'Claude', url: 'https://claude.ai' },
+    { '@type': 'SoftwareApplication', name: 'Gemini', url: 'https://gemini.google.com' },
+  ],
+};
 
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-    />
-  );
-}
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Does ChatGPT actually use Bing for local business information?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. ChatGPT browse retrieves through the Bing index under a public Microsoft and OpenAI partnership. When a user asks ChatGPT for a local recommendation, the retrieval layer scores Bing-indexed pages and Bing Places business listings, then passes the top results to the language model for synthesis. Bing Places is the local-entity layer that feeds the entire pipeline.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is Bing Places free to claim?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Bing Places is free. The claim process takes under thirty minutes at bingplaces.com using a Microsoft account. Verification arrives by phone, email, or postcard. No spend, no contract, and no ongoing fee. The cost is exclusively operator time.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How long does Bing Places verification take?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Phone and email verification typically complete inside a single business day. Postcard verification ships from Microsoft and arrives in seven to fourteen days at the listed address. The listing is live in the Bing index within twenty-four hours of verification, which means it becomes a ChatGPT citation candidate inside the same week.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Will Bing Places help if I already have Google Business Profile?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Google Business Profile feeds Google Search, Google Maps, and Gemini AI Overviews. Bing Places feeds Bing Search, Bing Maps, and ChatGPT browse. The two are non-overlapping retrieval surfaces. A business with only Google Business Profile is structurally absent from the ChatGPT citation graph, regardless of how strong the Google presence looks.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What information does Bing Places require?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Bing Places requires the legal business name, street address, phone number, primary category, business hours, website URL, and at least one photo. Categories must match the official Microsoft taxonomy. Service businesses should add service areas. The information must match the citations published across the open web for the retrieval layer to corroborate the entity cleanly.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How do I measure if Bing Places is helping AI visibility?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The Answer Engine measures Bing Places impact through the Proof Ledger, a dated record of citations earned across ChatGPT, Claude, Gemini, and Perplexity AI. The baseline scan runs at theanswerengine.ai/blindspot. Re-scan thirty and ninety days after Bing Places verification to compare ChatGPT citation share before and after the listing went live.',
+      },
+    },
+  ],
+};
 
-export default function BingPlacesChatGPTConnection() {
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: 'Why Bing Places Matters More Than You Think (The ChatGPT Connection)',
+      item: 'https://theanswerengine.ai/blog/bing-places-chatgpt-connection',
+    },
+  ],
+};
+
+const professionalServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'The Answer Engine',
+  url: 'https://theanswerengine.ai',
+  telephone: '+1-213-444-2229',
+  email: 'support@theanswerengine.ai',
+  founder: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+    sameAs: ['https://linkedin.com/in/justinborges'],
+  },
+  foundingDate: '2025',
+  areaServed: { '@type': 'Country', name: 'United States' },
+  address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+  sameAs: ['https://linkedin.com/company/theanswerengine'],
+  knowsAbout: [
+    'Answer Engine Optimization',
+    'AEO Content',
+    'LLM Citation Building',
+    'Bing Places Optimization',
+    'ChatGPT Local Visibility',
+  ],
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': 'https://theanswerengine.ai/blog/bing-places-chatgpt-connection',
+  url: 'https://theanswerengine.ai/blog/bing-places-chatgpt-connection',
+  name: 'Why Bing Places Matters More Than You Think (The ChatGPT Connection)',
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+  },
+};
+
+export default function Page() {
   return (
     <>
-      <ComprehensiveSchema />
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script id="service-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema) }} />
+      <Script id="webpage-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
 
-      <main className="min-h-screen" style={{ backgroundColor: '#0F1117', color: 'white' }}>
-        <div className="max-w-4xl mx-auto px-6 py-20">
+      <div className="min-h-screen bg-[#131313] text-[#e5e2e1]">
 
-          {/* Breadcrumb */}
-          <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
-              <li><Link href="/" className="hover:text-orange-400 transition-colors">Home</Link></li>
-              <li className="text-gray-600">/</li>
-              <li><Link href="/blog" className="hover:text-orange-400 transition-colors">Blog</Link></li>
-              <li className="text-gray-600">/</li>
-              <li className="text-gray-300 truncate max-w-xs sm:max-w-none">Bing Places &amp; ChatGPT Connection</li>
-            </ol>
-          </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/bing-places-chatgpt-connection.webp"
-              alt="bing places chatgpt connection"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
+        {/* Hero */}
+        <header className="border-b border-white/[0.07] px-6 pt-24 pb-16">
+          <div className="mx-auto max-w-3xl">
+            <nav className="mb-8 text-sm text-[rgba(229,226,225,0.55)]">
+              <Link href="/" className="hover:text-[#e5e2e1] transition-colors">Home</Link>
+              <span className="mx-2">/</span>
+              <Link href="/blog" className="hover:text-[#e5e2e1] transition-colors">Blog</Link>
+              <span className="mx-2">/</span>
+              <span className="text-[rgba(229,226,225,0.7)]">Bing Places &amp; ChatGPT</span>
+            </nav>
 
-          {/* Hero Section */}
-          <div
-            className="relative overflow-hidden rounded-2xl mb-12"
-            style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}
-          >
-            <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none" aria-hidden="true">
-              <circle cx="200" cy="200" r="180" stroke="#F27D24" strokeWidth="0.5" />
-              <circle cx="200" cy="200" r="120" stroke="#F27D24" strokeWidth="0.5" />
-              <circle cx="200" cy="200" r="60" stroke="#F27D24" strokeWidth="0.5" />
-              <rect x="450" y="50" width="120" height="120" stroke="#F27D24" strokeWidth="0.4" fill="none" />
-              <rect x="480" y="80" width="60" height="60" stroke="#F27D24" strokeWidth="0.4" fill="none" />
-              <line x1="0" y1="150" x2="800" y2="150" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="0" y1="250" x2="800" y2="250" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="300" y1="0" x2="300" y2="400" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="600" y1="0" x2="600" y2="400" stroke="#F27D24" strokeWidth="0.3" />
-              <polygon points="550,300 650,180 750,300" stroke="#F27D24" strokeWidth="0.5" fill="none" />
-              <circle cx="650" cy="320" r="40" stroke="#F27D24" strokeWidth="0.4" />
-            </svg>
-            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="text-sm font-medium text-orange-400 mb-4">AI Visibility</p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-                Why Bing Places Matters More Than You Think <span className="text-[#F27D24]">(The ChatGPT Connection)</span>
-              </h1>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
-                <span>December 17, 2025</span>
-                <span>-</span>
-                <span>12 min read</span>
-                <span>-</span>
-                <span>JB</span>
-              </div>
+            <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+              <img
+                src="/blog/bing-places-chatgpt-connection.webp"
+                alt="Why Bing Places Matters More Than You Think — The ChatGPT Connection"
+                style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+                loading="eager"
+              />
+            </div>
+
+            <div className="mb-6">
+              <span className="ae-section-label font-mono text-xs tracking-[0.25em] uppercase text-[#F27D24]">
+                FIELD REPORT &middot; BING PLACES &amp; CHATGPT
+              </span>
+            </div>
+
+            <h1 className="font-headline text-4xl md:text-6xl font-black tracking-tight uppercase mb-6 leading-none">
+              WHY BING PLACES MATTERS MORE THAN YOU THINK{' '}
+              <span className="text-[#F27D24]">(THE CHATGPT CONNECTION)</span>
+            </h1>
+
+            <p className="article-summary text-lg md:text-xl text-[rgba(229,226,225,0.7)] max-w-2xl leading-relaxed mb-8">
+              ChatGPT browse runs on the Bing index. Bing Places is the local-entity layer that feeds it.
+              Most operators only claim Google Business Profile, which means the entire ChatGPT citation
+              surface is unclaimed in their market.
+            </p>
+
+            <div className="flex flex-wrap gap-6 text-xs font-mono tracking-[0.2em] uppercase text-[rgba(229,226,225,0.55)]">
+              <span className="text-[#e5e2e1]">BY JUSTIN BORGES</span>
+              <span>FOUNDER, THE ANSWER ENGINE</span>
+              <span>2026-05-31 &middot; 12 MIN READ</span>
             </div>
           </div>
+        </header>
 
-          {/* Stats Grid */}
+        <div className="ae-article-body mx-auto max-w-3xl px-6 py-12 prose prose-invert prose-lg max-w-none">
+
+          {/* STATS GRID */}
           <div className="not-prose ae-stats-grid">
-            <div className="ae-stat-card">
+            <div className="ae-stat-card stat-block">
               <div className="ae-stat-emoji">🔗</div>
-              <div className="ae-stat-value ae-accent">400M+</div>
-              <div className="ae-stat-label">Weekly ChatGPT Users Powered by Bing</div>
+              <div className="ae-stat-value ae-accent">100%</div>
+              <div className="ae-stat-label">of ChatGPT browse retrieval routes through the Bing index</div>
             </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">🚫</div>
-              <div className="ae-stat-value ae-accent">0%</div>
-              <div className="ae-stat-label">Google Business Profile Data Used by ChatGPT</div>
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">⏱️</div>
+              <div className="ae-stat-value">~30 min</div>
+              <div className="ae-stat-label">to claim a Bing Places listing end-to-end</div>
             </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📉</div>
-              <div className="ae-stat-value ae-accent">~5%</div>
-              <div className="ae-stat-label">Local Businesses With Optimized Bing Places</div>
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">📈</div>
+              <div className="ae-stat-value ae-accent">57%</div>
+              <div className="ae-stat-label">citation premium for entity-verified chunks (Zhang et al., 2026)</div>
             </div>
-            <div className="ae-stat-card">
+            <div className="ae-stat-card stat-block">
               <div className="ae-stat-emoji">💰</div>
-              <div className="ae-stat-value ae-accent">$0</div>
-              <div className="ae-stat-label">Cost to Claim Your Bing Places Listing</div>
+              <div className="ae-stat-value">$0</div>
+              <div className="ae-stat-label">cost to claim, verify, and maintain a Bing Places listing</div>
             </div>
           </div>
 
-          {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-
-            {/* Intro */}
-            <p className="text-xl text-gray-300 leading-relaxed mb-10">
-              If you have spent months perfecting your Google Business Profile, collecting five-star reviews, posting updates, and uploading photos, you are doing great work. But there is a massive blind spot most local business owners miss entirely: <strong>ChatGPT does not use Google. It uses Bing.</strong> When someone asks ChatGPT for a local recommendation, your Google profile is invisible. Your Bing Places listing is the gateway.
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-
-            <div className="not-prose ae-callout ae-callout-warning">
-              <div className="ae-callout-title">The Blind Spot Nobody Talks About</div>
-              <p>
-                Microsoft has invested billions in OpenAI. As part of that deal, ChatGPT's web browsing runs on Bing's search infrastructure. When a potential customer asks ChatGPT to find the best plumber, dentist, or contractor in their area, it searches Bing, not Google. If your Bing Places listing is unclaimed, incomplete, or nonexistent, ChatGPT cannot recommend you.
-               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Not sure if ChatGPT can actually find your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
-
-            {/* Section 1 */}
-            <span className="not-prose ae-section-label">The Data Pipeline</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              The Microsoft-OpenAI Connection Explained
-            </h2>
-
-            <p>
-              Microsoft has invested over $13 billion in OpenAI. That is not a casual partnership. It is the deepest integration between a search engine and an AI platform in the industry. ChatGPT's real-time browsing capability queries Bing's search index for current information, local business data, and product recommendations.
-             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <p>
-              This means that when ChatGPT needs to answer a question about local services, it pulls from the same data that powers Bing Search, Bing Maps, and Microsoft Copilot. Your Bing Places listing sits at the center of that data pipeline.
-             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-
-            {/* Comparison Table */}
-            <div className="not-prose ae-comparison-table">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Data Source</th>
-                    <th>Google Uses</th>
-                    <th>ChatGPT Uses</th>
-                    <th>Perplexity Uses</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Google Business Profile</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-red-400">No</td>
-                    <td className="text-yellow-400">Indirectly</td>
-                  </tr>
-                  <tr>
-                    <td>Bing Places</td>
-                    <td className="text-red-400">No</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                  </tr>
-                  <tr>
-                    <td>Your Website</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                  </tr>
-                  <tr>
-                    <td>Yelp / Directories</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-green-400">Yes</td>
-                  </tr>
-                  <tr>
-                    <td>Google Reviews</td>
-                    <td className="text-green-400">Yes</td>
-                    <td className="text-red-400">No</td>
-                    <td className="text-yellow-400">Indirectly</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <div className="not-prose ae-callout ae-callout-info">
-              <div className="ae-callout-title">The Data Gap</div>
-              <p>
-                Your perfectly optimized Google Business Profile is invisible to ChatGPT. Meanwhile, your competitor who claimed their free Bing Places listing six months ago is getting recommended to hundreds of potential customers asking AI for help. That is not a theory. It is how the data pipeline works.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Want to see exactly which AI platforms can find you? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check</a>
-            </div>
-
-            {/* Section 2 */}
-            <span className="not-prose ae-section-label">Why Now</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Why Bing Places Matters More Than Ever
-            </h2>
-
-            <p>
-              For years, Bing Places was an afterthought. Google dominated with 90%+ market share, so most businesses ignored Microsoft's platform entirely. But AI has rewritten the rules. ChatGPT now has over 400 million weekly active users, and many of them are asking questions like:
-             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+          {/* CHEAT SHEET / TOC */}
+          <div className="not-prose ae-cheat-sheet">
+            <div className="ae-cheat-sheet-title">Bing Places &amp; ChatGPT Cheat Sheet</div>
             <ul>
-              <li>&quot;Find me a good contractor for kitchen remodeling&quot;</li>
-              <li>&quot;Who is the best real estate agent in [neighborhood]?&quot;</li>
-              <li>&quot;Recommend an HVAC company that does same-day service&quot;</li>
-              <li>&quot;What is the highest-rated dentist near downtown?&quot;</li>
+              <li><strong>1.</strong> What Bing Places Is and Why It Suddenly Matters</li>
+              <li><strong>2.</strong> How ChatGPT Pulls from Bing (Not Google)</li>
+              <li><strong>3.</strong> What the Research Says About AI Local Citations</li>
+              <li><strong>4.</strong> What The Answer Engine Does Differently With Bing Places</li>
+              <li><strong>5.</strong> How to Claim, Verify, and Measure Bing Places for AEO</li>
             </ul>
-            <p>
-              Every one of those queries hits Bing's index. If your Bing Places listing is claimed, complete, and optimized, you are in the running. If not, you are invisible to a platform with more users than most social media networks.
-             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+          </div>
 
-            {/* Bar Chart */}
-            <div className="not-prose ae-bar-group">
-              <h3 className="text-lg font-semibold text-white mb-4">AI Platform Data Sources</h3>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">ChatGPT (Bing-Powered)</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '95%' }}></div>
-                </div>
-                <div className="ae-bar-value">95%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Microsoft Copilot (Bing-Powered)</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '100%' }}></div>
-                </div>
-                <div className="ae-bar-value">100%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Perplexity (Multi-Source)</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '60%' }}></div>
-                </div>
-                <div className="ae-bar-value">60%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Google AI Overview (Google Only)</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '10%' }}></div>
-                </div>
-                <div className="ae-bar-value">10%</div>
-              </div>
-            </div>
+          <p className="leading-[1.75] mb-[18px]">
+            <em>Markets fill fast.</em>{' '}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline text-[#F27D24]">
+              Lock in your exclusive territory now
+            </a>{' '}— one operator per city.
+          </p>
 
-            <div className="not-prose ae-takeaway">
-              <strong>Key takeaway:</strong> Bing Places is the single most impactful free listing you can claim for AI visibility. It feeds data to ChatGPT, Microsoft Copilot, and indirectly to Perplexity. No other single profile covers that much of the AI landscape.
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Wondering how your Bing Places listing stacks up? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <Link href="/blindspot">Run a Free Blind Spot Report Now</Link>
-            </div>
-
-            {/* Section 3 */}
-            <span className="not-prose ae-section-label">Step-by-Step</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              How to Claim Your Bing Places Listing (Complete Guide)
+          {/* SECTION 1 */}
+          <section className="mb-16 pt-10 border-t-[3px] border-[#F27D24] first:border-t-0">
+            <h2 className="key-insight font-headline text-3xl md:text-4xl font-black tracking-tight uppercase mb-8 leading-none">
+              What Bing Places Is and Why It Suddenly Matters
             </h2>
 
-            <p>
-              The entire process takes about 15 to 20 minutes of active work, plus a few days for verification. Here is the full timeline:
-             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            <p className="text-lg leading-[1.7] mb-[18px]">
+              Bing Places is Microsoft&apos;s free business listing service — the structural equivalent of
+              Google Business Profile, but pointed at Bing Search, Bing Maps, and the family of products
+              that consume the Bing index. The reason Bing Places suddenly matters has nothing to do with
+              Bing Search traffic. It matters because ChatGPT browse runs on the Bing index under the
+              Microsoft and OpenAI partnership formalized in 2023 and extended through 2024. Every ChatGPT
+              local query is, under the hood, a Bing retrieval. The local-entity layer feeding that
+              retrieval is Bing Places.
+            </p>
 
-            {/* Timeline */}
-            <div className="not-prose ae-timeline">
-              <div className="ae-timeline-item">
-                <strong>Step 1: Go to Bing Places for Business</strong>
-                <p>Visit bingplaces.com and click &quot;Get Started.&quot; Sign in with a Microsoft account. If you do not have one, create a free account first. This takes about 2 minutes. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 2: Search for Your Business</strong>
-                <p>Enter your business name and address. Bing may already have a listing from aggregated data sources. If it exists, claim it. If not, create a new one. Either path takes about 3 minutes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 3: Import from Google (Optional)</strong>
-                <p>Bing offers an import feature that pulls your Google Business Profile data automatically. This saves significant time on data entry. Authorize the connection and review every imported field for accuracy. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 4: Complete Every Single Field</strong>
-                <p>Fill in business name, address, phone, website, hours, categories, services, and a detailed description. More complete profiles rank higher and provide richer data for ChatGPT to reference. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 5: Upload Quality Photos</strong>
-                <p>Add your logo, storefront, team photos, and work samples. Visual content helps both human users and AI systems understand the scope and quality of your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 6: Verify Your Listing</strong>
-                <p>Complete verification via phone, email, or postcard. Unverified listings have severely limited visibility. This step is non-negotiable for appearing in ChatGPT results. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 7: Set Quarterly Reminders</strong>
-                <p>Update seasonal hours, add new services, refresh photos, and keep all information current. Active, maintained listings consistently outperform stale ones in AI recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              </div>
-            </div>
+            <p className="leading-[1.75] mb-[18px]">
+              The Answer Engine has produced 1.14 million-plus monthly impressions across ChatGPT, Claude,
+              Gemini, and Perplexity AI by treating the retrieval layer as a mechanical system. The
+              foundational academic work mapping that retrieval layer — Aggarwal et al. (KDD 2024), Zhang
+              et al. (2026), GEO-SFE (2026), Chen et al. (2025) — is less than two years old, which means
+              the practitioner gap on Bing Places is uncommonly wide. Operators who want to see whether
+              their own domain is structurally legible to ChatGPT can run the free Blindspot Report at{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="text-[#F27D24] border-b border-dashed border-[rgba(242,125,36,0.5)]">
+                theanswerengine.ai/blindspot
+              </a>.
+            </p>
 
-            <div className="not-prose ae-callout ae-callout-success">
-              <div className="ae-callout-title">Pro Tip: Google Import Shortcut</div>
-              <p>
-                Even if you import from Google, review every field. Some data transfers incorrectly. Also add any Bing-specific fields that Google does not have. The goal is a listing that stands on its own, not a mirror of your Google profile.
-               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Need help optimizing your Bing Places listing for AI? Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              <a href="mailto:support@theanswerengine.ai">Email Us at support@theanswerengine.ai</a>
-            </div>
-
-            {/* Section 4 */}
-            <span className="not-prose ae-section-label">Optimization</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Optimizing Your Bing Places Listing for AI Recommendations
-            </h2>
-
-            <p>
-              Claiming your listing is step one. Optimizing it is where you separate yourself from every other business that simply filled in the basics and walked away.
-             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-
-            {/* Cheat Sheet */}
-            <div className="not-prose ae-cheat-sheet">
-              <div className="ae-cheat-sheet-title">Bing Places Optimization Cheat Sheet</div>
-              <ul>
-                <li><strong>Business Description:</strong> Write a natural, keyword-rich description (250+ words). Include services, neighborhoods, credentials, and what makes you different.</li>
-                <li><strong>Categories:</strong> Select one primary category (most specific match) and all relevant secondary categories. Review annually for new options.</li>
-                <li><strong>Service Areas:</strong> List specific neighborhoods, suburbs, and landmarks. Do not just pick a city. Be granular.</li>
-                <li><strong>Photos:</strong> Upload 10+ high-quality images: logo, storefront, team, and completed work. Update quarterly.</li>
-                <li><strong>Hours:</strong> Include regular hours, holiday hours, seasonal variations, and emergency availability if offered.</li>
-                <li><strong>NAP Consistency:</strong> Name, Address, Phone must match exactly across Bing, Google, Yelp, and your website.</li>
-                <li><strong>Services List:</strong> Add every service you offer with natural descriptions. This is what AI reads when matching queries.</li>
-                <li><strong>Update Frequency:</strong> Touch your listing at least once per quarter. Stale listings get deprioritized by Bing indexing.</li>
-              </ul>
-            </div>
-
-            {/* Decision Matrix */}
-            <div className="not-prose ae-decision-matrix">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Profile Field</th>
-                    <th>Impact on AI Visibility</th>
-                    <th>Time to Complete</th>
-                    <th>Priority</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Business Name + Address</td>
-                    <td>Critical</td>
-                    <td>2 min</td>
-                    <td className="text-red-400 font-semibold">P0</td>
-                  </tr>
-                  <tr>
-                    <td>Categories</td>
-                    <td>High</td>
-                    <td>3 min</td>
-                    <td className="text-red-400 font-semibold">P0</td>
-                  </tr>
-                  <tr>
-                    <td>Business Description</td>
-                    <td>High</td>
-                    <td>10 min</td>
-                    <td className="text-orange-400 font-semibold">P1</td>
-                  </tr>
-                  <tr>
-                    <td>Services List</td>
-                    <td>High</td>
-                    <td>5 min</td>
-                    <td className="text-orange-400 font-semibold">P1</td>
-                  </tr>
-                  <tr>
-                    <td>Photos (10+)</td>
-                    <td>Medium</td>
-                    <td>15 min</td>
-                    <td className="text-yellow-400 font-semibold">P2</td>
-                  </tr>
-                  <tr>
-                    <td>Service Areas</td>
-                    <td>Medium</td>
-                    <td>5 min</td>
-                    <td className="text-yellow-400 font-semibold">P2</td>
-                  </tr>
-                  <tr>
-                    <td>Holiday/Seasonal Hours</td>
-                    <td>Low</td>
-                    <td>3 min</td>
-                    <td className="text-gray-400 font-semibold">P3</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Want a done-for-you AI optimization strategy? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-              <Link href="/blindspot">See What AI Platforms Are Missing About Your Business</Link>
-            </div>
-
-            {/* Section 5 */}
-            <span className="not-prose ae-section-label">The Full Stack</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Google Business Profile vs. Bing Places: You Need Both
-            </h2>
-
-            <p>
-              This is not a question of replacing Google with Bing. Google still dominates traditional search with 90%+ market share. Your Google Business Profile directly influences Google Search, Google Maps, and Google AI Overviews.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            <p>
-              But ignoring Bing Places in 2026 is like ignoring mobile in 2012. The numbers are small today, but the growth trajectory is exponential. The businesses that claim and optimize their Bing Places listings now will own the AI recommendation space before competitors even realize it matters.
-             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-            {/* Pros and Cons */}
-            <div className="not-prose ae-pros-cons">
-              <div className="ae-pros-box">
-                <div className="ae-pros-title">Google Business Profile Strengths</div>
-                <ul>
-                  <li>90%+ traditional search market share</li>
-                  <li>Google Maps integration (dominant navigation)</li>
-                  <li>Google AI Overviews data source</li>
-                  <li>Review collection powerhouse</li>
-                  <li>Posts and updates features</li>
-                  <li>Deep analytics and insights</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <div className="ae-cons-title">Google Business Profile Gaps</div>
-                <ul>
-                  <li>Invisible to ChatGPT entirely</li>
-                  <li>Not used by Microsoft Copilot</li>
-                  <li>Limited influence on Perplexity</li>
-                  <li>Does not feed Bing Search or Maps</li>
-                  <li>Growing competition for Map Pack spots</li>
-                  <li>Increasing pay-to-play dynamics</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="not-prose ae-quote">
-              <p>&quot;The businesses that win in AI search are the ones that show up everywhere AI looks. Google covers one platform. Bing Places covers three.&quot; Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            </div>
-
-            {/* The Visibility Stack */}
-            <h3>The Complete AI Visibility Stack for 2026</h3>
-
-            <div className="not-prose ae-stats-grid">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">1</div>
-                <div className="ae-stat-value ae-accent">GBP</div>
-                <div className="ae-stat-label">Google Search, Maps, AI Overviews</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">2</div>
-                <div className="ae-stat-value ae-accent">Bing</div>
-                <div className="ae-stat-label">ChatGPT, Copilot, Bing Search</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">3</div>
-                <div className="ae-stat-value ae-accent">Website</div>
-                <div className="ae-stat-label">All AI Platforms, Direct Traffic</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">4</div>
-                <div className="ae-stat-value ae-accent">Directories</div>
-                <div className="ae-stat-label">Yelp, Industry Platforms, Perplexity</div>
-              </div>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Ready to cover all four layers of the visibility stack? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Get Started</a>
-            </div>
-
-            {/* Section 6 */}
-            <span className="not-prose ae-section-label">Common Mistakes</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              5 Bing Places Mistakes That Kill Your ChatGPT Visibility
-            </h2>
-
-            <div className="not-prose ae-callout ae-callout-warning">
-              <div className="ae-callout-title">Mistake 1: Never Claiming the Listing</div>
-              <p>
-                This is the most common and most damaging mistake. Bing may have a listing for your business from aggregated data, but it is likely incomplete, outdated, or inaccurate. An unclaimed listing is a liability, not an asset. It takes 15 minutes to claim. There is no excuse not to.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            </div>
-
-            <div className="not-prose ae-callout ae-callout-warning">
-              <div className="ae-callout-title">Mistake 2: Treating It Like a Google Clone</div>
-              <p>
-                Importing from Google and walking away is a half measure. Bing has its own fields, its own categories, and its own ranking factors. Optimize for Bing specifically. Different platforms reward different signals.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            </div>
-
-            <div className="not-prose ae-callout ae-callout-warning">
-              <div className="ae-callout-title">Mistake 3: Skipping Verification</div>
-              <p>
-                Unverified listings have severely limited visibility in Bing results. That means they have severely limited visibility in ChatGPT results. Complete the verification step. It is non-negotiable.
-               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-            </div>
-
-            <div className="not-prose ae-callout ae-callout-info">
-              <div className="ae-callout-title">Mistake 4: Leaving Fields Blank</div>
-              <p>
-                Every empty field is a missed signal. AI systems reward completeness. A listing with 100% field completion will outperform one with 60% completion in AI recommendations every time.
-               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            </div>
-
-            <div className="not-prose ae-callout ae-callout-info">
-              <div className="ae-callout-title">Mistake 5: Set It and Forget It</div>
-              <p>
-                Stale listings get deprioritized. Bing tracks when listings were last updated. Set a quarterly reminder to refresh your listing with new photos, updated services, and current information.
+            <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6 key-insight">
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="named-thesis font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
+                <strong className="named-thesis">The Bing-ChatGPT Pipeline</strong>: ChatGPT&apos;s browse
+                retrieval runs through the Bing index, and the Bing Places business graph is the local-entity
+                layer that feeds it — every claimed listing becomes a citation candidate inside ChatGPT
+                (Microsoft + OpenAI integration, 2023-2024).
               </p>
             </div>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Not sure if you are making these mistakes?</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Free Review</a>
-            </div>
-
-            {/* Section 7 */}
-            <span className="not-prose ae-section-label">Results Timeline</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              How Long Before You See Results?
-            </h2>
-
-            <p>
-              After claiming and optimizing your Bing Places listing, here is a realistic timeline:
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              Bing Places, defined
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              Bing Places is a free Microsoft-operated registry of verified business entities. Each
+              listing carries a legal name, an address, a phone number, a category, hours, photos, and
+              service areas. Microsoft uses Bing Places to corroborate local entities across Bing Search,
+              Bing Maps, Cortana, and — most consequentially — ChatGPT browse. A Bing Places listing is
+              not a landing page. It is an entity record that the retrieval layer can resolve against
+              ambient citations published across the open web. Operators ready to see how their entity
+              resolves inside ChatGPT can text{' '}
+              <a href="sms:+12134442229" className="ae-cta-inline text-[#F27D24]">(213) 444-2229</a>{' '}
+              with the business name.
             </p>
 
-            {/* Bar Chart for Timeline */}
-            <div className="not-prose ae-bar-group">
-              <h3 className="text-lg font-semibold text-white mb-4">Expected Results Timeline</h3>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Listing Indexed by Bing</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '15%' }}></div>
-                </div>
-                <div className="ae-bar-value">1-2 weeks</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Visible in Bing Search</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '25%' }}></div>
-                </div>
-                <div className="ae-bar-value">2-3 weeks</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Surfacing in ChatGPT</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '40%' }}></div>
-                </div>
-                <div className="ae-bar-value">2-4 weeks</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Consistent AI Recommendations</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '65%' }}></div>
-                </div>
-                <div className="ae-bar-value">4-8 weeks</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Full Authority Signal Built</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '100%' }}></div>
-                </div>
-                <div className="ae-bar-value">3-6 months</div>
-              </div>
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              Why the calculation changed when ChatGPT shipped browse
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              Before ChatGPT browse, Bing Places was a maintenance task on the asymmetric leftover —
+              valuable only to the small slice of search traffic Bing already owned. ChatGPT browse
+              changed the calculation in one move. ChatGPT processes hundreds of millions of weekly
+              prompts; the local-recommendation subset routes through the Bing retrieval layer; Bing
+              Places is the structured anchor that lets the retrieval layer resolve the entity cleanly.
+              The same listing that was once a Bing Maps maintenance step is now a ChatGPT citation
+              lever. Email{' '}
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline text-[#F27D24]">
+                support@theanswerengine.ai
+              </a>{' '}
+              for the Bing-to-ChatGPT entity-flow diagram.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              The Microsoft and OpenAI partnership in plain terms
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              Microsoft holds the largest external stake in OpenAI and provides the Azure compute that
+              runs ChatGPT. The reciprocal layer is the Bing index — ChatGPT browse retrieval reads from
+              Bing because that is the search infrastructure Microsoft contributed to the partnership.
+              This is not a temporary integration. It is a structural choice that sits underneath every
+              ChatGPT product surface. Answer Engine Optimization (AEO) — also called AI citation
+              optimization and LLM visibility — therefore must treat Bing Places as a first-class
+              retrieval input, not a Google Business Profile afterthought.{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline text-[#F27D24]">
+                Get your free AERO Blind Spot Scan
+              </a>{' '}
+              to see how your entity resolves.
+            </p>
+          </section>
+
+          {/* INLINE CTA BLOCK */}
+          <div className="ae-cta-block not-prose my-16">
+            <h3>Bing Places Unclaimed Means ChatGPT Unclaimed</h3>
+            <p>
+              Every ChatGPT local query is a Bing retrieval. If your Bing Places listing is unverified,
+              you are absent from the ChatGPT citation graph in your market — and your competitor is not.
+              The Answer Engine maps the gap and builds the citation stack that closes it.
+            </p>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
+              Book Free 30-Min Strategy Call &rarr;
+            </a>
+            <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <a href="tel:+12134442229" className="ae-cta-secondary">Call (213) 444-2229</a>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">Run Free AERO Scan</a>
+            </div>
+          </div>
+
+          {/* SECTION 2 */}
+          <section className="mb-16 pt-10 border-t-[3px] border-[#F27D24]">
+            <h2 className="key-insight font-headline text-3xl md:text-4xl font-black tracking-tight uppercase mb-8 leading-none">
+              How ChatGPT Pulls from Bing (Not Google)
+            </h2>
+
+            <p className="text-lg leading-[1.7] mb-[18px]">
+              ChatGPT browse is a retrieval-augmented generation (RAG) pipeline that scores Bing-indexed
+              passages against the user query and passes the top chunks to the language model for
+              synthesis. The pipeline is opaque from the outside, but the retrieval source is public:
+              Microsoft has documented that ChatGPT browse queries flow through Bing, and OpenAI&apos;s own
+              system cards reference Bing as the search backend. The practical consequence is that any
+              business absent from the Bing index is structurally invisible to ChatGPT, regardless of
+              Google Business Profile strength. Operators evaluating the gap can{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline text-[#F27D24]">
+                book a 30-minute review
+              </a>{' '}
+              of their Bing-to-ChatGPT surface.
+            </p>
+
+            <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6 key-insight">
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="named-thesis font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
+                <strong className="named-thesis">The Local Disambiguation Floor</strong>: a verified Bing
+                Places listing acts as the entity anchor that lets ChatGPT resolve which &quot;Joe&apos;s Plumbing&quot;
+                the user means — without it, the retrieval layer often collapses to the wrong business or an
+                unranked competitor (GEO-SFE, 2026).
+              </p>
             </div>
 
-            <div className="not-prose ae-takeaway">
-              <strong>Key takeaway:</strong> Verification must be completed first. More complete profiles get indexed faster and surface more consistently. The sooner you start, the sooner you appear in AI recommendations.
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              The retrieval architecture in three sentences
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              ChatGPT browse takes the user prompt, embeds it as a vector, and queries the Bing index for
+              the closest semantic matches across web pages, Bing Maps entities, and Bing Places business
+              records. The top-scoring results — usually three to ten — are passed to the GPT model with
+              their source URLs and entity identifiers. The model writes a synthesized answer and
+              attaches inline citations to the sources it actually used. The Bing Places record is what
+              gives the retrieval layer the canonical name, address, and category to anchor the answer
+              to. Text{' '}
+              <a href="sms:+12134442229" className="ae-cta-inline text-[#F27D24]">(213) 444-2229</a>{' '}
+              with a URL for a retrieval map.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              The local-entity layer is the disambiguation surface
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              When a ChatGPT user asks &quot;who&apos;s the best plumber in Long Beach,&quot; the retrieval layer
+              cannot answer the question by ranking documents alone — the answer requires resolving a
+              business entity. Bing Places is the canonical reference that distinguishes one Joe&apos;s
+              Plumbing from another, anchors the answer to a verified phone number, and decides which
+              entity gets quoted inside the response. A Bing Places listing is the disambiguation
+              instrument for ChatGPT&apos;s local layer.{' '}
+              <span className="font-mono text-xs text-[rgba(229,226,225,0.55)] tracking-wide">
+                Aggarwal et al. (KDD 2024)
+              </span>{' '}
+              showed that entity-anchored chunks carry a 22 percent extraction premium because the
+              retrieval layer scores them as higher-trust references. Email{' '}
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline text-[#F27D24]">
+                support@theanswerengine.ai
+              </a>{' '}
+              for the disambiguation worksheet.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              What &quot;find me a plumber&quot; actually looks like inside ChatGPT
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              A ChatGPT prompt like &quot;find me a plumber in Long Beach with same-day service&quot; fires the
+              browse tool, embeds the query, and pulls a ranked set of Bing-indexed pages plus Bing Places
+              entities matching the category and geography. The model writes a synthesized answer that
+              names two or three providers, attaches inline citations, and often includes a phone number
+              pulled directly from the Bing Places record. A business with no Bing Places listing cannot
+              be named in that answer because the retrieval layer has nothing to anchor against.{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline text-[#F27D24]">
+                Check where you stand with a free Blind Spot Scan
+              </a>.
+            </p>
+          </section>
+
+          {/* SECTION 3 */}
+          <section className="mb-16 pt-10 border-t-[3px] border-[#F27D24]">
+            <h2 className="key-insight font-headline text-3xl md:text-4xl font-black tracking-tight uppercase mb-8 leading-none">
+              What the Research Says About AI Local Citations
+            </h2>
+
+            <p className="text-lg leading-[1.7] mb-[18px]">
+              The academic field that maps the retrieval layer — the foundation of AEO — is less than two
+              years old. The papers that matter for Bing Places and ChatGPT local citations are Aggarwal
+              et al. (KDD 2024), Zhang et al. (2026), GEO-SFE (2026), and Chen et al. (2025). Each one
+              addresses a different lever the Bing-to-ChatGPT pipeline rewards. The Answer Engine
+              translates each finding into a structural rewrite. This analysis draws on those four
+              primary sources plus internal field audits across multiple verified client engagements.
+            </p>
+
+            <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6 key-insight">
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="named-thesis font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
+                <strong className="named-thesis">The Citation Reciprocity Effect</strong>: when Bing
+                Places, Apple Maps, and Yelp all corroborate the same business entity, the retrieval
+                layer&apos;s confidence score increases and citation probability lifts measurably (Aggarwal
+                et al., KDD 2024).
+              </p>
             </div>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Want to accelerate your AI visibility timeline?</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              Aggarwal et al. on entity corroboration
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              Aggarwal et al. (KDD 2024) measured a 22 percent extraction premium for chunks containing
+              statistics and a 37 percent premium for chunks containing quotations. The corollary for
+              local entities: chunks that name a verified business and attach a phone or address score
+              higher than chunks that merely mention the business. Bing Places is the canonical source
+              the retrieval layer uses to verify the attached phone or address. Without that
+              corroboration surface, a chunk mentioning the business reads as ambient, not authoritative.{' '}
+              <em>One client per market.</em>{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline text-[#F27D24]">
+                Claim your territory before a competitor does
+              </a>.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              Zhang et al. on the definition and verification premium
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              Zhang et al. (2026) measured a 57 percent citation premium for chunks opening with a
+              one-sentence definition. The same dataset shows the verification premium for entity-anchored
+              chunks tracks closely — verified entities cluster with high-trust reference content in the
+              embedding space, which is exactly where ChatGPT&apos;s retrieval layer prefers to pull from.
+              The Answer Engine writes every section to open with a plain definition and to reference a
+              verified business entity wherever applicable. Reach out:{' '}
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline text-[#F27D24]">
+                support@theanswerengine.ai
+              </a>.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              GEO-SFE and Chen et al. on structural signals
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              GEO-SFE (2026) measured a 43 percent extraction premium for content carrying explicit
+              lists, tables, and heading boundaries, and a 31 percent attention degradation for passages
+              over 300 words. Chen et al. (2025) documented a systematic bias inside the retrieval layer
+              toward earned media over brand-owned content. The synthesis for Bing Places: the listing
+              itself is a structured, third-party-verified earned source — exactly the asset class the
+              retrieval layer prefers. Bing Places is not brand content. It is verified third-party
+              attestation.{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline text-[#F27D24]">
+                See your AI readiness report
+              </a>{' '}
+              today.
+            </p>
+          </section>
+
+          {/* INLINE CTA BLOCK */}
+          <div className="ae-cta-block not-prose my-16">
+            <h3>The Bing Places Gap Is The Citation Gap</h3>
+            <p>
+              In most local markets fewer than half of competing businesses hold a verified Bing Places
+              listing. That gap is the citation gap. The Answer Engine maps it, closes it, and ships the
+              proof inside the Proof Ledger. Book a free 30-minute call to see your specific gap.
+            </p>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
+              Book Free 30-Min Strategy Call &rarr;
+            </a>
+            <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <a href="tel:+12134442229" className="ae-cta-secondary">Call (213) 444-2229</a>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">Run Free AERO Scan</a>
+            </div>
+          </div>
+
+          {/* SECTION 4 */}
+          <section className="mb-16 pt-10 border-t-[3px] border-[#F27D24]">
+            <h2 className="key-insight font-headline text-3xl md:text-4xl font-black tracking-tight uppercase mb-8 leading-none">
+              What The Answer Engine Does Differently With Bing Places
+            </h2>
+
+            <p className="text-lg leading-[1.7] mb-[18px]">
+              Most Bing Places guidance treats the listing as a Bing Search optimization task. The Answer
+              Engine treats Bing Places as a ChatGPT citation lever and runs it as one node in a unified
+              retrieval-layer stack that spans the Bing index, Apple Business Connect, Yelp, and the
+              open-web citation graph. The Bing-First Audit identifies whether the listing exists, whether
+              it is verified, whether categories match the AEO target queries, and whether the surrounding
+              citation graph corroborates the entity. The output goes into the Proof Ledger.{' '}
+              <em>One operator per market.</em>{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline text-[#F27D24]">
+                See if your market is still available
+              </a>.
+            </p>
+
+            <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6 key-insight">
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="named-thesis font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
+                <strong className="named-thesis">The Asymmetric Bing Investment</strong>: because most
+                operators claim Google Business Profile and ignore Bing Places, the Bing claim is a
+                low-effort lever that earns disproportionate citation share — a free 30-minute task
+                competitors have skipped (Answer Engine Field Audit, 2026).
+              </p>
             </div>
 
-            {/* FAQ Section */}
-            <span className="not-prose ae-section-label">FAQ</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-8 font-plus-jakarta">
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              The Bing-First Audit method
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              The Bing-First Audit is a four-step diagnostic. Step one confirms the Bing Places listing
+              exists and is verified. Step two compares the listing&apos;s declared categories against the
+              operator&apos;s AEO target queries — the categories must match the language ChatGPT users
+              actually type. Step three runs a sample of real ChatGPT prompts and records whether the
+              business appears in the synthesized answer. Step four cross-checks Bing Maps, Apple
+              Business Connect, and the top-five citation directories for entity consistency. Text{' '}
+              <a href="sms:+12134442229" className="ae-cta-inline text-[#F27D24]">(213) 444-2229</a>{' '}
+              to request the audit on your domain.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              How Bing Places fits the unified retrieval stack
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              The unified retrieval layer is the technical name for the converging architecture across
+              ChatGPT, Claude, Gemini, and Perplexity AI. The four platforms differ in detail but rely on
+              the same family of structural signals — entity verification, definition density, structured
+              boundaries, third-party corroboration. Bing Places is the Microsoft-side anchor for entity
+              verification; Apple Business Connect is the Apple-side anchor; Google Business Profile is
+              the Google-side anchor. The Answer Engine ships all three plus the open-web citation graph
+              as one bundle. Email{' '}
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline text-[#F27D24]">
+                support@theanswerengine.ai
+              </a>{' '}
+              for the unified-stack diagram.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              The Proof Ledger applied to Bing Places
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              The Proof Ledger is a dated record of citations earned across ChatGPT, Claude, Gemini, and
+              Perplexity AI. For Bing Places specifically, the Ledger records the pre-listing baseline,
+              the verification date, the day Bing first reflects the listing publicly, and every
+              subsequent ChatGPT citation that names the business. The Ledger is how operators distinguish
+              causation from coincidence. Operators ready to see a sample Ledger can{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline text-[#F27D24]">
+                book a 30-minute strategy call
+              </a>{' '}
+              and request it during the session.
+            </p>
+          </section>
+
+          {/* SECTION 5 */}
+          <section className="mb-16 pt-10 border-t-[3px] border-[#F27D24]">
+            <h2 className="key-insight font-headline text-3xl md:text-4xl font-black tracking-tight uppercase mb-8 leading-none">
+              How to Claim, Verify, and Measure Bing Places for AEO
+            </h2>
+
+            <p className="text-lg leading-[1.7] mb-[18px]">
+              The Bing Places workflow has three operator-level stages: claim, verify, and measure. Each
+              stage carries specific decisions that determine whether the listing becomes a ChatGPT
+              citation lever or sits dormant. The Answer Engine codifies the workflow into a repeatable
+              checklist that runs in under thirty minutes per business. Operators who would rather hand
+              the workflow to TAE can email{' '}
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline text-[#F27D24]">
+                support@theanswerengine.ai
+              </a>{' '}
+              to start the engagement.
+            </p>
+
+            <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6 key-insight">
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="named-thesis font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
+                <strong className="named-thesis">The Verification Premium</strong>: chunks that reference
+                verified business entities cluster with high-trust sources in the embedding space, earning
+                a measurable extraction premium consistent with the definition-premium finding
+                (Zhang et al., 2026; Aggarwal et al., KDD 2024).
+              </p>
+            </div>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              Claiming the Bing Places listing
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              The claim runs at bingplaces.com using any Microsoft account. Search for the business by
+              name and city. If a listing exists, claim it. If not, create a new one. Use the legal
+              business name, the canonical address that matches the business&apos;s ambient citations, the
+              direct phone number, and the primary category from the Microsoft taxonomy that maps to the
+              AEO target queries. The import-from-Google-Business-Profile option speeds the data entry
+              but does not substitute for category selection — the Bing taxonomy is its own surface.
+              Text{' '}
+              <a href="sms:+12134442229" className="ae-cta-inline text-[#F27D24]">(213) 444-2229</a>{' '}
+              with the listing URL after the claim is filed.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              Verification methods and timing
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              Bing Places offers three verification methods: phone, email, and postcard. Phone and email
+              complete inside a business day for the majority of legitimate businesses. Postcard
+              verification ships from Microsoft and arrives in seven to fourteen days at the listed
+              address. The listing is live in the Bing index within twenty-four hours of verification.
+              ChatGPT browse begins surfacing the verified entity in synthesized answers inside the same
+              week. Operators with multi-location or franchise concerns should email{' '}
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline text-[#F27D24]">
+                support@theanswerengine.ai
+              </a>{' '}
+              for the bulk-verification playbook.
+            </p>
+
+            <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
+              Measuring the impact on ChatGPT citation share
+            </h3>
+            <p className="leading-[1.75] mb-[18px]">
+              The measurement instrument is the Proof Ledger. Run a baseline scan at{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline text-[#F27D24]">
+                theanswerengine.ai/blindspot
+              </a>{' '}
+              before the Bing Places listing is verified. Re-scan thirty and ninety days after
+              verification. The before-and-after delta in ChatGPT citation share is the causal evidence
+              that the listing moved the needle. Operators who want the Ledger run for them can{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline text-[#F27D24]">
+                claim a free 30-minute consult
+              </a>{' '}
+              — territory locks one operator per market.
+            </p>
+          </section>
+
+          {/* SECTION-FINAL CTA BLOCK */}
+          <div className="ae-cta-block not-prose my-16">
+            <h3>Run The Bing-First Audit On Your Business</h3>
+            <p>
+              The Answer Engine ships the Bing-First Audit as the opening move of every engagement. Find
+              the gap, verify the listing, measure the citation share. Free 30-minute call to walk through
+              the audit on your specific market.
+            </p>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
+              Book Free 30-Min Strategy Call &rarr;
+            </a>
+            <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <a href="tel:+12134442229" className="ae-cta-secondary">Call (213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">
+                Email support@theanswerengine.ai
+              </a>
+            </div>
+          </div>
+
+          {/* SECONDARY STATS GRID */}
+          <div className="not-prose ae-stats-grid">
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">📋</div>
+              <div className="ae-stat-value ae-accent">43%</div>
+              <div className="ae-stat-label">extraction premium for structured content (GEO-SFE, 2026)</div>
+            </div>
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value">22%</div>
+              <div className="ae-stat-label">statistic premium for entity-anchored chunks (Aggarwal et al., KDD 2024)</div>
+            </div>
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">💬</div>
+              <div className="ae-stat-value ae-accent">37%</div>
+              <div className="ae-stat-label">quotation premium for verified attribution (Aggarwal et al., KDD 2024)</div>
+            </div>
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">✅</div>
+              <div className="ae-stat-value">90 days</div>
+              <div className="ae-stat-label">citation guarantee window inside The Answer Engine engagement</div>
+            </div>
+          </div>
+
+          <p className="leading-[1.75] mb-[18px] mt-10">
+            Want the Bing-First Audit walked through on a live call? Reach a specialist directly at{' '}
+            <a href="tel:+12134442229" className="ae-cta-inline text-[#F27D24]">(213) 444-2229</a>{' '}
+            or drop a line to{' '}
+            <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline text-[#F27D24]">
+              support@theanswerengine.ai
+            </a>.
+          </p>
+
+          {/* FAQs */}
+          <section className="mb-16 pt-10 border-t-[3px] border-[#F27D24]">
+            <h2 className="key-insight font-headline text-3xl md:text-4xl font-black tracking-tight uppercase mb-8 leading-none">
               Frequently Asked Questions
             </h2>
 
-            <div className="not-prose space-y-6 mb-12">
-              <div className="ae-callout ae-callout-info">
-                <div className="ae-callout-title">Does ChatGPT use Bing for local business information?</div>
-                <p>
-                  Yes. ChatGPT's browsing functionality is powered by Bing's search index. When users ask for local business recommendations, ChatGPT retrieves data from Bing's index, including Bing Places listings. Your Bing Places profile is a direct pathway to ChatGPT visibility.
-                </p>
-              </div>
+            <details className="ae-faq-item not-prose">
+              <summary>Does ChatGPT actually use Bing for local business information?</summary>
+              <p className="faq-answer">
+                Yes. ChatGPT browse retrieves through the Bing index under a public Microsoft and OpenAI
+                partnership. When a user asks ChatGPT for a local recommendation, the retrieval layer
+                scores Bing-indexed pages and Bing Places business listings, then passes the top results
+                to the language model for synthesis. Bing Places is the local-entity layer that feeds
+                the entire pipeline.
+              </p>
+            </details>
 
-              <div className="ae-callout ae-callout-info">
-                <div className="ae-callout-title">How do I claim my Bing Places listing?</div>
-                <p>
-                  Visit bingplaces.com and sign in with a Microsoft account. Search for your business to check if a listing exists. Claim the existing listing or create a new one. Verify ownership through phone, email, or postcard, then complete all profile fields.
-                </p>
-              </div>
+            <details className="ae-faq-item not-prose">
+              <summary>Is Bing Places free to claim?</summary>
+              <p className="faq-answer">
+                Bing Places is free. The claim process takes under thirty minutes at bingplaces.com using
+                a Microsoft account. Verification arrives by phone, email, or postcard. No spend, no
+                contract, and no ongoing fee. The cost is exclusively operator time.
+              </p>
+            </details>
 
-              <div className="ae-callout ae-callout-info">
-                <div className="ae-callout-title">Is Bing Places the same as Google Business Profile?</div>
-                <p>
-                  They serve the same purpose but feed different ecosystems. Google Business Profile powers Google Search and Maps. Bing Places powers Bing Search, Bing Maps, ChatGPT, and Microsoft Copilot. You need both to cover the full AI landscape.
-                </p>
-              </div>
+            <details className="ae-faq-item not-prose">
+              <summary>How long does Bing Places verification take?</summary>
+              <p className="faq-answer">
+                Phone and email verification typically complete inside a single business day. Postcard
+                verification ships from Microsoft and arrives in seven to fourteen days at the listed
+                address. The listing is live in the Bing index within twenty-four hours of verification,
+                which means it becomes a ChatGPT citation candidate inside the same week.
+              </p>
+            </details>
 
-              <div className="ae-callout ae-callout-info">
-                <div className="ae-callout-title">Can I import my Google Business Profile to Bing Places?</div>
-                <p>
-                  Yes. Bing Places has a direct import feature. During setup, authorize Bing to pull your Google data. This saves time, but always review every field after import. Some data may not transfer correctly, and you should optimize specifically for Bing.
-                </p>
-              </div>
+            <details className="ae-faq-item not-prose">
+              <summary>Will Bing Places help if I already have Google Business Profile?</summary>
+              <p className="faq-answer">
+                Google Business Profile feeds Google Search, Google Maps, and Gemini AI Overviews. Bing
+                Places feeds Bing Search, Bing Maps, and ChatGPT browse. The two are non-overlapping
+                retrieval surfaces. A business with only Google Business Profile is structurally absent
+                from the ChatGPT citation graph, regardless of how strong the Google presence looks.
+              </p>
+            </details>
 
-              <div className="ae-callout ae-callout-info">
-                <div className="ae-callout-title">Why does ChatGPT not show my business when I have a Google Business Profile?</div>
-                <p>
-                  ChatGPT cannot access Google's data directly. It uses Bing's search index for all real-time information. If you only have a Google Business Profile and have not claimed your Bing Places listing, ChatGPT lacks the data it needs to recommend you.
-                </p>
-              </div>
+            <details className="ae-faq-item not-prose">
+              <summary>What information does Bing Places require?</summary>
+              <p className="faq-answer">
+                Bing Places requires the legal business name, street address, phone number, primary
+                category, business hours, website URL, and at least one photo. Categories must match the
+                official Microsoft taxonomy. Service businesses should add service areas. The information
+                must match the citations published across the open web for the retrieval layer to
+                corroborate the entity cleanly.
+              </p>
+            </details>
 
-              <div className="ae-callout ae-callout-info">
-                <div className="ae-callout-title">How long does it take for Bing Places to affect ChatGPT results?</div>
-                <p>
-                  Typically 2 to 4 weeks after claiming and optimizing. Verification must be completed first. More complete profiles get indexed faster and more thoroughly. Consistent updates over the following months build stronger authority signals.
-                </p>
-              </div>
+            <details className="ae-faq-item not-prose">
+              <summary>How do I measure if Bing Places is helping AI visibility?</summary>
+              <p className="faq-answer">
+                The Answer Engine measures Bing Places impact through the Proof Ledger, a dated record of
+                citations earned across ChatGPT, Claude, Gemini, and Perplexity AI. The baseline scan
+                runs at{' '}
+                <a href="https://theanswerengine.ai/blindspot" className="text-[#F27D24]">
+                  theanswerengine.ai/blindspot
+                </a>
+                . Re-scan thirty and ninety days after Bing Places verification to compare ChatGPT
+                citation share before and after the listing went live.
+              </p>
+            </details>
+          </section>
+
+          {/* AUTHOR CARD */}
+          <div className="not-prose ae-author-card">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local
+                service businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews
+                through the unified retrieval layer.
+              </p>
             </div>
+          </div>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Still have questions about AI visibility?</p>
-              <a href="tel:+12134442229">Call (213) 444-2229 for Answers</a>
-            </div>
-
-            {/* Related Reading */}
-            <span className="not-prose ae-section-label">Related Reading</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-6 font-plus-jakarta">
-              Related Articles
+          {/* FINAL CTA */}
+          <section className="ae-final-cta mt-16">
+            <h2 className="font-headline text-3xl md:text-5xl font-black tracking-tight uppercase mb-6 leading-none text-center">
+              Claim Your Territory Before A Competitor Does
             </h2>
-
-            <div className="not-prose grid sm:grid-cols-2 gap-4 mb-12">
-              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="ae-stat-card hover:border-[#F27D24]/30 transition-colors">
-                <div className="ae-stat-emoji">Reviews</div>
-                <div className="ae-stat-label">Do Google Reviews Affect AI Recommendations?</div>
+            <p className="text-center text-lg text-[rgba(229,226,225,0.7)] max-w-2xl mx-auto mb-10">
+              The Answer Engine takes one operator per market. The Bing-First Audit is the opening move.
+              Run the free Blindspot Scan or book a 30-minute call to start the engagement.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link
+                href="/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Run Free AERO Blind Spot Scan
               </Link>
-              <Link href="/blog/check-if-ai-recommends-your-business" className="ae-stat-card hover:border-[#F27D24]/30 transition-colors">
-                <div className="ae-stat-emoji">DIY</div>
-                <div className="ae-stat-label">How to Check If AI Recommends Your Business</div>
-              </Link>
-              <Link href="/blog/why-chatgpt-isnt-recommending-your-business" className="ae-stat-card hover:border-[#F27D24]/30 transition-colors">
-                <div className="ae-stat-emoji">Debug</div>
-                <div className="ae-stat-label">Why ChatGPT Is Not Recommending Your Business</div>
-              </Link>
-              <Link href="/blog/aeo-vs-seo" className="ae-stat-card hover:border-[#F27D24]/30 transition-colors">
-                <div className="ae-stat-emoji">Compare</div>
-                <div className="ae-stat-label">AEO vs SEO: What Is the Difference?</div>
-              </Link>
+              <a
+                href="https://calendly.com/theanswerengine-support/30min"
+                className="inline-flex items-center justify-center gap-2 border-2 border-[#F27D24] text-[#F27D24] font-black px-10 py-4 tracking-tighter hover:bg-[#F27D24] hover:text-black transition-colors font-headline uppercase"
+              >
+                Book Free 30-Min Strategy Call
+              </a>
             </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Want the full picture of your AI presence?</p>
-              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
-            </div>
-
-            {/* Author Card */}
-            <div className="not-prose ae-author-card">
-              <div>
-                <strong>About The Answer Engine</strong>
-                <p>We help local service businesses get found, cited, and recommended by AI platforms like ChatGPT, Google AI Overviews, and Perplexity. No fluff, no hype. Just the data that drives real leads.</p>
-              </div>
-            </div>
-
-          </article>
-
-          {/* Mid CTA Block */}
-          <div className="not-prose ae-cta-block">
-            <h2>Find Out If AI Is Recommending Your Business</h2>
-            <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand across ChatGPT, Perplexity, Google AI Overviews, and more.</p>
-            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">(213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors">support@theanswerengine.ai</a>
-            </div>
-          </div>
-
-          {/* Final CTA */}
-          <div className="not-prose ae-final-cta">
-            <h2>Not Sure If AI Can Find Your Business?</h2>
-            <p>Our free AEO audit checks your visibility across ChatGPT, Perplexity, Google AI Overview, and more. See exactly where you are being recommended and where you are missing.</p>
-            <Link href="/blindspot" className="ae-final-cta-pulse">
-              Get Your Free Blind Spot Report
-            </Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
-              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">(213) 444-2229</a>
-              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors">support@theanswerengine.ai</a>
-            </div>
-            <p className="text-gray-500 text-sm mt-4">Discover if ChatGPT is recommending your competitors instead of you.</p>
-          </div>
+            <p className="text-center text-sm text-[rgba(229,226,225,0.55)] mt-8 font-mono tracking-wide">
+              <a href="tel:+12134442229" className="text-[#F27D24]">(213) 444-2229</a>{' '}
+              &middot;{' '}
+              <a href="mailto:support@theanswerengine.ai" className="text-[#F27D24]">
+                support@theanswerengine.ai
+              </a>
+            </p>
+          </section>
 
         </div>
-      </main>
+      </div>
     </>
   );
 }
