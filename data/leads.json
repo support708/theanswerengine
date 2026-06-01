@@ -9048,7 +9048,7 @@
     "huntOutreachReady": true
   },
   {
-    "id": "lead_1780322466899_n5y5g3",
+    "id": "lead_1780322497670_6hhhac",
     "businessName": "Lon Smith Roofing",
     "contactFirstName": "Shawn",
     "contactEmail": "info@lonsmith.com",
@@ -9056,25 +9056,25 @@
     "city": "Dallas",
     "serviceNiche": "Roofing Contractor",
     "competitorName": "New View Roofing",
-    "reviewCount": 500,
-    "rating": 4.8,
-    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: New View Roofing, Holden Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: One of America's Top 25 roofing companies since 1974, BBB A+ rated, 57 years in business, A1 Certified Inspectors",
+    "reviewCount": 14,
+    "rating": 4,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: New View Roofing, Arrington Roofing, Dwell Roofing & Exteriors. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: One of America's Top 25 roofing companies, BBB A+ rated since 1974 (50+ years in business), veteran community support through Roof for Vets program",
     "status": "queued",
     "research": null,
-    "reportSlug": "lon-smith-roofing-pb53",
+    "reportSlug": "lon-smith-roofing-eiwp",
     "emailDraftId": null,
     "fabricationFlags": [],
     "emDashClean": false,
     "actionLog": [
       {
-        "action": "Queued by Lead Hunter (P2, score: 32.5, outreach-ready: true)",
-        "timestamp": "2026-06-01T14:01:06.899Z"
+        "action": "Queued by Lead Hunter (P2, score: 27, outreach-ready: true)",
+        "timestamp": "2026-06-01T14:01:37.670Z"
       }
     ],
-    "createdAt": "2026-06-01T14:01:06.899Z",
-    "updatedAt": "2026-06-01T14:01:06.899Z",
-    "huntSource": "hunt_1780322412807_tooj",
-    "huntScore": 32.5,
+    "createdAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "huntSource": "hunt_1780322442611_9lwn",
+    "huntScore": 27,
     "huntPriority": "P2",
     "huntCitationResults": [
       {
@@ -9083,41 +9083,42 @@
         "cited": true,
         "competitorsCited": [
           "New View Roofing",
-          "Holden Roofing"
+          "Arrington Roofing",
+          "Dwell Roofing & Exteriors"
         ]
       }
     ],
-    "huntDifferentiator": "One of America's Top 25 roofing companies since 1974, BBB A+ rated, 57 years in business, A1 Certified Inspectors",
+    "huntDifferentiator": "One of America's Top 25 roofing companies, BBB A+ rated since 1974 (50+ years in business), veteran community support through Roof for Vets program",
     "huntOutreachReady": true
   },
   {
-    "id": "lead_1780322466899_l2pu53",
-    "businessName": "Bert Roofing",
-    "contactFirstName": "John",
-    "contactEmail": "mail@bertroofing.com",
-    "websiteUrl": "https://www.bertroofing.com/",
+    "id": "lead_1780322497670_qf90uy",
+    "businessName": "T Rock Roofing & Contracting",
+    "contactFirstName": "Doyle",
+    "contactEmail": "info@dallasroofer.com",
+    "websiteUrl": "https://www.dallasroofer.com/",
     "city": "Dallas",
     "serviceNiche": "Roofing Contractor",
-    "competitorName": "Lon Smith Roofing",
+    "competitorName": "New View Roofing",
     "reviewCount": null,
     "rating": null,
-    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Lon Smith Roofing, New View Roofing, Holden Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1988, 40,000+ completed jobs, A+ BBB rated, CertainTeed and GAF Preferred Contractor",
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 1952, 65+ years in business, known as the Rolex of Roofing, supports Operation Mutt 22 (veteran military cause)",
     "status": "queued",
     "research": null,
-    "reportSlug": "bert-roofing-vgvu",
+    "reportSlug": "t-rock-roofing-contracting-fd2m",
     "emailDraftId": null,
     "fabricationFlags": [],
     "emDashClean": false,
     "actionLog": [
       {
-        "action": "Queued by Lead Hunter (P2, score: 25.5, outreach-ready: true)",
-        "timestamp": "2026-06-01T14:01:06.899Z"
+        "action": "Queued by Lead Hunter (P2, score: 26, outreach-ready: true)",
+        "timestamp": "2026-06-01T14:01:37.670Z"
       }
     ],
-    "createdAt": "2026-06-01T14:01:06.899Z",
-    "updatedAt": "2026-06-01T14:01:06.899Z",
-    "huntSource": "hunt_1780322412807_tooj",
-    "huntScore": 25.5,
+    "createdAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "huntSource": "hunt_1780322442611_9lwn",
+    "huntScore": 26,
     "huntPriority": "P2",
     "huntCitationResults": [
       {
@@ -9125,43 +9126,88 @@
         "query": "best Roofing Contractor in Dallas",
         "cited": false,
         "competitorsCited": [
-          "Lon Smith Roofing",
           "New View Roofing",
-          "Holden Roofing"
+          "Lon Smith Roofing",
+          "Arrington Roofing",
+          "Dwell Roofing & Exteriors"
         ]
       }
     ],
-    "huntDifferentiator": "Family-owned since 1988, 40,000+ completed jobs, A+ BBB rated, CertainTeed and GAF Preferred Contractor",
+    "huntDifferentiator": "Established 1952, 65+ years in business, known as the Rolex of Roofing, supports Operation Mutt 22 (veteran military cause)",
     "huntOutreachReady": true
   },
   {
-    "id": "lead_1780322466899_bo66so",
-    "businessName": "Blue Hammer Roofing",
-    "contactFirstName": "Mariah",
-    "contactEmail": "info@bluehammerroofing.com",
-    "websiteUrl": "https://www.bluehammerroofing.com/",
+    "id": "lead_1780322497670_mtki03",
+    "businessName": "New View Roofing",
+    "contactFirstName": "Michael",
+    "contactEmail": "info@newviewroofing.com",
+    "websiteUrl": "https://newviewroofing.com/",
     "city": "Dallas",
     "serviceNiche": "Roofing Contractor",
     "competitorName": "Lon Smith Roofing",
-    "reviewCount": 1300,
-    "rating": 4.9,
-    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Lon Smith Roofing, New View Roofing, Holden Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Part of RAFTRx family, 1,300+ Google reviews with 4.9-star average, established 2022, rapid growth contractor",
+    "reviewCount": 600,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Lon Smith Roofing, Arrington Roofing, Dwell Roofing & Exteriors. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Veteran-owned, 25+ years in business, 600 Google reviews at 5-star average, GAF Master Elite Certified (top 3% of US roofing companies), 20,000+ roofing systems installed, lifetime workmanship warranty",
     "status": "queued",
     "research": null,
-    "reportSlug": "blue-hammer-roofing-dcqc",
+    "reportSlug": "new-view-roofing-d72w",
     "emailDraftId": null,
     "fabricationFlags": [],
     "emDashClean": false,
     "actionLog": [
       {
-        "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
-        "timestamp": "2026-06-01T14:01:06.899Z"
+        "action": "Queued by Lead Hunter (P2, score: 34, outreach-ready: true)",
+        "timestamp": "2026-06-01T14:01:37.670Z"
       }
     ],
-    "createdAt": "2026-06-01T14:01:06.899Z",
-    "updatedAt": "2026-06-01T14:01:06.899Z",
-    "huntSource": "hunt_1780322412807_tooj",
-    "huntScore": 38,
+    "createdAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "huntSource": "hunt_1780322442611_9lwn",
+    "huntScore": 34,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Lon Smith Roofing",
+          "Arrington Roofing",
+          "Dwell Roofing & Exteriors"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Veteran-owned, 25+ years in business, 600 Google reviews at 5-star average, GAF Master Elite Certified (top 3% of US roofing companies), 20,000+ roofing systems installed, lifetime workmanship warranty",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1780322497670_zp6ds5",
+    "businessName": "Bert Roofing",
+    "contactFirstName": "John",
+    "contactEmail": "mail@bertroofing.com",
+    "websiteUrl": "https://bertroofing.com/",
+    "city": "Dallas",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "New View Roofing",
+    "reviewCount": 25,
+    "rating": 4.5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1988 (36+ years), 40,000+ completed jobs, A+ BBB rated, Owens Corning and GAF Preferred Contractor",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "bert-roofing-dc6b",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 35, outreach-ready: true)",
+        "timestamp": "2026-06-01T14:01:37.670Z"
+      }
+    ],
+    "createdAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "huntSource": "hunt_1780322442611_9lwn",
+    "huntScore": 35,
     "huntPriority": "P1",
     "huntCitationResults": [
       {
@@ -9169,86 +9215,44 @@
         "query": "best Roofing Contractor in Dallas",
         "cited": false,
         "competitorsCited": [
-          "Lon Smith Roofing",
           "New View Roofing",
-          "Holden Roofing"
-        ]
-      }
-    ],
-    "huntDifferentiator": "Part of RAFTRx family, 1,300+ Google reviews with 4.9-star average, established 2022, rapid growth contractor",
-    "huntOutreachReady": true
-  },
-  {
-    "id": "lead_1780322466899_1jtdsk",
-    "businessName": "New View Roofing",
-    "contactFirstName": "Mike",
-    "contactEmail": "info@newviewroofing.com",
-    "websiteUrl": "https://www.newviewroofing.com/",
-    "city": "Dallas",
-    "serviceNiche": "Roofing Contractor",
-    "competitorName": "Lon Smith Roofing",
-    "reviewCount": 600,
-    "rating": 5,
-    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Lon Smith Roofing, Holden Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Veteran-owned, 25+ years in business, 600 Google reviews at 5.0 stars, GAF Master Elite Contractor (top 3% nationally), installed 20,000+ systems",
-    "status": "queued",
-    "research": null,
-    "reportSlug": "new-view-roofing-7eup",
-    "emailDraftId": null,
-    "fabricationFlags": [],
-    "emDashClean": false,
-    "actionLog": [
-      {
-        "action": "Queued by Lead Hunter (P2, score: 32.5, outreach-ready: true)",
-        "timestamp": "2026-06-01T14:01:06.899Z"
-      }
-    ],
-    "createdAt": "2026-06-01T14:01:06.899Z",
-    "updatedAt": "2026-06-01T14:01:06.899Z",
-    "huntSource": "hunt_1780322412807_tooj",
-    "huntScore": 32.5,
-    "huntPriority": "P2",
-    "huntCitationResults": [
-      {
-        "platform": "chatgpt",
-        "query": "best Roofing Contractor in Dallas",
-        "cited": true,
-        "competitorsCited": [
           "Lon Smith Roofing",
-          "Holden Roofing"
+          "Arrington Roofing",
+          "Dwell Roofing & Exteriors"
         ]
       }
     ],
-    "huntDifferentiator": "Veteran-owned, 25+ years in business, 600 Google reviews at 5.0 stars, GAF Master Elite Contractor (top 3% nationally), installed 20,000+ systems",
+    "huntDifferentiator": "Family-owned since 1988 (36+ years), 40,000+ completed jobs, A+ BBB rated, Owens Corning and GAF Preferred Contractor",
     "huntOutreachReady": true
   },
   {
-    "id": "lead_1780322466899_fl9do9",
-    "businessName": "Roofing Ranger",
-    "contactFirstName": "Vadim",
-    "contactEmail": "info@roofingranger.com",
-    "websiteUrl": "",
+    "id": "lead_1780322497670_z5wzam",
+    "businessName": "Baker Roofing & Construction",
+    "contactFirstName": "Christopher",
+    "contactEmail": "info@baker-roofing.com",
+    "websiteUrl": "https://baker-roofing.com/",
     "city": "Dallas",
     "serviceNiche": "Roofing Contractor",
-    "competitorName": "Lon Smith Roofing",
-    "reviewCount": null,
-    "rating": null,
-    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Lon Smith Roofing, New View Roofing, Holden Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 5-star Google reviews, 10-year workmanship warranty, drone documentation for inspections, A+ BBB accredited, strong customer testimonials",
+    "competitorName": "New View Roofing",
+    "reviewCount": 15,
+    "rating": 4.5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Since 2003 (21+ years), BBB A+ rated, Owens Corning Preferred Contractor, CertainTeed Master Shingle Applicator, expansion to Houston, Austin, San Antonio",
     "status": "queued",
     "research": null,
-    "reportSlug": "roofing-ranger-dudn",
+    "reportSlug": "baker-roofing-construction-vrw1",
     "emailDraftId": null,
     "fabricationFlags": [],
     "emDashClean": false,
     "actionLog": [
       {
-        "action": "Queued by Lead Hunter (P2, score: 29.5, outreach-ready: true)",
-        "timestamp": "2026-06-01T14:01:06.899Z"
+        "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
+        "timestamp": "2026-06-01T14:01:37.670Z"
       }
     ],
-    "createdAt": "2026-06-01T14:01:06.899Z",
-    "updatedAt": "2026-06-01T14:01:06.899Z",
-    "huntSource": "hunt_1780322412807_tooj",
-    "huntScore": 29.5,
+    "createdAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "huntSource": "hunt_1780322442611_9lwn",
+    "huntScore": 33.5,
     "huntPriority": "P2",
     "huntCitationResults": [
       {
@@ -9256,13 +9260,104 @@
         "query": "best Roofing Contractor in Dallas",
         "cited": false,
         "competitorsCited": [
-          "Lon Smith Roofing",
           "New View Roofing",
-          "Holden Roofing"
+          "Lon Smith Roofing",
+          "Arrington Roofing",
+          "Dwell Roofing & Exteriors"
         ]
       }
     ],
-    "huntDifferentiator": "5-star Google reviews, 10-year workmanship warranty, drone documentation for inspections, A+ BBB accredited, strong customer testimonials",
+    "huntDifferentiator": "Since 2003 (21+ years), BBB A+ rated, Owens Corning Preferred Contractor, CertainTeed Master Shingle Applicator, expansion to Houston, Austin, San Antonio",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1780322497670_rwjyk4",
+    "businessName": "Reveles Roofing",
+    "contactFirstName": "Martin",
+    "contactEmail": "info@revelesroofing.com",
+    "websiteUrl": "https://revelesroofing.com/",
+    "city": "Dallas",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "New View Roofing",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Since 2001, GAF Certified, known for honest business practices, insurance claims expertise, same-day project completion",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "reveles-roofing-b5ke",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 26, outreach-ready: true)",
+        "timestamp": "2026-06-01T14:01:37.670Z"
+      }
+    ],
+    "createdAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "huntSource": "hunt_1780322442611_9lwn",
+    "huntScore": 26,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "New View Roofing",
+          "Lon Smith Roofing",
+          "Arrington Roofing",
+          "Dwell Roofing & Exteriors"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Since 2001, GAF Certified, known for honest business practices, insurance claims expertise, same-day project completion",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1780322497670_l40759",
+    "businessName": "Blue Hammer Roofing",
+    "contactFirstName": "Nehal",
+    "contactEmail": "info@bluehammerroofing.com",
+    "websiteUrl": "https://bluehammerroofing.com/",
+    "city": "Dallas",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "New View Roofing",
+    "reviewCount": 1300,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 1,300+ Google reviews at 4.9-star rating, CertainTeed ShingleMaster certified (since 2022), part of RAFTRx family (local service with national scale), 20-point roof inspection",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "blue-hammer-roofing-q893",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-06-01T14:01:37.670Z"
+      }
+    ],
+    "createdAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "huntSource": "hunt_1780322442611_9lwn",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "New View Roofing",
+          "Lon Smith Roofing",
+          "Arrington Roofing",
+          "Dwell Roofing & Exteriors"
+        ]
+      }
+    ],
+    "huntDifferentiator": "1,300+ Google reviews at 4.9-star rating, CertainTeed ShingleMaster certified (since 2022), part of RAFTRx family (local service with national scale), 20-point roof inspection",
     "huntOutreachReady": true
   }
 ]
