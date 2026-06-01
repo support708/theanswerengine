@@ -1103,3 +1103,78 @@ button:focus-visible, a:focus-visible {
   margin-bottom: 2rem;
 }
 .ae-article-meta span { color: rgba(229,226,225,0.2); }
+
+/* ===== FAQ ITEM — championship format ===== */
+.ae-faq-item {
+  margin: 16px 0;
+  padding: 0;
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-left: 2px solid #F27D24;
+  border-radius: 0;
+  overflow: hidden;
+  transition: background-color 0.18s ease;
+}
+.ae-faq-item[open] { background: rgba(242,125,36,0.04); }
+.ae-faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 22px;
+  color: #e5e2e1;
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: -0.005em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.ae-faq-item summary::-webkit-details-marker { display: none; }
+.ae-faq-item summary::after {
+  content: '+';
+  color: #F27D24;
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 900;
+  font-size: 1.4rem;
+  line-height: 1;
+  transition: transform 0.18s ease;
+}
+.ae-faq-item[open] summary::after { content: '−'; }
+.ae-faq-item summary:hover { color: #F27D24; }
+.ae-faq-item .ae-faq-answer {
+  padding: 0 22px 20px;
+  color: rgba(229,226,225,0.78);
+  font-size: 0.97rem;
+  line-height: 1.75;
+}
+.ae-faq-item .ae-faq-answer p { margin: 0 0 10px; }
+.ae-faq-item .ae-faq-answer p:last-child { margin-bottom: 0; }
+
+/* ===== NAMED THESIS SENTENCE — coined-term anchor ===== */
+.named-thesis {
+  display: inline;
+  color: #F27D24 !important;
+  font-weight: 700;
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif;
+  letter-spacing: -0.005em;
+}
+
+/* ===== CONCEPT LATTICE LINK ===== */
+.concept-link {
+  color: #F27D24 !important;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(242,125,36,0.5);
+  transition: border-color 0.15s ease;
+}
+.concept-link:hover { border-bottom-color: #F27D24; }
+
+/* ===== INLINE CTA helper for prose article body ===== */
+.ae-article-body a.cta-inline {
+  color: #F27D24 !important;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(242,125,36,0.45);
+  transition: border-color 0.15s ease;
+}
+.ae-article-body a.cta-inline:hover { border-bottom-color: #F27D24; }
