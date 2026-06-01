@@ -326,11 +326,11 @@ export default function Page() {
 
             <p>
               You asked ChatGPT for recommendations in your industry. Your competitor got a full paragraph: name, description, why they are worth considering. Your business? Not a word. Not even a passing mention. This is not a glitch. It is a signal, and it reveals something important about how AI decides which businesses deserve to be named and which ones get quietly passed over.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               The uncomfortable truth is that AI does not skip your business out of malice or randomness. It skips you because, from its perspective, it cannot confidently describe you. Your competitor gave AI everything it needed. You did not. Understanding the difference is the first step toward changing the outcome.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* CTA Inline 1 */}
             <div className="ae-cta-inline not-prose">
@@ -343,11 +343,11 @@ export default function Page() {
 
             <p>
               When someone asks ChatGPT, Perplexity, or Google Gemini for a business recommendation, the response looks nothing like a traditional search results page. There are no ten blue links. No ads at the top. Instead, AI returns a short, curated list of 3 to 5 businesses, often with a brief description of each one explaining why they are a good fit.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>
               This is the paragraph gap. Your competitor gets a confident, detailed recommendation. Your business either appears as a bare mention with no context, or it does not appear at all. The difference between getting described and getting skipped is the difference between winning the customer and never knowing they were looking.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <strong>The Math Is Brutal:</strong> ChatGPT recommends only about 1.2% of all local business locations. With AI returning just 3 to 5 options per query, the vast majority of businesses are completely invisible to nearly half of all consumers now using AI for local search.
@@ -355,7 +355,7 @@ export default function Page() {
 
             <p>
               Consider what this means in practice. A potential customer asks an AI assistant for help finding a service provider in your area. Your competitor gets named, described, and positioned as a credible option. You are not part of the conversation. That customer never visits your website, never calls your office, never even knows you exist. And this is happening dozens, potentially hundreds, of times per month across every AI platform.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Visual: Bar chart comparison */}
             <div className="ae-bar-group not-prose">
@@ -384,7 +384,7 @@ export default function Page() {
 
             <p>
               If you have been investing in SEO and wondering why it is not translating to AI visibility, you are not alone. The signals AI uses to decide who gets recommended are related to, but distinct from, the signals that drive Google rankings. This is an entirely new playing field, and the rules are different. We explored this overlap in depth in our article on <Link href="/blog/why-is-my-competitor-on-ai-search-not-me">why your competitor shows up in AI search and you do not</Link>.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA Inline 2 */}
             <div className="ae-cta-inline not-prose">
@@ -397,15 +397,15 @@ export default function Page() {
 
             <p>
               AI does not play favorites. It does not have a relationship with your competitor. It does not care about their ad budget, their years in business, or their personality. What it does care about is confidence. Specifically: can it confidently and accurately describe this business to a user who is about to make a decision?
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               When AI evaluates businesses to recommend, it is essentially asking a series of questions. Does this business clearly do what the user is asking about? Can I verify this business exists and operates where it claims? Is the information about this business consistent across multiple sources? Can I summarize what makes this business relevant without risking inaccuracy?
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p>
               Your competitor passes these checks. You likely fail one or more of them. Not because your business is worse, but because the information AI can access about your business is incomplete, inconsistent, or poorly structured.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -444,12 +444,12 @@ export default function Page() {
 
             <p>
               This is why two businesses offering identical services in the same city can have completely different AI outcomes. One gets the paragraph. The other gets silence. The service quality might be the same. The digital signal quality is not. For a deeper look at this dynamic, read our breakdown of <Link href="/blog/how-ai-picks-between-two-similar-businesses">how AI picks between two similar businesses</Link>.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA Block 1 */}
             <div className="ae-cta-block not-prose">
               <h3 className="text-white font-plus-jakarta font-bold text-xl mb-2">Stop Guessing Why AI Prefers Your Competitor</h3>
-              <p className="text-gray-400 mb-4">Our Blind Spot Report reveals the exact signals your competitor has that you are missing.</p>
+              <p className="text-gray-400 mb-4">Our Blind Spot Report reveals the exact signals your competitor has that you are missing. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -458,20 +458,20 @@ export default function Page() {
 
             <p>
               At the core of every AI recommendation is a trust calculation. AI platforms are not just searching for businesses that match a query. They are searching for businesses they can recommend without embarrassing themselves. An AI assistant that sends a user to a closed business, a wrong address, or a company that does not actually offer the requested service loses credibility with that user.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>
               This is why data consistency is so critical. Your business name, address, and phone number (what the industry calls NAP data) must match precisely across every platform where your business appears. When AI checks whether your details match across the web, and they do not, it interprets that inconsistency as uncertainty. Uncertain businesses get filtered out.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Quote */}
             <div className="ae-quote not-prose">
-              <p>&ldquo;AI does not recommend the best business. It recommends the business it can describe with the highest confidence. Those are two very different things.&rdquo;</p>
+              <p>&ldquo;AI does not recommend the best business. It recommends the business it can describe with the highest confidence. Those are two very different things.&rdquo; Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             <p>
               Think of it this way. If you told a friend about a restaurant but gave them a different address than what appears on Google, a different phone number than what is on Yelp, and a slightly different business name than what is on their website, your friend would hesitate to recommend that restaurant to someone else. AI works the same way, just at scale and with zero tolerance for ambiguity.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table not-prose">
@@ -529,11 +529,11 @@ export default function Page() {
 
             <p>
               One of the biggest misconceptions about AI search is that ChatGPT pulls recommendations from Google Maps or Google Business Profile. It does not. ChatGPT uses Bing&apos;s web search index as its primary data source. This single fact changes everything about how you should think about AI visibility.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>
               If your entire local SEO strategy is built around Google Maps optimization, you have a blind spot. Your Google Business Profile may be flawless, your Google reviews may be strong, and your Google Maps ranking may be excellent. None of that matters if ChatGPT is looking at Bing and finding incomplete or inconsistent information about your business.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <strong>Key Insight:</strong> ChatGPT sees the web through Bing, not Google. Perplexity and other AI tools also rely on their own web crawlers and indexes. A business that dominates Google but is poorly represented elsewhere is invisible to most AI platforms.
@@ -541,7 +541,7 @@ export default function Page() {
 
             <p>
               This is precisely why some businesses that rank well on Google are shocked to discover they do not appear in AI recommendations at all. The AI visibility equation requires presence across the entire web ecosystem, not just one platform. Your competitor may have understood this earlier and invested in a broader digital footprint.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Timeline: Where Different AI Platforms Source Data */}
             <div className="ae-timeline not-prose">
@@ -565,7 +565,7 @@ export default function Page() {
 
             <p>
               The takeaway is clear: no single platform gives you full AI coverage. Your competitor likely shows up because their business information is consistent and discoverable across many sources, not because they cracked one specific algorithm. We discuss this multi-platform reality in more detail in our piece on <Link href="/blog/why-ai-never-mentions-your-business-by-name">why AI never mentions your business by name</Link>.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA Inline 4 */}
             <div className="ae-cta-inline not-prose">
@@ -578,37 +578,37 @@ export default function Page() {
 
             <p>
               After analyzing thousands of AI recommendations across industries, patterns emerge. Businesses that AI describes confidently share a set of common characteristics. Businesses that AI ignores tend to be missing the same things. Here are the five signals that matter most.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p className="ae-section-label">Signal 1: Information Consistency Across the Web</p>
+            <p className="ae-section-label">Signal 1: Information Consistency Across the Web We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>
               This is the foundation. If your business name appears as &ldquo;Smith &amp; Sons Plumbing&rdquo; on your website, &ldquo;Smith and Sons Plumbing LLC&rdquo; on Yelp, and &ldquo;Smith Plumbing&rdquo; on the BBB, AI sees three potentially different entities. Your competitor, who uses the exact same name, address, and phone number everywhere, registers as one verified entity. AI recommends verified entities.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-            <p className="ae-section-label">Signal 2: Content Clarity and Structure</p>
+            <p className="ae-section-label">Signal 2: Content Clarity and Structure <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>
               AI cannot watch a video tour of your facility. It cannot interpret the mood of your Instagram photos. It needs text, organized with clear headings, that explicitly states what you do, where you do it, and who you do it for. Businesses with organized headings, clear service descriptions, and logically structured content give AI something to work with. Businesses with beautiful but text-light websites give AI nothing.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p className="ae-section-label">Signal 3: Review Quality and Consistency</p>
+            <p className="ae-section-label">Signal 3: Review Quality and Consistency Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>
               Businesses recommended by AI tend to average between 4.1 and 4.3 stars. But it is not just the number. AI looks at review volume, recency, and distribution across platforms. A business with 200 reviews averaging 4.2 stars across Google, Yelp, and Facebook sends a much stronger signal than a business with 15 reviews on Google alone.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
-            <p className="ae-section-label">Signal 4: Multi-Platform Presence</p>
+            <p className="ae-section-label">Signal 4: Multi-Platform Presence <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <p>
               Every directory listing, every industry association page, every local chamber of commerce mention creates another data point AI can cross-reference. Your competitor may have invested time in building this web of references. Each one reinforces AI&apos;s confidence that this business is real, active, and relevant.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-            <p className="ae-section-label">Signal 5: Topical Authority in Your Category</p>
+            <p className="ae-section-label">Signal 5: Topical Authority in Your Category Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p>
               When your website has substantive content that addresses the questions customers actually ask, AI recognizes you as an authority in your category. This is not about keyword stuffing. It is about demonstrating genuine expertise through the depth and breadth of your content.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Pros/Cons: What Helps vs. What Hurts */}
             <div className="ae-pros-cons not-prose">

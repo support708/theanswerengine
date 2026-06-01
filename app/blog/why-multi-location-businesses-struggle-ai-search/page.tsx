@@ -189,18 +189,18 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
             </div>
           </div>
 
-          <p>If you run a franchise, chain, or multi-office business, you already know how complicated local marketing can be. Managing Google Business Profiles for 10, 50, or 500 locations is a full-time job. Keeping NAP data consistent across directories takes constant effort. And just when you feel like you have it under control, the rules change.</p>
+          <p>If you run a franchise, chain, or multi-office business, you already know how complicated local marketing can be. Managing Google Business Profiles for 10, 50, or 500 locations is a full-time job. Keeping NAP data consistent across directories takes constant effort. And just when you feel like you have it under control, the rules change. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>AI search is the biggest rule change in a decade. And multi-location businesses are getting hit harder than anyone else.</p>
+          <p>AI search is the biggest rule change in a decade. And multi-location businesses are getting hit harder than anyone else. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Harsh Reality</div>
-            <p>When a customer asks ChatGPT &quot;Who is the best dentist near me?&quot; or Google AI Overviews answers &quot;best HVAC company in Phoenix,&quot; AI platforms do not simply look up your corporate website and list your locations. They evaluate each location independently, cross-referencing dozens of data sources. For most multi-location brands, that evaluation does not go well.</p>
+            <p>When a customer asks ChatGPT &quot;Who is the best dentist near me?&quot; or Google AI Overviews answers &quot;best HVAC company in Phoenix,&quot; AI platforms do not simply look up your corporate website and list your locations. They evaluate each location independently, cross-referencing dozens of data sources. For most multi-location brands, that evaluation does not go well. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* ── CTA INLINE 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to see how AI platforms evaluate your locations right now?</p>
+            <p>Want to see how AI platforms evaluate your locations right now? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -208,7 +208,7 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
           <span className="ae-section-label">The Data</span>
           <h2>The AI Visibility Gap Is Real, and It Is Massive</h2>
 
-          <p>SOCi released their 2026 Local Visibility Index earlier this year, analyzing nearly 350,000 locations across 2,751 multi-location brands. The findings reveal just how difficult AI visibility is for businesses operating at scale.</p>
+          <p>SOCi released their 2026 Local Visibility Index earlier this year, analyzing nearly 350,000 locations across 2,751 multi-location brands. The findings reveal just how difficult AI visibility is for businesses operating at scale. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           {/* ── COMPARISON TABLE ── */}
           <div className="ae-comparison-table not-prose">
@@ -243,23 +243,23 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
                 </tr>
               </tbody>
             </table>
-            <p className="text-xs text-gray-500 mt-2">Source: SOCi 2026 Local Visibility Index</p>
+            <p className="text-xs text-gray-500 mt-2">Source: SOCi 2026 Local Visibility Index <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
 
-          <p>Read those numbers again. Only 1.2% of locations across nearly 350,000 were recommended by ChatGPT. That means for every 100 franchise or chain locations, fewer than 2 showed up when customers asked ChatGPT for a recommendation.</p>
+          <p>Read those numbers again. Only 1.2% of locations across nearly 350,000 were recommended by ChatGPT. That means for every 100 franchise or chain locations, fewer than 2 showed up when customers asked ChatGPT for a recommendation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-quote not-prose">
             <blockquote>&quot;AI visibility is 3 to 30 times harder to achieve than traditional local search rankings.&quot;</blockquote>
             <cite>Based on SOCi 2026 Local Visibility Index data</cite>
           </div>
 
-          <p>And this matters because AI search is not a niche channel anymore. AI Overviews now appear in 25.11% of all Google searches, up from 13.14% in March 2025. For local searches specifically, that number jumps to 68%, according to Superlines&apos; analysis of AI search data.</p>
+          <p>And this matters because AI search is not a niche channel anymore. AI Overviews now appear in 25.11% of all Google searches, up from 13.14% in March 2025. For local searches specifically, that number jumps to 68%, according to Superlines&apos; analysis of AI search data. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-          <p>Multi-location businesses that dominate the Google Map Pack are discovering that their traditional search success does not transfer to AI. The platforms that are growing fastest are the ones where they are least visible.</p>
+          <p>Multi-location businesses that dominate the Google Map Pack are discovering that their traditional search success does not transfer to AI. The platforms that are growing fastest are the ones where they are least visible. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA INLINE 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Are your locations invisible to AI? Find out in 60 seconds.</p>
+            <p>Are your locations invisible to AI? Find out in 60 seconds. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Run Your Free AI Audit &rarr;</Link>
           </div>
 
@@ -267,7 +267,7 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
           <span className="ae-section-label">Root Causes</span>
           <h2>Why Multi-Location Businesses Get Hit Harder</h2>
 
-          <p>AI search is not just generally difficult. Multi-location businesses face a specific set of challenges that single-location companies do not. Understanding these challenges is the first step to solving them.</p>
+          <p>AI search is not just generally difficult. Multi-location businesses face a specific set of challenges that single-location companies do not. Understanding these challenges is the first step to solving them. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* ── BAR CHART: 5 CHALLENGES ── */}
           <div className="ae-bar-group not-prose">
@@ -295,20 +295,20 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
 
           <h3>1. The Templated Content Problem</h3>
 
-          <p>Most franchise and chain websites use templated location pages. The corporate team creates one page template, swaps in the city name and address, and deploys it across every location. From a brand consistency standpoint, this makes sense. From an AI standpoint, it is a disaster.</p>
+          <p>Most franchise and chain websites use templated location pages. The corporate team creates one page template, swaps in the city name and address, and deploys it across every location. From a brand consistency standpoint, this makes sense. From an AI standpoint, it is a disaster. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-          <p>AI platforms are looking for unique, authoritative content about specific local markets. When ChatGPT or Perplexity encounters 50 location pages that are 95% identical, with only the city name changed, it cannot differentiate between them. It has no reason to trust that any specific location is the best option for a given area.</p>
+          <p>AI platforms are looking for unique, authoritative content about specific local markets. When ChatGPT or Perplexity encounters 50 location pages that are 95% identical, with only the city name changed, it cannot differentiate between them. It has no reason to trust that any specific location is the best option for a given area. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-callout not-prose">
             <div className="ae-callout-title">Why This Matters</div>
-            <p>A single-location competitor with a dedicated website full of locally relevant content, neighborhood-specific case studies, and genuine local reviews will almost always win the AI recommendation over a templated franchise page.</p>
+            <p>A single-location competitor with a dedicated website full of locally relevant content, neighborhood-specific case studies, and genuine local reviews will almost always win the AI recommendation over a templated franchise page. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
-          <p>To understand more about how AI platforms evaluate this kind of content, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
+          <p>To understand more about how AI platforms evaluate this kind of content, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <h3>2. Data Accuracy Breaks Down at Scale</h3>
 
-          <p>Keeping business information accurate across one location is straightforward. Keeping it accurate across 200 locations, on 30+ directories, is a completely different challenge. Phone numbers change. Hours get updated at some locations but not others. New locations open, old ones close, and the data across the internet takes months to catch up.</p>
+          <p>Keeping business information accurate across one location is straightforward. Keeping it accurate across 200 locations, on 30+ directories, is a completely different challenge. Phone numbers change. Hours get updated at some locations but not others. New locations open, old ones close, and the data across the internet takes months to catch up. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           {/* ── STATS GRID: ACCURACY ── */}
           <div className="ae-stats-grid not-prose">
@@ -326,7 +326,7 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
             </div>
           </div>
 
-          <p>When AI encounters conflicting information about a business, it does not guess. It simply does not recommend that business at all. This &quot;silent exclusion&quot; is one of the biggest threats multi-location brands face. You are not being ranked low. You are being left out entirely.</p>
+          <p>When AI encounters conflicting information about a business, it does not guess. It simply does not recommend that business at all. This &quot;silent exclusion&quot; is one of the biggest threats multi-location brands face. You are not being ranked low. You are being left out entirely. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-takeaway not-prose">
             <strong>Key Takeaway:</strong> If 32% of your data is wrong on AI platforms, that could mean dozens of locations showing up with incorrect addresses, outdated phone numbers, or wrong business hours. AI responds by excluding you silently.
@@ -334,13 +334,13 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
 
           {/* ── CTA INLINE 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Is your data accurate across AI platforms? We will show you.</p>
+            <p>Is your data accurate across AI platforms? We will show you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <Link href="/blindspot">Check Your AI Accuracy &rarr;</Link>
           </div>
 
           <h3>3. Citation Fragmentation Across Locations</h3>
 
-          <p>According to Birdeye&apos;s 2026 AI Search Visibility Study, 70.3% of all AI citations come from sources that serve at least two industries, creating what researchers call a &quot;universal backbone&quot; for AI answers. Only 29.7% come from specialist sites.</p>
+          <p>According to Birdeye&apos;s 2026 AI Search Visibility Study, 70.3% of all AI citations come from sources that serve at least two industries, creating what researchers call a &quot;universal backbone&quot; for AI answers. Only 29.7% come from specialist sites. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── PROS CONS: CITATION COVERAGE ── */}
           <div className="ae-pros-cons not-prose">
@@ -364,24 +364,24 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
             </div>
           </div>
 
-          <p>AI platforms build entity authority through cross-referencing. The more places they find consistent information about a specific location, the more confident they are in recommending it. When citations are fragmented, AI treats the under-cited locations as unverified.</p>
+          <p>AI platforms build entity authority through cross-referencing. The more places they find consistent information about a specific location, the more confident they are in recommending it. When citations are fragmented, AI treats the under-cited locations as unverified. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <p>Three of the top five AI search visibility ranking factors are citation-related, according to Birdeye&apos;s analysis. This is why <Link href="/blog/bing-places-chatgpt-connection">claiming your Bing Places listing matters so much for ChatGPT visibility</Link>.</p>
+          <p>Three of the top five AI search visibility ranking factors are citation-related, according to Birdeye&apos;s analysis. This is why <Link href="/blog/bing-places-chatgpt-connection">claiming your Bing Places listing matters so much for ChatGPT visibility</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <h3>4. Brand-Level Authority Does Not Equal Location-Level Trust</h3>
 
-          <p>Here is something that catches many multi-location brands off guard. A strong national brand does not automatically make individual locations trustworthy in AI search. AI platforms evaluate local queries at the location level, not the brand level.</p>
+          <p>Here is something that catches many multi-location brands off guard. A strong national brand does not automatically make individual locations trustworthy in AI search. AI platforms evaluate local queries at the location level, not the brand level. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Common Misconception</div>
-            <p>When someone asks &quot;best pizza in downtown Denver,&quot; AI is not looking at how well-known your pizza chain is nationally. It is looking at what information exists about your specific Denver location. Does that location have reviews? Does the website mention Denver specifically? Are the local directory listings consistent?</p>
+            <p>When someone asks &quot;best pizza in downtown Denver,&quot; AI is not looking at how well-known your pizza chain is nationally. It is looking at what information exists about your specific Denver location. Does that location have reviews? Does the website mention Denver specifically? Are the local directory listings consistent? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
-          <p>A locally owned pizza shop with a content-rich website, genuine Denver-specific reviews, and consistent directory listings can outrank a national chain that has a generic corporate page and scattered citations.</p>
+          <p>A locally owned pizza shop with a content-rich website, genuine Denver-specific reviews, and consistent directory listings can outrank a national chain that has a generic corporate page and scattered citations. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <h3>5. Google Business Profile Does Not Translate to AI Visibility</h3>
 
-          <p>Multi-location businesses invest heavily in their Google Business Profiles, and for good reason. GBP is critical for Maps and local search. But most AI platforms cannot directly access Google Business Profile data.</p>
+          <p>Multi-location businesses invest heavily in their Google Business Profiles, and for good reason. GBP is critical for Maps and local search. But most AI platforms cannot directly access Google Business Profile data. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           {/* ── DECISION MATRIX: WHERE AI PULLS DATA ── */}
           <div className="ae-decision-matrix not-prose">
@@ -423,11 +423,11 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
             </table>
           </div>
 
-          <p>This means all the effort your team puts into GBP optimization has zero impact on ChatGPT and Perplexity visibility. For multi-location brands that have built their entire local strategy around GBP, this is a wake-up call. We break this down further in our article about <Link href="/blog/chatgpt-cant-see-google-business-profile">why ChatGPT cannot see your Google Business Profile</Link>.</p>
+          <p>This means all the effort your team puts into GBP optimization has zero impact on ChatGPT and Perplexity visibility. For multi-location brands that have built their entire local strategy around GBP, this is a wake-up call. We break this down further in our article about <Link href="/blog/chatgpt-cant-see-google-business-profile">why ChatGPT cannot see your Google Business Profile</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* ── CTA INLINE 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Your GBP rankings do not protect you from AI invisibility.</p>
+            <p>Your GBP rankings do not protect you from AI invisibility. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <Link href="/blindspot">See What AI Actually Sees &rarr;</Link>
           </div>
 
@@ -451,7 +451,7 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
             </div>
           </div>
 
-          <p>The good news is that the challenges multi-location businesses face in AI search are solvable. They just require a different approach than traditional local SEO. Here is what needs to change.</p>
+          <p>The good news is that the challenges multi-location businesses face in AI search are solvable. They just require a different approach than traditional local SEO. Here is what needs to change. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           {/* ── CHEAT SHEET ── */}
           <div className="ae-cheat-sheet not-prose">
@@ -469,9 +469,9 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
 
           <h3>Create Genuinely Unique Location Pages</h3>
 
-          <p>Every location needs its own page with content that could not be swapped to a different city without rewriting it. This means local market insights, neighborhood-specific details, area-specific services or specialties, and genuine testimonials from customers at that location.</p>
+          <p>Every location needs its own page with content that could not be swapped to a different city without rewriting it. This means local market insights, neighborhood-specific details, area-specific services or specialties, and genuine testimonials from customers at that location. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-          <p>This is the opposite of the template-and-swap approach most franchises use. It takes more effort, but it is the single biggest lever for improving AI visibility across locations.</p>
+          <p>This is the opposite of the template-and-swap approach most franchises use. It takes more effort, but it is the single biggest lever for improving AI visibility across locations. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           {/* ── CTA INLINE 5 ── */}
           <div className="ae-cta-inline not-prose">

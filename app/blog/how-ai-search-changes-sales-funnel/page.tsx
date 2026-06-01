@@ -194,20 +194,20 @@ export default function HowAISearchChangesSalesFunnel() {
             </div>
           </div>
 
-          <p>For the past two decades, the local business sales funnel has followed a predictable path. A customer searches Google, clicks on a result, visits your website, and eventually picks up the phone or fills out a form. Every marketing dollar you spend has been designed around that sequence: get found, get clicked, get the lead.</p>
+          <p>For the past two decades, the local business sales funnel has followed a predictable path. A customer searches Google, clicks on a result, visits your website, and eventually picks up the phone or fills out a form. Every marketing dollar you spend has been designed around that sequence: get found, get clicked, get the lead. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>That sequence is breaking down. AI search, including Google AI Overviews, ChatGPT, and Perplexity, is compressing, rerouting, and in some cases completely eliminating the middle steps of that funnel. Customers are getting answers without ever visiting a website. They are making decisions based on what an AI platform tells them, not what your homepage says.</p>
+          <p>That sequence is breaking down. AI search, including Google AI Overviews, ChatGPT, and Perplexity, is compressing, rerouting, and in some cases completely eliminating the middle steps of that funnel. Customers are getting answers without ever visiting a website. They are making decisions based on what an AI platform tells them, not what your homepage says. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
-            <p>According to Semrush&apos;s 2025 zero-click study, 58.5% of US searches now end without a single click to any website. For searches that trigger Google AI Overviews, that number jumps to 83%. The funnel your business was built around is losing more than half its traffic before it even starts.</p>
+            <p>According to Semrush&apos;s 2025 zero-click study, 58.5% of US searches now end without a single click to any website. For searches that trigger Google AI Overviews, that number jumps to 83%. The funnel your business was built around is losing more than half its traffic before it even starts. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
-          <p>But there is good news. The visitors who do come through AI search are dramatically more valuable. And local businesses that understand the new funnel have an opportunity to capture higher-quality leads than ever before.</p>
+          <p>But there is good news. The visitors who do come through AI search are dramatically more valuable. And local businesses that understand the new funnel have an opportunity to capture higher-quality leads than ever before. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering if your business is visible in the new AI-powered sales funnel? Find out what AI platforms actually say about you.</p>
+            <p>Wondering if your business is visible in the new AI-powered sales funnel? Find out what AI platforms actually say about you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -215,9 +215,9 @@ export default function HowAISearchChangesSalesFunnel() {
           <span className="ae-section-label">The Problem</span>
           <h2>The Old Funnel Is Leaking from the Top</h2>
 
-          <p>The traditional local search funnel had four clear stages: awareness (the customer searches), consideration (they visit several websites), decision (they compare options), and action (they call or book). Every stage happened on your turf, on your website, where you controlled the messaging.</p>
+          <p>The traditional local search funnel had four clear stages: awareness (the customer searches), consideration (they visit several websites), decision (they compare options), and action (they call or book). Every stage happened on your turf, on your website, where you controlled the messaging. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-          <p>AI search has moved the awareness and consideration stages off your website entirely. When a customer asks ChatGPT &quot;Who is the best plumber in Austin?&quot; or Google AI Overviews generates a summary for &quot;emergency dentist near me,&quot; the AI platform does the comparison work for the customer. It reviews multiple sources, synthesizes the information, and presents a recommendation, all before the customer clicks anything.</p>
+          <p>AI search has moved the awareness and consideration stages off your website entirely. When a customer asks ChatGPT &quot;Who is the best plumber in Austin?&quot; or Google AI Overviews generates a summary for &quot;emergency dentist near me,&quot; the AI platform does the comparison work for the customer. It reviews multiple sources, synthesizes the information, and presents a recommendation, all before the customer clicks anything. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           {/* ── TIMELINE ── */}
           <div className="ae-timeline not-prose">
@@ -243,7 +243,7 @@ export default function HowAISearchChangesSalesFunnel() {
             </div>
           </div>
 
-          <p>This means two critical things for local businesses. First, the top of your funnel is shrinking because fewer people are clicking through to your site. Ahrefs confirmed this in their December 2025 update: AI Overviews reduce clicks to the top-ranking page by 58%. Second, the people who do click through are further along in their decision process. They are not browsing. They are ready to act.</p>
+          <p>This means two critical things for local businesses. First, the top of your funnel is shrinking because fewer people are clicking through to your site. Ahrefs confirmed this in their December 2025 update: AI Overviews reduce clicks to the top-ranking page by 58%. Second, the people who do click through are further along in their decision process. They are not browsing. They are ready to act. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* ── BAR GROUP: Traffic Impact ── */}
           <div className="ae-bar-group not-prose">
@@ -281,12 +281,12 @@ export default function HowAISearchChangesSalesFunnel() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>If your business used to get 1,000 website visits per month from local searches, AI Overviews could cut that to 420 or fewer. But the 420 visitors who still arrive are not casually browsing. They have been pre-qualified by the AI, which means they are closer to making a buying decision.</p>
+            <p>If your business used to get 1,000 website visits per month from local searches, AI Overviews could cut that to 420 or fewer. But the 420 visitors who still arrive are not casually browsing. They have been pre-qualified by the AI, which means they are closer to making a buying decision. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Is AI sending your potential customers somewhere else? See exactly where your leads are going.</p>
+            <p>Is AI sending your potential customers somewhere else? See exactly where your leads are going. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Run a Free AI Visibility Check &rarr;</Link>
           </div>
 
@@ -294,16 +294,16 @@ export default function HowAISearchChangesSalesFunnel() {
           <span className="ae-section-label">New Reality</span>
           <h2>How the AI Buyer Journey Actually Works Now</h2>
 
-          <p>The new buyer journey does not follow a neat funnel. It looks more like a filter. Customers start with a question, AI provides an answer, and the customer either acts on it immediately or asks a follow-up question. The old browse-and-compare phase is disappearing.</p>
+          <p>The new buyer journey does not follow a neat funnel. It looks more like a filter. Customers start with a question, AI provides an answer, and the customer either acts on it immediately or asks a follow-up question. The old browse-and-compare phase is disappearing. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>Net Conversion&apos;s 2026 consumer study found that 64% of consumers now use AI tools to research purchases, up from 45% in 2025. That is a 42% increase in just one year. AI does the consulting for the customer. The customer does not visit 10 websites. The AI visits 10 websites and delivers a synthesized answer.</p>
+            <p>Net Conversion&apos;s 2026 consumer study found that 64% of consumers now use AI tools to research purchases, up from 45% in 2025. That is a 42% increase in just one year. AI does the consulting for the customer. The customer does not visit 10 websites. The AI visits 10 websites and delivers a synthesized answer. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
-          <p>For local service businesses, this creates a new reality. Your website content still matters, but it matters in a different way. Instead of being designed to convince a human visitor, it needs to be structured so AI platforms can extract, validate, and recommend your business. If your content is clear, well-structured, and backed by consistent data across the web, AI will cite you. If it is vague, inconsistent, or buried behind flashy design that AI cannot parse, you become invisible.</p>
+          <p>For local service businesses, this creates a new reality. Your website content still matters, but it matters in a different way. Instead of being designed to convince a human visitor, it needs to be structured so AI platforms can extract, validate, and recommend your business. If your content is clear, well-structured, and backed by consistent data across the web, AI will cite you. If it is vague, inconsistent, or buried behind flashy design that AI cannot parse, you become invisible. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-          <p>This is why <Link href="/blog/what-content-does-chatgpt-read-on-my-website">understanding what content ChatGPT actually reads on your website</Link> matters so much. The content AI platforms consume is not always the content you think is most important.</p>
+          <p>This is why <Link href="/blog/what-content-does-chatgpt-read-on-my-website">understanding what content ChatGPT actually reads on your website</Link> matters so much. The content AI platforms consume is not always the content you think is most important. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* ── COMPARISON TABLE: Old vs New Journey ── */}
           <table className="ae-comparison-table not-prose">
@@ -350,7 +350,7 @@ export default function HowAISearchChangesSalesFunnel() {
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>The buyer journey changed. Has your website kept up? Talk to us about your AI visibility strategy.</p>
+            <p>The buyer journey changed. Has your website kept up? Talk to us about your AI visibility strategy. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
           </div>
 
@@ -358,9 +358,9 @@ export default function HowAISearchChangesSalesFunnel() {
           <span className="ae-section-label">Conversion Data</span>
           <h2>Fewer Clicks, But Far Better Conversions</h2>
 
-          <p>Here is the number that should reshape how you think about AI search: visitors from AI platforms convert at 4.4 times the rate of standard organic visitors. According to multiple 2025 and 2026 analyses, AI search traffic converts at 14.2% compared to Google organic&apos;s 2.8%.</p>
+          <p>Here is the number that should reshape how you think about AI search: visitors from AI platforms convert at 4.4 times the rate of standard organic visitors. According to multiple 2025 and 2026 analyses, AI search traffic converts at 14.2% compared to Google organic&apos;s 2.8%. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
-          <p>Why? Because AI acts as a pre-qualification layer. When someone asks ChatGPT for the best roofing company in their city and your business is recommended, that person does not arrive at your website wondering if you are any good. The AI already told them you are. They arrive ready to schedule an estimate.</p>
+          <p>Why? Because AI acts as a pre-qualification layer. When someone asks ChatGPT for the best roofing company in their city and your business is recommended, that person does not arrive at your website wondering if you are any good. The AI already told them you are. They arrive ready to schedule an estimate. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           {/* ── STATS GRID: Conversion ── */}
           <div className="ae-stats-grid not-prose">
@@ -388,16 +388,16 @@ export default function HowAISearchChangesSalesFunnel() {
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">Opportunity</div>
-            <p>In the old model, you needed 1,000 website visitors to get 28 leads (at a 2.8% conversion rate). In the AI model, you only need 200 visitors to get the same 28 leads (at a 14.2% conversion rate). Fewer visitors, same results, or better.</p>
+            <p>In the old model, you needed 1,000 website visitors to get 28 leads (at a 2.8% conversion rate). In the AI model, you only need 200 visitors to get the same 28 leads (at a 14.2% conversion rate). Fewer visitors, same results, or better. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
-          <p>This is also why <Link href="/blog/google-rankings-dont-matter">Google rankings alone no longer tell the full story</Link>. A business ranked fifth on Google but consistently recommended by ChatGPT and Perplexity may generate more revenue than the business ranked first that AI platforms never mention.</p>
+          <p>This is also why <Link href="/blog/google-rankings-dont-matter">Google rankings alone no longer tell the full story</Link>. A business ranked fifth on Google but consistently recommended by ChatGPT and Perplexity may generate more revenue than the business ranked first that AI platforms never mention. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>The businesses winning in this new model are not necessarily the ones with the biggest ad budgets. They are the ones with the clearest expertise signals, the most consistent directory data, and the kind of structured content that AI platforms trust.</p>
+          <p>The businesses winning in this new model are not necessarily the ones with the biggest ad budgets. They are the ones with the clearest expertise signals, the most consistent directory data, and the kind of structured content that AI platforms trust. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* ── CTA 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Are you capturing the 4.4x conversion advantage? Find out if AI platforms recommend your business.</p>
+            <p>Are you capturing the 4.4x conversion advantage? Find out if AI platforms recommend your business. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <Link href="/blindspot">Check Your AI Recommendation Status &rarr;</Link>
           </div>
 
@@ -405,30 +405,30 @@ export default function HowAISearchChangesSalesFunnel() {
           <span className="ae-section-label">Stage-by-Stage Breakdown</span>
           <h2>What Each Funnel Stage Looks Like in the AI Era</h2>
 
-          <p>Let us walk through how each stage of the sales funnel has changed and what that means for local businesses.</p>
+          <p>Let us walk through how each stage of the sales funnel has changed and what that means for local businesses. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <h3>Awareness: You Get Found by Being Cited, Not Ranked</h3>
 
-          <p>In the old model, awareness meant ranking on page one of Google. In the AI model, awareness means being cited in an AI-generated answer. These are fundamentally different achievements. Ranking requires backlinks, keyword optimization, and domain authority. Getting cited by AI requires <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">a different set of signals</Link>: consistent NAP data, authoritative content, reviews across multiple platforms, and structured data that AI can parse.</p>
+          <p>In the old model, awareness meant ranking on page one of Google. In the AI model, awareness means being cited in an AI-generated answer. These are fundamentally different achievements. Ranking requires backlinks, keyword optimization, and domain authority. Getting cited by AI requires <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">a different set of signals</Link>: consistent NAP data, authoritative content, reviews across multiple platforms, and structured data that AI can parse. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Reality Check</div>
-            <p>The awareness stage is more binary now. In traditional search, you might rank on page two and still get some traffic. In AI search, you are either recommended or you are not. There is no page two in a ChatGPT response.</p>
+            <p>The awareness stage is more binary now. In traditional search, you might rank on page two and still get some traffic. In AI search, you are either recommended or you are not. There is no page two in a ChatGPT response. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <h3>Consideration: AI Does the Comparing for the Customer</h3>
 
-          <p>This is the stage that has changed most dramatically. Customers used to visit three to five websites, read reviews on Yelp, check Google Maps, and form their own opinions. Now, AI does that work in seconds. It pulls from all those same sources, synthesizes the information, and presents a recommendation.</p>
+          <p>This is the stage that has changed most dramatically. Customers used to visit three to five websites, read reviews on Yelp, check Google Maps, and form their own opinions. Now, AI does that work in seconds. It pulls from all those same sources, synthesizes the information, and presents a recommendation. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
-          <p>For local businesses, this means your online reputation across all platforms matters more than ever. It is not enough to have great Google reviews if your Yelp profile has outdated hours and your BBB listing shows the wrong address. AI cross-references these sources. Inconsistencies reduce trust. Consistency builds it.</p>
+          <p>For local businesses, this means your online reputation across all platforms matters more than ever. It is not enough to have great Google reviews if your Yelp profile has outdated hours and your BBB listing shows the wrong address. AI cross-references these sources. Inconsistencies reduce trust. Consistency builds it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <h3>Decision: The Customer Arrives Pre-Sold</h3>
 
-          <p>When a customer clicks through from an AI recommendation, they have already made their initial decision. The AI told them your business is the one to call. Your website&apos;s job at this point is not to persuade but to confirm the decision and make it easy to take action. That means prominent phone numbers, simple booking forms, and clear service pages. Not clever animations or lengthy brand stories.</p>
+          <p>When a customer clicks through from an AI recommendation, they have already made their initial decision. The AI told them your business is the one to call. Your website&apos;s job at this point is not to persuade but to confirm the decision and make it easy to take action. That means prominent phone numbers, simple booking forms, and clear service pages. Not clever animations or lengthy brand stories. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <h3>Action: Speed and Simplicity Win</h3>
 
-          <p>The action stage has compressed too. AI-referred visitors are ready to act immediately. If your website takes five seconds to load or buries the contact form behind three clicks, you will lose them. These are not patient browsers. They are people who asked AI for the best option, got an answer, and want to move forward now.</p>
+          <p>The action stage has compressed too. AI-referred visitors are ready to act immediately. If your website takes five seconds to load or buries the contact form behind three clicks, you will lose them. These are not patient browsers. They are people who asked AI for the best option, got an answer, and want to move forward now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           {/* ── DECISION MATRIX ── */}
           <div className="ae-decision-matrix not-prose">
@@ -466,12 +466,12 @@ export default function HowAISearchChangesSalesFunnel() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Every stage of the funnel now runs through AI. If your business is invisible to AI platforms, it is invisible to a growing majority of your potential customers.</p>
+            <p>Every stage of the funnel now runs through AI. If your business is invisible to AI platforms, it is invisible to a growing majority of your potential customers. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           {/* ── CTA 5 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure which funnel stage is broken? Our free report shows exactly where AI loses sight of your business.</p>
+            <p>Not sure which funnel stage is broken? Our free report shows exactly where AI loses sight of your business. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot">Diagnose Your Funnel Gaps &rarr;</Link>
           </div>
 

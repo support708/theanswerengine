@@ -306,7 +306,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               is emotionally overwhelmed and completely unfamiliar with legal process. Historically,
               they called a family friend, asked a neighbor, or searched Google. In 2026, they ask
               ChatGPT first. The attorney whose name appears in that answer gets the call.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               The personal injury law market in the United States is valued at $61.7 billion with
@@ -315,7 +315,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               per click in 2025 (WordStream, 2025). Firms spend tens of thousands per month on paid
               search for clients who increasingly skip the results page entirely to ask AI directly.
               AEO is the practice that puts a PI firm inside the AI answer — not the ad below it.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <h3>The Moment of Peak Vulnerability Has Moved Online</h3>
 
@@ -327,7 +327,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               answer immediately, not a list of sponsored ads followed by 40 law firm pages. AI
               search delivers a conversational, specific recommendation in seconds. For PI firms,
               that shift is already reshaping intake.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-quote not-prose">
               <p>
@@ -336,7 +336,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
                 verified PI firm client engagements across California, Texas, Florida, and New York.
                 Firms earning consistent AI citations are seeing 15 to 25% of new client inquiries
                 arrive without the firm appearing in a Google results page at all.
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3>Why Being Ranked on Google Is No Longer Sufficient</h3>
@@ -352,13 +352,13 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
                 complete AEO framework for local businesses
               </Link>{' '}
               — legal is one of the highest-urgency verticals for the same structural reasons.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 Find out whether your PI firm appears when injury victims ask AI who to call in your
                 market.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Get Your Free AI Blind Spot Report →</Link>
             </div>
 
@@ -375,7 +375,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
                 this citation stack is structurally invisible to AI search regardless of website
                 quality, ad spend, or Google rankings (5WPR &amp; Haute Lawyer Report, April 2026).
               </strong>
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               The Directory Capture Effect operates because AI models were trained on text from
@@ -387,7 +387,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               stack has no citation anchor for the AI to retrieve. A well-designed website with
               strong Google rankings does not substitute for directory citation depth in AI retrieval
               systems.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <h3>Review Profiles as AI Training Signal</h3>
 
@@ -400,7 +400,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               amounts above initial offers. Second, review volume and recency are entity authority
               signals. A firm with 400 reviews averaging 4.8 stars over 18 months is treated as a
               more authoritative entity than a firm with 40 reviews from five years ago.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               For PI firms, review strategy is therefore AEO strategy. Every client communication
@@ -409,7 +409,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               note about what type of case you had and what outcome we achieved helps AI platforms
               understand what we do and helps other injury victims find us.&rdquo; That framing
               produces outcome-specific reviews that serve as high-value AI training signal.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Structured Q&amp;A Content: The AI&rsquo;s Preferred Format</h3>
 
@@ -423,13 +423,13 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               (KDD 2024) found that content including verifiable statistics improves AI citation
               probability by 22%. GEO-SFE (2026) confirmed that passages exceeding 300 words
               experience a 31% attention degradation in RAG retrieval systems.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 We audit your full directory stack across all seven citation sources and identify
                 every gap.
-              </p>
+               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <a
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
@@ -452,7 +452,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
                 firm pages outperform full content rewrites for AI visibility purposes (Tian et al.,
                 arXiv:2603.09296, March 2026).
               </strong>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>
               The Citation Repair Asymmetry exists because AI retrieval systems evaluate structure
@@ -462,7 +462,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               extract a clean, bounded answer. Adding a structured FAQ block with three to five
               direct question-and-answer pairs to that same page — changing less than 5% of the
               total content — can increase citation probability by more than 40%.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>
               This finding has significant implications for PI firms with existing content libraries.
@@ -470,7 +470,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               years does not need to start over. It needs structured retrofitting: FAQ blocks,
               definition openers, and bounded H3 sections that match the format AI systems prefer.
               The total effort is a fraction of the effort that produced the original content.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>The AI Traffic Paradox</h3>
 
@@ -483,7 +483,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
                 click-through traffic but in being cited as the recommended attorney in a response
                 the potential client never leaves.
               </strong>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>
               The AI Traffic Paradox means that measuring AI search success by website traffic is
@@ -493,7 +493,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               directly. Traditional analytics show zero traffic from that interaction. The correct
               KPI for PI firm AI visibility is citation frequency: how often does your firm&rsquo;s
               name appear in AI responses to relevant legal queries in your market?
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3>What the Academic Research Says About Legal AI Search</h3>
 
@@ -508,13 +508,13 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               preference for earned media over brand-owned content. A PI firm that earns coverage
               in local news about a major verdict is more likely to be cited by AI than a PI firm
               that publishes the same verdict information on its own blog.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 We audit existing PI firm content for AI citation gaps and deliver a prioritized
                 retrofitting plan within 48 hours.
-              </p>
+               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">
                 Email support@theanswerengine.ai for a Content Audit →
               </a>
@@ -534,7 +534,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               We document which firms are cited, how often, and in what context. The result is a
               citation gap map: a clear picture of which queries your firm should own but does not,
               and exactly why.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               The pattern that emerges from the Origin Protocol is almost always the same: the
@@ -542,7 +542,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               They have more directory presence, more outcome-specific reviews, and more FAQ content
               structured in the bounded format AI retrievers prefer. The gap is not about quality
               of legal work. It is about structural citation architecture.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>The Citation Stack: Five Layers We Build for Every PI Firm</h3>
 
@@ -557,7 +557,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               strategy: we identify editorial opportunities in legal publications, verdict coverage,
               and expert roundup content. Layer 5 is citation monitoring: we test citation frequency
               monthly and adjust the stack based on what the AI platforms are and are not citing.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <h3>Territory Lock: One PI Firm Per Market</h3>
 
@@ -569,13 +569,13 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               authoritative source for specific legal queries in a specific market. Building that
               position for two firms simultaneously would produce conflicting signals and weaker
               results for both. One firm per market, full stop.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 Check whether your market is still available. Markets lock when we begin an
                 engagement.
-              </p>
+               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
@@ -601,7 +601,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               citation rate is the percentage of queries where your firm&rsquo;s name appears.
               Baseline most PI firms at 0 to 5% on transactional queries. A well-optimized AEO
               stack typically achieves 25 to 45% citation rate within 90 days.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <h3>The Competitor Benchmark</h3>
 
@@ -614,7 +614,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               which of the five citation stack layers would close it fastest. For most PI firms,
               the fastest win is Layer 1 (directory presence), which can be completed within two
               weeks and produces measurable citation improvement within 30 days.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>What Success Looks Like at 90 Days</h3>
 
@@ -627,13 +627,13 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               legal directories; and a review velocity of at least 4 to 6 new outcome-specific
               reviews per month. These are the documented outcomes from 16 PI firm engagements
               across four states from 2025 to 2026.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 We run the citation frequency test for PI firms. 24-hour turnaround with your
                 baseline citation rate included.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <Link href="/blindspot">Run My Citation Frequency Test →</Link>
             </div>
 
@@ -644,7 +644,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               Use this audit to assess your current citation readiness across the five-layer stack.
               Each item that checks complete contributes to your citation authority. Each gap
               represents a direct citation opportunity.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-comparison-table not-prose">
               <table>
@@ -714,7 +714,7 @@ export default function HowPILawFirmsGetFoundOnAISearch() {
               <p>
                 We run this exact audit for PI firms and return a scored citation gap report.
                 No cost, no commitment.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <a href="mailto:support@theanswerengine.ai">
                 Request Your Citation Gap Report →
               </a>

@@ -197,7 +197,7 @@ export default function Page() {
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Published {publishDate} by Justin Borges
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
         </div>
       </header>
@@ -248,20 +248,20 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             AI platforms do not recommend businesses. They recommend businesses for specific things. When someone asks "who does water heater installation in Phoenix," the AI is not thinking about all the plumbers it knows and picking the best one. It is looking for which businesses have strong enough signals specifically around water heater installation in Phoenix.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This is why your business can appear for "plumbing repair" queries and be completely absent from "water heater installation" queries, even if you do both. The AI is not making a judgment about your capabilities. It is responding to the signals it found during its last crawl of your web presence.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">AI Thinks in Queries, Not Businesses</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Traditional advertising is about putting your business in front of an audience. AI recommendations work the opposite way: a user has a specific need, the AI scans its knowledge for signals matching that need, and surfaces the businesses where signals are strongest. If your signals for a specific service are weak, you are invisible for that service, regardless of how strong your overall business profile is.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Want to know which services AI can find you for right now?</p>
+            <p className="text-gray-400 text-sm">Want to know which services AI can find you for right now? Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and see your service-level AI visibility
             </Link>
@@ -275,7 +275,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             The service AI recommends you for is almost always the one with the most developed content presence. That might be your core service, or it might be the one you happened to write a full page about, or the one your customers mention most in their reviews, or the one most prominently listed on your directory profiles.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-decision-matrix mb-6">
             <div className="ae-decision-row">
@@ -302,13 +302,13 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-4">
             One pattern we see repeatedly: a plumbing company has a detailed page about emergency drain cleaning (because that is their most-called service) and gets cited for drain queries constantly, while their equally good water heater work goes unmentioned because they never built out that content. The AI is not biased against water heaters. It just never found enough to say about it.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Revenue Implication</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               If AI is only citing you for your least-profitable service while your high-margin specialty goes unmentioned, you are leaving money on the table with every AI recommendation that comes in. Service-level visibility is not just about coverage, it is about whether you are getting recommended for the work you most want to do.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
         </section>
 
@@ -319,7 +319,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Content depth is the primary driver of service-level AI visibility. The difference between a service that AI cites you for and one it ignores is almost always the depth of information available about that service in your web presence.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-pros-cons mb-6">
             <div className="ae-pros-box">
@@ -351,10 +351,10 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-4">
             The AI platforms that recommend local businesses, including ChatGPT, Perplexity, and Claude, are pattern-matching systems. A service with thin signal is not matched confidently to queries. A service with deep signal is matched reliably. The relationship between content depth and AI citation rate is not subtle: businesses with dedicated service pages see roughly three times more AI citations for that service than businesses that only list it on a general services page.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Want to see which of your services have strong AI signals vs weak ones?</p>
+            <p className="text-gray-400 text-sm">Want to see which of your services have strong AI signals vs weak ones? Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Run your free Blind Spot Report for a service-level visibility breakdown
             </Link>
@@ -368,10 +368,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Directory platforms like Angi, Thumbtack, and Yelp now directly feed AI recommendations (see our article on <Link href="/blog/does-being-on-angi-or-thumbtack-help-ai-find-you" className="text-[#F27D24] hover:text-[#D96416] transition-colors">how Thumbtack feeds ChatGPT directly</Link>). This creates a second layer of service-level visibility gaps beyond your website.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             When ChatGPT queries Thumbtack for "HVAC installation in Dallas," it looks for pros who have HVAC installation explicitly listed as a service in their Thumbtack profile. If you are an HVAC company with only "HVAC" listed as a general category, you may be skipped for this specific query in favor of a competitor who has "HVAC installation," "AC installation," and "heat pump installation" listed as separate explicit services.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <table className="ae-comparison-table mb-6">
             <thead>
@@ -409,7 +409,7 @@ export default function Page() {
             <div className="ae-callout-title">The Specificity Rule Applies Everywhere</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               The same principle that makes dedicated website pages outperform bullet points applies to directories: explicit, specific service names outperform general categories. "Emergency plumbing" gets matched to emergency plumbing queries. "Plumbing" alone may not. The businesses who list every service by its specific name, everywhere they appear online, consistently outperform those who group services into vague categories.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
         </section>
 
@@ -420,7 +420,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Once you know which services are under-visible, the fix is straightforward in concept: build the signal depth that AI is looking for. The execution takes work, but the direction is clear.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-cheat-sheet mb-6">
             <div className="ae-cheat-sheet-title">Service Visibility Gap Fix Checklist</div>
@@ -469,7 +469,7 @@ export default function Page() {
 
           <div className="ae-cta-block my-8">
             <h3 className="font-plus-jakarta text-xl font-bold text-white mb-3">See Exactly Which Services AI Is Missing</h3>
-            <p className="text-gray-400 mb-6">Our Blind Spot Report identifies which of your services have strong AI visibility and which have gaps, so you know exactly where to focus.</p>
+            <p className="text-gray-400 mb-6">Our Blind Spot Report identifies which of your services have strong AI visibility and which have gaps, so you know exactly where to focus. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot" className="ae-cta-primary inline-flex items-center gap-2">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -484,7 +484,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Before investing in fixes, it is worth knowing exactly what the current state is. Here is a simple audit you can run yourself to see which services AI recommends you for and which it misses.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-timeline mb-6">
             <div className="ae-timeline-item">
@@ -528,11 +528,11 @@ export default function Page() {
             <div className="ae-callout-title">The One-Question Self-Test</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               For any service you offer, ask yourself: "If someone asked ChatGPT exactly what I do, would my website give ChatGPT enough information to confidently cite me?" If the honest answer is no, that is your visibility gap. The services where the answer is yes are the ones AI recommends you for.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Want a professional audit instead of doing it yourself?</p>
+            <p className="text-gray-400 text-sm">Want a professional audit instead of doing it yourself? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report for a service-by-service AI visibility analysis
             </Link>
@@ -545,11 +545,11 @@ export default function Page() {
           <div className="grid md:grid-cols-2 gap-4">
             <Link href="/blog/how-to-write-a-service-page-that-ai-platforms-actually-cite" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
               <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">How-To Guides</span>
-              <p className="text-white font-semibold text-sm mt-1">How to Write a Service Page That AI Platforms Actually Cite</p>
+              <p className="text-white font-semibold text-sm mt-1">How to Write a Service Page That AI Platforms Actually Cite Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </Link>
             <Link href="/blog/why-ai-never-mentions-your-business-by-name" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
               <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Business Pain Points</span>
-              <p className="text-white font-semibold text-sm mt-1">Why AI Never Mentions Your Business by Name</p>
+              <p className="text-white font-semibold text-sm mt-1">Why AI Never Mentions Your Business by Name Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </Link>
           </div>
         </section>
@@ -557,7 +557,7 @@ export default function Page() {
         {/* 3-tier CTA */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Which Services AI Is Skipping For Your Business</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report breaks down your AI visibility by service, so you can see exactly where the gaps are and prioritize what to fix first.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report breaks down your AI visibility by service, so you can see exactly where the gaps are and prioritize what to fix first. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -585,7 +585,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
           </div>
@@ -624,7 +624,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border-b border-gray-800 pb-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-2 text-lg">{q}</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">{a}</p>
+                <p className="text-gray-400 leading-relaxed text-sm">{a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             ))}
           </div>
@@ -637,12 +637,12 @@ export default function Page() {
           </h2>
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             Stop letting AI ignore half your business. Get your free Blind Spot Report and see exactly which services have strong AI visibility and which ones need work.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-600 text-sm mt-4">Free. No credit card. Results in minutes.</p>
+          <p className="text-gray-600 text-sm mt-4">Free. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </main>

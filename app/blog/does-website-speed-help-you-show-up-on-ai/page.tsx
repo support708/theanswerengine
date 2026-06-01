@@ -197,7 +197,7 @@ export default function Page() {
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Published {publishDate} by Justin Borges
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           </div>
         </div>
       </header>
@@ -231,18 +231,18 @@ export default function Page() {
         {/* Intro */}
         <p className="text-gray-300 text-lg leading-relaxed mb-6">
           Here is a scenario playing out across thousands of small businesses right now: a web developer presents a quote to improve Core Web Vitals and page load times, promising it will help the business show up when people search on ChatGPT. The business owner pays up. Three months later, nothing changes on the AI front.
-        </p>
+         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
         <p className="text-gray-300 text-lg leading-relaxed mb-6">
           The developer was not lying. They just conflated two completely different systems: Google SEO and AI search. What drives your rankings on one has almost no direct bearing on the other. And the fastest-growing traffic source in 2025 and 2026 is AI search.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
         <div className="ae-cta-inline mb-10">
-          <p>Not sure what is actually holding you back from AI recommendations? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure what is actually holding you back from AI recommendations? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and find out in minutes. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         {/* TOC */}
         <div className="ae-toc mb-12">
-          <p className="ae-toc-title">In This Article</p>
+          <p className="ae-toc-title">In This Article Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <ol>
             <li><a href="#the-myth">The Speed Myth, Explained</a></li>
             <li><a href="#how-crawlers-work">How AI Crawlers Actually Work</a></li>
@@ -263,19 +263,19 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             The speed-for-AI-search myth has a logical origin. Google has used page speed as a ranking factor since 2010 and introduced Core Web Vitals (Largest Contentful Paint, Cumulative Layout Shift, Interaction to Next Paint) as official ranking signals in 2021. AI search tools like ChatGPT and Perplexity were built partly on top of data that Google indexed. So the reasoning goes: better speed means better Google rank, better Google rank means more AI citations.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             There is a kernel of truth in that chain: Google-ranked pages do appear in AI responses more often than unranked ones. But the connection between your actual page load time and whether AI cites you is weak at best and negligible at worst.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">The Conflation Problem</p>
-            <p>Most developers and even many SEO agencies are trained on Google-first thinking. When they say "speed helps AI search," they mean it helps the Google intermediary. That is not the same as improving your direct AI visibility, and for most local businesses, the difference is the entire ballgame.</p>
+            <p className="ae-callout-title">The Conflation Problem Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            <p>Most developers and even many SEO agencies are trained on Google-first thinking. When they say "speed helps AI search," they mean it helps the Google intermediary. That is not the same as improving your direct AI visibility, and for most local businesses, the difference is the entire ballgame. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-5">
             AI search engines have their own crawlers, their own indexing pipelines, and their own ranking signals that operate independently of Google. Understanding how those crawlers actually work demolishes the speed myth entirely.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Section: How AI Crawlers Work */}
@@ -285,10 +285,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             When Googlebot visits your page, it eventually renders JavaScript, loads images, evaluates user experience metrics, and scores your Core Web Vitals. All of that is relevant to Google because Google is measuring the experience of a human visitor.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             AI crawlers work differently. GPTBot (OpenAI), PerplexityBot, ClaudeBot (Anthropic), and Google's AI-specific crawlers pull raw HTML. They do not render JavaScript. They do not load images or stylesheets. They do not wait for fonts to swap in or animations to settle. They read the static text content of your page and extract meaning from it.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-comparison-table mb-8">
             <table>
@@ -337,20 +337,20 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-5">
             Notice the pattern: the crawlers that feed ChatGPT, Perplexity, and Claude directly do not render JavaScript and do not measure speed. They are text extraction engines. Your page could load in 10 seconds and they would not notice, as long as the server eventually responds and the HTML is readable.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-callout ae-callout-info mb-6">
-            <p className="ae-callout-title">The Only Speed Threshold That Matters</p>
-            <p>AI crawlers do have a server response timeout, typically around 20-30 seconds. If your server takes longer than that to return any response, the crawler may abandon the request and mark your page as temporarily inaccessible. This is an extreme edge case. If your site loads within 5 seconds for a normal visitor, you are well clear of any AI crawl risk.</p>
+            <p className="ae-callout-title">The Only Speed Threshold That Matters Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+            <p>AI crawlers do have a server response timeout, typically around 20-30 seconds. If your server takes longer than that to return any response, the crawler may abandon the request and mark your page as temporarily inaccessible. This is an extreme edge case. If your site loads within 5 seconds for a normal visitor, you are well clear of any AI crawl risk. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed">
             This means every optimization aimed at shaving milliseconds off your Largest Contentful Paint, reducing Cumulative Layout Shift, or improving Time to First Byte delivers zero measurable benefit to whether GPTBot or PerplexityBot decides your business is worth recommending.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Want to know exactly what AI crawlers see when they visit your site? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and see your AI footprint today.</p>
+          <p>Want to know exactly what AI crawlers see when they visit your site? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and see your AI footprint today. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </div>
 
         {/* Section: Study Data */}
@@ -360,10 +360,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             The clearest evidence against the speed myth comes from large-scale correlation studies run on AI citation behavior. Researchers have analyzed which characteristics of web pages predict whether AI models cite them, controlling for domain authority, topic relevance, and content length.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-bar-group mb-8">
-            <p className="text-white font-semibold mb-4">AI Citation Drivers: Relative Impact Score (100 = highest)</p>
+            <p className="text-white font-semibold mb-4">AI Citation Drivers: Relative Impact Score (100 = highest) Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <div className="ae-bar-item">
               <span className="ae-bar-label">Content Depth and Authority</span>
               <div className="ae-bar-track">
@@ -417,14 +417,14 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-5">
             The 107,000-page study produced correlation coefficients of -0.12 to -0.18 between Core Web Vitals scores and AI citation frequency. In statistical terms, that is essentially noise. A correlation of 0 means no relationship. A correlation of -0.15 means speed explains about 2% of the variance in citations, and in the negative direction (slightly faster pages are cited slightly more, but the relationship is so weak it is practically meaningless for any individual site).
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             By contrast, content depth and topical authority showed correlations in the 0.5 to 0.7 range, explaining 25-50% of citation frequency variance. Freshness came in at 0.35-0.45. These are the signals that actually move the needle.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-callout ae-callout-orange mb-6">
-            <p className="ae-callout-title">The 28% Freshness Effect</p>
-            <p>Pages that were updated within the past 30 days received 28% more AI citations on average than pages with identical content that had not been updated in over 90 days. AI models actively prefer fresh content because they are trying to give users accurate, current information. Publishing or updating regularly beats a faster server every time.</p>
+            <p className="ae-callout-title">The 28% Freshness Effect Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+            <p>Pages that were updated within the past 30 days received 28% more AI citations on average than pages with identical content that had not been updated in over 90 days. AI models actively prefer fresh content because they are trying to give users accurate, current information. Publishing or updating regularly beats a faster server every time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
         </section>
 
@@ -435,7 +435,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             If speed is the myth, authority and content are the reality. AI models are trying to answer specific questions with accurate, trustworthy information. The businesses they recommend are the ones that have built the clearest, most credible digital presence around the topics their customers care about.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -466,15 +466,15 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-5">
             The common thread in what actually works: <em>AI needs to understand who you are and why you are trustworthy.</em> That understanding comes from consistent, substantive content and third-party validation, not from whether your hero image loads in 0.8 seconds or 1.4 seconds.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <p className="text-gray-300 leading-relaxed mb-5">
             Learn how structured data plays into this in our article on <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup helps AI search</Link>. And if you want to understand what AI crawlers see when they visit your site, read our breakdown of <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">what your website looks like to an AI crawler</Link>.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Ready to see your real AI visibility gaps? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">(213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">run your free Blind Spot Report</Link>.</p>
+          <p>Ready to see your real AI visibility gaps? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">(213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">run your free Blind Spot Report</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
         </div>
 
         {/* Section: Speed, SEO, AI */}
@@ -484,13 +484,13 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             We want to be precise here, because this is not an argument against fixing your site speed. There is an indirect chain that connects Google performance to AI visibility, and it is worth understanding so you can prioritize correctly.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
               <span className="font-bold text-[#F27D24]">Step 1</span>
-              <p className="font-semibold text-white">You fix Core Web Vitals</p>
-              <p className="text-gray-400 text-sm">Page speed improves. Google notices and may adjust your rankings.</p>
+              <p className="font-semibold text-white">You fix Core Web Vitals Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+              <p className="text-gray-400 text-sm">Page speed improves. Google notices and may adjust your rankings. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
             <div className="ae-timeline-item">
               <span className="font-bold text-[#F27D24]">Step 2</span>

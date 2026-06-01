@@ -274,20 +274,20 @@ export default function Page() {
             questions from a fixed training dataset. That version exists, and it is extremely
             powerful for general questions and tasks. But there is a second product that is
             fundamentally different: ChatGPT Search.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             ChatGPT Search, launched in late 2024 and expanded throughout 2025, adds a real-time
             web browsing capability on top of the language model. When a user asks a question in
             ChatGPT Search mode, the system does not just pull from its training data. It browses
             the live web, retrieves current pages, reads structured data, checks reviews, and
             synthesizes everything into a single response with citations.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             For businesses, this distinction matters enormously. Regular ChatGPT might know about
             McDonald&apos;s because McDonald&apos;s was well-represented in its training data.
             ChatGPT Search can find your plumbing company, your dental practice, or your law firm
             because it is reading the web right now.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-info mb-6">
             <div className="ae-callout-title">Key Insight</div>
@@ -295,7 +295,7 @@ export default function Page() {
               ChatGPT Search controls 84.2% of all AI referral traffic. If your business is not
               optimized for real-time web discovery, you are invisible to the dominant AI search
               platform.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
 
           <div className="ae-cta-inline mb-6">
@@ -304,7 +304,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Get your free AI Blind Spot Report and find out in minutes.
               </Link>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
         </section>
 
@@ -318,13 +318,13 @@ export default function Page() {
             own crawler. When a query comes in, the system evaluates whether the question requires
             fresh information. If it does, it retrieves real-time web results before generating its
             answer.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The result is a synthesized answer, not a list of links. This is the shift that most
             business owners have not fully absorbed. Google shows you ten blue links and lets the
             user decide. ChatGPT Search reads those pages and writes a paragraph naming two or three
             businesses. Everyone else gets nothing.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
@@ -363,7 +363,7 @@ export default function Page() {
             A search for "best estate planning attorney" in Denver will surface different results
             than the same query from Miami. This is why local authority signals matter as much as
             general web authority.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </section>
 
         {/* Section 3 */}
@@ -376,13 +376,13 @@ export default function Page() {
             training data. That data has a cutoff date. It reflects what was on the internet up
             until a certain point, weighted heavily toward content that appeared many times across
             many sources.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This means regular ChatGPT will confidently name major national brands and
             widely-covered businesses. It might know about your competitor who got a feature in
             Forbes three years ago. It almost certainly does not know about your boutique accounting
             firm that has been serving clients for twenty years without a single press mention.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-warning mb-6">
             <div className="ae-callout-title">The Training Data Problem</div>
@@ -392,7 +392,7 @@ export default function Page() {
               National chains and franchise brands have more web footprint. The solution is building
               the kind of documented, structured online presence that AI can read and trust, starting
               today.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -400,7 +400,7 @@ export default function Page() {
             business changed its hours, moved locations, added services, or changed its ownership
             in the last year, regular ChatGPT does not know. ChatGPT Search does, because it reads
             your current web presence every time someone asks.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-cta-inline mb-6">
             <p>
@@ -408,7 +408,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Run your free Blind Spot Report and see exactly what the AI sees.
               </Link>
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
         </section>
 
@@ -421,12 +421,12 @@ export default function Page() {
             Here is the situation most local businesses are in right now: their website exists, their
             Google Business Profile is claimed, they have a handful of reviews, and they rank
             somewhere on page two of Google. By traditional SEO standards, they are doing fine.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             By ChatGPT Search standards, they are invisible. The gap between traditional SEO
             adequacy and AI search visibility is wider than most people realize. ChatGPT Search is
             not looking for keyword-dense pages. It is looking for evidence of authority.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -458,7 +458,7 @@ export default function Page() {
             They have coherent, structured web presences where every piece of information about
             their business is consistent, crawlable, and authoritative. That combination is
             exactly what ChatGPT Search rewards.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </section>
 
         {/* Section 5 */}
@@ -471,13 +471,13 @@ export default function Page() {
             meticulous researcher would: by looking at multiple independent sources and checking
             whether they tell a consistent story. When sources conflict, AI downgrades the
             business&apos;s trustworthiness. When they align, it builds confidence.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The specific signals ChatGPT Search appears to weight heavily include how well your
             business information is structured for machine reading, how consistently your name,
             address, and phone appear across authoritative directories, and how many credible
             external sources have mentioned your business in a positive or neutral context.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-orange mb-6">
             <div className="ae-callout-title">The Single Recommendation Slot Problem</div>
@@ -487,7 +487,7 @@ export default function Page() {
               95% of businesses in a given geography get zero mentions no matter how good they are.
               The businesses in that top slot are not necessarily the best. They are the most
               legible to AI.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -496,7 +496,7 @@ export default function Page() {
             the kinds of questions users actually ask. Generic "About Us" pages and thin service
             descriptions do not contribute to AI authority. Detailed, specific content that
             demonstrates genuine expertise does.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-4">
             If you want to understand more about how AI platforms evaluate authority signals,
@@ -505,7 +505,7 @@ export default function Page() {
               how Claude evaluates business authority
             </Link>{' '}
             applies many of the same principles that ChatGPT Search uses.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="ae-cta-inline mb-6">
             <p>
@@ -513,7 +513,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Get your free Blind Spot Report today.
               </Link>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
         </section>
 
@@ -525,7 +525,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-6">
             Each AI platform has a distinct architecture for business discovery. Understanding the
             differences helps you prioritize where to invest your optimization efforts.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="overflow-x-auto mb-8">
             <table className="ae-comparison-table">
@@ -585,7 +585,7 @@ export default function Page() {
             </Link>
             . The signal overlap between platforms is significant, which means optimizing for one
             tends to lift your visibility across all of them.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-cheat-sheet mb-8">
             <div className="ae-cheat-sheet-title">ChatGPT Search Optimization Cheat Sheet</div>
@@ -635,7 +635,7 @@ export default function Page() {
               whether you deserve a recommendation. Most businesses are not ready for that
               evaluation. The ones that are will own a disproportionate share of AI-driven customer
               inquiries for years to come.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
         </section>
 
@@ -648,7 +648,7 @@ export default function Page() {
             Most businesses assume they have AI visibility. Most are wrong. Our free Blind Spot
             Report audits what ChatGPT Search, Perplexity, and Google AI Overviews currently say
             about your business and shows you exactly what is blocking your recommendations.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -691,7 +691,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
           </div>
@@ -726,7 +726,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
-                <p className="text-gray-400 leading-relaxed">{a}</p>
+                <p className="text-gray-400 leading-relaxed">{a} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             ))}
           </div>
@@ -741,7 +741,7 @@ export default function Page() {
             The gap between businesses that appear in AI recommendations and those that do not is
             widening every month. Get your free Blind Spot Report and find out exactly where you
             stand before that gap becomes impossible to close.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <Link
             href="/blindspot"
             className="ae-cta-primary inline-flex items-center gap-2"

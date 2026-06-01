@@ -271,14 +271,14 @@ export default function AEOGuidePage() {
 
             <p>Answer Engine Optimization is the process of making your content easy for AI systems to find, understand, and cite when answering user questions. Traditional SEO gets you ranked in a list of blue links. AEO gets you cited as the actual answer.</p>
 
-            <p>The distinction matters because AI systems do not send users to a list of ten options. They synthesize an answer and attribute it to one or a handful of sources. If your content is not structured to be extracted and cited, you simply do not exist in that answer.</p>
+            <p>The distinction matters because AI systems do not send users to a list of ten options. They synthesize an answer and attribute it to one or a handful of sources. If your content is not structured to be extracted and cited, you simply do not exist in that answer. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Reality Check</div>
               <p>When someone asks an AI assistant, &quot;Who is the best emergency plumber near me?&quot; only the businesses that have invested in AEO get mentioned. Everyone else is invisible. This is not an abstract tech problem. It is a lead-generation problem.</p>
             </div>
 
-            <p>For a local plumber, dentist, roofer, or any service business, AEO determines whether you show up when AI platforms answer questions about your industry and location. The stakes are simple: get cited or get skipped.</p>
+            <p>For a local plumber, dentist, roofer, or any service business, AEO determines whether you show up when AI platforms answer questions about your industry and location. The stakes are simple: get cited or get skipped. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -289,7 +289,7 @@ export default function AEOGuidePage() {
             <span className="ae-section-label">The Urgency</span>
             <h2>Why Answer Engine Optimization Matters Right Now</h2>
 
-            <p>The numbers are hard to ignore. ChatGPT reached 900 million monthly users by late 2025. Over 800 million people use ChatGPT or related products weekly for information. AI Overviews now appear in 16% of all Google desktop searches in the United States.</p>
+            <p>The numbers are hard to ignore. ChatGPT reached 900 million monthly users by late 2025. Over 800 million people use ChatGPT or related products weekly for information. AI Overviews now appear in 16% of all Google desktop searches in the United States. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Meanwhile, 60% of US searches in 2024 ended without a click, up from 26% in 2022. Only 35% of Google searches end with a click-through. Non-branded keyword click-through rates drop by nearly 20% when AI Overviews appear.</p>
 
@@ -320,7 +320,7 @@ export default function AEOGuidePage() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Conversion Advantage</div>
-              <p>AI citation visitors convert at 4.4 times the rate of traditional organic search visitors. Getting cited is not just about visibility. It drives better-quality leads who arrive already trusting your expertise.</p>
+              <p>AI citation visitors convert at 4.4 times the rate of traditional organic search visitors. Getting cited is not just about visibility. It drives better-quality leads who arrive already trusting your expertise. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             <p>Companies that implemented AEO strategies in early 2024 captured 3.4 times more answer engine traffic than competitors who delayed. That gap is widening every month. Voice commerce alone is projected to reach $80 billion annually, all driven by AI assistants answering questions and recommending services.</p>
@@ -331,7 +331,7 @@ export default function AEOGuidePage() {
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI platforms can even see your business? <Link href="/blindspot">Run the free visibility check</Link> before your competitors do.</p>
+              <p>Not sure if AI platforms can even see your business? <Link href="/blindspot">Run the free visibility check</Link> before your competitors do. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* Section 3 */}
@@ -385,7 +385,7 @@ export default function AEOGuidePage() {
               </table>
             </div>
 
-            <p>Critically, 99% of URLs appearing in Google AI Mode come from the top 20 organic search results. And 76% of cited sources in Google AI Overviews come from the top 10 organic results. So SEO still powers your foundation. AEO is how you get surfaced as the answer once you have that foundation.</p>
+            <p>Critically, 99% of URLs appearing in Google AI Mode come from the top 20 organic search results. And 76% of cited sources in Google AI Overviews come from the top 10 organic results. So SEO still powers your foundation. AEO is how you get surfaced as the answer once you have that foundation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* Pros / Cons */}
             <div className="ae-pros-cons not-prose">
@@ -420,7 +420,7 @@ export default function AEOGuidePage() {
             <span className="ae-section-label">How It Works</span>
             <h2>How Answer Engines Work: The Technology Behind AEO</h2>
 
-            <p>AI answer engines use large language models (LLMs) to process a question, retrieve relevant content from their training data or live web searches, synthesize an answer, and in many cases cite the sources they drew from.</p>
+            <p>AI answer engines use large language models (LLMs) to process a question, retrieve relevant content from their training data or live web searches, synthesize an answer, and in many cases cite the sources they drew from. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p>Each platform works slightly differently. Google AI Overviews pull primarily from indexed web pages, heavily weighted toward pages that already rank well organically. Perplexity performs live web searches and cites sources directly. ChatGPT, in its browsing mode, also retrieves live content. Microsoft Copilot is integrated into Windows and Microsoft 365 products, drawing from Bing&apos;s index.</p>
 
@@ -428,7 +428,7 @@ export default function AEOGuidePage() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Step 1: User asks a question</strong>
-                <p>A potential customer types a question into ChatGPT, Perplexity, or Google. The AI system begins processing.</p>
+                <p>A potential customer types a question into ChatGPT, Perplexity, or Google. The AI system begins processing. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: AI retrieves content</strong>
@@ -436,7 +436,7 @@ export default function AEOGuidePage() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: AI synthesizes an answer</strong>
-                <p>The LLM evaluates content quality, structure, and authority signals. It selects one or a few sources to build its answer.</p>
+                <p>The LLM evaluates content quality, structure, and authority signals. It selects one or a few sources to build its answer. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Citation or silence</strong>
@@ -444,7 +444,7 @@ export default function AEOGuidePage() {
               </div>
             </div>
 
-            <p>What all AI platforms have in common: they prefer content that is clearly structured, specific, and easy to extract. A wall of text with no headers and buried answers is difficult for an LLM to parse. A page with a clear question, a direct two-sentence answer, and supporting detail organized in scannable lists is much more likely to be cited.</p>
+            <p>What all AI platforms have in common: they prefer content that is clearly structured, specific, and easy to extract. A wall of text with no headers and buried answers is difficult for an LLM to parse. A page with a clear question, a direct two-sentence answer, and supporting detail organized in scannable lists is much more likely to be cited. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
@@ -455,7 +455,7 @@ export default function AEOGuidePage() {
             <span className="ae-section-label">The Playbook</span>
             <h2>Core AEO Strategies and Best Practices</h2>
 
-            <p>These are the practical moves that actually improve your AI citation rate:</p>
+            <p>These are the practical moves that actually improve your AI citation rate: Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -519,19 +519,19 @@ export default function AEOGuidePage() {
             <p>AI systems scan for concise, extractable answers. Put the direct answer at the top, then support it with detail. This is called the &quot;answer extract zone.&quot; If the AI has to dig through three paragraphs of preamble to find what it needs, it will pick a competitor&apos;s cleaner page instead.</p>
 
             <h3>2. Use question-based headers that match how people actually ask</h3>
-            <p>Instead of &quot;Our Services,&quot; write &quot;What plumbing services do we offer in Denver?&quot; This matches conversational AI queries and signals to the system exactly what your content answers.</p>
+            <p>Instead of &quot;Our Services,&quot; write &quot;What plumbing services do we offer in Denver?&quot; This matches conversational AI queries and signals to the system exactly what your content answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>3. Write in lists, steps, and tables</h3>
             <p>Listicles make up 32% of all AI citations. LLMs prefer to extract from a single comprehensive source rather than piece together fragments. Scannable structure wins every time.</p>
 
             <h3>4. Include freshness signals throughout your content</h3>
-            <p>Use specific year references (2025, 2026), clear publication dates, and update your content quarterly. AI systems weight recency heavily when deciding which source to cite.</p>
+            <p>Use specific year references (2025, 2026), clear publication dates, and update your content quarterly. AI systems weight recency heavily when deciding which source to cite. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>5. Earn third-party coverage and citations</h3>
             <p>82% of links cited by AI come from earned media sources: PR, third-party blogs, industry coverage. Being cited by others makes you more likely to be cited by AI.</p>
 
             <h3>6. Be transparent about pricing and service details</h3>
-            <p>For local service businesses, AI systems frequently cite pages with clear pricing and cost information. If your website hides pricing, you lose a major citation trigger.</p>
+            <p>For local service businesses, AI systems frequently cite pages with clear pricing and cost information. If your website hides pricing, you lose a major citation trigger. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-quote not-prose">
               <blockquote>&quot;LLMs prefer to extract information from a single, comprehensive source rather than aggregate from multiple pages.&quot;</blockquote>
@@ -547,7 +547,7 @@ export default function AEOGuidePage() {
             <span className="ae-section-label">Content Architecture</span>
             <h2>Content Structure for AI Citations</h2>
 
-            <p>Structure is not about aesthetics. It is about extractability. AI systems parse your HTML to understand what your content says and whether it answers a specific question. Here is what to prioritize:</p>
+            <p>Structure is not about aesthetics. It is about extractability. AI systems parse your HTML to understand what your content says and whether it answers a specific question. Here is what to prioritize: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Extractability Checklist</div>
@@ -564,7 +564,7 @@ export default function AEOGuidePage() {
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about content structure? Email us at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for a free content audit.</p>
+              <p>Questions about content structure? Email us at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for a free content audit. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             {/* Section 7 */}
@@ -596,7 +596,7 @@ export default function AEOGuidePage() {
               </div>
             </div>
 
-            <p>If you are a local service business and you do not have LocalBusiness and FAQPage schema on your site, those are your two starting points. They signal exactly the kind of geographic and service-specific information AI assistants pull when answering local queries.</p>
+            <p>If you are a local service business and you do not have LocalBusiness and FAQPage schema on your site, those are your two starting points. They signal exactly the kind of geographic and service-specific information AI assistants pull when answering local queries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
@@ -607,7 +607,7 @@ export default function AEOGuidePage() {
             <span className="ae-section-label">Trust Signals</span>
             <h2>Building Authority and Trust Signals (E-E-A-T)</h2>
 
-            <p>E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. Google developed it to evaluate content quality, but it is equally how AI systems assess whether your content is worth citing.</p>
+            <p>E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. Google developed it to evaluate content quality, but it is equally how AI systems assess whether your content is worth citing. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>LLMs favor content that reflects real-world use, personal insights, and original research. This aligns directly with E-E-A-T. For a local service business, that means:</p>
 
@@ -653,7 +653,7 @@ export default function AEOGuidePage() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Curious how your trust signals stack up? Call <a href="tel:+12134442229">(213) 444-2229</a> for a free consultation.</p>
+              <p>Curious how your trust signals stack up? Call <a href="tel:+12134442229">(213) 444-2229</a> for a free consultation. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* Section 9 */}
@@ -704,7 +704,7 @@ export default function AEOGuidePage() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Do Not Overlook Perplexity</div>
-              <p>When Perplexity AI cites your site, it functions as a direct third-party endorsement of your credibility. The AI has essentially vetted your content and chosen it as a reliable answer. This is digital word-of-mouth at scale, and it is growing faster than most businesses realize.</p>
+              <p>When Perplexity AI cites your site, it functions as a direct third-party endorsement of your credibility. The AI has essentially vetted your content and chosen it as a reliable answer. This is digital word-of-mouth at scale, and it is growing faster than most businesses realize. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             {/* CTA 9 */}
@@ -730,7 +730,7 @@ export default function AEOGuidePage() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes? <Link href="/blindspot">Find out with a free AI visibility check</Link> that shows exactly what needs fixing.</p>
+              <p>Making any of these mistakes? <Link href="/blindspot">Find out with a free AI visibility check</Link> that shows exactly what needs fixing. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             {/* Section 11 */}
@@ -762,7 +762,7 @@ export default function AEOGuidePage() {
               </div>
             </div>
 
-            <p>The measurement infrastructure for AEO is still maturing, but the gap between businesses investing in tracking and those flying blind is a real competitive advantage. Monitor brand mentions, track referral traffic from AI platforms, and regularly test how your business appears in AI answers.</p>
+            <p>The measurement infrastructure for AEO is still maturing, but the gap between businesses investing in tracking and those flying blind is a real competitive advantage. Monitor brand mentions, track referral traffic from AI platforms, and regularly test how your business appears in AI answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* CTA 11 */}
             <div className="ae-cta-inline not-prose">
@@ -777,7 +777,7 @@ export default function AEOGuidePage() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Weeks 1-2: Foundation</strong>
-                <p>Implement schema markup, restructure headers to question format, add FAQ sections. Quick wins that signal AI systems immediately.</p>
+                <p>Implement schema markup, restructure headers to question format, add FAQ sections. Quick wins that signal AI systems immediately. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Weeks 3-6: Early Citations</strong>
@@ -785,7 +785,7 @@ export default function AEOGuidePage() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Months 2-3: Building Momentum</strong>
-                <p>Consistent content publishing, earned media outreach, and topical cluster development. Citation patterns start becoming reliable.</p>
+                <p>Consistent content publishing, earned media outreach, and topical cluster development. Citation patterns start becoming reliable. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Months 3-6: Sustained Authority</strong>
@@ -793,7 +793,7 @@ export default function AEOGuidePage() {
               </div>
             </div>
 
-            <p>Your timeline depends on three things: your existing SEO foundation, how thoroughly you implement content structure and schema, and how aggressively you pursue earned media and third-party mentions.</p>
+            <p>Your timeline depends on three things: your existing SEO foundation, how thoroughly you implement content structure and schema, and how aggressively you pursue earned media and third-party mentions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <div className="ae-takeaway not-prose">
               <strong>Key Takeaway:</strong> The businesses seeing the fastest AEO results are those that already have decent organic rankings and layer AEO-specific improvements on top. If you are starting from zero, building the SEO foundation first adds time, but the two efforts run in parallel and reinforce each other.
@@ -808,7 +808,7 @@ export default function AEOGuidePage() {
             <span className="ae-section-label">Local Business Playbook</span>
             <h2>AEO for Local Service Businesses: Your Specific Playbook</h2>
 
-            <p>Most AEO guides talk in abstractions. Here is what it looks like for a concrete local service business, whether you are a plumber, roofer, dentist, or landscaper:</p>
+            <p>Most AEO guides talk in abstractions. Here is what it looks like for a concrete local service business, whether you are a plumber, roofer, dentist, or landscaper: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Local AEO Action Plan</div>
@@ -885,7 +885,7 @@ export default function AEOGuidePage() {
 
             {/* CTA 14 */}
             <div className="ae-cta-inline not-prose">
-              <p>This cheat sheet is just the beginning. <Link href="/blindspot">Get your free Blind Spot Report</Link> for a personalized action plan based on your actual AI visibility.</p>
+              <p>This cheat sheet is just the beginning. <Link href="/blindspot">Get your free Blind Spot Report</Link> for a personalized action plan based on your actual AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
           </div>{/* end prose */}
@@ -897,7 +897,7 @@ export default function AEOGuidePage() {
             </div>
             <div>
               <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges</p>
-              <p style={{ color: '#9CA3AF', fontSize: '14px' }}>We help local service businesses become the answer AI platforms recommend. Published March 8, 2026 at theanswerengine.ai</p>
+              <p style={{ color: '#9CA3AF', fontSize: '14px' }}>We help local service businesses become the answer AI platforms recommend. Published March 8, 2026 at theanswerengine.ai Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
           </div>
 
@@ -988,7 +988,7 @@ export default function AEOGuidePage() {
 
           {/* CTA 15 */}
           <div className="ae-cta-inline not-prose" style={{ marginTop: '32px' }}>
-            <p>Still have questions? Reach out at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> or call <a href="tel:+12134442229">(213) 444-2229</a>. We are here to help.</p>
+            <p>Still have questions? Reach out at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> or call <a href="tel:+12134442229">(213) 444-2229</a>. We are here to help. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           {/* Final CTA */}

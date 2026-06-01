@@ -270,19 +270,19 @@ export default function Page() {
 
             <p>A person looking for a gym used to open Google, type &quot;gyms near me,&quot; and scroll through map pack results. That behavior is changing. Today, a growing number of people open ChatGPT or Google AI and ask something much more specific: &quot;What is the best CrossFit gym in [city] with early morning classes?&quot; or &quot;Which yoga studios near me offer heated classes and monthly memberships under $150?&quot;</p>
 
-            <p>The answer comes back as a direct recommendation. AI names specific gyms, explains why it chose them, and often includes details like class offerings, pricing structure, hours of operation, and member sentiment. The person reads the answer, checks the website, and signs up. The decision cycle that used to involve visiting three gyms and comparing flyers now happens in minutes.</p>
+            <p>The answer comes back as a direct recommendation. AI names specific gyms, explains why it chose them, and often includes details like class offerings, pricing structure, hours of operation, and member sentiment. The person reads the answer, checks the website, and signs up. The decision cycle that used to involve visiting three gyms and comparing flyers now happens in minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>The average gym selection window has compressed from weeks to days with AI search. People who ask AI for a gym recommendation are not browsing. They are ready to commit.</p>
             </div>
 
-            <p>This shift matters because AI does not randomly select which fitness businesses to recommend. It evaluates a specific set of signals before making a recommendation, and most gyms are not sending any of those signals. The result: a small number of well-positioned fitness businesses are capturing a disproportionate share of AI-driven membership inquiries while their competitors remain invisible.</p>
+            <p>This shift matters because AI does not randomly select which fitness businesses to recommend. It evaluates a specific set of signals before making a recommendation, and most gyms are not sending any of those signals. The result: a small number of well-positioned fitness businesses are capturing a disproportionate share of AI-driven membership inquiries while their competitors remain invisible. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>For a deeper look at how this process works across all business types, see our guide on <Link href="/blog/what-happens-when-customer-asks-ai-find-business">what happens when a customer asks AI to find a business</Link>.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your gym.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of your gym. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -294,13 +294,13 @@ export default function Page() {
 
             <h3>Cross-Platform Consistency</h3>
 
-            <p>When someone asks AI about a gym, the platform checks your information across Google Business Profile, Yelp, ClassPass, Mindbody, Facebook, and fitness-specific directories. It is looking for consistency. Does your gym name match everywhere? Is the phone number the same? Are class schedules listed accurately? Do the hours align?</p>
+            <p>When someone asks AI about a gym, the platform checks your information across Google Business Profile, Yelp, ClassPass, Mindbody, Facebook, and fitness-specific directories. It is looking for consistency. Does your gym name match everywhere? Is the phone number the same? Are class schedules listed accurately? Do the hours align? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Inconsistencies in this basic information signal unreliability to AI. If your Google profile says you open at 5 AM and Yelp says 6 AM, AI has less confidence recommending you because it cannot determine which information is correct. For gyms that frequently update their schedules, this problem compounds quickly.</p>
 
             <h3>Content Depth and Specificity</h3>
 
-            <p>A gym website with a single &quot;Classes&quot; page listing twelve offerings in bullet points gives AI almost nothing to work with. AI needs depth. It needs dedicated pages for each class type, each training program, and each membership tier that answer the specific questions prospective members ask.</p>
+            <p>A gym website with a single &quot;Classes&quot; page listing twelve offerings in bullet points gives AI almost nothing to work with. AI needs depth. It needs dedicated pages for each class type, each training program, and each membership tier that answer the specific questions prospective members ask. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>What AI looks for on gym websites:</strong> Individual pages for each class or program with detailed descriptions, schedule information, instructor qualifications, skill level requirements, and expected outcomes. Pages that answer questions like &quot;What should I expect in my first CrossFit class?&quot; or &quot;Is Pilates good for back pain?&quot; perform significantly better in AI citations than a single page listing all classes.</p>
@@ -308,13 +308,13 @@ export default function Page() {
 
             <h3>Authority Signals</h3>
 
-            <p>AI measures your gym&apos;s authority through citations, backlinks, directory presence, certifications, and the overall depth of your digital footprint. A fitness studio that appears on ClassPass, maintains a verified Yelp profile, has trainer profiles on ACE or NASM, and publishes educational fitness content carries more weight than a gym with only a basic website and a Google Business Profile.</p>
+            <p>AI measures your gym&apos;s authority through citations, backlinks, directory presence, certifications, and the overall depth of your digital footprint. A fitness studio that appears on ClassPass, maintains a verified Yelp profile, has trainer profiles on ACE or NASM, and publishes educational fitness content carries more weight than a gym with only a basic website and a Google Business Profile. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>To understand how AI evaluates business authority in more detail, read our breakdown on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link>.</p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when someone searches for a gym like yours?</p>
+              <p>Want to know exactly what AI says when someone searches for a gym like yours? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
 
@@ -324,19 +324,19 @@ export default function Page() {
 
             <p>One of the most significant advantages for independent gyms and boutique studios in AI search: AI does not care about brand recognition. It cares about content relevance and depth. A local Pilates studio with detailed, well-structured content about every class it offers can outrank a national chain with thousands of locations but a generic template website.</p>
 
-            <p>The fitness industry has a unique advantage here. Every class type, training methodology, and membership tier creates a natural content opportunity. A gym that offers CrossFit, yoga, personal training, and group fitness has four distinct content pillars, each with dozens of subtopics that prospective members actively search for.</p>
+            <p>The fitness industry has a unique advantage here. Every class type, training methodology, and membership tier creates a natural content opportunity. A gym that offers CrossFit, yoga, personal training, and group fitness has four distinct content pillars, each with dozens of subtopics that prospective members actively search for. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <p><strong>The boutique advantage:</strong> Specialized studios have a natural edge in AI search. When someone asks &quot;best Pilates studio for beginners in [city],&quot; AI prefers the studio with a dedicated page explaining its beginner program, instructor approach, what to expect in the first session, and pricing transparency. The national chain with a paragraph about Pilates buried in a general classes page cannot compete on relevance.</p>
             </div>
 
-            <p>This does not mean content alone is enough. AI cross-references what you say on your website against what the rest of the internet says about you. But it does mean that the gym willing to invest in detailed, authentic content about its programs, trainers, and community has a structural advantage over competitors relying on stock photos and marketing copy.</p>
+            <p>This does not mean content alone is enough. AI cross-references what you say on your website against what the rest of the internet says about you. But it does mean that the gym willing to invest in detailed, authentic content about its programs, trainers, and community has a structural advantage over competitors relying on stock photos and marketing copy. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>For more on why content depth drives AI visibility, see our article on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether having a blog helps AI recommend your business</Link>.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how your content depth compares to the gyms AI is already recommending in your market.</p>
+              <p>See how your content depth compares to the gyms AI is already recommending in your market. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -373,13 +373,13 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The most important factor across all directories is consistency. Your gym name, address, phone number, hours, and class offerings must be identical everywhere. AI platforms use this consistency as a reliability signal. Even small discrepancies reduce AI confidence in your business data.</p>
+            <p>The most important factor across all directories is consistency. Your gym name, address, phone number, hours, and class offerings must be identical everywhere. AI platforms use this consistency as a reliability signal. Even small discrepancies reduce AI confidence in your business data. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>For more on which directories carry the most weight, read our guide on <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">optimizing your Google Business Profile for AI</Link>.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which directories AI platforms are pulling your gym&apos;s data from? Our report shows you.</p>
+              <p>Not sure which directories AI platforms are pulling your gym&apos;s data from? Our report shows you. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -390,7 +390,7 @@ export default function Page() {
             <p>Here is the uncomfortable truth: the majority of gym websites are built in ways that AI crawlers cannot read. Modern fitness website builders produce visually appealing sites that rely heavily on JavaScript to render content. For human visitors with browsers, this works fine. For AI crawlers, it is a blank page.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>Most JavaScript-heavy gym sites are invisible to AI crawlers.</strong> This means that even if your gym website has great content, detailed class descriptions, and glowing member testimonials, none of it matters if the content is rendered via JavaScript that AI crawlers cannot execute. Your gym might as well not have a website at all, from AI&apos;s perspective.</p>
+              <p><strong>Most JavaScript-heavy gym sites are invisible to AI crawlers.</strong> This means that even if your gym website has great content, detailed class descriptions, and glowing member testimonials, none of it matters if the content is rendered via JavaScript that AI crawlers cannot execute. Your gym might as well not have a website at all, from AI&apos;s perspective. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             <p>Beyond JavaScript rendering, several other technical factors determine whether AI can access your content. Page speed matters because AI crawlers have time limits. If your pages load slowly due to large images or video backgrounds (common on gym sites), the crawler moves on. Schema markup tells AI what your content means. Without it, AI has to guess whether a page is about your yoga class schedule or a blog post about flexibility tips.</p>
@@ -440,7 +440,7 @@ export default function Page() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Discover whether AI crawlers can actually read your gym website.</p>
+              <p>Discover whether AI crawlers can actually read your gym website. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -450,13 +450,13 @@ export default function Page() {
 
             <p>Member reviews are one of the strongest signals AI uses when deciding which gym to recommend. But there is a critical distinction most fitness businesses miss: not all reviews are visible to AI platforms.</p>
 
-            <p>Google reviews are essential for Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them because Google renders reviews via JavaScript. This means your 4.8-star Google rating with 500 reviews might be completely invisible to the AI platforms that are increasingly driving membership decisions.</p>
+            <p>Google reviews are essential for Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them because Google renders reviews via JavaScript. This means your 4.8-star Google rating with 500 reviews might be completely invisible to the AI platforms that are increasingly driving membership decisions. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>Where AI actually reads gym reviews:</strong> Yelp, ClassPass, and testimonials published directly on your website as plain HTML text. Embedded review widgets from third-party platforms are typically JavaScript-rendered and invisible to AI crawlers. Member testimonials hard-coded into your website HTML are the single most reliable way to surface review sentiment to AI.</p>
             </div>
 
-            <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;The 6 AM CrossFit class with Coach Marcus completely transformed my fitness. He modified every movement for my bad knee and I have lost 30 pounds in four months&quot; carries far more weight than &quot;Great gym, would recommend.&quot; Specific reviews mentioning classes, trainers, outcomes, and experiences give AI the confidence it needs to recommend your gym for those specific queries.</p>
+            <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;The 6 AM CrossFit class with Coach Marcus completely transformed my fitness. He modified every movement for my bad knee and I have lost 30 pounds in four months&quot; carries far more weight than &quot;Great gym, would recommend.&quot; Specific reviews mentioning classes, trainers, outcomes, and experiences give AI the confidence it needs to recommend your gym for those specific queries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -468,12 +468,12 @@ export default function Page() {
             <span className="ae-section-label" id="voice-search">Voice Search</span>
             <h2>Voice Search and the Single-Answer Problem</h2>
 
-            <p>With 8.4 billion voice assistants in use globally, a significant share of gym searches now happen through voice. And voice search creates a fundamentally different competitive landscape than typed search. When someone types a query, they see a list of options. When someone asks Siri or Alexa to &quot;find me a gym near my office,&quot; they get one answer. Maybe two. Being second on a list of ten is very different from not being the one answer a voice assistant gives.</p>
+            <p>With 8.4 billion voice assistants in use globally, a significant share of gym searches now happen through voice. And voice search creates a fundamentally different competitive landscape than typed search. When someone types a query, they see a list of options. When someone asks Siri or Alexa to &quot;find me a gym near my office,&quot; they get one answer. Maybe two. Being second on a list of ten is very different from not being the one answer a voice assistant gives. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>Voice queries for gyms tend to be more conversational and specific than typed searches. People say things like &quot;Find me a yoga studio near downtown that has classes before work&quot; or &quot;What gym near me is good for beginners and has personal training?&quot; These queries test multiple data points simultaneously: location, class types, scheduling, and service offerings. The gym that has all of these data points structured and accessible to AI is the one that gets recommended.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The single-answer stakes:</strong> In voice search, there is no &quot;page one.&quot; There is the answer and there is silence. If your gym is not the answer, you do not exist in that discovery channel. And with voice search adoption growing rapidly, this channel represents an increasing share of how people find fitness businesses.</p>
+              <p><strong>The single-answer stakes:</strong> In voice search, there is no &quot;page one.&quot; There is the answer and there is silence. If your gym is not the answer, you do not exist in that discovery channel. And with voice search adoption growing rapidly, this channel represents an increasing share of how people find fitness businesses. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             {/* CTA 7 */}
@@ -486,7 +486,7 @@ export default function Page() {
             <span className="ae-section-label" id="common-gaps">Common Gaps</span>
             <h2>The 5 Gaps Keeping Most Gyms Out of AI Results</h2>
 
-            <p>After analyzing hundreds of fitness business websites and their AI visibility profiles, five patterns consistently prevent gyms from being recommended.</p>
+            <p>After analyzing hundreds of fitness business websites and their AI visibility profiles, five patterns consistently prevent gyms from being recommended. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>1. Template Websites With No Unique Content</h3>
 
@@ -494,7 +494,7 @@ export default function Page() {
 
             <h3>2. Missing Trainer Credentials</h3>
 
-            <p>A surprising number of gym websites feature team pages with photos and first names but no certifications, no training background, no specialty areas, and no years of experience. AI platforms look for verifiable credentials. When a trainer&apos;s bio includes their NASM, ACE, or CSCS certification, specialty training, and areas of expertise, AI treats that content as authoritative. Without it, your trainers are invisible to AI evaluation.</p>
+            <p>A surprising number of gym websites feature team pages with photos and first names but no certifications, no training background, no specialty areas, and no years of experience. AI platforms look for verifiable credentials. When a trainer&apos;s bio includes their NASM, ACE, or CSCS certification, specialty training, and areas of expertise, AI treats that content as authoritative. Without it, your trainers are invisible to AI evaluation. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>3. No Dedicated Class or Program Pages</h3>
 
@@ -502,7 +502,7 @@ export default function Page() {
 
             <h3>4. Reviews Trapped Behind JavaScript</h3>
 
-            <p>Many gym websites embed review widgets from Google, Facebook, or third-party platforms. These widgets render via JavaScript, which means AI crawlers see an empty container where the reviews should be. The gym has hundreds of positive reviews, but AI never sees them.</p>
+            <p>Many gym websites embed review widgets from Google, Facebook, or third-party platforms. These widgets render via JavaScript, which means AI crawlers see an empty container where the reviews should be. The gym has hundreds of positive reviews, but AI never sees them. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>5. Inconsistent Business Information Across Directories</h3>
 
@@ -553,7 +553,7 @@ export default function Page() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Which of these gaps is hurting your gym? Our free report identifies every one of them.</p>
+              <p>Which of these gaps is hurting your gym? Our free report identifies every one of them. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -582,7 +582,7 @@ export default function Page() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your gym&apos;s specific classes, market, and competitors? We do that.</p>
+              <p>Want this cheat sheet customized to your gym&apos;s specific classes, market, and competitors? We do that. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -592,7 +592,7 @@ export default function Page() {
 
             <p>Gym discovery is shifting permanently. AI search is not a trend. It is a new channel that will grow alongside traditional search for years to come. The fitness businesses that build AI visibility now will have a structural advantage that compounds over time, because AI platforms develop confidence in sources they have cited repeatedly.</p>
 
-            <p>Today, a prospective member might ask AI for a general gym recommendation. Within the next year, people will ask AI to compare specific gyms, check class schedules, evaluate trainer qualifications, and even recommend programs based on their fitness goals and injuries. The gyms with deep, structured content about every class, every trainer, and every program will be the ones AI trusts enough to surface in those increasingly specific queries.</p>
+            <p>Today, a prospective member might ask AI for a general gym recommendation. Within the next year, people will ask AI to compare specific gyms, check class schedules, evaluate trainer qualifications, and even recommend programs based on their fitness goals and injuries. The gyms with deep, structured content about every class, every trainer, and every program will be the ones AI trusts enough to surface in those increasingly specific queries. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>The window is open now.</strong> Most gyms have not optimized for AI search, which means early movers face less competition. The fitness businesses taking action in 2026 will be the ones AI platforms have learned to trust by 2027. Waiting means competing against an entrenched advantage.</p>
@@ -600,7 +600,7 @@ export default function Page() {
 
             {/* CTA 11 */}
             <div className="ae-cta-inline not-prose">
-              <p>The gyms acting now will own their market in AI search. The ones waiting will be playing catch-up.</p>
+              <p>The gyms acting now will own their market in AI search. The ones waiting will be playing catch-up. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">See Where Your Gym Stands &rarr;</Link>
             </div>
 
@@ -612,7 +612,7 @@ export default function Page() {
 
             {/* CTA 13 */}
             <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for fitness businesses and local service companies.</p>
+              <p>Or call us directly. We specialize in AI visibility for fitness businesses and local service companies. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -644,7 +644,7 @@ export default function Page() {
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">Justin Borges</p>
+              <p className="text-white font-semibold">Justin Borges <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <p className="text-sm text-gray-400">
                 We help gyms, fitness studios, and local service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily so you do not have to.
               </p>
@@ -657,19 +657,19 @@ export default function Page() {
             <h2>Frequently Asked Questions</h2>
 
             <h3>Do gyms really need to worry about AI search visibility?</h3>
-            <p>Yes. A record 77 million Americans hold gym memberships, and a growing percentage of them are using AI platforms like ChatGPT and Google AI to find new fitness options. People ask AI for specific recommendations like &quot;best CrossFit gym near me with early morning classes.&quot; If your gym is not visible to these platforms, you are missing an entire discovery channel that grows larger every month.</p>
+            <p>Yes. A record 77 million Americans hold gym memberships, and a growing percentage of them are using AI platforms like ChatGPT and Google AI to find new fitness options. People ask AI for specific recommendations like &quot;best CrossFit gym near me with early morning classes.&quot; If your gym is not visible to these platforms, you are missing an entire discovery channel that grows larger every month. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Which AI platforms recommend gyms and fitness studios?</h3>
             <p>ChatGPT, Google AI Overviews, Perplexity, Claude, Gemini, and voice assistants like Siri and Alexa all surface gym recommendations. Each platform pulls data from different sources. ChatGPT crawls websites and directories, Google AI Overviews reference Google Business Profiles and reviews, and voice assistants rely on structured data. Gyms need visibility across all of these to capture the full discovery channel.</p>
 
             <h3>How long does it take for a gym to show up in AI search results?</h3>
-            <p>Most fitness businesses begin appearing in AI recommendations within 60 to 90 days after implementing structured optimization. This includes building class-specific and service-specific pages, ensuring consistent business information across directories, publishing member-focused content, and maintaining reviews on platforms that AI can actually crawl.</p>
+            <p>Most fitness businesses begin appearing in AI recommendations within 60 to 90 days after implementing structured optimization. This includes building class-specific and service-specific pages, ensuring consistent business information across directories, publishing member-focused content, and maintaining reviews on platforms that AI can actually crawl. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Can a small boutique studio compete with big gym chains in AI search?</h3>
             <p>Absolutely. AI platforms prioritize relevance, content depth, and trust signals over brand size. A boutique Pilates studio with detailed class descriptions, authentic member testimonials in plain HTML, certified instructor bios, and consistent directory listings can outrank a national chain that relies on a generic template site. AI rewards specificity and verifiable expertise, which gives specialized studios a natural advantage.</p>
 
             <h3>Do Google reviews help my gym show up on ChatGPT?</h3>
-            <p>Google reviews help with Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them because Google renders reviews via JavaScript. For broader AI visibility, gyms need reviews on crawlable platforms like Yelp and ClassPass, plus member testimonials published directly on their website as plain HTML text that AI crawlers can read.</p>
+            <p>Google reviews help with Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them because Google renders reviews via JavaScript. For broader AI visibility, gyms need reviews on crawlable platforms like Yelp and ClassPass, plus member testimonials published directly on their website as plain HTML text that AI crawlers can read. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>What is the biggest mistake gyms make with AI search?</h3>
             <p>The biggest mistake is having a website built entirely with JavaScript frameworks that AI crawlers cannot read. Many modern gym websites use dynamic rendering for class schedules, trainer bios, and membership details. AI crawlers see a blank page instead of your content. The second most common mistake is having inconsistent business information across directories, which signals unreliability to AI platforms.</p>

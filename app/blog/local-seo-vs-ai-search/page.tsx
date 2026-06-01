@@ -126,7 +126,7 @@ export default function LocalSEOvsAI() {
         </div>
 
         <h2 style={{ fontSize: '1.8rem', marginTop: '30px', marginBottom: '20px' }}>The Numbers: Local SEO Still Wins (For Now)</h2>
-        <p>In 2025, Google Search still dominates local discovery:</p>
+        <p>In 2025, Google Search still dominates local discovery: Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         <ul style={{ marginLeft: '20px', marginBottom: '20px', lineHeight: '1.8' }}>
           <li>Google Maps searches: 2.2 billion/day</li>
           <li>Local search traffic: 46% of all searches have local intent</li>
@@ -134,7 +134,7 @@ export default function LocalSEOvsAI() {
           <li>AI Search usage: 15-20% of local searches</li>
           <li>AI Growth rate: +30% year-over-year</li>
         </ul>
-        <p><strong>Verdict:</strong> Local SEO delivers more traffic today. AI Search will dominate tomorrow.</p>
+        <p><strong>Verdict:</strong> Local SEO delivers more traffic today. AI Search will dominate tomorrow. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <h2 style={{ fontSize: '1.8rem', marginTop: '30px', marginBottom: '20px' }}>Local SEO vs AEO: Head-to-Head</h2>
         <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '20px', border: '1px solid #ddd' }}>
@@ -293,37 +293,37 @@ export default function LocalSEOvsAI() {
         <h2 style={{ fontSize: '1.8rem', marginTop: '30px', marginBottom: '20px' }}>FAQ</h2>
 
         <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
-          <p><strong>Q: Can I do AEO without Local SEO?</strong><br/>A: Technically yes, but it is a mistake. Local SEO still drives most traffic.</p>
+          <p><strong>Q: Can I do AEO without Local SEO?</strong><br/>A: Technically yes, but it is a mistake. Local SEO still drives most traffic. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a> We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </div>
 
         <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
-          <p><strong>Q: Which is easier to rank for?</strong><br/>A: AEO is easier now—less competition. But this advantage is temporary.</p>
+          <p><strong>Q: Which is easier to rank for?</strong><br/>A: AEO is easier now—less competition. But this advantage is temporary. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a> Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         </div>
 
         <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
-          <p><strong>Q: Does good Local SEO automatically help AEO?</strong><br/>A: Partially. Good reviews help both. But AEO needs different content (expertise, educational) and multi-platform presence.</p>
+          <p><strong>Q: Does good Local SEO automatically help AEO?</strong><br/>A: Partially. Good reviews help both. But AEO needs different content (expertise, educational) and multi-platform presence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
         </div>
 
         <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
-          <p><strong>Q: When will AI surpass Local SEO?</strong><br/>A: Probably 2026-2027. But both will matter for years.</p>
+          <p><strong>Q: When will AI surpass Local SEO?</strong><br/>A: Probably 2026-2027. But both will matter for years. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
-          <p><strong>Q: Is Google worried about AI Search?</strong><br/>A: Yes—Google is building its own AI. But Google Search will evolve, not disappear.</p>
+          <p><strong>Q: Is Google worried about AI Search?</strong><br/>A: Yes—Google is building its own AI. But Google Search will evolve, not disappear. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </div>
 
         <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
-          <p><strong>Q: Can I use the same content for both?</strong><br/>A: 50-60%. Both benefit from quality content and reviews. But AEO needs deeper expertise content.</p>
+          <p><strong>Q: Can I use the same content for both?</strong><br/>A: 50-60%. Both benefit from quality content and reviews. But AEO needs deeper expertise content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
         </div>
 
         <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
-          <p><strong>Q: How do I measure success for both?</strong><br/>A: Local SEO: tracks in Google Analytics. AEO: harder to track—look for review mentions and test manually.</p>
+          <p><strong>Q: How do I measure success for both?</strong><br/>A: Local SEO: tracks in Google Analytics. AEO: harder to track—look for review mentions and test manually. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a> <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
         </div>
 
         <h2 style={{ fontSize: '1.8rem', marginTop: '30px', marginBottom: '20px' }}>The Bottom Line</h2>
         <p style={{ fontSize: '1.1rem', fontWeight: 'bold', backgroundColor: '#f0f9ff', padding: '20px', borderRadius: '8px', border: '2px solid #2563eb' }}>
           In 2025, both matter. Prioritize Local SEO for current revenue, AEO for future revenue. The companies that excel at both will dominate 2026.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '40px', marginTop: '30px' }}>
           <div style={{ backgroundColor: '#f0f9ff', border: '2px solid #2563eb', borderRadius: '8px', padding: '15px', textAlign: 'center' }}>
@@ -372,10 +372,10 @@ export default function LocalSEOvsAI() {
         <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', color: '#666' }}>
           <p style={{ marginBottom: '10px' }}>
             The Answer Engine helps local businesses dominate both Local SEO and AI Search.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <p style={{ fontSize: '0.9rem', color: '#999' }}>
             Copyright 2025 The Answer Engine LLC. All rights reserved.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
       </footer>
     </div>

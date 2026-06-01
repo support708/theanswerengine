@@ -318,15 +318,15 @@ export default function Page() {
             <span className="ae-section-label" id="why-ecommerce-different">The Core Problem</span>
             <h2>Why E-commerce Is a Unique AI Challenge</h2>
 
-            <p>If you run a service business, AI visibility is relatively straightforward: structure your content, add schema markup, build authority. But e-commerce operates on a different plane. Your store might have 50 products or 50,000. Each product has a name, description, price, availability status, variations, images, and reviews. Multiply that by every platform where your products exist, and the data complexity explodes.</p>
+            <p>If you run a service business, AI visibility is relatively straightforward: structure your content, add schema markup, build authority. But e-commerce operates on a different plane. Your store might have 50 products or 50,000. Each product has a name, description, price, availability status, variations, images, and reviews. Multiply that by every platform where your products exist, and the data complexity explodes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>Traditional SEO trained store owners to optimize product titles with keywords and build backlinks to category pages. AI search works differently. When someone asks ChatGPT &quot;what is the best espresso machine for a small kitchen,&quot; the AI does not scan a list of keyword-optimized titles. It synthesizes information from product reviews, expert comparisons, technical specifications, and structured data across dozens of sources to build a recommendation.</p>
 
-            <p>This creates three fundamental challenges for online stores.</p>
+            <p>This creates three fundamental challenges for online stores. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p><strong>Challenge one: data fragmentation.</strong> Your product information exists across your website, Amazon, Google Shopping, social media, and review sites. AI crawlers piece together information from all these sources. If your pricing differs between your store and a marketplace listing, or your product descriptions contradict each other across platforms, AI platforms lose confidence in your data and may skip your store entirely.</p>
 
-            <p><strong>Challenge two: product freshness.</strong> Unlike a service page that stays accurate for months, product data changes constantly. Prices shift, inventory levels fluctuate, seasonal items rotate in and out. AI crawlers that encounter outdated pricing or &quot;out of stock&quot; notices on products you are actively promoting will deprioritize your store in future recommendations.</p>
+            <p><strong>Challenge two: product freshness.</strong> Unlike a service page that stays accurate for months, product data changes constantly. Prices shift, inventory levels fluctuate, seasonal items rotate in and out. AI crawlers that encounter outdated pricing or &quot;out of stock&quot; notices on products you are actively promoting will deprioritize your store in future recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p><strong>Challenge three: competitive density.</strong> For any given product query, AI has hundreds or thousands of stores to choose from. The bar for being recommended is not just &quot;having the product.&quot; It is being the most trustworthy, most complete, most authoritative source for that specific product or category.</p>
 
@@ -334,7 +334,7 @@ export default function Page() {
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Invisible Store Problem</div>
               <div className="ae-callout-body">
-                <p>Most online stores are completely invisible to AI shopping assistants. Not because their products are bad, but because their product data is not structured in ways AI can read. A store with 500 products and no schema markup gives AI crawlers 500 pages of content they cannot reliably parse. A store with 50 products and comprehensive structured data on each gives AI everything it needs to make confident recommendations.</p>
+                <p>Most online stores are completely invisible to AI shopping assistants. Not because their products are bad, but because their product data is not structured in ways AI can read. A store with 500 products and no schema markup gives AI crawlers 500 pages of content they cannot reliably parse. A store with 50 products and comprehensive structured data on each gives AI everything it needs to make confident recommendations. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
@@ -348,7 +348,7 @@ export default function Page() {
             <span className="ae-section-label" id="how-ai-shopping-works">Behind the Curtain</span>
             <h2>How AI Shopping Recommendations Actually Work</h2>
 
-            <p>Understanding how AI shopping assistants generate product recommendations is the first step toward appearing in them. The process is more nuanced than most store owners realize.</p>
+            <p>Understanding how AI shopping assistants generate product recommendations is the first step toward appearing in them. The process is more nuanced than most store owners realize. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <h3>ChatGPT Shopping Research</h3>
 
@@ -356,13 +356,13 @@ export default function Page() {
 
             <h3>Perplexity Shopping</h3>
 
-            <p>Perplexity launched a shopping experience where users search conversationally for products. You can ask &quot;best winter jacket for San Francisco ferry commute&quot; and Perplexity keeps context as you narrow your search. It remembers your preferences (mid-century modern style, minimalist running gear) and tailors future product cards accordingly. Perplexity also offers built-in checkout for participating merchants, creating a complete purchase path that never leaves the AI platform.</p>
+            <p>Perplexity launched a shopping experience where users search conversationally for products. You can ask &quot;best winter jacket for San Francisco ferry commute&quot; and Perplexity keeps context as you narrow your search. It remembers your preferences (mid-century modern style, minimalist running gear) and tailors future product cards accordingly. Perplexity also offers built-in checkout for participating merchants, creating a complete purchase path that never leaves the AI platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>Google AI Mode</h3>
 
             <p>Google AI Mode synthesizes product information from its Shopping graph, which contains billions of product listings. When a user asks a product question in AI Mode, Google pulls from merchant feeds, Shopping listings, and web content to build a comprehensive answer. Stores already in Google Merchant Center have a head start, but the AI still evaluates content quality and data completeness before making recommendations.</p>
 
-            <p>Across all three platforms, the pattern is identical: <strong>AI evaluates your product data quality, your store authority, and your ability to answer the user&apos;s specific question.</strong> The store that provides the most complete, most trustworthy, most relevant data wins the recommendation.</p>
+            <p>Across all three platforms, the pattern is identical: <strong>AI evaluates your product data quality, your store authority, and your ability to answer the user&apos;s specific question.</strong> The store that provides the most complete, most trustworthy, most relevant data wins the recommendation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
@@ -374,7 +374,7 @@ export default function Page() {
             <span className="ae-section-label" id="signals-ai-uses">What AI Evaluates</span>
             <h2>The Signals AI Uses to Pick Products and Stores</h2>
 
-            <p>AI shopping assistants use a weighted ranking system to decide which products and stores to recommend. Research into how these systems work reveals a clear hierarchy of signals.</p>
+            <p>AI shopping assistants use a weighted ranking system to decide which products and stores to recommend. Research into how these systems work reveals a clear hierarchy of signals. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* Bar Chart */}
             <div className="not-prose my-8">
@@ -414,7 +414,7 @@ export default function Page() {
 
             <h3>Data Quality: What AI Can Actually Parse</h3>
 
-            <p>AI assistants prioritize listings with rich, parseable information. A product listing that includes terrain type, insulation specifications, ankle height, and activity tags will outrank a listing simply labeled &quot;boots.&quot; Multiple high-quality images, schema.org markup, granular categories, and detailed attribute data all contribute to this signal. The more structured and specific your product data, the more confidently AI can recommend it.</p>
+            <p>AI assistants prioritize listings with rich, parseable information. A product listing that includes terrain type, insulation specifications, ankle height, and activity tags will outrank a listing simply labeled &quot;boots.&quot; Multiple high-quality images, schema.org markup, granular categories, and detailed attribute data all contribute to this signal. The more structured and specific your product data, the more confidently AI can recommend it. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Customer Confidence Signals</h3>
 
@@ -422,7 +422,7 @@ export default function Page() {
 
             <h3>Pricing and Value</h3>
 
-            <p>AI does not simply recommend the cheapest option. It evaluates total value, including shipping costs, return policies, bundle deals, and promotional offers. A slightly higher-priced product with free shipping and a generous return policy can outperform a cheaper alternative with hidden fees. AI platforms are getting better at understanding value rather than just sticker price.</p>
+            <p>AI does not simply recommend the cheapest option. It evaluates total value, including shipping costs, return policies, bundle deals, and promotional offers. A slightly higher-priced product with free shipping and a generous return policy can outperform a cheaper alternative with hidden fees. AI platforms are getting better at understanding value rather than just sticker price. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
@@ -434,7 +434,7 @@ export default function Page() {
             <span className="ae-section-label" id="platform-comparison">Platform Showdown</span>
             <h2>Platform Comparison: Shopify vs WooCommerce vs Custom</h2>
 
-            <p>Your e-commerce platform creates the foundation for your AI visibility. Each major platform handles product data, structured markup, and AI crawler access differently. Here is what matters.</p>
+            <p>Your e-commerce platform creates the foundation for your AI visibility. Each major platform handles product data, structured markup, and AI crawler access differently. Here is what matters. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table not-prose">
@@ -516,13 +516,13 @@ export default function Page() {
 
             <p>Shopify provides basic product schema out of the box, covering price, availability, and reviews on most themes. Its infrastructure delivers fast page speeds through a global CDN, and AI crawlers are not blocked by default. For stores with up to a few hundred products that do not need granular schema control, Shopify provides a solid AI foundation with minimal technical effort.</p>
 
-            <p>The limitation is in advanced optimization. Adding custom JSON-LD schema types, modifying your robots.txt with crawler-specific directives, or implementing granular product attributes beyond what your theme supports requires apps and workarounds. For competitive product categories where detailed structured data is the differentiator, Shopify&apos;s constraints can become a ceiling.</p>
+            <p>The limitation is in advanced optimization. Adding custom JSON-LD schema types, modifying your robots.txt with crawler-specific directives, or implementing granular product attributes beyond what your theme supports requires apps and workarounds. For competitive product categories where detailed structured data is the differentiator, Shopify&apos;s constraints can become a ceiling. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>WooCommerce: Maximum Control, Variable Defaults</h3>
 
             <p>WooCommerce on WordPress gives you complete control over every aspect of your product data structure. Plugins like Rank Math and Yoast automatically generate Product, Review, FAQ, Breadcrumb, and Organization schema. You can add custom product attributes, build complex category taxonomies, and implement bulk optimization across thousands of products.</p>
 
-            <p>The trade-off is that WooCommerce requires intentional optimization. A default WooCommerce installation with a basic theme and no SEO plugin produces minimal structured data. Add a heavy page builder and cheap hosting, and you get slow, bloated product pages that AI crawlers struggle to parse. The ceiling is higher, but so is the floor if you do not invest in proper configuration.</p>
+            <p>The trade-off is that WooCommerce requires intentional optimization. A default WooCommerce installation with a basic theme and no SEO plugin produces minimal structured data. Add a heavy page builder and cheap hosting, and you get slow, bloated product pages that AI crawlers struggle to parse. The ceiling is higher, but so is the floor if you do not invest in proper configuration. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>Custom Builds: Unlimited Potential, Maximum Responsibility</h3>
 
@@ -530,7 +530,7 @@ export default function Page() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly how AI crawlers perceive your current store setup?</p>
+              <p>Want to see exactly how AI crawlers perceive your current store setup? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -542,19 +542,19 @@ export default function Page() {
 
             <h3>Product Schema: Speaking AI&apos;s Language</h3>
 
-            <p>Product schema markup tells AI crawlers exactly what is on your product pages. Instead of forcing AI to guess whether &quot;$49.99&quot; is the price or a product code, schema explicitly declares the product name, brand, price, currency, availability, condition, SKU, and dozens of other attributes in a format AI can parse instantly.</p>
+            <p>Product schema markup tells AI crawlers exactly what is on your product pages. Instead of forcing AI to guess whether &quot;$49.99&quot; is the price or a product code, schema explicitly declares the product name, brand, price, currency, availability, condition, SKU, and dozens of other attributes in a format AI can parse instantly. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>The stores that appear most consistently in AI recommendations go beyond basic product schema. They include detailed product attributes (material, dimensions, weight, compatibility), aggregate ratings with review counts, offer details including shipping information, and connections to broader product categories through schema relationships.</p>
 
             <h3>Rich Product Descriptions</h3>
 
-            <p>AI assistants do not just read your schema markup. They also parse your visible product descriptions. A product page that says &quot;Great shoes. Very comfortable. Buy now.&quot; gives AI nothing to work with. A product page that explains the sole construction, the intended use case, the fit characteristics, the material composition, and the care instructions gives AI everything it needs to match your product to specific user queries.</p>
+            <p>AI assistants do not just read your schema markup. They also parse your visible product descriptions. A product page that says &quot;Great shoes. Very comfortable. Buy now.&quot; gives AI nothing to work with. A product page that explains the sole construction, the intended use case, the fit characteristics, the material composition, and the care instructions gives AI everything it needs to match your product to specific user queries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>The most AI-visible product descriptions answer the questions buyers are asking AI. If someone asks ChatGPT &quot;what are the best running shoes for flat feet,&quot; the store whose product description explicitly addresses arch support, pronation control, and flat-foot comfort is the store ChatGPT will cite.</p>
 
             <h3>Image Optimization for AI</h3>
 
-            <p>AI shopping assistants are increasingly visual. Perplexity shows product images in its shopping cards. ChatGPT can analyze product images when making recommendations. Your product images need descriptive alt text, consistent high-quality photography, and multiple angles. A product with one blurry photo and no alt text is invisible to AI visual search. A product with six high-resolution images tagged with descriptive attributes is discoverable through multiple pathways.</p>
+            <p>AI shopping assistants are increasingly visual. Perplexity shows product images in its shopping cards. ChatGPT can analyze product images when making recommendations. Your product images need descriptive alt text, consistent high-quality photography, and multiple angles. A product with one blurry photo and no alt text is invisible to AI visual search. A product with six high-resolution images tagged with descriptive attributes is discoverable through multiple pathways. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Callout 2 */}
             <div className="ae-callout ae-callout-orange not-prose">
@@ -566,7 +566,7 @@ export default function Page() {
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Need help structuring your product data for AI crawlers? Our team does this every day.</p>
+              <p>Need help structuring your product data for AI crawlers? Our team does this every day. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
             </div>
 
@@ -578,7 +578,7 @@ export default function Page() {
 
             <h3>Buying Guides and Comparison Content</h3>
 
-            <p>When someone asks AI &quot;what should I look for in a stand mixer,&quot; the AI looks for authoritative content that provides comprehensive guidance. A store that publishes detailed buying guides for its product categories creates the exact type of content AI platforms trust and cite. These guides establish your store as a knowledge authority, not just a transaction endpoint.</p>
+            <p>When someone asks AI &quot;what should I look for in a stand mixer,&quot; the AI looks for authoritative content that provides comprehensive guidance. A store that publishes detailed buying guides for its product categories creates the exact type of content AI platforms trust and cite. These guides establish your store as a knowledge authority, not just a transaction endpoint. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>FAQ Content Targeting AI Queries</h3>
 
@@ -586,7 +586,7 @@ export default function Page() {
 
             <h3>Expert Reviews and Use Case Content</h3>
 
-            <p>AI values first-person expertise. Content that demonstrates you have actually used, tested, or deeply understand the products you sell carries more weight than generic descriptions copied from manufacturer sites. If your team uses the outdoor gear you sell, publish content showing real-world use. If your buyers frequently share how they use your products, feature those stories on your site.</p>
+            <p>AI values first-person expertise. Content that demonstrates you have actually used, tested, or deeply understand the products you sell carries more weight than generic descriptions copied from manufacturer sites. If your team uses the outdoor gear you sell, publish content showing real-world use. If your buyers frequently share how they use your products, feature those stories on your site. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Category Landing Pages</h3>
 
@@ -594,7 +594,7 @@ export default function Page() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>AI trust depends on more than product data. Here is how to build content AI actually believes.</p>
+              <p>AI trust depends on more than product data. Here is how to build content AI actually believes. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">Creating Content That ChatGPT Trusts &rarr;</Link>
             </div>
 
@@ -606,7 +606,7 @@ export default function Page() {
 
             <h3>Duplicate Product Descriptions</h3>
 
-            <p>Using the manufacturer&apos;s default product description, word for word, on your product pages means your content is identical to dozens or hundreds of other stores. AI has no reason to cite your version over any other. Unique product descriptions that add your perspective, your expertise, and your understanding of the customer give AI a reason to choose your store.</p>
+            <p>Using the manufacturer&apos;s default product description, word for word, on your product pages means your content is identical to dozens or hundreds of other stores. AI has no reason to cite your version over any other. Unique product descriptions that add your perspective, your expertise, and your understanding of the customer give AI a reason to choose your store. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <h3>Missing or Incomplete Schema</h3>
 
@@ -614,7 +614,7 @@ export default function Page() {
 
             <h3>Blocking AI Crawlers</h3>
 
-            <p>Some e-commerce stores block AI crawlers through robots.txt without realizing it. Others use aggressive bot protection that treats GPTBot and PerplexityBot the same as spam bots. If AI cannot crawl your product pages, AI cannot recommend your products. It is that simple.</p>
+            <p>Some e-commerce stores block AI crawlers through robots.txt without realizing it. Others use aggressive bot protection that treats GPTBot and PerplexityBot the same as spam bots. If AI cannot crawl your product pages, AI cannot recommend your products. It is that simple. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>Thin Category Pages</h3>
 
@@ -622,7 +622,7 @@ export default function Page() {
 
             <h3>Inconsistent Pricing Across Channels</h3>
 
-            <p>If your product is $49 on your store, $45 on Amazon, and $52 on Google Shopping, AI loses confidence in your pricing data. Price discrepancies across channels create a trust problem that affects your recommendations on all platforms. Consistent pricing across every channel is a baseline requirement for AI trust.</p>
+            <p>If your product is $49 on your store, $45 on Amazon, and $52 on Google Shopping, AI loses confidence in your pricing data. Price discrepancies across channels create a trust problem that affects your recommendations on all platforms. Consistent pricing across every channel is a baseline requirement for AI trust. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Pros and Cons */}
             <span className="ae-section-label" id="small-vs-big">The Opportunity</span>
@@ -655,14 +655,14 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The key insight: AI shopping assistants reward specificity and expertise. When someone asks for &quot;the best handmade ceramic coffee mug,&quot; a small pottery studio with detailed product descriptions, maker stories, and firing process explanations can outperform a mega-retailer&apos;s generic listing. AI does not care about your domain age or your advertising budget. It cares about whether your store provides the most complete, trustworthy answer to the user&apos;s specific question.</p>
+            <p>The key insight: AI shopping assistants reward specificity and expertise. When someone asks for &quot;the best handmade ceramic coffee mug,&quot; a small pottery studio with detailed product descriptions, maker stories, and firing process explanations can outperform a mega-retailer&apos;s generic listing. AI does not care about your domain age or your advertising budget. It cares about whether your store provides the most complete, trustworthy answer to the user&apos;s specific question. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>This is the window of opportunity for small and mid-size online stores. Large retailers are slow to optimize for AI because they have massive catalogs and complex organizational structures. A focused store that intentionally structures its product data for AI visibility today can establish positions that are difficult to displace once AI shopping becomes the dominant discovery channel.</p>
 
             {/* CTA 8 */}
             <div className="ae-cta-block not-prose">
               <h3>Your Competitors Might Already Be Optimizing for AI Shopping</h3>
-              <p>Our Blind Spot Report shows you exactly where your store stands in AI search compared to your top competitors. Free, no obligation, delivered within 48 hours.</p>
+              <p>Our Blind Spot Report shows you exactly where your store stands in AI search compared to your top competitors. Free, no obligation, delivered within 48 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -675,7 +675,7 @@ export default function Page() {
             {/* Takeaway */}
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p className="text-gray-300">AI shopping assistants evaluate your product data quality, store authority, and content depth when deciding which stores to recommend. The e-commerce stores winning AI visibility are not necessarily the biggest or the cheapest. They are the ones with the most complete, well-structured product data and the most authoritative content in their product categories. The platform matters far less than how intentionally you structure your data for AI consumption.</p>
+              <p className="text-gray-300">AI shopping assistants evaluate your product data quality, store authority, and content depth when deciding which stores to recommend. The e-commerce stores winning AI visibility are not necessarily the biggest or the cheapest. They are the ones with the most complete, well-structured product data and the most authoritative content in their product categories. The platform matters far less than how intentionally you structure your data for AI consumption. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             {/* CTA 10 */}
@@ -688,7 +688,7 @@ export default function Page() {
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
             <h2>E-commerce AI Visibility Cheat Sheet</h2>
 
-            <p>Use this checklist to evaluate your online store&apos;s AI readiness, regardless of platform.</p>
+            <p>Use this checklist to evaluate your online store&apos;s AI readiness, regardless of platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="ae-cheat-sheet not-prose">
               <div className="ae-cheat-sheet-title">Online Store AI Visibility Checklist</div>
@@ -750,7 +750,7 @@ export default function Page() {
 
             {/* CTA 12 */}
             <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your store&apos;s AI visibility in person? Our team is ready.</p>
+              <p>Prefer to talk through your store&apos;s AI visibility in person? Our team is ready. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
             </div>
 
@@ -771,7 +771,7 @@ export default function Page() {
             {/* 3-Tier CTA Block */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Online Store Invisible to AI Shopping Assistants?</h3>
-              <p className="text-gray-400 mb-6">Most e-commerce stores are missing from AI recommendations entirely. Our free Blind Spot Report reveals exactly what ChatGPT, Perplexity, and Google AI see (and miss) when they crawl your store.</p>
+              <p className="text-gray-400 mb-6">Most e-commerce stores are missing from AI recommendations entirely. Our free Blind Spot Report reveals exactly what ChatGPT, Perplexity, and Google AI see (and miss) when they crawl your store. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

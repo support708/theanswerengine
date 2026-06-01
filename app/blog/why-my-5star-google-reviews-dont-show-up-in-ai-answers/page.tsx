@@ -244,11 +244,11 @@ export default function WhyGoogleReviewsDontShowInAI() {
 
             <p>You have spent years asking happy customers to leave Google reviews. You have 200, maybe 300, maybe even 500 five-star reviews with detailed testimonials about your exceptional service. Your Google Business Profile is a masterclass in social proof.</p>
 
-            <p>Then a potential customer asks ChatGPT: <strong>&quot;Who is the best [your service] in [your city]?&quot;</strong></p>
+            <p>Then a potential customer asks ChatGPT: <strong>&quot;Who is the best [your service] in [your city]?&quot;</strong> Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>Your business is nowhere in the response. A competitor with 40 reviews gets mentioned. Another one with mediocre ratings shows up. You are invisible.</p>
 
-            <p>This is not a glitch. This is not unfair AI bias. This is a fundamental technical reality that most business owners do not understand, and it is costing them customers every single day.</p>
+            <p>This is not a glitch. This is not unfair AI bias. This is a fundamental technical reality that most business owners do not understand, and it is costing them customers every single day. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-cta-inline">
               <p>Wondering if AI can actually see your reviews?</p>
@@ -259,18 +259,18 @@ export default function WhyGoogleReviewsDontShowInAI() {
             <span className="not-prose ae-section-label" id="why-invisible">The Core Problem</span>
             <h2>Why Your Google Reviews Are Completely Invisible to AI</h2>
 
-            <p>The answer is simpler than you might expect, and more frustrating. Google does not allow AI platforms to access its review data. Period.</p>
+            <p>The answer is simpler than you might expect, and more frustrating. Google does not allow AI platforms to access its review data. Period. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>When you visit a Google Business Profile and scroll through reviews, your web browser executes JavaScript code that dynamically loads each review. The reviews are not sitting in the HTML of the page. They are fetched by JavaScript after the page loads, rendered in real time by your browser.</p>
 
-            <p>AI crawlers do not work like your browser. ChatGPT, Perplexity, Claude, and other AI platforms read the raw HTML source code of web pages. They cannot execute JavaScript. When these AI systems visit a Google review page, they see something like an empty container with a loading spinner that never spins. No reviews. No ratings. No customer feedback. Nothing.</p>
+            <p>AI crawlers do not work like your browser. ChatGPT, Perplexity, Claude, and other AI platforms read the raw HTML source code of web pages. They cannot execute JavaScript. When these AI systems visit a Google review page, they see something like an empty container with a loading spinner that never spins. No reviews. No ratings. No customer feedback. Nothing. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">The JavaScript Barrier Explained</div>
               <p>Think of it this way. Your Google reviews are locked inside a vault. Your web browser has the key (JavaScript execution). AI crawlers do not have that key. They can see the vault door, but they cannot open it. Google designed it this way deliberately to protect its competitive advantage in local search data.</p>
             </div>
 
-            <p>This is not a temporary limitation or a bug that will be fixed in the next update. Google has a business incentive to keep this data exclusive. Reviews are one of the most valuable signals in local search, and Google wants that data powering <em>its</em> ecosystem, not feeding competitors like ChatGPT or Perplexity.</p>
+            <p>This is not a temporary limitation or a bug that will be fixed in the next update. Google has a business incentive to keep this data exclusive. Reviews are one of the most valuable signals in local search, and Google wants that data powering <em>its</em> ecosystem, not feeding competitors like ChatGPT or Perplexity. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>As we explored in our analysis of <Link href="/blog/chatgpt-cant-see-google-business-profile">why ChatGPT can&apos;t see your Google Business Profile</Link>, this extends beyond reviews to your entire GBP listing, including photos, Q&amp;A, posts, and service descriptions.</p>
 
@@ -278,7 +278,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
             <span className="not-prose ae-section-label" id="technical-wall">Technical Deep Dive</span>
             <h2>The Technical Wall Between Google and AI Platforms</h2>
 
-            <p>Understanding the technical barrier helps explain why this problem is not going away anytime soon. Three separate mechanisms keep your Google reviews hidden from AI.</p>
+            <p>Understanding the technical barrier helps explain why this problem is not going away anytime soon. Three separate mechanisms keep your Google reviews hidden from AI. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>1. Client-Side JavaScript Rendering</h3>
 
@@ -286,7 +286,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
 
             <h3>2. API Access Restrictions</h3>
 
-            <p>Google&apos;s Places API does exist, but it restricts review data access. Third-party applications can only retrieve a limited number of reviews through the API, and the terms of service prohibit using this data to power competing services. AI platforms cannot simply pull your reviews through the API even if they wanted to.</p>
+            <p>Google&apos;s Places API does exist, but it restricts review data access. Third-party applications can only retrieve a limited number of reviews through the API, and the terms of service prohibit using this data to power competing services. AI platforms cannot simply pull your reviews through the API even if they wanted to. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>3. Robots.txt and Crawler Blocking</h3>
 
@@ -346,7 +346,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure which of your review platforms AI can actually access?</p>
+              <p>Not sure which of your review platforms AI can actually access? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation</a>
             </div>
 
@@ -421,13 +421,13 @@ export default function WhyGoogleReviewsDontShowInAI() {
               </table>
             </div>
 
-            <p>Notice the pattern. Google AI Mode can see Google reviews because Google has full access to its own data. Every other AI platform is locked out. This creates a two-tier system where your review reputation looks completely different depending on which AI a customer uses.</p>
+            <p>Notice the pattern. Google AI Mode can see Google reviews because Google has full access to its own data. Every other AI platform is locked out. This creates a two-tier system where your review reputation looks completely different depending on which AI a customer uses. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>For a deeper look at how reviews influence AI recommendations across platforms, see our guide on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link>.</p>
 
             <div className="not-prose ae-callout ae-callout-orange">
               <div className="ae-callout-title">The Platform Mismatch Problem</div>
-              <p>Most businesses invest 90% or more of their review collection efforts into Google. Yet Google reviews are invisible to every major AI platform except Google&apos;s own. With 45% of consumers now using AI for local service searches, this mismatch is becoming a serious revenue problem.</p>
+              <p>Most businesses invest 90% or more of their review collection efforts into Google. Yet Google reviews are invisible to every major AI platform except Google&apos;s own. With 45% of consumers now using AI for local service searches, this mismatch is becoming a serious revenue problem. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
@@ -439,7 +439,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
             <span className="not-prose ae-section-label" id="competitor-advantage">Competitive Reality</span>
             <h2>Why Competitors With Fewer Reviews Win in AI</h2>
 
-            <p>This is the part that frustrates business owners the most. You have 300 Google reviews. Your competitor has 45. But ChatGPT recommends them, not you.</p>
+            <p>This is the part that frustrates business owners the most. You have 300 Google reviews. Your competitor has 45. But ChatGPT recommends them, not you. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>The math is not complicated once you understand the visibility rules. Your competitor might have 20 reviews on Yelp, 15 on their website, and a handful of mentions on Reddit. That is 35+ reviews that AI can actually read. You have 300 reviews on a platform AI cannot access. In the eyes of ChatGPT, your competitor has more social proof than you do.</p>
 
@@ -475,7 +475,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
               </div>
             </div>
 
-            <p>Research from 2026 confirms this dynamic. ChatGPT favors Wikipedia (47.9%) and established publications when forming recommendations. Perplexity prioritizes Reddit (46.7%) and community-generated content. Neither platform has Google reviews in their data pipeline.</p>
+            <p>Research from 2026 confirms this dynamic. ChatGPT favors Wikipedia (47.9%) and established publications when forming recommendations. Perplexity prioritizes Reddit (46.7%) and community-generated content. Neither platform has Google reviews in their data pipeline. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>The businesses winning AI recommendations are not the ones with the most reviews. They are the ones with reviews in the right places. That distinction matters more every day as <Link href="/blog/do-google-reviews-affect-ai-recommendations">AI reshapes how reviews influence recommendations</Link>.</p>
 
@@ -505,7 +505,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
 
             <div className="not-prose ae-cta-block">
               <h3 className="font-plus-jakarta">Your Reviews Might Be Invisible to 45% of Searchers</h3>
-              <p>Almost half of consumers now use AI for local searches. If your reviews only live on Google, you are invisible to a massive and growing audience.</p>
+              <p>Almost half of consumers now use AI for local searches. If your reviews only live on Google, you are invisible to a massive and growing audience. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Check Your AI Visibility Now</Link>
             </div>
 
@@ -515,19 +515,19 @@ export default function WhyGoogleReviewsDontShowInAI() {
 
             <p>When business owners discover that Google reviews are invisible to AI, the first reaction is usually: &quot;I will just embed my Google reviews on my website.&quot;</p>
 
-            <p>That sounds logical, but it rarely works. Here is why.</p>
+            <p>That sounds logical, but it rarely works. Here is why. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>Most Google review widgets (Elfsight, EmbedSocial, Birdeye, Podium, and similar tools) use JavaScript to dynamically load review content from Google&apos;s API into your website. The widget looks great to visitors, but AI crawlers see the same blank container they see on Google itself. The JavaScript that powers the widget is the same barrier that blocks AI from reading reviews on Google.</p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">Widget Warning</div>
-              <p>If your testimonials page shows reviews through any kind of embedded widget, iFrame, or dynamically loaded component, AI almost certainly cannot read them. Open your testimonials page, right-click, select &quot;View Page Source,&quot; and search for your customer&apos;s name. If the review text is not in the raw HTML source code, AI cannot see it either.</p>
+              <p>If your testimonials page shows reviews through any kind of embedded widget, iFrame, or dynamically loaded component, AI almost certainly cannot read them. Open your testimonials page, right-click, select &quot;View Page Source,&quot; and search for your customer&apos;s name. If the review text is not in the raw HTML source code, AI cannot see it either. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <p>The distinction matters enormously. Reviews rendered as plain HTML text in your page source are visible to every AI crawler. Reviews loaded by JavaScript widgets are invisible to all of them. Same reviews, same page, completely different outcomes depending on how they are rendered.</p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure if your website reviews are actually visible to AI?</p>
+              <p>Not sure if your website reviews are actually visible to AI? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai for a free check</a>
             </div>
 
@@ -538,13 +538,13 @@ export default function WhyGoogleReviewsDontShowInAI() {
             <p>If AI cannot see Google reviews, what does it use to evaluate and recommend businesses? The answer reveals a fundamentally different trust architecture than what most business owners are used to.</p>
 
             <h3>Website Content Quality</h3>
-            <p>AI platforms weigh the depth, specificity, and expertise demonstrated on your website. Detailed service pages, case studies, and original content signal authority far more than star ratings the AI cannot see.</p>
+            <p>AI platforms weigh the depth, specificity, and expertise demonstrated on your website. Detailed service pages, case studies, and original content signal authority far more than star ratings the AI cannot see. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3>Third-Party Mentions and Citations</h3>
             <p>When your business is mentioned on news sites, industry blogs, trade publications, or community forums like Reddit, AI platforms pick up those signals. Perplexity indexes Reddit content heavily (46.7% of its citations come from community sources), making forum mentions surprisingly valuable.</p>
 
             <h3>Structured Data and Schema Markup</h3>
-            <p>Properly implemented schema markup helps AI platforms understand what your business does, where you operate, and what customers say about you. Review schema on your website pages can make testimonials machine-readable in a way that Google review widgets cannot.</p>
+            <p>Properly implemented schema markup helps AI platforms understand what your business does, where you operate, and what customers say about you. Review schema on your website pages can make testimonials machine-readable in a way that Google review widgets cannot. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <h3>Cross-Platform Consistency</h3>
             <p>AI systems filter aggressively and favor businesses with consistent data across the web. Your business name, address, phone number, and service descriptions need to match exactly across every listing. Even small inconsistencies weaken the trust signals AI relies on.</p>
@@ -596,7 +596,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to understand exactly what AI sees when it evaluates your business?</p>
+              <p>Want to understand exactly what AI sees when it evaluates your business? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -606,20 +606,20 @@ export default function WhyGoogleReviewsDontShowInAI() {
 
             <p>This problem is not static. It is accelerating. Research from early 2026 shows that AI local visibility is up to 30x harder than ranking in traditional Google search. Only 1.2% of local businesses earn ChatGPT recommendations, compared to the hundreds that appear in Google&apos;s Local Pack for the same queries.</p>
 
-            <p>At the same time, consumer behavior is shifting rapidly. 45% of consumers now use AI for local service searches, up from single digits just two years ago. Among active AI users, 63% already trust AI-generated local business recommendations as much as traditional reviews.</p>
+            <p>At the same time, consumer behavior is shifting rapidly. 45% of consumers now use AI for local service searches, up from single digits just two years ago. Among active AI users, 63% already trust AI-generated local business recommendations as much as traditional reviews. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>The math tells a clear story. Consumer attention is moving to AI platforms. AI platforms cannot see Google reviews. Businesses that only have Google reviews are losing an increasing share of potential customers.</p>
 
             <div className="not-prose ae-callout ae-callout-success">
               <div className="ae-callout-title">The Silver Lining</div>
-              <p>Because only 1.2% of local businesses currently appear in AI recommendations, the window of opportunity is wide open. Most of your competitors have not figured this out yet. Businesses that diversify their review presence across AI-visible platforms now will have a significant first-mover advantage that compounds over time.</p>
+              <p>Because only 1.2% of local businesses currently appear in AI recommendations, the window of opportunity is wide open. Most of your competitors have not figured this out yet. Businesses that diversify their review presence across AI-visible platforms now will have a significant first-mover advantage that compounds over time. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             <p>AI referral traffic also converts at a dramatically higher rate. Data shows a 14.2% conversion rate from AI answer engine referrals, compared to just 2.8% from Google. The customers you are missing through AI invisibility are not just any customers. They are high-intent buyers who are 5x more likely to convert.</p>
 
             <div className="not-prose ae-cta-block">
               <h3 className="font-plus-jakarta">The AI Visibility Window Is Closing</h3>
-              <p>Early movers in AI visibility are building competitive advantages that will be extremely difficult to overcome. Do not wait until your competitors figure this out.</p>
+              <p>Early movers in AI visibility are building competitive advantages that will be extremely difficult to overcome. Do not wait until your competitors figure this out. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 to Get Started</a>
             </div>
 
@@ -629,13 +629,13 @@ export default function WhyGoogleReviewsDontShowInAI() {
 
             <p>The solution is not to abandon Google reviews. They still matter enormously for Google Search visibility. The strategy is to build a multi-platform review presence that covers both traditional search and AI platforms.</p>
 
-            <p>Think of it as review portfolio management. Just as a financial advisor would never recommend putting all your money in a single stock, you should not put all your review efforts into a single platform. Especially when that platform is invisible to the fastest-growing search channel.</p>
+            <p>Think of it as review portfolio management. Just as a financial advisor would never recommend putting all your money in a single stock, you should not put all your review efforts into a single platform. Especially when that platform is invisible to the fastest-growing search channel. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>The Review Ecosystem Businesses Need</h3>
 
             <p>Successful AI visibility requires reviews distributed across multiple touchpoints. Your own website needs testimonials rendered as plain HTML with proper schema markup. Third-party platforms like Yelp, BBB, and industry-specific directories need active review profiles. Community platforms where your business gets mentioned organically also contribute to AI trust signals.</p>
 
-            <p>The specific mix depends on your industry, your market, and which AI platforms your customers are using. A restaurant needs a different review diversification strategy than a plumber, which needs a different strategy than a medical practice.</p>
+            <p>The specific mix depends on your industry, your market, and which AI platforms your customers are using. A restaurant needs a different review diversification strategy than a plumber, which needs a different strategy than a medical practice. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose">
               <table className="ae-comparison-table">
@@ -682,7 +682,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Need a review diversification strategy tailored to your industry?</p>
+              <p>Need a review diversification strategy tailored to your industry? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Start With a Free Blind Spot Report</Link>
             </div>
 
@@ -726,25 +726,25 @@ export default function WhyGoogleReviewsDontShowInAI() {
             <h2>Frequently Asked Questions</h2>
 
             <h3>Why can&apos;t ChatGPT see my Google reviews?</h3>
-            <p>Google renders review content using client-side JavaScript, which AI crawlers cannot execute. When ChatGPT&apos;s browsing tool visits a Google Business Profile, it sees only the empty HTML shell before JavaScript loads the reviews. Google also restricts its Places API to prevent competitors from accessing bulk review data. The result is that your Google reviews are completely invisible to ChatGPT regardless of how many you have or how high your rating is.</p>
+            <p>Google renders review content using client-side JavaScript, which AI crawlers cannot execute. When ChatGPT&apos;s browsing tool visits a Google Business Profile, it sees only the empty HTML shell before JavaScript loads the reviews. Google also restricts its Places API to prevent competitors from accessing bulk review data. The result is that your Google reviews are completely invisible to ChatGPT regardless of how many you have or how high your rating is. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>Can Perplexity access my Google reviews?</h3>
             <p>Perplexity has limited ability to surface Google review information. While it performs real-time web searches, Google&apos;s JavaScript-rendered review pages return minimal data to AI crawlers. Perplexity may occasionally pick up review snippets that have been quoted or referenced on third-party websites, but it cannot access your full Google review profile or aggregate rating directly.</p>
 
             <h3>Do Google reviews matter for AI visibility at all?</h3>
-            <p>Google reviews remain critical for Google&apos;s own ecosystem, including Google Search rankings, Maps visibility, and Google AI Overviews/AI Mode. However, for third-party AI platforms (ChatGPT, Perplexity, Claude, Bing Copilot), Google reviews have zero direct impact because those platforms cannot access the data. The smart strategy is to continue collecting Google reviews while simultaneously building review presence on AI-visible platforms.</p>
+            <p>Google reviews remain critical for Google&apos;s own ecosystem, including Google Search rankings, Maps visibility, and Google AI Overviews/AI Mode. However, for third-party AI platforms (ChatGPT, Perplexity, Claude, Bing Copilot), Google reviews have zero direct impact because those platforms cannot access the data. The smart strategy is to continue collecting Google reviews while simultaneously building review presence on AI-visible platforms. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>Which review platforms can AI actually read?</h3>
             <p>AI platforms can crawl and read reviews from Yelp, Better Business Bureau, Facebook (partial access), industry-specific directories like HomeAdvisor, Healthgrades, Avvo, and Zillow, plus any reviews published as plain HTML text on your own website. The critical factor is whether the reviews are rendered in server-side HTML without requiring JavaScript execution to display.</p>
 
             <h3>Will embedding a Google Reviews widget on my site help AI see them?</h3>
-            <p>In almost all cases, no. Most Google Reviews widgets use JavaScript or iframes to dynamically load review content from Google&apos;s API. AI crawlers cannot execute these widgets, so the reviews remain invisible. For reviews on your website to be AI-visible, they must be rendered as plain HTML text in the page source code, not loaded dynamically through any kind of widget or embed.</p>
+            <p>In almost all cases, no. Most Google Reviews widgets use JavaScript or iframes to dynamically load review content from Google&apos;s API. AI crawlers cannot execute these widgets, so the reviews remain invisible. For reviews on your website to be AI-visible, they must be rendered as plain HTML text in the page source code, not loaded dynamically through any kind of widget or embed. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Why does ChatGPT recommend competitors with fewer reviews than me?</h3>
             <p>Total review count only matters if the reviews are visible to the platform making the recommendation. Your competitors likely have reviews on platforms ChatGPT can crawl: their own website, Yelp, BBB, or industry directories. Even a competitor with 30 visible reviews will outperform your 300 invisible Google reviews in ChatGPT&apos;s recommendations. It is not about quantity. It is about accessibility.</p>
 
             <h3>How many local businesses actually get recommended by AI?</h3>
-            <p>Research from 2026 shows that only 1.2% of local businesses are recommended by ChatGPT for any given query. Perplexity recommends approximately 74 locations per category, while Gemini surfaces around 110. Compare that to Google&apos;s traditional Local Pack, which shows about 359 locations. AI recommendation slots are scarce, which makes visibility on AI-accessible platforms even more valuable.</p>
+            <p>Research from 2026 shows that only 1.2% of local businesses are recommended by ChatGPT for any given query. Perplexity recommends approximately 74 locations per category, while Gemini surfaces around 110. Compare that to Google&apos;s traditional Local Pack, which shows about 359 locations. AI recommendation slots are scarce, which makes visibility on AI-accessible platforms even more valuable. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Should I stop collecting Google reviews?</h3>
             <p>Absolutely not. Google reviews are still essential for Google Search rankings, Maps placement, and direct consumer trust. The correct approach is to continue collecting Google reviews while also building your review presence across platforms that AI can access. Think of it as diversifying your review portfolio rather than shifting from one platform to another.</p>
@@ -760,7 +760,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
             {/* Final CTA */}
             <div className="not-prose ae-final-cta">
               <h3 className="font-plus-jakarta">Your 5-Star Reputation Deserves to Be Seen by AI</h3>
-              <p>You worked hard for those reviews. Let us make sure AI platforms can actually find them. Our free Blind Spot Report reveals exactly which of your reviews are visible to AI and which are completely invisible.</p>
+              <p>You worked hard for those reviews. Let us make sure AI platforms can actually find them. Our free Blind Spot Report reveals exactly which of your reviews are visible to AI and which are completely invisible. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
               <div className="ae-final-cta-links">
                 <a href="tel:+12134442229">Call (213) 444-2229</a>

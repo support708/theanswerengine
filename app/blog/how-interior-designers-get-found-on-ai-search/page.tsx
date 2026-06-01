@@ -253,18 +253,18 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure what ChatGPT knows about your design firm? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure what ChatGPT knows about your design firm? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         </div>
 
         <h2 id="how-ai-finds-designers">How AI Finds Interior Designers</h2>
 
-        <p>When someone asks ChatGPT for an interior designer who specializes in transitional style kitchens in Seattle, the AI does not browse Instagram portfolios. It draws on a mental model built from everything it absorbed during training: Houzz profiles, design directories, press mentions, project descriptions on studio websites, and review content across multiple platforms.</p>
+        <p>When someone asks ChatGPT for an interior designer who specializes in transitional style kitchens in Seattle, the AI does not browse Instagram portfolios. It draws on a mental model built from everything it absorbed during training: Houzz profiles, design directories, press mentions, project descriptions on studio websites, and review content across multiple platforms. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-        <p>The designers who appear in those answers are the ones whose information was most consistently and specifically structured across those sources. An interior designer whose Houzz profile is incomplete, whose website describes services vaguely, and whose press mentions are absent will lose to a competitor whose digital footprint is organized around the exact signals AI is looking for.</p>
+        <p>The designers who appear in those answers are the ones whose information was most consistently and specifically structured across those sources. An interior designer whose Houzz profile is incomplete, whose website describes services vaguely, and whose press mentions are absent will lose to a competitor whose digital footprint is organized around the exact signals AI is looking for. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Interior Design Is a Discovery Category</div>
-          <p>Unlike emergency plumbing, interior design is a considered purchase. People research extensively before reaching out. AI is increasingly the starting point for that research, which means the designers who appear in early AI conversations have a significant first-mover advantage. Getting into the consideration set at the AI stage often determines who gets the call.</p>
+          <p>Unlike emergency plumbing, interior design is a considered purchase. People research extensively before reaching out. AI is increasingly the starting point for that research, which means the designers who appear in early AI conversations have a significant first-mover advantage. Getting into the consideration set at the AI stage often determines who gets the call. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         </div>
 
         <div className="ae-bar-group not-prose">
@@ -295,13 +295,13 @@ export default function Page() {
             <div className="ae-bar-value">9%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns</p>
+        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <h2 id="style-specialization">The Style and Project Type Signal</h2>
 
-        <p>Interior design AI queries are almost never generic. People do not ask "find me an interior designer." They ask for designers who do modern farmhouse living rooms, mid-century modern office renovations, or Japandi-style primary bedrooms. The specificity of the query requires the specificity of the answer, and AI can only provide a specific answer if a designer's content clearly communicates those specializations.</p>
+        <p>Interior design AI queries are almost never generic. People do not ask "find me an interior designer." They ask for designers who do modern farmhouse living rooms, mid-century modern office renovations, or Japandi-style primary bedrooms. The specificity of the query requires the specificity of the answer, and AI can only provide a specific answer if a designer's content clearly communicates those specializations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-        <p>Most interior design websites describe services the same way: "We create beautiful, functional spaces tailored to your lifestyle." That sentence tells AI almost nothing. It cannot tell whether you do residential or commercial, contemporary or traditional, full-room design or e-design. Every word you spend describing your aesthetic in general terms is a missed opportunity to signal a specific strength AI can match to a specific query.</p>
+        <p>Most interior design websites describe services the same way: "We create beautiful, functional spaces tailored to your lifestyle." That sentence tells AI almost nothing. It cannot tell whether you do residential or commercial, contemporary or traditional, full-room design or e-design. Every word you spend describing your aesthetic in general terms is a missed opportunity to signal a specific strength AI can match to a specific query. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -343,36 +343,36 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>See what AI platforms actually know about your design firm. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> now.</p>
+          <p>See what AI platforms actually know about your design firm. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> now. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         <h2 id="houzz-authority">Why Houzz Is Your Most Important AI Citation Source</h2>
 
-        <p>Of all the platforms where interior designers maintain a presence, Houzz carries the most weight with AI systems. It is a domain AI platforms trust as authoritative for design expertise, which means your Houzz profile is not just a portfolio platform. It is a direct citation signal that affects how AI describes and recommends you.</p>
+        <p>Of all the platforms where interior designers maintain a presence, Houzz carries the most weight with AI systems. It is a domain AI platforms trust as authoritative for design expertise, which means your Houzz profile is not just a portfolio platform. It is a direct citation signal that affects how AI describes and recommends you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Incomplete Houzz Profile Problem</div>
-          <p>Many designers created Houzz profiles years ago and have not updated them since. An outdated or incomplete Houzz profile actively works against you: it signals to AI that you are less active and less relevant than competitors who maintain current, complete profiles. Specializations, service areas, style tags, and recent project uploads all affect how often and how confidently AI cites you.</p>
+          <p>Many designers created Houzz profiles years ago and have not updated them since. An outdated or incomplete Houzz profile actively works against you: it signals to AI that you are less active and less relevant than competitors who maintain current, complete profiles. Specializations, service areas, style tags, and recent project uploads all affect how often and how confidently AI cites you. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </div>
 
-        <p>Beyond Houzz, design-specific directories like the ASID Find a Designer tool, the IIDA member directory, and local designer guild listings all create citation points that AI reads as credibility signals. These are high-authority sources in the design space, and appearing in them consistently strengthens your entity authority across every AI platform.</p>
+        <p>Beyond Houzz, design-specific directories like the ASID Find a Designer tool, the IIDA member directory, and local designer guild listings all create citation points that AI reads as credibility signals. These are high-authority sources in the design space, and appearing in them consistently strengthens your entity authority across every AI platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-        <p>Project descriptions on Houzz matter enormously. A project listed as "Living Room Renovation" gives AI minimal signal. The same project described as "Transitional living room renovation in a 1940s craftsman home in Portland, OR, featuring custom millwork, a neutral palette, and layered lighting" gives AI specific, citable content that matches search queries about transitional style, craftsman homes, Portland designers, and living room renovations simultaneously.</p>
+        <p>Project descriptions on Houzz matter enormously. A project listed as "Living Room Renovation" gives AI minimal signal. The same project described as "Transitional living room renovation in a 1940s craftsman home in Portland, OR, featuring custom millwork, a neutral palette, and layered lighting" gives AI specific, citable content that matches search queries about transitional style, craftsman homes, Portland designers, and living room renovations simultaneously. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2 id="press-signals">How Press Coverage Creates AI Authority</h2>
 
-        <p>Press features in design publications are one of the most powerful AI visibility accelerators available to interior designers. When an AI platform trained on content from Architectural Digest, Dwell, local lifestyle magazines, or design blogs finds your work featured and discussed, that coverage creates a high-authority citation that generic directory listings cannot match.</p>
+        <p>Press features in design publications are one of the most powerful AI visibility accelerators available to interior designers. When an AI platform trained on content from Architectural Digest, Dwell, local lifestyle magazines, or design blogs finds your work featured and discussed, that coverage creates a high-authority citation that generic directory listings cannot match. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Press Multiplier Effect</div>
-          <p>A single feature in a recognized design publication does not just create one citation. It creates a ripple: the publication website, syndicated versions, social shares, roundup articles that reference it, and potentially AI summaries of home design trends that cite the original piece. One press placement can generate five to ten distinct AI-visible citation points over time.</p>
+          <p>A single feature in a recognized design publication does not just create one citation. It creates a ripple: the publication website, syndicated versions, social shares, roundup articles that reference it, and potentially AI summaries of home design trends that cite the original piece. One press placement can generate five to ten distinct AI-visible citation points over time. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </div>
 
-        <p>Local press is underrated here. A feature in a city lifestyle magazine about the most interesting home renovations of the year, a local news segment on design trends, or a neighborhood blog posting about a dramatic home transformation all create geographic-specific citations that AI reads as evidence of local expertise. These features are often easier to obtain than national placements and carry significant local AI visibility weight.</p>
+        <p>Local press is underrated here. A feature in a city lifestyle magazine about the most interesting home renovations of the year, a local news segment on design trends, or a neighborhood blog posting about a dramatic home transformation all create geographic-specific citations that AI reads as evidence of local expertise. These features are often easier to obtain than national placements and carry significant local AI visibility weight. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
         <h2 id="service-pages">The Service Page Problem</h2>
 
-        <p>The most common AI visibility mistake for interior designers is the portfolio-first website architecture. Beautiful images, minimal text, no structured service descriptions. This approach looks stunning to human visitors but is nearly invisible to AI systems, which need structured, descriptive content to understand what you offer and match you to queries.</p>
+        <p>The most common AI visibility mistake for interior designers is the portfolio-first website architecture. Beautiful images, minimal text, no structured service descriptions. This approach looks stunning to human visitors but is nearly invisible to AI systems, which need structured, descriptive content to understand what you offer and match you to queries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -399,7 +399,7 @@ export default function Page() {
           </div>
         </div>
 
-        <p>Service pages do not have to sacrifice visual quality. The most effective pages combine strong imagery with specific, structured text that AI can extract. A kitchen design page that includes what is covered in the service, who it is for, what the process looks like, and what the typical outcome is gives AI everything it needs to confidently recommend you for kitchen design queries.</p>
+        <p>Service pages do not have to sacrifice visual quality. The most effective pages combine strong imagery with specific, structured text that AI can extract. A kitchen design page that includes what is covered in the service, who it is for, what the process looks like, and what the typical outcome is gives AI everything it needs to confidently recommend you for kitchen design queries. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2 id="competitor-profile">What Top Competitors Do Differently</h2>
 
@@ -459,13 +459,13 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Interior design shares discovery patterns with other high-consideration creative services. See <Link href="/blog/how-photographers-get-found-on-ai-search" className="text-[#F27D24] hover:underline">how photographers get found on AI search</Link> and <Link href="/blog/hub-spoke-content-strategy-ai-citations" className="text-[#F27D24] hover:underline">how hub-and-spoke content strategy drives AI citations</Link> for overlapping approaches.</p>
+          <p>Interior design shares discovery patterns with other high-consideration creative services. See <Link href="/blog/how-photographers-get-found-on-ai-search" className="text-[#F27D24] hover:underline">how photographers get found on AI search</Link> and <Link href="/blog/hub-spoke-content-strategy-ai-citations" className="text-[#F27D24] hover:underline">how hub-and-spoke content strategy drives AI citations</Link> for overlapping approaches. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Designers Instead of You</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your design firm, which signals are missing, and what it would take to appear when a homeowner searches for a designer like you.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your design firm, which signals are missing, and what it would take to appear when a homeowner searches for a designer like you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -492,7 +492,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -528,7 +528,7 @@ export default function Page() {
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+              <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
           ))}
         </div>
@@ -536,12 +536,12 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Design Project Could Be Yours</h2>
-          <p className="text-gray-300 mb-8 text-lg">Every homeowner who finds a designer through AI and never sees your name is a lost project. Our Blind Spot Report shows exactly what AI knows about your firm and what it would take to be in that first conversation.</p>
+          <p className="text-gray-300 mb-8 text-lg">Every homeowner who finds a designer through AI and never sees your name is a lost project. Our Blind Spot Report shows exactly what AI knows about your firm and what it would take to be in that first conversation. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes.</p>
+          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

@@ -284,7 +284,7 @@ export default function Page() {
               getting calls. You were getting clicks. You were winning customers. That era is
               ending. AI-powered search is quietly replacing the Map Pack as the primary way
               people discover local services, and most business owners have no idea it is happening.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">Why This Matters Right Now</div>
@@ -292,11 +292,11 @@ export default function Page() {
                 Google has rolled out AI Overviews to 1.5 billion users. Ask Maps launched in March 2026.
                 AI local packs are already showing fewer businesses than the traditional Map Pack in most markets.
                 If you are still relying on Map Pack rankings as your primary growth strategy, your leads are at risk.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to know if AI search is already costing you leads?</p>
+              <p>Want to know if AI search is already costing you leads? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation</a>
             </div>
 
@@ -311,19 +311,19 @@ export default function Page() {
               Dallas,&quot; the top of the page showed three businesses with their ratings, hours,
               and a map pin. Getting into that 3-pack was the single most important goal for any
               local business doing SEO.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               But Google is now layering AI-generated results on top of everything. AI Overviews
               appear in <strong className="text-white">40.2% of queries related to local
               businesses</strong> as of early 2025. And here is the critical detail: when both an
               AI Overview and a Map Pack appear on the same search results page, the AI Overview
               comes first. The Map Pack gets pushed below the fold.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               According to research published by Search Engine Roundtable, only 1% of queries
               trigger both AI Overviews and Map Packs in the same set of results. In most cases,
               it is one or the other. And increasingly, Google is choosing the AI answer.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Bar Chart: AI Overview Presence */}
             <div className="not-prose ae-bar-group">
@@ -365,11 +365,11 @@ export default function Page() {
                 of the 322 markets analyzed</strong> by Sterling Sky, the total number of unique
                 businesses visible to searchers has declined. Where the old Map Pack showed three
                 businesses, AI local packs often show just one or two.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Wondering if your business is still visible in AI search results?</p>
+              <p>Wondering if your business is still visible in AI search results? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -383,14 +383,14 @@ export default function Page() {
               businesses: zero-click searches. These are searches where the user gets everything
               they need directly from the search results page without clicking through to any
               website.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               According to Semrush data, <strong className="text-white">58.5% of all U.S. Google
               searches</strong> now end without a single click to any website. For local-intent
               searches specifically, the numbers are even worse. Similarweb mobile trend data shows
               that &quot;near me&quot; queries produce up to <strong className="text-white">78%
               zero-click outcomes</strong>.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Bar Chart: Zero-Click Data */}
             <div className="not-prose ae-bar-group">
@@ -416,10 +416,10 @@ export default function Page() {
               them your hours, your reviews, your address, and a summary of what you do. They call
               directly from the search page. Or they just read the AI summary and move on. Your
               website never enters the picture.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="not-prose ae-quote">
-              <p>Your rankings look fine in the dashboard. Your calls are disappearing because the customer journey no longer requires a click.</p>
+              <p>Your rankings look fine in the dashboard. Your calls are disappearing because the customer journey no longer requires a click. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -427,7 +427,7 @@ export default function Page() {
               experiencing steady rankings but vanishing phone calls. The rankings look fine in the
               dashboard. The calls are disappearing because the customer journey no longer requires
               a click.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="not-prose ae-takeaway">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -435,16 +435,16 @@ export default function Page() {
                 Ranking well in the Map Pack no longer guarantees calls or website traffic. When 78% of local
                 searches end without a click, your business needs to be the answer that AI serves directly
                 to the customer, not just a pin on a map.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Your rankings look fine but leads are dropping? There is a reason for that.</p>
+              <p>Your rankings look fine but leads are dropping? There is a reason for that. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run a Free Visibility Audit</Link>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Prefer to talk it through? Our team can walk you through the data.</p>
+              <p>Prefer to talk it through? Our team can walk you through the data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229</a>
             </div>
 
@@ -458,7 +458,7 @@ export default function Page() {
               Google AI Mode delivers comprehensive, conversational AI responses to search queries.
               Instead of scanning a list of results, users have a conversation with Google and get
               a curated answer.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Then on March 12, 2026, Google announced what it called the &quot;biggest navigation
               upgrade in over a decade.&quot; The update introduced <strong className="text-white">Ask
@@ -466,13 +466,13 @@ export default function Page() {
               now ask natural-language questions like &quot;Where can I get my car detailed this
               Saturday morning?&quot; and receive personalized, AI-generated responses complete with
               business listings, review summaries, and booking options.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This is a fundamental shift in how local discovery works. Instead of scrolling through
               map pins and comparing star ratings, customers are now asking questions and getting
               curated recommendations. The businesses that AI chooses to feature in those answers
               win. Everyone else becomes invisible.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Timeline: The AI Search Evolution */}
             <div className="not-prose ae-timeline">
@@ -507,7 +507,7 @@ export default function Page() {
                 locations</strong> were recommended by ChatGPT, 11% by Gemini, and 7.4% by
                 Perplexity. Compare that to <strong>35.9%</strong> appearing
                 in Google&apos;s traditional local 3-pack.
-              </p>
+               Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* AI Recommendation Rates Bar Group */}
@@ -543,7 +543,7 @@ export default function Page() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Is your business one of the 1.2% that AI recommends? Or part of the 98.8% it ignores?</p>
+              <p>Is your business one of the 1.2% that AI recommends? Or part of the 98.8% it ignores? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Find Out Now</Link>
             </div>
 
@@ -603,12 +603,12 @@ export default function Page() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Still optimizing for the old Map Pack playbook? That playbook is expiring.</p>
+              <p>Still optimizing for the old Map Pack playbook? That playbook is expiring. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">See What AI Actually Sees About Your Business</Link>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Have questions about the transition? Email us directly.</p>
+              <p>Have questions about the transition? Email us directly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
             </div>
 
@@ -623,13 +623,13 @@ export default function Page() {
               start of 2025, local pack ads appeared on only about 1% of mobile reports. By January
               2026, that number had jumped to nearly <strong className="text-white">22%</strong>,
               according to Sterling Sky tracking data.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This means the spots that were once reserved exclusively for organically ranked local
               businesses are now being sold to advertisers. Between AI local packs showing fewer
               businesses and paid ads taking up more of the remaining space, the organic local
               visibility that small businesses depended on is being compressed from both sides.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* Ad Growth Bar */}
             <div className="not-prose ae-bar-group">
@@ -653,7 +653,7 @@ export default function Page() {
               <div className="ae-callout-title">The Double Squeeze Effect</div>
               <p>
                 AI is compressing local results from the top (fewer organic slots). Paid ads are compressing them from the bottom (more ad slots). The organic visibility window for local businesses is shrinking from both directions simultaneously.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             <div className="not-prose ae-pros-cons">
@@ -685,17 +685,17 @@ export default function Page() {
               visibility through ads keeps climbing. The businesses that adapt to this new reality
               early will have a significant advantage. Those who wait will find themselves paying
               more for less.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-takeaway">
               <div className="ae-takeaway-title">Key Takeaway</div>
               <p>
                 The organic local visibility window is closing from both ends. Businesses that invest in AI-ready strategies now will lock in advantages that become exponentially harder to replicate later.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Compressed from both sides? There is a path forward.</p>
+              <p>Compressed from both sides? There is a path forward. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -708,7 +708,7 @@ export default function Page() {
               The rules of local visibility have changed. Ranking in the Map Pack is no longer
               enough, because the Map Pack itself is losing its dominant position. Here is what
               local businesses need to focus on instead.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               1. Optimize for AI Answers, Not Just Rankings

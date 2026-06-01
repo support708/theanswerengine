@@ -289,7 +289,7 @@ export default function Page() {
               74% of companies using AI for marketing have yet to show real ROI from it.
               The question is not whether AI is powerful. It is whether power without
               strategy actually produces results.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* Callout: The Core Tension */}
             <div className="not-prose">
@@ -300,14 +300,14 @@ export default function Page() {
                   Yet three out of four companies using AI for marketing cannot point to
                   measurable returns. The gap between tool access and strategic execution has
                   never been wider.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Wondering if AI platforms even recommend your business right now?</p>
+                <p>Wondering if AI platforms even recommend your business right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
               </div>
             </div>
@@ -322,14 +322,14 @@ export default function Page() {
               the agency. Generate content with one click. Automate your ads. Personalize
               every email. The implication is clear: why pay an agency $5,000 per month when
               a $99 tool does the same work?
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This framing conflates execution with strategy. AI tools are execution
               machines. They can produce outputs at scale. But producing outputs is not the
               same as producing results. A factory can stamp out 10,000 widgets per hour,
               but it cannot decide which widgets to build, who to sell them to, or how to
               position them against competitors.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Quote */}
             <div className="not-prose">
@@ -338,7 +338,7 @@ export default function Page() {
                   &quot;The businesses that fire their agency and go AI-only almost always
                   experience the same pattern: a burst of activity followed by a plateau
                   of mediocrity.&quot;
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
             </div>
 
@@ -346,7 +346,7 @@ export default function Page() {
               More content gets published, more emails get sent, more ads get created. But
               the leads do not increase. Sometimes they decline. The volume goes up while
               the value goes down.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* Bar Chart: AI Adoption vs ROI Gap */}
             <div className="not-prose">
@@ -385,7 +385,7 @@ export default function Page() {
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Is your marketing generating volume without value? Find out.</p>
+                <p>Is your marketing generating volume without value? Find out. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 <Link href="/blindspot">Run Your Free AI Visibility Check &#8594;</Link>
               </div>
             </div>
@@ -399,7 +399,7 @@ export default function Page() {
               AI is not useless. It is genuinely transformative for specific categories
               of marketing work. Understanding which categories helps you see where the
               real savings are, and where the real risks hide.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Cheat Sheet: Tasks AI Handles */}
             <div className="not-prose">
@@ -420,7 +420,7 @@ export default function Page() {
               <strong className="text-white">44% higher productivity and save an average
               of 11 hours per week</strong>. That is real. Those are hours that used to go
               toward repetitive execution work, and AI handles it faster.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Takeaway */}
             <div className="not-prose">
@@ -431,14 +431,14 @@ export default function Page() {
                   the list above, then yes, AI tools can likely replace a significant portion
                   of what you are paying for. But that also means your agency was not providing
                   much strategic value to begin with.
-                </p>
+                 One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure what your agency actually does vs. what AI could handle?</p>
+                <p>Not sure what your agency actually does vs. what AI could handle? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 <a href="tel:+12134442229">Call us at (213) 444-2229 &#8594;</a>
               </div>
             </div>
@@ -452,7 +452,7 @@ export default function Page() {
               Here is where the myth breaks down. The tasks that actually drive business
               growth require judgment, context, and strategic thinking that AI fundamentally
               cannot provide.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Decision Matrix: Strategic Layer */}
             <div className="not-prose">
@@ -507,7 +507,7 @@ export default function Page() {
                   And 63% of business leaders flag inaccuracy as a primary risk of generative
                   AI in their organizations. When your marketing sounds like everyone else,
                   you lose the one thing that made customers choose you: distinctiveness.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               </div>
             </div>
 
@@ -555,7 +555,7 @@ export default function Page() {
             {/* CTA Inline 4 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want a strategy layer on top of your AI tools? Let&apos;s talk.</p>
+                <p>Want a strategy layer on top of your AI tools? Let&apos;s talk. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai &#8594;</a>
               </div>
             </div>
@@ -570,7 +570,7 @@ export default function Page() {
               in your market uses the same AI tools to generate the same types of content,
               nobody stands out. The playing field does not tilt in your favor. It flattens
               to the point where differentiation disappears entirely.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Comparison Table: With Strategy vs Without */}
             <div className="not-prose">
@@ -625,7 +625,7 @@ export default function Page() {
               send AI-personalized emails, then your marketing becomes indistinguishable.
               The AI did not give you an advantage. It gave everyone the same baseline
               competence.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Quote */}
             <div className="not-prose">
@@ -635,7 +635,7 @@ export default function Page() {
                   $57.99 billion in 2026. Everyone has access to the same tools. The
                   competitive advantage now belongs to businesses that use those tools within
                   a differentiated strategy.&quot;
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
             </div>
 
@@ -646,12 +646,12 @@ export default function Page() {
                 Without that layer, you end up paying for SEO and marketing that generates
                 reports but not leads.
               </Link>
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Are your competitors already outpacing you in AI search?</p>
+                <p>Are your competitors already outpacing you in AI search? Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <Link href="/blindspot">Check Your AI Blind Spots Free &#8594;</Link>
               </div>
             </div>
@@ -666,7 +666,7 @@ export default function Page() {
               marketing content. Then AI search platforms like ChatGPT, Google AI Overviews,
               and Perplexity evaluate that content and decide it is not authoritative enough
               to recommend.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Callout: The Irony */}
             <div className="not-prose">
@@ -677,7 +677,7 @@ export default function Page() {
                   and trustworthiness. When you flood your blog with AI-generated articles that
                   say the same things every other AI-generated article says, you are not building
                   authority. You are diluting it.
-                </p>
+                 Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
             </div>
 
@@ -689,7 +689,7 @@ export default function Page() {
               </Link>{' '}
               because they have replaced distinctive, authoritative content with generic
               material that AI search platforms actively deprioritize.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* Timeline: How AI Content Fails */}
             <div className="not-prose">
@@ -742,12 +742,12 @@ export default function Page() {
               </Link>{' '}
               is now a critical part of any marketing strategy, whether you use an agency
               or not.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Is AI-generated content actually hurting your visibility?</p>
+                <p>Is AI-generated content actually hurting your visibility? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                 <Link href="/blindspot">Find Out With a Free Analysis &#8594;</Link>
               </div>
             </div>
@@ -763,7 +763,7 @@ export default function Page() {
               technical challenges (70%), and lack of training (67%). Organizations that
               invest in employee AI training report 43% higher success rates in deploying
               AI projects.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Stats Grid: Implementation */}
             <div className="not-prose">
@@ -797,7 +797,7 @@ export default function Page() {
               kitchen and expecting it to run a restaurant. The equipment is necessary but
               insufficient. The chef, the menu, the sourcing, the service model: those are
               what make it a business, not the appliances.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Takeaway */}
             <div className="not-prose">
@@ -807,14 +807,14 @@ export default function Page() {
                   Purchasing AI tools from specialized vendors succeeds about 67% of the time.
                   Building AI solutions internally succeeds only one-third as often. The
                   difference is expertise. Not tool access.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 7 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Need expert guidance on AI marketing implementation?</p>
+                <p>Need expert guidance on AI marketing implementation? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation &#8594;</a>
               </div>
             </div>
@@ -827,7 +827,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-4">
               Here is the nuanced reality. Whether AI can replace your agency depends
               entirely on what kind of agency you have.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Pros/Cons */}
             <div className="not-prose">

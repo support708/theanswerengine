@@ -202,20 +202,20 @@ export default function Page() {
 
           <p>
             Social media is one of the most misunderstood factors in AI search visibility. Business owners pour time into follower growth, engagement rates, and posting consistency, only to find ChatGPT and Perplexity completely ignoring them when customers ask for recommendations. Meanwhile, a competitor with half their followers and a less polished feed keeps showing up in AI answers.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             The reason is not random. AI platforms apply a fundamentally different scoring system than social algorithms. What Instagram rewards and what ChatGPT rewards share almost no overlap. Understanding that gap is the starting point for turning your social presence into an actual AI signal.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Myth Alert</div>
-            <p>Follower count is not a ranking signal for ChatGPT, Perplexity, or Google AI Overviews. A business with 200 followers that publishes original expertise content will outperform a business with 200,000 followers posting promotional graphics in every AI recommendation scenario.</p>
+            <p>Follower count is not a ranking signal for ChatGPT, Perplexity, or Google AI Overviews. A business with 200 followers that publishes original expertise content will outperform a business with 200,000 followers posting promotional graphics in every AI recommendation scenario. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure if your social presence is helping AI find you? Get your free AI Blind Spot Report.</p>
+            <p>Not sure if your social presence is helping AI find you? Get your free AI Blind Spot Report. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Check Your AI Visibility Now &rarr;</Link>
           </div>
 
@@ -225,15 +225,15 @@ export default function Page() {
 
           <p>
             The assumption makes intuitive sense. Social media signals authority. More followers means more people trust you. More engagement means your content resonates. If Google once used social signals as indirect trust indicators, shouldn&apos;t AI do the same?
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <p>
             The problem is that AI recommendation engines operate on a completely different information architecture than Google&apos;s search algorithm. Google&apos;s algorithm was trained on a web where social proof correlated with content quality. AI language models are trained on whether a source can produce a clear, accurate, authoritative answer to a specific question. Popularity metrics simply do not appear in that evaluation.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <p>
             ChatGPT, with 883 million monthly users and 2 billion daily queries, decides what to recommend by evaluating content substance, cross-platform consistency, and the clarity of expertise signals. When a user in Los Angeles asks it for the best HVAC contractor in their area, it is not checking follower counts. It is looking for consistent NAP data, customer success stories, original technical content, and mentions across trusted third-party sources.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-quote not-prose">
             <blockquote>Three in four Americans now search with AI weekly. What they find has nothing to do with how many people liked your last post.</blockquote>
@@ -241,16 +241,16 @@ export default function Page() {
 
           <p>
             The myth persists because social media platforms themselves have trained business owners to measure success in followers and likes. Those metrics matter for social algorithms. They are irrelevant to AI recommendation systems. Conflating the two is one of the most expensive mistakes a business owner can make in the AI search era.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Social media can help your AI visibility, but follower count, likes, and post frequency are not how. The channel matters. The content type matters. The expertise signal matters. The audience size does not.</p>
+            <p>Social media can help your AI visibility, but follower count, likes, and post frequency are not how. The channel matters. The content type matters. The expertise signal matters. The audience size does not. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your competitors may be building the right social signals without knowing it. See how you compare.</p>
+            <p>Your competitors may be building the right social signals without knowing it. See how you compare. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -260,24 +260,24 @@ export default function Page() {
 
           <p>
             AI platforms interact with social media content in two distinct ways: direct indexing and entity recognition. Understanding both changes how you should think about your social strategy.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <p>
             Direct indexing means the AI platform&apos;s crawlers can access and read the content. This applies to YouTube (transcripts, descriptions, titles), LinkedIn (articles, posts, company pages), and Reddit (threads, comments, discussions). These platforms are crawlable and their content appears directly in AI training data and real-time retrieval pipelines.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <p>
             Entity recognition is different. Even when AI cannot directly read your TikTok or Instagram content, the <em>existence</em> of a consistent business entity across platforms contributes to AI&apos;s understanding of who you are. When your business name, address, phone number, and description match across your website, your Google Business Profile, your LinkedIn page, and your social profiles, AI systems build a richer, more confident picture of your business entity. Inconsistency across these signals creates ambiguity that reduces citation probability.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Indexability Gap</div>
-            <p>Only about 10% of sources cited in AI search rank in Google&apos;s top 10 for the same query. AI does not simply amplify existing SEO rankings. It draws from its own view of the web, which includes platforms and content types that traditional SEO ignores entirely.</p>
+            <p>Only about 10% of sources cited in AI search rank in Google&apos;s top 10 for the same query. AI does not simply amplify existing SEO rankings. It draws from its own view of the web, which includes platforms and content types that traditional SEO ignores entirely. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           <p>
             This creates an important distinction. A business that treats social media as a billboard, posting announcements and promotional content, generates almost no AI signal. A business that treats certain social platforms as knowledge publication channels, posting original expertise, case studies, and educational content, creates content that AI can index, evaluate, and cite.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* SECTION: PLATFORM BREAKDOWN */}
           <span className="ae-section-label" id="platform-breakdown">Platform Breakdown</span>
@@ -285,7 +285,7 @@ export default function Page() {
 
           <p>
             Not all social platforms carry equal weight in AI recommendation systems. Here is the honest breakdown based on how AI platforms actually use content from each channel.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           {/* BAR CHART / PLATFORM TABLE */}
           <div className="ae-comparison-table not-prose">
@@ -347,20 +347,20 @@ export default function Page() {
 
           <p>
             The pattern is clear: platforms where text and structured content can be indexed directly produce stronger AI signals. YouTube transcripts are a particularly underused asset. A ten-minute video explaining your service process, with a well-written description and accurate auto-captions, gives AI platforms a readable, citable text document connected to your brand.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">The LinkedIn Advantage</div>
-            <p>LinkedIn is the most-cited social platform for professional and business queries across all major AI platforms. If your business serves other businesses or professional clients, a well-maintained LinkedIn company page with original articles is one of the highest-ROI social investments you can make for AI visibility.</p>
+            <p>LinkedIn is the most-cited social platform for professional and business queries across all major AI platforms. If your business serves other businesses or professional clients, a well-maintained LinkedIn company page with original articles is one of the highest-ROI social investments you can make for AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
           <p>
             TikTok and Instagram deserve a separate note. Nearly 1 in 3 consumers now start their search on TikTok, Instagram, or YouTube rather than Google. These platforms are powerful human discovery channels. But that discovery happens through the social platform&apos;s own algorithm, not through AI recommendation engines. Building a TikTok presence can drive real customers to your business, but it will not move ChatGPT or Perplexity to cite you more often.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Which platforms are actually sending AI signals for your business? We can show you.</p>
+            <p>Which platforms are actually sending AI signals for your business? We can show you. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
           </div>
 
@@ -370,7 +370,7 @@ export default function Page() {
 
           <p>
             The social behaviors that influence AI recommendation probability all share one thing: they produce or validate actual expertise. Here is a precise breakdown of what works and why.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
@@ -402,7 +402,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">The Recency Factor</div>
-            <p>AI platforms use recency as a tiebreaker between otherwise similar sources. A business with consistent recent activity across indexed platforms will edge out a business with older, static content even if that older content is higher quality. Sustainable posting cadence beats burst-and-pause activity.</p>
+            <p>AI platforms use recency as a tiebreaker between otherwise similar sources. A business with consistent recent activity across indexed platforms will edge out a business with older, static content even if that older content is higher quality. Sustainable posting cadence beats burst-and-pause activity. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           {/* SECTION: SIGNALS THAT DON'T */}
@@ -411,7 +411,7 @@ export default function Page() {
 
           <p>
             Equal time deserves to be spent on what does not work, because most social media advice aimed at business owners is optimized for social algorithms, not AI recommendation systems.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* PROS/CONS TABLE */}
           <div className="ae-comparison-table not-prose">
@@ -470,16 +470,16 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Keyword Stuffing Trap</div>
-            <p>Stuffing your Instagram bio, LinkedIn headline, or Facebook description with keyword strings does not help AI find you. AI platforms evaluate semantic meaning and contextual relevance, not keyword frequency. Keyword stuffing in social profiles signals low-quality, manipulated content to AI evaluation systems and can reduce your citation probability.</p>
+            <p>Stuffing your Instagram bio, LinkedIn headline, or Facebook description with keyword strings does not help AI find you. AI platforms evaluate semantic meaning and contextual relevance, not keyword frequency. Keyword stuffing in social profiles signals low-quality, manipulated content to AI evaluation systems and can reduce your citation probability. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p>
             There is also the strategic distraction problem. Every hour spent optimizing Instagram Reels for algorithmic reach is an hour not spent creating the LinkedIn article, YouTube walkthrough, or original research post that actually builds AI citation signals. The opportunity cost is real and most business owners do not see it clearly until they audit where their content time goes versus where their AI visibility actually comes from.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Find out exactly where your AI visibility gaps are before a competitor fills them.</p>
+            <p>Find out exactly where your AI visibility gaps are before a competitor fills them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -489,7 +489,7 @@ export default function Page() {
 
           <p>
             Here is the practical guide to what to post on each platform to generate meaningful AI signals.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <div className="not-prose my-8 grid gap-4 md:grid-cols-2">
 
@@ -555,7 +555,7 @@ export default function Page() {
 
           <p>
             Use this matrix before investing time or budget in any social media activity. Map the activity against both axes and you will see immediately where your effort is actually going.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <div className="ae-comparison-table not-prose">
             <table>
@@ -628,7 +628,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Two-Channel Reality</div>
-            <p>Social media serves two distinct audiences: human browsers who discover you organically through social algorithms, and AI systems that evaluate your authority as a source. A smart social strategy acknowledges both and allocates effort accordingly. YouTube and LinkedIn serve both audiences well. Instagram and TikTok serve primarily human audiences. This is not a reason to abandon those platforms. It is a reason to stop expecting them to move your AI visibility.</p>
+            <p>Social media serves two distinct audiences: human browsers who discover you organically through social algorithms, and AI systems that evaluate your authority as a source. A smart social strategy acknowledges both and allocates effort accordingly. YouTube and LinkedIn serve both audiences well. Instagram and TikTok serve primarily human audiences. This is not a reason to abandon those platforms. It is a reason to stop expecting them to move your AI visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           {/* SECTION: TIMELINE */}
@@ -637,7 +637,7 @@ export default function Page() {
 
           <p>
             There is no instant path from posting social content to appearing in AI recommendations. Understanding the timeline is essential for setting realistic expectations and prioritizing the right activities.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">

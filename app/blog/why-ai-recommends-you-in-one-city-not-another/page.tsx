@@ -273,21 +273,21 @@ export default function Page() {
             Every time someone asks an AI assistant for a local business recommendation, the
             platform performs a location resolution before it even starts thinking about which
             businesses to name. That resolution draws from several inputs simultaneously.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The user&apos;s IP address provides a starting point: city, metro area, sometimes zip
             code. Explicit query signals like "near me," "in Dallas," or "close to downtown" refine
             that estimate. For platforms where the user is logged in, account location data adds
             another layer. And conversational context, things the user said earlier in the session,
             can override all of them.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Perplexity has built a dedicated location filter into its API. ChatGPT Search uses
             Bing&apos;s geolocation infrastructure. Google AI Overviews leverage Google&apos;s
             established location graph. The result is that two people searching for the exact same
             service in cities twenty miles apart will typically receive different business
             recommendations.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-callout ae-callout-info mb-6">
             <div className="ae-callout-title">The Radius Problem</div>
@@ -297,7 +297,7 @@ export default function Page() {
               area. A plumber with strong signals in Pasadena may show up for Pasadena queries but
               not Arcadia queries, even though those cities border each other. Building signals in
               each target geography is the only reliable fix.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           <div className="ae-cta-inline mb-6">
@@ -306,7 +306,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Your free Blind Spot Report maps your geo-specific AI visibility.
               </Link>
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
         </section>
 
@@ -320,14 +320,14 @@ export default function Page() {
             convergence of geographic signals across multiple independent sources. The more sources
             agree that your business serves a particular location, the more confidently AI will
             recommend you there.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This convergence check is why consistency matters so much. If your Google Business
             Profile says you are in Los Angeles but your Yelp listing says you are in Santa Monica
             and your website says you serve the Greater LA Area, AI sees three different geographic
             stories. That ambiguity reduces recommendation confidence. Consistent, explicit signals
             build it.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-bar-group mb-8">
             <div className="ae-bar-item">
@@ -380,7 +380,7 @@ export default function Page() {
             and Foursquare data. Your Google Business Profile is not just a Google SEO tool. It is
             one of the primary data sources feeding AI business recommendations across the entire
             ecosystem.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         </section>
 
         {/* Section 3 */}
@@ -393,13 +393,13 @@ export default function Page() {
             Your address is there. Your initial Google Business Profile listing used that city.
             Your first reviews came from local clients. Your early website content probably
             mentioned the city by name repeatedly.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Over time, those signals compound. Local clients leave reviews mentioning the
             neighborhood. Local press might cover a story about your business. Other local
             businesses link to you. The result is a geographic authority profile that is dense
             and well-corroborated for your home city and thin or nonexistent everywhere else.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-callout ae-callout-success mb-6">
             <div className="ae-callout-title">The Good News</div>
@@ -409,7 +409,7 @@ export default function Page() {
               through targeted directory listings, service-area content, and structured data. The
               businesses that dominate multi-city AI search got there through intentional signal
               building, not just time in market.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -417,7 +417,7 @@ export default function Page() {
             visibility by testing from their home city and see their business in AI results, then
             ask the same question from a different location and disappear. The platform is not
             malfunctioning. It is reading the geographic evidence accurately.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-cta-inline mb-6">
             <p>
@@ -425,7 +425,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Get your free AI Blind Spot Report.
               </Link>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
@@ -440,13 +440,13 @@ export default function Page() {
             in Scottsdale, Tempe, and Mesa needs AI visibility in all four cities. But unless the
             firm has deliberately built signals for each location, it will only reliably appear
             for Phoenix.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The gap is especially pronounced for service-area businesses: plumbers, electricians,
             landscapers, cleaning companies, HVAC technicians. These businesses often operate
             across dozens of zip codes but anchor all their web presence to a single city address.
             AI reads that as a single-city business.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -480,7 +480,7 @@ export default function Page() {
             lower than third-party evidence. Your website saying you serve Denver matters less
             than a dozen Denver-based clients leaving reviews mentioning that you served them
             in Denver.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </section>
 
         {/* Section 5 */}
@@ -493,14 +493,14 @@ export default function Page() {
             to build geographic authority in ten cities simultaneously usually results in weak
             signals everywhere. Building strong signals in two or three cities at a time compounds
             more effectively.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The foundation layer for any new city should be your directory presence. Platforms
             like Yelp, Google Business Profile (if you can get a verified location), Angi, Houzz,
             Thumbtack, and industry-specific directories need to list your business as serving
             that specific city. Each consistent listing is a corroborating data point that tells
             AI you operate there.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
@@ -547,7 +547,7 @@ export default function Page() {
             </Link>
             . The short answer: it does, and the areaServed property is one of the most
             underused signals in local AI optimization.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         </section>
 
         {/* Decision Matrix */}
@@ -558,7 +558,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-6">
             Not every city in your service area deserves equal investment. Use this framework
             to decide where to focus your geographic AI optimization efforts first.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-decision-matrix mb-8">
             <div className="ae-decision-row">
@@ -596,7 +596,7 @@ export default function Page() {
               advantage over competitors who begin building them a year from now. AI does not
               just snapshot current signals. It weights businesses with longer, more consistent
               geographic histories more heavily.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -607,7 +607,7 @@ export default function Page() {
             </Link>{' '}
             covers the specific signals that multi-location businesses need to build for each
             individual location rather than relying on brand authority alone.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-takeaway mb-8">
             <div className="ae-takeaway-title">The Bottom Line</div>
@@ -618,7 +618,7 @@ export default function Page() {
               is a reflection of where your web presence is documented. Building geographic
               authority in your target markets is one of the highest-ROI activities in AI
               search optimization.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
         </section>
 
@@ -631,7 +631,7 @@ export default function Page() {
             Our free Blind Spot Report identifies which cities ChatGPT, Perplexity, and Google AI
             Overviews currently associate with your business, and which markets you are missing
             entirely despite serving clients there.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -674,7 +674,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
           </div>
@@ -709,7 +709,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
-                <p className="text-gray-400 leading-relaxed">{a}</p>
+                <p className="text-gray-400 leading-relaxed">{a} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             ))}
           </div>
@@ -724,7 +724,7 @@ export default function Page() {
             Every city where you serve clients but have no AI visibility is revenue flowing to
             a competitor. Find out exactly which markets you are losing with your free Blind
             Spot Report.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <Link
             href="/blindspot"
             className="ae-cta-primary inline-flex items-center gap-2"

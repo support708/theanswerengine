@@ -344,13 +344,13 @@ export default function Page() {
 
             <p>Anthropic&apos;s Claude has quietly become one of the most influential AI platforms in business. With 18.9 million monthly active users and a 29% share of the enterprise AI assistant market, Claude is shaping which businesses get recommended, which get cited, and which get ignored entirely.</p>
 
-            <p>The question every business owner should be asking: what does Claude actually look for when it decides to recommend one company over another? The answer is nothing like traditional SEO. Claude operates on a fundamentally different set of trust signals, and most businesses have no idea they are being evaluated.</p>
+            <p>The question every business owner should be asking: what does Claude actually look for when it decides to recommend one company over another? The answer is nothing like traditional SEO. Claude operates on a fundamentally different set of trust signals, and most businesses have no idea they are being evaluated. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>Google ranks pages. Claude evaluates entities. That distinction matters more than most marketers realize.</p>
             </div>
 
-            <p>When someone asks Claude to recommend a plumber in Austin, a financial advisor in LA, or a SaaS platform for project management, Claude is not scrolling through a ranked list of web pages. It is reasoning about the business itself: who it is, what it has done, and whether the evidence supports a recommendation.</p>
+            <p>When someone asks Claude to recommend a plumber in Austin, a financial advisor in LA, or a SaaS platform for project management, Claude is not scrolling through a ranked list of web pages. It is reasoning about the business itself: who it is, what it has done, and whether the evidence supports a recommendation. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -358,7 +358,7 @@ export default function Page() {
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
-            <p>This is a paradigm shift. Traditional SEO rewarded keyword density, backlink volume, and technical page optimization. Claude does not care about any of that. It cares about something harder to fake: genuine authority. The model reads, interprets, and cross-references information the way an experienced analyst would. It looks for patterns of credibility across multiple sources, not just signals on a single page.</p>
+            <p>This is a paradigm shift. Traditional SEO rewarded keyword density, backlink volume, and technical page optimization. Claude does not care about any of that. It cares about something harder to fake: genuine authority. The model reads, interprets, and cross-references information the way an experienced analyst would. It looks for patterns of credibility across multiple sources, not just signals on a single page. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>Understanding <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link> is the starting point. But Claude has its own evaluation framework, and the nuances are where competitive advantage lives.</p>
 
@@ -366,7 +366,7 @@ export default function Page() {
             <span className="ae-section-label">Head-to-Head</span>
             <h2>Google vs Claude: How They Evaluate Your Business</h2>
 
-            <p>The differences between how Google and Claude assess businesses are not subtle. They represent two entirely different philosophies of trust evaluation.</p>
+            <p>The differences between how Google and Claude assess businesses are not subtle. They represent two entirely different philosophies of trust evaluation. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -425,7 +425,7 @@ export default function Page() {
             <span className="ae-section-label">The Framework</span>
             <h2>The Five Authority Pillars Claude Weighs</h2>
 
-            <p>Based on extensive testing and analysis of Claude&apos;s recommendation patterns, five core authority pillars emerge consistently. These are not official Anthropic documentation. They are observable patterns derived from how the model actually behaves when evaluating businesses.</p>
+            <p>Based on extensive testing and analysis of Claude&apos;s recommendation patterns, five core authority pillars emerge consistently. These are not official Anthropic documentation. They are observable patterns derived from how the model actually behaves when evaluating businesses. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* ── TIMELINE: Five Pillars ── */}
             <div className="ae-timeline not-prose">
@@ -435,7 +435,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Pillar 2: Third-Party Validation</strong>
-                <p>The single most underestimated authority signal. If your brand only appears on your own properties, Claude lacks the independent validation it needs. A single mention in a respected industry publication carries more weight than ten self-published blog posts.</p>
+                <p>The single most underestimated authority signal. If your brand only appears on your own properties, Claude lacks the independent validation it needs. A single mention in a respected industry publication carries more weight than ten self-published blog posts. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Pillar 3: Content Depth and Structure</strong>
@@ -443,7 +443,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Pillar 4: Topical Authority</strong>
-                <p>Claude evaluates whether you are a genuine authority in your claimed domain or a generalist touching many topics. A cybersecurity firm with 50 articles about threat detection outranks a general IT consultancy with one article on the same topic.</p>
+                <p>Claude evaluates whether you are a genuine authority in your claimed domain or a generalist touching many topics. A cybersecurity firm with 50 articles about threat detection outranks a general IT consultancy with one article on the same topic. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Pillar 5: Freshness and Maintenance</strong>
@@ -494,7 +494,7 @@ export default function Page() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Entity consistency and third-party validation carry the most weight. You cannot shortcut your way to Claude authority with content alone. Your business must exist as a verifiable, consistently described entity across the web.</p>
+              <p>Entity consistency and third-party validation carry the most weight. You cannot shortcut your way to Claude authority with content alone. Your business must exist as a verifiable, consistently described entity across the web. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* ── CTA 3 ── */}
@@ -507,7 +507,7 @@ export default function Page() {
             <span className="ae-section-label">Deep Dive</span>
             <h2>Entity Consistency: The Foundation of Claude Trust</h2>
 
-            <p>This goes beyond basic NAP (Name, Address, Phone) consistency. Claude evaluates whether the claims you make about your business are substantiated across independent sources. If your website says you serve 500 clients but no external source corroborates that number, Claude treats it as unverified.</p>
+            <p>This goes beyond basic NAP (Name, Address, Phone) consistency. Claude evaluates whether the claims you make about your business are substantiated across independent sources. If your website says you serve 500 clients but no external source corroborates that number, Claude treats it as unverified. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Warning: The Inconsistency Trap</div>
@@ -530,7 +530,7 @@ export default function Page() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>We check every listing, directory, and platform for entity conflicts. Takes 48 hours.</p>
+              <p>We check every listing, directory, and platform for entity conflicts. Takes 48 hours. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email Us to Start Your Entity Audit &rarr;</a>
             </div>
 
@@ -562,7 +562,7 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The structure of your content matters as much as the substance. Claude processes information more reliably when it follows a logical flow: problem identification, cause analysis, solution framework, and practical considerations. This is the kind of structured reasoning that <Link href="/blog/does-schema-markup-help-ai-search">schema markup can reinforce for AI search</Link>, giving Claude clearer signals about your content&apos;s purpose.</p>
+            <p>The structure of your content matters as much as the substance. Claude processes information more reliably when it follows a logical flow: problem identification, cause analysis, solution framework, and practical considerations. This is the kind of structured reasoning that <Link href="/blog/does-schema-markup-help-ai-search">schema markup can reinforce for AI search</Link>, giving Claude clearer signals about your content&apos;s purpose. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
@@ -574,7 +574,7 @@ export default function Page() {
             <span className="ae-section-label">Strategy</span>
             <h2>How Claude Processes a Business Recommendation</h2>
 
-            <p>When a user asks Claude to recommend a business, the model does not pull from a pre-built directory. It reasons through its training data and live web search results to construct a recommendation from first principles. Claude looks for consensus across independent, credible sources.</p>
+            <p>When a user asks Claude to recommend a business, the model does not pull from a pre-built directory. It reasons through its training data and live web search results to construct a recommendation from first principles. Claude looks for consensus across independent, credible sources. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <table className="ae-decision-matrix not-prose">
               <thead>
@@ -617,7 +617,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">How Claude Differs from Other AI Platforms</div>
-              <p>While ChatGPT leans heavily on web search results and Perplexity prioritizes source citations, Claude weights entity-level reasoning more heavily. Your distributed authority across the entire web matters more to Claude than any single optimized page.</p>
+              <p>While ChatGPT leans heavily on web search results and Perplexity prioritizes source citations, Claude weights entity-level reasoning more heavily. Your distributed authority across the entire web matters more to Claude than any single optimized page. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* ── CTA 6 ── */}
@@ -630,7 +630,7 @@ export default function Page() {
             <span className="ae-section-label">The Challenge</span>
             <h2>The Cold Start Problem for New Businesses</h2>
 
-            <p>Claude&apos;s authority evaluation creates a natural barrier for new businesses. If you launched six months ago and have minimal third-party mentions, limited web presence, and no established content ecosystem, Claude simply does not have enough data to recommend you confidently.</p>
+            <p>Claude&apos;s authority evaluation creates a natural barrier for new businesses. If you launched six months ago and have minimal third-party mentions, limited web presence, and no established content ecosystem, Claude simply does not have enough data to recommend you confidently. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>This is not a penalty. It is a data problem. Claude makes recommendations based on evidence, and new businesses have not yet generated sufficient evidence. The solution is not to game the system. It is to build genuine authority signals faster than your competitors, across the right platforms, in the right formats, with the right consistency.</p>
 
@@ -640,7 +640,7 @@ export default function Page() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Days 1 to 14: Foundation</strong>
-                <p>Claim and verify all directory listings. Ensure entity consistency across website, LinkedIn, Google Business Profile, and industry directories. Lock down your NAP, founding date, and service descriptions.</p>
+                <p>Claim and verify all directory listings. Ensure entity consistency across website, LinkedIn, Google Business Profile, and industry directories. Lock down your NAP, founding date, and service descriptions. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Days 15 to 30: Content Ecosystem</strong>
@@ -648,7 +648,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Days 31 to 60: External Validation</strong>
-                <p>Secure 3 to 5 third-party mentions through industry contributions, expert roundups, podcast appearances, or guest publications. Focus on credible, independent sources.</p>
+                <p>Secure 3 to 5 third-party mentions through industry contributions, expert roundups, podcast appearances, or guest publications. Focus on credible, independent sources. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Days 61 to 90: Reinforcement</strong>
@@ -658,7 +658,7 @@ export default function Page() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>New business? We can accelerate your Claude authority timeline significantly.</p>
+              <p>New business? We can accelerate your Claude authority timeline significantly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blindspot">Start With a Free Visibility Assessment &rarr;</Link>
             </div>
 
@@ -694,14 +694,14 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Superlative Trap</div>
-              <p>If your website claims &quot;industry-leading service&quot; but no independent source supports that claim, Claude treats it as marketing noise. Superlative language without evidence is a red flag, not a trust signal. Every unverified claim reduces Claude&apos;s confidence in your entire brand.</p>
+              <p>If your website claims &quot;industry-leading service&quot; but no independent source supports that claim, Claude treats it as marketing noise. Superlative language without evidence is a red flag, not a trust signal. Every unverified claim reduces Claude&apos;s confidence in your entire brand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             <p>Stale, abandoned content also works against you. A blog that was last updated in 2023 tells Claude that the business may not be actively operating at the same level. In a model that weights freshness at 65% for top results, stagnant content is a competitive disadvantage.</p>
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure what Claude is penalizing about your brand? We will show you.</p>
+              <p>Not sure what Claude is penalizing about your brand? We will show you. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Penalty Assessment &rarr;</a>
             </div>
 
@@ -743,7 +743,7 @@ export default function Page() {
               </div>
             </div>
 
-            <p>When a VP of Operations asks Claude to recommend a vendor, the response carries weight. When a procurement team uses Claude to shortlist service providers, the businesses that appear in those results get enterprise-level exposure. The businesses that do not appear are invisible to an entire category of high-value buyers.</p>
+            <p>When a VP of Operations asks Claude to recommend a vendor, the response carries weight. When a procurement team uses Claude to shortlist service providers, the businesses that appear in those results get enterprise-level exposure. The businesses that do not appear are invisible to an entire category of high-value buyers. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The B2B Opportunity</div>
@@ -752,7 +752,7 @@ export default function Page() {
 
             {/* ── CTA 9 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>B2B company? Claude visibility is your highest-leverage growth channel.</p>
+              <p>B2B company? Claude visibility is your highest-leverage growth channel. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Get Your Enterprise Visibility Report &rarr;</Link>
             </div>
 
@@ -792,13 +792,13 @@ export default function Page() {
             <span className="ae-section-label">Reality Check</span>
             <h2>Where Most Businesses Stand Today</h2>
 
-            <p>The hard truth is that most businesses have never audited their presence through the lens of AI authority. They have optimized for Google. They have built backlinks. They have written blog posts targeting keywords. None of that is wasted effort, but it is incomplete.</p>
+            <p>The hard truth is that most businesses have never audited their presence through the lens of AI authority. They have optimized for Google. They have built backlinks. They have written blog posts targeting keywords. None of that is wasted effort, but it is incomplete. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-quote not-prose">
               <p>Claude does not see your Domain Authority score. It does not see your keyword rankings. It sees whether your business exists as a credible, verifiable entity across the web.</p>
             </div>
 
-            <p>Claude looks for consistent information, third-party validation, deep topical expertise, and fresh, maintained content. The gap between where most businesses are and where they need to be is significant.</p>
+            <p>Claude looks for consistent information, third-party validation, deep topical expertise, and fresh, maintained content. The gap between where most businesses are and where they need to be is significant. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* ── CHEAT SHEET: Action Plan ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -823,7 +823,7 @@ export default function Page() {
 
             {/* ── CTA 12 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Have questions about how Claude evaluates your specific industry? Reach out.</p>
+              <p>Have questions about how Claude evaluates your specific industry? Reach out. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -863,7 +863,7 @@ export default function Page() {
                   recommendations. Broad industry queries may include more
                   options, but Claude prioritizes quality over quantity in every
                   response.
-                </p>
+                 Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
 
               <div
@@ -897,7 +897,7 @@ export default function Page() {
                   thought leadership, case studies, and industry analyst
                   mentions. B2C recommendations weigh review platforms,
                   consumer forums, and social proof more heavily.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
 
               <div
@@ -931,7 +931,7 @@ export default function Page() {
                   Claude loses confidence in recommending you. Outdated content,
                   contradictory claims, and thin marketing pages also reduce
                   trust signals significantly.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -944,7 +944,7 @@ export default function Page() {
             {/* ── CTA BLOCK ── */}
             <div className="ae-cta-block not-prose">
               <h3>Is Claude Recommending Your Business?</h3>
-              <p>Most businesses have no idea how they appear to AI platforms. Our free Blindspot Report reveals exactly how Claude, ChatGPT, and Perplexity see your brand, what they recommend instead, and where the gaps are.</p>
+              <p>Most businesses have no idea how they appear to AI platforms. Our free Blindspot Report reveals exactly how Claude, ChatGPT, and Perplexity see your brand, what they recommend instead, and where the gaps are. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <Link href="/blindspot">Get Your Free Blindspot Report &rarr;</Link>
             </div>
 
@@ -957,7 +957,7 @@ export default function Page() {
             {/* ── FINAL CTA ── */}
             <div className="ae-final-cta not-prose">
               <h3>Your Competitors Are Already Optimizing for Claude</h3>
-              <p>Every day you wait, another business in your industry builds the authority signals Claude needs to recommend them over you. The window for early-mover advantage is closing.</p>
+              <p>Every day you wait, another business in your industry builds the authority signals Claude needs to recommend them over you. The window for early-mover advantage is closing. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report Now &rarr;</Link>
               <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
@@ -985,7 +985,7 @@ export default function Page() {
                 </p>
                 <p className="text-gray-400 text-sm">
                   Published March 14, 2026 | Specialists in AI search visibility and answer engine optimization for businesses that refuse to be invisible.
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
 

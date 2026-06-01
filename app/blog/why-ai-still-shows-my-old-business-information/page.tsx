@@ -259,40 +259,40 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure what AI is saying about your business right now? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure what AI is saying about your business right now? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         <h2 id="why-ai-lags">Why AI Runs 6-18 Months Behind Reality</h2>
 
-        <p>Every large language model learns from a training dataset compiled at a specific point in time. That date is called the training cutoff. Once compiled, the model is frozen. It does not automatically pull new information as the world changes. It only knows what was in its dataset at the moment of compilation.</p>
+        <p>Every large language model learns from a training dataset compiled at a specific point in time. That date is called the training cutoff. Once compiled, the model is frozen. It does not automatically pull new information as the world changes. It only knows what was in its dataset at the moment of compilation. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-        <p>The gap between training cutoff and public deployment typically runs 6 to 12 months. Then users interact with the deployed model for another 12 to 24 months before it is replaced or retrained. That means a customer asking ChatGPT about your business today might be getting answers based on data from 18 months or more in the past.</p>
+        <p>The gap between training cutoff and public deployment typically runs 6 to 12 months. Then users interact with the deployed model for another 12 to 24 months before it is replaced or retrained. That means a customer asking ChatGPT about your business today might be getting answers based on data from 18 months or more in the past. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">Training Cutoff Reality Check</div>
-          <p>GPT-4o was trained on data through October 2023. Claude 4.6 and GPT-5.2 have August 2025 cutoffs. Google Gemini 3 has a January 2025 cutoff. If you made changes after those dates, most users on standard plans never see the update unless they have web search enabled.</p>
+          <p>GPT-4o was trained on data through October 2023. Claude 4.6 and GPT-5.2 have August 2025 cutoffs. Google Gemini 3 has a January 2025 cutoff. If you made changes after those dates, most users on standard plans never see the update unless they have web search enabled. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
-        <p>What makes this worse is the "explosive aging" pattern documented in AI research. A model's information about your business may appear accurate for months, then suddenly become dramatically wrong as the world around it keeps moving while the model stays static. Researchers at Nature Scientific Reports found that 91% of LLM models show performance degradation over time, with accuracy falling sharply after the 12-month mark post-training.</p>
+        <p>What makes this worse is the "explosive aging" pattern documented in AI research. A model's information about your business may appear accurate for months, then suddenly become dramatically wrong as the world around it keeps moving while the model stays static. Researchers at Nature Scientific Reports found that 91% of LLM models show performance degradation over time, with accuracy falling sharply after the 12-month mark post-training. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
         <h2 id="third-party-problem">The Third-Party Source Problem</h2>
 
-        <p>Here is the part most business owners miss: AI does not primarily read your website to learn about your business. It reads everything that mentions your business. That includes Yelp, GetHuman, Pissed Consumer, ZoomInfo, Carfax, industry directories, news articles, Reddit threads, and review sites. Researchers who audited AI phone number accuracy found that AI cites third-party sources for business contact info 59% of the time versus official brand-owned sources only 41% of the time.</p>
+        <p>Here is the part most business owners miss: AI does not primarily read your website to learn about your business. It reads everything that mentions your business. That includes Yelp, GetHuman, Pissed Consumer, ZoomInfo, Carfax, industry directories, news articles, Reddit threads, and review sites. Researchers who audited AI phone number accuracy found that AI cites third-party sources for business contact info 59% of the time versus official brand-owned sources only 41% of the time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">The Aggregator Trap</div>
-          <p>Aggregator sites like GetHuman and Pissed Consumer are notorious for retaining stale business data. They rarely update. They are often heavily indexed. And AI models weight them heavily because they are written about businesses in a factual, structured tone that looks authoritative to a language model. Scammers know this too: one documented case had a fraudulent phone number appear in ChatGPT results because a scam-operated aggregator ranked above the brand's official page.</p>
+          <p>Aggregator sites like GetHuman and Pissed Consumer are notorious for retaining stale business data. They rarely update. They are often heavily indexed. And AI models weight them heavily because they are written about businesses in a factual, structured tone that looks authoritative to a language model. Scammers know this too: one documented case had a fraudulent phone number appear in ChatGPT results because a scam-operated aggregator ranked above the brand's official page. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
         </div>
 
-        <p>The implication is significant. You can update your website, Google Business Profile, and every directory you control. But if an old version of your information lives on five aggregator sites, the AI will still surface that conflicting data with disturbing confidence. It averages across all sources it encountered in training.</p>
+        <p>The implication is significant. You can update your website, Google Business Profile, and every directory you control. But if an old version of your information lives on five aggregator sites, the AI will still surface that conflicting data with disturbing confidence. It averages across all sources it encountered in training. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
         <div className="ae-cta-inline not-prose">
-          <p>We audit your entire AI footprint, including third-party sources, in our <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">free Blind Spot Report</Link>.</p>
+          <p>We audit your entire AI footprint, including third-party sources, in our <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">free Blind Spot Report</Link>. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <h2 id="what-ai-actually-reads">What AI Actually Reads About Your Business</h2>
 
-        <p>When an AI model encounters a question about your business, it assembles an answer from multiple internal knowledge sources. Understanding what those sources are explains why some updates take hold faster than others.</p>
+        <p>When an AI model encounters a question about your business, it assembles an answer from multiple internal knowledge sources. Understanding what those sources are explains why some updates take hold faster than others. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -351,11 +351,11 @@ export default function Page() {
           </table>
         </div>
 
-        <p>The table reveals two problems. First, the highest-trust sources are also the slowest to update because they are baked into training data. Second, sources you have zero control over, like aggregators and old press mentions, can permanently anchor wrong information in a model's understanding of your business.</p>
+        <p>The table reveals two problems. First, the highest-trust sources are also the slowest to update because they are baked into training data. Second, sources you have zero control over, like aggregators and old press mentions, can permanently anchor wrong information in a model's understanding of your business. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
         <h2 id="high-stakes-errors">The Errors That Cost You Most</h2>
 
-        <p>Not all outdated information is equally damaging. A wrong founding year is embarrassing. A wrong phone number or address sends customers to a dead end, or worse, a competitor. A wrong service listing generates calls for work you no longer do. Here is how the error categories break down by impact:</p>
+        <p>Not all outdated information is equally damaging. A wrong founding year is embarrassing. A wrong phone number or address sends customers to a dead end, or worse, a competitor. A wrong service listing generates calls for work you no longer do. Here is how the error categories break down by impact: Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -380,20 +380,20 @@ export default function Page() {
           </div>
         </div>
 
-        <p>A 72-brand audit found the most common errors were incorrect pricing (41% of brands) and outdated features or services (34%). For local businesses, incorrect contact information is the most operationally damaging because it breaks the customer's path to you at the exact moment of intent.</p>
+        <p>A 72-brand audit found the most common errors were incorrect pricing (41% of brands) and outdated features or services (34%). For local businesses, incorrect contact information is the most operationally damaging because it breaks the customer's path to you at the exact moment of intent. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <div className="ae-callout ae-callout-orange not-prose">
           <div className="ae-callout-title">Real Cost of Wrong Phone Numbers</div>
-          <p>When a potential customer asks ChatGPT for your phone number and gets a disconnected or wrong number, the experience mirrors calling a business that picked up and then hung up. Most customers do not try again. They move to the next recommendation AI gave them, which is usually your competitor.</p>
+          <p>When a potential customer asks ChatGPT for your phone number and gets a disconnected or wrong number, the experience mirrors calling a business that picked up and then hung up. Most customers do not try again. They move to the next recommendation AI gave them, which is usually your competitor. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Find out if AI is giving customers the wrong number for your business. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> today.</p>
+          <p>Find out if AI is giving customers the wrong number for your business. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> today. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         <h2 id="what-signals-update">What Signals AI to Update Your Info</h2>
 
-        <p>There is no "push update" button you can press to correct AI training data. But there are signals that increase the probability of your new information winning the next time a model is trained or a real-time search is performed. The key is authority density: the more high-authority sources that agree on the same information, the more likely that information is to dominate.</p>
+        <p>There is no "push update" button you can press to correct AI training data. But there are signals that increase the probability of your new information winning the next time a model is trained or a real-time search is performed. The key is authority density: the more high-authority sources that agree on the same information, the more likely that information is to dominate. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -435,7 +435,7 @@ export default function Page() {
 
         <h2 id="platform-comparison">How Each Platform Handles Freshness</h2>
 
-        <p>Not all AI platforms are equally stale. Understanding the freshness model of each platform helps you prioritize where to focus first.</p>
+        <p>Not all AI platforms are equally stale. Understanding the freshness model of each platform helps you prioritize where to focus first. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
         <div className="ae-bar-group not-prose">
           <div className="ae-bar-item">
@@ -464,18 +464,18 @@ export default function Page() {
             <div className="ae-bar-value">41%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mt-2">Estimated info freshness relative to current reality (illustrative, based on crawl frequency and training cutoff patterns)</p>
+        <p className="text-sm text-gray-500 mt-2">Estimated info freshness relative to current reality (illustrative, based on crawl frequency and training cutoff patterns) <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-        <p>The practical takeaway: if you want faster corrections, prioritize the signals that influence real-time-search AI platforms first. Perplexity and Google AI Overviews crawl the web continuously. Getting your Google Business Profile and website right will show up in those platforms within days, not months.</p>
+        <p>The practical takeaway: if you want faster corrections, prioritize the signals that influence real-time-search AI platforms first. Perplexity and Google AI Overviews crawl the web continuously. Getting your Google Business Profile and website right will show up in those platforms within days, not months. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Real-Time Advantage</div>
-          <p>For AI platforms with live web search, your website and Google Business Profile function almost like a live feed. Updates you make today can surface in Perplexity answers within 48-72 hours. That is why these sources should be your first priority, even if ChatGPT base model takes months to catch up.</p>
+          <p>For AI platforms with live web search, your website and Google Business Profile function almost like a live feed. Updates you make today can surface in Perplexity answers within 48-72 hours. That is why these sources should be your first priority, even if ChatGPT base model takes months to catch up. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         <h2 id="action-plan">Your Action Plan</h2>
 
-        <p>Outdated AI information is not a passive problem. It actively diverts customers to wrong locations and disconnected phone numbers every day. The businesses that address it fastest do not just fix the immediate issue: they build the kind of authoritative, consistent digital presence that AI platforms prefer to cite in the first place.</p>
+        <p>Outdated AI information is not a passive problem. It actively diverts customers to wrong locations and disconnected phone numbers every day. The businesses that address it fastest do not just fix the immediate issue: they build the kind of authoritative, consistent digital presence that AI platforms prefer to cite in the first place. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
         <div className="ae-decision-matrix not-prose">
           <div className="ae-decision-row">
@@ -500,9 +500,9 @@ export default function Page() {
           </div>
         </div>
 
-        <p>The deeper problem beneath all of these scenarios is the same: your AI footprint has never been intentionally structured. Most businesses built their online presence for Google, not for AI. The signals AI platforms rely on are different, and the inconsistencies that accumulated over years of half-managed directory listings are now actively working against you.</p>
+        <p>The deeper problem beneath all of these scenarios is the same: your AI footprint has never been intentionally structured. Most businesses built their online presence for Google, not for AI. The signals AI platforms rely on are different, and the inconsistencies that accumulated over years of half-managed directory listings are now actively working against you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-        <p>That gap between what AI says about you and what is true is your Blind Spot. Every day it remains open, some percentage of your potential customers gets wrong information and never calls.</p>
+        <p>That gap between what AI says about you and what is true is your Blind Spot. Every day it remains open, some percentage of your potential customers gets wrong information and never calls. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
         {/* Cheat sheet */}
         <div className="ae-cheat-sheet not-prose">
@@ -519,17 +519,17 @@ export default function Page() {
           </table>
         </div>
 
-        <p>Want to know exactly what AI is saying about your business right now, including every outdated fact, wrong phone number, and conflicting listing? That is what our Blind Spot Report reveals. It is free, takes minutes, and gives you a clear picture of your AI footprint as customers actually see it.</p>
+        <p>Want to know exactly what AI is saying about your business right now, including every outdated fact, wrong phone number, and conflicting listing? That is what our Blind Spot Report reveals. It is free, takes minutes, and gives you a clear picture of your AI footprint as customers actually see it. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Understanding how stale data spreads is connected to <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] hover:underline">why AI gives outdated information</Link> broadly, and to <Link href="/blog/why-ai-says-wrong-things-about-business" className="text-[#F27D24] hover:underline">why AI says wrong things about businesses</Link> in general. Both articles go deeper on the mechanisms behind AI inaccuracy.</p>
+          <p>Understanding how stale data spreads is connected to <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] hover:underline">why AI gives outdated information</Link> broadly, and to <Link href="/blog/why-ai-says-wrong-things-about-business" className="text-[#F27D24] hover:underline">why AI says wrong things about businesses</Link> in general. Both articles go deeper on the mechanisms behind AI inaccuracy. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What AI Is Saying About You Right Now</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report scans what ChatGPT, Perplexity, and Google AI are telling customers about your business, including every outdated fact, wrong number, and conflicting listing we find.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report scans what ChatGPT, Perplexity, and Google AI are telling customers about your business, including every outdated fact, wrong number, and conflicting listing we find. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -556,7 +556,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -596,7 +596,7 @@ export default function Page() {
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+              <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
           ))}
         </div>
@@ -604,12 +604,12 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Stop Letting AI Send Customers to the Wrong Number</h2>
-          <p className="text-gray-300 mb-8 text-lg">Every day your AI footprint has wrong information, you are losing customers who never call back. Our Blind Spot Report shows exactly what AI is telling them, and what it will take to fix it.</p>
+          <p className="text-gray-300 mb-8 text-lg">Every day your AI footprint has wrong information, you are losing customers who never call back. Our Blind Spot Report shows exactly what AI is telling them, and what it will take to fix it. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes.</p>
+          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

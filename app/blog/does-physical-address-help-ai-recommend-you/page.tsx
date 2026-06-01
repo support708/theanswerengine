@@ -148,13 +148,13 @@ export default function BlogPost() {
 
           <p>Walk into any small business networking event and ask the room: &quot;Do you need a physical storefront to rank well in AI search?&quot; You will get a near-unanimous yes. Business owners with offices and storefronts assume their brick-and-mortar presence gives them a permanent edge. Virtual businesses and service-area contractors assume they are fighting uphill.</p>
 
-          <p><strong>Both groups are wrong.</strong></p>
+          <p><strong>Both groups are wrong.</strong> Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>The data on how AI platforms like ChatGPT, Google AI Overviews, and Perplexity actually select and recommend businesses tells a very different story. Physical address sits at the bottom of the ranking hierarchy. What sits at the top has nothing to do with whether you have a lobby.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Myth Alert</div>
-            <p>Physical address is not a primary ranking factor for AI recommendations. It functions as a geographic filter, not a quality signal. Once AI identifies businesses within a relevant area, it ranks them by review signals, web mentions, content quality, and authority. Your storefront address does not move you up that list.</p>
+            <p>Physical address is not a primary ranking factor for AI recommendations. It functions as a geographic filter, not a quality signal. Once AI identifies businesses within a relevant area, it ranks them by review signals, web mentions, content quality, and authority. Your storefront address does not move you up that list. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           </div>
 
           {/* CTA 1 */}
@@ -167,11 +167,11 @@ export default function BlogPost() {
           <span className="ae-section-label" id="the-myth">The Myth</span>
           <h2>The Myth: Physical Address as AI Ranking Factor</h2>
 
-          <p>The physical address myth comes from a reasonable assumption: local search has always rewarded proximity. Google Maps ranks nearby businesses first. Yelp shows you what is closest. Google Business Profile is built around geographic coordinates. If local search is fundamentally about location, then having a location should be an advantage.</p>
+          <p>The physical address myth comes from a reasonable assumption: local search has always rewarded proximity. Google Maps ranks nearby businesses first. Yelp shows you what is closest. Google Business Profile is built around geographic coordinates. If local search is fundamentally about location, then having a location should be an advantage. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <p>That assumption held up in the era of traditional local SEO. It does not hold up in AI search.</p>
 
-          <p>AI platforms are not map-driven discovery tools. They are recommendation engines that synthesize reputation, authority, and relevance across the web. When someone asks ChatGPT &quot;Who is the best HVAC company in Dallas?&quot; the platform does not sort businesses by distance from the center of Dallas and return the closest one. It evaluates which businesses have the strongest combination of review signals, web presence, content quality, and third-party citations within a geographic window, then surfaces the ones it finds most credible.</p>
+          <p>AI platforms are not map-driven discovery tools. They are recommendation engines that synthesize reputation, authority, and relevance across the web. When someone asks ChatGPT &quot;Who is the best HVAC company in Dallas?&quot; the platform does not sort businesses by distance from the center of Dallas and return the closest one. It evaluates which businesses have the strongest combination of review signals, web presence, content quality, and third-party citations within a geographic window, then surfaces the ones it finds most credible. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>The geographic window is real. Location matters. But location is the entry ticket, not the ranking criterion. Every business within the relevant geographic area gets into the pool. What determines which ones AI recommends is entirely separate from where their office is located.</p>
 
@@ -181,7 +181,7 @@ export default function BlogPost() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Traditional local SEO rewarded proximity. AI search rewards authority. A business with a virtual address, strong reviews, and consistent web mentions will outrank a brick-and-mortar with thin content and few citations every time.</p>
+            <p>Traditional local SEO rewarded proximity. AI search rewards authority. A business with a virtual address, strong reviews, and consistent web mentions will outrank a brick-and-mortar with thin content and few citations every time. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
 
           {/* CTA 2 */}
@@ -194,24 +194,24 @@ export default function BlogPost() {
           <span className="ae-section-label" id="the-45-gap">The Data</span>
           <h2>The 45% Gap: Why Traditional Local and AI Search Diverge</h2>
 
-          <p>Here is the number that should fundamentally change how every local business thinks about AI: only 45% of businesses leading in traditional local search also appear in AI recommendations.</p>
+          <p>Here is the number that should fundamentally change how every local business thinks about AI: only 45% of businesses leading in traditional local search also appear in AI recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <p>Read that again. More than half of the businesses winning at Google Maps and traditional local SEO are invisible in AI results. And conversely, businesses that barely register in traditional local search are appearing in AI recommendations because they have built the signals AI actually reads.</p>
 
-          <p>This is not a small overlap with a few outliers. It is a 55% divergence between the two systems. Two separate hierarchies have formed. A business can dominate one and be invisible in the other. Many are.</p>
+          <p>This is not a small overlap with a few outliers. It is a 55% divergence between the two systems. Two separate hierarchies have formed. A business can dominate one and be invisible in the other. Many are. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Brick-and-Mortar False Advantage</div>
             <p>If you have a physical storefront and you are ranking well in Google Maps, do not assume you are winning in AI. The data shows a 55% gap between traditional local leaders and AI recommendation leaders. Your Google Maps ranking is not transferring to ChatGPT, Gemini, or Perplexity. AI is building its own hierarchy, and physical address is not the primary criterion.</p>
           </div>
 
-          <p>This divergence exists because the two systems use fundamentally different inputs. Traditional local SEO weighs proximity heavily and factors in Google Business Profile completeness, review recency, and on-site SEO. AI search weighs reputation signals that span the entire web: third-party mentions, review volume across multiple platforms, content that directly answers questions, and authority signals that come from being discussed across trusted sources.</p>
+          <p>This divergence exists because the two systems use fundamentally different inputs. Traditional local SEO weighs proximity heavily and factors in Google Business Profile completeness, review recency, and on-site SEO. AI search weighs reputation signals that span the entire web: third-party mentions, review volume across multiple platforms, content that directly answers questions, and authority signals that come from being discussed across trusted sources. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <p>A business with a complete Google Business Profile and a convenient location can win traditional local search. To win AI recommendations requires building a web presence that looks credible from every angle AI evaluates, and physical address is not one of those angles.</p>
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Are you in the 45% that appears in AI results, or the 55% that does not? Find out now.</p>
+            <p>Are you in the 45% that appears in AI results, or the 55% that does not? Find out now. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">See Your AI Recommendation Status &rarr;</Link>
           </div>
 
@@ -221,7 +221,7 @@ export default function BlogPost() {
 
           <p>Understanding the actual role location plays in AI recommendations helps clarify why physical address is not the ranking signal most businesses assume.</p>
 
-          <p>AI platforms use location data in a two-stage process. In the first stage, they filter: geographic signals narrow down the pool of businesses that are relevant to the searcher&apos;s query. A search for &quot;best dentist in Austin&quot; removes dentists in other cities. This is where proximity, address, and service area data matter. If your business is not established within the relevant geographic pool, you will not be recommended regardless of how strong your other signals are.</p>
+          <p>AI platforms use location data in a two-stage process. In the first stage, they filter: geographic signals narrow down the pool of businesses that are relevant to the searcher&apos;s query. A search for &quot;best dentist in Austin&quot; removes dentists in other cities. This is where proximity, address, and service area data matter. If your business is not established within the relevant geographic pool, you will not be recommended regardless of how strong your other signals are. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>In the second stage, AI ranks within that pool using authority signals that have nothing to do with location. Review volume, review recency, rating consistency, web mentions across third-party sources, website content quality, structured data, and overall authority determine who in the geographic pool gets recommended and who does not.</p>
 
@@ -266,7 +266,7 @@ export default function BlogPost() {
             </table>
           </div>
 
-          <p>This distinction matters enormously for service-area businesses, virtual offices, and any business that does not operate from a customer-facing storefront. If you are within the geographic filter, you compete on authority. And authority is built through reviews, mentions, and content, not through having a sign on a building.</p>
+          <p>This distinction matters enormously for service-area businesses, virtual offices, and any business that does not operate from a customer-facing storefront. If you are within the geographic filter, you compete on authority. And authority is built through reviews, mentions, and content, not through having a sign on a building. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
@@ -278,19 +278,19 @@ export default function BlogPost() {
           <span className="ae-section-label" id="what-ai-ranks-by">Ranking Factors</span>
           <h2>What AI Ranks By Instead</h2>
 
-          <p>If physical address is a filter rather than a ranking factor, what actually determines who AI recommends within a geographic area? The research is clear, and the hierarchy is specific.</p>
+          <p>If physical address is a filter rather than a ranking factor, what actually determines who AI recommends within a geographic area? The research is clear, and the hierarchy is specific. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <p><strong>Review signals are the most important factor.</strong> Volume, recency, and rating consistency across multiple platforms. Not just Google reviews. AI platforms cross-reference review data from Yelp, BBB, industry-specific platforms, and any review source that is publicly accessible. A business with 200 recent reviews across multiple platforms signals active, credible operations. A business with 14 Google reviews from two years ago signals a business that may not be the best recommendation.</p>
 
-          <p><strong>Web mentions are the multiplier.</strong> Businesses in the top 25% for web mentions get 10x more AI visibility than their less-mentioned peers. This is not about backlinks in the traditional SEO sense. It is about brand mentions across the open web: news coverage, directory listings, industry publications, community discussions, local blogs, podcast mentions, and any other context where your business name appears in authoritative text. Being mentioned across trusted sources is how AI confirms that a business is real, active, and recommended by others.</p>
+          <p><strong>Web mentions are the multiplier.</strong> Businesses in the top 25% for web mentions get 10x more AI visibility than their less-mentioned peers. This is not about backlinks in the traditional SEO sense. It is about brand mentions across the open web: news coverage, directory listings, industry publications, community discussions, local blogs, podcast mentions, and any other context where your business name appears in authoritative text. Being mentioned across trusted sources is how AI confirms that a business is real, active, and recommended by others. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <p><strong>Third-party citations outperform your own domain by a factor of 6.5.</strong> Businesses are 6.5x more likely to be cited by AI through third-party sources than through their own website. This is counterintuitive for businesses that have invested heavily in their website SEO, but it reflects how AI evaluates trust. Your own website is expected to say good things about your business. What third parties say carries far more weight as an authority signal.</p>
 
-          <p><strong>Website content quality matters for topical relevance.</strong> AI evaluates whether your website directly answers the questions customers actually ask. Thin service pages with keyword-stuffed content rank poorly. Pages that provide substantive, expert answers to real customer questions signal genuine expertise and make it easier for AI to cite you as a source. Learn more about how <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">content vs. address for AI</Link> affects recommendations.</p>
+          <p><strong>Website content quality matters for topical relevance.</strong> AI evaluates whether your website directly answers the questions customers actually ask. Thin service pages with keyword-stuffed content rank poorly. Pages that provide substantive, expert answers to real customer questions signal genuine expertise and make it easier for AI to cite you as a source. Learn more about how <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">content vs. address for AI</Link> affects recommendations. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <p><strong>Structured data helps with verification.</strong> <Link href="/blog/does-schema-markup-help-ai-search">Schema markup for AI visibility</Link> helps AI platforms verify your business details and understand your service offerings. It does not override weak review or web mention signals, but it reduces friction and confirms information that AI would otherwise have to infer.</p>
 
-          <p><strong>Physical address is last on the list.</strong> It helps AI confirm where you operate. That is its function. Not ranking. Confirmation.</p>
+          <p><strong>Physical address is last on the list.</strong> It helps AI confirm where you operate. That is its function. Not ranking. Confirmation. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The 6.5x Rule</div>
@@ -299,7 +299,7 @@ export default function BlogPost() {
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>Third-party mentions are your biggest AI lever. See how your web presence stacks up.</p>
+            <p>Third-party mentions are your biggest AI lever. See how your web presence stacks up. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             <Link href="/blindspot">Analyze Your Web Presence &rarr;</Link>
           </div>
 
@@ -309,20 +309,20 @@ export default function BlogPost() {
 
           <p>For plumbers, electricians, landscapers, cleaners, consultants, coaches, and any other business that serves customers at their location rather than at a storefront, the AI era has created an unexpected advantage: the playing field just leveled.</p>
 
-          <p>In traditional local SEO, service-area businesses faced a structural disadvantage. Google Maps weighted physical address heavily, and businesses without a customer-facing storefront struggled to rank against brick-and-mortar competitors with verified addresses. Service-area businesses had to work around this limitation with workarounds that often felt like fighting the algorithm rather than winning on merit.</p>
+          <p>In traditional local SEO, service-area businesses faced a structural disadvantage. Google Maps weighted physical address heavily, and businesses without a customer-facing storefront struggled to rank against brick-and-mortar competitors with verified addresses. Service-area businesses had to work around this limitation with workarounds that often felt like fighting the algorithm rather than winning on merit. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <p>AI search does not care whether you have a lobby. It cares whether you have reviews, web mentions, and content that demonstrates expertise. A solo plumber with 150 verified reviews on multiple platforms, a website that answers real plumbing questions, and consistent mentions across local directories competes on equal footing with a large plumbing company that has a physical office but thin online presence.</p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">The Virtual Business Advantage</div>
-            <p>Research confirms that service-area businesses and virtual businesses compete equally with brick-and-mortar in AI recommendations. A virtual consulting firm with strong reviews and consistent web mentions outranks a comparable firm with an office but thin content. The 45% overlap data proves it: the businesses winning in AI are not necessarily the ones with the best storefronts. They are the ones with the best authority signals.</p>
+            <p>Research confirms that service-area businesses and virtual businesses compete equally with brick-and-mortar in AI recommendations. A virtual consulting firm with strong reviews and consistent web mentions outranks a comparable firm with an office but thin content. The 45% overlap data proves it: the businesses winning in AI are not necessarily the ones with the best storefronts. They are the ones with the best authority signals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
           <p>This does not mean that service-area businesses can ignore location data entirely. Establishing your service area clearly on your website, in your Google Business Profile, and across directories is still essential for getting past the geographic filter. But once you are in the pool, the competition is about reputation and content, and those are signals any business can build regardless of whether they have a physical address.</p>
 
           {/* CTA 6 */}
           <div className="ae-cta-inline not-prose">
-            <p>Service-area businesses can win in AI search. See exactly where you stand today.</p>
+            <p>Service-area businesses can win in AI search. See exactly where you stand today. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
           </div>
 
@@ -332,11 +332,11 @@ export default function BlogPost() {
 
           <p>The two most powerful levers in AI recommendation are also the two that have the least to do with physical location: review signals and web mentions.</p>
 
-          <p>Review signals are not just about Google. AI platforms read reviews across the entire ecosystem of review platforms that are publicly accessible. Yelp, BBB, industry-specific platforms, Houzz for contractors, Avvo for attorneys, Healthgrades for medical practices. The breadth of your review presence signals legitimacy. A business with only Google reviews is less well-documented in AI&apos;s evaluation than a business with reviews across multiple relevant platforms.</p>
+          <p>Review signals are not just about Google. AI platforms read reviews across the entire ecosystem of review platforms that are publicly accessible. Yelp, BBB, industry-specific platforms, Houzz for contractors, Avvo for attorneys, Healthgrades for medical practices. The breadth of your review presence signals legitimacy. A business with only Google reviews is less well-documented in AI&apos;s evaluation than a business with reviews across multiple relevant platforms. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>Volume matters. Recency matters more. Rating consistency matters most. AI platforms can detect patterns in review data: a business with 200 reviews and a 4.8 average rating maintained consistently over two years signals stable, high-quality operations. A business with 50 reviews, many of which are older, and a rating that has drifted down over time signals something AI cannot recommend with confidence.</p>
 
-          <p>Web mentions operate as a multiplier on everything else. Being in the top 25% for web mentions produces 10x more AI visibility. That gap between the top quartile and the rest represents an enormous competitive advantage, and it is built entirely through third-party validation rather than anything your own website does. Find out more about <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews">why reviews matter more than location</Link> in AI ranking.</p>
+          <p>Web mentions operate as a multiplier on everything else. Being in the top 25% for web mentions produces 10x more AI visibility. That gap between the top quartile and the rest represents an enormous competitive advantage, and it is built entirely through third-party validation rather than anything your own website does. Find out more about <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews">why reviews matter more than location</Link> in AI ranking. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-bar-group not-prose">
             <div className="ae-bar-item">
@@ -380,7 +380,7 @@ export default function BlogPost() {
 
           {/* CTA 7 */}
           <div className="ae-cta-inline not-prose">
-            <p>Reviews and web mentions are the top AI signals. How does your business score on each?</p>
+            <p>Reviews and web mentions are the top AI signals. How does your business score on each? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot">Get Your Signal Breakdown &rarr;</Link>
           </div>
 
@@ -418,17 +418,17 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>In traditional Google Maps search, the storefront has an advantage. Its physical address and verified location create proximity signals the virtual business cannot match for nearby searchers.</p>
+          <p>In traditional Google Maps search, the storefront has an advantage. Its physical address and verified location create proximity signals the virtual business cannot match for nearby searchers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <p>In AI search, the virtual business wins. Its review volume, cross-platform presence, content depth, and third-party validation produce the authority signals AI requires. The storefront&apos;s physical address provides verification but cannot compensate for thin reviews, sparse web mentions, and shallow content.</p>
 
-          <p>This is the reality the 45% overlap data captures. Traditional local winners are not automatically AI winners. The hierarchy has shifted, and physical presence is lower on the new hierarchy than most businesses realize.</p>
+          <p>This is the reality the 45% overlap data captures. Traditional local winners are not automatically AI winners. The hierarchy has shifted, and physical presence is lower on the new hierarchy than most businesses realize. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>For businesses thinking about how to invest their marketing budget: the high-impact AI signals are review generation across multiple platforms, earning web mentions through directories and media, and creating website content that directly answers customer questions. Those investments work equally well whether you have a storefront or not. Learn more about how <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings for AI</Link> contribute to your citation ecosystem.</p>
 
           {/* CTA 8 */}
           <div className="ae-cta-inline not-prose">
-            <p>Which businesses in your market are winning the AI signals race? Find out now.</p>
+            <p>Which businesses in your market are winning the AI signals race? Find out now. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot">Run Your Competitive AI Analysis &rarr;</Link>
           </div>
 
@@ -507,7 +507,7 @@ export default function BlogPost() {
 
           {/* CTA 9 */}
           <div className="ae-cta-inline not-prose">
-            <p>Save this cheat sheet. Then run your free report to see where you stand on every signal.</p>
+            <p>Save this cheat sheet. Then run your free report to see where you stand on every signal. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -517,15 +517,15 @@ export default function BlogPost() {
 
           <p>If you operate without a physical storefront, or if you are considering going virtual, here is the specific picture of what AI search requires from you.</p>
 
-          <p>First, establish your geographic presence through service area data rather than a physical address. Your Google Business Profile allows service-area designation. Your website should explicitly name the cities, regions, and areas you serve. This establishes you within the geographic filter without requiring a storefront address.</p>
+          <p>First, establish your geographic presence through service area data rather than a physical address. Your Google Business Profile allows service-area designation. Your website should explicitly name the cities, regions, and areas you serve. This establishes you within the geographic filter without requiring a storefront address. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <p>Second, build your review presence aggressively across every platform relevant to your industry. Yelp, BBB, and any industry-specific review platform that is publicly accessible. A consistent stream of fresh reviews across multiple platforms is more powerful than a large volume of old reviews concentrated on a single platform.</p>
 
-          <p>Third, earn web mentions through <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">Google Business Profile optimization</Link> and directory submissions across the full ecosystem of local and industry directories. Third-party citations are the 6.5x multiplier that makes AI trust your business. Every directory listing and media mention builds that trust layer.</p>
+          <p>Third, earn web mentions through <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">Google Business Profile optimization</Link> and directory submissions across the full ecosystem of local and industry directories. Third-party citations are the 6.5x multiplier that makes AI trust your business. Every directory listing and media mention builds that trust layer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <p>Fourth, create website content that answers the questions your customers actually ask before they hire you. Not keyword-stuffed service pages. Substantive, expert content that directly addresses objections, explains your process, and answers the specific questions that trigger buyer decisions. AI cites sources that answer questions. Be the source that answers them best.</p>
 
-          <p>One signal you do not need: a storefront. ChatGPT recommendation rate is only 1.2% across all businesses. Gemini recommends 11% and Perplexity 7.4%. Every one of those rates is driven by authority signals that have nothing to do with your office address. The 32% of consumers already using AI for local business searches are being sent to businesses with the strongest authority profiles, storefront or not.</p>
+          <p>One signal you do not need: a storefront. ChatGPT recommendation rate is only 1.2% across all businesses. Gemini recommends 11% and Perplexity 7.4%. Every one of those rates is driven by authority signals that have nothing to do with your office address. The 32% of consumers already using AI for local business searches are being sent to businesses with the strongest authority profiles, storefront or not. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           {/* CTA 10 */}
           <div className="ae-cta-inline not-prose">
@@ -536,7 +536,7 @@ export default function BlogPost() {
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Exactly Where Your AI Authority Stands</h3>
-            <p className="text-gray-400 mb-6">Our free Blind Spot Report maps every AI ranking signal for your business, including review strength, web mention coverage, content depth, and structured data, so you see exactly what is working and what is missing.</p>
+            <p className="text-gray-400 mb-6">Our free Blind Spot Report maps every AI ranking signal for your business, including review strength, web mention coverage, content depth, and structured data, so you see exactly what is working and what is missing. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

@@ -348,7 +348,7 @@ export default function Page() {
             If you have invested in video marketing, you have probably heard some version of this
             claim: &quot;Video content helps you get found on AI search engines.&quot; It sounds
             reasonable. Video is everywhere. AI is everywhere. Surely they overlap.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             The reality is far more complicated. AI platforms like ChatGPT, Perplexity, and Google
@@ -356,20 +356,20 @@ export default function Page() {
             your voice. What they can do is read the text layers surrounding your video content:
             transcripts, descriptions, titles, and metadata. And that distinction changes
             everything about how businesses should think about video and AI visibility.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <p>
             This is not a reason to abandon video. It is a reason to understand exactly how video
             contributes to AI discovery, and under what conditions it helps versus when it
             contributes nothing at all.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           {/* CTA Inline 1 */}
           <div className="ae-cta-inline">
             <p>
               Not sure how AI platforms currently see your business? Get a free snapshot in under
               two minutes.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Run Your Free AI Blind Spot Report</Link>
           </div>
 
@@ -383,7 +383,7 @@ export default function Page() {
             The myth goes like this: video content signals authority, authority signals trust, and
             trust means AI recommends you. It is an appealing chain of logic. But it skips a
             critical step: how AI platforms actually gather information about your business.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <p>
             AI search engines are not browsing the internet the way a human does. They do not
@@ -391,7 +391,7 @@ export default function Page() {
             recommend this business.&quot; They crawl machine-readable text. They index
             structured data. They weigh signals from directories, review platforms, and text-based
             web content. Video files are, in their raw form, invisible to this process.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Myth vs. The Mechanism</div>
@@ -401,7 +401,7 @@ export default function Page() {
               transcript creates text layers that AI can process. Those are very different actions
               with very different outcomes. Most businesses do the first and wonder why the second
               never happens.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           <p>
@@ -411,7 +411,7 @@ export default function Page() {
             </Link>
             , the pattern is consistent: structured, machine-readable text is the currency of AI
             visibility. Video is only valuable to the extent it generates that currency.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* Section 2 */}
           <span className="ae-section-label" id="how-ai-reads-video">
@@ -422,7 +422,7 @@ export default function Page() {
           <p>
             Understanding the mechanism removes the mystery. Here is what happens when an AI
             platform encounters video content.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
             AI search engines do not have video players. When they crawl a YouTube page, they
@@ -430,7 +430,7 @@ export default function Page() {
             structured metadata in the page&apos;s JSON-LD, and the description text in the
             video&apos;s description field. That is the totality of what they process. The video
             file itself, the audio, the visual content, is inaccessible to standard crawlers.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>
             Transcripts change this significantly. When a creator uploads an accurate manual
@@ -438,7 +438,7 @@ export default function Page() {
             the video as text. This means a 15-minute video that covers a technical topic in depth
             creates thousands of words of indexable content. A 15-minute video with no transcript
             creates almost none.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">The Transcript Gap</div>
@@ -449,7 +449,7 @@ export default function Page() {
               weight less heavily. The difference between uploading your own transcript versus
               relying on YouTube&apos;s auto-captions can determine whether your content is cited
               at all.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           {/* CTA Inline 2 */}
@@ -457,7 +457,7 @@ export default function Page() {
             <p>
               Wondering how much of your existing video content is readable to AI? Our Blind Spot
               Report shows you the gaps.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot">Analyze Your Video AI Visibility</Link>
           </div>
 
@@ -472,7 +472,7 @@ export default function Page() {
             striking: YouTube earns more than 200 times the AI citations of any competing video
             platform. Vimeo, Wistia, Loom, Dailymotion, and every other hosting option are
             functionally invisible compared to YouTube&apos;s AI visibility.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <p>
             This gap exists for structural reasons. YouTube is the only video platform that
@@ -480,7 +480,7 @@ export default function Page() {
             metadata, chapter markers, community engagement signals, and deep integration with
             Google&apos;s own crawling and indexing infrastructure. Every other platform produces
             a subset of those signals, if any.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>
             For a more detailed analysis of how this advantage plays out across specific AI
@@ -490,7 +490,7 @@ export default function Page() {
             </Link>
             . The short version: if your video content is not on YouTube, it is contributing
             almost nothing to your AI search visibility.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-quote">
             <blockquote>
@@ -512,14 +512,14 @@ export default function Page() {
             standalone text content, specifically well-structured blog posts, FAQ pages, and
             service page copy, consistently outperforms standalone video for AI search citations.
             The reason goes back to the crawlability principle.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <p>
             Text content is natively machine-readable. An AI platform can parse a 1,500-word blog
             post entirely in one crawl. It can extract specific sentences to cite as answers. It
             can map the content to specific questions and build confidence signals from the
             structure. None of that work requires an intermediate translation step.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <p>
             Video content requires the transcript layer to become equivalent. And even then, the
@@ -527,7 +527,7 @@ export default function Page() {
             written content because spoken language is structured differently from written
             language. Sentences are longer, context depends on what came before, and the density
             of citable claims per paragraph is lower.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* Comparison Table */}
           <div className="ae-comparison-table not-prose my-10 overflow-x-auto">
@@ -602,7 +602,7 @@ export default function Page() {
             corroborating source on the same URL. AI platforms reward topical depth and
             corroboration. Two formats saying the same thing, clearly, on the same page is
             structurally better than either format alone.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>
             This is consistent with the findings in our analysis of{' '}
@@ -612,14 +612,14 @@ export default function Page() {
             . The businesses winning AI citations are not those producing the most content, but
             those producing the most machine-readable, topically coherent content across multiple
             formats.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           {/* CTA Inline 3 */}
           <div className="ae-cta-inline">
             <p>
               Want to know exactly which content formats are working for your AI visibility and
               which are wasting your budget?
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot">Get Your Content Visibility Audit</Link>
           </div>
 
@@ -634,7 +634,7 @@ export default function Page() {
             narrow set of conditions. Knowing these conditions is the difference between video
             that builds AI authority and video that serves other purposes but does nothing for
             search discovery.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* Pros Cons */}
           <div className="ae-pros-cons not-prose my-10">
@@ -708,7 +708,7 @@ export default function Page() {
             answers questions reliably. A how-to video with chapters, an accurate transcript, and
             a detailed description is a reference document in video form. A brand highlight reel
             with music and no transcript is not.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">The Right Frame for Video Strategy</div>
@@ -718,7 +718,7 @@ export default function Page() {
               like they treat their FAQ pages: topically precise, structurally clear, and designed
               to be read rather than watched. That shift in intent changes every production
               decision that follows.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
           {/* Section 6 */}
@@ -732,7 +732,7 @@ export default function Page() {
             processes video through a different mechanism, with different access levels and
             different evaluation criteria. Treating them as interchangeable leads to strategies
             that work for one platform and fail on the others.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* Timeline / Decision Matrix as a platform breakdown */}
           <div className="ae-timeline not-prose my-10">
@@ -748,7 +748,7 @@ export default function Page() {
                   AI has privileged access to transcript data, engagement signals, and
                   structured metadata. YouTube videos appear in AI Overviews at 36.6% citation
                   rates. This is the highest citation volume and the lowest barrier to inclusion.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
             <div className="ae-timeline-item">
@@ -761,7 +761,7 @@ export default function Page() {
                   directly. Perplexity favors videos with detailed descriptions that function as
                   standalone summaries, since these give its retrieval system the most to work
                   with without relying on transcript processing.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
             <div className="ae-timeline-item">
@@ -775,7 +775,7 @@ export default function Page() {
                   making it the least effective platform for video-driven AI visibility currently.
                   Written content indexed by Bing significantly outperforms video for ChatGPT
                   citation purposes.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
             <div className="ae-timeline-item">
@@ -789,7 +789,7 @@ export default function Page() {
                   site or embedded blog post that Claude&apos;s training or retrieval system
                   accesses. Text on your own website remains the primary lever for Claude
                   visibility.
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
           </div>

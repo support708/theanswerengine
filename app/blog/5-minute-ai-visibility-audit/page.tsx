@@ -292,7 +292,7 @@ export default function Page() {
               roughly 25% of all Google searches. If AI platforms are not recommending your
               business, you are losing leads you never even knew existed. The good news:
               you can check your AI visibility right now, for free, in about five minutes.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* Callout: The AI Search Shift */}
             <div className="not-prose">
@@ -303,14 +303,14 @@ export default function Page() {
                   referral traffic, up from 5% to 8% in late 2024. Google AI Overviews alone
                   reach 2 billion monthly users globally. Yet most local businesses have never
                   checked whether AI platforms mention them at all.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Curious what AI platforms say about your business right now?</p>
+                <p>Curious what AI platforms say about your business right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -326,13 +326,13 @@ export default function Page() {
               to ChatGPT. That is because AI platforms pull recommendations from training
               data, live web crawls, structured data, and third-party directories rather
               than relying on traditional ranking signals like backlinks and keyword density.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               A quick audit tells you three critical things: whether AI platforms know your
               business exists, what they say about you when asked, and whether they are
               recommending your competitors instead. Armed with that information, you can
               start fixing gaps before your competitors do.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Takeaway: Why it matters */}
             <div className="not-prose">
@@ -343,7 +343,7 @@ export default function Page() {
                   AI-powered search is capturing a growing share of high-intent commercial
                   queries. If you have not tested, you are flying blind while competitors
                   who have tested are already optimizing.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
             </div>
 
@@ -377,12 +377,12 @@ export default function Page() {
               <Link href="/blog/how-ai-platforms-choose-businesses-to-cite" className="text-orange-400 underline hover:text-orange-300">
                 how AI platforms choose businesses to cite
               </Link>.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Skip the DIY and get a professional-grade audit in minutes.</p>
+                <p>Skip the DIY and get a professional-grade audit in minutes. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 <Link href="/blindspot">Run the Full Analysis →</Link>
               </div>
             </div>
@@ -395,7 +395,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-6">
               Grab a notepad or open a spreadsheet. You are going to run the same test across
               three platforms and score each one. Here is exactly what to do.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Timeline: 5 Steps */}
             <div className="not-prose">
@@ -441,7 +441,7 @@ export default function Page() {
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want the professional version of this audit done for you, free?</p>
+                <p>Want the professional version of this audit done for you, free? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -454,7 +454,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-4">
               Before you open any AI tool, write down three prompts that mirror what your
               real customers would ask. Use unbranded, generic language. For example:
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Cheat Sheet: Test Prompts */}
             <div className="not-prose">
@@ -475,7 +475,7 @@ export default function Page() {
                   The key is using unbranded queries. Asking &quot;tell me about [your business
                   name]&quot; tests name recognition. Asking generic questions tests whether AI
                   actually recommends you to new customers who have never heard of you.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -488,7 +488,7 @@ export default function Page() {
               Go to <strong className="text-white">chat.openai.com</strong> and open a new
               conversation. You do not need a paid account for this. Paste each of your three
               prompts one at a time and note:
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Decision Matrix: What to Check on ChatGPT */}
             <div className="not-prose">
@@ -534,12 +534,12 @@ export default function Page() {
                 Bing Places listing directly affects your ChatGPT visibility
               </Link>. If you have never claimed your Bing Places profile, that alone could
               explain why ChatGPT does not recommend you.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* CTA Inline 4 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not showing up on ChatGPT? We can tell you exactly why.</p>
+                <p>Not showing up on ChatGPT? We can tell you exactly why. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -553,7 +553,7 @@ export default function Page() {
               Go to <strong className="text-white">perplexity.ai</strong> and run the same
               three prompts. Perplexity is uniquely valuable for this audit because it shows
               its sources with numbered citations. Look for:
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Comparison Table: Perplexity Checks */}
             <div className="not-prose">
@@ -589,12 +589,12 @@ export default function Page() {
               Perplexity processes over 435 million search queries per month and growing.
               Its citation-based format means your content needs to be authoritative enough
               to be used as a source, not just mentioned in passing.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Need help interpreting your Perplexity results? Talk to our team.</p>
+                <p>Need help interpreting your Perplexity results? Talk to our team. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229 →</a>
               </div>
             </div>
@@ -608,7 +608,7 @@ export default function Page() {
               Go to <strong className="text-white">google.com</strong> and search your test
               queries. Look at the top of the results page for the AI Overview box (the
               AI-generated summary that appears before traditional results). Note:
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <ul className="text-gray-300 mb-4 space-y-2">
               <li><strong className="text-white">Does an AI Overview appear?</strong> Not every query triggers one, but about 25% of searches now show AI Overviews.</li>
               <li><strong className="text-white">Are you mentioned or linked?</strong> AI Overviews pull from pages Google trusts for that topic.</li>
@@ -623,14 +623,14 @@ export default function Page() {
                   queries as well, jumping from 8% to 18% coverage of commercial searches. If
                   your service category triggers an AI Overview and you are not in it, you are
                   losing clicks to whoever is.
-                </p>
+                 Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to see how you compare across all AI platforms at once?</p>
+                <p>Want to see how you compare across all AI platforms at once? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 <Link href="/blindspot">Run the Full Audit →</Link>
               </div>
             </div>
@@ -642,7 +642,7 @@ export default function Page() {
             </h3>
             <p className="text-gray-300 leading-relaxed mb-4">
               For each platform, give yourself a score using this simple framework:
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Bar Group: Scoring Framework */}
             <div className="not-prose">
@@ -716,14 +716,14 @@ export default function Page() {
                   running this audit monthly (or weekly, if you are actively optimizing) is
                   essential. The businesses that monitor consistently are the ones that keep
                   showing up.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
             </div>
 
             {/* CTA Inline 7 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Scored below 7? Our free report shows you exactly what to fix.</p>
+                <p>Scored below 7? Our free report shows you exactly what to fix. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -736,7 +736,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-4">
               If your audit revealed gaps, here are the highest-impact fixes you can start
               today, ranked by effort and payoff:
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* Decision Matrix: Fix Priority */}
             <div className="not-prose">
@@ -796,7 +796,7 @@ export default function Page() {
             {/* CTA Inline 8 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure where to start? Email us and we will point you in the right direction.</p>
+                <p>Not sure where to start? Email us and we will point you in the right direction. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai →</a>
               </div>
             </div>
@@ -811,7 +811,7 @@ export default function Page() {
                 <p>
                   Claiming your Bing Places listing is the single most impactful step for ChatGPT
                   visibility. ChatGPT relies on Bing&apos;s data. It takes 10 minutes, and it is free.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -828,7 +828,7 @@ export default function Page() {
             {/* CTA Inline 9 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure where your NAP data is inconsistent? We check that too.</p>
+                <p>Not sure where your NAP data is inconsistent? We check that too. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -854,7 +854,7 @@ export default function Page() {
                   LocalBusiness, FAQPage, and Organization schema on your website, AI has
                   to guess what your business does, where it operates, and whether it is
                   trustworthy. That guessing game rarely ends in your favor.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
 
@@ -870,7 +870,7 @@ export default function Page() {
             {/* CTA Inline 10 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want a structured optimization plan tailored to your business?</p>
+                <p>Want a structured optimization plan tailored to your business? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>

@@ -284,19 +284,19 @@ export default function HowFloristsWinAISearch() {
 
             <p>Ask any AI platform right now for a recommendation on where to buy flowers for a wedding, a birthday, or a same-day delivery, and you will almost certainly get one of two answers: FTD or Teleflora. Occasionally 1-800-Flowers. Rarely, if ever, will you hear the name of the independent florist three blocks from the customer who has been serving that neighborhood for 30 years.</p>
 
-            <p>This is not a coincidence. It is not because FTD and Teleflora grow better flowers or employ more talented designers. It is a structural problem rooted in how AI platforms evaluate and recommend businesses. The wire services have invested heavily in digital infrastructure that AI can read, cross-reference, and verify. Most local florists have not. The result is a recommendation gap that costs independent flower shops an enormous share of a $5.3 billion industry every year.</p>
+            <p>This is not a coincidence. It is not because FTD and Teleflora grow better flowers or employ more talented designers. It is a structural problem rooted in how AI platforms evaluate and recommend businesses. The wire services have invested heavily in digital infrastructure that AI can read, cross-reference, and verify. Most local florists have not. The result is a recommendation gap that costs independent flower shops an enormous share of a $5.3 billion industry every year. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>The urgency of this problem is compounded by a behavioral shift happening right now. Forty-five percent of consumers now use AI to find local services, a number that was in the single digits just one year ago. And floral purchases are particularly vulnerable to this shift: 67% of flower buys happen within three days of an occasion. These are high-intent, time-sensitive queries. The customer who asks AI for flowers the day before Mother&apos;s Day is ready to order. If AI does not mention your shop, that sale goes somewhere else.</p>
 
             <div className="ae-quote not-prose">
-              <p>Local florists are not losing to FTD on quality. They are losing on AI discoverability. The customers searching for flowers right now cannot find you because AI cannot verify you exist.</p>
+              <p>Local florists are not losing to FTD on quality. They are losing on AI discoverability. The customers searching for flowers right now cannot find you because AI cannot verify you exist. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <p>For context on why AI consistently skips local businesses in favor of national brands, our guide on <Link href="/blog/why-ai-recommends-chains-over-local-businesses">why AI recommends chains over local businesses</Link> covers the structural dynamics that put independents at a disadvantage.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out what AI says when someone searches for a florist in your area right now.</p>
+              <p>Find out what AI says when someone searches for a florist in your area right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -308,20 +308,20 @@ export default function HowFloristsWinAISearch() {
 
             <h3>The Data Depth Disparity</h3>
 
-            <p>FTD&apos;s website contains thousands of individual product pages, each with structured schema markup, customer reviews, pricing signals, delivery zone data, and content describing each arrangement in detail. When AI evaluates the query &quot;best florist for anniversary flowers near me,&quot; it has an enormous amount of structured, crawlable data about FTD to work with. It has almost nothing about the local shop whose website consists of a home page, a contact form, and a gallery of photos.</p>
+            <p>FTD&apos;s website contains thousands of individual product pages, each with structured schema markup, customer reviews, pricing signals, delivery zone data, and content describing each arrangement in detail. When AI evaluates the query &quot;best florist for anniversary flowers near me,&quot; it has an enormous amount of structured, crawlable data about FTD to work with. It has almost nothing about the local shop whose website consists of a home page, a contact form, and a gallery of photos. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>AI confidence scales with information volume. The more verifiable, structured, consistent information a source has across the web, the more confidently AI recommends it. Wire services have spent decades building that information infrastructure. Local florists have spent decades building craft. Both matter, but only one is visible to AI.</p>
 
             <h3>Citation Volume and Third-Party Validation</h3>
 
-            <p>FTD appears in thousands of publications: gift guides, wedding planning blogs, news articles, lifestyle roundups, and comparison sites. Each of these citations tells AI that FTD is a validated, recognized source in the floral space. AI interprets citation volume as a form of community endorsement. Local florists rarely appear in publications outside their local paper, which gives AI very little third-party validation to work with.</p>
+            <p>FTD appears in thousands of publications: gift guides, wedding planning blogs, news articles, lifestyle roundups, and comparison sites. Each of these citations tells AI that FTD is a validated, recognized source in the floral space. AI interprets citation volume as a form of community endorsement. Local florists rarely appear in publications outside their local paper, which gives AI very little third-party validation to work with. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <h3>Consistent NAP Data Across Directories</h3>
 
             <p>Wire services have dedicated teams maintaining their directory listings. Their name, address, phone number, and service details are consistent across every platform AI might check. Local florists often have outdated Yelp listings, incomplete Google Business Profiles, and conflicting information on legacy directories that have not been updated in years. These inconsistencies signal unreliability to AI.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The wire service advantage is not permanent:</strong> FTD and Teleflora win on data infrastructure, not on quality of product or service. A local florist who builds a comprehensive AI-visible digital presence can absolutely compete. The wire services cannot offer what a great local florist can: genuine local relationships, custom design capability, fresh locally-sourced product, and real same-day delivery. AI just does not know about those advantages yet.</p>
+              <p><strong>The wire service advantage is not permanent:</strong> FTD and Teleflora win on data infrastructure, not on quality of product or service. A local florist who builds a comprehensive AI-visible digital presence can absolutely compete. The wire services cannot offer what a great local florist can: genuine local relationships, custom design capability, fresh locally-sourced product, and real same-day delivery. AI just does not know about those advantages yet. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* CTA 2 */}
@@ -334,7 +334,7 @@ export default function HowFloristsWinAISearch() {
             <span className="ae-section-label" id="trust-signals">Trust Signals</span>
             <h2>The Trust Signals AI Looks For in a Florist</h2>
 
-            <p>When a customer asks AI to recommend a florist for a specific occasion, the platform runs through an internal evaluation. It is looking for signals that tell it: this business is real, it is reputable, it has the expertise to serve this specific need, and it can actually deliver what the customer is asking for. Understanding these signals is the foundation of AI visibility for flower shops.</p>
+            <p>When a customer asks AI to recommend a florist for a specific occasion, the platform runs through an internal evaluation. It is looking for signals that tell it: this business is real, it is reputable, it has the expertise to serve this specific need, and it can actually deliver what the customer is asking for. Understanding these signals is the foundation of AI visibility for flower shops. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>Local Sourcing Signals</h3>
 
@@ -342,7 +342,7 @@ export default function HowFloristsWinAISearch() {
 
             <h3>Designer Credentials and Named Expertise</h3>
 
-            <p>AI platforms evaluate expertise signals before making recommendations. For florists, this means named designers with verifiable credentials carry significant weight. A lead designer with certification from the American Institute of Floral Designers (AIFD), verifiable event portfolio entries, or recognition in industry publications gives AI confidence that the shop can handle high-stakes occasions like weddings and corporate events. These credentials must be published as crawlable HTML text, not locked inside images or PDFs.</p>
+            <p>AI platforms evaluate expertise signals before making recommendations. For florists, this means named designers with verifiable credentials carry significant weight. A lead designer with certification from the American Institute of Floral Designers (AIFD), verifiable event portfolio entries, or recognition in industry publications gives AI confidence that the shop can handle high-stakes occasions like weddings and corporate events. These credentials must be published as crawlable HTML text, not locked inside images or PDFs. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <h3>Same-Day Delivery Capability</h3>
 
@@ -350,13 +350,13 @@ export default function HowFloristsWinAISearch() {
 
             <h3>Occasion Expertise and Specialization</h3>
 
-            <p>AI does not recommend generalists for high-stakes occasions. When someone asks for wedding florists, AI looks for businesses with explicit, verifiable wedding expertise: dedicated wedding pages, wedding reviews from past couples, pricing context for wedding services, and content that demonstrates understanding of wedding floristry as a distinct discipline. The same is true for corporate events, sympathy arrangements, and holiday specialties.</p>
+            <p>AI does not recommend generalists for high-stakes occasions. When someone asks for wedding florists, AI looks for businesses with explicit, verifiable wedding expertise: dedicated wedding pages, wedding reviews from past couples, pricing context for wedding services, and content that demonstrates understanding of wedding floristry as a distinct discipline. The same is true for corporate events, sympathy arrangements, and holiday specialties. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>To understand more about how AI decides between two similar-seeming businesses, read our analysis of <Link href="/blog/how-ai-picks-between-two-similar-businesses">how AI picks between two similar businesses</Link>.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is AI finding your designer credentials, local sourcing story, and same-day capabilities? Most florist sites have none of these signals in crawlable form.</p>
+              <p>Is AI finding your designer credentials, local sourcing story, and same-day capabilities? Most florist sites have none of these signals in crawlable form. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -366,13 +366,13 @@ export default function HowFloristsWinAISearch() {
 
             <p>Here is a structural problem the floral industry rarely discusses: the majority of local florists operate their primary web presence through a Teleflora or FTD platform website. These are the template websites the wire services provide to their member florists, complete with the wire service&apos;s own product catalog, fulfillment infrastructure, and branding. They look like a florist&apos;s website. They function like a florist&apos;s website. But for AI visibility purposes, they are almost entirely useless to the local shop.</p>
 
-            <p>When AI crawls a Teleflora platform website, it sees Teleflora. The structured data, the schema markup, the canonical URLs: all of these point back to the wire service. The local florist&apos;s name may appear, but the digital authority belongs to Teleflora. Any AI visibility built on that platform goes to the brand, not to the independent shop. This is why a florist can have a beautifully designed, well-stocked website and still be completely invisible to ChatGPT.</p>
+            <p>When AI crawls a Teleflora platform website, it sees Teleflora. The structured data, the schema markup, the canonical URLs: all of these point back to the wire service. The local florist&apos;s name may appear, but the digital authority belongs to Teleflora. Any AI visibility built on that platform goes to the brand, not to the independent shop. This is why a florist can have a beautifully designed, well-stocked website and still be completely invisible to ChatGPT. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>The platform attribution problem:</strong> Wire service platform websites are optimized for wire service revenue, not local florist discovery. When AI evaluates one of these sites, it attributes the authority to the wire service brand. Even if your design work is featured prominently, AI sees it as a Teleflora page, not your shop&apos;s page. Building AI visibility requires an independent digital presence that AI can attribute to your specific business.</p>
             </div>
 
-            <p>Beyond the wire service attribution problem, there is a technical rendering issue that affects many florist websites regardless of platform. Modern floristry websites lean heavily on JavaScript to showcase galleries, product carousels, and interactive arrangements. These elements look gorgeous to human visitors but are largely invisible to AI crawlers. The schema markup, the product descriptions, the delivery zone information: if any of it is rendered via JavaScript rather than served as plain HTML, AI cannot read it.</p>
+            <p>Beyond the wire service attribution problem, there is a technical rendering issue that affects many florist websites regardless of platform. Modern floristry websites lean heavily on JavaScript to showcase galleries, product carousels, and interactive arrangements. These elements look gorgeous to human visitors but are largely invisible to AI crawlers. The schema markup, the product descriptions, the delivery zone information: if any of it is rendered via JavaScript rather than served as plain HTML, AI cannot read it. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>For a deeper look at what AI crawlers actually see when they visit different website types, read our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">what your website looks like to an AI crawler</Link>.</p>
 
@@ -428,7 +428,7 @@ export default function HowFloristsWinAISearch() {
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Are you operating on a wire service platform? Find out whether AI is attributing your visibility to your shop or to Teleflora.</p>
+              <p>Are you operating on a wire service platform? Find out whether AI is attributing your visibility to your shop or to Teleflora. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -438,7 +438,7 @@ export default function HowFloristsWinAISearch() {
 
             <p>Reviews are one of the strongest signals in AI floral recommendations, but not in the way most florists think. The number of stars and the total count matter far less to AI than the content of those reviews. Specifically, AI looks for occasion-specific language that confirms the florist has experience with the exact service the customer is asking about.</p>
 
-            <p>A review that says &quot;five stars, beautiful flowers&quot; tells AI almost nothing beyond a basic positive sentiment signal. A review that says &quot;We hired this florist for our wedding reception and the centerpieces were exactly what we envisioned. Same-day delivery for the rehearsal dinner worked perfectly&quot; tells AI: this florist does weddings, they do same-day delivery, and customers trust them for high-stakes occasions. That second review is worth ten of the first to an AI making a recommendation.</p>
+            <p>A review that says &quot;five stars, beautiful flowers&quot; tells AI almost nothing beyond a basic positive sentiment signal. A review that says &quot;We hired this florist for our wedding reception and the centerpieces were exactly what we envisioned. Same-day delivery for the rehearsal dinner worked perfectly&quot; tells AI: this florist does weddings, they do same-day delivery, and customers trust them for high-stakes occasions. That second review is worth ten of the first to an AI making a recommendation. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>The Occasion Keywords That Move AI Recommendations</h3>
 
@@ -470,13 +470,13 @@ export default function HowFloristsWinAISearch() {
               </div>
             </div>
 
-            <p>The most powerful review signal for AI is also the most overlooked: customer testimonials published directly on your website as plain HTML text. Not through a review widget. Not via a JavaScript feed. Actual text, in the HTML source, describing a customer&apos;s experience with a specific occasion. A florist who maintains a testimonials page with occasion-specific stories, names, and dates is creating some of the highest-value AI trust signals available.</p>
+            <p>The most powerful review signal for AI is also the most overlooked: customer testimonials published directly on your website as plain HTML text. Not through a review widget. Not via a JavaScript feed. Actual text, in the HTML source, describing a customer&apos;s experience with a specific occasion. A florist who maintains a testimonials page with occasion-specific stories, names, and dates is creating some of the highest-value AI trust signals available. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>For a deeper look at how reviews affect AI recommendations, read our analysis of <Link href="/blog/does-more-reviews-help-ai-find-you">whether more reviews help AI find your business</Link>.</p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Your 4.9-star Google rating might be invisible to ChatGPT. Find out which reviews actually count for AI recommendations.</p>
+              <p>Your 4.9-star Google rating might be invisible to ChatGPT. Find out which reviews actually count for AI recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -488,19 +488,19 @@ export default function HowFloristsWinAISearch() {
 
             <h3>Why Occasion Pages Matter More Than Seasonal Promotions</h3>
 
-            <p>Most florists approach seasonal marketing the same way: run a promotional banner, post on Instagram, update the Google Business Profile with a seasonal offer. This approach reaches existing customers and social followers. It does almost nothing for AI visibility. AI does not see promotional banners or social posts. It reads structured content on crawlable web pages.</p>
+            <p>Most florists approach seasonal marketing the same way: run a promotional banner, post on Instagram, update the Google Business Profile with a seasonal offer. This approach reaches existing customers and social followers. It does almost nothing for AI visibility. AI does not see promotional banners or social posts. It reads structured content on crawlable web pages. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>An occasion page is a permanent, content-rich web page dedicated to a specific floral service for a specific event type. A well-built wedding flowers page explains what the florist offers for weddings, what distinguishes their approach, what couples should expect from the consultation process, and what past wedding clients have said about their experience. That page becomes a standing AI signal that says: this florist specializes in weddings. It outperforms a seasonal Instagram campaign by orders of magnitude for AI recommendation purposes.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>The occasions AI queries most for florists:</strong> Same-day delivery (high urgency, high conversion), wedding florals (high value, long consideration), anniversary flowers (recurring, loyalty signal), sympathy and funeral arrangements (high emotion, trusted recommendation required), and corporate floral services (repeat business, high lifetime value). A florist with dedicated pages for each of these occasions has an enormous AI visibility advantage over one with a single generic Services page.</p>
+              <p><strong>The occasions AI queries most for florists:</strong> Same-day delivery (high urgency, high conversion), wedding florals (high value, long consideration), anniversary flowers (recurring, loyalty signal), sympathy and funeral arrangements (high emotion, trusted recommendation required), and corporate floral services (repeat business, high lifetime value). A florist with dedicated pages for each of these occasions has an enormous AI visibility advantage over one with a single generic Services page. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             <h3>The Seasonal Content Cycle That Builds AI Authority</h3>
 
             <p>Seasonal content done right is not about promotions. It is about demonstrating that your shop has deep expertise in serving customers around the most important floral occasions on the calendar. A post published two weeks before Valentine&apos;s Day explaining the most popular arrangements for the occasion, what local varieties are in season, and how far in advance customers should order, creates a content signal that AI can evaluate for relevance and expertise.</p>
 
-            <p>Over time, a florist who publishes thoughtful, occasion-specific content consistently builds an AI content profile that rivals the wire services in depth and relevance. The florists who start building that profile now will be the ones AI recommends when the next Valentine&apos;s Day query arrives.</p>
+            <p>Over time, a florist who publishes thoughtful, occasion-specific content consistently builds an AI content profile that rivals the wire services in depth and relevance. The florists who start building that profile now will be the ones AI recommends when the next Valentine&apos;s Day query arrives. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* BAR GROUP */}
             <div className="ae-bar-group not-prose">
@@ -559,17 +559,17 @@ export default function HowFloristsWinAISearch() {
             <span className="ae-section-label" id="competitive-window">The Opportunity</span>
             <h2>The Competitive Window Most Florists Are Missing</h2>
 
-            <p>Here is the honest reality of the current floral AI search landscape: almost no local florists have optimized for it. The national wire services dominate because they have a head start and a resource advantage, but they are not unbeatable. They cannot offer what a great local florist can. And the local florists who build AI-visible digital presences right now are stepping into a competitive window that may not stay open much longer.</p>
+            <p>Here is the honest reality of the current floral AI search landscape: almost no local florists have optimized for it. The national wire services dominate because they have a head start and a resource advantage, but they are not unbeatable. They cannot offer what a great local florist can. And the local florists who build AI-visible digital presences right now are stepping into a competitive window that may not stay open much longer. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>The math is stark. If 45% of consumers now use AI to find local services, and the floral industry does $5.3 billion in annual US revenue, the volume of floral purchase decisions now influenced by AI is measured in the hundreds of millions of dollars. Of that, the portion going to local florists is negligible, not because local florists are inferior, but because they are AI-invisible.</p>
 
-            <p>The first local florist in any given market to build a comprehensive AI-visible presence will capture recommendations for every high-intent query in that area: the bride looking for a wedding florist, the executive assistant ordering corporate arrangements, the husband who forgot his anniversary. These recommendations compound. AI platforms develop confidence in sources they have cited before. Early visibility begets more visibility.</p>
+            <p>The first local florist in any given market to build a comprehensive AI-visible presence will capture recommendations for every high-intent query in that area: the bride looking for a wedding florist, the executive assistant ordering corporate arrangements, the husband who forgot his anniversary. These recommendations compound. AI platforms develop confidence in sources they have cited before. Early visibility begets more visibility. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <p><strong>The competitive position available right now:</strong> In most local markets, the AI search landscape for florists is essentially uncontested at the local level. While wire services dominate nationally, the specific query &quot;best florist in [your city]&quot; or &quot;wedding florist near [neighborhood]&quot; often has no well-optimized local contender. The florist who moves first in their market captures a dominant position that is very difficult for competitors to displace once established.</p>
             </div>
 
-            <p>For an overview of what kinds of directory listings amplify this competitive position, see our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>.</p>
+            <p>For an overview of what kinds of directory listings amplify this competitive position, see our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
@@ -581,7 +581,7 @@ export default function HowFloristsWinAISearch() {
             <span className="ae-section-label" id="decision-matrix">By Specialty</span>
             <h2>AI Visibility Decision Matrix for Florists</h2>
 
-            <p>Not all florists face the same AI search challenges. The signals that matter most and the competitive dynamics vary based on specialty, occasion focus, and delivery model. Here is how the landscape breaks down.</p>
+            <p>Not all florists face the same AI search challenges. The signals that matter most and the competitive dynamics vary based on specialty, occasion focus, and delivery model. Here is how the landscape breaks down. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-decision-matrix not-prose">
               <table>
@@ -645,7 +645,7 @@ export default function HowFloristsWinAISearch() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Which florist specialty is most underserved by AI in your market? Our report shows you exactly where the gap is.</p>
+              <p>Which florist specialty is most underserved by AI in your market? Our report shows you exactly where the gap is. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -709,11 +709,11 @@ export default function HowFloristsWinAISearch() {
             <span className="ae-section-label">The Bottom Line</span>
             <h2>The Customer Who Cannot Find You Does Not Wait</h2>
 
-            <p>The floral business runs on moments. A missed anniversary. A wedding day. A loss. These are not the occasions customers research for weeks before deciding. They search with urgency. They find the first trustworthy answer AI gives them, and they order. The three-day purchase window that defines 67% of floral transactions is closing fast, and the florist who is not in the AI answer is not in the running.</p>
+            <p>The floral business runs on moments. A missed anniversary. A wedding day. A loss. These are not the occasions customers research for weeks before deciding. They search with urgency. They find the first trustworthy answer AI gives them, and they order. The three-day purchase window that defines 67% of floral transactions is closing fast, and the florist who is not in the AI answer is not in the running. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>Right now, that answer almost always says FTD or Teleflora. Not because those services are better at what you do. Because they have done the structural work to be visible to AI. That structural gap is closeable. The florists who close it first in their markets will capture a compounding advantage in AI recommendations that will only grow as AI adoption continues to accelerate.</p>
 
-            <p>The 45% of consumers now using AI to find local services was 6% one year ago. That trajectory does not plateau. It accelerates. Every month a competitor invests in AI visibility before you, their advantage grows. The window to be the first AI-visible florist in your market is open. It will not stay open forever.</p>
+            <p>The 45% of consumers now using AI to find local services was 6% one year ago. That trajectory does not plateau. It accelerates. Every month a competitor invests in AI visibility before you, their advantage grows. The window to be the first AI-visible florist in your market is open. It will not stay open forever. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           </div>
 
@@ -734,7 +734,7 @@ export default function HowFloristsWinAISearch() {
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Flower Shop Invisible to AI Search?</h3>
-            <p className="text-gray-400 mb-6">Get a free Blind Spot Report showing exactly what AI platforms say when customers search for a florist in your area. See your gaps, your competitors, and your opportunity before the next occasion rush.</p>
+            <p className="text-gray-400 mb-6">Get a free Blind Spot Report showing exactly what AI platforms say when customers search for a florist in your area. See your gaps, your competitors, and your opportunity before the next occasion rush. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -764,7 +764,7 @@ export default function HowFloristsWinAISearch() {
 
               <div className="ae-faq-item">
                 <h3>Does having a same-day delivery page help AI find me for urgent flower orders?</h3>
-                <p>Yes, significantly. When a customer asks AI for same-day flower delivery, the platform looks for explicit same-day delivery signals in crawlable content. A florist with a dedicated same-day delivery page that clearly states service areas, cutoff times, and delivery capabilities is far more likely to be recommended than one whose website mentions delivery only in passing. The page must be server-rendered HTML, not JavaScript-loaded, for AI crawlers to actually read it.</p>
+                <p>Yes, significantly. When a customer asks AI for same-day flower delivery, the platform looks for explicit same-day delivery signals in crawlable content. A florist with a dedicated same-day delivery page that clearly states service areas, cutoff times, and delivery capabilities is far more likely to be recommended than one whose website mentions delivery only in passing. The page must be server-rendered HTML, not JavaScript-loaded, for AI crawlers to actually read it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
 
               <div className="ae-faq-item">
@@ -774,7 +774,7 @@ export default function HowFloristsWinAISearch() {
 
               <div className="ae-faq-item">
                 <h3>Should a florist list on wedding directories to help AI visibility?</h3>
-                <p>Absolutely. Wedding directories like The Knot and WeddingWire are among the most AI-crawlable platforms in the floral industry. A florist with a complete, reviewed profile on these directories signals wedding expertise to AI platforms evaluating floral recommendations. Bridal-focused AI queries, which represent a significant share of high-value flower searches, disproportionately favor florists with verified wedding directory presence.</p>
+                <p>Absolutely. Wedding directories like The Knot and WeddingWire are among the most AI-crawlable platforms in the floral industry. A florist with a complete, reviewed profile on these directories signals wedding expertise to AI platforms evaluating floral recommendations. Bridal-focused AI queries, which represent a significant share of high-value flower searches, disproportionately favor florists with verified wedding directory presence. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
 
               <div className="ae-faq-item">
@@ -784,7 +784,7 @@ export default function HowFloristsWinAISearch() {
 
               <div className="ae-faq-item">
                 <h3>Does having an Instagram with lots of flower photos help AI recommend me?</h3>
-                <p>Not directly. Instagram content is not crawlable by most AI platforms, so photos and captions on Instagram do not contribute to AI visibility. What matters is the text content on your actual website, your directory profiles, and AI-readable review platforms. The most effective approach is to republish Instagram content as text-rich posts or galleries on your own crawlable website, where AI can actually read it.</p>
+                <p>Not directly. Instagram content is not crawlable by most AI platforms, so photos and captions on Instagram do not contribute to AI visibility. What matters is the text content on your actual website, your directory profiles, and AI-readable review platforms. The most effective approach is to republish Instagram content as text-rich posts or galleries on your own crawlable website, where AI can actually read it. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
 
               <div className="ae-faq-item">

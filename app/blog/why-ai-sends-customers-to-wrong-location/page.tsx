@@ -323,11 +323,11 @@ export default function Page() {
 
             <p>
               When a customer finds a bad Yelp review, you can respond to it. When they call with a complaint, you can address it. When an ad campaign underperforms, the data tells you. But when AI sends a customer to the wrong address, there is no data trail. No notification. No record. Just a person who drove somewhere, found nothing, and moved on.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               This is the defining characteristic of the AI location problem: it is completely invisible to the business owner while being completely real to the customer. The customer had a genuine experience of failure. They invested time, drove distance, felt frustrated, and never came back. From your side of the counter, nothing happened.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Silence Is the Problem</div>
@@ -338,15 +338,15 @@ export default function Page() {
 
             <p>
               AI assistants are now the first stop for millions of consumers researching local businesses. The shift is happening faster than most business owners realize. Consumers who previously typed a business name into Google Maps are now asking ChatGPT, Perplexity, or Siri&rsquo;s AI assistant. The response they get is treated as authoritative. It comes from a sophisticated system that sounds confident. There is no asterisk, no disclaimer saying the data might be stale.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>
               That confident wrong answer costs you customers every day this problem goes unaddressed.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Inline CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">Not sure what AI is saying about your location right now?</p>
+              <p className="text-sm text-gray-400 mb-3">Not sure what AI is saying about your location right now? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot" className="ae-cta-primary">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -358,11 +358,11 @@ export default function Page() {
 
             <p>
               To understand why AI gets your address wrong, you first need to understand how it learns your address in the first place. There is no single authoritative database that AI systems query. There is no real-time connection to your Google Business Profile. Instead, AI systems build their understanding of your business through a process that is fragmented, asynchronous, and fundamentally unreliable.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>
               Large language models like GPT-4, Claude, and Gemini are trained on massive datasets of text crawled from the internet. Your business address appears in that training data wherever it has ever been published: your website, directory listings, press releases, review platforms, data aggregators, social media profiles, and anything else that was publicly accessible when the training crawl happened. The model learns to associate your business name with those address strings.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Training Data vs. Real-Time Retrieval</div>
@@ -373,11 +373,11 @@ export default function Page() {
 
             <p>
               The problem compounds when those sources disagree. If your Google Business Profile says 1234 Oak Street, your old website footer says 890 Pine Avenue, your Yelp listing still has the address from your first location, and three data aggregators that synced five years ago point to a suite number that no longer exists, the AI has no ground truth to resolve against. It weighs frequency, recency, and source authority and makes its best guess. The guess is often wrong.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* Bar chart: AI data source reliability */}
             <div className="not-prose my-8">
-              <p className="text-sm text-gray-400 uppercase tracking-widest font-bold mb-4">How AI Platforms Weight Location Sources (Estimated Influence)</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest font-bold mb-4">How AI Platforms Weight Location Sources (Estimated Influence) Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <div className="ae-bar-group">
                 <div className="ae-bar-item">
                   <div className="ae-bar-label">Business Website + Schema Markup</div>
@@ -429,26 +429,26 @@ export default function Page() {
 
             <p>
               Location data is uniquely vulnerable to error in the AI information ecosystem. Unlike a business&rsquo;s phone number or website URL, a physical address is tied to a real place in the world. When it is wrong, the consequence is a physical journey to the wrong place. Other types of misinformation are frustrating. Wrong location information causes kinetic failure.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               Several structural forces create persistent location errors in AI systems:
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>The Web Is Full of Ghost Addresses</h3>
             <p>
               When businesses move, close a location, or consolidate, the old address does not disappear from the internet. It lives on in old Yelp listings, data aggregator records, archived web pages, blog posts that mentioned your location, forum threads where someone shared your address, and hundreds of other places that nobody bothered to update. AI systems crawling the web encounter these ghost addresses constantly. They are often more numerous than the correct current address, which means AI might actually prefer them based on frequency signals alone.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>Data Aggregators Move Slowly</h3>
             <p>
               Major data aggregators like Infogroup, Acxiom, and Neustar serve as foundational sources for business information across the internet. Directory sites, navigation apps, and AI platforms all pull from these aggregators. Updating your information with aggregators is slow, sometimes taking three to six months for changes to propagate. During that window, any AI system pulling from those aggregators will display your old address with full confidence.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>No Single Source of Truth</h3>
             <p>
               Google Business Profile is authoritative for Google-powered products. But ChatGPT does not read your Google Business Profile. Perplexity has its own web retrieval pipeline. Claude has its own training data. Siri pulls from Apple Maps and a different set of aggregators. Each platform has a different view of your business, and none of them automatically sync. Updating one source does not update the others.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <div className="ae-callout-title">The Multi-Platform Reality</div>
@@ -462,7 +462,7 @@ export default function Page() {
 
             <p>
               AI systems do not have a simple checklist of sources they consult in order. The data pipeline is messy, with different systems giving different weights to different sources depending on how they were built. That said, certain signals consistently appear to carry more weight than others across most platforms.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Comparison table */}
             <div className="ae-comparison-table not-prose">
@@ -524,15 +524,15 @@ export default function Page() {
 
             <p>
               The conflict happens because these sources do not agree. Your website might say one address. A three-year-old Yelp listing might say another. A data aggregator might have a third version. An archived press release might reference a fourth. AI systems encounter all of these and must make a judgment call about which one is correct.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>
               The judgment call is not always transparent or predictable. There are patterns to what tends to win, but they are influenced by factors most business owners have no visibility into. This is why professional evaluation and systematic correction matters more than any individual fix.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Inline CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">Want to know which sources are feeding wrong data about your business to AI?</p>
+              <p className="text-sm text-gray-400 mb-3">Want to know which sources are feeding wrong data about your business to AI? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot" className="ae-cta-primary">
                 See Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -544,11 +544,11 @@ export default function Page() {
 
             <p>
               Of all the ways AI gets location wrong, the old address problem is the most common and the most insidious. Businesses move. Offices relocate. Multi-location operators close branches. Each time a location change happens, the old address begins a long, slow process of haunting your AI presence.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               Consider what happens when you move your business from Suite 100 to Suite 400 in the same building. You update Google Business Profile. Maybe you update your website. But you probably do not:
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <ul>
               <li>Submit updates to the four major data aggregators</li>
@@ -561,7 +561,7 @@ export default function Page() {
 
             <p>
               Most businesses update one or two sources and consider the job done. AI sees all the sources. The majority still say the old address. The AI confidently gives the old address.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Timeline */}
             <div className="ae-timeline not-prose">
@@ -588,18 +588,18 @@ export default function Page() {
 
             <p>
               The timeline above assumes a single location change. Businesses with multiple location changes over time, or those that have had branches open and close, face a much more complex legacy address problem. Each change adds more ghost data to the internet, and that ghost data feeds AI systems indefinitely.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Section 6 */}
             <h2 id="no-correction-mechanism">No Direct Correction Mechanism</h2>
 
             <p>
               One of the most frustrating aspects of AI location errors is the absence of a correction pathway. With Google Maps, you can submit an edit. With Wikipedia, you can make a change. With Google Business Profile, you have full editorial control. With AI chatbots, you have almost none.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>
               ChatGPT has a feedback button. Gemini has a thumbs-down icon. You can flag a response as inaccurate. But these mechanisms are not guaranteed to result in a correction. They feed into feedback pipelines that may or may not influence future model behavior. There is no notification when a correction is made, no timeline, and no certainty that the specific wrong answer you flagged will ever be fixed.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Pros/Cons */}
             <div className="ae-pros-cons not-prose">
@@ -633,15 +633,15 @@ export default function Page() {
 
             <p>
               This asymmetry is the core challenge. The correction pathway runs through the underlying sources, not through the AI platforms themselves. Fixing AI location errors is an indirect process. You improve the signals that AI platforms trust, and you wait for those improvements to influence AI responses over time.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>
               The strategies that work involve more than just updating a few listings. They require understanding which specific sources each AI platform weights most heavily, which signals build the kind of authority that causes AI to trust and prefer certain data points, and how to create enough consistent signal at scale to override the ghost data from your business&rsquo;s history. That combination of knowledge and execution is what separates businesses that get found correctly by AI from those that do not.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Inline CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p className="text-sm text-gray-400 mb-3">There is no quick fix button. But there is a systematic approach that works.</p>
+              <p className="text-sm text-gray-400 mb-3">There is no quick fix button. But there is a systematic approach that works. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot" className="ae-cta-primary">
                 Find Out What AI Says About Your Location Now
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -653,7 +653,7 @@ export default function Page() {
 
             <p>
               Most business owners underestimate this problem because they cannot see it. There is no line item in any report labeled &ldquo;customers lost to AI address errors.&rdquo; But the impact is measurable when you look at the right indicators.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* Decision matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -687,10 +687,10 @@ export default function Page() {
 
             <p>
               The scale of exposure grows as AI adoption accelerates. In 2023, AI assistants handled a fraction of location-related queries. By 2026, AI-driven location queries have become mainstream behavior, particularly among younger consumers who have grown up treating AI chatbots as search engines. Every month the problem goes unaddressed is another month of customers silently misdirected.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-quote not-prose">
-              <p>&ldquo;AI doesn&rsquo;t apologize when it sends someone to the wrong place. It doesn&rsquo;t file a report. It just moves on to the next query. The only entity who suffers is the business that lost a customer it never knew it had.&rdquo;</p>
+              <p>&ldquo;AI doesn&rsquo;t apologize when it sends someone to the wrong place. It doesn&rsquo;t file a report. It just moves on to the next query. The only entity who suffers is the business that lost a customer it never knew it had.&rdquo; <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <cite>The Answer Engine Research Team</cite>
             </div>
 

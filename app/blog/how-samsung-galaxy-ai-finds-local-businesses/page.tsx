@@ -294,26 +294,26 @@ export default function Page() {
           {/* ── INTRODUCTION ── */}
           <p>
             If you own a local business, you have probably spent years thinking about Google. Maybe you have started paying attention to ChatGPT, Perplexity, or even Apple Intelligence. But there is a platform with over 300 million active users that most business owners have completely ignored: Samsung Galaxy AI.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             In February 2026, Samsung held its Unpacked event and revealed a completely overhauled Bixby. This was not a minor update. Samsung rebuilt Bixby from the ground up as a conversational AI agent, powered by a deep integration with Perplexity for real-time web answers. The result is an assistant that can recommend restaurants, find nearby hotels, suggest local services, and answer complex location-based questions, all without the user ever opening a browser.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <p>
             For local businesses, this is a seismic shift. Every Galaxy phone running One UI 8.5 or later now has an AI assistant that actively recommends businesses based on real-time web data. And Samsung is not stopping at phones. The same Bixby AI is rolling out to smart refrigerators, televisions, and connected home hubs, creating discovery surfaces that did not exist six months ago.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Is Samsung Galaxy AI recommending your business or your competitors? Find out in under 60 seconds.</p>
+            <p>Is Samsung Galaxy AI recommending your business or your competitors? Find out in under 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
           </div>
 
           {/* ── CALLOUT: WARNING ── */}
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Blind Spot Most Businesses Miss</div>
-            <p>Samsung holds roughly 27% of the U.S. smartphone market and is the dominant Android brand globally. If your AI visibility strategy only covers Google and ChatGPT, you are invisible to a massive segment of potential customers who are now asking Bixby for recommendations every day.</p>
+            <p>Samsung holds roughly 27% of the U.S. smartphone market and is the dominant Android brand globally. If your AI visibility strategy only covers Google and ChatGPT, you are invisible to a massive segment of potential customers who are now asking Bixby for recommendations every day. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
 
           {/* ── SECTION 1: BIXBY RELAUNCH ── */}
@@ -322,15 +322,15 @@ export default function Page() {
 
           <p>
             For years, Bixby was the punchline of the smartphone assistant world. Users mostly knew it as the button they accidentally pressed, the assistant that could set a timer but struggled with anything more complex. Samsung knew this perception was a problem, and in early 2026, they decided to fix it in a dramatic way.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <p>
             At Samsung Unpacked in February 2026, the company revealed what they called the &quot;new Bixby.&quot; Running on One UI 8.5, this version of Bixby is fundamentally different from its predecessor. Instead of relying on Samsung&apos;s own limited natural language processing, the new Bixby is powered by a Perplexity integration that gives it access to real-time web information and conversational reasoning capabilities.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <p>
             The practical impact for users is significant. A Galaxy owner can now ask Bixby questions like &quot;Where should I go for a spring outing this weekend?&quot; or &quot;Find me a good Thai restaurant that is open late near downtown&quot; and receive a curated, conversational response with specific business recommendations. No browser required. No Google search. No scrolling through ten blue links. Bixby pulls the information from the web, synthesizes it, and delivers a direct answer.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* ── TIMELINE ── */}
           <div className="ae-timeline not-prose">
@@ -358,11 +358,11 @@ export default function Page() {
 
           <p>
             This timeline matters because it shows a clear strategic pivot. Samsung is no longer treating Bixby as a novelty. They are positioning it as a primary discovery interface, one that sits between Galaxy users and the businesses they find. As we discussed in our breakdown of <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>, the assistant layer is rapidly becoming the first point of contact for purchase decisions.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Galaxy AI is recommending businesses right now. Is yours one of them?</p>
+            <p>Galaxy AI is recommending businesses right now. Is yours one of them? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
           </div>
 
@@ -372,33 +372,33 @@ export default function Page() {
 
           <p>
             The most important thing to understand about the new Bixby is its relationship with Perplexity. Samsung did not build their own large language model for conversational search. Instead, they partnered with Perplexity, one of the fastest-growing AI search engines, to power Bixby&apos;s real-time web answer capabilities.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <p>
             This is a deliberate architectural choice with major implications for local businesses. When a Galaxy user asks Bixby for a local recommendation, the query flows through Perplexity&apos;s infrastructure. Perplexity crawls the live web, pulls data from multiple sources, synthesizes the information, and returns a conversational answer that Bixby then presents to the user.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <p>
             This means that the same factors that determine whether Perplexity recommends your business also determine whether Bixby recommends it to 300 million Galaxy users. The data pipeline is shared. The sources overlap. If Perplexity can find and trust your business information, Bixby can recommend it.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           {/* ── CALLOUT: INFO ── */}
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Why This Matters for Your Strategy</div>
-            <p>Optimizing for Perplexity visibility is now a two-for-one play. Every improvement you make to how Perplexity discovers and cites your business also improves how Bixby recommends you to Samsung Galaxy users. One optimization effort, two massive platforms.</p>
+            <p>Optimizing for Perplexity visibility is now a two-for-one play. Every improvement you make to how Perplexity discovers and cites your business also improves how Bixby recommends you to Samsung Galaxy users. One optimization effort, two massive platforms. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           <p>
             The Perplexity connection also means Bixby answers are grounded in real-time web data, not a static training dataset. Unlike ChatGPT, which relies on periodic knowledge cutoffs, Bixby through Perplexity accesses live information. A new restaurant that opened last week, updated business hours posted yesterday, a fresh batch of customer reviews: all of this can influence what Bixby recommends today.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>
             Samsung also layers on-device AI processing on top of the Perplexity results. Galaxy AI includes features that learn user preferences, frequently visited locations, and behavioral patterns. This on-device layer personalizes the Perplexity-sourced results, meaning two Galaxy users asking the same question in the same neighborhood might receive different recommendations based on their individual usage history.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Perplexity powers both its own platform and Samsung Bixby. See if either one knows about your business.</p>
+            <p>Perplexity powers both its own platform and Samsung Bixby. See if either one knows about your business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -408,11 +408,11 @@ export default function Page() {
 
           <p>
             Local business discovery on Samsung Galaxy AI works differently from traditional search. There is no search results page with ten blue links. There is no map pack with three pins. Instead, Bixby delivers a conversational response that names specific businesses, explains why they are relevant, and often includes details like hours, ratings, and distance.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <p>
             When a Galaxy user says &quot;Bixby, recommend a good brunch spot near me,&quot; the system processes this through several layers:
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <ul>
             <li><strong>Query understanding:</strong> Bixby parses the intent (local recommendation), category (brunch), and context (proximity to user&apos;s current location).</li>
@@ -424,7 +424,7 @@ export default function Page() {
 
           <p>
             The critical difference here is that Bixby does not show a list and let the user pick. It <em>recommends</em>. It makes a judgment call about which businesses deserve to be named. This is the fundamental shift that AI-powered discovery creates: visibility is no longer about ranking in a list, it is about being the answer the AI chooses to give.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* ── BAR CHART: DISCOVERY SURFACES ── */}
           <div className="not-prose my-10">
@@ -460,7 +460,7 @@ export default function Page() {
 
           {/* ── CTA 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Bixby recommends businesses, it does not list them. Make sure your business is the one it names.</p>
+            <p>Bixby recommends businesses, it does not list them. Make sure your business is the one it names. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <a href="tel:+12134442229" className="flex items-center gap-2">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               Call (213) 444-2229 to Talk Strategy
@@ -473,7 +473,7 @@ export default function Page() {
 
           <p>
             Because Bixby relies on Perplexity for its web intelligence, the data sources feeding Samsung Galaxy AI recommendations are broad. Unlike Apple Intelligence, which depends heavily on Apple Business Connect as a first-party data source, Bixby casts a wider net across the open web.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           {/* ── COMPARISON TABLE ── */}
           <div className="not-prose overflow-x-auto mb-8">
@@ -532,11 +532,11 @@ export default function Page() {
 
           <p>
             The key takeaway from this data source hierarchy: your website and Google Business Profile matter most. Because Perplexity (and therefore Bixby) pulls heavily from web crawls, the quality, completeness, and structure of your website directly influences whether Bixby can find and recommend your business. This is a significant departure from platforms like Apple Intelligence, where a specific first-party tool (Apple Business Connect) dominates.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* ── CTA 5 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Your website is the foundation of your Bixby visibility. We audit it across every AI platform.</p>
+            <p>Your website is the foundation of your Bixby visibility. We audit it across every AI platform. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -546,7 +546,7 @@ export default function Page() {
 
           <p>
             If you have read our deep dive on <Link href="/blog/how-apple-intelligence-finds-and-recommends-local-businesses">how Apple Intelligence finds and recommends local businesses</Link>, you know that Apple takes a walled-garden approach with Apple Business Connect at the center. Samsung takes the opposite approach. Understanding the differences helps you build a strategy that covers both platforms.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           {/* ── DECISION MATRIX ── */}
           <div className="not-prose overflow-x-auto mb-8">
@@ -605,11 +605,11 @@ export default function Page() {
 
           <p>
             The strategic implication is clear: you cannot optimize for just one of these platforms. Apple and Samsung together account for nearly every smartphone user in the United States. A business that is visible on Apple Intelligence but invisible on Samsung Galaxy AI is leaving roughly one in four potential customers on the table. Our guide on <Link href="/blog/how-siri-decides-which-businesses-to-suggest">how Siri decides which businesses to suggest</Link> covers the Apple side in detail.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* ── CTA 6 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Apple and Samsung together cover nearly 90% of the U.S. smartphone market. Are you visible on both?</p>
+            <p>Apple and Samsung together cover nearly 90% of the U.S. smartphone market. Are you visible on both? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
               Email support@theanswerengine.ai
@@ -622,11 +622,11 @@ export default function Page() {
 
           <p>
             One of the most underreported aspects of Samsung&apos;s AI strategy is the expansion of Bixby to non-phone devices. Samsung is the world&apos;s largest manufacturer of home appliances, and they are embedding the same AI assistant into smart refrigerators, smart TVs, and SmartThings home hubs.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <p>
             Why does this matter for local businesses? Consider the scenarios:
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           <ul>
             <li>A family is standing in front of their Samsung smart fridge and asks Bixby to order groceries from a nearby store.</li>
@@ -636,7 +636,7 @@ export default function Page() {
 
           <p>
             Each of these interactions is a local business recommendation event. And because all of these devices share the same Bixby AI backend (powered by Perplexity), the same optimization principles apply across all of them. A business that is visible to Bixby on a Galaxy phone is also visible to Bixby on a Samsung refrigerator.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           {/* ── CALLOUT: SUCCESS ── */}
           <div className="ae-callout ae-callout-success not-prose">

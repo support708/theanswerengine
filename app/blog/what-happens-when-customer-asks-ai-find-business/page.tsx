@@ -229,18 +229,18 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
             </div>
           </div>
 
-          <p>Picture this. A potential customer picks up their phone and types into ChatGPT: &quot;Who is the best plumber near me?&quot; or &quot;Find me a reliable accountant in Denver.&quot; What happens next will determine whether your business gets recommended or gets skipped entirely. And most business owners have no idea how this process actually works.</p>
+          <p>Picture this. A potential customer picks up their phone and types into ChatGPT: &quot;Who is the best plumber near me?&quot; or &quot;Find me a reliable accountant in Denver.&quot; What happens next will determine whether your business gets recommended or gets skipped entirely. And most business owners have no idea how this process actually works. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>This is not a hypothetical scenario. According to a 2025 survey by Eight Oh Two Marketing, 37% of consumers now start new information searches with AI tools rather than traditional search engines like Google. Around 43% of consumers use AI search tools daily, and three-quarters say they use them more often than they did a year ago. The shift is happening right now, and it is accelerating fast.</p>
+          <p>This is not a hypothetical scenario. According to a 2025 survey by Eight Oh Two Marketing, 37% of consumers now start new information searches with AI tools rather than traditional search engines like Google. Around 43% of consumers use AI search tools daily, and three-quarters say they use them more often than they did a year ago. The shift is happening right now, and it is accelerating fast. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Shift Is Already Here</div>
-            <p>If your entire marketing strategy is built around Google rankings, you are invisible to the fastest-growing search channel in history. Billions of queries per day are now flowing through AI platforms, and your business either appears in the answer or does not exist.</p>
+            <p>If your entire marketing strategy is built around Google rankings, you are invisible to the fastest-growing search channel in history. Billions of queries per day are now flowing through AI platforms, and your business either appears in the answer or does not exist. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* CTA INLINE 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Find out if AI can actually find your business right now.</p>
+            <p>Find out if AI can actually find your business right now. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -248,14 +248,14 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <span className="ae-section-label">Step 1 of 6</span>
           <h2>The Customer Asks a Question</h2>
 
-          <p>It starts with a simple, conversational question. Not the robotic keywords we have been trained to think about for years. Nobody types &quot;plumber Denver CO emergency&quot; into ChatGPT. Instead, they write something like: &quot;I have a leaking pipe under my kitchen sink and I need someone who can come out today. Who is good in the Denver area?&quot;</p>
+          <p>It starts with a simple, conversational question. Not the robotic keywords we have been trained to think about for years. Nobody types &quot;plumber Denver CO emergency&quot; into ChatGPT. Instead, they write something like: &quot;I have a leaking pipe under my kitchen sink and I need someone who can come out today. Who is good in the Denver area?&quot; Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-          <p>This is fundamentally different from how traditional search works. The customer is having a conversation. They are providing context: the problem, the urgency, the location. And the AI platform processes all of that context to shape its response. It is not just matching keywords. It is understanding intent, specificity, and urgency.</p>
+          <p>This is fundamentally different from how traditional search works. The customer is having a conversation. They are providing context: the problem, the urgency, the location. And the AI platform processes all of that context to shape its response. It is not just matching keywords. It is understanding intent, specificity, and urgency. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-          <p>Research from Birdeye confirms that prompts with local intent trigger a web search in 59% of all ChatGPT instances. This means the AI recognizes the local nature of the request and actively goes looking for current, relevant information to answer it.</p>
+          <p>Research from Birdeye confirms that prompts with local intent trigger a web search in 59% of all ChatGPT instances. This means the AI recognizes the local nature of the request and actively goes looking for current, relevant information to answer it. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-quote not-prose">
-            <p>&quot;I need a plumber who can come today. Who is good in the Denver area?&quot;</p>
+            <p>&quot;I need a plumber who can come today. Who is good in the Denver area?&quot; Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <cite>How real customers talk to AI. Not keywords. Full context.</cite>
           </div>
 
@@ -263,9 +263,9 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <span className="ae-section-label">Step 2 of 6</span>
           <h2>The AI Decides Where to Look</h2>
 
-          <p>Here is where things get interesting, and where most business owners are caught off guard. When ChatGPT receives a local business query, it does not open Google Maps. It does not check your Google Business Profile directly. Instead, it uses a process called Retrieval Augmented Generation (RAG) to search the open web for relevant information.</p>
+          <p>Here is where things get interesting, and where most business owners are caught off guard. When ChatGPT receives a local business query, it does not open Google Maps. It does not check your Google Business Profile directly. Instead, it uses a process called Retrieval Augmented Generation (RAG) to search the open web for relevant information. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>The AI converts your customer&apos;s question into what is called a vector, which is essentially a mathematical representation of the meaning behind the words. It then compares that vector against a massive index of web content, looking for the most semantically relevant matches. This is not keyword matching. It is meaning matching.</p>
+          <p>The AI converts your customer&apos;s question into what is called a vector, which is essentially a mathematical representation of the meaning behind the words. It then compares that vector against a massive index of web content, looking for the most semantically relevant matches. This is not keyword matching. It is meaning matching. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* COMPARISON TABLE */}
           <div className="not-prose">
@@ -312,16 +312,16 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
             </table>
           </div>
 
-          <p>Notice what is not on that list for ChatGPT specifically: Google Business Profile. That detail alone explains why so many businesses that rank well on Google are completely invisible to ChatGPT. We have written about this in depth in our guide on <Link href="/blog/chatgpt-cant-see-google-business-profile">why ChatGPT cannot see your Google Business Profile</Link>.</p>
+          <p>Notice what is not on that list for ChatGPT specifically: Google Business Profile. That detail alone explains why so many businesses that rank well on Google are completely invisible to ChatGPT. We have written about this in depth in our guide on <Link href="/blog/chatgpt-cant-see-google-business-profile">why ChatGPT cannot see your Google Business Profile</Link>. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">Critical Blind Spot</div>
-            <p>ChatGPT does not read your Google Business Profile directly. If GBP is your primary online presence, you are invisible to the platform processing billions of queries per day. You need presence across the sources AI actually checks.</p>
+            <p>ChatGPT does not read your Google Business Profile directly. If GBP is your primary online presence, you are invisible to the platform processing billions of queries per day. You need presence across the sources AI actually checks. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           {/* CTA INLINE 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Is your Google Business Profile your only online presence? That is a problem.</p>
+            <p>Is your Google Business Profile your only online presence? That is a problem. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot">Check What AI Actually Sees</Link>
           </div>
 
@@ -329,9 +329,9 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <span className="ae-section-label">Step 3 of 6</span>
           <h2>The AI Gathers Evidence</h2>
 
-          <p>Once the AI identifies potentially relevant sources, it pulls in chunks of text from those pages. Think of it like a researcher scanning through dozens of articles, pulling out the most relevant paragraphs from each one. The AI is building a file on each potential business it might recommend.</p>
+          <p>Once the AI identifies potentially relevant sources, it pulls in chunks of text from those pages. Think of it like a researcher scanning through dozens of articles, pulling out the most relevant paragraphs from each one. The AI is building a file on each potential business it might recommend. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-          <p>What does it look for in those sources? Consistent business information across multiple sites, including name, address, phone number, and services. Customer reviews and sentiment patterns. Specific content that answers the customer&apos;s exact question. Evidence of expertise, such as detailed service pages, case studies, or educational content. Third-party mentions and endorsements from trusted publications.</p>
+          <p>What does it look for in those sources? Consistent business information across multiple sites, including name, address, phone number, and services. Customer reviews and sentiment patterns. Specific content that answers the customer&apos;s exact question. Evidence of expertise, such as detailed service pages, case studies, or educational content. Third-party mentions and endorsements from trusted publications. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* DECISION MATRIX */}
           <div className="ae-decision-matrix not-prose">
@@ -363,16 +363,16 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
             </div>
           </div>
 
-          <p>This is where the concept of &quot;digital authority&quot; becomes critical. The AI is not just finding businesses. It is evaluating whether there is enough trustworthy evidence to confidently recommend them. For a deeper look at this evaluation process, see our article on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link>.</p>
+          <p>This is where the concept of &quot;digital authority&quot; becomes critical. The AI is not just finding businesses. It is evaluating whether there is enough trustworthy evidence to confidently recommend them. For a deeper look at this evaluation process, see our article on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>AI is not just searching for your business. It is building a case for or against recommending you. The more consistent, detailed, and widespread your digital presence, the stronger the case in your favor.</p>
+            <p>AI is not just searching for your business. It is building a case for or against recommending you. The more consistent, detailed, and widespread your digital presence, the stronger the case in your favor. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           {/* CTA INLINE 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>What evidence does AI find when it researches your business?</p>
+            <p>What evidence does AI find when it researches your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <Link href="/blindspot">See Your Digital Authority Score</Link>
           </div>
 
@@ -380,9 +380,9 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <span className="ae-section-label">Step 4 of 6</span>
           <h2>The AI Cross-References and Validates</h2>
 
-          <p>This step is what separates AI recommendations from a simple web search. After gathering evidence, the AI cross-references everything it found. It looks for consistency. Does the business name match across different directories? Are the services described the same way on Yelp as they are on the business website? Do the reviews tell a consistent story?</p>
+          <p>This step is what separates AI recommendations from a simple web search. After gathering evidence, the AI cross-references everything it found. It looks for consistency. Does the business name match across different directories? Are the services described the same way on Yelp as they are on the business website? Do the reviews tell a consistent story? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>The different AI platforms handle this validation differently, and the numbers tell an important story. According to research from Superlines and Averi AI, Perplexity cites businesses that appear in Google&apos;s top-10 search results about 91% of the time. ChatGPT, however, only overlaps with traditional top-10 Google results about 14% of the time. This means ChatGPT often discovers and recommends businesses that would not appear at the top of a traditional Google search.</p>
+          <p>The different AI platforms handle this validation differently, and the numbers tell an important story. According to research from Superlines and Averi AI, Perplexity cites businesses that appear in Google&apos;s top-10 search results about 91% of the time. ChatGPT, however, only overlaps with traditional top-10 Google results about 14% of the time. This means ChatGPT often discovers and recommends businesses that would not appear at the top of a traditional Google search. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* BAR GROUP */}
           <div className="ae-bar-group not-prose">
@@ -410,12 +410,12 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Why Google Rankings Alone Fail</div>
-            <p>ChatGPT only overlaps with Google&apos;s top-10 results 14% of the time. This means 86% of what ChatGPT recommends comes from its own evaluation criteria, not Google rankings. Ranking first on Google does not guarantee AI recommends you.</p>
+            <p>ChatGPT only overlaps with Google&apos;s top-10 results 14% of the time. This means 86% of what ChatGPT recommends comes from its own evaluation criteria, not Google rankings. Ranking first on Google does not guarantee AI recommends you. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           </div>
 
           {/* CTA INLINE 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Google ranking alone will not save you. See where AI actually ranks your business.</p>
+            <p>Google ranking alone will not save you. See where AI actually ranks your business. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot">Get Your AI Ranking Report</Link>
           </div>
 
@@ -423,11 +423,11 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <span className="ae-section-label">Step 5 of 6</span>
           <h2>The AI Generates Its Recommendation</h2>
 
-          <p>Now comes the moment of truth. The AI takes everything it has gathered, validated, and cross-referenced, and writes a response. This is not a list of ten blue links. It is a curated, conversational recommendation. The AI might name two or three businesses, explain why each one could be a good fit, mention relevant details like specializations or customer sentiment, and give the customer enough information to make a decision.</p>
+          <p>Now comes the moment of truth. The AI takes everything it has gathered, validated, and cross-referenced, and writes a response. This is not a list of ten blue links. It is a curated, conversational recommendation. The AI might name two or three businesses, explain why each one could be a good fit, mention relevant details like specializations or customer sentiment, and give the customer enough information to make a decision. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-          <p>The businesses that get named in this response are the ones that passed every filter along the way. They had a strong presence across the sources the AI checked. They had consistent information. Their content directly addressed the type of question being asked. And they had enough third-party validation through reviews and mentions to give the AI confidence in recommending them.</p>
+          <p>The businesses that get named in this response are the ones that passed every filter along the way. They had a strong presence across the sources the AI checked. They had consistent information. Their content directly addressed the type of question being asked. And they had enough third-party validation through reviews and mentions to give the AI confidence in recommending them. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>Businesses that fail at any point in this chain simply do not appear. There is no &quot;page two&quot; of AI results. You are either in the answer or you are not.</p>
+          <p>Businesses that fail at any point in this chain simply do not appear. There is no &quot;page two&quot; of AI results. You are either in the answer or you are not. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           {/* PROS/CONS */}
           <div className="ae-pros-cons not-prose">
@@ -457,12 +457,12 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>There is no page two in AI search. You are either the answer or you do not exist. Businesses that invest in broad digital presence are the ones AI has enough confidence to recommend.</p>
+            <p>There is no page two in AI search. You are either the answer or you do not exist. Businesses that invest in broad digital presence are the ones AI has enough confidence to recommend. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
 
           {/* CTA INLINE 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>Are you in the answer or invisible? There is no middle ground.</p>
+            <p>Are you in the answer or invisible? There is no middle ground. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <Link href="/blindspot">Check Your AI Visibility Now</Link>
           </div>
 
@@ -470,12 +470,12 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <span className="ae-section-label">Step 6 of 6</span>
           <h2>The Customer Acts (and They Act Fast)</h2>
 
-          <p>Here is why this matters even more than you might think. When a customer receives a recommendation from AI, they are far more likely to act on it than they would on a traditional search result. Data from Superlines shows that AI search traffic converts at 14.2%, compared to Google&apos;s 2.8%. That is a 5x higher conversion rate.</p>
+          <p>Here is why this matters even more than you might think. When a customer receives a recommendation from AI, they are far more likely to act on it than they would on a traditional search result. Data from Superlines shows that AI search traffic converts at 14.2%, compared to Google&apos;s 2.8%. That is a 5x higher conversion rate. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-          <p>Why? Because the customer asked a specific question and received a specific, trusted answer. They did not have to scroll through ads, compare ten different options, or read through marketing copy. The AI did the filtering for them. By the time they reach your business, they are already primed to buy.</p>
+          <p>Why? Because the customer asked a specific question and received a specific, trusted answer. They did not have to scroll through ads, compare ten different options, or read through marketing copy. The AI did the filtering for them. By the time they reach your business, they are already primed to buy. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           <div className="ae-quote not-prose">
-            <p>&quot;AI-referred traffic converts at 5x the rate of traditional search because the customer has already made their decision before they reach your website.&quot;</p>
+            <p>&quot;AI-referred traffic converts at 5x the rate of traditional search because the customer has already made their decision before they reach your website.&quot; <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <cite>Based on Superlines conversion data, 2026</cite>
           </div>
 

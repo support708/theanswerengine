@@ -331,13 +331,13 @@ export default function Page() {
 
             <p>You asked ChatGPT for a recommendation in your industry. It listed three businesses. None of them were yours. You tried Perplexity. Same thing. Google AI Overviews? A different set of names, but still not yours.</p>
 
-            <p>This is not a glitch. It is the new default. According to the 2026 Fuel AI Index, <strong>92% of brands are invisible to ChatGPT</strong>. That means for every business AI platforms cite by name, there are roughly eleven others that exist, serve customers, and have websites, but that AI has never heard of, cannot verify, or simply does not trust enough to mention.</p>
+            <p>This is not a glitch. It is the new default. According to the 2026 Fuel AI Index, <strong>92% of brands are invisible to ChatGPT</strong>. That means for every business AI platforms cite by name, there are roughly eleven others that exist, serve customers, and have websites, but that AI has never heard of, cannot verify, or simply does not trust enough to mention. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>AI does not ignore your business out of malice. It ignores your business because it does not have enough structured confidence to say your name out loud.</p>
             </div>
 
-            <p>The question is not whether AI search matters. Over 800 million people use ChatGPT weekly, and AI search traffic converts at 14.2% compared to Google&apos;s 2.8%. The question is why the most valuable discovery channel in a generation does not know your business exists.</p>
+            <p>The question is not whether AI search matters. Over 800 million people use ChatGPT weekly, and AI search traffic converts at 14.2% compared to Google&apos;s 2.8%. The question is why the most valuable discovery channel in a generation does not know your business exists. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -349,18 +349,18 @@ export default function Page() {
             <span className="ae-section-label">How AI Decides</span>
             <h2 id="confidence-threshold">The Confidence Threshold: Why AI Stays Silent About You</h2>
 
-            <p>AI platforms do not work like Google. Google ranks pages. AI platforms make recommendations. That difference changes everything about what it takes to appear.</p>
+            <p>AI platforms do not work like Google. Google ranks pages. AI platforms make recommendations. That difference changes everything about what it takes to appear. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>When someone asks ChatGPT &quot;who is the best plumber near me&quot; or &quot;which law firm handles estate planning in Dallas,&quot; the AI does not scroll through a ranked list and pick the top result. It asks itself a fundamentally different question: <strong>which business can I name with enough confidence that my answer will be accurate?</strong></p>
 
-            <p>This is what we call the confidence threshold. If AI cannot build a clear, consistent picture of your business from the data available to it, it will not risk naming you. Instead, it will give a generic answer, list general tips, or recommend a competitor whose signals are clearer.</p>
+            <p>This is what we call the confidence threshold. If AI cannot build a clear, consistent picture of your business from the data available to it, it will not risk naming you. Instead, it will give a generic answer, list general tips, or recommend a competitor whose signals are clearer. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Confidence Problem</div>
               <p>AI would rather give a vague answer than a wrong answer. If your business has inconsistent information across the web, missing structured data, or no clear topical authority, AI treats you as a liability, not a recommendation. Silence is its default safety mechanism.</p>
             </div>
 
-            <p>This is not about being a big company or a small one. It is not about how long you have been in business. It is about whether the signals you send across the internet are clear enough for a machine to bet its reputation on naming you.</p>
+            <p>This is not about being a big company or a small one. It is not about how long you have been in business. It is about whether the signals you send across the internet are clear enough for a machine to bet its reputation on naming you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
@@ -372,7 +372,7 @@ export default function Page() {
             <span className="ae-section-label">The Root Causes</span>
             <h2 id="five-reasons">Five Reasons AI Cannot Name Your Business</h2>
 
-            <p>When we audit businesses that are invisible to AI platforms, the same five problems appear over and over. Each one, on its own, can be enough to keep you out of AI recommendations entirely.</p>
+            <p>When we audit businesses that are invisible to AI platforms, the same five problems appear over and over. Each one, on its own, can be enough to keep you out of AI recommendations entirely. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Comparison Table */}
             <table className="ae-comparison-table not-prose">
@@ -415,28 +415,28 @@ export default function Page() {
             <h3>1. Your Entity Identity Is Fragmented</h3>
             <p>AI platforms cross-reference your business information across the entire web. Your website, Google Business Profile, Yelp, industry directories, social profiles, review sites. If your business name is slightly different on three of those platforms, or your phone number is outdated on two of them, AI sees conflicting signals. Conflicting signals mean uncertainty. Uncertainty means silence.</p>
 
-            <p>The businesses that get cited have what we call entity consistency: the same name, same address, same phone number, same description of what they do, appearing identically across dozens of sources. AI can verify them. It cannot verify you.</p>
+            <p>The businesses that get cited have what we call entity consistency: the same name, same address, same phone number, same description of what they do, appearing identically across dozens of sources. AI can verify them. It cannot verify you. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>2. You Have No Structured Data</h3>
             <p>Schema markup is the language machines use to understand your website. Without it, AI has to guess what your business does, where you are located, and what services you offer. With it, AI can parse your information instantly and with confidence.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Think of It This Way</div>
-              <p>Your competitor&apos;s website speaks machine language. Yours speaks only human language. AI processes both, but it trusts the one it can parse without guessing.</p>
+              <p>Your competitor&apos;s website speaks machine language. Yours speaks only human language. AI processes both, but it trusts the one it can parse without guessing. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             <h3>3. You Lack Topical Depth</h3>
             <p>A single page that lists your services tells AI almost nothing about your expertise. AI platforms interpret depth as authority. The business with twenty interconnected pages about their specialty, covering edge cases, explaining processes, and addressing customer concerns, signals deep knowledge. The business with a single page signals shallow presence.</p>
 
             <h3>4. Your Content Is Not Formatted as Answers</h3>
-            <p>AI exists to answer questions. When someone asks &quot;who is the best estate planning attorney in Phoenix,&quot; AI looks for content that addresses that type of query directly. If your website only talks about your awards and team bios, AI has nothing to extract as an answer. The businesses that get cited structure their content around the questions customers actually ask.</p>
+            <p>AI exists to answer questions. When someone asks &quot;who is the best estate planning attorney in Phoenix,&quot; AI looks for content that addresses that type of query directly. If your website only talks about your awards and team bios, AI has nothing to extract as an answer. The businesses that get cited structure their content around the questions customers actually ask. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>5. You Only Exist on Your Own Website</h3>
             <p>If the only place AI can find information about your business is your own website, that is a single source. AI platforms weight third-party validation heavily. Reviews on Google, Yelp, and industry-specific platforms. Mentions in local publications. Listings in authoritative directories. Each one is another data point that confirms your business is real, active, and relevant. Without them, AI has no external confirmation that you are who you say you are.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Which of these five gaps is keeping your business invisible? Our audit identifies all of them.</p>
+              <p>Which of these five gaps is keeping your business invisible? Our audit identifies all of them. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
             </div>
 
@@ -446,7 +446,7 @@ export default function Page() {
 
             <p>This is the assumption that costs businesses the most time. &quot;I rank on the first page of Google, so AI must know about me.&quot; The data says otherwise.</p>
 
-            <p>Research shows only <strong>25 to 39 percent overlap</strong> between Google&apos;s top-ranked pages and AI platform recommendations. That means the majority of businesses that AI cites are not the ones dominating Google, and the majority of businesses dominating Google are invisible to AI.</p>
+            <p>Research shows only <strong>25 to 39 percent overlap</strong> between Google&apos;s top-ranked pages and AI platform recommendations. That means the majority of businesses that AI cites are not the ones dominating Google, and the majority of businesses dominating Google are invisible to AI. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item">
@@ -512,7 +512,7 @@ export default function Page() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Google ranking and AI visibility are separate games played on separate fields with separate rules. Winning one does not guarantee winning the other. The businesses that thrive in 2026 are the ones that play both.</p>
+              <p>Google ranking and AI visibility are separate games played on separate fields with separate rules. Winning one does not guarantee winning the other. The businesses that thrive in 2026 are the ones that play both. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             {/* CTA 4 */}
@@ -525,7 +525,7 @@ export default function Page() {
             <span className="ae-section-label">The Pattern</span>
             <h2 id="what-cited-businesses-share">What Businesses That Get Cited All Have in Common</h2>
 
-            <p>When we analyze the businesses that AI platforms consistently name, clear patterns emerge. These are not random selections. They are the result of specific, measurable signals that AI interprets as authority.</p>
+            <p>When we analyze the businesses that AI platforms consistently name, clear patterns emerge. These are not random selections. They are the result of specific, measurable signals that AI interprets as authority. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-decision-matrix not-prose">
               <div className="ae-decision-matrix-title">The AI Citation Blueprint</div>
@@ -558,7 +558,7 @@ export default function Page() {
 
             <p>Notice what is not on this list. Ad spend. Social media followers. Years in business. Logo quality. None of those factors determine whether AI will name you. What matters is whether your business has made itself <strong>machine-readable, verifiable, and authoritative</strong> across the signals AI platforms evaluate.</p>
 
-            <p>Our research into <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link> breaks down the full evaluation framework. The short version: AI platforms are looking for the business they can most safely bet on. If you have not made that bet easy, they will pick someone who has.</p>
+            <p>Our research into <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link> breaks down the full evaluation framework. The short version: AI platforms are looking for the business they can most safely bet on. If you have not made that bet easy, they will pick someone who has. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
@@ -570,7 +570,7 @@ export default function Page() {
             <span className="ae-section-label">The Cost</span>
             <h2 id="compounding-cost">The Compounding Cost of Staying Invisible</h2>
 
-            <p>Every day your business is not mentioned by AI, two things happen. First, the customers who would have found you through AI recommendations go to a competitor instead. Second, that competitor&apos;s authority signals get stronger, making them harder to displace tomorrow.</p>
+            <p>Every day your business is not mentioned by AI, two things happen. First, the customers who would have found you through AI recommendations go to a competitor instead. Second, that competitor&apos;s authority signals get stronger, making them harder to displace tomorrow. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>This is not a static problem. It is a compounding one.</p>
 
@@ -578,7 +578,7 @@ export default function Page() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Today: You are invisible to AI</strong>
-                <p>Customers ask AI for recommendations. Your business does not appear. Those leads go to competitors whose signals are stronger.</p>
+                <p>Customers ask AI for recommendations. Your business does not appear. Those leads go to competitors whose signals are stronger. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 3: The gap widens</strong>
@@ -586,7 +586,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 6: Catching up gets harder</strong>
-                <p>The cited businesses have a six-month head start on authority building. Displacing them now requires significantly more effort.</p>
+                <p>The cited businesses have a six-month head start on authority building. Displacing them now requires significantly more effort. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 12: The moat deepens</strong>
@@ -594,13 +594,13 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 18+: Market saturation begins</strong>
-                <p>More competitors discover AI visibility. The window for early-mover advantage closes. Cost of entry multiplies.</p>
+                <p>More competitors discover AI visibility. The window for early-mover advantage closes. Cost of entry multiplies. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
             </div>
 
             <p>The numbers make this concrete. AI search traffic converts at 14.2%, roughly 5x the rate of traditional Google traffic. Every customer-intent query where your competitor is named and you are not is a high-converting lead that went somewhere else. Multiply that across hundreds of queries per month, and the revenue impact is substantial.</p>
 
-            <p>For context on what disappearing from AI search actually costs a business, our piece on <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight">businesses that disappeared from AI search overnight</Link> documents real scenarios and their impact.</p>
+            <p>For context on what disappearing from AI search actually costs a business, our piece on <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight">businesses that disappeared from AI search overnight</Link> documents real scenarios and their impact. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Revenue You Cannot See</div>
@@ -609,7 +609,7 @@ export default function Page() {
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Every month you wait, the gap widens. See where you stand today.</p>
+              <p>Every month you wait, the gap widens. See where you stand today. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -646,7 +646,7 @@ export default function Page() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>The math favors action. Start with a free assessment to understand your current position.</p>
+              <p>The math favors action. Start with a free assessment to understand your current position. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -656,14 +656,14 @@ export default function Page() {
 
             <p>We are not going to hand you a step-by-step checklist. AI visibility strategy is not a weekend DIY project. The businesses that try to implement it themselves typically make one of three mistakes: they optimize for the wrong signals, they structure their content in ways AI cannot parse, or they build authority in areas that do not match what AI platforms actually evaluate.</p>
 
-            <p>What we can tell you is this: the problem is solvable. The signals are measurable. The gaps between your current state and what AI platforms need to confidently name you are specific and identifiable. Every business we audit has a unique combination of gaps, but the framework for diagnosing and closing them is consistent.</p>
+            <p>What we can tell you is this: the problem is solvable. The signals are measurable. The gaps between your current state and what AI platforms need to confidently name you are specific and identifiable. Every business we audit has a unique combination of gaps, but the framework for diagnosing and closing them is consistent. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Good News</div>
               <p>AI platforms are not biased toward big brands or big budgets. They are biased toward clarity. If you can become the clearest, most verifiable answer to the questions your customers ask, AI will name you. The path to that clarity exists. It just requires the right strategy.</p>
             </div>
 
-            <p>You can start by understanding where you currently stand. Our guide on <Link href="/blog/check-if-ai-recommends-your-business">checking if AI recommends your business</Link> walks through the basics of testing your own visibility.</p>
+            <p>You can start by understanding where you currently stand. Our guide on <Link href="/blog/check-if-ai-recommends-your-business">checking if AI recommends your business</Link> walks through the basics of testing your own visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
@@ -719,7 +719,7 @@ export default function Page() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how many of these apply to your business. Our audit checks all of them.</p>
+              <p>See how many of these apply to your business. Our audit checks all of them. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -746,7 +746,7 @@ export default function Page() {
             <h2 id="faq">Frequently Asked Questions</h2>
 
             <h3>Why does ChatGPT never mention my business when people ask for recommendations?</h3>
-            <p>ChatGPT does not browse the internet in real time when generating recommendations. It relies on patterns from its training data, structured entity signals, and cross-platform consistency to determine which businesses it can confidently name. If your business lacks these signals, AI has no basis to include you.</p>
+            <p>ChatGPT does not browse the internet in real time when generating recommendations. It relies on patterns from its training data, structured entity signals, and cross-platform consistency to determine which businesses it can confidently name. If your business lacks these signals, AI has no basis to include you. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* CTA 11 */}
             <div className="ae-cta-inline not-prose">
@@ -755,13 +755,13 @@ export default function Page() {
             </div>
 
             <h3>Is it possible for a small business to get mentioned by AI platforms?</h3>
-            <p>Yes. AI platforms do not filter by company size or ad budget. They cite businesses that present the clearest, most structured authority signals for a given query. A small business with strong entity consistency and deep topical content can be cited ahead of larger competitors.</p>
+            <p>Yes. AI platforms do not filter by company size or ad budget. They cite businesses that present the clearest, most structured authority signals for a given query. A small business with strong entity consistency and deep topical content can be cited ahead of larger competitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>Does ranking on Google mean AI will also recommend my business?</h3>
             <p>No. Research shows only <strong>25 to 39 percent overlap</strong> between Google top rankings and AI recommendations. AI platforms evaluate different signals including entity consistency, structured data, and topical depth. You can rank on page one of Google and still be completely invisible to ChatGPT.</p>
 
             <h3>How long does it take to start appearing in AI search results?</h3>
-            <p>Most businesses that implement a targeted AI visibility strategy begin seeing citations within <strong>60 to 90 days</strong>. The timeline depends on your current digital footprint, how much structured content already exists, and the competitiveness of your market.</p>
+            <p>Most businesses that implement a targeted AI visibility strategy begin seeing citations within <strong>60 to 90 days</strong>. The timeline depends on your current digital footprint, how much structured content already exists, and the competitiveness of your market. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* CTA 12 */}
             <div className="ae-cta-inline not-prose">
@@ -770,14 +770,14 @@ export default function Page() {
             </div>
 
             <h3>Can I pay to get my business recommended by ChatGPT or Perplexity?</h3>
-            <p>No. There is currently no paid placement program for ChatGPT or Perplexity recommendations. AI citations are earned through authority signals, not purchased. This actually levels the playing field for businesses willing to invest in the right strategy.</p>
+            <p>No. There is currently no paid placement program for ChatGPT or Perplexity recommendations. AI citations are earned through authority signals, not purchased. This actually levels the playing field for businesses willing to invest in the right strategy. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Why does AI recommend my competitor but not me?</h3>
             <p>Your competitor has likely built clearer entity signals across the web: consistent business information on directories, structured data on their website, and content that directly answers the questions AI users ask. AI platforms choose the business they can most confidently match to a query.</p>
 
             {/* CTA 13 */}
             <div className="ae-cta-inline not-prose">
-              <p>We can show you exactly why your competitor is being cited and you are not.</p>
+              <p>We can show you exactly why your competitor is being cited and you are not. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot">Get Your Competitive AI Analysis &rarr;</Link>
             </div>
 
@@ -785,7 +785,7 @@ export default function Page() {
             <p>SEO focuses on keyword rankings and click-through rates on search engine results pages. AI visibility focuses on being cited as a direct recommendation. The signals overlap but are distinct. Structured data, entity consistency, and answer-format content matter more for AI visibility than traditional backlink profiles.</p>
 
             <h3>How do I check if AI is recommending my business right now?</h3>
-            <p>Ask ChatGPT, Perplexity, and Google Gemini the questions your customers would ask. Try prompts like &quot;best [your service] in [your city]&quot; or &quot;who should I hire for [your specialty].&quot; Run these tests across multiple sessions. If you never appear, you have an AI visibility gap that needs to be addressed.</p>
+            <p>Ask ChatGPT, Perplexity, and Google Gemini the questions your customers would ask. Try prompts like &quot;best [your service] in [your city]&quot; or &quot;who should I hire for [your specialty].&quot; Run these tests across multiple sessions. If you never appear, you have an AI visibility gap that needs to be addressed. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* CTA 14 */}
             <div className="ae-cta-inline not-prose">

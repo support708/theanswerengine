@@ -312,7 +312,7 @@ export default function Page() {
               It is whether SEO alone is enough.</strong>{' '}
               The answer, backed by data, is that it depends on what you are optimizing for
               and who you are trying to reach.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* Callout: The Shift */}
             <div className="not-prose">
@@ -324,14 +324,14 @@ export default function Page() {
                   different systems with different rules, different ranking factors, and
                   different conversion patterns. Optimizing for one does not automatically
                   cover the other.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure if AI platforms are recommending your business or your competitors?</p>
+                <p>Not sure if AI platforms are recommending your business or your competitors? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
               </div>
             </div>
@@ -346,7 +346,7 @@ export default function Page() {
               get more clicks, convert those clicks into customers. SEO agencies built entire
               businesses around this model. They optimized title tags, built backlinks, improved
               page speed, and tracked keyword positions.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               That model still works for transactional queries. When someone searches
               &quot;buy running shoes size 10,&quot; they want a list of options. But when
@@ -358,7 +358,7 @@ export default function Page() {
                 choose which businesses to cite
               </Link>{' '}
               based on criteria that traditional SEO barely touches.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Bar Chart: Zero-Click Growth */}
             <div className="not-prose">
@@ -398,12 +398,12 @@ export default function Page() {
               The split is real. Traditional search is not dying, but it is sharing the
               stage with a completely different system. Businesses that only optimize for
               one side are leaving the other side to competitors.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Curious how much traffic you are losing to zero-click results?</p>
+                <p>Curious how much traffic you are losing to zero-click results? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                 <Link href="/blindspot">Find Out Free &#8594;</Link>
               </div>
             </div>
@@ -419,7 +419,7 @@ export default function Page() {
               content creation around high-volume keywords, backlink acquisition, and
               local listing management. The measurement is straightforward: keyword
               positions, organic traffic, and (hopefully) leads from that traffic.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The approach works well for bottom-of-funnel queries where someone is ready
               to buy. If a user types &quot;emergency AC repair Dallas,&quot; ranking in
@@ -428,7 +428,7 @@ export default function Page() {
               means they chase the same high-volume keywords that every competitor also
               targets. The result is an expensive battle for marginal ranking improvements
               on the same crowded terms.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Quote */}
             <div className="not-prose">
@@ -437,7 +437,7 @@ export default function Page() {
                   &quot;Traditional SEO is about convincing search engines to rank your
                   links. AI optimization is about convincing language models to understand
                   your entity.&quot;
-                </p>
+                 Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
@@ -449,12 +449,12 @@ export default function Page() {
               </Link>{' '}
               despite steady rankings, it is often because the customers moved to a
               different channel entirely.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Is your SEO driving rankings but not revenue?</p>
+                <p>Is your SEO driving rankings but not revenue? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229 to talk strategy &#8594;</a>
               </div>
             </div>
@@ -469,7 +469,7 @@ export default function Page() {
               your business cited and recommended by AI platforms. When someone asks ChatGPT,
               Google AI Overviews, Perplexity, or Claude for a recommendation in your
               industry, the goal is for your business to be the one named.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This requires a different set of capabilities. Instead of chasing keyword
               rankings, AI optimization focuses on entity recognition, authority signal
@@ -477,7 +477,7 @@ export default function Page() {
               architecture that demonstrates genuine expertise across your entire service
               area. Where SEO targets search volume, AI optimization targets comprehension
               and trust.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Callout: The Difference */}
             <div className="not-prose">
@@ -489,7 +489,7 @@ export default function Page() {
                   the authority on this topic?&quot; One is about position. The other is
                   about recognition. Both drive revenue, but through fundamentally different
                   mechanisms.
-                </p>
+                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
@@ -499,12 +499,12 @@ export default function Page() {
               responses, tracking citation changes, analyzing competitor visibility shifts,
               and systematically building the authority signals that AI platforms weight
               when choosing which business to recommend.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA Inline 4 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to see how AI platforms currently view your business?</p>
+                <p>Want to see how AI platforms currently view your business? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                 <Link href="/blindspot">Run Your Free AI Visibility Check &#8594;</Link>
               </div>
             </div>
@@ -518,7 +518,7 @@ export default function Page() {
               The most useful way to evaluate these two approaches is side by side. Not
               every factor favors one over the other. The right choice depends on your
               business stage, your market, and where your customers are actually looking.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Comparison Table */}
             <div className="not-prose">
@@ -590,7 +590,7 @@ export default function Page() {
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure where your business falls on this spectrum?</p>
+                <p>Not sure where your business falls on this spectrum? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a free assessment &#8594;</a>
               </div>
             </div>
@@ -604,7 +604,7 @@ export default function Page() {
               Neither approach is universally better. Each has distinct advantages that
               matter more or less depending on your business model, your industry, and
               where your customers currently search for solutions.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Pros/Cons */}
             <div className="not-prose">
@@ -643,14 +643,14 @@ export default function Page() {
                   channels that serve different parts of the customer journey. The businesses
                   winning in 2026 are not choosing one or the other. They are covering both,
                   often with the same foundational content structured in different ways.
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Wondering which channel is driving (or missing) your leads?</p>
+                <p>Wondering which channel is driving (or missing) your leads? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
               </div>
             </div>
@@ -664,7 +664,7 @@ export default function Page() {
               The right answer depends on your specific situation. Use this decision
               framework to determine where your investment should go. Most businesses
               will find that they need elements of both, but the priority order matters.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* Decision Matrix */}
             <div className="not-prose">
@@ -722,7 +722,7 @@ export default function Page() {
             {/* CTA Inline 7 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Need help determining your priority?</p>
+                <p>Need help determining your priority? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation &#8594;</a>
               </div>
             </div>
@@ -741,13 +741,13 @@ export default function Page() {
                 the hidden cost of ignoring AI search
               </Link>{' '}
               compounds every month as more customers shift to AI-first discovery.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Consider the math. If 38% of your potential customers now ask AI platforms
               before searching Google, and AI platforms recommend your competitor instead
               of you, then 38% of your addressable market never sees your name. No amount
               of Google ranking improvement can recover that invisible loss.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Timeline: What Happens When You Ignore AI */}
             <div className="not-prose">
@@ -800,14 +800,14 @@ export default function Page() {
                   that gets recommended today is more likely to get recommended tomorrow.
                   Waiting to start AI optimization does not just delay results. It makes
                   the eventual effort harder and more expensive.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 8 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Are you already behind on AI visibility?</p>
+                <p>Are you already behind on AI visibility? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <Link href="/blindspot">Find Out With a Free Analysis &#8594;</Link>
               </div>
             </div>
@@ -823,7 +823,7 @@ export default function Page() {
               technical infrastructure that make AI optimization effective also make SEO
               stronger. The difference is in how that foundation is structured and where
               the strategic emphasis lands.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               An{' '}
               <Link href="/blog/aeo-vs-seo" className="text-orange-400 hover:text-orange-300 underline">
@@ -834,7 +834,7 @@ export default function Page() {
               signals feed both systems. Your measurement framework tracks visibility across
               both channels. And the AI-referred visitors who do land on your site convert
               at 7% compared to 5% from traditional organic traffic.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Takeaway */}
             <div className="not-prose">

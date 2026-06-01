@@ -287,25 +287,25 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure whether ChatGPT even knows your electrical business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure whether ChatGPT even knows your electrical business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         <h2 id="how-ai-finds-electricians">How AI Finds Electricians in Your Area</h2>
 
-        <p>When someone asks ChatGPT, Gemini, or Claude for a licensed electrician in their city, the AI is not running a live Google search against your website. It is drawing on a learned model of the electrical contracting landscape in that area, assembled during training from business directories, review platforms, local news, permit databases, trade association websites, and contractor sites.</p>
+        <p>When someone asks ChatGPT, Gemini, or Claude for a licensed electrician in their city, the AI is not running a live Google search against your website. It is drawing on a learned model of the electrical contracting landscape in that area, assembled during training from business directories, review platforms, local news, permit databases, trade association websites, and contractor sites. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-        <p>The electricians who appear in those answers are the ones whose information appeared most frequently and most consistently across those source types. The electricians who stay invisible are not necessarily worse at their craft. Their digital presence was simply not structured in a way that made it easy for AI to absorb, verify, and cite.</p>
+        <p>The electricians who appear in those answers are the ones whose information appeared most frequently and most consistently across those source types. The electricians who stay invisible are not necessarily worse at their craft. Their digital presence was simply not structured in a way that made it easy for AI to absorb, verify, and cite. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-        <p>Real-time AI tools like Perplexity and ChatGPT with web search enabled do conduct live crawls, which means improvements to your digital presence can influence those results within weeks. Base model citations in ChatGPT without browsing take longer, as they depend on retraining cycles. Both reward the same underlying signal: a clear, consistent, authoritative digital footprint.</p>
+        <p>Real-time AI tools like Perplexity and ChatGPT with web search enabled do conduct live crawls, which means improvements to your digital presence can influence those results within weeks. Base model citations in ChatGPT without browsing take longer, as they depend on retraining cycles. Both reward the same underlying signal: a clear, consistent, authoritative digital footprint. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Why Electrical Work Is a High-Stakes AI Category</div>
-          <p>Electrical queries skew toward urgency and risk. A homeowner asking AI for an electrician usually has a safety concern, a code requirement, or a project deadline driving them. That urgency means AI recommendations translate into phone calls at a higher rate than many other categories. The electrician AI recommends is the one who gets the job, often without the homeowner looking at a second option.</p>
+          <p>Electrical queries skew toward urgency and risk. A homeowner asking AI for an electrician usually has a safety concern, a code requirement, or a project deadline driving them. That urgency means AI recommendations translate into phone calls at a higher rate than many other categories. The electrician AI recommends is the one who gets the job, often without the homeowner looking at a second option. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
         </div>
 
         <h2 id="three-ways-electricians-surface">The Top 3 Ways Electricians Surface in ChatGPT Today</h2>
 
-        <p>Based on analysis of how local service businesses get cited across AI platforms, three patterns consistently produce electrician citations in ChatGPT, Gemini, and Claude responses.</p>
+        <p>Based on analysis of how local service businesses get cited across AI platforms, three patterns consistently produce electrician citations in ChatGPT, Gemini, and Claude responses. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -359,13 +359,13 @@ export default function Page() {
             <div className="ae-bar-value">9%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-8">Estimated citation rates based on AEO analysis patterns. Actual rates vary by market and query type.</p>
+        <p className="text-sm text-gray-500 mb-8">Estimated citation rates based on AEO analysis patterns. Actual rates vary by market and query type. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
         <h2 id="schema-patterns">Schema Patterns That Actually Work for Electricians</h2>
 
-        <p>Schema markup is the clearest signal an electrician can send to AI platforms. It is machine-readable metadata that explicitly tells AI systems who you are, what you do, where you operate, and when you are available. Pages with proper schema get cited at significantly higher rates than unstructured pages because AI can verify claims from schema rather than having to infer them from prose.</p>
+        <p>Schema markup is the clearest signal an electrician can send to AI platforms. It is machine-readable metadata that explicitly tells AI systems who you are, what you do, where you operate, and when you are available. Pages with proper schema get cited at significantly higher rates than unstructured pages because AI can verify claims from schema rather than having to infer them from prose. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-        <p>For electrical contractors, the following schema types produce the strongest AI visibility results.</p>
+        <p>For electrical contractors, the following schema types produce the strongest AI visibility results. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -406,24 +406,24 @@ export default function Page() {
           </table>
         </div>
 
-        <p>The most common schema mistake electricians make is implementing a generic LocalBusiness type instead of the more specific ElectricalContractor sub-type. The specific type tells AI platforms exactly what category of service provider you are, which matters for matching you to trade-specific queries. When someone asks for an "electrician" rather than a "contractor," schema specificity is one of the signals that determines whether your business qualifies as a relevant result.</p>
+        <p>The most common schema mistake electricians make is implementing a generic LocalBusiness type instead of the more specific ElectricalContractor sub-type. The specific type tells AI platforms exactly what category of service provider you are, which matters for matching you to trade-specific queries. When someone asks for an "electrician" rather than a "contractor," schema specificity is one of the signals that determines whether your business qualifies as a relevant result. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">License and Certification Schema</div>
-          <p>Electrical work is licensed in all 50 states. AI platforms treat license information as a trust signal when evaluating which contractors to recommend for high-stakes work. Including your license number, license type, and issuing jurisdiction in your schema and in visible website copy creates a verifiable credential signal that generic contractors without clear licensing information cannot match. This is particularly powerful for panel upgrade and new construction queries where safety credentials matter most.</p>
+          <p>Electrical work is licensed in all 50 states. AI platforms treat license information as a trust signal when evaluating which contractors to recommend for high-stakes work. Including your license number, license type, and issuing jurisdiction in your schema and in visible website copy creates a verifiable credential signal that generic contractors without clear licensing information cannot match. This is particularly powerful for panel upgrade and new construction queries where safety credentials matter most. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure if your schema is structured the right way for AI to read it? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see what AI actually sees when it looks at your business.</p>
+          <p>Not sure if your schema is structured the right way for AI to read it? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see what AI actually sees when it looks at your business. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
         </div>
 
         <h2 id="location-queries">Winning Location-Based Queries on ChatGPT, Gemini, and Claude</h2>
 
-        <p>The majority of electrician searches on AI platforms are location-qualified. "Electrician in [city]," "licensed electrician near me," "EV charger installer in [neighborhood]" are the query patterns that drive real job calls. Each platform handles location differently, and understanding those differences helps you structure your digital presence to win across all three.</p>
+        <p>The majority of electrician searches on AI platforms are location-qualified. "Electrician in [city]," "licensed electrician near me," "EV charger installer in [neighborhood]" are the query patterns that drive real job calls. Each platform handles location differently, and understanding those differences helps you structure your digital presence to win across all three. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-        <p>ChatGPT without browsing relies on training data, which means it tends to recommend electricians who had a strong, consistent presence across directories and review platforms before the training cutoff. ChatGPT with web browsing enabled acts more like Perplexity: it conducts a live search and evaluates current page content, making recent improvements to your website visible almost immediately.</p>
+        <p>ChatGPT without browsing relies on training data, which means it tends to recommend electricians who had a strong, consistent presence across directories and review platforms before the training cutoff. ChatGPT with web browsing enabled acts more like Perplexity: it conducts a live search and evaluates current page content, making recent improvements to your website visible almost immediately. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-        <p>Gemini integrates tightly with Google data sources: Google Business Profile, Google Maps, and Google reviews carry enormous weight in Gemini's local recommendations. An incomplete or inconsistent GBP is the fastest path to invisibility on Gemini. Claude, which increasingly supports web search, evaluates source authority and content structure, rewarding electricians who have invested in clear, specific, well-organized website content.</p>
+        <p>Gemini integrates tightly with Google data sources: Google Business Profile, Google Maps, and Google reviews carry enormous weight in Gemini's local recommendations. An incomplete or inconsistent GBP is the fastest path to invisibility on Gemini. Claude, which increasingly supports web search, evaluates source authority and content structure, rewarding electricians who have invested in clear, specific, well-organized website content. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -450,18 +450,18 @@ export default function Page() {
           </div>
         </div>
 
-        <p>Location pages should not be thin duplicates of your main service pages with a city name swapped in. Each one needs genuine local specificity: permit processes in that jurisdiction, utility providers, common electrical issues in the area's housing stock, and neighborhood-relevant context. That specificity is what separates citable location content from duplicate filler that AI ignores.</p>
+        <p>Location pages should not be thin duplicates of your main service pages with a city name swapped in. Each one needs genuine local specificity: permit processes in that jurisdiction, utility providers, common electrical issues in the area's housing stock, and neighborhood-relevant context. That specificity is what separates citable location content from duplicate filler that AI ignores. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Neighborhood Layer</div>
-          <p>The most effective electricians in AI search do not stop at city-level location pages. They add neighborhood-level content: "Panel upgrades in Highland Park" or "EV charger installation in Silver Lake." These hyper-local pages are often completely uncontested in AI training data, meaning your content may be the only authoritative source AI has for that specific query combination. The narrower the location, the less competition and the higher the citation probability.</p>
+          <p>The most effective electricians in AI search do not stop at city-level location pages. They add neighborhood-level content: "Panel upgrades in Highland Park" or "EV charger installation in Silver Lake." These hyper-local pages are often completely uncontested in AI training data, meaning your content may be the only authoritative source AI has for that specific query combination. The narrower the location, the less competition and the higher the citation probability. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </div>
 
         <h2 id="review-signals">How Review Content Becomes AI Citation Evidence</h2>
 
-        <p>AI platforms do not just count reviews. They read them. The text of your reviews is processed semantically to extract patterns about what services you perform, what problems you solve, and the specificity of the scenarios customers describe. Star ratings are nearly invisible to AI; review text is what drives citation decisions.</p>
+        <p>AI platforms do not just count reviews. They read them. The text of your reviews is processed semantically to extract patterns about what services you perform, what problems you solve, and the specificity of the scenarios customers describe. Star ratings are nearly invisible to AI; review text is what drives citation decisions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-        <p>This has an important implication for how electricians should think about their review strategy. The goal is not to maximize review volume with generic positive feedback. It is to accumulate reviews that contain service-specific detail, location context, and outcome information that AI platforms can extract and cite as evidence of expertise.</p>
+        <p>This has an important implication for how electricians should think about their review strategy. The goal is not to maximize review volume with generic positive feedback. It is to accumulate reviews that contain service-specific detail, location context, and outcome information that AI platforms can extract and cite as evidence of expertise. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -497,13 +497,13 @@ export default function Page() {
           </table>
         </div>
 
-        <p>Generating better review content does not require scripting customers or violating platform terms. A post-job follow-up message that asks "What electrical issue did we solve for you today?" naturally surfaces specific, citable detail without prompting for positive feedback directly. Customers who were happy with the work will describe it; the specificity comes from asking the right question.</p>
+        <p>Generating better review content does not require scripting customers or violating platform terms. A post-job follow-up message that asks "What electrical issue did we solve for you today?" naturally surfaces specific, citable detail without prompting for positive feedback directly. Customers who were happy with the work will describe it; the specificity comes from asking the right question. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <h2 id="service-pages">The Service Page Architecture AI Needs</h2>
 
-        <p>The absence of dedicated service pages is the most common and most costly missed opportunity for electricians in AI search. Most electrical contractor websites have a homepage, an about page, a gallery, and a single Services page that lists everything in one place. That structure served keyword SEO reasonably well a decade ago. It does almost nothing for AI visibility.</p>
+        <p>The absence of dedicated service pages is the most common and most costly missed opportunity for electricians in AI search. Most electrical contractor websites have a homepage, an about page, a gallery, and a single Services page that lists everything in one place. That structure served keyword SEO reasonably well a decade ago. It does almost nothing for AI visibility. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
-        <p>AI platforms match queries to content at the page level. When someone asks Gemini for "EV charger installation near me," Gemini looks for pages that are specifically, deeply, and exclusively about EV charger installation. A bullet point in a services list is not a match. A 600-word dedicated page with a specific service title, scenario-specific copy, a local permitting note, a FAQ section with schema markup, and a clear call to action is a citation asset that stands on its own.</p>
+        <p>AI platforms match queries to content at the page level. When someone asks Gemini for "EV charger installation near me," Gemini looks for pages that are specifically, deeply, and exclusively about EV charger installation. A bullet point in a services list is not a match. A 600-word dedicated page with a specific service title, scenario-specific copy, a local permitting note, a FAQ section with schema markup, and a clear call to action is a citation asset that stands on its own. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -544,12 +544,12 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering which of your service pages are actually getting cited by AI? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps.</p>
+          <p>Wondering which of your service pages are actually getting cited by AI? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
         </div>
 
         <h2 id="competitor-profile">What Top Competitors Are Doing Differently</h2>
 
-        <p>Electrical contractors who consistently appear in AI recommendations across ChatGPT, Gemini, and Claude share a recognizable profile. They are not always the largest companies or the ones running the most advertising. They are the ones whose digital presence is most legible to AI systems across every data source AI uses to form recommendations.</p>
+        <p>Electrical contractors who consistently appear in AI recommendations across ChatGPT, Gemini, and Claude share a recognizable profile. They are not always the largest companies or the ones running the most advertising. They are the ones whose digital presence is most legible to AI systems across every data source AI uses to form recommendations. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-decision-matrix not-prose">
           <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>The AI-Visible Electrician vs. The AI-Invisible Electrician</div>
@@ -582,7 +582,7 @@ export default function Page() {
 
         <h2 id="quick-wins">Quick Wins Checklist for Electricians</h2>
 
-        <p>Not every electrician has time to rebuild their website in a week. These moves produce meaningful AI visibility improvement within 30 to 60 days and can be implemented without a full site rebuild.</p>
+        <p>Not every electrician has time to rebuild their website in a week. These moves produce meaningful AI visibility improvement within 30 to 60 days and can be implemented without a full site rebuild. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">AI Visibility Quick Wins for Electricians</div>
@@ -624,17 +624,17 @@ export default function Page() {
           </table>
         </div>
 
-        <p>The pattern across all of these is consistent: make it structurally unambiguous to AI what you do, where you do it, and why you are the qualified option. Every vague phrase on your website is a missed signal. Every specific, structured piece of information is a potential citation asset that can generate calls while you are on a job site.</p>
+        <p>The pattern across all of these is consistent: make it structurally unambiguous to AI what you do, where you do it, and why you are the qualified option. Every vague phrase on your website is a missed signal. Every specific, structured piece of information is a potential citation asset that can generate calls while you are on a job site. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Electrical contracting is part of a broader home services pattern. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-isnt-my-electrical-business-showing-up-on-chatgpt" className="text-[#F27D24] hover:underline">why electrical businesses go invisible on ChatGPT</Link> for a deeper diagnosis of the most common failure modes.</p>
+          <p>Electrical contracting is part of a broader home services pattern. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-isnt-my-electrical-business-showing-up-on-chatgpt" className="text-[#F27D24] hover:underline">why electrical businesses go invisible on ChatGPT</Link> for a deeper diagnosis of the most common failure modes. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Electricians Instead of You</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude know about your electrical business, which signals are missing, and what structural changes would move you into AI recommendations in your service area.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude know about your electrical business, which signals are missing, and what structural changes would move you into AI recommendations in your service area. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -661,7 +661,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
 
@@ -701,7 +701,7 @@ export default function Page() {
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+              <p className="text-gray-300 leading-relaxed">{item.a} <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
           ))}
         </div>

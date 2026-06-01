@@ -333,7 +333,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               A couple planning a wedding used to start with a Google search. They would scan directories, click through
               to vendor websites, and ask friends for referrals. That process has not disappeared, but it has been
               joined by something newer and far more decisive: an AI conversation.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Today, a growing share of couples, corporate planners, and event hosts start by asking ChatGPT, Perplexity,
@@ -341,7 +341,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               "what should I budget for a corporate event coordinator in Chicago." The AI delivers a short list of
               businesses, sometimes with explanation, sometimes with just a name and a link. What it does not deliver is
               a directory of every qualified planner in that market.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Google's share as the dominant recommendation platform has already dropped from 83% to 71% over the past
@@ -349,20 +349,20 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               answers are capturing a conversion rate five times higher than organic Google clicks: 14.2% versus 2.8%.
               The clients these planners are picking up from AI are not comparison-shopping. They have already decided
               they want a recommendation. They just need a name.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
               For event planners, this shift creates an urgent question: when a prospective client asks AI to recommend
               an event planner in your market, does your business come up? For the vast majority of planners operating
               today, the honest answer is no. And most of them do not even know it.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* Inline CTA 1 */}
           <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Is AI recommending your event planning business?</p>
-              <p className="text-gray-400 text-sm">Find your blind spots with a free AI visibility audit. Results delivered within 24 hours.</p>
+              <p className="text-white font-semibold mb-1">Is AI recommending your event planning business? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+              <p className="text-gray-400 text-sm">Find your blind spots with a free AI visibility audit. Results delivered within 24 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
@@ -384,7 +384,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               coverage, and structured data signals. What they are ultimately doing is building a confidence model.
               Which businesses does the web consistently describe as credible, experienced, and worth recommending in
               a given service category?
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The weight assigned to different signals varies by platform and query type, but the underlying logic is
@@ -392,27 +392,27 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               do. Third-party sources saying the same thing carry far more weight. Review platforms, editorial mentions,
               social proof, community discussions, and structured business data all contribute to the corroboration
               picture AI constructs about your business.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is why understanding <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">schema markup for AI search</Link> matters for event planners specifically. Structured data is one of the few direct signals a business can
               send to AI models without relying entirely on third-party sources. When your website clearly declares
               your service category, location, pricing structure, and service offerings in machine-readable format,
               you are giving AI platforms explicit data to work with rather than making them infer it.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The AI discovery process also rewards specificity. A planner who clearly describes their specialization
               in corporate galas, their geographic coverage, and the specific types of events they have executed is
               easier for AI to recommend confidently than one with a generic full-service positioning. Vague is
               invisible. Specific is surfaceable.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
               Beyond your own website, the business profiles you maintain on external platforms matter significantly.
               Your <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">Google Business Profile for AI</Link> is one of the most important external data sources AI platforms pull from when forming local recommendations. Incomplete or inconsistent profiles create gaps that
               erode AI confidence and push you down in favor of better-documented competitors.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
 
           {/* Section: The Event Planning Visibility Gap */}
@@ -429,7 +429,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               and large event production companies that have accumulated extensive press coverage and cross-platform
               documentation. Regional and boutique planners, even those with outstanding reputations, are nearly
               invisible to AI recommendation engines.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The data tells the story clearly. AI recommends major events and well-documented planning companies in
@@ -437,7 +437,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               responses, even when they serve the geography the user specified. The problem is not quality. It is
               documentation. The boutique planner with 200 five-star reviews and a decade of experience is invisible
               to AI because the signals AI relies on are scattered, incomplete, or absent entirely.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Consider the typical event planning website. It features a beautiful portfolio, glowing testimonials,
@@ -445,7 +445,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               confidence: pricing information, service scope definitions, structured data markup, multi-platform review
               presence, and content that directly addresses the questions buyers actually ask. The gap between what
               most planners publish and what AI needs to recommend them is significant.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Warning Callout */}
             <div className="not-prose ae-callout ae-callout-warning my-8">
@@ -461,7 +461,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
                   on a single platform. No structured data markup. Service pages that describe outcomes instead of process.
                   Inconsistent business name and address across directories. These are not design failures. They are
                   AI visibility failures, and they are costing planners clients they will never know they lost.
-                </p>
+                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
@@ -471,21 +471,21 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               in any local service category already capture 68% of AI-driven visibility. In most markets, that top 20%
               for event planning is still forming. The window to claim a position in it is open, but it will not stay
               that way indefinitely.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
               AI referrals currently represent only 1.08% of total website traffic across the web, but that number is
               growing at approximately 1% per month. That growth curve is not gradual: it is compounding. Businesses
               that establish AI visibility now will be positioned to capture an outsized share as AI-driven referrals
               become a primary traffic source for service industries over the next 18 to 24 months.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           {/* Inline CTA 2 */}
           <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">How many AI-driven clients are going to your competitors?</p>
-              <p className="text-gray-400 text-sm">Your free Blind Spot Report maps exactly where you stand across ChatGPT, Perplexity, and Google AI.</p>
+              <p className="text-white font-semibold mb-1">How many AI-driven clients are going to your competitors? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+              <p className="text-gray-400 text-sm">Your free Blind Spot Report maps exactly where you stand across ChatGPT, Perplexity, and Google AI. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Run My Audit
@@ -505,7 +505,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               The event planners who consistently appear in AI recommendations share a common characteristic: they have
               made it easy for AI to verify their credibility. They have not just built a beautiful portfolio. They have
               built a documentation layer around their business that AI can read, cross-reference, and cite confidently.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Pricing transparency is the single most impactful signal missing from most event planning businesses.
@@ -513,7 +513,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               for recommendations. Without pricing information, event planners are essentially invisible to the queries
               that carry the highest commercial intent. A planner who publishes starting prices, service tiers, or
               budget guidance outperforms one who requires an inquiry before discussing cost, every single time.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Multi-platform review presence is the second major factor. This is not about having more reviews on
@@ -521,19 +521,19 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               WeddingWire, Facebook, Yelp, and Google together. A planner with 50 reviews on Google and nothing elsewhere
               has a weaker AI visibility profile than one with 15 reviews spread across four platforms. AI looks for
               corroboration, and platform diversity is a form of corroboration.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Structured data and content clarity round out the top three factors. This is where the connection to
               AI recommendation logic becomes technical. The way your website describes your services, the questions
               it answers, and the schema markup it uses all influence how confidently AI can categorize and recommend
               your business. It is also worth understanding <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">why AI recommendations are not just about reviews</Link> — the full signal picture matters more than any single metric.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
               AI can verify a business that has documented its expertise. It cannot verify a business that merely claims
               it. That distinction is the entire gap between being recommended and being invisible.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Comparison Table */}
             <div className="not-prose ae-comparison-table my-8 overflow-x-auto">
@@ -605,7 +605,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               event planners operate in a category with multiple dedicated review platforms: The Knot, WeddingWire,
               Thumbtack, and Zola alongside the general platforms like Google, Yelp, and Facebook. This creates a
               distinct opportunity that most planners leave entirely uncaptured.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               AI platforms crawl all of these sources. When a user asks ChatGPT to recommend a wedding planner in
@@ -614,7 +614,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               a fundamentally different corroboration profile than a planner with 160 Google reviews and nothing
               elsewhere. The first planner looks verified by multiple independent platforms. The second looks like
               they concentrated effort on a single channel.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Review content also matters beyond star ratings. AI models analyze review text for specificity, recency,
@@ -623,7 +623,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               information than a five-star review that says "absolutely amazing!" The businesses that actively encourage
               detailed, specific review content from their clients are building AI citation assets with every
               post-event follow-up.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Quote */}
             <div className="not-prose ae-quote my-10">
@@ -631,7 +631,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
                 <p className="text-lg text-gray-200 italic leading-relaxed">
                   "AI can&apos;t recommend what it can&apos;t verify. Event planners who make pricing and service clarity
                   a priority consistently outperform those who rely on their reputation alone."
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <footer className="mt-3 text-sm text-gray-500">The Answer Engine Research Team</footer>
               </blockquote>
             </div>
@@ -642,13 +642,13 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               reviews after every event maintains a freshness signal that compounds over time. A planner who collected
               strong reviews two years ago and has gone quiet reads as less active and less current to the AI models
               that factor recency into their recommendations.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
               The multi-platform review strategy connects to a broader principle about how <Link href="/blog/how-press-mentions-help-ai-recommend-you" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">how press mentions help AI</Link> recommend your business. Reviews on third-party platforms and editorial coverage from publications are
               different types of external validation, but they serve the same function in AI's evaluation model:
               they are third-party evidence that your business is what it claims to be.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           {/* Section: DIY vs Professional AI Optimization */}

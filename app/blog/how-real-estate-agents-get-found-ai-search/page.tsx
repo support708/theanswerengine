@@ -249,19 +249,19 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             <p>When a first-time homebuyer asks ChatGPT &quot;Who are the best real estate agents in Austin for first-time buyers?&quot; or Perplexity generates a detailed answer for &quot;What should I look for in a buyer&apos;s agent?&quot;, certain agents keep appearing. They are not paying for those placements. They are not running ads inside AI platforms. They have built the kind of online presence that AI trusts enough to recommend by name.</p>
 
-            <p>Meanwhile, most real estate agents are still focused exclusively on Zillow Premier Agent placements, Google Ads, and social media marketing. Those channels still matter, but a new one is growing alongside them, and it is growing fast.</p>
+            <p>Meanwhile, most real estate agents are still focused exclusively on Zillow Premier Agent placements, Google Ads, and social media marketing. Those channels still matter, but a new one is growing alongside them, and it is growing fast. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>A 2025 Realtor.com survey found that 82% of Americans now use AI for housing market information. 67% use ChatGPT specifically. Agents edged out AI by only 62% to 61% when buyers rated the resources that made them &quot;smarter&quot; about the market. That gap is closing every month.</p>
             </div>
 
-            <p>The real estate industry is at an inflection point. Zillow has integrated natural-language AI search so buyers can describe what they want in conversational terms. Redfin launched an AI-powered conversational search tool that mirrors how buyers talk to a real agent. Both major portals have released ChatGPT plugins. The infrastructure for AI-driven real estate search is already built. The question is whether buyers will find you through it.</p>
+            <p>The real estate industry is at an inflection point. Zillow has integrated natural-language AI search so buyers can describe what they want in conversational terms. Redfin launched an AI-powered conversational search tool that mirrors how buyers talk to a real agent. Both major portals have released ChatGPT plugins. The infrastructure for AI-driven real estate search is already built. The question is whether buyers will find you through it. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>Most agents have not even considered how AI sees them from the outside. That blind spot is costing them closings.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of you.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -272,14 +272,14 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <p>The way homebuyers search for agents has fundamentally changed. Instead of typing &quot;real estate agent near me&quot; into Google, buyers are now having conversations with AI platforms. They are asking specific, detailed questions that AI can answer with specific, detailed recommendations.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>What buyers are asking AI:</strong> Prompts like &quot;Who is the best agent in Scottsdale for luxury homes over $2M?&quot; or &quot;Find me a buyer&apos;s agent in Denver who specializes in first-time homebuyers and has great reviews&quot; are replacing traditional keyword searches. AI platforms respond with curated recommendations, not a list of 200 agents who paid for placement.</p>
+              <p><strong>What buyers are asking AI:</strong> Prompts like &quot;Who is the best agent in Scottsdale for luxury homes over $2M?&quot; or &quot;Find me a buyer&apos;s agent in Denver who specializes in first-time homebuyers and has great reviews&quot; are replacing traditional keyword searches. AI platforms respond with curated recommendations, not a list of 200 agents who paid for placement. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>This shift changes everything about how agents need to position themselves online. Traditional SEO and portal advertising are built around keyword matching. AI search is built around expertise matching. When a buyer asks AI for a specialist, the AI looks for signals of genuine specialization, not just someone who added a keyword to their bio.</p>
 
             <h3>The Conversational Search Difference</h3>
 
-            <p>According to NAR&apos;s 2025 data, 46% of buyers started their search online and 88% ultimately purchased through an agent. The question is which agent. Referrals from friends and family have traditionally dominated agent selection (43% of buyers found their agent this way). But AI is creating a new referral channel, one where the &quot;friend&quot; is ChatGPT, and its recommendations are shaped by what it can verify about your expertise online.</p>
+            <p>According to NAR&apos;s 2025 data, 46% of buyers started their search online and 88% ultimately purchased through an agent. The question is which agent. Referrals from friends and family have traditionally dominated agent selection (43% of buyers found their agent this way). But AI is creating a new referral channel, one where the &quot;friend&quot; is ChatGPT, and its recommendations are shaped by what it can verify about your expertise online. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* DECISION MATRIX */}
             <div className="ae-decision-matrix not-prose">
@@ -338,20 +338,20 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <span className="ae-section-label" id="trust-signals">Trust Signals</span>
             <h2>The Trust Signals That Make AI Recommend You</h2>
 
-            <p>AI platforms do not randomly select agents to recommend. They evaluate a specific set of signals that indicate whether an agent is genuinely authoritative in their market. Understanding these signals is the key to becoming the agent AI recommends.</p>
+            <p>AI platforms do not randomly select agents to recommend. They evaluate a specific set of signals that indicate whether an agent is genuinely authoritative in their market. Understanding these signals is the key to becoming the agent AI recommends. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>Local Expertise: Proof You Know the Market</h3>
 
             <p>AI platforms look for evidence that you have deep knowledge of your specific market. Not generic real estate advice. Specific, verifiable local expertise. When your content references actual neighborhoods, school districts, zoning changes, market trends with real data, and hyperlocal insights that only a practicing agent would know, AI interprets these as strong expertise signals.</p>
 
-            <p>An agent who publishes quarterly market reports with actual median price data, days-on-market trends, and inventory analysis for their specific submarkets sends a completely different signal than one whose website says &quot;I know the local market inside and out.&quot;</p>
+            <p>An agent who publishes quarterly market reports with actual median price data, days-on-market trends, and inventory analysis for their specific submarkets sends a completely different signal than one whose website says &quot;I know the local market inside and out.&quot; <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>Transaction History: Evidence of Experience</h3>
 
             <p>AI platforms look for signals of real-world experience. This means content that demonstrates you have actually closed deals, navigated difficult transactions, solved problems for clients, and understand the nuances of buying and selling in your market. Case studies (appropriately anonymized), transaction volume mentions, years of practice, and specific scenario discussions all contribute to this signal.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>What agents get wrong:</strong> Listing &quot;$50M in closed transactions&quot; in a hero banner is a start, but AI cannot verify banner text reliably. That same information structured as crawlable HTML text on your about page, backed by testimonials that reference specific transaction types, sends a much stronger signal to AI platforms.</p>
+              <p><strong>What agents get wrong:</strong> Listing &quot;$50M in closed transactions&quot; in a hero banner is a start, but AI cannot verify banner text reliably. That same information structured as crawlable HTML text on your about page, backed by testimonials that reference specific transaction types, sends a much stronger signal to AI platforms. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             <h3>Credentials and Designations</h3>
@@ -360,7 +360,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             <h3>Consistency Across the Web</h3>
 
-            <p>If your name, brokerage, phone number, and specialties are different across various platforms, AI platforms lose confidence in recommending you. Consistency is not just a local SEO factor. It is a fundamental trust signal for AI.</p>
+            <p>If your name, brokerage, phone number, and specialties are different across various platforms, AI platforms lose confidence in recommending you. Consistency is not just a local SEO factor. It is a fundamental trust signal for AI. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* BAR CHART */}
             <div className="ae-bar-group not-prose">
@@ -407,20 +407,20 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <span className="ae-section-label" id="content-strategy">Content Strategy</span>
             <h2>Content That Positions You as the Local Expert</h2>
 
-            <p>The agents who consistently show up in AI answers share a common approach to content. They are not just blogging about &quot;5 tips for first-time homebuyers.&quot; They are building a structured content library that AI platforms can parse, verify, and confidently reference when buyers ask specific questions.</p>
+            <p>The agents who consistently show up in AI answers share a common approach to content. They are not just blogging about &quot;5 tips for first-time homebuyers.&quot; They are building a structured content library that AI platforms can parse, verify, and confidently reference when buyers ask specific questions. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Lead With the Answer, Always</h3>
 
             <p>When someone asks AI &quot;What is the average home price in Coral Gables?&quot;, the AI is looking for content that opens with a direct answer, followed by context and supporting data. Pages that begin with three paragraphs about the agent&apos;s credentials before ever addressing the question get filtered out.</p>
 
-            <p>For a real estate agent, this means your neighborhood guide should start with: &quot;The median home price in Coral Gables is $1.2M as of Q1 2026, up 4.3% year-over-year. Here is what buyers need to know about this market, including inventory trends, school ratings, and what different price ranges will get you.&quot;</p>
+            <p>For a real estate agent, this means your neighborhood guide should start with: &quot;The median home price in Coral Gables is $1.2M as of Q1 2026, up 4.3% year-over-year. Here is what buyers need to know about this market, including inventory trends, school ratings, and what different price ranges will get you.&quot; One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>Build the Neighborhood Authority Library</h3>
 
             <p>The single most powerful content strategy for real estate agents in AI search is building deep, data-rich neighborhood pages. Not thin landing pages with a paragraph and an IDX feed. Substantive guides with market data, school information, lifestyle details, commute times, zoning notes, and genuine local perspective.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>What works:</strong> An agent in Phoenix with dedicated pages for Arcadia, Paradise Valley, Biltmore, and Old Town Scottsdale, each with quarterly updated price data, school district details, and buyer profile analysis, will consistently outperform a competing agent whose site has a single &quot;Areas We Serve&quot; page with bullet points. AI rewards depth and specificity.</p>
+              <p><strong>What works:</strong> An agent in Phoenix with dedicated pages for Arcadia, Paradise Valley, Biltmore, and Old Town Scottsdale, each with quarterly updated price data, school district details, and buyer profile analysis, will consistently outperform a competing agent whose site has a single &quot;Areas We Serve&quot; page with bullet points. AI rewards depth and specificity. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             <h3>Market Reports That AI Can Cite</h3>
@@ -429,7 +429,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>AI platforms are not looking for the agent with the biggest ad budget. They are looking for the agent who has published the most verifiable, specific, and useful information about their market. Your content is your AI resume.</p>
+              <p>AI platforms are not looking for the agent with the biggest ad budget. They are looking for the agent who has published the most verifiable, specific, and useful information about their market. Your content is your AI resume. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* CTA 4 */}
@@ -478,7 +478,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Discover which of your pages are AI-ready and which need work.</p>
+              <p>Discover which of your pages are AI-ready and which need work. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -488,7 +488,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             <p>Here is the uncomfortable truth most agents have not realized: your Zillow profile, your Realtor.com presence, and your Google Business Profile are largely invisible to ChatGPT, Perplexity, and Claude. These AI platforms cannot access the data behind those walled gardens.</p>
 
-            <p>Zillow and Realtor.com are built on JavaScript-rendered content that AI crawlers typically cannot process. Google Business Profile sits behind Google&apos;s own proprietary infrastructure. Your carefully curated reviews, your production stats, your professional headshot, the dozens of five-star reviews you worked so hard to earn on these platforms may never be seen by the AI that a homebuyer is asking for a recommendation.</p>
+            <p>Zillow and Realtor.com are built on JavaScript-rendered content that AI crawlers typically cannot process. Google Business Profile sits behind Google&apos;s own proprietary infrastructure. Your carefully curated reviews, your production stats, your professional headshot, the dozens of five-star reviews you worked so hard to earn on these platforms may never be seen by the AI that a homebuyer is asking for a recommendation. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>The walled garden problem:</strong> A Fortune article from March 2026 documented a Florida homeowner who used ChatGPT to sell his home, beating every agent&apos;s estimate by $100K and closing in five days. The buyer found the listing through AI-driven research, not through a portal. This is where the industry is heading. Agents who exist only inside portal ecosystems are building on rented land.</p>
@@ -522,7 +522,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
               </div>
             </div>
 
-            <p>This does not mean you should abandon portals. They still drive significant business through their own ecosystems. But relying on them exclusively for your online presence leaves you completely invisible to the fastest-growing search channel in real estate. For a deeper look at why this matters across industries, read our guide on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>.</p>
+            <p>This does not mean you should abandon portals. They still drive significant business through their own ecosystems. But relying on them exclusively for your online presence leaves you completely invisible to the fastest-growing search channel in real estate. For a deeper look at why this matters across industries, read our guide on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -534,13 +534,13 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <span className="ae-section-label" id="directories-schema">Technical Foundation</span>
             <h2>Directories, Schema, and the Technical Foundation</h2>
 
-            <p>Content quality gets you into the conversation. Technical structure gets you cited. The difference between an agent who shows up occasionally in AI answers and one who shows up consistently often comes down to technical implementation.</p>
+            <p>Content quality gets you into the conversation. Technical structure gets you cited. The difference between an agent who shows up occasionally in AI answers and one who shows up consistently often comes down to technical implementation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3>Schema Markup for Real Estate Agents</h3>
 
             <p>Schema markup is structured data that helps AI platforms understand exactly who you are and what you do. For real estate agents, the <strong>RealEstateAgent</strong> schema type is particularly valuable because it tells AI your service areas, specializations, credentials, and contact information in a format it can parse instantly.</p>
 
-            <p>Combined with <strong>FAQPage</strong> schema on your guides and <strong>Review</strong> schema on testimonial pages, you create a structured data layer that makes your expertise machine-readable. For a deeper dive into how schema drives AI citations, check our guide on <Link href="/blog/how-ai-search-changes-sales-funnel">how AI search changes the sales funnel</Link>.</p>
+            <p>Combined with <strong>FAQPage</strong> schema on your guides and <strong>Review</strong> schema on testimonial pages, you create a structured data layer that makes your expertise machine-readable. For a deeper dive into how schema drives AI citations, check our guide on <Link href="/blog/how-ai-search-changes-sales-funnel">how AI search changes the sales funnel</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <h3>Directories That AI Can Actually Read</h3>
 
@@ -583,7 +583,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want a customized 90-day plan built around your specific market and specialty areas?</p>
+              <p>Want a customized 90-day plan built around your specific market and specialty areas? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Start With Your Free AI Visibility Report &rarr;</Link>
             </div>
 
@@ -593,13 +593,13 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             <p>Client reviews play a critical role in AI recommendations, but with an important caveat: the reviews must be accessible to AI crawlers. Google reviews are largely invisible to ChatGPT and Perplexity because they sit behind JavaScript-rendered pages. Zillow reviews face the same limitation.</p>
 
-            <p>This means agents need reviews in places AI can actually read them. Testimonials published directly on your website as plain HTML text, reviews on LinkedIn recommendations, and testimonials shared on crawlable industry platforms all contribute to the trust layer that AI evaluates.</p>
+            <p>This means agents need reviews in places AI can actually read them. Testimonials published directly on your website as plain HTML text, reviews on LinkedIn recommendations, and testimonials shared on crawlable industry platforms all contribute to the trust layer that AI evaluates. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>Review quality matters more than quantity:</strong> AI platforms analyze sentiment, specificity, and recency. A review that says &quot;Sarah helped us navigate a complicated short sale in Buckhead, saved us $40K through her negotiation on inspection items, and closed in 28 days&quot; carries far more weight with AI than &quot;Great agent, 5 stars.&quot; Encourage clients to mention the neighborhood, transaction type, and specific value you provided.</p>
             </div>
 
-            <p>For a comprehensive look at how reviews influence AI recommendations, check out our article on <Link href="/blog/optimize-about-page-ai-recommendations">optimizing your about page for AI recommendations</Link>.</p>
+            <p>For a comprehensive look at how reviews influence AI recommendations, check out our article on <Link href="/blog/optimize-about-page-ai-recommendations">optimizing your about page for AI recommendations</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
@@ -611,7 +611,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <span className="ae-section-label" id="mistakes">Common Pitfalls</span>
             <h2>The 5 Biggest Mistakes Real Estate Agents Make with AI Search</h2>
 
-            <p>After analyzing hundreds of agent websites and their AI visibility profiles, five patterns consistently hold agents back from getting recommended.</p>
+            <p>After analyzing hundreds of agent websites and their AI visibility profiles, five patterns consistently hold agents back from getting recommended. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <h3>1. Treating the Portal Profile as Your Entire Online Presence</h3>
 
@@ -619,7 +619,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             <h3>2. Publishing Generic Content Without Local Specificity</h3>
 
-            <p>A blog post titled &quot;10 Tips for First-Time Homebuyers&quot; with advice that could apply to any market in America does nothing for your AI visibility. AI platforms can find that generic information from a thousand sources. What they cannot easily find is a locally specific guide from a practicing agent with actual data about your market.</p>
+            <p>A blog post titled &quot;10 Tips for First-Time Homebuyers&quot; with advice that could apply to any market in America does nothing for your AI visibility. AI platforms can find that generic information from a thousand sources. What they cannot easily find is a locally specific guide from a practicing agent with actual data about your market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>3. Hiding Credentials and Experience Behind Images</h3>
 
@@ -627,7 +627,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             <h3>4. Neglecting Content Freshness</h3>
 
-            <p>Real estate is inherently time-sensitive. Market conditions change quarterly. An agent whose most recent blog post is from 2024 sends a staleness signal that AI platforms detect and penalize. Regular content updates signal that you are active, informed, and current.</p>
+            <p>Real estate is inherently time-sensitive. Market conditions change quarterly. An agent whose most recent blog post is from 2024 sends a staleness signal that AI platforms detect and penalize. Regular content updates signal that you are active, informed, and current. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>5. No Schema Markup on Any Pages</h3>
 
@@ -635,7 +635,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes? Our free report identifies every AI visibility gap in your online presence.</p>
+              <p>Making any of these mistakes? Our free report identifies every AI visibility gap in your online presence. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -681,7 +681,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk strategy with a human? We specialize in AI visibility for real estate professionals.</p>
+              <p>Prefer to talk strategy with a human? We specialize in AI visibility for real estate professionals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -712,12 +712,12 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             <span className="ae-section-label">Looking Ahead</span>
             <h2>What Happens When AI Becomes the First Showing</h2>
 
-            <p>The AI in real estate market is projected to grow from $303 billion in 2025 to nearly $989 billion by 2029, a compound growth rate above 34% annually. OpenAI began testing ads inside ChatGPT in January 2026, which means the platform that 67% of homebuyers already use for housing research is about to become a full-fledged marketing channel.</p>
+            <p>The AI in real estate market is projected to grow from $303 billion in 2025 to nearly $989 billion by 2029, a compound growth rate above 34% annually. OpenAI began testing ads inside ChatGPT in January 2026, which means the platform that 67% of homebuyers already use for housing research is about to become a full-fledged marketing channel. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <p>Today, a buyer asks AI for general market information. Tomorrow, they will ask AI which specific agent they should call for a luxury condo in South Beach or a fixer-upper in East Nashville. The agents who have built a structured, authoritative, and verifiable online presence will be the ones AI recommends. The agents who have not will wonder why the phone stopped ringing.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>The window is open now.</strong> While 87% of agents use AI tools for their own work, far fewer have optimized their online presence for how AI sees them externally. JLL research shows that 90% of real estate companies are piloting AI, but only 5% have achieved all their AI goals. This gap creates an opportunity for forward-thinking agents to establish AI visibility before the rest of the industry catches on.</p>
+              <p><strong>The window is open now.</strong> While 87% of agents use AI tools for their own work, far fewer have optimized their online presence for how AI sees them externally. JLL research shows that 90% of real estate companies are piloting AI, but only 5% have achieved all their AI goals. This gap creates an opportunity for forward-thinking agents to establish AI visibility before the rest of the industry catches on. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             {/* CTA 12 */}
@@ -728,7 +728,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
 
             {/* CTA 13 */}
             <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
+              <p>Prefer email? Send us your questions and we will get back to you within 24 hours. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -743,7 +743,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
           {/* 3-TIER CTA BLOCK (before FAQ) */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Real Estate Business Invisible to AI Search?</h3>
-            <p className="text-gray-400 mb-6">Get a free Blind Spot Report showing exactly how AI platforms see you right now, and what your competitors are doing that you are not.</p>
+            <p className="text-gray-400 mb-6">Get a free Blind Spot Report showing exactly how AI platforms see you right now, and what your competitors are doing that you are not. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

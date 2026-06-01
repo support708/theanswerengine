@@ -289,19 +289,19 @@ export default function HowPhotographersGetFoundOnAISearch() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.538-1.333-3.308 0L3.732 16c-.77 1.333.192 3 1.732 3z" />
               </svg>
               <div>
-                <p className="font-semibold text-yellow-300 mb-1">The Shift Most Photographers Are Missing</p>
+                <p className="font-semibold text-yellow-300 mb-1">The Shift Most Photographers Are Missing Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   93% of AI search sessions end without a website click. The AI gives the answer directly.
                   If a client asks &quot;who is the best wedding photographer in Denver&quot; and your name is not in that answer,
                   you have already lost the booking, before they ever visit any website.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
           </div>
 
           {/* ── TABLE OF CONTENTS ── */}
           <nav className="ae-toc bg-white/5 border border-white/10 rounded-xl p-6 mb-12">
-            <p className="text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-4">In This Guide</p>
+            <p className="text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-4">In This Guide <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             <ol className="space-y-2 text-sm">
               {[
                 ['#why-ai-search-matters', 'Why AI Search Is Now a Photography Business Problem'],
@@ -336,7 +336,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               the answer was a combination of The Knot listings, Instagram presence, Google search rankings,
               and word-of-mouth referrals. That formula still works, but a new channel has emerged that most
               photographers are completely ignoring: AI search.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When a couple in Portland opens ChatGPT and types &quot;who are the best documentary wedding
@@ -345,19 +345,19 @@ export default function HowPhotographersGetFoundOnAISearch() {
               Those photographers receive an implicit endorsement from the most trusted information source
               in the client&apos;s life right now. The photographers not mentioned? They effectively do not exist
               for that query.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p className="text-gray-300 leading-relaxed mb-6">
               With 810 million daily ChatGPT users and Google AI Overviews reaching 1.5 billion monthly users,
               the scale of this shift is not theoretical. Clients are already searching this way. The question
               is whether your photography business is positioned to appear in those answers.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Inline CTA 1 */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold text-sm mb-1">Is your photography business showing up?</p>
-                <p className="text-gray-400 text-xs">Find out what AI platforms actually say when someone searches for a photographer in your city.</p>
+                <p className="text-white font-semibold text-sm mb-1">Is your photography business showing up? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+                <p className="text-gray-400 text-xs">Find out what AI platforms actually say when someone searches for a photographer in your city. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <Link
                 href="/blindspot"
@@ -371,8 +371,8 @@ export default function HowPhotographersGetFoundOnAISearch() {
               <p className="text-lg text-gray-200 italic leading-relaxed">
                 &quot;The vendors mentioned by AI receive immediate credibility and consideration.
                 Those not mentioned might as well not exist for a growing segment of engaged couples.&quot;
-              </p>
-              <p className="text-sm text-gray-500 mt-3">AdsX, AI Visibility for Wedding Vendors Report, 2026</p>
+               Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              <p className="text-sm text-gray-500 mt-3">AdsX, AI Visibility for Wedding Vendors Report, 2026 Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
           </section>
 
@@ -387,7 +387,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               AI platforms do not have a dedicated photographer database. They synthesize information
               from the open web, weighting sources based on their perceived authority and relevance.
               Understanding how this synthesis works is the first step to influencing it.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When someone asks an AI for a photographer recommendation, the platform cross-references
@@ -396,7 +396,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               content like wedding blogs or local publications, and the structural clarity of your
               business information across directories. No single source determines the result.
               The AI builds a composite picture of who you are and how trustworthy you appear.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-6">
               This is meaningfully different from how Google has historically worked. Google&apos;s
@@ -406,7 +406,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               how good you are at it. Photographers who have invested in building a rich,
               consistent, cross-platform presence are naturally positioned to earn AI recommendations.
               Those who have optimized only for Google keywords are often invisible to AI.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-callout ae-callout-info border border-blue-500/30 bg-blue-500/5 rounded-xl p-6 mb-6">
               <div className="flex gap-4">
@@ -414,13 +414,13 @@ export default function HowPhotographersGetFoundOnAISearch() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <div>
-                  <p className="font-semibold text-blue-300 mb-1">The Entity Clarity Principle</p>
+                  <p className="font-semibold text-blue-300 mb-1">The Entity Clarity Principle Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                   <p className="text-gray-300 text-sm leading-relaxed">
                     AI platforms reason about businesses as entities, not just web pages. If ChatGPT cannot
                     clearly answer the question &quot;what does this photographer specialize in, and where do they
                     work?&quot; from the information available, it will simply recommend someone whose entity is clearer.
                     Ambiguity is the silent killer of AI visibility.
-                  </p>
+                   Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
             </div>
@@ -430,7 +430,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               The market is wide open. Photographers who move early on AI visibility will
               establish an authority position that competitors will struggle to displace - similar
               to how early movers on Instagram or The Knot built lasting advantages in the 2010s.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p className="text-gray-300 leading-relaxed">
               For a broader look at how this same dynamic plays out across other creative industries,
@@ -439,7 +439,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
                 whether content depth helps AI recommend your business
               </Link>{' '}
               apply directly to photography studios.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </section>
 
           {/* ── SECTION 3: SIGNALS THAT DRIVE RECOMMENDATIONS ── */}
@@ -454,7 +454,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               Each one individually moves the needle modestly. Together, they create the kind of
               authoritative online presence that AI platforms consistently recommend. Here is how
               the major signal categories break down:
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Pros/Cons: Strong vs. Weak Signal Profiles */}
             <div className="ae-pros-cons grid sm:grid-cols-2 gap-6 mb-10">
@@ -515,7 +515,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               a &quot;layered authority presence&quot; get named. Those who rely on a single channel - even a
               strong Instagram following - tend to remain invisible to AI platforms, because Instagram
               alone does not give AI enough cross-referenced data to trust a recommendation.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-6">
               This mirrors exactly what our research found in the real estate industry. In our guide
@@ -526,13 +526,13 @@ export default function HowPhotographersGetFoundOnAISearch() {
               , the agents with the most AI visibility were not necessarily the ones with the most
               followers or the highest Google rankings. They were the ones whose authority was corroborated
               from the most independent sources.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Inline CTA 2 */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold text-sm mb-1">How many of these signals does your studio have?</p>
-                <p className="text-gray-400 text-xs">Our Blind Spot Report shows you exactly where your AI visibility gaps are - and what to fix first.</p>
+                <p className="text-white font-semibold text-sm mb-1">How many of these signals does your studio have? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+                <p className="text-gray-400 text-xs">Our Blind Spot Report shows you exactly where your AI visibility gaps are - and what to fix first. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
               <Link
                 href="/blindspot"
@@ -555,7 +555,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               in the highest-stakes category, where the global market is valued at over $25 billion and
               couples routinely make $2,900 to $3,500+ decisions based on a handful of recommendations.
               But every photography niche has a version of this problem.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto mb-10">
@@ -597,7 +597,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               a claim in territory that their competitors have not even noticed yet. This window will not
               stay open indefinitely. As AI search literacy grows among business owners, early movers will
               have compounding advantages.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-takeaway bg-white/5 border border-white/10 rounded-xl p-6 mb-6">
               <div className="flex items-start gap-3">
@@ -605,13 +605,13 @@ export default function HowPhotographersGetFoundOnAISearch() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.347.347a3.5 3.5 0 01-4.95 0l-.347-.347z" />
                 </svg>
                 <div>
-                  <p className="font-semibold text-white mb-1">Key Takeaway</p>
+                  <p className="font-semibold text-white mb-1">Key Takeaway Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                   <p className="text-gray-300 text-sm leading-relaxed">
                     Wedding photographers face the most immediate pressure because that market is where
                     AI adoption among searchers is highest. But portrait, commercial, and newborn photographers
                     are sitting in a rare moment where they can build AI authority with almost no competition.
                     The photographers who act now in those niches will own those AI recommendation slots for years.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 </div>
               </div>
             </div>
@@ -628,7 +628,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               The photography industry has always been visually driven. That strength becomes a
               vulnerability in the age of AI search. Here are the specific patterns that keep
               most photographers invisible to AI platforms.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="space-y-5 mb-8">
               {[
@@ -662,7 +662,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
                   <div className="text-2xl font-bold text-[#F27D24]/30 font-plus-jakarta flex-shrink-0 w-8">{item.number}</div>
                   <div>
                     <h3 className="font-semibold text-white mb-2 font-plus-jakarta">{item.title}</h3>
-                    <p className="text-gray-400 text-sm leading-relaxed">{item.body}</p>
+                    <p className="text-gray-400 text-sm leading-relaxed">{item.body} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                   </div>
                 </div>
               ))}
@@ -675,12 +675,12 @@ export default function HowPhotographersGetFoundOnAISearch() {
               </Link>
               . The short answer: it helps at the margins, but it is not the core driver most photographers
               assume it to be.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* Inline CTA 3 */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold text-sm mb-1">Which of these gaps does your studio have?</p>
+                <p className="text-white font-semibold text-sm mb-1">Which of these gaps does your studio have? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 <p className="text-gray-400 text-xs">Our free Blind Spot Report audits your AI presence across ChatGPT, Perplexity, and Google AI - no tech knowledge required.</p>
               </div>
               <Link

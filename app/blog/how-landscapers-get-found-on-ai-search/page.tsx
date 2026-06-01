@@ -197,7 +197,7 @@ export default function Page() {
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Published {publishDate} by Justin Borges
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           </div>
         </div>
       </header>
@@ -249,16 +249,16 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Word of mouth still matters. Yard signs still get calls. But a growing slice of the market, one that is expanding fast, now starts with a different question: "Hey ChatGPT, who are the best landscapers near me?"
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             According to recent industry data, 45% of consumers now use AI tools to find local contractors and home service providers, up from just 6% twelve months earlier. That is not a trend. That is a structural shift in how customers discover and choose landscaping businesses.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The problem is that most landscaping businesses have not adapted. Only 17% of landscaping companies have tried any form of AI optimization, according to the 2025 Landscape Industry Report. That means the businesses who move now have an enormous window before the rest of the industry catches on.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Not sure if AI can find your landscaping business?</p>
+            <p className="text-gray-400 text-sm">Not sure if AI can find your landscaping business? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free AI Blind Spot Report and find out in minutes
             </Link>
@@ -268,7 +268,7 @@ export default function Page() {
             <div className="ae-callout-title">The Window Is Open, But Not Forever</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               When Google Maps launched, early adopters who claimed and optimized their listings dominated local search for years. AI search is at that same early inflection point. The landscapers who establish AI visibility now will be extremely difficult to displace later.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
         </section>
 
@@ -279,7 +279,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             AI platforms are not mystery boxes. They have a method: crawl publicly available sources, assess authority signals, cross-validate against multiple data points, and surface the businesses that look most trustworthy and relevant. The criteria differ slightly by platform, but the core signals are consistent.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-decision-matrix mb-6">
             <div className="ae-decision-row">
@@ -306,17 +306,17 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-4">
             This is why generic landscaping websites, one-page brochures, or sites with a single "Services" tab listing everything together perform so poorly in AI search. AI platforms are looking for specificity. The more clearly your website answers a specific question about a specific service, the more likely AI is to cite you when that question gets asked.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Specificity Problem</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               "We do lawn care, landscaping, and more!" is the kind of copy AI ignores. "We provide weekly residential lawn mowing in [City], including edging, blowing, and disposal, for lots up to 1/4 acre" is the kind of content AI can actually use to answer a homeowner's question. Specificity is not just better marketing. It is the language of AI.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Wondering how your landscaping website reads to AI?</p>
+            <p className="text-gray-400 text-sm">Wondering how your landscaping website reads to AI? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Run your free Blind Spot Report to see exactly what AI sees
             </Link>
@@ -330,10 +330,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Here is something most landscapers do not know: Thumbtack is directly embedded inside ChatGPT. When a homeowner asks ChatGPT to find a landscaper, ChatGPT can pull from Thumbtack listings and route the booking directly there. Angi launched a similar integration in early 2026. Amazon Alexa+ pulls from both Angi and Yelp.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This changes the math on directory listings dramatically. Being on these platforms is no longer just about the leads the platform itself sends you. It is about being visible inside the AI systems that are rapidly becoming the primary discovery channel for home services.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <table className="ae-comparison-table mb-6">
             <thead>
@@ -374,11 +374,11 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-4">
             The smart move is not to pick one. It is to maintain accurate, complete profiles across all of these platforms simultaneously because each platform feeds a different AI system. A homeowner who uses ChatGPT for discovery and a homeowner who uses Alexa for booking may be routing through entirely different data pipelines.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-cta-block my-8">
             <h3 className="font-plus-jakarta text-xl font-bold text-white mb-3">Is Your Landscaping Business AI-Ready?</h3>
-            <p className="text-gray-400 mb-6">Our Blind Spot Report shows exactly which AI platforms can find you, which cannot, and what is blocking your visibility.</p>
+            <p className="text-gray-400 mb-6">Our Blind Spot Report shows exactly which AI platforms can find you, which cannot, and what is blocking your visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <Link href="/blindspot" className="ae-cta-primary inline-flex items-center gap-2">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -393,7 +393,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Your website is the foundation. It is the one place where you fully control the information AI crawlers read about your business. Directory listings are important, but they are shallow data points. Your website is where you can build depth, and depth is what separates the landscapers AI cites from the ones it ignores.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-pros-cons mb-6">
             <div className="ae-pros-box">
@@ -426,7 +426,7 @@ export default function Page() {
             <div className="ae-callout-title">The Service Page Rule</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Every service you offer deserves its own page. Not a tab. Not a bullet point on a list. A full page with a descriptive title, what the service includes, who it is for, your pricing approach, and what the process looks like. This is not just good SEO. It is how AI systems map your capabilities.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
@@ -488,20 +488,20 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             AI platforms care about reviews, but not in the way most landscapers think. It is not just about having a high star rating. It is about where your reviews live, how many you have, and what they say.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Google reviews matter for Google Gemini and Google AI Overviews. Yelp reviews matter for Alexa+. Angi reviews matter for ChatGPT via the Angi integration. Thumbtack reviews matter for ChatGPT via the Thumbtack integration. There is no single review platform that covers all AI systems. A landscaper with 200 Google reviews and zero Yelp presence is invisible to Alexa+ regardless of how good their service is.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">What AI Reads in Reviews</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               AI models parse review text for patterns. A business with dozens of reviews mentioning "on time," "professional," "showed up when they said they would" builds a different authority profile than one with the same star rating but reviews that just say "great job." Specific, detailed reviews carry more weight than brief ones. Encourage customers to describe the work, not just rate it.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Want to know which review platforms are helping your AI visibility?</p>
+            <p className="text-gray-400 text-sm">Want to know which review platforms are helping your AI visibility? Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and see the full picture
             </Link>
@@ -515,10 +515,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Amazon launched Alexa+ in 2025 powered by Claude AI (from Anthropic) and integrated four major partner platforms: Yelp, Angi, Square, and Expedia. The result is a voice assistant that can now do what the old Alexa could not: actually book a landscaper, not just google one.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             A homeowner can say "Alexa, I need someone to mow my lawn on Saturday," and Alexa+ can search Angi and Yelp listings, match available pros, and initiate a booking, all without the homeowner touching a phone. This is a fundamentally new lead generation channel, and it runs through platforms you may already be listed on.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="ae-timeline mb-6">
             <div className="ae-timeline-item">
@@ -553,7 +553,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-4">
             The landscapers who benefit from this are the ones with active Angi and Yelp profiles, current availability, and competitive response times. If your Angi profile has not been updated in a year, you will not surface in this flow.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
         </section>
 
         {/* Section 7 */}
@@ -563,7 +563,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Only 1.2% of local businesses appear in ChatGPT recommendations, according to SOCi's 2026 Local Visibility Index. For landscapers, the number is even lower because the industry has been slower to adapt than sectors like restaurants, salons, or legal services. The most common reasons landscapers stay invisible:
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-cheat-sheet mb-6">
             <div className="ae-cheat-sheet-title">Why Landscapers Get Skipped by AI</div>
@@ -607,7 +607,7 @@ export default function Page() {
             <div className="ae-callout-title">The Competitor Window</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Right now, only a handful of landscapers in any given market have invested in AI visibility. That is a significant advantage for the first movers. In 12 to 18 months, the window will close as more businesses catch on. The landscapers who get recommended consistently by AI today will have accumulated the review signals, indexed content, and directory authority that makes them very hard to displace.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
         </section>
 
@@ -617,11 +617,11 @@ export default function Page() {
           <div className="grid md:grid-cols-2 gap-4">
             <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
               <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">How-To Guide</span>
-              <p className="text-white font-semibold text-sm mt-1">How Contractors and Home Service Companies Win AI Search</p>
+              <p className="text-white font-semibold text-sm mt-1">How Contractors and Home Service Companies Win AI Search <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </Link>
             <Link href="/blog/does-being-on-angi-or-thumbtack-help-ai-find-you" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
               <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Myth Busters</span>
-              <p className="text-white font-semibold text-sm mt-1">Does Being on Angi or Thumbtack Help AI Find You</p>
+              <p className="text-white font-semibold text-sm mt-1">Does Being on Angi or Thumbtack Help AI Find You <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </Link>
           </div>
         </section>
@@ -629,7 +629,7 @@ export default function Page() {
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out If AI Can Actually Recommend Your Landscaping Business</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your AI visibility across ChatGPT, Perplexity, Alexa+, and Google AI. You will see exactly where you appear, where you do not, and what is standing in the way.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your AI visibility across ChatGPT, Perplexity, Alexa+, and Google AI. You will see exactly where you appear, where you do not, and what is standing in the way. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -657,7 +657,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
           </div>
@@ -696,7 +696,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border-b border-gray-800 pb-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-2 text-lg">{q}</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">{a}</p>
+                <p className="text-gray-400 leading-relaxed text-sm">{a} <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             ))}
           </div>

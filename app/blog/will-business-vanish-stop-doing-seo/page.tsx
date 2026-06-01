@@ -243,18 +243,18 @@ export default function BlogPost() {
             </ul>
           </div>
 
-          <p>Every business owner who pays for SEO has asked this question at least once. The monthly invoices keep coming. The reports look fine. But the nagging doubt remains: <strong>if I stopped paying tomorrow, would my business actually disappear from search?</strong></p>
+          <p>Every business owner who pays for SEO has asked this question at least once. The monthly invoices keep coming. The reports look fine. But the nagging doubt remains: <strong>if I stopped paying tomorrow, would my business actually disappear from search?</strong> Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>The honest answer is more nuanced than your SEO agency wants you to hear. And the real story is far more interesting than a simple yes or no.</p>
+          <p>The honest answer is more nuanced than your SEO agency wants you to hear. And the real story is far more interesting than a simple yes or no. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Core Problem</div>
-            <p>Most businesses are asking the wrong question. The question is not "will I vanish if I stop SEO?" The question is "am I already invisible in the places where buyers are actually looking?" Because in 2026, those places are increasingly AI-powered.</p>
+            <p>Most businesses are asking the wrong question. The question is not "will I vanish if I stop SEO?" The question is "am I already invisible in the places where buyers are actually looking?" Because in 2026, those places are increasingly AI-powered. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Before you make any changes to your SEO strategy, find out where you actually stand in AI search.</p>
+            <p>Before you make any changes to your SEO strategy, find out where you actually stand in AI search. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -262,13 +262,13 @@ export default function BlogPost() {
           <span className="ae-section-label">The Data</span>
           <h2>What Actually Happens When You Stop SEO</h2>
 
-          <p>Let us be honest about what the research shows. Stopping SEO does not make your website vanish overnight. Rankings decay gradually, like a garden you stop watering. Some plants hold on longer than others, but eventually everything wilts.</p>
+          <p>Let us be honest about what the research shows. Stopping SEO does not make your website vanish overnight. Rankings decay gradually, like a garden you stop watering. Some plants hold on longer than others, but eventually everything wilts. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-          <p>According to a 2025 analysis of over 40,000 major US websites, organic search traffic declined an average of 2.5% year over year across the board. But that aggregate number hides dramatic variation. Among B2B websites specifically, <strong>73% experienced significant traffic losses, with the average decline reaching 34% year over year</strong> (KEO Marketing, 2025).</p>
+          <p>According to a 2025 analysis of over 40,000 major US websites, organic search traffic declined an average of 2.5% year over year across the board. But that aggregate number hides dramatic variation. Among B2B websites specifically, <strong>73% experienced significant traffic losses, with the average decline reaching 34% year over year</strong> (KEO Marketing, 2025). <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>The largest, most established sites (top 10) actually grew organic traffic by 1.6%. The losses are concentrated among mid-sized businesses ranked between 100 and 10,000. This is the "middle class squeeze" of search, and it is where most businesses live.</p>
+            <p>The largest, most established sites (top 10) actually grew organic traffic by 1.6%. The losses are concentrated among mid-sized businesses ranked between 100 and 10,000. This is the "middle class squeeze" of search, and it is where most businesses live. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           {/* TIMELINE: Traffic Decay */}
@@ -302,7 +302,7 @@ export default function BlogPost() {
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure where your traffic actually comes from? Our report breaks down your visibility across every major AI and search platform.</p>
+            <p>Not sure where your traffic actually comes from? Our report breaks down your visibility across every major AI and search platform. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <Link href="/blindspot">See Your Full Visibility Map &rarr;</Link>
           </div>
 
@@ -332,18 +332,18 @@ export default function BlogPost() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>The businesses gaining traffic are not just doing better SEO. They are the ones AI cites as authoritative sources. Google's AI Overview appearance rose 492% between September 2024 and September 2025. The winners are visible in both channels.</p>
+            <p>The businesses gaining traffic are not just doing better SEO. They are the ones AI cites as authoritative sources. Google's AI Overview appearance rose 492% between September 2024 and September 2025. The winners are visible in both channels. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* SECTION: THE WRONG QUESTION */}
           <span className="ae-section-label">The Real Question</span>
           <h2>Why "Should I Stop SEO?" Is the Wrong Question</h2>
 
-          <p>Here is what most SEO agencies will never tell you: <strong>the real threat to your business is not what happens if you stop SEO. The real threat is what happens while you keep doing SEO and ignore everything else.</strong></p>
+          <p>Here is what most SEO agencies will never tell you: <strong>the real threat to your business is not what happens if you stop SEO. The real threat is what happens while you keep doing SEO and ignore everything else.</strong> Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <p>Consider these numbers. 60% of all searches now end without a click (SparkToro/Datos, 2024). Google's AI Mode results in zero clicks 93% of the time. AI Overviews have reduced position-one organic click-through rates by 58% (as of December 2025).</p>
+          <p>Consider these numbers. 60% of all searches now end without a click (SparkToro/Datos, 2024). Google's AI Mode results in zero clicks 93% of the time. AI Overviews have reduced position-one organic click-through rates by 58% (as of December 2025). One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
-          <p>That means even if your SEO is working perfectly, even if you rank number one for your target keywords, more than half of the people searching will never visit your website. They get their answer from AI and move on.</p>
+          <p>That means even if your SEO is working perfectly, even if you rank number one for your target keywords, more than half of the people searching will never visit your website. They get their answer from AI and move on. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-quote not-prose">
             <blockquote>"Total search usage combining search engines and LLMs increased 26% worldwide. The pie is bigger. But the slice going to traditional organic clicks is shrinking fast."</blockquote>
@@ -352,7 +352,7 @@ export default function BlogPost() {
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your SEO rankings tell half the story. Find out if AI platforms even know your business exists.</p>
+            <p>Your SEO rankings tell half the story. Find out if AI platforms even know your business exists. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
           </div>
 
@@ -388,11 +388,11 @@ export default function BlogPost() {
             </tbody>
           </table>
 
-          <p>The businesses asking "should I stop SEO?" are focused on the wrong threat. The right question is: <strong>"Am I visible in both traditional search AND AI search?"</strong> Because your competitors who figured this out are capturing buyers from channels you do not even know exist.</p>
+          <p>The businesses asking "should I stop SEO?" are focused on the wrong threat. The right question is: <strong>"Am I visible in both traditional search AND AI search?"</strong> Because your competitors who figured this out are capturing buyers from channels you do not even know exist. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your competitors may already be optimizing for AI search. See how you compare.</p>
+            <p>Your competitors may already be optimizing for AI search. See how you compare. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Run Your Competitive AI Analysis &rarr;</Link>
           </div>
 
@@ -400,11 +400,11 @@ export default function BlogPost() {
           <span className="ae-section-label">SEO vs. AEO</span>
           <h2>The SEO vs. AEO Debate (and Why Both Sides Are Wrong)</h2>
 
-          <p>There is a heated debate online right now. One camp says SEO is dead, AI killed it, move on. The other camp says AI is a fad and SEO fundamentals will always win. Both sides are wrong.</p>
+          <p>There is a heated debate online right now. One camp says SEO is dead, AI killed it, move on. The other camp says AI is a fad and SEO fundamentals will always win. Both sides are wrong. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
-          <p>Here is the reality. Organic results still capture approximately 90% of all clicks from Google, with paid ads receiving just 10%. That means <strong>organic search still delivers 10 times more traffic than paid advertising</strong>. SEO is not dead by any reasonable metric.</p>
+          <p>Here is the reality. Organic results still capture approximately 90% of all clicks from Google, with paid ads receiving just 10%. That means <strong>organic search still delivers 10 times more traffic than paid advertising</strong>. SEO is not dead by any reasonable metric. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-          <p>But the AI search channel is exploding. The global SEO services market hit $74.9 billion in 2025 and is projected to reach $127.3 billion by 2030 at a 12.3% compound annual growth rate. Much of that growth is being driven by businesses adding AI optimization to their existing SEO.</p>
+          <p>But the AI search channel is exploding. The global SEO services market hit $74.9 billion in 2025 and is projected to reach $127.3 billion by 2030 at a 12.3% compound annual growth rate. Much of that growth is being driven by businesses adding AI optimization to their existing SEO. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* PROS/CONS */}
           <div className="ae-pros-cons not-prose">
@@ -432,12 +432,12 @@ export default function BlogPost() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>SEO is not dead. AEO is not optional. The businesses winning in 2026 treat SEO as the foundation and AEO as the growth layer. One without the other leaves you exposed.</p>
+            <p>SEO is not dead. AEO is not optional. The businesses winning in 2026 treat SEO as the foundation and AEO as the growth layer. One without the other leaves you exposed. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>Learn how SEO and AEO work together in our detailed comparison guide.</p>
+            <p>Learn how SEO and AEO work together in our detailed comparison guide. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blog/aeo-vs-seo">Read: AEO vs. SEO: The Complete Breakdown &rarr;</Link>
           </div>
 
@@ -445,9 +445,9 @@ export default function BlogPost() {
           <span className="ae-section-label">The AI Factor</span>
           <h2>What AI Search Changes About the Equation</h2>
 
-          <p>Understanding the AI factor is what separates businesses that thrive from those that slowly fade. AI search platforms do not evaluate businesses the same way Google does. They use entirely different signals.</p>
+          <p>Understanding the AI factor is what separates businesses that thrive from those that slowly fade. AI search platforms do not evaluate businesses the same way Google does. They use entirely different signals. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
-          <p>When someone asks ChatGPT, Perplexity, or Google AI Overview to recommend a business, those platforms look for brand mentions across authoritative sources, consistent business information, content that directly answers questions, and reviews on platforms AI can actually access.</p>
+          <p>When someone asks ChatGPT, Perplexity, or Google AI Overview to recommend a business, those platforms look for brand mentions across authoritative sources, consistent business information, content that directly answers questions, and reviews on platforms AI can actually access. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           {/* DECISION MATRIX */}
           <div className="ae-decision-matrix not-prose">
@@ -504,16 +504,16 @@ export default function BlogPost() {
             </table>
           </div>
 
-          <p>Notice the pattern? The signals that matter most for AI visibility are not the same signals your SEO agency optimizes for. This is not a criticism of SEO agencies. It is a structural reality of how AI works. <Link href="/blog/hidden-cost-ignoring-ai-search">The hidden cost of ignoring AI search</Link> compounds every month you wait.</p>
+          <p>Notice the pattern? The signals that matter most for AI visibility are not the same signals your SEO agency optimizes for. This is not a criticism of SEO agencies. It is a structural reality of how AI works. <Link href="/blog/hidden-cost-ignoring-ai-search">The hidden cost of ignoring AI search</Link> compounds every month you wait. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Critical Insight</div>
-            <p>Ahrefs studied 75,000 brands and found that traditional SEO metrics like domain authority have a weak correlation with AI recommendations. The businesses AI recommends are not always the ones ranking highest in Google.</p>
+            <p>Ahrefs studied 75,000 brands and found that traditional SEO metrics like domain authority have a weak correlation with AI recommendations. The businesses AI recommends are not always the ones ranking highest in Google. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* CTA 6 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your domain authority is strong but AI platforms are recommending your competitors. Find out why.</p>
+            <p>Your domain authority is strong but AI platforms are recommending your competitors. Find out why. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot">Discover Your AI Signal Gaps &rarr;</Link>
           </div>
 
@@ -521,7 +521,7 @@ export default function BlogPost() {
           <span className="ae-section-label">The Framework</span>
           <h2>The Visibility Framework That Actually Protects Your Business</h2>
 
-          <p>Instead of asking "should I stop SEO?", smart businesses are asking "how do I build visibility that cannot be disrupted?" The answer is a layered approach.</p>
+          <p>Instead of asking "should I stop SEO?", smart businesses are asking "how do I build visibility that cannot be disrupted?" The answer is a layered approach. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* CHEAT SHEET */}
           <div className="ae-cheat-sheet not-prose">
@@ -548,11 +548,11 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>This framework protects you regardless of what happens with Google, AI, or any single platform. When your authority is distributed across the entire web, no single algorithm change can erase your business.</p>
+          <p>This framework protects you regardless of what happens with Google, AI, or any single platform. When your authority is distributed across the entire web, no single algorithm change can erase your business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           {/* CTA 7 */}
           <div className="ae-cta-inline not-prose">
-            <p>Most businesses are missing 3 or more layers of this framework. Our report shows you exactly which ones.</p>
+            <p>Most businesses are missing 3 or more layers of this framework. Our report shows you exactly which ones. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot">Get Your Framework Assessment &rarr;</Link>
           </div>
 
@@ -560,7 +560,7 @@ export default function BlogPost() {
           <span className="ae-section-label">Warning Signs</span>
           <h2>7 Warning Signs Your Visibility Strategy Is Vulnerable</h2>
 
-          <p>How do you know if your business is at risk? Look for these signals. If three or more apply to you, your visibility is built on a single point of failure.</p>
+          <p>How do you know if your business is at risk? Look for these signals. If three or more apply to you, your visibility is built on a single point of failure. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           {/* TIMELINE as checklist */}
           <div className="ae-timeline not-prose">
@@ -601,7 +601,7 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>If you recognized your business in three or more of those warning signs, you are not alone. Most businesses are in exactly this position. The good news: the businesses that act now have a significant first-mover advantage in AI search. Those that wait will be playing catch-up against competitors who already established their AI authority.</p>
+          <p>If you recognized your business in three or more of those warning signs, you are not alone. Most businesses are in exactly this position. The good news: the businesses that act now have a significant first-mover advantage in AI search. Those that wait will be playing catch-up against competitors who already established their AI authority. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Opportunity</div>

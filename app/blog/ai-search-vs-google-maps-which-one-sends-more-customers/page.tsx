@@ -281,7 +281,7 @@ export default function Page() {
               style={{ color: '#F27D24' }}
             >
               In This Article
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <ol className="space-y-2 text-sm" style={{ color: '#9CA3AF' }}>
               <li>
                 <a href="#the-numbers" className="hover:text-white transition-colors">
@@ -345,7 +345,7 @@ export default function Page() {
               search are competing on different dimensions. Maps wins on raw volume. AI wins on
               conversion quality. The real question is: which dimension matters more to your bottom
               line right now?
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-stats-grid grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
               {[
@@ -398,7 +398,7 @@ export default function Page() {
                 style={{ color: '#F27D24' }}
               >
                 Conversion Rates by Channel
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               {[
                 { label: 'ChatGPT', value: 15.9, max: 16, color: '#F27D24' },
                 { label: 'Perplexity', value: 10.5, max: 16, color: '#F59E0B' },
@@ -431,7 +431,7 @@ export default function Page() {
               ))}
               <p className="text-xs mt-4" style={{ color: '#6B7280' }}>
                 Sources: SE Ranking AI Traffic Study 2025, Digiday AI Referral Report, BrightLocal
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
           </section>
 
@@ -445,11 +445,11 @@ export default function Page() {
           >
             <p className="font-plus-jakarta text-lg font-bold mb-2" style={{ color: '#FFFFFF' }}>
               Not sure where your customers are actually finding you?
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-sm mb-4" style={{ color: '#9CA3AF' }}>
               We audit your AI and Maps visibility in both channels and show you exactly which one
               is sending qualified leads, and what you are missing.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             <div className="flex flex-wrap gap-3">
               <Link
                 href="/get-started"
@@ -482,19 +482,19 @@ export default function Page() {
               in 2026. The mechanics are well-understood: a user types "plumber near me" or "best
               sushi downtown," Google surfaces a map with three pinned businesses, and users click
               the one with the best rating, most reviews, or closest location.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             <p className="mb-6 leading-relaxed" style={{ color: '#D1D5DB' }}>
               The numbers back this up. When the Google Map Pack appears, 42% of users click it.
               Businesses in the local 3-pack receive 126% more traffic and 93% more
               conversion-oriented actions than businesses in positions 4 through 10. "Near me"
               searches make up 84% of local discovery searches, and 8 in 10 Americans search for a
               local business online at least once a week.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <p className="mb-6 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Google Maps customers tend to be in a specific behavioral mode: they know what they
               want, they want it nearby, and they are comparing options side by side. This produces
               moderate conversion rates, typically 2 to 3%, but enormous volume.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Callout Info */}
             <div
@@ -503,13 +503,13 @@ export default function Page() {
             >
               <p className="font-bold text-sm mb-1" style={{ color: '#60A5FA' }}>
                 Key Context: The 3-Pack is Getting Compressed
-              </p>
+               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <p className="text-sm leading-relaxed" style={{ color: '#D1D5DB' }}>
                 Google&apos;s AI Overviews now appear above the local 3-pack in many queries. This
                 means even if you rank in the top 3, an AI-generated summary about your
                 competitors may appear first. Google Maps optimization and AI optimization are no
                 longer separate disciplines.
-              </p>
+               One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
           </section>
 
@@ -527,19 +527,19 @@ export default function Page() {
               asks ChatGPT "Who is the best HVAC company in Austin?" they are not browsing a map,
               they are requesting a recommendation. The AI synthesizes information from your website,
               review platforms, directories, and structured data, then names a business as the answer.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <p className="mb-6 leading-relaxed" style={{ color: '#D1D5DB' }}>
               That distinction changes who arrives at your door. A customer from Google Maps was
               comparing options. A customer from ChatGPT received a direct recommendation and arrived
               having already decided. This is why conversion rates from AI-sourced traffic are so
               dramatically higher: ChatGPT at 15.9%, Perplexity at 10.5%, Google AI Overview at 3%.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <p className="mb-6 leading-relaxed" style={{ color: '#D1D5DB' }}>
               The challenge is visibility. Only 1.2% of locations are currently recommended by
               ChatGPT and 7.4% by Perplexity, compared to 35.9% appearing in Google&apos;s local
               3-pack. AI visibility is 3 to 30 times harder to achieve. The businesses that invest
               in it now face almost no competition.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Internal link */}
             <p className="mb-8 leading-relaxed" style={{ color: '#D1D5DB' }}>
@@ -551,7 +551,7 @@ export default function Page() {
                 How Customers Use AI to Find Local Businesses
               </Link>
               .
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Callout Warning */}
             <div
@@ -560,13 +560,13 @@ export default function Page() {
             >
               <p className="font-bold text-sm mb-1" style={{ color: '#FBBF24' }}>
                 Warning: AI Referral Traffic Is Growing Faster Than Most Businesses Realize
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <p className="text-sm leading-relaxed" style={{ color: '#D1D5DB' }}>
                 AI search traffic to SMB websites grew 527% year-over-year in early 2025. If your
                 analytics are not broken out by referral source, you may be missing a rapidly growing
                 channel entirely. Businesses that wait until AI traffic is "significant" will be
                 fighting for visibility against competitors who have been building it for two years.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
           </section>
 
@@ -580,11 +580,11 @@ export default function Page() {
           >
             <p className="font-plus-jakarta font-bold mb-1" style={{ color: '#FFFFFF' }}>
               Already ranking on Maps but invisible to AI?
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <p className="text-sm mb-4" style={{ color: '#9CA3AF' }}>
               That gap is exactly where we work. Text us your business name and we&apos;ll check
               your AI visibility across ChatGPT, Perplexity, and Google AI in 24 hours.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <a
               href="sms:+1-800-555-0199"
               className="inline-block font-bold text-sm px-5 py-2.5 rounded-lg"
@@ -606,7 +606,7 @@ export default function Page() {
             <p className="mb-8 leading-relaxed" style={{ color: '#D1D5DB' }}>
               Neither channel is better in every dimension. Here is an honest, data-driven
               comparison across the metrics that matter to local businesses.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-comparison-table overflow-x-auto rounded-xl mb-8" style={{ border: '1px solid #1E2130' }}>
               <table className="w-full text-sm" style={{ borderCollapse: 'collapse' }}>
@@ -686,7 +686,7 @@ export default function Page() {
             <p className="mb-8 leading-relaxed" style={{ color: '#D1D5DB' }}>
               The transition from Maps-first to AI-first local discovery is not a future event. It
               is measurable today, and the timeline is accelerating. Here is how it has unfolded.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Timeline */}
             <div className="ae-timeline relative mb-10 pl-8" style={{ borderLeft: '2px solid #1E2130' }}>
@@ -733,13 +733,13 @@ export default function Page() {
                     style={{ color: item.color }}
                   >
                     {item.year}
-                  </p>
+                   Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                   <p className="font-bold mb-1" style={{ color: '#FFFFFF' }}>
                     {item.title}
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                   <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>
                     {item.body}
-                  </p>
+                   Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               ))}
             </div>
@@ -753,7 +753,7 @@ export default function Page() {
                 &ldquo;Google Maps still drives the most foot traffic. But ChatGPT drives the most
                 decided customers. The gap between those two statements is where the next five years
                 of local marketing strategy will be written.&rdquo;
-              </p>
+               Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <footer className="text-sm" style={{ color: '#6B7280' }}>
                 The Answer Engine Research Team, 2026
               </footer>
@@ -769,7 +769,7 @@ export default function Page() {
                 How AI Search Changes the Sales Funnel for Local Businesses
               </Link>
               .
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </section>
 
           {/* CTA 3 */}
@@ -782,12 +782,12 @@ export default function Page() {
           >
             <p className="font-plus-jakarta font-bold text-lg mb-2" style={{ color: '#FFFFFF' }}>
               The shift is already in your analytics. We just help you read it.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <p className="text-sm mb-4" style={{ color: '#9CA3AF' }}>
               Book a 20-minute visibility call and we&apos;ll walk you through exactly which channel
               is driving your best customers, and which one has a gap that your competitors are
               about to fill.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <div className="flex flex-wrap gap-3">
               <Link
                 href="/blindspot"
@@ -824,7 +824,7 @@ export default function Page() {
                   style={{ color: '#60A5FA' }}
                 >
                   Google Maps: Pros
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 <ul className="space-y-2 text-sm" style={{ color: '#D1D5DB' }}>
                   {[
                     'Massive, consistent traffic volume from billions of searches',
@@ -848,7 +848,7 @@ export default function Page() {
                   style={{ color: '#F87171' }}
                 >
                   Google Maps: Cons
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 <ul className="space-y-2 text-sm" style={{ color: '#D1D5DB' }}>
                   {[
                     'AI Overviews now appear above the 3-pack, stealing clicks',

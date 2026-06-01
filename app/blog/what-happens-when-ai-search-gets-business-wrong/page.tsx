@@ -216,13 +216,13 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             <p>A customer pulls out their phone and asks ChatGPT for the best plumber in their area. The AI responds with a recommendation, a phone number, and a summary of reviews. The customer calls the number. It rings. Someone answers. But it is not your business. It is a competitor. Or worse, it is a scam.</p>
 
-            <p>This is not hypothetical. It is happening right now, to real businesses, every single day. Google&apos;s AI Overviews have been caught displaying scam phone numbers for legitimate businesses. ChatGPT and Perplexity regularly serve business information that is outdated, incomplete, or entirely fabricated. And the businesses being misrepresented often have no idea it is happening until the damage is already done.</p>
+            <p>This is not hypothetical. It is happening right now, to real businesses, every single day. Google&apos;s AI Overviews have been caught displaying scam phone numbers for legitimate businesses. ChatGPT and Perplexity regularly serve business information that is outdated, incomplete, or entirely fabricated. And the businesses being misrepresented often have no idea it is happening until the damage is already done. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
               <p>About 80% of search users now rely on AI-written summaries for at least 40% of their searches, and 37% of consumers begin their searches with AI tools rather than traditional search engines.</p>
             </div>
 
-            <p>The shift to AI-powered search is accelerating. When AI gets your business information wrong, the consequences are immediate and measurable. The question is not whether AI is making mistakes about your business. The question is whether you know what those mistakes are.</p>
+            <p>The shift to AI-powered search is accelerating. When AI gets your business information wrong, the consequences are immediate and measurable. The question is not whether AI is making mistakes about your business. The question is whether you know what those mistakes are. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -234,7 +234,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
             <span className="ae-section-label">The Data</span>
             <h2>The Scale of AI Search Errors Is Staggering</h2>
 
-            <p>AI hallucination is not a rare glitch. It is a systemic issue across every major AI platform. The average hallucination rate across all AI models sits at approximately 9.2% for general knowledge questions, according to Suprmind&apos;s 2026 AI Hallucination Research Report. That number climbs dramatically for specific business queries, local information, and person-specific details, where some models hallucinate at rates exceeding 30%.</p>
+            <p>AI hallucination is not a rare glitch. It is a systemic issue across every major AI platform. The average hallucination rate across all AI models sits at approximately 9.2% for general knowledge questions, according to Suprmind&apos;s 2026 AI Hallucination Research Report. That number climbs dramatically for specific business queries, local information, and person-specific details, where some models hallucinate at rates exceeding 30%. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>For businesses, these are not abstract percentages. They translate directly into wrong answers reaching real customers who are trying to spend real money.</p>
 
@@ -270,7 +270,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
               </div>
             </div>
 
-            <p>Each enterprise employee costs companies roughly $14,200 per year in hallucination-related verification and mitigation efforts, according to Forrester Research. For small businesses without dedicated staff to monitor AI outputs, the errors simply go unchecked and uncorrected, silently redirecting potential customers elsewhere.</p>
+            <p>Each enterprise employee costs companies roughly $14,200 per year in hallucination-related verification and mitigation efforts, according to Forrester Research. For small businesses without dedicated staff to monitor AI outputs, the errors simply go unchecked and uncorrected, silently redirecting potential customers elsewhere. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Trust Problem Makes It Worse</div>
@@ -279,7 +279,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure what AI is telling your potential customers? We can show you.</p>
+              <p>Not sure what AI is telling your potential customers? We can show you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Audit &rarr;</a>
             </div>
 
@@ -293,7 +293,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Wrong Phone Numbers and Scam Redirects</strong>
-                <p>In August 2025, The Washington Post reported that Google&apos;s AI Overviews were serving scam phone numbers to users searching for customer service contacts. Users were being connected to fraudulent call centers instead of the actual business.</p>
+                <p>In August 2025, The Washington Post reported that Google&apos;s AI Overviews were serving scam phone numbers to users searching for customer service contacts. Users were being connected to fraudulent call centers instead of the actual business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Competitor Confusion</strong>
@@ -301,7 +301,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Fabricated Business Details</strong>
-                <p>When AI platforms lack reliable data, they fill in the gaps with generated content that sounds authoritative but is entirely made up. This might include fabricated service offerings, invented pricing, or fictional customer reviews.</p>
+                <p>When AI platforms lack reliable data, they fill in the gaps with generated content that sounds authoritative but is entirely made up. This might include fabricated service offerings, invented pricing, or fictional customer reviews. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Revenue Loss from Misdirected Traffic</strong>
@@ -311,7 +311,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>MarTech recommends that every business run queries for their brand name plus &quot;phone number,&quot; &quot;corporate office,&quot; and &quot;customer service&quot; across AI platforms to check for these errors. Most businesses have never done this.</p>
+              <p>MarTech recommends that every business run queries for their brand name plus &quot;phone number,&quot; &quot;corporate office,&quot; and &quot;customer service&quot; across AI platforms to check for these errors. Most businesses have never done this. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* ── CTA 3 ── */}
@@ -324,7 +324,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
             <span className="ae-section-label">Financial Impact</span>
             <h2>The Real Cost of AI Search Errors</h2>
 
-            <p>The financial impact is not limited to large enterprises. Wolf River Electric, a Minnesota solar company, filed a defamation lawsuit against Google in June 2025, claiming that AI-generated summaries in search results led to a verified $150,000 lost contract and damaged the company&apos;s reputation. For a small business, a single lost contract of that size can be devastating.</p>
+            <p>The financial impact is not limited to large enterprises. Wolf River Electric, a Minnesota solar company, filed a defamation lawsuit against Google in June 2025, claiming that AI-generated summaries in search results led to a verified $150,000 lost contract and damaged the company&apos;s reputation. For a small business, a single lost contract of that size can be devastating. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── COMPARISON TABLE: FINANCIAL IMPACT ── */}
             <table className="ae-comparison-table not-prose">
@@ -368,7 +368,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about how AI errors are affecting your specific industry?</p>
+              <p>Questions about how AI errors are affecting your specific industry? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -416,7 +416,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
               </tbody>
             </table>
 
-            <p>Regulatory frameworks are also emerging. Texas passed the Responsible AI Governance Act in June 2025, establishing fines of up to $200,000 per violation for certain AI abuses. While the law primarily targets intentional misuse like deepfakes and discrimination, it signals a growing willingness by lawmakers to hold AI platforms accountable for their outputs.</p>
+            <p>Regulatory frameworks are also emerging. Texas passed the Responsible AI Governance Act in June 2025, establishing fines of up to $200,000 per violation for certain AI abuses. While the law primarily targets intentional misuse like deepfakes and discrimination, it signals a growing willingness by lawmakers to hold AI platforms accountable for their outputs. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Bottom Line on Legal Protection</div>
@@ -425,7 +425,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Prevention starts with knowing what AI is saying. Find out in 60 seconds.</p>
+              <p>Prevention starts with knowing what AI is saying. Find out in 60 seconds. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -435,7 +435,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             <p>Most businesses assume that if their Google Business Profile is accurate and their website is up to date, AI will get things right. That assumption is dangerously wrong.</p>
 
-            <p>AI platforms like ChatGPT do not read your Google Business Profile. They cannot access Google Maps data directly. Instead, they rely on web scraping, training data (which may be months or years old), and third-party sources that may themselves contain errors. This is why understanding <Link href="/blog/chatgpt-cant-see-google-business-profile">what ChatGPT can and cannot see about your business</Link> is essential.</p>
+            <p>AI platforms like ChatGPT do not read your Google Business Profile. They cannot access Google Maps data directly. Instead, they rely on web scraping, training data (which may be months or years old), and third-party sources that may themselves contain errors. This is why understanding <Link href="/blog/chatgpt-cant-see-google-business-profile">what ChatGPT can and cannot see about your business</Link> is essential. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── PROS AND CONS: VULNERABILITY FACTORS ── */}
             <div className="ae-pros-cons not-prose">
@@ -491,7 +491,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
             <span className="ae-section-label">Platform Comparison</span>
             <h2>How Accurate Is Each AI Platform for Business Info?</h2>
 
-            <p>Not all AI platforms handle business data the same way. Understanding where each platform gets its data explains why accuracy varies so dramatically.</p>
+            <p>Not all AI platforms handle business data the same way. Understanding where each platform gets its data explains why accuracy varies so dramatically. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── BAR CHART: PLATFORM ACCURACY ── */}
             <div className="ae-bar-group not-prose">
@@ -522,7 +522,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly how each AI platform represents your business?</p>
+              <p>Want to see exactly how each AI platform represents your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -547,13 +547,13 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             <h3>1. Audit What AI Is Saying About You Right Now</h3>
 
-            <p>Before you fix anything, you need to know what is broken. Open ChatGPT, Google AI Overviews, Perplexity, and Claude. Search for your business name with terms like &quot;phone number,&quot; &quot;hours,&quot; &quot;reviews,&quot; &quot;pricing,&quot; and &quot;services.&quot; Document every error you find. This audit is the foundation of your correction strategy.</p>
+            <p>Before you fix anything, you need to know what is broken. Open ChatGPT, Google AI Overviews, Perplexity, and Claude. Search for your business name with terms like &quot;phone number,&quot; &quot;hours,&quot; &quot;reviews,&quot; &quot;pricing,&quot; and &quot;services.&quot; Document every error you find. This audit is the foundation of your correction strategy. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>Our <Link href="/blog/5-minute-ai-visibility-audit">5-minute AI visibility audit guide</Link> walks you through this process step by step.</p>
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want us to run the audit for you? We check every major AI platform.</p>
+              <p>Want us to run the audit for you? We check every major AI platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -563,7 +563,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             <h3>3. Build Content That AI Can Trust</h3>
 
-            <p>AI platforms prioritize content that is detailed, specific, and consistent with other sources. Your website needs comprehensive service pages, location-specific content, a thorough FAQ section, and regular updates. The more authoritative content AI has to reference about your business, the less likely it is to fabricate details. For a deeper look at what content matters most, see our guide on <Link href="/blog/what-content-does-chatgpt-read-on-my-website">what content ChatGPT actually reads on your website</Link>.</p>
+            <p>AI platforms prioritize content that is detailed, specific, and consistent with other sources. Your website needs comprehensive service pages, location-specific content, a thorough FAQ section, and regular updates. The more authoritative content AI has to reference about your business, the less likely it is to fabricate details. For a deeper look at what content matters most, see our guide on <Link href="/blog/what-content-does-chatgpt-read-on-my-website">what content ChatGPT actually reads on your website</Link>. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>4. Implement Structured Data Markup</h3>
 
@@ -571,7 +571,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             <h3>5. Monitor Continuously, Not Once</h3>
 
-            <p>AI outputs change constantly. A query that returns correct information today might return something completely different next week. Set a monthly cadence for checking what AI platforms say about your business. Track changes over time. Treat AI monitoring with the same seriousness you give to Google ranking checks.</p>
+            <p>AI outputs change constantly. A query that returns correct information today might return something completely different next week. Set a monthly cadence for checking what AI platforms say about your business. Track changes over time. Treat AI monitoring with the same seriousness you give to Google ranking checks. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>6. Consider Professional Answer Engine Optimization</h3>
 
@@ -579,7 +579,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             {/* ── CTA 9 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Need help with any of these steps? Our team specializes in AI visibility.</p>
+              <p>Need help with any of these steps? Our team specializes in AI visibility. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -634,7 +634,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             {/* ── CTA 10 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to move beyond SEO and into AI visibility?</p>
+              <p>Ready to move beyond SEO and into AI visibility? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -676,7 +676,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
               </div>
             </div>
 
-            <p>Global spending on online reputation management has grown from approximately $6.88 billion in 2025 toward a projected $14 billion by 2031, reflecting the growing recognition that what AI says about your business matters as much as what Google&apos;s search results show. The World Economic Forum&apos;s 2025 Global Risk Report ranked misinformation in both the top five short-term and long-term global risks.</p>
+            <p>Global spending on online reputation management has grown from approximately $6.88 billion in 2025 toward a projected $14 billion by 2031, reflecting the growing recognition that what AI says about your business matters as much as what Google&apos;s search results show. The World Economic Forum&apos;s 2025 Global Risk Report ranked misinformation in both the top five short-term and long-term global risks. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Opportunity</div>
@@ -685,7 +685,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
             {/* ── CTA 11 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>The window to get ahead of AI search errors is narrowing. Act now.</p>
+              <p>The window to get ahead of AI search errors is narrowing. Act now. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -716,7 +716,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                   Yes. AI hallucinations cost $67.4 billion globally in 2024. Gartner estimates average annual brand losses of $2.1 million from AI misinformation. Wolf River Electric claimed a verified $150,000 lost contract from Google AI Overview errors.
-                </p>
+                 Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
 
               <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
@@ -734,7 +734,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                   As of early 2026, no AI defamation case has reached a final judgment in favor of the plaintiff. The first case, Walters v. OpenAI, was dismissed. However, Wolf River Electric and Robby Starbuck have active suits, and Texas passed the Responsible AI Governance Act with fines up to $200,000 per violation.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
 
               <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
@@ -752,7 +752,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                   Start with your own website: add clear, structured business information and schema markup. Audit directory listings for consistency. File corrections through Google Business Profile and Bing Places. Build authoritative content AI can reference directly. For persistent errors, consider professional Answer Engine Optimization.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
 
               {/* ── CTA 12 ── */}
@@ -767,7 +767,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
           {/* ── CTA BLOCK ── */}
           <div className="ae-cta-block not-prose mt-16">
             <h2>Is AI Search Getting Your Business Wrong?</h2>
-            <p>Find out exactly what ChatGPT, Google AI Overviews, and Perplexity are telling potential customers about your business. We check every major AI platform and show you every error. No pitch, just the data.</p>
+            <p>Find out exactly what ChatGPT, Google AI Overviews, and Perplexity are telling potential customers about your business. We check every major AI platform and show you every error. No pitch, just the data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -779,7 +779,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
 
           {/* ── CTA 14 ── */}
           <div className="ae-cta-inline not-prose mt-4">
-            <p>Or reach us by email any time.</p>
+            <p>Or reach us by email any time. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
           </div>
 
@@ -806,7 +806,7 @@ export default function WhatHappensWhenAISearchGetsBusinessWrong() {
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">Justin Borges</p>
+              <p className="text-white font-semibold">Justin Borges <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <p className="text-gray-400 text-sm">We help local service businesses get found, cited, and recommended by AI search platforms. Our research is backed by data, not guesswork.</p>
             </div>
           </div>

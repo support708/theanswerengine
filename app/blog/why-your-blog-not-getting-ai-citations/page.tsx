@@ -270,20 +270,20 @@ export default function Page() {
             <span className="ae-section-label" id="the-numbers">The Data</span>
             <h2>The Citation Gap: What the Numbers Actually Show</h2>
 
-            <p>Here is the uncomfortable truth about AI citations in 2026. When someone asks ChatGPT for a recommendation, the model does not scan the internet for your blog post. It draws from its training data and live retrieval, and it overwhelmingly prefers sources with structural authority: community platforms, established publications, and data-rich pages.</p>
+            <p>Here is the uncomfortable truth about AI citations in 2026. When someone asks ChatGPT for a recommendation, the model does not scan the internet for your blog post. It draws from its training data and live retrieval, and it overwhelmingly prefers sources with structural authority: community platforms, established publications, and data-rich pages. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>Research across major AI platforms reveals a consistent pattern. Reddit accounts for nearly half of Perplexity&apos;s cited sources. YouTube drives almost 19% of Google AI Overview citations. Quora appears in 14% of ChatGPT recommendations. Your carefully crafted blog post? It is competing for a thin slice of remaining attention, and most blogs fail to capture even that.</p>
+            <p>Research across major AI platforms reveals a consistent pattern. Reddit accounts for nearly half of Perplexity&apos;s cited sources. YouTube drives almost 19% of Google AI Overview citations. Quora appears in 14% of ChatGPT recommendations. Your carefully crafted blog post? It is competing for a thin slice of remaining attention, and most blogs fail to capture even that. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>The reason is not that your content is bad. It is that AI platforms apply a different set of evaluation criteria than Google Search ever did. Understanding those criteria is the difference between content that generates leads through AI and content that sits unread on your server.</p>
+            <p>The reason is not that your content is bad. It is that AI platforms apply a different set of evaluation criteria than Google Search ever did. Understanding those criteria is the difference between content that generates leads through AI and content that sits unread on your server. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* -- QUOTE 1 -- */}
             <div className="ae-quote not-prose">
-              <p>AI platforms do not reward effort. They reward clarity, structure, and proof of genuine expertise. The more polished your content looks, the more AI suspects commercial bias.</p>
+              <p>AI platforms do not reward effort. They reward clarity, structure, and proof of genuine expertise. The more polished your content looks, the more AI suspects commercial bias. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* -- CTA 1 (Link /blindspot) -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering where your blog stands in AI search results right now?</p>
+              <p>Wondering where your blog stands in AI search results right now? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
             </div>
 
@@ -291,7 +291,7 @@ export default function Page() {
             <span className="ae-section-label" id="seven-reasons">The Diagnosis</span>
             <h2>7 Reasons AI Platforms Skip Your Blog</h2>
 
-            <p>After analyzing hundreds of blogs across industries, seven patterns emerge consistently among content that AI platforms ignore. Most blogs exhibit three or more of these problems simultaneously.</p>
+            <p>After analyzing hundreds of blogs across industries, seven patterns emerge consistently among content that AI platforms ignore. Most blogs exhibit three or more of these problems simultaneously. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* -- TIMELINE: 7 REASONS -- */}
             <div className="ae-timeline not-prose">
@@ -299,68 +299,68 @@ export default function Page() {
                 <div className="ae-timeline-marker">1</div>
                 <div className="ae-timeline-content">
                   <strong>No Clear Answer in the First Two Sentences</strong>
-                  <p>AI extracts the first 1 to 2 sentences of each section to determine if the content answers a query. If your opening is vague context-setting or a personal anecdote, the AI moves on. Cited content leads with the answer, then provides supporting detail.</p>
+                  <p>AI extracts the first 1 to 2 sentences of each section to determine if the content answers a query. If your opening is vague context-setting or a personal anecdote, the AI moves on. Cited content leads with the answer, then provides supporting detail. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">2</div>
                 <div className="ae-timeline-content">
                   <strong>Walls of Text with No Structural Hierarchy</strong>
-                  <p>Content without clear H2 and H3 headings, bullet points, or logical sections is 40% less likely to be cited. AI parses content by breaking it into segments. Dense, unbroken paragraphs are difficult to segment and therefore difficult to cite.</p>
+                  <p>Content without clear H2 and H3 headings, bullet points, or logical sections is 40% less likely to be cited. AI parses content by breaking it into segments. Dense, unbroken paragraphs are difficult to segment and therefore difficult to cite. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">3</div>
                 <div className="ae-timeline-content">
                   <strong>No Original Data or Unique Insights</strong>
-                  <p>If your blog simply repackages information available on ten other sites, AI has no reason to cite your version. Original research, proprietary data, and firsthand experience are the strongest differentiators for earning citations.</p>
+                  <p>If your blog simply repackages information available on ten other sites, AI has no reason to cite your version. Original research, proprietary data, and firsthand experience are the strongest differentiators for earning citations. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">4</div>
                 <div className="ae-timeline-content">
                   <strong>Isolated Posts with Zero Internal Linking</strong>
-                  <p>Each blog post stands alone as an island. No connections to other pages on your site, no topical clusters, no hub pages. AI interprets this as surface-level coverage, not deep expertise. Learn more about <Link href="/blog/hub-spoke-content-strategy-ai-citations">building content architecture AI trusts</Link>.</p>
+                  <p>Each blog post stands alone as an island. No connections to other pages on your site, no topical clusters, no hub pages. AI interprets this as surface-level coverage, not deep expertise. Learn more about <Link href="/blog/hub-spoke-content-strategy-ai-citations">building content architecture AI trusts</Link>. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">5</div>
                 <div className="ae-timeline-content">
                   <strong>Stale Content with Outdated Information</strong>
-                  <p>AI platforms weight freshness heavily. A blog post from 2023 with 2022 statistics will lose to a 2026 post with current data every time. Content that is not regularly updated signals abandonment, not authority. See why <Link href="/blog/why-fresh-content-key-ai-search-visibility">fresh content is critical for AI visibility</Link>.</p>
+                  <p>AI platforms weight freshness heavily. A blog post from 2023 with 2022 statistics will lose to a 2026 post with current data every time. Content that is not regularly updated signals abandonment, not authority. See why <Link href="/blog/why-fresh-content-key-ai-search-visibility">fresh content is critical for AI visibility</Link>. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">6</div>
                 <div className="ae-timeline-content">
                   <strong>Missing Schema Markup and Structured Data</strong>
-                  <p>Content with proper schema has a 2.5x higher chance of appearing in AI answers. Without FAQPage, Article, or Organization schema, you are leaving a critical trust signal on the table. Read about <Link href="/blog/does-schema-markup-help-ai-search">how schema markup powers AI visibility</Link>.</p>
+                  <p>Content with proper schema has a 2.5x higher chance of appearing in AI answers. Without FAQPage, Article, or Organization schema, you are leaving a critical trust signal on the table. Read about <Link href="/blog/does-schema-markup-help-ai-search">how schema markup powers AI visibility</Link>. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">7</div>
                 <div className="ae-timeline-content">
                   <strong>Blocking AI Crawlers Without Realizing It</strong>
-                  <p>Many sites block GPTBot, ClaudeBot, or PerplexityBot through robots.txt or server configuration without knowing it. If AI crawlers cannot read your content, it cannot be cited. Period.</p>
+                  <p>Many sites block GPTBot, ClaudeBot, or PerplexityBot through robots.txt or server configuration without knowing it. If AI crawlers cannot read your content, it cannot be cited. Period. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 </div>
               </div>
             </div>
 
             {/* -- CTA 2 (tel) -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which of these issues affect your blog? We can diagnose it in 15 minutes.</p>
+              <p>Not sure which of these issues affect your blog? We can diagnose it in 15 minutes. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Diagnosis &rarr;</a>
             </div>
 
             {/* -- CALLOUT: COMMERCIAL BIAS -- */}
             <div className="ae-callout not-prose">
               <div className="ae-callout-title">The Commercial Bias Problem</div>
-              <p>Here is something most marketers do not realize: the more professionally polished your content appears, the more AI platforms suspect it carries commercial bias. AI systems are trained to distinguish between genuine expertise and promotional material. Unscripted community discussions on Reddit often outrank polished brand content because they signal authentic, unbiased experience.</p>
+              <p>Here is something most marketers do not realize: the more professionally polished your content appears, the more AI platforms suspect it carries commercial bias. AI systems are trained to distinguish between genuine expertise and promotional material. Unscripted community discussions on Reddit often outrank polished brand content because they signal authentic, unbiased experience. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* -- CTA 3 (Link /blindspot) -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Your competitors might already be fixing these issues. See where you rank against them.</p>
+              <p>Your competitors might already be fixing these issues. See where you rank against them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Run Your Free Competitive Analysis &rarr;</Link>
             </div>
 
@@ -368,7 +368,7 @@ export default function Page() {
             <span className="ae-section-label" id="what-cited-look-like">The Standard</span>
             <h2>What Cited Content Actually Looks Like</h2>
 
-            <p>Studying content that AI platforms consistently cite reveals a clear set of patterns. These pages do not just happen to be good. They are engineered for the way AI processes, evaluates, and extracts information.</p>
+            <p>Studying content that AI platforms consistently cite reveals a clear set of patterns. These pages do not just happen to be good. They are engineered for the way AI processes, evaluates, and extracts information. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* -- COMPARISON TABLE -- */}
             <div className="ae-comparison-table not-prose">
@@ -420,7 +420,7 @@ export default function Page() {
               </table>
             </div>
 
-            <p>The pattern is clear. AI platforms favor content that is <strong>easy to parse, trustworthy to cite, and specific enough to answer real questions</strong>. This is not about writing longer articles or using more keywords. It is about engineering your content to align with how AI systems evaluate trustworthiness.</p>
+            <p>The pattern is clear. AI platforms favor content that is <strong>easy to parse, trustworthy to cite, and specific enough to answer real questions</strong>. This is not about writing longer articles or using more keywords. It is about engineering your content to align with how AI systems evaluate trustworthiness. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* -- TAKEAWAY 1 -- */}
             <div className="ae-takeaway not-prose">
@@ -429,7 +429,7 @@ export default function Page() {
 
             {/* -- CTA 4 (mailto) -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Send us your blog URL and we will tell you exactly what AI sees when it reads your content.</p>
+              <p>Send us your blog URL and we will tell you exactly what AI sees when it reads your content. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -437,7 +437,7 @@ export default function Page() {
             <span className="ae-section-label" id="trust-signals">Trust Architecture</span>
             <h2>The Trust Signals AI Evaluates Before Citing You</h2>
 
-            <p>When ChatGPT, Perplexity, or Google AI Overviews encounters your content, it runs a rapid evaluation across multiple dimensions simultaneously. Content that passes all checks gets cited. Content that fails even one often gets skipped entirely.</p>
+            <p>When ChatGPT, Perplexity, or Google AI Overviews encounters your content, it runs a rapid evaluation across multiple dimensions simultaneously. Content that passes all checks gets cited. Content that fails even one often gets skipped entirely. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* -- BAR GROUP: TRUST SIGNALS -- */}
             <div className="ae-bar-group not-prose">
@@ -478,11 +478,11 @@ export default function Page() {
               </div>
             </div>
 
-            <p>Notice what is missing from this list: word count, keyword density, publish frequency, and social media followers. The metrics traditional content marketing obsesses over are largely irrelevant to AI citation decisions. AI cares about structural trust, not vanity metrics.</p>
+            <p>Notice what is missing from this list: word count, keyword density, publish frequency, and social media followers. The metrics traditional content marketing obsesses over are largely irrelevant to AI citation decisions. AI cares about structural trust, not vanity metrics. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* -- CTA 5 (Link /blindspot) -- */}
             <div className="ae-cta-inline not-prose">
-              <p>We score your blog across every trust signal AI evaluates. Free, no strings attached.</p>
+              <p>We score your blog across every trust signal AI evaluates. Free, no strings attached. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Free Trust Signal Analysis &rarr;</Link>
             </div>
 
@@ -534,7 +534,7 @@ export default function Page() {
 
             {/* -- CTA 6 (tel) -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Want a detailed breakdown of your trust signal scores? Talk to our team.</p>
+              <p>Want a detailed breakdown of your trust signal scores? Talk to our team. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Assessment &rarr;</a>
             </div>
 
@@ -542,7 +542,7 @@ export default function Page() {
             <span className="ae-section-label" id="content-audit">The Evaluation</span>
             <h2>The Content Audit AI Runs on Your Blog</h2>
 
-            <p>Think of AI citation as a job interview. Your content is the candidate. The AI is the hiring manager. And the evaluation happens in milliseconds, not minutes. Here is what that evaluation looks like in practice.</p>
+            <p>Think of AI citation as a job interview. Your content is the candidate. The AI is the hiring manager. And the evaluation happens in milliseconds, not minutes. Here is what that evaluation looks like in practice. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* -- CHEAT SHEET -- */}
             <div className="ae-cheat-sheet not-prose">
@@ -561,17 +561,17 @@ export default function Page() {
               </ul>
             </div>
 
-            <p>Most blogs fail at three or more of these checkpoints. The compounding effect is devastating. Failing one checkpoint might cost you some citations. Failing three or more means AI platforms have no reason to consider your content at all.</p>
+            <p>Most blogs fail at three or more of these checkpoints. The compounding effect is devastating. Failing one checkpoint might cost you some citations. Failing three or more means AI platforms have no reason to consider your content at all. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* -- CALLOUT: THE PARADOX -- */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Blog Quality Paradox</div>
-              <p>Many businesses invest heavily in well-written, professionally designed blog content, and wonder why it gets zero AI traction. The paradox is this: AI does not evaluate content the way humans do. A beautifully designed page with perfect grammar but no structural signals, no schema, and no topical depth will be passed over for a plaintext Reddit comment that directly answers the user&apos;s question. Presentation quality and AI citation quality are different metrics entirely.</p>
+              <p>Many businesses invest heavily in well-written, professionally designed blog content, and wonder why it gets zero AI traction. The paradox is this: AI does not evaluate content the way humans do. A beautifully designed page with perfect grammar but no structural signals, no schema, and no topical depth will be passed over for a plaintext Reddit comment that directly answers the user&apos;s question. Presentation quality and AI citation quality are different metrics entirely. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             {/* -- CTA 7 (Link /blindspot) -- */}
             <div className="ae-cta-inline not-prose">
-              <p>How many of these 10 checkpoints does your blog currently pass? Find out free.</p>
+              <p>How many of these 10 checkpoints does your blog currently pass? Find out free. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Run Your AI Content Audit &rarr;</Link>
             </div>
 
@@ -605,7 +605,7 @@ export default function Page() {
 
             {/* -- CTA 8 (mailto) -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about your blog&apos;s AI readiness? Our team responds to every email.</p>
+              <p>Questions about your blog&apos;s AI readiness? Our team responds to every email. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -613,9 +613,9 @@ export default function Page() {
             <span className="ae-section-label" id="competitive-gap">The Opportunity</span>
             <h2>The Competitive Gap Is Widening Fast</h2>
 
-            <p>Here is the strategic reality most businesses are not seeing. AI search adoption is growing exponentially, but most businesses have not adapted their content for AI citation. That creates a massive first-mover advantage.</p>
+            <p>Here is the strategic reality most businesses are not seeing. AI search adoption is growing exponentially, but most businesses have not adapted their content for AI citation. That creates a massive first-mover advantage. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-            <p>Brands cited in AI Overviews see a 35% boost in click-through rates compared to non-cited results. Even when users do not click through, citation builds brand recognition and trust. The businesses investing in AI-optimized content today are building competitive moats that will take years for competitors to overcome.</p>
+            <p>Brands cited in AI Overviews see a 35% boost in click-through rates compared to non-cited results. Even when users do not click through, citation builds brand recognition and trust. The businesses investing in AI-optimized content today are building competitive moats that will take years for competitors to overcome. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* -- STATS GRID: OPPORTUNITY -- */}
             <div className="ae-stats-grid not-prose">

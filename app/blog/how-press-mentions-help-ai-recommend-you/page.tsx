@@ -332,21 +332,21 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               patterns from the content it was trained on and the live web it crawls. The sources it has seen most
               consistently cited, linked, and discussed by credible publishers shape its understanding of which businesses
               are legitimate, established, and trustworthy.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Press coverage occupies a privileged position in this ecosystem for a straightforward reason: editorial
               gatekeeping. When a journalist at a regional business journal writes a profile of your company, that outlet
               has put its own credibility on the line. AI models recognize this signal. The editorial filter is what
               separates a press mention from a directory listing or a sponsored post.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is not a feature someone engineered into AI systems intentionally. It is an emergent property of how
               language models learn from the web. Publications with long histories, consistent readership, and strong
               cross-linking patterns naturally carry more weight in the training data. When those publications mention
               your business, that weight transfers.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* Callout: Info */}
             <div className="not-prose ae-callout ae-callout-info my-8">
@@ -361,7 +361,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                   AI models are fundamentally designed to surface consensus, not self-promotion. Your own website
                   says you are the best. A credible publication saying you are the best is evidence. The distinction
                   between first-party claims and third-party validation is the core mechanic driving AI citation behavior.
-                </p>
+                 Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
@@ -370,21 +370,21 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               like "who are the most trusted HVAC companies in Phoenix?" The AI does not have a database of trusted
               contractors. It has a model of which companies have been consistently mentioned in trusted contexts across
               the web. Press mentions are among the highest-trust contexts available.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
               This dynamic extends beyond local businesses. B2B companies, professional service firms, agencies, and
               even individual practitioners benefit from earned media in ways that pure content marketing cannot replicate.
               Authority requires external validation, and press coverage is the most reliable form of that validation
               the open web can provide.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
 
           {/* CTA Inline 1 */}
           <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Is your business invisible to AI right now?</p>
-              <p className="text-gray-400 text-sm">Find out exactly where you stand with a free Blind Spot Report.</p>
+              <p className="text-white font-semibold mb-1">Is your business invisible to AI right now? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+              <p className="text-gray-400 text-sm">Find out exactly where you stand with a free Blind Spot Report. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
@@ -405,14 +405,14 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               the lines between these categories were sometimes blurry. A sponsored placement that generated real
               backlinks could still pass authority. In the world of AI visibility, the distinction has become much
               sharper and more consequential.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               AI models are not reading your domain authority score. They are reading the actual content of the web and
               forming their own assessments of credibility. Sponsored content, advertorial, and paid press releases are
               often tagged as such, appear in sections of websites clearly labeled as promotional, or share structural
               patterns that AI models have learned to discount. Editorial content does not carry these flags.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Comparison Table */}
             <div className="not-prose ae-comparison-table my-8 overflow-x-auto">
@@ -477,7 +477,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               cite sources in response to queries about businesses and recommendations. Editorial coverage dominates.
               This does not mean paid placements have zero value for visibility broadly, but for AI citation specifically,
               earned media is the signal that matters.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
 
           {/* Section: Authority Weight of Different Mention Types */}
@@ -492,7 +492,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               Not all press mentions carry equal weight. A front-page feature in the Wall Street Journal is not the
               same as a brief mention in a small local newsletter. AI authority works on a spectrum, and understanding
               where different source types land on that spectrum helps you prioritize your PR efforts.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Bar Group */}
             <div className="not-prose ae-bar-group my-8 space-y-4">
@@ -525,7 +525,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                   </div>
                 ))}
               </div>
-              <p className="text-gray-500 text-xs mt-3">Relative authority weight, based on observed AI citation patterns. Not a measured metric.</p>
+              <p className="text-gray-500 text-xs mt-3">Relative authority weight, based on observed AI citation patterns. Not a measured metric. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* Quote */}
@@ -534,7 +534,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                 <p className="text-lg text-gray-200 italic leading-relaxed">
                   "A single citation in a regional business journal carries more weight for AI visibility than a dozen
                   directory listings. The editorial filter is the signal AI is actually reading."
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                 <footer className="mt-3 text-sm text-gray-500">The Answer Engine Research Team</footer>
               </blockquote>
             </div>
@@ -543,7 +543,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               The practical implication is that chasing volume in low-authority placements is far less effective than
               pursuing a smaller number of high-quality editorial placements. One feature in your city's top business
               publication does more for your AI visibility than twenty submissions to citation directories.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Pros/Cons */}
             <div className="not-prose ae-pros-cons my-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -583,8 +583,8 @@ export default function HowPressMentionsHelpAIRecommendYou() {
           {/* CTA Inline 2 */}
           <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">What media coverage does AI actually see about your business?</p>
-              <p className="text-gray-400 text-sm">Your Blind Spot Report includes an audit of your third-party signal footprint.</p>
+              <p className="text-white font-semibold mb-1">What media coverage does AI actually see about your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+              <p className="text-gray-400 text-sm">Your Blind Spot Report includes an audit of your third-party signal footprint. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
@@ -605,14 +605,14 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               every citation, every review, and every credible third-party reference adds a node to the graph that
               AI models use to evaluate your standing. The businesses that dominate AI recommendations in competitive
               categories are not necessarily the best. They are the most consistently validated by trusted external sources.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is why maintaining a steady drumbeat of fresh mentions matters as much as landing a single big
               feature. AI models, especially those with live web access like Perplexity, reward recency. A business
               that was covered extensively two years ago but has gone quiet reads as less active and less relevant
               than one with a consistent pattern of mentions across the past twelve months.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Timeline */}
             <div className="not-prose ae-timeline my-10">
@@ -658,7 +658,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                     <div className="flex-1 pb-2">
                       <div className="text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: item.color }}>{item.month}</div>
                       <div className="text-white font-semibold mb-1">{item.title}</div>
-                      <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
+                      <p className="text-gray-400 text-sm leading-relaxed">{item.desc} Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                     </div>
                   </div>
                 ))}
@@ -678,7 +678,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                   Businesses actively building press coverage today are compounding their AI authority lead every
                   month. Those waiting for a more convenient time to start are not standing still. They are falling
                   further behind. The authority graphs being built right now will be the moats of 2027.
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
             </div>
 
@@ -687,7 +687,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               optimization. Unlike paid advertising, which stops delivering the moment you stop paying, press coverage
               builds a permanent record. Articles stay indexed. Links persist. Each new piece of coverage references
               and reinforces the body of existing coverage.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           {/* Section: Newswire and Editorial Pickup */}
@@ -703,21 +703,21 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               release to a newswire does not, by itself, generate significant AI visibility. The press release will
               be published on the wire service's website and potentially distributed to syndication partners. But most
               of these syndicated placements are low-authority duplicates that AI models largely discount.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               What does matter is editorial pickup. When a journalist at the Associated Press, Reuters, or a regional
               business publication reads your release and decides to write their own story based on it, the resulting
               article carries full editorial authority. That distinction, the wire service posting versus the editorial
               story written in response, is the difference between noise and signal.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The implications for PR strategy are significant. A press release written purely for search engine
               distribution, stuffed with keywords and lacking genuine news value, is unlikely to generate editorial
               pickup and therefore unlikely to build AI authority. A press release with real news, a compelling angle,
               and genuine interest for journalists, is much more likely to earn the editorial coverage that matters.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* Orange Callout */}
             <div className="not-prose ae-callout ae-callout-orange my-8">
@@ -734,7 +734,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                   stories that affect their readers specifically. Expert positioning: releases that offer a
                   spokesperson as a source for ongoing coverage compound over time as that person becomes the
                   go-to quote in their category.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
             </div>
 
@@ -744,20 +744,20 @@ export default function HowPressMentionsHelpAIRecommendYou() {
               releases quarterly, earns pickup from regional business media, and maintains a steady relationship with
               journalists in their category builds a very different authority profile than one that sends a single
               release and expects results.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
               The brands winning in AI search visibility have figured out that PR is no longer a vanity channel.
               It is infrastructure. The press coverage they are earning today is directly funding the AI recommendations
               they will receive for the next three to five years.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </div>
 
           {/* CTA Inline 3 */}
           <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Want to know if AI platforms are finding your coverage?</p>
-              <p className="text-gray-400 text-sm">We map your full media footprint in your free Blind Spot Report.</p>
+              <p className="text-white font-semibold mb-1">Want to know if AI platforms are finding your coverage? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+              <p className="text-gray-400 text-sm">We map your full media footprint in your free Blind Spot Report. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Run My Audit

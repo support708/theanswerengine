@@ -273,21 +273,21 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The headline numbers are striking. Google maintains 90% of worldwide search traffic in 2026. ChatGPT has grown to roughly 12% of Google's search volume, but sends 190 times less traffic to external websites. By raw traffic standards, Google is not even a contest.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             But traffic volume is not the same as revenue. The question that matters for a local service business is not how many people arrive at your website. It is how many people become paying customers. And on that dimension, the equation looks very different.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             AI-referred visitors, including those from ChatGPT, convert at 4 to 5 times the rate of typical organic search traffic. This is not a small statistical noise. It is a structural difference in the type of customer AI search produces compared to keyword-based search.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">The Right Metric: Revenue Per Visitor, Not Total Visitors</div>
-            <p>A business getting 10 leads per month from ChatGPT at a 40% close rate generates more revenue than a business getting 100 leads from Google at a 4% close rate, assuming similar deal sizes. The volume story favors Google. The quality story favors ChatGPT. Your business model determines which metric matters more.</p>
+            <p>A business getting 10 leads per month from ChatGPT at a 40% close rate generates more revenue than a business getting 100 leads from Google at a 4% close rate, assuming similar deal sizes. The volume story favors Google. The quality story favors ChatGPT. Your business model determines which metric matters more. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Not sure which AI platform is currently sending customers to your business? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where your AI visibility gaps are.</p>
+            <p>Not sure which AI platform is currently sending customers to your business? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where your AI visibility gaps are. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
         </section>
 
@@ -297,35 +297,35 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Understanding the architectural differences between these two platforms explains why they produce such different traffic patterns and customer quality.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mt-8 mb-4">
             Google AI Overview
           </h3>
           <p className="text-gray-300 leading-relaxed mb-6">
             Google AI Overview appears at the top of search results for a growing percentage of queries. It is intercepting existing search behavior. When someone types "best plumber near me" into Google and an AI Overview appears, it answers the question right there. The CTR on organic results below it drops from roughly 15% to 8% when an Overview is present.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             For local businesses, this creates two distinct outcomes. If your business is mentioned in the AI Overview, you benefit from the highest-visibility position on the page and the trust signal of being explicitly recommended by Google's AI. If you are not mentioned, you are now competing for clicks against both competitors and against the Overview itself.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mt-8 mb-4">
             ChatGPT Search
           </h3>
           <p className="text-gray-300 leading-relaxed mb-6">
             ChatGPT operates outside the Google ecosystem entirely. Users come to it with a different intent: conversational research, comparison, and decision-making. 75% of ChatGPT users use keyword-style local prompts, and 45% of those sessions are one-shot, meaning one question leads to one decision. The customer does their entire research process inside the AI conversation and arrives at your business already confident in their choice.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The <Link href="/blog/how-chatgpt-search-picks-local-business-results" className="text-[#F27D24] hover:text-orange-400 transition-colors">mechanics of how ChatGPT picks local business results</Link> are fundamentally different from how Google decides what to show in an AI Overview. The signals overlap but the weighting differs significantly.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Zero-Click Search Threat</div>
-            <p>60% of searches in traditional search engines now end without a click because AI summaries answer the question directly. If your business depends heavily on organic search traffic, AI Overviews are already reducing that traffic whether or not you are being recommended. The businesses winning in this environment are the ones inside the AI answer, not the ones ranking below it.</p>
+            <p>60% of searches in traditional search engines now end without a click because AI summaries answer the question directly. If your business depends heavily on organic search traffic, AI Overviews are already reducing that traffic whether or not you are being recommended. The businesses winning in this environment are the ones inside the AI answer, not the ones ranking below it. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Is your business appearing in Google AI Overviews right now? Find out instantly. <Link href="/blindspot">Run your free AI visibility scan</Link>.</p>
+            <p>Is your business appearing in Google AI Overviews right now? Find out instantly. <Link href="/blindspot">Run your free AI visibility scan</Link>. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
         </section>
 
@@ -335,7 +335,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The conversion rate difference between ChatGPT traffic and Google traffic is not random. It reflects a fundamental difference in where the customer is in their decision process when they reach out to you.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -363,10 +363,10 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
             This is why <Link href="/blog/how-to-measure-if-ai-is-sending-you-customers" className="text-[#F27D24] hover:text-orange-400 transition-colors">measuring AI-referred traffic requires different attribution</Link> than standard organic search. Much of the ChatGPT-driven customer journey happens inside the AI platform before anyone ever visits your website.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-cta-inline">
-            <p>Want to see how your competitors are reaching decision-stage buyers through ChatGPT? <a href="tel:+12134442229">Call (213) 444-2229</a> for a live demo of your AI visibility.</p>
+            <p>Want to see how your competitors are reaching decision-stage buyers through ChatGPT? <a href="tel:+12134442229">Call (213) 444-2229</a> for a live demo of your AI visibility. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
         </section>
 
@@ -437,7 +437,7 @@ export default function Page() {
           </table>
 
           <div className="ae-cta-inline mt-6">
-            <p>Want to know which platform is currently sending customers to your competitors instead of you? <Link href="/blindspot">Your Blind Spot Report</Link> shows exactly where your AI visibility stands on both platforms.</p>
+            <p>Want to know which platform is currently sending customers to your competitors instead of you? <Link href="/blindspot">Your Blind Spot Report</Link> shows exactly where your AI visibility stands on both platforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
@@ -447,7 +447,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The good news is that optimizing for one platform tends to improve the other as well, because both are looking for the same underlying entity authority signals. The difference is in emphasis and specifics.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -476,11 +476,11 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-success">
             <div className="ae-callout-title">The Shared Foundation</div>
-            <p>The entity foundation that drives both platforms is largely the same: consistent business information, authoritative content, structured data, and external validation. The businesses that show up in both Google AI Overviews and ChatGPT recommendations tend to be those that built this foundation correctly rather than optimizing for one platform at the expense of the other.</p>
+            <p>The entity foundation that drives both platforms is largely the same: consistent business information, authoritative content, structured data, and external validation. The businesses that show up in both Google AI Overviews and ChatGPT recommendations tend to be those that built this foundation correctly rather than optimizing for one platform at the expense of the other. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Ready to build the entity foundation that wins on both platforms? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where to start.</p>
+            <p>Ready to build the entity foundation that wins on both platforms? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where to start. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -490,7 +490,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The honest answer depends on your specific business and where you currently stand. But the decision framework is straightforward.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-decision-matrix">
             <div className="ae-decision-row">
@@ -517,15 +517,15 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
             This comparison connects to the broader question of <Link href="/blog/aeo-vs-seo-difference-local-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">how AEO and SEO differ for local businesses</Link>. AI visibility is not a replacement for traditional search optimization. It is an additional layer that requires its own approach and its own signals.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">The Bottom Line</div>
-            <p>Google AI Overview sends more traffic. ChatGPT sends better customers. The businesses winning in AI search in 2026 are optimizing for both simultaneously, not choosing between them. The entity foundation that powers both platforms is largely the same. Build it correctly once and both platforms benefit.</p>
+            <p>Google AI Overview sends more traffic. ChatGPT sends better customers. The businesses winning in AI search in 2026 are optimizing for both simultaneously, not choosing between them. The entity foundation that powers both platforms is largely the same. Build it correctly once and both platforms benefit. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Not sure which platform gap is costing you the most? <Link href="/blindspot">Your free Blind Spot Report</Link> breaks it down by platform with specific recommendations.</p>
+            <p>Not sure which platform gap is costing you the most? <Link href="/blindspot">Your free Blind Spot Report</Link> breaks it down by platform with specific recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
         </section>
 
@@ -536,7 +536,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             To make the conversion quality difference concrete, here is what 100 visitors from each platform typically produces for a local service business with an average job value of $500.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <div className="ae-dollar-compare">
             <div className="ae-dollar-item">
               <div className="ae-dollar-label">Google Organic (Traditional)</div>
@@ -551,10 +551,10 @@ export default function Page() {
               <div className="ae-dollar-price" style={{ color: '#F27D24' }}>100 visitors × 10% conversion = 10 customers × $500 = $5,000</div>
             </div>
           </div>
-          <p className="text-gray-400 text-sm mt-4 italic">These are illustrative estimates based on reported AI traffic conversion benchmarks. Actual results vary by business type, market, and service category.</p>
+          <p className="text-gray-400 text-sm mt-4 italic">These are illustrative estimates based on reported AI traffic conversion benchmarks. Actual results vary by business type, market, and service category. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-cta-inline">
-            <p>What is your current AI visibility gap costing you per month? <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a> and we will run the numbers for your market.</p>
+            <p>What is your current AI visibility gap costing you per month? <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a> and we will run the numbers for your market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
         </section>
 
@@ -565,7 +565,7 @@ export default function Page() {
           </h3>
           <p className="text-gray-400 mb-6">
             Our Blind Spot Report shows exactly how you appear on Google AI Overviews and ChatGPT right now. You will see which platform is sending customers to competitors instead of you and exactly what is causing the visibility gap.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -601,7 +601,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
@@ -639,13 +639,13 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
-                <p className="text-gray-400 leading-relaxed">{a}</p>
+                <p className="text-gray-400 leading-relaxed">{a} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             ))}
           </div>
 
           <div className="ae-cta-inline mt-8">
-            <p>Questions about AI visibility for your specific business type? <a href="tel:+12134442229">Call (213) 444-2229</a> and talk to a specialist today.</p>
+            <p>Questions about AI visibility for your specific business type? <a href="tel:+12134442229">Call (213) 444-2229</a> and talk to a specialist today. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
         </section>
 

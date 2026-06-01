@@ -252,13 +252,13 @@ export default function Page() {
 
             <p>Google Gemini is no longer a secondary player in AI search. As of Q4 2025, Gemini surpassed <strong>750 million monthly active users</strong>, and Similarweb data from January 2026 shows it now controls roughly 18% of the AI chatbot market, up from just 5% a year earlier.</p>
 
-            <p>For business owners, this means a massive and fast-growing audience is asking Gemini questions about products, services, and local providers every single day. The question is whether your business shows up in those answers, or whether your competitors do.</p>
+            <p>For business owners, this means a massive and fast-growing audience is asking Gemini questions about products, services, and local providers every single day. The question is whether your business shows up in those answers, or whether your competitors do. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>Gemini does not simply copy your search ranking into its answers. Being on page one of Google is no longer enough. You need content that Gemini specifically finds worth citing.</p>
             </div>
 
-            <p>Most AI platforms like ChatGPT and Perplexity rely on their own web crawlers and third-party indexes to find business information. Google Gemini is fundamentally different because it sits on top of the entire Google ecosystem. That means Gemini has direct access to Google Search results, Google Business Profile data, Google Maps, Google Reviews, and the full Google index of the web.</p>
+            <p>Most AI platforms like ChatGPT and Perplexity rely on their own web crawlers and third-party indexes to find business information. Google Gemini is fundamentally different because it sits on top of the entire Google ecosystem. That means Gemini has direct access to Google Search results, Google Business Profile data, Google Maps, Google Reviews, and the full Google index of the web. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -269,7 +269,7 @@ export default function Page() {
             {/* ── CALLOUT: OPPORTUNITY VS CHALLENGE ── */}
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Gemini Advantage</div>
-              <p>If your business already has a strong Google presence, you have a head start with Gemini. But Gemini does not simply copy your search ranking. Research from ALM Corp found that the Gemini 3 upgrade increased sources cited by 32% and replaced nearly half of previously cited domains.</p>
+              <p>If your business already has a strong Google presence, you have a head start with Gemini. But Gemini does not simply copy your search ranking. Research from ALM Corp found that the Gemini 3 upgrade increased sources cited by 32% and replaced nearly half of previously cited domains. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>Gemini also has a built-in distribution advantage that no other AI platform can match. Twice as many U.S. Android users interact with Gemini through the operating system itself compared to the standalone app, according to Similarweb data. Gemini is embedded into Android phones, Google Workspace, Chrome, and Google Search. Your potential customers are already using it, whether they realize it or not.</p>
@@ -281,7 +281,7 @@ export default function Page() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>January 2025: 5% Market Share</strong>
-                <p>Gemini holds a modest slice of the AI chatbot market. Most businesses focus exclusively on ChatGPT visibility.</p>
+                <p>Gemini holds a modest slice of the AI chatbot market. Most businesses focus exclusively on ChatGPT visibility. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>July 2025: 450M Monthly Users</strong>
@@ -289,7 +289,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>October 2025: 650M Monthly Users</strong>
-                <p>44% growth in just three months. Over 120,000 enterprises now use Gemini, including 95% of the top 20 global SaaS companies.</p>
+                <p>44% growth in just three months. Over 120,000 enterprises now use Gemini, including 95% of the top 20 global SaaS companies. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>January 2026: Gemini 3 Launches</strong>
@@ -297,7 +297,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Q1 2026: 750M+ Monthly Users, 18% Market Share</strong>
-                <p>Gemini is now the second-largest AI chatbot globally. Businesses that optimized early are already reaping citation benefits.</p>
+                <p>Gemini is now the second-largest AI chatbot globally. Businesses that optimized early are already reaping citation benefits. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
             </div>
 
@@ -311,7 +311,7 @@ export default function Page() {
             <span className="ae-section-label">How It Works</span>
             <h2>How Gemini Decides Which Businesses to Cite</h2>
 
-            <p>Gemini pulls from the same signals Google Search uses, but layers additional AI reasoning on top. Understanding these signals is the first step to earning citations. Based on citation pattern research from 2025 and early 2026, here are the primary factors Gemini weighs.</p>
+            <p>Gemini pulls from the same signals Google Search uses, but layers additional AI reasoning on top. Understanding these signals is the first step to earning citations. Based on citation pattern research from 2025 and early 2026, here are the primary factors Gemini weighs. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* ── DECISION MATRIX ── */}
             <div className="ae-decision-matrix not-prose">
@@ -362,14 +362,14 @@ export default function Page() {
             <p>Gemini heavily favors domains that already rank well in Google&apos;s traditional search index. A Semrush study from 2025 found that <strong>over 92% of AI Overview citations come from domains ranking in the top 10</strong> for the relevant query. Your existing SEO foundation matters enormously, but it is not the only factor.</p>
 
             <h3>2. Content Freshness and Last-Modified Signals</h3>
-            <p>Gemini shows a measurable preference for recently updated content, particularly on queries where information changes over time. If your service pages and blog posts have not been touched in over a year, Gemini is more likely to skip them in favor of a competitor whose content was updated last month. This connects directly to why <Link href="/blog/why-fresh-content-key-ai-search-visibility">content freshness is a key AI search signal</Link>.</p>
+            <p>Gemini shows a measurable preference for recently updated content, particularly on queries where information changes over time. If your service pages and blog posts have not been touched in over a year, Gemini is more likely to skip them in favor of a competitor whose content was updated last month. This connects directly to why <Link href="/blog/why-fresh-content-key-ai-search-visibility">content freshness is a key AI search signal</Link>. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <h3>3. Structured Data and Schema Markup</h3>
             <p>A BrightEdge analysis found that pages with comprehensive schema markup were <strong>2.7x more likely to be cited in AI answers</strong> compared to similar pages without markup. For Gemini specifically, the most impactful schema types are LocalBusiness, FAQPage, Article, HowTo, and Organization. JSON-LD is the format Google recommends. For a deep dive, see our guide on <Link href="/blog/does-schema-markup-help-ai-search">schema markup and AI search</Link>.</p>
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>How visible is your business to Gemini and other AI platforms right now? Most businesses have no idea.</p>
+              <p>How visible is your business to Gemini and other AI platforms right now? Most businesses have no idea. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
             </div>
 
@@ -377,7 +377,7 @@ export default function Page() {
             <p>One of the most overlooked citation factors is what other websites say about your business. Research shows that <strong>94% of all AI citations come from non-paid sources</strong>, with earned media accounting for 82% of those citations. Directory listings, press mentions, industry association pages, and customer review sites all contribute to whether Gemini trusts your business enough to cite it.</p>
 
             <h3>5. Google Business Profile Completeness</h3>
-            <p>Unlike ChatGPT, which <Link href="/blog/chatgpt-cant-see-google-business-profile">cannot see your Google Business Profile</Link>, Gemini has full access to it. A 2025 study by Moz analyzed 10,000 AI-generated answers and found that <strong>73% of cited sources had a verified Google Business Profile</strong>, compared to just 31% of non-cited sources. Your GBP is not just for Maps rankings anymore. It is a direct input into Gemini&apos;s citation decisions.</p>
+            <p>Unlike ChatGPT, which <Link href="/blog/chatgpt-cant-see-google-business-profile">cannot see your Google Business Profile</Link>, Gemini has full access to it. A 2025 study by Moz analyzed 10,000 AI-generated answers and found that <strong>73% of cited sources had a verified Google Business Profile</strong>, compared to just 31% of non-cited sources. Your GBP is not just for Maps rankings anymore. It is a direct input into Gemini&apos;s citation decisions. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -388,7 +388,7 @@ export default function Page() {
             <span className="ae-section-label">Data Breakdown</span>
             <h2>Citation Signal Impact: By the Numbers</h2>
 
-            <p>Not all signals carry equal weight. Here is how the most impactful factors stack up based on published research.</p>
+            <p>Not all signals carry equal weight. Here is how the most impactful factors stack up based on published research. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item" style={{ '--bar-width': '92%' } as React.CSSProperties}>
@@ -423,7 +423,7 @@ export default function Page() {
             <span className="ae-section-label">Platform Comparison</span>
             <h2>Gemini vs. ChatGPT vs. Perplexity: Where to Focus</h2>
 
-            <p>Each AI platform has different data sources and citation behaviors. Understanding these differences helps you prioritize where to invest your optimization effort.</p>
+            <p>Each AI platform has different data sources and citation behaviors. Understanding these differences helps you prioritize where to invest your optimization effort. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -487,7 +487,7 @@ export default function Page() {
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>See how you rank across Gemini, ChatGPT, Perplexity, and Google AI Overviews in one report.</p>
+              <p>See how you rank across Gemini, ChatGPT, Perplexity, and Google AI Overviews in one report. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Get Your Multi-Platform Visibility Report &rarr;</Link>
             </div>
 
@@ -512,14 +512,14 @@ export default function Page() {
             </div>
 
             <h3>Step 1: Complete and Optimize Your Google Business Profile</h3>
-            <p>This is the single highest-impact action for Gemini visibility. Fill out every field: business description, service categories, service areas, hours, photos, products, and Q&amp;A. Add posts at least monthly. Respond to every review. A complete GBP with recent activity sends strong trust signals to Gemini. If your profile is sparse or outdated, Gemini has less data to work with and less reason to cite you.</p>
+            <p>This is the single highest-impact action for Gemini visibility. Fill out every field: business description, service categories, service areas, hours, photos, products, and Q&amp;A. Add posts at least monthly. Respond to every review. A complete GBP with recent activity sends strong trust signals to Gemini. If your profile is sparse or outdated, Gemini has less data to work with and less reason to cite you. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>Step 2: Implement Comprehensive Schema Markup</h3>
             <p>Add JSON-LD schema to every key page on your site. Your homepage should have Organization and LocalBusiness schema. Each service page needs Service schema with area served, price range, and provider information. Blog posts need Article schema with author, date published, and date modified fields. FAQ sections need FAQPage schema. Pages using three or more schema types show higher AI citation rates. For step-by-step guidance, our article on <Link href="/blog/how-to-build-faq-page-ai-cites">building FAQ pages that AI cites</Link> covers the exact implementation process.</p>
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your schema is set up correctly? We will audit it for free.</p>
+              <p>Not sure if your schema is set up correctly? We will audit it for free. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -527,20 +527,20 @@ export default function Page() {
             <p>Gemini generates responses to specific user questions. If your content directly answers common questions in your industry, Gemini has something clear to cite. Write blog posts, FAQ sections, and service descriptions that address the exact queries your potential customers type into search. Use natural language, provide specific details like pricing ranges and timelines, and lead with a direct answer before adding context.</p>
 
             <h3>Step 4: Build Third-Party Authority</h3>
-            <p>Since earned media drives the vast majority of AI citations, you need your business mentioned on sites other than your own. Get listed in industry directories, local business associations, and review platforms. Seek press coverage and guest posts on relevant industry sites. Each third-party mention acts as a validation signal that Gemini factors into its citation decisions.</p>
+            <p>Since earned media drives the vast majority of AI citations, you need your business mentioned on sites other than your own. Get listed in industry directories, local business associations, and review platforms. Seek press coverage and guest posts on relevant industry sites. Each third-party mention acts as a validation signal that Gemini factors into its citation decisions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <h3>Step 5: Keep Content Updated Quarterly</h3>
             <p>Content freshness is not optional. Pages updated within 60 days are significantly more likely to appear in AI answers. Set a calendar reminder to review and update your core pages every quarter. Refresh statistics, update pricing, add new FAQ questions based on recent customer inquiries, and change the last-modified date. Gemini notices when content goes stale.</p>
 
             <h3>Step 6: Cultivate and Respond to Google Reviews</h3>
-            <p>Gemini has access to your Google Reviews, and review content shapes how AI characterizes your business. Encourage customers to leave detailed reviews that mention specific services, outcomes, and experiences. Respond to every review, both positive and negative. AI platforms evaluate review sentiment and specificity, not just star ratings. Our guide on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link> covers this in detail.</p>
+            <p>Gemini has access to your Google Reviews, and review content shapes how AI characterizes your business. Encourage customers to leave detailed reviews that mention specific services, outcomes, and experiences. Respond to every review, both positive and negative. AI platforms evaluate review sentiment and specificity, not just star ratings. Our guide on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link> covers this in detail. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3>Step 7: Monitor Your AI Visibility</h3>
             <p>You cannot improve what you do not measure. Test your Gemini visibility by asking it questions your potential customers would ask. Search for your services in your area and see if you appear in the response. Track which competitors get cited and study what they are doing differently. Tools like Otterly, Peec AI, and Profound now offer AI citation tracking across multiple platforms including Gemini.</p>
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Skip the manual testing. We check your visibility across every major AI platform.</p>
+              <p>Skip the manual testing. We check your visibility across every major AI platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Request Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -552,12 +552,12 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Gemini 3 Disruption Alert</div>
-              <p>The Gemini 3 upgrade replaced 42% of previously cited domains. If you earned a citation under an earlier version, you cannot assume it will persist. Continuous optimization is now a requirement, not a one-time project.</p>
+              <p>The Gemini 3 upgrade replaced 42% of previously cited domains. If you earned a citation under an earlier version, you cannot assume it will persist. Continuous optimization is now a requirement, not a one-time project. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>The key change is that Gemini 3 uses what researchers call &quot;query fan-out,&quot; where a single user query triggers multiple internal searches across different aspects of the question. Previously, if you ranked first for the primary keyword, you were almost guaranteed a citation. Now Gemini cross-references multiple angles and may cite a page that ranks fifth for the main keyword but provides the best answer to a specific sub-question.</p>
 
-            <p>For businesses, this means depth matters more than ever. A single well-optimized page is not enough. You need comprehensive coverage across your topic area, with individual pages that answer specific questions thoroughly. This is exactly the content architecture described in our <Link href="/blog/hub-spoke-content-strategy-ai-citations">hub and spoke content strategy guide</Link>.</p>
+            <p>For businesses, this means depth matters more than ever. A single well-optimized page is not enough. You need comprehensive coverage across your topic area, with individual pages that answer specific questions thoroughly. This is exactly the content architecture described in our <Link href="/blog/hub-spoke-content-strategy-ai-citations">hub and spoke content strategy guide</Link>. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
@@ -569,7 +569,7 @@ export default function Page() {
             <span className="ae-section-label">Two Paths</span>
             <h2>Google AI Overviews vs. Gemini Conversations: Two Citation Paths</h2>
 
-            <p>Google now has two AI-powered surfaces where your business can appear: AI Overviews in search results and Gemini as a standalone conversation tool. Both are powered by the Gemini model family, but they behave differently.</p>
+            <p>Google now has two AI-powered surfaces where your business can appear: AI Overviews in search results and Gemini as a standalone conversation tool. Both are powered by the Gemini model family, but they behave differently. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* ── PROS CONS ── */}
             <div className="ae-pros-cons not-prose">
@@ -595,7 +595,7 @@ export default function Page() {
 
             <p>AI Overviews now appear in up to 60% of U.S. search results. Seer Interactive found that organic click-through rates dropped 61% for queries where AI Overviews appear, falling from 1.76% to 0.61%. This means the citations inside those AI Overviews carry outsized value because they capture the attention traditional results used to get.</p>
 
-            <p>Gemini conversations, on the other hand, are longer-form interactions where users ask follow-up questions and explore topics in depth. The citation patterns tend to reward specificity and depth over breadth. If a user asks Gemini to compare three plumbing companies in Phoenix, the businesses with the most complete, citable web presence will be the ones that appear.</p>
+            <p>Gemini conversations, on the other hand, are longer-form interactions where users ask follow-up questions and explore topics in depth. The citation patterns tend to reward specificity and depth over breadth. If a user asks Gemini to compare three plumbing companies in Phoenix, the businesses with the most complete, citable web presence will be the ones that appear. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* ── CTA 9 ── */}
             <div className="ae-cta-inline not-prose">
@@ -607,7 +607,7 @@ export default function Page() {
             <span className="ae-section-label">Impact Data</span>
             <h2>The Business Impact of AI Citations</h2>
 
-            <p>The shift to AI-powered search is not theoretical. Here are the measured impacts on business visibility and traffic.</p>
+            <p>The shift to AI-powered search is not theoretical. Here are the measured impacts on business visibility and traffic. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item" style={{ '--bar-width': '61%' } as React.CSSProperties}>
@@ -639,7 +639,7 @@ export default function Page() {
 
             {/* ── CTA 10 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about your AI citation strategy? Reach out directly.</p>
+              <p>Questions about your AI citation strategy? Reach out directly. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -651,7 +651,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Blocking AI Crawlers in robots.txt</div>
-              <p>Some businesses block Googlebot or Google-Extended in their robots.txt file, which prevents Gemini from accessing their content. Check your robots.txt file and make sure you are not inadvertently blocking the crawlers that feed into Gemini.</p>
+              <p>Some businesses block Googlebot or Google-Extended in their robots.txt file, which prevents Gemini from accessing their content. Check your robots.txt file and make sure you are not inadvertently blocking the crawlers that feed into Gemini. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             <div className="ae-callout ae-callout-warning not-prose">
@@ -661,7 +661,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Thin, Generic Content</div>
-              <p>Pages that say &quot;we offer the best service at competitive prices&quot; give Gemini nothing specific to cite. AI needs concrete details: what you do, how you do it, what it costs, and what outcomes customers can expect.</p>
+              <p>Pages that say &quot;we offer the best service at competitive prices&quot; give Gemini nothing specific to cite. AI needs concrete details: what you do, how you do it, what it costs, and what outcomes customers can expect. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             <div className="ae-callout ae-callout-warning not-prose">
@@ -673,7 +673,7 @@ export default function Page() {
             <span className="ae-section-label">Schema Deep Dive</span>
             <h2>Schema Quality and Citation Rates</h2>
 
-            <p>Not all schema implementations are equal. Research shows a dramatic difference in citation rates based on how detailed your structured data is.</p>
+            <p>Not all schema implementations are equal. Research shows a dramatic difference in citation rates based on how detailed your structured data is. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="ae-stats-grid not-prose">
               <div className="ae-stat-card">
@@ -701,7 +701,7 @@ export default function Page() {
 
             {/* ── CTA 11 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know if your schema is holding you back or helping you get cited?</p>
+              <p>Want to know if your schema is holding you back or helping you get cited? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <Link href="/blindspot">Get a Free Schema and Citation Assessment &rarr;</Link>
             </div>
 
@@ -724,7 +724,7 @@ export default function Page() {
               </ul>
             </div>
 
-            <p>The businesses that invest in Gemini visibility now will compound their advantage as the platform continues to grow. With 750 million users and climbing, Gemini is not a future trend. It is a current reality. The only question is whether your business will be part of the answers it delivers, or invisible to every one of those users.</p>
+            <p>The businesses that invest in Gemini visibility now will compound their advantage as the platform continues to grow. With 750 million users and climbing, Gemini is not a future trend. It is a current reality. The only question is whether your business will be part of the answers it delivers, or invisible to every one of those users. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* ── CTA 12 ── */}
             <div className="ae-cta-inline not-prose">
@@ -747,7 +747,7 @@ export default function Page() {
 
             {/* ── CTA 13 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Reading is great. Data is better. Get a concrete picture of your Gemini visibility in under 48 hours.</p>
+              <p>Reading is great. Data is better. Get a concrete picture of your Gemini visibility in under 48 hours. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Request Your Free Report &rarr;</Link>
             </div>
 

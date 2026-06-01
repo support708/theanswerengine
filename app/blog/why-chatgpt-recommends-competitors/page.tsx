@@ -254,20 +254,20 @@ export default function WhyChatGPTRecommendsCompetitors() {
             </div>
           </div>
 
-          <p>Right now, customers are asking ChatGPT questions like "Who is the best HVAC company near me?" and "Which attorney specializes in probate in Los Angeles?" ChatGPT gives them direct recommendations, usually only three to five businesses. If you are not showing up, your competitors are collecting those leads instead.</p>
+          <p>Right now, customers are asking ChatGPT questions like "Who is the best HVAC company near me?" and "Which attorney specializes in probate in Los Angeles?" ChatGPT gives them direct recommendations, usually only three to five businesses. If you are not showing up, your competitors are collecting those leads instead. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>AI systems do not rank you like Google. They assess your expertise, your clarity, your consistency, and your depth. If your competitors show up and you do not, that means ChatGPT has more confident, structured, trustworthy information about them.</p>
+          <p>AI systems do not rank you like Google. They assess your expertise, your clarity, your consistency, and your depth. If your competitors show up and you do not, that means ChatGPT has more confident, structured, trustworthy information about them. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
-            <p>This is not a branding problem or a marketing budget problem. It is an authority signal problem. ChatGPT cannot recommend what it cannot verify. And right now, it can verify your competitors better than it can verify you.</p>
+            <p>This is not a branding problem or a marketing budget problem. It is an authority signal problem. ChatGPT cannot recommend what it cannot verify. And right now, it can verify your competitors better than it can verify you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
-          <p>This guide explains exactly why your competitors appear, how ChatGPT decides who to trust, and what you can do over the next 60 to 90 days to shift the balance in your favor.</p>
+          <p>This guide explains exactly why your competitors appear, how ChatGPT decides who to trust, and what you can do over the next 60 to 90 days to shift the balance in your favor. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to see exactly who ChatGPT recommends instead of you? We will show you.</p>
+            <p>Want to see exactly who ChatGPT recommends instead of you? We will show you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
           </div>
 
@@ -275,10 +275,10 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <span className="ae-section-label">The Algorithm</span>
           <h2>How Does ChatGPT Actually Choose Which Businesses to Recommend?</h2>
 
-          <p>ChatGPT recommends businesses that demonstrate clear expertise, consistent information, and strong topical authority. It analyzes not just websites, but the entire digital footprint around your business. The companies it recommends usually have detailed explanations, niche clarity, strong service descriptions, and content that matches real user questions.</p>
+          <p>ChatGPT recommends businesses that demonstrate clear expertise, consistent information, and strong topical authority. It analyzes not just websites, but the entire digital footprint around your business. The companies it recommends usually have detailed explanations, niche clarity, strong service descriptions, and content that matches real user questions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-quote not-prose">
-            <p>ChatGPT is not looking at your reviews or your ad spend. It is looking at whether your online presence makes you the safest, most credible answer to the question being asked.</p>
+            <p>ChatGPT is not looking at your reviews or your ad spend. It is looking at whether your online presence makes you the safest, most credible answer to the question being asked. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           {/* ── COMPARISON TABLE ── */}
@@ -319,16 +319,16 @@ export default function WhyChatGPTRecommendsCompetitors() {
             </tbody>
           </table>
 
-          <p>ChatGPT is not scanning for keywords, backlinks, or website age. It looks for expert clarity, depth, consistency, safety, and structure. If a human reading your website would not immediately say "this person knows exactly what they are doing," ChatGPT will not say it either.</p>
+          <p>ChatGPT is not scanning for keywords, backlinks, or website age. It looks for expert clarity, depth, consistency, safety, and structure. If a human reading your website would not immediately say "this person knows exactly what they are doing," ChatGPT will not say it either. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>ChatGPT treats your entire online presence as a trust signal. One weak link, whether it is an outdated bio, a vague service page, or conflicting phone numbers, can tip the recommendation to your competitor.</p>
+            <p>ChatGPT treats your entire online presence as a trust signal. One weak link, whether it is an outdated bio, a vague service page, or conflicting phone numbers, can tip the recommendation to your competitor. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure if your online presence passes the trust test? Find out what ChatGPT actually sees.</p>
+            <p>Not sure if your online presence passes the trust test? Find out what ChatGPT actually sees. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Run a Free AI Visibility Check →</Link>
           </div>
 
@@ -336,7 +336,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <span className="ae-section-label">Root Causes</span>
           <h2>The 7 Biggest Reasons ChatGPT Recommends Your Competitors</h2>
 
-          <p>The main reasons competitors appear instead of you come down to gaps in how you present your expertise online. These are not marketing failures. They are authority signal failures.</p>
+          <p>The main reasons competitors appear instead of you come down to gaps in how you present your expertise online. These are not marketing failures. They are authority signal failures. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* ── BAR GROUP ── */}
           <div className="ae-bar-group not-prose">
@@ -378,34 +378,34 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           <h3>1. Your Expertise Lives In Your Head, Not Online</h3>
-          <p>Most business owners explain things brilliantly in person but vaguely online. Your competitors documented what you keep in conversations. The knowledge you share over the phone, in meetings, and during consultations is invisible to ChatGPT unless you put it on the web in a structured, detailed format.</p>
+          <p>Most business owners explain things brilliantly in person but vaguely online. Your competitors documented what you keep in conversations. The knowledge you share over the phone, in meetings, and during consultations is invisible to ChatGPT unless you put it on the web in a structured, detailed format. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <h3>2. Your Website Reads Like Marketing, Not Expertise</h3>
-          <p>ChatGPT ignores buzzwords like "best," "top," "trusted," or "affordable." It wants process explanations, not sales pitches. If your homepage says "We are the #1 provider in the area" but your competitor explains how their process actually works, the competitor wins.</p>
+          <p>ChatGPT ignores buzzwords like "best," "top," "trusted," or "affordable." It wants process explanations, not sales pitches. If your homepage says "We are the #1 provider in the area" but your competitor explains how their process actually works, the competitor wins. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <h3>3. You Do Not Have a Clear Niche</h3>
-          <p>AI struggles when you appear to "do everything." Your competitor narrowed their positioning to one specialty. ChatGPT can confidently recommend a business that clearly specializes in probate law. It cannot confidently recommend a firm that lists seventeen practice areas with no depth on any of them.</p>
+          <p>AI struggles when you appear to "do everything." Your competitor narrowed their positioning to one specialty. ChatGPT can confidently recommend a business that clearly specializes in probate law. It cannot confidently recommend a firm that lists seventeen practice areas with no depth on any of them. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>Specificity is the single strongest authority signal for AI recommendation. The narrower your positioning, the more confidently ChatGPT can cite you as the answer.</p>
+            <p>Specificity is the single strongest authority signal for AI recommendation. The narrower your positioning, the more confidently ChatGPT can cite you as the answer. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <h3>4. Your Competitor Has One Strong Asset</h3>
-          <p>One deep guide, comprehensive hub page, or detailed process breakdown can tip the scale in their favor. You do not need to overhaul everything. Sometimes one well-built authority page is the difference between being recommended and being invisible.</p>
+          <p>One deep guide, comprehensive hub page, or detailed process breakdown can tip the scale in their favor. You do not need to overhaul everything. Sometimes one well-built authority page is the difference between being recommended and being invisible. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <h3>5. Your Online Footprint Is Inconsistent</h3>
-          <p>Different phone numbers across platforms? Different bios on LinkedIn versus your website? Outdated service area pages? ChatGPT flags these inconsistencies as "unsafe" and moves on to the competitor whose information is uniform everywhere.</p>
+          <p>Different phone numbers across platforms? Different bios on LinkedIn versus your website? Outdated service area pages? ChatGPT flags these inconsistencies as "unsafe" and moves on to the competitor whose information is uniform everywhere. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <h3>6. You Do Not Answer Real User Questions</h3>
-          <p>Content that does not map to actual customer queries gets ignored. Your competitor addressed the questions people actually ask. <Link href="/blog/how-to-build-faq-page-ai-cites">Building FAQ pages that AI platforms cite</Link> is one of the highest-impact moves you can make.</p>
+          <p>Content that does not map to actual customer queries gets ignored. Your competitor addressed the questions people actually ask. <Link href="/blog/how-to-build-faq-page-ai-cites">Building FAQ pages that AI platforms cite</Link> is one of the highest-impact moves you can make. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <h3>7. You Have No Structured FAQs or Schema</h3>
-          <p>AI prefers pages with clear structure. FAQs, headings, and proper markup make content easy to extract and verify. <Link href="/blog/does-schema-markup-help-ai-search">Schema markup directly influences how AI platforms process your content</Link>.</p>
+          <p>AI prefers pages with clear structure. FAQs, headings, and proper markup make content easy to extract and verify. <Link href="/blog/does-schema-markup-help-ai-search">Schema markup directly influences how AI platforms process your content</Link>. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Which of these 7 gaps is costing you the most AI visibility? Our free report shows you.</p>
+            <p>Which of these 7 gaps is costing you the most AI visibility? Our free report shows you. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Identify Your Biggest Gap →</Link>
           </div>
 
@@ -413,7 +413,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <span className="ae-section-label">Diagnosis</span>
           <h2>Diagnosing Your Specific Problem</h2>
 
-          <p>Different symptoms point to different root causes. Use this matrix to identify exactly what is holding you back from ChatGPT recommendations.</p>
+          <p>Different symptoms point to different root causes. Use this matrix to identify exactly what is holding you back from ChatGPT recommendations. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-decision-matrix not-prose">
             <table>
@@ -450,12 +450,12 @@ export default function WhyChatGPTRecommendsCompetitors() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>The fix depends on the symptom. Blanket "improve your website" advice wastes time. You need to know exactly which signal is missing before you start building.</p>
+            <p>The fix depends on the symptom. Blanket "improve your website" advice wastes time. You need to know exactly which signal is missing before you start building. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           {/* ── CTA 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Stop guessing and start diagnosing. Our report tells you exactly which signals you are missing.</p>
+            <p>Stop guessing and start diagnosing. Our report tells you exactly which signals you are missing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot">Get Your Diagnosis →</Link>
           </div>
 
@@ -463,7 +463,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <span className="ae-section-label">Head to Head</span>
           <h2>What Your Competitor Is Doing That You Are Not</h2>
 
-          <p>When we analyze businesses that appear in ChatGPT recommendations versus those that do not, clear patterns emerge. The gap is rarely about budget or brand size. It is about how expertise is documented and structured online.</p>
+          <p>When we analyze businesses that appear in ChatGPT recommendations versus those that do not, clear patterns emerge. The gap is rarely about budget or brand size. It is about how expertise is documented and structured online. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── PROS/CONS ── */}
           <div className="ae-pros-cons not-prose">
@@ -495,7 +495,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
 
           {/* ── CTA 5 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Which column does your business fall into? Get the honest answer.</p>
+            <p>Which column does your business fall into? Get the honest answer. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot">See How AI Scores Your Business →</Link>
           </div>
 
@@ -503,7 +503,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <span className="ae-section-label">The Playbook</span>
           <h2>How to Shift ChatGPT Recommendations in 90 Days</h2>
 
-          <p>Shifting AI recommendations is not an overnight fix. It requires building genuine authority signals over time. But the process is predictable, and the results compound.</p>
+          <p>Shifting AI recommendations is not an overnight fix. It requires building genuine authority signals over time. But the process is predictable, and the results compound. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
@@ -530,12 +530,12 @@ export default function WhyChatGPTRecommendsCompetitors() {
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">Opportunity</div>
-            <p>Most of your competitors are not doing this yet. The businesses that build AI authority signals now will own the recommendation space in their market for years. The window is still open.</p>
+            <p>Most of your competitors are not doing this yet. The businesses that build AI authority signals now will own the recommendation space in their market for years. The window is still open. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           </div>
 
           {/* ── CTA 6 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Ready to start your 90-day shift? The first step is knowing where you stand today.</p>
+            <p>Ready to start your 90-day shift? The first step is knowing where you stand today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot">Start With a Free AI Audit →</Link>
           </div>
 
@@ -610,7 +610,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
 
           {/* ── CTA 7 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Step 1 on the checklist is the hardest to do alone. We built a tool that does it for you, for free.</p>
+            <p>Step 1 on the checklist is the hardest to do alone. We built a tool that does it for you, for free. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot">Run the Free Audit Now →</Link>
           </div>
 
@@ -618,7 +618,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <span className="ae-section-label">Myth Busting</span>
           <h2>What Matters for ChatGPT Recommendations (And What Does Not)</h2>
 
-          <p>Businesses waste time optimizing the wrong signals. Here is what actually moves the needle versus what is noise.</p>
+          <p>Businesses waste time optimizing the wrong signals. Here is what actually moves the needle versus what is noise. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <table className="ae-comparison-table not-prose">
             <thead>

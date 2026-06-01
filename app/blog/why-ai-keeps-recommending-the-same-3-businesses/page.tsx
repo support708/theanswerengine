@@ -415,11 +415,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When someone asks an AI assistant for a recommendation in your industry, the model does not survey every business equally. It draws from a tiny pool of sources it has learned to trust. The data on this is striking: in any given topic, the top 10 domains capture 46% of all ChatGPT citations. Expand that to the top 30 domains and you are looking at 67% of all citations locked up by a fraction of the available sources.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Think about what that means for your business. If you are not present on the sources AI trusts the most, you are fighting over the remaining third of citations with every other business in your category. That is not a level playing field. It is a structural bottleneck, and most business owners do not even know it exists.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* Quote Box */}
             <div
@@ -428,13 +428,13 @@ export default function Page() {
             >
               <p className="text-gray-200 italic text-lg leading-relaxed mb-2">
                 &ldquo;The top 10 domains in a topic take nearly half of all AI citations. Everyone else splits the leftovers.&rdquo;
-              </p>
-              <p className="text-sm" style={{ color: '#F27D24' }}>AI Citation Concentration Research, 2026</p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+              <p className="text-sm" style={{ color: '#F27D24' }}>AI Citation Concentration Research, 2026 Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Wikipedia alone accounts for 12.1% of all ChatGPT citations. A single encyclopedia is responsible for more than one out of every ten citations the world&apos;s most popular AI assistant produces. If your business or your category has no Wikipedia presence, you are starting with a significant handicap on ChatGPT specifically.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Callout: Warning */}
             <div
@@ -444,17 +444,17 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>This Is Not a Google Problem. It Is an AI Problem.</p>
+                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>This Is Not a Google Problem. It Is an AI Problem. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Ranking on Google does not guarantee AI recommends you. AI platforms build their citation hierarchies from entirely different source pools. A business that dominates Google page one can be completely invisible to ChatGPT if it has no presence on the sources ChatGPT trusts.
-                  </p>
+                   <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                 </div>
               </div>
             </div>
 
             {/* CTA Inline */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to see exactly where your business appears (and where it does not) across every major AI platform?</p>
+              <p className="text-sm text-gray-300 mb-3">Want to see exactly where your business appears (and where it does not) across every major AI platform? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -475,15 +475,15 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Here is where it gets more complicated, and more interesting. Not all AI platforms pull from the same sources. The citation preferences of ChatGPT, Perplexity, and Google AI are dramatically different. A strategy that works for one platform can completely fail on another.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               ChatGPT leans on Wikipedia as its dominant trust anchor. Perplexity, on the other hand, draws nearly half of its top citations from Reddit. Google AI takes a more distributed approach, pulling across its own massive index without the same extreme concentration on any single source type.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Perplexity also taps into regional directories and mid-tier review platforms far more often than ChatGPT does. This means a local business with strong directory presence might show up consistently on Perplexity while being completely absent from ChatGPT. The platforms are not interchangeable, and optimizing for one does not automatically cover the others.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Callout: Info */}
             <div
@@ -493,17 +493,17 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#3B82F6' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Reddit Is the New SEO for Perplexity</p>
+                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Reddit Is the New SEO for Perplexity Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Reddit accounts for 46.7% of Perplexity&apos;s top citations. If your business is being discussed positively on Reddit, Perplexity is far more likely to recommend you. If you have zero Reddit presence, Perplexity is likely recommending your competitors who do. This is one of the most overlooked signals in AI visibility today.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 </div>
               </div>
             </div>
 
             {/* CTA Inline */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Understanding which platforms matter for your specific industry is the first step. Our analysis covers all major AI engines.</p>
+              <p className="text-sm text-gray-300 mb-3">Understanding which platforms matter for your specific industry is the first step. Our analysis covers all major AI engines. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link
                 href="/blog/how-ai-platforms-choose-businesses-to-cite"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -524,11 +524,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Citation concentration in AI is not static. It compounds. When an AI platform repeatedly cites a business, that business gains more online mentions, more backlinks, more reviews, and more third-party references. All of those signals feed back into the AI model&apos;s next training cycle or retrieval process, making that business even more likely to be cited in the future.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This creates a flywheel effect that is extremely difficult to break into from the outside. The businesses that got into AI&apos;s recommendation set early are building an ever-widening moat. Every month you wait, the gap gets wider. The cost of inaction is not zero. It is compounding negative returns as competitors accumulate the signals that lock in their advantage.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Takeaway Box */}
             <div
@@ -538,20 +538,20 @@ export default function Page() {
               <div className="font-plus-jakarta font-bold mb-2" style={{ color: '#F27D24' }}>Key Takeaway</div>
               <p className="text-gray-200 leading-relaxed">
                 AI citation concentration creates a compounding advantage for early movers. The businesses AI recommends today will be even harder to displace six months from now. The window to break into AI&apos;s recommendation hierarchy narrows with every training cycle.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is not speculation. It is visible in the data. When 67% of citations in a category are controlled by 30 domains, the remaining hundreds or thousands of businesses are fighting over roughly one-third of all recommendation opportunities. And each cycle, that one-third shrinks further as the top players consolidate.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Consider what this looks like in practice. Starbucks has tens of thousands of Wikipedia mentions, a dedicated Wikipedia entry, hundreds of thousands of Yelp reviews, thousands of Reddit threads, regional news coverage in every city, and directory listings across every major platform. A new local cafe — even one that makes objectively better coffee — might have a Google Business Profile, 40 Google reviews, and a website. When an AI model is asked &ldquo;where should I get coffee near me?&rdquo; it is not comparing the quality of the espresso. It is comparing the weight of evidence across its trusted sources. The citation gap between Starbucks and a new local cafe is not just large — it is structurally insurmountable without a deliberate, multi-platform strategy to build the signals AI actually measures.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA Inline */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Every day your competitors are building AI authority while you are invisible. The compounding gap is real.</p>
+              <p className="text-sm text-gray-300 mb-3">Every day your competitors are building AI authority while you are invisible. The compounding gap is real. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -573,7 +573,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               The following comparison shows the structural differences between how each major AI platform sources its business recommendations. These patterns are consistent across industries and queries.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto mb-10 rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
@@ -642,17 +642,17 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>One Platform Strategy Will Not Cover You</p>
+                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>One Platform Strategy Will Not Cover You Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     A business dominating ChatGPT recommendations can be completely invisible on Perplexity, and vice versa. Each platform requires understanding which sources it trusts, and building presence there. This is why generic AI optimization fails. Platform-specific intelligence is what separates visible businesses from invisible ones.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                 </div>
               </div>
             </div>
 
             {/* CTA Inline */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Curious how these citation patterns play out when two similar businesses compete head to head?</p>
+              <p className="text-sm text-gray-300 mb-3">Curious how these citation patterns play out when two similar businesses compete head to head? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link
                 href="/blog/how-ai-picks-between-two-similar-businesses"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -673,11 +673,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               There is a surprising finding buried in the citation data. Despite the extreme concentration at the top, AI recommendations are not as locked-in as they appear. Research shows there is less than a 1 in 100 chance ChatGPT will produce the exact same list of brand recommendations if asked the same question 100 times.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This means the same core winners rotate in and out of the top spots, and the second and third tier positions shift constantly. For businesses trying to break in, this is significant. You do not need to dethrone the category leader. You need to get into the rotation. Once you are in the rotation, the compounding advantage starts working for you instead of against you.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Pros/Cons Section */}
             <div className="ae-pros-cons grid md:grid-cols-2 gap-6 mb-10">
@@ -741,17 +741,17 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The Rotation Gap Is Your Way In</p>
+                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The Rotation Gap Is Your Way In <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Because AI does not produce the exact same list every time, there are real slots opening up in every recommendation cycle. The businesses that understand which signals to build, and on which platforms, can capture those rotating spots and start building compounding authority from there.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 </div>
               </div>
             </div>
 
             {/* CTA Inline */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Wondering why your competitor appears in AI results and you do not? The answer is almost always in the signals, not the service quality.</p>
+              <p className="text-sm text-gray-300 mb-3">Wondering why your competitor appears in AI results and you do not? The answer is almost always in the signals, not the service quality. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link
                 href="/blog/why-is-my-competitor-on-ai-search-not-me"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -772,7 +772,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               Use this matrix to get an honest snapshot of your position in AI&apos;s recommendation hierarchy. Most businesses score in the "Invisible" or "Occasionally Mentioned" columns. The gap between those and "Consistently Recommended" is where revenue is being left on the table.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="ae-decision-matrix overflow-x-auto rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
               <table className="w-full text-sm">

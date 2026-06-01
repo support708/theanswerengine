@@ -329,7 +329,7 @@ export default function Page() {
               exactly what AI platforms look for when deciding which sites to
               trust, and what separates the businesses that earn citations from
               the ones that never appear.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* Callout: Warning */}
             <div className="not-prose">
@@ -342,14 +342,14 @@ export default function Page() {
                   today are compounding advantages that get exponentially
                   harder to catch. Six months of delay does not mean six months
                   behind. It means competing against entrenched authority.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure where your site stands in the AI trust hierarchy?</p>
+                <p>Not sure where your site stands in the AI trust hierarchy? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
               </div>
             </div>
@@ -366,7 +366,7 @@ export default function Page() {
               same framework: <strong className="text-white">Entity Identity</strong>,{' '}
               <strong className="text-white">Evidence and Citations</strong>, and{' '}
               <strong className="text-white">Technical and UX</strong>.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Entity Identity establishes who you are and whether your
               organization is verifiable across platforms. Evidence and
@@ -374,7 +374,7 @@ export default function Page() {
               Technical and UX demonstrates that your site is secure, fast,
               transparent, and accessible. Failing on any one of these
               categories can drop your citation probability to near zero.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Bar Group: Trust Signal Categories */}
             <div className="not-prose">
@@ -409,12 +409,12 @@ export default function Page() {
               higher-trust backlink footprints show up far more often in AI
               outputs. But backlinks alone are not enough. AI platforms
               cross-reference multiple signal types before granting trust.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to know your AI trust score across all three categories?</p>
+                <p>Want to know your AI trust score across all three categories? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                 <Link href="/blindspot">Run Your Free Trust Assessment &rarr;</Link>
               </div>
             </div>
@@ -431,7 +431,7 @@ export default function Page() {
               functions less like a ranking signal and more like a visibility
               filter. If your site does not pass the trust threshold, it simply
               never appears in AI-generated answers.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The data supports this. 96% of AI Overview content comes from
               sources with verified E-E-A-T signals. The correlation between
@@ -440,7 +440,7 @@ export default function Page() {
               requirements have expanded beyond traditional health and finance
               topics to cover virtually all competitive searches, including
               e-commerce, SaaS comparisons, and how-to guides.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Comparison Table: E-E-A-T Breakdown */}
             <div className="not-prose">
@@ -481,7 +481,7 @@ export default function Page() {
 
             <div className="not-prose">
               <div className="ae-quote">
-                <p>&quot;EEAT will likely determine your business&apos;s search visibility more than any technical SEO trick by 2026.&quot;</p>
+                <p>&quot;EEAT will likely determine your business&apos;s search visibility more than any technical SEO trick by 2026.&quot; Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
@@ -493,12 +493,12 @@ export default function Page() {
               <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">
                 how AI platforms choose businesses to cite
               </Link>.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Wondering if your E-E-A-T signals are strong enough for AI?</p>
+                <p>Wondering if your E-E-A-T signals are strong enough for AI? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 <Link href="/blindspot">Get a Free E-E-A-T Assessment &rarr;</Link>
               </div>
             </div>
@@ -514,14 +514,14 @@ export default function Page() {
               metrics. Page-level trust matters less than domain-level signals.
               This means the reputation of your entire website carries more
               weight than any single page you publish.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Link diversity shows the clearest correlation with ChatGPT
               citations. Links from varied domains, industries, and content
               types signal broad recognition and authority. A site with 200
               backlinks from 180 unique domains will outperform a site with
               500 backlinks from 20 domains.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Pros/Cons: Domain vs Page Authority */}
             <div className="not-prose">
@@ -557,12 +557,12 @@ export default function Page() {
               citations on average in recent research. Your presence on these
               platforms reinforces your entity identity across the web, giving
               AI platforms more data points to validate your credibility.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA Inline 4 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>See how your domain authority stacks up for AI search.</p>
+                <p>See how your domain authority stacks up for AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229</a>
               </div>
             </div>
@@ -578,7 +578,7 @@ export default function Page() {
               site is even accessible and reliable enough to be considered as
               a source. If your site is slow, broken, or blocking crawlers,
               nothing else matters.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Bar Group: Page Speed Impact */}
             <div className="not-prose">
@@ -612,7 +612,7 @@ export default function Page() {
               <Link href="/blog/website-too-slow-for-ai-crawlers">
                 whether your website is too slow for AI crawlers
               </Link>.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Callout: Info */}
             <div className="not-prose">
@@ -624,14 +624,14 @@ export default function Page() {
                   blocking GPTBot, Google-Extended, or PerplexityBot. Many
                   sites block these crawlers by default without realizing it,
                   which makes them completely invisible to AI search.
-                </p>
+                 Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure if AI crawlers can access your site? We can check in minutes.</p>
+                <p>Not sure if AI crawlers can access your site? We can check in minutes. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <Link href="/blindspot">Run Your Free Crawl Access Check &rarr;</Link>
               </div>
             </div>
@@ -647,7 +647,7 @@ export default function Page() {
               They evaluate depth, freshness, data density, and structure.
               Content with 19 or more statistical data points averaged 5.4
               citations, compared to 2.8 for pages with minimal data.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Freshness matters significantly. Pages updated within three
               months averaged 6 citations, while outdated content averaged 3.6.
@@ -657,7 +657,7 @@ export default function Page() {
               <Link href="/blog/why-fresh-content-key-ai-search-visibility">
                 why fresh content is the key to AI search visibility
               </Link>.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Cheat Sheet: Content Trust Signals */}
             <div className="not-prose">
@@ -714,12 +714,12 @@ export default function Page() {
               not exist in isolation. Your website content should align with
               and reinforce what is said about you on directories, review
               platforms, and industry publications.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to see which content signals your site is missing?</p>
+                <p>Want to see which content signals your site is missing? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
               </div>
             </div>
@@ -735,14 +735,14 @@ export default function Page() {
               When trusted publications, news outlets, and communities discuss
               your brand, it reinforces your authority without requiring a
               direct link.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Unlinked brand mentions contribute to AI trust signals because
               AI models process text, not just link graphs. When an
               authoritative publication mentions your company by name, even
               without a hyperlink, AI platforms register that as a credibility
               signal.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Community and user-generated channels now act as a core trust
               layer in AI search. Reddit, LinkedIn, YouTube, and Wikipedia are
@@ -751,7 +751,7 @@ export default function Page() {
               sources 6.6% of its citations from Reddit. Google AI Overviews
               pull 2.2% from Reddit. What people say about you on these
               platforms directly affects whether AI cites you.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Callout: Success */}
             <div className="not-prose">
@@ -764,14 +764,14 @@ export default function Page() {
                   the principle applies broadly: platforms with editorial
                   standards and community verification carry outsized weight
                   in AI trust evaluation.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 7 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Find out what AI platforms see when they look for your brand online.</p>
+                <p>Find out what AI platforms see when they look for your brand online. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
               </div>
             </div>
@@ -785,7 +785,7 @@ export default function Page() {
               While all AI platforms share core trust principles, each one has
               distinct source preferences and evaluation methods. Optimizing
               for one does not guarantee visibility on the others.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Comparison Table: Platform Trust Evaluation */}
             <div className="not-prose">

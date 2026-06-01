@@ -241,7 +241,7 @@ export default function BlogPost() {
 
           <p>In February 2026, OpenAI officially entered the advertising business. ChatGPT now displays ads to users on its free and lower-cost tiers. The announcement sent shockwaves through the marketing world, and an understandable question emerged overnight: can you pay to get ChatGPT to recommend your business?</p>
 
-          <p><strong>The short answer is no.</strong> You can pay to place an ad next to a ChatGPT response. But you cannot pay to change what ChatGPT actually says. These are two fundamentally different things, and confusing them will cost you money.</p>
+          <p><strong>The short answer is no.</strong> You can pay to place an ad next to a ChatGPT response. But you cannot pay to change what ChatGPT actually says. These are two fundamentally different things, and confusing them will cost you money. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Critical Distinction</div>
@@ -250,7 +250,7 @@ export default function BlogPost() {
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering what ChatGPT actually says about your business right now? Find out in 60 seconds.</p>
+            <p>Wondering what ChatGPT actually says about your business right now? Find out in 60 seconds. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -260,7 +260,7 @@ export default function BlogPost() {
 
           <p>OpenAI&apos;s advertising program launched with carefully defined parameters. Understanding what was actually announced cuts through the hype and helps you make smarter decisions about where to invest your marketing budget.</p>
 
-          <p>Here is what OpenAI rolled out:</p>
+          <p>Here is what OpenAI rolled out: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <ul>
             <li><strong>Ad format:</strong> Sponsored content that appears alongside ChatGPT responses, clearly labeled as advertising</li>
@@ -275,7 +275,7 @@ export default function BlogPost() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Who Sees ChatGPT Ads</div>
-            <p>Only users on the Free and Go ($8/month) tiers see advertising. Users on Plus ($20/month), Pro ($200/month), Business, and Enterprise plans are ad-free. The highest-value B2B prospects searching for professional services are overwhelmingly on paid plans.</p>
+            <p>Only users on the Free and Go ($8/month) tiers see advertising. Users on Plus ($20/month), Pro ($200/month), Business, and Enterprise plans are ad-free. The highest-value B2B prospects searching for professional services are overwhelmingly on paid plans. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* CTA 2 */}
@@ -288,11 +288,11 @@ export default function BlogPost() {
           <span className="ae-section-label" id="ads-vs-recommendations">The Difference</span>
           <h2>Ads vs. Recommendations: The Critical Difference</h2>
 
-          <p>This is where most business owners get confused. There is a massive difference between appearing as a paid ad next to a ChatGPT response and being named inside the response itself.</p>
+          <p>This is where most business owners get confused. There is a massive difference between appearing as a paid ad next to a ChatGPT response and being named inside the response itself. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <p>When ChatGPT recommends your business, it writes your name into the answer. It tells the user why you are a good fit. It links to your website. This carries the implicit authority of the AI platform itself. Users trust these recommendations because they appear to come from an objective, knowledgeable source.</p>
 
-          <p>When a ChatGPT ad appears, it shows up as clearly labeled sponsored content alongside the response. Users know it is paid. The trust dynamic is completely different. The ad might generate awareness, but it does not carry the same weight as being named in the answer.</p>
+          <p>When a ChatGPT ad appears, it shows up as clearly labeled sponsored content alongside the response. Users know it is paid. The trust dynamic is completely different. The ad might generate awareness, but it does not carry the same weight as being named in the answer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-quote not-prose">
             <blockquote>Paying for a ChatGPT ad is like renting a billboard next to the highway. Getting recommended by ChatGPT is like being the destination the GPS routes people to.</blockquote>
@@ -300,7 +300,7 @@ export default function BlogPost() {
 
           <p>OpenAI has been explicit about this separation. <strong>Advertisers cannot pay to influence what ChatGPT actually says in its responses.</strong> The AI generates answers based solely on its training data and real-time information retrieval. The ad serving system then determines whether to display relevant ads alongside those organic responses. These are two independent systems.</p>
 
-          <p>When multiple advertisers qualify for a placement, ChatGPT selects the most relevant ad based on undisclosed ranking factors. But relevance in ad selection and relevance in answer generation operate on entirely separate logic.</p>
+          <p>When multiple advertisers qualify for a placement, ChatGPT selects the most relevant ad based on undisclosed ranking factors. But relevance in ad selection and relevance in answer generation operate on entirely separate logic. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -309,7 +309,7 @@ export default function BlogPost() {
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to know if ChatGPT is already recommending your competitors? We will show you.</p>
+            <p>Want to know if ChatGPT is already recommending your competitors? We will show you. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <Link href="/blindspot">Run Your Competitive Analysis &rarr;</Link>
           </div>
 
@@ -319,7 +319,7 @@ export default function BlogPost() {
 
           <p>Let us do the math on what ChatGPT advertising actually delivers at the current pricing.</p>
 
-          <p>At $60 CPM, a $250,000 minimum spend buys approximately 4.17 million ad impressions. That sounds like a large number until you consider the constraints:</p>
+          <p>At $60 CPM, a $250,000 minimum spend buys approximately 4.17 million ad impressions. That sounds like a large number until you consider the constraints: Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <ul>
             <li>Ads only reach Free and Go tier users, excluding the highest-value searchers</li>
@@ -350,7 +350,7 @@ export default function BlogPost() {
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Skip the $250K ad spend. See where you stand with AI right now for free.</p>
+            <p>Skip the $250K ad spend. See where you stand with AI right now for free. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -360,7 +360,7 @@ export default function BlogPost() {
 
           <p>If you cannot buy your way into ChatGPT&apos;s recommendations, what actually drives them? Research shows that AI recommendations are built on verifiable authority signals distributed across the open web.</p>
 
-          <p>Business websites account for 58% of ChatGPT&apos;s local business recommendations. That means <Link href="/blog/why-chatgpt-isnt-recommending-your-business">your website is the single most important asset</Link> for earning organic AI citations. But the other 42% comes from third-party signals that validate and reinforce what your site claims.</p>
+          <p>Business websites account for 58% of ChatGPT&apos;s local business recommendations. That means <Link href="/blog/why-chatgpt-isnt-recommending-your-business">your website is the single most important asset</Link> for earning organic AI citations. But the other 42% comes from third-party signals that validate and reinforce what your site claims. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="not-prose my-8">
             <h4 className="text-white font-plus-jakarta font-semibold text-lg mb-4">Where ChatGPT Sources Local Business Recommendations</h4>
@@ -403,7 +403,7 @@ export default function BlogPost() {
             <li><strong>Content freshness:</strong> ChatGPT shows a strong recency bias, with the majority of citations coming from recently updated pages</li>
           </ul>
 
-          <p>Notice what is absent: ad spend. There is no paid shortcut. <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">The content and authority signals that earn ChatGPT recommendations</Link> are built through strategic work over time, not purchased.</p>
+          <p>Notice what is absent: ad spend. There is no paid shortcut. <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">The content and authority signals that earn ChatGPT recommendations</Link> are built through strategic work over time, not purchased. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
@@ -415,7 +415,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="comparison">Head to Head</span>
           <h2>Paid Ads vs. Organic Recommendations: Side by Side</h2>
 
-          <p>The differences between buying a ChatGPT ad and earning a ChatGPT recommendation are stark. Here is how they compare across every factor that matters.</p>
+          <p>The differences between buying a ChatGPT ad and earning a ChatGPT recommendation are stark. Here is how they compare across every factor that matters. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <table className="ae-comparison-table not-prose">
             <thead>
@@ -484,7 +484,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="what-actually-works">The Strategy</span>
           <h2>What Actually Works to Get Recommended by ChatGPT</h2>
 
-          <p>If paying for placement is off the table, what should you invest in instead? The businesses earning organic ChatGPT recommendations share a consistent set of authority signals that no ad budget can replicate.</p>
+          <p>If paying for placement is off the table, what should you invest in instead? The businesses earning organic ChatGPT recommendations share a consistent set of authority signals that no ad budget can replicate. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="not-prose my-8 space-y-4">
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
@@ -493,7 +493,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
               <h4 className="text-white font-plus-jakarta font-semibold mb-2">2. Earn Third-Party Mentions</h4>
-              <p className="text-gray-400 text-sm leading-relaxed">Get mentioned on authoritative industry sites, local directories, and best-of lists. AI cross-references your business name across the web. The more credible sources that mention you, the more confident AI becomes in recommending you.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Get mentioned on authoritative industry sites, local directories, and best-of lists. AI cross-references your business name across the web. The more credible sources that mention you, the more confident AI becomes in recommending you. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
               <h4 className="text-white font-plus-jakarta font-semibold mb-2">3. Strengthen Review Signals</h4>
@@ -501,7 +501,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
               <h4 className="text-white font-plus-jakarta font-semibold mb-2">4. Implement Structured Data</h4>
-              <p className="text-gray-400 text-sm leading-relaxed">Schema markup is the language AI speaks natively. LocalBusiness, Service, FAQ, and Review schema help AI understand exactly what your business does, where you operate, and what your customers say about you.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Schema markup is the language AI speaks natively. LocalBusiness, Service, FAQ, and Review schema help AI understand exactly what your business does, where you operate, and what your customers say about you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
               <h4 className="text-white font-plus-jakarta font-semibold mb-2">5. Keep Content Fresh</h4>
@@ -509,7 +509,7 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>Every one of these strategies is available to businesses of any size. You do not need a $250,000 ad budget. You need a deliberate approach to building the authority signals AI platforms already trust.</p>
+          <p>Every one of these strategies is available to businesses of any size. You do not need a $250,000 ad budget. You need a deliberate approach to building the authority signals AI platforms already trust. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           {/* CTA 7 */}
           <div className="ae-cta-inline not-prose">
@@ -521,7 +521,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="pros-cons">The Trade-Offs</span>
           <h2>Pros and Cons of ChatGPT Advertising</h2>
 
-          <p>ChatGPT ads are not inherently bad. For the right business at the right scale, they can supplement a broader marketing strategy. But they are not a replacement for organic AI visibility, and they certainly do not buy recommendations.</p>
+          <p>ChatGPT ads are not inherently bad. For the right business at the right scale, they can supplement a broader marketing strategy. But they are not a replacement for organic AI visibility, and they certainly do not buy recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-pros-cons not-prose">
             <div className="ae-pros-box">
@@ -555,7 +555,7 @@ export default function BlogPost() {
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">The Bottom Line for Local Businesses</div>
-            <p>If you are a local service business, ChatGPT ads are not designed for you. The $250K minimum, the limited tier reach, and the separation between ads and recommendations all point to the same conclusion: <strong>your money is better spent building the organic authority that earns real AI recommendations.</strong></p>
+            <p>If you are a local service business, ChatGPT ads are not designed for you. The $250K minimum, the limited tier reach, and the separation between ads and recommendations all point to the same conclusion: <strong>your money is better spent building the organic authority that earns real AI recommendations.</strong> Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* CTA 9 */}
@@ -564,13 +564,13 @@ export default function BlogPost() {
             <Link href="/blindspot">Run Your Free AI Audit &rarr;</Link>
           </div>
 
-          <p>The businesses winning in AI search right now did not buy their way there. They built content that answers real questions. They earned mentions on authoritative sites. They made it easy for AI to verify their expertise. And the gap between them and everyone else is growing every month.</p>
+          <p>The businesses winning in AI search right now did not buy their way there. They built content that answers real questions. They earned mentions on authoritative sites. They made it easy for AI to verify their expertise. And the gap between them and everyone else is growing every month. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>Understanding the difference between <Link href="/blog/do-google-ads-help-ai-search">paid advertising and organic AI visibility</Link> is the first step. But the most important question is not whether you can buy a ChatGPT ad. It is whether ChatGPT would recommend you even if money were no object.</p>
 
           {/* CTA 10 */}
           <div className="ae-cta-inline not-prose">
-            <p>Would ChatGPT recommend you today? There is only one way to find out.</p>
+            <p>Would ChatGPT recommend you today? There is only one way to find out. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -595,7 +595,7 @@ export default function BlogPost() {
             <Link href="/blindspot">Start Your Free Blind Spot Report &rarr;</Link>
           </div>
 
-          <p>The question is not whether you can pay to get recommended by ChatGPT. The answer to that is definitively no. The real question is what you are doing today to <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era">build the kind of authority that earns AI recommendations</Link> organically. Every day you wait is a day your competitors are building the signals that make AI choose them over you.</p>
+          <p>The question is not whether you can pay to get recommended by ChatGPT. The answer to that is definitively no. The real question is what you are doing today to <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era">build the kind of authority that earns AI recommendations</Link> organically. Every day you wait is a day your competitors are building the signals that make AI choose them over you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           {/* CTA 12 */}
           <div className="ae-cta-inline not-prose">
@@ -606,7 +606,7 @@ export default function BlogPost() {
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">You Cannot Buy AI Recommendations. But You Can Earn Them.</h3>
-            <p className="text-gray-400 mb-6">Your free Blind Spot Report shows exactly what ChatGPT, Claude, and Perplexity say about your business today, where you are invisible, and what it takes to become the business AI recommends.</p>
+            <p className="text-gray-400 mb-6">Your free Blind Spot Report shows exactly what ChatGPT, Claude, and Perplexity say about your business today, where you are invisible, and what it takes to become the business AI recommends. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -627,7 +627,7 @@ export default function BlogPost() {
           <div className="ae-author-card not-prose">
             <div>
               <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges</p>
-              <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
+              <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
               <div className="flex flex-wrap gap-4 mt-3 text-sm">
                 <span className="text-gray-500">2+ years specialized AEO experience</span>
@@ -639,7 +639,7 @@ export default function BlogPost() {
 
           {/* CTA 13 */}
           <div className="ae-cta-inline not-prose">
-            <p>Talk to our team about building real AI authority for your business.</p>
+            <p>Talk to our team about building real AI authority for your business. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -651,25 +651,25 @@ export default function BlogPost() {
           <p>No. OpenAI launched an advertising program in February 2026, but advertisers cannot pay to influence what ChatGPT actually says in its answers. Ads appear alongside organic responses as clearly labeled sponsored content. The recommendation engine and the ad serving system are completely separate.</p>
 
           <h3>How much does it cost to advertise on ChatGPT?</h3>
-          <p>ChatGPT advertising launched with a $60 CPM and a minimum spend of $250,000 to participate in the beta program. Initial partners include Omnicom, WPP, Target, and Adobe. These ads appear only on the Free and Go ($8/month) tiers.</p>
+          <p>ChatGPT advertising launched with a $60 CPM and a minimum spend of $250,000 to participate in the beta program. Initial partners include Omnicom, WPP, Target, and Adobe. These ads appear only on the Free and Go ($8/month) tiers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <h3>Do ChatGPT ads appear on all subscription tiers?</h3>
           <p>No. ChatGPT ads only appear on the Free tier and the Go tier ($8/month). Users on Plus ($20/month), Pro ($200/month), Business, and Enterprise plans see no ads. The highest-intent business users researching services are overwhelmingly on paid plans.</p>
 
           <h3>What is the difference between a ChatGPT ad and a ChatGPT recommendation?</h3>
-          <p>A ChatGPT ad is a paid placement that appears alongside a response, clearly labeled as sponsored content. A ChatGPT recommendation is when the AI organically names your business as a suggestion within its answer text. Ads are bought. Recommendations are earned through authority, content quality, and brand visibility across the web.</p>
+          <p>A ChatGPT ad is a paid placement that appears alongside a response, clearly labeled as sponsored content. A ChatGPT recommendation is when the AI organically names your business as a suggestion within its answer text. Ads are bought. Recommendations are earned through authority, content quality, and brand visibility across the web. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <h3>Can paying for ChatGPT ads influence what ChatGPT says about my business?</h3>
           <p>Absolutely not. OpenAI has stated that advertisers cannot pay to influence what ChatGPT says in its responses. The AI generates answers based solely on its training data and real-time information retrieval. The ad system is architecturally separate from the answer system.</p>
 
           <h3>How does ChatGPT actually choose which businesses to recommend?</h3>
-          <p>ChatGPT recommends businesses based on visibility across the open web: authoritative brand mentions, third-party review signals, structured data markup, content depth and freshness, and appearances on trusted best-of lists. Business websites account for 58% of local business recommendations. None of these signals involve paid advertising.</p>
+          <p>ChatGPT recommends businesses based on visibility across the open web: authoritative brand mentions, third-party review signals, structured data markup, content depth and freshness, and appearances on trusted best-of lists. Business websites account for 58% of local business recommendations. None of these signals involve paid advertising. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <h3>Should I invest in ChatGPT ads or AI optimization?</h3>
           <p>For most local businesses, AI optimization delivers far greater long-term value. The $250,000 minimum ad spend is out of reach for small businesses, ads only appear on free and low-tier plans, and they do not influence organic recommendations. AI optimization builds lasting citations that reach all users, cost nothing per impression, and compound over time.</p>
 
           <h3>What is the best way to get ChatGPT to recommend my business without paying?</h3>
-          <p>Focus on the authority signals AI platforms actually read: consistent business information across the web, strong reviews on AI-accessible platforms like Yelp and BBB, expert content that answers common questions, brand mentions on authoritative third-party sites, and proper schema markup. A free Blind Spot Report can show you exactly where your gaps are.</p>
+          <p>Focus on the authority signals AI platforms actually read: consistent business information across the web, strong reviews on AI-accessible platforms like Yelp and BBB, expert content that answers common questions, brand mentions on authoritative third-party sites, and proper schema markup. A free Blind Spot Report can show you exactly where your gaps are. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           {/* CTA 14 */}
           <div className="ae-cta-inline not-prose">
@@ -680,7 +680,7 @@ export default function BlogPost() {
           {/* FINAL CTA */}
           <div className="ae-final-cta not-prose">
             <h3>The Answer Is No. You Cannot Buy ChatGPT Recommendations.</h3>
-            <p>But the businesses being recommended right now did not need to buy anything. They earned their place by building genuine authority that AI platforms can verify. Your free Blind Spot Report shows you exactly where the gaps are between where you are and where AI-recommended businesses stand.</p>
+            <p>But the businesses being recommended right now did not need to buy anything. They earned their place by building genuine authority that AI platforms can verify. Your free Blind Spot Report shows you exactly where the gaps are between where you are and where AI-recommended businesses stand. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
             <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">

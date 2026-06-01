@@ -242,19 +242,19 @@ export default function Page() {
             <span className="ae-section-label">The Opportunity</span>
             <h2>Why Perplexity Citations Matter for Your Business</h2>
 
-            <p>While ChatGPT draws from training data and Google AI Overviews pull from the search index, Perplexity is different. It crawls the live web for every single query, retrieves the most relevant pages, and cites them with numbered footnotes that users can click.</p>
+            <p>While ChatGPT draws from training data and Google AI Overviews pull from the search index, Perplexity is different. It crawls the live web for every single query, retrieves the most relevant pages, and cites them with numbered footnotes that users can click. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>That transparency creates an opportunity. If you understand how Perplexity selects sources, you can engineer your content to earn those citations consistently. And since Perplexity&apos;s user base skews toward professionals and researchers who want sourced, verifiable answers, those citations drive high-intent traffic.</p>
+            <p>That transparency creates an opportunity. If you understand how Perplexity selects sources, you can engineer your content to earn those citations consistently. And since Perplexity&apos;s user base skews toward professionals and researchers who want sourced, verifiable answers, those citations drive high-intent traffic. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>If Perplexity uses a fact from your page, it is required to cite you. That is not optional. It is how RAG works.</p>
+              <p>If Perplexity uses a fact from your page, it is required to cite you. That is not optional. It is how RAG works. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
-            <p>Here is exactly how Perplexity decides which sources make the cut, and what you can do to become one of them.</p>
+            <p>Here is exactly how Perplexity decides which sources make the cut, and what you can do to become one of them. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if Perplexity is citing your competitors instead of you.</p>
+              <p>Find out if Perplexity is citing your competitors instead of you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -262,30 +262,30 @@ export default function Page() {
             <span className="ae-section-label">Architecture</span>
             <h2>How Perplexity&apos;s RAG System Works</h2>
 
-            <p>Perplexity&apos;s architecture is built on Retrieval-Augmented Generation (RAG). Unlike pure language models that generate text from memorized patterns, RAG grounds every answer in real web sources. The process has three stages.</p>
+            <p>Perplexity&apos;s architecture is built on Retrieval-Augmented Generation (RAG). Unlike pure language models that generate text from memorized patterns, RAG grounds every answer in real web sources. The process has three stages. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Stage 1: Retrieval</strong>
-                <p>When you type a query, Perplexity searches the web and retrieves the most relevant pages. It is specifically looking for pages that can directly answer the question, not just pages that match keywords.</p>
+                <p>When you type a query, Perplexity searches the web and retrieves the most relevant pages. It is specifically looking for pages that can directly answer the question, not just pages that match keywords. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Stage 2: Reranking</strong>
-                <p>Retrieved pages go through multiple quality gates. Perplexity uses L3 reranking to evaluate each page on relevance, authority, freshness, and extractability. Pages that are hard to parse or contain generic content get filtered out.</p>
+                <p>Retrieved pages go through multiple quality gates. Perplexity uses L3 reranking to evaluate each page on relevance, authority, freshness, and extractability. Pages that are hard to parse or contain generic content get filtered out. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Stage 3: Generation</strong>
-                <p>Perplexity synthesizes the top-ranked sources into a coherent answer and attaches numbered footnotes linking back to each source. If it uses your data, it must cite you.</p>
+                <p>Perplexity synthesizes the top-ranked sources into a coherent answer and attaches numbered footnotes linking back to each source. If it uses your data, it must cite you. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Key insight:</strong> Perplexity does not choose whether to cite sources. The RAG architecture requires it. If your content provides the factual basis for part of the answer, the citation is automatic. Your job is to become the source Perplexity retrieves.</p>
+              <p><strong>Key insight:</strong> Perplexity does not choose whether to cite sources. The RAG architecture requires it. If your content provides the factual basis for part of the answer, the citation is automatic. Your job is to become the source Perplexity retrieves. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI platforms see when they look at your website?</p>
+              <p>Want to know exactly what AI platforms see when they look at your website? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Analysis &rarr;</a>
             </div>
 
@@ -293,7 +293,7 @@ export default function Page() {
             <span className="ae-section-label">Ranking Factors</span>
             <h2>The 5 Factors That Determine Perplexity Citations</h2>
 
-            <p>Based on observable patterns across thousands of Perplexity queries, here are the five factors that most strongly influence which sources get cited.</p>
+            <p>Based on observable patterns across thousands of Perplexity queries, here are the five factors that most strongly influence which sources get cited. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -343,39 +343,39 @@ export default function Page() {
 
             <h3>1. Citation Frequency (The Compounding Factor)</h3>
 
-            <p><strong>Citation frequency is the single largest driver of AI answer inclusions for a domain.</strong> This is a compounding effect: the more often Perplexity cites your domain across different queries, the more it trusts your domain for future queries.</p>
+            <p><strong>Citation frequency is the single largest driver of AI answer inclusions for a domain.</strong> This is a compounding effect: the more often Perplexity cites your domain across different queries, the more it trusts your domain for future queries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-            <p>This is why building a broad content footprint matters. If Perplexity has cited your plumbing website for water heater questions, it is more likely to cite you for drain cleaning questions too. Every citation reinforces your domain&apos;s authority in Perplexity&apos;s retrieval system.</p>
+            <p>This is why building a broad content footprint matters. If Perplexity has cited your plumbing website for water heater questions, it is more likely to cite you for drain cleaning questions too. Every citation reinforces your domain&apos;s authority in Perplexity&apos;s retrieval system. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>Actionable:</strong> Publish comprehensive content across all your service categories. Each new citation builds compounding trust for your entire domain. One well-cited page lifts everything.</p>
+              <p><strong>Actionable:</strong> Publish comprehensive content across all your service categories. Each new citation builds compounding trust for your entire domain. One well-cited page lifts everything. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <h3>2. Content Freshness (Major Ranking Signal)</h3>
 
-            <p>Perplexity heavily rewards recency. Newly published or recently updated content gets a significant ranking boost. A blog post published last week about AC repair costs will outrank an identical post published two years ago, even if the older post has more backlinks.</p>
+            <p>Perplexity heavily rewards recency. Newly published or recently updated content gets a significant ranking boost. A blog post published last week about AC repair costs will outrank an identical post published two years ago, even if the older post has more backlinks. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
-            <p>The practical implication: update your most important content regularly. Refresh stats, add current year references, and republish. Perplexity notices the last-modified date and gives recently touched content preferential treatment.</p>
+            <p>The practical implication: update your most important content regularly. Refresh stats, add current year references, and republish. Perplexity notices the last-modified date and gives recently touched content preferential treatment. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Warning:</strong> Content that has not been updated in months will gradually lose visibility. If your best pages were published more than 90 days ago without updates, they are losing ground to fresher competitors right now.</p>
+              <p><strong>Warning:</strong> Content that has not been updated in months will gradually lose visibility. If your best pages were published more than 90 days ago without updates, they are losing ground to fresher competitors right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your content is fresh enough for Perplexity? We will check for you.</p>
+              <p>Not sure if your content is fresh enough for Perplexity? We will check for you. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Free Content Freshness Audit &rarr;</a>
             </div>
 
             <h3>3. Domain Authority (Meaningful But Not Dominant)</h3>
 
-            <p>Domain authority plays a meaningful role in Perplexity&apos;s ranking, but it is not the dominant factor many assume. Perplexity maintains curated authority domains for different categories: GitHub and Stack Overflow for technical content, Amazon and Walmart for products, Reddit and LinkedIn for discussions.</p>
+            <p>Domain authority plays a meaningful role in Perplexity&apos;s ranking, but it is not the dominant factor many assume. Perplexity maintains curated authority domains for different categories: GitHub and Stack Overflow for technical content, Amazon and Walmart for products, Reddit and LinkedIn for discussions. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>For local businesses, this means you will not outrank the New York Times on a general topic. But you can absolutely dominate your specific niche. If you are the most authoritative source on plumbing in Dallas, Perplexity will cite you for Dallas plumbing queries even though your domain authority is a fraction of national publications.</p>
+            <p>For local businesses, this means you will not outrank the New York Times on a general topic. But you can absolutely dominate your specific niche. If you are the most authoritative source on plumbing in Dallas, Perplexity will cite you for Dallas plumbing queries even though your domain authority is a fraction of national publications. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>4. Content Structure and Extractability</h3>
 
-            <p>Perplexity favors content that is easy to crawl, easy to read, and easy to extract as a clear answer. Pages with clean headings, short paragraphs, and structured data (schema markup) rank better than walls of text.</p>
+            <p>Perplexity favors content that is easy to crawl, easy to read, and easy to extract as a clear answer. Pages with clean headings, short paragraphs, and structured data (schema markup) rank better than walls of text. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Cheat Sheet */}
             <div className="ae-cheat-sheet not-prose">
@@ -392,16 +392,16 @@ export default function Page() {
 
             <h3>5. Author Entity Recognition</h3>
 
-            <p>Perplexity cross-references author entities across the web. An author who publishes consistently about their domain across multiple platforms earns more citations than anonymous content. If your company&apos;s founder publishes on your blog, contributes to industry publications, and maintains an active LinkedIn presence on the same topics, Perplexity builds a stronger entity profile and is more likely to trust and cite your content.</p>
+            <p>Perplexity cross-references author entities across the web. An author who publishes consistently about their domain across multiple platforms earns more citations than anonymous content. If your company&apos;s founder publishes on your blog, contributes to industry publications, and maintains an active LinkedIn presence on the same topics, Perplexity builds a stronger entity profile and is more likely to trust and cite your content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Citation frequency and content freshness are the two factors you can influence fastest. Domain authority takes months. But publishing fresh, well-structured content that earns citations creates a flywheel that builds authority over time.</p>
+              <p>Citation frequency and content freshness are the two factors you can influence fastest. Domain authority takes months. But publishing fresh, well-structured content that earns citations creates a flywheel that builds authority over time. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want a custom strategy for earning Perplexity citations in your industry?</p>
+              <p>Want a custom strategy for earning Perplexity citations in your industry? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -409,7 +409,7 @@ export default function Page() {
             <span className="ae-section-label">Platform Comparison</span>
             <h2>Perplexity vs. ChatGPT vs. Google AI: How They Differ</h2>
 
-            <p>Understanding how Perplexity differs from other AI platforms helps you prioritize your optimization efforts. Each platform has distinct citation mechanics.</p>
+            <p>Understanding how Perplexity differs from other AI platforms helps you prioritize your optimization efforts. Each platform has distinct citation mechanics. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -467,12 +467,12 @@ export default function Page() {
             </table>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Why this matters:</strong> Perplexity is the only major AI platform where every answer includes clickable source links by default. That means a Perplexity citation drives more direct traffic than a ChatGPT mention. For businesses, this makes Perplexity the highest-ROI AI platform to optimize for first.</p>
+              <p><strong>Why this matters:</strong> Perplexity is the only major AI platform where every answer includes clickable source links by default. That means a Perplexity citation drives more direct traffic than a ChatGPT mention. For businesses, this makes Perplexity the highest-ROI AI platform to optimize for first. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how you compare to competitors across all three AI platforms.</p>
+              <p>See how you compare to competitors across all three AI platforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -506,7 +506,7 @@ export default function Page() {
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is Perplexity the right AI platform to prioritize for your business? We will tell you.</p>
+              <p>Is Perplexity the right AI platform to prioritize for your business? We will tell you. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Free Platform Assessment &rarr;</a>
             </div>
 
@@ -514,7 +514,7 @@ export default function Page() {
             <span className="ae-section-label">Impact Analysis</span>
             <h2>Ranking Factor Weight: Where to Focus First</h2>
 
-            <p>Not all ranking factors deserve equal effort. Here is how we weight each factor based on observable citation patterns and the speed at which you can influence them.</p>
+            <p>Not all ranking factors deserve equal effort. Here is how we weight each factor based on observable citation patterns and the speed at which you can influence them. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item" style={{ ['--bar-width' as string]: '95%' }}>

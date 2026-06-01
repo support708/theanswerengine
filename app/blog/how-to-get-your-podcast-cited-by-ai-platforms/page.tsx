@@ -287,19 +287,19 @@ export default function Page() {
             </div>
           </div>
 
-          <p>Podcasting has exploded. There are over 4 million active shows producing content on every imaginable topic. Business owners, consultants, industry experts, and thought leaders pour hours into recording episodes that showcase deep expertise. And yet, when someone asks ChatGPT, Perplexity, or Google AI a question that your podcast episode answers perfectly, your show does not get mentioned.</p>
+          <p>Podcasting has exploded. There are over 4 million active shows producing content on every imaginable topic. Business owners, consultants, industry experts, and thought leaders pour hours into recording episodes that showcase deep expertise. And yet, when someone asks ChatGPT, Perplexity, or Google AI a question that your podcast episode answers perfectly, your show does not get mentioned. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>The reason is simple. AI platforms cannot listen to audio. They cannot process your .mp3 file. They cannot hear your brilliant interview or your expert breakdown of an industry trend. Every AI search engine on the market today is fundamentally a text-processing system. If your expertise exists only as sound waves, it might as well not exist at all in the world of AI search.</p>
+          <p>The reason is simple. AI platforms cannot listen to audio. They cannot process your .mp3 file. They cannot hear your brilliant interview or your expert breakdown of an industry trend. Every AI search engine on the market today is fundamentally a text-processing system. If your expertise exists only as sound waves, it might as well not exist at all in the world of AI search. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-          <p>That does not mean podcasts are excluded from AI citations forever. It means the path to getting cited requires an extra step that most podcasters skip entirely. The podcasters who do get cited have figured out how to translate their audio expertise into formats that AI can actually read, evaluate, and reference.</p>
+          <p>That does not mean podcasts are excluded from AI citations forever. It means the path to getting cited requires an extra step that most podcasters skip entirely. The podcasters who do get cited have figured out how to translate their audio expertise into formats that AI can actually read, evaluate, and reference. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Hard Truth About Podcast Visibility</div>
-            <p>Your podcast could contain the single most authoritative answer to a question in your industry. If that answer exists only as audio, no AI platform on Earth will ever cite it. The gap between what you know and what AI can find is entirely a format problem. Solving it requires converting your spoken expertise into machine-readable text, and doing it in a way that AI platforms trust enough to cite.</p>
+            <p>Your podcast could contain the single most authoritative answer to a question in your industry. If that answer exists only as audio, no AI platform on Earth will ever cite it. The gap between what you know and what AI can find is entirely a format problem. Solving it requires converting your spoken expertise into machine-readable text, and doing it in a way that AI platforms trust enough to cite. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Wondering if AI platforms can find any of your podcast content today? Find out in 60 seconds.</p>
+            <p>Wondering if AI platforms can find any of your podcast content today? Find out in 60 seconds. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Check Your AI Visibility Now</Link>
           </div>
 
@@ -307,20 +307,20 @@ export default function Page() {
           <span className="ae-section-label" id="invisible-medium">The Invisible Medium</span>
           <h2>Why Podcasts Are Invisible to AI by Default</h2>
 
-          <p>Every major AI platform processes information through text. ChatGPT reads web pages. Perplexity crawls and indexes written content in real time. Google AI Overviews synthesize text from across the web. None of them plug in headphones and listen to your latest episode.</p>
+          <p>Every major AI platform processes information through text. ChatGPT reads web pages. Perplexity crawls and indexes written content in real time. Google AI Overviews synthesize text from across the web. None of them plug in headphones and listen to your latest episode. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-          <p>This creates a fundamental asymmetry. A blog post with the same information as your podcast episode is immediately eligible for AI citation. Your episode is not. The blog post lives as crawlable HTML. Your episode lives as an audio file hosted on a platform like Apple Podcasts, Spotify, or Buzzsprout, none of which produce the kind of structured, indexable text that AI platforms need.</p>
+          <p>This creates a fundamental asymmetry. A blog post with the same information as your podcast episode is immediately eligible for AI citation. Your episode is not. The blog post lives as crawlable HTML. Your episode lives as an audio file hosted on a platform like Apple Podcasts, Spotify, or Buzzsprout, none of which produce the kind of structured, indexable text that AI platforms need. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
-          <p>Most podcast hosting platforms generate minimal metadata: a title, a short description, maybe a few tags. That is not enough for AI to determine whether your content answers a specific question. Compare that to a well-structured web page with headers, paragraphs, statistics, and citations. The web page gives AI dozens of signals about relevance and authority. The podcast listing gives it almost nothing.</p>
+          <p>Most podcast hosting platforms generate minimal metadata: a title, a short description, maybe a few tags. That is not enough for AI to determine whether your content answers a specific question. Compare that to a well-structured web page with headers, paragraphs, statistics, and citations. The web page gives AI dozens of signals about relevance and authority. The podcast listing gives it almost nothing. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-quote">
-            <p>A 60-minute podcast episode containing expert-level insights has zero AI citation potential if it exists only as audio. A 600-word blog post with clear headers and one solid statistic has more.</p>
+            <p>A 60-minute podcast episode containing expert-level insights has zero AI citation potential if it exists only as audio. A 600-word blog post with clear headers and one solid statistic has more. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
-          <p>The podcasters who understand this gap are the ones whose content shows up when AI answers questions. They treat the audio recording as the starting point, not the finished product. The real work, the work that earns AI citations, happens after the microphone is off.</p>
+          <p>The podcasters who understand this gap are the ones whose content shows up when AI answers questions. They treat the audio recording as the starting point, not the finished product. The real work, the work that earns AI citations, happens after the microphone is off. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-cta-inline">
-            <p>Your competitors might already be converting their podcast content for AI. Are you falling behind?</p>
+            <p>Your competitors might already be converting their podcast content for AI. Are you falling behind? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -328,19 +328,19 @@ export default function Page() {
           <span className="ae-section-label" id="transcript-gap">Transcripts and AI</span>
           <h2>The Transcript Gap That Separates Cited Podcasters From Ignored Ones</h2>
 
-          <p>Podcast transcripts are the single most important bridge between your audio content and AI citation eligibility. A transcript converts your spoken expertise into the exact format AI platforms consume: clean, structured text. Without one, your episode is locked behind an audio barrier that no AI can penetrate.</p>
+          <p>Podcast transcripts are the single most important bridge between your audio content and AI citation eligibility. A transcript converts your spoken expertise into the exact format AI platforms consume: clean, structured text. Without one, your episode is locked behind an audio barrier that no AI can penetrate. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-          <p>But not all transcripts are created equal. There is a meaningful difference between an auto-generated transcript dumped into a podcast platform and a well-formatted transcript published as a dedicated page on your website. The auto-generated version typically lacks punctuation, misidentifies speakers, mangles technical terminology, and reads like a wall of unstructured text. AI platforms processing that kind of content are far less likely to extract a clean, quotable passage.</p>
+          <p>But not all transcripts are created equal. There is a meaningful difference between an auto-generated transcript dumped into a podcast platform and a well-formatted transcript published as a dedicated page on your website. The auto-generated version typically lacks punctuation, misidentifies speakers, mangles technical terminology, and reads like a wall of unstructured text. AI platforms processing that kind of content are far less likely to extract a clean, quotable passage. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-          <p>Content with statistics and citations gets 30 to 40% higher AI visibility compared to content that makes claims without supporting data. This has direct implications for how you structure your transcripts. A transcript that preserves the data points, expert quotes, and specific claims from your episode gives AI platforms the kind of authoritative, fact-rich text they prefer to cite.</p>
+          <p>Content with statistics and citations gets 30 to 40% higher AI visibility compared to content that makes claims without supporting data. This has direct implications for how you structure your transcripts. A transcript that preserves the data points, expert quotes, and specific claims from your episode gives AI platforms the kind of authoritative, fact-rich text they prefer to cite. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">Quality Over Quantity</div>
-            <p>Publishing 200 episodes without transcripts produces zero AI citation opportunities. Publishing 20 episodes with well-structured, web-hosted transcripts produces 20 potential citation sources. The podcasters winning in AI search are not necessarily the most prolific. They are the ones who treat every episode as a piece of written content waiting to be unlocked.</p>
+            <p>Publishing 200 episodes without transcripts produces zero AI citation opportunities. Publishing 20 episodes with well-structured, web-hosted transcripts produces 20 potential citation sources. The podcasters winning in AI search are not necessarily the most prolific. They are the ones who treat every episode as a piece of written content waiting to be unlocked. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Not sure if your transcripts are formatted for AI discovery? We can evaluate your podcast presence across every AI platform.</p>
+            <p>Not sure if your transcripts are formatted for AI discovery? We can evaluate your podcast presence across every AI platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             <Link href="/blindspot">Run Your Free AI Audit</Link>
           </div>
 
@@ -348,11 +348,11 @@ export default function Page() {
           <span className="ae-section-label" id="where-to-publish">Publishing Strategy</span>
           <h2>Where to Publish Podcast Content for AI Discovery</h2>
 
-          <p>Where your transcript lives matters as much as whether it exists. Publishing a transcript only inside your podcast hosting platform, embedded in Apple Podcasts metadata or tucked into a Spotify episode description, severely limits its discoverability. AI platforms crawl the open web. They do not reliably crawl inside walled-garden podcast platforms.</p>
+          <p>Where your transcript lives matters as much as whether it exists. Publishing a transcript only inside your podcast hosting platform, embedded in Apple Podcasts metadata or tucked into a Spotify episode description, severely limits its discoverability. AI platforms crawl the open web. They do not reliably crawl inside walled-garden podcast platforms. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-          <p>The most effective location for podcast transcripts is your own website. Each episode should have its own dedicated page with a clear URL structure, proper heading hierarchy, and internal links connecting it to related content on your site. This gives AI crawlers a clean, indexable page to discover and evaluate your expertise.</p>
+          <p>The most effective location for podcast transcripts is your own website. Each episode should have its own dedicated page with a clear URL structure, proper heading hierarchy, and internal links connecting it to related content on your site. This gives AI crawlers a clean, indexable page to discover and evaluate your expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-          <p>LinkedIn posts can appear in AI search within minutes of publishing. That speed matters for podcast content too. When you publish a key insight from your latest episode as a LinkedIn post and link it back to the full transcript on your website, you create multiple entry points for AI to discover your expertise. The LinkedIn post provides the fast-indexing signal. The website transcript provides the depth.</p>
+          <p>LinkedIn posts can appear in AI search within minutes of publishing. That speed matters for podcast content too. When you publish a key insight from your latest episode as a LinkedIn post and link it back to the full transcript on your website, you create multiple entry points for AI to discover your expertise. The LinkedIn post provides the fast-indexing signal. The website transcript provides the depth. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* Comparison Table */}
           <table className="ae-comparison-table">
@@ -406,11 +406,11 @@ export default function Page() {
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Your podcast hosting platform is for distribution to listeners. Your website is for distribution to AI. These are two separate distribution channels with two separate strategies. Treating them the same way leaves AI citation potential on the table.</p>
+            <p>Your podcast hosting platform is for distribution to listeners. Your website is for distribution to AI. These are two separate distribution channels with two separate strategies. Treating them the same way leaves AI citation potential on the table. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Is your podcast content published where AI can actually find it? We audit every channel that matters.</p>
+            <p>Is your podcast content published where AI can actually find it? We audit every channel that matters. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <Link href="/blindspot">See What AI Sees</Link>
           </div>
 
@@ -418,11 +418,11 @@ export default function Page() {
           <span className="ae-section-label" id="structure-matters">Structure Over Volume</span>
           <h2>Why Structure Matters More Than Episode Count</h2>
 
-          <p>Many podcasters believe that publishing more episodes will eventually lead to AI visibility. It will not. Publishing 500 episodes without structural optimization is like writing 500 letters and never mailing them. The content exists, but it never reaches the intended audience.</p>
+          <p>Many podcasters believe that publishing more episodes will eventually lead to AI visibility. It will not. Publishing 500 episodes without structural optimization is like writing 500 letters and never mailing them. The content exists, but it never reaches the intended audience. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-          <p>AI platforms evaluate content based on how well it answers specific questions. That means the structure of your transcript-based content is more important than the volume. A single episode transcript that is broken into clear sections with descriptive headers, that includes specific data points and named sources, and that directly addresses a question someone would type into an AI search bar will outperform an entire library of unstructured audio content.</p>
+          <p>AI platforms evaluate content based on how well it answers specific questions. That means the structure of your transcript-based content is more important than the volume. A single episode transcript that is broken into clear sections with descriptive headers, that includes specific data points and named sources, and that directly addresses a question someone would type into an AI search bar will outperform an entire library of unstructured audio content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-          <p>The structural elements that matter most for AI citation are the same ones that make content useful for human readers: clear headers that signal what each section covers, statistics that support claims, expert attribution that establishes authority, and a logical flow from question to answer. These are the patterns AI has been trained to recognize as high-quality, citable content.</p>
+          <p>The structural elements that matter most for AI citation are the same ones that make content useful for human readers: clear headers that signal what each section covers, statistics that support claims, expert attribution that establishes authority, and a logical flow from question to answer. These are the patterns AI has been trained to recognize as high-quality, citable content. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* Bar Chart: Content Structure Impact */}
           <div className="ae-bar-group">
@@ -455,11 +455,11 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">The Volume Trap</div>
-            <p>Podcast networks that publish daily episodes often have worse AI citation rates than independent shows that publish biweekly with full transcripts and supporting blog content. AI does not care how often you publish. It cares whether the content it finds is structured, specific, and authoritative enough to cite confidently.</p>
+            <p>Podcast networks that publish daily episodes often have worse AI citation rates than independent shows that publish biweekly with full transcripts and supporting blog content. AI does not care how often you publish. It cares whether the content it finds is structured, specific, and authoritative enough to cite confidently. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Your episode count means nothing if AI cannot read your content. Let us show you what AI actually sees.</p>
+            <p>Your episode count means nothing if AI cannot read your content. Let us show you what AI actually sees. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <Link href="/blindspot">Check Your AI Visibility</Link>
           </div>
 
@@ -467,14 +467,14 @@ export default function Page() {
           <span className="ae-section-label" id="youtube-advantage">The YouTube Factor</span>
           <h2>The YouTube Podcast Advantage That Audio-Only Shows Miss</h2>
 
-          <p>YouTube overtook Reddit as the most-cited social platform in AI responses in early 2026. That shift has massive implications for podcasters. If you are publishing your show only as audio, you are missing out on the platform that AI cites most aggressively.</p>
+          <p>YouTube overtook Reddit as the most-cited social platform in AI responses in early 2026. That shift has massive implications for podcasters. If you are publishing your show only as audio, you are missing out on the platform that AI cites most aggressively. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
-          <p><Link href="/blog/how-to-get-your-youtube-videos-cited-by-ai-platforms">YouTube videos earn dramatically more AI citations than audio-only content</Link> because YouTube automatically generates transcripts, supports chapter markers, integrates natively with Google AI systems, and provides multiple text layers (descriptions, comments, pinned posts) that AI can process. A podcast published as a YouTube video inherits all of these structural advantages for free.</p>
+          <p><Link href="/blog/how-to-get-your-youtube-videos-cited-by-ai-platforms">YouTube videos earn dramatically more AI citations than audio-only content</Link> because YouTube automatically generates transcripts, supports chapter markers, integrates natively with Google AI systems, and provides multiple text layers (descriptions, comments, pinned posts) that AI can process. A podcast published as a YouTube video inherits all of these structural advantages for free. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-          <p>Perplexity cites Reddit 6.1x more than YouTube, which means different AI platforms have different source preferences. But the broader trend is clear: video podcasts on YouTube are visible to AI in ways that audio-only shows simply are not. The transcript alone gives AI something to read. The YouTube metadata gives it context. The platform integration gives it confidence.</p>
+          <p>Perplexity cites Reddit 6.1x more than YouTube, which means different AI platforms have different source preferences. But the broader trend is clear: video podcasts on YouTube are visible to AI in ways that audio-only shows simply are not. The transcript alone gives AI something to read. The YouTube metadata gives it context. The platform integration gives it confidence. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           <div className="ae-quote">
-            <p>The most AI-visible podcasters in 2026 are not choosing between audio and video. They are publishing on both, and using each format to create citation surfaces the other cannot.</p>
+            <p>The most AI-visible podcasters in 2026 are not choosing between audio and video. They are publishing on both, and using each format to create citation surfaces the other cannot. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           <p>This does not mean you need a professional video studio. Many of the most-cited video podcasts use simple setups: a camera on a tripod, decent lighting, and the same microphone they were already using. The production quality matters far less than the structural advantages YouTube provides. AI does not evaluate cinematography. It evaluates text.</p>

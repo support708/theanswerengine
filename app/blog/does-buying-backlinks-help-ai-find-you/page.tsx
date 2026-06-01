@@ -258,14 +258,14 @@ export default function BlogPost() {
 
           <p>Backlinks were the foundation of Google&apos;s original PageRank algorithm. Larry Page and Sergey Brin built their search engine on a simple insight: if other websites link to your page, it is probably valuable. More links meant more authority. Higher authority meant higher rankings.</p>
 
-          <p>That logic created a billion-dollar industry. Companies like BuildMyRank, LinksManagement, and countless freelancers on Fiverr sold backlinks by the thousand. Businesses spent $5,000 to $50,000 per month buying links from private blog networks (PBNs), guest post farms, and directory rings. For a while, it worked spectacularly. The businesses that spent the most on links dominated search results, regardless of whether their actual services were any good.</p>
+          <p>That logic created a billion-dollar industry. Companies like BuildMyRank, LinksManagement, and countless freelancers on Fiverr sold backlinks by the thousand. Businesses spent $5,000 to $50,000 per month buying links from private blog networks (PBNs), guest post farms, and directory rings. For a while, it worked spectacularly. The businesses that spent the most on links dominated search results, regardless of whether their actual services were any good. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <p>Then Google fought back. The Penguin update in 2012 demolished link farms overnight. Businesses that had spent years building artificial link profiles watched their traffic vanish in a single algorithm cycle. But the buying never fully stopped. The tactics simply got more sophisticated. Guest post placements, niche edits, HARO link building, and &quot;digital PR&quot; became the new vocabulary for what was, at its core, still paying for links.</p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
               <strong>1998 to 2011: The Golden Era</strong>
-              <p>Backlinks were the dominant ranking signal. More links equaled higher rankings, and link quality was barely evaluated. Buying worked without consequence.</p>
+              <p>Backlinks were the dominant ranking signal. More links equaled higher rankings, and link quality was barely evaluated. Buying worked without consequence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
             <div className="ae-timeline-item">
               <strong>2012: Penguin Update</strong>
@@ -273,7 +273,7 @@ export default function BlogPost() {
             </div>
             <div className="ae-timeline-item">
               <strong>2013 to 2022: The Cat and Mouse Era</strong>
-              <p>Link buyers shifted to subtler methods. Guest posts, niche edits, and &quot;digital PR&quot; became the preferred delivery mechanisms for purchased links.</p>
+              <p>Link buyers shifted to subtler methods. Guest posts, niche edits, and &quot;digital PR&quot; became the preferred delivery mechanisms for purchased links. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <div className="ae-timeline-item">
               <strong>2023 to 2024: SpamBrain Escalation</strong>
@@ -281,7 +281,7 @@ export default function BlogPost() {
             </div>
             <div className="ae-timeline-item">
               <strong>2025 to 2026: AI Search Dominance</strong>
-              <p>AI platforms like ChatGPT and Perplexity became primary search tools for buying decisions. These platforms do not use backlinks as a primary trust signal at all.</p>
+              <p>AI platforms like ChatGPT and Perplexity became primary search tools for buying decisions. These platforms do not use backlinks as a primary trust signal at all. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
           </div>
 
@@ -289,7 +289,7 @@ export default function BlogPost() {
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering if your backlink investment is actually helping, or silently hurting?</p>
+            <p>Wondering if your backlink investment is actually helping, or silently hurting? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -299,20 +299,20 @@ export default function BlogPost() {
 
           <p>AI search platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews do not crawl the web the same way Google Search does. They do not count backlinks. They do not calculate domain authority scores. They use entirely different mechanisms to decide which sources to cite.</p>
 
-          <p>The core technology is called Retrieval-Augmented Generation (RAG). When you ask ChatGPT a question, it retrieves relevant documents and evaluates them based on semantic relevance, entity clarity, and whether the information can be verified against other sources. A page with 10,000 backlinks and a page with zero backlinks are treated identically if the content quality is the same.</p>
+          <p>The core technology is called Retrieval-Augmented Generation (RAG). When you ask ChatGPT a question, it retrieves relevant documents and evaluates them based on semantic relevance, entity clarity, and whether the information can be verified against other sources. A page with 10,000 backlinks and a page with zero backlinks are treated identically if the content quality is the same. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <p>Research from Semrush&apos;s 2025 citation study found something startling: domain authority, backlink count, and keyword density have weak or even negative correlations with how often AI models cite a domain. The strongest predictor of AI citation was brand search volume, with a 0.334 correlation. In other words, people searching for your brand name directly matters more than all your backlinks combined.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Disconnect Most Businesses Miss</div>
-            <p>Traditional SEO and AI visibility are measured by completely different signals. A business can have a Domain Rating of 70+ with thousands of backlinks and still be invisible to ChatGPT. Meanwhile, a local business with a DR of 15 but strong reviews, consistent directory listings, and structured content can get cited regularly. The two systems operate on fundamentally different logic.</p>
+            <p>Traditional SEO and AI visibility are measured by completely different signals. A business can have a Domain Rating of 70+ with thousands of backlinks and still be invisible to ChatGPT. Meanwhile, a local business with a DR of 15 but strong reviews, consistent directory listings, and structured content can get cited regularly. The two systems operate on fundamentally different logic. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           <p>Perplexity, which has become one of the fastest-growing AI search tools, is particularly interesting. It prioritizes content freshness and real-time indexing. Reddit accounts for 46.7% of Perplexity&apos;s top citations. Not because Reddit has strong backlinks, but because Reddit has recent, authentic, experience-based discussions that AI considers more trustworthy than polished marketing pages. This is a pattern that <Link href="/blog/reddit-mentions-boost-ai-search-visibility">we have explored in depth</Link>.</p>
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Find out what AI platforms actually see when they evaluate your business.</p>
+            <p>Find out what AI platforms actually see when they evaluate your business. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
           </div>
 
@@ -374,13 +374,13 @@ export default function BlogPost() {
             </tbody>
           </table>
 
-          <p>The pattern is clear. Every signal that AI platforms prioritize is something you build through genuine business quality and proper content architecture. None of them can be purchased. You cannot buy brand search volume. You cannot buy authentic reviews that withstand cross-platform verification. You cannot buy the kind of content structure that AI platforms interpret as expertise.</p>
+          <p>The pattern is clear. Every signal that AI platforms prioritize is something you build through genuine business quality and proper content architecture. None of them can be purchased. You cannot buy brand search volume. You cannot buy authentic reviews that withstand cross-platform verification. You cannot buy the kind of content structure that AI platforms interpret as expertise. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>This represents a fundamental shift in how visibility is earned online. For twenty years, money could buy rankings through links. In the AI era, money cannot buy citations. Only verifiable quality earns them. Understanding this shift is central to everything we cover in our exploration of <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era">whether paying for SEO is still worth it</Link>.</p>
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Curious how your trust signals stack up against competitors in AI search?</p>
+            <p>Curious how your trust signals stack up against competitors in AI search? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -390,7 +390,7 @@ export default function BlogPost() {
 
           <p>Even setting AI search aside, buying backlinks has become increasingly dangerous for traditional Google rankings as well. Google&apos;s SpamBrain system, which received major upgrades throughout 2025, is specifically trained to identify purchased links. It analyzes over 40 billion spam pages daily and has reduced search spam by more than 99% compared to pre-machine-learning baselines.</p>
 
-          <p>What makes the current enforcement particularly devastating is how it works. Google no longer simply penalizes sites caught buying links. In many cases, they neutralize the link value silently. Your rankings do not collapse. They just stop improving. You keep paying for links that do absolutely nothing. The March 2026 spam update extended this further, explicitly targeting AI-generated guest post farms as a distinct violation category.</p>
+          <p>What makes the current enforcement particularly devastating is how it works. Google no longer simply penalizes sites caught buying links. In many cases, they neutralize the link value silently. Your rankings do not collapse. They just stop improving. You keep paying for links that do absolutely nothing. The March 2026 spam update extended this further, explicitly targeting AI-generated guest post farms as a distinct violation category. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           {/* BAR GROUP: SpamBrain Detection Capabilities */}
           <div className="ae-bar-group not-prose">
@@ -425,7 +425,7 @@ export default function BlogPost() {
 
           <div className="ae-callout ae-callout-danger not-prose">
             <div className="ae-callout-title">Double Jeopardy</div>
-            <p>Buying backlinks in 2026 creates a two-front risk. On the Google side, SpamBrain can neutralize or penalize your link investment. On the AI side, the links provide zero citation value to begin with. You are paying for something that might hurt your Google rankings and definitively does not help your AI visibility. The ROI equation has completely collapsed.</p>
+            <p>Buying backlinks in 2026 creates a two-front risk. On the Google side, SpamBrain can neutralize or penalize your link investment. On the AI side, the links provide zero citation value to begin with. You are paying for something that might hurt your Google rankings and definitively does not help your AI visibility. The ROI equation has completely collapsed. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
 
           {/* CTA 4 */}
@@ -438,11 +438,11 @@ export default function BlogPost() {
           <span className="ae-section-label" id="what-ai-cites">The Evidence</span>
           <h2>What AI Platforms Actually Cite (And Why)</h2>
 
-          <p>An analysis of over 8,000 AI citations across ChatGPT, Perplexity, Claude, and Google AI Overviews reveals consistent patterns in what gets selected. The sources that AI recommends share specific characteristics, and backlink count is not one of them.</p>
+          <p>An analysis of over 8,000 AI citations across ChatGPT, Perplexity, Claude, and Google AI Overviews reveals consistent patterns in what gets selected. The sources that AI recommends share specific characteristics, and backlink count is not one of them. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <p>ChatGPT favors established, authoritative sources like Wikipedia (27% of citations) and major news outlets. But for local and industry-specific queries, it pulls from whatever source provides the clearest, most verifiable answer. A page with zero backlinks but comprehensive schema markup, accurate business data, and structured FAQ content will get cited over a page with thousands of links but generic marketing copy.</p>
 
-          <p>Perplexity is even more interesting. It cites a broader range of sources including blogs, niche publications, and community forums. Reddit alone accounts for nearly half of Perplexity&apos;s top citations. The platform values recency and authenticity over traditional authority metrics. A fresh Reddit discussion about your business carries more citation weight than a two-year-old guest post on a high-DR site.</p>
+          <p>Perplexity is even more interesting. It cites a broader range of sources including blogs, niche publications, and community forums. Reddit alone accounts for nearly half of Perplexity&apos;s top citations. The platform values recency and authenticity over traditional authority metrics. A fresh Reddit discussion about your business carries more citation weight than a two-year-old guest post on a high-DR site. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* BAR GROUP: Citation Priority by Platform */}
           <div className="ae-bar-group not-prose">
@@ -477,7 +477,7 @@ export default function BlogPost() {
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to know which AI platforms currently cite your competitors but not you?</p>
+            <p>Want to know which AI platforms currently cite your competitors but not you? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Competitive Analysis &rarr;</a>
           </div>
 
@@ -511,7 +511,7 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>The distinction comes down to intent and authenticity. Activities that build genuine recognition, create real business relationships, and generate authentic mentions still contribute value. Activities designed primarily to manipulate ranking algorithms provide diminishing or negative returns. And critically, none of the purchasing tactics directly influence AI citation decisions. The money would be better spent on the signals AI platforms actually evaluate.</p>
+          <p>The distinction comes down to intent and authenticity. Activities that build genuine recognition, create real business relationships, and generate authentic mentions still contribute value. Activities designed primarily to manipulate ranking algorithms provide diminishing or negative returns. And critically, none of the purchasing tactics directly influence AI citation decisions. The money would be better spent on the signals AI platforms actually evaluate. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           {/* CTA 6 */}
           <div className="ae-cta-inline not-prose">
@@ -523,7 +523,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="trust-signal-comparison">The Decision Matrix</span>
           <h2>Trust Signal Comparison: What Actually Works for AI Visibility</h2>
 
-          <p>If you are going to invest budget in visibility, it should go where it creates the highest return. Here is how the four primary trust signal categories compare across both traditional and AI search.</p>
+          <p>If you are going to invest budget in visibility, it should go where it creates the highest return. Here is how the four primary trust signal categories compare across both traditional and AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <table className="ae-comparison-table not-prose">
             <thead>
@@ -583,7 +583,7 @@ export default function BlogPost() {
 
           <p>The economics of this comparison are striking. The most effective strategies for AI visibility (structured data, content quality, review management, directory consistency) are also among the most affordable. Purchased backlinks represent the highest cost-to-value ratio: expensive, risky for Google, and worthless for AI. The businesses winning in AI search are not the ones spending the most. They are the ones spending wisely on the right signals.</p>
 
-          <p>This connects directly to the broader question of <Link href="/blog/can-you-game-ai-search-like-people-used-to-game-google">whether you can game AI search the way people used to game Google</Link>. The answer across every tactic, including link buying, is consistent: manipulation fails, quality wins.</p>
+          <p>This connects directly to the broader question of <Link href="/blog/can-you-game-ai-search-like-people-used-to-game-google">whether you can game AI search the way people used to game Google</Link>. The answer across every tactic, including link buying, is consistent: manipulation fails, quality wins. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* CTA 7 */}
           <div className="ae-cta-inline not-prose">
@@ -595,7 +595,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="what-to-do-instead">The Alternative</span>
           <h2>What to Do Instead of Buying Links</h2>
 
-          <p>The businesses that dominate AI search did not get there by buying links. They got there by building something AI platforms can verify, trust, and confidently recommend. The specific tactics they use are not mysterious, but they do require a fundamentally different approach than the link-focused SEO playbook.</p>
+          <p>The businesses that dominate AI search did not get there by buying links. They got there by building something AI platforms can verify, trust, and confidently recommend. The specific tactics they use are not mysterious, but they do require a fundamentally different approach than the link-focused SEO playbook. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>What we can tell you is that the foundation involves four pillars: structured data that AI can parse, content architecture that demonstrates genuine expertise, cross-platform consistency that enables verification, and a review ecosystem that reflects real customer experiences. Each of these pillars reinforces the others, creating a compounding effect that purchased links never provided.</p>
 
@@ -611,7 +611,7 @@ export default function BlogPost() {
             </ul>
           </div>
 
-          <p>The implementation details of what replaces backlinks in an AI-first strategy involve specific technical and content decisions that vary by industry, market, and business model. We have built these strategies for over 50 local businesses across dozens of industries, and the patterns are consistent even though the specifics differ. For more context on whether social media helps with this process, see our analysis of <Link href="/blog/does-social-media-help-ai-recommend-you">how social media influences AI recommendations</Link>.</p>
+          <p>The implementation details of what replaces backlinks in an AI-first strategy involve specific technical and content decisions that vary by industry, market, and business model. We have built these strategies for over 50 local businesses across dozens of industries, and the patterns are consistent even though the specifics differ. For more context on whether social media helps with this process, see our analysis of <Link href="/blog/does-social-media-help-ai-recommend-you">how social media influences AI recommendations</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">The Compounding Advantage</div>
@@ -620,7 +620,7 @@ export default function BlogPost() {
 
           {/* CTA 8 */}
           <div className="ae-cta-inline not-prose">
-            <p>Every month you spend on links instead of AI signals is a month your competitors pull ahead.</p>
+            <p>Every month you spend on links instead of AI signals is a month your competitors pull ahead. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot">Start Your Free AI Audit Today &rarr;</Link>
           </div>
 
@@ -632,7 +632,7 @@ export default function BlogPost() {
 
           {/* CTA 10 */}
           <div className="ae-cta-inline not-prose">
-            <p>Prefer email? Send us your website URL and we will send back what AI sees.</p>
+            <p>Prefer email? Send us your website URL and we will send back what AI sees. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
           </div>
 
@@ -704,7 +704,7 @@ export default function BlogPost() {
                 </h3>
                 <p className="text-gray-400 leading-relaxed">
                   {faq.a}
-                </p>
+                 Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             ))}
           </div>
@@ -717,7 +717,7 @@ export default function BlogPost() {
 
           {/* CTA 12 */}
           <div className="ae-cta-inline not-prose">
-            <p>Ready to see how AI platforms currently evaluate your business?</p>
+            <p>Ready to see how AI platforms currently evaluate your business? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -730,7 +730,7 @@ export default function BlogPost() {
 
           {/* CTA 13 */}
           <div className="ae-cta-inline not-prose">
-            <p>Prefer to talk it through with a real person?</p>
+            <p>Prefer to talk it through with a real person? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
           </div>
 
@@ -743,9 +743,9 @@ export default function BlogPost() {
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">
             <div>
-              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges</p>
+              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
-              <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
+              <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <div className="flex flex-wrap gap-4 mt-3 text-sm">
                 <span className="text-gray-500">2+ years specialized AEO experience</span>
                 <span className="text-gray-500">50+ local business implementations</span>
@@ -763,7 +763,7 @@ export default function BlogPost() {
           {/* FINAL CTA */}
           <div className="ae-final-cta not-prose">
             <h3>Stop Buying Links. Start Building Trust.</h3>
-            <p>The businesses getting cited by ChatGPT, Claude, and Perplexity did not get there through purchased backlinks. They got there by being verifiably worth recommending. Your free Blind Spot Report shows exactly what AI platforms see about your business today, and what it would take to become the one they cite tomorrow.</p>
+            <p>The businesses getting cited by ChatGPT, Claude, and Perplexity did not get there through purchased backlinks. They got there by being verifiably worth recommending. Your free Blind Spot Report shows exactly what AI platforms see about your business today, and what it would take to become the one they cite tomorrow. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
             <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
@@ -799,7 +799,7 @@ export default function BlogPost() {
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
                   Traditional SEO budgets may need redirection. Discover where your marketing dollars create the most visibility in an AI-first world.
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </Link>
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">

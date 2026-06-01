@@ -218,15 +218,15 @@ export default function BlogPost() {
 
           <p>
             Every business owner who invests in AI search optimization asks the same question within the first week: is it working yet? The honest answer is that the first 90 days follow a predictable pattern, and understanding that pattern is the difference between staying the course and pulling the plug too early.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             AI search optimization is not instant like paid ads, but it is also not the 6 to 12 month slog that traditional SEO demands. It lives in a unique middle ground, and the businesses that understand this timeline are the ones that see real results.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure where you stand with AI search right now? Find out before you start the clock.</p>
+            <p>Not sure where you stand with AI search right now? Find out before you start the clock. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
           </div>
 
@@ -236,24 +236,24 @@ export default function BlogPost() {
 
           <p>
             The number one reason businesses fail at AI search optimization is not bad strategy. It is bad expectations. They walk in with one of two mental models, and both are wrong.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
             <strong>Mental model one: paid ads thinking.</strong> They expect to flip a switch and see leads flowing within a week. When day 14 arrives without a flood of AI-referred traffic, they assume the process is broken. It is not. AI platforms need to discover, evaluate, and trust your business data before they will recommend you. That takes time, not hours.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <p>
             <strong>Mental model two: traditional SEO thinking.</strong> They expect to wait 6 to 12 months before anything meaningful happens. So they set it and forget it, checking in quarterly and assuming the slow grind is normal. But AI optimization moves faster than traditional SEO when executed correctly. Businesses that treat it like a 12-month project miss the compounding window between days 45 and 75 where the biggest early gains happen.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Expectation Trap</div>
-            <p>AI search optimization is not instant and it is not slow. Initial entity recognition signals appear within the first 30 days. Meaningful citation gains emerge between days 45 and 75. First measurable improvements in recommendations and traffic appear within 60 to 90 days. Businesses that quit at day 30 or coast until month 6 both lose.</p>
+            <p>AI search optimization is not instant and it is not slow. Initial entity recognition signals appear within the first 30 days. Meaningful citation gains emerge between days 45 and 75. First measurable improvements in recommendations and traffic appear within 60 to 90 days. Businesses that quit at day 30 or coast until month 6 both lose. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           <p>
             The correct frame is this: the first 90 days are an investment period with a clear, phased return. Each phase builds on the last. Skipping phases or rushing through them creates fragile results that collapse the moment a competitor shows up with a stronger foundation.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* SECTION: PHASE 1 */}
           <span className="ae-section-label" id="phase-1">Phase 1</span>
@@ -261,7 +261,7 @@ export default function BlogPost() {
 
           <p>
             The first 30 days are not glamorous. There are no dramatic visibility spikes. No sudden flood of AI-referred calls. This phase is entirely about building the foundation that everything else depends on. Skip it, and every subsequent phase underperforms.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
@@ -288,12 +288,12 @@ export default function BlogPost() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Phase 1 Reality Check</div>
-            <p>You will not see citation increases during Phase 1. What you will see is your baseline data cleaned up and your technical infrastructure in place. Initial entity recognition signals begin appearing toward the end of this phase as AI platforms start ingesting your corrected data. This is the least exciting phase and the most important one.</p>
+            <p>You will not see citation increases during Phase 1. What you will see is your baseline data cleaned up and your technical infrastructure in place. Initial entity recognition signals begin appearing toward the end of this phase as AI platforms start ingesting your corrected data. This is the least exciting phase and the most important one. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to know how much foundational work your business actually needs? We audit it in 60 seconds.</p>
+            <p>Want to know how much foundational work your business actually needs? We audit it in 60 seconds. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <Link href="/blindspot">Run Your Free AI Visibility Audit &rarr;</Link>
           </div>
 
@@ -303,35 +303,35 @@ export default function BlogPost() {
 
           <p>
             Phase 2 is where the work starts to compound. Your data is clean, your listings are verified, your schema is in place. Now you are building the authority signals that AI platforms use to decide <em>which</em> business to recommend, not just whether your business exists.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <p>
             This is the phase where 44.2% of LLM citations come from the first 30% of text becomes a tactical advantage. Your content strategy shifts from simply having information to structuring that information so AI can extract and cite it efficiently.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <h3>Review Velocity and Quality</h3>
           <p>
             AI platforms heavily weight review signals when making local business recommendations. During Phase 2, you implement a systematic review generation strategy. Not buying reviews. Not begging for them. Building a process that makes leaving a review frictionless for satisfied customers. Review recency, volume, and sentiment all factor into AI recommendation decisions.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <h3>Location-Specific Content</h3>
           <p>
             Generic service pages do not earn AI citations for local queries. During this phase, you build content that connects your services to specific locations, neighborhoods, and communities. A page about &quot;plumbing services&quot; is invisible to AI for local queries. A page about &quot;emergency plumbing repair in Midtown Atlanta&quot; with specific local details, pricing context, and area-relevant information gives AI something concrete to cite.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <h3>Content Structure Optimization</h3>
           <p>
             This is when you restructure existing content and create new content following AI citation principles. Front-load answers. Use question-based headings. Include verifiable data points. Content updated within 2 months earns 28% more citations than stale content. Every page gets evaluated against the question: can an AI platform extract a clear, direct answer from the first few paragraphs of this content?
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Citation Window Opens</div>
-            <p>Meaningful citation gains typically emerge between days 45 and 75. This is when AI platforms have had enough time to ingest your corrected data, discover your structured content, and begin testing your business as a citation source. The gains are often modest at first, then they accelerate. Patience during this window is the difference between businesses that succeed and those that quit too early.</p>
+            <p>Meaningful citation gains typically emerge between days 45 and 75. This is when AI platforms have had enough time to ingest your corrected data, discover your structured content, and begin testing your business as a citation source. The gains are often modest at first, then they accelerate. Patience during this window is the difference between businesses that succeed and those that quit too early. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your competitors may already be in Phase 2. See where you stand before they pull further ahead.</p>
+            <p>Your competitors may already be in Phase 2. See where you stand before they pull further ahead. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
           </div>
 
@@ -341,31 +341,31 @@ export default function BlogPost() {
 
           <p>
             Phase 3 is where the initial investment starts paying visible returns. Your foundation is solid, your signals are strengthening, and now you build the systems that sustain and scale your AI visibility without requiring constant manual effort.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <h3>Workflow Optimization</h3>
           <p>
             Every process built during Phases 1 and 2 gets evaluated for efficiency. Review generation becomes automated with triggered requests. Content updates follow a calendar. Listing monitoring happens through scheduled audits rather than reactive fixes. The goal is to reduce the ongoing effort required while maintaining or increasing output quality.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <h3>Competitive Monitoring</h3>
           <p>
             By day 61, you know your baseline and your trajectory. Now you layer in competitive intelligence. Which competitors are AI platforms citing? What content are they using that you are not? Where are the gaps in their AI presence that represent opportunities for you? This intelligence shapes your next 90-day plan.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <h3>Multi-Platform Expansion</h3>
           <p>
             AI Overviews appear in 68% of local searches, but that is only one platform. During Phase 3, you expand optimization to cover ChatGPT (fed by Bing data), Perplexity (which leans on community sources and Reddit), Claude, and emerging AI assistants. Each platform has different citation preferences, and the businesses that optimize for multiple platforms simultaneously build the widest moat.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Phase 3 Reality Check</div>
-            <p>First measurable improvements in AI recommendations and traffic appear within this phase. For most businesses, that means seeing your name appear in AI responses to queries where you were previously absent. It means receiving calls and leads where the customer mentions they found you through ChatGPT or that Google AI suggested you. These are early signals, not flood-level traffic. But they are real, trackable, and they compound.</p>
+            <p>First measurable improvements in AI recommendations and traffic appear within this phase. For most businesses, that means seeing your name appear in AI responses to queries where you were previously absent. It means receiving calls and leads where the customer mentions they found you through ChatGPT or that Google AI suggested you. These are early signals, not flood-level traffic. But they are real, trackable, and they compound. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Ready to start your 90-day AI optimization journey? We handle every phase for you.</p>
+            <p>Ready to start your 90-day AI optimization journey? We handle every phase for you. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -375,7 +375,7 @@ export default function BlogPost() {
 
           <p>
             Here is the honest breakdown of what you should expect and when. These timelines reflect what we see across local businesses in competitive markets, not best-case-scenario cherry picks.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
@@ -407,7 +407,7 @@ export default function BlogPost() {
 
           <p>
             The key insight from this timeline is that the biggest mistake is not starting too late. It is evaluating results too early. A business that checks results at day 20 and sees nothing will draw the wrong conclusion. The same business at day 60 would see a completely different picture.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* SECTION: WHAT KILLS MOMENTUM */}
           <span className="ae-section-label" id="what-kills-momentum">Common Pitfalls</span>
@@ -415,22 +415,22 @@ export default function BlogPost() {
 
           <p>
             Understanding the timeline is half the battle. The other half is avoiding the mistakes that derail progress before results have a chance to materialize.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <h3>Quitting at the Valley of Disappointment</h3>
           <p>
             Days 20 to 40 are the danger zone. You have invested time and money. You have done a lot of foundational work. And the visible results are still minimal. This is the point where businesses with the wrong expectations pull the plug. They are standing right at the edge of the compounding window and walking away.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <h3>Treating AI Optimization Like a One-Time Project</h3>
           <p>
             Some businesses treat the first 90 days as a project with a defined end date. They do the work, check it off the list, and move on. But AI platforms continuously re-evaluate sources. Content that earned citations in month 2 can lose them by month 4 if it goes stale. AI optimization is a process, not an event.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           <h3>Ignoring Multi-Platform Differences</h3>
           <p>
             Optimizing only for Google AI Overviews and ignoring ChatGPT and Perplexity leaves significant traffic on the table. Each platform has different data sources and citation preferences. A business visible on Google AI but absent from ChatGPT is only capturing a fraction of AI-referred opportunities.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <h3>Inconsistent Data Maintenance</h3>
           <p>

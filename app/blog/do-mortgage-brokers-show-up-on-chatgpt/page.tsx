@@ -257,19 +257,19 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             <span className="ae-section-label" id="the-real-question">The Shift</span>
             <h2>The Real Question Homebuyers Are Asking AI</h2>
 
-            <p>A first-time buyer with a pre-approval target of $650,000 used to ask a real estate agent for a broker recommendation, check a few Google reviews, and pick up the phone. That process is changing fast. Today, the same buyer opens ChatGPT and types: &quot;Who is a good mortgage broker in [city] for first-time buyers? What should I even look for?&quot;</p>
+            <p>A first-time buyer with a pre-approval target of $650,000 used to ask a real estate agent for a broker recommendation, check a few Google reviews, and pick up the phone. That process is changing fast. Today, the same buyer opens ChatGPT and types: &quot;Who is a good mortgage broker in [city] for first-time buyers? What should I even look for?&quot; Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>The AI responds with a breakdown of what makes a broker worth hiring, the difference between brokers and bank loan officers, questions to ask before committing, and in some cases, specific names or firms with reasoning attached. The buyer reads the answer, visits one or two websites, and calls the first broker who looks credible. The old referral chain collapsed into a 10-minute research session.</p>
+            <p>The AI responds with a breakdown of what makes a broker worth hiring, the difference between brokers and bank loan officers, questions to ask before committing, and in some cases, specific names or firms with reasoning attached. The buyer reads the answer, visits one or two websites, and calls the first broker who looks credible. The old referral chain collapsed into a 10-minute research session. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>45% of consumers now use AI to find local services, up from just 6% a year ago. When a prospective borrower asks AI to recommend a mortgage broker, they are not browsing. They are close to a decision. And AI is only recommending 1.2% of local businesses.</p>
+              <p>45% of consumers now use AI to find local services, up from just 6% a year ago. When a prospective borrower asks AI to recommend a mortgage broker, they are not browsing. They are close to a decision. And AI is only recommending 1.2% of local businesses. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
-            <p>The mortgage industry sits at a crossroads. Borrowers increasingly start their search on AI platforms before they ever reach a lender website, a Zillow profile, or a referral call. The brokers who understand what AI evaluates will capture those borrowers first. The ones who do not will watch competitors get recommended to clients they never knew existed.</p>
+            <p>The mortgage industry sits at a crossroads. Borrowers increasingly start their search on AI platforms before they ever reach a lender website, a Zillow profile, or a referral call. The brokers who understand what AI evaluates will capture those borrowers first. The ones who do not will watch competitors get recommended to clients they never knew existed. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your brokerage.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of your brokerage. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -277,31 +277,31 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             <span className="ae-section-label" id="why-brokers-are-invisible">The Problem</span>
             <h2>Why Mortgage Brokers Are Underrepresented in AI</h2>
 
-            <p>There are over 400,000 licensed mortgage loan originators in the United States according to NMLS records. When a borrower asks ChatGPT for a broker recommendation, the platform does not sort through that registry and return the top result. It draws from what it can verify across multiple credible, structured sources. For most individual mortgage brokers, that structured presence simply does not exist in a form AI can read.</p>
+            <p>There are over 400,000 licensed mortgage loan originators in the United States according to NMLS records. When a borrower asks ChatGPT for a broker recommendation, the platform does not sort through that registry and return the top result. It draws from what it can verify across multiple credible, structured sources. For most individual mortgage brokers, that structured presence simply does not exist in a form AI can read. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-            <p>Two root causes account for the majority of broker invisibility on AI platforms: citation gaps and trust gaps.</p>
+            <p>Two root causes account for the majority of broker invisibility on AI platforms: citation gaps and trust gaps. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>Citation Gaps: AI Cannot Find You If You Are Not Structured</h3>
 
-            <p>AI platforms index and cite sources based on what their crawlers can read in plain HTML. A mortgage broker whose entire web presence consists of a JavaScript-rendered single-page site, a Zillow profile locked behind dynamic loading, and a PDF rate sheet has effectively built an invisible business from AI&apos;s point of view. AI crawlers cannot execute JavaScript, cannot log into platforms to retrieve profile data, and cannot read PDFs for structured entity information.</p>
+            <p>AI platforms index and cite sources based on what their crawlers can read in plain HTML. A mortgage broker whose entire web presence consists of a JavaScript-rendered single-page site, a Zillow profile locked behind dynamic loading, and a PDF rate sheet has effectively built an invisible business from AI&apos;s point of view. AI crawlers cannot execute JavaScript, cannot log into platforms to retrieve profile data, and cannot read PDFs for structured entity information. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The JS rendering problem is bigger than most brokers realize.</strong> Many broker websites are built on platforms that delay rendering until JavaScript executes in the browser. AI crawlers request the raw HTML and move on. If the raw HTML contains nothing but a loading spinner and a script tag, the broker is invisible regardless of how complete the site looks in a browser.</p>
+              <p><strong>The JS rendering problem is bigger than most brokers realize.</strong> Many broker websites are built on platforms that delay rendering until JavaScript executes in the browser. AI crawlers request the raw HTML and move on. If the raw HTML contains nothing but a loading spinner and a script tag, the broker is invisible regardless of how complete the site looks in a browser. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3>Trust Gaps: AI Defaults to What It Can Verify</h3>
 
-            <p>Mortgage content falls under YMYL (Your Money or Your Life) classification. This means AI applies elevated scrutiny before surfacing a broker recommendation. Financial advice that turns out to be wrong, or a broker that turns out to be unlicensed, causes real harm to real people. AI accounts for this by requiring stronger verification signals before recommending anyone in the mortgage space.</p>
+            <p>Mortgage content falls under YMYL (Your Money or Your Life) classification. This means AI applies elevated scrutiny before surfacing a broker recommendation. Financial advice that turns out to be wrong, or a broker that turns out to be unlicensed, causes real harm to real people. AI accounts for this by requiring stronger verification signals before recommending anyone in the mortgage space. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Large national lenders have spent years building the exact infrastructure AI rewards: NMLS cross-references, regulatory filings in public databases, thousands of structured reviews, deep educational content, and third-party citations across real estate publications. Individual brokers, even experienced ones with excellent track records, typically lack all of these signals. AI does not know your track record if it cannot verify it.</p>
+            <p>Large national lenders have spent years building the exact infrastructure AI rewards: NMLS cross-references, regulatory filings in public databases, thousands of structured reviews, deep educational content, and third-party citations across real estate publications. Individual brokers, even experienced ones with excellent track records, typically lack all of these signals. AI does not know your track record if it cannot verify it. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>This is not a credentials problem.</strong> A broker with 15 years of experience and 300 closed loans is more qualified than most AI recommendations. The problem is that AI has no way to see that experience unless it is structured in a verifiable, crawlable format. Qualifications and AI visibility are separate problems that require separate solutions.</p>
+              <p><strong>This is not a credentials problem.</strong> A broker with 15 years of experience and 300 closed loans is more qualified than most AI recommendations. The problem is that AI has no way to see that experience unless it is structured in a verifiable, crawlable format. Qualifications and AI visibility are separate problems that require separate solutions. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to see what AI actually says when a borrower searches for mortgage brokers in your market?</p>
+              <p>Want to see what AI actually says when a borrower searches for mortgage brokers in your market? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
 
@@ -309,7 +309,7 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             <span className="ae-section-label" id="how-ai-evaluates">How AI Decides</span>
             <h2>How ChatGPT and Perplexity Evaluate Mortgage Broker Credibility</h2>
 
-            <p>AI platforms do not have a single ranking algorithm like Google. They synthesize information from multiple sources and weigh it against trust signals before deciding whether to recommend a business. For mortgage brokers, the evaluation process runs through a specific set of checkpoints.</p>
+            <p>AI platforms do not have a single ranking algorithm like Google. They synthesize information from multiple sources and weigh it against trust signals before deciding whether to recommend a business. For mortgage brokers, the evaluation process runs through a specific set of checkpoints. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>The Verification Stack AI Uses for Mortgage Brokers</h3>
 
@@ -355,17 +355,17 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
               </tbody>
             </table>
 
-            <p>Perplexity in particular pulls heavily from live web sources and cross-references structured data when forming recommendations. A broker whose NMLS number is buried in a PDF disclosure form, whose contact information differs between their website and their Google Business Profile, and who has no FAQ content answering the questions buyers actually ask will not appear in Perplexity results, even if they have 150 five-star reviews on a platform Perplexity cannot crawl.</p>
+            <p>Perplexity in particular pulls heavily from live web sources and cross-references structured data when forming recommendations. A broker whose NMLS number is buried in a PDF disclosure form, whose contact information differs between their website and their Google Business Profile, and who has no FAQ content answering the questions buyers actually ask will not appear in Perplexity results, even if they have 150 five-star reviews on a platform Perplexity cannot crawl. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>ChatGPT tends to be more conservative with local business recommendations in YMYL categories, defaulting to general guidance unless it has strong corroborating signals. The brokers who appear are those whose information is consistent, structured, and cross-referenceable across multiple independent sources.</p>
+            <p>ChatGPT tends to be more conservative with local business recommendations in YMYL categories, defaulting to general guidance unless it has strong corroborating signals. The brokers who appear are those whose information is consistent, structured, and cross-referenceable across multiple independent sources. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>AI does not award visibility based on how good you are. It awards visibility based on how clearly it can verify that you are good. Those are different problems with different solutions.</p>
+              <p>AI does not award visibility based on how good you are. It awards visibility based on how clearly it can verify that you are good. Those are different problems with different solutions. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI can actually read your licensing, reviews, and service pages? Our report maps every signal.</p>
+              <p>Not sure if AI can actually read your licensing, reviews, and service pages? Our report maps every signal. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -373,21 +373,21 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
             <span className="ae-section-label" id="four-tactical-moves">The Playbook</span>
             <h2>4 Tactical Moves to Increase Your AI Recommendation Chances</h2>
 
-            <p>These four moves address the specific gaps that keep mortgage brokers out of AI recommendations. They are ordered by impact, not complexity. The first two can be completed in a single focused afternoon. The third and fourth require consistent effort but compound over time.</p>
+            <p>These four moves address the specific gaps that keep mortgage brokers out of AI recommendations. They are ordered by impact, not complexity. The first two can be completed in a single focused afternoon. The third and fourth require consistent effort but compound over time. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Move 1: Make Your NMLS Number and License Status AI-Readable</h3>
 
-            <p>Your NMLS number is one of the strongest trust signals you can give an AI platform. It allows the platform to cross-reference your active license status, the states you are authorized to lend in, and your employment history through the public NMLS Consumer Access database. AI cannot use this signal if the number only appears in a footer image, inside a JavaScript-rendered disclaimer, or in a PDF.</p>
+            <p>Your NMLS number is one of the strongest trust signals you can give an AI platform. It allows the platform to cross-reference your active license status, the states you are authorized to lend in, and your employment history through the public NMLS Consumer Access database. AI cannot use this signal if the number only appears in a footer image, inside a JavaScript-rendered disclaimer, or in a PDF. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>What to do:</strong> Place your NMLS number in plain crawlable HTML on every page of your site, not as an image, not inside a JS-loaded footer component. Add a direct link to your NMLS Consumer Access profile page. This single change makes your license status independently verifiable by any AI crawler, which is one of the first checks a YMYL-category evaluation runs.</p>
+              <p><strong>What to do:</strong> Place your NMLS number in plain crawlable HTML on every page of your site, not as an image, not inside a JS-loaded footer component. Add a direct link to your NMLS Consumer Access profile page. This single change makes your license status independently verifiable by any AI crawler, which is one of the first checks a YMYL-category evaluation runs. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
-            <p>While you are at it, add the same information to your Google Business Profile description, your LinkedIn summary, and every directory profile you maintain. Consistency across sources compounds the trust signal. AI does not just verify that you have a license. It checks that the same licensed person appears consistently across multiple independent sources.</p>
+            <p>While you are at it, add the same information to your Google Business Profile description, your LinkedIn summary, and every directory profile you maintain. Consistency across sources compounds the trust signal. AI does not just verify that you have a license. It checks that the same licensed person appears consistently across multiple independent sources. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <h3>Move 2: Fix Your NAP Consistency Across Every Directory</h3>
 
-            <p>NAP stands for Name, Address, Phone. When AI platforms evaluate a local business, they cross-reference contact information across multiple directories to confirm they are looking at the same entity. A broker whose name appears as &quot;John Smith Mortgage&quot; on Google, &quot;John Smith, NMLS 123456&quot; on Zillow, and &quot;J. Smith Lending&quot; on Yelp creates a fragmented signal that AI cannot confidently match to a single trusted entity.</p>
+            <p>NAP stands for Name, Address, Phone. When AI platforms evaluate a local business, they cross-reference contact information across multiple directories to confirm they are looking at the same entity. A broker whose name appears as &quot;John Smith Mortgage&quot; on Google, &quot;John Smith, NMLS 123456&quot; on Zillow, and &quot;J. Smith Lending&quot; on Yelp creates a fragmented signal that AI cannot confidently match to a single trusted entity. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros">
@@ -416,26 +416,26 @@ export default function DoMortgageBrokersShowUpOnChatGPT() {
               </div>
             </div>
 
-            <p>Run a NAP audit before anything else. The time investment is low and the impact on AI verification is immediate. Every inconsistency you resolve strengthens the signal that a single credible entity exists at a real location, serving real borrowers.</p>
+            <p>Run a NAP audit before anything else. The time investment is low and the impact on AI verification is immediate. Every inconsistency you resolve strengthens the signal that a single credible entity exists at a real location, serving real borrowers. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Move 3: Build Loan-Type-Specific Service Pages</h3>
 
-            <p>When a borrower asks AI for help with a VA loan in San Diego, the AI looks for content that specifically addresses VA lending, not a generic mortgage page that mentions VA loans in passing. Brokers who have built dedicated pages for each loan type they offer capture query-specific recommendations that brokers with a single services page never will.</p>
+            <p>When a borrower asks AI for help with a VA loan in San Diego, the AI looks for content that specifically addresses VA lending, not a generic mortgage page that mentions VA loans in passing. Brokers who have built dedicated pages for each loan type they offer capture query-specific recommendations that brokers with a single services page never will. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
-            <p>Each service page should answer the real questions borrowers ask about that loan type: who qualifies, what the rates typically look like and why they vary, what the process involves, how long it takes, and what makes this broker specifically qualified to handle it. The content needs to be written in plain HTML, attributed to a named licensed professional, and long enough to demonstrate genuine expertise rather than a checklist of features.</p>
+            <p>Each service page should answer the real questions borrowers ask about that loan type: who qualifies, what the rates typically look like and why they vary, what the process involves, how long it takes, and what makes this broker specifically qualified to handle it. The content needs to be written in plain HTML, attributed to a named licensed professional, and long enough to demonstrate genuine expertise rather than a checklist of features. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Target loan types for dedicated pages:</strong> FHA loans, VA loans, conventional purchase, jumbo loans, DSCR investor loans, first-time homebuyer programs, down payment assistance programs, refinance (rate-and-term and cash-out), and any niche products your market demands. Each page should be 800 words minimum, with a FAQ section covering the 4-5 questions borrowers actually ask about that product. For a deeper look at how FAQ sections drive AI citations, see our guide on <Link href="/blog/how-to-build-faq-page-ai-cites">building FAQ pages AI actually cites</Link>.</p>
+              <p><strong>Target loan types for dedicated pages:</strong> FHA loans, VA loans, conventional purchase, jumbo loans, DSCR investor loans, first-time homebuyer programs, down payment assistance programs, refinance (rate-and-term and cash-out), and any niche products your market demands. Each page should be 800 words minimum, with a FAQ section covering the 4-5 questions borrowers actually ask about that product. For a deeper look at how FAQ sections drive AI citations, see our guide on <Link href="/blog/how-to-build-faq-page-ai-cites">building FAQ pages AI actually cites</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             <h3>Move 4: Generate AI-Readable Reviews That Mention Specific Loan Scenarios</h3>
 
-            <p>Generic five-star reviews are better than nothing, but they do not give AI much to work with when evaluating whether you are the right broker for a specific borrower type. AI platforms evaluate review content, not just volume and rating. A review that says &quot;great service, very responsive&quot; provides minimal signal. A review that says &quot;helped us close a VA loan on a condo with a tight timeline after two other lenders said no&quot; is a citation-quality trust signal.</p>
+            <p>Generic five-star reviews are better than nothing, but they do not give AI much to work with when evaluating whether you are the right broker for a specific borrower type. AI platforms evaluate review content, not just volume and rating. A review that says &quot;great service, very responsive&quot; provides minimal signal. A review that says &quot;helped us close a VA loan on a condo with a tight timeline after two other lenders said no&quot; is a citation-quality trust signal. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-            <p>The practical approach: after closing, ask satisfied clients to leave a Google review that mentions their loan type, their situation in general terms, and what made the experience worth recommending. Do not script the review, but you can remind clients of the specific situation you helped them navigate. Authentic specificity is exactly what AI needs to confidently recommend you for similar borrowers.</p>
+            <p>The practical approach: after closing, ask satisfied clients to leave a Google review that mentions their loan type, their situation in general terms, and what made the experience worth recommending. Do not script the review, but you can remind clients of the specific situation you helped them navigate. Authentic specificity is exactly what AI needs to confidently recommend you for similar borrowers. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>Platform priority for AI-readable reviews:</strong> Google Business Profile reviews rank highest because Google renders structured review data that AI crawlers can access without JavaScript. Zillow reviews are valuable for the mortgage-specific context but may not be as consistently accessible to all AI crawlers. Facebook and Yelp reviews add diversity. The goal is a constellation of specific, genuine reviews across multiple platforms AI can actually read.</p>
+              <p><strong>Platform priority for AI-readable reviews:</strong> Google Business Profile reviews rank highest because Google renders structured review data that AI crawlers can access without JavaScript. Zillow reviews are valuable for the mortgage-specific context but may not be as consistently accessible to all AI crawlers. Facebook and Yelp reviews add diversity. The goal is a constellation of specific, genuine reviews across multiple platforms AI can actually read. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             {/* CTA 4 */}

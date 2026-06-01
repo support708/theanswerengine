@@ -199,7 +199,7 @@ export default function Page() {
             Wondering if Google Gemini is recommending your business?{' '}
             <Link href="/blindspot">Get your free AI Blind Spot Report</Link> and find out how you
             appear across Gemini and every major AI platform.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         {/* Stats Grid */}
@@ -256,14 +256,14 @@ export default function Page() {
             When a customer searches for a local business in Google Maps, they see a list. They scroll.
             They compare. They might look at three or four options before deciding. Your visibility in
             Maps is valuable, but it shares attention with your competitors.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             When a customer asks Google Gemini "Who should I call for emergency plumbing in Phoenix?"
             they get a very different experience. Gemini does not show a ranked list. It gives a direct,
             conversational recommendation. It says something like: "Based on strong local reviews and
             service area coverage, [Business Name] is a well-regarded option in Phoenix for emergency
             plumbing." The customer did not get a menu. They got an answer.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Conversion Rate Advantage</div>
@@ -272,7 +272,7 @@ export default function Page() {
               one who finds a business mid-pack in a Maps list. Being the business Gemini names is worth
               more than ranking second or third in Maps. This is why Gemini optimization deserves its own
               strategic focus.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
@@ -280,7 +280,7 @@ export default function Page() {
             happening right now with Google Gemini, Google AI Overviews, and Google Maps "Ask Maps"
             powered by Gemini. Each of these surfaces delivers a selected recommendation, not an
             undifferentiated list. And the selection logic is consistent across all three.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           {/* Inline CTA 2 */}
           <div className="ae-cta-inline mt-6">
@@ -290,7 +290,7 @@ export default function Page() {
                 Call (213) 444-2229
               </a>{' '}
               to speak with a Gemini visibility specialist.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
         </section>
 
@@ -303,7 +303,7 @@ export default function Page() {
             Google has been transparent about the three factors that govern local recommendations
             across its products. Gemini inherits and applies this same framework with added
             conversational intelligence layered on top.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           {/* Decision Matrix */}
           <div className="ae-decision-matrix my-8">
@@ -330,7 +330,7 @@ export default function Page() {
             a list. A business that ranks fifth in Maps for sheer proximity might rank first in Gemini
             recommendations because its prominence signals, particularly its review quality and web
             authority, are significantly stronger than the closer alternatives.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">Prominence in the AI Era</div>
@@ -339,7 +339,7 @@ export default function Page() {
               prominence means: strong review signals, mentions in credible third-party sources,
               a well-established web presence, and high brand recognition signals (such as branded
               search volume). These are all buildable. Prominence is not an accident of age.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -353,14 +353,14 @@ export default function Page() {
             largest local business database through Google Business Profile. This is a fundamental
             structural advantage, and it explains why GBP completion is the most controllable
             variable in your Gemini optimization strategy.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             When Gemini receives a local business query, it reads your GBP before anything else.
             The business name, primary category, secondary categories, service descriptions, attributes,
             hours, photos, and review summary all flow directly into Gemini's recommendation logic.
             A business with a sparse GBP is like a resume with the work experience section left blank.
             The AI cannot confidently recommend what it cannot clearly understand.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* Comparison Table */}
           <div className="overflow-x-auto my-8">
@@ -421,7 +421,7 @@ export default function Page() {
             The businesses consistently picked by Gemini are almost exclusively those with complete,
             well-managed GBP profiles. This is the foundational investment. Everything else amplifies
             what GBP establishes.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
         </section>
 
         {/* Section 4 */}
@@ -433,13 +433,13 @@ export default function Page() {
             Gemini performs sentiment analysis on your review corpus. It is not just reading your
             average star rating. It is reading what customers say about you and using that language
             to understand what your business is actually like.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             A business with a 4.7 average from 180 recent reviews, where reviewers consistently
             use words like "professional," "on time," "fair pricing," and "highly recommend," is
             a dramatically different Gemini recommendation candidate than a business with a 4.2
             average from 12 reviews, even if the actual quality of work is identical.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* Bar Group: Review signal impact */}
           <div className="mt-8 mb-8">
@@ -493,7 +493,7 @@ export default function Page() {
               recommend businesses that are currently serving customers well. Consistent, recent review
               collection is one of the most high-leverage investments a local business can make for
               Gemini visibility.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
         </section>
 
@@ -508,13 +508,13 @@ export default function Page() {
             confirm consistency and depth. A GBP that says you are a personal injury attorney should
             match a website that clearly and substantively discusses personal injury law. Mismatches
             reduce Gemini's recommendation confidence.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The specific elements Gemini reads on your website for local recommendation purposes
             include: your about page (for authority and background), your service pages (for category
             and specialty confirmation), your contact page (for address and phone verification), and
             any FAQ content (which can be cited directly in Gemini's conversational responses).
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           {/* Pros/Cons */}
           <div className="ae-pros-cons">
@@ -550,7 +550,7 @@ export default function Page() {
               how Perplexity decides what sources to cite
             </Link>
             .
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         </section>
 
         {/* Section 6 */}
@@ -563,14 +563,14 @@ export default function Page() {
             the attributes section. Attributes let you specify characteristics of your business that
             go beyond the basic category, such as "women-owned," "wheelchair accessible," "outdoor
             seating," "accepts insurance," "free parking," or "open late."
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             These attributes directly feed Gemini's ability to answer specific queries. When someone
             asks "Is there a pet-friendly cafe with parking near downtown Denver?" Gemini does not
             need to infer those attributes from your review text. It reads them directly from your
             GBP attributes section. If you have not set those attributes, you are invisible to that
             query.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* Dollar Compare - attribute-driven queries */}
           <div className="ae-dollar-compare my-8">
@@ -599,7 +599,7 @@ export default function Page() {
               for attribute-specific queries. Five minutes of attribute completion in your GBP can
               unlock an entire category of Gemini recommendations you are currently missing. This is
               one of the highest-leverage, lowest-effort optimizations available for Gemini visibility.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           </div>
 
           {/* Inline CTA 3 */}
@@ -608,7 +608,7 @@ export default function Page() {
               Want a complete audit of your GBP and attribute optimization for Gemini?{' '}
               <Link href="/blindspot">Get your free Blind Spot Report</Link> to find every gap in
               your Gemini visibility strategy.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
         </section>
 
@@ -620,7 +620,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-5">
             Each major AI platform has a different architecture for local business recommendations.
             Understanding these differences helps you prioritize your optimization efforts.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* Comparison Table */}
           <div className="overflow-x-auto my-8">
@@ -668,7 +668,7 @@ export default function Page() {
             review velocity, and setting attributes has an almost mechanical relationship with Gemini
             recommendation improvement. The cause-and-effect is more transparent than on platforms
             that rely on broader web authority signals.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p className="text-gray-300 leading-relaxed">
             For more on how authority signals are evaluated across different AI systems, read our
@@ -680,7 +680,7 @@ export default function Page() {
               how Claude AI evaluates business authority
             </Link>
             .
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </section>
 
         {/* Section 8 */}
@@ -692,7 +692,7 @@ export default function Page() {
             The businesses getting recommended by Gemini are not doing anything exotic or technical.
             They are doing the fundamentals exceptionally well. Here is what that looks like in
             practice:
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* Timeline: Gemini optimization path */}
           <div className="ae-timeline mt-6 mb-10">
@@ -766,7 +766,7 @@ export default function Page() {
             clearer here than anywhere else. GBP completion, review velocity, and attribute
             configuration are the three mechanical levers. Pull all three and Gemini has everything
             it needs to name your business when customers ask.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
         </div>
 
         {/* CTA Block */}
@@ -777,7 +777,7 @@ export default function Page() {
           <p className="text-gray-400 mb-6">
             Our free Blind Spot Report checks your Gemini visibility, audits your GBP completeness,
             and identifies the specific gaps keeping you out of Gemini's recommendation slot.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -814,7 +814,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
           </div>
@@ -835,7 +835,7 @@ export default function Page() {
                 and ratings, website content quality, and overall search prominence. The three core
                 ranking factors are relevance, distance, and prominence. GBP completeness is the
                 single most controllable factor.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             <div className="border border-gray-800 rounded-xl p-6">

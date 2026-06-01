@@ -218,23 +218,23 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Core Difference: How AI Uses Each Type</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Paid ads and free listings serve completely different roles in how businesses get found. For traditional search, paid ads buy position at the top of results. For AI search, neither ads nor listings buy position, AI makes judgment calls based on trust signals.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The distinction matters because AI does not serve ads. When ChatGPT, Perplexity, or Google AI Overviews recommend a business, that recommendation is not purchased. It is earned through the quality and consistency of publicly available information. Paid advertising spend has zero direct bearing on whether AI names your business in a recommendation.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Free listings, on the other hand, are exactly what AI feeds on. Directory profiles, review platforms, and business registries are the raw material AI uses to build its understanding of who a business is, where it operates, and what it does.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Spending Trap</div>
-            <p>Many businesses spending thousands per month on Google Ads have ignored their Yelp profile, left their BBB listing incomplete, and never claimed their industry directory profiles. Their ad spend drives traffic while they are active. Their AI presence drives nothing because the free signals are missing.</p>
+            <p>Many businesses spending thousands per month on Google Ads have ignored their Yelp profile, left their BBB listing incomplete, and never claimed their industry directory profiles. Their ad spend drives traffic while they are active. Their AI presence drives nothing because the free signals are missing. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
         </section>
 
         {/* Inline CTA 1 */}
         <div className="ae-cta-inline">
-          <p>Wondering whether your current spending is building AI visibility or just buying traffic? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out.</p>
+          <p>Wondering whether your current spending is building AI visibility or just buying traffic? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         </div>
 
         {/* Section 2 */}
@@ -242,7 +242,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Do Paid Ads Help AI Find You?</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The short answer: no, not directly. Here is the longer explanation.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-decision-matrix">
             <div className="ae-decision-row">
@@ -274,11 +274,11 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             There is one indirect path where ad spending creates AI benefits: if your paid campaigns drive branded search volume, and that branded traffic leads to more third-party coverage and online mentions, those downstream signals can influence AI citation rates. But that is several steps removed from the ad spend itself.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-callout ae-callout-info mt-6">
             <div className="ae-callout-title">The Exception: Brand Awareness</div>
-            <p>Paid advertising can help AI visibility indirectly by building brand awareness, which in turn leads to more organic mentions, more press inquiries, and more third-party coverage. But businesses paying for ads without also building the organic foundation that AI needs are paying for traffic without building AI authority.</p>
+            <p>Paid advertising can help AI visibility indirectly by building brand awareness, which in turn leads to more organic mentions, more press inquiries, and more third-party coverage. But businesses paying for ads without also building the organic foundation that AI needs are paying for traffic without building AI authority. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
         </section>
 
@@ -287,7 +287,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Free Listings That Actually Drive AI Citations</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             These are the free platforms that AI systems draw from most consistently. All of them are free to claim and complete. None of them require ad spend to contribute to AI visibility.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -333,7 +333,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Side-by-Side: Where Your Money Goes</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Here is the blunt comparison between what a $1,000/month ad budget typically produces versus what that same effort applied to free listing optimization can create for AI visibility.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <table className="ae-comparison-table">
             <thead>
@@ -379,13 +379,13 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-success mt-8">
             <div className="ae-callout-title">The Right Role for Both</div>
-            <p>This is not an argument to never run ads. Paid advertising serves a real purpose for immediate traffic and revenue. The argument is that free listing optimization is almost universally neglected by businesses that spend heavily on ads, and the ROI difference for AI visibility specifically is not close. Build the organic foundation first, then layer paid traffic on top.</p>
+            <p>This is not an argument to never run ads. Paid advertising serves a real purpose for immediate traffic and revenue. The argument is that free listing optimization is almost universally neglected by businesses that spend heavily on ads, and the ROI difference for AI visibility specifically is not close. Build the organic foundation first, then layer paid traffic on top. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
         </section>
 
         {/* Inline CTA 2 */}
         <div className="ae-cta-inline">
-          <p>Ready to build the free foundation that drives AI citations? Start with your <Link href="/blindspot">free Blind Spot Report</Link> or call us at <a href="tel:+12134442229">(213) 444-2229</a>.</p>
+          <p>Ready to build the free foundation that drives AI citations? Start with your <Link href="/blindspot">free Blind Spot Report</Link> or call us at <a href="tel:+12134442229">(213) 444-2229</a>. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         {/* Section 5 */}
@@ -393,7 +393,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Platform-by-Platform Breakdown</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Different AI platforms draw from different sources. Understanding this helps you prioritize which free listings to complete first.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-dollar-compare">
             <div className="ae-dollar-item">
@@ -420,7 +420,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             The pattern: every major AI platform draws from organic signals. None of them have a paid pathway to citation. The investment is in information quality and consistency, not ad spend.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </section>
 
         {/* Section 6 */}
@@ -428,7 +428,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Smart Approach for Local Businesses</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The businesses that build durable AI visibility approach it as an information architecture project, not a marketing spend problem. Here is what that looks like in practice.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -457,10 +457,10 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-4">
             The smartest approach for most local businesses is to run the minimum paid advertising needed to maintain revenue while systematically building the free organic foundation that creates durable AI visibility. Over time, the organic foundation reduces dependence on paid traffic.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-quote">
-            <p>"Paid ads rent you traffic. Free listings build you authority. AI citations go to the businesses with authority, not the ones with the biggest ad budget."</p>
+            <p>"Paid ads rent you traffic. Free listings build you authority. AI citations go to the businesses with authority, not the ones with the biggest ad budget." Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <cite>Justin Borges</cite>
           </div>
         </section>
@@ -468,7 +468,7 @@ export default function Page() {
         {/* CTA Block */}
         <div className="ae-cta-block">
           <h3>Find Out What Free Signals You Are Missing</h3>
-          <p>Our Blind Spot Report shows you exactly which free listing signals are absent or inconsistent in your AI visibility profile. No ad spend required to fix them.</p>
+          <p>Our Blind Spot Report shows you exactly which free listing signals are absent or inconsistent in your AI visibility profile. No ad spend required to fix them. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <Link href="/blindspot" className="ae-cta-primary">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -513,12 +513,12 @@ export default function Page() {
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
             <Link href="/blog/your-website-vs-directories-what-ai-trusts" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Comparisons</p>
-              <p className="text-white font-medium">Your Website vs Directories: What AI Trusts</p>
+              <p className="text-sm text-[#F27D24] mb-1">Comparisons Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+              <p className="text-white font-medium">Your Website vs Directories: What AI Trusts <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </Link>
             <Link href="/blog/do-google-ads-help-ai-search" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Myth Busters</p>
-              <p className="text-white font-medium">Does Paying for Google Ads Help AI Find You?</p>
+              <p className="text-sm text-[#F27D24] mb-1">Myth Busters Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              <p className="text-white font-medium">Does Paying for Google Ads Help AI Find You? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </Link>
           </div>
         </section>
@@ -526,7 +526,7 @@ export default function Page() {
         {/* 3-Tier CTA Block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Paying for AI Visibility. Build It.</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows you which free listing signals are missing or inconsistent in your AI profile, and exactly what to fix to start appearing in recommendations without spending a dollar on ads.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows you which free listing signals are missing or inconsistent in your AI profile, and exactly what to fix to start appearing in recommendations without spending a dollar on ads. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -554,7 +554,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
           </div>
@@ -595,7 +595,7 @@ export default function Page() {
             ].map((item, i) => (
               <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-                <p className="text-gray-300 leading-relaxed">{item.a}</p>
+                <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             ))}
           </div>
@@ -604,12 +604,12 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta mt-16">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">AI Visibility Does Not Cost What You Think</h2>
-          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">The signals that drive AI recommendations are free to build. Our Blind Spot Report shows you exactly which free listing gaps are keeping you invisible to the customers who are searching for you right now on AI.</p>
+          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">The signals that drive AI recommendations are free to build. Our Blind Spot Report shows you exactly which free listing gaps are keeping you invisible to the customers who are searching for you right now on AI. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="ae-cta-primary text-lg px-8 py-4">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-500 text-sm mt-4">Free analysis. No credit card. Results in minutes.</p>
+          <p className="text-gray-500 text-sm mt-4">Free analysis. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

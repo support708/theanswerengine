@@ -197,7 +197,7 @@ export default function Page() {
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Published {publishDate} by Justin Borges
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </div>
       </header>
@@ -249,20 +249,20 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             The original Alexa was a clever novelty: set timers, play music, check the weather, run predefined "skills" that third-party developers built. It was impressive in 2014. By 2023, it felt limited and hollow.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Alexa+ is something different. Launched in 2025, it is a reasoning AI assistant built on Claude (Anthropic) and Amazon's Nova models. It can hold a real conversation, understand complex requests, and most importantly for local businesses: take action. Not just look things up. Actually book, pay, and confirm.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">What "Agentic" Actually Means</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               An agentic AI can take multi-step actions on your behalf. A user can say "Alexa, find me a plumber who can come this Saturday and book them for me." Alexa+ searches Angi, finds available pros, presents options, and with the user's confirmation, completes the booking and payment. The human just approves. The AI executes the rest.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Is your business visible to Alexa+ and other AI assistants?</p>
+            <p className="text-gray-400 text-sm">Is your business visible to Alexa+ and other AI assistants? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and find out exactly where you stand
             </Link>
@@ -276,10 +276,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Anthropic's Claude is a large language model known for its reasoning precision and safety profile. Amazon accessed Claude through Amazon Bedrock (its AI infrastructure platform) to power Alexa+. This is the same Claude that powers many enterprise AI systems.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             What this means practically: Alexa+ does not just keyword-match your business listing to a user query. It reasons. "I need someone reliable who can do both the mowing and the edging and is available weekends" is a query the old Alexa could not handle. Alexa+ processes that intent, queries its data sources, and surfaces options that actually match.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-pros-cons mb-6">
             <div className="ae-pros-box">
@@ -314,7 +314,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Alexa+ does not maintain its own local business database. It pulls from partner platforms that have already aggregated that data. For local home services, the two most important integrations are Angi and Yelp.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-decision-matrix mb-6">
             <div className="ae-decision-row">
@@ -375,11 +375,11 @@ export default function Page() {
             <div className="ae-callout-title">Angi Is More Important Than You Think</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Angi is not just a lead generation platform anymore. It is infrastructure. Angi data feeds into Alexa+ for voice recommendations and into ChatGPT via the Angi ChatGPT app launched in March 2026. A complete, active Angi profile now means visibility across multiple AI systems simultaneously. Treating Angi as just "another directory" is leaving significant AI visibility on the table.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Not sure which platforms feed your AI visibility?</p>
+            <p className="text-gray-400 text-sm">Not sure which platforms feed your AI visibility? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Run a free Blind Spot Report to see your full directory and AI coverage
             </Link>
@@ -393,7 +393,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Alexa+ is not random. It applies a ranking logic to the data it pulls from Angi and Yelp before presenting options. The signals that drive surfacing fall into a predictable pattern:
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="space-y-4 mb-6">
             <div className="ae-bar-item">
@@ -442,7 +442,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-4">
             The service match piece is critical: Alexa+ does not guess. If your Angi profile says you offer "general home services" without listing specific services, you will be skipped when someone asks for a specific service. The businesses that surface reliably are the ones whose profiles explicitly list what they do.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Section 5 */}
@@ -452,7 +452,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Here is what happens when a homeowner uses Alexa+ to hire a home service provider. Understanding this flow makes it clear exactly where your business either enters the conversation or gets cut off.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-timeline mb-6">
             <div className="ae-timeline-item">
@@ -503,7 +503,7 @@ export default function Page() {
             <div className="ae-callout-title">Zero-Click Booking</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               The homeowner never visited your website. Never Googled you. Never read your reviews manually. Alexa+ did all of that on their behalf. The businesses that benefit from this flow are the ones with clean profiles, good reviews, and current availability data. The ones that get skipped are the ones whose profiles are stale, incomplete, or nonexistent.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
         </section>
 
@@ -514,7 +514,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             The path to Alexa+ visibility is more direct than most AI channels because the data sources are known. You are not trying to guess what a general AI crawler wants. You are optimizing for specific platforms that feed into Alexa+.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-cheat-sheet mb-6">
             <div className="ae-cheat-sheet-title">Alexa+ Visibility Checklist</div>
@@ -578,7 +578,7 @@ export default function Page() {
 
           <div className="ae-cta-block my-8">
             <h3 className="font-plus-jakarta text-xl font-bold text-white mb-3">Audit Your Alexa+ Readiness</h3>
-            <p className="text-gray-400 mb-6">Our Blind Spot Report checks your presence on the platforms that feed Alexa+, ChatGPT, Perplexity, and Google AI. One report, all the gaps.</p>
+            <p className="text-gray-400 mb-6">Our Blind Spot Report checks your presence on the platforms that feed Alexa+, ChatGPT, Perplexity, and Google AI. One report, all the gaps. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot" className="ae-cta-primary inline-flex items-center gap-2">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -593,7 +593,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Both ChatGPT and Alexa+ can recommend local businesses. But they operate very differently and pull from different data sources. Optimizing for one does not automatically cover the other.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <table className="ae-comparison-table mb-6">
             <thead>
@@ -634,17 +634,17 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-4">
             The smart strategy is not to choose between them. It is to build the foundation that both systems draw from: strong directory profiles, consistent business information, and a website that clearly describes what you do and where you do it. Both AI systems reward the same underlying signals, even if they access them through different pipelines.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">The Convergence Point</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Notice that Angi appears in both ChatGPT's integration ecosystem and Alexa+'s integration ecosystem. That is not coincidence. Angi is positioning itself as the connective tissue of AI-powered home services. A well-maintained Angi profile feeds multiple AI recommendation channels simultaneously, which makes it arguably the highest-leverage platform for home service businesses in 2026.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Want to compare your Alexa+ vs ChatGPT visibility?</p>
+            <p className="text-gray-400 text-sm">Want to compare your Alexa+ vs ChatGPT visibility? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and see where each AI platform can find you
             </Link>
@@ -657,11 +657,11 @@ export default function Page() {
           <div className="grid md:grid-cols-2 gap-4">
             <Link href="/blog/how-apple-intelligence-finds-and-recommends-local-businesses" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
               <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Platform Deep Dives</span>
-              <p className="text-white font-semibold text-sm mt-1">How Apple Intelligence Finds and Recommends Local Businesses</p>
+              <p className="text-white font-semibold text-sm mt-1">How Apple Intelligence Finds and Recommends Local Businesses Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </Link>
             <Link href="/blog/does-being-on-angi-or-thumbtack-help-ai-find-you" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
               <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Myth Busters</span>
-              <p className="text-white font-semibold text-sm mt-1">Does Being on Angi or Thumbtack Help AI Find You</p>
+              <p className="text-white font-semibold text-sm mt-1">Does Being on Angi or Thumbtack Help AI Find You Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </Link>
           </div>
         </section>
@@ -669,7 +669,7 @@ export default function Page() {
         {/* 3-tier CTA */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">See If Alexa+ and Other AI Assistants Can Find Your Business</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your visibility across Alexa+, ChatGPT, Perplexity, and Google AI. See exactly which platforms can recommend you and which cannot.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your visibility across Alexa+, ChatGPT, Perplexity, and Google AI. See exactly which platforms can recommend you and which cannot. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -697,7 +697,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
           </div>
@@ -736,7 +736,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border-b border-gray-800 pb-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-2 text-lg">{q}</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">{a}</p>
+                <p className="text-gray-400 leading-relaxed text-sm">{a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             ))}
           </div>
@@ -749,12 +749,12 @@ export default function Page() {
           </h2>
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             Alexa+, ChatGPT, Perplexity, and Google AI are recommending local businesses right now. Your free Blind Spot Report shows exactly where you stand across all of them.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-600 text-sm mt-4">Free. No credit card. Results in minutes.</p>
+          <p className="text-gray-600 text-sm mt-4">Free. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </main>

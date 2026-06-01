@@ -267,19 +267,19 @@ export default function Page() {
             <span className="ae-section-label">The Foundation</span>
             <h2>Why AI Platforms Care About Your About Page</h2>
 
-            <p>AI platforms do not recommend businesses at random. They follow a verification process that checks multiple trust signals before deciding which businesses deserve a citation. Those trust signals fall into three categories: entity identity, evidence and citations, and technical quality. Your About page sits at the center of entity identity, the foundation everything else builds on.</p>
+            <p>AI platforms do not recommend businesses at random. They follow a verification process that checks multiple trust signals before deciding which businesses deserve a citation. Those trust signals fall into three categories: entity identity, evidence and citations, and technical quality. Your About page sits at the center of entity identity, the foundation everything else builds on. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>When <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">ChatGPT evaluates which businesses to recommend</Link>, it looks for clear, verifiable information about who runs the business, where it operates, and what credentials back up its claims. Your About page is the single best place to consolidate all of that information in one crawlable location.</p>
+            <p>When <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">ChatGPT evaluates which businesses to recommend</Link>, it looks for clear, verifiable information about who runs the business, where it operates, and what credentials back up its claims. Your About page is the single best place to consolidate all of that information in one crawlable location. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>The shift from keyword-based ranking to entity-based authority is one of the defining changes of 2026. AI platforms do not just crawl your website in isolation. They cross-reference your identity across the entire web.</p>
+              <p>The shift from keyword-based ranking to entity-based authority is one of the defining changes of 2026. AI platforms do not just crawl your website in isolation. They cross-reference your identity across the entire web. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
-            <p>This is not speculation. AI platforms cross-reference your business name, address, team members, and credentials against multiple sources. Your About page is where that cross-referencing begins. A weak About page does not just lose you human visitors. It actively prevents AI from recommending you.</p>
+            <p>This is not speculation. AI platforms cross-reference your business name, address, team members, and credentials against multiple sources. Your About page is where that cross-referencing begins. A weak About page does not just lose you human visitors. It actively prevents AI from recommending you. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out what AI platforms actually see when they visit your website.</p>
+              <p>Find out what AI platforms actually see when they visit your website. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -287,7 +287,7 @@ export default function Page() {
             <span className="ae-section-label">The Framework</span>
             <h2>The E-E-A-T Framework: What AI Actually Looks For</h2>
 
-            <p>Google&apos;s E-E-A-T framework (Experience, Expertise, Authoritativeness, Trustworthiness) was originally designed as a quality guideline for human search evaluators. In 2026, it functions more like a ranking filter for AI visibility. AI platforms use these same signals to decide which sources deserve citations. Your About page is where you demonstrate all four.</p>
+            <p>Google&apos;s E-E-A-T framework (Experience, Expertise, Authoritativeness, Trustworthiness) was originally designed as a quality guideline for human search evaluators. In 2026, it functions more like a ranking filter for AI visibility. AI platforms use these same signals to decide which sources deserve citations. Your About page is where you demonstrate all four. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* ── DECISION MATRIX: E-E-A-T ── */}
             <div className="ae-decision-matrix not-prose">
@@ -325,7 +325,7 @@ export default function Page() {
               </table>
             </div>
 
-            <p><Link href="/blog/how-claude-ai-evaluates-business-authority">AI models evaluate business authority</Link> by looking for certifications, licenses, specialized training, and industry affiliations. List them on your About page with full names, not abbreviations. Verifiable details carry weight. Vague claims do not.</p>
+            <p><Link href="/blog/how-claude-ai-evaluates-business-authority">AI models evaluate business authority</Link> by looking for certifications, licenses, specialized training, and industry affiliations. List them on your About page with full names, not abbreviations. Verifiable details carry weight. Vague claims do not. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* ── CALLOUT ── */}
             <div className="ae-callout not-prose">
@@ -334,7 +334,7 @@ export default function Page() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your credentials are visible to AI? We will check for free.</p>
+              <p>Not sure if your credentials are visible to AI? We will check for free. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Audit &rarr;</Link>
             </div>
 
@@ -342,7 +342,7 @@ export default function Page() {
             <span className="ae-section-label">The Checklist</span>
             <h2>Seven Elements Every AI-Optimized About Page Needs</h2>
 
-            <p>Based on how AI platforms currently evaluate business authority, here are the seven elements your About page must include. Each one feeds directly into the trust signals that AI models use to decide whether to cite you.</p>
+            <p>Based on how AI platforms currently evaluate business authority, here are the seven elements your About page must include. Each one feeds directly into the trust signals that AI models use to decide whether to cite you. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -393,7 +393,7 @@ export default function Page() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know which of these seven elements your About page is missing?</p>
+              <p>Want to know which of these seven elements your About page is missing? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Get Your Free Analysis &rarr;</Link>
             </div>
 
@@ -401,7 +401,7 @@ export default function Page() {
             <span className="ae-section-label">The Difference</span>
             <h2>How AI Reads Your About Page Differently Than Humans</h2>
 
-            <p>When a human visits your About page, they scan the layout, look at photos, and form an impression in a few seconds. When <Link href="/blog/what-content-does-chatgpt-read-on-my-website">ChatGPT reads your website</Link>, it strips away every visual element and processes only the plain text. No images, no CSS, no JavaScript interactions.</p>
+            <p>When a human visits your About page, they scan the layout, look at photos, and form an impression in a few seconds. When <Link href="/blog/what-content-does-chatgpt-read-on-my-website">ChatGPT reads your website</Link>, it strips away every visual element and processes only the plain text. No images, no CSS, no JavaScript interactions. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── COMPARISON TABLE ── */}
             <div className="ae-comparison-table not-prose">
@@ -449,7 +449,7 @@ export default function Page() {
               </table>
             </div>
 
-            <p>This creates a real problem for businesses that invested heavily in visual design. A stunning About page with minimal text content is functionally invisible to AI. Meanwhile, a text-rich About page with clear headings, detailed bios, and structured content will outperform a design-heavy page every time in the AI context.</p>
+            <p>This creates a real problem for businesses that invested heavily in visual design. A stunning About page with minimal text content is functionally invisible to AI. Meanwhile, a text-rich About page with clear headings, detailed bios, and structured content will outperform a design-heavy page every time in the AI context. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="ae-takeaway not-prose">
               <strong>Takeaway:</strong> Optimizing for AI does not mean sacrificing design. It means making sure the information AI needs is present in the HTML text, not locked inside images or interactive elements. You can still have a visually appealing page. You just need to ensure the text layer is comprehensive enough to stand on its own.
@@ -457,7 +457,7 @@ export default function Page() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>See exactly how AI reads your About page right now, text-only view included.</p>
+              <p>See exactly how AI reads your About page right now, text-only view included. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Get Your Free AI Readability Report &rarr;</Link>
             </div>
 
@@ -465,10 +465,10 @@ export default function Page() {
             <span className="ae-section-label">The Trap</span>
             <h2>The Cross-Referencing Problem Most Businesses Miss</h2>
 
-            <p>AI platforms do not take your About page at face value. They cross-reference every claim against other sources on the web. This is where most businesses fail without realizing it. Your About page says you were founded in 2015, but your Yelp profile says 2017. Your website says you serve five cities, but your Google Business Profile only lists three.</p>
+            <p>AI platforms do not take your About page at face value. They cross-reference every claim against other sources on the web. This is where most businesses fail without realizing it. Your About page says you were founded in 2015, but your Yelp profile says 2017. Your website says you serve five cities, but your Google Business Profile only lists three. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <div className="ae-quote not-prose">
-              <p>Directory listing accuracy accounts for roughly 13% of AI visibility scoring. That figure nearly doubled compared to traditional Google local ranking weight. The listings most businesses set up once and forgot about are now playing a real role in whether AI recommends them.</p>
+              <p>Directory listing accuracy accounts for roughly 13% of AI visibility scoring. That figure nearly doubled compared to traditional Google local ranking weight. The listings most businesses set up once and forgot about are now playing a real role in whether AI recommends them. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── TIMELINE: CROSS-REFERENCING FLOW ── */}
@@ -478,37 +478,37 @@ export default function Page() {
                 <div className="ae-timeline-marker">1</div>
                 <div className="ae-timeline-content">
                   <strong>Initial Crawl</strong>
-                  <p>AI reads your About page and extracts entity data: business name, address, phone, team, credentials.</p>
+                  <p>AI reads your About page and extracts entity data: business name, address, phone, team, credentials. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">2</div>
                 <div className="ae-timeline-content">
                   <strong>Directory Check</strong>
-                  <p>AI compares your claims against Google Business Profile, Yelp, BBB, LinkedIn, and industry directories.</p>
+                  <p>AI compares your claims against Google Business Profile, Yelp, BBB, LinkedIn, and industry directories. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">3</div>
                 <div className="ae-timeline-content">
                   <strong>Consistency Scoring</strong>
-                  <p>Matching data across sources increases trust. Discrepancies reduce confidence in recommending you.</p>
+                  <p>Matching data across sources increases trust. Discrepancies reduce confidence in recommending you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">4</div>
                 <div className="ae-timeline-content">
                   <strong>Citation Decision</strong>
-                  <p>AI decides whether your business is trustworthy enough to recommend by name or whether to cite a competitor instead.</p>
+                  <p>AI decides whether your business is trustworthy enough to recommend by name or whether to cite a competitor instead. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
             </div>
 
-            <p>Before you optimize your About page, audit your entire web presence for consistency. Every directory, every social profile, every mention of your business should align with what your About page says. AI platforms are remarkably good at spotting discrepancies, and discrepancies reduce their confidence in recommending you.</p>
+            <p>Before you optimize your About page, audit your entire web presence for consistency. Every directory, every social profile, every mention of your business should align with what your About page says. AI platforms are remarkably good at spotting discrepancies, and discrepancies reduce their confidence in recommending you. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>We will audit your listings and About page for inconsistencies AI is penalizing.</p>
+              <p>We will audit your listings and About page for inconsistencies AI is penalizing. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Get Your Free Consistency Audit &rarr;</Link>
             </div>
 
@@ -516,7 +516,7 @@ export default function Page() {
             <span className="ae-section-label">The Multiplier</span>
             <h2>Schema Markup: The Hidden Multiplier</h2>
 
-            <p>Adding Organization schema to your About page is one of the highest-impact changes you can make. Schema markup tells AI platforms exactly what your business is, in a structured format they can parse instantly. While ChatGPT does not read JSON-LD schema directly during browsing sessions, schema data feeds into the Bing search index that ChatGPT references when generating responses.</p>
+            <p>Adding Organization schema to your About page is one of the highest-impact changes you can make. Schema markup tells AI platforms exactly what your business is, in a structured format they can parse instantly. While ChatGPT does not read JSON-LD schema directly during browsing sessions, schema data feeds into the Bing search index that ChatGPT references when generating responses. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* ── CHEAT SHEET: SCHEMA ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -534,11 +534,11 @@ export default function Page() {
               </ul>
             </div>
 
-            <p>Content with structured data, citations, and verifiable statistics achieves 30% to 40% higher visibility in AI responses. This makes schema markup not just a technical nicety but a competitive requirement. If your competitors have schema on their About pages and you do not, AI platforms will have an easier time understanding and citing them instead of you.</p>
+            <p>Content with structured data, citations, and verifiable statistics achieves 30% to 40% higher visibility in AI responses. This makes schema markup not just a technical nicety but a competitive requirement. If your competitors have schema on their About pages and you do not, AI platforms will have an easier time understanding and citing them instead of you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about schema markup? Talk to our team directly.</p>
+              <p>Questions about schema markup? Talk to our team directly. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -546,7 +546,7 @@ export default function Page() {
             <span className="ae-section-label">The Pitfalls</span>
             <h2>Common About Page Mistakes That Kill AI Trust</h2>
 
-            <p>Beyond missing elements, there are active mistakes that damage your About page&apos;s AI performance. Avoid these if you want AI platforms to take your business seriously.</p>
+            <p>Beyond missing elements, there are active mistakes that damage your About page&apos;s AI performance. Avoid these if you want AI platforms to take your business seriously. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* ── PROS/CONS ── */}
             <div className="ae-pros-cons not-prose">
@@ -580,7 +580,7 @@ export default function Page() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>We will flag every trust killer on your About page. Free, no strings attached.</p>
+              <p>We will flag every trust killer on your About page. Free, no strings attached. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot">Get Your Free Trust Audit &rarr;</Link>
             </div>
 
@@ -588,7 +588,7 @@ export default function Page() {
             <span className="ae-section-label">Action Plan</span>
             <h2>Your About Page Optimization Checklist</h2>
 
-            <p>Here is a practical checklist you can work through today. Each item directly feeds the trust signals AI platforms evaluate when deciding whether to <Link href="/blog/get-cited-chatgpt-local-business-guide">cite your business in AI responses</Link>.</p>
+            <p>Here is a practical checklist you can work through today. Each item directly feeds the trust signals AI platforms evaluate when deciding whether to <Link href="/blog/get-cited-chatgpt-local-business-guide">cite your business in AI responses</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* ── COMPARISON TABLE: CHECKLIST ── */}
             <div className="ae-comparison-table not-prose">
@@ -658,7 +658,7 @@ export default function Page() {
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Need help running through this checklist? Email us and we will walk you through it.</p>
+              <p>Need help running through this checklist? Email us and we will walk you through it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -666,7 +666,7 @@ export default function Page() {
             <span className="ae-section-label">Real Examples</span>
             <h2>Before and After: What AI-Optimized About Pages Look Like</h2>
 
-            <p>The difference between a generic About page and an AI-optimized one is not about length or design. It is about the density of verifiable, structured information that AI can extract and cross-reference.</p>
+            <p>The difference between a generic About page and an AI-optimized one is not about length or design. It is about the density of verifiable, structured information that AI can extract and cross-reference. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* ── COMPARISON TABLE: BEFORE/AFTER ── */}
             <div className="ae-comparison-table not-prose">
@@ -711,7 +711,7 @@ export default function Page() {
 
             {/* ── CTA 9 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to see what your About page looks like to AI right now? We will show you.</p>
+              <p>Want to see what your About page looks like to AI right now? We will show you. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Get Your Free Before/After Analysis &rarr;</Link>
             </div>
 

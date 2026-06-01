@@ -242,31 +242,31 @@ export default function Page() {
             <span className="ae-section-label">The Fundamentals</span>
             <h2>What Schema Markup Actually Does for AI</h2>
 
-            <p>Schema markup is structured code (usually JSON-LD) that you add to your web pages to tell search engines and AI systems exactly what your content is about. Without schema, AI platforms have to guess what your page contains by reading the text. With schema, you are explicitly stating: this is a FAQ, this is a local business, this is a service with this price range, these are our reviews.</p>
+            <p>Schema markup is structured code (usually JSON-LD) that you add to your web pages to tell search engines and AI systems exactly what your content is about. Without schema, AI platforms have to guess what your page contains by reading the text. With schema, you are explicitly stating: this is a FAQ, this is a local business, this is a service with this price range, these are our reviews. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>Your website content is a conversation. Schema markup is the structured summary that AI can process instantly.</p>
+              <p>Your website content is a conversation. Schema markup is the structured summary that AI can process instantly. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
-            <p>When ChatGPT needs to answer &quot;who is the best plumber in Dallas,&quot; it does not read every plumbing website word by word. It looks for structured signals: LocalBusiness schema with a service area, FAQPage schema with relevant answers, Review schema with ratings. The businesses that provide these signals get cited. The ones that do not get skipped.</p>
+            <p>When ChatGPT needs to answer &quot;who is the best plumber in Dallas,&quot; it does not read every plumbing website word by word. It looks for structured signals: LocalBusiness schema with a service area, FAQPage schema with relevant answers, Review schema with ratings. The businesses that provide these signals get cited. The ones that do not get skipped. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI platforms can read your business data? Find out in 60 seconds.</p>
+              <p>Not sure if AI platforms can read your business data? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
             {/* ── CALLOUT: WHY IT MATTERS NOW ── */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Why This Matters in 2026</div>
-              <p>In March 2025, Google, Microsoft, and OpenAI all publicly confirmed they use structured data for their generative AI features. Schema markup is no longer optional for businesses that want AI visibility. It is infrastructure.</p>
+              <p>In March 2025, Google, Microsoft, and OpenAI all publicly confirmed they use structured data for their generative AI features. Schema markup is no longer optional for businesses that want AI visibility. It is infrastructure. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             {/* ── SECTION 2: THE NUMBERS ── */}
             <span className="ae-section-label">The Data</span>
             <h2>How Schema Impacts AI Visibility: The Numbers</h2>
 
-            <p>The impact of schema on AI visibility is now quantifiable. Here is what the data shows in 2026.</p>
+            <p>The impact of schema on AI visibility is now quantifiable. Here is what the data shows in 2026. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* ── BAR CHART ── */}
             <div className="ae-bar-group not-prose">
@@ -300,11 +300,11 @@ export default function Page() {
               </div>
             </div>
 
-            <p>These are not theoretical projections. These are observable patterns from sites that implemented schema versus those that did not. The gap is only growing as AI platforms become more sophisticated at processing structured data.</p>
+            <p>These are not theoretical projections. These are observable patterns from sites that implemented schema versus those that did not. The gap is only growing as AI platforms become more sophisticated at processing structured data. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly how your schema stacks up against competitors?</p>
+              <p>Want to know exactly how your schema stacks up against competitors? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Schema Audit &rarr;</a>
             </div>
 
@@ -312,7 +312,7 @@ export default function Page() {
             <span className="ae-section-label">Platform Breakdown</span>
             <h2>Which Schema Types Matter Most for Each AI Platform</h2>
 
-            <p>Not all schema types are equally valuable. Each AI platform has preferences based on how it generates answers.</p>
+            <p>Not all schema types are equally valuable. Each AI platform has preferences based on how it generates answers. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── DECISION MATRIX ── */}
             <table className="ae-decision-matrix not-prose">
@@ -377,17 +377,17 @@ export default function Page() {
             </table>
 
             <h3>ChatGPT</h3>
-            <p>ChatGPT particularly values <strong>FAQPage and Article schema</strong> when generating conversational answers. These types map cleanly to its question-response format. When you structure your FAQ content with proper schema, ChatGPT can directly extract your answers and present them as its own response, with attribution to your source. Product schema is also critical for businesses selling goods, as ChatGPT uses it to determine which products appear in its recommendations.</p>
+            <p>ChatGPT particularly values <strong>FAQPage and Article schema</strong> when generating conversational answers. These types map cleanly to its question-response format. When you structure your FAQ content with proper schema, ChatGPT can directly extract your answers and present them as its own response, with attribution to your source. Product schema is also critical for businesses selling goods, as ChatGPT uses it to determine which products appear in its recommendations. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Google AI Overviews</h3>
-            <p>Google has the deepest integration with schema because it built the structured data ecosystem. For AI Overviews, Google uses <strong>LocalBusiness, Service, FAQPage, HowTo, and Review schema</strong> to construct its generated answers. Businesses with complete schema implementation are significantly more likely to appear in AI Overviews, especially for local service queries.</p>
+            <p>Google has the deepest integration with schema because it built the structured data ecosystem. For AI Overviews, Google uses <strong>LocalBusiness, Service, FAQPage, HowTo, and Review schema</strong> to construct its generated answers. Businesses with complete schema implementation are significantly more likely to appear in AI Overviews, especially for local service queries. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>Perplexity</h3>
-            <p>Perplexity&apos;s citation system favors pages with <strong>clear schema-defined entities</strong>. Organization, Product, and FAQPage schema are especially valuable because they make it easier for Perplexity to extract structured information and attribute it in its footnoted answers. Content with well-structured schema is more likely to appear as a cited source.</p>
+            <p>Perplexity&apos;s citation system favors pages with <strong>clear schema-defined entities</strong>. Organization, Product, and FAQPage schema are especially valuable because they make it easier for Perplexity to extract structured information and attribute it in its footnoted answers. Content with well-structured schema is more likely to appear as a cited source. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want a custom schema strategy built for your specific AI visibility goals?</p>
+              <p>Want a custom schema strategy built for your specific AI visibility goals? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -395,40 +395,40 @@ export default function Page() {
             <span className="ae-section-label">Priority Ranking</span>
             <h2>Schema Types That AI Platforms Care About</h2>
 
-            <p>There are dozens of schema types available, but AI platforms do not weight them equally. Some types have a direct, measurable impact on AI citations. Others have minimal effect.</p>
+            <p>There are dozens of schema types available, but AI platforms do not weight them equally. Some types have a direct, measurable impact on AI citations. Others have minimal effect. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── TIMELINE: IMPLEMENTATION ORDER ── */}
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Priority 1: FAQPage Schema</strong>
-                <p>Maps directly to how AI platforms structure question-and-answer responses. The single highest-impact schema type for conversational AI visibility.</p>
+                <p>Maps directly to how AI platforms structure question-and-answer responses. The single highest-impact schema type for conversational AI visibility. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Priority 2: LocalBusiness Schema</strong>
-                <p>Tells AI platforms your business name, location, service area, hours, and contact info. Critical for any &quot;near me&quot; or location-based AI query.</p>
+                <p>Tells AI platforms your business name, location, service area, hours, and contact info. Critical for any &quot;near me&quot; or location-based AI query. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Priority 3: Article Schema</strong>
-                <p>Signals authoritative editorial content. Helps AI platforms understand your expertise and cite your content in informational queries.</p>
+                <p>Signals authoritative editorial content. Helps AI platforms understand your expertise and cite your content in informational queries. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Priority 4: Organization Schema</strong>
-                <p>Establishes your entity identity across the web. AI platforms use this to connect your brand across multiple data sources.</p>
+                <p>Establishes your entity identity across the web. AI platforms use this to connect your brand across multiple data sources. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Priority 5: Review + Product Schema</strong>
-                <p>Social proof and product data that AI uses for recommendation queries. Especially valuable for e-commerce and service businesses with ratings.</p>
+                <p>Social proof and product data that AI uses for recommendation queries. Especially valuable for e-commerce and service businesses with ratings. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>The schema types that matter most are the ones that help AI platforms identify what your business is, what you offer, and what questions you can answer. If your schema does not communicate those three things, AI platforms will default to sources that do.</p>
+              <p>The schema types that matter most are the ones that help AI platforms identify what your business is, what you offer, and what questions you can answer. If your schema does not communicate those three things, AI platforms will default to sources that do. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about which schema types your business needs? We can help.</p>
+              <p>Questions about which schema types your business needs? We can help. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -436,7 +436,7 @@ export default function Page() {
             <span className="ae-section-label">Common Mistakes</span>
             <h2>Why Most Schema Implementations Fail</h2>
 
-            <p>Here is the uncomfortable truth: most businesses that have schema markup on their site are not getting any AI visibility benefit from it. The schema is technically valid. It passes Google&apos;s Rich Results Test. But it is not doing anything meaningful for AI citations.</p>
+            <p>Here is the uncomfortable truth: most businesses that have schema markup on their site are not getting any AI visibility benefit from it. The schema is technically valid. It passes Google&apos;s Rich Results Test. But it is not doing anything meaningful for AI citations. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* ── PROS AND CONS ── */}
             <div className="ae-pros-cons not-prose">
@@ -466,12 +466,12 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Real Difference</div>
-              <p>Adding schema is easy. Adding schema that actually influences AI platform behavior requires understanding how each platform processes structured data, which types they prioritize, and how schema interacts with your content quality and site authority. A valid schema implementation and an effective schema implementation are two very different things.</p>
+              <p>Adding schema is easy. Adding schema that actually influences AI platform behavior requires understanding how each platform processes structured data, which types they prioritize, and how schema interacts with your content quality and site authority. A valid schema implementation and an effective schema implementation are two very different things. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Is your schema markup actually working or just passing validation tests?</p>
+              <p>Is your schema markup actually working or just passing validation tests? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get a Free AI Visibility Assessment &rarr;</Link>
             </div>
 
@@ -495,7 +495,7 @@ export default function Page() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Need help implementing schema the right way the first time?</p>
+              <p>Need help implementing schema the right way the first time? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -503,7 +503,7 @@ export default function Page() {
             <span className="ae-section-label">Tool Comparison</span>
             <h2>Schema Implementation: DIY vs Professional</h2>
 
-            <p>You can add basic schema yourself, but the quality of implementation matters enormously for AI visibility. Here is how the approaches compare.</p>
+            <p>You can add basic schema yourself, but the quality of implementation matters enormously for AI visibility. Here is how the approaches compare. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -549,7 +549,7 @@ export default function Page() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which approach is right for your business? Let us show you the data.</p>
+              <p>Not sure which approach is right for your business? Let us show you the data. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -557,14 +557,14 @@ export default function Page() {
             <span className="ae-section-label">The Bottom Line</span>
             <h2>Schema Is No Longer Optional</h2>
 
-            <p>In 2026, schema markup is not an advanced SEO tactic reserved for enterprise sites. It is a baseline requirement for any business that wants to be visible in AI search. The consensus among experts is clear: structured data is one of the strongest signals AI systems use to interpret your content and decide whether to show it to users.</p>
+            <p>In 2026, schema markup is not an advanced SEO tactic reserved for enterprise sites. It is a baseline requirement for any business that wants to be visible in AI search. The consensus among experts is clear: structured data is one of the strongest signals AI systems use to interpret your content and decide whether to show it to users. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Competitive Advantage</div>
-              <p>The businesses that have implemented schema are already seeing the results in higher AI citation rates, more rich results appearances, and better visibility across ChatGPT, Google AI Overviews, and Perplexity. The businesses that have not implemented it are competing with one hand tied behind their back.</p>
+              <p>The businesses that have implemented schema are already seeing the results in higher AI citation rates, more rich results appearances, and better visibility across ChatGPT, Google AI Overviews, and Perplexity. The businesses that have not implemented it are competing with one hand tied behind their back. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
 
-            <p>Adding schema to your website is one of the highest-impact, lowest-effort changes you can make for AI visibility. It does not require rewriting your content or redesigning your site. It requires adding structured data that tells AI platforms what your content already says. Start with LocalBusiness and FAQPage schema on your most important pages. Then expand from there.</p>
+            <p>Adding schema to your website is one of the highest-impact, lowest-effort changes you can make for AI visibility. It does not require rewriting your content or redesigning your site. It requires adding structured data that tells AI platforms what your content already says. Start with LocalBusiness and FAQPage schema on your most important pages. Then expand from there. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">

@@ -238,24 +238,24 @@ export default function BlogPost() {
 
           <p>
             When AI stops recommending a business, the instinctive response is to publish more. More blog posts, more service pages, more location pages, more FAQ content. The logic feels airtight: more content means more surface area for AI to find and cite.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             The logic is wrong. And it is costing businesses real money in wasted content production while their AI visibility either flatlines or actively declines.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <p>
             AI platforms do not count pages. They evaluate systems. The difference between those two statements is the entire gap between businesses that appear in AI answers daily and those that never show up at all, regardless of how much content they publish.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Myth Alert</div>
-            <p className="ae-callout-body">Publishing more pages does not increase AI visibility. In many cases, it reduces it by diluting topical authority and fragmenting the semantic signals AI uses to evaluate whether your site deserves to be cited.</p>
+            <p className="ae-callout-body">Publishing more pages does not increase AI visibility. In many cases, it reduces it by diluting topical authority and fragmenting the semantic signals AI uses to evaluate whether your site deserves to be cited. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure how your site looks to AI right now? Find out before you publish another page.</p>
+            <p>Not sure how your site looks to AI right now? Find out before you publish another page. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
           </div>
 
@@ -265,15 +265,15 @@ export default function BlogPost() {
 
           <p>
             This myth has real roots. For most of Google&apos;s history, publishing more indexed pages did correlate with broader search visibility. More pages meant more keyword targets, more crawl surface, more chances to rank for long-tail queries. SEO agencies built entire practices around churning out content at scale.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <p>
             When AI search emerged, businesses and their marketers imported those same assumptions. AI reads content, they reasoned, so more content must mean more AI exposure. The strategy became: keep publishing, keep adding pages, and eventually AI will notice.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <p>
             What actually happened: sites with hundreds of thin, loosely related pages started falling out of AI citations while smaller competitors with tightly structured content ecosystems took their place. The game had changed completely, and the old rulebook was actively misleading.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-quote not-prose">
             <blockquote>AI does not reward you for how many pages you have. It rewards you for how well those pages work together to establish your authority on a topic that matters to your customers.</blockquote>
@@ -281,16 +281,16 @@ export default function BlogPost() {
 
           <p>
             The core difference is this: Google&apos;s traditional algorithm evaluates pages individually against a query. AI platforms evaluate your entire website as a single entity and ask: does this business demonstrate genuine, organized expertise on this subject? A hundred disconnected pages on vaguely related topics gives a weaker answer to that question than twenty deeply interconnected pages that build a coherent knowledge architecture.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>The page count myth persists because it worked for traditional SEO. AI search uses a fundamentally different evaluation model, one that rewards system-level authority over individual page counts.</p>
+            <p>The page count myth persists because it worked for traditional SEO. AI search uses a fundamentally different evaluation model, one that rewards system-level authority over individual page counts. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your competitors may be building the right kind of content system while you add pages that AI ignores.</p>
+            <p>Your competitors may be building the right kind of content system while you add pages that AI ignores. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <Link href="/blindspot">See Where You Stand &rarr;</Link>
           </div>
 
@@ -300,34 +300,34 @@ export default function BlogPost() {
 
           <p>
             To understand why page count fails as a strategy, you need to understand what AI platforms are actually doing when they crawl and evaluate your site. It is not a keyword matching exercise. It is closer to how a subject matter expert would evaluate a reference library.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <p>
             AI platforms crawl your website and build a semantic representation of what your site is about, who it is for, how deeply it covers its subject matter, and how credible that coverage appears given external signals. That semantic representation determines whether you get cited when someone asks a question in your domain.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <p>
             There are three layers to that evaluation, and each one is where most businesses with large page counts fail.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <h3>Layer 1: Topical Clustering</h3>
           <p>
             AI groups your pages by topic and evaluates whether each cluster demonstrates breadth and depth. A cluster of five tightly related, deeply written pages about commercial cleaning services signals topical authority. Fifty posts about cleaning, marketing, hiring, running a small business, local events, and SEO tips signals noise. AI cannot tell what your site is actually about, and when it cannot tell, it does not cite you.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <h3>Layer 2: Semantic Coverage</h3>
           <p>
             Within each topic cluster, AI evaluates whether you have covered the subject from multiple necessary angles. Do you have a clear definition page? Do you answer the most common questions? Do you address objections, comparisons, and specific use cases? Missing semantic coverage creates gaps that AI interprets as gaps in your expertise, even if you have 50 posts on loosely related subjects.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <h3>Layer 3: Structural Signals</h3>
           <p>
             AI also reads structural signals: how your pages link to each other, whether related content surfaces and cross-references itself, whether your site architecture makes the hierarchy of your knowledge obvious. A site where every page exists as an island, with no logical connections to related content, looks like a poorly organized filing cabinet. AI platforms consistently cite well-organized knowledge bases over sprawling content dumps.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">How AI Reads a Website</div>
-            <p className="ae-callout-body">AI does not scan your page list. It builds a map of what you know, how well you know it, and how clearly you have organized that knowledge for someone who needs a quick, reliable answer. The map matters more than the size of the territory.</p>
+            <p className="ae-callout-body">AI does not scan your page list. It builds a map of what you know, how well you know it, and how clearly you have organized that knowledge for someone who needs a quick, reliable answer. The map matters more than the size of the territory. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
           {/* SECTION: ECOSYSTEM MODEL */}
@@ -336,34 +336,34 @@ export default function BlogPost() {
 
           <p>
             The businesses that consistently rank in AI answers have one thing in common that their competitors miss: they have built content ecosystems, not content archives.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
             A content archive is a collection of pages. A content ecosystem is a structured knowledge system where every page serves a specific architectural function and links to the pages above, below, and beside it in a way that creates a coherent whole.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>
             The ecosystem model works at three levels:
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <h3>Pillar Pages (The Cornerstone Layer)</h3>
           <p>
             These are comprehensive, authoritative resources that establish your site&apos;s claim to a topic domain. A pillar page does not target a single keyword. It answers the full spectrum of questions a serious researcher would have about a subject. A plumbing company&apos;s pillar page on water heater installation covers types, costs, timelines, what to ask a contractor, what can go wrong, and maintenance. It becomes the definitive resource AI can cite for any water heater question.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <h3>Supporting Articles (The Depth Layer)</h3>
           <p>
             Supporting articles go deep on specific aspects of the pillar topic. They answer narrower questions with greater detail than the pillar page can sustain, and they link back to the pillar and to each other. AI sees these interconnections and registers them as evidence of comprehensive coverage. Twenty supporting articles tightly linked to a pillar outperform two hundred standalone posts every time.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <h3>Answer Pages (The Citation Layer)</h3>
           <p>
             Answer pages are built specifically for AI citation. They address a single specific question with a direct, structured, verifiable answer. They are short, precise, and designed to be extracted as a citation. Most businesses have zero of these, despite them being the highest-leverage content investment for AI visibility.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering which content type your site is missing? An AI Blind Spot Report tells you exactly.</p>
+            <p>Wondering which content type your site is missing? An AI Blind Spot Report tells you exactly. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot">Get the Free Report &rarr;</Link>
           </div>
 
@@ -373,15 +373,15 @@ export default function BlogPost() {
 
           <p>
             Here is the data point that stops most business owners cold: pages with a First Contentful Paint (FCP) under 0.4 seconds average 6.7 AI citations. Pages with FCP above 2.5 seconds average just 2.1 citations. That is a 3x gap driven entirely by load time, not content quality, not topic selection, not how many pages you have.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <p>
             The mechanism is not subtle. AI crawlers operate on a fixed crawl budget per domain. A slow website consumes more of that budget before content is fully accessible. The crawler moves on before it has read everything. The result: large portions of a slow site are invisible to AI even if the content is excellent and well-structured.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <p>
             This creates a counterintuitive situation where adding more pages to a slow website actively reduces AI visibility. Each new page added to an already-slow site competes for the same finite crawl budget. The pages that get crawled are often the newest, not the most important ones. The pillar pages and deep supporting content that should be driving citations end up last in the crawl queue.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           {/* BAR CHART: Speed vs Citations */}
           <div className="not-prose my-10 p-6 rounded-2xl bg-white/[0.02] border border-white/5">
@@ -420,11 +420,11 @@ export default function BlogPost() {
 
           <p>
             The practical implication: before you add a single new page to your site, verify that your existing pages are fast enough for AI to fully crawl them. A site with 20 lightning-fast, well-structured pages will consistently outperform a site with 200 pages loading in three seconds. Speed is not just a user experience metric. It is an AI visibility infrastructure requirement.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">The Crawl Budget Problem</div>
-            <p className="ae-callout-body">Every domain gets a finite AI crawl budget. Slow pages consume more of it per page. If your site is slow and large, there is a real probability that your most important pages are never fully indexed by AI, regardless of how good the content is. This is fixable, but you need to know it is happening first.</p>
+            <p className="ae-callout-body">Every domain gets a finite AI crawl budget. Slow pages consume more of it per page. If your site is slow and large, there is a real probability that your most important pages are never fully indexed by AI, regardless of how good the content is. This is fixable, but you need to know it is happening first. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           {/* SECTION: QUANTITY VS QUALITY */}

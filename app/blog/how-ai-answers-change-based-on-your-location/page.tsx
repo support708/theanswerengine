@@ -330,7 +330,7 @@ export default function Page() {
 
             <p>
               The most universal method is IP address geolocation. Every device that connects to an AI platform transmits an IP address as part of the network handshake. That IP address gets mapped against commercial geolocation databases, which can reliably identify country and state, and often provide a reasonable city-level estimate. When you ask ChatGPT for a local plumber without specifying a city, it makes a judgment call about your location based on your IP address, then passes that estimate to its web search layer to filter results.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">How ChatGPT Determines Where You Are</div>
@@ -341,7 +341,7 @@ export default function Page() {
 
             <p>
               Perplexity operates similarly, using IP-derived location data to anchor local queries. Google AI Mode and Google AI Overviews have the advantage of deeper location integration: for signed-in users, Google can leverage search history, Maps usage, and device location permissions to produce a much more precise geographic anchor. This gives Google a structural advantage in local AI accuracy that other platforms are still working to match.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>
               Siri and Alexa operate with explicit GPS coordinates when location permissions are granted, making them the most precise of all AI platforms for local queries. The tradeoff is that users must actively consent to sharing location, and the businesses being recommended still need strong location signals in the underlying data sources these assistants query.
@@ -351,14 +351,14 @@ export default function Page() {
               <div className="ae-callout-title">The Accuracy Gap at City Level</div>
               <p className="text-gray-300 text-sm leading-relaxed">
                 IP geolocation is highly reliable at the country and state level, but city-level accuracy can be off by 10 to 50 miles depending on the ISP, mobile carrier, and whether the user is on a VPN. This means a person in suburban Houston might get recommendations anchored to downtown Houston, or even a neighboring city entirely. For businesses operating in tight geographic markets, this inaccuracy can mean the difference between appearing in recommendations and being invisible.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose my-10 p-5 rounded-xl bg-[#F27D24]/5 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Is AI finding you in all your target cities?</p>
-                <p className="text-gray-400 text-sm">Our Blind Spot Report maps your AI visibility across every location that matters to your business.</p>
+                <p className="text-gray-400 text-sm">Our Blind Spot Report maps your AI visibility across every location that matters to your business. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors">
                 Get the Report
@@ -376,7 +376,7 @@ export default function Page() {
 
             <p>
               Run this experiment mentally: a pest control company in Dallas queries AI platforms and discovers it is consistently recommended for &quot;pest control near me&quot; queries. Everything looks good. But a customer 15 miles away in Garland runs the same query and gets three completely different businesses. The pest control company is invisible. The Dallas business owner has no idea this is happening because they only ever test from their own office.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-quote not-prose">
               <blockquote className="text-white text-xl font-semibold leading-relaxed">
@@ -391,7 +391,7 @@ export default function Page() {
 
             <p>
               This confidence decay by distance is not linear. It can fall off sharply at certain geographic thresholds, particularly when a competitor in the farther zone has invested in location-specific optimization. See our related article on <Link href="/blog/why-ai-recommends-businesses-in-other-cities">why AI recommends businesses in other cities</Link> for a deeper look at how this dynamic plays out across markets.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Section 3: Platform Differences */}
             <div className="ae-section-label not-prose">Platform Breakdown</div>
@@ -462,7 +462,7 @@ export default function Page() {
 
             <p>
               The practical implication: Google AI Mode benefits enormously from Google&apos;s own ecosystem data. A business with a fully optimized Google Business Profile has a meaningful advantage specifically on Google&apos;s AI surfaces. But that advantage does not transfer to ChatGPT or Perplexity. Those platforms pull from entirely different source ecosystems. A business that only focuses on Google optimization is flying blind on every other AI platform.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               For a detailed breakdown of how Google AI Mode specifically handles local discovery, see our article on <Link href="/blog/how-google-ai-mode-changes-local-business-discovery">how Google AI Mode changes local business discovery</Link>.
@@ -471,7 +471,7 @@ export default function Page() {
             {/* CTA Inline 2 */}
             <div className="not-prose my-10 p-5 rounded-xl bg-[#F27D24]/5 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Not sure which platforms are sending you customers?</p>
+                <p className="text-white font-semibold mb-1">Not sure which platforms are sending you customers? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 <p className="text-gray-400 text-sm">We test ChatGPT, Perplexity, Google AI Mode, and more to show you where you stand across every major platform.</p>
               </div>
               <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors">
@@ -486,7 +486,7 @@ export default function Page() {
 
             <p>
               AI platforms do not simply look at where a business is located on a map. They evaluate a constellation of signals that together determine how confident they are that your business is relevant and trustworthy for users in a specific geographic area. These signals fall into several categories.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Pros/Cons Box repurposed as signal strength breakdown */}
             <div className="ae-pros-cons not-prose">
@@ -558,7 +558,7 @@ export default function Page() {
               <div className="ae-callout-title">The Corroboration Principle</div>
               <p className="text-gray-300 text-sm leading-relaxed">
                 AI platforms function like detectives, not directories. They do not simply look your address up in one place. They cross-reference your location data across dozens of sources. If those sources agree, confidence goes up. If they conflict, confidence drops, and you may not get recommended at all. This is why NAP consistency is foundational, not optional. Every discrepancy is a confidence penalty.
-              </p>
+               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* Section 5: Invisible Competitors */}
@@ -571,7 +571,7 @@ export default function Page() {
 
             <p>
               This is not theoretical. Research on AI local business visibility shows that in most service categories, a small number of businesses capture the overwhelming majority of AI recommendations, even in competitive markets. The businesses that win are not necessarily the best-reviewed or longest-established. They are the ones whose location signals are strongest across the widest geographic footprint.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-label">Key Insight</div>
@@ -582,7 +582,7 @@ export default function Page() {
 
             <p>
               The competitor capturing your potential customers may not even be visible to you in traditional search. They may rank lower on Google Maps. But they have built the specific data architecture that AI platforms evaluate for confidence, and that architecture is paying dividends in every query that originates outside your immediate neighborhood.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>
               If you have noticed that AI platforms seem to favor certain competitors even though you believe your business is stronger, the answer is almost always in the data infrastructure, not in the quality of the business. For more on this dynamic, see our related article on <Link href="/blog/why-ai-gives-different-answers-every-time">why AI gives different answers every time</Link>.
@@ -591,7 +591,7 @@ export default function Page() {
             {/* CTA Inline 3 */}
             <div className="not-prose my-10 p-5 rounded-xl bg-[#F27D24]/5 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Find out who AI is recommending instead of you</p>
+                <p className="text-white font-semibold mb-1">Find out who AI is recommending instead of you <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 <p className="text-gray-400 text-sm">Our competitive analysis shows which businesses are winning the AI recommendations you should be capturing.</p>
               </div>
               <Link href="/contact" className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors">
@@ -606,7 +606,7 @@ export default function Page() {
 
             <p>
               Businesses operating across multiple cities or service areas face a compounded version of the geo-drift problem. Each location needs its own independent data footprint. AI platforms do not automatically extrapolate that a business located in Chicago is relevant to users in Evanston, Naperville, or Oak Park. Every service market requires its own constellation of location signals.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Timeline */}
             <div className="ae-timeline not-prose">
@@ -622,7 +622,7 @@ export default function Page() {
                 <div className="ae-timeline-marker bg-yellow-500" />
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-label text-yellow-400">Adjacent Zone (5-15 miles)</div>
-                  <p className="text-gray-300 text-sm">Moderate AI recommendation rate. Some location signal bleed-over. Appears in some queries but inconsistently. Local competitors may be capturing recommendations here.</p>
+                  <p className="text-gray-300 text-sm">Moderate AI recommendation rate. Some location signal bleed-over. Appears in some queries but inconsistently. Local competitors may be capturing recommendations here. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -636,7 +636,7 @@ export default function Page() {
                 <div className="ae-timeline-marker bg-red-500" />
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-label text-red-400">Extended Market (30+ miles)</div>
-                  <p className="text-gray-300 text-sm">Effectively invisible to AI platforms without a dedicated location-specific content and citation strategy. No amount of brand recognition compensates for absent location signals at this distance.</p>
+                  <p className="text-gray-300 text-sm">Effectively invisible to AI platforms without a dedicated location-specific content and citation strategy. No amount of brand recognition compensates for absent location signals at this distance. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                 </div>
               </div>
             </div>
@@ -647,7 +647,7 @@ export default function Page() {
 
             <p>
               For a comprehensive look at why multi-location businesses face unique AI search challenges, read our article on <Link href="/blog/why-multi-location-businesses-struggle-ai-search">why multi-location businesses struggle with AI search</Link>.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Section 7: Economic Bias */}
             <div className="ae-section-label not-prose">Hidden Patterns</div>
@@ -659,7 +659,7 @@ export default function Page() {
 
             <p>
               AI systems trained on massive web datasets have absorbed the economic texture of different regions. They have learned that certain service categories are disproportionately associated with certain geographic profiles. A query for &quot;business attorney&quot; from a suburban residential area may produce different results than the same query from a downtown financial district, because the AI has learned contextual associations about what type of attorney is most relevant in each economic context.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">What Geo-Drift Research Shows About Economic Profiles</div>
@@ -670,7 +670,7 @@ export default function Page() {
 
             <p>
               The practical implication for business owners: you may need to signal different aspects of your business depending on which geographic markets you want to capture. A professional service business targeting high-income suburban clients needs to surface different trust signals than the same business targeting small business owners in an urban market. AI platforms pick up on these contextual nuances through the language of your reviews, the content of your service pages, and the publications that cite you.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -684,7 +684,7 @@ export default function Page() {
                 <div className="ae-decision-matrix-cell">
                   <div className="ae-decision-matrix-factor">LocalBusiness Schema Quality</div>
                   <div className="ae-decision-matrix-weight">Up to 12 pts</div>
-                  <p className="text-gray-400 text-xs mt-1">GeoCoordinates, areaServed, serviceArea fields provide machine-readable location context AI can parse directly</p>
+                  <p className="text-gray-400 text-xs mt-1">GeoCoordinates, areaServed, serviceArea fields provide machine-readable location context AI can parse directly Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
                 <div className="ae-decision-matrix-cell">
                   <div className="ae-decision-matrix-factor">Review Geographic Density</div>
@@ -694,7 +694,7 @@ export default function Page() {
                 <div className="ae-decision-matrix-cell">
                   <div className="ae-decision-matrix-factor">Local Citation Authority</div>
                   <div className="ae-decision-matrix-weight">Up to 14 pts</div>
-                  <p className="text-gray-400 text-xs mt-1">Mentions from local news, chambers, neighborhood sites, and city-specific publications carry strong geographic authority weight</p>
+                  <p className="text-gray-400 text-xs mt-1">Mentions from local news, chambers, neighborhood sites, and city-specific publications carry strong geographic authority weight We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 </div>
                 <div className="ae-decision-matrix-cell">
                   <div className="ae-decision-matrix-factor">Service Area Page Depth</div>
@@ -704,7 +704,7 @@ export default function Page() {
                 <div className="ae-decision-matrix-cell">
                   <div className="ae-decision-matrix-factor">Cross-Platform Corroboration</div>
                   <div className="ae-decision-matrix-weight">Up to 10 pts</div>
-                  <p className="text-gray-400 text-xs mt-1">Identical location data confirmed across Yelp, Apple Maps, Facebook, Bing Places, and industry-specific directories</p>
+                  <p className="text-gray-400 text-xs mt-1">Identical location data confirmed across Yelp, Apple Maps, Facebook, Bing Places, and industry-specific directories Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 </div>
               </div>
             </div>
@@ -719,7 +719,7 @@ export default function Page() {
 
             <p>
               The first shift is in how you think about testing. Most business owners who check their AI visibility do so from their own location, using their own devices. This is the equivalent of testing how well a billboard is visible only from directly in front of it. AI visibility needs to be tested across the full geographic range of your potential customers, from multiple starting points, across multiple platforms.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>
               The second shift is in how you think about content. Generic service pages tell AI very little about where you operate and who you serve. Location-specific content that weaves in genuine local context, references local landmarks, and addresses the specific needs of customers in each market tells AI platforms exactly where you should be recommended. The content cannot be templated or duplicated: each piece needs genuine local substance that demonstrates actual knowledge of that market.
@@ -729,7 +729,7 @@ export default function Page() {
               <div className="ae-callout-title">The Compound Effect of Location Optimization</div>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Businesses that invest in systematic location signal optimization tend to see compounding results. Each new citation, each service area page, each locally contextualized review adds to a growing body of evidence that AI platforms use to build their confidence score for your business. The businesses that start this process earliest in a given market tend to establish durable advantages: competitors who come later have to fight through existing authority to displace established AI recommendations.
-              </p>
+               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>
@@ -738,13 +738,13 @@ export default function Page() {
 
             <p>
               The businesses that figure this out early hold a significant competitive advantage. For context on how this affects businesses that have ignored it, see our analysis of <Link href="/blog/why-ai-sends-customers-to-wrong-location">why AI sends customers to the wrong location</Link> and the silent revenue losses that follow.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* CTA Inline 4 */}
             <div className="not-prose my-10 p-5 rounded-xl bg-[#F27D24]/5 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Stop guessing. Start measuring.</p>
-                <p className="text-gray-400 text-sm">The Answer Engine tracks your AI visibility across all major platforms and multiple locations so you know exactly where you stand.</p>
+                <p className="text-gray-400 text-sm">The Answer Engine tracks your AI visibility across all major platforms and multiple locations so you know exactly where you stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <Link href="/services" className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors">
                 See Our Services
@@ -805,7 +805,7 @@ export default function Page() {
             {/* 3-Tier CTA Block */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">See How AI Recommends You Across Different Locations</h3>
-              <p className="text-gray-400 mb-6">Our free Blind Spot Report tests what AI platforms say about your business from multiple locations, revealing gaps in your local AI visibility.</p>
+              <p className="text-gray-400 mb-6">Our free Blind Spot Report tests what AI platforms say about your business from multiple locations, revealing gaps in your local AI visibility. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -835,7 +835,7 @@ export default function Page() {
               <h3>Why does AI recommend different businesses depending on where you search from?</h3>
               <p>
                 AI platforms filter recommendations by geographic relevance. When a user in Dallas asks for a plumber, the AI anchors its search to the Dallas area and surfaces businesses with strong location signals in that market. A business that ranks well in Denver may not appear at all for a Dallas query, even if the services are identical. AI platforms combine proximity signals, NAP citation consistency, review density, schema markup, and authoritative local mentions to determine which businesses are relevant and trustworthy in a given location.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
               <h3>What is geo-drift in AI search?</h3>
               <p>
@@ -845,7 +845,7 @@ export default function Page() {
               <h3>Does my Google Business Profile help AI give accurate location results?</h3>
               <p>
                 Google Business Profile directly helps Google AI Overviews and Google AI Mode, since those platforms pull from Google&apos;s own data. However, ChatGPT, Perplexity, Claude, and other AI platforms do not sync from Google Business Profile. Each platform draws from its own combination of sources: web crawls, directory APIs, review platforms, and structured data from your website. You need consistent NAP data across all major directories, properly implemented LocalBusiness schema on your site, and strong authoritative mentions across the web to influence non-Google AI platforms.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
               <h3>Can a business rank well in AI search in multiple cities at the same time?</h3>
               <p>
@@ -855,7 +855,7 @@ export default function Page() {
               <h3>Why does Perplexity recommend different businesses than ChatGPT for the same location query?</h3>
               <p>
                 Perplexity and ChatGPT use different source ecosystems and retrieval architectures. Perplexity is citation-heavy and prioritizes sources it can directly link to, often surfacing businesses with strong presences on review aggregators, local directories, and directly citable web pages. ChatGPT combines web search with its training knowledge and applies its own ranking logic. The source overlap between the two platforms is meaningful but incomplete, so different businesses rise to the top.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
               <h3>How do I know if AI is recommending my business in all my target locations?</h3>
               <p>

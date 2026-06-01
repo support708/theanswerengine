@@ -305,7 +305,7 @@ export default function Page() {
               <strong className="text-white">60.32% of U.S. queries</strong>, and they are
               changing not just what people see when they search, but whether they click on
               anything at all.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Search Landscape Has Changed</div>
@@ -314,11 +314,11 @@ export default function Page() {
                 If you are still relying on traditional blue-link rankings for leads, the
                 ground has already shifted underneath you. This is not a future prediction.
                 It is happening right now.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to know if AI Overviews are already affecting your traffic?</p>
+              <p>Want to know if AI Overviews are already affecting your traffic? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -333,20 +333,20 @@ export default function Page() {
               instead of seeing a list of blue links first, you now often see a paragraph or two
               of text that Google&apos;s AI has composed by pulling from multiple sources across the
               web.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               These summaries cite their sources. On average, an AI Overview references{' '}
               <strong className="text-white">13.34 sources per response</strong>, with some
               responses pulling from as many as 95 different links. That means Google is reading
               your content and potentially summarizing it without requiring the user to ever visit
               your site.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The AI model behind these overviews is trained to recognize the most reliable,
               clearly written, and authoritative content on any given topic. It then synthesizes
               that content into a direct answer and presents it to the user at the top of the
               page.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Bar Chart: AI Overview Source Depth */}
             <div className="not-prose ae-bar-group">
@@ -372,11 +372,11 @@ export default function Page() {
                 Google is not just linking to your content anymore. It is reading it, summarizing it,
                 and delivering the answer directly to the user. If your content is the source, you
                 get a citation. If it is not, you get nothing. The click never happens.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Is Google citing your business in AI Overviews? Or ignoring it?</p>
+              <p>Is Google citing your business in AI Overviews? Or ignoring it? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 to Find Out</a>
             </div>
 
@@ -390,19 +390,19 @@ export default function Page() {
               6.49% of searches. By October 2025, that number had surged past 50%. Today, they
               appear in more than 60% of all U.S. queries, reaching{' '}
               <strong className="text-white">1.5 billion monthly users</strong> globally.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Google has been clear that it does not intend to show AI Overviews on every single
               search. The feature is designed to trigger when AI-generated context is genuinely
               helpful, particularly for informational, research, and comparison queries. But 60%
               is already a majority of searches, and that number continues to climb.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               One signal of how seriously Google is treating this feature: ads appearing alongside
               AI Overviews grew from about 3% of AI Overview appearances in January 2025 to
               roughly 40% by November 2025. Google is not just testing this format. It is
               monetizing it at scale.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Timeline: AI Overview Growth */}
             <div className="not-prose ae-timeline">
@@ -461,7 +461,7 @@ export default function Page() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>60% of searches now show AI answers. Is your business part of those answers?</p>
+              <p>60% of searches now show AI answers. Is your business part of those answers? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Check Your AI Visibility Free</Link>
             </div>
 
@@ -474,13 +474,13 @@ export default function Page() {
               The way people interact with search results has changed significantly. When a user
               gets a well-written AI summary at the top of the page, many of them simply read it
               and move on. They get their answer. They do not need to click anything.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Zero-click searches tell this story clearly. Without an AI Overview, roughly 34% of
               searches result in no click at all. With an AI Overview present, that rises to 43%.
               In Google&apos;s dedicated &quot;AI Mode,&quot; which delivers an even more comprehensive AI
               response, zero-click rates jump to 93%.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Bar Chart: Zero-Click Rates */}
             <div className="not-prose ae-bar-group">
@@ -511,14 +511,14 @@ export default function Page() {
               For local service businesses, this is a meaningful shift. Someone searching &quot;best
               plumber near me&quot; or &quot;how much does a roof repair cost&quot; may now receive a detailed
               AI summary and never scroll down to the business listings at all.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               When AI Overviews and Featured Snippets appear together on the same page, they
               collectively occupy{' '}
               <strong className="text-white">67.1% of the desktop screen</strong> and an even
               larger 75.7% on mobile. The traditional organic results are being pushed further
               and further out of the user&apos;s immediate view.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">Your Rankings Look Fine. Your Traffic Does Not.</div>
@@ -526,15 +526,15 @@ export default function Page() {
                 This is the most dangerous part of the shift. Your SEO dashboard shows you ranking #1.
                 But AI Overviews are answering the question before anyone scrolls down to your link.
                 You can rank first and still get zero clicks.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             <div className="not-prose ae-quote">
-              <p>In AI Mode, 93% of searches end without a single click. Your business is invisible if it is not part of the answer itself.</p>
+              <p>In AI Mode, 93% of searches end without a single click. Your business is invisible if it is not part of the answer itself. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Rankings look great but calls are dropping? This is probably why.</p>
+              <p>Rankings look great but calls are dropping? This is probably why. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Run a Free Visibility Audit</Link>
             </div>
 
@@ -549,13 +549,13 @@ export default function Page() {
               <strong className="text-white">58% lower average clickthrough rate</strong> for the
               page that ranks at the top of organic results. That is not a small dip. That is more
               than half of the traffic you might have expected from a number-one ranking, gone.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               A Pew Research Center study that tracked 68,000 real searches added more detail.
               When AI summaries appeared, users clicked on a result only 8% of the time. Without
               AI summaries, the click rate was 15%. That is a 46.7% relative reduction in clicks
               just from the presence of an AI Overview.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Comparison: With vs Without AI Overview */}
             <div className="not-prose ae-pros-cons">
@@ -587,7 +587,7 @@ export default function Page() {
               <strong className="text-white">35% more organic clicks</strong> and{' '}
               <strong className="text-white">91% more paid clicks</strong> than businesses that
               were not cited. Being in the answer is now more valuable than ranking below it.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="not-prose ae-takeaway">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -595,16 +595,16 @@ export default function Page() {
                 The new dividing line is not who ranks highest. It is who gets cited by AI.
                 Businesses cited in AI Overviews earn dramatically more clicks. Those left
                 out lose more than half their expected traffic. The gap will only widen.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Are you on the winning side or the losing side of this divide?</p>
+              <p>Are you on the winning side or the losing side of this divide? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Find Out in 60 Seconds</Link>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Have questions about your traffic trends? We can walk you through the data.</p>
+              <p>Have questions about your traffic trends? We can walk you through the data. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
             </div>
 
@@ -618,19 +618,19 @@ export default function Page() {
               part, a competitive response. When OpenAI launched ChatGPT and people started using
               it to get direct answers instead of searching Google, Google faced the most serious
               challenge to its core business in decades.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The strategic logic was straightforward: if users are going to start getting answers
               from AI tools, Google needed to become the AI tool that delivers those answers. AI
               Overviews are Google&apos;s way of keeping users inside its ecosystem rather than sending
               them to a competitor.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The longer-term vision is also clear. Google has described search as evolving into
               an &quot;AI-first discovery, interpretation, and decision system.&quot; Traditional blue-link
               results are not disappearing overnight, but they are increasingly the secondary
               layer of a search experience that starts with AI.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* Comparison Table: Old Search vs AI Search */}
             <div className="not-prose">
@@ -683,7 +683,7 @@ export default function Page() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Still optimizing for the old search playbook? That playbook is expiring.</p>
+              <p>Still optimizing for the old search playbook? That playbook is expiring. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot">See What AI Actually Sees About Your Business</Link>
             </div>
 
@@ -696,7 +696,7 @@ export default function Page() {
               Not all industries are seeing the same level of impact. Some niches are far more
               saturated with AI Overviews than others, which means the competitive stakes vary
               depending on what kind of business you run.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Industry Saturation Bar Chart */}
             <div className="not-prose ae-bar-group">

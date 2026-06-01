@@ -278,19 +278,19 @@ export default function Page() {
           <span className="ae-section-label not-prose">The Opportunity</span>
           <h2>Your Customers Are Asking ChatGPT. Are You the Answer?</h2>
 
-          <p>ChatGPT now has 800 million weekly active users and 5.7 billion monthly visits, making it the 4th most visited website on the planet. Your potential customers are asking it which plumber to call, which dentist to book, and which contractor to trust.</p>
+          <p>ChatGPT now has 800 million weekly active users and 5.7 billion monthly visits, making it the 4th most visited website on the planet. Your potential customers are asking it which plumber to call, which dentist to book, and which contractor to trust. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>The question is: does your business show up in the answer?</p>
+          <p>The question is: does your business show up in the answer? Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-quote not-prose">
-            <p>Only 1.2% of local business locations get recommended by ChatGPT, compared to 35.9% that appear in Google&apos;s local 3-pack. That gap is your opportunity.</p>
+            <p>Only 1.2% of local business locations get recommended by ChatGPT, compared to 35.9% that appear in Google&apos;s local 3-pack. That gap is your opportunity. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
-          <p>Right now, most local businesses are invisible to AI search. If you act before your competitors figure this out, you gain a massive first-mover advantage. This guide walks you through exactly what it takes to get your local service business cited by ChatGPT.</p>
+          <p>Right now, most local businesses are invisible to AI search. If you act before your competitors figure this out, you gain a massive first-mover advantage. This guide walks you through exactly what it takes to get your local service business cited by ChatGPT. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure if ChatGPT can see your business? Find out in 60 seconds.</p>
+            <p>Not sure if ChatGPT can see your business? Find out in 60 seconds. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -298,7 +298,7 @@ export default function Page() {
           <span className="ae-section-label not-prose">The Business Case</span>
           <h2>Why ChatGPT Citations Matter More Than Google Rankings</h2>
 
-          <p>If you have been pouring budget into Google SEO, that foundation still matters. But the business case for ChatGPT visibility is compelling on its own terms.</p>
+          <p>If you have been pouring budget into Google SEO, that foundation still matters. But the business case for ChatGPT visibility is compelling on its own terms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           {/* Comparison: Google vs ChatGPT */}
           <div className="ae-comparison-table not-prose">
@@ -340,16 +340,16 @@ export default function Page() {
             </table>
           </div>
 
-          <p>When someone types a question into ChatGPT, they are not browsing. They want an answer and they are ready to act on it. If ChatGPT tells them your HVAC company is the best option in their city, they are not clicking through to compare five other results. They are calling you.</p>
+          <p>When someone types a question into ChatGPT, they are not browsing. They want an answer and they are ready to act on it. If ChatGPT tells them your HVAC company is the best option in their city, they are not clicking through to compare five other results. They are calling you. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Tight Citation Window</div>
-            <p>LLMs typically cite only 2 to 7 domains per response, compared to Google&apos;s 10 blue links. If you are not in that citation window, you do not exist in that conversation. There is no page two in AI search.</p>
+            <p>LLMs typically cite only 2 to 7 domains per response, compared to Google&apos;s 10 blue links. If you are not in that citation window, you do not exist in that conversation. There is no page two in AI search. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>AI visitors convert 4.4x higher. Are they finding your competitors instead?</p>
+            <p>AI visitors convert 4.4x higher. Are they finding your competitors instead? Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Check Your AI Visibility Now &rarr;</Link>
           </div>
 
@@ -357,9 +357,9 @@ export default function Page() {
           <span className="ae-section-label not-prose">How It Works</span>
           <h2>How ChatGPT Actually Selects Sources to Cite</h2>
 
-          <p>Before you optimize anything, you need to understand what ChatGPT is looking for. It is not simply rewarding the highest-ranked Google pages. Research shows a weak correlation between high organic traffic and ChatGPT inclusion specifically.</p>
+          <p>Before you optimize anything, you need to understand what ChatGPT is looking for. It is not simply rewarding the highest-ranked Google pages. Research shows a weak correlation between high organic traffic and ChatGPT inclusion specifically. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <p>ChatGPT draws from a wider range of sources, often citing lower-ranking or even non-ranking pages if they provide contextually relevant information.</p>
+          <p>ChatGPT draws from a wider range of sources, often citing lower-ranking or even non-ranking pages if they provide contextually relevant information. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* Decision Matrix: Citation Selection Factors */}
           <div className="ae-decision-matrix not-prose">
@@ -443,12 +443,12 @@ export default function Page() {
           </div>
 
           <div className="ae-takeaway not-prose">
-            <p><strong>Key takeaway:</strong> ChatGPT trusts third parties more than your own website. What others say about you matters more than what you say about yourself.</p>
+            <p><strong>Key takeaway:</strong> ChatGPT trusts third parties more than your own website. What others say about you matters more than what you say about yourself. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering what third parties are saying about your business to AI?</p>
+            <p>Wondering what third parties are saying about your business to AI? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot">Run a Free AI Authority Audit &rarr;</Link>
           </div>
 
@@ -472,7 +472,7 @@ export default function Page() {
 
           <h3>1. Lead With an Answer Capsule</h3>
 
-          <p>The single strongest commonality among cited pages is the presence of answer capsules: short, definitive statements that directly answer a specific question. The format is straightforward. Write 40 to 50 words that answer one question completely, with no fluff, placed at the very top of your page.</p>
+          <p>The single strongest commonality among cited pages is the presence of answer capsules: short, definitive statements that directly answer a specific question. The format is straightforward. Write 40 to 50 words that answer one question completely, with no fluff, placed at the very top of your page. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* Pros/Cons: Answer Capsule Before/After */}
           <div className="ae-pros-cons not-prose">
@@ -498,24 +498,24 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Example Transformation</div>
-            <p><strong>Before:</strong> &quot;Our plumbing company has been serving homeowners in Austin for over 20 years with quality work and great customer service.&quot;</p>
-            <p><strong>After:</strong> &quot;Austin homeowners dealing with a burst pipe need emergency repair within 2 hours to avoid structural damage. Our licensed plumbers respond to Austin emergency calls in under 45 minutes, 24/7, with no after-hours upcharge.&quot;</p>
+            <p><strong>Before:</strong> &quot;Our plumbing company has been serving homeowners in Austin for over 20 years with quality work and great customer service.&quot; Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            <p><strong>After:</strong> &quot;Austin homeowners dealing with a burst pipe need emergency repair within 2 hours to avoid structural damage. Our licensed plumbers respond to Austin emergency calls in under 45 minutes, 24/7, with no after-hours upcharge.&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
 
-          <p>Notice what the second version does: it answers a real question, includes specific information, uses local signals, and gives ChatGPT something concrete to extract and cite.</p>
+          <p>Notice what the second version does: it answers a real question, includes specific information, uses local signals, and gives ChatGPT something concrete to extract and cite. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <h3>2. Front-Load Your Best Content</h3>
 
-          <p>44.2% of all LLM citations come from the first 30% of text, making your opening section critical. Do not bury your most important claims, local credentials, or service specifics halfway down the page. Put your most citable content first.</p>
+          <p>44.2% of all LLM citations come from the first 30% of text, making your opening section critical. Do not bury your most important claims, local credentials, or service specifics halfway down the page. Put your most citable content first. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Common Mistake</div>
-            <p>Most businesses put a generic company overview at the top and hide the specific, valuable information further down. AI crawlers weight the beginning of your page heavily. Flip your content hierarchy.</p>
+            <p>Most businesses put a generic company overview at the top and hide the specific, valuable information further down. AI crawlers weight the beginning of your page heavily. Flip your content hierarchy. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <h3>3. Optimize for Questions, Not Keywords</h3>
 
-          <p>Question-optimized content receives 200 to 300% more ChatGPT citations than generic content. For every service page, identify the three to five questions a real customer would ask before booking. Then answer those questions directly on the page, using the actual question as a heading.</p>
+          <p>Question-optimized content receives 200 to 300% more ChatGPT citations than generic content. For every service page, identify the three to five questions a real customer would ask before booking. Then answer those questions directly on the page, using the actual question as a heading. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-pros-cons not-prose">
             <div className="ae-cons-box">
@@ -540,17 +540,17 @@ export default function Page() {
 
           <h3>4. Include Original Data or Specific Numbers</h3>
 
-          <p>Original data ranks as the second-strongest differentiator for cited pages after answer capsules. You do not need a research team. Track your own business numbers: average response time, number of jobs completed in your area, customer satisfaction rates from reviews. Specific claims are citable. Vague marketing language is not.</p>
+          <p>Original data ranks as the second-strongest differentiator for cited pages after answer capsules. You do not need a research team. Track your own business numbers: average response time, number of jobs completed in your area, customer satisfaction rates from reviews. Specific claims are citable. Vague marketing language is not. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           {/* ── CTA 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>We analyze your data and build the citation profile AI needs to see.</p>
+            <p>We analyze your data and build the citation profile AI needs to see. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot">See What AI Knows About You &rarr;</Link>
           </div>
 
           <h3>5. Structure Your Pages for Extraction</h3>
 
-          <p>Use clear headings, bullet points, and short paragraphs. ChatGPT needs to extract information efficiently. Dense walls of text are harder to parse and cite.</p>
+          <p>Use clear headings, bullet points, and short paragraphs. ChatGPT needs to extract information efficiently. Dense walls of text are harder to parse and cite. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-cheat-sheet not-prose">
             <div className="ae-cheat-sheet-title">Page Structure Checklist for AI Extraction</div>
@@ -568,16 +568,16 @@ export default function Page() {
 
           <h3>6. Add Schema Markup</h3>
 
-          <p>LocalBusiness schema, FAQ schema, and Service schema give AI models structured signals about what your page contains. ChatGPT cites local landing pages, homepages, business listings, Contact Us pages, and other pages with consistent crawlable information: name, address, phone, hours, website, and clear local signals with geographic words and structured data.</p>
+          <p>LocalBusiness schema, FAQ schema, and Service schema give AI models structured signals about what your page contains. ChatGPT cites local landing pages, homepages, business listings, Contact Us pages, and other pages with consistent crawlable information: name, address, phone, hours, website, and clear local signals with geographic words and structured data. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">Schema Types That Matter Most</div>
-            <p><strong>LocalBusiness:</strong> NAP, hours, service area. <strong>FAQ:</strong> Question-answer pairs on every page. <strong>Service:</strong> What you offer, pricing, availability. These three schema types cover the signals AI models look for when deciding which businesses to cite.</p>
+            <p><strong>LocalBusiness:</strong> NAP, hours, service area. <strong>FAQ:</strong> Question-answer pairs on every page. <strong>Service:</strong> What you offer, pricing, availability. These three schema types cover the signals AI models look for when deciding which businesses to cite. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
           <h3>7. Update Content on a Regular Cadence</h3>
 
-          <p>Given that 60.5% of cited pages were published within the last two years, you should update your key pages at least quarterly. Add a &quot;Last updated&quot; date at the top of your pages. Even small updates signal recency to AI crawlers.</p>
+          <p>Given that 60.5% of cited pages were published within the last two years, you should update your key pages at least quarterly. Add a &quot;Last updated&quot; date at the top of your pages. Even small updates signal recency to AI crawlers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* Bar Chart: Content Age Impact */}
           <div className="ae-bar-group not-prose">
@@ -605,7 +605,7 @@ export default function Page() {
 
           {/* ── CTA 5 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure which pages need updating first? We will prioritize them for you.</p>
+            <p>Not sure which pages need updating first? We will prioritize them for you. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <Link href="/blindspot">Get Your Content Audit &rarr;</Link>
           </div>
 
@@ -613,10 +613,10 @@ export default function Page() {
           <span className="ae-section-label not-prose">Authority Building</span>
           <h2>Build Authority: Getting Mentioned by Third Parties</h2>
 
-          <p>This is the hardest part and the most important. ChatGPT does not trust what you say about yourself. It trusts what authoritative third parties say about you.</p>
+          <p>This is the hardest part and the most important. ChatGPT does not trust what you say about yourself. It trusts what authoritative third parties say about you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <div className="ae-quote not-prose">
-            <p>ChatGPT does not trust what you say about yourself. It trusts what authoritative third parties say about you. If Wikipedia accounts for 12.1% of all ChatGPT citations, you need to be where the citations are.</p>
+            <p>ChatGPT does not trust what you say about yourself. It trusts what authoritative third parties say about you. If Wikipedia accounts for 12.1% of all ChatGPT citations, you need to be where the citations are. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           {/* Decision Matrix: Third-Party Platforms */}
@@ -673,7 +673,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Review Ratings and AI Citations</div>
-            <p>ChatGPT strongly favors businesses with ratings above 4.2 stars. Locations cited by ChatGPT averaged 4.3 stars versus 3.9 on other platforms. A systematic review request process after every completed job is not optional. It is infrastructure.</p>
+            <p>ChatGPT strongly favors businesses with ratings above 4.2 stars. Locations cited by ChatGPT averaged 4.3 stars versus 3.9 on other platforms. A systematic review request process after every completed job is not optional. It is infrastructure. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           {/* ── CTA 6 ── */}

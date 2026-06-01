@@ -273,10 +273,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             AI platforms are not connected to your business in real time. ChatGPT was trained on web content with a knowledge cutoff. Perplexity crawls the web but relies on whatever pages rank well, including old blog posts, outdated service pages, and competitor comparison articles that mentioned your old rates. Neither system is pulling pricing from a live source.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             There are three distinct mechanisms that produce wrong AI pricing for your business, and they require different responses.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -303,7 +303,7 @@ export default function Page() {
           </div>
 
           <div className="ae-cta-inline">
-            <p>Want to know what AI platforms are currently saying about your pricing? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out exactly what customers are being told before they contact you.</p>
+            <p>Want to know what AI platforms are currently saying about your pricing? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out exactly what customers are being told before they contact you. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
         </section>
 
@@ -313,7 +313,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Understanding which platform is generating which type of error matters because the correction strategy differs depending on the root cause. ChatGPT and Perplexity are architecturally different, which means they fail in different ways.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <table className="ae-comparison-table">
             <thead>
@@ -354,7 +354,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Cross-Platform Contamination Problem</div>
-            <p>When a pricing error appears on ChatGPT, it exists on at least two other AI platforms 60% of the time. This is because they often pull from the same underlying sources: common web crawls, shared training data providers, and the same ranking pages. Fixing one platform in isolation rarely solves the problem completely.</p>
+            <p>When a pricing error appears on ChatGPT, it exists on at least two other AI platforms 60% of the time. This is because they often pull from the same underlying sources: common web crawls, shared training data providers, and the same ranking pages. Fixing one platform in isolation rarely solves the problem completely. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -364,7 +364,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Wrong pricing from AI is not just an annoyance. It creates a specific, repeatable pattern of customer friction that costs you leads and revenue without you ever knowing it happened. Most businesses discover the problem only after a customer mentions it, and many never discover it at all.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -393,15 +393,15 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">The Hidden Loss Problem</div>
-            <p>The customers who never call because AI quoted them a price that seemed too high for their budget are completely invisible to you. You will never know they exist. This is the silent revenue drain that wrong AI pricing creates, and it is often larger than the visible friction from customers who do call with wrong expectations.</p>
+            <p>The customers who never call because AI quoted them a price that seemed too high for their budget are completely invisible to you. You will never know they exist. This is the silent revenue drain that wrong AI pricing creates, and it is often larger than the visible friction from customers who do call with wrong expectations. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
             This connects directly to the broader problem of <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">why AI gives outdated information about businesses</Link>. Pricing is just the most financially damaging version of this problem because it creates direct purchase friction at the exact moment a customer is ready to decide.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-cta-inline">
-            <p>Not sure what AI is currently telling customers about your prices? <Link href="/blindspot">Run your Blind Spot Report</Link> and get a complete audit of what AI platforms say about your business today.</p>
+            <p>Not sure what AI is currently telling customers about your prices? <Link href="/blindspot">Run your Blind Spot Report</Link> and get a complete audit of what AI platforms say about your business today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
         </section>
 
@@ -411,10 +411,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             AI platforms do not trust your pricing because you want them to. They trust pricing signals that appear consistently across multiple authoritative sources, are clearly structured and labeled, and have not been contradicted by other content you control or do not control.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Understanding which signals carry the most weight helps you prioritize where to focus your correction effort. Not all pricing signals are equal.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-bar-group">
             <div className="ae-bar-item">
@@ -463,7 +463,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-success">
             <div className="ae-callout-title">The Source Hierarchy Principle</div>
-            <p>AI platforms generally weight your own website content and structured data above third-party sources. This means a clearly formatted, schema-marked pricing page on your domain is the strongest single correction you can make. But it only works if conflicting old content is removed or updated simultaneously.</p>
+            <p>AI platforms generally weight your own website content and structured data above third-party sources. This means a clearly formatted, schema-marked pricing page on your domain is the strongest single correction you can make. But it only works if conflicting old content is removed or updated simultaneously. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
@@ -473,10 +473,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Correcting wrong AI pricing is a signal problem, not a communication problem. You cannot email ChatGPT and ask it to update your prices. You have to build a web of consistent, authoritative pricing signals that becomes the dominant source for AI platforms to pull from.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The approach has to be coordinated. Updating one source while leaving conflicting sources intact often creates more confusion, not less. AI platforms that see two different prices for the same service from sources that both appear authoritative will sometimes default to neither one confidently, which produces its own set of problems.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-decision-matrix">
             <div className="ae-decision-row">
@@ -503,10 +503,10 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
             The pattern here connects to the broader challenge of <Link href="/blog/how-to-fix-wrong-ai-answers-about-your-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">fixing wrong AI answers about your business</Link>. Pricing is just one category of factual error, but it is the one that creates the most direct purchase friction and the most immediate revenue impact.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-cta-inline">
-            <p>Dealing with a specific pricing error AI is spreading about your business? <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">Call us at (213) 444-2229</a> or <Link href="/blindspot">get your Blind Spot Report</Link> to start with a complete picture of what AI platforms are saying.</p>
+            <p>Dealing with a specific pricing error AI is spreading about your business? <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">Call us at (213) 444-2229</a> or <Link href="/blindspot">get your Blind Spot Report</Link> to start with a complete picture of what AI platforms are saying. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
         </section>
 
@@ -516,17 +516,17 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The best time to fix an AI pricing error is before it happens. Building your digital presence in a way that creates clear, consistent, structured pricing signals from the start means that when AI platforms index your business, they pull accurate information rather than confused or outdated data.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             This is not about putting a disclaimer on your website. It is about building the kind of authoritative, structured pricing presence that AI systems are designed to trust. The approach involves your website architecture, your schema strategy, your directory management, and your content maintenance process working together as a system.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             We do not publish the specific framework for how that system is built because it is how we deliver value for clients. But understanding the problem clearly is the necessary first step. You cannot fix what you have not measured, and you cannot measure it without first auditing what AI platforms currently say about your pricing.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">The Core Insight</div>
-            <p>Wrong AI pricing is not an AI problem. It is a signal consistency problem. AI platforms will quote accurate prices when the web of sources they pull from consistently says the same thing in structured, authoritative ways. The fix is building that signal web, not hoping AI platforms update themselves.</p>
+            <p>Wrong AI pricing is not an AI problem. It is a signal consistency problem. AI platforms will quote accurate prices when the web of sources they pull from consistently says the same thing in structured, authoritative ways. The fix is building that signal web, not hoping AI platforms update themselves. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -593,7 +593,7 @@ export default function Page() {
 
         <section className="my-12">
           <div className="ae-quote">
-            <p>"Your prices are not wrong on AI because the AI made a mistake. Your prices are wrong on AI because the signals you put on the web are inconsistent. AI is just reporting what it found. The problem is what it found."</p>
+            <p>"Your prices are not wrong on AI because the AI made a mistake. Your prices are wrong on AI because the signals you put on the web are inconsistent. AI is just reporting what it found. The problem is what it found." Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <cite>Justin Borges</cite>
           </div>
         </section>
@@ -605,7 +605,7 @@ export default function Page() {
           </h3>
           <p className="text-gray-400 mb-6">
             Our Blind Spot Report audits what ChatGPT, Perplexity, and Google AI currently say about your business, including pricing, hours, location, services, and any factual errors that are costing you customers before they even contact you.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -641,7 +641,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -679,7 +679,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
-                <p className="text-gray-400 leading-relaxed">{a}</p>
+                <p className="text-gray-400 leading-relaxed">{a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             ))}
           </div>
@@ -692,7 +692,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 mb-8 text-lg">
             Every customer AI sends you with the wrong price expectation is a potential lost sale. Get your Blind Spot Report and see exactly what AI platforms are telling customers about your pricing before they call.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
@@ -704,7 +704,7 @@ export default function Page() {
           </Link>
           <p className="text-gray-500 text-sm mt-4">
             Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

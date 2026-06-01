@@ -128,13 +128,13 @@ export default function Page() {
             </div>
           </div>
 
-          <p>You are doing everything right. Your SEO is dialed in, your pages rank on the first page, and your content is solid. But your website traffic keeps dropping. Leads are down. The phone rings less often. And you cannot figure out why.</p>
+          <p>You are doing everything right. Your SEO is dialed in, your pages rank on the first page, and your content is solid. But your website traffic keeps dropping. Leads are down. The phone rings less often. And you cannot figure out why. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>The answer is staring at you from the top of every Google search: AI Overviews. Google now generates AI-powered summaries for roughly a quarter of all searches. And when those summaries appear, over 80% of users never click on anything below them. They get their answer and move on.</p>
+          <p>The answer is staring at you from the top of every Google search: AI Overviews. Google now generates AI-powered summaries for roughly a quarter of all searches. And when those summaries appear, over 80% of users never click on anything below them. They get their answer and move on. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
-            <p>Your ranking did not change. Your visibility did. Eight out of ten people searching for your services now get answers without ever seeing your website.</p>
+            <p>Your ranking did not change. Your visibility did. Eight out of ten people searching for your services now get answers without ever seeing your website. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* ── TIMELINE ── */}
@@ -166,12 +166,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>The shift from clicks to zero-click happened gradually, then all at once. Businesses that only optimized for Phase 1 and 2 are now invisible in Phases 3 and 4.</p>
+            <p>The shift from clicks to zero-click happened gradually, then all at once. Businesses that only optimized for Phase 1 and 2 are now invisible in Phases 3 and 4. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering where your business stands in this new landscape? Find out exactly how AI search platforms see you.</p>
+            <p>Wondering where your business stands in this new landscape? Find out exactly how AI search platforms see you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
           </div>
 
@@ -179,7 +179,7 @@ export default function Page() {
           <span className="ae-section-label">Traffic Analysis</span>
           <h2>The Numbers Behind the Traffic Collapse</h2>
 
-          <p>Under half of all Google searchers click on an organic result now. That number has been declining steadily, but AI Overviews accelerated the drop dramatically. For queries where an AI summary appears, the zero-click rate is above 80%.</p>
+          <p>Under half of all Google searchers click on an organic result now. That number has been declining steadily, but AI Overviews accelerated the drop dramatically. For queries where an AI summary appears, the zero-click rate is above 80%. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           {/* ── BAR GROUP ── */}
           <div className="ae-bar-group not-prose">
@@ -215,18 +215,18 @@ export default function Page() {
             </div>
           </div>
 
-          <p>Think about what that means for your business. Eight out of ten people searching for something related to your services get their answer without ever seeing your website. They might see your information (because AI pulled it from your site), but they never land on your page. No contact form. No phone number. No conversion.</p>
+          <p>Think about what that means for your business. Eight out of ten people searching for something related to your services get their answer without ever seeing your website. They might see your information (because AI pulled it from your site), but they never land on your page. No contact form. No phone number. No conversion. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>Transactional queries still drive clicks, but they represent a shrinking share of total search volume. The majority of searches where businesses need visibility are now dominated by AI-generated answers.</p>
+            <p>Transactional queries still drive clicks, but they represent a shrinking share of total search volume. The majority of searches where businesses need visibility are now dominated by AI-generated answers. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
-          <p>Industry analysts have projected that overall search engine volume could drop by 25% as users shift toward AI chatbots for direct answers. <Link href="/blog/google-ai-overviews-replacing-search">Google AI Overviews are fundamentally reshaping how search works</Link>, and businesses that only optimize for traditional rankings are feeling the impact first.</p>
+          <p>Industry analysts have projected that overall search engine volume could drop by 25% as users shift toward AI chatbots for direct answers. <Link href="/blog/google-ai-overviews-replacing-search">Google AI Overviews are fundamentally reshaping how search works</Link>, and businesses that only optimize for traditional rankings are feeling the impact first. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Your traffic numbers tell half the story. See the full picture of your AI visibility.</p>
+            <p>Your traffic numbers tell half the story. See the full picture of your AI visibility. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Run a Free AI Visibility Check →</Link>
           </div>
 
@@ -234,14 +234,14 @@ export default function Page() {
           <span className="ae-section-label">Visibility Gap</span>
           <h2>Why Your Rankings No Longer Equal Visibility</h2>
 
-          <p>For twenty years, the formula was simple: rank higher, get more clicks, generate more leads. That correlation is breaking down. You can rank #1 for a high-volume keyword and still lose traffic because Google answers the query before users reach your listing.</p>
+          <p>For twenty years, the formula was simple: rank higher, get more clicks, generate more leads. That correlation is breaking down. You can rank #1 for a high-volume keyword and still lose traffic because Google answers the query before users reach your listing. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Reality Check</div>
-            <p>This is not a temporary trend. It is a structural shift in how information gets delivered. AI platforms are not supplementing search results. They are replacing the need to click in the first place.</p>
+            <p>This is not a temporary trend. It is a structural shift in how information gets delivered. AI platforms are not supplementing search results. They are replacing the need to click in the first place. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
-          <p>The businesses feeling this hardest are the ones that built their entire marketing strategy on organic traffic. <Link href="/blog/seo-not-generating-leads">If SEO is no longer generating leads</Link>, it is not because your SEO broke. It is because the search landscape changed underneath you.</p>
+          <p>The businesses feeling this hardest are the ones that built their entire marketing strategy on organic traffic. <Link href="/blog/seo-not-generating-leads">If SEO is no longer generating leads</Link>, it is not because your SEO broke. It is because the search landscape changed underneath you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           {/* ── DECISION MATRIX ── */}
           <div className="ae-decision-matrix not-prose">
@@ -279,12 +279,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Rankings are now a lagging indicator. The leading indicator is whether AI platforms trust your business enough to cite it when users ask questions in your industry.</p>
+            <p>Rankings are now a lagging indicator. The leading indicator is whether AI platforms trust your business enough to cite it when users ask questions in your industry. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Stop guessing why traffic is dropping. Get the data that shows exactly what AI sees when it looks at your business.</p>
+            <p>Stop guessing why traffic is dropping. Get the data that shows exactly what AI sees when it looks at your business. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Diagnose Your Traffic Drop →</Link>
           </div>
 
@@ -292,14 +292,14 @@ export default function Page() {
           <span className="ae-section-label">The Opportunity</span>
           <h2>The Hidden Opportunity in Zero-Click Search</h2>
 
-          <p>Here is what most businesses miss: zero-click search is not all bad news. In fact, the traffic that does come through AI channels converts at roughly five times the rate of traditional organic traffic.</p>
+          <p>Here is what most businesses miss: zero-click search is not all bad news. In fact, the traffic that does come through AI channels converts at roughly five times the rate of traditional organic traffic. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">Opportunity</div>
-            <p>Users who click through after reading an AI summary are further along in their decision-making process. The AI already pre-qualified them. They already know what they need. They are clicking because they are ready to take action, not because they are still browsing.</p>
+            <p>Users who click through after reading an AI summary are further along in their decision-making process. The AI already pre-qualified them. They already know what they need. They are clicking because they are ready to take action, not because they are still browsing. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
-          <p>The challenge is not getting more traffic. It is getting the right kind of visibility in AI results so that when people do click, they click on you. And that requires a fundamentally different approach than traditional SEO.</p>
+          <p>The challenge is not getting more traffic. It is getting the right kind of visibility in AI results so that when people do click, they click on you. And that requires a fundamentally different approach than traditional SEO. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* ── COMPARISON TABLE ── */}
           <span className="ae-section-label">Strategy Comparison</span>
@@ -359,7 +359,7 @@ export default function Page() {
 
           {/* ── CTA 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Traditional SEO cannot tell you how AI sees your business. Our report can.</p>
+            <p>Traditional SEO cannot tell you how AI sees your business. Our report can. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">See Your AI Visibility Score →</Link>
           </div>
 
@@ -367,14 +367,14 @@ export default function Page() {
           <span className="ae-section-label">AI Optimization</span>
           <h2>What AI Visibility Actually Requires</h2>
 
-          <p>Traditional SEO optimizes for search engine crawlers. AI visibility requires optimizing for language models that evaluate content very differently. AI platforms do not just look at your page title and backlinks. They evaluate whether your content genuinely answers the question, whether multiple sources corroborate your expertise, and whether your business has a consistent presence across the web.</p>
+          <p>Traditional SEO optimizes for search engine crawlers. AI visibility requires optimizing for language models that evaluate content very differently. AI platforms do not just look at your page title and backlinks. They evaluate whether your content genuinely answers the question, whether multiple sources corroborate your expertise, and whether your business has a consistent presence across the web. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>This is a shift from technical optimization to authority building. You cannot trick AI into recommending you the way you could game search algorithms. AI evaluates the substance of your content, not just its structure.</p>
+            <p>This is a shift from technical optimization to authority building. You cannot trick AI into recommending you the way you could game search algorithms. AI evaluates the substance of your content, not just its structure. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           </div>
 
-          <p>The businesses winning in AI search are the ones that invested in building genuine expertise signals: original research, client case studies, detailed service explanations, and consistent content across multiple platforms. <Link href="/blog/website-stopped-getting-calls">If your website stopped getting calls</Link>, the path back is not more SEO. It is building the kind of authority that AI platforms trust enough to cite.</p>
+          <p>The businesses winning in AI search are the ones that invested in building genuine expertise signals: original research, client case studies, detailed service explanations, and consistent content across multiple platforms. <Link href="/blog/website-stopped-getting-calls">If your website stopped getting calls</Link>, the path back is not more SEO. It is building the kind of authority that AI platforms trust enough to cite. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           {/* ── PROS/CONS ── */}
           <div className="ae-pros-cons not-prose">
@@ -406,12 +406,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>AI does not rank pages. It recommends businesses it trusts. Trust is built through consistent, verifiable expertise across multiple signals, not through technical SEO tricks.</p>
+            <p>AI does not rank pages. It recommends businesses it trusts. Trust is built through consistent, verifiable expertise across multiple signals, not through technical SEO tricks. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
           {/* ── CTA 5 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Does AI trust your business enough to recommend it? There is only one way to find out.</p>
+            <p>Does AI trust your business enough to recommend it? There is only one way to find out. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Check Your AI Trust Score →</Link>
           </div>
 
@@ -419,20 +419,20 @@ export default function Page() {
           <span className="ae-section-label">Strategy</span>
           <h2>The Two-Track Strategy You Need Now</h2>
 
-          <p>Abandoning SEO would be a mistake. Google still drives the majority of web traffic, and traditional search is not going away. But relying on SEO alone is equally dangerous. You need a two-track approach.</p>
+          <p>Abandoning SEO would be a mistake. Google still drives the majority of web traffic, and traditional search is not going away. But relying on SEO alone is equally dangerous. You need a two-track approach. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
-          <p><strong>Track One</strong> is your traditional search presence: rankings, featured snippets, local pack visibility. Keep optimizing these, but understand their ceiling is lower than it used to be.</p>
+          <p><strong>Track One</strong> is your traditional search presence: rankings, featured snippets, local pack visibility. Keep optimizing these, but understand their ceiling is lower than it used to be. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
-          <p><strong>Track Two</strong> is your AI visibility: being the business that ChatGPT, Perplexity, Claude, and Google AI cite when someone asks about your industry. This requires a different kind of content strategy, different authority signals, and different measurement tools.</p>
+          <p><strong>Track Two</strong> is your AI visibility: being the business that ChatGPT, Perplexity, Claude, and Google AI cite when someone asks about your industry. This requires a different kind of content strategy, different authority signals, and different measurement tools. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
-            <p>Most businesses are running on Track One only. That is why their traffic is declining while their competitors who figured out Track Two are growing.</p>
+            <p>Most businesses are running on Track One only. That is why their traffic is declining while their competitors who figured out Track Two are growing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </div>
 
           {/* ── CTA 6 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Running on one track while the market demands two? See what you are missing.</p>
+            <p>Running on one track while the market demands two? See what you are missing. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot">Get Your Two-Track Assessment →</Link>
           </div>
 
@@ -440,7 +440,7 @@ export default function Page() {
           <span className="ae-section-label">Measurement</span>
           <h2>Measurement Has to Change Too</h2>
 
-          <p>You cannot manage what you cannot measure. And if your analytics dashboard only shows website clicks, you are flying blind in a zero-click world.</p>
+          <p>You cannot manage what you cannot measure. And if your analytics dashboard only shows website clicks, you are flying blind in a zero-click world. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <p>The new metrics that matter: How often does AI mention your brand? Which AI platforms cite you, and for which queries? How does your AI citation rate compare to your competitors? What is the conversion rate of AI-referred traffic versus organic traffic?</p>
 

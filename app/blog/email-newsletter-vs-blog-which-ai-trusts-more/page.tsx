@@ -197,7 +197,7 @@ export default function Page() {
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Published {publishDate} by Justin Borges
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           </div>
         </div>
       </header>
@@ -231,18 +231,18 @@ export default function Page() {
         {/* Intro */}
         <p className="text-gray-300 text-lg leading-relaxed mb-6">
           You have been sending a weekly newsletter for three years. Open rates are solid, replies come in, and customers tell you they love it. But when someone asks ChatGPT to recommend a business like yours in your area, you are not in the response.
-        </p>
+         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
         <p className="text-gray-300 text-lg leading-relaxed mb-6">
           This is one of the most common and most painful content strategy mismatches we see. Businesses invest enormous effort in email and treat it as their primary content channel, then wonder why AI does not know they exist. The answer is structural: email lives behind closed doors that AI crawlers cannot open.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
         <div className="ae-cta-inline mb-10">
-          <p>Wondering where your AI visibility actually stands? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and find out in 2 minutes.</p>
+          <p>Wondering where your AI visibility actually stands? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and find out in 2 minutes. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         {/* TOC */}
         <div className="ae-toc mb-12">
-          <p className="ae-toc-title">In This Article</p>
+          <p className="ae-toc-title">In This Article Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <ol>
             <li><a href="#fundamental-difference">The Fundamental Difference</a></li>
             <li><a href="#what-ai-can-read">What AI Can and Cannot Read</a></li>
@@ -263,19 +263,19 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             Email newsletters and blogs both distribute content. But they distribute it to fundamentally different audiences: one to humans who opted in, the other to the public internet where AI systems live.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             An email newsletter is a private communication channel. Your content goes from your email service provider to your subscribers' inboxes. It never touches the public web unless a subscriber forwards it or you create a public web version. AI crawlers, which are web crawlers, have no access to private inboxes.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">Your Newsletter Is a Black Box to AI</p>
-            <p>GPTBot, PerplexityBot, ClaudeBot, and all other AI crawlers operate on the public web. They follow links, request HTML pages, and extract content. There is no mechanism by which they access email inboxes, ESP platforms, or private subscriber databases. Your three years of excellent newsletter content is completely invisible to every AI search system.</p>
+            <p className="ae-callout-title">Your Newsletter Is a Black Box to AI Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            <p>GPTBot, PerplexityBot, ClaudeBot, and all other AI crawlers operate on the public web. They follow links, request HTML pages, and extract content. There is no mechanism by which they access email inboxes, ESP platforms, or private subscriber databases. Your three years of excellent newsletter content is completely invisible to every AI search system. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-5">
             This is not a temporary limitation that will be fixed. It is a structural feature of how email works. The privacy of email is a feature for subscriber relationships, and it is a fundamental barrier for AI visibility. No amount of optimization to your newsletter will change this.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* What AI Can Read */}
@@ -285,7 +285,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             Understanding the exact content types that AI crawlers can access helps clarify where your content investment will actually generate AI visibility.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-comparison-table mb-8">
             <table>
@@ -352,10 +352,10 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-5">
             The pattern is consistent: content on your own domain, publicly accessible, wins. Content on third-party platforms is better than email but builds authority for those platforms more than for your business. Private email delivers zero AI visibility regardless of quality.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-bar-group mb-8">
-            <p className="text-white font-semibold mb-4">Content Type: AI Citation Probability (relative score)</p>
+            <p className="text-white font-semibold mb-4">Content Type: AI Citation Probability (relative score) <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <div className="ae-bar-item">
               <span className="ae-bar-label">Blog post on own domain (3,000+ words)</span>
               <div className="ae-bar-track">
@@ -402,7 +402,7 @@ export default function Page() {
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Not sure which of your content channels are actually visible to AI? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">Call (213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">get your free Blind Spot Report</Link>.</p>
+          <p>Not sure which of your content channels are actually visible to AI? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">Call (213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">get your free Blind Spot Report</Link>. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
         </div>
 
         {/* Side by Side */}
@@ -412,7 +412,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             Newsletters and blogs serve different strategic purposes. Neither is universally better. But for AI visibility specifically, the comparison is not close.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -442,8 +442,8 @@ export default function Page() {
           </div>
 
           <div className="ae-callout ae-callout-info mb-6">
-            <p className="ae-callout-title">Where Newsletters Win</p>
-            <p>This comparison is strictly about AI visibility. For direct customer relationships, email newsletters win clearly. They create personal, opted-in communication that blogs cannot replicate. Open rates of 25-40% far exceed organic reach on any social platform. For retention, upselling, and personal brand building with existing customers, newsletters are irreplaceable. The problem is treating them as equivalent to blogs for discoverability.</p>
+            <p className="ae-callout-title">Where Newsletters Win <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            <p>This comparison is strictly about AI visibility. For direct customer relationships, email newsletters win clearly. They create personal, opted-in communication that blogs cannot replicate. Open rates of 25-40% far exceed organic reach on any social platform. For retention, upselling, and personal brand building with existing customers, newsletters are irreplaceable. The problem is treating them as equivalent to blogs for discoverability. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
         </section>
 
@@ -454,19 +454,19 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             Substack, Beehiiv, Ghost, and similar platforms create one critical exception: they generate public web pages for each newsletter issue. When you publish on Substack, the issue is available at a public URL that crawlers can access.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             This creates partial AI visibility. PerplexityBot and GPTBot do crawl Substack and Beehiiv. If your Substack newsletter is authoritative and covers a topic AI finds relevant, citations are possible.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">The Subdomain Authority Problem</p>
-            <p>When Substack publishes your newsletter at yourname.substack.com, citations go to Substack's domain, not yours. Any authority signal AI assigns flows to substack.com, a platform with millions of authors. Your individual authority as a business entity in your specific category is diluted. A blog post at yourbusiness.com/blog/topic is categorically better for building your business's AI reputation than the same content at yourname.substack.com.</p>
+            <p className="ae-callout-title">The Subdomain Authority Problem Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            <p>When Substack publishes your newsletter at yourname.substack.com, citations go to Substack's domain, not yours. Any authority signal AI assigns flows to substack.com, a platform with millions of authors. Your individual authority as a business entity in your specific category is diluted. A blog post at yourbusiness.com/blog/topic is categorically better for building your business's AI reputation than the same content at yourname.substack.com. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-5">
             Beehiiv does allow custom domains, which partially solves this problem. If you use Beehiiv with your own domain (e.g., newsletter.yourbusiness.com), authority flows to your domain rather than beehiiv.com. This is significantly better than a Substack subdomain but still slightly weaker than content at yourbusiness.com/blog/ due to subdomain vs root domain authority differences.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         </section>
 
         {/* Blog Citation Data */}
@@ -476,14 +476,14 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             Research into AI citation patterns consistently shows that blog content on owned domains dominates the citation landscape. A study of AI search responses found that 83.3% of citations came from web pages beyond the top 10 Google results, meaning AI actively seeks out authoritative content that may not rank highly in traditional search.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             This is actually an opportunity: you do not need to rank on page one of Google to get cited by AI. You need to publish authoritative, topic-relevant, crawlable content on your domain. Blogs are the primary vehicle for this.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-orange mb-6">
-            <p className="ae-callout-title">The 83.3% Insight</p>
-            <p>If most AI citations come from pages that are NOT in the Google top 10, it means AI search has a different selection mechanism than traditional SEO. It is seeking depth and relevance, not just authority rank. A well-written blog post on a local business website can get cited by Perplexity even if it would never rank on page one of Google. This democratizes AI visibility in a way traditional SEO does not.</p>
+            <p className="ae-callout-title">The 83.3% Insight Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+            <p>If most AI citations come from pages that are NOT in the Google top 10, it means AI search has a different selection mechanism than traditional SEO. It is seeking depth and relevance, not just authority rank. A well-written blog post on a local business website can get cited by Perplexity even if it would never rank on page one of Google. This democratizes AI visibility in a way traditional SEO does not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
 
           <div className="ae-comparison-table mb-8">
@@ -527,15 +527,15 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-5">
             The compounding advantage of blogs is particularly important. A newsletter issue is sent and forgotten. A blog post published today is still generating citations in five years. The blog post from two years ago that first explained your methodology may be the reason AI recommends you today. Email content has zero residual value for AI visibility.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <p className="text-gray-300 leading-relaxed">
             For more on how blog content structure affects AI citations, our article on <Link href="/blog/how-to-write-blog-content-that-gets-cited-by-ai" className="text-[#F27D24] hover:underline">how to write blog content that gets cited by AI</Link> breaks down the exact format signals that matter.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Not generating enough AI citations from your blog? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Your Blind Spot Report shows the exact content gaps</Link> holding you back.</p>
+          <p>Not generating enough AI citations from your blog? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Your Blind Spot Report shows the exact content gaps</Link> holding you back. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
         </div>
 
         {/* Do You Need Both */}
@@ -545,7 +545,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             For most businesses: yes, but for different goals. The mistake is not choosing email or blog. The mistake is using one as a substitute for the other or expecting email to do what only a blog can do.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <div className="ae-decision-matrix mb-8">
             <p className="text-white font-semibold mb-4">Use Each Channel for Its Strength</p>

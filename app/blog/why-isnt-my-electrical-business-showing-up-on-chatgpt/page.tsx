@@ -241,21 +241,21 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
             <span className="ae-section-label" id="the-problem">The Reality</span>
             <h2>Why Electricians Are Invisible to AI</h2>
 
-            <p>Someone searching ChatGPT for "I have no power in my kitchen. Who should I call?" gets a response. That response either includes your business name or it does not. If it does not, that homeowner is calling someone else.</p>
+            <p>Someone searching ChatGPT for "I have no power in my kitchen. Who should I call?" gets a response. That response either includes your business name or it does not. If it does not, that homeowner is calling someone else. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>Most electricians are invisible in AI search results because of a simple fact: AI platforms cannot find reliable information about them. Not because the electrician is not good. Not because the business does not exist. But because the information about the business does not exist in places AI can read and verify.</p>
+            <p>Most electricians are invisible in AI search results because of a simple fact: AI platforms cannot find reliable information about them. Not because the electrician is not good. Not because the business does not exist. But because the information about the business does not exist in places AI can read and verify. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>42% of homeowners now use ChatGPT, Google AI Overviews, or Perplexity to find service providers. If your business is not there, you are losing customers to competitors who are.</p>
+              <p>42% of homeowners now use ChatGPT, Google AI Overviews, or Perplexity to find service providers. If your business is not there, you are losing customers to competitors who are. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
-            <p>Traditional SEO taught you to get on Google Search. That still matters. But the search engine is evolving. AI is the next layer, and most electricians have not optimized for it yet. That creates a window of opportunity right now.</p>
+            <p>Traditional SEO taught you to get on Google Search. That still matters. But the search engine is evolving. AI is the next layer, and most electricians have not optimized for it yet. That creates a window of opportunity right now. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>Here is what is actually happening: when AI platforms look for an electrician to recommend, they pull information from five main sources. Your website. Your Google Business Profile. Local directories like Angi and HomeAdvisor. Review platforms. And local business listings. If you are weak or missing in any of these areas, you become invisible.</p>
+            <p>Here is what is actually happening: when AI platforms look for an electrician to recommend, they pull information from five main sources. Your website. Your Google Business Profile. Local directories like Angi and HomeAdvisor. Review platforms. And local business listings. If you are weak or missing in any of these areas, you become invisible. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what ChatGPT says about your electrical business right now?</p>
+              <p>Want to know exactly what ChatGPT says about your electrical business right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Get Your Free AI Visibility Audit &rarr;</Link>
             </div>
 
@@ -263,19 +263,19 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
             <span className="ae-section-label" id="how-ai-finds">The Process</span>
             <h2>How AI Platforms Search for and Rank Electricians</h2>
 
-            <p>Understanding how AI finds electricians is the first step to being found. The process is different from Google Search, and most electricians do not understand the difference.</p>
+            <p>Understanding how AI finds electricians is the first step to being found. The process is different from Google Search, and most electricians do not understand the difference. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>What Information AI Actually Uses</h3>
 
-            <p>When someone asks ChatGPT for an electrician recommendation, the AI does not run a live search of your city. It works from training data it was built on. That training data includes: business websites, Google Business Profiles, directory listings, review aggregators, and local business databases. The AI then decides which businesses to mention based on what it knows about them.</p>
+            <p>When someone asks ChatGPT for an electrician recommendation, the AI does not run a live search of your city. It works from training data it was built on. That training data includes: business websites, Google Business Profiles, directory listings, review aggregators, and local business databases. The AI then decides which businesses to mention based on what it knows about them. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Critical distinction:</strong> AI does not see your social media profiles, your videos, or your paid ads. It primarily sees structured business information and content it can parse and verify. This is why directory listings and your Google Business Profile matter so much more than you might think.</p>
+              <p><strong>Critical distinction:</strong> AI does not see your social media profiles, your videos, or your paid ads. It primarily sees structured business information and content it can parse and verify. This is why directory listings and your Google Business Profile matter so much more than you might think. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3>The Trust Factor in AI Recommendations</h3>
 
-            <p>AI platforms are built to be cautious about who they recommend. They look for proof of: legitimacy (are you a real licensed business?), reliability (do you have reviews from real customers?), availability (are you actually available in this customer's area?), and expertise (do you specialize in what the customer needs?).</p>
+            <p>AI platforms are built to be cautious about who they recommend. They look for proof of: legitimacy (are you a real licensed business?), reliability (do you have reviews from real customers?), availability (are you actually available in this customer's area?), and expertise (do you specialize in what the customer needs?). Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-bar-group not-prose">
               <h3>What AI Platforms Check When Evaluating Electricians</h3>
@@ -303,12 +303,12 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>AI looks for the same things customers look for when hiring an electrician: proof that you exist, that you are legitimate, that you are good at what you do, and that you can help them right now.</p>
+              <p>AI looks for the same things customers look for when hiring an electrician: proof that you exist, that you are legitimate, that you are good at what you do, and that you can help them right now. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Let's run an audit on your current visibility across all platforms AI uses.</p>
+              <p>Let's run an audit on your current visibility across all platforms AI uses. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Start Your Free Audit Now &rarr;</Link>
             </div>
 
@@ -316,49 +316,49 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
             <span className="ae-section-label" id="four-tactics">Actionable Tactics</span>
             <h2>4 Proven Tactics to Get Found on ChatGPT and Google AI</h2>
 
-            <p>These are not theoretical. These are the exact tactics electrical contractors are using right now to go from invisible to visible in AI search.</p>
+            <p>These are not theoretical. These are the exact tactics electrical contractors are using right now to go from invisible to visible in AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>Tactic 1: Build a Complete Google Business Profile</h3>
 
-            <p>This is the single highest-impact action you can take. A Google Business Profile tells AI platforms that you are a real, verifiable local business. Here is what matters.</p>
+            <p>This is the single highest-impact action you can take. A Google Business Profile tells AI platforms that you are a real, verifiable local business. Here is what matters. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-            <p>Fill out every field. Include all your services. Upload photos of your work (before and after photos work especially well). Add your service area by zip code or radius. Post updates regularly. This is not optional if you want to show up in AI search. Seventy-one percent of electricians have incomplete profiles. That is your competitive advantage if you fill yours out completely.</p>
+            <p>Fill out every field. Include all your services. Upload photos of your work (before and after photos work especially well). Add your service area by zip code or radius. Post updates regularly. This is not optional if you want to show up in AI search. Seventy-one percent of electricians have incomplete profiles. That is your competitive advantage if you fill yours out completely. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>Immediate action:</strong> Spend 30 minutes today reviewing your Google Business Profile. Fill in every missing field. Add 5 photos of actual work. Describe your services in plain language.</p>
+              <p><strong>Immediate action:</strong> Spend 30 minutes today reviewing your Google Business Profile. Fill in every missing field. Add 5 photos of actual work. Describe your services in plain language. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <h3>Tactic 2: Establish Presence on the Right Directories</h3>
 
-            <p>Not all directories matter equally to AI platforms. You need to be on the ones that AI actually reads.</p>
+            <p>Not all directories matter equally to AI platforms. You need to be on the ones that AI actually reads. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-            <p>Angi, HomeAdvisor, Thumbtack, and TaskRabbit are the big ones. Why? Because they have structured data that AI can parse. They have reviews tied to real jobs. They update regularly. When you appear on these platforms, AI sees confirmation of your legitimacy. You are not just a website claiming to be an electrician. You are a verified contractor on trusted platforms.</p>
+            <p>Angi, HomeAdvisor, Thumbtack, and TaskRabbit are the big ones. Why? Because they have structured data that AI can parse. They have reviews tied to real jobs. They update regularly. When you appear on these platforms, AI sees confirmation of your legitimacy. You are not just a website claiming to be an electrician. You are a verified contractor on trusted platforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-            <p>Make sure your information is identical across all platforms: same business name, phone number, service area, license numbers. Inconsistencies confuse AI platforms and reduce the chance they recommend you.</p>
+            <p>Make sure your information is identical across all platforms: same business name, phone number, service area, license numbers. Inconsistencies confuse AI platforms and reduce the chance they recommend you. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Tactic 3: Get Real Reviews from Real Customers</h3>
 
-            <p>Customer reviews are a major trust signal for AI. But not all reviews are created equal. A review that says "Great work" is helpful. A review that says "Replaced our entire electrical panel, tested all circuits, identified three code violations, fixed them same day, very professional" is far more valuable to AI.</p>
+            <p>Customer reviews are a major trust signal for AI. But not all reviews are created equal. A review that says "Great work" is helpful. A review that says "Replaced our entire electrical panel, tested all circuits, identified three code violations, fixed them same day, very professional" is far more valuable to AI. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Ask customers to be specific. What was the problem? What did you fix? How did the experience go? Detailed reviews help AI understand the scope and quality of your work.</p>
+            <p>Ask customers to be specific. What was the problem? What did you fix? How did the experience go? Detailed reviews help AI understand the scope and quality of your work. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Important:</strong> Never write fake reviews. AI platforms are designed to detect and ignore them. Real, specific reviews matter. Fake ones hurt you.</p>
+              <p><strong>Important:</strong> Never write fake reviews. AI platforms are designed to detect and ignore them. Real, specific reviews matter. Fake ones hurt you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             <h3>Tactic 4: Create a Simple Website That AI Can Read</h3>
 
-            <p>Your website does not need to be fancy. It needs to clearly answer these questions: What services do you offer? What areas do you serve? How do people contact you? Are you licensed and insured?</p>
+            <p>Your website does not need to be fancy. It needs to clearly answer these questions: What services do you offer? What areas do you serve? How do people contact you? Are you licensed and insured? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-            <p>Include a services page listing everything you do: electrical repairs, panel upgrades, new wiring, emergency service, etc. Include a service area page showing the cities and zip codes you cover. Include your credentials: license number, insurance, certifications. Make it plain text and easy to scan. AI platforms need to be able to read and understand your information without JavaScript or animations.</p>
+            <p>Include a services page listing everything you do: electrical repairs, panel upgrades, new wiring, emergency service, etc. Include a service area page showing the cities and zip codes you cover. Include your credentials: license number, insurance, certifications. Make it plain text and easy to scan. AI platforms need to be able to read and understand your information without JavaScript or animations. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>You do not need a blog. You do not need a fancy homepage. You need clear information that answers customer questions and makes it easy for AI to understand what you do and where you do it.</p>
+            <p>You do not need a blog. You do not need a fancy homepage. You need clear information that answers customer questions and makes it easy for AI to understand what you do and where you do it. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* SECTION 4: LOCAL DIRECTORIES */}
             <span className="ae-section-label" id="local-directories">Directory Ecosystem</span>
             <h2>The Local Directories AI Platforms Actually Use</h2>
 
-            <p>Not all directories help. Here are the ones that actually improve AI visibility for electricians.</p>
+            <p>Not all directories help. Here are the ones that actually improve AI visibility for electricians. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* PROS/CONS */}
             <div className="ae-pros-cons not-prose">
@@ -387,11 +387,11 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
               </div>
             </div>
 
-            <p>Focus your energy on the high-impact list. Consistency across those platforms will do far more for your AI visibility than being scattered across dozens of low-value sites.</p>
+            <p>Focus your energy on the high-impact list. Consistency across those platforms will do far more for your AI visibility than being scattered across dozens of low-value sites. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which directories are helping your AI visibility? We audit all of them.</p>
+              <p>Not sure which directories are helping your AI visibility? We audit all of them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <Link href="/blindspot">Get Your Free Directory Audit &rarr;</Link>
             </div>
 
@@ -401,11 +401,11 @@ export default function WhyElectricalBusinessNotOnChatGPT() {
 
             <h3>Mistake 1: Ignoring Your Google Business Profile</h3>
 
-            <p>Seventy-one percent of electricians have incomplete or outdated Google Business Profiles. This is the biggest single mistake. Your GBP is the foundation. AI looks there first. If your profile is incomplete, AI assumes your business information is not up to date.</p>
+            <p>Seventy-one percent of electricians have incomplete or outdated Google Business Profiles. This is the biggest single mistake. Your GBP is the foundation. AI looks there first. If your profile is incomplete, AI assumes your business information is not up to date. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Mistake 2: Being Listed Everywhere Inconsistently</h3>
 
-            <p>Your business name on your website is "Smith Electrical Services." On Angi it is "Smith Electrical." On HomeAdvisor it is "Smith Electric." Your phone number is different on each site. AI sees this as three different businesses, not the same company. Consistency matters more than quantity.</p>
+            <p>Your business name on your website is "Smith Electrical Services." On Angi it is "Smith Electrical." On HomeAdvisor it is "Smith Electric." Your phone number is different on each site. AI sees this as three different businesses, not the same company. Consistency matters more than quantity. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>Mistake 3: Only Being on Google, Nowhere Else</h3>
 

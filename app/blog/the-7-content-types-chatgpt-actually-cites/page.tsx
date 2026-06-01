@@ -273,24 +273,24 @@ export default function Page() {
             <span className="ae-section-label" id="how-ai-selects">The Foundation</span>
             <h2>How AI Platforms Decide What to Cite</h2>
 
-            <p>Before mapping the seven content types, it helps to understand the selection mechanism. ChatGPT with search, Perplexity, and Google AI Overviews each operate on a retrieval-augmented generation model. The system retrieves candidate pages, evaluates them against the user&apos;s query, and selects the passages most likely to produce an accurate, satisfying answer.</p>
+            <p>Before mapping the seven content types, it helps to understand the selection mechanism. ChatGPT with search, Perplexity, and Google AI Overviews each operate on a retrieval-augmented generation model. The system retrieves candidate pages, evaluates them against the user&apos;s query, and selects the passages most likely to produce an accurate, satisfying answer. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>Three factors determine whether your content makes that cut.</p>
+            <p>Three factors determine whether your content makes that cut. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p><strong>Semantic match.</strong> Does your content directly address the question being asked? AI systems are not keyword matchers. They evaluate whether the underlying meaning of your content aligns with the underlying intent of the query. A page about &quot;best accounting software for freelancers&quot; will be retrieved for queries about &quot;what software do independent contractors use for taxes&quot; even if those exact words never appear on your page.</p>
+            <p><strong>Semantic match.</strong> Does your content directly address the question being asked? AI systems are not keyword matchers. They evaluate whether the underlying meaning of your content aligns with the underlying intent of the query. A page about &quot;best accounting software for freelancers&quot; will be retrieved for queries about &quot;what software do independent contractors use for taxes&quot; even if those exact words never appear on your page. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-            <p><strong>Structural clarity.</strong> Can the AI extract a coherent answer from your content without extensive processing? Pages with clear heading hierarchies, short answer paragraphs, and labeled sections are parsed efficiently. Dense, unstructured prose forces the model to guess where the answer is, and uncertain extractions are skipped in favor of cleaner sources.</p>
+            <p><strong>Structural clarity.</strong> Can the AI extract a coherent answer from your content without extensive processing? Pages with clear heading hierarchies, short answer paragraphs, and labeled sections are parsed efficiently. Dense, unstructured prose forces the model to guess where the answer is, and uncertain extractions are skipped in favor of cleaner sources. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p><strong>Trust signals.</strong> Does the content carry signals of genuine expertise? Authorship attribution, publication dates, citations to primary sources, and organizational identity all factor into whether AI platforms treat your content as authoritative or promotional. Thinly veiled sales pages, even well-structured ones, are filtered in favor of editorially credible sources.</p>
+            <p><strong>Trust signals.</strong> Does the content carry signals of genuine expertise? Authorship attribution, publication dates, citations to primary sources, and organizational identity all factor into whether AI platforms treat your content as authoritative or promotional. Thinly veiled sales pages, even well-structured ones, are filtered in favor of editorially credible sources. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-            <p>These three factors interact differently depending on which content type you are building. That is the insight the following taxonomy makes actionable.</p>
+            <p>These three factors interact differently depending on which content type you are building. That is the insight the following taxonomy makes actionable. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>AI platforms do not read your content the way a human does. They extract structured passages and evaluate whether those passages directly answer a question. If your content is not built around that extraction model, it will not be cited regardless of how well-written it is.</p>
+              <p>AI platforms do not read your content the way a human does. They extract structured passages and evaluate whether those passages directly answer a question. If your content is not built around that extraction model, it will not be cited regardless of how well-written it is. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which content types your site is missing?</p>
+              <p>Not sure which content types your site is missing? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
             </div>
 
@@ -298,13 +298,13 @@ export default function Page() {
             <span className="ae-section-label" id="type-1-guides">Content Type 1 of 7</span>
             <h2>Type 1: Comprehensive Guides</h2>
 
-            <p>Comprehensive guides are the highest-authority content type for AI citations on complex, multi-part topics. When someone asks ChatGPT &quot;how does LLC taxation work&quot; or &quot;what is the process for selling a home in Texas,&quot; the model looks for a source that covers the full topic scope, not just one slice of it.</p>
+            <p>Comprehensive guides are the highest-authority content type for AI citations on complex, multi-part topics. When someone asks ChatGPT &quot;how does LLC taxation work&quot; or &quot;what is the process for selling a home in Texas,&quot; the model looks for a source that covers the full topic scope, not just one slice of it. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Why AI cites guides</h3>
 
-            <p>Guides satisfy what researchers call informational queries with high cognitive load: questions where the user genuinely does not know where to start. ChatGPT selects guide-format content because it can extract both a direct answer to the immediate question and context for follow-up questions, all from a single source. This makes guides efficient for the model to cite.</p>
+            <p>Guides satisfy what researchers call informational queries with high cognitive load: questions where the user genuinely does not know where to start. ChatGPT selects guide-format content because it can extract both a direct answer to the immediate question and context for follow-up questions, all from a single source. This makes guides efficient for the model to cite. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>The second reason is topical authority signaling. A guide that covers a topic completely, with internal links to related subtopics on the same domain, tells AI systems that this source is an authoritative hub for the subject matter. Perplexity&apos;s citation patterns show that single sources covering 80% or more of a topic cluster earn repeated citations across many query variations, not just one.</p>
+            <p>The second reason is topical authority signaling. A guide that covers a topic completely, with internal links to related subtopics on the same domain, tells AI systems that this source is an authoritative hub for the subject matter. Perplexity&apos;s citation patterns show that single sources covering 80% or more of a topic cluster earn repeated citations across many query variations, not just one. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>Structural requirements for guides</h3>
 
@@ -317,19 +317,19 @@ export default function Page() {
               <li><strong>A &apos;last updated&apos; date visible in the HTML.</strong> Evergreen guides that are clearly maintained earn stronger trust signals than guides with no update history.</li>
             </ul>
 
-            <p><strong>Word count target: 2,500 to 5,000 words.</strong> Shorter guides are perceived as incomplete; longer guides need aggressive internal organization to remain citable rather than overwhelming.</p>
+            <p><strong>Word count target: 2,500 to 5,000 words.</strong> Shorter guides are perceived as incomplete; longer guides need aggressive internal organization to remain citable rather than overwhelming. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* -- TYPE 2: FAQS -- */}
             <span className="ae-section-label" id="type-2-faqs">Content Type 2 of 7</span>
             <h2>Type 2: FAQ Pages</h2>
 
-            <p>FAQ pages are the most direct citation format for AI platforms. The question-answer structure maps almost perfectly onto how retrieval-augmented generation works: the AI receives a query, retrieves a passage, and returns an answer. FAQ content is essentially pre-formatted for that workflow.</p>
+            <p>FAQ pages are the most direct citation format for AI platforms. The question-answer structure maps almost perfectly onto how retrieval-augmented generation works: the AI receives a query, retrieves a passage, and returns an answer. FAQ content is essentially pre-formatted for that workflow. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>Why AI cites FAQ pages</h3>
 
-            <p>When someone types a question into ChatGPT, the model is looking for the clearest possible answer to that exact question. An FAQ page that contains the question verbatim (or semantically equivalent) with a concise, direct answer is the ideal retrieval target. Reddit earns nearly half of Perplexity&apos;s citations partly because Reddit threads are structured exactly like FAQs: someone asks a question, multiple people answer it, and the best answers float to the top. Well-built FAQ pages replicate this pattern with greater accuracy and editorial control.</p>
+            <p>When someone types a question into ChatGPT, the model is looking for the clearest possible answer to that exact question. An FAQ page that contains the question verbatim (or semantically equivalent) with a concise, direct answer is the ideal retrieval target. Reddit earns nearly half of Perplexity&apos;s citations partly because Reddit threads are structured exactly like FAQs: someone asks a question, multiple people answer it, and the best answers float to the top. Well-built FAQ pages replicate this pattern with greater accuracy and editorial control. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-            <p>Google AI Overviews specifically prioritize FAQ-structured content for featured snippet pulls. Pages with FAQPage schema markup communicate the question-answer pairs directly to Google&apos;s systems, making the extraction process trivial.</p>
+            <p>Google AI Overviews specifically prioritize FAQ-structured content for featured snippet pulls. Pages with FAQPage schema markup communicate the question-answer pairs directly to Google&apos;s systems, making the extraction process trivial. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Structural requirements for FAQ pages</h3>
 
@@ -342,10 +342,10 @@ export default function Page() {
               <li><strong>A question covering &quot;who is this for&quot; or &quot;what should I do first.&quot;</strong> These orientation questions earn especially high citation rates because they appear in the early stages of user research journeys.</li>
             </ul>
 
-            <p><strong>Standalone FAQ pages outperform FAQ sections appended to service pages.</strong> AI platforms treat dedicated FAQ URLs as more authoritative than embedded FAQ widgets that share a URL with promotional content.</p>
+            <p><strong>Standalone FAQ pages outperform FAQ sections appended to service pages.</strong> AI platforms treat dedicated FAQ URLs as more authoritative than embedded FAQ widgets that share a URL with promotional content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-cta-inline not-prose">
-              <p>Want to see which questions ChatGPT is answering in your category without citing you?</p>
+              <p>Want to see which questions ChatGPT is answering in your category without citing you? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blindspot">Run Your AI Blind Spot Report &rarr;</Link>
             </div>
 
@@ -353,13 +353,13 @@ export default function Page() {
             <span className="ae-section-label" id="type-3-reviews">Content Type 3 of 7</span>
             <h2>Type 3: Reviews and Comparisons</h2>
 
-            <p>Review content satisfies one of the most common AI query patterns: comparative decision-making. &quot;What is the best CRM for a 10-person agency?&quot; and &quot;Should I use QuickBooks or Wave for freelance accounting?&quot; are queries where users want someone to have done the evaluation work so they do not have to. AI platforms cite review content that demonstrates genuine methodology.</p>
+            <p>Review content satisfies one of the most common AI query patterns: comparative decision-making. &quot;What is the best CRM for a 10-person agency?&quot; and &quot;Should I use QuickBooks or Wave for freelance accounting?&quot; are queries where users want someone to have done the evaluation work so they do not have to. AI platforms cite review content that demonstrates genuine methodology. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <h3>Why AI cites review content</h3>
 
-            <p>The key word is &quot;methodology.&quot; ChatGPT and Perplexity are sensitive to whether a review represents genuine evaluation or paid placement. Affiliate review sites that rank options without explaining criteria are increasingly filtered from AI citations. Content that names specific testing criteria, assigns scores, and explains tradeoffs earns citations because it provides the kind of reasoning a user cannot generate on their own.</p>
+            <p>The key word is &quot;methodology.&quot; ChatGPT and Perplexity are sensitive to whether a review represents genuine evaluation or paid placement. Affiliate review sites that rank options without explaining criteria are increasingly filtered from AI citations. Content that names specific testing criteria, assigns scores, and explains tradeoffs earns citations because it provides the kind of reasoning a user cannot generate on their own. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>Comparison content (X vs. Y) earns citations for a distinct reason: it satisfies binary queries where the user has already narrowed to two options and needs a tiebreaker. &quot;HubSpot vs. Salesforce for a 50-person sales team&quot; is a highly specific query that most content does not satisfy. Building that specific comparison content earns you a near-monopoly on that citation slot.</p>
+            <p>Comparison content (X vs. Y) earns citations for a distinct reason: it satisfies binary queries where the user has already narrowed to two options and needs a tiebreaker. &quot;HubSpot vs. Salesforce for a 50-person sales team&quot; is a highly specific query that most content does not satisfy. Building that specific comparison content earns you a near-monopoly on that citation slot. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Structural requirements for reviews</h3>
 
@@ -376,13 +376,13 @@ export default function Page() {
             <span className="ae-section-label" id="type-4-howtos">Content Type 4 of 7</span>
             <h2>Type 4: How-To Articles</h2>
 
-            <p>How-to articles are the workhorse content type for AI citations on procedural queries. They satisfy what search researchers call &quot;do&quot; intent: the user wants to accomplish a specific task and needs a reliable sequence of steps to follow. ChatGPT retrieves how-to content constantly because procedural questions are among the most frequent queries it receives.</p>
+            <p>How-to articles are the workhorse content type for AI citations on procedural queries. They satisfy what search researchers call &quot;do&quot; intent: the user wants to accomplish a specific task and needs a reliable sequence of steps to follow. ChatGPT retrieves how-to content constantly because procedural questions are among the most frequent queries it receives. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>Why AI cites how-to content</h3>
 
-            <p>The mechanism is simple: numbered steps are structurally unambiguous. When AI retrieves a how-to article, it can extract the steps as a clean ordered list and present them directly to the user without reformatting. Prose-based instructions force the model to identify and sequence steps itself, introducing error risk. AI systems prefer to cite content where the work is already done.</p>
+            <p>The mechanism is simple: numbered steps are structurally unambiguous. When AI retrieves a how-to article, it can extract the steps as a clean ordered list and present them directly to the user without reformatting. Prose-based instructions force the model to identify and sequence steps itself, introducing error risk. AI systems prefer to cite content where the work is already done. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-            <p>Specificity is the differentiating factor. ChatGPT will cite a page titled &quot;How to File a Mechanic&apos;s Lien in Texas in 5 Steps (2026)&quot; over a generic page titled &quot;How to File a Mechanic&apos;s Lien.&quot; The specific version signals that the content is tailored to a particular jurisdiction and timeframe, which is exactly the granularity users asking procedural questions actually need.</p>
+            <p>Specificity is the differentiating factor. ChatGPT will cite a page titled &quot;How to File a Mechanic&apos;s Lien in Texas in 5 Steps (2026)&quot; over a generic page titled &quot;How to File a Mechanic&apos;s Lien.&quot; The specific version signals that the content is tailored to a particular jurisdiction and timeframe, which is exactly the granularity users asking procedural questions actually need. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>Structural requirements for how-to articles</h3>
 
@@ -396,20 +396,20 @@ export default function Page() {
             </ul>
 
             <div className="ae-quote not-prose">
-              <p>The most overlooked how-to opportunity for service businesses is internal process content. Explaining how your service actually works, in numbered steps, builds trust with potential clients and earns citations when AI answers &quot;what is it like to work with a [your profession]&quot; queries.</p>
+              <p>The most overlooked how-to opportunity for service businesses is internal process content. Explaining how your service actually works, in numbered steps, builds trust with potential clients and earns citations when AI answers &quot;what is it like to work with a [your profession]&quot; queries. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* -- TYPE 5: CASE STUDIES -- */}
             <span className="ae-section-label" id="type-5-case-studies">Content Type 5 of 7</span>
             <h2>Type 5: Case Studies</h2>
 
-            <p>Case studies are underused by most businesses and undervalued by most content strategists. That undervaluation creates an opportunity. When AI platforms encounter a well-structured case study, they treat it as primary evidence, a category of content that earns citations in a way that opinion pieces, no matter how well-written, simply cannot match.</p>
+            <p>Case studies are underused by most businesses and undervalued by most content strategists. That undervaluation creates an opportunity. When AI platforms encounter a well-structured case study, they treat it as primary evidence, a category of content that earns citations in a way that opinion pieces, no matter how well-written, simply cannot match. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <h3>Why AI cites case studies</h3>
 
-            <p>AI systems are trained to prioritize evidence over assertion. A case study that says &quot;Client X reduced overhead by 34% in 90 days using this process&quot; provides something a standard service page cannot: verifiable, specific, falsifiable claims. ChatGPT extracts case study data to answer queries like &quot;does [approach] actually work&quot; or &quot;what results can I expect from [service].&quot;</p>
+            <p>AI systems are trained to prioritize evidence over assertion. A case study that says &quot;Client X reduced overhead by 34% in 90 days using this process&quot; provides something a standard service page cannot: verifiable, specific, falsifiable claims. ChatGPT extracts case study data to answer queries like &quot;does [approach] actually work&quot; or &quot;what results can I expect from [service].&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
-            <p>The other reason case studies earn citations is that they answer the underlying question behind a query that seems to be about research but is actually about risk. When someone asks &quot;is hiring a property manager worth it,&quot; they are asking &quot;will this investment pay off for someone in my situation?&quot; A case study that documents a specific owner&apos;s experience, with specific numbers, answers that question in a way no general guide can.</p>
+            <p>The other reason case studies earn citations is that they answer the underlying question behind a query that seems to be about research but is actually about risk. When someone asks &quot;is hiring a property manager worth it,&quot; they are asking &quot;will this investment pay off for someone in my situation?&quot; A case study that documents a specific owner&apos;s experience, with specific numbers, answers that question in a way no general guide can. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>Structural requirements for case studies</h3>
 
@@ -425,13 +425,13 @@ export default function Page() {
             <span className="ae-section-label" id="type-6-local-lists">Content Type 6 of 7</span>
             <h2>Type 6: Local Lists</h2>
 
-            <p>Local list content is the fastest path to AI citations for geographically-focused service businesses. When someone asks ChatGPT &quot;what are the best electricians in Phoenix&quot; or &quot;top-rated pediatric dentists in Austin,&quot; the model looks for editorial list content that provides vetted options with location specificity. This is a massive opportunity most local businesses have not built for.</p>
+            <p>Local list content is the fastest path to AI citations for geographically-focused service businesses. When someone asks ChatGPT &quot;what are the best electricians in Phoenix&quot; or &quot;top-rated pediatric dentists in Austin,&quot; the model looks for editorial list content that provides vetted options with location specificity. This is a massive opportunity most local businesses have not built for. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Why AI cites local lists</h3>
 
-            <p>Local list queries are navigational: the user wants to be pointed to a set of options, not educated about a topic. AI platforms handle these queries by retrieving list content that matches the geographic and category specificity of the query. Yelp, Angi, and local publication roundups dominate these citations today because they have been building list content for years. A local business that builds its own editorially credible list content can compete for these slots.</p>
+            <p>Local list queries are navigational: the user wants to be pointed to a set of options, not educated about a topic. AI platforms handle these queries by retrieving list content that matches the geographic and category specificity of the query. Yelp, Angi, and local publication roundups dominate these citations today because they have been building list content for years. A local business that builds its own editorially credible list content can compete for these slots. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-            <p>The credibility signal for local list content is editorial judgment. A list that explains why each option was included, with specific criteria, reads as editorial. A list with no explanations reads as a business directory. AI platforms distinguish between these and consistently prefer the former.</p>
+            <p>The credibility signal for local list content is editorial judgment. A list that explains why each option was included, with specific criteria, reads as editorial. A list with no explanations reads as a business directory. AI platforms distinguish between these and consistently prefer the former. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>Structural requirements for local lists</h3>
 

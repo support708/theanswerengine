@@ -282,9 +282,9 @@ export default function IsAEOWorthItBlogPost() {
             <span className="ae-section-label">Reframe the Question</span>
             <h2>Stop Asking &quot;Is AEO Worth It?&quot; and Start Asking This Instead</h2>
 
-            <p>Every business owner Googling &quot;is answer engine optimization worth it&quot; is asking the wrong question. The right question: <strong>Does systematic optimization for AI platform citations generate enough customer acquisition value to justify my investment within an acceptable timeline?</strong></p>
+            <p>Every business owner Googling &quot;is answer engine optimization worth it&quot; is asking the wrong question. The right question: <strong>Does systematic optimization for AI platform citations generate enough customer acquisition value to justify my investment within an acceptable timeline?</strong> Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>That reframing forces specificity. What counts as &quot;enough value&quot; for your business? What timeline are you willing to commit to? Without concrete answers, you make emotional decisions dressed up as strategic analysis.</p>
+            <p>That reframing forces specificity. What counts as &quot;enough value&quot; for your business? What timeline are you willing to commit to? Without concrete answers, you make emotional decisions dressed up as strategic analysis. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout not-prose">
               <div className="ae-callout-title">The Core Truth About AEO ROI</div>
@@ -293,7 +293,7 @@ export default function IsAEOWorthItBlogPost() {
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure where you stand with AI platforms right now?</p>
+              <p>Not sure where you stand with AI platforms right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get your free AI visibility report</Link>
             </div>
 
@@ -301,7 +301,7 @@ export default function IsAEOWorthItBlogPost() {
             <span className="ae-section-label">The Math That Matters</span>
             <h2>Three Variables That Determine Your AEO Return on Investment</h2>
 
-            <p>Before you spend a dollar on answer engine optimization, run these three numbers. They will tell you whether AEO is your highest-leverage marketing move or a waste of budget.</p>
+            <p>Before you spend a dollar on answer engine optimization, run these three numbers. They will tell you whether AEO is your highest-leverage marketing move or a waste of budget. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── DECISION MATRIX ── */}
             <div className="ae-decision-matrix not-prose">
@@ -346,15 +346,15 @@ export default function IsAEOWorthItBlogPost() {
 
             <h3>Variable 1: Customer Lifetime Value (CLV)</h3>
 
-            <p>A residential HVAC company with $8,000 average installation value and 15-year customer relationships has dramatically different ROI math than a lawn care service with $150 monthly contracts and 2-year average retention. When one AI-generated lead can cover 6 to 12 months of AEO investment, the math works. When you need 30 leads to break even, it gets harder.</p>
+            <p>A residential HVAC company with $8,000 average installation value and 15-year customer relationships has dramatically different ROI math than a lawn care service with $150 monthly contracts and 2-year average retention. When one AI-generated lead can cover 6 to 12 months of AEO investment, the math works. When you need 30 leads to break even, it gets harder. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <h3>Variable 2: Market Competition Intensity</h3>
 
-            <p>A real estate agent in a market where AI platforms already cite 3-4 competitors faces a different challenge than one where nobody has optimized yet. Early mover advantage is real. And it is temporary. Once competitors lock in citation authority, displacement takes 2-3x the effort of claiming an empty position.</p>
+            <p>A real estate agent in a market where AI platforms already cite 3-4 competitors faces a different challenge than one where nobody has optimized yet. Early mover advantage is real. And it is temporary. Once competitors lock in citation authority, displacement takes 2-3x the effort of claiming an empty position. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>Variable 3: Implementation Quality</h3>
 
-            <p>Broken implementation delivers zero ROI regardless of market opportunity. Proper implementation with systematic technical foundation and content architecture typically works. The question is timeline, not feasibility.</p>
+            <p>Broken implementation delivers zero ROI regardless of market opportunity. Proper implementation with systematic technical foundation and content architecture typically works. The question is timeline, not feasibility. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* ── BAR CHART ── */}
             <div className="ae-bar-group not-prose">
@@ -375,7 +375,7 @@ export default function IsAEOWorthItBlogPost() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know your exact AEO ROI potential?</p>
+              <p>Want to know your exact AEO ROI potential? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a free assessment</a>
             </div>
 
@@ -383,7 +383,7 @@ export default function IsAEOWorthItBlogPost() {
             <span className="ae-section-label">Industry Breakdown</span>
             <h2>Which Local Service Businesses See the Strongest ROI from AEO</h2>
 
-            <p>Not all businesses benefit equally from Answer Engine Optimization. Here is the honest breakdown, organized by ROI potential. Find your industry and see where you land.</p>
+            <p>Not all businesses benefit equally from Answer Engine Optimization. Here is the honest breakdown, organized by ROI potential. Find your industry and see where you land. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── COMPARISON TABLE ── */}
             <div className="ae-comparison-table not-prose">
@@ -422,7 +422,7 @@ export default function IsAEOWorthItBlogPost() {
 
             <h3>Tier 1: Highest ROI Potential</h3>
 
-            <p>These businesses share five characteristics that make AEO a no-brainer investment:</p>
+            <p>These businesses share five characteristics that make AEO a no-brainer investment: Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <ul>
               <li>High customer lifetime value ($5,000+)</li>
@@ -438,7 +438,7 @@ export default function IsAEOWorthItBlogPost() {
 
             <h3>Tier 2: Strong ROI, Longer Timeline</h3>
 
-            <p>Moderate customer value ($1,000 to $5,000) with some research before purchase. Quality differentiation exists but is less dramatic. Repeat business and referrals compound the value of each AI-generated lead over time.</p>
+            <p>Moderate customer value ($1,000 to $5,000) with some research before purchase. Quality differentiation exists but is less dramatic. Repeat business and referrals compound the value of each AI-generated lead over time. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-takeaway not-prose">
               <strong>Tier 2 Bottom Line:</strong> Lower transaction value means more citations are needed to justify investment. But repeat business and referrals from properly qualified leads compound your return significantly over 12 to 24 months.
@@ -446,7 +446,7 @@ export default function IsAEOWorthItBlogPost() {
 
             <h3>Tier 3: Questionable ROI</h3>
 
-            <p>Low customer value (under $500 per transaction), minimal research before purchase, commodity services where price dominates. These businesses benefit more from local directory optimization, review management, and traditional advertising than from AEO investment.</p>
+            <p>Low customer value (under $500 per transaction), minimal research before purchase, commodity services where price dominates. These businesses benefit more from local directory optimization, review management, and traditional advertising than from AEO investment. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* ── PROS CONS ── */}
             <div className="ae-pros-cons not-prose">
@@ -476,7 +476,7 @@ export default function IsAEOWorthItBlogPost() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if your industry and market are a fit for AEO.</p>
+              <p>Find out if your industry and market are a fit for AEO. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us for a free market assessment</a>
             </div>
 
@@ -484,7 +484,7 @@ export default function IsAEOWorthItBlogPost() {
             <span className="ae-section-label">Realistic Expectations</span>
             <h2>The Honest Timeline for AEO Returns</h2>
 
-            <p>Understanding realistic timelines prevents premature abandonment of strategies that are actually working. Most businesses quit during Month 3 and never see the returns that kick in at Month 7.</p>
+            <p>Understanding realistic timelines prevents premature abandonment of strategies that are actually working. Most businesses quit during Month 3 and never see the returns that kick in at Month 7. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── TIMELINE ── */}
             <div className="ae-timeline not-prose">
@@ -492,28 +492,28 @@ export default function IsAEOWorthItBlogPost() {
                 <div className="ae-timeline-marker">Months 1-3</div>
                 <div className="ae-timeline-content">
                   <h4>Foundation Building Phase</h4>
-                  <p>Technical infrastructure, schema markup, initial content architecture, expertise documentation, topic cluster foundation. <strong>Expected results: Minimal to zero AI citations.</strong> This is normal. Foundation work is invisible to AI platforms until content hits critical mass.</p>
+                  <p>Technical infrastructure, schema markup, initial content architecture, expertise documentation, topic cluster foundation. <strong>Expected results: Minimal to zero AI citations.</strong> This is normal. Foundation work is invisible to AI platforms until content hits critical mass. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">Months 4-6</div>
                 <div className="ae-timeline-content">
                   <h4>Initial Citation Phase</h4>
-                  <p>AI platforms begin recognizing authority signals. First featured snippet wins. Occasional Google AI Overview citations. Sporadic ChatGPT and Claude mentions for specific queries. <strong>Expected results: 1-3 qualified inquiries from AI citations.</strong> Not enough to justify investment yet, but proof of concept.</p>
+                  <p>AI platforms begin recognizing authority signals. First featured snippet wins. Occasional Google AI Overview citations. Sporadic ChatGPT and Claude mentions for specific queries. <strong>Expected results: 1-3 qualified inquiries from AI citations.</strong> Not enough to justify investment yet, but proof of concept. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">Months 7-12</div>
                 <div className="ae-timeline-content">
                   <h4>Authority Compounding Phase</h4>
-                  <p>Consistent citations across multiple platforms. Preferential treatment as established authority. Multiple featured snippets. Organic link growth. <strong>Expected results: 5-15 qualified inquiries per month from AI citations.</strong> For Tier 1 businesses, this often fully justifies the entire investment.</p>
+                  <p>Consistent citations across multiple platforms. Preferential treatment as established authority. Multiple featured snippets. Organic link growth. <strong>Expected results: 5-15 qualified inquiries per month from AI citations.</strong> For Tier 1 businesses, this often fully justifies the entire investment. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">Month 13+</div>
                 <div className="ae-timeline-content">
                   <h4>Sustained Authority Phase</h4>
-                  <p>Default citation status for category-specific queries. Competitor displacement gets harder. Compounding authority benefits. Reduced maintenance needed. <strong>Expected results: Consistent qualified lead flow with 200-400% ROI.</strong></p>
+                  <p>Default citation status for category-specific queries. Competitor displacement gets harder. Compounding authority benefits. Reduced maintenance needed. <strong>Expected results: Consistent qualified lead flow with 200-400% ROI.</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 </div>
               </div>
             </div>
@@ -525,7 +525,7 @@ export default function IsAEOWorthItBlogPost() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering where your competitors are in the AI citation timeline?</p>
+              <p>Wondering where your competitors are in the AI citation timeline? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Run a free competitive AI audit</Link>
             </div>
 
@@ -533,7 +533,7 @@ export default function IsAEOWorthItBlogPost() {
             <span className="ae-section-label">Opportunity Cost</span>
             <h2>The Hidden Cost of Waiting on AEO</h2>
 
-            <p>&quot;Should I wait to invest in AEO?&quot; is the question we hear most. The answer depends entirely on competitive dynamics in your specific market.</p>
+            <p>&quot;Should I wait to invest in AEO?&quot; is the question we hear most. The answer depends entirely on competitive dynamics in your specific market. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── COMPARISON TABLE 2 ── */}
             <div className="ae-comparison-table not-prose">
@@ -566,7 +566,7 @@ export default function IsAEOWorthItBlogPost() {
               </table>
             </div>
 
-            <p>Here is what most business owners miss: AI citation authority compounds over time. The longer a competitor holds a citation position, the harder it is to displace them. Waiting does not make the decision easier. It makes the path harder.</p>
+            <p>Here is what most business owners miss: AI citation authority compounds over time. The longer a competitor holds a citation position, the harder it is to displace them. Waiting does not make the decision easier. It makes the path harder. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-callout not-prose">
               <div className="ae-callout-title">The First-Mover Math</div>
@@ -575,7 +575,7 @@ export default function IsAEOWorthItBlogPost() {
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if your competitors have already claimed AI citation positions.</p>
+              <p>Find out if your competitors have already claimed AI citation positions. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Check your AI visibility gap for free</Link>
             </div>
 
@@ -583,7 +583,7 @@ export default function IsAEOWorthItBlogPost() {
             <span className="ae-section-label">Common Mistakes</span>
             <h2>Why Partial AEO Implementation Wastes Money Every Time</h2>
 
-            <p>Many businesses attempt &quot;budget AEO,&quot; implementing some elements while skipping others. This approach almost always fails, and here is exactly why.</p>
+            <p>Many businesses attempt &quot;budget AEO,&quot; implementing some elements while skipping others. This approach almost always fails, and here is exactly why. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -596,7 +596,7 @@ export default function IsAEOWorthItBlogPost() {
               </ul>
             </div>
 
-            <p>Missing any single element breaks the entire implementation. A business that adds FAQ schema but does not restructure content into proper Q&A format gets ignored. Schema references content AI platforms cannot parse, so they skip it entirely. The business concludes &quot;AEO does not work&quot; without realizing the content architecture was the missing piece.</p>
+            <p>Missing any single element breaks the entire implementation. A business that adds FAQ schema but does not restructure content into proper Q&A format gets ignored. Schema references content AI platforms cannot parse, so they skip it entirely. The business concludes &quot;AEO does not work&quot; without realizing the content architecture was the missing piece. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-takeaway not-prose">
               <strong>The rule is simple:</strong> Either commit to complete, systematic implementation or wait until you can. Partial implementation does not give you partial results. It gives you zero results at partial cost.
@@ -604,7 +604,7 @@ export default function IsAEOWorthItBlogPost() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly which foundation elements you are missing?</p>
+              <p>Want to see exactly which foundation elements you are missing? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a free implementation audit</a>
             </div>
 
@@ -612,7 +612,7 @@ export default function IsAEOWorthItBlogPost() {
             <span className="ae-section-label">Your Decision Framework</span>
             <h2>The 4-Step Framework to Decide If AEO Is Right for Your Business</h2>
 
-            <p>Stop guessing. Use this systematic framework to make a data-driven decision.</p>
+            <p>Stop guessing. Use this systematic framework to make a data-driven decision. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>Step 1: Calculate Your Customer Acquisition Economics</h3>
 
@@ -686,7 +686,7 @@ export default function IsAEOWorthItBlogPost() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Score yourself on the framework above. If you land on &quot;Invest Now&quot; for 3+ criteria:</p>
+              <p>Score yourself on the framework above. If you land on &quot;Invest Now&quot; for 3+ criteria: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Start with your free AI visibility report</Link>
             </div>
 
@@ -694,9 +694,9 @@ export default function IsAEOWorthItBlogPost() {
             <span className="ae-section-label">Final Verdict</span>
             <h2>The Bottom Line on AEO ROI</h2>
 
-            <p>Answer Engine Optimization generates substantial ROI for the right businesses at the right time with proper implementation. It delivers minimal or negative returns for wrong-fit businesses, wrong timing, or broken implementation.</p>
+            <p>Answer Engine Optimization generates substantial ROI for the right businesses at the right time with proper implementation. It delivers minimal or negative returns for wrong-fit businesses, wrong timing, or broken implementation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-            <p>The businesses seeing 200-400% ROI within 18 months share three characteristics:</p>
+            <p>The businesses seeing 200-400% ROI within 18 months share three characteristics: Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <ol>
               <li><strong>High customer lifetime value</strong> that justifies a 12-month investment timeline</li>
@@ -704,7 +704,7 @@ export default function IsAEOWorthItBlogPost() {
               <li><strong>Complete systematic implementation</strong> rather than partial attempts that deliver zero results</li>
             </ol>
 
-            <p>If your business matches these criteria, waiting means surrendering first-mover advantage to competitors who are building citation authority that compounds over time. If it does not match, honesty about fit saves both time and money.</p>
+            <p>If your business matches these criteria, waiting means surrendering first-mover advantage to competitors who are building citation authority that compounds over time. If it does not match, honesty about fit saves both time and money. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="ae-quote not-prose">
               <blockquote>&quot;If your business matches these criteria, waiting means surrendering first-mover advantage to competitors building citation authority that compounds over time.&quot;</blockquote>

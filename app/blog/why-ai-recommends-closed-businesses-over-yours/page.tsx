@@ -283,7 +283,7 @@ export default function Page() {
           <nav className="ae-toc not-prose mb-12 rounded-xl border border-white/10 bg-white/5 p-6">
             <p className="font-plus-jakarta mb-4 text-sm font-semibold uppercase tracking-widest text-[#F27D24]">
               In This Article
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <ol className="space-y-2 text-sm text-gray-400">
               <li>
                 <a href="#the-graveyard-problem" className="transition-colors hover:text-white">
@@ -343,7 +343,7 @@ export default function Page() {
               by name, including one that went out of business before the pandemic ended and another that
               moved to a completely different state. Your company, which has been operating for twelve years
               and has 200 five-star reviews, is not mentioned once.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p className="mb-5 leading-relaxed text-gray-300">
               This is not science fiction. It is happening thousands of times per day across every city in
@@ -351,7 +351,7 @@ export default function Page() {
               old, and those snapshots are full of businesses that no longer exist. Because those businesses
               had strong data signals before they closed, such as directory listings, review profiles, and
               web mentions, the AI treats them as credible and current.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-callout ae-callout-warning not-prose mb-6 rounded-xl border border-yellow-500/20 bg-yellow-500/5 p-6">
               <div className="mb-2 flex items-center gap-2">
@@ -365,7 +365,7 @@ export default function Page() {
                 They go to a competitor. You never find out that you lost them. The 3.7-week average
                 discovery window means hundreds of customers may receive bad information before anyone
                 notices something is wrong.
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p className="mb-5 leading-relaxed text-gray-300">
@@ -374,21 +374,21 @@ export default function Page() {
               1,600 closures per day, each creating a potential ghost in the AI data ecosystem. AI models
               have no real-time mechanism to mark a business as closed unless that closure signal propagates
               strongly across enough authoritative sources to shift the model&apos;s confidence.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p className="leading-relaxed text-gray-300">
               If you have ever wondered why <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="text-[#F27D24] underline decoration-[#F27D24]/30 underline-offset-2 hover:decoration-[#F27D24]">your business disappeared from AI search results</Link> while
               a closed competitor still shows up, this data dynamic is the explanation. The AI is not
               malfunctioning. It is doing exactly what it was designed to do: surface the most data-rich
               business for any given query. Right now, that business may be one that no longer exists.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </section>
 
           {/* INLINE CTA 1 */}
           <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <p className="font-plus-jakarta font-semibold text-white">Is AI sending your customers to a ghost business?</p>
-              <p className="mt-1 text-sm text-gray-400">Find out exactly what ChatGPT, Perplexity, and Google AI say about your business today.</p>
+              <p className="font-plus-jakarta font-semibold text-white">Is AI sending your customers to a ghost business? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+              <p className="mt-1 text-sm text-gray-400">Find out exactly what ChatGPT, Perplexity, and Google AI say about your business today. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
             <Link
               href="/blindspot"
@@ -412,14 +412,14 @@ export default function Page() {
               knowledge. These systems do not browse the internet in real time when you ask a question.
               They generate responses from patterns learned during a training process that happens on
               a fixed schedule, typically every three to nine months for major models.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="mb-5 leading-relaxed text-gray-300">
               During training, the model ingests enormous quantities of text: directories, review sites,
               news articles, forum posts, social media, business websites, and more. When it encounters
               your business across multiple sources, it builds a confidence weight: a numerical representation
               of how certain it is that this business exists, where it is located, and what it does.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-quote not-prose mb-6 border-l-4 border-[#F27D24] pl-6">
               <blockquote className="text-lg italic leading-relaxed text-gray-300">
@@ -436,7 +436,7 @@ export default function Page() {
               local news articles, and dozens of directory citations. That data does not vanish when the
               business closes. It sits in those platforms indefinitely, continuing to signal to AI models
               that this is a legitimate, well-established business.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p className="leading-relaxed text-gray-300">
               Your business, on the other hand, may have a fraction of that data trail, especially if you
@@ -444,7 +444,7 @@ export default function Page() {
               head-to-head data comparison, the ghost business wins. This is also why
               {' '}<Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] underline decoration-[#F27D24]/30 underline-offset-2 hover:decoration-[#F27D24]">AI so frequently gives outdated information</Link>{' '}
               about businesses that are still operating, not just the ones that have closed.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </section>
 
           {/* SECTION 3 */}
@@ -460,7 +460,7 @@ export default function Page() {
               AI models use a layered signal system to determine which business to recommend for any
               given query. Understanding this system reveals exactly why ghost businesses consistently
               outperform newer or less-optimized active businesses.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* AE PROS CONS */}
             <div className="ae-pros-cons not-prose mb-8 grid gap-4 md:grid-cols-2">
@@ -532,14 +532,14 @@ export default function Page() {
               Authority in AI systems is earned through data volume and consistency, not through the
               physical act of being open. You have to earn that authority deliberately, and the process
               is not intuitive.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </section>
 
           {/* INLINE CTA 2 */}
           <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <p className="font-plus-jakarta font-semibold text-white">How strong is your AI data signal right now?</p>
-              <p className="mt-1 text-sm text-gray-400">Our Blind Spot Report audits ChatGPT, Perplexity, and Google AI in one report.</p>
+              <p className="font-plus-jakarta font-semibold text-white">How strong is your AI data signal right now? Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+              <p className="mt-1 text-sm text-gray-400">Our Blind Spot Report audits ChatGPT, Perplexity, and Google AI in one report. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
             <Link
               href="/blindspot"
@@ -562,7 +562,7 @@ export default function Page() {
               Not all AI platforms handle stale business data the same way. Some have live retrieval
               mechanisms that can surface more current information. Others are almost entirely dependent
               on training data. Understanding the difference tells you where to prioritize your efforts.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-comparison-table not-prose mb-8 overflow-x-auto rounded-xl border border-white/10">
               <table className="w-full text-sm">
@@ -647,7 +647,7 @@ export default function Page() {
                 still have active directory listings, unclaimed Yelp pages, or cached website content.
                 Live search retrieves what is currently indexed, not what is currently true. Closing
                 a business does not automatically remove it from these data sources.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
           </section>
 
@@ -665,7 +665,7 @@ export default function Page() {
               because most of the damage is invisible. Customers who receive wrong AI information
               rarely trace their experience back to the AI. They just go elsewhere, and you never
               find out you were in the running.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* TIMELINE */}
             <div className="ae-timeline not-prose mb-8 space-y-0">
@@ -673,64 +673,64 @@ export default function Page() {
                 <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
                 <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
                 <div className="mb-8">
-                  <p className="font-plus-jakarta mb-1 font-semibold text-white">Day 1: Customer Asks AI</p>
+                  <p className="font-plus-jakarta mb-1 font-semibold text-white">Day 1: Customer Asks AI Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                   <p className="text-sm text-gray-400">
                     A high-intent buyer asks ChatGPT for a recommendation in your category. The AI surfaces
                     three businesses, none of which is yours. One of the three closed eight months ago.
-                  </p>
+                   We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 </div>
               </div>
               <div className="relative pl-8">
                 <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
                 <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
                 <div className="mb-8">
-                  <p className="font-plus-jakarta mb-1 font-semibold text-white">Day 1 to Day 3: Wasted Effort</p>
+                  <p className="font-plus-jakarta mb-1 font-semibold text-white">Day 1 to Day 3: Wasted Effort Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                   <p className="text-sm text-gray-400">
                     The customer calls the closed business. Gets a disconnected number. Drives to the old
                     address. Finds a vacant storefront. Frustrated, they search again or call one of the
                     other AI recommendations. You are still not in the picture.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                 </div>
               </div>
               <div className="relative pl-8">
                 <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
                 <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
                 <div className="mb-8">
-                  <p className="font-plus-jakarta mb-1 font-semibold text-white">Week 1 to Week 3: The Pattern Repeats</p>
+                  <p className="font-plus-jakarta mb-1 font-semibold text-white">Week 1 to Week 3: The Pattern Repeats Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   <p className="text-sm text-gray-400">
                     The same scenario plays out for dozens of other potential customers. Each one gets
                     the same AI response. Each one either finds the competitor you do not know about or
                     gives up. Your phone does not ring.
-                  </p>
+                   Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                 </div>
               </div>
               <div className="relative pl-8">
                 <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-yellow-400 bg-[#0F1117]" />
                 <div className="mb-8">
-                  <p className="font-plus-jakarta mb-1 font-semibold text-white">Week 3.7: You Find Out (Maybe)</p>
+                  <p className="font-plus-jakarta mb-1 font-semibold text-white">Week 3.7: You Find Out (Maybe) <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                   <p className="text-sm text-gray-400">
                     A customer finally mentions, in passing, that they almost went to a place that was
                     closed. You investigate. You discover what AI has been saying. But by now, hundreds
                     of queries have already been answered with the wrong information.
-                  </p>
+                   <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 </div>
               </div>
             </div>
 
             <div className="ae-takeaway not-prose rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6">
-              <p className="font-plus-jakarta mb-2 font-semibold text-[#F27D24]">Key Takeaway</p>
+              <p className="font-plus-jakarta mb-2 font-semibold text-[#F27D24]">Key Takeaway <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <p className="leading-relaxed text-gray-300">
                 The ghost business problem is not just annoying. It is a continuous revenue drain.
                 Every day your AI data footprint is weaker than a closed competitor&apos;s is another day
                 that competitor is stealing customers you will never know you lost.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
           </section>
 
           {/* INLINE CTA 3 */}
           <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <p className="font-plus-jakarta font-semibold text-white">Stop the silent revenue drain today.</p>
+              <p className="font-plus-jakarta font-semibold text-white">Stop the silent revenue drain today. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <p className="mt-1 text-sm text-gray-400">See exactly what every major AI platform says about your business in one free report.</p>
             </div>
             <Link

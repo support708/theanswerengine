@@ -240,17 +240,17 @@ export default function ChatGPTCantSeeGBP() {
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
               You have done everything right with your Google Business Profile. Photos uploaded. Hours updated. Reviews collected. Services listed. Your profile is complete, verified, and ranking well in Google Maps. So when someone asks ChatGPT who the best provider is in your city, you expect to be mentioned. But you are not. A competitor with a worse Google presence gets recommended instead. The reason is simple: ChatGPT literally cannot see your Google Business Profile. It is completely blind to it.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Uncomfortable Truth</div>
               <p>
                 All the time and money you have invested in Google Business Profile optimization has <strong>zero direct impact</strong> on ChatGPT recommendations. ChatGPT uses Bing, not Google. Your GBP reviews, photos, posts, and Q&amp;A entries are invisible to it. If ChatGPT is where your customers are going for recommendations, you are optimizing the wrong platform.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure if ChatGPT is recommending your competitors instead of you?</p>
+              <p>Not sure if ChatGPT is recommending your competitors instead of you? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -261,7 +261,7 @@ export default function ChatGPTCantSeeGBP() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               There are two technical reasons ChatGPT cannot access your Google Business Profile, and understanding them is the first step toward fixing your AI visibility.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Pros/Cons: Why GBP Is Invisible */}
             <div className="not-prose ae-pros-cons">
@@ -288,11 +288,11 @@ export default function ChatGPTCantSeeGBP() {
             </div>
 
             <div className="not-prose ae-quote">
-              <p>Your Google Business Profile might be flawless. But to ChatGPT, it does not exist. Optimizing only for Google is like advertising on a billboard facing away from traffic.</p>
+              <p>Your Google Business Profile might be flawless. But to ChatGPT, it does not exist. Optimizing only for Google is like advertising on a billboard facing away from traffic. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want an expert to audit your AI visibility across all platforms?</p>
+              <p>Want an expert to audit your AI visibility across all platforms? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229</a>
             </div>
 
@@ -303,7 +303,7 @@ export default function ChatGPTCantSeeGBP() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               The good news: ChatGPT is not completely blind to your business. It pulls from several important information sources. Here is the complete breakdown of what is visible and what is blocked.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* Comparison Table */}
             <div className="not-prose ae-comparison-table">
@@ -374,7 +374,7 @@ export default function ChatGPTCantSeeGBP() {
               <div className="ae-takeaway-title">Key Takeaway</div>
               <p>
                 Seven major data sources are visible to ChatGPT. Three critical Google properties are completely blocked. If your entire online strategy revolves around Google, you are invisible to the fastest-growing search platform in history.
-              </p>
+               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* Bar Chart: Source Impact */}
@@ -417,7 +417,7 @@ export default function ChatGPTCantSeeGBP() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Find out exactly what ChatGPT sees (and misses) about your business.</p>
+              <p>Find out exactly what ChatGPT sees (and misses) about your business. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Audit</Link>
             </div>
 
@@ -428,7 +428,7 @@ export default function ChatGPTCantSeeGBP() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Now that you know where ChatGPT looks, here is how to make sure it finds the right information about your business at every source.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Decision Matrix */}
             <div className="not-prose ae-decision-matrix">
@@ -491,7 +491,7 @@ export default function ChatGPTCantSeeGBP() {
             {/* Cheat Sheet: Website Optimization */}
             <div className="not-prose ae-cheat-sheet">
               <div className="ae-cheat-sheet-title">Website Optimization Cheat Sheet for ChatGPT</div>
-              <p><strong>Content Must-Haves:</strong></p>
+              <p><strong>Content Must-Haves:</strong> One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <ul>
                 <li>Explicit service descriptions on dedicated pages</li>
                 <li>Service areas with neighborhood-level specificity</li>
@@ -499,7 +499,7 @@ export default function ChatGPTCantSeeGBP() {
                 <li>About page with credentials, experience, and team info</li>
                 <li>Testimonials displayed as plain text (not JavaScript widgets)</li>
               </ul>
-              <p><strong>Technical Must-Haves:</strong></p>
+              <p><strong>Technical Must-Haves:</strong> Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <ul>
                 <li>LocalBusiness schema markup on every page</li>
                 <li>FAQ schema on service and about pages</li>
@@ -513,11 +513,11 @@ export default function ChatGPTCantSeeGBP() {
               <div className="ae-callout-title">Why Your Website Matters Most</div>
               <p>
                 Your website is the <strong>only source visible to every AI platform</strong>: ChatGPT, Google AI Overview, Perplexity, Claude, and Microsoft Copilot. While each platform has different secondary sources, your website is the universal constant. Treating it as the foundation of your AI strategy is not optional.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Need help optimizing your website for AI visibility?</p>
+              <p>Need help optimizing your website for AI visibility? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
             </div>
 
@@ -539,11 +539,11 @@ export default function ChatGPTCantSeeGBP() {
               <div className="ae-callout-title">Bing Places Is Essentially Your GBP for ChatGPT</div>
               <p>
                 Think of Bing Places as your Google Business Profile for the ChatGPT ecosystem. Since ChatGPT runs on Bing infrastructure, having a complete and verified Bing Places listing is the most direct way to feed ChatGPT accurate business data. Most local businesses have never claimed theirs, which creates a massive opportunity for those who do.
-              </p>
+               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want us to handle your Bing Places optimization?</p>
+              <p>Want us to handle your Bing Places optimization? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Start with a Free Blind Spot Report</Link>
             </div>
 
@@ -554,7 +554,7 @@ export default function ChatGPTCantSeeGBP() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               ChatGPT frequently cites Yelp when recommending local businesses. Even if you have deprioritized Yelp for years, it is worth building a presence there specifically for AI visibility. Here is what to focus on.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="not-prose ae-pros-cons">
               <div className="ae-pros-box">
@@ -581,7 +581,7 @@ export default function ChatGPTCantSeeGBP() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               Since ChatGPT cannot see your Google reviews, the only way for it to know about your customer feedback is to display reviews directly on your website as plain text. Not embedded widgets. Not JavaScript-loaded carousels. Actual text that an AI crawler can read in the raw HTML.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="not-prose ae-cheat-sheet">
               <div className="ae-cheat-sheet-title">Making Reviews Visible to AI</div>
@@ -596,7 +596,7 @@ export default function ChatGPTCantSeeGBP() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Unsure if your reviews are visible to AI platforms?</p>
+              <p>Unsure if your reviews are visible to AI platforms? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Quick Check</a>
             </div>
 
@@ -607,7 +607,7 @@ export default function ChatGPTCantSeeGBP() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Different AI platforms have access to different data sources. Here is how the major ones compare, and why a multi-platform strategy is essential.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Comparison Table: AI Platforms */}
             <div className="not-prose ae-comparison-table">
@@ -659,11 +659,11 @@ export default function ChatGPTCantSeeGBP() {
               <div className="ae-callout-title">The Common Denominator</div>
               <p>
                 Notice what every AI platform can access: <strong>your website</strong>. While the platforms differ in what other sources they use, your website is universally visible. This makes your website the single most important asset for AI visibility across all platforms. No exceptions.
-              </p>
+               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>See how your business scores across all five AI platforms.</p>
+              <p>See how your business scores across all five AI platforms. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Multi-Platform AI Audit</Link>
             </div>
 
@@ -674,29 +674,29 @@ export default function ChatGPTCantSeeGBP() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Based on what ChatGPT and other AI platforms can access, here is the exact order you should follow to maximize your AI visibility. Start from the top and work your way down.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* Timeline */}
             <div className="not-prose ae-timeline">
               <div className="ae-timeline-item">
                 <h3>Step 1: Optimize Your Website</h3>
-                <p>Visible to all AI platforms. Add clear service descriptions, location pages, testimonials as text, and proper schema markup. This is the single highest-impact action you can take.</p>
+                <p>Visible to all AI platforms. Add clear service descriptions, location pages, testimonials as text, and proper schema markup. This is the single highest-impact action you can take. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <h3>Step 2: Claim Bing Places</h3>
-                <p>Direct pathway to ChatGPT and Microsoft Copilot. Free to set up, takes 15 minutes, and you can import your data from Google to get started quickly.</p>
+                <p>Direct pathway to ChatGPT and Microsoft Copilot. Free to set up, takes 15 minutes, and you can import your data from Google to get started quickly. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
               <div className="ae-timeline-item">
                 <h3>Step 3: Build Yelp Presence</h3>
-                <p>Frequently cited by ChatGPT for local recommendations. Complete your profile, encourage reviews from satisfied customers, and respond to all feedback.</p>
+                <p>Frequently cited by ChatGPT for local recommendations. Complete your profile, encourage reviews from satisfied customers, and respond to all feedback. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <h3>Step 4: Display Reviews on Website</h3>
-                <p>Makes your Google reviews visible to AI by embedding them as plain text on your site. Include Review schema markup and link to original sources.</p>
+                <p>Makes your Google reviews visible to AI by embedding them as plain text on your site. Include Review schema markup and link to original sources. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <h3>Step 5: Keep GBP Updated</h3>
-                <p>Still essential for Google Search, Google Maps, and Google AI Overview. Do not neglect it. Just understand that it covers one AI platform, not all of them.</p>
+                <p>Still essential for Google Search, Google Maps, and Google AI Overview. Do not neglect it. Just understand that it covers one AI platform, not all of them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
@@ -704,11 +704,11 @@ export default function ChatGPTCantSeeGBP() {
               <div className="ae-callout-title">Do Not Make This Mistake</div>
               <p>
                 Most businesses pour all their optimization energy into Google Business Profile and ignore everything else. When customers start using ChatGPT for recommendations (and millions already are), these businesses are invisible. The fix is not to stop optimizing GBP. The fix is to <strong>also</strong> optimize the sources that ChatGPT can actually read.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure where your biggest AI visibility gaps are?</p>
+              <p>Not sure where your biggest AI visibility gaps are? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Get a Free Blind Spot Report</Link>
             </div>
 

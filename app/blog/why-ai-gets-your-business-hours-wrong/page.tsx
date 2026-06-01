@@ -319,11 +319,11 @@ export default function Page() {
             <span className="ae-section-label" id="the-problem">The Reality</span>
             <h2>The Scope of the Problem</h2>
 
-            <p>When someone searches &quot;best pizza place open near me&quot; on ChatGPT, Perplexity, or Google AI Mode, the AI does not call your restaurant to check. It does not visit your front door and read the sign. It assembles an answer from whatever data it has access to, and that data is often incomplete, outdated, or contradictory.</p>
+            <p>When someone searches &quot;best pizza place open near me&quot; on ChatGPT, Perplexity, or Google AI Mode, the AI does not call your restaurant to check. It does not visit your front door and read the sign. It assembles an answer from whatever data it has access to, and that data is often incomplete, outdated, or contradictory. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>This is not a minor inconvenience. It is a direct revenue problem. A customer who asks an AI assistant whether your business is open right now will trust the answer and act on it immediately. If the AI says you closed at 5:00 PM and you actually close at 8:00 PM, that customer walks to your competitor without ever knowing you were open.</p>
 
-            <p>The problem compounds during the moments that matter most: weekends, holidays, seasonal hours, and special events. These are exactly the times when customers are most likely to check hours using voice assistants and AI chatbots, and exactly the times when AI is most likely to get it wrong.</p>
+            <p>The problem compounds during the moments that matter most: weekends, holidays, seasonal hours, and special events. These are exactly the times when customers are most likely to check hours using voice assistants and AI chatbots, and exactly the times when AI is most likely to get it wrong. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>According to research on directory accuracy, 93% of consumers express frustration when they encounter incorrect business information online. And 73% of consumers lose trust entirely in a business that displays inaccurate details. When AI becomes the messenger of that inaccuracy, the damage extends beyond a single lost customer. It erodes the trust signals that AI platforms use to recommend you in the first place.</p>
 
@@ -331,7 +331,7 @@ export default function Page() {
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Silent Revenue Killer</div>
               <div className="ae-callout-body">
-                <p>Unlike a bad Google review or a negative Yelp comment, you will never see evidence of customers lost to wrong AI hours. There is no notification, no analytics event, no feedback form. The customer simply asks, gets the wrong answer, and goes elsewhere. The only way to catch this problem is to proactively audit what AI says about your business.</p>
+                <p>Unlike a bad Google review or a negative Yelp comment, you will never see evidence of customers lost to wrong AI hours. There is no notification, no analytics event, no feedback form. The customer simply asks, gets the wrong answer, and goes elsewhere. The only way to catch this problem is to proactively audit what AI says about your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               </div>
             </div>
 
@@ -345,26 +345,26 @@ export default function Page() {
             <span className="ae-section-label" id="where-ai-gets-hours">Data Sources</span>
             <h2>Where AI Actually Gets Your Hours</h2>
 
-            <p>AI platforms do not have a single, authoritative source for business hours. Instead, they pull from a patchwork of sources, each with its own update frequency, accuracy level, and weight in the final answer. Understanding these sources is the first step toward fixing the problem.</p>
+            <p>AI platforms do not have a single, authoritative source for business hours. Instead, they pull from a patchwork of sources, each with its own update frequency, accuracy level, and weight in the final answer. Understanding these sources is the first step toward fixing the problem. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Your Website</h3>
             <p>AI crawlers visit your website and look for hours information in two places: the visible text on your pages and the structured data (schema markup) embedded in your HTML. If your website says you close at 6:00 PM in the footer but your schema markup says 7:00 PM, the AI has two conflicting signals from the same source. Most business websites have hours listed in at least two locations, and they do not always match.</p>
 
             <h3>Google Business Profile</h3>
-            <p>Google Business Profile (GBP) is one of the most heavily weighted sources for local business data. Google AI Mode pulls directly from GBP in real time. Other AI platforms like ChatGPT and Perplexity also reference GBP data, though they access it through web scraping rather than direct API access, which introduces lag and potential errors.</p>
+            <p>Google Business Profile (GBP) is one of the most heavily weighted sources for local business data. Google AI Mode pulls directly from GBP in real time. Other AI platforms like ChatGPT and Perplexity also reference GBP data, though they access it through web scraping rather than direct API access, which introduces lag and potential errors. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <h3>Directory Listings</h3>
             <p>Yelp, Apple Maps, Facebook, TripAdvisor, Yellow Pages, and dozens of industry-specific directories all store your business hours independently. Each directory has its own data pipeline, its own update process, and its own crawl schedule. If you changed your hours six months ago and only updated Google, every other directory may still show the old hours.</p>
 
             <h3>Training Data</h3>
-            <p>Large language models like ChatGPT and Claude are trained on massive datasets that include web snapshots from specific points in time. If your hours were different when the training data was collected, the AI may have &quot;learned&quot; incorrect hours that persist even after you update every online listing. This is one of the hardest sources of error to correct because it exists inside the model itself.</p>
+            <p>Large language models like ChatGPT and Claude are trained on massive datasets that include web snapshots from specific points in time. If your hours were different when the training data was collected, the AI may have &quot;learned&quot; incorrect hours that persist even after you update every online listing. This is one of the hardest sources of error to correct because it exists inside the model itself. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>Cached Web Pages</h3>
             <p>Even AI platforms that perform real-time web searches often work with cached versions of pages. A crawler that visited your site three weeks ago may have captured your old hours, and those cached results continue appearing in AI responses until the next crawl happens. Crawl frequency depends on your site&apos;s authority, update frequency, and the specific AI platform&apos;s crawl budget.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Curious what AI crawlers actually see when they visit your website?</p>
+              <p>Curious what AI crawlers actually see when they visit your website? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">What Your Website Looks Like to an AI Crawler &rarr;</Link>
             </div>
 
@@ -374,15 +374,15 @@ export default function Page() {
 
             <p>Understanding why your hours differ across platforms is more important than knowing where they differ. The root causes fall into a few predictable categories.</p>
 
-            <p><strong>Stale updates.</strong> The most common cause. You changed your hours on Google Business Profile but forgot to update Yelp, Apple Maps, your Facebook page, and the footer of your website. Or you updated your website but forgot Google. Every platform you miss becomes a source of outdated information that AI may pull from.</p>
+            <p><strong>Stale updates.</strong> The most common cause. You changed your hours on Google Business Profile but forgot to update Yelp, Apple Maps, your Facebook page, and the footer of your website. Or you updated your website but forgot Google. Every platform you miss becomes a source of outdated information that AI may pull from. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p><strong>Data aggregator delays.</strong> Many directories pull their data from aggregation services (Foursquare, Data Axle, Localeze). When you update your hours with one directory, the change may take weeks or months to propagate through the aggregator network. During that delay, different directories show different hours, and AI sees the inconsistency.</p>
 
-            <p><strong>Format mismatches.</strong> Some directories store hours as simple text (&quot;Mon-Fri 9-5&quot;), others use structured formats, and others allow free-form descriptions. An AI parser may misinterpret &quot;9-5&quot; as 9:00 AM to 5:00 AM, or read &quot;Open until midnight&quot; and not know which days that applies to. Ambiguous formatting creates parsing errors that produce wrong hours in AI responses.</p>
+            <p><strong>Format mismatches.</strong> Some directories store hours as simple text (&quot;Mon-Fri 9-5&quot;), others use structured formats, and others allow free-form descriptions. An AI parser may misinterpret &quot;9-5&quot; as 9:00 AM to 5:00 AM, or read &quot;Open until midnight&quot; and not know which days that applies to. Ambiguous formatting creates parsing errors that produce wrong hours in AI responses. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p><strong>Holiday and seasonal overrides.</strong> Temporary hour changes for holidays, seasons, or special events create a cascade of data conflicts. You update Google for the holiday, your website still shows regular hours, and after the holiday you forget to revert one of the listings. Now three different platforms show three different versions of your hours.</p>
 
-            <p><strong>Third-party edits.</strong> On platforms like Google Business Profile, anyone can suggest edits to your listing, including your hours. If Google accepts a suggested edit that changes your hours, and you do not notice, your GBP may show incorrect hours for weeks while every other platform shows the correct ones. AI seeing the conflict may choose either version.</p>
+            <p><strong>Third-party edits.</strong> On platforms like Google Business Profile, anyone can suggest edits to your listing, including your hours. If Google accepts a suggested edit that changes your hours, and you do not notice, your GBP may show incorrect hours for weeks while every other platform shows the correct ones. AI seeing the conflict may choose either version. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Callout 2 */}
             <div className="ae-callout ae-callout-info not-prose">
@@ -394,7 +394,7 @@ export default function Page() {
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Your Google Business Profile is one piece of the puzzle. Make sure it is working for you.</p>
+              <p>Your Google Business Profile is one piece of the puzzle. Make sure it is working for you. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">How to Optimize Your Google Business Profile for AI &rarr;</Link>
             </div>
 
@@ -404,11 +404,11 @@ export default function Page() {
 
             <p>When an AI platform encounters conflicting hours data from multiple sources, it applies a weighting system to determine which version to present. While the exact algorithms are proprietary, the general approach follows a consistent pattern across platforms.</p>
 
-            <p><strong>Source authority.</strong> AI platforms assign different trust levels to different sources. Google Business Profile generally carries more weight than a secondary directory listing. Your official website, especially when it includes schema markup, ranks high. A random blog post mentioning your hours ranks low.</p>
+            <p><strong>Source authority.</strong> AI platforms assign different trust levels to different sources. Google Business Profile generally carries more weight than a secondary directory listing. Your official website, especially when it includes schema markup, ranks high. A random blog post mentioning your hours ranks low. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p><strong>Recency.</strong> More recently updated sources carry more weight. If your website was last crawled yesterday and your Yelp listing was last crawled three months ago, the website data is more likely to win in a conflict. This is why crawl frequency matters so much for time-sensitive data like business hours.</p>
 
-            <p><strong>Consistency count.</strong> If 40 out of 47 sources agree that you close at 6:00 PM and 7 sources say 8:00 PM, the majority typically wins, even if the 7 sources include your own website. This is why a single update on one platform is not enough. You need the majority of your listings to agree.</p>
+            <p><strong>Consistency count.</strong> If 40 out of 47 sources agree that you close at 6:00 PM and 7 sources say 8:00 PM, the majority typically wins, even if the 7 sources include your own website. This is why a single update on one platform is not enough. You need the majority of your listings to agree. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p><strong>Structured data preference.</strong> AI systems strongly prefer structured data (schema markup, API responses) over unstructured text. A JSON-LD block on your website that clearly specifies &quot;openingHours&quot; is easier for AI to parse and more likely to be trusted than a sentence in your footer that says &quot;We are open Monday through Friday until 6.&quot;</p>
 
@@ -478,7 +478,7 @@ export default function Page() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure how many directories have your wrong hours? We can find out.</p>
+              <p>Not sure how many directories have your wrong hours? We can find out. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -488,11 +488,11 @@ export default function Page() {
 
             <p>Holiday hours are the single biggest source of AI hours errors for local businesses. The cycle is predictable and damaging.</p>
 
-            <p>Before a holiday, you update your Google Business Profile with temporary hours. Maybe you also update your website. Rarely do you update every directory listing. The AI crawlers that visit during the holiday period cache your temporary hours. After the holiday, you revert your Google listing but forget to check whether the AI platforms updated. For weeks or months afterward, AI assistants may display your holiday hours as your regular schedule.</p>
+            <p>Before a holiday, you update your Google Business Profile with temporary hours. Maybe you also update your website. Rarely do you update every directory listing. The AI crawlers that visit during the holiday period cache your temporary hours. After the holiday, you revert your Google listing but forget to check whether the AI platforms updated. For weeks or months afterward, AI assistants may display your holiday hours as your regular schedule. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>The problem is worse for businesses with complex seasonal patterns. A restaurant that shifts to summer hours in June, adds special weekend brunch hours in September, and closes early on winter weeknights is creating a constantly shifting target that AI platforms struggle to track accurately. Each change creates new opportunities for data conflicts across directories.</p>
 
-            <p>Even businesses that update every listing for every change can still get caught. If an AI crawler visits your Yelp listing during the two-day window between when you posted holiday hours and when you reverted to normal hours, that cached snapshot may persist in AI responses for months.</p>
+            <p>Even businesses that update every listing for every change can still get caught. If an AI crawler visits your Yelp listing during the two-day window between when you posted holiday hours and when you reverted to normal hours, that cached snapshot may persist in AI responses for months. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Callout 3 */}
             <div className="ae-callout ae-callout-orange not-prose">
@@ -504,7 +504,7 @@ export default function Page() {
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Holiday season approaching? Make sure AI knows your real schedule.</p>
+              <p>Holiday season approaching? Make sure AI knows your real schedule. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
             </div>
 
@@ -514,11 +514,11 @@ export default function Page() {
 
             <p>Not all AI platforms handle business hours the same way. Understanding the differences helps you prioritize where to focus your accuracy efforts.</p>
 
-            <p><strong>ChatGPT and GPT-based tools.</strong> ChatGPT uses a combination of training data and real-time web browsing (when enabled). Without web browsing, it relies entirely on training data that could be months old. With web browsing, it searches the web and may pull hours from any source it finds, including directories with outdated information. ChatGPT has no built-in mechanism to verify hours accuracy.</p>
+            <p><strong>ChatGPT and GPT-based tools.</strong> ChatGPT uses a combination of training data and real-time web browsing (when enabled). Without web browsing, it relies entirely on training data that could be months old. With web browsing, it searches the web and may pull hours from any source it finds, including directories with outdated information. ChatGPT has no built-in mechanism to verify hours accuracy. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p><strong>Google AI Mode and AI Overviews.</strong> Google has the advantage of direct access to Google Business Profile data in real time. When generating AI responses about local businesses, Google AI Mode typically pulls hours directly from GBP. This makes it the most accurate platform for hours, assuming your GBP listing is current. However, if your GBP hours conflict with your website, Google may note the discrepancy or choose the GBP version.</p>
 
-            <p><strong>Perplexity.</strong> Perplexity performs real-time web searches for every query and cites its sources. This means you can often see exactly where it pulled your hours from. The downside: Perplexity may cite a source that is itself outdated. A directory listing that has not been updated in six months can become the cited source for your &quot;current&quot; hours.</p>
+            <p><strong>Perplexity.</strong> Perplexity performs real-time web searches for every query and cites its sources. This means you can often see exactly where it pulled your hours from. The downside: Perplexity may cite a source that is itself outdated. A directory listing that has not been updated in six months can become the cited source for your &quot;current&quot; hours. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p><strong>Apple Intelligence and Siri.</strong> Apple pulls heavily from Apple Maps Connect and its own database of business information. If your Apple Maps listing has different hours than your Google listing, Siri and Apple Intelligence will display the Apple Maps version regardless of what other sources say. This creates a separate data silo that many business owners forget to maintain.</p>
 
@@ -548,7 +548,7 @@ export default function Page() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>AI platforms handle your business data differently. See what each one actually says about you.</p>
+              <p>AI platforms handle your business data differently. See what each one actually says about you. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -558,11 +558,11 @@ export default function Page() {
 
             <p>Wrong hours in AI responses cost businesses money in three ways that compound over time.</p>
 
-            <p><strong>Direct lost visits.</strong> A customer who is told you are closed will not visit. They will go to a competitor that the AI says is open. Research shows that up to 68% of potential customers are lost when business data is inconsistent across platforms. Every wrong-hours response from an AI assistant represents a customer who was ready to buy but was turned away by bad data.</p>
+            <p><strong>Direct lost visits.</strong> A customer who is told you are closed will not visit. They will go to a competitor that the AI says is open. Research shows that up to 68% of potential customers are lost when business data is inconsistent across platforms. Every wrong-hours response from an AI assistant represents a customer who was ready to buy but was turned away by bad data. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p><strong>Eroded trust signals.</strong> When AI gets your hours wrong and a customer discovers the discrepancy (they drive to your business and find you open when the AI said you were closed), they may leave a review mentioning the incorrect information. That negative sentiment then becomes part of the data that AI uses to evaluate your business, creating a feedback loop of declining trust.</p>
 
-            <p><strong>Reduced AI visibility over time.</strong> AI platforms that repeatedly encounter conflicting data about your business may reduce their confidence in recommending you at all. If your hours are inconsistent, what else might be wrong? This uncertainty can cause AI to default to competitors with cleaner, more consistent data profiles, even if those competitors offer an inferior service.</p>
+            <p><strong>Reduced AI visibility over time.</strong> AI platforms that repeatedly encounter conflicting data about your business may reduce their confidence in recommending you at all. If your hours are inconsistent, what else might be wrong? This uncertainty can cause AI to default to competitors with cleaner, more consistent data profiles, even if those competitors offer an inferior service. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Quote */}
             <div className="ae-quote not-prose">
@@ -581,15 +581,15 @@ export default function Page() {
             <span className="ae-section-label" id="signals-that-matter">What Works</span>
             <h2>Signals That Matter Most</h2>
 
-            <p>Not all hours signals carry equal weight. If you are going to invest time and effort into fixing your hours accuracy across AI platforms, focus on the signals that have the greatest impact.</p>
+            <p>Not all hours signals carry equal weight. If you are going to invest time and effort into fixing your hours accuracy across AI platforms, focus on the signals that have the greatest impact. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p><strong>Schema markup on your website.</strong> This is the single highest-impact signal you control. A properly formatted JSON-LD block on your website that specifies your opening hours in machine-readable format gives AI crawlers exactly what they need. No parsing ambiguity. No interpretation errors. Clear, structured data that says exactly when you open and close, for each day of the week.</p>
 
-            <p><strong>Google Business Profile accuracy.</strong> GBP is the most frequently referenced source for local business data across all AI platforms. Keeping it accurate and up to date should be a weekly habit, not an annual task. This includes regular hours, special hours for holidays, and seasonal adjustments.</p>
+            <p><strong>Google Business Profile accuracy.</strong> GBP is the most frequently referenced source for local business data across all AI platforms. Keeping it accurate and up to date should be a weekly habit, not an annual task. This includes regular hours, special hours for holidays, and seasonal adjustments. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p><strong>Cross-platform consistency.</strong> The single biggest factor in whether AI displays correct hours is whether your hours are the same everywhere. When 95% of your listings agree, AI trusts the consensus. When only 60% agree, AI guesses. Make consistency your priority above all else.</p>
 
-            <p><strong>Update frequency.</strong> AI crawlers pay attention to how often your data changes. A business that updates its Google Business Profile monthly and publishes regular website content signals that its information is actively maintained. A business whose website has not been updated in two years signals that any data found there may be outdated.</p>
+            <p><strong>Update frequency.</strong> AI crawlers pay attention to how often your data changes. A business that updates its Google Business Profile monthly and publishes regular website content signals that its information is actively maintained. A business whose website has not been updated in two years signals that any data found there may be outdated. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -635,21 +635,21 @@ export default function Page() {
             <span className="ae-section-label" id="common-mistakes">Avoidable Errors</span>
             <h2>Common Mistakes Business Owners Make</h2>
 
-            <p>After auditing hundreds of local business profiles, we see the same hours-related mistakes over and over. Recognizing these patterns is the first step toward avoiding them.</p>
+            <p>After auditing hundreds of local business profiles, we see the same hours-related mistakes over and over. Recognizing these patterns is the first step toward avoiding them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p><strong>Updating one platform and assuming the rest will follow.</strong> This is the number one mistake. Updating your Google Business Profile does not update Yelp. Updating Yelp does not update Apple Maps. Updating Apple Maps does not update your website schema. Each platform is independent. Each one requires a separate update. There is no automatic sync between them.</p>
 
-            <p><strong>Using ambiguous hour formats.</strong> Writing &quot;Open 9-5&quot; instead of &quot;Open 9:00 AM to 5:00 PM&quot; creates parsing ambiguity for AI. Writing &quot;Open late on weekends&quot; without specifying a time gives AI nothing useful to work with. The more precise your formatting, the more accurate AI will be.</p>
+            <p><strong>Using ambiguous hour formats.</strong> Writing &quot;Open 9-5&quot; instead of &quot;Open 9:00 AM to 5:00 PM&quot; creates parsing ambiguity for AI. Writing &quot;Open late on weekends&quot; without specifying a time gives AI nothing useful to work with. The more precise your formatting, the more accurate AI will be. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <p><strong>Forgetting about data aggregators.</strong> Services like Data Axle, Foursquare, and Localeze feed hours data to dozens of directories simultaneously. If your hours are wrong in an aggregator, they will be wrong across every directory that aggregator feeds. Fixing individual directories without fixing the source aggregator means your corrections will eventually be overwritten.</p>
 
-            <p><strong>Neglecting seasonal transitions.</strong> Businesses with seasonal hours often update for the start of a new season but forget to revert when the season ends. A pool cleaning company that adds Saturday hours for summer and forgets to remove them in October creates a four-month window of incorrect AI data.</p>
+            <p><strong>Neglecting seasonal transitions.</strong> Businesses with seasonal hours often update for the start of a new season but forget to revert when the season ends. A pool cleaning company that adds Saturday hours for summer and forgets to remove them in October creates a four-month window of incorrect AI data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <p><strong>Ignoring Apple Maps entirely.</strong> Many business owners focus exclusively on Google. But Apple devices now use Apple Intelligence for local queries, and Siri pulls from Apple Maps Connect. If your Apple listing has not been claimed or updated, every Apple user asking about your hours gets the wrong answer.</p>
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Think your listings are consistent? Most businesses we audit have errors they did not know about.</p>
+              <p>Think your listings are consistent? Most businesses we audit have errors they did not know about. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -705,7 +705,7 @@ export default function Page() {
 
             {/* CTA 11 */}
             <div className="ae-cta-inline not-prose">
-              <p>Running through this checklist and finding gaps? We fix these issues every day.</p>
+              <p>Running through this checklist and finding gaps? We fix these issues every day. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 

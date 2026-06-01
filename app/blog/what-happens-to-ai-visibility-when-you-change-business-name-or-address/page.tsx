@@ -247,39 +247,39 @@ export default function Page() {
 
           <p className="text-xl text-gray-300 leading-relaxed mb-8">
             You rebranded your business. New name, new signage, maybe a new location. The website is updated. The Google Business Profile reflects the change. Everything looks right to you. But when a customer asks ChatGPT or Perplexity for a recommendation in your industry, you are nowhere to be found. What happened?
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-8">
             AI platforms do not operate the way traditional search engines do. They do not simply crawl your website and accept whatever they find. They cross-reference data from Foursquare, Yelp, Apple Maps, your website, and dozens of other sources before deciding whether to recommend you. When that data conflicts, even slightly, AI loses confidence in your business. And when AI loses confidence, it stops mentioning you entirely.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">How AI Platforms Actually Verify Your Business</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Think of every AI platform as a fact-checker with trust issues. Before recommending your business to anyone, it gathers data from multiple independent sources and compares them. Your website says one thing. Your Yelp listing says another. Foursquare has a third version. Apple Maps shows something else. The AI platform looks at all of it.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             When those sources agree, AI confidence is high and recommendations flow freely. When they disagree, the AI faces a dilemma: which version is correct? Rather than risk giving bad information, it often chooses the safest option. It recommends a competitor whose data is clean and consistent instead.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             ChatGPT recommends only about 1.2% of all local business locations. That is an incredibly small window. The businesses that earn those recommendations have airtight data consistency. One mismatch between your business name on Yelp and your name on Foursquare can push you out of that tiny circle.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">The NAP Consistency Problem</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             NAP stands for Name, Address, and Phone number. It is the most fundamental piece of business identity data on the internet. And it is the first thing that breaks when you change your business name or move to a new address.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Here is why this matters so much for AI visibility: when your phone number on your website does not match what is listed on your Google Business Profile, or when your business name on Yelp differs from what Foursquare shows, AI platforms interpret that as uncertainty. They do not know which version to trust, so they trust none of them.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             The consumer data backs this up. 62% of consumers avoid businesses with incorrect information online. 7% abandon their search entirely if they see a wrong address. And 26% have actually visited businesses at incorrect hours because the information was outdated. AI platforms are aware of these patterns, and they are designed to prevent exactly these outcomes by filtering out businesses with inconsistent data.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6 mb-8">
             <h3 className="text-xl font-semibold text-white mb-4">Where AI Cross-References Your Business Data</h3>
@@ -313,45 +313,45 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-6">
             If you update your website and Google Business Profile but forget about Foursquare, Bing Places, and Apple Maps, you have just created exactly the kind of data conflict that makes AI platforms stop trusting your business information.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">What Happens During a Name Change</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             A business name change is one of the most disruptive events for AI visibility. Here is why: AI platforms build a profile of your business over time by connecting signals from multiple sources. Your old business name is the thread that ties all those signals together. When you change the name, you are effectively cutting that thread.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Your reviews on Yelp are under the old name. Your Foursquare listing still shows the previous name. Customers who wrote about you on social media referenced the old name. Industry directories have the old name cached. All of those signals that once reinforced your business identity now point to something that technically no longer exists.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             The AI sees your website with the new name and a handful of directory listings with the old name. It cannot confidently connect them. So instead of recommending you with lower confidence, it recommends competitors whose identity data is crystal clear.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">What Happens During an Address Change</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             An address change is less disruptive to your brand identity but equally damaging to AI confidence scoring. The core problem is timing. You update your website address on day one. But Yelp might not reflect the change for weeks. Foursquare may take even longer. Apple Maps operates on its own update cycle. And during that gap, every AI query about your business encounters conflicting address data.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             This is not a theoretical risk. 26% of consumers have visited businesses at incorrect locations or during wrong hours because of outdated listing data. AI platforms know this. They actively penalize businesses whose address data conflicts across sources because recommending a business at the wrong address is one of the worst possible outcomes for user trust.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             If a customer asks ChatGPT for a recommendation and gets sent to your old address, that is not just a bad experience for the customer. It is a trust violation that makes the AI less likely to cite any business with shaky data in the future.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">The Structured Data Safety Net</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Here is the good news: structured data on your website acts as a primary source of truth for AI platforms. Sites with structured data get cited 3.2 times more in AI responses than sites without it. When you change your business name or address, your schema markup is the single most important thing to update first.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Your LocalBusiness schema tells AI exactly who you are, where you are, and what you do in a format that leaves zero ambiguity. While directory listings may take weeks to update, your schema markup changes instantly when you update your website. AI platforms that crawl your site will immediately see the authoritative, structured version of your new information.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6 mb-8">
             <h3 className="text-xl font-semibold text-white mb-4">Structured Data Priority List for Business Changes</h3>
@@ -383,47 +383,47 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-6">
             The businesses that survive a name or address change with their AI visibility intact are the ones that treat it like a coordinated operation, not a casual update. Here is the playbook:
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             <strong className="text-white">Before the change:</strong> Audit every directory, platform, and listing where your business appears. Make a complete list. This includes the obvious ones (Google, Yelp, Facebook) and the ones you have probably forgotten about (Foursquare, Bing Places, Apple Maps, industry-specific directories, local chamber of commerce pages, and data aggregators like Data Axle and Localeze).
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             <strong className="text-white">On change day:</strong> Update everything simultaneously. Your website schema markup, your Google Business Profile, your Bing Places listing, your Apple Maps Connect profile, and every directory you identified. The goal is zero lag time between sources.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             <strong className="text-white">For name changes specifically:</strong> Keep a reference to your previous business name on your About page or in your schema using the alternateName property. This helps AI platforms connect your old identity to your new one during the transition. Something like &quot;formerly known as [Old Name]&quot; gives AI the bridge it needs.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             <strong className="text-white">For address changes specifically:</strong> If your website URL does not change, implement a clear address update notice on your site. If you had location-specific URLs, set up 301 redirects. Make sure your Google Maps embed shows the new location, and update any driving directions or service area content.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             <strong className="text-white">After the change:</strong> Monitor your AI visibility weekly. Ask ChatGPT, Perplexity, and Google AI about your business by name and by service category. Check whether they are returning accurate information. If they are showing old data, identify which source still has conflicting information and fix it.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">The Recovery Timeline</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Even with a perfect execution, AI platforms need time to re-crawl, re-index, and rebuild confidence in your updated business data. Here is a realistic timeline:
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6 mb-8">
             <div className="space-y-4 text-gray-300">
               <div>
-                <p className="text-white font-semibold">Week 1-2: Immediate Impact</p>
-                <p>AI platforms may show mixed or outdated information. Your website reflects the change but cached directory data still shows old information. Expect a temporary drop in AI citations.</p>
+                <p className="text-white font-semibold">Week 1-2: Immediate Impact Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+                <p>AI platforms may show mixed or outdated information. Your website reflects the change but cached directory data still shows old information. Expect a temporary drop in AI citations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <div>
-                <p className="text-white font-semibold">Week 3-4: Directory Propagation</p>
-                <p>Major directories begin reflecting your updates. AI platforms start seeing more consistent data across sources. Citation confidence begins rebuilding.</p>
+                <p className="text-white font-semibold">Week 3-4: Directory Propagation <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                <p>Major directories begin reflecting your updates. AI platforms start seeing more consistent data across sources. Citation confidence begins rebuilding. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
               <div>
-                <p className="text-white font-semibold">Week 5-8: Confidence Restoration</p>
-                <p>If all sources now show consistent data, AI platforms should be recommending you at or near previous levels. Any lingering inconsistencies will continue to drag on recovery.</p>
+                <p className="text-white font-semibold">Week 5-8: Confidence Restoration Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                <p>If all sources now show consistent data, AI platforms should be recommending you at or near previous levels. Any lingering inconsistencies will continue to drag on recovery. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
               <div>
                 <p className="text-white font-semibold">Month 3+: Full Recovery</p>

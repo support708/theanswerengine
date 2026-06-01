@@ -258,17 +258,17 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-3 mb-5">The Invisible Shop Problem</h2>
             <p className="text-gray-300 leading-relaxed mb-5">
               Picture this scenario: a car overheats on the 405. The driver pulls into a gas station parking lot, opens ChatGPT, and types "best mechanic near me who can handle an overheating engine." Within seconds, AI delivers three names, addresses, phone numbers, and brief explanations of why each shop earned the recommendation.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <p className="text-gray-300 leading-relaxed mb-5">
               Your shop is not one of them. Not because you do poor work. Not because you have bad reviews. Because AI simply does not have enough structured, trustworthy data about your business to include you in the answer.
             </p>
             <p className="text-gray-300 leading-relaxed mb-5">
               This is the invisible shop problem, and it is affecting the overwhelming majority of independent and regional auto repair operations in the United States right now. The shift from search-result browsing to direct AI answers happened faster than most small business owners realized. By the time the pattern becomes obvious through declining call volume and slowing new customer acquisition, competitors have already locked in their AI visibility advantage.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-warning mb-6">
               <p className="ae-callout-title">The Window Is Closing</p>
-              <p className="ae-callout-body">AI search is still in an early adoption phase for local business discovery. Shops that establish AI visibility now lock in a structural advantage that will be much harder and more expensive to build as the space matures. The time to act is before your market saturates, not after.</p>
+              <p className="ae-callout-body">AI search is still in an early adoption phase for local business discovery. Shops that establish AI visibility now lock in a structural advantage that will be much harder and more expensive to build as the space matures. The time to act is before your market saturates, not after. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p className="text-gray-300 leading-relaxed">
@@ -278,7 +278,7 @@ export default function Page() {
 
           {/* Inline CTA 1 */}
           <div className="ae-cta-inline mb-12">
-            <p className="text-white font-semibold mb-1">Not sure if AI can find your shop right now?</p>
+            <p className="text-white font-semibold mb-1">Not sure if AI can find your shop right now? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-400 text-sm mb-3">Get your free Blind Spot Report and see exactly how AI platforms describe your business today.</p>
             <Link href="/blindspot" className="ae-cta-primary">
               Get My Free Blind Spot Report
@@ -291,19 +291,19 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-3 mb-5">How AI Search Actually Works</h2>
             <p className="text-gray-300 leading-relaxed mb-5">
               Traditional search gave you a page of links. You clicked through, scanned a few websites, and made a choice. AI search collapses that entire process into a single answer. The AI platform does the research, synthesizes the findings, and presents one definitive response with a short list of recommended businesses.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-300 leading-relaxed mb-5">
               Platforms like ChatGPT, Perplexity, Google AI Overviews, and Apple Intelligence operate on the same fundamental logic: pull available data about relevant businesses, evaluate credibility and relevance signals, and generate a confident recommendation. The difference from traditional search is enormous in practice. There is no page two. There is no runner-up position. There are the businesses AI recommends and the businesses it does not.
             </p>
 
             <div className="ae-callout ae-callout-info mb-6">
-              <p className="ae-callout-title">What GEO Means for Auto Shops</p>
+              <p className="ae-callout-title">What GEO Means for Auto Shops <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <p className="ae-callout-body">Generative Engine Optimization (GEO) is the discipline of structuring your web presence so that AI systems can read, understand, and confidently recommend your business. For auto repair shops, it means being crystal clear about every service you offer, every area you serve, and why customers trust you, in a format that AI crawlers can actually access and parse. GEO is not about gaming algorithms. It is about removing every obstacle that prevents AI from accurately representing your business.</p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The platforms that matter most for auto repair discovery each have slightly different data sources and ranking signals. What they share is a common dependency on structured, crawlable, consistent information. If your shop exists primarily as a Google Business Profile entry, a Facebook page, and an older website built on a JavaScript-heavy page builder, the majority of AI platforms simply cannot see you.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             <p className="text-gray-300 leading-relaxed">
               AI rewards three qualities above all others: clarity (can it understand exactly what you do and where you do it?), authority (are there multiple independent sources that confirm you are a credible business?), and consistency (does your business information match across every platform it checks?). Miss any one of these, and AI defaults to a competitor who has all three.
             </p>
@@ -315,7 +315,7 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-3 mb-5">What AI Evaluates About Your Shop</h2>
             <p className="text-gray-300 leading-relaxed mb-5">
               AI platforms do not experience your shop the way a customer does. They cannot drive by, see your signage, or talk to your service advisor. They evaluate your business entirely through the data trail you leave across the web, and that data trail is either rich enough to trust or thin enough to ignore.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* Bar chart: signal weight */}
             <div className="not-prose my-8 p-6 rounded-xl bg-white/5 border border-white/10">
@@ -359,7 +359,7 @@ export default function Page() {
             </p>
             <p className="text-gray-300 leading-relaxed mb-5">
               Beyond the website, AI aggregates signals from everywhere it can reach: business directories that serve crawlable HTML, review platforms, news mentions, blog citations, and forum discussions. All of these contribute to the picture AI builds about your shop. The shops AI recommends most consistently are those whose credibility is confirmed by many independent sources, not just one or two.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed">
               The video dimension deserves special attention. Video now accounts for 82% of all internet traffic, yet the vast majority of auto shop websites have no video content whatsoever. Shops that publish even basic shop-tour videos or service explainers on their website and YouTube gain a meaningful edge, because AI can reference video content as evidence of a real, active business.
             </p>
@@ -371,7 +371,7 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-3 mb-5">The Visibility Gap in Auto Repair</h2>
             <p className="text-gray-300 leading-relaxed mb-5">
               The 87.3% figure is not an abstraction. Nationwide analysis of auto repair shop digital presences reveals a consistent pattern of structural gaps that make AI recommendation nearly impossible. The majority of shops have one or more of these critical deficiencies:
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose my-8 grid sm:grid-cols-2 gap-4">
               <div className="p-5 rounded-xl bg-red-500/10 border border-red-500/20">
@@ -380,7 +380,7 @@ export default function Page() {
               </div>
               <div className="p-5 rounded-xl bg-red-500/10 border border-red-500/20">
                 <div className="text-red-400 font-semibold mb-2 text-sm">Critical Gap: Review Platform Concentration</div>
-                <p className="text-gray-400 text-sm">Reviews exist only on Google, which uses JavaScript rendering that prevents ChatGPT and Perplexity from accessing them at all.</p>
+                <p className="text-gray-400 text-sm">Reviews exist only on Google, which uses JavaScript rendering that prevents ChatGPT and Perplexity from accessing them at all. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-red-500/10 border border-red-500/20">
                 <div className="text-red-400 font-semibold mb-2 text-sm">Critical Gap: NAP Inconsistency</div>
@@ -388,13 +388,13 @@ export default function Page() {
               </div>
               <div className="p-5 rounded-xl bg-red-500/10 border border-red-500/20">
                 <div className="text-red-400 font-semibold mb-2 text-sm">Critical Gap: JavaScript-Only Content</div>
-                <p className="text-gray-400 text-sm">Website built entirely on JavaScript frameworks or page builders that deliver content dynamically. AI crawlers arrive and see a near-empty page.</p>
+                <p className="text-gray-400 text-sm">Website built entirely on JavaScript frameworks or page builders that deliver content dynamically. AI crawlers arrive and see a near-empty page. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
             </div>
 
             <div className="ae-callout ae-callout-orange mb-6">
               <p className="ae-callout-title">The Compounding Problem</p>
-              <p className="ae-callout-body">Each visibility gap compounds the others. A shop with a thin website AND inconsistent NAP AND Google-only reviews is not just three problems deep. Each gap reduces the AI platform's confidence in the business, making it progressively less likely to appear even in queries where it would otherwise be a strong match. The compound effect means that shops in the worst shape are often dramatically further behind than they realize.</p>
+              <p className="ae-callout-body">Each visibility gap compounds the others. A shop with a thin website AND inconsistent NAP AND Google-only reviews is not just three problems deep. Each gap reduces the AI platform's confidence in the business, making it progressively less likely to appear even in queries where it would otherwise be a strong match. The compound effect means that shops in the worst shape are often dramatically further behind than they realize. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             <p className="text-gray-300 leading-relaxed">
@@ -404,7 +404,7 @@ export default function Page() {
 
           {/* Inline CTA 2 */}
           <div className="ae-cta-inline mb-12">
-            <p className="text-white font-semibold mb-1">Which gaps does your shop have right now?</p>
+            <p className="text-white font-semibold mb-1">Which gaps does your shop have right now? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <p className="text-gray-400 text-sm mb-3">Our Blind Spot Report maps exactly where your AI visibility breaks down and what category of fix each gap requires.</p>
             <Link href="/blindspot" className="ae-cta-primary">
               Get Your Free Report
@@ -417,7 +417,7 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-3 mb-5">Trust Signals That Move the Needle</h2>
             <p className="text-gray-300 leading-relaxed mb-5">
               Not all trust signals carry equal weight, and not all are within your immediate control. Understanding the hierarchy helps prioritize where to focus first for the fastest measurable improvement.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Timeline */}
             <div className="ae-timeline my-8">
@@ -427,7 +427,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <div className="font-plus-jakarta font-semibold text-white text-sm">Verification Layer: Directories and Listings</div>
-                <p className="text-gray-400 text-sm mt-1">Business directories that serve crawlable HTML function as independent verification nodes for AI platforms. Each consistent listing adds a vote of confidence that your business is real, active, and located where you say it is. Inconsistencies do the opposite: they introduce doubt that AI resolves by recommending someone else.</p>
+                <p className="text-gray-400 text-sm mt-1">Business directories that serve crawlable HTML function as independent verification nodes for AI platforms. Each consistent listing adds a vote of confidence that your business is real, active, and located where you say it is. Inconsistencies do the opposite: they introduce doubt that AI resolves by recommending someone else. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <div className="font-plus-jakarta font-semibold text-white text-sm">Social Proof Layer: Reviews and Testimonials</div>
@@ -435,7 +435,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <div className="font-plus-jakarta font-semibold text-white text-sm">Authority Layer: Third-Party Citations</div>
-                <p className="text-gray-400 text-sm mt-1">Local news coverage, blog mentions, chamber of commerce profiles, and community features serve as editorial authority signals. AI platforms treat these as independent endorsements from sources with no stake in promoting your business. They are harder to acquire but carry outsized influence when AI is choosing between two otherwise similar shops in the same area.</p>
+                <p className="text-gray-400 text-sm mt-1">Local news coverage, blog mentions, chamber of commerce profiles, and community features serve as editorial authority signals. AI platforms treat these as independent endorsements from sources with no stake in promoting your business. They are harder to acquire but carry outsized influence when AI is choosing between two otherwise similar shops in the same area. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               </div>
             </div>
 
@@ -444,7 +444,7 @@ export default function Page() {
             </p>
             <p className="text-gray-300 leading-relaxed">
               This is why the "just fix my Google listing" approach falls short for AI visibility. Google is one layer. AI draws from many layers at once. Addressing all of them in a coordinated way is what separates shops that get recommended from shops that never appear regardless of how many reviews they have.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </section>
 
           {/* Section 6: Lead Speed */}
@@ -456,7 +456,7 @@ export default function Page() {
             </p>
             <p className="text-gray-300 leading-relaxed mb-5">
               AI-referred customers behave differently than traditional referrals. They are in active decision mode. They often contact the shop in the same moment they received the AI recommendation, sometimes from a parking lot or the side of the road. They are comparing options in real time. The shop that responds first, most clearly, and most helpfully wins the job.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-quote my-8">
               <p>"Businesses that automate their lead follow-up with AI-assisted workflows see a 1.7x increase in qualified leads compared to businesses using manual outreach and callback processes."</p>
@@ -464,13 +464,13 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               That 1.7x multiplier is not theoretical. It reflects the documented difference between a shop that acknowledges an inquiry within minutes and provides a clear next step versus one that calls back four hours later after the customer has already booked with a competitor down the street who responded faster.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-5">
               The connection between AI visibility and lead conversion is tighter than most shop owners realize. Getting cited by AI is the first conversion event. Responding quickly and clearly is the second. Both need to work for AI investment to generate measurable revenue growth. Fixing visibility without fixing response is like opening a better front door but leaving the lights off inside.
             </p>
 
             <div className="ae-callout ae-callout-success mb-6">
-              <p className="ae-callout-title">Speed Beats Quality in the First 5 Minutes</p>
+              <p className="ae-callout-title">Speed Beats Quality in the First 5 Minutes We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <p className="ae-callout-body">Research consistently shows that the first shop to respond meaningfully wins the job in most competitive markets. An average response from a fast shop outperforms an excellent response from a slow shop. Auto shops that set up automated acknowledgments for web form and text inquiries, followed by a human follow-up within minutes, see dramatically better conversion rates on AI-sourced leads than shops relying entirely on manual processes.</p>
             </div>
           </section>
@@ -481,7 +481,7 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-3 mb-5">What Most Auto Shops Get Wrong</h2>
             <p className="text-gray-300 leading-relaxed mb-5">
               The mistakes are consistent enough across the industry that they form a recognizable pattern. Understanding them prevents spending time and resources on actions that do not move the needle for AI visibility.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Pros / Cons */}
             <div className="ae-pros-cons my-8">
@@ -515,7 +515,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-warning mb-6">
               <p className="ae-callout-title">The Facebook Trap</p>
-              <p className="ae-callout-body">Many auto shops have thousands of followers on Facebook and Instagram and assume that social presence equals digital presence for AI purposes. For AI search, social media posts are largely invisible. Facebook, Instagram, and TikTok all render content with JavaScript and restrict AI crawlers from accessing most content. Social media is valuable for retention and referral networks, but it contributes almost nothing to AI visibility without a separate structured web strategy underneath it.</p>
+              <p className="ae-callout-body">Many auto shops have thousands of followers on Facebook and Instagram and assume that social presence equals digital presence for AI purposes. For AI search, social media posts are largely invisible. Facebook, Instagram, and TikTok all render content with JavaScript and restrict AI crawlers from accessing most content. Social media is valuable for retention and referral networks, but it contributes almost nothing to AI visibility without a separate structured web strategy underneath it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
           </section>
 
@@ -580,7 +580,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The pattern across all platforms is consistent: website quality is the common denominator. No platform recommends a business it cannot crawl and understand. Everything else, GBP optimization, Yelp profile completeness, Bing listings, functions as a multiplier on top of a solid website foundation.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed">
               For auto repair shops specifically, the highest-leverage entry point is the combination of ChatGPT and Google AI Overviews, because those two platforms capture the largest share of AI-mediated local searches right now. Optimizing for these two first creates a foundation that benefits visibility on every other platform as a natural byproduct.
             </p>
@@ -588,7 +588,7 @@ export default function Page() {
 
           {/* Inline CTA 3 */}
           <div className="ae-cta-inline mb-12">
-            <p className="text-white font-semibold mb-1">Ready to know exactly where you stand on each platform?</p>
+            <p className="text-white font-semibold mb-1">Ready to know exactly where you stand on each platform? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <p className="text-gray-400 text-sm mb-3">Talk to our team about a full AI visibility assessment for your auto repair shop.</p>
             <a href="tel:+12134442229" className="ae-cta-primary">
               Call (213) 444-2229
@@ -601,7 +601,7 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-3 mb-5">Independent vs. Chain: Who Wins in AI Search?</h2>
             <p className="text-gray-300 leading-relaxed mb-5">
               The conventional wisdom says chains and dealerships dominate digital presence because they have larger marketing budgets and dedicated corporate teams. That logic does not transfer cleanly to AI search, and this represents one of the most significant competitive opportunities for independent shops in a generation.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix my-8">
@@ -632,13 +632,13 @@ export default function Page() {
             </p>
 
             <div className="ae-callout ae-callout-success mb-6">
-              <p className="ae-callout-title">The Independent Advantage Is Real</p>
+              <p className="ae-callout-title">The Independent Advantage Is Real <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <p className="ae-callout-body">AI platforms favor local authority and specific expertise over brand recognition. An independent shop that has served a specific community for years, with verifiable local testimonials and service-specific content depth, holds structural advantages that corporate chains cannot replicate through marketing spend. The window to build this advantage is open right now, before the industry fully wakes up to what AI search requires.</p>
             </div>
 
             <p className="text-gray-300 leading-relaxed">
               This does not mean chains are helpless. Well-resourced operations that invest in location-specific content and local AI optimization can absolutely compete. But the playing field is more level than at any point in the internet marketing era. Independent shops that invest in AI visibility now are building a moat that will be difficult for any competitor to breach once the market matures.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </section>
 
           {/* Related Articles */}
@@ -656,7 +656,7 @@ export default function Page() {
                 <span className="text-[#F27D24] mt-1 flex-shrink-0">→</span>
                 <div>
                   <span className="text-gray-300 group-hover:text-white transition-colors text-sm font-medium">How to Optimize Your Google Business Profile for AI</span>
-                  <p className="text-gray-500 text-xs mt-0.5">GBP is one important layer of AI visibility. Learn how to maximize its contribution to your overall AI search presence across platforms.</p>
+                  <p className="text-gray-500 text-xs mt-0.5">GBP is one important layer of AI visibility. Learn how to maximize its contribution to your overall AI search presence across platforms. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 </div>
               </Link>
               <Link href="/blog/why-ai-never-mentions-your-business-by-name" className="flex items-start gap-3 group">
@@ -672,7 +672,7 @@ export default function Page() {
           {/* Cheat Sheet */}
           <section id="cheat-sheet" className="mb-12">
             <div className="ae-cheat-sheet">
-              <p className="ae-cheat-sheet-title">Auto Shop AI Visibility: Quick-Reference Cheat Sheet</p>
+              <p className="ae-cheat-sheet-title">Auto Shop AI Visibility: Quick-Reference Cheat Sheet <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <div className="grid sm:grid-cols-2 gap-6 mt-6">
                 <div>
                   <h4 className="font-plus-jakarta font-semibold text-white text-sm mb-3">Website Requirements</h4>

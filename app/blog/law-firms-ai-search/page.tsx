@@ -255,24 +255,24 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to see exactly what ChatGPT and Perplexity say when someone asks for a lawyer in your practice area and city? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run a free AI Blindspot Report</Link> — we will show you who AI is recommending instead of you.</p>
+          <p>Want to see exactly what ChatGPT and Perplexity say when someone asks for a lawyer in your practice area and city? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run a free AI Blindspot Report</Link> — we will show you who AI is recommending instead of you. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
         </div>
 
         <h2 id="invisible-problem">Why Most Law Firms Are Invisible to AI</h2>
         <p>
           Ask ChatGPT to recommend a personal injury lawyer in any major city. Then ask Perplexity. Then ask Google AI. What you will notice is that the firms appearing in those answers are rarely the firms with the biggest billboards, the highest Avvo ratings, or the most Google reviews. The firms getting recommended are the ones that have done something most law firms have not even considered: they have made themselves visible to AI.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
         <p>
           The legal profession invested decades building authority signals that work in traditional search — directory listings, peer endorsements, bar association memberships, Martindale-Hubbell ratings. These signals are nearly meaningless to large language models. ChatGPT does not check Avvo. Perplexity does not scrape Super Lawyers. Google AI Overviews weigh entirely different signals than the map pack that sits below them.
-        </p>
+         Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         <p>
           This is not a minor gap. It is a structural disconnection between how lawyers build credibility and how AI platforms evaluate expertise. And it is creating an enormous opportunity for the firms that figure it out first.
-        </p>
+         Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
         <h2 id="authority-gap">The Legal Authority Gap</h2>
         <p>
           To understand why law firms struggle with AI visibility, you need to understand what AI platforms are actually ingesting. These models were trained on the open web — articles, forums, legal guides, news coverage, case analyses, and structured data. They were not trained on legal directory proprietary scores.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -327,11 +327,11 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Based on AEO analysis across 150+ law firm citation audits</p>
+        <p className="text-sm text-gray-500 mb-6">Based on AEO analysis across 150+ law firm citation audits <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
         <p>
           The pattern is clear. Everything the legal profession has historically used to signal authority is either invisible or low-weight to AI. Meanwhile, the signals that AI values most — substantive content, media presence, structured data — are exactly what most law firms have neglected.
-        </p>
+         Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">What Legal Consumers Are Actually Asking AI</div>
@@ -347,12 +347,12 @@ export default function Page() {
 
         <p>
           When a potential client asks one of those questions and your firm does not appear, the consultation goes to whoever does. There is no second page of results. AI gives two to five recommendations, and that is the shortlist.
-        </p>
+         Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2 id="what-ai-looks-for">What AI Platforms Actually Look for in Attorneys</h2>
         <p>
           AI platforms evaluate law firms using fundamentally different criteria than Google search or legal directories. Understanding what drives citations is the first step toward earning them.
-        </p>
+         Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-bar-group not-prose">
           <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Factors That Drive Law Firm AI Citations (Relative Weight)</div>
@@ -392,21 +392,21 @@ export default function Page() {
             <div className="ae-bar-value">Low</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Based on citation analysis across ChatGPT, Perplexity, and Google AI Overviews</p>
+        <p className="text-sm text-gray-500 mb-6">Based on citation analysis across ChatGPT, Perplexity, and Google AI Overviews One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
         <p>
           The firms winning AI citations share a common trait: they publish content that directly answers the questions legal consumers are asking AI platforms. Not marketing content. Not &ldquo;why hire us&rdquo; pages. Substantive legal content that answers real questions with real depth.
-        </p>
+         Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Content Advantage Is Massive — and Temporary</div>
-          <p>Right now, most law firms have thin websites with basic practice area pages and a blog that has not been updated in two years. This means the barrier to becoming the most-cited firm in your practice area and jurisdiction is remarkably low. A firm that publishes 10 to 15 substantive legal guides can dominate AI recommendations in their market within months. But this window is closing as more firms catch on.</p>
+          <p>Right now, most law firms have thin websites with basic practice area pages and a blog that has not been updated in two years. This means the barrier to becoming the most-cited firm in your practice area and jurisdiction is remarkably low. A firm that publishes 10 to 15 substantive legal guides can dominate AI recommendations in their market within months. But this window is closing as more firms catch on. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
         </div>
 
         <h2 id="practice-areas">Practice Area Breakdown: Where the Opportunity Is</h2>
         <p>
           Not all practice areas are equally competitive in AI search. Some categories have dozens of firms building AI visibility already. Others are wide open. Here is where the opportunity stands today.
-        </p>
+         Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -464,12 +464,12 @@ export default function Page() {
 
         <p>
           The pattern across every practice area is the same: the firms getting cited are the ones producing substantive, jurisdiction-specific content that answers the exact questions AI users are asking. Generic practice area pages do not cut it.
-        </p>
+         Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <h2 id="timeline">The Law Firm AI Visibility Timeline</h2>
         <p>
           Building AI visibility for a law firm follows a predictable path. Here is what firms typically experience at each stage.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -505,13 +505,13 @@ export default function Page() {
         <h2 id="solo-advantage">The Solo Practitioner Advantage</h2>
         <p>
           Here is something counterintuitive: solo practitioners and small firms have a structural advantage in AI search over large firms. It comes down to depth versus breadth.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         <p>
           A 50-attorney firm with 20 practice areas typically has a website with 20 thin practice area pages and a blog full of surface-level content. AI platforms see this as a firm that does a lot of things at a shallow level. Meanwhile, a solo practitioner who focuses on two practice areas and publishes deep, substantive content in both gives AI platforms exactly what they need: concentrated expertise with evidence of depth.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         <p>
           AI models are pattern-recognition systems. When they see a firm that has published 15 detailed articles about estate planning in Texas — covering specific trust structures, probate procedures, community property nuances, and asset protection strategies — they build a strong association between that firm and that topic in that jurisdiction. A large firm that published one generic page about estate planning cannot compete with that signal density.
-        </p>
+         Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">What Separates AI-Visible Law Firms from Invisible Ones</div>
@@ -528,7 +528,7 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">The Ethical Advantage</div>
-          <p>Unlike aggressive Google Ads campaigns or billboard saturation, AI visibility is built on substantive legal content. It is inherently ethical — you earn recommendations by demonstrating genuine expertise. State bar advertising concerns do not apply to educational legal content published on your own website. For firms that have always been uncomfortable with aggressive legal marketing, AI visibility is a natural fit.</p>
+          <p>Unlike aggressive Google Ads campaigns or billboard saturation, AI visibility is built on substantive legal content. It is inherently ethical — you earn recommendations by demonstrating genuine expertise. State bar advertising concerns do not apply to educational legal content published on your own website. For firms that have always been uncomfortable with aggressive legal marketing, AI visibility is a natural fit. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         {/* Author card */}
@@ -541,7 +541,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
               </div>
 
@@ -551,44 +551,44 @@ export default function Page() {
 
           <details className="ae-faq-item">
             <summary>Are potential clients actually using AI to find lawyers?</summary>
-            <p>Yes, and adoption is growing fast. An increasing number of legal consumers now start their attorney search with ChatGPT or Perplexity rather than Google. They ask questions like &ldquo;best personal injury lawyer in Phoenix&rdquo; or &ldquo;do I need a trust or a will&rdquo; and the AI generates recommendations. Firms that do not appear in these answers are losing consultations to firms that do.</p>
+            <p>Yes, and adoption is growing fast. An increasing number of legal consumers now start their attorney search with ChatGPT or Perplexity rather than Google. They ask questions like &ldquo;best personal injury lawyer in Phoenix&rdquo; or &ldquo;do I need a trust or a will&rdquo; and the AI generates recommendations. Firms that do not appear in these answers are losing consultations to firms that do. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Why does my Avvo rating not help me show up in AI search?</summary>
-            <p>AI platforms do not evaluate attorneys using the same signals as traditional legal directories. Avvo ratings, Martindale-Hubbell ratings, and Super Lawyers designations carry limited weight because they are proprietary scoring systems the AI cannot easily verify. What AI platforms favor instead is substantive content that answers specific legal questions, third-party mentions across credible sources, and structured data that makes your expertise machine-readable.</p>
+            <p>AI platforms do not evaluate attorneys using the same signals as traditional legal directories. Avvo ratings, Martindale-Hubbell ratings, and Super Lawyers designations carry limited weight because they are proprietary scoring systems the AI cannot easily verify. What AI platforms favor instead is substantive content that answers specific legal questions, third-party mentions across credible sources, and structured data that makes your expertise machine-readable. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>What kind of content should law firms create for AI visibility?</summary>
-            <p>AI platforms favor legal content that directly answers questions potential clients are asking: explanations of legal processes, comparisons of legal options, jurisdiction-specific guidance, and content that demonstrates depth in a specific practice area. Generic blog posts about &ldquo;why you need a lawyer&rdquo; perform poorly. Specific, substantive content performs exceptionally well.</p>
+            <p>AI platforms favor legal content that directly answers questions potential clients are asking: explanations of legal processes, comparisons of legal options, jurisdiction-specific guidance, and content that demonstrates depth in a specific practice area. Generic blog posts about &ldquo;why you need a lawyer&rdquo; perform poorly. Specific, substantive content performs exceptionally well. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>How long does it take for a law firm to start appearing in AI answers?</summary>
-            <p>Most law firms that implement a structured AI visibility program begin seeing initial citations within 6 to 10 weeks. Practice areas with less competition tend to see results faster. Competitive categories like personal injury in major metro areas may take 12 to 16 weeks to build enough authority for consistent citations.</p>
+            <p>Most law firms that implement a structured AI visibility program begin seeing initial citations within 6 to 10 weeks. Practice areas with less competition tend to see results faster. Competitive categories like personal injury in major metro areas may take 12 to 16 weeks to build enough authority for consistent citations. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Does my Google Business Profile help with AI search visibility?</summary>
-            <p>Google Business Profile has limited direct impact on ChatGPT and Perplexity recommendations, but it does influence Google AI Overviews. Most law firms rely almost entirely on their GBP for local visibility, which means they have almost no presence in the data sources ChatGPT and Perplexity actually pull from.</p>
+            <p>Google Business Profile has limited direct impact on ChatGPT and Perplexity recommendations, but it does influence Google AI Overviews. Most law firms rely almost entirely on their GBP for local visibility, which means they have almost no presence in the data sources ChatGPT and Perplexity actually pull from. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Is AI search optimization different for solo practitioners versus large firms?</summary>
-            <p>Yes, but solo practitioners actually have an advantage. AI platforms reward depth of expertise in specific practice areas over breadth. A solo practitioner who publishes deeply in one or two practice areas can outperform a 50-attorney firm with thin content across 20 practice areas.</p>
+            <p>Yes, but solo practitioners actually have an advantage. AI platforms reward depth of expertise in specific practice areas over breadth. A solo practitioner who publishes deeply in one or two practice areas can outperform a 50-attorney firm with thin content across 20 practice areas. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Should law firms worry about ethical issues with AI marketing?</summary>
-            <p>AI visibility is built on substantive legal content, not advertising claims. The same ethical rules that apply to your website content apply here. Publishing educational legal content and ensuring your firm information is accurate across platforms is well within established bar advertising guidelines in every jurisdiction.</p>
+            <p>AI visibility is built on substantive legal content, not advertising claims. The same ethical rules that apply to your website content apply here. Publishing educational legal content and ensuring your firm information is accurate across platforms is well within established bar advertising guidelines in every jurisdiction. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </details>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What AI Says When Someone Asks for a Lawyer Like You</h3>
-          <p className="text-gray-400 mb-6">Your next client is asking ChatGPT for a recommendation right now. Our free AI Blindspot Report shows you exactly who AI is recommending in your practice area and jurisdiction — and whether your firm is anywhere in the answer.</p>
+          <p className="text-gray-400 mb-6">Your next client is asking ChatGPT for a recommendation right now. Our free AI Blindspot Report shows you exactly who AI is recommending in your practice area and jurisdiction — and whether your firm is anywhere in the answer. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get My Free AI Blindspot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -608,7 +608,7 @@ export default function Page() {
         {/* Final CTA */}
         <div className="not-prose mt-12 p-8 rounded-2xl border border-white/10 text-center">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your Competitors Are Already Building AI Visibility. Are You?</h3>
-          <p className="text-gray-400 mb-6">The firms that establish AI visibility now will be the default recommendations in 2027. Every week you wait is a week your competitors get further ahead.</p>
+          <p className="text-gray-400 mb-6">The firms that establish AI visibility now will be the default recommendations in 2027. Every week you wait is a week your competitors get further ahead. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">Run My AI Blindspot Report</Link>
             <Link href="/blog" className="inline-flex items-center gap-2 border border-white/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-white/40 transition-colors">Read More AEO Guides</Link>

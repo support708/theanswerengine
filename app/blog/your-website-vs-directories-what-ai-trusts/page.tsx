@@ -269,19 +269,19 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <span className="ae-section-label" id="trust-hierarchy">The Data</span>
             <h2>The AI Trust Hierarchy: Website vs. Directories</h2>
 
-            <p>When a customer asks ChatGPT, Perplexity, or Google AI to recommend a local business, the AI does not treat all sources equally. It builds a confidence score based on the depth, structure, and consistency of information it can find across the web. And the data is clear about which sources carry the most weight.</p>
+            <p>When a customer asks ChatGPT, Perplexity, or Google AI to recommend a local business, the AI does not treat all sources equally. It builds a confidence score based on the depth, structure, and consistency of information it can find across the web. And the data is clear about which sources carry the most weight. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>Business websites account for 58% of ChatGPT&apos;s local business recommendations. Directories account for roughly 15% of direct citations. The remaining share splits across review platforms, community forums, news sites, and earned media. This is not speculation. These numbers come from large-scale analyses of what AI platforms actually cite when they name a specific business.</p>
+            <p>Business websites account for 58% of ChatGPT&apos;s local business recommendations. Directories account for roughly 15% of direct citations. The remaining share splits across review platforms, community forums, news sites, and earned media. This is not speculation. These numbers come from large-scale analyses of what AI platforms actually cite when they name a specific business. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>The takeaway is not that directories are irrelevant. They are not. The takeaway is that your website is nearly four times more influential than your directory presence when AI decides whether to recommend you. If you are pouring resources into directory listings while neglecting your website, you are optimizing the smaller lever.</p>
+            <p>The takeaway is not that directories are irrelevant. They are not. The takeaway is that your website is nearly four times more influential than your directory presence when AI decides whether to recommend you. If you are pouring resources into directory listings while neglecting your website, you are optimizing the smaller lever. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-quote not-prose">
-              <p>Your website is your primary AI asset. Directories are your verification layer. You need both, but you cannot substitute one for the other.</p>
+              <p>Your website is your primary AI asset. Directories are your verification layer. You need both, but you cannot substitute one for the other. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out whether AI platforms trust your website or skip straight to your competitors.</p>
+              <p>Find out whether AI platforms trust your website or skip straight to your competitors. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -289,34 +289,34 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <span className="ae-section-label" id="what-websites-provide">Your Website</span>
             <h2>What Your Website Provides That Directories Cannot</h2>
 
-            <p>Directories give AI your name, address, phone number, hours, and maybe a short description. That is useful for verification but insufficient for recommendation. AI platforms need much more than basic contact information before they feel confident putting your name in front of a customer.</p>
+            <p>Directories give AI your name, address, phone number, hours, and maybe a short description. That is useful for verification but insufficient for recommendation. AI platforms need much more than basic contact information before they feel confident putting your name in front of a customer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-            <p>Your website is the only place that provides all of the following in a single, crawlable, structured package:</p>
+            <p>Your website is the only place that provides all of the following in a single, crawlable, structured package: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">Service Depth</div>
-                <p className="text-gray-400 text-sm leading-relaxed">Individual service pages with detailed descriptions, pricing context, process explanations, and specialization signals. Directories give you a category dropdown. Your website tells AI what you actually do and how you do it.</p>
+                <p className="text-gray-400 text-sm leading-relaxed">Individual service pages with detailed descriptions, pricing context, process explanations, and specialization signals. Directories give you a category dropdown. Your website tells AI what you actually do and how you do it. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">Structured Data</div>
-                <p className="text-gray-400 text-sm leading-relaxed">Schema markup (LocalBusiness, Service, FAQPage, Review) that speaks the language AI understands natively. Directories do not let you add custom schema to your listing. Your website does.</p>
+                <p className="text-gray-400 text-sm leading-relaxed">Schema markup (LocalBusiness, Service, FAQPage, Review) that speaks the language AI understands natively. Directories do not let you add custom schema to your listing. Your website does. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">Authority Content</div>
-                <p className="text-gray-400 text-sm leading-relaxed">Blog posts, guides, FAQ pages, and educational resources that demonstrate expertise. AI evaluates content depth when deciding who qualifies as an authority in a given service category.</p>
+                <p className="text-gray-400 text-sm leading-relaxed">Blog posts, guides, FAQ pages, and educational resources that demonstrate expertise. AI evaluates content depth when deciding who qualifies as an authority in a given service category. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">Full Control</div>
-                <p className="text-gray-400 text-sm leading-relaxed">You control the content, the structure, the update frequency, and the technical implementation. Directory listings are constrained by whatever fields the platform offers. Your website has no such limits.</p>
+                <p className="text-gray-400 text-sm leading-relaxed">You control the content, the structure, the update frequency, and the technical implementation. Directory listings are constrained by whatever fields the platform offers. Your website has no such limits. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
             </div>
 
-            <p>This is why websites drive 58% of AI recommendations. They are the richest, most flexible, and most controllable source of business information on the internet. For a deeper look at how AI evaluates the content on your site, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
+            <p>This is why websites drive 58% of AI recommendations. They are the richest, most flexible, and most controllable source of business information on the internet. For a deeper look at how AI evaluates the content on your site, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is your website giving AI enough information to recommend you? Most are not.</p>
+              <p>Is your website giving AI enough information to recommend you? Most are not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
 
@@ -324,21 +324,21 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <span className="ae-section-label" id="citation-role">Citations</span>
             <h2>The Evolving Role of Directory Citations</h2>
 
-            <p>Five years ago, citations were a primary ranking factor in local SEO. More directory listings meant better rankings. Businesses built hundreds of citations across every directory they could find, and it worked. That era is over.</p>
+            <p>Five years ago, citations were a primary ranking factor in local SEO. More directory listings meant better rankings. Businesses built hundreds of citations across every directory they could find, and it worked. That era is over. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-            <p>The ranking correlation between citations and search performance has weakened significantly. Citations evolved from a primary ranking factor to a supporting element. But here is the critical nuance that most businesses miss: in the AI era, the role of citations is expanding, not contracting.</p>
+            <p>The ranking correlation between citations and search performance has weakened significantly. Citations evolved from a primary ranking factor to a supporting element. But here is the critical nuance that most businesses miss: in the AI era, the role of citations is expanding, not contracting. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Citations no longer drive rankings the way they used to. Instead, they function as what researchers call &quot;hygiene factors.&quot; Missing or inconsistent citations actively hold you back. They signal to AI that your business information is unreliable. But once your citations are clean and consistent across core platforms, adding more provides diminishing returns.</p>
+            <p>Citations no longer drive rankings the way they used to. Instead, they function as what researchers call &quot;hygiene factors.&quot; Missing or inconsistent citations actively hold you back. They signal to AI that your business information is unreliable. But once your citations are clean and consistent across core platforms, adding more provides diminishing returns. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The hygiene factor principle:</strong> Citations will not propel you to the top of AI recommendations on their own. But missing, inconsistent, or outdated citations will absolutely prevent you from getting there. Think of it like a clean uniform in a job interview: it will not get you hired, but showing up without one will get you eliminated.</p>
+              <p><strong>The hygiene factor principle:</strong> Citations will not propel you to the top of AI recommendations on their own. But missing, inconsistent, or outdated citations will absolutely prevent you from getting there. Think of it like a clean uniform in a job interview: it will not get you hired, but showing up without one will get you eliminated. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
-            <p>An iPullRank study analyzing 6.9 million citations confirmed this pattern. The businesses that earned the most AI citations were not the ones with the most directory listings. They were the ones with consistent information across core platforms combined with deep, structured website content. For more on which directory listings actually move the needle, read our breakdown on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>.</p>
+            <p>An iPullRank study analyzing 6.9 million citations confirmed this pattern. The businesses that earned the most AI citations were not the ones with the most directory listings. They were the ones with consistent information across core platforms combined with deep, structured website content. For more on which directory listings actually move the needle, read our breakdown on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Inconsistent citations could be sabotaging your AI visibility right now.</p>
+              <p>Inconsistent citations could be sabotaging your AI visibility right now. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Check Your Listings With a Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -346,7 +346,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <span className="ae-section-label" id="comparison">Comparison</span>
             <h2>Head-to-Head: Website vs. Directories for AI Signals</h2>
 
-            <p>Understanding the specific roles each source plays helps you allocate your time and budget. Here is how websites and directories compare across the signals AI platforms evaluate.</p>
+            <p>Understanding the specific roles each source plays helps you allocate your time and budget. Here is how websites and directories compare across the signals AI platforms evaluate. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* COMPARISON TABLE */}
             <div className="ae-comparison-table not-prose">
@@ -403,11 +403,11 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
               </table>
             </div>
 
-            <p>The pattern is clear. Websites are the primary driver of AI trust. Directories provide the verification infrastructure that supports what your website claims. Both matter, but the balance of investment should reflect this reality.</p>
+            <p>The pattern is clear. Websites are the primary driver of AI trust. Directories provide the verification infrastructure that supports what your website claims. Both matter, but the balance of investment should reflect this reality. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly where your AI presence has gaps? We map it for free.</p>
+              <p>Want to know exactly where your AI presence has gaps? We map it for free. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -415,19 +415,19 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <span className="ae-section-label" id="multi-platform">Multi-Platform</span>
             <h2>Why Multi-Platform Presence Wins</h2>
 
-            <p>AI platforms do not trust any single source in isolation. They cross-reference information across your website, Google Business Profile, review platforms, directories, community forums, and earned media before deciding whether to recommend you. The businesses that win in AI search are the ones visible across all of these channels with consistent information.</p>
+            <p>AI platforms do not trust any single source in isolation. They cross-reference information across your website, Google Business Profile, review platforms, directories, community forums, and earned media before deciding whether to recommend you. The businesses that win in AI search are the ones visible across all of these channels with consistent information. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-            <p>BrightLocal&apos;s research confirms this: AI search makes local listings more important than ever, not because listings drive recommendations directly, but because they provide the verification infrastructure AI needs to trust your website&apos;s claims. When your website says you serve a specific area and your Google Business Profile confirms it and your Yelp listing matches and a Reddit thread mentions a positive experience, AI builds cumulative confidence.</p>
+            <p>BrightLocal&apos;s research confirms this: AI search makes local listings more important than ever, not because listings drive recommendations directly, but because they provide the verification infrastructure AI needs to trust your website&apos;s claims. When your website says you serve a specific area and your Google Business Profile confirms it and your Yelp listing matches and a Reddit thread mentions a positive experience, AI builds cumulative confidence. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>The five pillars of AI trust:</strong> The businesses that earn the most AI recommendations maintain consistent, accurate presence across five platform types: (1) their own website with structured data, (2) Google Business Profile and Bing Places, (3) review platforms like Yelp and BBB, (4) industry and general directories, and (5) community forums and earned media mentions. Missing any one pillar weakens the entire structure.</p>
+              <p><strong>The five pillars of AI trust:</strong> The businesses that earn the most AI recommendations maintain consistent, accurate presence across five platform types: (1) their own website with structured data, (2) Google Business Profile and Bing Places, (3) review platforms like Yelp and BBB, (4) industry and general directories, and (5) community forums and earned media mentions. Missing any one pillar weakens the entire structure. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
-            <p>This is why the &quot;website vs. directories&quot; framing is ultimately misleading. It is not one or the other. It is a layered system where your website sits at the center and every other platform reinforces it. Community mentions on Reddit carry particular weight because they represent third-party validation AI treats as especially trustworthy. For more on this, see our article on <Link href="/blog/reddit-mentions-boost-ai-search-visibility">how Reddit mentions boost AI search visibility</Link>.</p>
+            <p>This is why the &quot;website vs. directories&quot; framing is ultimately misleading. It is not one or the other. It is a layered system where your website sits at the center and every other platform reinforces it. Community mentions on Reddit carry particular weight because they represent third-party validation AI treats as especially trustworthy. For more on this, see our article on <Link href="/blog/reddit-mentions-boost-ai-search-visibility">how Reddit mentions boost AI search visibility</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Multi-platform presence sounds simple. Getting it right across every platform takes expertise.</p>
+              <p>Multi-platform presence sounds simple. Getting it right across every platform takes expertise. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -435,7 +435,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <span className="ae-section-label" id="common-mistakes">Mistakes</span>
             <h2>The Mistakes That Make You Invisible</h2>
 
-            <p>Most businesses make the same structural errors when balancing their website and directory strategy. These mistakes do not just reduce AI visibility. They actively prevent AI from recommending you.</p>
+            <p>Most businesses make the same structural errors when balancing their website and directory strategy. These mistakes do not just reduce AI visibility. They actively prevent AI from recommending you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* PROS/CONS */}
             <div className="ae-pros-cons not-prose">
@@ -463,10 +463,10 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
               </div>
             </div>
 
-            <p>The most damaging mistake is what we call the &quot;directory-first fallacy&quot;: spending hundreds of dollars a month on directory submission services while your website has three pages and no schema markup. You are building verification infrastructure for a business that AI has no reason to verify because it found nothing substantive on your website to begin with.</p>
+            <p>The most damaging mistake is what we call the &quot;directory-first fallacy&quot;: spending hundreds of dollars a month on directory submission services while your website has three pages and no schema markup. You are building verification infrastructure for a business that AI has no reason to verify because it found nothing substantive on your website to begin with. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>The consistency trap:</strong> Having 50 directory listings with slightly different business names, old phone numbers, or mismatched addresses is worse than having 10 perfect ones. AI treats inconsistency as a signal of unreliability. Clean up your existing listings before adding new ones.</p>
+              <p><strong>The consistency trap:</strong> Having 50 directory listings with slightly different business names, old phone numbers, or mismatched addresses is worse than having 10 perfect ones. AI treats inconsistency as a signal of unreliability. Clean up your existing listings before adding new ones. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             {/* CTA 6 */}

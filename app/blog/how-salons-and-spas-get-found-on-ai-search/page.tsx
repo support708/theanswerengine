@@ -267,19 +267,19 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             <p>A client looking for a new hair salon used to open Google, type &quot;hair salon near me,&quot; and scroll through the map pack. That behavior is changing. Today, a growing number of clients open ChatGPT or Google AI and ask something far more specific: &quot;Who is the best salon for balayage in [city]?&quot; or &quot;Which spa near me does deep tissue massage and has strong reviews?&quot;</p>
 
-            <p>The answer comes back as a direct recommendation, not a list of ten links. AI names specific salons and spas, explains why it chose them, and often includes details like services offered, specializations, price range, and client sentiment. The potential client reads the answer, checks the website, and books. The entire discovery cycle that used to take days now takes minutes.</p>
+            <p>The answer comes back as a direct recommendation, not a list of ten links. AI names specific salons and spas, explains why it chose them, and often includes details like services offered, specializations, price range, and client sentiment. The potential client reads the answer, checks the website, and books. The entire discovery cycle that used to take days now takes minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>The beauty industry is a $580 billion global market, and AI has become the newest front door. Clients who ask AI for a salon recommendation are not browsing. They are ready to book.</p>
             </div>
 
-            <p>This shift matters because AI does not randomly select which businesses to recommend. It evaluates a specific set of signals before making a recommendation, and most salons, spas, barber shops, nail salons, and med spas are not sending any of those signals. The result is that a small number of optimized beauty businesses are capturing a disproportionate share of AI-driven client inquiries while their competitors remain invisible.</p>
+            <p>This shift matters because AI does not randomly select which businesses to recommend. It evaluates a specific set of signals before making a recommendation, and most salons, spas, barber shops, nail salons, and med spas are not sending any of those signals. The result is that a small number of optimized beauty businesses are capturing a disproportionate share of AI-driven client inquiries while their competitors remain invisible. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>For a deeper look at how this process works across all business types, see our guide on <Link href="/blog/what-happens-when-customer-asks-ai-find-business">what happens when a customer asks AI to find a business</Link>.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your salon or spa.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of your salon or spa. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -291,13 +291,13 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             <h3>Cross-Platform Verification</h3>
 
-            <p>When a potential client asks AI about a salon or spa, the platform checks your information across Google Business Profile, Yelp, StyleSeat, Vagaro, Facebook, and beauty-specific directories. It is looking for consistency. Does your business name match everywhere? Is the phone number the same? Are the services listed accurately? Do the hours align?</p>
+            <p>When a potential client asks AI about a salon or spa, the platform checks your information across Google Business Profile, Yelp, StyleSeat, Vagaro, Facebook, and beauty-specific directories. It is looking for consistency. Does your business name match everywhere? Is the phone number the same? Are the services listed accurately? Do the hours align? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Inconsistencies in this basic information, known as NAP (Name, Address, Phone) data, signal unreliability to AI. If one directory says you are open until 7 PM and another says 5 PM, AI has less confidence in recommending you because it cannot determine which information is correct. Even a variation as minor as &quot;The Glow Studio&quot; versus &quot;Glow Studio&quot; across listings introduces doubt.</p>
 
             <h3>Content Depth and Relevance</h3>
 
-            <p>AI evaluates the substance of your website content. A salon with a single &quot;Services&quot; page that lists twelve treatments in bullet points gives AI almost nothing to work with. AI needs depth. It needs pages that answer the specific questions clients ask about each service: What does a balayage appointment actually involve? How long does a keratin treatment last? What is the difference between a Swedish and a deep tissue massage?</p>
+            <p>AI evaluates the substance of your website content. A salon with a single &quot;Services&quot; page that lists twelve treatments in bullet points gives AI almost nothing to work with. AI needs depth. It needs pages that answer the specific questions clients ask about each service: What does a balayage appointment actually involve? How long does a keratin treatment last? What is the difference between a Swedish and a deep tissue massage? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>What AI looks for on beauty business websites:</strong> Individual service pages with detailed descriptions, expected results, session length, pricing context, and aftercare information. Pages that answer questions like &quot;How many sessions does laser hair removal take?&quot; or &quot;What should I do before a chemical peel?&quot; perform significantly better in AI citations than generic service listings.</p>
@@ -305,13 +305,13 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             <h3>Authority Signals</h3>
 
-            <p>AI measures your beauty business authority through citations, directory presence, publication mentions, and the overall depth of your digital footprint. A salon that has been featured in a local magazine, maintains a verified StyleSeat or Vagaro profile, publishes educational content about hair and skin care, and appears consistently across beauty directories carries more weight than a business with only a basic website and a Google Business Profile.</p>
+            <p>AI measures your beauty business authority through citations, directory presence, publication mentions, and the overall depth of your digital footprint. A salon that has been featured in a local magazine, maintains a verified StyleSeat or Vagaro profile, publishes educational content about hair and skin care, and appears consistently across beauty directories carries more weight than a business with only a basic website and a Google Business Profile. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>SalonToday has noted that SEO and AI are transforming how clients find salons in 2026. The businesses that have built verifiable authority across multiple platforms are the ones AI trusts enough to recommend.</p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when someone searches for a salon or spa like yours?</p>
+              <p>Want to know exactly what AI says when someone searches for a salon or spa like yours? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
 
@@ -321,21 +321,21 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             <p>Here is something most salon and spa owners do not realize: how you describe your services determines which client queries AI will match you to. This is the single most underutilized lever in beauty business AI visibility.</p>
 
-            <p>A generic description of &quot;full-service hair salon&quot; provides no categorical signal to AI. It cannot match you to specific queries. But a salon that clearly states it specializes in balayage, color correction, extensions, curly hair, or blondes gives AI the language it needs to recommend you for those specific searches.</p>
+            <p>A generic description of &quot;full-service hair salon&quot; provides no categorical signal to AI. It cannot match you to specific queries. But a salon that clearly states it specializes in balayage, color correction, extensions, curly hair, or blondes gives AI the language it needs to recommend you for those specific searches. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <h3>How AI Categorizes Beauty Businesses</h3>
 
             <p>AI platforms build internal categories from the language they find on your website and in your directory listings. When a potential client asks &quot;who is the best curly hair specialist near me?&quot;, AI cross-references every salon in its knowledge base that has explicitly stated curly hair as a specialization. Salons without that language do not appear in the results, regardless of how skilled their stylists actually are.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The specialization gap is costing beauty businesses bookings every day.</strong> A stylist who is genuinely gifted with balayage but describes their work only as &quot;hair color services&quot; will be passed over by AI in favor of a competitor who clearly uses the word &quot;balayage&quot; throughout their site, service pages, and directory listings. AI cannot infer expertise it cannot read.</p>
+              <p><strong>The specialization gap is costing beauty businesses bookings every day.</strong> A stylist who is genuinely gifted with balayage but describes their work only as &quot;hair color services&quot; will be passed over by AI in favor of a competitor who clearly uses the word &quot;balayage&quot; throughout their site, service pages, and directory listings. AI cannot infer expertise it cannot read. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3>Specialization Language That Drives AI Matching</h3>
 
             <p>For hair salons, high-performing specialization terms include: balayage, ombre, highlights, color correction, keratin treatments, extensions (tape-in, sew-in, fusion), curly hair, natural hair, blowouts, and bridal hair. For spas, terms that drive AI matching include: deep tissue massage, Swedish massage, hot stone, prenatal massage, lymphatic drainage, microneedling, chemical peels, HydraFacial, and laser hair removal.</p>
 
-            <p>Each of these terms should appear not just on a general services page but in dedicated pages, meta descriptions, and directory listing descriptions. The more consistently and specifically you use specialization language, the stronger the AI matching signal becomes.</p>
+            <p>Each of these terms should appear not just on a general services page but in dedicated pages, meta descriptions, and directory listing descriptions. The more consistently and specifically you use specialization language, the stronger the AI matching signal becomes. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Publications Amplify the Signal</h3>
 
@@ -343,7 +343,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how your specialization language compares to the salons AI is recommending instead of you.</p>
+              <p>See how your specialization language compares to the salons AI is recommending instead of you. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -396,7 +396,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             <p>AI platforms cross-reference directory listings as a core part of their evaluation. For salons and spas, the directory landscape includes both general business directories and beauty-specific platforms. The key distinction is whether AI crawlers can actually access the information on each directory.</p>
 
-            <p>For an in-depth look at which listings carry the most weight across industries, read our guide on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link>.</p>
+            <p>For an in-depth look at which listings carry the most weight across industries, read our guide on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link>. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* PROS/CONS */}
             <div className="ae-pros-cons not-prose">
@@ -429,7 +429,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which directories AI platforms are pulling your salon data from? Our report shows you exactly.</p>
+              <p>Not sure which directories AI platforms are pulling your salon data from? Our report shows you exactly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -440,12 +440,12 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <p>Here is the uncomfortable truth about the beauty industry: the majority of salon and spa websites are built on platforms that AI crawlers fundamentally cannot read. Wix, Squarespace, Vagaro websites, and many custom salon booking platforms produce visually appealing sites that rely heavily on JavaScript to render content. For human visitors with browsers, this works fine. For AI crawlers, it is a blank page.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>AI crawlers cannot execute JavaScript.</strong> This means that even if your salon website has gorgeous photos, detailed service menus, a full team page, and glowing client testimonials, none of it matters to AI if that content is loaded via JavaScript. Your business might as well have no website at all, from the perspective of ChatGPT or Perplexity.</p>
+              <p><strong>AI crawlers cannot execute JavaScript.</strong> This means that even if your salon website has gorgeous photos, detailed service menus, a full team page, and glowing client testimonials, none of it matters to AI if that content is loaded via JavaScript. Your business might as well have no website at all, from the perspective of ChatGPT or Perplexity. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             <p>Beyond JavaScript rendering, several other technical factors determine whether AI can access your content. Page speed matters because AI crawlers have time limits. If your pages take too long to load due to large image galleries or booking widget scripts, the crawler moves on before reading your service descriptions. Schema markup tells AI what your content means, not just what it says. Without LocalBusiness or BeautySalon schema, AI has to guess at the nature and context of your business.</p>
 
-            <p>To understand how AI evaluates service pages across all business types, check out our guide on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">does having a blog actually help AI recommend your business</Link>.</p>
+            <p>To understand how AI evaluates service pages across all business types, check out our guide on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">does having a blog actually help AI recommend your business</Link>. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* COMPARISON TABLE */}
             <table className="ae-comparison-table not-prose">
@@ -500,17 +500,17 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <span className="ae-section-label" id="reviews-trust">Trust Layer</span>
             <h2>Reviews and the Trust Layer AI Actually Reads</h2>
 
-            <p>Client reviews are one of the strongest signals AI uses when deciding which salon or spa to recommend. But there is a critical distinction most beauty business owners miss: not all reviews are visible to AI platforms.</p>
+            <p>Client reviews are one of the strongest signals AI uses when deciding which salon or spa to recommend. But there is a critical distinction most beauty business owners miss: not all reviews are visible to AI platforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>Google reviews are essential for Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them because Google renders reviews via JavaScript. This means your 4.9-star Google rating with 400 reviews might be completely invisible to the AI platforms that are increasingly driving client discovery decisions.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Where AI actually reads beauty business reviews:</strong> Yelp, StyleSeat, Vagaro (where profiles are accessible), Booksy, and testimonials published directly on your website as plain HTML text. Embedded review widgets from Google, Facebook, or third-party platforms are typically JavaScript-rendered and invisible to AI crawlers. Client testimonials hard-coded into your website HTML are the most reliable way to surface review sentiment to AI.</p>
+              <p><strong>Where AI actually reads beauty business reviews:</strong> Yelp, StyleSeat, Vagaro (where profiles are accessible), Booksy, and testimonials published directly on your website as plain HTML text. Embedded review widgets from Google, Facebook, or third-party platforms are typically JavaScript-rendered and invisible to AI crawlers. Client testimonials hard-coded into your website HTML are the most reliable way to surface review sentiment to AI. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;Maya completely transformed my hair with the most perfect balayage, it grew out beautifully over six months and I got compliments constantly&quot; carries far more weight than &quot;Great salon, love it here.&quot; Specific reviews mentioning stylists by name, procedures, outcomes, and experiences give AI the confidence it needs to recommend your business for those specific services.</p>
 
-            <p>Recency also matters. AI platforms treat a cluster of recent reviews as evidence that a business is actively operating and maintaining quality. A salon with 200 reviews and none in the last year signals less reliability than one with 80 reviews and a steady monthly cadence.</p>
+            <p>Recency also matters. AI platforms treat a cluster of recent reviews as evidence that a business is actively operating and maintaining quality. A salon with 200 reviews and none in the last year signals less reliability than one with 80 reviews and a steady monthly cadence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -522,7 +522,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <span className="ae-section-label" id="common-gaps">Common Gaps</span>
             <h2>The 5 Gaps Holding Most Beauty Businesses Back</h2>
 
-            <p>After analyzing hundreds of salon, spa, barber shop, nail salon, and med spa websites and their AI visibility profiles, five patterns consistently prevent beauty businesses from being recommended by AI.</p>
+            <p>After analyzing hundreds of salon, spa, barber shop, nail salon, and med spa websites and their AI visibility profiles, five patterns consistently prevent beauty businesses from being recommended by AI. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>1. Generic Service Descriptions With No Specialization Language</h3>
 
@@ -530,7 +530,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             <h3>2. Booking-Platform-Only Websites</h3>
 
-            <p>A significant number of beauty businesses rely entirely on their Vagaro, Mindbody, or StyleSeat profile as their web presence, or they embed a booking widget that powers the entire service menu. This is an AI visibility disaster. These platforms render their content via JavaScript, which means AI crawlers see an empty page. The business effectively does not exist in AI&apos;s knowledge base.</p>
+            <p>A significant number of beauty businesses rely entirely on their Vagaro, Mindbody, or StyleSeat profile as their web presence, or they embed a booking widget that powers the entire service menu. This is an AI visibility disaster. These platforms render their content via JavaScript, which means AI crawlers see an empty page. The business effectively does not exist in AI&apos;s knowledge base. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>3. No Named Stylists or Therapists With Specializations</h3>
 
@@ -538,7 +538,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             <h3>4. Reviews Trapped Behind JavaScript</h3>
 
-            <p>Many salon websites embed Google review widgets or use Elfsight or similar third-party tools to display testimonials. These widgets render via JavaScript, which means AI crawlers see an empty container where the reviews should be. The salon has hundreds of positive reviews but AI never sees them. The fix is straightforward: publish a selection of client testimonials as static HTML text directly on the website.</p>
+            <p>Many salon websites embed Google review widgets or use Elfsight or similar third-party tools to display testimonials. These widgets render via JavaScript, which means AI crawlers see an empty container where the reviews should be. The salon has hundreds of positive reviews but AI never sees them. The fix is straightforward: publish a selection of client testimonials as static HTML text directly on the website. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>5. Inconsistent Directory Information After a Move or Rebrand</h3>
 
@@ -594,7 +594,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Which of these gaps is hurting your beauty business? Our free report identifies every one of them.</p>
+              <p>Which of these gaps is hurting your beauty business? Our free report identifies every one of them. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -623,7 +623,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your specific services and local market? We do that.</p>
+              <p>Want this cheat sheet customized to your specific services and local market? We do that. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -633,12 +633,12 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             <p>Client discovery is shifting permanently. AI search is not a trend. It is a new channel that will grow alongside traditional search for years to come. The beauty businesses that build AI visibility now will have a structural advantage that compounds over time, because AI platforms develop confidence in sources they have cited repeatedly.</p>
 
-            <p>Today, a potential client might ask AI for a general salon recommendation. Within the next year, clients will ask AI to compare specific stylists, check availability windows, evaluate specializations, and even match recommendations to their hair type or skin concern. The businesses with deep, structured, specific content will be the ones AI trusts enough to surface in those increasingly precise queries.</p>
+            <p>Today, a potential client might ask AI for a general salon recommendation. Within the next year, clients will ask AI to compare specific stylists, check availability windows, evaluate specializations, and even match recommendations to their hair type or skin concern. The businesses with deep, structured, specific content will be the ones AI trusts enough to surface in those increasingly precise queries. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>The beauty industry moves fast. New techniques, new platforms, and new client expectations emerge constantly. AI keeps pace with that movement by favoring businesses whose content reflects current offerings. A salon that updates its content regularly, adds new specialization pages as stylists develop new skills, and maintains fresh reviews is building a compounding AI visibility advantage with every update.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>Independent salons have a real opportunity here.</strong> National chains often rely on template websites with identical content across locations. AI cannot differentiate between them. An independent salon with specific, local, personal content, real stylist profiles, and genuine client testimonials has an authentic signal that chains cannot replicate at scale. AI favors the specific over the generic, every time.</p>
+              <p><strong>Independent salons have a real opportunity here.</strong> National chains often rely on template websites with identical content across locations. AI cannot differentiate between them. An independent salon with specific, local, personal content, real stylist profiles, and genuine client testimonials has an authentic signal that chains cannot replicate at scale. AI favors the specific over the generic, every time. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             <div className="ae-callout ae-callout-orange not-prose">
@@ -647,7 +647,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>The salons and spas acting now will own their market in AI search. The ones waiting will be playing catch-up.</p>
+              <p>The salons and spas acting now will own their market in AI search. The ones waiting will be playing catch-up. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot">See Where Your Business Stands &rarr;</Link>
             </div>
 
@@ -659,7 +659,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
 
             {/* CTA 12 */}
             <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for local service businesses including salons, spas, and med spas.</p>
+              <p>Or call us directly. We specialize in AI visibility for local service businesses including salons, spas, and med spas. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -691,19 +691,19 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
             <h2>Frequently Asked Questions</h2>
 
             <h3>Do salons and spas really need to worry about AI search?</h3>
-            <p>Yes. Clients increasingly ask AI platforms like ChatGPT and Google AI for salon and spa recommendations instead of scrolling through traditional search results. Over 50% of consumers now use AI-powered tools to find businesses and make decisions. Beauty businesses that are not optimized for these platforms are invisible to a rapidly growing segment of potential clients.</p>
+            <p>Yes. Clients increasingly ask AI platforms like ChatGPT and Google AI for salon and spa recommendations instead of scrolling through traditional search results. Over 50% of consumers now use AI-powered tools to find businesses and make decisions. Beauty businesses that are not optimized for these platforms are invisible to a rapidly growing segment of potential clients. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Which AI platforms recommend salons and spas?</h3>
             <p>ChatGPT, Google AI Overviews, Perplexity, Claude, and Gemini all surface salon and spa recommendations. Each platform pulls data from different sources. ChatGPT relies heavily on crawlable web content and directories, while Google AI Overviews reference Google Business Profiles, reviews, and structured content. Beauty businesses need visibility across multiple platforms to capture the full client discovery channel.</p>
 
             <h3>Why does stating specializations help salons get found by AI?</h3>
-            <p>AI platforms categorize businesses based on the specific language they find on websites and in directories. When a salon clearly states it specializes in balayage, curly hair, extensions, or color correction, AI can match that salon to specific client queries. Generic descriptions like &quot;full-service hair salon&quot; provide no categorical signal for AI to act on and result in near-zero matching for specialized searches.</p>
+            <p>AI platforms categorize businesses based on the specific language they find on websites and in directories. When a salon clearly states it specializes in balayage, curly hair, extensions, or color correction, AI can match that salon to specific client queries. Generic descriptions like &quot;full-service hair salon&quot; provide no categorical signal for AI to act on and result in near-zero matching for specialized searches. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Why can AI crawlers not read most salon websites?</h3>
             <p>Many salon and spa websites are built on platforms like Wix, Squarespace, or Vagaro that rely on JavaScript to render content. AI crawlers cannot execute JavaScript, which means the services, team bios, pricing, and reviews that look great to a human visitor are completely invisible to AI. This is one of the most common and most damaging gaps in beauty business AI visibility.</p>
 
             <h3>Do Google reviews help a salon show up on ChatGPT?</h3>
-            <p>Google reviews help with Google AI Overviews, but most other AI platforms like ChatGPT and Perplexity cannot access them because Google renders reviews via JavaScript. For broader AI visibility, salons need reviews on crawlable platforms like Yelp and StyleSeat, plus client testimonials published directly on their website as plain HTML text.</p>
+            <p>Google reviews help with Google AI Overviews, but most other AI platforms like ChatGPT and Perplexity cannot access them because Google renders reviews via JavaScript. For broader AI visibility, salons need reviews on crawlable platforms like Yelp and StyleSeat, plus client testimonials published directly on their website as plain HTML text. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>How long does it take for a salon to show up in AI search results?</h3>
             <p>Most beauty businesses begin seeing AI mentions within 60 to 90 days after implementing a structured optimization approach. This involves building service-specific pages with clear specialization language, ensuring consistent NAP data across directories, publishing client-focused content, and maintaining reviews on AI-readable platforms.</p>

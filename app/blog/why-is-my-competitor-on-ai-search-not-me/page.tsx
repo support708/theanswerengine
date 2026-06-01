@@ -273,13 +273,13 @@ export default function Page() {
 
             <p>You searched your own service on ChatGPT. Your competitor appeared. You did not. You tried Perplexity. Same result. Google AI Overviews? They showed up there too.</p>
 
-            <p>The frustration is real, and you are not imagining it. AI platforms are actively choosing which businesses to recommend, and right now, they have chosen your competitor over you.</p>
+            <p>The frustration is real, and you are not imagining it. AI platforms are actively choosing which businesses to recommend, and right now, they have chosen your competitor over you. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>Only 1.2% of local businesses get cited by ChatGPT, compared to 35.9% that appear in Google&apos;s local pack. The selection process is ruthless.</p>
             </div>
 
-            <p>The question is not whether this matters. It already does. Understanding why your competitor made the cut is the first step toward closing the gap.</p>
+            <p>The question is not whether this matters. It already does. Understanding why your competitor made the cut is the first step toward closing the gap. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -291,7 +291,7 @@ export default function Page() {
             <span className="ae-section-label">The Data</span>
             <h2>The AI Visibility Gap Is Real, and It Is Growing</h2>
 
-            <p>This is not a theoretical problem. The data from 2025 and early 2026 paints a clear picture of how wide the gap has become between businesses that AI platforms cite and businesses they ignore.</p>
+            <p>This is not a theoretical problem. The data from 2025 and early 2026 paints a clear picture of how wide the gap has become between businesses that AI platforms cite and businesses they ignore. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item">
@@ -328,7 +328,7 @@ export default function Page() {
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure how wide your AI visibility gap is? We can tell you in 48 hours.</p>
+              <p>Not sure how wide your AI visibility gap is? We can tell you in 48 hours. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
             </div>
 
@@ -338,7 +338,7 @@ export default function Page() {
 
             <p>When AI platforms decide which business to cite, they are not looking at your ad spend, your logo, or how many years you have been in business. They are evaluating a very specific set of signals that determine whether your content is trustworthy, relevant, and structured enough to present to a user as a direct answer.</p>
 
-            <p>Your competitor has at least one (and likely several) of these advantages over you.</p>
+            <p>Your competitor has at least one (and likely several) of these advantages over you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Comparison Table */}
             <table className="ae-comparison-table not-prose">
@@ -381,40 +381,40 @@ export default function Page() {
             <h3>1. Deeper Topical Authority</h3>
             <p>Your competitor is not just listing services. They are explaining the nuances of what they do, why it matters, and what customers should know before making a decision. AI platforms interpret this depth as expertise.</p>
 
-            <p>A business that publishes one service page with bullet points cannot compete with a business that has built an entire content ecosystem around their specialty. The competitor with twenty pieces of interconnected authority content on a specific topic will be cited. The one with a single &quot;Services&quot; page will not.</p>
+            <p>A business that publishes one service page with bullet points cannot compete with a business that has built an entire content ecosystem around their specialty. The competitor with twenty pieces of interconnected authority content on a specific topic will be cited. The one with a single &quot;Services&quot; page will not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>2. Structured Data That AI Can Process</h3>
             <p>AI platforms are machines. They process structured information faster and more reliably than unstructured text. If your competitor has implemented proper schema markup (LocalBusiness, FAQPage, Article, Organization), their content is instantly parseable.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Schema Gap</div>
-              <p>Your competitor&apos;s site is speaking the language AI understands. Yours might be speaking a language it has to guess at. That guessing means your content gets deprioritized every time.</p>
+              <p>Your competitor&apos;s site is speaking the language AI understands. Yours might be speaking a language it has to guess at. That guessing means your content gets deprioritized every time. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             <p>As we covered in our piece on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link>, structured signals are one of the primary differentiators.</p>
 
             <h3>3. Consistent Entity Signals Across the Web</h3>
-            <p>AI platforms do not just read your website. They cross-reference your business information across dozens of sources: directories, social profiles, review platforms, industry publications. If your competitor has consistent NAP (name, address, phone) information, matching descriptions, and a unified brand presence across the web, AI treats them as a verified entity.</p>
+            <p>AI platforms do not just read your website. They cross-reference your business information across dozens of sources: directories, social profiles, review platforms, industry publications. If your competitor has consistent NAP (name, address, phone) information, matching descriptions, and a unified brand presence across the web, AI treats them as a verified entity. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p>If your information is inconsistent, outdated, or missing from key platforms, AI has less confidence in citing you.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly which authority signals you are missing? Get a personalized analysis.</p>
+              <p>Want to know exactly which authority signals you are missing? Get a personalized analysis. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
             </div>
 
             <h3>4. Content That Answers Real Questions</h3>
             <p>AI platforms exist to answer questions. When someone asks ChatGPT &quot;who is the best estate planning attorney in Phoenix,&quot; the platform looks for content that directly addresses that type of query.</p>
 
-            <p>Your competitor may have FAQ pages, educational articles, and service explanations that map to the exact questions customers ask. Your website might talk about how great you are without ever answering the questions people actually type into AI. The businesses that get cited are the ones that treat their content as answers, not advertisements.</p>
+            <p>Your competitor may have FAQ pages, educational articles, and service explanations that map to the exact questions customers ask. Your website might talk about how great you are without ever answering the questions people actually type into AI. The businesses that get cited are the ones that treat their content as answers, not advertisements. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>5. Niche Clarity Over Generalist Positioning</h3>
             <p>AI platforms prefer specialists. When a user asks for a recommendation, the AI is looking for the business that most clearly matches the specific need. If your competitor positions themselves as the go-to expert in one specialty while you position yourself as a &quot;full-service&quot; provider, the AI will choose the specialist every time.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Why Specialists Win</div>
-              <p>Generalist messaging creates ambiguity. Ambiguity kills AI citations. AI needs to confidently match your business to a specific query, and specialists make that match obvious.</p>
+              <p>Generalist messaging creates ambiguity. Ambiguity kills AI citations. AI needs to confidently match your business to a specific query, and specialists make that match obvious. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
             {/* CTA 4 */}
@@ -427,7 +427,7 @@ export default function Page() {
             <span className="ae-section-label">Diagnosis</span>
             <h2>Which Gap Is Costing You the Most?</h2>
 
-            <p>Not all authority gaps are equal. Some are easier to close than others, and some have a bigger impact on your AI visibility. Use this framework to identify your priority.</p>
+            <p>Not all authority gaps are equal. Some are easier to close than others, and some have a bigger impact on your AI visibility. Use this framework to identify your priority. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="ae-decision-matrix not-prose">
               <div className="ae-decision-matrix-title">Priority Framework</div>
@@ -468,7 +468,7 @@ export default function Page() {
             <span className="ae-section-label">SEO vs. AEO</span>
             <h2>Why Traditional SEO Will Not Fix This</h2>
 
-            <p>If your instinct is to call your SEO agency and ask them to fix your AI visibility, pause. Traditional SEO and AI visibility are not the same game. They overlap, but they operate on fundamentally different logic.</p>
+            <p>If your instinct is to call your SEO agency and ask them to fix your AI visibility, pause. Traditional SEO and AI visibility are not the same game. They overlap, but they operate on fundamentally different logic. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -510,14 +510,14 @@ export default function Page() {
             <p>Your competitor might rank below you on Google and still appear above you on ChatGPT. That is because AI platforms evaluate different signals: topical depth over keyword density, content structure over backlink count, entity consistency over domain authority. A business can have perfect SEO and zero AI visibility. We see this pattern constantly.</p>
 
             <div className="ae-quote not-prose">
-              <p>SEO gets you on the list. AEO makes you the answer. Your competitor figured out the difference. You are still playing the old game.</p>
+              <p>SEO gets you on the list. AEO makes you the answer. Your competitor figured out the difference. You are still playing the old game. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             <p>This does not mean SEO is dead. It means SEO alone is no longer enough. The businesses that dominate in 2026 and beyond are the ones that layer AI visibility strategy on top of their existing search presence. If you want to understand more about why your current approach might be falling short, our analysis of <Link href="/blog/why-chatgpt-recommends-competitors">why ChatGPT recommends your competitors</Link> breaks down the specific authority signals AI platforms evaluate.</p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Your SEO might be perfect. Your AI visibility might be zero. There is only one way to find out.</p>
+              <p>Your SEO might be perfect. Your AI visibility might be zero. There is only one way to find out. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">See Your AI Visibility Gap &rarr;</Link>
             </div>
 
@@ -531,7 +531,7 @@ export default function Page() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Month 0: Your competitor starts building AI authority</strong>
-                <p>They implement schema, publish answer-first content, clean up entity signals. AI platforms begin indexing their structured data.</p>
+                <p>They implement schema, publish answer-first content, clean up entity signals. AI platforms begin indexing their structured data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 3: First AI citations appear</strong>
@@ -539,7 +539,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 6: Authority compounds</strong>
-                <p>Consistent citations create a feedback loop. AI platforms increasingly default to citing them. They capture customers that used to find you on Google.</p>
+                <p>Consistent citations create a feedback loop. AI platforms increasingly default to citing them. They capture customers that used to find you on Google. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 12: The gap becomes a moat</strong>
@@ -547,7 +547,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 18+: The window closes</strong>
-                <p>More competitors enter the AI visibility game. The cost of catching up multiplies. Early movers have locked in positions that late entrants struggle to reach.</p>
+                <p>More competitors enter the AI visibility game. The cost of catching up multiplies. Early movers have locked in positions that late entrants struggle to reach. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
             </div>
 
@@ -555,7 +555,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Early Mover Reality</div>
-              <p>Over a third of businesses admit they do not yet have the expertise to make AI work effectively. That means your window of opportunity is still open. But it is closing. Every competitor that figures this out before you makes your path harder.</p>
+              <p>Over a third of businesses admit they do not yet have the expertise to make AI work effectively. That means your window of opportunity is still open. But it is closing. Every competitor that figures this out before you makes your path harder. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* CTA 7 */}
@@ -568,7 +568,7 @@ export default function Page() {
             <span className="ae-section-label">Trade-offs</span>
             <h2>Acting Now vs. Waiting: The Real Cost Analysis</h2>
 
-            <p>Every business owner weighs the same question: should I invest in this now or wait until it is more proven? Here is what the data says about each path.</p>
+            <p>Every business owner weighs the same question: should I invest in this now or wait until it is more proven? Here is what the data says about each path. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros-box">
@@ -605,7 +605,7 @@ export default function Page() {
             <span className="ae-section-label">The Path Forward</span>
             <h2>What You Need to Know (Without the Playbook)</h2>
 
-            <p>We are not going to give you a checklist and send you on your way. AI visibility strategy is not a DIY project you knock out over a weekend. The businesses that try to implement it themselves typically make one of three mistakes: they optimize for the wrong signals, they structure their content in ways AI cannot parse, or they build authority in areas that do not match what AI platforms actually evaluate.</p>
+            <p>We are not going to give you a checklist and send you on your way. AI visibility strategy is not a DIY project you knock out over a weekend. The businesses that try to implement it themselves typically make one of three mistakes: they optimize for the wrong signals, they structure their content in ways AI cannot parse, or they build authority in areas that do not match what AI platforms actually evaluate. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Cheat Sheet */}
             <div className="ae-cheat-sheet not-prose">
@@ -646,14 +646,14 @@ export default function Page() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>The first step is understanding exactly where you stand. Not where you think you stand, but where the data says you stand. That means running your business through the same evaluation criteria AI platforms use and comparing your results to the competitor that keeps appearing instead of you.</p>
+              <p>The first step is understanding exactly where you stand. Not where you think you stand, but where the data says you stand. That means running your business through the same evaluation criteria AI platforms use and comparing your results to the competitor that keeps appearing instead of you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             <p>You can start by <Link href="/blog/check-if-ai-recommends-your-business">checking whether AI recommends your business</Link> right now.</p>
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want a professional-grade audit? We compare your AI visibility against your top competitors.</p>
+              <p>Want a professional-grade audit? We compare your AI visibility against your top competitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Request Your Competitive Analysis &rarr;</Link>
             </div>
 
@@ -665,14 +665,14 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Good News</div>
-              <p>The same five authority gaps that explain why your competitor appears instead of you are the same five gaps that can be systematically closed. This is not a mystery. It is a measurable, fixable problem with a proven path to resolution.</p>
+              <p>The same five authority gaps that explain why your competitor appears instead of you are the same five gaps that can be systematically closed. This is not a mystery. It is a measurable, fixable problem with a proven path to resolution. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>The only question is whether you close the gap now, while the window is still open, or wait until every competitor in your market has figured it out and the cost of catching up has multiplied.</p>
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Stop guessing why your competitor is winning. Get the data.</p>
+              <p>Stop guessing why your competitor is winning. Get the data. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -700,14 +700,14 @@ export default function Page() {
             <h2>Frequently Asked Questions</h2>
 
             <h3>Why does my competitor show up on ChatGPT but I do not?</h3>
-            <p>AI platforms cite businesses that demonstrate clear topical authority, structured content, consistent online information, and strong entity signals. If your competitor has deeper expertise content, better structured data, and more consistent citations across the web, AI platforms treat them as the safer, more authoritative recommendation.</p>
+            <p>AI platforms cite businesses that demonstrate clear topical authority, structured content, consistent online information, and strong entity signals. If your competitor has deeper expertise content, better structured data, and more consistent citations across the web, AI platforms treat them as the safer, more authoritative recommendation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>How do I check if AI platforms are recommending my competitor?</h3>
             <p>Ask ChatGPT, Perplexity, and Google Gemini the same questions your customers ask. Try queries like &quot;best [your service] in [your city]&quot; or &quot;who should I hire for [your specialty].&quot; Document which businesses appear. If your competitor is cited and you are not, that confirms an AI visibility gap you need to close.</p>
 
             {/* CTA 12 */}
             <div className="ae-cta-inline not-prose">
-              <p>Tried the test and your competitor showed up instead of you? We can tell you exactly why.</p>
+              <p>Tried the test and your competitor showed up instead of you? We can tell you exactly why. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your AI Gap Analysis &rarr;</Link>
             </div>
 
@@ -715,14 +715,14 @@ export default function Page() {
             <p>Yes. AI platforms do not rank by company size or ad spend. They cite businesses that demonstrate the clearest, most structured expertise for a specific query. A small business with deep niche authority content and proper structured data can appear ahead of larger competitors that rely on brand recognition alone.</p>
 
             <h3>How long does it take to close the AI visibility gap with a competitor?</h3>
-            <p>Most businesses begin seeing shifts in AI citations within <strong>60 to 90 days</strong> of implementing a targeted authority strategy. The timeline depends on the size of the gap, how much existing content you have, and how quickly your competitor is also adapting.</p>
+            <p>Most businesses begin seeing shifts in AI citations within <strong>60 to 90 days</strong> of implementing a targeted authority strategy. The timeline depends on the size of the gap, how much existing content you have, and how quickly your competitor is also adapting. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Is my Google ranking related to my AI search visibility?</h3>
             <p>Not directly. AI platforms use their own evaluation criteria, which overlap with but are distinct from Google ranking factors. A business can rank well on Google and still be invisible to ChatGPT, Perplexity, or Google AI Overviews. AI visibility requires a separate strategy focused on authority signals, structured data, and entity consistency.</p>
 
             {/* CTA 13 */}
             <div className="ae-cta-inline not-prose">
-              <p>Ranking on Google but invisible to AI? That is the exact problem we solve.</p>
+              <p>Ranking on Google but invisible to AI? That is the exact problem we solve. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -731,7 +731,7 @@ export default function Page() {
 
             {/* CTA 14 */}
             <div className="ae-cta-inline not-prose">
-              <p>Stop making the wrong moves. Get a data-driven strategy built around what AI actually evaluates.</p>
+              <p>Stop making the wrong moves. Get a data-driven strategy built around what AI actually evaluates. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Start Your Free Assessment &rarr;</Link>
             </div>
 

@@ -146,13 +146,13 @@ export default function BlogPost() {
 
           <p>Every month, millions of small businesses pour money into Google Ads. The average small business spends between $1,000 and $10,000 per month, with the average cost per click hitting $5.26 in 2025. And there is a growing belief that all this spending somehow helps AI find and recommend your business.</p>
 
-          <p><strong>It does not.</strong></p>
+          <p><strong>It does not.</strong> Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <p>Google Ads and AI recommendations run on completely separate systems. Your ad budget has zero influence on whether ChatGPT, Perplexity, Claude, or Google AI Overviews cite your business in their answers. This is one of the most expensive misunderstandings in digital marketing right now.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Myth Alert</div>
-            <p>Paying for Google Ads does not make AI platforms more likely to recommend your business. AI citations and paid search ads operate on entirely different infrastructure with separate ranking signals. Your $5,000 monthly ad spend is invisible to ChatGPT.</p>
+            <p>Paying for Google Ads does not make AI platforms more likely to recommend your business. AI citations and paid search ads operate on entirely different infrastructure with separate ranking signals. Your $5,000 monthly ad spend is invisible to ChatGPT. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* CTA 1 */}
@@ -165,11 +165,11 @@ export default function BlogPost() {
           <span className="ae-section-label" id="the-myth">The Myth</span>
           <h2>The Myth: More Ad Spend = More AI Visibility</h2>
 
-          <p>The logic seems reasonable on the surface. You pay Google for visibility. Google is the biggest search engine. AI must be pulling from Google somehow. So if you spend more on Google Ads, AI should be more aware of your business. Right?</p>
+          <p>The logic seems reasonable on the surface. You pay Google for visibility. Google is the biggest search engine. AI must be pulling from Google somehow. So if you spend more on Google Ads, AI should be more aware of your business. Right? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>Wrong. Here is why this thinking falls apart:</p>
 
-          <p>Google Ads appear as <strong>paid placements</strong> at the top of search results. When the ad campaign ends, the placement disappears. AI platforms like ChatGPT and Perplexity do not crawl Google Ads. They crawl the open web, reading organic content, reviews, directories, and authoritative mentions. Your ad is a rented billboard. AI is reading the library.</p>
+          <p>Google Ads appear as <strong>paid placements</strong> at the top of search results. When the ad campaign ends, the placement disappears. AI platforms like ChatGPT and Perplexity do not crawl Google Ads. They crawl the open web, reading organic content, reviews, directories, and authoritative mentions. Your ad is a rented billboard. AI is reading the library. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <p>Think of it this way: paying for a newspaper ad does not change what the encyclopedia says about you. Google Ads and AI recommendations exist in different worlds entirely.</p>
 
@@ -179,7 +179,7 @@ export default function BlogPost() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Google Ads buy temporary visibility on Google search results. AI citations come from permanent authority signals across the open web. These are fundamentally different systems with no overlap.</p>
+            <p>Google Ads buy temporary visibility on Google search results. AI citations come from permanent authority signals across the open web. These are fundamentally different systems with no overlap. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
 
           {/* CTA 2 */}
@@ -192,7 +192,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="how-ai-sources">How AI Works</span>
           <h2>How AI Platforms Actually Source Recommendations</h2>
 
-          <p>Understanding where AI gets its information makes the Google Ads myth collapse immediately. Research from Onely and Ahrefs shows that AI platforms evaluate businesses through a completely different lens than paid search.</p>
+          <p>Understanding where AI gets its information makes the Google Ads myth collapse immediately. Research from Onely and Ahrefs shows that AI platforms evaluate businesses through a completely different lens than paid search. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
@@ -224,7 +224,7 @@ export default function BlogPost() {
 
           <p>Notice what is missing from that list? <strong>Ad spend. Pay-per-click budgets. Google Ads campaigns.</strong> None of these signals involve paying for placement.</p>
 
-          <p>A brand&apos;s own website only makes up 5 to 10 percent of the sources AI references. The other 90% comes from third-party mentions, affiliates, and user-generated content across the web. Your ads do not generate any of these signals.</p>
+          <p>A brand&apos;s own website only makes up 5 to 10 percent of the sources AI references. The other 90% comes from third-party mentions, affiliates, and user-generated content across the web. Your ads do not generate any of these signals. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Research Insight</div>
@@ -233,7 +233,7 @@ export default function BlogPost() {
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>AI reads authority, not ads. Find out if your authority signals are strong enough.</p>
+            <p>AI reads authority, not ads. Find out if your authority signals are strong enough. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Run Your Free Authority Check &rarr;</Link>
           </div>
 
@@ -315,7 +315,7 @@ export default function BlogPost() {
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Google Ads reach 35% of searchers. AI reaches the other 65%. Are you visible to both?</p>
+            <p>Google Ads reach 35% of searchers. AI reaches the other 65%. Are you visible to both? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">See Your Full Visibility Picture &rarr;</Link>
           </div>
 
@@ -353,11 +353,11 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>At $5.26 per click, a $5,000 monthly budget gets you roughly 950 clicks. With an average cost per lead of $70.11, that translates to about 71 leads per month. Not bad. But the moment you stop paying, it all disappears.</p>
+          <p>At $5.26 per click, a $5,000 monthly budget gets you roughly 950 clicks. With an average cost per lead of $70.11, that translates to about 71 leads per month. Not bad. But the moment you stop paying, it all disappears. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <p>Meanwhile, those 950 people who clicked your ad? <strong>None of that activity influences AI.</strong> You could run Google Ads for a decade and ChatGPT would still have no idea your business exists unless you are building organic authority signals separately.</p>
 
-          <p>The real cost is not just what you spend on ads. It is what you are <em>not</em> spending on AI visibility while your competitors quietly build the authority signals that earn them AI recommendations. Every month that gap widens. Learn more about <Link href="/blog/hidden-cost-ignoring-ai-search">the hidden cost of ignoring AI search</Link>.</p>
+          <p>The real cost is not just what you spend on ads. It is what you are <em>not</em> spending on AI visibility while your competitors quietly build the authority signals that earn them AI recommendations. Every month that gap widens. Learn more about <Link href="/blog/hidden-cost-ignoring-ai-search">the hidden cost of ignoring AI search</Link>. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">Budget Reality Check</div>
@@ -366,7 +366,7 @@ export default function BlogPost() {
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>How much of your ad budget is going toward channels AI cannot see? Get the data.</p>
+            <p>How much of your ad budget is going toward channels AI cannot see? Get the data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot">Audit Your Visibility Gaps &rarr;</Link>
           </div>
 
@@ -420,13 +420,13 @@ export default function BlogPost() {
             </table>
           </div>
 
-          <p>See the pattern? Every column in the &quot;Your Ad Budget Impact&quot; row says the same thing: <strong>None.</strong> Your Google Ads investment operates in a parallel universe from the signals AI evaluates.</p>
+          <p>See the pattern? Every column in the &quot;Your Ad Budget Impact&quot; row says the same thing: <strong>None.</strong> Your Google Ads investment operates in a parallel universe from the signals AI evaluates. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <p>This is not speculation. Perplexity AI made the decision in 2026 to abandon its ad-based revenue model entirely, specifically because keeping advertising separate from citation algorithms was critical for user trust. The platform&apos;s executives stated they have no plans to revisit advertising. When even AI companies themselves are distancing ads from citations, the message is clear.</p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>AI platforms deliberately keep advertising separate from their citation algorithms. This is by design, not by accident. Your ad spend will never influence organic AI recommendations regardless of how much you invest.</p>
+            <p>AI platforms deliberately keep advertising separate from their citation algorithms. This is by design, not by accident. Your ad spend will never influence organic AI recommendations regardless of how much you invest. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* CTA 6 */}
@@ -439,7 +439,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="real-cost">The Real Cost</span>
           <h2>The Real Cost of the Wrong Strategy</h2>
 
-          <p>The most expensive marketing mistake in 2026 is not overspending on ads. It is spending exclusively on ads while ignoring the channel that now handles 65% of all search interactions.</p>
+          <p>The most expensive marketing mistake in 2026 is not overspending on ads. It is spending exclusively on ads while ignoring the channel that now handles 65% of all search interactions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <p>Consider the math. With <Link href="/blog/zero-click-search-killing-website-traffic">65% of searches ending without a click</Link>, your Google Ads only compete for the remaining 35% of searchers who actually click on results. That 35% is shrinking every quarter as AI Overviews expand.</p>
 
@@ -462,13 +462,13 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>When AI Overviews appear on a search results page, the zero-click rate jumps to 83%. That means for queries triggering AI answers, your ads are fighting over just 17% of the audience. And that percentage is dropping.</p>
+          <p>When AI Overviews appear on a search results page, the zero-click rate jumps to 83%. That means for queries triggering AI answers, your ads are fighting over just 17% of the audience. And that percentage is dropping. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <p>Meanwhile, the businesses investing in AI visibility are becoming the default answer. Every month they build more authority signals. Every month the gap between their AI presence and yours gets wider. <Link href="/blog/chatgpt-optimization-cost">The cost of AI optimization</Link> is a fraction of what most businesses spend on ads alone.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Compounding Problem</div>
-            <p>Google Ads deliver linear returns: spend more, get proportionally more clicks. AI authority delivers compounding returns: the more signals you build, the more AI platforms cite you, which generates more signals. Every month you delay, your competitors compound further ahead.</p>
+            <p>Google Ads deliver linear returns: spend more, get proportionally more clicks. AI authority delivers compounding returns: the more signals you build, the more AI platforms cite you, which generates more signals. Every month you delay, your competitors compound further ahead. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
           {/* CTA 7 */}
@@ -481,7 +481,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="smarter-budget">Smarter Strategy</span>
           <h2>A Smarter Way to Allocate Your Budget</h2>
 
-          <p>The answer is not to abandon Google Ads entirely. Ads still serve a purpose for immediate traffic, branded search protection, and transactional queries. The answer is to stop assuming ads cover your AI visibility and start investing in both channels.</p>
+          <p>The answer is not to abandon Google Ads entirely. Ads still serve a purpose for immediate traffic, branded search protection, and transactional queries. The answer is to stop assuming ads cover your AI visibility and start investing in both channels. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-cheat-sheet not-prose">
             <div className="ae-cheat-sheet-title">Budget Allocation Cheat Sheet for 2026</div>
@@ -522,7 +522,7 @@ export default function BlogPost() {
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">The Winning Formula</div>
-            <p>The businesses dominating both paid search and AI recommendations in 2026 are not spending more overall. They are allocating smarter. Google Ads for today. AI optimization for tomorrow. SEO as the foundation beneath both.</p>
+            <p>The businesses dominating both paid search and AI recommendations in 2026 are not spending more overall. They are allocating smarter. Google Ads for today. AI optimization for tomorrow. SEO as the foundation beneath both. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div className="ae-takeaway not-prose">
@@ -532,7 +532,7 @@ export default function BlogPost() {
 
           {/* CTA 8 */}
           <div className="ae-cta-inline not-prose">
-            <p>Ready to see what AI-first marketing looks like for your business? Start with the data.</p>
+            <p>Ready to see what AI-first marketing looks like for your business? Start with the data. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <Link href="/blindspot">Get Your Custom AI Visibility Report &rarr;</Link>
           </div>
 
@@ -555,7 +555,7 @@ export default function BlogPost() {
           {/* 3-TIER CTA BLOCK */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Wasting Ad Spend on Invisible AI Results</h3>
-            <p className="text-gray-400 mb-6">Find out exactly where your business stands in AI search with our free Blind Spot Report.</p>
+            <p className="text-gray-400 mb-6">Find out exactly where your business stands in AI search with our free Blind Spot Report. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -591,7 +591,7 @@ export default function BlogPost() {
           <h2>Frequently Asked Questions</h2>
 
           <h3>Do Google Ads help my business appear in ChatGPT or Perplexity?</h3>
-          <p>No. Google Ads have zero influence on whether ChatGPT, Perplexity, Claude, or other AI platforms recommend your business. These AI systems pull from organic web content, brand mentions, reviews, and authoritative sources. Paid Google Ads operate on a completely separate infrastructure that AI platforms do not access.</p>
+          <p>No. Google Ads have zero influence on whether ChatGPT, Perplexity, Claude, or other AI platforms recommend your business. These AI systems pull from organic web content, brand mentions, reviews, and authoritative sources. Paid Google Ads operate on a completely separate infrastructure that AI platforms do not access. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* CTA 10 */}
           <div className="ae-cta-inline not-prose">
@@ -600,14 +600,14 @@ export default function BlogPost() {
           </div>
 
           <h3>Does spending more on Google Ads improve AI search visibility?</h3>
-          <p>No. Increasing your Google Ads budget will not improve your AI search visibility. AI platforms like ChatGPT and Perplexity do not factor ad spend into their citation algorithms. They evaluate content quality, brand authority, and third-party mentions. You could double your ad budget tomorrow and ChatGPT would not notice.</p>
+          <p>No. Increasing your Google Ads budget will not improve your AI search visibility. AI platforms like ChatGPT and Perplexity do not factor ad spend into their citation algorithms. They evaluate content quality, brand authority, and third-party mentions. You could double your ad budget tomorrow and ChatGPT would not notice. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <h3>What is the difference between Google Ads and AI search citations?</h3>
           <p>Google Ads are paid placements that appear at the top of Google search results and disappear when you stop paying. AI search citations are organic recommendations made by AI platforms based on content authority, brand mentions, and structured data. The two systems operate independently with entirely different ranking signals.</p>
 
           {/* CTA 11 */}
           <div className="ae-cta-inline not-prose">
-            <p>AI citations compound over time. Ads disappear overnight. Build something lasting.</p>
+            <p>AI citations compound over time. Ads disappear overnight. Build something lasting. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot">Start Building AI Authority &rarr;</Link>
           </div>
 
@@ -615,7 +615,7 @@ export default function BlogPost() {
           <p>Not necessarily. Google Ads still drive traffic for transactional searches where buyers are ready to purchase today. But with 65% of searches now ending without a click, you should allocate part of your budget to AI visibility. The most effective strategy combines paid search for immediate traffic with AI optimization for long-term compounding authority.</p>
 
           <h3>How do AI platforms decide which businesses to recommend?</h3>
-          <p>AI platforms evaluate domain authority, brand mentions across the web, review signals on platforms like Yelp and BBB, structured data markup, content freshness, and appearances on authoritative best-of lists. None of these signals involve paid advertising. The key is building genuine authority across the channels AI platforms actively crawl.</p>
+          <p>AI platforms evaluate domain authority, brand mentions across the web, review signals on platforms like Yelp and BBB, structured data markup, content freshness, and appearances on authoritative best-of lists. None of these signals involve paid advertising. The key is building genuine authority across the channels AI platforms actively crawl. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* CTA 12 */}
           <div className="ae-cta-inline not-prose">
@@ -624,14 +624,14 @@ export default function BlogPost() {
           </div>
 
           <h3>Will Google AI Overviews show my ads?</h3>
-          <p>Google has begun placing ads within AI Overviews and AI Mode. However, these are clearly labeled sponsored placements that are architecturally separate from the organic citations AI provides. Having ads appear alongside AI Overviews does not influence which businesses AI cites as authoritative answers. The paid and organic layers remain distinct.</p>
+          <p>Google has begun placing ads within AI Overviews and AI Mode. However, these are clearly labeled sponsored placements that are architecturally separate from the organic citations AI provides. Having ads appear alongside AI Overviews does not influence which businesses AI cites as authoritative answers. The paid and organic layers remain distinct. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <h3>What should I do if AI platforms are not recommending my business?</h3>
           <p>Start by running a free Blind Spot Report to see exactly where you stand across ChatGPT, Perplexity, Claude, and Google AI. Then focus on building the authority signals AI platforms actually read: consistent business information across directories, reviews on AI-accessible platforms, expert content that answers common questions, and brand mentions on authoritative third-party sites.</p>
 
           {/* CTA 13 */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure where to start? The Blind Spot Report tells you exactly which signals to build first.</p>
+            <p>Not sure where to start? The Blind Spot Report tells you exactly which signals to build first. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot">Get Your Personalized Report &rarr;</Link>
           </div>
 
@@ -642,7 +642,7 @@ export default function BlogPost() {
 
           {/* CTA 14 */}
           <div className="ae-cta-inline not-prose">
-            <p>You now know the truth about ads and AI. The next step is seeing where your business stands.</p>
+            <p>You now know the truth about ads and AI. The next step is seeing where your business stands. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -661,7 +661,7 @@ export default function BlogPost() {
         {/* CTA BLOCK */}
         <div className="ae-cta-block not-prose">
           <h3>Your Ads Are Running. But AI Is Recommending Someone Else.</h3>
-          <p>Google Ads and AI search are separate worlds. While you pour money into clicks, your competitors are building the authority signals that make AI recommend them by default. Get your free Blind Spot Report and see exactly what AI says when customers ask about your industry.</p>
+          <p>Google Ads and AI search are separate worlds. While you pour money into clicks, your competitors are building the authority signals that make AI recommend them by default. Get your free Blind Spot Report and see exactly what AI says when customers ask about your industry. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
           <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
             <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>

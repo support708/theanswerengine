@@ -293,17 +293,17 @@ export default function BingPlacesChatGPTConnection() {
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
               If you have spent months perfecting your Google Business Profile, collecting five-star reviews, posting updates, and uploading photos, you are doing great work. But there is a massive blind spot most local business owners miss entirely: <strong>ChatGPT does not use Google. It uses Bing.</strong> When someone asks ChatGPT for a local recommendation, your Google profile is invisible. Your Bing Places listing is the gateway.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Blind Spot Nobody Talks About</div>
               <p>
                 Microsoft has invested billions in OpenAI. As part of that deal, ChatGPT's web browsing runs on Bing's search infrastructure. When a potential customer asks ChatGPT to find the best plumber, dentist, or contractor in their area, it searches Bing, not Google. If your Bing Places listing is unclaimed, incomplete, or nonexistent, ChatGPT cannot recommend you.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure if ChatGPT can actually find your business?</p>
+              <p>Not sure if ChatGPT can actually find your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -315,10 +315,10 @@ export default function BingPlacesChatGPTConnection() {
 
             <p>
               Microsoft has invested over $13 billion in OpenAI. That is not a casual partnership. It is the deepest integration between a search engine and an AI platform in the industry. ChatGPT's real-time browsing capability queries Bing's search index for current information, local business data, and product recommendations.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p>
               This means that when ChatGPT needs to answer a question about local services, it pulls from the same data that powers Bing Search, Bing Maps, and Microsoft Copilot. Your Bing Places listing sits at the center of that data pipeline.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Comparison Table */}
             <div className="not-prose ae-comparison-table">
@@ -370,11 +370,11 @@ export default function BingPlacesChatGPTConnection() {
               <div className="ae-callout-title">The Data Gap</div>
               <p>
                 Your perfectly optimized Google Business Profile is invisible to ChatGPT. Meanwhile, your competitor who claimed their free Bing Places listing six months ago is getting recommended to hundreds of potential customers asking AI for help. That is not a theory. It is how the data pipeline works.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to see exactly which AI platforms can find you?</p>
+              <p>Want to see exactly which AI platforms can find you? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check</a>
             </div>
 
@@ -386,7 +386,7 @@ export default function BingPlacesChatGPTConnection() {
 
             <p>
               For years, Bing Places was an afterthought. Google dominated with 90%+ market share, so most businesses ignored Microsoft's platform entirely. But AI has rewritten the rules. ChatGPT now has over 400 million weekly active users, and many of them are asking questions like:
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <ul>
               <li>&quot;Find me a good contractor for kitchen remodeling&quot;</li>
               <li>&quot;Who is the best real estate agent in [neighborhood]?&quot;</li>
@@ -395,7 +395,7 @@ export default function BingPlacesChatGPTConnection() {
             </ul>
             <p>
               Every one of those queries hits Bing's index. If your Bing Places listing is claimed, complete, and optimized, you are in the running. If not, you are invisible to a platform with more users than most social media networks.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Bar Chart */}
             <div className="not-prose ae-bar-group">
@@ -435,7 +435,7 @@ export default function BingPlacesChatGPTConnection() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Wondering how your Bing Places listing stacks up?</p>
+              <p>Wondering how your Bing Places listing stacks up? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run a Free Blind Spot Report Now</Link>
             </div>
 
@@ -447,37 +447,37 @@ export default function BingPlacesChatGPTConnection() {
 
             <p>
               The entire process takes about 15 to 20 minutes of active work, plus a few days for verification. Here is the full timeline:
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Timeline */}
             <div className="not-prose ae-timeline">
               <div className="ae-timeline-item">
                 <strong>Step 1: Go to Bing Places for Business</strong>
-                <p>Visit bingplaces.com and click &quot;Get Started.&quot; Sign in with a Microsoft account. If you do not have one, create a free account first. This takes about 2 minutes.</p>
+                <p>Visit bingplaces.com and click &quot;Get Started.&quot; Sign in with a Microsoft account. If you do not have one, create a free account first. This takes about 2 minutes. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Search for Your Business</strong>
-                <p>Enter your business name and address. Bing may already have a listing from aggregated data sources. If it exists, claim it. If not, create a new one. Either path takes about 3 minutes.</p>
+                <p>Enter your business name and address. Bing may already have a listing from aggregated data sources. If it exists, claim it. If not, create a new one. Either path takes about 3 minutes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Import from Google (Optional)</strong>
-                <p>Bing offers an import feature that pulls your Google Business Profile data automatically. This saves significant time on data entry. Authorize the connection and review every imported field for accuracy.</p>
+                <p>Bing offers an import feature that pulls your Google Business Profile data automatically. This saves significant time on data entry. Authorize the connection and review every imported field for accuracy. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Complete Every Single Field</strong>
-                <p>Fill in business name, address, phone, website, hours, categories, services, and a detailed description. More complete profiles rank higher and provide richer data for ChatGPT to reference.</p>
+                <p>Fill in business name, address, phone, website, hours, categories, services, and a detailed description. More complete profiles rank higher and provide richer data for ChatGPT to reference. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Upload Quality Photos</strong>
-                <p>Add your logo, storefront, team photos, and work samples. Visual content helps both human users and AI systems understand the scope and quality of your business.</p>
+                <p>Add your logo, storefront, team photos, and work samples. Visual content helps both human users and AI systems understand the scope and quality of your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 6: Verify Your Listing</strong>
-                <p>Complete verification via phone, email, or postcard. Unverified listings have severely limited visibility. This step is non-negotiable for appearing in ChatGPT results.</p>
+                <p>Complete verification via phone, email, or postcard. Unverified listings have severely limited visibility. This step is non-negotiable for appearing in ChatGPT results. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 7: Set Quarterly Reminders</strong>
-                <p>Update seasonal hours, add new services, refresh photos, and keep all information current. Active, maintained listings consistently outperform stale ones in AI recommendations.</p>
+                <p>Update seasonal hours, add new services, refresh photos, and keep all information current. Active, maintained listings consistently outperform stale ones in AI recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
             </div>
 
@@ -485,11 +485,11 @@ export default function BingPlacesChatGPTConnection() {
               <div className="ae-callout-title">Pro Tip: Google Import Shortcut</div>
               <p>
                 Even if you import from Google, review every field. Some data transfers incorrectly. Also add any Bing-specific fields that Google does not have. The goal is a listing that stands on its own, not a mirror of your Google profile.
-              </p>
+               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Need help optimizing your Bing Places listing for AI?</p>
+              <p>Need help optimizing your Bing Places listing for AI? Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email Us at support@theanswerengine.ai</a>
             </div>
 
@@ -501,7 +501,7 @@ export default function BingPlacesChatGPTConnection() {
 
             <p>
               Claiming your listing is step one. Optimizing it is where you separate yourself from every other business that simply filled in the basics and walked away.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Cheat Sheet */}
             <div className="not-prose ae-cheat-sheet">
@@ -577,7 +577,7 @@ export default function BingPlacesChatGPTConnection() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want a done-for-you AI optimization strategy?</p>
+              <p>Want a done-for-you AI optimization strategy? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">See What AI Platforms Are Missing About Your Business</Link>
             </div>
 
@@ -589,10 +589,10 @@ export default function BingPlacesChatGPTConnection() {
 
             <p>
               This is not a question of replacing Google with Bing. Google still dominates traditional search with 90%+ market share. Your Google Business Profile directly influences Google Search, Google Maps, and Google AI Overviews.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <p>
               But ignoring Bing Places in 2026 is like ignoring mobile in 2012. The numbers are small today, but the growth trajectory is exponential. The businesses that claim and optimize their Bing Places listings now will own the AI recommendation space before competitors even realize it matters.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Pros and Cons */}
             <div className="not-prose ae-pros-cons">
@@ -621,7 +621,7 @@ export default function BingPlacesChatGPTConnection() {
             </div>
 
             <div className="not-prose ae-quote">
-              <p>&quot;The businesses that win in AI search are the ones that show up everywhere AI looks. Google covers one platform. Bing Places covers three.&quot;</p>
+              <p>&quot;The businesses that win in AI search are the ones that show up everywhere AI looks. Google covers one platform. Bing Places covers three.&quot; Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* The Visibility Stack */}
@@ -651,7 +651,7 @@ export default function BingPlacesChatGPTConnection() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Ready to cover all four layers of the visibility stack?</p>
+              <p>Ready to cover all four layers of the visibility stack? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 to Get Started</a>
             </div>
 
@@ -665,28 +665,28 @@ export default function BingPlacesChatGPTConnection() {
               <div className="ae-callout-title">Mistake 1: Never Claiming the Listing</div>
               <p>
                 This is the most common and most damaging mistake. Bing may have a listing for your business from aggregated data, but it is likely incomplete, outdated, or inaccurate. An unclaimed listing is a liability, not an asset. It takes 15 minutes to claim. There is no excuse not to.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">Mistake 2: Treating It Like a Google Clone</div>
               <p>
                 Importing from Google and walking away is a half measure. Bing has its own fields, its own categories, and its own ranking factors. Optimize for Bing specifically. Different platforms reward different signals.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">Mistake 3: Skipping Verification</div>
               <p>
                 Unverified listings have severely limited visibility in Bing results. That means they have severely limited visibility in ChatGPT results. Complete the verification step. It is non-negotiable.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">Mistake 4: Leaving Fields Blank</div>
               <p>
                 Every empty field is a missed signal. AI systems reward completeness. A listing with 100% field completion will outperform one with 60% completion in AI recommendations every time.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             <div className="not-prose ae-callout ae-callout-info">

@@ -186,18 +186,18 @@ export default function BlogPost() {
 
           <p>Yelp collects $1.46 billion per year in advertising revenue from over 517,000 paying business locations. That is a massive amount of money flowing from small businesses into a single platform. And there is a growing assumption among business owners that this spending somehow carries over into AI search: that if you pay Yelp for premium placement, ChatGPT and Perplexity will be more likely to recommend you.</p>
 
-          <p><strong>They will not.</strong></p>
+          <p><strong>They will not.</strong> Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>Yelp Ads and AI recommendations operate on entirely separate systems. Your Yelp advertising budget buys visibility within the Yelp ecosystem. It does not buy a single citation from ChatGPT, Perplexity, Claude, or Google AI Overviews. This is one of the most misunderstood aspects of modern digital marketing, and the businesses that understand the difference are pulling ahead.</p>
+          <p>Yelp Ads and AI recommendations operate on entirely separate systems. Your Yelp advertising budget buys visibility within the Yelp ecosystem. It does not buy a single citation from ChatGPT, Perplexity, Claude, or Google AI Overviews. This is one of the most misunderstood aspects of modern digital marketing, and the businesses that understand the difference are pulling ahead. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Myth Alert</div>
-            <p>Paying for Yelp Ads does not make AI platforms more likely to recommend your business. AI systems read your organic Yelp data (reviews, descriptions, categories) but are completely blind to paid ad placements. Your $500/month Yelp ad budget is invisible to ChatGPT.</p>
+            <p>Paying for Yelp Ads does not make AI platforms more likely to recommend your business. AI systems read your organic Yelp data (reviews, descriptions, categories) but are completely blind to paid ad placements. Your $500/month Yelp ad budget is invisible to ChatGPT. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering if AI even knows your business exists? Find out in 60 seconds.</p>
+            <p>Wondering if AI even knows your business exists? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -205,15 +205,15 @@ export default function BlogPost() {
           <span className="ae-section-label" id="the-myth">The Myth</span>
           <h2>The Myth: Yelp Ad Spend = AI Visibility</h2>
 
-          <p>The reasoning sounds logical on the surface. You pay Yelp for better placement. Yelp is one of the most recognized business directories in America, with 178 million monthly visitors. AI must be reading Yelp. So if you pay more, AI should notice your business first. Right?</p>
+          <p>The reasoning sounds logical on the surface. You pay Yelp for better placement. Yelp is one of the most recognized business directories in America, with 178 million monthly visitors. AI must be reading Yelp. So if you pay more, AI should notice your business first. Right? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-          <p>Wrong. Here is where this thinking breaks down:</p>
+          <p>Wrong. Here is where this thinking breaks down: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-          <p>Yelp Ads are <strong>paid placements within the Yelp platform</strong>. They boost your listing to the top of Yelp search results, display your business on competitor profiles, and remove competitor ads from your own page. When the ad campaign pauses, the placement vanishes. These ads live inside Yelp&apos;s walled garden.</p>
+          <p>Yelp Ads are <strong>paid placements within the Yelp platform</strong>. They boost your listing to the top of Yelp search results, display your business on competitor profiles, and remove competitor ads from your own page. When the ad campaign pauses, the placement vanishes. These ads live inside Yelp&apos;s walled garden. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
-          <p>AI platforms like ChatGPT and Perplexity do not access Yelp&apos;s advertising layer. They crawl the open web and read organic Yelp data: your reviews, your star rating, your business description, your category. They cannot see which businesses are paying Yelp for premium placement and which are not.</p>
+          <p>AI platforms like ChatGPT and Perplexity do not access Yelp&apos;s advertising layer. They crawl the open web and read organic Yelp data: your reviews, your star rating, your business description, your category. They cannot see which businesses are paying Yelp for premium placement and which are not. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-          <p>Think of it this way: paying for a billboard inside a shopping mall does not change what the encyclopedia says about your business. Yelp Ads are the billboard. Your organic profile is the encyclopedia entry.</p>
+          <p>Think of it this way: paying for a billboard inside a shopping mall does not change what the encyclopedia says about your business. Yelp Ads are the billboard. Your organic profile is the encyclopedia entry. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-quote not-prose">
             <blockquote>AI does not read your ads. It reads your reputation. No amount of Yelp ad spend can substitute for genuine review signals and authority across the web.</blockquote>
@@ -221,12 +221,12 @@ export default function BlogPost() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Yelp Ads buy temporary visibility inside the Yelp platform. AI citations come from organic signals across the entire web. These are fundamentally different systems with no overlap.</p>
+            <p>Yelp Ads buy temporary visibility inside the Yelp platform. AI citations come from organic signals across the entire web. These are fundamentally different systems with no overlap. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your Yelp budget is not building AI authority. See what AI actually says about your business.</p>
+            <p>Your Yelp budget is not building AI authority. See what AI actually says about your business. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
           </div>
 
@@ -234,7 +234,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="yelp-ecosystem">Inside Yelp</span>
           <h2>How Yelp Ads Actually Work</h2>
 
-          <p>To understand why Yelp Ads do not affect AI, you need to understand what you are actually paying for. Yelp offers several paid products, and none of them generate signals that AI platforms can see.</p>
+          <p>To understand why Yelp Ads do not affect AI, you need to understand what you are actually paying for. Yelp offers several paid products, and none of them generate signals that AI platforms can see. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
@@ -259,13 +259,13 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>Every one of these products operates within Yelp&apos;s closed ecosystem. When ChatGPT or Perplexity crawls the web for business information, they read your organic Yelp profile. They do not interact with Yelp&apos;s ad auction, competitor placement system, or premium feature layer.</p>
+          <p>Every one of these products operates within Yelp&apos;s closed ecosystem. When ChatGPT or Perplexity crawls the web for business information, they read your organic Yelp profile. They do not interact with Yelp&apos;s ad auction, competitor placement system, or premium feature layer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-          <p>This is similar to the <Link href="/blog/do-google-ads-help-ai-search">Google Ads and AI search disconnect</Link>. Paid advertising on any platform operates on infrastructure that AI recommendation engines do not access.</p>
+          <p>This is similar to the <Link href="/blog/do-google-ads-help-ai-search">Google Ads and AI search disconnect</Link>. Paid advertising on any platform operates on infrastructure that AI recommendation engines do not access. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Yelp Ads work inside Yelp. AI works across the entire web. Are you visible in both?</p>
+            <p>Yelp Ads work inside Yelp. AI works across the entire web. Are you visible in both? Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">See Your Full Visibility Picture &rarr;</Link>
           </div>
 
@@ -273,9 +273,9 @@ export default function BlogPost() {
           <span className="ae-section-label" id="how-ai-uses-yelp">AI and Yelp</span>
           <h2>How AI Platforms Actually Use Yelp Data</h2>
 
-          <p>Here is the important nuance: AI <em>does</em> read Yelp. Just not the paid parts. Research analyzing over 6.8 million citations across ChatGPT, Gemini, and Perplexity found that 48.73% of citations in AI-generated answers came from third-party sites like Yelp, TripAdvisor, and MapQuest. Your Yelp profile matters. Your Yelp ad spend does not.</p>
+          <p>Here is the important nuance: AI <em>does</em> read Yelp. Just not the paid parts. Research analyzing over 6.8 million citations across ChatGPT, Gemini, and Perplexity found that 48.73% of citations in AI-generated answers came from third-party sites like Yelp, TripAdvisor, and MapQuest. Your Yelp profile matters. Your Yelp ad spend does not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
-          <p>Each AI platform interacts with Yelp data differently:</p>
+          <p>Each AI platform interacts with Yelp data differently: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-comparison-table not-prose">
             <table>
@@ -311,18 +311,18 @@ export default function BlogPost() {
             </table>
           </div>
 
-          <p>Notice the pattern. Every AI platform that reads Yelp data is reading the <strong>organic</strong> layer: your reviews, your business information, your category listing. Not one of them accesses the paid advertising layer. You could spend $10,000 per month on Yelp Ads and ChatGPT would treat your listing identically to a business spending nothing.</p>
+          <p>Notice the pattern. Every AI platform that reads Yelp data is reading the <strong>organic</strong> layer: your reviews, your business information, your category listing. Not one of them accesses the paid advertising layer. You could spend $10,000 per month on Yelp Ads and ChatGPT would treat your listing identically to a business spending nothing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Research Insight</div>
-            <p>Bing Places for Business, which feeds data to ChatGPT via Bing integration, often pulls in Yelp reviews. This means your Yelp reviews reach ChatGPT through Bing, not through Yelp&apos;s paid advertising system. The organic review data travels. The ad placement data does not.</p>
+            <p>Bing Places for Business, which feeds data to ChatGPT via Bing integration, often pulls in Yelp reviews. This means your Yelp reviews reach ChatGPT through Bing, not through Yelp&apos;s paid advertising system. The organic review data travels. The ad placement data does not. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
-          <p>This is why <Link href="/blog/do-google-reviews-affect-ai-recommendations">reviews across multiple platforms</Link> matter so much for AI visibility. AI reads the reputation layer, not the advertising layer.</p>
+          <p>This is why <Link href="/blog/do-google-reviews-affect-ai-recommendations">reviews across multiple platforms</Link> matter so much for AI visibility. AI reads the reputation layer, not the advertising layer. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>AI reads your reputation, not your ad budget. Find out what it sees today.</p>
+            <p>AI reads your reputation, not your ad budget. Find out what it sees today. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <Link href="/blindspot">Run Your Free AI Visibility Check &rarr;</Link>
           </div>
 
@@ -330,7 +330,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="paid-vs-organic">Head to Head</span>
           <h2>Yelp Ads vs. Organic Yelp Signals: Side by Side</h2>
 
-          <p>The contrast between what Yelp Ads buy you and what organic Yelp signals earn you is dramatic. Here is a direct comparison across every metric that matters.</p>
+          <p>The contrast between what Yelp Ads buy you and what organic Yelp signals earn you is dramatic. Here is a direct comparison across every metric that matters. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <table className="ae-comparison-table not-prose">
             <thead>
@@ -404,7 +404,7 @@ export default function BlogPost() {
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>Yelp Ads reach Yelp users. AI reaches everyone asking questions. Are you the answer?</p>
+            <p>Yelp Ads reach Yelp users. AI reaches everyone asking questions. Are you the answer? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot">Discover Who AI Recommends &rarr;</Link>
           </div>
 
@@ -412,7 +412,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="what-ai-reads">AI Signals</span>
           <h2>What AI Reads From Your Yelp Profile</h2>
 
-          <p>If Yelp Ads are invisible to AI, what <em>does</em> AI actually read from your Yelp presence? The signals are specific, and all of them are free to build.</p>
+          <p>If Yelp Ads are invisible to AI, what <em>does</em> AI actually read from your Yelp presence? The signals are specific, and all of them are free to build. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-decision-matrix not-prose">
             <table>
@@ -463,18 +463,18 @@ export default function BlogPost() {
             </table>
           </div>
 
-          <p>See the pattern? Every signal AI reads from your Yelp profile is part of the <strong>free, organic listing</strong>. You do not need to spend a dollar on Yelp advertising to build these signals. In fact, a business with 200 genuine reviews and a 4.7 star rating on a free Yelp profile will earn more AI citations than a business with 20 reviews and a 3.8 rating spending $1,000 per month on Yelp Ads.</p>
+          <p>See the pattern? Every signal AI reads from your Yelp profile is part of the <strong>free, organic listing</strong>. You do not need to spend a dollar on Yelp advertising to build these signals. In fact, a business with 200 genuine reviews and a 4.7 star rating on a free Yelp profile will earn more AI citations than a business with 20 reviews and a 3.8 rating spending $1,000 per month on Yelp Ads. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">The Real Yelp Investment</div>
-            <p>The most valuable Yelp investment for AI visibility costs $0 in ad spend. It costs time: responding to every review, keeping your profile complete and accurate, encouraging genuine customer reviews, and ensuring your business information matches across all directories. These organic signals are what AI platforms actually cite.</p>
+            <p>The most valuable Yelp investment for AI visibility costs $0 in ad spend. It costs time: responding to every review, keeping your profile complete and accurate, encouraging genuine customer reviews, and ensuring your business information matches across all directories. These organic signals are what AI platforms actually cite. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
 
-          <p>This connects directly to why <Link href="/blog/yelp-vs-ai-search-where-are-customers-actually-looking-now">customers are shifting from Yelp to AI search</Link>. As more consumers ask AI for recommendations instead of searching Yelp directly, the value of organic signals (which AI can read) grows while the value of Yelp-only paid placements (which AI cannot read) shrinks.</p>
+          <p>This connects directly to why <Link href="/blog/yelp-vs-ai-search-where-are-customers-actually-looking-now">customers are shifting from Yelp to AI search</Link>. As more consumers ask AI for recommendations instead of searching Yelp directly, the value of organic signals (which AI can read) grows while the value of Yelp-only paid placements (which AI cannot read) shrinks. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           {/* CTA 6 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your organic Yelp signals are what AI reads. Are they strong enough?</p>
+            <p>Your organic Yelp signals are what AI reads. Are they strong enough? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot">Audit Your Visibility Gaps &rarr;</Link>
           </div>
 
@@ -482,9 +482,9 @@ export default function BlogPost() {
           <span className="ae-section-label" id="real-cost">The Real Cost</span>
           <h2>The Real Cost of Misallocating Your Budget</h2>
 
-          <p>The danger is not that Yelp Ads are bad. For many high-ticket service businesses, Yelp Ads generate a positive ROI within the Yelp ecosystem. The danger is assuming your Yelp ad budget also covers your AI visibility. It does not.</p>
+          <p>The danger is not that Yelp Ads are bad. For many high-ticket service businesses, Yelp Ads generate a positive ROI within the Yelp ecosystem. The danger is assuming your Yelp ad budget also covers your AI visibility. It does not. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-          <p>Consider the math. Yelp&apos;s 517,000 paying advertisers spend an average of $150 to $1,000 per month. That is $1,800 to $12,000 per year flowing into a single platform. Meanwhile, AI search is becoming the primary way consumers discover local businesses. Every dollar allocated to Yelp Ads that you believe covers AI visibility is a dollar not invested in signals AI platforms actually read.</p>
+          <p>Consider the math. Yelp&apos;s 517,000 paying advertisers spend an average of $150 to $1,000 per month. That is $1,800 to $12,000 per year flowing into a single platform. Meanwhile, AI search is becoming the primary way consumers discover local businesses. Every dollar allocated to Yelp Ads that you believe covers AI visibility is a dollar not invested in signals AI platforms actually read. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <div className="ae-stats-grid not-prose">
             <div className="ae-stat-card">

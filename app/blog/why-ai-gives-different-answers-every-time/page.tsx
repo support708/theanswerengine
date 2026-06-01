@@ -120,16 +120,16 @@ export default function WhyAIDifferentAnswers() {
         </ol>
         <a href="https://theanswerengine.ai/contact">Schedule Strategy Call</a>
         <h2>Testing Your Consistency: DIY Method</h2>
-        <p>Ask ChatGPT the same question 10 times in separate conversations. Track how often you're recommended. (# recommended / 10) = your consistency score. Aim for 70%+.</p>
+        <p>Ask ChatGPT the same question 10 times in separate conversations. Track how often you're recommended. (# recommended / 10) = your consistency score. Aim for 70%+. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         <h2>FAQ</h2>
-        <p><strong>Is inconsistency getting worse?</strong> No—better. As AI matures, consistency improves.</p>
-        <p><strong>Can I see AI scores?</strong> Not directly, but you can infer them through testing.</p>
-        <p><strong>Minimum viable consistency?</strong> 30%+ is noticeable. 70%+ is competitive.</p>
-        <p><strong>Do paid ads help consistency?</strong> No. Only organic signals matter.</p>
-        <p><strong>Order of results matter?</strong> Yes. First recommendation is 2-3x more valuable.</p>
-        <p><strong>Will AI be perfectly consistent someday?</strong> Unlikely—randomness is intentional.</p>
-        <p><strong>Different temperature per platform?</strong> Yes. Each tunes differently.</p>
-        <p><strong>Worry about competitors sometimes outranking?</strong> Only if it's systematic. Test regularly.</p>
+        <p><strong>Is inconsistency getting worse?</strong> No—better. As AI matures, consistency improves. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+        <p><strong>Can I see AI scores?</strong> Not directly, but you can infer them through testing. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+        <p><strong>Minimum viable consistency?</strong> 30%+ is noticeable. 70%+ is competitive. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+        <p><strong>Do paid ads help consistency?</strong> No. Only organic signals matter. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+        <p><strong>Order of results matter?</strong> Yes. First recommendation is 2-3x more valuable. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+        <p><strong>Will AI be perfectly consistent someday?</strong> Unlikely—randomness is intentional. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+        <p><strong>Different temperature per platform?</strong> Yes. Each tunes differently. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+        <p><strong>Worry about competitors sometimes outranking?</strong> Only if it's systematic. Test regularly. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         <section>
           <h2>Ready for Consistent AI Visibility?</h2>
           <a href="https://theanswerengine.ai/blindspot">Free Consistency Audit</a>

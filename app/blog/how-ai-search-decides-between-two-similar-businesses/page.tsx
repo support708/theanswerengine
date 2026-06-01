@@ -379,7 +379,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Now a homeowner opens ChatGPT and types: "Who is the best electrician near me in Phoenix?" ChatGPT does not return both. It names one. The other electrician does not get a mention, a footnote, or even an honorable mention. That business simply does not exist in the AI's answer.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is the new reality of local business discovery. AI platforms do not present ten blue links. They do not show a map pack with three pins. They give one answer, sometimes two or three, and the rest of the market is invisible. The question every business owner needs to ask is not "am I good at what I do?" but "does the AI know I am good at what I do?"
@@ -393,7 +393,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The "Good Enough" Trap</p>
+                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The "Good Enough" Trap Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Being a great business is necessary but no longer sufficient. AI platforms are not evaluating whether you are good at your job. They are evaluating whether the internet proves you are good at your job. The gap between those two things is where most businesses lose the tiebreaker.
                   </p>
@@ -403,7 +403,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               AI Overviews now appear on roughly 48% of tracked search queries, up 58% year over year. Every month that passes, more customers are getting their answers from AI instead of scrolling through traditional results. The tiebreaker between two similar businesses is not a marginal concern. It is the entire game.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA 2: Section End */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
@@ -427,7 +427,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               When two businesses look identical on the surface, AI platforms dig deeper into a set of signals that most business owners never think about. These are the dimensions that break the tie.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Signal Cards Grid */}
             <div className="grid md:grid-cols-2 gap-5 mb-8">
@@ -463,7 +463,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Authority Signals Across the Web</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Domain authority remains the top predictor of AI citations. High-traffic sites earn 3x more AI citations than low-traffic ones. But it is not just your own site. Mentions on third-party publications, industry directories, and community platforms build the authority footprint that AI models evaluate during retrieval.
-                </p>
+                 Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               </div>
 
               {/* Signal 3 */}
@@ -497,7 +497,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Entity Recognition and Structured Data</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   AI models build an internal representation of your business as an "entity" in a knowledge graph. Clean schema markup, consistent NAP data (name, address, phone), and structured attributes help the AI confidently identify what your business is, what it does, and where it operates. Ambiguity is a disqualifier.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
 
               {/* Signal 5 */}
@@ -531,7 +531,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">6. Response Consistency Across Platforms</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   When the information about your business is consistent across your website, directories, social profiles, and review sites, AI models gain confidence. When your phone number differs on Yelp vs. your website, or your service list varies between directories, the AI discounts your reliability. Consistency is a trust multiplier.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
 
               {/* Signal 7 */}
@@ -554,7 +554,7 @@ export default function Page() {
 
             {/* CTA 3: After signals */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to know which of these seven signals your business is weakest on? Our AI Blind Spot Report scores you on every dimension.</p>
+              <p className="text-sm text-gray-300 mb-3">Want to know which of these seven signals your business is weakest on? Our AI Blind Spot Report scores you on every dimension. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -578,7 +578,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This happens because AI platforms reinforce their own patterns. When ChatGPT cites a business and the user engages positively (clicks the link, does not ask a follow-up correction), that signals the model made a good recommendation. Over time, the businesses that get early citation traction build a reinforcement loop that makes them increasingly difficult to displace.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto my-8">
@@ -631,7 +631,7 @@ export default function Page() {
                   <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Why First-Mover Advantage Matters More Than Ever</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Distributing content across multiple platforms can increase AI citations by up to 325% compared to publishing only on your own site. The businesses that build citation momentum first are not just winning today. They are making it structurally harder for competitors to catch up tomorrow.
-                  </p>
+                   Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
             </div>
@@ -642,7 +642,7 @@ export default function Page() {
 
             {/* CTA 4: Internal link */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to understand how Perplexity specifically evaluates citation-worthiness? Read our deep dive.</p>
+              <p className="text-sm text-gray-300 mb-3">Want to understand how Perplexity specifically evaluates citation-worthiness? Read our deep dive. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link
                 href="/blog/how-perplexity-decides-what-to-cite"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -673,7 +673,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">ChatGPT: Trained Knowledge + Live Retrieval</h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   ChatGPT combines its training data with live Bing web searches. For local queries, it heavily weights branded web mentions, YouTube presence, and review aggregator data. Businesses with strong content on third-party platforms (not just their own website) perform significantly better in ChatGPT recommendations.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   The tiebreaker in ChatGPT often comes down to which business has more diverse, corroborating mentions across the web. A single strong website is not enough. ChatGPT wants to see your name in multiple trusted contexts.
                 </p>
@@ -686,7 +686,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">Perplexity: Source Quality and Recency</h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   Perplexity operates more like a research engine. It pulls from its own index and ranks sources by freshness, citation density, and source authority. Perplexity is especially sensitive to how recently content was published or updated. A competitor who published a comprehensive guide last week can overtake you even if your content has been ranking for years.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Perplexity also surfaces inline citations, which means the quality and structure of your content directly impacts whether you get named or merely linked in a footnote.
                 </p>
@@ -699,7 +699,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">Google AI (AI Mode and AI Overviews)</h3>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   Google's AI features draw from its own search index, and there is a strong correlation between traditional organic rankings and AI citation selection. Data from early 2026 shows that roughly 76% of AI Overview citations used to come from top-10 ranked pages, but that figure has dropped to as low as one in six. Google is increasingly pulling from authoritative sources regardless of traditional ranking position.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   For tiebreakers, Google AI weighs structured data, schema markup, and E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness) more heavily than other platforms.
                 </p>
@@ -712,7 +712,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">Claude: Authority Depth and Content Structure</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Claude evaluates business authority through the depth and structure of available content. It places significant weight on how well-organized and logically structured your information is. Businesses with comprehensive, hierarchically structured service pages, clear FAQ sections, and well-attributed claims consistently outperform competitors with equivalent but poorly structured content.
-                </p>
+                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
@@ -748,7 +748,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               AI platforms do not think in terms of websites. They think in terms of entities. An entity is the AI's internal representation of your business: what it is, what it does, where it operates, and how confident the model is in that identification. When the AI cannot confidently identify your entity, it will not recommend you, period.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Entity recognition is where most tiebreakers are won and lost. Two businesses might have equally good websites, but if one has a clean, unambiguous entity footprint across the web and the other has conflicting information, inconsistent naming, or fragmented digital presence, the AI will always choose the one it can identify with higher confidence.
@@ -805,7 +805,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The 85% Factor</p>
+                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The 85% Factor <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Research shows that 85% of brand mentions in AI responses originate from third-party pages, not from the business's own website. This means the entity signals that matter most are the ones you do not directly control. Building your presence on external platforms is not optional for AI visibility.
                   </p>
@@ -815,7 +815,7 @@ export default function Page() {
 
             {/* CTA 6: Email */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Our team audits entity recognition across every major AI platform. If your competitor is getting cited and you are not, entity signals are usually why.</p>
+              <p className="text-sm text-gray-300 mb-3">Our team audits entity recognition across every major AI platform. If your competitor is getting cited and you are not, entity signals are usually why. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -894,7 +894,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>Both Businesses Have 4.7 Stars</p>
+                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>Both Businesses Have 4.7 Stars Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Notice that both businesses in this scenario could have identical star ratings. The difference is not quality of service. It is quality of digital presence. Business B might actually be the better electrician, but the AI will never know that because the signals are not there. AI cannot evaluate what it cannot see.
                   </p>
@@ -904,7 +904,7 @@ export default function Page() {
 
             {/* CTA 7: Phone */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to see your own head-to-head comparison against your top competitor? We build these reports for businesses every day.</p>
+              <p className="text-sm text-gray-300 mb-3">Want to see your own head-to-head comparison against your top competitor? We build these reports for businesses every day. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -931,7 +931,7 @@ export default function Page() {
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
                   <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>1</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Content Depth Wins Over Content Volume</p>
+                    <p className="font-semibold text-white mb-1">Content Depth Wins Over Content Volume We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                     <p className="text-sm text-gray-400">20 comprehensive pages outperform 200 thin pages. Semantic completeness is the single highest-correlation factor for AI citations.</p>
                   </div>
                 </div>
@@ -939,7 +939,7 @@ export default function Page() {
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
                   <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>2</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Entity Clarity Is Non-Negotiable</p>
+                    <p className="font-semibold text-white mb-1">Entity Clarity Is Non-Negotiable Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                     <p className="text-sm text-gray-400">Consistent NAP data, clean schema markup, and unambiguous entity identification across all platforms. Any conflicting signal is a penalty.</p>
                   </div>
                 </div>
@@ -947,7 +947,7 @@ export default function Page() {
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
                   <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>3</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Third-Party Mentions Trump Self-Promotion</p>
+                    <p className="font-semibold text-white mb-1">Third-Party Mentions Trump Self-Promotion <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                     <p className="text-sm text-gray-400">85% of AI brand mentions come from third-party pages. Your own website is the starting point, not the finish line.</p>
                   </div>
                 </div>
@@ -955,7 +955,7 @@ export default function Page() {
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
                   <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>4</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Freshness Is a Tiebreaker, Not a Bonus</p>
+                    <p className="font-semibold text-white mb-1">Freshness Is a Tiebreaker, Not a Bonus Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                     <p className="text-sm text-gray-400">When all else is equal, the business with more recent content wins. Quarterly updates are the minimum. Monthly is the standard for competitive markets.</p>
                   </div>
                 </div>
@@ -963,7 +963,7 @@ export default function Page() {
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
                   <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>5</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Review Velocity Matters More Than Review Count</p>
+                    <p className="font-semibold text-white mb-1">Review Velocity Matters More Than Review Count Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                     <p className="text-sm text-gray-400">A steady stream of recent, detailed reviews across multiple platforms signals active customer engagement. 500 reviews from 2022 are worth less than 50 from this month.</p>
                   </div>
                 </div>
@@ -971,7 +971,7 @@ export default function Page() {
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
                   <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>6</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Multi-Platform Optimization Is Required</p>
+                    <p className="font-semibold text-white mb-1">Multi-Platform Optimization Is Required <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                     <p className="text-sm text-gray-400">86% of the citation landscape varies across AI platforms. Winning on ChatGPT does not mean winning on Perplexity. You need a strategy for each.</p>
                   </div>
                 </div>
@@ -979,7 +979,7 @@ export default function Page() {
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
                   <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>7</span>
                   <div>
-                    <p className="font-semibold text-white mb-1">Citation Momentum Compounds</p>
+                    <p className="font-semibold text-white mb-1">Citation Momentum Compounds <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                     <p className="text-sm text-gray-400">The first business to build citation momentum in a market creates a structural advantage that becomes harder to overcome with every passing month. Starting today is the best move available.</p>
                   </div>
                 </div>
@@ -988,7 +988,7 @@ export default function Page() {
 
             {/* CTA 8: Blindspot */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">This cheat sheet is the starting point. The specific priorities for your business depend on your market, your competitors, and your current signal profile.</p>
+              <p className="text-sm text-gray-300 mb-3">This cheat sheet is the starting point. The specific priorities for your business depend on your market, your competitors, and your current signal profile. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -1067,7 +1067,7 @@ export default function Page() {
                 </svg>
               </div>
               <div>
-                <p className="font-plus-jakarta font-bold text-white mb-1">Justin Borges</p>
+                <p className="font-plus-jakarta font-bold text-white mb-1">Justin Borges Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   We help businesses become the answer AI gives. Our team audits, optimizes, and monitors AI visibility across every major platform so that when a customer asks AI for a recommendation, your business is the one that gets named.
                 </p>
@@ -1108,7 +1108,7 @@ export default function Page() {
                     </h3>
                     <p className="text-sm text-gray-400 leading-relaxed pl-10">
                       {item.answer}
-                    </p>
+                     <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                   </div>
                 </div>
               ))}

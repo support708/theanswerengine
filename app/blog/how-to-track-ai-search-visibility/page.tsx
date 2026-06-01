@@ -290,13 +290,13 @@ export default function Page() {
 
             <p>You already monitor your Google rankings. You check your paid ad performance every week. But when a potential customer asks ChatGPT for a recommendation in your category, do you have any idea whether your business shows up?</p>
 
-            <p>AI-referred traffic grew 527% between January and May 2025. That trajectory has not slowed down. If you are not tracking your AI search visibility, you are flying blind in the fastest-growing discovery channel of the decade.</p>
+            <p>AI-referred traffic grew 527% between January and May 2025. That trajectory has not slowed down. If you are not tracking your AI search visibility, you are flying blind in the fastest-growing discovery channel of the decade. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
               <p>If you cannot measure it, you cannot improve it. And if you cannot improve it, your competitors will.</p>
             </div>
 
-            <p>This guide covers the exact tools, metrics, and methods that matter for measuring your AI search presence. Whether you use paid platforms or build a free tracking system yourself, you will know precisely where you stand by the time you finish reading.</p>
+            <p>This guide covers the exact tools, metrics, and methods that matter for measuring your AI search presence. Whether you use paid platforms or build a free tracking system yourself, you will know precisely where you stand by the time you finish reading. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -307,7 +307,7 @@ export default function Page() {
             {/* ── CALLOUT: Citation Drift ── */}
             <div className="ae-callout not-prose">
               <div className="ae-callout-title">AI Citations Change Faster Than You Think</div>
-              <p>Google AI Overviews recorded 59.3% citation drift between June and July 2025. Perplexity showed 40.5% monthly drift. ChatGPT landed at 54.1%. That means the sources AI platforms cite can change for more than half of all queries in a single month. Without ongoing tracking, you will not know if you have been dropped.</p>
+              <p>Google AI Overviews recorded 59.3% citation drift between June and July 2025. Perplexity showed 40.5% monthly drift. ChatGPT landed at 54.1%. That means the sources AI platforms cite can change for more than half of all queries in a single month. Without ongoing tracking, you will not know if you have been dropped. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* ── WHY IT IS DIFFERENT ── */}
@@ -316,7 +316,7 @@ export default function Page() {
 
             <p>Traditional SEO tracking is straightforward. You monitor keyword rankings, organic traffic, click-through rates, and backlinks. The tools are mature and the metrics are standardized. AI visibility tracking is a fundamentally different challenge.</p>
 
-            <p>AI platforms do not return a list of ten blue links. They generate conversational answers, sometimes citing sources and sometimes not. The same question can produce different answers depending on timing, user location, and conversation history. There is no fixed &quot;position 1&quot; to aim for.</p>
+            <p>AI platforms do not return a list of ten blue links. They generate conversational answers, sometimes citing sources and sometimes not. The same question can produce different answers depending on timing, user location, and conversation history. There is no fixed &quot;position 1&quot; to aim for. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* ── COMPARISON TABLE: SEO vs AI Tracking ── */}
             <div className="ae-comparison-table not-prose">
@@ -367,7 +367,7 @@ export default function Page() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI platforms are even mentioning your business? We will check for you.</p>
+              <p>Not sure if AI platforms are even mentioning your business? We will check for you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Run a Free AI Visibility Check &rarr;</Link>
             </div>
 
@@ -425,13 +425,13 @@ export default function Page() {
 
             <h3>1. Citation Frequency</h3>
 
-            <p>Citation frequency measures how often AI systems reference your content or website in their responses. An AI citation occurs when a platform explicitly credits your site as a source, often including a direct link. This is the clearest signal that AI platforms view your content as authoritative.</p>
+            <p>Citation frequency measures how often AI systems reference your content or website in their responses. An AI citation occurs when a platform explicitly credits your site as a source, often including a direct link. This is the clearest signal that AI platforms view your content as authoritative. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>Track it by running a consistent set of test prompts across ChatGPT, Perplexity, and Google AI Overviews at regular intervals. Log every mention.</p>
 
             <h3>2. Share of LLM (AI Share of Voice)</h3>
 
-            <p>Share of LLM quantifies how often your brand is mentioned compared to competitors in AI-generated answers. Think of it as the AI equivalent of traditional share of voice.</p>
+            <p>Share of LLM quantifies how often your brand is mentioned compared to competitors in AI-generated answers. Think of it as the AI equivalent of traditional share of voice. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p>If a customer asks &quot;best plumber in Austin&quot; and your competitor appears in 7 out of 10 AI responses while you appear in 2, your share of LLM is 20% compared to their 70%. This metric matters because AI recommendations often become the only answer a customer sees.</p>
 
@@ -451,7 +451,7 @@ export default function Page() {
 
             <h3>3. Brand Mention Accuracy</h3>
 
-            <p>Being mentioned is only half the equation. What AI says about you matters just as much as whether it says anything at all. Track whether AI platforms correctly report your services, location, contact information, and specialties. Inaccurate information can be worse than no mention at all.</p>
+            <p>Being mentioned is only half the equation. What AI says about you matters just as much as whether it says anything at all. Track whether AI platforms correctly report your services, location, contact information, and specialties. Inaccurate information can be worse than no mention at all. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -460,19 +460,19 @@ export default function Page() {
 
             <h3>4. Citation Drift Rate</h3>
 
-            <p>Citation drift measures how much the sources cited by AI platforms change from one period to the next. Research from Maximus Labs found that 40% to 60% of AI sources change monthly. A high drift rate means you need to monitor frequently because today&apos;s citation can vanish by next month.</p>
+            <p>Citation drift measures how much the sources cited by AI platforms change from one period to the next. Research from Maximus Labs found that 40% to 60% of AI sources change monthly. A high drift rate means you need to monitor frequently because today&apos;s citation can vanish by next month. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>Track the same prompts weekly or monthly and note when your citations appear, disappear, or get replaced by a competitor.</p>
 
             <h3>5. AI Referral Traffic</h3>
 
-            <p>This is the metric that connects AI visibility to actual business results. Check your web analytics for traffic coming from chat.openai.com, perplexity.ai, and Google AI features. AI platforms generated over 1.1 billion referral visits in June 2025 alone, a 357% year-over-year increase.</p>
+            <p>This is the metric that connects AI visibility to actual business results. Check your web analytics for traffic coming from chat.openai.com, perplexity.ai, and Google AI features. AI platforms generated over 1.1 billion referral visits in June 2025 alone, a 357% year-over-year increase. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>If your analytics show growing AI referral traffic, your optimization efforts are working. If traffic is flat or declining, something needs attention.</p>
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>We track all five of these metrics across every major AI platform for our clients.</p>
+              <p>We track all five of these metrics across every major AI platform for our clients. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">See What We Find for Your Business &rarr;</Link>
             </div>
 
@@ -486,7 +486,7 @@ export default function Page() {
             <span className="ae-section-label">The Tools</span>
             <h2>AI Visibility Tracking Tools Compared</h2>
 
-            <p>A growing ecosystem of tools now exists specifically for tracking AI search visibility. Here are the leading options as of early 2026, organized by business size and budget.</p>
+            <p>A growing ecosystem of tools now exists specifically for tracking AI search visibility. Here are the leading options as of early 2026, organized by business size and budget. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── COMPARISON TABLE: Tools ── */}
             <div className="ae-comparison-table not-prose">
@@ -540,7 +540,7 @@ export default function Page() {
 
             <h3>Peec AI: Best for Agencies and Mid-Market</h3>
 
-            <p>Peec AI, based in Germany, offers real-time AI visibility monitoring with strong competitive benchmarking and client-facing exports. Plans start at roughly $89 per month for 25 prompts, scaling to $199 per month for 100 prompts. The platform raised approximately 7 million euros in funding within five months, signaling strong market demand. Peec is particularly useful for agencies managing AI visibility across multiple clients.</p>
+            <p>Peec AI, based in Germany, offers real-time AI visibility monitoring with strong competitive benchmarking and client-facing exports. Plans start at roughly $89 per month for 25 prompts, scaling to $199 per month for 100 prompts. The platform raised approximately 7 million euros in funding within five months, signaling strong market demand. Peec is particularly useful for agencies managing AI visibility across multiple clients. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>Profound: Best for Enterprise</h3>
 
@@ -572,7 +572,7 @@ export default function Page() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Rather have experts handle the tracking? We monitor AI visibility across every major platform.</p>
+              <p>Rather have experts handle the tracking? We monitor AI visibility across every major platform. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -596,13 +596,13 @@ export default function Page() {
               </ul>
             </div>
 
-            <p>Run the same 5 to 10 prompts across all three platforms once per week. Over time, this gives you a clear trend line that reveals whether your visibility is growing, shrinking, or holding steady.</p>
+            <p>Run the same 5 to 10 prompts across all three platforms once per week. Over time, this gives you a clear trend line that reveals whether your visibility is growing, shrinking, or holding steady. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>If you are not sure which prompts to test, our guide on <Link href="/blog/check-if-ai-recommends-your-business">checking if AI recommends your business</Link> includes exact prompt templates you can use. The key is consistency: the same prompts, the same platforms, the same schedule.</p>
 
             {/* ── CTA 5 (phone) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about setting up your tracking system? Talk to our team directly.</p>
+              <p>Questions about setting up your tracking system? Talk to our team directly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
             </div>
 
@@ -612,7 +612,7 @@ export default function Page() {
 
             <p>Tracking your own visibility is only half the picture. You also need to know how you compare to competitors. Most paid AI visibility tools include competitive benchmarking features, but you can do this manually as well.</p>
 
-            <p>When you run your test prompts, record every competitor that appears in the AI response. Over several weeks, you will see patterns: which competitors consistently show up, which ones appear on some platforms but not others, and whose position is improving or declining.</p>
+            <p>When you run your test prompts, record every competitor that appears in the AI response. Over several weeks, you will see patterns: which competitors consistently show up, which ones appear on some platforms but not others, and whose position is improving or declining. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p>Pay special attention to what differentiates the competitors AI platforms favor. Do they have stronger schema markup? More authoritative content? Better directory presence? Understanding <Link href="/blog/how-perplexity-decides-what-to-cite">how AI platforms decide what to cite</Link> will help you identify exactly where you are falling behind.</p>
 
@@ -633,7 +633,7 @@ export default function Page() {
             {/* ── CALLOUT ── */}
             <div className="ae-callout not-prose">
               <div className="ae-callout-title">AI Overviews Keep Expanding</div>
-              <p>Google AI Overviews reached 2 billion monthly users globally by late 2025, and recent data shows they now appear in over 60% of U.S. search queries. That is double the coverage from August 2024. If your business category triggers AI Overviews and you are not being cited, competitors are capturing that attention instead.</p>
+              <p>Google AI Overviews reached 2 billion monthly users globally by late 2025, and recent data shows they now appear in over 60% of U.S. search queries. That is double the coverage from August 2024. If your business category triggers AI Overviews and you are not being cited, competitors are capturing that attention instead. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* ── CTA 6 ── */}
@@ -646,7 +646,7 @@ export default function Page() {
             <span className="ae-section-label">The Routine</span>
             <h2>Building a Tracking Routine That Works</h2>
 
-            <p>The biggest risk with AI visibility tracking is doing it once and then forgetting about it. Given how fast AI citations change, you need a consistent routine.</p>
+            <p>The biggest risk with AI visibility tracking is doing it once and then forgetting about it. Given how fast AI citations change, you need a consistent routine. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── TIMELINE: Tracking Schedule ── */}
             <div className="ae-timeline not-prose">
@@ -656,7 +656,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Monthly (30 minutes)</strong>
-                <p>Review trends. Calculate your share of LLM for key queries. Note any significant citation drift. Check your web analytics for AI referral traffic changes.</p>
+                <p>Review trends. Calculate your share of LLM for key queries. Note any significant citation drift. Check your web analytics for AI referral traffic changes. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Quarterly (1 hour)</strong>
@@ -666,7 +666,7 @@ export default function Page() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Consistency beats intensity. Fifteen minutes every week provides more value than a two-hour deep-dive every three months. AI visibility shifts happen gradually, and the businesses that catch those shifts early are the ones that maintain their position.</p>
+              <p>Consistency beats intensity. Fifteen minutes every week provides more value than a two-hour deep-dive every three months. AI visibility shifts happen gradually, and the businesses that catch those shifts early are the ones that maintain their position. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             {/* ── CTA 7 (email) ── */}
@@ -679,7 +679,7 @@ export default function Page() {
             <span className="ae-section-label">Pitfalls</span>
             <h2>Common Tracking Mistakes to Avoid</h2>
 
-            <p>As this field matures, we see the same mistakes repeatedly. Avoid these pitfalls to get accurate, useful data from your tracking efforts.</p>
+            <p>As this field matures, we see the same mistakes repeatedly. Avoid these pitfalls to get accurate, useful data from your tracking efforts. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* ── CHEAT SHEET: Mistakes ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -703,7 +703,7 @@ export default function Page() {
             <span className="ae-section-label">Take Action</span>
             <h2>Connecting Tracking to Action</h2>
 
-            <p>Data without action is just trivia. Every tracking session should end with a clear next step. Here is what each signal means and what to do about it.</p>
+            <p>Data without action is just trivia. Every tracking session should end with a clear next step. Here is what each signal means and what to do about it. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── DECISION MATRIX: Signals to Actions ── */}
             <div className="ae-decision-matrix not-prose">
@@ -747,7 +747,7 @@ export default function Page() {
 
             <p>If you are completely invisible on all platforms, start with the fundamentals. Our <Link href="/blog/complete-guide-answer-engine-optimization">complete guide to answer engine optimization</Link> walks you through the full process step by step.</p>
 
-            <p>If you are visible on Google AI but not ChatGPT, your Bing presence is likely weak. ChatGPT draws heavily from Bing&apos;s data ecosystem. Claim and optimize your Bing Places profile first. Our <Link href="/blog/bing-places-chatgpt-connection">Bing Places to ChatGPT connection guide</Link> explains exactly how this pipeline works.</p>
+            <p>If you are visible on Google AI but not ChatGPT, your Bing presence is likely weak. ChatGPT draws heavily from Bing&apos;s data ecosystem. Claim and optimize your Bing Places profile first. Our <Link href="/blog/bing-places-chatgpt-connection">Bing Places to ChatGPT connection guide</Link> explains exactly how this pipeline works. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* ── CTA 9 ── */}
             <div className="ae-cta-inline not-prose">
@@ -757,7 +757,7 @@ export default function Page() {
 
             {/* ── QUOTE ── */}
             <div className="ae-quote not-prose">
-              <p>The businesses that track their AI visibility weekly are the ones that dominate when competitors finally start paying attention.</p>
+              <p>The businesses that track their AI visibility weekly are the ones that dominate when competitors finally start paying attention. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             {/* ── CTA 10 (phone) ── */}
@@ -768,7 +768,7 @@ export default function Page() {
 
             {/* ── CTA 11 (email) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Send us your website and we will run a quick AI visibility check before your first call.</p>
+              <p>Send us your website and we will run a quick AI visibility check before your first call. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -817,7 +817,7 @@ export default function Page() {
                   className="rounded-xl border border-gray-800 bg-gray-900/50 p-6"
                 >
                   <h3 className="text-white font-semibold mb-2">{faq.q}</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">{faq.a}</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">{faq.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 </div>
               ))}
             </div>
@@ -833,7 +833,7 @@ export default function Page() {
           {/* ── FINAL CTA ── */}
           <section className="ae-final-cta not-prose mb-16">
             <h2>Not Sure Where You Stand in AI Search?</h2>
-            <p>Our free Blind Spot Report runs a complete analysis across all major AI platforms, maps your competitor landscape, and delivers a prioritized action plan. No pitch, just the data.</p>
+            <p>Our free Blind Spot Report runs a complete analysis across all major AI platforms, maps your competitor landscape, and delivers a prioritized action plan. No pitch, just the data. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
             <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
@@ -859,7 +859,7 @@ export default function Page() {
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">Justin Borges</p>
+              <p className="text-white font-semibold">Justin Borges <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <p className="text-gray-500 text-sm">
                 Helping local businesses get found, recommended, and cited by AI search platforms.
               </p>

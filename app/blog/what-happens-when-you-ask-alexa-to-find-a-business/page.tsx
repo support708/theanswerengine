@@ -414,11 +414,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Someone stands in their kitchen and says, &quot;Alexa, find a locksmith near me.&quot; What follows is not a web search. There is no screen full of blue links. No map pack. No scrolling. Alexa processes the request, evaluates data from multiple sources, selects the single best match, and speaks one name out loud. Maybe two. That is it.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is the fundamental difference between voice search and traditional search. On Google, ten businesses share page one. On Alexa, one business gets the recommendation. The economics are brutal: if you are that one business, you get the call. If you are not, the customer never knew you existed. There is no &quot;second page&quot; to scroll to, no ad to buy, no alternative result to click.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* Callout: Info */}
             <div
@@ -428,17 +428,17 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#3B82F6' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Voice Search Is Winner-Take-All</p>
+                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Voice Search Is Winner-Take-All <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     With screen-based search, businesses compete for attention across a results page. With voice search through Alexa, there is exactly one winner per query. The stakes are binary: named or invisible. This makes the signals Alexa evaluates disproportionately important compared to traditional SEO.
-                  </p>
+                   Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               With Amazon Echo controlling over 70% of US smart speaker penetration and the broader smart speaker market valued at roughly $17.78 billion in 2026, this is not a niche channel. Millions of Americans ask Alexa for local business recommendations daily. The Alexa segment alone is growing at nearly 15% annually. If your business is not in Alexa&apos;s data pipeline, you are losing customers you will never know about.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Quote */}
             <div
@@ -447,13 +447,13 @@ export default function Page() {
             >
               <p className="text-gray-200 italic leading-relaxed mb-2">
                 &quot;The businesses that win in voice search are the ones that control what the algorithm sees. Not what the customer searches for.&quot;
-              </p>
-              <p className="text-xs text-gray-500">Justin Borges</p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+              <p className="text-xs text-gray-500">Justin Borges <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             {/* Inline CTA */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Not sure if Alexa can even find your business right now? We audit your visibility across every major voice and AI platform.</p>
+              <p className="text-sm text-gray-300 mb-3">Not sure if Alexa can even find your business right now? We audit your visibility across every major voice and AI platform. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -474,11 +474,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Here is the critical insight most businesses miss: you cannot list your business on Alexa directly. There is no &quot;Amazon Alexa Business Profile&quot; to claim. No dashboard to log into. No listing to manage. Alexa does not work like Google Business Profile or Bing Places. It pulls its local business data from trusted third-party sources, and the primary one is Yelp.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When someone asks Alexa for a recommendation, the system queries its knowledge layer, which is built from aggregated directory data. Yelp is the backbone, but Alexa also cross-references information from other major data aggregators and directories. The exact mix is proprietary, but what we know from testing is clear: if your business does not exist on Yelp with accurate, complete, well-reviewed data, your chances of being named by Alexa are close to zero.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Callout: Warning */}
             <div
@@ -488,17 +488,17 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The Yelp Blind Spot That Costs You Voice Customers</p>
+                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The Yelp Blind Spot That Costs You Voice Customers One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Many businesses have abandoned Yelp in favor of Google reviews. Understandable, given Google&apos;s dominance in traditional search. But Alexa does not care about your Google reviews. It relies on Yelp. If your Yelp profile is unclaimed, outdated, or poorly reviewed, Alexa will recommend your competitor every single time someone asks.
-                  </p>
+                   Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 </div>
               </div>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Beyond Yelp, Alexa&apos;s data pipeline touches roughly 300 directories and data aggregators that feed information into voice assistant ecosystems. These include the major data aggregators, industry-specific directories, and local business data platforms. Consistency across all of them matters. When your business name, address, or phone number varies across these sources, Alexa&apos;s confidence in your data drops. Low confidence means low priority in recommendations.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Takeaway */}
             <div
@@ -508,16 +508,16 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>Key Takeaway</p>
+                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>Key Takeaway Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Alexa&apos;s data pipeline is indirect. You influence it by controlling the sources it trusts. The businesses that dominate Alexa recommendations are the ones that have solved the upstream data consistency problem across hundreds of directories. This is not something most businesses can brute-force alone.
-                  </p>
+                   Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to understand which directories actually matter for AI and voice search? Read our deep dive.</p>
+              <p className="text-sm text-gray-300 mb-3">Want to understand which directories actually matter for AI and voice search? Read our deep dive. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link
                 href="/blog/directory-listings-that-help-ai-find-business"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -530,15 +530,15 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               To understand why data consistency matters so much, it helps to think about how Alexa&apos;s knowledge layer is actually structured. At the outermost layer sits the real-time query interpreter — this is where your spoken request gets parsed into a business category, intent, and location. That parsed intent then passes to the local resolution layer, which matches the query against its cached business index. The businesses in that index were not placed there by their owners. They were promoted into it by the aggregated weight of signals Alexa collected from its data sources over weeks and months. Getting into that index requires sustained, consistent signal pressure from multiple trusted sources simultaneously.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Beneath the local resolution layer sits what Amazon internally refers to as the entity confidence model. This is the scoring system that decides how certain Alexa is that a business record is accurate, active, and trustworthy. Each time a directory source confirms your business name, address, phone number, and category, that confirmation raises your entity confidence score. Each time a source contradicts another — a different phone number on Yelp versus a data aggregator, for example — that contradiction lowers the score. Alexa will not surface a business with a low entity confidence score in a spoken recommendation, even if that business has strong ratings on Yelp. Confidence in the data comes before confidence in the quality of the business.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The deepest layer is the recency and activity signal. Alexa&apos;s index is not static. It continuously re-evaluates business records as new data flows in from its source network. A business that was well-represented six months ago but has gone quiet — no new reviews, no updated hours, no activity on the directories that feed Alexa&apos;s pipeline — will gradually lose priority to competitors who are maintaining active data signals. This is why one-time optimization rarely holds. The businesses that remain visible in Alexa recommendations are the ones treating their data presence as an ongoing infrastructure problem, not a one-time setup task.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </section>
 
           {/* Section 3: Trust Signals */}
@@ -550,7 +550,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               Alexa cannot show ten results and let the user decide. It has to pick one. That means its selection criteria are strict. Through extensive testing across hundreds of business categories, we have identified the signal layers Alexa evaluates before it speaks a business name.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Signal Cards */}
             <div className="grid md:grid-cols-2 gap-5 mb-8">
@@ -567,7 +567,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">1. Review Quality and Volume</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Ratings and review count on Yelp are the heaviest signals. A business with 4.5 stars and 200 reviews on Yelp will be named over a business with 5 stars and 3 reviews. Recency matters too. Stale review profiles signal a potentially closed or declining business.
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
 
               <div
@@ -583,7 +583,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Data Consistency (Trust)</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   When your name, address, and phone number are identical across Yelp, YellowPages, BBB, and dozens of other directories, Alexa&apos;s confidence score is high. Mismatches create distrust. Even small differences (suite number variations, abbreviations) can reduce your reliability score in the data pipeline.
-                </p>
+                 Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
 
               <div
@@ -599,7 +599,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">3. Category Authority</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Alexa needs to match your business to the query category. If someone asks for &quot;an Italian restaurant,&quot; your primary category on Yelp and other directories must clearly signal that. Vague or incorrect categories mean Alexa will not consider you for category-specific queries, even if your food is excellent.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
 
               <div
@@ -615,7 +615,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Structured Data Signals</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Schema markup on your website helps the entire ecosystem of AI and voice platforms understand your business. While Alexa does not crawl your site directly, the directories it trusts do reference structured data. Clean, complete schema markup reinforces the accuracy signals Alexa relies on.
-                </p>
+                 Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
@@ -627,16 +627,16 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The Review Multiplier Effect</p>
+                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The Review Multiplier Effect Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Reviews on Yelp do double duty. They influence Alexa directly, and they also show up in Bing search results (which power both Copilot and ChatGPT). A strong Yelp review profile does not just win voice search. It strengthens your entire AI visibility footprint. Most businesses underinvest here because they are focused solely on Google reviews.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 </div>
               </div>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Our team has mapped exactly which signals each voice assistant prioritizes. The overlap is real, but so are the gaps.</p>
+              <p className="text-sm text-gray-300 mb-3">Our team has mapped exactly which signals each voice assistant prioritizes. The overlap is real, but so are the gaps. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -657,7 +657,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               All three major voice assistants answer local business queries. But they pull data from fundamentally different sources and weigh different signals. Assuming what works for Google Assistant works for Alexa is one of the most expensive mistakes a local business can make.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto mb-10 rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
@@ -714,10 +714,10 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The pattern is clear: each voice assistant has a different &quot;front door.&quot; Google Assistant trusts Google data. Siri trusts Apple data. Alexa trusts Yelp and directory data. A business that only optimizes for Google is invisible to two out of three major voice assistants, including the one that owns the majority of smart speakers in American homes.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">See our full breakdown of how Siri evaluates businesses differently from Alexa and Google Assistant.</p>
+              <p className="text-sm text-gray-300 mb-3">See our full breakdown of how Siri evaluates businesses differently from Alexa and Google Assistant. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link
                 href="/blog/how-siri-decides-which-businesses-to-suggest"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"

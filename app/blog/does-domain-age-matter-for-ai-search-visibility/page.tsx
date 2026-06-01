@@ -250,7 +250,7 @@ export default function Page() {
           <div className="ae-cta-inline rounded-xl p-5 mb-10 flex flex-col sm:flex-row items-start sm:items-center gap-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Not sure where your domain stands with AI search?</p>
-              <p className="text-gray-400 text-sm">Get a free AI visibility audit and find out exactly what's holding you back.</p>
+              <p className="text-gray-400 text-sm">Get a free AI visibility audit and find out exactly what's holding you back. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             </div>
             <Link href="/contact" className="shrink-0 px-5 py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
               Get Free Audit
@@ -280,7 +280,7 @@ export default function Page() {
             </p>
             <p className="text-gray-300 mb-5 leading-relaxed">
               That era shaped how an entire generation of marketers thought about websites. "You need a few years before Google really takes you seriously" became conventional wisdom. And for Google Search, that wisdom had at least some basis in data.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             <p className="text-gray-300 mb-5 leading-relaxed">
               Then AI search arrived and rewrote the playbook.
             </p>
@@ -290,7 +290,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <span className="text-xl mt-0.5">&#9888;</span>
                 <div>
-                  <p className="font-bold text-red-400 mb-2">The Dangerous Assumption</p>
+                  <p className="font-bold text-red-400 mb-2">The Dangerous Assumption <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                   <p className="text-gray-300 text-sm leading-relaxed">
                     Many business owners assume their decade-old domain gives them an automatic edge in AI search. It doesn't. An old domain with stale content, thin third-party validation, and no structured data will lose to a newer domain that has done the optimization work correctly. Age without quality is just a registration fee.
                   </p>
@@ -300,7 +300,7 @@ export default function Page() {
 
             <p className="text-gray-300 mb-5 leading-relaxed">
               AI platforms like ChatGPT, Perplexity, Claude, and Google AI Mode do not maintain a registry of domain registration dates. They do not run a chronological check before deciding which source to cite. What they do, constantly and at scale, is evaluate content quality, external validation, structured data, and topical authority, none of which are locked to a calendar.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </section>
 
           {/* Section 2: How AI Actually Works */}
@@ -311,7 +311,7 @@ export default function Page() {
             </p>
             <p className="text-gray-300 mb-5 leading-relaxed">
               Large language models are trained on massive datasets of text from across the web. When they generate answers, they draw on patterns in that training data combined with real-time retrieval (in platforms like Perplexity and Google AI Mode). The selection of sources isn't a direct ranking calculation, it's a confidence assessment: which sources appear consistently authoritative across multiple independent signals?
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Callout Info */}
             <div className="ae-callout-info rounded-xl p-6 mb-8" style={{ background: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.25)' }}>
@@ -332,14 +332,14 @@ export default function Page() {
 
             <p className="text-gray-300 mb-5 leading-relaxed">
               Domain Authority, the Moz metric that became shorthand for SEO credibility, has no equivalent internal score in any major AI platform. Research on AI citation patterns shows Domain Authority correlation dropped to just r=0.18 for AI citations, meaning DA explains less than 4% of the variance in whether a domain gets cited. That is statistical noise.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             <p className="text-gray-300 mb-5 leading-relaxed">
               What does have a strong correlation: referring domain count (sites with over 32,000 referring domains are 3.5x more likely to be cited by ChatGPT), but again, this reflects the accumulated trust signals that big domains carry, not their age per se. A new domain that rapidly earns authoritative mentions can compress what previously took years.
             </p>
 
             {/* Inline CTA 2 */}
             <div className="ae-cta-inline rounded-xl p-5 mb-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
-              <p className="text-white font-semibold mb-1">Ready to stop guessing what AI thinks of your domain?</p>
+              <p className="text-white font-semibold mb-1">Ready to stop guessing what AI thinks of your domain? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <p className="text-gray-400 text-sm mb-3">Our team audits the exact signals AI platforms use to evaluate your business.</p>
               <Link href="/contact" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
                 Request an AI Audit
@@ -352,7 +352,7 @@ export default function Page() {
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Platform-by-Platform Breakdown: ChatGPT, Perplexity, and Google AI</h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Each major AI search platform has a distinct relationship with domain age. Understanding the differences tells you exactly where your investment will have the most impact.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto mb-8 rounded-xl" style={{ border: '1px solid rgba(255,255,255,0.08)' }}>
@@ -399,7 +399,7 @@ export default function Page() {
             </p>
             <p className="text-gray-300 mb-5 leading-relaxed">
               Perplexity's preference for 10-to-15-year-old domains tells a similar story. That range corresponds to publications that were established in the early-to-mid 2010s and built deep subject-matter authority over time. The age is incidental; the authority is the actual signal.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 mb-5 leading-relaxed">
               Bing Copilot is the clearest example of what happens when recency is prioritized. Nearly 1 in 5 of its citations go to domains under 5 years old, because Bing's real-time indexing rewards fresh content regardless of how long the domain has been registered.
             </p>
@@ -409,7 +409,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <span className="text-xl mt-0.5" style={{ color: '#F27D24' }}>&#9650;</span>
                 <div>
-                  <p className="font-bold mb-2" style={{ color: '#F27D24' }}>The Platform Opportunity</p>
+                  <p className="font-bold mb-2" style={{ color: '#F27D24' }}>The Platform Opportunity Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                   <p className="text-gray-300 text-sm leading-relaxed">
                     If you're a newer domain, Bing Copilot and ChatGPT are your fastest paths to early AI citations. Prioritizing the trust signals those platforms weight most heavily, review profiles, community mentions, structured data, creates traction you can build on across all platforms over time.
                   </p>
@@ -423,7 +423,7 @@ export default function Page() {
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">What Really Drives AI Citations (It's Not Your Registration Date)</h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Strip away the domain age correlation and you are left with four categories of signals that actually determine whether AI platforms cite your content. Understanding these is the entire game.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Signal Cards Grid */}
             <div className="grid sm:grid-cols-2 gap-5 mb-8">
@@ -439,7 +439,7 @@ export default function Page() {
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Third-Party Consensus</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   85% of brand mentions influencing AI recommendations come from third-party pages. Review platforms, directory listings, editorial features, and community discussions all contribute. Your own website alone cannot build this layer.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="text-2xl mb-3">&#128202;</div>
@@ -453,7 +453,7 @@ export default function Page() {
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Topical Authority</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   AI platforms assess whether you cover a subject comprehensively, not just whether you mention it once. Depth, breadth, and internal content architecture signal expertise in ways that no domain registration date can.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
             </div>
 
@@ -463,7 +463,7 @@ export default function Page() {
 
             <p className="text-gray-300 mb-6 leading-relaxed">
               There is also a community dimension that catches many business owners off guard. Approximately 48% of AI citations originate from community platforms, primarily Reddit and YouTube. This means a business with active community presence, even on a young domain, can earn AI visibility that a quiet 15-year-old website never achieves.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Related Articles */}
             <div className="rounded-xl p-6 mb-4" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
@@ -486,7 +486,7 @@ export default function Page() {
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">New Websites vs. Established Domains: A Fair Fight?</h2>
             <p className="text-gray-300 mb-5 leading-relaxed">
               The honest answer is no, it's not perfectly fair. But the gap is far smaller than traditional SEO led people to believe, and it's narrowing.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Established domains carry an inherited advantage: years of accumulated content, backlinks, editorial citations, and review presence that any new domain will take time to replicate. When AI platforms assess trustworthiness through the lens of consensus signals, the domain that has been gathering those signals for 10 years starts with a head start.
             </p>
@@ -552,7 +552,7 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <span className="text-xl mt-0.5 text-green-400">&#10003;</span>
                 <div>
-                  <p className="font-bold text-green-400 mb-2">The Leveler: Content and Trust Signals Can Be Built Fast</p>
+                  <p className="font-bold text-green-400 mb-2">The Leveler: Content and Trust Signals Can Be Built Fast <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                   <p className="text-gray-300 text-sm leading-relaxed">
                     Domain authority in the AI era is less about time and more about coordinated effort. A new business that simultaneously builds review platform presence, earns directory listings, publishes structured expert content, and creates community presence can compress months of traditional trust-building into weeks. The strategy exists. The question is whether you know how to execute it.
                   </p>
@@ -562,7 +562,7 @@ export default function Page() {
 
             {/* Inline CTA 3 */}
             <div className="ae-cta-inline rounded-xl p-5" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
-              <p className="text-white font-semibold mb-1">New domain or old, the optimization strategy differs significantly.</p>
+              <p className="text-white font-semibold mb-1">New domain or old, the optimization strategy differs significantly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <p className="text-gray-400 text-sm mb-3">We diagnose exactly where you are and build the right roadmap for your situation.</p>
               <a href="tel:+12134442229" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105 mr-3" style={{ background: '#F27D24', color: '#fff' }}>
                 Call (213) 444-2229
@@ -578,7 +578,7 @@ export default function Page() {
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Decision Matrix: Should You Invest in a New Domain or Existing One?</h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
               This question comes up frequently for businesses considering a rebrand or a fresh digital start. The AI search calculus is nuanced and depends heavily on the health of your current domain.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-decision-matrix overflow-x-auto rounded-xl mb-8" style={{ border: '1px solid rgba(255,255,255,0.08)' }}>
               <table className="w-full text-sm">
@@ -625,7 +625,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed">
               This is one of those decisions where getting a professional assessment before acting is genuinely worth the investment. The cost of getting it wrong far exceeds the cost of getting it right.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </section>
 
           {/* 3-Tier CTA Block */}
@@ -643,7 +643,7 @@ export default function Page() {
               <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)' }}>
                 <div className="text-3xl mb-3">&#128269;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Find Your Blind Spots</h3>
-                <p className="text-gray-400 text-sm mb-4">Discover which AI visibility signals your domain is missing right now.</p>
+                <p className="text-gray-400 text-sm mb-4">Discover which AI visibility signals your domain is missing right now. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <Link href="/blindspot" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
                   Get Your Free Blind Spot Report
                 </Link>
@@ -661,7 +661,7 @@ export default function Page() {
               <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)' }}>
                 <div className="text-3xl mb-3">&#128231;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Email Us Directly</h3>
-                <p className="text-gray-400 text-sm mb-4">Send your domain and we'll send back a preliminary assessment within 24 hours.</p>
+                <p className="text-gray-400 text-sm mb-4">Send your domain and we'll send back a preliminary assessment within 24 hours. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 <a href="mailto:support@theanswerengine.ai" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105 truncate" style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}>
                   support@theanswerengine.ai
                 </a>
@@ -747,15 +747,15 @@ export default function Page() {
                 <p className="text-sm font-semibold mb-3" style={{ color: '#F27D24' }}>Quick Domain Age Reality Check</p>
                 <div className="grid sm:grid-cols-3 gap-3 text-xs text-gray-400">
                   <div className="rounded-lg p-3" style={{ background: 'rgba(0,0,0,0.3)' }}>
-                    <p className="font-semibold text-white mb-1">Domain under 1 year</p>
+                    <p className="font-semibold text-white mb-1">Domain under 1 year Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                     <p>Focus on Bing Copilot and ChatGPT first. Build review presence and directory listings before any other tactic.</p>
                   </div>
                   <div className="rounded-lg p-3" style={{ background: 'rgba(0,0,0,0.3)' }}>
-                    <p className="font-semibold text-white mb-1">Domain 1-5 years</p>
+                    <p className="font-semibold text-white mb-1">Domain 1-5 years <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                     <p>Check for stale content and missing schema. Review platforms are likely underbuilt. Structured content audit needed.</p>
                   </div>
                   <div className="rounded-lg p-3" style={{ background: 'rgba(0,0,0,0.3)' }}>
-                    <p className="font-semibold text-white mb-1">Domain 5+ years</p>
+                    <p className="font-semibold text-white mb-1">Domain 5+ years Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                     <p>Legacy technical debt is the main risk. Old content needs freshness signals. AI-specific schema likely missing.</p>
                   </div>
                 </div>
@@ -768,15 +768,15 @@ export default function Page() {
             <h3 className="text-white font-bold mb-4 font-plus-jakarta">Keep Reading</h3>
             <div className="grid sm:grid-cols-3 gap-4">
               <Link href="/blog/why-new-website-invisible-to-ai" className="block rounded-lg p-4 transition-all hover:scale-[1.02]" style={{ background: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-                <p className="text-white text-sm font-semibold leading-snug mb-1">Why Your New Website Is Invisible to AI</p>
+                <p className="text-white text-sm font-semibold leading-snug mb-1">Why Your New Website Is Invisible to AI Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                 <p className="text-gray-500 text-xs">The technical and trust barriers every new domain faces</p>
               </Link>
               <Link href="/blog/why-fresh-content-key-ai-search-visibility" className="block rounded-lg p-4 transition-all hover:scale-[1.02]" style={{ background: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-                <p className="text-white text-sm font-semibold leading-snug mb-1">Why Fresh Content Is the Key to AI Search Visibility</p>
+                <p className="text-white text-sm font-semibold leading-snug mb-1">Why Fresh Content Is the Key to AI Search Visibility <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 <p className="text-gray-500 text-xs">How content recency directly shapes AI citation rates</p>
               </Link>
               <Link href="/blog/make-your-site-the-one-ai-trusts" className="block rounded-lg p-4 transition-all hover:scale-[1.02]" style={{ background: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-                <p className="text-white text-sm font-semibold leading-snug mb-1">Make Your Site the One AI Trusts</p>
+                <p className="text-white text-sm font-semibold leading-snug mb-1">Make Your Site the One AI Trusts <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 <p className="text-gray-500 text-xs">The complete framework for building AI-level domain trust</p>
               </Link>
             </div>
@@ -791,7 +791,7 @@ export default function Page() {
                 <h3 className="text-white font-bold mb-3 font-plus-jakarta">Does domain age directly affect AI search citations?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Domain age is a weak indirect signal, not a direct ranking factor. Google AI Overviews do cite older domains more frequently, but this correlation reflects accumulated trust signals like backlinks, mentions, and content depth rather than age itself. A new domain with strong third-party validation can outperform an old domain with thin content.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
@@ -805,7 +805,7 @@ export default function Page() {
                 <h3 className="text-white font-bold mb-3 font-plus-jakarta">What matters more than domain age for AI search visibility?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Content freshness, topical authority, third-party mentions, structured data, and E-E-A-T signals matter far more than domain age. Pages not updated quarterly are 3x more likely to lose citations. Domains with profiles on Trustpilot, Yelp, and G2 are 3x more likely to be cited by ChatGPT than domains without review presence.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
@@ -819,7 +819,7 @@ export default function Page() {
                 <h3 className="text-white font-bold mb-3 font-plus-jakarta">How long does it take a new domain to gain AI search visibility?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   First AI citations from a new domain can appear within 30 to 60 days if the site publishes high-quality structured content, earns directory listings, and accumulates reviews early. Consistent visibility across multiple AI platforms typically takes 90 to 180 days of sustained optimization effort.
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>

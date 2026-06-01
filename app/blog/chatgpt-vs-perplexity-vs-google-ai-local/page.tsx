@@ -303,7 +303,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           {/* Intro */}
           <p className="text-lg mb-8 text-gray-200">
             Three AI platforms are reshaping how customers find local businesses. ChatGPT, Perplexity, and Google AI each pull from different data sources, cite businesses differently, and attract users at different stages of the buying journey. If you are only optimizing for one of them, you are leaving money on the table. This is the data-driven breakdown of what each platform does, how they compare, and where your business should focus.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           {/* Section 1 */}
           <div className="not-prose">
@@ -315,14 +315,14 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           </p>
           <p>
             For local businesses, this creates a fractured landscape. Your potential customers are spread across all three platforms, and each one has different rules for which businesses get recommended. A plumber who shows up in ChatGPT might be invisible on Perplexity. A restaurant that dominates Google AI Overviews might never get mentioned in ChatGPT.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p>
             The opportunity is massive. AI search traffic converts at 14.2% on average, compared to just 1.8% for traditional Google organic search. That is nearly an 8x difference. But the volume is still small, representing less than 1% of total referral traffic for most businesses today. The businesses that position themselves now will capture exponentially more value as AI search volume grows.
           </p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">The Fragmentation Problem</p>
+              <p className="ae-callout-title">The Fragmentation Problem <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <p>Each AI platform uses different data sources and ranking signals. ChatGPT pulls from Bing and web crawls. Perplexity runs its own live web index. Google AI draws from the Google index and Maps data. A business that is well-optimized for one platform can be completely invisible on the others. You need a strategy that covers all three.</p>
             </div>
           </div>
@@ -330,7 +330,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           {/* CTA 1 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Want to know which AI platforms can see your business right now?</p>
+              <p>Want to know which AI platforms can see your business right now? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get your free AI visibility report across all 3 platforms</Link>
             </div>
           </div>
@@ -345,13 +345,13 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           </p>
           <p>
             The numbers tell the story. ChatGPT referral traffic converts at 15.9%, the highest of any AI platform. Users who get a business recommendation from ChatGPT have already been through a natural conversation narrowing down their needs. By the time they click through to your website, they are ready to buy or call.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p>
             For local search specifically, ChatGPT pulls its data primarily from Bing and direct web crawling. This means your Bing Places listing matters far more than most business owners realize. ChatGPT does not have direct access to your Google Business Profile. If your Bing listing is incomplete or outdated, ChatGPT either will not recommend you or will provide inaccurate information about your business.
           </p>
           <p>
             ChatGPT does not always cite its sources with links, which is both a strength and a limitation. When it names your business in a recommendation, it carries strong implied authority. But without a direct link, users need to search for you separately, which means your website needs to be easy to find through a brand name search.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="not-prose">
             <div className="ae-takeaway">
@@ -374,20 +374,20 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           <h2 id="perplexity">Perplexity: The Citation Machine</h2>
           <p>
             Perplexity AI has carved out a unique position in the AI search landscape. With 45 million active users and 800% year-over-year growth, it is the fastest-growing AI search platform. But the real differentiator for local businesses is how Perplexity handles citations: it always links to its sources.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           <p>
             Every answer Perplexity generates includes numbered citations with direct links back to the source websites. This is a fundamental difference from ChatGPT and even Google AI Overviews. When Perplexity recommends your business, users can click directly through to your website. That link attribution is gold for measuring ROI and driving qualified traffic.
           </p>
           <p>
             Perplexity runs its own web index and crawls the live web for answers. It favors authoritative, well-structured content that directly answers specific questions. For local businesses, this means your website content quality matters even more than your listing profiles. Perplexity is less influenced by business listings and more influenced by the actual content on your site and mentions across the web.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           <p>
             The conversion rate for Perplexity traffic sits at 10.5%, lower than ChatGPT but still nearly 6x higher than traditional Google organic. And because every citation includes a link, the traffic attribution is cleaner and easier to track in your analytics.
           </p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-info">
-              <p className="ae-callout-title">Why Perplexity Citations Are Different</p>
+              <p className="ae-callout-title">Why Perplexity Citations Are Different Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p>Unlike ChatGPT, which sometimes names businesses without linking, Perplexity always provides clickable source citations. This means businesses cited by Perplexity get direct, measurable referral traffic. For local businesses focused on ROI tracking, Perplexity is often the easiest AI platform to attribute revenue to.</p>
             </div>
           </div>
@@ -395,7 +395,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           {/* CTA 3 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Learn how Perplexity decides which businesses to cite.</p>
+              <p>Learn how Perplexity decides which businesses to cite. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blog/how-perplexity-decides-what-to-cite">Read our Perplexity citation guide</Link>
             </div>
           </div>
@@ -410,18 +410,18 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           </p>
           <p>
             AI Overviews now appear in 48% of all tracked queries, up from just 6.5% in January 2025. For restaurant queries specifically, AI Overviews appear in 78% of searches. Google AI Mode, which launched in May 2025, reached 75 million users by December 2025, and that number continues to climb.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <p>
             The local advantage is significant. When someone asks Google AI "best electrician near me" or "who fixes AC units in Phoenix," the AI pulls from the full Google ecosystem: your Business Profile, reviews, website content, local pack data, and structured markup. No other AI platform has this depth of local business data.
           </p>
           <p>
             However, there is a major trade-off. Google AI Overviews have reduced click-through rates by up to 61% for affected queries. When Google provides a comprehensive AI answer directly on the search results page, many users never click through to any website. Your business might be mentioned in the AI Overview but still receive fewer website visits than it did before AI Overviews existed.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-orange">
               <p className="ae-callout-title">The Zero-Click Challenge with Google AI</p>
-              <p>Google AI Overviews have reduced click-through rates by up to 61%. Even when your business is named in an AI Overview, users may get the information they need without ever visiting your website. This makes phone calls, direction requests, and direct actions from Google Business Profile more important than ever for measuring actual business impact.</p>
+              <p>Google AI Overviews have reduced click-through rates by up to 61%. Even when your business is named in an AI Overview, users may get the information they need without ever visiting your website. This makes phone calls, direction requests, and direct actions from Google Business Profile more important than ever for measuring actual business impact. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
           </div>
 
@@ -446,7 +446,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           <h2 id="head-to-head">The Complete Platform Comparison</h2>
           <p>
             Here is how ChatGPT, Perplexity, and Google AI stack up across the factors that matter most to local businesses.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="not-prose">
             <table className="ae-comparison-table">
@@ -538,7 +538,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           <h2 id="conversion">Conversion Rates That Should Change Your Strategy</h2>
           <p>
             The conversion rate gap between AI search and traditional search is the single most important data point for local businesses to understand. Here is how each platform compares:
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="not-prose">
             <div className="ae-bar-group">
@@ -596,7 +596,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           {/* CTA 6 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>See how AI customers are finding businesses in your area.</p>
+              <p>See how AI customers are finding businesses in your area. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blog/how-customers-use-ai-to-find-local-businesses">Read our customer behavior research</Link>
             </div>
           </div>
@@ -666,7 +666,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-success">
-              <p className="ae-callout-title">The Good News: Strategies Overlap</p>
+              <p className="ae-callout-title">The Good News: Strategies Overlap <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <p>About 70% of what makes your business visible on one AI platform also helps on the others. Well-structured content, consistent business information, strong reviews, and proper schema markup benefit you across ChatGPT, Perplexity, and Google AI simultaneously. Start with the platform that matches your business type, then expand from there.</p>
             </div>
           </div>
@@ -674,7 +674,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           {/* CTA 7 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Not sure which platform to prioritize? We can help.</p>
+              <p>Not sure which platform to prioritize? We can help. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a free strategy consultation</a>
             </div>
           </div>
@@ -692,7 +692,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           <div className="not-prose">
             <div className="ae-pros-cons">
               <div className="ae-pros-box">
-                <p className="ae-pros-title">Strengths</p>
+                <p className="ae-pros-title">Strengths Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <ul>
                   <li>Highest conversion rate of any AI platform (15.9%)</li>
                   <li>Largest AI market share at 64.5%</li>
@@ -718,7 +718,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           <div className="not-prose">
             <div className="ae-pros-cons">
               <div className="ae-pros-box">
-                <p className="ae-pros-title">Strengths</p>
+                <p className="ae-pros-title">Strengths Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <ul>
                   <li>Always cites sources with clickable links</li>
                   <li>Fastest-growing platform at 800% YoY</li>
@@ -744,7 +744,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           <div className="not-prose">
             <div className="ae-pros-cons">
               <div className="ae-pros-box">
-                <p className="ae-pros-title">Strengths</p>
+                <p className="ae-pros-title">Strengths We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 <ul>
                   <li>Largest reach at 2 billion monthly users</li>
                   <li>Deep integration with Google Maps and Business Profile</li>
@@ -769,7 +769,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           {/* CTA 8 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Want a personalized platform strategy for your business?</p>
+              <p>Want a personalized platform strategy for your business? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us for a custom AI visibility plan</a>
             </div>
           </div>
@@ -852,7 +852,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-info">
-              <p className="ae-callout-title">The Content Authority Connection</p>
+              <p className="ae-callout-title">The Content Authority Connection <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <p>All three platforms share one principle: they recommend businesses that demonstrate genuine authority and expertise. Building real topical authority through consistent, high-quality content about your services and service area is the single highest-ROI investment you can make across all AI platforms simultaneously.</p>
             </div>
           </div>
@@ -860,7 +860,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           {/* CTA 9 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Understand how AI evaluates your business authority.</p>
+              <p>Understand how AI evaluates your business authority. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blog/how-claude-ai-evaluates-business-authority">Read about AI trust signals</Link>
             </div>
           </div>
@@ -874,28 +874,28 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
               <p className="ae-callout-title">Mistake #1: Only Optimizing for Google</p>
-              <p>Most local businesses still focus 100% of their effort on Google. With ChatGPT at 800 million users and Perplexity growing 800% year-over-year, ignoring these platforms means missing an entire segment of customers who never open Google at all.</p>
+              <p>Most local businesses still focus 100% of their effort on Google. With ChatGPT at 800 million users and Perplexity growing 800% year-over-year, ignoring these platforms means missing an entire segment of customers who never open Google at all. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
           </div>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
               <p className="ae-callout-title">Mistake #2: Thinking Bing Does Not Matter</p>
-              <p>ChatGPT pulls from Bing data. If you have never claimed your Bing Places listing, ChatGPT has incomplete data about your business. This is one of the most common and easily fixable blind spots for local businesses.</p>
+              <p>ChatGPT pulls from Bing data. If you have never claimed your Bing Places listing, ChatGPT has incomplete data about your business. This is one of the most common and easily fixable blind spots for local businesses. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
           </div>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
               <p className="ae-callout-title">Mistake #3: Ignoring Website Content Quality</p>
-              <p>Perplexity indexes your actual website content, not just your business listings. If your service pages are thin, generic, or outdated, Perplexity will cite a competitor with better content. The same increasingly applies to ChatGPT and Google AI.</p>
+              <p>Perplexity indexes your actual website content, not just your business listings. If your service pages are thin, generic, or outdated, Perplexity will cite a competitor with better content. The same increasingly applies to ChatGPT and Google AI. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
           </div>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
               <p className="ae-callout-title">Mistake #4: Not Tracking AI Referral Traffic</p>
-              <p>If your analytics are not set up to identify traffic from ChatGPT, Perplexity, and Google AI separately, you cannot measure what is working. Set up proper UTM tracking and referral source identification for each AI platform.</p>
+              <p>If your analytics are not set up to identify traffic from ChatGPT, Perplexity, and Google AI separately, you cannot measure what is working. Set up proper UTM tracking and referral source identification for each AI platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
           </div>
 
@@ -984,7 +984,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
           {/* CTA 11 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Want this cheat sheet customized for your specific business?</p>
+              <p>Want this cheat sheet customized for your specific business? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="mailto:support@theanswerengine.ai">Email us for a personalized AI optimization plan</a>
             </div>
           </div>
@@ -1005,7 +1005,7 @@ export default function ChatGPTvsPerplexityvsGoogleAILocal() {
                   AE
                 </div>
                 <div>
-                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges</p>
+                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                   <p style={{ color: '#9CA3AF', fontSize: '0.75rem', margin: 0 }}>
                     Published March 22, 2026 on{' '}
                     <Link href="/" style={{ color: '#F27D24' }}>

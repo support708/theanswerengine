@@ -395,25 +395,25 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Every major AI assistant can crawl the web. ChatGPT uses Bing. Perplexity has its own index. Google Gemini taps the entire Google search infrastructure. But Grok has something none of them can replicate: a direct, unfiltered pipeline into the X (formerly Twitter) data stream. That single advantage changes the entire recommendation equation.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When a user asks Grok &quot;What is the best coffee shop near downtown Austin?&quot; the answer is not built solely from web pages and directory listings. Grok simultaneously processes what people are saying about Austin coffee shops right now on X. It sees trending mentions, recent reviews posted as tweets, customer complaints, viral recommendations, and real-time sentiment shifts. No other AI assistant has access to this layer of social intelligence.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* Callout: Info */}
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Grok Is Not Just Another Chatbot</div>
-              <p>Grok processes events as they unfold, making it ideal for monitoring news, market trends, and public sentiment. For business recommendations, this means Grok can factor in information that is hours old, not weeks or months old. A viral customer experience post on X this morning can influence Grok&apos;s answer this afternoon.</p>
+              <p>Grok processes events as they unfold, making it ideal for monitoring news, market trends, and public sentiment. For business recommendations, this means Grok can factor in information that is hours old, not weeks or months old. A viral customer experience post on X this morning can influence Grok&apos;s answer this afternoon. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               xAI launched Grok Business and Grok Enterprise plans in early 2026, signaling a clear move toward commercial adoption. As Grok becomes embedded in more business workflows and consumer devices, its role as a recommendation engine is only accelerating. The businesses that understand how Grok evaluates them now will have a compounding advantage over those that wait.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Inline CTA */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Not sure how Grok currently perceives your business? We audit your visibility across every major AI platform, including Grok.</p>
+              <p className="text-sm text-gray-300 mb-3">Not sure how Grok currently perceives your business? We audit your visibility across every major AI platform, including Grok. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -433,15 +433,15 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The X data stream is the single largest source of real-time public conversation on the internet. Over 500 million monthly active users generate billions of posts, replies, and engagements. Grok does not just search this data. It has privileged, native access to the full firehose, a capability xAI built directly into Grok&apos;s architecture.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               For business recommendations, this creates a fundamentally different evaluation model. Traditional AI assistants build their understanding of a business from static web pages: your website, your directory listings, your Google reviews. Grok layers a dynamic, real-time social signal on top of all of that. It can see whether customers are talking about you today, what they are saying, and how the public sentiment around your brand is trending.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* Bar Chart: Data Sources */}
             <div className="ae-bar-group my-8 space-y-4">
-              <p className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-4">Grok Data Source Weight (Estimated)</p>
+              <p className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-4">Grok Data Source Weight (Estimated) Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               {[
                 { label: 'X Social Signals', value: 40, color: '#F27D24' },
                 { label: 'Web Crawl Data', value: 30, color: '#FB923C' },
@@ -465,16 +465,16 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is why a business with a modest website but a thriving X presence can outrank a competitor with a polished website but zero social engagement. Grok is cross-referencing what it reads on your website with what the world is saying about you on X. When those signals align, confidence goes up. When your web presence says one thing and X says another, or says nothing at all, Grok downgrades its confidence and looks elsewhere.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Callout: Warning */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The X Silence Problem</div>
-              <p>If your business has no X presence and nobody is talking about you on X, Grok has a massive blind spot. It cannot validate your authority through its strongest data channel. This is not a minor disadvantage. It is the equivalent of having no Google Business Profile in 2018: technically your business exists, but the primary discovery engine cannot find you.</p>
+              <p>If your business has no X presence and nobody is talking about you on X, Grok has a massive blind spot. It cannot validate your authority through its strongest data channel. This is not a minor disadvantage. It is the equivalent of having no Google Business Profile in 2018: technically your business exists, but the primary discovery engine cannot find you. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Learn how social signals influence AI recommendations across all platforms, not just Grok.</p>
+              <p className="text-sm text-gray-300 mb-3">Learn how social signals influence AI recommendations across all platforms, not just Grok. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link
                 href="/blog/does-social-media-help-ai-recommend-you"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -494,7 +494,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Based on our analysis of hundreds of Grok responses across industries and locations, five distinct signal categories drive whether Grok recommends a business. The weight of each signal varies by query type, but the pattern is consistent.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Timeline: 5 Signals */}
             <div className="ae-timeline my-8 space-y-6">
@@ -536,7 +536,7 @@ export default function Page() {
                   </div>
                   <div>
                     <h3 className="font-plus-jakarta font-bold text-white mb-2">{item.title}</h3>
-                    <p className="text-sm text-gray-300 leading-relaxed">{item.desc}</p>
+                    <p className="text-sm text-gray-300 leading-relaxed">{item.desc} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                   </div>
                 </div>
               ))}
@@ -544,11 +544,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The critical takeaway is that signals one and two are uniquely weighted in Grok compared to other AI assistants. ChatGPT and Perplexity lean heavier on web authority and citations. Grok layers social intelligence as a first-class signal. This is not speculation. You can test it: ask Grok about a business with a strong X presence versus one without, and the difference in recommendation confidence is visible in the answer.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Inline CTA */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Wondering how other AI platforms evaluate authority differently? Compare the approaches.</p>
+              <p className="text-sm text-gray-300 mb-3">Wondering how other AI platforms evaluate authority differently? Compare the approaches. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link
                 href="/blog/how-claude-ai-evaluates-business-authority"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -568,7 +568,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The most common question business owners ask: &quot;If I already show up in ChatGPT, do I need to worry about Grok?&quot; The answer is an unqualified yes. The two AI assistants use fundamentally different data pipelines, and a business that dominates ChatGPT can be completely invisible in Grok.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto rounded-xl my-8" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
@@ -609,16 +609,16 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The difference is stark. ChatGPT builds its recommendation picture primarily from what it can find on the indexed web, pulling from Bing, web pages, and structured data. Grok builds its picture from the intersection of web content and live social conversation. A business that has optimized its website and Bing presence but neglected X is well-positioned for ChatGPT but exposed on Grok.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Callout: Orange */}
             <div className="ae-callout ae-callout-orange not-prose">
               <div className="ae-callout-title">The Multi-Platform Imperative</div>
-              <p>Optimizing for one AI assistant and ignoring the rest is the 2026 equivalent of optimizing only for Google and ignoring Bing in 2015. Each platform has distinct data sources and ranking signals. Grok&apos;s X-first architecture means your AI visibility strategy must include social engagement, not just web optimization. The businesses winning across all AI platforms are the ones investing in cross-platform authority.</p>
+              <p>Optimizing for one AI assistant and ignoring the rest is the 2026 equivalent of optimizing only for Google and ignoring Bing in 2015. Each platform has distinct data sources and ranking signals. Grok&apos;s X-first architecture means your AI visibility strategy must include social engagement, not just web optimization. The businesses winning across all AI platforms are the ones investing in cross-platform authority. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">See how the other major AI platforms compare for local business recommendations.</p>
+              <p className="text-sm text-gray-300 mb-3">See how the other major AI platforms compare for local business recommendations. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link
                 href="/blog/chatgpt-vs-perplexity-vs-google-ai-local"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -638,7 +638,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               After analyzing Grok responses across dozens of industries and local markets, the pattern is clear. Certain business profiles consistently surface in Grok answers, while others are systematically overlooked. The dividing line is not budget or size. It is signal coverage.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Pros/Cons */}
             <div className="ae-pros-cons grid md:grid-cols-2 gap-6 my-8">
@@ -700,11 +700,11 @@ export default function Page() {
             {/* Callout: Success */}
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Speed Advantage Is Real</div>
-              <p>Because Grok processes X data in near real-time, businesses that actively engage on X can see results faster than on any other AI platform. A consistent two-week push of quality X content and customer engagement can begin shifting Grok&apos;s recommendation patterns within days. No other AI platform offers this kind of responsiveness.</p>
+              <p>Because Grok processes X data in near real-time, businesses that actively engage on X can see results faster than on any other AI platform. A consistent two-week push of quality X content and customer engagement can begin shifting Grok&apos;s recommendation patterns within days. No other AI platform offers this kind of responsiveness. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Curious how citation mechanics work on other AI platforms?</p>
+              <p className="text-sm text-gray-300 mb-3">Curious how citation mechanics work on other AI platforms? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link
                 href="/blog/how-perplexity-decides-what-to-cite"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -724,7 +724,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               Use this matrix to assess where your business stands across the key dimensions Grok evaluates. Be honest. This is not about aspirations. It is about where you actually are today.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-decision-matrix overflow-x-auto rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
               <table className="w-full text-sm">
@@ -799,7 +799,7 @@ export default function Page() {
             </div>
 
             <div className="ae-cta-inline mt-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">If you scored &quot;Not Ready&quot; or &quot;Partial&quot; in three or more areas, your Grok visibility is significantly below where it needs to be. That gap is costing you customers every day.</p>
+              <p className="text-sm text-gray-300 mb-3">If you scored &quot;Not Ready&quot; or &quot;Partial&quot; in three or more areas, your Grok visibility is significantly below where it needs to be. That gap is costing you customers every day. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/blindspot"
@@ -832,24 +832,24 @@ export default function Page() {
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Deep Dive</p>
-                  <p className="text-sm font-semibold text-white leading-snug">How Microsoft Copilot Decides Which Businesses to Recommend</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Deep Dive Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+                  <p className="text-sm font-semibold text-white leading-snug">How Microsoft Copilot Decides Which Businesses to Recommend <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 </Link>
                 <Link
                   href="/blog/how-apple-intelligence-finds-and-recommends-local-businesses"
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Deep Dive</p>
-                  <p className="text-sm font-semibold text-white leading-snug">How Apple Intelligence Finds and Recommends Local Businesses</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Deep Dive <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                  <p className="text-sm font-semibold text-white leading-snug">How Apple Intelligence Finds and Recommends Local Businesses <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 </Link>
                 <Link
                   href="/blog/chatgpt-vs-perplexity-vs-google-ai-local"
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Comparison</p>
-                  <p className="text-sm font-semibold text-white leading-snug">ChatGPT vs Perplexity vs Google AI: Local Search</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Comparison Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                  <p className="text-sm font-semibold text-white leading-snug">ChatGPT vs Perplexity vs Google AI: Local Search <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 </Link>
               </div>
             </div>

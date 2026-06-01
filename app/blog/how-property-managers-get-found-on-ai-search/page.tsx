@@ -252,18 +252,18 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering if ChatGPT even knows your property management company exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Wondering if ChatGPT even knows your property management company exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <h2 id="how-ai-finds-pm">How AI Finds Property Managers</h2>
 
-        <p>When a landlord types "who is the best property manager for single-family rentals in Phoenix" into ChatGPT or Perplexity, the AI does not run a live search. It draws on a mental model built from everything it absorbed during training: business directories, review platforms, NARPM and local association listings, local news, and company websites.</p>
+        <p>When a landlord types "who is the best property manager for single-family rentals in Phoenix" into ChatGPT or Perplexity, the AI does not run a live search. It draws on a mental model built from everything it absorbed during training: business directories, review platforms, NARPM and local association listings, local news, and company websites. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-        <p>The property managers who appear in those answers are the ones whose information appeared most frequently and most authoritatively across those sources. That outcome is not random. It reflects how clearly each company's digital presence communicates what they do, who they serve, and where they operate, in language and structure that machine readers can extract and cite.</p>
+        <p>The property managers who appear in those answers are the ones whose information appeared most frequently and most authoritatively across those sources. That outcome is not random. It reflects how clearly each company's digital presence communicates what they do, who they serve, and where they operate, in language and structure that machine readers can extract and cite. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Why Property Management Is a High-Value AI Category</div>
-          <p>Property management decisions are high-commitment and long-term. A landlord choosing a manager is making a relationship decision worth thousands of dollars annually. They research carefully, which means AI recommendations carry significant weight. A property manager who appears in AI answers for a relevant query is positioned at exactly the right moment of intent.</p>
+          <p>Property management decisions are high-commitment and long-term. A landlord choosing a manager is making a relationship decision worth thousands of dollars annually. They research carefully, which means AI recommendations carry significant weight. A property manager who appears in AI answers for a relevant query is positioned at exactly the right moment of intent. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
         </div>
 
         <div className="ae-bar-group not-prose">
@@ -294,13 +294,13 @@ export default function Page() {
             <div className="ae-bar-value">11%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns</p>
+        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
         <h2 id="property-type-signal">The Property Type Specialization Signal</h2>
 
-        <p>The single biggest missed opportunity in property management AI visibility is the failure to differentiate by property type. Landlords do not search for generic property managers. They search for property managers who specialize in what they own: single-family homes, multi-unit apartment buildings, short-term rentals, HOAs, or commercial properties.</p>
+        <p>The single biggest missed opportunity in property management AI visibility is the failure to differentiate by property type. Landlords do not search for generic property managers. They search for property managers who specialize in what they own: single-family homes, multi-unit apartment buildings, short-term rentals, HOAs, or commercial properties. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-        <p>Property managers who have a single Services page listing everything they manage get almost zero AI citation value from that page. The AI cannot confidently match a generic list to a specific property type query. The managers who dominate recommendations have separate, substantive pages for each property category they serve.</p>
+        <p>Property managers who have a single Services page listing everything they manage get almost zero AI citation value from that page. The AI cannot confidently match a generic list to a specific property type query. The managers who dominate recommendations have separate, substantive pages for each property category they serve. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -342,25 +342,25 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure how visible your property management company is to AI? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> in minutes.</p>
+          <p>Not sure how visible your property management company is to AI? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> in minutes. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         </div>
 
         <h2 id="review-signals">Why Your Reviews Are Underperforming for AI</h2>
 
-        <p>Property managers often have strong review counts from satisfied landlords and tenants. But most of those reviews are invisible to AI because they lack the specific, outcome-oriented language that AI platforms extract as citation-quality evidence.</p>
+        <p>Property managers often have strong review counts from satisfied landlords and tenants. But most of those reviews are invisible to AI because they lack the specific, outcome-oriented language that AI platforms extract as citation-quality evidence. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-        <p>AI systems read reviews the way a careful researcher would: looking for concrete outcomes, specific services mentioned, timelines referenced, and problems described. A review that says "wonderful team, very professional" gives an AI platform nothing to work with. A review that says "our unit was vacant for 3 weeks before we hired them, they placed a qualified tenant in 9 days and we have not had a maintenance emergency go unresolved in two years" gives the AI specific, citable evidence of performance.</p>
+        <p>AI systems read reviews the way a careful researcher would: looking for concrete outcomes, specific services mentioned, timelines referenced, and problems described. A review that says "wonderful team, very professional" gives an AI platform nothing to work with. A review that says "our unit was vacant for 3 weeks before we hired them, they placed a qualified tenant in 9 days and we have not had a maintenance emergency go unresolved in two years" gives the AI specific, citable evidence of performance. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Outcome Gap in Property Management Reviews</div>
-          <p>The most citable property management reviews mention: vacancy fill times, tenant quality, maintenance response speed, financial reporting accuracy, and fee transparency. These are exactly the criteria landlords ask AI about. Reviews that mention these outcomes become citation assets that work for you every time someone asks AI about property managers in your area.</p>
+          <p>The most citable property management reviews mention: vacancy fill times, tenant quality, maintenance response speed, financial reporting accuracy, and fee transparency. These are exactly the criteria landlords ask AI about. Reviews that mention these outcomes become citation assets that work for you every time someone asks AI about property managers in your area. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
         </div>
 
-        <p>Encourage outcome-focused reviews by making it easy for clients to share specifics. A post-placement follow-up asking "How did the tenant placement process go for you?" naturally surfaces timelines and details that become AI-visible content.</p>
+        <p>Encourage outcome-focused reviews by making it easy for clients to share specifics. A post-placement follow-up asking "How did the tenant placement process go for you?" naturally surfaces timelines and details that become AI-visible content. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <h2 id="location-pages">The Location Page Gap</h2>
 
-        <p>Property management is deeply geographic. A landlord in Scottsdale does not care about your Phoenix operations and vice versa, even if those markets are 20 miles apart. AI platforms calibrate recommendations by location with high precision, which means a property manager who serves five cities but only appears as being in one is invisible for the other four.</p>
+        <p>Property management is deeply geographic. A landlord in Scottsdale does not care about your Phoenix operations and vice versa, even if those markets are 20 miles apart. AI platforms calibrate recommendations by location with high precision, which means a property manager who serves five cities but only appears as being in one is invisible for the other four. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -387,26 +387,26 @@ export default function Page() {
           </div>
         </div>
 
-        <p>Each city-specific page becomes an independent AI citation asset. When a landlord asks "who manages rentals in Tempe," a property manager with a dedicated Tempe page that discusses local rental market conditions, tenant demographics, and local ordinances has a dramatically better chance of appearing than one with only a metro-level homepage.</p>
+        <p>Each city-specific page becomes an independent AI citation asset. When a landlord asks "who manages rentals in Tempe," a property manager with a dedicated Tempe page that discusses local rental market conditions, tenant demographics, and local ordinances has a dramatically better chance of appearing than one with only a metro-level homepage. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
         <h2 id="association-authority">Association Memberships as AI Authority Signals</h2>
 
-        <p>Property management has a robust ecosystem of professional associations: NARPM (National Association of Residential Property Managers), local apartment associations, NAR affiliates, and state-level real estate boards. Each of these organizations maintains member directories that AI platforms treat as high-authority citation sources.</p>
+        <p>Property management has a robust ecosystem of professional associations: NARPM (National Association of Residential Property Managers), local apartment associations, NAR affiliates, and state-level real estate boards. Each of these organizations maintains member directories that AI platforms treat as high-authority citation sources. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">Why Association Directories Matter More Than You Think</div>
-          <p>When an AI platform tries to identify credible, established property managers in a market, association directories are among the first sources it trusts. A complete NARPM profile with your specializations, certifications, and service areas listed creates an authoritative citation that strengthens your entity authority across every AI platform that trained on that data.</p>
+          <p>When an AI platform tries to identify credible, established property managers in a market, association directories are among the first sources it trusts. A complete NARPM profile with your specializations, certifications, and service areas listed creates an authoritative citation that strengthens your entity authority across every AI platform that trained on that data. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
-        <p>This applies to local associations as well. Membership in a regional apartment association, a city's rental housing organization, or a state landlord association all create additional citation points in directories AI recognizes as credible. These memberships are also differentiators: they signal to AI that you are a professional operator, not a casual entrant.</p>
+        <p>This applies to local associations as well. Membership in a regional apartment association, a city's rental housing organization, or a state landlord association all create additional citation points in directories AI recognizes as credible. These memberships are also differentiators: they signal to AI that you are a professional operator, not a casual entrant. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-cta-inline not-prose">
-          <p>Find out exactly which signals are making competitors more visible than you. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> today.</p>
+          <p>Find out exactly which signals are making competitors more visible than you. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> today. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </div>
 
         <h2 id="competitor-profile">What Top Competitors Do Differently</h2>
 
-        <p>Property management companies that consistently appear in AI recommendations share a recognizable set of characteristics. They are not necessarily the largest firms or the ones with the most doors under management. They are the ones who have built their digital presence to be maximally readable by AI systems.</p>
+        <p>Property management companies that consistently appear in AI recommendations share a recognizable set of characteristics. They are not necessarily the largest firms or the ones with the most doors under management. They are the ones who have built their digital presence to be maximally readable by AI systems. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -448,7 +448,7 @@ export default function Page() {
 
         <h2 id="quick-wins">Quick Wins for Property Managers</h2>
 
-        <p>Not every property management company has the resources for a full website overhaul immediately. These moves create meaningful AI visibility improvement in the shortest time.</p>
+        <p>Not every property management company has the resources for a full website overhaul immediately. These moves create meaningful AI visibility improvement in the shortest time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">AI Visibility Quick Wins for Property Managers</div>
@@ -464,17 +464,17 @@ export default function Page() {
           </table>
         </div>
 
-        <p>The pattern is consistent: make it structurally easier for AI to understand exactly what types of properties you manage, in exactly which cities, with evidence from real clients of the specific outcomes you deliver. Every vague claim is a missed citation. Every specific, structured signal is an opportunity to appear where a landlord is making a decision.</p>
+        <p>The pattern is consistent: make it structurally easier for AI to understand exactly what types of properties you manage, in exactly which cities, with evidence from real clients of the specific outcomes you deliver. Every vague claim is a missed citation. Every specific, structured signal is an opportunity to appear where a landlord is making a decision. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Property management sits at the intersection of real estate and local service businesses. See <Link href="/blog/how-real-estate-agents-get-found-ai-search" className="text-[#F27D24] hover:underline">how real estate agents get found on AI search</Link> and <Link href="/blog/hub-spoke-content-strategy-ai-citations" className="text-[#F27D24] hover:underline">how hub-and-spoke content strategy drives AI citations</Link> for overlapping frameworks.</p>
+          <p>Property management sits at the intersection of real estate and local service businesses. See <Link href="/blog/how-real-estate-agents-get-found-ai-search" className="text-[#F27D24] hover:underline">how real estate agents get found on AI search</Link> and <Link href="/blog/hub-spoke-content-strategy-ai-citations" className="text-[#F27D24] hover:underline">how hub-and-spoke content strategy drives AI citations</Link> for overlapping frameworks. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Property Managers Instead of You</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your property management company, which signals are missing, and what it would take to appear in more landlord recommendations.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your property management company, which signals are missing, and what it would take to appear in more landlord recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -501,7 +501,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -537,7 +537,7 @@ export default function Page() {
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+              <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
           ))}
         </div>
@@ -545,12 +545,12 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Landlord Inquiry Could Be Yours</h2>
-          <p className="text-gray-300 mb-8 text-lg">Every AI-referred landlord that contacts a competitor is a lost management contract. Our Blind Spot Report shows exactly what AI sees when a property owner searches in your market, and what it would take to capture that inquiry.</p>
+          <p className="text-gray-300 mb-8 text-lg">Every AI-referred landlord that contacts a competitor is a lost management contract. Our Blind Spot Report shows exactly what AI sees when a property owner searches in your market, and what it would take to capture that inquiry. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes.</p>
+          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

@@ -319,11 +319,11 @@ export default function Page() {
             <span className="ae-section-label" id="why-platform-matters">The Real Question</span>
             <h2>Why Your Platform Choice Matters for AI</h2>
 
-            <p>When someone asks ChatGPT to recommend a business, the AI does not check which website builder you used. It does not care whether you are on Squarespace, WordPress, Wix, or a custom build. What it cares about is whether it can read your content, understand your services, and verify your credibility from the raw HTML your server returns.</p>
+            <p>When someone asks ChatGPT to recommend a business, the AI does not check which website builder you used. It does not care whether you are on Squarespace, WordPress, Wix, or a custom build. What it cares about is whether it can read your content, understand your services, and verify your credibility from the raw HTML your server returns. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>That said, your platform creates the foundation for everything that follows. It determines your default HTML structure, how much control you have over schema markup, how fast your pages load, and whether AI crawlers encounter clean content or a wall of JavaScript.</p>
 
-            <p>The platform debate is real, but it is often framed incorrectly. Business owners ask, &quot;Which platform is best for SEO?&quot; when the better question is: <strong>&quot;Which platform makes it easiest for AI to find, read, and cite my business?&quot;</strong></p>
+            <p>The platform debate is real, but it is often framed incorrectly. Business owners ask, &quot;Which platform is best for SEO?&quot; when the better question is: <strong>&quot;Which platform makes it easiest for AI to find, read, and cite my business?&quot;</strong> Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>Both Squarespace and WordPress can produce sites that AI platforms cite. Both can also produce sites that are completely invisible. The difference comes down to defaults, flexibility, and how much technical work you are willing to do (or hire someone to do).</p>
 
@@ -331,7 +331,7 @@ export default function Page() {
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Platform Paradox</div>
               <div className="ae-callout-body">
-                <p>The platform that is &quot;easier&quot; to use is not always easier for AI to read. And the platform with more power does not automatically produce better AI results. A Squarespace site with thoughtful content structure often outperforms a WordPress site buried under five plugins and a heavy page builder.</p>
+                <p>The platform that is &quot;easier&quot; to use is not always easier for AI to read. And the platform with more power does not automatically produce better AI results. A Squarespace site with thoughtful content structure often outperforms a WordPress site buried under five plugins and a heavy page builder. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               </div>
             </div>
 
@@ -345,19 +345,19 @@ export default function Page() {
             <span className="ae-section-label" id="what-crawlers-see">Under the Hood</span>
             <h2>What AI Crawlers See on Each Platform</h2>
 
-            <p>AI crawlers like GPTBot, PerplexityBot, and ClaudeBot do not render your website the way a browser does. They request the URL, receive the raw HTML, parse the text content and structured data, and move to the next page. No JavaScript execution. No CSS rendering. No interaction with buttons, menus, or animations.</p>
+            <p>AI crawlers like GPTBot, PerplexityBot, and ClaudeBot do not render your website the way a browser does. They request the URL, receive the raw HTML, parse the text content and structured data, and move to the next page. No JavaScript execution. No CSS rendering. No interaction with buttons, menus, or animations. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>This means the HTML your platform generates on the server is the only thing AI sees. Let&apos;s look at what each platform delivers.</p>
 
             <h3>Squarespace: Controlled, Consistent HTML</h3>
 
-            <p>Squarespace controls the entire rendering pipeline. Every site uses the same underlying template engine, which produces consistent heading hierarchies (H1 through H4), semantic HTML sections, and predictable page structures. The platform enforces clean code by default, which means even a business owner with zero technical knowledge produces pages that AI crawlers can parse.</p>
+            <p>Squarespace controls the entire rendering pipeline. Every site uses the same underlying template engine, which produces consistent heading hierarchies (H1 through H4), semantic HTML sections, and predictable page structures. The platform enforces clean code by default, which means even a business owner with zero technical knowledge produces pages that AI crawlers can parse. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>Squarespace Blueprint, the platform&apos;s AI-powered site generator, creates pages with proper heading structure and content hierarchy from the very first draft. The built-in AI SEO dashboard now actively coaches users toward structures that improve AI visibility, specifically recommending FAQ sections and clear service descriptions.</p>
 
             <h3>WordPress: Flexible, Variable HTML</h3>
 
-            <p>WordPress does not control what your HTML looks like. Your theme determines the base structure. Your page builder (Elementor, Divi, Beaver Builder, Gutenberg) determines how content is wrapped. Your plugins add or modify HTML elements across the site. The result is that two WordPress sites can produce radically different HTML for identical content.</p>
+            <p>WordPress does not control what your HTML looks like. Your theme determines the base structure. Your page builder (Elementor, Divi, Beaver Builder, Gutenberg) determines how content is wrapped. Your plugins add or modify HTML elements across the site. The result is that two WordPress sites can produce radically different HTML for identical content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>A well-configured WordPress site using a lightweight theme with proper heading tags, semantic HTML, and a solid schema plugin can produce some of the cleanest, most AI-readable HTML on the web. A poorly configured WordPress site using a heavy page builder can generate pages with 200+ nested div elements where AI crawlers struggle to identify the actual business content.</p>
 
@@ -390,7 +390,7 @@ export default function Page() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Heavy page builders can make your site unreadable to AI. Here is why that matters.</p>
+              <p>Heavy page builders can make your site unreadable to AI. Here is why that matters. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <Link href="/blog/is-your-website-too-complicated-for-ai">Is Your Website Too Complicated for AI? &rarr;</Link>
             </div>
 
@@ -401,13 +401,13 @@ export default function Page() {
             <p>Squarespace has made significant moves toward AI readiness that most business owners do not realize. Here is where the platform genuinely outperforms WordPress for AI search.</p>
 
             <h3>1. Enforced Content Hierarchy</h3>
-            <p>Every Squarespace page follows a consistent heading structure. The platform does not let you accidentally create three H1 tags or skip from H2 to H5. This matters because AI crawlers use heading hierarchy to understand content organization and extract key topics. Consistent structure means consistent crawlability.</p>
+            <p>Every Squarespace page follows a consistent heading structure. The platform does not let you accidentally create three H1 tags or skip from H2 to H5. This matters because AI crawlers use heading hierarchy to understand content organization and extract key topics. Consistent structure means consistent crawlability. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <h3>2. Built-in AI SEO Coaching</h3>
             <p>Squarespace now includes an AI SEO dashboard that goes beyond traditional meta tag optimization. It actively recommends creating FAQ pages for AI visibility, suggests content structures that AI crawlers favor, and flags issues that could reduce your AI discoverability. This is native to the platform, requiring no additional purchases or plugins.</p>
 
             <h3>3. Blueprint AI Site Generation</h3>
-            <p>Squarespace Blueprint generates complete websites using AI, and importantly, it builds them with AI-readable structure from the start. The generated pages include proper semantic HTML, logical content flow, and heading hierarchy that AI crawlers can parse immediately. For businesses that need to launch quickly with a solid AI foundation, this is a meaningful advantage.</p>
+            <p>Squarespace Blueprint generates complete websites using AI, and importantly, it builds them with AI-readable structure from the start. The generated pages include proper semantic HTML, logical content flow, and heading hierarchy that AI crawlers can parse immediately. For businesses that need to launch quickly with a solid AI foundation, this is a meaningful advantage. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>4. Predictable Server Performance</h3>
             <p>Because Squarespace hosts everything on its own infrastructure, server response times are consistent and generally fast. AI crawlers allocate limited time per site. A Squarespace site that consistently responds in under 200 milliseconds gets more pages crawled than a WordPress site on cheap shared hosting that takes 800 milliseconds to respond.</p>
@@ -416,7 +416,7 @@ export default function Page() {
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Squarespace Ceiling</div>
               <div className="ae-callout-body">
-                <p>Squarespace&apos;s strengths become limitations at scale. You cannot add custom JSON-LD schema beyond what the platform provides. You cannot bulk-edit meta descriptions across 200 pages. You cannot install a custom sitemap generator or modify your robots.txt with granular crawler directives. For businesses with 10 to 20 pages, this rarely matters. For businesses scaling to 100+ pages of content, it becomes a real bottleneck.</p>
+                <p>Squarespace&apos;s strengths become limitations at scale. You cannot add custom JSON-LD schema beyond what the platform provides. You cannot bulk-edit meta descriptions across 200 pages. You cannot install a custom sitemap generator or modify your robots.txt with granular crawler directives. For businesses with 10 to 20 pages, this rarely matters. For businesses scaling to 100+ pages of content, it becomes a real bottleneck. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
@@ -431,19 +431,19 @@ export default function Page() {
             <span className="ae-section-label" id="wordpress-strengths">WordPress Advantages</span>
             <h2>Where WordPress Wins for AI Visibility</h2>
 
-            <p>WordPress remains the platform of choice for businesses serious about long-term AI search dominance. Here is where it pulls ahead.</p>
+            <p>WordPress remains the platform of choice for businesses serious about long-term AI search dominance. Here is where it pulls ahead. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>1. Full Schema Markup Control</h3>
             <p>WordPress, through plugins like Rank Math, Yoast SEO, and Schema Pro, gives you complete control over every type of structured data. You can add LocalBusiness, Service, FAQPage, HowTo, Review, Event, and dozens of other schema types with exact precision. AI crawlers rely heavily on schema to understand business context. The more specific and comprehensive your structured data, the more likely AI platforms are to cite you.</p>
 
             <h3>2. Content at Scale</h3>
-            <p>WordPress was built for content. It handles thousands of pages efficiently, supports bulk editing across hundreds of posts, and provides category and tag taxonomies that create natural topic clusters. For businesses pursuing a content strategy designed to build topical authority (the single biggest factor in AI citations), WordPress is purpose-built.</p>
+            <p>WordPress was built for content. It handles thousands of pages efficiently, supports bulk editing across hundreds of posts, and provides category and tag taxonomies that create natural topic clusters. For businesses pursuing a content strategy designed to build topical authority (the single biggest factor in AI citations), WordPress is purpose-built. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>3. Technical Depth and Customization</h3>
             <p>Every aspect of a WordPress site is customizable. You can modify your robots.txt with crawler-specific directives, generate custom XML sitemaps, add structured data to any element, control canonical URLs, implement hreflang for multi-language sites, and optimize server headers for crawler efficiency. This level of control is what separates businesses that occasionally appear in AI results from businesses that consistently dominate AI search for their category.</p>
 
             <h3>4. Plugin Ecosystem for AI Optimization</h3>
-            <p>While WordPress lacks native AI tools, its plugin ecosystem fills every gap. Schema generators, sitemap controllers, page speed optimizers, broken link checkers, and AI-specific optimization tools are all available. The ecosystem is mature, well-documented, and continuously updated as AI search evolves.</p>
+            <p>While WordPress lacks native AI tools, its plugin ecosystem fills every gap. Schema generators, sitemap controllers, page speed optimizers, broken link checkers, and AI-specific optimization tools are all available. The ecosystem is mature, well-documented, and continuously updated as AI search evolves. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
@@ -455,7 +455,7 @@ export default function Page() {
             <span className="ae-section-label" id="head-to-head">Side by Side</span>
             <h2>Head to Head Comparison Table</h2>
 
-            <p>Here is how the two platforms stack up across the factors that matter most for AI search visibility.</p>
+            <p>Here is how the two platforms stack up across the factors that matter most for AI search visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table not-prose">
@@ -584,7 +584,7 @@ export default function Page() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Already on one of these platforms and want a professional assessment? We can help.</p>
+              <p>Already on one of these platforms and want a professional assessment? We can help. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -596,17 +596,17 @@ export default function Page() {
 
             <h3>Squarespace Mistakes</h3>
 
-            <p><strong>Relying on defaults alone.</strong> Squarespace produces clean HTML out of the box, but that does not mean your content is optimized for AI. Business owners who launch a Squarespace site, add their logo and a few paragraphs, and assume AI will find them are missing the most important step: structuring content around the questions potential customers ask.</p>
+            <p><strong>Relying on defaults alone.</strong> Squarespace produces clean HTML out of the box, but that does not mean your content is optimized for AI. Business owners who launch a Squarespace site, add their logo and a few paragraphs, and assume AI will find them are missing the most important step: structuring content around the questions potential customers ask. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p><strong>Skipping FAQ pages.</strong> Squarespace now actively coaches users to create FAQ content for AI visibility. Yet the majority of Squarespace business sites we audit have no FAQ section at all. AI platforms prioritize pages that answer specific questions in clear, structured formats.</p>
 
-            <p><strong>Using only one page for all services.</strong> A single &quot;Services&quot; page listing everything your business does gives AI crawlers a single URL to represent your entire offering. Individual service pages, each with their own title, description, and structured data, give AI multiple opportunities to cite your business for specific queries.</p>
+            <p><strong>Using only one page for all services.</strong> A single &quot;Services&quot; page listing everything your business does gives AI crawlers a single URL to represent your entire offering. Individual service pages, each with their own title, description, and structured data, give AI multiple opportunities to cite your business for specific queries. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3>WordPress Mistakes</h3>
 
             <p><strong>Page builder overload.</strong> Elementor, Divi, and similar visual builders create beautiful pages that generate enormous amounts of nested HTML. AI crawlers parsing through 15 layers of div wrappers to find one paragraph of business content often give up or extract garbled data. The visual appeal that wins human visitors can lose AI visibility entirely.</p>
 
-            <p><strong>Plugin conflicts breaking schema.</strong> We regularly see WordPress sites where two SEO plugins are both injecting schema markup, creating duplicate or contradictory structured data. AI crawlers encountering conflicting schema on the same page may ignore all of it.</p>
+            <p><strong>Plugin conflicts breaking schema.</strong> We regularly see WordPress sites where two SEO plugins are both injecting schema markup, creating duplicate or contradictory structured data. AI crawlers encountering conflicting schema on the same page may ignore all of it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p><strong>Cheap hosting killing crawl rates.</strong> A WordPress site on shared hosting with 600ms+ server response times gets fewer pages crawled by AI bots. These bots allocate limited time per domain. Slow responses mean they leave before reaching your most important content.</p>
 
@@ -620,7 +620,7 @@ export default function Page() {
             {/* CTA 8 */}
             <div className="ae-cta-block not-prose">
               <h3>Not Sure If Your Site Has These Issues?</h3>
-              <p>We audit Squarespace and WordPress sites every day. Our free Blind Spot Report tells you exactly what AI sees on yours.</p>
+              <p>We audit Squarespace and WordPress sites every day. Our free Blind Spot Report tells you exactly what AI sees on yours. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -675,7 +675,7 @@ export default function Page() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>Still not sure? Our team can review your business goals and recommend the right approach.</p>
+              <p>Still not sure? Our team can review your business goals and recommend the right approach. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
             </div>
 
@@ -685,11 +685,11 @@ export default function Page() {
 
             <p>Here is the truth that most comparison articles will not tell you: <strong>your platform choice accounts for roughly 20% of your AI search visibility. The other 80% is content structure, schema quality, topical authority, and cross-platform consistency.</strong></p>
 
-            <p>We have seen Squarespace sites outrank enterprise WordPress installations in AI search results. We have seen single-page WordPress sites get cited by ChatGPT more than multi-page Squarespace sites with beautiful designs. The pattern is always the same: the site with better-structured content wins.</p>
+            <p>We have seen Squarespace sites outrank enterprise WordPress installations in AI search results. We have seen single-page WordPress sites get cited by ChatGPT more than multi-page Squarespace sites with beautiful designs. The pattern is always the same: the site with better-structured content wins. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>The factors that matter more than platform include clear heading hierarchy on every page, comprehensive schema markup matching your business type, FAQ content that directly answers the questions your customers ask AI, consistent NAP (name, address, phone) data across every page, and dedicated service pages with specific, detailed descriptions.</p>
 
-            <p>These optimizations work on Squarespace, WordPress, Wix, Shopify, custom builds, and every other platform. The platform is the vehicle. The content structure is the fuel.</p>
+            <p>These optimizations work on Squarespace, WordPress, Wix, Shopify, custom builds, and every other platform. The platform is the vehicle. The content structure is the fuel. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Callout 3 */}
             <div className="ae-callout ae-callout-orange not-prose">
@@ -701,7 +701,7 @@ export default function Page() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>See what your website looks like through the eyes of an AI crawler.</p>
+              <p>See what your website looks like through the eyes of an AI crawler. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">Read: What Your Website Looks Like to an AI Crawler &rarr;</Link>
             </div>
 
@@ -741,7 +741,7 @@ export default function Page() {
             {/* Takeaway */}
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p className="text-gray-300">Both Squarespace and WordPress can deliver strong AI search visibility. Squarespace wins on simplicity, defaults, and built-in AI coaching. WordPress wins on technical depth, scalability, and schema control. The platform matters less than how your content is structured for AI crawlers. If you are on either platform and AI cannot find you, the fix is almost always in your content strategy, not a platform migration.</p>
+              <p className="text-gray-300">Both Squarespace and WordPress can deliver strong AI search visibility. Squarespace wins on simplicity, defaults, and built-in AI coaching. WordPress wins on technical depth, scalability, and schema control. The platform matters less than how your content is structured for AI crawlers. If you are on either platform and AI cannot find you, the fix is almost always in your content strategy, not a platform migration. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* Timeline: Platform Evolution */}
@@ -759,7 +759,7 @@ export default function Page() {
                   <div className="ae-timeline-marker" />
                   <div className="ae-timeline-content">
                     <div className="text-white font-semibold">2024: WordPress Plugins Respond</div>
-                    <p className="text-gray-400 text-sm">Rank Math and Yoast add AI-focused schema recommendations. WordPress developers release AI optimization plugins. Squarespace stays focused on traditional SEO.</p>
+                    <p className="text-gray-400 text-sm">Rank Math and Yoast add AI-focused schema recommendations. WordPress developers release AI optimization plugins. Squarespace stays focused on traditional SEO. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                   </div>
                 </div>
                 <div className="ae-timeline-item">
@@ -773,7 +773,7 @@ export default function Page() {
                   <div className="ae-timeline-marker" />
                   <div className="ae-timeline-content">
                     <div className="text-white font-semibold">2026: Both Platforms Deliver Results</div>
-                    <p className="text-gray-400 text-sm">Businesses on both platforms rank on page one and appear in AI search. The gap is no longer the platform itself but the optimization strategy behind it.</p>
+                    <p className="text-gray-400 text-sm">Businesses on both platforms rank on page one and appear in AI search. The gap is no longer the platform itself but the optimization strategy behind it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                   </div>
                 </div>
               </div>
@@ -789,7 +789,7 @@ export default function Page() {
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
             <h2>AI Platform Readiness Cheat Sheet</h2>
 
-            <p>Use this checklist to evaluate your current site, regardless of platform.</p>
+            <p>Use this checklist to evaluate your current site, regardless of platform. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="ae-cheat-sheet not-prose">
               <div className="ae-cheat-sheet-title">AI Readiness Checklist: Squarespace and WordPress</div>
@@ -843,7 +843,7 @@ export default function Page() {
 
             {/* CTA 14 */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about AI visibility for your specific platform? Reach out directly.</p>
+              <p>Questions about AI visibility for your specific platform? Reach out directly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -864,7 +864,7 @@ export default function Page() {
             {/* 3-Tier CTA Block */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Not Sure Which Platform AI Prefers for Your Business?</h3>
-              <p className="text-gray-400 mb-6">Your platform choice matters less than how your content is structured. Our free Blind Spot Report reveals exactly what AI sees (and misses) on your current site.</p>
+              <p className="text-gray-400 mb-6">Your platform choice matters less than how your content is structured. Our free Blind Spot Report reveals exactly what AI sees (and misses) on your current site. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -889,7 +889,7 @@ export default function Page() {
             <p>Neither platform is universally better. Squarespace enforces clean HTML structure and now includes built-in AI SEO coaching tools, making it strong for small businesses that need fast, well-structured sites. WordPress offers deeper technical control over schema markup, bulk content optimization, and crawlability settings, making it the stronger choice for businesses scaling content or targeting competitive keywords. The platform matters less than how your content is structured for AI crawlers.</p>
 
             <h3>Can AI crawlers read Squarespace websites?</h3>
-            <p>Yes, AI crawlers can read Squarespace websites. Squarespace generates server-rendered HTML with enforced heading hierarchy and clean code structure, which gives AI crawlers readable content on first load. The platform also includes an AI SEO dashboard that coaches users toward FAQ pages and content structures that improve AI visibility. However, Squarespace limits your ability to add custom schema markup or make granular technical adjustments.</p>
+            <p>Yes, AI crawlers can read Squarespace websites. Squarespace generates server-rendered HTML with enforced heading hierarchy and clean code structure, which gives AI crawlers readable content on first load. The platform also includes an AI SEO dashboard that coaches users toward FAQ pages and content structures that improve AI visibility. However, Squarespace limits your ability to add custom schema markup or make granular technical adjustments. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>Does WordPress have built-in AI search optimization tools?</h3>
             <p>No, WordPress does not include native AI search optimization tools. You need plugins like Yoast SEO, Rank Math, or Schema Pro to add structured data, manage meta descriptions, and optimize for AI crawlers. The upside is that these plugins give you far more control than any built-in tool, allowing custom schema types, bulk editing across hundreds of pages, and granular sitemap control.</p>

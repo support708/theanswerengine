@@ -218,23 +218,23 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">How Clients Are Finding Personal Trainers on AI</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             The search journey for a new personal training client looks different than it did two years ago. Yes, Google is still part of the picture. But a growing share of potential clients skip the list of blue links entirely and go straight to an AI assistant.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             They type something like: "Who is a good personal trainer near me for someone over 50?" or "Best personal trainer in [city] for weight loss." The AI gives them a direct answer with a name, sometimes with a brief description of why that trainer was recommended.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             If your name is in that answer, you have a qualified lead who already has a recommendation from the AI they trust. If it is not, that lead may never find you at all.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">The AI Recommendation Dynamic</div>
-            <p>When AI recommends a personal trainer, it is often answering a question with significant personal context: weight loss goals, age-specific needs, injury recovery, athletic performance. These nuanced queries favor trainers whose online presence communicates clear specializations, not generic fitness marketing.</p>
+            <p>When AI recommends a personal trainer, it is often answering a question with significant personal context: weight loss goals, age-specific needs, injury recovery, athletic performance. These nuanced queries favor trainers whose online presence communicates clear specializations, not generic fitness marketing. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
         {/* Inline CTA 1 */}
         <div className="ae-cta-inline">
-          <p>Not sure how AI currently sees your personal training business? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out what is missing.</p>
+          <p>Not sure how AI currently sees your personal training business? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out what is missing. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         {/* Section 2 */}
@@ -242,7 +242,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What AI Looks for in a Personal Trainer</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             AI does not evaluate your fitness knowledge or your actual results with clients. It evaluates the information available about you across the internet. Here are the signals it weighs most heavily.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -288,10 +288,10 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Why Specialization Is Your Biggest Lever</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Of all the factors that determine whether AI recommends you, specialization is the most powerful lever most personal trainers are not pulling.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Here is why: when a potential client asks AI for a personal trainer, they almost always add a qualifier. "For weight loss." "For seniors." "For athletes." "After a back injury." "For beginners." AI matches these qualifiers against what it knows about trainers in the area. Trainers whose digital presence clearly communicates a specialization get matched to specific queries. Generalists get skipped.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-decision-matrix">
             <div className="ae-decision-row">
@@ -318,17 +318,17 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             Most trainers try to be everything to everyone. In the AI era, that strategy becomes invisible. The trainers who own their niche on paper (in their digital presence) are the ones AI recommends for the highest-intent queries.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-callout ae-callout-success mt-6">
             <div className="ae-callout-title">Specialization Does Not Mean Turning Away Clients</div>
-            <p>You can still train all kinds of clients. Specialization is about what AI can say about you, not a commitment to refuse other business. Having a clear specialty niche on your website dramatically increases AI recommendation frequency without limiting who walks through your door.</p>
+            <p>You can still train all kinds of clients. Specialization is about what AI can say about you, not a commitment to refuse other business. Having a clear specialty niche on your website dramatically increases AI recommendation frequency without limiting who walks through your door. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
         </section>
 
         {/* Inline CTA 2 */}
         <div className="ae-cta-inline">
-          <p>Wondering which specialty angle is most likely to get you AI citations in your market? <Link href="/blindspot">Get a Blind Spot Report</Link> or call <a href="tel:+12134442229">(213) 444-2229</a>.</p>
+          <p>Wondering which specialty angle is most likely to get you AI citations in your market? <Link href="/blindspot">Get a Blind Spot Report</Link> or call <a href="tel:+12134442229">(213) 444-2229</a>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
         </div>
 
         {/* Section 4 */}
@@ -336,7 +336,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Building the AI-Ready Digital Presence</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             For personal trainers, an AI-ready digital presence has specific components. Here is how it breaks down, from most to least impactful.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <table className="ae-comparison-table">
             <thead>
@@ -391,7 +391,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Which Platforms Matter Most for Personal Trainers</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Different AI platforms pull from different sources. Here is what that means for where to focus your personal trainer directory strategy.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -420,7 +420,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info mt-8">
             <div className="ae-callout-title">The Mindbody and ClassPass Angle</div>
-            <p>Fitness-specific booking platforms like Mindbody and ClassPass are increasingly indexed by AI systems for fitness-related queries. If you offer sessions through these platforms, having a complete, specific profile with your certifications and training style can surface you in AI recommendations for queries about booking fitness sessions online.</p>
+            <p>Fitness-specific booking platforms like Mindbody and ClassPass are increasingly indexed by AI systems for fitness-related queries. If you offer sessions through these platforms, having a complete, specific profile with your certifications and training style can surface you in AI recommendations for queries about booking fitness sessions online. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -429,7 +429,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Common Mistakes Personal Trainers Make</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Most personal trainers are doing three or four things right and leaving a significant AI visibility gap on the table. Here are the patterns we see most often.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -473,7 +473,7 @@ export default function Page() {
         {/* CTA Block */}
         <div className="ae-cta-block">
           <h3>Find Out What AI Is Missing About Your Training Business</h3>
-          <p>Our Blind Spot Report shows exactly how AI currently sees your personal training business and what gaps are preventing citations. Know your score before a competitor does.</p>
+          <p>Our Blind Spot Report shows exactly how AI currently sees your personal training business and what gaps are preventing citations. Know your score before a competitor does. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <Link href="/blindspot" className="ae-cta-primary">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -518,12 +518,12 @@ export default function Page() {
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
             <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Industry Guides</p>
-              <p className="text-white font-medium">How Gyms and Fitness Studios Get Found on AI</p>
+              <p className="text-sm text-[#F27D24] mb-1">Industry Guides Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+              <p className="text-white font-medium">How Gyms and Fitness Studios Get Found on AI <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </Link>
             <Link href="/blog/does-schema-markup-help-ai-search" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">How-To Guides</p>
-              <p className="text-white font-medium">Does Schema Markup Help You Show Up on AI Search?</p>
+              <p className="text-sm text-[#F27D24] mb-1">How-To Guides Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              <p className="text-white font-medium">Does Schema Markup Help You Show Up on AI Search? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </Link>
           </div>
         </section>
@@ -531,7 +531,7 @@ export default function Page() {
         {/* 3-Tier CTA Block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Are Potential Clients Finding You on AI?</h3>
-          <p className="text-gray-400 mb-6">Your Blind Spot Report shows how AI currently describes your training business, what is missing, and exactly what to build to start appearing in recommendations for the clients you most want to serve.</p>
+          <p className="text-gray-400 mb-6">Your Blind Spot Report shows how AI currently describes your training business, what is missing, and exactly what to build to start appearing in recommendations for the clients you most want to serve. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -559,7 +559,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
           </div>
@@ -600,7 +600,7 @@ export default function Page() {
             ].map((item, i) => (
               <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-                <p className="text-gray-300 leading-relaxed">{item.a}</p>
+                <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             ))}
           </div>
@@ -609,12 +609,12 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta mt-16">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Your Next Client Is Asking AI Right Now</h2>
-          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">The question is whether AI answers with your name. Our Blind Spot Report shows you exactly what AI sees when someone searches for a trainer like you and what gaps are keeping your name out of that answer.</p>
+          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">The question is whether AI answers with your name. Our Blind Spot Report shows you exactly what AI sees when someone searches for a trainer like you and what gaps are keeping your name out of that answer. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="ae-cta-primary text-lg px-8 py-4">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-500 text-sm mt-4">Free analysis. No credit card. Know your gaps in minutes.</p>
+          <p className="text-gray-500 text-sm mt-4">Free analysis. No credit card. Know your gaps in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

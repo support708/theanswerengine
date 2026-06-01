@@ -333,21 +333,21 @@ export default function HowToGetAIRecommendBusiness() {
             <span className="ae-section-label">The Shift You Cannot Ignore</span>
             <h2>AI Platforms Decide Who Gets Customers Now. Are You Even in the Running?</h2>
 
-            <p>When someone asks ChatGPT &quot;Who is the best real estate agent in Austin?&quot; or searches Google for &quot;top HVAC company Phoenix,&quot; AI platforms make split-second decisions about which businesses deserve citation. They do not show ten blue links. They provide direct answers citing 2-3 sources maximum.</p>
+            <p>When someone asks ChatGPT &quot;Who is the best real estate agent in Austin?&quot; or searches Google for &quot;top HVAC company Phoenix,&quot; AI platforms make split-second decisions about which businesses deserve citation. They do not show ten blue links. They provide direct answers citing 2-3 sources maximum. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p><strong>If you are not one of those 2-3 cited sources, you are invisible.</strong></p>
+            <p><strong>If you are not one of those 2-3 cited sources, you are invisible.</strong> Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>The challenge: AI platforms evaluate completely different signals than traditional search algorithms. Businesses with perfect traditional SEO, high-authority backlinks, optimized meta tags, and fast loading speeds get ignored by AI platforms daily because they are missing the actual requirements AI systems evaluate.</p>
+            <p>The challenge: AI platforms evaluate completely different signals than traditional search algorithms. Businesses with perfect traditional SEO, high-authority backlinks, optimized meta tags, and fast loading speeds get ignored by AI platforms daily because they are missing the actual requirements AI systems evaluate. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-            <p>This guide reveals the four non-negotiable requirements AI platforms evaluate, why most businesses fail all four, and what systematic implementation actually looks like.</p>
+            <p>This guide reveals the four non-negotiable requirements AI platforms evaluate, why most businesses fail all four, and what systematic implementation actually looks like. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-quote not-prose">
-              <p>Traditional SEO taught businesses to optimize for Google&apos;s 2015 algorithm. That world is gone. If you are still chasing keywords and backlinks, AI platforms are already sending your customers to competitors.</p>
+              <p>Traditional SEO taught businesses to optimize for Google&apos;s 2015 algorithm. That world is gone. If you are still chasing keywords and backlinks, AI platforms are already sending your customers to competitors. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are already recommending your competitors instead of you.</p>
+              <p>Find out if AI platforms are already recommending your competitors instead of you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -363,19 +363,19 @@ export default function HowToGetAIRecommendBusiness() {
               <div className="ae-bar-item" style={{ '--bar-w': '15%' } as React.CSSProperties}><span>Businesses with any AI optimization</span><strong>4%</strong></div>
             </div>
 
-            <p>The gap between AI adoption and business readiness is enormous. Most companies are still optimizing for a search world that no longer exists while competitors quietly lock in AI citation authority.</p>
+            <p>The gap between AI adoption and business readiness is enormous. Most companies are still optimizing for a search world that no longer exists while competitors quietly lock in AI citation authority. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* ── FOUNDATION REQUIREMENT #1 ── */}
             <span className="ae-section-label">Foundation #1</span>
             <h2>Technical Schema Infrastructure: The Language AI Speaks Natively</h2>
 
-            <p>AI platforms read structured data markup (schema) before they read your visible content. Without proper technical implementation, even perfectly written content remains invisible to every AI platform.</p>
+            <p>AI platforms read structured data markup (schema) before they read your visible content. Without proper technical implementation, even perfectly written content remains invisible to every AI platform. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-            <p>Think of schema as the language AI platforms speak natively. Your website&apos;s visible content is written for humans. Schema translates that content into machine-readable format that AI can parse, evaluate, and cite with confidence.</p>
+            <p>Think of schema as the language AI platforms speak natively. Your website&apos;s visible content is written for humans. Schema translates that content into machine-readable format that AI can parse, evaluate, and cite with confidence. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Hidden Failure Point</div>
-              <p>Schema implementation is not binary. It is not &quot;have schema or don&apos;t have schema.&quot; It is &quot;have perfect schema or have broken schema that AI platforms ignore.&quot; A single syntax error breaks everything. Conflicting schema types create confusion. Missing required properties invalidate entire implementations. And you will not know your schema is broken unless you systematically test it.</p>
+              <p>Schema implementation is not binary. It is not &quot;have schema or don&apos;t have schema.&quot; It is &quot;have perfect schema or have broken schema that AI platforms ignore.&quot; A single syntax error breaks everything. Conflicting schema types create confusion. Missing required properties invalidate entire implementations. And you will not know your schema is broken unless you systematically test it. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── DECISION MATRIX: Schema Types ── */}
@@ -420,11 +420,11 @@ export default function HowToGetAIRecommendBusiness() {
               </table>
             </div>
 
-            <p>Businesses spend months creating content, implementing schema, and wondering why AI platforms never cite them. The reason: their schema has been broken from day one and they have no diagnostic system to catch it.</p>
+            <p>Businesses spend months creating content, implementing schema, and wondering why AI platforms never cite them. The reason: their schema has been broken from day one and they have no diagnostic system to catch it. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your schema is working? We will audit your entire technical foundation for free.</p>
+              <p>Not sure if your schema is working? We will audit your entire technical foundation for free. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Request Your Free Schema Audit &rarr;</Link>
             </div>
 
@@ -432,7 +432,7 @@ export default function HowToGetAIRecommendBusiness() {
             <span className="ae-section-label">Foundation #2</span>
             <h2>Question-Answer Content Architecture: Give AI What It Actually Wants</h2>
 
-            <p>AI platforms do not extract answers from long-form content the way humans do. They look for explicit question-answer pairs with clear structure. When someone asks ChatGPT &quot;How long does HVAC installation take?&quot;, the AI does not read your entire blog post. It scans for explicit question-answer patterns that match the query.</p>
+            <p>AI platforms do not extract answers from long-form content the way humans do. They look for explicit question-answer pairs with clear structure. When someone asks ChatGPT &quot;How long does HVAC installation take?&quot;, the AI does not read your entire blog post. It scans for explicit question-answer patterns that match the query. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── COMPARISON TABLE ── */}
             <h3>Content AI Cites vs. Content AI Ignores</h3>
@@ -476,7 +476,7 @@ export default function HowToGetAIRecommendBusiness() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to see how your content architecture stacks up against AI requirements?</p>
+              <p>Want to see how your content architecture stacks up against AI requirements? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
             </div>
 
@@ -484,7 +484,7 @@ export default function HowToGetAIRecommendBusiness() {
             <span className="ae-section-label">Foundation #3</span>
             <h2>Verifiable Expertise Signals: AI Does Not Trust Claims</h2>
 
-            <p>AI platforms do not trust claims. They look for verifiable credentials and specific expertise documentation. The difference between getting cited and getting ignored comes down to specificity.</p>
+            <p>AI platforms do not trust claims. They look for verifiable credentials and specific expertise documentation. The difference between getting cited and getting ignored comes down to specificity. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── PROS CONS ── */}
             <div className="ae-pros-cons not-prose">
@@ -516,19 +516,19 @@ export default function HowToGetAIRecommendBusiness() {
 
             <div className="ae-callout not-prose">
               <div className="ae-callout-title">Before (AI Ignores This)</div>
-              <p>&quot;Our experienced team provides excellent HVAC service throughout the Phoenix area.&quot;</p>
+              <p>&quot;Our experienced team provides excellent HVAC service throughout the Phoenix area.&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">After (AI Cites This)</div>
-              <p>&quot;Our team includes four NATE-certified technicians and two EPA Section 608-certified specialists. Since 2008, we have completed 3,247 HVAC installations across Maricopa County, specializing in high-efficiency systems designed for Phoenix&apos;s extreme climate.&quot;</p>
+              <p>&quot;Our team includes four NATE-certified technicians and two EPA Section 608-certified specialists. Since 2008, we have completed 3,247 HVAC installations across Maricopa County, specializing in high-efficiency systems designed for Phoenix&apos;s extreme climate.&quot; <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
-            <p>Most businesses have this expertise. They just do not document it in AI-readable formats. The credentials exist. The experience is real. But it is buried in generic marketing copy that AI platforms cannot verify or cite.</p>
+            <p>Most businesses have this expertise. They just do not document it in AI-readable formats. The credentials exist. The experience is real. But it is buried in generic marketing copy that AI platforms cannot verify or cite. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>We will analyze your expertise signals and show you exactly what AI platforms see when they evaluate your business.</p>
+              <p>We will analyze your expertise signals and show you exactly what AI platforms see when they evaluate your business. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email us for a free analysis &rarr;</a>
             </div>
 
@@ -536,7 +536,7 @@ export default function HowToGetAIRecommendBusiness() {
             <span className="ae-section-label">Foundation #4</span>
             <h2>Comprehensive Topic Coverage: Own the Entire Conversation</h2>
 
-            <p>AI platforms favor sources that comprehensively address entire topic areas, not businesses with scattered blog posts on disconnected subjects. When someone asks ChatGPT about HVAC installation, the AI does not just look for one article. It evaluates whether you are a comprehensive information source on the entire topic.</p>
+            <p>AI platforms favor sources that comprehensively address entire topic areas, not businesses with scattered blog posts on disconnected subjects. When someone asks ChatGPT about HVAC installation, the AI does not just look for one article. It evaluates whether you are a comprehensive information source on the entire topic. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── COMPARISON TABLE #2 ── */}
             <div className="ae-comparison-table not-prose">
@@ -572,15 +572,15 @@ export default function HowToGetAIRecommendBusiness() {
               </table>
             </div>
 
-            <p>The second approach establishes you as the authoritative source on the entire topic. AI platforms recognize comprehensive coverage and cite those sources preferentially. Learn more about this in our guide on <Link href="/blog/hub-spoke-content-strategy-ai-citations">hub-spoke content strategy for AI citations</Link>.</p>
+            <p>The second approach establishes you as the authoritative source on the entire topic. AI platforms recognize comprehensive coverage and cite those sources preferentially. Learn more about this in our guide on <Link href="/blog/hub-spoke-content-strategy-ai-citations">hub-spoke content strategy for AI citations</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>You would not show up to a job interview having only read the job title. AI platforms evaluate your entire body of work, not just one page. Comprehensive coverage is the new competitive moat.</p>
+              <p>You would not show up to a job interview having only read the job title. AI platforms evaluate your entire body of work, not just one page. Comprehensive coverage is the new competitive moat. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want a content gap analysis showing exactly which topics you need to cover?</p>
+              <p>Want a content gap analysis showing exactly which topics you need to cover? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Get Your Free Content Gap Analysis &rarr;</Link>
             </div>
 
@@ -602,7 +602,7 @@ export default function HowToGetAIRecommendBusiness() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to implement all four foundations? Let us build your AI citation roadmap.</p>
+              <p>Ready to implement all four foundations? Let us build your AI citation roadmap. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 to get started &rarr;</a>
             </div>
 
@@ -615,42 +615,42 @@ export default function HowToGetAIRecommendBusiness() {
                 <div className="ae-timeline-marker">Week 1-2</div>
                 <div className="ae-timeline-content">
                   <strong>Technical Audit and Schema Deployment</strong>
-                  <p>Audit existing schema for errors, deploy corrected FAQPage, Article, Organization, and LocalBusiness markup across all key pages.</p>
+                  <p>Audit existing schema for errors, deploy corrected FAQPage, Article, Organization, and LocalBusiness markup across all key pages. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">Week 3-4</div>
                 <div className="ae-timeline-content">
                   <strong>Content Architecture Restructure</strong>
-                  <p>Reformat top 10 pages into question-answer architecture. Add explicit Q&amp;A pairs, direct answers, and FAQ sections to each.</p>
+                  <p>Reformat top 10 pages into question-answer architecture. Add explicit Q&amp;A pairs, direct answers, and FAQ sections to each. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">Month 2</div>
                 <div className="ae-timeline-content">
                   <strong>Expertise Documentation</strong>
-                  <p>Replace all generic claims with verifiable credentials. Add certification numbers, project counts, founding dates, and service area specifics.</p>
+                  <p>Replace all generic claims with verifiable credentials. Add certification numbers, project counts, founding dates, and service area specifics. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">Month 2-3</div>
                 <div className="ae-timeline-content">
                   <strong>Topic Cluster Build-Out</strong>
-                  <p>Create supporting content for each pillar page. Build interconnected clusters with internal linking architecture.</p>
+                  <p>Create supporting content for each pillar page. Build interconnected clusters with internal linking architecture. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">Month 3-4</div>
                 <div className="ae-timeline-content">
                   <strong>Initial AI Citations Begin</strong>
-                  <p>With all four foundations in place, AI platforms start recognizing your authority. Citations increase as content matures and cross-references accumulate.</p>
+                  <p>With all four foundations in place, AI platforms start recognizing your authority. Citations increase as content matures and cross-references accumulate. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 </div>
               </div>
             </div>
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Skip the 4-month learning curve. We compress years of AEO expertise into proven processes.</p>
+              <p>Skip the 4-month learning curve. We compress years of AEO expertise into proven processes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us to start your implementation &rarr;</a>
             </div>
 

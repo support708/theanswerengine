@@ -269,17 +269,17 @@ export default function HowContractorsWinAISearch() {
 
             <p>A homeowner with a burst pipe at 11 PM used to open Google, type &quot;emergency plumber near me,&quot; and call the first number in the map pack. That behavior is evolving. Today, a growing percentage of homeowners open ChatGPT, Google AI, or Perplexity and ask something far more specific: &quot;Who is the best licensed plumber for a slab leak in [city]?&quot; or &quot;Which HVAC company near me has the fastest response time for AC repair?&quot;</p>
 
-            <p>The AI does not return a list of ten links. It names specific companies. It explains why it chose them. It often includes details about licensing, service areas, average review scores, and specialties. The homeowner reads the recommendation, checks the website, and calls. What used to be a multi-day research process now collapses into minutes.</p>
+            <p>The AI does not return a list of ten links. It names specific companies. It explains why it chose them. It often includes details about licensing, service areas, average review scores, and specialties. The homeowner reads the recommendation, checks the website, and calls. What used to be a multi-day research process now collapses into minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>This compression matters enormously for home service companies because phone calls convert to 10 to 15 times more revenue than web leads, and callers convert 30% faster. The companies AI recommends get those calls. Everyone else gets silence.</p>
 
             <div className="ae-quote not-prose">
-              <p>AI search is now the third most-used discovery channel for local businesses, behind only Google and Facebook. For home services, where urgency drives decision-making, this shift is accelerating faster than any other industry.</p>
+              <p>AI search is now the third most-used discovery channel for local businesses, behind only Google and Facebook. For home services, where urgency drives decision-making, this shift is accelerating faster than any other industry. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <p>The critical question is not whether AI search matters for contractors. It does. The question is whether AI platforms can find your company, verify your information, and trust you enough to put your name in front of a homeowner who needs help right now.</p>
 
-            <p>For a broader look at how this shift affects all local businesses, see our guide on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>.</p>
+            <p>For a broader look at how this shift affects all local businesses, see our guide on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -291,7 +291,7 @@ export default function HowContractorsWinAISearch() {
             <span className="ae-section-label" id="lead-gen-gap">The Trap</span>
             <h2>The Lead Gen Platform Trap</h2>
 
-            <p>Most home service companies built their entire customer acquisition strategy around platforms like HomeAdvisor, Angi, Thumbtack, and Bark. These platforms worked well for a decade. You paid for leads, you called fast, you closed jobs. But these platforms created a dependency that is now becoming a liability in the AI era.</p>
+            <p>Most home service companies built their entire customer acquisition strategy around platforms like HomeAdvisor, Angi, Thumbtack, and Bark. These platforms worked well for a decade. You paid for leads, you called fast, you closed jobs. But these platforms created a dependency that is now becoming a liability in the AI era. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Here is the problem: AI crawlers cannot fully access your profile on most lead generation platforms. Your reviews, your service descriptions, your response times, your customer history: all of it is locked behind JavaScript rendering, login walls, or proprietary data structures that AI platforms cannot read. When a homeowner asks ChatGPT for a plumber recommendation, ChatGPT has zero data about contractors who only exist on HomeAdvisor.</p>
 
@@ -345,7 +345,7 @@ export default function HowContractorsWinAISearch() {
               </table>
             </div>
 
-            <p>The shift does not mean lead gen platforms are useless. They still drive volume. But relying on them as your only digital presence means you are invisible to the fastest-growing discovery channel in home services. The companies that win in 2026 and beyond are the ones building their own AI-visible digital presence alongside their existing lead sources.</p>
+            <p>The shift does not mean lead gen platforms are useless. They still drive volume. But relying on them as your only digital presence means you are invisible to the fastest-growing discovery channel in home services. The companies that win in 2026 and beyond are the ones building their own AI-visible digital presence alongside their existing lead sources. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p><strong>The dependency trap:</strong> If your only online presence is a HomeAdvisor profile and a basic Google Business Profile, AI platforms have almost nothing to evaluate. You are competing against contractors who have structured websites, educational content, and verified information across multiple sources. In AI search, the company with the most verifiable, crawlable information wins.</p>
@@ -353,7 +353,7 @@ export default function HowContractorsWinAISearch() {
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering if AI can even find your company right now? Most contractors are shocked by the answer.</p>
+              <p>Wondering if AI can even find your company right now? Most contractors are shocked by the answer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
 
@@ -365,13 +365,13 @@ export default function HowContractorsWinAISearch() {
 
             <h3>Cross-Platform Verification</h3>
 
-            <p>When a homeowner asks AI for a plumber, electrician, or HVAC technician, the platform checks your information across Google Business Profile, Yelp, BBB, Facebook, Nextdoor, and industry-specific directories. It looks for consistency: does your company name match everywhere? Is the phone number identical? Are your service areas aligned? Do the hours match?</p>
+            <p>When a homeowner asks AI for a plumber, electrician, or HVAC technician, the platform checks your information across Google Business Profile, Yelp, BBB, Facebook, Nextdoor, and industry-specific directories. It looks for consistency: does your company name match everywhere? Is the phone number identical? Are your service areas aligned? Do the hours match? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>Inconsistencies in basic NAP (Name, Address, Phone) data signal unreliability. If your BBB listing says you serve a 30-mile radius and your Google profile says 15 miles, AI has less confidence recommending you because it cannot determine which is accurate.</p>
 
             <h3>Licensing and Credential Verification</h3>
 
-            <p>Home services carry inherent risk. A bad plumber can flood a house. A bad electrician can cause a fire. AI platforms take this seriously. They look for verifiable credentials: state contractor licenses, bonding and insurance information, trade certifications, and professional association memberships. Contractors who display this information prominently in crawlable HTML text give AI the trust signals it needs.</p>
+            <p>Home services carry inherent risk. A bad plumber can flood a house. A bad electrician can cause a fire. AI platforms take this seriously. They look for verifiable credentials: state contractor licenses, bonding and insurance information, trade certifications, and professional association memberships. Contractors who display this information prominently in crawlable HTML text give AI the trust signals it needs. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>What AI looks for on contractor websites:</strong> State license numbers in plain text (not images), bonding and insurance verification, BBB accreditation status, trade-specific certifications (EPA 608, NATE, master plumber designation), and years in business. Every verifiable credential increases AI confidence in recommending your company.</p>
@@ -379,7 +379,7 @@ export default function HowContractorsWinAISearch() {
 
             <h3>Service Area Depth</h3>
 
-            <p>A contractor website that says &quot;We serve the greater metro area&quot; gives AI almost nothing to work with. When a homeowner asks &quot;Who is the best electrician in [specific neighborhood]?&quot; AI needs content that specifically addresses that area. Contractors with individual service area pages that mention neighborhoods, zip codes, and local landmarks give AI the geographic specificity it needs to match queries with confidence.</p>
+            <p>A contractor website that says &quot;We serve the greater metro area&quot; gives AI almost nothing to work with. When a homeowner asks &quot;Who is the best electrician in [specific neighborhood]?&quot; AI needs content that specifically addresses that area. Contractors with individual service area pages that mention neighborhoods, zip codes, and local landmarks give AI the geographic specificity it needs to match queries with confidence. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Response Pattern Signals</h3>
 
@@ -387,7 +387,7 @@ export default function HowContractorsWinAISearch() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>See exactly what AI platforms say (or do not say) about your contracting company.</p>
+              <p>See exactly what AI platforms say (or do not say) about your contracting company. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -397,19 +397,19 @@ export default function HowContractorsWinAISearch() {
 
             <p>Google Ads still work. They put your name at the top of search results when someone types a keyword. But AI search operates on a fundamentally different model. When a homeowner asks ChatGPT for a recommendation, there are no ad slots. There is no pay-to-play. AI evaluates your actual content, your actual expertise, and your actual reputation, then makes a judgment call.</p>
 
-            <p>This means the contractor with the deepest, most informative content on their website has a structural advantage that money cannot buy. A plumbing company that publishes detailed pages explaining the difference between trenchless and traditional sewer repair, including when each approach makes sense, what homeowners should expect, and what questions to ask, gives AI far more material to evaluate than a competitor whose entire website says &quot;We fix pipes. Call now.&quot;</p>
+            <p>This means the contractor with the deepest, most informative content on their website has a structural advantage that money cannot buy. A plumbing company that publishes detailed pages explaining the difference between trenchless and traditional sewer repair, including when each approach makes sense, what homeowners should expect, and what questions to ask, gives AI far more material to evaluate than a competitor whose entire website says &quot;We fix pipes. Call now.&quot; One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>Research from a 237,000-query analysis of AI overviews in home services revealed that content depth is the single strongest predictor of AI citation. Not domain authority. Not backlink count. Not ad spend. Content that thoroughly addresses the questions homeowners actually ask is what earns the recommendation.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>The content gap is your opportunity:</strong> Most contractors have websites with five pages: Home, About, Services, Reviews, Contact. AI needs 10 to 20 times that amount of structured, service-specific, area-specific content to build confidence in a recommendation. The contractors who close this gap first capture a disproportionate share of AI-driven leads in their market.</p>
+              <p><strong>The content gap is your opportunity:</strong> Most contractors have websites with five pages: Home, About, Services, Reviews, Contact. AI needs 10 to 20 times that amount of structured, service-specific, area-specific content to build confidence in a recommendation. The contractors who close this gap first capture a disproportionate share of AI-driven leads in their market. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             <p>To understand why publishing educational content matters for AI citations, read our guide on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether a blog actually helps AI recommend your business</Link>.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Your competitors are publishing content that AI reads. Are you?</p>
+              <p>Your competitors are publishing content that AI reads. Are you? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Check Your AI Content Gap &rarr;</Link>
             </div>
 
@@ -419,7 +419,7 @@ export default function HowContractorsWinAISearch() {
 
             <p>Reviews are the lifeblood of home service marketing. A 4.8-star rating on Google with 500 reviews is powerful social proof. But there is a problem: most AI platforms cannot read Google reviews. Google reviews are rendered via JavaScript, which ChatGPT, Perplexity, and most other AI crawlers cannot access. That 4.8-star rating you worked years to build is invisible to a large and growing segment of your potential customers.</p>
 
-            <p>AI platforms can read reviews on certain platforms: Yelp, BBB, and some industry-specific directories publish reviews in crawlable HTML. But the most powerful review signal for AI visibility is something most contractors overlook entirely: customer testimonials published directly on your own website as plain HTML text.</p>
+            <p>AI platforms can read reviews on certain platforms: Yelp, BBB, and some industry-specific directories publish reviews in crawlable HTML. But the most powerful review signal for AI visibility is something most contractors overlook entirely: customer testimonials published directly on your own website as plain HTML text. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>What makes a review AI-readable?</h3>
 
@@ -451,13 +451,13 @@ export default function HowContractorsWinAISearch() {
               </div>
             </div>
 
-            <p>Review response patterns also matter. AI evaluates whether a business responds to reviews, how quickly, and with what level of professionalism. A contractor who responds to every review (positive and negative) within 24 hours with thoughtful, specific responses signals a level of engagement and reliability that AI factors into its confidence score.</p>
+            <p>Review response patterns also matter. AI evaluates whether a business responds to reviews, how quickly, and with what level of professionalism. A contractor who responds to every review (positive and negative) within 24 hours with thoughtful, specific responses signals a level of engagement and reliability that AI factors into its confidence score. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>For more on how reviews influence AI recommendations across industries, see our deep dive on <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">optimizing your Google Business Profile for AI</Link>.</p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Your 5-star reviews might be invisible to AI. Find out which ones actually count.</p>
+              <p>Your 5-star reviews might be invisible to AI. Find out which ones actually count. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -467,12 +467,12 @@ export default function HowContractorsWinAISearch() {
 
             <p>Home services have a characteristic that most other industries do not: a significant percentage of customer searches happen during emergencies. A flooded basement at 2 AM. An AC failure during a July heat wave. A gas smell in the kitchen. These are not casual research queries. These are high-urgency, high-intent moments where the homeowner needs an answer immediately.</p>
 
-            <p>AI platforms handle emergency queries differently than informational ones. When urgency is detected in the query, AI prioritizes contractors who signal 24/7 availability, emergency service capabilities, and fast response times. The specific signals that matter include published emergency phone numbers, explicit 24/7 or after-hours availability statements, and content that addresses emergency scenarios directly.</p>
+            <p>AI platforms handle emergency queries differently than informational ones. When urgency is detected in the query, AI prioritizes contractors who signal 24/7 availability, emergency service capabilities, and fast response times. The specific signals that matter include published emergency phone numbers, explicit 24/7 or after-hours availability statements, and content that addresses emergency scenarios directly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>Voice search amplifies this dynamic. 42% of consumers now trust AI recommendations as much as traditional online reviews, and voice-activated AI assistants like Siri, Alexa, and Google Assistant handle a growing share of emergency home service queries. A homeowner with water pouring through the ceiling does not sit down at a computer. They say, &quot;Hey Siri, find me an emergency plumber nearby.&quot;</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>The voice search pattern:</strong> Voice queries are conversational and specific. Instead of typing &quot;plumber near me,&quot; homeowners ask &quot;Who is the best plumber for a water heater replacement in [city] that can come today?&quot; AI platforms answer these queries by pulling from the most structured, detailed, and locally relevant content available. Generic websites with no service-specific pages cannot compete.</p>
+              <p><strong>The voice search pattern:</strong> Voice queries are conversational and specific. Instead of typing &quot;plumber near me,&quot; homeowners ask &quot;Who is the best plumber for a water heater replacement in [city] that can come today?&quot; AI platforms answer these queries by pulling from the most structured, detailed, and locally relevant content available. Generic websites with no service-specific pages cannot compete. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             {/* CTA 6 */}
@@ -485,7 +485,7 @@ export default function HowContractorsWinAISearch() {
             <span className="ae-section-label" id="common-mistakes">Common Mistakes</span>
             <h2>The 6 Mistakes Making Contractors Invisible to AI</h2>
 
-            <p>After analyzing thousands of contractor websites and their AI visibility scores, the same patterns emerge repeatedly. These are not minor oversights. Each one is a structural gap that prevents AI from recommending your company.</p>
+            <p>After analyzing thousands of contractor websites and their AI visibility scores, the same patterns emerge repeatedly. These are not minor oversights. Each one is a structural gap that prevents AI from recommending your company. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* MISTAKE GRID */}
             <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
@@ -495,7 +495,7 @@ export default function HowContractorsWinAISearch() {
               </div>
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">2. Directory-Only Presence</div>
-                <p className="text-gray-400 text-sm leading-relaxed">If your digital footprint is HomeAdvisor + Google Business Profile and nothing else, most AI platforms cannot access your information. You are invisible to the fastest-growing discovery channel.</p>
+                <p className="text-gray-400 text-sm leading-relaxed">If your digital footprint is HomeAdvisor + Google Business Profile and nothing else, most AI platforms cannot access your information. You are invisible to the fastest-growing discovery channel. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">3. No Service-Specific Pages</div>
@@ -503,7 +503,7 @@ export default function HowContractorsWinAISearch() {
               </div>
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">4. Missing Credentials</div>
-                <p className="text-gray-400 text-sm leading-relaxed">License numbers in image format, no mention of bonding or insurance, and no trade certifications. AI cannot read images. Credentials must be in crawlable text to count.</p>
+                <p className="text-gray-400 text-sm leading-relaxed">License numbers in image format, no mention of bonding or insurance, and no trade certifications. AI cannot read images. Credentials must be in crawlable text to count. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">5. JavaScript-Rendered Content</div>
@@ -511,7 +511,7 @@ export default function HowContractorsWinAISearch() {
               </div>
               <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">6. Zero Educational Content</div>
-                <p className="text-gray-400 text-sm leading-relaxed">No blog, no guides, no FAQ pages. Just &quot;We fix it. Call us.&quot; AI evaluates expertise through content depth. No content means no expertise signal, which means no recommendation.</p>
+                <p className="text-gray-400 text-sm leading-relaxed">No blog, no guides, no FAQ pages. Just &quot;We fix it. Call us.&quot; AI evaluates expertise through content depth. No content means no expertise signal, which means no recommendation. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
             </div>
 
@@ -519,7 +519,7 @@ export default function HowContractorsWinAISearch() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>How many of these 6 mistakes is your company making? Most contractors score 4 out of 6.</p>
+              <p>How many of these 6 mistakes is your company making? Most contractors score 4 out of 6. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Find Out With a Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -595,7 +595,7 @@ export default function HowContractorsWinAISearch() {
               </table>
             </div>
 
-            <p>The key insight from this matrix: AI competition is low across nearly every home service trade because so few contractors have optimized for it. The early movers in each trade and each local market will capture a dominant position that becomes increasingly difficult for competitors to displace once established.</p>
+            <p>The key insight from this matrix: AI competition is low across nearly every home service trade because so few contractors have optimized for it. The early movers in each trade and each local market will capture a dominant position that becomes increasingly difficult for competitors to displace once established. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
@@ -655,7 +655,7 @@ export default function HowContractorsWinAISearch() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>This cheat sheet shows what matters. Getting it right takes expertise. We handle it for you.</p>
+              <p>This cheat sheet shows what matters. Getting it right takes expertise. We handle it for you. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -665,11 +665,11 @@ export default function HowContractorsWinAISearch() {
 
             <p>Right now, only 1.2% of local businesses are recommended by ChatGPT. In the home services industry, that number is even lower. Most contractors have no AI-visible digital presence beyond a Google Business Profile and a listing on a lead gen platform that AI crawlers cannot access.</p>
 
-            <p>This creates an extraordinary window of opportunity. The first contractor in each local market who builds a comprehensive, AI-optimized digital presence will capture a dominant position in AI recommendations. As AI search adoption grows (it jumped from 6% to 45% in a single year), that dominant position becomes increasingly valuable and increasingly difficult for competitors to displace.</p>
+            <p>This creates an extraordinary window of opportunity. The first contractor in each local market who builds a comprehensive, AI-optimized digital presence will capture a dominant position in AI recommendations. As AI search adoption grows (it jumped from 6% to 45% in a single year), that dominant position becomes increasingly valuable and increasingly difficult for competitors to displace. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p>The contractors who move now are not just adapting to a trend. They are building a moat. AI platforms develop preferences based on the data they accumulate over time. The longer your company is visible, the more data AI collects about you, and the stronger your recommendation position becomes. Waiting six months means giving your competitors a six-month head start in a race where early position matters enormously.</p>
 
-            <p>For a detailed look at how to measure whether your efforts are working, see our guide on <Link href="/blog/how-to-get-cited-by-chatgpt-local-business">getting cited by ChatGPT as a local business</Link>.</p>
+            <p>For a detailed look at how to measure whether your efforts are working, see our guide on <Link href="/blog/how-to-get-cited-by-chatgpt-local-business">getting cited by ChatGPT as a local business</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* CTA BLOCK */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
@@ -701,7 +701,7 @@ export default function HowContractorsWinAISearch() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
@@ -717,7 +717,7 @@ export default function HowContractorsWinAISearch() {
 
               <div className="ae-faq-item">
                 <h3>Which AI platforms recommend contractors and home service companies?</h3>
-                <p>ChatGPT, Google AI Overviews, Perplexity, Claude, Apple Intelligence, and Microsoft Copilot all surface contractor recommendations. Each platform evaluates different data sources. ChatGPT relies on crawlable web content and directories, Google AI references Business Profiles and reviews, and Perplexity cross-references multiple sources for verification. Contractors need visibility across all of them to capture the full discovery channel.</p>
+                <p>ChatGPT, Google AI Overviews, Perplexity, Claude, Apple Intelligence, and Microsoft Copilot all surface contractor recommendations. Each platform evaluates different data sources. ChatGPT relies on crawlable web content and directories, Google AI references Business Profiles and reviews, and Perplexity cross-references multiple sources for verification. Contractors need visibility across all of them to capture the full discovery channel. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
 
               <div className="ae-faq-item">
@@ -727,7 +727,7 @@ export default function HowContractorsWinAISearch() {
 
               <div className="ae-faq-item">
                 <h3>Do Google reviews help contractors show up on ChatGPT?</h3>
-                <p>Google reviews help with Google AI Overviews, but ChatGPT and most other AI platforms cannot access Google reviews because they are rendered via JavaScript. For broader AI visibility, contractors need reviews on crawlable platforms like Yelp, BBB, and industry-specific directories, plus customer testimonials published directly on their own website as plain HTML text that AI crawlers can read.</p>
+                <p>Google reviews help with Google AI Overviews, but ChatGPT and most other AI platforms cannot access Google reviews because they are rendered via JavaScript. For broader AI visibility, contractors need reviews on crawlable platforms like Yelp, BBB, and industry-specific directories, plus customer testimonials published directly on their own website as plain HTML text that AI crawlers can read. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
 
               <div className="ae-faq-item">

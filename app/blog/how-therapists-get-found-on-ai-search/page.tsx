@@ -296,7 +296,7 @@ export default function Page() {
             you call for same-day depression treatment. Historically, the path ran through
             primary care referrals, insurance directories, and word of mouth. For better or
             worse, all three of those channels are now increasingly running through AI.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Someone who decides they want to see a therapist is often doing it in a
             private moment, on a phone, late at night. They do not want to wade through
@@ -304,7 +304,7 @@ export default function Page() {
             They open ChatGPT or Perplexity and type something like: "find me a therapist
             for anxiety near downtown Austin who does evening appointments." They want a
             direct answer, not a list of links.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             AI assistants are increasingly capable of giving that direct answer. And the
             practices that appear in those answers are capturing clients before any
@@ -313,7 +313,7 @@ export default function Page() {
             digits just two years ago. For mental health specifically, research on digital
             health-seeking behavior consistently shows therapy seekers skew toward private,
             conversational search behavior over public browsing.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-info mb-6">
             <div className="ae-callout-title">The Referral Network Is Not Enough</div>
@@ -324,7 +324,7 @@ export default function Page() {
               ask their doctor for a therapist recommendation are searching in AI. If
               your practice is not visible there, you are invisible to an entire segment
               of potential clients who are actively looking for what you offer.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div className="ae-cta-inline mb-6">
@@ -334,7 +334,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Run a free AI Blind Spot Report and find out in minutes.
               </Link>
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
         </section>
 
@@ -350,7 +350,7 @@ export default function Page() {
             trauma, the stakes are entirely different. AI platforms understand this
             distinction through a framework originally developed by Google and now applied
             across AI systems: YMYL, which stands for Your Money or Your Life.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             YMYL content is defined as information that could significantly impact a
             person's health, financial stability, safety, or wellbeing. Mental health
@@ -360,7 +360,7 @@ export default function Page() {
             It is asking: is there sufficient public evidence that this is a licensed,
             credentialed, reputable provider whose recommendations can be made without
             risk of harm?
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-warning mb-6">
             <div className="ae-callout-title">What YMYL Means in Practice</div>
@@ -372,7 +372,7 @@ export default function Page() {
               kind of multi-source credibility that AI treats as trustworthy. The first
               may have more raw social signal but is missing the verification infrastructure
               YMYL queries require.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -383,13 +383,13 @@ export default function Page() {
             for therapy practice visibility is that the platforms need to be more certain
             about their recommendations before making them. Uncertainty defaults to a
             generic response rather than a specific practice recommendation.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This is the central challenge for therapists in AI search: the category that
             most needs a trusted, personalized recommendation is the same category where
             AI is most cautious about providing one. Building the signals that overcome
             that caution is the entire task.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Section 3: Structural Invisibility */}
@@ -401,7 +401,7 @@ export default function Page() {
             Therapist invisibility in AI search is not a matter of individual practice
             failures. It is a structural condition created by several overlapping factors
             that affect the entire profession.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
@@ -412,7 +412,7 @@ export default function Page() {
                 and a phone number was sufficient. That minimalism made sense for the old
                 referral model. For AI discovery, it creates a near-total absence of the
                 structured, crawlable data AI uses to form recommendations.
-              </p>
+               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white mb-1">Factor 2: Missing Structured Data</div>
@@ -423,7 +423,7 @@ export default function Page() {
                 implementation. Without it, AI must infer what a practice does from
                 unstructured text, which is far less reliable and results in fewer and
                 lower-confidence recommendations.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white mb-1">Factor 3: Inconsistent Directory Presence</div>
@@ -434,7 +434,7 @@ export default function Page() {
                 is absent from Healthgrades entirely presents a fragmented signal that AI
                 platforms treat with lower confidence than one with a tight, consistent
                 presence across all major directories.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white mb-1">Factor 4: Privacy-Driven Low Content Volume</div>
@@ -444,7 +444,7 @@ export default function Page() {
                 event coverage. The low content volume means fewer indexed pages for AI
                 to read, fewer external links pointing to the practice, and less evidence
                 of ongoing activity that AI associates with a reputable, active business.
-              </p>
+               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
           </div>
 
@@ -454,7 +454,7 @@ export default function Page() {
               <Link href="/blindspot">
                 The free Blind Spot Report flags exactly which signals are missing.
               </Link>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
@@ -469,7 +469,7 @@ export default function Page() {
             content of what reviewers say. A plumber with 200 Google reviews mentioning
             specific services, fast response times, and fair pricing has built an
             AI-readable reputation profile that is difficult to fake and easy to trust.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Therapists cannot fully replicate this. HIPAA prohibits any disclosure of
             protected health information without explicit patient authorization. Therapy
@@ -480,7 +480,7 @@ export default function Page() {
             kind that mentions conditions treated, breakthroughs experienced, and
             specific therapist attributes, appears far less frequently for mental health
             providers than for almost any other category.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-callout ae-callout-orange mb-6">
             <div className="ae-callout-title">HIPAA Does Not Prohibit All Public Presence</div>
@@ -494,7 +494,7 @@ export default function Page() {
               without referencing specific clients, or maintaining comprehensive professional
               directory listings. The gap is real, but it is narrower than most practices
               treat it.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -506,7 +506,7 @@ export default function Page() {
             credentials, robust FAQ libraries, and authoritative directory presences.
             The practices that have figured out how to build authority within HIPAA
             constraints capture a disproportionate share of AI-referred clients.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             For a deeper exploration of how reviews interact with AI recommendations
             more broadly, see our article on{' '}
@@ -515,7 +515,7 @@ export default function Page() {
             </Link>
             . The mental health case is the clearest illustration of what happens when
             the review layer is structurally constrained.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </section>
 
         {/* Section 5: What AI Reads */}
@@ -527,7 +527,7 @@ export default function Page() {
             Despite the constraints, AI platforms do recommend therapists. Understanding
             exactly what signals they look for is the foundation of any visibility
             strategy.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Licensure verification is the first gate. State licensing boards for psychology,
             social work, marriage and family therapy, and counseling maintain public
@@ -537,14 +537,14 @@ export default function Page() {
             website and Google Business Profile has passed the baseline trust check. One
             whose information is inconsistent or who does not appear in the registry raises
             immediate uncertainty.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Beyond licensure, the National Provider Identifier (NPI) registry is a federal
             database maintained by the Centers for Medicare and Medicaid Services. Every
             licensed health provider is required to have one. AI platforms treat NPI listings
             as a secondary federal-level credential verification. The NPI registry is
             publicly searchable and widely indexed.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-bar-group mb-8">
             <div className="ae-bar-item">
@@ -605,14 +605,14 @@ export default function Page() {
             crawlable, structured text. Not buried in a paragraph, but named in page
             headings, listed in directory specialty fields, and ideally reinforced in
             review content where clients mention the specialty.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Modality documentation matters too. Therapists who practice specific
             evidence-based modalities like CBT, DBT, ACT, EMDR, or somatic approaches
             should have those modalities clearly named on their website and professional
             profiles. These are the terms patients use when they already know what they
             are looking for, and they are terms AI can match to a specific provider.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             For a related perspective on how schema markup factors into this,
             see our guide on{' '}
@@ -621,7 +621,7 @@ export default function Page() {
             </Link>
             . The MedicalBusiness and Physician schema types are directly relevant to
             therapy practices.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
         </section>
 
         {/* Section 6: Trust Signals */}
@@ -633,7 +633,7 @@ export default function Page() {
             The structural constraints therapists face are real, but they are not
             insurmountable. The practices that build strong AI visibility within those
             constraints tend to focus on a consistent set of approaches.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -673,14 +673,14 @@ export default function Page() {
             for when forming recommendations. None of these questions require referencing
             specific patients. All of them demonstrate expertise and helpfulness in the
             way YMYL AI standards reward.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Similarly, therapists can publish content describing their therapeutic
             approach in general terms: what CBT involves, how EMDR works, what an
             ACT session might look like. This content builds the specialty signal
             AI needs to match a practice to a specific patient query without requiring
             any protected health information.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <div className="ae-callout ae-callout-success mb-6">
             <div className="ae-callout-title">The Compound Effect of Credential Depth</div>

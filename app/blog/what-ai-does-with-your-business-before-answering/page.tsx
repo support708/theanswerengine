@@ -220,23 +220,23 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Invisible Pipeline</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             When a potential customer types "best HVAC company near me" into ChatGPT or asks Perplexity for a plumber recommendation, what happens in the milliseconds before an answer appears?
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Most business owners think of AI as a search engine that runs a query. It is not. AI generates answers from a model that has already formed beliefs about businesses based on everything it has learned from the public internet. Your business has a profile in that model right now, built from signals you may have never intentionally created.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The quality of that profile determines whether AI names you, vaguely mentions you, or skips you entirely. Understanding the pipeline that builds it is the first step to improving it.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">The Core Insight</div>
-            <p>AI does not evaluate your business in real time. It draws on a pre-formed picture built from your digital footprint. Your job is not to impress AI at query time. It is to ensure the picture AI has already built about you is complete, accurate, and confident enough to recommend.</p>
+            <p>AI does not evaluate your business in real time. It draws on a pre-formed picture built from your digital footprint. Your job is not to impress AI at query time. It is to ensure the picture AI has already built about you is complete, accurate, and confident enough to recommend. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
         {/* Inline CTA 1 */}
         <div className="ae-cta-inline">
-          <p>Want to know what AI's current picture of your business looks like? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out what is in it, and what is missing.</p>
+          <p>Want to know what AI's current picture of your business looks like? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out what is in it, and what is missing. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
         </div>
 
         {/* Stage 1 */}
@@ -244,13 +244,13 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Stage 1: Signal Ingestion</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             AI builds knowledge about businesses from the public internet. This happens in two ways: training and live retrieval.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             During training, AI models process massive datasets from crawled web content. Your website, review platforms, directory listings, news articles, Reddit mentions, and social profiles are all potential inputs. The model learns patterns from all of this and encodes beliefs about specific businesses, industries, and locations.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Live retrieval (used by Perplexity, Google AI Overviews, and ChatGPT with browsing) supplements training with real-time queries to indexed sources at the moment a customer asks a question. This is called RAG (Retrieval-Augmented Generation): a $1.2 billion market in 2024, projected to reach $11 billion by 2030 because it solves the training cutoff problem.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -271,7 +271,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-warning mt-6">
             <div className="ae-callout-title">The Training Cutoff Problem</div>
-            <p>ChatGPT's core knowledge has a training cutoff, information after that date is not incorporated into base model knowledge. This means changes you made to your website last month may not be reflected in ChatGPT answers. AI systems with live retrieval (Perplexity, Google AI Overviews) update faster. This is why building information consistency across all platforms matters more than any single update.</p>
+            <p>ChatGPT's core knowledge has a training cutoff, information after that date is not incorporated into base model knowledge. This means changes you made to your website last month may not be reflected in ChatGPT answers. AI systems with live retrieval (Perplexity, Google AI Overviews) update faster. This is why building information consistency across all platforms matters more than any single update. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -280,10 +280,10 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Stage 2: Entity Recognition</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Before AI can say anything accurate about your business, it needs to recognize you as a coherent entity. Not just a collection of scattered data points, but a single, identifiable business with consistent attributes.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Entity recognition is where inconsistency destroys AI visibility. If your business name is spelled three different ways across directory listings, if your phone number varies, or if your address has different suite numbers across sources, AI sees fragmented signals that do not cohere into a single entity.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -312,7 +312,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             The result of strong entity recognition is that AI knows with certainty who you are and treats all data about you as belonging to the same business. The result of fractured entity recognition is hedged, vague, or inaccurate AI answers, even when significant information about you exists online.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
         </section>
 
         {/* Stage 3 */}
@@ -320,10 +320,10 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Stage 3: Confidence Scoring</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Once AI has assembled information about your business and recognized you as a coherent entity, it runs an internal confidence check. This is not a published metric. It is an emergent property of how much corroborating evidence AI has, and how consistently that evidence agrees.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Think of it like a witness statement in court. One witness saying you were in a certain place is a claim. Five independent witnesses saying the same thing is evidence. AI builds confidence from corroboration across independent sources.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-bar-group">
             <div className="ae-bar-item">
@@ -365,7 +365,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             Businesses above the confidence threshold get named in recommendations. Businesses below it get skipped, vaguely mentioned, or replaced with a competitor that AI knows better. The threshold is not fixed, it varies by query specificity and how many competitors in the category have crossed it.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Stage 4 */}
@@ -373,10 +373,10 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Stage 4: Answer Generation</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             When a customer asks "who is the best electrician in Tampa?" AI does not run a fresh search in the way Google does. It generates from its trained knowledge, potentially augmented by a live retrieval pass.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The businesses that appear in the answer are those that passed the confidence check in Stage 3. The specific language AI uses about them, "they specialize in residential panel upgrades," "24-hour emergency service," "serving the greater Tampa area since 2003," comes from what AI extracted during signal ingestion and entity recognition.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-decision-matrix">
             <div className="ae-decision-row">
@@ -399,7 +399,7 @@ export default function Page() {
 
         {/* Inline CTA 2 */}
         <div className="ae-cta-inline">
-          <p>Which bucket is your business in? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out exactly where you fall on the AI confidence spectrum.</p>
+          <p>Which bucket is your business in? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out exactly where you fall on the AI confidence spectrum. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         </div>
 
         {/* Platform Differences */}
@@ -407,7 +407,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">How Different Platforms Handle This Pipeline</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The pipeline is the same across AI platforms. The differences are in which sources dominate each stage.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <table className="ae-comparison-table">
             <thead>
@@ -448,7 +448,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             The practical implication: there is no single platform to optimize for. The businesses with the strongest AI citation rates have consistent, quality information across all of these sources simultaneously. Google AI Overviews accounts for 62% of citations, Perplexity 24%, ChatGPT 14%. All three matter. All three draw from different primary sources.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Hallucination Problem */}
@@ -456,19 +456,19 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Hallucination Problem and Why It Affects You</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Here is the counterintuitive danger of a thin AI presence: AI does not stay silent when it is uncertain. It fills gaps with its best guess, often stated with complete confidence.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Research from MIT (January 2025) found that AI models use 34% more confident language when hallucinating than when stating verified facts. A business with inconsistent or incomplete information online is not at risk of being ignored. It is at risk of being confidently described incorrectly.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Real Cost of AI Hallucinations</div>
-            <p>We hear from businesses who have had customers arrive at wrong addresses, call disconnected phone numbers, or arrive expecting services that were discontinued. In every case, the root cause is an AI system that synthesized incorrect information from conflicting or outdated signals. The fix is not to correct AI directly. The fix is to build such consistent, clear signals that AI does not have to guess.</p>
+            <p>We hear from businesses who have had customers arrive at wrong addresses, call disconnected phone numbers, or arrive expecting services that were discontinued. In every case, the root cause is an AI system that synthesized incorrect information from conflicting or outdated signals. The fix is not to correct AI directly. The fix is to build such consistent, clear signals that AI does not have to guess. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-6">
             The wrong response to AI hallucinations about your business is frustration. The right response is to recognize that the AI has a signal gap it filled with inference. Your job is to fill that gap with accurate, consistent information so AI does not need to infer.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </section>
 
         {/* What Raises Confidence */}
@@ -476,7 +476,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What Raises Your AI Confidence Score</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Based on what we know about how AI systems build and weight business information, these are the highest-leverage actions for raising your AI confidence score.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -527,7 +527,7 @@ export default function Page() {
         {/* CTA Block */}
         <div className="ae-cta-block">
           <h3>Know What AI's Picture of Your Business Actually Looks Like</h3>
-          <p>Our Blind Spot Report analyzes your AI confidence profile across all the signals that matter and shows you exactly where the gaps are. Stop guessing and start building the signals that create citations.</p>
+          <p>Our Blind Spot Report analyzes your AI confidence profile across all the signals that matter and shows you exactly where the gaps are. Stop guessing and start building the signals that create citations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="ae-cta-primary">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -572,12 +572,12 @@ export default function Page() {
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
             <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">AEO Education</p>
-              <p className="text-white font-medium">What Your Website Looks Like to an AI Crawler</p>
+              <p className="text-sm text-[#F27D24] mb-1">AEO Education <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+              <p className="text-white font-medium">What Your Website Looks Like to an AI Crawler <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </Link>
             <Link href="/blog/why-ai-says-wrong-things-about-business" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points</p>
-              <p className="text-white font-medium">Why AI Says Wrong Things About Your Business</p>
+              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+              <p className="text-white font-medium">Why AI Says Wrong Things About Your Business <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </Link>
           </div>
         </section>

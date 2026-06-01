@@ -291,18 +291,18 @@ export default function AeoVsSeoLocalBusinessGuide() {
           <h2>What Has Actually Changed: AEO vs SEO Explained</h2>
           <p>
             SEO, search engine optimization, is the practice of making your website easy for Google to find, understand, and rank. You optimize your pages, build links, gather reviews, and over time you climb the search results. It has worked well for local businesses for years.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <p>
             AEO takes a different angle. Instead of optimizing to rank on a results page, you are optimizing to become the answer itself. When someone asks ChatGPT "who is the best plumber in Denver?" or asks Google Assistant "what does HVAC maintenance cost in Phoenix?", AEO is what determines whether your business gets named in the response.
           </p>
           <p>
             The reason this matters now: 58% of search queries are conversational in nature, fueled by voice search and AI assistants. AI Overviews from Google now appear in roughly 30% of all queries and nearly 75% of problem-solving searches. Meanwhile, 60% of searches end without a click because an AI summary answered the question directly. Your business either shows up in that summary or it is invisible.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
               <p className="ae-callout-title">The Zero-Click Reality</p>
-              <p>77% of ChatGPT users in the US treat it like a search engine. ChatGPT holds 59.5% of the AI search market share. If your business is not structured for AI citation, you are losing leads to competitors who are. The global AEO market is projected to reach $9.04 billion by 2031, growing at 41.8% annually.</p>
+              <p>77% of ChatGPT users in the US treat it like a search engine. ChatGPT holds 59.5% of the AI search market share. If your business is not structured for AI citation, you are losing leads to competitors who are. The global AEO market is projected to reach $9.04 billion by 2031, growing at 41.8% annually. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
           </div>
 
@@ -327,13 +327,13 @@ export default function AeoVsSeoLocalBusinessGuide() {
           <h2>Why Both Matter to Local Service Businesses</h2>
           <p>
             Here is what gets lost in the AEO hype: traditional search still drives enormous traffic. In most cases, total referral sessions from all AI platforms combined amount to only about 2-3% of the organic traffic Google alone delivers. That means SEO is not dead. Not even close.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p>
             But the direction of travel is clear. AI-assisted search is growing fast, and the businesses that position themselves now will have a significant advantage as that shift accelerates. Companies with dedicated AEO strategies are already seeing 3.4x more answer engine traffic than competitors who have delayed implementation.
           </p>
           <p>
             The smart play for a local service business: treat SEO as your foundation and AEO as your amplifier. They are not in competition. They work together. When you rank well in traditional search AND get cited in AI answers, you dominate the full search experience for your market.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           {/* Bar Chart: Traffic Sources */}
           <div className="not-prose">
@@ -400,7 +400,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
           <h2>The Core Differences That Impact Your Visibility</h2>
           <p>
             Understanding what each strategy actually requires helps you allocate your time and budget effectively.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="not-prose">
             <table className="ae-comparison-table">
@@ -457,7 +457,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-info">
-              <p className="ae-callout-title">Schema Markup Is Your AI Business Card</p>
+              <p className="ae-callout-title">Schema Markup Is Your AI Business Card <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <p>Think of Schema.org markup as the language AI understands natively. Without it, AI models must guess at what your content means. With it, you are handing the AI a perfectly structured answer on a silver platter. LocalBusiness, Service, and FAQPage schema are the three types every local business needs.</p>
             </div>
           </div>
@@ -465,7 +465,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
           {/* CTA 3 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Want to know if your schema markup is AI-ready?</p>
+              <p>Want to know if your schema markup is AI-ready? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <a href="tel:+12134442229">Call us at (213) 444-2229</a>
             </div>
           </div>
@@ -505,7 +505,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
           {/* CTA 4 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Need help structuring your content for AI visibility?</p>
+              <p>Need help structuring your content for AI visibility? Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email our team for guidance</a>
             </div>
           </div>
@@ -554,7 +554,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
 
           <p>
             Businesses implementing SEO alongside AEO and GEO strategies see an average 47% increase in organic traffic versus SEO-only approaches. For businesses that get 100 website visits per month from search today, that kind of lift is meaningful revenue at stake.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* Pros/Cons */}
           <div className="not-prose">
@@ -570,7 +570,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
                 </ul>
               </div>
               <div className="ae-cons-box">
-                <p className="ae-cons-title">SEO Limitations</p>
+                <p className="ae-cons-title">SEO Limitations One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
                 <ul>
                   <li>Zero-click searches eroding click volume</li>
                   <li>AI Overviews pushing results below the fold</li>
@@ -597,14 +597,14 @@ export default function AeoVsSeoLocalBusinessGuide() {
           <h2>Real Results From Early Adopters</h2>
           <p>
             Early adoption of AEO creates a window of opportunity that will not stay open indefinitely. Brands face a narrow window to establish authoritative positions that AI engines will consistently cite. Early adopters can capture dominant market share in AI responses while late adopters find themselves competing for increasingly scarce citation opportunities at higher costs.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           <p>
             The pattern mirrors what happened with local SEO in 2012 to 2015. Businesses that built their Google Business Profiles and gathered reviews early locked in authority that competitors could not easily displace. The same dynamic is playing out now with AI citations.
           </p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-success">
-              <p className="ae-callout-title">Local Business Advantage</p>
+              <p className="ae-callout-title">Local Business Advantage <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <p>Small businesses have real advantages in AEO: deep local expertise, niche authority in their specific market, authentic expertise that AI systems recognize, the agility to adapt content strategy quickly, and direct relationships with customers whose questions they know better than any national brand could.</p>
             </div>
           </div>
@@ -647,7 +647,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
           {/* CTA 6 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Do not let competitors lock in AI authority before you. Start now.</p>
+              <p>Do not let competitors lock in AI authority before you. Start now. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Check your AI visibility for free</Link>
             </div>
           </div>
@@ -663,35 +663,35 @@ export default function AeoVsSeoLocalBusinessGuide() {
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #1: Writing for robots, not people</p>
+              <p className="ae-callout-title">Mistake #1: Writing for robots, not people Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <p>Keyword-stuffed content that reads unnaturally performs poorly in AI systems because AI is trained on human language patterns. Write the way your best customer would describe your service to a friend.</p>
             </div>
           </div>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #2: Ignoring structured data entirely</p>
+              <p className="ae-callout-title">Mistake #2: Ignoring structured data entirely <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <p>If your website has no schema markup at all, AI models have to guess at what your content means. Implementing LocalBusiness, Service, and FAQPage schema removes that guesswork and gives AI systems a clear signal.</p>
             </div>
           </div>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #3: Treating AEO and SEO as either/or</p>
+              <p className="ae-callout-title">Mistake #3: Treating AEO and SEO as either/or <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <p>Some businesses hear about AEO and abandon their SEO work entirely. This is a mistake. SEO is the foundation that makes AEO possible. You cannot be cited by AI if your site is not technically sound and crawlable in the first place.</p>
             </div>
           </div>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #4: Not including location-specific answers</p>
+              <p className="ae-callout-title">Mistake #4: Not including location-specific answers <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <p>Generic content about your industry does not help you win local AI citations. AI systems are increasingly sophisticated about matching answers to the geographic context of the query. If your content does not mention your service area, you are not competitive for local AI responses.</p>
             </div>
           </div>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #5: Waiting for certainty before acting</p>
+              <p className="ae-callout-title">Mistake #5: Waiting for certainty before acting Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p>The early mover advantage in AI citations is real. Most businesses see initial AI citations within 2-3 months of comprehensive AEO implementation. Every month you wait is a month a competitor could be building that authority instead.</p>
             </div>
           </div>
@@ -705,7 +705,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
           {/* CTA 7 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Are you making these mistakes right now? Find out in minutes.</p>
+              <p>Are you making these mistakes right now? Find out in minutes. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run your free AI visibility check</Link>
             </div>
           </div>
@@ -756,7 +756,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
 
           <p>
             The businesses that will dominate local search over the next three years are not necessarily the ones with the biggest budgets. They are the ones that move now, build authority in AI systems while the field is still open, and treat AEO as the natural next layer on top of solid SEO work.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           {/* CTA 8 */}
           <div className="not-prose">
@@ -834,7 +834,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
           {/* CTA 9 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Want this cheat sheet customized for your specific business and market?</p>
+              <p>Want this cheat sheet customized for your specific business and market? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us for a personalized plan</a>
             </div>
           </div>
@@ -855,7 +855,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
                   AE
                 </div>
                 <div>
-                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges</p>
+                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                   <p style={{ color: '#9CA3AF', fontSize: '0.75rem', margin: 0 }}>
                     Published March 8, 2026 on{' '}
                     <Link href="/" style={{ color: '#F27D24' }}>
@@ -866,7 +866,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
               </div>
               <p style={{ color: '#D1D5DB', fontSize: '0.875rem', marginTop: '0.75rem', marginBottom: 0, lineHeight: 1.6 }}>
                 We help local service businesses get found by AI search platforms. Our team researches how AI engines select, cite, and recommend businesses so you do not have to figure it out alone.
-              </p>
+               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
           </div>
 
@@ -911,7 +911,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   AEO is not replacing SEO but rather complementing it by building on SEO foundational principles. You need both. SEO is your foundation that ensures technical soundness and discoverability, while AEO is your AI amplifier. Once content is discoverable, AEO makes sure AI can easily understand and use it for AI Overviews and chatbot responses.
-                </p>
+                 Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
 
               <div className="border border-gray-700 rounded-xl p-6">
@@ -929,7 +929,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   A dedicated FAQ section on your main pages is the most efficient way to provide cite-able answers, securing your position as the definitive source for AI-generated results. Write content in Q&A style (for example: "How much does roof cleaning cost in Jacksonville, FL?"), use conversational natural language, create snackable answers that are 1-2 sentences long, and build FAQ sections with location-based answers.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
 
               <div className="border border-gray-700 rounded-xl p-6">
@@ -947,7 +947,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   Yes, small businesses often have significant advantages in AEO: local expertise, niche authority opportunities, authentic expertise that AI systems recognize, agility to adapt faster, and personal relationships that enable content based on real customer questions matching natural query patterns. The playing field in AEO is actually more level for local businesses than traditional SEO has ever been.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
 
               <div className="border border-gray-700 rounded-xl p-6">
@@ -965,7 +965,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   Start with ChatGPT. Optimizing for ChatGPT first tends to trickle down to all of the other major LLMs. ChatGPT dominates with 59.5% market share in the US, followed by Copilot (14%), Gemini (13.4%), and Perplexity (6.2%). That said, Perplexity and Gemini drive higher percentages of traffic in certain industry sectors, so it is worth testing your key queries across all platforms once you have your foundation in place.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
 
               <div className="border border-gray-700 rounded-xl p-6">
@@ -983,7 +983,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
           {/* CTA 11 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Still have questions about AEO vs SEO for your business?</p>
+              <p>Still have questions about AEO vs SEO for your business? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a quick chat</a>
             </div>
           </div>
@@ -999,7 +999,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
           {/* CTA 13 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Your competitors are already optimizing for AI. Are you?</p>
+              <p>Your competitors are already optimizing for AI. Are you? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Find out now with a free report</Link>
             </div>
           </div>

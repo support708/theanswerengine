@@ -349,7 +349,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 their phone, open ChatGPT or Google AI, and type something like: &quot;Who is the best
                 barber for skin fades near me?&quot; or &quot;Which barbershop near downtown does beard
                 trims and kids cuts?&quot;
-              </p>
+               Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             </div>
             <div className="ae-quote not-prose mt-6">
               <p>
@@ -364,7 +364,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 growing slice of the customer pool is now making decisions before they ever walk past
                 your window. They ask AI, get a recommendation, and go directly to that shop. If your
                 shop is not in the AI answer, you never even enter the consideration set.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               <p>
                 The walk-in model assumes you are visible to people passing by. The AI model requires
                 you to be visible to a system that has never walked past your shop and relies entirely
@@ -373,7 +373,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
               </p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Find out if AI is recommending your competitors instead of your barbershop.</p>
+              <p>Find out if AI is recommending your competitors instead of your barbershop. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
           </section>
@@ -398,7 +398,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 whether they are the closest option. A barbershop three miles away with rich service
                 descriptions, specific reviews, and consistent directory data will outrank a shop around
                 the corner that only exists on Google Maps.
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p>
                 Second, AI answers are increasingly specific. A customer does not just ask for
                 &quot;a barber near me&quot; anymore. They ask for &quot;a barber who does good skin
@@ -414,7 +414,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 service queries. If AI cannot find explicit information about the services you offer,
                 the techniques you specialize in, and the clientele you serve, it will not recommend
                 you for those queries, even if you are the best barber on the block.
-              </p>
+               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
@@ -431,7 +431,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                   why AI recommends chains over local businesses
                 </Link>
                 .
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
               <p>Want to know exactly what AI says when someone asks for a barber near you?</p>
@@ -453,7 +453,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 business information across multiple sources, evaluate the depth and specificity of what
                 they find, and then decide whether they have enough confidence to surface your shop in a
                 recommendation. Understanding what they look for is the first step toward being found.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <h3>Barber Specialties and Specific Techniques</h3>
               <p>
                 The most underutilized trust signal for barbershops is service specificity. AI platforms
@@ -467,7 +467,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 needs to find a barbershop where the word &quot;taper&quot; appears in a meaningful,
                 structured context. Not just in a photo caption on Instagram that AI cannot read, but in
                 crawlable web content that describes your expertise.
-              </p>
+               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <h3>Barber Experience and Credentials</h3>
               <p>
                 Years of experience, licensing, and specialization all factor into AI&apos;s confidence
@@ -483,7 +483,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 not a trust signal for AI. Instagram is a walled garden. AI cannot access your posts,
                 your bio, or your photo captions. All of that expertise and reputation built on social
                 media is invisible to the systems increasingly making barbershop recommendations.
-              </p>
+               Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <h3>Consistency Across the Web</h3>
@@ -495,7 +495,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
               </p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>See how your shop scores on AI trust signals compared to others in your area.</p>
+              <p>See how your shop scores on AI trust signals compared to others in your area. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
           </section>
@@ -521,7 +521,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 years, got my son a kids cut too and he loved it, took maybe 20 minutes&quot; tells AI
                 that this shop does skin fades, serves kids, and is efficient. That is the kind of
                 review signal that moves the needle in AI recommendations.
-              </p>
+               One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
             <div className="ae-callout ae-callout-info not-prose mt-6">
               <p>
@@ -538,7 +538,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 customers mention the same service, whether that is hot towel shaves, beard trims, or
                 kids cuts, AI begins to associate your shop with that specialty. That association is
                 what drives you into results when someone asks specifically for that service.
-              </p>
+               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <p>
                 The pattern works in reverse too. A barbershop with no mentions of kids cuts in any
                 reviews or service descriptions will not appear when someone asks AI for a
@@ -552,7 +552,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                   how online reviews shape AI recommendations
                 </Link>
                 .
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
               <p>
@@ -577,7 +577,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 website at all and rely entirely on Google Business Profile and Instagram, or they have
                 a basic site built on a template platform that is technically present but largely
                 unreadable by AI crawlers.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <p>
                 Both situations produce the same result: the shop is invisible to AI platforms that do
                 not have access to Google Business Profile data and cannot read Instagram or
@@ -591,7 +591,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 there is no authoritative source of information about what the shop does, who the
                 barbers are, what they specialize in, or why a customer should choose this shop. AI is
                 unlikely to recommend a business it cannot learn anything about from a primary source.
-              </p>
+               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <h3>Template Websites With No Crawlable Content</h3>
               <p>
                 Many barbershop websites are built on drag-and-drop platforms that render content via
@@ -607,7 +607,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 tags but no actual text about your services, that is roughly what AI crawlers see.
                 Your expertise, your services, your story are invisible because they only load when a
                 browser renders the JavaScript. AI crawlers do not have a browser.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
@@ -662,7 +662,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
               <p>
                 Find out whether AI crawlers can actually read your barbershop&apos;s website right
                 now.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blindspot">Check Your AI Visibility &rarr;</Link>
             </div>
           </section>
@@ -689,7 +689,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 volumes because they have operational systems that prompt customers to leave reviews.
                 And their review content is naturally specific because customers describe the
                 chain&apos;s standardized services.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
             <div className="ae-pros-cons not-prose mt-6">
               <div className="ae-pros-box">
@@ -729,7 +729,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 service content, generating multi-platform reviews, and maintaining consistent directory
                 data, can absolutely appear alongside or ahead of chain results for specific service
                 queries.
-              </p>
+               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p>
                 For more context on why this gap exists and how it can be closed, see our analysis of{' '}
                 <Link href="/blog/why-ai-recommends-chains-over-local-businesses">
@@ -742,7 +742,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
               <p>
                 Ready to compete with the chains on AI search? We help independent shops build the
                 signals that matter.
-              </p>
+               Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
           </section>
@@ -770,7 +770,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 and differentiating story. When a customer asks AI for any of those specific services,
                 AI has a much easier path to recommending that shop than a shop that describes itself
                 generically as offering &quot;all types of haircuts.&quot;
-              </p>
+               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <h3>Specialization Signals That AI Reads</h3>
               <p>
                 Specialization only helps AI visibility if it is expressed in AI-readable content. A
@@ -786,7 +786,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 A barbershop whose service page describes high skin fades, bald fades, and skin taper
                 fades with technique context will appear in fade-specific AI queries. A barbershop
                 whose homepage says &quot;We do all types of cuts&quot; will not.
-              </p>
+               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
             <table className="ae-comparison-table not-prose mt-6">
               <thead>
@@ -853,7 +853,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 legitimacy. A barbershop that offers online booking is signaling, in a form AI can often
                 read, that it is an active business with a structured operation, not a shop that may or
                 may not still be open.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <p>
                 But there is a critical distinction here. Booking widgets embedded via JavaScript
                 contribute nothing to AI visibility if the surrounding page has no crawlable service
@@ -870,7 +870,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 description of what the shop offers. A service menu that lists &quot;Skin Fade - 45 min
                 - $35,&quot; &quot;Kids Cut (under 12) - 30 min - $25,&quot; and &quot;Hot Towel Shave
                 - 30 min - $40&quot; is a goldmine of AI-readable specialization data.
-              </p>
+               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <div className="ae-callout ae-callout-warning not-prose mt-6">
               <p>
@@ -888,7 +888,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 systems tend to have more consistent, frequent customer interactions, which produces more
                 frequent reviews. And review volume and specificity are strong AI trust signals,
                 particularly when those reviews mention the specific services available on your menu.
-              </p>
+               Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <p>
                 For a broader look at how review volume and quality interact with AI recommendations,
                 read our guide on{' '}
@@ -902,7 +902,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
               <p>
                 Want to know if your booking setup is helping or hurting your AI visibility? We can
                 tell you in 48 hours.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
             <div className="ae-bar-group not-prose mt-6">
@@ -951,7 +951,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 vast majority of independent shops have no meaningful AI visibility. The first shops in
                 any given neighborhood to build that visibility will capture a disproportionate share of
                 AI-driven customers and hold it as competitors eventually catch on.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
             <div className="ae-callout ae-callout-orange not-prose mt-6">
               <p>
@@ -968,7 +968,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 have built with customers all exist in a form that AI platforms can read, verify, and
                 confidently recommend. Right now, for most barbershops, none of that is true. That is
                 both the problem and the opportunity.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
               <p>
@@ -980,7 +980,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
             <div className="ae-cta-block not-prose mt-6">
               <p>
                 Prefer email? Send us your questions and we will get back to you within 24 hours.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
@@ -992,7 +992,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           {/* 3-TIER CTA BLOCK */}
           <div className="ae-final-cta not-prose">
             <h2>Is Your Barbershop Invisible When Customers Ask AI?</h2>
-            <p>Most barbershops have no idea what AI says about them. Find out what&apos;s keeping you out of AI recommendations with a free Blind Spot Report.</p>
+            <p>Most barbershops have no idea what AI says about them. Find out what&apos;s keeping you out of AI recommendations with a free Blind Spot Report. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link href="/blindspot" className="ae-cta-primary">
                 Get Your Free Blind Spot Report

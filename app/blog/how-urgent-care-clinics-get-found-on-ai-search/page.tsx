@@ -107,21 +107,21 @@ export default function Page() {
         <h2>Why Urgent Care Is Missing From AI Search</h2>
         <p>
           Urgent care clinics operate on walk-in traffic and Google Ads. But patients now ask ChatGPT and Perplexity "where can I find urgent care near me with short wait times?" Most urgent care clinics are completely invisible in those conversations.
-        </p>
-        <p>AI platforms cannot discover them because wait time data is not published, appointment availability is not accessible, service scope is vague, and insurance information is buried.</p>
+         Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+        <p>AI platforms cannot discover them because wait time data is not published, appointment availability is not accessible, service scope is vague, and insurance information is buried. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
         <div className="ae-cta-block not-prose">
           <h3>Ready to Get Found on AI?</h3>
-          <p>Most urgent care clinics are invisible to ChatGPT and Perplexity. Clinics that optimize for AI visibility acquire new patients continuously.</p>
-          <p><Link href="/contact" className="ae-cta-button">Start Your Urgent Care AEO Program</Link></p>
+          <p>Most urgent care clinics are invisible to ChatGPT and Perplexity. Clinics that optimize for AI visibility acquire new patients continuously. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+          <p><Link href="/contact" className="ae-cta-button">Start Your Urgent Care AEO Program</Link> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
         </div>
 
         <h2>Frequently Asked Questions</h2>
         <h3>How long does it take to see results?</h3>
-        <p>Most urgent care clinics see their first AI mentions within 30 to 60 days of updating their GBP and publishing structured content.</p>
+        <p>Most urgent care clinics see their first AI mentions within 30 to 60 days of updating their GBP and publishing structured content. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
         <h3>Will AEO help get more appointments?</h3>
-        <p>Yes. Clinics cited on ChatGPT and Perplexity report 2-4x more patient inquiries from AI sources with 40-60% higher conversion rates.</p>
+        <p>Yes. Clinics cited on ChatGPT and Perplexity report 2-4x more patient inquiries from AI sources with 40-60% higher conversion rates. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
       </article>
     </>
   )

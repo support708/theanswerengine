@@ -302,18 +302,18 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering if AI platforms even know your roofing business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Wondering if AI platforms even know your roofing business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         <h2 id="how-ai-finds-roofers">How AI Platforms Find and Rank Roofing Companies</h2>
 
-        <p>When a homeowner types "best roofing company near me" or "who do I call for hail damage on my roof" into ChatGPT or Perplexity, the AI does not run a live Google search in the conventional sense. It synthesizes a picture of which roofing businesses exist in that area from everything it absorbed during training and, for retrieval-augmented systems like Perplexity and Google AI, from live web data it fetches in real time.</p>
+        <p>When a homeowner types "best roofing company near me" or "who do I call for hail damage on my roof" into ChatGPT or Perplexity, the AI does not run a live Google search in the conventional sense. It synthesizes a picture of which roofing businesses exist in that area from everything it absorbed during training and, for retrieval-augmented systems like Perplexity and Google AI, from live web data it fetches in real time. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-        <p>The roofers who appear in those answers earned their position through digital presence signals that AI can parse and trust. These signals include how often and how consistently a business appears across authoritative sources, how structured and specific its website content is, and how well its service coverage aligns with the location context of the query. Generic websites with no schema, thin service descriptions, and inconsistent directory listings produce almost no AI citations, regardless of how good the actual work is.</p>
+        <p>The roofers who appear in those answers earned their position through digital presence signals that AI can parse and trust. These signals include how often and how consistently a business appears across authoritative sources, how structured and specific its website content is, and how well its service coverage aligns with the location context of the query. Generic websites with no schema, thin service descriptions, and inconsistent directory listings produce almost no AI citations, regardless of how good the actual work is. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Why Roofing Is a High-Intent AI Category</div>
-          <p>Roofing queries on AI platforms cluster heavily around two high-intent moments: storm damage assessment (the homeowner just experienced a weather event and needs help now) and planned replacement (the homeowner is getting bids and wants to understand the process). Both scenarios produce immediate, qualified calls. The roofing companies who appear in AI recommendations for these queries convert at exceptionally high rates because the intent is so specific and the need is so pressing.</p>
+          <p>Roofing queries on AI platforms cluster heavily around two high-intent moments: storm damage assessment (the homeowner just experienced a weather event and needs help now) and planned replacement (the homeowner is getting bids and wants to understand the process). Both scenarios produce immediate, qualified calls. The roofing companies who appear in AI recommendations for these queries convert at exceptionally high rates because the intent is so specific and the need is so pressing. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <div className="ae-bar-group not-prose">
@@ -344,13 +344,13 @@ export default function Page() {
             <div className="ae-bar-value">11%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns across home service industries</p>
+        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns across home service industries Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
         <h2 id="storm-damage-signal">The Storm Damage Content Signal AI Prioritizes</h2>
 
-        <p>Storm damage assessment is the single most valuable content category a roofing company can create for AI visibility. When hail, wind, or a fallen tree damages a home, the homeowner's first instinct is to understand the situation before calling anyone. They ask AI: "How do I know if I have hail damage on my roof?" or "What does wind damage look like on shingles?" or "Should I file an insurance claim for my roof after the storm?"</p>
+        <p>Storm damage assessment is the single most valuable content category a roofing company can create for AI visibility. When hail, wind, or a fallen tree damages a home, the homeowner's first instinct is to understand the situation before calling anyone. They ask AI: "How do I know if I have hail damage on my roof?" or "What does wind damage look like on shingles?" or "Should I file an insurance claim for my roof after the storm?" <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-        <p>These are not generic roofing queries. They are high-specificity, high-intent questions being asked by homeowners in active decision mode. The roofing companies that publish detailed, accurate, well-structured content answering these questions become the citation source AI platforms return when those questions are asked. The roofers who do not publish this content are invisible for the queries with the highest conversion potential in the entire roofing business.</p>
+        <p>These are not generic roofing queries. They are high-specificity, high-intent questions being asked by homeowners in active decision mode. The roofing companies that publish detailed, accurate, well-structured content answering these questions become the citation source AI platforms return when those questions are asked. The roofers who do not publish this content are invisible for the queries with the highest conversion potential in the entire roofing business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -392,18 +392,18 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure if your storm damage content is citation-ready? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and see exactly what AI knows about your roofing company.</p>
+          <p>Not sure if your storm damage content is citation-ready? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and see exactly what AI knows about your roofing company. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         </div>
 
         <h2 id="local-citations">Why Local Citations Are the Foundation of Roofing AI Visibility</h2>
 
-        <p>Local citations are the corroboration layer of your AI presence. When an AI platform evaluates whether to recommend a roofing company, one of its core confidence checks is whether the same business information appears consistently across multiple independent sources. A roofing company whose name, address, and phone number match perfectly across Yelp, Angi, HomeAdvisor, the Better Business Bureau, local chamber of commerce listings, and manufacturer certification directories registers as a real, established local business. Inconsistencies anywhere in that chain lower the AI's confidence and suppress recommendations.</p>
+        <p>Local citations are the corroboration layer of your AI presence. When an AI platform evaluates whether to recommend a roofing company, one of its core confidence checks is whether the same business information appears consistently across multiple independent sources. A roofing company whose name, address, and phone number match perfectly across Yelp, Angi, HomeAdvisor, the Better Business Bureau, local chamber of commerce listings, and manufacturer certification directories registers as a real, established local business. Inconsistencies anywhere in that chain lower the AI's confidence and suppress recommendations. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-        <p>Roofing companies face a specific challenge here. The industry has high turnover, storm chasers who operate briefly in an area, and contractors who change their business names after negative reviews. AI platforms have learned to weight citation consistency heavily as a proxy for legitimacy. A roofer with perfect NAP consistency across 15 directories and three roofing industry certification sites signals stability and trustworthiness in a way that a roofer appearing only on their own website cannot.</p>
+        <p>Roofing companies face a specific challenge here. The industry has high turnover, storm chasers who operate briefly in an area, and contractors who change their business names after negative reviews. AI platforms have learned to weight citation consistency heavily as a proxy for legitimacy. A roofer with perfect NAP consistency across 15 directories and three roofing industry certification sites signals stability and trustworthiness in a way that a roofer appearing only on their own website cannot. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Citation Inconsistency Trap</div>
-          <p>The most common citation error for roofing companies is a phone number or address change that never gets updated across all directories. A business that moved locations two years ago but still shows the old address on Yelp, Thumbtack, and BBB is sending contradictory signals to AI. The platform reduces its confidence in the entire entity, not just the outdated listing. Auditing all directory citations after any business change is not optional for roofing AI visibility.</p>
+          <p>The most common citation error for roofing companies is a phone number or address change that never gets updated across all directories. A business that moved locations two years ago but still shows the old address on Yelp, Thumbtack, and BBB is sending contradictory signals to AI. The platform reduces its confidence in the entire entity, not just the outdated listing. Auditing all directory citations after any business change is not optional for roofing AI visibility. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         </div>
 
         <div className="ae-timeline not-prose">
@@ -439,9 +439,9 @@ export default function Page() {
 
         <h2 id="schema-bundling">Multi-Service Schema Bundling for Roofers</h2>
 
-        <p>Schema markup is the structured data layer that tells AI exactly what your roofing business does without requiring the AI to interpret your prose. Most roofing companies either have no schema at all or use a single generic LocalBusiness schema that lists a business name and address. Neither approach gives AI the service-level specificity it needs to recommend you for specific roofing queries.</p>
+        <p>Schema markup is the structured data layer that tells AI exactly what your roofing business does without requiring the AI to interpret your prose. Most roofing companies either have no schema at all or use a single generic LocalBusiness schema that lists a business name and address. Neither approach gives AI the service-level specificity it needs to recommend you for specific roofing queries. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-        <p>Multi-service schema bundling is the practice of declaring multiple distinct service types under your business entity, each with its own structured description, area served, and relevant attributes. A well-structured roofing schema bundle might include the LocalBusiness entity, individual Service schemas for roof replacement, storm damage repair, emergency tarping, gutter installation, and commercial roofing, plus FAQPage schemas on your educational content pages. Each service schema becomes an individual matching surface for the queries it describes.</p>
+        <p>Multi-service schema bundling is the practice of declaring multiple distinct service types under your business entity, each with its own structured description, area served, and relevant attributes. A well-structured roofing schema bundle might include the LocalBusiness entity, individual Service schemas for roof replacement, storm damage repair, emergency tarping, gutter installation, and commercial roofing, plus FAQPage schemas on your educational content pages. Each service schema becomes an individual matching surface for the queries it describes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -470,17 +470,17 @@ export default function Page() {
           </div>
         </div>
 
-        <p>The gap between these two schema profiles is enormous in terms of AI query matching. A roofer with full multi-service schema can potentially surface for "who does storm damage roof repair in [city]," "best roofer for insurance claims near me," "emergency roof tarping [city]," and "GAF certified roofer [city]" as separate citation events. A roofer with no schema is unlikely to surface for any of them specifically.</p>
+        <p>The gap between these two schema profiles is enormous in terms of AI query matching. A roofer with full multi-service schema can potentially surface for "who does storm damage roof repair in [city]," "best roofer for insurance claims near me," "emergency roof tarping [city]," and "GAF certified roofer [city]" as separate citation events. A roofer with no schema is unlikely to surface for any of them specifically. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure if your schema setup covers all your services? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> to see your full structured data profile.</p>
+          <p>Not sure if your schema setup covers all your services? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> to see your full structured data profile. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         <h2 id="service-pages">Service Pages That Become Citation Assets</h2>
 
-        <p>The single most common structural failure on roofing company websites is the single Services page. Most roofing websites list everything on one page: "We do roof replacement, repair, gutters, commercial roofing, storm damage, and siding." That page gives AI nothing to match against a specific query. It is a menu, not a citation asset.</p>
+        <p>The single most common structural failure on roofing company websites is the single Services page. Most roofing websites list everything on one page: "We do roof replacement, repair, gutters, commercial roofing, storm damage, and siding." That page gives AI nothing to match against a specific query. It is a menu, not a citation asset. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
-        <p>Every service a roofing company offers deserves its own dedicated page. Not because of SEO keyword density, but because AI platforms need a page that is specifically about the thing being asked about before they can confidently cite it. When someone asks "who does commercial flat roof installation in Phoenix," a roofer with a dedicated Commercial Roofing page is vastly more likely to appear than one with a bullet point on a combined services page.</p>
+        <p>Every service a roofing company offers deserves its own dedicated page. Not because of SEO keyword density, but because AI platforms need a page that is specifically about the thing being asked about before they can confidently cite it. When someone asks "who does commercial flat roof installation in Phoenix," a roofer with a dedicated Commercial Roofing page is vastly more likely to appear than one with a bullet point on a combined services page. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
         <div className="ae-decision-matrix not-prose">
           <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Roofing Service Pages That Earn AI Citations</div>
@@ -516,24 +516,24 @@ export default function Page() {
           </div>
         </div>
 
-        <p>Each page should answer the specific questions a prospective customer would ask AI about that service: what signs indicate they need it, what the process looks like, how long it takes, what it costs roughly, and what makes your company the right choice for it in your area. That combination of problem context, process clarity, and local specificity is what AI platforms extract when building their recommendation answers.</p>
+        <p>Each page should answer the specific questions a prospective customer would ask AI about that service: what signs indicate they need it, what the process looks like, how long it takes, what it costs roughly, and what makes your company the right choice for it in your area. That combination of problem context, process clarity, and local specificity is what AI platforms extract when building their recommendation answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
         <h2 id="review-signals">Review Signals That Move the Needle</h2>
 
-        <p>Reviews are one of the primary sources AI platforms use to understand what a roofing company actually does and how well it does it. But the reviews that matter for AI visibility are not the same as the reviews that make humans feel good. AI platforms extract specific, verifiable information from review text: what type of work was done, what the problem was, how it was resolved, and any context about the speed or quality of the response.</p>
+        <p>Reviews are one of the primary sources AI platforms use to understand what a roofing company actually does and how well it does it. But the reviews that matter for AI visibility are not the same as the reviews that make humans feel good. AI platforms extract specific, verifiable information from review text: what type of work was done, what the problem was, how it was resolved, and any context about the speed or quality of the response. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-        <p>A review that says "great roofer, very professional" gives AI almost no useful information. A review that says "Had major hail damage after the storm last Tuesday. They came out within 24 hours for the assessment, worked directly with my insurance adjuster, and had the full replacement done in two days. All GAF materials, very clean crew" gives AI rich, specific evidence that this roofer handles storm damage claims, works with insurance, responds quickly, and uses name-brand materials. That review is citation-quality content sitting on Google.</p>
+        <p>A review that says "great roofer, very professional" gives AI almost no useful information. A review that says "Had major hail damage after the storm last Tuesday. They came out within 24 hours for the assessment, worked directly with my insurance adjuster, and had the full replacement done in two days. All GAF materials, very clean crew" gives AI rich, specific evidence that this roofer handles storm damage claims, works with insurance, responds quickly, and uses name-brand materials. That review is citation-quality content sitting on Google. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Review Prompt That Works for Roofers</div>
-          <p>After every completed job, send a brief follow-up: "We would love a review. If you can, please mention what type of work we did and what the situation was that brought you to us. It helps other homeowners facing the same situation find us." This prompt consistently produces the specific, scenario-rich reviews that AI platforms use as citation evidence. Generic review requests produce generic reviews that AI cannot use.</p>
+          <p>After every completed job, send a brief follow-up: "We would love a review. If you can, please mention what type of work we did and what the situation was that brought you to us. It helps other homeowners facing the same situation find us." This prompt consistently produces the specific, scenario-rich reviews that AI platforms use as citation evidence. Generic review requests produce generic reviews that AI cannot use. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </div>
 
-        <p>The insurance claim angle deserves special attention. Homeowners who navigated a successful insurance claim with help from a roofer will frequently mention this in reviews: "They handled everything with the insurance company." Those mentions are powerful AI signals for the query "roofer who helps with insurance claims," which is one of the highest-volume roofing queries on AI platforms after any significant storm event.</p>
+        <p>The insurance claim angle deserves special attention. Homeowners who navigated a successful insurance claim with help from a roofer will frequently mention this in reviews: "They handled everything with the insurance company." Those mentions are powerful AI signals for the query "roofer who helps with insurance claims," which is one of the highest-volume roofing queries on AI platforms after any significant storm event. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
         <h2 id="competitor-profile">What Top-Ranked Roofing Companies Are Doing Differently</h2>
 
-        <p>Roofing companies that consistently appear in AI recommendations share a recognizable profile. They are not necessarily the largest companies in their market or the ones with the biggest advertising budgets. They are the companies whose digital presence is structured to answer specific questions, confirm specific credentials, and signal geographic relevance in ways that AI platforms can parse and trust.</p>
+        <p>Roofing companies that consistently appear in AI recommendations share a recognizable profile. They are not necessarily the largest companies in their market or the ones with the biggest advertising budgets. They are the companies whose digital presence is structured to answer specific questions, confirm specific credentials, and signal geographic relevance in ways that AI platforms can parse and trust. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -575,7 +575,7 @@ export default function Page() {
 
         <h2 id="quick-wins">Quick Wins for Roofing Companies</h2>
 
-        <p>Not every roofing company can rebuild their entire website this week. But several high-leverage moves create meaningful AI visibility improvement within 30 to 60 days without requiring a full site overhaul.</p>
+        <p>Not every roofing company can rebuild their entire website this week. But several high-leverage moves create meaningful AI visibility improvement within 30 to 60 days without requiring a full site overhaul. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">AI Visibility Quick Wins for Roofing Companies</div>
@@ -592,17 +592,17 @@ export default function Page() {
           </table>
         </div>
 
-        <p>The through-line across all of these moves is the same: make it structurally easier for AI to understand exactly who you are, what damage scenarios you handle, which certifications you hold, and where you serve. Vague, general claims produce no AI citations. Specific, structured, verified information produces recommendations.</p>
+        <p>The through-line across all of these moves is the same: make it structurally easier for AI to understand exactly who you are, what damage scenarios you handle, which certifications you hold, and where you serve. Vague, general claims produce no AI citations. Specific, structured, verified information produces recommendations. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Roofing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-does-ai-recommend-other-roofers-but-not-me" className="text-[#F27D24] hover:underline">why AI recommends other roofers instead of you</Link> for a diagnostic breakdown of the most common gaps.</p>
+          <p>Roofing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-does-ai-recommend-other-roofers-but-not-me" className="text-[#F27D24] hover:underline">why AI recommends other roofers instead of you</Link> for a diagnostic breakdown of the most common gaps. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Sending Storm Calls to Other Roofers</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your roofing company, which citation signals are missing, and what it would take to appear when a homeowner asks for a roofer after the next storm.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your roofing company, which citation signals are missing, and what it would take to appear when a homeowner asks for a roofer after the next storm. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -629,7 +629,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
@@ -669,7 +669,7 @@ export default function Page() {
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+              <p className="text-gray-300 leading-relaxed">{item.a} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
           ))}
         </div>
@@ -677,7 +677,7 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Storm Job Could Be Yours</h2>
-          <p className="text-gray-300 mb-8 text-lg">Every AI-referred roofing call that goes to a competitor is a lost job. Our Blind Spot Report shows exactly what AI sees when a homeowner searches for a roofer in your area after a storm, and what you need to change to capture that call.</p>
+          <p className="text-gray-300 mb-8 text-lg">Every AI-referred roofing call that goes to a competitor is a lost job. Our Blind Spot Report shows exactly what AI sees when a homeowner searches for a roofer in your area after a storm, and what you need to change to capture that call. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

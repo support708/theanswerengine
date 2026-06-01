@@ -264,19 +264,19 @@ export default function HowToGetYourStartupFoundOnAISearch() {
 
             <p>A potential customer pulls up ChatGPT and types: &quot;What is the best project management tool for remote design teams?&quot; Three tools are named. Yours is not one of them. You have been building for eighteen months, your product has real users, and you have a polished website. Yet to AI, you might as well not exist.</p>
 
-            <p>This is not a glitch. It is a structural reality of how AI search works, and it disproportionately punishes new businesses. Understanding why is the first step toward doing something about it.</p>
+            <p>This is not a glitch. It is a structural reality of how AI search works, and it disproportionately punishes new businesses. Understanding why is the first step toward doing something about it. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>AI platforms do not reward you for existing. They reward you for being verifiable across dozens of independent sources. Startups, by definition, have not had time to build that verification network.</p>
             </div>
 
-            <p>The stakes are significant. As of 2026, ChatGPT reaches 883 million monthly users. Google AI Overviews serves 1.5 billion monthly users. Perplexity is growing rapidly among professional and high-intent searchers. AI search traffic converts at 14.2%, compared to Google&apos;s 2.8%. The channel is not just growing. It delivers dramatically higher-quality leads. For a startup burning through runway, invisibility here is an expensive problem.</p>
+            <p>The stakes are significant. As of 2026, ChatGPT reaches 883 million monthly users. Google AI Overviews serves 1.5 billion monthly users. Perplexity is growing rapidly among professional and high-intent searchers. AI search traffic converts at 14.2%, compared to Google&apos;s 2.8%. The channel is not just growing. It delivers dramatically higher-quality leads. For a startup burning through runway, invisibility here is an expensive problem. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>What makes this especially challenging is that only 30% of brands stay visible from one AI response to the next, and just 20% remain present across five consecutive queries on the same topic. Even established brands struggle with consistency. For startups with thin signal networks, the odds are worse.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out exactly how AI platforms see your startup right now, before your competitors do.</p>
+              <p>Find out exactly how AI platforms see your startup right now, before your competitors do. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -286,19 +286,19 @@ export default function HowToGetYourStartupFoundOnAISearch() {
 
             <p>Traditional search engines rank pages. AI platforms form opinions. When someone asks an AI assistant which startup tools, services, or products to use, the AI is not scanning a ranked list. It is synthesizing everything it knows about the landscape, weighting sources by credibility, and composing a recommendation it believes is reliable.</p>
 
-            <p>That process rewards accumulation. Years of mentions in industry publications. Thousands of reviews on third-party platforms. Consistent business information across dozens of directories. Backlinks from authoritative domains. Community discussions on Reddit and LinkedIn. None of these things exist for a startup that launched last quarter.</p>
+            <p>That process rewards accumulation. Years of mentions in industry publications. Thousands of reviews on third-party platforms. Consistent business information across dozens of directories. Backlinks from authoritative domains. Community discussions on Reddit and LinkedIn. None of these things exist for a startup that launched last quarter. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p><strong>The trust bottleneck:</strong> Domains with more than 32,000 referring domains are 3.5x more likely to be cited by ChatGPT than those with fewer than 200. For a new startup, this is the hill you are starting at the bottom of. The good news is that referring domain count is buildable. The bad news is it takes intentional work, not just launching a website.</p>
             </div>
 
-            <p>AI systems also weight specific platform types heavily. Brands with strong presences on Trustpilot, G2, Capterra, and Yelp have 3x higher citation rates. Brands with meaningful activity on Reddit and Quora see roughly 4x higher chances of being surfaced. These are not your owned platforms. They require external validation. A startup that only controls its own website controls only a fraction of the signals that matter.</p>
+            <p>AI systems also weight specific platform types heavily. Brands with strong presences on Trustpilot, G2, Capterra, and Yelp have 3x higher citation rates. Brands with meaningful activity on Reddit and Quora see roughly 4x higher chances of being surfaced. These are not your owned platforms. They require external validation. A startup that only controls its own website controls only a fraction of the signals that matter. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>Our deep-dive into <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">what makes content that ChatGPT actually trusts</Link> covers the specific content signals AI platforms look for when deciding whether to recommend a source.</p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your startup has the right trust signals? Our Blind Spot Report maps every gap.</p>
+              <p>Not sure if your startup has the right trust signals? Our Blind Spot Report maps every gap. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Run a Free AI Visibility Check &rarr;</Link>
             </div>
 
@@ -308,7 +308,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
 
             <p>Consider what a five-year-old competitor has that your startup does not. Thousands of indexed pages. Hundreds of review platform entries. Coverage in trade publications. Forum threads mentioning them by name. Employees who wrote guest posts on industry blogs. A Wikipedia page, maybe. Podcast mentions. Press releases that got picked up. All of that accumulation feeds the AI&apos;s trust calculation, and none of it appeared overnight.</p>
 
-            <p>Now consider what your startup has: a domain registered six months ago, a website with fifteen pages, perhaps a handful of Product Hunt comments, and a LinkedIn page. That is a thin signal profile by any measure.</p>
+            <p>Now consider what your startup has: a domain registered six months ago, a website with fifteen pages, perhaps a handful of Product Hunt comments, and a LinkedIn page. That is a thin signal profile by any measure. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* PROS/CONS */}
             <div className="ae-pros-cons not-prose">
@@ -336,7 +336,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
 
             <p>The critical insight here is that the disadvantages are structural, not permanent. Every established brand was once a startup with the same thin profile. The difference is that most did not optimize for AI visibility because the channel did not exist yet. Startups building today can design their external signal network from the ground up, something incumbents often have to untangle and rebuild from a mess of inconsistent legacy data.</p>
 
-            <p>Understanding the specific relationship between <Link href="/blog/does-domain-age-matter-for-ai-search-visibility">domain age and AI search visibility</Link> will help you calibrate realistic expectations for your timeline.</p>
+            <p>Understanding the specific relationship between <Link href="/blog/does-domain-age-matter-for-ai-search-visibility">domain age and AI search visibility</Link> will help you calibrate realistic expectations for your timeline. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
@@ -348,25 +348,25 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <span className="ae-section-label">Content Strategy</span>
             <h2 id="content-clarity">Why Content Clarity Matters More Than Content Volume</h2>
 
-            <p>Most startup founders hear &quot;content marketing&quot; and think volume: more blog posts, more social updates, more email newsletters. For AI visibility, that instinct is partially wrong. AI platforms do not reward content volume. They reward content clarity, specificity, and structure.</p>
+            <p>Most startup founders hear &quot;content marketing&quot; and think volume: more blog posts, more social updates, more email newsletters. For AI visibility, that instinct is partially wrong. AI platforms do not reward content volume. They reward content clarity, specificity, and structure. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>The specificity principle:</strong> Content with statistics, citations, and concrete answers achieves 30 to 40% higher visibility in AI responses than generic content on the same topic. A single well-structured page that definitively answers one specific question outperforms ten pages of vague, keyword-stuffed content. For startups with limited resources, this is actually good news. Quality over quantity is a more achievable standard.</p>
             </div>
 
-            <p>There is a structural reason why clarity wins. AI platforms are not reading your content to rank it. They are reading it to quote it. When someone asks AI a question, the AI looks for sources it can confidently paraphrase or cite. Pages with clear answers to clear questions, marked up with proper structure and schema, are dramatically easier to cite than pages that meander through a topic without landing anywhere.</p>
+            <p>There is a structural reason why clarity wins. AI platforms are not reading your content to rank it. They are reading it to quote it. When someone asks AI a question, the AI looks for sources it can confidently paraphrase or cite. Pages with clear answers to clear questions, marked up with proper structure and schema, are dramatically easier to cite than pages that meander through a topic without landing anywhere. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>Pages updated within the past two months earn 28% more citations than older content. Pages not updated quarterly are three times more likely to lose citations entirely. For a startup with a small content library, consistent updating matters more than constant expansion. A focused set of authoritative pages that are regularly refreshed outperforms a sprawling blog that goes stale.</p>
 
             <div className="ae-takeaway not-prose">
-              <p><strong>Key takeaway:</strong> Sequential headings and rich schema correlate with 2.8x higher citation rates in AI responses. The structure of your content is as important as its substance. If AI cannot parse the hierarchy of your page, it cannot cite it confidently.</p>
+              <p><strong>Key takeaway:</strong> Sequential headings and rich schema correlate with 2.8x higher citation rates in AI responses. The structure of your content is as important as its substance. If AI cannot parse the hierarchy of your page, it cannot cite it confidently. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
             <p>If your startup&apos;s blog exists but is not generating AI citations, the problem is usually not that you are not writing enough. It is that what you are writing is not structured for AI to consume. Our analysis of <Link href="/blog/why-your-blog-not-getting-ai-citations">why blogs fail to get AI citations</Link> breaks down the specific structural issues that cause this.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is your startup&apos;s content structured for AI to cite it? Find out in minutes.</p>
+              <p>Is your startup&apos;s content structured for AI to cite it? Find out in minutes. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Run the Free Audit &rarr;</Link>
             </div>
 
@@ -376,7 +376,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
 
             <p>Here is a counterintuitive truth about AI visibility: your own website is not the most important place for AI to find you. Approximately 48% of AI search citations come from user-generated and community sources. Reddit, LinkedIn, Wikipedia, YouTube, industry forums, and peer review platforms like G2 and Capterra collectively outweigh your owned content in the AI trust calculation.</p>
 
-            <p>For startups, this creates a specific challenge. Building a presence on platforms you do not control takes time, genuine product quality, and community engagement. You cannot simply publish content there. You have to earn your place through real interactions, real reviews, and real discussions.</p>
+            <p>For startups, this creates a specific challenge. Building a presence on platforms you do not control takes time, genuine product quality, and community engagement. You cannot simply publish content there. You have to earn your place through real interactions, real reviews, and real discussions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>Why new businesses stay invisible:</strong> A startup with zero reviews on G2, no threads mentioning it on Reddit, no coverage in industry newsletters, and no directory listings is effectively a ghost to AI platforms. The AI has no external corroboration of your existence, quality, or relevance. Even if your website is technically perfect, the absence of third-party signal tells AI it cannot safely recommend you.</p>
@@ -440,7 +440,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
               </table>
             </div>
 
-            <p>The pattern is clear: the signals AI trusts most are the ones that require external validation. A startup that spends its entire marketing budget on its own website while ignoring third-party signal development is optimizing the wrong variable.</p>
+            <p>The pattern is clear: the signals AI trusts most are the ones that require external validation. A startup that spends its entire marketing budget on its own website while ignoring third-party signal development is optimizing the wrong variable. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
@@ -452,17 +452,17 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <span className="ae-section-label">The Age Factor</span>
             <h2 id="domain-freshness">Domain Age vs. Signal Freshness: What Actually Matters</h2>
 
-            <p>There is a common misconception among startup founders that domain age is the root problem. &quot;We just launched, so of course AI does not trust us yet.&quot; While there is some truth to this, it misidentifies the actual mechanism.</p>
+            <p>There is a common misconception among startup founders that domain age is the root problem. &quot;We just launched, so of course AI does not trust us yet.&quot; While there is some truth to this, it misidentifies the actual mechanism. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>Domain age itself is not a ranking or citation factor. AI platforms do not check how old your domain is. What they check is signal density: how many credible sources have mentioned, linked to, reviewed, or discussed your brand. Older companies naturally have more of these signals because they have had more time to accumulate them. But accumulation is not a function of time alone. It is a function of deliberate activity.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>The authority flywheel:</strong> A startup that builds signal density aggressively in its first year can match the AI authority of a three-year-old competitor in as little as six months. The path is not to wait. It is to build with intention: get listed in authoritative directories, earn real reviews on major platforms, generate genuine community discussion, and publish content structured for AI to cite. This is achievable. It just requires a different playbook than traditional SEO.</p>
+              <p><strong>The authority flywheel:</strong> A startup that builds signal density aggressively in its first year can match the AI authority of a three-year-old competitor in as little as six months. The path is not to wait. It is to build with intention: get listed in authoritative directories, earn real reviews on major platforms, generate genuine community discussion, and publish content structured for AI to cite. This is achievable. It just requires a different playbook than traditional SEO. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <p>Content freshness, however, is a real and ongoing factor. Pages not updated quarterly lose 3x more citations. This means that even after you build initial visibility, maintaining it requires consistent attention. The good news for startups is that you are building fresh from day one. You are not dealing with years of stale, inconsistent content that established brands have to clean up.</p>
 
-            <p>If your website itself was recently launched, the specific dynamics at play are detailed in our analysis of <Link href="/blog/why-new-website-invisible-to-ai">why new websites are invisible to AI</Link> and what the path to visibility actually looks like.</p>
+            <p>If your website itself was recently launched, the specific dynamics at play are detailed in our analysis of <Link href="/blog/why-new-website-invisible-to-ai">why new websites are invisible to AI</Link> and what the path to visibility actually looks like. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -474,7 +474,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <span className="ae-section-label">Head to Head</span>
             <h2 id="comparison">Startup vs. Established Brand: AI Visibility at a Glance</h2>
 
-            <p>When AI receives a query that could return both a startup and an established competitor, what does the scoring actually look like? Understanding this comparison helps founders set realistic expectations and identify where to focus first.</p>
+            <p>When AI receives a query that could return both a startup and an established competitor, what does the scoring actually look like? Understanding this comparison helps founders set realistic expectations and identify where to focus first. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* DECISION MATRIX */}
             <div className="not-prose my-10 overflow-x-auto rounded-xl border border-white/10">
@@ -538,7 +538,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>See exactly how your startup scores across every dimension that AI uses to recommend businesses.</p>
+              <p>See exactly how your startup scores across every dimension that AI uses to recommend businesses. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get the Blind Spot Report &rarr;</Link>
             </div>
 
@@ -554,7 +554,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                 <div className="ae-timeline-marker">1</div>
                 <div className="ae-timeline-content">
                   <h4 className="font-plus-jakarta font-bold text-white mb-1">Days 1-30: Foundation</h4>
-                  <p className="text-gray-400 text-sm">Audit existing signals. Ensure business information is consistent across every platform. Get listed in the authoritative directories that AI crawlers actually pull from. Implement schema markup on all key pages. Set up structured FAQ content. This work is invisible in the short term but essential for everything that follows.</p>
+                  <p className="text-gray-400 text-sm">Audit existing signals. Ensure business information is consistent across every platform. Get listed in the authoritative directories that AI crawlers actually pull from. Implement schema markup on all key pages. Set up structured FAQ content. This work is invisible in the short term but essential for everything that follows. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -568,7 +568,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                 <div className="ae-timeline-marker">3</div>
                 <div className="ae-timeline-content">
                   <h4 className="font-plus-jakarta font-bold text-white mb-1">Days 60-90: Early Citations</h4>
-                  <p className="text-gray-400 text-sm">With foundational signals in place, early AI citations begin appearing. Often in niche queries first, then broader ones. This is the point where tracking matters: which queries surface your startup, which platforms cite you, what content is being referenced. Use this data to double down on what is working and fill gaps in coverage.</p>
+                  <p className="text-gray-400 text-sm">With foundational signals in place, early AI citations begin appearing. Often in niche queries first, then broader ones. This is the point where tracking matters: which queries surface your startup, which platforms cite you, what content is being referenced. Use this data to double down on what is working and fill gaps in coverage. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -582,7 +582,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                 <div className="ae-timeline-marker">5</div>
                 <div className="ae-timeline-content">
                   <h4 className="font-plus-jakarta font-bold text-white mb-1">Month 6+: Compounding Authority</h4>
-                  <p className="text-gray-400 text-sm">A well-executed AI visibility program at the six-month mark should have a startup competing meaningfully for citations in its target query space. The gap with established competitors narrows in specific niches. AI traffic begins to appear in analytics as a meaningful and high-converting channel. The program shifts from foundational building to optimization and defense of earned positions.</p>
+                  <p className="text-gray-400 text-sm">A well-executed AI visibility program at the six-month mark should have a startup competing meaningfully for citations in its target query space. The gap with established competitors narrows in specific niches. AI traffic begins to appear in analytics as a meaningful and high-converting channel. The program shifts from foundational building to optimization and defense of earned positions. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 </div>
               </div>
             </div>
@@ -594,7 +594,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>After working with dozens of startups on AI visibility, the same patterns of failure appear consistently. These are not obscure mistakes. They are the default behaviors that most startups fall into without realizing the cost.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Mistake 1: Treating AI visibility as an SEO problem.</strong> Traditional SEO is about your website. AI visibility is about your entire digital footprint. Startups that pour budget into keyword optimization and technical SEO while ignoring third-party signal development are building the wrong foundation. The website matters, but it is one node in a much larger network.</p>
+              <p><strong>Mistake 1: Treating AI visibility as an SEO problem.</strong> Traditional SEO is about your website. AI visibility is about your entire digital footprint. Startups that pour budget into keyword optimization and technical SEO while ignoring third-party signal development are building the wrong foundation. The website matters, but it is one node in a much larger network. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             <div className="ae-callout ae-callout-warning not-prose">
@@ -602,7 +602,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             </div>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Mistake 3: Ignoring the review ecosystem.</strong> Startups often deprioritize reviews because they feel awkward to ask for and slow to accumulate. This is a costly mistake. Review platforms are among the highest-weighted signals in AI trust calculations. A startup with no reviews on G2, Capterra, or Trustpilot is invisible in the categories where buyers do their research before asking AI for a recommendation.</p>
+              <p><strong>Mistake 3: Ignoring the review ecosystem.</strong> Startups often deprioritize reviews because they feel awkward to ask for and slow to accumulate. This is a costly mistake. Review platforms are among the highest-weighted signals in AI trust calculations. A startup with no reviews on G2, Capterra, or Trustpilot is invisible in the categories where buyers do their research before asking AI for a recommendation. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <div className="ae-callout ae-callout-warning not-prose">
@@ -616,42 +616,42 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">01</span>
                   <div>
-                    <p className="text-white font-semibold text-sm">Consistent NAP data everywhere</p>
+                    <p className="text-white font-semibold text-sm">Consistent NAP data everywhere Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                     <p className="text-gray-400 text-xs mt-0.5">Name, address, phone: identical across all platforms</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">02</span>
                   <div>
-                    <p className="text-white font-semibold text-sm">Authoritative directory listings</p>
+                    <p className="text-white font-semibold text-sm">Authoritative directory listings <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                     <p className="text-gray-400 text-xs mt-0.5">G2, Capterra, Crunchbase, industry-specific directories</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">03</span>
                   <div>
-                    <p className="text-white font-semibold text-sm">Schema markup on every key page</p>
+                    <p className="text-white font-semibold text-sm">Schema markup on every key page <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                     <p className="text-gray-400 text-xs mt-0.5">Organization, FAQPage, Article schemas at minimum</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">04</span>
                   <div>
-                    <p className="text-white font-semibold text-sm">Review velocity on key platforms</p>
+                    <p className="text-white font-semibold text-sm">Review velocity on key platforms <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                     <p className="text-gray-400 text-xs mt-0.5">Aim for 20+ reviews in the first 90 days</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">05</span>
                   <div>
-                    <p className="text-white font-semibold text-sm">FAQ content on every service page</p>
+                    <p className="text-white font-semibold text-sm">FAQ content on every service page Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                     <p className="text-gray-400 text-xs mt-0.5">5-8 specific questions with definitive answers</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">06</span>
                   <div>
-                    <p className="text-white font-semibold text-sm">Community presence (Reddit, LinkedIn)</p>
+                    <p className="text-white font-semibold text-sm">Community presence (Reddit, LinkedIn) <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                     <p className="text-gray-400 text-xs mt-0.5">Genuine participation, not promotional posting</p>
                   </div>
                 </div>

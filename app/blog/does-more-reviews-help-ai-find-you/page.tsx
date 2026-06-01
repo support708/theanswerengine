@@ -218,23 +218,23 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Review Count Myth</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Here is the question we hear constantly: "We have 300 Google reviews and our competitor only has 80. Why is AI recommending them and not us?"
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             It is a fair question and the answer is uncomfortable: review count is one of the weakest signals AI systems use when deciding which businesses to recommend. The businesses dominating AI recommendations built something different, and more durable, than a high review total.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             AI does not work like Yelp, where a higher star count and more reviews generally means a higher ranking. AI is building a confidence picture of your business from dozens of signals across the entire internet. Reviews are one input into that picture. They are not the frame.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Dangerous Assumption</div>
-            <p>Businesses that focus their AI strategy on getting more reviews often neglect the signals that actually determine whether AI names them in a recommendation. You can have 1,000 reviews and still be invisible to AI.</p>
+            <p>Businesses that focus their AI strategy on getting more reviews often neglect the signals that actually determine whether AI names them in a recommendation. You can have 1,000 reviews and still be invisible to AI. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
         {/* Inline CTA 1 */}
         <div className="ae-cta-inline">
-          <p>Curious whether your reviews are actually helping your AI visibility? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out exactly where you stand.</p>
+          <p>Curious whether your reviews are actually helping your AI visibility? <Link href="/blindspot">Get a free Blind Spot Report</Link> and find out exactly where you stand. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
         </div>
 
         {/* Section 2 */}
@@ -242,7 +242,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What AI Actually Reads in Reviews</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             When AI systems do draw signal from reviews, they are not counting stars. They are reading for specific types of information that help them understand what your business does, where it operates, and how customers experience it.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -288,7 +288,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">How Different AI Platforms Use Reviews</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Not all AI platforms treat review data the same way. Understanding these differences tells you where review activity is most likely to pay off.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <table className="ae-comparison-table">
             <thead>
@@ -324,13 +324,13 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info mt-8">
             <div className="ae-callout-title">The Perplexity Insight</div>
-            <p>Perplexity AI cites Yelp in a disproportionately large share of its local business recommendations. If your Yelp profile is thin or outdated, even if your Google reviews are strong, you may be invisible on one of the fastest-growing AI search platforms.</p>
+            <p>Perplexity AI cites Yelp in a disproportionately large share of its local business recommendations. If your Yelp profile is thin or outdated, even if your Google reviews are strong, you may be invisible on one of the fastest-growing AI search platforms. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
         </section>
 
         {/* Inline CTA 2 */}
         <div className="ae-cta-inline">
-          <p>Not sure which platforms AI is actually using to evaluate your business? <Link href="/blindspot">Run your free Blind Spot Report</Link> and get a platform-by-platform breakdown.</p>
+          <p>Not sure which platforms AI is actually using to evaluate your business? <Link href="/blindspot">Run your free Blind Spot Report</Link> and get a platform-by-platform breakdown. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         {/* Section 4 */}
@@ -338,7 +338,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Quality vs. Quantity: The Real Comparison</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Let us make this concrete. Which business is more likely to get recommended by AI?
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -367,10 +367,10 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-4">
             Business A is more likely to receive confident AI recommendations. Not because AI counted reviews, but because Business A's review content gives AI the vocabulary, geographic signals, and service specificity it needs to answer customer questions accurately.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-quote">
-            <p>"AI is not a popularity contest. It is a confidence contest. The business AI is most confident about, not most reviewed, gets named."</p>
+            <p>"AI is not a popularity contest. It is a confidence contest. The business AI is most confident about, not most reviewed, gets named." Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <cite>Justin Borges</cite>
           </div>
         </section>
@@ -380,7 +380,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What Actually Moves the Needle for AI Visibility</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             If review count is not the primary lever, what is? The businesses that consistently appear in AI recommendations have built something we call a "confidence stack": a collection of corroborating signals that give AI systems enough certainty to name them without hedging.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-bar-group">
             <div className="ae-bar-item">
@@ -422,13 +422,13 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             The pattern is consistent: businesses in AI recommendations have strong signals in the top 4-5 categories. The ones stuck below the recommendation threshold are often over-indexed on review count while neglecting the other signals entirely.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
         </section>
 
         {/* CTA Block */}
         <div className="ae-cta-block">
           <h3>Find Out Where Your Review Strategy Is Falling Short</h3>
-          <p>Our Blind Spot Report shows exactly which signals AI is using to evaluate your business, and which gaps are keeping you invisible to the customers searching for you right now.</p>
+          <p>Our Blind Spot Report shows exactly which signals AI is using to evaluate your business, and which gaps are keeping you invisible to the customers searching for you right now. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <Link href="/blindspot" className="ae-cta-primary">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -440,7 +440,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Common Mistakes Business Owners Make</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The review count myth leads to a predictable set of mistakes. Recognizing them is the first step to redirecting your effort toward signals that actually matter.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-decision-matrix">
             <div className="ae-decision-row">
@@ -472,13 +472,13 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-success mt-8">
             <div className="ae-callout-title">What Actually Works</div>
-            <p>The businesses winning in AI search combine consistent review quality across multiple platforms with a strong foundational website and consistent directory presence. They think about AI visibility holistically, not as a single-metric optimization problem.</p>
+            <p>The businesses winning in AI search combine consistent review quality across multiple platforms with a strong foundational website and consistent directory presence. They think about AI visibility holistically, not as a single-metric optimization problem. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
         </section>
 
         {/* Inline CTA 3 */}
         <div className="ae-cta-inline">
-          <p>Want to know how your business looks across every platform AI uses? Call us at <a href="tel:+12134442229">(213) 444-2229</a> or <Link href="/blindspot">get your Blind Spot Report</Link>.</p>
+          <p>Want to know how your business looks across every platform AI uses? Call us at <a href="tel:+12134442229">(213) 444-2229</a> or <Link href="/blindspot">get your Blind Spot Report</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         </div>
 
         {/* What to focus on instead */}
@@ -486,24 +486,24 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Where to Focus Instead</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             If you have been pouring energy into review count and not seeing AI visibility results, here is where to redirect that effort. These are the categories that create compounding AI signal over time.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">The Three Pillars of AI-Ready Review Strategy</div>
-            <p>First: get reviews on multiple platforms, not just Google. Second: encourage customers to mention specific services, locations, and outcomes in their reviews. Third: maintain review recency by building a consistent outreach habit rather than periodic bursts. These three shifts alone can transform how AI perceives your business without chasing a raw count milestone.</p>
+            <p>First: get reviews on multiple platforms, not just Google. Second: encourage customers to mention specific services, locations, and outcomes in their reviews. Third: maintain review recency by building a consistent outreach habit rather than periodic bursts. These three shifts alone can transform how AI perceives your business without chasing a raw count milestone. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-4">
             And beyond reviews: the businesses that consistently appear in AI recommendations have built out their website content to answer the questions customers actually ask AI assistants. That means detailed service pages, structured FAQ content, and clear geographic signals throughout the site. This is the layer most businesses have not touched yet.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-4">
             If you want to understand how AI currently sees your business, what it knows and what it is missing, the starting point is a clear-eyed audit of your entire digital footprint, not just your review count.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <p className="text-gray-300 leading-relaxed">
             The businesses that move fastest in AI search are the ones that stop optimizing for the metric that feels intuitive and start optimizing for the signals that AI actually uses. Reviews matter. Just not the way you thought they did.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
         </section>
 
         {/* Cheat Sheet */}
@@ -548,12 +548,12 @@ export default function Page() {
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
             <Link href="/blog/does-responding-to-reviews-help-ai-recommend-you" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points</p>
-              <p className="text-white font-medium">Does Responding to Reviews Help AI Recommend You</p>
+              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              <p className="text-white font-medium">Does Responding to Reviews Help AI Recommend You Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </Link>
             <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points</p>
-              <p className="text-white font-medium">Why AI Recommends Businesses With Worse Reviews</p>
+              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+              <p className="text-white font-medium">Why AI Recommends Businesses With Worse Reviews <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </Link>
           </div>
         </section>
@@ -561,7 +561,7 @@ export default function Page() {
         {/* 3-Tier CTA Block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Review Strategy Actually Helping AI Find You?</h3>
-          <p className="text-gray-400 mb-6">Stop guessing. Our free Blind Spot Report analyzes every signal AI uses to evaluate your business, including your review footprint across all the platforms that matter. You will see exactly what AI sees, and what it does not.</p>
+          <p className="text-gray-400 mb-6">Stop guessing. Our free Blind Spot Report analyzes every signal AI uses to evaluate your business, including your review footprint across all the platforms that matter. You will see exactly what AI sees, and what it does not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -589,7 +589,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
           </div>
@@ -630,7 +630,7 @@ export default function Page() {
             ].map((item, i) => (
               <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-                <p className="text-gray-300 leading-relaxed">{item.a}</p>
+                <p className="text-gray-300 leading-relaxed">{item.a} <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             ))}
           </div>

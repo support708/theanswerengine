@@ -280,14 +280,14 @@ export default function Page() {
 
             <p>Here is an uncomfortable truth: the service page you spent weeks perfecting for Google may be completely invisible to every AI platform that matters. ChatGPT, Perplexity, and Google AI Overviews are not reading your service pages the way Google Search does. They are evaluating them through an entirely different lens, and most service pages fail that evaluation before the first paragraph ends.</p>
 
-            <p>The data confirms this. ChatGPT only cites 15% of the pages it retrieves during a search. That means 85% of pages are fetched, scanned, and discarded. When you consider that most service pages are thin, templated, and indistinguishable from competitors, the rejection rate for service pages specifically is almost certainly higher than 85%.</p>
+            <p>The data confirms this. ChatGPT only cites 15% of the pages it retrieves during a search. That means 85% of pages are fetched, scanned, and discarded. When you consider that most service pages are thin, templated, and indistinguishable from competitors, the rejection rate for service pages specifically is almost certainly higher than 85%. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Visibility Cliff Is Real</div>
               <p>AI Overviews now appear on 48% of tracked queries, up 58% year over year. Organic CTR has dropped 61% for queries where AI Overviews appear. If your service page is not getting cited inside those AI answers, you are losing traffic to competitors who are. This is not a future trend. It is happening right now.</p>
             </div>
 
-            <p>The reason most service pages fail is not that AI is biased against them. It is that they were built for a completely different era of search. A page optimized for keyword density, meta tags, and backlink profiles has almost nothing that AI platforms need when they are assembling a trusted answer. AI does not care about your keyword count. It cares whether your page can be trusted as a source.</p>
+            <p>The reason most service pages fail is not that AI is biased against them. It is that they were built for a completely different era of search. A page optimized for keyword density, meta tags, and backlink profiles has almost nothing that AI platforms need when they are assembling a trusted answer. AI does not care about your keyword count. It cares whether your page can be trusted as a source. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -299,7 +299,7 @@ export default function Page() {
             <span className="ae-section-label" id="google-vs-ai">The Shift</span>
             <h2>Google Rankings vs. AI Citations: Two Different Games</h2>
 
-            <p>The biggest misconception in digital marketing right now is that ranking well on Google means you are visible to AI. These are fundamentally different systems with different evaluation criteria. Understanding the gap between them is the first step to closing it.</p>
+            <p>The biggest misconception in digital marketing right now is that ranking well on Google means you are visible to AI. These are fundamentally different systems with different evaluation criteria. Understanding the gap between them is the first step to closing it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* ── COMPARISON TABLE ── */}
             <table className="ae-comparison-table not-prose">
@@ -351,7 +351,7 @@ export default function Page() {
 
             <p>A page can hold the #1 position on Google for a high-value service keyword and still be completely absent from every AI-generated answer about that service. This happens because AI platforms are not just finding pages. They are deciding which pages to trust as authoritative sources for a direct answer. That trust evaluation is far more demanding than what Google requires for a ranking position.</p>
 
-            <p>The competition dynamics are also radically different. Google shows 10 results on page 1. AI platforms typically cite 1 to 3 sources for any given answer. The margin for error is much smaller, and the consequences of being excluded are much larger. When a potential customer asks ChatGPT about your type of service, there is no page 2 to scroll to. You are either cited or you do not exist.</p>
+            <p>The competition dynamics are also radically different. Google shows 10 results on page 1. AI platforms typically cite 1 to 3 sources for any given answer. The margin for error is much smaller, and the consequences of being excluded are much larger. When a potential customer asks ChatGPT about your type of service, there is no page 2 to scroll to. You are either cited or you do not exist. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
@@ -363,7 +363,7 @@ export default function Page() {
             <span className="ae-section-label" id="what-ai-wants">The Evaluation</span>
             <h2>What AI Platforms Actually Evaluate on a Service Page</h2>
 
-            <p>When an AI platform encounters your service page, it is running a multi-layered evaluation in milliseconds. Understanding what that evaluation looks for is the difference between being cited and being discarded. The evaluation is not a single check. It is a cascading series of trust gates, and failing any one of them can eliminate your page from consideration.</p>
+            <p>When an AI platform encounters your service page, it is running a multi-layered evaluation in milliseconds. Understanding what that evaluation looks for is the difference between being cited and being discarded. The evaluation is not a single check. It is a cascading series of trust gates, and failing any one of them can eliminate your page from consideration. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* ── DECISION MATRIX ── */}
             <table className="ae-decision-matrix not-prose">
@@ -419,7 +419,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Entity Clarity Is Non-Negotiable</div>
-              <p>AI platforms cross-reference your service page content against your Google Business Profile, directory listings, reviews, and social presence. If your business name, address, phone number, or service descriptions are inconsistent across these sources, AI treats your content as unreliable. Consistency across the web is not just about SEO. It is how AI verifies you are real.</p>
+              <p>AI platforms cross-reference your service page content against your Google Business Profile, directory listings, reviews, and social presence. If your business name, address, phone number, or service descriptions are inconsistent across these sources, AI treats your content as unreliable. Consistency across the web is not just about SEO. It is how AI verifies you are real. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* ── CTA 3 ── */}
@@ -432,7 +432,7 @@ export default function Page() {
             <span className="ae-section-label" id="mistakes">The Failures</span>
             <h2>The 5 Mistakes That Make Service Pages Uncitable</h2>
 
-            <p>After analyzing thousands of service pages across dozens of industries, the same five mistakes appear over and over. These are not minor optimization issues. Each one can single-handedly prevent your service page from ever being cited by any AI platform.</p>
+            <p>After analyzing thousands of service pages across dozens of industries, the same five mistakes appear over and over. These are not minor optimization issues. Each one can single-handedly prevent your service page from ever being cited by any AI platform. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* ── NUMBERED LIST / VISUAL CARDS ── */}
             <div className="ae-numbered-list not-prose">
@@ -447,7 +447,7 @@ export default function Page() {
                 <div className="ae-numbered-count">2</div>
                 <div className="ae-numbered-content">
                   <h4>Missing Structured Data Entirely</h4>
-                  <p>A service page without schema markup is like handing someone a book with no table of contents, no chapter titles, and no index. AI can still read it, but it takes more work to extract useful information, and there are plenty of other pages that make it easier. Pages with proper schema markup are significantly more likely to appear in AI answers. Skipping structured data is essentially volunteering to be less visible.</p>
+                  <p>A service page without schema markup is like handing someone a book with no table of contents, no chapter titles, and no index. AI can still read it, but it takes more work to extract useful information, and there are plenty of other pages that make it easier. Pages with proper schema markup are significantly more likely to appear in AI answers. Skipping structured data is essentially volunteering to be less visible. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 </div>
               </div>
               <div className="ae-numbered-item">
@@ -461,7 +461,7 @@ export default function Page() {
                 <div className="ae-numbered-count">4</div>
                 <div className="ae-numbered-content">
                   <h4>Thin Content That Answers Nothing</h4>
-                  <p>A 200-word service page with a headline, three bullet points, and a contact form gives AI nothing to work with. When someone asks an AI platform about a service in your category, the AI needs a comprehensive, trustworthy source to synthesize an answer from. If your page does not provide enough depth to answer common questions about the service, AI will find a page that does. Content depth is not about word count for its own sake. It is about providing enough substance to be useful as a reference.</p>
+                  <p>A 200-word service page with a headline, three bullet points, and a contact form gives AI nothing to work with. When someone asks an AI platform about a service in your category, the AI needs a comprehensive, trustworthy source to synthesize an answer from. If your page does not provide enough depth to answer common questions about the service, AI will find a page that does. Content depth is not about word count for its own sake. It is about providing enough substance to be useful as a reference. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
               <div className="ae-numbered-item">
@@ -475,7 +475,7 @@ export default function Page() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes right now? Most businesses are making all five.</p>
+              <p>Making any of these mistakes right now? Most businesses are making all five. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Free Service Page Assessment &rarr;</a>
             </div>
 
@@ -515,7 +515,7 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The pattern here is consistency and specificity. AI platforms are not fooled by polished marketing language. They are pattern-matching your claims against external data sources. If your website says you specialize in a particular service but your Google Business Profile does not mention it, that inconsistency weakens your authority signal. If your page claims 20 years of experience but has no team bios, no case studies, and no credentials, AI treats that claim as unverifiable.</p>
+            <p>The pattern here is consistency and specificity. AI platforms are not fooled by polished marketing language. They are pattern-matching your claims against external data sources. If your website says you specialize in a particular service but your Google Business Profile does not mention it, that inconsistency weakens your authority signal. If your page claims 20 years of experience but has no team bios, no case studies, and no credentials, AI treats that claim as unverifiable. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <div className="ae-callout-title">The Cross-Referencing Advantage</div>
@@ -524,7 +524,7 @@ export default function Page() {
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Your authority signals are either working for you or against you. There is no neutral.</p>
+              <p>Your authority signals are either working for you or against you. There is no neutral. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Check Your Authority Signals Free &rarr;</Link>
             </div>
 
@@ -566,11 +566,11 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The most citable service pages share common structural elements: they lead with a clear value proposition, break the service down into well-defined sections, include a comprehensive FAQ that mirrors the questions real users ask AI platforms, and close with verifiable credentials. This structure is not accidental. It mirrors the way AI platforms decompose a query and search for answers.</p>
+            <p>The most citable service pages share common structural elements: they lead with a clear value proposition, break the service down into well-defined sections, include a comprehensive FAQ that mirrors the questions real users ask AI platforms, and close with verifiable credentials. This structure is not accidental. It mirrors the way AI platforms decompose a query and search for answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>Think of it this way: when someone asks an AI platform about your type of service, the AI breaks that question into sub-questions. What does this service include? How much does it cost? Who provides it? Where are they located? Are they credible? Each section of a well-structured service page answers one of those sub-questions explicitly. Pages that make the AI work to find those answers lose to pages that present them clearly.</p>
 
-            <p>Schema markup plays a critical role here. When your service page includes proper <Link href="/blog/does-schema-markup-help-ai-search">schema markup</Link>, you are giving AI a machine-readable table of contents for your content. FAQPage schema tells AI exactly where your Q&As are. LocalBusiness schema tells it your service area. Service schema tells it what you offer and at what price range. Without this layer, AI has to infer all of this from unstructured text, and inference means uncertainty.</p>
+            <p>Schema markup plays a critical role here. When your service page includes proper <Link href="/blog/does-schema-markup-help-ai-search">schema markup</Link>, you are giving AI a machine-readable table of contents for your content. FAQPage schema tells AI exactly where your Q&As are. LocalBusiness schema tells it your service area. Service schema tells it what you offer and at what price range. Without this layer, AI has to infer all of this from unstructured text, and inference means uncertainty. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
@@ -582,17 +582,17 @@ export default function Page() {
             <span className="ae-section-label" id="local-advantage">The Opportunity</span>
             <h2>The Local Business Advantage Most Companies Miss</h2>
 
-            <p>Here is the counterintuitive truth about AI citations: local businesses have an advantage that most of them are not using. AI platforms answering local service queries face a specific challenge. They need to find a source that is both authoritative about the service and specific to the location. Large national brands have authority but lack local specificity. Local businesses have the specificity but often lack the content depth and structured data AI requires.</p>
+            <p>Here is the counterintuitive truth about AI citations: local businesses have an advantage that most of them are not using. AI platforms answering local service queries face a specific challenge. They need to find a source that is both authoritative about the service and specific to the location. Large national brands have authority but lack local specificity. Local businesses have the specificity but often lack the content depth and structured data AI requires. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>The businesses winning AI citations in local markets are the ones that combine both: deep service expertise with hyper-local content signals. A plumber in Dallas who writes about the specific water pressure challenges in North Dallas neighborhoods, references local building codes by number, and includes case studies from nearby streets will outperform a national plumbing franchise with a generic Dallas landing page every time.</p>
 
             <div className="ae-quote not-prose">
-              <p>AI platforms do not cite the biggest brand. They cite the most specifically relevant, verifiably trustworthy source for the exact query being asked.</p>
+              <p>AI platforms do not cite the biggest brand. They cite the most specifically relevant, verifiably trustworthy source for the exact query being asked. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <p>This is where the opportunity lives for small and mid-size service businesses. You know your local market better than any national competitor. You know the neighborhoods, the common problems, the local regulations, the pricing dynamics. When that knowledge is properly structured and presented on your service pages, AI platforms prefer it over generic national content because it is a better answer to the user&apos;s actual question.</p>
 
-            <p>The challenge is that most local businesses do not know how to translate their deep local expertise into the structured, schema-rich, entity-clear format that AI platforms need. They have the knowledge but not the technical execution. This is precisely where <Link href="/blog/how-to-get-cited-by-chatgpt-local-business">local AI optimization</Link> becomes critical, and why businesses that invest in it now are building a moat that will be very hard for competitors to cross later.</p>
+            <p>The challenge is that most local businesses do not know how to translate their deep local expertise into the structured, schema-rich, entity-clear format that AI platforms need. They have the knowledge but not the technical execution. This is precisely where <Link href="/blog/how-to-get-cited-by-chatgpt-local-business">local AI optimization</Link> becomes critical, and why businesses that invest in it now are building a moat that will be very hard for competitors to cross later. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
@@ -607,7 +607,7 @@ export default function Page() {
                 <div className="ae-timeline-marker">1</div>
                 <div className="ae-timeline-content">
                   <h4>Entity Resolution</h4>
-                  <p>AI identifies who you are by cross-referencing your page with GBP, directories, and review sites</p>
+                  <p>AI identifies who you are by cross-referencing your page with GBP, directories, and review sites <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -621,7 +621,7 @@ export default function Page() {
                 <div className="ae-timeline-marker">3</div>
                 <div className="ae-timeline-content">
                   <h4>Content Depth Scan</h4>
-                  <p>AI checks if your page has enough substance to answer the query comprehensively</p>
+                  <p>AI checks if your page has enough substance to answer the query comprehensively Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -635,7 +635,7 @@ export default function Page() {
                 <div className="ae-timeline-marker">5</div>
                 <div className="ae-timeline-content">
                   <h4>Citation Decision</h4>
-                  <p>AI either cites your page as the authoritative source or moves to the next candidate</p>
+                  <p>AI either cites your page as the authoritative source or moves to the next candidate Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
             </div>
@@ -646,14 +646,14 @@ export default function Page() {
 
             <p>AI platforms are engaged in something fundamentally different from keyword matching. They are synthesizing answers, and synthesis requires raw material. A thin service page gives AI nothing to synthesize from. A deep, comprehensive service page gives AI exactly what it needs: specific claims, verifiable data points, clear expertise signals, and structured information it can extract and reformulate into a direct answer.</p>
 
-            <p>Consider what happens when someone asks Perplexity about a service in your category. Perplexity ties every claim to a specific source in 78% of complex research questions. That means your service page needs to contain citable claims, not just marketing copy. Data points, process explanations, pricing frameworks, geographic details, and expertise demonstrations are all elements that give AI something specific to cite. Vague marketing language gives it nothing.</p>
+            <p>Consider what happens when someone asks Perplexity about a service in your category. Perplexity ties every claim to a specific source in 78% of complex research questions. That means your service page needs to contain citable claims, not just marketing copy. Data points, process explanations, pricing frameworks, geographic details, and expertise demonstrations are all elements that give AI something specific to cite. Vague marketing language gives it nothing. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>This does not mean you should publish a 10,000-word wall of text. Content depth is about substance per paragraph, not total volume. Every section of your service page should add a discrete, citable piece of information that AI could potentially extract and use in an answer. If a section does not add new information, it is diluting the page rather than strengthening it.</p>
 
             {/* ── CALLOUT ── */}
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Content Depth Paradox</div>
-              <p>Most businesses think their service pages are comprehensive. Most AI platforms disagree. The gap between what a business owner considers thorough and what AI requires for citation confidence is almost always larger than expected. This is not a critique of the business. It is a reflection of how demanding AI evaluation has become.</p>
+              <p>Most businesses think their service pages are comprehensive. Most AI platforms disagree. The gap between what a business owner considers thorough and what AI requires for citation confidence is almost always larger than expected. This is not a critique of the business. It is a reflection of how demanding AI evaluation has become. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             {/* ── CTA 8 ── */}
@@ -666,11 +666,11 @@ export default function Page() {
             <span className="ae-section-label">The Trust Layer</span>
             <h2>How AI Builds (or Breaks) Trust in Your Content</h2>
 
-            <p>Trust is the invisible layer that determines whether AI cites your page or skips it. And AI trust works differently than human trust. A human visitor might trust your service page because it looks professional and has testimonials. AI trust is built through verifiable consistency across multiple data sources, not visual design.</p>
+            <p>Trust is the invisible layer that determines whether AI cites your page or skips it. And AI trust works differently than human trust. A human visitor might trust your service page because it looks professional and has testimonials. AI trust is built through verifiable consistency across multiple data sources, not visual design. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>When ChatGPT or Perplexity encounters your service page, the trust evaluation includes checking whether your claims match your Google Business Profile, whether your reviews support your expertise claims, whether other authoritative sites mention your business, and whether your content demonstrates knowledge that only a genuine practitioner would have. Every inconsistency weakens the trust score. Every verified signal strengthens it.</p>
 
-            <p>This is why <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">building content that AI trusts</Link> requires a fundamentally different approach than traditional marketing. You are not persuading a human. You are providing evidence to a system that is trained to be skeptical. The businesses that understand this distinction and build their service pages accordingly are the ones getting cited.</p>
+            <p>This is why <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">building content that AI trusts</Link> requires a fundamentally different approach than traditional marketing. You are not persuading a human. You are providing evidence to a system that is trained to be skeptical. The businesses that understand this distinction and build their service pages accordingly are the ones getting cited. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── MINI STATS ── */}
             <div className="ae-stats-grid not-prose">
@@ -706,11 +706,11 @@ export default function Page() {
             <span className="ae-section-label">The Path Forward</span>
             <h2>What Winning Service Pages Get Right</h2>
 
-            <p>The businesses getting consistent AI citations share a set of characteristics that separate their service pages from the 85% that get discarded. These are not secret tactics. They are fundamental content architecture decisions that require deep expertise to execute properly.</p>
+            <p>The businesses getting consistent AI citations share a set of characteristics that separate their service pages from the 85% that get discarded. These are not secret tactics. They are fundamental content architecture decisions that require deep expertise to execute properly. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>Winning service pages are built on entity clarity: AI can instantly identify who the business is, where it operates, and what specific expertise it brings. They include comprehensive structured data that maps every element of the page to a format AI can parse without guessing. They demonstrate expertise through specific, verifiable claims rather than generic marketing assertions. And they answer the actual questions potential customers are asking AI platforms, not just the keywords they are targeting.</p>
 
-            <p>The challenge is that executing all of this simultaneously requires a specific skill set that combines technical SEO knowledge, content strategy expertise, schema markup implementation, and an understanding of how different AI platforms evaluate and cite content. It is not a single task. It is an integrated optimization that touches every layer of the page.</p>
+            <p>The challenge is that executing all of this simultaneously requires a specific skill set that combines technical SEO knowledge, content strategy expertise, schema markup implementation, and an understanding of how different AI platforms evaluate and cite content. It is not a single task. It is an integrated optimization that touches every layer of the page. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* ── CTA 10 ── */}
             <div className="ae-cta-inline not-prose">
@@ -759,7 +759,7 @@ export default function Page() {
 
             {/* ── CTA 11 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Know the signals. Now find out which ones you are missing.</p>
+              <p>Know the signals. Now find out which ones you are missing. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -793,7 +793,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
@@ -808,7 +808,7 @@ export default function Page() {
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">What is the difference between a service page that ranks on Google and one that gets cited by AI?</h3>
-                <p className="ae-faq-answer">Google ranking depends on backlinks, keyword density, and domain authority. AI citation depends on content depth, entity clarity, trust signals, and structured data. A page can rank #1 on Google and still be completely ignored by ChatGPT, Perplexity, and Google AI Overviews because it lacks the authority signals AI systems require before citing a source.</p>
+                <p className="ae-faq-answer">Google ranking depends on backlinks, keyword density, and domain authority. AI citation depends on content depth, entity clarity, trust signals, and structured data. A page can rank #1 on Google and still be completely ignored by ChatGPT, Perplexity, and Google AI Overviews because it lacks the authority signals AI systems require before citing a source. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">Does schema markup on a service page help with AI citations?</h3>
@@ -816,7 +816,7 @@ export default function Page() {
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">How long should a service page be to get cited by AI?</h3>
-                <p className="ae-faq-answer">There is no magic word count, but thin pages under 500 words almost never get cited. AI platforms need enough content depth to verify expertise and extract trustworthy answers. The best performing service pages provide comprehensive coverage of the service, answer common questions, and include unique data points or insights.</p>
+                <p className="ae-faq-answer">There is no magic word count, but thin pages under 500 words almost never get cited. AI platforms need enough content depth to verify expertise and extract trustworthy answers. The best performing service pages provide comprehensive coverage of the service, answer common questions, and include unique data points or insights. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">Can a small business service page compete with large brands for AI citations?</h3>

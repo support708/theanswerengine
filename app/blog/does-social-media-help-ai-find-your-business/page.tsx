@@ -215,7 +215,7 @@ export default function SocialMediaAIBusiness() {
           textAlign: 'center'
         }}>
           <h3 style={{ marginTop: '0', color: '#1e40af' }}>Get Listed in Answer Engine</h3>
-          <p>Your business needs to be where AI looks. See if Answer Engine has your business listed.</p>
+          <p>Your business needs to be where AI looks. See if Answer Engine has your business listed. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <a href="https://theanswerengine.ai" style={{
             display: 'inline-block',
             backgroundColor: '#2563eb',
@@ -237,10 +237,10 @@ export default function SocialMediaAIBusiness() {
           </h2>
           <p style={{ marginBottom: '15px' }}>
             When ChatGPT or Claude decides whether to recommend your plumbing company, your marketing agency, or your consulting firm, they're looking for proof that you're legitimate, active, and trusted. Social media provides exactly that.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p style={{ marginBottom: '15px' }}>
             Here's what AI systems actually check:
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <ul style={{ marginLeft: '20px', marginBottom: '20px' }}>
             <li style={{ marginBottom: '12px' }}><strong>Follower count and engagement:</strong> AI uses this as a legitimacy signal. More followers and engagement typically means a larger, more trusted audience.</li>
             <li style={{ marginBottom: '12px' }}><strong>Post frequency and freshness:</strong> Active businesses post regularly. Dormant profiles signal inactivity or closure.</li>
@@ -259,7 +259,7 @@ export default function SocialMediaAIBusiness() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#6b21a8' }}>Optimize Your Business for AI Discovery</h3>
-          <p>Our AEO audit reviews how AI systems see your social media presence and recommends optimizations.</p>
+          <p>Our AEO audit reviews how AI systems see your social media presence and recommends optimizations. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <a href="https://theanswerengine.ai/blindspot" style={{
             display: 'inline-block',
             backgroundColor: '#9333ea',
@@ -281,17 +281,17 @@ export default function SocialMediaAIBusiness() {
           <h3 style={{ color: '#2563eb', marginTop: '25px', marginBottom: '15px' }}>Layer 1: Direct Data Extraction</h3>
           <p style={{ marginBottom: '15px' }}>
             AI platforms directly analyze your social media profiles. They extract information like business hours, contact details, service descriptions, and customer reviews. This data feeds directly into their recommendation algorithms. If your Facebook page shows you closed at 5 PM but your website says 6 PM, AI notices the inconsistency and marks it as a trust issue.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <h3 style={{ color: '#2563eb', marginTop: '25px', marginBottom: '15px' }}>Layer 2: Sentiment and Engagement Analysis</h3>
           <p style={{ marginBottom: '15px' }}>
             AI systems analyze the sentiment of comments, reviews, and reactions on your social posts. Positive feedback signals customer satisfaction. High engagement rates signal that your audience finds you valuable. AI uses these signals to estimate whether recommending you will lead to customer satisfaction.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <h3 style={{ color: '#2563eb', marginTop: '25px', marginBottom: '15px' }}>Layer 3: Authority and Expertise Extraction</h3>
           <p style={{ marginBottom: '15px' }}>
             AI looks for evidence of expertise in your social posts. Case studies, educational content, industry insights, and thought leadership posts all increase your authority score. A plumber posting about common pipe failures and solutions is more authoritative to AI than one just posting promotional content.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
         </section>
 
         {/* CTA Section 3 */}
@@ -303,7 +303,7 @@ export default function SocialMediaAIBusiness() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#047857' }}>Build Your AEO Social Strategy</h3>
-          <p>Unsure how to optimize your social media for AI discovery? Our experts can guide you.</p>
+          <p>Unsure how to optimize your social media for AI discovery? Our experts can guide you. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           <a href="https://theanswerengine.ai/contact" style={{
             display: 'inline-block',
             backgroundColor: '#10b981',
@@ -326,7 +326,7 @@ export default function SocialMediaAIBusiness() {
             <h3 style={{ color: '#2563eb', marginTop: '0' }}>Facebook & Google My Business (Most Important)</h3>
             <p style={{ marginBottom: '10px' }}>
               These are still the dominant platforms for local business AI discovery. Google My Business directly integrates with Google AI Overview. Facebook has billions of reviews and business data that AI systems use heavily. If you only optimize one social platform for AI, make it Google My Business.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <strong>AI Weight:</strong> 40% of total social signal
           </div>
 
@@ -334,7 +334,7 @@ export default function SocialMediaAIBusiness() {
             <h3 style={{ color: '#2563eb', marginTop: '0' }}>LinkedIn (B2B & Professional Services)</h3>
             <p style={{ marginBottom: '10px' }}>
               For consultants, agencies, and B2B services, LinkedIn is critical. AI systems weight LinkedIn heavily for professional credibility. Your LinkedIn profile is often cited by AI when recommending professional services.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <strong>AI Weight:</strong> 35% for B2B, 15% for local services
           </div>
 
@@ -342,7 +342,7 @@ export default function SocialMediaAIBusiness() {
             <h3 style={{ color: '#2563eb', marginTop: '0' }}>Instagram & TikTok (Lifestyle & Visual Businesses)</h3>
             <p style={{ marginBottom: '10px' }}>
               For restaurants, salons, fitness studios, and creative services, Instagram and TikTok are increasingly important. AI now uses visual content and viral signals to assess relevance and popularity.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <strong>AI Weight:</strong> 25% for restaurants/retail, 30% for agencies
           </div>
 
@@ -350,7 +350,7 @@ export default function SocialMediaAIBusiness() {
             <h3 style={{ color: '#2563eb', marginTop: '0' }}>Twitter/X (News & Thought Leadership)</h3>
             <p style={{ marginBottom: '10px' }}>
               Less critical for local services but important for building industry authority. AI uses Twitter for real-time signals about business activity and industry engagement.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <strong>AI Weight:</strong> 10-15% for most businesses
           </div>
         </section>
@@ -399,7 +399,7 @@ export default function SocialMediaAIBusiness() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#d97706' }}>Content Ideas for AI Discovery</h3>
-          <p>Need help creating content that AI systems will recommend? Download our content strategy guide.</p>
+          <p>Need help creating content that AI systems will recommend? Download our content strategy guide. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           <a href="https://theanswerengine.ai" style={{
             display: 'inline-block',
             backgroundColor: '#f59e0b',
@@ -455,7 +455,7 @@ export default function SocialMediaAIBusiness() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#be185d' }}>See How AI Sees Your Business</h3>
-          <p>Our AI visibility scanner analyzes your social media and shows gaps in your AEO strategy.</p>
+          <p>Our AI visibility scanner analyzes your social media and shows gaps in your AEO strategy. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           <a href="https://theanswerengine.ai/blindspot" style={{
             display: 'inline-block',
             backgroundColor: '#ec4899',
@@ -475,7 +475,7 @@ export default function SocialMediaAIBusiness() {
           </h2>
           <p style={{ marginBottom: '15px' }}>
             In 2025, we're seeing the early stages of real-time AI monitoring of social media. Systems like ChatGPT now have internet access and can pull real-time data from social platforms. This means:
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <ul style={{ marginLeft: '20px', marginBottom: '20px' }}>
             <li style={{ marginBottom: '12px' }}>A viral post can change your AI recommendation score within hours.</li>
             <li style={{ marginBottom: '12px' }}>Negative reviews or controversies spread faster to AI systems.</li>
@@ -485,7 +485,7 @@ export default function SocialMediaAIBusiness() {
           </ul>
           <p style={{ marginBottom: '15px' }}>
             This shift means that social media is no longer a marketing afterthought—it's core infrastructure for AI discovery.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
         </section>
 
         {/* CTA Section 6 */}
@@ -497,7 +497,7 @@ export default function SocialMediaAIBusiness() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#0c4a6e' }}>Start Your AEO Social Media Campaign</h3>
-          <p>Ready to optimize your social presence for AI discovery? Let's build a strategy together.</p>
+          <p>Ready to optimize your social presence for AI discovery? Let's build a strategy together. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           <a href="https://theanswerengine.ai/contact" style={{
             display: 'inline-block',
             backgroundColor: '#0284c7',
@@ -517,7 +517,7 @@ export default function SocialMediaAIBusiness() {
           </h2>
           <p style={{ marginBottom: '15px' }}>
             Here's what you need to do today:
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           <div style={{ backgroundColor: '#f0fdf4', padding: '20px', borderRadius: '8px', border: '2px solid #16a34a' }}>
             <ol style={{ marginLeft: '20px', lineHeight: '1.8' }}>
               <li style={{ marginBottom: '10px' }}>Audit all your social media profiles for consistency in business info.</li>
@@ -539,7 +539,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#5b21b6' }}>Get Listed in Answer Engine</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Be where AI looks for recommendations.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Be where AI looks for recommendations. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <a href="https://theanswerengine.ai" style={{
               display: 'inline-block',
               backgroundColor: '#7c3aed',
@@ -561,7 +561,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#991b1b' }}>Free AEO Audit</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>See how AI sees your business.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>See how AI sees your business. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <a href="https://theanswerengine.ai/blindspot" style={{
               display: 'inline-block',
               backgroundColor: '#dc2626',
@@ -583,7 +583,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#166534' }}>Content Strategy</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Download AEO content framework.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Download AEO content framework. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <a href="https://theanswerengine.ai" style={{
               display: 'inline-block',
               backgroundColor: '#22c55e',
@@ -605,7 +605,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#713f12' }}>Schedule Consultation</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Talk to AEO specialists.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Talk to AEO specialists. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <a href="https://theanswerengine.ai/contact" style={{
               display: 'inline-block',
               backgroundColor: '#eab308',
@@ -629,7 +629,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#164e63' }}>Learn About AEO</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>AEO vs SEO comparison guide.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>AEO vs SEO comparison guide. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blog/aeo-vs-seo" style={{
               display: 'inline-block',
               backgroundColor: '#06b6d4',
@@ -651,7 +651,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#553399' }}>Monthly Updates</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Get AEO insights in your inbox.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Get AEO insights in your inbox. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <a href="https://theanswerengine.ai" style={{
               display: 'inline-block',
               backgroundColor: '#8b5cf6',
@@ -673,7 +673,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#831843' }}>Case Studies</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>See real AEO results.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>See real AEO results. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <a href="https://theanswerengine.ai/case-studies" style={{
               display: 'inline-block',
               backgroundColor: '#f43f5e',
@@ -695,7 +695,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#6b21a8' }}>AEO Tools</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>AI visibility scanners & tools.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>AI visibility scanners & tools. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <a href="https://theanswerengine.ai" style={{
               display: 'inline-block',
               backgroundColor: '#d946ef',
@@ -717,7 +717,7 @@ export default function SocialMediaAIBusiness() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#312e81' }}>Partner Program</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Join our agency partners.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Join our agency partners. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <a href="https://theanswerengine.ai" style={{
               display: 'inline-block',
               backgroundColor: '#6366f1',
@@ -741,17 +741,17 @@ export default function SocialMediaAIBusiness() {
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
             <h3 style={{ color: '#2563eb', marginTop: '0' }}>How long does it take for social media to impact AI rankings?</h3>
-            <p>30-90 days. AI systems need time to collect data and observe patterns. A single viral post won't change your AI visibility overnight, but consistent improvement over weeks will. Start now.</p>
+            <p>30-90 days. AI systems need time to collect data and observe patterns. A single viral post won't change your AI visibility overnight, but consistent improvement over weeks will. Start now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
             <h3 style={{ color: '#2563eb', marginTop: '0' }}>Should I hire someone to manage my social media for AEO?</h3>
-            <p>If you have 5+ hours per week to dedicate to social media, you can do it yourself. Otherwise, hire someone or outsource to an agency. The cost is worth the AI visibility gain.</p>
+            <p>If you have 5+ hours per week to dedicate to social media, you can do it yourself. Otherwise, hire someone or outsource to an agency. The cost is worth the AI visibility gain. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>
             <h3 style={{ color: '#2563eb', marginTop: '0' }}>Does TikTok help with AEO for local services?</h3>
-            <p>For younger audiences and trend-driven businesses (fitness, beauty, restaurants), yes. For B2B services and older demographics, LinkedIn and Facebook matter more. Know your audience.</p>
+            <p>For younger audiences and trend-driven businesses (fitness, beauty, restaurants), yes. For B2B services and older demographics, LinkedIn and Facebook matter more. Know your audience. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #2563eb', paddingLeft: '20px' }}>

@@ -308,18 +308,18 @@ export default function WhyChatGPTIsntRecommending() {
             </div>
           </div>
 
-          <p>When someone asks ChatGPT "Who is the best real estate agent in Los Angeles?" or "Which HVAC company should I hire in Phoenix?" your business should be the answer. But chances are, you are invisible. Not because you lack experience. Not because you are unqualified. Because AI platforms evaluate businesses using completely different signals than traditional search engines, and most companies do not understand what those signals are.</p>
+          <p>When someone asks ChatGPT "Who is the best real estate agent in Los Angeles?" or "Which HVAC company should I hire in Phoenix?" your business should be the answer. But chances are, you are invisible. Not because you lack experience. Not because you are unqualified. Because AI platforms evaluate businesses using completely different signals than traditional search engines, and most companies do not understand what those signals are. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>This guide reveals the three critical reasons ChatGPT (and other AI platforms like Claude, Perplexity, and Google AI Overviews) ignore your business and the exact systematic process one team used to go from zero AI citations to 177,000 weekly impressions in 90 days.</p>
+          <p>This guide reveals the three critical reasons ChatGPT (and other AI platforms like Claude, Perplexity, and Google AI Overviews) ignore your business and the exact systematic process one team used to go from zero AI citations to 177,000 weekly impressions in 90 days. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Reality Check</div>
-            <p>If you ask ChatGPT to recommend a business in your industry and your city right now, and your business does not appear, you are losing customers to competitors every single day. AI-powered search now drives over 40% of buyer research.</p>
+            <p>If you ask ChatGPT to recommend a business in your industry and your city right now, and your business does not appear, you are losing customers to competitors every single day. AI-powered search now drives over 40% of buyer research. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* -- CTA 1 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure whether ChatGPT recommends your business or your competitor? Find out in 60 seconds.</p>
+            <p>Not sure whether ChatGPT recommends your business or your competitor? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -327,24 +327,24 @@ export default function WhyChatGPTIsntRecommending() {
           <span className="ae-section-label">Case Study</span>
           <h2>The 177,000 Weekly Impressions Story</h2>
 
-          <p>A real estate team in Los Angeles was getting zero ChatGPT citations despite having 15 years of experience, hundreds of successful transactions, a well-designed website, an active social media presence, and positive client reviews.</p>
+          <p>A real estate team in Los Angeles was getting zero ChatGPT citations despite having 15 years of experience, hundreds of successful transactions, a well-designed website, an active social media presence, and positive client reviews. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-          <p>When they tested ChatGPT with market-specific questions like "Who is the best real estate agent for probate sales in Los Angeles?" their business never appeared. Not once.</p>
+          <p>When they tested ChatGPT with market-specific questions like "Who is the best real estate agent for probate sales in Los Angeles?" their business never appeared. Not once. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-quote not-prose">
-            <p>We had everything a traditional marketing agency would call "optimized." But when we tested AI search, we were completely invisible. That was the wake-up call.</p>
+            <p>We had everything a traditional marketing agency would call "optimized." But when we tested AI search, we were completely invisible. That was the wake-up call. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
-          <p><strong>What changed:</strong> They implemented the Answer Authority Foundation process. 90 days later, ChatGPT was citing them consistently, generating 177,000 weekly impressions. The difference? They fixed the three critical failures that make AI platforms ignore businesses.</p>
+          <p><strong>What changed:</strong> They implemented the Answer Authority Foundation process. 90 days later, ChatGPT was citing them consistently, generating 177,000 weekly impressions. The difference? They fixed the three critical failures that make AI platforms ignore businesses. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Traditional marketing credentials (experience, reviews, website design) do not translate into AI visibility. AI platforms use a completely separate set of trust signals to decide which businesses to recommend.</p>
+            <p>Traditional marketing credentials (experience, reviews, website design) do not translate into AI visibility. AI platforms use a completely separate set of trust signals to decide which businesses to recommend. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* -- CTA 2 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering if your marketing investments are actually visible to AI platforms? Get the data.</p>
+            <p>Wondering if your marketing investments are actually visible to AI platforms? Get the data. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Check Your AI Visibility Now</Link>
           </div>
 
@@ -352,7 +352,7 @@ export default function WhyChatGPTIsntRecommending() {
           <span className="ae-section-label">The Problem</span>
           <h2>The Three Critical Failures That Make AI Ignore Your Business</h2>
 
-          <p>AI platforms do not evaluate businesses the way humans do. Understanding these three failures is the difference between visibility and complete invisibility across every AI-powered search platform.</p>
+          <p>AI platforms do not evaluate businesses the way humans do. Understanding these three failures is the difference between visibility and complete invisibility across every AI-powered search platform. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* -- BAR GROUP -- */}
           <div className="ae-bar-group not-prose">
@@ -381,9 +381,9 @@ export default function WhyChatGPTIsntRecommending() {
           {/* -- REASON 1 -- */}
           <h3>Reason 1: Your Business Identity Is Fragmented Across the Internet</h3>
 
-          <p>Here is what most business owners do not realize: <strong>AI platforms verify your business identity across dozens of data sources before citing you.</strong> When ChatGPT considers recommending your business, it cross-references Google Business Profile, Apple Maps, Bing Places, Facebook, Yelp, Better Business Bureau, industry-specific directories, and 40+ other platforms.</p>
+          <p>Here is what most business owners do not realize: <strong>AI platforms verify your business identity across dozens of data sources before citing you.</strong> When ChatGPT considers recommending your business, it cross-references Google Business Profile, Apple Maps, Bing Places, Facebook, Yelp, Better Business Bureau, industry-specific directories, and 40+ other platforms. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-          <p>If your NAP (Name, Address, Phone) data is inconsistent across these platforms, even slightly, AI treats your business as unreliable and skips you entirely.</p>
+          <p>If your NAP (Name, Address, Phone) data is inconsistent across these platforms, even slightly, AI treats your business as unreliable and skips you entirely. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           {/* -- COMPARISON TABLE: What Humans See vs What AI Sees -- */}
           <table className="ae-comparison-table not-prose">
@@ -430,24 +430,24 @@ export default function WhyChatGPTIsntRecommending() {
 
           <div className="ae-callout not-prose">
             <div className="ae-callout-title">Why This Happens</div>
-            <p>Previous business owners updated some platforms but not others. Marketing agencies created new listings without updating old ones. Staff members entered information differently. Business names evolved but old listings remain. You moved offices but forgot to update lesser-known directories. The result: 30-40 inconsistencies you never knew existed.</p>
+            <p>Previous business owners updated some platforms but not others. Marketing agencies created new listings without updating old ones. Staff members entered information differently. Business names evolved but old listings remain. You moved offices but forgot to update lesser-known directories. The result: 30-40 inconsistencies you never knew existed. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>When ChatGPT evaluates your business and sees conflicting data across platforms, it assigns low confidence to your entity. Low confidence means no citation, even if you are otherwise the most qualified business in your market.</p>
+            <p>When ChatGPT evaluates your business and sees conflicting data across platforms, it assigns low confidence to your entity. Low confidence means no citation, even if you are otherwise the most qualified business in your market. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* -- CTA 3 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Most businesses have NAP inconsistencies across 30+ platforms without knowing it. See where yours stand.</p>
+            <p>Most businesses have NAP inconsistencies across 30+ platforms without knowing it. See where yours stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             <Link href="/blindspot">Audit Your Entity Consistency</Link>
           </div>
 
           {/* -- REASON 2 -- */}
           <h3>Reason 2: You Are Speaking Human, But AI Only Reads Structure</h3>
 
-          <p>This is the shocking realization for most business owners. Your beautifully written "About Us" page? <strong>AI ignores it.</strong> Your 20 years in business? <strong>AI does not "see" it.</strong> Your passion, your story, your customer focus? <strong>Meaningless to AI</strong> unless you translate it into structured language called schema markup.</p>
+          <p>This is the shocking realization for most business owners. Your beautifully written "About Us" page? <strong>AI ignores it.</strong> Your 20 years in business? <strong>AI does not "see" it.</strong> Your passion, your story, your customer focus? <strong>Meaningless to AI</strong> unless you translate it into structured language called schema markup. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           {/* -- PROS-CONS: What You Have vs What AI Needs -- */}
           <div className="ae-pros-cons not-prose">
@@ -471,7 +471,7 @@ export default function WhyChatGPTIsntRecommending() {
             </div>
           </div>
 
-          <p><strong>Schema markup</strong> is JSON-LD code that acts as subtitles for AI platforms. It tells AI exactly what your business does, what questions you answer, who your experts are, and what services you provide, all in a format AI can parse instantly.</p>
+          <p><strong>Schema markup</strong> is JSON-LD code that acts as subtitles for AI platforms. It tells AI exactly what your business does, what questions you answer, who your experts are, and what services you provide, all in a format AI can parse instantly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* -- DECISION MATRIX: Schema Types -- */}
           <div className="ae-decision-matrix not-prose">
@@ -521,19 +521,19 @@ export default function WhyChatGPTIsntRecommending() {
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Technical Warning</div>
-            <p>Schema markup must be written in perfect JSON-LD syntax. If one curly brace or comma is wrong, the entire implementation fails silently. Your site looks normal to visitors, but AI sees nothing. This is not a YouTube-tutorial fix. It is technical, fragile, and easy to break.</p>
+            <p>Schema markup must be written in perfect JSON-LD syntax. If one curly brace or comma is wrong, the entire implementation fails silently. Your site looks normal to visitors, but AI sees nothing. This is not a YouTube-tutorial fix. It is technical, fragile, and easy to break. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* -- CTA 4 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Schema markup is the language AI platforms speak. Find out if your site is fluent or completely silent.</p>
+            <p>Schema markup is the language AI platforms speak. Find out if your site is fluent or completely silent. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Check Your Schema Coverage</Link>
           </div>
 
           {/* -- REASON 3 -- */}
           <h3>Reason 3: Your Content Sounds Like Everyone Else (Including AI)</h3>
 
-          <p>Here is the irony: <strong>If you used ChatGPT to write your website content, ChatGPT can detect that and will not cite it.</strong> AI platforms automatically deprioritize anything that reads like AI wrote it. They are looking for authentic expertise, specific scenarios, and information that demonstrates real-world experience.</p>
+          <p>Here is the irony: <strong>If you used ChatGPT to write your website content, ChatGPT can detect that and will not cite it.</strong> AI platforms automatically deprioritize anything that reads like AI wrote it. They are looking for authentic expertise, specific scenarios, and information that demonstrates real-world experience. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           {/* -- COMPARISON TABLE: Generic vs Authority -- */}
           <table className="ae-comparison-table not-prose">
@@ -574,17 +574,17 @@ export default function WhyChatGPTIsntRecommending() {
           </table>
 
           <div className="ae-quote not-prose">
-            <p>AI has read the phrase "customer satisfaction is our priority" millions of times across millions of websites. It carries zero authority weight. What AI actually cites is specific expertise that cannot be replicated by generic content.</p>
+            <p>AI has read the phrase "customer satisfaction is our priority" millions of times across millions of websites. It carries zero authority weight. What AI actually cites is specific expertise that cannot be replicated by generic content. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Authority content describes real scenarios, includes financial consequences, demonstrates unique expertise through proprietary frameworks, and shows process instead of platitudes. This is what gets cited. Everything else gets ignored.</p>
+            <p>Authority content describes real scenarios, includes financial consequences, demonstrates unique expertise through proprietary frameworks, and shows process instead of platitudes. This is what gets cited. Everything else gets ignored. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
           {/* -- CTA 5 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Is your content the kind AI cites, or the kind it skips? There is only one way to find out.</p>
+            <p>Is your content the kind AI cites, or the kind it skips? There is only one way to find out. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Analyze Your Content Authority</Link>
           </div>
 
@@ -592,7 +592,7 @@ export default function WhyChatGPTIsntRecommending() {
           <span className="ae-section-label">Integrity Standard</span>
           <h2>The "Flag, Do Not Fabricate" Problem</h2>
 
-          <p>Here is the uncomfortable truth many agencies will not tell you: Some competitors currently getting cited are using fabricated case studies, made-up testimonials, and fake authority signals. And yes, for now, AI often believes them.</p>
+          <p>Here is the uncomfortable truth many agencies will not tell you: Some competitors currently getting cited are using fabricated case studies, made-up testimonials, and fake authority signals. And yes, for now, AI often believes them. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           {/* -- PROS-CONS: Fabrication -- */}
           <div className="ae-pros-cons not-prose">
@@ -617,11 +617,11 @@ export default function WhyChatGPTIsntRecommending() {
             </div>
           </div>
 
-          <p>Our standard is simple: <strong>Flag, do not fabricate.</strong> Every claim is verified through client records, extracted from actual expertise, backed by real experience, and documented with permission. It takes longer. But it creates authority that lasts.</p>
+          <p>Our standard is simple: <strong>Flag, do not fabricate.</strong> Every claim is verified through client records, extracted from actual expertise, backed by real experience, and documented with permission. It takes longer. But it creates authority that lasts. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* -- CTA 6 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to build real authority that compounds over time instead of fake signals that collapse? Talk to us.</p>
+            <p>Want to build real authority that compounds over time instead of fake signals that collapse? Talk to us. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <a href="tel:+12134442229">Call (213) 444-2229</a>
           </div>
 
@@ -629,7 +629,7 @@ export default function WhyChatGPTIsntRecommending() {
           <span className="ae-section-label">The Solution</span>
           <h2>The 3-Step Fix That Actually Works</h2>
 
-          <p>The Los Angeles real estate team that went from zero to 177,000 weekly impressions did not guess. They systematically addressed all three failures in the correct sequence. Here is the exact process.</p>
+          <p>The Los Angeles real estate team that went from zero to 177,000 weekly impressions did not guess. They systematically addressed all three failures in the correct sequence. Here is the exact process. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           {/* -- TIMELINE -- */}
           <div className="ae-timeline not-prose">
@@ -652,7 +652,7 @@ export default function WhyChatGPTIsntRecommending() {
 
           {/* -- CTA 7 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to skip the trial and error? We have spent two years testing exactly what makes AI platforms cite businesses.</p>
+            <p>Want to skip the trial and error? We have spent two years testing exactly what makes AI platforms cite businesses. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot">See What AI Sees About Your Business</Link>
           </div>
 
@@ -719,7 +719,7 @@ export default function WhyChatGPTIsntRecommending() {
 
           {/* -- CTA 8 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Fixing 47+ platforms yourself takes 15-20 hours of tedious work. Or you can have us handle it in the first two weeks.</p>
+            <p>Fixing 47+ platforms yourself takes 15-20 hours of tedious work. Or you can have us handle it in the first two weeks. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <a href="mailto:support@theanswerengine.ai">Email Us to Get Started</a>
           </div>
 

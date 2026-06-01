@@ -425,13 +425,13 @@ export default function Page() {
           <section className="mb-14">
             <p className="text-gray-300 leading-relaxed mb-5 text-lg">
               You typed your own company name into ChatGPT. Your competitor showed up. Maybe they appeared in a list of &ldquo;top options&rdquo; where your name should have been. Maybe the AI described services that belong to your competitor while using language that almost fits your business. Maybe your name appeared at the bottom of a list, under three competitors, as an afterthought.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <p className="text-gray-300 leading-relaxed mb-5">
               Whatever happened, the feeling is the same: AI does not really know who you are. And if AI does not know who you are, neither will the growing segment of customers who are using AI as their first stop when looking for a business like yours.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             <p className="text-gray-300 leading-relaxed mb-5">
               The core truth behind what you experienced: AI does not recommend the best business. It recommends the best-understood one. Your competitor is appearing not because they are superior, but because AI has more confident, consistent, and corroborated information about them than it does about you. The gap is not in your product. It is in your brand signal footprint.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* Inline CTA 1 */}
             <div
@@ -443,7 +443,7 @@ export default function Page() {
             >
               <p className="text-sm text-gray-300 mb-3">
                 Not sure if AI is confusing your brand with a competitor right now? Find out in 48 hours with a free audit.
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -471,11 +471,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               AI language models do not browse the internet in real time to evaluate your business against competitors. They generate responses based on probability patterns learned from billions of documents. When someone asks ChatGPT which business to use in your category, the model does not compare your offerings side by side. It calculates which brand names and descriptions are most statistically probable and coherent given the context of the question.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               That calculation depends almost entirely on how often and how consistently your brand appears in the types of sources the model was trained on. Analyst reports. Comparison articles. G2 and Trustpilot reviews. Reddit discussions. Trade publication features. Earned press mentions. If your competitor appears in 200 of those sources and you appear in five, the model defaults to your competitor. Not because it evaluated quality. Because it is following the weight of evidence.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Quote Box */}
             <div
@@ -484,21 +484,21 @@ export default function Page() {
             >
               <p className="text-gray-200 italic text-lg leading-relaxed mb-2">
                 &ldquo;AI does not recommend the best business. It recommends the best-understood one. The gap is not in your product. It is in your brand signal footprint.&rdquo;
-              </p>
-              <p className="text-sm" style={{ color: '#F27D24' }}>The Answer Engine Research Team</p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+              <p className="text-sm" style={{ color: '#F27D24' }}>The Answer Engine Research Team Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is why 80% of users rely on AI summaries for 40% or more of their purchasing decisions, and yet most businesses have never audited what AI actually says about them. The customers are already there. The question is whether AI is sending them to you or your competitors.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Only 2 to 7 domains get cited per AI response, compared to Google&apos;s ten results. That is a dramatically smaller window to be included. And if your brand signal footprint is thin compared to competitors who have been intentionally building it, you are structurally excluded from those citations, not ranked lower in them. There is no position 8 in AI search. There is only cited and not cited.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               For more on how <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-orange-400 hover:underline">AI has wrong information about your business</Link> and how those errors compound into recommendation failures, see our deep dive on that specific pattern.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </section>
 
           {/* Section 2: Five Signals */}
@@ -515,7 +515,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               When AI consistently recommends your competitor over you, it is almost always because they are stronger across one or more of these five signal dimensions. The gap is rarely dramatic at any single point. It is the accumulation that tips the scale.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="space-y-6 mb-10">
               {[
@@ -562,7 +562,7 @@ export default function Page() {
                     </div>
                     <div>
                       <h3 className="font-plus-jakarta font-bold text-white mb-2">{item.title}</h3>
-                      <p className="text-sm text-gray-300 leading-relaxed">{item.body}</p>
+                      <p className="text-sm text-gray-300 leading-relaxed">{item.body} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                     </div>
                   </div>
                 </div>
@@ -593,7 +593,7 @@ export default function Page() {
                 <div>
                   <p className="font-semibold mb-3" style={{ color: '#FCD34D' }}>
                     Signs AI Has Confused Your Brand with a Competitor
-                  </p>
+                   Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                   <ul className="space-y-2">
                     {[
                       'AI describes services that belong to your competitor when asked about your business',
@@ -634,7 +634,7 @@ export default function Page() {
             >
               <p className="text-sm text-gray-300 mb-3">
                 Understanding how <Link href="/blog/how-press-mentions-help-ai-recommend-you" className="text-orange-400 hover:underline">press mentions and third-party validation</Link> drive AI citations is the first step toward closing the signal gap.
-              </p>
+               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -665,15 +665,15 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               There is a technical name for what is happening when AI confuses your brand with a competitor: entity disambiguation failure. AI models do not have a precise, verified registry of every business in the world. They build a probabilistic understanding of entities, including businesses, based on patterns in their training data.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When a user asks about your business, the model tries to identify which entity they mean by matching the query to the most probable entity in its knowledge. If your brand signals are weak or inconsistent, the model has low confidence in your entity. When confidence is low and a similar, better-understood entity exists nearby in the model&apos;s probability space, the model blends or substitutes. The result is that AI confidently recommends the wrong company.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is not a bug. It is working as designed. The model is trying to give the most helpful answer it can with the information it has. The problem is that the information it has about your brand is thin, inconsistent, or contradicted by stronger signals for your competitor.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Callout Info */}
             <div
@@ -699,10 +699,10 @@ export default function Page() {
                 <div>
                   <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>
                     The 18% Hallucination Problem
-                  </p>
+                   Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Stanford AI Index 2024 found that 18% of LLM brand mentions contain hallucinations or entity misattributions. That means nearly one in five times AI mentions a brand, it may be attributing information that belongs to a different company. If your brand signals are weak and a competitor&apos;s are strong, your company is the likely recipient of misattributed facts, not the source of accurate ones. The model fills in gaps with what it is most confident about, and that confidence belongs to your competitor.
-                  </p>
+                   Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
             </div>
@@ -713,7 +713,7 @@ export default function Page() {
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
               Here is what the difference actually looks like between a brand AI confidently recommends and a brand AI confuses or ignores.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div
               className="ae-comparison-table overflow-x-auto mb-10 rounded-xl"
@@ -784,11 +784,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When AI encounters a brand with strong signals, entity disambiguation succeeds. The model knows exactly who you are, what you do, and why you are a credible answer. When the signals are weak, disambiguation fails. The model substitutes the nearest confident entity, which is usually your best-resourced competitor.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is also why <Link href="/blog/does-schema-markup-help-ai-search" className="text-orange-400 hover:underline">schema markup for clarity</Link> matters more than most business owners realize. Structured data does not just help Google. It gives AI models a machine-readable anchor point for your entity that reduces disambiguation errors.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* Inline CTA 3 */}
             <div
@@ -800,7 +800,7 @@ export default function Page() {
             >
               <p className="text-sm text-gray-300 mb-3">
                 Wondering if your brand has an entity disambiguation problem? We audit this specifically in our blind spot report.
-              </p>
+               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -828,11 +828,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               It is tempting to frame AI brand confusion as a reputation annoyance rather than a revenue problem. The data does not support that framing. Forty-one percent of consumers have purchased a product recommended by AI in the past six months. Eighty percent of users rely on AI summaries for 40% or more of their purchasing decisions. These are not tech early adopters. These are mainstream consumers making real purchase decisions based on what AI tells them.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When AI recommends your competitor instead of you in response to a high-intent query, the typical outcome is not that the customer searches further. AI recommendation carries enough authority that most users act on the first confident answer. The conversion path from AI recommendation is shorter than almost any other channel. That is why 41% purchase rates from AI recommendations are so significant. The lead never entered your funnel.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Takeaway Box */}
             <div
@@ -847,20 +847,20 @@ export default function Page() {
               </div>
               <p className="text-gray-200 leading-relaxed">
                 AI brand confusion is a lead generation problem disguised as a brand problem. When AI recommends your competitor, you do not just lose visibility. You lose a customer who was ready to buy and never knew you existed as an option. The revenue loss is invisible because it never shows up in your analytics as a lost lead. It simply never appears at all.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The compounding dimension makes this worse. When AI consistently recommends your competitor, they accumulate more reviews, more press, more third-party mentions. Every citation they receive strengthens their signal footprint for the next round of training data. The gap between your brand confidence score and theirs widens with every passing month you do not address it.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Consider also the risk of <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="text-orange-400 hover:underline">sudden drops in AI visibility</Link>. A brand that is marginally present today can disappear entirely after a model update that raises the confidence threshold. Businesses that have not built robust brand signal footprints are one model update away from complete AI invisibility.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               There is also a customer trust dimension. When a potential customer searches your business name and AI recommends your competitor instead, some will interpret that as a signal of legitimacy. &ldquo;If AI thinks the competitor is better, maybe they are.&rdquo; AI carries implicit authority for a growing segment of consumers. A competitor who wins the AI recommendation for your branded query is effectively borrowing that authority.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </section>
 
           {/* Section 5: Pros/Cons */}

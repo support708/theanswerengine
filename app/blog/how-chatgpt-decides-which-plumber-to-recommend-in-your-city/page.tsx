@@ -274,7 +274,7 @@ export default function ChatGPTPlumberPage() {
 
           {/* TOC */}
           <div className="border border-white/10 rounded-lg p-6 bg-white/[0.02] mb-12">
-            <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-4">In This Article</p>
+            <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-4">In This Article Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <ol className="space-y-2 text-sm text-white/60 list-decimal list-inside">
               <li><a href="#step-by-step" className="hover:text-white transition-colors">How ChatGPT Recommends a Plumber, Step by Step</a></li>
               <li><a href="#four-sources" className="hover:text-white transition-colors">The Four Sources Behind a ChatGPT Plumber Recommendation</a></li>
@@ -307,14 +307,14 @@ export default function ChatGPTPlumberPage() {
 
           {/* Named thesis */}
           <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-12">
-            <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis</p>
+            <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             <p className="text-white/90 font-medium leading-relaxed">
               The Plumber Recommendation Pipeline: ChatGPT does not score plumbers - ChatGPT scores
               chunks. A local plumbing query triggers a four-source retrieval pass across the live
               web index, training corpus residue, knowledge graph entity links, and operator-published
               authority content, and only the structurally correct passages reach the synthesis step.
               <span className="text-white/50 text-sm ml-2">(GEO-SFE, 2026)</span>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* Section 1 */}
@@ -329,7 +329,7 @@ export default function ChatGPTPlumberPage() {
               synthesis with attribution. The cited plumber is not the highest-rated business on
               Yelp or the highest-ranking business on Google. The cited plumber is the operator
               whose own domain published the chunks the model decided to extract.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-white/80 leading-relaxed mb-8">
               The foundational academic work in AI citation optimization is less than two years old,
@@ -339,7 +339,7 @@ export default function ChatGPTPlumberPage() {
               rather than a marketing tactic.{' '}
               <a href="sms:+12134442229" className="text-[#F27D24]">Text (213) 444-2229</a> with
               a domain URL for a same-day exposure score.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* 4-step pipeline */}
             <div className="grid md:grid-cols-2 gap-4 mb-8">
@@ -352,7 +352,7 @@ export default function ChatGPTPlumberPage() {
                 <div key={step.num} className="border border-white/10 rounded-lg p-5 bg-white/[0.02]">
                   <div className="font-headline text-3xl font-black text-[#F27D24]/30 mb-3">{step.num}</div>
                   <h3 className="font-headline font-black tracking-tighter uppercase text-sm mb-2">{step.title}</h3>
-                  <p className="text-white/60 text-sm leading-relaxed">{step.body}</p>
+                  <p className="text-white/60 text-sm leading-relaxed">{step.body} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
                 </div>
               ))}
             </div>
@@ -365,7 +365,7 @@ export default function ChatGPTPlumberPage() {
                 A 500-review plumber with no authority content can lose to a 40-review plumber
                 with 60 AEO-structured articles. First citations appear inside 30 days at a
                 16-article-per-month cadence.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             <p className="text-white/80 leading-relaxed">
@@ -378,7 +378,7 @@ export default function ChatGPTPlumberPage() {
                 Book a 30-minute review
               </a>{' '}
               to see the citation slot mapped to a live plumbing page.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </section>
 
           {/* Section 2 */}
@@ -393,7 +393,7 @@ export default function ChatGPTPlumberPage() {
                 content is the only source a plumbing business fully controls. The live web index,
                 training corpus residue, and knowledge graph are background context - they confirm
                 you exist. The decisive citation lever is what your own domain publishes.
-              </p>
+               Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p className="text-white/80 leading-relaxed mb-6">
@@ -405,17 +405,17 @@ export default function ChatGPTPlumberPage() {
                 Run the free Blindspot Report
               </a>{' '}
               to see which of the four sources currently carries a plumbing domain's signal.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis</p>
+              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <p className="text-white/90 font-medium leading-relaxed text-sm">
                 The Plumber Authority Asymmetry: a Yelp listing and a Google Business Profile cannot
                 win an AI plumber recommendation alone - the citation slot goes to the operator whose
                 own domain publishes definition-first, attribution-anchored chunks about the local
                 plumbing category.{' '}
                 <span className="text-white/50 font-mono">Aggarwal et al. (KDD 2024); Chen et al. (2025)</span>
-              </p>
+               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             <div className="space-y-6">
@@ -438,9 +438,9 @@ export default function ChatGPTPlumberPage() {
               ].map((src, i) => (
                 <div key={i} className="border border-white/10 rounded-lg p-5 bg-white/[0.01]">
                   <h3 className="font-headline font-black tracking-tighter uppercase text-base mb-3">{src.title}</h3>
-                  <p className="text-white/75 leading-relaxed text-sm mb-3">{src.body}</p>
+                  <p className="text-white/75 leading-relaxed text-sm mb-3">{src.body} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                   {src.cite && (
-                    <p className="font-mono text-xs text-white/40 border-t border-white/10 pt-3">{src.cite}</p>
+                    <p className="font-mono text-xs text-white/40 border-t border-white/10 pt-3">{src.cite} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                   )}
                 </div>
               ))}
@@ -454,13 +454,13 @@ export default function ChatGPTPlumberPage() {
             </h2>
 
             <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis</p>
+              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <p className="text-white/90 font-medium leading-relaxed text-sm">
                 The Definition Premium: an article that opens its plumber-related H3 with a
                 plain-language definition of the service category earns 57 percent higher citation
                 probability than an article that buries the definition mid-page.{' '}
                 <span className="text-white/50 font-mono">Zhang et al. (2026)</span>
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             {/* Signal comparison table */}
@@ -500,14 +500,14 @@ export default function ChatGPTPlumberPage() {
                 <div key={item.sig} className="border border-white/10 rounded-lg p-5 bg-white/[0.01]">
                   <span className="font-mono text-xs text-[#F27D24] mb-2 block">{item.sig}</span>
                   <h3 className="font-headline font-black tracking-tighter uppercase text-base mb-3">{item.title}</h3>
-                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body}</p>
+                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body} <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                   <a href={item.cta.href} className="text-[#F27D24] text-sm hover:underline">{item.cta.text} &rarr;</a>
                 </div>
               ))}
             </div>
 
             <div className="bg-[#F27D24]/8 border border-[#F27D24]/20 rounded-lg p-5">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-3">Key Takeaways - Five Signals</p>
+              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-3">Key Takeaways - Five Signals <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <ul className="space-y-2 text-sm text-white/75">
                 <li>Definition-first openings earn a 57% citation premium</li>
                 <li>Inline attribution (named sources) lifts chunk influence by 22-37%</li>
@@ -531,18 +531,18 @@ export default function ChatGPTPlumberPage() {
                 in AI search. Each is a strong input to Google Map Pack. Each is a weak or zero
                 input to ChatGPT chunk retrieval. Operators who optimize for the wrong surface spend
                 real budget on signals that do not produce citations.
-              </p>
+               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis</p>
+              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <p className="text-white/90 font-medium leading-relaxed text-sm">
                 The Local Invisibility Default: fewer than four percent of United States plumbing
                 service domains carry any of the four structural signals retrievers reward, which
                 means the ChatGPT citation slot in most cities is structurally open until the first
                 plumbing operator commits.{' '}
                 <span className="text-white/50 font-mono">Answer Engine Field Audit (2026)</span>
-              </p>
+               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             {/* Comparison table */}
@@ -581,7 +581,7 @@ export default function ChatGPTPlumberPage() {
               ].map((item) => (
                 <div key={item.title} className="border border-white/10 rounded-lg p-5 bg-white/[0.01]">
                   <h3 className="font-headline font-black tracking-tighter uppercase text-base mb-3 text-red-400">{item.title}</h3>
-                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body}</p>
+                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body} Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                   <a href={item.cta.href} className="text-[#F27D24] text-sm hover:underline">{item.cta.text} &rarr;</a>
                 </div>
               ))}
@@ -601,7 +601,7 @@ export default function ChatGPTPlumberPage() {
               The Answer Engine measures both through a single instrument - the Proof Ledger - which
               records every citation a plumbing property earns across ChatGPT, Claude, Gemini, and
               Perplexity AI.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="border border-white/10 rounded-lg p-5 bg-white/[0.02] mb-8 font-mono text-xs text-white/50 leading-relaxed">
               <strong className="text-white">Method note.</strong> This analysis draws on four
@@ -613,17 +613,17 @@ export default function ChatGPTPlumberPage() {
             </div>
 
             <div className="border-l-4 border-[#F27D24] bg-[#F27D24]/5 p-6 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis</p>
+              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24]/60 mb-3">Named Thesis Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p className="text-white/90 font-medium leading-relaxed text-sm">
                 The Proof Ledger Standard: the only durable measurement instrument for plumbing AEO
                 is a dated, public record of citations earned across the four major LLM platforms.
                 Rank reports measure the wrong surface and review dashboards measure the wrong unit.{' '}
                 <span className="text-white/50 font-mono">Answer Engine Method (2026)</span>
-              </p>
+               Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             <div className="bg-[#F27D24]/8 border border-[#F27D24]/20 rounded-lg p-5 mb-8">
-              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-4">90-Day Citation Trajectory</p>
+              <p className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] mb-4">90-Day Citation Trajectory <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <div className="space-y-3">
                 {[
                   { period: 'Day 1-30', outcome: 'First ChatGPT citation logged in the Proof Ledger for the primary city keyword' },
@@ -646,7 +646,7 @@ export default function ChatGPTPlumberPage() {
               ].map((item) => (
                 <div key={item.title} className="border border-white/10 rounded-lg p-5">
                   <h3 className="font-headline font-black tracking-tighter uppercase text-base mb-3">{item.title}</h3>
-                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body}</p>
+                  <p className="text-white/75 text-sm leading-relaxed mb-3">{item.body} <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                   <a href={item.cta.href} className="text-[#F27D24] text-sm hover:underline">{item.cta.text} &rarr;</a>
                 </div>
               ))}
@@ -655,7 +655,7 @@ export default function ChatGPTPlumberPage() {
 
           {/* Internal links */}
           <div className="border-t border-b border-white/10 py-8 mb-12">
-            <p className="font-headline text-xs font-black tracking-tighter uppercase text-white/30 mb-4">Related Reading</p>
+            <p className="font-headline text-xs font-black tracking-tighter uppercase text-white/30 mb-4">Related Reading <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <ul className="space-y-3">
               <li className="border-l-2 border-[#F27D24] pl-4">
                 <Link href="/blog/how-to-get-cited-by-ai-search" className="text-sm text-white hover:text-[#F27D24] transition-colors">
@@ -693,7 +693,7 @@ export default function ChatGPTPlumberPage() {
                     <span className="text-[#F27D24] font-mono text-lg shrink-0 group-open:rotate-45 transition-transform">+</span>
                   </summary>
                   <div className="px-5 pb-5">
-                    <p className="text-white/70 leading-relaxed text-sm">{faq.acceptedAnswer.text}</p>
+                    <p className="text-white/70 leading-relaxed text-sm">{faq.acceptedAnswer.text} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                   </div>
                 </details>
               ))}
@@ -704,7 +704,7 @@ export default function ChatGPTPlumberPage() {
           <section className="ae-final-cta text-center">
             <div className="ae-final-cta-pulse" />
             <div className="relative z-10">
-              <p className="ae-section-label mb-4">One plumbing operator per city</p>
+              <p className="ae-section-label mb-4">One plumbing operator per city <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <h2 className="font-headline text-3xl md:text-4xl font-black tracking-tighter uppercase mb-4">
                 Claim the ChatGPT Plumber Citation Slot in Your City
               </h2>

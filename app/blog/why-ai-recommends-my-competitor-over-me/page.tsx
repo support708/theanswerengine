@@ -261,23 +261,23 @@ export default function Page() {
 
             <p className="text-xl text-gray-300 leading-relaxed mb-6">
               You built something real. You have the reviews, the track record, and the satisfied customers who come back year after year. Your competitor opened two years after you. They have fewer reviews, a lower rating, and half the experience. Yet when someone asks ChatGPT, Perplexity, or Google&apos;s AI for a recommendation in your category, your competitor&apos;s name appears. Yours does not.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               This is not a glitch. It is not bias. And it is not a reflection of who actually delivers better service. It is the result of a fundamental shift in how AI platforms evaluate businesses, and most business owners have no idea it is happening.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Hard Truth</div>
-              <p>AI does not evaluate quality. It evaluates how well it understands your business. A competitor with 200 cross-platform mentions beats you with 20 every time, regardless of who is actually better. The systems that control AI recommendations reward businesses that are well-documented across the web, not businesses that deliver the best outcomes.</p>
+              <p>AI does not evaluate quality. It evaluates how well it understands your business. A competitor with 200 cross-platform mentions beats you with 20 every time, regardless of who is actually better. The systems that control AI recommendations reward businesses that are well-documented across the web, not businesses that deliver the best outcomes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>
               Understanding this distinction is not just intellectually important. It has direct revenue implications. As we have documented, <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews">AI-referred leads convert at 4.4 to 5 times the rate of traditional search leads</Link>. The customers AI sends you are already convinced. They have already made their decision. Being the one AI names is one of the most valuable positions in modern local business marketing.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Find out exactly why AI is choosing your competitor over you.</p>
+              <p>Find out exactly why AI is choosing your competitor over you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -287,24 +287,24 @@ export default function Page() {
 
             <p>
               Most business owners assume there is a direct line between quality and visibility. Build a great business, collect great reviews, and the customers will find you. That assumption worked reasonably well in the early days of Google, when algorithms were simpler and review count carried significant weight.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>
               AI has broken that assumption completely. Large language models do not experience your business. They cannot taste your food, meet your team, or assess the quality of your craftsmanship. What they can do is read everything that has been written about your business across the internet, build a mental model of who you are and what you do, and then use that model to decide whether you are a credible answer to someone&apos;s question.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               If that mental model is thin, inconsistent, or sparse, AI will skip you, regardless of how excellent your actual service is. If your competitor&apos;s mental model is rich, consistent, and corroborated across many sources, AI will recommend them, regardless of how mediocre their actual service might be.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">How AI Thinks About Business Recommendations</div>
-              <p>When someone asks AI to recommend a plumber, the model searches its training data and knowledge base for businesses that appear frequently, consistently, and authoritatively across multiple credible sources. It is essentially asking: &ldquo;Which business do I know enough about to confidently recommend?&rdquo; The business it knows most about wins, not the business that is actually best.</p>
+              <p>When someone asks AI to recommend a plumber, the model searches its training data and knowledge base for businesses that appear frequently, consistently, and authoritatively across multiple credible sources. It is essentially asking: &ldquo;Which business do I know enough about to confidently recommend?&rdquo; The business it knows most about wins, not the business that is actually best. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>
               This is the quality trap. Owners invest time and money into actually being good, which they should. But they neglect the parallel work of making sure AI can see and understand how good they are. Your competitor may have figured out that second part first.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Section 2 */}
             <span className="not-prose ae-section-label" id="how-ai-decides">The Mechanism</span>
@@ -312,11 +312,11 @@ export default function Page() {
 
             <p>
               AI recommendation engines operate on a concept called evidence aggregation. Every time your business name, address, category, or services are mentioned anywhere online, that information gets processed into the model&apos;s understanding of who you are. Multiple consistent mentions from different sources reinforce each other. Contradictory or sparse mentions leave gaps.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>
               The practical result is that a competitor with 200 mentions spread across Google, Yelp, local news sites, Reddit, industry directories, and social platforms will consistently outperform a business with 20 mentions concentrated on Google alone. It is not about the platform. It is about the breadth of corroboration.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Timeline */}
             <div className="not-prose ae-timeline my-10">
@@ -360,10 +360,10 @@ export default function Page() {
 
             <p>
               This process explains why businesses that have done almost nothing intentional for AI visibility sometimes still get recommended. They accidentally accumulated broad mentions over the years, through press coverage, satisfied customers who talked about them online, or simply being old enough that they have a rich historical footprint. Your newer competitor may have built that footprint intentionally.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to see how your AI authority stacks up against your top competitors?</p>
+              <p>Want to see how your AI authority stacks up against your top competitors? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -373,20 +373,20 @@ export default function Page() {
 
             <p>
               Every business that appears in AI recommendations has what researchers call entity authority: a measurable level of confidence that the AI has built up about who the business is, what it does, and where it operates. This is the single most important factor in AI visibility, and it is almost entirely invisible to business owners who are not looking for it.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               Businesses with strong structured data, specifically schema markup properly implemented on their website, have 3 to 5 times more AI visibility than businesses without it. As we have documented in our deep-dive on <Link href="/blog/does-schema-markup-help-ai-search">how schema markup affects AI search visibility</Link>, structured data does not just help traditional search engines. It gives AI models a precise, machine-readable description of your business that drastically reduces ambiguity.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="not-prose ae-callout ae-callout-orange">
               <div className="ae-callout-title">What Entity Authority Actually Means</div>
-              <p>Think of entity authority as the answer to one question: &ldquo;How confidently can an AI describe your business to a stranger?&rdquo; If the AI has to guess your category, infer your location, or synthesize conflicting information from multiple sources, your entity authority is low. If the AI can pull clean, consistent data from multiple corroborated sources and describe your business precisely, your entity authority is high.</p>
+              <p>Think of entity authority as the answer to one question: &ldquo;How confidently can an AI describe your business to a stranger?&rdquo; If the AI has to guess your category, infer your location, or synthesize conflicting information from multiple sources, your entity authority is low. If the AI can pull clean, consistent data from multiple corroborated sources and describe your business precisely, your entity authority is high. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             <p>
               The authority gap between you and your competitor is often most visible at the structured data level. If your competitor has local business schema with correct categories, service areas, and hours, and you have none, that single difference could explain most of the gap in AI visibility. It is not glamorous. It is not the thing that gets written up in marketing blogs. But it is the foundational layer that everything else builds on.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Bar Chart Group */}
             <div className="not-prose ae-bar-group my-10">
@@ -441,20 +441,20 @@ export default function Page() {
 
             <p>
               One of the clearest patterns we see when auditing AI visibility gaps is platform concentration. The business that AI is recommending appears in four, five, or six places online. The business being passed over appears in one or two.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               Businesses appearing on four or more platforms see AI citation rates 2.8 times higher than single-platform businesses. This is not because any one of those platforms is magic. It is because cross-platform presence creates the corroborated, multi-source signal that AI uses to establish confidence. A business that appears consistently on Google, Yelp, BBB, an industry directory, and its own website is a business AI can triangulate. A business that lives only on Google is a business AI has to take on faith.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">The Consistency Requirement</div>
-              <p>Being on more platforms only helps if the information is consistent. Your business name, address, phone number, and category description need to match across every listing. A mismatch between your Google Business Profile and your Yelp listing, even something as minor as &ldquo;St.&rdquo; versus &ldquo;Street,&rdquo; introduces inconsistency that undermines the corroborated signal AI needs to build confidence in your entity.</p>
+              <p>Being on more platforms only helps if the information is consistent. Your business name, address, phone number, and category description need to match across every listing. A mismatch between your Google Business Profile and your Yelp listing, even something as minor as &ldquo;St.&rdquo; versus &ldquo;Street,&rdquo; introduces inconsistency that undermines the corroborated signal AI needs to build confidence in your entity. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             <p>
               Your competitor may not be smarter than you. They may have simply been more methodical about claiming and maintaining their listings across platforms. That kind of unglamorous maintenance work compounds silently until the day a potential customer asks AI for a recommendation and hears your competitor&apos;s name instead of yours.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Section 5 */}
             <span className="not-prose ae-section-label" id="mention-hierarchy">The Authority Ladder</span>
@@ -462,7 +462,7 @@ export default function Page() {
 
             <p>
               Not all mentions are equal. AI models evaluate the source and context of business mentions, building a hierarchy of credibility that determines how much weight each mention carries. Understanding this hierarchy explains why a competitor with a single local news article may outperform a competitor with hundreds of directory listings.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* Tier Badges */}
             <div className="not-prose my-8 space-y-4">
@@ -498,10 +498,10 @@ export default function Page() {
 
             <p>
               Brand mentions at the higher tiers correlate 3 times more strongly with AI visibility than traditional backlinks. This is a direct inversion of traditional SEO thinking. For AI recommendations, being talked about matters more than being linked to. Your competitor may have understood this instinctively, or they may have simply gotten lucky with some early press coverage that built authority you are still catching up to.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Curious which mention tier your business is currently operating in?</p>
+              <p>Curious which mention tier your business is currently operating in? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -511,24 +511,24 @@ export default function Page() {
 
             <p>
               This is the finding that surprises business owners most. You have a 4.8 rating. Your competitor has a 4.2. You assume your rating gives you a significant advantage. In AI recommendations, it does not.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p>
               Review sentiment functions as a threshold filter, not a ranking signal. AI platforms use ratings to screen out clearly problematic businesses: anything below approximately 4.1 to 4.3 stars faces a visibility penalty. But once a business clears that threshold, additional rating points provide almost no incremental AI visibility advantage.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Threshold Reality</div>
-              <p>A competitor with a 4.2 rating and strong schema markup, cross-platform consistency, and media mentions will consistently outperform your business if it has a 4.8 rating but weak authority signals. The rating is not irrelevant, it keeps bad actors out of the recommendation pool. But above the floor, the game is played on entirely different terrain.</p>
+              <p>A competitor with a 4.2 rating and strong schema markup, cross-platform consistency, and media mentions will consistently outperform your business if it has a 4.8 rating but weak authority signals. The rating is not irrelevant, it keeps bad actors out of the recommendation pool. But above the floor, the game is played on entirely different terrain. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             <p>
               This matters because many business owners have been pouring energy into review acquisition with the belief that a higher rating creates a direct AI advantage. That time and effort would generate far more AI visibility if redirected toward entity authority building: getting consistent across platforms, adding schema markup, and generating cross-platform brand mentions.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p>
               We have documented the full mechanics in our research on <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight">why businesses disappear from AI results</Link>, but the rating misconception alone accounts for a surprising percentage of the visibility gap we see when auditing competitive pairs.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Pros/Cons */}
             <div className="not-prose ae-pros-cons my-10">

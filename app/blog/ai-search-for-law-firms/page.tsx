@@ -224,29 +224,29 @@ export default function AISearchForLawFirmsPage() {
               Legal has always been a referral business. Someone gets in a car accident, they call a
               friend who says "talk to Mike, he handled mine." That same behavior now happens in
               ChatGPT: "who's a good personal injury lawyer in Phoenix?"
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-white/80 leading-relaxed mb-4">
               The difference: AI doesn't recommend based on who you know. It recommends based on who
               the web says is authoritative, trusted, and relevant. That's a level playing field — and
               for law firms willing to build the right signals, it's a massive opportunity.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             <p className="text-white/80 leading-relaxed mb-6">
               ChatGPT, Perplexity, Claude, and Google AI Overviews collectively now field millions of
               legal queries per month. When those platforms answer "best DUI attorney in [city]," they
               cite 3–5 firms, not 3,000. The race to be in those 3–5 is already underway. Most law
               firms don't know it's happening.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="border border-[#F27D24]/30 rounded-lg p-6 bg-[#F27D24]/5">
               <p className="font-headline text-sm font-black tracking-tighter uppercase text-[#F27D24] mb-2">
                 The shift in how clients find attorneys
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <p className="text-white/70 text-sm leading-relaxed">
                 Traditional: Google "personal injury lawyer Phoenix" → click 4 websites → call 2 firms
                 → pick one. <strong className="text-white">New:</strong> Ask ChatGPT "who's a good
                 personal injury lawyer in Phoenix" → get 3 named firms with context → call the one
                 that sounds most authoritative. The AI already did the shortlist work.
-              </p>
+               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
           </section>
 
@@ -260,7 +260,7 @@ export default function AISearchForLawFirmsPage() {
               the web — training data, live search results, review platforms, and citation patterns —
               to determine which firms are the most authoritative answer to a given legal query.
               Here's what they're looking for:
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="space-y-6">
               {[
@@ -301,7 +301,7 @@ export default function AISearchForLawFirmsPage() {
                     <h3 className="font-headline text-lg font-black tracking-tighter uppercase mb-2">
                       {item.title}
                     </h3>
-                    <p className="text-white/70 leading-relaxed text-sm">{item.body}</p>
+                    <p className="text-white/70 leading-relaxed text-sm">{item.body} We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                   </div>
                 </div>
               ))}
@@ -317,7 +317,7 @@ export default function AISearchForLawFirmsPage() {
               Not all legal queries are created equal in AI search. These practice areas generate the
               highest AI recommendation volume — typically because the queries are emotionally urgent
               and users want a trusted recommendation, not a directory.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-sm">
@@ -391,7 +391,7 @@ export default function AISearchForLawFirmsPage() {
             <p className="text-white/70 text-sm mb-10">
               These steps build the citation signals AI models use to recommend your firm. Execute
               them in order — each one compounds the next.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="space-y-8">
               {[
@@ -460,12 +460,12 @@ export default function AISearchForLawFirmsPage() {
                     <span className="text-xs text-white/40 font-mono">{item.time}</span>
                   </div>
                   <div className="p-5">
-                    <p className="text-white/75 leading-relaxed mb-4 text-sm">{item.body}</p>
+                    <p className="text-white/75 leading-relaxed mb-4 text-sm">{item.body} Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                     <div className="flex gap-2 items-start">
                       <span className="font-headline text-xs font-black tracking-tighter uppercase text-[#F27D24] shrink-0 mt-0.5">
                         Action:
                       </span>
-                      <p className="text-white/60 text-sm leading-relaxed">{item.action}</p>
+                      <p className="text-white/60 text-sm leading-relaxed">{item.action} Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                     </div>
                   </div>
                 </div>
@@ -532,7 +532,7 @@ export default function AISearchForLawFirmsPage() {
                     </div>
                   </div>
                   <div className="border-t border-white/10 pt-3">
-                    <p className="text-white/60 text-xs leading-relaxed">{p.tip}</p>
+                    <p className="text-white/60 text-xs leading-relaxed">{p.tip} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                   </div>
                 </div>
               ))}
@@ -584,7 +584,7 @@ export default function AISearchForLawFirmsPage() {
                     <h3 className="font-headline font-black tracking-tighter uppercase text-sm mb-1 text-red-400">
                       {item.mistake}
                     </h3>
-                    <p className="text-white/65 text-sm leading-relaxed">{item.detail}</p>
+                    <p className="text-white/65 text-sm leading-relaxed">{item.detail} <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                   </div>
                 </div>
               ))}
@@ -614,7 +614,7 @@ export default function AISearchForLawFirmsPage() {
                   <div className="px-5 pb-5">
                     <p className="text-white/70 leading-relaxed text-sm">
                       {faq.acceptedAnswer.text}
-                    </p>
+                     <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                   </div>
                 </details>
               ))}
@@ -625,14 +625,14 @@ export default function AISearchForLawFirmsPage() {
           <section className="ae-final-cta text-center">
             <div className="ae-final-cta-pulse" />
             <div className="relative z-10">
-              <p className="ae-section-label mb-4">Ready to see where your firm stands?</p>
+              <p className="ae-section-label mb-4">Ready to see where your firm stands? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <h2 className="font-headline text-3xl md:text-4xl font-black tracking-tighter uppercase mb-4">
                 Find Out If ChatGPT Recommends Your Law Firm
               </h2>
               <p className="text-white/65 mb-8 max-w-xl mx-auto leading-relaxed">
                 Run a free AI visibility audit for your practice. See which platforms are
                 recommending competitors — and what it takes to close the gap.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/#blindspot-checker" className="ae-cta-primary ae-cta-inline">
                   Run My Free AI Audit

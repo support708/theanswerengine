@@ -236,23 +236,23 @@ export default function WhyLocationPagesDisappearFromAI() {
           <p>
             Location pages seem like the obvious strategy. You have multiple service areas. Build a page for each one,
             target the local keyword, add local schema—and boom, your business shows up for location-specific queries.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             That strategy works fine for Google. Customers searching Maps or local search see your location pages. But
             when someone asks ChatGPT, "Where should I get [service] in [city]?" your location pages do not show up. The
             system acts like they do not exist.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <p>
             This is not a technical problem. Your pages are crawlable. Your schema is valid. The problem is that AI
             systems evaluate location pages using completely different criteria than Google does. And most businesses
             have no idea what those criteria are.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           {/* ── CTA INLINE 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to see exactly what AI platforms think about your location pages?</p>
+            <p>Want to see exactly what AI platforms think about your location pages? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -266,17 +266,17 @@ export default function WhyLocationPagesDisappearFromAI() {
               AI systems do not see your location pages as "local authority." They see them as automated spam. When
               ChatGPT encounters 30 pages that are 95% identical except for city names, it makes a decision: this is
               templated content, and templated content is not trustworthy.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
 
           <p>
             This is the fundamental gap between Google and AI. Google rewards structured, templated location pages
             because they signal scale and consistency. AI penalizes them because they signal automation.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <p>
             Here is what happens behind the scenes when AI encounters your location pages:
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           {/* ── FLOW CHART: 3-STEP DETECTION ── */}
           <div className="ae-process-flow not-prose">
@@ -287,7 +287,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Semantic analysis reveals that pages share 90%+ identical content. City names change, but everything
                   else is the same.
-                </p>
+                 Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
             </div>
             <div className="ae-process-arrow">→</div>
@@ -298,7 +298,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   No location-specific reviews, no local mentions, no genuine local content. Just generic company info
                   + city name swap.
-                </p>
+                 Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
             <div className="ae-process-arrow">→</div>
@@ -309,7 +309,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Pages are assigned low trustworthiness scores. System recommends competitors instead. No error, no
                   ranking—just invisibility.
-                </p>
+                 Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
           </div>
@@ -317,11 +317,11 @@ export default function WhyLocationPagesDisappearFromAI() {
           <p>
             The worst part? You never find out. Google Search Console shows decent rankings. Analytics shows some
             traffic. But AI search engines? Silent exclusion. No error messages. No signals. Just invisibility.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* ── CTA INLINE 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Is your location content being detected as boilerplate? Find out instantly.</p>
+            <p>Is your location content being detected as boilerplate? Find out instantly. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <Link href="/blindspot">Check Your Location Page Signals &rarr;</Link>
           </div>
 
@@ -335,7 +335,7 @@ export default function WhyLocationPagesDisappearFromAI() {
             Every AI platform has mechanisms to detect and penalize duplicate or near-duplicate content. But location
             pages are a special case. They are not exact duplicates—they are templated duplicates, which is arguably
             worse from an AI perspective.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-callout not-prose">
             <div className="ae-callout-title">Example: The Duplication Problem</div>
@@ -351,13 +351,13 @@ export default function WhyLocationPagesDisappearFromAI() {
               </strong>{' '}
               Two pages with identical structure, identical company info, and only geographic placeholder swaps.
               Trustworthiness score: Low.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           <p>
             Google treats this templating as a feature. It shows scale and consistency. AI treats it as a liability. It
             demonstrates that the content was not written for the specific location—it was generated automatically.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-bar-group not-prose">
             <div className="ae-bar-item" style={{ ['--bar-width' as string]: '100%' }}>
@@ -378,18 +378,18 @@ export default function WhyLocationPagesDisappearFromAI() {
             The more templated your pages are, the lower AI will score them. And unlike a Google ranking, where you
             might drop from position 3 to position 5, AI scoring is binary. Either the system trusts your page enough
             to cite it, or it does not.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <h3>2. The Missing Local Authority Problem: "We Serve [City]" Is Not Enough</h3>
 
           <p>
             Many location pages follow a simple formula: generic company description + "we serve these locations." AI
             reads this as "we copied our corporate homepage and added place names."
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <p>
             AI platforms look for proof of local expertise. Not promises. Proof. This means:
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <ul>
             <li>
@@ -447,14 +447,14 @@ export default function WhyLocationPagesDisappearFromAI() {
           <p>
             When AI encounters the weak version, it finds no evidence of local authority. The page could describe any
             location. AI's response: deprioritize or ignore.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <h3>3. The Signal Gap: Missing Conversion & Authority Markers</h3>
 
           <p>
             AI platforms look for signals that a location is real and authoritative. When signals are missing, the page
             becomes invisible.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-stats-grid not-prose">
             <div className="ae-stat-card">
@@ -478,7 +478,7 @@ export default function WhyLocationPagesDisappearFromAI() {
           <p>
             These are not optional signals. They are what AI uses to verify that a location page represents an actual
             business operating in that area, not just a marketing page.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-takeaway not-prose">
             <strong>Key Insight:</strong> If your location page has no reviews, no directory citations, no fresh content
@@ -488,7 +488,7 @@ export default function WhyLocationPagesDisappearFromAI() {
 
           {/* ── CTA INLINE 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Are your location pages missing critical authority signals? We will show you exactly which ones.</p>
+            <p>Are your location pages missing critical authority signals? We will show you exactly which ones. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot">Get Your Signal Audit &rarr;</Link>
           </div>
 
@@ -504,7 +504,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Copying the exact same text to every location page with only city name swaps. AI detects this
                   immediately and deprioritizes all pages.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
             </div>
             <div className="ae-checklist-item">
@@ -514,7 +514,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Location pages with zero reviews or no location-specific reviews. AI cannot verify local authority
                   without review evidence.
-                </p>
+                 Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
             <div className="ae-checklist-item">
@@ -524,7 +524,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Schema with only company name and location. Missing: aggregateRating, areaServed, local citations,
                   openingHours consistency.
-                </p>
+                 Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
             </div>
             <div className="ae-checklist-item">
@@ -534,7 +534,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Location page exists but has no citations on Yelp, BBB, Facebook, or industry directories. AI cannot
                   cross-verify the business.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
             </div>
             <div className="ae-checklist-item">
@@ -544,7 +544,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Pages that only say "we serve [city]" with no specific local context. AI wants specificity, not just
                   geographic tags.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
             <div className="ae-checklist-item">
@@ -554,7 +554,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Location pages created once, never touched again. AI interprets this as "nobody is actually managing
                   this location."
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
             <div className="ae-checklist-item">
@@ -564,7 +564,7 @@ export default function WhyLocationPagesDisappearFromAI() {
                 <p>
                   Not embedding location-specific hours, phone, address, or images. AI uses these signals to verify
                   legitimacy.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
           </div>
@@ -576,7 +576,7 @@ export default function WhyLocationPagesDisappearFromAI() {
           <p>
             Location pages can work. But they have to be built for AI, not just for Google. This is not a minor tweak.
             It is a strategy shift.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <h3>1. Make Each Page Genuinely Unique</h3>
 

@@ -244,14 +244,14 @@ export default function WhyDoesAIRecommendOtherRoofers() {
             <span className="ae-section-label">The Problem</span>
             <h2>You Are Not Being Ignored. You Are Being Skipped for a Specific Reason.</h2>
 
-            <p>A homeowner&apos;s roof is leaking. They open ChatGPT and type: &quot;Who is a reliable roofer near me in [your city]?&quot; Three names come back. Yours is not one of them.</p>
+            <p>A homeowner&apos;s roof is leaking. They open ChatGPT and type: &quot;Who is a reliable roofer near me in [your city]?&quot; Three names come back. Yours is not one of them. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>That is not a random outcome. AI platforms do not pick businesses by lottery. They pull from structured, crawlable, verifiable data sources. The roofers that keep showing up have built a specific kind of digital footprint that AI can read, trust, and cite. Most roofing companies have not.</p>
+            <p>That is not a random outcome. AI platforms do not pick businesses by lottery. They pull from structured, crawlable, verifiable data sources. The roofers that keep showing up have built a specific kind of digital footprint that AI can read, trust, and cite. Most roofing companies have not. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>This guide breaks down exactly why roofers get excluded, how AI actually evaluates roofing company credibility, and the four moves that shift the outcome in your favor.</p>
+            <p>This guide breaks down exactly why roofers get excluded, how AI actually evaluates roofing company credibility, and the four moves that shift the outcome in your favor. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-cta-inline not-prose">
-              <p>Want to see what AI currently says about your roofing business? We will show you for free.</p>
+              <p>Want to see what AI currently says about your roofing business? We will show you for free. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get an AI Visibility Audit &rarr;</Link>
             </div>
 
@@ -259,15 +259,15 @@ export default function WhyDoesAIRecommendOtherRoofers() {
             <span className="ae-section-label">Citation Gap Analysis</span>
             <h2>Why Roofers Get Excluded from AI Recommendations</h2>
 
-            <p>Roofing is one of the most transactional, high-value home service categories, but it is consistently underrepresented in AI recommendations. The reason is not that AI dislikes roofers. It is that the roofing industry has a structural citation gap.</p>
+            <p>Roofing is one of the most transactional, high-value home service categories, but it is consistently underrepresented in AI recommendations. The reason is not that AI dislikes roofers. It is that the roofing industry has a structural citation gap. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-            <p>AI platforms build their answers from sources they can crawl and verify. For a local business, that means: your website, directory listings, review platforms with plain-HTML content, third-party mentions in articles or blogs, and structured data signals like schema markup. Most roofing websites fail on nearly all of these dimensions.</p>
+            <p>AI platforms build their answers from sources they can crawl and verify. For a local business, that means: your website, directory listings, review platforms with plain-HTML content, third-party mentions in articles or blogs, and structured data signals like schema markup. Most roofing websites fail on nearly all of these dimensions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The core problem:</strong> The typical roofing company website has one &quot;Services&quot; page listing everything from repairs to gutters in a single paragraph, no schema markup, no FAQ content, and reviews that only exist on Google (which AI cannot read because they load via JavaScript, not raw HTML). From an AI&apos;s perspective, that website might as well be blank.</p>
+              <p><strong>The core problem:</strong> The typical roofing company website has one &quot;Services&quot; page listing everything from repairs to gutters in a single paragraph, no schema markup, no FAQ content, and reviews that only exist on Google (which AI cannot read because they load via JavaScript, not raw HTML). From an AI&apos;s perspective, that website might as well be blank. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
-            <p>Here is how the citation gap breaks down in roofing specifically:</p>
+            <p>Here is how the citation gap breaks down in roofing specifically: Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-comparison-table not-prose">
               <table>
@@ -313,40 +313,40 @@ export default function WhyDoesAIRecommendOtherRoofers() {
               </table>
             </div>
 
-            <p>The roofer showing up in AI results has filled in enough of those columns that AI platforms feel confident citing them. That confidence threshold is what you are trying to cross.</p>
+            <p>The roofer showing up in AI results has filled in enough of those columns that AI platforms feel confident citing them. That confidence threshold is what you are trying to cross. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>AI exclusion is not about your reputation or your quality of work. It is about the absence of structured, machine-readable evidence that your business exists, is credible, and serves a specific area. That is a fixable problem.</p>
+              <p>AI exclusion is not about your reputation or your quality of work. It is about the absence of structured, machine-readable evidence that your business exists, is credible, and serves a specific area. That is a fixable problem. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* SECTION 2 */}
             <span className="ae-section-label">How AI Thinks</span>
             <h2>How AI Models Evaluate Roofing Company Credibility</h2>
 
-            <p>When someone asks an AI platform to recommend a roofer, the model does not &quot;search Google.&quot; It retrieves from a knowledge base built during training and, in some platforms, through live web crawls. Either way, what it finds about your business has to meet a credibility threshold before it will surface your name.</p>
+            <p>When someone asks an AI platform to recommend a roofer, the model does not &quot;search Google.&quot; It retrieves from a knowledge base built during training and, in some platforms, through live web crawls. Either way, what it finds about your business has to meet a credibility threshold before it will surface your name. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
-            <p>That evaluation happens across a few dimensions.</p>
+            <p>That evaluation happens across a few dimensions. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>Entity Clarity</h3>
 
-            <p>AI platforms think in terms of &quot;entities&quot;: clearly defined objects with consistent attributes. Your roofing business is an entity. For AI to confidently cite you, it needs to find the same name, address, phone number, and service description in multiple independent places. When those details conflict across listings or are sparse in general, your entity is ambiguous. Ambiguous entities do not get recommended.</p>
+            <p>AI platforms think in terms of &quot;entities&quot;: clearly defined objects with consistent attributes. Your roofing business is an entity. For AI to confidently cite you, it needs to find the same name, address, phone number, and service description in multiple independent places. When those details conflict across listings or are sparse in general, your entity is ambiguous. Ambiguous entities do not get recommended. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Consistency matters more than volume.</strong> A roofer with 8 consistent, complete directory listings will rank better with AI than a roofer with 40 inconsistent ones. Every time AI finds conflicting information about your business, it reduces its confidence in citing you.</p>
+              <p><strong>Consistency matters more than volume.</strong> A roofer with 8 consistent, complete directory listings will rank better with AI than a roofer with 40 inconsistent ones. Every time AI finds conflicting information about your business, it reduces its confidence in citing you. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             <h3>Content Depth and Specificity</h3>
 
-            <p>Generic content is a trust killer for AI. A page that says &quot;We offer roofing services in the greater metro area&quot; gives AI nothing to work with. A page that explains the difference between an architectural shingle and a 3-tab shingle, lists what a typical roof replacement includes, provides a realistic cost range for your region, and names the specific neighborhoods you serve gives AI a rich, verifiable reference it can pull from.</p>
+            <p>Generic content is a trust killer for AI. A page that says &quot;We offer roofing services in the greater metro area&quot; gives AI nothing to work with. A page that explains the difference between an architectural shingle and a 3-tab shingle, lists what a typical roof replacement includes, provides a realistic cost range for your region, and names the specific neighborhoods you serve gives AI a rich, verifiable reference it can pull from. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Research highlighted by Digidop found that AI accuracy jumps from 16% to 54% when content is backed by structured data. That 3x difference in AI comprehension is the gap between being cited and being invisible.</p>
+            <p>Research highlighted by Digidop found that AI accuracy jumps from 16% to 54% when content is backed by structured data. That 3x difference in AI comprehension is the gap between being cited and being invisible. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <h3>Social Proof That AI Can Actually See</h3>
 
-            <p>This is the one that surprises most roofing owners. Your Google reviews, no matter how many you have, are not visible to most AI platforms. Google reviews load through JavaScript, and AI crawlers read raw HTML. The reviews simply do not exist in the data AI has access to.</p>
+            <p>This is the one that surprises most roofing owners. Your Google reviews, no matter how many you have, are not visible to most AI platforms. Google reviews load through JavaScript, and AI crawlers read raw HTML. The reviews simply do not exist in the data AI has access to. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-            <p>AI builds its trust assessment from reviews it can actually read: plain-text testimonials on your own website, Yelp reviews, BBB ratings, Angi and HomeAdvisor profiles, and any reviews quoted in third-party articles about your company.</p>
+            <p>AI builds its trust assessment from reviews it can actually read: plain-text testimonials on your own website, Yelp reviews, BBB ratings, Angi and HomeAdvisor profiles, and any reviews quoted in third-party articles about your company. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros">
@@ -375,10 +375,10 @@ export default function WhyDoesAIRecommendOtherRoofers() {
 
             <h3>Licensing and Credential Signals</h3>
 
-            <p>Roofing is a licensed trade in most states. AI platforms pull credential signals from your website, state contractor license lookup pages, and supplier partner directories. If your license number, insurance information, and manufacturer certifications are not stated explicitly on your website in plain text, AI cannot factor them into its credibility assessment. An unlicensed-seeming roofer (from AI&apos;s perspective) does not get recommended for a $15,000 roof replacement.</p>
+            <p>Roofing is a licensed trade in most states. AI platforms pull credential signals from your website, state contractor license lookup pages, and supplier partner directories. If your license number, insurance information, and manufacturer certifications are not stated explicitly on your website in plain text, AI cannot factor them into its credibility assessment. An unlicensed-seeming roofer (from AI&apos;s perspective) does not get recommended for a $15,000 roof replacement. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-cta-inline not-prose">
-              <p>Not sure how AI currently evaluates your roofing business? Let us check it for you.</p>
+              <p>Not sure how AI currently evaluates your roofing business? Let us check it for you. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Get an AI Visibility Audit &rarr;</Link>
             </div>
 
@@ -386,13 +386,13 @@ export default function WhyDoesAIRecommendOtherRoofers() {
             <span className="ae-section-label">The Fix</span>
             <h2>4 Tactical Moves to Increase AI Recommendation Chances</h2>
 
-            <p>These are not theory. They are the specific actions that move the needle for roofing companies in AI search, ordered from highest immediate impact to longer-term authority building.</p>
+            <p>These are not theory. They are the specific actions that move the needle for roofing companies in AI search, ordered from highest immediate impact to longer-term authority building. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>Move 1: Break Your Services Into Individual Pages</h3>
 
-            <p>If your website has one &quot;Roofing Services&quot; page that lists everything, that is your single biggest AI visibility problem and the fastest fix available to you.</p>
+            <p>If your website has one &quot;Roofing Services&quot; page that lists everything, that is your single biggest AI visibility problem and the fastest fix available to you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-            <p>Create separate pages for each service you actively offer:</p>
+            <p>Create separate pages for each service you actively offer: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-cheat-sheet not-prose">
               <h3>Roofing Service Pages That AI Cites</h3>
@@ -407,33 +407,33 @@ export default function WhyDoesAIRecommendOtherRoofers() {
               </ul>
             </div>
 
-            <p>Each page needs a clear title, a description of what the service involves, what a customer can expect from the process, realistic cost ranges, and your service area called out explicitly. AI platforms cite specificity. Generic pages are ignored.</p>
+            <p>Each page needs a clear title, a description of what the service involves, what a customer can expect from the process, realistic cost ranges, and your service area called out explicitly. AI platforms cite specificity. Generic pages are ignored. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Move 2: Add Schema Markup to Every Page</h3>
 
-            <p>Schema markup is structured data code that tells AI and search engines exactly what your content means. Most roofing websites have none. Adding it is a low-effort, high-impact task that immediately improves how AI interprets your site.</p>
+            <p>Schema markup is structured data code that tells AI and search engines exactly what your content means. Most roofing websites have none. Adding it is a low-effort, high-impact task that immediately improves how AI interprets your site. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>LocalBusiness Schema (homepage and contact page)</strong>
-                <p>Include your business name, address, phone, hours, service area, license number, and the services you offer. This is the foundation AI uses to identify your entity.</p>
+                <p>Include your business name, address, phone, hours, service area, license number, and the services you offer. This is the foundation AI uses to identify your entity. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Service Schema (each service page)</strong>
-                <p>Name the service, describe it, list the area covered, and include a price range if possible. This tells AI exactly what you do and where.</p>
+                <p>Name the service, describe it, list the area covered, and include a price range if possible. This tells AI exactly what you do and where. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>FAQPage Schema (FAQ sections)</strong>
-                <p>Mark up every question-and-answer pair on your site. FAQ schema is one of the highest-citation schema types because AI platforms frequently pull directly from it to answer user questions.</p>
+                <p>Mark up every question-and-answer pair on your site. FAQ schema is one of the highest-citation schema types because AI platforms frequently pull directly from it to answer user questions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Review Schema (testimonials section)</strong>
-                <p>Add Review or AggregateRating schema to your on-site testimonials. This makes your social proof readable and credible to AI in a way Google reviews never will be.</p>
+                <p>Add Review or AggregateRating schema to your on-site testimonials. This makes your social proof readable and credible to AI in a way Google reviews never will be. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>Quick win:</strong> If you use WordPress, the Yoast SEO or RankMath plugins add LocalBusiness schema with minimal technical knowledge required. For custom sites, Google&apos;s Structured Data Markup Helper walks you through tagging your content manually. Either approach takes a few hours and the impact compounds over weeks as AI platforms re-crawl your pages.</p>
+              <p><strong>Quick win:</strong> If you use WordPress, the Yoast SEO or RankMath plugins add LocalBusiness schema with minimal technical knowledge required. For custom sites, Google&apos;s Structured Data Markup Helper walks you through tagging your content manually. Either approach takes a few hours and the impact compounds over weeks as AI platforms re-crawl your pages. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             <h3>Move 3: Build Crawlable Review Presence Beyond Google</h3>

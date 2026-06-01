@@ -375,7 +375,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               Google. It holds 80% of the AI search market share across all
               platforms, which means more users are asking ChatGPT to find local
               businesses than all other AI search tools combined.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               The breakdown of how people use ChatGPT is telling. Forty-nine
@@ -384,7 +384,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               or &quot;who are the top personal injury lawyers in [area].&quot; These
               are not edge-case searches. They are daily queries happening
               hundreds of millions of times across industries and markets.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout-info not-prose">
               <strong>Your Business Is Already Being Searched on ChatGPT</strong>
@@ -393,7 +393,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                 question. But someone in your market, looking for exactly what
                 you sell, asked ChatGPT about it today. The only variable is
                 whether your business came up.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>
@@ -402,14 +402,14 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               unlike Google, where the algorithm has been studied and gamed for
               two decades, ChatGPT Search is still early enough that getting
               the basics right creates a meaningful and durable advantage.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* INLINE CTA 1 */}
             <div className="ae-cta-inline not-prose">
               <p className="text-sm text-gray-400 mb-3">
                 Does ChatGPT mention your business when someone searches your
                 category?
-              </p>
+               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -445,7 +445,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               Search queries Bing in real time, retrieves the top 20 to 30
               results for the relevant query, and synthesizes those results into
               a response.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>
               This has a profound implication: your standing on Bing is the
@@ -454,7 +454,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               align with Bing&apos;s top results. If you are not on Bing Places for
               Business with a complete, verified profile, your ChatGPT Search
               visibility is limited regardless of how well you rank on Google.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="ae-callout-warning not-prose">
               <strong>The Google Trap</strong>
@@ -465,7 +465,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                 A business that is highly visible on Google can be nearly
                 invisible to ChatGPT Search if they have not built presence
                 on the platforms ChatGPT actually reads.
-              </p>
+               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             <p>
@@ -475,7 +475,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               A business with a complete Foursquare profile gets more complete
               representation in ChatGPT responses. A business without one gets
               pulled from Bing alone, which is a thinner dataset.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* SECTION 3: DATA SOURCES */}
             <span className="ae-section-label" id="data-sources">
@@ -488,7 +488,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               most actionable intelligence for improving your visibility. The
               platform pulls from a hierarchy of sources, with different sources
               carrying different weights and serving different query types.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose my-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
@@ -501,7 +501,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                   every local query. A verified, complete, and recently updated
                   Bing Places profile is the non-negotiable baseline for ChatGPT
                   visibility. 87% of citations track Bing.
-                </p>
+                 One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -513,7 +513,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                   Foursquare powers the location information, hours, and
                   category classification. A complete Foursquare presence
                   enriches your representation in ChatGPT responses.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -525,7 +525,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                   reviews now surface directly in ChatGPT Search responses for
                   local queries. Yelp visibility is now directly tied to
                   ChatGPT Search visibility.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -537,7 +537,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                   result, structured data (schema markup) and FAQ content
                   directly influence what gets cited. Well-structured pages
                   appear more completely in responses.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               </div>
             </div>
 
@@ -563,7 +563,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               Foursquare, and Yelp, it synthesizes them according to a scoring
               model. Research into ChatGPT citation patterns has revealed five
               consistent signal categories, weighted as follows.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* BAR GROUP */}
             <div className="ae-bar-group not-prose">
@@ -619,7 +619,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               reviews and weights more recent reviews more heavily. A business
               with 200 reviews from five years ago performs worse than a business
               with 80 reviews from the last six months, all else being equal.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>
               The second signal, consensus across sources, is what makes the
@@ -627,7 +627,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               shows you, and Yelp shows you with similar information, ChatGPT
               treats that as strong corroboration. If you appear on Bing but
               nowhere else, the single-source signal is weaker.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-callout-info not-prose">
               <strong>The Recency Signal Is Underweighted by Most Businesses</strong>
@@ -637,7 +637,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                 recency heavily. A competitor who added 20 reviews in the last
                 60 days may outrank you even if you have more total reviews.
                 Recent review velocity is a direct ChatGPT Search ranking factor.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             {/* SECTION 5: AUTHORITY */}
@@ -651,7 +651,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               signal weighting described above. Authority is about external
               recognition, while trust is about data consistency. Both matter,
               but they require different actions to build.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-group-title">
@@ -707,7 +707,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               mechanism: businesses that appear in industry roundup articles get
               cited significantly more often by ChatGPT Search than those that
               rely on their own content alone.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-quote not-prose">
               <blockquote>
@@ -726,14 +726,14 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               business roundup lists, they saw 15% of inbound calls attributable
               to ChatGPT Search within 90 days. This was not from a large
               advertising spend. It was from getting the signal structure right.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* INLINE CTA 2 */}
             <div className="ae-cta-inline not-prose">
               <p className="text-sm text-gray-400 mb-3">
                 Want to know your ChatGPT Search signal score? We can show you
                 exactly where you stand.
-              </p>
+               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -767,7 +767,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               internet or does not have current local listings. This is base
               ChatGPT responding, not ChatGPT Search. The distinction matters
               enormously.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-comparison-table not-prose">
               <table className="w-full text-sm">
@@ -834,7 +834,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               of local business queries routed through ChatGPT now use the Search
               mechanism. For business visibility purposes, optimizing for
               ChatGPT Search is the correct target.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* SECTION 7: VS PERPLEXITY */}
             <span className="ae-section-label" id="vs-perplexity">
@@ -847,7 +847,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               work differently enough that a business optimized for one may not
               be well-positioned for the other. Understanding the differences
               helps prioritize where to build your signal profile first.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros">
@@ -881,7 +881,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
                 how Perplexity decides what to cite
               </Link>{' '}
               covers the Perplexity mechanism in detail.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* SECTION 8: WHAT DOESN'T WORK */}
             <span className="ae-section-label" id="what-doesnt-work">
@@ -893,7 +893,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               Several tactics that businesses commonly attempt either have no
               effect on ChatGPT Search visibility or actively create problems.
               Understanding what not to do saves significant time and money.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="ae-callout-warning not-prose">
               <strong>Tactics That Do Not Move ChatGPT Search</strong>
@@ -913,14 +913,14 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               data sources, different ranking signals, and different authority
               mechanisms. A strategy built for Google SEO will not transfer to
               ChatGPT Search without deliberate adaptation.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* INLINE CTA 3 */}
             <div className="ae-cta-inline not-prose">
               <p className="text-sm text-gray-400 mb-3">
                 Not sure if your current marketing strategy is building ChatGPT
                 Search visibility?
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -952,7 +952,7 @@ export default function HowChatGPTSearchPicksLocalBusinessResults() {
               Given what we know about how ChatGPT Search picks local businesses,
               the action plan is specific and sequenced. Start with the highest-
               leverage items and work down.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* TIMELINE */}
             <div className="ae-timeline not-prose">

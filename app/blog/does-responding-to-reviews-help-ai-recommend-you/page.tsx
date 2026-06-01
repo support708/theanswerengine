@@ -280,20 +280,20 @@ export default function Page() {
 
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
               Someone told you to respond to every review. Maybe a marketing consultant, maybe a blog post, maybe an agency selling you a reputation management package. The advice is not wrong exactly. It is incomplete in a way that costs businesses real AI visibility.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               Responding to reviews can help AI recommend you. But the act of responding is not the mechanism. What you write in that response, and how it connects to the rest of your review ecosystem, determines whether any benefit flows to your AI visibility. Most businesses are doing half the work and getting none of the result.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Myth in Plain Terms</div>
-              <p>The myth is that responding to reviews is itself an optimization strategy. It is not. A business that writes "Thank you so much! We appreciate your feedback!" on every review has gained zero AI visibility advantage. What counts is what the response contains, where the response lives, and whether it fits into a review ecosystem that AI platforms can actually parse and trust.</p>
+              <p>The myth is that responding to reviews is itself an optimization strategy. It is not. A business that writes "Thank you so much! We appreciate your feedback!" on every review has gained zero AI visibility advantage. What counts is what the response contains, where the response lives, and whether it fits into a review ecosystem that AI platforms can actually parse and trust. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             {/* Inline CTA 1 */}
             <div className="not-prose ae-cta-inline">
-              <p>Not sure how AI is reading your reviews right now? Get your free analysis.</p>
+              <p>Not sure how AI is reading your reviews right now? Get your free analysis. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -303,19 +303,19 @@ export default function Page() {
 
             <p>
               The advice to respond to reviews traces back to traditional reputation management, where the goal was to show potential human customers that the business was engaged and professional. A thoughtful response to a negative review reassured prospective buyers. A warm acknowledgment of positive reviews reinforced goodwill.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>
               That logic still applies for human readers. The problem is that a new audience now reads your reviews before your potential customers ever do: AI platforms like ChatGPT, Perplexity, Google AI Mode, and Claude. These systems do not read your review responses the way a customer skimming your Google page does. They ingest text for data extraction, looking for entities, service descriptions, location signals, and authority indicators. A response that says "We are so glad you had a great experience!" is, to an AI crawler, essentially empty.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>
               The myth that responding to reviews helps AI recommend you is technically true but practically useless for businesses following standard reputation management advice. The bar for AI visibility is higher, and most responses do not clear it.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">What This Article Covers</div>
-              <p>This article breaks down exactly what AI platforms extract from review ecosystems, what your responses need to contain to contribute to that extraction, and what the businesses earning AI citations consistently do differently. We are not selling you on responding to reviews as a strategy. We are showing you what actually moves the needle.</p>
+              <p>This article breaks down exactly what AI platforms extract from review ecosystems, what your responses need to contain to contribute to that extraction, and what the businesses earning AI citations consistently do differently. We are not selling you on responding to reviews as a strategy. We are showing you what actually moves the needle. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* Section: What AI Actually Reads */}
@@ -324,25 +324,25 @@ export default function Page() {
 
             <p>
               When AI platforms build their knowledge about local businesses, they are not pulling a star rating and a response count. They are reading text for extractable signals. Specifically, they are looking for four categories of information.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               The first is <strong>service specificity</strong>: does the content, whether from a review or a response, mention particular services by name. "They fixed my broken furnace" is more useful to an AI than "great service." The second is <strong>location anchoring</strong>: is the business connected to a specific city, neighborhood, or service area through the text itself. The third is <strong>authority confirmation</strong>: does the language suggest expertise, licensing, experience, or credentials. The fourth is <strong>sentiment consistency</strong>: do the reviews and responses paint a coherent picture of what kind of business this is.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               Review responses are one input channel for these signals. They are not the primary channel. The review text itself carries more weight because it comes from third parties, which AI models weight as more credible than owner-generated content. But owner responses that reinforce and extend those signals can meaningfully amplify what the original review started.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="not-prose ae-quote">
-              <p>AI is not counting your responses. It is reading your entire review ecosystem as a body of evidence about what your business does, where it does it, and whether it can be trusted. Responses are one chapter in that book. Generic ones add blank pages.</p>
+              <p>AI is not counting your responses. It is reading your entire review ecosystem as a body of evidence about what your business does, where it does it, and whether it can be trusted. Responses are one chapter in that book. Generic ones add blank pages. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             <p>
               For a deeper look at how the review ecosystem as a whole shapes AI citations, see our analysis in{' '}
               <Link href="/blog/how-online-reviews-shape-ai-recommendations">How Online Reviews Shape AI Recommendations</Link>.
               The review response question makes more sense once you understand the full signal architecture.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Section: Response Content Matters */}
             <span className="not-prose ae-section-label" id="response-content-matters">The Real Variable</span>
@@ -350,19 +350,19 @@ export default function Page() {
 
             <p>
               Business owners often measure review response success by rate: what percentage of reviews received a response. That metric matters for customer experience. For AI visibility, it is nearly irrelevant. A 100% response rate using generic language does not move the needle. A 60% response rate using substantive, keyword-rich language can meaningfully improve your AI citation frequency.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>
               The reason is that AI platforms are text-mining your review content for usable data. Each substantive response creates an additional indexable passage associated with your business. That passage can include your business name, your services, your location, your specialties, and your brand voice. Multiply that across dozens of responses and you are building a body of content that AI can draw on when answering recommendation queries.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               Businesses that have documented improvements in AI recommendation frequency after changing their response strategy did not simply start responding to more reviews. They changed what the responses said. The content shift, not the rate shift, drove the result.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Bar chart: Response types */}
             <div className="not-prose my-8">
-              <p className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">AI Citation Contribution by Response Type</p>
+              <p className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">AI Citation Contribution by Response Type <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <div className="ae-bar-group">
                 <div className="ae-bar-item">
                   <div className="ae-bar-label">Service-specific, location-anchored response</div>
@@ -408,7 +408,7 @@ export default function Page() {
 
             <p>
               Not all review data carries equal weight with AI platforms. The table below breaks down which signals actually influence AI recommendation decisions and which ones are largely invisible to the models doing the evaluating.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="not-prose ae-comparison-table">
               <table>
@@ -476,11 +476,11 @@ export default function Page() {
 
             <p>
               The pattern here is clear. AI rewards extractable text with specific content. It cannot use what it cannot read, and it does not weight signals that contain no information. A review response that restates meaningful details about a service interaction gives AI something to work with. A response that could apply to any business in any industry gives AI nothing.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Inline CTA 2 */}
             <div className="not-prose ae-cta-inline">
-              <p>Want to know exactly where your review signals are falling short in AI systems?</p>
+              <p>Want to know exactly where your review signals are falling short in AI systems? Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -490,29 +490,29 @@ export default function Page() {
 
             <p>
               There is another layer to this that most businesses and most marketing consultants get wrong: AI platforms do not have equal access to all review content. The platform where your response lives matters as much as what the response says.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>
               <strong>Google Business Profile</strong> responses are not directly indexed by most AI models other than Google AI itself. ChatGPT and Perplexity primarily access Google review data through third-party aggregators and Bing's index, which captures only a fraction of the response text associated with each review. The responses you write on Google may be invisible to two of the three most-used AI platforms.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <p>
               <strong>Yelp</strong> review pages are web-indexable, meaning AI crawlers can access the full review page including owner responses. Yelp is one of ChatGPT's documented data sources through its Bing integration. Substantive responses on Yelp are more likely to reach AI systems than the same response on Google.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>
               <strong>Your own website</strong> is the most accessible venue for review-adjacent content. Testimonials published as plain HTML text on a dedicated page or woven into service pages are fully readable by every AI crawler. An owner comment embedded alongside a customer testimonial on your website creates exactly the kind of crawlable, entity-rich content AI models prefer.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose ae-callout ae-callout-orange">
               <div className="ae-callout-title">The Platform Access Problem</div>
-              <p>You can write the perfect review response on Google, with your business name, service keywords, and location clearly stated, and ChatGPT may never see it. Your website testimonials section, by contrast, is accessible to every AI crawler that has indexed your domain. The platform where your response lives determines how much AI visibility work it can actually do.</p>
+              <p>You can write the perfect review response on Google, with your business name, service keywords, and location clearly stated, and ChatGPT may never see it. Your website testimonials section, by contrast, is accessible to every AI crawler that has indexed your domain. The platform where your response lives determines how much AI visibility work it can actually do. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             <p>
               This is why businesses that migrate their best review content onto their website, as published testimonials with owner context, consistently see stronger AI citation rates than businesses relying entirely on platform-native review responses. For more on this dynamic, see{' '}
               <Link href="/blog/why-my-5star-google-reviews-dont-show-up-in-ai-answers">Why My 5-Star Google Reviews Do Not Show Up in AI Answers</Link>.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Section: Anatomy of a Response */}
             <span className="not-prose ae-section-label" id="response-anatomy">Side by Side</span>
@@ -520,17 +520,17 @@ export default function Page() {
 
             <p>
               The difference between an AI-visible response and an invisible one is not length. It is specificity. Here is the same situation handled two ways.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-pros-cons">
               <div className="ae-pros-box">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">Response That Helps AI</h3>
                 <p className="text-gray-300 text-sm leading-relaxed mb-3">
                   Customer review: "Fixed our water heater fast, great price."
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <p className="text-[#F27D24] text-sm leading-relaxed italic">
                   "Thank you for choosing [Business Name] for your water heater repair in [City]. Our licensed plumbers prioritize same-day service for water heater emergencies throughout [Metro Area]. We are glad the repair resolved the issue quickly and that our pricing was transparent. We look forward to being your go-to plumber for any future needs."
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 <ul className="mt-3 text-sm text-gray-300 space-y-1">
                   <li>Business name mentioned</li>
                   <li>Specific service stated (water heater repair)</li>
@@ -543,7 +543,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">Response That Does Not Help AI</h3>
                 <p className="text-gray-300 text-sm leading-relaxed mb-3">
                   Customer review: "Fixed our water heater fast, great price."
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 <p className="text-gray-400 text-sm leading-relaxed italic">
                   "Thank you so much for the kind words! We really appreciate your support and look forward to serving you again. You are the reason we love what we do!"
                 </p>

@@ -198,23 +198,23 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>Your SEO agency sends you a report every month. Rankings are up. Traffic looks healthy. They are hitting their KPIs. But your phone is not ringing. Leads are down. And you are starting to wonder if you are just burning money.</p>
+          <p>Your SEO agency sends you a report every month. Rankings are up. Traffic looks healthy. They are hitting their KPIs. But your phone is not ringing. Leads are down. And you are starting to wonder if you are just burning money. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>Here is the uncomfortable truth: <strong>your SEO agency might be doing everything right, and it still will not work.</strong> Not because they are bad at SEO. Because SEO alone is not enough anymore.</p>
+          <p>Here is the uncomfortable truth: <strong>your SEO agency might be doing everything right, and it still will not work.</strong> Not because they are bad at SEO. Because SEO alone is not enough anymore. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Core Problem</div>
-            <p>Nearly 60% of searches now end without anyone clicking a website. People ask AI for recommendations, AI gives them one answer, and they call that business. Your page 1 ranking does not matter if AI answers the question before anyone sees your listing.</p>
+            <p>Nearly 60% of searches now end without anyone clicking a website. People ask AI for recommendations, AI gives them one answer, and they call that business. Your page 1 ranking does not matter if AI answers the question before anyone sees your listing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Your SEO agency is probably doing their job. The problem is not your agency. The problem is that SEO alone no longer reaches the people ready to buy.</p>
+            <p>Your SEO agency is probably doing their job. The problem is not your agency. The problem is that SEO alone no longer reaches the people ready to buy. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Find out right now whether AI is recommending you or sending leads to your competitors.</p>
+            <p>Find out right now whether AI is recommending you or sending leads to your competitors. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -222,9 +222,9 @@ export default function BlogPost() {
           <span className="ae-section-label">The Disconnect</span>
           <h2>The Report Looks Good. The Results Do Not.</h2>
 
-          <p>Let us look at what your agency is probably showing you: page 1 rankings for dozens of keywords, organic traffic increasing quarter over quarter, domain authority climbing steadily. These metrics were meaningful five years ago. Today, they are vanity numbers.</p>
+          <p>Let us look at what your agency is probably showing you: page 1 rankings for dozens of keywords, organic traffic increasing quarter over quarter, domain authority climbing steadily. These metrics were meaningful five years ago. Today, they are vanity numbers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-          <p>Here is what they do not show you: nearly 60% of Google searches now end without a click, according to SparkToro and Datos (2024). People search, AI gives them an answer, and they never visit any website. Your page 1 ranking does not matter if the searcher never scrolls past the AI-generated answer at the top.</p>
+          <p>Here is what they do not show you: nearly 60% of Google searches now end without a click, according to SparkToro and Datos (2024). People search, AI gives them an answer, and they never visit any website. Your page 1 ranking does not matter if the searcher never scrolls past the AI-generated answer at the top. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           {/* BAR GROUP */}
           <div className="ae-bar-group not-prose">
@@ -257,12 +257,12 @@ export default function BlogPost() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>The gap between SEO metrics and actual business results is widening every quarter. High rankings no longer translate to high lead volume the way they used to.</p>
+            <p>The gap between SEO metrics and actual business results is widening every quarter. High rankings no longer translate to high lead volume the way they used to. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Stop guessing why leads dried up. See the data that explains everything.</p>
+            <p>Stop guessing why leads dried up. See the data that explains everything. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Run Your Free AI Visibility Check &rarr;</Link>
           </div>
 
@@ -301,18 +301,18 @@ export default function BlogPost() {
             </tbody>
           </table>
 
-          <p>The problem? Those right-column searches are where the money is. Those are the people ready to hire today. And they are increasingly going to whoever AI recommends.</p>
+          <p>The problem? Those right-column searches are where the money is. Those are the people ready to hire today. And they are increasingly going to whoever AI recommends. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <p><strong>Your SEO investment is capturing the researchers. Your competitor, the one AI recommends, is capturing the buyers.</strong></p>
+          <p><strong>Your SEO investment is capturing the researchers. Your competitor, the one AI recommends, is capturing the buyers.</strong> One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>SEO captures people who are browsing. AI captures people who are buying. The highest-value searches now go through AI, not traditional search results.</p>
+            <p>SEO captures people who are browsing. AI captures people who are buying. The highest-value searches now go through AI, not traditional search results. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Are you capturing browsers while your competitors capture buyers? Find out in 60 seconds.</p>
+            <p>Are you capturing browsers while your competitors capture buyers? Find out in 60 seconds. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot">See Who AI Recommends Instead &rarr;</Link>
           </div>
 
@@ -320,11 +320,11 @@ export default function BlogPost() {
           <span className="ae-section-label">The Blind Spot</span>
           <h2>What Your Agency Is Not Telling You</h2>
 
-          <p>Most SEO agencies are still running playbooks from five years ago. Keyword optimization. Backlink building. Technical audits. Content calendars. That stuff still matters for the 40% of searches where people actually click through to websites.</p>
+          <p>Most SEO agencies are still running playbooks from five years ago. Keyword optimization. Backlink building. Technical audits. Content calendars. That stuff still matters for the 40% of searches where people actually click through to websites. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-          <p>But the high-intent searches? The "who should I hire" searches? Those are increasingly answered by AI. And AI evaluates businesses differently than Google does.</p>
+          <p>But the high-intent searches? The "who should I hire" searches? Those are increasingly answered by AI. And AI evaluates businesses differently than Google does. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <p>When someone asks ChatGPT "Who is the best plumber in Denver?" it does not check your domain authority score. According to research from Onely and Ahrefs (December 2025), AI systems prioritize completely different signals.</p>
+          <p>When someone asks ChatGPT "Who is the best plumber in Denver?" it does not check your domain authority score. According to research from Onely and Ahrefs (December 2025), AI systems prioritize completely different signals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           {/* DECISION MATRIX */}
           <div className="ae-decision-matrix not-prose">
@@ -362,12 +362,12 @@ export default function BlogPost() {
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Reality Check</div>
-            <p>Traditional SEO metrics like domain authority have a weak correlation with AI recommendations, according to Ahrefs' study of 75,000 brands. Your SEO agency is not optimizing for what AI actually measures.</p>
+            <p>Traditional SEO metrics like domain authority have a weak correlation with AI recommendations, according to Ahrefs' study of 75,000 brands. Your SEO agency is not optimizing for what AI actually measures. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your SEO metrics look great, but do AI platforms even know you exist? There is only one way to find out.</p>
+            <p>Your SEO metrics look great, but do AI platforms even know you exist? There is only one way to find out. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
           </div>
 
@@ -375,7 +375,7 @@ export default function BlogPost() {
           <span className="ae-section-label">Root Cause</span>
           <h2>The Real Reason Your Leads Dried Up</h2>
 
-          <p>The customer journey changed. Your marketing did not. Here is exactly how it shifted:</p>
+          <p>The customer journey changed. Your marketing did not. Here is exactly how it shifted: Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* TIMELINE */}
           <div className="ae-timeline not-prose">
@@ -397,7 +397,7 @@ export default function BlogPost() {
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>AI uses the same retrieval logic as search — but it only cites businesses that give it the right signals. See exactly where you are losing leads.</p>
+            <p>AI uses the same retrieval logic as search — but it only cites businesses that give it the right signals. See exactly where you are losing leads. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Map Your Lead Leak &rarr;</Link>
           </div>
 
@@ -405,7 +405,7 @@ export default function BlogPost() {
           <span className="ae-section-label">Real Results</span>
           <h2>What Happens When You Optimize for AI</h2>
 
-          <p>One of our clients, a real estate agent in Los Angeles, had strong SEO rankings but noticed leads declining. After implementing AI visibility optimization alongside their existing SEO:</p>
+          <p>One of our clients, a real estate agent in Los Angeles, had strong SEO rankings but noticed leads declining. After implementing AI visibility optimization alongside their existing SEO: We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-stats-grid not-prose">
             <div className="ae-stat-card">
@@ -426,16 +426,16 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>Verified from Google Search Console, January 2026. The difference? They stopped creating keyword-optimized pages and started creating answer-optimized content that AI systems recognize as authoritative.</p>
+          <p>Verified from Google Search Console, January 2026. The difference? They stopped creating keyword-optimized pages and started creating answer-optimized content that AI systems recognize as authoritative. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">Proven Result</div>
-            <p>Strategic content clusters designed to win AI citations delivered nearly double the clicks compared to traditional SEO pages alone. Same business, same market, different strategy.</p>
+            <p>Strategic content clusters designed to win AI citations delivered nearly double the clicks compared to traditional SEO pages alone. Same business, same market, different strategy. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
           {/* CTA 6 */}
           <div className="ae-cta-inline not-prose">
-            <p>These results came from understanding exactly where AI visibility gaps existed. Find yours.</p>
+            <p>These results came from understanding exactly where AI visibility gaps existed. Find yours. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get the Same Analysis Free &rarr;</Link>
           </div>
 
@@ -443,20 +443,20 @@ export default function BlogPost() {
           <span className="ae-section-label">Hard Truth</span>
           <h2>"But My Rankings Are Great!"</h2>
 
-          <p>I know. That is the frustrating part. You might be ranking #1 for your most important keywords. Your agency might be doing genuinely excellent work. The technical SEO might be flawless.</p>
+          <p>I know. That is the frustrating part. You might be ranking #1 for your most important keywords. Your agency might be doing genuinely excellent work. The technical SEO might be flawless. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
-          <p><strong>And it does not matter</strong> if AI is answering the question before anyone sees your ranking.</p>
+          <p><strong>And it does not matter</strong> if AI is answering the question before anyone sees your ranking. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
-          <p>Think about it: when was the last time you personally scrolled past an AI answer to click on a regular search result? When the AI answer is good enough, most people stop there. Your customers are doing the same thing.</p>
+          <p>Think about it: when was the last time you personally scrolled past an AI answer to click on a regular search result? When the AI answer is good enough, most people stop there. Your customers are doing the same thing. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Rankings measure where you appear in a list. In 2026, the list is increasingly irrelevant because AI gives a single recommendation, not ten options.</p>
+            <p>Rankings measure where you appear in a list. In 2026, the list is increasingly irrelevant because AI gives a single recommendation, not ten options. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </div>
 
           {/* CTA 7 */}
           <div className="ae-cta-inline not-prose">
-            <p>Rankings mean nothing if AI never mentions you. See what AI actually says when someone asks about your industry.</p>
+            <p>Rankings mean nothing if AI never mentions you. See what AI actually says when someone asks about your industry. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot">Test Your AI Presence &rarr;</Link>
           </div>
 
@@ -464,7 +464,7 @@ export default function BlogPost() {
           <span className="ae-section-label">Take Action</span>
           <h2>The Conversation You Need to Have With Your Agency</h2>
 
-          <p>Do not fire your SEO agency. But do have this conversation. Ask them: "What is our strategy for showing up in AI-generated answers?"</p>
+          <p>Do not fire your SEO agency. But do have this conversation. Ask them: "What is our strategy for showing up in AI-generated answers?" <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           {/* PROS/CONS */}
           <div className="ae-pros-cons not-prose">

@@ -267,16 +267,16 @@ export default function Page() {
 
             <p>The cleaning industry is a $480 billion global market with 875,000 companies in the United States alone. Competition is fierce. And the way customers discover cleaning services has fundamentally changed.</p>
 
-            <p>A homeowner looking for a deep cleaning service used to open Google, type &quot;house cleaning near me,&quot; and scroll through a list of ads and local results. That process is being replaced. Today, a growing number of customers open ChatGPT, Google AI, or Perplexity and ask something far more specific: &quot;What is the best cleaning service in [city] for move-out cleaning?&quot; or &quot;Which local cleaning company handles post-construction cleanup?&quot;</p>
+            <p>A homeowner looking for a deep cleaning service used to open Google, type &quot;house cleaning near me,&quot; and scroll through a list of ads and local results. That process is being replaced. Today, a growing number of customers open ChatGPT, Google AI, or Perplexity and ask something far more specific: &quot;What is the best cleaning service in [city] for move-out cleaning?&quot; or &quot;Which local cleaning company handles post-construction cleanup?&quot; Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>The AI does not return ten blue links. It names specific companies. It explains why it selected them. It often includes details about service specialties, review sentiment, pricing transparency, and areas served. The customer reads the recommendation, checks the website, and books. What once took days of research now happens in minutes.</p>
 
-            <p>This matters because cleaning service customers have high intent. When someone searches for a cleaning company, they are ready to hire. They are not browsing casually. The companies AI recommends get those inquiries. Everyone else gets nothing.</p>
+            <p>This matters because cleaning service customers have high intent. When someone searches for a cleaning company, they are ready to hire. They are not browsing casually. The companies AI recommends get those inquiries. Everyone else gets nothing. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>According to industry data, 97% of consumers learn about local businesses through internet browsing more than any other channel. And with AI platforms rapidly absorbing a larger share of that browsing, the cleaning companies that AI knows about will capture a disproportionate share of new customers.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>The compression effect:</strong> Traditional search spread attention across 10+ results. AI search concentrates it on 3 to 5 recommendations. For cleaning companies, this means the difference between steady new leads and complete invisibility to a growing customer segment.</p>
+              <p><strong>The compression effect:</strong> Traditional search spread attention across 10+ results. AI search concentrates it on 3 to 5 recommendations. For cleaning companies, this means the difference between steady new leads and complete invisibility to a growing customer segment. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             {/* CTA INLINE 1 */}
@@ -288,13 +288,13 @@ export default function Page() {
             <span className="ae-section-label" id="ai-evaluates">AI Signals</span>
             <h2>What AI Evaluates Before Recommending a Cleaning Company</h2>
 
-            <p>AI platforms do not randomly select which cleaning companies to recommend. They evaluate specific signals across the web, cross-referencing multiple data sources to build confidence in their recommendations. Understanding what these signals are is the first step toward becoming visible.</p>
+            <p>AI platforms do not randomly select which cleaning companies to recommend. They evaluate specific signals across the web, cross-referencing multiple data sources to build confidence in their recommendations. Understanding what these signals are is the first step toward becoming visible. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Crawlable, Structured Web Content</h3>
 
             <p>Every AI platform starts with what it can read. ChatGPT, Perplexity, and Claude rely on crawling the open web. Google AI Overviews pull from their own index plus structured data. If your cleaning company&apos;s website is a single page with a phone number, a logo, and a paragraph that says &quot;We clean homes and offices,&quot; AI has almost nothing to evaluate.</p>
 
-            <p>AI needs depth. It needs to understand what types of cleaning you offer, which areas you serve, what makes your approach different, and what customers say about working with you. All of this information must be in plain, crawlable HTML on your website.</p>
+            <p>AI needs depth. It needs to understand what types of cleaning you offer, which areas you serve, what makes your approach different, and what customers say about working with you. All of this information must be in plain, crawlable HTML on your website. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <h3>Consistency Across Data Sources</h3>
 
@@ -302,7 +302,7 @@ export default function Page() {
 
             <h3>Review Volume and Sentiment</h3>
 
-            <p>Reviews are one of the strongest trust signals AI evaluates. But not all reviews are equally accessible. Google reviews are behind JavaScript rendering, which means ChatGPT and most non-Google AI platforms cannot read them. Reviews on Yelp, BBB, and your own website (as plain text) are accessible to every AI crawler. Industry research shows that a cleaning service with 50 positive reviews will consistently outperform one with only 5, both in customer trust and in AI recommendations.</p>
+            <p>Reviews are one of the strongest trust signals AI evaluates. But not all reviews are equally accessible. Google reviews are behind JavaScript rendering, which means ChatGPT and most non-Google AI platforms cannot read them. Reviews on Yelp, BBB, and your own website (as plain text) are accessible to every AI crawler. Industry research shows that a cleaning service with 50 positive reviews will consistently outperform one with only 5, both in customer trust and in AI recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>Schema Markup and Structured Data</h3>
 
@@ -379,7 +379,7 @@ export default function Page() {
 
             {/* CTA INLINE 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which AI platforms can see your cleaning company? <Link href="/blindspot">Our free Blind Spot Report</Link> scans every major AI platform and shows you exactly where you appear and where you don&apos;t. <a href="tel:+12134442229">Call (213) 444-2229</a> to learn more.</p>
+              <p>Not sure which AI platforms can see your cleaning company? <Link href="/blindspot">Our free Blind Spot Report</Link> scans every major AI platform and shows you exactly where you appear and where you don&apos;t. <a href="tel:+12134442229">Call (213) 444-2229</a> to learn more. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             {/* SECTION 3 */}
@@ -388,17 +388,17 @@ export default function Page() {
 
             <p>The cleaning industry has a website problem. The majority of cleaning companies operate with a minimal web presence: a single page with basic contact information, a generic description, and maybe a few stock photos. This was acceptable when customers found businesses through referrals and phone books. It is a serious liability in the AI era.</p>
 
-            <p>When a customer asks AI &quot;Who is the best cleaning company in Austin for recurring house cleaning?&quot; the AI evaluates every cleaning company it can find data about. It looks for specifics. A website that says &quot;We offer residential and commercial cleaning services&quot; gives AI almost nothing to differentiate you from thousands of competitors saying the exact same thing.</p>
+            <p>When a customer asks AI &quot;Who is the best cleaning company in Austin for recurring house cleaning?&quot; the AI evaluates every cleaning company it can find data about. It looks for specifics. A website that says &quot;We offer residential and commercial cleaning services&quot; gives AI almost nothing to differentiate you from thousands of competitors saying the exact same thing. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p>Compare that to a website with dedicated pages for each service type: move-in/move-out cleaning, deep cleaning, recurring maintenance, post-construction cleanup, office cleaning, and medical facility sanitation. Each page describes what the service includes, which areas you cover, and what customers typically experience. AI now has the context it needs to match your company to specific queries.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Critical detail:</strong> AI cannot read images of text, PDFs embedded as images, or content hidden behind contact forms. If your pricing, service descriptions, or customer testimonials are only available as downloadable PDFs or image files, AI platforms will never see them. Everything AI needs to evaluate must exist as plain text on crawlable web pages.</p>
+              <p><strong>Critical detail:</strong> AI cannot read images of text, PDFs embedded as images, or content hidden behind contact forms. If your pricing, service descriptions, or customer testimonials are only available as downloadable PDFs or image files, AI platforms will never see them. Everything AI needs to evaluate must exist as plain text on crawlable web pages. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>This does not mean you need a 200-page website. It means you need enough structured content that AI can confidently answer specific questions about your services. Think of your website not as a brochure for humans, but as a knowledge base for both humans and AI simultaneously.</p>
 
-            <p>As we covered in our guide on <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search">how contractors win AI search</Link>, the home services industry broadly suffers from thin websites. Cleaning companies that invest in content depth gain a significant advantage simply because most competitors have not caught up.</p>
+            <p>As we covered in our guide on <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search">how contractors win AI search</Link>, the home services industry broadly suffers from thin websites. Cleaning companies that invest in content depth gain a significant advantage simply because most competitors have not caught up. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* SECTION 4 */}
             <span className="ae-section-label" id="reviews-matter">Trust Signals</span>
@@ -406,17 +406,17 @@ export default function Page() {
 
             <p>For cleaning companies, reviews carry extraordinary weight. Letting someone into your home or office requires a level of trust that other service industries do not demand. AI platforms understand this. When they evaluate which cleaning company to recommend, review quality and volume are among the strongest differentiators.</p>
 
-            <p>The data is clear: 93% of consumers read online reviews before choosing a service provider. A cleaning service with 50 positive reviews will consistently generate more inquiries than one with only 5. And when AI is deciding which company to name in its response, it weighs the same signals.</p>
+            <p>The data is clear: 93% of consumers read online reviews before choosing a service provider. A cleaning service with 50 positive reviews will consistently generate more inquiries than one with only 5. And when AI is deciding which company to name in its response, it weighs the same signals. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>But here is where most cleaning companies make a critical error. They focus all their review efforts on Google, which is smart for Google Maps visibility, but insufficient for AI search. ChatGPT, Claude, and Perplexity cannot access Google reviews because they are rendered with JavaScript. These platforms rely on reviews they can actually crawl: Yelp, BBB, Trustpilot, and testimonials published directly on your website.</p>
 
             <h3>The Review Ecosystem for AI Visibility</h3>
 
-            <p>The cleaning companies that get recommended across all AI platforms maintain reviews on multiple channels simultaneously. Google reviews power your Google AI visibility. Yelp reviews feed ChatGPT and Perplexity. BBB listings add a layer of trust verification. And plain-text testimonials on your own website serve as the universal signal that every AI platform can read.</p>
+            <p>The cleaning companies that get recommended across all AI platforms maintain reviews on multiple channels simultaneously. Google reviews power your Google AI visibility. Yelp reviews feed ChatGPT and Perplexity. BBB listings add a layer of trust verification. And plain-text testimonials on your own website serve as the universal signal that every AI platform can read. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>Industry experts recommend aiming for 5 to 10 new reviews per month. The most effective approach is asking satisfied customers immediately after a completed job, when the experience is fresh and the satisfaction is highest. A simple text message with a direct link to your review profile makes it easy.</p>
 
-            <p>Response patterns also matter. AI evaluates not just the reviews themselves but how the business responds. Companies that reply to every review, both positive and negative, signal active management and customer care. A thoughtful response to a negative review can actually strengthen AI confidence more than ten generic five-star ratings.</p>
+            <p>Response patterns also matter. AI evaluates not just the reviews themselves but how the business responds. Companies that reply to every review, both positive and negative, signal active management and customer care. A thoughtful response to a negative review can actually strengthen AI confidence more than ten generic five-star ratings. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* CTA INLINE 3 */}
             <div className="ae-cta-inline not-prose">
@@ -427,23 +427,23 @@ export default function Page() {
             <span className="ae-section-label" id="content-authority">Content Strategy</span>
             <h2>Building Topical Authority That AI Trusts</h2>
 
-            <p>AI platforms do not just match keywords to queries. They evaluate topical authority, which measures how deeply a source covers a subject. A cleaning company that publishes one blog post about &quot;spring cleaning tips&quot; has minimal authority. A company that covers cleaning topics comprehensively, from stain removal techniques to the differences between green cleaning products and conventional chemicals, builds authority that AI models recognize and reward.</p>
+            <p>AI platforms do not just match keywords to queries. They evaluate topical authority, which measures how deeply a source covers a subject. A cleaning company that publishes one blog post about &quot;spring cleaning tips&quot; has minimal authority. A company that covers cleaning topics comprehensively, from stain removal techniques to the differences between green cleaning products and conventional chemicals, builds authority that AI models recognize and reward. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>This is where content strategy becomes a competitive weapon for cleaning companies. Most competitors publish nothing. The barrier to becoming the most authoritative cleaning resource in your local market is remarkably low. You are not competing against national media outlets. You are competing against other local cleaning companies, most of whom have zero published content.</p>
 
-            <p>As explored in our article on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether blogs help AI recommend your business</Link>, the key is relevance and depth, not volume. Five thoroughly written articles about specific cleaning topics will outperform fifty thin, generic posts that AI recognizes as filler.</p>
+            <p>As explored in our article on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether blogs help AI recommend your business</Link>, the key is relevance and depth, not volume. Five thoroughly written articles about specific cleaning topics will outperform fifty thin, generic posts that AI recognizes as filler. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Content Topics That Build AI Authority</h3>
 
             <p>The most effective content for cleaning company AI visibility addresses the questions customers actually ask. Think about what someone types into ChatGPT when they are researching cleaning services. They ask about frequency recommendations, product safety around children and pets, the difference between standard and deep cleaning, what to expect from a move-out clean, and how to prepare for a cleaning appointment.</p>
 
-            <p>Each of these topics represents a potential article that positions your company as the local authority. When AI encounters a query about cleaning topics and finds your company&apos;s website has detailed, credible content addressing those exact questions, you move to the top of its recommendation list.</p>
+            <p>Each of these topics represents a potential article that positions your company as the local authority. When AI encounters a query about cleaning topics and finds your company&apos;s website has detailed, credible content addressing those exact questions, you move to the top of its recommendation list. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>Topical authority compounds:</strong> The first few articles have modest impact. But as your content library grows and covers more cleaning-related topics, AI platforms begin treating your website as a trusted source for the entire category. This compounding effect means early investment in content pays increasing returns over time.</p>
             </div>
 
-            <p>Your <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">Google Business Profile</Link> also plays a role in content authority. Regular posts, updated service descriptions, and Q&amp;A responses all contribute to the signals AI evaluates. The companies that treat their Business Profile as an active communication channel rather than a static listing gain a meaningful edge.</p>
+            <p>Your <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">Google Business Profile</Link> also plays a role in content authority. Regular posts, updated service descriptions, and Q&amp;A responses all contribute to the signals AI evaluates. The companies that treat their Business Profile as an active communication channel rather than a static listing gain a meaningful edge. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA INLINE 4 */}
             <div className="ae-cta-inline not-prose">
@@ -454,11 +454,11 @@ export default function Page() {
             <span className="ae-section-label" id="residential-vs-commercial">Strategy Split</span>
             <h2>Residential vs. Commercial: Different AI Strategies</h2>
 
-            <p>Cleaning companies that serve both residential and commercial clients face a strategic decision in AI optimization. These are fundamentally different customer journeys with different search behaviors, and AI treats them differently.</p>
+            <p>Cleaning companies that serve both residential and commercial clients face a strategic decision in AI optimization. These are fundamentally different customer journeys with different search behaviors, and AI treats them differently. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p>Residential cleaning customers search with personal, immediate intent. They ask questions like &quot;best house cleaning service near me&quot; or &quot;affordable recurring maid service in [city].&quot; They care about trust, reliability, pricing, and whether the cleaning team is background-checked. Their decision is emotional as well as practical, because they are inviting strangers into their home.</p>
 
-            <p>Commercial cleaning decision-makers search with professional, evaluative intent. They ask about janitorial contracts, facility maintenance programs, industry-specific compliance (medical offices, restaurants, schools), and scalability. They care about insurance, certifications, and operational consistency. Their decision cycle is longer and involves multiple stakeholders.</p>
+            <p>Commercial cleaning decision-makers search with professional, evaluative intent. They ask about janitorial contracts, facility maintenance programs, industry-specific compliance (medical offices, restaurants, schools), and scalability. They care about insurance, certifications, and operational consistency. Their decision cycle is longer and involves multiple stakeholders. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>AI platforms recognize these differences. When someone asks &quot;best office cleaning company in Denver,&quot; AI looks for different signals than when someone asks &quot;best house cleaning service in Denver.&quot; The companies that win in both categories have separate, well-structured content for each audience.</p>
 
@@ -512,7 +512,7 @@ export default function Page() {
 
             {/* CTA INLINE 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Serving both residential and commercial clients? <Link href="/blindspot">Our Blind Spot Report</Link> analyzes your visibility for both audience types across every major AI platform.</p>
+              <p>Serving both residential and commercial clients? <Link href="/blindspot">Our Blind Spot Report</Link> analyzes your visibility for both audience types across every major AI platform. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* SECTION 7 */}
@@ -522,25 +522,25 @@ export default function Page() {
             <p>After analyzing hundreds of cleaning company websites and their AI visibility, certain patterns emerge repeatedly. These are the most common mistakes that keep cleaning businesses out of AI recommendations.</p>
 
             <h3>1. The Digital Business Card Website</h3>
-            <p>A single page with a phone number, a logo, and &quot;We provide quality cleaning services.&quot; AI has nothing to work with. No service specifics, no area coverage, no differentiation.</p>
+            <p>A single page with a phone number, a logo, and &quot;We provide quality cleaning services.&quot; AI has nothing to work with. No service specifics, no area coverage, no differentiation. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>2. Relying Entirely on Social Media</h3>
             <p>Instagram and Facebook posts are not crawlable by most AI platforms. A cleaning company with 5,000 Instagram followers but no website content is invisible to ChatGPT and Perplexity. Social media complements your website; it cannot replace it.</p>
 
             <h3>3. Inconsistent Business Information</h3>
-            <p>Your website says &quot;Sparkle Clean LLC&quot; but Yelp says &quot;Sparkle Cleaning&quot; and Google says &quot;Sparkle Clean Services.&quot; Different phone numbers on different platforms. Conflicting service areas. AI sees these inconsistencies as red flags and reduces its confidence in recommending you.</p>
+            <p>Your website says &quot;Sparkle Clean LLC&quot; but Yelp says &quot;Sparkle Cleaning&quot; and Google says &quot;Sparkle Clean Services.&quot; Different phone numbers on different platforms. Conflicting service areas. AI sees these inconsistencies as red flags and reduces its confidence in recommending you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <h3>4. Zero Reviews on Crawlable Platforms</h3>
             <p>All 200 of your reviews are on Google, which is great for Google Maps. But ChatGPT and Perplexity cannot read them. If you have zero reviews on Yelp, BBB, or your own website, most AI platforms see a company with no verified customer feedback.</p>
 
             <h3>5. Generic Service Descriptions</h3>
-            <p>&quot;We offer residential and commercial cleaning services&quot; tells AI nothing it can use to answer specific queries. Every cleaning company says the same thing. The ones AI recommends have specific, detailed descriptions of each service type with clear differentiation.</p>
+            <p>&quot;We offer residential and commercial cleaning services&quot; tells AI nothing it can use to answer specific queries. Every cleaning company says the same thing. The ones AI recommends have specific, detailed descriptions of each service type with clear differentiation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>6. No Location-Specific Content</h3>
             <p>A cleaning company serving 15 cities with one generic &quot;Service Areas&quot; page misses opportunities. AI needs geographic context. When someone asks for &quot;the best cleaning company in Scottsdale,&quot; AI looks for content specifically mentioning Scottsdale, not just a bullet point on a list of cities.</p>
 
             <h3>7. Ignoring Schema Markup Entirely</h3>
-            <p>Without structured data, AI has to guess what your business does, where you operate, and what customers think. Schema markup removes the guesswork and feeds AI precise, machine-readable information about your cleaning company.</p>
+            <p>Without structured data, AI has to guess what your business does, where you operate, and what customers think. Schema markup removes the guesswork and feeds AI precise, machine-readable information about your cleaning company. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <p><strong>The opportunity:</strong> Because most cleaning companies make all seven of these mistakes, fixing even two or three puts you ahead of 80% of your local competition in AI visibility. The bar is low, and early movers benefit the most.</p>
@@ -548,7 +548,7 @@ export default function Page() {
 
             {/* CTA INLINE 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>How many of these mistakes is your cleaning company making? <Link href="/blindspot">Find out with a free Blind Spot Report</Link>. It takes 30 seconds to request and reveals exactly where the gaps are.</p>
+              <p>How many of these mistakes is your cleaning company making? <Link href="/blindspot">Find out with a free Blind Spot Report</Link>. It takes 30 seconds to request and reveals exactly where the gaps are. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* SECTION 8: PROS/CONS */}
@@ -580,13 +580,13 @@ export default function Page() {
               </div>
             </div>
 
-            <p>AI optimization does not replace referrals, paid ads, or brand building. It opens a new discovery channel that is growing rapidly and that most cleaning companies are completely ignoring. The companies that invest now will have an entrenched advantage by the time their competitors realize AI search matters.</p>
+            <p>AI optimization does not replace referrals, paid ads, or brand building. It opens a new discovery channel that is growing rapidly and that most cleaning companies are completely ignoring. The companies that invest now will have an entrenched advantage by the time their competitors realize AI search matters. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p>Think of it this way: when Google Maps first launched local search results, the cleaning companies that claimed and optimized their profiles early dominated for years. AI search is the same inflection point, happening right now.</p>
 
             {/* CTA INLINE 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to open the AI discovery channel for your cleaning company? <a href="tel:+12134442229">Call (213) 444-2229</a> or <Link href="/blindspot">request your free Blind Spot Report</Link> to see where you stand today.</p>
+              <p>Ready to open the AI discovery channel for your cleaning company? <a href="tel:+12134442229">Call (213) 444-2229</a> or <Link href="/blindspot">request your free Blind Spot Report</Link> to see where you stand today. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             {/* CHEAT SHEET */}
@@ -647,7 +647,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
@@ -678,7 +678,7 @@ export default function Page() {
             <div className="space-y-6">
               <div>
                 <h3>Do cleaning companies really need to worry about AI search?</h3>
-                <p>Yes. AI tools like ChatGPT, Google AI Overviews, and Perplexity are rapidly becoming a primary way people find cleaning services. Nearly half of consumers now use AI for local service discovery, and that number is growing every quarter. AI platforms typically recommend only 3 to 5 businesses per query, so cleaning companies that are not optimized for AI are losing a growing share of new customers to competitors who are.</p>
+                <p>Yes. AI tools like ChatGPT, Google AI Overviews, and Perplexity are rapidly becoming a primary way people find cleaning services. Nearly half of consumers now use AI for local service discovery, and that number is growing every quarter. AI platforms typically recommend only 3 to 5 businesses per query, so cleaning companies that are not optimized for AI are losing a growing share of new customers to competitors who are. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
 
               <div>
@@ -688,7 +688,7 @@ export default function Page() {
 
               <div>
                 <h3>Which matters more for AI visibility: Google reviews or website content?</h3>
-                <p>Both matter, but they serve different AI platforms. Google reviews help with Google AI Overviews, but ChatGPT and Perplexity cannot access Google reviews because they are rendered with JavaScript. For broad AI visibility, cleaning companies need reviews on crawlable platforms like Yelp and BBB, plus testimonials published directly on their own website as plain HTML. Website content is the foundation because it is the primary source every AI platform can access.</p>
+                <p>Both matter, but they serve different AI platforms. Google reviews help with Google AI Overviews, but ChatGPT and Perplexity cannot access Google reviews because they are rendered with JavaScript. For broad AI visibility, cleaning companies need reviews on crawlable platforms like Yelp and BBB, plus testimonials published directly on their own website as plain HTML. Website content is the foundation because it is the primary source every AI platform can access. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
 
               <div>

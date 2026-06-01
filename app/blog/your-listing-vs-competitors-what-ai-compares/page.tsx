@@ -289,10 +289,10 @@ function CalloutBox() {
       </h3>
       <p className="text-gray-300 mb-4">
         For 15 years, your strategy was: build authority, earn backlinks, optimize keywords, get reviews. Google ranks you based on your domain's overall reputation.
-      </p>
+       Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
       <p className="text-gray-300">
         <strong>AI operates differently.</strong> AI systems don't care about your domain's global authority. They care about whether you answered the specific question better than your competitors. A 5-year-old business with clear, detailed answers beats a 20-year-old business with vague website copy. This is the biggest competitive opportunity—and risk—in 2026.
-      </p>
+       Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
     </div>
   )
 }
@@ -317,15 +317,15 @@ function ComparisonFactorCard({
       }}
     >
       <h4 className="text-lg font-semibold text-white mb-3">{title}</h4>
-      <p className="text-gray-400 mb-4">{description}</p>
+      <p className="text-gray-400 mb-4">{description} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
       <div className="mb-4 p-4 rounded bg-gray-900 border-l-2 border-orange-400">
         <p className="text-sm text-gray-300">
           <strong className="text-orange-400">Example:</strong> {example}
-        </p>
+         Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
       </div>
       <p className="text-sm text-gray-400">
         <strong>AI Impact:</strong> {impact}
-      </p>
+       Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
     </div>
   )
 }
@@ -571,13 +571,13 @@ export default function Page() {
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">
                 Competitive Intelligence
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
                 Your Listing vs Your Competitors
               </h1>
               <p className="text-xl text-gray-300 mb-6 max-w-2xl">
                 What AI Actually Compares (It's Not What You Think)
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
                 <span>{publishDate}</span>
                 <span>-</span>
@@ -598,7 +598,7 @@ export default function Page() {
           >
             <p className="text-gray-500 text-center">
               Featured Image: Your Listing vs Competitors Comparison
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           {/* Intro Section */}
@@ -608,13 +608,13 @@ export default function Page() {
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               You've spent years optimizing for Google. You know how the system works: build domain authority, earn backlinks, get reviews, optimize keywords. Your ranking is based on your overall reputation and relevance to the search query.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               AI systems work differently. They don't rank you based on your domain's global authority. They evaluate you in direct competition with specific competitors for specific questions. And the comparison factors are not what most business owners expect.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               This article reveals the 8 core factors AI systems compare when choosing between you and your competitors. Understanding these differences is the competitive advantage in 2026.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </article>
 
           <StatsGrid />
@@ -635,7 +635,7 @@ export default function Page() {
             </a>
             <p className="text-gray-400 text-sm mt-3">
               See exactly how you compare to competitors across all 8 factors
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           {/* The 8 Comparison Factors */}
@@ -645,7 +645,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-400 mb-12">
               When AI evaluates you against competitors, it's not running a traditional ranking algorithm. It's scoring both of you across eight specific dimensions. The business with the better combined score gets recommended.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <ComparisonFactorCard
               title="1. Information Completeness"
@@ -711,7 +711,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-400 mb-6">
               This table shows why your Google strategy doesn't work for AI. The comparison factors are fundamentally different.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <ComparisonTable />
           </section>
 
@@ -769,7 +769,7 @@ export default function Page() {
               >
                 <p className="text-gray-300 mb-4">
                   <strong className="text-orange-400">Why ChatGPT recommends Salon B:</strong>
-                </p>
+                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <ul className="space-y-2 text-gray-400 text-sm">
                   <li>✓ Salon B scores higher on information completeness (specialized pages)</li>
                   <li>✓ Salon B is clearer about what they do (not "all services")</li>
@@ -783,7 +783,7 @@ export default function Page() {
 
             <p className="text-gray-300 text-lg leading-relaxed">
               This happens constantly. A business ranked #1 on Google loses to a competitor ranked #3 or #4 because AI is looking at completely different signals. Salon B understood that AI cares about clarity, completeness, and consistency more than domain authority or review volume.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </section>
 
           {/* The Positioning Advantage */}
@@ -794,7 +794,7 @@ export default function Page() {
 
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
               This is the biggest opportunity for businesses in 2026. You don't need to dominate Google. You need to dominate the information space for your specialty.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="space-y-6">
               <div
@@ -809,10 +809,10 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400 mb-4">
                   Create detailed content for your specific specialization. If you specialize in "commercial real estate for tech startups," create pages that no competitor has. Answer every question a startup founder would ask. AI will prefer your specific expertise over a generalist competitor.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 <p className="text-orange-400 text-sm font-semibold">
                   Result: 3-4x more consistent recommendations, even with lower authority
-                </p>
+                 Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
 
               <div
@@ -827,10 +827,10 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400 mb-4">
                   Don't just answer "What is your service?" Answer pricing, timeline, process, common objections, case results, and variations. Conduct interviews with your recent clients and turn their questions into content. When AI evaluates you, you'll have more comprehensive coverage.
-                </p>
+                 Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <p className="text-orange-400 text-sm font-semibold">
                   Result: 2-5x advantage in information completeness scoring
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
 
               <div
@@ -845,10 +845,10 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400 mb-4">
                   Audit every platform where you appear. Make sure business name, phone, address, hours, service descriptions, and key details match perfectly. Competitors rarely do this. If you do, you'll outrank them on consistency alone when they're otherwise tied.
-                </p>
+                 Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 <p className="text-orange-400 text-sm font-semibold">
                   Result: Tiebreaker advantage in 60% of competitive matchups
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
 
               <div
@@ -863,10 +863,10 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400 mb-4">
                   Publish regularly. Case studies, client results, industry insights, updated pricing. Competitors won't keep up. Content freshness is a tiebreaker in most AI evaluations.
-                </p>
+                 Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <p className="text-orange-400 text-sm font-semibold">
                   Result: 15-20% boost in recommendation likelihood per update cycle
-                </p>
+                 Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
             </div>
           </section>
@@ -884,7 +884,7 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400">
                   A 2-year-old domain with crystal-clear information beats a 20-year-old domain with vague copy. AI isn't evaluating your domain's global reputation.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
 
               <div className="p-6 rounded-lg bg-gray-900 border border-gray-800">
@@ -893,7 +893,7 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400">
                   Backlinks matter less than consistent mentions in credible sources. 500 low-quality backlinks lose to 10 mentions in industry publications.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
 
               <div className="p-6 rounded-lg bg-gray-900 border border-gray-800">
@@ -902,7 +902,7 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400">
                   A business with 1,000 reviews but vague information loses to one with 100 reviews and detailed, clear information.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
 
               <div className="p-6 rounded-lg bg-gray-900 border border-gray-800">
@@ -911,7 +911,7 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400">
                   AI doesn't know (or care) if you're running ads. Paid visibility has zero impact on AI recommendations.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
 
               <div className="p-6 rounded-lg bg-gray-900 border border-gray-800">
@@ -920,7 +920,7 @@ export default function Page() {
                 </h4>
                 <p className="text-gray-400">
                   A basic website with clear, detailed information beats a beautiful website with vague copy. AI judges content, not design.
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
           </section>

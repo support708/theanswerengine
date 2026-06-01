@@ -320,11 +320,11 @@ export default function Page() {
             <span className="ae-section-label" id="why-platform-matters">The Foundation</span>
             <h2>Why Your Platform Shapes AI Visibility</h2>
 
-            <p>When someone asks ChatGPT to recommend a local business, the AI does not check which website builder you used. It does not award bonus points for WordPress or penalize you for choosing Wix. What it does is request your URL, receive the raw HTML your server returns, extract text and structured data, and decide whether your content answers the question well enough to cite.</p>
+            <p>When someone asks ChatGPT to recommend a local business, the AI does not check which website builder you used. It does not award bonus points for WordPress or penalize you for choosing Wix. What it does is request your URL, receive the raw HTML your server returns, extract text and structured data, and decide whether your content answers the question well enough to cite. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>That said, your platform determines the quality of that raw HTML. It controls your default content structure, how much flexibility you have with schema markup, how fast pages load for crawlers, and whether AI bots encounter readable content or a wall of unexecuted JavaScript.</p>
 
-            <p>The platform debate is real, but most business owners frame it incorrectly. They ask, &quot;Is Wix or WordPress better for SEO?&quot; The better question is: <strong>&quot;Which platform makes it easiest for AI to find, read, and cite my business?&quot;</strong></p>
+            <p>The platform debate is real, but most business owners frame it incorrectly. They ask, &quot;Is Wix or WordPress better for SEO?&quot; The better question is: <strong>&quot;Which platform makes it easiest for AI to find, read, and cite my business?&quot;</strong> Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>Both platforms can produce sites that AI search engines cite regularly. Both can also produce sites that are completely invisible to every AI crawler on the web. The difference comes down to three factors: default behavior, technical ceiling, and how much work you are willing to invest in AI optimization.</p>
 
@@ -332,7 +332,7 @@ export default function Page() {
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The JavaScript Problem</div>
               <div className="ae-callout-body">
-                <p>AI crawlers like GPTBot, ClaudeBot, and PerplexityBot do not execute JavaScript. They request your page, read the HTML that comes back, and move on. Wix historically relied heavily on JavaScript to render content, meaning AI crawlers sometimes saw empty pages. Wix has invested in server-side rendering to address this, but JavaScript-dependent elements like dynamic galleries, interactive forms, and animated content sections may still be invisible to AI.</p>
+                <p>AI crawlers like GPTBot, ClaudeBot, and PerplexityBot do not execute JavaScript. They request your page, read the HTML that comes back, and move on. Wix historically relied heavily on JavaScript to render content, meaning AI crawlers sometimes saw empty pages. Wix has invested in server-side rendering to address this, but JavaScript-dependent elements like dynamic galleries, interactive forms, and animated content sections may still be invisible to AI. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               </div>
             </div>
 
@@ -346,23 +346,23 @@ export default function Page() {
             <span className="ae-section-label" id="what-crawlers-see">Under the Hood</span>
             <h2>What AI Crawlers See on Wix vs WordPress</h2>
 
-            <p>AI crawlers do not render your website the way a browser does. They request the URL, receive raw HTML, parse the text content and structured data, then move to the next page. No JavaScript execution. No CSS rendering. No interaction with buttons, animations, or hover effects.</p>
+            <p>AI crawlers do not render your website the way a browser does. They request the URL, receive raw HTML, parse the text content and structured data, then move to the next page. No JavaScript execution. No CSS rendering. No interaction with buttons, animations, or hover effects. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>This means the HTML your platform generates on the server side is the only thing AI sees. Here is what each platform delivers.</p>
 
             <h3>Wix: Managed, Improving, but Constrained</h3>
 
-            <p>Wix manages the entire hosting and rendering pipeline. Every Wix site runs on the same infrastructure, uses the same underlying framework, and outputs HTML through the same engine. This creates consistency, which is valuable. But Wix sites have historically generated heavier HTML than necessary, with deeply nested div structures and framework-specific class names that add bulk without adding meaning.</p>
+            <p>Wix manages the entire hosting and rendering pipeline. Every Wix site runs on the same infrastructure, uses the same underlying framework, and outputs HTML through the same engine. This creates consistency, which is valuable. But Wix sites have historically generated heavier HTML than necessary, with deeply nested div structures and framework-specific class names that add bulk without adding meaning. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>Wix has improved significantly since 2024. Server-side rendering now covers most core content types. Automatic XML sitemaps, customizable meta tags, URL slug editing, and basic structured data are all handled natively. Wix also launched an AI Visibility Overview dashboard that lets you track how your site appears across ChatGPT, Perplexity, Claude, and Gemini.</p>
 
-            <p>The constraint is control. You cannot modify how Wix renders its HTML. You cannot strip out unnecessary wrapper elements. You cannot control server-side caching headers or fine-tune how specific AI crawlers are served. What Wix gives you is what you get.</p>
+            <p>The constraint is control. You cannot modify how Wix renders its HTML. You cannot strip out unnecessary wrapper elements. You cannot control server-side caching headers or fine-tune how specific AI crawlers are served. What Wix gives you is what you get. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>WordPress: Powerful, Variable, Unpredictable</h3>
 
             <p>WordPress does not control your HTML output. Your theme sets the base structure. Your page builder (Elementor, Divi, Beaver Builder, or Gutenberg blocks) determines how content gets wrapped. Your plugins add, modify, or occasionally break HTML elements throughout the site. Two WordPress sites with identical content can produce wildly different HTML.</p>
 
-            <p>A well-configured WordPress site using a lightweight theme like GeneratePress or Astra, the native block editor, and a solid schema plugin produces some of the cleanest, most AI-readable HTML on the web. A poorly configured WordPress site using a heavy visual builder can generate pages with hundreds of nested div elements where AI crawlers struggle to locate actual business content.</p>
+            <p>A well-configured WordPress site using a lightweight theme like GeneratePress or Astra, the native block editor, and a solid schema plugin produces some of the cleanest, most AI-readable HTML on the web. A poorly configured WordPress site using a heavy visual builder can generate pages with hundreds of nested div elements where AI crawlers struggle to locate actual business content. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>The ceiling is much higher with WordPress, but so is the floor. The platform gives you complete control, which means the quality of your AI visibility depends entirely on how (or whether) you use that control.</p>
 
@@ -395,7 +395,7 @@ export default function Page() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Heavy page builders and JavaScript frameworks can hide your content from AI. Here is why.</p>
+              <p>Heavy page builders and JavaScript frameworks can hide your content from AI. Here is why. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blog/is-your-website-too-complicated-for-ai">Is Your Website Too Complicated for AI? &rarr;</Link>
             </div>
 
@@ -406,13 +406,13 @@ export default function Page() {
             <p>Wix has made significant investments in AI readiness that most business owners overlook. Here is where the platform genuinely outperforms WordPress for certain use cases.</p>
 
             <h3>1. AI Visibility Dashboard</h3>
-            <p>Wix rolled out an AI Visibility Overview feature in 2025 that tracks how your website appears across ChatGPT, Perplexity, Claude, and Gemini. No other major website builder offers this natively. You can see which pages AI platforms are citing, which queries trigger your content, and where gaps exist. WordPress users need third-party tools and manual monitoring to get similar insights.</p>
+            <p>Wix rolled out an AI Visibility Overview feature in 2025 that tracks how your website appears across ChatGPT, Perplexity, Claude, and Gemini. No other major website builder offers this natively. You can see which pages AI platforms are citing, which queries trigger your content, and where gaps exist. WordPress users need third-party tools and manual monitoring to get similar insights. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>2. Zero Configuration Setup</h3>
             <p>Every Wix site gets automatic XML sitemaps, Google Search Console integration, customizable meta titles and descriptions, URL slug editing, automatic 301 redirects, image compression, and basic structured data from the moment you publish. For business owners who will never hire a developer or install a plugin, this baseline is meaningful. You start with a functional foundation instead of a blank slate.</p>
 
             <h3>3. Consistent Server Performance</h3>
-            <p>Because Wix controls its own hosting infrastructure, server response times are predictable and generally fast. AI crawlers allocate limited time per domain. A Wix site that consistently responds in under 200 milliseconds gets more pages crawled than a WordPress site on budget shared hosting that takes 800 milliseconds per request. You never have to worry about hosting quality, server configuration, or CDN setup on Wix.</p>
+            <p>Because Wix controls its own hosting infrastructure, server response times are predictable and generally fast. AI crawlers allocate limited time per domain. A Wix site that consistently responds in under 200 milliseconds gets more pages crawled than a WordPress site on budget shared hosting that takes 800 milliseconds per request. You never have to worry about hosting quality, server configuration, or CDN setup on Wix. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>4. Built-in Alt Text Generation</h3>
             <p>Wix uses AI to automatically generate alt text for images, which contributes to the overall accessibility and crawlability signal that AI search engines evaluate. WordPress requires a plugin or manual effort for the same functionality. While alt text alone does not drive AI citations, it contributes to the structured, well-documented pages that AI platforms prefer to reference.</p>
@@ -420,7 +420,7 @@ export default function Page() {
             {/* CTA 4 */}
             <div className="ae-cta-block not-prose">
               <h3>Want to Know If Wix Is Limiting Your AI Visibility?</h3>
-              <p>Our Blind Spot Report shows you exactly what AI sees on your site versus your competitors. Free, no obligation.</p>
+              <p>Our Blind Spot Report shows you exactly what AI sees on your site versus your competitors. Free, no obligation. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -431,20 +431,20 @@ export default function Page() {
             <p>WordPress remains the platform of choice for businesses pursuing long-term AI search dominance. Here is where it pulls ahead decisively.</p>
 
             <h3>1. Full Schema Markup Control</h3>
-            <p>WordPress, through plugins like Rank Math, Yoast SEO, and Schema Pro, gives you complete control over every type of structured data. You can implement LocalBusiness, Service, FAQPage, HowTo, Review, Event, and dozens of other schema types with precision. AI crawlers rely on schema markup to understand business context, service areas, and expertise signals. The more specific and comprehensive your structured data, the more likely AI platforms are to cite you.</p>
+            <p>WordPress, through plugins like Rank Math, Yoast SEO, and Schema Pro, gives you complete control over every type of structured data. You can implement LocalBusiness, Service, FAQPage, HowTo, Review, Event, and dozens of other schema types with precision. AI crawlers rely on schema markup to understand business context, service areas, and expertise signals. The more specific and comprehensive your structured data, the more likely AI platforms are to cite you. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>2. Content Architecture at Scale</h3>
             <p>WordPress was built for content. It handles thousands of pages without performance degradation, supports bulk editing across hundreds of posts, and provides category and tag taxonomies that create natural topic clusters. For businesses pursuing a content strategy designed to build topical authority (the most significant factor in AI citations), WordPress is purpose-built for the job.</p>
 
             <h3>3. Granular Crawl Control</h3>
-            <p>Every aspect of how AI crawlers interact with a WordPress site is configurable. You can modify robots.txt with crawler-specific directives, generate custom XML sitemaps with priority weights, control canonical URLs, implement hreflang for multilingual sites, and set server headers that optimize crawler efficiency. This level of control separates businesses that occasionally appear in AI results from businesses that consistently dominate their category.</p>
+            <p>Every aspect of how AI crawlers interact with a WordPress site is configurable. You can modify robots.txt with crawler-specific directives, generate custom XML sitemaps with priority weights, control canonical URLs, implement hreflang for multilingual sites, and set server headers that optimize crawler efficiency. This level of control separates businesses that occasionally appear in AI results from businesses that consistently dominate their category. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>4. The Plugin Ecosystem</h3>
             <p>While WordPress lacks native AI optimization tools, its plugin ecosystem fills every gap. Schema generators, sitemap controllers, page speed optimizers, broken link checkers, and AI-specific monitoring tools are all available. The ecosystem is mature, well-documented, and continuously updated as AI search requirements evolve.</p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Schema markup is the AI visibility multiplier. Learn how it works.</p>
+              <p>Schema markup is the AI visibility multiplier. Learn how it works. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blog/does-schema-markup-help-ai-search">Does Schema Markup Help AI Search? &rarr;</Link>
             </div>
 
@@ -531,7 +531,7 @@ export default function Page() {
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Need help figuring out which factors matter most for your specific business? Talk to us.</p>
+              <p>Need help figuring out which factors matter most for your specific business? Talk to us. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
             </div>
 
@@ -542,12 +542,12 @@ export default function Page() {
             <p>Schema markup is the single most important technical factor for AI visibility beyond your actual content. It tells AI crawlers exactly what your business does, where you operate, what services you offer, and how to categorize your expertise. The gap between Wix and WordPress on schema is one of the most significant differences in this comparison.</p>
 
             <h3>Wix Schema Capabilities</h3>
-            <p>Wix automatically generates structured data for common content types. BlogPosting schema appears on blog articles. LocalBusiness schema populates from your site settings. Product schema applies to e-commerce items. You can also add custom JSON-LD through the Wix editor&apos;s custom code feature, which gives you more flexibility than many business owners realize.</p>
+            <p>Wix automatically generates structured data for common content types. BlogPosting schema appears on blog articles. LocalBusiness schema populates from your site settings. Product schema applies to e-commerce items. You can also add custom JSON-LD through the Wix editor&apos;s custom code feature, which gives you more flexibility than many business owners realize. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>The limitation is ecosystem support. WordPress has dozens of mature schema plugins with visual editors, template libraries, and automated schema generation across every page type. Wix has its built-in basics plus a smaller selection of third-party apps. For businesses that need advanced schema strategies involving nested service types, multi-location markup, or Speakable schema, WordPress provides a more complete toolkit.</p>
 
             <h3>WordPress Schema Capabilities</h3>
-            <p>WordPress with a plugin like Rank Math or Schema Pro can implement virtually any schema type that exists in the Schema.org vocabulary. You can create templates that automatically apply the correct schema to every page of a specific type. You can nest schemas within schemas, connecting your LocalBusiness markup to your Service markup to your Review markup in ways that give AI crawlers a complete, interconnected picture of your business.</p>
+            <p>WordPress with a plugin like Rank Math or Schema Pro can implement virtually any schema type that exists in the Schema.org vocabulary. You can create templates that automatically apply the correct schema to every page of a specific type. You can nest schemas within schemas, connecting your LocalBusiness markup to your Service markup to your Review markup in ways that give AI crawlers a complete, interconnected picture of your business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Callout 2 */}
             <div className="ae-callout ae-callout-orange not-prose">
@@ -559,7 +559,7 @@ export default function Page() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Already on one of these platforms and want a professional AI visibility assessment?</p>
+              <p>Already on one of these platforms and want a professional AI visibility assessment? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -627,23 +627,23 @@ export default function Page() {
             <span className="ae-section-label" id="common-mistakes">Avoidable Errors</span>
             <h2>The Biggest AI Mistakes on Each Platform</h2>
 
-            <p>Both platforms can deliver strong AI visibility. Both can also sabotage it. These are the mistakes we encounter most often when auditing sites for AI readiness.</p>
+            <p>Both platforms can deliver strong AI visibility. Both can also sabotage it. These are the mistakes we encounter most often when auditing sites for AI readiness. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Wix Mistakes</h3>
 
             <p><strong>Assuming the defaults are enough.</strong> Wix handles technical basics automatically, and that gives many business owners a false sense of security. They publish a few pages, add a logo, and assume AI will find them. But AI visibility requires deliberate content structure: FAQ sections, individual service pages, clear heading hierarchy, and comprehensive business information that goes well beyond what any platform auto-generates.</p>
 
-            <p><strong>Ignoring the JavaScript gap.</strong> Business owners who load their Wix sites with dynamic content, animated galleries, interactive elements, and JavaScript-heavy features are creating pages that look stunning in a browser but deliver incomplete content to AI crawlers. The visual experience and the AI experience are two different things on Wix.</p>
+            <p><strong>Ignoring the JavaScript gap.</strong> Business owners who load their Wix sites with dynamic content, animated galleries, interactive elements, and JavaScript-heavy features are creating pages that look stunning in a browser but deliver incomplete content to AI crawlers. The visual experience and the AI experience are two different things on Wix. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p><strong>Using a single services page.</strong> A single &quot;Services&quot; page listing everything your business does gives AI crawlers one URL to represent your entire offering. Individual service pages, each with their own title, description, and structured data, give AI multiple opportunities to cite your business for specific queries.</p>
 
             <h3>WordPress Mistakes</h3>
 
-            <p><strong>Page builder overload.</strong> Elementor, Divi, and similar visual builders create beautiful pages that generate enormous amounts of nested HTML. AI crawlers parsing through 15 layers of wrapper div elements to find one paragraph of business content often extract garbled data or give up entirely. The visual appeal that wins human visitors can cost you AI visibility.</p>
+            <p><strong>Page builder overload.</strong> Elementor, Divi, and similar visual builders create beautiful pages that generate enormous amounts of nested HTML. AI crawlers parsing through 15 layers of wrapper div elements to find one paragraph of business content often extract garbled data or give up entirely. The visual appeal that wins human visitors can cost you AI visibility. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p><strong>Plugin accumulation.</strong> Every plugin adds code to your pages. Twenty plugins can add thousands of lines of JavaScript, CSS, and HTML to every page load. AI crawlers have to sift through all of that to find your actual business content. Performance degrades, crawl efficiency drops, and your pages become harder for AI to parse.</p>
 
-            <p><strong>Cheap hosting.</strong> A WordPress site on budget shared hosting with 800ms server response times will get fewer pages crawled than the same site on quality hosting with 150ms response times. AI crawlers allocate limited time per domain. Slow servers mean fewer pages indexed, which means less content available for AI to cite.</p>
+            <p><strong>Cheap hosting.</strong> A WordPress site on budget shared hosting with 800ms server response times will get fewer pages crawled than the same site on quality hosting with 150ms response times. AI crawlers allocate limited time per domain. Slow servers mean fewer pages indexed, which means less content available for AI to cite. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Callout 3 */}
             <div className="ae-callout ae-callout-warning not-prose">
@@ -655,7 +655,7 @@ export default function Page() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering if your site is too complex for AI to read? We wrote a full guide on this.</p>
+              <p>Wondering if your site is too complex for AI to read? We wrote a full guide on this. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blog/is-your-website-too-complicated-for-ai">Is Your Website Too Complicated for AI? &rarr;</Link>
             </div>
 
@@ -710,7 +710,7 @@ export default function Page() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure where your business falls? We can tell you exactly what to prioritize.</p>
+              <p>Not sure where your business falls? We can tell you exactly what to prioritize. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call us at (213) 444-2229 &rarr;</a>
             </div>
 
@@ -720,15 +720,15 @@ export default function Page() {
 
             <p>Here is the truth that platform comparison articles rarely acknowledge: your platform is the foundation, but it is not the building. The factors that actually determine whether AI cites your business are platform-independent.</p>
 
-            <p><strong>Content that answers real questions.</strong> AI search engines cite businesses that provide clear, specific answers to the questions people ask. A Wix site with 15 well-structured FAQ pages will outperform a WordPress site with 200 pages of thin, generic content every time.</p>
+            <p><strong>Content that answers real questions.</strong> AI search engines cite businesses that provide clear, specific answers to the questions people ask. A Wix site with 15 well-structured FAQ pages will outperform a WordPress site with 200 pages of thin, generic content every time. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p><strong>Topical authority.</strong> AI platforms evaluate whether your website demonstrates deep expertise in your area. Multiple interconnected pages covering different aspects of your services, supported by case studies, guides, and detailed FAQ content, build the authority signal that AI search engines look for.</p>
 
-            <p><strong>Consistent, accessible business information.</strong> Your name, address, phone number, service areas, hours, and core service descriptions need to be accessible in your HTML. Not hidden in JavaScript. Not buried in images. Not locked behind a form. Accessible in the raw HTML that AI crawlers receive on their first and only visit to each page.</p>
+            <p><strong>Consistent, accessible business information.</strong> Your name, address, phone number, service areas, hours, and core service descriptions need to be accessible in your HTML. Not hidden in JavaScript. Not buried in images. Not locked behind a form. Accessible in the raw HTML that AI crawlers receive on their first and only visit to each page. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p><strong>Page speed and reliability.</strong> AI crawlers are impatient. Pages that load slowly, return errors, or time out get skipped. Your hosting, image optimization, and code efficiency matter regardless of which platform you use.</p>
 
-            <p><strong>Structured data beyond the basics.</strong> Both Wix and WordPress can deliver basic schema. The businesses that dominate AI search go further, implementing detailed service schemas, FAQ markup, review aggregation, and local business data that give AI crawlers a complete, structured picture of their business.</p>
+            <p><strong>Structured data beyond the basics.</strong> Both Wix and WordPress can deliver basic schema. The businesses that dominate AI search go further, implementing detailed service schemas, FAQ markup, review aggregation, and local business data that give AI crawlers a complete, structured picture of their business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* CTA 11 */}
             <div className="ae-cta-inline not-prose">
@@ -775,7 +775,7 @@ export default function Page() {
             {/* CTA 12 - 3-tier CTA block */}
             <div className="ae-cta-block not-prose">
               <h3>Find Out What AI Search Engines See on Your Website</h3>
-              <p>Whether you are on Wix, WordPress, or any other platform, our Blind Spot Report reveals exactly how AI crawlers interpret your site versus your competitors. Free analysis, delivered in 48 hours.</p>
+              <p>Whether you are on Wix, WordPress, or any other platform, our Blind Spot Report reveals exactly how AI crawlers interpret your site versus your competitors. Free analysis, delivered in 48 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <Link href="/blindspot" className="inline-flex items-center justify-center px-6 py-3 bg-[#F27D24] text-white font-semibold rounded-lg hover:bg-[#F27D24]/90 transition-colors">
                   Get Your Free Blind Spot Report
@@ -808,13 +808,13 @@ export default function Page() {
             <h2>Frequently Asked Questions</h2>
 
             <h3>Is Wix or WordPress better for AI search visibility?</h3>
-            <p>Neither is universally better. Wix provides a managed environment with built-in AI visibility tracking, making it solid for small businesses that want simplicity. WordPress offers deeper control over schema markup, crawl directives, and content architecture, making it stronger for businesses scaling content or competing in crowded categories. The platform matters less than how your content is structured for AI crawlers.</p>
+            <p>Neither is universally better. Wix provides a managed environment with built-in AI visibility tracking, making it solid for small businesses that want simplicity. WordPress offers deeper control over schema markup, crawl directives, and content architecture, making it stronger for businesses scaling content or competing in crowded categories. The platform matters less than how your content is structured for AI crawlers. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Can AI crawlers read Wix websites properly?</h3>
             <p>Wix has improved significantly, but it still relies on JavaScript rendering for portions of its content. AI crawlers like GPTBot and ClaudeBot do not execute JavaScript, which means they may see incomplete pages on some Wix sites. Wix has added server-side rendering for key content types, but dynamic elements, galleries, and interactive sections may still be invisible to AI.</p>
 
             <h3>Does Wix support schema markup for AI search?</h3>
-            <p>Wix automatically generates basic structured data for common content types like BlogPosting and LocalBusiness. You can also add custom JSON-LD through the Wix editor. However, Wix does not offer the same depth of schema plugin support that WordPress provides. Advanced schema strategies involving nested service types or Speakable markup require workarounds on Wix.</p>
+            <p>Wix automatically generates basic structured data for common content types like BlogPosting and LocalBusiness. You can also add custom JSON-LD through the Wix editor. However, Wix does not offer the same depth of schema plugin support that WordPress provides. Advanced schema strategies involving nested service types or Speakable markup require workarounds on Wix. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>Which platform is faster for AI crawlers?</h3>
             <p>Wix delivers consistent performance because it manages its own hosting. WordPress speed depends entirely on your hosting provider, theme, and plugins. A WordPress site on premium hosting with a lightweight theme can be faster than any Wix site. A WordPress site on budget shared hosting with heavy plugins will be significantly slower, and AI crawlers may time out before indexing all your pages.</p>

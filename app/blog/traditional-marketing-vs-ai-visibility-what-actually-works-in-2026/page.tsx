@@ -459,7 +459,7 @@ export default function Page() {
               certain audiences. Radio still reaches 71% of adults aged 25 to 54 weekly. But the
               trajectory of each major traditional channel is unmistakable: shrinking budgets,
               fragmenting audiences, and diminishing returns at the top end.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <p className="text-gray-300 leading-relaxed mb-6">
               Linear television, the king of brand building for three decades, is absorbing the
               sharpest blow. Global linear TV ad spend is dropping over 11% in 2026 alone. A
@@ -467,7 +467,7 @@ export default function Page() {
               year, a larger share of the audience is streaming, and streaming inventory behaves
               more like digital than traditional: targetable, measurable, and increasingly
               competitive.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div
               className="ae-callout-warning rounded-xl p-6 mb-8"
@@ -491,7 +491,7 @@ export default function Page() {
                     is the best plumber near me?" That question goes to ChatGPT, Google AI Mode, or
                     Perplexity. If your business is not in that AI answer, the billboard you paid
                     for does not close the loop.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 </div>
               </div>
             </div>
@@ -503,7 +503,7 @@ export default function Page() {
               which recorded a remarkable 161% ROI in 2025, the highest of any paid marketing
               channel. But direct mail is increasingly a retention and upsell tool for existing
               customer lists, not a customer acquisition engine for cold audiences.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-6">
               Out-of-home advertising, including billboards, is the outlier performing reasonably
@@ -511,7 +511,7 @@ export default function Page() {
               grew 14.5% while static formats barely moved at 1.5%. Even billboards are going
               digital and programmatic, which says something important: the channels that survive
               are the ones borrowing principles from digital.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Pros/cons: Traditional */}
             <div
@@ -605,7 +605,7 @@ export default function Page() {
                     Is your business invisible to AI?
                   </span>{' '}
                   Find out in 5 minutes with a free AI Blind Spot Audit.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
               <a
                 href="/blindspot"
@@ -634,14 +634,14 @@ export default function Page() {
               $43.6 billion in 2024, is on a trajectory to capture 62.2% of total search volume
               by 2030. But 2030 feels abstract. What is happening right now is already material
               for businesses.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             <p className="text-gray-300 leading-relaxed mb-6">
               Google AI Overviews alone reach 1.5 billion monthly users. ChatGPT has 810 million
               daily active users. Perplexity, Claude, Grok, Copilot, and Gemini collectively
               handle hundreds of millions more queries every day. These are not niche tools used
               by tech enthusiasts. They are the new front door through which a rapidly growing
               share of your potential customers first encounter your category.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div
               className="ae-callout-info rounded-xl p-6 mb-8"
@@ -667,7 +667,7 @@ export default function Page() {
                     ranking. It is the one whose authority, reviews, descriptions, and structured
                     data gave the AI enough confidence to recommend. That is a fundamentally
                     different game.
-                  </p>
+                   Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
             </div>
@@ -679,7 +679,7 @@ export default function Page() {
               deciding. The reason is clear: AI does the qualification work before the visit.
               By the time a user clicks through, they already received a specific recommendation
               that matched their stated need.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The zero-click reality also reshapes the calculation. 93% of AI search sessions
               end without any website click at all. This means that AI visibility is not only
@@ -687,7 +687,7 @@ export default function Page() {
               recommended even when the user never visits your site. For service businesses,
               having your phone number and location confirmed by an AI recommendation carries
               brand value that no billboard can replicate at that moment of intent.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Internal link CTA */}
             <div
@@ -697,7 +697,7 @@ export default function Page() {
                 border: '1px solid rgba(255,255,255,0.1)',
               }}
             >
-              <p className="text-sm text-gray-400 mb-3">Related reading on this topic:</p>
+              <p className="text-sm text-gray-400 mb-3">Related reading on this topic: Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   href="/blog/hidden-cost-ignoring-ai-search"
@@ -730,7 +730,7 @@ export default function Page() {
                     Curious what AI says about your business right now?
                   </span>{' '}
                   Talk to a visibility specialist.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
               <a
                 href="tel:+12134442229"
@@ -755,7 +755,7 @@ export default function Page() {
               useful frame is: which channel owns which stage of the customer journey, and which
               stage is growing fastest? The answer shapes where additional investment creates the
               most leverage.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Journey stage cards */}
             <div className="grid md:grid-cols-3 gap-5 mb-10">
@@ -781,7 +781,7 @@ export default function Page() {
                 <p className="text-sm text-gray-400 mb-3 leading-relaxed">
                   Customer learns your brand exists. TV, radio, and OOH still own much of this
                   stage, particularly for broad local audiences.
-                </p>
+                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <div
                   className="text-xs font-medium px-2 py-1 rounded"
                   style={{
@@ -816,7 +816,7 @@ export default function Page() {
                 <p className="text-sm text-gray-400 mb-3 leading-relaxed">
                   Customer asks "who should I hire for X near me?" This stage is rapidly
                   migrating from Google to AI platforms. Whoever wins here wins the lead.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                 <div
                   className="text-xs font-medium px-2 py-1 rounded"
                   style={{
@@ -851,7 +851,7 @@ export default function Page() {
                 <p className="text-sm text-gray-400 mb-3 leading-relaxed">
                   Customer evaluates options. Reviews, website, and AI confirmation all play a
                   role. AI-referred visitors convert 4.4x higher because the AI pre-qualifies them.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                 <div
                   className="text-xs font-medium px-2 py-1 rounded"
                   style={{
@@ -887,7 +887,7 @@ export default function Page() {
                     almost entirely in Google. In 2026, it is splitting rapidly between Google and
                     AI platforms. A business that owns Stage 1 through traditional advertising but
                     is invisible in Stage 2 is paying to generate demand that competitors capture.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 </div>
               </div>
             </div>
@@ -906,7 +906,7 @@ export default function Page() {
                     See exactly where your business stands in Stage 2.
                   </span>{' '}
                   We audit ChatGPT, Perplexity, Gemini, and more.
-                </p>
+                 Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
@@ -929,7 +929,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-8">
               This table does not declare a winner. It maps each channel to the dimensions that
               matter most for businesses making real budget decisions in 2026.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-comparison-table overflow-x-auto rounded-xl mb-8">
               <table
@@ -1056,7 +1056,7 @@ export default function Page() {
                     Not sure how to read this for your specific industry?
                   </span>{' '}
                   We build channel-specific visibility strategies every week.
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
               <a
                 href="/blindspot"
@@ -1083,7 +1083,7 @@ export default function Page() {
               The majority of small and mid-sized businesses we speak with have no idea what AI
               platforms say about them. Some have never checked. Others assume that good Google
               rankings automatically translate to AI visibility. They do not.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <p className="text-gray-300 leading-relaxed mb-6">
               AI platforms build their understanding of a business from an entirely different set
               of signals than Google uses for rankings. Entity recognition, structured data,
@@ -1091,7 +1091,7 @@ export default function Page() {
               and the clarity of the business's own website content all feed the AI's confidence
               level. A business can rank on page one of Google and still be completely absent from
               ChatGPT, Perplexity, and Gemini responses.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div
               className="ae-callout-success rounded-xl p-6 mb-8"
@@ -1112,7 +1112,7 @@ export default function Page() {
                   <p className="text-gray-300 text-sm leading-relaxed mb-3">
                     After analyzing hundreds of AI citation patterns, a few consistent themes
                     emerge among businesses that reliably appear in AI answers:
-                  </p>
+                   Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   <ul className="space-y-1 text-sm text-gray-300">
                     <li className="flex items-start gap-2">
                       <span style={{ color: '#22C55E' }} className="flex-shrink-0">•</span>
@@ -1144,12 +1144,12 @@ export default function Page() {
               are not running more TV ads. They are not bidding more on Google. They are being
               named by AI platforms to high-intent customers every hour of every day, with no
               cost-per-click.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The businesses that have not done this work are spending more on traditional
               channels to capture a shrinking share of an audience that is increasingly finding
               alternatives before the traditional ad even has a chance to work.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <Link
               href="/blog/seo-agency-vs-ai-optimization-which-one"
@@ -1162,10 +1162,10 @@ export default function Page() {
                 textDecoration: 'none',
               }}
             >
-              <p className="text-xs text-gray-500 mb-1 uppercase tracking-widest">Related Article</p>
+              <p className="text-xs text-gray-500 mb-1 uppercase tracking-widest">Related Article <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <p className="font-plus-jakarta font-semibold text-white hover:text-orange-400 transition-colors">
                 SEO Agency vs AI Optimization: Which One Does Your Business Actually Need? →
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </Link>
 
             {/* Inline CTA 5 */}
@@ -1182,7 +1182,7 @@ export default function Page() {
                     Want to know exactly what ChatGPT says about your business today?
                   </span>{' '}
                   We run the audit and show you the exact gap.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
               <a
                 href="tel:+12134442229"
@@ -1205,7 +1205,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-8">
               Your ideal channel mix depends on your business type, customer demographics, and
               current visibility gaps. Use this matrix as a starting framework, not a final answer.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="ae-decision-matrix overflow-x-auto rounded-xl mb-8">
               <table

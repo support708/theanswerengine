@@ -224,23 +224,23 @@ export default function AnswerEngineSolutionsPage() {
 
           <p>
             Answer engine solutions are services and strategies designed to position your business as the recommended expert when AI platforms answer questions in your industry.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             When someone asks ChatGPT &quot;Who is the best plumber in Denver?&quot; or asks Google AI Overview &quot;How do I find a probate realtor?&quot; answer engine solutions determine whether AI recommends you or your competitor.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="not-prose ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Visibility Shift Is Happening Now</div>
-            <p>Consumer behavior has changed. People increasingly ask AI for recommendations instead of scrolling through Google results. If your business is not optimized for answer engines, you are invisible to a growing segment of potential customers.</p>
+            <p>Consumer behavior has changed. People increasingly ask AI for recommendations instead of scrolling through Google results. If your business is not optimized for answer engines, you are invisible to a growing segment of potential customers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           <p>
             At The Answer Engine, we have seen this transformation firsthand. Our own website went from zero AI visibility to ranking for 40+ queries within 4 months. Not by gaming the system, but by building genuine topical authority through a proven methodology.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="not-prose ae-cta-inline">
-            <p>Not sure if AI platforms are recommending your business right now?</p>
+            <p>Not sure if AI platforms are recommending your business right now? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -248,7 +248,7 @@ export default function AnswerEngineSolutionsPage() {
           <span className="ae-section-label">The Framework</span>
           <h2 id="the-4-components">The 4 Components of Effective Answer Engine Solutions</h2>
 
-          <p>Every successful answer engine solution contains four components working together. Remove any single piece and the system underperforms. Here is what each one does and why it matters.</p>
+          <p>Every successful answer engine solution contains four components working together. Remove any single piece and the system underperforms. Here is what each one does and why it matters. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           {/* Timeline */}
           <div className="not-prose ae-timeline">
@@ -270,20 +270,20 @@ export default function AnswerEngineSolutionsPage() {
 
           <p>
             Generic content does not get cited. AI platforms prioritize genuine expertise over recycled information and they are getting better at telling the difference every month.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <p>
             The challenge: most business owners have deep expertise but struggle to articulate it in ways AI systems recognize as authoritative. Writing &quot;about&quot; your business produces corporate-sounding content that blends in with competitors.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="not-prose ae-callout ae-callout-info">
             <div className="ae-callout-title">Why Expertise Extraction Matters</div>
-            <p>At The Answer Engine, we use a proprietary methodology to extract and document the authentic expertise that AI platforms recognize as authoritative. The specificity that emerges from this process (your exact process, local knowledge, hard-won lessons) is what separates cited experts from ignored competitors.</p>
+            <p>At The Answer Engine, we use a proprietary methodology to extract and document the authentic expertise that AI platforms recognize as authoritative. The specificity that emerges from this process (your exact process, local knowledge, hard-won lessons) is what separates cited experts from ignored competitors. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p>
             This is the hardest part to replicate, and why most DIY attempts produce content that never gets cited. You cannot objectively extract your own expertise any more than you can proofread your own writing with fresh eyes.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="not-prose ae-bar-group">
             <div className="ae-bar-item">
@@ -309,7 +309,7 @@ export default function AnswerEngineSolutionsPage() {
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Want to see what AI platforms actually say about your business?</p>
+            <p>Want to see what AI platforms actually say about your business? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation</a>
           </div>
 
@@ -317,9 +317,9 @@ export default function AnswerEngineSolutionsPage() {
 
           <p>
             Isolated blog posts do not build authority. AI platforms evaluate topical depth through connected content clusters. A single article, no matter how good, rarely earns consistent AI citations on its own.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-          <p>Hub-and-spoke architecture works like this:</p>
+          <p>Hub-and-spoke architecture works like this: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <ul>
             <li>One comprehensive hub guide (4,000 to 6,000 words) covers your core expertise</li>
@@ -329,14 +329,14 @@ export default function AnswerEngineSolutionsPage() {
 
           <div className="not-prose ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>This structure outperforms random blogging because AI platforms can trace your expertise across multiple related queries. When they see consistent, interconnected content on a topic, they assign more trust and cite you more frequently.</p>
+            <p>This structure outperforms random blogging because AI platforms can trace your expertise across multiple related queries. When they see consistent, interconnected content on a topic, they assign more trust and cite you more frequently. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           <h3 id="technical-schema-markup">3. Technical Schema Markup</h3>
 
           <p>
             Schema markup is code that tells AI platforms exactly what your content means. Without it, AI guesses. With it, AI understands precisely who you are, what you do, and why you are credible.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="not-prose ae-cheat-sheet">
             <div className="ae-cheat-sheet-title">Essential Schema Types for Local Service Businesses</div>
@@ -382,10 +382,10 @@ export default function AnswerEngineSolutionsPage() {
 
           <p>
             Most local businesses have zero schema markup. Adding comprehensive schema gives you an immediate advantage over competitors that AI platforms simply cannot properly categorize.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="not-prose ae-cta-inline">
-            <p>Wondering if your website has the right schema markup for AI platforms?</p>
+            <p>Wondering if your website has the right schema markup for AI platforms? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             <Link href="/blindspot">Check Your AI Visibility Now</Link>
           </div>
 
@@ -393,7 +393,7 @@ export default function AnswerEngineSolutionsPage() {
 
           <p>
             Content that ranks and gets cited passes rigorous quality checks. At The Answer Engine, nothing publishes below a 95% score on our AERO-10 framework.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="not-prose ae-stats-grid">
             <div className="ae-stat-card">
@@ -413,15 +413,15 @@ export default function AnswerEngineSolutionsPage() {
             </div>
           </div>
 
-          <p>The audit process catches fabrication, generic language, and technical gaps that prevent AI citations. Every claim must trace back to verified research or genuine expertise. This quality bar is what separates content that earns AI citations from content that gets ignored.</p>
+          <p>The audit process catches fabrication, generic language, and technical gaps that prevent AI citations. Every claim must trace back to verified research or genuine expertise. This quality bar is what separates content that earns AI citations from content that gets ignored. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="not-prose ae-callout ae-callout-success">
             <div className="ae-callout-title">Quality Is the Differentiator</div>
-            <p>AI platforms are trained to detect low-quality, mass-produced content. When your articles pass a rigorous multi-round audit, the depth and accuracy signal genuine authority to every AI system that evaluates your content.</p>
+            <p>AI platforms are trained to detect low-quality, mass-produced content. When your articles pass a rigorous multi-round audit, the depth and accuracy signal genuine authority to every AI system that evaluates your content. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Ready to see how your content stacks up against AI quality standards?</p>
+            <p>Ready to see how your content stacks up against AI quality standards? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai</a>
           </div>
 
@@ -431,7 +431,7 @@ export default function AnswerEngineSolutionsPage() {
 
           <p>
             Answer engine solutions deliver strongest ROI for local service businesses with specific characteristics. Not every business is ready for AEO, and we are transparent about that.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="not-prose ae-decision-matrix">
             <div className="ae-decision-title">Is Your Business Ready for AEO?</div>
@@ -462,7 +462,7 @@ export default function AnswerEngineSolutionsPage() {
             </div>
           </div>
 
-          <p><strong>Industries seeing fastest results:</strong></p>
+          <p><strong>Industries seeing fastest results:</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           <ul>
             <li>HVAC contractors</li>
             <li>Plumbers and electricians</li>
@@ -474,7 +474,7 @@ export default function AnswerEngineSolutionsPage() {
           </ul>
 
           <div className="not-prose ae-cta-inline">
-            <p>Think your business is a fit? Let us confirm it with data, not guesswork.</p>
+            <p>Think your business is a fit? Let us confirm it with data, not guesswork. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -482,7 +482,7 @@ export default function AnswerEngineSolutionsPage() {
           <span className="ae-section-label">DIY vs. Professional</span>
           <h2 id="diy-vs-professional">DIY vs. Professional Answer Engine Solutions</h2>
 
-          <p>This is the most common question we hear from local business owners. Can you do this yourself, or do you need professional help? Here is an honest comparison.</p>
+          <p>This is the most common question we hear from local business owners. Can you do this yourself, or do you need professional help? Here is an honest comparison. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           {/* Comparison Table */}
           <table className="ae-comparison-table">
@@ -551,15 +551,15 @@ export default function AnswerEngineSolutionsPage() {
 
           <p>
             The expertise extraction piece is where DIY fails most often. It is extremely difficult to objectively capture your own authentic voice. The same way you cannot edit your own writing as effectively as someone else can, you cannot extract your own expertise with the objectivity that AI platforms reward.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <div className="not-prose ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Real Cost of DIY</div>
-            <p>If your time is worth $100/hour (typical for business owners), 100 hours of DIY work represents $10,000 in opportunity cost. The direct cost looks cheap. The real cost is not. Factor in the 65% failure rate and the math gets even worse.</p>
+            <p>If your time is worth $100/hour (typical for business owners), 100 hours of DIY work represents $10,000 in opportunity cost. The direct cost looks cheap. The real cost is not. Factor in the 65% failure rate and the math gets even worse. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Skip the guesswork. See exactly where you stand with AI platforms today.</p>
+            <p>Skip the guesswork. See exactly where you stand with AI platforms today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <a href="tel:+12134442229">Call (213) 444-2229</a>
           </div>
 
@@ -567,7 +567,7 @@ export default function AnswerEngineSolutionsPage() {
           <span className="ae-section-label">Provider Selection</span>
           <h2 id="what-to-look-for">What to Look for in an Answer Engine Solutions Provider</h2>
 
-          <p>Choosing the wrong provider wastes your investment and delays results by months. Here are the signals that separate legitimate AEO providers from those repackaging old SEO tactics.</p>
+          <p>Choosing the wrong provider wastes your investment and delays results by months. Here are the signals that separate legitimate AEO providers from those repackaging old SEO tactics. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           <div className="not-prose ae-pros-cons">
             <div className="ae-pros-box">
@@ -595,7 +595,7 @@ export default function AnswerEngineSolutionsPage() {
           </div>
 
           <div className="not-prose ae-quote">
-            <p>&quot;The difference between content that gets cited and content that gets ignored is authenticity. AI platforms can detect the difference.&quot;</p>
+            <p>&quot;The difference between content that gets cited and content that gets ignored is authenticity. AI platforms can detect the difference.&quot; <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           <div className="not-prose ae-cta-inline">

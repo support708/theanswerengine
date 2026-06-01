@@ -245,15 +245,15 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
             <span className="ae-section-label" id="why-hvac-gets-missed">The Problem</span>
             <h2>Why HVAC Companies Get Missed in AI Citations</h2>
 
-            <p>A homeowner&apos;s AC goes out on a Friday afternoon. Instead of opening Google Maps, they open ChatGPT and type: &quot;Who is a reliable HVAC company near me in [city]?&quot; ChatGPT returns a handful of names with brief explanations of why each one is worth calling. Your company is not on the list.</p>
+            <p>A homeowner&apos;s AC goes out on a Friday afternoon. Instead of opening Google Maps, they open ChatGPT and type: &quot;Who is a reliable HVAC company near me in [city]?&quot; ChatGPT returns a handful of names with brief explanations of why each one is worth calling. Your company is not on the list. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>This is not random. AI platforms follow a logic when deciding which HVAC companies to surface, and most local operators are failing on two or three of the basic requirements without knowing it.</p>
+            <p>This is not random. AI platforms follow a logic when deciding which HVAC companies to surface, and most local operators are failing on two or three of the basic requirements without knowing it. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>AI does not browse Yelp and pick the highest-rated option. It cross-references multiple data sources and only cites businesses it can verify from at least two or three independent signals.</p>
+              <p>AI does not browse Yelp and pick the highest-rated option. It cross-references multiple data sources and only cites businesses it can verify from at least two or three independent signals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
-            <p>The four most common reasons HVAC companies get skipped:</p>
+            <p>The four most common reasons HVAC companies get skipped: Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <ul>
               <li><strong>Website content is too thin.</strong> A single Services page listing twelve procedures in a bulleted list gives AI nothing to cite. AI needs depth.</li>
@@ -262,10 +262,10 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
               <li><strong>No schema markup.</strong> Without structured data, AI has to guess what your business does, where it operates, and what it offers. Guessing leads to omissions.</li>
             </ul>
 
-            <p>The good news: all four of these are fixable. None of them require a large budget. They require focused effort applied in the right places.</p>
+            <p>The good news: all four of these are fixable. None of them require a large budget. They require focused effort applied in the right places. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which gaps are hurting your HVAC company most? We will show you.</p>
+              <p>Not sure which gaps are hurting your HVAC company most? We will show you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -273,36 +273,36 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
             <span className="ae-section-label" id="how-ai-sources-hvac">How AI Works</span>
             <h2>How ChatGPT and Perplexity Source HVAC Recommendations</h2>
 
-            <p>Understanding where AI gets its information is the first step toward appearing in it. ChatGPT and Perplexity do not have real-time access to Google Maps or your Google Business Profile in the way most people assume. They build their knowledge from crawlable web content gathered during their training and, in the case of live-search features, from current web results they can actually read.</p>
+            <p>Understanding where AI gets its information is the first step toward appearing in it. ChatGPT and Perplexity do not have real-time access to Google Maps or your Google Business Profile in the way most people assume. They build their knowledge from crawlable web content gathered during their training and, in the case of live-search features, from current web results they can actually read. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>What ChatGPT Actually Reads</h3>
 
-            <p>ChatGPT&apos;s crawlers read plain HTML. When they visit a page, they see whatever is in the source code at load time. Dynamic content rendered by JavaScript, including most embedded review widgets, Google Maps embeds, and many modern website builders&apos; content blocks, is simply not there from the crawler&apos;s perspective.</p>
+            <p>ChatGPT&apos;s crawlers read plain HTML. When they visit a page, they see whatever is in the source code at load time. Dynamic content rendered by JavaScript, including most embedded review widgets, Google Maps embeds, and many modern website builders&apos; content blocks, is simply not there from the crawler&apos;s perspective. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>JavaScript-heavy sites are largely invisible.</strong> Research indicates that 87% of heavily JavaScript-rendered sites are not readable by ChatGPT crawlers. Many HVAC company websites built on popular templates fall into this category. The content looks great in a browser but registers as near-empty to an AI crawler.</p>
+              <p><strong>JavaScript-heavy sites are largely invisible.</strong> Research indicates that 87% of heavily JavaScript-rendered sites are not readable by ChatGPT crawlers. Many HVAC company websites built on popular templates fall into this category. The content looks great in a browser but registers as near-empty to an AI crawler. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
-            <p>What ChatGPT can read: static HTML content on your website, Yelp profiles, Angi and HomeAdvisor profiles, BBB listings, local news mentions, and any directory that serves content in plain HTML without requiring JavaScript to render the core information.</p>
+            <p>What ChatGPT can read: static HTML content on your website, Yelp profiles, Angi and HomeAdvisor profiles, BBB listings, local news mentions, and any directory that serves content in plain HTML without requiring JavaScript to render the core information. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>What Perplexity Reads</h3>
 
-            <p>Perplexity uses real-time web search to build its answers. When someone asks Perplexity about an HVAC company, it runs a live search and reads the pages it finds. This means Perplexity is more sensitive to current content freshness than ChatGPT, and it heavily weights pages that directly answer the question being asked.</p>
+            <p>Perplexity uses real-time web search to build its answers. When someone asks Perplexity about an HVAC company, it runs a live search and reads the pages it finds. This means Perplexity is more sensitive to current content freshness than ChatGPT, and it heavily weights pages that directly answer the question being asked. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
-            <p>A page titled &quot;AC Repair in [Your City]&quot; that answers specific questions like &quot;How much does AC repair cost?&quot; and &quot;How quickly can you respond?&quot; is exactly what Perplexity wants to surface. A generic homepage with a rotating hero image and a contact form is not.</p>
+            <p>A page titled &quot;AC Repair in [Your City]&quot; that answers specific questions like &quot;How much does AC repair cost?&quot; and &quot;How quickly can you respond?&quot; is exactly what Perplexity wants to surface. A generic homepage with a rotating hero image and a contact form is not. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>What Google AI Overviews Read</h3>
 
-            <p>Google AI Overviews pull from Google&apos;s own index, which means your Google Business Profile matters here. But the AI Overview is not just showing your GBP card. It synthesizes content from your website, your reviews, your structured data, and third-party mentions to generate a response. According to WebFX&apos;s analysis of over 237,000 home service queries, AI Overviews appear in 40.78% of long-tail home service searches, the kind where someone is ready to hire.</p>
+            <p>Google AI Overviews pull from Google&apos;s own index, which means your Google Business Profile matters here. But the AI Overview is not just showing your GBP card. It synthesizes content from your website, your reviews, your structured data, and third-party mentions to generate a response. According to WebFX&apos;s analysis of over 237,000 home service queries, AI Overviews appear in 40.78% of long-tail home service searches, the kind where someone is ready to hire. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Long-tail queries are where the buying happens.</strong> Searches like &quot;HVAC company that does same-day service in [city]&quot; or &quot;how much does a new furnace installation cost in [city]&quot; trigger AI Overviews far more often than broad queries. These are also the searches from people who are ready to call. Showing up here is high-value.</p>
+              <p><strong>Long-tail queries are where the buying happens.</strong> Searches like &quot;HVAC company that does same-day service in [city]&quot; or &quot;how much does a new furnace installation cost in [city]&quot; trigger AI Overviews far more often than broad queries. These are also the searches from people who are ready to call. Showing up here is high-value. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
-            <p>For a broader look at how AI platforms decide what to recommend, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
+            <p>For a broader look at how AI platforms decide what to recommend, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what each AI platform says about your HVAC company right now?</p>
+              <p>Want to know exactly what each AI platform says about your HVAC company right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
 
@@ -310,14 +310,14 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
             <span className="ae-section-label" id="four-tactics">The Tactics</span>
             <h2>4 Concrete Tactics to Increase Your HVAC Company&apos;s AI Visibility</h2>
 
-            <p>These four tactics address the root causes of HVAC invisibility in AI search. They are ordered by impact relative to effort. Start at the top.</p>
+            <p>These four tactics address the root causes of HVAC invisibility in AI search. They are ordered by impact relative to effort. Start at the top. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* TACTIC 1 */}
             <h3>Tactic 1: Build Dedicated Service Pages With Real Depth</h3>
 
-            <p>The single highest-leverage change most HVAC companies can make is replacing a single catch-all Services page with individual pages for each service: AC repair, AC installation, furnace repair, furnace installation, heat pump service, air quality, duct cleaning, and so on.</p>
+            <p>The single highest-leverage change most HVAC companies can make is replacing a single catch-all Services page with individual pages for each service: AC repair, AC installation, furnace repair, furnace installation, heat pump service, air quality, duct cleaning, and so on. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-            <p>Each page should be substantive. That means at minimum: what the service involves, how long it takes, what it costs (even a range), when a homeowner needs it, your service area, and a FAQ section answering the real questions customers call about. AI platforms go from 16% to 54% accuracy when content is backed by structured data and depth, according to research highlighted by Digidop.</p>
+            <p>Each page should be substantive. That means at minimum: what the service involves, how long it takes, what it costs (even a range), when a homeowner needs it, your service area, and a FAQ section answering the real questions customers call about. AI platforms go from 16% to 54% accuracy when content is backed by structured data and depth, according to research highlighted by Digidop. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-cheat-sheet not-prose">
               <h3>What Each HVAC Service Page Should Include</h3>
@@ -335,19 +335,19 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
               </ul>
             </div>
 
-            <p>This level of detail is not just for AI. It is exactly what high-intent homeowners want to read before calling. The content serves both purposes simultaneously.</p>
+            <p>This level of detail is not just for AI. It is exactly what high-intent homeowners want to read before calling. The content serves both purposes simultaneously. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-cta-inline not-prose">
-              <p>Not sure how to structure service pages for AI? Our guide covers the exact format.</p>
+              <p>Not sure how to structure service pages for AI? Our guide covers the exact format. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blog/write-service-pages-ai-platforms-recommend">Read: How to Write Service Pages AI Recommends &rarr;</Link>
             </div>
 
             {/* TACTIC 2 */}
             <h3>Tactic 2: Lock Down Your Directory Listings</h3>
 
-            <p>AI platforms build what researchers call &quot;entity authority.&quot; The more places AI finds consistent, matching information about your HVAC company, the more confident it becomes in recommending you. Inconsistency, even minor differences like &quot;Smith HVAC&quot; versus &quot;Smith Heating and Cooling,&quot; erodes that confidence.</p>
+            <p>AI platforms build what researchers call &quot;entity authority.&quot; The more places AI finds consistent, matching information about your HVAC company, the more confident it becomes in recommending you. Inconsistency, even minor differences like &quot;Smith HVAC&quot; versus &quot;Smith Heating and Cooling,&quot; erodes that confidence. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-            <p>The directories that carry the most weight for HVAC companies in AI search are: Yelp, Angi, HomeAdvisor, BBB, your local Chamber of Commerce, and any HVAC-specific trade directories your state or region supports. These platforms serve their content in crawlable HTML, which means ChatGPT and Perplexity can actually read them.</p>
+            <p>The directories that carry the most weight for HVAC companies in AI search are: Yelp, Angi, HomeAdvisor, BBB, your local Chamber of Commerce, and any HVAC-specific trade directories your state or region supports. These platforms serve their content in crawlable HTML, which means ChatGPT and Perplexity can actually read them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-bar-group not-prose">
               <h3>HVAC Directory Priority for AI Visibility</h3>
@@ -373,21 +373,21 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
               </div>
             </div>
 
-            <p>Do a search for your company name and verify that every directory listing has identical: business name, address, phone number, hours, and service description. Fix anything that does not match. This audit takes a few hours and it significantly raises AI confidence in your data.</p>
+            <p>Do a search for your company name and verify that every directory listing has identical: business name, address, phone number, hours, and service description. Fix anything that does not match. This audit takes a few hours and it significantly raises AI confidence in your data. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>For the full list of directories that matter most, read our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>.</p>
+            <p>For the full list of directories that matter most, read our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <div className="ae-cta-inline not-prose">
-              <p>We can identify every directory where your HVAC company is missing or inconsistent.</p>
+              <p>We can identify every directory where your HVAC company is missing or inconsistent. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
             {/* TACTIC 3 */}
             <h3>Tactic 3: Move Your Reviews Where AI Can Read Them</h3>
 
-            <p>This is the one that surprises most HVAC operators. Your Google reviews, regardless of how many you have or how high your rating is, are largely invisible to ChatGPT and Perplexity. Google renders review content via JavaScript. AI crawlers read raw HTML. They do not see the same page a human browser sees.</p>
+            <p>This is the one that surprises most HVAC operators. Your Google reviews, regardless of how many you have or how high your rating is, are largely invisible to ChatGPT and Perplexity. Google renders review content via JavaScript. AI crawlers read raw HTML. They do not see the same page a human browser sees. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
-            <p>According to BrightLocal&apos;s 2026 data, Google&apos;s share as the review platform HVAC customers use has dropped from 83% to 71% while Apple Maps nearly doubled. More importantly, for AI search purposes, reviews need to exist somewhere AI can actually read them.</p>
+            <p>According to BrightLocal&apos;s 2026 data, Google&apos;s share as the review platform HVAC customers use has dropped from 83% to 71% while Apple Maps nearly doubled. More importantly, for AI search purposes, reviews need to exist somewhere AI can actually read them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros">
@@ -414,9 +414,9 @@ export default function HowDoIGetMyHvacCompanyOnChatGPTAndAISearch() {
               </div>
             </div>
 
-            <p>The most reliable fix: copy five to ten of your best customer testimonials directly onto your website as plain HTML text. Include the customer&apos;s first name, the service they had done, and specific detail about the experience. Add Review schema markup to these testimonials. This puts review sentiment in a place AI can always read, regardless of which platform it is crawling.</p>
+            <p>The most reliable fix: copy five to ten of your best customer testimonials directly onto your website as plain HTML text. Include the customer&apos;s first name, the service they had done, and specific detail about the experience. Add Review schema markup to these testimonials. This puts review sentiment in a place AI can always read, regardless of which platform it is crawling. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-            <p>Ask customers who leave you a Google review to also post on Yelp or leave a review directly on your website via a simple form. Two platforms beats one. Three beats two.</p>
+            <p>Ask customers who leave you a Google review to also post on Yelp or leave a review directly on your website via a simple form. Two platforms beats one. Three beats two. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="ae-cta-inline not-prose">
               <p>Find out which of your reviews AI can actually see and which are invisible.</p>

@@ -264,17 +264,17 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             <p>A couple is planning a Saturday night out. Instead of scrolling through Google Maps or asking friends, one of them opens ChatGPT and types: &quot;Where is the best Italian restaurant near the Pearl District with outdoor seating?&quot;</p>
 
-            <p>Within seconds, ChatGPT returns three specific recommendations. Names, descriptions, why each one fits the request. One of those restaurants is even linked to OpenTable for instant reservations.</p>
+            <p>Within seconds, ChatGPT returns three specific recommendations. Names, descriptions, why each one fits the request. One of those restaurants is even linked to OpenTable for instant reservations. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>This is not a hypothetical scenario. It is happening millions of times per week in 2026. And the restaurants that show up in those AI responses are filling tables while competitors wonder why foot traffic is slowing down.</p>
 
             <div className="ae-quote not-prose">
-              <p>The question is no longer whether diners use AI to find restaurants. They do. The question is whether your restaurant is part of the answer.</p>
+              <p>The question is no longer whether diners use AI to find restaurants. They do. The question is whether your restaurant is part of the answer. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <p>The shift has been staggering in scale. BrightLocal&apos;s 2026 research found that 45% of consumers now use AI platforms for local business recommendations. In 2025, that number was 6%. That is not a trend. That is a tidal wave. And the restaurant industry, with its inherently conversational discovery process, sits right in the path.</p>
 
-            <p>To understand the broader shift in how customers use AI for local business discovery, our analysis of <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link> covers the full picture across industries.</p>
+            <p>To understand the broader shift in how customers use AI for local business discovery, our analysis of <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link> covers the full picture across industries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -286,12 +286,12 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <span className="ae-section-label">The Mechanics</span>
             <h2 id="how-ai-picks">How AI Decides Which Restaurants to Recommend</h2>
 
-            <p>Traditional search engines rank web pages. AI does something fundamentally different. When a diner asks an AI assistant for restaurant recommendations, the AI synthesizes information from dozens of sources to build a picture of which restaurants best match the request. It is not ranking pages. It is forming opinions.</p>
+            <p>Traditional search engines rank web pages. AI does something fundamentally different. When a diner asks an AI assistant for restaurant recommendations, the AI synthesizes information from dozens of sources to build a picture of which restaurants best match the request. It is not ranking pages. It is forming opinions. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>This distinction matters because the signals that make a restaurant rank well on Google are not the same signals that make AI recommend it. Keyword stuffing, backlink profiles, and meta tags are less relevant. What matters to AI is clarity, consistency, and credibility across the digital landscape.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>How AI &quot;thinks&quot; about restaurants:</strong> AI platforms evaluate your restaurant across multiple dimensions simultaneously. They consider what your website says, what review platforms say, what food bloggers say, what your business listings say, and whether all of those sources tell a consistent story. Contradictions reduce confidence. Consistency builds it.</p>
+              <p><strong>How AI &quot;thinks&quot; about restaurants:</strong> AI platforms evaluate your restaurant across multiple dimensions simultaneously. They consider what your website says, what review platforms say, what food bloggers say, what your business listings say, and whether all of those sources tell a consistent story. Contradictions reduce confidence. Consistency builds it. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             <p>Think of it this way: when a friend recommends a restaurant, they synthesize everything they know about it. The food, the atmosphere, the service, what they read about it, what others have told them. AI works the same way, except it can process thousands of data points in milliseconds.</p>
@@ -327,7 +327,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly what AI says when diners ask about restaurants like yours?</p>
+              <p>Want to know exactly what AI says when diners ask about restaurants like yours? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
 
@@ -358,7 +358,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
               </div>
             </div>
 
-            <p>The split is nearly even between third-party listings and your own website. This means restaurants that focus on only one channel are leaving roughly half of their AI visibility on the table.</p>
+            <p>The split is nearly even between third-party listings and your own website. This means restaurants that focus on only one channel are leaving roughly half of their AI visibility on the table. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p><strong>Platform differences matter:</strong> ChatGPT leans more heavily on third-party directories like Yelp and OpenTable. Google&apos;s Gemini tends to favor first-party websites. Perplexity splits more evenly between the two. A restaurant that is only strong on Yelp but has a weak website will show up on ChatGPT but stay invisible on Gemini.</p>
@@ -399,7 +399,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>You cannot win AI visibility with a single-channel strategy. Restaurants that dominate AI recommendations have a strong presence across their own website, major review platforms, and booking directories simultaneously.</p>
+              <p>You cannot win AI visibility with a single-channel strategy. Restaurants that dominate AI recommendations have a strong presence across their own website, major review platforms, and booking directories simultaneously. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* ── CTA 3 ── */}
@@ -412,17 +412,17 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <span className="ae-section-label">Your Website</span>
             <h2 id="website-matters">Why Your Website Is Your Most Valuable AI Asset</h2>
 
-            <p>Nearly 40% of AI citations for restaurants come from the restaurant&apos;s own website. Yet most restaurant websites are built for human visitors, not for AI comprehension. Beautiful photos, clever animations, and trendy design frameworks look great to diners browsing on their phones. But AI cannot see any of that.</p>
+            <p>Nearly 40% of AI citations for restaurants come from the restaurant&apos;s own website. Yet most restaurant websites are built for human visitors, not for AI comprehension. Beautiful photos, clever animations, and trendy design frameworks look great to diners browsing on their phones. But AI cannot see any of that. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>AI reads text. It parses structured data. It follows links. It cross-references what your website says with what other sources say. If your website is essentially a collection of images with minimal text, AI has almost nothing to work with.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>The structured data gap:</strong> Research shows AI platforms go from 16% to 54% accuracy when content uses structured data markup. For restaurants, this means adding schema markup for your business type, location, hours, menu items, and price range. Restaurants with proper structured data are essentially speaking AI&apos;s native language.</p>
+              <p><strong>The structured data gap:</strong> Research shows AI platforms go from 16% to 54% accuracy when content uses structured data markup. For restaurants, this means adding schema markup for your business type, location, hours, menu items, and price range. Restaurants with proper structured data are essentially speaking AI&apos;s native language. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <p>The restaurants that AI recommends most consistently share certain website characteristics. Their content is detailed, text-based, and organized in ways that make it easy for machines to parse. They describe their cuisine, their atmosphere, their story, their team, and their values in clear, specific language. Nothing is left implied.</p>
 
-            <p>This does not mean your website needs to be ugly or text-heavy for human visitors. It means the information needs to be there, even if design elements present it beautifully. The text still needs to exist in the underlying code.</p>
+            <p>This does not mean your website needs to be ugly or text-heavy for human visitors. It means the information needs to be there, even if design elements present it beautifully. The text still needs to exist in the underlying code. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
@@ -434,12 +434,12 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <span className="ae-section-label">Reviews</span>
             <h2 id="reviews-signal">The Review Signals AI Actually Reads</h2>
 
-            <p>Reviews are the lifeblood of restaurant discovery. That has not changed. What has changed is which reviews AI can see and which ones it cannot.</p>
+            <p>Reviews are the lifeblood of restaurant discovery. That has not changed. What has changed is which reviews AI can see and which ones it cannot. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>Here is the uncomfortable truth: Google reviews, the ones most restaurants focus on almost exclusively, are largely invisible to AI platforms. Google reviews require JavaScript to render, and most AI crawlers do not execute JavaScript. They see a blank page where your 4.7-star rating and 800 reviews should be.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The Google reviews blindspot:</strong> Your 500 Google reviews might as well not exist when ChatGPT is deciding which restaurant to recommend. AI platforms primarily read reviews from Yelp, TripAdvisor, and your own website (when they are embedded as plain HTML text). This is one of the biggest disconnects between what restaurant owners think matters and what actually influences AI recommendations.</p>
+              <p><strong>The Google reviews blindspot:</strong> Your 500 Google reviews might as well not exist when ChatGPT is deciding which restaurant to recommend. AI platforms primarily read reviews from Yelp, TripAdvisor, and your own website (when they are embedded as plain HTML text). This is one of the biggest disconnects between what restaurant owners think matters and what actually influences AI recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             <p>For a deeper analysis of how reviews across platforms influence AI recommendations, our article on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link> covers the nuances in detail.</p>
@@ -468,7 +468,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
               </div>
             </div>
 
-            <p>The data is clear: restaurants that gain 20 or more fresh reviews on AI-accessible platforms within a 3-month window are 2.5 times more likely to appear in ChatGPT answers than restaurants with stagnant review profiles. Recency and volume on the right platforms matter enormously.</p>
+            <p>The data is clear: restaurants that gain 20 or more fresh reviews on AI-accessible platforms within a 3-month window are 2.5 times more likely to appear in ChatGPT answers than restaurants with stagnant review profiles. Recency and volume on the right platforms matter enormously. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
@@ -480,12 +480,12 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <span className="ae-section-label">Menus</span>
             <h2 id="menu-visibility">Menu Visibility: The Factor Most Restaurants Miss</h2>
 
-            <p>When someone asks AI for &quot;restaurants with great craft cocktails near Midtown&quot; or &quot;where to find authentic pad thai in Austin,&quot; the AI needs to know what your restaurant actually serves. If your menu exists only as a PDF download or a photo of a chalkboard, AI cannot read it.</p>
+            <p>When someone asks AI for &quot;restaurants with great craft cocktails near Midtown&quot; or &quot;where to find authentic pad thai in Austin,&quot; the AI needs to know what your restaurant actually serves. If your menu exists only as a PDF download or a photo of a chalkboard, AI cannot read it. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>This is one of the most common and most fixable gaps in restaurant AI visibility. The menu is the single most searched piece of content on a restaurant website, and yet the majority of restaurants present it in formats that AI cannot parse.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>The menu advantage:</strong> Restaurants with full HTML menus on their websites (text-based, crawlable, with dish descriptions and prices) have a significant edge in AI search. When a diner asks for a specific type of cuisine or dish, AI can match your menu items to their request. Restaurants with PDF-only menus cannot be matched this way.</p>
+              <p><strong>The menu advantage:</strong> Restaurants with full HTML menus on their websites (text-based, crawlable, with dish descriptions and prices) have a significant edge in AI search. When a diner asks for a specific type of cuisine or dish, AI can match your menu items to their request. Restaurants with PDF-only menus cannot be matched this way. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             {/* ── BAR CHART: Menu Format Impact ── */}
@@ -513,7 +513,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering if AI can read your restaurant menu? We will tell you in 24 hours.</p>
+              <p>Wondering if AI can read your restaurant menu? We will tell you in 24 hours. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -523,19 +523,19 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             <p>With 41.6% of AI citations coming from third-party listings, your presence across the directory ecosystem is not optional. It is foundational. But not all directories carry equal weight with AI platforms.</p>
 
-            <p>The directories that matter most for restaurant AI visibility are the ones that AI platforms can easily crawl and that carry authority signals. Yelp is consistently one of the most-cited sources across all AI platforms. OpenTable&apos;s direct integration with ChatGPT makes it uniquely valuable. TripAdvisor carries strong weight for restaurants in tourist-heavy areas.</p>
+            <p>The directories that matter most for restaurant AI visibility are the ones that AI platforms can easily crawl and that carry authority signals. Yelp is consistently one of the most-cited sources across all AI platforms. OpenTable&apos;s direct integration with ChatGPT makes it uniquely valuable. TripAdvisor carries strong weight for restaurants in tourist-heavy areas. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>Consistency is the key:</strong> AI platforms cross-reference your information across multiple directories. If your restaurant&apos;s name, address, phone number, or hours differ between Yelp, Google, your website, and TripAdvisor, that inconsistency signals unreliability to AI. Even small variations (like &quot;St.&quot; vs. &quot;Street&quot; or a missing suite number) can reduce your citation likelihood.</p>
             </div>
 
-            <p>The restaurants dominating AI search tend to have verified, consistent listings across 15 to 20 or more platforms. This includes the obvious ones (Yelp, Google, TripAdvisor) and the less obvious ones (Bing Places, Apple Maps, Foursquare, local food guides, and industry-specific directories).</p>
+            <p>The restaurants dominating AI search tend to have verified, consistent listings across 15 to 20 or more platforms. This includes the obvious ones (Yelp, Google, TripAdvisor) and the less obvious ones (Bing Places, Apple Maps, Foursquare, local food guides, and industry-specific directories). Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>For a broader look at how other local businesses build this kind of directory presence, our guide on <Link href="/blog/how-home-service-companies-dominate-ai-search">how home service companies dominate AI search</Link> explores similar directory strategies that apply across industries.</p>
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>We audit your restaurant&apos;s presence across all the directories that feed AI platforms.</p>
+              <p>We audit your restaurant&apos;s presence across all the directories that feed AI platforms. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">See Your Full AI Visibility Profile &rarr;</Link>
             </div>
 
@@ -545,7 +545,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             <p>Restaurant owners often assume that big chains have an insurmountable advantage in AI search, just as they tend to dominate traditional search through sheer marketing budgets. The reality is more nuanced, and in many cases, it favors independents.</p>
 
-            <p>AI platforms prioritize specificity and authenticity. When someone asks for &quot;the best seafood restaurant in Charleston with a rooftop view,&quot; AI is looking for specific answers, not generic chains. A local restaurant with a detailed website describing its rooftop dining experience, its seafood sourcing from local waters, and its chef&apos;s culinary background gives AI exactly what it needs to make a confident recommendation.</p>
+            <p>AI platforms prioritize specificity and authenticity. When someone asks for &quot;the best seafood restaurant in Charleston with a rooftop view,&quot; AI is looking for specific answers, not generic chains. A local restaurant with a detailed website describing its rooftop dining experience, its seafood sourcing from local waters, and its chef&apos;s culinary background gives AI exactly what it needs to make a confident recommendation. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* ── COMPARISON TABLE: Chain vs Independent ── */}
             <table className="ae-comparison-table not-prose">
@@ -594,7 +594,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>See how your restaurant stacks up against the competition in AI search. Free report, no commitment.</p>
+              <p>See how your restaurant stacks up against the competition in AI search. Free report, no commitment. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -634,7 +634,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Timeline Reality Check</div>
-              <p>There is no shortcut. Restaurants that try to game AI search with thin content or fake signals get filtered out. The timeline rewards consistency and genuine quality, which is actually good news for restaurants that take pride in what they do.</p>
+              <p>There is no shortcut. Restaurants that try to game AI search with thin content or fake signals get filtered out. The timeline rewards consistency and genuine quality, which is actually good news for restaurants that take pride in what they do. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* ── CTA 9 ── */}
@@ -647,26 +647,26 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
             <span className="ae-section-label">Pitfalls</span>
             <h2 id="mistakes">The Mistakes That Keep Restaurants Invisible</h2>
 
-            <p>After analyzing hundreds of restaurant digital profiles, certain patterns emerge among the businesses that remain invisible to AI. These are the most common mistakes, and understanding them is the fastest path to understanding what needs to change.</p>
+            <p>After analyzing hundreds of restaurant digital profiles, certain patterns emerge among the businesses that remain invisible to AI. These are the most common mistakes, and understanding them is the fastest path to understanding what needs to change. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Relying Entirely on Google Reviews</h3>
             <p>As covered above, Google reviews are not accessible to most AI crawlers. Restaurants that have 500 Google reviews but zero Yelp reviews and no testimonials on their own website are essentially invisible to ChatGPT and Perplexity when it comes to social proof.</p>
 
             <h3>Treating the Website as a Brochure</h3>
-            <p>A restaurant website with a hero image, a few paragraphs, and a link to a PDF menu gives AI almost nothing to work with. AI needs text. Lots of it. Detailed descriptions of your concept, your cuisine, your team, your sourcing, your private dining options, your event capabilities. Every piece of information that exists in the owner&apos;s head but not on the website is invisible to AI.</p>
+            <p>A restaurant website with a hero image, a few paragraphs, and a link to a PDF menu gives AI almost nothing to work with. AI needs text. Lots of it. Detailed descriptions of your concept, your cuisine, your team, your sourcing, your private dining options, your event capabilities. Every piece of information that exists in the owner&apos;s head but not on the website is invisible to AI. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <h3>Inconsistent Business Information</h3>
             <p>A different phone number on Yelp versus Google versus the website. Hours that were updated on Google but not on TripAdvisor. An old address on a directory you forgot about. Each inconsistency chips away at AI&apos;s confidence in recommending your restaurant.</p>
 
             <h3>Ignoring Bing Places</h3>
-            <p>Most restaurant owners do not know that Bing Places feeds directly into ChatGPT&apos;s local search capabilities. An unclaimed or inaccurate Bing Places listing is a direct gap in ChatGPT visibility. It takes minutes to set up, yet most restaurants have not done it.</p>
+            <p>Most restaurant owners do not know that Bing Places feeds directly into ChatGPT&apos;s local search capabilities. An unclaimed or inaccurate Bing Places listing is a direct gap in ChatGPT visibility. It takes minutes to set up, yet most restaurants have not done it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>No Structured Data Markup</h3>
             <p>Schema markup is how you translate your restaurant information into a language that AI platforms natively understand. Without it, AI has to guess what your hours are, what your cuisine type is, and what your price range is. With it, there is no guessing. The data is explicit.</p>
 
             {/* ── CTA 10 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Every one of these mistakes is fixable. We can show you exactly which ones affect your restaurant.</p>
+              <p>Every one of these mistakes is fixable. We can show you exactly which ones affect your restaurant. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -692,7 +692,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
             {/* ── CTA 12 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Prefer a phone conversation? Our team specializes in restaurant AI visibility.</p>
+              <p>Prefer a phone conversation? Our team specializes in restaurant AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -759,7 +759,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
               ].map((faq, i) => (
                 <div key={i} className="rounded-xl border border-white/10 bg-white/[0.02] p-6">
                   <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">{faq.q}</h3>
-                  <p className="text-gray-300 leading-relaxed">{faq.a}</p>
+                  <p className="text-gray-300 leading-relaxed">{faq.a} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 </div>
               ))}
             </div>
@@ -773,7 +773,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
 
           {/* ── CTA 14 ── */}
           <div className="ae-cta-inline not-prose my-8">
-            <p>Prefer email? Send us your questions and we will respond within 24 hours.</p>
+            <p>Prefer email? Send us your questions and we will respond within 24 hours. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
           </div>
 

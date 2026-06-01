@@ -294,14 +294,14 @@ export default function BestAEOTechniques2026() {
 
             <p>
               Answer Engine Optimization is not SEO with a different name. The retrieval-augmented generation (RAG) systems inside ChatGPT, Perplexity, Google AI Overviews, and Gemini do not rank pages. They extract passages. A business that ranks #1 on Google can still score zero citations on AI platforms if its content fails the passage-extraction tests these systems run on every crawl.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <p>
               The seven techniques below are grounded in the GEO research framework (Aggarwal et al., KDD 2024), the structured format enhancement findings from GEO-SFE 2026, and what we observe across our own client citation audits. Each technique includes a one-sentence mechanism, implementation steps, and expected citation impact so you can prioritize execution.
             </p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which techniques your site is missing? The free AERO scan checks all seven signal categories in under five minutes.</p>
+              <p>Not sure which techniques your site is missing? The free AERO scan checks all seven signal categories in under five minutes. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               <Link href="/blindspot">Run Your Free AERO Scan &rarr;</Link>
             </div>
 
@@ -336,14 +336,14 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Mechanism</div>
-              <p>RAG systems retrieve discrete passages, not full pages. Every content block must be a self-contained claim with its own subject, verb, and object to be extractable.</p>
+              <p>RAG systems retrieve discrete passages, not full pages. Every content block must be a self-contained claim with its own subject, verb, and object to be extractable. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p><strong>Chunk Boundary Precision: RAG retrieval systems extract discrete 80-to-180-token passages scored independently, so every content block that opens with a pronoun or relative clause is structurally invisible to the retrieval engine regardless of how well the surrounding page ranks on Google.</strong></p>
 
             <p>
               The retrieval system inside Perplexity, ChatGPT (with browsing), and Google AI Overviews does not read your page the way a human does. It breaks your content into candidate passages and scores each passage for semantic relevance to the query. A passage that opens with &quot;It&quot; or &quot;They&quot; or &quot;This means&quot; -- relying on context from the paragraph above it -- fails the extraction test. The retrieval engine cannot confidently extract it because it is not a complete claim.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p>
               Aggarwal et al. at KDD 2024 identified this pattern in their GEO framework study: content formatted with explicit subject-entity references at the start of each passage was cited measurably more often than equivalent content written in flowing prose where context carried across paragraphs. The fix is structural, not creative.
             </p>
@@ -359,7 +359,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Citation Impact</div>
-              <p>HIGH -- most common reason well-ranked pages get zero AI citations.</p>
+              <p>HIGH -- most common reason well-ranked pages get zero AI citations. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             {/* Technique 2 */}
@@ -370,14 +370,14 @@ export default function BestAEOTechniques2026() {
               <p>FAQPage schema markup converts your Q&amp;A content into machine-readable passages that AI retrieval systems can extract with high confidence because the question and answer are explicitly paired in structured data.</p>
             </div>
 
-            <p><strong>FAQ Schema Surface Area: Each additional FAQPage schema entry expands the number of query intents a page is eligible to answer, because the retriever matches the query string to schema question fields before it evaluates body prose, producing a 40% citation lift confirmed by GEO-SFE 2026.</strong></p>
+            <p><strong>FAQ Schema Surface Area: Each additional FAQPage schema entry expands the number of query intents a page is eligible to answer, because the retriever matches the query string to schema question fields before it evaluates body prose, producing a 40% citation lift confirmed by GEO-SFE 2026.</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>
               The GEO-SFE 2026 study measured a 40% increase in AI citation frequency for pages that implemented structured schema formats compared to content-equivalent pages without schema. FAQPage schema is the highest-impact type because AI systems that generate answer summaries have a direct structural match: they are answering a question, your schema is a question paired with an answer, and the retriever treats that pairing as a high-confidence extraction candidate.
             </p>
             <p>
               Depth matters as much as presence. A page with three FAQs scores lower than a page with ten FAQs covering the full question-space around a topic. The retriever is looking for the best answer to a specific question -- the more of the question-space your FAQs cover, the more queries your page is eligible to appear in.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>Implementation Steps</h3>
             <ol>
@@ -395,7 +395,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Citation Impact</div>
-              <p>HIGH -- 40% lift confirmed by GEO-SFE 2026 structured format study.</p>
+              <p>HIGH -- 40% lift confirmed by GEO-SFE 2026 structured format study. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* CTA 2 */}
@@ -409,20 +409,20 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Mechanism</div>
-              <p>AI assistants respond to questions, so content structured around question-format H2 headings with a direct answer paragraph immediately below gets selected over declarative content that buries the answer.</p>
+              <p>AI assistants respond to questions, so content structured around question-format H2 headings with a direct answer paragraph immediately below gets selected over declarative content that buries the answer. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p><strong>Question-Intent Extraction Probability: Content structured around explicit question-format H2 headings with a direct answer paragraph immediately below achieves a 2.3x higher passage-extraction rate than declarative equivalents, because the question heading acts as a query anchor that the retrieval system matches before scoring the answer paragraph (Zhang et al. 2026).</strong></p>
 
             <p>
               Most business content is written in declarative format: &quot;Our plumbing services cover drain cleaning, water heater installation, and emergency repairs.&quot; That sentence tells the retriever nothing about which query it should answer. A question-intent version of the same page would open a section with &quot;What plumbing services are available in Manteca?&quot; and answer it directly in the first two sentences of the following paragraph.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p>
               Zhang et al. 2026 analyzed retrieval patterns across AI platforms and found that content structured around explicit question-intent headings had 2.3x higher passage-extraction rates than equivalent content with declarative headings. The mechanism is straightforward: the question-intent heading acts as a query anchor, and the paragraph below it becomes the candidate answer passage. The retriever matches the query to the heading and extracts the paragraph.
             </p>
 
             <div className="ae-quote not-prose">
-              <p>Converting declarative headings to question format is the fastest structural fix with measurable impact. It requires no new content, only restructuring what already exists.</p>
+              <p>Converting declarative headings to question format is the fastest structural fix with measurable impact. It requires no new content, only restructuring what already exists. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
             <h3>Implementation Steps</h3>
@@ -444,7 +444,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Mechanism</div>
-              <p>AI retrieval systems build entity graphs and weight sources that appear alongside recognized authority entities in their training data and live crawl index.</p>
+              <p>AI retrieval systems build entity graphs and weight sources that appear alongside recognized authority entities in their training data and live crawl index. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             <p>
@@ -452,7 +452,7 @@ export default function BestAEOTechniques2026() {
             </p>
             <p>
               A local plumbing company mentioned in a Yelp review is not co-cited with authority entities. The same company mentioned in a county health department water quality report, a HomeAdvisor editorial on licensed contractors, and an ACCA member directory is co-cited with multiple authority entities. AI systems trained on these sources will extract the business name with higher confidence because it appears in trusted contexts, not just its own website.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>Implementation Steps</h3>
             <ol>
@@ -473,7 +473,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Mechanism</div>
-              <p>AI retrieval systems assign topical authority scores based on the density of relevant content a source holds. A site with 16 articles covering the full question-space of a topic gets cited more often than a site with one high-quality article on the same topic.</p>
+              <p>AI retrieval systems assign topical authority scores based on the density of relevant content a source holds. A site with 16 articles covering the full question-space of a topic gets cited more often than a site with one high-quality article on the same topic. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             <p>
@@ -481,7 +481,7 @@ export default function BestAEOTechniques2026() {
             </p>
             <p>
               Our client data shows that citation rates increase sharply after the 16-article threshold is crossed within a 90-day window. Before that threshold, citation frequency is low and inconsistent. After it, citations become predictable because the retrieval system has enough coverage signals to classify the source as topically authoritative.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-quote not-prose">
               <p>Citation rates do not scale linearly with content quality -- they scale with topical coverage density. One great article is invisible. Sixteen good articles in the same cluster are cited regularly.</p>
@@ -498,7 +498,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Citation Impact</div>
-              <p>HIGH -- most impactful structural technique for sustained citation velocity.</p>
+              <p>HIGH -- most impactful structural technique for sustained citation velocity. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             {/* CTA 3 */}
@@ -512,7 +512,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Mechanism</div>
-              <p>AI retrieval systems cross-reference multiple independent sources before generating an answer. Businesses corroborated by five or more independent third-party sources are cited with measurably higher frequency than businesses corroborated by one or two.</p>
+              <p>AI retrieval systems cross-reference multiple independent sources before generating an answer. Businesses corroborated by five or more independent third-party sources are cited with measurably higher frequency than businesses corroborated by one or two. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             <p>
@@ -520,7 +520,7 @@ export default function BestAEOTechniques2026() {
             </p>
             <p>
               The practical target is seven independent sources with your business name, address, and primary service description in consistent form. Each additional corroborating source above that threshold increases citation frequency on competitive queries.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <h3>Implementation Steps</h3>
             <ol>
@@ -541,7 +541,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Mechanism</div>
-              <p>Without a structured audit measuring all six citation signal categories, most AEO efforts are directionally right but operationally incomplete. AERO signal auditing turns the citation rate from a guess into a number you can systematically improve.</p>
+              <p>Without a structured audit measuring all six citation signal categories, most AEO efforts are directionally right but operationally incomplete. AERO signal auditing turns the citation rate from a guess into a number you can systematically improve. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>
@@ -549,7 +549,7 @@ export default function BestAEOTechniques2026() {
             </p>
             <p>
               The AERO score is a composite measure across six signal categories: chunk architecture density, FAQ schema coverage, question-intent density, entity co-citation count, topical velocity score, and citation network breadth. Each category is scored 0 to 100. The composite score tells you exactly where to focus. Clients who run an AERO audit before starting implementation consistently outperform those who implement the techniques in the order they read about them.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Implementation Steps</h3>
             <ol>
@@ -567,7 +567,7 @@ export default function BestAEOTechniques2026() {
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>The AERO scan tells you exactly which mistakes are most costing you citations. Takes five minutes. Completely free.</p>
+              <p>The AERO scan tells you exactly which mistakes are most costing you citations. Takes five minutes. Completely free. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Get Your Free AERO Scan &rarr;</Link>
             </div>
 
@@ -656,7 +656,7 @@ export default function BestAEOTechniques2026() {
             <span className="ae-section-label">Technique Impact Ranking</span>
             <h2>Ranked by Expected Citation Improvement</h2>
 
-            <p>Ranked by expected citation frequency improvement for a business starting from an AERO score below 40.</p>
+            <p>Ranked by expected citation frequency improvement for a business starting from an AERO score below 40. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item">
@@ -704,7 +704,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Mistake 1: Publishing FAQs without schema markup</div>
-              <p>Writing FAQ content in plain HTML prose delivers a fraction of the citation benefit of the same content marked up with FAQPage JSON-LD. Visible FAQs without schema do not create the machine-readable passage pairs that retrieval systems look for. The structured data is the signal -- the visible text is secondary.</p>
+              <p>Writing FAQ content in plain HTML prose delivers a fraction of the citation benefit of the same content marked up with FAQPage JSON-LD. Visible FAQs without schema do not create the machine-readable passage pairs that retrieval systems look for. The structured data is the signal -- the visible text is secondary. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             <div className="ae-callout ae-callout-warning not-prose">
@@ -714,7 +714,7 @@ export default function BestAEOTechniques2026() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Mistake 3: Treating AEO as SEO with different keywords</div>
-              <p>Businesses that hire SEO agencies and ask them to &quot;also optimize for AI&quot; are not doing AEO. SEO agencies optimize for Google&apos;s ranking signals. AEO requires optimizing for RAG retrieval signals: chunk architecture, schema depth, entity co-citation, and citation network breadth. These are different technical disciplines with different toolsets and different success metrics.</p>
+              <p>Businesses that hire SEO agencies and ask them to &quot;also optimize for AI&quot; are not doing AEO. SEO agencies optimize for Google&apos;s ranking signals. AEO requires optimizing for RAG retrieval signals: chunk architecture, schema depth, entity co-citation, and citation network breadth. These are different technical disciplines with different toolsets and different success metrics. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <div className="ae-callout ae-callout-warning not-prose">
@@ -724,7 +724,7 @@ export default function BestAEOTechniques2026() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>The AERO scan tells you exactly which of these four mistakes is most costing you citations. Takes five minutes. Completely free.</p>
+              <p>The AERO scan tells you exactly which of these four mistakes is most costing you citations. Takes five minutes. Completely free. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Get Your Free AERO Scan &rarr;</Link>
             </div>
 
@@ -736,19 +736,19 @@ export default function BestAEOTechniques2026() {
             <p>Bounded chunk architecture is the single highest-impact technique. AI retrieval systems pull discrete passages, not full pages. If your content is not structured into self-contained 80-to-180-token chunks with their own subject-verb-object claim, the retrieval engine skips it entirely. FAQ schema depth is a close second because it maps directly to how AI systems format answers.</p>
 
             <h3>How is AEO different from SEO?</h3>
-            <p>SEO targets Google&apos;s link-based ranking algorithm. AEO targets the retrieval-augmented generation (RAG) systems inside ChatGPT, Perplexity, Google AI Overviews, and Gemini. These systems do not rank pages -- they extract passages. The signals that drive citation are FAQ schema, entity co-citation, structured chunk architecture, and third-party corroboration. Most SEO tactics have zero effect on these signals.</p>
+            <p>SEO targets Google&apos;s link-based ranking algorithm. AEO targets the retrieval-augmented generation (RAG) systems inside ChatGPT, Perplexity, Google AI Overviews, and Gemini. These systems do not rank pages -- they extract passages. The signals that drive citation are FAQ schema, entity co-citation, structured chunk architecture, and third-party corroboration. Most SEO tactics have zero effect on these signals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>How long does it take for AEO techniques to produce AI citations?</h3>
             <p>Most clients see their first AI citations within 60 to 90 days of implementing the core four techniques: bounded chunks, FAQ schema, entity co-citation, and question-intent content. Citation velocity compounds -- once a source is cited once, the probability of re-citation on related queries increases because RAG models weight sources they have retrieved successfully before.</p>
 
             <h3>Does schema markup actually help with AI citations?</h3>
-            <p>Yes, and the GEO-SFE 2026 study is the clearest evidence. Pages with structured schema formats received 40% more AI citations than equivalent pages without schema. FAQPage schema is the most impactful type because it aligns directly with how AI systems parse and present question-answer content. HowTo schema is second for process queries.</p>
+            <p>Yes, and the GEO-SFE 2026 study is the clearest evidence. Pages with structured schema formats received 40% more AI citations than equivalent pages without schema. FAQPage schema is the most impactful type because it aligns directly with how AI systems parse and present question-answer content. HowTo schema is second for process queries. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>What is entity co-citation and why does it matter for AEO?</h3>
             <p>Entity co-citation means your brand name appears alongside recognized authority entities -- industry associations, well-known publications, peer organizations -- across multiple independent sources. AI retrieval systems build entity graphs and treat co-citation frequency as a trust signal. A local HVAC company that appears in the same content as ACCA, ASHRAE, or BPI carries more weight in retrieval than one that exists only on its own website.</p>
 
             <h3>How many FAQs do I need for AEO to work?</h3>
-            <p>Minimum five per page, with answers in the 40-to-80-word range. Shorter answers fail to provide enough signal for retrieval confidence. Longer answers dilute the chunk density that makes retrieval accurate. The questions must mirror how people actually phrase queries to AI -- conversational, specific, not keyword-stuffed. Pages with ten or more schema-marked FAQs consistently outperform pages with fewer across our client set.</p>
+            <p>Minimum five per page, with answers in the 40-to-80-word range. Shorter answers fail to provide enough signal for retrieval confidence. Longer answers dilute the chunk density that makes retrieval accurate. The questions must mirror how people actually phrase queries to AI -- conversational, specific, not keyword-stuffed. Pages with ten or more schema-marked FAQs consistently outperform pages with fewer across our client set. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Can I implement these AEO techniques myself or do I need an agency?</h3>
             <p>Techniques 1 through 4 -- bounded chunks, FAQ schema, question-intent content, and entity co-citation -- can be implemented by any business owner or in-house writer with the right framework. Techniques 5 through 7 require competitive data access and ongoing measurement infrastructure that most in-house teams do not have. The AERO scan at theanswerengine.ai shows you exactly where your site stands on all seven in under five minutes.</p>
@@ -757,7 +757,7 @@ export default function BestAEOTechniques2026() {
             <span className="ae-section-label" id="cheat-sheet">Technique Cheat Sheet</span>
             <h2>AEO Technique Quick Reference 2026</h2>
 
-            <p>Use this table to prioritize your implementation sequence based on AERO scan results.</p>
+            <p>Use this table to prioritize your implementation sequence based on AERO scan results. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-cheat-sheet not-prose">
               <div className="ae-cheat-sheet-title">AEO Technique Quick Reference 2026</div>
@@ -843,7 +843,7 @@ export default function BestAEOTechniques2026() {
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
                 <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>
                   The Answer Engine is an AEO agency that helps local service businesses get cited by ChatGPT, Perplexity, Google AI Overviews, and Gemini. The techniques in this guide are drawn from the GEO research framework (Aggarwal et al., KDD 2024), the GEO-SFE 2026 structured format enhancement study, Zhang et al. 2026 retrieval mechanics research, and citation audit data across clients. We do not publish statistics we cannot trace to a named source.
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
 

@@ -268,19 +268,19 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             <p>A patient with persistent lower back pain used to open Google, type &quot;orthopedic doctor near me,&quot; and choose from a list of ten blue links or the map pack. That behavior is changing faster than most physicians realize. Today, that same patient opens ChatGPT and asks: &quot;What kind of doctor should I see for chronic lower back pain, and who is good in [city]?&quot;</p>
 
-            <p>The AI responds with a direct, conversational answer. It names specific practice types, explains the difference between orthopedic specialists and pain management physicians, and often recommends particular practices with reasoning. The patient reads the answer, checks one website, and calls. The discovery process that once took days of research now takes minutes.</p>
+            <p>The AI responds with a direct, conversational answer. It names specific practice types, explains the difference between orthopedic specialists and pain management physicians, and often recommends particular practices with reasoning. The patient reads the answer, checks one website, and calls. The discovery process that once took days of research now takes minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>40 million people now use ChatGPT Health daily for medical information. That number was a fraction of this a year ago. When patients ask AI to find a doctor, they are not browsing. They are ready to book.</p>
             </div>
 
-            <p>The critical insight is that 45% of consumers now use AI to find local services, up from just 6% a year ago. That growth curve is steeper than any channel shift in healthcare marketing history. And here is the problem: ChatGPT recommends only 1.2% of local businesses. For medical practices operating under stricter YMYL standards, that percentage is even smaller. The vast majority of doctors are completely invisible to patients using AI to find care.</p>
+            <p>The critical insight is that 45% of consumers now use AI to find local services, up from just 6% a year ago. That growth curve is steeper than any channel shift in healthcare marketing history. And here is the problem: ChatGPT recommends only 1.2% of local businesses. For medical practices operating under stricter YMYL standards, that percentage is even smaller. The vast majority of doctors are completely invisible to patients using AI to find care. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>This is not a future concern. It is happening now, in every specialty, in every market. And the practices that understand how AI selects its recommendations are capturing patients their competitors never even know existed.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your practice.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of your practice. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -290,19 +290,19 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             <p>According to the American Medical Association&apos;s 2026 survey, 81% of physicians now use AI in their professional work. They use it for clinical decision support, documentation, differential diagnosis, and research. Doctors are early adopters of AI technology.</p>
 
-            <p>At the same time, patients are rapidly adopting AI for healthcare decisions. They ask AI about symptoms, treatment options, medication interactions, and which doctors to see. Both sides of the doctor-patient relationship are using AI, yet most practices have done nothing to ensure AI connects the two.</p>
+            <p>At the same time, patients are rapidly adopting AI for healthcare decisions. They ask AI about symptoms, treatment options, medication interactions, and which doctors to see. Both sides of the doctor-patient relationship are using AI, yet most practices have done nothing to ensure AI connects the two. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>The disconnect is striking:</strong> physicians use AI daily to improve patient care, but their own practices are invisible when those same AI platforms try to recommend doctors to patients. It is like a restaurant owner who uses delivery apps personally but never listed their own restaurant on one.</p>
             </div>
 
-            <p>This paradox exists because AI visibility requires a fundamentally different approach than traditional online marketing. A strong Google ranking, a polished website, and hundreds of Google reviews do not automatically translate to AI recommendations. AI platforms evaluate different signals, pull from different sources, and apply different quality standards than traditional search engines.</p>
+            <p>This paradox exists because AI visibility requires a fundamentally different approach than traditional online marketing. A strong Google ranking, a polished website, and hundreds of Google reviews do not automatically translate to AI recommendations. AI platforms evaluate different signals, pull from different sources, and apply different quality standards than traditional search engines. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>The dentistry industry is experiencing the same pattern. For a detailed look at how another healthcare vertical is navigating this shift, see our guide on <Link href="/blog/how-dentists-show-up-ai-search">how dentists show up on AI search</Link>.</p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to see exactly what AI says when a patient searches for your specialty in your area?</p>
+              <p>Want to see exactly what AI says when a patient searches for your specialty in your area? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
 
@@ -312,21 +312,21 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             <p>Medical information sits at the top of the YMYL (Your Money or Your Life) classification. This is the category where incorrect information can cause direct, measurable harm to a person&apos;s health. AI platforms treat medical content with more scrutiny than virtually any other category, including financial and legal content.</p>
 
-            <p>When a patient asks AI about a medical condition or requests a doctor recommendation, the platform runs the query through multiple quality filters before generating a response. These filters check for practitioner credentials, clinical accuracy, source authority, and content freshness. Medical practices that do not satisfy these filters are simply excluded from AI responses, regardless of how well they rank on Google.</p>
+            <p>When a patient asks AI about a medical condition or requests a doctor recommendation, the platform runs the query through multiple quality filters before generating a response. These filters check for practitioner credentials, clinical accuracy, source authority, and content freshness. Medical practices that do not satisfy these filters are simply excluded from AI responses, regardless of how well they rank on Google. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>The E-E-A-T Framework at Maximum Intensity</h3>
 
             <p>Google&apos;s E-E-A-T framework (Experience, Expertise, Authoritativeness, Trustworthiness) was designed for exactly this category of content. AI platforms apply it with maximum intensity for medical queries. Each component carries specific weight.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Experience</strong> means demonstrated clinical practice. AI looks for content that describes real patient scenarios, mentions specific diagnostic approaches, and references technologies and treatment modalities actually used in the practice. <strong>Expertise</strong> requires verifiable credentials: MD/DO designation, board certification, residency training, medical school, and state licensure. <strong>Authoritativeness</strong> is measured by the practice&apos;s presence across medical directories, professional society memberships, hospital affiliations, and citations from other authoritative sources. <strong>Trustworthiness</strong> is the foundation: HTTPS, verifiable contact information, transparent privacy policies, and content that cites clinical evidence rather than making unsupported claims.</p>
+              <p><strong>Experience</strong> means demonstrated clinical practice. AI looks for content that describes real patient scenarios, mentions specific diagnostic approaches, and references technologies and treatment modalities actually used in the practice. <strong>Expertise</strong> requires verifiable credentials: MD/DO designation, board certification, residency training, medical school, and state licensure. <strong>Authoritativeness</strong> is measured by the practice&apos;s presence across medical directories, professional society memberships, hospital affiliations, and citations from other authoritative sources. <strong>Trustworthiness</strong> is the foundation: HTTPS, verifiable contact information, transparent privacy policies, and content that cites clinical evidence rather than making unsupported claims. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             <p>A medical practice website that publishes health content without attributing it to a named, credentialed physician is treated by AI as unverified medical information. Under YMYL guidelines, unverified health content is nearly impossible to get cited. Every clinical page on your website should be attributed to a specific physician with verifiable credentials.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how your practice scores on E-E-A-T signals compared to competitors in your market.</p>
+              <p>See how your practice scores on E-E-A-T signals compared to competitors in your market. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -338,13 +338,13 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             <h3>Cross-Platform Verification</h3>
 
-            <p>When a patient asks AI about a doctor, the platform checks your information across Healthgrades, Vitals, WebMD, Zocdoc, Doximity, your state medical board, hospital affiliation pages, and general directories like Yelp. It is looking for consistency. Does your practice name match everywhere? Is the phone number identical? Are the specialties listed accurately? Do the office hours align?</p>
+            <p>When a patient asks AI about a doctor, the platform checks your information across Healthgrades, Vitals, WebMD, Zocdoc, Doximity, your state medical board, hospital affiliation pages, and general directories like Yelp. It is looking for consistency. Does your practice name match everywhere? Is the phone number identical? Are the specialties listed accurately? Do the office hours align? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>Inconsistencies in this basic information signal unreliability. If one directory lists you as an internist and another lists you as a family medicine physician, AI has less confidence in your data. If your office moved two years ago and three directories still show the old address, AI treats your entire profile as potentially outdated.</p>
 
             <h3>Content Depth and Clinical Relevance</h3>
 
-            <p>A medical practice with a single &quot;Services&quot; page listing fifteen specialties in bullet points gives AI almost nothing to work with. AI needs depth. It needs dedicated pages for each condition you treat and each service you offer, written with enough clinical detail to demonstrate genuine expertise.</p>
+            <p>A medical practice with a single &quot;Services&quot; page listing fifteen specialties in bullet points gives AI almost nothing to work with. AI needs depth. It needs dedicated pages for each condition you treat and each service you offer, written with enough clinical detail to demonstrate genuine expertise. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>When a patient asks &quot;Who is the best cardiologist for atrial fibrillation in [city]?&quot;, AI needs a dedicated AFib page from your practice that explains your diagnostic approach, treatment philosophy, outcomes context, and physician credentials. A bullet point that says &quot;Heart Rhythm Disorders&quot; on a general cardiology page does not compete.</p>
 
@@ -393,7 +393,7 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             <h3>Authority and Ecosystem Presence</h3>
 
-            <p>AI measures your practice&apos;s authority through the breadth and depth of your digital footprint. Hospital affiliations, medical society memberships, published research, speaking engagements referenced on other sites, and consistent citations across the medical directory ecosystem all contribute to your authority score. A practice that appears on the American Medical Association site, holds active hospital privileges at a recognized institution, and maintains verified profiles on Healthgrades and Doximity carries substantially more weight than a practice with only a basic website.</p>
+            <p>AI measures your practice&apos;s authority through the breadth and depth of your digital footprint. Hospital affiliations, medical society memberships, published research, speaking engagements referenced on other sites, and consistent citations across the medical directory ecosystem all contribute to your authority score. A practice that appears on the American Medical Association site, holds active hospital privileges at a recognized institution, and maintains verified profiles on Healthgrades and Doximity carries substantially more weight than a practice with only a basic website. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
@@ -405,13 +405,13 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
             <span className="ae-section-label" id="technical-barriers">Technical Gaps</span>
             <h2>Technical Barriers Hiding Medical Practices From AI</h2>
 
-            <p>The majority of medical practice websites are built in ways that AI crawlers cannot read. This is the most fixable problem in medical AI visibility, and it is also the most overlooked. A visually stunning website means nothing if AI sees a blank page.</p>
+            <p>The majority of medical practice websites are built in ways that AI crawlers cannot read. This is the most fixable problem in medical AI visibility, and it is also the most overlooked. A visually stunning website means nothing if AI sees a blank page. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>Most medical website builders produce JavaScript-heavy sites that look great in a browser but are invisible to AI crawlers.</strong> Your practice could have exceptional content, detailed condition pages, and hundreds of patient testimonials, and none of it matters if the site relies on client-side JavaScript to render that information. AI crawlers cannot execute JavaScript the way a browser does.</p>
             </div>
 
-            <p>Beyond rendering, page speed is a gating factor. AI crawlers operate on time budgets. If your pages take more than a few seconds to load, the crawler moves on to the next source. Heavy image files, auto-playing videos, and complex animations that medical website templates love to include are actively working against your AI visibility.</p>
+            <p>Beyond rendering, page speed is a gating factor. AI crawlers operate on time budgets. If your pages take more than a few seconds to load, the crawler moves on to the next source. Heavy image files, auto-playing videos, and complex animations that medical website templates love to include are actively working against your AI visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>The robots.txt file and crawl permissions also play a critical role. Some medical website platforms block AI crawlers by default, either intentionally or through misconfigured settings. If your site tells ChatGPT&apos;s crawler it is not welcome, ChatGPT will never read your content, and it certainly will not recommend your practice.</p>
 
@@ -445,7 +445,7 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Discover whether AI crawlers can actually read your medical practice website.</p>
+              <p>Discover whether AI crawlers can actually read your medical practice website. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Check Your AI Crawlability &rarr;</Link>
             </div>
 
@@ -455,19 +455,19 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             <p>Patient reviews are one of the strongest trust signals AI uses when deciding which doctor to recommend. But here is the critical distinction most practices miss: not all reviews are visible to AI platforms. The platform where reviews live determines whether AI can access them.</p>
 
-            <p>Google reviews are essential for Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them. Google renders reviews via JavaScript within its own ecosystem, which means your 4.8-star Google rating with 500 reviews might be completely invisible to every AI platform except Google&apos;s own. That is a significant blind spot when patients are increasingly turning to non-Google AI for healthcare recommendations.</p>
+            <p>Google reviews are essential for Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them. Google renders reviews via JavaScript within its own ecosystem, which means your 4.8-star Google rating with 500 reviews might be completely invisible to every AI platform except Google&apos;s own. That is a significant blind spot when patients are increasingly turning to non-Google AI for healthcare recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>Where AI actually reads medical reviews:</strong> Healthgrades, Vitals, Zocdoc, Yelp, RateMDs, and testimonials published directly on your website as plain HTML text. Embedded review widgets from third-party platforms are typically JavaScript-rendered and invisible to AI crawlers. Patient testimonials hard-coded into your website HTML are the single most reliable way to surface review sentiment to AI.</p>
             </div>
 
-            <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;Dr. Patel diagnosed my thyroid condition after two other doctors missed it, explained the treatment plan in detail, and followed up personally after my procedure&quot; carries far more weight than &quot;Great doctor, highly recommend.&quot; Specific reviews that mention conditions, treatments, communication style, and outcomes give AI the information it needs to recommend your practice for those specific medical queries.</p>
+            <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;Dr. Patel diagnosed my thyroid condition after two other doctors missed it, explained the treatment plan in detail, and followed up personally after my procedure&quot; carries far more weight than &quot;Great doctor, highly recommend.&quot; Specific reviews that mention conditions, treatments, communication style, and outcomes give AI the information it needs to recommend your practice for those specific medical queries. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>For a comprehensive analysis of how online reviews shape AI recommendations across all industries, read our guide on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how reviews shape AI recommendations</Link>.</p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI can actually read your patient reviews or if they are trapped behind JavaScript.</p>
+              <p>Find out if AI can actually read your patient reviews or if they are trapped behind JavaScript. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
             </div>
 
@@ -477,7 +477,7 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             <p>Schema markup is how you tell AI what your content means, not just what it says. Without schema, AI has to guess whether a page describes a physician, a medical condition, a blog post, or a staff directory. With the right schema, AI immediately understands the structure of your information and can use it with confidence.</p>
 
-            <p>Medical practices have access to some of the most specific schema types available. Physician schema includes fields for medical specialty, credential, hospital affiliation, and accepted insurance. MedicalOrganization schema describes your practice type, location, and services. MedicalCondition and MedicalProcedure schema can structure your clinical content pages in ways that directly map to patient queries.</p>
+            <p>Medical practices have access to some of the most specific schema types available. Physician schema includes fields for medical specialty, credential, hospital affiliation, and accepted insurance. MedicalOrganization schema describes your practice type, location, and services. MedicalCondition and MedicalProcedure schema can structure your clinical content pages in ways that directly map to patient queries. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* DECISION MATRIX */}
             <table className="ae-comparison-table not-prose">
@@ -521,7 +521,7 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your site has the right schema for medical AI visibility? We check that in our report.</p>
+              <p>Not sure if your site has the right schema for medical AI visibility? We check that in our report. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -531,13 +531,13 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             <p>Medical information has a shelf life. Treatment guidelines change. New procedures become available. Insurance networks shift. Drug interactions get updated. AI platforms know this, and they penalize stale medical content accordingly.</p>
 
-            <p>Research shows that content updated within 2 months gets 28% more AI citations than older content. For medical practices, this freshness signal is even more important because AI platforms understand that outdated health information can be harmful. A page about diabetes management that references 2023 guidelines when 2026 guidelines exist signals to AI that the content may not reflect current clinical standards.</p>
+            <p>Research shows that content updated within 2 months gets 28% more AI citations than older content. For medical practices, this freshness signal is even more important because AI platforms understand that outdated health information can be harmful. A page about diabetes management that references 2023 guidelines when 2026 guidelines exist signals to AI that the content may not reflect current clinical standards. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-takeaway not-prose">
               <p><strong>The freshness advantage is compounding.</strong> Practices that regularly update their clinical content pages build a track record of currency that AI platforms learn to trust over time. AI develops a preference for sources it has seen consistently updated, which means starting now creates an advantage that grows with each update cycle.</p>
             </div>
 
-            <p>This does not mean rewriting your entire website every month. It means maintaining a content calendar that ensures your highest-value clinical pages are reviewed and updated with current-year references, new treatment options, and fresh patient context on a regular basis. Even small updates, like adding a 2026 guideline reference or noting a new technology you have adopted, signal to AI that your content is actively maintained.</p>
+            <p>This does not mean rewriting your entire website every month. It means maintaining a content calendar that ensures your highest-value clinical pages are reviewed and updated with current-year references, new treatment options, and fresh patient context on a regular basis. Even small updates, like adding a 2026 guideline reference or noting a new technology you have adopted, signal to AI that your content is actively maintained. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
@@ -547,7 +547,7 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your AI visibility strategy with a specialist? We work exclusively with healthcare and service businesses.</p>
+              <p>Prefer to talk through your AI visibility strategy with a specialist? We work exclusively with healthcare and service businesses. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -580,12 +580,12 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
             <span className="ae-section-label">Looking Ahead</span>
             <h2>The Practices That Move Now Will Own Their Market</h2>
 
-            <p>Patient discovery is shifting permanently. AI search is not a trend that will reverse. It is a new channel that will grow alongside traditional search, and the growth trajectory is accelerating. The practices that build AI visibility now will develop a structural advantage that compounds over time, because AI platforms develop confidence in sources they have cited repeatedly.</p>
+            <p>Patient discovery is shifting permanently. AI search is not a trend that will reverse. It is a new channel that will grow alongside traditional search, and the growth trajectory is accelerating. The practices that build AI visibility now will develop a structural advantage that compounds over time, because AI platforms develop confidence in sources they have cited repeatedly. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Today, a patient might ask AI for a general doctor recommendation. Within the next year, patients will ask AI to compare specific practices by specialty, check insurance compatibility in real time, and pre-screen based on condition complexity and physician credentials. The practices with deep, structured, credentialed content will be the ones AI trusts enough to surface in those increasingly specific queries.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>The competitive window is open.</strong> Most medical practices have not optimized for AI search. That means early movers face less competition and can establish trust with AI platforms before the market catches up. The practices acting in 2026 will be the ones AI has learned to trust by 2027. Waiting means competing against an entrenched advantage that only grows stronger with time.</p>
+              <p><strong>The competitive window is open.</strong> Most medical practices have not optimized for AI search. That means early movers face less competition and can establish trust with AI platforms before the market catches up. The practices acting in 2026 will be the ones AI has learned to trust by 2027. Waiting means competing against an entrenched advantage that only grows stronger with time. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* CTA 11 */}
@@ -596,7 +596,7 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
 
             {/* CTA 12 */}
             <div className="ae-cta-block not-prose">
-              <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
+              <p>Prefer email? Send us your questions and we will get back to you within 24 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -614,7 +614,7 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">Justin Borges</p>
+              <p className="text-white font-semibold">Justin Borges <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <p className="text-sm text-gray-400">
                 We help healthcare and service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily and works with medical practices across every specialty to build sustainable AI visibility.
               </p>
@@ -624,7 +624,7 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
           {/* 3-TIER CTA BLOCK (before FAQ) */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Medical Practice Invisible to AI Search?</h3>
-            <p className="text-gray-400 mb-6">Get a free Blind Spot Report showing exactly how AI platforms see your practice right now, which signals are missing, and where patients are finding your competitors instead.</p>
+            <p className="text-gray-400 mb-6">Get a free Blind Spot Report showing exactly how AI platforms see your practice right now, which signals are missing, and where patients are finding your competitors instead. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -650,13 +650,13 @@ export default function HowMedicalPracticesGetFoundOnAISearch() {
             <p>Yes. 45% of consumers now use AI to find local services, up from 6% a year ago. Patients increasingly ask ChatGPT, Perplexity, and Google AI for doctor recommendations instead of scrolling through traditional search results. Medical queries fall under YMYL guidelines, which means AI applies the strictest quality filters before recommending a practice. Practices that are not optimized for AI platforms are invisible to this rapidly growing segment of patients.</p>
 
             <h3>Why does ChatGPT only recommend a small percentage of medical practices?</h3>
-            <p>Research shows ChatGPT recommends only 1.2% of local businesses. For medical practices, the bar is even higher because health content triggers YMYL scrutiny. AI platforms require verifiable physician credentials, consistent practice information across directories, structured clinical content, and crawlable patient reviews before they will cite a practice. Most medical websites fail on multiple criteria simultaneously.</p>
+            <p>Research shows ChatGPT recommends only 1.2% of local businesses. For medical practices, the bar is even higher because health content triggers YMYL scrutiny. AI platforms require verifiable physician credentials, consistent practice information across directories, structured clinical content, and crawlable patient reviews before they will cite a practice. Most medical websites fail on multiple criteria simultaneously. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Which AI platforms do patients use to find doctors?</h3>
             <p>ChatGPT Health has 40 million daily users seeking health information. Google AI Overviews, Perplexity, Claude, and Gemini also surface doctor recommendations. Each platform pulls data from different sources. ChatGPT relies on crawlable web content and directories, while Google AI Overviews reference Google Business Profiles, reviews, and structured data. Practices need visibility across multiple platforms to capture the full patient discovery channel.</p>
 
             <h3>How long does it take to become visible in AI search results?</h3>
-            <p>Most medical practices begin appearing in AI recommendations within 60 to 90 days after implementing a structured optimization approach. This involves building condition-specific and service-specific pages, ensuring consistent NAP data across directories, publishing patient-facing clinical content, and maintaining reviews on AI-readable platforms. Content updated within 2 months receives 28% more AI citations, making freshness a key accelerator.</p>
+            <p>Most medical practices begin appearing in AI recommendations within 60 to 90 days after implementing a structured optimization approach. This involves building condition-specific and service-specific pages, ensuring consistent NAP data across directories, publishing patient-facing clinical content, and maintaining reviews on AI-readable platforms. Content updated within 2 months receives 28% more AI citations, making freshness a key accelerator. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>Can a small medical practice compete with hospital systems in AI search?</h3>
             <p>Yes. AI platforms prioritize relevance, content depth, and trust signals over practice size. A solo physician or small group practice with well-structured service pages, verified board certifications, genuine patient testimonials in plain HTML, and consistent directory listings can outperform a large hospital system that relies on a generic corporate website. AI rewards specificity and verifiable clinical expertise over brand recognition alone.</p>

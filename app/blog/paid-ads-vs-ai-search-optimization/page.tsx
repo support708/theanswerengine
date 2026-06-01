@@ -270,19 +270,19 @@ export default function Page() {
             for what you offer, and collect the call or the form fill. For fifteen years, that
             model worked reliably for local service businesses. Then Google started putting AI
             Overviews at the top of the page.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             When a Google AI Overview appears above the paid ads, traffic to everything below it
             drops by as much as 80%. Users get their answer from the AI summary and never scroll
             to the ads. For paid search advertisers, this is a direct hit to campaign performance
             on the queries that used to be their most valuable.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Meanwhile, nearly 70% of all Google searches in 2025 ended without any click at all.
             Users asked questions and got answers without visiting any website. That number does
             not include the growing volume of searches happening directly in ChatGPT, Perplexity,
             and other AI platforms where Google ads do not appear at all.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-warning mb-6">
             <div className="ae-callout-title">The Invisible Revenue Drain</div>
@@ -292,7 +292,7 @@ export default function Page() {
               stronger AI visibility, you paid for the infrastructure of the internet economy
               without receiving any of its traffic. This is the structural problem that paid-only
               strategies cannot solve.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           <div className="ae-cta-inline mb-6">
@@ -301,7 +301,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Get your free Blind Spot Report and find out.
               </Link>
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -315,20 +315,20 @@ export default function Page() {
             2025, use AI automation to optimize targeting and creative, achieving 14% higher
             conversions at similar cost per acquisition. For businesses running broad keyword
             campaigns with phrase match, AI Max has delivered up to 27% more conversions.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Google&apos;s Local Services Ads remain a strong option for home service, legal,
             healthcare, and financial businesses. The pay-per-lead structure is inherently
             lower-risk than traditional cost-per-click, and these ads sit above everything else
             on the page, including AI Overviews in most layouts.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The fundamental reality of paid ads has not changed: they require continuous spending
             to generate leads. The moment you pause a campaign, the leads stop. For businesses
             with consistent monthly budgets and strong ad creative, paid search remains a
             reliable lead generation channel. For businesses with inconsistent budgets or
             seasonal cash flow, the dependency creates risk.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-dollar-compare mb-8">
             <div className="ae-dollar-item">
@@ -359,18 +359,18 @@ export default function Page() {
             AI search visibility works differently from paid ads in almost every dimension. You
             cannot buy your way into a ChatGPT or Perplexity recommendation. You earn it by
             building the kind of documented, authoritative web presence that AI platforms trust.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             That distinction has a significant financial implication. AI search visibility is
             infrastructure, not a recurring expense. A business that builds strong AI authority
             in 2026 will benefit from that investment for years without paying per recommendation.
             The cost structure is fundamentally different from paid search.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The timeline is the tradeoff. Building genuine AI authority takes months, not days.
             Paid ads can start delivering calls in 24 to 48 hours. For businesses that need
             immediate revenue, that timeline difference is real and matters.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-callout ae-callout-success mb-6">
             <div className="ae-callout-title">The Compound Advantage</div>
@@ -380,7 +380,7 @@ export default function Page() {
               piece of quality content strengthens your recommendation signal. Businesses that
               start building now will have a durable advantage that becomes harder and harder
               for late-movers to close.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
@@ -392,7 +392,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-6">
             Here is how the two channels compare across the factors that matter most for local
             service businesses.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="overflow-x-auto mb-8">
             <table className="ae-comparison-table">
@@ -454,7 +454,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Get your free Blind Spot Report first.
               </Link>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
         </section>
 
@@ -467,20 +467,20 @@ export default function Page() {
             Volume comparisons between paid ads and AI search miss the most important dimension:
             lead quality. The experience of receiving a recommendation from an AI assistant is
             fundamentally different from clicking an ad.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             When ChatGPT or Perplexity recommends your business, the user experiences that as a
             trusted referral from an intelligent system they already rely on. The implicit message
             is: this platform analyzed the options and thinks this business is right for you.
             That is a very different psychology from a paid ad that the user knows is there
             because someone paid for it.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The practical result is a higher conversion rate from AI-referred leads. Businesses
             tracking attribution carefully are reporting that AI-referred inquiries close at higher
             rates with less price negotiation. The prospect arrives pre-qualified, pre-trusting,
             and ready to book.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -511,7 +511,7 @@ export default function Page() {
             horizon? When you factor in the compounding nature of AI visibility and the implied
             trust premium on AI-referred leads, the long-term ROI comparison shifts significantly
             in favor of AI search optimization.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         </section>
 
         {/* Section 6 */}
@@ -522,7 +522,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-6">
             The right answer for most local service businesses is both, but not equally weighted.
             Use this framework to decide how to allocate.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-decision-matrix mb-8">
             <div className="ae-decision-row">
@@ -560,7 +560,7 @@ export default function Page() {
               recommended by an AI assistant, the conversion rate on the ad click increases
               significantly. Brand recognition from AI visibility makes paid ads more effective,
               not redundant.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -570,7 +570,7 @@ export default function Page() {
               whether traditional SEO is still worth paying for
             </Link>{' '}
             provides useful context on where each channel fits in a modern marketing mix.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-cheat-sheet mb-8">
             <div className="ae-cheat-sheet-title">Budget Allocation Guide by Business Stage</div>
@@ -620,7 +620,7 @@ export default function Page() {
               They are running paid ads to fund the business while systematically building AI
               authority that will reduce their dependence on paid channels over time. The question
               is not which channel to use. It is which channel to prioritize building first.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
         </section>
 
@@ -633,7 +633,7 @@ export default function Page() {
             Before deciding how to allocate your marketing budget, find out what ChatGPT,
             Perplexity, and Google AI Overviews currently say when someone searches for your
             services. Your free Blind Spot Report gives you the baseline.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -676,7 +676,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
           </div>
@@ -711,7 +711,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
-                <p className="text-gray-400 leading-relaxed">{a}</p>
+                <p className="text-gray-400 leading-relaxed">{a} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             ))}
           </div>
@@ -726,7 +726,7 @@ export default function Page() {
             If 70% of searches end without a click, your ad budget is working harder to reach
             fewer people. Find out where AI search is already capturing the customers your ads
             used to reach, and what it takes to show up there instead.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <Link
             href="/blindspot"
             className="ae-cta-primary inline-flex items-center gap-2"

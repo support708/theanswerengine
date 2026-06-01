@@ -249,13 +249,13 @@ export default function Page() {
 
             <p>You spent months building your website. Custom design, polished copy, professional photography, interactive elements. Then a potential customer asks ChatGPT for a recommendation in your industry, and your business does not come up.</p>
 
-            <p>The reason might surprise you: ChatGPT never actually saw most of what you built.</p>
+            <p>The reason might surprise you: ChatGPT never actually saw most of what you built. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>When ChatGPT visits your site, it strips away everything visual and reads only the raw text. Your parallax hero section? A paragraph of text. Your interactive calculator? Completely invisible.</p>
             </div>
 
-            <p>If your most important content lives inside images, JavaScript widgets, or dynamically loaded components, <strong>ChatGPT has no idea it exists.</strong> This is the fundamental disconnect between how businesses build websites and how AI platforms consume them.</p>
+            <p>If your most important content lives inside images, JavaScript widgets, or dynamically loaded components, <strong>ChatGPT has no idea it exists.</strong> This is the fundamental disconnect between how businesses build websites and how AI platforms consume them. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -267,13 +267,13 @@ export default function Page() {
             <span className="ae-section-label">Under the Hood</span>
             <h2>How ChatGPT Actually Processes Your Website</h2>
 
-            <p>When ChatGPT browses a website through its built-in browsing feature, it sends a standard HTTP GET request to your server. What comes back is raw HTML. From there, ChatGPT extracts only the plain text content.</p>
+            <p>When ChatGPT browses a website through its built-in browsing feature, it sends a standard HTTP GET request to your server. What comes back is raw HTML. From there, ChatGPT extracts only the plain text content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>No CSS. No images. No JavaScript interactions. No videos. No animations.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Critical Detail</div>
-              <p>ChatGPT does not read your entire page in one pass. It uses a sliding window approach, processing content in chunks of roughly 30 to 50 lines at a time. It might start at line 0, jump to line 30, then skip to line 80. The placement of your most critical information is not arbitrary.</p>
+              <p>ChatGPT does not read your entire page in one pass. It uses a sliding window approach, processing content in chunks of roughly 30 to 50 lines at a time. It might start at line 0, jump to line 30, then skip to line 80. The placement of your most critical information is not arbitrary. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>This means if your key selling points are buried at the bottom of a 3,000-word page, ChatGPT may never reach them. The businesses that get cited are the ones whose most important content appears early and is structured for scanning.</p>
@@ -282,7 +282,7 @@ export default function Page() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Step 1: HTTP GET Request</strong>
-                <p>ChatGPT sends a standard request to your server, just like a browser would. Your server returns raw HTML.</p>
+                <p>ChatGPT sends a standard request to your server, just like a browser would. Your server returns raw HTML. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: HTML Stripping</strong>
@@ -290,7 +290,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Sliding Window Scan</strong>
-                <p>ChatGPT reads the text in 30-to-50-line chunks, jumping between sections rather than reading sequentially.</p>
+                <p>ChatGPT reads the text in 30-to-50-line chunks, jumping between sections rather than reading sequentially. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Content Extraction</strong>
@@ -298,7 +298,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Citation Decision</strong>
-                <p>If the extracted content is authoritative and directly answers the query, ChatGPT may cite your site in its response.</p>
+                <p>If the extracted content is authoritative and directly answers the query, ChatGPT may cite your site in its response. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
             </div>
 
@@ -312,7 +312,7 @@ export default function Page() {
             <span className="ae-section-label">The Divide</span>
             <h2>What ChatGPT Can See vs. What It Cannot</h2>
 
-            <p>Understanding the divide between what ChatGPT reads and what it ignores is the first step toward making your content AI-visible. The gap is wider than most businesses expect.</p>
+            <p>Understanding the divide between what ChatGPT reads and what it ignores is the first step toward making your content AI-visible. The gap is wider than most businesses expect. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* ── COMPARISON TABLE ── */}
             <table className="ae-comparison-table not-prose">
@@ -395,7 +395,7 @@ export default function Page() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Most businesses have no idea how much of their content is invisible to AI. Find out where you stand.</p>
+              <p>Most businesses have no idea how much of their content is invisible to AI. Find out where you stand. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
             </div>
 
@@ -405,14 +405,14 @@ export default function Page() {
             <span className="ae-section-label">The Schema Question</span>
             <h2>Does ChatGPT Read Your Schema Markup?</h2>
 
-            <p>One of the most common misconceptions is that ChatGPT reads your JSON-LD schema markup when it visits your page. Testing from multiple independent researchers has confirmed this is not the case during direct page fetches.</p>
+            <p>One of the most common misconceptions is that ChatGPT reads your JSON-LD schema markup when it visits your page. Testing from multiple independent researchers has confirmed this is not the case during direct page fetches. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Important Distinction</div>
               <p>When ChatGPT browses a page in real time, it extracts visible body content. Hidden metadata and structured data embedded in script tags are not part of what it processes. But that does not mean schema is irrelevant to AI visibility.</p>
             </div>
 
-            <p><Link href="/blog/does-schema-markup-help-ai-search">Schema markup still matters for AI visibility</Link>, just not in the way most people think. Schema plays a critical role in how search engines index your content, and ChatGPT pulls from the Bing search index when generating responses. Your schema influences the indexed version of your content that ChatGPT references.</p>
+            <p><Link href="/blog/does-schema-markup-help-ai-search">Schema markup still matters for AI visibility</Link>, just not in the way most people think. Schema plays a critical role in how search engines index your content, and ChatGPT pulls from the Bing search index when generating responses. Your schema influences the indexed version of your content that ChatGPT references. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CHEAT SHEET: Schema Impact Path ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -452,7 +452,7 @@ export default function Page() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your schema is set up correctly for AI indexing? Let us take a look.</p>
+              <p>Not sure if your schema is set up correctly for AI indexing? Let us take a look. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -521,7 +521,7 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The connection between your website and ChatGPT runs deeper than most businesses realize. Your content feeds into ChatGPT through multiple channels: the <Link href="/blog/bing-places-chatgpt-connection">Bing search index</Link>, direct browsing, and training data. Blocking one channel does not block them all.</p>
+            <p>The connection between your website and ChatGPT runs deeper than most businesses realize. Your content feeds into ChatGPT through multiple channels: the <Link href="/blog/bing-places-chatgpt-connection">Bing search index</Link>, direct browsing, and training data. Blocking one channel does not block them all. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
@@ -533,14 +533,14 @@ export default function Page() {
             <span className="ae-section-label">Common Mistake</span>
             <h2>Why Your Google Business Profile Does Not Help Here</h2>
 
-            <p>Many local business owners assume their Google Business Profile data feeds into ChatGPT. It does not. <Link href="/blog/chatgpt-cant-see-google-business-profile">ChatGPT cannot access Google Business Profiles</Link> because Google restricts that data to its own ecosystem.</p>
+            <p>Many local business owners assume their Google Business Profile data feeds into ChatGPT. It does not. <Link href="/blog/chatgpt-cant-see-google-business-profile">ChatGPT cannot access Google Business Profiles</Link> because Google restricts that data to its own ecosystem. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Wake-Up Call</div>
               <p>Your GBP reviews, hours, photos, and Q&amp;A content are completely invisible to ChatGPT. If your website is light on content and you have been relying on your Google listing to do the heavy lifting, you are invisible to AI platforms entirely.</p>
             </div>
 
-            <p>Everything ChatGPT knows about your business has to come from your actual website and third-party sources that are publicly crawlable. Your website text is the only content you fully control that ChatGPT can read.</p>
+            <p>Everything ChatGPT knows about your business has to come from your actual website and third-party sources that are publicly crawlable. Your website text is the only content you fully control that ChatGPT can read. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
@@ -552,7 +552,7 @@ export default function Page() {
             <span className="ae-section-label">Action Plan</span>
             <h2>How to Make Your Content Visible to ChatGPT</h2>
 
-            <p>Now that you understand what ChatGPT reads and what it ignores, here is how to restructure your content for maximum AI visibility. These changes improve both AI citations and traditional SEO performance.</p>
+            <p>Now that you understand what ChatGPT reads and what it ignores, here is how to restructure your content for maximum AI visibility. These changes improve both AI citations and traditional SEO performance. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* ── CHEAT SHEET: Content Optimization ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -605,14 +605,14 @@ export default function Page() {
 
             <h3>The Sliding Window Strategy</h3>
 
-            <p>Because ChatGPT reads in chunks, where you place information on the page matters enormously. Here is how to structure your pages for maximum impact within the sliding window.</p>
+            <p>Because ChatGPT reads in chunks, where you place information on the page matters enormously. Here is how to structure your pages for maximum impact within the sliding window. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">Best Practice</div>
               <p>Lead with your most important information. Answer the core question in the first two paragraphs. ChatGPT is most likely to read and cite content that appears in the first 50 lines of your page&apos;s HTML.</p>
             </div>
 
-            <p>Think of your page like an inverted pyramid: the most critical, citation-worthy information goes at the top. Supporting details, background context, and supplementary content can go deeper on the page. This is the opposite of how many businesses structure their websites, where the hero section is a vague tagline and the real substance is buried below the fold.</p>
+            <p>Think of your page like an inverted pyramid: the most critical, citation-worthy information goes at the top. Supporting details, background context, and supplementary content can go deeper on the page. This is the opposite of how many businesses structure their websites, where the hero section is a vague tagline and the real substance is buried below the fold. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
@@ -624,13 +624,13 @@ export default function Page() {
             <span className="ae-section-label">The Bottom Line</span>
             <h2>What This Means for Your Business</h2>
 
-            <p>The businesses winning in AI search are not the ones with the most beautiful websites. They are the ones whose plain text content directly answers the questions people are asking AI platforms.</p>
+            <p>The businesses winning in AI search are not the ones with the most beautiful websites. They are the ones whose plain text content directly answers the questions people are asking AI platforms. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-quote not-prose">
               <p>When ChatGPT strips your website down to raw text, what remains needs to clearly communicate who you are, what you do, where you operate, and why you are the best option.</p>
             </div>
 
-            <p>This is a fundamental shift from traditional web strategy. For two decades, businesses optimized for visual impact. Bigger images, smoother animations, more interactive features. None of that registers with AI. The new competitive advantage is content clarity: structured, direct, comprehensive text that reads well even without visual context.</p>
+            <p>This is a fundamental shift from traditional web strategy. For two decades, businesses optimized for visual impact. Bigger images, smoother animations, more interactive features. None of that registers with AI. The new competitive advantage is content clarity: structured, direct, comprehensive text that reads well even without visual context. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── COMPARISON TABLE: Old vs New strategy ── */}
             <table className="ae-comparison-table not-prose">
@@ -685,7 +685,7 @@ export default function Page() {
             <span className="ae-section-label">Multi-Channel</span>
             <h2>The Content Channels ChatGPT Pulls From</h2>
 
-            <p>Your website is not the only source ChatGPT references. Understanding all the channels gives you a complete picture of your AI visibility landscape.</p>
+            <p>Your website is not the only source ChatGPT references. Understanding all the channels gives you a complete picture of your AI visibility landscape. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* ── BAR GROUP: Content channels ── */}
             <div className="ae-bar-group not-prose">
@@ -723,7 +723,7 @@ export default function Page() {
 
             {/* ── CTA 10 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know which content channels are working for you and which ones are not?</p>
+              <p>Want to know which content channels are working for you and which ones are not? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Multi-Channel Audit &rarr;</a>
             </div>
 
@@ -735,14 +735,14 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Pattern</div>
-              <p>The businesses that consistently get cited by AI platforms share three traits: their content answers specific questions directly, their entity information is consistent across the web, and their expertise is demonstrated through depth rather than breadth.</p>
+              <p>The businesses that consistently get cited by AI platforms share three traits: their content answers specific questions directly, their entity information is consistent across the web, and their expertise is demonstrated through depth rather than breadth. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             <p>Knowing your specific pattern is what separates businesses that get cited from businesses that get ignored. A plumber in Dallas has different optimization needs than a family attorney in Boston. The underlying principles are the same, but the execution varies dramatically.</p>
 
             {/* ── CTA 11 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Every industry has different AI citation patterns. Discover the specific pattern for your business.</p>
+              <p>Every industry has different AI citation patterns. Discover the specific pattern for your business. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Industry-Specific Analysis &rarr;</Link>
             </div>
 
@@ -770,7 +770,7 @@ export default function Page() {
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                   No. When ChatGPT browses a website, it strips away all visual elements. No images, no CSS, no JavaScript interactions, no videos. It reads only the <strong className="text-white">plain text content</strong> extracted from your HTML. If critical information exists only in an image or infographic, ChatGPT will never see it.
-                </p>
+                 Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
 
               <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
@@ -788,7 +788,7 @@ export default function Page() {
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                   GPTBot is OpenAI&apos;s web crawler that collects data to train and improve AI models. As of 2025, roughly <strong className="text-white">35.7% of the top 1,000 websites</strong> block GPTBot via robots.txt. Whether you should block it depends on your goals. If you want AI platforms to learn about and potentially recommend your business, blocking GPTBot removes you from the training data entirely.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
 
               <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
@@ -806,7 +806,7 @@ export default function Page() {
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                   Focus on clear, well-structured HTML with semantic headings, concise paragraphs, and direct answers to common questions. Avoid burying critical information inside JavaScript widgets, images, or interactive elements. The businesses that consistently get cited by ChatGPT are the ones whose content is <strong className="text-white">readable as plain text</strong> without any visual context.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
 
             </div>
@@ -839,7 +839,7 @@ export default function Page() {
 
           {/* ── CTA 13 ── */}
           <div className="ae-cta-inline not-prose mt-10">
-            <p>See how your content stacks up against the businesses ChatGPT is already recommending.</p>
+            <p>See how your content stacks up against the businesses ChatGPT is already recommending. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot">Run Your Free AI Audit &rarr;</Link>
           </div>
 
@@ -852,7 +852,7 @@ export default function Page() {
           {/* ── FINAL CTA ── */}
           <div className="ae-final-cta not-prose mt-12">
             <h2>What Does ChatGPT Actually See When It Visits Your Site?</h2>
-            <p>Most businesses have no idea what their website looks like to AI. We will show you exactly what ChatGPT reads, what it misses, and where your content gaps are costing you citations. Free analysis. No commitment. No pitch, just the data.</p>
+            <p>Most businesses have no idea what their website looks like to AI. We will show you exactly what ChatGPT reads, what it misses, and where your content gaps are costing you citations. Free analysis. No commitment. No pitch, just the data. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
             <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
@@ -879,7 +879,7 @@ export default function Page() {
                 AE
               </div>
               <div>
-                <p className="text-white font-semibold">Justin Borges</p>
+                <p className="text-white font-semibold">Justin Borges <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 <p className="text-gray-400 text-sm">Helping local service businesses stay visible in an AI-first world. We analyze what AI platforms actually see, read, and recommend so you can stop guessing and start getting cited.</p>
               </div>
             </div>

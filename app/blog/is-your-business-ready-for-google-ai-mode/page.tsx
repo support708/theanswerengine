@@ -228,31 +228,31 @@ export default function Page() {
             </div>
           </div>
 
-          <p>Google just fundamentally changed how people search. AI Mode is not a small feature update or a cosmetic redesign. It is a completely new interface inside Google Search that replaces the traditional results page with an AI-first, conversational experience powered by Gemini 2.5. And the numbers tell a stark story: <strong>93% of AI Mode searches end without a single click</strong> to any external website. If your business depends on Google traffic, this is something you need to understand right now.</p>
+          <p>Google just fundamentally changed how people search. AI Mode is not a small feature update or a cosmetic redesign. It is a completely new interface inside Google Search that replaces the traditional results page with an AI-first, conversational experience powered by Gemini 2.5. And the numbers tell a stark story: <strong>93% of AI Mode searches end without a single click</strong> to any external website. If your business depends on Google traffic, this is something you need to understand right now. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
-            <p>Google AI Mode is not a test. It is live for all U.S. users and expanding globally. Businesses that ignore this shift are losing visibility every single day.</p>
+            <p>Google AI Mode is not a test. It is live for all U.S. users and expanding globally. Businesses that ignore this shift are losing visibility every single day. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           </div>
 
           {/* ── SECTION 1: WHAT IT IS ── */}
           <span className="ae-section-label">The Basics</span>
           <h2>What Google AI Mode Actually Is</h2>
 
-          <p>Google AI Mode is a dedicated tab within Google Search that turns queries into ongoing, contextual conversations. Instead of returning a list of links, it generates deep, synthesized answers that pull from multiple sources across the web simultaneously.</p>
+          <p>Google AI Mode is a dedicated tab within Google Search that turns queries into ongoing, contextual conversations. Instead of returning a list of links, it generates deep, synthesized answers that pull from multiple sources across the web simultaneously. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-          <p>The technology behind it uses something called <strong>query fan-out</strong>. When a user asks a question, AI Mode does not run a single search. It breaks the question into subtopics and issues multiple queries at once, diving deeper into the web than a traditional search ever could. The result is a comprehensive, multi-angle answer delivered in one response.</p>
+          <p>The technology behind it uses something called <strong>query fan-out</strong>. When a user asks a question, AI Mode does not run a single search. It breaks the question into subtopics and issues multiple queries at once, diving deeper into the web than a traditional search ever could. The result is a comprehensive, multi-angle answer delivered in one response. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>Users can also follow up with additional questions, refine their search conversationally, and even upload images or documents for context. Think of it less like a search engine and more like a built-in research assistant that happens to live inside Google.</p>
+          <p>Users can also follow up with additional questions, refine their search conversationally, and even upload images or documents for context. Think of it less like a search engine and more like a built-in research assistant that happens to live inside Google. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>AI Mode is not returning links. It is returning answers. If your business is not part of those answers, you are invisible to users who search this way.</p>
+            <p>AI Mode is not returning links. It is returning answers. If your business is not part of those answers, you are invisible to users who search this way. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering whether Google AI Mode can see your business right now? Find out in under 60 seconds.</p>
+            <p>Wondering whether Google AI Mode can see your business right now? Find out in under 60 seconds. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -260,7 +260,7 @@ export default function Page() {
           <span className="ae-section-label">Head to Head</span>
           <h2>AI Mode vs. AI Overviews: Why This Is Not the Same Thing</h2>
 
-          <p>If you have been following our coverage of <Link href="/blog/google-ai-overviews-replacing-search">how Google AI Overviews are reshaping search</Link>, you might assume AI Mode is just a bigger version of the same feature. It is not. The differences are significant and they matter for your business.</p>
+          <p>If you have been following our coverage of <Link href="/blog/google-ai-overviews-replacing-search">how Google AI Overviews are reshaping search</Link>, you might assume AI Mode is just a bigger version of the same feature. It is not. The differences are significant and they matter for your business. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* ── COMPARISON TABLE ── */}
           <table className="ae-comparison-table not-prose">
@@ -317,14 +317,14 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Critical Finding</div>
-            <p>AI Mode and AI Overviews reach 86% semantic similarity in their conclusions, yet share only 13.7% citation overlap. They agree on the answers but draw from completely different sources. This means being visible in one does NOT guarantee visibility in the other.</p>
+            <p>AI Mode and AI Overviews reach 86% semantic similarity in their conclusions, yet share only 13.7% citation overlap. They agree on the answers but draw from completely different sources. This means being visible in one does NOT guarantee visibility in the other. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
-          <p>This is the critical takeaway. A business that gets cited in AI Overviews may not get cited in AI Mode at all, and vice versa. These are two separate citation ecosystems operating within the same search engine, each pulling from different source pools to reach similar conclusions.</p>
+          <p>This is the critical takeaway. A business that gets cited in AI Overviews may not get cited in AI Mode at all, and vice versa. These are two separate citation ecosystems operating within the same search engine, each pulling from different source pools to reach similar conclusions. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Two citation ecosystems. Two chances to be invisible. Check your visibility across both right now.</p>
+            <p>Two citation ecosystems. Two chances to be invisible. Check your visibility across both right now. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <Link href="/blindspot">Run Your AI Visibility Check</Link>
           </div>
 
@@ -332,7 +332,7 @@ export default function Page() {
           <span className="ae-section-label">The Data</span>
           <h2>The Zero-Click Problem Just Got Much Worse</h2>
 
-          <p>Zero-click searches have been a concern for years. But AI Mode takes this problem to a level no one predicted. The data is clear and the trend is accelerating.</p>
+          <p>Zero-click searches have been a concern for years. But AI Mode takes this problem to a level no one predicted. The data is clear and the trend is accelerating. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           {/* ── BAR GROUP ── */}
           <div className="ae-bar-group not-prose">
@@ -363,11 +363,11 @@ export default function Page() {
             </div>
           </div>
 
-          <p>That is not a typo. More than nine out of ten AI Mode searches result in the user getting their answer entirely within Google, never visiting a single external website. For businesses that depend on organic search traffic, this represents the most aggressive shift Google has ever made toward keeping users inside its own ecosystem.</p>
+          <p>That is not a typo. More than nine out of ten AI Mode searches result in the user getting their answer entirely within Google, never visiting a single external website. For businesses that depend on organic search traffic, this represents the most aggressive shift Google has ever made toward keeping users inside its own ecosystem. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Reality Check</div>
-            <p>Nearly 60% of all Google searches now end without a click to any website. Industry projections suggest zero-click rates will exceed 70% by mid-2026. AI Mode is the leading edge of that curve.</p>
+            <p>Nearly 60% of all Google searches now end without a click to any website. Industry projections suggest zero-click rates will exceed 70% by mid-2026. AI Mode is the leading edge of that curve. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           <div className="ae-quote not-prose">
@@ -376,7 +376,7 @@ export default function Page() {
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>93% zero-click. Is your business one of the 7% that still gets traffic? Or are you already invisible?</p>
+            <p>93% zero-click. Is your business one of the 7% that still gets traffic? Or are you already invisible? Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Find Out Where You Stand</Link>
           </div>
 
@@ -413,16 +413,16 @@ export default function Page() {
             </div>
           </div>
 
-          <p>The types of queries that trigger AI Mode tend to be more complex and multi-layered than typical searches. Research questions, comparison queries ("which is better for my business, X or Y"), planning tasks, and questions with multiple angles are where AI Mode thrives. Simple factual lookups tend to stay within standard search or AI Overviews.</p>
+          <p>The types of queries that trigger AI Mode tend to be more complex and multi-layered than typical searches. Research questions, comparison queries ("which is better for my business, X or Y"), planning tasks, and questions with multiple angles are where AI Mode thrives. Simple factual lookups tend to stay within standard search or AI Overviews. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>For local service businesses, the exact queries that drive high-value leads tend to be complex ones. "What should I look for in a roofing contractor" or "how do I choose between different HVAC systems" are exactly the kinds of questions AI Mode handles. These searches used to bring customers to your website. Now, they may get a full answer without ever seeing your name.</p>
+            <p>For local service businesses, the exact queries that drive high-value leads tend to be complex ones. "What should I look for in a roofing contractor" or "how do I choose between different HVAC systems" are exactly the kinds of questions AI Mode handles. These searches used to bring customers to your website. Now, they may get a full answer without ever seeing your name. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           {/* ── CTA 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Complex queries drive the highest-value leads. And AI Mode is intercepting them. See if your business is part of those answers.</p>
+            <p>Complex queries drive the highest-value leads. And AI Mode is intercepting them. See if your business is part of those answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <Link href="/blindspot">Check Your AI Citations</Link>
           </div>
 
@@ -430,9 +430,9 @@ export default function Page() {
           <span className="ae-section-label">Strategy</span>
           <h2>What AI Mode Means for Your Current SEO Strategy</h2>
 
-          <p>The good news: Google has explicitly stated that there are no special technical requirements to appear in AI Mode. The same principles that support strong organic rankings also support AI Mode visibility. Helpful, reliable, clearly structured content remains the foundation.</p>
+          <p>The good news: Google has explicitly stated that there are no special technical requirements to appear in AI Mode. The same principles that support strong organic rankings also support AI Mode visibility. Helpful, reliable, clearly structured content remains the foundation. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>The bad news: "no special requirements" does not mean "no additional effort." The fact that AI Mode cites different sources than AI Overviews means that optimizing for one does not guarantee visibility in the other. Businesses that treat <Link href="/blog/answer-engine-optimization-aeo-guide">Answer Engine Optimization</Link> as a checkbox are going to find themselves invisible across multiple AI search surfaces simultaneously.</p>
+          <p>The bad news: "no special requirements" does not mean "no additional effort." The fact that AI Mode cites different sources than AI Overviews means that optimizing for one does not guarantee visibility in the other. Businesses that treat <Link href="/blog/answer-engine-optimization-aeo-guide">Answer Engine Optimization</Link> as a checkbox are going to find themselves invisible across multiple AI search surfaces simultaneously. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* ── PROS / CONS ── */}
           <div className="ae-pros-cons not-prose">
@@ -483,12 +483,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Brands cited in AI responses earn 35% more organic clicks and 91% more paid clicks than businesses not cited. Meanwhile, organic CTR drops 61% when AI features are present. Being inside the answer is now more valuable than ranking below it.</p>
+            <p>Brands cited in AI responses earn 35% more organic clicks and 91% more paid clicks than businesses not cited. Meanwhile, organic CTR drops 61% when AI features are present. Being inside the answer is now more valuable than ranking below it. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           </div>
 
           {/* ── CTA 5 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Are you inside the answer or below it? The difference is 35% more organic clicks vs. 61% fewer.</p>
+            <p>Are you inside the answer or below it? The difference is 35% more organic clicks vs. 61% fewer. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot">See Where AI Places Your Business</Link>
           </div>
 
@@ -496,11 +496,11 @@ export default function Page() {
           <span className="ae-section-label">The Big Picture</span>
           <h2>The Expanding AI Search Ecosystem</h2>
 
-          <p>Google AI Mode does not exist in isolation. It is part of a broader shift where every major platform is building AI-powered search. ChatGPT, Perplexity, Claude, and others are all competing for the same user behavior: asking a question and getting a synthesized, cited answer without visiting multiple websites.</p>
+          <p>Google AI Mode does not exist in isolation. It is part of a broader shift where every major platform is building AI-powered search. ChatGPT, Perplexity, Claude, and others are all competing for the same user behavior: asking a question and getting a synthesized, cited answer without visiting multiple websites. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-          <p>What makes AI Mode particularly important is scale. Google still processes the vast majority of all web searches globally. When Google changes how it delivers answers, the impact on business visibility is orders of magnitude larger than what any standalone AI chatbot can produce. AI Overviews already reach <strong>1.5 billion monthly users</strong>. AI Mode is poised to reach a similar scale as it rolls out more broadly.</p>
+          <p>What makes AI Mode particularly important is scale. Google still processes the vast majority of all web searches globally. When Google changes how it delivers answers, the impact on business visibility is orders of magnitude larger than what any standalone AI chatbot can produce. AI Overviews already reach <strong>1.5 billion monthly users</strong>. AI Mode is poised to reach a similar scale as it rolls out more broadly. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>The businesses that will maintain visibility are the ones treating AI search as its own channel, distinct from traditional SEO but built on the same foundation. If you want to understand the broader landscape, <Link href="/blog/how-do-i-get-my-business-found-voice-search-ai">voice search and AI discovery</Link> are converging around the same principles.</p>
+          <p>The businesses that will maintain visibility are the ones treating AI search as its own channel, distinct from traditional SEO but built on the same foundation. If you want to understand the broader landscape, <Link href="/blog/how-do-i-get-my-business-found-voice-search-ai">voice search and AI discovery</Link> are converging around the same principles. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           {/* ── DECISION MATRIX ── */}
           <div className="ae-decision-matrix not-prose">
@@ -538,7 +538,7 @@ export default function Page() {
 
           {/* ── CTA 6 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Need help figuring out which row describes your business? We will show you the data.</p>
+            <p>Need help figuring out which row describes your business? We will show you the data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <Link href="/blindspot">Get Your Free AI Audit</Link>
           </div>
 
@@ -546,18 +546,18 @@ export default function Page() {
           <span className="ae-section-label">Looking Ahead</span>
           <h2>What Google AI Mode Reveals About the Future of Search</h2>
 
-          <p>AI Mode is not an experiment Google will quietly shut down. It is the direction Google is moving. The company has described search as evolving into an AI-first discovery, interpretation, and decision system. AI Mode is that vision in its most developed form so far.</p>
+          <p>AI Mode is not an experiment Google will quietly shut down. It is the direction Google is moving. The company has described search as evolving into an AI-first discovery, interpretation, and decision system. AI Mode is that vision in its most developed form so far. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
-          <p>New capabilities are being added quickly. Canvas, a workspace feature for saving and organizing AI Mode research, launched for all U.S. users in early 2026. Agent-like features for planning, booking, and executing tasks are in development. Google is building AI Mode into something that does not just answer questions but takes action on behalf of the user.</p>
+          <p>New capabilities are being added quickly. Canvas, a workspace feature for saving and organizing AI Mode research, launched for all U.S. users in early 2026. Agent-like features for planning, booking, and executing tasks are in development. Google is building AI Mode into something that does not just answer questions but takes action on behalf of the user. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Window Is Closing</div>
-            <p>For businesses, this trajectory means the window to build AI visibility is narrowing. Every month that passes without a clear strategy is a month where competitors are being cited, building trust signals, and establishing the kind of AI-friendly content presence that compounds over time.</p>
+            <p>For businesses, this trajectory means the window to build AI visibility is narrowing. Every month that passes without a clear strategy is a month where competitors are being cited, building trust signals, and establishing the kind of AI-friendly content presence that compounds over time. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           {/* ── CTA 7 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>The window to build AI visibility is narrowing. Find out where you stand before your competitors lock in their advantage.</p>
+            <p>The window to build AI visibility is narrowing. Find out where you stand before your competitors lock in their advantage. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot">Check Your AI Visibility Now</Link>
           </div>
 

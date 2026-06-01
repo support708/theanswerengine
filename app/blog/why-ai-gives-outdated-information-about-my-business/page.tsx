@@ -262,8 +262,8 @@ export default function WhyAIGivesOutdatedInformationPage() {
           {/* Inline CTA 1 */}
           <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Wondering what outdated info AI has about you?</p>
-              <p className="text-gray-400 text-sm">Our free Blind Spot Report reveals exactly what each AI platform currently says about your business.</p>
+              <p className="text-white font-semibold mb-1">Wondering what outdated info AI has about you? Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+              <p className="text-gray-400 text-sm">Our free Blind Spot Report reveals exactly what each AI platform currently says about your business. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
             <Link
               href="/blindspot"
@@ -306,7 +306,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">AI Information Staleness in Numbers</h2>
               <p className="text-gray-300 text-lg mb-8">
                 The data tells a stark story. AI platforms are making confident claims about businesses using information that is months or even years out of date. And the businesses affected rarely know it is happening.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <div className="ae-stats-grid grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
                 {[
                   { value: '68%', label: 'accuracy rate for business profiles on ChatGPT and Perplexity (vs 100% on Gemini)' },
@@ -322,16 +322,16 @@ export default function WhyAIGivesOutdatedInformationPage() {
               </div>
               <p className="text-gray-400 text-sm italic">
                 Sources: Birdeye LLM vs Traditional Local Search Accuracy Report; Suprmind AI Hallucination Statistics 2026; BusinessWire AI Accuracy and Reputation Study 2025; MarketingCode AI Search Consumer Survey.
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>
               Those numbers represent real revenue being lost every day. When nearly half of consumers are turning to AI for local service recommendations and the AI is delivering stale data, the consequences are not abstract. Customers are calling wrong numbers. They are showing up during old hours. They are choosing competitors because the AI never mentioned your newest services.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>
               The frustrating part is that you already fixed this problem on your end. Your website is current. Your Google profile is updated. Yet the AI keeps repeating old information as if nothing changed. To understand why, you need to understand how AI actually learns about businesses in the first place.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Section 2 */}
             <div id="how-ai-learns" className="not-prose mt-14 mb-4">
@@ -341,32 +341,32 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             <p>
               AI models do not have a direct line to your business. They do not check your website every morning. They do not subscribe to your Google Business Profile updates. Instead, they learn about businesses the same way they learn about everything else: through massive, periodic training on internet data.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               <strong>Training data is a snapshot, not a live feed.</strong> When OpenAI, Google, or Anthropic trains a model, they crawl billions of web pages, directories, forums, news articles, and social media posts. All of that data gets compressed into the model&apos;s parameters. The result is a frozen snapshot of the internet as it existed at a specific point in time.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p>
               <strong>The snapshot has a hard cutoff date.</strong> Everything published after that date simply does not exist in the model&apos;s core knowledge. For ChatGPT 5.4, released in March 2026, the training data cutoff was August 2025. That means any business change you made after August 2025 is invisible to ChatGPT&apos;s base knowledge.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               <strong>Training cycles are infrequent and expensive.</strong> Retraining a frontier AI model takes weeks to months and costs tens of millions of dollars in compute. These updates happen on the AI company&apos;s schedule, not yours. Between cycles, your business changes accumulate with no way to reach the model&apos;s core understanding.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               <strong>Multiple conflicting sources create confusion.</strong> Even within its training data, the model may have encountered ten different versions of your phone number across ten different directories. It cannot determine which is current. It picks the statistically most common one, which may be the oldest because it appeared on the most pages for the longest time. For a deeper look at why this conflation happens, read our guide on <Link href="/blog/why-ai-says-wrong-things-about-business">why AI says wrong things about your business</Link>.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose my-8 p-5 rounded-xl border border-yellow-500/30 bg-yellow-500/5">
               <div className="flex gap-3">
                 <span className="text-2xl">&#9888;&#65039;</span>
                 <div>
-                  <p className="font-semibold text-white mb-1">The Confidence Problem</p>
+                  <p className="font-semibold text-white mb-1">The Confidence Problem Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                   <p className="text-gray-300 text-sm">
                     MIT research found that AI models are 34% more likely to use confident language like &ldquo;definitely&rdquo; and &ldquo;certainly&rdquo; when generating incorrect information. Your customers have no way to distinguish an outdated AI answer from a current one. The AI sounds equally sure either way.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 </div>
               </div>
             </div>
@@ -374,8 +374,8 @@ export default function WhyAIGivesOutdatedInformationPage() {
             {/* Inline CTA 2 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Not sure how stale your AI presence is?</p>
-                <p className="text-gray-400 text-sm">We audit all major AI platforms and tell you exactly what is outdated. No charge for the initial report.</p>
+                <p className="text-white font-semibold mb-1">Not sure how stale your AI presence is? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+                <p className="text-gray-400 text-sm">We audit all major AI platforms and tell you exactly what is outdated. No charge for the initial report. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <a
                 href="tel:+12134442229"
@@ -394,7 +394,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             <p>
               Every AI model has a knowledge cutoff date, the point in time after which it has no training data. This is the single biggest reason AI gives outdated business information. Understanding these dates helps you grasp the scope of the problem.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table not-prose my-8 overflow-x-auto">
@@ -453,11 +453,11 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             <p>
               Notice the gap. Gemini has an advantage for business data because it connects directly to Google&apos;s own business listings in near real time. ChatGPT and Claude rely primarily on training data that can be months old. Perplexity searches the web live, but the quality of its answers depends entirely on what it finds, and if the top results contain outdated directory pages, it will repeat stale information confidently.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>
               The implication for business owners is clear: there is no single fix. Each platform has a different data pipeline, a different refresh cycle, and different sources it trusts. A correction strategy that works for Gemini (updating your Google Business Profile) will not necessarily reach ChatGPT or Claude.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Section 4 */}
             <div id="live-retrieval-gaps" className="not-prose mt-14 mb-4">
@@ -467,28 +467,28 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             <p>
               Many people assume that because ChatGPT can &ldquo;browse the web&rdquo; and Perplexity searches in real time, the knowledge cutoff problem is solved. It is not. Live retrieval helps, but it has significant gaps that still leave your business exposed to stale information.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               <strong>Live search is not always triggered.</strong> ChatGPT only activates web browsing for certain types of queries. A casual question like &ldquo;tell me about Smith Plumbing in Denver&rdquo; may be answered entirely from training data without any web search. The user has no way to know whether the answer came from live data or a frozen snapshot.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               <strong>Stale sources poison live results.</strong> When Perplexity or Bing Copilot searches the web, they surface whatever pages rank highest. If your old phone number is listed on 30 directory sites and your new one only appears on your website, the weight of outdated sources overwhelms the single current source.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>
               <strong>Caching creates phantom delays.</strong> Search engines and AI platforms cache results aggressively. Even after you update a directory, the cached version may persist for weeks. The AI queries the cache, not the live page, and delivers the stale version to your customer.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose my-8 p-5 rounded-xl border border-blue-500/30 bg-blue-500/5">
               <div className="flex gap-3">
                 <span className="text-2xl">&#128161;</span>
                 <div>
-                  <p className="font-semibold text-white mb-1">The Source Authority Principle</p>
+                  <p className="font-semibold text-white mb-1">The Source Authority Principle <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                   <p className="text-gray-300 text-sm">
                     AI models weight sources by perceived authority. A single update on your website competes against dozens of directory listings, cached pages, forum mentions, and archived versions. Freshness alone is not enough. You need consistency across every source the AI can access. This is why <Link href="/blog/what-happens-when-ai-search-gets-business-wrong" className="text-[#F27D24] hover:underline">understanding what happens when AI gets your business wrong</Link> is so important.
-                  </p>
+                   Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
             </div>
@@ -496,8 +496,8 @@ export default function WhyAIGivesOutdatedInformationPage() {
             {/* Inline CTA 3 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">How many stale sources are dragging you down?</p>
-                <p className="text-gray-400 text-sm">Our audit maps every source AI references for your business and flags the outdated ones.</p>
+                <p className="text-white font-semibold mb-1">How many stale sources are dragging you down? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+                <p className="text-gray-400 text-sm">Our audit maps every source AI references for your business and flags the outdated ones. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
@@ -516,7 +516,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             <p>
               Not all business information ages at the same rate. Some details are relatively stable (your business name, for example, rarely changes). Others shift frequently and are prime candidates for AI staleness. Knowing which details are most vulnerable helps you prioritize your correction efforts.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Pros/Cons as High-Risk vs Low-Risk */}
             <div className="ae-pros-cons not-prose my-10 grid md:grid-cols-2 gap-6">
@@ -562,7 +562,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             <p>
               The pattern is predictable: anything that changes more than once per year is almost certainly outdated in at least one AI platform. Businesses that update hours seasonally, rotate service offerings, or adjust pricing regularly are the most vulnerable. And these are exactly the details customers rely on most when making a purchasing decision.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="ae-quote not-prose my-10 pl-6 border-l-4 border-[#F27D24]">
               <blockquote className="text-xl text-white font-plus-jakarta font-semibold leading-relaxed mb-3">
@@ -579,11 +579,11 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             <p>
               The financial impact of stale AI data is not theoretical. When 45% of consumers are using AI to find local services and 53% of them will not visit a business with incorrect information, the math becomes straightforward: outdated AI answers are a direct revenue leak.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p>
               <strong>Lost customers who never call.</strong> A customer asks ChatGPT for a good dentist nearby. Your practice is recommended with your old phone number. The customer calls, gets a disconnected line or a different business, and moves on to the next result. You never know the lead existed.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p>
               <strong>Wrong hours mean wasted trips.</strong> A customer asks Perplexity for your Saturday hours. The AI reports your old schedule (closed Saturdays) even though you started opening on Saturdays six months ago. The customer goes to a competitor without ever checking your website.

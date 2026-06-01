@@ -203,7 +203,7 @@ export default function Page() {
             Unsure if your content strategy is helping AI find you?{' '}
             <Link href="/blindspot">Get your free AI Blind Spot Report</Link> and find out what
             signals AI is actually reading from your business.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         {/* Stats Grid */}
@@ -260,13 +260,13 @@ export default function Page() {
             you. More content equals more visibility. Your voice on Spotify means ChatGPT will
             recommend you. This narrative is appealing. It is also mostly wrong, and the part that is
             right is often the last thing podcast coaches talk about.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             Here is the fundamental problem with the "podcast equals AI visibility" shortcut: AI search
             engines do not listen to audio. ChatGPT cannot stream your episode. Perplexity does not
             have an ear. Google Gemini reads text. Every AI platform that matters for business
             recommendations works by ingesting and synthesizing written content, not audio files.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Core Misconception</div>
@@ -275,14 +275,14 @@ export default function Page() {
               It creates 50 audio files that AI cannot read. Whether a podcast helps your AI visibility
               depends entirely on what written content those episodes generate, not how many episodes
               you publish.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
             That does not mean podcasting is a dead end for AI visibility. It means the strategy for
             AI visibility and the strategy for audience building are different, and you need to execute
             both intentionally if you want the podcast to serve both goals.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           {/* Inline CTA 2 */}
           <div className="ae-cta-inline mt-6">
@@ -292,7 +292,7 @@ export default function Page() {
                 Call (213) 444-2229
               </a>{' '}
               for a quick content audit.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
         </section>
 
@@ -305,7 +305,7 @@ export default function Page() {
             The components of a podcast that AI platforms can actually use are entirely the written
             layer around the audio. When you understand what those layers are, you can build them
             deliberately instead of hoping they happen by accident.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           {/* Comparison Table */}
           <div className="overflow-x-auto my-8">
@@ -369,13 +369,13 @@ export default function Page() {
             same episode with a full transcript published on your website, comprehensive show notes
             mentioning your services, a guest who links back to you, and a local press mention creates
             significant authority signals.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           <p className="text-gray-300 leading-relaxed">
             This means the question is not "should I start a podcast?" The real question is: "Am I
             willing to build the written content ecosystem that makes a podcast worth it from an AI
             visibility standpoint?" For most small businesses, the honest answer shapes a very
             different strategy than just hitting record.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </section>
 
         {/* Section 3 */}
@@ -387,7 +387,7 @@ export default function Page() {
             Not all podcast formats are equal for AI visibility. The format you choose determines how
             much high-quality written content you can realistically generate from each episode, and how
             many third-party citations each episode can create.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* Decision Matrix */}
           <div className="ae-decision-matrix my-8">
@@ -419,7 +419,7 @@ export default function Page() {
             they typically mention the appearance on their website, their newsletter, or their social
             profiles. Those mentions link back to your podcast episode page, which creates the kind of
             third-party citation that AI platforms treat as an endorsement.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-success">
             <div className="ae-callout-title">The Compound Effect</div>
@@ -428,7 +428,7 @@ export default function Page() {
               guest mention on their site, potential social shares from their audience, and sometimes
               press coverage if the guest is prominent enough. That is five to eight distinct AI
               authority signals from a single 45-minute conversation.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
@@ -441,7 +441,7 @@ export default function Page() {
               how press mentions help AI recommend your business
             </Link>
             .
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
         </section>
 
         {/* Section 4 */}
@@ -452,7 +452,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-5">
             Understanding the limits of podcasting for AI visibility helps you avoid investing time in
             the wrong places. Here is what a podcast, even a very successful one, cannot do on its own.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* Pros/Cons */}
           <div className="ae-pros-cons">
@@ -485,7 +485,7 @@ export default function Page() {
             AI visibility infrastructure, which includes consistent directory listings, a well-structured
             website, and strong review velocity, was never addressed. The podcast was layered on top of a
             weak foundation.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p className="text-gray-300 leading-relaxed">
             A podcast amplifies existing authority signals. It cannot create authority signals from
@@ -498,7 +498,7 @@ export default function Page() {
               your website vs directories and what AI actually trusts
             </Link>
             .
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           {/* Inline CTA 3 */}
           <div className="ae-cta-inline mt-8">
@@ -506,7 +506,7 @@ export default function Page() {
               Not sure if your AI visibility foundation is strong enough to amplify?{' '}
               <Link href="/blindspot">Get your free Blind Spot Report</Link> before investing more in
               content creation.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
         </section>
 
@@ -519,7 +519,7 @@ export default function Page() {
             Here is the insight that most business owners miss: appearing as a guest on someone
             else's podcast is often more valuable for AI visibility than hosting your own show. The
             reason is third-party citation authority.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             When you host your own podcast, all the written content typically lives on your own website.
             That is a first-party signal. Useful, but less powerful than a citation from an external
@@ -527,7 +527,7 @@ export default function Page() {
             that podcast publishes content about you on their domain. Your name, your business, and your
             expertise now appear on a third-party website that AI platforms treat as an independent
             endorsement.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">Why Third-Party Citations Matter More</div>
@@ -536,7 +536,7 @@ export default function Page() {
               sources are up to 4x more likely to be recommended by AI platforms. A single guest
               appearance on a podcast with strong domain authority can generate the equivalent AI
               visibility signal of dozens of your own blog posts.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* Timeline: Guest Appearance Content Chain */}
@@ -573,7 +573,7 @@ export default function Page() {
             own show." It is "appear on as many relevant podcasts as possible, then launch my own show
             once I have the infrastructure to generate strong written content from it." Guest appearances
             first, hosting second.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </section>
 
         {/* Section 6 */}
@@ -585,7 +585,7 @@ export default function Page() {
             When resources are limited and you have to choose between starting a podcast or maintaining
             a blog, the answer depends on your capacity to execute. But in terms of pure AI visibility
             potential per unit of effort, the calculus is clear.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           {/* Dollar Compare - time investment */}
           <div className="ae-dollar-compare my-8">
@@ -612,7 +612,7 @@ export default function Page() {
             than a podcast without a written content layer. However, a podcast with full transcripts,
             show notes, and guest appearances can exceed a blog in authority signal generation because
             of the third-party citation effect.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <p className="text-gray-300 leading-relaxed">
             The best strategy is not either-or. Your blog and your podcast should feed each other. An
@@ -625,7 +625,7 @@ export default function Page() {
               whether having a blog actually helps AI recommend your business
             </Link>
             .
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </section>
 
         {/* Section 7 */}
@@ -638,7 +638,7 @@ export default function Page() {
             between "having a podcast" and "showing up in AI results." The correlation is between
             "generating structured written content and third-party citations through podcast activity"
             and "showing up in AI results."
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">The Real Question to Ask</div>
@@ -648,7 +648,7 @@ export default function Page() {
               services, location, and expertise? Am I willing to actively seek guest appearances on other
               shows? If yes to all three, podcasting is a legitimate AI visibility investment. If no,
               your time is better spent strengthening the foundations first.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5 mb-5">
@@ -656,7 +656,7 @@ export default function Page() {
             each episode as a content production event, not just a recording session. The episode is the
             raw material. The transcript, show notes, guest shares, and any resulting press coverage are
             the finished products that actually build AI authority.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
         </section>
 
         {/* Cheat Sheet */}
@@ -701,7 +701,7 @@ export default function Page() {
             not. The audio is for your audience. The written content ecosystem around the audio is
             for the AI. Build both, and the podcast becomes one of the most powerful tools in your
             AI authority strategy.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
         </div>
 
         {/* CTA Block */}
@@ -713,7 +713,7 @@ export default function Page() {
             Our free Blind Spot Report shows you exactly which signals AI platforms are reading from
             your business and which signals are missing. Stop guessing and start building the right
             foundation.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -750,7 +750,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
           </div>

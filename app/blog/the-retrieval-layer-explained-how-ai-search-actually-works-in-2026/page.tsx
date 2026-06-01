@@ -223,7 +223,7 @@ export default function Page() {
               discipline of AI citation optimization that replaced classical search engine optimization the
               moment AI answers began carrying inline attribution. Understanding the retrieval layer is the
               prerequisite to understanding why some pages are cited and most are not.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p className="leading-[1.75] mb-[18px]">
               The Answer Engine has produced 1.14 million-plus monthly impressions across all four major
@@ -237,16 +237,16 @@ export default function Page() {
                 theanswerengine.ai/blindspot
               </a>
               , which scores the domain against the citation-leading competitor in the same category.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6">
-              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <p className="font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
                 The Chunk Atomicity Principle: the retrieval layer scores passages, not pages - a
                 1,500-word article is not one document to the retriever, it is six to ten independent
                 chunks competing separately for citation, and each chunk must be self-contained to win
                 (GEO-SFE, 2026).
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
@@ -263,7 +263,7 @@ export default function Page() {
               generation layer. Operators ready to see the retrieval layer mapped to a single domain can
               text{' '}
               <a href="sms:+12134442229" className="text-[#F27D24]">(213) 444-2229</a> with the URL.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               Why it is called a layer, not an engine
@@ -284,7 +284,7 @@ export default function Page() {
                 support@theanswerengine.ai
               </a>{' '}
               for the layer-versus-engine architecture diagram.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               Where the retrieval layer sits inside the four major LLMs
@@ -306,7 +306,7 @@ export default function Page() {
                 calendly.com/theanswerengine/discovery
               </a>
               .
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </section>
 
           {/* Section 2: The Three Mechanical Stages */}
@@ -325,16 +325,16 @@ export default function Page() {
                 theanswerengine.ai/blindspot
               </a>{' '}
               reports failure at each stage.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6">
-              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p className="font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
                 The Stage-Specific Loss Principle: a page can pass the chunking stage cleanly but fail
                 the embedding stage, or pass embedding and fail scoring - citation loss is rarely a
                 whole-page problem, it is a stage-specific problem, and the rewrite must target the
                 failing stage (Answer Engine Field Audit, 2026).
-              </p>
+               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
@@ -354,7 +354,7 @@ export default function Page() {
               to 180 tokens, no orphan paragraphs, no boundary ambiguity. Text{' '}
               <a href="sms:+12134442229" className="text-[#F27D24]">(213) 444-2229</a> with a URL to
               see how the page chunks inside a live retriever.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               Stage two - embedding chunks as vectors
@@ -375,7 +375,7 @@ export default function Page() {
                 support@theanswerengine.ai
               </a>{' '}
               for the embedding cluster analysis on two competitor URLs.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               Stage three - scoring and selection
@@ -393,7 +393,7 @@ export default function Page() {
                 support@theanswerengine.ai
               </a>{' '}
               with the URL and three target queries.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </section>
 
           {/* Section 3: What the Retrieval Layer Rewards */}
@@ -411,16 +411,16 @@ export default function Page() {
                 theanswerengine.ai/blindspot
               </a>{' '}
               scores a domain on all four against the citation-leading competitor in the same category.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6">
-              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <p className="font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
                 The Position Tax: opening tokens of a chunk carry roughly 2.3 times the attention
                 weight of mid-chunk tokens - burying a definition past the first sentence costs
                 measurable citation share, even when the rest of the chunk is structurally sound
                 (Zhang et al., 2026; GEO-SFE, 2026).
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
@@ -441,7 +441,7 @@ export default function Page() {
               states the mechanism. Text{' '}
               <a href="sms:+12134442229" className="text-[#F27D24]">(213) 444-2229</a> with three URLs
               for a same-day opener-position scan.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               Inline attribution density
@@ -462,7 +462,7 @@ export default function Page() {
                 support@theanswerengine.ai
               </a>{' '}
               for an attribution audit on two competitor URLs.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               Bounded chunk length
@@ -484,7 +484,7 @@ export default function Page() {
                 calendly.com/theanswerengine/discovery
               </a>{' '}
               to see SUBSTRATE applied to a live page.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </section>
 
           {/* Section 4: How the Retrieval Layer Changed in 2026 */}
@@ -504,17 +504,17 @@ export default function Page() {
               </a>{' '}
               is calibrated against the current retrieval layer, not the 2024 version that most agencies
               still optimize against.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6">
-              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <p className="font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
                 The Convergence Floor: the four major LLM retrieval layers have converged on the same
                 scoring architecture, which means a single structural rewrite improves citation odds
                 across ChatGPT, Claude, Gemini, and Perplexity AI simultaneously - the cost of writing
                 four optimization strategies has collapsed to the cost of writing one (Answer Engine
                 Field Audit, 2026).
-              </p>
+               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
@@ -534,7 +534,7 @@ export default function Page() {
               an inefficient allocation of effort. Text{' '}
               <a href="sms:+12134442229" className="text-[#F27D24]">(213) 444-2229</a> with a domain
               for a four-platform citation diagnostic.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               The shift to multi-source synthesis
@@ -556,7 +556,7 @@ export default function Page() {
                 support@theanswerengine.ai
               </a>{' '}
               for the slot-membership audit on a live category.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               The death of the keyword as an input unit
@@ -574,7 +574,7 @@ export default function Page() {
                 theanswerengine.ai/blindspot
               </a>{' '}
               to see the keyword-versus-semantic gap on a single domain.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </section>
 
           {/* Section 5: How to Be the Source the Retrieval Layer Picks */}
@@ -589,7 +589,7 @@ export default function Page() {
               measures the outcome through a single instrument (the Proof Ledger), and operates at the
               cadence the retrieval layer treats as category authority (16 articles per month). The
               discipline is not theoretical - it is operational, dated, and contractually guaranteed.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.04)] p-[18px_22px] my-8 text-sm text-[rgba(229,226,225,0.55)] leading-[1.65]">
               <strong className="text-[#e5e2e1] font-semibold">Method note.</strong> This analysis
@@ -627,13 +627,13 @@ export default function Page() {
             </div>
 
             <div className="border-l-4 border-[#F27D24] bg-[rgba(242,125,36,0.06)] p-5 my-6">
-              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS</p>
+              <p className="font-mono text-[10px] tracking-[0.25em] uppercase text-[rgba(229,226,225,0.55)] mb-2.5">NAMED THESIS <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <p className="font-semibold text-[#F27D24] text-[17px] leading-[1.55]">
                 The Proof Ledger Standard: the only durable measurement instrument for retrieval-layer
                 performance is a dated, public record of citations earned across ChatGPT, Claude,
                 Gemini, and Perplexity AI - rank reports measure the wrong surface and impression
                 dashboards measure the wrong unit (Answer Engine Method, 2026).
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             <p className="leading-[1.75] mb-[18px]">
@@ -649,7 +649,7 @@ export default function Page() {
                 Check if your category is still open
               </a>{' '}
               before another operator in your vertical claims the seat.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               The SUBSTRATE rule set
@@ -672,7 +672,7 @@ export default function Page() {
                 calendly.com/theanswerengine/discovery
               </a>{' '}
               to see SUBSTRATE applied to a live page.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3 className="font-headline font-bold text-xl tracking-wide uppercase mt-10 mb-4 leading-[1.2]">
               The Proof Ledger measurement

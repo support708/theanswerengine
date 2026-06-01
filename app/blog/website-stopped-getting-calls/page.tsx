@@ -246,19 +246,19 @@ export default function BlogPost() {
             <span className="ae-section-label">The Problem</span>
             <h2>Your Website Traffic Looks Fine. So Why Did the Phone Stop Ringing?</h2>
 
-            <p>Your website traffic is steady. Maybe it is even up from last year. But the phone stopped ringing. Leads dried up. The inbox is quiet.</p>
+            <p>Your website traffic is steady. Maybe it is even up from last year. But the phone stopped ringing. Leads dried up. The inbox is quiet. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>You are not imagining it. Something fundamental changed in how people find and choose local businesses, and most business owners have no idea it happened.</p>
+            <p>You are not imagining it. Something fundamental changed in how people find and choose local businesses, and most business owners have no idea it happened. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>The culprit: <strong>AI-powered search</strong>. Nearly 60% of Google searches now end without anyone clicking a website. According to <a href="https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web/" target="_blank" rel="noopener noreferrer">SparkToro and Datos research (2024)</a>, people get their answers directly from AI and call whoever AI recommends. If AI is not recommending your business, those callers never see your website.</p>
+            <p>The culprit: <strong>AI-powered search</strong>. Nearly 60% of Google searches now end without anyone clicking a website. According to <a href="https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web/" target="_blank" rel="noopener noreferrer">SparkToro and Datos research (2024)</a>, people get their answers directly from AI and call whoever AI recommends. If AI is not recommending your business, those callers never see your website. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-quote not-prose">
-              <p>Your website did not break. The way people find businesses did. AI now answers questions directly, and the businesses it recommends get the calls.</p>
+              <p>Your website did not break. The way people find businesses did. AI now answers questions directly, and the businesses it recommends get the calls. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI is recommending your business or sending customers to competitors.</p>
+              <p>Find out if AI is recommending your business or sending customers to competitors. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -266,11 +266,11 @@ export default function BlogPost() {
             <span className="ae-section-label">The Shift</span>
             <h2>What Changed: The Zero-Click Revolution</h2>
 
-            <p>Here is the core of the problem: <strong>58.5% of U.S. searches and 59.7% of EU searches end without anyone visiting any website.</strong> People get their answer from AI and act on it immediately.</p>
+            <p>Here is the core of the problem: <strong>58.5% of U.S. searches and 59.7% of EU searches end without anyone visiting any website.</strong> People get their answer from AI and act on it immediately. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-            <p>When someone asks &quot;Who is the best plumber in Phoenix?&quot; or &quot;Find me a home inspector near me,&quot; they are not scrolling through 10 blue links. They are asking ChatGPT. They are using Google&apos;s AI Overview. They are talking to Siri, Alexa, or Claude.</p>
+            <p>When someone asks &quot;Who is the best plumber in Phoenix?&quot; or &quot;Find me a home inspector near me,&quot; they are not scrolling through 10 blue links. They are asking ChatGPT. They are using Google&apos;s AI Overview. They are talking to Siri, Alexa, or Claude. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
-            <p>Those AI systems give one answer. Maybe two. <strong>If you are not that answer, you do not exist to those searchers.</strong></p>
+            <p>Those AI systems give one answer. Maybe two. <strong>If you are not that answer, you do not exist to those searchers.</strong> Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* ── BAR CHART: ZERO-CLICK BREAKDOWN ── */}
             <div className="ae-bar-group not-prose">
@@ -291,17 +291,17 @@ export default function BlogPost() {
               </div>
             </div>
 
-            <p>The high-intent buyers, the people ready to hire someone today, are getting their answer from AI before they ever reach your website. You are left with the tire-kickers and price-shoppers.</p>
+            <p>The high-intent buyers, the people ready to hire someone today, are getting their answer from AI before they ever reach your website. You are left with the tire-kickers and price-shoppers. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CALLOUT: COMPETITOR INSIGHT ── */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Why Your Competitor Seems Busier Than Ever</div>
-              <p>Meanwhile, that competitor (you know the one) seems busier than ever. Same market. Same services. But their phone keeps ringing. They are not running better ads. They do not have a bigger budget. <strong>They are the business AI recommends.</strong> That single difference is worth thousands in monthly revenue.</p>
+              <p>Meanwhile, that competitor (you know the one) seems busier than ever. Same market. Same services. But their phone keeps ringing. They are not running better ads. They do not have a bigger budget. <strong>They are the business AI recommends.</strong> That single difference is worth thousands in monthly revenue. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Curious what AI actually says about your business? Ask us. We will check for free.</p>
+              <p>Curious what AI actually says about your business? Ask us. We will check for free. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -309,7 +309,7 @@ export default function BlogPost() {
             <span className="ae-section-label">Before &amp; After</span>
             <h2>The Old Way vs. The New Way Customers Find Businesses</h2>
 
-            <p>The customer journey has fundamentally changed. Here is a side-by-side look at what happened.</p>
+            <p>The customer journey has fundamentally changed. Here is a side-by-side look at what happened. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="ae-comparison-table not-prose">
               <table>
@@ -344,11 +344,11 @@ export default function BlogPost() {
               </table>
             </div>
 
-            <p>This is not a gradual change. It is a structural shift. The pipeline that once connected your website to phone calls has been rerouted through AI, and most businesses have not adapted.</p>
+            <p>This is not a gradual change. It is a structural shift. The pipeline that once connected your website to phone calls has been rerouted through AI, and most businesses have not adapted. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── CTA 3 (tel) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to talk about what this means for your specific business? Call us directly.</p>
+              <p>Want to talk about what this means for your specific business? Call us directly. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -356,27 +356,27 @@ export default function BlogPost() {
             <span className="ae-section-label">Root Causes</span>
             <h2>The Three Reasons AI Is Not Recommending You</h2>
 
-            <p>When AI platforms decide which business to recommend, they are not looking at what you think. Here are the three most common reasons businesses get skipped.</p>
+            <p>When AI platforms decide which business to recommend, they are not looking at what you think. Here are the three most common reasons businesses get skipped. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── TIMELINE: 3 REASONS ── */}
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Reason 1: You Are Invisible to the Right Platforms</strong>
-                <p>ChatGPT does not read your Google Business Profile. It uses Bing&apos;s web index. Most business owners have never claimed their Bing Places listing. They have never thought about whether their business shows up in the data sources AI actually uses. If AI cannot find clear, consistent information about your business, it will not recommend you. Period.</p>
+                <p>ChatGPT does not read your Google Business Profile. It uses Bing&apos;s web index. Most business owners have never claimed their Bing Places listing. They have never thought about whether their business shows up in the data sources AI actually uses. If AI cannot find clear, consistent information about your business, it will not recommend you. Period. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Reason 2: Your Website Answers the Wrong Questions</strong>
-                <p>Traditional SEO taught you to stuff keywords into pages. AI does not work that way. AI is looking for content that directly answers the questions people actually ask: &quot;How do I know if my water heater needs replacing?&quot; or &quot;What should I look for in a home inspector?&quot; If your website reads like a keyword-stuffed brochure, AI will skip right past you.</p>
+                <p>Traditional SEO taught you to stuff keywords into pages. AI does not work that way. AI is looking for content that directly answers the questions people actually ask: &quot;How do I know if my water heater needs replacing?&quot; or &quot;What should I look for in a home inspector?&quot; If your website reads like a keyword-stuffed brochure, AI will skip right past you. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Reason 3: You Have No Authority Signals AI Recognizes</strong>
-                <p>AI platforms are trying to figure out one thing: Who is the trusted expert in this category? They look for consistent business information across the web, content that demonstrates genuine expertise, reviews on platforms they can access (ChatGPT cannot see Google reviews), and clear signals that a real expert created your content.</p>
+                <p>AI platforms are trying to figure out one thing: Who is the trusted expert in this category? They look for consistent business information across the web, content that demonstrates genuine expertise, reviews on platforms they can access (ChatGPT cannot see Google reviews), and clear signals that a real expert created your content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
             </div>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which of these three is hurting you? Our free report breaks it down for your business.</p>
+              <p>Not sure which of these three is hurting you? Our free report breaks it down for your business. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -384,7 +384,7 @@ export default function BlogPost() {
             <span className="ae-section-label">The Signals</span>
             <h2>What AI Actually Looks For (The 4 Authority Signals)</h2>
 
-            <p>Here is what makes AI recommend one business over another. These are the four categories every AI platform evaluates.</p>
+            <p>Here is what makes AI recommend one business over another. These are the four categories every AI platform evaluates. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-decision-matrix not-prose">
               <table>
@@ -425,13 +425,13 @@ export default function BlogPost() {
               </table>
             </div>
 
-            <p>Generic websites with stock photos and copy that could describe any business in your industry? AI ignores them. You need to be specific, consistent, and present across the platforms AI actually reads.</p>
+            <p>Generic websites with stock photos and copy that could describe any business in your industry? AI ignores them. You need to be specific, consistent, and present across the platforms AI actually reads. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* ── STATS GRID: RESULTS ── */}
             <span className="ae-section-label">Real Results</span>
             <h2>What Happens When You Get This Right</h2>
 
-            <p>One of our clients, a real estate agent in Los Angeles, was invisible to AI 18 months ago. After implementing a hub-and-spoke content strategy optimized for AI visibility, here is what happened.</p>
+            <p>One of our clients, a real estate agent in Los Angeles, was invisible to AI 18 months ago. After implementing a hub-and-spoke content strategy optimized for AI visibility, here is what happened. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-stats-grid not-prose">
               <div className="ae-stat-card">
@@ -456,11 +456,11 @@ export default function BlogPost() {
               </div>
             </div>
 
-            <p><strong>This is not theory. It is what happens when you become the business AI recommends.</strong> Their top-performing content cluster drives 3,800+ clicks from a single hub article, and a second cluster drives another 3,700+ clicks.</p>
+            <p><strong>This is not theory. It is what happens when you become the business AI recommends.</strong> Their top-performing content cluster drives 3,800+ clicks from a single hub article, and a second cluster drives another 3,700+ clicks. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to see results like these for your business? Start with a free visibility check.</p>
+              <p>Ready to see results like these for your business? Start with a free visibility check. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -468,7 +468,7 @@ export default function BlogPost() {
             <span className="ae-section-label">Action Plan</span>
             <h2>What Actually Needs to Change</h2>
 
-            <p>This is not about working harder at the marketing you are already doing. It is about shifting your strategy entirely.</p>
+            <p>This is not about working harder at the marketing you are already doing. It is about shifting your strategy entirely. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-cons-box">
@@ -495,7 +495,7 @@ export default function BlogPost() {
 
             {/* ── CTA 6 (tel) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure where to start? We will walk you through it on a quick call. No pitch, just data.</p>
+              <p>Not sure where to start? We will walk you through it on a quick call. No pitch, just data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -512,7 +512,7 @@ export default function BlogPost() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want us to handle all four steps for you? See what we find first.</p>
+              <p>Want us to handle all four steps for you? See what we find first. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -520,7 +520,7 @@ export default function BlogPost() {
             <span className="ae-section-label">Platform Guide</span>
             <h2>Where AI Gets Its Information (And Where You Need to Be)</h2>
 
-            <p>Different AI platforms pull from different data sources. Here is where you need presence to cover all bases.</p>
+            <p>Different AI platforms pull from different data sources. Here is where you need presence to cover all bases. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="ae-comparison-table not-prose">
               <table>
@@ -561,11 +561,11 @@ export default function BlogPost() {
               </table>
             </div>
 
-            <p>The takeaway: being great on Google alone is no longer enough. You need comprehensive visibility across every data source these AI platforms use.</p>
+            <p>The takeaway: being great on Google alone is no longer enough. You need comprehensive visibility across every data source these AI platforms use. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* ── CTA 8 (email) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Have a question about which platforms matter for your industry? Send us an email.</p>
+              <p>Have a question about which platforms matter for your industry? Send us an email. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 

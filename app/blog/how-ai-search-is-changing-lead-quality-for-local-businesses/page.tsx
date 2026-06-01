@@ -315,7 +315,7 @@ export default function Page() {
               more qualified. The form submissions are from people who are ready to buy. What is
               going on? The answer is AI search, and it is fundamentally reshaping what a
               &quot;good lead&quot; looks like for local businesses in 2026.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The New Reality</div>
@@ -325,11 +325,11 @@ export default function Page() {
                 to your website while dramatically increasing the quality of each visitor who
                 does arrive. Understanding this shift is the difference between panic and
                 opportunity.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure how AI search is affecting your leads?</p>
+              <p>Not sure how AI search is affecting your leads? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -343,26 +343,26 @@ export default function Page() {
               number above all others: website traffic. More visitors meant more leads. More
               leads meant more revenue. The math was simple, and it worked. Until AI search
               arrived and rewrote the formula.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Today, <strong className="text-white">45% of consumers use AI tools like ChatGPT,
               Gemini, and Perplexity to find local services</strong>. One year ago, that number
               was just 6%. That is not gradual adoption. That is a tidal wave. And it changes
               everything about how people discover and choose local businesses.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               When someone uses traditional Google search, they get a page full of links. They
               click through several, browse around, compare options, and maybe contact one or
               two businesses. Most of those clicks are exploratory. The person is still in
               research mode.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               When someone asks an AI tool for a recommendation, the experience is completely
               different. The AI does the research, compares the options, and presents a curated
               answer. By the time that person clicks through to your website or calls your
               number, the AI has already pre-qualified them. They are not browsing. They are
               deciding.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* Bar Chart: Consumer AI Adoption */}
             <div className="not-prose ae-bar-group">
@@ -403,7 +403,7 @@ export default function Page() {
                 like yours, the question is not whether AI search affects your business. The
                 question is whether the AI is recommending you or your competitor. A year
                 ago, this was a niche concern. Today, it is a core business issue.
-              </p>
+               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* Section 2 */}
@@ -417,7 +417,7 @@ export default function Page() {
               casual browsers, the tire-kickers, and the comparison shoppers from your
               traffic. What remains are the people who have already decided they need what
               you offer and are ready to take the next step.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Think about it from the customer&apos;s perspective. When someone asks ChatGPT,
               &quot;Who is the best family dentist in Pasadena that is good with anxious
@@ -426,14 +426,14 @@ export default function Page() {
               two options. The person who clicks through to your site after that AI
               recommendation is not casually browsing. They were specifically told you are
               the right fit for their exact need.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This is why <strong className="text-white">visitors from AI search are far
               more valuable from a conversion perspective</strong>. They arrive with context.
               They already know what you do, roughly what you charge, and why you might be
               the right choice. Your website does not have to convince them from scratch. It
               just has to confirm the AI&apos;s recommendation and make it easy to take action.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="not-prose ae-pros-cons">
               <div className="ae-pros-box">
@@ -459,7 +459,7 @@ export default function Page() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to see how your business appears in AI recommendations?</p>
+              <p>Want to see how your business appears in AI recommendations? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -474,14 +474,14 @@ export default function Page() {
               from AI referrals and compare it to the hundreds they get from traditional
               Google search. It seems insignificant. But the math tells a completely
               different story.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Traditional search traffic for a local business typically converts at 2-3%.
               That means for every 100 visitors, two or three become leads. AI-referred
               traffic, because it arrives pre-qualified and with high intent, converts at
               dramatically higher rates. <strong className="text-white">Even low AI traffic
               volume can noticeably impact business due to lead quality.</strong>
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Consider a local HVAC company. They might get 500 traditional search visitors
               per month, resulting in 10-15 leads. Now add just 20 AI-referred visitors per
@@ -490,7 +490,7 @@ export default function Page() {
               high-quality leads from what appears to be a tiny amount of traffic. For a
               business where each job averages $3,000-$5,000, those extra leads represent
               $18,000-$40,000 in monthly revenue.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose ae-callout ae-callout-success">
               <div className="ae-callout-title">The Conversion Math</div>
@@ -499,7 +499,7 @@ export default function Page() {
                 20 AI-referred visitors at 35% conversion = 7 leads per month.<br />
                 The AI traffic is 4% of total volume but produces 35% as many leads.
                 That is the quality multiplier at work.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -508,10 +508,10 @@ export default function Page() {
               search. The total pie is smaller, but each slice is worth significantly more.
               The businesses tracking only total traffic are missing the real story happening
               in their conversion data.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Curious about your AI visibility? We will show you exactly where you stand.</p>
+              <p>Curious about your AI visibility? We will show you exactly where you stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Run Your Free Audit</Link>
             </div>
 
@@ -524,7 +524,7 @@ export default function Page() {
               Understanding the AI search landscape helps explain why lead quality is
               changing so dramatically. There are three major sources of AI-driven leads
               for local businesses right now, and each one works differently.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               1. Google AI Overviews
@@ -537,7 +537,7 @@ export default function Page() {
               answers the query directly, often citing specific businesses. Users who click
               through after reading this summary are much more informed and further along
               in their decision than users who simply click the first blue link.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               2. ChatGPT and AI Chatbots
@@ -550,7 +550,7 @@ export default function Page() {
               <strong className="text-white"> Business and service websites account for 50%
               of ChatGPT citations</strong>, making it a significant source of high-intent
               referral traffic for local businesses.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               3. AI-Powered Search Alternatives
@@ -562,7 +562,7 @@ export default function Page() {
               the customer and your business. When they recommend you, the person who clicks
               through is pre-qualified. When they do not recommend you, that potential
               customer never even knows you exist.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Bar Chart: AI Platform Share */}
             <div className="not-prose ae-bar-group">
@@ -604,7 +604,7 @@ export default function Page() {
                 to find local services are typically the most motivated, most informed, and
                 most ready-to-buy customers in your market. Missing them means missing
                 your best leads.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* Section 5 */}
@@ -617,7 +617,7 @@ export default function Page() {
               have not fully grasped yet. In traditional search, your goal was to rank high
               on a list. In AI search, your goal is to <em>be the answer</em>. And when you
               are the answer, everything about the customer interaction changes.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               <strong className="text-white">When your business is the &quot;answer,&quot;
               people who find you are ready to book.</strong> They do not need to see your
@@ -625,14 +625,14 @@ export default function Page() {
               They do not need to read fifteen reviews because the AI already synthesized
               the review data for them. They do not need to compare you to five competitors
               because the AI already did the comparison.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This is a complete inversion of the traditional marketing funnel. Instead of
               casting a wide net and gradually narrowing your audience through awareness,
               consideration, and decision stages, AI search delivers people who have already
               passed through all three stages by the time they contact you. Your website
               and your sales process need to be built for this reality.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">The Funnel Inversion</div>
@@ -642,11 +642,11 @@ export default function Page() {
                 The AI pre-filters your audience before they ever reach your website. Your
                 job shifts from attracting and filtering traffic to confirming and converting
                 pre-qualified visitors.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Is the AI sending your best customers to a competitor instead?</p>
+              <p>Is the AI sending your best customers to a competitor instead? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <Link href="/blindspot">Find Out With a Free Report</Link>
             </div>
 
@@ -660,13 +660,13 @@ export default function Page() {
               <strong className="text-white"> In 2026, SEO becomes two jobs: driving clicks
               from humans AND supplying inputs for AI agents.</strong> If your marketing
               strategy only addresses one of these, you are leaving money on the table.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The first job is the one you already know. Traditional SEO: optimize your
               Google Business Profile, build backlinks, manage reviews, create content that
               ranks for relevant keywords. This still matters. Traditional search is not
               dead. But it is no longer the whole game.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The second job is newer and less familiar, but increasingly important. You
               need to structure your online presence so that AI systems can easily

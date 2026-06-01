@@ -376,7 +376,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               answer. Sometimes it names specific firms. Sometimes it lists
               criteria and directories. Either way, accounting firms that are not
               present in that answer are not in the running.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               Two-thirds of Americans already use AI for financial questions. Among
@@ -385,7 +385,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               They are also the clients who will find their next accountant through
               a combination of AI answers and directory searches, not Yellow Pages
               or word of mouth alone.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout-info not-prose">
               <strong>The Liability Caveat That Creates the Opportunity</strong>
@@ -396,7 +396,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                 significant advantage: they are the ones AI has enough confidence
                 in to put its reputation behind. Building that confidence is what
                 this guide is about.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>
@@ -405,7 +405,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               in a single year. Clients are noticing. They expect their accountant
               to be digitally sophisticated, and that expectation starts with being
               findable through the tools those clients use to search.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               The good news for accounting firms: the competition for AI visibility
@@ -413,13 +413,13 @@ export default function HowAccountantsGetFoundOnAISearch() {
               and referral networks. The firms that build AI-readable signal
               profiles now will own the category in their markets before most
               competitors realize what happened.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* INLINE CTA 1 */}
             <div className="ae-cta-inline not-prose">
               <p className="text-sm text-gray-400 mb-3">
                 Not sure if AI recommends your accounting firm when clients search?
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -454,7 +454,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               profile, and the degree to which your credentials are publicly
               verifiable. Each of these layers contributes independently, but they
               compound when all are strong.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               For financial professionals specifically, AI applies a higher
@@ -465,7 +465,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               validation, verifiable credentials, and consistent business
               information across authoritative sources all carry more weight here
               than in lower-stakes categories.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* BAR GROUP */}
             <div className="ae-bar-group not-prose">
@@ -530,7 +530,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               mentions and treat them as corroboration. This is qualitatively
               different from building backlinks for SEO. It is building the kind
               of external evidence that AI uses to verify your authority.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout-warning not-prose">
               <strong>Google Ranking Is Not AI Visibility</strong>
@@ -541,7 +541,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                 only partially. A firm can rank on page one for &quot;CPA near me&quot;
                 and be nearly invisible to the AI that now sits above those
                 results.
-              </p>
+               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* SECTION 3: DIRECTORIES */}
@@ -556,7 +556,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               learned to trust these sources specifically because they require
               verification before listing, which means the data is more reliable
               than a self-submitted general business directory.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="not-prose my-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
@@ -569,7 +569,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                   businesses. A complete, verified ProAdvisor profile with
                   client reviews feeds directly into AI recommendations for
                   business accounting queries.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -581,7 +581,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                   signal. AI treats AICPA membership and directory presence as
                   a trust marker for accounting professionals, similar to bar
                   association listing for attorneys.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -593,7 +593,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                   services because it signals consumer-complaint monitoring.
                   AI platforms frequently surface BBB-accredited firms when
                   recommending accountants.
-                </p>
+                 Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -605,7 +605,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                   directory is heavily cited for wealth management and financial
                   planning queries. Fee-only designation reduces AI uncertainty
                   about conflict of interest.
-                </p>
+                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
@@ -616,7 +616,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               platforms. When a business owner asks &quot;find a Xero accountant near
               me,&quot; AI pulls from the Xero Advisor directory. If your firm is not
               listed there, you are invisible to that query category entirely.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-callout-orange not-prose">
               <strong>Software-Specific Directories Are Overlooked Goldmines</strong>
@@ -634,7 +634,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               <p className="text-sm text-gray-400 mb-3">
                 Most accounting firms are missing at least three of the key
                 directories AI uses to verify their legitimacy.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -670,7 +670,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               rebrand, move offices, add partners to the name, or change phone
               numbers over the years, leaving a trail of stale listings that AI
               cannot reconcile.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p>
               When AI platforms check your firm across Google Business Profile,
@@ -680,7 +680,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               CPAs&quot; on AICPA, and &quot;Harrison Accounting Services LLC&quot; on Yelp is
               three different entities in the AI&apos;s view. None of them get cited
               confidently because the AI cannot verify they are the same firm.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-comparison-table not-prose">
               <table className="w-full text-sm">
@@ -739,7 +739,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                 how to fix wrong AI answers about your business
               </Link>{' '}
               covers the audit process in detail.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* SECTION 5: WEBSITE */}
             <span className="ae-section-label" id="website">
@@ -754,7 +754,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               to understand your personality and trust your judgment. AI crawlers
               want structured, specific information they can parse and cite with
               confidence.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>
               The single highest-leverage change most accounting firms can make
@@ -764,7 +764,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               specific to cite when a user asks about S-corp tax help. A page
               that mentions S-corps in passing alongside fifteen other services
               gives AI nothing it can confidently surface.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-callout-success not-prose">
               <strong>What a High-Signal Accounting Service Page Includes</strong>
@@ -787,7 +787,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               your pricing page or tax preparation service page becomes a
               citation candidate because it contains the direct answer the AI
               needs.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-takeaway not-prose">
               <strong>Key Takeaway:</strong> Your website should answer the
@@ -809,7 +809,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               misfiled taxes. As a result, they look for publicly verifiable
               signals that your firm is legitimate, credentialed, and
               professionally accountable before recommending you.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros">
@@ -846,7 +846,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               credentials against state licensing databases. AI that can verify
               a CPA license is far more likely to recommend that firm than one
               where the credentials are implied but not stated.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <div className="ae-quote not-prose">
               <blockquote>
@@ -863,7 +863,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
             <div className="ae-cta-inline not-prose">
               <p className="text-sm text-gray-400 mb-3">
                 Want to know what AI currently knows about your accounting firm?
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -896,7 +896,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               are not making dramatic errors. They are making a cluster of smaller
               ones that compound into a signal profile too weak to trigger
               confident recommendations. Here are the five most common.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* TIMELINE */}
             <div className="ae-timeline not-prose">
@@ -983,7 +983,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               marketing. These are not competing strategies, but they require
               different execution. Resources spent on one do not automatically
               build the other.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="ae-comparison-table not-prose">
               <table className="w-full text-sm">
@@ -1050,7 +1050,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               information help both. The differences lie primarily in the
               directory strategy and credential visibility, which SEO agencies
               rarely address.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p>
               Our broader guide on the{' '}
@@ -1058,7 +1058,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                 difference between AEO and SEO for local businesses
               </Link>{' '}
               covers the strategic trade-offs in more detail.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* INLINE CTA 4 */}
             <div className="ae-cta-inline not-prose">

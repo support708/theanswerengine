@@ -327,23 +327,23 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <span className="ae-section-label" id="gbp-is-not-just-for-google">The Shift</span>
             <h2>Your GBP Is Not Just for Google Anymore</h2>
 
-            <p>For over a decade, business owners optimized their Google Business Profile for one reason: to show up in Google Maps and the local pack. That playbook worked. Fill out your hours, pick the right categories, collect reviews, and wait for the phone to ring.</p>
+            <p>For over a decade, business owners optimized their Google Business Profile for one reason: to show up in Google Maps and the local pack. That playbook worked. Fill out your hours, pick the right categories, collect reviews, and wait for the phone to ring. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>That playbook is now incomplete.</p>
 
-            <p>In 2026, your Google Business Profile is being read by far more than Google Search. ChatGPT pulls data from Google Business Profiles for location-based queries. Perplexity cross-references your GBP when generating local recommendations. Google AI Overviews synthesize your profile data into conversational answers. Even Claude and Siri draw on GBP data indirectly through the web content that references it.</p>
+            <p>In 2026, your Google Business Profile is being read by far more than Google Search. ChatGPT pulls data from Google Business Profiles for location-based queries. Perplexity cross-references your GBP when generating local recommendations. Google AI Overviews synthesize your profile data into conversational answers. Even Claude and Siri draw on GBP data indirectly through the web content that references it. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
               <p>Your Google Business Profile has become the central node in a web of AI verification. Every platform checks it. Not every business realizes they are being checked.</p>
             </div>
 
-            <p>The question is no longer &quot;Is my GBP filled out?&quot; The question is: &quot;Is my GBP optimized for how AI platforms read, verify, and trust local business data?&quot;</p>
+            <p>The question is no longer &quot;Is my GBP filled out?&quot; The question is: &quot;Is my GBP optimized for how AI platforms read, verify, and trust local business data?&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>Those are fundamentally different problems. And they require fundamentally different approaches.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure how AI platforms see your Google Business Profile right now?</p>
+              <p>Not sure how AI platforms see your Google Business Profile right now? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
             </div>
 
@@ -353,20 +353,20 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
             <p>Here is a stat that should change how you think about your GBP: over 70% of local ranking signals in AI search come from cross-platform entity verification. That means AI platforms are not just reading your Google Business Profile in isolation. They are comparing it against every other place your business appears online.</p>
 
-            <p>Your GBP says you are open until 8 PM. Your website says 7 PM. Yelp says 9 PM. To a human, that is a minor inconsistency. To an AI, it is a trust problem. The AI does not know which one is correct, so its confidence in recommending you drops.</p>
+            <p>Your GBP says you are open until 8 PM. Your website says 7 PM. Yelp says 9 PM. To a human, that is a minor inconsistency. To an AI, it is a trust problem. The AI does not know which one is correct, so its confidence in recommending you drops. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Consistency Penalty</div>
               <p>AI models scan Reddit threads, Quora posts, forums, and social platforms to verify the information on your GBP. If your name, address, phone number, or service descriptions conflict across sources, the AI is less likely to cite you. It is not a manual penalty. It is a confidence calculation, and conflicting data lowers confidence every time.</p>
             </div>
 
-            <p>This is why businesses with perfectly optimized GBP profiles still get overlooked by AI. Their profile might be excellent in isolation, but the surrounding data ecosystem tells a different story. AI platforms do not trust any single source. They trust consensus across sources.</p>
+            <p>This is why businesses with perfectly optimized GBP profiles still get overlooked by AI. Their profile might be excellent in isolation, but the surrounding data ecosystem tells a different story. AI platforms do not trust any single source. They trust consensus across sources. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>The businesses that dominate AI recommendations are the ones where every listing, directory, social profile, and web mention tells the exact same story. Their GBP is not a standalone asset. It is the anchor of a consistent digital identity.</p>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-block not-prose">
-              <p>We audit your GBP alongside 50+ data sources to find exactly where AI trust breaks down.</p>
+              <p>We audit your GBP alongside 50+ data sources to find exactly where AI trust breaks down. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <Link href="/blindspot">See Your Full Consistency Report &rarr;</Link>
             </div>
 
@@ -376,20 +376,20 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
             <p>Google Posts are one of the most underused features on Google Business Profiles. Most businesses either ignore them entirely or post sporadically with generic promotions. That is a missed opportunity, because Google Posts are a direct GEO signal.</p>
 
-            <p>What does that mean in practice? Businesses with recent, relevant posts on their GBP are more likely to be cited in AI Overviews. The AI treats post activity as a recency signal, a proxy for whether the business is active, current, and engaged with its market.</p>
+            <p>What does that mean in practice? Businesses with recent, relevant posts on their GBP are more likely to be cited in AI Overviews. The AI treats post activity as a recency signal, a proxy for whether the business is active, current, and engaged with its market. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p>Think about it from the AI platform&apos;s perspective. It needs to recommend a business to a user. It has two options. One has not posted anything in six months. The other posted a detailed update about a relevant service three days ago. Which one does the AI feel more confident recommending?</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Why Posts Matter More Than You Think</div>
-              <p>Google Posts create fresh, indexable content directly attached to your business entity. AI platforms that crawl Google&apos;s ecosystem pick up this content and use it as a signal of topical authority and operational activity. A dormant profile signals a dormant business, even if that is not true.</p>
+              <p>Google Posts create fresh, indexable content directly attached to your business entity. AI platforms that crawl Google&apos;s ecosystem pick up this content and use it as a signal of topical authority and operational activity. A dormant profile signals a dormant business, even if that is not true. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>The specifics of what to post, how often, and what format drives the strongest AI signals is where the real value lies. The general principle is clear: if you are not posting to your GBP regularly, you are leaving a confirmed AI signal on the table.</p>
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know which GBP signals you are missing?</p>
+              <p>Want to know which GBP signals you are missing? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a free profile review &rarr;</a>
             </div>
 
@@ -399,13 +399,13 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
             <p>You already know Google Reviews matter for traditional search. What you may not know is that reviews directly influence AI citation probability across five distinct dimensions.</p>
 
-            <p>AI platforms evaluate your reviews on quantity, recency, owner response rate, average star rating, and the actual content of the reviews. This is not a single-variable calculation. A business with 500 reviews but a 3.2-star average may lose to a business with 80 reviews and a 4.9-star average. Conversely, a perfect 5.0 with only 12 reviews does not carry the same weight as a 4.7 with 300.</p>
+            <p>AI platforms evaluate your reviews on quantity, recency, owner response rate, average star rating, and the actual content of the reviews. This is not a single-variable calculation. A business with 500 reviews but a 3.2-star average may lose to a business with 80 reviews and a 4.9-star average. Conversely, a perfect 5.0 with only 12 reviews does not carry the same weight as a 4.7 with 300. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-takeaway not-prose">
               <p><strong>Key Insight:</strong> AI platforms read the text of your reviews, not just the star rating. Reviews that mention specific services, describe outcomes, and reference expertise give the AI more semantic data to work with when deciding whether to cite your business.</p>
             </div>
 
-            <p>The response rate dimension is particularly interesting. When a business owner responds to reviews consistently, it creates additional content that AI platforms can parse. It also signals active engagement, which functions as another proxy for business reliability.</p>
+            <p>The response rate dimension is particularly interesting. When a business owner responds to reviews consistently, it creates additional content that AI platforms can parse. It also signals active engagement, which functions as another proxy for business reliability. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>Most businesses focus exclusively on star ratings. The businesses winning AI recommendations focus on all five dimensions simultaneously. The gap between those two approaches is the gap between showing up in AI answers and being invisible.</p>
 
@@ -458,7 +458,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
               </table>
             </div>
 
-            <p>Want to learn more about how reviews shape AI recommendations? Read our deep dive: <Link href="/blog/how-online-reviews-shape-ai-recommendations">How Online Reviews Shape AI Recommendations</Link>.</p>
+            <p>Want to learn more about how reviews shape AI recommendations? Read our deep dive: <Link href="/blog/how-online-reviews-shape-ai-recommendations">How Online Reviews Shape AI Recommendations</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
@@ -470,11 +470,11 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <span className="ae-section-label" id="photos-visual-search">Signal 4</span>
             <h2>Photos, Visual Search, and AI Understanding</h2>
 
-            <p>This one surprises most business owners. Google AI scans photo content to understand your expertise. Not just the metadata or alt tags. The actual visual content of your images.</p>
+            <p>This one surprises most business owners. Google AI scans photo content to understand your expertise. Not just the metadata or alt tags. The actual visual content of your images. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>If you run a dental practice and your GBP photos show a clean, modern office with professional equipment, AI visual analysis categorizes that differently than a profile with blurry phone photos of a parking lot. The AI is building a visual understanding of your business that complements the text data on your profile.</p>
 
-            <p>Photo quantity, quality, recency, and relevance all contribute to how AI platforms model your business entity. A GBP with 200 well-organized photos across categories (interior, exterior, team, services, products) creates a richer entity profile than one with 8 stock photos uploaded during the initial setup.</p>
+            <p>Photo quantity, quality, recency, and relevance all contribute to how AI platforms model your business entity. A GBP with 200 well-organized photos across categories (interior, exterior, team, services, products) creates a richer entity profile than one with 8 stock photos uploaded during the initial setup. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">Visual Search Is Growing Fast</div>
@@ -485,17 +485,17 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <span className="ae-section-label" id="third-party-verification">Signal 5</span>
             <h2>Why AI Checks Your GBP Against Reddit, Quora, and Beyond</h2>
 
-            <p>AI models do not take your GBP at face value. They verify it. And they verify it using sources you might not expect.</p>
+            <p>AI models do not take your GBP at face value. They verify it. And they verify it using sources you might not expect. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>Reddit threads, Quora answers, forum discussions, social media posts, news articles, and industry-specific platforms all feed into the verification process. When someone on Reddit mentions your business by name and describes a positive experience, that is a third-party validation signal. When a local forum thread recommends your services, that reinforces the data on your GBP.</p>
 
-            <p>The reverse is also true. If your GBP claims you specialize in a particular service but nobody online is talking about you in that context, the AI has less confidence in that claim. Entities that exist only in self-declared profiles are weaker than entities validated by independent sources.</p>
+            <p>The reverse is also true. If your GBP claims you specialize in a particular service but nobody online is talking about you in that context, the AI has less confidence in that claim. Entities that exist only in self-declared profiles are weaker than entities validated by independent sources. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-quote not-prose">
               <p>Your GBP tells AI who you say you are. Third-party sources tell AI who everyone else says you are. AI trusts the crowd more than the claim.</p>
             </div>
 
-            <p>This is where most GBP optimization guides fall short. They focus entirely on what you can control within the profile itself. But AI visibility requires a broader strategy that considers every touchpoint where your business is discussed, mentioned, or reviewed. For more on this topic, see our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>.</p>
+            <p>This is where most GBP optimization guides fall short. They focus entirely on what you can control within the profile itself. But AI visibility requires a broader strategy that considers every touchpoint where your business is discussed, mentioned, or reviewed. For more on this topic, see our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-block not-prose">
@@ -507,13 +507,13 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <span className="ae-section-label" id="what-most-businesses-get-wrong">The Mistake</span>
             <h2>What Most Businesses Get Wrong About GBP and AI</h2>
 
-            <p>The biggest mistake is treating your Google Business Profile as a Google-only asset. The second biggest mistake is optimizing it with traditional SEO tactics that have no impact on AI citation probability.</p>
+            <p>The biggest mistake is treating your Google Business Profile as a Google-only asset. The second biggest mistake is optimizing it with traditional SEO tactics that have no impact on AI citation probability. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Keyword-stuffing your business description? AI does not care about keyword density. It cares about entity clarity. Adding dozens of irrelevant categories? That confuses entity classification rather than expanding it. Buying fake reviews? AI platforms are getting better at detecting inauthentic review patterns, and the penalty is not a lower ranking. It is complete exclusion from recommendations.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <div className="ae-callout-title">Why Entity Verification Decides If AI Recommends You</div>
-              <p>AI platforms do not trust your GBP in isolation — they run a confidence calculation against every directory, social profile, and web mention that references your business. When those sources conflict, your confidence score drops and you get skipped. Entity verification is not a nice-to-have. It is the gatekeeper for every other AI signal you build.</p>
+              <p>AI platforms do not trust your GBP in isolation — they run a confidence calculation against every directory, social profile, and web mention that references your business. When those sources conflict, your confidence score drops and you get skipped. Entity verification is not a nice-to-have. It is the gatekeeper for every other AI signal you build. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── DECISION MATRIX ── */}
@@ -558,7 +558,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <span className="ae-section-label" id="gbp-vs-website-only">Comparison</span>
             <h2>GBP + Cross-Platform Strategy vs. Website-Only Approach</h2>
 
-            <p>Many businesses focus all their optimization effort on their website alone. Here is how that compares to a holistic approach that includes GBP and cross-platform entity management.</p>
+            <p>Many businesses focus all their optimization effort on their website alone. Here is how that compares to a holistic approach that includes GBP and cross-platform entity management. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros-box">
@@ -587,7 +587,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>See exactly how your GBP compares to competitors in AI visibility.</p>
+              <p>See exactly how your GBP compares to competitors in AI visibility. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -613,7 +613,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
             {/* ── CTA 9 (phone) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your situation first?</p>
+              <p>Prefer to talk through your situation first? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="tel:+12134442229">Call The Answer Engine: (213) 444-2229 &rarr;</a>
             </div>
 
@@ -624,7 +624,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
             {/* ── CTA 10 (email) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about AI visibility for your business?</p>
+              <p>Questions about AI visibility for your business? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -651,7 +651,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
           {/* ── 3-TIER CTA BLOCK ── */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your GBP Might Look Fine to You. AI Sees Something Different.</h3>
-            <p className="text-gray-400 mb-6">Find out exactly how AI platforms interpret your Google Business Profile with a free Blind Spot Report.</p>
+            <p className="text-gray-400 mb-6">Find out exactly how AI platforms interpret your Google Business Profile with a free Blind Spot Report. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -676,7 +676,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
           {/* ── CTA 12 (phone) ── */}
           <div className="ae-cta-inline not-prose my-8">
-            <p>Talk to a human about your AI visibility.</p>
+            <p>Talk to a human about your AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
           </div>
 
@@ -692,7 +692,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
               <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">Do Google Posts help with AI search visibility?</h3>
-                <p className="text-gray-300">Google Posts are a direct GEO (Generative Engine Optimization) signal. Businesses that publish recent, relevant posts on their Google Business Profile are more likely to be cited in AI Overviews and other AI-generated responses. Recency and topical relevance both matter.</p>
+                <p className="text-gray-300">Google Posts are a direct GEO (Generative Engine Optimization) signal. Businesses that publish recent, relevant posts on their Google Business Profile are more likely to be cited in AI Overviews and other AI-generated responses. Recency and topical relevance both matter. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
 
               <div className="border border-white/10 rounded-xl p-6">
@@ -702,7 +702,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
               <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">Can I optimize my GBP for AI without changing my website?</h3>
-                <p className="text-gray-300">You can improve several AI signals through GBP alone, including review management, Google Posts, photo uploads, and profile completeness. However, maximum AI visibility requires alignment between your GBP, website, directory listings, and third-party mentions. AI platforms cross-reference all of these sources.</p>
+                <p className="text-gray-300">You can improve several AI signals through GBP alone, including review management, Google Posts, photo uploads, and profile completeness. However, maximum AI visibility requires alignment between your GBP, website, directory listings, and third-party mentions. AI platforms cross-reference all of these sources. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
 
               <div className="border border-white/10 rounded-xl p-6">
@@ -712,7 +712,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
               <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">Do GBP photos actually matter for AI search?</h3>
-                <p className="text-gray-300">Yes. Google AI scans photo content to understand business expertise, service quality, and operational context. Photos are not just for human visitors. AI visual search capabilities mean your images contribute to how AI platforms categorize and evaluate your business.</p>
+                <p className="text-gray-300">Yes. Google AI scans photo content to understand business expertise, service quality, and operational context. Photos are not just for human visitors. AI visual search capabilities mean your images contribute to how AI platforms categorize and evaluate your business. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
           </section>
@@ -725,7 +725,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
           {/* ── CTA 14 ── */}
           <div className="ae-cta-block not-prose my-8">
-            <p>Your competitors might already be optimizing their GBP for AI. Find out where you stand.</p>
+            <p>Your competitors might already be optimizing their GBP for AI. Find out where you stand. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 

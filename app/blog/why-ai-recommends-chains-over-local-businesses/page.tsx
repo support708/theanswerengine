@@ -454,11 +454,11 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 The most important thing to understand about AI and business recommendations is this: AI models do not have a preference for big brands. They do not know or care whether a business has 3 locations or 3,000. What they care about is information quality.
-              </p>
+               Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 When a user asks ChatGPT, Perplexity, or Google AI to recommend a business, the model scans everything it has learned from the web and synthesizes an answer. The businesses that appear are the ones whose information was clearest, most consistent, and most widely referenced across authoritative sources. National chains tend to score well on all three of those dimensions, not because they are better businesses, but because they have more resources devoted to structured online presence.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
               <div
                 className="ae-callout ae-callout-info rounded-xl p-6 mb-8"
@@ -469,22 +469,22 @@ export default function Page() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <div>
-                    <p className="text-blue-300 font-semibold mb-1">Key Insight</p>
+                    <p className="text-blue-300 font-semibold mb-1">Key Insight <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       AI recommendation engines are not biased toward size, they are biased toward signal clarity. A local business with clear, structured, and widely distributed information can absolutely outperform a national chain in AI search results.
-                    </p>
+                     Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   </div>
                 </div>
               </div>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 This distinction matters enormously for local business owners. If the problem were that AI simply preferred chains by design, there would be nothing to do. But the actual problem, an information gap, is solvable. That is what this article breaks down.
-              </p>
+               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
               <blockquote className="ae-quote border-l-4 pl-6 py-2 my-8" style={{ borderColor: '#F27D24' }}>
                 <p className="text-xl text-gray-200 italic leading-relaxed">
                   "AI does not recommend the biggest business in your category. It recommends the one it understands best."
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
                 <footer className="text-sm text-gray-500 mt-3">Justin Borges</footer>
               </blockquote>
             </section>
@@ -500,33 +500,33 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 To understand the gap, you need to understand what national chains are doing that most local businesses are not. It is not magic, and it is not spending enormous budgets on AI-specific strategies. It is the cumulative effect of consistent, well-resourced execution across several dimensions that AI models happen to weight heavily.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Consistent NAP Data at Scale</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 NAP stands for name, address, and phone number. Chains have entire operations teams whose job is to ensure every location is listed correctly and consistently across every major directory, from Yelp and Google to niche platforms and local chamber of commerce sites. When AI models see a business referenced with identical information across 80 platforms, they build strong confidence in that entity. A local business with three different phone numbers across five listings creates confusion AI models quietly penalize by recommending alternatives.
-              </p>
+               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Massive Link Profiles Built Over Time</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 National brands accumulate mentions and links from news coverage, industry publications, partner sites, and press releases over years or decades. Every mention on an authoritative source is a trust signal that AI models absorb. A local business that has never been mentioned outside its own website and its Google Business Profile starts with near-zero signal, regardless of how good the actual service is.
-              </p>
+               Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Dedicated Content Teams</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Large brands employ content teams that produce structured, keyword-optimized, FAQ-rich content continuously. That content answers the exact questions AI models are asked, which means it gets pulled into AI-generated answers. Most local business websites have a home page, an about page, a services list, and maybe a contact form. They do not have content that directly answers the questions their potential customers are typing into AI assistants.
-              </p>
+               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Structured Data at Scale</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Large brands invest in schema markup: machine-readable tags that tell search engines and AI crawlers exactly what type of business this is, what services it offers, where it operates, what its hours are, and how customers have rated it. Local businesses almost universally skip this step, either because they do not know it exists or because they assume their website developer handled it. Most did not.
-              </p>
+               One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
               {/* Inline CTA */}
               <div className="ae-cta-inline my-10 p-6 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.18)' }}>
                 <p className="text-gray-300 mb-4 text-sm">
                   Not sure if your business is making these mistakes? Our free Blind Spot Report shows you exactly where AI cannot see you.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 <Link
                   href="/blindspot"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-white text-sm transition-all hover:opacity-90"
@@ -551,15 +551,15 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 There is a phenomenon in AI search that we call the AI visibility gap. It describes a business that is genuinely excellent, well-reviewed, and well-regarded in its community, yet completely invisible to AI recommendation engines. The gap is not about quality of service. It is about quality of online signals.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 Consider a family-owned HVAC company that has served the same metro area for eighteen years. They have 200 five-star reviews on Google. Their technicians are licensed and their prices are fair. But their website was built in 2019 and has not been updated since. Their information on Yelp, Angi, and HomeAdvisor is outdated or missing. Their service pages do not answer the specific questions people ask AI assistants. They have never added schema markup to their site.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 When a potential customer asks an AI assistant for the best HVAC company in their area, that company does not appear. A national franchise with mediocre reviews but complete, structured, and widely distributed information does. The customer calls the franchise. The local company loses a lead it never knew existed.
-              </p>
+               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
               <div
                 className="ae-callout ae-callout-warning rounded-xl p-6 mb-8"
@@ -570,17 +570,17 @@ export default function Page() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
                   <div>
-                    <p className="text-yellow-400 font-semibold mb-1">The Silent Lead Loss Problem</p>
+                    <p className="text-yellow-400 font-semibold mb-1">The Silent Lead Loss Problem <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Local businesses that are invisible to AI do not receive rejection notices. They simply never appear in the conversation. You cannot recover a lead you never knew about, which is why the AI visibility gap is so dangerous: it compounds silently, month after month.
-                    </p>
+                     <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                   </div>
                 </div>
               </div>
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 This is not a small problem. According to multiple studies on AI search behavior, a growing share of purchase-intent queries are now being handled entirely by AI assistants. Users ask for a recommendation, receive a short list of three to five names, and contact one of those businesses. If your business is not on that list, you do not get a second chance. The customer never visits your website. They never see your reviews. They never call you.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
               <p className="text-gray-300 leading-relaxed">
                 For more on how this dynamic plays out when two businesses are nearly identical in quality, see our analysis of{' '}
@@ -588,7 +588,7 @@ export default function Page() {
                   how AI picks between two similar businesses
                 </Link>
                 .
-              </p>
+               Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </section>
 
             {/* Section 4: Local Advantages */}
@@ -602,7 +602,7 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 Here is where the story gets interesting. National chains have structural advantages in information volume, but local businesses have something chains cannot buy: specificity, authenticity, and niche depth. These are precisely the qualities that AI models are increasingly rewarding, because they make for better, more useful answers.
-              </p>
+               Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
               <div className="ae-pros-cons grid md:grid-cols-2 gap-6 my-10">
                 <div
@@ -684,7 +684,7 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-6">
                 The insight here is that local businesses have genuine competitive advantages, they just have not been translated into the signals AI models look for. A local HVAC expert who knows every quirk of homes built in their area in the 1970s has deeper expertise than any national chain. But if that expertise only lives in their head and not on their website, AI cannot see it.
-              </p>
+               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
               <p className="text-gray-300 leading-relaxed">
                 This is also why the recommendation gaps are rarely about quality. In many cases, the local business is objectively better. It is why we talk about the AI visibility gap as a separate problem from the service quality gap. You can read more about how this dynamic shows up in{' '}
@@ -692,7 +692,7 @@ export default function Page() {
                   why AI sometimes recommends businesses with worse reviews
                 </Link>
                 .
-              </p>
+               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </section>
 
             {/* Section 5: Comparison Table */}
@@ -706,7 +706,7 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-8">
                 AI models evaluate businesses across a set of trust and relevance signals. Here is how a typical national chain compares to a typical unoptimized local business across the dimensions that matter most.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
               <div className="ae-comparison-table overflow-x-auto rounded-xl mb-10" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
                 <table className="w-full text-sm">
@@ -816,20 +816,20 @@ export default function Page() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <div>
-                    <p className="text-green-400 font-semibold mb-1">The Opportunity</p>
+                    <p className="text-green-400 font-semibold mb-1">The Opportunity Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Look at the "Optimized Local" column. An optimized local business matches or exceeds the chain on every dimension that AI models weight most heavily, and beats the chain on local specificity and niche expertise, the two dimensions chains can never truly own.
-                    </p>
+                     Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                   </div>
                 </div>
               </div>
 
               {/* Inline CTA */}
               <div className="ae-cta-inline my-10 p-6 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.18)' }}>
-                <p className="text-white font-semibold mb-2">Where does your business fall in this table?</p>
+                <p className="text-white font-semibold mb-2">Where does your business fall in this table? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 <p className="text-gray-400 text-sm mb-4">
                   Our Blind Spot Report audits your business across all eight of these AI signal categories and tells you exactly what to fix first.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 <div className="flex flex-wrap gap-3">
                   <Link
                     href="/blindspot"
@@ -863,7 +863,7 @@ export default function Page() {
 
               <p className="text-gray-300 leading-relaxed mb-8">
                 Not all visibility gaps are equally important. Use this matrix to prioritize your efforts based on what chains do well and what a local business can realistically address first.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
               <div className="ae-decision-matrix space-y-4 mb-10">
                 {[
@@ -917,11 +917,11 @@ export default function Page() {
                   >
                     <div>
                       <div className="text-xs text-gray-500 mb-1 uppercase tracking-wider">Chain Does This</div>
-                      <p className="text-sm text-gray-300">{item.condition}</p>
+                      <p className="text-sm text-gray-300">{item.condition} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                     </div>
                     <div>
                       <div className="text-xs text-gray-500 mb-1 uppercase tracking-wider">Your Local Response</div>
-                      <p className="text-sm text-gray-300">{item.localAction}</p>
+                      <p className="text-sm text-gray-300">{item.localAction} <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                     </div>
                     <div className="flex items-center md:justify-end">
                       <span

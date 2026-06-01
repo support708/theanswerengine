@@ -259,19 +259,19 @@ export default function HowDentistsShowUpAISearch() {
 
             <p>A patient with a toothache used to open Google, type &quot;dentist near me,&quot; and pick from the map pack. That behavior is changing. Today, a growing number of patients open ChatGPT or Google AI and ask something more specific: &quot;Who is the best dentist for dental implants in [city]?&quot; or &quot;Which dentist near me accepts Delta Dental and has good reviews?&quot;</p>
 
-            <p>The answer comes back as a direct recommendation, not a list of ten links. AI names specific practices, explains why it chose them, and often includes details like services offered, insurance accepted, and patient sentiment. The patient reads the answer, checks the website, and calls. The entire decision cycle that used to take days now takes minutes.</p>
+            <p>The answer comes back as a direct recommendation, not a list of ten links. AI names specific practices, explains why it chose them, and often includes details like services offered, insurance accepted, and patient sentiment. The patient reads the answer, checks the website, and calls. The entire decision cycle that used to take days now takes minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>The average patient decision window has compressed from weeks to days with AI search. Patients who ask AI for a dentist recommendation are not browsing. They are ready to book.</p>
             </div>
 
-            <p>This shift matters because AI does not randomly select which practices to recommend. It evaluates a specific set of signals before making a recommendation, and most dental practices are not sending any of those signals. The result is that a small number of optimized practices are capturing a disproportionate share of AI-driven patient inquiries while their competitors remain invisible.</p>
+            <p>This shift matters because AI does not randomly select which practices to recommend. It evaluates a specific set of signals before making a recommendation, and most dental practices are not sending any of those signals. The result is that a small number of optimized practices are capturing a disproportionate share of AI-driven patient inquiries while their competitors remain invisible. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>For a deeper look at how this process works across all business types, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your practice.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of your practice. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -283,13 +283,13 @@ export default function HowDentistsShowUpAISearch() {
 
             <h3>Cross-Platform Verification</h3>
 
-            <p>When a patient asks AI about a dentist, the platform checks your information across Google Business Profile, Yelp, Healthgrades, Zocdoc, Facebook, and dental-specific directories. It is looking for consistency. Does your practice name match everywhere? Is the phone number the same? Are the services listed accurately? Do the hours align?</p>
+            <p>When a patient asks AI about a dentist, the platform checks your information across Google Business Profile, Yelp, Healthgrades, Zocdoc, Facebook, and dental-specific directories. It is looking for consistency. Does your practice name match everywhere? Is the phone number the same? Are the services listed accurately? Do the hours align? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Inconsistencies in this basic information, known as NAP (Name, Address, Phone) data, signal unreliability to AI. If one directory says you close at 5 PM and another says 7 PM, AI has less confidence in recommending you because it cannot determine which information is correct.</p>
 
             <h3>Content Depth and Relevance</h3>
 
-            <p>AI evaluates the substance of your website content. A dental practice with a single &quot;Services&quot; page listing twelve procedures in bullet points gives AI almost nothing to work with. AI needs depth. It needs dedicated pages for each service that answer the specific questions patients ask about that service.</p>
+            <p>AI evaluates the substance of your website content. A dental practice with a single &quot;Services&quot; page listing twelve procedures in bullet points gives AI almost nothing to work with. AI needs depth. It needs dedicated pages for each service that answer the specific questions patients ask about that service. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>What AI looks for on dental websites:</strong> Individual service pages with detailed descriptions, expected outcomes, candidacy criteria, and recovery information. Pages that answer questions like &quot;How long do dental implants last?&quot; or &quot;What is the difference between a crown and a veneer?&quot; perform significantly better in AI citations than generic service listings.</p>
@@ -297,7 +297,7 @@ export default function HowDentistsShowUpAISearch() {
 
             <h3>Authority Signals</h3>
 
-            <p>AI measures your practice&apos;s authority through citations, backlinks, directory presence, professional association memberships, and the overall depth of your digital footprint. A practice that appears on the American Dental Association site, has a verified Healthgrades profile, maintains a Zocdoc listing, and publishes educational content carries more weight than a practice with only a basic website and a Google Business Profile.</p>
+            <p>AI measures your practice&apos;s authority through citations, backlinks, directory presence, professional association memberships, and the overall depth of your digital footprint. A practice that appears on the American Dental Association site, has a verified Healthgrades profile, maintains a Zocdoc listing, and publishes educational content carries more weight than a practice with only a basic website and a Google Business Profile. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
@@ -309,7 +309,7 @@ export default function HowDentistsShowUpAISearch() {
             <span className="ae-section-label" id="eeat-dental">Trust Signals</span>
             <h2>E-E-A-T and Why Dental Content Gets Extra Scrutiny</h2>
 
-            <p>Dental information is classified as YMYL (Your Money or Your Life) content. This classification triggers the highest level of quality scrutiny from AI platforms because inaccurate dental advice can directly harm a patient&apos;s health. AI applies the E-E-A-T framework, Experience, Expertise, Authoritativeness, and Trustworthiness, with extra rigor for dental content.</p>
+            <p>Dental information is classified as YMYL (Your Money or Your Life) content. This classification triggers the highest level of quality scrutiny from AI platforms because inaccurate dental advice can directly harm a patient&apos;s health. AI applies the E-E-A-T framework, Experience, Expertise, Authoritativeness, and Trustworthiness, with extra rigor for dental content. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>Experience: Clinical Proof</h3>
 
@@ -317,7 +317,7 @@ export default function HowDentistsShowUpAISearch() {
 
             <h3>Expertise: Verifiable Credentials</h3>
 
-            <p>A dental website that lists &quot;Dr. Smith&quot; without DDS/DMD credentials, dental school, state licensure, or continuing education is leaving the most important trust signals on the table. AI platforms look for verifiable credentials. When a dentist&apos;s bio includes their degree, school, license state, years of practice, and any specializations or board certifications, AI treats that content as expert-level.</p>
+            <p>A dental website that lists &quot;Dr. Smith&quot; without DDS/DMD credentials, dental school, state licensure, or continuing education is leaving the most important trust signals on the table. AI platforms look for verifiable credentials. When a dentist&apos;s bio includes their degree, school, license state, years of practice, and any specializations or board certifications, AI treats that content as expert-level. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p><strong>Critical for dental practices:</strong> Dental content published without a named practitioner and verifiable credentials is treated by AI as unverified health information. Under YMYL guidelines, unverified health content is nearly impossible to get cited. Every page on your dental website should be attributed to a credentialed dentist.</p>
@@ -325,7 +325,7 @@ export default function HowDentistsShowUpAISearch() {
 
             <h3>Authoritativeness: Ecosystem Presence</h3>
 
-            <p>Your authority is not just what you say about yourself. It is what the broader web says about you. AI checks whether your practice appears in professional directories, whether dental associations link to you, whether health publications reference you, and whether your citations across the web are consistent and credible.</p>
+            <p>Your authority is not just what you say about yourself. It is what the broader web says about you. AI checks whether your practice appears in professional directories, whether dental associations link to you, whether health publications reference you, and whether your citations across the web are consistent and credible. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Trustworthiness: The Foundation</h3>
 
@@ -333,7 +333,7 @@ export default function HowDentistsShowUpAISearch() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how your practice scores on E-E-A-T signals compared to competitors in your market.</p>
+              <p>See how your practice scores on E-E-A-T signals compared to competitors in your market. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -343,7 +343,7 @@ export default function HowDentistsShowUpAISearch() {
 
             <p>AI platforms cross-reference directory listings as a core part of their evaluation. For dental practices, the directory landscape includes both general business directories and dental-specific platforms. The key distinction is whether AI crawlers can actually access the information on each directory.</p>
 
-            <p>For an in-depth look at which listings carry the most weight, read our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>.</p>
+            <p>For an in-depth look at which listings carry the most weight, read our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings that help AI find your business</Link>. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* PROS/CONS */}
             <div className="ae-pros-cons not-prose">
@@ -376,7 +376,7 @@ export default function HowDentistsShowUpAISearch() {
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which directories AI platforms are pulling your practice data from? Our report shows you.</p>
+              <p>Not sure which directories AI platforms are pulling your practice data from? Our report shows you. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -387,12 +387,12 @@ export default function HowDentistsShowUpAISearch() {
             <p>Here is the uncomfortable truth: the majority of dental practice websites are built in ways that AI crawlers cannot read. Modern dental website builders produce visually appealing sites that rely heavily on JavaScript to render content. For human visitors with browsers, this works fine. For AI crawlers, it is a blank page.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>87% of JavaScript-heavy sites are invisible to ChatGPT crawlers.</strong> This means that even if your dental website has great content, detailed service pages, and patient testimonials, none of it matters if the content is rendered via JavaScript that AI crawlers cannot execute. Your practice might as well not have a website at all, from AI&apos;s perspective.</p>
+              <p><strong>87% of JavaScript-heavy sites are invisible to ChatGPT crawlers.</strong> This means that even if your dental website has great content, detailed service pages, and patient testimonials, none of it matters if the content is rendered via JavaScript that AI crawlers cannot execute. Your practice might as well not have a website at all, from AI&apos;s perspective. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             <p>Beyond JavaScript rendering, several other technical factors determine whether AI can access your content. Page speed matters because AI crawlers have time limits. If your pages take too long to load, the crawler moves on. Schema markup tells AI what your content means, not just what it says. Without it, AI has to guess whether a page is about dental implants, a blog post, or a staff directory.</p>
 
-            <p>To understand how AI evaluates service pages specifically, check out our guide on <Link href="/blog/write-service-pages-ai-platforms-recommend">writing service pages that AI platforms recommend</Link>.</p>
+            <p>To understand how AI evaluates service pages specifically, check out our guide on <Link href="/blog/write-service-pages-ai-platforms-recommend">writing service pages that AI platforms recommend</Link>. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* COMPARISON TABLE */}
             <table className="ae-comparison-table not-prose">
@@ -442,17 +442,17 @@ export default function HowDentistsShowUpAISearch() {
             <span className="ae-section-label" id="reviews-trust">Trust Layer</span>
             <h2>Reviews and the Trust Layer AI Actually Reads</h2>
 
-            <p>Patient reviews are one of the strongest signals AI uses when deciding which dentist to recommend. But there is a critical distinction most practices miss: not all reviews are visible to AI platforms.</p>
+            <p>Patient reviews are one of the strongest signals AI uses when deciding which dentist to recommend. But there is a critical distinction most practices miss: not all reviews are visible to AI platforms. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>Google reviews are essential for Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them because Google renders reviews via JavaScript. This means your 4.9-star Google rating with 300 reviews might be completely invisible to the AI platforms that are increasingly driving patient decisions.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Where AI actually reads dental reviews:</strong> Healthgrades, Zocdoc, Yelp, and testimonials published directly on your website as plain HTML text. Embedded review widgets from third-party platforms are typically JavaScript-rendered and invisible to AI crawlers. Patient testimonials hard-coded into your website HTML are the single most reliable way to surface review sentiment to AI.</p>
+              <p><strong>Where AI actually reads dental reviews:</strong> Healthgrades, Zocdoc, Yelp, and testimonials published directly on your website as plain HTML text. Embedded review widgets from third-party platforms are typically JavaScript-rendered and invisible to AI crawlers. Patient testimonials hard-coded into your website HTML are the single most reliable way to surface review sentiment to AI. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;Dr. Martinez made my root canal completely painless, explained every step, and the follow-up care was excellent&quot; carries far more weight than &quot;Great dentist, would recommend.&quot; Specific reviews mentioning procedures, outcomes, and experiences give AI the confidence it needs to recommend your practice for those specific services.</p>
 
-            <p>For more on how reviews shape AI recommendations, read <Link href="/blog/do-google-reviews-affect-ai-recommendations">our analysis of whether Google reviews affect AI recommendations</Link>.</p>
+            <p>For more on how reviews shape AI recommendations, read <Link href="/blog/do-google-reviews-affect-ai-recommendations">our analysis of whether Google reviews affect AI recommendations</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -464,7 +464,7 @@ export default function HowDentistsShowUpAISearch() {
             <span className="ae-section-label" id="common-gaps">Common Gaps</span>
             <h2>The 5 Gaps Holding Most Dental Practices Back</h2>
 
-            <p>After analyzing hundreds of dental practice websites and their AI visibility profiles, five patterns consistently prevent practices from being recommended.</p>
+            <p>After analyzing hundreds of dental practice websites and their AI visibility profiles, five patterns consistently prevent practices from being recommended. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <h3>1. Template Websites With No Unique Content</h3>
 
@@ -472,7 +472,7 @@ export default function HowDentistsShowUpAISearch() {
 
             <h3>2. Missing Practitioner Credentials</h3>
 
-            <p>A surprising number of dental websites feature team pages with photos and first names but no DDS/DMD designation, no dental school, no state license information, and no years of practice. For YMYL health content, this absence of verifiable credentials is disqualifying. AI will not recommend a dental practice when it cannot verify who is providing the care.</p>
+            <p>A surprising number of dental websites feature team pages with photos and first names but no DDS/DMD designation, no dental school, no state license information, and no years of practice. For YMYL health content, this absence of verifiable credentials is disqualifying. AI will not recommend a dental practice when it cannot verify who is providing the care. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>3. No Dedicated Service Pages</h3>
 
@@ -480,7 +480,7 @@ export default function HowDentistsShowUpAISearch() {
 
             <h3>4. Reviews Trapped Behind JavaScript</h3>
 
-            <p>Many dental websites embed review widgets from Google, Facebook, or third-party platforms. These widgets render via JavaScript, which means AI crawlers see an empty container where the reviews should be. The practice has hundreds of positive reviews, but AI never sees them.</p>
+            <p>Many dental websites embed review widgets from Google, Facebook, or third-party platforms. These widgets render via JavaScript, which means AI crawlers see an empty container where the reviews should be. The practice has hundreds of positive reviews, but AI never sees them. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>5. Inconsistent Directory Information</h3>
 
@@ -531,7 +531,7 @@ export default function HowDentistsShowUpAISearch() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Which of these gaps is hurting your practice? Our free report identifies every one of them.</p>
+              <p>Which of these gaps is hurting your practice? Our free report identifies every one of them. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -560,7 +560,7 @@ export default function HowDentistsShowUpAISearch() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your practice specialties and market? We do that.</p>
+              <p>Want this cheat sheet customized to your practice specialties and market? We do that. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -570,7 +570,7 @@ export default function HowDentistsShowUpAISearch() {
 
             <p>Patient discovery is shifting permanently. AI search is not a trend. It is a new channel that will grow alongside traditional search for years to come. The practices that build AI visibility now will have a structural advantage that compounds over time, because AI platforms develop confidence in sources they have cited repeatedly.</p>
 
-            <p>Today, a patient might ask AI for a general recommendation. Within the next year, patients will ask AI to compare specific practices, check insurance compatibility, and even pre-screen based on procedure complexity. The practices with deep, structured, credentialed content will be the ones AI trusts enough to surface in those increasingly specific queries.</p>
+            <p>Today, a patient might ask AI for a general recommendation. Within the next year, patients will ask AI to compare specific practices, check insurance compatibility, and even pre-screen based on procedure complexity. The practices with deep, structured, credentialed content will be the ones AI trusts enough to surface in those increasingly specific queries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>The window is open now.</strong> Most dental practices have not optimized for AI search, which means early movers face less competition. The practices taking action in 2026 will be the ones AI platforms have learned to trust by 2027. Waiting means competing against an entrenched advantage.</p>
@@ -578,7 +578,7 @@ export default function HowDentistsShowUpAISearch() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>The practices acting now will own their market in AI search. The ones waiting will be playing catch-up.</p>
+              <p>The practices acting now will own their market in AI search. The ones waiting will be playing catch-up. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">See Where Your Practice Stands &rarr;</Link>
             </div>
 
@@ -590,7 +590,7 @@ export default function HowDentistsShowUpAISearch() {
 
             {/* CTA 12 */}
             <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for healthcare and service businesses.</p>
+              <p>Or call us directly. We specialize in AI visibility for healthcare and service businesses. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -622,25 +622,25 @@ export default function HowDentistsShowUpAISearch() {
             <h2>Frequently Asked Questions</h2>
 
             <h3>Do dental practices really need to worry about AI search?</h3>
-            <p>Yes. Patients increasingly ask AI platforms like ChatGPT and Google AI for dentist recommendations instead of scrolling through traditional search results. Dental queries fall under YMYL guidelines, which means AI applies strict quality filters before recommending a practice. Practices that are not optimized for these platforms are invisible to a growing segment of patients.</p>
+            <p>Yes. Patients increasingly ask AI platforms like ChatGPT and Google AI for dentist recommendations instead of scrolling through traditional search results. Dental queries fall under YMYL guidelines, which means AI applies strict quality filters before recommending a practice. Practices that are not optimized for these platforms are invisible to a growing segment of patients. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>Which AI platforms recommend dentists?</h3>
             <p>ChatGPT, Google AI Overviews, Perplexity, Claude, and Gemini all surface dental practice recommendations. Each platform pulls data from different sources. ChatGPT relies heavily on crawlable web content and directories, while Google AI Overviews reference Google Business Profiles, reviews, and structured content. Practices need visibility across multiple platforms to capture the full patient discovery channel.</p>
 
             <h3>Why does dental content get treated differently by AI?</h3>
-            <p>Dental information is classified as YMYL content because incorrect dental advice can directly harm a patient&apos;s health. AI platforms apply heightened scrutiny to health-related content, requiring stronger trust signals like practitioner credentials, clinical accuracy, and authoritative sourcing before they will cite or recommend a practice.</p>
+            <p>Dental information is classified as YMYL content because incorrect dental advice can directly harm a patient&apos;s health. AI platforms apply heightened scrutiny to health-related content, requiring stronger trust signals like practitioner credentials, clinical accuracy, and authoritative sourcing before they will cite or recommend a practice. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>How long does it take for a dental practice to show up in AI results?</h3>
             <p>Most dental practices begin seeing AI mentions within 60 to 90 days after implementing a structured optimization approach. This involves building service-specific pages with proper schema markup, ensuring consistent NAP data across directories, publishing patient-focused content, and maintaining reviews on AI-readable platforms.</p>
 
             <h3>Can a solo dentist compete with large dental groups in AI search?</h3>
-            <p>Absolutely. AI platforms prioritize relevance, content depth, and trust signals over practice size. A solo dentist with well-structured service pages, genuine patient testimonials, proper DDS credentials, and consistent directory listings can outrank a multi-location dental group with a generic template website. AI rewards specificity and verifiable expertise.</p>
+            <p>Absolutely. AI platforms prioritize relevance, content depth, and trust signals over practice size. A solo dentist with well-structured service pages, genuine patient testimonials, proper DDS credentials, and consistent directory listings can outrank a multi-location dental group with a generic template website. AI rewards specificity and verifiable expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>What is the most common mistake dentists make with AI search?</h3>
             <p>The most common mistake is having a JavaScript-heavy website that AI crawlers cannot read. Research indicates that 87% of heavily JavaScript-rendered sites are invisible to ChatGPT crawlers. Many modern dental websites use dynamic rendering for key content like services, reviews, and practitioner bios, which means AI platforms never see that information.</p>
 
             <h3>Do Google reviews help a dental practice show up on ChatGPT?</h3>
-            <p>Google reviews help with Google AI Overviews, but most other AI platforms like ChatGPT and Perplexity cannot access them because they are rendered via JavaScript. For broader AI visibility, dental practices need reviews on crawlable platforms like Healthgrades, Zocdoc, and Yelp, plus patient testimonials published directly on their website as plain HTML text.</p>
+            <p>Google reviews help with Google AI Overviews, but most other AI platforms like ChatGPT and Perplexity cannot access them because they are rendered via JavaScript. For broader AI visibility, dental practices need reviews on crawlable platforms like Healthgrades, Zocdoc, and Yelp, plus patient testimonials published directly on their website as plain HTML text. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* CTA 13 */}
             <div className="ae-cta-inline not-prose">
@@ -650,7 +650,7 @@ export default function HowDentistsShowUpAISearch() {
 
             {/* CTA 14 */}
             <div className="ae-cta-inline not-prose">
-              <p>Have questions specific to your dental specialty? Call us and we will walk you through it.</p>
+              <p>Have questions specific to your dental specialty? Call us and we will walk you through it. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
           </div>

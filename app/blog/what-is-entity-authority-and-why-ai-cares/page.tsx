@@ -275,25 +275,25 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to know how AI platforms currently see your business entity? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out where you stand.</p>
+          <p>Want to know how AI platforms currently see your business entity? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out where you stand. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <h2 id="what-is-an-entity">What Is an Entity in AI Search</h2>
 
-        <p>In the vocabulary of AI search, an entity is a distinct, real-world thing with a unique identity: a person, place, organization, product, or concept. Your business, assuming AI platforms recognize it, is an entity. The city it is located in is an entity. The services you provide are entities. Your competitors are entities.</p>
+        <p>In the vocabulary of AI search, an entity is a distinct, real-world thing with a unique identity: a person, place, organization, product, or concept. Your business, assuming AI platforms recognize it, is an entity. The city it is located in is an entity. The services you provide are entities. Your competitors are entities. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-        <p>The entity model is fundamental to how modern AI processes information. Instead of just indexing keywords, AI platforms build a structured understanding of what exists in the world, what properties those things have, and how they relate to each other. A plumbing company named "City Water Services" in Austin, Texas, is not just a set of keywords to an AI. It is an entity with attributes: location, service category, operating hours, reputation signals, ownership, and relationships to other entities (the neighborhoods it serves, the directories it is listed in, the reviews it has received).</p>
+        <p>The entity model is fundamental to how modern AI processes information. Instead of just indexing keywords, AI platforms build a structured understanding of what exists in the world, what properties those things have, and how they relate to each other. A plumbing company named "City Water Services" in Austin, Texas, is not just a set of keywords to an AI. It is an entity with attributes: location, service category, operating hours, reputation signals, ownership, and relationships to other entities (the neighborhoods it serves, the directories it is listed in, the reviews it has received). <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Why This Matters for Recommendations</div>
-          <p>When a user asks an AI platform "who is the best plumber in Austin," the AI does not just search its memory for the words "plumber" and "Austin." It queries its entity graph for LocalBusiness entities in the Austin area categorized under plumbing services. The businesses that have the most complete, consistent, and authoritative entity profiles are the ones that surface. The ones the AI barely knows exist stay invisible.</p>
+          <p>When a user asks an AI platform "who is the best plumber in Austin," the AI does not just search its memory for the words "plumber" and "Austin." It queries its entity graph for LocalBusiness entities in the Austin area categorized under plumbing services. The businesses that have the most complete, consistent, and authoritative entity profiles are the ones that surface. The ones the AI barely knows exist stay invisible. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
         </div>
 
         <h2 id="entity-authority-defined">Entity Authority: What It Means and How It Is Measured</h2>
 
-        <p>Entity authority is the degree to which AI platforms and knowledge systems have high confidence that your business is a legitimate, well-defined, trustworthy entity. It is not a single score you can look up. It is an emergent property of how consistently, completely, and credibly your business is represented across all the sources AI platforms consult.</p>
+        <p>Entity authority is the degree to which AI platforms and knowledge systems have high confidence that your business is a legitimate, well-defined, trustworthy entity. It is not a single score you can look up. It is an emergent property of how consistently, completely, and credibly your business is represented across all the sources AI platforms consult. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-        <p>Think of it as the AI's confidence level. When someone asks about your business or queries for businesses like yours, the AI is running an implicit confidence check: how much does it know about this entity? How consistent is that knowledge across sources? How authoritative are the sources it learned from? High entity authority means the AI answers those questions confidently. Low entity authority means it either skips your business entirely or offers it with caveats and uncertainty.</p>
+        <p>Think of it as the AI's confidence level. When someone asks about your business or queries for businesses like yours, the AI is running an implicit confidence check: how much does it know about this entity? How consistent is that knowledge across sources? How authoritative are the sources it learned from? High entity authority means the AI answers those questions confidently. Low entity authority means it either skips your business entirely or offers it with caveats and uncertainty. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-bar-group not-prose">
           <div className="ae-bar-item">
@@ -317,13 +317,13 @@ export default function Page() {
             <div className="ae-bar-value">12%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mt-2">Estimated AI entity confidence by business profile completeness (illustrative)</p>
+        <p className="text-sm text-gray-500 mt-2">Estimated AI entity confidence by business profile completeness (illustrative) Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <h2 id="how-ai-builds-profiles">How AI Builds Entity Profiles for Businesses</h2>
 
-        <p>AI platforms build entity profiles through a combination of training data ingestion and, for platforms with real-time search, live crawling. During training, the model processes billions of web pages and extracts entities and their attributes. It then builds a network of relationships: this business is at this address, offers these services, has these reviews, is mentioned in these publications.</p>
+        <p>AI platforms build entity profiles through a combination of training data ingestion and, for platforms with real-time search, live crawling. During training, the model processes billions of web pages and extracts entities and their attributes. It then builds a network of relationships: this business is at this address, offers these services, has these reviews, is mentioned in these publications. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
-        <p>The sources that contribute most to entity profile strength are not random. High-authority, widely-cited sources carry disproportionate weight. Wikipedia and Wikidata entries are among the highest-weight entity sources because they are structured, human-curated, and widely cross-referenced. Google Business Profile data carries enormous weight for local business entities because Google's entity graph is deeply integrated into AI training pipelines.</p>
+        <p>The sources that contribute most to entity profile strength are not random. High-authority, widely-cited sources carry disproportionate weight. Wikipedia and Wikidata entries are among the highest-weight entity sources because they are structured, human-curated, and widely cross-referenced. Google Business Profile data carries enormous weight for local business entities because Google's entity graph is deeply integrated into AI training pipelines. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -375,12 +375,12 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>See how complete your entity profile is across AI platforms. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report.</Link></p>
+          <p>See how complete your entity profile is across AI platforms. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report.</Link> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
         </div>
 
         <h2 id="high-vs-low">High vs Low Entity Authority: What the Difference Looks Like</h2>
 
-        <p>The practical difference between high and low entity authority is visible in how AI behaves when asked about your business or your category. High entity authority produces specific, accurate recommendations. Low entity authority produces omissions, generic responses, or wrong information.</p>
+        <p>The practical difference between high and low entity authority is visible in how AI behaves when asked about your business or your category. High entity authority produces specific, accurate recommendations. Low entity authority produces omissions, generic responses, or wrong information. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -409,7 +409,7 @@ export default function Page() {
 
         <h2 id="building-authority">What Builds Entity Authority</h2>
 
-        <p>Entity authority is built through a combination of what you control directly and what third parties say about you. The direct signals are the most actionable starting point. The third-party signals take longer but have higher weight once established.</p>
+        <p>Entity authority is built through a combination of what you control directly and what third parties say about you. The direct signals are the most actionable starting point. The third-party signals take longer but have higher weight once established. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -449,21 +449,21 @@ export default function Page() {
           </div>
         </div>
 
-        <p>These five steps are not a one-time project. Entity authority is a living profile that degrades when signals go stale and strengthens as new, consistent data is added across sources. Businesses that treat entity optimization as an ongoing practice consistently outperform those that treat it as a one-time setup.</p>
+        <p>These five steps are not a one-time project. Entity authority is a living profile that degrades when signals go stale and strengthens as new, consistent data is added across sources. Businesses that treat entity optimization as an ongoing practice consistently outperform those that treat it as a one-time setup. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
-        <p>The competitive advantage is real and measurable. Businesses with strong entity authority get cited more often, cited more accurately, and cited in more contexts. That translates directly into more recommendations and more leads from AI-powered queries.</p>
+        <p>The competitive advantage is real and measurable. Businesses with strong entity authority get cited more often, cited more accurately, and cited in more contexts. That translates directly into more recommendations and more leads from AI-powered queries. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to see the current state of your entity profile? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and get a complete picture in minutes.</p>
+          <p>Want to see the current state of your entity profile? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and get a complete picture in minutes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         </div>
 
         <h2 id="entity-vs-domain">Entity Authority vs Domain Authority</h2>
 
-        <p>Most business owners who have worked with SEO agencies know about domain authority: the link-based metric that measures the relative strength of a website in Google's ranking algorithm. Entity authority is different in important ways, and understanding the distinction prevents investing in the wrong signals.</p>
+        <p>Most business owners who have worked with SEO agencies know about domain authority: the link-based metric that measures the relative strength of a website in Google's ranking algorithm. Entity authority is different in important ways, and understanding the distinction prevents investing in the wrong signals. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-orange not-prose">
           <div className="ae-callout-title">The Key Distinction</div>
-          <p>Domain authority is about your website's link profile. Entity authority is about your business's cross-platform recognition profile. You can have high domain authority (lots of backlinks) and low entity authority (inconsistent or sparse entity data). You can also have low domain authority and high entity authority, which is exactly the situation many well-run local businesses find themselves in after properly optimizing their AI presence.</p>
+          <p>Domain authority is about your website's link profile. Entity authority is about your business's cross-platform recognition profile. You can have high domain authority (lots of backlinks) and low entity authority (inconsistent or sparse entity data). You can also have low domain authority and high entity authority, which is exactly the situation many well-run local businesses find themselves in after properly optimizing their AI presence. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         <div className="ae-cheat-sheet not-prose">
@@ -482,7 +482,7 @@ export default function Page() {
 
         <h2 id="quick-assessment">Quick Self-Assessment</h2>
 
-        <p>You can get a rough sense of your current entity authority by running a few quick tests. None of these are definitive, but they give directional signals about where your entity profile stands.</p>
+        <p>You can get a rough sense of your current entity authority by running a few quick tests. None of these are definitive, but they give directional signals about where your entity profile stands. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
         <div className="ae-decision-matrix not-prose">
           <div className="ae-decision-row">
@@ -507,26 +507,26 @@ export default function Page() {
           </div>
         </div>
 
-        <p>Entity authority is not a problem that resolves itself. Every day a competitor builds stronger entity signals while yours stay static, the gap between your AI citation rate and theirs compounds. The businesses that will dominate AI recommendations in your market for the next decade are the ones building entity authority now.</p>
+        <p>Entity authority is not a problem that resolves itself. Every day a competitor builds stronger entity signals while yours stay static, the gap between your AI citation rate and theirs compounds. The businesses that will dominate AI recommendations in your market for the next decade are the ones building entity authority now. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
         <div className="ae-takeaway not-prose">
           <div className="ae-takeaway-title">The Core Takeaway</div>
-          <p>Entity authority is the foundation of AI visibility. Before anything else (content strategy, link building, social presence) a business needs AI platforms to confidently recognize it as a real, specific, trustworthy entity. Without that foundation, everything else produces diminishing returns. With it, every other marketing investment compounds.</p>
+          <p>Entity authority is the foundation of AI visibility. Before anything else (content strategy, link building, social presence) a business needs AI platforms to confidently recognize it as a real, specific, trustworthy entity. Without that foundation, everything else produces diminishing returns. With it, every other marketing investment compounds. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Find out where your entity authority stands right now. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see your full entity profile across AI platforms.</p>
+          <p>Find out where your entity authority stands right now. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see your full entity profile across AI platforms. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Entity authority connects closely to how <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">AI crawlers read your website</Link> and why <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">schema markup helps AI search visibility</Link>. Both articles go deeper on the technical signals that build entity recognition.</p>
+          <p>Entity authority connects closely to how <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">AI crawlers read your website</Link> and why <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">schema markup helps AI search visibility</Link>. Both articles go deeper on the technical signals that build entity recognition. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out How AI Platforms See Your Business Entity Right Now</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows you exactly how well-recognized your business entity is across ChatGPT, Perplexity, and Google AI, and what signals are missing from your entity profile.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows you exactly how well-recognized your business entity is across ChatGPT, Perplexity, and Google AI, and what signals are missing from your entity profile. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -553,7 +553,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -593,7 +593,7 @@ export default function Page() {
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+              <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
           ))}
         </div>
@@ -601,12 +601,12 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Is Your Business a Real Entity to AI, or Just Noise in the Data?</h2>
-          <p className="text-gray-300 mb-8 text-lg">Most businesses are invisible to AI because they never built a proper entity profile. Our Blind Spot Report shows exactly where your entity signals are strong, where they are missing, and what it will take to become a business AI confidently recommends.</p>
+          <p className="text-gray-300 mb-8 text-lg">Most businesses are invisible to AI because they never built a proper entity profile. Our Blind Spot Report shows exactly where your entity signals are strong, where they are missing, and what it will take to become a business AI confidently recommends. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes.</p>
+          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

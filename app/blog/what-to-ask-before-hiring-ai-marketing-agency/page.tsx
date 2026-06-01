@@ -313,7 +313,7 @@ export default function Page() {
               comes down to knowing the right questions to ask before you sign anything.</strong>{' '}
               This guide gives you exactly that: the seven questions that separate legitimate
               AI optimization partners from expensive distractions.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* Callout: The Problem */}
             <div className="not-prose">
@@ -325,14 +325,14 @@ export default function Page() {
                   begun cracking down on companies making false AI claims, but the marketing
                   agency space remains largely unregulated. Your best defense is asking the
                   right questions and knowing what legitimate answers sound like.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to see how AI platforms currently describe your business?</p>
+                <p>Want to see how AI platforms currently describe your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
               </div>
             </div>
@@ -348,14 +348,14 @@ export default function Page() {
               AI search platforms like ChatGPT, Google AI Overviews, and Perplexity has created
               genuine demand for a new kind of optimization. But it has also created a gold rush
               of opportunists who have no idea how AI search actually works.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The stakes are high. Hiring the wrong agency does not just waste your marketing
               budget. It wastes months during which your competitors are building AI authority
               that compounds over time. Every month a competitor gets cited and you do not, the
               gap becomes harder and more expensive to close. The wrong hire is not a neutral
               outcome. It is an active setback.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Bar Chart: The Landscape */}
             <div className="not-prose">
@@ -396,12 +396,12 @@ export default function Page() {
               enormous. That gap is where your budget goes to die if you do not ask the right
               questions upfront. The good news: the right questions are not complicated. They
               just require knowing what a legitimate answer sounds like.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Already working with an agency? Check if AI is recommending you yet.</p>
+                <p>Already working with an agency? Check if AI is recommending you yet. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                 <Link href="/blindspot">Run Your Free AI Visibility Check &#8594;</Link>
               </div>
             </div>
@@ -416,7 +416,7 @@ export default function Page() {
               from repackaged SEO services. The order matters. Start with the questions that
               are hardest to fake and work down from there. If an agency fails on the first
               two, you do not need to ask the rest.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* Timeline: 7 Questions */}
             <div className="not-prose">
@@ -522,14 +522,14 @@ export default function Page() {
                   &quot;The agencies that cannot answer these questions are not bad at AI
                   optimization. They are not doing AI optimization at all. They are doing
                   traditional SEO with a new label.&quot;
-                </p>
+                 Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Need a baseline before talking to agencies?</p>
+                <p>Need a baseline before talking to agencies? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report First &#8594;</Link>
               </div>
             </div>
@@ -543,7 +543,7 @@ export default function Page() {
               Beyond the seven core questions, watch for these warning signs during your
               evaluation. Any single red flag deserves scrutiny. Two or more together
               should end the conversation immediately.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Comparison Table: Red Flags */}
             <div className="not-prose">
@@ -609,14 +609,14 @@ export default function Page() {
                   they do not understand the service they are selling. These are fundamentally
                   different disciplines with different tools, metrics, and strategies. An agency
                   that conflates them is selling you a relabeled product.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 4 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Wondering if your current agency is actually delivering AI results?</p>
+                <p>Wondering if your current agency is actually delivering AI results? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229 for an honest assessment &#8594;</a>
               </div>
             </div>
@@ -629,7 +629,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-4">
               Knowing what to avoid is only half the equation. Here is what you should see
               from an agency that genuinely understands AI optimization and can deliver results.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Pros/Cons: Green vs Red */}
             <div className="not-prose">
@@ -664,7 +664,7 @@ export default function Page() {
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure what a real AI visibility report looks like?</p>
+                <p>Not sure what a real AI visibility report looks like? Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <Link href="/blindspot">See One For Your Own Business, Free &#8594;</Link>
               </div>
             </div>
@@ -678,7 +678,7 @@ export default function Page() {
               Understanding the difference between a rebranded SEO agency and a genuine AI
               optimization partner comes down to specifics. Here is what each actually does
               and measures.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Decision Matrix */}
             <div className="not-prose">
@@ -741,12 +741,12 @@ export default function Page() {
               <Link href="/blog/can-ai-replace-my-marketing-agency" className="text-orange-400 hover:text-orange-300 underline">
                 selling you the old model under a new name
               </Link>.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want an agency that proves results with data, not promises?</p>
+                <p>Want an agency that proves results with data, not promises? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &#8594;</a>
               </div>
             </div>
@@ -765,7 +765,7 @@ export default function Page() {
                 cost of AI optimization
               </Link>{' '}
               helps you negotiate from a position of knowledge.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Stats Grid: Pricing */}
             <div className="not-prose">
@@ -801,7 +801,7 @@ export default function Page() {
               work. On the other end, be cautious of agencies demanding more than $10,000
               per month for a single-location service business. The complexity does not
               justify that rate for most small businesses.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Callout: Contract Terms */}
             <div className="not-prose">
@@ -813,14 +813,14 @@ export default function Page() {
                   agencies that believe in their work will agree to this. Agencies that refuse
                   are telling you they do not expect to deliver results within a reasonable
                   timeframe.
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 7 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Curious what AI optimization would cost for your specific business?</p>
+                <p>Curious what AI optimization would cost for your specific business? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229 for a free quote &#8594;</a>
               </div>
             </div>
@@ -834,7 +834,7 @@ export default function Page() {
               After asking your questions and evaluating the answers, use this framework
               to make a confident decision. Score each agency on these criteria and compare
               objectively rather than going with the best sales pitch.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* Decision Matrix: Scoring */}
             <div className="not-prose">
@@ -892,7 +892,7 @@ export default function Page() {
             {/* CTA Inline 8 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Need a framework to compare agencies side by side?</p>
+                <p>Need a framework to compare agencies side by side? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <Link href="/blindspot">Start with your own AI visibility baseline &#8594;</Link>
               </div>
             </div>
@@ -906,7 +906,7 @@ export default function Page() {
               Vetting does not stop at the contract. The first 90 days with an AI optimization
               agency should validate everything they promised during the sales process. Here
               is what to monitor and when to escalate.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* Timeline: First 90 Days */}
             <div className="not-prose">
@@ -950,12 +950,12 @@ export default function Page() {
                 whether AEO is worth the investment
               </Link>{' '}
               becomes much clearer when you have real data to evaluate.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* CTA Inline 9 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Already 90 days in with no AI results?</p>
+                <p>Already 90 days in with no AI results? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a second opinion &#8594;</a>
               </div>
             </div>
@@ -971,7 +971,7 @@ export default function Page() {
                   the seven questions. Watch for red flags. Demand evidence over claims. And
                   remember: any agency confident in their work will welcome scrutiny. The ones
                   who resist your questions are the ones you should avoid.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
@@ -997,7 +997,7 @@ export default function Page() {
             {/* CTA Inline 10 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to evaluate your current AI visibility before talking to agencies?</p>
+                <p>Want to evaluate your current AI visibility before talking to agencies? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
               </div>
             </div>
@@ -1005,7 +1005,7 @@ export default function Page() {
             {/* CTA Inline 11 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Ready to talk to an agency that welcomes every question on this list?</p>
+                <p>Ready to talk to an agency that welcomes every question on this list? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229 &#8594;</a>
               </div>
             </div>

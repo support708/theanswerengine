@@ -290,12 +290,12 @@ export default function HowToGetInTheAnswerEngine() {
 
             <p>An answer engine is any AI-powered system that provides direct answers instead of a list of links. This includes ChatGPT, Claude, Perplexity, Google AI Overviews, and Microsoft Copilot.</p>
 
-            <p>Unlike traditional search engines that rank websites by relevance, answer engines synthesize information from multiple sources to provide a single response. When someone asks &quot;who is the best plumber in Denver,&quot; these systems do not show 10 blue links. They give one answer.</p>
+            <p>Unlike traditional search engines that rank websites by relevance, answer engines synthesize information from multiple sources to provide a single response. When someone asks &quot;who is the best plumber in Denver,&quot; these systems do not show 10 blue links. They give one answer. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>The business implications are significant: if your company is not the answer AI provides, you are invisible to a growing percentage of customers who prefer asking AI over traditional search.</p>
 
             <div className="ae-quote not-prose">
-              <p>In traditional search, you compete for 10 spots. In answer engines, you compete for one. Either you are the recommendation, or you do not exist.</p>
+              <p>In traditional search, you compete for 10 spots. In answer engines, you compete for one. Either you are the recommendation, or you do not exist. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             {/* ── CTA 1 ── */}
@@ -309,7 +309,7 @@ export default function HowToGetInTheAnswerEngine() {
             <h2>Why Getting in the Answer Engine Matters</h2>
 
             {/* ── BAR CHART: SEARCH BEHAVIOR SHIFT ── */}
-            <p>Search behavior is shifting fast. Here is where customers are actually finding businesses today.</p>
+            <p>Search behavior is shifting fast. Here is where customers are actually finding businesses today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item">
@@ -345,7 +345,7 @@ export default function HowToGetInTheAnswerEngine() {
 
             <h3>Trust Transfer</h3>
 
-            <p>Users trust AI recommendations because they believe the AI has evaluated all options. Being cited by ChatGPT or Claude carries implicit endorsement that advertising cannot buy. We have seen these leads convert at significantly higher rates than traditional sources.</p>
+            <p>Users trust AI recommendations because they believe the AI has evaluated all options. Being cited by ChatGPT or Claude carries implicit endorsement that advertising cannot buy. We have seen these leads convert at significantly higher rates than traditional sources. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Compounding Authority</h3>
 
@@ -354,7 +354,7 @@ export default function HowToGetInTheAnswerEngine() {
             {/* ── CALLOUT: URGENCY ── */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Window Is Closing</div>
-              <p>Every industry has a limited number of AI citation slots. The businesses that optimize first will be the ones AI platforms trust and recommend. Waiting 6 months means your competitors have a 6-month head start that gets harder to overcome every day.</p>
+              <p>Every industry has a limited number of AI citation slots. The businesses that optimize first will be the ones AI platforms trust and recommend. Waiting 6 months means your competitors have a 6-month head start that gets harder to overcome every day. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             {/* ── CTA 2 ── */}
@@ -367,7 +367,7 @@ export default function HowToGetInTheAnswerEngine() {
             <span className="ae-section-label">Under the Hood</span>
             <h2>How AI Systems Choose Which Businesses to Cite</h2>
 
-            <p>AI systems do not randomly select sources. After auditing thousands of AI responses for our clients, we have identified five criteria that determine citation.</p>
+            <p>AI systems do not randomly select sources. After auditing thousands of AI responses for our clients, we have identified five criteria that determine citation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* ── DECISION MATRIX ── */}
             <div className="ae-decision-matrix not-prose">
@@ -418,7 +418,7 @@ export default function HowToGetInTheAnswerEngine() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know which of these 5 factors you are missing? We check all of them.</p>
+              <p>Want to know which of these 5 factors you are missing? We check all of them. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -434,7 +434,7 @@ export default function HowToGetInTheAnswerEngine() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Audit Your Current AI Visibility</strong>
-                <p>Before creating content, understand where you stand. Ask ChatGPT, Claude, and Perplexity your target questions. Document whether you are mentioned, which competitors appear, what sources AI references, and what information is missing from current answers.</p>
+                <p>Before creating content, understand where you stand. Ask ChatGPT, Claude, and Perplexity your target questions. Document whether you are mentioned, which competitors appear, what sources AI references, and what information is missing from current answers. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Create Answer-Optimized Content</strong>
@@ -442,7 +442,7 @@ export default function HowToGetInTheAnswerEngine() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Implement Technical Optimization</strong>
-                <p>Content quality alone is not enough. Deploy Article, FAQ, LocalBusiness, and Person schemas. Build hub-and-spoke internal linking. Ensure fast load times and mobile-friendliness. These technical signals help AI verify and trust your content.</p>
+                <p>Content quality alone is not enough. Deploy Article, FAQ, LocalBusiness, and Person schemas. Build hub-and-spoke internal linking. Ensure fast load times and mobile-friendliness. These technical signals help AI verify and trust your content. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Monitor and Iterate</strong>
@@ -466,7 +466,7 @@ export default function HowToGetInTheAnswerEngine() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>This is a lot to implement alone. Let us handle the heavy lifting for you.</p>
+              <p>This is a lot to implement alone. Let us handle the heavy lifting for you. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Start With a Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -526,13 +526,13 @@ export default function HowToGetInTheAnswerEngine() {
               </table>
             </div>
 
-            <p>Good AEO typically improves traditional rankings too. The content quality, schema markup, and topical authority that AI values are the same signals Google rewards. Think of AEO as SEO 2.0: everything that worked before, plus the new layer AI demands.</p>
+            <p>Good AEO typically improves traditional rankings too. The content quality, schema markup, and topical authority that AI values are the same signals Google rewards. Think of AEO as SEO 2.0: everything that worked before, plus the new layer AI demands. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>For a deeper dive, read our full guide: <Link href="/blog/aeo-vs-seo">AEO vs. SEO: What Local Businesses Need to Know</Link>.</p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Still relying on SEO alone? Find out what AI platforms say about your business.</p>
+              <p>Still relying on SEO alone? Find out what AI platforms say about your business. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -573,7 +573,7 @@ export default function HowToGetInTheAnswerEngine() {
             {/* ── CALLOUT: GENERIC CONTENT ── */}
             <div className="ae-callout not-prose">
               <div className="ae-callout-title">The Biggest Mistake We See</div>
-              <p>Most businesses create content designed for Google bots, not for AI systems. AI does not care about your keyword density. It cares about whether you are genuinely the most helpful, authoritative answer to a specific question in a specific market. If your content could be copy-pasted for any city or any competitor, AI will not cite it.</p>
+              <p>Most businesses create content designed for Google bots, not for AI systems. AI does not care about your keyword density. It cares about whether you are genuinely the most helpful, authoritative answer to a specific question in a specific market. If your content could be copy-pasted for any city or any competitor, AI will not cite it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* ── CTA 6 ── */}
@@ -586,7 +586,7 @@ export default function HowToGetInTheAnswerEngine() {
             <span className="ae-section-label">Proof It Works</span>
             <h2>Real Results: From Zero to AI Authority in 4 Months</h2>
 
-            <p>One of our clients, a Los Angeles real estate team, implemented this exact strategy. Starting from zero AI citations, here is what they achieved.</p>
+            <p>One of our clients, a Los Angeles real estate team, implemented this exact strategy. Starting from zero AI citations, here is what they achieved. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── STATS GRID: RESULTS ── */}
             <div className="ae-stats-grid not-prose">
@@ -615,14 +615,14 @@ export default function HowToGetInTheAnswerEngine() {
             <p>The key was building topical authority through hub-and-spoke architecture: comprehensive guides on their specialty areas, each supported by detailed spoke articles. Combined with proper schema markup and regular updates, this created the authority signals AI systems need.</p>
 
             <div className="ae-quote not-prose">
-              <p>We do not share the specific keyword strategy because it is our client&apos;s competitive advantage. But the methodology works across industries, and the results speak for themselves.</p>
+              <p>We do not share the specific keyword strategy because it is our client&apos;s competitive advantage. But the methodology works across industries, and the results speak for themselves. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <p>Read the full case study: <Link href="/blog/aeo-case-study-real-estate">How a Real Estate Team Dominates AI Search</Link>.</p>
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want results like these for your business? It starts with understanding your current position.</p>
+              <p>Want results like these for your business? It starts with understanding your current position. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -678,7 +678,7 @@ export default function HowToGetInTheAnswerEngine() {
               </table>
             </div>
 
-            <p>The good news: content optimized for answer engines generally performs across all platforms. You do not need a separate strategy for each one. Focus on creating genuinely authoritative content with proper technical markup, and the citations follow.</p>
+            <p>The good news: content optimized for answer engines generally performs across all platforms. You do not need a separate strategy for each one. Focus on creating genuinely authoritative content with proper technical markup, and the citations follow. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
@@ -690,7 +690,7 @@ export default function HowToGetInTheAnswerEngine() {
             <span className="ae-section-label">The Investment</span>
             <h2>What Does Answer Engine Optimization Cost?</h2>
 
-            <p>The real question is not what AEO costs. It is what AI invisibility costs you every month in lost leads, lost calls, and lost revenue going directly to your competitors.</p>
+            <p>The real question is not what AEO costs. It is what AI invisibility costs you every month in lost leads, lost calls, and lost revenue going directly to your competitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* ── DECISION MATRIX: COST COMPARISON ── */}
             <div className="ae-decision-matrix not-prose">
@@ -741,7 +741,7 @@ export default function HowToGetInTheAnswerEngine() {
 
             {/* ── CTA 9 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about pricing or what is included? Call us directly.</p>
+              <p>Questions about pricing or what is included? Call us directly. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
             </div>
 
@@ -787,7 +787,7 @@ export default function HowToGetInTheAnswerEngine() {
 
             {/* ── CTA 10 (phone) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if AEO is right for your industry? Talk to us. We will tell you straight.</p>
+              <p>Not sure if AEO is right for your industry? Talk to us. We will tell you straight. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -799,19 +799,19 @@ export default function HowToGetInTheAnswerEngine() {
             <p>Most businesses see initial AI citations within 60-90 days of implementing answer engine optimization. Building strong topical authority typically takes 4-6 months of consistent content creation. Our fastest client achieved AI citations in 47 days.</p>
 
             <h3>Can small businesses compete with large companies for AI citations?</h3>
-            <p>Yes. AI systems prioritize relevance and expertise over brand size. A local plumber with comprehensive content about plumbing in their city can outrank national brands for local queries. The key is specificity and demonstrated local expertise.</p>
+            <p>Yes. AI systems prioritize relevance and expertise over brand size. A local plumber with comprehensive content about plumbing in their city can outrank national brands for local queries. The key is specificity and demonstrated local expertise. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>Do I need to optimize for every AI platform separately?</h3>
             <p>No. ChatGPT, Claude, Perplexity, and Google AI Overviews all draw from web content. Content optimized for answer engines generally performs across all platforms. Focus on creating authoritative content rather than platform-specific tricks.</p>
 
             <h3>Is answer engine optimization different from SEO?</h3>
-            <p>AEO builds on traditional SEO but prioritizes being cited as the definitive answer over simply ranking. This means more emphasis on direct answer formatting, FAQ structure, and authoritative depth. Good AEO typically improves traditional rankings too.</p>
+            <p>AEO builds on traditional SEO but prioritizes being cited as the definitive answer over simply ranking. This means more emphasis on direct answer formatting, FAQ structure, and authoritative depth. Good AEO typically improves traditional rankings too. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <h3>What industries benefit most from answer engine optimization?</h3>
             <p>Any service business where customers research before buying: real estate, legal, medical, home services (HVAC, plumbing, electrical), financial advisors, and professional services. The more complex the decision, the more likely customers ask AI for guidance.</p>
 
             <h3>What happens if I do nothing?</h3>
-            <p>Your competitors who are investing in AEO will own the AI citations in your market. Once AI platforms trust a business as the authority, it becomes progressively harder for latecomers to displace them. The cost of inaction grows every month.</p>
+            <p>Your competitors who are investing in AEO will own the AI citations in your market. Once AI platforms trust a business as the authority, it becomes progressively harder for latecomers to displace them. The cost of inaction grows every month. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* ── CTA 11 (email) ── */}
             <div className="ae-cta-inline not-prose">
@@ -823,7 +823,7 @@ export default function HowToGetInTheAnswerEngine() {
             <span className="ae-section-label">Your Next Move</span>
             <h2>How to Get Started Today</h2>
 
-            <p>You have two options. You can spend the next 6-12 months figuring this out yourself, or you can get a clear picture of where you stand in 48 hours.</p>
+            <p>You have two options. You can spend the next 6-12 months figuring this out yourself, or you can get a clear picture of where you stand in 48 hours. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── TIMELINE: GETTING STARTED ── */}
             <div className="ae-timeline not-prose">
@@ -833,7 +833,7 @@ export default function HowToGetInTheAnswerEngine() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Day 2-3: Review Your Results</strong>
-                <p>We walk you through the findings. No sales pitch, just data. You will know exactly which AI platforms cite you, which cite your competitors, and what content gaps exist.</p>
+                <p>We walk you through the findings. No sales pitch, just data. You will know exactly which AI platforms cite you, which cite your competitors, and what content gaps exist. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Day 4+: Decide Your Path</strong>
@@ -843,7 +843,7 @@ export default function HowToGetInTheAnswerEngine() {
 
             {/* ── CTA 12 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>The audit is free. The data is yours to keep, no strings attached.</p>
+              <p>The audit is free. The data is yours to keep, no strings attached. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -855,7 +855,7 @@ export default function HowToGetInTheAnswerEngine() {
 
             {/* ── CTA 13 (phone) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk to a human? Call us. We answer the phone.</p>
+              <p>Prefer to talk to a human? Call us. We answer the phone. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">(213) 444-2229 &rarr;</a>
             </div>
 
@@ -872,7 +872,7 @@ export default function HowToGetInTheAnswerEngine() {
             <div className="ae-author-info">
               <div className="ae-author-name">Justin Borges</div>
               <div className="ae-author-role">Founder, The Answer Engine</div>
-              <p>Justin Borges founded The Answer Engine to help local service businesses get cited by AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overview. With a background in both real estate and digital marketing, Justin developed the Answer Engine Optimization methodology after achieving 100% AI citation rates for his own real estate team in Los Angeles.</p>
+              <p>Justin Borges founded The Answer Engine to help local service businesses get cited by AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overview. With a background in both real estate and digital marketing, Justin developed the Answer Engine Optimization methodology after achieving 100% AI citation rates for his own real estate team in Los Angeles. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
           </div>
 
@@ -896,7 +896,7 @@ export default function HowToGetInTheAnswerEngine() {
           {/* ── FINAL CTA ── */}
           <div className="ae-final-cta not-prose">
             <h2>Stop Losing Leads to Competitors AI Recommends Instead of You</h2>
-            <p>Every day you wait is another day of customers asking AI for help and getting sent to your competition. The Blind Spot Report takes 48 hours, costs nothing, and shows you exactly where you stand.</p>
+            <p>Every day you wait is another day of customers asking AI for help and getting sent to your competition. The Blind Spot Report takes 48 hours, costs nothing, and shows you exactly where you stand. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
             <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
               <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">(213) 444-2229</a>
@@ -925,7 +925,7 @@ export default function HowToGetInTheAnswerEngine() {
                   </h4>
                   <p className="text-gray-400 leading-relaxed">
                     Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization.
-                  </p>
+                   <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 </Link>
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">

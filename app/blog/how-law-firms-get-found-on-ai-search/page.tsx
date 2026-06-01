@@ -278,19 +278,19 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             <p>A person facing a DUI charge, a custody dispute, or a workplace injury used to open Google and scan through ten blue links or click on a paid ad. That behavior is changing at a pace most managing partners have not yet grasped. Today, that same person opens ChatGPT and asks: &quot;What kind of lawyer do I need for a wrongful termination case in Dallas, and who is reputable?&quot;</p>
 
-            <p>The AI responds with a direct, conversational answer. It explains the difference between employment law and general civil litigation, outlines what the person should look for in an attorney, and often names specific firms with reasoning. The potential client reads the answer, visits one website, and calls. The discovery process that once took days of research, referral calls, and comparison shopping now takes minutes.</p>
+            <p>The AI responds with a direct, conversational answer. It explains the difference between employment law and general civil litigation, outlines what the person should look for in an attorney, and often names specific firms with reasoning. The potential client reads the answer, visits one website, and calls. The discovery process that once took days of research, referral calls, and comparison shopping now takes minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>60% of legal searches now end without a click. The prospective client gets their answer from AI and either acts on it or moves on. If your firm is not part of that answer, you are not in the running.</p>
             </div>
 
-            <p>Gartner projects that search engine volume could decline 25% by 2026 as chat-based discovery tools gain traction. For law firms, the impact is already measurable. Authoritas Analytics found that a site previously ranked first could lose about 79% of its traffic when results appear below an AI Overview. This is not a theoretical future concern. It is happening now, in every practice area, in every market.</p>
+            <p>Gartner projects that search engine volume could decline 25% by 2026 as chat-based discovery tools gain traction. For law firms, the impact is already measurable. Authoritas Analytics found that a site previously ranked first could lose about 79% of its traffic when results appear below an AI Overview. This is not a theoretical future concern. It is happening now, in every practice area, in every market. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>The firms that understand how AI selects which lawyers to recommend are capturing cases their competitors never even know existed. The firms relying solely on Google rankings and paid ads are watching their intake numbers erode without understanding why.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of your firm.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of your firm. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -300,19 +300,19 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             <p>Legal information sits at the top of the YMYL (Your Money or Your Life) classification alongside medical content. Incorrect legal information can directly affect a person&apos;s freedom, financial stability, custody of their children, or immigration status. AI platforms understand this, and they treat legal queries with the strictest quality filters available.</p>
 
-            <p>When a potential client asks AI about a legal matter or requests a lawyer recommendation, the platform runs the query through multiple quality gates before generating a response. These gates check for attorney credentials, jurisdictional authority, content accuracy, source reliability, and content freshness. Law firms that do not satisfy these gates are excluded from AI responses entirely, regardless of their Google ranking or advertising spend.</p>
+            <p>When a potential client asks AI about a legal matter or requests a lawyer recommendation, the platform runs the query through multiple quality gates before generating a response. These gates check for attorney credentials, jurisdictional authority, content accuracy, source reliability, and content freshness. Law firms that do not satisfy these gates are excluded from AI responses entirely, regardless of their Google ranking or advertising spend. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>E-E-A-T at Maximum Scrutiny for Legal Content</h3>
 
             <p>Google&apos;s E-E-A-T framework (Experience, Expertise, Authoritativeness, Trustworthiness) was built for exactly this category. AI platforms apply it with maximum intensity for legal queries, and each component carries specific requirements for law firms.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Experience</strong> means demonstrated legal practice: case results, years handling specific matter types, courtroom presence, and content that reflects hands-on work with real clients. <strong>Expertise</strong> requires verifiable credentials: bar admissions, practice area certifications, law school, clerkships, and professional recognitions. <strong>Authoritativeness</strong> is measured by the firm&apos;s presence across legal directories, bar association memberships, published articles, speaking engagements, and citations from other authoritative legal sources. <strong>Trustworthiness</strong> is the foundation: HTTPS, verifiable contact information, transparent fee structures, and content that cites statutes and case law rather than making unsupported claims.</p>
+              <p><strong>Experience</strong> means demonstrated legal practice: case results, years handling specific matter types, courtroom presence, and content that reflects hands-on work with real clients. <strong>Expertise</strong> requires verifiable credentials: bar admissions, practice area certifications, law school, clerkships, and professional recognitions. <strong>Authoritativeness</strong> is measured by the firm&apos;s presence across legal directories, bar association memberships, published articles, speaking engagements, and citations from other authoritative legal sources. <strong>Trustworthiness</strong> is the foundation: HTTPS, verifiable contact information, transparent fee structures, and content that cites statutes and case law rather than making unsupported claims. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             <p>The December 2025 Google core update enforced these YMYL requirements with a precision the legal market had not previously experienced. Thin attorney bios, vague &quot;Our Team&quot; pages, and generic practice area descriptions that once passed muster are now actively penalizing firms in both traditional and AI search results.</p>
 
-            <p>For a deeper look at how AI platforms evaluate business authority across industries, see our guide on <Link href="/blog/how-claude-ai-evaluates-business-authority">how Claude AI evaluates business authority</Link>.</p>
+            <p>For a deeper look at how AI platforms evaluate business authority across industries, see our guide on <Link href="/blog/how-claude-ai-evaluates-business-authority">how Claude AI evaluates business authority</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
@@ -324,12 +324,12 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <span className="ae-section-label" id="template-trap">The Template Problem</span>
             <h2>The Template Trap: Why Most Law Firm Websites Fail AI</h2>
 
-            <p>The legal industry has a unique problem that most firms do not realize exists. The majority of law firm websites are built on industry-specific website platforms that produce visually polished, professionally designed sites. They look authoritative to a human visitor. They are often invisible to AI.</p>
+            <p>The legal industry has a unique problem that most firms do not realize exists. The majority of law firm websites are built on industry-specific website platforms that produce visually polished, professionally designed sites. They look authoritative to a human visitor. They are often invisible to AI. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>These platforms generate JavaScript-heavy pages that render beautifully in a web browser but deliver a blank page to AI crawlers. Your firm could have detailed practice area descriptions, partner biographies with decades of experience, and hundreds of client testimonials. None of it matters if the site relies on client-side JavaScript to render that content. AI crawlers do not execute JavaScript the way a browser does.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>The template trap goes deeper than rendering.</strong> Law firm website templates produce structurally identical sites across competing firms. When AI encounters dozens of firms with the same page layout, the same section headers, and the same content structure, it has no basis for distinguishing one firm from another. Template uniformity actively works against differentiation in AI search.</p>
+              <p><strong>The template trap goes deeper than rendering.</strong> Law firm website templates produce structurally identical sites across competing firms. When AI encounters dozens of firms with the same page layout, the same section headers, and the same content structure, it has no basis for distinguishing one firm from another. Template uniformity actively works against differentiation in AI search. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             <p>The content problem is equally severe. Template law firm sites encourage thin content: a paragraph or two per practice area, a headshot with three bullet points per attorney, and a contact form. This gives AI almost nothing to work with. When a potential client asks &quot;Who is the best personal injury attorney in Phoenix for a trucking accident case?&quot;, AI needs substantive content that demonstrates deep expertise in trucking litigation, not a bullet point that says &quot;Personal Injury.&quot;</p>
@@ -379,7 +379,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know if your law firm website is falling into the template trap? Our report reveals it.</p>
+              <p>Want to know if your law firm website is falling into the template trap? Our report reveals it. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -391,13 +391,13 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             <h3>Credential Verification</h3>
 
-            <p>When a potential client asks AI about a lawyer, the platform looks for verifiable credentials. Bar admissions with state-specific licensing, practice area certifications from recognized bodies, law school education, and professional associations are the baseline. AI cross-checks this information across your website, state bar records, legal directories, and professional networks.</p>
+            <p>When a potential client asks AI about a lawyer, the platform looks for verifiable credentials. Bar admissions with state-specific licensing, practice area certifications from recognized bodies, law school education, and professional associations are the baseline. AI cross-checks this information across your website, state bar records, legal directories, and professional networks. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>A firm that lists &quot;John Smith, Attorney&quot; without bar numbers, jurisdictions, education, or specific practice area certifications gives AI almost nothing to verify. Compare that to a bio that includes bar admissions in two states, a board certification in family law, membership in the American Academy of Matrimonial Lawyers, and specific case types handled. The second profile gives AI the confidence it needs to recommend that attorney for relevant queries.</p>
 
             <h3>Jurisdictional Specificity</h3>
 
-            <p>Legal practice is inherently jurisdictional. AI understands this. When a user asks for a lawyer in a specific city or state, AI looks for firms with demonstrated jurisdictional authority: content that references local courts, state-specific statutes, county procedures, and regional legal nuances. A firm that writes generic legal content applicable anywhere signals to AI that it lacks genuine local expertise.</p>
+            <p>Legal practice is inherently jurisdictional. AI understands this. When a user asks for a lawyer in a specific city or state, AI looks for firms with demonstrated jurisdictional authority: content that references local courts, state-specific statutes, county procedures, and regional legal nuances. A firm that writes generic legal content applicable anywhere signals to AI that it lacks genuine local expertise. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>Jurisdictional authority is a differentiator AI heavily weights.</strong> A firm in Houston that references Harris County courthouse procedures, Texas Family Code sections, and local mediation requirements carries more weight for Houston-area queries than a nationally focused firm with generic content. AI rewards the specificity that clients actually need.</p>
@@ -405,13 +405,13 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             <h3>Cross-Platform Consistency</h3>
 
-            <p>AI measures your firm&apos;s reliability by checking consistency across platforms. Does your firm name match on Avvo, Martindale-Hubbell, Justia, Super Lawyers, and your website? Is the phone number identical? Are the practice areas listed accurately? Do the office addresses align?</p>
+            <p>AI measures your firm&apos;s reliability by checking consistency across platforms. Does your firm name match on Avvo, Martindale-Hubbell, Justia, Super Lawyers, and your website? Is the phone number identical? Are the practice areas listed accurately? Do the office addresses align? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>Inconsistencies signal unreliability. If Avvo lists you as a family law firm and your website emphasizes criminal defense, AI has lower confidence in your data. If your firm moved offices two years ago and three directories still show the old address, AI treats your entire profile as potentially outdated.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which signals are helping or hurting your AI visibility? Our report maps every one.</p>
+              <p>Not sure which signals are helping or hurting your AI visibility? Our report maps every one. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -421,13 +421,13 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             <p>The single most impactful content decision a law firm can make for AI visibility is to stop treating practice areas as bullet points and start treating them as pillars of authority. AI needs depth. It needs dedicated pages for each practice area you serve, written with enough substantive legal knowledge to demonstrate genuine expertise.</p>
 
-            <p>When a potential client asks &quot;Who is the best divorce attorney in Atlanta for a high-asset case?&quot;, AI needs a dedicated high-asset divorce page from your firm that addresses property division for complex estates, business valuation in divorce proceedings, retirement account division, and prenuptial agreement enforcement. A bullet point that says &quot;Divorce and Family Law&quot; does not compete with a firm that has built out this level of content.</p>
+            <p>When a potential client asks &quot;Who is the best divorce attorney in Atlanta for a high-asset case?&quot;, AI needs a dedicated high-asset divorce page from your firm that addresses property division for complex estates, business valuation in divorce proceedings, retirement account division, and prenuptial agreement enforcement. A bullet point that says &quot;Divorce and Family Law&quot; does not compete with a firm that has built out this level of content. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>The hub-and-spoke model works powerfully for law firms.</strong> A central &quot;Family Law&quot; hub page links to dedicated spoke pages for divorce, child custody, child support, alimony, adoption, prenuptial agreements, and domestic violence protective orders. Each spoke page contains 1,500+ words of substantive content addressing the specific questions clients ask about that topic. This structure tells AI exactly what your firm handles and gives it the content depth to cite you for specific queries.</p>
             </div>
 
-            <p>This is the same content architecture that works across industries. For more on this approach, see our guide on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether having a blog helps AI recommend your business</Link>.</p>
+            <p>This is the same content architecture that works across industries. For more on this approach, see our guide on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether having a blog helps AI recommend your business</Link>. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* COMPARISON TABLE: CONTENT DEPTH */}
             <table className="ae-comparison-table not-prose">
@@ -467,7 +467,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <span className="ae-section-label" id="directory-ecosystem">Directory Signals</span>
             <h2>The Legal Directory Ecosystem AI Actually Reads</h2>
 
-            <p>Law firms have access to a directory ecosystem that is richer and more specialized than almost any other industry. This is a significant advantage for AI visibility, but only if those directories are properly maintained. AI platforms cross-reference multiple legal directories when evaluating whether to recommend a firm.</p>
+            <p>Law firms have access to a directory ecosystem that is richer and more specialized than almost any other industry. This is a significant advantage for AI visibility, but only if those directories are properly maintained. AI platforms cross-reference multiple legal directories when evaluating whether to recommend a firm. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>The critical directories for legal AI visibility include Avvo, Martindale-Hubbell, Justia, FindLaw, Super Lawyers, Lawyers.com, the state bar association directory, and local bar association listings. Each platform serves a different function in AI&apos;s evaluation process. Avvo provides peer endorsements and client reviews. Martindale-Hubbell offers peer review ratings. State bar directories provide the credential verification AI needs for YMYL confidence.</p>
 
@@ -519,7 +519,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
               </tbody>
             </table>
 
-            <p>The power of this ecosystem is in consistency. When AI sees the same firm name, the same phone number, the same practice areas, and the same attorney credentials across seven or eight legal directories plus your own website, it builds high confidence in your data. When it finds inconsistencies, that confidence drops rapidly.</p>
+            <p>The power of this ecosystem is in consistency. When AI sees the same firm name, the same phone number, the same practice areas, and the same attorney credentials across seven or eight legal directories plus your own website, it builds high confidence in your data. When it finds inconsistencies, that confidence drops rapidly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -531,19 +531,19 @@ export default function HowLawFirmsGetFoundOnAISearch() {
             <span className="ae-section-label" id="reviews-layer">Trust Layer</span>
             <h2>The Review Layer AI Checks for Lawyers</h2>
 
-            <p>Client reviews are one of the strongest trust signals AI uses when deciding which lawyer to recommend. But here is the critical distinction most firms miss: not all reviews are visible to all AI platforms. The platform where reviews live determines which AI can access them.</p>
+            <p>Client reviews are one of the strongest trust signals AI uses when deciding which lawyer to recommend. But here is the critical distinction most firms miss: not all reviews are visible to all AI platforms. The platform where reviews live determines which AI can access them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p>Google reviews power Google AI Overviews, but ChatGPT, Perplexity, and Claude cannot access them directly. Google renders reviews via JavaScript within its own ecosystem. Your firm&apos;s 4.9-star Google rating with 200 reviews might be completely invisible to every AI platform except Google&apos;s own products. That is a significant blind spot when clients are increasingly turning to non-Google AI for legal recommendations.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Where AI actually reads law firm reviews:</strong> Avvo client reviews, Martindale-Hubbell client reviews, Yelp, and client testimonials published directly on your website as plain HTML text. Embedded review widgets from third-party platforms are typically JavaScript-rendered and invisible to AI crawlers. Client testimonials hard-coded into your website HTML are the single most reliable way to surface review sentiment to every AI platform simultaneously.</p>
+              <p><strong>Where AI actually reads law firm reviews:</strong> Avvo client reviews, Martindale-Hubbell client reviews, Yelp, and client testimonials published directly on your website as plain HTML text. Embedded review widgets from third-party platforms are typically JavaScript-rendered and invisible to AI crawlers. Client testimonials hard-coded into your website HTML are the single most reliable way to surface review sentiment to every AI platform simultaneously. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>AI does not just count stars. It analyzes sentiment, specificity, and recency. A review that says &quot;Attorney Rodriguez handled our commercial lease dispute expertly, negotiated a settlement that saved our company six figures, and kept us informed at every stage&quot; carries far more weight than &quot;Great lawyer, highly recommend.&quot; Specific reviews that mention practice areas, outcomes, communication style, and case complexity give AI the information it needs to recommend your firm for those specific legal queries.</p>
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI can actually read your client reviews or if they are trapped behind JavaScript.</p>
+              <p>Find out if AI can actually read your client reviews or if they are trapped behind JavaScript. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
             </div>
 
@@ -553,7 +553,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             <p>Beyond the template trap discussed earlier, law firm websites face several specific technical barriers that block AI visibility. These are the most fixable problems in legal AI optimization, and they are also the most overlooked.</p>
 
-            <p>Page speed is a gating factor. AI crawlers operate on time budgets. If your practice area pages take more than a few seconds to load because of hero videos, animated backgrounds, or uncompressed images of the courthouse, the crawler moves on to the next firm. The polished visual experience that impresses human visitors is actively working against AI discovery.</p>
+            <p>Page speed is a gating factor. AI crawlers operate on time budgets. If your practice area pages take more than a few seconds to load because of hero videos, animated backgrounds, or uncompressed images of the courthouse, the crawler moves on to the next firm. The polished visual experience that impresses human visitors is actively working against AI discovery. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>The robots.txt file and crawl permissions play a critical role. Some legal website platforms block AI crawlers by default. If your site tells GPTBot it is not welcome, ChatGPT will never read your practice area content, and it will never recommend your firm to anyone who asks.</p>
 
@@ -587,7 +587,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Discover whether AI crawlers can actually read your law firm website.</p>
+              <p>Discover whether AI crawlers can actually read your law firm website. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Check Your AI Crawlability &rarr;</Link>
             </div>
 
@@ -597,19 +597,19 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             <p>Legal information has a shelf life that AI platforms are acutely aware of. Statutes change. Case law evolves. Sentencing guidelines shift. Regulatory requirements update. A page about California employment law that references 2023 standards when 2026 regulations exist signals to AI that the content may not reflect current law. For a YMYL category where outdated information can cause direct harm, stale content is treated as a liability.</p>
 
-            <p>Research shows that content updated within 2 months receives significantly more AI citations than older content. For law firms, this freshness signal is amplified because AI platforms understand that legal advice based on outdated law is potentially harmful. A firm that regularly updates its practice area pages with current-year statute references, recent case developments, and evolving regulatory requirements builds a track record of currency that AI learns to trust over time.</p>
+            <p>Research shows that content updated within 2 months receives significantly more AI citations than older content. For law firms, this freshness signal is amplified because AI platforms understand that legal advice based on outdated law is potentially harmful. A firm that regularly updates its practice area pages with current-year statute references, recent case developments, and evolving regulatory requirements builds a track record of currency that AI learns to trust over time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-takeaway not-prose">
               <p><strong>The freshness advantage compounds.</strong> Firms that regularly update their legal content build a track record that AI platforms learn to favor. AI develops a preference for sources it has seen consistently updated. Starting now creates an advantage that grows with each update cycle, making it progressively harder for competitors to catch up.</p>
             </div>
 
-            <p>This does not mean rewriting your entire website every month. It means maintaining a content calendar that ensures your highest-value practice area pages are reviewed and updated with current-year statute references, new case law developments, and evolving regulatory requirements on a regular basis. Even small updates signal to AI that your content is actively maintained by practicing attorneys.</p>
+            <p>This does not mean rewriting your entire website every month. It means maintaining a content calendar that ensures your highest-value practice area pages are reviewed and updated with current-year statute references, new case law developments, and evolving regulatory requirements on a regular basis. Even small updates signal to AI that your content is actively maintained by practicing attorneys. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>The medical industry faces a similar challenge with clinical content freshness. For a parallel look at how another YMYL-classified industry navigates this, see our guide on <Link href="/blog/how-medical-practices-get-found-on-ai-search">how medical practices get found on AI search</Link>.</p>
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>How fresh is your legal content in AI&apos;s eyes? Our report shows when AI last crawled your pages.</p>
+              <p>How fresh is your legal content in AI&apos;s eyes? Our report shows when AI last crawled your pages. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -640,7 +640,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             {/* CTA 11 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your practice area and market? We do that.</p>
+              <p>Want this cheat sheet customized to your practice area and market? We do that. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -650,7 +650,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             <p>Client discovery is shifting permanently. AI search is not a trend that will reverse. It is a new channel that will grow alongside traditional search, and the growth trajectory is accelerating. The firms that build AI visibility now will develop a structural advantage that compounds over time, because AI platforms develop confidence in sources they have cited repeatedly.</p>
 
-            <p>Today, a potential client might ask AI for a general lawyer recommendation. Within the next year, clients will ask AI to compare specific firms by practice area, check consultation availability, and pre-screen based on case complexity and attorney specialization. The firms with deep, structured, credentialed content will be the ones AI trusts enough to surface in those increasingly specific queries.</p>
+            <p>Today, a potential client might ask AI for a general lawyer recommendation. Within the next year, clients will ask AI to compare specific firms by practice area, check consultation availability, and pre-screen based on case complexity and attorney specialization. The firms with deep, structured, credentialed content will be the ones AI trusts enough to surface in those increasingly specific queries. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>The competitive window is open.</strong> Most law firms have not optimized for AI search. That means early movers face less competition and can establish trust with AI platforms before the market catches up. Firms mentioned within AI-generated responses experience 35% more organic clicks and 91% more paid clicks compared to those omitted. The firms acting in 2026 will be the ones AI has learned to trust by 2027. Waiting means competing against an entrenched advantage that only grows stronger.</p>
@@ -658,7 +658,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             {/* CTA 12 */}
             <div className="ae-cta-inline not-prose">
-              <p>The firms acting now will own their market in AI search. The ones waiting will be playing catch-up.</p>
+              <p>The firms acting now will own their market in AI search. The ones waiting will be playing catch-up. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <Link href="/blindspot">See Where Your Firm Stands &rarr;</Link>
             </div>
 
@@ -670,7 +670,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
 
             {/* CTA 14 */}
             <div className="ae-cta-inline not-prose">
-              <p>Or call us directly. We specialize in AI visibility for law firms and professional service businesses.</p>
+              <p>Or call us directly. We specialize in AI visibility for law firms and professional service businesses. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -685,7 +685,7 @@ export default function HowLawFirmsGetFoundOnAISearch() {
               <p className="text-white font-semibold">Justin Borges</p>
               <p className="text-sm text-gray-400">
                 We help law firms and professional service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily and works with firms across every practice area to build sustainable AI visibility.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
           </div>
 

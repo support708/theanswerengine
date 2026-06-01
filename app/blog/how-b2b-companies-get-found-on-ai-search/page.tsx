@@ -234,13 +234,13 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to see which AI queries your B2B competitors are already winning? <Link href="/contact" className="text-[#F27D24] hover:underline font-semibold">Get a free B2B AI audit</Link> — we will show you exactly where you are visible and where you are invisible.</p>
+          <p>Want to see which AI queries your B2B competitors are already winning? <Link href="/contact" className="text-[#F27D24] hover:underline font-semibold">Get a free B2B AI audit</Link> — we will show you exactly where you are visible and where you are invisible. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <h2 id="how-b2b-buyers-use-ai">How B2B Buyers Use AI Today</h2>
         <p>
           The B2B buying journey has always been research-heavy. What has changed is where that research happens. A year ago, the sequence was: Google search, then review site, then vendor website, then demo request. Today, for a growing majority of buyers, the sequence starts with an AI query that generates a shortlist before any vendor website is ever visited.
-        </p>
+         Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">What B2B Buyers Are Actually Asking AI</div>
@@ -255,12 +255,12 @@ export default function Page() {
 
         <p>
           If your company does not appear in the answers to those questions, you are not on the shortlist. Not because you are not good enough — because AI platforms have not been given enough evidence to include you.
-        </p>
+         One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
         <h2 id="what-ai-looks-for">What AI Looks for in B2B Vendors</h2>
         <p>
           AI platforms evaluate B2B vendors differently than they evaluate local service businesses. The criteria shift toward expertise signals, credibility markers, and evidence of real-world outcomes. Understanding what AI is looking for lets you build the right evidence base.
-        </p>
+         Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <div className="ae-bar-group not-prose">
           <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Factors That Drive B2B AI Citations (Relative Weight)</div>
@@ -295,12 +295,12 @@ export default function Page() {
             <div className="ae-bar-value">Medium</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Based on AEO analysis across 200+ B2B company citation audits</p>
+        <p className="text-sm text-gray-500 mb-6">Based on AEO analysis across 200+ B2B company citation audits <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <h2 id="content-types">The Five Content Types That Get B2B Companies Cited</h2>
         <p>
           Not all B2B content is equal in AI citation value. These five content formats consistently outperform generic blog posts and product pages in driving AI recommendations.
-        </p>
+         Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -343,7 +343,7 @@ export default function Page() {
 
         <p>
           A case study that says &ldquo;we helped a client grow revenue&rdquo; is worthless to AI systems. A case study that says &ldquo;we helped a 45-person manufacturing company reduce materials waste by 32% and cut per-unit cost by $1.80 over 8 months&rdquo; is citable in response to dozens of queries. Specificity is the currency of AI citations.
-        </p>
+         Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">What Makes a B2B Case Study AEO-Ready</div>
@@ -359,7 +359,7 @@ export default function Page() {
         <h2 id="technical-foundation">Technical Foundation for B2B AEO</h2>
         <p>
           The technical requirements for B2B AEO overlap with standard AEO but with some B2B-specific additions. Here is what needs to be in place before content investment pays off.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -387,7 +387,7 @@ export default function Page() {
         <h2 id="buyer-journey">Mapping AEO to the B2B Buyer Journey</h2>
         <p>
           B2B buyers move through distinct stages, and each stage generates different AI queries. The companies that dominate AI citations at every stage own the deal before the first demo.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -423,7 +423,7 @@ export default function Page() {
         <h2 id="competitive-positioning">Competitive Positioning in AI Results</h2>
         <p>
           One of the most powerful and underused B2B AEO tactics is building content specifically designed to appear when buyers compare you to competitors. These pages consistently produce some of the highest commercial intent traffic in any B2B content strategy.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">B2B Competitive Positioning Content Framework</div>
@@ -440,7 +440,7 @@ export default function Page() {
         <h2 id="measuring-roi">Measuring B2B AEO ROI</h2>
         <p>
           B2B AEO ROI is measured differently than B2C because the commercial value per citation is dramatically higher. A single AI-recommended enterprise deal can justify months of AEO investment. Here is how to build a measurement framework.
-        </p>
+         Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -483,13 +483,13 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Compounding B2B AEO Advantage</div>
-          <p>Unlike paid search where you pay per click, AEO citations compound. A case study published in month 2 continues generating citations in month 12 without additional spend. Each new piece of content raises the floor of your overall AI visibility. B2B companies that start AEO programs in 2026 will have a structural advantage that new entrants in 2027 cannot easily overcome.</p>
+          <p>Unlike paid search where you pay per click, AEO citations compound. A case study published in month 2 continues generating citations in month 12 without additional spend. Each new piece of content raises the floor of your overall AI visibility. B2B companies that start AEO programs in 2026 will have a structural advantage that new entrants in 2027 cannot easily overcome. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Ready to Appear on Your Buyer&apos;s AI Shortlist?</h3>
-          <p className="text-gray-400 mb-6">B2B buyers are building shortlists from AI recommendations right now. Get your company in those answers before your competitors lock in the positions.</p>
+          <p className="text-gray-400 mb-6">B2B buyers are building shortlists from AI recommendations right now. Get your company in those answers before your competitors lock in the positions. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <Link href="/contact" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get My B2B AI Audit
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -516,7 +516,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
               </div>
 
@@ -526,44 +526,44 @@ export default function Page() {
 
           <details className="ae-faq-item">
             <summary>Are B2B buyers actually using AI to research vendors?</summary>
-            <p>Yes, and the adoption is accelerating rapidly. Research indicates that over 60% of B2B decision-makers now use AI tools as part of their vendor research process, using ChatGPT and Perplexity to generate shortlists, compare alternatives, understand pricing structures, and evaluate technical fit before ever visiting a vendor website.</p>
+            <p>Yes, and the adoption is accelerating rapidly. Research indicates that over 60% of B2B decision-makers now use AI tools as part of their vendor research process, using ChatGPT and Perplexity to generate shortlists, compare alternatives, understand pricing structures, and evaluate technical fit before ever visiting a vendor website. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>What kind of B2B content does AI recommend most often?</summary>
-            <p>AI platforms favor B2B content that answers specific operational questions: how does this product work, how does it compare to alternative X, what does implementation look like, and what do customers say about it. Technical documentation, case studies with specific outcomes, comparison guides, and FAQ content that addresses buyer objections all perform well.</p>
+            <p>AI platforms favor B2B content that answers specific operational questions: how does this product work, how does it compare to alternative X, what does implementation look like, and what do customers say about it. Technical documentation, case studies with specific outcomes, comparison guides, and FAQ content that addresses buyer objections all perform well. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>How is B2B AEO different from B2C AEO?</summary>
-            <p>B2B AEO targets a longer, more research-intensive buying journey. Buyers ask more specific, technical questions and want evidence of expertise, not just availability. B2B content needs to address multiple stakeholders — the technical evaluator, the budget owner, the end user — and each has different questions. The citation volume is lower but the commercial intent per citation is dramatically higher than B2C.</p>
+            <p>B2B AEO targets a longer, more research-intensive buying journey. Buyers ask more specific, technical questions and want evidence of expertise, not just availability. B2B content needs to address multiple stakeholders — the technical evaluator, the budget owner, the end user — and each has different questions. The citation volume is lower but the commercial intent per citation is dramatically higher than B2C. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Does thought leadership content help B2B AI visibility?</summary>
-            <p>Yes, significantly. AI platforms recognize pattern authority — when a company consistently publishes deep, accurate content in a specific domain, the platform begins treating that company as a trusted source for that category. Thought leadership that contains specific data, named methodologies, and concrete examples gets cited far more often than generic industry commentary.</p>
+            <p>Yes, significantly. AI platforms recognize pattern authority — when a company consistently publishes deep, accurate content in a specific domain, the platform begins treating that company as a trusted source for that category. Thought leadership that contains specific data, named methodologies, and concrete examples gets cited far more often than generic industry commentary. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>How important are case studies for B2B AI citations?</summary>
-            <p>Case studies are among the highest-value B2B AEO assets because they contain specific, citable outcomes. When a buyer asks AI who are good vendors for a specific use case and your case study includes results like &ldquo;reduced cost by 40% in 6 months for a manufacturing company,&rdquo; AI platforms can cite that claim directly. Vague case studies with no specific metrics have minimal citation value.</p>
+            <p>Case studies are among the highest-value B2B AEO assets because they contain specific, citable outcomes. When a buyer asks AI who are good vendors for a specific use case and your case study includes results like &ldquo;reduced cost by 40% in 6 months for a manufacturing company,&rdquo; AI platforms can cite that claim directly. Vague case studies with no specific metrics have minimal citation value. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Should B2B companies optimize for specific industries or general use cases?</summary>
-            <p>Both, but prioritize industry-specific content first. AI buyers in B2B are usually asking industry-specific questions. Appearing in those niche queries first builds the domain authority that eventually supports broader category queries.</p>
+            <p>Both, but prioritize industry-specific content first. AI buyers in B2B are usually asking industry-specific questions. Appearing in those niche queries first builds the domain authority that eventually supports broader category queries. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>How do B2B companies measure AEO ROI?</summary>
-            <p>Track three metrics: citation appearances by manually querying your top 20 buyer questions in Perplexity and ChatGPT monthly, AI-sourced demo requests by asking prospects how they found you, and branded search growth in Google Search Console. Most B2B companies see measurable pipeline attribution within 3 to 4 months.</p>
+            <p>Track three metrics: citation appearances by manually querying your top 20 buyer questions in Perplexity and ChatGPT monthly, AI-sourced demo requests by asking prospects how they found you, and branded search growth in Google Search Console. Most B2B companies see measurable pipeline attribution within 3 to 4 months. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </details>
         </div>
 
         {/* Final CTA */}
         <div className="not-prose mt-12 p-8 rounded-2xl border border-white/10 text-center">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Get on Your Buyer&apos;s AI Shortlist Before Your Competitors Do</h3>
-          <p className="text-gray-400 mb-6">The window to establish B2B AI visibility before your category gets competitive is narrowing. Companies building AEO programs now will be the default recommendations your buyers see in 2027.</p>
+          <p className="text-gray-400 mb-6">The window to establish B2B AI visibility before your category gets competitive is narrowing. Companies building AEO programs now will be the default recommendations your buyers see in 2027. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">Start My B2B AEO Program</Link>
             <Link href="/blog" className="inline-flex items-center gap-2 border border-white/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-white/40 transition-colors">Read More AEO Guides</Link>

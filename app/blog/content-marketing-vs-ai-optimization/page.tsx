@@ -491,7 +491,7 @@ export default function Page() {
               to you when they are ready to buy. The worldwide content marketing industry is
               projected to surpass $107 billion in revenue by the end of 2026, and 54.5% of
               businesses plan to increase their content marketing spend this year.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The ROI numbers are real. Content marketing generates an average of $7.65 for
               every dollar invested. Short-form video leads the pack with an 890% ROI, the
@@ -499,7 +499,7 @@ export default function Page() {
               $42 for every $1 spent. These are not hypothetical projections. Businesses running
               serious content programs see these returns, and the compounding effect over 12 to
               24 months can be powerful.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             <p className="text-gray-300 leading-relaxed mb-6">
               But here is where the picture gets complicated. Content marketing was built for a
               world where people clicked links. Where a blog post on page one of Google meant
@@ -507,7 +507,7 @@ export default function Page() {
               phone call. That pipeline still exists, but it is eroding. The mechanism that
               carried content to customers is changing underneath every marketer, and most
               content teams have not adjusted.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* Callout: Content ROI context */}
             <div
@@ -532,7 +532,7 @@ export default function Page() {
                     is shrinking. Gartner projects traditional search engine volume will decline
                     25% by the end of 2026. You are building better content for a smaller audience
                     unless you solve the distribution side.
-                  </p>
+                   Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
             </div>
@@ -581,7 +581,7 @@ export default function Page() {
               ))}
               <p className="text-xs text-gray-600 mt-3">
                 Sources: Content Marketing Institute, RankTracker, HubSpot, 2025-2026
-              </p>
+               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
           </section>
 
@@ -599,7 +599,7 @@ export default function Page() {
                   Publishing great content but traffic is flat?
                 </span>{' '}
                 The problem might not be your content. It might be where customers are looking.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
             <a
               href="/blindspot"
@@ -626,14 +626,14 @@ export default function Page() {
               platforms do not show ten blue links. They synthesize a single answer from multiple
               sources and present it directly to the user. If your business is not in that
               answer, you do not exist to that customer in that moment.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The scale of this shift is not incremental. In 2026, 37% of consumers start their
               searches with AI tools instead of Google or Bing. AI Overviews now appear in 58%
               of all Google queries, up from just 12% in 2024. Among searches that trigger AI
               Overviews, 83% result in zero clicks to any external website. This is not a
               forecast. It is the current reality.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <p className="text-gray-300 leading-relaxed mb-6">
               AI optimization works differently than content marketing. Instead of creating
               volume to attract audiences over time, it focuses on structural signals that AI
@@ -642,7 +642,7 @@ export default function Page() {
               topical depth, and trust indicators that most content marketers have never
               considered. The discipline is newer, more technical, and for most businesses,
               completely uncharted.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Visual: AI platform growth cards */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
@@ -696,7 +696,7 @@ export default function Page() {
                     content marketing if 200 AI-referred visitors convert at 23x the rate. The
                     game is shifting from volume to precision, and AI optimization is how you play
                     the precision game.
-                  </p>
+                   Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
             </div>
@@ -715,7 +715,7 @@ export default function Page() {
               >
                 traditional marketing compares to AI visibility
               </Link>, we covered the full data in a recent analysis.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </section>
 
           {/* Inline CTA 2 */}
@@ -732,7 +732,7 @@ export default function Page() {
                   Not sure where your business stands on AI search?
                 </span>{' '}
                 A free Blind Spot Audit shows you exactly what ChatGPT, Perplexity, and Google AI say about you today.
-              </p>
+               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
             <a
               href="/blindspot"
@@ -755,7 +755,7 @@ export default function Page() {
               The differences between content marketing and AI optimization are not subtle once
               you line them up. They operate on different timelines, target different platforms,
               and measure success in fundamentally different ways.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="overflow-x-auto mb-8">
               <table
@@ -905,7 +905,7 @@ export default function Page() {
                 platforms, and compound in different ways. The businesses winning right now are
                 the ones that have figured out how to make them work together. That integration,
                 however, is where most teams hit a wall.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
           </section>
 
@@ -923,7 +923,7 @@ export default function Page() {
                   Where does your business fall on this table?
                 </span>{' '}
                 Get a free AI Blind Spot Audit and find out in 5 minutes.
-              </p>
+               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
             <a
               href="/blindspot"
@@ -948,7 +948,7 @@ export default function Page() {
               website. For queries that trigger AI Overviews, the zero-click rate jumps to 83%.
               Organic CTR on informational queries has dropped by as much as 61% since AI
               Overviews became widespread.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             <p className="text-gray-300 leading-relaxed mb-6">
               This is the structural problem content marketing cannot fix on its own. You can
               write the best blog post ever published on your topic. You can optimize it
@@ -956,7 +956,7 @@ export default function Page() {
               may still summarize your content in an AI Overview, give the user the answer, and
               never send a single visitor to your site. Your content becomes training data for
               the AI, not a traffic source for your business.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Warning callout */}
             <div
@@ -982,7 +982,7 @@ export default function Page() {
                     problem. Faster content production into a shrinking organic channel is a
                     treadmill, not a strategy. The question is not "how do we create more?"
                     but "how do we get found where customers are actually looking?"
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 </div>
               </div>
             </div>
@@ -1001,7 +1001,7 @@ export default function Page() {
               >
                 practical business problem
               </Link>.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Visual: Zero-click funnel */}
             <div
@@ -1046,7 +1046,7 @@ export default function Page() {
               ))}
               <p className="text-xs text-gray-600 mt-3">
                 Sources: SparkToro, GoodFirms, ClickVision, Position Digital, 2026
-              </p>
+               Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
           </section>
 
@@ -1064,7 +1064,7 @@ export default function Page() {
                   Is your content feeding AI answers for competitors?
                 </span>{' '}
                 Find out who AI platforms are recommending instead of you.
-              </p>
+               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
             <a
               href="tel:+12134442229"
@@ -1087,7 +1087,7 @@ export default function Page() {
               Neither content marketing nor AI optimization is universally better. Each has
               genuine strengths and real limitations. Understanding both is the first step toward
               a strategy that actually covers the full customer journey.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Content Marketing Pros/Cons */}
             <h3
@@ -1268,7 +1268,7 @@ export default function Page() {
                   Wondering which approach fits your business?
                 </span>{' '}
                 A 5-minute AI audit reveals the answer.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
             <a
               href="/blindspot"
@@ -1293,7 +1293,7 @@ export default function Page() {
               information that AI platforms use as source material. AI optimization ensures that
               authority actually translates into AI citations and recommendations. One without
               the other leaves a gap.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-6">
               Content without AI optimization means you create valuable assets that AI platforms
               may reference but never attribute to your business. AI optimization without content
@@ -1302,7 +1302,7 @@ export default function Page() {
               advantage lives. Businesses that integrate both approaches effectively are
               capturing customers at every stage: awareness through content, and conversion
               through AI citation at the exact moment of purchase intent.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The problem is execution. Integrating content marketing with AI optimization
               requires expertise that sits at the intersection of content strategy, technical
@@ -1320,7 +1320,7 @@ export default function Page() {
               >
                 doing it yourself versus hiring an expert
               </Link>, the complexity of integration is the deciding factor for most teams.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Decision cards */}
             <div className="grid md:grid-cols-3 gap-4 mb-8">
@@ -1364,7 +1364,7 @@ export default function Page() {
                   </h3>
                   <p className="text-sm text-gray-400 leading-relaxed mb-4">
                     {card.desc}
-                  </p>
+                   <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                   <span
                     className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full"
                     style={{
@@ -1394,7 +1394,7 @@ export default function Page() {
                   Already doing content marketing? Good.
                 </span>{' '}
                 Now find out if any of that work is actually reaching AI platforms.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
             <a
               href="mailto:support@theanswerengine.ai"
@@ -1421,7 +1421,7 @@ export default function Page() {
               generates citation signals: entity consistency, structured data accuracy,
               third-party authority mentions, topical coverage depth. These signals tell AI
               platforms your business is trustworthy enough to recommend.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <p className="text-gray-300 leading-relaxed mb-6">
               The gap appears when businesses invest heavily in content marketing signals but
               ignore citation signals entirely. A company can rank on page one of Google for a
@@ -1439,7 +1439,7 @@ export default function Page() {
               </Link>{' '}
               while also building structural authority signals are the ones AI platforms learn
               to trust and cite repeatedly.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Signal comparison visual */}
             <div className="grid md:grid-cols-2 gap-6 mb-8">

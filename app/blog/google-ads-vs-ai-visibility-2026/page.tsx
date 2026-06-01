@@ -250,42 +250,42 @@ export default function Page() {
 
         <p>
           If you are a CMO, agency media buyer, or business owner staring at a marketing budget spreadsheet right now, you are facing a question that did not exist two years ago: should you keep pouring money into Google Ads, or start diverting budget toward AI search visibility?
-        </p>
+         Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         <p>
           The honest answer — backed by every data point we could find — is that framing it as an either/or decision is already the wrong approach. But the data tells a nuanced story that should change how you allocate spend. Here is what the numbers actually say.
-        </p>
+         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
         {/* Traffic Comparison */}
         <h2 id="traffic-comparison">Traffic Volume: Google Still Dominates — But the Trendlines Should Worry You</h2>
         <p>
           Let us start with the uncomfortable reality for AI optimists: Google is still massive. Traditional search engines processed 1.86 trillion visits over the past year. The top 10 AI chatbots combined? 55.2 billion. That makes AI traffic roughly 2.96% of traditional search volume.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
         <p>
           But the growth trajectory tells a different story. AI search traffic grew 527% year over year from January through May 2025 compared to the same period in 2024. Referral visits from AI platforms surged 357% to 1.13 billion. Meanwhile, traditional search volume declined 0.51%.
-        </p>
+         Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         <p>
           Here is what that looks like in context: ChatGPT alone commands 80.49% of the AI chatbot market, sending roughly 4 out of every 5 AI-driven clicks. Google Gemini quadrupled its share from 5.7% to 21.5% in six months. Perplexity holds 15-20% depending on geography. These are not fringe tools anymore — they are mainstream research platforms.
-        </p>
+         Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Math That Should Concern Google Ads Buyers</div>
-          <p>AI search grew 527% in one year. Traditional search declined 0.51%. If even a fraction of that growth trajectory continues, AI search will represent 10-15% of total search volume within 2-3 years. Every percentage point it gains represents billions of queries your Google Ads will never reach.</p>
+          <p>AI search grew 527% in one year. Traditional search declined 0.51%. If even a fraction of that growth trajectory continues, AI search will represent 10-15% of total search volume within 2-3 years. Every percentage point it gains represents billions of queries your Google Ads will never reach. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
         </div>
 
         {/* Cost Comparison */}
         <h2 id="cost-comparison">Cost: Rising CPCs vs a Zero-Click Investment Model</h2>
         <p>
           Google Ads costs are climbing and they are not slowing down. The average cost per click across all industries sits between $2.10 and $5.26 in 2026, with CPCs increasing 10-15% annually since 2023. Legal advertisers pay $8.58 per click on average. Personal injury lawyers? North of $100 per click.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
         <p>
           The driver is straightforward: more advertisers are entering auctions, automated bidding systems are optimizing against each other, and competition is compressing margins. If you are running Google Ads profitably today, you are spending more for each click than you were 12 months ago, and you will spend more again next year.
-        </p>
+         Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         <p>
           AI visibility operates on a fundamentally different cost model. There is no cost per click to ChatGPT, Perplexity, Gemini, or Claude. You do not bid in an auction. You do not pay when someone clicks through from an AI citation. The investment is in content optimization — structuring your website so AI platforms recognize you as a credible source and cite you in relevant answers.
-        </p>
+         Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         <p>
           That does not mean AI visibility is free. It requires investment in content strategy, technical optimization, and ongoing authority building. But once you earn a citation position, it compounds. A piece of content optimized in month two still generates AI referrals in month twelve without incremental spend. Google Ads stops the moment you stop paying.
-        </p>
+         Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="not-prose overflow-x-auto my-8">
           <table className="ae-table">
@@ -335,51 +335,51 @@ export default function Page() {
         <h2 id="conversion-rates">Conversion Rates: Where AI Visibility Wins Decisively</h2>
         <p>
           This is where the conversation gets interesting for anyone focused on ROI rather than raw traffic numbers.
-        </p>
+         One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         <p>
           AI-referred visitors convert at 14.2% on average. Google organic converts at 2.8%. That is a 5x conversion advantage. Broken down by platform: ChatGPT referrals convert at 15.9%, Perplexity at 10.5%, Claude at 5.0%, and Gemini at 3.0%.
-        </p>
+         Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
         <p>
           Why the dramatic difference? Intent clarity. When someone clicks a Google Ad for &ldquo;roofing company near me,&rdquo; they might be comparing prices, looking at reviews, or just browsing. When someone arrives at your site from a ChatGPT citation that answered &ldquo;who is the most reliable roofer in [city] for tile roof repairs,&rdquo; they have already been pre-qualified by the AI. They know what they want. You were recommended.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
         <p>
           The engagement data reinforces this: AI visitors spend 67.7% more time on sites — an average of 9 minutes 19 seconds compared to 5 minutes 33 seconds for Google organic. They are reading deeper, exploring more pages, and converting at higher rates because they arrived with more context and higher intent.
-        </p>
+         Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Pipeline Math</div>
-          <p>AI traffic currently accounts for just 1.08% of total website sessions. But it generates 19% of qualified pipeline. That disparity — 1% of traffic producing 19% of qualified leads — is why CFOs should be paying attention. Dollar for dollar, AI-sourced visitors are producing outsized business outcomes.</p>
+          <p>AI traffic currently accounts for just 1.08% of total website sessions. But it generates 19% of qualified pipeline. That disparity — 1% of traffic producing 19% of qualified leads — is why CFOs should be paying attention. Dollar for dollar, AI-sourced visitors are producing outsized business outcomes. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         {/* CTR Impact */}
         <h2 id="ctr-impact">The AI Overviews Problem Nobody Talks About</h2>
         <p>
           Here is the factor that should genuinely concern every Google Ads buyer: Google&apos;s own AI features are cannibalizing your ad performance.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
         <p>
           As of March 2026, 48% of all search queries trigger AI Overviews — up 58% from December 2025. When AI Overviews appear, organic click-through rates drop 61%. Paid ad CTR drops 68%, from 19.7% down to 6.34%. You are paying the same CPC for dramatically fewer clicks.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         <p>
           The zero-click problem is even more severe. Traditional queries without AI Overviews already had a 60% zero-click rate. Queries with AI Overviews? 83% zero-click. Google&apos;s AI Mode specifically generates zero outbound clicks on 93% of queries.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         <p>
           Google is responding by embedding ads within AI results — 25.5% of AI Overview results now include ads, up 394% from early 2025. But the ad formats are different, the CTRs are lower, and the bidding dynamics are still evolving. Projected AI search ad spend for 2026 is $2.08 billion, just 1.3% of total search ad spend, growing to $25.93 billion by 2029.
-        </p>
+         Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         <p>
           The practical implication: if you are running Google Ads campaigns targeting informational or comparison queries, nearly half of your impressions may be generating significantly fewer clicks than your historical data suggests. Your cost-per-acquisition is quietly rising even if your CPC stays flat.
-        </p>
+         Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         {/* Business Sentiment */}
         <h2 id="business-sentiment">What Business Owners Actually Think</h2>
         <p>
           Despite everything above, business owners remain committed to Google Ads. 76% of small businesses report satisfaction with search advertising. 70% cite it as their highest-ROI channel. 46% of SMBs are planning to increase ad budgets in 2025-2026.
-        </p>
+         We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         <p>
           This is not irrational. Google Ads still works. The average return is $2 revenue per $1 spent. 65% of industries saw conversion rate improvements in 2025. For businesses that need leads today — not in 8-16 weeks — paid search delivers immediate, measurable results.
-        </p>
+         Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         <p>
           But there is an underlying tension in the data. CPCs are rising at 12.88% annually while conversion rates are only improving at 6.84%. That means margins are compressing about 6% every year. The businesses thriving on Google Ads are the ones optimizing continuously. &ldquo;Set it and forget it&rdquo; campaigns are losing money faster than ever.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Why Most Business Owners Have Not Shifted Yet</div>
@@ -395,30 +395,30 @@ export default function Page() {
         <h2 id="behavior-shifts">How Search Behavior Has Fractured</h2>
         <p>
           The most important data point in this entire analysis: more than 50% of respondents now start their search journey in an AI app. Not Google. An AI app.
-        </p>
+         Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         <p>
           But here is the nuance that makes this a hybrid story, not a replacement story: 85% of those users verify AI answers on Google afterward. The search journey has become AI-first for research, Google for validation and purchase. Users ask ChatGPT &ldquo;what are the best options for X,&rdquo; then Google the specific recommendations to check reviews, pricing, and availability.
-        </p>
+         Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         <p>
           The query types shifting fastest toward AI are factual lookups (AI preference grew from 23% to 29%), definitions, comparisons, and how-to guides. Purchase-intent queries remain Google-dominant — for now.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
         <p>
           What this means for budget allocation: if your Google Ads strategy targets top-of-funnel informational queries, AI is already eating your lunch. If you target bottom-of-funnel purchase-intent queries, Google Ads remains strong but the pool of clicks is shrinking as AI Overviews absorb more SERP real estate.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
         <p>
           One more data point worth noting: 60% of users say AI answers are clearer and more useful than traditional search results. But 85% still verify on Google. There is a trust gap between utility and action. That gap will close — the only question is how fast.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Citation Multiplier Effect</div>
-          <p>Brands cited in AI Overviews see 35% more organic clicks and 91% more paid clicks on Google. Being visible in AI does not just drive direct AI traffic — it lifts your Google performance too. AI visibility and Google Ads are not competing channels. They are amplifying each other.</p>
+          <p>Brands cited in AI Overviews see 35% more organic clicks and 91% more paid clicks on Google. Being visible in AI does not just drive direct AI traffic — it lifts your Google performance too. AI visibility and Google Ads are not competing channels. They are amplifying each other. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
         </div>
 
         {/* The Real Question */}
         <h2 id="real-question">The Real Question for Your Business</h2>
         <p>
           Stop asking &ldquo;which one is better.&rdquo; Start asking: &ldquo;which one is my customer using right now, and am I visible there?&rdquo;
-        </p>
+         <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         <p>
           If your customer is a homeowner searching &ldquo;emergency plumber near me&rdquo; at 11 PM, Google Ads wins. That is a purchase-intent query where immediacy matters and AI has not changed the behavior.
         </p>

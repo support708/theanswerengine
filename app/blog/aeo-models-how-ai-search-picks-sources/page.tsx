@@ -337,7 +337,7 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
 
             {/* Named-thesis opener */}
             <div className="ae-quote not-prose">
-              <p><strong className="named-thesis">The Retrieval Hierarchy: every major AEO model — ChatGPT, Perplexity, Claude, Gemini, Google AI Mode — runs the same three-stage funnel (retrieve, score, cite), and a source that fails any stage is structurally invisible no matter how authoritative the brand is offline.</strong> The implication is direct: AEO is not about beating one ranking algorithm. It is about clearing three thresholds inside every engine simultaneously. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), and 16 months of TAE client engagements measured against fixed prompt libraries.</p>
+              <p><strong className="named-thesis">The Retrieval Hierarchy: every major AEO model — ChatGPT, Perplexity, Claude, Gemini, Google AI Mode — runs the same three-stage funnel (retrieve, score, cite), and a source that fails any stage is structurally invisible no matter how authoritative the brand is offline.</strong> The implication is direct: AEO is not about beating one ranking algorithm. It is about clearing three thresholds inside every engine simultaneously. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), and 16 months of TAE client engagements measured against fixed prompt libraries. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             </div>
 
             {/* Section 1 */}
@@ -345,17 +345,17 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
             <h2>What an AEO Model Actually Is</h2>
 
             <h3>The plain-language definition</h3>
-            <p>An AEO model is the internal pipeline an AI search engine uses to decide which sources to cite when answering a user query. Answer Engine Optimization (AEO) — also called AI citation optimization or LLM visibility — is the practice of structuring content so that pipeline scores it above the engine&apos;s citation threshold. Every major engine runs an AEO model, and every model can be reduced to three sequential stages: retrieve candidate passages from an index, score those passages on relevance and authority, and decide whether each scored passage clears the bar for inline attribution in the final response.</p>
+            <p>An AEO model is the internal pipeline an AI search engine uses to decide which sources to cite when answering a user query. Answer Engine Optimization (AEO) — also called AI citation optimization or LLM visibility — is the practice of structuring content so that pipeline scores it above the engine&apos;s citation threshold. Every major engine runs an AEO model, and every model can be reduced to three sequential stages: retrieve candidate passages from an index, score those passages on relevance and authority, and decide whether each scored passage clears the bar for inline attribution in the final response. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <h3>Why the model — not the engine — is what AEO targets</h3>
-            <p>Brands and operators often treat ChatGPT, Perplexity, and Gemini as separate problems. The engines are separate. The underlying AEO model is shared. Aggarwal et al. (KDD 2024) tested nine optimization tactics across three different generative search engines and found that the same content interventions — quotations, statistics, structured data — produced citation lifts on all three, with magnitudes ranging from 22% to 40%. The lift is not engine-specific. It is signal-specific. Optimize for the AEO model architecture and the engine-level wins follow.</p>
+            <p>Brands and operators often treat ChatGPT, Perplexity, and Gemini as separate problems. The engines are separate. The underlying AEO model is shared. Aggarwal et al. (KDD 2024) tested nine optimization tactics across three different generative search engines and found that the same content interventions — quotations, statistics, structured data — produced citation lifts on all three, with magnitudes ranging from 22% to 40%. The lift is not engine-specific. It is signal-specific. Optimize for the AEO model architecture and the engine-level wins follow. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <h3>The field is younger than your content stack</h3>
-            <p>The foundational academic work on AEO and Generative Engine Optimization (GEO) is less than two years old. The Aggarwal et al. paper at KDD 2024 was the first peer-reviewed measurement of optimization tactics on generative engines. The GEO-SFE benchmark followed in 2026 with the first standardized scoring framework for source-format extractability. The implication: anyone publishing AEO advice older than 24 months is working from pre-evidence intuition. The Answer Engine has run AEO against this academic literature on our own site since 2025 — 1.14M+ monthly impressions and citation presence across all four major LLMs — and we map every client engagement to the same protocol.</p>
+            <p>The foundational academic work on AEO and Generative Engine Optimization (GEO) is less than two years old. The Aggarwal et al. paper at KDD 2024 was the first peer-reviewed measurement of optimization tactics on generative engines. The GEO-SFE benchmark followed in 2026 with the first standardized scoring framework for source-format extractability. The implication: anyone publishing AEO advice older than 24 months is working from pre-evidence intuition. The Answer Engine has run AEO against this academic literature on our own site since 2025 — 1.14M+ monthly impressions and citation presence across all four major LLMs — and we map every client engagement to the same protocol. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 — calendly */}
             <div className="ae-cta-inline not-prose">
-              <p>Want us to map your current site to the AEO model architecture and show you exactly which of the three stages is leaking your citations? Book a 30-minute audit walkthrough.</p>
+              <p>Want us to map your current site to the AEO model architecture and show you exactly which of the three stages is leaking your citations? Book a 30-minute audit walkthrough. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <a href="https://calendly.com/theanswerengine-support/30min">Book the AEO Audit Walkthrough &rarr;</a>
             </div>
 
@@ -364,22 +364,22 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
             <h2>The Three-Stage Retrieval Hierarchy</h2>
 
             <h3>Stage one: candidate retrieval</h3>
-            <p>The first stage of every AEO model rewrites the user&apos;s natural-language prompt into one or more retrieval queries, expands synonyms, and pulls a candidate pool of passages from the engine&apos;s index. The size of the candidate pool varies — Perplexity typically retrieves 6 to 12 sources per answer, Google AI Mode pulls a wider net before scoring — but the function is identical. <strong className="named-thesis">The Prompt Mediation Layer: the user prompt is rewritten by the engine into multiple synonymous queries before retrieval, so content that uses two or three phrasings of the same concept qualifies for more retrieval candidates than content that uses one (Aggarwal et al., KDD 2024).</strong> The practical consequence: a service page that names &quot;slab leak repair,&quot; &quot;under-slab leak,&quot; and &quot;foundation pipe leak&quot; clears more retrieval queries than a page that uses only one phrasing.</p>
+            <p>The first stage of every AEO model rewrites the user&apos;s natural-language prompt into one or more retrieval queries, expands synonyms, and pulls a candidate pool of passages from the engine&apos;s index. The size of the candidate pool varies — Perplexity typically retrieves 6 to 12 sources per answer, Google AI Mode pulls a wider net before scoring — but the function is identical. <strong className="named-thesis">The Prompt Mediation Layer: the user prompt is rewritten by the engine into multiple synonymous queries before retrieval, so content that uses two or three phrasings of the same concept qualifies for more retrieval candidates than content that uses one (Aggarwal et al., KDD 2024).</strong> The practical consequence: a service page that names &quot;slab leak repair,&quot; &quot;under-slab leak,&quot; and &quot;foundation pipe leak&quot; clears more retrieval queries than a page that uses only one phrasing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>Stage two: relevance and authority scoring</h3>
-            <p>The retrieved candidate passages are scored on two axes. Relevance scoring measures how closely the passage answers the rewritten query. Authority scoring measures structural and entity signals: schema markup presence, named author with credentials, third-party co-citations, indexed depth on the topic, freshness. Zhang et al. (2026) demonstrated that passages opening with a clear definition of their subject earned a 57% influence premium in the final response. The mechanism is mechanical: the scoring layer weights the first sentence of a passage heaviest, and a definition-first opening collides cleanly with both relevance and authority signals.</p>
+            <p>The retrieved candidate passages are scored on two axes. Relevance scoring measures how closely the passage answers the rewritten query. Authority scoring measures structural and entity signals: schema markup presence, named author with credentials, third-party co-citations, indexed depth on the topic, freshness. Zhang et al. (2026) demonstrated that passages opening with a clear definition of their subject earned a 57% influence premium in the final response. The mechanism is mechanical: the scoring layer weights the first sentence of a passage heaviest, and a definition-first opening collides cleanly with both relevance and authority signals. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>Stage three: citation threshold and inclusion</h3>
-            <p>The final stage decides whether each scored passage clears the engine&apos;s citation threshold. Passages above the threshold are included in the response with inline attribution. Passages below the threshold may still inform the synthesized answer but receive no source mention. <strong className="named-thesis">The Citation Decision Tree: every AEO model runs a binary classifier at the inclusion stage that gates attribution behind a minimum extractability score, which is why a passage can shape the answer without ever being cited (GEO-SFE, 2026).</strong> The implication for operators: low-extractability content can still be read by the model and still lose attribution. Citation requires clearing both the relevance bar and the structural bar — not just one.</p>
+            <p>The final stage decides whether each scored passage clears the engine&apos;s citation threshold. Passages above the threshold are included in the response with inline attribution. Passages below the threshold may still inform the synthesized answer but receive no source mention. <strong className="named-thesis">The Citation Decision Tree: every AEO model runs a binary classifier at the inclusion stage that gates attribution behind a minimum extractability score, which is why a passage can shape the answer without ever being cited (GEO-SFE, 2026).</strong> The implication for operators: low-extractability content can still be read by the model and still lose attribution. Citation requires clearing both the relevance bar and the structural bar — not just one. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Three Stages in Sequence</div>
-              <p><strong>Retrieve</strong> (prompt rewrite + index pull) → <strong>Score</strong> (relevance + authority) → <strong>Cite</strong> (threshold + inclusion). A source must clear all three. Failing any stage produces invisibility even if the brand is dominant offline.</p>
+              <p><strong>Retrieve</strong> (prompt rewrite + index pull) → <strong>Score</strong> (relevance + authority) → <strong>Cite</strong> (threshold + inclusion). A source must clear all three. Failing any stage produces invisibility even if the brand is dominant offline. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* CTA 2 — blindspot */}
             <div className="ae-cta-inline not-prose">
-              <p>Our free Blindspot Scan runs your site through all three AEO-model stages on 20 market queries and returns the exact stage each cited competitor is winning on. Free, no commitment.</p>
+              <p>Our free Blindspot Scan runs your site through all three AEO-model stages on 20 market queries and returns the exact stage each cited competitor is winning on. Free, no commitment. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
             </div>
 
@@ -387,22 +387,22 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
             <span className="ae-section-label" id="authority-triad">The Signals</span>
             <h2>The Five Signals AEO Models Score</h2>
 
-            <p>The scoring stage of every AEO model evaluates the same core signals, even when the relative weights differ between engines. The five signals below are the consistent levers across the academic literature and the TAE client measurement set. Optimizing for these five compounds across every engine.</p>
+            <p>The scoring stage of every AEO model evaluates the same core signals, even when the relative weights differ between engines. The five signals below are the consistent levers across the academic literature and the TAE client measurement set. Optimizing for these five compounds across every engine. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>Signal 1: schema markup depth</h3>
-            <p>Schema markup is the machine-readable label AEO models use to classify a passage. A page with FAQPage, Article, and LocalBusiness schema is pre-classified for the scoring layer. The model knows what the content is, who authored it, and what entity it describes. <strong className="named-thesis">The Schema Classification Effect: structured data raises the authority score by removing inference uncertainty, which is why pages with full schema stacks are cited at 2.8x the rate of equivalent unstructured pages in benchmark measurement (OtterlyAI, 2026).</strong> Schema markup is the lowest-cost, highest-yield AEO intervention.</p>
+            <p>Schema markup is the machine-readable label AEO models use to classify a passage. A page with FAQPage, Article, and LocalBusiness schema is pre-classified for the scoring layer. The model knows what the content is, who authored it, and what entity it describes. <strong className="named-thesis">The Schema Classification Effect: structured data raises the authority score by removing inference uncertainty, which is why pages with full schema stacks are cited at 2.8x the rate of equivalent unstructured pages in benchmark measurement (OtterlyAI, 2026).</strong> Schema markup is the lowest-cost, highest-yield AEO intervention. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>Signal 2: FAQ format and self-contained chunks</h3>
-            <p>FAQPage schema produces the highest citation lift of any structured data type. The reason is mechanical: a question paired with a 40-to-80-word direct answer is the exact format the citation stage of every AEO model expects. The chunk is self-contained, the answer is verbatim-quotable, and the question matches user prompt language. GEO-SFE (2026) measured a 43% citation lift from list and table formatting alone. FAQ blocks combine both effects.</p>
+            <p>FAQPage schema produces the highest citation lift of any structured data type. The reason is mechanical: a question paired with a 40-to-80-word direct answer is the exact format the citation stage of every AEO model expects. The chunk is self-contained, the answer is verbatim-quotable, and the question matches user prompt language. GEO-SFE (2026) measured a 43% citation lift from list and table formatting alone. FAQ blocks combine both effects. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>Signal 3: named author with verifiable credentials</h3>
-            <p>The authority score weights attribution chain explicitly. An anonymous page is treated as lower-trust than a page authored by a named expert with sameAs links to verifiable external profiles. <strong className="named-thesis">The Verifiability Premium: content authored by named experts with sameAs schema links to external profiles clears the authority threshold at 1.9x the rate of anonymous content, because the model can trace the attribution chain (Chen et al., 2025).</strong> This is operational, not theoretical: adding a Person schema block with a sameAs LinkedIn URL takes ten lines of JSON-LD.</p>
+            <p>The authority score weights attribution chain explicitly. An anonymous page is treated as lower-trust than a page authored by a named expert with sameAs links to verifiable external profiles. <strong className="named-thesis">The Verifiability Premium: content authored by named experts with sameAs schema links to external profiles clears the authority threshold at 1.9x the rate of anonymous content, because the model can trace the attribution chain (Chen et al., 2025).</strong> This is operational, not theoretical: adding a Person schema block with a sameAs LinkedIn URL takes ten lines of JSON-LD. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>Signal 4: third-party co-citation</h3>
-            <p>AEO models score sources higher when other indexed sources cite or mention the same entity. Press mentions, directory listings, association memberships, and review citations all contribute to the co-citation graph the authority score reads from. Chen et al. (2025) documented a systematic bias in AEO models toward earned media coverage over self-published brand content — meaning a press mention often outweighs your own service page on the same topic. Brands that have no third-party mentions are scoring against themselves.</p>
+            <p>AEO models score sources higher when other indexed sources cite or mention the same entity. Press mentions, directory listings, association memberships, and review citations all contribute to the co-citation graph the authority score reads from. Chen et al. (2025) documented a systematic bias in AEO models toward earned media coverage over self-published brand content — meaning a press mention often outweighs your own service page on the same topic. Brands that have no third-party mentions are scoring against themselves. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Signal 5: chunk-bounded direct-answer openings</h3>
-            <p>The extractability score in the citation stage measures whether a passage can be quoted verbatim without surrounding context. Aggarwal et al. (KDD 2024) measured that adding quotations to a passage produced a 37% citation lift; adding statistics produced 22%. Both work because they create discrete, attribution-ready facts inside a self-contained chunk. <strong className="named-thesis">The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers, and splitting them into 80-to-180-word self-contained units restores full extraction accuracy (GEO-SFE, 2026).</strong> The 80-180 word window is the engineering target.</p>
+            <p>The extractability score in the citation stage measures whether a passage can be quoted verbatim without surrounding context. Aggarwal et al. (KDD 2024) measured that adding quotations to a passage produced a 37% citation lift; adding statistics produced 22%. Both work because they create discrete, attribution-ready facts inside a self-contained chunk. <strong className="named-thesis">The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers, and splitting them into 80-to-180-word self-contained units restores full extraction accuracy (GEO-SFE, 2026).</strong> The 80-180 word window is the engineering target. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="not-prose overflow-x-auto my-8">
               <table className="ae-comparison-table w-full text-sm">
@@ -445,7 +445,7 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
 
             {/* CTA 3 — territory */}
             <div className="ae-cta-inline not-prose">
-              <p>We work with one operator per market. If your competitor claims your territory first, we will not take you as a client in that geography. Lock your seat before someone else does.</p>
+              <p>We work with one operator per market. If your competitor claims your territory first, we will not take you as a client in that geography. Lock your seat before someone else does. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <a href="https://calendly.com/theanswerengine-support/30min">Claim Your Territory Slot &rarr;</a>
             </div>
 
@@ -453,19 +453,19 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
             <span className="ae-section-label" id="engine-by-engine">Engine Mapping</span>
             <h2>How Each Major Engine Picks Sources</h2>
 
-            <p>The three-stage AEO model is shared, but the per-engine weights diverge. Below is the operational read on each major engine, mapped to the AEO model architecture and validated against TAE&apos;s 16-month measurement set.</p>
+            <p>The three-stage AEO model is shared, but the per-engine weights diverge. Below is the operational read on each major engine, mapped to the AEO model architecture and validated against TAE&apos;s 16-month measurement set. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <h3>ChatGPT (OpenAI)</h3>
-            <p>ChatGPT&apos;s search mode retrieves through Bing and weights structured data heavily in the scoring stage. Pages with full schema stacks are cited at materially higher rates than unstructured pages on identical topics. The citation threshold is high — ChatGPT prefers a smaller number of authoritative sources over a wide pool. Operational implication: Bing indexing health and Article + FAQPage schema are the two highest-yield ChatGPT levers.</p>
+            <p>ChatGPT&apos;s search mode retrieves through Bing and weights structured data heavily in the scoring stage. Pages with full schema stacks are cited at materially higher rates than unstructured pages on identical topics. The citation threshold is high — ChatGPT prefers a smaller number of authoritative sources over a wide pool. Operational implication: Bing indexing health and Article + FAQPage schema are the two highest-yield ChatGPT levers. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Perplexity AI</h3>
-            <p>Perplexity (also called Perplexity AI or Perplexity search) is the most retrieval-first of the major engines. Every answer pulls 6 to 12 sources before generation. Freshness is a primary ranking signal in the scoring stage. The citation threshold is lower than ChatGPT&apos;s, producing dense per-answer citation lists. Operational implication: publish or refresh content quarterly with visible publication dates, and structure for breadth across sub-question coverage.</p>
+            <p>Perplexity (also called Perplexity AI or Perplexity search) is the most retrieval-first of the major engines. Every answer pulls 6 to 12 sources before generation. Freshness is a primary ranking signal in the scoring stage. The citation threshold is lower than ChatGPT&apos;s, producing dense per-answer citation lists. Operational implication: publish or refresh content quarterly with visible publication dates, and structure for breadth across sub-question coverage. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Claude (Anthropic)</h3>
-            <p>Claude weights citation-trail content with explicit attribution. The scoring stage favors sources that themselves cite primary research, name their data sources inline, and surface verifiable evidence chains. Claude is the engine most sensitive to the named-author and sameAs signals. Operational implication: Person schema with verifiable sameAs links and inline citation of primary sources lift Claude attribution disproportionately.</p>
+            <p>Claude weights citation-trail content with explicit attribution. The scoring stage favors sources that themselves cite primary research, name their data sources inline, and surface verifiable evidence chains. Claude is the engine most sensitive to the named-author and sameAs signals. Operational implication: Person schema with verifiable sameAs links and inline citation of primary sources lift Claude attribution disproportionately. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>Gemini and Google AI Mode</h3>
-            <p>Gemini and Google AI Mode share Google&apos;s entity graph for the authority scoring stage. Schema markup is read natively and entity verification is heavy. The citation threshold rewards LocalBusiness, AggregateRating, and HowTo schema together. Operational implication: a full Google schema stack — LocalBusiness with verified data, AggregateRating with real review counts, HowTo on process pages — is the fastest lever for Google AI Mode citation visibility.</p>
+            <p>Gemini and Google AI Mode share Google&apos;s entity graph for the authority scoring stage. Schema markup is read natively and entity verification is heavy. The citation threshold rewards LocalBusiness, AggregateRating, and HowTo schema together. Operational implication: a full Google schema stack — LocalBusiness with verified data, AggregateRating with real review counts, HowTo on process pages — is the fastest lever for Google AI Mode citation visibility. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="not-prose overflow-x-auto my-8">
               <table className="ae-comparison-table w-full text-sm">
@@ -507,12 +507,12 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
             </div>
 
             <div className="ae-quote not-prose">
-              <p><strong className="named-thesis">The Source Memory Decay: AEO model preference for a given source erodes within 60 to 90 days without fresh indexing signals (publication, update, third-party citation), because the authority score factors recency at every scoring pass (TAE client measurement, 2025-2026).</strong> Citation gained is not citation kept. AEO is a compounding cadence, not a one-time fix.</p>
+              <p><strong className="named-thesis">The Source Memory Decay: AEO model preference for a given source erodes within 60 to 90 days without fresh indexing signals (publication, update, third-party citation), because the authority score factors recency at every scoring pass (TAE client measurement, 2025-2026).</strong> Citation gained is not citation kept. AEO is a compounding cadence, not a one-time fix. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* CTA 4 — text/phone */}
             <div className="ae-cta-inline not-prose">
-              <p>Faster path: text us your domain and your top three competitor URLs. We will run the engine-level scoring read and reply with where each of you is losing the citation race.</p>
+              <p>Faster path: text us your domain and your top three competitor URLs. We will run the engine-level scoring read and reply with where each of you is losing the citation race. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
             </div>
 
@@ -521,7 +521,7 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
             <h2>The TAE Origin Protocol Mapping</h2>
 
             <h3>Why the Origin Protocol exists</h3>
-            <p>The Origin Protocol is The Answer Engine&apos;s production process for engineering content against the three-stage AEO model. Every article, service page, and FAQ block we publish for an operator is built to clear all three stages on the four major engines simultaneously. The Protocol exists because reverse-engineering one engine produces fragile gains; engineering against the shared model architecture produces compound authority that survives ranking weight drift.</p>
+            <p>The Origin Protocol is The Answer Engine&apos;s production process for engineering content against the three-stage AEO model. Every article, service page, and FAQ block we publish for an operator is built to clear all three stages on the four major engines simultaneously. The Protocol exists because reverse-engineering one engine produces fragile gains; engineering against the shared model architecture produces compound authority that survives ranking weight drift. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <h3>What the Protocol enforces at production time</h3>
             <ul>
@@ -534,16 +534,16 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
             </ul>
 
             <h3>The Proof Ledger: how we measure citation outcomes</h3>
-            <p>Every Origin Protocol engagement runs against a fixed 20-query prompt library across ChatGPT, Perplexity, Claude, and Gemini, measured monthly. The Proof Ledger logs citation appearances per engine, per query, per month. Operators see the exact engines and exact queries their citation count moves on. Compound authority is measurable when the measurement cadence is fixed. <strong>This analysis draws on TAE&apos;s 16 months of client engagements running this protocol against the academic literature cited throughout this article.</strong></p>
+            <p>Every Origin Protocol engagement runs against a fixed 20-query prompt library across ChatGPT, Perplexity, Claude, and Gemini, measured monthly. The Proof Ledger logs citation appearances per engine, per query, per month. Operators see the exact engines and exact queries their citation count moves on. Compound authority is measurable when the measurement cadence is fixed. <strong>This analysis draws on TAE&apos;s 16 months of client engagements running this protocol against the academic literature cited throughout this article.</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <div className="ae-callout-title">The Operator Equation</div>
-              <p>Three-stage AEO model + five structural signals + monthly measurement cadence = compound authority that survives engine ranking-weight drift. Anything less is a one-time spike followed by decay.</p>
+              <p>Three-stage AEO model + five structural signals + monthly measurement cadence = compound authority that survives engine ranking-weight drift. Anything less is a one-time spike followed by decay. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             {/* CTA 5 — email */}
             <div className="ae-cta-inline not-prose">
-              <p>Want the Origin Protocol mapped to your industry and territory? Email us with your domain and we will return a one-page diagnostic within 48 hours.</p>
+              <p>Want the Origin Protocol mapped to your industry and territory? Email us with your domain and we will return a one-page diagnostic within 48 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="mailto:support@theanswerengine.ai?subject=Origin%20Protocol%20Diagnostic">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -597,7 +597,7 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
 
             {/* CTA 6 — calendly */}
             <div className="ae-cta-inline not-prose">
-              <p>Pick a 30-minute slot and we will walk your site through this exact cheat sheet on a screen-share, marking up which stage is leaking your citations.</p>
+              <p>Pick a 30-minute slot and we will walk your site through this exact cheat sheet on a screen-share, marking up which stage is leaking your citations. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="https://calendly.com/theanswerengine-support/30min">Book Your AEO Walkthrough &rarr;</a>
             </div>
 
@@ -611,7 +611,7 @@ export default function AEOModelsHowAISearchPicksSourcesPage() {
               <div>
                 <div className="ae-author-name">Justin Borges</div>
                 <div className="ae-author-role">Founder, The Answer Engine</div>
-                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. TAE&apos;s own site runs against the AEO model architecture described in this article — 1.14M+ monthly impressions, 4 of 4 LLMs cited.</p>
+                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. TAE&apos;s own site runs against the AEO model architecture described in this article — 1.14M+ monthly impressions, 4 of 4 LLMs cited. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
 

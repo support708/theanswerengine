@@ -250,19 +250,19 @@ export default function NearMeSearchesInAIEra() {
 
             <p>Twelve years ago, typing &ldquo;coffee near me&rdquo; into Google felt like magic. The search engine suddenly knew where you were standing and showed you results within walking distance. The phrase &ldquo;near me&rdquo; became the shortcut that millions of consumers used to signal local intent to a system that otherwise had no idea where you were.</p>
 
-            <p>That era is ending. Not because local search is declining, but because AI has made the phrase itself unnecessary. ChatGPT rolled out GPS location sharing in March 2026. Google AI Mode infers location from your account, device, and search history. Perplexity uses IP geolocation as a default. When AI platforms already know where you are, adding &ldquo;near me&rdquo; to a query is redundant. Users have stopped doing it, and the ones who still do get the same result either way.</p>
+            <p>That era is ending. Not because local search is declining, but because AI has made the phrase itself unnecessary. ChatGPT rolled out GPS location sharing in March 2026. Google AI Mode infers location from your account, device, and search history. Perplexity uses IP geolocation as a default. When AI platforms already know where you are, adding &ldquo;near me&rdquo; to a query is redundant. Users have stopped doing it, and the ones who still do get the same result either way. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>Gartner predicted in 2024 that traditional search engine volume would drop 25% by 2026 due to AI chatbots and virtual agents. The data from early 2026 confirms the trajectory: Google desktop searches per U.S. user fell nearly 20% year-over-year as users redirect those queries to AI. Local search did not shrink. The destination changed.</p>
             </div>
 
-            <p>The businesses that understood &ldquo;near me&rdquo; as a proxy for local intent are fine. They can adapt. The businesses that treated &ldquo;near me&rdquo; as a literal phrase to stuff into their content, their titles, and their Google Business Profile descriptions are running an outdated playbook. And the businesses that have done nothing because &ldquo;local search is different&rdquo; are the ones most exposed to the shift happening right now.</p>
+            <p>The businesses that understood &ldquo;near me&rdquo; as a proxy for local intent are fine. They can adapt. The businesses that treated &ldquo;near me&rdquo; as a literal phrase to stuff into their content, their titles, and their Google Business Profile descriptions are running an outdated playbook. And the businesses that have done nothing because &ldquo;local search is different&rdquo; are the ones most exposed to the shift happening right now. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>The phrase is not dead. The phrase as a strategy is dead. This article explains what replaces it, platform by platform, and exactly what you need to do to stay visible when your customers ask AI to find you.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms can actually locate and recommend your business right now.</p>
+              <p>Find out if AI platforms can actually locate and recommend your business right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
             </div>
 
@@ -274,12 +274,12 @@ export default function NearMeSearchesInAIEra() {
 
             <h3>ChatGPT: From IP Inference to Native GPS</h3>
 
-            <p>Before March 2026, ChatGPT inferred user location from three sources: IP address geolocation (accurate to city level), explicit city mentions in the prompt, and account profile data for users who had configured their location in settings. This was enough to deliver useful local recommendations for most queries. A user asking &ldquo;find me a good accountant&rdquo; without specifying a city would receive a prompt asking for their location, which most users happily provided.</p>
+            <p>Before March 2026, ChatGPT inferred user location from three sources: IP address geolocation (accurate to city level), explicit city mentions in the prompt, and account profile data for users who had configured their location in settings. This was enough to deliver useful local recommendations for most queries. A user asking &ldquo;find me a good accountant&rdquo; without specifying a city would receive a prompt asking for their location, which most users happily provided. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>In March 2026, OpenAI quietly launched native GPS location sharing for ChatGPT on iOS and web across all consumer plan tiers. The feature gives ChatGPT access to device-level location data, bringing its local precision to within meters rather than miles. Android support followed shortly after. Local search will never be the same.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>What this means for businesses:</strong> ChatGPT can now generate recommendations like &ldquo;Here are the three plumbers closest to your current location&rdquo; without the user typing a single location word. If your business is not surfacing in ChatGPT&apos;s recommendation set, GPS precision will not save you. You are simply not in the data layer the AI is consulting.</p>
+              <p><strong>What this means for businesses:</strong> ChatGPT can now generate recommendations like &ldquo;Here are the three plumbers closest to your current location&rdquo; without the user typing a single location word. If your business is not surfacing in ChatGPT&apos;s recommendation set, GPS precision will not save you. You are simply not in the data layer the AI is consulting. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             <h3>Google AI Mode and AI Overviews: Integrated Location Stack</h3>
@@ -288,7 +288,7 @@ export default function NearMeSearchesInAIEra() {
 
             <h3>Perplexity: Transparent IP Inference</h3>
 
-            <p>Perplexity uses IP-based geolocation as its primary location signal. The platform is unusually transparent about this, often stating &ldquo;Based on your location in [City], here are...&rdquo; in its responses. Users can override this by stating their city explicitly. Perplexity also draws from its web index, which means businesses with strong local content across multiple indexed sources appear more reliably than those relying solely on a single GBP profile.</p>
+            <p>Perplexity uses IP-based geolocation as its primary location signal. The platform is unusually transparent about this, often stating &ldquo;Based on your location in [City], here are...&rdquo; in its responses. Users can override this by stating their city explicitly. Perplexity also draws from its web index, which means businesses with strong local content across multiple indexed sources appear more reliably than those relying solely on a single GBP profile. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* DECISION MATRIX */}
             <div className="ae-decision-matrix not-prose">
@@ -347,23 +347,23 @@ export default function NearMeSearchesInAIEra() {
             <span className="ae-section-label" id="new-anatomy">Query Evolution</span>
             <h2>The New Anatomy of a Local Search (Conversational, Specific, Multi-Constraint)</h2>
 
-            <p>The old local search query was a two-word pivot: service plus location. &ldquo;Plumber Austin.&rdquo; &ldquo;Pizza near me.&rdquo; &ldquo;Dentist 90210.&rdquo; These queries worked because they gave Google&apos;s keyword engine exactly the signals it needed to pull from its index. The user translated their actual need into a format the machine could parse.</p>
+            <p>The old local search query was a two-word pivot: service plus location. &ldquo;Plumber Austin.&rdquo; &ldquo;Pizza near me.&rdquo; &ldquo;Dentist 90210.&rdquo; These queries worked because they gave Google&apos;s keyword engine exactly the signals it needed to pull from its index. The user translated their actual need into a format the machine could parse. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>AI has reversed this dynamic. Now the machine meets the user where they are, in natural language, with all their constraints intact. The queries AI receives look nothing like legacy local SEO keywords.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>What modern AI local queries actually look like:</strong> &ldquo;I need a plumber who can fix a gas line leak today, preferably someone with weekend availability and at least a 4.5-star rating, in the north Austin area.&rdquo; Or: &ldquo;Find me a dentist that accepts Blue Cross Blue Shield, has evening appointments, and is within 10 miles of downtown Denver.&rdquo; These are not keyword searches. They are conversations with constraints.</p>
+              <p><strong>What modern AI local queries actually look like:</strong> &ldquo;I need a plumber who can fix a gas line leak today, preferably someone with weekend availability and at least a 4.5-star rating, in the north Austin area.&rdquo; Or: &ldquo;Find me a dentist that accepts Blue Cross Blue Shield, has evening appointments, and is within 10 miles of downtown Denver.&rdquo; These are not keyword searches. They are conversations with constraints. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             <p>This shift from keyword to constraint-based queries changes what businesses need to have in their online presence. Keyword SEO optimizes for the words. AI search optimizes for the facts. The user asking for a dentist with evening appointments needs a business that has published its hours in a machine-readable format, confirmed its insurance acceptance in structured data, and demonstrated its proximity to downtown through geo-tagged content, not just through a &ldquo;near me&rdquo; landing page.</p>
 
             <h3>The Three Dimensions of Modern Local Queries</h3>
 
-            <p><strong>Conversational framing</strong> means queries arrive as full sentences with implicit assumptions. AI interprets the intent behind the words, not just the words themselves. A user asking &ldquo;Who is the best contractor in my area?&rdquo; is not literally asking for a ranked list of all contractors. They want a short, trusted recommendation based on a specific type of work they have in mind, even if they did not say it explicitly.</p>
+            <p><strong>Conversational framing</strong> means queries arrive as full sentences with implicit assumptions. AI interprets the intent behind the words, not just the words themselves. A user asking &ldquo;Who is the best contractor in my area?&rdquo; is not literally asking for a ranked list of all contractors. They want a short, trusted recommendation based on a specific type of work they have in mind, even if they did not say it explicitly. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p><strong>Multi-constraint layering</strong> means users stack requirements in a single query: service type, location, availability, pricing range, insurance, rating threshold, specialty. Every constraint the user adds narrows the field. Businesses that have not published data covering all of those constraint categories disappear from the result set before the AI even begins ranking.</p>
 
-            <p><strong>Specificity escalation</strong> means AI users are asking more specific questions than traditional search users ever did, because they know AI can handle specificity. This is good news for local businesses that have built detailed, accurate, structured content. It is disqualifying for businesses that have only a basic GBP listing and a phone number.</p>
+            <p><strong>Specificity escalation</strong> means AI users are asking more specific questions than traditional search users ever did, because they know AI can handle specificity. This is good news for local businesses that have built detailed, accurate, structured content. It is disqualifying for businesses that have only a basic GBP listing and a phone number. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
@@ -375,25 +375,25 @@ export default function NearMeSearchesInAIEra() {
             <span className="ae-section-label" id="platform-comparison">Platform Analysis</span>
             <h2>ChatGPT vs Google AI Overviews vs Perplexity: Location Handling Compared</h2>
 
-            <p>Not all AI platforms treat local search the same way. Understanding how each one sources and presents local business recommendations helps you prioritize where to focus your optimization efforts.</p>
+            <p>Not all AI platforms treat local search the same way. Understanding how each one sources and presents local business recommendations helps you prioritize where to focus your optimization efforts. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>ChatGPT: Curated and Extremely Selective</h3>
 
             <p>ChatGPT is the platform that most dramatically demonstrates the new local search reality. Research shows ChatGPT recommends just 1.2% of all local business locations. That is not a typo. One-point-two percent. Compared to Google Maps, which surfaces essentially all registered businesses within a radius, ChatGPT is operating as a recommendation engine, not a directory.</p>
 
-            <p>More significantly, there is only a 45% overlap between businesses that perform well in traditional local search and those that appear in ChatGPT recommendations. That means more than half the businesses that rank on Google do not show up when ChatGPT recommends who to call. Your Google rank does not transfer. Your AI visibility must be built separately.</p>
+            <p>More significantly, there is only a 45% overlap between businesses that perform well in traditional local search and those that appear in ChatGPT recommendations. That means more than half the businesses that rank on Google do not show up when ChatGPT recommends who to call. Your Google rank does not transfer. Your AI visibility must be built separately. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>ChatGPT sources local business data primarily from its training data, from web content it has indexed (including Yelp, TripAdvisor, industry directories, and business websites), and since March 2026, from live web browsing when enabled. Businesses that appear in multiple authoritative web sources with consistent details score higher in ChatGPT&apos;s internal confidence about who to recommend.</p>
 
             <h3>Google AI Overviews: Dominant in Hybrid-Intent Queries</h3>
 
-            <p>AI Overviews now appear in 68% of local business-type queries. But Google uses a nuanced trigger system. For pure proximity queries (someone standing on a street corner asking &ldquo;restaurant near me&rdquo;), Google often preserves the local pack and Maps results. For hybrid-intent queries, which blend informational research with local intent, AI Overviews appear in up to 97% of results.</p>
+            <p>AI Overviews now appear in 68% of local business-type queries. But Google uses a nuanced trigger system. For pure proximity queries (someone standing on a street corner asking &ldquo;restaurant near me&rdquo;), Google often preserves the local pack and Maps results. For hybrid-intent queries, which blend informational research with local intent, AI Overviews appear in up to 97% of results. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>The distinction matters enormously. Hybrid queries include questions like &ldquo;How much does a roof repair cost and who are the best roofers in Phoenix?&rdquo; or &ldquo;What should I look for in a pediatric dentist in Nashville?&rdquo; These are the queries where customer decisions are actually made. This is where AI Overviews dominate. The informational content on your website and your GBP profile together determine whether you appear in that critical moment.</p>
 
             <h3>Perplexity: The Researcher&apos;s Local Tool</h3>
 
-            <p>Perplexity is used disproportionately by users who are actively researching before committing to a local purchase. When someone asks Perplexity &ldquo;What are the best orthodontists in San Diego and what makes a good one?&rdquo;, they are in a research phase, not a click-to-call phase. Perplexity&apos;s strength is synthesizing multiple web sources into a cohesive answer with citations. Businesses that have substantive content indexed across multiple web properties appear in those citations. Single-page websites with no blog content do not.</p>
+            <p>Perplexity is used disproportionately by users who are actively researching before committing to a local purchase. When someone asks Perplexity &ldquo;What are the best orthodontists in San Diego and what makes a good one?&rdquo;, they are in a research phase, not a click-to-call phase. Perplexity&apos;s strength is synthesizing multiple web sources into a cohesive answer with citations. Businesses that have substantive content indexed across multiple web properties appear in those citations. Single-page websites with no blog content do not. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* BAR CHART */}
             <div className="ae-bar-group not-prose">
@@ -426,19 +426,19 @@ export default function NearMeSearchesInAIEra() {
             <span className="ae-section-label" id="google-business-profile">GBP Strategy</span>
             <h2>What This Means for Your Google Business Profile</h2>
 
-            <p>Google Business Profile is not diminished by the AI era. It is amplified, but in a different way. The old GBP use case was showing up in the Maps local pack when someone nearby searched your category. That still matters. But GBP has gained a new function: it is now one of the primary data sources that Google&apos;s Gemini AI synthesizes when generating AI Overviews and AI Mode answers for local queries.</p>
+            <p>Google Business Profile is not diminished by the AI era. It is amplified, but in a different way. The old GBP use case was showing up in the Maps local pack when someone nearby searched your category. That still matters. But GBP has gained a new function: it is now one of the primary data sources that Google&apos;s Gemini AI synthesizes when generating AI Overviews and AI Mode answers for local queries. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>Gemini interprets your GBP not as a map pin but as a structured data input. Your business name, categories, service attributes, opening hours, photos, and review content are all signals that Gemini weighs when deciding whether to include you in an AI-generated response. Businesses with complete, accurate, and keyword-rich GBP profiles appear in AI Overviews at dramatically higher rates than businesses with thin or outdated profiles.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>What a Gemini-optimized GBP looks like:</strong> Every service category filled in, not just the primary category. A business description that answers the questions customers actually ask, written in complete sentences. Service areas specified at the city and neighborhood level. Every attribute relevant to your business type toggled on. Posts published at least twice per month. Review responses that contain service-specific language. This is not the same as the GBP you set up in 2019 and have not touched since.</p>
+              <p><strong>What a Gemini-optimized GBP looks like:</strong> Every service category filled in, not just the primary category. A business description that answers the questions customers actually ask, written in complete sentences. Service areas specified at the city and neighborhood level. Every attribute relevant to your business type toggled on. Posts published at least twice per month. Review responses that contain service-specific language. This is not the same as the GBP you set up in 2019 and have not touched since. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <h3>The Review Signal Has Changed</h3>
 
             <p>Reviews matter to GBP the way they always have, but AI reads them differently than the old star-count algorithm did. Gemini analyzes review content for descriptive language about your services. A review that says &ldquo;Dr. Chen was amazing for my root canal, and the office on Maple Street had no wait time&rdquo; tells Gemini that this business performs root canals, is located near a street called Maple, and delivers fast service. That is far more useful to an AI generating a local recommendation than a hundred five-star ratings with no text.</p>
 
-            <p>The practical implication: businesses should actively encourage detailed, specific reviews. The content of reviews, not just the count or average, is becoming a primary AI data input for local recommendations.</p>
+            <p>The practical implication: businesses should actively encourage detailed, specific reviews. The content of reviews, not just the count or average, is becoming a primary AI data input for local recommendations. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
@@ -450,17 +450,17 @@ export default function NearMeSearchesInAIEra() {
             <span className="ae-section-label" id="city-specific-pages">Content Strategy</span>
             <h2>Why City-Specific Pages Beat &ldquo;Near Me&rdquo; Optimization</h2>
 
-            <p>The SEO playbook for local search used to include a specific tactic: create landing pages optimized for &ldquo;[service] near me&rdquo; or &ldquo;[service] in [city] near me.&rdquo; These pages ranked because Google&apos;s keyword algorithm rewarded exact-phrase matching. AI search does not work this way, and pages built around the phrase &ldquo;near me&rdquo; are often the weakest pages a business has from an AI citation perspective.</p>
+            <p>The SEO playbook for local search used to include a specific tactic: create landing pages optimized for &ldquo;[service] near me&rdquo; or &ldquo;[service] in [city] near me.&rdquo; These pages ranked because Google&apos;s keyword algorithm rewarded exact-phrase matching. AI search does not work this way, and pages built around the phrase &ldquo;near me&rdquo; are often the weakest pages a business has from an AI citation perspective. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p>AI platforms evaluate the actual informational density of a page. A page titled &ldquo;Best Plumber Near Me&rdquo; that contains 300 words of keyword-stuffed content with no specific local data tells the AI nothing useful about why you should be recommended in a specific city. A page titled &ldquo;Plumbing Services in Austin, TX&rdquo; that covers your service neighborhoods, response time commitments, emergency availability, licensing details, and genuine customer testimonials from Austin residents is a document that AI can actually use to form a recommendation.</p>
 
             <h3>What a City-Specific Page Needs to Accomplish</h3>
 
-            <p>The goal of a city-specific service page is to give AI enough structured, verifiable information to confidently recommend you when a user in that city asks for your service category. That requires:</p>
+            <p>The goal of a city-specific service page is to give AI enough structured, verifiable information to confidently recommend you when a user in that city asks for your service category. That requires: Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p><strong>Explicit geographic anchoring.</strong> Name the city, neighborhoods, ZIP codes, and landmarks you serve. Not as keyword stuffing, but as genuine service area information. An HVAC company that lists the specific Austin neighborhoods where its technicians regularly work gives Gemini geographic context that a generic &ldquo;Austin area&rdquo; mention does not.</p>
 
-            <p><strong>Service-specific details.</strong> What do you offer in this city? What are your hours? Do you offer same-day service? Emergency availability? Specific certifications? Each piece of information is a constraint-matching data point that AI uses to evaluate whether you belong in a response to a multi-constraint query.</p>
+            <p><strong>Service-specific details.</strong> What do you offer in this city? What are your hours? Do you offer same-day service? Emergency availability? Specific certifications? Each piece of information is a constraint-matching data point that AI uses to evaluate whether you belong in a response to a multi-constraint query. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p><strong>Local social proof.</strong> Testimonials from customers in that specific city, ideally mentioning the neighborhood or specific service performed. This is the most under-utilized element of city-specific pages, and one of the most powerful for AI citation purposes.</p>
 
@@ -509,7 +509,7 @@ export default function NearMeSearchesInAIEra() {
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your service pages pass the AI city-specificity test? We will check them for you.</p>
+              <p>Not sure if your service pages pass the AI city-specificity test? We will check them for you. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Get Your Free Content Visibility Report &rarr;</Link>
             </div>
 
@@ -521,7 +521,7 @@ export default function NearMeSearchesInAIEra() {
 
             <h3>LocalBusiness Schema: The Foundation</h3>
 
-            <p>The <strong>LocalBusiness</strong> schema type, or a more specific subtype such as <strong>Plumber</strong>, <strong>Restaurant</strong>, <strong>MedicalClinic</strong>, or <strong>AutoRepair</strong>, establishes the core identity of your business in a format that all major AI platforms can parse directly. At minimum, your LocalBusiness schema should include: official business name, address structured with streetAddress, addressLocality, addressRegion, and postalCode, phone number in E.164 format, business hours using the openingHoursSpecification property, and your service area using the areaServed property.</p>
+            <p>The <strong>LocalBusiness</strong> schema type, or a more specific subtype such as <strong>Plumber</strong>, <strong>Restaurant</strong>, <strong>MedicalClinic</strong>, or <strong>AutoRepair</strong>, establishes the core identity of your business in a format that all major AI platforms can parse directly. At minimum, your LocalBusiness schema should include: official business name, address structured with streetAddress, addressLocality, addressRegion, and postalCode, phone number in E.164 format, business hours using the openingHoursSpecification property, and your service area using the areaServed property. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>The subtype advantage:</strong> Declaring your business as a <code>Plumber</code> rather than just a <code>LocalBusiness</code> gives AI platforms immediate categorical context without requiring them to infer your service type from surrounding content. When a user asks for a plumber in your area, the AI has an unambiguous signal that you belong in that result set. The more specific the schema type, the faster the match.</p>
@@ -529,13 +529,13 @@ export default function NearMeSearchesInAIEra() {
 
             <h3>Geo Coordinates: The Location Signal AI Trusts</h3>
 
-            <p>The <strong>geo</strong> property within LocalBusiness schema, containing GeoCoordinates with latitude and longitude values, is one of the most underused and most valuable schema elements for AI-era local search. While AI platforms can infer your location from your address, explicit geo coordinates give them a verified, unambiguous location signal that requires zero interpretation.</p>
+            <p>The <strong>geo</strong> property within LocalBusiness schema, containing GeoCoordinates with latitude and longitude values, is one of the most underused and most valuable schema elements for AI-era local search. While AI platforms can infer your location from your address, explicit geo coordinates give them a verified, unambiguous location signal that requires zero interpretation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>For businesses with multiple locations, geo coordinates on each location&apos;s page are essential. When ChatGPT&apos;s GPS-enabled user is two blocks from your branch location and asks for your service category, geo coordinates in your schema are what allows an AI to perform proximity matching with confidence.</p>
 
             <h3>Place Schema and Service Area Markup</h3>
 
-            <p>For businesses that serve customers at customer locations (contractors, mobile services, delivery operations) rather than at a physical storefront, <strong>Place</strong> schema and the <strong>areaServed</strong> property become the primary geographic signals AI can use. List every city and region you serve as a separate entry in the areaServed array. This is the machine-readable equivalent of your city-specific service pages, and both should be present for maximum AI visibility.</p>
+            <p>For businesses that serve customers at customer locations (contractors, mobile services, delivery operations) rather than at a physical storefront, <strong>Place</strong> schema and the <strong>areaServed</strong> property become the primary geographic signals AI can use. List every city and region you serve as a separate entry in the areaServed array. This is the machine-readable equivalent of your city-specific service pages, and both should be present for maximum AI visibility. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* TIMELINE */}
             <div className="ae-timeline not-prose">
@@ -582,25 +582,25 @@ export default function NearMeSearchesInAIEra() {
             <span className="ae-section-label" id="voice-search">Voice Layer</span>
             <h2>Voice Search and the Implicit Location Layer</h2>
 
-            <p>Voice search was always the most local-intent-heavy search channel. A person typing a query on a laptop might be researching, planning, or browsing. A person speaking a query into their phone while standing on a street corner is almost certainly looking for something right now, nearby, that they intend to act on immediately.</p>
+            <p>Voice search was always the most local-intent-heavy search channel. A person typing a query on a laptop might be researching, planning, or browsing. A person speaking a query into their phone while standing on a street corner is almost certainly looking for something right now, nearby, that they intend to act on immediately. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>The numbers confirm this asymmetry. Approximately 76% of all voice searches carry local intent, a rate that exceeds text search local intent substantially. Voice searches are three times more likely to be local in nature compared to typed searches. And the action rates are high: 28% of local voice searches result in phone calls to businesses, while 19% lead to in-person visits within 24 hours.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The implicit location layer in voice:</strong> When someone asks their phone &ldquo;Where is the nearest urgent care?&rdquo;, they do not say &ldquo;near me.&rdquo; The &ldquo;nearest&rdquo; framing already implies location-relative results. The device knows where they are. The AI knows the device knows where they are. The phrase &ldquo;near me&rdquo; was always just a workaround for the era when search engines could not infer location automatically. Voice search never needed it, which is why voice queries have historically been among the first to drop the phrase entirely.</p>
+              <p><strong>The implicit location layer in voice:</strong> When someone asks their phone &ldquo;Where is the nearest urgent care?&rdquo;, they do not say &ldquo;near me.&rdquo; The &ldquo;nearest&rdquo; framing already implies location-relative results. The device knows where they are. The AI knows the device knows where they are. The phrase &ldquo;near me&rdquo; was always just a workaround for the era when search engines could not infer location automatically. Voice search never needed it, which is why voice queries have historically been among the first to drop the phrase entirely. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             <h3>How Voice Search Selects Businesses</h3>
 
             <p>Voice AI assistants (Siri, Google Assistant, Alexa, and increasingly standalone AI apps) typically return a single recommendation or a short list, not a page of results. This winner-takes-most dynamic makes voice search far more consequential than traditional search for local businesses. The business that voice AI recommends gets the call. Everyone else gets nothing.</p>
 
-            <p>The selection criteria for voice local results lean heavily on: proximity (geo-verified through device), GBP completeness and rating average, presence of the business in multiple AI-readable web sources, and consistency of business information across directories. Businesses with complete GBP listings are 70% more likely to attract location-based voice queries than those with incomplete profiles.</p>
+            <p>The selection criteria for voice local results lean heavily on: proximity (geo-verified through device), GBP completeness and rating average, presence of the business in multiple AI-readable web sources, and consistency of business information across directories. Businesses with complete GBP listings are 70% more likely to attract location-based voice queries than those with incomplete profiles. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <p>For voice-specific optimization, the practical implications are: ensure your GBP hours are always accurate (voice queries about operating hours are extremely common and extremely action-driven), add your phone number in schema markup that voice AI can parse directly, and ensure your business name is consistent across all platforms exactly as you want it to be read aloud.</p>
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is your business the one voice AI recommends, or does a competitor get that call?</p>
+              <p>Is your business the one voice AI recommends, or does a competitor get that call? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 to Find Out &rarr;</a>
             </div>
 
@@ -612,7 +612,7 @@ export default function NearMeSearchesInAIEra() {
 
             <h3>1. Building &ldquo;Near Me&rdquo; Landing Pages Instead of City-Specific Service Pages</h3>
 
-            <p>Creating a page whose title and content revolve around the phrase &ldquo;near me&rdquo; optimizes for a query pattern that is in decline. AI platforms do not need the phrase to understand local intent. They need specificity: which city, which neighborhoods, which services, which availability windows. A page titled &ldquo;Electrician Near Me&rdquo; with thin content has essentially zero AI citation value. A page titled &ldquo;Licensed Electrician in Chicago, IL &mdash; Emergency and Residential Service&rdquo; with detailed content has substantial AI citation value. The reorientation required is simple in principle: replace phrase-matching with geographic factual specificity.</p>
+            <p>Creating a page whose title and content revolve around the phrase &ldquo;near me&rdquo; optimizes for a query pattern that is in decline. AI platforms do not need the phrase to understand local intent. They need specificity: which city, which neighborhoods, which services, which availability windows. A page titled &ldquo;Electrician Near Me&rdquo; with thin content has essentially zero AI citation value. A page titled &ldquo;Licensed Electrician in Chicago, IL &mdash; Emergency and Residential Service&rdquo; with detailed content has substantial AI citation value. The reorientation required is simple in principle: replace phrase-matching with geographic factual specificity. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>2. Treating GBP as a Set-It-and-Forget-It Directory Listing</h3>
 
@@ -620,7 +620,7 @@ export default function NearMeSearchesInAIEra() {
 
             <h3>3. Relying Only on Third-Party Reviews That AI Cannot Read</h3>
 
-            <p>Google Reviews are largely invisible to ChatGPT and Perplexity because they sit behind JavaScript walls that those platforms cannot consistently access. Yelp reviews face similar limitations on some AI platforms. Businesses that have accumulated hundreds of Google Reviews as their entire reputation infrastructure have built on a foundation that is invisible to the fastest-growing local search channels. Reviews published directly on your website as plain HTML text, combined with Review schema markup, are readable by every AI platform. LinkedIn recommendations are crawlable. Reviews in industry directories with static HTML rendering are accessible. Diversifying review visibility is not optional in the AI era.</p>
+            <p>Google Reviews are largely invisible to ChatGPT and Perplexity because they sit behind JavaScript walls that those platforms cannot consistently access. Yelp reviews face similar limitations on some AI platforms. Businesses that have accumulated hundreds of Google Reviews as their entire reputation infrastructure have built on a foundation that is invisible to the fastest-growing local search channels. Reviews published directly on your website as plain HTML text, combined with Review schema markup, are readable by every AI platform. LinkedIn recommendations are crawlable. Reviews in industry directories with static HTML rendering are accessible. Diversifying review visibility is not optional in the AI era. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>4. Missing Schema on City and Service Pages</h3>
 

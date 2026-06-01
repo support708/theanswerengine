@@ -258,18 +258,18 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering if ChatGPT even knows your plumbing business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Wondering if ChatGPT even knows your plumbing business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         <h2 id="how-ai-finds-plumbers">How AI Finds Plumbers in Your Area</h2>
 
-        <p>When someone types "find me an emergency plumber in Dallas" into ChatGPT or Perplexity, the AI does not run a live Google search. It consults a layered mental model of which plumbing businesses exist in that area, built from everything it absorbed during training: business directories, review sites, local news, community forums, and company websites.</p>
+        <p>When someone types "find me an emergency plumber in Dallas" into ChatGPT or Perplexity, the AI does not run a live Google search. It consults a layered mental model of which plumbing businesses exist in that area, built from everything it absorbed during training: business directories, review sites, local news, community forums, and company websites. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-        <p>The plumbers who surface in those answers are the ones whose information appeared most frequently and most authoritatively across those sources. That is not a random outcome. It is a direct reflection of how well each business's digital footprint was structured for machine comprehension rather than just human browsing.</p>
+        <p>The plumbers who surface in those answers are the ones whose information appeared most frequently and most authoritatively across those sources. That is not a random outcome. It is a direct reflection of how well each business's digital footprint was structured for machine comprehension rather than just human browsing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Why Plumbing Is a High-Stakes AI Category</div>
-          <p>Plumbing queries skew heavily toward urgent, high-intent situations. A person asking AI for a plumber usually has a problem happening right now. That means the AI recommendation translates almost directly into a phone call. The conversion rate for plumbing AI citations is among the highest of any home service category because the intent is so immediate and the need is so pressing.</p>
+          <p>Plumbing queries skew heavily toward urgent, high-intent situations. A person asking AI for a plumber usually has a problem happening right now. That means the AI recommendation translates almost directly into a phone call. The conversion rate for plumbing AI citations is among the highest of any home service category because the intent is so immediate and the need is so pressing. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <div className="ae-bar-group not-prose">
@@ -300,13 +300,13 @@ export default function Page() {
             <div className="ae-bar-value">12%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns</p>
+        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
         <h2 id="emergency-signal">The Emergency Plumbing Signal AI Prioritizes</h2>
 
-        <p>The most common qualifier in plumbing AI queries is urgency: "emergency plumber," "24/7 plumber," "plumber open now," "after-hours plumbing." AI platforms learn to surface businesses that explicitly and specifically address these scenarios, not businesses that might do emergency work but never say so clearly.</p>
+        <p>The most common qualifier in plumbing AI queries is urgency: "emergency plumber," "24/7 plumber," "plumber open now," "after-hours plumbing." AI platforms learn to surface businesses that explicitly and specifically address these scenarios, not businesses that might do emergency work but never say so clearly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-        <p>Most plumbers handle emergencies. But many bury it in a single line on the homepage or in a general About paragraph. That is not enough signal for an AI platform to confidently recommend you for emergency queries. The signal needs to be stronger, more consistent, and structurally separate.</p>
+        <p>Most plumbers handle emergencies. But many bury it in a single line on the homepage or in a general About paragraph. That is not enough signal for an AI platform to confidently recommend you for emergency queries. The signal needs to be stronger, more consistent, and structurally separate. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -348,25 +348,25 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Is your emergency signal strong enough for AI to notice? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Find out free</Link> before a competitor takes that call.</p>
+          <p>Is your emergency signal strong enough for AI to notice? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Find out free</Link> before a competitor takes that call. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         </div>
 
         <h2 id="review-signals">Why Your Reviews Are Being Read Wrong</h2>
 
-        <p>The plumbing businesses that dominate AI recommendations do not just have more reviews. They have better reviews for AI purposes. AI platforms process review content semantically: they extract patterns about what services were performed, what problems were solved, and the specificity of each situation at a level that star ratings cannot convey.</p>
+        <p>The plumbing businesses that dominate AI recommendations do not just have more reviews. They have better reviews for AI purposes. AI platforms process review content semantically: they extract patterns about what services were performed, what problems were solved, and the specificity of each situation at a level that star ratings cannot convey. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-        <p>A review that says "5 stars, great job fixing my main line" gives AI almost nothing to work with. A review that says "Called them at 11pm for a sewage backup, they arrived within the hour, diagnosed a root intrusion in our main sewer line, and had it cleared by 2am" gives AI rich, specific evidence that this plumber handles emergency sewer clearing in the area. That review does AI visibility work while sitting on Google.</p>
+        <p>A review that says "5 stars, great job fixing my main line" gives AI almost nothing to work with. A review that says "Called them at 11pm for a sewage backup, they arrived within the hour, diagnosed a root intrusion in our main sewer line, and had it cleared by 2am" gives AI rich, specific evidence that this plumber handles emergency sewer clearing in the area. That review does AI visibility work while sitting on Google. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Generic Review Problem</div>
-          <p>Most plumbing businesses get reviews that say "great service" and "highly recommend." These are invisible to AI because they contain no service specificity, no urgency signals, and no location context. The businesses winning AI citations encourage customers to describe the specific problem that was fixed. That detail is the citation signal.</p>
+          <p>Most plumbing businesses get reviews that say "great service" and "highly recommend." These are invisible to AI because they contain no service specificity, no urgency signals, and no location context. The businesses winning AI citations encourage customers to describe the specific problem that was fixed. That detail is the citation signal. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         </div>
 
-        <p>This does not mean scripting long reviews. It means making it easy for customers to share specifics. A post-job follow-up message that asks "What was the main issue we solved for you today?" surfaces the detail organically and produces the kind of content AI platforms learn from.</p>
+        <p>This does not mean scripting long reviews. It means making it easy for customers to share specifics. A post-job follow-up message that asks "What was the main issue we solved for you today?" surfaces the detail organically and produces the kind of content AI platforms learn from. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <h2 id="service-pages">The Service Page Problem</h2>
 
-        <p>The single most common missed opportunity for plumbing businesses in AI search is the absence of dedicated service pages. Most plumber websites have a homepage, an about page, a contact page, and one Services page that lists everything in bullet points. That structure made sense for keyword SEO a decade ago. It does almost nothing for AI visibility.</p>
+        <p>The single most common missed opportunity for plumbing businesses in AI search is the absence of dedicated service pages. Most plumber websites have a homepage, an about page, a contact page, and one Services page that lists everything in bullet points. That structure made sense for keyword SEO a decade ago. It does almost nothing for AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -393,26 +393,26 @@ export default function Page() {
           </div>
         </div>
 
-        <p>Each dedicated service page becomes a separate citable asset. When someone asks AI about slab leak detection or water heater replacement, a plumber with a standalone page on that specific topic is dramatically more likely to surface than one with a bullet point in a combined services list. Depth signals expertise; structure signals trustworthiness to machine readers.</p>
+        <p>Each dedicated service page becomes a separate citable asset. When someone asks AI about slab leak detection or water heater replacement, a plumber with a standalone page on that specific topic is dramatically more likely to surface than one with a bullet point in a combined services list. Depth signals expertise; structure signals trustworthiness to machine readers. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <h2 id="location-coverage">Location Coverage and AI Proximity</h2>
 
-        <p>Plumbing AI queries are almost always location-qualified: "near me," "in [city]," "serving [neighborhood]." AI platforms build geographic understanding of businesses from multiple signals: Google Business Profile location, website content, service area pages, and location mentions in reviews.</p>
+        <p>Plumbing AI queries are almost always location-qualified: "near me," "in [city]," "serving [neighborhood]." AI platforms build geographic understanding of businesses from multiple signals: Google Business Profile location, website content, service area pages, and location mentions in reviews. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-        <p>Plumbers who serve three or four cities but only appear as being in one create an invisible gap for the other areas. Every city you serve but do not explicitly signal to AI is a pocket of potential customers who will never see your business recommended. Location pages, service area schema, and city-specific content are the mechanism for closing that gap without duplicating your entire site.</p>
+        <p>Plumbers who serve three or four cities but only appear as being in one create an invisible gap for the other areas. Every city you serve but do not explicitly signal to AI is a pocket of potential customers who will never see your business recommended. Location pages, service area schema, and city-specific content are the mechanism for closing that gap without duplicating your entire site. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">Location Signal Stacking</div>
-          <p>The strongest location signals combine: your Google Business Profile service areas, LocalBusiness schema on your website, city-specific mentions on service pages, and reviews that reference specific neighborhoods. When all four align for a given city, AI platforms have high confidence you are a legitimate, relevant option for searches in that area.</p>
+          <p>The strongest location signals combine: your Google Business Profile service areas, LocalBusiness schema on your website, city-specific mentions on service pages, and reviews that reference specific neighborhoods. When all four align for a given city, AI platforms have high confidence you are a legitimate, relevant option for searches in that area. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure which cities AI associates with your plumbing business? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see your full coverage map.</p>
+          <p>Not sure which cities AI associates with your plumbing business? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see your full coverage map. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         </div>
 
         <h2 id="competitor-profile">What Top Competitors Are Doing Differently</h2>
 
-        <p>Plumbers who consistently appear at the top of AI recommendations share a recognizable profile. They are not necessarily the largest companies or the ones with the biggest marketing budgets. They are the ones whose digital presence is structured most clearly for AI comprehension across every touchpoint.</p>
+        <p>Plumbers who consistently appear at the top of AI recommendations share a recognizable profile. They are not necessarily the largest companies or the ones with the biggest marketing budgets. They are the ones whose digital presence is structured most clearly for AI comprehension across every touchpoint. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -454,7 +454,7 @@ export default function Page() {
 
         <h2 id="quick-wins">Quick Wins for Plumbers</h2>
 
-        <p>Not every plumber has time to rebuild their entire website immediately. But there are high-leverage moves that create meaningful AI visibility improvement within 30 to 60 days.</p>
+        <p>Not every plumber has time to rebuild their entire website immediately. But there are high-leverage moves that create meaningful AI visibility improvement within 30 to 60 days. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">AI Visibility Quick Wins for Plumbers</div>
@@ -470,15 +470,15 @@ export default function Page() {
           </table>
         </div>
 
-        <p>The pattern across all of these is the same: make it easier for AI to understand exactly who you are, what you do, and where you do it. Every vague claim on your website is a missed signal. Every specific, structured piece of information is a potential citation asset.</p>
+        <p>The pattern across all of these is the same: make it easier for AI to understand exactly who you are, what you do, and where you do it. Every vague claim on your website is a missed signal. Every specific, structured piece of information is a potential citation asset. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
-        <p>The broader visibility gap, what AI knows versus what you need it to know, is what our Blind Spot Report maps for you. It shows exactly which signals you are missing and how visible your plumbing business is across the platforms your potential customers are using right now.</p>
+        <p>The broader visibility gap, what AI knows versus what you need it to know, is what our Blind Spot Report maps for you. It shows exactly which signals you are missing and how visible your plumbing business is across the platforms your potential customers are using right now. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
         <h2 id="competitor-gap">Where the Gap Between You and Competitors Lives</h2>
 
-        <p>When a homeowner asks ChatGPT "who is the best plumber near me," the model compares the available evidence for each business it finds. This is not a popularity contest. It is an evidence evaluation. The plumber who shows up is the one whose digital profile makes the strongest, most consistent, most verifiable case for their expertise and relevance.</p>
+        <p>When a homeowner asks ChatGPT "who is the best plumber near me," the model compares the available evidence for each business it finds. This is not a popularity contest. It is an evidence evaluation. The plumber who shows up is the one whose digital profile makes the strongest, most consistent, most verifiable case for their expertise and relevance. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-        <p>The gap between most local plumbers and the ones earning AI recommendations is structural, not reputational. The winning businesses are not necessarily better at their jobs. They have built their digital presence in a way that AI can read and trust.</p>
+        <p>The gap between most local plumbers and the ones earning AI recommendations is structural, not reputational. The winning businesses are not necessarily better at their jobs. They have built their digital presence in a way that AI can read and trust. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-decision-matrix not-prose">
           <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Where Is Your AI Visibility Gap?</div>
@@ -515,18 +515,18 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Know exactly where your gaps are. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the full picture in minutes.</p>
+          <p>Know exactly where your gaps are. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the full picture in minutes. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </div>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Plumbing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for patterns that apply across trades, and <Link href="/blog/how-home-service-companies-dominate-ai-search" className="text-[#F27D24] hover:underline">how home service companies dominate AI search</Link> for the full competitive picture.</p>
+          <p>Plumbing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for patterns that apply across trades, and <Link href="/blog/how-home-service-companies-dominate-ai-search" className="text-[#F27D24] hover:underline">how home service companies dominate AI search</Link> for the full competitive picture. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Plumbers Instead of You</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your plumbing business, which signals are missing, and what it would take to appear in more recommendations.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your plumbing business, which signals are missing, and what it would take to appear in more recommendations. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -553,7 +553,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
 
@@ -593,7 +593,7 @@ export default function Page() {
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+              <p className="text-gray-300 leading-relaxed">{item.a} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
           ))}
         </div>
@@ -601,7 +601,7 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Emergency Call Could Be Yours</h2>
-          <p className="text-gray-300 mb-8 text-lg">Every AI-referred emergency call that goes to a competitor is a lost job. Our Blind Spot Report shows exactly what AI sees when someone searches for a plumber in your area, and what you need to change to capture that call.</p>
+          <p className="text-gray-300 mb-8 text-lg">Every AI-referred emergency call that goes to a competitor is a lost job. Our Blind Spot Report shows exactly what AI sees when someone searches for a plumber in your area, and what you need to change to capture that call. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

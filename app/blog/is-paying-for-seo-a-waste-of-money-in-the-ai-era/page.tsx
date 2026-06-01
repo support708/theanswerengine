@@ -305,22 +305,22 @@ export default function BlogPost() {
           <span className="ae-section-label" id="honest-answer">Myth Busters</span>
           <h2>The Honest Answer Nobody Gives You</h2>
 
-          <p>You are paying $2,000 to $10,000 per month for SEO. Your agency sends impressive reports. Rankings are climbing. Traffic graphs trend upward. Everything looks like it is working.</p>
+          <p>You are paying $2,000 to $10,000 per month for SEO. Your agency sends impressive reports. Rankings are climbing. Traffic graphs trend upward. Everything looks like it is working. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>But something feels off. The phone is not ringing the way it used to. Leads are thinner. The customers who do call seem less qualified. And you cannot shake the feeling that your marketing dollars are disappearing into a system that used to work beautifully but now feels broken.</p>
+          <p>But something feels off. The phone is not ringing the way it used to. Leads are thinner. The customers who do call seem less qualified. And you cannot shake the feeling that your marketing dollars are disappearing into a system that used to work beautifully but now feels broken. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-          <p>Here is the honest answer: <strong>SEO is not a waste of money, but paying for SEO alone in 2026 is like paying for a billboard on a road that fewer people drive on every month.</strong> The road still has traffic. The billboard still exists. But the customers you want most have found a faster route, and that route runs through AI.</p>
+          <p>Here is the honest answer: <strong>SEO is not a waste of money, but paying for SEO alone in 2026 is like paying for a billboard on a road that fewer people drive on every month.</strong> The road still has traffic. The billboard still exists. But the customers you want most have found a faster route, and that route runs through AI. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-          <p>This is not an article telling you to cancel your SEO. This is an article helping you understand where your money actually goes, what it buys you today versus three years ago, and how to make every dollar count in a search landscape that has fundamentally changed.</p>
+          <p>This is not an article telling you to cancel your SEO. This is an article helping you understand where your money actually goes, what it buys you today versus three years ago, and how to make every dollar count in a search landscape that has fundamentally changed. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Uncomfortable Truth</div>
-            <p>According to Semrush data, 58.5% of US searches now end without a single click. When Google AI Overviews appear, that number jumps to 83%. Your SEO investment is optimizing for a shrinking pool of clicks.</p>
+            <p>According to Semrush data, 58.5% of US searches now end without a single click. When Google AI Overviews appear, that number jumps to 83%. Your SEO investment is optimizing for a shrinking pool of clicks. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Before you make any budget decisions, find out whether AI is sending customers to you or your competitors.</p>
+            <p>Before you make any budget decisions, find out whether AI is sending customers to you or your competitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             <Link href="/blindspot">Get Your Free AI Blind Spot Report &rarr;</Link>
           </div>
 
@@ -328,13 +328,13 @@ export default function BlogPost() {
           <span className="ae-section-label" id="seo-roi-reality">The Data</span>
           <h2>SEO ROI in 2026: The Numbers Do Not Lie</h2>
 
-          <p>Let us start with what the SEO industry tells you. The headline number is impressive: a well-executed SEO campaign delivers a median ROI of approximately 748%, meaning roughly $7.48 back for every $1 spent. Some sectors like medical devices and higher education report ROI over 900 to 1,100 percent. The global SEO services market continues growing at 16.2% annually. And 91% of marketers say SEO has a positive impact on their website performance.</p>
+          <p>Let us start with what the SEO industry tells you. The headline number is impressive: a well-executed SEO campaign delivers a median ROI of approximately 748%, meaning roughly $7.48 back for every $1 spent. Some sectors like medical devices and higher education report ROI over 900 to 1,100 percent. The global SEO services market continues growing at 16.2% annually. And 91% of marketers say SEO has a positive impact on their website performance. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
-          <p>Those numbers are real. They are also misleading.</p>
+          <p>Those numbers are real. They are also misleading. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-          <p>Here is what those statistics do not tell you. The ROI figures include campaigns that blend traditional SEO with AI-optimized content strategies. They do not isolate pure old-school SEO tactics. The "positive impact" metric measures traffic and rankings, not leads and revenue. And the market growth statistic reflects agencies pivoting toward AI services, not a booming demand for traditional keyword optimization.</p>
+          <p>Here is what those statistics do not tell you. The ROI figures include campaigns that blend traditional SEO with AI-optimized content strategies. They do not isolate pure old-school SEO tactics. The "positive impact" metric measures traffic and rankings, not leads and revenue. And the market growth statistic reflects agencies pivoting toward AI services, not a booming demand for traditional keyword optimization. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>When you strip away the blended numbers and look at businesses running classic SEO playbooks (keyword targeting, backlink building, technical audits, content calendars), the ROI picture looks very different. Organic click-through rates drop 35% when AI Overviews appear on a search results page. For queries where AI provides a direct answer, the CTR collapses from 1.76% down to 0.61%, a 61% decline.</p>
+          <p>When you strip away the blended numbers and look at businesses running classic SEO playbooks (keyword targeting, backlink building, technical audits, content calendars), the ROI picture looks very different. Organic click-through rates drop 35% when AI Overviews appear on a search results page. For queries where AI provides a direct answer, the CTR collapses from 1.76% down to 0.61%, a 61% decline. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* BAR GROUP */}
           <div className="ae-bar-group not-prose">
@@ -365,11 +365,11 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>The takeaway is not that SEO has zero ROI. It clearly does. The takeaway is that the ROI is eroding quarter over quarter as AI captures more of the high-intent searches that used to drive leads. Your SEO spend is buying you a smaller and smaller slice of a pie that AI is eating from the other side.</p>
+          <p>The takeaway is not that SEO has zero ROI. It clearly does. The takeaway is that the ROI is eroding quarter over quarter as AI captures more of the high-intent searches that used to drive leads. Your SEO spend is buying you a smaller and smaller slice of a pie that AI is eating from the other side. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
-            <p>Your ROI numbers may look healthy on paper. See what they look like when you factor in AI search.</p>
+            <p>Your ROI numbers may look healthy on paper. See what they look like when you factor in AI search. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <Link href="/blindspot">Run Your Free AI Visibility Check &rarr;</Link>
           </div>
 
@@ -377,24 +377,24 @@ export default function BlogPost() {
           <span className="ae-section-label" id="zero-click-problem">The Shift</span>
           <h2>The Zero-Click Problem Eating Your Budget</h2>
 
-          <p>This is the single biggest reason your SEO investment feels like it is underperforming. According to Semrush's 2025 zero-click study, 58.5% of US searches and 59.7% of EU searches conclude entirely within Google's search results page. The searcher never clicks on anything. They get their answer and leave.</p>
+          <p>This is the single biggest reason your SEO investment feels like it is underperforming. According to Semrush's 2025 zero-click study, 58.5% of US searches and 59.7% of EU searches conclude entirely within Google's search results page. The searcher never clicks on anything. They get their answer and leave. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-          <p>On mobile, the number is even worse: 75% of searches end without a click. And when AI Overviews appear (which now happens on roughly 25% of all Google searches, up from 13% in early 2025), the zero-click rate rockets to 83%.</p>
+          <p>On mobile, the number is even worse: 75% of searches end without a click. And when AI Overviews appear (which now happens on roughly 25% of all Google searches, up from 13% in early 2025), the zero-click rate rockets to 83%. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-          <p>Think about what that means for your SEO budget. You are paying an agency to push your website to page one of Google. They succeed. You rank beautifully. And then 60 to 83 percent of the people who search for your keywords never visit any website at all. They get an AI-generated answer right on the search results page, or they ask ChatGPT and get a direct recommendation without ever opening Google.</p>
+          <p>Think about what that means for your SEO budget. You are paying an agency to push your website to page one of Google. They succeed. You rank beautifully. And then 60 to 83 percent of the people who search for your keywords never visit any website at all. They get an AI-generated answer right on the search results page, or they ask ChatGPT and get a direct recommendation without ever opening Google. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Key Insight</div>
-            <p>Google's own AI Mode, currently in testing, shows a 93% zero-click rate. As Google rolls this out more broadly, the percentage of searches that result in website visits will continue to shrink. Your page-one ranking becomes less valuable with every AI feature Google adds.</p>
+            <p>Google's own AI Mode, currently in testing, shows a 93% zero-click rate. As Google rolls this out more broadly, the percentage of searches that result in website visits will continue to shrink. Your page-one ranking becomes less valuable with every AI feature Google adds. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
 
-          <p>The total volume of search activity has actually increased. Combined usage of search engines and AI platforms is up 26% worldwide. People are searching more than ever. They are just searching differently. Instead of clicking through to websites, comparing options, and making decisions, they are asking AI for a recommendation and acting on it immediately.</p>
+          <p>The total volume of search activity has actually increased. Combined usage of search engines and AI platforms is up 26% worldwide. People are searching more than ever. They are just searching differently. Instead of clicking through to websites, comparing options, and making decisions, they are asking AI for a recommendation and acting on it immediately. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-          <p>Your SEO budget is fighting for a shrinking share of clicks while the total addressable market of searchers grows. The customers are there. They are just taking a path that bypasses your website entirely.</p>
+          <p>Your SEO budget is fighting for a shrinking share of clicks while the total addressable market of searchers grows. The customers are there. They are just taking a path that bypasses your website entirely. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* CTA 3 */}
           <div className="ae-cta-inline not-prose">
-            <p>Zero-click searches mean zero leads from traditional SEO. See where your customers are actually going.</p>
+            <p>Zero-click searches mean zero leads from traditional SEO. See where your customers are actually going. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Discover Your AI Blind Spots &rarr;</Link>
           </div>
 
@@ -402,7 +402,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="where-seo-works">Still Valuable</span>
           <h2>Where SEO Still Earns Its Keep</h2>
 
-          <p>Before you call your agency and cancel everything, recognize that SEO still delivers genuine value in specific areas. The key is understanding exactly where that value lives so you can evaluate whether your budget is pointed at the right targets.</p>
+          <p>Before you call your agency and cancel everything, recognize that SEO still delivers genuine value in specific areas. The key is understanding exactly where that value lives so you can evaluate whether your budget is pointed at the right targets. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <table className="ae-comparison-table not-prose">
             <thead>
@@ -435,18 +435,18 @@ export default function BlogPost() {
             </tbody>
           </table>
 
-          <p>Notice the pattern. SEO works for building foundations and capturing people in research mode. It works for establishing the authority signals that AI systems also recognize. It works as infrastructure. What it no longer does well is capture the high-intent, ready-to-buy customers who increasingly turn to AI for a direct recommendation.</p>
+          <p>Notice the pattern. SEO works for building foundations and capturing people in research mode. It works for establishing the authority signals that AI systems also recognize. It works as infrastructure. What it no longer does well is capture the high-intent, ready-to-buy customers who increasingly turn to AI for a direct recommendation. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
-          <p>If your SEO agency is focused on these foundational elements, they are earning their fee. If they are promising lead generation from organic search alone, <Link href="/blog/seo-not-generating-leads">they are selling you a story that no longer matches reality</Link>.</p>
+          <p>If your SEO agency is focused on these foundational elements, they are earning their fee. If they are promising lead generation from organic search alone, <Link href="/blog/seo-not-generating-leads">they are selling you a story that no longer matches reality</Link>. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>SEO builds the foundation. It creates the infrastructure that both search engines and AI systems use to understand your business. That foundation is essential. But a foundation without a building on top of it does not generate revenue.</p>
+            <p>SEO builds the foundation. It creates the infrastructure that both search engines and AI systems use to understand your business. That foundation is essential. But a foundation without a building on top of it does not generate revenue. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Is your SEO building a strong foundation or just generating reports? Find out what AI actually sees.</p>
+            <p>Is your SEO building a strong foundation or just generating reports? Find out what AI actually sees. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your AI Foundation Score &rarr;</Link>
           </div>
 
@@ -454,7 +454,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="where-seo-fails">Money Pit</span>
           <h2>Where SEO Is Burning Your Money</h2>
 
-          <p>Here is where things get uncomfortable. Certain categories of SEO spending have become increasingly wasteful. Not because the tactics are wrong, but because the landscape they were designed for no longer exists.</p>
+          <p>Here is where things get uncomfortable. Certain categories of SEO spending have become increasingly wasteful. Not because the tactics are wrong, but because the landscape they were designed for no longer exists. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           {/* PROS/CONS */}
           <div className="ae-pros-cons not-prose">
@@ -480,18 +480,18 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>The most common form of wasted SEO budget in 2026 is paying to rank for queries that AI answers directly. If someone searches "best plumber near me" and Google shows an AI Overview with three recommendations, your organic ranking below that overview captures a fraction of the traffic it used to. You are paying to rank in a position that fewer people scroll to every quarter.</p>
+          <p>The most common form of wasted SEO budget in 2026 is paying to rank for queries that AI answers directly. If someone searches "best plumber near me" and Google shows an AI Overview with three recommendations, your organic ranking below that overview captures a fraction of the traffic it used to. You are paying to rank in a position that fewer people scroll to every quarter. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
-          <p>According to research from SeoClarity, 86% of SEO professionals have already integrated AI into their workflows because they recognize that traditional optimization alone is not sufficient. If your agency is not among them, your money is funding yesterday's strategy.</p>
+          <p>According to research from SeoClarity, 86% of SEO professionals have already integrated AI into their workflows because they recognize that traditional optimization alone is not sufficient. If your agency is not among them, your money is funding yesterday's strategy. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">Budget Reality Check</div>
-            <p>Ask your agency this question: "What percentage of our target keywords now trigger AI Overviews?" If they do not know the answer, they are not tracking the metric that determines whether your ranking investment actually reaches customers.</p>
+            <p>Ask your agency this question: "What percentage of our target keywords now trigger AI Overviews?" If they do not know the answer, they are not tracking the metric that determines whether your ranking investment actually reaches customers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </div>
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>Spending money on rankings that AI has already claimed? See exactly which of your keywords are affected.</p>
+            <p>Spending money on rankings that AI has already claimed? See exactly which of your keywords are affected. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot">Audit Your Keyword Exposure &rarr;</Link>
           </div>
 
@@ -499,7 +499,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="ai-conversion-advantage">The Multiplier</span>
           <h2>The AI Conversion Advantage Most Businesses Miss</h2>
 
-          <p>Here is the statistic that should reshape how you think about your marketing budget: AI-referred visitors convert at up to 23 times higher rates than traditional organic search visitors. For B2B SaaS companies, the multiplier ranges from 6x to 27x.</p>
+          <p>Here is the statistic that should reshape how you think about your marketing budget: AI-referred visitors convert at up to 23 times higher rates than traditional organic search visitors. For B2B SaaS companies, the multiplier ranges from 6x to 27x. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <p>Why? Because when AI recommends your business, it has already done the comparison shopping for the customer. The visitor arrives at your website (or calls your phone number) with pre-built trust. AI essentially said, "This is the one you should choose." That endorsement is more powerful than any page-one ranking because it removes the decision-making friction that traditional search creates.</p>
 

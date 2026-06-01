@@ -323,17 +323,17 @@ export default function Page() {
 
             <p>The modern web was built for browsers. Browsers execute JavaScript, load APIs, animate elements, and transform raw HTML into rich interactive experiences. This works beautifully for human visitors. It is a catastrophe for AI visibility.</p>
 
-            <p>AI crawlers like GPTBot (OpenAI), PerplexityBot, ClaudeBot (Anthropic), and Google-Extended are not browsers. They are lightweight HTTP clients that request your page&apos;s URL, receive the raw HTML response from your server, parse that text, and move on. They do not run your JavaScript. They do not wait for your React app to hydrate. They do not trigger the API calls that load your service descriptions, testimonials, or pricing information.</p>
+            <p>AI crawlers like GPTBot (OpenAI), PerplexityBot, ClaudeBot (Anthropic), and Google-Extended are not browsers. They are lightweight HTTP clients that request your page&apos;s URL, receive the raw HTML response from your server, parse that text, and move on. They do not run your JavaScript. They do not wait for your React app to hydrate. They do not trigger the API calls that load your service descriptions, testimonials, or pricing information. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>What they see is the HTML that existed before any JavaScript ran. For a site built on a modern JavaScript framework like Next.js (client-side rendered), React SPA, Vue, Angular, or Nuxt, that initial HTML is often nearly empty: a loading spinner, a root div, and dozens of script tags.</p>
 
             <div className="ae-callout not-prose">
-              <p><strong>The browser test:</strong> Open your website in any browser, then disable JavaScript in your browser settings and reload the page. What you see now is approximately what AI crawlers see. If your content disappears, AI crawlers are blind to your business.</p>
+              <p><strong>The browser test:</strong> Open your website in any browser, then disable JavaScript in your browser settings and reload the page. What you see now is approximately what AI crawlers see. If your content disappears, AI crawlers are blind to your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>This is not a fringe issue or a temporary technical limitation. Semrush, Conductor, and Stridec all flagged AI crawlability as a top priority in 2026. Google itself has acknowledged that its AI-first crawling approach treats JavaScript-rendered content differently, and AI crawlers from other companies are even less capable than Google at handling dynamic pages.</p>
 
-            <p>The business impact is direct: if ChatGPT cannot read your service pages, it cannot recommend your business. If Perplexity cannot parse your location and credentials, it cannot cite you as an authoritative source. Your website complexity is silently disqualifying you from the fastest-growing customer discovery channel available.</p>
+            <p>The business impact is direct: if ChatGPT cannot read your service pages, it cannot recommend your business. If Perplexity cannot parse your location and credentials, it cannot cite you as an authoritative source. Your website complexity is silently disqualifying you from the fastest-growing customer discovery channel available. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -345,7 +345,7 @@ export default function Page() {
             <span className="ae-section-label" id="what-ai-cannot-see">Hidden Content</span>
             <h2>What AI Crawlers Cannot See on Your Website</h2>
 
-            <p>Beyond the JavaScript execution problem, there is an entire category of website design patterns that actively hide content from AI crawlers. These are patterns that UX designers love because they create clean, compact interfaces. They are patterns that AI visibility experts dread because they bury your most important business information.</p>
+            <p>Beyond the JavaScript execution problem, there is an entire category of website design patterns that actively hide content from AI crawlers. These are patterns that UX designers love because they create clean, compact interfaces. They are patterns that AI visibility experts dread because they bury your most important business information. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>Understanding exactly which patterns cause problems is the first step to fixing them. These are not obscure edge cases. They are the backbone of how most modern business websites present information.</p>
 
@@ -359,7 +359,7 @@ export default function Page() {
                   </div>
                   <div>
                     <div className="font-semibold text-white mb-1 font-plus-jakarta">Accordions and Collapsible Sections</div>
-                    <p className="text-gray-400 text-sm">FAQ sections, service detail panels, and team bios presented in collapsed accordions require a JavaScript click event to open. AI crawlers see the heading labels but none of the content inside. Your service descriptions, pricing context, and credential information are invisible.</p>
+                    <p className="text-gray-400 text-sm">FAQ sections, service detail panels, and team bios presented in collapsed accordions require a JavaScript click event to open. AI crawlers see the heading labels but none of the content inside. Your service descriptions, pricing context, and credential information are invisible. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
                   </div>
                 </div>
               </div>
@@ -385,7 +385,7 @@ export default function Page() {
                   </div>
                   <div>
                     <div className="font-semibold text-white mb-1 font-plus-jakarta">Sliders and Carousels</div>
-                    <p className="text-gray-400 text-sm">Testimonial carousels, portfolio sliders, and before-and-after sliders cycle through content via JavaScript timers or user swipe interactions. AI crawlers typically see only the first slide, or none at all if the carousel is JavaScript-initialized.</p>
+                    <p className="text-gray-400 text-sm">Testimonial carousels, portfolio sliders, and before-and-after sliders cycle through content via JavaScript timers or user swipe interactions. AI crawlers typically see only the first slide, or none at all if the carousel is JavaScript-initialized. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                   </div>
                 </div>
               </div>
@@ -411,7 +411,7 @@ export default function Page() {
                   </div>
                   <div>
                     <div className="font-semibold text-white mb-1 font-plus-jakarta">Login Walls, Paywalls, and Form Gates</div>
-                    <p className="text-gray-400 text-sm">Any content requiring a user account, subscription, or form completion before display is completely inaccessible to AI crawlers. This includes member directories, gated case studies, and content behind email capture popups.</p>
+                    <p className="text-gray-400 text-sm">Any content requiring a user account, subscription, or form completion before display is completely inaccessible to AI crawlers. This includes member directories, gated case studies, and content behind email capture popups. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                   </div>
                 </div>
               </div>
@@ -431,7 +431,7 @@ export default function Page() {
             </div>
 
             <div className="ae-callout not-prose">
-              <p>The compounding effect is severe. A typical service business website might have its core services in a tabbed panel, its testimonials in a carousel, its FAQs in accordions, and its team information behind a &ldquo;load more&rdquo; button. In this scenario, AI crawlers may read only the homepage headline, a few static paragraphs, and the footer. The 90% of content that actually builds trust and establishes expertise is completely invisible.</p>
+              <p>The compounding effect is severe. A typical service business website might have its core services in a tabbed panel, its testimonials in a carousel, its FAQs in accordions, and its team information behind a &ldquo;load more&rdquo; button. In this scenario, AI crawlers may read only the homepage headline, a few static paragraphs, and the footer. The 90% of content that actually builds trust and establishes expertise is completely invisible. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* CTA 2 */}
@@ -444,7 +444,7 @@ export default function Page() {
             <span className="ae-section-label" id="human-vs-ai-view">Side by Side</span>
             <h2>What Humans See vs What AI Sees</h2>
 
-            <p>The gap between the human experience of your website and the AI crawler experience is often enormous. Businesses spend thousands on design, photography, and copywriting, then discover that none of it is reaching the AI platforms driving their customers&apos; decisions.</p>
+            <p>The gap between the human experience of your website and the AI crawler experience is often enormous. Businesses spend thousands on design, photography, and copywriting, then discover that none of it is reaching the AI platforms driving their customers&apos; decisions. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-comparison-table not-prose">
               <table>
@@ -503,7 +503,7 @@ export default function Page() {
             <p>This table illustrates something counterintuitive: the more effort you put into making your website visually dynamic and interactive for human visitors, the less accessible it often becomes to the AI crawlers that are increasingly responsible for sending you new customers.</p>
 
             <div className="ae-quote not-prose">
-              <p>&ldquo;AI crawlers are less patient than Googlebot and bail on slow pages or 404s. They see only raw HTML. The entire modern interactive web was built for browsers, not bots. Businesses that do not adapt to this reality will be systematically invisible to AI-driven discovery.&rdquo;</p>
+              <p>&ldquo;AI crawlers are less patient than Googlebot and bail on slow pages or 404s. They see only raw HTML. The entire modern interactive web was built for browsers, not bots. Businesses that do not adapt to this reality will be systematically invisible to AI-driven discovery.&rdquo; One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <cite>Conductor, AI Crawlability Research, 2026</cite>
             </div>
 
@@ -511,7 +511,7 @@ export default function Page() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to close the gap between what humans see and what AI sees?</p>
+              <p>Ready to close the gap between what humans see and what AI sees? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -521,7 +521,7 @@ export default function Page() {
 
             <p>Not all website platforms create equal AI visibility risk. The way your website was built determines how much of your content is available to AI crawlers before a single line of JavaScript executes.</p>
 
-            <p>Squarespace, Wix, and many popular website builders have built their platforms on top of JavaScript-heavy rendering engines. These tools make it easy to create beautiful, responsive sites without writing code. The trade-off is that they generate pages where critical content loads client-side, after a JavaScript bundle executes in the browser.</p>
+            <p>Squarespace, Wix, and many popular website builders have built their platforms on top of JavaScript-heavy rendering engines. These tools make it easy to create beautiful, responsive sites without writing code. The trade-off is that they generate pages where critical content loads client-side, after a JavaScript bundle executes in the browser. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>This architectural choice was made for human visitors, because browsers execute JavaScript reliably. AI crawlers do not. The platforms are slowly improving, but as of 2026, sites built on these builders are consistently less visible to AI crawlers than sites built with server-side rendering.</p>
 
@@ -562,7 +562,7 @@ export default function Page() {
               </div>
             </div>
 
-            <p>Platform choice is not destiny. A WordPress site without proper schema and with all its services buried in accordion panels is still invisible to AI. A Squarespace site with server-side rendered HTML, explicit schema markup, and static content pages can perform much better. The platform creates the baseline risk level; your content architecture determines the actual outcome.</p>
+            <p>Platform choice is not destiny. A WordPress site without proper schema and with all its services buried in accordion panels is still invisible to AI. A Squarespace site with server-side rendered HTML, explicit schema markup, and static content pages can perform much better. The platform creates the baseline risk level; your content architecture determines the actual outcome. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
@@ -574,23 +574,23 @@ export default function Page() {
             <span className="ae-section-label" id="schema-the-game-changer">The Biggest Lever</span>
             <h2>Schema Markup: The Single Biggest Lever for AI Crawlability</h2>
 
-            <p>If JavaScript dependency is the primary barrier to AI visibility, schema markup (structured data) is the primary solution that works within any technical architecture.</p>
+            <p>If JavaScript dependency is the primary barrier to AI visibility, schema markup (structured data) is the primary solution that works within any technical architecture. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>Schema markup is code you add to your website that explicitly tells AI crawlers what your business is, what it does, where it operates, what credentials it holds, and how users have rated it. Rather than requiring AI to interpret your design, your copy, and your layout, schema provides a direct, machine-readable data feed of exactly the information AI needs to confidently recommend your business.</p>
 
-            <p>Semrush and Conductor both rank schema as one of the single most important factors for AI visibility in 2026. The reason is straightforward: AI crawlers are trying to build accurate models of the real world. Schema gives them ground truth data instead of inference. A business with proper LocalBusiness, Service, FAQPage, and Review schema is giving AI crawlers a pre-processed, pre-verified description of itself.</p>
+            <p>Semrush and Conductor both rank schema as one of the single most important factors for AI visibility in 2026. The reason is straightforward: AI crawlers are trying to build accurate models of the real world. Schema gives them ground truth data instead of inference. A business with proper LocalBusiness, Service, FAQPage, and Review schema is giving AI crawlers a pre-processed, pre-verified description of itself. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-callout not-prose">
               <p><strong>Critical insight:</strong> Schema markup lives in the raw HTML of your page, inside a <code>&lt;script type=&quot;application/ld+json&quot;&gt;</code> block. It is visible to AI crawlers even when all of your JavaScript fails to execute. This makes schema the most reliable signal you can send to AI crawlers regardless of your website architecture or platform.</p>
             </div>
 
-            <p>The schema types that matter most for AI visibility include: <strong>LocalBusiness</strong> (or its specific subtypes like MedicalBusiness, LegalService, HomeAndConstructionBusiness), <strong>Service</strong> for each service you offer, <strong>FAQPage</strong> for question-and-answer content, <strong>Review</strong> and <strong>AggregateRating</strong> for social proof, <strong>Person</strong> for team members and credentials, and <strong>Organization</strong> for corporate identity signals.</p>
+            <p>The schema types that matter most for AI visibility include: <strong>LocalBusiness</strong> (or its specific subtypes like MedicalBusiness, LegalService, HomeAndConstructionBusiness), <strong>Service</strong> for each service you offer, <strong>FAQPage</strong> for question-and-answer content, <strong>Review</strong> and <strong>AggregateRating</strong> for social proof, <strong>Person</strong> for team members and credentials, and <strong>Organization</strong> for corporate identity signals. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>This is why sites with schema consistently outperform sites without it in AI citation rates, even when the schema site has less written content. The AI crawler does not have to guess. It is told. See how <Link href="/blog/website-too-slow-for-ai-crawlers">page speed and schema work together</Link> to determine your total AI visibility score.</p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is your schema markup complete and correct? We check this in your Blind Spot Report.</p>
+              <p>Is your schema markup complete and correct? We check this in your Blind Spot Report. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -600,20 +600,20 @@ export default function Page() {
 
             <p>There is a second layer to the website complexity problem that goes beyond JavaScript: AI crawlers are simply less patient than traditional search engine bots. They bail quickly, and when they bail, they often do not come back.</p>
 
-            <p>Googlebot is a decades-old infrastructure investment. It has retry queues, re-crawl scheduling, and sophisticated prioritization logic. When Googlebot hits a slow page or a temporary error, it notes it and tries again later. AI crawlers operate differently. They are optimizing for data quality, not data completeness. A page that fails to respond quickly gets deprioritized indefinitely.</p>
+            <p>Googlebot is a decades-old infrastructure investment. It has retry queues, re-crawl scheduling, and sophisticated prioritization logic. When Googlebot hits a slow page or a temporary error, it notes it and tries again later. AI crawlers operate differently. They are optimizing for data quality, not data completeness. A page that fails to respond quickly gets deprioritized indefinitely. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Broken links create the same problem. When an AI crawler follows a link to a 404 page, that signals low site quality. The crawler updates its model of your domain&apos;s reliability and reduces its investment in crawling your other pages. Inconsistent URL structures, redirect chains, and duplicate content further reduce the efficiency of every crawl session.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">The Compounding Effect</div>
-              <p>A slow page load means the crawler abandons that page. A broken link on that page means the crawler flags your domain quality. A 404 on your main service page means AI never learns what you actually do. Each technical failure compounds, reducing your total crawl coverage until AI platforms effectively stop discovering your content.</p>
+              <p>A slow page load means the crawler abandons that page. A broken link on that page means the crawler flags your domain quality. A 404 on your main service page means AI never learns what you actually do. Each technical failure compounds, reducing your total crawl coverage until AI platforms effectively stop discovering your content. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <p>This is why <Link href="/blog/why-new-website-invisible-to-ai">new websites often struggle with AI visibility</Link> even when they look professionally built. A beautiful new site with zero inbound links, no crawl history, and JavaScript-rendered content gives AI crawlers no reason to invest crawl resources in learning about it.</p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if technical errors are costing you AI citations right now.</p>
+              <p>Find out if technical errors are costing you AI citations right now. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
             </div>
 
@@ -658,7 +658,7 @@ export default function Page() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>How does your site score on these signals? Let us run the analysis.</p>
+              <p>How does your site score on these signals? Let us run the analysis. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -738,7 +738,7 @@ export default function Page() {
             </div>
 
             <div className="ae-callout not-prose">
-              <p>If you identified three or more &ldquo;Fix First&rdquo; items in this matrix, your website is likely invisible to the majority of AI crawlers visiting it. The good news is that these are fixable technical issues, not fundamental business problems. The content you already have can often be restructured for AI visibility without a complete website rebuild.</p>
+              <p>If you identified three or more &ldquo;Fix First&rdquo; items in this matrix, your website is likely invisible to the majority of AI crawlers visiting it. The good news is that these are fixable technical issues, not fundamental business problems. The content you already have can often be restructured for AI visibility without a complete website rebuild. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* CTA 8 */}
@@ -751,7 +751,7 @@ export default function Page() {
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
             <h2>AI Crawlability Cheat Sheet</h2>
 
-            <p>Use this as your go-to reference for evaluating any page on your website for AI visibility. These are the non-negotiables that determine whether AI crawlers can read and use your content.</p>
+            <p>Use this as your go-to reference for evaluating any page on your website for AI visibility. These are the non-negotiables that determine whether AI crawlers can read and use your content. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-cheat-sheet not-prose">
               <div className="ae-cheat-sheet-title">AI Crawlability Cheat Sheet: Page Audit Checklist</div>
@@ -815,7 +815,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
             </div>
 
@@ -844,25 +844,25 @@ export default function Page() {
             <h2>Frequently Asked Questions</h2>
 
             <h3>Do AI crawlers like GPTBot render JavaScript?</h3>
-            <p>No. The vast majority of AI crawlers, including GPTBot (OpenAI), PerplexityBot, and ClaudeBot (Anthropic), do not execute client-side JavaScript. They only parse the raw HTML returned by your server on the initial response. If your website uses a JavaScript framework like React, Vue, or Angular to render content on the client side, that content is invisible to AI crawlers.</p>
+            <p>No. The vast majority of AI crawlers, including GPTBot (OpenAI), PerplexityBot, and ClaudeBot (Anthropic), do not execute client-side JavaScript. They only parse the raw HTML returned by your server on the initial response. If your website uses a JavaScript framework like React, Vue, or Angular to render content on the client side, that content is invisible to AI crawlers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>What website content is hidden from AI crawlers?</h3>
             <p>AI crawlers cannot access content hidden inside interactive UI elements that require JavaScript to open or load. This includes accordions, tabs, sliders, modal popups, dropdown menus, and content loaded on scroll. They also cannot access anything behind a login, paywall, or form submission. If content requires a user action to become visible, AI crawlers never see it.</p>
 
             <h3>Does schema markup really help AI search visibility?</h3>
-            <p>Yes. Schema markup (structured data) is one of the single most impactful signals for AI search visibility. It tells AI crawlers exactly what your business is, where it operates, what services it provides, and what its reputation is, without requiring them to interpret ambiguous natural language. Pages with proper LocalBusiness, Service, FAQPage, and Organization schema are consistently prioritized over pages without structured data.</p>
+            <p>Yes. Schema markup (structured data) is one of the single most impactful signals for AI search visibility. It tells AI crawlers exactly what your business is, where it operates, what services it provides, and what its reputation is, without requiring them to interpret ambiguous natural language. Pages with proper LocalBusiness, Service, FAQPage, and Organization schema are consistently prioritized over pages without structured data. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>Are websites built on Squarespace or Wix invisible to AI?</h3>
             <p>Not completely, but significantly disadvantaged. Squarespace, Wix, and many other website builders generate heavily JavaScript-dependent pages where critical content loads client-side. AI crawlers parsing only the raw HTML often find very little readable content. These platforms also tend to have slower server response times, which further reduces crawl coverage.</p>
 
             <h3>What is the single most important fix to improve AI crawlability?</h3>
-            <p>Move your critical content to static, server-rendered HTML. Every piece of information your business needs AI to know, including services, location, credentials, testimonials, and FAQs, should be present in the initial HTML response without requiring JavaScript execution. Pair this with proper schema markup and a fast server response time under 200 milliseconds.</p>
+            <p>Move your critical content to static, server-rendered HTML. Every piece of information your business needs AI to know, including services, location, credentials, testimonials, and FAQs, should be present in the initial HTML response without requiring JavaScript execution. Pair this with proper schema markup and a fast server response time under 200 milliseconds. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>How do broken links and inconsistent structure affect AI visibility?</h3>
             <p>AI crawlers are less tolerant than Googlebot when they encounter errors. A 404 response or redirect loop signals low site quality and causes bots to deprioritize your domain. Inconsistent URL structures make it harder for crawlers to map your site efficiently. Sites with clean internal linking, logical URL hierarchies, and no broken links get more complete crawl coverage, which translates directly to better AI citation rates.</p>
 
             <h3>Does content behind accordions and tabs hurt AI visibility?</h3>
-            <p>Yes, significantly. Business owners often use accordions to present service details, FAQs, pricing, and team information in a compact way. The problem is that the collapsed content is rendered by JavaScript on user interaction. AI crawlers see the accordion labels but none of the content inside. Moving this information to visible, static HTML or a dedicated FAQ page with schema markup restores it to AI visibility.</p>
+            <p>Yes, significantly. Business owners often use accordions to present service details, FAQs, pricing, and team information in a compact way. The problem is that the collapsed content is rendered by JavaScript on user interaction. AI crawlers see the accordion labels but none of the content inside. Moving this information to visible, static HTML or a dedicated FAQ page with schema markup restores it to AI visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>How do I know if my website has AI crawlability problems?</h3>
             <p>The simplest test is to disable JavaScript in your browser and reload your website. What you see is roughly what AI crawlers see. If your homepage shows a blank page, a spinner, or missing content, AI crawlers are experiencing the same thing. You can also check your server logs for GPTBot and PerplexityBot user agent strings to see which pages they are visiting and how often.</p>
@@ -876,7 +876,7 @@ export default function Page() {
                 </h2>
                 <p className="text-gray-300 mb-8 max-w-xl mx-auto">
                   Your website complexity may be silently blocking you from every major AI platform. Our free Blind Spot Report identifies exactly which barriers are keeping ChatGPT, Perplexity, and Google AI Mode from discovering your business, and shows you a clear path forward.
-                </p>
+                 <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link
                     href="/blindspot"

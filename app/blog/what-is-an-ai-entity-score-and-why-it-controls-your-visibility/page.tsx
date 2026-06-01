@@ -277,21 +277,21 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             There is no single published metric called an "AI entity score." What we are describing is the internal confidence calculation that every AI platform runs before it decides whether to recommend a business, what to say about it, and how prominently to feature it in responses.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Think of it this way: when you ask ChatGPT to recommend a plumber near you, the AI does not flip through a mental Rolodex. It evaluates every business entity it has information about and asks an implicit question: how confident am I in what I know about this entity? High confidence means the business gets recommended. Low confidence means the business gets skipped, regardless of how good it actually is.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             This confidence evaluation is not based on how popular your business is, how many years you have been open, or how beautiful your website looks. It is based on the clarity, consistency, and authority of the information AI systems can find about your business across the entire web.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">Why This Concept Matters More Than Any SEO Metric</div>
-            <p>Traditional SEO optimizes individual pages for keyword rankings. Entity authority optimizes your business as a whole for AI confidence. A business with perfect SEO but low entity authority will not get recommended by AI. A business with modest SEO but strong entity authority will. This is the fundamental shift most businesses have not yet internalized.</p>
+            <p>Traditional SEO optimizes individual pages for keyword rankings. Entity authority optimizes your business as a whole for AI confidence. A business with perfect SEO but low entity authority will not get recommended by AI. A business with modest SEO but strong entity authority will. This is the fundamental shift most businesses have not yet internalized. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Want to know your current entity score across AI platforms? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where your entity authority is strong and where it is costing you recommendations.</p>
+            <p>Want to know your current entity score across AI platforms? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where your entity authority is strong and where it is costing you recommendations. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
         </section>
 
@@ -301,10 +301,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             AI platforms build their understanding of your business through a process that resembles investigative research. They gather data from multiple sources, look for consistency, weigh the authority of each source, and synthesize a picture of who you are, what you do, where you are, and whether you can be trusted.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The process is not linear and is not transparent to the business. You cannot check your entity score the way you check a Google Analytics dashboard. But you can understand the factors that build it and take actions that improve it systematically.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -338,7 +338,7 @@ export default function Page() {
           </div>
 
           <div className="ae-cta-inline">
-            <p>Curious how AI is currently scoring your business entity? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see your entity confidence across ChatGPT, Perplexity, and Google AI.</p>
+            <p>Curious how AI is currently scoring your business entity? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see your entity confidence across ChatGPT, Perplexity, and Google AI. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
         </section>
 
@@ -348,17 +348,17 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Entity drift is what happens when your business information diverges across different platforms over time. It happens to almost every business, often without anyone noticing, through a series of completely normal events.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Your business moves, but only some directories get updated. You change your phone number, but old listings still have the old number. You rebrand and change your business name slightly, but ten directory listings still have the old name. You expand your services, but most of your older content does not reflect the new offerings.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Each inconsistency is minor. Together they create entity drift, and entity drift lowers the AI confidence score that determines whether you get recommended. A business with significant entity drift may have excellent services and hundreds of happy customers but be nearly invisible to AI platforms because the information about it is contradictory.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Drift Acceleration Problem</div>
-            <p>Entity drift tends to get worse over time, not better. Every year that passes without active maintenance adds more inconsistencies across more platforms. Old directory listings do not disappear just because you stopped using them. Old blog posts with outdated information stay indexed. The cumulative effect compounds, and the AI confidence score continues to decline.</p>
+            <p>Entity drift tends to get worse over time, not better. Every year that passes without active maintenance adds more inconsistencies across more platforms. Old directory listings do not disappear just because you stopped using them. Old blog posts with outdated information stay indexed. The cumulative effect compounds, and the AI confidence score continues to decline. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mt-10 mb-4">
@@ -408,7 +408,7 @@ export default function Page() {
           </table>
 
           <div className="ae-cta-inline mt-6">
-            <p>Concerned about entity drift in your business? <Link href="/blindspot">Get your free Blind Spot Report</Link> to see exactly where inconsistencies are lowering your AI entity confidence score.</p>
+            <p>Concerned about entity drift in your business? <Link href="/blindspot">Get your free Blind Spot Report</Link> to see exactly where inconsistencies are lowering your AI entity confidence score. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
         </section>
 
@@ -418,21 +418,21 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Knowledge graphs are the underlying data structures that AI platforms use to map relationships between entities. Your business is a node in this graph. It connects to location nodes, category nodes, review nodes, service nodes, and related business nodes.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             A well-connected, consistent knowledge graph entry for your business increases the confidence with which AI systems can recommend you. It is not just about what AI knows about you directly. It is about how well your entity connects to other known, trusted entities in the graph.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             A plumber in Chicago who is connected to known plumbing contractors associations, mentioned in local news, listed in recognized trade directories, and consistent with the "plumber" category entity will have a richer, more trustworthy knowledge graph entry than a plumber with only a website and a Google Business Profile.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-callout ae-callout-success">
             <div className="ae-callout-title">The Connection Density Principle</div>
-            <p>The more your business entity connects to other trusted entities in the knowledge graph, the higher its confidence score. This is why third-party mentions in authoritative publications, industry association listings, and category-specific directories matter so much for AI visibility. They are not just links. They are connections that increase your entity's credibility in the graph.</p>
+            <p>The more your business entity connects to other trusted entities in the knowledge graph, the higher its confidence score. This is why third-party mentions in authoritative publications, industry association listings, and category-specific directories matter so much for AI visibility. They are not just links. They are connections that increase your entity's credibility in the graph. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Want to know how well-connected your entity is in the AI knowledge graph? <a href="tel:+12134442229">Call (213) 444-2229</a> for a knowledge graph analysis of your business.</p>
+            <p>Want to know how well-connected your entity is in the AI knowledge graph? <a href="tel:+12134442229">Call (213) 444-2229</a> for a knowledge graph analysis of your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
         </section>
 
@@ -442,7 +442,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Research has identified 65 factors that influence whether a business appears in AI search answers. Not all are equally weighted, and the weights vary by platform and query type. But the factors that most consistently move the needle fall into recognizable patterns.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-bar-group">
             <div className="ae-bar-item">
@@ -531,7 +531,7 @@ export default function Page() {
           </div>
 
           <div className="ae-cta-inline">
-            <p>Scoring low on any of these entity factors? <Link href="/blindspot">Get your free Blind Spot Report</Link> to see exactly which factors are holding back your AI recommendations.</p>
+            <p>Scoring low on any of these entity factors? <Link href="/blindspot">Get your free Blind Spot Report</Link> to see exactly which factors are holding back your AI recommendations. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
         </section>
 
@@ -541,26 +541,26 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Improving your AI entity score is not a single action. It is a coordinated program that addresses entity consistency, content authority, structured data, and external validation simultaneously. Doing one piece well while leaving the others weak produces limited results.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The sequence matters. Starting with inconsistencies is essential because inconsistencies actively lower confidence and actively working against everything else you build. A beautifully structured website cannot overcome the entity drift created by 30 inconsistent directory listings that contradict it.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The framework for prioritizing and executing entity improvement is what we build for clients. What we can tell you here is that <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:text-orange-400 transition-colors">how AI crawlers see your website</Link> is just one input into a much larger entity evaluation. Understanding the full picture is the starting point for any improvement program.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">What We Tell You vs What We Build For You</div>
-            <p>This article explains what entity scores are, how they work, and what factors influence them. What we do not publish is the specific framework, sequencing, and tooling we use to audit, repair, and build entity authority for clients. That methodology is what creates results. If you want the explanation, you have it. If you want the results, that is what The Answer Engine does.</p>
+            <p>This article explains what entity scores are, how they work, and what factors influence them. What we do not publish is the specific framework, sequencing, and tooling we use to audit, repair, and build entity authority for clients. That methodology is what creates results. If you want the explanation, you have it. If you want the results, that is what The Answer Engine does. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">The Core Insight</div>
-            <p>AI does not recommend businesses based on how good they are. It recommends businesses based on how confident it is in what it knows about them. That confidence is your entity score. Improving it is not about tricks or shortcuts. It is about building a web of consistent, authoritative, structured information that gives AI every reason to trust you completely.</p>
+            <p>AI does not recommend businesses based on how good they are. It recommends businesses based on how confident it is in what it knows about them. That confidence is your entity score. Improving it is not about tricks or shortcuts. It is about building a web of consistent, authoritative, structured information that gives AI every reason to trust you completely. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Ready to improve your entity score and get recommended by AI? <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a> to start your entity audit.</p>
+            <p>Ready to improve your entity score and get recommended by AI? <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a> to start your entity audit. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
         </section>
 
@@ -627,7 +627,7 @@ export default function Page() {
 
         <section className="my-12">
           <div className="ae-quote">
-            <p>"AI does not know your business is good. It only knows whether the information about your business is consistent, authoritative, and clear. Your entity score is not a measure of your business quality. It is a measure of your information quality."</p>
+            <p>"AI does not know your business is good. It only knows whether the information about your business is consistent, authoritative, and clear. Your entity score is not a measure of your business quality. It is a measure of your information quality." <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <cite>Justin Borges</cite>
           </div>
         </section>
@@ -639,7 +639,7 @@ export default function Page() {
           </h3>
           <p className="text-gray-400 mb-6">
             Our Blind Spot Report runs a full entity audit across ChatGPT, Perplexity, and Google AI. You will see exactly what signals are building your entity confidence and exactly what inconsistencies are tearing it down.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -675,7 +675,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             </div>
 
@@ -713,7 +713,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
-                <p className="text-gray-400 leading-relaxed">{a}</p>
+                <p className="text-gray-400 leading-relaxed">{a} <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             ))}
           </div>

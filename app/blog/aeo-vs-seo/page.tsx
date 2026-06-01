@@ -263,19 +263,19 @@ export default function AEOvsSEO() {
 
             <p>For 20+ years, SEO was the game. Rank higher, get more clicks, win more customers. Simple.</p>
 
-            <p>Then AI changed everything.</p>
+            <p>Then AI changed everything. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>Now when someone asks ChatGPT &quot;Who&apos;s the best probate realtor in Pasadena?&quot; or Google shows an AI Overview answering &quot;How do I sell an inherited house?&quot;, the rules are different. Being on page one is not enough. You need to be the answer AI recommends.</p>
 
             <div className="ae-quote not-prose">
-              <p>SEO gets you on Google&apos;s list of 10 blue links. AEO makes you the one AI recommends by name.</p>
+              <p>SEO gets you on Google&apos;s list of 10 blue links. AEO makes you the one AI recommends by name. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <p>That is the core difference between SEO and AEO. And if you are a local service business, understanding this difference might be the most important thing you learn this year.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of you.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -288,7 +288,7 @@ export default function AEOvsSEO() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>1998-2005: The Keyword Era</strong>
-                <p>Google launches. Stuff keywords into pages, get ranked. Basic backlinks determine authority. SEO is born.</p>
+                <p>Google launches. Stuff keywords into pages, get ranked. Basic backlinks determine authority. SEO is born. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>2005-2015: The Quality Era</strong>
@@ -296,7 +296,7 @@ export default function AEOvsSEO() {
               </div>
               <div className="ae-timeline-item">
                 <strong>2015-2022: The Experience Era</strong>
-                <p>Mobile-first indexing, Core Web Vitals, E-A-T signals. User experience joins content quality as a ranking factor. SEO gets technical.</p>
+                <p>Mobile-first indexing, Core Web Vitals, E-A-T signals. User experience joins content quality as a ranking factor. SEO gets technical. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>2022-2024: The AI Disruption</strong>
@@ -304,7 +304,7 @@ export default function AEOvsSEO() {
               </div>
               <div className="ae-timeline-item">
                 <strong>2025+: The Answer Era</strong>
-                <p>AI platforms become primary discovery channels. Being ranked is not enough. Being the cited, recommended answer is what drives business. AEO emerges as the new competitive edge.</p>
+                <p>AI platforms become primary discovery channels. Being ranked is not enough. Being the cited, recommended answer is what drives business. AEO emerges as the new competitive edge. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
             </div>
 
@@ -315,7 +315,7 @@ export default function AEOvsSEO() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure where your business stands in this shift? Talk to an AEO specialist.</p>
+              <p>Not sure where your business stands in this shift? Talk to an AEO specialist. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
             </div>
 
@@ -384,7 +384,7 @@ export default function AEOvsSEO() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>AEO and SEO serve different stages of how people find businesses. SEO puts you on the map. AEO makes AI recommend you when someone asks for the best option.</p>
+              <p>AEO and SEO serve different stages of how people find businesses. SEO puts you on the map. AEO makes AI recommend you when someone asks for the best option. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* ── CTA 3 ── */}
@@ -397,7 +397,7 @@ export default function AEOvsSEO() {
             <span className="ae-section-label">Traditional SEO</span>
             <h2>What is SEO? (The Foundation)</h2>
 
-            <p>Search Engine Optimization is the practice of improving your website to rank higher in search engine results. When someone searches &quot;plumber near me,&quot; SEO determines whether you show up on page 1 or page 10.</p>
+            <p>Search Engine Optimization is the practice of improving your website to rank higher in search engine results. When someone searches &quot;plumber near me,&quot; SEO determines whether you show up on page 1 or page 10. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>SEO has been the backbone of digital marketing since Google launched. The core pillars have remained consistent for over two decades:</p>
 
@@ -410,14 +410,14 @@ export default function AEOvsSEO() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Context</div>
-              <p>SEO still matters. It is table stakes for any business that wants to be found online. The problem is that it is no longer sufficient on its own. Everyone does SEO. The competitive advantage has shifted.</p>
+              <p>SEO still matters. It is table stakes for any business that wants to be found online. The problem is that it is no longer sufficient on its own. Everyone does SEO. The competitive advantage has shifted. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <p>Think of SEO as qualifying for the race. You need it to get on the track. But finishing first now requires something more.</p>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about how SEO and AEO work together for your business? We are happy to walk you through it.</p>
+              <p>Questions about how SEO and AEO work together for your business? We are happy to walk you through it. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -427,7 +427,7 @@ export default function AEOvsSEO() {
 
             <p><Link href="/blog/what-is-answer-engine-optimization">Answer Engine Optimization</Link> is the practice of structuring your content so AI platforms cite you as the authoritative answer. When someone asks ChatGPT &quot;Who&apos;s the best estate planning attorney in Denver?&quot;, AEO determines whether you get mentioned.</p>
 
-            <p>AEO targets fundamentally different signals than SEO:</p>
+            <p>AEO targets fundamentally different signals than SEO: Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <ul>
               <li><strong>Direct answers:</strong> Content structured to answer specific questions immediately</li>
@@ -441,7 +441,7 @@ export default function AEOvsSEO() {
               <p>SEO asks: &quot;How do I rank for this keyword?&quot; AEO asks: &quot;How do I become the source AI trusts enough to recommend by name?&quot; The answer requires a completely different content strategy.</p>
             </div>
 
-            <p>The goal is not just to be found. It is to be <em>recommended</em>. And that distinction changes everything about how you create content, structure your website, and position your expertise online.</p>
+            <p>The goal is not just to be found. It is to be <em>recommended</em>. And that distinction changes everything about how you create content, structure your website, and position your expertise online. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
@@ -453,7 +453,7 @@ export default function AEOvsSEO() {
             <span className="ae-section-label">Market Shift</span>
             <h2>Why This Matters Right Now (Not Next Year)</h2>
 
-            <p>The shift from search to AI answers is already well underway. Three forces are converging to make AEO urgent:</p>
+            <p>The shift from search to AI answers is already well underway. Three forces are converging to make AEO urgent: Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── BAR GROUP ── */}
             <div className="ae-bar-group not-prose">
@@ -488,7 +488,7 @@ export default function AEOvsSEO() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Warning</div>
-              <p>When someone asks an AI &quot;Who should I hire for your service in your city?&quot; you are either part of the answer or you are invisible. There is no page two in AI search. There is cited or not cited.</p>
+              <p>When someone asks an AI &quot;Who should I hire for your service in your city?&quot; you are either part of the answer or you are invisible. There is no page two in AI search. There is cited or not cited. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── CTA 6 ── */}
@@ -502,17 +502,17 @@ export default function AEOvsSEO() {
             <h2>The 4 Key Differences That Actually Matter</h2>
 
             <h3>1. Discovery vs. Recommendation</h3>
-            <p>SEO helps people <em>discover</em> you among many options. AEO makes AI <em>recommend</em> you as the best choice. Discovery means you are on the list. Recommendation means you are the answer.</p>
+            <p>SEO helps people <em>discover</em> you among many options. AEO makes AI <em>recommend</em> you as the best choice. Discovery means you are on the list. Recommendation means you are the answer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>This is not a subtle difference. When a potential customer sees 10 options on a Google results page, each business gets roughly a 10% chance of a click. When AI recommends 1-2 businesses by name, those businesses capture nearly all the intent.</p>
 
             <h3>2. Keywords vs. Expertise</h3>
-            <p>SEO optimizes for keywords people type. AEO optimizes for questions people ask and the expertise needed to answer them. AI does not just match keywords. It evaluates whether your content demonstrates genuine authority.</p>
+            <p>SEO optimizes for keywords people type. AEO optimizes for questions people ask and the expertise needed to answer them. AI does not just match keywords. It evaluates whether your content demonstrates genuine authority. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>A plumber who publishes content answering &quot;why does my water heater make a knocking sound?&quot; with detailed, experience-backed explanations builds expertise signals that AI platforms reward. Keyword-stuffed pages do not.</p>
 
             <h3>3. Links vs. Trust Signals</h3>
-            <p>SEO weighs backlinks heavily. Who links to you matters. AEO weighs trust signals. Schema markup, verified credentials, consistent entity information across the web. AI needs to verify you are real and credible before it recommends you.</p>
+            <p>SEO weighs backlinks heavily. Who links to you matters. AEO weighs trust signals. Schema markup, verified credentials, consistent entity information across the web. AI needs to verify you are real and credible before it recommends you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <h3>4. Competition Level</h3>
             <p>SEO is a 25-year-old battleground. Everyone is doing it. Ranking for competitive terms requires massive investment. AEO is emerging. Most businesses have not started. Early movers have a significant advantage that compounds over time.</p>
@@ -545,7 +545,7 @@ export default function AEOvsSEO() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>The challenges of AEO are real, but they are also temporary barriers. The advantages are structural and compounding. Early movers build an authority moat that gets harder for competitors to cross over time.</p>
+              <p>The challenges of AEO are real, but they are also temporary barriers. The advantages are structural and compounding. Early movers build an authority moat that gets harder for competitors to cross over time. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* ── CTA 7 ── */}
@@ -558,7 +558,7 @@ export default function AEOvsSEO() {
             <span className="ae-section-label">Strategy</span>
             <h2>Do You Need Both AEO and SEO?</h2>
 
-            <p>Short answer: <strong>Yes.</strong></p>
+            <p>Short answer: <strong>Yes.</strong> Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>SEO and AEO are not mutually exclusive. They are complementary. Good AEO actually improves your SEO because the same signals that AI platforms value also help Google rank your content higher:</p>
 
@@ -598,7 +598,7 @@ export default function AEOvsSEO() {
             </div>
 
             <div className="ae-quote not-prose">
-              <p>Think of it this way: SEO is table stakes. Everyone is doing it. AEO is the emerging competitive advantage that most of your competitors have not figured out yet.</p>
+              <p>Think of it this way: SEO is table stakes. Everyone is doing it. AEO is the emerging competitive advantage that most of your competitors have not figured out yet. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             {/* ── CTA 8 ── */}
@@ -611,7 +611,7 @@ export default function AEOvsSEO() {
             <span className="ae-section-label">Decision Framework</span>
             <h2>When to Prioritize AEO vs SEO</h2>
 
-            <p>Both strategies matter, but your budget and timeline should determine where you focus first. Use this decision framework to prioritize:</p>
+            <p>Both strategies matter, but your budget and timeline should determine where you focus first. Use this decision framework to prioritize: Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-decision-matrix not-prose">
               <div className="ae-decision-matrix-title">Priority Framework</div>
@@ -657,28 +657,28 @@ export default function AEOvsSEO() {
             <span className="ae-section-label">Implementation</span>
             <h2>How to Get Started with AEO (4 Steps)</h2>
 
-            <p>If you are already doing SEO, adding AEO involves four key steps. Each one builds on the previous, creating a compounding effect:</p>
+            <p>If you are already doing SEO, adding AEO involves four key steps. Each one builds on the previous, creating a compounding effect: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>Step 1: Audit Your AI Visibility</h3>
             <p>Ask ChatGPT and Claude to recommend businesses like yours in your area. Are you mentioned? Are your competitors? This reveals your current AI citation status and tells you exactly how much ground you need to cover.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">Quick Test</div>
-              <p>Open ChatGPT right now and type: &quot;Who is the best [your service] in [your city]?&quot; If your business is not in the response, AI is sending those customers to your competitors instead.</p>
+              <p>Open ChatGPT right now and type: &quot;Who is the best [your service] in [your city]?&quot; If your business is not in the response, AI is sending those customers to your competitors instead. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3>Step 2: Implement Schema Markup</h3>
             <p>Add LocalBusiness, FAQ, Article, and other relevant schema types to help AI understand your business entity and expertise areas. Schema is the language AI platforms speak. Without it, they cannot properly categorize or recommend your business.</p>
 
             <h3>Step 3: Create Direct-Answer Content</h3>
-            <p>Structure content to directly answer questions your ideal customers ask. Put the answer first, then expand with supporting detail and expertise. AI platforms favor content that gets to the point and demonstrates real knowledge.</p>
+            <p>Structure content to directly answer questions your ideal customers ask. Put the answer first, then expand with supporting detail and expertise. AI platforms favor content that gets to the point and demonstrates real knowledge. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <h3>Step 4: Build Topic Authority</h3>
             <p>Create comprehensive content clusters around your expertise areas using a <Link href="/blog/hub-spoke-content-strategy-ai-citations">hub-and-spoke architecture</Link>. AI platforms cite sources that demonstrate deep, interconnected knowledge, not thin, isolated pages.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>These four steps work together as a system. Schema helps AI find you. Direct answers give AI something to cite. Topic authority convinces AI you are the best source. Skip any step and the system underperforms.</p>
+              <p>These four steps work together as a system. Schema helps AI find you. Direct answers give AI something to cite. Topic authority convinces AI you are the best source. Skip any step and the system underperforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             {/* ── CTA 10 ── */}
@@ -691,7 +691,7 @@ export default function AEOvsSEO() {
             <span className="ae-section-label">Real-World Impact</span>
             <h2>What Happens When AEO Works</h2>
 
-            <p>When AEO is implemented correctly, the results look different from traditional SEO wins. Instead of climbing from position 8 to position 3 on Google, you start appearing as a named recommendation in AI responses.</p>
+            <p>When AEO is implemented correctly, the results look different from traditional SEO wins. Instead of climbing from position 8 to position 3 on Google, you start appearing as a named recommendation in AI responses. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* ── COMPARISON TABLE 2 ── */}
             <table className="ae-comparison-table not-prose">
@@ -735,7 +735,7 @@ export default function AEOvsSEO() {
 
             {/* ── CTA 11 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to see these kinds of results for your business? It starts with understanding your current position.</p>
+              <p>Ready to see these kinds of results for your business? It starts with understanding your current position. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <Link href="/blindspot">Start Your Free Assessment &rarr;</Link>
             </div>
 
@@ -746,14 +746,14 @@ export default function AEOvsSEO() {
             <p>Most businesses approach this decision with outdated assumptions. Here are the five most common mistakes we see:</p>
 
             <h3>Mistake 1: Thinking SEO alone is enough</h3>
-            <p>SEO is necessary but no longer sufficient. With AI answers eating into organic click-through rates, <Link href="/blog/seo-not-generating-leads">businesses relying solely on SEO</Link> are watching their lead volume decline even as their rankings hold steady.</p>
+            <p>SEO is necessary but no longer sufficient. With AI answers eating into organic click-through rates, <Link href="/blog/seo-not-generating-leads">businesses relying solely on SEO</Link> are watching their lead volume decline even as their rankings hold steady. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Mistake 2: Treating AEO as a replacement for SEO</h3>
             <p>AEO extends SEO. It does not replace it. You still need a technically sound website, quality content, and search visibility. AEO adds a new layer of optimization on top of that foundation.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Important Distinction</div>
-              <p>Dropping SEO for AEO is like dropping defense to focus on offense. You need both to win. The businesses that dominate their markets in 2025 and beyond will be the ones running both strategies simultaneously.</p>
+              <p>Dropping SEO for AEO is like dropping defense to focus on offense. You need both to win. The businesses that dominate their markets in 2025 and beyond will be the ones running both strategies simultaneously. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             <h3>Mistake 3: Waiting until competitors force the issue</h3>

@@ -277,17 +277,17 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             <p>When a business owner asks ChatGPT &quot;Who is the best CPA for small business taxes near me?&quot; or Google AI generates an overview for &quot;What should I look for in an accountant?&quot;, certain firms keep appearing. They are not paying for those placements. They are not running ads inside AI platforms. They have built the kind of online presence that AI trusts enough to recommend.</p>
 
-            <p>The speed of this shift is staggering. According to a 2025 survey by Sage and the AICPA, AI adoption in accounting rose from just 9% in 2024 to 41% in 2025. That is a 355% increase in a single year. Accountants are adopting AI internally faster than almost any other profession. But here is the part most firms have not considered: the same AI tools transforming how you work are also transforming how clients find you.</p>
+            <p>The speed of this shift is staggering. According to a 2025 survey by Sage and the AICPA, AI adoption in accounting rose from just 9% in 2024 to 41% in 2025. That is a 355% increase in a single year. Accountants are adopting AI internally faster than almost any other profession. But here is the part most firms have not considered: the same AI tools transforming how you work are also transforming how clients find you. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>The accounting profession is undergoing the most significant technology shift since the spreadsheet replaced the ledger. Firms that recognize this as a visibility opportunity, not just an efficiency tool, are the ones capturing new clients from AI search.</p>
             </div>
 
-            <p>AI-driven search is rewriting the discovery process for professional services. A potential client used to type &quot;CPA near me&quot; into Google and scroll through a list of ten blue links. Now they ask an AI assistant a natural language question and get a curated answer with specific firm recommendations. The firms in that answer win the client. Everyone else is invisible.</p>
+            <p>AI-driven search is rewriting the discovery process for professional services. A potential client used to type &quot;CPA near me&quot; into Google and scroll through a list of ten blue links. Now they ask an AI assistant a natural language question and get a curated answer with specific firm recommendations. The firms in that answer win the client. Everyone else is invisible. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>That shift in client behavior is accelerating, and most accounting firms have not even noticed.</p>
 
-            <p>The traditional CPA growth strategy — referrals from existing clients and directory listings on Yelp or Google Business Profile — no longer works the way it once did. Referrals still happen, but the first thing a referred prospect does is ask an AI assistant to validate the recommendation. Directory listings still exist, but AI systems do not pull from them the same way traditional search does. Copilot, ChatGPT, and Claude are now the gatekeepers between your firm and your next client. If these platforms do not recognize your firm as a trusted, credible source, you are invisible to a growing portion of the market — regardless of how many referrals or five-star reviews you have accumulated.</p>
+            <p>The traditional CPA growth strategy — referrals from existing clients and directory listings on Yelp or Google Business Profile — no longer works the way it once did. Referrals still happen, but the first thing a referred prospect does is ask an AI assistant to validate the recommendation. Directory listings still exist, but AI systems do not pull from them the same way traditional search does. Copilot, ChatGPT, and Claude are now the gatekeepers between your firm and your next client. If these platforms do not recognize your firm as a trusted, credible source, you are invisible to a growing portion of the market — regardless of how many referrals or five-star reviews you have accumulated. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -299,19 +299,19 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <span className="ae-section-label" id="ymyl-stakes">The YMYL Factor</span>
             <h2>Why Financial Content Gets the Strictest AI Treatment</h2>
 
-            <p>Not all content is treated equally by AI. Accounting and tax advice falls into the &quot;Your Money or Your Life&quot; (YMYL) category, which means AI platforms apply their most rigorous quality filters before citing any source. The reasoning is straightforward: bad tax advice can cost someone thousands of dollars, trigger IRS penalties, or lead to financial ruin.</p>
+            <p>Not all content is treated equally by AI. Accounting and tax advice falls into the &quot;Your Money or Your Life&quot; (YMYL) category, which means AI platforms apply their most rigorous quality filters before citing any source. The reasoning is straightforward: bad tax advice can cost someone thousands of dollars, trigger IRS penalties, or lead to financial ruin. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p><strong>Why YMYL matters for CPAs:</strong> AI platforms know that inaccurate financial guidance can cause people to underpay taxes, miss filing deadlines, misclassify income, or make harmful business decisions. Because of this, AI applies stricter quality standards to accounting content than to almost any other category. Your firm either meets the bar or gets filtered out entirely.</p>
             </div>
 
-            <p>This is actually an advantage for legitimate CPA firms. The YMYL classification means the barrier to entry is high, but the reward for clearing it is enormous. Because AI is so selective about financial content, the firms that do earn citations face far less competition than they would in traditional search results.</p>
+            <p>This is actually an advantage for legitimate CPA firms. The YMYL classification means the barrier to entry is high, but the reward for clearing it is enormous. Because AI is so selective about financial content, the firms that do earn citations face far less competition than they would in traditional search results. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>The challenge is that most accounting firms have not structured their online presence to meet these elevated trust requirements. They have a website that looks professional to human visitors but is essentially invisible to AI evaluators. The credentials, the state board registrations, the years of specialized experience: they exist, but AI cannot find them or verify them.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>YMYL classification is a double-edged sword for accountants. It raises the bar for AI citations, which filters out most firms. But the ones that clear it face dramatically less competition and earn a disproportionate share of AI-driven referrals.</p>
+              <p>YMYL classification is a double-edged sword for accountants. It raises the bar for AI citations, which filters out most firms. But the ones that clear it face dramatically less competition and earn a disproportionate share of AI-driven referrals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* CTA 2 */}
@@ -324,19 +324,19 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <span className="ae-section-label" id="trust-signals">Trust Signals</span>
             <h2>The Trust Signals AI Platforms Demand from CPAs</h2>
 
-            <p>AI platforms evaluate accounting firms through the lens of E-E-A-T: Experience, Expertise, Authoritativeness, and Trustworthiness. For a regulated profession like accounting, each of these carries specific weight that determines whether your firm gets cited or ignored.</p>
+            <p>AI platforms evaluate accounting firms through the lens of E-E-A-T: Experience, Expertise, Authoritativeness, and Trustworthiness. For a regulated profession like accounting, each of these carries specific weight that determines whether your firm gets cited or ignored. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>It is important to understand that AI platforms do not treat CPAs and Accountants as interchangeable. CPAs are licensed professionals regulated by state boards, with a primary focus on compliance, taxation, and audit services. Accountants without CPA licensure typically focus on bookkeeping, financial reporting, and day-to-day accounting operations. When AI systems evaluate a firm for a tax or compliance query, they apply stricter credential verification standards — looking for state board license data and CPA designation explicitly. For bookkeeping and general accounting queries, AI platforms broaden their evaluation criteria and weigh operational experience signals more heavily. Knowing which designation best applies to your firm helps you structure content and credentials in a way that aligns with how AI evaluates each category separately.</p>
 
             <h3>Experience: Evidence of Real Client Work</h3>
 
-            <p>AI platforms look for signals that the author has genuine, hands-on experience. For CPAs, this means content that references actual practice scenarios. Not textbook definitions of depreciation methods. Content that demonstrates the author has sat across from business owners, navigated complex tax situations, and helped clients through audits.</p>
+            <p>AI platforms look for signals that the author has genuine, hands-on experience. For CPAs, this means content that references actual practice scenarios. Not textbook definitions of depreciation methods. Content that demonstrates the author has sat across from business owners, navigated complex tax situations, and helped clients through audits. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p>When your content discusses specific scenarios you have encountered (without violating client confidentiality), describes common mistakes you have seen during tax season, or shares observations from years of specialized practice, AI platforms interpret these as strong experience signals.</p>
 
             <h3>Expertise: Credentials That Can Be Verified</h3>
 
-            <p>This is where accounting firms have a natural advantage, and where most of them waste it. A CPA license is one of the most verifiable credentials in any profession. State board registrations are public record. Continuing education requirements ensure ongoing competency. Yet the vast majority of accounting firm websites bury this information or omit it entirely from their content.</p>
+            <p>This is where accounting firms have a natural advantage, and where most of them waste it. A CPA license is one of the most verifiable credentials in any profession. State board registrations are public record. Continuing education requirements ensure ongoing competency. Yet the vast majority of accounting firm websites bury this information or omit it entirely from their content. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>What AI looks for:</strong> Content with author bylines that include &quot;CPA&quot; credentials, state board license information, areas of specialization, and years of practice. Without these signals, your financial content is treated like any other web page and gets filtered out by YMYL quality checks.</p>
@@ -344,7 +344,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             <h3>Authoritativeness: Your Reputation Beyond Your Website</h3>
 
-            <p>Authority is not just about what is on your own site. AI platforms evaluate your presence across the professional ecosystem: state CPA society memberships, IRS enrolled agent status, published articles in accounting journals, speaking engagements at industry conferences, and mentions on authoritative financial platforms.</p>
+            <p>Authority is not just about what is on your own site. AI platforms evaluate your presence across the professional ecosystem: state CPA society memberships, IRS enrolled agent status, published articles in accounting journals, speaking engagements at industry conferences, and mentions on authoritative financial platforms. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Trustworthiness: The Non-Negotiable Foundation</h3>
 
@@ -352,7 +352,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how your firm scores on E-E-A-T signals compared to competitors in your market.</p>
+              <p>See how your firm scores on E-E-A-T signals compared to competitors in your market. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -403,13 +403,13 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             <p>Here is something most accounting firms have not connected: the Microsoft tools you already use every day are tied to a major AI search platform. CPA firms running on the Microsoft stack (Office 365, Teams, Outlook, Excel) are already embedded in the Microsoft ecosystem. Microsoft Copilot, the AI assistant built into that ecosystem, pulls its recommendations from Bing and LinkedIn data.</p>
 
-            <p>This creates a unique visibility channel that accounting firms are perfectly positioned to leverage, but almost none of them are doing it. Your firm&apos;s LinkedIn presence, your Bing Places profile, and your Microsoft ecosystem signals all feed into how Copilot evaluates and recommends professional services.</p>
+            <p>This creates a unique visibility channel that accounting firms are perfectly positioned to leverage, but almost none of them are doing it. Your firm&apos;s LinkedIn presence, your Bing Places profile, and your Microsoft ecosystem signals all feed into how Copilot evaluates and recommends professional services. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>The hidden connection:</strong> Millions of business owners already use Microsoft Copilot as their daily AI assistant. When they ask Copilot to recommend an accountant, it draws from Microsoft&apos;s data sources. CPA firms with strong LinkedIn profiles, complete Bing Places listings, and consistent Microsoft ecosystem signals have a significant advantage that firms focused only on Google completely miss.</p>
             </div>
 
-            <p>To understand exactly how Microsoft Copilot evaluates and recommends businesses, read our deep dive on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link>.</p>
+            <p>To understand exactly how Microsoft Copilot evaluates and recommends businesses, read our deep dive on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
@@ -473,7 +473,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Discover which AI platforms are already talking about firms in your market.</p>
+              <p>Discover which AI platforms are already talking about firms in your market. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -483,13 +483,13 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             <p>Accounting is one of the most seasonal professions, and that seasonality creates both a challenge and an opportunity in AI search. Client searches for CPAs spike dramatically during tax season, year-end planning, and quarterly filing deadlines. The firms that have their AI presence optimized before these surges capture a disproportionate share of new client inquiries.</p>
 
-            <p>Here is the catch: AI platforms need time to crawl, evaluate, and build confidence in your content. You cannot flip a switch in February and expect to show up in AI answers by April 15th. The firms winning AI referrals during tax season started optimizing months earlier.</p>
+            <p>Here is the catch: AI platforms need time to crawl, evaluate, and build confidence in your content. You cannot flip a switch in February and expect to show up in AI answers by April 15th. The firms winning AI referrals during tax season started optimizing months earlier. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <p><strong>The timing advantage:</strong> Firms that optimize their AI presence during the slower months (summer and early fall) are fully indexed and trusted by AI platforms when the busy season arrives. This is the opposite of how most firms think about marketing. The work happens when you are least busy, and the results arrive when demand is highest.</p>
             </div>
 
-            <p>Seasonal search patterns also affect what kind of content AI platforms prioritize at different times of year. During tax season, AI favors content about filing deadlines, deduction strategies, and tax preparation. During Q4, year-end planning and tax projection content rises. Firms that have dedicated, up-to-date pages for each of these seasonal topics capture searches across the entire calendar.</p>
+            <p>Seasonal search patterns also affect what kind of content AI platforms prioritize at different times of year. During tax season, AI favors content about filing deadlines, deduction strategies, and tax preparation. During Q4, year-end planning and tax projection content rises. Firms that have dedicated, up-to-date pages for each of these seasonal topics capture searches across the entire calendar. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -501,17 +501,17 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <span className="ae-section-label" id="old-playbook">The Old Playbook</span>
             <h2>Why Keywords and Backlinks Are No Longer Enough</h2>
 
-            <p>For years, the formula for getting found online was straightforward: target the right keywords, build backlinks, and climb the Google rankings. That approach still has value for traditional search, but it is becoming increasingly incomplete. AI-driven search evaluates content differently than a traditional search algorithm.</p>
+            <p>For years, the formula for getting found online was straightforward: target the right keywords, build backlinks, and climb the Google rankings. That approach still has value for traditional search, but it is becoming increasingly incomplete. AI-driven search evaluates content differently than a traditional search algorithm. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>AI platforms do not rank pages. They evaluate sources. They are not looking for the page with the most backlinks. They are looking for the source they can most confidently cite without being wrong. For a regulated profession like accounting, that distinction matters enormously.</p>
 
             <div className="ae-quote not-prose">
-              <p>The firms that own their story and automate their visibility are the ones winning in AI search. The old playbook of keyword stuffing and link building is not just outdated. It is counterproductive when AI platforms actively penalize thin, inauthentic content.</p>
+              <p>The firms that own their story and automate their visibility are the ones winning in AI search. The old playbook of keyword stuffing and link building is not just outdated. It is counterproductive when AI platforms actively penalize thin, inauthentic content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             <p>Industry experts increasingly emphasize that accounting professionals need an &quot;AI analytical mindset&quot; that extends beyond internal tool adoption. This mindset means understanding how AI evaluates your firm from the outside, not just how you use AI on the inside. The same critical thinking you apply to a complex tax return needs to be applied to your digital presence.</p>
 
-            <p>For a deeper understanding of how AI platforms evaluate and select sources, see our article on <Link href="/blog/does-schema-markup-help-ai-search">whether schema markup helps you show up on AI search</Link>.</p>
+            <p>For a deeper understanding of how AI platforms evaluate and select sources, see our article on <Link href="/blog/does-schema-markup-help-ai-search">whether schema markup helps you show up on AI search</Link>. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
@@ -549,7 +549,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering which category your firm falls into? Our report shows you exactly where you stand.</p>
+              <p>Wondering which category your firm falls into? Our report shows you exactly where you stand. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -561,7 +561,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             <h3>1. Hiding Credentials Behind a Single &quot;About&quot; Page</h3>
 
-            <p>Most CPA firms list their credentials once on an About page and never reference them again. AI platforms evaluate trust on a per-page basis. If your tax preparation guide does not include the author&apos;s CPA credential and license state, AI treats it as unattributed financial content, which is essentially disqualified under YMYL rules.</p>
+            <p>Most CPA firms list their credentials once on an About page and never reference them again. AI platforms evaluate trust on a per-page basis. If your tax preparation guide does not include the author&apos;s CPA credential and license state, AI treats it as unattributed financial content, which is essentially disqualified under YMYL rules. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>2. Treating All Services as One Page</h3>
 
@@ -569,7 +569,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             <h3>3. Letting Content Go Stale Through Tax Seasons</h3>
 
-            <p>Tax law changes every year. Standard deduction amounts change. Contribution limits change. Filing deadlines occasionally shift. Content that references last year&apos;s numbers is not just inaccurate. It is a red flag for AI platforms that actively penalize outdated financial guidance.</p>
+            <p>Tax law changes every year. Standard deduction amounts change. Contribution limits change. Filing deadlines occasionally shift. Content that references last year&apos;s numbers is not just inaccurate. It is a red flag for AI platforms that actively penalize outdated financial guidance. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <h3>4. Ignoring Directories AI Can Actually Read</h3>
 
@@ -577,7 +577,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             <h3>5. No Schema Markup on Any Page</h3>
 
-            <p>Schema markup tells AI platforms exactly what your content is about in a machine-readable format. AccountingService schema, ProfessionalService schema, FAQPage schema, and Review schema all help AI understand your firm&apos;s offerings, location, and credentials. Without it, AI platforms have to guess, and for YMYL content, guessing means not citing.</p>
+            <p>Schema markup tells AI platforms exactly what your content is about in a machine-readable format. AccountingService schema, ProfessionalService schema, FAQPage schema, and Review schema all help AI understand your firm&apos;s offerings, location, and credentials. Without it, AI platforms have to guess, and for YMYL content, guessing means not citing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
@@ -668,7 +668,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             </table>
             </div>
 
-            <p>For a look at how another regulated profession is handling the same challenge, see our guide on <Link href="/blog/how-lawyers-get-found-ai-search">how lawyers get found on AI search</Link>.</p>
+            <p>For a look at how another regulated profession is handling the same challenge, see our guide on <Link href="/blog/how-lawyers-get-found-ai-search">how lawyers get found on AI search</Link>. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
@@ -680,12 +680,12 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <span className="ae-section-label">Looking Ahead</span>
             <h2>Agentic AI and the Future of Client Acquisition</h2>
 
-            <p>The accounting industry is on the verge of another leap. Agentic AI capabilities are emerging in audit and accounting workflows, meaning AI will not just answer questions about accountants. It will eventually book consultations, compare firm qualifications, and make recommendations autonomously on behalf of clients.</p>
+            <p>The accounting industry is on the verge of another leap. Agentic AI capabilities are emerging in audit and accounting workflows, meaning AI will not just answer questions about accountants. It will eventually book consultations, compare firm qualifications, and make recommendations autonomously on behalf of clients. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>When that happens, the firms that have built structured, authoritative, and machine-readable online presences will be the ones agentic AI selects. The firms that have not will not even be in the consideration set. This is not a distant future scenario. The technology is being built right now, and the firms optimizing their AI presence today are positioning themselves for this next wave.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>The window is open now.</strong> While 41% of accountants are using AI tools internally, far fewer have optimized how AI sees them from the outside. This gap is a massive opportunity for forward-thinking firms to establish dominance before their competitors catch on.</p>
+              <p><strong>The window is open now.</strong> While 41% of accountants are using AI tools internally, far fewer have optimized how AI sees them from the outside. This gap is a massive opportunity for forward-thinking firms to establish dominance before their competitors catch on. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             {/* CTA 11 */}
@@ -713,7 +713,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             {/* CTA 12 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want this cheat sheet customized to your specialization and market? We do that.</p>
+              <p>Want this cheat sheet customized to your specialization and market? We do that. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -728,7 +728,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
           {/* 3-TIER CTA BLOCK (before FAQ) */}
           <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your Firm Has the Credentials. AI Just Cannot See Them Yet.</h3>
-            <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly how ChatGPT, Perplexity, and Google AI evaluate your accounting firm right now.</p>
+            <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly how ChatGPT, Perplexity, and Google AI evaluate your accounting firm right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -754,13 +754,13 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>Yes. AI adoption in accounting jumped from 9% to 41% in a single year, and clients are following the same trajectory. When someone asks ChatGPT or Google AI for a CPA recommendation, the platforms only cite firms whose online presence meets strict trust and authority thresholds. If your firm is not structured for AI visibility, potential clients never see your name.</p>
 
             <h3>Why is accounting considered YMYL content by AI platforms?</h3>
-            <p>Accounting and tax advice falls under the Your Money or Your Life classification because inaccurate financial guidance can cause people to underpay taxes, miss filing deadlines, face IRS penalties, or make harmful financial decisions. AI platforms apply their strictest quality filters to YMYL content, which means only firms with verifiable credentials and authoritative content get cited.</p>
+            <p>Accounting and tax advice falls under the Your Money or Your Life classification because inaccurate financial guidance can cause people to underpay taxes, miss filing deadlines, face IRS penalties, or make harmful financial decisions. AI platforms apply their strictest quality filters to YMYL content, which means only firms with verifiable credentials and authoritative content get cited. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Which AI platforms recommend accounting firms?</h3>
             <p>ChatGPT, Google AI Overviews, Perplexity, Claude, Microsoft Copilot, and Gemini all surface recommendations for accounting and tax services. Microsoft Copilot is particularly relevant for CPA firms that use the Microsoft stack, as it pulls from Bing and LinkedIn data. Each platform evaluates different signals, so firms need visibility across multiple channels.</p>
 
             <h3>How long does it take for a CPA firm to appear in AI search results?</h3>
-            <p>Most firms begin seeing AI mentions within 60 to 90 days of implementing a structured optimization strategy. This includes building dedicated service pages with proper schema markup, adding CPA credentials and state board information to all content, and establishing presence on AI-crawlable directories. Firms that start before their next busy season gain a significant timing advantage.</p>
+            <p>Most firms begin seeing AI mentions within 60 to 90 days of implementing a structured optimization strategy. This includes building dedicated service pages with proper schema markup, adding CPA credentials and state board information to all content, and establishing presence on AI-crawlable directories. Firms that start before their next busy season gain a significant timing advantage. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>Can a solo CPA or small firm compete with large accounting firms in AI search?</h3>
             <p>Yes. AI platforms prioritize relevance, depth, and trust signals over firm size. A solo CPA with well-structured service pages, verifiable credentials, client testimonials published as plain HTML, and consistent directory listings can outperform a much larger firm with a generic corporate website. AI rewards specificity and verifiable expertise, which levels the playing field.</p>

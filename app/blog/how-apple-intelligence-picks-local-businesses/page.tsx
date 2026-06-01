@@ -215,7 +215,7 @@ export default function AppleIntelligenceLocal() {
           textAlign: 'center'
         }}>
           <h3 style={{ marginTop: '0', color: '#1a1a1a' }}>Optimize for Apple Intelligence Today</h3>
-          <p>See if your business is discoverable by Apple Intelligence systems.</p>
+          <p>See if your business is discoverable by Apple Intelligence systems. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <a href="https://theanswerengine.ai/blindspot" style={{
             display: 'inline-block',
             backgroundColor: '#555555',
@@ -237,10 +237,10 @@ export default function AppleIntelligenceLocal() {
           </h2>
           <p style={{ marginBottom: '15px' }}>
             For years, Siri could only recommend businesses from Apple Maps—it had a limited set of information and basic matching rules. Apple Intelligence changes everything.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p style={{ marginBottom: '15px' }}>
             Now Apple Intelligence can:
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <ul style={{ marginLeft: '20px', marginBottom: '20px' }}>
             <li style={{ marginBottom: '12px' }}><strong>Read web content directly:</strong> It analyzes your website, blog posts, and online reviews to understand what you actually do.</li>
             <li style={{ marginBottom: '12px' }}><strong>Aggregate reviews:</strong> It reads reviews across Apple Maps, Google, Yelp, and social media to build a reputation profile.</li>
@@ -260,7 +260,7 @@ export default function AppleIntelligenceLocal() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#34c759' }}>Build Your Apple Intelligence Profile</h3>
-          <p>Our AEO framework helps you optimize every element Apple Intelligence reads.</p>
+          <p>Our AEO framework helps you optimize every element Apple Intelligence reads. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <a href="https://theanswerengine.ai/contact" style={{
             display: 'inline-block',
             backgroundColor: '#34c759',
@@ -283,7 +283,7 @@ export default function AppleIntelligenceLocal() {
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>1. Apple Maps and Apple Business Connect Data</h3>
             <p style={{ marginBottom: '10px' }}>
               Your Apple Maps listing is the primary source Apple Intelligence consults. A complete, verified Apple Business Connect profile directly impacts your AI discoverability. This is non-negotiable—if you don't have a verified business profile, you're invisible.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <strong style={{ color: '#34c759' }}>Priority: Critical</strong>
           </div>
 
@@ -291,7 +291,7 @@ export default function AppleIntelligenceLocal() {
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>2. Google Business Profile and Google Reviews</h3>
             <p style={{ marginBottom: '10px' }}>
               Apple Intelligence monitors Google Business Profiles and Google Reviews as a trust signal. Even though it's Google data, Apple uses it to verify your legitimacy. A strong Google presence improves your Apple Intelligence ranking.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             <strong style={{ color: '#34c759' }}>Priority: Very High</strong>
           </div>
 
@@ -299,7 +299,7 @@ export default function AppleIntelligenceLocal() {
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>3. Your Website and Its Content</h3>
             <p style={{ marginBottom: '10px' }}>
               Apple Intelligence reads your website, analyzes your service descriptions, reviews portfolio pieces, and checks for signs of expertise. A website with clear information, case studies, and Schema.org markup is weighted heavily.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             <strong style={{ color: '#34c759' }}>Priority: Very High</strong>
           </div>
 
@@ -307,7 +307,7 @@ export default function AppleIntelligenceLocal() {
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>4. Review Aggregation (Yelp, TripAdvisor, Trustpilot, etc.)</h3>
             <p style={{ marginBottom: '10px' }}>
               Apple Intelligence doesn't just count reviews—it analyzes sentiment and consensus across all review platforms. A business with 4.8 stars on Google but 3.2 on Yelp raises red flags.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <strong style={{ color: '#34c759' }}>Priority: High</strong>
           </div>
 
@@ -315,7 +315,7 @@ export default function AppleIntelligenceLocal() {
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>5. Social Media Presence and Activity</h3>
             <p style={{ marginBottom: '10px' }}>
               Active social media profiles (LinkedIn, Instagram, Facebook, Twitter) signal legitimacy and currency. Apple Intelligence monitors your posting frequency, engagement, and customer interaction patterns.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <strong style={{ color: '#34c759' }}>Priority: High</strong>
           </div>
 
@@ -323,7 +323,7 @@ export default function AppleIntelligenceLocal() {
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>6. Industry Associations and Certifications</h3>
             <p style={{ marginBottom: '10px' }}>
               Are you listed with the Better Business Bureau, your industry association, or relevant certifications? Apple Intelligence cross-references these third-party validations to verify your expertise.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <strong style={{ color: '#34c759' }}>Priority: Medium-High</strong>
           </div>
         </section>
@@ -337,7 +337,7 @@ export default function AppleIntelligenceLocal() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#007AFF' }}>Master Apple Intelligence AEO</h3>
-          <p>Download our complete Apple Intelligence optimization checklist.</p>
+          <p>Download our complete Apple Intelligence optimization checklist. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <a href="https://theanswerengine.ai" style={{
             display: 'inline-block',
             backgroundColor: '#007AFF',
@@ -357,7 +357,7 @@ export default function AppleIntelligenceLocal() {
           </h2>
           <p style={{ marginBottom: '15px' }}>
             While Apple hasn't published the exact algorithm, we've reverse-engineered ranking factors through testing. Here's the current weighting:
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div style={{ backgroundColor: '#f5f5f7', padding: '20px', borderRadius: '8px', marginBottom: '20px' }}>
             <div style={{ marginBottom: '15px', paddingBottom: '15px', borderBottom: '1px solid #ddd' }}>
@@ -462,7 +462,7 @@ export default function AppleIntelligenceLocal() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#FF3B30' }}>Audit Your Apple Intelligence Profile</h3>
-          <p>See exactly what Apple Intelligence sees when it looks at your business.</p>
+          <p>See exactly what Apple Intelligence sees when it looks at your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           <a href="https://theanswerengine.ai/blindspot" style={{
             display: 'inline-block',
             backgroundColor: '#FF3B30',
@@ -515,7 +515,7 @@ export default function AppleIntelligenceLocal() {
           </h2>
           <p style={{ marginBottom: '15px' }}>
             ChatGPT and Apple Intelligence both recommend local businesses, but through different mechanisms:
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '20px' }}>
             <div style={{ backgroundColor: '#f5f5f7', padding: '20px', borderRadius: '8px' }}>
@@ -542,7 +542,7 @@ export default function AppleIntelligenceLocal() {
 
           <p style={{ marginBottom: '15px' }}>
             <strong>Bottom line:</strong> You need both optimizations. Apple Intelligence optimization focuses on Apple Maps and location. ChatGPT optimization focuses on web content and expertise.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* CTA Section 5 */}
@@ -554,7 +554,7 @@ export default function AppleIntelligenceLocal() {
           marginBottom: '30px'
         }}>
           <h3 style={{ marginTop: '0', color: '#5AC8FA' }}>Get Found by All AI Systems</h3>
-          <p>Don't optimize for just one. Our AEO strategy covers ChatGPT, Apple Intelligence, Google AI, and Perplexity.</p>
+          <p>Don't optimize for just one. Our AEO strategy covers ChatGPT, Apple Intelligence, Google AI, and Perplexity. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           <a href="https://theanswerengine.ai/contact" style={{
             display: 'inline-block',
             backgroundColor: '#5AC8FA',
@@ -575,42 +575,42 @@ export default function AppleIntelligenceLocal() {
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #34c759', paddingLeft: '20px' }}>
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>Does Apple Intelligence only work for certain business types?</h3>
-            <p>No. It works for any business, but it's optimized for location-based services. A plumber, dentist, or restaurant gets better results than a SaaS company.</p>
+            <p>No. It works for any business, but it's optimized for location-based services. A plumber, dentist, or restaurant gets better results than a SaaS company. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #34c759', paddingLeft: '20px' }}>
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>How long does it take to rank on Apple Intelligence?</h3>
-            <p>30-90 days. You need a verified Apple Business listing first (instant), then Apple Intelligence needs time to accumulate review and website data to make confident rankings.</p>
+            <p>30-90 days. You need a verified Apple Business listing first (instant), then Apple Intelligence needs time to accumulate review and website data to make confident rankings. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #34c759', paddingLeft: '20px' }}>
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>Can I pay Apple to rank higher on Apple Intelligence?</h3>
-            <p>No. Apple Intelligence rankings are organic, based on business quality signals. However, Apple Maps paid ads exist separately.</p>
+            <p>No. Apple Intelligence rankings are organic, based on business quality signals. However, Apple Maps paid ads exist separately. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #34c759', paddingLeft: '20px' }}>
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>What percentage of iOS users actually use Apple Intelligence for local search?</h3>
-            <p>Currently 15-20% of eligible iOS users have activated Apple Intelligence. By 2026, this will likely exceed 50% as it becomes standard on all new iPhones.</p>
+            <p>Currently 15-20% of eligible iOS users have activated Apple Intelligence. By 2026, this will likely exceed 50% as it becomes standard on all new iPhones. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #34c759', paddingLeft: '20px' }}>
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>Should I prioritize Apple Intelligence over Google Search?</h3>
-            <p>No, but don't ignore it. Google Search still drives more traffic. Optimize for both equally—it's not an either/or decision.</p>
+            <p>No, but don't ignore it. Google Search still drives more traffic. Optimize for both equally—it's not an either/or decision. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #34c759', paddingLeft: '20px' }}>
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>How is Apple Intelligence different on iPad and Mac vs. iPhone?</h3>
-            <p>Functionally similar, but the use case is different. iPhone users are actively searching for "plumber near me." iPad and Mac users are researching, not searching. Optimization is the same, but messaging differs.</p>
+            <p>Functionally similar, but the use case is different. iPhone users are actively searching for "plumber near me." iPad and Mac users are researching, not searching. Optimization is the same, but messaging differs. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #34c759', paddingLeft: '20px' }}>
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>Will Apple Intelligence eventually replace Google Maps?</h3>
-            <p>Unlikely. Apple Intelligence is a recommendation layer on top of Apple Maps, not a replacement. But it does reduce direct map searches for recommendations.</p>
+            <p>Unlikely. Apple Intelligence is a recommendation layer on top of Apple Maps, not a replacement. But it does reduce direct map searches for recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
           <div style={{ marginBottom: '20px', borderLeft: '4px solid #34c759', paddingLeft: '20px' }}>
             <h3 style={{ color: '#1a1a1a', marginTop: '0' }}>Can I track if Apple Intelligence is sending me customers?</h3>
-            <p>Not directly. You can see increased traffic from "Maps" in Google Analytics, but you can't distinguish Apple Intelligence from regular Apple Maps. Track your review growth as an indirect signal.</p>
+            <p>Not directly. You can see increased traffic from "Maps" in Google Analytics, but you can't distinguish Apple Intelligence from regular Apple Maps. Track your review growth as an indirect signal. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -623,7 +623,7 @@ export default function AppleIntelligenceLocal() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#34c759' }}>Get Listed Now</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Claim your Apple Business listing today.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Claim your Apple Business listing today. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <a href="https://theanswerengine.ai" style={{
               display: 'inline-block',
               backgroundColor: '#34c759',
@@ -645,7 +645,7 @@ export default function AppleIntelligenceLocal() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#007AFF' }}>Apple Intelligence Audit</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Get your AI visibility score.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Get your AI visibility score. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <a href="https://theanswerengine.ai/blindspot" style={{
               display: 'inline-block',
               backgroundColor: '#007AFF',
@@ -667,7 +667,7 @@ export default function AppleIntelligenceLocal() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#FF9500' }}>Content Strategy</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>AI-optimized content framework.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>AI-optimized content framework. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <a href="https://theanswerengine.ai" style={{
               display: 'inline-block',
               backgroundColor: '#FF9500',
@@ -689,7 +689,7 @@ export default function AppleIntelligenceLocal() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#34c759' }}>Talk to Experts</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Schedule strategy call.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Schedule strategy call. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <a href="https://theanswerengine.ai/contact" style={{
               display: 'inline-block',
               backgroundColor: '#34c759',
@@ -711,7 +711,7 @@ export default function AppleIntelligenceLocal() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#FF3B30' }}>Compare AI Platforms</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Apple vs ChatGPT vs Google AI.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Apple vs ChatGPT vs Google AI. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blog/aeo-vs-seo" style={{
               display: 'inline-block',
               backgroundColor: '#FF3B30',
@@ -733,7 +733,7 @@ export default function AppleIntelligenceLocal() {
             padding: '15px'
           }}>
             <h4 style={{ marginTop: '0', color: '#007AFF' }}>AEO Guide</h4>
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Complete AEO handbook.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>Complete AEO handbook. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <a href="https://theanswerengine.ai" style={{
               display: 'inline-block',
               backgroundColor: '#007AFF',

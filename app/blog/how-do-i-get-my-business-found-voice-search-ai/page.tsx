@@ -260,22 +260,22 @@ export default function Page() {
               asking Siri for a plumber, telling Alexa to find a nearby electrician, or using
               Google Assistant to locate a restaurant, <strong>58% of voice searches are
               specifically looking for local business information</strong>.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               If your business is not showing up in those spoken answers, you are invisible to a
               growing majority of potential customers. And here is the part that should concern
               you: voice assistants return only one answer. Maybe two. There is no page of ten
               results to browse.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The voice search gap is massive.</strong> Only 4% of businesses have optimized for voice search. That means 96% of your competitors have not yet claimed this channel. The window to become the default recommendation is open right now.</p>
+              <p><strong>The voice search gap is massive.</strong> Only 4% of businesses have optimized for voice search. That means 96% of your competitors have not yet claimed this channel. The window to become the default recommendation is open right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if voice assistants and AI platforms are recommending your competitors instead of you.</p>
+              <p>Find out if voice assistants and AI platforms are recommending your competitors instead of you. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -289,7 +289,7 @@ export default function Page() {
               billion voice assistants in use worldwide, which is more than the global
               population. Every smartphone, smart speaker, car dashboard, and laptop has one
               built in.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item" style={{ width: '76%' }}>
@@ -317,10 +317,10 @@ export default function Page() {
               rate is significantly higher than what most businesses see from traditional search
               clicks. When someone uses their voice to find a service, they are typically ready
               to act.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>When a customer speaks their question, they are not browsing. They are buying. Voice search is the closest thing to a warm lead that digital marketing has ever produced.</p>
+              <p>When a customer speaks their question, they are not browsing. They are buying. Voice search is the closest thing to a warm lead that digital marketing has ever produced. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             <p>
@@ -328,11 +328,11 @@ export default function Page() {
               voice search. That gap between demand and preparation is both the risk and the
               opportunity. If you act now, you are competing against very few businesses for
               a channel that is growing rapidly.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure where your business stands with voice search? Talk to a specialist.</p>
+              <p>Not sure where your business stands with voice search? Talk to a specialist. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
             </div>
 
@@ -345,7 +345,7 @@ export default function Page() {
               usually returns only one answer. When you type a query into Google, you get a
               page of ten or more results to browse. When you ask Siri or Google Assistant a
               question, you get one spoken response. Maybe two. That is it.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Comparison Table: Voice vs Typed */}
             <table className="ae-comparison-table not-prose">
@@ -396,15 +396,15 @@ export default function Page() {
               snippets, structured data, and the top result for a given query. If your
               business is not in that position, you simply do not exist in the voice search
               world.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Voice queries are conversational.</strong> People say &quot;Who is the best plumber near me that is open right now?&quot; not &quot;plumber Los Angeles.&quot; Your content needs to match the way people talk, not the way they type.</p>
+              <p><strong>Voice queries are conversational.</strong> People say &quot;Who is the best plumber near me that is open right now?&quot; not &quot;plumber Los Angeles.&quot; Your content needs to match the way people talk, not the way they type. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is your content formatted for the way people actually ask questions? Find out for free.</p>
+              <p>Is your content formatted for the way people actually ask questions? Find out for free. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Check &rarr;</Link>
             </div>
 
@@ -416,7 +416,7 @@ export default function Page() {
               Getting found on voice search is not random. There are specific factors that
               voice assistants weigh when deciding which business to recommend. Here are the
               five that matter most.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -472,11 +472,11 @@ export default function Page() {
               categories, or an unverified address, you are unlikely to be recommended. Every
               field should be filled out. Your business name, address, and phone number need
               to be exactly consistent across every platform where they appear.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>An incomplete Google Business Profile is the single most common reason local businesses get skipped by voice assistants. This one fix alone can unlock voice visibility.</p>
+              <p>An incomplete Google Business Profile is the single most common reason local businesses get skipped by voice assistants. This one fix alone can unlock voice visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <h3>2. Your Website Needs to Load Fast on Mobile</h3>
@@ -486,10 +486,10 @@ export default function Page() {
               which is significantly faster than most websites. Speed is not just a
               nice-to-have; it is a ranking signal that voice assistants use when selecting
               results. A slow site will not be selected, regardless of how good your content is.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Speed kills (or saves) your voice visibility.</strong> If your mobile site takes longer than 4.6 seconds to load, voice assistants will skip you entirely. Test your speed at Google PageSpeed Insights today.</p>
+              <p><strong>Speed kills (or saves) your voice visibility.</strong> If your mobile site takes longer than 4.6 seconds to load, voice assistants will skip you entirely. Test your speed at Google PageSpeed Insights today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             <h3>3. You Need FAQ Content That Matches Spoken Questions</h3>
@@ -500,7 +500,7 @@ export default function Page() {
               customers ask, in the exact way they ask them. A dedicated FAQ page or
               question-and-answer sections on your service pages give voice assistants the
               clean, structured answers they need.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               Think about what your customers ask before they hire you: &quot;How much does
@@ -508,11 +508,11 @@ export default function Page() {
               &quot;What is the best time to service my HVAC?&quot; Each of those questions
               should have a clear, direct answer on your website, ideally in the first
               sentence of the response.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which questions to target? We analyze the exact queries AI uses for your industry.</p>
+              <p>Not sure which questions to target? We analyze the exact queries AI uses for your industry. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Free Query Analysis &rarr;</a>
             </div>
 
@@ -523,17 +523,17 @@ export default function Page() {
               your business does, where it is located, what services you offer, and what
               your hours are. It is the difference between a search engine guessing what your
               page is about and knowing with certainty.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <p>
               For local businesses, the most important schema types are LocalBusiness,
               Service, FAQPage, and Review. Adding these to your website makes it
               significantly easier for voice assistants to pull accurate information about
               your business and present it as an answer.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>Schema is your voice search accelerator.</strong> Businesses with proper schema markup are 2x more likely to appear in voice search results. It is structured data that turns your website from a brochure into a machine-readable answer source.</p>
+              <p><strong>Schema is your voice search accelerator.</strong> Businesses with proper schema markup are 2x more likely to appear in voice search results. It is structured data that turns your website from a brochure into a machine-readable answer source. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3>5. Reviews and Ratings Influence Voice Recommendations</h3>
@@ -543,14 +543,14 @@ export default function Page() {
               and ratings are often the deciding factor. A business with 200 reviews and a
               4.7 average will almost always be recommended over one with 15 reviews and a
               4.9 average. Volume and recency matter just as much as the score itself.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>
               Responding to reviews also matters. AI systems recognize active engagement
               with customers as a trust signal. If you are consistently replying to both
               positive and negative reviews, that activity reinforces your legitimacy as a
               recommended business.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Pros and Cons: Voice Search Optimization */}
             <div className="ae-pros-cons not-prose">
@@ -578,7 +578,7 @@ export default function Page() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want help implementing all five factors? Our team handles it end to end.</p>
+              <p>Want help implementing all five factors? Our team handles it end to end. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 to Get Started &rarr;</a>
             </div>
 
@@ -592,7 +592,7 @@ export default function Page() {
               assistants recommend your business are the same factors that make ChatGPT,
               Claude, Perplexity, and Google AI Overviews cite your business in their
               responses.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* Comparison Table: Voice vs AI */}
             <table className="ae-comparison-table not-prose">
@@ -643,11 +643,11 @@ export default function Page() {
               business information across the web, structured data that confirms who you are
               and what you do, and third-party signals like reviews and citations that
               confirm your expertise.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>When you optimize for voice search, you are simultaneously building the foundation that AI platforms use to decide which businesses to recommend. It is not two separate strategies. It is one strategy that works across every channel where customers are looking for answers.</p>
+              <p>When you optimize for voice search, you are simultaneously building the foundation that AI platforms use to decide which businesses to recommend. It is not two separate strategies. It is one strategy that works across every channel where customers are looking for answers. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             {/* CTA 6 */}

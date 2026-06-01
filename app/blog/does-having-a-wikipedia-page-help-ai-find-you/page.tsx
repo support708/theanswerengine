@@ -292,14 +292,14 @@ export default function Page() {
               </p>
               <p>
                 But here is the critical distinction that most business owners miss: Wikipedia is important for teaching AI about entities, not about local businesses. The 6.7 million articles on English Wikipedia cover countries, historical figures, corporations, scientific concepts, cultural movements, and notable public institutions. They do not cover the HVAC company on Main Street in Pasadena.
-              </p>
+               Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
               <p>
                 When a customer asks ChatGPT &quot;who is the best plumber in Burbank,&quot; the AI is not reaching into Wikipedia for that answer. It is drawing on structured local business data, review signals, directory listings, and the web-wide consensus of third-party mentions. Wikipedia has almost nothing to say about that query because it was never designed to.
               </p>
             </div>
             <div className="ae-callout ae-callout-warning mt-6">
               <div className="ae-callout-title">The Wikipedia Distraction</div>
-              <p>Business owners who chase Wikipedia visibility are solving the wrong problem. The time, money, and political capital required to get and maintain a Wikipedia article would generate far more AI visibility if redirected toward structured data, authoritative directories, and local press coverage. Wikipedia is not your lever. Stop treating it like it is.</p>
+              <p>Business owners who chase Wikipedia visibility are solving the wrong problem. The time, money, and political capital required to get and maintain a Wikipedia article would generate far more AI visibility if redirected toward structured data, authoritative directories, and local press coverage. Wikipedia is not your lever. Stop treating it like it is. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
@@ -307,7 +307,7 @@ export default function Page() {
               </p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Wondering how AI actually sees your business right now? Find the exact signals AI platforms use to evaluate you.</p>
+              <p>Wondering how AI actually sees your business right now? Find the exact signals AI platforms use to evaluate you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Free Blind Spot Report &rarr;</Link>
             </div>
           </section>
@@ -326,7 +326,7 @@ export default function Page() {
               </p>
               <p>
                 Local news coverage does not meet this bar. Being featured in the Pasadena Star-News or getting a mention in a local business roundup does not qualify a business for a Wikipedia article. Wikipedia&apos;s community of editors numbering in the tens of thousands actively monitors new pages and will delete any article about a local business within hours if it does not meet notability criteria.
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* Notability Reality Cards */}
@@ -371,7 +371,7 @@ export default function Page() {
             </div>
             <div className="ae-callout ae-callout-info mt-6">
               <div className="ae-callout-title">The Deletion Rate Reality</div>
-              <p>Approximately 75% of new Wikipedia articles created about businesses are nominated for deletion within 30 days. For local businesses, the rate is effectively 100%. Wikipedia&apos;s editors are experienced at identifying promotional page creation and act quickly. The effort required to create and defend a Wikipedia page almost always exceeds any benefit gained.</p>
+              <p>Approximately 75% of new Wikipedia articles created about businesses are nominated for deletion within 30 days. For local businesses, the rate is effectively 100%. Wikipedia&apos;s editors are experienced at identifying promotional page creation and act quickly. The effort required to create and defend a Wikipedia page almost always exceeds any benefit gained. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
           </section>
 
@@ -396,7 +396,7 @@ export default function Page() {
                 <h3 className="text-white font-bold mb-2 font-headline">Entity Recognition</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Wikipedia gives an entity a confirmed, named existence in AI training data. The model learns: &quot;This company exists, it does this, it is located here.&quot; That unambiguous grounding affects how confidently AI will recommend it.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
               <div className="p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="text-2xl mb-3">&#128279;</div>
@@ -410,7 +410,7 @@ export default function Page() {
                 <h3 className="text-white font-bold mb-2 font-headline">Structured Fact Anchoring</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Wikipedia&apos;s infoboxes provide clean, structured data: founding date, headquarters, industry, CEO, revenue. These structured facts feed directly into knowledge graph entries and give AI systems high-confidence data points to anchor answers around.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
             </div>
 
@@ -420,11 +420,11 @@ export default function Page() {
               </p>
               <p>
                 Wikipedia provides a convenient, AI-readable bundle of all three signals for major brands. Local businesses need to build each of those signals through channels that are actually accessible to them. The destination is the same; the path is different.
-              </p>
+               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
               <p className="font-semibold mb-1">Not sure which entity signals your business is missing?</p>
-              <p className="text-sm mb-3">Your Blind Spot Report reveals exactly where the gaps are and how AI currently sees you.</p>
+              <p className="text-sm mb-3">Your Blind Spot Report reveals exactly where the gaps are and how AI currently sees you. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get My Blind Spot Report &rarr;</Link>
             </div>
           </section>
@@ -443,7 +443,7 @@ export default function Page() {
               </p>
               <p>
                 For example, a company called &quot;Apex Services&quot; might have dozens of businesses with similar names across the country. Wikidata&apos;s Q-number for a specific Apex Services entity allows AI platforms to distinguish which one a user is asking about, without relying on context alone. This disambiguation is valuable for AI accuracy.
-              </p>
+               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* Wikidata Reality Block */}
@@ -452,18 +452,18 @@ export default function Page() {
               <div className="grid sm:grid-cols-2 gap-4 text-sm">
                 <div>
                   <p className="font-semibold mb-2" style={{ color: '#F27D24' }}>The theoretical upside</p>
-                  <p className="text-gray-400 leading-relaxed">A Wikidata entity entry could help AI unambiguously identify your business, associate verified attributes with it, and confidently include it in relevant responses.</p>
+                  <p className="text-gray-400 leading-relaxed">A Wikidata entity entry could help AI unambiguously identify your business, associate verified attributes with it, and confidently include it in relevant responses. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
                 </div>
                 <div>
                   <p className="font-semibold text-red-400 mb-2">The practical reality</p>
-                  <p className="text-gray-400 leading-relaxed">Wikidata entries for local businesses are subject to the same notability scrutiny as Wikipedia. Entries without Wikipedia articles as references are routinely deleted. This is not a viable path for most local businesses.</p>
+                  <p className="text-gray-400 leading-relaxed">Wikidata entries for local businesses are subject to the same notability scrutiny as Wikipedia. Entries without Wikipedia articles as references are routinely deleted. This is not a viable path for most local businesses. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 </div>
               </div>
               <div className="mt-5 pt-4 p-4" style={{ background: 'rgba(255,106,0,0.06)', borderTop: '1px solid rgba(255,255,255,0.06)' }}>
                 <p className="text-sm font-semibold mb-1" style={{ color: '#F27D24' }}>The accessible alternative</p>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Google&apos;s Knowledge Graph the same system that powers Knowledge Panels is the Wikidata equivalent for local businesses. A verified, fully populated Google Business Profile feeds structured entity data into that graph. Consistent schema markup on your website reinforces it. These are the realistic paths to entity disambiguation that AI systems use when recommending local businesses.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
             </div>
 
@@ -475,7 +475,7 @@ export default function Page() {
 
             {/* Related Articles */}
             <div className="p-6 mt-6 not-prose" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <p className="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wider">Related Reading</p>
+              <p className="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wider">Related Reading Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <div className="space-y-2">
                 <Link href="/blog/what-is-an-ai-entity-score-and-why-it-controls-your-visibility" className="flex items-center gap-2 text-white hover:text-orange-400 transition-colors text-sm font-medium group">
                   <span className="text-gray-600 group-hover:text-orange-400">&#8594;</span>
@@ -556,7 +556,7 @@ export default function Page() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 This table makes the core argument visual. The right-hand column is not a consolation prize. For local businesses, the signals in that column are the actual game. They are what ChatGPT, Perplexity, Google AI Mode, and every other AI platform evaluates when a user asks for a recommendation near them.
-              </p>
+               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
             <div className="ae-callout ae-callout-orange mt-6">
               <div className="ae-callout-title">The Real Competitive Insight</div>
@@ -575,7 +575,7 @@ export default function Page() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 The good news is that the entity signals AI platforms use for local business recommendations are accessible to every business willing to do the work. Here is the landscape of what matters and why.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             {/* Signal Blocks */}
@@ -599,7 +599,7 @@ export default function Page() {
                     <h3 className="text-white font-bold mb-2 font-headline">Structured Schema Markup</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">
                       Schema.org markup on your website translates your content into machine-readable signals. LocalBusiness schema, Service schema, Review schema, and FAQ schema give AI systems the structured facts they need to confidently include your business in relevant responses. Pages with correct schema markup receive significantly more AI citations than unstructured pages covering the same content.
-                    </p>
+                     <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                   </div>
                 </div>
               </div>
@@ -623,7 +623,7 @@ export default function Page() {
                     <h3 className="text-white font-bold mb-2 font-headline">Press Mentions and Editorial Coverage</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">
                       Coverage in local news outlets, industry publications, and community websites functions like a scaled-down version of the independent source citations Wikipedia requires. Each mention from a credible, independent source adds to your entity&apos;s authority footprint. A business featured in five local press pieces has a measurably stronger AI authority signal than one with no press presence at all.
-                    </p>
+                     <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                   </div>
                 </div>
               </div>
@@ -642,7 +642,7 @@ export default function Page() {
             </div>
 
             <div className="ae-cta-inline not-prose mt-6">
-              <p className="font-semibold mb-1">Want to know which of these signals you&apos;re missing?</p>
+              <p className="font-semibold mb-1">Want to know which of these signals you&apos;re missing? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p className="text-sm mb-3">Our Blind Spot Report audits your complete entity footprint against what AI platforms expect to see.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/blindspot">Get My Free Blind Spot Report &rarr;</Link>
@@ -662,7 +662,7 @@ export default function Page() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 Modern AI platforms do not rely solely on any single data source to evaluate business authority. They compute what researchers and practitioners call an entity score: a composite confidence rating based on how consistently and how widely a business appears across independent data points.
-              </p>
+               Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <p>
                 Wikipedia is one input into that score for businesses that have a page. But it is one input among many. The entity score draws on training data breadth, real-time retrieval quality, structured data presence, review platform footprint, and cross-domain mention consistency. A business that scores well across all of those dimensions while lacking a Wikipedia entry will outperform a business with a thin Wikipedia page but weak presence everywhere else.
               </p>
@@ -714,7 +714,7 @@ export default function Page() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 The visualization above is simplified, but the proportional logic is accurate. For local businesses, the entity score levers that matter are all accessible. Wikipedia sits at the bottom of the chart not because it is unimportant for those who qualify it is genuinely valuable for major brands but because it is irrelevant as an optimization target for local businesses.
-              </p>
+               We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
             <div className="mt-6 not-prose">
               <Link href="/blog/what-is-an-ai-entity-score-and-why-it-controls-your-visibility" className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:text-orange-300" style={{ color: '#F27D24' }}>
@@ -799,7 +799,7 @@ export default function Page() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 The compounding effect of press mentions and directory listings mirrors what Wikipedia does for major brands, but through channels local businesses can actually access. A business with 8 press features and 60 consistent directory listings has a stronger local AI authority signal than a business with a thin Wikipedia page and nothing else.
-              </p>
+               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
             <div className="mt-6 not-prose">
               <Link href="/blog/how-press-mentions-help-ai-recommend-you" className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:text-orange-300" style={{ color: '#F27D24' }}>
@@ -835,7 +835,7 @@ export default function Page() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 Given everything above, the strategic question for local businesses is not &quot;how do I get on Wikipedia&quot; but &quot;where should I invest time and resources to maximize my AI entity authority?&quot; This matrix maps it out clearly.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             <div className="ae-decision-matrix overflow-x-auto mt-6 mb-6 not-prose" style={{ border: '1px solid rgba(255,255,255,0.08)' }}>
@@ -1014,19 +1014,19 @@ export default function Page() {
               </div>
 
               <div className="mt-6 pt-5" style={{ borderTop: '1px solid rgba(255,106,0,0.2)' }}>
-                <p className="text-sm font-semibold mb-3" style={{ color: '#F27D24' }}>The Verdict by Business Type</p>
+                <p className="text-sm font-semibold mb-3" style={{ color: '#F27D24' }}>The Verdict by Business Type Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <div className="grid sm:grid-cols-3 gap-3 text-xs text-gray-400">
                   <div className="p-3" style={{ background: 'rgba(0,0,0,0.3)' }}>
                     <p className="font-semibold text-white mb-1">Local Service Business</p>
-                    <p>Wikipedia is irrelevant. Focus 100% on GBP, directories, schema, and reviews. These are where your AI citations come from.</p>
+                    <p>Wikipedia is irrelevant. Focus 100% on GBP, directories, schema, and reviews. These are where your AI citations come from. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                   </div>
                   <div className="p-3" style={{ background: 'rgba(0,0,0,0.3)' }}>
                     <p className="font-semibold text-white mb-1">Regional or Multi-Location</p>
-                    <p>Still no Wikipedia path. Add press outreach and industry association listings to your entity-building strategy for amplified regional signals.</p>
+                    <p>Still no Wikipedia path. Add press outreach and industry association listings to your entity-building strategy for amplified regional signals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                   </div>
                   <div className="p-3" style={{ background: 'rgba(0,0,0,0.3)' }}>
                     <p className="font-semibold text-white mb-1">National Brand or Franchise</p>
-                    <p>A Wikipedia page may be achievable and worth pursuing. But only as a complement to the entity signals above, never a replacement.</p>
+                    <p>A Wikipedia page may be achievable and worth pursuing. But only as a complement to the entity signals above, never a replacement. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                   </div>
                 </div>
               </div>
@@ -1044,15 +1044,15 @@ export default function Page() {
             <div className="grid sm:grid-cols-3 gap-4 not-prose">
               <Link href="/blog/what-is-an-ai-entity-score-and-why-it-controls-your-visibility" className="block p-4 transition-all hover:scale-[1.02]" style={{ background: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
                 <p className="text-white text-sm font-semibold leading-snug mb-1">What Is an AI Entity Score and Why It Controls Your Visibility</p>
-                <p className="text-gray-500 text-xs">The composite authority signal AI platforms actually use</p>
+                <p className="text-gray-500 text-xs">The composite authority signal AI platforms actually use <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </Link>
               <Link href="/blog/directory-listings-that-help-ai-find-business" className="block p-4 transition-all hover:scale-[1.02]" style={{ background: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
                 <p className="text-white text-sm font-semibold leading-snug mb-1">The Directory Listings That Actually Help AI Find Your Business</p>
-                <p className="text-gray-500 text-xs">Which platforms carry real AI citation weight</p>
+                <p className="text-gray-500 text-xs">Which platforms carry real AI citation weight Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </Link>
               <Link href="/blog/how-press-mentions-help-ai-recommend-you" className="block p-4 transition-all hover:scale-[1.02]" style={{ background: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
                 <p className="text-white text-sm font-semibold leading-snug mb-1">How Press Mentions Help AI Recommend Your Business</p>
-                <p className="text-gray-500 text-xs">Building independent validation at local scale</p>
+                <p className="text-gray-500 text-xs">Building independent validation at local scale <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </Link>
             </div>
           </section>

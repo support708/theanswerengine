@@ -266,7 +266,7 @@ export default function PropertyManagementAICitationsPage() {
               Optimization for property management is distinct from traditional SEO in one critical
               way: AI systems do not return a list of links. They synthesize a recommendation.
               Either your company is named or it is not.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               The property management industry sits at a specific inflection point. The{' '}
@@ -280,7 +280,7 @@ export default function PropertyManagementAICitationsPage() {
               words suffer a 31% attention degradation in RAG retrieval systems. These findings
               directly inform how property management firms should structure their websites, FAQ
               pages, and directory profiles.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <h3>The New Landlord Discovery Moment</h3>
 
@@ -293,7 +293,7 @@ export default function PropertyManagementAICitationsPage() {
               The companies not named in that response are invisible at the most critical moment
               in the buyer journey — not because they lack experience or credentials, but because
               they lack citation architecture.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>
               ChatGPT now processes more than 2 billion daily queries (Backlinko, 2026).
@@ -302,7 +302,7 @@ export default function PropertyManagementAICitationsPage() {
               regularly recommend specific property management companies by name. The companies
               that appear in those recommendations are winning landlord inquiries before the first
               call is made.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-quote not-prose">
               <p>
@@ -310,7 +310,7 @@ export default function PropertyManagementAICitationsPage() {
                 5WPR/Haute Residence AI Visibility Report (April 2026), and TAE&rsquo;s verified
                 engagement data from property management client campaigns. The citation patterns
                 documented here reflect consistent observations across multiple US property markets.
-              </p>
+               Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             <h3>What Landlords Actually Ask AI About Property Management</h3>
@@ -327,7 +327,7 @@ export default function PropertyManagementAICitationsPage() {
               categories are cited significantly more frequently than companies that publish only
               service-page copy. Zhang et al. (2026) found that definition-first content earns a
               57% higher citation probability than content that assumes prior knowledge.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>Why Being Ranked on Google Is No Longer Sufficient</h3>
 
@@ -342,13 +342,13 @@ export default function PropertyManagementAICitationsPage() {
               ranks last among all tracked industries in AI Overview citation rates — despite the
               industry&rsquo;s high Google presence. GBP is a necessary condition, not a
               sufficient one.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 Find out whether your property management company currently appears in ChatGPT and
                 Perplexity when landlords search for managers in your market.
-              </p>
+               Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Get Your Free AI Visibility Report →</Link>
             </div>
 
@@ -362,7 +362,7 @@ export default function PropertyManagementAICitationsPage() {
               chunks from indexed sources, synthesizes them into a coherent answer, and presents
               a recommendation. The companies that appear in that recommendation are the companies
               whose content passed the retrieval threshold.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>The Synthesis Model — How ChatGPT Builds Recommendations</h3>
 
@@ -373,7 +373,7 @@ export default function PropertyManagementAICitationsPage() {
               retrieved passages and generates a response. Property management companies that
               appear in the retrieved passages get named in the response. Companies whose content
               is not retrieved do not get named — regardless of how good their actual services are.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               What determines retrieval? Three signals dominate. Content specificity: passages
@@ -385,7 +385,7 @@ export default function PropertyManagementAICitationsPage() {
               companies mentioned by name in authoritative third-party content — industry
               association pages, local news articles, review site summaries — earn higher
               retrieval weight than companies with only self-published content.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>The Three Trust Signals AI Systems Weight Most Heavily</h3>
 
@@ -400,13 +400,13 @@ export default function PropertyManagementAICitationsPage() {
               Aggarwal et al. (KDD 2024) documented that content containing specific statistics
               earns 22% higher citation probability than content making the same point without
               numerical data.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 Speak directly with an AEO strategist about your property management
                 company&rsquo;s current citation baseline and what it would take to change it.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <a href="tel:+12134442229">(213) 444-2229 →</a>
             </div>
 
@@ -421,7 +421,7 @@ export default function PropertyManagementAICitationsPage() {
                 Angi — because aggregators publish more structured, citation-ready content than the
                 companies they list (5WPR/Haute Residence Report, April 2026).
               </strong>
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>
               Understanding the Aggregator Trap requires understanding why aggregators win. Zillow
@@ -432,7 +432,7 @@ export default function PropertyManagementAICitationsPage() {
               cleanly because it was built for exactly this kind of structured query. The
               individual property management company&rsquo;s website — homepage, generic services
               page, contact form — does not retrieve at the same confidence level.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Why Individual Property Management Companies Lose to Aggregators</h3>
 
@@ -447,7 +447,7 @@ export default function PropertyManagementAICitationsPage() {
               content. NARPM profile pages, IREM directory listings, BBB accreditation pages, and
               review-site profiles function as earned media that reinforces the company&rsquo;s
               owned domain authority.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <h3>How to Close the Aggregator Gap</h3>
 
@@ -460,13 +460,13 @@ export default function PropertyManagementAICitationsPage() {
               Third, review volume above 40 verified Google reviews with service-specific language
               in the reviews themselves. These three elements together create content
               infrastructure that competes with aggregator pages in AI retrieval.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 Want a detailed breakdown of which aggregators are capturing your citations right
                 now? We pull that data for free.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <a href="mailto:support@theanswerengine.ai">
                 support@theanswerengine.ai →
               </a>
@@ -482,7 +482,7 @@ export default function PropertyManagementAICitationsPage() {
               aggregators can mimic directory presence and structured content, but they cannot
               replicate the reviews, the city-specific expertise, and the professional association
               credibility that belong to an actual property management company.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Layer 1 — Industry Directory Presence</h3>
 
@@ -498,7 +498,7 @@ export default function PropertyManagementAICitationsPage() {
               credibility for legal queries. The five-directory compound presence — NARPM, IREM,
               BBB, Yelp, Angi — generates substantially stronger citation confidence than any
               single directory alone.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Layer 2 — Market-Specific Content</h3>
 
@@ -511,7 +511,7 @@ export default function PropertyManagementAICitationsPage() {
                 location-specific queries to location-specific content, and generic service-page
                 copy does not pass that location match.
               </strong>
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>
               Market-specific content serves two citation functions. First, it gives the AI a
@@ -526,7 +526,7 @@ export default function PropertyManagementAICitationsPage() {
               the management fee structure for that market, average vacancy rate data, typical
               lease terms, maintenance response time benchmarks, local eviction process overview,
               and at least three landlord testimonials from that city.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <h3>Layer 3 — Review Authority and Volume</h3>
 
@@ -542,13 +542,13 @@ export default function PropertyManagementAICitationsPage() {
               service claim. A review that says &ldquo;great property managers, highly
               recommend&rdquo; does not. Coaching landlord clients to mention specific service
               attributes in reviews is a direct citation-building tactic.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 We review property management AEO stacks in a 30-minute strategy session at no
                 cost. One client per market — claim your territory before a competitor does.
-              </p>
+               Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
@@ -567,7 +567,7 @@ export default function PropertyManagementAICitationsPage() {
               density, backlink profiles, and page authority scores. AI citation optimization
               prioritizes content structure, information completeness, and the ability of a RAG
               system to extract a self-contained, accurate answer from a single page.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <h3>Service Pages That Get Parsed by AI Retrievers</h3>
 
@@ -584,7 +584,7 @@ export default function PropertyManagementAICitationsPage() {
               clicking elsewhere. GEO-SFE (2026) established that content chunks exceeding 300
               words suffer a 31% attention degradation in RAG retrieval, so service pages should
               be structured as a series of 80-to-180-token sections, each self-contained.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>FAQ Pages as Citation Anchors</h3>
 
@@ -599,7 +599,7 @@ export default function PropertyManagementAICitationsPage() {
               handled and what is the typical response time? What does the lease renewal process
               look like? How do you handle evictions? Each answer should be 2 to 4 sentences,
               self-contained, and city-specific where applicable.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>The Invisibility Paradox — and Its Fix</h3>
 
@@ -614,13 +614,13 @@ export default function PropertyManagementAICitationsPage() {
               activity. It is a specific type of digital activity: structured, self-contained,
               market-specific content on the company&rsquo;s own domain, paired with industry
               directory presence and above-threshold review volume.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="ae-cta-inline not-prose">
               <p>
                 TAE works with one property management company per market. If your city is still
                 available, a competitor has not yet claimed it. Check availability now.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
@@ -642,7 +642,7 @@ export default function PropertyManagementAICitationsPage() {
                 this threshold at approximately 40 verified Google reviews for most US property
                 markets.
               </strong>
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p>
               Below 40 reviews, AI retrieval systems treat a property management company as

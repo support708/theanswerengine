@@ -371,11 +371,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               When someone types "best HVAC repair near downtown Seattle" into Bing or opens the Copilot app on Windows 11, they are not getting a list of blue links. They are getting a synthesized, conversational answer assembled from live Bing data, Bing Maps, third-party review aggregators, and structured business listing attributes. Copilot is the AI layer that reads, weighs, and presents all of that information as a direct recommendation.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is categorically different from how local search worked in 2020. The old model: rank on Google Maps, get calls. The new model: get cited by the AI layer or become invisible. Microsoft's Copilot does not just pull a ranked list. It constructs a narrative answer, often naming two to four businesses by name, with sourced links, reviews excerpts, and relevant attributes like "open now," "accepts reservations," or "has free Wi-Fi."
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* Callout: Info */}
             <div
@@ -385,21 +385,21 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#3B82F6' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Copilot Is Not Search, It Is a Decision Engine</p>
+                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Copilot Is Not Search, It Is a Decision Engine <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Copilot does not present options neutrally. It makes a recommendation. When Copilot names your competitor and not you, the user often does not look further. That is the stakes of AI-era local search: cited or invisible, nothing in between.
-                  </p>
+                   Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Microsoft launched a fully redesigned Bing Places for Business in October 2025, redirecting all listing management to bing.com/forbusiness and deepening Bing's integration with Copilot's recommendation layer. The message was direct: if you want to appear in Copilot's answers, your Bing Places listing is the front door.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Inline CTA */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Not sure if your business appears in Copilot answers right now? We run a full AI visibility audit across Copilot, ChatGPT, Perplexity, and Google AI.</p>
+              <p className="text-sm text-gray-300 mb-3">Not sure if your business appears in Copilot answers right now? We run a full AI visibility audit across Copilot, ChatGPT, Perplexity, and Google AI. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a
                 href="https://theanswerengine.ai/audit"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -419,11 +419,11 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Every other major AI assistant has a complicated relationship with live web data. ChatGPT uses Bing's index for its browsing mode, but it is not the default behavior. Perplexity has its own crawl infrastructure. Claude's web search is optional. Copilot, by contrast, is Bing. They share the same indexing infrastructure, the same local knowledge graph, and the same real-time data pipeline.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This means the levers that move the needle in Copilot are directly tied to Bing's local ranking system. Bing has been explicit about this: Bing Places data feeds into Bing Maps, and both feed into Copilot's local recommendation engine. When Copilot answers "find a pediatric dentist near me," it is assembling its answer from the same structured data that powers Bing's own local pack results.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* Callout: Warning */}
             <div
@@ -433,24 +433,24 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The Google Trap Most Businesses Fall Into</p>
+                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The Google Trap Most Businesses Fall Into Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Businesses that obsessively optimize for Google and ignore Bing Places are effectively invisible to Microsoft Copilot. With 140 million daily Bing users receiving Copilot-powered answers, that is not a niche gap: it is a significant blind spot in most AI visibility strategies.
-                  </p>
+                   Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               ChatGPT and Copilot both use Bing's index, but they use it differently. ChatGPT treats Bing as a retrieval layer on top of its own trained knowledge. Copilot treats Bing as its primary ground truth. For local searches especially, Copilot's outputs are more tightly coupled to current Bing Places data. This is a structural advantage for businesses that have invested in Bing optimization, and a structural penalty for those who have not.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Also worth noting: OpenAI's ChatGPT itself uses Bing's index for its web search feature. That means a strong Bing Places presence does not just help Copilot. It propagates into ChatGPT recommendations as well. The entire Microsoft-OpenAI ecosystem runs on Bing data for local queries.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Curious how Copilot and ChatGPT compare across the full AI search landscape? Read our breakdown.</p>
+              <p className="text-sm text-gray-300 mb-3">Curious how Copilot and ChatGPT compare across the full AI search landscape? Read our breakdown. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link
                 href="/blog/chatgpt-vs-perplexity-vs-google-ai-local"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -470,7 +470,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               Copilot does not use a simple star-rating system. It assembles a composite picture of your business from several distinct data layers. Understanding each layer is the difference between appearing in Copilot's answer and being completely absent.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Signal Cards */}
             <div className="grid md:grid-cols-2 gap-5 mb-8">
@@ -487,7 +487,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">1. Listing Completeness</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Name, address, phone, categories, hours, photos, and attributes. Every empty field is a gap Copilot cannot fill. Incomplete listings are systematically deprioritized because Copilot cannot confidently synthesize information it does not have.
-                </p>
+                 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
 
               <div
@@ -503,7 +503,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Multi-Platform Review Signals</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Copilot aggregates from Yelp, TripAdvisor, Facebook, and Trustpilot. A business with strong ratings on only one platform is weaker than one with consistent signals across many. Volume, recency, and cross-platform consistency all matter.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
 
               <div
@@ -519,7 +519,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">3. Geographic Relevance</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Copilot anchors recommendations to the user's physical location or the location specified in the query. A business with precise geographic data, service area definitions, and neighborhood-level attributes ranks better for hyper-local queries than one with only a city-level address.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               </div>
 
               <div
@@ -535,7 +535,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Structured Attributes</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   When a user asks Copilot for "a coffee shop with Wi-Fi near me," it checks the hasWiFi attribute on your listing. Attributes like outdoor seating, wheelchair accessibility, accepts reservations, and pet-friendly directly map to query intents. Missing attributes mean missing recommendations.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
 
               <div
@@ -551,7 +551,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">5. Social Signals</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Bing explicitly ranks social engagement as a factor. Active Facebook pages, LinkedIn presence, and platform-indexed social content signal to Bing, and therefore to Copilot, that your business is current, legitimate, and community-engaged. Dormant social profiles are a negative signal.
-                </p>
+                 Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
 
               <div
@@ -567,7 +567,7 @@ export default function Page() {
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">6. Citation Consistency (NAP)</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   Name, Address, Phone number consistency across every directory, aggregator, and citation source. Conflicting information across platforms creates confusion in Bing's knowledge graph. Copilot cannot confidently recommend a business when its own data sources disagree on basic facts.
-                </p>
+                 Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
@@ -579,16 +579,16 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The Attribute Advantage Most Businesses Miss</p>
+                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The Attribute Advantage Most Businesses Miss We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Structured attributes are the highest-leverage, lowest-effort optimization in Copilot visibility. Most businesses never fill them in. The businesses that do are consistently cited for attribute-specific queries that their competitors cannot touch. This is one of the most actionable improvements available right now.
-                  </p>
+                   Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 </div>
               </div>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to understand how these signals compare across different AI platforms? Our team has audited hundreds of businesses across every major AI engine.</p>
+              <p className="text-sm text-gray-300 mb-3">Want to understand how these signals compare across different AI platforms? Our team has audited hundreds of businesses across every major AI engine. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -608,7 +608,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               Both Copilot and ChatGPT are powerful AI assistants, but they behave very differently when someone asks for a local business recommendation. Understanding the gap helps you optimize for the right platform, and not assume that what works for one automatically works for the other.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto mb-10 rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
@@ -667,14 +667,14 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The structural difference comes down to ground truth. Copilot's answer for a local query is built from Bing's live local knowledge graph first, with the language model synthesizing and presenting that data. ChatGPT's answer is built from the language model's knowledge first, with live web retrieval as an optional augmentation. For businesses trying to be recommended, that distinction matters enormously.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               In real-world testing, Copilot consistently produces more sourced, more linkable, and more attribute-rich local recommendations than ChatGPT. A user asking Copilot for a dinner recommendation in a specific neighborhood gets results with booking links, sourced reviews, and live hours. ChatGPT typically names businesses without verifiable current sources. Copilot's output is more useful, and it is also more dependent on structured data being in place.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Are you optimizing for AI platforms in the right order? Many businesses spend effort on the wrong platform. We help map the right sequence.</p>
+              <p className="text-sm text-gray-300 mb-3">Are you optimizing for AI platforms in the right order? Many businesses spend effort on the wrong platform. We help map the right sequence. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
@@ -694,7 +694,7 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               After auditing hundreds of businesses across AI recommendation platforms, patterns emerge clearly. The businesses Copilot consistently cites share specific traits. The ones it ignores share equally specific gaps.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* Pros/Cons Section */}
             <div className="ae-pros-cons grid md:grid-cols-2 gap-6 mb-10">
@@ -761,10 +761,10 @@ export default function Page() {
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>The Hidden Multiplier: Bing Powers ChatGPT Too</p>
+                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>The Hidden Multiplier: Bing Powers ChatGPT Too Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Every Bing Places optimization you make propagates into ChatGPT's web browsing results as well. Microsoft and OpenAI share Bing's index. Winning in Bing Places is not just a Copilot strategy. It is the single upstream investment that improves your visibility across the two largest AI platforms simultaneously.
-                  </p>
+                   <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 </div>
               </div>
             </div>

@@ -223,7 +223,7 @@ export default function Page() {
                 AI platform names your business as the direct answer to a user query. Not a
                 position in a list. A recommendation with reasoning, delivered to someone
                 who already trusts the source.
-              </p>
+               Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
               <div className="ae-article-meta">
                 <time dateTime={publishDate}>May 7, 2026</time>
                 <span>·</span>
@@ -298,7 +298,7 @@ export default function Page() {
                   a Google ranking (a position in a list), a citation is a direct recommendation.
                   The AI says &ldquo;use this business&rdquo; and the user typically does not look further.
                   AI citations convert at 14.2% on average, versus 2.8% for Google organic traffic.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -311,12 +311,12 @@ export default function Page() {
               your competitor&apos;s. There is no middle ground in an AI citation.</strong> This guide
               explains exactly what an AI citation is, how they work, why they convert so dramatically
               better than rankings, and what it takes to earn them.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure if AI platforms are currently citing your business?</p>
+                <p>Not sure if AI platforms are currently citing your business? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <Link href="/blindspot">Get Your Free AI Blind Spot Report &#8594;</Link>
               </div>
             </div>
@@ -331,7 +331,7 @@ export default function Page() {
               There are nine other options on the page, plus ads above the fold. Even a position-1
               result only captures about 27% of clicks, because the user is still in research mode.
               They open tabs. They compare. They second-guess. The decision has not been made.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               An AI citation is structurally different. When someone asks ChatGPT &ldquo;who handles
               commercial HVAC in the Inland Empire&rdquo; and the AI names a specific company, there
@@ -339,7 +339,7 @@ export default function Page() {
               a recommendation with reasoning, like getting a referral from a trusted advisor
               who already did the research. That framing changes the psychology entirely. The
               user is not choosing from a list; they are confirming a recommendation.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Comparison Table */}
             <div className="not-prose">
@@ -397,12 +397,12 @@ export default function Page() {
                 whether AEO is worth the investment
               </Link>{' '}
               starts with understanding this gap.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to see the conversion data for your specific industry?</p>
+                <p>Want to see the conversion data for your specific industry? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229 for a category breakdown &#8594;</a>
               </div>
             </div>
@@ -419,7 +419,7 @@ export default function Page() {
               about water heater repair in specific neighborhoods of Sacramento accumulates a
               recognizable authority signal for that topic and location. A business with one generic
               service page has no signal at all.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The signals AI platforms weight most heavily cluster into five categories. Topical
               depth matters most: consistent, deep coverage of a subject over time creates an
@@ -428,7 +428,7 @@ export default function Page() {
               signal. &ldquo;Slab leak repair in homes built before 1980 in Fontana CA, where clay soil
               conditions and aging galvanized pipes create specific failure patterns&rdquo;: that
               builds a precise geography-service signal that AI systems can act on.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Bar Chart: Signal Weights */}
             <div className="not-prose">
@@ -481,7 +481,7 @@ export default function Page() {
               parseable and citable. A page that buries the answer in paragraph four after two
               paragraphs of company history gets skipped. The AI needs to find a confident,
               complete answer fast.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Callout: Platform Differences */}
             <div className="not-prose">
@@ -494,14 +494,14 @@ export default function Page() {
                   Google AI Overviews draw from established domain trust and existing Search
                   Console signals. Claude and Gemini have their own weighting systems. A business
                   optimized for one platform is not automatically visible on the others.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to know which platforms are most likely to cite your business category?</p>
+                <p>Want to know which platforms are most likely to cite your business category? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 <Link href="/blindspot">Run a free citation audit across all four platforms &#8594;</Link>
               </div>
             </div>
@@ -516,7 +516,7 @@ export default function Page() {
               types helps you know what you are tracking for and what it means when you
               find one. All three drive traffic. The conversion rate varies significantly
               based on how specifically your business is named.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Decision Matrix: 3 Citation Types */}
             <div className="not-prose">
@@ -558,7 +558,7 @@ export default function Page() {
               arrives pre-qualified: they already know your credentials matter and why. Platform
               citations build awareness and domain authority signals that accelerate the other
               two citation types over time.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-4">
               Most businesses that invest seriously in{' '}
@@ -569,12 +569,12 @@ export default function Page() {
               deepens, then direct name citations once their entity recognition is strong
               enough for the AI to recommend them specifically. The progression is
               predictable when the underlying content architecture is built correctly.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA Inline 4 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Curious which citation type your business could realistically earn first?</p>
+                <p>Curious which citation type your business could realistically earn first? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                 <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for an honest assessment &#8594;</a>
               </div>
             </div>
@@ -590,7 +590,7 @@ export default function Page() {
               in Inland Empire,&rdquo; they have already been pre-qualified. The AI answered their
               research question. They are not browsing: they are confirming. That single shift
               in user state is worth roughly five conversion points.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The behavioral data supports this. AI-referred visitors spend an average of
               9 minutes 19 seconds on site versus 5 minutes 33 seconds for Google organic
@@ -598,7 +598,7 @@ export default function Page() {
               They compare less across competing sites. They convert faster because the decision
               was informed before they arrived. The AI already did the research comparison
               that the user would have done across six open browser tabs.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Stats */}
             <div className="not-prose">
@@ -630,7 +630,7 @@ export default function Page() {
               convert at 5.0% and 3.0% respectively, still above Google organic, but reflecting
               that those platforms currently have smaller commercial search volumes. As those
               platforms grow, the citation value grows with them.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Quote */}
             <div className="not-prose">
@@ -639,14 +639,14 @@ export default function Page() {
                   &ldquo;A Google ranking tells someone you exist. An AI citation tells someone
                   you are the answer. That sentence contains the entire explanation for why
                   citation traffic converts at five times the rate.&rdquo;
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Ready to understand what citation traffic would mean for your revenue?</p>
+                <p>Ready to understand what citation traffic would mean for your revenue? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
               </div>
             </div>
@@ -664,7 +664,7 @@ export default function Page() {
               detectable. At 16 articles per month, building toward 192 by month twelve, the
               signal density becomes recognizable to AI systems as an authoritative source
               for that topic and geography.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Geographic specificity is non-negotiable. Generic service coverage builds no
               authority. Hyperlocal coverage (articles that reference specific neighborhoods,
@@ -675,7 +675,7 @@ export default function Page() {
               management for Section 8 tenants in Long Beach, CA, where LA County HAP payment
               cycles and local Just Cause Eviction ordinances create specific compliance
               requirements&rdquo;: that is a citeable authority signal.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Pros/Cons: What Works vs Doesn't */}
             <div className="not-prose">
@@ -720,12 +720,12 @@ export default function Page() {
                 SEO content strategy
               </Link>{' '}
               approaches article publishing.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to see what a hub-and-spoke content architecture looks like for your business?</p>
+                <p>Want to see what a hub-and-spoke content architecture looks like for your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 <Link href="/blindspot">Start with your free citation audit &#8594;</Link>
               </div>
             </div>
@@ -749,7 +749,7 @@ export default function Page() {
             {/* CTA Inline 7 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>How does your current content stack measure against these benchmarks?</p>
+                <p>How does your current content stack measure against these benchmarks? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229 for a content audit &#8594;</a>
               </div>
             </div>
@@ -769,7 +769,7 @@ export default function Page() {
               note the frequency, the platform, and the exact query that triggered it. If you
               are not cited: the absence tells you your authority signal is below the threshold
               for that topic and platform.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Analytics tell part of the story. AI-referred traffic appears in your analytics
               with referral sources including chatgpt.com, perplexity.ai, claude.ai, and
@@ -778,7 +778,7 @@ export default function Page() {
               chatgpt.com referrals against google.com referrals, will typically show the
               14 to 16% versus 2 to 3% gap that validates the citation effect. This is
               measurable in any standard analytics platform.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* Timeline: Citation Monitoring Protocol */}
             <div className="not-prose">
@@ -842,7 +842,7 @@ export default function Page() {
               times is at the noise floor. Consistent citation requires an authority signal
               strong enough that the AI platform defaults to your business as the answer
               rather than hedging with a generic category response.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Callout: The 1.14M Number */}
             <div className="not-prose">

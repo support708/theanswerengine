@@ -42,36 +42,36 @@ export default function Page() {
         <h2>Why Answer Boxes Matter</h2>
         <p>
           AI answer boxes are direct citations. When ChatGPT, Google AI, or Perplexity pulls a paragraph from your website into an answer box, users see your company name, your language, your framing. This is the highest-value citation because it drives direct traffic and brand recall.
-        </p>
+         Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         <p>
           Most businesses do not get featured because their content is invisible to AI indexing. Either the structure is wrong, the format is unclear, or the content does not match what AI platforms are searching for.
-        </p>
+         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Answer Box vs. Ranking</div>
           <p>
             You do NOT need to rank #1 on Google to get an answer box citation. AI platforms have independent ranking and citation logic. Visibility on ChatGPT is completely separate from Google organic search visibility.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
         </div>
 
         <h2>The 5 Content Formats That Get Answer Box Citations</h2>
-        <p><strong>1. Definition / Explainer Paragraphs</strong></p>
-        <p>150-300 word paragraphs that directly answer a question. Start with the answer. Avoid burying the conclusion.</p>
+        <p><strong>1. Definition / Explainer Paragraphs</strong> Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+        <p>150-300 word paragraphs that directly answer a question. Start with the answer. Avoid burying the conclusion. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-        <p><strong>2. FAQ Blocks</strong></p>
-        <p>Proper FAQPage schema with Question/Answer pairs. Each Q should be a complete user query, each A should be 2-4 sentences.</p>
+        <p><strong>2. FAQ Blocks</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+        <p>Proper FAQPage schema with Question/Answer pairs. Each Q should be a complete user query, each A should be 2-4 sentences. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
-        <p><strong>3. Step-by-Step Lists</strong></p>
-        <p>Numbered lists with 5-10 steps. Each step should be 1-2 sentences. Use HowTo schema markup.</p>
+        <p><strong>3. Step-by-Step Lists</strong> Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+        <p>Numbered lists with 5-10 steps. Each step should be 1-2 sentences. Use HowTo schema markup. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-        <p><strong>4. Comparison Tables</strong></p>
-        <p>Side-by-side comparisons with 3-5 rows. Clean formatting. Add schema for each row.</p>
+        <p><strong>4. Comparison Tables</strong> Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+        <p>Side-by-side comparisons with 3-5 rows. Clean formatting. Add schema for each row. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
-        <p><strong>5. Data and Statistics</strong></p>
-        <p>Specific numbers, percentages, or data points with sources. AI platforms pull these frequently for comparison answers.</p>
+        <p><strong>5. Data and Statistics</strong> Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
+        <p>Specific numbers, percentages, or data points with sources. AI platforms pull these frequently for comparison answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <h2>Schema Markup That Works</h2>
-        <p>Your content structure matters more than design. Add proper schema:</p>
+        <p>Your content structure matters more than design. Add proper schema: Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
         <pre><code>FAQPage for Q&A content
 HowTo for step-by-step guides
 Table for comparisons
@@ -79,35 +79,35 @@ ItemList for ranked lists
 Article for long-form content</code></pre>
 
         <h2>The Answer Box Content Formula</h2>
-        <p><strong>Headline:</strong> The exact user query as an H2 or H3</p>
-        <p><strong>Opening Sentence:</strong> The direct answer in 1 sentence</p>
-        <p><strong>Supporting Detail:</strong> 2-4 sentences of context or examples</p>
-        <p><strong>CTA or Source Link:</strong> Subtle pointer back to your website</p>
+        <p><strong>Headline:</strong> The exact user query as an H2 or H3 Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+        <p><strong>Opening Sentence:</strong> The direct answer in 1 sentence <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+        <p><strong>Supporting Detail:</strong> 2-4 sentences of context or examples <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+        <p><strong>CTA or Source Link:</strong> Subtle pointer back to your website <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
         <div className="ae-cta-block not-prose">
           <h3>Get Your Website in AI Answer Boxes</h3>
-          <p>Most answer box citations go to companies optimizing for it. We will audit your content structure and fix what AI platforms cannot find.</p>
-          <p><Link href="/contact" className="ae-cta-button">Get an Answer Box Audit</Link></p>
+          <p>Most answer box citations go to companies optimizing for it. We will audit your content structure and fix what AI platforms cannot find. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+          <p><Link href="/contact" className="ae-cta-button">Get an Answer Box Audit</Link> Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         <h2>Common Answer Box Mistakes</h2>
-        <p><strong>Mistake #1: Burying the answer</strong> — Do not write 200 words before answering the question. Answer first, explain second.</p>
-        <p><strong>Mistake #2: No schema markup</strong> — AI platforms prefer content with proper schema. Add it.</p>
-        <p><strong>Mistake #3: Vague language</strong> — Use specific numbers, names, and data. AI pulls specificity over generality.</p>
-        <p><strong>Mistake #4: Poor formatting</strong> — Use lists, bold text, and short paragraphs. Wall-of-text content does not get cited.</p>
+        <p><strong>Mistake #1: Burying the answer</strong> — Do not write 200 words before answering the question. Answer first, explain second. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+        <p><strong>Mistake #2: No schema markup</strong> — AI platforms prefer content with proper schema. Add it. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+        <p><strong>Mistake #3: Vague language</strong> — Use specific numbers, names, and data. AI pulls specificity over generality. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+        <p><strong>Mistake #4: Poor formatting</strong> — Use lists, bold text, and short paragraphs. Wall-of-text content does not get cited. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2>The 60-Day Answer Box Strategy</h2>
-        <p><strong>Week 1-2:</strong> Audit your top 20 service/product pages. Flag where you should have answer boxes but do not.</p>
-        <p><strong>Week 3-4:</strong> Add 10 new answer box formatted sections to your website. One per page minimum.</p>
-        <p><strong>Week 5-6:</strong> Add FAQPage schema to all FAQ sections. Test with Google Rich Results validator.</p>
-        <p><strong>Week 7-8:</strong> Monitor ChatGPT, Perplexity, and Google AI for new citations. Document results.</p>
+        <p><strong>Week 1-2:</strong> Audit your top 20 service/product pages. Flag where you should have answer boxes but do not. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+        <p><strong>Week 3-4:</strong> Add 10 new answer box formatted sections to your website. One per page minimum. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
+        <p><strong>Week 5-6:</strong> Add FAQPage schema to all FAQ sections. Test with Google Rich Results validator. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+        <p><strong>Week 7-8:</strong> Monitor ChatGPT, Perplexity, and Google AI for new citations. Document results. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
         <h2>Frequently Asked Questions</h2>
         <h3>Do I need to rank #1 on Google to get an answer box?</h3>
-        <p>No. Google and AI rankings are independent. You can be invisible on Google but cited constantly on ChatGPT.</p>
+        <p>No. Google and AI rankings are independent. You can be invisible on Google but cited constantly on ChatGPT. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
         <h3>How long until I see answer box citations?</h3>
-        <p>7-21 days for properly formatted content. AI platforms crawl and index answer box content faster than traditional web content.</p>
+        <p>7-21 days for properly formatted content. AI platforms crawl and index answer box content faster than traditional web content. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
         <h3>Can I get multiple answer box citations?</h3>
         <p>Yes. Businesses with comprehensive, well-formatted content often appear in 5-15 different answer boxes per month across all platforms.</p>

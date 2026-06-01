@@ -287,35 +287,35 @@ export default function HowAIChoosesBlogPost() {
             <span className="ae-section-label">The Truth</span>
             <h2>The Fundamental Truth About AI Citation Selection</h2>
 
-            <p>When someone asks ChatGPT or Claude to recommend a business, these AI platforms use a systematic, weighted evaluation process to determine which sources are trustworthy enough to cite by name.</p>
+            <p>When someone asks ChatGPT or Claude to recommend a business, these AI platforms use a systematic, weighted evaluation process to determine which sources are trustworthy enough to cite by name. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>Most business owners assume AI platforms evaluate everyone equally and cite whoever ranks highest in traditional search. This assumption costs them visibility every single day.</p>
+            <p>Most business owners assume AI platforms evaluate everyone equally and cite whoever ranks highest in traditional search. This assumption costs them visibility every single day. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
-              <p>AI platforms don&apos;t treat all sources as equals. They apply a hierarchical trust system that prioritizes certain types of information over others.</p>
+              <p>AI platforms don&apos;t treat all sources as equals. They apply a hierarchical trust system that prioritizes certain types of information over others. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
-            <p>Think of it as a credibility pyramid. Government databases, academic institutions, and encyclopedic sources sit at the top. Authoritative industry publications and verified business directories occupy the middle. Generic websites and unverified claims settle at the bottom.</p>
+            <p>Think of it as a credibility pyramid. Government databases, academic institutions, and encyclopedic sources sit at the top. Authoritative industry publications and verified business directories occupy the middle. Generic websites and unverified claims settle at the bottom. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>Your business exists somewhere in this hierarchy. The question is: where?</p>
+            <p>Your business exists somewhere in this hierarchy. The question is: where? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out exactly where AI platforms place your business in this credibility hierarchy.</p>
+              <p>Find out exactly where AI platforms place your business in this credibility hierarchy. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
             {/* ── CALLOUT: WARNING ── */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Why This Matters Now</div>
-              <p>The businesses establishing AI citation authority right now are building compounding advantages that become harder to overcome as time passes. Starting six months later does not mean six months behind. It means competing against businesses with exponentially more citation data and established authority.</p>
+              <p>The businesses establishing AI citation authority right now are building compounding advantages that become harder to overcome as time passes. Starting six months later does not mean six months behind. It means competing against businesses with exponentially more citation data and established authority. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             {/* ── THREE-LAYER MODEL ── */}
             <span className="ae-section-label">The Framework</span>
             <h2>The Three-Layer Authority Assessment Model</h2>
 
-            <p>AI platforms evaluate potential citations through three distinct layers, each serving a different verification purpose. Failing at any single layer can eliminate your business from citation consideration entirely.</p>
+            <p>AI platforms evaluate potential citations through three distinct layers, each serving a different verification purpose. Failing at any single layer can eliminate your business from citation consideration entirely. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* ── DECISION MATRIX ── */}
             <table className="ae-decision-matrix not-prose">
@@ -353,7 +353,7 @@ export default function HowAIChoosesBlogPost() {
             <span className="ae-section-label">Layer 1</span>
             <h2>Source Type Authority</h2>
 
-            <p>Before AI platforms even read your content, they assess what type of source you are. This happens in milliseconds and determines whether your content gets serious consideration or immediate dismissal.</p>
+            <p>Before AI platforms even read your content, they assess what type of source you are. This happens in milliseconds and determines whether your content gets serious consideration or immediate dismissal. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── BAR CHART: Authority Levels ── */}
             <div className="ae-bar-group not-prose">
@@ -394,16 +394,16 @@ export default function HowAIChoosesBlogPost() {
               </div>
             </div>
 
-            <p>Where traditional SEO treated all websites similarly if they had good backlinks, AI platforms start with source-type bias. A 20-year-old business website with documented expertise has inherent advantages over a new domain, regardless of technical optimization.</p>
+            <p>Where traditional SEO treated all websites similarly if they had good backlinks, AI platforms start with source-type bias. A 20-year-old business website with documented expertise has inherent advantages over a new domain, regardless of technical optimization. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Your domain type sets the ceiling for how seriously AI platforms take your content. You cannot overcome low source authority with great content alone. Both must be strong.</p>
+              <p>Your domain type sets the ceiling for how seriously AI platforms take your content. You cannot overcome low source authority with great content alone. Both must be strong. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering how AI platforms classify your business website? We can tell you in minutes.</p>
+              <p>Wondering how AI platforms classify your business website? We can tell you in minutes. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
             </div>
 
@@ -411,7 +411,7 @@ export default function HowAIChoosesBlogPost() {
             <span className="ae-section-label">Layer 2</span>
             <h2>Content Structure and Clarity</h2>
 
-            <p>Once AI platforms determine your source type is credible, they evaluate how your content is structured. This is where many businesses with legitimate expertise fail. Not because they lack knowledge, but because that knowledge is not documented in AI-readable formats.</p>
+            <p>Once AI platforms determine your source type is credible, they evaluate how your content is structured. This is where many businesses with legitimate expertise fail. Not because they lack knowledge, but because that knowledge is not documented in AI-readable formats. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -451,50 +451,50 @@ export default function HowAIChoosesBlogPost() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your content passes Layer 2 evaluation? Get a detailed content audit.</p>
+              <p>Not sure if your content passes Layer 2 evaluation? Get a detailed content audit. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Request Your Free AI Visibility Report &rarr;</Link>
             </div>
 
             {/* ── CALLOUT: INFO ── */}
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Hidden Challenge</div>
-              <p>Most business websites were built for human readers who forgive vague language and infer context. AI platforms require explicit documentation of everything they might cite. Your site may have the expertise but lack the structure AI needs to find and extract it.</p>
+              <p>Most business websites were built for human readers who forgive vague language and infer context. AI platforms require explicit documentation of everything they might cite. Your site may have the expertise but lack the structure AI needs to find and extract it. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── LAYER 3 ── */}
             <span className="ae-section-label">Layer 3</span>
             <h2>Cross-Validation and Consistency</h2>
 
-            <p>The final evaluation layer is the most sophisticated: AI platforms cross-check information across multiple sources to verify consistency and catch potential errors or exaggerations.</p>
+            <p>The final evaluation layer is the most sophisticated: AI platforms cross-check information across multiple sources to verify consistency and catch potential errors or exaggerations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* ── TIMELINE: Cross-Validation Steps ── */}
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Step 1: Business Information Verification</strong>
-                <p>AI compares your website claims against business registries, licensing databases, and public records. Discrepancies in business names, addresses, or credentials trigger red flags.</p>
+                <p>AI compares your website claims against business registries, licensing databases, and public records. Discrepancies in business names, addresses, or credentials trigger red flags. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Credential Validation</strong>
-                <p>Professional certifications, licenses, and affiliations get validated against authoritative databases. Unverifiable claims reduce citation probability immediately.</p>
+                <p>Professional certifications, licenses, and affiliations get validated against authoritative databases. Unverifiable claims reduce citation probability immediately. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Reputation Signal Analysis</strong>
-                <p>AI platforms assess patterns in reviews, media mentions, and third-party references. Businesses cited positively across multiple independent sources gain credibility multipliers.</p>
+                <p>AI platforms assess patterns in reviews, media mentions, and third-party references. Businesses cited positively across multiple independent sources gain credibility multipliers. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Temporal Consistency Check</strong>
-                <p>Information that contradicts itself across different pages or timeframes raises questions. If your homepage says &quot;since 2010&quot; but your about page says &quot;founded 2015,&quot; AI platforms notice.</p>
+                <p>Information that contradicts itself across different pages or timeframes raises questions. If your homepage says &quot;since 2010&quot; but your about page says &quot;founded 2015,&quot; AI platforms notice. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Consistency Kills Silently</div>
-              <p>Businesses with perfectly optimized websites still fail at Layer 3 if their information does not validate against external sources. One mismatched address across directories can suppress citations entirely.</p>
+              <p>Businesses with perfectly optimized websites still fail at Layer 3 if their information does not validate against external sources. One mismatched address across directories can suppress citations entirely. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Your business info may be inconsistent across the web without you knowing. Find out.</p>
+              <p>Your business info may be inconsistent across the web without you knowing. Find out. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Consistency Audit &rarr;</a>
             </div>
 
@@ -502,7 +502,7 @@ export default function HowAIChoosesBlogPost() {
             <span className="ae-section-label">How AI Thinks</span>
             <h2>The Query Fan-Out Process</h2>
 
-            <p>When someone asks an AI platform a question, the system does not just search for that exact phrase. Instead, it &quot;fans out&quot; the query into multiple related sub-questions that need answering to provide a complete response.</p>
+            <p>When someone asks an AI platform a question, the system does not just search for that exact phrase. Instead, it &quot;fans out&quot; the query into multiple related sub-questions that need answering to provide a complete response. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* ── STATS GRID: Fan-Out Example ── */}
             <div className="ae-stats-grid not-prose">
@@ -528,7 +528,7 @@ export default function HowAIChoosesBlogPost() {
               </div>
             </div>
 
-            <p>Example: When a user asks &quot;How do I choose an HVAC contractor in Phoenix?&quot;, AI internally expands this into sub-questions about credentials, pricing, red flags, climate-specific requirements, and warranty standards.</p>
+            <p>Example: When a user asks &quot;How do I choose an HVAC contractor in Phoenix?&quot;, AI internally expands this into sub-questions about credentials, pricing, red flags, climate-specific requirements, and warranty standards. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-cheat-sheet not-prose">
               <div className="ae-cheat-sheet-title">Fan-Out Sub-Questions AI Generates Internally</div>
@@ -544,12 +544,12 @@ export default function HowAIChoosesBlogPost() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Businesses that comprehensively address the complete fan-out query set get cited more frequently. Scattered blog posts on disconnected topics perform poorly compared to comprehensive, interconnected content that addresses entire topic areas.</p>
+              <p>Businesses that comprehensively address the complete fan-out query set get cited more frequently. Scattered blog posts on disconnected topics perform poorly compared to comprehensive, interconnected content that addresses entire topic areas. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know which fan-out queries your competitors are answering that you are not?</p>
+              <p>Want to know which fan-out queries your competitors are answering that you are not? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot">Get Your Competitive Gap Analysis &rarr;</Link>
             </div>
 
@@ -557,7 +557,7 @@ export default function HowAIChoosesBlogPost() {
             <span className="ae-section-label">Old vs New</span>
             <h2>Why AI Platforms Value Different Content Than Traditional Search</h2>
 
-            <p>Google&apos;s 2015 algorithm looked for backlinks, keyword density, and technical SEO metrics. AI platforms evaluate content through an entirely different lens focused on answer extraction and verification.</p>
+            <p>Google&apos;s 2015 algorithm looked for backlinks, keyword density, and technical SEO metrics. AI platforms evaluate content through an entirely different lens focused on answer extraction and verification. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -603,7 +603,7 @@ export default function HowAIChoosesBlogPost() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Still relying on SEO alone? See what AI platforms actually say about your business.</p>
+              <p>Still relying on SEO alone? See what AI platforms actually say about your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 to Discuss Your AI Strategy &rarr;</a>
             </div>
 
@@ -611,7 +611,7 @@ export default function HowAIChoosesBlogPost() {
             <span className="ae-section-label">The Moat</span>
             <h2>The Citation Preference Lock-In</h2>
 
-            <p>AI platforms develop citation preferences through training data and retrieval patterns. Businesses that become the consistent, reliable source for a topic area establish preference that competitors must actively displace rather than simply match.</p>
+            <p>AI platforms develop citation preferences through training data and retrieval patterns. Businesses that become the consistent, reliable source for a topic area establish preference that competitors must actively displace rather than simply match. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* ── BAR CHART: Compounding Advantage ── */}
             <div className="ae-bar-group not-prose">
@@ -642,7 +642,7 @@ export default function HowAIChoosesBlogPost() {
               </div>
             </div>
 
-            <p>In traditional SEO, a new competitor with better content and backlinks could overtake established players within months. In AI citation, displacing an established authority requires demonstrably superior information across the entire topic area. That is a significantly higher bar.</p>
+            <p>In traditional SEO, a new competitor with better content and backlinks could overtake established players within months. In AI citation, displacing an established authority requires demonstrably superior information across the entire topic area. That is a significantly higher bar. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="ae-quote not-prose">
               <p>The businesses implementing AEO today are not just getting ahead. They are building moats that get deeper every month.</p>

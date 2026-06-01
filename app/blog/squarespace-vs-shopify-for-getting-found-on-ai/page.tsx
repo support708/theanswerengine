@@ -290,17 +290,17 @@ export default function Page() {
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-gray-300 text-xl leading-relaxed">
               You built a store on Shopify. Or you launched a business site on Squarespace. Maybe you are still deciding between the two. Either way, a question is now sitting on your desk that did not exist three years ago: which platform is going to help you show up when someone asks ChatGPT, Perplexity, or Google AI to recommend a business like yours?
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <p className="text-gray-400">
               This is not a traditional SEO comparison. We are not talking about Google PageRank signals or backlink counts. We are talking about a fundamentally different discovery mechanism where AI systems synthesize answers from the web and choose which businesses to name, cite, and recommend. The rules are different. The signals are different. And the platforms you use affect your odds in ways most website guides have not caught up to yet.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           </div>
 
           {/* CTA Inline 1 */}
           <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-sm font-semibold text-white mb-1">Is your platform hurting your AI visibility?</p>
-              <p className="text-xs text-gray-400">Find out which signals AI platforms are using to evaluate your site right now.</p>
+              <p className="text-sm font-semibold text-white mb-1">Is your platform hurting your AI visibility? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+              <p className="text-xs text-gray-400">Find out which signals AI platforms are using to evaluate your site right now. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <Link href="/blindspot" className="ae-cta-primary shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap">
               Get Your Free Blind Spot Report
@@ -316,10 +316,10 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">The Real Question AI Is Actually Asking</h2>
             <p className="text-gray-400">
               When someone types "best Shopify store for handmade jewelry" or "Squarespace website for a nutritionist near me" into an AI assistant, the AI is not browsing your site the way a human does. It is reading structured signals. It is looking for patterns it can trust. It is asking, in machine terms: does this content tell me clearly and reliably what this business offers, who it serves, and why it is credible?
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-400">
               The platform you chose sets the ceiling for how well you can answer those machine questions. Squarespace and Shopify both have ceilings. They are just different ceilings, and they matter differently depending on your business type.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
 
           {/* Callout: The Invisible Problem */}
@@ -339,13 +339,13 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">How AI Crawlers See Squarespace vs Shopify</h2>
             <p className="text-gray-400">
               AI crawlers like GPTBot, ClaudeBot, and PerplexityBot do not render JavaScript. They request a URL, receive the HTML response, and parse what is there. If your content lives inside JavaScript components that need to execute before the text appears, the crawler may see an empty shell.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             <p className="text-gray-400">
               Squarespace renders its content server-side by default. When GPTBot requests a Squarespace page, it receives clean HTML with readable headings, paragraph text, and image alt attributes. This is a meaningful advantage over JavaScript-heavy platforms.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <p className="text-gray-400">
               Shopify also serves product pages as server-rendered HTML. The product title, description, price, and availability are all present in the raw HTML response. Where Shopify can get complicated is in its theme ecosystem. Some themes aggressively load content via JavaScript, and some third-party apps inject content dynamically in ways that crawlers may miss.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* Crawlability Bar Chart */}
@@ -389,7 +389,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mt-4">Estimates based on HTML-first rendering analysis. Custom themes and heavy app layers reduce readability on both platforms.</p>
+            <p className="text-xs text-gray-500 mt-4">Estimates based on HTML-first rendering analysis. Custom themes and heavy app layers reduce readability on both platforms. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* Section 3 */}
@@ -401,16 +401,16 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">The Schema Battle: Who Wins?</h2>
             <p className="text-gray-400">
               Schema markup is the language AI platforms use to understand what your content is about. It is the difference between an AI reading your page and <em>understanding</em> your page. Both Squarespace and Shopify generate some schema automatically, but they do it differently and for different purposes.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <p className="text-gray-400">
               Shopify automatically injects Product schema into every product page. This includes the product name, description, image, price, currency, and availability. For AI systems answering shopping queries, this is gold. When someone asks "where can I buy organic dog treats online," Shopify stores that have complete product schema are far more likely to surface in the response.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <p className="text-gray-400">
               Squarespace generates basic Article and BlogPosting schema for blog posts and some Page schema for standard pages. Its Commerce products get limited structured data by default. The schema gap for Squarespace stores is real and meaningful for AI product discovery.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <p className="text-gray-400">
               However, neither platform generates the types of schema that matter most for service-based AI visibility: FAQ, Speakable, HowTo, Service, or nested LocalBusiness schemas. For a dentist, contractor, or marketing agency, the out-of-the-box schema from both platforms is incomplete. You need to build on top of what both offer.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           {/* Schema Comparison Table */}
@@ -527,7 +527,7 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">Built-In AI Tools Compared</h2>
             <p className="text-gray-400">
               Both platforms have invested heavily in AI tooling, but they are solving different problems. Shopify Magic and Sidekick are aimed at merchants who need to move fast. Squarespace AI and Beacon are aimed at designers and content creators who want cleaner output. Neither set of tools is primarily about AI search visibility.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* AI Tools Comparison Table */}
@@ -588,8 +588,8 @@ export default function Page() {
           {/* CTA Inline 2 */}
           <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-sm font-semibold text-white mb-1">See how your site looks to AI right now</p>
-              <p className="text-xs text-gray-400">Our Blind Spot Report reveals exactly which AI signals you are missing, on any platform.</p>
+              <p className="text-sm font-semibold text-white mb-1">See how your site looks to AI right now <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+              <p className="text-xs text-gray-400">Our Blind Spot Report reveals exactly which AI signals you are missing, on any platform. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
             <Link href="/blindspot" className="ae-cta-primary shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap">
               Get Your Free Report
@@ -605,13 +605,13 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">Content Architecture for AI Visibility</h2>
             <p className="text-gray-400">
               Here is where the comparison gets interesting. Squarespace was built by people who understand editorial design. Its blogging engine is intuitive, its page templates encourage clean content hierarchy, and its default typography choices produce readable text that AI crawlers can parse efficiently. For a content-driven business, a law firm, a nutritionist, a coach, this is meaningful.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <p className="text-gray-400">
               Shopify was built by people who understand commerce. Its product catalog structure, collection pages, and inventory management create a naturally organized content hierarchy for product-centric queries. When an AI is asked about products, Shopify's architecture is doing a lot of quiet work in the background.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-400">
               The problem for both platforms is the same: AI visibility requires content depth. A Squarespace site with five pages and thin copy is invisible to AI no matter how clean its HTML is. A Shopify store with 200 products and zero content strategy is invisible to AI for everything except the most direct product searches. The platform does not fix a content problem.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* Callout: What AI Actually Reads */}
@@ -626,7 +626,7 @@ export default function Page() {
           <blockquote className="ae-quote not-prose my-10 border-l-4 border-[#F27D24] pl-6 py-2">
             <p className="text-xl text-white font-plus-jakarta font-semibold leading-snug mb-2">
               "The platform you use sets the ceiling. Your content strategy determines whether you hit it."
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <footer className="text-sm text-gray-500">Justin Borges</footer>
           </blockquote>
 
@@ -711,8 +711,8 @@ export default function Page() {
           {/* CTA Inline 3 */}
           <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-sm font-semibold text-white mb-1">Running a Shopify or Squarespace store?</p>
-              <p className="text-xs text-gray-400">We audit your AI visibility gaps and build the schema, content, and signals AI platforms need to recommend you.</p>
+              <p className="text-sm font-semibold text-white mb-1">Running a Shopify or Squarespace store? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+              <p className="text-xs text-gray-400">We audit your AI visibility gaps and build the schema, content, and signals AI platforms need to recommend you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
             <a href="tel:+12134442229" className="shrink-0 bg-white/[0.06] border border-white/[0.10] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-white/[0.10] transition-colors whitespace-nowrap">
               Call (213) 444-2229
@@ -724,7 +724,7 @@ export default function Page() {
             <div className="ae-takeaway-title font-plus-jakarta text-sm font-bold text-[#F27D24] uppercase tracking-wider mb-2">Key Takeaway</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Shopify wins the product schema battle. Squarespace wins the content architecture battle. For service-based businesses, both platforms need significant AI optimization work on top of their defaults. The right platform for AI visibility is the one your team can actually execute a content strategy on.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* Dollar/Tier Comparison */}
@@ -733,19 +733,19 @@ export default function Page() {
               <div className="ae-tier-badge inline-block bg-[#F27D24]/10 text-[#F27D24] text-xs font-bold px-2 py-0.5 rounded mb-3 uppercase tracking-wider">Squarespace</div>
               <div className="ae-dollar-label text-xs text-gray-500 mb-1">Basic Commerce</div>
               <div className="ae-dollar-price font-plus-jakarta text-2xl font-bold text-white mb-1">$28<span className="text-sm font-normal text-gray-400">/mo</span></div>
-              <p className="text-xs text-gray-500 mb-3">Includes AI tools, Beacon SEO, blogging</p>
+              <p className="text-xs text-gray-500 mb-3">Includes AI tools, Beacon SEO, blogging Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <div className="ae-dollar-label text-xs text-gray-500 mb-1">Advanced Commerce</div>
               <div className="ae-dollar-price font-plus-jakarta text-2xl font-bold text-white">$52<span className="text-sm font-normal text-gray-400">/mo</span></div>
-              <p className="text-xs text-gray-500">Adds abandoned cart, advanced shipping</p>
+              <p className="text-xs text-gray-500">Adds abandoned cart, advanced shipping <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
             <div className="ae-dollar-item bg-white/[0.03] border border-white/[0.08] rounded-xl p-5">
               <div className="ae-tier-badge ae-tier-premium inline-block bg-green-500/10 text-green-400 text-xs font-bold px-2 py-0.5 rounded mb-3 uppercase tracking-wider">Shopify</div>
               <div className="ae-dollar-label text-xs text-gray-500 mb-1">Basic Shopify</div>
               <div className="ae-dollar-price font-plus-jakarta text-2xl font-bold text-white mb-1">$29<span className="text-sm font-normal text-gray-400">/mo</span></div>
-              <p className="text-xs text-gray-500 mb-3">Includes product schema, Magic AI, Sidekick</p>
+              <p className="text-xs text-gray-500 mb-3">Includes product schema, Magic AI, Sidekick <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <div className="ae-dollar-label text-xs text-gray-500 mb-1">Shopify Plan</div>
               <div className="ae-dollar-price font-plus-jakarta text-2xl font-bold text-white">$79<span className="text-sm font-normal text-gray-400">/mo</span></div>
-              <p className="text-xs text-gray-500">Full reporting, lower transaction fees</p>
+              <p className="text-xs text-gray-500">Full reporting, lower transaction fees <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
           </div>
 
@@ -753,7 +753,7 @@ export default function Page() {
           <div className="prose prose-invert prose-lg max-w-none mt-8">
             <p className="text-gray-400">
               Understanding which platform gives you a head start matters, but it is only one piece of the puzzle. The deeper question is whether your site speaks the language AI platforms actually read. If you want to understand this at a technical level, our guide on <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup actually helps AI search</Link> walks through the specific markup types that move the needle, and our breakdown of <Link href="/blog/wix-vs-wordpress-for-ai-search" className="text-[#F27D24] hover:underline">Wix vs WordPress for AI search</Link> covers the other major platform comparison in the same depth.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           {/* Decision Matrix */}
@@ -871,7 +871,7 @@ export default function Page() {
               </div>
             </div>
             <div className="mt-6 pt-6 border-t border-[#F27D24]/10 text-center">
-              <p className="text-sm text-gray-400 mb-3">These steps get you to baseline. Advanced AI visibility requires a deeper strategy.</p>
+              <p className="text-sm text-gray-400 mb-3">These steps get you to baseline. Advanced AI visibility requires a deeper strategy. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot" className="inline-flex items-center gap-2 text-[#F27D24] text-sm font-semibold hover:underline">
                 See your specific AI visibility gaps
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

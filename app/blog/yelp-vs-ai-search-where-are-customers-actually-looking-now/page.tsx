@@ -310,7 +310,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           {/* Intro */}
           <p className="text-lg mb-8 text-gray-200">
             For over a decade, Yelp was the default answer when someone asked "where should I eat?" or "who fixes AC units near me?" That era is ending. AI search has surged past Yelp to become the third most used discovery channel for local businesses, behind only Google and Facebook. The shift happened faster than anyone predicted: consumer adoption of AI search for local services jumped from 6% to 45% in just twelve months. Meanwhile, Yelp is seeing shrinking user engagement, declining ad clicks, and a stock price under pressure. This is not speculation about the future. This is the data on what is already happening, and what it means for your business.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           {/* Section 1 */}
           <div className="not-prose">
@@ -322,14 +322,14 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           </p>
           <p>
             Today, nearly half of all consumers have tried using AI tools like ChatGPT, Perplexity, or Google Gemini to find local services. Instead of scrolling through dozens of listings and reading individual reviews, they ask a question in plain language and get a direct recommendation. "Who is the best emergency plumber in Austin that is available on weekends?" produces a curated answer in seconds, not a list of ten blue links.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p>
             The implications are enormous. When an AI recommends your business by name, it carries the weight of a trusted advisor. When it does not mention you at all, you effectively do not exist for that customer. There is no second page to scroll to, no sponsored listing to catch their eye. You are either in the answer or you are not.
           </p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">The Invisible Business Problem</p>
+              <p className="ae-callout-title">The Invisible Business Problem <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <p>On Yelp, even a business ranked 15th in a category still appears in search results. In AI search, if you are not in the top 3 to 5 recommendations, you simply do not exist in the response. There is no scroll, no pagination, no way for the customer to discover you. The stakes are higher than traditional search has ever been.</p>
             </div>
           </div>
@@ -337,7 +337,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           {/* CTA 1 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Is your business showing up when customers ask AI for recommendations?</p>
+              <p>Is your business showing up when customers ask AI for recommendations? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get your free AI visibility report</Link>
             </div>
           </div>
@@ -387,7 +387,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           <p>
             The numbers tell a consistent story. Mobile monthly active users have dropped roughly 70% since their peak in 2018. Ad clicks fell 7% in 2025 even as cost per click rose 10%, meaning Yelp is charging more for less engagement. Total paying advertising locations shrank to 496,000, a 3% annual decline and a 5% drop in Q4 2025 alone (per Yelp&apos;s Q4 2025 earnings, announced January 2026). Yelp projects flat revenue for 2026 and a 13% decline in adjusted EBITDA, to $310 to $330 million.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p>
             These are not catastrophic numbers. Yelp is still a profitable company with a massive review database. But the trajectory is clear: fewer users, fewer advertiser dollars, and a leadership team scrambling to reinvent the platform around AI before the market moves past them entirely.
           </p>
@@ -401,7 +401,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           {/* CTA 2 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>How much of your marketing budget is going to a shrinking platform?</p>
+              <p>How much of your marketing budget is going to a shrinking platform? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us for a visibility channel audit</a>
             </div>
           </div>
@@ -451,18 +451,18 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           <p>
             Three out of four Americans now search with AI at least weekly. ChatGPT hit 800 million weekly active users by late 2025. Total search volume combining traditional engines and AI tools increased 26% globally and 16% in the US. The pie is getting bigger, and AI search is claiming the new slices.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           <p>
             For local business discovery specifically, AI search passed Yelp as a discovery channel during 2025. It now sits behind only Google and Facebook. That ranking shift happened in roughly twelve months, making it one of the fastest platform transitions in the history of local marketing.
           </p>
           <p>
             The conversion story is even more compelling. AI search traffic converts at dramatically higher rates than traditional channels. When a customer gets a direct AI recommendation and clicks through to your site, they arrive with stronger purchase intent. The customer journey compresses from multiple search sessions down to a single conversation.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-success">
               <p className="ae-callout-title">The Conversion Advantage</p>
-              <p>AI search referral traffic converts at 5x to 9x the rate of traditional Google organic search. ChatGPT referrals convert at 15.9%, Perplexity at 10.5%, compared to just 1.8% for standard Google organic (Semrush e-commerce conversion data, 2025). Fewer visitors, but far more buyers.</p>
+              <p>AI search referral traffic converts at 5x to 9x the rate of traditional Google organic search. ChatGPT referrals convert at 15.9%, Perplexity at 10.5%, compared to just 1.8% for standard Google organic (Semrush e-commerce conversion data, 2025). Fewer visitors, but far more buyers. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
           </div>
 
@@ -481,7 +481,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           <h2 id="head-to-head">Yelp vs AI Search: The Complete Comparison</h2>
           <p>
             Those growth numbers raise an obvious question for any local business owner: which platform actually wins on the factors that determine whether customers find and choose you? The answer depends on what you measure.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p>
             Here is how Yelp stacks up against AI search platforms across the factors that matter most for local business visibility and customer acquisition.
           </p>
@@ -553,7 +553,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           {/* CTA 4 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Find out which channel actually drives customers to your business.</p>
+              <p>Find out which channel actually drives customers to your business. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link href="/blindspot">Get your free cross-platform visibility report</Link>
             </div>
           </div>
@@ -568,7 +568,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           </p>
           <p>
             AI search compresses that entire journey into a single conversation. A customer asks, "I need a reliable house cleaner in Pasadena who does deep cleaning and has good reviews." The AI evaluates hundreds of data points, cross-references reviews from multiple platforms, checks your website content, and delivers a curated recommendation in seconds.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           <p>
             This is not just a different tool doing the same job. It is a fundamentally different decision-making process. The customer trusts the AI to do the filtering work that they used to do manually on Yelp. And the data supports the shift: roughly 40% of surveyed US consumers trust AI search results and traditional search equally, while about 25% actually lean toward trusting AI more.
           </p>
@@ -609,12 +609,12 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
 
           <p>
             The generational divide is particularly important for businesses planning their marketing strategy. Younger consumers, who are entering their peak spending years, disproportionately favor AI search over traditional platforms like Yelp. The customers you need tomorrow are building habits today, and those habits increasingly bypass Yelp entirely.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-info">
               <p className="ae-callout-title">The Zero-Click Factor</p>
-              <p>AI search is accelerating the zero-click trend that was already hurting local businesses. When a customer asks ChatGPT for a recommendation and gets a direct answer, they may call the business directly without ever visiting a website or Yelp listing. This means traditional click tracking and website analytics increasingly undercount actual AI-driven customer acquisition. Learn more about how <Link href="/blog/zero-click-search-killing-website-traffic" style={{ color: '#F27D24' }}>zero-click search is reshaping traffic patterns</Link>.</p>
+              <p>AI search is accelerating the zero-click trend that was already hurting local businesses. When a customer asks ChatGPT for a recommendation and gets a direct answer, they may call the business directly without ever visiting a website or Yelp listing. This means traditional click tracking and website analytics increasingly undercount actual AI-driven customer acquisition. Learn more about how <Link href="/blog/zero-click-search-killing-website-traffic" style={{ color: '#F27D24' }}>zero-click search is reshaping traffic patterns</Link>. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
           </div>
 
@@ -633,7 +633,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           <h2 id="yelp-still-matters">Where Yelp Still Matters</h2>
           <p>
             Before writing off Yelp entirely, it is important to understand where the platform still delivers value. Yelp is not irrelevant. It has shifted from being a primary customer discovery channel to serving a different, more specialized role.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="not-prose">
             <div className="ae-pros-cons">
@@ -649,7 +649,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
                 </ul>
               </div>
               <div className="ae-cons-box">
-                <p className="ae-cons-title">Where Yelp Is Losing Ground</p>
+                <p className="ae-cons-title">Where Yelp Is Losing Ground <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                 <ul>
                   <li>Mobile MAUs down 70% from peak</li>
                   <li>Ad clicks declining 7% year over year</li>
@@ -669,7 +669,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           {/* CTA 6 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Understand how reviews on every platform shape AI recommendations.</p>
+              <p>Understand how reviews on every platform shape AI recommendations. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blog/how-online-reviews-shape-ai-recommendations">Read our review impact analysis</Link>
             </div>
           </div>
@@ -684,13 +684,13 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           </p>
           <p>
             First, the user experience. On Yelp, finding the right business requires effort: typing a search, scrolling through results, opening individual listings, reading reviews, comparing options. AI search eliminates all of that friction. A single natural language question produces a filtered, contextualized recommendation. The customer does not need to develop expertise in reading between the lines of reviews or understanding how Yelp sorts results.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           <p>
             Second, the data scope. Yelp only knows what is on Yelp. AI search platforms aggregate data from across the entire web: your website, Google reviews, Yelp reviews, industry directories, local news mentions, social media, and more. The recommendation is based on a holistic view of your business, not just one platform&apos;s data set.
           </p>
           <p>
             Third, the intent signal. When someone searches on Yelp, they could be browsing, planning, or ready to buy. When someone asks ChatGPT "who is the best roofer near me that can start this week," the intent is crystal clear. AI search naturally filters for high-intent queries, which is why conversion rates are so much higher.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="not-prose">
             <div className="ae-quote">
@@ -715,18 +715,18 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           <h2 id="reviews-feed-ai">Your Yelp Reviews Feed AI Search (Even If Customers Never Visit Yelp)</h2>
           <p>
             Here is the twist most business owners miss. Even as customers stop visiting Yelp directly, your Yelp reviews are becoming more valuable than ever. The reason: AI search platforms actively consume Yelp data when making recommendations.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p>
             Research shows that businesses with profiles on review platforms like Yelp have 3x higher chances of being cited by ChatGPT compared to businesses without such presence. Yelp signed a data licensing deal with OpenAI, meaning ChatGPT directly accesses Yelp review data when answering local business questions.
           </p>
           <p>
             This creates an interesting dynamic. Your Yelp investment may still pay off, just not in the way you expected. Instead of driving customers to you through the Yelp app, your Yelp reviews are influencing whether ChatGPT, Perplexity, and other AI tools recommend you. The reviews are valuable. The platform is just the middleman that customers are increasingly skipping.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-orange">
               <p className="ae-callout-title">The New Role of Yelp Reviews</p>
-              <p>Think of Yelp reviews as training data for AI recommendation engines. Customers may never read your reviews on Yelp directly, but those reviews shape whether AI platforms trust your business enough to recommend it. Maintaining an active, well-reviewed Yelp profile is not about Yelp traffic anymore. It is about feeding the AI systems that increasingly decide which businesses get recommended.</p>
+              <p>Think of Yelp reviews as training data for AI recommendation engines. Customers may never read your reviews on Yelp directly, but those reviews shape whether AI platforms trust your business enough to recommend it. Maintaining an active, well-reviewed Yelp profile is not about Yelp traffic anymore. It is about feeding the AI systems that increasingly decide which businesses get recommended. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
           </div>
 
@@ -745,18 +745,18 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           <h2 id="visibility-gaps">The Visibility Gap Most Businesses Miss</h2>
           <p>
             Most local businesses fall into one of two traps. Either they are still investing heavily in Yelp while ignoring AI search entirely, or they have heard about AI search but have no idea where to start. Both positions leave significant revenue on the table.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           <p>
             The first trap is the Yelp comfort zone. You have been paying for Yelp ads for years. You have a good rating. Leads come in. It feels safe. But the volume is declining, the cost per lead is rising, and the customers who would find you on Yelp are increasingly finding your competitors through AI search instead. Every month you delay, the gap widens.
           </p>
           <p>
             The second trap is AI paralysis. You know AI search matters, but it feels overwhelming. There are multiple platforms, each with different rules. You do not know what signals they use, what data they pull from, or how to influence the results. So you do nothing and hope it works out. It will not.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="not-prose">
             <div className="ae-callout ae-callout-warning">
               <p className="ae-callout-title">The Compound Effect of Waiting</p>
-              <p>AI search platforms build preference patterns over time. The businesses that are cited early build authority signals that make them more likely to be cited again. Waiting another six months does not just cost you six months of AI-driven leads. It gives your competitors six months to build compounding authority that gets harder and harder to overcome.</p>
+              <p>AI search platforms build preference patterns over time. The businesses that are cited early build authority signals that make them more likely to be cited again. Waiting another six months does not just cost you six months of AI-driven leads. It gives your competitors six months to build compounding authority that gets harder and harder to overcome. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
           </div>
 
@@ -775,13 +775,13 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           <h2 id="what-smart-businesses-do">What Smart Businesses Are Doing Now</h2>
           <p>
             The businesses winning this transition are not abandoning Yelp. They are reframing it. Instead of treating Yelp as a primary customer acquisition channel with a dedicated ad budget, they treat it as one node in a broader visibility ecosystem that feeds AI recommendation engines.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <p>
             The strategic shift looks like this: maintain your Yelp profile and reviews (they feed AI), but redirect your growth investment toward the channels and signals that AI platforms actually weight when making recommendations. That means your website content, your structured data, your multi-platform review presence, and your consistency across every directory and listing that AI models crawl.
           </p>
           <p>
             The businesses that are pulling ahead share certain patterns. They understand which AI platforms their specific customers use. They know what signals drive recommendations on each platform. They have built a content foundation that positions them as authoritative in their service area. And they monitor their AI visibility the same way they used to monitor their Yelp ranking.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <div className="not-prose">
             <div className="ae-bar-group">
@@ -900,7 +900,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           {/* CTA 11 */}
           <div className="not-prose">
             <div className="ae-cta-inline">
-              <p>Want this action plan customized for your business and market?</p>
+              <p>Want this action plan customized for your business and market? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us for a personalized AI visibility strategy</a>
             </div>
           </div>
@@ -921,7 +921,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
                   AE
                 </div>
                 <div>
-                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges</p>
+                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                   <p style={{ color: '#9CA3AF', fontSize: '0.75rem', margin: 0 }}>
                     Published March 28, 2026 on{' '}
                     <Link href="/" style={{ color: '#F27D24' }}>
@@ -932,7 +932,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
               </div>
               <p style={{ color: '#D1D5DB', fontSize: '0.875rem', marginTop: '0.75rem', marginBottom: 0, lineHeight: 1.6 }}>
                 We help local service businesses get found by AI search platforms. Our team tracks how customer discovery behavior is shifting from traditional platforms like Yelp to AI-powered search, so your business stays visible where your customers are actually looking.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
           </div>
 

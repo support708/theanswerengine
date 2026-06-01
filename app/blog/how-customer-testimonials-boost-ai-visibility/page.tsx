@@ -270,20 +270,20 @@ export default function Page() {
             they sat at the bottom of the funnel, the last check before a hesitant prospect
             made a decision. You got them to your website or listing, they read reviews, they
             converted or bounced.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             AI search has moved reviews to the top of the funnel. When ChatGPT or Perplexity
             evaluates which businesses to recommend, review signals are part of the initial
             filtering. A business without sufficient positive review presence may never be
             recommended in the first place, regardless of how good its website is or how
             long it has been in business.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This is a structural shift in how reputation affects business growth. Before AI
             search, a business could survive with a modest review profile if it ranked well
             in Google. AI search compressed that buffer: now your reviews contribute directly
             to whether you are discoverable, not just whether you convert.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <div className="ae-callout ae-callout-info mb-6">
             <div className="ae-callout-title">The Discovery vs Conversion Shift</div>
@@ -293,7 +293,7 @@ export default function Page() {
               cannot verify through review signals will be invisible to the fastest-growing
               business discovery channel. A business with strong, distributed, specific reviews
               gets recommended before the prospect ever visits the website.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
 
           <div className="ae-cta-inline mb-6">
@@ -302,7 +302,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Get your free AI Blind Spot Report and find out.
               </Link>
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
         </section>
 
@@ -317,7 +317,7 @@ export default function Page() {
             would: identifying what services are mentioned, what problems were solved, what
             the customer experience was like, and whether the reviewer sounds like a genuine
             customer or a generic one.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This means the content quality of your reviews matters as much as their volume and
             rating. A review that says "Great plumber, came same day, fixed our burst pipe,
@@ -325,18 +325,18 @@ export default function Page() {
             extraordinarily valuable for AI visibility. It mentions a specific service, a specific
             outcome, a service characteristic (same day), and a sentiment signal (will use again).
             All of that is indexable content.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             A review that says "5 stars, great service!!" contributes almost nothing to AI
             discoverability. It has a rating, but no meaningful content for AI to evaluate.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-quote mb-8">
             <p>
               Reviews in 2026 are not just social proof. They are machine-readable evidence of
               your business&apos;s service history. Every specific detail in a review is a data
               point that AI can use to decide whether you are the right answer to a customer&apos;s question.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <cite>Justin Borges</cite>
           </div>
 
@@ -347,7 +347,7 @@ export default function Page() {
               "great company"), the location or city, a specific outcome or result, and a
               genuine personal detail that signals the review is authentic. Encourage customers
               to describe what they had done, not just how happy they were.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
         </section>
 
@@ -361,7 +361,7 @@ export default function Page() {
             by how frequently each platform is indexed by AI crawlers, how authoritative the
             platform is in the eyes of AI systems, and how much of the platform&apos;s data
             appears in the training data and web indices that major AI platforms draw from.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-bar-group mb-8">
             <div className="ae-bar-item">
@@ -413,7 +413,7 @@ export default function Page() {
             has a narrower evidence base than a business with 20 reviews across four platforms.
             AI platforms treat convergent signals from multiple independent sources as stronger
             evidence than concentrated signals from one source.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <p className="text-gray-300 leading-relaxed mb-4">
             This is the same principle that makes NAP consistency across directories powerful.
@@ -422,7 +422,7 @@ export default function Page() {
               how Google reviews affect AI recommendations
             </Link>
             .
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Section 4 */}
@@ -435,14 +435,14 @@ export default function Page() {
             This is valuable for conversion, but it contributes less to AI discoverability
             than most people assume. The reason is that AI platforms distinguish between
             self-reported claims and independent third-party evidence.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             When a testimonial appears on your website, AI recognizes that you selected it,
             possibly edited it, and chose to display it. When a review appears on Google,
             Yelp, or an industry platform, AI recognizes it as evidence submitted by an
             independent third party to a platform you do not control. The independence of
             the source is a core part of the signal&apos;s value.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -472,7 +472,7 @@ export default function Page() {
             markup to testimonials on your website, AI crawlers can parse them as structured
             review data. This contributes to your review signal profile, though with less weight
             than third-party platform reviews.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-cta-inline mb-6">
             <p>
@@ -480,7 +480,7 @@ export default function Page() {
               <Link href="/blindspot">
                 Your free Blind Spot Report includes a full review signal analysis.
               </Link>
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -495,7 +495,7 @@ export default function Page() {
             language models. They are specifically designed to extract meaning from text.
             Your reviews are a body of text that describes your business in the words of
             real customers, and AI reads that text.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Consider what a collection of 30 detailed reviews actually tells an AI platform:
             which services you provide, which customer problems you solve, how you handle
@@ -503,7 +503,7 @@ export default function Page() {
             whether customers describe you as specialists or generalists. That is a rich
             description of your business that no marketing copy can replicate, because it
             comes from independent sources who have no incentive to exaggerate.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-callout ae-callout-warning mb-6">
             <div className="ae-callout-title">The Generic Review Problem</div>
@@ -514,7 +514,7 @@ export default function Page() {
               are the ones whose reviews read like detailed case studies. That does not happen
               by accident. It happens when you give customers a clear, easy way to describe
               specifically what you did for them.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -523,7 +523,7 @@ export default function Page() {
             they received and the outcome they experienced is not gaming the system. It is
             helping customers write reviews that accurately reflect what happened, and it
             creates the kind of detailed review content that AI can learn from.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
         </section>
 
         {/* Section 6 */}
@@ -534,7 +534,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-6">
             Building a review profile that strengthens AI visibility requires intention across
             four dimensions: volume, recency, platform diversity, and content specificity.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
@@ -632,7 +632,7 @@ export default function Page() {
               how online reviews shape AI recommendations
             </Link>
             .
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-takeaway mb-8">
             <div className="ae-takeaway-title">The Bottom Line</div>
@@ -643,7 +643,7 @@ export default function Page() {
               platforms the evidence they need to confidently recommend them. That is not an
               accident of good customer service. It is the result of a deliberate review
               strategy built for the AI era.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
         </section>
 
@@ -656,7 +656,7 @@ export default function Page() {
             Your review profile might be helping AI recommend you, or it might be holding you
             back. Our free Blind Spot Report analyzes the review signals AI platforms see about
             your business and shows you exactly what needs to change to get recommended more often.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -699,7 +699,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
           </div>
@@ -734,7 +734,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
-                <p className="text-gray-400 leading-relaxed">{a}</p>
+                <p className="text-gray-400 leading-relaxed">{a} Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
             ))}
           </div>
@@ -749,7 +749,7 @@ export default function Page() {
             In the AI era, a weak review profile is not just a conversion problem. It is a
             discovery problem. Find out where your review signals stand with a free Blind
             Spot Report, and get a clear picture of what needs to change.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <Link
             href="/blindspot"
             className="ae-cta-primary inline-flex items-center gap-2"

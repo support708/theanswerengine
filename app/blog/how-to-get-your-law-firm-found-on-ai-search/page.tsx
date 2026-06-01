@@ -262,11 +262,11 @@ export default function Page() {
             <span className="ae-section-label" id="the-reality">The Reality</span>
             <h2>The AI Search Reality for Law Firms</h2>
 
-            <p>A potential client gets into a fender-bender. Instead of opening Google and scrolling through 10 blue links, they open ChatGPT and type: <em>&quot;What should I do after a car accident and who are the best personal injury attorneys near me?&quot;</em> In about four seconds, they have a recommendation. Either your firm is in it or it is not.</p>
+            <p>A potential client gets into a fender-bender. Instead of opening Google and scrolling through 10 blue links, they open ChatGPT and type: <em>&quot;What should I do after a car accident and who are the best personal injury attorneys near me?&quot;</em> In about four seconds, they have a recommendation. Either your firm is in it or it is not. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>This is not a hypothetical. <strong>78% of legal professionals now use AI</strong>, up from just 23% in 2023. ChatGPT alone is used by 66% of legal professionals. Microsoft Copilot has 42% penetration, and Google Gemini sits at 24%. These are not experimenting anymore. The adoption is mainstream, and the people searching for legal help are increasingly using the same tools their attorneys use.</p>
+            <p>This is not a hypothetical. <strong>78% of legal professionals now use AI</strong>, up from just 23% in 2023. ChatGPT alone is used by 66% of legal professionals. Microsoft Copilot has 42% penetration, and Google Gemini sits at 24%. These are not experimenting anymore. The adoption is mainstream, and the people searching for legal help are increasingly using the same tools their attorneys use. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>The problem for most law firms is structural. The way AI systems source attorney recommendations has almost nothing to do with how well your website ranks on Google. AI platforms do not perform a live search and rank results. They draw on training data, crawlable web content, and structured sources to build recommendations from the ground up. And the sources they trust most are not individual law firm websites.</p>
+            <p>The problem for most law firms is structural. The way AI systems source attorney recommendations has almost nothing to do with how well your website ranks on Google. AI platforms do not perform a live search and rank results. They draw on training data, crawlable web content, and structured sources to build recommendations from the ground up. And the sources they trust most are not individual law firm websites. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-callout-warning not-prose">
               <div className="ae-callout-icon">
@@ -276,13 +276,13 @@ export default function Page() {
               </div>
               <div>
                 <div className="ae-callout-title">Your SEO Rankings Do Not Transfer to AI</div>
-                <p className="text-gray-300 text-sm">A law firm that ranks on page one of Google is not automatically recommended by ChatGPT or Gemini. AI systems evaluate trust signals, directory presence, and credential depth, not keyword rankings. The two channels require different optimization strategies.</p>
+                <p className="text-gray-300 text-sm">A law firm that ranks on page one of Google is not automatically recommended by ChatGPT or Gemini. AI systems evaluate trust signals, directory presence, and credential depth, not keyword rankings. The two channels require different optimization strategies. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
             {/* INLINE CTA */}
             <div className="not-prose my-10 p-6 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5">
-              <p className="text-gray-300 text-sm mb-3">Wondering if your firm is already showing up in AI recommendations?</p>
+              <p className="text-gray-300 text-sm mb-3">Wondering if your firm is already showing up in AI recommendations? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -293,11 +293,11 @@ export default function Page() {
             <span className="ae-section-label" id="why-directories-win">The Data Gap</span>
             <h2>Why Directories Dominate AI Recommendations</h2>
 
-            <p>When researchers analyzed the sources that feed AI training data for legal recommendations, the findings were stark. <strong>Solo and small firm websites are between 1,000 and 70,000 times less visible</strong> than major legal directories in the data that AI systems learn from. That is not a small gap. That is a different universe.</p>
+            <p>When researchers analyzed the sources that feed AI training data for legal recommendations, the findings were stark. <strong>Solo and small firm websites are between 1,000 and 70,000 times less visible</strong> than major legal directories in the data that AI systems learn from. That is not a small gap. That is a different universe. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-            <p>The directories that dominate AI training data are not obscure platforms. Avvo hosts over <strong>1.3 million attorney profiles</strong>. FindLaw has over <strong>1 million</strong>. Martindale-Hubbell, Super Lawyers, and Justia collectively add millions more. These platforms have been building structured, verifiable attorney data for years or decades, and AI training pipelines trust that scale and consistency.</p>
+            <p>The directories that dominate AI training data are not obscure platforms. Avvo hosts over <strong>1.3 million attorney profiles</strong>. FindLaw has over <strong>1 million</strong>. Martindale-Hubbell, Super Lawyers, and Justia collectively add millions more. These platforms have been building structured, verifiable attorney data for years or decades, and AI training pipelines trust that scale and consistency. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
-            <p>Your firm website, even a well-designed one, contains a handful of pages about a handful of attorneys. The data footprint simply cannot compete on its own. This is why law firms that win AI search do not fight the directories. They work through them.</p>
+            <p>Your firm website, even a well-designed one, contains a handful of pages about a handful of attorneys. The data footprint simply cannot compete on its own. This is why law firms that win AI search do not fight the directories. They work through them. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-callout-info not-prose">
               <div className="ae-callout-icon">
@@ -307,19 +307,19 @@ export default function Page() {
               </div>
               <div>
                 <div className="ae-callout-title">Why This Is Actually Good News</div>
-                <p className="text-gray-300 text-sm">The directory gap cuts both ways. If your competitors have not optimized their directory profiles, a well-built presence on Avvo, Martindale, and FindLaw can give your firm a significant lead. Most law firm marketing budgets still go almost entirely toward website SEO, leaving directory optimization wide open.</p>
+                <p className="text-gray-300 text-sm">The directory gap cuts both ways. If your competitors have not optimized their directory profiles, a well-built presence on Avvo, Martindale, and FindLaw can give your firm a significant lead. Most law firm marketing budgets still go almost entirely toward website SEO, leaving directory optimization wide open. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
-            <p>The firms showing up repeatedly in AI recommendations for competitive terms like &quot;best DUI attorney in [city]&quot; or &quot;top family law firm near me&quot; share one common trait: they have treated directory presence as a primary channel, not an afterthought.</p>
+            <p>The firms showing up repeatedly in AI recommendations for competitive terms like &quot;best DUI attorney in [city]&quot; or &quot;top family law firm near me&quot; share one common trait: they have treated directory presence as a primary channel, not an afterthought. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>This also connects to a broader point about how AI systems build recommendations. They are not just looking for any mention of your firm. They are cross-referencing multiple sources to verify that what they know about you is accurate and trustworthy. The more sources that agree on the same verifiable facts about your firm, the more confident the AI becomes in recommending you. That cross-referencing behavior is exactly why consistent directory presence matters so much. For more on how this works at the technical level, see our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">what your website looks like to an AI crawler</Link>.</p>
+            <p>This also connects to a broader point about how AI systems build recommendations. They are not just looking for any mention of your firm. They are cross-referencing multiple sources to verify that what they know about you is accurate and trustworthy. The more sources that agree on the same verifiable facts about your firm, the more confident the AI becomes in recommending you. That cross-referencing behavior is exactly why consistent directory presence matters so much. For more on how this works at the technical level, see our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">what your website looks like to an AI crawler</Link>. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* SECTION 3 */}
             <span className="ae-section-label" id="four-rs">The Framework</span>
             <h2>The 4 R&apos;s Framework for Law Firm AI Visibility</h2>
 
-            <p>After analyzing which law firms consistently appear in AI recommendations across ChatGPT, Gemini, Perplexity, and Claude, a clear pattern emerges. The firms that win share four categories of signals. We call this the <strong>4 R&apos;s framework</strong>: Ratings, Reviews, Recognitions, and Roots.</p>
+            <p>After analyzing which law firms consistently appear in AI recommendations across ChatGPT, Gemini, Perplexity, and Claude, a clear pattern emerges. The firms that win share four categories of signals. We call this the <strong>4 R&apos;s framework</strong>: Ratings, Reviews, Recognitions, and Roots. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* 4 R's VISUAL GRID */}
             <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
@@ -328,38 +328,38 @@ export default function Page() {
                   <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-sm">R1</div>
                   <span className="font-plus-jakarta font-bold text-white text-lg">Ratings</span>
                 </div>
-                <p className="text-gray-300 text-sm leading-relaxed">Your star ratings on Google, Avvo, and Martindale-Hubbell. AI platforms pull these scores as fast, quantifiable trust signals. A low or missing rating is a recommendation blocker.</p>
+                <p className="text-gray-300 text-sm leading-relaxed">Your star ratings on Google, Avvo, and Martindale-Hubbell. AI platforms pull these scores as fast, quantifiable trust signals. A low or missing rating is a recommendation blocker. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
               <div className="p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-sm">R2</div>
                   <span className="font-plus-jakarta font-bold text-white text-lg">Reviews</span>
                 </div>
-                <p className="text-gray-300 text-sm leading-relaxed">Client and peer sentiment in written form. AI systems parse review text for specific outcomes, practice area terms, and sentiment patterns. Volume plus recency plus specificity all matter.</p>
+                <p className="text-gray-300 text-sm leading-relaxed">Client and peer sentiment in written form. AI systems parse review text for specific outcomes, practice area terms, and sentiment patterns. Volume plus recency plus specificity all matter. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               </div>
               <div className="p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-sm">R3</div>
                   <span className="font-plus-jakarta font-bold text-white text-lg">Recognitions</span>
                 </div>
-                <p className="text-gray-300 text-sm leading-relaxed">Third-party validations: Super Lawyers listings, Best Lawyers designations, bar certifications, published articles, speaking engagements. These are the external authority signals AI weighs most heavily.</p>
+                <p className="text-gray-300 text-sm leading-relaxed">Third-party validations: Super Lawyers listings, Best Lawyers designations, bar certifications, published articles, speaking engagements. These are the external authority signals AI weighs most heavily. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-sm">R4</div>
                   <span className="font-plus-jakarta font-bold text-white text-lg">Roots</span>
                 </div>
-                <p className="text-gray-300 text-sm leading-relaxed">How complete and consistent your directory profiles are across Avvo, Martindale, FindLaw, Justia, and Super Lawyers. Incomplete profiles send weak signals. Inconsistent data causes AI to distrust recommendations.</p>
+                <p className="text-gray-300 text-sm leading-relaxed">How complete and consistent your directory profiles are across Avvo, Martindale, FindLaw, Justia, and Super Lawyers. Incomplete profiles send weak signals. Inconsistent data causes AI to distrust recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
             </div>
 
-            <p>These four categories are not independent. They work as a reinforcing system. A firm with strong Ratings but weak Roots will be outranked by a firm that is moderately strong across all four. AI platforms are looking for convergent evidence, multiple signals pointing to the same conclusion about your credibility.</p>
+            <p>These four categories are not independent. They work as a reinforcing system. A firm with strong Ratings but weak Roots will be outranked by a firm that is moderately strong across all four. AI platforms are looking for convergent evidence, multiple signals pointing to the same conclusion about your credibility. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-            <p>The 4 R&apos;s framework matters because it gives law firms a diagnostic tool. If your firm is not appearing in AI recommendations, you can usually trace it back to a specific weakness in one of these four areas rather than needing a complete rebuild of your marketing strategy.</p>
+            <p>The 4 R&apos;s framework matters because it gives law firms a diagnostic tool. If your firm is not appearing in AI recommendations, you can usually trace it back to a specific weakness in one of these four areas rather than needing a complete rebuild of your marketing strategy. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* INLINE CTA */}
             <div className="not-prose my-10 p-6 rounded-xl border border-white/10 bg-white/5">
-              <p className="text-sm text-gray-400 mb-3">Want to know exactly which of the 4 R&apos;s your firm is missing? We map that out in every Blind Spot Report.</p>
+              <p className="text-sm text-gray-400 mb-3">Want to know exactly which of the 4 R&apos;s your firm is missing? We map that out in every Blind Spot Report. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot" className="text-[#F27D24] font-semibold text-sm hover:underline inline-flex items-center gap-1">
                 Get your free analysis
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -370,9 +370,9 @@ export default function Page() {
             <span className="ae-section-label" id="trust-signals">Trust Signals</span>
             <h2>How AI Ranks Trust Signals for Legal Professionals</h2>
 
-            <p>Not all trust signals carry equal weight. AI platforms apply additional scrutiny to legal content because it falls under what Google classifies as Your Money or Your Life (YMYL) content. Bad legal advice can cause real harm. This means the quality threshold for legal recommendations is higher than for most other industries.</p>
+            <p>Not all trust signals carry equal weight. AI platforms apply additional scrutiny to legal content because it falls under what Google classifies as Your Money or Your Life (YMYL) content. Bad legal advice can cause real harm. This means the quality threshold for legal recommendations is higher than for most other industries. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Here is how the major trust signals rank by influence in AI recommendation decisions for attorneys:</p>
+            <p>Here is how the major trust signals rank by influence in AI recommendation decisions for attorneys: We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* BAR CHART: Trust Signals */}
             <div className="not-prose my-8 space-y-3">
@@ -458,18 +458,18 @@ export default function Page() {
                 </div>
               </div>
 
-              <p className="text-xs text-gray-500 mt-2">Relative influence scores based on AI recommendation pattern analysis. Not official platform data.</p>
+              <p className="text-xs text-gray-500 mt-2">Relative influence scores based on AI recommendation pattern analysis. Not official platform data. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
-            <p>The standout finding here is that <strong>verified credentials rank highest</strong>. This makes sense given the YMYL classification of legal content. AI platforms need to know that the attorney being recommended is actually licensed to practice law. An Avvo profile that clearly lists a bar admission number, law school, and years of experience carries far more weight than a website bio that says &quot;experienced attorney.&quot;</p>
+            <p>The standout finding here is that <strong>verified credentials rank highest</strong>. This makes sense given the YMYL classification of legal content. AI platforms need to know that the attorney being recommended is actually licensed to practice law. An Avvo profile that clearly lists a bar admission number, law school, and years of experience carries far more weight than a website bio that says &quot;experienced attorney.&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-            <p>The relationship between reviews and schema is also worth noting. Schema markup without reviews is a technical signal with no social proof. Reviews without schema require AI systems to infer structure from unformatted text. The combination of both is meaningfully stronger than either alone. For a deeper look at how schema affects AI recommendations, see our guide on <Link href="/blog/does-schema-markup-help-ai-search">whether schema markup helps AI search</Link>.</p>
+            <p>The relationship between reviews and schema is also worth noting. Schema markup without reviews is a technical signal with no social proof. Reviews without schema require AI systems to infer structure from unformatted text. The combination of both is meaningfully stronger than either alone. For a deeper look at how schema affects AI recommendations, see our guide on <Link href="/blog/does-schema-markup-help-ai-search">whether schema markup helps AI search</Link>. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* SECTION 5 */}
             <span className="ae-section-label" id="comparison">Side by Side</span>
             <h2>What AI Sees: Your Website vs Legal Directories</h2>
 
-            <p>One of the most useful exercises for any law firm is to look at your online presence from an AI system&apos;s perspective. Here is a direct comparison of what a typical law firm website provides versus what a well-built legal directory profile provides:</p>
+            <p>One of the most useful exercises for any law firm is to look at your online presence from an AI system&apos;s perspective. Here is a direct comparison of what a typical law firm website provides versus what a well-built legal directory profile provides: Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* COMPARISON TABLE */}
             <div className="not-prose my-8 overflow-x-auto rounded-xl border border-white/10">
@@ -558,13 +558,13 @@ export default function Page() {
               </table>
             </div>
 
-            <p>This does not mean your website is irrelevant. It means your website needs to work <em>with</em> your directory presence, not instead of it. The website is where you demonstrate topical authority and house your case results. Directories are where AI systems go to verify that you are a real, credentialed, trusted legal professional. Both layers need to be strong.</p>
+            <p>This does not mean your website is irrelevant. It means your website needs to work <em>with</em> your directory presence, not instead of it. The website is where you demonstrate topical authority and house your case results. Directories are where AI systems go to verify that you are a real, credentialed, trusted legal professional. Both layers need to be strong. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* SECTION 6 */}
             <span className="ae-section-label" id="common-mistakes">Common Mistakes</span>
             <h2>5 Mistakes That Make Your Firm Invisible to AI</h2>
 
-            <p>Most law firms making updates to their AI visibility are not starting from zero. They are correcting specific mistakes that are actively suppressing their recommendations. Here are the five most common:</p>
+            <p>Most law firms making updates to their AI visibility are not starting from zero. They are correcting specific mistakes that are actively suppressing their recommendations. Here are the five most common: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* PROS/CONS STYLE LIST */}
             <div className="not-prose my-8 grid grid-cols-1 gap-4">
@@ -578,7 +578,7 @@ export default function Page() {
                   </div>
                   <div>
                     <div className="font-plus-jakarta font-semibold text-white mb-1">No Avvo Profile or Incomplete Avvo Profile</div>
-                    <p className="text-gray-400 text-sm">Avvo is one of the most heavily weighted sources in AI training data for attorneys. A missing or skeleton profile is a direct absence from the dataset AI platforms consult. This is the single most common issue we see in law firm AI visibility audits.</p>
+                    <p className="text-gray-400 text-sm">Avvo is one of the most heavily weighted sources in AI training data for attorneys. A missing or skeleton profile is a direct absence from the dataset AI platforms consult. This is the single most common issue we see in law firm AI visibility audits. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                   </div>
                 </div>
               </div>
@@ -592,7 +592,7 @@ export default function Page() {
                   </div>
                   <div>
                     <div className="font-plus-jakarta font-semibold text-white mb-1">Generic Marketing Language Instead of Specific Claims</div>
-                    <p className="text-gray-400 text-sm">Phrases like &quot;experienced team of dedicated attorneys&quot; carry zero weight with AI systems. AI platforms look for specific, verifiable claims: years of practice, bar admission year, number of cases handled in a practice area, specific outcomes. Vague marketing language is filtered out as low-signal content.</p>
+                    <p className="text-gray-400 text-sm">Phrases like &quot;experienced team of dedicated attorneys&quot; carry zero weight with AI systems. AI platforms look for specific, verifiable claims: years of practice, bar admission year, number of cases handled in a practice area, specific outcomes. Vague marketing language is filtered out as low-signal content. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                   </div>
                 </div>
               </div>
@@ -606,7 +606,7 @@ export default function Page() {
                   </div>
                   <div>
                     <div className="font-plus-jakarta font-semibold text-white mb-1">Missing LegalService Schema Markup</div>
-                    <p className="text-gray-400 text-sm">Without schema markup, AI crawlers must infer your firm&apos;s practice areas, service locations, and attorney credentials from unstructured text. That introduces uncertainty into the recommendation. Schema is how you tell AI systems exactly what you do and who you are in language they parse reliably.</p>
+                    <p className="text-gray-400 text-sm">Without schema markup, AI crawlers must infer your firm&apos;s practice areas, service locations, and attorney credentials from unstructured text. That introduces uncertainty into the recommendation. Schema is how you tell AI systems exactly what you do and who you are in language they parse reliably. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                   </div>
                 </div>
               </div>

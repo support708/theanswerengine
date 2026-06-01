@@ -276,21 +276,21 @@ export default function Page() {
             <span className="ae-section-label" id="the-invisibility-problem">The Problem</span>
             <h2>The Invisibility Problem for New Websites</h2>
 
-            <p>Traditional search engines gave new websites a fighting chance. Publish a page, submit it to Google, and within days you could start appearing in search results. The rules were clear: create content, build some links, wait for indexing.</p>
+            <p>Traditional search engines gave new websites a fighting chance. Publish a page, submit it to Google, and within days you could start appearing in search results. The rules were clear: create content, build some links, wait for indexing. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>AI search platforms operate on an entirely different model. ChatGPT, Perplexity, Claude, and Google AI Overviews do not just index your pages. They <strong>evaluate whether your business is trustworthy enough to recommend</strong>. And for a brand new website, the answer is almost always no.</p>
+            <p>AI search platforms operate on an entirely different model. ChatGPT, Perplexity, Claude, and Google AI Overviews do not just index your pages. They <strong>evaluate whether your business is trustworthy enough to recommend</strong>. And for a brand new website, the answer is almost always no. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>The problem is not that AI platforms refuse to crawl new sites. The problem is that even when they do crawl your pages, they find nothing to corroborate your claims. No third-party reviews. No industry mentions. No citations from authoritative sources. Your website is a single voice in an empty room, and AI platforms need a chorus before they will cite you.</p>
+            <p>The problem is not that AI platforms refuse to crawl new sites. The problem is that even when they do crawl your pages, they find nothing to corroborate your claims. No third-party reviews. No industry mentions. No citations from authoritative sources. Your website is a single voice in an empty room, and AI platforms need a chorus before they will cite you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Common mistake:</strong> Many new website owners assume that good content and a clean design are enough to get noticed by AI platforms. In reality, AI systems evaluate your entire digital footprint, not just your website. A site with perfect on-page content but zero external validation is essentially invisible to AI recommendations.</p>
+              <p><strong>Common mistake:</strong> Many new website owners assume that good content and a clean design are enough to get noticed by AI platforms. In reality, AI systems evaluate your entire digital footprint, not just your website. A site with perfect on-page content but zero external validation is essentially invisible to AI recommendations. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
-            <p>This is not a temporary glitch or a penalty. It is how AI search fundamentally works. Understanding <Link href="/blog/what-content-does-chatgpt-read-on-my-website">what content ChatGPT actually reads on your website</Link> is the first step toward fixing it.</p>
+            <p>This is not a temporary glitch or a penalty. It is how AI search fundamentally works. Understanding <Link href="/blog/what-content-does-chatgpt-read-on-my-website">what content ChatGPT actually reads on your website</Link> is the first step toward fixing it. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI platforms can even see your new website?</p>
+              <p>Not sure if AI platforms can even see your new website? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -298,19 +298,19 @@ export default function Page() {
             <span className="ae-section-label" id="technical-barriers">Technical Barriers</span>
             <h2>Technical Barriers AI Crawlers Cannot Forgive</h2>
 
-            <p>Before AI platforms can evaluate your authority or trustworthiness, they need to physically access your content. Most new websites fail at this basic step because of technical issues their owners never think about.</p>
+            <p>Before AI platforms can evaluate your authority or trustworthiness, they need to physically access your content. Most new websites fail at this basic step because of technical issues their owners never think about. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <h3>JavaScript Rendering</h3>
 
-            <p>Research shows that <strong>87% of JavaScript-heavy sites are not visible to ChatGPT crawlers</strong>. If you built your site with React, Vue, Angular, or any framework that renders content client-side, AI crawlers see a blank page. They do not execute JavaScript. They do not wait for your components to load. They parse the raw HTML and move on.</p>
+            <p>Research shows that <strong>87% of JavaScript-heavy sites are not visible to ChatGPT crawlers</strong>. If you built your site with React, Vue, Angular, or any framework that renders content client-side, AI crawlers see a blank page. They do not execute JavaScript. They do not wait for your components to load. They parse the raw HTML and move on. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <h3>Robots.txt Misconfigurations</h3>
 
-            <p>Your robots.txt file controls which crawlers can access your site. Many website templates, security plugins, and hosting providers block AI crawlers by default. If your robots.txt does not explicitly permit AI-SearchBot, ChatGPT-User, GPTBot, and PerplexityBot, those platforms cannot crawl your pages at all.</p>
+            <p>Your robots.txt file controls which crawlers can access your site. Many website templates, security plugins, and hosting providers block AI crawlers by default. If your robots.txt does not explicitly permit AI-SearchBot, ChatGPT-User, GPTBot, and PerplexityBot, those platforms cannot crawl your pages at all. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Missing Metadata and Schema</h3>
 
-            <p>ChatGPT uses your page title, meta description, and schema markup to decide whether your content is relevant to a query. Without clear, structured metadata, AI platforms cannot categorize your business or understand what services you provide. It is like submitting a resume with no name, no job title, and no contact information.</p>
+            <p>ChatGPT uses your page title, meta description, and schema markup to decide whether your content is relevant to a query. Without clear, structured metadata, AI platforms cannot categorize your business or understand what services you provide. It is like submitting a resume with no name, no job title, and no contact information. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table not-prose">
@@ -352,11 +352,11 @@ export default function Page() {
               </table>
             </div>
 
-            <p>Pages that fail to load within <strong>5 to 15 seconds</strong> get skipped by AI crawlers entirely. Unlike Googlebot, which will re-queue and retry, most AI crawlers abandon slow pages permanently. If your site is built on a framework that prioritizes visual effects over raw speed, you are trading AI visibility for aesthetics.</p>
+            <p>Pages that fail to load within <strong>5 to 15 seconds</strong> get skipped by AI crawlers entirely. Unlike Googlebot, which will re-queue and retry, most AI crawlers abandon slow pages permanently. If your site is built on a framework that prioritizes visual effects over raw speed, you are trading AI visibility for aesthetics. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is your robots.txt accidentally blocking AI crawlers?</p>
+              <p>Is your robots.txt accidentally blocking AI crawlers? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
             </div>
 
@@ -364,21 +364,21 @@ export default function Page() {
             <span className="ae-section-label" id="trust-gap">The Trust Gap</span>
             <h2>The Trust Gap: Why Content Alone Is Not Enough</h2>
 
-            <p>Here is the uncomfortable truth about new websites: even if every technical element is perfect, AI platforms still will not recommend you right away. The reason is trust, and trust requires evidence that exists <em>outside</em> your website.</p>
+            <p>Here is the uncomfortable truth about new websites: even if every technical element is perfect, AI platforms still will not recommend you right away. The reason is trust, and trust requires evidence that exists <em>outside</em> your website. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-            <p>Most new websites have <strong>zero brand mentions, zero third-party citations, and zero review footprint</strong> across the internet. From an AI platform&apos;s perspective, your business has no verifiable history. You might be legitimate. You might also not exist next month. AI systems do not gamble on unknowns when users are asking for recommendations.</p>
+            <p>Most new websites have <strong>zero brand mentions, zero third-party citations, and zero review footprint</strong> across the internet. From an AI platform&apos;s perspective, your business has no verifiable history. You might be legitimate. You might also not exist next month. AI systems do not gamble on unknowns when users are asking for recommendations. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-            <p>Think about how you would evaluate a recommendation. If someone told you to hire a contractor you had never heard of, with no reviews, no portfolio, and no references, would you trust that recommendation? AI platforms apply the same logic, but at scale. They need multiple independent sources confirming that your business is real, active, and competent before they will put their credibility behind a recommendation.</p>
+            <p>Think about how you would evaluate a recommendation. If someone told you to hire a contractor you had never heard of, with no reviews, no portfolio, and no references, would you trust that recommendation? AI platforms apply the same logic, but at scale. They need multiple independent sources confirming that your business is real, active, and competent before they will put their credibility behind a recommendation. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Why this matters:</strong> AI systems need &quot;consensus&quot; across multiple sources, not just your own site. A single well-built website is one data point. AI platforms want to see that data point confirmed by directories, review sites, industry publications, and other independent sources before they treat your business as citation-worthy.</p>
+              <p><strong>Why this matters:</strong> AI systems need &quot;consensus&quot; across multiple sources, not just your own site. A single well-built website is one data point. AI platforms want to see that data point confirmed by directories, review sites, industry publications, and other independent sources before they treat your business as citation-worthy. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
-            <p>Understanding how <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings help AI find your business</Link> reveals why this external validation layer matters so much for new sites.</p>
+            <p>Understanding how <Link href="/blog/directory-listings-that-help-ai-find-business">directory listings help AI find your business</Link> reveals why this external validation layer matters so much for new sites. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly which trust signals your site is missing?</p>
+              <p>Want to know exactly which trust signals your site is missing? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -386,11 +386,11 @@ export default function Page() {
             <span className="ae-section-label" id="consensus-problem">The Consensus Problem</span>
             <h2>The Consensus Problem New Sites Face</h2>
 
-            <p>AI platforms cross-reference information across the entire web before generating a recommendation. When a user asks &quot;who is the best plumber in Austin?&quot; the AI does not just search for plumber websites. It looks for patterns of mentions, reviews, citations, and references across dozens of independent sources.</p>
+            <p>AI platforms cross-reference information across the entire web before generating a recommendation. When a user asks &quot;who is the best plumber in Austin?&quot; the AI does not just search for plumber websites. It looks for patterns of mentions, reviews, citations, and references across dozens of independent sources. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>For established businesses, this consensus exists naturally. Years of reviews on Google, Yelp, and industry directories. Mentions in local news. Citations in blog posts and forums. Each mention reinforces the AI&apos;s confidence that this business is real and reputable.</p>
+            <p>For established businesses, this consensus exists naturally. Years of reviews on Google, Yelp, and industry directories. Mentions in local news. Citations in blog posts and forums. Each mention reinforces the AI&apos;s confidence that this business is real and reputable. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>For a new website, <strong>that consensus is zero</strong>. And no amount of on-site optimization can create it. You cannot write enough blog posts to replace a genuine review from a verified customer. You cannot add enough schema markup to substitute for a mention in an industry publication. The consensus must be built externally, and it takes time.</p>
+            <p>For a new website, <strong>that consensus is zero</strong>. And no amount of on-site optimization can create it. You cannot write enough blog posts to replace a genuine review from a verified customer. You cannot add enough schema markup to substitute for a mention in an industry publication. The consensus must be built externally, and it takes time. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -445,11 +445,11 @@ export default function Page() {
               </table>
             </div>
 
-            <p>This is why <Link href="/blog/why-is-my-competitor-on-ai-search-not-me">your competitor appears on AI search and you do not</Link>. They have years of accumulated consensus signals. You are starting from scratch.</p>
+            <p>This is why <Link href="/blog/why-is-my-competitor-on-ai-search-not-me">your competitor appears on AI search and you do not</Link>. They have years of accumulated consensus signals. You are starting from scratch. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out how your consensus signals compare to competitors.</p>
+              <p>Find out how your consensus signals compare to competitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="mailto:support@theanswerengine.ai">Email us: support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -457,33 +457,33 @@ export default function Page() {
             <span className="ae-section-label" id="timeline">The Timeline</span>
             <h2>How Long Until AI Discovers Your Site</h2>
 
-            <p>AI discovery is not instant, and it is not linear. There are distinct phases your new website passes through before AI platforms begin citing it. Understanding this timeline prevents frustration and helps you focus on what matters at each stage.</p>
+            <p>AI discovery is not instant, and it is not linear. There are distinct phases your new website passes through before AI platforms begin citing it. Understanding this timeline prevents frustration and helps you focus on what matters at each stage. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Timeline */}
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Week 1-2: First Crawl</strong>
-                <p>AI crawlers discover your domain through DNS records, sitemap submissions, or links from other sites. They perform an initial crawl but collect limited data. Your site enters their awareness but is not yet trusted.</p>
+                <p>AI crawlers discover your domain through DNS records, sitemap submissions, or links from other sites. They perform an initial crawl but collect limited data. Your site enters their awareness but is not yet trusted. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Week 3-4: Content Evaluation</strong>
-                <p>AI platforms begin parsing your content structure, metadata, and schema markup. They check whether your information is consistent and well-organized. First AI pickup from a new domain can happen in this window if technical fundamentals are solid.</p>
+                <p>AI platforms begin parsing your content structure, metadata, and schema markup. They check whether your information is consistent and well-organized. First AI pickup from a new domain can happen in this window if technical fundamentals are solid. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 2-3: Trust Building</strong>
-                <p>AI systems start cross-referencing your site against external sources. Directory listings, early reviews, and brand mentions begin to create consensus signals. This is where most new sites stall because external validation takes time to accumulate.</p>
+                <p>AI systems start cross-referencing your site against external sources. Directory listings, early reviews, and brand mentions begin to create consensus signals. This is where most new sites stall because external validation takes time to accumulate. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 3-4: Soft Citations</strong>
-                <p>If your technical foundation is strong and external signals are growing, AI platforms may begin mentioning your business in broader recommendations. These are not direct citations yet, but signs of growing trust.</p>
+                <p>If your technical foundation is strong and external signals are growing, AI platforms may begin mentioning your business in broader recommendations. These are not direct citations yet, but signs of growing trust. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 4-6: First Direct Citations</strong>
-                <p>With sufficient consensus signals, AI platforms begin citing your business directly in response to relevant queries. The frequency of citations increases as more external sources validate your authority.</p>
+                <p>With sufficient consensus signals, AI platforms begin citing your business directly in response to relevant queries. The frequency of citations increases as more external sources validate your authority. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 6+: Consistent Visibility</strong>
-                <p>Your business becomes a regular part of AI-generated recommendations for your niche. Continued content publishing and external validation compound your visibility over time.</p>
+                <p>Your business becomes a regular part of AI-generated recommendations for your niche. Continued content publishing and external validation compound your visibility over time. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
 

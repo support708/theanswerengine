@@ -197,7 +197,7 @@ export default function Page() {
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Published {publishDate} by Justin Borges
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
         </div>
       </header>
@@ -248,23 +248,23 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             For years, the answer to "does Angi or Thumbtack help AI find you?" was a qualified maybe. They might be part of the data AI crawls, but there was no direct mechanism. That changed in 2025.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Thumbtack integrated directly into ChatGPT via OpenAI's Operator framework. Angi launched a native ChatGPT app in March 2026 and is integrated with Amazon Alexa+ for voice booking. These are not vague partnerships. They are direct data pipelines from your directory listing into AI recommendation flows.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             But here is the condition: being registered is not enough. These integrations surface specific businesses based on profile signals. A registered-but-neglected profile may technically exist in the system while being functionally invisible.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">The Two-Tier System</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               With Angi inside ChatGPT and Thumbtack inside ChatGPT, there is now a two-tier system for home service recommendations. Tier 1: businesses with active, complete directory profiles that surface inside AI booking flows. Tier 2: businesses who are not present, or present but too sparse to surface. Tier 2 is invisible to an increasing share of the market.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Not sure if your directory profiles are feeding AI recommendations?</p>
+            <p className="text-gray-400 text-sm">Not sure if your directory profiles are feeding AI recommendations? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and see your full AI footprint
             </Link>
@@ -278,10 +278,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             In January 2025, Thumbtack became one of the first platforms integrated into OpenAI's Operator, an agentic AI framework that allows ChatGPT to take actions on behalf of users. By October 2025, the integration went deeper: Thumbtack was embedded directly inside ChatGPT for home service queries.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             What this looks like in practice: a homeowner types "find me a plumber in Denver who can come this week" into ChatGPT. ChatGPT activates the Thumbtack integration, queries available Thumbtack pros in Denver with plumbing listed as a service, applies its ranking logic, and presents options. The homeowner can book without ever leaving ChatGPT.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-timeline mb-6">
             <div className="ae-timeline-item">
@@ -316,7 +316,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-4">
             Thumbtack itself reported $400 million in revenue in 2025, up 33% year over year, driven in large part by these AI partnerships. The platform's bet that directory data would become AI infrastructure is paying off. For contractors listed on Thumbtack, the question is whether their profiles are strong enough to surface when ChatGPT queries the system.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         </section>
 
         {/* Section 3 */}
@@ -326,7 +326,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Angi's integration footprint is actually wider than Thumbtack's because it feeds two separate AI systems: ChatGPT (via the Angi ChatGPT app launched March 2026) and Amazon Alexa+ (via the Alexa+ partner integration launched in late 2025). Each is a distinct recommendation pipeline targeting different user behaviors.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <table className="ae-comparison-table mb-6">
             <thead>
@@ -369,11 +369,11 @@ export default function Page() {
             <div className="ae-callout-title">Angi Is Now Two AI Channels At Once</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               A well-maintained Angi profile currently feeds: the Angi ChatGPT app for text-based booking queries AND Alexa+ for voice-based booking queries. That is one profile working across two distinct AI recommendation flows. No other single directory has this kind of AI channel breadth for home service businesses right now.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Want to know how well your Angi and Thumbtack profiles score for AI visibility?</p>
+            <p className="text-gray-400 text-sm">Want to know how well your Angi and Thumbtack profiles score for AI visibility? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Run a free Blind Spot Report to see your directory coverage across AI systems
             </Link>
@@ -387,10 +387,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             This is the trap that catches most contractors: they sign up for Angi or Thumbtack, fill out the minimum required fields, and then assume they are covered. They are not.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             When ChatGPT queries Thumbtack for "plumbers in Austin available this weekend," it does not return all plumbers in Austin. It returns plumbers who score above a threshold across relevance, reviews, and availability. A sparse profile with three reviews and no availability calendar set will score below that threshold and will not surface.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-pros-cons mb-6">
             <div className="ae-pros-box">
@@ -423,7 +423,7 @@ export default function Page() {
             <div className="ae-callout-title">The Inactive Profile Problem</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Both Angi and Thumbtack track engagement signals: how quickly you respond to inquiries, how often you log in, how current your availability is. These signals factor into their ranking logic. A business that signed up two years ago and has not touched their profile since may be technically registered while being functionally ranked at the bottom of the pool. AI recommendation integrations pull from the top of the pool.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
         </section>
 
@@ -434,7 +434,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Optimizing for AI-driven recommendations through Angi and Thumbtack is more specific than general profile completion. Here is what moves the needle for the AI ranking logic specifically:
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-cheat-sheet mb-6">
             <div className="ae-cheat-sheet-title">Directory Profile Optimization for AI Visibility</div>
@@ -488,7 +488,7 @@ export default function Page() {
 
           <div className="ae-cta-block my-8">
             <h3 className="font-plus-jakarta text-xl font-bold text-white mb-3">Is Your Business Positioned for AI Booking Flows?</h3>
-            <p className="text-gray-400 mb-6">Our Blind Spot Report checks your directory presence and profile quality across the platforms feeding ChatGPT, Alexa+, and other AI systems.</p>
+            <p className="text-gray-400 mb-6">Our Blind Spot Report checks your directory presence and profile quality across the platforms feeding ChatGPT, Alexa+, and other AI systems. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot" className="ae-cta-primary inline-flex items-center gap-2">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -503,10 +503,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             A common mistake is treating directories and your own website as alternatives. They are not. They are complementary systems that feed different AI channels.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Directory profiles (Angi, Thumbtack, Yelp) feed the booking-enabled AI flows: ChatGPT when it is in action mode, Alexa+ for voice booking. Your website feeds the research-mode AI flows: ChatGPT when it is crawling for general recommendations, Perplexity, Claude, and Google AI Overviews. A business that only has directory profiles and no website is invisible to research-mode AI queries. A business that only has a website and no directory profiles is invisible to booking-mode AI queries.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <table className="ae-comparison-table mb-6">
             <thead>
@@ -549,11 +549,11 @@ export default function Page() {
             <div className="ae-callout-title">The Full Stack Approach</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               The businesses that win across all AI channels maintain active, complete profiles on Angi, Thumbtack, and Yelp AND have a well-structured website with individual service pages and FAQ content. That combination covers the booking-mode AI flows and the research-mode AI flows simultaneously. It is not about picking the right directory. It is about being present in both ecosystems.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <div className="ae-cta-inline my-6">
-            <p className="text-gray-400 text-sm">Want to see your coverage across both directory and website AI channels?</p>
+            <p className="text-gray-400 text-sm">Want to see your coverage across both directory and website AI channels? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and see the complete picture
             </Link>
@@ -566,11 +566,11 @@ export default function Page() {
           <div className="grid md:grid-cols-2 gap-4">
             <Link href="/blog/how-amazon-alexa-plus-recommends-local-businesses" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
               <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Platform Deep Dives</span>
-              <p className="text-white font-semibold text-sm mt-1">How Amazon Alexa+ Recommends Local Businesses</p>
+              <p className="text-white font-semibold text-sm mt-1">How Amazon Alexa+ Recommends Local Businesses Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </Link>
             <Link href="/blog/your-website-vs-directories-what-ai-trusts" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
               <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Comparisons</span>
-              <p className="text-white font-semibold text-sm mt-1">Your Website vs Directories: What AI Trusts</p>
+              <p className="text-white font-semibold text-sm mt-1">Your Website vs Directories: What AI Trusts Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </Link>
           </div>
         </section>
@@ -578,7 +578,7 @@ export default function Page() {
         {/* 3-tier CTA */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out If Your Directory Profiles Are Feeding AI Recommendations</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your Angi, Thumbtack, and Yelp profiles alongside your website presence to show exactly where ChatGPT and Alexa+ can find you.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your Angi, Thumbtack, and Yelp profiles alongside your website presence to show exactly where ChatGPT and Alexa+ can find you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -606,7 +606,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
           </div>
@@ -645,7 +645,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border-b border-gray-800 pb-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-2 text-lg">{q}</h3>
-                <p className="text-gray-400 leading-relaxed text-sm">{a}</p>
+                <p className="text-gray-400 leading-relaxed text-sm">{a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             ))}
           </div>
@@ -658,12 +658,12 @@ export default function Page() {
           </h2>
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             Our free Blind Spot Report shows exactly which AI systems can recommend your business, which platforms are feeding those recommendations, and what gaps are keeping you out of the results.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-600 text-sm mt-4">Free. No credit card. Results in minutes.</p>
+          <p className="text-gray-600 text-sm mt-4">Free. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </main>

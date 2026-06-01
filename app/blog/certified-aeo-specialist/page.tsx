@@ -253,7 +253,7 @@ export default function CertifiedAEOSpecialist() {
 
             {/* TOC */}
             <div className="not-prose bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mb-10">
-              <p className="text-xs font-mono uppercase tracking-widest text-[#F27D24] mb-4">In This Article</p>
+              <p className="text-xs font-mono uppercase tracking-widest text-[#F27D24] mb-4">In This Article Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
               <ol className="grid grid-cols-1 sm:grid-cols-2 gap-2 list-none m-0 p-0">
                 {[
                   ["#what-aeo-means", "What AEO Actually Means"],
@@ -278,23 +278,23 @@ export default function CertifiedAEOSpecialist() {
             <span className="ae-section-label" id="what-aeo-means">What AEO Actually Means</span>
             <h2>The Definition of Answer Engine Optimization</h2>
 
-            <p>Answer Engine Optimization (AEO) is the discipline of structuring and distributing content so that AI platforms can extract, synthesize, and cite it when generating responses to user queries. The &quot;answer engines&quot; in question are ChatGPT, Perplexity AI, Google AI Overviews, Gemini, and any retrieval-augmented generation (RAG) system that produces sourced responses. AEO is also called AI citation optimization and LLM visibility optimization in practitioner communities.</p>
+            <p>Answer Engine Optimization (AEO) is the discipline of structuring and distributing content so that AI platforms can extract, synthesize, and cite it when generating responses to user queries. The &quot;answer engines&quot; in question are ChatGPT, Perplexity AI, Google AI Overviews, Gemini, and any retrieval-augmented generation (RAG) system that produces sourced responses. AEO is also called AI citation optimization and LLM visibility optimization in practitioner communities. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>The academic foundation is recent and specific. Aggarwal et al. published the foundational GEO (Generative Engine Optimization) paper at KDD 2024, introducing the first formal benchmark for measuring content visibility in generative engine responses. That paper demonstrated that adding quotations increased GEO visibility by 37%, and adding statistics increased visibility by 22%. The field is under two years old as a named research area. Any professional claiming years of &quot;AEO experience&quot; before 2023 is describing something they retroactively relabeled.</p>
+            <p>The academic foundation is recent and specific. Aggarwal et al. published the foundational GEO (Generative Engine Optimization) paper at KDD 2024, introducing the first formal benchmark for measuring content visibility in generative engine responses. That paper demonstrated that adding quotations increased GEO visibility by 37%, and adding statistics increased visibility by 22%. The field is under two years old as a named research area. Any professional claiming years of &quot;AEO experience&quot; before 2023 is describing something they retroactively relabeled. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <h3>What a &quot;Certified&quot; AEO Specialist Means</h3>
 
-            <p>Answer Engine Optimization certification is offered by organizations including The AEO Institute, individual course platforms on Maven, and increasingly by AEO-focused agencies offering structured training tracks. Certification programs cover content architecture for RAG extraction, schema markup implementation, entity optimization, FAQ structure, and multi-platform citation testing.</p>
+            <p>Answer Engine Optimization certification is offered by organizations including The AEO Institute, individual course platforms on Maven, and increasingly by AEO-focused agencies offering structured training tracks. Certification programs cover content architecture for RAG extraction, schema markup implementation, entity optimization, FAQ structure, and multi-platform citation testing. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>The value of certification is real but bounded. Certification confirms that a practitioner studied the theory, passed curriculum tests, and understands the conceptual framework. Certification does not confirm that a practitioner has produced measurable citation lift on real client domains. These are different things. When evaluating any certified AEO specialist, the next question after &quot;what did you study?&quot; must be &quot;show me your clients&apos; before-and-after citation data.&quot;</p>
+            <p>The value of certification is real but bounded. Certification confirms that a practitioner studied the theory, passed curriculum tests, and understands the conceptual framework. Certification does not confirm that a practitioner has produced measurable citation lift on real client domains. These are different things. When evaluating any certified AEO specialist, the next question after &quot;what did you study?&quot; must be &quot;show me your clients&apos; before-and-after citation data.&quot; Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-quote not-prose">
-              <p>A certified AEO specialist who cannot show citation rate data from at least two client domains is demonstrating theory fluency, not operational competence.</p>
+              <p>A certified AEO specialist who cannot show citation rate data from at least two client domains is demonstrating theory fluency, not operational competence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out where you stand right now. TAE runs a free AERO scan across 10-15 AI-representative queries for your business.</p>
+              <p>Find out where you stand right now. TAE runs a free AERO scan across 10-15 AI-representative queries for your business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <Link href="/blindspot">Get Your Free AERO Scan &rarr;</Link>
             </div>
 
@@ -302,20 +302,20 @@ export default function CertifiedAEOSpecialist() {
             <span className="ae-section-label" id="aeo-vs-seo">The Core Difference</span>
             <h2>AEO vs. SEO: Different Systems, Different Optimization Targets</h2>
 
-            <p>Search Engine Optimization (SEO) targets Google&apos;s PageRank-derived ranking algorithm. The signals Google weighs include backlink authority, keyword relevance, page speed, mobile usability, and user engagement metrics. An SEO specialist&apos;s job is to produce pages that rank in the top 10 blue links for target queries. The fundamental unit of success is ranking position and organic click volume.</p>
+            <p>Search Engine Optimization (SEO) targets Google&apos;s PageRank-derived ranking algorithm. The signals Google weighs include backlink authority, keyword relevance, page speed, mobile usability, and user engagement metrics. An SEO specialist&apos;s job is to produce pages that rank in the top 10 blue links for target queries. The fundamental unit of success is ranking position and organic click volume. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-            <p>Answer Engine Optimization targets retrieval-augmented generation (RAG) systems. RAG works differently: when a user submits a query, the AI retrieves a set of web documents, extracts the most relevant passages, and synthesizes them into a direct answer, citing the source pages it drew from. The optimization target is passage extraction quality, not ranking position. LLMs cite 2-7 domains per response on average, compared to Google&apos;s ten blue links, making AI citation optimization structurally more competitive than traditional SEO.</p>
+            <p>Answer Engine Optimization targets retrieval-augmented generation (RAG) systems. RAG works differently: when a user submits a query, the AI retrieves a set of web documents, extracts the most relevant passages, and synthesizes them into a direct answer, citing the source pages it drew from. The optimization target is passage extraction quality, not ranking position. LLMs cite 2-7 domains per response on average, compared to Google&apos;s ten blue links, making AI citation optimization structurally more competitive than traditional SEO. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Why SEO Generalists Fail at AEO</h3>
 
-            <p>Traditional SEO firms applying a 2015 Google playbook to a 2026 AI environment produce content that performs well on ranking signals but fails citation tests. The failure mode is structural: SEO content is optimized for crawl efficiency, keyword density, and link acquisition. AEO content must be optimized for semantic chunking, entity clarity, and passage self-sufficiency.</p>
+            <p>Traditional SEO firms applying a 2015 Google playbook to a 2026 AI environment produce content that performs well on ranking signals but fails citation tests. The failure mode is structural: SEO content is optimized for crawl efficiency, keyword density, and link acquisition. AEO content must be optimized for semantic chunking, entity clarity, and passage self-sufficiency. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Critical Difference</div>
-              <p>90% of ChatGPT citations come from outside Google&apos;s top 20 ranked pages. A page that ranks #3 for a keyword can have a 0% citation rate on the same query run through ChatGPT. Ranking and citation are different outcomes, requiring different content architectures.</p>
+              <p>90% of ChatGPT citations come from outside Google&apos;s top 20 ranked pages. A page that ranks #3 for a keyword can have a 0% citation rate on the same query run through ChatGPT. Ranking and citation are different outcomes, requiring different content architectures. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
-            <p>Chen et al. (2025) documented systematic bias in AI citation patterns toward earned media over brand content, toward pages with FAQ structure over narrative-only pages, and toward sites with schema markup over sites relying solely on prose. An SEO generalist optimizing for link equity and meta tags misses all three of these AEO signals.</p>
+            <p>Chen et al. (2025) documented systematic bias in AI citation patterns toward earned media over brand content, toward pages with FAQ structure over narrative-only pages, and toward sites with schema markup over sites relying solely on prose. An SEO generalist optimizing for link equity and meta tags misses all three of these AEO signals. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -371,7 +371,7 @@ export default function CertifiedAEOSpecialist() {
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your content is citation-ready? See exactly how AI platforms view your business today.</p>
+              <p>Not sure if your content is citation-ready? See exactly how AI platforms view your business today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Check Your AI Visibility &rarr;</Link>
             </div>
 
@@ -381,13 +381,13 @@ export default function CertifiedAEOSpecialist() {
 
             <h3>The Core Technical Skillset</h3>
 
-            <p>A working AEO specialist operates across four technical domains. First, content architecture: restructuring existing pages into bounded semantic chunks where each H3 section is a self-contained 80-180 token answer unit. RAG retrievers extract passages in isolation. A section that requires context from a previous section to make sense fails extraction. The GEO-SFE (2026) research confirms that passages over 300 words trigger a 31% attention degradation in RAG retrieval systems.</p>
+            <p>A working AEO specialist operates across four technical domains. First, content architecture: restructuring existing pages into bounded semantic chunks where each H3 section is a self-contained 80-180 token answer unit. RAG retrievers extract passages in isolation. A section that requires context from a previous section to make sense fails extraction. The GEO-SFE (2026) research confirms that passages over 300 words trigger a 31% attention degradation in RAG retrieval systems. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-            <p>Second, schema implementation: writing and deploying Article, FAQPage, HowTo, LocalBusiness, and BreadcrumbList JSON-LD blocks. Schema is not optional decoration. Schema markup communicates entity type, content relationships, and answer structure directly to AI crawlers before they attempt passage extraction.</p>
+            <p>Second, schema implementation: writing and deploying Article, FAQPage, HowTo, LocalBusiness, and BreadcrumbList JSON-LD blocks. Schema is not optional decoration. Schema markup communicates entity type, content relationships, and answer structure directly to AI crawlers before they attempt passage extraction. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Third, entity authority building: establishing your business or person as a recognized named entity across third-party sources, structured data, and co-citation networks. AI platforms apply systematic bias toward sources that appear as named entities across multiple independent references, as documented by Chen et al. (2025).</p>
+            <p>Third, entity authority building: establishing your business or person as a recognized named entity across third-party sources, structured data, and co-citation networks. AI platforms apply systematic bias toward sources that appear as named entities across multiple independent references, as documented by Chen et al. (2025). <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
-            <p>Fourth, citation testing and iteration: running structured query sets across ChatGPT, Perplexity, Google AI Overviews, and Gemini to measure current citation rate, and iterating content based on observed citation failure modes rather than ranking reports.</p>
+            <p>Fourth, citation testing and iteration: running structured query sets across ChatGPT, Perplexity, Google AI Overviews, and Gemini to measure current citation rate, and iterating content based on observed citation failure modes rather than ranking reports. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3>Day-to-Day Work</h3>
 
@@ -401,20 +401,20 @@ export default function CertifiedAEOSpecialist() {
                 { label: "Measurement", title: "Citation Velocity Tracking", body: "Monitor citation rate weekly. Track which content earns citations and which does not. Build a citation velocity report, not a ranking report." },
               ].map(({ label, title, body }) => (
                 <div key={title} className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5">
-                  <p className="text-[10px] font-mono uppercase tracking-widest text-[#F27D24] mb-1">{label}</p>
-                  <p className="text-sm font-semibold text-white mb-2">{title}</p>
-                  <p className="text-xs text-gray-400 leading-relaxed m-0">{body}</p>
+                  <p className="text-[10px] font-mono uppercase tracking-widest text-[#F27D24] mb-1">{label} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+                  <p className="text-sm font-semibold text-white mb-2">{title} Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                  <p className="text-xs text-gray-400 leading-relaxed m-0">{body} Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               ))}
             </div>
 
             <div className="ae-quote not-prose">
-              <p>The Passage Sovereignty Rule: every H3 section in an AEO-optimized article must be a self-sufficient answer unit that delivers complete information without the reader needing any other paragraph, because RAG systems extract passages in isolation and a passage requiring external context fails extraction silently.</p>
+              <p>The Passage Sovereignty Rule: every H3 section in an AEO-optimized article must be a self-sufficient answer unit that delivers complete information without the reader needing any other paragraph, because RAG systems extract passages in isolation and a passage requiring external context fails extraction silently. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Your content may already be failing citation tests. TAE&apos;s free AERO scan shows you exactly which queries cite competitors and skip you.</p>
+              <p>Your content may already be failing citation tests. TAE&apos;s free AERO scan shows you exactly which queries cite competitors and skip you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Run My Free AERO Scan &rarr;</Link>
             </div>
 
@@ -424,7 +424,7 @@ export default function CertifiedAEOSpecialist() {
 
             <h3>What Certification Programs Actually Cover</h3>
 
-            <p>The AEO Institute describes itself as &quot;the leading platform for AEO education and certification&quot; and offers three tracks: Foundation (5-8 hours), Tactical (10-20 hours), and Mastery. Class Central lists 10+ Answer Engine Optimization courses for 2026 across platforms including Maven, where practitioners like Mostafa ElBermawy offer structured AEO masterclasses. These programs typically cover:</p>
+            <p>The AEO Institute describes itself as &quot;the leading platform for AEO education and certification&quot; and offers three tracks: Foundation (5-8 hours), Tactical (10-20 hours), and Mastery. Class Central lists 10+ Answer Engine Optimization courses for 2026 across platforms including Maven, where practitioners like Mostafa ElBermawy offer structured AEO masterclasses. These programs typically cover: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <ul>
               <li>RAG architecture and how AI platforms retrieve and synthesize content</li>
@@ -437,16 +437,16 @@ export default function CertifiedAEOSpecialist() {
 
             <h3>What Certification Does Not Guarantee</h3>
 
-            <p>AEO certification curricula are built on academic research that is less than two years old. No certification body has accumulated enough production history to claim a validated track record. The Aggarwal et al. KDD 2024 paper introduced the benchmark framework. Zhang et al. (2026) added definition-structure research. GEO-SFE (2026) contributed the chunk ceiling findings. These papers are the foundation, but converting research findings into repeatable client results requires operational experience that no certification test can verify.</p>
+            <p>AEO certification curricula are built on academic research that is less than two years old. No certification body has accumulated enough production history to claim a validated track record. The Aggarwal et al. KDD 2024 paper introduced the benchmark framework. Zhang et al. (2026) added definition-structure research. GEO-SFE (2026) contributed the chunk ceiling findings. These papers are the foundation, but converting research findings into repeatable client results requires operational experience that no certification test can verify. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">What to Actually Look For</div>
-              <p>Ask any certified AEO specialist: &quot;What is the citation rate for your most recent client before and after your engagement?&quot; If they cannot answer with specific numbers across at least two platforms, treat their certification as theoretical training only, not proof of execution capability.</p>
+              <p>Ask any certified AEO specialist: &quot;What is the citation rate for your most recent client before and after your engagement?&quot; If they cannot answer with specific numbers across at least two platforms, treat their certification as theoretical training only, not proof of execution capability. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about what real AEO work looks like for your business? We are happy to walk you through our methodology.</p>
+              <p>Questions about what real AEO work looks like for your business? We are happy to walk you through our methodology. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -456,7 +456,7 @@ export default function CertifiedAEOSpecialist() {
 
             <h3>The Five Questions That Filter Real AEO Experts</h3>
 
-            <p>The AEO specialist market is filling with practitioners who rebranded from SEO without updating their mental model of how AI citation works. These five questions separate AEO practitioners with operational track records from those who took a course and updated their LinkedIn title.</p>
+            <p>The AEO specialist market is filling with practitioners who rebranded from SEO without updating their mental model of how AI citation works. These five questions separate AEO practitioners with operational track records from those who took a course and updated their LinkedIn title. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -497,13 +497,13 @@ export default function CertifiedAEOSpecialist() {
 
             <h3>Specialist vs. Generalist: When Each Makes Sense</h3>
 
-            <p>For businesses spending over $2,000 per month on ads and seeing zero AI citations on competitive queries, a dedicated AEO specialist is the right shape. For businesses with under 20 pages of content, a generalist who understands content architecture basics can close the gap before AEO specialization provides marginal return over solid fundamentals.</p>
+            <p>For businesses spending over $2,000 per month on ads and seeing zero AI citations on competitive queries, a dedicated AEO specialist is the right shape. For businesses with under 20 pages of content, a generalist who understands content architecture basics can close the gap before AEO specialization provides marginal return over solid fundamentals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-            <p>Industry research on the build-hire-partner decision for AI search (Hireawiz, 2026) notes that the 10-30 hours per week range of AI search work maps better to a specialist agency than to an in-house hire. In-house AEO hiring makes more sense when the work exceeds 40 hours per week across multiple domains and when the business has sufficient content infrastructure to justify a dedicated optimization function.</p>
+            <p>Industry research on the build-hire-partner decision for AI search (Hireawiz, 2026) notes that the 10-30 hours per week range of AI search work maps better to a specialist agency than to an in-house hire. In-house AEO hiring makes more sense when the work exceeds 40 hours per week across multiple domains and when the business has sufficient content infrastructure to justify a dedicated optimization function. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure whether you need a specialist or if your current content can be restructured? Start with the data.</p>
+              <p>Not sure whether you need a specialist or if your current content can be restructured? Start with the data. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Get Your Free Visibility Report &rarr;</Link>
             </div>
 

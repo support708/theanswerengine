@@ -230,13 +230,13 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want a custom AEO timeline for your industry? <Link href="/contact" className="text-[#F27D24] hover:underline font-semibold">Talk to the team</Link> — we will give you a realistic forecast based on your domain authority, competition, and content output.</p>
+          <p>Want a custom AEO timeline for your industry? <Link href="/contact" className="text-[#F27D24] hover:underline font-semibold">Talk to the team</Link> — we will give you a realistic forecast based on your domain authority, competition, and content output. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         </div>
 
         <h2 id="why-timeline-varies">Why the Timeline Varies</h2>
         <p>
           There is no universal answer to how long AEO takes — and anyone who gives you a specific number without asking about your situation is guessing. The timeline depends on four variables that interact differently for every business.
-        </p>
+         Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">The Four Timeline Drivers</div>
@@ -251,7 +251,7 @@ export default function Page() {
         <h2 id="weeks-1-4">Weeks 1–4: Foundation Phase</h2>
         <p>
           The first month of AEO is almost entirely invisible. You are building the infrastructure that AI systems will eventually index — but none of it shows up in citation results yet. This is the phase where most businesses lose faith and stop, right before the work starts paying off.
-        </p>
+         Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -279,16 +279,16 @@ export default function Page() {
 
         <p>
           What you will see at the end of week 4: Google Search Console confirms new pages are indexed. Perplexity may already be citing you for very specific, low-competition queries. Google AI Overviews will likely not have updated yet.
-        </p>
+         One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
         <h2 id="weeks-5-8">Weeks 5–8: Crawl and Index Phase</h2>
         <p>
           This is when Googlebot catches up and AI platforms begin associating your content with specific query patterns. Google AI Overviews typically updates its training references on a rolling basis, and weeks 5 to 8 are when newly published content starts entering that consideration pool.
-        </p>
+         Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">Common Mistake in This Phase</div>
-          <p>Businesses check ChatGPT in week 6, see no citation, and conclude AEO is not working. ChatGPT&apos;s training data has a cutoff — real-time web citations only appear in ChatGPT when users have web browsing enabled. Perplexity and Google AI Overviews are better early indicators because they pull live web results.</p>
+          <p>Businesses check ChatGPT in week 6, see no citation, and conclude AEO is not working. ChatGPT&apos;s training data has a cutoff — real-time web citations only appear in ChatGPT when users have web browsing enabled. Perplexity and Google AI Overviews are better early indicators because they pull live web results. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
         </div>
 
         <div className="ae-bar-group not-prose">
@@ -319,12 +319,12 @@ export default function Page() {
             <div className="ae-bar-value">Wks 10–14</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Likelihood of citation appearance within the stated window, assuming 2+ articles/week and correct structured data</p>
+        <p className="text-sm text-gray-500 mb-6">Likelihood of citation appearance within the stated window, assuming 2+ articles/week and correct structured data Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <h2 id="weeks-9-12">Weeks 9–12: First Verifiable Citations</h2>
         <p>
           This is when most businesses see their first clear, verifiable AI citations — your business name or content URL appearing as a source in Perplexity, Google AI Overviews, or ChatGPT web mode. More importantly, it is a signal that the content strategy is working.
-        </p>
+         Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -363,17 +363,17 @@ export default function Page() {
         <h2 id="weeks-13-16">Weeks 13–16: Velocity Phase</h2>
         <p>
           By week 13, businesses with consistent AEO programs start experiencing compounding returns. Each new piece of content is indexed faster because the domain has established a crawl pattern. Citations begin appearing for broader, higher-competition queries. Competitors who have not started AEO are visibly absent from AI recommendations.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Compounding Effect</div>
-          <p>A business that published 40 articles over 16 weeks does not have 40 isolated pieces of content. AI platforms see the pattern — this domain publishes authoritative answers in this topic area — and begin treating the entire domain as a trusted source. Citation velocity for new content increases dramatically after this threshold.</p>
+          <p>A business that published 40 articles over 16 weeks does not have 40 isolated pieces of content. AI platforms see the pattern — this domain publishes authoritative answers in this topic area — and begin treating the entire domain as a trusted source. Citation velocity for new content increases dramatically after this threshold. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </div>
 
         <h2 id="accelerators">What Accelerates Results</h2>
         <p>
           Most AEO timelines can be compressed by 30 to 50% with the right accelerators applied in the first 4 weeks. These are not shortcuts — they are structural advantages.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -401,7 +401,7 @@ export default function Page() {
         <h2 id="aeo-vs-seo">AEO vs. SEO Timeline Comparison</h2>
         <p>
           AEO and SEO operate on different timelines for different signals. Understanding the distinction helps you set the right expectations and allocate resources correctly.
-        </p>
+         Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -445,7 +445,7 @@ export default function Page() {
         <h2 id="how-to-track">How to Track AEO Progress</h2>
         <p>
           AEO does not have a native analytics dashboard. You track it by building a systematic citation audit process — the same way SEO pioneers tracked rankings before tools existed.
-        </p>
+         Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">AEO Citation Tracking Protocol</div>
@@ -463,7 +463,7 @@ export default function Page() {
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Ready to Start Your AEO Clock?</h3>
-          <p className="text-gray-400 mb-6">Every week you wait is a week your competitors are building citations you will have to displace later. Get your custom AEO timeline and start week 1 today.</p>
+          <p className="text-gray-400 mb-6">Every week you wait is a week your competitors are building citations you will have to displace later. Get your custom AEO timeline and start week 1 today. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <Link href="/contact" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get My AEO Timeline
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -490,7 +490,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
               </div>
 
@@ -500,44 +500,44 @@ export default function Page() {
 
           <details className="ae-faq-item">
             <summary>How long before I see my first AI citation from AEO?</summary>
-            <p>Most businesses see their first verifiable AI citations within 6 to 10 weeks of starting AEO, assuming content is being published consistently and structured data is properly implemented. Citations appear first on Perplexity, then ChatGPT web browsing mode, then Google AI Overviews. The sequence varies by industry.</p>
+            <p>Most businesses see their first verifiable AI citations within 6 to 10 weeks of starting AEO, assuming content is being published consistently and structured data is properly implemented. Citations appear first on Perplexity, then ChatGPT web browsing mode, then Google AI Overviews. The sequence varies by industry. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Is AEO faster or slower than traditional SEO?</summary>
-            <p>AEO produces measurable citation signals in roughly 6 to 16 weeks, which is significantly faster than SEO, where meaningful organic rankings typically take 6 to 12 months. However, AEO and SEO are complementary — a strong domain authority from SEO accelerates AEO results.</p>
+            <p>AEO produces measurable citation signals in roughly 6 to 16 weeks, which is significantly faster than SEO, where meaningful organic rankings typically take 6 to 12 months. However, AEO and SEO are complementary — a strong domain authority from SEO accelerates AEO results. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>What slows down AEO results the most?</summary>
-            <p>The biggest timeline killers are inconsistent publishing schedules, missing or broken structured data, thin content that does not answer questions at depth, and a weak backlink profile. Businesses that publish 2 or more AEO-optimized articles per week with proper schema consistently outperform those who publish sporadically.</p>
+            <p>The biggest timeline killers are inconsistent publishing schedules, missing or broken structured data, thin content that does not answer questions at depth, and a weak backlink profile. Businesses that publish 2 or more AEO-optimized articles per week with proper schema consistently outperform those who publish sporadically. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Do I need to wait for Google to reindex before AEO starts working?</summary>
-            <p>For Google AI Overviews, yes — Googlebot needs to crawl and index your new content, which takes 1 to 4 weeks depending on your crawl frequency. Perplexity and Bing Copilot crawl independently and often faster. This is why early AEO wins tend to appear on non-Google AI platforms first.</p>
+            <p>For Google AI Overviews, yes — Googlebot needs to crawl and index your new content, which takes 1 to 4 weeks depending on your crawl frequency. Perplexity and Bing Copilot crawl independently and often faster. This is why early AEO wins tend to appear on non-Google AI platforms first. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Can I speed up AEO results?</summary>
-            <p>Yes. The three highest-leverage accelerators are: submitting an XML sitemap and requesting indexing through Google Search Console immediately after publishing, earning even one or two backlinks from relevant publications to each new piece of content, and using Q&A structured content formats that match the exact phrasing of queries people ask AI platforms.</p>
+            <p>Yes. The three highest-leverage accelerators are: submitting an XML sitemap and requesting indexing through Google Search Console immediately after publishing, earning even one or two backlinks from relevant publications to each new piece of content, and using Q&A structured content formats that match the exact phrasing of queries people ask AI platforms. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>How do I know if AEO is actually working?</summary>
-            <p>Track AI citations directly by querying ChatGPT, Perplexity, and Google AI Overviews with your target questions monthly and recording which sources they cite. Secondary signals include increases in branded search volume in Google Search Console, direct traffic growth, and organic referrals from AI-adjacent content platforms.</p>
+            <p>Track AI citations directly by querying ChatGPT, Perplexity, and Google AI Overviews with your target questions monthly and recording which sources they cite. Secondary signals include increases in branded search volume in Google Search Console, direct traffic growth, and organic referrals from AI-adjacent content platforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>What happens to AEO results if I stop publishing?</summary>
-            <p>AI systems have freshness preferences. If you stop publishing, newer competitors who continue publishing will gradually displace your citations. A maintenance publishing schedule of at least 2 pieces per month is enough to protect existing citation positions for evergreen content.</p>
+            <p>AI systems have freshness preferences. If you stop publishing, newer competitors who continue publishing will gradually displace your citations. A maintenance publishing schedule of at least 2 pieces per month is enough to protect existing citation positions for evergreen content. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </details>
         </div>
 
         {/* Final CTA */}
         <div className="not-prose mt-12 p-8 rounded-2xl border border-white/10 text-center">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Start Your 16-Week AEO Runway Today</h3>
-          <p className="text-gray-400 mb-6">The businesses winning AI citations 6 months from now are starting their programs today. Every week of delay is a week of compounding advantage handed to your competitors.</p>
+          <p className="text-gray-400 mb-6">The businesses winning AI citations 6 months from now are starting their programs today. Every week of delay is a week of compounding advantage handed to your competitors. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">Start Week 1 Now</Link>
             <Link href="/blog" className="inline-flex items-center gap-2 border border-white/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-white/40 transition-colors">Read More AEO Guides</Link>

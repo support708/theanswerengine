@@ -310,7 +310,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Not sure which pages are costing you AI visibility?</p>
-              <p className="text-gray-400 text-sm">Our Blind Spot Report reveals exactly which pages AI is reading and which it is ignoring.</p>
+              <p className="text-gray-400 text-sm">Our Blind Spot Report reveals exactly which pages AI is reading and which it is ignoring. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
@@ -338,7 +338,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               changes. They are evaluating whether the content they find on your site is accurate, current, and
               authoritative at the moment they encounter it. That distinction changes everything about how you should
               think about content updates.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               A study of 17 million AI citations by Ahrefs revealed that AI-cited content is, on average, 25.7% fresher
@@ -359,7 +359,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                   Many business owners fall into a cycle of weekly updates that consume significant time and resources
                   without producing measurable gains in AI citations. Before committing to a weekly cadence, ask: is this
                   update adding genuine new information, or am I just changing words to create the appearance of activity?
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               </div>
             </div>
 
@@ -385,7 +385,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               changed yesterday. Freshness in the context of AI citations refers to how recently the content was published
               or underwent a meaningful revision. The distinction between a cosmetic tweak and a genuine content improvement
               is central to how AI platforms evaluate pages.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
               Google has operated a system called QDF (Query Deserves Freshness) for years. Certain queries trigger this
@@ -400,7 +400,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               someone asks "what is a balance sheet," the AI does not penalize a well-written explanation from 2023. The
               concept has not changed. The content does not need updating. Freshness only becomes a competitive factor when
               the underlying topic is evolving.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Decision Matrix */}
             <div className="not-prose my-8">
@@ -462,7 +462,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           {/* CTA Inline 2 */}
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Which of your pages need attention right now?</p>
+              <p className="text-white font-semibold mb-1">Which of your pages need attention right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <p className="text-gray-400 text-sm">Our analysis shows exactly which pages AI is reading and where freshness gaps exist.</p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
@@ -483,7 +483,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               Not all AI platforms treat content age the same way. Their architectures, training data, and retrieval
               mechanisms produce meaningfully different freshness preferences. Understanding these differences helps you
               allocate your update energy where it will have the most impact.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* Bar Group */}
             <div className="not-prose ae-bar-group my-8 space-y-4">
@@ -522,7 +522,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               than what traditional Google surfaces. This freshness gap of nearly 400+ days means that a page updated
               this year has a measurable advantage over a page last touched in 2024, even if the older page holds a
               strong Google position.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="not-prose ae-callout ae-callout-info my-8">
               <div className="ae-callout-icon">
@@ -545,14 +545,14 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               already rank well in traditional search, which means freshness is one factor among many rather than a
               dominant signal. This is a key reason why optimizing for AI visibility is not just about content age. It
               requires understanding the full picture of <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#F27D24] hover:underline">how blogs and content influence AI recommendations</Link>.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* CTA Inline 3 */}
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Wondering how your content stacks up across platforms?</p>
-              <p className="text-gray-400 text-sm">We test your visibility on ChatGPT, Perplexity, Google AI, and more.</p>
+              <p className="text-gray-400 text-sm">We test your visibility on ChatGPT, Perplexity, Google AI, and more. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
             <a href="tel:+12134442229" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Call (213) 444-2229
@@ -638,7 +638,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               page for it to register as a meaningful update. That does not mean you need to rewrite entire articles. It
               means adding new sections, incorporating recent data, updating outdated recommendations, and expanding the
               depth of coverage in ways that genuinely serve the reader.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="not-prose ae-quote my-8">
               <blockquote className="text-lg text-gray-200 italic leading-relaxed">
@@ -658,7 +658,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           {/* CTA Inline 4 */}
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Need help identifying which updates will move the needle?</p>
+              <p className="text-white font-semibold mb-1">Need help identifying which updates will move the needle? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <p className="text-gray-400 text-sm">We analyze your content against AI citation patterns to find the highest-impact refreshes.</p>
             </div>
             <a href="mailto:support@theanswerengine.ai" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
@@ -679,7 +679,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               Rather than applying a single schedule to your entire website, the most effective approach is matching update
               frequency to content type. Some pages genuinely benefit from frequent attention. Others perform best when
               left alone and only revisited during major changes to your business or industry.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Timeline */}
             <div className="not-prose ae-timeline my-8">
@@ -694,7 +694,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 <div className="ae-timeline-dot" />
                 <div>
                   <div className="text-white font-semibold mb-1">Monthly</div>
-                  <p className="text-gray-400 text-sm">Product comparison pages, "best of" lists, tool recommendations, competitive analyses. The landscape changes fast enough that monthly checks catch important shifts.</p>
+                  <p className="text-gray-400 text-sm">Product comparison pages, "best of" lists, tool recommendations, competitive analyses. The landscape changes fast enough that monthly checks catch important shifts. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -708,7 +708,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 <div className="ae-timeline-dot" />
                 <div>
                   <div className="text-white font-semibold mb-1">Twice Per Year</div>
-                  <p className="text-gray-400 text-sm">About pages, team pages, foundational pillar content, location pages. Update when there are real changes to report, not on a schedule.</p>
+                  <p className="text-gray-400 text-sm">About pages, team pages, foundational pillar content, location pages. Update when there are real changes to report, not on a schedule. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -725,14 +725,14 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               which cadence tier. They do not waste resources updating their about page every month, and they do not let
               their competitive comparison page go stale for six months. This kind of intentional prioritization is what
               separates a content strategy that generates AI visibility from one that just generates busywork.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
 
           {/* CTA Inline 5 */}
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Want a content refresh calendar built for your business?</p>
-              <p className="text-gray-400 text-sm">We map every page on your site to the right update cadence for maximum AI visibility.</p>
+              <p className="text-gray-400 text-sm">We map every page on your site to the right update cadence for maximum AI visibility. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Start With a Blind Spot Report
@@ -806,7 +806,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               or target high-value queries. Then look at the last time each page was meaningfully updated. If your
               highest-traffic service page was last revised eight months ago, that is your first refresh target,
               not a new blog post.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
               This approach also aligns with how AI crawlers budget their time. They do not crawl every page on your
@@ -819,7 +819,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           {/* CTA Inline 6 */}
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Ready to find your top 20% pages?</p>
+              <p className="text-white font-semibold mb-1">Ready to find your top 20% pages? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p className="text-gray-400 text-sm">Our Blind Spot Report identifies the pages with the highest AI citation potential on your site.</p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
@@ -840,7 +840,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               The pressure to update frequently leads businesses into several predictable traps. Each of these mistakes
               can actively harm your AI visibility rather than improve it. Knowing what not to do is just as important
               as knowing what to do.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Numbered list of mistakes */}
             <div className="not-prose space-y-6 my-8">
@@ -855,7 +855,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 <div className="shrink-0 w-10 h-10 rounded-full bg-red-500/10 flex items-center justify-center text-red-400 font-bold text-lg font-plus-jakarta">2</div>
                 <div>
                   <h4 className="text-white font-semibold mb-1">Updating Evergreen Content Unnecessarily</h4>
-                  <p className="text-gray-400 text-sm leading-relaxed">Some content does not need updating. A well-written guide about fundamental concepts in your industry does not become less accurate with time. Changing it without reason can actually reduce its stability signals.</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">Some content does not need updating. A well-written guide about fundamental concepts in your industry does not become less accurate with time. Changing it without reason can actually reduce its stability signals. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 </div>
               </div>
               <div className="flex gap-4 items-start p-5 rounded-xl bg-white/[0.02] border border-white/[0.06]">
@@ -869,7 +869,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 <div className="shrink-0 w-10 h-10 rounded-full bg-red-500/10 flex items-center justify-center text-red-400 font-bold text-lg font-plus-jakarta">4</div>
                 <div>
                   <h4 className="text-white font-semibold mb-1">Ignoring High-Traffic Pages While Updating Low-Traffic Ones</h4>
-                  <p className="text-gray-400 text-sm leading-relaxed">Many businesses update their blog regularly while letting their core service pages stagnate. Those service pages are often the ones AI platforms are most likely to cite when recommending businesses in your category.</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">Many businesses update their blog regularly while letting their core service pages stagnate. Those service pages are often the ones AI platforms are most likely to cite when recommending businesses in your category. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 </div>
               </div>
               <div className="flex gap-4 items-start p-5 rounded-xl bg-white/[0.02] border border-white/[0.06]">
@@ -893,7 +893,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                   Content updates should be driven by data and intent, not by a calendar. Before touching any page,
                   ask: has the topic changed? Have new competitors emerged? Are there new questions customers are asking?
                   If the answer to all three is no, your page may not need updating yet.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
             </div>
           </div>
@@ -902,7 +902,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Making mistakes you do not even realize?</p>
-              <p className="text-gray-400 text-sm">Our team audits your content strategy against the latest AI citation patterns.</p>
+              <p className="text-gray-400 text-sm">Our team audits your content strategy against the latest AI citation patterns. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Request a Free Audit
@@ -921,7 +921,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">2</div>
-                  <p className="text-gray-300 text-sm">ChatGPT cites URLs that are 393 to 458 days newer than what traditional Google search surfaces.</p>
+                  <p className="text-gray-300 text-sm">ChatGPT cites URLs that are 393 to 458 days newer than what traditional Google search surfaces. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">3</div>
@@ -929,7 +929,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">4</div>
-                  <p className="text-gray-300 text-sm">Never update publish dates without making substantive content changes. Both Google and AI platforms detect this.</p>
+                  <p className="text-gray-300 text-sm">Never update publish dates without making substantive content changes. Both Google and AI platforms detect this. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">5</div>
@@ -937,7 +937,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">6</div>
-                  <p className="text-gray-300 text-sm">Match update frequency to content type: weekly for trends, monthly for comparisons, quarterly for services, annually for evergreen.</p>
+                  <p className="text-gray-300 text-sm">Match update frequency to content type: weekly for trends, monthly for comparisons, quarterly for services, annually for evergreen. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">7</div>
@@ -945,7 +945,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">8</div>
-                  <p className="text-gray-300 text-sm">Aim to change 20 to 30 percent of textual content when refreshing a page for the update to register as meaningful.</p>
+                  <p className="text-gray-300 text-sm">Aim to change 20 to 30 percent of textual content when refreshing a page for the update to register as meaningful. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 </div>
               </div>
             </div>
@@ -955,7 +955,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Want this cheat sheet applied to your actual pages?</p>
-              <p className="text-gray-400 text-sm">Our Blind Spot Report maps each of your pages against these freshness benchmarks.</p>
+              <p className="text-gray-400 text-sm">Our Blind Spot Report maps each of your pages against these freshness benchmarks. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
             <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
@@ -977,7 +977,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           {/* CTA Inline 9 - Tel */}
           <div className="not-prose ae-cta-inline my-10">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Questions about your content freshness strategy?</p>
+              <p className="text-white font-semibold mb-1">Questions about your content freshness strategy? <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <p className="text-gray-400 text-sm">Talk to our AI visibility team directly.</p>
             </div>
             <a href="tel:+12134442229" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">

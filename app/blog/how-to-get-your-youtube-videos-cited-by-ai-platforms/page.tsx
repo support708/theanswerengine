@@ -284,17 +284,17 @@ export default function Page() {
             </div>
           </div>
 
-          <p>YouTube is no longer just a place to grow an audience or run ads. It has quietly become one of the most cited sources in AI search. When someone asks ChatGPT, Perplexity, or Google AI Overviews a question, the answer increasingly pulls from YouTube videos. Not just any videos. Specific kinds of videos with specific characteristics.</p>
+          <p>YouTube is no longer just a place to grow an audience or run ads. It has quietly become one of the most cited sources in AI search. When someone asks ChatGPT, Perplexity, or Google AI Overviews a question, the answer increasingly pulls from YouTube videos. Not just any videos. Specific kinds of videos with specific characteristics. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>An <a href="https://searchengineland.com/youtube-ai-search-citations-data-462830" target="_blank" rel="noopener noreferrer">OtterlyAI study</a> analyzing large-scale citation patterns found that YouTube earns 200 times more AI citations than any other video platform. That is not a marginal advantage. That is total dominance. And it means that if you are creating video content and want AI to reference your expertise, YouTube is the only platform that matters.</p>
+          <p>An <a href="https://searchengineland.com/youtube-ai-search-citations-data-462830" target="_blank" rel="noopener noreferrer">OtterlyAI study</a> analyzing large-scale citation patterns found that YouTube earns 200 times more AI citations than any other video platform. That is not a marginal advantage. That is total dominance. And it means that if you are creating video content and want AI to reference your expertise, YouTube is the only platform that matters. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Uncomfortable Reality</div>
-            <p>Most businesses creating YouTube content are optimizing for the wrong metrics. They focus on views, likes, and subscribers. But AI platforms do not care about any of those signals. The videos that get cited by AI look fundamentally different from the videos that go viral. Understanding that difference is the key to AI visibility through video.</p>
+            <p>Most businesses creating YouTube content are optimizing for the wrong metrics. They focus on views, likes, and subscribers. But AI platforms do not care about any of those signals. The videos that get cited by AI look fundamentally different from the videos that go viral. Understanding that difference is the key to AI visibility through video. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Not sure if AI platforms are citing your videos, or your competitors? Find out in 60 seconds.</p>
+            <p>Not sure if AI platforms are citing your videos, or your competitors? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Check Your AI Visibility Now</Link>
           </div>
 
@@ -302,19 +302,19 @@ export default function Page() {
           <span className="ae-section-label" id="youtube-ai-dominance">YouTube and AI</span>
           <h2>Why YouTube Dominates AI Citations Over Every Other Video Platform</h2>
 
-          <p>The reason YouTube earns a 200x citation advantage over competitors like Vimeo is not just market share. It is structural. YouTube videos produce multiple machine-readable layers: transcripts, descriptions, chapter markers, comment threads, and metadata. Every one of these layers gives AI platforms text it can parse, evaluate, and cite.</p>
+          <p>The reason YouTube earns a 200x citation advantage over competitors like Vimeo is not just market share. It is structural. YouTube videos produce multiple machine-readable layers: transcripts, descriptions, chapter markers, comment threads, and metadata. Every one of these layers gives AI platforms text it can parse, evaluate, and cite. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-          <p>When Perplexity answers a question about how to install a kitchen faucet, it does not watch the video. It reads the transcript. It scans the description for context. It checks whether the video is structured with chapters that map to specific sub-questions. Then it decides whether that content is worth citing.</p>
+          <p>When Perplexity answers a question about how to install a kitchen faucet, it does not watch the video. It reads the transcript. It scans the description for context. It checks whether the video is structured with chapters that map to specific sub-questions. Then it decides whether that content is worth citing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-          <p>YouTube also benefits from Google's integration pipeline. Google AI Overviews cite YouTube at a rate of 29.5%, making it the single most-cited domain across all of Google's AI surfaces. That is higher than Mayo Clinic, Wikipedia, or any other authoritative source. The integration between YouTube and Google's AI systems creates a direct pathway that no other video platform can replicate.</p>
+          <p>YouTube also benefits from Google's integration pipeline. Google AI Overviews cite YouTube at a rate of 29.5%, making it the single most-cited domain across all of Google's AI surfaces. That is higher than Mayo Clinic, Wikipedia, or any other authoritative source. The integration between YouTube and Google's AI systems creates a direct pathway that no other video platform can replicate. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">Why This Matters for Your Business</div>
-            <p>If you are producing educational or reference-style video content on any platform other than YouTube, AI will almost certainly never cite it. The structural advantages of YouTube, from its transcript system to its chapter markers to its integration with Google's AI pipeline, make it the only viable video platform for AI visibility.</p>
+            <p>If you are producing educational or reference-style video content on any platform other than YouTube, AI will almost certainly never cite it. The structural advantages of YouTube, from its transcript system to its chapter markers to its integration with Google's AI pipeline, make it the only viable video platform for AI visibility. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Is your YouTube channel producing content that AI can actually cite? We can audit your video presence.</p>
+            <p>Is your YouTube channel producing content that AI can actually cite? We can audit your video presence. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -322,25 +322,25 @@ export default function Page() {
           <span className="ae-section-label" id="what-ai-reads">Transcripts and Text</span>
           <h2>What AI Platforms Actually Read From Your Videos</h2>
 
-          <p>AI platforms cannot watch video. They read text. That means the most important element of any YouTube video, from an AI citation perspective, is not the visual content. It is the transcript, the description, and the structured metadata surrounding the video.</p>
+          <p>AI platforms cannot watch video. They read text. That means the most important element of any YouTube video, from an AI citation perspective, is not the visual content. It is the transcript, the description, and the structured metadata surrounding the video. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <p>There are three primary text layers that AI extracts from YouTube content. The first is the transcript, either auto-generated or manually uploaded. The second is the video description, which AI engines treat as contextual metadata for determining relevance. The third is the chapter structure, which functions like section headers in a written article. Together, these layers determine whether AI can find, understand, and cite your video.</p>
+          <p>There are three primary text layers that AI extracts from YouTube content. The first is the transcript, either auto-generated or manually uploaded. The second is the video description, which AI engines treat as contextual metadata for determining relevance. The third is the chapter structure, which functions like section headers in a written article. Together, these layers determine whether AI can find, understand, and cite your video. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
-          <p>The quality gap between auto-generated captions and manually uploaded transcripts is significant. Auto-captions introduce errors, miss technical terminology, and often lack punctuation. AI platforms processing noisy transcripts are less likely to extract a clean, quotable passage. Uploading a reviewed transcript removes that friction and gives AI a polished text version of your spoken expertise.</p>
+          <p>The quality gap between auto-generated captions and manually uploaded transcripts is significant. Auto-captions introduce errors, miss technical terminology, and often lack punctuation. AI platforms processing noisy transcripts are less likely to extract a clean, quotable passage. Uploading a reviewed transcript removes that friction and gives AI a polished text version of your spoken expertise. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-quote">
-            <p>AI does not watch your video. It reads your transcript. If your transcript is messy, your expertise is invisible.</p>
+            <p>AI does not watch your video. It reads your transcript. If your transcript is messy, your expertise is invisible. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
 
-          <p>Your video description serves a different function. AI platforms use it to determine topical relevance before processing the full transcript. A description that reads like metadata, clearly stating what the video covers, who it is for, and what questions it answers, signals to AI that this content is designed for retrieval rather than casual browsing.</p>
+          <p>Your video description serves a different function. AI platforms use it to determine topical relevance before processing the full transcript. A description that reads like metadata, clearly stating what the video covers, who it is for, and what questions it answers, signals to AI that this content is designed for retrieval rather than casual browsing. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>The three layers AI reads from your YouTube videos are transcripts, descriptions, and chapter structures. Optimizing all three is what separates videos that get cited from videos that get ignored. The visual production quality of your video matters far less than the quality of these text layers.</p>
+            <p>The three layers AI reads from your YouTube videos are transcripts, descriptions, and chapter structures. Optimizing all three is what separates videos that get cited from videos that get ignored. The visual production quality of your video matters far less than the quality of these text layers. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Your video transcripts could be the missing link in your AI visibility. Let us find the gaps.</p>
+            <p>Your video transcripts could be the missing link in your AI visibility. Let us find the gaps. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             <Link href="/blindspot">Run Your Free AI Audit</Link>
           </div>
 
@@ -348,9 +348,9 @@ export default function Page() {
           <span className="ae-section-label" id="video-length">Length and Citations</span>
           <h2>The Video Length That Earns the Most AI Citations</h2>
 
-          <p>Not all video lengths perform equally in AI citation data. The research is clear: long-form video accounts for 94% of all AI citations from YouTube. The sweet spot is the 10 to 20 minute range, which captures 32.1% of all cited videos. The 5 to 10 minute range accounts for 26.1%, and videos over 20 minutes capture 17.6%.</p>
+          <p>Not all video lengths perform equally in AI citation data. The research is clear: long-form video accounts for 94% of all AI citations from YouTube. The sweet spot is the 10 to 20 minute range, which captures 32.1% of all cited videos. The 5 to 10 minute range accounts for 26.1%, and videos over 20 minutes capture 17.6%. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-          <p>YouTube Shorts, on the other end of the spectrum, account for just 5.7% of observed citations. The reason is straightforward. Shorts lack the depth, context, and transcript length that AI needs to generate a meaningful citation. A 30-second video cannot provide the nuanced answer that a 12-minute walkthrough can.</p>
+          <p>YouTube Shorts, on the other end of the spectrum, account for just 5.7% of observed citations. The reason is straightforward. Shorts lack the depth, context, and transcript length that AI needs to generate a meaningful citation. A 30-second video cannot provide the nuanced answer that a 12-minute walkthrough can. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* Bar Chart */}
           <div className="ae-bar-group">
@@ -381,15 +381,15 @@ export default function Page() {
             </div>
           </div>
 
-          <p>This does not mean you should pad videos to hit a length target. AI platforms are evaluating the density and relevance of the transcript, not the runtime. A 12-minute video that thoroughly covers a single topic will outperform a 25-minute video that rambles through loosely related subjects. The length is a byproduct of depth, not a goal in itself.</p>
+          <p>This does not mean you should pad videos to hit a length target. AI platforms are evaluating the density and relevance of the transcript, not the runtime. A 12-minute video that thoroughly covers a single topic will outperform a 25-minute video that rambles through loosely related subjects. The length is a byproduct of depth, not a goal in itself. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">The Shorts Trap</div>
-            <p>Many businesses have shifted their YouTube strategy toward Shorts because of the algorithm boost for short-form content. While Shorts may drive views and subscriber growth, they are nearly invisible to AI citation systems. If your goal is AI visibility, Shorts alone will not get you there. Think of Shorts as a discovery tool and long-form as your citation engine.</p>
+            <p>Many businesses have shifted their YouTube strategy toward Shorts because of the algorithm boost for short-form content. While Shorts may drive views and subscriber growth, they are nearly invisible to AI citation systems. If your goal is AI visibility, Shorts alone will not get you there. Think of Shorts as a discovery tool and long-form as your citation engine. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Is your video strategy optimized for AI citations or just views? There is a big difference.</p>
+            <p>Is your video strategy optimized for AI citations or just views? There is a big difference. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <Link href="/blindspot">See What AI Sees</Link>
           </div>
 
@@ -397,11 +397,11 @@ export default function Page() {
           <span className="ae-section-label" id="structure-signals">Structure Signals</span>
           <h2>Structure Signals That Make Videos Citable</h2>
 
-          <p>Here is a revealing statistic: only 31% of YouTube videos that currently get cited by AI contain chapter or timestamp structure. That means there is enormous untapped opportunity. If you add structural elements to your videos, you immediately differentiate your content from the 69% of cited videos that earned citations despite lacking this optimization.</p>
+          <p>Here is a revealing statistic: only 31% of YouTube videos that currently get cited by AI contain chapter or timestamp structure. That means there is enormous untapped opportunity. If you add structural elements to your videos, you immediately differentiate your content from the 69% of cited videos that earned citations despite lacking this optimization. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-          <p>Chapters and timestamps function like section headers in a blog post. They break your video into discrete, addressable segments that AI can reference individually. Instead of citing your entire 15-minute video, AI can point to the specific 2-minute segment that answers a particular question. That precision makes your content far more useful as a citation source.</p>
+          <p>Chapters and timestamps function like section headers in a blog post. They break your video into discrete, addressable segments that AI can reference individually. Instead of citing your entire 15-minute video, AI can point to the specific 2-minute segment that answers a particular question. That precision makes your content far more useful as a citation source. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-          <p>Beyond chapters, several other structural elements influence whether AI platforms cite a video. The description plays a role as metadata. Comment threads where the creator responds to viewer questions create a secondary Q&A layer. Pinned comments that summarize key points give AI another text source to evaluate. Each of these elements adds a citation surface that AI can latch onto.</p>
+          <p>Beyond chapters, several other structural elements influence whether AI platforms cite a video. The description plays a role as metadata. Comment threads where the creator responds to viewer questions create a secondary Q&A layer. Pinned comments that summarize key points give AI another text source to evaluate. Each of these elements adds a citation surface that AI can latch onto. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* Comparison Table */}
           <table className="ae-comparison-table">
@@ -455,11 +455,11 @@ export default function Page() {
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>The majority of YouTube creators have not yet optimized their videos for AI citation. That gap is your opportunity. Videos with chapters, clean transcripts, and metadata-rich descriptions are the ones AI platforms prefer to cite. The good news: you can retroactively add these elements to your existing video library.</p>
+            <p>The majority of YouTube creators have not yet optimized their videos for AI citation. That gap is your opportunity. Videos with chapters, clean transcripts, and metadata-rich descriptions are the ones AI platforms prefer to cite. The good news: you can retroactively add these elements to your existing video library. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Want to know which of your existing videos are closest to being AI-citable? Start with a visibility audit.</p>
+            <p>Want to know which of your existing videos are closest to being AI-citable? Start with a visibility audit. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <Link href="/blindspot">Get Your Blind Spot Report</Link>
           </div>
 
@@ -467,13 +467,13 @@ export default function Page() {
           <span className="ae-section-label" id="platform-differences">Platform Differences</span>
           <h2>How Perplexity, ChatGPT, and Google AI Treat YouTube Differently</h2>
 
-          <p>Not all AI platforms treat YouTube content the same way. The distribution of YouTube citations is heavily skewed. Perplexity accounts for 38.7% of total YouTube citations, Google AI Overviews handles 36.6%, and ChatGPT contributes just 4.4%. Understanding these differences shapes where your optimization efforts should focus.</p>
+          <p>Not all AI platforms treat YouTube content the same way. The distribution of YouTube citations is heavily skewed. Perplexity accounts for 38.7% of total YouTube citations, Google AI Overviews handles 36.6%, and ChatGPT contributes just 4.4%. Understanding these differences shapes where your optimization efforts should focus. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
-          <p>Perplexity cites YouTube frequently because its architecture is built around real-time web retrieval. When Perplexity answers a question, it actively searches the web, finds relevant YouTube videos, reads their transcripts, and cites them inline. This makes Perplexity the single largest driver of YouTube citations in AI search.</p>
+          <p>Perplexity cites YouTube frequently because its architecture is built around real-time web retrieval. When Perplexity answers a question, it actively searches the web, finds relevant YouTube videos, reads their transcripts, and cites them inline. This makes Perplexity the single largest driver of YouTube citations in AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-          <p>Google AI Overviews benefit from the direct integration between YouTube and Google's infrastructure. YouTube data flows natively into Google's AI systems without the friction of external crawling. This structural advantage means Google AI Overviews can surface YouTube content faster and with higher confidence than competing platforms.</p>
+          <p>Google AI Overviews benefit from the direct integration between YouTube and Google's infrastructure. YouTube data flows natively into Google's AI systems without the friction of external crawling. This structural advantage means Google AI Overviews can surface YouTube content faster and with higher confidence than competing platforms. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-          <p>ChatGPT, by contrast, relies less on real-time video content and more on its training data and browsing capabilities. While ChatGPT does cite YouTube, it does so at a fraction of the rate of Perplexity or Google AI. <Link href="/blog/reddit-mentions-boost-ai-search-visibility">ChatGPT tends to weight community platforms like Reddit</Link> more heavily for certain query types.</p>
+          <p>ChatGPT, by contrast, relies less on real-time video content and more on its training data and browsing capabilities. While ChatGPT does cite YouTube, it does so at a fraction of the rate of Perplexity or Google AI. <Link href="/blog/reddit-mentions-boost-ai-search-visibility">ChatGPT tends to weight community platforms like Reddit</Link> more heavily for certain query types. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           {/* Bar Chart: Platform Distribution */}
           <div className="ae-bar-group">

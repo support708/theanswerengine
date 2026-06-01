@@ -311,21 +311,21 @@ export default function ChatGPTOptimizationCost() {
 
           <p>If you are a local business owner wondering what it actually costs to get your business recommended by ChatGPT, you are asking the right question at exactly the right time.</p>
 
-          <p>Over 100 million people now use ChatGPT weekly to find local service providers. Plumbers, HVAC contractors, real estate agents, attorneys, home inspectors, and more. When someone asks &quot;Who should I hire for X in [your city]?&quot; ChatGPT typically recommends just 3 to 5 businesses.</p>
+          <p>Over 100 million people now use ChatGPT weekly to find local service providers. Plumbers, HVAC contractors, real estate agents, attorneys, home inspectors, and more. When someone asks &quot;Who should I hire for X in [your city]?&quot; ChatGPT typically recommends just 3 to 5 businesses. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <div className="not-prose ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Core Question</div>
             <p>Being one of those 3 to 5 businesses changes everything. But ChatGPT optimization (Answer Engine Optimization, or AEO) is fundamentally different from traditional SEO. The pricing structure is different. The timeline is different. The required expertise is different. This guide breaks it all down with complete transparency.</p>
           </div>
 
-          <p>We will cover DIY options (under $500), professional packages ($2,997 to $8,988), enterprise-level optimization ($25K to $50K+), and the hidden costs most providers never mention upfront. By the end, you will understand exactly what investment makes sense for your business size and goals.</p>
+          <p>We will cover DIY options (under $500), professional packages ($2,997 to $8,988), enterprise-level optimization ($25K to $50K+), and the hidden costs most providers never mention upfront. By the end, you will understand exactly what investment makes sense for your business size and goals. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="not-prose ae-quote">
             <p>&quot;The businesses that invest in AI visibility now will own their markets for the next decade. The ones that wait will pay 10x more to catch up.&quot;</p>
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Not sure if AI platforms are recommending your business or sending customers to competitors?</p>
+            <p>Not sure if AI platforms are recommending your business or sending customers to competitors? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -377,7 +377,7 @@ export default function ChatGPTOptimizationCost() {
 
           <div className="not-prose ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Unlike traditional SEO agencies that charge $2,000 to $5,000 per month ($24K to $60K annually), professional AEO is a one-time investment in evergreen content. The content keeps working for years without recurring fees.</p>
+            <p>Unlike traditional SEO agencies that charge $2,000 to $5,000 per month ($24K to $60K annually), professional AEO is a one-time investment in evergreen content. The content keeps working for years without recurring fees. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <h3>Why ChatGPT Optimization Costs What It Does</h3>
@@ -407,7 +407,7 @@ export default function ChatGPTOptimizationCost() {
             </div>
           </div>
 
-          <p>A 60 to 90 minute recorded interview with you captures your authentic expertise and communication style. AI platforms detect generic or fabricated content, so this step cannot be skipped. The content depth must reach 1,500 to 3,000+ words per article. Generic 400-word blog posts get ignored. And the technical implementation (schema markup, information architecture, entity consistency) ensures AI platforms can parse your content reliably.</p>
+          <p>A 60 to 90 minute recorded interview with you captures your authentic expertise and communication style. AI platforms detect generic or fabricated content, so this step cannot be skipped. The content depth must reach 1,500 to 3,000+ words per article. Generic 400-word blog posts get ignored. And the technical implementation (schema markup, information architecture, entity consistency) ensures AI platforms can parse your content reliably. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <div className="not-prose ae-cta-inline">
             <p>Want to see if your current content is even visible to AI platforms?</p>
@@ -418,7 +418,7 @@ export default function ChatGPTOptimizationCost() {
           <span className="not-prose ae-section-label">DIY Route</span>
           <h2>DIY ChatGPT Optimization: The $0 to $500 Option</h2>
 
-          <p>DIY ChatGPT optimization costs under $500 in direct expenses (tools, software) but requires 40 to 60 hours of work over 4 to 8 months. You need technical knowledge of schema markup, understanding of AI citation patterns, content creation skills, and significant time investment. Success rate is approximately 30 to 40% for first-time attempts without professional guidance.</p>
+          <p>DIY ChatGPT optimization costs under $500 in direct expenses (tools, software) but requires 40 to 60 hours of work over 4 to 8 months. You need technical knowledge of schema markup, understanding of AI citation patterns, content creation skills, and significant time investment. Success rate is approximately 30 to 40% for first-time attempts without professional guidance. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="not-prose ae-pros-cons">
             <div className="ae-pros-box">
@@ -528,7 +528,7 @@ export default function ChatGPTOptimizationCost() {
 
           <div className="not-prose ae-callout ae-callout-info">
             <div className="ae-callout-title">Reality Check: DIY Success Rates</div>
-            <p>We have analyzed 50+ DIY AEO attempts by local businesses. Success rate (achieving consistent AI citations within 6 months) was approximately 35%. The most common failures: content not detailed enough, schema markup errors, generic writing that does not demonstrate authentic expertise, incomplete hub-and-spoke architecture, and abandoning the project before completion (40% gave up).</p>
+            <p>We have analyzed 50+ DIY AEO attempts by local businesses. Success rate (achieving consistent AI citations within 6 months) was approximately 35%. The most common failures: content not detailed enough, schema markup errors, generic writing that does not demonstrate authentic expertise, incomplete hub-and-spoke architecture, and abandoning the project before completion (40% gave up). <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           <div className="not-prose ae-decision-matrix">
@@ -564,7 +564,7 @@ export default function ChatGPTOptimizationCost() {
           <span className="not-prose ae-section-label">Professional Packages</span>
           <h2>Professional ChatGPT Optimization: $2,997 to $8,988 Package Breakdown</h2>
 
-          <p>The Answer Engine&apos;s professional packages range from $2,997 (Foundation) to $8,988 (Market Leader), all requiring full upfront payment. Each package includes voice capture interviews, professionally written articles optimized with the AERO-6 framework, complete schema markup implementation, and 90-day AI citation monitoring. This is a one-time investment with no recurring fees.</p>
+          <p>The Answer Engine&apos;s professional packages range from $2,997 (Foundation) to $8,988 (Market Leader), all requiring full upfront payment. Each package includes voice capture interviews, professionally written articles optimized with the AERO-6 framework, complete schema markup implementation, and 90-day AI citation monitoring. This is a one-time investment with no recurring fees. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="not-prose">
             <table className="ae-comparison-table">
@@ -636,7 +636,7 @@ export default function ChatGPTOptimizationCost() {
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Have questions about which package fits your business? Talk to a human.</p>
+            <p>Have questions about which package fits your business? Talk to a human. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <a href="tel:+12134442229">Call (213) 444-2229</a>
           </div>
 
@@ -646,7 +646,7 @@ export default function ChatGPTOptimizationCost() {
 
           <h3>Dominance Package (3x): $7,491</h3>
 
-          <p>Three comprehensive topical pillars, 21 total articles, a wider competitive moat that is harder for competitors to match. Cost per article: $357 (17% discount). Timeline: 14 to 18 weeks. Includes quarterly strategy review call. Best for businesses with $1M to $3M revenue in competitive markets.</p>
+          <p>Three comprehensive topical pillars, 21 total articles, a wider competitive moat that is harder for competitors to match. Cost per article: $357 (17% discount). Timeline: 14 to 18 weeks. Includes quarterly strategy review call. Best for businesses with $1M to $3M revenue in competitive markets. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <h3>Market Leader Package (4x): $8,988</h3>
 
@@ -656,7 +656,7 @@ export default function ChatGPTOptimizationCost() {
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Not sure which package fits your business? Start with the data.</p>
+            <p>Not sure which package fits your business? Start with the data. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -711,7 +711,7 @@ export default function ChatGPTOptimizationCost() {
           <span className="not-prose ae-section-label">Enterprise Tier</span>
           <h2>Enterprise ChatGPT Optimization: $25,000 to $50,000+ Investment</h2>
 
-          <p>Enterprise ChatGPT optimization for multi-location businesses, franchises, or companies with 10+ service specialties typically costs $25,000 to $50,000+ and includes comprehensive content coverage (50+ articles), multi-location optimization, ongoing content refresh, dedicated account management, quarterly strategy sessions, and continuous monitoring.</p>
+          <p>Enterprise ChatGPT optimization for multi-location businesses, franchises, or companies with 10+ service specialties typically costs $25,000 to $50,000+ and includes comprehensive content coverage (50+ articles), multi-location optimization, ongoing content refresh, dedicated account management, quarterly strategy sessions, and continuous monitoring. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="not-prose ae-stats-grid">
             <div className="ae-stat-card">
@@ -765,7 +765,7 @@ export default function ChatGPTOptimizationCost() {
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Managing multiple locations? Find out which ones AI is already recommending.</p>
+            <p>Managing multiple locations? Find out which ones AI is already recommending. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot">Get Your Multi-Location AI Audit</Link>
           </div>
 
@@ -816,7 +816,7 @@ export default function ChatGPTOptimizationCost() {
 
           <div className="not-prose ae-takeaway">
             <div className="ae-takeaway-title">Why AEO Costs Less Than SEO</div>
-            <p>Traditional SEO agencies charge monthly because they fight continuous algorithm changes, compete for backlinks, and manage technical updates. AI platforms evaluate content based on meaning and expertise, not backlinks. Once published with proper schema, it keeps working without ongoing maintenance. AEO is a capital investment (like building a website), not an operating expense (like advertising).</p>
+            <p>Traditional SEO agencies charge monthly because they fight continuous algorithm changes, compete for backlinks, and manage technical updates. AI platforms evaluate content based on meaning and expertise, not backlinks. Once published with proper schema, it keeps working without ongoing maintenance. AEO is a capital investment (like building a website), not an operating expense (like advertising). Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           </div>
 
           <div className="not-prose ae-quote">
@@ -850,7 +850,7 @@ export default function ChatGPTOptimizationCost() {
 
           <div className="not-prose ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Math Is Clear</div>
-            <p>You save $500 to $7,500 compared to content agencies while getting significantly more value: voice capture, strategic architecture, schema markup, quality audits, and AI citation monitoring. Content agencies do not provide any of those services.</p>
+            <p>You save $500 to $7,500 compared to content agencies while getting significantly more value: voice capture, strategic architecture, schema markup, quality audits, and AI citation monitoring. Content agencies do not provide any of those services. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div className="not-prose ae-cta-inline">
@@ -862,7 +862,7 @@ export default function ChatGPTOptimizationCost() {
           <span className="not-prose ae-section-label">ROI Timeline</span>
           <h2>ROI Timeline: When Does ChatGPT Optimization Pay For Itself?</h2>
 
-          <p>Most businesses see initial AI citations within 30 to 90 days post-publication. For the Foundation package at $2,997, if you generate just 1 new client per month from AI platforms, ROI is achieved in 1 to 3 months depending on your average client value.</p>
+          <p>Most businesses see initial AI citations within 30 to 90 days post-publication. For the Foundation package at $2,997, if you generate just 1 new client per month from AI platforms, ROI is achieved in 1 to 3 months depending on your average client value. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="not-prose ae-timeline">
             <div className="ae-timeline-item">
@@ -944,7 +944,7 @@ export default function ChatGPTOptimizationCost() {
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Discover exactly how many leads AI is sending to your competitors right now.</p>
+            <p>Discover exactly how many leads AI is sending to your competitors right now. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -956,7 +956,7 @@ export default function ChatGPTOptimizationCost() {
 
           <div className="not-prose ae-callout ae-callout-warning">
             <div className="ae-callout-title">Red Flag #1: &quot;Guaranteed #1 Rankings in ChatGPT&quot;</div>
-            <p>ChatGPT does not have rankings. It selects 3 to 5 businesses it deems most trustworthy for each query. Any provider promising &quot;#1 rankings&quot; fundamentally misunderstands how AI platforms work. Look for providers who discuss citation probability, authority building, and comprehensive expertise demonstration instead.</p>
+            <p>ChatGPT does not have rankings. It selects 3 to 5 businesses it deems most trustworthy for each query. Any provider promising &quot;#1 rankings&quot; fundamentally misunderstands how AI platforms work. Look for providers who discuss citation probability, authority building, and comprehensive expertise demonstration instead. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
           <div className="not-prose ae-callout ae-callout-warning">
@@ -966,7 +966,7 @@ export default function ChatGPTOptimizationCost() {
 
           <div className="not-prose ae-callout ae-callout-warning">
             <div className="ae-callout-title">Red Flag #3: Bulk Article Packages Under $1,000</div>
-            <p>&quot;50 AI-optimized articles for $997!&quot; These are AI-generated bulk content farms. ChatGPT detects generic, fabricated content instantly. These articles will not earn citations and may actually harm your credibility. Real expertise costs more than $20/article to capture and produce.</p>
+            <p>&quot;50 AI-optimized articles for $997!&quot; These are AI-generated bulk content farms. ChatGPT detects generic, fabricated content instantly. These articles will not earn citations and may actually harm your credibility. Real expertise costs more than $20/article to capture and produce. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <div className="not-prose ae-callout ae-callout-warning">
@@ -975,7 +975,7 @@ export default function ChatGPTOptimizationCost() {
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Want straight answers about your AI visibility? No sales pitch, just data.</p>
+            <p>Want straight answers about your AI visibility? No sales pitch, just data. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
           </div>
 
@@ -986,7 +986,7 @@ export default function ChatGPTOptimizationCost() {
 
           <div className="not-prose ae-callout ae-callout-warning">
             <div className="ae-callout-title">Red Flag #6: No Schema Markup Implementation</div>
-            <p>Schema markup is critical for AI platforms to understand and parse your content reliably. Providers who do not include schema implementation are leaving out a foundational element of AEO. Ask to see example JSON-LD implementations (Article, FAQPage, HowTo, LocalBusiness).</p>
+            <p>Schema markup is critical for AI platforms to understand and parse your content reliably. Providers who do not include schema implementation are leaving out a foundational element of AEO. Ask to see example JSON-LD implementations (Article, FAQPage, HowTo, LocalBusiness). We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           </div>
 
           <div className="not-prose ae-callout ae-callout-warning">
@@ -996,7 +996,7 @@ export default function ChatGPTOptimizationCost() {
 
           <div className="not-prose ae-callout ae-callout-warning">
             <div className="ae-callout-title">Red Flag #8: No Quality Audit Process</div>
-            <p>If the provider does not mention quality audits, scoring systems, or multi-round reviews, they are likely producing first-draft content without verification. AI platforms reward excellence. Mediocre content gets ignored. Look for explicit quality frameworks with defined score thresholds and multi-round refinement.</p>
+            <p>If the provider does not mention quality audits, scoring systems, or multi-round reviews, they are likely producing first-draft content without verification. AI platforms reward excellence. Mediocre content gets ignored. Look for explicit quality frameworks with defined score thresholds and multi-round refinement. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <div className="not-prose ae-cta-inline">
@@ -1049,7 +1049,7 @@ export default function ChatGPTOptimizationCost() {
           </div>
 
           <div className="not-prose ae-cta-inline">
-            <p>Skip the guesswork. See real data on your AI visibility right now.</p>
+            <p>Skip the guesswork. See real data on your AI visibility right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot">Run Your Free AI Visibility Check</Link>
           </div>
 
@@ -1061,7 +1061,7 @@ export default function ChatGPTOptimizationCost() {
           <p>Professional ChatGPT optimization typically costs $1,500 to $5,000+ as a one-time investment for local service businesses. Our Answer Authority Foundation package is $2,997 and includes comprehensive content creation, voice capture interviews, and 90-day monitoring. DIY approaches can cost under $500 but require 40 to 60 hours of work over 4 to 8 months.</p>
 
           <h3>Is ChatGPT optimization a one-time cost or monthly subscription?</h3>
-          <p>Professional ChatGPT optimization is typically a one-time upfront investment, not a monthly subscription. The content created is evergreen and continues working for years. Monthly SEO agencies cost $2,000 to $5,000/month ($24K to $60K annually), while our one-time $2,997 Foundation package provides lasting value.</p>
+          <p>Professional ChatGPT optimization is typically a one-time upfront investment, not a monthly subscription. The content created is evergreen and continues working for years. Monthly SEO agencies cost $2,000 to $5,000/month ($24K to $60K annually), while our one-time $2,997 Foundation package provides lasting value. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="not-prose ae-cta-inline">
             <p>Wondering if your current marketing spend is delivering AI visibility?</p>
@@ -1069,13 +1069,13 @@ export default function ChatGPTOptimizationCost() {
           </div>
 
           <h3>What is the difference between DIY and professional ChatGPT optimization?</h3>
-          <p>DIY ChatGPT optimization costs under $500 but requires 40 to 60 hours of work, technical knowledge of schema markup, understanding of AI citation patterns, and 4 to 8 months to complete. Professional optimization includes voice capture interviews for authentic expertise, the AERO-6 framework, multi-round quality audits (95%+ scores required), and results within 90 days.</p>
+          <p>DIY ChatGPT optimization costs under $500 but requires 40 to 60 hours of work, technical knowledge of schema markup, understanding of AI citation patterns, and 4 to 8 months to complete. Professional optimization includes voice capture interviews for authentic expertise, the AERO-6 framework, multi-round quality audits (95%+ scores required), and results within 90 days. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <h3>How long does it take to see ROI from ChatGPT optimization?</h3>
           <p>Most businesses see initial AI citations within 30 to 90 days post-publication. For the Foundation package at $2,997, if you generate just 1 new client per month, ROI is achieved in 1 to 3 months depending on your average client value. The content continues working 24/7 for years.</p>
 
           <h3>Why is professional AEO cheaper than traditional SEO agencies?</h3>
-          <p>Traditional SEO agencies charge $2,000 to $5,000 per month ($24K to $60K annually) for ongoing services. ChatGPT optimization is a one-time content investment ($2,997 to $8,988) that does not require continuous optimization. AI platforms evaluate content meaning and expertise directly, not backlinks or domain authority.</p>
+          <p>Traditional SEO agencies charge $2,000 to $5,000 per month ($24K to $60K annually) for ongoing services. ChatGPT optimization is a one-time content investment ($2,997 to $8,988) that does not require continuous optimization. AI platforms evaluate content meaning and expertise directly, not backlinks or domain authority. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <div className="not-prose ae-cta-inline">
             <p>Find out if your investment in SEO is even being seen by AI platforms.</p>
@@ -1083,13 +1083,13 @@ export default function ChatGPTOptimizationCost() {
           </div>
 
           <h3>Can I start with one article to test ChatGPT optimization?</h3>
-          <p>AI platforms look for topical authority, not individual articles. ChatGPT evaluates whether a business demonstrates comprehensive expertise across a subject area. The hub-and-spoke architecture (6 supporting articles feeding 1 comprehensive guide) is the minimum content structure that signals genuine expertise. Single articles rarely earn citations because they do not establish authority.</p>
+          <p>AI platforms look for topical authority, not individual articles. ChatGPT evaluates whether a business demonstrates comprehensive expertise across a subject area. The hub-and-spoke architecture (6 supporting articles feeding 1 comprehensive guide) is the minimum content structure that signals genuine expertise. Single articles rarely earn citations because they do not establish authority. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <h3>What red flags should I watch for when evaluating AEO providers?</h3>
           <p>Major red flags include: guaranteed #1 rankings (AI platforms do not have rankings), pay-per-performance pricing (indicates lack of confidence), cheap bulk article packages under $1,000 (quality insufficient for AI citation), no voice capture process (generic content will not demonstrate authentic expertise), promises of immediate results (AI indexing takes 30 to 90 days), and lack of schema markup implementation.</p>
 
           <h3>How does ChatGPT optimization pricing compare to content marketing agencies?</h3>
-          <p>Content marketing agencies typically charge $500 to $1,500 per blog post. The Answer Authority Foundation package at $2,997 includes 7 articles ($428 per article), plus strategic hub-and-spoke architecture, voice capture for authentic expertise, AERO-6 framework optimization, schema markup implementation, and 90-day AI citation monitoring. Content agencies do not provide those services.</p>
+          <p>Content marketing agencies typically charge $500 to $1,500 per blog post. The Answer Authority Foundation package at $2,997 includes 7 articles ($428 per article), plus strategic hub-and-spoke architecture, voice capture for authentic expertise, AERO-6 framework optimization, schema markup implementation, and 90-day AI citation monitoring. Content agencies do not provide those services. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <div className="not-prose ae-cta-inline">
             <p>Still deciding? Let the data make the case. It takes 30 seconds.</p>
@@ -1099,7 +1099,7 @@ export default function ChatGPTOptimizationCost() {
           {/* Pricing Disclaimer */}
           <div className="not-prose ae-callout ae-callout-info">
             <div className="ae-callout-title">Pricing Disclaimer</div>
-            <p>All pricing quoted is effective as of January 2025 and subject to change. Package availability, deliverables, and timelines may vary based on business complexity and market conditions. ROI estimates are based on typical results but individual business outcomes may vary. Citation rates depend on content quality, market competition, and AI platform algorithm updates.</p>
+            <p>All pricing quoted is effective as of January 2025 and subject to change. Package availability, deliverables, and timelines may vary based on business complexity and market conditions. ROI estimates are based on typical results but individual business outcomes may vary. Citation rates depend on content quality, market competition, and AI platform algorithm updates. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           {/* Author Card */}
@@ -1121,7 +1121,7 @@ export default function ChatGPTOptimizationCost() {
           {/* Final CTA */}
           <div className="not-prose ae-final-cta">
             <h2>Find Out If AI Is Recommending Your Business</h2>
-            <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand. No pitch, just the data.</p>
+            <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand. No pitch, just the data. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
             <div className="ae-final-cta-contact">
               <a href="tel:+12134442229">(213) 444-2229</a>

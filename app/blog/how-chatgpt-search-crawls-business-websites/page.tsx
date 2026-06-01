@@ -270,11 +270,11 @@ export default function Page() {
             <span className="ae-section-label" id="search-vs-training">The Two-Mode Problem</span>
             <h2>Search Mode vs Training Mode: Two Very Different Systems</h2>
 
-            <p>Most people treat ChatGPT as a single system. It is not. There are two fundamentally different modes of operation, and whether your business gets cited depends almost entirely on which one activates when a user asks a question.</p>
+            <p>Most people treat ChatGPT as a single system. It is not. There are two fundamentally different modes of operation, and whether your business gets cited depends almost entirely on which one activates when a user asks a question. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>The default mode uses training data. ChatGPT answers from what it learned before its April 2024 knowledge cutoff. No live browsing, no fresh data, no access to anything you published last week. This is the mode that fires on 65.5% of all queries. In this mode, ChatGPT tends to cite third-party review sites, media outlets, and aggregator pages because those are what populated its training corpus.</p>
+            <p>The default mode uses training data. ChatGPT answers from what it learned before its April 2024 knowledge cutoff. No live browsing, no fresh data, no access to anything you published last week. This is the mode that fires on 65.5% of all queries. In this mode, ChatGPT tends to cite third-party review sites, media outlets, and aggregator pages because those are what populated its training corpus. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>Search-enabled mode is different. It triggers on 34.5% of queries, fetches live web data through Bing, and preferentially cites <strong>first-party business pages</strong>: your own website, your service pages, your pricing pages. This is the mode that matters most for businesses, and it operates on a completely different set of rules than training mode.</p>
+            <p>Search-enabled mode is different. It triggers on 34.5% of queries, fetches live web data through Bing, and preferentially cites <strong>first-party business pages</strong>: your own website, your service pages, your pricing pages. This is the mode that matters most for businesses, and it operates on a completely different set of rules than training mode. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* ── COMPARISON TABLE ── */}
             <table className="ae-comparison-table not-prose">
@@ -331,12 +331,12 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Why This Matters for Your Business</div>
-              <p>If your business is only optimized for how ChatGPT cites sources in training mode, you are optimizing for third-party mentions and review aggregators. That matters too. But the businesses that appear in ChatGPT Search results appear directly from their own pages. Getting your own website into the search-enabled citation pipeline is the higher-leverage move.</p>
+              <p>If your business is only optimized for how ChatGPT cites sources in training mode, you are optimizing for third-party mentions and review aggregators. That matters too. But the businesses that appear in ChatGPT Search results appear directly from their own pages. Getting your own website into the search-enabled citation pipeline is the higher-leverage move. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know whether ChatGPT is citing your business directly or through third parties?</p>
+              <p>Want to know whether ChatGPT is citing your business directly or through third parties? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -344,37 +344,37 @@ export default function Page() {
             <span className="ae-section-label" id="four-phase">How It Finds You</span>
             <h2>The Four-Phase Discovery Process</h2>
 
-            <p>When a user submits a query that triggers ChatGPT Search, your page does not get read from start to finish. It goes through a rapid multi-phase evaluation where most pages get filtered out before ChatGPT reads a single word of your content. Understanding each phase tells you exactly where to focus.</p>
+            <p>When a user submits a query that triggers ChatGPT Search, your page does not get read from start to finish. It goes through a rapid multi-phase evaluation where most pages get filtered out before ChatGPT reads a single word of your content. Understanding each phase tells you exactly where to focus. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* ── TIMELINE: FOUR PHASES ── */}
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Phase 1: Query Optimization</strong>
-                <p>ChatGPT rewrites the user&apos;s original query into one or more &quot;fan-out queries&quot; optimized for web search. The user might type &quot;best plumber near me open Sunday,&quot; but ChatGPT may execute three separate search queries behind the scenes. Your page needs to align with these reconstructed search intents, not just the original phrasing.</p>
+                <p>ChatGPT rewrites the user&apos;s original query into one or more &quot;fan-out queries&quot; optimized for web search. The user might type &quot;best plumber near me open Sunday,&quot; but ChatGPT may execute three separate search queries behind the scenes. Your page needs to align with these reconstructed search intents, not just the original phrasing. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Phase 2: Web Search via Bing</strong>
-                <p>The fan-out queries are executed through Bing&apos;s infrastructure. Only pages already indexed in Bing&apos;s index can appear here. If Bing has not crawled your page, it does not exist to ChatGPT Search. Bing Places for Business is one of the largest data sources for local business discovery at this phase.</p>
+                <p>The fan-out queries are executed through Bing&apos;s infrastructure. Only pages already indexed in Bing&apos;s index can appear here. If Bing has not crawled your page, it does not exist to ChatGPT Search. Bing Places for Business is one of the largest data sources for local business discovery at this phase. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Phase 3: Content Filtering via Metadata</strong>
-                <p>ChatGPT reads your page title and meta description in under one second. If your metadata is vague, generic, or mismatched to the query, your page gets skipped. This filter eliminates most pages before any actual content is read. Strong, specific, keyword-relevant metadata is a prerequisite to getting further in the pipeline.</p>
+                <p>ChatGPT reads your page title and meta description in under one second. If your metadata is vague, generic, or mismatched to the query, your page gets skipped. This filter eliminates most pages before any actual content is read. Strong, specific, keyword-relevant metadata is a prerequisite to getting further in the pipeline. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Phase 4: Sliding-Window Reading</strong>
-                <p>Pages that pass Phase 3 are read in fixed chunks: lines 0, 30, 50, 80, and so on. Each window returns a fixed text block. ChatGPT does not read your entire page. It samples strategic sections. Content buried below the fold or in JavaScript-rendered sections may never be seen. Leading with your most important signals in the first visible content blocks is critical.</p>
+                <p>Pages that pass Phase 3 are read in fixed chunks: lines 0, 30, 50, 80, and so on. Each window returns a fixed text block. ChatGPT does not read your entire page. It samples strategic sections. Content buried below the fold or in JavaScript-rendered sections may never be seen. Leading with your most important signals in the first visible content blocks is critical. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
             <div className="ae-quote not-prose">
-              <p>ChatGPT does not read websites. It samples them. Whether your most important content lands in a sampled window is not luck. It is structure.</p>
+              <p>ChatGPT does not read websites. It samples them. Whether your most important content lands in a sampled window is not luck. It is structure. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
-            <p>The sliding-window reading behavior explains why businesses with dense, well-organized content sections outperform businesses with long narrative pages. Short, dense, clearly labeled content blocks are more likely to fall within a sampled window than long flowing paragraphs that could be skipped entirely.</p>
+            <p>The sliding-window reading behavior explains why businesses with dense, well-organized content sections outperform businesses with long narrative pages. Short, dense, clearly labeled content blocks are more likely to fall within a sampled window than long flowing paragraphs that could be skipped entirely. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your page structure is optimized for the sliding-window reading model?</p>
+              <p>Not sure if your page structure is optimized for the sliding-window reading model? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/what-your-website-looks-like-to-an-ai-crawler">See What AI Crawlers Actually See on Your Site &rarr;</Link>
             </div>
 
@@ -382,7 +382,7 @@ export default function Page() {
             <span className="ae-section-label" id="crawlers">The Bots</span>
             <h2>ChatGPT&apos;s Three Crawlers and What They Do</h2>
 
-            <p>ChatGPT does not send a single crawler to your site. It uses three distinct crawlers with different roles, and how you handle each one affects your visibility in different ways.</p>
+            <p>ChatGPT does not send a single crawler to your site. It uses three distinct crawlers with different roles, and how you handle each one affects your visibility in different ways. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── DECISION MATRIX ── */}
             <table className="ae-decision-matrix not-prose">
@@ -416,18 +416,18 @@ export default function Page() {
               </tbody>
             </table>
 
-            <p>GPTBot collects the training data that shapes what ChatGPT knows about your business when search is not triggered. OAI-SearchBot handles real-time retrieval for search-enabled queries. ChatGPT-User fires when a user pastes a link directly into a ChatGPT conversation or when ChatGPT needs to fetch a specific page during a search session.</p>
+            <p>GPTBot collects the training data that shapes what ChatGPT knows about your business when search is not triggered. OAI-SearchBot handles real-time retrieval for search-enabled queries. ChatGPT-User fires when a user pastes a link directly into a ChatGPT conversation or when ChatGPT needs to fetch a specific page during a search session. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Robots.txt Trap</div>
-              <p>A significant number of businesses discovered they had blocked GPTBot or OAI-SearchBot in their robots.txt file, often from a plugin or server rule added during a security update. If your robots.txt disallows these crawlers, you are invisible to ChatGPT Search. This is one of the most common and easily fixed reasons a business does not appear in AI citations. Check yours now at yourdomain.com/robots.txt.</p>
+              <p>A significant number of businesses discovered they had blocked GPTBot or OAI-SearchBot in their robots.txt file, often from a plugin or server rule added during a security update. If your robots.txt disallows these crawlers, you are invisible to ChatGPT Search. This is one of the most common and easily fixed reasons a business does not appear in AI citations. Check yours now at yourdomain.com/robots.txt. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
-            <p>The raw crawl numbers matter too. GPTBot makes 3.6x more requests to websites than Googlebot does. The total ChatGPT crawl volume increased 2,825% year over year in 2025. These are not exploratory crawls. This is a system actively building and maintaining the data it needs to power 775 million daily searches.</p>
+            <p>The raw crawl numbers matter too. GPTBot makes 3.6x more requests to websites than Googlebot does. The total ChatGPT crawl volume increased 2,825% year over year in 2025. These are not exploratory crawls. This is a system actively building and maintaining the data it needs to power 775 million daily searches. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know if GPTBot or OAI-SearchBot are blocked on your site right now?</p>
+              <p>Want to know if GPTBot or OAI-SearchBot are blocked on your site right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blog/does-blocking-gptbot-hurt-ai-search">Learn What Happens When You Block GPTBot &rarr;</Link>
             </div>
 
@@ -435,9 +435,9 @@ export default function Page() {
             <span className="ae-section-label" id="indexing">The Infrastructure</span>
             <h2>How Indexing Actually Works: The Bing Dependency</h2>
 
-            <p>Here is the single most important technical fact about ChatGPT Search: <strong>it does not build its own persistent index.</strong> ChatGPT relies entirely on Bing&apos;s crawling infrastructure. If you are not in Bing&apos;s index, you do not exist to ChatGPT Search. Period.</p>
+            <p>Here is the single most important technical fact about ChatGPT Search: <strong>it does not build its own persistent index.</strong> ChatGPT relies entirely on Bing&apos;s crawling infrastructure. If you are not in Bing&apos;s index, you do not exist to ChatGPT Search. Period. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>Most businesses have spent years optimizing for Google Search Console and Google&apos;s index. Bing Webmaster Tools sits neglected. This creates a predictable gap: well-optimized Google-first businesses are systematically absent from ChatGPT Search results, not because their content is weak, but because the pipeline that feeds ChatGPT Search has never been connected.</p>
+            <p>Most businesses have spent years optimizing for Google Search Console and Google&apos;s index. Bing Webmaster Tools sits neglected. This creates a predictable gap: well-optimized Google-first businesses are systematically absent from ChatGPT Search results, not because their content is weak, but because the pipeline that feeds ChatGPT Search has never been connected. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── BAR GROUP ── */}
             <div className="ae-bar-group not-prose">
@@ -471,11 +471,11 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The update timeline once you are indexed in Bing: high-authority sites see refreshes within hours. Standard business websites see indexing updates within 24 to 72 hours. This means a business that posts accurate pricing, hours, or service information today and submits through Bing Webmaster Tools can, in theory, have that information available in ChatGPT Search results within a day.</p>
+            <p>The update timeline once you are indexed in Bing: high-authority sites see refreshes within hours. Standard business websites see indexing updates within 24 to 72 hours. This means a business that posts accurate pricing, hours, or service information today and submits through Bing Webmaster Tools can, in theory, have that information available in ChatGPT Search results within a day. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The IndexNow Shortcut</div>
-              <p>Microsoft&apos;s IndexNow API lets you notify Bing directly when you publish or update a page. Instead of waiting for Bing&apos;s crawler to discover your changes on its own schedule, IndexNow pushes the signal immediately. For businesses that update pricing, hours, or service pages regularly, this is the fastest path to keeping ChatGPT Search data current.</p>
+              <p>Microsoft&apos;s IndexNow API lets you notify Bing directly when you publish or update a page. Instead of waiting for Bing&apos;s crawler to discover your changes on its own schedule, IndexNow pushes the signal immediately. For businesses that update pricing, hours, or service pages regularly, this is the fastest path to keeping ChatGPT Search data current. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             {/* ── TIER BADGES ── */}
@@ -485,22 +485,22 @@ export default function Page() {
                 <div className="flex items-start gap-4 p-4 rounded-xl border border-white/[0.08] bg-white/[0.02]">
                   <span className="ae-tier-badge ae-tier-critical">Critical</span>
                   <div>
-                    <p className="text-white font-semibold">Bing Webmaster Tools Setup</p>
-                    <p className="text-gray-400 text-sm">Submit your sitemap, verify ownership, and enable IndexNow. ChatGPT cannot retrieve your pages if Bing has not crawled them. This is a prerequisite, not an optimization.</p>
+                    <p className="text-white font-semibold">Bing Webmaster Tools Setup <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+                    <p className="text-gray-400 text-sm">Submit your sitemap, verify ownership, and enable IndexNow. ChatGPT cannot retrieve your pages if Bing has not crawled them. This is a prerequisite, not an optimization. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 p-4 rounded-xl border border-white/[0.08] bg-white/[0.02]">
                   <span className="ae-tier-badge ae-tier-high">High</span>
                   <div>
-                    <p className="text-white font-semibold">Bing Places for Business</p>
-                    <p className="text-gray-400 text-sm">One of ChatGPT&apos;s largest sources for local business data. For any business serving a geographic area, Bing Places is a direct pipeline into ChatGPT&apos;s local search results.</p>
+                    <p className="text-white font-semibold">Bing Places for Business Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+                    <p className="text-gray-400 text-sm">One of ChatGPT&apos;s largest sources for local business data. For any business serving a geographic area, Bing Places is a direct pipeline into ChatGPT&apos;s local search results. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 p-4 rounded-xl border border-white/[0.08] bg-white/[0.02]">
                   <span className="ae-tier-badge ae-tier-medium">Medium</span>
                   <div>
-                    <p className="text-white font-semibold">Robots.txt Audit</p>
-                    <p className="text-gray-400 text-sm">Confirm GPTBot and OAI-SearchBot are not disallowed. A single outdated rule can block all three ChatGPT crawlers simultaneously.</p>
+                    <p className="text-white font-semibold">Robots.txt Audit <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                    <p className="text-gray-400 text-sm">Confirm GPTBot and OAI-SearchBot are not disallowed. A single outdated rule can block all three ChatGPT crawlers simultaneously. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                   </div>
                 </div>
               </div>
@@ -508,7 +508,7 @@ export default function Page() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering if your Bing setup is blocking you from ChatGPT Search?</p>
+              <p>Wondering if your Bing setup is blocking you from ChatGPT Search? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot">Get a Free AI Visibility Assessment &rarr;</Link>
             </div>
 
@@ -516,7 +516,7 @@ export default function Page() {
             <span className="ae-section-label" id="cited-vs-ignored">What Gets You Cited</span>
             <h2>What Makes Businesses Get Cited vs Ignored</h2>
 
-            <p>The gap between businesses that consistently appear in ChatGPT Search results and those that never appear is not random. It comes down to a specific set of signals, ranked here by observed impact on citation rate.</p>
+            <p>The gap between businesses that consistently appear in ChatGPT Search results and those that never appear is not random. It comes down to a specific set of signals, ranked here by observed impact on citation rate. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* ── PROS CONS ── */}
             <div className="ae-pros-cons not-prose">

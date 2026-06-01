@@ -290,7 +290,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
           <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Is AI sending your customers to competitors in other cities?</p>
-              <p className="text-gray-400 text-sm">Our free Blind Spot Report shows exactly which businesses AI recommends instead of yours, and where they are located.</p>
+              <p className="text-gray-400 text-sm">Our free Blind Spot Report shows exactly which businesses AI recommends instead of yours, and where they are located. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             </div>
             <Link
               href="/blindspot"
@@ -350,7 +350,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
               </div>
               <p className="text-gray-400 text-sm italic">
                 Sources: SOCi ChatGPT Local Search Study 2026; MarketingCode AI Search Consumer Survey; BrightLocal AI Discovery Report 2026.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <p>
@@ -359,13 +359,13 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               If you have noticed your phone ringing less or your website traffic dipping despite solid Google rankings, this may be the reason. AI is not ignoring your business on purpose. It simply does not understand where you are, or more precisely, it does not have enough location signals to prioritize you over a competitor with stronger overall authority in a different city.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* Inline CTA 2 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Losing leads to businesses in other cities?</p>
-                <p className="text-gray-400 text-sm">Find out exactly what AI says when customers ask for your services in your area.</p>
+                <p className="text-gray-400 text-sm">Find out exactly what AI says when customers ask for your services in your area. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <a
                 href="tel:+12134442229"
@@ -388,7 +388,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               <strong>AI does not think in geography.</strong> When you ask ChatGPT for the best accountant in Phoenix, the model is not querying a map database. It is searching its training data and web results for pages that score highest on relevance, authority, and trustworthiness. If a CPA firm in Chicago has more online authority, more citations, more structured content, and more third-party mentions, the AI may surface it instead of a Phoenix firm with a thinner digital presence.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>
               <strong>City economics drive AI recommendations.</strong> Research shows that AI recommendations shift based on the economic profile of a city, not just proximity. Businesses in larger markets tend to dominate AI results because they generate more web content, earn more reviews, receive more press coverage, and appear in more directory listings. A business in a metro area with 5 million people will naturally produce a louder signal than one in a market of 50,000, even if the smaller-market business is objectively better at what it does.
@@ -396,7 +396,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               <strong>Prompt ambiguity amplifies the problem.</strong> When a user asks &ldquo;best plumber near me,&rdquo; AI does not always know what &ldquo;near me&rdquo; means. Unlike Google, which can access device location, most AI chat interfaces have limited or no location awareness. The model guesses based on context clues, and its guesses frequently land on larger, more data-rich cities. If you have experienced this yourself, you know how frustrating it is. Our piece on <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight">businesses disappearing from AI search</Link> covers the broader visibility crisis this creates.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Callout Warning */}
             <div className="ae-callout ae-callout-warning not-prose my-8 p-5 rounded-xl border border-yellow-500/30 bg-yellow-500/5">
@@ -406,7 +406,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                   <p className="font-semibold text-white mb-1">The Invisible Redirect</p>
                   <p className="text-gray-300 text-sm">
                     Most business owners never discover this problem because they never ask AI about their own services from a customer&apos;s perspective. Meanwhile, 45% of consumers are now using AI to find local providers. Every AI recommendation that points to a different city is a customer you lost without ever knowing they existed.
-                  </p>
+                   <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                 </div>
               </div>
             </div>
@@ -415,7 +415,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Wondering what AI recommends instead of you?</p>
-                <p className="text-gray-400 text-sm">We test every major AI platform with your actual customer queries. The results are often surprising.</p>
+                <p className="text-gray-400 text-sm">We test every major AI platform with your actual customer queries. The results are often surprising. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <Link
                 href="/blindspot"
@@ -438,7 +438,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               Think of it this way. Google Maps is a compass that points to the nearest businesses. AI search is a reputation engine that points to the most referenced businesses. When those two things align, AI gets the answer right. When they do not, AI confidently recommends a business that may be hundreds of miles away.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Pros/Cons: What AI Weighs */}
             <div className="ae-pros-cons not-prose my-10 grid md:grid-cols-2 gap-4">
@@ -473,7 +473,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             {/* Inline CTA 4 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Your authority signals may be weaker than you think.</p>
+                <p className="text-white font-semibold mb-1">Your authority signals may be weaker than you think. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <p className="text-gray-400 text-sm">We compare your signals against the businesses AI actually recommends. No cost, no commitment.</p>
               </div>
               <a
@@ -493,7 +493,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               If your business is in a smaller market, the location bias problem is significantly worse. Rural ZIP codes produce more AI recommendation errors than urban centers, and the gap is widening as AI platforms scale.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>
               <strong>Data density determines AI accuracy.</strong> Urban businesses exist in data-rich environments. They have hundreds of reviews, dozens of directory listings, press mentions, social media activity, and competitor comparison content. AI models trained on this data have a clear picture of the business landscape in major metros. Smaller markets have a fraction of this data, which means AI has less to work with and makes more mistakes.
@@ -501,7 +501,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               <strong>The default-to-metro effect.</strong> When AI lacks sufficient local data, it defaults to the nearest large city. A customer in Waco asking for an electrician may receive recommendations for businesses in Dallas or Austin, simply because those markets have richer data that the AI finds easier to parse and trust. The Waco electrician may be excellent, but if they have 30 reviews versus a Dallas competitor with 500, the AI treats the Dallas business as more authoritative.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Callout Info */}
             <div className="ae-callout ae-callout-info not-prose my-8 p-5 rounded-xl border border-blue-500/30 bg-blue-500/5">
@@ -511,7 +511,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                   <p className="font-semibold text-white mb-1">The Small Market Advantage That Most Businesses Miss</p>
                   <p className="text-gray-300 text-sm">
                     Smaller markets actually present an opportunity. Because fewer local businesses are optimizing for AI visibility, the bar is lower. A business that invests in structured data, location-specific content, and consistent citations can dominate its local AI results faster than a business in a saturated metro. The key is knowing exactly which signals to build, and most businesses do not.
-                  </p>
+                   <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 </div>
               </div>
             </div>
@@ -520,7 +520,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">In a smaller market? Your window of opportunity is closing.</p>
-                <p className="text-gray-400 text-sm">Get ahead of competitors before they discover AI optimization. Start with a free audit.</p>
+                <p className="text-gray-400 text-sm">Get ahead of competitors before they discover AI optimization. Start with a free audit. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               </div>
               <Link
                 href="/blindspot"
@@ -598,13 +598,13 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               Google Gemini stands apart because of its direct connection to Maps and Business Profile data. For every other platform, location is secondary to authority. This means that if you are only optimizing for Google, you are leaving the other platforms, the ones with high cross-city risk, completely unaddressed. For a deeper comparison, see our analysis of <Link href="/blog/why-ai-gives-outdated-information-about-my-business">why AI gives outdated information about your business</Link>.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Inline CTA 6 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Not sure which platforms are getting your location wrong?</p>
-                <p className="text-gray-400 text-sm">We audit all five major AI platforms and document every location error. Takes less than 24 hours.</p>
+                <p className="text-gray-400 text-sm">We audit all five major AI platforms and document every location error. Takes less than 24 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <a
                 href="tel:+12134442229"
@@ -627,7 +627,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               <strong>Closed business recommendations erode trust.</strong> When a customer follows an AI recommendation to a business that turns out to be closed, they do not blame the AI. They blame the entire category. They question whether any of the recommendations are reliable, which makes them less likely to follow through on legitimate suggestions, including yours. If AI is spreading wrong information about your business specifically, our guide on <Link href="/blog/why-ai-gives-outdated-information-about-my-business">outdated AI information</Link> covers the mechanics of how that happens.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>
               <strong>Category mismatches compound the problem.</strong> AI platforms sometimes conflate similar-sounding services or pull businesses from adjacent categories. A search for a personal injury lawyer might surface a family law attorney in another city. A search for an HVAC repair company might return a general contractor. These mismatches happen more frequently in smaller markets where AI has less category-specific data to work with.
@@ -638,7 +638,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
               <div className="flex gap-3">
                 <span className="text-2xl">&#128205;</span>
                 <div>
-                  <p className="font-semibold text-white mb-1">Your Competitors&apos; Bad Data Affects You Too</p>
+                  <p className="font-semibold text-white mb-1">Your Competitors&apos; Bad Data Affects You Too <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                   <p className="text-gray-300 text-sm">
                     When AI recommends closed or mismatched businesses in your area, it is not just their problem. It pushes customers toward frustration with AI-based discovery in your category, which reduces the total number of AI-driven leads flowing to legitimate businesses like yours. Cleaning up your own data is necessary, but the broader ecosystem matters.
                   </p>
@@ -649,7 +649,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             {/* Inline CTA 7 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Is AI recommending closed competitors instead of you?</p>
+                <p className="text-white font-semibold mb-1">Is AI recommending closed competitors instead of you? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <p className="text-gray-400 text-sm">Our audit catches every error, including closed businesses and category mismatches AI is surfacing in your market.</p>
               </div>
               <Link
@@ -669,7 +669,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               Fixing the cross-city problem requires understanding which signals AI platforms actually use to determine location relevance. This is where many businesses go wrong. They assume that having an address on their website is enough. It is not even close. AI needs a dense, consistent web of location signals across dozens of sources to accurately place your business.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               <strong>Structured data is the foundation.</strong> Schema markup that explicitly declares your service area, address, and geographic coordinates gives AI parseable location data. Without it, the AI is guessing based on text mentions, which is inherently unreliable. But structured data alone does not solve the problem, it is just one layer in a multi-signal strategy.
@@ -677,7 +677,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             <p>
               <strong>Citation consistency across directories matters enormously.</strong> When your business name, address, and phone number match perfectly across 50 directories, AI models detect a strong location signal. When there are variations, misspellings, or outdated addresses in even a handful of sources, the signal weakens and the AI becomes less confident about your location. That uncertainty is exactly when it defaults to a competitor in a larger market.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>
               <strong>Location-specific content tips the scale.</strong> Pages that reference your city, neighborhoods, landmarks, and service areas give AI platforms textual evidence of your geographic relevance. Generic service pages that could apply to any business in any city produce zero location signal. The difference between &ldquo;We offer plumbing services&rdquo; and content that contextualizes your services within your specific community is the difference between visibility and invisibility.
@@ -699,7 +699,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                 ].map((row) => (
                   <div key={row.signal} className="flex flex-col sm:flex-row sm:items-center gap-2 p-3 rounded-lg bg-gray-900/50 border border-gray-800/50">
                     <div className="flex-1">
-                      <p className="text-white text-sm font-medium">{row.signal}</p>
+                      <p className="text-white text-sm font-medium">{row.signal} Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                       <p className="text-gray-500 text-xs">{row.impact}</p>
                     </div>
                     <span className={`text-xs font-bold px-3 py-1 rounded-full shrink-0 ${row.strength === 'Critical' ? 'bg-red-500/20 text-red-400 border border-red-500/30' : row.strength === 'High' ? 'bg-[#F27D24]/20 text-[#F27D24] border border-[#F27D24]/30' : 'bg-blue-500/20 text-blue-400 border border-blue-500/30'}`}>
@@ -715,7 +715,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
               <div className="flex gap-3">
                 <span className="text-2xl">&#9989;</span>
                 <div>
-                  <p className="font-semibold text-white mb-1">The Signal Stack That Wins</p>
+                  <p className="font-semibold text-white mb-1">The Signal Stack That Wins <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                   <p className="text-gray-300 text-sm">
                     Businesses that dominate their local AI results do not rely on any single signal. They build a location signal stack: structured data, citation consistency, location-specific content, local media mentions, and platform-specific optimizations all working together. The businesses that understand this stack are the ones AI recommends. The ones that do not are the ones being replaced by competitors in other cities.
                   </p>
@@ -726,7 +726,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             {/* Inline CTA 8 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Building the right signal stack is complex.</p>
+                <p className="text-white font-semibold mb-1">Building the right signal stack is complex. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <p className="text-gray-400 text-sm">We handle the entire location signal strategy for businesses like yours. Start with a free assessment.</p>
               </div>
               <a
@@ -740,7 +740,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             {/* Takeaway */}
             <div className="ae-takeaway not-prose my-10 p-6 rounded-xl border-l-4 border-[#F27D24] bg-gray-900/60">
-              <p className="font-plus-jakarta font-bold text-white mb-2">Key Takeaway</p>
+              <p className="font-plus-jakarta font-bold text-white mb-2">Key Takeaway Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <p className="text-gray-300 text-sm leading-relaxed">
                 AI does not recommend the nearest business. It recommends the business with the strongest composite signal. If a competitor in another city has better structured data, more citations, deeper content, and stronger reviews, AI will choose them over you regardless of distance. The only way to fix this is to build a location signal stack that makes your geographic relevance undeniable.
               </p>
@@ -757,7 +757,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             {/* Inline CTA 9 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Ready to stop losing customers to out-of-town competitors?</p>
+                <p className="text-white font-semibold mb-1">Ready to stop losing customers to out-of-town competitors? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 <p className="text-gray-400 text-sm">The first step is understanding what AI currently says about you. Our report takes less than 24 hours.</p>
               </div>
               <Link
@@ -787,7 +787,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                   <div key={item.label} className="flex gap-3 p-3 rounded-lg bg-gray-900/50">
                     <div className="w-2 h-2 rounded-full bg-[#F27D24] mt-2 shrink-0" />
                     <div>
-                      <p className="text-white text-sm font-semibold">{item.label}</p>
+                      <p className="text-white text-sm font-semibold">{item.label} <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                       <p className="text-gray-400 text-xs leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
@@ -798,7 +798,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             {/* Inline CTA 10 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Want this cheat sheet executed for your business?</p>
+                <p className="text-white font-semibold mb-1">Want this cheat sheet executed for your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <p className="text-gray-400 text-sm">We handle every layer of the location signal stack. Results typically visible within 60 to 90 days.</p>
               </div>
               <a
@@ -818,7 +818,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                   <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="text-[#F27D24] hover:underline text-sm">
                     My Business Disappeared from AI Search Results Overnight
                   </Link>
-                  <p className="text-gray-500 text-xs mt-1">Understanding why AI visibility collapses and how to recover</p>
+                  <p className="text-gray-500 text-xs mt-1">Understanding why AI visibility collapses and how to recover Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 </li>
                 <li>
                   <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] hover:underline text-sm">
@@ -830,7 +830,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                   <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai" className="text-[#F27D24] hover:underline text-sm">
                     How to Optimize Your Google Business Profile for AI
                   </Link>
-                  <p className="text-gray-500 text-xs mt-1">Making your GBP work for AI platforms, not just Google Maps</p>
+                  <p className="text-gray-500 text-xs mt-1">Making your GBP work for AI platforms, not just Google Maps <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 </li>
               </ul>
             </div>

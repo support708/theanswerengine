@@ -276,7 +276,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               The answer comes back as a direct recommendation with a name, a reason, and sometimes a phone number. The parent reads it, checks one link, and calls. The decision cycle that used to take days takes minutes. And the tutors who get recommended are not paying for placement. They simply have the signals AI needs to trust and cite them.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>84% of high school students use generative AI for schoolwork. Their parents are using it too, including to find the tutor who will help them keep up. If AI cannot find you, those families cannot either.</p>
@@ -284,7 +284,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               The global private tutoring market is on a straight path from $133.8 billion today to $248 billion by 2034. Online tutoring is growing at nearly 16% annually. The demand is enormous and accelerating. The question is not whether your potential clients are out there. It is whether AI can connect them to you.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -298,7 +298,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               The way families search for tutors has changed more in the past two years than in the previous decade. The shift is not just about which platform they use. It is about how they phrase what they need and what they expect in return.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>
               Traditional search rewarded businesses that ranked for broad keywords. A tutoring center could hold a page-one spot for &quot;tutors near me&quot; and reliably pull in leads. AI search works differently. When someone asks an AI assistant for a tutor recommendation, the platform is not returning a ranked list of ten websites. It is giving a single synthesized answer, often with one or two specific businesses named and a brief explanation of why those businesses were chosen.
@@ -308,7 +308,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               The questions parents and students are asking AI about tutoring are increasingly specific. They are not asking &quot;find me a tutor.&quot; They are asking things like:
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <ul>
               <li>&quot;Who are the best SAT prep tutors in [city] with a track record of score improvement?&quot;</li>
@@ -325,7 +325,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               When an AI platform answers a tutoring question, it is cross-referencing several data sources simultaneously. The top citation sources for tutoring businesses are Google Business Profile listings, reviews on Google, Yelp, and Facebook, website content including FAQ pages and service descriptions, and major tutor directories like Wyzant, Preply, and Care.com.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>
               The businesses that appear in AI answers are the ones with meaningful presence across all of these sources, not just one or two. A tutoring center with a complete Google Business Profile, 40 Google reviews, a clear website FAQ section, and active Wyzant listings sends a much stronger signal to AI than one with only a basic website and three reviews.
@@ -333,7 +333,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               For a broader look at how AI chooses which businesses to surface, read our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
@@ -347,7 +347,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Invisibility to AI is not a random outcome. It follows a predictable pattern. The tutoring businesses that AI cannot find share the same collection of gaps, and those gaps are not obvious from the outside. A tutoring center can have a polished website, a Facebook page, and even a few glowing reviews and still be completely absent from AI answers.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               The reason is that AI does not evaluate your business the way a human browsing your website does. AI evaluates signals. Specific, structured, verifiable signals that tell it who you are, what you specialize in, where you operate, and whether other sources in the ecosystem trust you. When those signals are weak or absent, AI defaults to businesses that have them, regardless of which tutoring business is actually better.
@@ -367,7 +367,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Each of these gaps alone reduces your AI visibility. Together, they can render a tutoring business almost completely absent from AI recommendations, even in markets with low competition.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
@@ -381,7 +381,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               AI platforms do not rank tutoring businesses the way Google once ranked websites. There are no keyword densities to hit, no backlink counts to build toward. AI evaluates a specific set of trust signals, and for local service businesses like tutoring, those signals are well-defined.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               Understanding what those signals are is the first step toward showing up in answers. But understanding which signals drive the most weight for tutoring specifically is what separates businesses that get recommended from businesses that stay invisible.
@@ -391,7 +391,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Reviews are the single most influential signal for tutoring business AI visibility. This is not surprising given that 97% of consumers read reviews before making a service decision and 92% expect at least a 4-star rating before they consider engaging. AI platforms reflect these consumer behaviors in how they weight review signals.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               The threshold that consistently appears in research is ten reviews. Businesses with ten or more reviews see a 15 to 20% boost in search traffic. Below ten, the signal is weak. Above ten, with recent and specific reviews, AI has the confidence it needs to make a recommendation.
@@ -401,7 +401,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               When a parent asks AI for &quot;the best SAT prep tutor near me,&quot; AI is looking for businesses whose online presence specifically and clearly states SAT prep as a specialization. Not businesses that mention SAT prep in passing amid a list of twenty other subjects. Businesses that have structured their entire digital presence around being the go-to SAT prep resource in their area.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>
               This is the specialization advantage: the more clearly and consistently you signal a specific niche, the more precisely AI can match you to relevant queries. Broad positioning looks like safety. In AI search, it is the opposite.
@@ -411,7 +411,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Schema markup tells AI platforms exactly what your content means. For a tutoring business, the relevant schema types include Organization or LocalBusiness (to establish your identity and location), Service (to describe each subject area you offer), and FAQPage (to surface your question-and-answer content directly in AI responses).
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>
               Without schema, AI has to infer the structure of your website from the text alone. With it, you are speaking directly in a language AI platforms are built to understand. To go deeper on this, read our guide on <Link href="/blog/does-schema-markup-help-ai-search">schema markup for AI visibility</Link>.
@@ -421,7 +421,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               AI uses your Name, Address, and Phone number (NAP) as a geographic anchor. When a parent asks for a tutor &quot;near me,&quot; AI is checking that anchor across every platform where your business appears. Inconsistencies in your NAP data, even minor ones like abbreviating &quot;Street&quot; as &quot;St.&quot; on some platforms but not others, introduce doubt about your location and reduce AI confidence in recommending you for local queries.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>Signal 5: Content Depth and FAQ Coverage</h3>
 
@@ -431,7 +431,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               The depth of your content signals expertise. A single paragraph about &quot;math tutoring&quot; gives AI nothing to cite. A detailed page about high school mathematics tutoring that explains your approach, the types of students you work with, expected timelines for improvement, and tutor credentials gives AI everything it needs.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>Signal 6: Recency and Active Presence</h3>
 
@@ -443,7 +443,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Responding to reviews is a trust signal that most tutoring businesses overlook. When a business owner responds to reviews, especially critical ones, it demonstrates accountability and engagement. AI platforms track this as part of the overall trustworthiness assessment. A tutoring business with 30 reviews and responses to most of them looks more credible than one with 30 reviews and zero responses.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
@@ -505,7 +505,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               The most counterintuitive insight in tutoring business AI visibility is that narrowing your positioning makes you more discoverable, not less. Tutoring businesses that claim to work with everyone on everything are, from AI&apos;s perspective, the experts on nothing.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>
               AI matches queries to sources with high relevance. When a parent asks for a &quot;high school algebra tutor,&quot; AI is not looking for businesses that list algebra alongside nineteen other subjects. It is looking for businesses where algebra, high school, and tutoring are clearly and repeatedly connected throughout their online presence. The business that is built around being the algebra tutor for high schoolers in its market wins that query almost every time.
@@ -513,7 +513,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               This does not mean you can only serve one subject. It means you need to build specialized content, profiles, and positioning around your core expertise areas, even if you offer more. Think of it as leading with your strongest specializations rather than listing everything you can do.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* PROS/CONS */}
             <div className="ae-pros-cons not-prose">
@@ -549,7 +549,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               AI does not reward size. It rewards precision. The question is: what does your business want to be precisely known for?
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
@@ -563,7 +563,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Reviews function differently in AI search than they do in traditional search. In traditional SEO, review volume and star rating influenced local pack rankings. In AI search, reviews do that and more: they serve as the social proof that AI uses to validate a recommendation it is about to make to a real parent.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               Think about what AI is doing when it recommends a tutor. It is not just matching a query to a keyword. It is essentially vouching for a business to a parent who is entrusting their child&apos;s education to a stranger. AI platforms apply a trust threshold before making that recommendation, and reviews are the most direct evidence of whether other families have trusted you and what happened when they did.
@@ -573,14 +573,14 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Not all reviews carry equal weight with AI. Quantity matters: the 15 to 20% traffic boost associated with ten or more reviews reflects a threshold where AI has enough data to make a confident assessment. Quality matters too: reviews that describe specific subjects, specific outcomes, and specific student situations give AI far more to work with than generic five-star ratings.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               Recency is critical. A tutoring business with 50 reviews, most of them from three years ago, looks less reliable to AI than one with 20 reviews from the past six months. AI is trying to predict whether the business is still operating well today, and recent reviews are the best evidence.
             </p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>The specificity premium:</strong> A review that says &quot;Ms. Chen helped my son go from a D to a B+ in AP Calculus in eight weeks, and her explanations of derivatives finally clicked in a way school never managed&quot; is worth far more to AI than &quot;Great tutor, very helpful, would recommend.&quot; Specific reviews mentioning subject, level, and measurable outcome give AI the evidence it needs to make a confident recommendation for that exact query.</p>
+              <p><strong>The specificity premium:</strong> A review that says &quot;Ms. Chen helped my son go from a D to a B+ in AP Calculus in eight weeks, and her explanations of derivatives finally clicked in a way school never managed&quot; is worth far more to AI than &quot;Great tutor, very helpful, would recommend.&quot; Specific reviews mentioning subject, level, and measurable outcome give AI the evidence it needs to make a confident recommendation for that exact query. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             <h3>Platform Strategy: Where Your Reviews Actually Live for AI</h3>
@@ -591,7 +591,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Reviews embedded through third-party widgets, like many review badge plugins, are typically rendered via JavaScript and invisible to most AI crawlers. The most reliable approach is to publish select parent and student testimonials as plain text directly on your website. This ensures AI can always find and read them, regardless of which platform is crawling your site.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <p>
               For more on how reviews shape AI recommendations specifically, read our analysis on <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews">why reviews matter for AI recommendations</Link>.
@@ -599,7 +599,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI can actually read your reviews or if they are trapped behind JavaScript.</p>
+              <p>Find out if AI can actually read your reviews or if they are trapped behind JavaScript. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
             </div>
 
@@ -619,7 +619,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>How close is your tutoring business to this standard? The report shows you the exact gaps.</p>
+              <p>How close is your tutoring business to this standard? The report shows you the exact gaps. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -633,7 +633,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Most tutoring business websites are written for parents who already know they want to hire a tutor and are evaluating whether you are a good fit. AI-optimized content serves a different function: it answers the questions parents and students ask before they even decide to look for a tutor, positioning your business as the authoritative source for those answers.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <h3>FAQ Pages as AI Citation Magnets</h3>
 
@@ -643,7 +643,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               The key is that FAQ answers must be complete. A one-sentence answer to &quot;how much does tutoring cost?&quot; is not enough. A paragraph that explains the typical range, the factors that affect pricing (subject, level, format, tutor credentials), and what to expect at different price points gives AI substantive content to cite and gives parents the information they are actually looking for.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>Credentials as Verifiable Trust Signals</h3>
 
@@ -653,7 +653,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               For a tutoring business, the relevant credentials include degrees (especially in the subjects tutored), teaching certifications, subject-specific certifications (like Orton-Gillingham for reading tutors or AP expertise for test prep), years of experience, and any professional affiliations. The more specific and verifiable these are, the stronger the trust signal.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <p>
               To understand how Google Business Profile optimization feeds into this broader picture, read our guide on <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">Google Business Profile optimization for AI</Link>.
@@ -661,7 +661,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your tutoring business&apos;s specific content gaps with a human? We are here.</p>
+              <p>Prefer to talk through your tutoring business&apos;s specific content gaps with a human? We are here. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -675,7 +675,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               Wyzant is among the most influential for AI, both because it is a well-established authority in the tutoring space and because its tutor profiles are structured, subject-organized, and include reviews. Preply carries similar weight for online tutoring. Care.com is referenced for in-home and local tutoring, particularly for younger students. Yelp is important for tutoring centers and multi-tutor businesses with a physical location.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p>
               The profile quality on these directories matters as much as the presence itself. A sparse Wyzant profile with two subjects listed and no bio does not carry the same weight as a complete profile with a detailed bio, specific subject expertise, grade level experience, and 15 tutor reviews. AI pulls from the richness of these profiles, not just their existence.
@@ -683,7 +683,7 @@ export default function HowToGetTutoringBusinessFoundOnAISearch() {
 
             <p>
               For a full breakdown of which types of directories drive AI citations, see our guide on <Link href="/blog/directory-listings-that-help-ai-find-business">directories that help AI find you</Link>.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">

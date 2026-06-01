@@ -322,7 +322,7 @@ export default function Page() {
                 Most businesses have no idea whether ChatGPT, Perplexity, or Google AI are driving
                 customers their way. Here is what you need to understand about measuring AI-driven demand
                 before your competitors figure it out first.
-              </p>
+               Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
               <div className="flex items-center gap-4 text-sm text-gray-400">
                 <span>March 29, 2026</span>
                 <span>·</span>
@@ -392,12 +392,12 @@ export default function Page() {
               Your competitor is number one. You are not mentioned at all. The customer calls your competitor
               the next morning. You never knew the conversation happened. This scenario is playing out millions
               of times a day, and most businesses have no system to detect it, measure it, or respond to it.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* CTA Inline 1 */}
             <div className="not-prose mb-8">
               <div className="ae-cta-inline">
-                <p>Find out right now if AI platforms are recommending your competitors instead of you.</p>
+                <p>Find out right now if AI platforms are recommending your competitors instead of you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free AI Blind Spot Report →</Link>
               </div>
             </div>
@@ -414,17 +414,17 @@ export default function Page() {
               They track organic traffic, referral sources, conversion rates, and session duration. This is
               the right instinct. The problem is that Google Analytics was built for a world where traffic
               sources identify themselves cleanly: Google Organic, Facebook, Email, Direct.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               AI platforms broke that model completely.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               When someone clicks a link inside ChatGPT, Perplexity, or Claude, the HTTP referrer header
               that tells analytics tools where the visitor came from is often stripped or omitted entirely.
               The result: that high-intent, AI-referred visitor lands in your "Direct" bucket alongside
               people who typed your URL directly into their browser. You cannot tell them apart with
               standard tools.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Callout Warning */}
             <div className="not-prose mb-8">
@@ -435,7 +435,7 @@ export default function Page() {
                   That means for every AI-referred customer you can see in GA4, there are roughly
                   three more hiding inside your "Direct" channel. Your AI traffic is almost certainly
                   much larger than your reports suggest.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
             </div>
 
@@ -445,12 +445,12 @@ export default function Page() {
               cannot identify which content is being cited by AI platforms. They cannot track whether
               their optimization efforts are working. They are flying blind in a channel that grew
               700% last year.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* CTA Inline 2 */}
             <div className="not-prose mb-8">
               <div className="ae-cta-inline">
-                <p>Ready to stop flying blind? Get a full AI visibility audit from the experts.</p>
+                <p>Ready to stop flying blind? Get a full AI visibility audit from the experts. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <a href="tel:2134442229">Call (213) 444-2229 for a Free Consultation</a>
               </div>
             </div>
@@ -466,13 +466,13 @@ export default function Page() {
               Not all AI referral traffic is invisible. When AI platforms do pass referrer information,
               a savvy GA4 setup can capture it. The referral domains you can potentially see include
               chatgpt.com, perplexity.ai, claude.ai, gemini.google.com, and copilot.microsoft.com.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               With the right custom channel group configuration in GA4, visits from these domains
               get bucketed into a dedicated "AI Traffic" channel rather than disappearing into the
               generic Referral category. This gives you a partial window: you can see AI traffic
               that chose to identify itself.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Callout Info */}
             <div className="not-prose mb-8">
@@ -484,7 +484,7 @@ export default function Page() {
                   the drops that hit a single bucket in one corner of your yard. The real volume
                   is far greater. Standard analytics, even perfectly configured, gives you a
                   fraction of the true picture.
-                </p>
+                 Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -493,7 +493,7 @@ export default function Page() {
               are engaged sessions, average engagement time, goal completions, and revenue or
               lead value per session. AI-referred visitors behave differently from other traffic
               segments, and these behavioral signals tell you about quality, not just quantity.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Pros/Cons */}
             <div className="not-prose mb-10">
@@ -534,14 +534,14 @@ export default function Page() {
               research happens entirely inside the AI interface. ChatGPT answers their question.
               Perplexity gives them a summary. They form opinions about your business, your
               competitors, and the entire category, all without ever visiting a website.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This is the AI dark funnel, and it is the most significant measurement challenge in
               modern marketing. A prospect can go from unaware to ready-to-buy based entirely on
               what AI platforms told them. If AI described your business accurately and favorably,
               that prospect might call you directly, type your URL into their browser, or walk
               into your store without any "click" ever being registered.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Callout Orange */}
             <div className="not-prose mb-8">
@@ -553,7 +553,7 @@ export default function Page() {
                   good fit. The customer closes ChatGPT and calls you directly. Your CRM logs
                   this as a "direct" or "unknown" lead. You just got a customer from AI and had
                   no idea. This is happening constantly.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
             </div>
 
@@ -562,14 +562,14 @@ export default function Page() {
               influence work by monitoring what AI platforms actually say about your brand, not
               by waiting for clicks to register. This is a fundamentally different measurement
               paradigm: listening to AI conversations rather than tracking website sessions.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Internal Link CTA */}
             <div className="not-prose mb-8">
               <div className="ae-cta-inline">
                 <p>
                   Want to understand how AI search reshapes the entire customer journey?
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 <Link href="/blog/how-ai-search-changes-sales-funnel">
                   Read: How AI Search Changes the Sales Funnel →
                 </Link>
@@ -588,7 +588,7 @@ export default function Page() {
               Analysis of 12 million website visits found that AI-referred traffic converts at 4 to
               5 times higher rates than traditional Google organic traffic on average. Some industries
               report conversion rate advantages as high as 9x.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The reason is intuitive once you understand AI search behavior. When someone asks
               ChatGPT "who should I hire for [service] in [city]" and clicks through to your
@@ -596,7 +596,7 @@ export default function Page() {
               business, assessed your fit, and recommended you. They arrive knowing what you do
               and why they should consider you. That is a dramatically warmer prospect than someone
               who found you via a keyword match.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Callout Success */}
             <div className="not-prose mb-8">
@@ -607,7 +607,7 @@ export default function Page() {
                   organic search visitors, and sign-up conversion rates from LLM referrals (1.66%)
                   are more than 10x higher than from direct traffic (0.13%). Even a small stream of
                   AI-referred visitors can have outsized revenue impact.
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
             </div>
 
@@ -616,12 +616,12 @@ export default function Page() {
               being lumped into general marketing analytics. A business receiving 500 AI-referred
               visits per month at a 14% conversion rate outperforms a business with 5,000 organic
               visits converting at 2.8%. Volume alone is a deeply misleading metric in the AI era.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA Inline 3 */}
             <div className="not-prose mb-8">
               <div className="ae-cta-inline">
-                <p>Want to know your current AI citation rate and how it compares to competitors?</p>
+                <p>Want to know your current AI citation rate and how it compares to competitors? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                 <a href="mailto:support@theanswerengine.ai">
                   Email support@theanswerengine.ai for a Custom AI Metrics Report
                 </a>
@@ -641,13 +641,13 @@ export default function Page() {
               and AthenaHQ work differently from traditional analytics. Instead of waiting for
               visitors to arrive at your website, they actively query AI platforms with the questions
               your customers are likely asking, then analyze the responses for mentions of your brand.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This approach turns passive traffic measurement into active reputation intelligence.
               You learn not just how many AI visitors clicked to your site, but whether you are
               being mentioned at all, what is being said, how your positioning compares to
               competitors, and which of your content is being cited as a source.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* Takeaway */}
             <div className="not-prose mb-8">
@@ -658,7 +658,7 @@ export default function Page() {
                   4 months of launch and closed a $21M Series A in November 2025 at a $100M+ valuation.
                   The market is confirming what business data already shows: measuring AI visibility
                   is a genuine business need, not a trend.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
             </div>
 
@@ -667,12 +667,12 @@ export default function Page() {
               relevant AI queries include your brand name), citation frequency (how often AI links
               to your website), share of voice versus named competitors, sentiment classification,
               and which source pages AI platforms are pulling from when they discuss your category.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Internal Link */}
             <div className="not-prose mb-8">
               <div className="ae-cta-inline">
-                <p>Want to see exactly how AI platforms track and surface your brand?</p>
+                <p>Want to see exactly how AI platforms track and surface your brand? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <Link href="/blog/how-to-track-ai-search-visibility">
                   Read: How to Track AI Search Visibility →
                 </Link>
@@ -691,14 +691,14 @@ export default function Page() {
               is driving customers to your business. A rigorous measurement framework focuses on
               metrics that are connected to business outcomes: leads, sales, and revenue, not
               just clicks and impressions.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The metrics worth tracking divide into two categories. Visibility metrics tell you
               whether AI platforms know about you and are surfacing your brand. Outcome metrics
               tell you whether that visibility is converting into actual business. Both layers
               are required for a complete picture. Visibility without outcomes is vanity.
               Outcomes without visibility data leaves you unable to optimize the source.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="not-prose mb-8">
               <div className="ae-callout ae-callout-info">

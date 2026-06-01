@@ -381,7 +381,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               and what patients say about them. Your practice is either in that
               summary or it is not. If it is not, that patient is unlikely to
               scroll far enough to find you.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               This is not a future scenario. AI Overviews now appear on 75% of
@@ -390,7 +390,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               number climbs to 47%. The organic position one click-through rate
               dropped from 28% to 19% after Google rolled out AI Overviews, a 32%
               decline in a single platform update.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout-info not-prose">
               <strong>Why This Matters for Your Practice</strong>
@@ -399,7 +399,7 @@ export default function HowDentistsGetFoundOnAISearch() {
                 targets something different: a single curated answer. Getting into
                 that answer is not the same as ranking. It requires a different
                 kind of signal, and most practices have not built it yet.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>
@@ -410,7 +410,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               are trusting them. Seventy-six percent of healthcare consumers say
               they trust AI-summarized recommendations when the underlying reviews
               come from verified sources.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               The practices that will dominate the next decade of patient
@@ -419,13 +419,13 @@ export default function HowDentistsGetFoundOnAISearch() {
               actually look for when recommending a dentist, why most practices
               fail to show up, and what the signal structure looks like for the
               ones that consistently get cited.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* INLINE CTA 1 */}
             <div className="ae-cta-inline not-prose">
               <p className="text-sm text-gray-400 mb-3">
                 Not sure if your practice shows up when patients search AI?
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -460,7 +460,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               is high enough, the practice gets cited. When it is not, the
               practice is invisible regardless of how long it has been in business
               or how good the care actually is.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               The core signals that drive dental AI recommendations fall into five
@@ -469,7 +469,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               your website. Each category contributes to AI confidence
               independently, but they compound significantly when all five are
               strong.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* BAR CHART GROUP */}
             <div className="ae-bar-group not-prose">
@@ -534,7 +534,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               credentials more than raw review count. This means a practice needs
               to perform well across all five categories to show up consistently
               across platforms, not just optimize for one.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout-warning not-prose">
               <strong>The Trap Most Practices Fall Into</strong>
@@ -544,7 +544,7 @@ export default function HowDentistsGetFoundOnAISearch() {
                 infrastructure that AI platforms read. You can spend thousands per
                 month on paid search and still be invisible to the AI layer that
                 is now sitting above those ads.
-              </p>
+               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* SECTION 3: NAP CONSISTENCY */}
@@ -559,7 +559,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               stable, and trustworthy. For dental practices, NAP inconsistency is
               the single most common reason practices fail to get recommended,
               and it is also the most fixable.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>
               When AI systems cross-reference your practice across Google Business
@@ -570,7 +570,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               Healthgrades and &quot;Dr. Sarah Reeves DDS&quot; on Zocdoc is three
               different entities to an AI parsing data sources. It will not cite
               any of them confidently.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <div className="ae-callout-orange not-prose">
               <strong>Common NAP Problems in Dental Practices</strong>
@@ -593,7 +593,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               foundational. Everything else you do to build AI visibility is
               undermined by NAP inconsistency because it introduces noise into
               the signals AI is trying to aggregate.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>
               For multi-location practices, this challenge multiplies. Each
@@ -606,14 +606,14 @@ export default function HowDentistsGetFoundOnAISearch() {
                 why multi-location businesses struggle with AI search
               </Link>
               .
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* INLINE CTA 2 */}
             <div className="ae-cta-inline not-prose">
               <p className="text-sm text-gray-400 mb-3">
                 Inconsistent listings are the silent killer of AI
                 recommendations.
-              </p>
+               Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -648,7 +648,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               Below that threshold, the data is too thin to support confident
               recommendations, especially for healthcare where the stakes for a
               bad recommendation are high.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>
               But volume is only half the equation. The other half is content.
@@ -659,7 +659,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               they have been in twenty years,&quot; that review teaches AI three
               things: the provider name, the procedure offered, and a patient
               outcome. That is a signal-dense review.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="not-prose my-10">
               <div className="ae-comparison-table">
@@ -733,7 +733,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               This trust dynamic is important: AI is not just pulling your star
               rating. It is reading the review text, extracting entities, and
               using that to understand what your practice does well.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-quote not-prose">
               <blockquote>
@@ -751,7 +751,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               density. It also signals to AI that there is an engaged, accountable
               human behind the practice, which is a trust signal for healthcare
               in particular.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* SECTION 5: DIRECTORIES */}
             <span className="ae-section-label" id="directories">
@@ -765,7 +765,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               dental AI visibility, the signal weight belongs to healthcare-specific
               platforms that AI engines have learned to trust for medical
               provider data.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose my-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
@@ -778,7 +778,7 @@ export default function HowDentistsGetFoundOnAISearch() {
                   profiles with verified credentials are read by Google AI
                   Overviews, Perplexity, and ChatGPT. Missing here means missing
                   almost everywhere.
-                </p>
+                 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -789,7 +789,7 @@ export default function HowDentistsGetFoundOnAISearch() {
                   Zocdoc&apos;s structured provider data feeds directly into AI
                   recommendations, particularly for queries about appointment
                   availability, insurance acceptance, and new patient openings.
-                </p>
+                 Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -800,7 +800,7 @@ export default function HowDentistsGetFoundOnAISearch() {
                   WebMD&apos;s provider directory is frequently cited by AI when
                   patients ask about specific conditions or procedures. Having a
                   complete profile here amplifies your procedure-level visibility.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
               <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                 <div className="flex items-center gap-3 mb-3">
@@ -814,7 +814,7 @@ export default function HowDentistsGetFoundOnAISearch() {
                   signal. AI platforms treat ADA membership as a trust marker for
                   dental providers, similar to how they treat bar association
                   listing for lawyers.
-                </p>
+                 Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
@@ -824,7 +824,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               incomplete Healthgrades profile with missing insurance information
               or an unverified credential is worse than not being listed at all in
               some cases, because it signals an unfinished or abandoned presence.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>
               For a deeper look at how directories feed AI recommendation engines
@@ -833,14 +833,14 @@ export default function HowDentistsGetFoundOnAISearch() {
                 directory listings that help AI find your business
               </Link>{' '}
               covers the mechanics in detail.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* INLINE CTA 3 */}
             <div className="ae-cta-inline not-prose">
               <p className="text-sm text-gray-400 mb-3">
                 Most dental practices are missing at least two of the four
                 critical directories.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
@@ -877,7 +877,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               citation-worthy content. Individual pages for each service, built
               with the right structure, are what AI can actually read and
               reference.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <p>
               The structure that works best for dental service pages mirrors how
@@ -887,7 +887,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               patients commonly ask. This is not writing for search engines. It is
               writing for the AI that sits between the search engine and your
               patient.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-callout-success not-prose">
               <strong>What a High-Signal Service Page Includes</strong>
@@ -911,7 +911,7 @@ export default function HowDentistsGetFoundOnAISearch() {
               written by someone who actually understands the procedure will
               outperform a keyword-stuffed page built for a 2015 SEO strategy
               every time in AI recommendations.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="ae-takeaway not-prose">
               <strong>Key Takeaway:</strong> Dental service pages should be

@@ -268,30 +268,30 @@ export default function GoogleRankingsDontMatter() {
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know if AI is recommending your business or your competitors?</p>
+              <p>Want to know if AI is recommending your business or your competitors? Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
             <p>If your business is not the source AI platforms cite in those answers, you are invisible. This article breaks down exactly what changed, why traditional SEO is failing, and what local businesses must do to stay competitive.</p>
 
             {/* Section: What Are Google AI Overviews */}
-            <p className="ae-section-label not-prose">THE NEW SEARCH LANDSCAPE</p>
+            <p className="ae-section-label not-prose">THE NEW SEARCH LANDSCAPE Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             <h2>What Are Google AI Overviews? (And Why They Matter More Than Rankings)</h2>
 
             <p>Google AI Overviews appear at the very top of search results, above all traditional rankings, and use generative AI to answer user questions in a few sentences. Think of them as featured snippets on steroids.</p>
 
-            <p>When someone searches "best plumber near me," Google AI Overviews might generate an answer like:</p>
+            <p>When someone searches "best plumber near me," Google AI Overviews might generate an answer like: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-quote not-prose">
               <p>"Based on customer reviews and licensing verification, ABC Plumbing offers 24/7 emergency service with licensed technicians. They specialize in leak detection and water heater replacement, with same-day service available in most areas."</p>
             </div>
 
-            <p>Notice what happened? The user got their answer. They might not click anything else.</p>
+            <p>Notice what happened? The user got their answer. They might not click anything else. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Callout: Critical Shift */}
             <div className="ae-callout ae-callout-warning not-prose">
               <p className="ae-callout-title">The Critical Shift</p>
-              <p>Google AI Overviews cite sources, but most users never visit those cited websites. If your business is not cited, you do not exist in that search. Rankings without citations equal zero traffic.</p>
+              <p>Google AI Overviews cite sources, but most users never visit those cited websites. If your business is not cited, you do not exist in that search. Rankings without citations equal zero traffic. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             {/* Bar Chart: Traffic Impact */}
@@ -329,7 +329,7 @@ export default function GoogleRankingsDontMatter() {
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>How much traffic are you losing to AI Overviews right now?</p>
+              <p>How much traffic are you losing to AI Overviews right now? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Find Out Free</Link>
             </div>
 
@@ -337,7 +337,7 @@ export default function GoogleRankingsDontMatter() {
             <p className="ae-section-label not-prose">BEYOND GOOGLE</p>
             <h2>How ChatGPT, Claude, and Perplexity Are Changing Search Behavior</h2>
 
-            <p>Google is not the only problem. A massive portion of search traffic has moved off Google entirely. Millions of people now use ChatGPT instead of Google for many queries. They ask conversational questions like:</p>
+            <p>Google is not the only problem. A massive portion of search traffic has moved off Google entirely. Millions of people now use ChatGPT instead of Google for many queries. They ask conversational questions like: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <ul>
               <li>I need a real estate agent who specializes in flood recovery properties in Houston. Who is best?</li>
@@ -349,12 +349,12 @@ export default function GoogleRankingsDontMatter() {
 
             {/* Callout: Key Difference */}
             <div className="ae-callout ae-callout-info not-prose">
-              <p className="ae-callout-title">The Key Difference from Google</p>
+              <p className="ae-callout-title">The Key Difference from Google Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <p>ChatGPT and similar platforms do not show ten blue links. They provide one answer, citing 2-3 sources maximum. You are either in that answer or you are out. There is no page two. There is no second chance.</p>
             </div>
 
             {/* Timeline: The Evolution of Search */}
-            <p className="ae-section-label not-prose">THE EVOLUTION</p>
+            <p className="ae-section-label not-prose">THE EVOLUTION Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <h3>How Search Has Changed</h3>
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
@@ -363,7 +363,7 @@ export default function GoogleRankingsDontMatter() {
               </div>
               <div className="ae-timeline-item">
                 <strong>2011-2018: The Feature Era</strong>
-                <p>Featured snippets, knowledge panels, and local packs started stealing clicks from organic results.</p>
+                <p>Featured snippets, knowledge panels, and local packs started stealing clicks from organic results. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>2019-2023: The Zero-Click Era</strong>
@@ -371,7 +371,7 @@ export default function GoogleRankingsDontMatter() {
               </div>
               <div className="ae-timeline-item">
                 <strong>2024-Present: The AI Answer Era</strong>
-                <p>AI Overviews + ChatGPT + Claude + Perplexity answer questions directly. Being ranked is not enough. Being cited is everything.</p>
+                <p>AI Overviews + ChatGPT + Claude + Perplexity answer questions directly. Being ranked is not enough. Being cited is everything. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
             </div>
 
@@ -382,7 +382,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* Section: Why Traditional SEO Fails */}
-            <p className="ae-section-label not-prose">THE DISCONNECT</p>
+            <p className="ae-section-label not-prose">THE DISCONNECT Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <h2>Why Traditional SEO Does Not Work for AI Platforms</h2>
 
             <p>Here is where most businesses get stuck: they keep optimizing for 2015 Google.</p>
@@ -445,7 +445,7 @@ export default function GoogleRankingsDontMatter() {
             {/* Pros/Cons: SEO vs AEO */}
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros-box">
-                <p className="ae-pros-title">What AI Platforms Want</p>
+                <p className="ae-pros-title">What AI Platforms Want <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 <ul>
                   <li>Direct answers to specific questions</li>
                   <li>Structured data (FAQ, HowTo, Article schema)</li>
@@ -470,7 +470,7 @@ export default function GoogleRankingsDontMatter() {
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Still investing in old-school SEO tactics? See what AI actually thinks about your business.</p>
+              <p>Still investing in old-school SEO tactics? See what AI actually thinks about your business. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Audit</Link>
             </div>
 
@@ -478,7 +478,7 @@ export default function GoogleRankingsDontMatter() {
             <p className="ae-section-label not-prose">REAL-WORLD SCENARIO</p>
             <h2>The Real-World Impact: What This Means for Your Business</h2>
 
-            <p>Let us make this concrete with a realistic scenario.</p>
+            <p>Let us make this concrete with a realistic scenario. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -537,7 +537,7 @@ export default function GoogleRankingsDontMatter() {
 
             <p>When someone asks ChatGPT "Who is the best HVAC company for AC repair in Phoenix?", ChatGPT cites Company B with specific reasons: certified technicians, same-day service, and specialization in high-efficiency systems for extreme climates.</p>
 
-            <p>Company A? Never mentioned. Despite identical Google rankings.</p>
+            <p>Company A? Never mentioned. Despite identical Google rankings. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Takeaway */}
             <div className="ae-takeaway not-prose">
@@ -551,14 +551,14 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* Section: What It Takes */}
-            <p className="ae-section-label not-prose">THE IMPLEMENTATION</p>
+            <p className="ae-section-label not-prose">THE IMPLEMENTATION <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             <h2>What It Actually Takes to Win AI Citations</h2>
 
             <p>Understanding what needs to happen and successfully executing it are two very different things. Here is what is actually involved in Answer Engine Optimization:</p>
 
             {/* Cheat Sheet: AEO Implementation */}
             <div className="ae-cheat-sheet not-prose">
-              <p className="ae-cheat-sheet-title">The AEO Implementation Checklist</p>
+              <p className="ae-cheat-sheet-title">The AEO Implementation Checklist <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <ul>
                 <li><strong>Structured Data Layer:</strong> FAQ, HowTo, Article, LocalBusiness, and Review schema markup deployed without conflicts</li>
                 <li><strong>Question-Answer Mapping:</strong> Every service page answers the top 10 questions customers ask, in natural language</li>
@@ -576,19 +576,19 @@ export default function GoogleRankingsDontMatter() {
 
             {/* Callout: Schema Error */}
             <div className="ae-callout ae-callout-warning not-prose">
-              <p className="ae-callout-title">Common Schema Mistakes</p>
+              <p className="ae-callout-title">Common Schema Mistakes Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p>We audit dozens of websites every month. Over 80% have schema markup errors that prevent AI platforms from parsing their content. The most frequent: conflicting schema types, missing required fields, and improperly nested objects.</p>
             </div>
 
             <h3>The Content Architecture Problem</h3>
-            <p>Every piece of content needs explicit question-answer mapping. But here is the challenge: the same article must simultaneously satisfy Google E-E-A-T requirements AND conversational AI parsing.</p>
+            <p>Every piece of content needs explicit question-answer mapping. But here is the challenge: the same article must simultaneously satisfy Google E-E-A-T requirements AND conversational AI parsing. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>The Authority Documentation Gap</h3>
             <p>AI platforms verify credentials before citing sources. This is not about claiming expertise. It is about structuring your credentials in machine-readable formats that AI can validate.</p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Think your schema markup is correct? Let us check it for free.</p>
+              <p>Think your schema markup is correct? Let us check it for free. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Request a Free Schema Audit</Link>
             </div>
 
@@ -615,7 +615,7 @@ export default function GoogleRankingsDontMatter() {
             <p className="ae-section-label not-prose">THE FRAMEWORK</p>
             <h2>The 5-Step Answer Engine Optimization Framework</h2>
 
-            <p>We have distilled everything we know about AI citations into a repeatable framework. Here is the high-level view:</p>
+            <p>We have distilled everything we know about AI citations into a repeatable framework. Here is the high-level view: Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
@@ -624,7 +624,7 @@ export default function GoogleRankingsDontMatter() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Schema Infrastructure</strong>
-                <p>Deploy comprehensive structured data: FAQ, HowTo, Article, LocalBusiness, Review, and Person schema. Every page gets the right markup for its content type.</p>
+                <p>Deploy comprehensive structured data: FAQ, HowTo, Article, LocalBusiness, Review, and Person schema. Every page gets the right markup for its content type. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Content Architecture</strong>
@@ -632,7 +632,7 @@ export default function GoogleRankingsDontMatter() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Authority Building</strong>
-                <p>Document credentials, certifications, and expertise in machine-readable formats. Build topical authority through consistent, structured content creation.</p>
+                <p>Document credentials, certifications, and expertise in machine-readable formats. Build topical authority through consistent, structured content creation. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Monitor and Iterate</strong>
@@ -642,7 +642,7 @@ export default function GoogleRankingsDontMatter() {
 
             {/* CTA 7 - Phone */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to start the 5-step framework? We will walk you through it.</p>
+              <p>Ready to start the 5-step framework? We will walk you through it. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <a href="tel:+12134442229">Call (213) 444-2229</a>
             </div>
 
@@ -650,12 +650,12 @@ export default function GoogleRankingsDontMatter() {
             <p className="ae-section-label not-prose">ADDRESSING CONCERNS</p>
             <h2>But What About My Existing SEO Investment?</h2>
 
-            <p>This is the question we hear most. Here is the honest answer:</p>
+            <p>This is the question we hear most. Here is the honest answer: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Callout: Good News */}
             <div className="ae-callout ae-callout-success not-prose">
               <p className="ae-callout-title">Good News: Nothing Is Wasted</p>
-              <p>Your domain authority, existing backlinks, and quality content remain valuable assets. AEO builds on that foundation rather than replacing it. Think of it as upgrading your engine, not buying a new car.</p>
+              <p>Your domain authority, existing backlinks, and quality content remain valuable assets. AEO builds on that foundation rather than replacing it. Think of it as upgrading your engine, not buying a new car. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             <p>Basic SEO hygiene remains important. However, the focus must shift from "ranking higher" to "providing better answers." The content that wins AI citations often ranks well in traditional search anyway, because Google rewards the same signals AI platforms look for: expertise, clarity, and structured information.</p>
@@ -663,7 +663,7 @@ export default function GoogleRankingsDontMatter() {
             {/* Pros/Cons: Making the Transition */}
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros-box">
-                <p className="ae-pros-title">What You Keep from SEO</p>
+                <p className="ae-pros-title">What You Keep from SEO <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <ul>
                   <li>Domain authority and backlink profile</li>
                   <li>Quality content library</li>
@@ -684,7 +684,7 @@ export default function GoogleRankingsDontMatter() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure how to transition from SEO to AEO without losing ground?</p>
+              <p>Not sure how to transition from SEO to AEO without losing ground? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot">Get a Free Transition Roadmap</Link>
             </div>
 
@@ -692,7 +692,7 @@ export default function GoogleRankingsDontMatter() {
             <p className="ae-section-label not-prose">LOCAL ADVANTAGE</p>
             <h2>Why Local Service Businesses Benefit Most from AEO</h2>
 
-            <p>Local service businesses may benefit more from AEO than any other category. Here is why:</p>
+            <p>Local service businesses may benefit more from AEO than any other category. Here is why: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p>When someone asks "Who is the best plumber near me?" they want a specific recommendation, not ten links to explore. AI platforms deliver exactly that: one recommendation with reasons.</p>
 

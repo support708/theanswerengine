@@ -286,30 +286,30 @@ export default function Page() {
           {/* ── INTRODUCTION ── */}
           <p>
             When someone picks up their iPhone and asks Siri to find a nearby restaurant, a reliable plumber, or the best coffee shop in the area, they are triggering a chain of AI-powered decisions that determine which businesses get recommended and which ones stay invisible.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             That recommendation system is Apple Intelligence. It is not a single feature or a standalone app. It is an AI layer woven throughout the entire Apple ecosystem: Siri, Apple Maps, Spotlight Search, Safari suggestions, and even the lock screen. Every one of these surfaces can recommend your business to a potential customer, or recommend a competitor instead.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <p>
             What makes Apple Intelligence different from ChatGPT, Google AI, or Perplexity is its architecture. Apple processes most of this intelligence directly on the device. Your iPhone learns your habits, preferences, and patterns without ever sending that data to a server. For business owners, this means the recommendation logic is deeply personalized, context-aware, and impossible to game with traditional SEO tactics alone.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <p>
             With <strong>305 million iPhone users in the United States</strong> and a 59.2% smartphone market share domestically, Apple Intelligence is not a niche platform. It is the default discovery layer for more than half of American smartphone users.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering if Apple Intelligence and Siri are recommending your business right now? Find out in under 60 seconds.</p>
+            <p>Wondering if Apple Intelligence and Siri are recommending your business right now? Find out in under 60 seconds. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
           </div>
 
           {/* ── CALLOUT: WARNING ── */}
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Overlooked Channel</div>
-            <p>Most local businesses focus exclusively on Google for AI visibility. Meanwhile, Apple Intelligence is recommending businesses to over 300 million U.S. users through Siri, Maps, Spotlight, and Safari. If you are optimizing for ChatGPT and Google but ignoring Apple, you are missing a massive surface area of potential customers.</p>
+            <p>Most local businesses focus exclusively on Google for AI visibility. Meanwhile, Apple Intelligence is recommending businesses to over 300 million U.S. users through Siri, Maps, Spotlight, and Safari. If you are optimizing for ChatGPT and Google but ignoring Apple, you are missing a massive surface area of potential customers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
 
           {/* ── SECTION 1: WHAT APPLE INTELLIGENCE IS ── */}
@@ -318,15 +318,15 @@ export default function Page() {
 
           <p>
             Apple Intelligence is Apple&apos;s integrated AI system, launched with iOS 18 and expanded significantly in iOS 26. Unlike standalone AI chatbots that live in a browser tab, Apple Intelligence operates as a system-level capability embedded in every major Apple app and service.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <p>
             The system runs on Apple&apos;s custom Neural Engine chips (M5 and A19 Pro in 2026 devices), which are specifically designed for on-device AI processing. This means most of the intelligence that powers Siri, Maps suggestions, and Spotlight results runs locally on your phone, not in a data center.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <p>
             For local business discovery, Apple Intelligence manifests in several surfaces simultaneously:
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <ul>
             <li><strong>Siri voice queries:</strong> &quot;Find a good Italian restaurant near me&quot; or &quot;What plumber is open right now?&quot;</li>
@@ -338,11 +338,11 @@ export default function Page() {
 
           <p>
             In 2026, Apple expanded this further by partnering with Google Gemini to power more complex AI queries through Siri. The deal, reportedly costing Apple around $1 billion per year, means that when a Siri question requires deeper web knowledge beyond what on-device processing can handle, Gemini steps in as the backend. But for local discovery specifically, Apple still relies primarily on its own first-party data from Apple Maps and Apple Business Connect.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Apple Intelligence uses multiple data layers to decide who gets recommended. See how your business stacks up across all of them.</p>
+            <p>Apple Intelligence uses multiple data layers to decide who gets recommended. See how your business stacks up across all of them. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -352,7 +352,7 @@ export default function Page() {
 
           <p>
             Understanding which data sources feed Apple Intelligence is critical because it tells you exactly where to focus your optimization efforts. Apple pulls business information from a layered stack of sources, each with different levels of trust and influence.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           {/* ── COMPARISON TABLE ── */}
           <div className="not-prose overflow-x-auto mb-8">
@@ -408,20 +408,20 @@ export default function Page() {
 
           <p>
             <strong>Apple Business Connect is the single most important data source</strong> in this stack. It is the only source where Apple treats the data as fully verified and business-controlled. When Siri recommends a business by name, the information it presents, the phone number, hours, and description, comes primarily from Apple Business Connect.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <p>
             Yelp has been deeply integrated into Apple Maps since 2012. Apple still pulls Yelp reviews and ratings as a major input for local business evaluation. A business with strong Yelp reviews and a complete Yelp profile feeds Apple Intelligence better data, which increases the likelihood of being surfaced in recommendations.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <p>
             Apple also cross-references directory listings for NAP (Name, Address, Phone) consistency. If your business name is slightly different on your website, your Yelp page, and your Apple Business Connect profile, Apple Intelligence flags the inconsistency and may deprioritize you in favor of a competitor whose data is clean across all sources.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* ── CALLOUT: INFO ── */}
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Apple Business Connect Insights</div>
-            <p>Apple Business Connect provides analytics showing how people find your business in Maps, including searches, views, and actions (calls, directions, website visits). These insights help you understand which queries trigger your listing and where your visibility is strong or weak. If you have not claimed your profile, you are flying blind on the Apple ecosystem entirely.</p>
+            <p>Apple Business Connect provides analytics showing how people find your business in Maps, including searches, views, and actions (calls, directions, website visits). These insights help you understand which queries trigger your listing and where your visibility is strong or weak. If you have not claimed your profile, you are flying blind on the Apple ecosystem entirely. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
 
           {/* ── SECTION 3: RECOMMENDATION ENGINE ── */}
@@ -430,31 +430,31 @@ export default function Page() {
 
           <p>
             Apple Intelligence does not simply return a list of businesses sorted by distance. Its recommendation engine weighs multiple factors simultaneously, and critically, it personalizes results based on individual user behavior in a way that no other AI platform currently matches.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <p>
             The recommendation engine operates on three layers of intelligence:
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <p>
             <strong>Layer 1: Contextual awareness.</strong> Apple Intelligence knows the time of day, the user&apos;s current location, their calendar events, and even the weather. A search for &quot;lunch near me&quot; at 11:30 AM produces fundamentally different results than the same search at 6:00 PM. If a user has a calendar event downtown at 2:00 PM, Siri may proactively suggest restaurants near that location rather than near their current position.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
             <strong>Layer 2: Personal history and preferences.</strong> Because Apple Intelligence processes data on-device, it has access to a user&apos;s complete interaction history without ever sending that data to Apple&apos;s servers. It knows which types of businesses the user visits frequently, which price points they prefer, and which categories they search for most often. A user who regularly visits independent coffee shops will see those prioritized over Starbucks in their recommendations.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>
             <strong>Layer 3: Authority and data quality.</strong> This is the layer most relevant to business owners. Apple Intelligence evaluates the completeness of your business data, the consistency across sources, the volume and sentiment of your reviews, and the recency of your profile updates. Businesses with stale data, missing hours, or conflicting information across directories score lower on this layer.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-quote not-prose">
-            <p>Apple Intelligence does not just ask &quot;is this business nearby?&quot; It asks &quot;is this business nearby, relevant to this specific user, verified, and worth recommending right now?&quot;</p>
+            <p>Apple Intelligence does not just ask &quot;is this business nearby?&quot; It asks &quot;is this business nearby, relevant to this specific user, verified, and worth recommending right now?&quot; Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure where your business stands on Apple&apos;s authority layer? We audit every data source Apple Intelligence uses to generate recommendations.</p>
+            <p>Not sure where your business stands on Apple&apos;s authority layer? We audit every data source Apple Intelligence uses to generate recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -464,32 +464,32 @@ export default function Page() {
 
           <p>
             Siri is the most visible consumer-facing layer of Apple Intelligence, and it is undergoing its biggest upgrade in years. In January 2026, Apple announced a partnership with Google Gemini to power an overhauled Siri experience, with the updated version expected to roll out with iOS 26.4 in spring 2026.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
             The new Siri introduces three capabilities that directly impact local business discovery:
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <p>
             <strong>Personal context understanding.</strong> Siri can now reference information stored across emails, messages, photos, and calendar entries on the device. If a friend texted a user about a great new Thai restaurant last week, Siri can recall that recommendation when the user later asks for Thai food nearby.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <p>
             <strong>On-screen awareness.</strong> Siri can see and understand what is currently displayed on the user&apos;s screen. If a user is reading a blog post about home renovation and asks Siri for a contractor, the AI understands the context and refines its recommendations accordingly.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <p>
             <strong>Multi-step action execution.</strong> Siri can now perform complex sequences, such as finding a restaurant, checking availability, and making a reservation, without the user needing to open multiple apps. This means a single voice command can trigger a discovery, evaluation, and conversion sequence that happens entirely within the Apple ecosystem.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <p>
             Apple has also indicated that iOS 27 (expected late 2026) will open Siri to multiple third-party chatbot integrations, allowing users to choose between Google Gemini, OpenAI, Anthropic, and others for complex queries. This means your business data needs to be optimized not only for Apple&apos;s own systems but also for the AI models that Siri routes queries to.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           {/* ── CALLOUT: ORANGE ── */}
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">Siri &quot;World Knowledge Answers&quot;</div>
-            <p>Apple is building an internal system called &quot;World Knowledge Answers&quot; that generates rich summaries combining text, images, video, and local business results. This system is designed to let Siri answer complex local queries, like &quot;which family-friendly restaurants in my neighborhood have outdoor seating and are open past 9 PM?&quot;, with a single synthesized response rather than a list of links.</p>
+            <p>Apple is building an internal system called &quot;World Knowledge Answers&quot; that generates rich summaries combining text, images, video, and local business results. This system is designed to let Siri answer complex local queries, like &quot;which family-friendly restaurants in my neighborhood have outdoor seating and are open past 9 PM?&quot;, with a single synthesized response rather than a list of links. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           {/* ── CTA 4 ── */}

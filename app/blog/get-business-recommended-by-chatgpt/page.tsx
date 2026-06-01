@@ -243,20 +243,20 @@ export default function BlogPost() {
             <span className="ae-section-label">The Challenge</span>
             <h2>Deep Expertise, Near-Zero Online Visibility</h2>
 
-            <p>The client is a 13-year real estate practice with over $200 million in career sales and a 106% average list-to-sale ratio. A high-performing operation. The specialties include some of California&apos;s most technically demanding real estate niches: probate and inherited property, Proposition 19 transfers, rent-controlled property sales, and fire recovery consultation.</p>
+            <p>The client is a 13-year real estate practice with over $200 million in career sales and a 106% average list-to-sale ratio. A high-performing operation. The specialties include some of California&apos;s most technically demanding real estate niches: probate and inherited property, Proposition 19 transfers, rent-controlled property sales, and fire recovery consultation. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>But online? The site was pulling hundreds of monthly clicks. Not thousands. Despite 13 years of local expertise, the practice was essentially invisible on Google and nonexistent on AI platforms.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Problem</div>
-              <p>A business with $200M+ in career sales and genuine niche expertise was invisible to every AI platform. ChatGPT, Perplexity, Claude, and Google AI Overviews had no idea this team existed. Hundreds of potential clients were asking AI for help and getting sent to competitors.</p>
+              <p>A business with $200M+ in career sales and genuine niche expertise was invisible to every AI platform. ChatGPT, Perplexity, Claude, and Google AI Overviews had no idea this team existed. Hundreds of potential clients were asking AI for help and getting sent to competitors. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <p>That is the gap Answer Engine Optimization is built to close. The expertise was already there. The job was to extract that knowledge, structure it, and put it in front of the people who needed it.</p>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>How visible is your business to AI search platforms right now? Most businesses have no idea.</p>
+              <p>How visible is your business to AI search platforms right now? Most businesses have no idea. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Check Your AI Visibility &rarr;</Link>
             </div>
 
@@ -301,7 +301,7 @@ export default function BlogPost() {
               </table>
             </div>
 
-            <p>Each cluster was built as a hub-and-spoke architecture: individual spoke articles targeting specific questions, all linking to a comprehensive hub guide that established authority across the full subject area.</p>
+            <p>Each cluster was built as a hub-and-spoke architecture: individual spoke articles targeting specific questions, all linking to a comprehensive hub guide that established authority across the full subject area. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Why Clusters Beat Isolated Posts</div>
@@ -310,7 +310,7 @@ export default function BlogPost() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Questions about how topic clusters could work for your industry?</p>
+              <p>Questions about how topic clusters could work for your industry? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
             </div>
 
@@ -401,7 +401,7 @@ export default function BlogPost() {
               </div>
             </div>
 
-            <p>The single top-performing page, a deep-dive on Los Angeles rent control relocation fees, earned 1,365 clicks in 90 days on its own. That article now outranks content from law firms, tenant advocacy organizations, and regional media for queries that landlords and tenants search with real urgency.</p>
+            <p>The single top-performing page, a deep-dive on Los Angeles rent control relocation fees, earned 1,365 clicks in 90 days on its own. That article now outranks content from law firms, tenant advocacy organizations, and regional media for queries that landlords and tenants search with real urgency. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -410,7 +410,7 @@ export default function BlogPost() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want results like these for your business? Start with the data.</p>
+              <p>Want results like these for your business? Start with the data. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <Link href="/blindspot">Run Your Free AI Audit &rarr;</Link>
             </div>
 
@@ -423,7 +423,7 @@ export default function BlogPost() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Month 1: Foundation</strong>
-                <p>First articles indexed. Early rankings appear for long-tail queries. Baseline impressions begin climbing. The content architecture is laid down.</p>
+                <p>First articles indexed. Early rankings appear for long-tail queries. Baseline impressions begin climbing. The content architecture is laid down. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 2: Traction</strong>
@@ -431,7 +431,7 @@ export default function BlogPost() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 3: AI Recognition</strong>
-                <p>AI platform citations begin. ChatGPT starts surfacing content. Top pages reach featured snippets. The compounding effect kicks in.</p>
+                <p>AI platform citations begin. ChatGPT starts surfacing content. Top pages reach featured snippets. The compounding effect kicks in. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 4: Revenue</strong>
@@ -441,7 +441,7 @@ export default function BlogPost() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Important Context</div>
-              <p>This timeline reflects a full-commitment content push. Slower publication schedules produce slower results. The underlying mechanics are the same. The speed depends on volume and consistency.</p>
+              <p>This timeline reflects a full-commitment content push. Slower publication schedules produce slower results. The underlying mechanics are the same. The speed depends on volume and consistency. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── CTA 5 ── */}
@@ -454,19 +454,19 @@ export default function BlogPost() {
             <span className="ae-section-label">Trust Signal</span>
             <h2>Both Sides of the Market Started Calling</h2>
 
-            <p>Traffic growth is measurable. What is harder to quantify, until it shows up in your phone, is the quality of trust the content was building.</p>
+            <p>Traffic growth is measurable. What is harder to quantify, until it shows up in your phone, is the quality of trust the content was building. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>About six to eight weeks in, the team began receiving weekly calls not just from sellers and buyers, but from both landlords and tenants. People on opposite sides of the same legal and transactional questions the content was answering.</p>
 
             <div className="ae-quote not-prose">
-              <p>The content was not perceived as advocacy for one side. It was perceived as genuine expertise. The kind that helps you understand a complicated situation regardless of which side of the table you are on.</p>
+              <p>The content was not perceived as advocacy for one side. It was perceived as genuine expertise. The kind that helps you understand a complicated situation regardless of which side of the table you are on. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             <p>In a market as legally complex as Los Angeles real estate, that is a rare reputation to earn organically. And it is exactly the kind of trust signal that AI platforms weigh heavily when deciding who to recommend.</p>
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Are AI platforms positioning you as the trusted expert in your field?</p>
+              <p>Are AI platforms positioning you as the trusted expert in your field? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Find Out Now &rarr;</Link>
             </div>
 
@@ -478,7 +478,7 @@ export default function BlogPost() {
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The ChatGPT Moment</div>
-              <p>One client specifically found the agent through ChatGPT. Someone typed a question into ChatGPT, not Google, not Zillow, not a referral network, and ChatGPT recommended a specific real estate agent based on the content that agent had published. That client reached out, came in already trusting the expertise, and closed a deal.</p>
+              <p>One client specifically found the agent through ChatGPT. Someone typed a question into ChatGPT, not Google, not Zillow, not a referral network, and ChatGPT recommended a specific real estate agent based on the content that agent had published. That client reached out, came in already trusting the expertise, and closed a deal. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             {/* ── STATS GRID: Deal Impact ── */}
@@ -511,7 +511,7 @@ export default function BlogPost() {
               <footer><strong>Justin Borges</strong>, Team Lead, The Borges Real Estate Team</footer>
             </div>
 
-            <p>That is the end state AEO is designed to produce. Not just rankings. Not just impressions. <em>Recommended by AI.</em></p>
+            <p>That is the end state AEO is designed to produce. Not just rankings. Not just impressions. <em>Recommended by AI.</em> Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
@@ -523,7 +523,7 @@ export default function BlogPost() {
             <span className="ae-section-label">Head-to-Head</span>
             <h2>AEO vs. Traditional SEO: Why Both Matter</h2>
 
-            <p>A question worth addressing directly: is this just good SEO? AEO builds on SEO fundamentals but adds layers that SEO alone does not cover.</p>
+            <p>A question worth addressing directly: is this just good SEO? AEO builds on SEO fundamentals but adds layers that SEO alone does not cover. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* ── PROS CONS ── */}
             <div className="ae-pros-cons not-prose">
@@ -555,7 +555,7 @@ export default function BlogPost() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>AEO does not replace SEO. It extends it. The best strategy combines both: rank in search results AND get cited by AI platforms. This case study proves they compound each other.</p>
+              <p>AEO does not replace SEO. It extends it. The best strategy combines both: rank in search results AND get cited by AI platforms. This case study proves they compound each other. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             {/* ── CTA 8 ── */}
@@ -568,7 +568,7 @@ export default function BlogPost() {
             <span className="ae-section-label">Playbook</span>
             <h2>What Made This Work: Three Non-Negotiables</h2>
 
-            <p>This was not a volume play. The content push required significant effort. Three components had to be present and working together.</p>
+            <p>This was not a volume play. The content push required significant effort. Three components had to be present and working together. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -607,7 +607,7 @@ export default function BlogPost() {
 
             <h3>2. Full Schema Stack on Every Article</h3>
 
-            <p>Every published piece included a minimum of five schema types: Article, FAQPage, HowTo where applicable, BreadcrumbList, and LocalBusiness. Schema markup tells AI platforms exactly what your content covers, who wrote it, and what qualifies them to answer. Without it, AI systems have to guess. With it, they know.</p>
+            <p>Every published piece included a minimum of five schema types: Article, FAQPage, HowTo where applicable, BreadcrumbList, and LocalBusiness. Schema markup tells AI platforms exactly what your content covers, who wrote it, and what qualifies them to answer. Without it, AI systems have to guess. With it, they know. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>3. Hub-and-Spoke Architecture, Not Isolated Posts</h3>
 
@@ -615,7 +615,7 @@ export default function BlogPost() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Critical</div>
-              <p>Most businesses publish isolated blog posts and wonder why AI never cites them. Without cluster architecture and schema markup, AI platforms literally cannot tell whether your expertise is real or incidental. Structure is the difference between invisible and recommended.</p>
+              <p>Most businesses publish isolated blog posts and wonder why AI never cites them. Without cluster architecture and schema markup, AI platforms literally cannot tell whether your expertise is real or incidental. Structure is the difference between invisible and recommended. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── CTA 9 ── */}
@@ -628,7 +628,7 @@ export default function BlogPost() {
             <span className="ae-section-label">Industry Fit</span>
             <h2>Why Real Estate Is One of the Strongest AEO Verticals</h2>
 
-            <p>Real estate is a high-trust, high-stakes transaction. People research extensively before they ever reach out. When your content correctly explains how LA rent control relocation fees are calculated, how Proposition 19 transfers affect a family&apos;s tax basis, or how AB 2424 changed a seller&apos;s foreclosure timeline, you have demonstrated expertise before the first phone call. The trust is pre-built.</p>
+            <p>Real estate is a high-trust, high-stakes transaction. People research extensively before they ever reach out. When your content correctly explains how LA rent control relocation fees are calculated, how Proposition 19 transfers affect a family&apos;s tax basis, or how AB 2424 changed a seller&apos;s foreclosure timeline, you have demonstrated expertise before the first phone call. The trust is pre-built. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* ── BAR GROUP: Real Estate AEO Fit ── */}
             <div className="ae-bar-group not-prose">
@@ -658,7 +658,7 @@ export default function BlogPost() {
 
             {/* ── CTA 10 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>AEO works for any local service business, not just real estate. See how AI views your industry.</p>
+              <p>AEO works for any local service business, not just real estate. See how AI views your industry. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -710,7 +710,7 @@ export default function BlogPost() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>If your clients Google questions before they call you, they are also asking AI. The only question is whether AI sends them to you or to your competitor.</p>
+              <p>If your clients Google questions before they call you, they are also asking AI. The only question is whether AI sends them to you or to your competitor. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* ── CTA 11 ── */}
@@ -723,7 +723,7 @@ export default function BlogPost() {
             <span className="ae-section-label">Action Steps</span>
             <h2>How to Start Getting Recommended by AI Today</h2>
 
-            <p>You do not need to implement everything at once. Here is the priority order based on what moved the needle fastest in this case study:</p>
+            <p>You do not need to implement everything at once. Here is the priority order based on what moved the needle fastest in this case study: Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── TIMELINE: Getting Started ── */}
             <div className="ae-timeline not-prose">
@@ -733,7 +733,7 @@ export default function BlogPost() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Identify Your Topic Clusters</strong>
-                <p>What are the 3-4 areas where you have genuine expertise that clients ask about? Those become your content clusters.</p>
+                <p>What are the 3-4 areas where you have genuine expertise that clients ask about? Those become your content clusters. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Build Hub-and-Spoke Content</strong>
@@ -741,7 +741,7 @@ export default function BlogPost() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Implement Full Schema</strong>
-                <p>Add Article, FAQPage, BreadcrumbList, LocalBusiness, and relevant schema types to every page. This is how AI platforms understand your content.</p>
+                <p>Add Article, FAQPage, BreadcrumbList, LocalBusiness, and relevant schema types to every page. This is how AI platforms understand your content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Monitor and Iterate</strong>
@@ -751,7 +751,7 @@ export default function BlogPost() {
 
             {/* ── CTA 12 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Do not want to figure this out alone? We handle the entire process.</p>
+              <p>Do not want to figure this out alone? We handle the entire process. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -763,19 +763,19 @@ export default function BlogPost() {
             <p>Results vary significantly by niche, market competition, content investment, and baseline visibility. This case study shows an 89% click increase in 90 days, growing from hundreds of monthly clicks to over 8,400. AI citations typically begin appearing within 60 to 90 days of consistent, schema-optimized content publication.</p>
 
             <h3>How long does AEO take to produce results?</h3>
-            <p>This real estate team saw measurable traffic growth within the first 30 days and significant ranking improvements by month two. Closed deals attributed to content began appearing in the fourth month of the content push.</p>
+            <p>This real estate team saw measurable traffic growth within the first 30 days and significant ranking improvements by month two. Closed deals attributed to content began appearing in the fourth month of the content push. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Can AEO actually generate leads and closed business?</h3>
             <p>Yes. This case study documents 5 closed real estate deals in 2026 directly attributed to blog content, including one client who discovered the agent through ChatGPT before ever visiting the website.</p>
 
             <h3>What is the difference between AEO and traditional SEO?</h3>
-            <p>Traditional SEO targets Google rankings. AEO targets AI citations, getting your business recommended by ChatGPT, Perplexity, Claude, and Google AI Overviews. The two complement each other; AEO adds schema markup, FAQ structures, and topical cluster architecture that SEO alone does not address.</p>
+            <p>Traditional SEO targets Google rankings. AEO targets AI citations, getting your business recommended by ChatGPT, Perplexity, Claude, and Google AI Overviews. The two complement each other; AEO adds schema markup, FAQ structures, and topical cluster architecture that SEO alone does not address. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Does AEO work for real estate agents?</h3>
             <p>Real estate is one of the strongest AEO verticals because buyers and sellers ask extremely specific, high-stakes questions that AI platforms actively try to answer. Agents with documented local expertise in complex niches like probate, rent control, and inheritance are particularly well-positioned.</p>
 
             <h3>How much does Answer Engine Optimization cost?</h3>
-            <p>Pricing depends on scope and industry. <Link href="/blindspot">Request a free blind spot report</Link> to get a custom recommendation, or <a href="tel:+12134442229">call (213) 444-2229</a> to discuss your needs.</p>
+            <p>Pricing depends on scope and industry. <Link href="/blindspot">Request a free blind spot report</Link> to get a custom recommendation, or <a href="tel:+12134442229">call (213) 444-2229</a> to discuss your needs. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* ── CTA 13 ── */}
             <div className="ae-cta-inline not-prose">

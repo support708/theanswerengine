@@ -269,17 +269,17 @@ export default function HowDogGroomersWinAICitations() {
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>A pet owner used to type &quot;dog groomer near me&quot; into Google and pick from the map pack. That behavior is changing rapidly. Today, pet owners open ChatGPT or Perplexity and ask something far more specific: &quot;Who is a good groomer for anxious dogs near me?&quot; or &quot;mobile dog groomer that does doodles in [city].&quot;</p>
-              <p>The answer comes back as a direct recommendation with a name, a reason, and often details about the groomer&apos;s approach. The pet owner reads the answer, checks the website, and books. No scrolling. No comparing ten listings. The decision is made in the time it takes to read a short paragraph.</p>
+              <p>The answer comes back as a direct recommendation with a name, a reason, and often details about the groomer&apos;s approach. The pet owner reads the answer, checks the website, and books. No scrolling. No comparing ten listings. The decision is made in the time it takes to read a short paragraph. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             </div>
             <div className="ae-quote not-prose mt-6">
               <p>The specificity of pet owner queries is increasing. &quot;Groomer near me&quot; is being replaced by &quot;groomer experienced with nervous rescues,&quot; &quot;groomer that does hand stripping for terriers,&quot; and &quot;mobile groomer in [neighborhood].&quot; AI matches these queries to businesses with specific, structured content. Generic websites do not compete.</p>
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
-              <p>This shift matters enormously for independent groomers. In traditional search, proximity gave local businesses a natural advantage. In AI search, proximity is one factor among many. A groomer ten miles away with deep, structured content about specific breeds and safety practices will be recommended over the closest groomer with an Instagram page and no website.</p>
+              <p>This shift matters enormously for independent groomers. In traditional search, proximity gave local businesses a natural advantage. In AI search, proximity is one factor among many. A groomer ten miles away with deep, structured content about specific breeds and safety practices will be recommended over the closest groomer with an Instagram page and no website. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               <p>The $10.4 billion pet grooming market is large enough to support independent operators at scale, but only those whose digital presence tells AI what it needs to hear. For context on how AI is reshaping local discovery across industries, see our broader guide on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers use AI to find local businesses</Link>.</p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Find out if AI is sending pet owners to a competitor instead of your grooming business.</p>
+              <p>Find out if AI is sending pet owners to a competitor instead of your grooming business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
           </section>
@@ -295,16 +295,16 @@ export default function HowDogGroomersWinAICitations() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>Ask ChatGPT for a dog groomer recommendation in almost any city and the first suggestions are likely to include PetSmart Grooming or Petco Grooming. This is not because AI prefers chains. It is because chains have inadvertently built the exact type of digital presence AI needs to make confident recommendations.</p>
               <h3>What Chains Have That Independents Often Lack</h3>
-              <p>National pet retailers have invested heavily in standardized web infrastructure. Every PetSmart location has a dedicated page with structured service information, consistent NAP (Name, Address, Phone) data across thousands of directories, and a review volume that gives AI strong sentiment signals. Their grooming pages use consistent terminology across locations, which builds topical authority across the entire brand domain.</p>
+              <p>National pet retailers have invested heavily in standardized web infrastructure. Every PetSmart location has a dedicated page with structured service information, consistent NAP (Name, Address, Phone) data across thousands of directories, and a review volume that gives AI strong sentiment signals. Their grooming pages use consistent terminology across locations, which builds topical authority across the entire brand domain. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <div className="ae-callout ae-callout-warning not-prose mt-6">
               <p><strong>The visibility gap in numbers:</strong> Only 1.2% of local businesses are actually cited by ChatGPT when users ask for recommendations. Chains occupy an outsized share of that 1.2% not because they groom better but because their digital infrastructure makes them easier for AI to verify, trust, and recommend with confidence.</p>
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <h3>The Independent Groomer Path to AI Visibility</h3>
-              <p>The good news is that chains cannot match what an experienced independent groomer offers: breed specialization, relationship-based care, specific behavioral expertise, and the kind of personalized service that generates detailed, specific reviews. AI values all of these signals. The gap is not in service quality. It is in how that quality is communicated to AI.</p>
+              <p>The good news is that chains cannot match what an experienced independent groomer offers: breed specialization, relationship-based care, specific behavioral expertise, and the kind of personalized service that generates detailed, specific reviews. AI values all of these signals. The gap is not in service quality. It is in how that quality is communicated to AI. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <p>An independent groomer who builds service-specific pages, earns and publishes detailed reviews about specific breeds and behavioral accommodations, maintains consistent directory listings, and earns recognition from grooming associations can absolutely compete with chain visibility. AI rewards the business that makes its expertise most legible.</p>
-              <p>For a deeper look at why this gap exists across all industries, read our analysis of <Link href="/blog/why-ai-recommends-chains-over-local-businesses">why AI recommends chains over local businesses</Link>.</p>
+              <p>For a deeper look at why this gap exists across all industries, read our analysis of <Link href="/blog/why-ai-recommends-chains-over-local-businesses">why AI recommends chains over local businesses</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
               <p>Want to know what AI says when a pet owner searches for a groomer in your area right now?</p>
@@ -321,22 +321,22 @@ export default function HowDogGroomersWinAICitations() {
               THE TRUST SIGNALS AI EVALUATES FOR <span className="text-[#F27D24]">PET SERVICES</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-              <p>AI platforms do not guess which groomer to recommend. They cross-reference a business against a specific set of trust signals before making a recommendation. For pet services, these signals fall into three categories: credentials and expertise, business consistency, and content depth.</p>
+              <p>AI platforms do not guess which groomer to recommend. They cross-reference a business against a specific set of trust signals before making a recommendation. For pet services, these signals fall into three categories: credentials and expertise, business consistency, and content depth. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <h3>Credentials and Professional Affiliations</h3>
               <p>Pet care is increasingly treated as a trust-sensitive category by AI, particularly as pet owners view their animals as family members. Certifications from organizations like the National Dog Groomers Association of America (NDGAA), International Professional Groomers (IPG), and the National Cat Groomers Institute serve as verifiable third-party signals that AI can reference across the web.</p>
-              <p>When a groomer&apos;s website lists their NDGAA certification, that same certification should appear on association directories, Yelp listings, and Google Business Profile. The more consistently it appears across crawlable sources, the stronger the trust signal becomes. A certification badge that only exists as an image on a website gives AI nothing to work with.</p>
+              <p>When a groomer&apos;s website lists their NDGAA certification, that same certification should appear on association directories, Yelp listings, and Google Business Profile. The more consistently it appears across crawlable sources, the stronger the trust signal becomes. A certification badge that only exists as an image on a website gives AI nothing to work with. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <h3>Business Consistency Across the Web</h3>
               <p>AI platforms verify business information across directories before making recommendations. For pet services, the relevant directory ecosystem includes Yelp, Google Business Profile, Angi, the American Kennel Club groomer directory, PetFinder partner listings, and local city directories. When the business name, phone number, address, and hours match everywhere, AI treats the business as reliably established.</p>
             </div>
             <div className="ae-callout ae-callout-info not-prose mt-6">
-              <p><strong>The consistency trap:</strong> Many independent groomers change their business name slightly across platforms. &quot;Fluffy Paws Grooming&quot; on Google, &quot;Fluffy Paws Pet Services&quot; on Yelp, and just &quot;Fluffy Paws&quot; on Facebook. Each inconsistency reduces AI confidence. Use the exact same business name, in the exact same format, everywhere.</p>
+              <p><strong>The consistency trap:</strong> Many independent groomers change their business name slightly across platforms. &quot;Fluffy Paws Grooming&quot; on Google, &quot;Fluffy Paws Pet Services&quot; on Yelp, and just &quot;Fluffy Paws&quot; on Facebook. Each inconsistency reduces AI confidence. Use the exact same business name, in the exact same format, everywhere. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <h3>Content Depth as an Authority Signal</h3>
               <p>AI evaluates the depth of your web content as a proxy for expertise. A website with a single page listing services as bullets tells AI almost nothing about your actual capabilities. A website with dedicated pages for different coat types, breed-specific grooming approaches, puppy introduction protocols, and senior pet accommodations signals genuine expertise that AI can match against specific queries.</p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>See how your grooming business scores on AI trust signals compared to competitors in your market.</p>
+              <p>See how your grooming business scores on AI trust signals compared to competitors in your market. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
           </section>
@@ -352,18 +352,18 @@ export default function HowDogGroomersWinAICitations() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>Reviews are one of the most powerful trust signals AI uses for local service recommendations. But the type of review matters as much as the volume and rating. For pet groomers, there is a significant and underappreciated difference between a five-star review that says &quot;great groomer, highly recommend&quot; and one that says &quot;Took my anxious rescue Labrador who gets stressed with strangers. The groomer gave him plenty of time to settle in, used calm handling throughout, and he came home relaxed. First groom that did not traumatize him.&quot;</p>
               <h3>What AI Extracts From Reviews</h3>
-              <p>AI platforms perform sentiment analysis on review content to understand what a business is actually good at. When multiple reviews mention the same specific breed, behavioral need, or service type, AI builds a confident association between your business and that expertise. A groomer with ten reviews mentioning &quot;doodle cuts&quot; becomes AI&apos;s answer to the query &quot;doodle groomer near me.&quot;</p>
+              <p>AI platforms perform sentiment analysis on review content to understand what a business is actually good at. When multiple reviews mention the same specific breed, behavioral need, or service type, AI builds a confident association between your business and that expertise. A groomer with ten reviews mentioning &quot;doodle cuts&quot; becomes AI&apos;s answer to the query &quot;doodle groomer near me.&quot; One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
             <div className="ae-callout ae-callout-orange not-prose mt-6">
               <p><strong>The keyword that AI is looking for in groomer reviews:</strong> breed names, behavioral descriptors (nervous, reactive, anxious, rescue, elderly), specific services (hand stripping, deshedding, puppy first groom, teeth brushing), and outcome language (came home calm, coat looks amazing, zero stress). Generic reviews contribute almost nothing to AI query matching. Specific reviews are the difference between being recommended and being invisible.</p>
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <h3>Where AI Can Actually Read Your Reviews</h3>
-              <p>Not all review platforms are accessible to AI crawlers. Yelp reviews are largely crawlable and carry significant weight with ChatGPT and Perplexity. Google reviews help with Google AI Overviews but are blocked to most other AI platforms via JavaScript rendering. The most reliable strategy is to publish client testimonials as plain text directly on your website, alongside maintaining active Yelp and pet-specific directory profiles.</p>
+              <p>Not all review platforms are accessible to AI crawlers. Yelp reviews are largely crawlable and carry significant weight with ChatGPT and Perplexity. Google reviews help with Google AI Overviews but are blocked to most other AI platforms via JavaScript rendering. The most reliable strategy is to publish client testimonials as plain text directly on your website, alongside maintaining active Yelp and pet-specific directory profiles. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <p>For a complete breakdown of how review platforms affect AI recommendations, read our guide on <Link href="/blog/does-more-reviews-help-ai-find-you">whether more reviews actually help AI find you</Link>.</p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Find out which of your reviews AI can actually read and which are invisible.</p>
+              <p>Find out which of your reviews AI can actually read and which are invisible. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <Link href="/blindspot">Check Your AI Review Visibility &rarr;</Link>
             </div>
             <div className="ae-pros-cons not-prose mt-6">
@@ -403,10 +403,10 @@ export default function HowDogGroomersWinAICitations() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>Mobile grooming is one of the fastest-growing segments of the pet services industry. Pet owners love the convenience. AI has a harder time recommending mobile groomers than brick-and-mortar operations, for a specific set of structural reasons.</p>
               <h3>The Location Problem</h3>
-              <p>When a pet owner asks AI for a &quot;mobile dog groomer near me,&quot; AI needs to match the query to a service area. Brick-and-mortar groomers have a fixed address that maps cleanly to location-based queries. Mobile groomers operate without a fixed address, which means AI frequently cannot determine whether the mobile groomer serves the user&apos;s specific neighborhood.</p>
+              <p>When a pet owner asks AI for a &quot;mobile dog groomer near me,&quot; AI needs to match the query to a service area. Brick-and-mortar groomers have a fixed address that maps cleanly to location-based queries. Mobile groomers operate without a fixed address, which means AI frequently cannot determine whether the mobile groomer serves the user&apos;s specific neighborhood. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <p>Mobile groomers who list only a phone number and a general city on their website are invisible to neighborhood-level queries. AI needs explicit service area information to make geographic matches. This means naming specific neighborhoods, zip codes, and city districts on the website in crawlable text.</p>
               <h3>Compound Visibility Challenges</h3>
-              <p>Mobile groomers face a second challenge: many operate primarily through Instagram or word-of-mouth referrals, with no structured website at all. Instagram profiles are not crawlable by AI. A mobile groomer with 5,000 Instagram followers and no website is completely invisible to AI recommendation systems.</p>
+              <p>Mobile groomers face a second challenge: many operate primarily through Instagram or word-of-mouth referrals, with no structured website at all. Instagram profiles are not crawlable by AI. A mobile groomer with 5,000 Instagram followers and no website is completely invisible to AI recommendation systems. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
             <div className="ae-callout ae-callout-warning not-prose mt-6">
               <p><strong>If you are a mobile groomer:</strong> A structured website with explicit service area pages is not optional for AI visibility. It is the difference between being recommended and not existing in the AI world. Your Instagram is for your existing clients. Your website is for pet owners who do not know you yet and are asking AI who to call.</p>
@@ -448,7 +448,7 @@ export default function HowDogGroomersWinAICitations() {
               </tbody>
             </table>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Mobile groomer or brick-and-mortar, we can show you exactly where your AI visibility gaps are.</p>
+              <p>Mobile groomer or brick-and-mortar, we can show you exactly where your AI visibility gaps are. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
           </section>
@@ -464,10 +464,10 @@ export default function HowDogGroomersWinAICitations() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>The single highest-leverage investment most grooming businesses can make in AI visibility is building dedicated pages for specific services and specific breeds. This is not about writing more content for its own sake. It is about giving AI the structured, specific information it needs to match your business against the queries pet owners actually use.</p>
               <h3>The Breed-Specific Page Opportunity</h3>
-              <p>Pet owners increasingly search for groomers using breed-specific language. &quot;Groomer for doodles,&quot; &quot;poodle groomer near me,&quot; &quot;husky deshedding specialist,&quot; &quot;groomer experienced with huskies and double coats.&quot; These queries require more than a generic service page. AI looks for a page that specifically addresses that breed, its grooming characteristics, and your approach to it.</p>
+              <p>Pet owners increasingly search for groomers using breed-specific language. &quot;Groomer for doodles,&quot; &quot;poodle groomer near me,&quot; &quot;husky deshedding specialist,&quot; &quot;groomer experienced with huskies and double coats.&quot; These queries require more than a generic service page. AI looks for a page that specifically addresses that breed, its grooming characteristics, and your approach to it. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <p>High-demand breeds for grooming-specific pages include goldendoodles and labradoodles, poodles and miniature poodles, golden retrievers, huskies and malamutes (seasonal deshedding), shih tzus and bichon frises, Yorkshire terriers, border collies, and cocker spaniels. Each breed has distinct coat types, grooming frequency needs, and common owner concerns that a dedicated page can address.</p>
               <h3>Life-Stage Specific Services</h3>
-              <p>Beyond breed pages, life-stage services represent a major AI opportunity. Puppy&apos;s first groom is among the highest-intent queries in the pet grooming category. Pet owners actively search for groomers who specialize in making a puppy&apos;s first experience positive. Similarly, senior pet grooming has become a significant segment as owners seek groomers who understand the physical limitations and anxiety patterns of older animals.</p>
+              <p>Beyond breed pages, life-stage services represent a major AI opportunity. Puppy&apos;s first groom is among the highest-intent queries in the pet grooming category. Pet owners actively search for groomers who specialize in making a puppy&apos;s first experience positive. Similarly, senior pet grooming has become a significant segment as owners seek groomers who understand the physical limitations and anxiety patterns of older animals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
             <div className="ae-takeaway not-prose mt-6">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -475,11 +475,11 @@ export default function HowDogGroomersWinAICitations() {
             </div>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <h3>Behavioral Accommodation Pages</h3>
-              <p>One of the fastest-growing search categories in pet grooming is behavioral accommodation. Pet owners with anxious, reactive, or fearful dogs are actively searching for groomers who specialize in low-stress handling. Searches like &quot;groomer for anxious dogs,&quot; &quot;fear-free groomer near me,&quot; and &quot;groomer experienced with rescue dogs&quot; are high-intent queries with significant conversion value.</p>
+              <p>One of the fastest-growing search categories in pet grooming is behavioral accommodation. Pet owners with anxious, reactive, or fearful dogs are actively searching for groomers who specialize in low-stress handling. Searches like &quot;groomer for anxious dogs,&quot; &quot;fear-free groomer near me,&quot; and &quot;groomer experienced with rescue dogs&quot; are high-intent queries with significant conversion value. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p>A page dedicated to your low-stress grooming approach, describing specific handling techniques, extended appointment times, and the types of dogs you work best with, can capture this high-value segment. The key is that these pages must exist as crawlable HTML content on your website, not as Instagram captions or Facebook posts.</p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Not sure which service pages are worth building first for your market? Our report shows you the exact queries AI is not matching to your business.</p>
+              <p>Not sure which service pages are worth building first for your market? Our report shows you the exact queries AI is not matching to your business. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
           </section>
@@ -495,16 +495,16 @@ export default function HowDogGroomersWinAICitations() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>Pet safety has become a significant factor in how AI evaluates grooming businesses. High-profile incidents at grooming chains have made pet owners more cautious and more likely to ask AI specific safety-related questions. AI platforms have responded by weighting safety-oriented signals more heavily when recommending groomers.</p>
               <h3>Certifications AI Can Verify</h3>
-              <p>Professional grooming certifications function as verifiable third-party signals in AI&apos;s evaluation. The key is that the certification must appear in crawlable text across multiple sources for AI to treat it as verified. A certification mentioned only on your website carries less weight than one that appears on your website, in your Yelp business description, on the certifying organization&apos;s directory, and in client reviews that reference your credentials.</p>
+              <p>Professional grooming certifications function as verifiable third-party signals in AI&apos;s evaluation. The key is that the certification must appear in crawlable text across multiple sources for AI to treat it as verified. A certification mentioned only on your website carries less weight than one that appears on your website, in your Yelp business description, on the certifying organization&apos;s directory, and in client reviews that reference your credentials. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <p>The certifications that carry the most AI weight in the pet grooming category are National Dog Groomers Association of America (NDGAA) certified professional groomer, Fear Free Certified Professional, International Professional Groomers (IPG) certified, and Pet CPR and First Aid certification. Each represents a verifiable claim that AI can cross-reference across the web.</p>
               <h3>Safety Practice Language as a Trust Signal</h3>
-              <p>Beyond formal certifications, specific safety language in your website content signals to AI that your business prioritizes pet welfare. Descriptions of no-cage-drying policies, one-dog-at-a-time appointment structures, breed-appropriate handling protocols, and health monitoring during grooming all signal a safety-first approach that AI associates with trustworthy pet service providers.</p>
+              <p>Beyond formal certifications, specific safety language in your website content signals to AI that your business prioritizes pet welfare. Descriptions of no-cage-drying policies, one-dog-at-a-time appointment structures, breed-appropriate handling protocols, and health monitoring during grooming all signal a safety-first approach that AI associates with trustworthy pet service providers. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
             <div className="ae-callout ae-callout-info not-prose mt-6">
               <p><strong>A critical distinction:</strong> Saying &quot;we care about your pet&apos;s safety&quot; is generic and invisible to AI. Saying &quot;we use a force-free handling approach, never cage dry, and structure appointments to minimize stress for anxious and reactive dogs&quot; contains specific, searchable terms that AI can match against pet owner queries. The specificity is the signal.</p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Find out whether AI can verify your certifications and safety practices or if they are buried in image files.</p>
+              <p>Find out whether AI can verify your certifications and safety practices or if they are buried in image files. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Check Your AI Safety Signal Visibility &rarr;</Link>
             </div>
           </section>
@@ -520,10 +520,10 @@ export default function HowDogGroomersWinAICitations() {
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>The majority of independent dog groomers face one of two fundamental AI visibility problems: they either have no website at all, relying entirely on Instagram or Facebook, or they have a website built on a platform that renders content via JavaScript, making it invisible to AI crawlers.</p>
               <h3>The Instagram-Only Trap</h3>
-              <p>Instagram is genuinely valuable for showing off grooming results, building a following, and staying top-of-mind with existing clients. It is essentially useless for AI-driven discovery of new clients. AI crawlers cannot access Instagram content. No Instagram post, story, reel, or bio will ever appear in an AI recommendation for a groomer in your area, regardless of how many followers you have or how beautiful your before-and-after photos are.</p>
+              <p>Instagram is genuinely valuable for showing off grooming results, building a following, and staying top-of-mind with existing clients. It is essentially useless for AI-driven discovery of new clients. AI crawlers cannot access Instagram content. No Instagram post, story, reel, or bio will ever appear in an AI recommendation for a groomer in your area, regardless of how many followers you have or how beautiful your before-and-after photos are. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <p>Pet owners who already know about you may find you on Instagram. Pet owners who do not know about you yet are asking AI, and AI cannot see Instagram. The growth channel most independent groomers are investing in most heavily is completely invisible to the fastest-growing customer discovery channel.</p>
               <h3>The JavaScript Rendering Problem</h3>
-              <p>Many grooming businesses that do have websites use platforms like Wix, Squarespace with heavy customization, or booking-integrated templates that render page content via JavaScript. For human visitors with browsers, these sites look great. For AI crawlers, they produce a blank or near-blank page.</p>
+              <p>Many grooming businesses that do have websites use platforms like Wix, Squarespace with heavy customization, or booking-integrated templates that render page content via JavaScript. For human visitors with browsers, these sites look great. For AI crawlers, they produce a blank or near-blank page. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
             <div className="ae-callout ae-callout-orange not-prose mt-6">
               <p><strong>If your website loads content dynamically:</strong> your service descriptions, about section, testimonials, and booking information may be completely invisible to ChatGPT, Perplexity, and other AI platforms. This means even a well-written, detailed website built on the wrong technical foundation contributes nothing to your AI visibility. The content must be present in the page&apos;s source HTML, not loaded after the fact by JavaScript.</p>
@@ -575,7 +575,7 @@ export default function HowDogGroomersWinAICitations() {
               </tbody>
             </table>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Which of these gaps is hurting your grooming business? Our free report identifies every one of them.</p>
+              <p>Which of these gaps is hurting your grooming business? Our free report identifies every one of them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
             <div className="ae-cta-inline not-prose mt-4">
@@ -608,7 +608,7 @@ export default function HowDogGroomersWinAICitations() {
               </ul>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>Want this cheat sheet applied to your specific grooming business and local market? We do that.</p>
+              <p>Want this cheat sheet applied to your specific grooming business and local market? We do that. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
           </section>
@@ -623,13 +623,13 @@ export default function HowDogGroomersWinAICitations() {
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>The pet services industry is in a pivotal moment. With 66% of US households owning at least one pet and the grooming market generating over $10 billion annually, the demand is enormous and growing. What is also growing is the share of that demand that flows through AI-assisted discovery. That share is up from 6% to 45% in just a few years.</p>
-              <p>Most independent groomers have not yet built the AI visibility infrastructure their business needs. That is not a catastrophe. It is an opportunity. The groomers who act now face less competition for AI citations than they will face in two years when the market catches up. Early AI visibility compounds over time as AI platforms develop confidence in businesses they have cited repeatedly.</p>
+              <p>Most independent groomers have not yet built the AI visibility infrastructure their business needs. That is not a catastrophe. It is an opportunity. The groomers who act now face less competition for AI citations than they will face in two years when the market catches up. Early AI visibility compounds over time as AI platforms develop confidence in businesses they have cited repeatedly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
             <div className="ae-callout ae-callout-orange not-prose mt-6">
               <p><strong>The window is open.</strong> Chains have structural advantages, but independent groomers have something chains cannot replicate: genuine specialization, personal relationships with clients and their dogs, and the kind of specific expertise that generates the detailed, trust-building reviews AI values most. That expertise just needs to be made visible.</p>
             </div>
             <div className="ae-cta-inline not-prose mt-6">
-              <p>The groomers acting now will own their local AI results. The ones waiting will compete against entrenched advantages.</p>
+              <p>The groomers acting now will own their local AI results. The ones waiting will compete against entrenched advantages. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot">See Where Your Business Stands &rarr;</Link>
             </div>
             <div className="ae-cta-block not-prose mt-4">
@@ -637,7 +637,7 @@ export default function HowDogGroomersWinAICitations() {
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
             <div className="ae-cta-inline not-prose mt-4">
-              <p>Or call us directly. We specialize in AI visibility for local service businesses.</p>
+              <p>Or call us directly. We specialize in AI visibility for local service businesses. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
           </section>

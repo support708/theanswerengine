@@ -379,13 +379,13 @@ export default function WhatIsAnAEOPromptPage() {
             <h2>What an AEO Prompt Actually Is</h2>
 
             <h3>The plain-language definition</h3>
-            <p>An AEO prompt is the natural-language query a user submits to an AI search engine that triggers the retrieval, scoring, and citation pipeline. The AEO prompt is the input. The cited answer is the output. Between the two, the AEO model retrieves candidate passages, scores them on relevance and authority, and decides which passages clear the citation threshold for inline attribution. Answer Engine Optimization (AEO) — also called AI citation optimization or LLM visibility — is the discipline of structuring content so that pipeline scores the brand above the citation threshold for the prompts that matter inside its category.</p>
+            <p>An AEO prompt is the natural-language query a user submits to an AI search engine that triggers the retrieval, scoring, and citation pipeline. The AEO prompt is the input. The cited answer is the output. Between the two, the AEO model retrieves candidate passages, scores them on relevance and authority, and decides which passages clear the citation threshold for inline attribution. Answer Engine Optimization (AEO) — also called AI citation optimization or LLM visibility — is the discipline of structuring content so that pipeline scores the brand above the citation threshold for the prompts that matter inside its category. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <h3>Why the prompt replaced the keyword as the unit of measurement</h3>
             <p>The SEO era measured against keywords because Google returned a ranked list of links for a 2-to-3-word search string. The generative search era measures against AEO prompts because ChatGPT, Perplexity, Claude, and Gemini return a synthesized answer to a full natural-language question. The unit of measurement has to match the unit of behavior. AEO prompts are the unit of user behavior on generative engines, so AEO prompts are the unit of measurement on the operator scoreboard. Operators still tracking only keyword rank in 2026 are measuring a shrinking share of the actual conversation.</p>
 
             <h3>The AEO prompt has three distinct meanings — only one matters for measurement</h3>
-            <p>The phrase &ldquo;AEO prompt&rdquo; surfaces in three different contexts. The first is the user prompt — the natural-language query a customer types into ChatGPT or Perplexity. The second is the system prompt — the internal instructions the model itself uses to format an answer. The third is the retrieval query — the rewritten internal query the engine generates after prompt mediation. Only the first is operational for AEO measurement. When this article uses the term AEO prompt without qualification, it means the user-facing prompt — the one the operator&rsquo;s customer would actually submit.</p>
+            <p>The phrase &ldquo;AEO prompt&rdquo; surfaces in three different contexts. The first is the user prompt — the natural-language query a customer types into ChatGPT or Perplexity. The second is the system prompt — the internal instructions the model itself uses to format an answer. The third is the retrieval query — the rewritten internal query the engine generates after prompt mediation. Only the first is operational for AEO measurement. When this article uses the term AEO prompt without qualification, it means the user-facing prompt — the one the operator&rsquo;s customer would actually submit. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA — text */}
             <div className="ae-cta-inline not-prose">
@@ -394,7 +394,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>Why the AEO prompt is the only number that decides whether a brand exists in AI search</h3>
-            <p>A brand can hold strong SEO rankings, paid impressions, and direct traffic and still be structurally invisible inside ChatGPT or Perplexity. The reason is the AEO prompt is the gate. If the brand is not cited when a customer submits a prompt in its category, the brand was not part of the conversation. There is no &ldquo;page two&rdquo; of a generated answer. There is no ranked alternative the user can scroll to. Either the brand is named inside the AI response or it does not exist for that prompt, that user, that retrieval event. The binary nature of the AEO prompt is what makes it a decision-grade measurement unit and what makes it brutally honest.</p>
+            <p>A brand can hold strong SEO rankings, paid impressions, and direct traffic and still be structurally invisible inside ChatGPT or Perplexity. The reason is the AEO prompt is the gate. If the brand is not cited when a customer submits a prompt in its category, the brand was not part of the conversation. There is no &ldquo;page two&rdquo; of a generated answer. There is no ranked alternative the user can scroll to. Either the brand is named inside the AI response or it does not exist for that prompt, that user, that retrieval event. The binary nature of the AEO prompt is what makes it a decision-grade measurement unit and what makes it brutally honest. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA — email */}
             <div className="ae-cta-inline not-prose">
@@ -402,7 +402,7 @@ export default function WhatIsAnAEOPromptPage() {
               <a href="mailto:support@theanswerengine.ai?subject=AEO%20Prompt%20Diagnostic">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
-            <p>See <a href="/concepts/aeo-prompt" className="concept-link">The AEO Prompt</a> for the standalone concept definition the rest of the Concept Lattice links back to.</p>
+            <p>See <a href="/concepts/aeo-prompt" className="concept-link">The AEO Prompt</a> for the standalone concept definition the rest of the Concept Lattice links back to. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* === Section 2: AEO Prompts vs SEO Keywords === */}
             <span className="ae-section-label" id="prompt-vs-keyword">Mechanism</span>
@@ -412,7 +412,7 @@ export default function WhatIsAnAEOPromptPage() {
             <p>An AEO prompt and an SEO keyword can map to the same underlying intent and look almost nothing alike. The SEO keyword &ldquo;plumber Austin&rdquo; maps to the AEO prompt &ldquo;who is the best plumber in Austin for a slab leak under a 1960s foundation.&rdquo; The SEO keyword averages two to three words. The AEO prompt for the same intent averages ten to twenty. <strong className="named-thesis">The Prompt-Keyword Gap: AEO prompts run three to five times longer than the SEO keyword that maps to the same intent, which means content optimized for keyword density underperforms content optimized for full natural-language passage match (Aggarwal et al., KDD 2024).</strong> The gap is structural, not stylistic. The retrievers score on passage match, and a passage written for a 2-word keyword does not align with a 20-word prompt.</p>
 
             <h3>The intent compression event</h3>
-            <p>The classic marketing funnel unfolded across multiple touches: a Google search for awareness, a click into a comparison article for consideration, a second search for intent, then a transaction. Generative search collapses that sequence. <strong className="named-thesis">The Intent Compression: a single AEO prompt collapses awareness, consideration, and recommendation into one retrieval event, so the brand cited inside the answer wins the consideration set before the user clicks anywhere (Zhang et al., 2026).</strong> The implication for operators: by the time the AI answer is generated, the brand is either named or it is not. There is no retargeting flight that recovers a prompt the brand failed to be cited inside.</p>
+            <p>The classic marketing funnel unfolded across multiple touches: a Google search for awareness, a click into a comparison article for consideration, a second search for intent, then a transaction. Generative search collapses that sequence. <strong className="named-thesis">The Intent Compression: a single AEO prompt collapses awareness, consideration, and recommendation into one retrieval event, so the brand cited inside the answer wins the consideration set before the user clicks anywhere (Zhang et al., 2026).</strong> The implication for operators: by the time the AI answer is generated, the brand is either named or it is not. There is no retargeting flight that recovers a prompt the brand failed to be cited inside. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* CTA — calendly */}
             <div className="ae-cta-inline not-prose">
@@ -421,7 +421,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>The interrogative skew</h3>
-            <p>AEO prompts skew interrogative. SEO keywords skew noun-phrase. <strong className="named-thesis">The Question Surface: AEO prompts open with who, what, how, why, best, or cheapest at substantially higher rates than SEO keywords, which is why content opening with a definitional H3 earns 57% higher citation probability than content opening with a marketing hook (Zhang et al., 2026).</strong> The operational consequence is direct: content built for SEO that opens with a brand introduction, a hero quote, or a campaign tagline loses to content that opens with a definitional answer to the implied question. Definitional openings collide cleanly with the way users actually phrase AEO prompts.</p>
+            <p>AEO prompts skew interrogative. SEO keywords skew noun-phrase. <strong className="named-thesis">The Question Surface: AEO prompts open with who, what, how, why, best, or cheapest at substantially higher rates than SEO keywords, which is why content opening with a definitional H3 earns 57% higher citation probability than content opening with a marketing hook (Zhang et al., 2026).</strong> The operational consequence is direct: content built for SEO that opens with a brand introduction, a hero quote, or a campaign tagline loses to content that opens with a definitional answer to the implied question. Definitional openings collide cleanly with the way users actually phrase AEO prompts. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* CTA — blindspot */}
             <div className="ae-cta-inline not-prose">
@@ -430,7 +430,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>The attribution model collapses too</h3>
-            <p>A generated answer that names a brand does not carry a UTM tag, a referrer, or a click ID. The user reads the cited brand inside the AI response and either acts on it directly or remembers the name later. Legacy attribution registers the citation as zero — last-click attribution will systematically under-credit every AEO prompt the brand actually wins. Operators that measure AEO performance only through Google Analytics report a shrinking channel. Operators that adopt a prompt-level citation log see the channel clearly. The measurement unit has to be the AEO prompt itself, not the click that may or may not follow it.</p>
+            <p>A generated answer that names a brand does not carry a UTM tag, a referrer, or a click ID. The user reads the cited brand inside the AI response and either acts on it directly or remembers the name later. Legacy attribution registers the citation as zero — last-click attribution will systematically under-credit every AEO prompt the brand actually wins. Operators that measure AEO performance only through Google Analytics report a shrinking channel. Operators that adopt a prompt-level citation log see the channel clearly. The measurement unit has to be the AEO prompt itself, not the click that may or may not follow it. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="not-prose overflow-x-auto my-8">
               <table className="ae-comparison-table w-full text-sm">
@@ -487,7 +487,7 @@ export default function WhatIsAnAEOPromptPage() {
             <h2>What the Research Says About Prompt Mediation</h2>
 
             <h3>The Prompt Mediation Layer (Aggarwal et al., KDD 2024)</h3>
-            <p>The foundational AEO paper at KDD 2024 documented that AI search engines do not retrieve directly against the user-submitted prompt. The engine first rewrites the prompt into multiple internal retrieval queries, expanding synonyms and scoping the retrieval window. <strong className="named-thesis">The Prompt Mediation Layer: every AEO model rewrites the user prompt into multiple synonymous retrieval queries before pulling candidates, so content using two or three phrasings of the same concept qualifies for more retrieval candidates than content using one (Aggarwal et al., KDD 2024).</strong> The practical consequence is direct: a service page that names &ldquo;slab leak repair,&rdquo; &ldquo;under-slab leak,&rdquo; and &ldquo;foundation pipe leak&rdquo; in the same passage clears the retrieval bar on more rewritten queries than a page that uses only one phrasing. Synonym coverage is a structural lever, not a rhetorical one.</p>
+            <p>The foundational AEO paper at KDD 2024 documented that AI search engines do not retrieve directly against the user-submitted prompt. The engine first rewrites the prompt into multiple internal retrieval queries, expanding synonyms and scoping the retrieval window. <strong className="named-thesis">The Prompt Mediation Layer: every AEO model rewrites the user prompt into multiple synonymous retrieval queries before pulling candidates, so content using two or three phrasings of the same concept qualifies for more retrieval candidates than content using one (Aggarwal et al., KDD 2024).</strong> The practical consequence is direct: a service page that names &ldquo;slab leak repair,&rdquo; &ldquo;under-slab leak,&rdquo; and &ldquo;foundation pipe leak&rdquo; in the same passage clears the retrieval bar on more rewritten queries than a page that uses only one phrasing. Synonym coverage is a structural lever, not a rhetorical one. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA — text */}
             <div className="ae-cta-inline not-prose">
@@ -496,7 +496,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>The Definition Premium (Zhang et al., 2026)</h3>
-            <p>Zhang et al. measured where retrievers extract definitional content from inside a document and found that opening position dominates. A passage that opens with a clear, bounded definition of its subject earns a 57% higher citation probability than a passage that buries the definition mid-article. The mechanism is mechanical: the scoring layer weights the first sentence of a passage heaviest, and a definition-first opening collides cleanly with both relevance and authority signals. AEO prompts that begin with &ldquo;what is&rdquo; or &ldquo;define&rdquo; — a substantial share of the question surface — are scored against the first 150 tokens of the most relevant passage in the index. Content engineered to win those prompts has to open with the answer, not the warmup.</p>
+            <p>Zhang et al. measured where retrievers extract definitional content from inside a document and found that opening position dominates. A passage that opens with a clear, bounded definition of its subject earns a 57% higher citation probability than a passage that buries the definition mid-article. The mechanism is mechanical: the scoring layer weights the first sentence of a passage heaviest, and a definition-first opening collides cleanly with both relevance and authority signals. AEO prompts that begin with &ldquo;what is&rdquo; or &ldquo;define&rdquo; — a substantial share of the question surface — are scored against the first 150 tokens of the most relevant passage in the index. Content engineered to win those prompts has to open with the answer, not the warmup. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA — email */}
             <div className="ae-cta-inline not-prose">
@@ -505,7 +505,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>The Chunk Ceiling (GEO-SFE, 2026)</h3>
-            <p>The GEO-SFE benchmark stress-tested passage length across the major retrievers and found a measurable cliff. Passages over 300 words trigger a 31% attention degradation in RAG retrievers. Splitting them into bounded units of 80 to 180 tokens restores full extraction accuracy. The implication for AEO prompts is direct: a 4,000-word thought-leadership article that addresses an AEO prompt in a single 800-word block of prose loses to a 4,000-word article that addresses the same prompt in six 130-word self-contained passages. The retriever pulls the chunk, not the article. Operators who write for human linear flow without chunking for retriever extraction are publishing content that AI cannot use.</p>
+            <p>The GEO-SFE benchmark stress-tested passage length across the major retrievers and found a measurable cliff. Passages over 300 words trigger a 31% attention degradation in RAG retrievers. Splitting them into bounded units of 80 to 180 tokens restores full extraction accuracy. The implication for AEO prompts is direct: a 4,000-word thought-leadership article that addresses an AEO prompt in a single 800-word block of prose loses to a 4,000-word article that addresses the same prompt in six 130-word self-contained passages. The retriever pulls the chunk, not the article. Operators who write for human linear flow without chunking for retriever extraction are publishing content that AI cannot use. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA — blindspot */}
             <div className="ae-cta-inline not-prose">
@@ -514,7 +514,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>The Earned-Trust Premium on prompt mediation (Chen et al., 2025)</h3>
-            <p>Chen et al. (2025) documented a systematic bias inside AI search retrievers toward earned-media corroboration over self-published brand content. The bias compounds at the prompt-mediation layer: when the engine rewrites a user prompt and expands synonyms, the candidate pool tilts toward sources that other indexed pages cite. A press placement, a podcast appearance, or a directory mention raises the candidate-pool weight on every rewritten variant of the prompt. The operator with a healthy earned-media footprint clears more AEO prompts than the operator with an identical content footprint and zero third-party mentions. Earned media is an AEO lever, not a PR vanity metric.</p>
+            <p>Chen et al. (2025) documented a systematic bias inside AI search retrievers toward earned-media corroboration over self-published brand content. The bias compounds at the prompt-mediation layer: when the engine rewrites a user prompt and expands synonyms, the candidate pool tilts toward sources that other indexed pages cite. A press placement, a podcast appearance, or a directory mention raises the candidate-pool weight on every rewritten variant of the prompt. The operator with a healthy earned-media footprint clears more AEO prompts than the operator with an identical content footprint and zero third-party mentions. Earned media is an AEO lever, not a PR vanity metric. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* CTA — calendly */}
             <div className="ae-cta-inline not-prose">
@@ -523,7 +523,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <div className="ae-quote not-prose">
-              <p><strong className="named-thesis">The Synonym Multiplier: content that matches two or three natural-language phrasings of the same intent qualifies for more retrieval candidates and is cited across more AEO prompt variants than single-phrasing content, which is why synonym-bridging inside SUBSTRATE chunks is a structural lift and not a style choice (Aggarwal et al., KDD 2024).</strong></p>
+              <p><strong className="named-thesis">The Synonym Multiplier: content that matches two or three natural-language phrasings of the same intent qualifies for more retrieval candidates and is cited across more AEO prompt variants than single-phrasing content, which is why synonym-bridging inside SUBSTRATE chunks is a structural lift and not a style choice (Aggarwal et al., KDD 2024).</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* === Section 4: Prompt Types === */}
@@ -534,7 +534,7 @@ export default function WhatIsAnAEOPromptPage() {
             <p>Definitional prompts open with &ldquo;what is,&rdquo; &ldquo;define,&rdquo; or &ldquo;explain.&rdquo; They produce the highest-leverage citations because the engine extracts the first clean definition it finds and credits the source. Operators that publish a definitional opener on every service page win the definitional prompts in their category. The retrievers reward clarity over creativity at the definitional layer.</p>
 
             <h3>Type 2: Comparative prompts</h3>
-            <p>Comparative prompts take the form &ldquo;X vs Y&rdquo; or &ldquo;is X better than Y.&rdquo; The retrievers favor content that addresses both sides of the comparison with named criteria, side-by-side structure, and inline citations. Comparison tables earn outsized lift because the rendering format maps cleanly to the retriever&rsquo;s extraction pattern. A single comparative article published with a clean comparison table can clear a dozen prompt variants in the same week.</p>
+            <p>Comparative prompts take the form &ldquo;X vs Y&rdquo; or &ldquo;is X better than Y.&rdquo; The retrievers favor content that addresses both sides of the comparison with named criteria, side-by-side structure, and inline citations. Comparison tables earn outsized lift because the rendering format maps cleanly to the retriever&rsquo;s extraction pattern. A single comparative article published with a clean comparison table can clear a dozen prompt variants in the same week. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* CTA — text */}
             <div className="ae-cta-inline not-prose">
@@ -543,7 +543,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>Type 3: Recommendation prompts</h3>
-            <p>Recommendation prompts read &ldquo;best X for Y,&rdquo; &ldquo;top-rated X,&rdquo; or &ldquo;which X should I pick.&rdquo; The retrievers weight earned-media corroboration heavily on recommendation prompts because the engine is being asked to make a judgment call and looks for third-party validation. Recommendation prompts are where Chen et al. (2025) earned-media bias is most visible: a brand with zero third-party mentions almost never clears a recommendation prompt regardless of self-published content quality.</p>
+            <p>Recommendation prompts read &ldquo;best X for Y,&rdquo; &ldquo;top-rated X,&rdquo; or &ldquo;which X should I pick.&rdquo; The retrievers weight earned-media corroboration heavily on recommendation prompts because the engine is being asked to make a judgment call and looks for third-party validation. Recommendation prompts are where Chen et al. (2025) earned-media bias is most visible: a brand with zero third-party mentions almost never clears a recommendation prompt regardless of self-published content quality. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA — email */}
             <div className="ae-cta-inline not-prose">
@@ -552,7 +552,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>Type 4: Local intent prompts</h3>
-            <p>Local intent prompts include a geographic modifier: &ldquo;near me,&rdquo; &ldquo;in [city],&rdquo; &ldquo;[city] [service],&rdquo; or scenario-based location phrasing. Gemini and Google AI Overviews handle these most natively because they share the Google entity graph. ChatGPT and Perplexity resolve local intent through indexed sources rather than a live geo-graph, so structural local signals — LocalBusiness schema, NAP consistency, city-named landing pages — carry disproportionate weight. The same physical business can be cited locally on Gemini and invisible locally on ChatGPT if the structural signals diverge between the two surfaces.</p>
+            <p>Local intent prompts include a geographic modifier: &ldquo;near me,&rdquo; &ldquo;in [city],&rdquo; &ldquo;[city] [service],&rdquo; or scenario-based location phrasing. Gemini and Google AI Overviews handle these most natively because they share the Google entity graph. ChatGPT and Perplexity resolve local intent through indexed sources rather than a live geo-graph, so structural local signals — LocalBusiness schema, NAP consistency, city-named landing pages — carry disproportionate weight. The same physical business can be cited locally on Gemini and invisible locally on ChatGPT if the structural signals diverge between the two surfaces. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA — calendly */}
             <div className="ae-cta-inline not-prose">
@@ -561,7 +561,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>Type 5: Problem-led prompts</h3>
-            <p>Problem-led prompts start with the symptom: &ldquo;how do I fix,&rdquo; &ldquo;why is my X doing Y,&rdquo; &ldquo;what causes Z.&rdquo; These prompts compress consideration the hardest — the user is in active problem-solving mode and the brand cited as the solution wins the next action. Service pages that lead with the problem the customer is searching with, not the service the operator wants to sell, clear problem-led prompts at materially higher rates than service-led copy.</p>
+            <p>Problem-led prompts start with the symptom: &ldquo;how do I fix,&rdquo; &ldquo;why is my X doing Y,&rdquo; &ldquo;what causes Z.&rdquo; These prompts compress consideration the hardest — the user is in active problem-solving mode and the brand cited as the solution wins the next action. Service pages that lead with the problem the customer is searching with, not the service the operator wants to sell, clear problem-led prompts at materially higher rates than service-led copy. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* CTA — blindspot */}
             <div className="ae-cta-inline not-prose">
@@ -570,7 +570,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>Type 6: Transactional prompts</h3>
-            <p>Transactional prompts include pricing, hiring, scheduling, and purchase intent: &ldquo;how much does X cost,&rdquo; &ldquo;hire an X,&rdquo; &ldquo;X near me with availability tomorrow.&rdquo; The citation threshold on transactional prompts is the highest of the six types because the engine is making a judgment that maps to user money. Operators who publish transparent pricing, named availability windows, and direct booking links clear transactional prompts at far higher rates than operators that gate that data behind a contact form.</p>
+            <p>Transactional prompts include pricing, hiring, scheduling, and purchase intent: &ldquo;how much does X cost,&rdquo; &ldquo;hire an X,&rdquo; &ldquo;X near me with availability tomorrow.&rdquo; The citation threshold on transactional prompts is the highest of the six types because the engine is making a judgment that maps to user money. Operators who publish transparent pricing, named availability windows, and direct booking links clear transactional prompts at far higher rates than operators that gate that data behind a contact form. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* CTA — territory */}
             <div className="ae-cta-inline not-prose">
@@ -622,7 +622,7 @@ export default function WhatIsAnAEOPromptPage() {
               </table>
             </div>
 
-            <p>See <a href="/concepts/six-prompt-types" className="concept-link">The Six Prompt Types</a> for the full taxonomy and the operator template TAE uses to build the library from a category-vocabulary inventory.</p>
+            <p>See <a href="/concepts/six-prompt-types" className="concept-link">The Six Prompt Types</a> for the full taxonomy and the operator template TAE uses to build the library from a category-vocabulary inventory. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* === Section 5: Prompt Library === */}
             <span className="ae-section-label" id="prompt-library">Measurement</span>
@@ -633,7 +633,7 @@ export default function WhatIsAnAEOPromptPage() {
 
             {/* CTA — text */}
             <div className="ae-cta-inline not-prose">
-              <p>Text us &ldquo;library template&rdquo; and your domain. We will return the 20-prompt starter library tailored to your category inside the business day.</p>
+              <p>Text us &ldquo;library template&rdquo; and your domain. We will return the 20-prompt starter library tailored to your category inside the business day. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="sms:+12134442229">Text (213) 444-2229 &rarr;</a>
             </div>
 
@@ -642,7 +642,7 @@ export default function WhatIsAnAEOPromptPage() {
 
             {/* CTA — email */}
             <div className="ae-cta-inline not-prose">
-              <p>Email us with the subject &ldquo;prompt library&rdquo; and your domain. We return the annotated 20-prompt starter library for your category inside 48 hours, no engagement required.</p>
+              <p>Email us with the subject &ldquo;prompt library&rdquo; and your domain. We return the annotated 20-prompt starter library for your category inside 48 hours, no engagement required. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <a href="mailto:support@theanswerengine.ai?subject=Prompt%20Library">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -650,7 +650,7 @@ export default function WhatIsAnAEOPromptPage() {
             <p>Each prompt is scored 0 of 4 to 4 of 4 — the number of major LLMs (ChatGPT, Perplexity, Claude, Gemini) that cited the brand for that exact prompt. Aggregated across the library, platform parity is the single most decision-grade AEO number an operator can hold. The Answer Engine&rsquo;s own platform parity score on AEO-related prompts is 4 of 4 across the four major engines. The metric matters because the retrievers diverge: a brand cited only by Perplexity has a brittle position because Perplexity weights earned media heavily and one news cycle can swing the result. Cross-platform parity is what proves the underlying structural quality is sound.</p>
 
             <h3>Why the library has to run monthly</h3>
-            <p>AEO citations are sticky once earned and erode if abandoned. A passage that earns a citation in month two will typically retain that citation through month six — if the cadence of publishing, earned-media corroboration, and schema maintenance continues. Stop publishing and the same passage drops out of the candidate pool within 60 to 90 days. Monthly re-runs of the fixed library reveal compounding (the goal) or decay (a cadence problem) before either gets out of hand. Operators that measure quarterly catch decay too late to recover the lost ground inside the same calendar year.</p>
+            <p>AEO citations are sticky once earned and erode if abandoned. A passage that earns a citation in month two will typically retain that citation through month six — if the cadence of publishing, earned-media corroboration, and schema maintenance continues. Stop publishing and the same passage drops out of the candidate pool within 60 to 90 days. Monthly re-runs of the fixed library reveal compounding (the goal) or decay (a cadence problem) before either gets out of hand. Operators that measure quarterly catch decay too late to recover the lost ground inside the same calendar year. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA — calendly */}
             <div className="ae-cta-inline not-prose">
@@ -699,7 +699,7 @@ export default function WhatIsAnAEOPromptPage() {
 
             {/* CTA — blindspot */}
             <div className="ae-cta-inline not-prose">
-              <p>The free Blindspot Scan runs a 20-prompt library on your domain across all four engines and returns the per-engine citation gap. Free, no commitment, no signup wall.</p>
+              <p>The free Blindspot Scan runs a 20-prompt library on your domain across all four engines and returns the per-engine citation gap. Free, no commitment, no signup wall. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Run My Free Blindspot Scan &rarr;</Link>
             </div>
 
@@ -710,7 +710,7 @@ export default function WhatIsAnAEOPromptPage() {
             </div>
 
             <h3>The Origin Protocol mapping</h3>
-            <p>Every prompt the library tracks is mapped to a SUBSTRATE-engineered passage on the operator&rsquo;s site — definition-first H3 for definitional prompts, comparison table for comparative prompts, earned-media-corroborated bio for recommendation prompts, LocalBusiness schema and city-named pages for local intent prompts, problem-first opener for problem-led prompts, transparent pricing block for transactional prompts. The mapping is what turns the library from a measurement scoreboard into an action queue. Movement on a prompt traces back to a specific passage. Decay on a prompt traces back to a specific cadence gap. The library is decision-grade because every score has an addressable cause.</p>
+            <p>Every prompt the library tracks is mapped to a SUBSTRATE-engineered passage on the operator&rsquo;s site — definition-first H3 for definitional prompts, comparison table for comparative prompts, earned-media-corroborated bio for recommendation prompts, LocalBusiness schema and city-named pages for local intent prompts, problem-first opener for problem-led prompts, transparent pricing block for transactional prompts. The mapping is what turns the library from a measurement scoreboard into an action queue. Movement on a prompt traces back to a specific passage. Decay on a prompt traces back to a specific cadence gap. The library is decision-grade because every score has an addressable cause. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA — email */}
             <div className="ae-cta-inline not-prose">
@@ -761,7 +761,7 @@ export default function WhatIsAnAEOPromptPage() {
 
             {/* CTA — calendly */}
             <div className="ae-cta-inline not-prose">
-              <p>Book a 30-minute slot and we will walk this cheat sheet against your live domain on a screen-share, ranking the highest-yield prompts to win first.</p>
+              <p>Book a 30-minute slot and we will walk this cheat sheet against your live domain on a screen-share, ranking the highest-yield prompts to win first. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <a href="https://calendly.com/theanswerengine-support/30min">Schedule the 30-Minute Walkthrough &rarr;</a>
             </div>
 
@@ -782,7 +782,7 @@ export default function WhatIsAnAEOPromptPage() {
             {/* CTA Block */}
             <div className="ae-cta-block not-prose">
               <h3>Get Your AEO Prompt Library Built and Measured</h3>
-              <p>The free Blindspot Scan runs a 20-prompt baseline on your domain across ChatGPT, Perplexity, Claude, and Gemini, then returns the per-engine citation gap and ranked fix list. One operator per market.</p>
+              <p>The free Blindspot Scan runs a 20-prompt baseline on your domain across ChatGPT, Perplexity, Claude, and Gemini, then returns the per-engine citation gap and ranked fix list. One operator per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blindspot Scan &rarr;</Link>
               <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
@@ -805,7 +805,7 @@ export default function WhatIsAnAEOPromptPage() {
 
             <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
               <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How is an AEO prompt different from an SEO keyword?</summary>
-              <p className="faq-answer mt-3 text-gray-300">An AEO prompt is a full natural-language question that compresses awareness, consideration, and intent into a single retrieval event. An SEO keyword is a 2-to-3-word search string mapped to a ranked list of links. AEO prompts run 3 to 5 times longer than the SEO keyword for the same underlying intent, skew interrogative (who, what, how, why, best, cheapest), and trigger a retrieval pipeline that scores passages on extractability rather than scoring pages on backlinks. Aggarwal et al. (KDD 2024) measured that content optimized for natural-language passage match outperformed keyword-density content across all three generative engines they tested.</p>
+              <p className="faq-answer mt-3 text-gray-300">An AEO prompt is a full natural-language question that compresses awareness, consideration, and intent into a single retrieval event. An SEO keyword is a 2-to-3-word search string mapped to a ranked list of links. AEO prompts run 3 to 5 times longer than the SEO keyword for the same underlying intent, skew interrogative (who, what, how, why, best, cheapest), and trigger a retrieval pipeline that scores passages on extractability rather than scoring pages on backlinks. Aggarwal et al. (KDD 2024) measured that content optimized for natural-language passage match outperformed keyword-density content across all three generative engines they tested. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </details>
 
             <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
@@ -815,7 +815,7 @@ export default function WhatIsAnAEOPromptPage() {
 
             <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
               <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How many AEO prompts should I measure?</summary>
-              <p className="faq-answer mt-3 text-gray-300">Twenty to fifty AEO prompts is the working range for a single operator engagement. Below 20 prompts the sample is too small to detect citation movement against noise. Above 50 prompts the measurement cadence becomes operationally heavy without proportional signal gain. The Answer Engine runs a fixed 20-prompt minimum library on every operator engagement, expanded to 30 to 50 prompts for complex territories or multi-service operators.</p>
+              <p className="faq-answer mt-3 text-gray-300">Twenty to fifty AEO prompts is the working range for a single operator engagement. Below 20 prompts the sample is too small to detect citation movement against noise. Above 50 prompts the measurement cadence becomes operationally heavy without proportional signal gain. The Answer Engine runs a fixed 20-prompt minimum library on every operator engagement, expanded to 30 to 50 prompts for complex territories or multi-service operators. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </details>
 
             <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
@@ -825,7 +825,7 @@ export default function WhatIsAnAEOPromptPage() {
 
             <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
               <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Do AEO prompts work the same across ChatGPT, Perplexity, Claude, and Gemini?</summary>
-              <p className="faq-answer mt-3 text-gray-300">The prompt-mediation architecture is shared across every major engine, but the rewrite patterns and citation thresholds diverge. Perplexity expands prompts most aggressively into sub-questions and pulls 6 to 12 sources per answer. ChatGPT rewrites for Bing-style retrieval and weights structured-data sources. Claude weights attribution-chain content with named authors. Gemini and Google AI Overviews lean on the Google entity graph for prompt resolution. The same underlying AEO prompt may surface a brand on Perplexity and miss on ChatGPT &mdash; measurement has to be per engine, not aggregated.</p>
+              <p className="faq-answer mt-3 text-gray-300">The prompt-mediation architecture is shared across every major engine, but the rewrite patterns and citation thresholds diverge. Perplexity expands prompts most aggressively into sub-questions and pulls 6 to 12 sources per answer. ChatGPT rewrites for Bing-style retrieval and weights structured-data sources. Claude weights attribution-chain content with named authors. Gemini and Google AI Overviews lean on the Google entity graph for prompt resolution. The same underlying AEO prompt may surface a brand on Perplexity and miss on ChatGPT &mdash; measurement has to be per engine, not aggregated. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </details>
 
             {/* CTA — blindspot */}
@@ -848,7 +848,7 @@ export default function WhatIsAnAEOPromptPage() {
 
             {/* CTA — calendly */}
             <div className="ae-cta-inline not-prose">
-              <p>If you would rather talk it through than read another article, grab a 30-minute slot with our team and we will run your AEO prompt library live on a screen-share.</p>
+              <p>If you would rather talk it through than read another article, grab a 30-minute slot with our team and we will run your AEO prompt library live on a screen-share. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <a href="https://calendly.com/theanswerengine-support/30min">Schedule a Call &rarr;</a>
             </div>
 

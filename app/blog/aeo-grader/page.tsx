@@ -295,7 +295,7 @@ export default function AEOGrader() {
 
             {/* TOC */}
             <div className="not-prose bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mb-10">
-              <p className="text-xs font-mono uppercase tracking-widest text-[#F27D24] mb-4">In This Article</p>
+              <p className="text-xs font-mono uppercase tracking-widest text-[#F27D24] mb-4">In This Article Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
               <ol className="grid grid-cols-1 sm:grid-cols-2 gap-2 list-none m-0 p-0">
                 {[
                   ["#aeo-grader-framework", "The 5 Grader Dimensions"],
@@ -320,13 +320,13 @@ export default function AEOGrader() {
 
             <p>An AEO grader measures how well a business&apos;s digital presence is configured to earn citations from AI-powered answer engines. The category includes ChatGPT, Perplexity, Google AI Mode, Google AI Overviews, and Gemini. Each of these platforms synthesizes answers from indexed content. Whether your business appears in those answers depends on structural signals in your content, not on ad spend or follower count.</p>
 
-            <p>The term AEO (Answer Engine Optimization) originated in the SEO community around 2017 as a descriptor for optimizing featured snippets and voice search. In 2026, it has a sharper and more measurable definition: the practice of structuring content so AI reasoning models can extract, attribute, and cite it when responding to user queries in your market. Aggarwal et al. (KDD 2024) demonstrated that nine specific optimization tactics could boost source visibility by up to 40% in generative engine responses. Those tactics map directly to the five dimensions in this framework.</p>
+            <p>The term AEO (Answer Engine Optimization) originated in the SEO community around 2017 as a descriptor for optimizing featured snippets and voice search. In 2026, it has a sharper and more measurable definition: the practice of structuring content so AI reasoning models can extract, attribute, and cite it when responding to user queries in your market. Aggarwal et al. (KDD 2024) demonstrated that nine specific optimization tactics could boost source visibility by up to 40% in generative engine responses. Those tactics map directly to the five dimensions in this framework. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-quote not-prose">
               <p><strong>The reason a grader matters is because AI citation is not random.</strong> Averi&apos;s 2026 citation index, built on 680 million individual citations across ChatGPT, Google AI Overviews, Perplexity, Gemini, and Claude, found that only 11% of domains appear in responses from both ChatGPT and Perplexity. That fragmentation means most businesses are invisible on at least one platform. A grader makes the gap measurable and the fix sequence clear.</p>
             </div>
 
-            <p>Current grader tools on the market query AI platforms with your brand name and return sentiment and recognition scores. Those tools are useful for brand-level tracking. The TAE framework below measures something different: your structural readiness to be cited on market queries (&quot;best HVAC company in Dallas,&quot; &quot;who does slab leak repair in Austin&quot;) rather than on branded queries where AI platforms already know you exist.</p>
+            <p>Current grader tools on the market query AI platforms with your brand name and return sentiment and recognition scores. Those tools are useful for brand-level tracking. The TAE framework below measures something different: your structural readiness to be cited on market queries (&quot;best HVAC company in Dallas,&quot; &quot;who does slab leak repair in Austin&quot;) rather than on branded queries where AI platforms already know you exist. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -338,7 +338,7 @@ export default function AEOGrader() {
             <span className="ae-section-label" id="aeo-grader-framework">The Framework</span>
             <h2>The TAE 5-Dimension AEO Grader</h2>
 
-            <p>The framework below scores any business&apos;s AEO across five dimensions. Each dimension scores 0 to 4. The total score runs from 0 to 20. Score each dimension honestly. A score of 4 means the dimension is fully implemented. A score of 0 means it is entirely absent. Partial credit is explicit in each scoring guide.</p>
+            <p>The framework below scores any business&apos;s AEO across five dimensions. Each dimension scores 0 to 4. The total score runs from 0 to 20. Score each dimension honestly. A score of 4 means the dimension is fully implemented. A score of 0 means it is entirely absent. Partial credit is explicit in each scoring guide. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose overflow-x-auto my-8">
               <table className="ae-comparison-table w-full text-sm">
@@ -394,7 +394,7 @@ export default function AEOGrader() {
             <span className="ae-section-label" id="dimension-1-citation">Dimension 1 of 5</span>
             <h2>Citation Presence (0-4)</h2>
 
-            <p>Citation presence is the only dimension that measures actual output rather than inputs. You are either appearing in AI responses on your market queries or you are not. The other four dimensions explain why you are or are not, and what to fix. This one tells you where you stand today.</p>
+            <p>Citation presence is the only dimension that measures actual output rather than inputs. You are either appearing in AI responses on your market queries or you are not. The other four dimensions explain why you are or are not, and what to fix. This one tells you where you stand today. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <h3>How to run the citation check</h3>
             <p>Build a prompt library of 15 queries that represent what your ideal clients would ask AI assistants. For a property management company in Long Beach, that includes queries like &quot;best property management company in Long Beach,&quot; &quot;who manages rental properties in Long Beach CA,&quot; and &quot;property manager for single-family homes in Long Beach.&quot; Run each query across ChatGPT (GPT-4o), Perplexity (default mode), and Google AI Mode. Log every response. A citation counts when your business name or website URL appears in the response text, not just in a sidebar link.</p>
@@ -405,7 +405,7 @@ export default function AEOGrader() {
                   <span className="text-[#F27D24] font-mono font-bold text-xl">4</span>
                   <span className="text-white font-semibold uppercase tracking-wide text-sm">Consistent Cross-Platform Citation</span>
                 </div>
-                <p className="text-gray-300 text-sm">Your business name or content appears in responses on at least two of the three platforms on more than half of the relevant market queries you tested. This is the target state.</p>
+                <p className="text-gray-300 text-sm">Your business name or content appears in responses on at least two of the three platforms on more than half of the relevant market queries you tested. This is the target state. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] border-l-4 border-l-[#F27D24] rounded-lg p-6">
                 <div className="flex items-center gap-3 mb-3">
@@ -419,7 +419,7 @@ export default function AEOGrader() {
                   <span className="text-[#F27D24] font-mono font-bold text-xl">0</span>
                   <span className="text-white font-semibold uppercase tracking-wide text-sm">Zero Citations</span>
                 </div>
-                <p className="text-gray-300 text-sm">No mention across any platform on market queries. The most common state for local service businesses. This is where the other four dimensions have the most immediate impact.</p>
+                <p className="text-gray-300 text-sm">No mention across any platform on market queries. The most common state for local service businesses. This is where the other four dimensions have the most immediate impact. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
             </div>
 
@@ -430,7 +430,7 @@ export default function AEOGrader() {
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>The AERO scan runs 20 market-relevant queries across four AI platforms and returns your citation rate versus your top three competitors. Free, no commitment.</p>
+              <p>The AERO scan runs 20 market-relevant queries across four AI platforms and returns your citation rate versus your top three competitors. Free, no commitment. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Run My Free AERO Scan &rarr;</Link>
             </div>
 
@@ -441,7 +441,7 @@ export default function AEOGrader() {
             <p>Schema markup is machine-readable metadata that tells AI systems what type of content they are reading, who created it, and what entity it describes. Without schema, an AI platform has to infer all of this from context. With schema, the classification is explicit, the author is named, and the business entity is defined. <strong>The Schema Classification Effect: AI platforms cite content at higher rates when its type, author, and entity are explicitly declared via structured data, because classification reduces inference uncertainty and increases attribution confidence (OtterlyAI schema experiment, 2026).</strong> AI systems cite sources they can classify. Unclassified content is lower priority.</p>
 
             <div className="ae-quote not-prose">
-              <p><strong>OtterlyAI&apos;s 2026 schema experiment found that adding structured data produced substantial and consistent increases in Google AI Mode citation visibility.</strong> The effect was platform-specific: Google AI Mode and AI Overviews responded most directly to schema signals. ChatGPT and Perplexity responded more to content depth and FAQ structure. A full AEO schema stack targets both signal types.</p>
+              <p><strong>OtterlyAI&apos;s 2026 schema experiment found that adding structured data produced substantial and consistent increases in Google AI Mode citation visibility.</strong> The effect was platform-specific: Google AI Mode and AI Overviews responded most directly to schema signals. ChatGPT and Perplexity responded more to content depth and FAQ structure. A full AEO schema stack targets both signal types. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3>The five schema types that move AI citation</h3>
@@ -489,7 +489,7 @@ export default function AEOGrader() {
             <span className="ae-section-label" id="dimension-3-faq">Dimension 3 of 5</span>
             <h2>FAQ Coverage (0-4)</h2>
 
-            <p>FAQ coverage is the fastest dimension to fix and the one with the most direct impact on AI citation frequency. <strong>The FAQ Surface Law: every question-answer pair formatted with FAQPage schema and a 40-80 word direct answer adds one discrete citation surface, compounding your total citation probability with each addition (Frase.io citation audit, 2026).</strong> AI platforms answer questions. If your site contains question-answer pairs formatted for extraction, you are feeding the platform exactly what it needs. If your site does not, your competitor who has FAQ schema is getting cited instead of you.</p>
+            <p>FAQ coverage is the fastest dimension to fix and the one with the most direct impact on AI citation frequency. <strong>The FAQ Surface Law: every question-answer pair formatted with FAQPage schema and a 40-80 word direct answer adds one discrete citation surface, compounding your total citation probability with each addition (Frase.io citation audit, 2026).</strong> AI platforms answer questions. If your site contains question-answer pairs formatted for extraction, you are feeding the platform exactly what it needs. If your site does not, your competitor who has FAQ schema is getting cited instead of you. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>The structural requirement is specific. Each FAQ question should mirror the phrasing a real user would type into an AI assistant. Each answer should open with a direct, complete response to the question in the first sentence, then add two to three sentences of supporting detail. Total answer length: 40 to 80 words. This is not arbitrary. It is the window that matches most AI extract-and-quote behavior. Shorter answers are too thin to cite with confidence. Longer answers get truncated or paraphrased, losing attribution specificity.</p>
 
@@ -524,7 +524,7 @@ export default function AEOGrader() {
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Source: Frase.io / NoBSMarketplace</div>
-              <p>FAQ schema has a higher citation potential than any other structured data type because AI systems pull FAQ answer blocks directly to answer user queries. Businesses with zero FAQ schema are at a structural citation disadvantage across all major AI platforms, regardless of domain authority or content volume.</p>
+              <p>FAQ schema has a higher citation potential than any other structured data type because AI systems pull FAQ answer blocks directly to answer user queries. Businesses with zero FAQ schema are at a structural citation disadvantage across all major AI platforms, regardless of domain authority or content volume. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
             {/* CTA 3 */}
@@ -537,7 +537,7 @@ export default function AEOGrader() {
             <span className="ae-section-label" id="dimension-4-eeat">Dimension 4 of 5</span>
             <h2>E-E-A-T Signals (0-4)</h2>
 
-            <p>E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. Google&apos;s search quality guidelines codified this framework, but it has become operationally relevant for AI citations because AI systems apply similar logic when deciding which sources to cite. An anonymous page with no named author and no third-party co-citations is a lower-trust source than a page written by a named professional with verifiable credentials and a citation trail outside their own domain.</p>
+            <p>E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. Google&apos;s search quality guidelines codified this framework, but it has become operationally relevant for AI citations because AI systems apply similar logic when deciding which sources to cite. An anonymous page with no named author and no third-party co-citations is a lower-trust source than a page written by a named professional with verifiable credentials and a citation trail outside their own domain. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>For local service businesses, the E-E-A-T checklist is concrete. A licensed plumber with their license number visible on the site, a named author byline, a BBB profile, and press coverage in a local outlet has a higher E-E-A-T signal than a plumber whose website has no name, no license number, and no external mentions. AI platforms can verify the former. They cannot verify the latter.</p>
 
@@ -581,7 +581,7 @@ export default function AEOGrader() {
             </table>
 
             <div className="ae-quote not-prose">
-              <p><strong>E-E-A-T signals are not optional for any business operating in a regulated or licensed profession.</strong> Real estate, legal, medical, HVAC, plumbing, electrical, and financial services businesses that do not surface their credentials on-page are actively suppressing their own AI citation potential. The <code className="text-[#F27D24] font-mono">sameAs</code> field in a LocalBusiness or Person schema block links your entity to verified external profiles. One line of JSON-LD. Measurable trust signal.</p>
+              <p><strong>E-E-A-T signals are not optional for any business operating in a regulated or licensed profession.</strong> Real estate, legal, medical, HVAC, plumbing, electrical, and financial services businesses that do not surface their credentials on-page are actively suppressing their own AI citation potential. The <code className="text-[#F27D24] font-mono">sameAs</code> field in a LocalBusiness or Person schema block links your entity to verified external profiles. One line of JSON-LD. Measurable trust signal. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* Section 7: Dimension 5 */}
@@ -590,7 +590,7 @@ export default function AEOGrader() {
 
             <p>AI platforms do not read pages the way humans do. They extract chunks. A chunk is a self-contained unit of information, typically 50 to 200 tokens, that answers a specific question or describes a specific concept without requiring context from surrounding text. Pages built as continuous prose are harder to extract from. Pages built as structured chunks, each opening with a direct answer, are materially easier for AI systems to use as citation sources.</p>
 
-            <p><strong>The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers; splitting them into bounded self-contained units under 180 words restores full extraction accuracy and restores citation eligibility (GEO-SFE, 2026).</strong> Zhang et al. (2026) documented that content formatted for direct extraction is cited at measurably higher rates than prose-heavy pages covering identical topics. The mechanism is not mysterious: AI models run retrieval against indexed content, score candidate passages by relevance, and select the highest-scoring passage for inclusion. A 150-word self-contained answer beats a 1,500-word essay that contains the same answer somewhere in paragraph seven.</p>
+            <p><strong>The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers; splitting them into bounded self-contained units under 180 words restores full extraction accuracy and restores citation eligibility (GEO-SFE, 2026).</strong> Zhang et al. (2026) documented that content formatted for direct extraction is cited at measurably higher rates than prose-heavy pages covering identical topics. The mechanism is not mysterious: AI models run retrieval against indexed content, score candidate passages by relevance, and select the highest-scoring passage for inclusion. A 150-word self-contained answer beats a 1,500-word essay that contains the same answer somewhere in paragraph seven. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>The four structural patterns that increase AI extractability</h3>
 
@@ -613,7 +613,7 @@ export default function AEOGrader() {
                   <span className="text-[#F27D24] font-mono font-bold text-xl">02</span>
                   <span className="text-white font-semibold uppercase tracking-wide text-sm">Numbered Lists for Processes</span>
                 </div>
-                <p className="text-gray-300 text-sm mb-3">Any content describing a process, checklist, or sequential action should use a numbered list, not prose. AI systems extract numbered lists reliably and include them verbatim in procedural answers.</p>
+                <p className="text-gray-300 text-sm mb-3">Any content describing a process, checklist, or sequential action should use a numbered list, not prose. AI systems extract numbered lists reliably and include them verbatim in procedural answers. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 <ul className="text-gray-400 text-sm space-y-1">
                   <li className="pl-4 border-b border-white/[0.05] pb-1">Step-by-step processes use ordered lists, not run-on sentences</li>
                   <li className="pl-4 border-b border-white/[0.05] pb-1">Each step is one action, 10 to 25 words</li>
@@ -639,7 +639,7 @@ export default function AEOGrader() {
                   <span className="text-[#F27D24] font-mono font-bold text-xl">04</span>
                   <span className="text-white font-semibold uppercase tracking-wide text-sm">Comparison Tables</span>
                 </div>
-                <p className="text-gray-300 text-sm mb-3">AI platforms regularly extract table content into comparative answers. A table comparing two options, pricing tiers, or service features gives AI a structured, attribution-ready artifact that is difficult to misrepresent in a citation.</p>
+                <p className="text-gray-300 text-sm mb-3">AI platforms regularly extract table content into comparative answers. A table comparing two options, pricing tiers, or service features gives AI a structured, attribution-ready artifact that is difficult to misrepresent in a citation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                 <ul className="text-gray-400 text-sm space-y-1">
                   <li className="pl-4 border-b border-white/[0.05] pb-1">Table headers are explicit and descriptive</li>
                   <li className="pl-4 border-b border-white/[0.05] pb-1">Cell content is factual and specific, not vague</li>
@@ -659,28 +659,28 @@ export default function AEOGrader() {
             <span className="ae-section-label" id="interpret-your-score">Score Interpretation</span>
             <h2>How to Interpret Your AEO Score</h2>
 
-            <p>Add your scores across the five dimensions. Your total is your AEO grade out of 20. Here is what each range means and which fix sequence is most efficient for each range.</p>
+            <p>Add your scores across the five dimensions. Your total is your AEO grade out of 20. Here is what each range means and which fix sequence is most efficient for each range. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5">
                 <p className="text-xs font-mono text-gray-500 tracking-widest uppercase mb-2">Critical Gap</p>
-                <p className="text-2xl font-bold text-red-400 font-mono mb-2">0-7</p>
+                <p className="text-2xl font-bold text-red-400 font-mono mb-2">0-7 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 <p className="text-gray-400 text-sm">AI platforms have no reliable basis to cite you. Start with FAQ schema and LocalBusiness schema. These two fixes alone can move you from 0 to 5 in under 30 days.</p>
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5">
-                <p className="text-xs font-mono text-gray-500 tracking-widest uppercase mb-2">Emerging Presence</p>
+                <p className="text-xs font-mono text-gray-500 tracking-widest uppercase mb-2">Emerging Presence Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <p className="text-2xl font-bold text-orange-400 font-mono mb-2">8-13</p>
-                <p className="text-gray-400 text-sm">Structural foundation exists but is incomplete. You appear on one platform or in some query categories. Fix the lowest-scoring dimension first. 60-90 days to consistent single-platform citation.</p>
+                <p className="text-gray-400 text-sm">Structural foundation exists but is incomplete. You appear on one platform or in some query categories. Fix the lowest-scoring dimension first. 60-90 days to consistent single-platform citation. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5">
                 <p className="text-xs font-mono text-gray-500 tracking-widest uppercase mb-2">Competitive</p>
-                <p className="text-2xl font-bold text-yellow-400 font-mono mb-2">14-17</p>
+                <p className="text-2xl font-bold text-yellow-400 font-mono mb-2">14-17 We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 <p className="text-gray-400 text-sm">You are in the citation pool. Competitors at this level or above are your actual competition. The gap between 14 and 18 is usually content depth and FAQ volume, not structural.</p>
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5">
-                <p className="text-xs font-mono text-gray-500 tracking-widest uppercase mb-2">Market Leader</p>
+                <p className="text-xs font-mono text-gray-500 tracking-widest uppercase mb-2">Market Leader Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                 <p className="text-2xl font-bold text-green-400 font-mono mb-2">18-20</p>
-                <p className="text-gray-400 text-sm">Consistent citation presence across all major AI platforms. Defensive posture: publish new FAQ content on a fixed cadence, monitor competitor schema additions, and expand into adjacent query categories.</p>
+                <p className="text-gray-400 text-sm">Consistent citation presence across all major AI platforms. Defensive posture: publish new FAQ content on a fixed cadence, monitor competitor schema additions, and expand into adjacent query categories. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
             </div>
 
@@ -729,7 +729,7 @@ export default function AEOGrader() {
 
             <p>The AEO grader in this article is a manual structural audit. You score yourself based on what you can observe on your site right now: schema presence, FAQ count, content format, E-E-A-T signals. It tells you what your infrastructure looks like. It does not tell you how that infrastructure performs against your specific competitors on your specific market queries.</p>
 
-            <p>TAE&apos;s AERO scan is the live competitive read. It runs 20 market-relevant queries across ChatGPT, Perplexity, Google AI Mode, and Claude. It logs every response. It counts every citation. It scores your business against your top three competitors on a 10-point scale. The AERO scan answers a different question: not &quot;is my content structured for AI&quot; but &quot;is my content actually being cited on the queries that generate leads for my business.&quot;</p>
+            <p>TAE&apos;s AERO scan is the live competitive read. It runs 20 market-relevant queries across ChatGPT, Perplexity, Google AI Mode, and Claude. It logs every response. It counts every citation. It scores your business against your top three competitors on a 10-point scale. The AERO scan answers a different question: not &quot;is my content structured for AI&quot; but &quot;is my content actually being cited on the queries that generate leads for my business.&quot; Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -777,7 +777,7 @@ export default function AEOGrader() {
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>You have your AEO grade. Now see your AERO score. The AERO scan is free. It takes 24-48 hours and returns a competitor citation comparison, your current citation rate by platform, and a ranked fix list.</p>
+              <p>You have your AEO grade. Now see your AERO score. The AERO scan is free. It takes 24-48 hours and returns a competitor citation comparison, your current citation rate by platform, and a ranked fix list. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot">Request My Free AERO Scan &rarr;</Link>
             </div>
 
@@ -849,7 +849,7 @@ export default function AEOGrader() {
             {/* CTA Block */}
             <div className="ae-cta-block not-prose">
               <h3>Ready to Win in AI Search?</h3>
-              <p>Join the businesses that are already getting cited by ChatGPT, Claude, and Google AI. The first step is understanding where you stand today.</p>
+              <p>Join the businesses that are already getting cited by ChatGPT, Claude, and Google AI. The first step is understanding where you stand today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot" className="ae-cta-primary">Claim Your Free Report &rarr;</Link>
               <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
@@ -871,19 +871,19 @@ export default function AEOGrader() {
             <p>An AEO grader is a scoring system that evaluates how well a business is positioned to be cited by AI platforms like ChatGPT, Perplexity, and Google AI Mode. TAE&apos;s 5-dimension framework scores citation presence, schema markup depth, FAQ coverage, E-E-A-T signals, and AI answer format compliance, producing a total score from 0 to 20.</p>
 
             <h3>What is a good AEO score on the TAE 0-20 scale?</h3>
-            <p>On the TAE 0-20 AEO grader scale: 0-7 is a critical gap (AI platforms have no reliable basis to cite you), 8-13 is emerging presence (structural fixes will yield measurable citation gains within 90 days), 14-17 is competitive (you appear on some queries but miss others), and 18-20 is market-leader territory (consistent citation presence across platforms).</p>
+            <p>On the TAE 0-20 AEO grader scale: 0-7 is a critical gap (AI platforms have no reliable basis to cite you), 8-13 is emerging presence (structural fixes will yield measurable citation gains within 90 days), 14-17 is competitive (you appear on some queries but miss others), and 18-20 is market-leader territory (consistent citation presence across platforms). <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>How do I check if my business is being cited by ChatGPT or Perplexity?</h3>
             <p>Run a fixed prompt library of 15 to 20 queries representing what your ideal clients would ask AI assistants. For a plumber in Austin, that means queries like &quot;best plumber in Austin&quot; and &quot;who fixes slab leaks in Austin TX.&quot; Log every response and note whether your business name, website, or content appears. Do this across ChatGPT, Perplexity, and Google AI Mode to get a cross-platform citation rate.</p>
 
             <h3>Does FAQ schema actually help AI platforms cite my business?</h3>
-            <p>Yes. FAQPage schema has the highest citation potential of any structured data type. AI systems pull FAQ answer blocks directly into responses because they are pre-formatted as questions paired with complete, self-contained answers. Each FAQ answer should be 40 to 80 words, long enough to be substantive and short enough to be quoted verbatim. Businesses with zero FAQ schema have a measurable citation disadvantage across all major AI platforms.</p>
+            <p>Yes. FAQPage schema has the highest citation potential of any structured data type. AI systems pull FAQ answer blocks directly into responses because they are pre-formatted as questions paired with complete, self-contained answers. Each FAQ answer should be 40 to 80 words, long enough to be substantive and short enough to be quoted verbatim. Businesses with zero FAQ schema have a measurable citation disadvantage across all major AI platforms. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>What is the difference between an AEO score and an AERO score?</h3>
             <p>An AEO score measures how well your content infrastructure supports AI citation (structural readiness). An AERO scan goes further: it runs live queries across ChatGPT, Perplexity, Google AI Mode, and Claude, measures your actual citation rate against competitors on your specific market queries, and scores you on a 10-point scale. The AEO grader in this article is a manual pre-audit. The AERO scan is the live competitive read.</p>
 
             <h3>How long does it take to move from a low AEO score to consistent AI citations?</h3>
-            <p>Businesses that start at 0 to 7 on the AEO grader and implement all five dimensions systematically typically see measurable citation gains within 60 to 90 days. The fastest wins come from adding FAQ schema and structured content. Schema markup alone can lift Google AI Mode visibility substantially within 30 days. Citation presence on ChatGPT and Perplexity takes longer because those models rely on indexed content depth.</p>
+            <p>Businesses that start at 0 to 7 on the AEO grader and implement all five dimensions systematically typically see measurable citation gains within 60 to 90 days. The fastest wins come from adding FAQ schema and structured content. Schema markup alone can lift Google AI Mode visibility substantially within 30 days. Citation presence on ChatGPT and Perplexity takes longer because those models rely on indexed content depth. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* Related Articles */}
             <span className="ae-section-label">Continue Reading</span>
@@ -909,7 +909,7 @@ export default function AEOGrader() {
           <div className="ae-final-cta">
             <div className="ae-final-cta-pulse"></div>
             <h2>Your Competitors Are Already Being Cited. Find Out Where You Stand.</h2>
-            <p>The AERO scan runs your actual market queries across ChatGPT, Perplexity, Google AI Mode, and Claude. You get your citation rate, your competitors&apos; citation rates, and a ranked fix list. No commitment. No cost.</p>
+            <p>The AERO scan runs your actual market queries across ChatGPT, Perplexity, Google AI Mode, and Claude. You get your citation rate, your competitors&apos; citation rates, and a ranked fix list. No commitment. No cost. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
             <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">

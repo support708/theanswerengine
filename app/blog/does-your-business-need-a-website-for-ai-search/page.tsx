@@ -226,49 +226,49 @@ export default function Page() {
 
           <p className="text-xl text-gray-300 leading-relaxed mb-8">
             27% of small businesses still operate without a website. A year ago, that was a missed opportunity. Today, it is an invisibility cloak. With 45% of consumers now using AI tools to find local services (up from 6% just twelve months ago), the businesses without websites are not just hard to find on Google. They do not exist in the AI search ecosystem at all.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-8">
             The question is no longer whether you need a website. It is whether the website you have (or do not have) gives AI platforms enough information to recommend you. Here is what AI search actually requires, what it ignores, and what local businesses need to do right now.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">Why AI Platforms Cannot Recommend You Without a Website</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             When someone asks ChatGPT, Perplexity, or Google AI Overviews to recommend a plumber, dentist, or real estate agent, those platforms do not pick up the phone and ask around. They scan the internet for structured, crawlable information they can verify across multiple sources.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Your Google Business Profile helps. Your Yelp listing helps. But neither one provides the depth of information AI platforms need to confidently cite you. Business and service websites account for 50% of all sources ChatGPT cites when making recommendations. Social media profiles, directory listings, and review platforms split the remaining half.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Without a website, you are competing for AI visibility using only the smaller half of the equation. And you are leaving the most influential source of AI citations completely blank.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">The 27% Problem: Who Is Missing and Why It Matters Now</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Roughly 27% of small businesses operate without a website in 2026. For home service trades specifically, that number climbs as high as 60%. Plumbers, electricians, HVAC technicians, roofers: the industries where customers are increasingly turning to AI for recommendations are the same industries with the weakest web presence.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             This creates a massive competitive gap. AI Overviews now appear in 68% of local searches. ChatGPT recommends only about 1.2% of all local business locations. The businesses earning those citations overwhelmingly have one thing in common: a website with structured data that AI platforms can read, verify, and reference.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             If your competitors have websites with schema markup and you do not have a site at all, you are not even in the candidate pool when AI decides who to recommend.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">What AI Search Actually Reads on Your Website</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             AI platforms do not browse your website the way a customer does. They do not admire your hero image or appreciate your color palette. They parse structured data, read content blocks, and cross-reference what they find against directory listings, reviews, and other sources.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p className="text-gray-300 leading-relaxed mb-4">
             Here is what matters most:
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6 mb-8">
             <h3 className="text-xl font-semibold text-white mb-4">The AI Search Checklist</h3>
@@ -298,45 +298,45 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Websites with properly implemented structured data get cited in AI responses 3.2 times more often than those without it. That is not a marginal difference. It is the difference between showing up and being invisible.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">Google Business Profile Alone Is Not Enough</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             A Google Business Profile is essential. No argument there. But relying on it exclusively for AI visibility has serious limitations.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Your GBP data lives inside Google&apos;s ecosystem. ChatGPT does not read it. Perplexity does not read it. Apple Intelligence does not read it. When a customer asks one of those platforms for a recommendation, the platform crawls the open web. If the only thing it finds is a Yelp listing with your phone number and a few reviews, it has very little to base a recommendation on.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             A website is the one asset that every AI platform can access and evaluate. It is your universal entry point into AI search. Without it, you are visible on Google and invisible everywhere else.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">Social Media Cannot Replace a Website for AI Search</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Some business owners believe a strong Instagram or Facebook presence is enough. For customer engagement and brand awareness, social media absolutely has value. For AI search citations, it falls short.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             AI platforms prioritize sources they can parse reliably. Social media posts are ephemeral, unstructured, and often locked behind authentication walls. AI crawlers struggle to extract consistent, verifiable business information from social feeds. Your Instagram bio does not contain schema markup. Your Facebook "About" section does not include FAQPage structured data.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             The platforms that AI cites most are websites with structured content and consistent metadata. Social media supports your brand. A website feeds the algorithm.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">The Structured Data Advantage</h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Structured data (schema markup) is the language AI platforms speak. It is not a nice-to-have feature anymore. It is the single most impactful technical investment a local business can make for AI visibility.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             Over 72% of websites appearing on Google&apos;s first page use schema markup. Research shows GPT-4 improves its information extraction accuracy from 16% to 54% when processing structured content. That means AI is literally three times better at understanding and recommending your business when your site has proper schema.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6 mb-8">
             <h3 className="text-xl font-semibold text-white mb-4">Schema Types Every Local Business Needs</h3>
@@ -368,29 +368,29 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-6">
             You do not need a 50-page enterprise site. A focused, well-structured website with the right elements can outperform a bloated one that lacks structured data. Here is what the minimum looks like:
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6 mb-8">
             <div className="space-y-4 text-gray-300">
               <div>
-                <p className="text-white font-semibold">Homepage</p>
-                <p>Clear description of who you are, what you do, and where you do it. LocalBusiness schema in the head.</p>
+                <p className="text-white font-semibold">Homepage We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+                <p>Clear description of who you are, what you do, and where you do it. LocalBusiness schema in the head. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
               <div>
-                <p className="text-white font-semibold">Service Pages (3-5 minimum)</p>
-                <p>One page per core service. 500+ words each. Include pricing ranges if possible, process descriptions, and what makes your approach different.</p>
+                <p className="text-white font-semibold">Service Pages (3-5 minimum) <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+                <p>One page per core service. 500+ words each. Include pricing ranges if possible, process descriptions, and what makes your approach different. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div>
-                <p className="text-white font-semibold">About Page</p>
-                <p>Your story, credentials, service area, and team. AI platforms use this to assess authority and expertise.</p>
+                <p className="text-white font-semibold">About Page Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+                <p>Your story, credentials, service area, and team. AI platforms use this to assess authority and expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <div>
-                <p className="text-white font-semibold">FAQ Page</p>
-                <p>6-10 real questions your customers ask, with detailed answers. FAQPage schema markup on every Q&A pair.</p>
+                <p className="text-white font-semibold">FAQ Page <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                <p>6-10 real questions your customers ask, with detailed answers. FAQPage schema markup on every Q&A pair. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
               <div>
-                <p className="text-white font-semibold">Contact Page</p>
-                <p>NAP data that exactly matches your Google Business Profile, Yelp, and every other listing.</p>
+                <p className="text-white font-semibold">Contact Page Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                <p>NAP data that exactly matches your Google Business Profile, Yelp, and every other listing. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
           </div>

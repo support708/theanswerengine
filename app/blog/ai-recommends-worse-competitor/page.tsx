@@ -251,32 +251,32 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Frustrated that AI keeps recommending your competitor? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run a free Blindspot Report</Link> — we will show you exactly what authority signals your competitor has that you are missing.</p>
+          <p>Frustrated that AI keeps recommending your competitor? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run a free Blindspot Report</Link> — we will show you exactly what authority signals your competitor has that you are missing. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         <h2 id="the-frustration">The Frustration Every Business Owner Knows</h2>
         <p>
           You have done everything right. You invested in a professional website. It is fast, mobile-optimized, beautifully designed, and clearly communicates what you do. Your competitor, meanwhile, has a site that looks like it has not been updated since the Obama administration. Stock photos from 2012. A contact form that barely works. A PageSpeed score that would make Google cringe.
-        </p>
+         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
         <p>
           And yet, when a potential customer asks ChatGPT &ldquo;who is the best [your service] near me,&rdquo; your competitor shows up and you do not.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
         <p>
           This is not a glitch. It is not random. And it is not unfair in the way you think it is. What is happening is that AI platforms evaluate businesses using an entirely different set of criteria than the ones you optimized for — and your competitor, whether intentionally or accidentally, has built exactly the kind of presence that AI platforms trust.
-        </p>
+         Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Hard Truth</div>
-          <p>AI platforms like ChatGPT, Perplexity, and Claude do not browse your website. They do not admire your hero section. They do not care about your page transitions. They synthesize information from across the entire web and recommend businesses that have the strongest authority signals — regardless of what the website looks like.</p>
+          <p>AI platforms like ChatGPT, Perplexity, and Claude do not browse your website. They do not admire your hero section. They do not care about your page transitions. They synthesize information from across the entire web and recommend businesses that have the strongest authority signals — regardless of what the website looks like. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
         </div>
 
         <h2 id="ai-preference-hierarchy">The AI Preference Hierarchy</h2>
         <p>
           To understand why your competitor wins, you need to understand how AI platforms decide who to recommend. It is not a mystery, but it is counterintuitive for anyone who has spent years optimizing for traditional SEO or website conversion.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
         <p>
           AI recommendation engines operate on a hierarchy that looks roughly like this, from most important to least important:
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">AI Recommendation Hierarchy</div>
@@ -288,40 +288,40 @@ export default function Page() {
             <li><strong>Structured data and schema</strong> — machine-readable business information</li>
             <li><strong>Website quality</strong> — design, speed, and user experience</li>
           </ol>
-          <p style={{ marginTop: '0.75rem', color: '#94a3b8' }}>Notice where website quality sits. At the very bottom.</p>
+          <p style={{ marginTop: '0.75rem', color: '#94a3b8' }}>Notice where website quality sits. At the very bottom. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         </div>
 
         <p>
           This hierarchy explains why a competitor with a terrible website but strong authority signals will consistently outrank you. They are winning at the top of the hierarchy while you are winning at the bottom. And in AI search, the top of the hierarchy is all that matters.
-        </p>
+         Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2 id="authority-over-design">Authority Wins Over Design — Every Time</h2>
         <p>
           Here is a scenario we see constantly: Business A has a stunning website. Load time under two seconds. Beautiful photography. Clear service pages. A blog with 30 articles. But almost zero external mentions — no directory listings beyond Google Business Profile, no press coverage, no citations on industry blogs.
-        </p>
+         Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         <p>
           Business B has a website that barely passes muster. Slow. Dated design. But Business B is listed on 40+ directories, has been mentioned in three local publications, appears on two industry &ldquo;best of&rdquo; lists, and has a steady stream of recent Google reviews.
-        </p>
+         One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         <p>
           When someone asks an AI platform who to recommend in that category, Business B wins. Every time. It is not even close.
-        </p>
+         Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Why This Happens</div>
-          <p>AI platforms are not evaluating your business directly. They are evaluating what the rest of the internet says about your business. If the only place your business exists is on your own website, the AI has exactly one source to draw from — and it does not trust a single source. Your competitor&apos;s information is confirmed across dozens of independent sources, giving the AI confidence to recommend them.</p>
+          <p>AI platforms are not evaluating your business directly. They are evaluating what the rest of the internet says about your business. If the only place your business exists is on your own website, the AI has exactly one source to draw from — and it does not trust a single source. Your competitor&apos;s information is confirmed across dozens of independent sources, giving the AI confidence to recommend them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
         </div>
 
         <p>
           Think of it this way: if you were recommending a restaurant to a friend, would you trust a restaurant that told you it was great, or a restaurant that 300 other people told you was great? AI platforms work the same way. Third-party validation is the currency of AI trust.
-        </p>
+         Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <h2 id="sneaky-authority">The Sneaky Authority Pattern</h2>
         <p>
           There is a pattern we call &ldquo;sneaky authority&rdquo; — and your competitor might be benefiting from it without even realizing it. Sneaky authority happens when a business accumulates authority signals passively, often just by being around longer or by participating in things that happen to generate citations.
-        </p>
+         Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         <p>
           Here is what sneaky authority looks like in practice:
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Common Sources of Sneaky Authority</div>
@@ -336,32 +336,32 @@ export default function Page() {
 
         <p>
           Your competitor might not have a marketing team or a content strategy. They might not even know what AEO stands for. But if they have been in business for 15 years and have accumulated these signals naturally, they have a moat around their AI visibility that your beautiful website alone cannot breach.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
         <h2 id="freshness-vs-comprehensive">Content Freshness vs. Comprehensiveness</h2>
         <p>
           Another area where the &ldquo;worse site&rdquo; competitor often wins is content freshness. You might have a comprehensive 3,000-word guide on your service page that you published two years ago. Your competitor might have a blog post from last month that answers a specific question in 500 words.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         <p>
           AI platforms weight freshness heavily. A business that publishes content weekly — even if it is short and unpolished — signals ongoing activity and relevance. A business with comprehensive but stale content signals that the information might be outdated.
-        </p>
+         Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Freshness Formula</div>
-          <p>In our analysis across hundreds of AI citation patterns, businesses that publish new content at least twice per month are cited 3 to 4 times more often than businesses with deep but static content. The ideal combination is both — comprehensive and fresh — but if you have to choose, fresh wins.</p>
+          <p>In our analysis across hundreds of AI citation patterns, businesses that publish new content at least twice per month are cited 3 to 4 times more often than businesses with deep but static content. The ideal combination is both — comprehensive and fresh — but if you have to choose, fresh wins. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         <p>
           This does not mean you should publish low-quality content for the sake of recency. It means you should establish a consistent publishing cadence that demonstrates your business is active, informed, and engaged with current trends in your industry.
-        </p>
+         We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
         <h2 id="review-signal-advantage">The Review Signal Advantage</h2>
         <p>
           Reviews are one of the most misunderstood signals in AI visibility. Most business owners focus on their star rating — and rightfully, a 4.8 feels better than a 4.2. But AI platforms evaluate reviews differently than humans scanning Google Maps.
-        </p>
+         Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         <p>
           AI weighs three review factors in order of importance:
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">How AI Evaluates Reviews</div>
@@ -374,31 +374,31 @@ export default function Page() {
 
         <p>
           Your competitor might have a lower star rating than you. But if they have four times the review volume with a steady stream of new reviews that mention specific services, they are giving AI platforms exactly what they need to make confident recommendations.
-        </p>
+         Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2 id="network-effect">The Cross-Platform Network Effect</h2>
         <p>
           There is a compounding effect that makes the authority gap even harder to close once it opens. We call it the cross-platform network effect: when a business has consistent information across multiple platforms, AI treats each platform as an independent confirmation of the same facts.
-        </p>
+         Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         <p>
           If your competitor&apos;s business name, address, phone number, services, and hours are consistent across Google Business Profile, Yelp, their website, three industry directories, the BBB, and the local Chamber of Commerce — that is eight independent sources all confirming the same information. The AI&apos;s confidence in recommending that business skyrockets.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
         <p>
           If your information only exists on your website and Google Business Profile, the AI has two sources. Even if both sources are more detailed and more accurate, two sources cannot compete with eight on the dimension AI cares about most: independent corroboration.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">The Consistency Multiplier</div>
-          <p>Cross-platform consistency does not just add authority linearly — it multiplies it. Each additional platform that confirms the same business information increases AI confidence in a way that is disproportionate to the effort required. Going from 2 platforms to 8 is not 4x the authority. In practice, it can be 10x or more in citation likelihood.</p>
+          <p>Cross-platform consistency does not just add authority linearly — it multiplies it. Each additional platform that confirms the same business information increases AI confidence in a way that is disproportionate to the effort required. Going from 2 platforms to 8 is not 4x the authority. In practice, it can be 10x or more in citation likelihood. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
         </div>
 
         <h2 id="what-competitor-has">What Your Competitor Probably Has That You Do Not</h2>
         <p>
           At this point, you are probably wondering what specifically your competitor has built — whether deliberately or by accident — that gives them the AI advantage. Without running a competitive audit on your specific situation, we cannot tell you exactly. But we can tell you the most common patterns we see.
-        </p>
+         Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
         <p>
           In nearly every case where a business with a worse website outranks a business with a better website in AI recommendations, the winner has some combination of these advantages:
-        </p>
+         <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">The Authority Gap Checklist</div>

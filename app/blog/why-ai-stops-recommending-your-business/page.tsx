@@ -220,7 +220,7 @@ export default function Page() {
           <p>
             Not sure if your business dropped from AI? Find out in 60 seconds.{' '}
             <Link href="/blindspot">Get your free AI Blind Spot Report</Link>
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         {/* Stats Grid */}
@@ -278,13 +278,13 @@ export default function Page() {
             approved businesses. Every time someone asks a question, the AI synthesizes an answer from
             whatever signals it has access to at that moment. Your inclusion is not a contract. It is a
             continuous vote of confidence, and that vote can be lost.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The vote is cast based on authority signals: how widely you are cited across the web, how
             consistent your business information is, how active your review presence is, and whether your
             content is fresh enough for the AI to trust it as current. When any of these signals weaken,
             your name gets replaced by a competitor whose signals are stronger.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Disappearing Business Problem</div>
@@ -292,14 +292,14 @@ export default function Page() {
               Most business owners only notice they have dropped from AI recommendations weeks or months
               after the fall happens. By then, dozens or hundreds of potential customers have asked the
               question and gotten someone else as the answer. This is invisible revenue loss.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
             The good news: drops are usually diagnosable and fixable. Unlike a Google penalty that can
             take months of appeals, AI visibility can often recover within weeks once the right signals
             are restored. But you have to know which signal broke first.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           {/* Inline CTA 2 */}
           <div className="ae-cta-inline mt-6">
@@ -307,7 +307,7 @@ export default function Page() {
               Wondering which signal is hurting your AI visibility?{' '}
               <Link href="/blindspot">Run a free Blind Spot analysis</Link> and we will tell you exactly
               what to fix.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
         </section>
 
@@ -321,13 +321,13 @@ export default function Page() {
             signals that a business is active, relevant, and still operating. Content that has not changed
             in 12 or 18 months sends the opposite signal: this business may be stale, closed, or no longer
             worth recommending.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             This does not mean you need to publish new articles every single day. It means the content
             that speaks to your core services needs to stay current. If your service pages reference old
             pricing, outdated procedures, or team members who left, AI models pick up on these
             discrepancies and reduce their confidence in your accuracy.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">What Fresh Content Actually Means to AI</div>
@@ -336,14 +336,14 @@ export default function Page() {
               whether your reviews have recent activity, and whether third-party sites referencing your
               business have been updated. A freshly built website with no recent citations is still stale
               from an AI perspective.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5 mb-5">
             The freshness cliff is particularly brutal for seasonal businesses. If you are a landscaper
             who goes quiet over winter, or a tax firm that stops publishing after April, you may find your
             AI visibility has eroded significantly by the time you need it most.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* Bar chart of content signals */}
           <div className="mt-8 mb-8">
@@ -399,13 +399,13 @@ export default function Page() {
             AI platforms build their understanding of your business by aggregating information from dozens
             of sources: your website, Google Business Profile, Yelp, Bing Places, industry directories,
             news articles, and social media. When these sources disagree, the AI faces a trust problem.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             Imagine your website says you are open Monday through Friday, but your Yelp listing says
             Monday through Saturday, and a directory lists you as open on Sundays. From the AI's
             perspective, none of these sources can be fully trusted because they contradict each other.
             The AI does not pick the most accurate one. It often picks someone else entirely.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           {/* Comparison Table */}
           <div className="overflow-x-auto my-8">
@@ -452,13 +452,13 @@ export default function Page() {
             local SEO but carries even more weight in AI search. Where traditional search engines could
             use PageRank to override minor inconsistencies, AI models use consistency itself as a proxy
             for trustworthiness. Inconsistency is a red flag, not a minor annoyance.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <p className="text-gray-300 leading-relaxed">
             If you have moved, rebranded, changed your phone number, or expanded your service area in
             the last two years, there is a good chance some of your directory listings never got updated.
             Those outdated entries are actively working against you in AI search right now.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
         </section>
 
         {/* Section 4 */}
@@ -471,14 +471,14 @@ export default function Page() {
             itself: given what I know about all the businesses in this category and location, which one
             should I recommend? If your competitor suddenly earns significantly more citations, press
             coverage, and reviews than you, they do not just rise. You effectively fall.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             This is the competitive surge problem, and it is particularly frustrating because you did
             nothing wrong. You did not lose any directory listings. Your reviews did not drop. Your
             content did not go stale. But your competitor hired an AI visibility specialist, got
             featured in three local news articles, and accelerated their review collection, and now they
             own the AI recommendation slot you used to occupy.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">The Silent Competitive Threat</div>
@@ -486,7 +486,7 @@ export default function Page() {
               Most businesses do not monitor their AI rankings the way they monitor their Google rankings.
               That means a competitor can quietly overtake you in ChatGPT and Perplexity recommendations
               for months before you notice the drop in inbound calls.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           {/* Decision Matrix */}
@@ -519,7 +519,7 @@ export default function Page() {
               Want to see how you stack up against your top competitors in AI?{' '}
               <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where they
               are outranking you.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
         </section>
 
@@ -532,13 +532,13 @@ export default function Page() {
             AI platforms read reviews. Not just your star rating, but the recency, frequency, and
             language of your reviews. A business with 200 reviews from three years ago and no new reviews
             is treated differently than a business with 80 reviews where 15 came in the last 60 days.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The problem for many businesses is that review collection is not automated. When the person
             who was manually asking for reviews leaves, or when a business gets busy and stops following
             up, review velocity drops to zero. And when review velocity drops, AI models start to wonder
             if the business is still actively serving customers.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* Pros/Cons */}
           <div className="ae-pros-cons">
@@ -569,7 +569,7 @@ export default function Page() {
             review text. If the language in your recent reviews has shifted from enthusiastic to lukewarm,
             the AI detects that shift even if your star rating has not changed significantly. It is not
             just the score. It is the story the reviews are telling.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <p className="text-gray-300 leading-relaxed mt-4">
             Read more about how reviews feed into AI recommendations in our guide on{' '}
@@ -580,7 +580,7 @@ export default function Page() {
               why 5-star Google reviews do not always show up in AI answers
             </Link>
             .
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         </section>
 
         {/* Section 6 */}
@@ -592,14 +592,14 @@ export default function Page() {
             Sometimes you did everything right and still dropped. The culprit in those cases is often a
             model update. When AI platforms release new versions of their models, the way they weight
             different signals can change significantly.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             A real example: when ChatGPT transitioned to GPT-5.3 Instant in early 2026, analysis of 27,000
             AI responses showed the average number of unique domains cited per response dropped from 19 to
             15. That is a 20% reduction in citation breadth. Businesses that previously appeared in the
             middle of citation lists got pushed out entirely. Only the strongest authority signals survived
             the transition.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">What Model Updates Mean for You</div>
@@ -608,7 +608,7 @@ export default function Page() {
               your authority signals were sitting just above the old threshold, a new model might place that
               threshold higher and suddenly you are below it. The solution is not to complain about
               fairness. It is to build authority signals strong enough to survive any threshold change.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
@@ -616,7 +616,7 @@ export default function Page() {
             updates its retrieval logic regularly and without much public announcement. Claude shifts its
             weighting when Anthropic releases new model versions. Each of these changes can affect your
             visibility independently.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <p className="text-gray-300 leading-relaxed mt-4">
             Understanding how AI disappearances work is closely related to understanding{' '}
@@ -627,7 +627,7 @@ export default function Page() {
               why businesses disappear from AI search results overnight
             </Link>
             . Model updates are one of the most common causes.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
         </section>
 
         {/* Section 7 */}
@@ -639,13 +639,13 @@ export default function Page() {
             This is the most overlooked cause of AI visibility drops. If AI crawlers cannot read your
             website, they cannot cite it. And if they cannot cite it, you disappear from recommendations
             regardless of how good your reviews are or how many directories list you.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             Common technical issues that block AI crawlers include: a website that loads in more than
             4 seconds, a robots.txt file that accidentally blocks crawlers, an SSL certificate that expired
             or is showing errors, pages that require JavaScript to render with no static fallback, or
             server downtime during peak crawl hours.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           {/* Timeline */}
           <div className="ae-timeline mt-6 mb-8">
@@ -681,7 +681,7 @@ export default function Page() {
             slightly wrong, a WordPress plugin conflict, a caching configuration error: any of these can
             silently block crawlers while your site looks completely normal to human visitors. You see a
             working website. The AI sees a door that will not open.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <p className="text-gray-300 leading-relaxed mt-4">
             For more on what AI actually sees when it visits your site, read our guide on{' '}

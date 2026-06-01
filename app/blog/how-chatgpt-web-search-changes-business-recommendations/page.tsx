@@ -222,12 +222,12 @@ export default function Page() {
 
         {/* Intro CTA inline */}
         <div className="ae-cta-inline mb-10">
-          <p>Not sure if ChatGPT can find your business? <Link href="/blindspot">Run a free Blind Spot Report</Link> and see exactly what AI sees when someone asks about your services.</p>
+          <p>Not sure if ChatGPT can find your business? <Link href="/blindspot">Run a free Blind Spot Report</Link> and see exactly what AI sees when someone asks about your services. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         {/* TOC */}
         <div className="ae-toc mb-12">
-          <p className="ae-toc-title">In This Article</p>
+          <p className="ae-toc-title">In This Article Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <ol>
             <li><a href="#web-search-mode">What ChatGPT Web Search Mode Actually Does</a></li>
             <li><a href="#bing-connection">The Bing Connection: Why It Matters for Local Business</a></li>
@@ -245,17 +245,17 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-4">What ChatGPT Web Search Mode Actually Does</h2>
           <p className="text-gray-300 mb-4">
             For most of its existence, ChatGPT answered questions from a fixed knowledge base: everything it learned during training, up to a cutoff date. Ask it who the best plumber in Phoenix is, and it would either refuse or hallucinate. It had no live connection to the world.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <p className="text-gray-300 mb-4">
             That changed with the rollout of web search capabilities. When web search is active, ChatGPT performs a real-time query before composing its answer. It retrieves pages, reads structured content, synthesizes information, and then responds as if it already knew.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 mb-4">
             The implication for businesses is enormous. Instead of being permanently locked out of AI recommendations until the next training cycle, you now have a live path to visibility. But only if your digital presence speaks the right language.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <div className="ae-callout ae-callout-info mb-6">
-            <p className="ae-callout-title">What "Web Search Active" Looks Like</p>
-            <p>When a user asks ChatGPT "Who does HVAC repair in Scottsdale?" with web search on, ChatGPT fires a Bing query, retrieves top results, reads structured content from those pages, checks third-party sources, then composes a recommendation citing the businesses it found. You are either in that result set or invisible.</p>
+            <p className="ae-callout-title">What "Web Search Active" Looks Like <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+            <p>When a user asks ChatGPT "Who does HVAC repair in Scottsdale?" with web search on, ChatGPT fires a Bing query, retrieves top results, reads structured content from those pages, checks third-party sources, then composes a recommendation citing the businesses it found. You are either in that result set or invisible. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
         </section>
 
@@ -264,22 +264,22 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-4">The Bing Connection: Why It Matters for Local Business</h2>
           <p className="text-gray-300 mb-4">
             Here is the detail most business owners miss: ChatGPT web search runs on Bing, not Google. If your entire digital strategy is Google-optimized and you have never thought about Bing indexation, there is a real gap between your Google visibility and your ChatGPT visibility.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           <p className="text-gray-300 mb-4">
             Bing's crawler is more reliant on structured, semantic signals than Google's algorithm. Pages with clean schema markup, clear content hierarchy, and consistent entity data tend to perform better in Bing's understanding of what a business actually is and does.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">Google Rankings Do Not Guarantee ChatGPT Visibility</p>
-            <p>A business ranking on page one of Google can be completely absent from ChatGPT recommendations if it is poorly indexed on Bing. These are separate ecosystems with overlapping but distinct ranking signals. Do not assume Google success transfers automatically.</p>
+            <p className="ae-callout-title">Google Rankings Do Not Guarantee ChatGPT Visibility Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            <p>A business ranking on page one of Google can be completely absent from ChatGPT recommendations if it is poorly indexed on Bing. These are separate ecosystems with overlapping but distinct ranking signals. Do not assume Google success transfers automatically. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
 
           <p className="text-gray-300 mb-4">
             This is not an argument to abandon Google SEO. It is an argument that the signals driving AI recommendation visibility are distinct enough to require deliberate attention. What Bing trusts, what schema tells crawlers, what third-party sources confirm about your entity: these are the levers that move ChatGPT citations.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-cta-inline mb-4">
-            <p>Curious how your business shows up across AI platforms? <Link href="/blindspot">Get a free Blind Spot Report</Link> to find out exactly where you stand.</p>
+            <p>Curious how your business shows up across AI platforms? <Link href="/blindspot">Get a free Blind Spot Report</Link> to find out exactly where you stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
         </section>
 
@@ -288,7 +288,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-4">What ChatGPT Reads Before Recommending a Business</h2>
           <p className="text-gray-300 mb-4">
             When ChatGPT retrieves pages through Bing, it is not just scanning for your business name. It is pattern-matching against a set of signals that determine whether you are a credible, relevant answer to the user's question.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <table className="ae-comparison-table mb-8">
             <thead>
@@ -344,7 +344,7 @@ export default function Page() {
 
           <p className="text-gray-300 mb-4">
             The pattern here is clear: structured, entity-level signals outweigh traditional SEO signals in this context. A slower site with excellent schema and consistent entity data is more likely to earn a ChatGPT citation than a blazing-fast site with thin, unstructured content.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Section 4 */}
@@ -352,7 +352,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-4">Web Search Mode vs. Training Data Mode</h2>
           <p className="text-gray-300 mb-4">
             Understanding the difference between these two modes matters for strategy. They are not the same game.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -381,11 +381,11 @@ export default function Page() {
 
           <p className="text-gray-300 mb-4">
             Web search mode is both an opportunity and a threat. It means the gap between training-data giants and structured local businesses is smaller. But it also means that businesses with messy, inconsistent online presences are more likely to be skipped over, even when they rank well on Google.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-callout ae-callout-success mb-6">
-            <p className="ae-callout-title">The Opportunity for Local Businesses</p>
-            <p>Web search mode levels the playing field in one key way: a well-structured local business can outcompete a larger company with poor schema and inconsistent entity data. This is not about marketing budget. It is about speaking the right language to AI crawlers.</p>
+            <p className="ae-callout-title">The Opportunity for Local Businesses <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+            <p>Web search mode levels the playing field in one key way: a well-structured local business can outcompete a larger company with poor schema and inconsistent entity data. This is not about marketing budget. It is about speaking the right language to AI crawlers. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -394,42 +394,42 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-4">Why Most Local Businesses Are Still Getting Skipped</h2>
           <p className="text-gray-300 mb-4">
             Despite web search mode creating a live path to visibility, most local businesses are still invisible in ChatGPT recommendations. The reasons are predictable and fixable.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
               <span className="ae-timeline-step">1</span>
               <div>
-                <p className="ae-timeline-title">No Schema Markup on Key Pages</p>
-                <p className="ae-timeline-desc">Service pages, location pages, and about pages lack structured data. ChatGPT cannot confidently extract who you are, what you do, or where you serve without it.</p>
+                <p className="ae-timeline-title">No Schema Markup on Key Pages We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+                <p className="ae-timeline-desc">Service pages, location pages, and about pages lack structured data. ChatGPT cannot confidently extract who you are, what you do, or where you serve without it. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
             </div>
             <div className="ae-timeline-item">
               <span className="ae-timeline-step">2</span>
               <div>
-                <p className="ae-timeline-title">Inconsistent NAP Across the Web</p>
-                <p className="ae-timeline-desc">Your phone number is different on Yelp, your address is formatted differently on your website, your business name varies across directories. AI reads this as low entity confidence and skips you.</p>
+                <p className="ae-timeline-title">Inconsistent NAP Across the Web <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+                <p className="ae-timeline-desc">Your phone number is different on Yelp, your address is formatted differently on your website, your business name varies across directories. AI reads this as low entity confidence and skips you. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
             <div className="ae-timeline-item">
               <span className="ae-timeline-step">3</span>
               <div>
-                <p className="ae-timeline-title">Thin or Generic Service Pages</p>
-                <p className="ae-timeline-desc">A single services page listing everything you do is not structured content. AI needs dedicated service pages with enough depth to confirm exactly what you offer and where.</p>
+                <p className="ae-timeline-title">Thin or Generic Service Pages Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+                <p className="ae-timeline-desc">A single services page listing everything you do is not structured content. AI needs dedicated service pages with enough depth to confirm exactly what you offer and where. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
             </div>
             <div className="ae-timeline-item">
               <span className="ae-timeline-step">4</span>
               <div>
-                <p className="ae-timeline-title">Missing Third-Party Corroboration</p>
-                <p className="ae-timeline-desc">If your business only exists on your own website, AI sees you as unverified. You need mentions, reviews, and references on authoritative third-party platforms to establish entity credibility.</p>
+                <p className="ae-timeline-title">Missing Third-Party Corroboration <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+                <p className="ae-timeline-desc">If your business only exists on your own website, AI sees you as unverified. You need mentions, reviews, and references on authoritative third-party platforms to establish entity credibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             </div>
             <div className="ae-timeline-item">
               <span className="ae-timeline-step">5</span>
               <div>
-                <p className="ae-timeline-title">Poor Bing Indexation</p>
-                <p className="ae-timeline-desc">Many businesses have never submitted to Bing Webmaster Tools, have no Bing indexation strategy, or have technical issues blocking Bing's crawler. Google-only optimization leaves a major ChatGPT gap.</p>
+                <p className="ae-timeline-title">Poor Bing Indexation Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                <p className="ae-timeline-desc">Many businesses have never submitted to Bing Webmaster Tools, have no Bing indexation strategy, or have technical issues blocking Bing's crawler. Google-only optimization leaves a major ChatGPT gap. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
           </div>

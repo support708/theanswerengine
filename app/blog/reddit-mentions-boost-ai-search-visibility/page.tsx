@@ -131,33 +131,33 @@ export default function Page() {
             </div>
           </div>
 
-          <p>You have invested in your website. You have optimized your Google Business Profile. You even have decent reviews. But when someone asks ChatGPT to recommend a business in your industry, your competitor shows up and you do not.</p>
+          <p>You have invested in your website. You have optimized your Google Business Profile. You even have decent reviews. But when someone asks ChatGPT to recommend a business in your industry, your competitor shows up and you do not. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>The answer is probably Reddit. Or YouTube. Or some other community platform where people are talking about your competitor but not about you.</p>
+          <p>The answer is probably Reddit. Or YouTube. Or some other community platform where people are talking about your competitor but not about you. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The Uncomfortable Truth</div>
-            <p>Nearly half of all AI search citations come from community platforms. Not company websites. Not press releases. Not paid ads. Real conversations happening on forums, video platforms, and social communities. If your competitors are part of those conversations and you are not, AI has already made its choice about who to recommend.</p>
+            <p>Nearly half of all AI search citations come from community platforms. Not company websites. Not press releases. Not paid ads. Real conversations happening on forums, video platforms, and social communities. If your competitors are part of those conversations and you are not, AI has already made its choice about who to recommend. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>AI does not care how much you spent on your website. It cares how many real people are talking about you across the web. Community mentions are now the dominant citation source for AI recommendations.</p>
+            <p>AI does not care how much you spent on your website. It cares how many real people are talking about you across the web. Community mentions are now the dominant citation source for AI recommendations. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* Section 1 */}
           <span className="ae-section-label">Why AI Trusts Communities</span>
           <h2>Why AI Prefers Community Voices Over Company Voices</h2>
 
-          <p>Think about how you personally evaluate a recommendation. If a company tells you they are the best, you are skeptical. If a stranger on Reddit with no financial incentive tells you the same thing, you pay attention. AI platforms apply the same logic at scale.</p>
+          <p>Think about how you personally evaluate a recommendation. If a company tells you they are the best, you are skeptical. If a stranger on Reddit with no financial incentive tells you the same thing, you pay attention. AI platforms apply the same logic at scale. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-          <p>The vast majority of brand mentions in AI-generated answers originate from third-party pages, not the brand's own domain. AI models have learned that self-promotional content is inherently biased. Third-party mentions, especially from community platforms where users have no incentive to promote a business, carry significantly more weight.</p>
+          <p>The vast majority of brand mentions in AI-generated answers originate from third-party pages, not the brand's own domain. AI models have learned that self-promotional content is inherently biased. Third-party mentions, especially from community platforms where users have no incentive to promote a business, carry significantly more weight. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-quote">
-            <p>AI platforms trust what real people say about your business more than what you say about yourself.</p>
+            <p>AI platforms trust what real people say about your business more than what you say about yourself. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
-          <p><Link href="/blog/why-is-my-competitor-on-ai-search-not-me">If your competitor appears in AI search and you do not</Link>, the difference is rarely about who has the better website. It is almost always about who has more independent voices vouching for them across the web.</p>
+          <p><Link href="/blog/why-is-my-competitor-on-ai-search-not-me">If your competitor appears in AI search and you do not</Link>, the difference is rarely about who has the better website. It is almost always about who has more independent voices vouching for them across the web. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* Bar Chart: AI Citation Sources */}
           <div className="ae-bar-group">
@@ -189,7 +189,7 @@ export default function Page() {
           </div>
 
           <div className="ae-cta-inline">
-            <p>Not sure where your business stands in AI search? Find out in 60 seconds.</p>
+            <p>Not sure where your business stands in AI search? Find out in 60 seconds. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Check Your Visibility →</Link>
           </div>
 
@@ -197,22 +197,22 @@ export default function Page() {
           <span className="ae-section-label">The Reddit Effect</span>
           <h2>The Reddit Effect on AI Recommendations</h2>
 
-          <p>Reddit has become one of the most-cited sources in AI search, and the reason is structural. Reddit threads are organized around genuine questions from real users. The best answers get upvoted by the community. And the discussions are indexed and accessible to AI training data.</p>
+          <p>Reddit has become one of the most-cited sources in AI search, and the reason is structural. Reddit threads are organized around genuine questions from real users. The best answers get upvoted by the community. And the discussions are indexed and accessible to AI training data. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">How Reddit Signals Work</div>
-            <p>When someone on Reddit asks &quot;who is the best roofer in Denver?&quot; and three different users recommend the same company with specific reasons, AI learns something powerful: this business has earned genuine recommendations from real people. That signal is extremely difficult to manufacture and extremely valuable to AI platforms trying to make accurate recommendations.</p>
+            <p>When someone on Reddit asks &quot;who is the best roofer in Denver?&quot; and three different users recommend the same company with specific reasons, AI learns something powerful: this business has earned genuine recommendations from real people. That signal is extremely difficult to manufacture and extremely valuable to AI platforms trying to make accurate recommendations. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
 
-          <p>The businesses that dominate AI recommendations are not the ones with the biggest ad budgets. They are the ones that community members naturally mention when asked for advice.</p>
+          <p>The businesses that dominate AI recommendations are not the ones with the biggest ad budgets. They are the ones that community members naturally mention when asked for advice. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">Warning: Do Not Spam Reddit</div>
-            <p>Reddit communities are aggressive about identifying and downvoting promotional content. Fake accounts, shill posts, and self-promotion get flagged instantly. And AI models can likely detect astroturfing patterns as well. Spamming will hurt your visibility, not help it.</p>
+            <p>Reddit communities are aggressive about identifying and downvoting promotional content. Fake accounts, shill posts, and self-promotion get flagged instantly. And AI models can likely detect astroturfing patterns as well. Spamming will hurt your visibility, not help it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Is your competitor getting Reddit mentions while you are invisible? We can show you the gap.</p>
+            <p>Is your competitor getting Reddit mentions while you are invisible? We can show you the gap. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
           </div>
 
@@ -220,13 +220,13 @@ export default function Page() {
           <span className="ae-section-label">YouTube Strategy</span>
           <h2>YouTube: The Other Community Channel AI Loves</h2>
 
-          <p>YouTube is the second major community platform driving AI citations. But it is not the video itself that AI cites. It is the transcript. AI platforms read the spoken content of YouTube videos and treat expert-produced content as a credibility signal.</p>
+          <p>YouTube is the second major community platform driving AI citations. But it is not the video itself that AI cites. It is the transcript. AI platforms read the spoken content of YouTube videos and treat expert-produced content as a credibility signal. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <p>A plumber who creates a 10-minute video explaining how to diagnose a water heater issue is building AI-visible expertise. An accountant who makes a video walking through common tax mistakes is creating content that AI will reference when users ask about those topics. The video format just happens to create longer, more detailed content than most people would write as a blog post.</p>
+          <p>A plumber who creates a 10-minute video explaining how to diagnose a water heater issue is building AI-visible expertise. An accountant who makes a video walking through common tax mistakes is creating content that AI will reference when users ask about those topics. The video format just happens to create longer, more detailed content than most people would write as a blog post. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>YouTube comments matter too. When viewers ask questions and the creator responds with detailed answers, it creates a Q&A pattern that AI models recognize and value. It is structured conversation around expertise, which is exactly what AI is looking for.</p>
+            <p>YouTube comments matter too. When viewers ask questions and the creator responds with detailed answers, it creates a Q&A pattern that AI models recognize and value. It is structured conversation around expertise, which is exactly what AI is looking for. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           {/* Comparison Table */}
@@ -274,7 +274,7 @@ export default function Page() {
           </table>
 
           <div className="ae-cta-inline">
-            <p>Which platforms are citing your competitors but not you? Get the full picture.</p>
+            <p>Which platforms are citing your competitors but not you? Get the full picture. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <Link href="/blindspot">Run Your Free AI Audit →</Link>
           </div>
 
@@ -282,22 +282,22 @@ export default function Page() {
           <span className="ae-section-label">Platform Variance</span>
           <h2>Why Citation Volumes Vary Wildly Between AI Platforms</h2>
 
-          <p>One of the stranger findings in recent data is that the same brand can see citation volumes differ enormously between different AI platforms. A business might get cited frequently on ChatGPT but rarely on Claude, or vice versa. The variation can be extreme.</p>
+          <p>One of the stranger findings in recent data is that the same brand can see citation volumes differ enormously between different AI platforms. A business might get cited frequently on ChatGPT but rarely on Claude, or vice versa. The variation can be extreme. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">615x Variance is Real</div>
-            <p>Each AI platform weighs its source data differently. ChatGPT, Claude, Perplexity, and Gemini each have their own approach to evaluating credibility, recency, and relevance. A Reddit thread that ranks highly in one model's evaluation may carry less weight in another. This is why monitoring your AI visibility across multiple platforms matters.</p>
+            <p>Each AI platform weighs its source data differently. ChatGPT, Claude, Perplexity, and Gemini each have their own approach to evaluating credibility, recency, and relevance. A Reddit thread that ranks highly in one model's evaluation may carry less weight in another. This is why monitoring your AI visibility across multiple platforms matters. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
-          <p><Link href="/blog/how-online-reviews-shape-ai-recommendations">Online reviews shape AI recommendations differently</Link> on each platform, and the same is true for community mentions. Winning on one AI platform does not mean you are winning on all of them.</p>
+          <p><Link href="/blog/how-online-reviews-shape-ai-recommendations">Online reviews shape AI recommendations differently</Link> on each platform, and the same is true for community mentions. Winning on one AI platform does not mean you are winning on all of them. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>You need to track your AI visibility on ChatGPT, Claude, Perplexity, and Gemini separately. Each platform has its own citation preferences, and a strong presence on one does not guarantee visibility on the others.</p>
+            <p>You need to track your AI visibility on ChatGPT, Claude, Perplexity, and Gemini separately. Each platform has its own citation preferences, and a strong presence on one does not guarantee visibility on the others. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>We check your visibility across all major AI platforms. One report, complete coverage.</p>
+            <p>We check your visibility across all major AI platforms. One report, complete coverage. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot">See All Your AI Blind Spots →</Link>
           </div>
 
@@ -305,13 +305,13 @@ export default function Page() {
           <span className="ae-section-label">Website Myth</span>
           <h2>The Myth of &quot;Just Build a Great Website&quot;</h2>
 
-          <p>The biggest myth in AI visibility is that your website is all that matters. It is not. Your website is one signal among dozens. And in many cases, it is not even the strongest one.</p>
+          <p>The biggest myth in AI visibility is that your website is all that matters. It is not. Your website is one signal among dozens. And in many cases, it is not even the strongest one. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>AI referral traffic currently accounts for a small but rapidly growing percentage of all website traffic, and that share is climbing steadily. The businesses capturing that traffic are the ones with broad, multi-source visibility. They show up on their own website, yes. But they also show up on Reddit, YouTube, industry forums, review platforms, LinkedIn, and local directories.</p>
+          <p>AI referral traffic currently accounts for a small but rapidly growing percentage of all website traffic, and that share is climbing steadily. The businesses capturing that traffic are the ones with broad, multi-source visibility. They show up on their own website, yes. But they also show up on Reddit, YouTube, industry forums, review platforms, LinkedIn, and local directories. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-callout ae-callout-success">
             <div className="ae-callout-title">Width Beats Depth</div>
-            <p>Each additional credible source that mentions your business makes AI more confident in recommending you. <Link href="/blog/why-competitors-show-up-perplexity-not-you">This is exactly why competitors show up on Perplexity and you do not</Link>. They have built a wider web of mentions. In AI search, width beats depth every time.</p>
+            <p>Each additional credible source that mentions your business makes AI more confident in recommending you. <Link href="/blog/why-competitors-show-up-perplexity-not-you">This is exactly why competitors show up on Perplexity and you do not</Link>. They have built a wider web of mentions. In AI search, width beats depth every time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
 
           {/* Pros/Cons */}
@@ -343,7 +343,7 @@ export default function Page() {
           </div>
 
           <div className="ae-cta-inline">
-            <p>Are you building community presence the right way? Let us audit your approach.</p>
+            <p>Are you building community presence the right way? Let us audit your approach. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <Link href="/blindspot">Get Your Visibility Score →</Link>
           </div>
 
@@ -351,9 +351,9 @@ export default function Page() {
           <span className="ae-section-label">Community Strategy</span>
           <h2>Building Community Presence the Right Way</h2>
 
-          <p>The right approach is to contribute genuine value. Answer questions in subreddits related to your industry. Share expertise without linking to your website. Build a reputation as a helpful community member. The business mentions will come naturally when people ask for recommendations and other community members vouch for you.</p>
+          <p>The right approach is to contribute genuine value. Answer questions in subreddits related to your industry. Share expertise without linking to your website. Build a reputation as a helpful community member. The business mentions will come naturally when people ask for recommendations and other community members vouch for you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-          <p>This takes time. It is not a quick hack. But the businesses that invested in genuine community presence a year ago are now reaping the AI visibility benefits. The ones starting today will see results months from now. And the ones who never start will keep wondering why AI recommends their competitors.</p>
+          <p>This takes time. It is not a quick hack. But the businesses that invested in genuine community presence a year ago are now reaping the AI visibility benefits. The ones starting today will see results months from now. And the ones who never start will keep wondering why AI recommends their competitors. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           {/* Decision Matrix */}
           <div className="ae-decision-matrix">
@@ -391,7 +391,7 @@ export default function Page() {
           </div>
 
           <div className="ae-cta-inline">
-            <p>Your competitors started building community presence months ago. Every day you wait, they pull further ahead.</p>
+            <p>Your competitors started building community presence months ago. Every day you wait, they pull further ahead. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot">See How Far Behind You Are →</Link>
           </div>
 

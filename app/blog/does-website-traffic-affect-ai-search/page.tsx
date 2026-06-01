@@ -257,7 +257,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to know what AI actually sees about your business? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find your real visibility gaps.</p>
+          <p>Want to know what AI actually sees about your business? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find your real visibility gaps. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
         </div>
 
         <div className="ae-decision-matrix not-prose">
@@ -291,20 +291,20 @@ export default function Page() {
 
         <h2 id="the-myth">The Traffic Myth and Where It Comes From</h2>
 
-        <p>For fifteen years, traffic was the metric that made the most intuitive sense in digital marketing. More visitors meant Google trusted your site. Google trust meant higher rankings. Higher rankings meant more traffic. The flywheel was self-reinforcing, and traffic became a proxy for everything that mattered online.</p>
+        <p>For fifteen years, traffic was the metric that made the most intuitive sense in digital marketing. More visitors meant Google trusted your site. Google trust meant higher rankings. Higher rankings meant more traffic. The flywheel was self-reinforcing, and traffic became a proxy for everything that mattered online. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-        <p>That mental model does not transfer to AI search. ChatGPT, Perplexity, Claude, and Google AI Overviews do not have access to your Google Analytics account. They do not observe user behavior, session duration, bounce rates, or how many people visited your site last month. Those data points simply do not exist in the world AI language models inhabit.</p>
+        <p>That mental model does not transfer to AI search. ChatGPT, Perplexity, Claude, and Google AI Overviews do not have access to your Google Analytics account. They do not observe user behavior, session duration, bounce rates, or how many people visited your site last month. Those data points simply do not exist in the world AI language models inhabit. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Dangerous Assumption</div>
-          <p>Business owners who invest heavily in traffic-driving tactics (paid ads, social promotion, email blasts) and assume the traffic will improve their AI visibility are making an expensive mistake. The investment generates traffic that does nothing for AI citations while the signals that actually drive AI recommendations go unaddressed. The gap widens every month.</p>
+          <p>Business owners who invest heavily in traffic-driving tactics (paid ads, social promotion, email blasts) and assume the traffic will improve their AI visibility are making an expensive mistake. The investment generates traffic that does nothing for AI citations while the signals that actually drive AI recommendations go unaddressed. The gap widens every month. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         </div>
 
         <h2 id="what-ai-actually-sees">What AI Actually Sees About Your Site</h2>
 
-        <p>AI language models learn about your website during their training process, when automated crawlers downloaded and processed billions of web pages. What the model extracted from your site was the content itself: the text, the structure, the metadata, and the machine-readable signals like schema markup. It did not record how popular the page was.</p>
+        <p>AI language models learn about your website during their training process, when automated crawlers downloaded and processed billions of web pages. What the model extracted from your site was the content itself: the text, the structure, the metadata, and the machine-readable signals like schema markup. It did not record how popular the page was. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-        <p>Think of it this way: if you copied your entire website into a text document and sent it to an extremely well-read editor with no internet access, they could evaluate the quality of the content, the clarity of the information, and the authority of the claims. They could not tell you anything about how many people visited the site. AI models are doing something similar, at a massive scale.</p>
+        <p>Think of it this way: if you copied your entire website into a text document and sent it to an extremely well-read editor with no internet access, they could evaluate the quality of the content, the clarity of the information, and the authority of the claims. They could not tell you anything about how many people visited the site. AI models are doing something similar, at a massive scale. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -361,12 +361,12 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>See exactly which AI visibility signals your business is missing. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report.</Link></p>
+          <p>See exactly which AI visibility signals your business is missing. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report.</Link> One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
         </div>
 
         <h2 id="real-signals">The Signals That Actually Drive AI Citations</h2>
 
-        <p>Understanding what AI platforms actually evaluate reframes where to invest. These are the variables that move the needle:</p>
+        <p>Understanding what AI platforms actually evaluate reframes where to invest. These are the variables that move the needle: Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -408,7 +408,7 @@ export default function Page() {
 
         <h2 id="seo-vs-aeo">Where SEO and AI Optimization Overlap (and Where They Diverge)</h2>
 
-        <p>SEO and AI optimization are not opposites. They share a significant set of best practices. But the divergence points are important to understand, because optimizing for the wrong goal is expensive.</p>
+        <p>SEO and AI optimization are not opposites. They share a significant set of best practices. But the divergence points are important to understand, because optimizing for the wrong goal is expensive. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -435,15 +435,15 @@ export default function Page() {
           </div>
         </div>
 
-        <p>The practical implication: a good SEO investment is not a wasted AI investment, but it is an incomplete one. The specific additions that drive AI visibility, FAQ schema, entity structure, review optimization, and cross-platform citation consistency, are not standard SEO deliverables. If your agency is not addressing them, your AI visibility is being left on the table.</p>
+        <p>The practical implication: a good SEO investment is not a wasted AI investment, but it is an incomplete one. The specific additions that drive AI visibility, FAQ schema, entity structure, review optimization, and cross-platform citation consistency, are not standard SEO deliverables. If your agency is not addressing them, your AI visibility is being left on the table. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <h2 id="low-traffic-wins">How Low-Traffic Sites Beat High-Traffic Ones</h2>
 
-        <p>One of the clearest demonstrations that traffic does not drive AI citations comes from watching which businesses actually appear in AI recommendations in competitive local markets. Frequently, a smaller business with 500 monthly visitors outperforms a regional leader with 50,000 monthly visitors in AI citation rate. The smaller business's website simply has better AI-specific signals.</p>
+        <p>One of the clearest demonstrations that traffic does not drive AI citations comes from watching which businesses actually appear in AI recommendations in competitive local markets. Frequently, a smaller business with 500 monthly visitors outperforms a regional leader with 50,000 monthly visitors in AI citation rate. The smaller business's website simply has better AI-specific signals. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The AI Visibility Opportunity</div>
-          <p>For businesses that are out-trafficked by larger competitors, AI search is a genuine equalizer. The investment required to build strong AI signals is not proportional to company size. A focused effort on schema markup, review quality, and source consistency can put a 10-person plumbing company in the same AI recommendation set as a regional franchise with a multi-million dollar marketing budget.</p>
+          <p>For businesses that are out-trafficked by larger competitors, AI search is a genuine equalizer. The investment required to build strong AI signals is not proportional to company size. A focused effort on schema markup, review quality, and source consistency can put a 10-person plumbing company in the same AI recommendation set as a regional franchise with a multi-million dollar marketing budget. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
         </div>
 
         <div className="ae-bar-group not-prose">
@@ -473,11 +473,11 @@ export default function Page() {
             <div className="ae-bar-value">31%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mt-2">Characteristics shared by businesses cited frequently in AI recommendations (illustrative, based on AEO analysis)</p>
+        <p className="text-sm text-gray-500 mt-2">Characteristics shared by businesses cited frequently in AI recommendations (illustrative, based on AEO analysis) <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
         <h2 id="what-to-invest-in">Where to Invest Instead of Chasing Traffic</h2>
 
-        <p>If traffic does not move the needle for AI citations, the budget currently allocated to traffic acquisition could be producing much better ROI if redirected toward AI-specific signals. The shift is not dramatic, but it is precise.</p>
+        <p>If traffic does not move the needle for AI citations, the budget currently allocated to traffic acquisition could be producing much better ROI if redirected toward AI-specific signals. The shift is not dramatic, but it is precise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">What Actually Drives AI Visibility</div>
@@ -493,40 +493,40 @@ export default function Page() {
           </table>
         </div>
 
-        <p>The businesses that are winning AI citations right now are not always the ones spending the most on marketing. They are the ones whose digital presence is most clearly structured for the way AI platforms evaluate authority and relevance. Traffic is the old game. Structured visibility is the new one.</p>
+        <p>The businesses that are winning AI citations right now are not always the ones spending the most on marketing. They are the ones whose digital presence is most clearly structured for the way AI platforms evaluate authority and relevance. Traffic is the old game. Structured visibility is the new one. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2 id="common-misconceptions">Three Misconceptions That Keep Businesses Invisible</h2>
 
-        <p>Most business owners who ask why AI is not recommending them are already doing something they believe should be working. Understanding why those beliefs are wrong clarifies where to focus instead.</p>
+        <p>Most business owners who ask why AI is not recommending them are already doing something they believe should be working. Understanding why those beliefs are wrong clarifies where to focus instead. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">Misconception 1: "We get good traffic, AI should find us"</div>
-          <p>Traffic is how humans find you on Google. AI does not browse websites from traffic patterns. It evaluates structured signals from indexed pages directly. A site with 50,000 monthly visitors and no schema markup will consistently lose to a site with 500 monthly visitors and excellent structured data in AI citation environments.</p>
+          <p>Traffic is how humans find you on Google. AI does not browse websites from traffic patterns. It evaluates structured signals from indexed pages directly. A site with 50,000 monthly visitors and no schema markup will consistently lose to a site with 500 monthly visitors and excellent structured data in AI citation environments. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </div>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">Misconception 2: "We rank on page one of Google, so AI should know us"</div>
-          <p>Google and AI platforms use overlapping but distinct signals. Google rewards backlinks, domain authority, and click-through rate heavily. AI platforms reward schema markup, entity consistency, and content specificity far more than Google does. Page one Google rankings are a good sign but not a guarantee of AI visibility.</p>
+          <p>Google and AI platforms use overlapping but distinct signals. Google rewards backlinks, domain authority, and click-through rate heavily. AI platforms reward schema markup, entity consistency, and content specificity far more than Google does. Page one Google rankings are a good sign but not a guarantee of AI visibility. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         </div>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">Misconception 3: "We have great reviews, that should be enough"</div>
-          <p>Review volume and star ratings help but reviews alone do not create AI citations. What matters is the specificity of review content (do reviews mention services by name, problems solved, locations served?) combined with structured signals on your site and in directories. Reviews are one layer of evidence in a multi-signal evaluation.</p>
+          <p>Review volume and star ratings help but reviews alone do not create AI citations. What matters is the specificity of review content (do reviews mention services by name, problems solved, locations served?) combined with structured signals on your site and in directories. Reviews are one layer of evidence in a multi-signal evaluation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering which misconception is affecting your business most? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out exactly where your AI visibility stands.</p>
+          <p>Wondering which misconception is affecting your business most? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out exactly where your AI visibility stands. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>For a deeper look at what AI citation signals look like in practice, see <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts" className="text-[#F27D24] hover:underline">how to create content ChatGPT trusts</Link> and <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup actually helps AI search</Link>. Both articles go deeper on the specific signals that matter.</p>
+          <p>For a deeper look at what AI citation signals look like in practice, see <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts" className="text-[#F27D24] hover:underline">how to create content ChatGPT trusts</Link> and <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup actually helps AI search</Link>. Both articles go deeper on the specific signals that matter. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Investing in Signals AI Does Not See</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your business, which signals are missing, and what actually needs to change for you to appear in recommendations.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your business, which signals are missing, and what actually needs to change for you to appear in recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -553,7 +553,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -593,7 +593,7 @@ export default function Page() {
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+              <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
           ))}
         </div>
@@ -601,12 +601,12 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Traffic Is Not the Signal. Structure Is.</h2>
-          <p className="text-gray-300 mb-8 text-lg">Every month you spend on traffic tactics instead of AI-specific signals is a month your competitors are building the citations you are not. Our Blind Spot Report shows exactly what it will take to change that.</p>
+          <p className="text-gray-300 mb-8 text-lg">Every month you spend on traffic tactics instead of AI-specific signals is a month your competitors are building the citations you are not. Our Blind Spot Report shows exactly what it will take to change that. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes.</p>
+          <p className="text-gray-500 mt-4 text-sm">Free. No credit card. Results in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

@@ -330,19 +330,19 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             <p>Imagine two plumbing companies in the same city. Both have been operating for over a decade. Both offer the same services. Both have good reputations. A potential customer opens ChatGPT and types: &quot;Who is the best plumber near me?&quot;</p>
 
-            <p>The AI can only recommend one or two businesses. It cannot list everyone. It needs to make a choice. And that choice is not random, not alphabetical, and not based on who spent more on Google Ads last month.</p>
+            <p>The AI can only recommend one or two businesses. It cannot list everyone. It needs to make a choice. And that choice is not random, not alphabetical, and not based on who spent more on Google Ads last month. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>AI platforms do not rank businesses the way Google did for twenty years. They evaluate confidence. The question is not &quot;who has the best SEO?&quot; but &quot;which entity can I trust enough to put my reputation behind?&quot;</p>
             </div>
 
-            <p>This is the fundamental shift business owners need to understand. When an AI platform recommends your competitor, it is not because your competitor has a better website. It is because the AI found more reasons to trust them across a broader range of data sources.</p>
+            <p>This is the fundamental shift business owners need to understand. When an AI platform recommends your competitor, it is not because your competitor has a better website. It is because the AI found more reasons to trust them across a broader range of data sources. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>The good news: every one of those trust signals is within your control. The concerning part: most businesses are not aware these signals exist, and their competitors are already optimizing for them.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out which trust signals your competitor has that you are missing.</p>
+              <p>Find out which trust signals your competitor has that you are missing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -356,7 +356,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             <span className="ae-section-label">Head to Head</span>
             <h2>What the AI Actually Sees: Business A vs. Business B</h2>
 
-            <p>Let us walk through a realistic scenario. Two dental practices in the same neighborhood. Both excellent. Both well-reviewed. Here is what the AI evaluates when deciding which one to recommend.</p>
+            <p>Let us walk through a realistic scenario. Two dental practices in the same neighborhood. Both excellent. Both well-reviewed. Here is what the AI evaluates when deciding which one to recommend. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -404,7 +404,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Which column does your business fall into? Let us show you.</p>
+              <p>Which column does your business fall into? Let us show you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Audit &rarr;</Link>
             </div>
 
@@ -414,7 +414,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             <p>Before an AI platform can recommend your business, it needs to answer a fundamental question: &quot;Does this entity exist, and is it clearly defined?&quot; If your business entity is weak or inconsistent, AI systems hesitate to cite you regardless of how good your individual content might be.</p>
 
-            <p>Entity clarity means the AI can confidently associate your business name with a specific location, set of services, operating hours, and track record. It needs to build what is essentially a knowledge graph entry for your business.</p>
+            <p>Entity clarity means the AI can confidently associate your business name with a specific location, set of services, operating hours, and track record. It needs to build what is essentially a knowledge graph entry for your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* ── DECISION MATRIX ── */}
             <table className="ae-decision-matrix not-prose">
@@ -463,7 +463,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             <span className="ae-section-label" id="signal-2-cross-source-consistency">Signal 2</span>
             <h2>Cross-Source Consistency: The Trust Multiplier</h2>
 
-            <p>AI platforms do not trust a single source. They triangulate. When ChatGPT encounters your business, it cross-references what your website says against what Google Business Profile says, what Yelp says, what the Better Business Bureau says, and what Foursquare&apos;s database says.</p>
+            <p>AI platforms do not trust a single source. They triangulate. When ChatGPT encounters your business, it cross-references what your website says against what Google Business Profile says, what Yelp says, what the Better Business Bureau says, and what Foursquare&apos;s database says. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>Over 70% of local business results in ChatGPT come through Foursquare&apos;s data pipeline. If your Foursquare listing has outdated information while your website is current, the AI encounters a conflict. Conflicts reduce confidence. Reduced confidence means your competitor gets the recommendation instead.</p>
 
@@ -502,7 +502,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
               </div>
             </div>
 
-            <p>When all of these sources agree on who you are, what you do, and where you are located, the AI&apos;s confidence in recommending you increases dramatically. Businesses with consistent NAP (Name, Address, Phone) information across major directories are 40% more likely to appear in local AI results.</p>
+            <p>When all of these sources agree on who you are, what you do, and where you are located, the AI&apos;s confidence in recommending you increases dramatically. Businesses with consistent NAP (Name, Address, Phone) information across major directories are 40% more likely to appear in local AI results. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
@@ -514,7 +514,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             <span className="ae-section-label" id="signal-3-structured-data">Signal 3</span>
             <h2>Structured Data Depth: Speaking the AI&apos;s Language</h2>
 
-            <p>Here is where the gap between competitors becomes technical. AI platforms increasingly rely on structured data, not keywords, to understand and categorize businesses. If your website does not use the right schema markup, AI systems cannot fully parse your content, and they will not cite what they cannot understand.</p>
+            <p>Here is where the gap between competitors becomes technical. AI platforms increasingly rely on structured data, not keywords, to understand and categorize businesses. If your website does not use the right schema markup, AI systems cannot fully parse your content, and they will not cite what they cannot understand. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Schema markup acts as a translation layer between human-readable content and machine-readable data. It tells the AI precisely what type of business you are, what services you offer, where you operate, and what credentials you hold.</p>
 
@@ -542,7 +542,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
               </div>
             </div>
 
-            <p>Pages that combine text, images, video, and structured data see 156% higher selection rates in AI citations. This is not about stuffing keywords. It is about giving the AI exactly the information it needs in the format it can process most efficiently.</p>
+            <p>Pages that combine text, images, video, and structured data see 156% higher selection rates in AI citations. This is not about stuffing keywords. It is about giving the AI exactly the information it needs in the format it can process most efficiently. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Schema Advantage</div>
@@ -551,7 +551,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your schema is complete? We audit every tag.</p>
+              <p>Not sure if your schema is complete? We audit every tag. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <Link href="/blindspot">Get Your Schema Audit &rarr;</Link>
             </div>
 
@@ -567,7 +567,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
                 <div className="ae-timeline-marker"></div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Review Volume</div>
-                  <p>More reviews signal more customer interactions. A business with 300 reviews carries more weight than one with 30, because the larger sample provides higher statistical confidence.</p>
+                  <p>More reviews signal more customer interactions. A business with 300 reviews carries more weight than one with 30, because the larger sample provides higher statistical confidence. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -581,7 +581,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
                 <div className="ae-timeline-marker"></div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Review Sentiment and Detail</div>
-                  <p>AI platforms analyze the actual text of reviews, not just the star count. Detailed reviews that mention specific services, outcomes, and experiences carry significantly more weight than generic &quot;Great service!&quot; reviews.</p>
+                  <p>AI platforms analyze the actual text of reviews, not just the star count. Detailed reviews that mention specific services, outcomes, and experiences carry significantly more weight than generic &quot;Great service!&quot; reviews. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -595,7 +595,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
                 <div className="ae-timeline-marker"></div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Owner Response Pattern</div>
-                  <p>Businesses that respond to reviews, both positive and negative, demonstrate active management. AI platforms interpret this as a signal of business quality and customer commitment.</p>
+                  <p>Businesses that respond to reviews, both positive and negative, demonstrate active management. AI platforms interpret this as a signal of business quality and customer commitment. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                 </div>
               </div>
             </div>
@@ -604,7 +604,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Your review profile might be the reason AI skips you. Let us check.</p>
+              <p>Your review profile might be the reason AI skips you. Let us check. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Analyze Your Review Signals &rarr;</Link>
             </div>
 
@@ -614,7 +614,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             <p>Brand mentions, even without backlinks, predict AI platform recommendations 3x more accurately than backlink profiles. This is a massive shift from traditional SEO thinking, where links were everything.</p>
 
-            <p>The more external validation your business has through local news features, mentions on niche blogs, quotes in industry publications, and listings in chambers of commerce, the easier it is for an AI model to recognize your authority. Each mention from an independent source acts as a vote of confidence.</p>
+            <p>The more external validation your business has through local news features, mentions on niche blogs, quotes in industry publications, and listings in chambers of commerce, the easier it is for an AI model to recognize your authority. Each mention from an independent source acts as a vote of confidence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -651,7 +651,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>How many third-party sources validate your business? We count them.</p>
+              <p>How many third-party sources validate your business? We count them. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blindspot">Check Your Validation Score &rarr;</Link>
             </div>
 
@@ -661,7 +661,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             <p>AI platforms are answer engines. They exist to provide direct, specific answers to user questions. The business whose content is already structured as answers to common questions has an enormous advantage over the business whose content reads like a marketing brochure.</p>
 
-            <p>Content scoring 8.5 out of 10 or higher on semantic completeness is 4.2x more likely to be selected by AI platforms. Semantic completeness means your content thoroughly addresses the topic, covers related subtopics, and provides specific, factual information rather than vague claims.</p>
+            <p>Content scoring 8.5 out of 10 or higher on semantic completeness is 4.2x more likely to be selected by AI platforms. Semantic completeness means your content thoroughly addresses the topic, covers related subtopics, and provides specific, factual information rather than vague claims. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* ── COMPARISON TABLE 2 ── */}
             <table className="ae-comparison-table not-prose">
@@ -711,7 +711,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             <span className="ae-section-label" id="the-compounding-effect">The Bigger Picture</span>
             <h2>The Compounding Effect: Why Starting Now Matters</h2>
 
-            <p>Here is what makes AI visibility different from traditional SEO. In traditional search, a late start meant you were behind but could catch up with enough effort. In AI search, early movers build compounding advantages that become exponentially harder to overcome.</p>
+            <p>Here is what makes AI visibility different from traditional SEO. In traditional search, a late start meant you were behind but could catch up with enough effort. In AI search, early movers build compounding advantages that become exponentially harder to overcome. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-quote not-prose">
               <p>The businesses establishing AI citation authority today are not just building a lead. They are building a moat. Each successful citation reinforces their entity strength, making future citations more likely, which further reinforces their authority.</p>
@@ -723,7 +723,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
                 <div className="ae-timeline-marker"></div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Month 1: Foundation</div>
-                  <p>Entity clarity established. Schema deployed. Directory consistency fixed. AI begins recognizing your business as a defined entity.</p>
+                  <p>Entity clarity established. Schema deployed. Directory consistency fixed. AI begins recognizing your business as a defined entity. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -737,7 +737,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
                 <div className="ae-timeline-marker"></div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Month 3: Momentum</div>
-                  <p>Review velocity increasing. Third-party validation accumulating. AI citation frequency grows as cross-source consistency strengthens trust score.</p>
+                  <p>Review velocity increasing. Third-party validation accumulating. AI citation frequency grows as cross-source consistency strengthens trust score. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -749,7 +749,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
               </div>
             </div>
 
-            <p>Starting six months later does not mean six months behind. It means competing against businesses with exponentially more citation data and established authority. The window for building AI visibility at lower competition levels is closing.</p>
+            <p>Starting six months later does not mean six months behind. It means competing against businesses with exponentially more citation data and established authority. The window for building AI visibility at lower competition levels is closing. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* ── CTA 9 ── */}
             <div className="ae-cta-inline not-prose">
@@ -760,7 +760,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             {/* ── CALLOUT: KEY INSIGHT ── */}
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Bottom Line</div>
-              <p>AI does not pick favorites. It picks the business it can verify, understand, and trust. If you and your competitor offer the same service, the winner is whoever made themselves more knowable to machines. Every signal covered in this article is within your control. The question is whether you will act on them.</p>
+              <p>AI does not pick favorites. It picks the business it can verify, understand, and trust. If you and your competitor offer the same service, the winner is whoever made themselves more knowable to machines. Every signal covered in this article is within your control. The question is whether you will act on them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* ── CTA 10 ── */}
@@ -771,7 +771,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
             {/* ── CTA 11 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering why your competitor shows up and you do not?</p>
+              <p>Wondering why your competitor shows up and you do not? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blog/why-is-my-competitor-on-ai-search-not-me">Why Is My Competitor on AI Search and Not Me? &rarr;</Link>
             </div>
 
@@ -791,7 +791,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
             </div>
 
@@ -804,7 +804,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             {/* ── 3-TIER FINAL CTA BLOCK ── */}
             <div className="ae-cta-block not-prose">
               <h3>Your Competitor Is Already Being Recommended. Are You?</h3>
-              <p>The AI is choosing between you and your competitor right now. The signals it uses to decide are measurable, fixable, and within your control. But only if you know where the gaps are.</p>
+              <p>The AI is choosing between you and your competitor right now. The signals it uses to decide are measurable, fixable, and within your control. But only if you know where the gaps are. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot" className="ae-cta-block-button">Get Your Free Blind Spot Report &rarr;</Link>
               <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
@@ -827,7 +827,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             {/* ── FINAL CTA ── */}
             <div className="ae-final-cta not-prose">
               <h3>Stop Losing Customers to a Competitor AI Trusts More</h3>
-              <p>Every day the AI recommends someone else in your market, that business gets the call, the lead, and the revenue that could have been yours. The difference is not quality. It is visibility. Let us fix that.</p>
+              <p>Every day the AI recommends someone else in your market, that business gets the call, the lead, and the revenue that could have been yours. The difference is not quality. It is visibility. Let us fix that. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
               <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
@@ -854,7 +854,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             <div className="space-y-6 not-prose">
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
                 <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">Do AI platforms compare businesses side by side before recommending one?</h3>
-                <p className="text-gray-300 leading-relaxed">Not exactly. AI platforms do not run a direct A/B comparison. Instead, they evaluate each business independently against a set of trust and authority signals. The business that scores higher across entity clarity, cross-source consistency, and content depth is more likely to surface in the response.</p>
+                <p className="text-gray-300 leading-relaxed">Not exactly. AI platforms do not run a direct A/B comparison. Instead, they evaluate each business independently against a set of trust and authority signals. The business that scores higher across entity clarity, cross-source consistency, and content depth is more likely to surface in the response. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
 
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
@@ -864,7 +864,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
                 <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">How important are Google reviews for AI recommendations?</h3>
-                <p className="text-gray-300 leading-relaxed">Reviews are a significant trust signal. AI platforms use review volume, recency, and sentiment as indicators of business quality. A business with 200 recent positive reviews will generally outperform a competitor with 30 older reviews, because the review data provides stronger confidence for the AI to make a recommendation.</p>
+                <p className="text-gray-300 leading-relaxed">Reviews are a significant trust signal. AI platforms use review volume, recency, and sentiment as indicators of business quality. A business with 200 recent positive reviews will generally outperform a competitor with 30 older reviews, because the review data provides stronger confidence for the AI to make a recommendation. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
 
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
@@ -874,7 +874,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
 
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
                 <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">How quickly can I improve my AI recommendation chances against a competitor?</h3>
-                <p className="text-gray-300 leading-relaxed">Initial improvements in entity consistency and structured data can begin influencing AI responses within weeks. Achieving consistent citation advantage over a competitor typically takes 2 to 4 months of sustained optimization across all signal categories: structured data, directory consistency, review generation, and content depth.</p>
+                <p className="text-gray-300 leading-relaxed">Initial improvements in entity consistency and structured data can begin influencing AI responses within weeks. Achieving consistent citation advantage over a competitor typically takes 2 to 4 months of sustained optimization across all signal categories: structured data, directory consistency, review generation, and content depth. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
 
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">

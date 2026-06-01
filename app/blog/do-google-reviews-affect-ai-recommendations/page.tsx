@@ -237,14 +237,14 @@ export default function GoogleReviewsAIRecommendations() {
               <p><strong>No, ChatGPT cannot see your Google reviews.</strong> Google&apos;s review pages require JavaScript to load, which AI crawlers cannot execute. Your 200+ five-star reviews are invisible to ChatGPT, Claude, and Perplexity. To earn AI recommendations, you need reviews on platforms AI can actually read: your website, Yelp, and Bing-indexed directories.</p>
             </div>
 
-            <p>You have spent years building your Google reviews. Maybe you have 150, 200, or even 500+ reviews with a stellar 4.8-star average. Customers mention you are &quot;the best in town.&quot; Your Google Business Profile looks incredible.</p>
+            <p>You have spent years building your Google reviews. Maybe you have 150, 200, or even 500+ reviews with a stellar 4.8-star average. Customers mention you are &quot;the best in town.&quot; Your Google Business Profile looks incredible. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>Then someone asks ChatGPT: <strong>&quot;Who is the best plumber in [your city]?&quot;</strong></p>
+            <p>Then someone asks ChatGPT: <strong>&quot;Who is the best plumber in [your city]?&quot;</strong> Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>And you are not mentioned. Your competitor with half your reviews gets the recommendation instead.</p>
+            <p>And you are not mentioned. Your competitor with half your reviews gets the recommendation instead. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Wondering if AI is sending customers to your competitors instead of you?</p>
+              <p>Wondering if AI is sending customers to your competitors instead of you? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -252,26 +252,26 @@ export default function GoogleReviewsAIRecommendations() {
             <span className="not-prose ae-section-label">The Core Problem</span>
             <h2>Why ChatGPT Cannot Read Your Google Reviews</h2>
 
-            <p>Google reviews exist behind a JavaScript wall. When you visit a Google Business Profile, your browser executes JavaScript code that loads the reviews dynamically. You see them because your browser runs that code.</p>
+            <p>Google reviews exist behind a JavaScript wall. When you visit a Google Business Profile, your browser executes JavaScript code that loads the reviews dynamically. You see them because your browser runs that code. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-            <p>AI crawlers do not work that way. They read raw HTML, the underlying code of a webpage before JavaScript runs. When ChatGPT or other AI platforms try to access Google review pages, they get nothing useful.</p>
+            <p>AI crawlers do not work that way. They read raw HTML, the underlying code of a webpage before JavaScript runs. When ChatGPT or other AI platforms try to access Google review pages, they get nothing useful. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="not-prose ae-quote">
-              <p>&quot;We are sorry, but this page requires JavaScript to function properly.&quot;</p>
+              <p>&quot;We are sorry, but this page requires JavaScript to function properly.&quot; <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <cite>What AI crawlers see when they visit Google review pages</cite>
             </div>
 
-            <p>That is it. No reviews. No ratings. No customer testimonials. Just an error message.</p>
+            <p>That is it. No reviews. No ratings. No customer testimonials. Just an error message. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
-            <p>This is not a bug. It is how Google protects its data. And it means <strong>every Google review you have collected is invisible to AI platforms</strong> that might otherwise recommend your business.</p>
+            <p>This is not a bug. It is how Google protects its data. And it means <strong>every Google review you have collected is invisible to AI platforms</strong> that might otherwise recommend your business. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">Technical Reality</div>
-              <p>Google uses client-side JavaScript rendering for reviews. AI crawlers like ChatGPT&apos;s browsing tool, Perplexity&apos;s web search, and Claude&apos;s retrieval systems all rely on server-side HTML parsing. They literally cannot execute the JavaScript needed to see your reviews.</p>
+              <p>Google uses client-side JavaScript rendering for reviews. AI crawlers like ChatGPT&apos;s browsing tool, Perplexity&apos;s web search, and Claude&apos;s retrieval systems all rely on server-side HTML parsing. They literally cannot execute the JavaScript needed to see your reviews. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure what AI platforms actually see about your business?</p>
+              <p>Not sure what AI platforms actually see about your business? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation</a>
             </div>
 
@@ -279,7 +279,7 @@ export default function GoogleReviewsAIRecommendations() {
             <span className="not-prose ae-section-label">The Visibility Gap</span>
             <h2>The AI Visibility Gap: What This Means for Your Business</h2>
 
-            <p>When ChatGPT provides local recommendations, it often mentions &quot;highly rated&quot; or &quot;top-reviewed&quot; businesses. But it is only referencing reviews it can actually see. This creates a massive gap between your real reputation and your AI reputation.</p>
+            <p>When ChatGPT provides local recommendations, it often mentions &quot;highly rated&quot; or &quot;top-reviewed&quot; businesses. But it is only referencing reviews it can actually see. This creates a massive gap between your real reputation and your AI reputation. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Comparison Table */}
             <div className="not-prose">
@@ -335,7 +335,7 @@ export default function GoogleReviewsAIRecommendations() {
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Widget Trap</div>
-              <p>Many businesses embed Google review widgets on their website thinking it helps. But those widgets also use JavaScript, so AI still cannot read them. The reviews need to be actual text on your page, not dynamically loaded content. If your &quot;testimonials&quot; page uses an Elfsight, Google, or Birdeye widget, AI sees a blank box.</p>
+              <p>Many businesses embed Google review widgets on their website thinking it helps. But those widgets also use JavaScript, so AI still cannot read them. The reviews need to be actual text on your page, not dynamically loaded content. If your &quot;testimonials&quot; page uses an Elfsight, Google, or Birdeye widget, AI sees a blank box. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* Bar Chart: AI Visibility by Platform */}
@@ -393,7 +393,7 @@ export default function GoogleReviewsAIRecommendations() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to know exactly which platforms are visible to AI for your business?</p>
+              <p>Want to know exactly which platforms are visible to AI for your business? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -401,7 +401,7 @@ export default function GoogleReviewsAIRecommendations() {
             <span className="not-prose ae-section-label">AI-Visible Platforms</span>
             <h2>What Review Sources AI Actually Uses</h2>
 
-            <p>AI platforms are not completely blind to your reputation. They can access reviews from sources that do not require JavaScript. Here is where you should be building review presence.</p>
+            <p>AI platforms are not completely blind to your reputation. They can access reviews from sources that do not require JavaScript. Here is where you should be building review presence. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Decision Matrix */}
             <div className="not-prose">
@@ -455,14 +455,14 @@ export default function GoogleReviewsAIRecommendations() {
               </table>
             </div>
 
-            <p>Industry-specific directories also matter. If you are a contractor, reviews on HomeAdvisor or Angi can influence AI recommendations. For healthcare providers, Healthgrades and Zocdoc reviews are crawlable. Real estate agents benefit from Zillow and Realtor.com reviews.</p>
+            <p>Industry-specific directories also matter. If you are a contractor, reviews on HomeAdvisor or Angi can influence AI recommendations. For healthcare providers, Healthgrades and Zocdoc reviews are crawlable. Real estate agents benefit from Zillow and Realtor.com reviews. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="not-prose ae-takeaway">
               <strong>Key takeaway:</strong> The platform with the highest AI visibility is the one you control completely: your own website. Plain-text reviews with schema markup are the single most effective way to make your reputation visible to AI.
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Need help getting your reviews visible to AI platforms?</p>
+              <p>Need help getting your reviews visible to AI platforms? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
             </div>
 
@@ -474,24 +474,24 @@ export default function GoogleReviewsAIRecommendations() {
             <div className="not-prose ae-timeline">
               <div className="ae-timeline-item">
                 <h4>Step 1: Display Reviews as Text on Your Website</h4>
-                <p>Do not use JavaScript widgets. Manually add your best reviews as actual text content on your site. Create a dedicated testimonials page or add them to service pages. Include the reviewer&apos;s first name and service type (e.g., &quot;John S., Emergency Plumbing Repair&quot;) so AI understands the context.</p>
+                <p>Do not use JavaScript widgets. Manually add your best reviews as actual text content on your site. Create a dedicated testimonials page or add them to service pages. Include the reviewer&apos;s first name and service type (e.g., &quot;John S., Emergency Plumbing Repair&quot;) so AI understands the context. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <h4>Step 2: Add Review Schema Markup</h4>
-                <p>Use structured data to explicitly tell AI platforms &quot;these are customer reviews.&quot; Review schema helps AI understand what it is reading and increases citation likelihood. Key schema types: Review, AggregateRating, and Testimonial.</p>
+                <p>Use structured data to explicitly tell AI platforms &quot;these are customer reviews.&quot; Review schema helps AI understand what it is reading and increases citation likelihood. Key schema types: Review, AggregateRating, and Testimonial. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <h4>Step 3: Diversify Your Review Platforms</h4>
-                <p>Do not put all your eggs in the Google basket. Actively request reviews on Yelp, Facebook, and industry-specific directories that AI can crawl. Use a rotation strategy: ask every third customer to leave a Yelp review instead of Google.</p>
+                <p>Do not put all your eggs in the Google basket. Actively request reviews on Yelp, Facebook, and industry-specific directories that AI can crawl. Use a rotation strategy: ask every third customer to leave a Yelp review instead of Google. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <h4>Step 4: Link to Original Reviews</h4>
-                <p>When displaying reviews on your site, include a &quot;See original review&quot; link to the source. This adds credibility for human visitors and helps AI verify authenticity.</p>
+                <p>When displaying reviews on your site, include a &quot;See original review&quot; link to the source. This adds credibility for human visitors and helps AI verify authenticity. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               </div>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want us to handle the technical setup for you?</p>
+              <p>Want us to handle the technical setup for you? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Start With a Free Blind Spot Report</Link>
             </div>
 
@@ -543,11 +543,11 @@ export default function GoogleReviewsAIRecommendations() {
 
             <div className="not-prose ae-callout ae-callout-success">
               <div className="ae-callout-title">Quick Win</div>
-              <p>The fastest path to AI review visibility: copy your 10 best Google reviews as plain text onto your website&apos;s testimonials page. Add Review schema markup. This single action makes those reviews visible to every AI platform immediately.</p>
+              <p>The fastest path to AI review visibility: copy your 10 best Google reviews as plain text onto your website&apos;s testimonials page. Add Review schema markup. This single action makes those reviews visible to every AI platform immediately. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Need a roadmap tailored to your specific business?</p>
+              <p>Need a roadmap tailored to your specific business? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229</a>
             </div>
 
@@ -555,7 +555,7 @@ export default function GoogleReviewsAIRecommendations() {
             <span className="not-prose ae-section-label">Strategy Analysis</span>
             <h2>Should You Still Collect Google Reviews?</h2>
 
-            <p><strong>Absolutely yes.</strong> Google reviews still matter enormously. They just do not help with AI recommendations specifically. The strategy is not either/or. It is both.</p>
+            <p><strong>Absolutely yes.</strong> Google reviews still matter enormously. They just do not help with AI recommendations specifically. The strategy is not either/or. It is both. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* Pros/Cons */}
             <div className="not-prose ae-pros-cons">
@@ -602,12 +602,12 @@ export default function GoogleReviewsAIRecommendations() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Find out if you are one of the 3-5 businesses AI recommends in your market.</p>
+              <p>Find out if you are one of the 3-5 businesses AI recommends in your market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Have questions about your review strategy? Talk to a specialist.</p>
+              <p>Have questions about your review strategy? Talk to a specialist. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229</a>
             </div>
 
@@ -615,9 +615,9 @@ export default function GoogleReviewsAIRecommendations() {
             <span className="not-prose ae-section-label">The Bigger Picture</span>
             <h2>Why Your Competitor Gets AI Recommendations With Fewer Reviews</h2>
 
-            <p>This is the question that frustrates most business owners. You have 300 Google reviews. Your competitor has 47. But ChatGPT recommends them and not you.</p>
+            <p>This is the question that frustrates most business owners. You have 300 Google reviews. Your competitor has 47. But ChatGPT recommends them and not you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-            <p>The answer is simple: your competitor has reviews where AI can see them. Maybe they have 12 Yelp reviews, a testimonials page on their website, and a BBB listing. Those 12 visible reviews outweigh your 300 invisible ones in the AI world.</p>
+            <p>The answer is simple: your competitor has reviews where AI can see them. Maybe they have 12 Yelp reviews, a testimonials page on their website, and a BBB listing. Those 12 visible reviews outweigh your 300 invisible ones in the AI world. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="not-prose ae-bar-group">
               <h4>AI Recommendation Factors (Beyond Reviews)</h4>
@@ -667,7 +667,7 @@ export default function GoogleReviewsAIRecommendations() {
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">The Real Competition Is Visibility, Not Volume</div>
-              <p>AI does not count reviews. It reads them. A business with 10 well-written, crawlable reviews on its website will outperform a business with 500 Google reviews that AI cannot access. The game has changed. Volume on Google is not enough. Visibility across AI-accessible platforms is what matters now.</p>
+              <p>AI does not count reviews. It reads them. A business with 10 well-written, crawlable reviews on its website will outperform a business with 500 Google reviews that AI cannot access. The game has changed. Volume on Google is not enough. Visibility across AI-accessible platforms is what matters now. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">

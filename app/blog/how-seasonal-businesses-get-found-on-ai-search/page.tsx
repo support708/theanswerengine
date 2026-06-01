@@ -262,19 +262,19 @@ export default function SeasonalBusinessesAISearchPage() {
 
             <p>Most seasonal businesses treat their website like their service schedule: active during peak, dormant during off-season. That approach worked well enough in the era of keyword-ranked search results, where a well-optimized page could maintain its position through months of inactivity. AI search operates by different rules entirely.</p>
 
-            <p>When ChatGPT, Perplexity, or Google&rsquo;s AI Overviews decide which businesses to recommend for a query, freshness is a first-order signal. AI platforms actively favor sites that show consistent content activity within the past 90 days. A seasonal business that stops publishing in November and resumes in April has spent six months outside the citation window. By the time peak demand returns, competitors who stayed active have accumulated months of additional authority signals.</p>
+            <p>When ChatGPT, Perplexity, or Google&rsquo;s AI Overviews decide which businesses to recommend for a query, freshness is a first-order signal. AI platforms actively favor sites that show consistent content activity within the past 90 days. A seasonal business that stops publishing in November and resumes in April has spent six months outside the citation window. By the time peak demand returns, competitors who stayed active have accumulated months of additional authority signals. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>The seasonal visibility trap works like a flywheel in reverse. During off-season, the site goes quiet. AI platforms reduce citation frequency. When peak season arrives, the business rushes to publish new content, but the authority gap created during the off-season takes weeks to recover. The competitor who published all winter is already cited. The one who went dark is playing catch-up during the most valuable weeks of the year.</p>
             </div>
 
-            <p>The problem is compounding. Each off-season of inactivity resets the freshness clock and allows competitors to widen the citation gap. Businesses that recognize this pattern early and build year-round content infrastructure gain a structural advantage that is difficult for reactive competitors to close.</p>
+            <p>The problem is compounding. Each off-season of inactivity resets the freshness clock and allows competitors to widen the citation gap. Businesses that recognize this pattern early and build year-round content infrastructure gain a structural advantage that is difficult for reactive competitors to close. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>This guide covers the exact strategies that allow HVAC companies, pool services, landscaping businesses, and tax preparation firms to maintain AI citation presence across all 12 months, not just during peak. The approach applies equally to any business with cyclical demand patterns, from holiday retail to tourism operators.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out exactly when AI platforms stop citing your business during the off-season and what it is costing you.</p>
+              <p>Find out exactly when AI platforms stop citing your business during the off-season and what it is costing you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Seasonal Visibility Report &rarr;</Link>
             </div>
 
@@ -284,19 +284,19 @@ export default function SeasonalBusinessesAISearchPage() {
 
             <p>AI search platforms do not experience query volume the same way traditional search engines do. Google indexes every crawled page and ranks results based on a relatively stable authority graph. When seasonal query volume spikes, Google surfaces whatever it had already ranked. The ranking order may shift with freshness signals, but the underlying index is always present.</p>
 
-            <p>AI recommendation systems work differently. Large language models generate responses based on training data patterns and, increasingly, real-time retrieval from indexed sources. When a user asks ChatGPT which HVAC company to call for summer AC service, the model draws on patterns from its training data and, in retrieval-augmented systems, from recently crawled content. Businesses that have been actively publishing relevant content are far more likely to appear in that retrieved set than businesses that went dark in October.</p>
+            <p>AI recommendation systems work differently. Large language models generate responses based on training data patterns and, increasingly, real-time retrieval from indexed sources. When a user asks ChatGPT which HVAC company to call for summer AC service, the model draws on patterns from its training data and, in retrieval-augmented systems, from recently crawled content. Businesses that have been actively publishing relevant content are far more likely to appear in that retrieved set than businesses that went dark in October. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>The retrieval window matters.</strong> Many AI platforms using retrieval-augmented generation (RAG) pull from content published or updated within a specific recency window. A business whose most recent service-relevant content is six months old may not appear in the retrieval candidates at all, regardless of how authoritative its older content was. This is categorically different from how Google handles established rankings, and it is why seasonal businesses face unique AI visibility risk.</p>
             </div>
 
-            <p>There is a second dynamic at play with seasonal queries: anticipation behavior. Queries like &ldquo;when should I schedule my AC tune-up&rdquo; and &ldquo;how early should I book pool opening service&rdquo; spike weeks before peak demand. AI platforms begin surfacing recommendations for these anticipation queries well before the peak service window. Businesses that publish anticipation content in advance capture those early citations. Businesses that wait for the season to officially begin miss the earliest and often most convertible queries.</p>
+            <p>There is a second dynamic at play with seasonal queries: anticipation behavior. Queries like &ldquo;when should I schedule my AC tune-up&rdquo; and &ldquo;how early should I book pool opening service&rdquo; spike weeks before peak demand. AI platforms begin surfacing recommendations for these anticipation queries well before the peak service window. Businesses that publish anticipation content in advance capture those early citations. Businesses that wait for the season to officially begin miss the earliest and often most convertible queries. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>Understanding this dynamic reframes the off-season entirely. The months before peak are not slow months for marketing. They are the months when AI authority is built or lost. The content published in February determines which businesses get cited when homeowners start asking AI for AC recommendations in late April.</p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know which anticipation queries your business is currently missing in AI search? We map them by category.</p>
+              <p>Want to know which anticipation queries your business is currently missing in AI search? We map them by category. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Assessment &rarr;</a>
             </div>
 
@@ -308,29 +308,29 @@ export default function SeasonalBusinessesAISearchPage() {
 
             <h3>Archetype 1: Comfort &amp; Climate (HVAC)</h3>
 
-            <p>HVAC businesses face a dual-peak demand curve: heating season in fall and winter, cooling season in late spring and summer. The apparent advantage of two peaks conceals a structural vulnerability: the transition months between seasons are periods of low query volume and high competitive opportunity. Businesses that publish aggressively during the spring shoulder season, targeting queries like &ldquo;air conditioning maintenance checklist&rdquo; and &ldquo;AC tune-up cost,&rdquo; build AI authority just before the high-volume summer queries arrive.</p>
+            <p>HVAC businesses face a dual-peak demand curve: heating season in fall and winter, cooling season in late spring and summer. The apparent advantage of two peaks conceals a structural vulnerability: the transition months between seasons are periods of low query volume and high competitive opportunity. Businesses that publish aggressively during the spring shoulder season, targeting queries like &ldquo;air conditioning maintenance checklist&rdquo; and &ldquo;AC tune-up cost,&rdquo; build AI authority just before the high-volume summer queries arrive. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>The HVAC off-season, roughly the mild-weather months of April, May, September, and October in most markets, is when competitors go quiet and query competition is lowest. AI citations earned during these months carry forward into peak season at a fraction of the content investment required during the competitive peak.</p>
 
-            <p>For a deeper look at HVAC-specific AI search strategy, read our guide on <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search">how contractors and home service companies win AI search</Link>.</p>
+            <p>For a deeper look at HVAC-specific AI search strategy, read our guide on <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search">how contractors and home service companies win AI search</Link>. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <h3>Archetype 2: Outdoor Living (Pool &amp; Landscaping)</h3>
 
             <p>Pool service and landscaping businesses share a similar demand curve, with peak activity from late spring through early fall. Both industries have well-defined seasonal bookend events: pool opening and pool closing, spring cleanup and fall leaf cleanup, lawn fertilization cycles, and irrigation system activation and winterization. These bookend events are the off-season content opportunities that most businesses ignore.</p>
 
-            <p>Pool businesses that publish winterization and closing content in August and September, and pool-opening content in February and March, maintain continuous AI citation presence through months when competitors have nothing fresh online. Landscaping businesses can extend content into winter with hardscape planning, spring garden design guides, and indoor plant care content that generates search volume even in snow-prone markets.</p>
+            <p>Pool businesses that publish winterization and closing content in August and September, and pool-opening content in February and March, maintain continuous AI citation presence through months when competitors have nothing fresh online. Landscaping businesses can extend content into winter with hardscape planning, spring garden design guides, and indoor plant care content that generates search volume even in snow-prone markets. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Archetype 3: Financial Services (Tax Prep &amp; Accounting)</h3>
 
             <p>Tax preparation businesses face the most dramatic seasonal demand curve of any professional service. The January through April filing rush generates the vast majority of annual query volume, and most tax prep businesses mirror this curve in their content output. The result: from May through December, most tax prep websites go silent, and AI citation presence collapses.</p>
 
-            <p>The off-season opportunity for tax and accounting businesses is substantial. Quarterly estimated tax deadlines in June, September, and January generate recurring query volume. Mid-year tax planning content, bookkeeping best practices, and small business accounting guides generate citations throughout the calendar. Businesses that build a year-round content library for tax topics maintain AI presence when their seasonal competitors have completely withdrawn.</p>
+            <p>The off-season opportunity for tax and accounting businesses is substantial. Quarterly estimated tax deadlines in June, September, and January generate recurring query volume. Mid-year tax planning content, bookkeeping best practices, and small business accounting guides generate citations throughout the calendar. Businesses that build a year-round content library for tax topics maintain AI presence when their seasonal competitors have completely withdrawn. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>See our full guide on <Link href="/blog/how-accountants-and-cpas-get-found-on-ai-search">how accountants and CPAs get found on AI search</Link> for the complete off-season content framework.</p>
 
             <h3>Archetype 4: Holiday &amp; Event Services</h3>
 
-            <p>Event-based seasonal businesses (holiday lighting installation, party rental, wedding services with spring/fall peaks, and similar) face a different challenge: intense but short peak windows and extended off-seasons. For these businesses, the off-season strategy centers on planning-phase content that captures intent long before service delivery. A holiday lighting company that publishes &ldquo;how much does professional holiday lighting cost&rdquo; content in August is capturing research-phase queries from homeowners who will not book until October. AI citations earned during the research phase convert when peak season arrives.</p>
+            <p>Event-based seasonal businesses (holiday lighting installation, party rental, wedding services with spring/fall peaks, and similar) face a different challenge: intense but short peak windows and extended off-seasons. For these businesses, the off-season strategy centers on planning-phase content that captures intent long before service delivery. A holiday lighting company that publishes &ldquo;how much does professional holiday lighting cost&rdquo; content in August is capturing research-phase queries from homeowners who will not book until October. AI citations earned during the research phase convert when peak season arrives. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
@@ -342,19 +342,19 @@ export default function SeasonalBusinessesAISearchPage() {
             <span className="ae-section-label" id="off-season-strategy">Core Strategy</span>
             <h2>The Off-Season Visibility Strategy</h2>
 
-            <p>The fundamental insight behind year-round AI visibility for seasonal businesses is that the off-season is not a gap to survive. It is a competitive advantage to exploit. When most businesses in a category go dark, the ones that stay active accumulate citation authority against minimal competition. That authority compounds into peak season performance at a significant multiplier.</p>
+            <p>The fundamental insight behind year-round AI visibility for seasonal businesses is that the off-season is not a gap to survive. It is a competitive advantage to exploit. When most businesses in a category go dark, the ones that stay active accumulate citation authority against minimal competition. That authority compounds into peak season performance at a significant multiplier. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>The off-season visibility strategy has four pillars: content pivoting, anticipation publishing, freshness maintenance, and review banking. Each pillar addresses a different mechanism by which AI platforms evaluate and cite seasonal businesses.</p>
 
             <h3>Pillar 1: Content Pivoting</h3>
 
-            <p>Content pivoting means shifting the topic of published content to match what is relevant to your audience in the current season, rather than what is relevant to your peak service. An air conditioning company in December is not going to generate AC installation queries, but it can generate heating efficiency queries, indoor air quality content, and &ldquo;preparing your home for winter&rdquo; content that keeps the site active and cited. The business category remains the same. The content angle rotates with the calendar.</p>
+            <p>Content pivoting means shifting the topic of published content to match what is relevant to your audience in the current season, rather than what is relevant to your peak service. An air conditioning company in December is not going to generate AC installation queries, but it can generate heating efficiency queries, indoor air quality content, and &ldquo;preparing your home for winter&rdquo; content that keeps the site active and cited. The business category remains the same. The content angle rotates with the calendar. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>Effective pivots feel natural, not forced. The best off-season content answers questions that the business&rsquo;s customers are genuinely asking during that period. A pool company&rsquo;s customers are not thinking about pool openings in November. They are thinking about whether their equipment is properly stored, whether their pool cover is holding, and when they should start thinking about spring. Content that addresses these real off-season concerns earns genuine engagement and citation, not just mechanical freshness signals.</p>
 
             <h3>Pillar 2: Anticipation Publishing</h3>
 
-            <p>Anticipation publishing targets queries that spike before peak demand arrives. &ldquo;When should I schedule HVAC tune-up,&rdquo; &ldquo;how early should I book lawn service,&rdquo; and &ldquo;when do pool companies start getting busy&rdquo; are all anticipation queries. They represent the moment consumers shift from passive awareness to active consideration, often weeks before they are ready to book.</p>
+            <p>Anticipation publishing targets queries that spike before peak demand arrives. &ldquo;When should I schedule HVAC tune-up,&rdquo; &ldquo;how early should I book lawn service,&rdquo; and &ldquo;when do pool companies start getting busy&rdquo; are all anticipation queries. They represent the moment consumers shift from passive awareness to active consideration, often weeks before they are ready to book. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>Timing the anticipation window.</strong> Industry data shows that &ldquo;when should I&rdquo; service queries peak 6 to 8 weeks before the corresponding service season. An HVAC business that publishes AC-focused content in early April is positioned to capture citations in late April and May when those anticipation queries surge. A business that waits until June is competing in the fully peaked market against businesses that built their authority weeks earlier.</p>
@@ -362,19 +362,19 @@ export default function SeasonalBusinessesAISearchPage() {
 
             <h3>Pillar 3: Freshness Maintenance</h3>
 
-            <p>Freshness maintenance is the minimum viable activity required to stay in AI citation pools during deep off-season months. AI platforms monitor content activity signals, including publication dates, page update timestamps, and structured data refresh frequency. A site that publishes even two or three substantive pieces of content per month during the off-season maintains the freshness signals needed to stay citation-eligible.</p>
+            <p>Freshness maintenance is the minimum viable activity required to stay in AI citation pools during deep off-season months. AI platforms monitor content activity signals, including publication dates, page update timestamps, and structured data refresh frequency. A site that publishes even two or three substantive pieces of content per month during the off-season maintains the freshness signals needed to stay citation-eligible. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>This is not an invitation to publish thin, low-value content for the sake of hitting a cadence. AI systems now evaluate content quality as well as freshness. A monthly educational post, a &ldquo;frequently asked questions&rdquo; update, or a seasonal tip guide represents the minimum quality threshold for maintaining freshness without sacrificing credibility.</p>
 
             <h3>Pillar 4: Review Banking</h3>
 
-            <p>Reviews are a form of content that seasonal businesses cannot fully control during the off-season because review volume tracks service volume. The solution is review banking: running intensive review request campaigns during peak season to generate a review surplus that carries through the off-season. A pool service business that collects 40 reviews during the summer has 40 active citation-boosting review signals that remain visible and influential through the winter months.</p>
+            <p>Reviews are a form of content that seasonal businesses cannot fully control during the off-season because review volume tracks service volume. The solution is review banking: running intensive review request campaigns during peak season to generate a review surplus that carries through the off-season. A pool service business that collects 40 reviews during the summer has 40 active citation-boosting review signals that remain visible and influential through the winter months. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>For how reviews specifically influence AI recommendation behavior, read our guide on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link>.</p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how your current off-season content strategy compares to competitors who are staying cited year-round.</p>
+              <p>See how your current off-season content strategy compares to competitors who are staying cited year-round. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blindspot">Run Your Free Seasonal AI Audit &rarr;</Link>
             </div>
 
@@ -430,7 +430,7 @@ export default function SeasonalBusinessesAISearchPage() {
               </table>
             </div>
 
-            <p>The key insight from this framework is that there is no month in the calendar without a legitimate content angle for any of these four business types. The off-season content themes are genuinely useful to customers. Homeowners do wonder about pool cover maintenance in January. Landscaping customers do plan spring gardens in February. Tax clients do have questions about bookkeeping in July. The businesses that answer those questions are the ones AI platforms cite when those questions are asked.</p>
+            <p>The key insight from this framework is that there is no month in the calendar without a legitimate content angle for any of these four business types. The off-season content themes are genuinely useful to customers. Homeowners do wonder about pool cover maintenance in January. Landscaping customers do plan spring gardens in February. Tax clients do have questions about bookkeeping in July. The businesses that answer those questions are the ones AI platforms cite when those questions are asked. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* BAR CHART */}
             <div className="ae-bar-group not-prose">
@@ -467,19 +467,19 @@ export default function SeasonalBusinessesAISearchPage() {
             <span className="ae-section-label" id="schema-gbp">Technical Signals</span>
             <h2>Local Schema &amp; GBP Tactics for Seasonal Businesses</h2>
 
-            <p>Seasonal businesses have a specific structured data advantage that most underuse: the ability to update their schema markup and Google Business Profile in real time to reflect current service offerings. AI platforms that retrieve local business data use GBP signals as authoritative signals of what a business currently offers. A mismatch between a website&rsquo;s content and a GBP listing&rsquo;s services creates citation uncertainty that causes AI systems to hedge on recommendations.</p>
+            <p>Seasonal businesses have a specific structured data advantage that most underuse: the ability to update their schema markup and Google Business Profile in real time to reflect current service offerings. AI platforms that retrieve local business data use GBP signals as authoritative signals of what a business currently offers. A mismatch between a website&rsquo;s content and a GBP listing&rsquo;s services creates citation uncertainty that causes AI systems to hedge on recommendations. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Updating GBP for Seasonal Service Pivots</h3>
 
             <p>Google Business Profile allows businesses to update their primary and secondary service categories, service descriptions, and special hours. Seasonal businesses should treat GBP updates as part of their service pivot workflow. When an HVAC company shifts from heating to cooling focus, the GBP service description should reflect that shift. When a pool company transitions from opening to maintenance to closing services, the GBP listing should mirror those transitions.</p>
 
-            <p>GBP posts are especially valuable for seasonal businesses. A weekly or biweekly post that describes the current seasonal service, includes relevant local keywords, and links to current content on the website sends a compound signal to AI platforms: this business is active, this business is locally relevant right now, and this is what they currently offer. The combination of fresh posts and current service descriptions reduces AI recommendation uncertainty significantly.</p>
+            <p>GBP posts are especially valuable for seasonal businesses. A weekly or biweekly post that describes the current seasonal service, includes relevant local keywords, and links to current content on the website sends a compound signal to AI platforms: this business is active, this business is locally relevant right now, and this is what they currently offer. The combination of fresh posts and current service descriptions reduces AI recommendation uncertainty significantly. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>For a comprehensive GBP optimization framework, read our guide on <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai">how to optimize your Google Business Profile for AI</Link>.</p>
 
             <h3>Service Schema Updates by Season</h3>
 
-            <p>Schema markup on the website should be updated each time the business pivots its primary service focus. The Service schema type allows businesses to define the service name, description, price range, area served, and provider. A landscaping company that adds a specific Service schema object for &ldquo;spring cleanup service&rdquo; in February, updated with current pricing and availability, sends an explicit structured signal to search crawlers that this service is currently active and available.</p>
+            <p>Schema markup on the website should be updated each time the business pivots its primary service focus. The Service schema type allows businesses to define the service name, description, price range, area served, and provider. A landscaping company that adds a specific Service schema object for &ldquo;spring cleanup service&rdquo; in February, updated with current pricing and availability, sends an explicit structured signal to search crawlers that this service is currently active and available. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p><strong>Stale schema is worse than no schema.</strong> A service page with schema markup indicating a service that the business does not currently offer, or with a dateModified timestamp that is six months old, creates a negative trust signal. AI platforms that detect inconsistency between schema claims and current service availability reduce citation confidence. Update schema with the same priority as updating page content when executing a seasonal pivot.</p>
@@ -487,7 +487,7 @@ export default function SeasonalBusinessesAISearchPage() {
 
             <h3>Special Hours and Seasonal Availability</h3>
 
-            <p>GBP special hours functionality allows businesses to flag extended hours during peak season, reduced hours during off-season, or temporary closures. AI platforms that reference local business data use hours accuracy as a quality signal. A business with accurate, current hours earns higher citation confidence than one with outdated or generic hours. Update hours with each seasonal transition and flag any temporary availability changes promptly.</p>
+            <p>GBP special hours functionality allows businesses to flag extended hours during peak season, reduced hours during off-season, or temporary closures. AI platforms that reference local business data use hours accuracy as a quality signal. A business with accurate, current hours earns higher citation confidence than one with outdated or generic hours. Update hours with each seasonal transition and flag any temporary availability changes promptly. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -499,13 +499,13 @@ export default function SeasonalBusinessesAISearchPage() {
             <span className="ae-section-label" id="service-pivots">Content Pivots</span>
             <h2>Service Pivots That Keep You Cited Year-Round</h2>
 
-            <p>Service pivoting is the mechanism through which seasonal businesses transform apparent off-season limitations into content opportunities. Every peak service has a natural complement, a related service or topic that becomes relevant in the preceding, trailing, or opposite season. Businesses that identify and publish around these complements maintain a continuous thread of relevance through the full calendar year.</p>
+            <p>Service pivoting is the mechanism through which seasonal businesses transform apparent off-season limitations into content opportunities. Every peak service has a natural complement, a related service or topic that becomes relevant in the preceding, trailing, or opposite season. Businesses that identify and publish around these complements maintain a continuous thread of relevance through the full calendar year. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>HVAC: Heating &harr; Cooling</h3>
 
             <p>The HVAC pivot is the most straightforward: heating content transitions into cooling content and back again. But the opportunity goes deeper than simply swapping the service focus. The transition periods, when neither heating nor cooling is urgently demanded, are ideal for publishing preventive maintenance content. &ldquo;Why you should service your AC before you need it,&rdquo; &ldquo;spring HVAC inspection checklist,&rdquo; and &ldquo;how to extend the life of your air conditioner&rdquo; are all anticipation content that generates citations before peak demand arrives. These are also the months when HVAC businesses have the most scheduling flexibility, making content investment especially efficient.</p>
 
-            <p>See also our full home services guide at <Link href="/blog/how-home-service-companies-dominate-ai-search">how home service companies dominate AI search</Link>.</p>
+            <p>See also our full home services guide at <Link href="/blog/how-home-service-companies-dominate-ai-search">how home service companies dominate AI search</Link>. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>Pool Service: Open &harr; Close</h3>
 
@@ -513,13 +513,13 @@ export default function SeasonalBusinessesAISearchPage() {
 
             <h3>Landscaping: Active &harr; Planning</h3>
 
-            <p>Landscaping businesses have the richest off-season pivot opportunities because homeowning customers plan outdoor projects extensively before spring arrives. A landscaping business that publishes garden design inspiration, plant selection guides, hardscape project planning content, and &ldquo;how to prepare your yard for spring&rdquo; content during winter months is capturing the planning phase of the customer journey. AI citations during this research phase create brand association that influences booking decisions when spring finally arrives.</p>
+            <p>Landscaping businesses have the richest off-season pivot opportunities because homeowning customers plan outdoor projects extensively before spring arrives. A landscaping business that publishes garden design inspiration, plant selection guides, hardscape project planning content, and &ldquo;how to prepare your yard for spring&rdquo; content during winter months is capturing the planning phase of the customer journey. AI citations during this research phase create brand association that influences booking decisions when spring finally arrives. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <h3>Tax Prep: Filing &harr; Planning</h3>
 
             <p>The tax prep pivot moves from reactive service (filing) to proactive service (planning and compliance). Quarterly estimated tax content, bookkeeping guides, business structure optimization, and mid-year tax strategy articles all generate citations outside the filing season. The IRS calendar itself provides natural content anchors: Q1 estimated tax deadline in April, Q2 in June, Q3 in September, and Q4 in January, each creating a moment for tax prep businesses to publish timely, relevant content that AI platforms cite for the corresponding queries.</p>
 
-            <p>For a plumbing-specific example of this pivot framework in action, read our guide on <Link href="/blog/how-plumbers-get-found-on-ai-search">how plumbers get found on AI search</Link>.</p>
+            <p>For a plumbing-specific example of this pivot framework in action, read our guide on <Link href="/blog/how-plumbers-get-found-on-ai-search">how plumbers get found on AI search</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
@@ -531,13 +531,13 @@ export default function SeasonalBusinessesAISearchPage() {
             <span className="ae-section-label" id="reviews-reddit">Off-Site Signals</span>
             <h2>Reviews, Reddit, and Year-Round Mentions</h2>
 
-            <p>Content on the business&rsquo;s own website is only one dimension of the year-round visibility strategy. AI platforms also draw from off-site signals: reviews, community forum mentions, industry publications, and social discussions. Managing these channels year-round gives seasonal businesses additional citation surface area that does not go dark when publishing slows.</p>
+            <p>Content on the business&rsquo;s own website is only one dimension of the year-round visibility strategy. AI platforms also draw from off-site signals: reviews, community forum mentions, industry publications, and social discussions. Managing these channels year-round gives seasonal businesses additional citation surface area that does not go dark when publishing slows. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>Review Strategy for Seasonal Businesses</h3>
 
             <p>The seasonal review challenge is structural: reviews arrive when services are delivered, and services cluster during peak months. A pool company that does 80% of its work from May through September will naturally receive 80% of its reviews during those months. By January, the most recent reviews may be five or six months old, which reduces the freshness of the review signal AI platforms use to assess credibility.</p>
 
-            <p>The solution requires two tactics working in parallel. First, implement a systematic review request process during peak season to maximize review volume while service volume is high. A business that generates 50 reviews during summer has a stronger off-season review profile than one that generates 15. Second, respond to every review, including older ones, during the off-season. Review responses are timestamped and visible to AI platforms as activity signals. A business that actively engages with its review ecosystem year-round maintains an activity signal that a business ignoring its reviews does not.</p>
+            <p>The solution requires two tactics working in parallel. First, implement a systematic review request process during peak season to maximize review volume while service volume is high. A business that generates 50 reviews during summer has a stronger off-season review profile than one that generates 15. Second, respond to every review, including older ones, during the off-season. Review responses are timestamped and visible to AI platforms as activity signals. A business that actively engages with its review ecosystem year-round maintains an activity signal that a business ignoring its reviews does not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>Year-round content cadence = 3.4x more peak citations.</strong> Businesses that maintain consistent content activity across all 12 months do not just perform better in the off-season. They perform substantially better at peak, earning more than three times the citation frequency of comparable businesses that only publish during their peak months. The off-season investment directly amplifies peak-season returns.</p>
@@ -545,11 +545,11 @@ export default function SeasonalBusinessesAISearchPage() {
 
             <h3>Community Mentions and Seasonal Forums</h3>
 
-            <p>Seasonal businesses often have natural community presence on platforms like Reddit and Nextdoor, where homeowners ask neighbors for service recommendations. A pool company that is authentically present in local homeowner communities, answering questions about chemical balancing and equipment troubleshooting year-round, maintains a mention footprint that AI platforms index and cite even during the off-season.</p>
+            <p>Seasonal businesses often have natural community presence on platforms like Reddit and Nextdoor, where homeowners ask neighbors for service recommendations. A pool company that is authentically present in local homeowner communities, answering questions about chemical balancing and equipment troubleshooting year-round, maintains a mention footprint that AI platforms index and cite even during the off-season. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p>The seasonal forum activity pattern matters. A business that participates in community discussions all year builds the kind of organic mention density that drives AI citations. A business that appears only when it is time to advertise peak services earns no organic community trust and, consequently, no community-sourced AI citations.</p>
 
-            <p>For a deeper look at how content freshness and publishing frequency affect AI visibility, read <Link href="/blog/why-fresh-content-key-ai-search-visibility">why fresh content is key to AI search visibility</Link> and <Link href="/blog/does-posting-every-day-help-ai-find-your-business">does posting every day help AI find your business</Link>.</p>
+            <p>For a deeper look at how content freshness and publishing frequency affect AI visibility, read <Link href="/blog/why-fresh-content-key-ai-search-visibility">why fresh content is key to AI search visibility</Link> and <Link href="/blog/does-posting-every-day-help-ai-find-your-business">does posting every day help AI find your business</Link>. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">

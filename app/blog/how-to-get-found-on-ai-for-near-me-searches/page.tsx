@@ -199,7 +199,7 @@ export default function Page() {
             Not showing up when customers search for you locally on AI?{' '}
             <Link href="/blindspot">Get your free AI Blind Spot Report</Link> to see exactly where
             you are missing from local AI results.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         {/* Stats Grid */}
@@ -256,14 +256,14 @@ export default function Page() {
             When someone types "best [service] near me" into a traditional search engine, Google uses
             their device location to pull local results. AI platforms work differently, and the
             difference matters for your strategy.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             AI platforms use a combination of signals to interpret location: the user's device or
             account location settings if available, context clues in the conversation (such as a city
             name mentioned earlier), and sometimes IP-based geographic inference. When all of these
             are unavailable, the AI defaults to recommending businesses that have the strongest and
             most clearly established geographic signals across the web.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">The Key Shift in Local Search Behavior</div>
@@ -272,7 +272,7 @@ export default function Page() {
               are intent-plus-location queries. The AI is trying to understand both what you need and
               where you are. Businesses that clearly communicate both their services and their geography
               across multiple platforms have a substantial advantage.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
@@ -281,7 +281,7 @@ export default function Page() {
             multiple sources and synthesizes recommendations from review sites, directories, and
             business websites. Google Gemini, drawing on Google's vast local business data, often
             produces the most geo-targeted responses of any AI platform.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           {/* Inline CTA 2 */}
           <div className="ae-cta-inline mt-6">
@@ -291,7 +291,7 @@ export default function Page() {
                 Call (213) 444-2229
               </a>{' '}
               for a live local AI visibility check.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
         </section>
 
@@ -304,13 +304,13 @@ export default function Page() {
             If you want to show up in AI near me results, your Google Business Profile is not optional.
             It is the most powerful single lever you have, and most businesses are not using it to its
             full potential.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             Google Gemini pulls directly from GBP when answering local queries. Google's AI Overview
             feature in search draws heavily from GBP data. And because ChatGPT uses Bing for real-time
             search, and Bing indexes GBP data via Google's data partnerships, your GBP completion level
             influences AI recommendations across platforms, not just Google's own products.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* Comparison Table */}
           <div className="overflow-x-auto my-8">
@@ -372,7 +372,7 @@ export default function Page() {
             and serving customers in the stated location. An incomplete profile creates uncertainty.
             And when AI platforms face uncertainty about a local business, they choose the competitor
             whose information is clearer.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p className="text-gray-300 leading-relaxed mt-4">
             For a full walkthrough on optimizing GBP specifically for AI recommendations, read our
@@ -384,7 +384,7 @@ export default function Page() {
               how to optimize your Google Business Profile for AI search
             </Link>
             .
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Section 3 */}
@@ -396,12 +396,12 @@ export default function Page() {
             Your GBP gets AI attention. Your website reinforces and validates what the GBP says. When
             these two align and clearly communicate the same geographic information, AI platforms
             gain confidence in recommending you to local searchers.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The geographic signals your website needs to send are not complicated, but they are specific.
             The goal is to make it unambiguous to an AI reading your site that your business serves a
             particular area.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">What AI Looks for in Geographic Signals</div>
@@ -411,7 +411,7 @@ export default function Page() {
               appear naturally in your homepage, about page, service pages, and contact page. If an
               AI reading your site cannot easily determine where you operate, it will not confidently
               recommend you for local queries.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           </div>
 
           {/* Timeline: Website geographic optimization */}
@@ -454,14 +454,14 @@ export default function Page() {
             sources simultaneously. When they find the same information across your GBP, your website,
             Yelp, Bing Places, Apple Maps, and industry directories, they gain high confidence in
             recommending you. When they find contradictions, they hedge or pick someone else.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             For near me searches specifically, location consistency is the critical variable. If your
             address is listed slightly differently across platforms (such as "St." on one and "Street"
             on another, or an old address that was never updated), AI platforms face a geographic
             disambiguation problem. They are not sure which location is correct, and that uncertainty
             hurts your near me visibility.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* Pros/Cons */}
           <div className="ae-pros-cons">
@@ -492,7 +492,7 @@ export default function Page() {
             order: Google Business Profile, Apple Maps, Bing Places, Yelp, Facebook Business, and
             your top two or three industry-specific directories. Getting these right creates a
             consistent geographic footprint that AI platforms can read with confidence.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           {/* Inline CTA 3 */}
           <div className="ae-cta-inline mt-6">
@@ -500,7 +500,7 @@ export default function Page() {
               Want to know which directories are hurting your local AI visibility right now?{' '}
               <Link href="/blindspot">Get your free Blind Spot Report</Link> and we will audit your
               entire citation footprint.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
         </section>
 
@@ -514,14 +514,14 @@ export default function Page() {
             the AI is trying to make a confident local recommendation. A business with 180 recent
             reviews averaging 4.7 stars is a much safer recommendation than a business with 12 reviews
             averaging 4.2 stars, even if both businesses are equally good.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The most powerful reviews for near me AI visibility are those that mention both the service
             and the location. A review that says "Best plumber I have found in the Austin area. Fixed
             our leak in under two hours" contains multiple geographic signals in the customer's own
             words. AI platforms weight this kind of review content heavily when deciding who to
             recommend for local queries.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">Review Language That Helps Near Me AI Results</div>
@@ -530,7 +530,7 @@ export default function Page() {
               your reviews consistently say things like "great service in [your city]" or "best
               [service] in [neighborhood]," you are building a review corpus that directly reinforces
               your geographic signals for AI recommendation systems.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
@@ -543,7 +543,7 @@ export default function Page() {
               whether schema markup actually helps AI search
             </Link>
             .
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </section>
 
         {/* Section 6 */}
@@ -554,7 +554,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-5">
             The three dominant AI platforms handle near me queries with meaningfully different
             approaches. Understanding these differences helps you prioritize where to invest.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           {/* Decision Matrix */}
           <div className="ae-decision-matrix my-8">
@@ -585,7 +585,7 @@ export default function Page() {
             trusts most: GBP for Gemini, web authority and Yelp for ChatGPT, and multi-platform review
             presence for Perplexity. Businesses that invest in all three layers consistently appear
             across every major AI platform, regardless of which one the customer is using.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <p className="text-gray-300 leading-relaxed">
             For a comprehensive look at how different AI assistants approach local recommendations, read
@@ -597,7 +597,7 @@ export default function Page() {
               which AI assistant is best for finding local businesses
             </Link>
             .
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </section>
 
         {/* Section 7 */}
@@ -610,14 +610,14 @@ export default function Page() {
             house cleaners, and mobile pet groomers all serve customers at the customer's location
             rather than their own. These businesses have a real disadvantage in traditional local search
             because they cannot use a physical address to anchor geographic signals.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The good news is that AI platforms increasingly understand service-area businesses. Google
             Business Profile explicitly supports service area configuration without a displayed address.
             When a service area business sets clear geographic parameters in GBP and reinforces those
             same areas consistently across their website and directories, AI platforms can recommend
             them for near me queries with reasonable confidence.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <div className="ae-callout ae-callout-success">
             <div className="ae-callout-title">Service Area Business Near Me Strategy</div>
@@ -627,7 +627,7 @@ export default function Page() {
               county you serve. Ensure your reviews mention specific locations served. This three-layer
               approach gives AI platforms the geographic confidence they need to include you in near me
               results.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
@@ -635,7 +635,7 @@ export default function Page() {
             businesses precisely because their geographic signals are weaker by default. Investing extra
             attention in the written geographic layer of your web presence levels the playing field
             significantly.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
         </section>
 
         {/* Cheat Sheet */}
@@ -680,7 +680,7 @@ export default function Page() {
             are those that make it easiest for the AI to establish geographic certainty: consistent
             information across every platform, clear service area signals, active review velocity, and
             a website that leaves no doubt about where they operate.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
         </div>
 
         {/* CTA Block */}
@@ -692,7 +692,7 @@ export default function Page() {
             Our free Blind Spot Report audits your local AI visibility across all major platforms,
             identifies missing geographic signals, and tells you exactly what to fix to capture
             more near me searches.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"

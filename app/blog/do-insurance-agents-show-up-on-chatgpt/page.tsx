@@ -244,19 +244,19 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             <span className="ae-section-label" id="the-problem">The Problem</span>
             <h2>Why Most Insurance Agents Are Invisible to AI</h2>
 
-            <p>Go ahead and test it. Open ChatGPT or Perplexity and type: &quot;Who are the best independent insurance agents in [your city]?&quot; If your name does not appear, you are not alone. The vast majority of licensed insurance professionals across the country get zero mentions in AI-generated recommendations, regardless of how long they have been in business or how many satisfied clients they have served.</p>
+            <p>Go ahead and test it. Open ChatGPT or Perplexity and type: &quot;Who are the best independent insurance agents in [your city]?&quot; If your name does not appear, you are not alone. The vast majority of licensed insurance professionals across the country get zero mentions in AI-generated recommendations, regardless of how long they have been in business or how many satisfied clients they have served. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>This is not a random outcome. AI platforms are not playing favorites. They are pulling from a specific set of data sources, and most insurance agents are simply not present in those sources in a form that AI can read, parse, and trust.</p>
+            <p>This is not a random outcome. AI platforms are not playing favorites. They are pulling from a specific set of data sources, and most insurance agents are simply not present in those sources in a form that AI can read, parse, and trust. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The structural problem:</strong> Insurance agents tend to rely on three types of online presence, carrier websites, Google Business Profile, and social media profiles. All three are largely invisible to ChatGPT, Perplexity, and Claude because the content sits behind JavaScript walls, proprietary data silos, or login-gated platforms that AI crawlers cannot access. Your sterling reputation built in those ecosystems does not transfer to AI search.</p>
+              <p><strong>The structural problem:</strong> Insurance agents tend to rely on three types of online presence, carrier websites, Google Business Profile, and social media profiles. All three are largely invisible to ChatGPT, Perplexity, and Claude because the content sits behind JavaScript walls, proprietary data silos, or login-gated platforms that AI crawlers cannot access. Your sterling reputation built in those ecosystems does not transfer to AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
-            <p>The opportunity here is real. Because so few agents have addressed AI visibility, the ones who do act now can establish a dominant position before the rest of the industry catches on. Insurance is a trust-driven business. AI is a trust-driven recommendation engine. The two fit together, but only for agents who give AI something to work with.</p>
+            <p>The opportunity here is real. Because so few agents have addressed AI visibility, the ones who do act now can establish a dominant position before the rest of the industry catches on. Insurance is a trust-driven business. AI is a trust-driven recommendation engine. The two fit together, but only for agents who give AI something to work with. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out exactly what AI says when someone searches for an insurance agent in your market.</p>
+              <p>Find out exactly what AI says when someone searches for an insurance agent in your market. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -264,25 +264,25 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             <span className="ae-section-label" id="how-ai-sources">How AI Works</span>
             <h2>How AI Models Source Insurance Agent Information</h2>
 
-            <p>To show up in AI answers, you need to understand how AI platforms actually find and evaluate information about professionals. It is different from Google in several important ways, and most of the tactics that work for traditional SEO do not translate directly.</p>
+            <p>To show up in AI answers, you need to understand how AI platforms actually find and evaluate information about professionals. It is different from Google in several important ways, and most of the tactics that work for traditional SEO do not translate directly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <h3>AI Reads Your Website Directly</h3>
 
-            <p>ChatGPT, Perplexity, Google AI Overviews, and Claude all crawl publicly accessible web pages. When a user asks for an insurance agent recommendation, the AI draws on content it has indexed from websites it can read. This means your own domain, your own service pages, and your own blog posts are the most direct path to AI visibility. A site that renders its content in plain HTML, loads quickly, and has clear topical structure is a site that AI can use as a source.</p>
+            <p>ChatGPT, Perplexity, Google AI Overviews, and Claude all crawl publicly accessible web pages. When a user asks for an insurance agent recommendation, the AI draws on content it has indexed from websites it can read. This means your own domain, your own service pages, and your own blog posts are the most direct path to AI visibility. A site that renders its content in plain HTML, loads quickly, and has clear topical structure is a site that AI can use as a source. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>What AI is looking for on your site:</strong> Specific service lines described in plain language (auto insurance, home insurance, life insurance, commercial liability), your service territory, your credentials, how long you have been practicing, and content that directly answers the questions your clients ask. Vague taglines like &quot;we cover all your needs&quot; give AI nothing to work with. Specific pages do.</p>
+              <p><strong>What AI is looking for on your site:</strong> Specific service lines described in plain language (auto insurance, home insurance, life insurance, commercial liability), your service territory, your credentials, how long you have been practicing, and content that directly answers the questions your clients ask. Vague taglines like &quot;we cover all your needs&quot; give AI nothing to work with. Specific pages do. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             <h3>AI Cross-References Multiple Sources</h3>
 
-            <p>AI platforms do not rely on a single source when forming a recommendation. They synthesize information from your website, industry directories, published articles, forum discussions, and any other publicly accessible content that mentions your name and practice. The more places you appear, consistently and accurately, the more confidence AI has in recommending you.</p>
+            <p>AI platforms do not rely on a single source when forming a recommendation. They synthesize information from your website, industry directories, published articles, forum discussions, and any other publicly accessible content that mentions your name and practice. The more places you appear, consistently and accurately, the more confidence AI has in recommending you. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>This is why a solo agent with a strong independent web presence, a complete LinkedIn profile, listings on AI-readable insurance directories, and a few published articles can outrank a larger agency that has invested everything into its carrier portal and Google Ads.</p>
+            <p>This is why a solo agent with a strong independent web presence, a complete LinkedIn profile, listings on AI-readable insurance directories, and a few published articles can outrank a larger agency that has invested everything into its carrier portal and Google Ads. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Schema Markup Makes Your Data Machine-Readable</h3>
 
-            <p>Schema markup is structured code that tells AI platforms exactly what your content means. Without it, AI has to guess whether your page is about a person, a business, a service, or something else entirely. With <strong>InsuranceAgency</strong> and <strong>LocalBusiness</strong> schema on your website, you give AI a precise map: here is who I am, here is where I operate, here is what I specialize in, here is how to contact me. Most insurance agent websites have no schema markup at all, which is a significant missed opportunity.</p>
+            <p>Schema markup is structured code that tells AI platforms exactly what your content means. Without it, AI has to guess whether your page is about a person, a business, a service, or something else entirely. With <strong>InsuranceAgency</strong> and <strong>LocalBusiness</strong> schema on your website, you give AI a precise map: here is who I am, here is where I operate, here is what I specialize in, here is how to contact me. Most insurance agent websites have no schema markup at all, which is a significant missed opportunity. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* COMPARISON TABLE */}
             <table className="ae-comparison-table not-prose">
@@ -329,7 +329,7 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know which of your current profiles AI can actually read? We check all of them in your free report.</p>
+              <p>Want to know which of your current profiles AI can actually read? We check all of them in your free report. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -337,50 +337,50 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             <span className="ae-section-label" id="four-tactics">The Playbook</span>
             <h2>4 Tactics to Appear in AI Insurance Recommendations</h2>
 
-            <p>These are not theoretical. They are the specific, practical actions that separate agents who show up in AI answers from agents who do not. None of them require ad spend, and all of them compound over time.</p>
+            <p>These are not theoretical. They are the specific, practical actions that separate agents who show up in AI answers from agents who do not. None of them require ad spend, and all of them compound over time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3>Tactic 1: Build Service-Specific Pages on Your Own Website</h3>
 
-            <p>The single most impactful thing an insurance agent can do for AI visibility is create dedicated pages for each major service line. Not a single &quot;Products&quot; page with bullet points. Separate, substantive pages for auto insurance, homeowners insurance, life insurance, commercial liability, umbrella policies, and any other lines you write.</p>
+            <p>The single most impactful thing an insurance agent can do for AI visibility is create dedicated pages for each major service line. Not a single &quot;Products&quot; page with bullet points. Separate, substantive pages for auto insurance, homeowners insurance, life insurance, commercial liability, umbrella policies, and any other lines you write. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-            <p>Each page should open with a direct answer to the question a prospect would ask AI. Something like: &quot;Auto insurance in Phoenix covers liability, collision, and comprehensive losses. Here is what state minimums require, what gaps most drivers carry, and how to decide what coverage actually fits your situation.&quot; That kind of specific, locally relevant, question-answering content is exactly what AI platforms cite when they recommend professionals.</p>
+            <p>Each page should open with a direct answer to the question a prospect would ask AI. Something like: &quot;Auto insurance in Phoenix covers liability, collision, and comprehensive losses. Here is what state minimums require, what gaps most drivers carry, and how to decide what coverage actually fits your situation.&quot; That kind of specific, locally relevant, question-answering content is exactly what AI platforms cite when they recommend professionals. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>What works in practice:</strong> An independent agent in Columbus with individual pages for each coverage type, written to answer the specific questions Ohio drivers and homeowners ask, will consistently outrank a larger agency whose website has a generic services overview. Specificity and clarity beat size and ad spend every time in AI search.</p>
+              <p><strong>What works in practice:</strong> An independent agent in Columbus with individual pages for each coverage type, written to answer the specific questions Ohio drivers and homeowners ask, will consistently outrank a larger agency whose website has a generic services overview. Specificity and clarity beat size and ad spend every time in AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <h3>Tactic 2: List Your Credentials in Crawlable Text</h3>
 
-            <p>Insurance credentials are among the strongest trust signals AI evaluates when forming professional recommendations. Designations like CPCU (Chartered Property Casualty Underwriter), CLU (Chartered Life Underwriter), ChFC (Chartered Financial Consultant), and CIC (Certified Insurance Counselor) carry weight because AI can cross-reference them with the issuing organizations.</p>
+            <p>Insurance credentials are among the strongest trust signals AI evaluates when forming professional recommendations. Designations like CPCU (Chartered Property Casualty Underwriter), CLU (Chartered Life Underwriter), ChFC (Chartered Financial Consultant), and CIC (Certified Insurance Counselor) carry weight because AI can cross-reference them with the issuing organizations. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-            <p>The critical detail: credentials must appear as readable text on your website, not embedded in an image, a designed graphic, or a PDF. AI crawlers cannot read images. If your CPCU designation exists only as a logo on your homepage banner, AI has no idea you hold it. List your licenses, designations, years of experience, and carrier appointments as plain HTML text on your about page and relevant service pages.</p>
+            <p>The critical detail: credentials must appear as readable text on your website, not embedded in an image, a designed graphic, or a PDF. AI crawlers cannot read images. If your CPCU designation exists only as a logo on your homepage banner, AI has no idea you hold it. List your licenses, designations, years of experience, and carrier appointments as plain HTML text on your about page and relevant service pages. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Your credentials are your AI resume. They need to be in a format AI can read, which means plain text on your own website, not images, PDFs, or portal profiles behind login walls.</p>
+              <p>Your credentials are your AI resume. They need to be in a format AI can read, which means plain text on your own website, not images, PDFs, or portal profiles behind login walls. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <h3>Tactic 3: Publish FAQ Content That Matches Real Questions</h3>
 
-            <p>AI platforms are built to answer questions. When your website has dedicated FAQ content that matches the exact questions insurance buyers ask, you become a primary source for those AI answers. Think about the questions you answer on the phone every week: What is the difference between term and whole life? Does my home insurance cover floods? How much liability coverage do I actually need? What happens if my teen driver gets in an accident?</p>
+            <p>AI platforms are built to answer questions. When your website has dedicated FAQ content that matches the exact questions insurance buyers ask, you become a primary source for those AI answers. Think about the questions you answer on the phone every week: What is the difference between term and whole life? Does my home insurance cover floods? How much liability coverage do I actually need? What happens if my teen driver gets in an accident? Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Those questions, answered clearly and specifically on your website with FAQPage schema markup, position you as the authoritative source AI draws from when a buyer asks the same question. A well-structured FAQ page with 10 to 15 insurance-specific questions is often more valuable for AI visibility than a month of social media posts.</p>
+            <p>Those questions, answered clearly and specifically on your website with FAQPage schema markup, position you as the authoritative source AI draws from when a buyer asks the same question. A well-structured FAQ page with 10 to 15 insurance-specific questions is often more valuable for AI visibility than a month of social media posts. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>The schema piece matters:</strong> Adding FAQPage schema to your FAQ content tells AI platforms that this content is structured question-and-answer data, not generic prose. It significantly increases the likelihood that your answers get cited verbatim in AI responses. This is one of the highest-ROI technical changes an insurance agent can make.</p>
+              <p><strong>The schema piece matters:</strong> Adding FAQPage schema to your FAQ content tells AI platforms that this content is structured question-and-answer data, not generic prose. It significantly increases the likelihood that your answers get cited verbatim in AI responses. This is one of the highest-ROI technical changes an insurance agent can make. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your FAQ content has the right structure for AI citations? We check that in your free report.</p>
+              <p>Not sure if your FAQ content has the right structure for AI citations? We check that in your free report. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
             <h3>Tactic 4: Build Consistent Listings on AI-Readable Directories</h3>
 
-            <p>AI platforms corroborate what your website says by checking whether the same information appears consistently across other authoritative sources. For insurance agents, this means maintaining complete, accurate, and consistent profiles on directories that AI can actually crawl.</p>
+            <p>AI platforms corroborate what your website says by checking whether the same information appears consistently across other authoritative sources. For insurance agents, this means maintaining complete, accurate, and consistent profiles on directories that AI can actually crawl. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>The most valuable directories for insurance agent AI visibility are the Independent Insurance Agents and Brokers of America (IIABA) member directory, the Trusted Choice agent finder, the National Association of Insurance Commissioners license lookup, your state insurance department&apos;s agent directory, and LinkedIn. Your name, business name, phone number, email, and service territory need to match exactly across every platform.</p>
+            <p>The most valuable directories for insurance agent AI visibility are the Independent Insurance Agents and Brokers of America (IIABA) member directory, the Trusted Choice agent finder, the National Association of Insurance Commissioners license lookup, your state insurance department&apos;s agent directory, and LinkedIn. Your name, business name, phone number, email, and service territory need to match exactly across every platform. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* PROS/CONS */}
             <div className="ae-pros-cons not-prose">
@@ -410,11 +410,11 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
               </div>
             </div>
 
-            <p>Inconsistency is a red flag for AI. If your website says your name is &quot;James R. Thornton Insurance&quot; but your LinkedIn says &quot;Jim Thornton&quot; and your IIABA listing says &quot;Thornton Insurance Group,&quot; AI cannot confidently connect these as the same entity. It will either recommend someone else or omit you entirely. Consistency across every platform you control is a prerequisite for AI trust.</p>
+            <p>Inconsistency is a red flag for AI. If your website says your name is &quot;James R. Thornton Insurance&quot; but your LinkedIn says &quot;Jim Thornton&quot; and your IIABA listing says &quot;Thornton Insurance Group,&quot; AI cannot confidently connect these as the same entity. It will either recommend someone else or omit you entirely. Consistency across every platform you control is a prerequisite for AI trust. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Inconsistent listings are one of the most common AI visibility killers. We audit yours for free.</p>
+              <p>Inconsistent listings are one of the most common AI visibility killers. We audit yours for free. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Check Your Listing Consistency &rarr;</Link>
             </div>
 
@@ -422,15 +422,15 @@ export default function DoInsuranceAgentsShowUpOnChatGPT() {
             <span className="ae-section-label" id="what-not-to-do">Common Mistakes</span>
             <h2>What Does Not Work (Common Misconceptions)</h2>
 
-            <p>Before covering the cheat sheet, it is worth naming the tactics agents invest in that do nothing for AI visibility. This is not to discount those tactics entirely, many still have value in other channels. But understanding what AI cannot see prevents wasted effort and misplaced expectations.</p>
+            <p>Before covering the cheat sheet, it is worth naming the tactics agents invest in that do nothing for AI visibility. This is not to discount those tactics entirely, many still have value in other channels. But understanding what AI cannot see prevents wasted effort and misplaced expectations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <h3>Paying for Ads Does Not Create AI Visibility</h3>
 
-            <p>ChatGPT, Perplexity, and Claude do not accept advertising, and they cannot read most ad-driven placements behind JavaScript. Google AI Overviews draw from organic content, not paid search results. An agent spending $2,000 per month on Google Ads or Yelp campaigns is buying visibility in those channels, which is a legitimate strategy, but it does nothing for AI search.</p>
+            <p>ChatGPT, Perplexity, and Claude do not accept advertising, and they cannot read most ad-driven placements behind JavaScript. Google AI Overviews draw from organic content, not paid search results. An agent spending $2,000 per month on Google Ads or Yelp campaigns is buying visibility in those channels, which is a legitimate strategy, but it does nothing for AI search. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>More Google Reviews Does Not Directly Move AI Rankings</h3>
 
-            <p>Google reviews sit behind Google&apos;s own infrastructure. ChatGPT and Perplexity cannot access them. This does not mean reviews are unimportant. Reviews on AI-crawlable platforms and testimonials published as plain text on your own website absolutely contribute to AI trust signals. But accumulating Google reviews in hopes of showing up in ChatGPT answers is a mismatch between the channel and the goal. For a deeper look at how reviews interact with AI platforms, see our guide on <Link href="/blog/do-google-reviews-affect-ai-recommendations">how Google reviews affect AI recommendations</Link>.</p>
+            <p>Google reviews sit behind Google&apos;s own infrastructure. ChatGPT and Perplexity cannot access them. This does not mean reviews are unimportant. Reviews on AI-crawlable platforms and testimonials published as plain text on your own website absolutely contribute to AI trust signals. But accumulating Google reviews in hopes of showing up in ChatGPT answers is a mismatch between the channel and the goal. For a deeper look at how reviews interact with AI platforms, see our guide on <Link href="/blog/do-google-reviews-affect-ai-recommendations">how Google reviews affect AI recommendations</Link>. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <h3>Social Media Activity Does Not Substitute for a Substantive Website</h3>
 

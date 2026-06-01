@@ -236,7 +236,7 @@ export default function Page() {
           <div className="relative px-8 py-16 sm:px-12 sm:py-20">
             <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">How-To Guides</p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">{title}</h1>
-            <p className="text-lg text-gray-300 max-w-2xl mb-6">You can write the best content on the internet. But if ChatGPT does not trust the source, that content will never surface in an AI answer. Here is what separates the pages that get cited from the ones that get ignored.</p>
+            <p className="text-lg text-gray-300 max-w-2xl mb-6">You can write the best content on the internet. But if ChatGPT does not trust the source, that content will never surface in an AI answer. Here is what separates the pages that get cited from the ones that get ignored. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <div className="flex items-center gap-4 text-sm text-gray-400">
               <span>March 30, 2026</span><span>&#183;</span><span>12 min read</span><span>&#183;</span><span>Justin Borges</span>
             </div>
@@ -275,7 +275,7 @@ export default function Page() {
 
           {/* ══════════════ CTA 1 ══════════════ */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering if AI trusts your content right now? Find out in under 60 seconds.</p>
+            <p>Wondering if AI trusts your content right now? Find out in under 60 seconds. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -301,25 +301,25 @@ export default function Page() {
             <span className="ae-section-label" id="trust-gap">The Problem</span>
             <h2>The Trust Gap: Why Great Content Gets Ignored by AI</h2>
 
-            <p>There is a growing disconnect between content quality and AI visibility. Businesses pour thousands into well-researched blog posts, case studies, and service pages. The writing is sharp. The design is polished. Humans read it and love it. And ChatGPT? ChatGPT does not even know it exists.</p>
+            <p>There is a growing disconnect between content quality and AI visibility. Businesses pour thousands into well-researched blog posts, case studies, and service pages. The writing is sharp. The design is polished. Humans read it and love it. And ChatGPT? ChatGPT does not even know it exists. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-            <p>The reason is simple but uncomfortable: <strong>ChatGPT does not evaluate content the way a human reader does.</strong> It does not appreciate your clever headlines, your brand voice, or your beautiful photography. It evaluates a completely different set of signals. Signals that most content creators have never been taught to optimize for.</p>
+            <p>The reason is simple but uncomfortable: <strong>ChatGPT does not evaluate content the way a human reader does.</strong> It does not appreciate your clever headlines, your brand voice, or your beautiful photography. It evaluates a completely different set of signals. Signals that most content creators have never been taught to optimize for. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>When ChatGPT needs to cite a source, it runs a multi-layered evaluation. It assesses cosine similarity (how closely your content matches the query), entity trust (whether your brand is a recognized authority), third-party validation (what others say about you), and community sentiment (what real users think). Miss on any of these layers and your content falls out of the citation pool entirely.</p>
+            <p>When ChatGPT needs to cite a source, it runs a multi-layered evaluation. It assesses cosine similarity (how closely your content matches the query), entity trust (whether your brand is a recognized authority), third-party validation (what others say about you), and community sentiment (what real users think). Miss on any of these layers and your content falls out of the citation pool entirely. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-quote not-prose">
-              <p>The best content in the world is invisible to AI if the AI has no reason to trust the source. Trust is not earned by writing well. It is earned by building a verifiable authority profile across the entire web.</p>
+              <p>The best content in the world is invisible to AI if the AI has no reason to trust the source. Trust is not earned by writing well. It is earned by building a verifiable authority profile across the entire web. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* ── CALLOUT: WARNING ── */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Wikipedia Problem</div>
-              <p>Wikipedia alone accounts for 12.1% of all ChatGPT citations. That is a single domain capturing more than one in ten references. Why? Because Wikipedia has nearly perfect scores across every trust dimension: entity clarity, third-party validation, content freshness, and community consensus. You cannot outrank Wikipedia, but you can learn from its trust architecture.</p>
+              <p>Wikipedia alone accounts for 12.1% of all ChatGPT citations. That is a single domain capturing more than one in ten references. Why? Because Wikipedia has nearly perfect scores across every trust dimension: entity clarity, third-party validation, content freshness, and community consensus. You cannot outrank Wikipedia, but you can learn from its trust architecture. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Your content might read beautifully. But does ChatGPT see it as trustworthy? Find out.</p>
+              <p>Your content might read beautifully. But does ChatGPT see it as trustworthy? Find out. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Get Your Free AI Trust Audit &rarr;</Link>
             </div>
 
@@ -327,9 +327,9 @@ export default function Page() {
             <span className="ae-section-label" id="what-chatgpt-evaluates">The Evaluation</span>
             <h2>What ChatGPT Actually Evaluates Before Citing You</h2>
 
-            <p>ChatGPT does not randomly select sources. It weights a specific set of factors when deciding which content deserves citation. Understanding these factors is the difference between publishing content that generates leads and publishing content that generates nothing.</p>
+            <p>ChatGPT does not randomly select sources. It weights a specific set of factors when deciding which content deserves citation. Understanding these factors is the difference between publishing content that generates leads and publishing content that generates nothing. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>The evaluation happens in layers. First, semantic relevance: does your content actually answer the question being asked? Second, entity authority: is the source a known, trusted entity? Third, validation: do other credible sources confirm your authority? Fourth, freshness: is this information current? Each layer filters out more sources until only the most trusted remain.</p>
+            <p>The evaluation happens in layers. First, semantic relevance: does your content actually answer the question being asked? Second, entity authority: is the source a known, trusted entity? Third, validation: do other credible sources confirm your authority? Fourth, freshness: is this information current? Each layer filters out more sources until only the most trusted remain. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── COMPARISON TABLE ── */}
             <div className="ae-comparison-table not-prose overflow-x-auto">
@@ -377,17 +377,17 @@ export default function Page() {
               </table>
             </div>
 
-            <p>The businesses that get cited consistently are not the ones with the most content. They are the ones that score well across all of these layers simultaneously. Learn more about how this applies to your site in our guide on <Link href="/blog/make-your-site-the-one-ai-trusts">making your site the one AI trusts</Link>.</p>
+            <p>The businesses that get cited consistently are not the ones with the most content. They are the ones that score well across all of these layers simultaneously. Learn more about how this applies to your site in our guide on <Link href="/blog/make-your-site-the-one-ai-trusts">making your site the one AI trusts</Link>. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CTA 2b (Comparison Table — inline) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>See exactly how your site scores against these six trust factors — free in under 60 seconds.</p>
+              <p>See exactly how your site scores against these six trust factors — free in under 60 seconds. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free AI Trust Score &rarr;</Link>
             </div>
 
             {/* ── CTA 3 (tel) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know how your site scores across all six trust factors? Talk to our team.</p>
+              <p>Want to know how your site scores across all six trust factors? Talk to our team. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
             </div>
 
@@ -395,11 +395,11 @@ export default function Page() {
             <span className="ae-section-label" id="answer-capsules">The Content Format</span>
             <h2>Answer Capsules: The Format AI Loves Most</h2>
 
-            <p>After analyzing thousands of pages that ChatGPT cites versus those it ignores, one pattern stands out above all others: the presence of what we call &quot;answer capsules.&quot;</p>
+            <p>After analyzing thousands of pages that ChatGPT cites versus those it ignores, one pattern stands out above all others: the presence of what we call &quot;answer capsules.&quot; Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-            <p>An answer capsule is a concise, direct summary of 40 to 60 words that answers a specific question right at the top of a section. It is not a teaser. It is not a hook. It is the answer, delivered clearly and completely in a format that AI can extract, verify, and cite.</p>
+            <p>An answer capsule is a concise, direct summary of 40 to 60 words that answers a specific question right at the top of a section. It is not a teaser. It is not a hook. It is the answer, delivered clearly and completely in a format that AI can extract, verify, and cite. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>Think about how ChatGPT generates responses. It needs to pull a confident, self-contained answer from your page. If your answer is buried in the fourth paragraph behind an anecdote and two subheadings, the AI moves on to a source that leads with the answer. <strong>Pages that lead with answer capsules are dramatically more likely to be cited.</strong></p>
+            <p>Think about how ChatGPT generates responses. It needs to pull a confident, self-contained answer from your page. If your answer is buried in the fourth paragraph behind an anecdote and two subheadings, the AI moves on to a source that leads with the answer. <strong>Pages that lead with answer capsules are dramatically more likely to be cited.</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* ── DECISION MATRIX ── */}
             <div className="ae-decision-matrix not-prose overflow-x-auto">
@@ -441,7 +441,7 @@ export default function Page() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Our Blind Spot Report shows you exactly which pages need answer capsules and which are already optimized.</p>
+              <p>Our Blind Spot Report shows you exactly which pages need answer capsules and which are already optimized. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -449,11 +449,11 @@ export default function Page() {
             <span className="ae-section-label" id="authority-signals">Trust Architecture</span>
             <h2>Authority Signals That Money Cannot Buy</h2>
 
-            <p>Domain authority plays a significant role in whether ChatGPT considers your content credible. But domain authority in the AI context is different from the Moz or Ahrefs metric you might be familiar with. ChatGPT evaluates authority through a combination of signals that are much harder to fake.</p>
+            <p>Domain authority plays a significant role in whether ChatGPT considers your content credible. But domain authority in the AI context is different from the Moz or Ahrefs metric you might be familiar with. ChatGPT evaluates authority through a combination of signals that are much harder to fake. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-            <p>Third-party awards and accreditations function as independent trust validators. When the Better Business Bureau, a professional association, or a recognized industry body lists your business, that creates a verification point that AI platforms weigh heavily. These are not links. They are trust anchors.</p>
+            <p>Third-party awards and accreditations function as independent trust validators. When the Better Business Bureau, a professional association, or a recognized industry body lists your business, that creates a verification point that AI platforms weigh heavily. These are not links. They are trust anchors. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>Proprietary insights and first-party data are the other major differentiator. When your content references original research, internal case studies, or data that cannot be found anywhere else, ChatGPT treats you as a primary source rather than a secondary one. Primary sources get cited. Secondary sources get skipped.</p>
+            <p>Proprietary insights and first-party data are the other major differentiator. When your content references original research, internal case studies, or data that cannot be found anywhere else, ChatGPT treats you as a primary source rather than a secondary one. Primary sources get cited. Secondary sources get skipped. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── PROS/CONS ── */}
             <div className="ae-pros-cons not-prose">
@@ -481,17 +481,17 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The businesses we work with that earn consistent AI citations share a common pattern: they did not just build great content. They built an entire trust ecosystem around their content. That ecosystem is what ChatGPT evaluates, and it is what most competitors have not figured out yet. For more on how blog content specifically factors in, read our analysis of <Link href="/blog/why-your-blog-not-getting-ai-citations">why most blogs fail to get AI citations</Link>.</p>
+            <p>The businesses we work with that earn consistent AI citations share a common pattern: they did not just build great content. They built an entire trust ecosystem around their content. That ecosystem is what ChatGPT evaluates, and it is what most competitors have not figured out yet. For more on how blog content specifically factors in, read our analysis of <Link href="/blog/why-your-blog-not-getting-ai-citations">why most blogs fail to get AI citations</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* ── CALLOUT: ORANGE ── */}
             <div className="ae-callout ae-callout-orange not-prose">
               <div className="ae-callout-title">The Proprietary Data Advantage</div>
-              <p>Pages containing original data, internal case studies, or first-party research are cited at dramatically higher rates than pages summarizing publicly available information. If you have data that nobody else has, you have a citation advantage that competitors cannot replicate. The challenge is structuring and surfacing that data in a format AI can parse.</p>
+              <p>Pages containing original data, internal case studies, or first-party research are cited at dramatically higher rates than pages summarizing publicly available information. If you have data that nobody else has, you have a citation advantage that competitors cannot replicate. The challenge is structuring and surfacing that data in a format AI can parse. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             {/* ── CTA 5 (mailto) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure what trust signals your business already has (or is missing)? We will map them for you.</p>
+              <p>Not sure what trust signals your business already has (or is missing)? We will map them for you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -499,11 +499,11 @@ export default function Page() {
             <span className="ae-section-label" id="schema-and-structure">Technical Foundation</span>
             <h2>Schema Markup and Content Structure: The Technical Layer</h2>
 
-            <p>Here is a stat that should change how you think about your website: <strong>pages with schema markup see 2.8x higher citation rates from AI platforms.</strong> That is not a marginal improvement. It is a fundamental shift in visibility.</p>
+            <p>Here is a stat that should change how you think about your website: <strong>pages with schema markup see 2.8x higher citation rates from AI platforms.</strong> That is not a marginal improvement. It is a fundamental shift in visibility. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-            <p>Schema markup is the language that helps AI platforms understand what your content is about, who wrote it, when it was published, and how it relates to other content on your site. Without schema, AI has to guess. And AI does not like guessing. It prefers certainty, so it cites sources where it can be certain about the context.</p>
+            <p>Schema markup is the language that helps AI platforms understand what your content is about, who wrote it, when it was published, and how it relates to other content on your site. Without schema, AI has to guess. And AI does not like guessing. It prefers certainty, so it cites sources where it can be certain about the context. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
-            <p>But schema alone is not enough. The content structure itself matters. Clear heading hierarchies (H1, H2, H3), FAQ sections with direct answers, and logical page organization all contribute to how easily AI can parse, understand, and ultimately cite your content.</p>
+            <p>But schema alone is not enough. The content structure itself matters. Clear heading hierarchies (H1, H2, H3), FAQ sections with direct answers, and logical page organization all contribute to how easily AI can parse, understand, and ultimately cite your content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* ── BAR GROUP ── */}
             <div className="ae-bar-group not-prose">
@@ -532,7 +532,7 @@ export default function Page() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Our audit checks your schema implementation, content structure, and answer-readiness across every page.</p>
+              <p>Our audit checks your schema implementation, content structure, and answer-readiness across every page. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -540,11 +540,11 @@ export default function Page() {
             <span className="ae-section-label" id="freshness-factor">The Decay Problem</span>
             <h2>The Freshness Factor Most Businesses Ignore</h2>
 
-            <p>Content freshness is the silent citation killer. You write a definitive guide. It earns citations for a few months. Then, without warning, the citations dry up. What happened?</p>
+            <p>Content freshness is the silent citation killer. You write a definitive guide. It earns citations for a few months. Then, without warning, the citations dry up. What happened? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-            <p>AI platforms weight recency. A page last updated in 2024 is competing against pages updated in 2026. If the newer content is comparable in quality and authority, the AI will favor the fresher source. This means content is not a &quot;publish and forget&quot; asset. It requires ongoing maintenance to retain its citation value.</p>
+            <p>AI platforms weight recency. A page last updated in 2024 is competing against pages updated in 2026. If the newer content is comparable in quality and authority, the AI will favor the fresher source. This means content is not a &quot;publish and forget&quot; asset. It requires ongoing maintenance to retain its citation value. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-            <p>The minimum update frequency for maintaining AI trust is quarterly. That does not mean rewriting entire pages every 90 days. It means refreshing statistics, updating examples, adding new insights, and confirming that every claim is still accurate. AI platforms can detect when a &quot;2026 update&quot; is just a date change with no substantive revisions. We cover the freshness factor in depth in our article on <Link href="/blog/why-fresh-content-key-ai-search-visibility">why fresh content is key to AI search visibility</Link>.</p>
+            <p>The minimum update frequency for maintaining AI trust is quarterly. That does not mean rewriting entire pages every 90 days. It means refreshing statistics, updating examples, adding new insights, and confirming that every claim is still accurate. AI platforms can detect when a &quot;2026 update&quot; is just a date change with no substantive revisions. We cover the freshness factor in depth in our article on <Link href="/blog/why-fresh-content-key-ai-search-visibility">why fresh content is key to AI search visibility</Link>. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* ── CALLOUT: INFO ── */}
             <div className="ae-callout ae-callout-info not-prose">

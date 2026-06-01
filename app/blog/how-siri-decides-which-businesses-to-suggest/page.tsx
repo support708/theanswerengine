@@ -277,23 +277,23 @@ export default function Page() {
             <span className="ae-section-label" id="siri-evolution">The Shift</span>
             <h2>Siri&apos;s Evolution From Voice Assistant to Answer Engine</h2>
 
-            <p>For years, Siri was the assistant you asked to set timers and play music. That era is ending. Apple Intelligence is transforming Siri into something much more powerful: an AI system that understands context, synthesizes information from multiple sources, and delivers specific recommendations rather than generic search results.</p>
+            <p>For years, Siri was the assistant you asked to set timers and play music. That era is ending. Apple Intelligence is transforming Siri into something much more powerful: an AI system that understands context, synthesizes information from multiple sources, and delivers specific recommendations rather than generic search results. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>When someone asks Siri &quot;best dentist near me&quot; or &quot;water damage repair near me,&quot; the response is no longer just a list of blue links pulled from a web search. With Apple Intelligence, Siri generates a conversational answer that names specific businesses, explains why they are relevant, and pulls supporting data from reviews, ratings, and web content.</p>
+            <p>When someone asks Siri &quot;best dentist near me&quot; or &quot;water damage repair near me,&quot; the response is no longer just a list of blue links pulled from a web search. With Apple Intelligence, Siri generates a conversational answer that names specific businesses, explains why they are relevant, and pulls supporting data from reviews, ratings, and web content. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>This is the same fundamental shift we have seen with <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">ChatGPT, Perplexity, and Google AI Overviews</Link>. The difference is scale. Apple controls the hardware, the operating system, and the default assistant on 2.2 billion devices. When Siri becomes a true answer engine, it instantly becomes the most widely distributed one on the planet.</p>
+            <p>This is the same fundamental shift we have seen with <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">ChatGPT, Perplexity, and Google AI Overviews</Link>. The difference is scale. Apple controls the hardware, the operating system, and the default assistant on 2.2 billion devices. When Siri becomes a true answer engine, it instantly becomes the most widely distributed one on the planet. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Apple Intelligence context:</strong> iOS 26.4 introduces on-screen context awareness for Siri. This means Siri can see what is on your screen, understand your location and habits, and factor all of that into its recommendations. A user looking at a restaurant&apos;s Instagram post can ask Siri &quot;is this place good?&quot; and get an AI-generated summary pulling from reviews, ratings, and web mentions.</p>
+              <p><strong>Apple Intelligence context:</strong> iOS 26.4 introduces on-screen context awareness for Siri. This means Siri can see what is on your screen, understand your location and habits, and factor all of that into its recommendations. A user looking at a restaurant&apos;s Instagram post can ask Siri &quot;is this place good?&quot; and get an AI-generated summary pulling from reviews, ratings, and web mentions. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <div className="ae-quote not-prose">
-              <p>Siri is not just answering questions anymore. It is recommending businesses. If your business is not in the data Siri pulls from, you do not exist in that conversation.</p>
+              <p>Siri is not just answering questions anymore. It is recommending businesses. If your business is not in the data Siri pulls from, you do not exist in that conversation. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if Siri can see your business right now.</p>
+              <p>Find out if Siri can see your business right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -301,32 +301,32 @@ export default function Page() {
             <span className="ae-section-label" id="data-sources">Data Sources</span>
             <h2>Where Siri Pulls Business Data From</h2>
 
-            <p>Understanding Siri&apos;s recommendation engine starts with understanding its data pipeline. Siri does not rely on a single source. It aggregates information from multiple channels and synthesizes them into a unified recommendation.</p>
+            <p>Understanding Siri&apos;s recommendation engine starts with understanding its data pipeline. Siri does not rely on a single source. It aggregates information from multiple channels and synthesizes them into a unified recommendation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Apple Maps and Apple Business Connect</strong>
-                <p>The primary data source for local business queries. Your Apple Maps listing is the foundation of how Siri understands your business: name, address, hours, categories, photos, and special features. Apple Business Connect is the free tool that lets you claim and manage this listing.</p>
+                <p>The primary data source for local business queries. Your Apple Maps listing is the foundation of how Siri understands your business: name, address, hours, categories, photos, and special features. Apple Business Connect is the free tool that lets you claim and manage this listing. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Reviews and Ratings</strong>
-                <p>Siri weighs review signals from Apple Maps reviews, and also pulls sentiment data from across the web. Businesses with consistently positive reviews across multiple platforms get stronger recommendation signals.</p>
+                <p>Siri weighs review signals from Apple Maps reviews, and also pulls sentiment data from across the web. Businesses with consistently positive reviews across multiple platforms get stronger recommendation signals. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Web Content and Structured Data</strong>
-                <p>Siri crawls web content to build context about businesses. Schema markup, FAQ pages, service descriptions, and location pages all feed into how Siri understands what you offer and where you operate.</p>
+                <p>Siri crawls web content to build context about businesses. Schema markup, FAQ pages, service descriptions, and location pages all feed into how Siri understands what you offer and where you operate. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>On-Device Context and User Behavior</strong>
-                <p>Apple Intelligence adds a layer that no other AI platform has: on-device data. Siri can factor in your location history, app usage patterns, and even what is currently on your screen. This makes its recommendations uniquely personalized.</p>
+                <p>Apple Intelligence adds a layer that no other AI platform has: on-device data. Siri can factor in your location history, app usage patterns, and even what is currently on your screen. This makes its recommendations uniquely personalized. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
             </div>
 
-            <p>The key insight here is that Siri&apos;s recommendation engine is multi-layered. A business that only optimizes for Google search is invisible to several of these data channels. Getting found by Siri requires presence across the Apple ecosystem specifically, not just the open web.</p>
+            <p>The key insight here is that Siri&apos;s recommendation engine is multi-layered. A business that only optimizes for Google search is invisible to several of these data channels. Getting found by Siri requires presence across the Apple ecosystem specifically, not just the open web. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know which data channels Siri can and cannot see for your business?</p>
+              <p>Want to know which data channels Siri can and cannot see for your business? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Analysis &rarr;</a>
             </div>
 
@@ -334,14 +334,14 @@ export default function Page() {
             <span className="ae-section-label" id="apple-intelligence">AI Layer</span>
             <h2>Apple Intelligence: The New Ranking Layer</h2>
 
-            <p>Apple Intelligence is not just a feature update. It is a fundamental change in how Siri processes and presents information. Before Apple Intelligence, Siri was essentially a routing system: it took your query and routed it to the appropriate data source (Apple Maps, web search, etc.). Now, Siri is a reasoning system that synthesizes data before presenting it.</p>
+            <p>Apple Intelligence is not just a feature update. It is a fundamental change in how Siri processes and presents information. Before Apple Intelligence, Siri was essentially a routing system: it took your query and routed it to the appropriate data source (Apple Maps, web search, etc.). Now, Siri is a reasoning system that synthesizes data before presenting it. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-            <p>Here is what changes with Apple Intelligence enhanced Siri. For a query like &quot;best HVAC repair near me,&quot; the old Siri would show a list of Apple Maps results sorted by proximity and rating. The new Siri generates a conversational response: &quot;Based on ratings and reviews, ABC Heating is highly rated in your area, with a 4.8 rating and same-day availability. They specialize in emergency repairs.&quot;</p>
+            <p>Here is what changes with Apple Intelligence enhanced Siri. For a query like &quot;best HVAC repair near me,&quot; the old Siri would show a list of Apple Maps results sorted by proximity and rating. The new Siri generates a conversational response: &quot;Based on ratings and reviews, ABC Heating is highly rated in your area, with a 4.8 rating and same-day availability. They specialize in emergency repairs.&quot; Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-            <p>This conversational format means one or two businesses get named directly. Everyone else is invisible. The businesses that Siri chooses to name are the ones with the strongest signals across all of its data sources.</p>
+            <p>This conversational format means one or two businesses get named directly. Everyone else is invisible. The businesses that Siri chooses to name are the ones with the strongest signals across all of its data sources. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <p><strong>Behind the scenes:</strong> Apple has partnered with Google Gemini to handle complex reasoning tasks while Apple controls the UI and privacy layer. This means Siri&apos;s AI summaries leverage powerful language model capabilities, but all data processing happens within Apple&apos;s privacy framework. Your business data is synthesized, not stored.</p>
+              <p><strong>Behind the scenes:</strong> Apple has partnered with Google Gemini to handle complex reasoning tasks while Apple controls the UI and privacy layer. This means Siri&apos;s AI summaries leverage powerful language model capabilities, but all data processing happens within Apple&apos;s privacy framework. Your business data is synthesized, not stored. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             <div className="ae-bar-group not-prose">
@@ -369,7 +369,7 @@ export default function Page() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your business is ready for Apple Intelligence Siri?</p>
+              <p>Not sure if your business is ready for Apple Intelligence Siri? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Free Apple Ecosystem Audit &rarr;</a>
             </div>
 
@@ -377,7 +377,7 @@ export default function Page() {
             <span className="ae-section-label" id="signals">Ranking Signals</span>
             <h2>The Signals That Determine Siri Recommendations</h2>
 
-            <p>Based on observable patterns in Siri&apos;s recommendation behavior across iOS 26, there are clear signals that influence which businesses Siri names in its AI summaries. These signals work together, and no single factor guarantees a recommendation.</p>
+            <p>Based on observable patterns in Siri&apos;s recommendation behavior across iOS 26, there are clear signals that influence which businesses Siri names in its AI summaries. These signals work together, and no single factor guarantees a recommendation. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-decision-matrix not-prose">
               <table>
@@ -432,24 +432,24 @@ export default function Page() {
 
             <h3>Apple Business Connect: The Non-Negotiable Foundation</h3>
 
-            <p>If your Apple Business Connect listing is unclaimed or incomplete, Siri has almost no structured data to work with for your business. This is the single most impactful and easiest signal to fix. Claiming and completing your listing gives Siri the foundational data it needs: business name, hours, categories, photos, payment methods, and special attributes.</p>
+            <p>If your Apple Business Connect listing is unclaimed or incomplete, Siri has almost no structured data to work with for your business. This is the single most impactful and easiest signal to fix. Claiming and completing your listing gives Siri the foundational data it needs: business name, hours, categories, photos, payment methods, and special attributes. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Review Signals: Volume, Recency, and Sentiment</h3>
 
-            <p>Siri weighs reviews heavily when generating recommendations. But it is not just about star ratings. The recency of reviews matters because Siri wants to recommend businesses that are currently delivering good experiences. A business with 50 reviews from three years ago ranks lower than one with 20 reviews from the past three months.</p>
+            <p>Siri weighs reviews heavily when generating recommendations. But it is not just about star ratings. The recency of reviews matters because Siri wants to recommend businesses that are currently delivering good experiences. A business with 50 reviews from three years ago ranks lower than one with 20 reviews from the past three months. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>NAP Consistency: The Trust Signal</h3>
 
-            <p>Name, Address, and Phone number consistency across the web is a trust signal for Siri. If your business name is slightly different on Apple Maps versus your website versus <Link href="/blog/directory-listings-that-help-ai-find-business">your directory listings</Link>, Siri&apos;s AI has lower confidence in your data accuracy. Consistent NAP across all platforms reinforces your entity identity.</p>
+            <p>Name, Address, and Phone number consistency across the web is a trust signal for Siri. If your business name is slightly different on Apple Maps versus your website versus <Link href="/blog/directory-listings-that-help-ai-find-business">your directory listings</Link>, Siri&apos;s AI has lower confidence in your data accuracy. Consistent NAP across all platforms reinforces your entity identity. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Apple Business Connect is the fastest, highest-impact action any business can take for Siri visibility. It takes minutes to claim and costs nothing. Every other optimization builds on this foundation.</p>
+              <p>Apple Business Connect is the fastest, highest-impact action any business can take for Siri visibility. It takes minutes to claim and costs nothing. Every other optimization builds on this foundation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>We check your visibility across all AI platforms, including Apple&apos;s ecosystem.</p>
+              <p>We check your visibility across all AI platforms, including Apple&apos;s ecosystem. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -457,7 +457,7 @@ export default function Page() {
             <span className="ae-section-label" id="comparison">Platform Comparison</span>
             <h2>Siri vs. ChatGPT vs. Google AI for Local Business</h2>
 
-            <p>Each major AI platform has different data sources, different recommendation mechanics, and different optimization strategies. Here is how Siri compares to <Link href="/blog/chatgpt-vs-perplexity-vs-google-ai-local">ChatGPT and Google AI</Link> for local business discovery.</p>
+            <p>Each major AI platform has different data sources, different recommendation mechanics, and different optimization strategies. Here is how Siri compares to <Link href="/blog/chatgpt-vs-perplexity-vs-google-ai-local">ChatGPT and Google AI</Link> for local business discovery. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
@@ -521,12 +521,12 @@ export default function Page() {
             </table>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p><strong>Timing matters:</strong> Apple Intelligence enhanced Siri is rolling out now with iOS 26.4. Businesses that optimize their Apple ecosystem presence today will have a first-mover advantage. Once Siri&apos;s AI begins strongly favoring specific businesses in its conversational responses, displacing those recommendations becomes much harder. The window to establish your position is open right now.</p>
+              <p><strong>Timing matters:</strong> Apple Intelligence enhanced Siri is rolling out now with iOS 26.4. Businesses that optimize their Apple ecosystem presence today will have a first-mover advantage. Once Siri&apos;s AI begins strongly favoring specific businesses in its conversational responses, displacing those recommendations becomes much harder. The window to establish your position is open right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how you compare to competitors across all three AI platforms.</p>
+              <p>See how you compare to competitors across all three AI platforms. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -534,11 +534,11 @@ export default function Page() {
             <span className="ae-section-label" id="apple-business-connect">Foundation</span>
             <h2>Apple Business Connect: Your Foundation for Siri Visibility</h2>
 
-            <p>Apple Business Connect is to Siri what Google Business Profile is to Google search. It is the primary structured data source that tells Siri who you are, what you do, and where you are located. But most businesses have either never claimed their Apple Business Connect listing or filled it out incompletely.</p>
+            <p>Apple Business Connect is to Siri what Google Business Profile is to Google search. It is the primary structured data source that tells Siri who you are, what you do, and where you are located. But most businesses have either never claimed their Apple Business Connect listing or filled it out incompletely. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-            <p>The businesses that Siri recommends most consistently are the ones with complete, accurate, and regularly updated Apple Business Connect profiles. This includes high-quality photos, accurate business hours, properly selected categories, and detailed service descriptions.</p>
+            <p>The businesses that Siri recommends most consistently are the ones with complete, accurate, and regularly updated Apple Business Connect profiles. This includes high-quality photos, accurate business hours, properly selected categories, and detailed service descriptions. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-            <p>What many businesses miss is that Apple Business Connect is also connected to Apple Wallet, Apple Maps, and other Apple services. A complete listing does not just help Siri. It improves your visibility across Apple&apos;s entire ecosystem, which reinforces the signals Siri uses to generate recommendations.</p>
+            <p>What many businesses miss is that Apple Business Connect is also connected to Apple Wallet, Apple Maps, and other Apple services. A complete listing does not just help Siri. It improves your visibility across Apple&apos;s entire ecosystem, which reinforces the signals Siri uses to generate recommendations. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <div className="ae-cheat-sheet not-prose">
               <h4>Apple Ecosystem Visibility Checklist</h4>

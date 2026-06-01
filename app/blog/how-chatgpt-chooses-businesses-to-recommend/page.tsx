@@ -338,20 +338,20 @@ export default function HowChatGPTChoosesBusiness() {
 
             <p>If you have ever wondered how ChatGPT decides which local businesses to recommend, you are not alone. Over 100 million weekly users now ask AI tools for help choosing HVAC companies, plumbers, attorneys, contractors, and other local service providers. Almost no business owner understands what actually drives those recommendations.</p>
 
-            <p>This is a completely new landscape. Traditional SEO rules do not apply, Google ranking tricks do not matter, and you cannot pay your way onto ChatGPT's recommendation list.</p>
+            <p>This is a completely new landscape. Traditional SEO rules do not apply, Google ranking tricks do not matter, and you cannot pay your way onto ChatGPT's recommendation list. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Uncomfortable Truth</div>
               <p>ChatGPT is not displaying hundreds of search results like Google. It is choosing a small handful of options it believes are the safest, clearest, and most trustworthy for users. If you are not in that handful, you are invisible.</p>
             </div>
 
-            <p>After extensive testing of local service businesses across multiple industries and continuous AI citation monitoring since early 2024, we have identified exactly what makes ChatGPT choose one business over another and why it consistently recommends the same 3 to 5 companies in certain niches.</p>
+            <p>After extensive testing of local service businesses across multiple industries and continuous AI citation monitoring since early 2024, we have identified exactly what makes ChatGPT choose one business over another and why it consistently recommends the same 3 to 5 companies in certain niches. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>Understanding this matters because businesses who understand the algorithm now will hold a massive early-mover advantage for years. The window is open. It will not stay open forever.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know if ChatGPT is recommending your business or your competitors? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out in 60 seconds.</p>
+              <p>Want to know if ChatGPT is recommending your business or your competitors? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out in 60 seconds. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             {/* Section 1: How ChatGPT Processes Information */}
@@ -362,7 +362,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             <h3>Think of ChatGPT Like a Research Assistant</h3>
 
-            <p>ChatGPT is trained on millions of webpages, articles, and documents from across the internet. That training creates a base understanding of industries, terminology, best practices, and quality indicators. But when you ask ChatGPT for a current business recommendation, it does not just rely on training data. It actively browses the web in real-time.</p>
+            <p>ChatGPT is trained on millions of webpages, articles, and documents from across the internet. That training creates a base understanding of industries, terminology, best practices, and quality indicators. But when you ask ChatGPT for a current business recommendation, it does not just rely on training data. It actively browses the web in real-time. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>When a user asks &quot;Who is the best probate attorney in Los Angeles?&quot; or &quot;Who should I hire to inspect my AC system?&quot; ChatGPT evaluates six key dimensions of your online presence.</p>
 
@@ -411,7 +411,7 @@ export default function HowChatGPTChoosesBusiness() {
               </table>
             </div>
 
-            <p>It is not scanning for keywords. It is evaluating meaning, expertise, and trustworthiness. And unlike Google, ChatGPT cannot be influenced by advertising. There is no paid placement system, no bidding mechanism, and no way to buy your way into recommendations.</p>
+            <p>It is not scanning for keywords. It is evaluating meaning, expertise, and trustworthiness. And unlike Google, ChatGPT cannot be influenced by advertising. There is no paid placement system, no bidding mechanism, and no way to buy your way into recommendations. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Testing Insight</div>
@@ -420,7 +420,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your content is deep enough for AI citations? <a href="tel:+12134442229">Call (213) 444-2229</a> for a free content depth assessment.</p>
+              <p>Not sure if your content is deep enough for AI citations? <a href="tel:+12134442229">Call (213) 444-2229</a> for a free content depth assessment. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* Separator */}
@@ -475,7 +475,7 @@ export default function HowChatGPTChoosesBusiness() {
             {/* Signal 1 */}
             <h3 id="signal-1">Signal 1: Content Depth and Comprehensiveness</h3>
 
-            <p>ChatGPT strongly favors businesses with deeply educational content over thin marketing pages. It looks for pages with 1,500 to 3,000+ words explaining real processes in detail, multiple articles covering different aspects of a service, evidence that you actually understand your craft at a deep level, and specific details only a genuine expert would know.</p>
+            <p>ChatGPT strongly favors businesses with deeply educational content over thin marketing pages. It looks for pages with 1,500 to 3,000+ words explaining real processes in detail, multiple articles covering different aspects of a service, evidence that you actually understand your craft at a deep level, and specific details only a genuine expert would know. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros-box">
@@ -502,7 +502,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             <div className="ae-quote not-prose">
               <p>&quot;Ductless mini-split installation in older homes requires specific considerations for electrical capacity (typically 240V/20A minimum), wall structure assessment to support indoor units (12 to 15 lbs each), and condensate drainage planning.&quot;</p>
-              <p style={{ marginTop: '8px', fontSize: '14px', color: '#9ca3af' }}>Example of content depth that triggers ChatGPT citations vs. &quot;We install mini-splits. Call for a quote!&quot;</p>
+              <p style={{ marginTop: '8px', fontSize: '14px', color: '#9ca3af' }}>Example of content depth that triggers ChatGPT citations vs. &quot;We install mini-splits. Call for a quote!&quot; Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* Signal 2 */}
@@ -524,7 +524,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering if your content passes the expertise test? <Link href="/blindspot">Run our free AI visibility scan</Link> to see what ChatGPT actually thinks of your website.</p>
+              <p>Wondering if your content passes the expertise test? <Link href="/blindspot">Run our free AI visibility scan</Link> to see what ChatGPT actually thinks of your website. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* Signal 3 */}
@@ -535,7 +535,7 @@ export default function HowChatGPTChoosesBusiness() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Proper H1/H2/H3 Hierarchy</strong>
-                <p>Heading structure that mirrors your actual content organization</p>
+                <p>Heading structure that mirrors your actual content organization Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>FAQ Sections</strong>
@@ -543,7 +543,7 @@ export default function HowChatGPTChoosesBusiness() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Schema Markup</strong>
-                <p>Article, HowTo, FAQPage, LocalBusiness, Organization structured data</p>
+                <p>Article, HowTo, FAQPage, LocalBusiness, Organization structured data One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Service Categories</strong>
@@ -551,7 +551,7 @@ export default function HowChatGPTChoosesBusiness() {
               </div>
               <div className="ae-timeline-item">
                 <strong>List and Table Formatting</strong>
-                <p>Steps, requirements, comparisons, and specifications in scannable format</p>
+                <p>Steps, requirements, comparisons, and specifications in scannable format Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -562,7 +562,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The NAP Problem</div>
-              <p>If your Google Business Profile says &quot;ABC Plumbing LLC&quot; but your website says &quot;ABC Plumbing&quot; and Yelp says &quot;ABC Plumbing Services,&quot; ChatGPT sees three different entities instead of one. That fragmentation kills citation confidence.</p>
+              <p>If your Google Business Profile says &quot;ABC Plumbing LLC&quot; but your website says &quot;ABC Plumbing&quot; and Yelp says &quot;ABC Plumbing Services,&quot; ChatGPT sees three different entities instead of one. That fragmentation kills citation confidence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* Signal 5 */}
@@ -609,7 +609,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is your website teaching or selling? <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai</a> for a free content audit.</p>
+              <p>Is your website teaching or selling? <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai</a> for a free content audit. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             {/* Signal 6 */}
@@ -633,7 +633,7 @@ export default function HowChatGPTChoosesBusiness() {
             {/* Signal 7 */}
             <h3 id="signal-7">Signal 7: Trust and Transparency Signals</h3>
 
-            <p>AI platforms favor businesses that reduce user risk through clear transparency and realistic expectations. When ChatGPT can verify that recommending your business is safe for users, citation likelihood increases dramatically.</p>
+            <p>AI platforms favor businesses that reduce user risk through clear transparency and realistic expectations. When ChatGPT can verify that recommending your business is safe for users, citation likelihood increases dramatically. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-stats-grid not-prose">
               <div className="ae-stat-card">
@@ -720,7 +720,7 @@ export default function HowChatGPTChoosesBusiness() {
             <span className="ae-section-label">The Comparison</span>
             <h2>ChatGPT vs Google: Why Traditional SEO Tactics Do Not Work for AI Recommendations</h2>
 
-            <p>Google ranks pages based on backlinks, domain authority, keywords, and user behavior signals. ChatGPT evaluates content meaning, expertise depth, clarity, and trustworthiness through direct content analysis. Google displays hundreds of results allowing users to choose. ChatGPT selects 3 to 5 recommendations it trusts. This fundamental difference makes traditional SEO tactics ineffective for AI citations.</p>
+            <p>Google ranks pages based on backlinks, domain authority, keywords, and user behavior signals. ChatGPT evaluates content meaning, expertise depth, clarity, and trustworthiness through direct content analysis. Google displays hundreds of results allowing users to choose. ChatGPT selects 3 to 5 recommendations it trusts. This fundamental difference makes traditional SEO tactics ineffective for AI citations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* SEO vs AEO Comparison */}
             <div className="ae-comparison-table not-prose">
@@ -774,12 +774,12 @@ export default function HowChatGPTChoosesBusiness() {
             <h3>Why Backlinks Do Not Matter to ChatGPT</h3>
 
             <p><strong>Google's perspective:</strong> &quot;50 websites link to your article, so it must be valuable.&quot;</p>
-            <p><strong>ChatGPT's perspective:</strong> It reads your content directly and asks: &quot;Is this information accurate, detailed, and useful?&quot;</p>
+            <p><strong>ChatGPT's perspective:</strong> It reads your content directly and asks: &quot;Is this information accurate, detailed, and useful?&quot; <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             <p>A new business with zero backlinks but exceptional educational content can outrank established competitors with thousands of links. ChatGPT analyzes content substance, not popularity.</p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
-              <p>Tired of buying backlinks that do not move the needle? <Link href="/blindspot">See what AI platforms actually think of your content</Link>.</p>
+              <p>Tired of buying backlinks that do not move the needle? <Link href="/blindspot">See what AI platforms actually think of your content</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             <h3>Why Keyword Stuffing Backfires Catastrophically</h3>
@@ -788,7 +788,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">What Works Instead</div>
-              <p>Write naturally about your expertise. Use synonyms and varied language. Explain concepts thoroughly. ChatGPT knows &quot;slab leak repair&quot; and &quot;under-slab pipe leak detection&quot; refer to related concepts without you stuffing keywords.</p>
+              <p>Write naturally about your expertise. Use synonyms and varied language. Explain concepts thoroughly. ChatGPT knows &quot;slab leak repair&quot; and &quot;under-slab pipe leak detection&quot; refer to related concepts without you stuffing keywords. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* Separator */}
@@ -842,7 +842,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not showing up on any AI platform? <a href="tel:+12134442229">Call (213) 444-2229</a> to discuss a multi-platform optimization strategy.</p>
+              <p>Not showing up on any AI platform? <a href="tel:+12134442229">Call (213) 444-2229</a> to discuss a multi-platform optimization strategy. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <h3>Universal Optimization Strategy: What Works Everywhere</h3>
@@ -868,7 +868,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to optimize for every AI platform at once? <Link href="/blindspot">Start with your free Blind Spot Report</Link> and see where you stand today.</p>
+              <p>Ready to optimize for every AI platform at once? <Link href="/blindspot">Start with your free Blind Spot Report</Link> and see where you stand today. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             {/* Separator */}
@@ -883,7 +883,7 @@ export default function HowChatGPTChoosesBusiness() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Month 1: Content Foundation</strong>
-                <p>Audit existing pages. Expand thin service pages to 1,500+ words. Add process explanations, timelines, and pricing guidance to every service page.</p>
+                <p>Audit existing pages. Expand thin service pages to 1,500+ words. Add process explanations, timelines, and pricing guidance to every service page. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 2: Expertise Content</strong>
@@ -891,7 +891,7 @@ export default function HowChatGPTChoosesBusiness() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 3: Structure and Schema</strong>
-                <p>Implement FAQPage, HowTo, LocalBusiness, and Article schema across your site. Fix heading hierarchy and add internal linking between related content.</p>
+                <p>Implement FAQPage, HowTo, LocalBusiness, and Article schema across your site. Fix heading hierarchy and add internal linking between related content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 4: Entity Cleanup</strong>
@@ -899,7 +899,7 @@ export default function HowChatGPTChoosesBusiness() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 5: Local Authority</strong>
-                <p>Create city-specific and neighborhood-level content. Reference local building codes, climate factors, and regional considerations.</p>
+                <p>Create city-specific and neighborhood-level content. Reference local building codes, climate factors, and regional considerations. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 6 and Beyond: Monitor and Expand</strong>
@@ -909,7 +909,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want this plan built and executed for you? <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a> to learn about our done-for-you AEO program.</p>
+              <p>Want this plan built and executed for you? <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a> to learn about our done-for-you AEO program. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* Separator */}
@@ -954,7 +954,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Do not be one of the businesses that waits too long. <Link href="/blindspot">Get your free Blind Spot Report now</Link> and take the first step.</p>
+              <p>Do not be one of the businesses that waits too long. <Link href="/blindspot">Get your free Blind Spot Report now</Link> and take the first step. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
 
             {/* Separator */}
@@ -976,13 +976,13 @@ export default function HowChatGPTChoosesBusiness() {
             <h2>Frequently Asked Questions</h2>
 
             <h3>Can small local businesses really compete with national brands in ChatGPT?</h3>
-            <p>Yes, and they often outperform them. ChatGPT rewards expertise depth and local authority, not marketing budgets or brand size. In our testing, local businesses with comprehensive educational content were cited 64% of the time versus national brands at 36% in local service queries.</p>
+            <p>Yes, and they often outperform them. ChatGPT rewards expertise depth and local authority, not marketing budgets or brand size. In our testing, local businesses with comprehensive educational content were cited 64% of the time versus national brands at 36% in local service queries. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <h3>Does ChatGPT use Google search results to make recommendations?</h3>
             <p>ChatGPT may browse Google and other search engines for current information, but it evaluates content independently using its own criteria: expertise, clarity, depth, and trustworthiness.</p>
 
             <h3>How often do ChatGPT recommendations update?</h3>
-            <p>Continuously. Whenever new high-authority content becomes available online and is crawled, it can influence recommendations. This means fresh, high-quality content can shift citations relatively quickly.</p>
+            <p>Continuously. Whenever new high-authority content becomes available online and is crawled, it can influence recommendations. This means fresh, high-quality content can shift citations relatively quickly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* CTA 11 */}
             <div className="ae-cta-inline not-prose">
@@ -990,14 +990,14 @@ export default function HowChatGPTChoosesBusiness() {
             </div>
 
             <h3>Can ChatGPT recommendations be manipulated like Google SEO could be?</h3>
-            <p>No. AI models detect manipulation patterns instantly. Authentic expertise is algorithmically verifiable and cannot be faked through SEO tricks. This is actually good news for legitimate businesses that invest in real expertise documentation.</p>
+            <p>No. AI models detect manipulation patterns instantly. Authentic expertise is algorithmically verifiable and cannot be faked through SEO tricks. This is actually good news for legitimate businesses that invest in real expertise documentation. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <h3>Do I need to create separate content for ChatGPT versus Google?</h3>
             <p>ChatGPT requires deeper, more comprehensive, and more educational content than typical Google SEO pages. While you do not need separate content, you do need to expand beyond 400 to 500 word service pages to 1,500 to 3,000 word educational guides.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">The Good News</div>
-              <p>Content optimized for AI citations also performs better on Google. Deep, educational content earns more organic backlinks, ranks for more long-tail keywords, and converts visitors at higher rates. AEO and SEO are complementary, not competing strategies.</p>
+              <p>Content optimized for AI citations also performs better on Google. Deep, educational content earns more organic backlinks, ranks for more long-tail keywords, and converts visitors at higher rates. AEO and SEO are complementary, not competing strategies. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             <h3>What if my competitors already appear in ChatGPT recommendations?</h3>

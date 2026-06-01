@@ -312,11 +312,11 @@ export default function Page() {
 
             <p>When a potential customer visits your website, they see your logo, your hero image, your interactive pricing calculator, your testimonials slider, and your carefully designed call-to-action buttons. They experience the brand you spent thousands of dollars building.</p>
 
-            <p>When GPTBot visits that same page, it sees none of that. It sends an HTTP request, receives the raw HTML your server returns, parses the text content, and moves on. No images render. No CSS loads. No JavaScript executes. The entire experience of your website is reduced to a document of plain text and HTML tags.</p>
+            <p>When GPTBot visits that same page, it sees none of that. It sends an HTTP request, receives the raw HTML your server returns, parses the text content, and moves on. No images render. No CSS loads. No JavaScript executes. The entire experience of your website is reduced to a document of plain text and HTML tags. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>This is not a limitation. It is by design. AI crawlers like GPTBot (OpenAI), ClaudeBot (Anthropic), and PerplexityBot (Perplexity AI) are built for speed and scale, not for rendering web pages. OpenAI&apos;s GPTBot alone generated <strong>569 million requests</strong> across Vercel&apos;s network in a single month. Anthropic&apos;s ClaudeBot followed with 370 million. Processing that volume with a full rendering engine would be computationally prohibitive.</p>
 
-            <p>The result: there is a massive gap between what your customers see and what AI platforms see. And if your most important business information lives in the gap, you are invisible to the fastest-growing discovery channel on the internet.</p>
+            <p>The result: there is a massive gap between what your customers see and what AI platforms see. And if your most important business information lives in the gap, you are invisible to the fastest-growing discovery channel on the internet. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="ae-callout not-prose">
               <p>Think of it this way: your website has two audiences now. Human visitors who experience the full interactive version, and AI crawlers who read a stripped-down text document. Most businesses optimize exclusively for the first audience and never consider the second.</p>
@@ -324,7 +324,7 @@ export default function Page() {
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Curious what AI crawlers actually see when they visit your site?</p>
+              <p>Curious what AI crawlers actually see when they visit your site? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -389,13 +389,13 @@ export default function Page() {
               </table>
             </div>
 
-            <p>Every row in that table represents a potential blind spot. Your business might have 50 five-star reviews, an award-winning service page, and competitive pricing. But if those elements load through JavaScript, iframes, or interactive widgets, AI crawlers see none of it. They build their understanding of your business based on whatever plain text exists in the initial HTML response.</p>
+            <p>Every row in that table represents a potential blind spot. Your business might have 50 five-star reviews, an award-winning service page, and competitive pricing. But if those elements load through JavaScript, iframes, or interactive widgets, AI crawlers see none of it. They build their understanding of your business based on whatever plain text exists in the initial HTML response. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>This is why businesses that <Link href="/blog/why-new-website-invisible-to-ai">recently rebuilt their websites</Link> with modern JavaScript frameworks often become less visible to AI platforms, not more. The upgrade that improved the human experience simultaneously degraded the AI crawler experience.</p>
 
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>How much of your website is invisible to AI crawlers? Let us show you.</p>
+              <p>How much of your website is invisible to AI crawlers? Let us show you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
             </div>
 
@@ -458,19 +458,19 @@ export default function Page() {
               </table>
             </div>
 
-            <p>Each of these crawlers behaves differently. GPTBot is known for thoroughness, often crawling many pages in a single session. ClaudeBot tends to check homepages more frequently to assess brand positioning. PerplexityBot focuses on retrieving content for real-time search results rather than training data.</p>
+            <p>Each of these crawlers behaves differently. GPTBot is known for thoroughness, often crawling many pages in a single session. ClaudeBot tends to check homepages more frequently to assess brand positioning. PerplexityBot focuses on retrieving content for real-time search results rather than training data. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>But they all share one critical trait: <strong>none of them execute JavaScript</strong>. While ChatGPT and Claude crawlers do fetch JavaScript files (ChatGPT at 11.5% and Claude at 23.8% of requests), they fetch them without executing them. They cannot read the output of your client-side rendered content.</p>
 
             <div className="ae-quote not-prose">
-              <p>A website built on React, Vue, or Angular can rank number one on Google while being completely invisible to ChatGPT. Google renders your JavaScript. AI crawlers do not.</p>
+              <p>A website built on React, Vue, or Angular can rank number one on Google while being completely invisible to ChatGPT. Google renders your JavaScript. AI crawlers do not. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             <p>Understanding how each platform&apos;s crawler works is the foundation of <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose which businesses to cite</Link> in their answers.</p>
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which AI crawlers can access your site right now?</p>
+              <p>Not sure which AI crawlers can access your site right now? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -480,7 +480,7 @@ export default function Page() {
 
             <p>Google invested years building a rendering pipeline that executes JavaScript. Googlebot uses a two-phase system: first, it grabs your HTML and static files. Then, it queues your page for rendering using headless Chrome that actually runs your JavaScript code. Even with this sophisticated system, the median rendering delay is 10 seconds, and at the 99th percentile it reaches 18 hours.</p>
 
-            <p>AI crawlers skip this entire process. When GPTBot visits a single-page application, it sends an HTTP request, downloads whatever HTML the server returns, and moves on. It does not execute JavaScript. It does not wait for components to mount. It does not wait for API calls to resolve.</p>
+            <p>AI crawlers skip this entire process. When GPTBot visits a single-page application, it sends an HTTP request, downloads whatever HTML the server returns, and moves on. It does not execute JavaScript. It does not wait for components to mount. It does not wait for API calls to resolve. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>The practical consequence is severe. Every interactive element on your website that requires JavaScript is invisible to AI platforms.</p>
 
@@ -488,7 +488,7 @@ export default function Page() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Step 1: HTTP Request</strong>
-                <p>AI crawler sends a request to your server. The clock starts immediately. The crawler expects a response within 1 to 5 seconds.</p>
+                <p>AI crawler sends a request to your server. The clock starts immediately. The crawler expects a response within 1 to 5 seconds. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Server Response</strong>
@@ -496,7 +496,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: HTML Parsing</strong>
-                <p>The crawler reads the HTML document top to bottom. It processes headings, paragraphs, lists, links, and structured data. CSS and JavaScript files are noted but not executed.</p>
+                <p>The crawler reads the HTML document top to bottom. It processes headings, paragraphs, lists, links, and structured data. CSS and JavaScript files are noted but not executed. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Content Extraction</strong>
@@ -504,13 +504,13 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Move On</strong>
-                <p>The crawler moves to the next URL. There is no retry, no rendering queue, no second pass. If it missed content, that content stays missed until the next crawl cycle, which could be weeks away.</p>
+                <p>The crawler moves to the next URL. There is no retry, no rendering queue, no second pass. If it missed content, that content stays missed until the next crawl cycle, which could be weeks away. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
             </div>
 
             <p>Google needs <strong>9 times more time</strong> to crawl JavaScript-heavy pages than plain HTML, according to rendering research from Onely. AI crawlers are not even willing to attempt the render. This creates a situation where the same website can have excellent Google rankings and zero AI visibility.</p>
 
-            <p>For businesses running on WordPress with heavy page builders, Shopify with custom themes, or custom React/Vue applications, this rendering gap is often the single biggest barrier to AI discovery. Our guide on <Link href="/blog/website-too-slow-for-ai-crawlers">why sites load too slowly for AI crawlers</Link> covers the technical performance side of this problem.</p>
+            <p>For businesses running on WordPress with heavy page builders, Shopify with custom themes, or custom React/Vue applications, this rendering gap is often the single biggest barrier to AI discovery. Our guide on <Link href="/blog/website-too-slow-for-ai-crawlers">why sites load too slowly for AI crawlers</Link> covers the technical performance side of this problem. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
@@ -522,25 +522,25 @@ export default function Page() {
             <span className="ae-section-label" id="robots-txt">The Gatekeeper</span>
             <h2>The robots.txt Dilemma: Blocking vs. Welcoming AI Bots</h2>
 
-            <p>Your robots.txt file is the first thing every AI crawler checks before accessing your site. It is a simple text file that tells bots which pages they can and cannot visit. But for AI crawlers, the robots.txt decision is more consequential than most businesses realize.</p>
+            <p>Your robots.txt file is the first thing every AI crawler checks before accessing your site. It is a simple text file that tells bots which pages they can and cannot visit. But for AI crawlers, the robots.txt decision is more consequential than most businesses realize. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>The numbers tell a clear story: <strong>79% of major news publishers</strong> now block AI training bots via robots.txt. PerplexityBot specifically is blocked by 67% of top news sites. Over 80% of Cloudflare customers have chosen to block AI crawlers entirely.</p>
 
             {/* Warning Callout */}
             <div className="ae-callout ae-callout-warning not-prose">
               <h4>Warning: Your robots.txt May Be Blocking AI Discovery</h4>
-              <p>Many web hosting platforms and security plugins add AI crawler blocks by default. If your website uses Cloudflare, Sucuri, Wordfence, or similar tools, check your robots.txt right now. You may be blocking GPTBot, ClaudeBot, and PerplexityBot without knowing it. Every day these crawlers are blocked is a day your business cannot appear in AI-generated answers.</p>
+              <p>Many web hosting platforms and security plugins add AI crawler blocks by default. If your website uses Cloudflare, Sucuri, Wordfence, or similar tools, check your robots.txt right now. You may be blocking GPTBot, ClaudeBot, and PerplexityBot without knowing it. Every day these crawlers are blocked is a day your business cannot appear in AI-generated answers. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <p>There is a real tension here. Large publishers block AI crawlers because they do not want their content used for training without compensation. But for local businesses and service providers, the calculation is completely different. Being crawled by AI platforms means being eligible to appear in AI-generated recommendations. Blocking these crawlers is equivalent to removing your business from an entire discovery channel.</p>
 
-            <p>Cloudflare reported a particularly concerning finding in early 2026: Perplexity has been observed using stealth, undeclared crawlers that obscure their identity to circumvent robots.txt directives. This means the robots.txt system has limitations even when properly configured.</p>
+            <p>Cloudflare reported a particularly concerning finding in early 2026: Perplexity has been observed using stealth, undeclared crawlers that obscure their identity to circumvent robots.txt directives. This means the robots.txt system has limitations even when properly configured. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <p>The strategic approach is selective access. Allow the crawlers that contribute to your visibility (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended) while blocking crawlers that only scrape data without any discovery benefit. This requires an AI-specific robots.txt strategy, not a blanket allow or block.</p>
 
             {/* CTA 5 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your robots.txt is helping or hurting your AI visibility?</p>
+              <p>Not sure if your robots.txt is helping or hurting your AI visibility? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -550,7 +550,7 @@ export default function Page() {
 
             <p>When an AI crawler reads your raw HTML, it is essentially reading a wall of text. It can parse headings, paragraphs, and links. But it has to infer what your business does, where you are located, what services you offer, and what your customers think of you. That inference process is unreliable.</p>
 
-            <p>Structured data (specifically JSON-LD schema markup) changes this equation. Instead of forcing the crawler to guess, schema markup provides explicit, machine-readable declarations about your business.</p>
+            <p>Structured data (specifically JSON-LD schema markup) changes this equation. Instead of forcing the crawler to guess, schema markup provides explicit, machine-readable declarations about your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Info Callout */}
             <div className="ae-callout not-prose">
@@ -558,11 +558,11 @@ export default function Page() {
               <p>Schema markup can declare your business name, type, address, phone number, operating hours, service area, price range, aggregate review rating, FAQ answers, and the specific services you offer. This data is not ambiguous. It is structured, labeled, and designed for machine consumption. AI crawlers prioritize this data because it removes the guesswork from content extraction.</p>
             </div>
 
-            <p>The practical impact is significant. A plumber in Austin with proper LocalBusiness schema, FAQ schema, and Service schema gives AI crawlers a clear, complete picture of their business in machine-readable format. A competitor without schema forces the AI to piece together the same information from scattered paragraphs, and the AI may get it wrong.</p>
+            <p>The practical impact is significant. A plumber in Austin with proper LocalBusiness schema, FAQ schema, and Service schema gives AI crawlers a clear, complete picture of their business in machine-readable format. A competitor without schema forces the AI to piece together the same information from scattered paragraphs, and the AI may get it wrong. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Schema.org Action nodes are becoming particularly valuable for the emerging &quot;agentic web.&quot; AI agents use Action schemas to understand what users can do on your site, from searching for inventory to booking appointments. Sites that implement these schemas become queryable by AI agents in ways that plain HTML cannot achieve.</p>
 
-            <p>Our deep dive on <Link href="/blog/does-schema-markup-help-ai-search">whether schema markup helps AI search</Link> covers the specific schema types that drive the most AI visibility for local businesses.</p>
+            <p>Our deep dive on <Link href="/blog/does-schema-markup-help-ai-search">whether schema markup helps AI search</Link> covers the specific schema types that drive the most AI visibility for local businesses. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -574,7 +574,7 @@ export default function Page() {
             <span className="ae-section-label" id="hidden-content">The Blind Spots</span>
             <h2>Seven Types of Content AI Crawlers Cannot See</h2>
 
-            <p>Beyond JavaScript rendering and robots.txt blocks, there are specific content patterns that are completely invisible to AI crawlers. Many of these are design choices that improve the human experience while destroying AI discoverability.</p>
+            <p>Beyond JavaScript rendering and robots.txt blocks, there are specific content patterns that are completely invisible to AI crawlers. Many of these are design choices that improve the human experience while destroying AI discoverability. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Bar Chart */}
             <div className="ae-bar-group not-prose">
@@ -611,7 +611,7 @@ export default function Page() {
 
             <p>Each of these blind spots represents content that your customers can see and interact with, but that AI platforms cannot access, index, or recommend. The most common offenders are third-party review widgets, interactive pricing tools, and FAQ sections built with JavaScript accordions that hide the answer text from the initial HTML.</p>
 
-            <p>The irony is that FAQ content is one of the most valuable content types for AI citation. AI platforms specifically look for question-and-answer formatted content to extract for their responses. But if your FAQs are built with a JavaScript accordion that hides the answer text until a user clicks, that content is invisible to every AI crawler.</p>
+            <p>The irony is that FAQ content is one of the most valuable content types for AI citation. AI platforms specifically look for question-and-answer formatted content to extract for their responses. But if your FAQs are built with a JavaScript accordion that hides the answer text until a user clicks, that content is invisible to every AI crawler. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -620,7 +620,7 @@ export default function Page() {
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>Which of these blind spots is hiding your best content from AI platforms?</p>
+              <p>Which of these blind spots is hiding your best content from AI platforms? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -658,13 +658,13 @@ export default function Page() {
               </div>
             </div>
 
-            <p>This does not mean you have to abandon modern web development. Frameworks like Next.js, Nuxt, and SvelteKit offer server-side rendering (SSR) and static site generation (SSG) that deliver full HTML to crawlers while maintaining interactive experiences for humans. The key is ensuring your critical business content is present in the initial HTML response, regardless of what happens after JavaScript loads.</p>
+            <p>This does not mean you have to abandon modern web development. Frameworks like Next.js, Nuxt, and SvelteKit offer server-side rendering (SSR) and static site generation (SSG) that deliver full HTML to crawlers while maintaining interactive experiences for humans. The key is ensuring your critical business content is present in the initial HTML response, regardless of what happens after JavaScript loads. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>The businesses that perform best in AI search typically use a hybrid approach: server-rendered content for all critical business information (services, locations, FAQs, contact details) with client-side enhancements for interactivity. Our article on <Link href="/blog/5-minute-ai-visibility-audit">the 5-minute AI visibility audit</Link> walks through a simple test you can run right now to see which category your site falls into.</p>
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your website architecture is AI-friendly? We can diagnose it in 48 hours.</p>
+              <p>Not sure if your website architecture is AI-friendly? We can diagnose it in 48 hours. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <a href="mailto:support@theanswerengine.ai">Email us: support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -674,7 +674,7 @@ export default function Page() {
 
             <p>AI crawlers do not visit your site with the same regularity as Googlebot. Understanding their crawl patterns helps explain why some businesses appear in AI answers while others remain invisible for months.</p>
 
-            <p>GPTBot may only crawl a given page once every few weeks unless it considers that page high-value and authoritative. ClaudeBot tends to check homepages more frequently to assess overall brand positioning. PerplexityBot crawls more aggressively for trending topics since it powers a real-time search engine.</p>
+            <p>GPTBot may only crawl a given page once every few weeks unless it considers that page high-value and authoritative. ClaudeBot tends to check homepages more frequently to assess overall brand positioning. PerplexityBot crawls more aggressively for trending topics since it powers a real-time search engine. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Stats Grid 2 */}
             <div className="ae-stats-grid not-prose">
@@ -699,7 +699,7 @@ export default function Page() {
             <p>Combined, GPTBot and ClaudeBot represent about 20% of Googlebot&apos;s total request volume. That share is growing rapidly. But because AI crawlers visit individual pages less frequently, every single crawl visit matters. If the crawler arrives and finds your page too slow, your content behind JavaScript, or your robots.txt blocking access, you have lost your window and it may not return for weeks.</p>
 
             <div className="ae-quote not-prose">
-              <p>With Googlebot, a bad crawl is a temporary setback. It will come back tomorrow. With AI crawlers, a bad crawl can mean weeks of invisibility. You get fewer chances to make a first impression.</p>
+              <p>With Googlebot, a bad crawl is a temporary setback. It will come back tomorrow. With AI crawlers, a bad crawl can mean weeks of invisibility. You get fewer chances to make a first impression. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             {/* CTA 9 */}
@@ -712,7 +712,7 @@ export default function Page() {
             <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
             <h2>AI Crawler Visibility Cheat Sheet</h2>
 
-            <p>Here is a condensed reference for understanding what AI crawlers can and cannot process on your website. Use this as a diagnostic checklist.</p>
+            <p>Here is a condensed reference for understanding what AI crawlers can and cannot process on your website. Use this as a diagnostic checklist. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* Cheat Sheet */}
             <div className="ae-cheat-sheet not-prose">
@@ -777,7 +777,7 @@ export default function Page() {
 
             {/* CTA 10 */}
             <div className="ae-cta-inline not-prose">
-              <p>Skip the manual audit and get a professional AI visibility assessment.</p>
+              <p>Skip the manual audit and get a professional AI visibility assessment. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
             </div>
 
@@ -787,7 +787,7 @@ export default function Page() {
 
             <p>The shift to AI-powered discovery means every business website now serves two fundamentally different audiences. Human visitors who browse, click, scroll, and interact. And AI crawlers who parse raw HTML, extract structured data, and move on in seconds.</p>
 
-            <p>The businesses winning in AI search are the ones that recognized this dual-audience reality early. They ensure their critical content is server-rendered. They implement comprehensive schema markup. They configure robots.txt to welcome AI crawlers. They keep their server response times under 200 milliseconds. And they audit their sites regularly to catch the blind spots where interactive design hides content from machine readers.</p>
+            <p>The businesses winning in AI search are the ones that recognized this dual-audience reality early. They ensure their critical content is server-rendered. They implement comprehensive schema markup. They configure robots.txt to welcome AI crawlers. They keep their server response times under 200 milliseconds. And they audit their sites regularly to catch the blind spots where interactive design hides content from machine readers. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p>Only 2.8% of websites were fully protected against bot interactions in 2025, down from 8.4% the year before. That means the vast majority of the web is being crawled, indexed, and interpreted by AI platforms right now. The question is not whether AI crawlers are visiting your site. The question is what they find when they get there.</p>
 

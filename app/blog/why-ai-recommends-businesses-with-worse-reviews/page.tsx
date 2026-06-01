@@ -275,23 +275,23 @@ export default function Page() {
 
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
               It feels like a glitch. You have invested years building a stellar review profile. 500 five-star reviews on Google, customers raving about your service, a near-perfect rating. Then someone asks ChatGPT for a recommendation in your category, and a competitor with 200 reviews and a 4.3 rating gets the citation. You get nothing.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>
               This is not a glitch. It is not random. And it is not unfair. AI platforms evaluate reviews using a fundamentally different scoring model than what most business owners expect. Understanding that model is the difference between being recommended and being invisible.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Uncomfortable Reality</div>
-              <p>AI does not sort businesses by total review count. It evaluates review recency, response patterns, platform diversity, and content depth. A business with fewer but higher-quality signals will consistently outperform one that simply accumulated volume over time. If your review strategy is built around quantity alone, AI is already passing you over.</p>
+              <p>AI does not sort businesses by total review count. It evaluates review recency, response patterns, platform diversity, and content depth. A business with fewer but higher-quality signals will consistently outperform one that simply accumulated volume over time. If your review strategy is built around quantity alone, AI is already passing you over. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>
               As we covered in our research on <Link href="/blog/how-online-reviews-shape-ai-recommendations">how online reviews shape AI recommendations</Link>, star ratings are just the surface. This article goes deeper into the specific mechanics behind why businesses with &quot;worse&quot; reviews on paper are winning the AI recommendation game.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Is AI recommending your competitors over you? Find out why.</p>
+              <p>Is AI recommending your competitors over you? Find out why. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -301,27 +301,27 @@ export default function Page() {
 
             <p>
               For a decade, the playbook was simple. More reviews meant higher rankings. More stars meant more trust. Businesses competed to hit milestones: 100 reviews, then 250, then 500. The assumption was that volume equaled authority.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>
               AI platforms have shattered that assumption. Large language models do not count reviews the way Google&apos;s traditional algorithm does. They process review text as natural language, extracting meaning, evaluating specificity, and assessing whether the information is current and credible. A mountain of generic five-star reviews from 2023 reads very differently to an AI model than a steady stream of detailed, specific reviews from the last 90 days.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>
               Think about how you would evaluate a restaurant. Would you trust 800 reviews that all say &quot;Great food!&quot; from three years ago? Or would you trust 150 reviews from the last few months that describe specific dishes, mention recent menu changes, and reference current staff by name? AI reasons the same way, because it was trained on human reasoning.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">The Quality Signal</div>
-              <p>Research consistently shows that fewer but more detailed reviews outperform huge volumes of generic ones in AI recommendation systems. AI models can detect when reviews are shallow, templated, or repetitive. Genuine, specific feedback provides data points the model can reference when answering user queries. Generic praise provides nothing.</p>
+              <p>Research consistently shows that fewer but more detailed reviews outperform huge volumes of generic ones in AI recommendation systems. AI models can detect when reviews are shallow, templated, or repetitive. Genuine, specific feedback provides data points the model can reference when answering user queries. Generic praise provides nothing. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>
               This creates a counterintuitive situation. The business that invested heavily in collecting volume but not depth finds itself at a disadvantage against competitors who accidentally built a better review profile by simply having engaged, articulate customers.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure how AI perceives your review quality?</p>
+              <p>Not sure how AI perceives your review quality? One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation</a>
             </div>
 
@@ -331,15 +331,15 @@ export default function Page() {
 
             <p>
               Here is a statistic that should change how you think about reviews: <strong>74% of consumers only trust reviews from the last 3 months</strong>. AI platforms reflect this consumer behavior because they are trained to mirror it. A review from last week carries dramatically more weight than a review from last year.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>
               Recency signals something critical: the business is still operating at the quality level the reviews describe. A company with 500 reviews but nothing new in 6 months raises questions. Did the quality drop? Did the ownership change? Did they stop serving customers? AI cannot verify any of those things directly, but the absence of recent reviews is a negative signal.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>
               Contrast that with a competitor who has 200 reviews but gets 8 to 10 new ones every month. That pattern tells AI the business is active, engaged, and consistently delivering results worth commenting on. The recency pattern functions as a proxy for current reliability.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Bar Chart: Recency Impact */}
             <div className="not-prose ae-bar-group">
@@ -383,10 +383,10 @@ export default function Page() {
 
             <p>
               The timeline reveals a clear decay curve. Your reviews from two years ago are still there, but their influence on AI recommendations has faded dramatically. Meanwhile, a competitor collecting fresh reviews every week is building compounding advantage.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose ae-cta-inline">
-              <p>When was your last review? AI knows the answer.</p>
+              <p>When was your last review? AI knows the answer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -396,15 +396,15 @@ export default function Page() {
 
             <p>
               This is where many businesses get completely blindsided. <strong>Businesses with reviews on 3 or more platforms get far more AI recommendations than single-platform businesses.</strong> Having 500 reviews on Google alone is a single-source signal. Having 200 reviews spread across Google, Yelp, BBB, and Facebook creates a multi-source corroboration pattern that AI treats as significantly more trustworthy.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>
               Different AI platforms pull from different data sources. ChatGPT leans on Bing Places data, which indexes Yelp and Facebook reviews heavily. Perplexity crawls Yelp, Angi, and Reddit. Google AI Mode uses its own review data plus third-party directories. If you only exist on one platform, you are invisible to AI systems that do not index that platform.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <p>
               Multi-platform presence also signals authenticity. A business with reviews only on Google could theoretically manipulate that single channel. A business with consistent feedback across Google, Yelp, BBB, Facebook, and industry directories demonstrates a reputation that has been validated independently by multiple unrelated platforms. AI models treat this as a stronger trust signal.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Comparison Table */}
             <div className="not-prose">
@@ -463,15 +463,15 @@ export default function Page() {
 
             <p>
               The table tells the story clearly. On paper, Business A looks dominant. In AI recommendation algorithms, Business B wins on every signal that actually matters. For a deeper look at how platforms evaluate these signals, see our breakdown of <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose ae-callout ae-callout-orange">
               <div className="ae-callout-title">The Single-Platform Trap</div>
-              <p>Most businesses invest 90% or more of their review collection efforts into Google. While Google reviews remain critical for Google Search and Maps, they represent only one piece of the AI recommendation puzzle. AI platforms that cannot access Google reviews, including ChatGPT and Claude, rely entirely on other sources. If those other sources are empty, your business does not exist in their world.</p>
+              <p>Most businesses invest 90% or more of their review collection efforts into Google. While Google reviews remain critical for Google Search and Maps, they represent only one piece of the AI recommendation puzzle. AI platforms that cannot access Google reviews, including ChatGPT and Claude, rely entirely on other sources. If those other sources are empty, your business does not exist in their world. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Which platforms matter most for your specific industry?</p>
+              <p>Which platforms matter most for your specific industry? Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us for a free platform analysis</a>
             </div>
 
@@ -481,23 +481,23 @@ export default function Page() {
 
             <p>
               Here is one of the most overlooked factors in AI recommendations: <strong>a company that responded to all reviews within 24 to 48 hours saw AI recommendation frequency increase 190% over 9 months.</strong> That is not a marginal improvement. That is a near-tripling of AI visibility driven entirely by owner response behavior.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>
               Why does responding to reviews matter so much to AI? Three reasons.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               First, every response you write is additional indexable content. When you respond to a review thanking a customer for choosing your emergency plumbing service and mentioning the tankless water heater installation, you just created a fresh piece of text that reinforces your service offerings, your responsiveness, and your customer relationship. AI crawlers read that response alongside the original review.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>
               Second, response patterns signal business engagement. A business that responds to every review, positive and negative, demonstrates active management. AI models interpret this as a sign that the business cares about its reputation and is actively operating.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p>
               Third, responses to negative reviews are particularly valuable. When a business addresses a complaint professionally, explains what happened, and describes how the issue was resolved, that response adds nuance to the AI&apos;s understanding of the business. It transforms a negative signal into evidence of accountability.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Timeline */}
             <div className="not-prose ae-timeline">
@@ -516,7 +516,7 @@ export default function Page() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to know your current response rate and what AI sees?</p>
+              <p>Want to know your current response rate and what AI sees? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -526,11 +526,11 @@ export default function Page() {
 
             <p>
               AI processes reviews as natural language text. When a customer writes &quot;They replaced our 20-year-old furnace with a high-efficiency model, arrived on time, and the whole team was professional,&quot; the AI model extracts multiple data points: the service performed (furnace replacement), the business attribute (punctuality), and the team quality (professionalism). Each data point becomes a potential match for future user queries.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p>
               Compare that to &quot;Great service, highly recommend!&quot; The AI extracts exactly zero usable data points from that review. It knows the customer was satisfied, but it has nothing specific to reference when a user asks &quot;who is the best HVAC company for furnace replacement near me?&quot;
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p>
               This is why a business with 200 reviews averaging 65 words each provides AI with roughly 13,000 words of rich, specific, service-related content. A business with 500 reviews averaging 18 words each provides only 9,000 words, most of which are generic sentiment with no actionable information. The smaller review count delivers more usable data to AI, as we explored in <Link href="/blog/why-my-5star-google-reviews-dont-show-up-in-ai-answers">why 5-star reviews do not always show up in AI answers</Link>.

@@ -264,24 +264,24 @@ export default function Page() {
 
           <p>
             For two decades, local business discovery on Google followed a predictable formula: show up in the three-pack, maintain your Google Business Profile, collect reviews, and let proximity do the rest. That formula still matters. But as of 2025, it is no longer the whole game.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <p>
             Google AI Mode launched in March 2025, became available to all U.S. users in May 2025, and has since expanded to over 180 countries. It is powered by Gemini 2.5 Pro and operates as a dedicated conversational search tab inside Google. When a prospective customer uses it to find a local business, they are not looking at a map and three listings. They are reading an AI-generated recommendation that synthesizes dozens of sources simultaneously.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <p>
             <strong>The implications for local businesses are profound.</strong> AI Overviews alone have already reduced click-through rates for top-ranking results by 58%, according to a February 2026 study. AI Mode is more zero-click still, with approximately 93% of sessions ending without a click to any external site. The question for local businesses is no longer just "where do I rank?" It is: "does the AI recommend me at all?"
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">What This Means for Your Business</div>
-            <p>A business can rank in the traditional local pack and still be completely absent from Google AI Mode responses. These are two separate visibility systems with different citation logic, different ranking signals, and different optimization requirements.</p>
+            <p>A business can rank in the traditional local pack and still be completely absent from Google AI Mode responses. These are two separate visibility systems with different citation logic, different ranking signals, and different optimization requirements. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure if Google AI Mode is recommending your business right now? Find out in under 60 seconds with a free audit.</p>
+            <p>Not sure if Google AI Mode is recommending your business right now? Find out in under 60 seconds with a free audit. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free AI Visibility Report</Link>
           </div>
 
@@ -291,11 +291,11 @@ export default function Page() {
 
           <p>
             Google AI Mode is not a redesign of the search results page. It is a separate tab, sitting alongside All, Images, News, and Maps, that transforms Google Search into a fully conversational research interface. Users who enter AI Mode are not browsing links. They are asking questions and receiving synthesized answers.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <p>
             The technology behind it is called <strong>query fan-out</strong>. When a user types a question, AI Mode does not run one search. It breaks the query into subtopics, issues multiple searches simultaneously across the web, then synthesizes the results into a single coherent answer. For a local query like "best HVAC company near me that offers financing and weekend appointments," the system might simultaneously search for HVAC providers in the area, read reviews, check for financing mentions on websites, verify hours, and synthesize all of that into one ranked recommendation.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           {/* ── TIMELINE ── */}
           <div className="ae-timeline not-prose">
@@ -338,15 +338,15 @@ export default function Page() {
 
           <p>
             The traditional local search experience worked on proximity and rank. Google returned three nearby businesses in a map pack format. The business closest to the searcher with the most reviews and strongest SEO foundation won. Clicks flowed from that three-pack to business websites and then to phone calls.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <p>
             AI Mode disrupts that chain at multiple points. First, it replaces the map pack with an AI-generated narrative. Instead of three pinned business listings, a user might see: "Based on current reviews and service offerings, XYZ Plumbing and ABC Home Services are the most frequently recommended options in your area. XYZ specializes in emergency repairs and has consistent five-star reviews for response time. ABC offers the lowest pricing for standard jobs but has slower scheduling."
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
             That answer names specific businesses, summarizes their differentiation, and delivers a recommendation without the user ever clicking a link. The business that gets named wins the customer impression. The one that gets left out is invisible regardless of where it ranks in the traditional local pack.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-quote not-prose">
             <blockquote>
@@ -383,11 +383,11 @@ export default function Page() {
 
           <p>
             The zero-click rate in AI Mode is not a bug. It is the intended experience. Google wants users to get their answer inside Google. For local businesses, that means the customer&apos;s decision is increasingly made before they ever land on your website.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Your website traffic may be masking a deeper problem: AI is routing customers past you entirely. Let&apos;s run the numbers.</p>
+            <p>Your website traffic may be masking a deeper problem: AI is routing customers past you entirely. Let&apos;s run the numbers. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <a href="tel:+15555550100">Call Us to Discuss Your Visibility Gap</a>
           </div>
 
@@ -397,7 +397,7 @@ export default function Page() {
 
           <p>
             Understanding exactly how AI Mode differs from traditional local search is the foundation for adapting to it. These are not minor variations. They represent different systems with different logic.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           {/* ── COMPARISON TABLE ── */}
           <table className="ae-comparison-table not-prose">
@@ -454,11 +454,11 @@ export default function Page() {
 
           <p>
             The 13.7% citation overlap between AI Overviews and AI Mode is one of the most important statistics for local businesses to internalize. It means appearing in one does not guarantee appearing in the other. A business could have an excellent local SEO foundation, rank in AI Overviews for some queries, and still be completely absent from AI Mode responses. These are separate optimization challenges.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Citation Overlap Problem</div>
-            <p>Research analyzing over 730,000 Google AI responses found that AI Mode and AI Overviews agree on citations only 13.7% of the time despite reaching 86% semantic similarity in their conclusions. Two systems, largely different sources, completely separate visibility opportunities for your business.</p>
+            <p>Research analyzing over 730,000 Google AI responses found that AI Mode and AI Overviews agree on citations only 13.7% of the time despite reaching 86% semantic similarity in their conclusions. Two systems, largely different sources, completely separate visibility opportunities for your business. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* ── SECTION 4 ── */}
@@ -467,15 +467,15 @@ export default function Page() {
 
           <p>
             In July 2025, Google added something that has received far less attention than it deserves: an AI-powered business calling feature inside AI Mode. Here is how it works.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <p>
             A user searches for a service, such as "pet groomers near me that take walk-ins today." They select the option to "Have AI check availability." Google&apos;s AI agent then places actual phone calls to local businesses in the area, asks about availability and pricing, and consolidates the responses into a summary the user can review. The user never calls a single business themselves.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <p>
             The implications are significant for several reasons. First, your business can now be evaluated, compared, and potentially eliminated from consideration by an AI agent before any human contact is made. Second, if your phone goes unanswered or your staff cannot quickly answer questions about availability and pricing, your business loses that comparison to a competitor who can. Third, businesses that are not even surfaced by the AI for this calling step are invisible from the very start of the discovery process.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-pros-cons not-prose">
             <div className="ae-pros">
@@ -504,7 +504,7 @@ export default function Page() {
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Would your business survive an AI comparison call right now? Our team audits exactly how AI Mode evaluates and presents local businesses.</p>
+            <p>Would your business survive an AI comparison call right now? Our team audits exactly how AI Mode evaluates and presents local businesses. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <a href="mailto:hello@theanswerengine.ai">Email Us for a Local AI Audit</a>
           </div>
 
@@ -514,11 +514,11 @@ export default function Page() {
 
           <p>
             The most common question local business owners ask when they learn about AI Mode is: "Why is my competitor getting cited and I am not?" The answer comes down to how AI Mode evaluates authority for local businesses. It is not a simple review count race. It is a multidimensional assessment.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p>
             Google AI Mode pulls from the same foundational principle it has always stated: helpful, reliable, people-first content. But for local businesses, that translates into signals that most traditional local SEO strategies never addressed.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           {/* ── DECISION MATRIX ── */}
           <div className="ae-decision-matrix not-prose">
@@ -561,15 +561,15 @@ export default function Page() {
 
           <p>
             One of the most underappreciated factors is what could be called <strong>authority density across the web.</strong> AI Mode reads not just your website and GBP. It synthesizes mentions of your business across directories, review platforms, community forums, local news, and social media. A business that shows up confidently across many of those sources earns a higher trust score in the AI&apos;s citation logic than a competitor who ranks well in Google but has thin third-party presence.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <p>
             This is why some businesses that have mediocre traditional SEO rankings appear frequently in AI Mode responses, while businesses with strong link profiles and high-ranking pages are missing. The citation logic is measuring something different than PageRank.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           {/* ── CTA 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Curious about your third-party authority footprint? We map exactly where AI Mode is and is not finding your business.</p>
+            <p>Curious about your third-party authority footprint? We map exactly where AI Mode is and is not finding your business. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Run Your Free Blind Spot Analysis</Link>
           </div>
 
@@ -579,28 +579,28 @@ export default function Page() {
 
           <p>
             Let&apos;s get specific. When a potential customer uses Google AI Mode to find a local service business, the AI synthesizes a recommendation from a combination of signals. Understanding each of these is the starting point for any meaningful adaptation strategy.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <p>
             <strong>Google Business Profile data is the first stop.</strong> AI Mode pulls business name, category, services, hours, photos, Q&A, and reviews directly from GBP before going anywhere else. An incomplete or outdated profile is the single fastest way to create an AI visibility gap. Businesses with fully completed profiles, accurate service lists, and recent photo updates appear in AI Mode local results at significantly higher rates.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           <p>
             <strong>Review content matters more than review count.</strong> AI Mode reads the text of reviews, not just the star rating. A business with 80 reviews that specifically mention "fast response time," "honest pricing," and "cleaned up after themselves" is far more likely to be cited for queries like "reliable plumber near me" than a competitor with 200 generic five-star reviews that say "great service." The specificity of review language is a signal the AI uses to match businesses to query intent.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <p>
             <strong>Website content depth creates or eliminates eligibility.</strong> If a user asks AI Mode "which roofers in my area offer insurance claim assistance," businesses whose websites address that topic directly and clearly are eligible for citation. Businesses whose websites only have a generic "Services" page with bullet points are not. The AI needs content to read and cite. Service pages with full explanations, FAQs, and process descriptions are the foundation of AI Mode eligibility.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Query Intent Match</div>
-            <p>AI Mode does not just look for businesses that exist in a category. It looks for businesses whose available information matches what the user asked. A pest control company that has a page specifically about termite treatment will be cited for "termite treatment near me" queries. One that only lists "pest control" as a service category will often be skipped entirely.</p>
+            <p>AI Mode does not just look for businesses that exist in a category. It looks for businesses whose available information matches what the user asked. A pest control company that has a page specifically about termite treatment will be cited for "termite treatment near me" queries. One that only lists "pest control" as a service category will often be skipped entirely. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           <p>
             <strong>Third-party mentions are tie-breakers and amplifiers.</strong> When two businesses are otherwise similar in GBP completeness and review quality, AI Mode weighs external mentions. This includes citations in Yelp, Angi, HomeAdvisor, and other directories, but also mentions in community forums like Reddit and Nextdoor, local news coverage, and blog posts from independent sources. A business that has been mentioned positively across multiple external sources earns a credibility signal that a business living only on its own website cannot replicate.
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <p>
             For a deeper look at how this connects to your overall sales funnel, see our analysis of <Link href="/blog/how-ai-search-changes-sales-funnel">how AI search is reshaping the entire customer journey</Link>. You can also learn more about <Link href="/blog/do-google-reviews-affect-ai-recommendations">how Google reviews specifically impact AI recommendations</Link> in our detailed breakdown.

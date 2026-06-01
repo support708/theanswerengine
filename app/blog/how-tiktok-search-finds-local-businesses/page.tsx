@@ -231,7 +231,7 @@ export default function BlogPost() {
 
           <p>
             Those are local business queries. And the businesses that show up in those TikTok results are not necessarily the ones with the best Google ranking, the most Yelp reviews, or the biggest ad budget. They are the ones whose content and reputation have earned relevance inside a completely different AI-powered ranking system.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Platform Shift Most Businesses Are Missing</div>
@@ -242,7 +242,7 @@ export default function BlogPost() {
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">
-            <p>Is TikTok Search sending customers to you or your competitors? Find out with a free audit.</p>
+            <p>Is TikTok Search sending customers to you or your competitors? Find out with a free audit. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -256,7 +256,7 @@ export default function BlogPost() {
 
           <p>
             A 2024 Adobe survey found that nearly 40% of Americans use TikTok as a search engine, with usage concentrated among users aged 18 to 34. For this cohort, TikTok Search is not a backup to Google. It is the <em>default</em> for lifestyle, local, and experiential queries. When they want to know where to eat, what gym to join, or which contractor to call, their first move is often to open TikTok and search.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <p>
             This behavior reflects something deeper than platform preference. TikTok Search delivers results in a format that Google fundamentally cannot: video. Seeing an actual person walk through a restaurant, show off a haircut result, or demonstrate a home repair creates a level of trust that a static listing with star ratings cannot replicate. The information density of a 90-second video review exceeds what most business websites communicate in five pages.
@@ -292,7 +292,7 @@ export default function BlogPost() {
 
           <p>
             The local search behavior data is particularly striking. Roughly 35% of TikTok search queries have a local or place-based intent, and research from marketing firms tracking in-store attribution has found that 45% of users who conduct a local search on TikTok visit the physical location within a week. That conversion rate rivals Google Maps for certain categories.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* SECTION: HOW IT WORKS */}
           <span className="ae-section-label" id="how-tiktok-search-works">The Mechanism</span>
@@ -304,7 +304,7 @@ export default function BlogPost() {
 
           <p>
             This multimodal approach gives TikTok Search an inherent advantage for local business discovery. A video review of your restaurant captures signals that no static web page can: the actual food being served, the atmosphere, the way the reviewer speaks about the experience. TikTok&apos;s AI can understand that content at a semantic level and determine whether it is high-quality, authentic, and locally relevant.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Multimodal Indexing: What TikTok Actually Reads</div>
@@ -315,7 +315,7 @@ export default function BlogPost() {
 
           <p>
             The system also indexes content in near real-time. Unlike Google&apos;s web crawl, which can take days or weeks to surface new content, TikTok can incorporate a new video into search results within hours of it being posted, if that video earns early engagement. This speed means TikTok Search is especially powerful for trending topics, recent business openings, and time-sensitive queries like &quot;brunch spots open today.&quot;
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           {/* CTA 2 */}
           <div className="ae-cta-inline not-prose">
@@ -329,7 +329,7 @@ export default function BlogPost() {
 
           <p>
             TikTok&apos;s search ranking system evaluates a cluster of signals that differ significantly from what Google or even Instagram weighs. Understanding the logic behind these signals, not the specific mechanics but the underlying principles, is the foundation of any serious TikTok visibility strategy.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <h3>Engagement Quality Over Volume</h3>
 
@@ -339,7 +339,7 @@ export default function BlogPost() {
 
           <p>
             For local businesses, this means content that answers real questions, resolves genuine uncertainty, or delivers authentic experiences will consistently outperform polished promotional content. A real customer showing their haircut result, narrating exactly what the experience was like, and tagging the salon will earn more saves and shares than any branded promotional video because it delivers the kind of information viewers actually need before making a decision.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <h3>Watch-Through Rate and Completion</h3>
 
@@ -349,7 +349,7 @@ export default function BlogPost() {
 
           <p>
             This creates an interesting dynamic for business-related content: shorter, denser videos that deliver a clear value proposition quickly tend to outperform longer videos that pad their runtime. A 45-second video showing before-and-after results with a clear location tag will often outrank a 3-minute walkthrough of a business because the shorter format maintains completion rates while delivering the core information searchers need.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <h3>Caption and Spoken Keyword Signals</h3>
 
@@ -359,7 +359,7 @@ export default function BlogPost() {
 
           <p>
             For businesses, this has direct implications for how their customers and partners should discuss them in video content. Natural, specific language about the business category, location, and distinguishing features, spoken authentically rather than recited from a script, contributes to the breadth of search queries for which the business can appear.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <h3>Geographic and Temporal Proximity</h3>
 
@@ -369,12 +369,12 @@ export default function BlogPost() {
 
           <p>
             Temporal signals also matter. TikTok Search favors recent content for most query types. A two-year-old video about a restaurant, even if it earned strong engagement at the time, will generally rank below a recent video with moderate engagement. The system interprets recency as a signal of current accuracy: a business that was excellent in 2023 may have changed, but a video from last week reflects the current experience.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           {/* CTA 3 */}
           <div className="ae-cta-block not-prose">
             <p className="font-semibold text-white mb-2">Your TikTok search presence is being built right now, by your customers.</p>
-            <p className="text-gray-400 mb-4">The question is whether those signals are working for you or against you. Our free Blind Spot Report shows exactly where you stand across TikTok and every other AI platform.</p>
+            <p className="text-gray-400 mb-4">The question is whether those signals are working for you or against you. Our free Blind Spot Report shows exactly where you stand across TikTok and every other AI platform. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -388,7 +388,7 @@ export default function BlogPost() {
 
           <p>
             This third-party content ecosystem is simultaneously TikTok Search&apos;s greatest strength and the biggest risk factor for businesses. A single viral video from a satisfied customer can dramatically increase your TikTok search visibility and drive a wave of new visits. A single critical video from a disappointed customer, or worse, a creator documenting a genuinely bad experience, can dominate search results for your business name and actively discourage potential customers.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">The Double-Edged Nature of Creator Coverage</div>
@@ -399,7 +399,7 @@ export default function BlogPost() {
 
           <p>
             The implication for local businesses is significant: the quality of the in-person experience is now directly tied to TikTok search visibility. Businesses that deliver remarkable, shareable, visually interesting experiences generate organic creator content. That content compounds over time, building a library of search-visible material that the business never paid to create. Businesses that deliver forgettable or negative experiences generate the opposite.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <p>
             This is why some of the most TikTok-visible businesses in major cities are not the ones with the biggest marketing budgets. They are the ones with the most photogenic food, the most interesting interiors, the most distinctive service touches, or the most remarkable results, things customers feel compelled to document and share.
@@ -407,7 +407,7 @@ export default function BlogPost() {
 
           <p>
             For a deeper look at how platform-specific content signals affect AI recommendation systems across platforms, see our analysis of <Link href="/blog/how-meta-ai-recommends-businesses-on-instagram-and-facebook">How Meta AI Recommends Businesses on Instagram and Facebook</Link>, where a similar dynamic plays out with slightly different underlying mechanics.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* SECTION: FYP AND SEARCH */}
           <span className="ae-section-label" id="foryou-and-search">Two Systems, One Effect</span>
@@ -419,7 +419,7 @@ export default function BlogPost() {
 
           <p>
             The FYP is a passive recommendation engine. It pushes content to users based on predicted interest without any query from the user. TikTok Search is an active query system where users express explicit intent. The signals that drive strong FYP performance, specifically watch-through rate, shares, saves, and comments, are the same signals that influence search ranking. This creates a compounding dynamic.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <p>
             When a video about your business performs well on the FYP, reaching many users and earning strong engagement metrics, TikTok&apos;s AI interprets those engagement signals as evidence of content quality. That quality signal then carries over into search ranking, making the content more likely to appear when users actively search for your category, city, or business name.
@@ -429,7 +429,7 @@ export default function BlogPost() {
             <div className="ae-callout-title">The Compounding Advantage</div>
             <p>
               Content that earns strong FYP distribution earns higher search ranking. Higher search ranking drives more views from intent-based searchers, which generates additional engagement signals. Those engagement signals reinforce FYP distribution. The two systems are mutually reinforcing, which means early momentum on one surface compounds into sustained visibility on both.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           </div>
 
           <p>
@@ -438,7 +438,7 @@ export default function BlogPost() {
 
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
-            <p>Curious how your business performs across all AI and social discovery platforms?</p>
+            <p>Curious how your business performs across all AI and social discovery platforms? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <Link href="/blindspot">Run Your Free Blind Spot Report &rarr;</Link>
           </div>
 
@@ -525,7 +525,7 @@ export default function BlogPost() {
 
           <p>
             The comparison table reveals something important: TikTok Search is not a replacement for Google or AI chat platforms. It is a complementary layer with a different audience, a different content format, and different ranking logic. A business that dominates Google local search but has no TikTok presence is invisible to a cohort that increasingly searches TikTok first.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
             The most significant structural difference is the primacy of video. Google ranks web pages. ChatGPT and Perplexity cite written content from around the web. TikTok ranks video. These are not interchangeable. Being excellent at generating written, website-based authority does not translate into TikTok search visibility, and vice versa.
@@ -533,7 +533,7 @@ export default function BlogPost() {
 
           <p>
             It is also worth noting the relationship between TikTok and other AI recommendation platforms. As we covered in our piece on <Link href="/blog/does-social-media-help-ai-recommend-you">whether social media helps AI recommend your business</Link>, the engagement signals your content earns on social platforms can indirectly influence how AI systems like ChatGPT and Perplexity assess your authority. TikTok is a part of this broader signal ecosystem.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* SECTION: GEN Z BEHAVIOR */}
           <span className="ae-section-label" id="genz-behavior">User Behavior</span>
@@ -545,7 +545,7 @@ export default function BlogPost() {
 
           <p>
             Gen Z is the first generation to grow up with algorithmic content curation as a default. They are accustomed to platforms that surface content based on their interests without requiring them to define those interests explicitly. When they search, they bring the same expectation: they want results that feel authentic, personalized, and experience-based rather than optimized for keywords.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <p>
             Google Search, for all its power, delivers results that often feel curated for SEO rather than for genuine user intent. The top organic results for any local business query are frequently aggregator sites, review platforms, and directory listings, not the authentic perspectives of real people with real experiences. TikTok Search flips this. The top results are usually videos from actual people showing actual experiences, with the engagement of other actual people signaling which content is trustworthy.
@@ -560,7 +560,7 @@ export default function BlogPost() {
 
           <p>
             This preference has a name in consumer behavior research: social proof at scale. TikTok Search delivers social proof in its richest form, real video, real people, real engagement from a real audience, at the scale of a search engine. For categories where trust and experience quality are major purchase drivers, such as restaurants, salons, fitness studios, medical aesthetics, contractors, and home services, this format is extraordinarily persuasive.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <p>
             There is also an entertainment dimension that pure-utility search engines cannot replicate. Searching TikTok is often enjoyable in itself. Users discover things they were not explicitly looking for. They follow rabbit holes. They find a video about one restaurant and end up watching five more about the same neighborhood. This serendipitous discovery behavior extends the reach of any business that earns strong content visibility well beyond the users who searched for them directly.
@@ -568,7 +568,7 @@ export default function BlogPost() {
 
           {/* CTA 5 */}
           <div className="ae-cta-inline not-prose">
-            <p>The generation of buyers who search TikTok first is growing. Is your business visible to them?</p>
+            <p>The generation of buyers who search TikTok first is growing. Is your business visible to them? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <Link href="/blindspot">Check Your TikTok Visibility Now &rarr;</Link>
           </div>
 
@@ -582,7 +582,7 @@ export default function BlogPost() {
 
           <p>
             A complete TikTok Business Profile includes a business category, website URL, location information, business hours, and contact details. These structured data points feed directly into TikTok&apos;s business index, making the business eligible to appear in explicit location-based and category-based searches in ways that a personal account cannot.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
             TikTok also introduced a business search feature that surfaces business profiles in a dedicated tab when users search business-category terms. A restaurant that has a complete TikTok Business Profile with accurate category, location, and contact information will appear in this tab for relevant searches, positioned alongside the video results that dominate the main search feed. Businesses without complete profiles are absent from this tab entirely.
@@ -592,7 +592,7 @@ export default function BlogPost() {
             <div className="ae-callout-title">TikTok&apos;s Local Business Index</div>
             <p>
               TikTok&apos;s internal business index pulls from multiple sources: the TikTok Business Profile data you supply directly, data from third-party business listing aggregators, and signals from user-generated content that consistently tags or mentions your business. The completeness of your direct profile data determines how well the platform can contextualize and surface the broader content ecosystem around your business.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
           <p>
@@ -601,7 +601,7 @@ export default function BlogPost() {
 
           <p>
             For a broader view of how social platform signals feed into AI recommendation systems across the web, our article on <Link href="/blog/how-customers-use-ai-to-find-local-businesses">how customers actually use AI to find local businesses</Link> covers the full multi-platform picture.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* SECTION: INVISIBLE BUSINESSES */}
           <span className="ae-section-label" id="invisible-businesses">Visibility Gaps</span>
@@ -613,7 +613,7 @@ export default function BlogPost() {
 
           <p>
             The first and most common reason is the content format gap. Most local business owners are comfortable with static content, Google Business Profile updates, Facebook posts, website pages. Video content requires a fundamentally different production muscle. The barrier is not primarily technical. Smartphone cameras in 2026 are excellent. The barrier is psychological and strategic: most business owners do not know what to say on video, how often to say it, or how to connect it to search visibility goals.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <p>
             The second reason is the third-party content gap. Businesses in less Instagram-friendly or TikTok-friendly categories, such as B2B services, industrial contractors, or professional services, simply receive less spontaneous creator coverage. A plumber is far less likely to have customers posting TikToks about their experience than a brunch restaurant. For these businesses, the organic creator content pipeline that naturally boosts visibility for consumer-facing businesses does not exist.
@@ -621,7 +621,7 @@ export default function BlogPost() {
 
           <p>
             The third reason is the profile completeness gap. Many local businesses either have no TikTok presence or have an incomplete business profile that prevents proper indexing in TikTok&apos;s local business directory. Without a verified, complete business profile, the platform cannot confidently associate user-generated content about your business with your official account, which fragments your search signal.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Fragmented Signal Problem</div>
@@ -710,7 +710,7 @@ export default function BlogPost() {
             <div className="ae-takeaway-title">The Bottom Line</div>
             <p>
               TikTok Search is not a replacement for Google, and it is not a platform for every business. But for consumer-facing local businesses serving customers under 40, it is now a primary discovery channel that operates on entirely different signals than any other major platform. The businesses that understand those signals and build a presence around them are capturing customers that their Google-only competitors will never see.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </div>
 
           {/* TIMELINE */}
@@ -724,7 +724,7 @@ export default function BlogPost() {
             </div>
             <div className="ae-timeline-item">
               <strong>2022</strong>
-              <p>Google SVP Prabhakar Raghavan publicly acknowledges that nearly 40% of young people use TikTok or Instagram rather than Google for search. Internal alarm raised at Google.</p>
+              <p>Google SVP Prabhakar Raghavan publicly acknowledges that nearly 40% of young people use TikTok or Instagram rather than Google for search. Internal alarm raised at Google. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
             <div className="ae-timeline-item">
               <strong>2023</strong>

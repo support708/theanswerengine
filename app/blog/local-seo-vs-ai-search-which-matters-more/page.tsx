@@ -235,7 +235,7 @@ export default function LocalSEOvsAISearch() {
 
             {/* Table of Contents */}
             <div className="ae-toc not-prose">
-              <p className="ae-toc-title">In This Article</p>
+              <p className="ae-toc-title">In This Article Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
               <ol>
                 <li><a href="#the-shift">The Shift: Search Volume Migration Accelerates</a></li>
                 <li><a href="#local-seo-wins">What Traditional Local SEO Still Wins At</a></li>
@@ -254,22 +254,22 @@ export default function LocalSEOvsAISearch() {
             <p className="ae-section-label not-prose" id="the-shift">THE MARKET REALITY</p>
             <h2>The Shift: Search Volume Migration Accelerates</h2>
 
-            <p>For over a decade, getting customers online meant winning at local SEO. Optimize your Google Business Profile, collect reviews, build citations, get into the Map Pack, and the leads would follow. That model still works. But something fundamental changed in 2024-2025 that every local business owner needs to understand: the way people discover and choose local businesses is shifting away from traditional search engines faster than most realize.</p>
+            <p>For over a decade, getting customers online meant winning at local SEO. Optimize your Google Business Profile, collect reviews, build citations, get into the Map Pack, and the leads would follow. That model still works. But something fundamental changed in 2024-2025 that every local business owner needs to understand: the way people discover and choose local businesses is shifting away from traditional search engines faster than most realize. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>More than 65% of Google searches now end without a click. Users get their answers directly from AI Overviews that synthesize multiple sources into a single paragraph. They ask ChatGPT "who is the best plumber in my area" instead of googling it. They get recommendations from Claude and Perplexity without ever visiting Google.</p>
 
-            <p>This is not just a trend. It is a structural shift in how information discovery works. Research from OpenAI shows 400 million weekly active ChatGPT users now use the platform to find local business recommendations. Google reports AI Overviews now appear on 90% of search queries in the US. These are not niche channels anymore. They are becoming the primary discovery mechanism.</p>
+            <p>This is not just a trend. It is a structural shift in how information discovery works. Research from OpenAI shows 400 million weekly active ChatGPT users now use the platform to find local business recommendations. Google reports AI Overviews now appear on 90% of search queries in the US. These are not niche channels anymore. They are becoming the primary discovery mechanism. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p className="ae-callout-title">The Deflating Traffic Problem</p>
-              <p>Even businesses dominating local SEO report year-over-year traffic declines from their websites. The culprit: AI Overviews are answering questions directly without directing users to blue links. Google Ads costs continue climbing as fewer users scroll below AI-generated answers. The traditional funnel is contracting at both the traffic and profitability level.</p>
+              <p>Even businesses dominating local SEO report year-over-year traffic declines from their websites. The culprit: AI Overviews are answering questions directly without directing users to blue links. Google Ads costs continue climbing as fewer users scroll below AI-generated answers. The traditional funnel is contracting at both the traffic and profitability level. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>The businesses that misunderstand this shift are the ones saying "we are still doing fine with local SEO." Sure. For now. But their market share is eroding to competitors who show up in AI recommendations. Their Google Ads costs are rising while conversion rates stagnate. Their website traffic declines even as they rank higher. The problem is not with local SEO being broken. The problem is with relying exclusively on a channel that is shrinking.</p>
 
             {/* CTA Inline 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Discover if AI platforms are already recommending your competitors instead of you.</p>
+              <p>Discover if AI platforms are already recommending your competitors instead of you. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -277,21 +277,21 @@ export default function LocalSEOvsAISearch() {
             <p className="ae-section-label not-prose" id="local-seo-wins">THE DEFENSIVE FORTRESS</p>
             <h2>What Traditional Local SEO Still Wins At</h2>
 
-            <p>Before talking about what is changing, it is critical to understand what local SEO still does better than anything else. It is not dead. It is not even dying. It is just no longer the only game in town.</p>
+            <p>Before talking about what is changing, it is critical to understand what local SEO still does better than anything else. It is not dead. It is not even dying. It is just no longer the only game in town. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p><strong>Google Business Profile remains the single most valuable piece of real estate for local search visibility.</strong> A fully optimized GBP with accurate service descriptions, hours, photos, and categories still drives more direct clicks than any other single tactic. Why? Because when someone types "plumber near me" on Google Maps, the GBP is what appears. This is a direct intent signal. The person already knows they want a plumber and they are ready to call or visit today.</p>
 
-            <p><strong>The Map Pack is still the traffic champion.</strong> Three businesses appear at the top of local results, capturing roughly 42% of all clicks on local search result pages. Position one in the Map Pack drives 2-3x more traffic than position two. Position three drives less than position two. This binary scarcity makes the Map Pack incredibly valuable for businesses that can win a spot.</p>
+            <p><strong>The Map Pack is still the traffic champion.</strong> Three businesses appear at the top of local results, capturing roughly 42% of all clicks on local search result pages. Position one in the Map Pack drives 2-3x more traffic than position two. Position three drives less than position two. This binary scarcity makes the Map Pack incredibly valuable for businesses that can win a spot. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p><strong>Local reviews are the trust accelerator.</strong> A business with 200 reviews at 4.7 stars will outrank a business with 50 reviews at 5.0 stars nearly every time. Review volume, recency, and response rate all feed into the trust signal. And this trust translates across all channels: when AI platforms evaluate whether to recommend your business, they look at your review count and star rating as key proof points.</p>
 
-            <p><strong>NAP consistency and local citations still matter for authority signals.</strong> Your business name, address, and phone number need to be identical across every directory, review site, and social profile. These signals tell Google that your business is real, established, and verified. Inconsistencies still confuse the algorithm and can drop you out of rankings.</p>
+            <p><strong>NAP consistency and local citations still matter for authority signals.</strong> Your business name, address, and phone number need to be identical across every directory, review site, and social profile. These signals tell Google that your business is real, established, and verified. Inconsistencies still confuse the algorithm and can drop you out of rankings. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <p><strong>Hyperlocal keyword targeting still captures high-intent long-tail searches.</strong> Content optimized for "emergency plumber in Austin" or "pediatric dentist near downtown Denver" captures users who are very close to a buying decision. These keywords have lower volume than generic terms but higher conversion rates. Local SEO still dominates this space because it directly connects geographic intent to specific pages.</p>
 
             {/* Bar Groups for Local SEO Strengths */}
             <div className="ae-bar-group not-prose">
-              <p className="ae-bar-group-title">Where Local SEO Delivers Strongest Results</p>
+              <p className="ae-bar-group-title">Where Local SEO Delivers Strongest Results Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <div className="ae-bar-item">
                 <span className="ae-bar-label">Map Pack traffic (desktop)</span>
                 <div className="ae-bar-track">
@@ -326,7 +326,7 @@ export default function LocalSEOvsAISearch() {
 
             {/* CTA Inline 2 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know if your local SEO foundation is strong enough to support AI search growth?</p>
+              <p>Want to know if your local SEO foundation is strong enough to support AI search growth? Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Request an Audit</Link>
             </div>
 
@@ -334,21 +334,21 @@ export default function LocalSEOvsAISearch() {
             <p className="ae-section-label not-prose" id="ai-dominates">THE GROWTH FRONTIER</p>
             <h2>Where AI Search Dominates Today</h2>
 
-            <p>AI search operates on a fundamentally different model than ranking algorithms. Instead of competing with nine other businesses for ten spots on page one, you are competing to be one of 2-3 cited sources in a conversational answer. This is a completely different competitive dynamic with radically different economics.</p>
+            <p>AI search operates on a fundamentally different model than ranking algorithms. Instead of competing with nine other businesses for ten spots on page one, you are competing to be one of 2-3 cited sources in a conversational answer. This is a completely different competitive dynamic with radically different economics. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>When someone asks ChatGPT "who is the best personal injury lawyer in Houston," the AI does not return a list of ten law firms. It synthesizes information from web content, reviews, published articles, and schema data to produce a conversational recommendation: "Smith Legal Group stands out for personal injury work in Houston with over $50M in recovered settlements and a 4.9 rating across 300+ reviews." One name. One recommendation. One business gets the call.</p>
 
-            <p><strong>The conversion dynamic is inverted.</strong> Traditional search gives you ten options and the user compares them. AI search gives one recommendation and the user calls it. This is why AI leads convert 3-6x better than SEO leads. The user arrives pre-sold because an authoritative AI has already validated your expertise.</p>
+            <p><strong>The conversion dynamic is inverted.</strong> Traditional search gives you ten options and the user compares them. AI search gives one recommendation and the user calls it. This is why AI leads convert 3-6x better than SEO leads. The user arrives pre-sold because an authoritative AI has already validated your expertise. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p><strong>AI search rewards structured content over rankings.</strong> AI platforms extract information from FAQ pages, service descriptions with schema markup, detailed guides that answer specific questions, and customer testimonials formatted for direct extraction. They do not care about your inbound link count or domain authority in the traditional sense. They care whether your content answers specific questions in a structured, trustworthy way.</p>
 
-            <p><strong>Multi-city scaling is dramatically easier with AI search.</strong> Local SEO requires separate optimization for each geographic market. You need dedicated landing pages, localized content, citations in each city directory. AI search content scales across all cities simultaneously because AI platforms pull from a global content index. One well-optimized service page about "family law" gets cited for family law recommendations in Houston, Austin, Dallas, and Denver simultaneously.</p>
+            <p><strong>Multi-city scaling is dramatically easier with AI search.</strong> Local SEO requires separate optimization for each geographic market. You need dedicated landing pages, localized content, citations in each city directory. AI search content scales across all cities simultaneously because AI platforms pull from a global content index. One well-optimized service page about "family law" gets cited for family law recommendations in Houston, Austin, Dallas, and Denver simultaneously. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p><strong>Authority building compounds faster with AI search.</strong> Once an AI platform starts citing your business, it tends to reinforce that choice if your content and reputation stay strong. You become the "known" recommendation in your space. This creates a flywheel effect where early movers build defensible competitive advantages before late movers figure out what is happening.</p>
 
             {/* Bar Groups for AI Dominance */}
             <div className="ae-bar-group not-prose">
-              <p className="ae-bar-group-title">Where AI Search Delivers Strongest Results</p>
+              <p className="ae-bar-group-title">Where AI Search Delivers Strongest Results Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <div className="ae-bar-item">
                 <span className="ae-bar-label">Lead conversion rate</span>
                 <div className="ae-bar-track">
@@ -383,11 +383,11 @@ export default function LocalSEOvsAISearch() {
             <p className="ae-section-label not-prose" id="cost-comparison">THE ECONOMICS</p>
             <h2>Cost Comparison: SEO vs AEO</h2>
 
-            <p>This is where the financial arguments become compelling. Local SEO has a predictable cost structure and a well-understood ROI model. AI search has a lower cost structure and a significantly higher ROI, but most businesses do not know how to calculate it yet.</p>
+            <p>This is where the financial arguments become compelling. Local SEO has a predictable cost structure and a well-understood ROI model. AI search has a lower cost structure and a significantly higher ROI, but most businesses do not know how to calculate it yet. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p><strong>Local SEO economics:</strong> A typical local business spends $1,500-3,000/month on local SEO services. This covers GBP optimization, review management, local citation building, and basic content updates. Most businesses expect to see 20-40 leads per month at a 3-5% conversion rate, generating 0.6-2 new customers monthly. For a home service company where average customer value is $2,500, that is roughly $1,500-5,000/month in revenue per $2,000/month investment. The math works, but margins are thin.</p>
 
-            <p><strong>AI search economics:</strong> A typical AI search optimization program costs $2,000-3,500/month and includes structured content creation, schema implementation, FAQ optimization, and service page refinement. But the math changes dramatically when conversion rates improve. The same 30 leads at a 20% conversion rate produces 6 customers. At $2,500 average customer value, that is $15,000/month in revenue per $3,000/month investment. The ROI is not just better. It is fundamentally different.</p>
+            <p><strong>AI search economics:</strong> A typical AI search optimization program costs $2,000-3,500/month and includes structured content creation, schema implementation, FAQ optimization, and service page refinement. But the math changes dramatically when conversion rates improve. The same 30 leads at a 20% conversion rate produces 6 customers. At $2,500 average customer value, that is $15,000/month in revenue per $3,000/month investment. The ROI is not just better. It is fundamentally different. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="ae-comparison-table not-prose">
               <table>
@@ -467,13 +467,13 @@ export default function LocalSEOvsAISearch() {
             <p>The cost per customer acquired from AI search is typically 50-70% lower than traditional local SEO because the conversion rates are so much better. A business spending $3,000/month can acquire far more customers through AI search than through local SEO at the same budget.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p className="ae-callout-title">The Efficiency Gap is Real</p>
+              <p className="ae-callout-title">The Efficiency Gap is Real <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <p>For every $1,000 you invest in AI search optimization, you acquire 1.5-3x more customers than you would with $1,000 invested in traditional local SEO. This is not theoretical. This is what we observe across our client base month after month.</p>
             </div>
 
             {/* CTA Inline 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>See how much you are currently paying per customer and where you could optimize.</p>
+              <p>See how much you are currently paying per customer and where you could optimize. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Get Your Free Report</Link>
             </div>
 
@@ -481,34 +481,34 @@ export default function LocalSEOvsAISearch() {
             <p className="ae-section-label not-prose" id="timeline">THE TRANSITION</p>
             <h2>Timeline: The Transition 2025-2026</h2>
 
-            <p>Understanding where we are in this transition is critical for making smart investment decisions. This is not a sudden overnight change. It is a predictable shift that follows an observable timeline.</p>
+            <p>Understanding where we are in this transition is critical for making smart investment decisions. This is not a sudden overnight change. It is a predictable shift that follows an observable timeline. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p><strong>2024: AI enters mainstream use.</strong> ChatGPT crosses 100 million users. Google begins rolling out AI Overviews. Perplexity and Claude gain traction. Still most businesses think this is hype. Early adopters start optimizing for AI citations.</p>
 
-            <p><strong>Q1-Q2 2025: The awareness phase.</strong> Businesses start noticing Google Ads costs rising and website traffic declining even as they rank higher. Savvy operators realize AI is the culprit. They start experimenting with AEO. Early movers begin seeing AI citations and realizing the lead quality is dramatically better than SEO.</p>
+            <p><strong>Q1-Q2 2025: The awareness phase.</strong> Businesses start noticing Google Ads costs rising and website traffic declining even as they rank higher. Savvy operators realize AI is the culprit. They start experimenting with AEO. Early movers begin seeing AI citations and realizing the lead quality is dramatically better than SEO. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p><strong>Q3-Q4 2025: The investment phase.</strong> As AI lead results become visible, more businesses shift budget toward AEO. Competitive pressure increases as each player realizes they need to show up in AI recommendations. Market saturation begins in AI search for the first time, but saturation is still far lower than local SEO.</p>
 
-            <p><strong>2026 (today): The optimization phase.</strong> Businesses that invested in AEO 12-18 months ago now have compounding advantages. AI platforms have enough data on their business to make repeat recommendations. New businesses joining AEO face more competition than first movers did, but still less competition than they would face in local SEO. The gap between early movers and late movers widens.</p>
+            <p><strong>2026 (today): The optimization phase.</strong> Businesses that invested in AEO 12-18 months ago now have compounding advantages. AI platforms have enough data on their business to make repeat recommendations. New businesses joining AEO face more competition than first movers did, but still less competition than they would face in local SEO. The gap between early movers and late movers widens. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p><strong>2027-2028 projection: The saturation phase.</strong> By 2027, most sophisticated competitors will have optimized for AI search. The advantage will shift from "having AI content" to "having better AI content and stronger authority signals." AI search saturation will increase. Early movers will have built such strong citation patterns that late entrants face a higher barrier to entry. This is the pattern we saw with local SEO: first movers built defensible positions that new competitors struggled to break into.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <p className="ae-callout-title">The Window Is Still Open But Closing</p>
+              <p className="ae-callout-title">The Window Is Still Open But Closing Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <p>Every month that passes, more competitors optimize for AI search. The early movers who invested in 2024-2025 built advantages that will be hard to overcome. Businesses entering now still have a reasonable window to establish authority before the market saturates, but that window will not stay open forever. By 2027-2028, the advantage of being an early mover will largely have evaporated.</p>
             </div>
 
             {/* Section 6: Hybrid Strategy */}
-            <p className="ae-section-label not-prose" id="hybrid-strategy">THE WINNING APPROACH</p>
+            <p className="ae-section-label not-prose" id="hybrid-strategy">THE WINNING APPROACH <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <h2>Hybrid Strategy Framework</h2>
 
             <p>The businesses winning most decisively in 2026 are not choosing between local SEO and AI search. They are doing both, but investing very differently in each channel.</p>
 
-            <p><strong>Local SEO is your defensive baseline.</strong> It is the minimum viable investment to stay visible in the Map Pack and maintain your Google Business Profile presence. Your goal is competence, not dominance. You do what is necessary to stay in the game without bleeding capital trying to out-SEO better-funded competitors. This might be 40% of your marketing budget while it used to be 90%.</p>
+            <p><strong>Local SEO is your defensive baseline.</strong> It is the minimum viable investment to stay visible in the Map Pack and maintain your Google Business Profile presence. Your goal is competence, not dominance. You do what is necessary to stay in the game without bleeding capital trying to out-SEO better-funded competitors. This might be 40% of your marketing budget while it used to be 90%. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p><strong>AI search is your offensive growth engine.</strong> This is where you invest to win new market share. This is where early movers build defensible advantages. This is where the highest-quality leads come from. For established businesses with solid local SEO foundations, this should be 60% of new marketing investment.</p>
 
-            <p><strong>The allocation changes based on your situation.</strong> A brand new business with no online presence still needs 70% local SEO and 30% AI search to build the foundation. A mature business dominating the Map Pack can shift to 30% local SEO (just maintaining the position) and 70% AI search (growing market share). A business in a highly competitive market with locked Map Pack positions should shift aggressively to AI search because local SEO ROI is terrible and AI search ROI is strong.</p>
+            <p><strong>The allocation changes based on your situation.</strong> A brand new business with no online presence still needs 70% local SEO and 30% AI search to build the foundation. A mature business dominating the Map Pack can shift to 30% local SEO (just maintaining the position) and 70% AI search (growing market share). A business in a highly competitive market with locked Map Pack positions should shift aggressively to AI search because local SEO ROI is terrible and AI search ROI is strong. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros-box">
@@ -522,7 +522,7 @@ export default function LocalSEOvsAISearch() {
                 </ul>
               </div>
               <div className="ae-cons-box">
-                <p className="ae-cons-title">Local SEO Limitations</p>
+                <p className="ae-cons-title">Local SEO Limitations <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 <ul>
                   <li>Ceiling effect: cannot exceed 1 of 3 Map Pack spots</li>
                   <li>High competition in established markets</li>
@@ -545,7 +545,7 @@ export default function LocalSEOvsAISearch() {
                 </ul>
               </div>
               <div className="ae-cons-box">
-                <p className="ae-cons-title">AI Search Limitations</p>
+                <p className="ae-cons-title">AI Search Limitations <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 <ul>
                   <li>Still evolving (platform preferences change)</li>
                   <li>Requires structured content expertise</li>
@@ -563,16 +563,16 @@ export default function LocalSEOvsAISearch() {
             </div>
 
             {/* Section 7: Red Flags */}
-            <p className="ae-section-label not-prose" id="common-mistakes">MISTAKES TO AVOID</p>
+            <p className="ae-section-label not-prose" id="common-mistakes">MISTAKES TO AVOID <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <h2>Red Flags: Common Mistakes Businesses Make</h2>
 
             <p>As more businesses move into AI search optimization, we are seeing predictable mistakes that sink otherwise sound strategies. Knowing what not to do can be as valuable as knowing what to do.</p>
 
-            <p><strong>Mistake 1: Abandoning local SEO entirely.</strong> Some businesses read articles about AI search and immediately fire their SEO agency and redirect all budget to AEO. This is premature. Even as AI search grows, local SEO still drives meaningful revenue for most businesses. Abandoning it creates a valley of death where your Google Business Profile deteriorates, your reviews decline, and you lose the baseline traffic that feeds your business while waiting for AI search to take off.</p>
+            <p><strong>Mistake 1: Abandoning local SEO entirely.</strong> Some businesses read articles about AI search and immediately fire their SEO agency and redirect all budget to AEO. This is premature. Even as AI search grows, local SEO still drives meaningful revenue for most businesses. Abandoning it creates a valley of death where your Google Business Profile deteriorates, your reviews decline, and you lose the baseline traffic that feeds your business while waiting for AI search to take off. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <p><strong>Mistake 2: Creating generic AI content instead of structured answers.</strong> Businesses often hire writers to create "SEO-optimized blog posts" thinking that will help with AI search. AI platforms do not want generic blog posts. They want FAQ pages with direct question-and-answer pairings. They want service descriptions that are structured and include schema markup. They want content formatted for extraction. Generic content gets ignored by AI crawlers.</p>
 
-            <p><strong>Mistake 3: Ignoring schema markup because "it seems technical."</strong> Schema markup is how AI platforms understand what you are saying. Without it, your business information is ambiguous. With it, AI models can extract precise information about your services, service areas, credentials, and proof points. Skipping schema markup because it is technical is like ignoring Google Business Profile because it requires data entry. You are leaving massive opportunity on the table.</p>
+            <p><strong>Mistake 3: Ignoring schema markup because "it seems technical."</strong> Schema markup is how AI platforms understand what you are saying. Without it, your business information is ambiguous. With it, AI models can extract precise information about your services, service areas, credentials, and proof points. Skipping schema markup because it is technical is like ignoring Google Business Profile because it requires data entry. You are leaving massive opportunity on the table. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p><strong>Mistake 4: Expecting fast results without sustained content publishing.</strong> Businesses expect to publish one or two AI-optimized pieces and immediately see citations. It does not work that way. Building sufficient topical authority for AI citation typically requires 8-12 weeks of consistent content publishing. Businesses that expect immediate results get discouraged and abandon the strategy before it works.</p>
 

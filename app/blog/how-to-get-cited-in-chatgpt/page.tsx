@@ -323,14 +323,14 @@ export default function Page() {
               and your name comes back as the answer — that is a citation. Not a paid ad.
               Not a lucky ranking. It is earned authority, structured so that an AI language
               model trusts your content enough to name you as the source.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This article explains exactly what being cited means, what signals LLMs actually
               use to decide who to cite, and the specific methodology — the{' '}
               <strong className="text-white">Citation Surface Framework</strong> — we built and
               tested across ChatGPT, Claude, Perplexity, Google Gemini, and Google AI Overviews
               on our own real estate site before we ever offered it to clients.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">+ The Unified Retrieval Layer</div>
@@ -340,11 +340,11 @@ export default function Page() {
                 pioneered: authority signals, structured data, semantic relevance, and
                 consistent entity information. Optimizing for AI citation is not separate
                 from SEO — it is SEO taken to its logical conclusion.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Is any AI platform already citing your business? Find out in 60 seconds.</p>
+              <p>Is any AI platform already citing your business? Find out in 60 seconds. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -358,14 +358,14 @@ export default function Page() {
               choosing your business, your methodology, or your content as the most
               trustworthy answer to a specific question — and surfacing that to the user
               either by name, by quoting your content, or by linking your site as a source.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               LLMs generate answers by synthesizing information they have indexed, crawled,
               or retrieved in real-time. When an AI cites you, it is making a trust
               determination: this source is authoritative, clearly structured, and
               definitionally precise enough to anchor my answer. Everything in our
               methodology is designed to make your content pass that trust test.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="not-prose ae-decision-matrix">
               <div className="ae-decision-matrix-title">+ Citation vs. Ranking: The Key Distinction</div>
@@ -403,7 +403,7 @@ export default function Page() {
               four major AI platforms — ChatGPT, Claude, Perplexity, and Google AI Overviews —
               with 1.14M monthly impressions and 81% year-over-year growth. It has five
               components.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <div className="not-prose ae-cheat-sheet">
               <div className="ae-cheat-sheet-title">+ Citation Surface Framework — 5 Components</div>
@@ -446,7 +446,7 @@ export default function Page() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want the framework applied to your business? We have a structured audit that maps your current citation surface.</p>
+              <p>Want the framework applied to your business? We have a structured audit that maps your current citation surface. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/services">See How the Program Works</Link>
             </div>
 
@@ -461,21 +461,21 @@ export default function Page() {
               question, retrieve the most authoritative answer, synthesize it. This means the
               content format that most closely mirrors how they were trained is the format most
               likely to be cited.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Q&amp;A semantic hooks are not FAQ sections bolted onto the bottom of an article.
               They are structural choices that run throughout every piece of content: H2 headings
               phrased as questions, opening paragraphs that lead with direct answers, numbered
               lists that give AI a clean, parseable sequence, and FAQ schema markup that makes
               the question-answer relationship machine-readable.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               On lametrohomefinder.com, every article in the LAMH hub uses this structure.
               The result: AI crawlers have a clear, parseable answer to cite for every target
               query. That is one of the primary reasons the site is cited across{' '}
               <strong className="text-white">4 out of 4 major AI platforms</strong> — not luck,
               not domain age, not keyword density.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">+ Common Mistake</div>
@@ -483,7 +483,7 @@ export default function Page() {
                 Most businesses bury their answer in the third paragraph after a long introduction.
                 AI skips introductions. Lead with the answer. Then provide the depth. This single
                 structural change is the highest-leverage fix most sites can make today.
-              </p>
+               Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             {/* Section 4 */}
@@ -497,28 +497,28 @@ export default function Page() {
               that framework as a node. Every time the topic appears in a user query, the AI
               has a stable reference point: the framework name, the person who created it,
               and the organization behind it.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This is why we named our scoring system the{' '}
               <strong className="text-white">AERO-10 Scorecard</strong> and our methodology
               the <strong className="text-white">Citation Surface Framework</strong>. These are
               not marketing labels. They are entity anchors — stable, nameable nodes that AI
               can reference, attribute, and cite by name when a relevant query arrives.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Named-entity anchoring extends beyond methodology names. It includes: your full
               business name used consistently, your city and service area written out completely,
               founder and team names with credentials, and consistent phone and address data
               across every surface AI reads. The more stable and consistent your entity signals,
               the higher your AI citation reliability.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose ae-quote">
-              <p>Named methodologies are entity anchors. Give your framework a name, and AI has something stable to cite and attribute. Unnamed frameworks are invisible to LLMs.</p>
+              <p>Named methodologies are entity anchors. Give your framework a name, and AI has something stable to cite and attribute. Unnamed frameworks are invisible to LLMs. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Curious how your entity signals look to AI right now? Our Blind Spot Report covers this.</p>
+              <p>Curious how your entity signals look to AI right now? Our Blind Spot Report covers this. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -533,16 +533,16 @@ export default function Page() {
               A page that says &ldquo;lametrohomefinder.com reached 8,400 clicks per month with
               81% year-over-year growth, verified in Google Search Console, January 2026&rdquo;
               is citable because it is checkable.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This is the receipts layer of the Citation Surface Framework. Every proof claim
               needs: a specific number, a time period, a source, and a checkable outcome.
               Vague authority claims are filtered out. Specific, dated, sourced data points
               pass the credibility filter.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Here are the receipts from our own implementation on LAMH:
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="not-prose ae-stats-grid">
               <div className="ae-stat-card">
@@ -571,7 +571,7 @@ export default function Page() {
               <Link href="/blog/answer-engine-optimization-aeo-guide" className="text-orange-400 hover:text-orange-300 transition-colors">
                 complete guide to Answer Engine Optimization
               </Link>.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Section 6 */}
             <span className="not-prose ae-section-label">+ Cross-Platform</span>
@@ -583,14 +583,14 @@ export default function Page() {
               Perplexity, Gemini, and Google AI Overviews. You do not. All five operate on
               the same underlying retrieval logic: find the most authoritative, clearly
               structured, semantically precise source for a given query and surface it.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The differences between platforms are at the interface level — how they present
               answers, which crawlers they use, how often they update. At the retrieval layer,
               the signals that get you cited are identical: definitional clarity, consistent
               entity data, structured Q&amp;A, schema markup, and cross-referenced authority
               signals from other credible sources.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               This is the same retrieval logic Google has refined for two decades. AI Overviews
               run on it. ChatGPT uses it via Bing&rsquo;s index. Perplexity uses it via its own
@@ -604,7 +604,7 @@ export default function Page() {
               <Link href="/blog/how-to-build-faq-page-ai-cites" className="text-orange-400 hover:text-orange-300 transition-colors">
                 FAQ pages are structured for maximum AI citation
               </Link>.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose ae-takeaway">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -614,7 +614,7 @@ export default function Page() {
                 entities, schema markup, verifiable proof — performs across all platforms
                 simultaneously. You do not need five strategies. You need one framework, applied
                 rigorously.
-              </p>
+               Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* Section 7 */}
@@ -625,7 +625,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-4">
               Every article in the LAMH hub ships with five schema types. Each serves a
               distinct purpose in the AI citation ecosystem.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <div className="not-prose ae-timeline">
               <div className="ae-timeline-item">
@@ -660,7 +660,7 @@ export default function Page() {
               <Link href="/blog/does-schema-markup-help-ai-search" className="text-orange-400 hover:text-orange-300 transition-colors">
                 full guide on schema markup and AI search
               </Link>.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Section 8 */}
             <span className="not-prose ae-section-label">+ Implementation</span>
@@ -670,7 +670,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-4">
               You do not need to overhaul your entire site to start building citation surfaces.
               Start with the highest-leverage moves and work outward.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             <div className="not-prose ae-cheat-sheet">
               <div className="ae-cheat-sheet-title">+ Citation Surface Quick-Start Checklist</div>
@@ -731,7 +731,7 @@ export default function Page() {
               <Link href="/blog/hub-spoke-content-strategy-ai-citations" className="text-orange-400 hover:text-orange-300 transition-colors">
                 hub-and-spoke content strategy for AI citations
               </Link>.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="not-prose ae-callout ae-callout-success">
               <div className="ae-callout-title">+ The Compounding Advantage</div>
@@ -740,7 +740,7 @@ export default function Page() {
                 so dense that AI platforms have an answer to virtually every question in the
                 LA real estate category sourced from the same domain. That is citation gravity.
                 It compounds monthly and becomes extremely hard for competitors to displace.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">

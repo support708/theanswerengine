@@ -255,19 +255,19 @@ export default function Page() {
 
             <p>Your website might rank on page one of Google. Your content might be well-researched and genuinely useful. But if your pages take more than a few seconds to load, AI crawlers are skipping you entirely.</p>
 
-            <p>GPTBot, PerplexityBot, Google-Extended, and ClaudeBot all share one trait: they are less patient than traditional search engines, and they will abandon slow pages without a second attempt. According to Cloudflare&apos;s 2025 data, AI bots generate <strong>over 50 billion requests per day</strong> across their network alone. That represents just under 1% of all web traffic Cloudflare processes.</p>
+            <p>GPTBot, PerplexityBot, Google-Extended, and ClaudeBot all share one trait: they are less patient than traditional search engines, and they will abandon slow pages without a second attempt. According to Cloudflare&apos;s 2025 data, AI bots generate <strong>over 50 billion requests per day</strong> across their network alone. That represents just under 1% of all web traffic Cloudflare processes. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>The volume is growing fast. OpenAI&apos;s GPTBot grew 305% in a single year, jumping from 2.2% to 7.7% of all crawler traffic observed by Cloudflare between 2024 and 2025.</p>
 
             <div className="ae-callout not-prose">
-              <p>These crawlers are not just indexing your site for search results. They are collecting data to train large language models, power AI search features, and generate real-time answers for users. If your pages loaded too slowly during the crawl window, your content was never ingested, and you cannot appear in those AI-generated answers.</p>
+              <p>These crawlers are not just indexing your site for search results. They are collecting data to train large language models, power AI search features, and generate real-time answers for users. If your pages loaded too slowly during the crawl window, your content was never ingested, and you cannot appear in those AI-generated answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>The competitive pressure is real. Googlebot still leads the pack, reaching <strong>11.6% of unique web pages</strong> compared to GPTBot&apos;s 3.6% and PerplexityBot&apos;s 0.06%. But those percentages translate to billions of page requests. Understanding how these crawlers interact with your site is foundational to <Link href="/blog/what-content-does-chatgpt-read-on-my-website">optimizing what AI platforms actually read on your website</Link>.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering if AI crawlers can even access your pages?</p>
+              <p>Wondering if AI crawlers can even access your pages? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -277,7 +277,7 @@ export default function Page() {
 
             <p>Google has invested decades in building crawl infrastructure that can handle slow, broken, and JavaScript-heavy pages. Googlebot will wait, re-queue, and even render your JavaScript before giving up. AI crawlers do not have that luxury, and they do not need it. They are optimizing for data quality over completeness.</p>
 
-            <p>GPTBot focuses on parsing the <strong>raw HTML content from the initial page load</strong>. It does not execute JavaScript. It does not wait for your React app to hydrate. It does not render your dynamically-loaded content sections. If your primary content is not present in the initial HTML response, GPTBot simply does not see it.</p>
+            <p>GPTBot focuses on parsing the <strong>raw HTML content from the initial page load</strong>. It does not execute JavaScript. It does not wait for your React app to hydrate. It does not render your dynamically-loaded content sections. If your primary content is not present in the initial HTML response, GPTBot simply does not see it. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table not-prose">
@@ -322,7 +322,7 @@ export default function Page() {
             <p>Google needs <strong>9 times more time to crawl JavaScript pages than plain HTML</strong>, according to rendering research from Onely. But at least Google attempts the render. AI crawlers skip the render step entirely. This is why <Link href="/blog/does-schema-markup-help-ai-search">server-rendered content with proper schema markup</Link> is essential for AI discovery.</p>
 
             <div className="ae-quote not-prose">
-              <p>If your content depends on client-side JavaScript, you are invisible to the majority of AI platforms. There is no workaround. There is no exception.</p>
+              <p>If your content depends on client-side JavaScript, you are invisible to the majority of AI platforms. There is no workaround. There is no exception. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* CTA 2 */}
@@ -335,7 +335,7 @@ export default function Page() {
             <span className="ae-section-label">Crawl Budget</span>
             <h2>How Server Response Time Controls Your Crawl Budget</h2>
 
-            <p>Crawl budget is the number of pages a bot will fetch from your site during a given crawl session. Both Google and AI crawlers dynamically adjust this budget based on your server&apos;s response time. When your server responds quickly (under 200 milliseconds), crawlers increase their request rate because fast responses signal a healthy server. When responses slow down, crawlers throttle back to avoid crashing your site.</p>
+            <p>Crawl budget is the number of pages a bot will fetch from your site during a given crawl session. Both Google and AI crawlers dynamically adjust this budget based on your server&apos;s response time. When your server responds quickly (under 200 milliseconds), crawlers increase their request rate because fast responses signal a healthy server. When responses slow down, crawlers throttle back to avoid crashing your site. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>The impact is dramatic. <strong>Improving server response time can multiply your daily crawl rate by 4x</strong>, according to crawl budget research published in 2026. A site with a 500-millisecond TTFB might get one quarter of the crawl coverage compared to a competitor running at 100-millisecond TTFB.</p>
 
@@ -360,7 +360,7 @@ export default function Page() {
               </div>
             </div>
 
-            <p>For large websites, this becomes a zero-sum game. AI crawlers like GPTBot have an infrequent crawl frequency with long revisit intervals. Unless a page is considered high-value and authoritative, GPTBot may only crawl it once every few weeks. If that single crawl attempt hits a slow page, you lose your window entirely.</p>
+            <p>For large websites, this becomes a zero-sum game. AI crawlers like GPTBot have an infrequent crawl frequency with long revisit intervals. Unless a page is considered high-value and authoritative, GPTBot may only crawl it once every few weeks. If that single crawl attempt hits a slow page, you lose your window entirely. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -369,7 +369,7 @@ export default function Page() {
 
             {/* CTA 3 */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly how many of your pages AI crawlers are actually reaching?</p>
+              <p>Want to know exactly how many of your pages AI crawlers are actually reaching? Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -379,7 +379,7 @@ export default function Page() {
 
             <p>Here is the cruel irony of AI crawlers: they can actually make your website slower for real users, which in turn makes your site perform worse for other crawlers too. Roughly <strong>49% to 51% of all internet traffic is now bot-driven</strong>, with AI-oriented bots making up 4.2% of all HTML page requests in 2025.</p>
 
-            <p>When multiple AI crawlers hit your site simultaneously, they consume server resources that would otherwise serve your human visitors. Increased server load from high-frequency scraping slows down your website, and slower response times directly hurt your Core Web Vitals scores.</p>
+            <p>When multiple AI crawlers hit your site simultaneously, they consume server resources that would otherwise serve your human visitors. Increased server load from high-frequency scraping slows down your website, and slower response times directly hurt your Core Web Vitals scores. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Decision Matrix */}
             <div className="ae-decision-matrix not-prose">
@@ -426,7 +426,7 @@ export default function Page() {
 
             {/* CTA 4 */}
             <div className="ae-cta-inline not-prose">
-              <p>Is AI crawler traffic hurting your site performance? Let us diagnose it.</p>
+              <p>Is AI crawler traffic hurting your site performance? Let us diagnose it. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email us: support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -436,7 +436,7 @@ export default function Page() {
 
             <p>A 2026 analysis of <strong>107,000 pages</strong> published by Search Engine Land revealed a critical threshold effect for AI search visibility. Pages with an LCP above 5 seconds were routinely excluded from AI search results.</p>
 
-            <p>The data showed that Core Web Vitals act as a constraint rather than a growth lever. Good performance does not boost your AI visibility, but poor performance actively kills it.</p>
+            <p>The data showed that Core Web Vitals act as a constraint rather than a growth lever. Good performance does not boost your AI visibility, but poor performance actively kills it. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Pros and Cons */}
             <div className="ae-pros-cons not-prose">
@@ -465,7 +465,7 @@ export default function Page() {
             <p>Think of it as a pass/fail gate: you need to clear the performance threshold to be eligible for AI citations, but going faster than the threshold does not earn extra credit. Pages optimized for sub-2-second LCP performed no better in AI rankings than pages with a 2.5-second LCP. But once load times crossed the 5-second mark, AI platforms began consistently deprioritizing those pages.</p>
 
             <div className="ae-callout not-prose">
-              <p>AI systems generating answers from multiple sources evaluate which sources provide the best user experience alongside content quality. A page with excellent information but a 7-second load time may get deprioritized in favor of a page with good information and a 2-second load time.</p>
+              <p>AI systems generating answers from multiple sources evaluate which sources provide the best user experience alongside content quality. A page with excellent information but a 7-second load time may get deprioritized in favor of a page with good information and a 2-second load time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             </div>
 
             {/* CTA 5 */}
@@ -478,7 +478,7 @@ export default function Page() {
             <span className="ae-section-label">The Fix List</span>
             <h2>What to Fix First: The Speed Optimization Priority List</h2>
 
-            <p>Not all speed optimizations matter equally for AI crawler visibility. Based on how AI crawlers actually process pages, here is the priority order for fixes that will have the biggest impact on whether your content gets ingested by AI platforms.</p>
+            <p>Not all speed optimizations matter equally for AI crawler visibility. Based on how AI crawlers actually process pages, here is the priority order for fixes that will have the biggest impact on whether your content gets ingested by AI platforms. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* Cheat Sheet */}
             <div className="ae-cheat-sheet not-prose">
@@ -527,7 +527,7 @@ export default function Page() {
 
             <h3>2. Move to Server-Side Rendering</h3>
 
-            <p>Since AI crawlers do not execute JavaScript, your content must be present in the initial HTML response. If you are running a single-page application (React, Vue, or Angular) that relies on client-side rendering, your critical content is invisible to GPTBot, PerplexityBot, and most other AI crawlers. Switch to SSR or SSG. Frameworks like Next.js, Nuxt, and Astro make this straightforward.</p>
+            <p>Since AI crawlers do not execute JavaScript, your content must be present in the initial HTML response. If you are running a single-page application (React, Vue, or Angular) that relies on client-side rendering, your critical content is invisible to GPTBot, PerplexityBot, and most other AI crawlers. Switch to SSR or SSG. Frameworks like Next.js, Nuxt, and Astro make this straightforward. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>3. Reduce Page Weight</h3>
 
@@ -535,7 +535,7 @@ export default function Page() {
 
             <h3>4. Manage AI Crawler Access Strategically</h3>
 
-            <p>Use your robots.txt file and crawl-rate directives to manage how AI bots access your site. Platforms like Cloudflare now offer AI Crawl Control features that let you set specific rate limits per bot. The goal is to keep your server responsive for both AI crawlers and human visitors.</p>
+            <p>Use your robots.txt file and crawl-rate directives to manage how AI bots access your site. Platforms like Cloudflare now offer AI Crawl Control features that let you set specific rate limits per bot. The goal is to keep your server responsive for both AI crawlers and human visitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* CTA 6 */}
             <div className="ae-cta-inline not-prose">
@@ -547,7 +547,7 @@ export default function Page() {
             <span className="ae-section-label">The Rendering Gap</span>
             <h2>Why JavaScript Sites Get Left Behind</h2>
 
-            <p>There is a fundamental disconnect between how modern websites are built and how AI crawlers consume content. Developers build rich, interactive experiences with JavaScript frameworks. AI crawlers want plain, fast, server-rendered HTML. These two priorities are in direct conflict unless you plan for both audiences.</p>
+            <p>There is a fundamental disconnect between how modern websites are built and how AI crawlers consume content. Developers build rich, interactive experiences with JavaScript frameworks. AI crawlers want plain, fast, server-rendered HTML. These two priorities are in direct conflict unless you plan for both audiences. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Timeline */}
             <div className="ae-timeline not-prose">
@@ -557,7 +557,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Server Response (TTFB)</strong>
-                <p>Server begins sending HTML. If this takes over 200ms, the crawler starts throttling future requests to your site.</p>
+                <p>Server begins sending HTML. If this takes over 200ms, the crawler starts throttling future requests to your site. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>HTML Parsing</strong>
@@ -565,7 +565,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Content or Nothing</strong>
-                <p>If your content is in the HTML: ingested. If your content loads via JavaScript after initial render: invisible. There is no middle ground.</p>
+                <p>If your content is in the HTML: ingested. If your content loads via JavaScript after initial render: invisible. There is no middle ground. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Timeout or Success</strong>
@@ -573,13 +573,13 @@ export default function Page() {
               </div>
             </div>
 
-            <p>Google has a separate rendering pipeline, but even Google&apos;s system introduces delays. The median rendering delay for Googlebot is 10 seconds. At the 90th percentile, the delay jumps to 3 hours, and at the 99th percentile it reaches 18 hours.</p>
+            <p>Google has a separate rendering pipeline, but even Google&apos;s system introduces delays. The median rendering delay for Googlebot is 10 seconds. At the 90th percentile, the delay jumps to 3 hours, and at the 99th percentile it reaches 18 hours. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>AI crawlers have no rendering pipeline at all. If your pricing page, FAQ section, service descriptions, or any other content loads via JavaScript after the initial page load, it simply does not exist in the AI&apos;s dataset. Getting your <Link href="/blog/5-minute-ai-visibility-audit">AI visibility audit</Link> done is the fastest way to identify these rendering gaps.</p>
 
             {/* CTA 7 */}
             <div className="ae-cta-inline not-prose">
-              <p>JavaScript-heavy site? Find out what AI crawlers actually see on your pages.</p>
+              <p>JavaScript-heavy site? Find out what AI crawlers actually see on your pages. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -630,13 +630,13 @@ export default function Page() {
               </table>
             </div>
 
-            <p>Start by checking your server logs for requests from GPTBot, PerplexityBot, ClaudeBot, and Google-Extended. Look at the response codes and response times for those specific user agents. If you see 5xx errors, timeouts, or response times above 2 seconds, those are pages that AI crawlers are likely abandoning.</p>
+            <p>Start by checking your server logs for requests from GPTBot, PerplexityBot, ClaudeBot, and Google-Extended. Look at the response codes and response times for those specific user agents. If you see 5xx errors, timeouts, or response times above 2 seconds, those are pages that AI crawlers are likely abandoning. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <p>Use the &quot;View Page Source&quot; test. Right-click on your page and view the raw HTML source. If your main content, headings, FAQ answers, and service descriptions are not visible in that raw source, they are not visible to AI crawlers either. This simple test catches the most common rendering gap that blocks AI visibility.</p>
 
             {/* CTA 8 */}
             <div className="ae-cta-inline not-prose">
-              <p>Skip the manual audit. Get a comprehensive AI visibility report in 48 hours.</p>
+              <p>Skip the manual audit. Get a comprehensive AI visibility report in 48 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <a href="mailto:support@theanswerengine.ai">Email us: support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -666,13 +666,13 @@ export default function Page() {
               </div>
             </div>
 
-            <p>AI search is growing rapidly. Every page on your site that loads too slowly for AI crawlers is a missed opportunity to appear in those AI-generated recommendations. Fix your server response time, render your content server-side, reduce your page weight, and manage your crawler access. These four actions will determine whether AI platforms can see your business at all.</p>
+            <p>AI search is growing rapidly. Every page on your site that loads too slowly for AI crawlers is a missed opportunity to appear in those AI-generated recommendations. Fix your server response time, render your content server-side, reduce your page weight, and manage your crawler access. These four actions will determine whether AI platforms can see your business at all. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-quote not-prose">
               <p>The window for getting this right is narrowing. As AI platforms refine their crawl strategies and tighten their timeouts, the performance gap between sites that get crawled and sites that get skipped will only widen.</p>
             </div>
 
-            <p>The businesses that invest in speed today will own the AI visibility that their slower competitors cannot access tomorrow.</p>
+            <p>The businesses that invest in speed today will own the AI visibility that their slower competitors cannot access tomorrow. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* CTA 9 */}
             <div className="ae-cta-inline not-prose">
@@ -699,7 +699,7 @@ export default function Page() {
                   milliseconds, crawlers start reducing their request rate. Pages that
                   consistently load slowly get deprioritized or skipped entirely during
                   crawl sessions.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
               <div className="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
                 <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">
@@ -724,7 +724,7 @@ export default function Page() {
                   times reduce your crawl budget because bots throttle their requests
                   to avoid overloading your server. Improving server response time can
                   multiply your daily crawl rate by up to 4x.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
               <div className="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
                 <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">
@@ -748,7 +748,7 @@ export default function Page() {
                   as a baseline requirement rather than a growth lever. Meeting acceptable
                   thresholds prevents penalties, but pushing performance beyond that does
                   not create additional AI visibility advantages.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
               <div className="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
                 <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">
@@ -768,7 +768,7 @@ export default function Page() {
           {/* CTA Block */}
           <div className="ae-cta-block not-prose">
             <h3>Still Unsure About Your AI Crawler Readiness?</h3>
-            <p>Talk to a real person about your site&apos;s AI visibility. No bots, no automated reports.</p>
+            <p>Talk to a real person about your site&apos;s AI visibility. No bots, no automated reports. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a href="tel:+12134442229">Call: (213) 444-2229</a>
               <a href="mailto:support@theanswerengine.ai">Email: support@theanswerengine.ai</a>
@@ -800,7 +800,7 @@ export default function Page() {
               AE
             </div>
             <div>
-              <p className="text-white font-semibold text-lg">Justin Borges</p>
+              <p className="text-white font-semibold text-lg">Justin Borges <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <p className="text-gray-400 text-sm mt-1">
                 Helping businesses get discovered by AI search platforms. We specialize in making your website visible to ChatGPT, Perplexity, Claude, and Google AI.
               </p>

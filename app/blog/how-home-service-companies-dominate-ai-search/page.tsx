@@ -230,13 +230,13 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             <p>When a homeowner asks ChatGPT &quot;Who is the best plumber near me?&quot; or Google AI serves up a recommendation for an HVAC company, certain businesses keep showing up. Not by accident. Not by luck. These companies have figured out how AI search works, and they are capturing leads that their competitors never even see.</p>
 
-            <p>Meanwhile, the rest of the industry is still pouring money into the same old strategies: pay-per-click ads, SEO tactics from 2019, and Angi leads that cost $80 each. Those channels still work, but a new one is growing faster than anything we have seen in local marketing since Google Maps launched.</p>
+            <p>Meanwhile, the rest of the industry is still pouring money into the same old strategies: pay-per-click ads, SEO tactics from 2019, and Angi leads that cost $80 each. Those channels still work, but a new one is growing faster than anything we have seen in local marketing since Google Maps launched. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>The contractors who show up in AI answers are getting calls. The ones who do not are invisible to a growing slice of their market.</p>
             </div>
 
-            <p>Here is what the winning companies are doing differently, backed by real data from 2025 and 2026.</p>
+            <p>Here is what the winning companies are doing differently, backed by real data from 2025 and 2026. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -248,13 +248,13 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <span className="ae-section-label">The Data</span>
             <h2>The AI Search Shift Is Not Coming. It Is Already Here.</h2>
 
-            <p>Let us start with the numbers, because they tell a story that is impossible to ignore.</p>
+            <p>Let us start with the numbers, because they tell a story that is impossible to ignore. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p><strong>Critical stat:</strong> BrightLocal&apos;s 2026 Local Consumer Review Survey found that 45% of consumers now use AI to find local business recommendations. In 2025, that number was just 6%. That is not gradual growth. That is an explosion.</p>
             </div>
 
-            <p>And it is not just ChatGPT. Google AI Overviews now appear in over a quarter of all searches. According to WebFX&apos;s analysis of 237,000+ home service queries, AI Overviews show up in 8.2% of home service searches overall, and that number jumps to 40.78% for longer, more specific questions like &quot;how much does it cost to replace a furnace in Denver.&quot;</p>
+            <p>And it is not just ChatGPT. Google AI Overviews now appear in over a quarter of all searches. According to WebFX&apos;s analysis of 237,000+ home service queries, AI Overviews show up in 8.2% of home service searches overall, and that number jumps to 40.78% for longer, more specific questions like &quot;how much does it cost to replace a furnace in Denver.&quot; Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Those longer questions are exactly the type that lead to booked jobs. When someone types a detailed query, they are not browsing. They are ready to hire.</p>
 
@@ -277,7 +277,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>The more specific and purchase-ready the question, the more likely AI will answer it directly. Home service companies that optimize for these detailed queries capture the highest-intent leads.</p>
+              <p>The more specific and purchase-ready the question, the more likely AI will answer it directly. Home service companies that optimize for these detailed queries capture the highest-intent leads. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             {/* ── CTA 2 ── */}
@@ -290,12 +290,12 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <span className="ae-section-label">The Opportunity</span>
             <h2>Why Home Services Is the Perfect Industry for AI Search</h2>
 
-            <p>Here is something most marketers will not tell you: local home services is actually one of the best-positioned industries for AI search, even though it currently has lower AI traffic share (3 to 7%) compared to tech or finance (18 to 25%), according to upGrowth&apos;s 2026 AI Traffic Share Report.</p>
+            <p>Here is something most marketers will not tell you: local home services is actually one of the best-positioned industries for AI search, even though it currently has lower AI traffic share (3 to 7%) compared to tech or finance (18 to 25%), according to upGrowth&apos;s 2026 AI Traffic Share Report. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>Why? Because the gap is the opportunity.</p>
 
             <div className="ae-callout ae-callout-success not-prose">
-              <p><strong>Wide-open field:</strong> ServiceTitan&apos;s 2026 State of AI in the Trades report surveyed over 1,000 contractors and found that only 12% have embedded AI into their processes. Another 35% have not used AI in their business at all. That means fewer than 1 in 8 contractors in your market are working on AI visibility right now.</p>
+              <p><strong>Wide-open field:</strong> ServiceTitan&apos;s 2026 State of AI in the Trades report surveyed over 1,000 contractors and found that only 12% have embedded AI into their processes. Another 35% have not used AI in their business at all. That means fewer than 1 in 8 contractors in your market are working on AI visibility right now. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             {/* ── COMPARISON TABLE: Home Services vs Other Industries ── */}
@@ -340,7 +340,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>See where your home service company stands in AI search before your competitors figure it out.</p>
+              <p>See where your home service company stands in AI search before your competitors figure it out. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
 
@@ -353,13 +353,13 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             {/* ── STRATEGY 1 ── */}
             <h3>1. They Build Content That AI Can Parse and Trust</h3>
 
-            <p>The single biggest difference between home service companies that get AI recommendations and those that do not is the quality of their website content.</p>
+            <p>The single biggest difference between home service companies that get AI recommendations and those that do not is the quality of their website content. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>3x accuracy jump:</strong> A study highlighted by Digidop found that GPT-4&apos;s accuracy jumped from 16% to 54% when content was backed by structured data. That is a 3x improvement in how well AI understands and trusts your content.</p>
             </div>
 
-            <p>What does this look like in practice? The winning companies have:</p>
+            <p>What does this look like in practice? The winning companies have: Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <ul>
               <li>Dedicated pages for every service they offer (not one generic &quot;Services&quot; page)</li>
@@ -388,7 +388,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your website passes the AI readability test? We will check for you.</p>
+              <p>Not sure if your website passes the AI readability test? We will check for you. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Free Content Audit &rarr;</a>
             </div>
 
@@ -398,7 +398,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <p>This is the one that surprises most contractors. Your Google reviews, no matter how many you have, are invisible to ChatGPT and most AI platforms. Google reviews require JavaScript to load, and AI crawlers read raw HTML.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>Google reviews are invisible to AI.</strong> Google&apos;s share as a review platform has dipped from 83% in 2025 to 71% in 2026, while Apple Maps usage nearly doubled from 14% to 27%. Video review platforms like YouTube, Instagram, and TikTok are also gaining traction. (BrightLocal 2026)</p>
+              <p><strong>Google reviews are invisible to AI.</strong> Google&apos;s share as a review platform has dipped from 83% in 2025 to 71% in 2026, while Apple Maps usage nearly doubled from 14% to 27%. Video review platforms like YouTube, Instagram, and TikTok are also gaining traction. (BrightLocal 2026) Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             {/* ── PROS/CONS: Review Platforms ── */}
@@ -429,7 +429,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             <p>The smart play? Display your best customer testimonials directly on your website as plain text (not embedded widgets). Add Review schema markup. And actively encourage customers to leave reviews on at least two platforms beyond Google.</p>
 
-            <p>We cover this in detail in our article about <Link href="/blog/do-google-reviews-affect-ai-recommendations">whether Google reviews affect AI recommendations</Link>.</p>
+            <p>We cover this in detail in our article about <Link href="/blog/do-google-reviews-affect-ai-recommendations">whether Google reviews affect AI recommendations</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
@@ -440,7 +440,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             {/* ── STRATEGY 3 ── */}
             <h3>3. They Claim and Optimize Every Directory Listing</h3>
 
-            <p>AI platforms build what researchers call &quot;entity authority.&quot; The more places AI finds consistent information about your business, the more confident it becomes in recommending you.</p>
+            <p>AI platforms build what researchers call &quot;entity authority.&quot; The more places AI finds consistent information about your business, the more confident it becomes in recommending you. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <p>According to Revved Digital&apos;s research on AI search ranking factors for 2026, citations from BBB, HomeAdvisor, Angi, your local Chamber of Commerce, and local news outlets all build this entity authority. When AI sees your business name, address, phone number, and services listed consistently across 20+ directories, it treats you as a verified, established business worth recommending.</p>
 
@@ -448,7 +448,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Week 1: Audit existing listings</strong>
-                <p>Search your business name across the top 30 directories. Document inconsistencies in name, address, phone, hours, and service descriptions.</p>
+                <p>Search your business name across the top 30 directories. Document inconsistencies in name, address, phone, hours, and service descriptions. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Week 2: Fix and claim</strong>
@@ -456,7 +456,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Week 3-4: Enrich profiles</strong>
-                <p>Add detailed service descriptions, photos, hours, service areas, and credentials to every listing. The more detail, the more AI trusts you.</p>
+                <p>Add detailed service descriptions, photos, hours, service areas, and credentials to every listing. The more detail, the more AI trusts you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Monthly: Monitor and expand</strong>
@@ -466,7 +466,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>We will show you every directory where your business is missing or inconsistent.</p>
+              <p>We will show you every directory where your business is missing or inconsistent. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Directory Audit &rarr;</a>
             </div>
 
@@ -476,7 +476,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <p>According to Taradel&apos;s 2026 Home Services Marketing Trends report, the top-performing content in home services right now is authentic, educational material. Think day-in-the-life footage of technicians on the job, time-lapses of repairs, and honest explanations of why certain parts fail.</p>
 
             <div className="ae-quote not-prose">
-              <p>AI platforms are far more likely to cite content that provides unique, verifiable insights. A roofing company that publishes a detailed guide with real photos and specific cost ranges is exactly the type of content AI loves to reference.</p>
+              <p>AI platforms are far more likely to cite content that provides unique, verifiable insights. A roofing company that publishes a detailed guide with real photos and specific cost ranges is exactly the type of content AI loves to reference. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             <p>This is not about writing for robots. It is about writing genuinely useful content that happens to be exactly what AI looks for: clear, factual, specific, and trustworthy.</p>
@@ -536,7 +536,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure what content to create first? Let us build you a roadmap.</p>
+              <p>Not sure what content to create first? Let us build you a roadmap. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Free Content Strategy Session &rarr;</a>
             </div>
 
@@ -545,19 +545,19 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             <p>The most successful home service companies do not treat AI search as an add-on to their SEO strategy. They treat it as its own channel with its own requirements.</p>
 
-            <p>Traditional SEO is about ranking on a results page. AI optimization is about being the answer. Different goal, different tactics.</p>
+            <p>Traditional SEO is about ranking on a results page. AI optimization is about being the answer. Different goal, different tactics. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <p><strong>Growth trajectory:</strong> AI search traffic is growing at 130 to 150% year over year according to upGrowth&apos;s Q1 2026 data. ChatGPT alone drives 87.4% of all AI referral traffic. These are not small numbers, and they are growing every month.</p>
             </div>
 
-            <p>The winning contractors have someone (whether in-house or through an agency) who specifically monitors their AI visibility, tracks which platforms mention them, and adjusts their strategy based on what is working.</p>
+            <p>The winning contractors have someone (whether in-house or through an agency) who specifically monitors their AI visibility, tracks which platforms mention them, and adjusts their strategy based on what is working. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <p>For a complete walkthrough of how this works, see our <Link href="/blog/complete-guide-answer-engine-optimization">complete guide to Answer Engine Optimization</Link>.</p>
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Ready to make AI search a real channel for your business? Start with the data.</p>
+              <p>Ready to make AI search a real channel for your business? Start with the data. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -589,7 +589,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Right now, fewer than 1 in 8 contractors in your market are actively working on AI visibility. The other 7 are either unaware, undecided, or waiting. When you combine that with AI recommendations converting 30% better than traditional search, the math becomes very clear: the contractors who act first win disproportionately.</p>
+              <p>Right now, fewer than 1 in 8 contractors in your market are actively working on AI visibility. The other 7 are either unaware, undecided, or waiting. When you combine that with AI recommendations converting 30% better than traditional search, the math becomes very clear: the contractors who act first win disproportionately. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             {/* ── BAR CHART: Contractor AI Adoption ── */}
@@ -623,12 +623,12 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <span className="ae-section-label">Act Now</span>
             <h2>The Window Is Open, But It Will Not Stay Open Forever</h2>
 
-            <p>Here is the reality of AI search in home services right now: the map pack still dominates. WebFX&apos;s data shows it appears in 31.7% of home service searches. Google is not going anywhere.</p>
+            <p>Here is the reality of AI search in home services right now: the map pack still dominates. WebFX&apos;s data shows it appears in 31.7% of home service searches. Google is not going anywhere. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>But every month, more consumers are asking AI for recommendations before they ever open Google Maps. Every month, AI Overviews appear on more searches. Every month, the companies that invested early become harder to displace.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
-              <p><strong>The window is closing.</strong> If you are a plumber, HVAC tech, roofer, electrician, or landscaper, the question is not whether AI search will affect your business. The question is whether you will be positioned to benefit from it or whether you will be the one wondering where all the leads went.</p>
+              <p><strong>The window is closing.</strong> If you are a plumber, HVAC tech, roofer, electrician, or landscaper, the question is not whether AI search will affect your business. The question is whether you will be positioned to benefit from it or whether you will be the one wondering where all the leads went. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* ── CHEAT SHEET: Getting Started ── */}
@@ -649,7 +649,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
               <a href="tel:+12134442229">Call (213) 444-2229 and We Will Walk You Through It &rarr;</a>
             </div>
 
-            <p>To learn more about how ChatGPT specifically decides which businesses to recommend, read our deep dive on <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">how ChatGPT chooses businesses to recommend</Link>.</p>
+            <p>To learn more about how ChatGPT specifically decides which businesses to recommend, read our deep dive on <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">how ChatGPT chooses businesses to recommend</Link>. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* ── CTA 11 ── */}
             <div className="ae-cta-inline not-prose">
@@ -692,7 +692,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
               ].map((faq, i) => (
                 <div key={i} className="rounded-xl border border-white/10 bg-white/[0.02] p-6">
                   <h3 className="text-lg font-semibold text-white mb-3">{faq.q}</h3>
-                  <p className="text-gray-300 leading-relaxed">{faq.a}</p>
+                  <p className="text-gray-300 leading-relaxed">{faq.a} <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 </div>
               ))}
             </div>
@@ -706,7 +706,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
           {/* ── CTA 13 ── */}
           <div className="ae-cta-inline not-prose my-8">
-            <p>Prefer email? Send us your questions and we will get back to you within 24 hours.</p>
+            <p>Prefer email? Send us your questions and we will get back to you within 24 hours. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
           </div>
 
@@ -719,7 +719,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
           {/* ── FINAL CTA ── */}
           <div className="ae-final-cta not-prose">
             <h2>Is Your Home Service Company Visible to AI?</h2>
-            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone asks about businesses like yours. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility.</p>
+            <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone asks about businesses like yours. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
             <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
@@ -740,7 +740,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">Justin Borges</p>
+              <p className="text-white font-semibold">Justin Borges <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <p className="text-sm text-gray-400">
                 We help local service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily so you do not have to.
               </p>

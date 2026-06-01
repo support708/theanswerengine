@@ -271,21 +271,21 @@ export default function Page() {
             <span className="ae-section-label" id="why-volume-matters">The Signal Problem</span>
             <h2>Why Volume Matters More Than Single Articles</h2>
 
-            <p>AI systems build authority maps from patterns, not isolated data points. One exceptional article about property management in Long Beach does not establish that a business is the authority on property management in Long Beach. Ten articles do not either. The signal is still too sparse for AI systems to distinguish a real expert from a generic website that happened to write a few good posts.</p>
+            <p>AI systems build authority maps from patterns, not isolated data points. One exceptional article about property management in Long Beach does not establish that a business is the authority on property management in Long Beach. Ten articles do not either. The signal is still too sparse for AI systems to distinguish a real expert from a generic website that happened to write a few good posts. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>By 30 articles, published across a coherent cluster and covering related facets of the topic with geographic specificity, a recognizable pattern begins to emerge. At 48 articles (16 per month for 3 months), that pattern is dense enough to trigger first citations on ChatGPT and Perplexity. This is not an arbitrary number. It reflects the minimum signal density required for LLM authority models to differentiate a genuine expert from background noise.</p>
+            <p>By 30 articles, published across a coherent cluster and covering related facets of the topic with geographic specificity, a recognizable pattern begins to emerge. At 48 articles (16 per month for 3 months), that pattern is dense enough to trigger first citations on ChatGPT and Perplexity. This is not an arbitrary number. It reflects the minimum signal density required for LLM authority models to differentiate a genuine expert from background noise. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>The mechanism is straightforward: AI platforms cross-reference pages on your site before citing you. If your content is a collection of disconnected posts with no structural coherence, the AI sees isolated opinions. If your content is 48 pages covering a topic from multiple angles with internal links connecting them, the AI sees a verified web of knowledge. That second pattern is what gets you cited. You can read more about <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link> and the full signal framework behind citation decisions.</p>
+            <p>The mechanism is straightforward: AI platforms cross-reference pages on your site before citing you. If your content is a collection of disconnected posts with no structural coherence, the AI sees isolated opinions. If your content is 48 pages covering a topic from multiple angles with internal links connecting them, the AI sees a verified web of knowledge. That second pattern is what gets you cited. You can read more about <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link> and the full signal framework behind citation decisions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             {/* -- CALLOUT: PATTERN RECOGNITION -- */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Why Single Articles Fail</div>
-              <p>AI platforms do not evaluate individual articles in isolation. They evaluate whether a source demonstrates comprehensive knowledge on a topic across many pages. A single outstanding article earns no special treatment. The pattern that earns citations requires depth at scale.</p>
+              <p>AI platforms do not evaluate individual articles in isolation. They evaluate whether a source demonstrates comprehensive knowledge on a topic across many pages. A single outstanding article earns no special treatment. The pattern that earns citations requires depth at scale. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             {/* -- CTA 1 -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if your current content output is on track to earn AI citations in the next 90 days.</p>
+              <p>Find out if your current content output is on track to earn AI citations in the next 90 days. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -293,7 +293,7 @@ export default function Page() {
             <span className="ae-section-label" id="velocity-levels">The Velocity Table</span>
             <h2>What Happens at Different Content Velocity Levels</h2>
 
-            <p>Not all publishing cadences produce the same outcome. The relationship between monthly output and citation timing is not linear: there is a threshold effect. Below 16 articles per month, results degrade quickly. Above it, compounding begins. Here is the full picture based on observed client patterns across the AE portfolio.</p>
+            <p>Not all publishing cadences produce the same outcome. The relationship between monthly output and citation timing is not linear: there is a threshold effect. Below 16 articles per month, results degrade quickly. Above it, compounding begins. Here is the full picture based on observed client patterns across the AE portfolio. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* -- COMPARISON TABLE: VELOCITY LEVELS -- */}
             <div className="ae-comparison-table not-prose">
@@ -340,17 +340,17 @@ export default function Page() {
               </table>
             </div>
 
-            <p>The threshold at 16 articles per month is not a ceiling. Businesses that publish 20 or 24 articles per month see faster initial results and stronger compounding over time. But 16 is the minimum that produces reliable outcomes within a 90-day window, which is why it is the baseline cadence in every AE client engagement. This velocity question is closely related to <Link href="/blog/why-fresh-content-key-ai-search-visibility">why fresh content drives AI search visibility</Link> at a structural level.</p>
+            <p>The threshold at 16 articles per month is not a ceiling. Businesses that publish 20 or 24 articles per month see faster initial results and stronger compounding over time. But 16 is the minimum that produces reliable outcomes within a 90-day window, which is why it is the baseline cadence in every AE client engagement. This velocity question is closely related to <Link href="/blog/why-fresh-content-key-ai-search-visibility">why fresh content drives AI search visibility</Link> at a structural level. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             {/* -- QUOTE -- */}
             <div className="ae-quote not-prose">
-              <p>Below the velocity threshold, you are not building authority. You are publishing content that AI systems process and forget because there is not enough of it to form a recognizable pattern.</p>
+              <p>Below the velocity threshold, you are not building authority. You are publishing content that AI systems process and forget because there is not enough of it to form a recognizable pattern. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             </div>
 
             {/* -- CTA 2 -- */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Not Sure Where Your Velocity Stands?</h3>
-              <p className="text-gray-400 mb-6">Our free blind spot report audits your current publishing cadence across all four major LLM platforms and shows you exactly what it will take to reach citation threshold in your market.</p>
+              <p className="text-gray-400 mb-6">Our free blind spot report audits your current publishing cadence across all four major LLM platforms and shows you exactly what it will take to reach citation threshold in your market. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">Get My Free Blind Spot Report</Link>
               <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">(213) 444-2229</a>
@@ -362,29 +362,29 @@ export default function Page() {
             <span className="ae-section-label" id="90-day-window">The Timeline</span>
             <h2>The 90-Day Window Explained</h2>
 
-            <p>Why 90 days? AI systems need to observe a pattern before encoding it as authority. The timeline maps to how LLM training and retrieval cycles process new content signals at scale.</p>
+            <p>Why 90 days? AI systems need to observe a pattern before encoding it as authority. The timeline maps to how LLM training and retrieval cycles process new content signals at scale. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* -- TIMELINE: 90-DAY WINDOW -- */}
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Month 1: Indexing, Not Yet Pattern Recognition</strong>
-                <p>Content is crawled and indexed. At this stage, the cluster exists as individual pages, not as a coherent authority signal. AI crawlers note the pages but have not yet identified a pattern worth encoding as expertise.</p>
+                <p>Content is crawled and indexed. At this stage, the cluster exists as individual pages, not as a coherent authority signal. AI crawlers note the pages but have not yet identified a pattern worth encoding as expertise. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 2: Cluster Coherence Begins</strong>
-                <p>With 32 articles now published, the cluster starts to cohere. AI crawlers observe that this source consistently covers a specific topic in depth, with geographic and contextual specificity. Internal linking reinforces the connection between pages.</p>
+                <p>With 32 articles now published, the cluster starts to cohere. AI crawlers observe that this source consistently covers a specific topic in depth, with geographic and contextual specificity. Internal linking reinforces the connection between pages. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 3: First Citations Appear</strong>
-                <p>At 48 articles, the pattern is dense enough to trigger citations for the most specific queries. Perplexity and ChatGPT begin surfacing the source in response to narrow, high-intent questions in the cluster topic.</p>
+                <p>At 48 articles, the pattern is dense enough to trigger citations for the most specific queries. Perplexity and ChatGPT begin surfacing the source in response to narrow, high-intent questions in the cluster topic. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Month 6: Broader Query Coverage</strong>
-                <p>By month six, the authority is strong enough to surface citations for broader queries, not just narrow long-tail questions. The content moat begins to compound, with each new article reinforcing the authority of every existing one.</p>
+                <p>By month six, the authority is strong enough to surface citations for broader queries, not just narrow long-tail questions. The content moat begins to compound, with each new article reinforcing the authority of every existing one. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               </div>
             </div>
 
-            <p>The 90-day window is the minimum lead time between starting AEO and earning first citations. This is why The Answer Engine offers a 90-day citation guarantee: not because we are guessing, but because the pattern is consistent across every market we have worked in. Businesses that understand this timeline ask better questions and set accurate expectations. Those that expect results in two weeks from a blog post or two are working from a fundamentally broken mental model of how AI authority works. For a deeper look at the mechanics, see <Link href="/blog/first-90-days-of-ai-search-optimization-what-to-expect">what to expect in the first 90 days of AI search optimization</Link>.</p>
+            <p>The 90-day window is the minimum lead time between starting AEO and earning first citations. This is why The Answer Engine offers a 90-day citation guarantee: not because we are guessing, but because the pattern is consistent across every market we have worked in. Businesses that understand this timeline ask better questions and set accurate expectations. Those that expect results in two weeks from a blog post or two are working from a fundamentally broken mental model of how AI authority works. For a deeper look at the mechanics, see <Link href="/blog/first-90-days-of-ai-search-optimization-what-to-expect">what to expect in the first 90 days of AI search optimization</Link>. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* -- BAR CHART: CITATION PROBABILITY OVER TIME -- */}
             <div className="ae-bar-group not-prose">
@@ -417,7 +417,7 @@ export default function Page() {
 
             {/* -- CTA 3 -- */}
             <div className="ae-cta-inline not-prose">
-              <p>We guarantee first citations within 90 days for clients at 16 articles per month. That is the standard we hold ourselves to.</p>
+              <p>We guarantee first citations within 90 days for clients at 16 articles per month. That is the standard we hold ourselves to. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 to Talk About the 90-Day Guarantee &rarr;</a>
             </div>
 
@@ -425,11 +425,11 @@ export default function Page() {
             <span className="ae-section-label" id="quality-and-quantity">The Formula</span>
             <h2>Quality and Quantity: Why Both Matter Simultaneously</h2>
 
-            <p>A question that comes up in almost every initial consultation is some version of: should I focus on fewer, higher-quality articles or more articles at a slightly lower quality bar? The answer is that this is a false choice, and understanding why reveals something important about how AI authority actually works.</p>
+            <p>A question that comes up in almost every initial consultation is some version of: should I focus on fewer, higher-quality articles or more articles at a slightly lower quality bar? The answer is that this is a false choice, and understanding why reveals something important about how AI authority actually works. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-            <p>Volume without specificity produces generic content. Generic content earns no citations because AI platforms have no reason to prefer it over the hundreds of other generic sources that cover the same topic. You can publish 100 articles per month and still have zero AI citations if those articles lack geographic specificity, local context, and extractable direct answers.</p>
+            <p>Volume without specificity produces generic content. Generic content earns no citations because AI platforms have no reason to prefer it over the hundreds of other generic sources that cover the same topic. You can publish 100 articles per month and still have zero AI citations if those articles lack geographic specificity, local context, and extractable direct answers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
-            <p>Specificity without volume produces isolated data points. Even one outstanding article about water heater repair costs in Pasadena, CA does not establish that this business is the Pasadena water heater authority. It establishes that they wrote one good article. AI platforms need to see that pattern repeated across many pages before they encode it as expertise.</p>
+            <p>Specificity without volume produces isolated data points. Even one outstanding article about water heater repair costs in Pasadena, CA does not establish that this business is the Pasadena water heater authority. It establishes that they wrote one good article. AI platforms need to see that pattern repeated across many pages before they encode it as expertise. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* -- PROS CONS: QUALITY VS QUANTITY -- */}
             <div className="ae-pros-cons not-prose">
@@ -455,11 +455,11 @@ export default function Page() {
               </div>
             </div>
 
-            <p>The minimum effective formula is: 16 articles per month, geographic specificity, and extractable structure. Missing any one of these three elements reduces citation probability to near zero, regardless of how well the articles are written on any other dimension. This connects directly to <Link href="/blog/hub-spoke-content-strategy-ai-citations">how hub-and-spoke content architecture builds AI citation authority</Link>.</p>
+            <p>The minimum effective formula is: 16 articles per month, geographic specificity, and extractable structure. Missing any one of these three elements reduces citation probability to near zero, regardless of how well the articles are written on any other dimension. This connects directly to <Link href="/blog/hub-spoke-content-strategy-ai-citations">how hub-and-spoke content architecture builds AI citation authority</Link>. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* -- CTA 4 -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to see how your current content scores on all three dimensions? Our report checks all of them.</p>
+              <p>Want to see how your current content scores on all three dimensions? Our report checks all of them. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -467,9 +467,9 @@ export default function Page() {
             <span className="ae-section-label" id="12-month-math">The Math</span>
             <h2>The 12-Month Math: Why This Compounds</h2>
 
-            <p>16 articles per month times 12 months equals 192 articles. That number matters because of what it represents structurally, not just numerically.</p>
+            <p>16 articles per month times 12 months equals 192 articles. That number matters because of what it represents structurally, not just numerically. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-            <p>192 articles building a single authority cluster create a content moat that competitors cannot replicate quickly. The moat has two components: the content itself, and the authority that has accumulated from 12 months of consistent citation signals. Both take time to build, and both are required for the full competitive barrier.</p>
+            <p>192 articles building a single authority cluster create a content moat that competitors cannot replicate quickly. The moat has two components: the content itself, and the authority that has accumulated from 12 months of consistent citation signals. Both take time to build, and both are required for the full competitive barrier. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* -- DECISION MATRIX: HEAD START MATH -- */}
             <div className="ae-decision-matrix not-prose">
@@ -501,7 +501,7 @@ export default function Page() {
               </table>
             </div>
 
-            <p>To displace a business that has 12 months of AEO content at 16 articles per month, a new entrant would need to publish 192 equally specific, equally geographic articles, and then wait another 90 days for their authority to register. That represents a structural head start of roughly 15 months that compounds every month the original business continues publishing. This is the compounding logic behind why the best time to start is now, and the second-best time is also now. The cost of delay is not just lost citations today. It is a growing gap that becomes progressively harder to close. The <Link href="/blog/hidden-cost-ignoring-ai-search">hidden cost of ignoring AI search</Link> compounds exactly this way.</p>
+            <p>To displace a business that has 12 months of AEO content at 16 articles per month, a new entrant would need to publish 192 equally specific, equally geographic articles, and then wait another 90 days for their authority to register. That represents a structural head start of roughly 15 months that compounds every month the original business continues publishing. This is the compounding logic behind why the best time to start is now, and the second-best time is also now. The cost of delay is not just lost citations today. It is a growing gap that becomes progressively harder to close. The <Link href="/blog/hidden-cost-ignoring-ai-search">hidden cost of ignoring AI search</Link> compounds exactly this way. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* -- TAKEAWAY -- */}
             <div className="ae-takeaway not-prose">
@@ -511,7 +511,7 @@ export default function Page() {
             {/* -- CTA 5 (large gradient block) -- */}
             <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">See What 12 Months of AEO Looks Like in Your Market</h3>
-              <p className="text-gray-400 mb-6">We build a custom territory map showing which queries your business should own at month 3, month 6, and month 12. One client per market. Once your territory is claimed, we do not take a competitor in the same space.</p>
+              <p className="text-gray-400 mb-6">We build a custom territory map showing which queries your business should own at month 3, month 6, and month 12. One client per market. Once your territory is claimed, we do not take a competitor in the same space. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">Claim Your Territory &rarr;</Link>
               <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">(213) 444-2229</a>
@@ -523,11 +523,11 @@ export default function Page() {
             <span className="ae-section-label" id="below-threshold">The Path Forward</span>
             <h2>What to Do If You Are Below Threshold</h2>
 
-            <p>If a business is currently publishing 2 articles per month, the path to citations is not to publish 2 better articles. The quality of the existing articles is not the problem. The velocity and structural coherence are the problem. Publishing the same 2 articles per month, no matter how well written, will not produce reliable AI citations within any reasonable timeframe.</p>
+            <p>If a business is currently publishing 2 articles per month, the path to citations is not to publish 2 better articles. The quality of the existing articles is not the problem. The velocity and structural coherence are the problem. Publishing the same 2 articles per month, no matter how well written, will not produce reliable AI citations within any reasonable timeframe. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
-            <p>The fastest path to citation threshold follows a specific sequence. Start with a hub article for the primary service in the primary geography. This becomes the anchor for everything that follows. Then publish spokes at 16 per month, each covering a distinct facet of the topic with city-specific context and a direct answer in the first paragraph. The 90-day clock does not start until the first article in a properly structured cluster is published. Prior scattered articles do not contribute to this clock unless they are retrospectively integrated into the cluster architecture with internal links and consistent topical focus.</p>
+            <p>The fastest path to citation threshold follows a specific sequence. Start with a hub article for the primary service in the primary geography. This becomes the anchor for everything that follows. Then publish spokes at 16 per month, each covering a distinct facet of the topic with city-specific context and a direct answer in the first paragraph. The 90-day clock does not start until the first article in a properly structured cluster is published. Prior scattered articles do not contribute to this clock unless they are retrospectively integrated into the cluster architecture with internal links and consistent topical focus. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
-            <p>The most common mistake businesses make when trying to close the velocity gap is hiring a general SEO agency and asking them to produce more content. General SEO agencies optimize for keyword rankings, not for the authority patterns that AI systems use to select citation sources. The technical requirements for AI citation (direct-answer structure, geographic specificity, FAQ schema, hub-and-spoke architecture, consistent velocity) are different from the requirements for traditional Google rankings. This is why <Link href="/blog/seo-agency-vs-ai-optimization-which-one">understanding the difference between an SEO agency and an AI optimization firm</Link> matters before you invest in more content production.</p>
+            <p>The most common mistake businesses make when trying to close the velocity gap is hiring a general SEO agency and asking them to produce more content. General SEO agencies optimize for keyword rankings, not for the authority patterns that AI systems use to select citation sources. The technical requirements for AI citation (direct-answer structure, geographic specificity, FAQ schema, hub-and-spoke architecture, consistent velocity) are different from the requirements for traditional Google rankings. This is why <Link href="/blog/seo-agency-vs-ai-optimization-which-one">understanding the difference between an SEO agency and an AI optimization firm</Link> matters before you invest in more content production. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* -- CHEAT SHEET: ACTION PLAN -- */}
             <div className="ae-cheat-sheet not-prose">
@@ -542,7 +542,7 @@ export default function Page() {
 
             {/* -- CTA 6 -- */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which starting point applies to your business? We diagnose this in the free blind spot report.</p>
+              <p>Not sure which starting point applies to your business? We diagnose this in the free blind spot report. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -550,7 +550,7 @@ export default function Page() {
             <span className="ae-section-label">Proof</span>
             <h2>What the Numbers Look Like in Practice</h2>
 
-            <p>The Answer Engine owns lametrohomefinder.com, a real estate content property built on this exact methodology. The numbers from that property are the empirical basis for the thresholds and timelines described in this article.</p>
+            <p>The Answer Engine owns lametrohomefinder.com, a real estate content property built on this exact methodology. The numbers from that property are the empirical basis for the thresholds and timelines described in this article. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* -- STATS GRID: AE PROOF NUMBERS -- */}
             <div className="ae-stats-grid not-prose">

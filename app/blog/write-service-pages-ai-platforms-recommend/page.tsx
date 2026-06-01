@@ -317,7 +317,7 @@ export default function Page() {
               fastest-growing discovery channel in business. This guide shows you
               exactly how to write service pages that AI platforms will cite,
               quote, and recommend.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* Callout: AI Search Growth */}
             <div className="not-prose">
@@ -329,14 +329,14 @@ export default function Page() {
                   increased over 200% since mid-2025. Businesses that are not
                   optimizing their service pages for AI visibility are missing the
                   largest shift in search behavior since mobile.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure if AI platforms can even find your service pages?</p>
+                <p>Not sure if AI platforms can even find your service pages? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
               </div>
             </div>
@@ -353,13 +353,13 @@ export default function Page() {
               recommendation, it searches through pages that clearly describe
               what a business does, where it operates, what it charges, and why
               it is qualified.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Service pages are the single most important content type for local
               businesses in AI search. Unlike blog posts, which answer general
               questions, service pages answer the specific question AI users ask
               most often: &quot;Who can solve my problem?&quot;
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The problem is that most service pages were written for
               traditional SEO. They are stuffed with keywords, thin on detail,
@@ -367,7 +367,7 @@ export default function Page() {
               says &quot;We offer the best HVAC services in Dallas&quot; without
               explaining what those services include, what they cost, or what
               qualifications the team holds gives AI nothing useful to cite.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Takeaway: Core Problem */}
             <div className="not-prose">
@@ -379,7 +379,7 @@ export default function Page() {
                   whether to recommend your business. If your page cannot answer
                   a specific question in a clear, self-contained paragraph, AI will
                   skip you entirely and recommend a competitor whose page can.
-                </p>
+                 <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
             </div>
 
@@ -392,7 +392,7 @@ export default function Page() {
               Each AI platform has its own retrieval method, but they share
               common evaluation patterns. Understanding these patterns is the
               foundation of writing service pages that get cited.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* Comparison Table: Platform Behaviors */}
             <div className="not-prose">
@@ -438,7 +438,7 @@ export default function Page() {
               B2B SaaS Citation Benchmarks Report. This means your own service
               page will outperform a directory listing about your business, as
               long as the content is strong enough.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               <strong className="text-white">Perplexity</strong> uses real-time
               retrieval and ties every claim to a specific source in 78% of
@@ -447,19 +447,19 @@ export default function Page() {
               structured data. Service pages with FAQ schema and detailed service
               descriptions perform well on Perplexity because the platform can
               extract and attribute specific claims.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               <strong className="text-white">Google AI Overviews</strong> pull
               from Google-indexed pages. As of April 2025, AI Overviews appeared
               in 40.2% of local business queries, according to Local Falcon.
               Google has publicly stated that structured data is critical for
               modern search features.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Find out which AI platforms are citing your competitors instead of you.</p>
+                <p>Find out which AI platforms are citing your competitors instead of you. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 <Link href="/blindspot">Run Your Free Blind Spot Analysis</Link>
               </div>
             </div>
@@ -472,7 +472,7 @@ export default function Page() {
             <p className="text-gray-300 leading-relaxed mb-4">
               Based on citation research and platform behavior, here is what
               every service page needs to be recommended by AI platforms.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Timeline: 6 Elements */}
             <div className="not-prose">
@@ -532,7 +532,7 @@ export default function Page() {
               queries against page titles, so specificity matters. Your meta
               description should summarize what the service includes, who it is
               for, and what area you serve, all in 155 characters or fewer.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               2. A Strong Opening Paragraph
@@ -543,12 +543,12 @@ export default function Page() {
               paragraph must immediately answer the core question: what is this
               service, who provides it, and where. Do not bury the lead behind a
               brand story or generic introduction. State the facts first.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Quote */}
             <div className="not-prose">
               <div className="ae-quote">
-                <p>&quot;AI platforms do not read between the lines. If your opening paragraph does not name the service, the location, and the provider, you have already lost the citation.&quot;</p>
+                <p>&quot;AI platforms do not read between the lines. If your opening paragraph does not name the service, the location, and the provider, you have already lost the citation.&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
             </div>
 
@@ -566,7 +566,7 @@ export default function Page() {
               headings receive 70% more ChatGPT citations than pages with
               sections under 50 words, according to the 2025 AI Visibility
               Report.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Bar Chart: Content Length Impact */}
             <div className="not-prose">
@@ -594,7 +594,7 @@ export default function Page() {
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to see how your current service page sections measure up?</p>
+                <p>Want to see how your current service page sections measure up? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
                 <Link href="/blindspot">Get a Free AI Visibility Score</Link>
               </div>
             </div>
@@ -609,7 +609,7 @@ export default function Page() {
                   BrightEdge. In March 2025, both Google and Microsoft publicly
                   confirmed they use schema markup for their generative AI
                   features. Structured data is no longer optional for service pages.
-                </p>
+                 Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
@@ -625,7 +625,7 @@ export default function Page() {
               found that adding data-backed statistics to content increases AI
               visibility by 22%, while including original quotations boosts it by
               37%.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Pros/Cons: Specific vs Vague */}
             <div className="not-prose">
@@ -664,7 +664,7 @@ export default function Page() {
               , and they generate FAQ schema markup that helps AI models
               understand your page structure. Write answers in 2 to 4 sentences.
               Start each answer with a direct response before adding context.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               6. Schema Markup for Services
@@ -673,7 +673,7 @@ export default function Page() {
               Schema markup is the technical bridge between your content and AI
               understanding. For service pages, implement these schema types at
               minimum:
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Decision Matrix: Schema Types */}
             <div className="not-prose">
@@ -723,12 +723,12 @@ export default function Page() {
                 how schema markup helps AI search
               </Link>{' '}
               in our dedicated guide.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             {/* CTA Inline 4 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure if your schema markup is set up correctly?</p>
+                <p>Not sure if your schema markup is set up correctly? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <a href="tel:+12134442229">Call us at (213) 444-2229</a>
               </div>
             </div>
@@ -743,21 +743,21 @@ export default function Page() {
               you write. AI platforms retrieve content in chunks, not full pages.
               Each section of your service page should be able to stand alone as
               a complete, citable answer.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Think of your service page as a database of verifiable facts, not
               a narrative sales pitch. Each heading introduces a topic. Each
               paragraph beneath it provides a complete answer. If an AI platform
               pulls just one section from your page, that section should make
               sense on its own and include enough context to be useful.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Tables are especially powerful. Research shows that comparison
               tables filled with actual pricing, specific feature descriptions,
               and &quot;best for&quot; labels are among the most-cited content
               formats in AI Overviews. If your service page can include a table
               comparing service tiers, pricing, or included features, add one.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Cheat Sheet: Content Structure Rules */}
             <div className="not-prose">
@@ -777,7 +777,7 @@ export default function Page() {
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>See how your content structure compares to competitors winning in AI search.</p>
+                <p>See how your content structure compares to competitors winning in AI search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <Link href="/blindspot">Get Your Competitive Analysis</Link>
               </div>
             </div>
@@ -795,7 +795,7 @@ export default function Page() {
               installation&quot; will always outperform a general &quot;our
               services&quot; page when someone asks an AI about commercial HVAC
               installation.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Create a separate, dedicated page for each core service you offer.
               Each page should have its own schema markup, its own FAQ section,
@@ -804,7 +804,7 @@ export default function Page() {
                 hub-and-spoke content strategy
               </Link>{' '}
               that drives AI citations across your entire site.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             {/* Quote */}
             <div className="not-prose">

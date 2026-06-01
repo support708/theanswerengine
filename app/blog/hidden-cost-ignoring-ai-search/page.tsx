@@ -227,7 +227,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
-            <p>Every month you remain invisible to AI search, your competitors compound their authority advantage. This is not a problem that fixes itself. It accelerates.</p>
+            <p>Every month you remain invisible to AI search, your competitors compound their authority advantage. This is not a problem that fixes itself. It accelerates. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           </div>
 
           {/* ── SECTION 1: TRAFFIC DISAPPEARED ── */}
@@ -236,7 +236,7 @@ export default function Page() {
 
           <p>Something unusual happened to organic search traffic in 2025. Businesses that had spent years building their rankings started noticing a slow, persistent decline in website visits, even though their positions had not changed. The culprit was not a Google algorithm update in the traditional sense. It was <Link href="/blog/google-ai-overviews-replacing-search">the expansion of AI Overviews</Link> and zero-click search behavior.</p>
 
-          <p>According to Semrush data from 2025, <strong>58.5% of U.S. Google searches</strong> now end without a single click to any website. The user types a question, reads the AI-generated summary at the top of the page, and leaves. No visit to your site. No phone call. No form submission.</p>
+          <p>According to Semrush data from 2025, <strong>58.5% of U.S. Google searches</strong> now end without a single click to any website. The user types a question, reads the AI-generated summary at the top of the page, and leaves. No visit to your site. No phone call. No form submission. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <p>For searches that trigger AI Overviews specifically, the picture is even more stark. Those searches show an average zero-click rate of <strong>83%</strong>. In Google&apos;s dedicated AI Mode, where the system delivers a comprehensive conversational response, 93% of sessions end without a website click.</p>
 
@@ -264,7 +264,7 @@ export default function Page() {
             </div>
           </div>
 
-          <p>The scale of traffic loss is not theoretical. Clicks to the top 50 news sites fell from 2.3 billion to less than 1.7 billion monthly visits in just 12 months. Classic organic click share dropped between 11 and 23 percentage points across every vertical measured.</p>
+          <p>The scale of traffic loss is not theoretical. Clicks to the top 50 news sites fell from 2.3 billion to less than 1.7 billion monthly visits in just 12 months. Classic organic click share dropped between 11 and 23 percentage points across every vertical measured. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -273,7 +273,7 @@ export default function Page() {
 
           {/* ── CTA 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering how much traffic AI is siphoning from your business? Find out with a free analysis.</p>
+            <p>Wondering how much traffic AI is siphoning from your business? Find out with a free analysis. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
           </div>
 
@@ -283,7 +283,7 @@ export default function Page() {
 
           <p>The speed at which consumers have adopted AI search tools is unlike anything the digital marketing world has seen. ChatGPT reached <strong>810 million daily users</strong>. Google AI Overviews now reach <strong>1.5 billion monthly users</strong>. AI platforms generated 1.13 billion referral visits in June 2025 alone, a 357% increase from June 2024.</p>
 
-          <p>Over half of consumers have now tried LLM-powered search, and 34% use an AI search tool daily or near-daily. Approximately 3 in 4 American respondents say they use AI for search at least weekly.</p>
+          <p>Over half of consumers have now tried LLM-powered search, and 34% use an AI search tool daily or near-daily. Approximately 3 in 4 American respondents say they use AI for search at least weekly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           {/* ── STATS GRID: PLATFORM USAGE ── */}
           <div className="ae-stats-grid not-prose">
@@ -313,7 +313,7 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>AI search is not replacing Google overnight. It is layering on top of it. But the users who engage with AI search are the highest-intent buyers in your market, and they are making decisions before they ever visit a website.</p>
+            <p>AI search is not replacing Google overnight. It is layering on top of it. But the users who engage with AI search are the highest-intent buyers in your market, and they are making decisions before they ever visit a website. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           {/* ── CTA 2 ── */}
@@ -326,7 +326,7 @@ export default function Page() {
           <span className="ae-section-label">Revenue Impact</span>
           <h2>The Revenue Impact: What Invisibility Actually Costs</h2>
 
-          <p>Here is where the analysis moves from abstract to concrete. AI search traffic does not just represent volume. It represents <em>higher-quality</em> volume. AI search traffic converts at <strong>14.2%</strong> compared to Google organic at just <strong>2.8%</strong>. The average visitor from an AI platform is worth <strong>4.4 times more</strong> than the average traditional organic search visitor, based on conversion rates.</p>
+          <p>Here is where the analysis moves from abstract to concrete. AI search traffic does not just represent volume. It represents <em>higher-quality</em> volume. AI search traffic converts at <strong>14.2%</strong> compared to Google organic at just <strong>2.8%</strong>. The average visitor from an AI platform is worth <strong>4.4 times more</strong> than the average traditional organic search visitor, based on conversion rates. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* ── COMPARISON TABLE ── */}
           <table className="ae-comparison-table not-prose">
@@ -375,14 +375,14 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Reality Check</div>
-            <p>Every lead that AI sends to your competitor is a lead your business never even knew existed. There is no missed-call notification for AI invisibility. The revenue just silently goes elsewhere.</p>
+            <p>Every lead that AI sends to your competitor is a lead your business never even knew existed. There is no missed-call notification for AI invisibility. The revenue just silently goes elsewhere. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p>Meanwhile, Gartner predicts that by 2026, traditional search engine volume will drop <strong>25%</strong> as users shift to generative AI assistants. That could mean Google&apos;s query count declines from roughly 14 billion per day to around 10 to 11 billion per day. The traffic pool you have been fishing in is shrinking. The new pool, AI search, is growing at more than 40% per month. And if <Link href="/blog/seo-not-generating-leads">your SEO is no longer generating leads</Link>, this shift is likely a factor.</p>
 
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>How many high-converting AI leads are going to your competitors right now? Get the data.</p>
+            <p>How many high-converting AI leads are going to your competitors right now? Get the data. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">See Your AI Revenue Gap &#8594;</Link>
           </div>
 
@@ -418,7 +418,7 @@ export default function Page() {
             </div>
           </div>
 
-          <p>Companies deploying AI-powered marketing solutions are seeing an average <strong>37% reduction</strong> in overall customer acquisition costs compared to those relying on traditional tactics alone. The reason is straightforward: AI recommendations carry implied endorsement value. When ChatGPT or Google AI suggests your business as the answer to a customer&apos;s question, that recommendation reduces the friction and skepticism that typically drives up acquisition costs.</p>
+          <p>Companies deploying AI-powered marketing solutions are seeing an average <strong>37% reduction</strong> in overall customer acquisition costs compared to those relying on traditional tactics alone. The reason is straightforward: AI recommendations carry implied endorsement value. When ChatGPT or Google AI suggests your business as the answer to a customer&apos;s question, that recommendation reduces the friction and skepticism that typically drives up acquisition costs. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -427,7 +427,7 @@ export default function Page() {
 
           {/* ── CTA 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Want to know what your customer acquisition cost looks like in the AI search era? Start with the data.</p>
+            <p>Want to know what your customer acquisition cost looks like in the AI search era? Start with the data. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
           </div>
 
@@ -441,7 +441,7 @@ export default function Page() {
           <span className="ae-section-label">Industry Impact</span>
           <h2>Which Industries Are Feeling the Pain First</h2>
 
-          <p>The revenue impact of AI search is not evenly distributed. Some industries are being hit harder and faster than others. Since the rollout of AI Overviews, nearly <strong>39% of marketers</strong> have reported traffic drops. But the pain is concentrated in specific verticals.</p>
+          <p>The revenue impact of AI search is not evenly distributed. Some industries are being hit harder and faster than others. Since the rollout of AI Overviews, nearly <strong>39% of marketers</strong> have reported traffic drops. But the pain is concentrated in specific verticals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           {/* ── BAR GROUP: INDUSTRY IMPACT ── */}
           <div className="ae-bar-group not-prose">
@@ -474,7 +474,7 @@ export default function Page() {
 
           <p>These industries tend to have high volumes of informational and comparison queries, exactly the type of searches where AI Overviews appear most frequently.</p>
 
-          <p>For local service businesses, the impact is increasingly visible. As we covered in our analysis of <Link href="/blog/ai-search-replacing-map-pack">AI search replacing the Map Pack</Link>, AI local packs now surface only 32% as many unique businesses as traditional Map Packs. If your business relied on appearing in those three coveted Map Pack spots, the pool of visible businesses is getting smaller, and the criteria for inclusion are shifting toward AI-specific signals.</p>
+          <p>For local service businesses, the impact is increasingly visible. As we covered in our analysis of <Link href="/blog/ai-search-replacing-map-pack">AI search replacing the Map Pack</Link>, AI local packs now surface only 32% as many unique businesses as traditional Map Packs. If your business relied on appearing in those three coveted Map Pack spots, the pool of visible businesses is getting smaller, and the criteria for inclusion are shifting toward AI-specific signals. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
@@ -483,7 +483,7 @@ export default function Page() {
 
           {/* ── CTA 6 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Your industry is already being reshaped by AI search. See exactly how it affects your business.</p>
+            <p>Your industry is already being reshaped by AI search. See exactly how it affects your business. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <Link href="/blindspot">Check Your Industry Visibility &#8594;</Link>
           </div>
 
@@ -517,14 +517,14 @@ export default function Page() {
             </div>
           </div>
 
-          <p>Every month you delay is a month your competitors are building that authority ahead of you. AI search traffic is growing at more than 40% per month. Monthly sessions on AI platforms are now 56% the size of traditional search worldwide. The gap between where you are and where you need to be widens with each passing week.</p>
+          <p>Every month you delay is a month your competitors are building that authority ahead of you. AI search traffic is growing at more than 40% per month. Monthly sessions on AI platforms are now 56% the size of traditional search worldwide. The gap between where you are and where you need to be widens with each passing week. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
             <p>AI authority compounds like interest. Every month of delay does not add a fixed cost. It multiplies the cost of catching up. Businesses that start now will have a structural advantage that late movers may never close.</p>
           </div>
 
-          <p>Meanwhile, the trust signals that matter for AI visibility overlap heavily with the signals that drive traditional SEO performance. Businesses that invest in AI optimization are strengthening their overall digital presence, while those that ignore it are maintaining a strategy built for a search landscape that is actively shrinking.</p>
+          <p>Meanwhile, the trust signals that matter for AI visibility overlap heavily with the signals that drive traditional SEO performance. Businesses that invest in AI optimization are strengthening their overall digital presence, while those that ignore it are maintaining a strategy built for a search landscape that is actively shrinking. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           {/* ── CTA 7 ── */}
           <div className="ae-cta-inline not-prose">
@@ -536,7 +536,7 @@ export default function Page() {
           <span className="ae-section-label">Strategy</span>
           <h2>What Businesses That Act Now Are Doing Differently</h2>
 
-          <p>The businesses gaining ground in AI search are not doing anything exotic. They are taking the same foundational principles that have always worked in digital marketing and applying them with AI platforms in mind.</p>
+          <p>The businesses gaining ground in AI search are not doing anything exotic. They are taking the same foundational principles that have always worked in digital marketing and applying them with AI platforms in mind. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* ── DECISION MATRIX ── */}
           <div className="ae-decision-matrix not-prose">
@@ -576,7 +576,7 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>The winners are not using secret tactics. They are building genuine authority that AI platforms can verify across multiple sources. The losers are doing the same SEO they did in 2020 and wondering why it stopped working.</p>
+            <p>The winners are not using secret tactics. They are building genuine authority that AI platforms can verify across multiple sources. The losers are doing the same SEO they did in 2020 and wondering why it stopped working. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* ── CTA 8 ── */}
@@ -587,7 +587,7 @@ export default function Page() {
 
           {/* ── CTA 9 (email) ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Prefer to start with an email? Send us your website and we will tell you where you stand.</p>
+            <p>Prefer to start with an email? Send us your website and we will tell you where you stand. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &#8594;</a>
           </div>
 
@@ -653,14 +653,14 @@ export default function Page() {
             </table>
           </div>
 
-          <p>The businesses that treat AI search as a &quot;future problem&quot; are the ones most likely to find themselves scrambling when the numbers become too obvious to ignore. And by that point, their competitors will have months or years of head start building the authority and trust signals that AI platforms use to decide who gets recommended.</p>
+          <p>The businesses that treat AI search as a &quot;future problem&quot; are the ones most likely to find themselves scrambling when the numbers become too obvious to ignore. And by that point, their competitors will have months or years of head start building the authority and trust signals that AI platforms use to decide who gets recommended. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">The Good News</div>
             <p>The businesses that start optimizing for AI visibility today are still early. The majority of your competitors have not begun. Right now, you can build a lead that compounds every month. Six months from now, that window will be much smaller.</p>
           </div>
 
-          <p>The shift is not coming. It is here. The only question is whether you will position your business to benefit from it, or pay the hidden cost of pretending it does not apply to you.</p>
+          <p>The shift is not coming. It is here. The only question is whether you will position your business to benefit from it, or pay the hidden cost of pretending it does not apply to you. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           {/* ── CTA 10 ── */}
           <div className="ae-cta-inline not-prose">
@@ -670,7 +670,7 @@ export default function Page() {
 
           {/* ── QUOTE ── */}
           <div className="ae-quote not-prose">
-            <p>&quot;The best time to optimize for AI search was six months ago. The second best time is today.&quot;</p>
+            <p>&quot;The best time to optimize for AI search was six months ago. The second best time is today.&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           </div>
 
           {/* ── CTA BLOCK ── */}
@@ -694,7 +694,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
@@ -707,7 +707,7 @@ export default function Page() {
 
           {/* ── CTA 11 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Traffic dropping but rankings stable? That is the signature of AI search disruption. See exactly what is happening.</p>
+            <p>Traffic dropping but rankings stable? That is the signature of AI search disruption. See exactly what is happening. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <Link href="/blindspot">Diagnose Your Traffic Drop &#8594;</Link>
           </div>
 
@@ -715,7 +715,7 @@ export default function Page() {
           <p>According to Semrush data from 2025, 58.5% of U.S. Google searches end without a single click to any website. For searches that trigger AI Overviews specifically, the zero-click rate jumps to 83%. In Google AI Mode, which delivers comprehensive AI responses, zero-click rates reach 93%.</p>
 
           <h3>How many consumers are using AI to search for businesses?</h3>
-          <p>Over half of consumers have tried LLM search, and 34% use an AI search tool daily or near-daily. Approximately 3 in 4 American respondents say they use AI for search at least weekly. ChatGPT alone has 810 million daily users, and Google AI Overviews reach 1.5 billion monthly users.</p>
+          <p>Over half of consumers have tried LLM search, and 34% use an AI search tool daily or near-daily. Approximately 3 in 4 American respondents say they use AI for search at least weekly. ChatGPT alone has 810 million daily users, and Google AI Overviews reach 1.5 billion monthly users. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
           {/* ── CTA 12 (phone) ── */}
           <div className="ae-cta-inline not-prose">
@@ -724,14 +724,14 @@ export default function Page() {
           </div>
 
           <h3>Is AI search traffic actually more valuable than traditional search traffic?</h3>
-          <p>Yes. AI search traffic converts at 14.2% compared to Google organic at 2.8%, making it roughly five times more effective. The average visitor from an AI platform is worth 4.4 times more than the average traditional organic search visitor based on conversion rates.</p>
+          <p>Yes. AI search traffic converts at 14.2% compared to Google organic at 2.8%, making it roughly five times more effective. The average visitor from an AI platform is worth 4.4 times more than the average traditional organic search visitor based on conversion rates. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           <h3>How much will traditional search volume decline because of AI?</h3>
           <p>Gartner predicts that by 2026, traditional search engine volume will drop 25% as users shift to generative AI assistants. This could mean Google&apos;s query count declines from roughly 14 billion per day to around 10 to 11 billion per day.</p>
 
           {/* ── CTA 13 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Traditional search is shrinking. AI search is exploding. See which side your business is on.</p>
+            <p>Traditional search is shrinking. AI search is exploding. See which side your business is on. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             <Link href="/blindspot">Get Your AI Visibility Score &#8594;</Link>
           </div>
 
@@ -740,7 +740,7 @@ export default function Page() {
 
           {/* ── CTA 14 (email) ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Questions about AI search costs for your industry? Drop us a line and we will break it down.</p>
+            <p>Questions about AI search costs for your industry? Drop us a line and we will break it down. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &#8594;</a>
           </div>
 
@@ -751,7 +751,7 @@ export default function Page() {
 
           {/* ── CTA 15 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>You have read the data. You know the trend. The only question left is whether AI recommends your business or your competitor.</p>
+            <p>You have read the data. You know the trend. The only question left is whether AI recommends your business or your competitor. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             <Link href="/blindspot">Find Out Now &#8594;</Link>
           </div>
 

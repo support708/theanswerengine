@@ -197,7 +197,7 @@ export default function Page() {
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Published {publishDate} by Justin Borges
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           </div>
         </div>
       </header>
@@ -231,18 +231,18 @@ export default function Page() {
         {/* Intro */}
         <p className="text-gray-300 text-lg leading-relaxed mb-6">
           It is a gut-punch moment. You type a question into ChatGPT about the best provider in your category in your city, and the business that shows up is the one that just opened six blocks from you. You have been serving customers for eight years. They have been open for three months.
-        </p>
+         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
         <p className="text-gray-300 text-lg leading-relaxed mb-6">
           The instinct is to assume something is broken. That the AI made a mistake. That your years of experience and hundreds of reviews should count for more. But here is the reality: AI search is not a tenure award. It is a clarity competition. And your newer competitor might simply be competing in it while you are not.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
         <div className="ae-cta-inline mb-10">
-          <p>Want to know exactly why AI is recommending them and not you? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps in plain language.</p>
+          <p>Want to know exactly why AI is recommending them and not you? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps in plain language. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         {/* TOC */}
         <div className="ae-toc mb-12">
-          <p className="ae-toc-title">In This Article</p>
+          <p className="ae-toc-title">In This Article Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <ol>
             <li><a href="#why-it-happens">Why New Businesses Can Beat Established Ones on AI</a></li>
             <li><a href="#freshness-bias">The Freshness Bias You Are Fighting</a></li>
@@ -263,19 +263,19 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             Google SEO has a long history of rewarding established domains. Domain age, accumulated backlinks, and years of search signals create inertia that a new site cannot easily overcome. AI search has no such inertia. It rewards the clearest, most credible signal it can find right now.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             A new business that launches with a complete Google Business Profile, accurate listings on all major directories, proper schema markup, and even a few well-written pages answering common questions can look more structured and credible to an AI model than a business that has been around for a decade with a cluttered, unoptimized online presence.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">AI Does Not Know You Are Better</p>
-            <p>You know you are better because you have served thousands of customers over many years. AI does not have access to that knowledge. It can only read what is publicly available and structured in a way it can parse. If your competitor has organized that information more clearly, AI picks them, regardless of who is actually better at the job.</p>
+            <p className="ae-callout-title">AI Does Not Know You Are Better Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            <p>You know you are better because you have served thousands of customers over many years. AI does not have access to that knowledge. It can only read what is publicly available and structured in a way it can parse. If your competitor has organized that information more clearly, AI picks them, regardless of who is actually better at the job. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-5">
             This is the core of the problem. AI does not measure quality directly. It measures verifiable, structured signals of authority and relevance. A new competitor who understands this can close the gap in weeks, and in some cases open a lead that takes months to overcome.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-comparison-table mb-8">
             <table>
@@ -342,13 +342,13 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             AI models have a strong preference for recent content. This is by design: these systems are trying to give users accurate, current information. Old or stale content carries a higher risk of being outdated, so AI deprioritizes it in favor of fresher sources.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             Perplexity AI has disclosed that approximately 50% of its citations come from content published within the current calendar year. AI crawlers like GPTBot and PerplexityBot allocate roughly 65% of their crawl budget to content from the past twelve months.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
           <div className="ae-bar-group mb-8">
-            <p className="text-white font-semibold mb-4">AI Crawl Budget Allocation by Content Age</p>
+            <p className="text-white font-semibold mb-4">AI Crawl Budget Allocation by Content Age <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <div className="ae-bar-item">
               <span className="ae-bar-label">Published in last 30 days</span>
               <div className="ae-bar-track">
@@ -388,16 +388,16 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-5">
             If your newest website content is two years old and your competitor is publishing regularly, the freshness disparity alone can explain the citation gap. A new business does not have old content. Everything they publish is recent, and recent content gets crawled more aggressively.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-callout ae-callout-success mb-6">
-            <p className="ae-callout-title">The Good News About Freshness</p>
-            <p>Freshness is one of the fastest gaps to close. You do not need to rebuild your website or overhaul your entire digital presence. Publishing even 2-4 new pieces of content per month, or refreshing existing pages with updated information, immediately shifts your freshness signal. You can start closing this gap within the first week of taking action.</p>
+            <p className="ae-callout-title">The Good News About Freshness Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            <p>Freshness is one of the fastest gaps to close. You do not need to rebuild your website or overhaul your entire digital presence. Publishing even 2-4 new pieces of content per month, or refreshing existing pages with updated information, immediately shifts your freshness signal. You can start closing this gap within the first week of taking action. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Not sure where your freshness or authority gaps are? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">Call (213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">get your Blind Spot Report free</Link>.</p>
+          <p>Not sure where your freshness or authority gaps are? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">Call (213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">get your Blind Spot Report free</Link>. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </div>
 
         {/* Entity Authority */}
@@ -407,10 +407,10 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             Here is the concept at the heart of this entire dynamic: <strong className="text-white">entity authority.</strong> In AI search, the question is not "who is the biggest or most established business in this category?" The question is "which business can I most confidently identify as a specific, real, trustworthy entity that is relevant to this question?"
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             Entity authority is the degree to which AI models can cleanly identify your business as a distinct, verifiable entity with a clear category, location, and service scope. It is built through structured signals, not through years in business or revenue volume.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-pros-cons mb-8">
             <div className="ae-pros-box">
@@ -441,11 +441,11 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mb-5">
             Market share is an offline metric. AI has no way to measure it. Entity authority is what AI can actually measure, and a competitor who has invested in building it clearly will beat a more established business that has not, every single time.
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <p className="text-gray-300 leading-relaxed">
             This is related to how AI evaluates trustworthiness more broadly. Our article on <Link href="/blog/why-isnt-chatgpt-recommending-my-business" className="text-[#F27D24] hover:underline">why ChatGPT is not recommending your business</Link> goes deeper on the trust signals AI actually uses.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </section>
 
         {/* What They Did Right */}
@@ -455,28 +455,28 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-5">
             When a new business appears in AI recommendations before an established player, it is usually not luck. Someone made deliberate choices about how to build their online presence. Reverse-engineering those choices helps you understand exactly what to address.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
               <span className="font-bold text-[#F27D24]">Week 1</span>
-              <p className="font-semibold text-white">Google Business Profile Launch</p>
-              <p className="text-gray-400 text-sm">Fully completed with services list, service area, business description, primary and secondary categories, and photos. All fields filled, not just the basics.</p>
+              <p className="font-semibold text-white">Google Business Profile Launch <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+              <p className="text-gray-400 text-sm">Fully completed with services list, service area, business description, primary and secondary categories, and photos. All fields filled, not just the basics. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
             <div className="ae-timeline-item">
               <span className="font-bold text-[#F27D24]">Week 1-2</span>
-              <p className="font-semibold text-white">Directory Submissions</p>
-              <p className="text-gray-400 text-sm">Yelp, Apple Maps, Bing Places, Angi, HomeAdvisor, and industry-specific directories all submitted with identical NAP data. AI cross-references these to verify identity.</p>
+              <p className="font-semibold text-white">Directory Submissions Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+              <p className="text-gray-400 text-sm">Yelp, Apple Maps, Bing Places, Angi, HomeAdvisor, and industry-specific directories all submitted with identical NAP data. AI cross-references these to verify identity. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             </div>
             <div className="ae-timeline-item">
               <span className="font-bold text-[#F27D24]">Week 2</span>
-              <p className="font-semibold text-white">Schema Markup Live</p>
-              <p className="text-gray-400 text-sm">LocalBusiness schema with @type matching their exact category, FAQPage schema with real question-answer pairs, and BreadcrumbList all added from day one.</p>
+              <p className="font-semibold text-white">Schema Markup Live <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+              <p className="text-gray-400 text-sm">LocalBusiness schema with @type matching their exact category, FAQPage schema with real question-answer pairs, and BreadcrumbList all added from day one. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
             <div className="ae-timeline-item">
               <span className="font-bold text-[#F27D24]">Week 2-4</span>
-              <p className="font-semibold text-white">Content Answering Real Questions</p>
-              <p className="text-gray-400 text-sm">3-5 pages or posts directly answering what customers in their category actually search for. Not generic "about us" content. Specific, helpful answers to real questions.</p>
+              <p className="font-semibold text-white">Content Answering Real Questions Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+              <p className="text-gray-400 text-sm">3-5 pages or posts directly answering what customers in their category actually search for. Not generic "about us" content. Specific, helpful answers to real questions. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
             <div className="ae-timeline-item">
               <span className="font-bold text-[#F27D24]">Week 3-6</span>

@@ -321,7 +321,7 @@ export default function Page() {
               websites (44%) as a source of AI-generated recommendations. The
               question is no longer whether directories matter for AI. The question
               is which ones actually count.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* Callout: Listings Drive Nearly Half */}
             <div className="not-prose">
@@ -334,14 +334,14 @@ export default function Page() {
                   listings generated 42%. Reviews and social media accounted for
                   just 8%. Your directory presence is nearly as important as your
                   own website for AI visibility.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure which directories are helping or hurting your AI visibility?</p>
+                <p>Not sure which directories are helping or hurting your AI visibility? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -360,7 +360,7 @@ export default function Page() {
               two of those five show an old phone number, the AI either picks the
               most common version or avoids mentioning your contact details
               entirely.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p>
               This cross-referencing behavior makes{' '}
               <Link href="/blog/does-schema-markup-help-ai-search">
@@ -372,24 +372,24 @@ export default function Page() {
               complete business hours, service categories, and verified contact
               information carries more weight than a plain-text mention on a
               generic business directory.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <p>
               Each AI platform also has distinct preferences for where it pulls
               directory data. Understanding these differences is the key to
               building a listing strategy that works across all of them.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* Quote */}
             <div className="not-prose">
               <div className="ae-quote">
-                <p>AI does not care how many directories list you. It cares whether the directories it trusts all tell the same story about your business.</p>
+                <p>AI does not care how many directories list you. It cares whether the directories it trusts all tell the same story about your business. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to see exactly what AI platforms say about you right now?</p>
+                <p>Want to see exactly what AI platforms say about you right now? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -402,7 +402,7 @@ export default function Page() {
               when pulling from directory sources. These are not minor
               differences. Each platform has a meaningfully different approach
               to directory data.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Bar Group: Platform Listing Reliance */}
             <div className="not-prose">
@@ -446,7 +446,7 @@ export default function Page() {
               chances of being cited by ChatGPT compared to businesses without
               those profiles, according to First Page Sage research based on
               36,127 buying-intent queries.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Google AI Overviews</h3>
             <p>
@@ -461,7 +461,7 @@ export default function Page() {
               <Link href="/blog/is-your-business-ready-for-google-ai-mode">
                 your business is ready for Google AI Mode
               </Link>, now is the time.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>Perplexity</h3>
             <p>
@@ -473,7 +473,7 @@ export default function Page() {
               location data, pulling over 364,000 citations from that source
               alone. The takeaway: if Perplexity matters to your audience, your
               industry-specific directory presence is what moves the needle.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Callout: 3x More Likely */}
             <div className="not-prose">
@@ -485,14 +485,14 @@ export default function Page() {
                   and Capterra had three times higher chances of being chosen as a
                   source compared to businesses without those profiles. Directory
                   presence is not optional for AI visibility.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Wondering if ChatGPT is citing your competitors instead of you?</p>
+                <p>Wondering if ChatGPT is citing your competitors instead of you? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -504,7 +504,7 @@ export default function Page() {
               Based on the citation research from Yext, First Page Sage, and
               Semrush, here are the directory categories that AI platforms
               consistently pull from, ranked by impact.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Decision Matrix: Directory Tiers */}
             <div className="not-prose">
@@ -581,7 +581,7 @@ export default function Page() {
             {/* CTA Inline 4 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Have questions about which directories matter for your industry?</p>
+                <p>Have questions about which directories matter for your industry? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
                 <a href="tel:+12134442229">Call us: (213) 444-2229 →</a>
               </div>
             </div>
@@ -651,7 +651,7 @@ export default function Page() {
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure which industry directories AI actually pulls from for your business?</p>
+                <p>Not sure which industry directories AI actually pulls from for your business? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -665,7 +665,7 @@ export default function Page() {
               website, your directory listings, and your social profiles. Only 2%
               of citations came from forums like Reddit once location context and
               query intent were applied.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Bar Group: Citation Sources */}
             <div className="not-prose">
@@ -707,7 +707,7 @@ export default function Page() {
               profiles. The businesses that win in AI search are the ones that
               treat these assets as living documents, not set-and-forget
               checkboxes.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Callout: You Control This */}
             <div className="not-prose">
@@ -718,14 +718,14 @@ export default function Page() {
                   AI citations overwhelmingly come from sources you already manage. Your website
                   and your directory listings together account for 86% of all AI citations.
                   This means improvements are entirely within your control.
-                </p>
+                 Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
             </div>
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to know exactly which brand-managed sources AI is pulling from for your business?</p>
+                <p>Want to know exactly which brand-managed sources AI is pulling from for your business? We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -739,7 +739,7 @@ export default function Page() {
               cross-reference this data to verify accuracy. When they find
               conflicts, they lower their confidence in your information and may
               exclude you from recommendations entirely.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Pros and Cons: NAP */}
             <div className="not-prose">
@@ -767,7 +767,7 @@ export default function Page() {
 
             <p>
               Common consistency mistakes that hurt AI visibility:
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             <ul>
               <li><strong>Abbreviation mismatches.</strong> &quot;St&quot; versus &quot;Street,&quot; &quot;Ave&quot; versus &quot;Avenue.&quot; Pick one format and use it everywhere.</li>
               <li><strong>Suite number variations.</strong> &quot;Suite 200,&quot; &quot;Ste 200,&quot; &quot;#200.&quot; These look like different locations to an AI system.</li>
@@ -783,12 +783,12 @@ export default function Page() {
               <Link href="/blog/why-chatgpt-isnt-recommending-your-business">
                 why ChatGPT is not recommending your business
               </Link>.
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* CTA Inline 7 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>NAP issues hiding in your listings? We will find them.</p>
+                <p>NAP issues hiding in your listings? We will find them. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
               </div>
             </div>
@@ -804,7 +804,7 @@ export default function Page() {
                   Optimizing for one AI platform does not guarantee visibility on
                   the others. You need directory coverage that spans multiple
                   ecosystems.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
             </div>
 
@@ -815,22 +815,22 @@ export default function Page() {
               Before adding new listings, audit what you already have. Many
               businesses have outdated or incomplete profiles on directories they
               signed up for years ago. Here is a practical audit process:
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Timeline: Audit Steps */}
             <div className="not-prose">
               <div className="ae-timeline">
                 <div className="ae-timeline-item">
                   <strong>Step 1: Search Tier 1 Directories</strong>
-                  <p>Google Business Profile, Bing Places, Yelp, Apple Business Connect. Verify that each listing exists, is claimed, and has complete information.</p>
+                  <p>Google Business Profile, Bing Places, Yelp, Apple Business Connect. Verify that each listing exists, is claimed, and has complete information. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 </div>
                 <div className="ae-timeline-item">
                   <strong>Step 2: Check NAP Consistency</strong>
-                  <p>Compare your name, address, and phone number across every listing. Flag any discrepancies, no matter how small.</p>
+                  <p>Compare your name, address, and phone number across every listing. Flag any discrepancies, no matter how small. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 </div>
                 <div className="ae-timeline-item">
                   <strong>Step 3: Review Completeness</strong>
-                  <p>Check whether each listing has business hours, service descriptions, photos, categories, and a link to your website. Incomplete listings get less weight from AI systems.</p>
+                  <p>Check whether each listing has business hours, service descriptions, photos, categories, and a link to your website. Incomplete listings get less weight from AI systems. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 </div>
                 <div className="ae-timeline-item">
                   <strong>Step 4: Test Your AI Visibility</strong>

@@ -263,17 +263,17 @@ export default function WebsiteSpeedAISearch() {
 
             <p>You have probably heard this advice: &quot;Your website needs to be fast for Google SEO, and that means it will also help with AI.&quot;</p>
 
-            <p>It is half true. And that is dangerous.</p>
+            <p>It is half true. And that is dangerous. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>Speed matters for Google because Google ranks user experience signals, including Core Web Vitals. A slow site hurts your search rankings. That is not debatable.</p>
 
-            <p>But AI platforms do not work the same way. ChatGPT does not care if your homepage loads in 2 seconds or 4 seconds. Claude does not penalize you for speed. Google AI Overview does not use Core Web Vitals as a ranking signal for citations.</p>
+            <p>But AI platforms do not work the same way. ChatGPT does not care if your homepage loads in 2 seconds or 4 seconds. Claude does not penalize you for speed. Google AI Overview does not use Core Web Vitals as a ranking signal for citations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="ae-quote not-prose">
               <p>Speed is a nice-to-have improvement. Content quality and authority are non-negotiable signals for AI.</p>
             </div>
 
-            <p>This distinction matters because it changes where you should focus your optimization effort. Many businesses spend thousands on speed optimization when they should be spending time on expertise demonstration and information architecture.</p>
+            <p>This distinction matters because it changes where you should focus your optimization effort. Many businesses spend thousands on speed optimization when they should be spending time on expertise demonstration and information architecture. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -285,7 +285,7 @@ export default function WebsiteSpeedAISearch() {
             <span className="ae-section-label">Reality Check</span>
             <h2>The Speed Myth vs. The Real Signals</h2>
 
-            <p>Let us break down the myths and what actually matters for AI citation.</p>
+            <p>Let us break down the myths and what actually matters for AI citation. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* ── COMPARISON TABLE ── */}
             <table className="ae-comparison-table not-prose">
@@ -332,7 +332,7 @@ export default function WebsiteSpeedAISearch() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Before you optimize speed, know which signals AI actually evaluates for your business.</p>
+              <p>Before you optimize speed, know which signals AI actually evaluates for your business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Audit &rarr;</a>
             </div>
 
@@ -342,13 +342,13 @@ export default function WebsiteSpeedAISearch() {
 
             <p>Google crawlers operate on a tight budget. They have millions of websites to crawl, and they prioritize efficiency. A site that takes 5 seconds to load is wasting crawl budget. That is why Google penalizes slow sites.</p>
 
-            <p>AI crawlers work differently. When Claude or ChatGPT needs to understand a source, it does not care about crawl efficiency. It waits. It retrieves the full page. It processes the content. Speed is not a constraint.</p>
+            <p>AI crawlers work differently. When Claude or ChatGPT needs to understand a source, it does not care about crawl efficiency. It waits. It retrieves the full page. It processes the content. Speed is not a constraint. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>This difference explains why a slow site can still rank on page 1 of Google (if it has great content) and still get cited by AI—but the reasons are different.</p>
 
             <h3>What Speed Actually Prevents (Rare But Real)</h3>
 
-            <p>There is one scenario where speed hurts AI crawling: when a site is so slow it times out or triggers connection errors.</p>
+            <p>There is one scenario where speed hurts AI crawling: when a site is so slow it times out or triggers connection errors. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <ul>
               <li><strong>Timeouts:</strong> If your server takes 30+ seconds to respond, AI crawlers may abort and not index the page</li>
@@ -361,7 +361,7 @@ export default function WebsiteSpeedAISearch() {
               <p>If your site is &quot;normal slow&quot; (2-5 seconds), AI will crawl it fine. If your site is &quot;broken slow&quot; (30+ seconds or timing out), fix the technical issue. But this is a crawlability problem, not a speed ranking problem.</p>
             </div>
 
-            <p>Most businesses have normal slow sites. A few percent have genuinely broken crawlability. Speed optimization helps the first group slightly and does not help either group with AI citations specifically.</p>
+            <p>Most businesses have normal slow sites. A few percent have genuinely broken crawlability. Speed optimization helps the first group slightly and does not help either group with AI citations specifically. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
@@ -373,7 +373,7 @@ export default function WebsiteSpeedAISearch() {
             <span className="ae-section-label">Real Signals</span>
             <h2>What AI Actually Evaluates (And Speed Is Not One)</h2>
 
-            <p>If speed does not matter, what does? Let us look at the signals that AI platforms actually use when deciding what to cite.</p>
+            <p>If speed does not matter, what does? Let us look at the signals that AI platforms actually use when deciding what to cite. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>1. Content Quality and Directness</h3>
 
@@ -381,7 +381,7 @@ export default function WebsiteSpeedAISearch() {
 
             <h3>2. Expertise and E-E-A-T Signals</h3>
 
-            <p>Does your content demonstrate genuine Experience, Expertise, Authority, and Trustworthiness? This is why a dermatologist&apos;s answer to a skin health question gets cited over a general health blogger with faster loading speeds. Expertise trumps speed every time.</p>
+            <p>Does your content demonstrate genuine Experience, Expertise, Authority, and Trustworthiness? This is why a dermatologist&apos;s answer to a skin health question gets cited over a general health blogger with faster loading speeds. Expertise trumps speed every time. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>3. Schema Markup and Structured Data</h3>
 
@@ -412,7 +412,7 @@ export default function WebsiteSpeedAISearch() {
 
             <h3>4. Entity Recognition and Consistency</h3>
 
-            <p>Can AI understand WHO you are and WHAT you do? Consistent business information across your site, correct schema markup, verified credentials, and clear business categories all help. A fast site with confused entity signals will not out-cite a slower site with crystal-clear identity.</p>
+            <p>Can AI understand WHO you are and WHAT you do? Consistent business information across your site, correct schema markup, verified credentials, and clear business categories all help. A fast site with confused entity signals will not out-cite a slower site with crystal-clear identity. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>5. Information Architecture</h3>
 
@@ -420,7 +420,7 @@ export default function WebsiteSpeedAISearch() {
 
             <h3>6. Topical Depth and Coverage</h3>
 
-            <p>Does your site comprehensively cover a topic area? AI prefers citing sources that demonstrate deep knowledge across interconnected topics, not thin pages on single queries. Build topic clusters and comprehensive guides.</p>
+            <p>Does your site comprehensively cover a topic area? AI prefers citing sources that demonstrate deep knowledge across interconnected topics, not thin pages on single queries. Build topic clusters and comprehensive guides. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Real Gap</div>
@@ -429,7 +429,7 @@ export default function WebsiteSpeedAISearch() {
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Know your actual AI visibility score across all the signals that matter.</p>
+              <p>Know your actual AI visibility score across all the signals that matter. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <Link href="/blindspot">Get Your Complete AI Audit &rarr;</Link>
             </div>
 
@@ -474,14 +474,14 @@ export default function WebsiteSpeedAISearch() {
             </div>
 
             <div className="ae-quote not-prose">
-              <p>Think of it this way: a fast page with thin content loses to a slower page with deep expertise. But a slow page is worse for users, which indirectly harms engagement metrics. Ideal: fast AND excellent content.</p>
+              <p>Think of it this way: a fast page with thin content loses to a slower page with deep expertise. But a slow page is worse for users, which indirectly harms engagement metrics. Ideal: fast AND excellent content. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <p>But if forced to choose, content wins for AI visibility.</p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Get a clear assessment of where your optimization budget will have the highest impact.</p>
+              <p>Get a clear assessment of where your optimization budget will have the highest impact. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Get Your Custom Optimization Roadmap &rarr;</Link>
             </div>
 
@@ -493,7 +493,7 @@ export default function WebsiteSpeedAISearch() {
 
             <h3>Speed and User Engagement</h3>
 
-            <p>A slow site has higher bounce rates. Users abandon pages that take too long to load. This affects conversion rates, time on page, and engagement signals that indirectly influence both SEO and AI citation potential. A user who bounces never becomes a customer.</p>
+            <p>A slow site has higher bounce rates. Users abandon pages that take too long to load. This affects conversion rates, time on page, and engagement signals that indirectly influence both SEO and AI citation potential. A user who bounces never becomes a customer. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3>Speed and SEO</h3>
 
@@ -526,7 +526,7 @@ export default function WebsiteSpeedAISearch() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Speed is worthwhile for user experience and Google SEO. But it is not a direct AI citation driver. Do not sacrifice content quality to gain speed. Do both if possible. Prioritize content and expertise if forced to choose.</p>
+              <p>Speed is worthwhile for user experience and Google SEO. But it is not a direct AI citation driver. Do not sacrifice content quality to gain speed. Do both if possible. Prioritize content and expertise if forced to choose. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             {/* ── CTA 6 ── */}
@@ -539,7 +539,7 @@ export default function WebsiteSpeedAISearch() {
             <span className="ae-section-label">Proof</span>
             <h2>Real-World Examples: Slow Sites Getting AI Citations</h2>
 
-            <p>Here are examples of authority sources that AI platforms cite frequently—despite not being the fastest on the web.</p>
+            <p>Here are examples of authority sources that AI platforms cite frequently—despite not being the fastest on the web. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>1. Medical and Academic Sites (Often Slow)</h3>
 
@@ -547,7 +547,7 @@ export default function WebsiteSpeedAISearch() {
 
             <h3>2. Government and Official Resources</h3>
 
-            <p>Government websites, official business registries, and institutional resources are frequently slow and cumbersome. AI cites them because they are authoritative sources, not because they are fast. In fact, many government sites deliberately prioritize accessibility over speed optimization.</p>
+            <p>Government websites, official business registries, and institutional resources are frequently slow and cumbersome. AI cites them because they are authoritative sources, not because they are fast. In fact, many government sites deliberately prioritize accessibility over speed optimization. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>3. Major News Outlets (Feature-Rich, Often Slow)</h3>
 
@@ -555,14 +555,14 @@ export default function WebsiteSpeedAISearch() {
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">Pattern Recognition</div>
-              <p>The sites AI cites most are chosen for content quality, authority, and clarity—not speed. If speed were a major factor, the entire internet&apos;s citation patterns would shift, and they have not.</p>
+              <p>The sites AI cites most are chosen for content quality, authority, and clarity—not speed. If speed were a major factor, the entire internet&apos;s citation patterns would shift, and they have not. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             <p>These examples are not exceptions. They are the rule. AI prioritizes authority, accuracy, and expertise. Speed is incidental.</p>
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>See which authority signals your business has and which ones are missing.</p>
+              <p>See which authority signals your business has and which ones are missing. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <Link href="/blindspot">Get Your AI Authority Assessment &rarr;</Link>
             </div>
 
@@ -574,7 +574,7 @@ export default function WebsiteSpeedAISearch() {
 
             <h3>1. Audit Your Content Against AI Queries</h3>
 
-            <p>Ask ChatGPT and Claude the questions your customers ask. Do your pages answer those questions directly? If not, rewrite or restructure the content to answer immediately. This is 10x more important than speed.</p>
+            <p>Ask ChatGPT and Claude the questions your customers ask. Do your pages answer those questions directly? If not, rewrite or restructure the content to answer immediately. This is 10x more important than speed. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>2. Implement Complete Schema Markup</h3>
 
@@ -582,7 +582,7 @@ export default function WebsiteSpeedAISearch() {
 
             <h3>3. Build Topic Authority Clusters</h3>
 
-            <p>Create hub-and-spoke content clusters around your expertise areas. Link related articles together. Show AI that you have deep knowledge, not scattered pages. This signals authority far better than load time.</p>
+            <p>Create hub-and-spoke content clusters around your expertise areas. Link related articles together. Show AI that you have deep knowledge, not scattered pages. This signals authority far better than load time. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>4. Create Direct-Answer Content</h3>
 
@@ -590,7 +590,7 @@ export default function WebsiteSpeedAISearch() {
 
             <h3>5. Verify and Optimize Your Entity Data</h3>
 
-            <p>Ensure your business name, address, phone, and credentials are consistent across your site and verified in third-party systems. This helps AI recognize and trust you.</p>
+            <p>Ensure your business name, address, phone, and credentials are consistent across your site and verified in third-party systems. This helps AI recognize and trust you. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <div className="ae-cheat-sheet not-prose">
               <div className="ae-cheat-sheet-title">Quick Action: Content Before Speed</div>
@@ -630,7 +630,7 @@ export default function WebsiteSpeedAISearch() {
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Get a specific action plan for your business based on your actual AI visibility gaps.</p>
+              <p>Get a specific action plan for your business based on your actual AI visibility gaps. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <Link href="/blindspot">Get Your Personalized Content Strategy &rarr;</Link>
             </div>
 
@@ -640,12 +640,12 @@ export default function WebsiteSpeedAISearch() {
 
             <p>No. Not directly. And that is good news for you.</p>
 
-            <p>Speed does not matter for AI citation decisions. Content quality, expertise, schema markup, and information architecture do. This means you can get significant AI visibility gains without investing heavily in speed optimization.</p>
+            <p>Speed does not matter for AI citation decisions. Content quality, expertise, schema markup, and information architecture do. This means you can get significant AI visibility gains without investing heavily in speed optimization. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <p>That said, speed is not worthless. It matters for user experience, Google SEO, and engagement metrics. An ideal site is both fast AND excellent. But if you have to choose between the two, choose content every time.</p>
 
             <div className="ae-quote not-prose">
-              <p>The fastest thin page loses to the slower page with exceptional expertise. Build depth. Then, if budget allows, add speed.</p>
+              <p>The fastest thin page loses to the slower page with exceptional expertise. Build depth. Then, if budget allows, add speed. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             <p>Here is the corrected priority order:</p>
@@ -658,7 +658,7 @@ export default function WebsiteSpeedAISearch() {
               <li><strong>Priority 5: Speed optimization.</strong> Nice to have. Help users and Google. Not a direct AI factor.</li>
             </ul>
 
-            <p>Adjust this based on your current state: if your site is broken slow (timeouts, crawl errors), fix the technical issue first. Otherwise, content comes before speed for AI visibility.</p>
+            <p>Adjust this based on your current state: if your site is broken slow (timeouts, crawl errors), fix the technical issue first. Otherwise, content comes before speed for AI visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">The Real Opportunity</div>
@@ -667,7 +667,7 @@ export default function WebsiteSpeedAISearch() {
 
             {/* ── FINAL CTA ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Know your real AI visibility score and the actual gaps holding you back from AI citations.</p>
+              <p>Know your real AI visibility score and the actual gaps holding you back from AI citations. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               <Link href="/blindspot">Get Your Free AI Visibility Audit &rarr;</Link>
             </div>
 

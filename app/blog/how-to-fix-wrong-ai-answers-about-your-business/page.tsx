@@ -206,8 +206,8 @@ export default function HowToFixWrongAIAnswersPage() {
           {/* Inline CTA 1 */}
           <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Not sure what AI is saying about you?</p>
-              <p className="text-gray-400 text-sm">Our Blind Spot Report shows exactly what each AI platform has on file for your business.</p>
+              <p className="text-white font-semibold mb-1">Not sure what AI is saying about you? Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+              <p className="text-gray-400 text-sm">Our Blind Spot Report shows exactly what each AI platform has on file for your business. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
             <Link
               href="/blindspot"
@@ -250,7 +250,7 @@ export default function HowToFixWrongAIAnswersPage() {
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">AI Misinformation Is Not a Fringe Problem</h2>
               <p className="text-gray-300 text-lg mb-8">
                 The numbers are difficult to look at if you own a local business. AI-powered search is now the first place millions of customers turn for business information, and the error rate is far higher than most people realize.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <div className="ae-stats-grid grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
                 {[
                   { emoji: '📞', value: '36%', label: 'of AI-cited business phone numbers are incorrect' },
@@ -267,25 +267,25 @@ export default function HowToFixWrongAIAnswersPage() {
               </div>
               <p className="text-gray-400 text-sm italic">
                 Sources: Seer Interactive research; Suprmind AI Hallucination Statistics Report 2026; Four Dots Business Impact of AI Hallucinations study.
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <p>
               When a customer asks ChatGPT for the best plumber near them, or asks Perplexity for the hours of a local restaurant, they expect a reliable answer. The AI delivers one. The problem is that confidence and accuracy are not the same thing, and for small businesses especially, the AI often has stale, incomplete, or entirely fabricated details.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>
               Most business owners discover the problem by accident: a customer calls to complain about being turned away at the wrong location, or someone mentions the AI told them the business was closed on a day it was open. By then, the damage is already done.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose my-8 p-5 rounded-xl border border-yellow-500/30 bg-yellow-500/5">
               <div className="flex gap-3">
                 <span className="text-2xl">&#9888;&#65039;</span>
                 <div>
-                  <p className="font-semibold text-white mb-1">The Silence Is the Worst Part</p>
+                  <p className="font-semibold text-white mb-1">The Silence Is the Worst Part <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                   <p className="text-gray-300 text-sm">
                     Most customers who get wrong AI information do not call to complain. They just go to a competitor. You never find out. The AI keeps giving the same wrong answer. This is why a proactive audit is essential rather than waiting for complaints to surface.
-                  </p>
+                   Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 </div>
               </div>
             </div>
@@ -298,29 +298,29 @@ export default function HowToFixWrongAIAnswersPage() {
 
             <p>
               Understanding why the errors happen is the prerequisite to fixing them. AI models do not consult a single authoritative business database. They generate answers by synthesizing patterns from vast training datasets that include directories, forums, news articles, old web pages, and user-generated content. Several failure modes produce errors specific to local businesses.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               <strong>Stale training data.</strong> Large language models have training cutoffs. Information from your website, press releases, or profiles that changed after that cutoff simply does not exist in the model yet. An AI trained on data from 18 months ago will confidently repeat hours, phone numbers, and addresses from 18 months ago even if you updated them last week.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               <strong>NAP inconsistency as a signal problem.</strong> When AI encounters ten different versions of your phone number across ten directories, it cannot determine which is authoritative. It either picks the most common one (which may be old) or generates a statistical composite. The result is wrong either way.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <p>
               <strong>Competitor conflation.</strong> Businesses with similar names in the same city are a frequent source of hallucinations. AI models can inadvertently blend facts from two entities, assigning one business the location, phone number, or review profile of the other. <Link href="/blog/why-ai-says-wrong-things-about-business">See the full breakdown of why AI fabricates business details.</Link>
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>
               <strong>Sparse structured data.</strong> AI prefers structured signals over unstructured prose. If your website lacks schema markup and your profiles are thin, the AI has less reliable input to work with and must make more inferences, which increases the error rate.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             {/* Inline CTA 2 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Is AI conflating you with a competitor?</p>
-                <p className="text-gray-400 text-sm">Our audit identifies exactly which platforms have errors and what those errors are. No guesswork.</p>
+                <p className="text-white font-semibold mb-1">Is AI conflating you with a competitor? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+                <p className="text-gray-400 text-sm">Our audit identifies exactly which platforms have errors and what those errors are. No guesswork. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <a
                 href="tel:+12134442229"
@@ -339,7 +339,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             <p>
               Not all AI errors carry the same business cost. Before you can fix anything, you need to know what you are looking for. There are four categories of AI errors that affect local businesses.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* Comparison Table */}
             <div className="ae-comparison-table not-prose my-8 overflow-x-auto">
@@ -392,7 +392,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             <p>
               Identity errors are the hardest to fix because they often require building an authoritative citation footprint from scratch, outweighing the conflicting signal that caused the confusion in the first place. Sentiment errors are the most damaging because they directly suppress purchase intent at the moment a customer is deciding.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* Section 4 */}
             <div id="the-diagnosis-phase" className="not-prose mt-14 mb-4">
@@ -402,7 +402,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             <p>
               You cannot fix what you have not measured. The first phase is a systematic audit across every AI platform your customers are likely using. This is not a one-time Google search. It requires structured queries across multiple platforms, and the results need to be documented.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Timeline */}
             <div className="ae-timeline not-prose my-10 space-y-0">
@@ -439,7 +439,7 @@ export default function HowToFixWrongAIAnswersPage() {
                   </div>
                   <div className="pb-8">
                     <h3 className="font-plus-jakarta text-lg font-bold text-white mb-2">{item.title}</h3>
-                    <p className="text-gray-300 text-sm leading-relaxed">{item.body}</p>
+                    <p className="text-gray-300 text-sm leading-relaxed">{item.body} Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   </div>
                 </div>
               ))}
@@ -449,7 +449,7 @@ export default function HowToFixWrongAIAnswersPage() {
               <div className="flex gap-3">
                 <span className="text-2xl">&#128161;</span>
                 <div>
-                  <p className="font-semibold text-white mb-1">The Audit Takes Longer Than Expected</p>
+                  <p className="font-semibold text-white mb-1">The Audit Takes Longer Than Expected Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                   <p className="text-gray-300 text-sm">
                     A thorough AI footprint audit across six platforms with 10-15 query variations per platform, plus cross-referencing 20+ directory sources, typically takes 3-5 hours for a single-location business. Multi-location businesses should plan for a full day per market. This is why most business owners never complete one, and why the errors persist.
                     <span className="inline-block mt-2">
@@ -457,7 +457,7 @@ export default function HowToFixWrongAIAnswersPage() {
                       <Link href="/blindspot" className="text-[#F27D24] hover:underline">Blind Spot Report</Link>.
                       {' '}You get the completed audit, not just instructions on how to do one.
                     </span>
-                  </p>
+                   We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
                 </div>
               </div>
             </div>
@@ -470,7 +470,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             <p>
               Once you know what is wrong and where the error originates, the correction work falls across four layers. These layers interact: weakness in one amplifies problems in the others.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* Pros/Cons - repurposed as What Works vs What Fails */}
             <div className="ae-pros-cons not-prose my-10 grid md:grid-cols-2 gap-6">
@@ -518,29 +518,29 @@ export default function HowToFixWrongAIAnswersPage() {
 
             <p>
               The correction framework works in layers, each one building on the previous. Most businesses that attempt this on their own stall at layer two because the directory correction process is manual and time-consuming. The ones who see results are the ones who systematically work through all four layers. Need help? Get a <Link href="/blindspot" className="text-orange-500 hover:underline">blind spot audit</Link> to understand where you stand.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>
               <strong>Layer 1: Your website as the authoritative source.</strong> Your own domain is the most credible signal you control entirely. This means adding or updating LocalBusiness schema markup with current, verified facts. It means ensuring your contact page, about page, and service pages all agree on every detail. AI that scrapes your site should find zero conflicts. <Link href="/blog/make-your-site-the-one-ai-trusts">How to make your website the source AI trusts most.</Link>
-            </p>
+             Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               <strong>Layer 2: Claim and correct directory listings.</strong> The major citation sources that feed AI training data include Yelp, Apple Maps, Bing Places, Foursquare, YP.com, BBB, Hotfrog, Manta, and dozens of vertical-specific directories. Each one needs to be claimed, verified, and corrected to match your ground truth exactly. This is the layer most businesses underinvest in.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>
               <strong>Layer 3: Publish AI-citable content.</strong> Static listings help, but AI platforms also weight editorial content. Blog posts, FAQ pages, and service pages that directly address common questions about your business give AI something quotable. A well-structured FAQ that answers "what are [Business Name]&apos;s hours?" and "what services does [Business Name] offer?" gives AI an explicit, citable source to pull from. <Link href="/blog/what-happens-when-ai-search-gets-business-wrong">See what happens when none of this is in place.</Link>
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p>
               <strong>Layer 4: Build a citation network.</strong> Third-party editorial mentions from local news, industry publications, and trusted blogs act as corroborating evidence for AI systems. When multiple independent sources agree on your business details, AI has higher confidence in those details and lower tendency to hallucinate alternatives.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* Inline CTA 3 */}
             <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
-                <p className="text-white font-semibold mb-1">Ready to fix your AI footprint?</p>
-                <p className="text-gray-400 text-sm">We handle all four correction layers. Start with a free audit to see what we are working with.</p>
+                <p className="text-white font-semibold mb-1">Ready to fix your AI footprint? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+                <p className="text-gray-400 text-sm">We handle all four correction layers. Start with a free audit to see what we are working with. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
               <Link
                 href="/blindspot"
@@ -559,7 +559,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             <p>
               The businesses that stay accurately represented in AI are the ones that treat AI accuracy as a continuous process, not a project with a completion date. Several dynamics make ongoing maintenance essential.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p>
               AI platforms retrain, update their retrieval systems, and change which sources they weight. A correction that holds in ChatGPT today may need reinforcing after the next major model update. New directories launch and become AI data sources. Business changes, hours, service additions, and ownership transitions all need to be pushed through the correction pipeline each time they occur.

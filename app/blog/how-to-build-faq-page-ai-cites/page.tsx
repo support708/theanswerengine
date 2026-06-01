@@ -256,13 +256,13 @@ export default function Page() {
 
             <p>Most FAQ pages sit on websites answering questions nobody asked, formatted in a way no AI platform can parse. They were built for humans who scroll, not for AI systems that extract.</p>
 
-            <p>Meanwhile, businesses with properly structured FAQ pages are earning citations from ChatGPT, Perplexity, and Google AI Overviews on autopilot. The businesses winning AI visibility are not creating better content. They are structuring the same content in a way AI can actually consume.</p>
+            <p>Meanwhile, businesses with properly structured FAQ pages are earning citations from ChatGPT, Perplexity, and Google AI Overviews on autopilot. The businesses winning AI visibility are not creating better content. They are structuring the same content in a way AI can actually consume. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>The difference between a FAQ page that earns AI citations and one that collects dust is not content quality. It is structure, schema, and freshness.</p>
             </div>
 
-            <p>BrightEdge found that sites implementing structured data and FAQ blocks saw a <strong>44% increase in AI search citations</strong>. That is not a marginal improvement. That is the difference between being invisible to AI and being cited regularly.</p>
+            <p>BrightEdge found that sites implementing structured data and FAQ blocks saw a <strong>44% increase in AI search citations</strong>. That is not a marginal improvement. That is the difference between being invisible to AI and being cited regularly. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
@@ -274,11 +274,11 @@ export default function Page() {
             <span className="ae-section-label">The Opportunity</span>
             <h2>Why AI Platforms Love FAQ Pages (When Built Right)</h2>
 
-            <p>AI platforms like ChatGPT, Perplexity, and Google AI Overviews are constantly looking for content they can extract clean, citable answers from. FAQ pages are the ideal format because they already follow the exact pattern AI needs: a specific question followed by a direct answer.</p>
+            <p>AI platforms like ChatGPT, Perplexity, and Google AI Overviews are constantly looking for content they can extract clean, citable answers from. FAQ pages are the ideal format because they already follow the exact pattern AI needs: a specific question followed by a direct answer. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <p>When someone asks ChatGPT &quot;how much does a roof replacement cost in Phoenix,&quot; the AI needs a source that answers that exact question in a compact, verifiable format. A well-built FAQ page with that question and a clear 2 to 3 sentence answer is exactly what AI systems look for. A buried paragraph on page six of your services section is not.</p>
 
-            <p>This is why FAQ content gives AI platforms pre-formatted citation units. Each question-answer pair is a self-contained piece of information that can stand alone in an AI-generated response. That is precisely what makes FAQ pages so valuable for <Link href="/blog/does-schema-markup-help-ai-search">schema-driven AI visibility</Link>.</p>
+            <p>This is why FAQ content gives AI platforms pre-formatted citation units. Each question-answer pair is a self-contained piece of information that can stand alone in an AI-generated response. That is precisely what makes FAQ pages so valuable for <Link href="/blog/does-schema-markup-help-ai-search">schema-driven AI visibility</Link>. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── BAR GROUP: Citation Impact ── */}
             <div className="ae-bar-group not-prose">
@@ -311,7 +311,7 @@ export default function Page() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if AI platforms can even read your FAQ content? We will check for free.</p>
+              <p>Not sure if AI platforms can even read your FAQ content? We will check for free. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
             </div>
 
@@ -325,7 +325,7 @@ export default function Page() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Layer 1: Ask the Right Questions</strong>
-                <p>Pull from Google Search Console, customer calls, GBP Q&amp;A, and support inbox. Target 10 to 25 questions grouped by topic: pricing, process, timelines, qualifications, service area.</p>
+                <p>Pull from Google Search Console, customer calls, GBP Q&amp;A, and support inbox. Target 10 to 25 questions grouped by topic: pricing, process, timelines, qualifications, service area. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Layer 2: Format Answers for AI Extraction</strong>
@@ -333,7 +333,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Layer 3: Add FAQPage Schema Markup</strong>
-                <p>JSON-LD code block declaring structured Q&amp;A to AI platforms. Without it, AI guesses. With it, you declare in machine-readable format every major AI platform processes.</p>
+                <p>JSON-LD code block declaring structured Q&amp;A to AI platforms. Without it, AI guesses. With it, you declare in machine-readable format every major AI platform processes. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               </div>
             </div>
 
@@ -344,7 +344,7 @@ export default function Page() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want us to audit your FAQ page structure against all three layers? It takes less than a minute to start.</p>
+              <p>Want us to audit your FAQ page structure against all three layers? It takes less than a minute to start. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Audit &rarr;</Link>
             </div>
 
@@ -354,13 +354,13 @@ export default function Page() {
 
             <p>The biggest mistake businesses make is writing FAQ questions they think customers should ask, rather than questions customers actually ask. Your FAQ page should reflect real queries from real people in your market.</p>
 
-            <p>Pull questions from your Google Search Console data, your customer intake calls, your Google Business Profile Q&amp;A section, and your support inbox. These are the exact queries people type into AI platforms.</p>
+            <p>Pull questions from your Google Search Console data, your customer intake calls, your Google Business Profile Q&amp;A section, and your support inbox. These are the exact queries people type into AI platforms. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Group them by topic: pricing, process, timelines, qualifications, and service area. This topical grouping helps AI platforms understand that your page is a comprehensive resource on the subject, not a random collection of answers. If you want to understand how AI evaluates this kind of topical depth, read our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Common Mistake</div>
-              <p>Writing FAQs you wish customers would ask (like &quot;Why are you better than competitors?&quot;) instead of the questions they actually type into ChatGPT and Google. If it is not a real query, AI will never surface it as a citation.</p>
+              <p>Writing FAQs you wish customers would ask (like &quot;Why are you better than competitors?&quot;) instead of the questions they actually type into ChatGPT and Google. If it is not a real query, AI will never surface it as a citation. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── CTA 4 ── */}
@@ -373,7 +373,7 @@ export default function Page() {
             <span className="ae-section-label">Layer 2</span>
             <h2>Format Answers for AI Extraction</h2>
 
-            <p>AI platforms do not read your FAQ the way a human does. They scan for extractable units of information. The ideal answer structure is what researchers call &quot;Question, Short Answer, Deeper Explanation.&quot;</p>
+            <p>AI platforms do not read your FAQ the way a human does. They scan for extractable units of information. The ideal answer structure is what researchers call &quot;Question, Short Answer, Deeper Explanation.&quot; One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── COMPARISON TABLE: Weak vs Strong ── */}
             <table className="ae-comparison-table not-prose">
@@ -417,7 +417,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Citation Test</div>
-              <p>Read your FAQ answer out loud, completely removed from your website. Does it make sense on its own? Does it include at least one specific, verifiable detail? If yes, it passes. If no, rewrite it until it does.</p>
+              <p>Read your FAQ answer out loud, completely removed from your website. Does it make sense on its own? Does it include at least one specific, verifiable detail? If yes, it passes. If no, rewrite it until it does. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
             </div>
 
             {/* ── CTA 5 ── */}
@@ -430,7 +430,7 @@ export default function Page() {
             <span className="ae-section-label">Layer 3</span>
             <h2>Add FAQPage Schema Markup (The Technical Edge)</h2>
 
-            <p>FAQPage schema is a JSON-LD code block you add to your page that explicitly tells AI platforms: this page contains structured questions and answers. Without it, AI has to guess that your content is a FAQ. With it, you are declaring it in a machine-readable format that every major AI platform processes.</p>
+            <p>FAQPage schema is a JSON-LD code block you add to your page that explicitly tells AI platforms: this page contains structured questions and answers. Without it, AI has to guess that your content is a FAQ. With it, you are declaring it in a machine-readable format that every major AI platform processes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>ChatGPT, Claude, Perplexity, and Gemini all actively process Schema Markup when directly accessing content. Structured data contributes approximately 10% to Perplexity&apos;s ranking factors alone. For a deeper look at how schema powers AI visibility, see our breakdown of <Link href="/blog/does-schema-markup-help-ai-search">schema markup and AI search</Link>.</p>
 
@@ -477,7 +477,7 @@ export default function Page() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Critical Rule</div>
-              <p>Your schema content must match your visible page content exactly. If the schema says one thing and the page says something different, AI platforms flag the inconsistency and may ignore both. Keep them in sync at all times.</p>
+              <p>Your schema content must match your visible page content exactly. If the schema says one thing and the page says something different, AI platforms flag the inconsistency and may ignore both. Keep them in sync at all times. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             </div>
 
             {/* ── CTA 6 ── */}
@@ -490,7 +490,7 @@ export default function Page() {
             <span className="ae-section-label">The Equalizer</span>
             <h2>Schema Quality Beats Domain Authority</h2>
 
-            <p>This is the most important data point for small and mid-size businesses: schema quality matters more than domain authority for AI citations. Research shows that for lower-authority domains (DR 60 or below), attribute-rich schema achieves a 54.2% citation rate versus 31.8% for generic schema.</p>
+            <p>This is the most important data point for small and mid-size businesses: schema quality matters more than domain authority for AI citations. Research shows that for lower-authority domains (DR 60 or below), attribute-rich schema achieves a 54.2% citation rate versus 31.8% for generic schema. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── DECISION MATRIX ── */}
             <div className="ae-decision-matrix not-prose">
@@ -521,7 +521,7 @@ export default function Page() {
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Competing against bigger companies in AI search? Schema quality is your advantage. Let us show you where you stand.</p>
+              <p>Competing against bigger companies in AI search? Schema quality is your advantage. Let us show you where you stand. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Check Your Schema vs Competitors &rarr;</Link>
             </div>
 
@@ -531,7 +531,7 @@ export default function Page() {
 
             <p>A single FAQ page is a good start, but the businesses earning the most AI citations embed FAQ sections across their entire site. Your homepage, each service page, your about page, and your location pages should all include 3 to 5 relevant questions with FAQPage schema.</p>
 
-            <p>This strategy works because it gives AI platforms multiple entry points to discover your expertise. When Perplexity crawls your HVAC repair page and finds 4 well-structured FAQs about common repair issues, it associates that expertise with your business entity. When it later needs to recommend an HVAC company, your business has more authority signals than a competitor whose FAQ content lives on a single page.</p>
+            <p>This strategy works because it gives AI platforms multiple entry points to discover your expertise. When Perplexity crawls your HVAC repair page and finds 4 well-structured FAQs about common repair issues, it associates that expertise with your business entity. When it later needs to recommend an HVAC company, your business has more authority signals than a competitor whose FAQ content lives on a single page. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* ── PROS CONS ── */}
             <div className="ae-pros-cons not-prose">
@@ -558,7 +558,7 @@ export default function Page() {
 
             {/* ── CTA 8 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want a hub-and-spoke FAQ strategy built for your specific service area? We map it out for free.</p>
+              <p>Want a hub-and-spoke FAQ strategy built for your specific service area? We map it out for free. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -587,13 +587,13 @@ export default function Page() {
               </div>
             </div>
 
-            <p>Set a quarterly review cycle for your FAQ content. Add new questions based on customer inquiries you have received since the last update. Update pricing, timelines, or process details that have changed. Remove questions that are no longer relevant. Each update signals to AI platforms that your content is current and trustworthy.</p>
+            <p>Set a quarterly review cycle for your FAQ content. Add new questions based on customer inquiries you have received since the last update. Update pricing, timelines, or process details that have changed. Remove questions that are no longer relevant. Each update signals to AI platforms that your content is current and trustworthy. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>Also review what your competitors are doing. If a competitor adds a FAQ page that answers questions yours does not cover, you risk losing citations to them. AI platforms compare sources. The most complete, most current source wins.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Treat your FAQ page like a living document, not a checkbox exercise. In a world where AI-referred sessions have jumped 527% in a single year, your FAQ page is one of the most valuable assets on your entire website. Stale content equals lost citations.</p>
+              <p>Treat your FAQ page like a living document, not a checkbox exercise. In a world where AI-referred sessions have jumped 527% in a single year, your FAQ page is one of the most valuable assets on your entire website. Stale content equals lost citations. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── CTA 9 ── */}
@@ -606,7 +606,7 @@ export default function Page() {
             <span className="ae-section-label">Avoid These</span>
             <h2>Common FAQ Page Mistakes That Kill AI Visibility</h2>
 
-            <p>Even businesses that build FAQ pages often sabotage their AI visibility with avoidable mistakes. Here are the most damaging ones and how to fix them.</p>
+            <p>Even businesses that build FAQ pages often sabotage their AI visibility with avoidable mistakes. Here are the most damaging ones and how to fix them. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* ── COMPARISON TABLE: Mistakes ── */}
             <table className="ae-comparison-table not-prose">
@@ -653,7 +653,7 @@ export default function Page() {
 
             {/* ── CTA 10 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Making any of these mistakes? Our audit catches all five and shows you exactly how to fix them.</p>
+              <p>Making any of these mistakes? Our audit catches all five and shows you exactly how to fix them. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free FAQ Audit &rarr;</a>
             </div>
 
@@ -667,7 +667,7 @@ export default function Page() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Step 1: Audit your current FAQ page</strong>
-                <p>Count your questions. Check if answers are specific or vague. If you do not have a FAQ page, create one.</p>
+                <p>Count your questions. Check if answers are specific or vague. If you do not have a FAQ page, create one. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Collect 15 to 20 real customer questions</strong>
@@ -675,7 +675,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Write answers using the Q-SA-DE format</strong>
-                <p>Question, Short Answer (1 to 2 sentences), Deeper Explanation (2 to 3 sentences). Each answer should stand alone.</p>
+                <p>Question, Short Answer (1 to 2 sentences), Deeper Explanation (2 to 3 sentences). Each answer should stand alone. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Add FAQPage schema markup</strong>
@@ -683,7 +683,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Validate with Google Rich Results Test</strong>
-                <p>Run your page through search.google.com/test/rich-results. Fix any errors before publishing.</p>
+                <p>Run your page through search.google.com/test/rich-results. Fix any errors before publishing. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 6: Embed 3 to 5 relevant FAQs on each service page</strong>
@@ -691,7 +691,7 @@ export default function Page() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 7: Set a quarterly reminder</strong>
-                <p>Update questions, refresh answers, add new content. Stale FAQs lose citations 3x faster.</p>
+                <p>Update questions, refresh answers, add new content. Stale FAQs lose citations 3x faster. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               </div>
             </div>
 
@@ -704,7 +704,7 @@ export default function Page() {
             {/* ── CTA BLOCK ── */}
             <div className="ae-cta-block not-prose">
               <h3>Your FAQ Page Is Either Working For You Or Against You</h3>
-              <p>Every day your FAQ page sits without proper schema, formatted answers, and real customer questions, you are handing AI citations to your competitors. The businesses that treat their FAQ page as a living, AI-optimized asset are the ones AI platforms consistently recommend.</p>
+              <p>Every day your FAQ page sits without proper schema, formatted answers, and real customer questions, you are handing AI citations to your competitors. The businesses that treat their FAQ page as a living, AI-optimized asset are the ones AI platforms consistently recommend. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -738,7 +738,7 @@ export default function Page() {
                 in Google AI Overviews. BrightEdge research found a 44% increase in
                 AI citations for sites using structured data with FAQ blocks.
                 ChatGPT, Perplexity, and Google AI all process FAQPage schema.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
@@ -762,7 +762,7 @@ export default function Page() {
                 business. Then embed 3 to 5 relevant FAQs on each service page for
                 topic-specific questions. This gives AI platforms multiple entry
                 points to discover and cite your content.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
 
             <div className="p-6 rounded-xl border border-gray-800 bg-gray-900">
@@ -787,7 +787,7 @@ export default function Page() {
                 31.8% for generic schema. A well-structured FAQ page with complete
                 markup can help smaller businesses earn citations that would otherwise
                 go to larger competitors.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
           </div>
 

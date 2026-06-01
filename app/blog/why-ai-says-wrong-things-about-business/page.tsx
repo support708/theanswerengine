@@ -243,33 +243,33 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
             <p>AI platforms do not look up your business in a database and read back verified information. That is the fundamental misunderstanding most business owners have. Instead, AI models predict what the correct answer probably is based on patterns they learned from billions of web pages during training.</p>
 
-            <p>When you ask ChatGPT for a plumber&apos;s phone number, it is not calling a phone directory. It is generating a sequence of digits that statistically seem likely to be correct based on web content it absorbed months or even years ago. This is why AI models provide incorrect phone numbers approximately 36% of the time, according to research by Seer Interactive.</p>
+            <p>When you ask ChatGPT for a plumber&apos;s phone number, it is not calling a phone directory. It is generating a sequence of digits that statistically seem likely to be correct based on web content it absorbed months or even years ago. This is why AI models provide incorrect phone numbers approximately 36% of the time, according to research by Seer Interactive. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>The root causes break down into five distinct failure modes, and most businesses are affected by more than one at any given time.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">AI Confidence Is Inversely Correlated with Accuracy</div>
-              <p>Research shows that AI models are 34% more likely to use confident language like &quot;definitely&quot; and &quot;certainly&quot; when generating incorrect information. The more wrong AI is about your business, the more convincingly it delivers that wrong answer to your potential customers.</p>
+              <p>Research shows that AI models are 34% more likely to use confident language like &quot;definitely&quot; and &quot;certainly&quot; when generating incorrect information. The more wrong AI is about your business, the more convincingly it delivers that wrong answer to your potential customers. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <h3>1. Stale Training Data</h3>
             <p>Large language models are trained on snapshots of the internet, not the live web. If your business changed its phone number, moved locations, or updated hours six months ago, the AI model may still be working from the old data. Training data can lag by anywhere from three months to over a year, depending on the model and when it was last updated.</p>
 
             <h3>2. Conflicting Sources</h3>
-            <p>If your phone number appears differently across Yelp, Yellow Pages, Facebook, and your website, the AI has multiple conflicting signals. Rather than flagging the conflict, it picks one. Sometimes it picks the wrong one. Sometimes it averages or blends information from multiple sources, creating an answer that does not match any of them.</p>
+            <p>If your phone number appears differently across Yelp, Yellow Pages, Facebook, and your website, the AI has multiple conflicting signals. Rather than flagging the conflict, it picks one. Sometimes it picks the wrong one. Sometimes it averages or blends information from multiple sources, creating an answer that does not match any of them. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <h3>3. Missing Structured Data</h3>
             <p>AI platforms increasingly rely on structured data and schema markup to extract reliable facts. If your website does not clearly mark up your business name, address, phone, and hours in a machine-readable format, the AI has to parse unstructured text. That is where errors compound.</p>
 
             <h3>4. Entity Confusion</h3>
-            <p>Businesses with common names or names similar to other businesses are especially vulnerable. An AI model might blend information from &quot;Smith Electric&quot; in Denver with &quot;Smith Electrical Services&quot; in Dallas, creating a Frankenstein profile that does not accurately represent either business.</p>
+            <p>Businesses with common names or names similar to other businesses are especially vulnerable. An AI model might blend information from &quot;Smith Electric&quot; in Denver with &quot;Smith Electrical Services&quot; in Dallas, creating a Frankenstein profile that does not accurately represent either business. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <h3>5. Gap-Filling Behavior</h3>
             <p>When AI does not have enough data to answer a question, it does not say &quot;I don&apos;t know.&quot; Instead, it fills the gap with a plausible-sounding answer. If someone asks for your Saturday hours and the AI has never encountered that specific detail, it will generate hours that seem reasonable rather than admitting it lacks the information.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Wondering which of these failure modes is affecting your business right now?</p>
+              <p>Wondering which of these failure modes is affecting your business right now? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -279,7 +279,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
             <p>To understand why AI gets things wrong, you need to understand where it gets its information in the first place. The data pipeline for AI business answers is fundamentally different from how Google Search works.</p>
 
-            <p>Traditional search engines index live web pages and display links. AI platforms absorb web content during training, then generate answers from memory. Think of the difference between a librarian who looks up a book for you versus someone who read every book in the library last year and is now reciting from memory. The reciter will get a lot right, but the details they are less certain about will be filled in with educated guesses.</p>
+            <p>Traditional search engines index live web pages and display links. AI platforms absorb web content during training, then generate answers from memory. Think of the difference between a librarian who looks up a book for you versus someone who read every book in the library last year and is now reciting from memory. The reciter will get a lot right, but the details they are less certain about will be filled in with educated guesses. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             {/* ── COMPARISON TABLE ── */}
             <div className="ae-comparison-table not-prose">
@@ -330,7 +330,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Your Google Business Profile is invisible to most AI platforms. See what they actually see.</p>
+              <p>Your Google Business Profile is invisible to most AI platforms. See what they actually see. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
               <Link href="/blindspot">Run a Free AI Visibility Check &rarr;</Link>
             </div>
 
@@ -346,7 +346,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
                 <div className="ae-timeline-marker">1</div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Source Inconsistency Appears</div>
-                  <p>Your old phone number persists on a few directory sites after you update your website and Google Business Profile. You assume it does not matter.</p>
+                  <p>Your old phone number persists on a few directory sites after you update your website and Google Business Profile. You assume it does not matter. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -360,7 +360,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
                 <div className="ae-timeline-marker">3</div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">AI Picks the Wrong Version</div>
-                  <p>When a customer asks for your number, the model selects the old one. Maybe the old number appeared on more sites. Maybe it was on a higher-authority domain. The customer calls a disconnected line.</p>
+                  <p>When a customer asks for your number, the model selects the old one. Maybe the old number appeared on more sites. Maybe it was on a higher-authority domain. The customer calls a disconnected line. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -374,7 +374,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
                 <div className="ae-timeline-marker">5</div>
                 <div className="ae-timeline-content">
                   <div className="ae-timeline-title">Next Training Cycle Reinforces the Error</div>
-                  <p>The next AI training run now finds even more sources with the wrong number, because the AI&apos;s own previous errors have been published across the web. The wrong answer becomes the &quot;consensus&quot; answer.</p>
+                  <p>The next AI training run now finds even more sources with the wrong number, because the AI&apos;s own previous errors have been published across the web. The wrong answer becomes the &quot;consensus&quot; answer. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
@@ -386,7 +386,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
               </div>
             </div>
 
-            <p>This feedback loop is why businesses that wait to address AI accuracy issues find the problem getting worse over time, not better. The longer incorrect information circulates, the more deeply it becomes embedded in AI training data. For a deeper look at the consequences, see <Link href="/blog/what-happens-when-ai-search-gets-business-wrong">what happens when AI search gets your business wrong</Link>.</p>
+            <p>This feedback loop is why businesses that wait to address AI accuracy issues find the problem getting worse over time, not better. The longer incorrect information circulates, the more deeply it becomes embedded in AI training data. For a deeper look at the consequences, see <Link href="/blog/what-happens-when-ai-search-gets-business-wrong">what happens when AI search gets your business wrong</Link>. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
@@ -398,7 +398,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             <span className="ae-section-label" id="nap-problem">The Signal Problem</span>
             <h2>The NAP Consistency Problem</h2>
 
-            <p>NAP stands for Name, Address, and Phone number. It is the most basic unit of business identity online, and it is the single biggest factor in whether AI can correctly identify and represent your business.</p>
+            <p>NAP stands for Name, Address, and Phone number. It is the most basic unit of business identity online, and it is the single biggest factor in whether AI can correctly identify and represent your business. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <p>When your NAP is consistent across every directory, review site, social platform, and your own website, AI models receive a strong, unified signal. When it is not consistent, the AI is forced to make judgment calls about which version is correct.</p>
 
@@ -425,13 +425,13 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
               </div>
             </div>
 
-            <p>The threshold for problems is lower than most people think. Even small differences count. &quot;123 Main St&quot; vs. &quot;123 Main Street&quot; vs. &quot;123 Main St.&quot; can create ambiguity for AI models. A phone number listed as &quot;(555) 123-4567&quot; on one site and &quot;555-123-4567&quot; on another is technically different data. While smart AI systems can often normalize these, less sophisticated models or crawlers may not.</p>
+            <p>The threshold for problems is lower than most people think. Even small differences count. &quot;123 Main St&quot; vs. &quot;123 Main Street&quot; vs. &quot;123 Main St.&quot; can create ambiguity for AI models. A phone number listed as &quot;(555) 123-4567&quot; on one site and &quot;555-123-4567&quot; on another is technically different data. While smart AI systems can often normalize these, less sophisticated models or crawlers may not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p>Directory listings play a critical role in establishing that consistent signal. The more places your correct information appears in a uniform format, the stronger the consensus signal AI receives. This is why <Link href="/blog/directory-listings-that-help-ai-find-business">the right directory listings matter so much for AI visibility</Link>.</p>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure if your NAP data is consistent? We check every major platform.</p>
+              <p>Not sure if your NAP data is consistent? We check every major platform. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               <a href="tel:+12134442229" className="flex items-center gap-2 text-[#F27D24] font-semibold">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
@@ -444,14 +444,14 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
             <p>Perhaps the most dangerous aspect of AI business errors is that they do not come with warning labels. When AI gives your customer the wrong phone number, it does not say &quot;I am not sure about this, you should double-check.&quot; It presents the wrong information with the same matter-of-fact confidence it uses for well-established facts.</p>
 
-            <p>Research has revealed a counterintuitive pattern: AI models use more confident language when they are generating hallucinated content than when they are providing accurate information. They are 34% more likely to include intensifiers and certainty markers in fabricated answers.</p>
+            <p>Research has revealed a counterintuitive pattern: AI models use more confident language when they are generating hallucinated content than when they are providing accurate information. They are 34% more likely to include intensifiers and certainty markers in fabricated answers. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">How AI Confidence Language Works</div>
               <p>When AI is uncertain, its training actually pushes it toward more definitive phrasing, not less. This is because the model has learned that confident answers receive better ratings from humans. The result: the answers your customers are most likely to trust without verifying are also the ones most likely to be wrong.</p>
             </div>
 
-            <p>About half of consumers now trust AI search summaries at face value, according to a 2025 Gartner study. Those trusting users will not double-check a phone number. They will not verify hours. They will simply act on what the AI told them. If the AI told them wrong information, you lose the customer without ever knowing they tried to find you.</p>
+            <p>About half of consumers now trust AI search summaries at face value, according to a 2025 Gartner study. Those trusting users will not double-check a phone number. They will not verify hours. They will simply act on what the AI told them. If the AI told them wrong information, you lose the customer without ever knowing they tried to find you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
@@ -463,7 +463,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             <span className="ae-section-label" id="real-cost">The Numbers</span>
             <h2>The Real Cost of AI Errors</h2>
 
-            <p>AI errors about your business do not just cause minor inconvenience. They drive measurable, recurring revenue loss.</p>
+            <p>AI errors about your business do not just cause minor inconvenience. They drive measurable, recurring revenue loss. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* ── BAR CHART ── */}
             <div className="ae-bar-group not-prose">
@@ -499,7 +499,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
             <p>Consider the math. If AI directs even five potential customers per week to a wrong phone number, and your average job value is $300, that is $1,500 per week in lost revenue. Over a year, that is $78,000 in business that went to a competitor or simply evaporated because the customer gave up.</p>
 
-            <p>And that only accounts for phone number errors. Factor in wrong hours (customer arrives to a closed business and never returns), wrong addresses (customer drives to the wrong location), and wrong service descriptions (customer assumes you do not offer what they need), and the total impact grows substantially.</p>
+            <p>And that only accounts for phone number errors. Factor in wrong hours (customer arrives to a closed business and never returns), wrong addresses (customer drives to the wrong location), and wrong service descriptions (customer assumes you do not offer what they need), and the total impact grows substantially. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <div className="ae-callout-title">The Hidden Cost: Reputation Erosion</div>
@@ -508,7 +508,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>How much revenue is AI misinformation costing your business?</p>
+              <p>How much revenue is AI misinformation costing your business? Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai" className="text-[#F27D24] font-semibold">
                 Email us at support@theanswerengine.ai for a free assessment &rarr;
               </a>
@@ -560,7 +560,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
               </table>
             </div>
 
-            <p>This fragmentation means there is no single fix. You cannot just update your Google Business Profile and assume every AI platform now has your correct information. Each platform needs to be fed accurate signals through the channels it can actually access. For ChatGPT specifically, <Link href="/blog/bing-places-chatgpt-connection">Bing Places is a critical but often overlooked connection</Link>.</p>
+            <p>This fragmentation means there is no single fix. You cannot just update your Google Business Profile and assume every AI platform now has your correct information. Each platform needs to be fed accurate signals through the channels it can actually access. For ChatGPT specifically, <Link href="/blog/bing-places-chatgpt-connection">Bing Places is a critical but often overlooked connection</Link>. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── CTA 7 ── */}
             <div className="ae-cta-inline not-prose">
@@ -572,7 +572,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             <span className="ae-section-label" id="what-to-fix">The Path Forward</span>
             <h2>What You Can Actually Fix</h2>
 
-            <p>The good news is that the root causes of AI business errors are addressable. While you cannot directly edit what AI says about your business, you can control the inputs that AI relies on to generate those answers.</p>
+            <p>The good news is that the root causes of AI business errors are addressable. While you cannot directly edit what AI says about your business, you can control the inputs that AI relies on to generate those answers. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* ── CHEAT SHEET ── */}
             <div className="ae-cheat-sheet not-prose">
@@ -589,7 +589,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
                   <div className="ae-cheat-sheet-number">02</div>
                   <div>
                     <strong>Structured Data Markup</strong>
-                    <p>Add LocalBusiness schema markup to your website with all critical details: hours, phone, address, services, and service area. This gives AI a machine-readable source of truth.</p>
+                    <p>Add LocalBusiness schema markup to your website with all critical details: hours, phone, address, services, and service area. This gives AI a machine-readable source of truth. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
                   </div>
                 </div>
                 <div className="ae-cheat-sheet-item">
@@ -603,7 +603,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
                   <div className="ae-cheat-sheet-number">04</div>
                   <div>
                     <strong>Bing Places Profile</strong>
-                    <p>ChatGPT uses Bing data for business lookups. If you only maintain Google Business Profile, the world&apos;s most popular AI assistant may never see your correct information.</p>
+                    <p>ChatGPT uses Bing data for business lookups. If you only maintain Google Business Profile, the world&apos;s most popular AI assistant may never see your correct information. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                   </div>
                 </div>
                 <div className="ae-cheat-sheet-item">
@@ -617,7 +617,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
                   <div className="ae-cheat-sheet-number">06</div>
                   <div>
                     <strong>Regular AI Monitoring</strong>
-                    <p>Test what AI platforms say about your business monthly. Ask the same queries your customers would ask and compare the answers against reality.</p>
+                    <p>Test what AI platforms say about your business monthly. Ask the same queries your customers would ask and compare the answers against reality. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                   </div>
                 </div>
                 <div className="ae-cheat-sheet-item">
@@ -632,7 +632,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">The Compounding Effect Works Both Ways</div>
-              <p>Just as misinformation compounds over time, so does correct information. Businesses that establish strong, consistent signals across directories see improvements compound through each AI training cycle. Studies show 25-35% increases in local rankings within 60 days of systematic citation cleanup. The sooner you start, the more training cycles benefit from your corrected data.</p>
+              <p>Just as misinformation compounds over time, so does correct information. Businesses that establish strong, consistent signals across directories see improvements compound through each AI training cycle. Studies show 25-35% increases in local rankings within 60 days of systematic citation cleanup. The sooner you start, the more training cycles benefit from your corrected data. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </div>
 
             {/* ── CTA 8 ── */}
@@ -643,7 +643,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
             {/* ── CTA 9: Phone ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Prefer to talk through your situation with a real person?</p>
+              <p>Prefer to talk through your situation with a real person? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
               <a href="tel:+12134442229" className="flex items-center gap-2 text-[#F27D24] font-semibold">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
@@ -668,7 +668,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -699,7 +699,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             <div className="ae-faq not-prose">
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">Why does AI give wrong information about my business?</h3>
-                <p className="ae-faq-answer">AI models assemble answers from scattered web data rather than pulling from a single verified source. If your business information is inconsistent across directories, outdated on aggregator sites, or missing structured markup on your website, the AI has to guess. It fills gaps by predicting the most statistically likely answer, which often means fabricating details like phone numbers, hours, or service descriptions.</p>
+                <p className="ae-faq-answer">AI models assemble answers from scattered web data rather than pulling from a single verified source. If your business information is inconsistent across directories, outdated on aggregator sites, or missing structured markup on your website, the AI has to guess. It fills gaps by predicting the most statistically likely answer, which often means fabricating details like phone numbers, hours, or service descriptions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">How often do AI platforms display incorrect business phone numbers?</h3>
@@ -707,7 +707,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">Can inconsistent business listings cause AI errors?</h3>
-                <p className="ae-faq-answer">Yes. NAP (Name, Address, Phone) inconsistency is one of the primary drivers of AI hallucinations about businesses. When your business name is listed differently across directories, or your phone number varies between platforms, AI models cannot confidently determine which version is correct. Studies show that 93% of consumers are frustrated by incorrect business information, and businesses with consistent NAP data see up to 40% better local rankings.</p>
+                <p className="ae-faq-answer">Yes. NAP (Name, Address, Phone) inconsistency is one of the primary drivers of AI hallucinations about businesses. When your business name is listed differently across directories, or your phone number varies between platforms, AI models cannot confidently determine which version is correct. Studies show that 93% of consumers are frustrated by incorrect business information, and businesses with consistent NAP data see up to 40% better local rankings. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">What is the financial cost of AI getting my business wrong?</h3>
@@ -715,7 +715,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">How can I check what AI is saying about my business?</h3>
-                <p className="ae-faq-answer">Search for your business name on ChatGPT, Google AI Overviews, Perplexity, and Claude. Ask specific questions like &quot;What is [business name] phone number?&quot; and &quot;What are [business name] hours?&quot; Compare every detail against your actual information. For a comprehensive audit, The Answer Engine offers a <Link href="/blindspot" className="text-[#F27D24]">free Blind Spot Report</Link> that checks all major AI platforms at once.</p>
+                <p className="ae-faq-answer">Search for your business name on ChatGPT, Google AI Overviews, Perplexity, and Claude. Ask specific questions like &quot;What is [business name] phone number?&quot; and &quot;What are [business name] hours?&quot; Compare every detail against your actual information. For a comprehensive audit, The Answer Engine offers a <Link href="/blindspot" className="text-[#F27D24]">free Blind Spot Report</Link> that checks all major AI platforms at once. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">Does Google Business Profile data feed into AI answers?</h3>

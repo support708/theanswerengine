@@ -219,13 +219,13 @@ export default function Page() {
             </div>
           </div>
 
-          <p>Your website might have great content. It might rank well on Google. But if you have not updated it recently, AI platforms are probably ignoring it. ChatGPT, Perplexity, and Google AI Overviews are all shifting toward fresher sources when generating answers. And the data backs this up: an Ahrefs study analyzing 17 million citations found that <strong>AI-cited content is 25.7% fresher than what appears in traditional Google search results</strong>.</p>
+          <p>Your website might have great content. It might rank well on Google. But if you have not updated it recently, AI platforms are probably ignoring it. ChatGPT, Perplexity, and Google AI Overviews are all shifting toward fresher sources when generating answers. And the data backs this up: an Ahrefs study analyzing 17 million citations found that <strong>AI-cited content is 25.7% fresher than what appears in traditional Google search results</strong>. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>For local service businesses, this means a static website is no longer just outdated. It is invisible.</p>
+          <p>For local service businesses, this means a static website is no longer just outdated. It is invisible. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
-            <p>A website that has not been updated in six months is actively losing AI citations. Every week of inaction hands visibility to competitors who are publishing fresh content.</p>
+            <p>A website that has not been updated in six months is actively losing AI citations. Every week of inaction hands visibility to competitors who are publishing fresh content. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* -- TIMELINE -- */}
@@ -257,12 +257,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Freshness went from a minor ranking factor to the single most controllable signal for AI citation. Unlike backlinks or domain authority, you can improve freshness today.</p>
+            <p>Freshness went from a minor ranking factor to the single most controllable signal for AI citation. Unlike backlinks or domain authority, you can improve freshness today. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* -- CTA 1 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering how fresh your content looks to AI platforms? Find out exactly where you stand.</p>
+            <p>Wondering how fresh your content looks to AI platforms? Find out exactly where you stand. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
           </div>
 
@@ -270,10 +270,10 @@ export default function Page() {
           <span className="ae-section-label">The Data</span>
           <h2>What the Research Actually Shows</h2>
 
-          <p>The Ahrefs study of 17 million citations across seven AI platforms revealed a clear pattern. The average age of URLs cited by AI assistants is 1,064 days, compared to 1,432 days for URLs in organic search results. That 368-day gap means AI platforms are actively selecting newer sources over older ones, even when the older content ranks well in traditional search.</p>
+          <p>The Ahrefs study of 17 million citations across seven AI platforms revealed a clear pattern. The average age of URLs cited by AI assistants is 1,064 days, compared to 1,432 days for URLs in organic search results. That 368-day gap means AI platforms are actively selecting newer sources over older ones, even when the older content ranks well in traditional search. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
           <div className="ae-quote not-prose">
-            <p>AI platforms are not citing the highest-ranking page. They are citing the most current, authoritative page. Freshness is the tiebreaker that most businesses are losing.</p>
+            <p>AI platforms are not citing the highest-ranking page. They are citing the most current, authoritative page. Freshness is the tiebreaker that most businesses are losing. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
           </div>
 
           {/* -- BAR GROUP -- */}
@@ -310,11 +310,11 @@ export default function Page() {
             </div>
           </div>
 
-          <p>This is not a technical curiosity. It is a competitive advantage hiding in plain sight. While most businesses treat their website as a set-and-forget asset, the ones updating regularly are capturing a growing share of AI recommendations.</p>
+          <p>This is not a technical curiosity. It is a competitive advantage hiding in plain sight. While most businesses treat their website as a set-and-forget asset, the ones updating regularly are capturing a growing share of AI recommendations. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           {/* -- CTA 2 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Your competitors who update monthly are getting 3.2x more AI citations. See how you compare.</p>
+            <p>Your competitors who update monthly are getting 3.2x more AI citations. See how you compare. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Run a Free AI Visibility Check</Link>
           </div>
 
@@ -322,7 +322,7 @@ export default function Page() {
           <span className="ae-section-label">Platform Breakdown</span>
           <h2>How Each AI Platform Handles Freshness Differently</h2>
 
-          <p>Not all AI platforms weigh freshness equally. Understanding the differences helps you prioritize your update strategy.</p>
+          <p>Not all AI platforms weigh freshness equally. Understanding the differences helps you prioritize your update strategy. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <table className="ae-comparison-table not-prose">
             <thead>
@@ -367,16 +367,16 @@ export default function Page() {
             </tbody>
           </table>
 
-          <p>The takeaway is clear. If you want to be cited across all three major AI platforms, your content needs to show signs of recent, substantive updates. For a deeper look at how each platform selects sources, see our guide on <Link href="/blog/how-perplexity-decides-what-to-cite">how Perplexity decides what to cite</Link>.</p>
+          <p>The takeaway is clear. If you want to be cited across all three major AI platforms, your content needs to show signs of recent, substantive updates. For a deeper look at how each platform selects sources, see our guide on <Link href="/blog/how-perplexity-decides-what-to-cite">how Perplexity decides what to cite</Link>. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Insight</div>
-            <p>Perplexity is the most freshness-hungry platform and also the fastest-growing AI search tool. If you are only optimizing for Google, you are missing the platform that rewards fresh content the most aggressively.</p>
+            <p>Perplexity is the most freshness-hungry platform and also the fastest-growing AI search tool. If you are only optimizing for Google, you are missing the platform that rewards fresh content the most aggressively. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
 
           {/* -- CTA 3 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Not sure how Perplexity, ChatGPT, and Google AI see your content? We check all three.</p>
+            <p>Not sure how Perplexity, ChatGPT, and Google AI see your content? We check all three. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <Link href="/blindspot">See Your Multi-Platform Visibility</Link>
           </div>
 
@@ -384,9 +384,9 @@ export default function Page() {
           <span className="ae-section-label">Update Quality</span>
           <h2>What Counts as a Real Content Update</h2>
 
-          <p>Before you rush to change every date on your website, understand this: AI platforms can tell the difference between a cosmetic refresh and a meaningful update. Changing a publish date, swapping a stock photo, or rewording a sentence does not count. These cosmetic changes can actually trigger quality signals that work against you.</p>
+          <p>Before you rush to change every date on your website, understand this: AI platforms can tell the difference between a cosmetic refresh and a meaningful update. Changing a publish date, swapping a stock photo, or rewording a sentence does not count. These cosmetic changes can actually trigger quality signals that work against you. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
-          <p>Google has indicated that substantive updates should involve changes to 20 to 30 percent of the textual content on a page. AI systems evaluate whether an update changes the substance of the page, including the data, the recommendations, the examples, and the context.</p>
+          <p>Google has indicated that substantive updates should involve changes to 20 to 30 percent of the textual content on a page. AI systems evaluate whether an update changes the substance of the page, including the data, the recommendations, the examples, and the context. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* -- PROS/CONS -- */}
           <div className="ae-pros-cons not-prose">
@@ -418,12 +418,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>A real update reflects that the author has revisited the topic and incorporated current knowledge. If you would not notice the difference as a reader, neither will the AI.</p>
+            <p>A real update reflects that the author has revisited the topic and incorporated current knowledge. If you would not notice the difference as a reader, neither will the AI. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
 
           {/* -- CTA 4 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Wondering which of your pages need updates most urgently? Our report identifies the gaps.</p>
+            <p>Wondering which of your pages need updates most urgently? Our report identifies the gaps. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             <Link href="/blindspot">Find Your Content Gaps</Link>
           </div>
 
@@ -431,11 +431,11 @@ export default function Page() {
           <span className="ae-section-label">The Cost</span>
           <h2>The Cost of Doing Nothing</h2>
 
-          <p>Most local service businesses build a website once and then leave it untouched for years. The About Us page still references an award from 2019. The blog has not been updated since 2022. The service pages describe offerings that have evolved significantly. This is extremely common, and it is extremely costly.</p>
+          <p>Most local service businesses build a website once and then leave it untouched for years. The About Us page still references an award from 2019. The blog has not been updated since 2022. The service pages describe offerings that have evolved significantly. This is extremely common, and it is extremely costly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Warning</div>
-            <p>Pages not updated quarterly are 3x more likely to lose citations in AI-generated answers. Content without freshness signals can begin losing citation priority in as little as 14 days for fast-moving topics.</p>
+            <p>Pages not updated quarterly are 3x more likely to lose citations in AI-generated answers. Content without freshness signals can begin losing citation priority in as little as 14 days for fast-moving topics. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           {/* -- DECISION MATRIX -- */}
@@ -472,13 +472,13 @@ export default function Page() {
             </table>
           </div>
 
-          <p>The impact compounds over time. As AI search grows (with AI Overviews reducing organic click-through rates by up to 61% for queries where they appear), the businesses that get cited in AI answers capture a larger share of remaining clicks. Brands cited in AI Overviews earn 35% more organic clicks and 91% more paid clicks compared to those that are not cited.</p>
+          <p>The impact compounds over time. As AI search grows (with AI Overviews reducing organic click-through rates by up to 61% for queries where they appear), the businesses that get cited in AI answers capture a larger share of remaining clicks. Brands cited in AI Overviews earn 35% more organic clicks and 91% more paid clicks compared to those that are not cited. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
-          <p>If your competitors are updating their content regularly and you are not, the gap in AI visibility will widen every month. For more on how this shift is reshaping search, read our analysis of <Link href="/blog/google-ai-overviews-replacing-search">how Google AI Overviews are replacing traditional search</Link>.</p>
+          <p>If your competitors are updating their content regularly and you are not, the gap in AI visibility will widen every month. For more on how this shift is reshaping search, read our analysis of <Link href="/blog/google-ai-overviews-replacing-search">how Google AI Overviews are replacing traditional search</Link>. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
           {/* -- CTA 5 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>How long has it been since your website was updated? See how AI platforms score your freshness.</p>
+            <p>How long has it been since your website was updated? See how AI platforms score your freshness. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             <Link href="/blindspot">Check Your Freshness Score</Link>
           </div>
 
@@ -486,7 +486,7 @@ export default function Page() {
           <span className="ae-section-label">Action Plan</span>
           <h2>A Practical Content Freshness Calendar</h2>
 
-          <p>You do not need to become a full-time content creator. You need a system. Here is a realistic freshness schedule that any local service business can follow, even with limited time.</p>
+          <p>You do not need to become a full-time content creator. You need a system. Here is a realistic freshness schedule that any local service business can follow, even with limited time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-cheat-sheet not-prose">
             <div className="ae-cheat-sheet-title">Content Freshness Calendar</div>
@@ -528,18 +528,18 @@ export default function Page() {
             </table>
           </div>
 
-          <p>The weekly updates are the most important for AI freshness signals. Even small, genuine changes tell AI crawlers that the page is actively maintained. Use the exact language your customers use when they call or email you. This aligns your content with the natural language queries that AI platforms process.</p>
+          <p>The weekly updates are the most important for AI freshness signals. Even small, genuine changes tell AI crawlers that the page is actively maintained. Use the exact language your customers use when they call or email you. This aligns your content with the natural language queries that AI platforms process. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>For a deeper look at structuring your content for AI discoverability, see our guide on <Link href="/blog/what-content-does-chatgpt-read-on-my-website">what content ChatGPT actually reads on your website</Link>.</p>
+          <p>For a deeper look at structuring your content for AI discoverability, see our guide on <Link href="/blog/what-content-does-chatgpt-read-on-my-website">what content ChatGPT actually reads on your website</Link>. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">Opportunity</div>
-            <p>Most of your competitors are not doing any of this. A consistent weekly update habit puts you ahead of 90% of businesses in your market within 90 days.</p>
+            <p>Most of your competitors are not doing any of this. A consistent weekly update habit puts you ahead of 90% of businesses in your market within 90 days. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
 
           {/* -- CTA 6 -- */}
           <div className="ae-cta-inline not-prose">
-            <p>Need help identifying which pages to update first? Our report prioritizes your opportunities.</p>
+            <p>Need help identifying which pages to update first? Our report prioritizes your opportunities. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             <Link href="/blindspot">Get Your Prioritized Action Plan</Link>
           </div>
 
@@ -547,7 +547,7 @@ export default function Page() {
           <span className="ae-section-label">The Full Picture</span>
           <h2>Freshness Alone Is Not Enough</h2>
 
-          <p>Content freshness is a powerful signal, but it works best when combined with other factors that AI platforms evaluate. A recently updated page with thin, generic content will still underperform compared to a well-structured, authoritative page that has been updated with genuine expertise.</p>
+          <p>Content freshness is a powerful signal, but it works best when combined with other factors that AI platforms evaluate. A recently updated page with thin, generic content will still underperform compared to a well-structured, authoritative page that has been updated with genuine expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
           {/* -- COMPARISON TABLE: FRESH THIN VS FRESH DEEP -- */}
           <table className="ae-comparison-table not-prose">
@@ -582,9 +582,9 @@ export default function Page() {
             </tbody>
           </table>
 
-          <p>The businesses that win in AI search combine freshness with depth. They do not just update dates. They add real knowledge. They answer the specific questions their customers ask. They demonstrate that they are active, knowledgeable, and current in their field.</p>
+          <p>The businesses that win in AI search combine freshness with depth. They do not just update dates. They add real knowledge. They answer the specific questions their customers ask. They demonstrate that they are active, knowledgeable, and current in their field. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
-          <p>Building a content structure that supports both freshness and authority is the ultimate competitive advantage. To learn how to structure your content for maximum AI impact, explore our guide on <Link href="/blog/hub-spoke-content-strategy-ai-citations">how to write blog content that gets cited by AI</Link>.</p>
+          <p>Building a content structure that supports both freshness and authority is the ultimate competitive advantage. To learn how to structure your content for maximum AI impact, explore our guide on <Link href="/blog/hub-spoke-content-strategy-ai-citations">how to write blog content that gets cited by AI</Link>. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
           <div className="ae-quote not-prose">
             <p>The best AI visibility strategy is simple: be the most helpful, most current, most authoritative source on the topics your customers care about. Everything else follows.</p>

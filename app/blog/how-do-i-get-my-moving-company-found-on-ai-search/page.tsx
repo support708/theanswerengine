@@ -205,7 +205,7 @@ export default function Page() {
             Not showing up when people ask AI for a mover?{' '}
             <Link href="/blindspot">Get your free AI Blind Spot Report</Link> to see exactly
             where your moving company is invisible to ChatGPT, Gemini, and Perplexity.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         {/* Stats Grid */}
@@ -262,7 +262,7 @@ export default function Page() {
             recommendation, the AI is not browsing listings or running a real-time comparison.
             It is assembling a recommendation from the signals it has already indexed about your
             business. If those signals are thin, inconsistent, or contradictory, the AI skips you.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The moving industry has three structural weaknesses that make this problem worse than
             in other home service categories. First, movers often operate across multiple cities or
@@ -271,7 +271,7 @@ export default function Page() {
             on review platforms, which means a small number of negative reviews can depress an
             otherwise strong rating quickly. Third, many moving company websites are built around
             quote-request forms rather than content that AI platforms can read and cite.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">What AI Actually Sees When Someone Asks for a Mover</div>
@@ -282,7 +282,7 @@ export default function Page() {
               it is most confident recommending. Confidence comes from signal volume and
               consistency, not from ad spend or website age. The moving company with the most
               coherent, corroborated online presence wins the name.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5">
@@ -290,7 +290,7 @@ export default function Page() {
             moving company that fixes its AI visibility first in a given market captures the AI
             recommendation slot before competitors understand the opportunity exists. That window
             is open right now.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
         </section>
 
         {/* Section 2: How AI Evaluates */}
@@ -303,13 +303,13 @@ export default function Page() {
             by looking for a pattern of consistent, trustworthy signals across multiple independent
             sources. The more sources confirm the same story about your business, the more confident
             the AI is that recommending you is a safe bet.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             For moving companies specifically, the credibility signals that matter most are organized
             into four layers: your verified business identity, your review reputation, your content
             footprint, and your directory presence. A gap in any layer creates uncertainty that
             pushes the AI toward a competitor with a more complete signal picture.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           {/* Comparison Table */}
           <div className="overflow-x-auto my-8">
@@ -371,7 +371,7 @@ export default function Page() {
             same way a careful consumer would evaluate them before hiring. It looks for verification,
             reputation, transparency about services, and proof that other people have had good
             experiences. The tactics below address each of these signal layers directly.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
         </section>
 
         {/* Section 3: Tactic 1 */}
@@ -384,13 +384,13 @@ export default function Page() {
             reads Google Business Profile data directly. A well-optimized GBP does not just help
             you in Gemini. GBP data flows into Google AI Overviews, and Bing (which ChatGPT uses)
             picks up GBP information through data partnerships. One investment, multiple AI platforms.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-5">
             For moving companies, the most commonly missed GBP fields are service descriptions and
             service areas. Most movers fill out the basics (name, phone, address) and stop. The moving
             companies that consistently appear in AI recommendations go further and treat every
             available GBP field as a data point for the AI to read.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-timeline mt-6 mb-10">
             <div className="ae-timeline-item">
@@ -442,7 +442,7 @@ export default function Page() {
               Want to see how your GBP compares to the movers AI is recommending in your market?{' '}
               <Link href="/blindspot">Get your free Blind Spot Report</Link> for a full GBP
               and AI visibility analysis.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
         </section>
 
@@ -458,7 +458,7 @@ export default function Page() {
             with 120 reviews averaging 4.7 stars that mention "arrived on time," "handled our
             furniture carefully," and "nothing was damaged" has a review corpus that AI can quote
             with confidence. That confidence translates directly into a recommendation.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The key metrics for moving company AI eligibility are not just overall star rating.
             They are review recency and review language specificity. A company with 60 total reviews
@@ -466,7 +466,7 @@ export default function Page() {
             whose reviews specifically mention services performed (packing, piano moving, storage)
             and locations served gives AI a richer source to draw from when matching your profile
             to a specific user query.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -499,7 +499,7 @@ export default function Page() {
             friction. The timing catches the customer while satisfaction is highest. This single
             habit, done consistently, compounds into the review velocity that AI platforms treat
             as proof of an actively operating, trusted business.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* Inline CTA 3 */}
           <div className="ae-cta-inline mt-6">
@@ -507,7 +507,7 @@ export default function Page() {
               Curious how your review profile stacks up against the movers AI recommends in your city?{' '}
               <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out exactly
               what is holding you back.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
         </section>
 
@@ -521,14 +521,14 @@ export default function Page() {
             source. These platforms do not have the same access to GBP that Gemini does. They
             read your website and decide, based on the content they find, whether your moving
             company is the right match for a specific user query.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The structural problem with most moving company websites is that they are built for
             lead capture, not for AI readability. A homepage with a quote form, a single "Services"
             page that lists five service names without descriptions, and a contact page is not a
             website that AI can confidently cite. It is a website that AI skips in favor of a
             competitor with richer content.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">The Service Page Standard for Moving Company AI Visibility</div>
@@ -540,7 +540,7 @@ export default function Page() {
               you serve for that service, and what your licensing and insurance covers. AI platforms
               cite specific service pages when matching a mover to a specific query. A generic
               "Services" page produces generic, low-confidence recommendations at best.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-5 mb-5">
@@ -551,7 +551,7 @@ export default function Page() {
             A moving company FAQ page that addresses pricing ranges, what to expect on move day,
             how to handle fragile items, and what is included in a full-service move gives AI
             specific, citable content to draw from when answering those queries.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p className="text-gray-300 leading-relaxed">
             For a deeper guide on building the content that AI platforms actively cite, read our
@@ -563,7 +563,7 @@ export default function Page() {
               how to write a service page that AI platforms actually cite
             </Link>
             .
-          </p>
+           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </section>
 
         {/* Section 6: Tactic 4 */}
@@ -578,7 +578,7 @@ export default function Page() {
             HomeAdvisor, and the Better Business Bureau. A moving company that appears in multiple
             independent directories with consistent information sends a strong corroboration signal.
             One that appears only on Google sends a thinner signal that AI weights less confidently.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <p className="text-gray-300 leading-relaxed mb-5">
             The word "consistent" in the previous paragraph is doing real work. NAP consistency,
             meaning your company name, address, and phone number appear identically across every
@@ -586,7 +586,7 @@ export default function Page() {
             on Google, "ABC Moving" on Yelp, and "A.B.C. Moving and Storage" on Angi introduces
             uncertainty. AI platforms resolve that uncertainty by reducing confidence in the
             recommendation, or by choosing a competitor with cleaner data.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
           {/* Dollar Compare: Platform priority */}
           <div className="ae-dollar-compare my-8">
@@ -618,7 +618,7 @@ export default function Page() {
             each one. Correct any discrepancy. Then claim any unclaimed profiles you find, because
             unclaimed profiles often have outdated or incorrect information that was auto-populated
             from public records.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <p className="text-gray-300 leading-relaxed">
             For more on which directories matter most across AI platforms, read our guide on{' '}
@@ -629,7 +629,7 @@ export default function Page() {
               directory listings that help AI find your business
             </Link>
             .
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </section>
 
         {/* Cheat Sheet */}
@@ -679,7 +679,7 @@ export default function Page() {
             names in that moment does not win a click to a website. They win a call. Build the four
             signal layers, close the gaps your competitors have not noticed yet, and you win that
             customer before the AI conversation is even over.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
         </div>
 
         {/* CTA Block */}
@@ -691,7 +691,7 @@ export default function Page() {
             Our free Blind Spot Report analyzes your moving company across ChatGPT, Gemini, and
             Perplexity, identifies the exact gaps blocking your recommendations, and gives you a
             clear action plan to start getting named.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -728,7 +728,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
           </div>
@@ -750,7 +750,7 @@ export default function Page() {
                 its Bing integration to pull information from moving company websites, Yelp, and
                 local directories. Moving companies with complete web presence, consistent directory
                 listings, and recent positive reviews are most likely to be recommended.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             <div className="border border-gray-800 rounded-xl p-6">
@@ -762,7 +762,7 @@ export default function Page() {
                 Google Gemini reads GBP data directly. Beyond that, consistent NAP across all
                 directories, an active review strategy, and a website with clear service and area
                 descriptions are the core signals AI platforms use to evaluate movers.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
 
             <div className="border border-gray-800 rounded-xl p-6">
@@ -774,7 +774,7 @@ export default function Page() {
                 of completing core optimization: a verified GBP, consistent directory listings, and
                 an active review system. Consistent positioning across ChatGPT, Gemini, and
                 Perplexity typically develops within 60 to 90 days.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             <div className="border border-gray-800 rounded-xl p-6">

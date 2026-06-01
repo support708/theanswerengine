@@ -346,7 +346,7 @@ export default function Page() {
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
               You know your business needs to show up when people ask ChatGPT, Perplexity, or Google AI for a recommendation. The question is whether you should tackle this yourself or bring in someone who does it for a living. This is not a theoretical debate. It is a budget decision with real numbers, real time commitments, and real consequences for your bottom line.{' '}
               <strong className="text-white">The right answer depends on your situation, and the wrong answer costs more than most business owners realize.</strong>
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             {/* Callout: The Stakes */}
             <div className="not-prose">
@@ -354,14 +354,14 @@ export default function Page() {
                 <div className="ae-callout-title">The Stakes Are Higher Than You Think</div>
                 <p>
                   Only 1.2% of local businesses currently get recommended by ChatGPT. Meanwhile, 45% of consumers are already using AI to find local services. The window to establish AI authority is open now, but it will not stay open forever. Every month you spend learning instead of executing is a month your competitors use to build authority that compounds.
-                </p>
+                 Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 1 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Before you decide between DIY or hiring an expert, see where you stand today.</p>
+                <p>Before you decide between DIY or hiring an expert, see where you stand today. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
                 <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
               </div>
             </div>
@@ -373,24 +373,24 @@ export default function Page() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Most business owners frame this decision as &quot;spend money or save money.&quot; That framing is wrong. The actual question is: what is your time worth, and how fast do you need results? A dentist billing $400 per hour who spends 100 hours on DIY AI optimization has not saved money. That dentist has spent $40,000 worth of billable time to avoid a $10,000 consulting fee.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The DIY approach is not free. It costs time, attention, and opportunity. The expert approach is not wasteful. It buys speed, precision, and the benefit of someone who has already made the mistakes you are about to make. The question is which currency you have more of: time or money.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             {/* Quote */}
             <div className="not-prose">
               <div className="ae-quote">
                 <p>
                   &quot;The cheapest option is not always the one with the lowest price tag. It is the one that gets you to revenue fastest with the fewest costly mistakes along the way.&quot;
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               </div>
             </div>
 
             {/* CTA Inline 2 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to know what a professional AI visibility strategy would look like for your business?</p>
+                <p>Want to know what a professional AI visibility strategy would look like for your business? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
                 <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation &#8594;</a>
               </div>
             </div>
@@ -402,13 +402,13 @@ export default function Page() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Let us be honest about what DIY AI optimization involves. It is not just updating your Google Business Profile and writing a few blog posts. The businesses that successfully optimize for AI citations on their own go through a steep learning curve that touches structured data, entity architecture, content strategy, citation source management, and ongoing monitoring.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The typical DIY journey starts with research. You spend weeks reading about how AI platforms like ChatGPT, Perplexity, and Google AI Overviews select which businesses to recommend. You learn about entity recognition, structured data markup, and the difference between what makes Google rank a page versus what makes an AI cite a source. This research phase alone consumes 20 to 40 hours before you implement a single change.
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Then comes implementation. You update your website structure, rewrite content to answer the questions AI platforms prioritize, add schema markup, build out your presence across the citation sources that AI models actually reference, and start monitoring whether any of it is working. Most business owners underestimate this phase by a factor of three. What feels like a weekend project turns into a months-long effort that competes with running your actual business.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Bar Chart: DIY Time Breakdown */}
             <div className="not-prose">
@@ -446,12 +446,12 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               The biggest challenge is not any single task. It is knowing which tasks actually move the needle. Without experience across dozens of AI optimization campaigns, you are guessing at priorities. You might spend 30 hours perfecting your schema markup when the real bottleneck is that AI platforms cannot find authoritative third-party mentions of your business anywhere online.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* CTA Inline 3 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Not sure which AI optimization tasks will have the biggest impact on your business?</p>
+                <p>Not sure which AI optimization tasks will have the biggest impact on your business? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
                 <Link href="/blindspot">Get a Free Analysis of Your Blind Spots &#8594;</Link>
               </div>
             </div>
@@ -463,17 +463,17 @@ export default function Page() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               When you hire an AI optimization consultant or agency, you are not paying for hours of labor. You are paying for pattern recognition that only comes from running dozens or hundreds of campaigns. An experienced consultant walks into your situation and immediately identifies the three or four things that will generate the most AI visibility in the shortest time. That prioritization alone can save months of wasted effort.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The cost spectrum is wide. Agency retainers for AI optimization typically run $5,000 to $15,000 per month. A dedicated full-time AI specialist costs $70,000 to $100,000 per year. Consulting engagements for specific projects or setup work might run $10,000 to $15,000 as a one-time investment. The right option depends on the complexity of your business and how much ongoing management the strategy requires.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               What separates a good consultant from a mediocre one is not the deliverable list. It is the diagnostic ability. Before{' '}
               <Link href="/blog/what-to-ask-before-hiring-ai-marketing-agency" className="text-orange-400 hover:text-orange-300 underline">
                 hiring any AI marketing agency
               </Link>
               , you should ask about their specific process for auditing AI visibility, the tools they use, and whether they can show you concrete before-and-after results from businesses similar to yours. A good consultant delivers $50,000 or more in annual time savings and revenue gains for a $10,000 to $15,000 investment. That math works.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Callout: What Good Consultants Do Differently */}
             <div className="not-prose">
@@ -481,7 +481,7 @@ export default function Page() {
                 <div className="ae-callout-title">What Good Consultants Know That You Do Not</div>
                 <p>
                   Experienced AI optimization consultants have tested hundreds of variables across dozens of clients. They know which citation sources carry the most weight with each AI platform. They know how to structure content so that AI models extract the right entity attributes. They know the timing patterns for when AI models refresh their knowledge. This pattern recognition is what you are buying, and it is nearly impossible to replicate through self-study alone.
-                </p>
+                 <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
             </div>
 
@@ -492,7 +492,7 @@ export default function Page() {
                   <Link href="/blog/seo-agency-vs-ai-optimization-which-one" className="text-orange-400 hover:text-orange-300 underline">
                     SEO agency or AI optimization agency
                   </Link>{' '}
-                  is right for your business?</p>
+                  is right for your business? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
                 <Link href="/blindspot">Start With Your Free AI Report &#8594;</Link>
               </div>
             </div>
@@ -504,7 +504,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Numbers do not lie. Here is what each path actually costs when you factor in time, tools, and opportunity cost. Most DIY calculations undercount the time commitment by 50% or more, and most agency comparisons ignore the speed advantage that translates directly into revenue.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Comparison Table */}
             <div className="not-prose">
@@ -597,12 +597,12 @@ export default function Page() {
                       style={{ color: item.color }}
                     >
                       {item.channel}
-                    </p>
+                     Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                     <div className="space-y-2 text-sm">
-                      <p className="text-gray-300"><strong className="text-white">Monthly cost:</strong> {item.monthly}</p>
-                      <p className="text-gray-300"><strong className="text-white">Lead timeline:</strong> {item.leads}</p>
-                      <p className="text-gray-300"><strong className="text-white">Cost per lead:</strong> {item.costPerLead}</p>
-                      <p className="text-gray-500 text-xs mt-3 italic">{item.note}</p>
+                      <p className="text-gray-300"><strong className="text-white">Monthly cost:</strong> {item.monthly} Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+                      <p className="text-gray-300"><strong className="text-white">Lead timeline:</strong> {item.leads} We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+                      <p className="text-gray-300"><strong className="text-white">Cost per lead:</strong> {item.costPerLead} Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+                      <p className="text-gray-500 text-xs mt-3 italic">{item.note} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
                     </div>
                   </div>
                 ))}
@@ -612,7 +612,7 @@ export default function Page() {
             {/* CTA Inline 5 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Want to calculate the exact ROI of AI optimization for your specific business?</p>
+                <p>Want to calculate the exact ROI of AI optimization for your specific business? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
                 <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a custom analysis &#8594;</a>
               </div>
             </div>
@@ -624,10 +624,10 @@ export default function Page() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Speed is the most undervalued factor in this decision. AI authority compounds. A business that starts getting cited by AI platforms in week six builds authority faster than one that starts in month four. Each citation reinforces the next. AI models learn from their own outputs, which means businesses that get recommended early are more likely to keep getting recommended as models update.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <p className="text-gray-300 leading-relaxed mb-4">
               The DIY timeline is honest but slow: 3 to 6 months before you see measurable improvements. That assumes you are spending 10 to 20 hours per week on implementation and you do not make significant missteps along the way. The expert timeline is faster because the diagnostic phase is immediate. An experienced consultant identifies your gaps in the first meeting and begins execution the same week.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* Timeline */}
             <div className="not-prose">
@@ -665,12 +665,12 @@ export default function Page() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               That 2 to 4 month speed advantage is not just about bragging rights. It translates directly into revenue. If AI-referred leads are worth $500 each and an expert gets you 10 leads per month starting in month two versus month five, that is $15,000 in revenue you would have missed with the DIY approach. Suddenly, the consulting fee does not look like an expense. It looks like the cheapest revenue you have ever bought.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             {/* CTA Inline 6 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Every month without AI visibility is revenue going to your competitors.</p>
+                <p>Every month without AI visibility is revenue going to your competitors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 <Link href="/blindspot">See What You Are Missing Today &#8594;</Link>
               </div>
             </div>
@@ -682,7 +682,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Neither path is universally right. The DIY approach has genuine advantages for certain business owners, and the expert approach has limitations worth understanding. Here is an honest assessment of both.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
             {/* Pros/Cons: DIY */}
             <div className="not-prose">
@@ -743,7 +743,7 @@ export default function Page() {
             {/* CTA Inline 7 */}
             <div className="not-prose">
               <div className="ae-cta-inline">
-                <p>Concerned about hiring the wrong AI agency? Read this first.</p>
+                <p>Concerned about hiring the wrong AI agency? Read this first. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 <Link href="/blog/what-to-ask-before-hiring-ai-marketing-agency">What to Ask Before Hiring an AI Marketing Agency &#8594;</Link>
               </div>
             </div>

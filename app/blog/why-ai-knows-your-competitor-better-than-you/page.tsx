@@ -218,23 +218,23 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The AI Knowledge Gap, Explained</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Every business that shows up in AI recommendations has passed an invisible threshold. On one side of that threshold, AI has enough information to say your business name with confidence. On the other side, it hedges, omits, or names someone else.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Your competitor is on the confident side of that threshold. You are not. That is the entire story. It has nothing to do with who is actually better at what they do, who has been in business longer, or who charges less. It is purely about information: how much AI knows, where it learned it, and how consistently all the sources agree.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The good news is this is not a locked-in status. The gap can be closed. But first you have to understand what created it.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">Why This Matters Right Now</div>
-            <p>Consumers are asking AI to find businesses at a rate that has increased 7x in the past year. Every time a potential customer asks "who is the best [your service] near me?" and AI answers with your competitor's name, you have lost a lead you will never know you lost.</p>
+            <p>Consumers are asking AI to find businesses at a rate that has increased 7x in the past year. Every time a potential customer asks "who is the best [your service] near me?" and AI answers with your competitor's name, you have lost a lead you will never know you lost. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           </div>
         </section>
 
         {/* Inline CTA 1 */}
         <div className="ae-cta-inline">
-          <p>Find out what AI knows about your business right now. <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where the gaps are.</p>
+          <p>Find out what AI knows about your business right now. <Link href="/blindspot">Get your free Blind Spot Report</Link> and see exactly where the gaps are. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
         </div>
 
         {/* Section 2 */}
@@ -242,7 +242,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What AI Knows About Your Competitor</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             When AI recommends your competitor, it is drawing on a web of information built across multiple sources over time. This is not a single database or algorithm. It is a composite picture assembled from everything that exists about your competitor on the public internet.
-          </p>
+           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -284,7 +284,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             Your competitor probably did not build all of this intentionally. Most businesses that have strong AI visibility built it through consistent marketing habits over time. But now that AI is the primary discovery channel for millions of consumers, having accidentally built this advantage means they collect the leads while you wonder what happened.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </section>
 
         {/* Section 3 */}
@@ -292,7 +292,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Why You Lose the Confidence Contest</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             AI is running an internal confidence check every time it generates a recommendation. It is not a ranking. It is a threshold. Either AI has enough corroborating information to confidently name your business, or it does not. Here is what pushes businesses below that threshold.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-decision-matrix">
             <div className="ae-decision-row">
@@ -324,13 +324,13 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info mt-8">
             <div className="ae-callout-title">The Information Gap vs. The Quality Gap</div>
-            <p>The most common mistake is assuming your competitor has a better business. Usually, they just have a better-documented business. AI cannot evaluate the quality of your actual service. It can only evaluate the quality and depth of the information that exists about you. That is the gap worth fixing.</p>
+            <p>The most common mistake is assuming your competitor has a better business. Usually, they just have a better-documented business. AI cannot evaluate the quality of your actual service. It can only evaluate the quality and depth of the information that exists about you. That is the gap worth fixing. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
         </section>
 
         {/* Inline CTA 2 */}
         <div className="ae-cta-inline">
-          <p>Wondering what information gaps are costing you AI citations? <Link href="/blindspot">Get a free Blind Spot Report</Link> or call <a href="tel:+12134442229">(213) 444-2229</a>.</p>
+          <p>Wondering what information gaps are costing you AI citations? <Link href="/blindspot">Get a free Blind Spot Report</Link> or call <a href="tel:+12134442229">(213) 444-2229</a>. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
         </div>
 
         {/* Section 4 */}
@@ -338,7 +338,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Anatomy of an AI Knowledge Advantage</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Let us make this concrete. What does the typical gap look like between a business that shows up in AI and one that does not?
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
           <table className="ae-comparison-table">
             <thead>
@@ -384,7 +384,7 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6">
             The pattern is consistent: the businesses getting AI citations have built information depth. Not necessarily better marketing, not necessarily more money spent, just more complete and consistent documentation of who they are and what they do.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
         </section>
 
         {/* Section 5 */}
@@ -392,7 +392,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">How to Close the Gap</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Closing the AI knowledge gap requires building information depth across the same dimensions where your competitor has it. There is no shortcut, but there is a clear sequence.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -421,14 +421,14 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-orange mt-8">
             <div className="ae-callout-title">The Compounding Advantage</div>
-            <p>Every piece of consistent information you add creates a stronger corroboration network for AI. The businesses that close the gap fastest treat AI visibility as a systematic build, not a one-time fix. Each new directory listing, each new service page, each new press mention adds to a pile that eventually crosses the confidence threshold.</p>
+            <p>Every piece of consistent information you add creates a stronger corroboration network for AI. The businesses that close the gap fastest treat AI visibility as a systematic build, not a one-time fix. Each new directory listing, each new service page, each new press mention adds to a pile that eventually crosses the confidence threshold. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
         {/* CTA Block */}
         <div className="ae-cta-block">
           <h3>Find Out Exactly What AI Knows About You vs Your Competitor</h3>
-          <p>Our Blind Spot Report gives you a clear picture of your AI visibility gaps and what it would take to close them. See where your competitor has the advantage and how to take it back.</p>
+          <p>Our Blind Spot Report gives you a clear picture of your AI visibility gaps and what it would take to close them. See where your competitor has the advantage and how to take it back. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           <Link href="/blindspot" className="ae-cta-primary">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -440,7 +440,7 @@ export default function Page() {
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What to Expect and When</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Closing the AI knowledge gap is not instantaneous. But it is faster than most traditional SEO campaigns because you are not waiting for link equity to build, you are adding corroborating signals that AI can pick up relatively quickly.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           <div className="ae-timeline">
             <div className="ae-timeline-item">
@@ -481,20 +481,20 @@ export default function Page() {
           </div>
 
           <div className="ae-quote mt-8">
-            <p>"Your competitor did not win the AI advantage overnight. But you can close it faster than it took them to build it, because now we know exactly what to build."</p>
+            <p>"Your competitor did not win the AI advantage overnight. But you can close it faster than it took them to build it, because now we know exactly what to build." Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <cite>Justin Borges</cite>
           </div>
         </section>
 
         {/* Inline CTA 3 */}
         <div className="ae-cta-inline">
-          <p>Ready to start closing the gap? <a href="mailto:support@theanswerengine.ai">Email us</a> or <Link href="/blindspot">get your free Blind Spot Report</Link> today.</p>
+          <p>Ready to start closing the gap? <a href="mailto:support@theanswerengine.ai">Email us</a> or <Link href="/blindspot">get your free Blind Spot Report</Link> today. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         </div>
 
         {/* Key takeaways */}
         <div className="ae-takeaway mt-12">
           <div className="ae-takeaway-title">Key Takeaways</div>
-          <p>Your competitor shows up in AI because AI has more information about them, not because they are a better business. The AI knowledge advantage comes from information depth: consistent NAP data across directories, detailed service page content, third-party coverage, and structured data on the website. All of this is buildable. The businesses that close the gap fastest treat AI visibility as a systematic information build rather than a ranking game.</p>
+          <p>Your competitor shows up in AI because AI has more information about them, not because they are a better business. The AI knowledge advantage comes from information depth: consistent NAP data across directories, detailed service page content, third-party coverage, and structured data on the website. All of this is buildable. The businesses that close the gap fastest treat AI visibility as a systematic information build rather than a ranking game. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
         </div>
 
         {/* Cheat Sheet */}
@@ -535,12 +535,12 @@ export default function Page() {
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
             <Link href="/blog/why-ai-recommends-my-competitor-over-me" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points</p>
-              <p className="text-white font-medium">Why AI Recommends My Competitor Over Me</p>
+              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+              <p className="text-white font-medium">Why AI Recommends My Competitor Over Me <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </Link>
             <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">AEO Education</p>
-              <p className="text-white font-medium">What Your Website Looks Like to an AI Crawler</p>
+              <p className="text-sm text-[#F27D24] mb-1">AEO Education Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+              <p className="text-white font-medium">What Your Website Looks Like to an AI Crawler Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             </Link>
           </div>
         </section>
@@ -548,7 +548,7 @@ export default function Page() {
         {/* 3-Tier CTA Block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">See Exactly Why Your Competitor Is Winning</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report breaks down your AI visibility gaps by category, so you know precisely which signals to build first to close the gap on competitors who are taking your leads right now.</p>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report breaks down your AI visibility gaps by category, so you know precisely which signals to build first to close the gap on competitors who are taking your leads right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -576,7 +576,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
           </div>
@@ -617,7 +617,7 @@ export default function Page() {
             ].map((item, i) => (
               <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-                <p className="text-gray-300 leading-relaxed">{item.a}</p>
+                <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             ))}
           </div>
@@ -626,12 +626,12 @@ export default function Page() {
         {/* Final CTA */}
         <div className="ae-final-cta mt-16">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Your Competitor Has an AI Advantage. It Is Time to Take It Back.</h2>
-          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">The AI knowledge gap is real, specific, and measurable. Our Blind Spot Report shows you exactly where you are losing the confidence contest and how to build the information depth that gets AI recommending you instead.</p>
+          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">The AI knowledge gap is real, specific, and measurable. Our Blind Spot Report shows you exactly where you are losing the confidence contest and how to build the information depth that gets AI recommending you instead. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link href="/blindspot" className="ae-cta-primary text-lg px-8 py-4">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <p className="text-gray-500 text-sm mt-4">Free analysis. No credit card. See your gaps in minutes.</p>
+          <p className="text-gray-500 text-sm mt-4">Free analysis. No credit card. See your gaps in minutes. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

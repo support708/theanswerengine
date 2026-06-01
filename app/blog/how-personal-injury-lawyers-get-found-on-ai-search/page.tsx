@@ -304,7 +304,7 @@ export default function Page() {
               Get a free legal AI visibility audit
             </Link>{' '}
             — we will show you where you appear and where you are invisible.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         <h2 id="why-pi-is-unique">Why Personal Injury Law Is Uniquely Competitive in AI Search</h2>
@@ -314,7 +314,7 @@ export default function Page() {
           means PI firms have spent decades engineering visibility in traditional search. But AI
           search plays by different rules, and the PI firms winning on Google Ads are often
           invisible on ChatGPT.
-        </p>
+         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
         <p>
           Three factors make PI uniquely hard to crack in AI search. First, these are high-stakes,
           low-trust queries. Someone who just got hurt in a car accident does not want a list of
@@ -325,11 +325,11 @@ export default function Page() {
           firm with city-agnostic content will get cited in neither. Third, PI covers a wide range
           of case types — car accidents, slip and fall, medical malpractice, workers compensation —
           each of which generates its own query pattern and requires its own content footprint.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
         <p>
           The result: most PI firms have strong traditional SEO footprints and effectively zero AI
           citation presence. That gap is the opportunity.
-        </p>
+         Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">The AI Credibility Filter for Legal Queries</div>
@@ -338,7 +338,7 @@ export default function Page() {
             than to most other categories. This is not a disadvantage for PI firms — it is a
             moat. Firms that build the right evidence base will be cited consistently while
             low-quality competitors get filtered out entirely.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
         </div>
 
         <h2 id="what-ai-says">What AI Actually Says When Asked for a PI Lawyer</h2>
@@ -347,7 +347,7 @@ export default function Page() {
           Perplexity, the response does one of three things: it names specific firms with citations,
           it gives a generic framework for finding a lawyer without naming anyone, or it defers to
           directories like Avvo and Martindale. Most PI firms fall into the second or third bucket.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
         <p>
           The firms that get named by AI share a consistent profile. They have published content
           that directly answers the questions injury victims ask. They have documented their case
@@ -355,13 +355,13 @@ export default function Page() {
           legal directories, local news, community mentions — not just their own website. And they
           have structured data in place that tells AI crawlers exactly what type of law they
           practice, where they practice it, and what outcomes they have achieved.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
         <p>
           The absence of any one of these creates a gap. A firm with deep content but no
           third-party mentions will not get cited. A firm with strong reviews but no structured
           content will be recommended only when a user asks about a review platform directly. AI
           requires the full signal stack to deliver a confident recommendation.
-        </p>
+         Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
         <div className="ae-bar-group not-prose">
           <div
@@ -419,7 +419,7 @@ export default function Page() {
         </div>
         <p className="text-sm text-gray-500 mb-6">
           Based on AEO analysis across PI firm citation patterns in 15 US legal markets
-        </p>
+         Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2 id="four-content-types">The 4 Content Types That Get PI Firms Cited</h2>
         <p>
@@ -427,7 +427,7 @@ export default function Page() {
           formats consistently appear in the evidence base of firms that get recommended by AI
           platforms. These are not generic SEO content types — they reflect what injury victims
           actually ask and what AI systems need to make a confident recommendation.
-        </p>
+         Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -485,7 +485,7 @@ export default function Page() {
           specificity gives AI platforms citable claims. A result like &ldquo;$1.2M settlement for
           a rear-end collision resulting in L4-L5 herniation, resolved in 14 months&rdquo; can be
           cited in response to a dozen different queries.
-        </p>
+         One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
         <h3>FAQ and Legal Explainer Content</h3>
         <p>
@@ -495,7 +495,7 @@ export default function Page() {
           proper FAQPage schema — become citation sources for those exact queries. The key is
           answering in plain language without excessive hedging. AI platforms pass over answers that
           are too vague to be useful.
-        </p>
+         Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
         <h3>Local Jurisdiction Knowledge</h3>
         <p>
@@ -504,7 +504,7 @@ export default function Page() {
           and local settlement norms gives AI the signal it needs to make a city-level
           recommendation with confidence. A generic PI page that could apply to any city in the
           country will not be cited for any city specifically.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">What Makes Local Jurisdiction Content Citable</div>
@@ -526,7 +526,7 @@ export default function Page() {
           factor, and the resolution with a specific outcome. They are also the content type that
           generates the most trust signal from the human reader, which drives the review and
           referral activity that feeds further AI citations.
-        </p>
+         Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <h2 id="case-type-strategy">Why Each Case Type Needs Its Own Content Strategy</h2>
         <p>
@@ -534,7 +534,7 @@ export default function Page() {
           car accidents, slip and fall, medical malpractice, and workers compensation is making a
           fundamental AEO mistake. Each case type generates completely different queries, requires
           different expertise signals, and is evaluated by AI against a different evidence pool.
-        </p>
+         Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-pros-cons not-prose">
           <div className="ae-pros-box">
@@ -591,7 +591,7 @@ export default function Page() {
           serving three markets and handling four primary case types needs at minimum 12 spoke
           pages — and each one should be treated as a standalone answer to a specific query, not as
           a thin variation of the same content.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-cta-inline not-prose">
           <p>
@@ -600,7 +600,7 @@ export default function Page() {
               Book a strategy session
             </Link>{' '}
             — we map your case types, cities, and query targets before building anything.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </div>
 
         <h2 id="review-platforms">How Avvo, Martindale, and Google Feed AI Differently</h2>
@@ -608,7 +608,7 @@ export default function Page() {
           Most PI firms treat Avvo, Martindale, and Google as interchangeable review platforms.
           They are not. Each one feeds AI recommendations through a different mechanism, and
           optimizing all three the same way leaves significant citation surface unclaimed.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -658,7 +658,7 @@ export default function Page() {
           platforms multiple independent corroborating sources — which is the threshold that
           triggers confident recommendations rather than generic referrals to &ldquo;check
           directories.&rdquo;
-        </p>
+         Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <h2 id="entity-problem">The BERT Entity Problem: How AI Confuses Firms with Similar Names</h2>
         <p>
@@ -667,7 +667,7 @@ export default function Page() {
           for businesses. When two or more PI firms have similar names — or when a firm&apos;s
           name is a common phrase — AI systems can confuse them, attribute content and reviews
           incorrectly, or simply under-represent the firm due to entity ambiguity.
-        </p>
+         Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         <p>
           Common examples: &ldquo;Smith Law Firm&rdquo; in Houston and &ldquo;Smith Law&rdquo; in
           Dallas create entity overlap that reduces citation confidence for both. A firm named
@@ -675,7 +675,7 @@ export default function Page() {
           generic concept of accident attorneys. Firms whose names include only common nouns and
           no unique identifiers — personal names, city references, or distinctive modifiers — face
           the highest entity confusion risk.
-        </p>
+         We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">How to Fix the Entity Problem</div>
@@ -708,7 +708,7 @@ export default function Page() {
           The entity problem is solvable and the fix is durable. Once AI platforms build a clear,
           unambiguous entity profile for your firm, that clarity compounds — every new content
           asset and review reinforces the same entity rather than diluting it.
-        </p>
+         Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
         <h2 id="90-day-plan">90-Day Action Plan for PI Firms with Zero AI Visibility</h2>
         <p>
@@ -717,7 +717,7 @@ export default function Page() {
           AI platforms need to recommend a firm with confidence. Industry data suggests that PI
           firms in the top three AI citations receive approximately four times more inbound calls
           than those not cited at all.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -832,7 +832,7 @@ export default function Page() {
             where the highest bidder can leapfrog you overnight, AI citations compound. A firm
             that builds the right evidence base today creates a structural visibility advantage
             that competitors cannot buy their way past.
-          </p>
+           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         {/* Mid-article CTA */}
@@ -844,7 +844,7 @@ export default function Page() {
             The Answer Engine builds the content infrastructure that makes it happen. We map your
             case types and markets, build the content that gets cited, and implement the schema
             that tells AI exactly who you are and what you do.
-          </p>
+           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           <Link
             href="https://theanswerengine.ai"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -928,7 +928,7 @@ export default function Page() {
               $200M+ in production, and discovering that AI search rankings now decide who gets
               cited as the answer. He builds content that compounds citation surface across Google
               AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </div>
         </div>
 
@@ -946,7 +946,7 @@ export default function Page() {
               outcomes, and a strong third-party mention profile across Avvo, Google, and
               Martindale. Firms that rely solely on paid directories or traditional SEO are
               generally absent from AI-generated recommendations.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           </details>
 
           <details className="ae-faq-item">
@@ -957,7 +957,7 @@ export default function Page() {
               courts, and client outcome narratives with specific details. Add FAQPage and
               LegalService schema, and build review volume on Avvo, Google, and Martindale.
               Consistency over 90 days produces measurable AI citation improvement.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </details>
 
           <details className="ae-faq-item">
@@ -968,7 +968,7 @@ export default function Page() {
               referenced by AI platforms as third-party evidence of expertise. A high Avvo rating
               alone adds little. What matters is whether your Avvo profile contains detailed,
               specific content that AI can parse and cite.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </details>
 
           <details className="ae-faq-item">
@@ -979,7 +979,7 @@ export default function Page() {
               have strong domain authority and review volume can appear in 30 to 45 days. Building
               to consistent, recurring citations across multiple AI platforms typically takes 4 to 6
               months.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </details>
 
           <details className="ae-faq-item">

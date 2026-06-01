@@ -301,35 +301,35 @@ export default function CheckAIRecommendation() {
             <span className="ae-section-label">The Wake-Up Call</span>
             <h2>Someone Just Asked AI About Your Business. Were You the Answer?</h2>
 
-            <p>Right now, someone in your city is asking ChatGPT: &quot;Who&apos;s the best [your service] around here?&quot;</p>
+            <p>Right now, someone in your city is asking ChatGPT: &quot;Who&apos;s the best [your service] around here?&quot; Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-            <p>The question is: <strong>Are you the answer?</strong></p>
+            <p>The question is: <strong>Are you the answer?</strong> Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
-            <p>Most business owners have no idea whether AI platforms recommend them or their competitors. They are flying blind while potential customers get sent elsewhere. Every day they delay checking is another day of lost revenue flowing to competitors who already figured this out.</p>
+            <p>Most business owners have no idea whether AI platforms recommend them or their competitors. They are flying blind while potential customers get sent elsewhere. Every day they delay checking is another day of lost revenue flowing to competitors who already figured this out. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
-            <p>This 5-minute test will show you exactly where you stand and whether you are losing business to competitors who have already cracked <Link href="/blog/aeo-vs-seo">Answer Engine Optimization</Link>.</p>
+            <p>This 5-minute test will show you exactly where you stand and whether you are losing business to competitors who have already cracked <Link href="/blog/aeo-vs-seo">Answer Engine Optimization</Link>. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="ae-quote not-prose">
-              <p>You would not ignore a negative Google review for months. So why are you ignoring whether AI sends customers to your competitors?</p>
+              <p>You would not ignore a negative Google review for months. So why are you ignoring whether AI sends customers to your competitors? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Skip the DIY test. See exactly where AI ranks you vs. competitors right now.</p>
+              <p>Skip the DIY test. See exactly where AI ranks you vs. competitors right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
             {/* ── WHY THIS MATTERS: CALLOUT ── */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Why This Test Matters More Than Your Google Ranking</div>
-              <p>Google AI Overviews now appear on over 80% of informational searches. ChatGPT processes hundreds of millions of business-related queries per week. When AI skips your business, it is not just a missed impression. It is a direct referral to your competitor, complete with their name, phone number, and a glowing recommendation.</p>
+              <p>Google AI Overviews now appear on over 80% of informational searches. ChatGPT processes hundreds of millions of business-related queries per week. When AI skips your business, it is not just a missed impression. It is a direct referral to your competitor, complete with their name, phone number, and a glowing recommendation. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             {/* ── BAR CHART: WHERE CUSTOMERS FIND BUSINESSES ── */}
             <span className="ae-section-label">The Data</span>
             <h2>Where Customers Are Finding Businesses in 2025</h2>
 
-            <p>Search behavior has shifted dramatically. Here is where your potential customers are actually looking for service providers today.</p>
+            <p>Search behavior has shifted dramatically. Here is where your potential customers are actually looking for service providers today. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="ae-bar-group not-prose">
               <div className="ae-bar-item">
@@ -359,11 +359,11 @@ export default function CheckAIRecommendation() {
               </div>
             </div>
 
-            <p>The AI channel is growing faster than any other discovery method. Businesses that are invisible to AI today will be left behind within 12 months.</p>
+            <p>The AI channel is growing faster than any other discovery method. Businesses that are invisible to AI today will be left behind within 12 months. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want to know exactly how you score on every platform? We test all five for you.</p>
+              <p>Want to know exactly how you score on every platform? We test all five for you. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
             </div>
 
@@ -371,29 +371,29 @@ export default function CheckAIRecommendation() {
             <span className="ae-section-label">The 5-Minute Test</span>
             <h2>Step-by-Step: Check Your AI Visibility Right Now</h2>
 
-            <p>Grab your phone or laptop. This takes five minutes and costs nothing. You will have a clear picture of your AI visibility by the time you finish reading this section.</p>
+            <p>Grab your phone or laptop. This takes five minutes and costs nothing. You will have a clear picture of your AI visibility by the time you finish reading this section. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* ── TIMELINE: 5 STEPS ── */}
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Step 1: Open ChatGPT</strong>
-                <p>Go to chat.openai.com and start a new conversation. The free version works fine. Use an incognito/private browser window to avoid personalization affecting results.</p>
+                <p>Go to chat.openai.com and start a new conversation. The free version works fine. Use an incognito/private browser window to avoid personalization affecting results. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Ask for a Recommendation</strong>
-                <p>Type a question your ideal customer would ask using natural language. Try: &quot;Who is the best [your service] in [your city]?&quot; or &quot;Can you recommend a [your service] in [your area]?&quot; or &quot;I need a [your service] in [your city]. Who should I call?&quot;</p>
+                <p>Type a question your ideal customer would ask using natural language. Try: &quot;Who is the best [your service] in [your city]?&quot; or &quot;Can you recommend a [your service] in [your area]?&quot; or &quot;I need a [your service] in [your city]. Who should I call?&quot; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Analyze the Response</strong>
-                <p>Check if your business is mentioned by name. Note which competitors appear. Record your position (first, middle, last, or absent). Screenshot the results for comparison later.</p>
+                <p>Check if your business is mentioned by name. Note which competitors appear. Record your position (first, middle, last, or absent). Screenshot the results for comparison later. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Test Other Platforms</strong>
-                <p>Repeat the same question on Claude (claude.ai), Perplexity (perplexity.ai), Google (look for AI Overview at top), and Bing Copilot (bing.com).</p>
+                <p>Repeat the same question on Claude (claude.ai), Perplexity (perplexity.ai), Google (look for AI Overview at top), and Bing Copilot (bing.com). Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Score Your Results</strong>
-                <p>Count how many platforms mention you vs. competitors. If you appear on 0-1 platforms but competitors show up on 3-4, you have an urgent AI visibility gap costing you leads right now.</p>
+                <p>Count how many platforms mention you vs. competitors. If you appear on 0-1 platforms but competitors show up on 3-4, you have an urgent AI visibility gap costing you leads right now. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               </div>
             </div>
 
@@ -414,7 +414,7 @@ export default function CheckAIRecommendation() {
             <span className="ae-section-label">Your Scorecard</span>
             <h2>Track Your Results Across Every Platform</h2>
 
-            <p>Use this scorecard to record your results. Fill it in as you test each platform.</p>
+            <p>Use this scorecard to record your results. Fill it in as you test each platform. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <div className="ae-comparison-table not-prose">
               <table>
@@ -463,7 +463,7 @@ export default function CheckAIRecommendation() {
 
             {/* ── CTA 3 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Tired of checking manually? We monitor all five platforms and send you alerts when things change.</p>
+              <p>Tired of checking manually? We monitor all five platforms and send you alerts when things change. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -471,7 +471,7 @@ export default function CheckAIRecommendation() {
             <span className="ae-section-label">What It Means</span>
             <h2>How to Read Your AI Visibility Score</h2>
 
-            <p>Your results fall into one of three categories. Each one requires a different response.</p>
+            <p>Your results fall into one of three categories. Each one requires a different response. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── DECISION MATRIX ── */}
             <div className="ae-decision-matrix not-prose">
@@ -510,12 +510,12 @@ export default function CheckAIRecommendation() {
             {/* ── CALLOUT: RED FLAG ── */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Real Warning Sign</div>
-              <p>The most concerning result is not being mentioned on zero platforms. It is when <strong>competitors are mentioned but you are not</strong>. That means AI platforms have enough information about your market to make recommendations and they are actively choosing others over you.</p>
+              <p>The most concerning result is not being mentioned on zero platforms. It is when <strong>competitors are mentioned but you are not</strong>. That means AI platforms have enough information about your market to make recommendations and they are actively choosing others over you. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             {/* ── CTA 4 (tel) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Scored 0-1? Talk to someone who can fix it today.</p>
+              <p>Scored 0-1? Talk to someone who can fix it today. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -523,7 +523,7 @@ export default function CheckAIRecommendation() {
             <span className="ae-section-label">Root Causes</span>
             <h2>Why AI Might Not Be Recommending You</h2>
 
-            <p>If you are invisible to AI platforms, it is usually one (or more) of these issues. The good news: every single one is fixable.</p>
+            <p>If you are invisible to AI platforms, it is usually one (or more) of these issues. The good news: every single one is fixable. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             {/* ── STATS GRID: REASONS ── */}
             <div className="ae-stats-grid not-prose">
@@ -553,7 +553,7 @@ export default function CheckAIRecommendation() {
             <span className="ae-section-label">Your Options</span>
             <h2>DIY Fix vs. Professional AEO: What Actually Works</h2>
 
-            <p>You have two paths forward. Here is the honest breakdown of each approach.</p>
+            <p>You have two paths forward. Here is the honest breakdown of each approach. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <div className="ae-pros-cons not-prose">
               <div className="ae-pros-box">
@@ -580,7 +580,7 @@ export default function CheckAIRecommendation() {
 
             {/* ── CTA 5 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Want the professional path? We handle schema, content, and monitoring across all platforms.</p>
+              <p>Want the professional path? We handle schema, content, and monitoring across all platforms. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">See What We Find in Your Blind Spot Report &rarr;</Link>
             </div>
 
@@ -588,7 +588,7 @@ export default function CheckAIRecommendation() {
             <span className="ae-section-label">Platform Breakdown</span>
             <h2>How Each AI Platform Discovers and Recommends Businesses</h2>
 
-            <p>Not all AI platforms work the same way. Understanding how each one finds businesses helps you optimize for all of them.</p>
+            <p>Not all AI platforms work the same way. Understanding how each one finds businesses helps you optimize for all of them. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <div className="ae-comparison-table not-prose">
               <table>
@@ -635,11 +635,11 @@ export default function CheckAIRecommendation() {
               </table>
             </div>
 
-            <p>The takeaway: you need strong authority signals, proper schema, and fresh content to appear across all platforms. A strategy that only targets one platform leaves gaps everywhere else.</p>
+            <p>The takeaway: you need strong authority signals, proper schema, and fresh content to appear across all platforms. A strategy that only targets one platform leaves gaps everywhere else. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             {/* ── CTA 6 (email) ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which platforms to prioritize? Email us your scorecard and we will advise for free.</p>
+              <p>Not sure which platforms to prioritize? Email us your scorecard and we will advise for free. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email Your Scorecard to support@theanswerengine.ai &rarr;</a>
             </div>
 
@@ -650,19 +650,19 @@ export default function CheckAIRecommendation() {
             {/* ── CALLOUT: SUCCESS ── */}
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">If You Are Being Recommended (4-5 Platforms)</div>
-              <p>Document your current position with screenshots. Set up monthly monitoring to catch changes. Test additional query variations to find remaining gaps. Watch for competitors improving their AI presence. Your job is defense: protect what you have.</p>
+              <p>Document your current position with screenshots. Set up monthly monitoring to catch changes. Test additional query variations to find remaining gaps. Watch for competitors improving their AI presence. Your job is defense: protect what you have. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             {/* ── CALLOUT: INFO ── */}
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">If You Have Partial Visibility (2-3 Platforms)</div>
-              <p>Identify which platforms are missing you and investigate why. Audit your schema markup for errors. Create content that directly answers the questions you tested. Focus optimization on the platforms where competitors appear but you do not. Targeted fixes can close these gaps in 30-60 days.</p>
+              <p>Identify which platforms are missing you and investigate why. Audit your schema markup for errors. Create content that directly answers the questions you tested. Focus optimization on the platforms where competitors appear but you do not. Targeted fixes can close these gaps in 30-60 days. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
 
             {/* ── CALLOUT: WARNING ── */}
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">If You Are Invisible (0-1 Platforms)</div>
-              <p>This is urgent. Every day you wait is another day of leads flowing to competitors. You need a comprehensive AEO strategy covering schema markup, authority building, direct-answer content, and multi-platform optimization. This is not a weekend project. Get professional help or commit to 6+ months of consistent work.</p>
+              <p>This is urgent. Every day you wait is another day of leads flowing to competitors. You need a comprehensive AEO strategy covering schema markup, authority building, direct-answer content, and multi-platform optimization. This is not a weekend project. Get professional help or commit to 6+ months of consistent work. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
 
             {/* ── CTA 7 ── */}

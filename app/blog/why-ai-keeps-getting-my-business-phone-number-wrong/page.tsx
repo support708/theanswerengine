@@ -254,23 +254,23 @@ export default function WhyAIGetsPhoneNumberWrong() {
 
             <p>You moved your business two years ago. Your new phone number works. Your website has the right number. Google Business Profile is current. Your team knows the number cold.</p>
 
-            <p>But when someone asks ChatGPT, &quot;Who&apos;s a good electrician in Denver?&quot; and ChatGPT recommends your company, it gives the old phone number—the one you disconnected in 2024.</p>
+            <p>But when someone asks ChatGPT, &quot;Who&apos;s a good electrician in Denver?&quot; and ChatGPT recommends your company, it gives the old phone number—the one you disconnected in 2024. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <p>Customer calls. No answer. Assumes your business closed. Calls your competitor instead.</p>
 
-            <p>You never even knew the lead existed.</p>
+            <p>You never even knew the lead existed. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>This is happening right now to thousands of local service businesses. AI is sending recommendations—valuable word-of-mouth from ChatGPT, Claude, and Google AI Overview—straight to phone numbers that don't work.</p>
 
             <div className="ae-quote not-prose">
-              <p>An AI recommendation is only valuable if it actually reaches you. Wrong contact info converts AI endorsements into missed opportunities.</p>
+              <p>An AI recommendation is only valuable if it actually reaches you. Wrong contact info converts AI endorsements into missed opportunities. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
             </div>
 
             <p>The frustrating part: this isn't a mystery. It's not random. There are specific reasons why AI systems cite outdated contact information, and there are concrete signals you can control that tell AI your business data is current.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending you—to the wrong phone number.</p>
+              <p>Find out if AI platforms are recommending you—to the wrong phone number. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -304,19 +304,19 @@ export default function WhyAIGetsPhoneNumberWrong() {
 
             <p>AI models don't browse the internet. They don't do real-time lookups. They work from snapshots of the web that were crawled and processed months or years before deployment.</p>
 
-            <p>This creates three overlapping problems:</p>
+            <p>This creates three overlapping problems: Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <h3>1. Training Data Cutoff Windows</h3>
 
             <p>ChatGPT was trained on data through April 2024. Claude 3.5 through April 2024. Google AI Overview pulls from current Google index, but synthetically combines information across older snapshots. Every AI model has a training cutoff—a point in time after which they have no new information.</p>
 
-            <p>If you changed your phone number in January 2025, and an AI model's training data came from June 2024, it will never know your new number unless you're in its retraining pipeline. By the time the model updates again, it might be 2025 or 2026. That's a year or more of AI citing your old number to every customer who asks.</p>
+            <p>If you changed your phone number in January 2025, and an AI model's training data came from June 2024, it will never know your new number unless you're in its retraining pipeline. By the time the model updates again, it might be 2025 or 2026. That's a year or more of AI citing your old number to every customer who asks. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p>New models release periodically, but the transition is slow. Your business might appear in responses from both old and new models—generating split citations across generations of AI systems.</p>
 
             <h3>2. Multiple Conflicting Data Sources</h3>
 
-            <p>Your business doesn't exist in one place on the web. It exists across 5-10+ platforms simultaneously:</p>
+            <p>Your business doesn't exist in one place on the web. It exists across 5-10+ platforms simultaneously: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <ul>
               <li><strong>Google Business Profile</strong> (Google's primary source for local business info)</li>
@@ -331,17 +331,17 @@ export default function WhyAIGetsPhoneNumberWrong() {
 
             <p>Here's the problem: <strong>not all of these update simultaneously.</strong> You change your phone number in Google Business Profile. Your team updates your website. But that old number still lives in a cached copy on Yellow Pages. Or in a data aggregator's database. Or in Yelp, where your profile hasn't been touched since 2022.</p>
 
-            <p>When an AI system trained on data from 2023-2024 synthesizes information about your business, it sees multiple sources with different phone numbers. It has to choose. Without real-time verification, it defaults to what it finds most frequently cited—which is often the oldest, most-replicated version.</p>
+            <p>When an AI system trained on data from 2023-2024 synthesizes information about your business, it sees multiple sources with different phone numbers. It has to choose. Without real-time verification, it defaults to what it finds most frequently cited—which is often the oldest, most-replicated version. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <h3>3. Data Aggregator Lag and Duplication</h3>
 
             <p>Data aggregators copy information from other aggregators. A startup in 2020 scraped your old number from a listing, stored it in their database, and sold that data to 100 other platforms. Years later, that number is still propagating.</p>
 
-            <p>Aggregators don't have active quality control. They don't verify phone numbers. They replicate data because replication is cheaper than verification. So if an old number got scraped 8 years ago, it can still be cited as an authoritative source today—because it appears in 12 different data feeds, each one citing the other as validation.</p>
+            <p>Aggregators don't have active quality control. They don't verify phone numbers. They replicate data because replication is cheaper than verification. So if an old number got scraped 8 years ago, it can still be cited as an authoritative source today—because it appears in 12 different data feeds, each one citing the other as validation. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>AI systems see this and weight the number higher. It appears frequently. It appears in multiple sources. To the AI, that means it's probably correct.</p>
 
-            <p>But it's not. It's just old.</p>
+            <p>But it's not. It's just old. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── CTA 2 ── */}
             <div className="ae-cta-inline not-prose">
@@ -353,13 +353,13 @@ export default function WhyAIGetsPhoneNumberWrong() {
             <span className="ae-section-label">Real Consequences</span>
             <h2>What Outdated Contact Info Actually Costs You</h2>
 
-            <p>This isn't theoretical. Customers are currently using AI as a discovery tool. They're asking ChatGPT and Claude for recommendations. When AI recommends your business—to the wrong phone number—you lose.</p>
+            <p>This isn't theoretical. Customers are currently using AI as a discovery tool. They're asking ChatGPT and Claude for recommendations. When AI recommends your business—to the wrong phone number—you lose. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             <h3>Lost Calls = Lost Revenue</h3>
 
             <p>A potential customer calls the old number. It's disconnected, or it goes to someone else's business, or it goes to a voicemail that's full. The customer doesn't try again. They don't visit your website. They don't call directory assistance. They call your competitor instead.</p>
 
-            <p>For a plumbing company with a $3,000 average job, one lost call is $3,000 in revenue. For a therapist with a $150/hour rate and a one-hour free consultation, it's $150 minimum. For a mechanic, it's $500+. These aren't small numbers.</p>
+            <p>For a plumbing company with a $3,000 average job, one lost call is $3,000 in revenue. For a therapist with a $150/hour rate and a one-hour free consultation, it's $150 minimum. For a mechanic, it's $500+. These aren't small numbers. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3>Brand Damage</h3>
 
@@ -367,7 +367,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
 
             <h3>Competitive Loss at the AI Level</h3>
 
-            <p>Your competitor has current contact info across all platforms. When customers ask AI, the competitor gets the call. As more customers use AI for discovery, this becomes your primary competition channel—and you're losing it because AI has outdated information.</p>
+            <p>Your competitor has current contact info across all platforms. When customers ask AI, the competitor gets the call. As more customers use AI for discovery, this becomes your primary competition channel—and you're losing it because AI has outdated information. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
@@ -378,19 +378,19 @@ export default function WhyAIGetsPhoneNumberWrong() {
             <span className="ae-section-label">Self-Inflicted Wounds</span>
             <h2>How Businesses Create Their Own Contact Info Problems</h2>
 
-            <p>Sometimes the wrong contact info in AI is actually the business's fault. Not always—but often enough that you should check.</p>
+            <p>Sometimes the wrong contact info in AI is actually the business's fault. Not always—but often enough that you should check. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3>Mistake #1: Updating Some Platforms, Not All</h3>
 
             <p>You change your number. You update your website. You update Google Business Profile. You forget about Yellow Pages. You forgot you were even on Yellow Pages. But that old number is still there, still public, still being scraped by data aggregators who see it as an authoritative source.</p>
 
-            <p>Any platform with your old number becomes a liability. It contradicts your authoritative sources, confuses AI systems about which is current, and gives aggregators stale data to perpetuate.</p>
+            <p>Any platform with your old number becomes a liability. It contradicts your authoritative sources, confuses AI systems about which is current, and gives aggregators stale data to perpetuate. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3>Mistake #2: Unused or Abandoned Listings</h3>
 
             <p>You created a Yelp business profile in 2015 and never touched it again. Your old number is still there. A potential customer searches Yelp, calls the wrong number, and never finds you.</p>
 
-            <p>Worse: data aggregators see that Yelp listing as an authoritative source. If they can't find a more recent source, they cite the Yelp number as current. And that old number gets replicated across dozens of other services.</p>
+            <p>Worse: data aggregators see that Yelp listing as an authoritative source. If they can't find a more recent source, they cite the Yelp number as current. And that old number gets replicated across dozens of other services. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <h3>Mistake #3: Business Profile Inconsistencies</h3>
 
@@ -398,13 +398,13 @@ export default function WhyAIGetsPhoneNumberWrong() {
 
             <h3>Mistake #4: Not Claiming or Actively Managing Listings</h3>
 
-            <p>You don't claim your business on Yelp, Yellow Pages, or other platforms. Someone else did (a customer, a competitor, or an automated aggregator). Now you have profiles out there with information you don't control, updated on schedules you can't influence.</p>
+            <p>You don't claim your business on Yelp, Yellow Pages, or other platforms. Someone else did (a customer, a competitor, or an automated aggregator). Now you have profiles out there with information you don't control, updated on schedules you can't influence. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <p>You can't fix what you don't claim. And AI is pulling from claimed and unclaimed profiles equally.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Every outdated listing you leave unmanaged becomes a permanent liability. Data aggregators will find it, copy it, distribute it. Once old info gets replicated across 10 services, it becomes your default citation in AI.</p>
+              <p>Every outdated listing you leave unmanaged becomes a permanent liability. Data aggregators will find it, copy it, distribute it. Once old info gets replicated across 10 services, it becomes your default citation in AI. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
             </div>
 
             {/* ── CTA 3 ── */}
@@ -417,13 +417,13 @@ export default function WhyAIGetsPhoneNumberWrong() {
             <span className="ae-section-label">What Actually Works</span>
             <h2>The Signals That Tell AI Your Contact Info Is Current</h2>
 
-            <p>You can't control how often AI models retrain. You can't force ChatGPT to update its knowledge. But you can control the signals that tell AI systems—and the data sources AI trusts—that your business information is actively maintained and current.</p>
+            <p>You can't control how often AI models retrain. You can't force ChatGPT to update its knowledge. But you can control the signals that tell AI systems—and the data sources AI trusts—that your business information is actively maintained and current. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>These signals compound. One is weak. All together, they're strong enough to shift what AI cites.</p>
 
             <h3>Signal #1: Consistency Across Canonical Sources</h3>
 
-            <p>Your primary "canonical" sources are the ones AI systems trust most:</p>
+            <p>Your primary "canonical" sources are the ones AI systems trust most: Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <ul>
               <li><strong>Google Business Profile</strong> (most important—this is often the first place AI looks)</li>
@@ -433,40 +433,40 @@ export default function WhyAIGetsPhoneNumberWrong() {
 
             <p>If all three of these sources show the same phone number, AI systems weight that heavily. Consistency is the opposite of noise. When multiple authoritative sources agree, AI trusts them.</p>
 
-            <p>If your website says one number but Google Business Profile says another, you've introduced doubt. AI will default to whatever appears most frequently across all sources it can see—which might be an old aggregated number that contradicts both.</p>
+            <p>If your website says one number but Google Business Profile says another, you've introduced doubt. AI will default to whatever appears most frequently across all sources it can see—which might be an old aggregated number that contradicts both. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <h3>Signal #2: Regular Updates and Maintenance</h3>
 
             <p>When you update your phone number in Google Business Profile, you also trigger an update signal. Google sees the change. It logs the timestamp. Data aggregators that pull from Google will eventually pick up the change.</p>
 
-            <p>But more importantly: <strong>the timestamp tells AI and data systems that your profile is actively maintained.</strong> A business that updates its phone number, hours, or photos regularly signals "I'm in business and paying attention." A business with a stale profile signals "I might be closed or defunct."</p>
+            <p>But more importantly: <strong>the timestamp tells AI and data systems that your profile is actively maintained.</strong> A business that updates its phone number, hours, or photos regularly signals "I'm in business and paying attention." A business with a stale profile signals "I might be closed or defunct." Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <p>Regular updates don't have to be frequent. But they should happen. Update your Google Business Profile quarterly. Refresh a photo. Update your hours. Respond to a review. These actions send freshness signals.</p>
 
             <h3>Signal #3: Schema Markup on Your Website</h3>
 
-            <p>This is technical, but important: when your website includes structured data (schema markup) that explicitly states your phone number, AI systems and aggregators can parse it with high confidence. It's unambiguous. It's not buried in prose. It's declarative.</p>
+            <p>This is technical, but important: when your website includes structured data (schema markup) that explicitly states your phone number, AI systems and aggregators can parse it with high confidence. It's unambiguous. It's not buried in prose. It's declarative. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <p>When a page says:</p>
 
-            <p><code>"telephone": "+1-303-555-0100"</code></p>
+            <p><code>"telephone": "+1-303-555-0100"</code> Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>...instead of just mentioning the number in an article, AI systems treat it as a primary data point. It's more trustworthy than prose because it's formatted for machines to understand.</p>
 
             <h3>Signal #4: Fresh Content and Authority Mentions</h3>
 
-            <p>When you publish articles, case studies, or blog posts—or when local press mentions your business with current information—you create "evidence" that your business is operating now.</p>
+            <p>When you publish articles, case studies, or blog posts—or when local press mentions your business with current information—you create "evidence" that your business is operating now. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>AI systems weight recent mentions higher. A blog post from 2026 that mentions your current phone number or email is stronger evidence of currency than a Yellow Pages listing from 2019.</p>
 
             <h3>Signal #5: Removing or Reclaiming Outdated Listings</h3>
 
-            <p>Go through the platforms you actually use. Claim the ones you haven't claimed. Delete or suppress the ones you don't control or can't update. This reduces contradictory information in the ecosystem.</p>
+            <p>Go through the platforms you actually use. Claim the ones you haven't claimed. Delete or suppress the ones you don't control or can't update. This reduces contradictory information in the ecosystem. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <p>A smaller number of consistent sources is better than a larger number with conflicting data.</p>
 
             <div className="ae-quote not-prose">
-              <p>Data consistency + regular maintenance + fresh signals = AI trusts your contact info is current.</p>
+              <p>Data consistency + regular maintenance + fresh signals = AI trusts your contact info is current. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
             </div>
 
             {/* ── ACTION FRAMEWORK ── */}
@@ -478,7 +478,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Step 1: Audit What's Out There</strong>
-                <p>Search for your business on ChatGPT, Claude, Google AI Overview, and Bing AI. Write down the phone number each one cites. Search Google for your business name + phone. Look at the top 10 results. Are they consistent? Which ones are wrong?</p>
+                <p>Search for your business on ChatGPT, Claude, Google AI Overview, and Bing AI. Write down the phone number each one cites. Search Google for your business name + phone. Look at the top 10 results. Are they consistent? Which ones are wrong? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 2: Map Your Primary Sources</strong>
@@ -486,7 +486,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 3: Update and Verify Canonical Sources</strong>
-                <p>Make sure your phone number is correct and identical across all primary sources. Update each one. Verify the changes by checking them 24 hours later. These updates will propagate to data aggregators over time.</p>
+                <p>Make sure your phone number is correct and identical across all primary sources. Update each one. Verify the changes by checking them 24 hours later. These updates will propagate to data aggregators over time. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 4: Identify Stale Listings</strong>
@@ -494,7 +494,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Step 5: Monitor and Maintain</strong>
-                <p>Set a quarterly reminder to check your primary sources. Are they still accurate? Update at least one data point per quarter (refresh a photo, update hours, respond to a review). This maintenance signal tells AI systems you're active and current.</p>
+                <p>Set a quarterly reminder to check your primary sources. Are they still accurate? Update at least one data point per quarter (refresh a photo, update hours, respond to a review). This maintenance signal tells AI systems you're active and current. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
 

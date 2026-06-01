@@ -245,29 +245,29 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to see exactly where ChatGPT can and cannot find your business? <Link href="/services/answer-engine-audit" className="text-[#F27D24] hover:underline font-semibold">Get a free blindspot audit</Link> — we test your visibility across ChatGPT, Claude, Perplexity, and Google AI Overviews.</p>
+          <p>Want to see exactly where ChatGPT can and cannot find your business? <Link href="/services/answer-engine-audit" className="text-[#F27D24] hover:underline font-semibold">Get a free blindspot audit</Link> — we test your visibility across ChatGPT, Claude, Perplexity, and Google AI Overviews. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
         </div>
 
         <h2 id="not-google">ChatGPT Search Is Not Google With a Chatbot Skin</h2>
         <p>
           Most business owners assume that if they rank well on Google, they must be visible on ChatGPT too. That assumption is wrong, and it is costing them traffic they do not even know exists.
-        </p>
+         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
         <p>
           Google maintains a massive index of the web and ranks pages based on links, page authority, and hundreds of ranking factors refined over two decades. ChatGPT Search does something fundamentally different. It does not maintain a persistent index. It does not rank pages. Instead, it retrieves information in real time through Bing, reads pages through a sliding-window process, and synthesizes an answer — citing only the sources it determines are most relevant and trustworthy for that specific query.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
         <p>
           The result is a system where a business that dominates Google page one can be completely invisible to ChatGPT, while a smaller competitor with better structured data and cleaner metadata gets cited every time.
-        </p>
+         Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The 90% Statistic That Changes Everything</div>
-          <p>Approximately 90% of ChatGPT citations come from sources outside the top 20 Google results. Google rankings and ChatGPT citations are almost entirely separate systems with separate discovery signals.</p>
+          <p>Approximately 90% of ChatGPT citations come from sources outside the top 20 Google results. Google rankings and ChatGPT citations are almost entirely separate systems with separate discovery signals. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
         </div>
 
         <h2 id="discovery-process">The Four-Phase Discovery Process</h2>
         <p>
           When you ask ChatGPT Search a question that triggers a web search, it does not simply pull up ten blue links like a traditional search engine. It follows a structured four-phase process to find, evaluate, and cite information.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
         <div className="ae-timeline not-prose">
           <div className="ae-timeline-item">
@@ -302,12 +302,12 @@ export default function Page() {
 
         <p>
           This process explains why some businesses with excellent content still get overlooked. If your metadata does not pass the Phase 3 filter, your content never reaches Phase 4 — regardless of quality.
-        </p>
+         <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
         <h2 id="signals">Discovery Signals Ranked by Importance</h2>
         <p>
           Not every signal carries the same weight. Based on current research and citation analysis, here is how ChatGPT Search prioritizes the signals it uses to discover and cite businesses.
-        </p>
+         Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
         <div className="ae-cheat-sheet not-prose">
           <div className="ae-cheat-sheet-title">ChatGPT Discovery Signal Hierarchy</div>
@@ -331,13 +331,13 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">The Structured Content Advantage</div>
-          <p>ChatGPT&apos;s sliding-window reader processes content in fixed chunks. Pages with clearly structured formats — FAQ blocks, organized headings, bullet-pointed service details — yield better extraction results than long, unstructured paragraphs. The format of your content directly affects whether ChatGPT can extract a citable answer from it.</p>
+          <p>ChatGPT&apos;s sliding-window reader processes content in fixed chunks. Pages with clearly structured formats — FAQ blocks, organized headings, bullet-pointed service details — yield better extraction results than long, unstructured paragraphs. The format of your content directly affects whether ChatGPT can extract a citable answer from it. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         </div>
 
         <h2 id="scale">The Scale Most Businesses Underestimate</h2>
         <p>
           ChatGPT is not a niche tool used by early adopters anymore. The numbers tell a story that most business owners have not fully absorbed.
-        </p>
+         Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-stats-grid not-prose">
           <div className="ae-stat-card">
@@ -360,17 +360,17 @@ export default function Page() {
 
         <p>
           To put the 775 million daily searches in perspective: that volume represents a significant fraction of total web search activity globally. And unlike Google, where users scroll past ten links and choose which to click, ChatGPT delivers a single synthesized answer with citations. You are either in that answer or you are not. There is no page two.
-        </p>
+         One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
         <div className="ae-callout ae-callout-orange not-prose">
           <div className="ae-callout-title">The 65% Blind Spot</div>
-          <p>Roughly 34.5% of ChatGPT queries trigger a web search. The remaining 65.5% rely entirely on training data with a fixed knowledge cutoff. This means that for the majority of queries, ChatGPT is answering from memory, not from your website. If your business was not well-established before the training cutoff, the only way to appear is through the Search-enabled queries — which makes your discoverability signals even more critical.</p>
+          <p>Roughly 34.5% of ChatGPT queries trigger a web search. The remaining 65.5% rely entirely on training data with a fixed knowledge cutoff. This means that for the majority of queries, ChatGPT is answering from memory, not from your website. If your business was not well-established before the training cutoff, the only way to appear is through the Search-enabled queries — which makes your discoverability signals even more critical. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
         </div>
 
         <h2 id="why-missed">Why Your Business Gets Missed</h2>
         <p>
           When businesses fail to appear in ChatGPT results, it is rarely because ChatGPT decided they were not good enough. It is almost always because ChatGPT never found them in the first place. The discovery process has specific failure points, and most businesses have at least two or three of them.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -413,12 +413,12 @@ export default function Page() {
 
         <p>
           The frustrating part is that none of these are quality problems. They are visibility problems. A five-star business with twenty years of experience and hundreds of positive reviews can be completely invisible to ChatGPT if its website has vague metadata and no schema markup.
-        </p>
+         Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
         <h2 id="search-vs-base">Search Mode vs. Base Model: Two Different Engines</h2>
         <p>
           One of the least understood aspects of ChatGPT is that it operates as two fundamentally different systems depending on whether web search is active. These two modes cite almost entirely different sources for the exact same query.
-        </p>
+         Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
@@ -461,36 +461,36 @@ export default function Page() {
 
         <p>
           This distinction matters enormously for newer businesses and local service providers. In default mode, ChatGPT relies on what it already knows from training data — which favors established brands with extensive media coverage. But in Search mode, the playing field shifts. A local business with clean structured data, strong Bing Places presence, and relevant metadata can get cited ahead of a larger competitor whose website has poor technical foundations.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
         <div className="ae-callout ae-callout-success not-prose">
           <div className="ae-callout-title">The Search Mode Opportunity</div>
-          <p>When someone asks ChatGPT to &ldquo;find a plumber in San Diego,&rdquo; Search mode pulls directly from business websites and Bing Places data — not from generic &ldquo;top 10&rdquo; lists. It returns specific business names, phone numbers, and addresses. This is the mode where your first-party web presence matters most, and where the gap between prepared and unprepared businesses is widest.</p>
+          <p>When someone asks ChatGPT to &ldquo;find a plumber in San Diego,&rdquo; Search mode pulls directly from business websites and Bing Places data — not from generic &ldquo;top 10&rdquo; lists. It returns specific business names, phone numbers, and addresses. This is the mode where your first-party web presence matters most, and where the gap between prepared and unprepared businesses is widest. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
         </div>
 
         <h2 id="what-this-means">What This Means for Your Business</h2>
         <p>
           ChatGPT Search represents a new discovery layer for businesses. It is not replacing Google — it is operating alongside it with different rules, different signals, and different winners. A business that treats ChatGPT visibility as an extension of SEO will miss the point entirely.
-        </p>
+         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
         <p>
           The businesses that appear consistently in ChatGPT results share a set of characteristics: complete schema markup on all key pages, metadata that clearly communicates what each page is about, presence in Bing Places, consistent entity information across the web, and regular content updates that signal an active business.
-        </p>
+         Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
         <p>
           None of those characteristics are secret. None of them are particularly difficult. But most businesses have not done the work because they do not realize ChatGPT Search exists as a separate discovery channel — or they assume their Google rankings transfer automatically.
-        </p>
+         Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
         <p>
           They do not.
-        </p>
+         We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
         <div className="ae-callout ae-callout-warning not-prose">
           <div className="ae-callout-title">The Crawl Volume Signal</div>
-          <p>ChatGPT&apos;s crawling bots now make 3.6x more requests than Googlebot, with crawl volume increasing 2,825% year-over-year. OpenAI is aggressively building its web knowledge. The question is not whether ChatGPT will find businesses in your category — it is whether yours will be among them when it does.</p>
+          <p>ChatGPT&apos;s crawling bots now make 3.6x more requests than Googlebot, with crawl volume increasing 2,825% year-over-year. OpenAI is aggressively building its web knowledge. The question is not whether ChatGPT will find businesses in your category — it is whether yours will be among them when it does. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
         </div>
 
         {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is ChatGPT Search Finding Your Business — or Your Competitors?</h3>
-          <p className="text-gray-400 mb-6">Most businesses have no idea where they stand in ChatGPT results. Our blindspot audit tests your visibility across all four major AI platforms and shows you exactly what is missing.</p>
+          <p className="text-gray-400 mb-6">Most businesses have no idea where they stand in ChatGPT results. Our blindspot audit tests your visibility across all four major AI platforms and shows you exactly what is missing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
           <Link href="/services/answer-engine-audit" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get My Free Blindspot Audit
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -517,7 +517,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               </div>
 
@@ -527,32 +527,32 @@ export default function Page() {
 
           <details className="ae-faq-item">
             <summary>Does ranking on Google mean ChatGPT will cite my business?</summary>
-            <p>No. Approximately 90% of ChatGPT citations come from sources outside the top 20 Google results. ChatGPT Search uses Bing as its retrieval layer, applies its own relevance filtering based on metadata and structured data, and often cites mid-authority sites with strong topical depth over high-ranking but shallow pages.</p>
+            <p>No. Approximately 90% of ChatGPT citations come from sources outside the top 20 Google results. ChatGPT Search uses Bing as its retrieval layer, applies its own relevance filtering based on metadata and structured data, and often cites mid-authority sites with strong topical depth over high-ranking but shallow pages. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>How does ChatGPT Search decide which pages to read?</summary>
-            <p>ChatGPT Search makes page-read decisions in under one second. It evaluates the page title tag for query relevance, checks the meta description for intent alignment, and looks for schema markup signaling the page type. If the metadata fails the relevance test, the page is skipped entirely and never read in full.</p>
+            <p>ChatGPT Search makes page-read decisions in under one second. It evaluates the page title tag for query relevance, checks the meta description for intent alignment, and looks for schema markup signaling the page type. If the metadata fails the relevance test, the page is skipped entirely and never read in full. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>What is the difference between ChatGPT Search mode and the default mode?</summary>
-            <p>Default mode relies on training data with a fixed knowledge cutoff and prioritizes third-party review sites and media outlets. Search mode fetches live data from the web in real time, prioritizes first-party business pages and pricing pages, and cites current information that can be as recent as a few hours old.</p>
+            <p>Default mode relies on training data with a fixed knowledge cutoff and prioritizes third-party review sites and media outlets. Search mode fetches live data from the web in real time, prioritizes first-party business pages and pricing pages, and cites current information that can be as recent as a few hours old. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>How many people are using ChatGPT Search right now?</summary>
-            <p>As of early 2026, ChatGPT has 900 million weekly active users and processes 2.5 billion daily prompts. Roughly 31% of those prompts trigger active web searches, which means approximately 775 million searches happen through ChatGPT every single day.</p>
+            <p>As of early 2026, ChatGPT has 900 million weekly active users and processes 2.5 billion daily prompts. Roughly 31% of those prompts trigger active web searches, which means approximately 775 million searches happen through ChatGPT every single day. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
           </details>
 
           <details className="ae-faq-item">
             <summary>Does my business need to be indexed in Bing for ChatGPT to find it?</summary>
-            <p>Yes. ChatGPT Search relies on Bing&apos;s crawling infrastructure for its real-time retrieval layer. If Bing has not indexed your site, ChatGPT cannot retrieve it during a search query. Submitting your site through Bing Webmaster Tools is a prerequisite for ChatGPT discovery.</p>
+            <p>Yes. ChatGPT Search relies on Bing&apos;s crawling infrastructure for its real-time retrieval layer. If Bing has not indexed your site, ChatGPT cannot retrieve it during a search query. Submitting your site through Bing Webmaster Tools is a prerequisite for ChatGPT discovery. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           </details>
 
           <details className="ae-faq-item">
             <summary>How important is schema markup for ChatGPT visibility?</summary>
-            <p>Extremely important. Research shows that 71% of pages cited by ChatGPT use schema markup, and sites with structured data get cited 3.2 times more frequently than those without it. Schema helps ChatGPT extract entity information and understand what your page is about before reading the full content.</p>
+            <p>Extremely important. Research shows that 71% of pages cited by ChatGPT use schema markup, and sites with structured data get cited 3.2 times more frequently than those without it. Schema helps ChatGPT extract entity information and understand what your page is about before reading the full content. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </details>
         </div>
 

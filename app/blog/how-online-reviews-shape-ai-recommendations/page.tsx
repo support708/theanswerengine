@@ -292,13 +292,13 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
             {/* Introduction */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
               Most local business owners check their Google rating, see a comfortable 4.7 or 4.9, and assume they are covered. They have put in the work. Customers love them. The stars prove it. But when someone asks ChatGPT for &quot;the best electrician in Phoenix&quot; or Perplexity for &quot;top-rated wedding photographers near me,&quot; something unexpected happens. Businesses with fewer reviews and lower star ratings get recommended instead.
-            </p>
+             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Uncomfortable Truth</div>
               <p>
                 AI platforms do not evaluate reviews the way Google Search does. They read the actual text. They analyze sentiment at the sentence level. They weigh specificity, recency, and reviewer credibility. If you have only been focused on your Google star rating, you have been optimizing for a metric that AI largely cannot see.
-              </p>
+               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
             </div>
 
             <p>
@@ -306,10 +306,10 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
               <Link href="/blog/do-google-reviews-affect-ai-recommendations">
                 whether Google reviews affect AI recommendations
               </Link>. This article goes deeper. We will break down the specific review signals AI models evaluate, which platforms each AI system actually reads, and what your review strategy should look like if AI visibility matters to your business.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to know how AI actually sees your reviews right now?</p>
+              <p>Want to know how AI actually sees your reviews right now? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -321,25 +321,25 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
 
             <p>
               Traditional search engines treated reviews as a scoring signal. More stars, higher ranking. AI platforms work differently. Large language models are trained to understand natural language, which means they process the full text of every review they can access, not just the number at the top.
-            </p>
+             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
             <p>
               Research from a 2025 study published on arXiv found that star ratings and review sentiment frequently do not align. A customer might leave a 4-star review but write text that reads as strongly negative, mentioning long wait times or communication problems. Conversely, a 3-star review might contain highly positive language about the quality of work performed. AI models pick up on these discrepancies because they read the words, not just the score.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <div className="not-prose ae-callout ae-callout-info">
               <div className="ae-callout-title">Quality Over Quantity</div>
               <p>
                 According to research from The HOTH, a business with 50 detailed reviews from experienced reviewer profiles carries more weight with AI models than a business with 6,000 brief reviews that share similar phrasing. AI systems can detect shallow, templated reviews and weight them accordingly.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
             </div>
 
             <p>
               This is a fundamental shift. For years, the review game was about volume: get as many 5-star reviews as possible and watch your ranking climb. AI flips that equation. A smaller number of detailed, specific, and genuine reviews can outperform a massive collection of generic praise.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             <div className="not-prose ae-cta-inline">
-              <p>Is your review profile built for volume or for AI? There is a difference.</p>
+              <p>Is your review profile built for volume or for AI? There is a difference. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Review Analysis</a>
             </div>
 
@@ -351,11 +351,11 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
 
             <p>
               When an AI model processes a review, it does not just classify it as &quot;positive&quot; or &quot;negative.&quot; Modern LLMs perform what researchers call aspect-based sentiment analysis. They break the review into individual topics and evaluate the sentiment around each one separately.
-            </p>
+             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <p>
               For a plumbing company, a single review might contain positive sentiment about response time, neutral sentiment about pricing, and negative sentiment about cleanup. The AI model registers all three. When a user asks about &quot;affordable plumbers,&quot; the pricing sentiment matters most. When they ask about &quot;emergency plumbers,&quot; the response time sentiment takes priority.
-            </p>
+             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
             {/* Bar Chart: Review Signals */}
             <div className="not-prose ae-bar-group">
@@ -399,37 +399,37 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">Service Specificity</h3>
             <p>
               Reviews that mention exact services (&quot;replaced our 40-gallon water heater,&quot; &quot;installed a new panel box&quot;) provide concrete data points AI can reference. Generic praise like &quot;great service&quot; gives the model nothing to work with.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">Outcome Descriptions</h3>
             <p>
               Reviews describing results (&quot;our energy bill dropped 30% after the insulation work&quot; or &quot;the leak has not come back in six months&quot;) create verifiable claims that AI models treat as evidence of competence.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">Emotional Tone and Consistency</h3>
             <p>
               AI models detect mixed sentiment within a single review. A 4.5-star review mentioning &quot;uncomfortable waiting area&quot; and &quot;slow to return calls&quot; gets flagged as mixed sentiment, even though a traditional system would count it as positive based on the star score alone.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">Recency and Frequency</h3>
             <p>
               Recent reviews carry significantly more weight. A steady stream of reviews over the past 6 months signals an active, operating business. A cluster of reviews from 2 years ago followed by silence raises questions about current quality.
-            </p>
+             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">Reviewer Credibility</h3>
             <p>
               AI platforms can assess whether a reviewer has a history of detailed, thoughtful reviews or whether they only leave one-word ratings. Reviews from established profiles carry more weight in the model&apos;s evaluation.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
             <div className="not-prose ae-takeaway">
               <div className="ae-takeaway-title">Key Takeaway</div>
               <p>
                 AI does not count stars. It reads words. Every review that mentions a specific service, describes an outcome, or explains why the experience was good (or bad) becomes a data point AI uses when deciding which businesses to recommend.
-              </p>
+               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure what AI actually reads in your reviews? We will show you.</p>
+              <p>Not sure what AI actually reads in your reviews? We will show you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -441,11 +441,11 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
 
             <p>
               This is where most business owners get blindsided. Different AI platforms pull from different review sources, and the platform where you have invested the most effort may not be the one that matters.
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <p>
               Research from Whitespark analyzed 153 queries across 17 business categories in 9 major U.S. cities to identify which review sources appear in Bing Places results, the primary data source for ChatGPT local recommendations. Their findings reveal a surprising landscape.
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* Comparison Table */}
             <div className="not-prose">
@@ -484,22 +484,22 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
 
             <p>
               Notice the pattern. No single review platform dominates across all AI systems. If your reviews only live on Google, you are visible to Google AI Mode but potentially invisible to ChatGPT and Perplexity for many queries. This is exactly why review diversification has become a strategic priority.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             <div className="not-prose ae-callout ae-callout-success">
               <div className="ae-callout-title">AI Adoption Is Accelerating</div>
               <p>
                 According to BrightLocal&apos;s 2026 Local Consumer Review Survey, 45% of consumers now use AI for local recommendations, up from just 6% one year prior. Meanwhile, Google&apos;s share of local discovery dipped from 83% to 71% as consumers diversify how they find businesses.
-              </p>
+               Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Your reviews may be invisible to the platforms your customers actually use.</p>
+              <p>Your reviews may be invisible to the platforms your customers actually use. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
               <Link href="/blindspot">Check Your AI Visibility Now</Link>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Questions about which platforms matter for your industry?</p>
+              <p>Questions about which platforms matter for your industry? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
             </div>
 
@@ -514,11 +514,11 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
               <Link href="/blog/chatgpt-cant-see-google-business-profile">
                 why ChatGPT cannot see your Google Business Profile
               </Link>, but it is worth revisiting here with updated context. Google reviews load dynamically through JavaScript. Most AI crawlers do not execute JavaScript, so they only access the raw HTML served by the page and miss any content loaded afterward.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             <p>
               This means a business with 300 glowing Google reviews can be completely invisible to AI platforms that rely on web crawling. If someone asks ChatGPT about the &quot;best plumber in town,&quot; the tool might mention your website or your services, but it has no idea that you have 127 five-star reviews on Google.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <div className="not-prose ae-pros-cons">
               <div className="ae-pros-box">
@@ -545,14 +545,14 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
 
             <p>
               There is a silver lining. As of late 2025, local SEO professionals began reporting that ChatGPT was including some Google Business Profile data in local searches, including maps and basic listing information. OpenAI appears to be working on deeper integration with Google&apos;s data. But this access remains inconsistent and is not something to rely on as your primary visibility strategy.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
             <div className="not-prose ae-quote">
-              <p>Your Google reviews are still essential for Google Search and Maps. But for AI visibility, you need reviews on platforms that AI crawlers can reliably access.</p>
+              <p>Your Google reviews are still essential for Google Search and Maps. But for AI visibility, you need reviews on platforms that AI crawlers can reliably access. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure which of your reviews AI can actually see?</p>
+              <p>Not sure which of your reviews AI can actually see? Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free Review Audit</a>
             </div>
 
@@ -564,7 +564,7 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
 
             <p>
               One of the most surprising findings from Whitespark&apos;s research is how dominant Facebook has become in the Bing Places index. Facebook appeared as a review source on nearly 1.5 times as many business listings as the next biggest platform. Since ChatGPT uses Bing Places as a primary data source for local queries, this makes Facebook recommendations a direct pathway to AI visibility.
-            </p>
+             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p>
               Yet most local business owners treat their Facebook page as an afterthought. They might post occasionally and respond to the odd message, but actively requesting Facebook recommendations is rarely part of their review strategy.

@@ -128,18 +128,18 @@ export default function Page() {
             </div>
           </div>
 
-          <p>Your customers are changing how they search for businesses. Not gradually. Rapidly. ChatGPT alone now processes billions of prompts every day, and it has captured double-digit search market share for the first time. No competitor has ever taken that much share from Google this quickly.</p>
+          <p>Your customers are changing how they search for businesses. Not gradually. Rapidly. ChatGPT alone now processes billions of prompts every day, and it has captured double-digit search market share for the first time. No competitor has ever taken that much share from Google this quickly. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>But here is what most business owners miss: AI is not replacing Google. It is changing the way people make decisions before they ever reach Google. And if you do not understand that difference, you will keep optimizing for the wrong thing.</p>
+          <p>But here is what most business owners miss: AI is not replacing Google. It is changing the way people make decisions before they ever reach Google. And if you do not understand that difference, you will keep optimizing for the wrong thing. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Reality Check</div>
-            <p>If your marketing strategy only targets Google, you are already invisible to the fastest-growing search channel in history. AI search is not coming. It is here.</p>
+            <p>If your marketing strategy only targets Google, you are already invisible to the fastest-growing search channel in history. AI search is not coming. It is here. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           </div>
 
           {/* ── CTA INLINE 1 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Are you visible where your customers are actually searching?</p>
+            <p>Are you visible where your customers are actually searching? Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
           </div>
 
@@ -147,11 +147,11 @@ export default function Page() {
           <span className="ae-section-label">Customer Behavior</span>
           <h2>The New Search Behavior Pattern</h2>
 
-          <p>The old pattern was linear. Customer has a question, goes to Google, clicks a few results, makes a decision. The new pattern is conversational. Customer has a question, opens ChatGPT (or Perplexity, or Claude), has a back-and-forth conversation, narrows their options, and then goes to Google to find the specific business the AI recommended.</p>
+          <p>The old pattern was linear. Customer has a question, goes to Google, clicks a few results, makes a decision. The new pattern is conversational. Customer has a question, opens ChatGPT (or Perplexity, or Claude), has a back-and-forth conversation, narrows their options, and then goes to Google to find the specific business the AI recommended. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
-          <p>This is why the data shows that most ChatGPT users still also use Google. It is not either-or. It is a two-step process where AI handles the evaluation phase and Google handles the navigation phase.</p>
+          <p>This is why the data shows that most ChatGPT users still also use Google. It is not either-or. It is a two-step process where AI handles the evaluation phase and Google handles the navigation phase. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
-          <p><Link href="/blog/what-happens-when-customer-asks-ai-find-business">When a customer asks AI to find a business</Link>, the conversation follows a pattern that looks nothing like a Google search. They start broad, get specific through follow-up questions, and then ask for a direct recommendation. The AI guides them through a decision funnel that used to happen across ten Google searches and five different websites.</p>
+          <p><Link href="/blog/what-happens-when-customer-asks-ai-find-business">When a customer asks AI to find a business</Link>, the conversation follows a pattern that looks nothing like a Google search. They start broad, get specific through follow-up questions, and then ask for a direct recommendation. The AI guides them through a decision funnel that used to happen across ten Google searches and five different websites. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           {/* ── TIMELINE ── */}
           <div className="ae-timeline not-prose">
@@ -184,12 +184,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>The customer journey now starts with an AI conversation, not a Google search. By the time they reach your website, the decision is already 80% made.</p>
+            <p>The customer journey now starts with an AI conversation, not a Google search. By the time they reach your website, the decision is already 80% made. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           {/* ── CTA INLINE 2 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Find out if AI is recommending your business or your competitors.</p>
+            <p>Find out if AI is recommending your business or your competitors. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             <Link href="/blindspot">Run Your Free AI Visibility Check →</Link>
           </div>
 
@@ -197,7 +197,7 @@ export default function Page() {
           <span className="ae-section-label">Search Comparison</span>
           <h2>Google Search vs AI Search: How Customer Behavior Differs</h2>
 
-          <p>Understanding the difference between how customers interact with Google versus AI search is critical for adapting your marketing strategy. The table below breaks down the key behavioral differences.</p>
+          <p>Understanding the difference between how customers interact with Google versus AI search is critical for adapting your marketing strategy. The table below breaks down the key behavioral differences. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="not-prose">
             <table className="ae-comparison-table">
@@ -245,18 +245,18 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Key Insight</div>
-            <p>AI search sessions last 3x longer because users are having real conversations, not just scanning links. This deeper engagement means AI recommendations carry significantly more influence over purchasing decisions.</p>
+            <p>AI search sessions last 3x longer because users are having real conversations, not just scanning links. This deeper engagement means AI recommendations carry significantly more influence over purchasing decisions. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
 
           {/* ── SECTION: SESSION LENGTH ── */}
           <span className="ae-section-label">Session Analytics</span>
           <h2>Why AI Sessions Are Three Times Longer Than Google</h2>
 
-          <p>A typical ChatGPT session lasts nearly three times as long as a Google session. That is not because ChatGPT is slower. It is because users are having genuine conversations. They ask follow-up questions. They refine their criteria. They push back on recommendations and ask for alternatives.</p>
+          <p>A typical ChatGPT session lasts nearly three times as long as a Google session. That is not because ChatGPT is slower. It is because users are having genuine conversations. They ask follow-up questions. They refine their criteria. They push back on recommendations and ask for alternatives. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-          <p>This is fundamentally different from Google, where users scan results for a few seconds and click the one that looks most relevant. In an AI conversation, the user is actively engaged the entire time. They are building confidence in their decision.</p>
+          <p>This is fundamentally different from Google, where users scan results for a few seconds and click the one that looks most relevant. In an AI conversation, the user is actively engaged the entire time. They are building confidence in their decision. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-          <p>For your business, this means the recommendation AI gives carries enormous weight. A user who spent fourteen minutes in conversation with ChatGPT, progressively narrowing their options until the AI recommended your business, is much more convinced than someone who clicked your Google listing because it was the third organic result.</p>
+          <p>For your business, this means the recommendation AI gives carries enormous weight. A user who spent fourteen minutes in conversation with ChatGPT, progressively narrowing their options until the AI recommended your business, is much more convinced than someone who clicked your Google listing because it was the third organic result. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           {/* ── DECISION MATRIX ── */}
           <div className="ae-decision-matrix not-prose">
@@ -290,12 +290,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>AI does not just match keywords like Google. It synthesizes information from dozens of sources to build a recommendation. The businesses that show up are the ones with the broadest, most consistent presence across the web.</p>
+            <p>AI does not just match keywords like Google. It synthesizes information from dozens of sources to build a recommendation. The businesses that show up are the ones with the broadest, most consistent presence across the web. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* ── CTA INLINE 3 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>What does AI actually say when customers ask about your industry?</p>
+            <p>What does AI actually say when customers ask about your industry? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             <Link href="/blindspot">See Your AI Presence Score →</Link>
           </div>
 
@@ -303,9 +303,9 @@ export default function Page() {
           <span className="ae-section-label">Data Sources</span>
           <h2>Where AI Gets Its Recommendations</h2>
 
-          <p>This is the part that should concern every business owner who is not actively managing their AI presence. The vast majority of brand mentions in AI search results come from third-party pages, not from the business&apos;s own website.</p>
+          <p>This is the part that should concern every business owner who is not actively managing their AI presence. The vast majority of brand mentions in AI search results come from third-party pages, not from the business&apos;s own website. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-          <p>Read that again. When AI recommends a business, it is usually citing information it found on review sites, industry directories, news articles, community forums, and social platforms. Not the business&apos;s own About page or service descriptions.</p>
+          <p>Read that again. When AI recommends a business, it is usually citing information it found on review sites, industry directories, news articles, community forums, and social platforms. Not the business&apos;s own About page or service descriptions. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
           {/* ── BAR GROUP ── */}
           <div className="ae-bar-group not-prose">
@@ -321,16 +321,16 @@ export default function Page() {
             </div>
           </div>
 
-          <p><Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">How ChatGPT chooses which businesses to recommend</Link> depends on the strength and consistency of those third-party signals. If your business has a strong website but no presence anywhere else, AI has very little to work with. If your competitor has reviews on Google, mentions on Reddit, citations in industry publications, and a solid LinkedIn presence, AI has a much stronger signal to draw from.</p>
+          <p><Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">How ChatGPT chooses which businesses to recommend</Link> depends on the strength and consistency of those third-party signals. If your business has a strong website but no presence anywhere else, AI has very little to work with. If your competitor has reviews on Google, mentions on Reddit, citations in industry publications, and a solid LinkedIn presence, AI has a much stronger signal to draw from. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-callout ae-callout-orange not-prose">
             <div className="ae-callout-title">Warning for Business Owners</div>
-            <p>85% of the information AI uses to recommend (or skip) your business comes from sources you do not control. Reviews, directories, forums, and news articles carry far more weight than your own website. If you are not actively building presence across these channels, AI has nothing to work with.</p>
+            <p>85% of the information AI uses to recommend (or skip) your business comes from sources you do not control. Reviews, directories, forums, and news articles carry far more weight than your own website. If you are not actively building presence across these channels, AI has nothing to work with. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* ── CTA INLINE 4 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Discover which third-party sources AI is pulling your business data from.</p>
+            <p>Discover which third-party sources AI is pulling your business data from. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             <Link href="/blindspot">Get Your Source Analysis →</Link>
           </div>
 
@@ -338,11 +338,11 @@ export default function Page() {
           <span className="ae-section-label">Market Growth</span>
           <h2>AI Search Expands the Pie, It Does Not Shrink It</h2>
 
-          <p>One of the most counterintuitive findings in recent data is that AI search is not cannibalizing Google. Users who adopt ChatGPT for search do not stop using Google. They use both. AI handles the questions that Google was never great at answering: nuanced comparisons, personalized recommendations, and complex decision support.</p>
+          <p>One of the most counterintuitive findings in recent data is that AI search is not cannibalizing Google. Users who adopt ChatGPT for search do not stop using Google. They use both. AI handles the questions that Google was never great at answering: nuanced comparisons, personalized recommendations, and complex decision support. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
-          <p>This means the total volume of search activity is growing. Your potential customers are searching more, not less. But they are searching in new places that your current SEO strategy does not reach.</p>
+          <p>This means the total volume of search activity is growing. Your potential customers are searching more, not less. But they are searching in new places that your current SEO strategy does not reach. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
-          <p><Link href="/blog/how-ai-search-changes-sales-funnel">The sales funnel itself is being reshaped by AI search</Link>. The awareness and consideration phases are increasingly happening inside AI conversations, while Google is becoming more of a navigation tool for users who already know what they want.</p>
+          <p><Link href="/blog/how-ai-search-changes-sales-funnel">The sales funnel itself is being reshaped by AI search</Link>. The awareness and consideration phases are increasingly happening inside AI conversations, while Google is becoming more of a navigation tool for users who already know what they want. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           {/* ── PROS/CONS ── */}
           <div className="ae-pros-cons not-prose">
@@ -372,12 +372,12 @@ export default function Page() {
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>AI search is additive, not a replacement. Your customers are searching more than ever, but they are doing it in places your current strategy does not cover. The businesses that build AI presence now will dominate while competitors are still catching up.</p>
+            <p>AI search is additive, not a replacement. Your customers are searching more than ever, but they are doing it in places your current strategy does not cover. The businesses that build AI presence now will dominate while competitors are still catching up. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           </div>
 
           {/* ── CTA INLINE 5 ── */}
           <div className="ae-cta-inline not-prose">
-            <p>Your competitors are invisible to AI too. Be the first in your market to fix that.</p>
+            <p>Your competitors are invisible to AI too. Be the first in your market to fix that. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
             <Link href="/blindspot">Claim Your Market First →</Link>
           </div>
 
@@ -385,15 +385,15 @@ export default function Page() {
           <span className="ae-section-label">Conversion Data</span>
           <h2>The Conversion Advantage Nobody Talks About</h2>
 
-          <p>AI-referred traffic converts at a significantly higher rate than traditional organic traffic. Some studies put the difference at five times higher. This makes intuitive sense when you think about the user experience.</p>
+          <p>AI-referred traffic converts at a significantly higher rate than traditional organic traffic. Some studies put the difference at five times higher. This makes intuitive sense when you think about the user experience. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
-          <p>A user who clicks a Google result might be browsing, comparing, or just curious. A user who clicks through after an AI conversation has already been through a decision process. They asked their questions, got answers, and chose your business specifically. By the time they reach your website, the sale is half-made.</p>
+          <p>A user who clicks a Google result might be browsing, comparing, or just curious. A user who clicks through after an AI conversation has already been through a decision process. They asked their questions, got answers, and chose your business specifically. By the time they reach your website, the sale is half-made. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
-          <p>This is why raw traffic numbers are becoming a misleading metric. Ten visitors from AI search may be worth more than fifty visitors from organic Google. The quality of the traffic matters more than the quantity, especially when zero-click search is reducing quantity across the board.</p>
+          <p>This is why raw traffic numbers are becoming a misleading metric. Ten visitors from AI search may be worth more than fifty visitors from organic Google. The quality of the traffic matters more than the quantity, especially when zero-click search is reducing quantity across the board. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Math That Matters</div>
-            <p>If AI traffic converts at 5x the rate of Google organic, then 100 AI visitors equal the value of 500 Google visitors. Businesses that ignore AI search are leaving their highest-quality leads on the table.</p>
+            <p>If AI traffic converts at 5x the rate of Google organic, then 100 AI visitors equal the value of 500 Google visitors. Businesses that ignore AI search are leaving their highest-quality leads on the table. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
           </div>
 
           {/* ── CTA INLINE 6 ── */}

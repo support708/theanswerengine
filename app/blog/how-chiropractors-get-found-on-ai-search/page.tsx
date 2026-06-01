@@ -274,16 +274,16 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             A patient wakes up with a pinched nerve. Their first instinct used to be Googling "chiropractor near me" and clicking through map results. That behavior is shifting fast. In 2026, a growing segment of patients opens ChatGPT, Perplexity, or Google AI and asks a conversational question: "Who is the best chiropractor for neck pain in [city]?"
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The AI does not pull up a list of Yelp reviews. It does not scan Google Maps ratings the way a person would. It evaluates what it knows about each practice based on structured data, content depth, citation patterns, and entity consistency. Practices that have built strong entity authority get recommended. Practices that have not are invisible, no matter how many years they have been in business or how many happy patients they have treated.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <p className="text-gray-300 leading-relaxed mb-6">
             This shift is happening faster in healthcare than in almost any other local service category. Healthcare queries consistently produce AI Overviews and direct recommendations from AI assistants. The Whitespark 2026 local search ranking factors report shows AI visibility depends most on on-page content at 24%, reviews at 16%, and directory listing accuracy at 13%. Chiropractic practices that do not optimize for these signals are handing patients to competitors who do.
-          </p>
+           Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-cta-inline">
-            <p>Not sure how AI sees your chiropractic practice right now? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out exactly where the gaps are.</p>
+            <p>Not sure how AI sees your chiropractic practice right now? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out exactly where the gaps are. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           </div>
         </section>
 
@@ -293,14 +293,14 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             AI platforms are not reading your website the way a person does. They are building a structured understanding of your business entity, asking implicit questions: Does this practice exist consistently across multiple sources? What conditions does it treat? Is it trusted by authoritative health platforms? What do patients say about specific outcomes?
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The signals AI uses to evaluate a chiropractic practice fall into four categories. Understanding these categories is the foundation for knowing why some practices get recommended and others do not. <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:text-orange-400 transition-colors">What AI crawlers see when they visit your website</Link> is fundamentally different from what a human visitor sees.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
           <div className="ae-callout ae-callout-info">
             <div className="ae-callout-title">Entity Authority vs SEO Rankings</div>
-            <p>Traditional SEO ranks pages. AI search ranks entities. Your chiropractic practice is an entity. The question is whether AI platforms have enough structured, consistent information about that entity to confidently recommend it to a patient in pain.</p>
+            <p>Traditional SEO ranks pages. AI search ranks entities. Your chiropractic practice is an entity. The question is whether AI platforms have enough structured, consistent information about that entity to confidently recommend it to a patient in pain. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mt-10 mb-4">
@@ -345,7 +345,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Most chiropractic practices were built for a world where patients called after seeing a sign or got a referral from a friend. The digital presence was secondary. Now that AI is the first stop for many patients in pain, the gaps in that digital presence are costing practices real appointment volume every single week.
-          </p>
+           Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-pros-cons">
             <div className="ae-pros-box">
@@ -376,11 +376,11 @@ export default function Page() {
 
           <div className="ae-callout ae-callout-warning">
             <div className="ae-callout-title">The NAP Mismatch Problem</div>
-            <p>If your practice moved and updated your website but not your Yelp listing, Healthgrades profile, or older directory entries, AI systems see a contradiction. That contradiction registers as low entity confidence, not a fixable data error. The AI simply trusts you less and routes patients to competitors whose information is consistent.</p>
+            <p>If your practice moved and updated your website but not your Yelp listing, Healthgrades profile, or older directory entries, AI systems see a contradiction. That contradiction registers as low entity confidence, not a fixable data error. The AI simply trusts you less and routes patients to competitors whose information is consistent. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <div className="ae-cta-inline">
-            <p>Wondering which directories are hurting your entity score? <Link href="/blindspot">Your free Blind Spot Report</Link> shows every inconsistency AI platforms are finding across your digital presence.</p>
+            <p>Wondering which directories are hurting your entity score? <Link href="/blindspot">Your free Blind Spot Report</Link> shows every inconsistency AI platforms are finding across your digital presence. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           </div>
         </section>
 
@@ -390,17 +390,17 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             The single biggest differentiator between chiropractic practices that get recommended by AI and those that do not is content depth. Specifically, condition-specific content that demonstrates genuine expertise in treating what patients are actually searching for.
-          </p>
+           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             When a patient asks ChatGPT "who treats sciatica near me," the AI is matching that query to practices it understands as sciatica treatment providers. If your website has no page, section, or explicit content about sciatica, AI cannot confidently include you in that recommendation, even if you treat it every single day.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             This is not about keyword stuffing old-school SEO content. AI systems evaluate whether your content genuinely demonstrates expertise in treating the condition. The implicit question being answered is: does this practice understand this patient's problem well enough to be worth recommending?
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
           <div className="ae-callout ae-callout-orange">
             <div className="ae-callout-title">What We Tell You vs What We Do For You</div>
-            <p>We can tell you that condition-specific content depth matters more than almost any other single factor for chiropractic AI visibility. What we do not publish is the exact architecture, internal linking structure, or content framework we use to build it for clients. That is the service. Think of it like a chiropractor explaining that posture and spinal alignment matter without teaching you to adjust vertebrae on yourself.</p>
+            <p>We can tell you that condition-specific content depth matters more than almost any other single factor for chiropractic AI visibility. What we do not publish is the exact architecture, internal linking structure, or content framework we use to build it for clients. That is the service. Think of it like a chiropractor explaining that posture and spinal alignment matter without teaching you to adjust vertebrae on yourself. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mt-10 mb-4">
@@ -437,7 +437,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Not all AI platforms behave the same way for healthcare recommendations. Understanding how each platform sources its data helps you prioritize where to invest your optimization effort first.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
 
           <table className="ae-comparison-table">
             <thead>
@@ -484,11 +484,11 @@ export default function Page() {
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
             Google AI Overview matters most for immediate local discovery because it appears before any organic results. But ChatGPT matters for the growing segment of patients who bypass Google entirely and start their search in an AI assistant. <Link href="/blog/how-google-ai-mode-changes-local-business-discovery" className="text-[#F27D24] hover:text-orange-400 transition-colors">Google AI Mode is reshaping local healthcare discovery</Link> faster than most providers realize.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
           <div className="ae-callout ae-callout-success">
             <div className="ae-callout-title">The Platform Multiplier Effect</div>
-            <p>When you build a strong entity foundation, it tends to improve visibility across all AI platforms simultaneously. The signals that help Google AI Overview also help Perplexity and ChatGPT because they all look for the same fundamental entity consistency and content authority. You are not optimizing for individual platforms. You are building entity credibility that all platforms recognize.</p>
+            <p>When you build a strong entity foundation, it tends to improve visibility across all AI platforms simultaneously. The signals that help Google AI Overview also help Perplexity and ChatGPT because they all look for the same fundamental entity consistency and content authority. You are not optimizing for individual platforms. You are building entity credibility that all platforms recognize. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           </div>
         </section>
 
@@ -498,7 +498,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             To make this concrete, here is what the AI visibility gap actually looks like between a chiropractic practice that has built entity authority and one that has not. These are the patterns we see consistently across the local healthcare market.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-bar-group">
             <div className="ae-bar-item">
@@ -546,7 +546,7 @@ export default function Page() {
           </div>
 
           <div className="ae-cta-inline mt-8">
-            <p>Ready to understand where your chiropractic practice stands on AI right now? <Link href="/blindspot">Get your Blind Spot Report</Link> and see exactly what AI platforms see when a patient searches for what you treat.</p>
+            <p>Ready to understand where your chiropractic practice stands on AI right now? <Link href="/blindspot">Get your Blind Spot Report</Link> and see exactly what AI platforms see when a patient searches for what you treat. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
         </section>
 
@@ -556,17 +556,17 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Most chiropractors reading this already understand that AI search matters. The harder question is execution. Building entity authority requires coordinating your website content, your directory presence, your review strategy, and your schema implementation in a way that sends consistent signals to AI platforms simultaneously.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             Doing one piece well and neglecting the others does not work. AI platforms evaluate the totality of your entity signal, not individual components in isolation. A beautiful website with inconsistent directory data still scores poorly. A fully optimized Google Business Profile with a thin, generic website still scores poorly. Everything needs to point in the same direction at the same time.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-6">
             The framework for doing this correctly is what we build for clients. The principles in this article are the what and why. The exact architecture, sequencing, and coordinated implementation is what The Answer Engine delivers through our optimization process. <Link href="/blog/how-ai-decides-what-questions-to-answer-about-your-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">Understanding how AI decides which businesses to answer questions about</Link> is the foundation of that work.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
           <div className="ae-takeaway">
             <div className="ae-takeaway-title">Key Takeaways</div>
-            <p>AI search for chiropractors evaluates entity authority, not keyword density. Practices getting recommended have consistent entity signals, condition-specific content, structured data, and strong health directory presence. Those gaps are fixable, but they require a coordinated approach, not a single tactic applied in isolation.</p>
+            <p>AI search for chiropractors evaluates entity authority, not keyword density. Practices getting recommended have consistent entity signals, condition-specific content, structured data, and strong health directory presence. Those gaps are fixable, but they require a coordinated approach, not a single tactic applied in isolation. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
         </section>
 
@@ -633,7 +633,7 @@ export default function Page() {
 
         <section className="my-12">
           <div className="ae-quote">
-            <p>"A chiropractic practice open for 20 years with 500 reviews can be completely invisible to AI if its entity signals are inconsistent. A practice open for 18 months with the right optimization can be recommended daily. Entity authority is not about longevity. It is about clarity."</p>
+            <p>"A chiropractic practice open for 20 years with 500 reviews can be completely invisible to AI if its entity signals are inconsistent. A practice open for 18 months with the right optimization can be recommended daily. Entity authority is not about longevity. It is about clarity." Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
             <cite>Justin Borges</cite>
           </div>
         </section>
@@ -645,7 +645,7 @@ export default function Page() {
           </h3>
           <p className="text-gray-400 mb-6">
             Our Blind Spot Report shows exactly how ChatGPT, Perplexity, and Google AI currently see your chiropractic practice. You will see every entity gap, every missing signal, and exactly what needs to change. Most practices discover 6 to 10 fixable issues in the first audit.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
@@ -681,7 +681,7 @@ export default function Page() {
               <div>
                 <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               </div>
             </div>
 
@@ -719,7 +719,7 @@ export default function Page() {
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
-                <p className="text-gray-400 leading-relaxed">{a}</p>
+                <p className="text-gray-400 leading-relaxed">{a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
               </div>
             ))}
           </div>
@@ -732,7 +732,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-300 mb-8 text-lg">
             Every day your chiropractic practice is invisible to AI search, patients in pain are being directed somewhere else. Get your Blind Spot Report and find out exactly what AI sees when they search for what you treat.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
           <Link
             href="/blindspot"
             className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
@@ -744,7 +744,7 @@ export default function Page() {
           </Link>
           <p className="text-gray-500 text-sm mt-4">
             Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
-          </p>
+           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
         </div>
 
       </article>

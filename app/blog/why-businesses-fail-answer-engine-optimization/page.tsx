@@ -257,7 +257,7 @@ export default function WhyBusinessesFailAEO() {
               </h1>
               <p className="text-lg text-gray-300 mb-6 max-w-2xl">
                 The 8 invisible mistakes that silently kill your AI visibility while competitors lock in citation authority you may never recover.
-              </p>
+               Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
               <div className="flex items-center gap-4 text-sm text-gray-400">
                 <span>November 9, 2025</span>
                 <span>-</span>
@@ -298,21 +298,21 @@ export default function WhyBusinessesFailAEO() {
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
               When business owners discover AI platforms recommending competitors instead of them, most make the same critical mistake: they try to fix it using traditional SEO thinking. They add content, optimize pages with keywords, build backlinks, and assume the problem is solved. Three months later, AI platforms still are not citing them, and they have no idea why.
-            </p>
+             Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-6">
               This pattern plays out across thousands of businesses every month, wasting time, money, and competitive positioning in the rapidly closing window where Answer Engine Optimization gives early movers insurmountable advantages.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
 
             <div className="not-prose ae-callout ae-callout-warning">
               <div className="ae-callout-title">The Silent Revenue Leak</div>
               <p>
                 Most businesses do not know their AEO is broken until competitors have built months of citation authority. Unlike traditional SEO, where you can track rankings weekly, broken AEO creates an invisible failure state. You think it is working. It is not. And every day that passes, the gap widens.
-              </p>
+               Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Not sure if your AEO implementation is actually working?</p>
+              <p>Not sure if your AEO implementation is actually working? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
@@ -324,15 +324,15 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               The most expensive AEO mistakes are the ones you do not know you are making.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-4">
               Traditional SEO provided clear feedback loops. You could track keyword rankings, monitor traffic changes, and see results within weeks. If something was not working, you knew relatively quickly and could adjust.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-6">
               Answer Engine Optimization operates differently. You can implement what seems like proper optimization, publish content, and see absolutely nothing change for months. But you do not know if you are succeeding slowly or failing completely.
-            </p>
+             Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
             {/* Comparison Table: SEO vs AEO Feedback */}
             <div className="not-prose ae-comparison-table">
@@ -380,7 +380,7 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               Most businesses lack systematic methods to test whether AI platforms can even see their content, let alone cite it. They operate on dangerous assumptions:
-            </p>
+             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             <div className="not-prose ae-callout ae-callout-danger">
               <div className="ae-callout-title">Assumptions That Kill AEO Results</div>
@@ -389,7 +389,7 @@ export default function WhyBusinessesFailAEO() {
                 <strong>&quot;We wrote comprehensive guides&quot;</strong> does not mean length equals authority.<br />
                 <strong>&quot;We rank on Google&quot;</strong> does not mean AI platforms use the same criteria as Google.<br />
                 Without diagnostic systems to validate these assumptions, months pass. Competitors get cited. You remain invisible.
-              </p>
+               Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <div className="not-prose ae-takeaway">
@@ -397,7 +397,7 @@ export default function WhyBusinessesFailAEO() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Want to eliminate the guesswork? Talk to a specialist.</p>
+              <p>Want to eliminate the guesswork? Talk to a specialist. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
               <a href="tel:+12134442229">Call (213) 444-2229</a>
             </div>
 
@@ -409,7 +409,7 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               The single most common failure pattern is applying traditional SEO tactics to Answer Engine Optimization and expecting similar results. Keywords, backlinks, and publishing frequency worked for Google rankings. AI platforms evaluate entirely different signals.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* Pros/Cons: Keyword Approach */}
             <div className="not-prose ae-pros-cons">
@@ -441,11 +441,11 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               Traditional SEO taught businesses to target keywords with high search volume. Find a keyword, optimize a page for it, build backlinks, wait for rankings.
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <p className="text-gray-300 leading-relaxed mb-4">
               AI platforms do not match keywords. They match question intent. When someone asks &quot;Who should I hire for HVAC repair in Phoenix?&quot;, they are not searching for the keyword &quot;HVAC repair Phoenix.&quot; They are asking for a specific recommendation with reasoning.
-            </p>
+             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             <div className="not-prose ae-decision-matrix">
               <table>
@@ -493,11 +493,11 @@ export default function WhyBusinessesFailAEO() {
             </div>
 
             <div className="not-prose ae-quote">
-              <p>The business optimizing for keywords gets ignored. The business answering actual questions with verifiable expertise gets cited. Every time.</p>
+              <p>The business optimizing for keywords gets ignored. The business answering actual questions with verifiable expertise gets cited. Every time. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Still using SEO tactics for AI visibility? Find out what is actually working.</p>
+              <p>Still using SEO tactics for AI visibility? Find out what is actually working. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
               <Link href="/blindspot">Run Your Free AI Visibility Audit</Link>
             </div>
 
@@ -509,7 +509,7 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               AI platforms have been trained on billions of web pages. They have seen every variation of generic business content imaginable. Template language does not just fail to help. It actively signals low value.
-            </p>
+             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             <h3 className="text-xl font-bold text-white mt-8 mb-4 font-plus-jakarta">
               The Template Language Problem
@@ -517,7 +517,7 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               When evaluating sources to cite, AI platforms recognize patterns that signal template-driven content versus authentic expertise. Here is what gets filtered out immediately:
-            </p>
+             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             {/* Bar Chart: Content Quality Signals */}
             <div className="not-prose ae-bar-group">
@@ -557,7 +557,7 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               AI platforms favor concrete, verifiable specificity. Consider two Phoenix HVAC companies competing for the same AI citations:
-            </p>
+             Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* Comparison Table: Generic vs Specific */}
             <div className="not-prose ae-comparison-table">
@@ -599,7 +599,7 @@ export default function WhyBusinessesFailAEO() {
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Is your content specific enough for AI citation? Let us check.</p>
+              <p>Is your content specific enough for AI citation? Let us check. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Content Audit</a>
             </div>
 
@@ -611,7 +611,7 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               One of the most expensive AEO failures is implementing technical optimization incorrectly and not discovering the error for months. Schema markup, JSON-LD syntax, and content structure errors are invisible to the human eye but completely block AI citation.
-            </p>
+             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
 
             {/* Cheat Sheet: Schema Failures */}
             <div className="not-prose ae-cheat-sheet">
@@ -628,17 +628,17 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               When schema fails validation, AI platforms may not process your content at all. You will have perfectly written FAQs that AI simply cannot read. And because there is no error message, no ranking drop, and no visible symptom, the failure stays hidden.
-            </p>
+             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="not-prose ae-callout ae-callout-danger">
               <div className="ae-callout-title">The Testing Gap That Costs Months</div>
               <p>
                 Most businesses implement schema once and never validate it. They do not know whether their schema actually validates, if AI platforms can parse it correctly, whether recent website updates broke previously working markup, or if syntax errors are preventing all their optimization efforts from producing any results.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
             </div>
 
             <div className="not-prose ae-cta-inline">
-              <p>Schema errors are invisible. We find them in hours, not months.</p>
+              <p>Schema errors are invisible. We find them in hours, not months. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <Link href="/blindspot">Get Your Free Technical Audit</Link>
             </div>
 
@@ -650,7 +650,7 @@ export default function WhyBusinessesFailAEO() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               AI platforms do not trust claims. They look for verifiable credentials and specific expertise signals that most business websites completely lack. Saying &quot;we are the best&quot; means nothing. Proving it with verifiable details means everything.
-            </p>
+             Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* Timeline: What AI Checks */}
             <div className="not-prose ae-timeline">
@@ -658,35 +658,35 @@ export default function WhyBusinessesFailAEO() {
                 <div className="ae-timeline-marker">1</div>
                 <div className="ae-timeline-content">
                   <strong>Credential Verification</strong>
-                  <p>AI cross-references licensing numbers, certifications, and registration details against authoritative databases</p>
+                  <p>AI cross-references licensing numbers, certifications, and registration details against authoritative databases <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">2</div>
                 <div className="ae-timeline-content">
                   <strong>Experience Signals</strong>
-                  <p>Specific founding dates, years in business, and quantified project history (not vague claims)</p>
+                  <p>Specific founding dates, years in business, and quantified project history (not vague claims) <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">3</div>
                 <div className="ae-timeline-content">
                   <strong>Geographic Authority</strong>
-                  <p>Detailed service area coverage with location-specific knowledge that proves local expertise</p>
+                  <p>Detailed service area coverage with location-specific knowledge that proves local expertise <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">4</div>
                 <div className="ae-timeline-content">
                   <strong>Team Credentials</strong>
-                  <p>Verifiable professional backgrounds, not just headshots and job titles</p>
+                  <p>Verifiable professional backgrounds, not just headshots and job titles Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
                 </div>
               </div>
               <div className="ae-timeline-item">
                 <div className="ae-timeline-marker">5</div>
                 <div className="ae-timeline-content">
                   <strong>Citation Confidence Score</strong>
-                  <p>AI assigns a confidence score. Businesses with documented, verifiable credentials get cited. Those without get skipped.</p>
+                  <p>AI assigns a confidence score. Businesses with documented, verifiable credentials get cited. Those without get skipped. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
                 </div>
               </div>
             </div>

@@ -313,19 +313,19 @@ export default function CompleteGuideAEO() {
 
             <p>People do not scroll through ten blue links anymore. They ask AI one question and trust the first answer they receive.</p>
 
-            <p>When someone asks ChatGPT &quot;who&apos;s the best probate realtor in Los Angeles&quot; or tells Google &quot;find me a reliable HVAC company near me,&quot; the platforms cite 2-3 businesses maximum. If you are not one of those citations, you are invisible.</p>
+            <p>When someone asks ChatGPT &quot;who&apos;s the best probate realtor in Los Angeles&quot; or tells Google &quot;find me a reliable HVAC company near me,&quot; the platforms cite 2-3 businesses maximum. If you are not one of those citations, you are invisible. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
             <div className="ae-quote not-prose">
               <p>Traditional SEO was built for a world where people scrolled. Answer Engine Optimization is built for a world where people ask, get one answer, and make a decision.</p>
             </div>
 
-            <p>The businesses that adapt to this reality now will dominate their local markets for the next decade. The ones that do not will keep wondering why their phones stopped ringing even though their &quot;SEO is fine.&quot;</p>
+            <p>The businesses that adapt to this reality now will dominate their local markets for the next decade. The ones that do not will keep wondering why their phones stopped ringing even though their &quot;SEO is fine.&quot; Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
             <p>This guide covers everything you need to understand about this shift. Why your rankings stopped generating leads, how AI platforms actually choose which businesses to recommend, what separates cited businesses from invisible ones, and exactly what it takes to become the AI-recommended expert in your market.</p>
 
             {/* ── CTA 1 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Find out if AI platforms are recommending your competitors instead of you.</p>
+              <p>Find out if AI platforms are recommending your competitors instead of you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -354,7 +354,7 @@ export default function CompleteGuideAEO() {
 
             <p>Google AI Overviews now appear above organic results for millions of local service queries. ChatGPT processes billions of queries monthly with zero links to traditional search results.</p>
 
-            <p>Your business might rank #3 for &quot;best HVAC company in Phoenix.&quot; That ranking used to mean guaranteed phone calls. Now it means nothing. Google&apos;s AI Overview appears above you, cites two different companies, and most searchers never scroll past it. The click never happens. Your ranking is invisible.</p>
+            <p>Your business might rank #3 for &quot;best HVAC company in Phoenix.&quot; That ranking used to mean guaranteed phone calls. Now it means nothing. Google&apos;s AI Overview appears above you, cites two different companies, and most searchers never scroll past it. The click never happens. Your ranking is invisible. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
             {/* ── BAR CHART: Click-Through Rate Decline ── */}
             <div className="ae-bar-group not-prose">
@@ -385,14 +385,14 @@ export default function CompleteGuideAEO() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Winner-Take-All Dynamic</div>
-              <p>When someone opens ChatGPT and asks for a local business recommendation, the platform does not say &quot;here are 10 results.&quot; It says &quot;contact Sarah Mitchell at Mitchell Financial Advisory. Here is why she is the best choice.&quot; One recommendation. One business gets the lead. Everyone else gets nothing.</p>
+              <p>When someone opens ChatGPT and asks for a local business recommendation, the platform does not say &quot;here are 10 results.&quot; It says &quot;contact Sarah Mitchell at Mitchell Financial Advisory. Here is why she is the best choice.&quot; One recommendation. One business gets the lead. Everyone else gets nothing. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
             </div>
 
             <p>Voice search accelerates this dynamic even further. When people ask Siri or Alexa for recommendations, they receive exactly one answer. Rankings do not exist in voice search. Either AI cites your business, or you do not exist for that query.</p>
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Traditional SEO focused on competition for rankings. AEO focuses on competition for AI citations. The citation war is fundamentally different from the ranking war, and most local businesses do not realize they are already losing it.</p>
+              <p>Traditional SEO focused on competition for rankings. AEO focuses on competition for AI citations. The citation war is fundamentally different from the ranking war, and most local businesses do not realize they are already losing it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
             </div>
 
             {/* ── CTA 2 ── */}
@@ -407,7 +407,7 @@ export default function CompleteGuideAEO() {
             <span className="ae-section-label">Section 2</span>
             <h2>Why Local Businesses Are Invisible to AI Search</h2>
 
-            <p>AI platforms use weighted authority assessment and cross-validation to determine which businesses to cite. This is a three-layer evaluation process analyzing content quality, entity recognition, and competitive positioning simultaneously.</p>
+            <p>AI platforms use weighted authority assessment and cross-validation to determine which businesses to cite. This is a three-layer evaluation process analyzing content quality, entity recognition, and competitive positioning simultaneously. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
 
             <p>Most local service businesses are completely invisible to AI platforms. Not because their websites are terrible. They are invisible because they fail the authority evaluation process that AI systems use before making any recommendation.</p>
 
@@ -415,7 +415,7 @@ export default function CompleteGuideAEO() {
             <div className="ae-timeline not-prose">
               <div className="ae-timeline-item">
                 <strong>Layer 1: Content Authority Scan</strong>
-                <p>AI examines your website content structure, depth, and expertise signals. Thin service pages with 200 words fail immediately.</p>
+                <p>AI examines your website content structure, depth, and expertise signals. Thin service pages with 200 words fail immediately. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Layer 2: Entity Recognition</strong>
@@ -423,7 +423,7 @@ export default function CompleteGuideAEO() {
               </div>
               <div className="ae-timeline-item">
                 <strong>Layer 3: Cross-Validation</strong>
-                <p>AI looks for consistent authority signals across multiple independent sources. Reviews, mentions, backlinks, and citations from other trusted sources all contribute.</p>
+                <p>AI looks for consistent authority signals across multiple independent sources. Reviews, mentions, backlinks, and citations from other trusted sources all contribute. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
               <div className="ae-timeline-item">
                 <strong>Layer 4: Competitive Comparison</strong>
@@ -431,7 +431,7 @@ export default function CompleteGuideAEO() {
               </div>
             </div>
 
-            <p>Think of it like a hiring process. AI does not just check if you can do the job (basic competence). It evaluates whether you are the best candidate (comparative authority). Your competitor might have more detailed content, stronger credentials, or clearer expertise positioning. If they score higher, AI cites them instead of you.</p>
+            <p>Think of it like a hiring process. AI does not just check if you can do the job (basic competence). It evaluates whether you are the best candidate (comparative authority). Your competitor might have more detailed content, stronger credentials, or clearer expertise positioning. If they score higher, AI cites them instead of you. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
               <div className="ae-callout-title">Why Cross-Validation Matters</div>
@@ -439,7 +439,7 @@ export default function CompleteGuideAEO() {
             </div>
 
             <div className="ae-quote not-prose">
-              <p>AI citation is binary. Either you pass the authority evaluation and get recommended, or you do not exist for that query. There is no second page of results, no runner-up position.</p>
+              <p>AI citation is binary. Either you pass the authority evaluation and get recommended, or you do not exist for that query. There is no second page of results, no runner-up position. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
             </div>
 
             {/* ── CTA 3 ── */}
@@ -454,7 +454,7 @@ export default function CompleteGuideAEO() {
             <span className="ae-section-label">Section 3</span>
             <h2>Why Your Google Traffic Dropped in 2025</h2>
 
-            <p>Google AI Overviews now dominate 45% of search results for local service queries, creating a zero-click experience where users never visit your website even when you rank #1 in traditional organic results.</p>
+            <p>Google AI Overviews now dominate 45% of search results for local service queries, creating a zero-click experience where users never visit your website even when you rank #1 in traditional organic results. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
             {/* ── STATS GRID: Traffic Impact ── */}
             <div className="ae-stats-grid not-prose">
@@ -477,14 +477,14 @@ export default function CompleteGuideAEO() {
 
             <p>You are tracking rankings religiously. Position #2 for your main keyword. Position #3 for your location-based term. Everything looks fine in your SEO dashboard. But your phone stopped ringing and your contact form submissions fell off a cliff compared to last year.</p>
 
-            <p>The problem: Google AI Overviews appear above your ranking for most valuable local service queries. Someone searches &quot;how to choose a home inspector in Seattle,&quot; and Google&apos;s AI generates a comprehensive answer with citations to two specific businesses. The answer is good enough that the searcher never scrolls. Your #2 ranking? Never seen.</p>
+            <p>The problem: Google AI Overviews appear above your ranking for most valuable local service queries. Someone searches &quot;how to choose a home inspector in Seattle,&quot; and Google&apos;s AI generates a comprehensive answer with citations to two specific businesses. The answer is good enough that the searcher never scrolls. Your #2 ranking? Never seen. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Permanent Decline Without Adaptation</div>
               <p>The traffic decline is permanent unless you adapt. Traditional SEO tactics like building backlinks, optimizing metadata, and improving page speed will not recover traffic that AI Overviews captured. You need to optimize for citation within the AI answer itself.</p>
             </div>
 
-            <p>This is not hitting every query equally. Google deploys AI Overviews strategically for high-commercial-intent searches where they can capture the transaction. Searches like &quot;best plumber near me,&quot; &quot;reliable HVAC company in Denver,&quot; and &quot;top-rated realtor in Austin&quot; are exactly the searches that used to drive your business.</p>
+            <p>This is not hitting every query equally. Google deploys AI Overviews strategically for high-commercial-intent searches where they can capture the transaction. Searches like &quot;best plumber near me,&quot; &quot;reliable HVAC company in Denver,&quot; and &quot;top-rated realtor in Austin&quot; are exactly the searches that used to drive your business. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
 
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
@@ -498,7 +498,7 @@ export default function CompleteGuideAEO() {
             <span className="ae-section-label">Section 4</span>
             <h2>The Difference Between SEO and Answer Engine Optimization</h2>
 
-            <p>SEO optimizes for rankings in search results. AEO optimizes for citations within AI-generated answers. This is a fundamentally different objective that requires different content structure, authority positioning, and technical implementation.</p>
+            <p>SEO optimizes for rankings in search results. AEO optimizes for citations within AI-generated answers. This is a fundamentally different objective that requires different content structure, authority positioning, and technical implementation. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── COMPARISON TABLE ── */}
             <table className="ae-comparison-table not-prose">
@@ -581,7 +581,7 @@ export default function CompleteGuideAEO() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>SEO was competitive (rank higher than competitors). AEO is absolute (pass the authority threshold or do not get cited at all). Traditional SEO let mediocre businesses win through brute-force link building. AEO requires actual demonstrable expertise.</p>
+              <p>SEO was competitive (rank higher than competitors). AEO is absolute (pass the authority threshold or do not get cited at all). Traditional SEO let mediocre businesses win through brute-force link building. AEO requires actual demonstrable expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
             </div>
 
             {/* ── CTA 5 ── */}
@@ -596,7 +596,7 @@ export default function CompleteGuideAEO() {
             <span className="ae-section-label">Section 5</span>
             <h2>How to Get AI Platforms to Recommend Your Business</h2>
 
-            <p>Multi-platform AI citation requires building layered authority through hub-and-spoke content architecture, comprehensive schema implementation, entity optimization, and consistent cross-platform presence. This is a systematic approach that typically takes 90 days to achieve measurable results.</p>
+            <p>Multi-platform AI citation requires building layered authority through hub-and-spoke content architecture, comprehensive schema implementation, entity optimization, and consistent cross-platform presence. This is a systematic approach that typically takes 90 days to achieve measurable results. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
             {/* ── DECISION MATRIX ── */}
             <div className="ae-decision-matrix not-prose">
@@ -659,7 +659,7 @@ export default function CompleteGuideAEO() {
               </ul>
             </div>
 
-            <p>Hub-and-spoke content architecture drives the strongest citation results. You create one comprehensive guide (the hub) covering your core expertise area, supported by 4-6 detailed articles (spokes) covering specific sub-topics. The hub establishes broad authority. The spokes prove depth. AI systems preferentially cite businesses with this documented depth rather than businesses with scattered blog posts.</p>
+            <p>Hub-and-spoke content architecture drives the strongest citation results. You create one comprehensive guide (the hub) covering your core expertise area, supported by 4-6 detailed articles (spokes) covering specific sub-topics. The hub establishes broad authority. The spokes prove depth. AI systems preferentially cite businesses with this documented depth rather than businesses with scattered blog posts. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
 
             <div className="ae-callout ae-callout-success not-prose">
               <div className="ae-callout-title">What Makes Schema Markup Critical</div>
@@ -668,7 +668,7 @@ export default function CompleteGuideAEO() {
 
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Need help building your authority foundation? Talk to our team.</p>
+              <p>Need help building your authority foundation? Talk to our team. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -735,7 +735,7 @@ export default function CompleteGuideAEO() {
             <span className="ae-section-label">Section 6</span>
             <h2>Is Answer Engine Optimization Worth It for Your Business?</h2>
 
-            <p>AEO delivers ROI for local service businesses when average customer lifetime value exceeds $2,000, deal cycles are short, and expertise differentiation is your primary competitive advantage. However, it requires a 90+ day commitment and systematic implementation most businesses cannot execute alone.</p>
+            <p>AEO delivers ROI for local service businesses when average customer lifetime value exceeds $2,000, deal cycles are short, and expertise differentiation is your primary competitive advantage. However, it requires a 90+ day commitment and systematic implementation most businesses cannot execute alone. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
             {/* ── DECISION MATRIX: Is AEO Right for You? ── */}
             <div className="ae-decision-matrix not-prose">
@@ -801,7 +801,7 @@ export default function CompleteGuideAEO() {
 
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">The Cost of Doing Nothing</div>
-              <p>If you choose not to optimize for AI citation, understand what you are choosing: declining organic traffic as AI Overviews capture more queries, increasing dependence on expensive paid advertising, and loss of market authority to competitors who do optimize. The alternative to AEO is not the status quo. The alternative is permanent decline.</p>
+              <p>If you choose not to optimize for AI citation, understand what you are choosing: declining organic traffic as AI Overviews capture more queries, increasing dependence on expensive paid advertising, and loss of market authority to competitors who do optimize. The alternative to AEO is not the status quo. The alternative is permanent decline. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
             </div>
 
             {/* ── CTA 8 ── */}
@@ -816,7 +816,7 @@ export default function CompleteGuideAEO() {
             <span className="ae-section-label">Go Deeper</span>
             <h2>Explore Each Topic in Detail</h2>
 
-            <p>Each section of this guide has a dedicated deep-dive article with expanded data, examples, and implementation steps:</p>
+            <p>Each section of this guide has a dedicated deep-dive article with expanded data, examples, and implementation steps: Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
 
             <div className="ae-cheat-sheet not-prose">
               <div className="ae-cheat-sheet-title">Related Deep-Dive Articles</div>
@@ -843,14 +843,14 @@ export default function CompleteGuideAEO() {
             <h2>Frequently Asked Questions About Answer Engine Optimization</h2>
 
             <h3>How long does it take to see results from AEO?</h3>
-            <p>Most local service businesses see first AI citations within 60-90 days of implementing comprehensive authority optimization. Some low-competition queries produce faster results (30-45 days), while highly competitive local markets may require 120 days or more. The timeline depends on your current authority baseline, competitive intensity, and implementation quality. Anyone promising instant or guaranteed AI citations is misleading you.</p>
+            <p>Most local service businesses see first AI citations within 60-90 days of implementing comprehensive authority optimization. Some low-competition queries produce faster results (30-45 days), while highly competitive local markets may require 120 days or more. The timeline depends on your current authority baseline, competitive intensity, and implementation quality. Anyone promising instant or guaranteed AI citations is misleading you. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
 
             <h3>Can I do Answer Engine Optimization myself, or do I need to hire someone?</h3>
             <p>Technically possible but practically difficult for most local service business owners. Effective AEO requires expertise in content strategy, technical SEO, schema markup, entity optimization, and AI platform evaluation. Most owners lack both the expertise and time to execute properly. DIY attempts usually produce mediocre content that does not achieve citations. Professional implementation dramatically increases citation probability compared to DIY approaches.</p>
 
             {/* ── CTA 10 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Considering DIY vs professional AEO? Let us show you what&apos;s involved.</p>
+              <p>Considering DIY vs professional AEO? Let us show you what&apos;s involved. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
 
@@ -858,7 +858,7 @@ export default function CompleteGuideAEO() {
             <p>Each platform uses different authority evaluation priorities. Google AI Overviews weight structured data and featured snippet optimization highest. ChatGPT prioritizes authentic voice and comprehensive explanations. Perplexity focuses on citation diversity and source quality. Claude evaluates expertise depth and logical structure. Comprehensive AEO strategy addresses all platforms, but optimization emphasis varies based on where your target customers actually search.</p>
 
             <h3>Will Answer Engine Optimization hurt my traditional SEO rankings?</h3>
-            <p>No. AEO is complementary to SEO, not competitive. Proper implementation actually improves traditional rankings through better content quality, technical optimization, and authority signals. The difference: SEO alone no longer drives sufficient leads because AI Overviews appear above organic results. You need both ranking AND citation to capture modern search traffic. Think of AEO as the next evolution of SEO rather than a replacement.</p>
+            <p>No. AEO is complementary to SEO, not competitive. Proper implementation actually improves traditional rankings through better content quality, technical optimization, and authority signals. The difference: SEO alone no longer drives sufficient leads because AI Overviews appear above organic results. You need both ranking AND citation to capture modern search traffic. Think of AEO as the next evolution of SEO rather than a replacement. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
 
             {/* ── CTA 11 ── */}
             <div className="ae-cta-inline not-prose">
@@ -867,14 +867,14 @@ export default function CompleteGuideAEO() {
             </div>
 
             <h3>How much does Answer Engine Optimization cost for a local service business?</h3>
-            <p>Foundational implementation includes voice capture, hub-and-spoke content creation, technical schema implementation, entity optimization, and a 90-day performance guarantee. Ongoing content updates and maintenance add to the investment depending on competitive intensity and content velocity required. ROI calculation: if one AI-sourced client per quarter covers the annual investment, AEO is profitable. For most service businesses with $2,000+ customer lifetime values, the math works out within the first quarter.</p>
+            <p>Foundational implementation includes voice capture, hub-and-spoke content creation, technical schema implementation, entity optimization, and a 90-day performance guarantee. Ongoing content updates and maintenance add to the investment depending on competitive intensity and content velocity required. ROI calculation: if one AI-sourced client per quarter covers the annual investment, AEO is profitable. For most service businesses with $2,000+ customer lifetime values, the math works out within the first quarter. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
 
             <h3>What makes some local businesses get AI citations while competitors do not?</h3>
             <p>AI platforms evaluate layered authority across six dimensions: answer quality that directly addresses queries with expertise, entity optimization ensuring consistent business information everywhere, relevance through comprehensive and fresh content, optimization structure with proper technical implementation, voice authenticity demonstrating genuine expertise through specific examples, and authority signals from reviews and third-party validation. Businesses that systematically address all six dimensions get citations. Businesses that address only one or two do not.</p>
 
             {/* ── CTA 12 ── */}
             <div className="ae-cta-inline not-prose">
-              <p>Not sure which authority dimensions your business is missing?</p>
+              <p>Not sure which authority dimensions your business is missing? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
               <a href="mailto:support@theanswerengine.ai">Email Us for a Free Assessment &rarr;</a>
             </div>
 
@@ -882,7 +882,7 @@ export default function CompleteGuideAEO() {
             <p>No. AI citations are editorial, not paid placement. Running Google Ads or social media ads does not influence whether AI platforms cite your business. You cannot buy AI citations. The only path to citation is earning authority through comprehensive content, technical optimization, and cross-platform validation. Some businesses run paid advertising while building AEO authority to maintain lead flow during the 90-day ramp period, but advertising does not accelerate the citation timeline.</p>
 
             <h3>What industries benefit most from Answer Engine Optimization?</h3>
-            <p>Local service businesses with high customer lifetime value and expertise differentiation see strongest ROI: real estate agents and teams, financial advisors and tax strategists, home inspectors and specialized contractors, legal professionals and consultants, healthcare practitioners, and B2B service providers. Industries competing primarily on price (commodity services, low-margin work, transactional relationships) see limited AEO benefit because AI platforms do not cite based on lowest price. They cite based on highest expertise.</p>
+            <p>Local service businesses with high customer lifetime value and expertise differentiation see strongest ROI: real estate agents and teams, financial advisors and tax strategists, home inspectors and specialized contractors, legal professionals and consultants, healthcare practitioners, and B2B service providers. Industries competing primarily on price (commodity services, low-margin work, transactional relationships) see limited AEO benefit because AI platforms do not cite based on lowest price. They cite based on highest expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
 
             {/* ── CTA 13 ── */}
             <div className="ae-cta-inline not-prose">
@@ -895,7 +895,7 @@ export default function CompleteGuideAEO() {
             {/* ══════════════════════════════════════════ */}
             <div className="ae-cta-block not-prose">
               <h3>Ready to Stop Competing on Price and Become the AI-Recommended Expert?</h3>
-              <p>The businesses dominating AI citations right now are not the biggest companies or the ones with the most marketing budget. They are the ones that recognized this shift early and systematically built the authority that AI platforms trust. If you are a local service business with genuine expertise, the window to establish AI dominance in your market is open right now.</p>
+              <p>The businesses dominating AI citations right now are not the biggest companies or the ones with the most marketing budget. They are the ones that recognized this shift early and systematically built the authority that AI platforms trust. If you are a local service business with genuine expertise, the window to establish AI dominance in your market is open right now. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
@@ -911,7 +911,7 @@ export default function CompleteGuideAEO() {
             <span className="ae-section-label">About</span>
             <h2>About The Answer Engine</h2>
 
-            <p>The Answer Engine specializes in helping local service businesses become the trusted authority AI platforms cite instead of competitors. Founded in 2025, we recognized that traditional SEO no longer drives sufficient leads for local businesses because AI Overviews and AI search platforms capture queries before users ever click organic results.</p>
+            <p>The Answer Engine specializes in helping local service businesses become the trusted authority AI platforms cite instead of competitors. Founded in 2025, we recognized that traditional SEO no longer drives sufficient leads for local businesses because AI Overviews and AI search platforms capture queries before users ever click organic results. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
 
             <p>Our approach systematically builds the layered authority AI platforms require for citation through voice-captured expertise, hub-and-spoke content architecture, comprehensive technical optimization, and cross-platform entity validation. Unlike traditional SEO agencies that focus on rankings, we focus on citations. Whoever AI cites becomes the authority, and whoever becomes the authority gets the business.</p>
 

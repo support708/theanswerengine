@@ -314,13 +314,13 @@ export default function Page() {
             a local business recommendation, they are assembling evidence from hundreds of sources:
             directory listings, review platforms, local news mentions, website content, social
             profiles, and structured business data feeds.
-          </p>
+           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             In a city like Los Angeles, a plumber might have 200 Google reviews, listings across
             40 directories, three local news citations, and a Yelp profile with photos. That data
             density tells AI platforms, clearly and repeatedly, that this is a real, trusted, active
             business in that specific location.
-          </p>
+           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             In a small town, the same business might have 18 Google reviews, a single directory
             listing, and a website that has not been updated in three years. That sparse footprint
@@ -328,7 +328,7 @@ export default function Page() {
             small markets: less foot traffic to generate organic reviews, fewer local publications
             to generate citations, fewer competitors creating the comparison content that signals
             market activity to AI.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
           <div className="ae-callout ae-callout-warning mb-6">
             <div className="ae-callout-title">The Invisibility Default</div>
             <p>
@@ -336,31 +336,31 @@ export default function Page() {
               specific area, they do not return no results. They return the most authoritative
               nearby option, which typically means the nearest city. This is why small town searches
               often surface metro-area businesses that technically serve the region.
-            </p>
+             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           </div>
           <p className="text-gray-300 leading-relaxed mb-4">
             Understanding this mechanism reframes the problem. You are not competing against bigger
             businesses on merit. You are competing against them on data density. And data is something
             you can build deliberately, even if you cannot manufacture a major metropolitan area
             around your storefront.
-          </p>
+           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This also explains something many small town business owners notice: AI platforms sometimes
             describe their area incorrectly. A query about services in their specific small town
             returns results framed around the nearest metro, as if the town does not exist as a
             distinct geographic entity. From a data standpoint, it barely does, yet. That is changeable.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The AI landscape for small markets is not fixed. It is built from whatever evidence exists
             right now. Business owners who understand that are positioned to shape what AI knows about
             their community.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
         </section>
 
         {/* Inline CTA 1 */}
         <div className="ae-cta-inline mb-14">
-          <p className="text-white font-semibold mb-2">Wondering if AI is finding your business or skipping to a city competitor?</p>
-          <p className="text-gray-400 text-sm mb-4">Our Blind Spot Report tests what AI actually says about your market, at no cost.</p>
+          <p className="text-white font-semibold mb-2">Wondering if AI is finding your business or skipping to a city competitor? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+          <p className="text-gray-400 text-sm mb-4">Our Blind Spot Report tests what AI actually says about your market, at no cost. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
           <Link href="/blindspot" className="ae-cta-primary">
             Get Your Free Blind Spot Report
           </Link>
@@ -376,13 +376,13 @@ export default function Page() {
             that works against them also keeps their competitors equally invisible. A city business
             owner trying to dominate AI recommendations is fighting against hundreds of competitors
             in their category, all with years of accumulated reviews, citations, and content.
-          </p>
+           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             A small town business owner trying to dominate their local AI recommendations might be
             competing against two or three other businesses in their category, many of which have
             done nothing deliberate to build AI visibility. The bar to become the dominant AI citation
             in a small market is often dramatically lower than people assume.
-          </p>
+           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
           <div className="ae-callout ae-callout-success mb-6">
             <div className="ae-callout-title">The First-Mover Opportunity</div>
             <p>
@@ -390,7 +390,7 @@ export default function Page() {
               strong citation foundation now, you become the default recommendation for your category
               in your area before any competitor starts paying attention. Early movers in thin markets
               often hold those positions for years.
-            </p>
+             Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
           </div>
           <p className="text-gray-300 leading-relaxed mb-4">
             There is a compounding effect here as well. When you become the primary AI-cited business
@@ -398,18 +398,18 @@ export default function Page() {
             review reinforces that position. Positive signals from real customers in your specific
             location tell AI platforms that their recommendation was correct, strengthening the
             feedback loop in your favor.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The city business spending thousands per month to hold their AI position while fighting
             off dozens of competitors is in a very different game than the small town business that
             needs only to become the most authoritative signal in a lightly contested market.
-          </p>
+           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Think of it this way. AI search works somewhat like water finding the path of least
             resistance. In a data-rich city environment, many paths exist, so AI spreads recommendations
             widely. In a small market with one strong data source, AI flows consistently toward that
             source. Become that source, and you capture most of the AI-driven traffic in your category.
-          </p>
+           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           {/* Bar chart: Competition density */}
           <div className="not-prose my-8 p-6 rounded-xl bg-white/5 border border-white/10">
@@ -446,7 +446,7 @@ export default function Page() {
                 <div className="ae-bar-value">200+ competitors</div>
               </div>
             </div>
-            <p className="text-gray-500 text-xs mt-4">Approximate figures for a single service category (e.g., plumbers, dentists, auto repair).</p>
+            <p className="text-gray-500 text-xs mt-4">Approximate figures for a single service category (e.g., plumbers, dentists, auto repair). <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
           </div>
         </section>
 
@@ -461,24 +461,24 @@ export default function Page() {
             it requires a threshold of evidence. If that threshold cannot be met with businesses
             in the specific location queried, it expands the search radius until it finds enough
             evidence to answer confidently.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The nearest city almost always clears that threshold. It has the reviews, the directories,
             the web content, the media mentions. So AI defaults there, often without acknowledging
             that it has shifted geography on the user.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This is not a bug in AI systems. It is a reasonable heuristic for serving users who
             need actionable answers. The problem is that it systematically disadvantages businesses
             in lower-data markets, regardless of their quality or proximity to the searcher.
-          </p>
+           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <div className="ae-quote mb-8">
             <p>
               &quot;AI does not know your business is great. It only knows what the internet has
               said about your business. In small markets, the internet has said very little, so AI
               defaults to the places it knows best.&quot;
-            </p>
+             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             <cite>Justin Borges</cite>
           </div>
 
@@ -488,14 +488,14 @@ export default function Page() {
             far more frequently than content about small towns, simply because more people write
             about major cities. This means AI models have richer internal knowledge about urban
             markets, and they draw on that knowledge when constructing recommendations.
-          </p>
+           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             For your small town business, this means you face two challenges at once. First, the
             live data sources AI queries at inference time (directories, reviews, GBP) have sparse
             entries for your location. Second, the underlying model&apos;s training data underrepresents
             your community. Addressing the first is within your control. Addressing the second
             happens naturally over time as you build more web presence.
-          </p>
+           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             For a deeper look at why this geographic defaulting happens at the algorithm level, see
             our article on{' '}
@@ -507,13 +507,13 @@ export default function Page() {
             </Link>
             . The mechanisms behind city-level defaulting apply even more strongly in rural and
             small-town contexts.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
         </section>
 
         {/* Inline CTA 2 */}
         <div className="ae-cta-inline mb-14">
-          <p className="text-white font-semibold mb-2">Is AI sending your customers to a business forty-five minutes away?</p>
-          <p className="text-gray-400 text-sm mb-4">Find out exactly what AI says when someone in your town searches for your services.</p>
+          <p className="text-white font-semibold mb-2">Is AI sending your customers to a business forty-five minutes away? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+          <p className="text-gray-400 text-sm mb-4">Find out exactly what AI says when someone in your town searches for your services. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
           <Link href="/blindspot" className="ae-cta-primary">
             Run the Free AI Blind Spot Test
           </Link>
@@ -529,11 +529,11 @@ export default function Page() {
             panel would. They evaluate evidence: structured, consistent, corroborated data signals
             that establish a business as a legitimate, relevant entity in a specific location for a
             specific service.
-          </p>
+           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
           <p className="text-gray-300 leading-relaxed mb-4">
             Several categories of evidence matter most. Each one is buildable, even in a small
             market.
-          </p>
+           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
 
           {/* Timeline: Signal types */}
           <div className="ae-timeline mb-8">
@@ -543,7 +543,7 @@ export default function Page() {
                 Your name, address, phone, hours, and service categories as listed in Google Business
                 Profile, Bing Places, Apple Maps, and major aggregators. This is the foundation.
                 Inconsistencies here confuse AI and reduce confidence in your listing.
-              </p>
+               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
             </div>
             <div className="ae-timeline-item">
               <h4 className="font-plus-jakarta font-semibold text-white mb-1">Review Volume and Recency</h4>
@@ -551,7 +551,7 @@ export default function Page() {
                 Not just the star rating. AI looks at how many reviews exist, how recent they are,
                 and whether reviewers mention the specific location and service. Reviews that say
                 &quot;best mechanic in Millbrook&quot; are more valuable than generic praise.
-              </p>
+               Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
             </div>
             <div className="ae-timeline-item">
               <h4 className="font-plus-jakarta font-semibold text-white mb-1">Third-Party Citations</h4>
@@ -560,7 +560,7 @@ export default function Page() {
                 service category, that is a citation. Local newspapers, community blogs, industry
                 directories, and partner websites all count. In small markets, these are rare and
                 therefore each one carries more relative weight.
-              </p>
+               <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
             </div>
             <div className="ae-timeline-item">
               <h4 className="font-plus-jakarta font-semibold text-white mb-1">Web Content Authority</h4>
