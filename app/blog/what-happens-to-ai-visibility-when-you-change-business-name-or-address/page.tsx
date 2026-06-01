@@ -325,6 +325,25 @@ export default function Page() {
            Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">What Happens During a Name Change</h2>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Stop Losing Customers to AI-Cited Competitors</h3>
+              <p>
+                Every day AI platforms answer questions in your niche and cite your competitors instead
+                of you. The Answer Engine builds the citation authority stack that puts your business
+                inside the answer — permanently. Book a free 30-minute call to see exactly what it takes.
+              </p>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
+                Book Free 30-Min Strategy Call →
+              </a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">
+                  Call (213) 444-2229
+                </a>
+                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">
+                  Run Free AERO Scan
+                </a>
+              </div>
+            </div>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             A business name change is one of the most disruptive events for AI visibility. Here is why: AI platforms build a profile of your business over time by connecting signals from multiple sources. Your old business name is the thread that ties all those signals together. When you change the name, you are effectively cutting that thread.
@@ -389,6 +408,25 @@ export default function Page() {
           </div>
 
           <h2 className="text-2xl font-bold text-white mt-16 mb-6">The Transition Playbook: How to Change Without Disappearing</h2>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>One Business Per Market — Is Yours Still Available?</h3>
+              <p>
+                The Answer Engine works with one client per territory. We install permanent citation
+                authority across ChatGPT, Perplexity, Google AI, and Claude. Once your market is
+                claimed, it is closed to competitors. Check your territory now.
+              </p>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
+                Check Territory Availability →
+              </a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://theanswerengine.ai/blindspot" className="ae-cta-secondary">
+                  Free AI Visibility Scan
+                </a>
+                <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">
+                  support@theanswerengine.ai
+                </a>
+              </div>
+            </div>
 
           <p className="text-gray-300 leading-relaxed mb-6">
             The businesses that survive a name or address change with their AI visibility intact are the ones that treat it like a coordinated operation, not a casual update. Here is the playbook:
@@ -461,6 +499,25 @@ export default function Page() {
 
           {/* FAQ Section */}
           <h2 className="text-2xl font-bold text-white mt-16 mb-8">Frequently Asked Questions</h2>
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Is Your Business Invisible to AI Search?</h3>
+              <p>
+                ChatGPT, Perplexity, and Google AI are recommending competitors in your market right now.
+                Our free Blind Spot Report shows exactly which queries you are losing, which competitors
+                are winning them, and what it takes to own your territory within 90 days.
+              </p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
+                Get Your Free Blind Spot Report →
+              </a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">
+                  Book a Free Strategy Call
+                </a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">
+                  (213) 444-2229
+                </a>
+              </div>
+            </div>
 
           <div className="space-y-6 mb-16">
             <div className="border border-gray-800 rounded-xl p-6">
@@ -511,7 +568,41 @@ export default function Page() {
             Get Your Free Blind Spot Report
           </Link>
         </div>
-      </article>
+      
+            <section className="ae-final-cta not-prose text-center py-12 border-t border-white/[0.05]">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Your Competitors Are Claiming AI Territory Right Now
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                The 90-day citation window is open in your market today. The business that builds
+                structured authority content first earns the citations — and holds them. Our free
+                Blind Spot Report shows exactly where you stand and what it takes to own your
+                territory before a competitor does.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free Blind Spot Report
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <div className="flex items-center justify-center gap-6 mt-6 text-sm text-gray-500">
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">
+                  Book Free Call
+                </a>
+                <span>·</span>
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">
+                  (213) 444-2229
+                </a>
+                <span>·</span>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">
+                  support@theanswerengine.ai
+                </a>
+              </div>
+            </section>
+</article>
     </main>
   )
 }
