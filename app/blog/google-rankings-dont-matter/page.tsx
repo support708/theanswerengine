@@ -204,6 +204,15 @@ export default function GoogleRankingsDontMatter() {
         <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/google-rankings-dont-matter.webp"
+              alt="google rankings dont matter"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
           {/* Featured Image */}
           <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.08] max-w-3xl mx-auto">
             <img

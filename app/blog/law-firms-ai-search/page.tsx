@@ -239,6 +239,15 @@ export default function Page() {
 
       {/* Article body */}
       <article className="max-w-4xl mx-auto px-6 py-4 prose prose-invert prose-lg max-w-none">
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/law-firms-ai-search.webp"
+              alt="law firms ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
         {/* TOC */}
         <div className="ae-toc not-prose">

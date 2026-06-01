@@ -55,7 +55,7 @@ export default function BlogPost() {
           "name": "The Answer Engine",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+            "url": 'https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt.webp'
           }
         },
         "datePublished": "2026-03-04",
@@ -166,6 +166,15 @@ export default function BlogPost() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">How to Get Recommended by ChatGPT</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/get-business-recommended-by-chatgpt.webp"
+              alt="get business recommended by chatgpt"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

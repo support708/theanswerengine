@@ -199,6 +199,15 @@ function Breadcrumb() {
         </li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/which-ai-assistant-is-best-for-finding-local-businesses.webp"
+              alt="which ai assistant is best for finding local businesses"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

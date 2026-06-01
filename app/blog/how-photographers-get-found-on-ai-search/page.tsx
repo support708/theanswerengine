@@ -217,6 +217,15 @@ export default function HowPhotographersGetFoundOnAISearch() {
               <span className="mx-2">&rsaquo;</span>
               <span className="text-gray-400">How Photographers Get Found on AI Search</span>
             </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-photographers-get-found-on-ai-search.webp"
+              alt="how photographers get found on ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
               <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Industry Guides</span>

@@ -181,6 +181,15 @@ export default function BlogPost() {
             <span>/</span>
             <span className="text-gray-500">Can You Pay to Get Recommended</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/can-you-pay-to-get-recommended-by-chatgpt.webp"
+              alt="can you pay to get recommended by chatgpt"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           <span className="inline-block bg-orange-400/10 text-orange-400 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase mb-6">Myth Busters</span>
 

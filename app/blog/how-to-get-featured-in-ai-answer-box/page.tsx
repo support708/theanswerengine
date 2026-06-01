@@ -39,6 +39,15 @@ export default function Page() {
       </header>
 
       <article className="max-w-4xl mx-auto px-6 py-4 prose prose-invert prose-lg max-w-none">
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-to-get-featured-in-ai-answer-box.webp"
+              alt="how to get featured in ai answer box"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
         <h2>Why Answer Boxes Matter</h2>
         <p>
           AI answer boxes are direct citations. When ChatGPT, Google AI, or Perplexity pulls a paragraph from your website into an answer box, users see your company name, your language, your framing. This is the highest-value citation because it drives direct traffic and brand recall.

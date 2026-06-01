@@ -158,6 +158,15 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Law Firm AI Search</span>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-to-get-your-law-firm-found-on-ai-search.webp"
+              alt="how to get your law firm found on ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

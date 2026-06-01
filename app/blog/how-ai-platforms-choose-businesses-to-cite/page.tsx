@@ -207,6 +207,15 @@ export default function HowAIChoosesBlogPost() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">How AI Platforms Choose Businesses to Cite</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-ai-platforms-choose-businesses-to-cite.webp"
+              alt="how ai platforms choose businesses to cite"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

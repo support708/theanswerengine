@@ -104,6 +104,15 @@ export default function BlogPost() {
           <span>/</span>
           <span className="text-gray-400">{title}</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/does-paying-for-yelp-ads-help-ai-find-you.webp"
+              alt="does paying for yelp ads help ai find you"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       {/* HERO */}

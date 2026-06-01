@@ -195,6 +195,15 @@ function Breadcrumb() {
         <li className="text-gray-400 truncate max-w-[250px]">SEO Agency vs AI Optimization</li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/seo-agency-vs-ai-optimization-which-one.webp"
+              alt="seo agency vs ai optimization which one"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

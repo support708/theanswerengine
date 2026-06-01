@@ -201,6 +201,15 @@ export default function Page() {
               <span className="mx-2">&rsaquo;</span>
               <span className="text-gray-400">Does Domain Age Matter for AI Search</span>
             </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/does-domain-age-matter-for-ai-search-visibility.webp"
+              alt="does domain age matter for ai search visibility"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
             {/* Category Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6" style={{ background: 'rgba(255,106,0,0.12)', border: '1px solid rgba(255,106,0,0.3)' }}>

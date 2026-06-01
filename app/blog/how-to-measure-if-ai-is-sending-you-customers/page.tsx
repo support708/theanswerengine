@@ -197,6 +197,15 @@ function Breadcrumb() {
         <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-to-measure-if-ai-is-sending-you-customers.webp"
+              alt="how to measure if ai is sending you customers"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

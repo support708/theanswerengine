@@ -177,6 +177,15 @@ export default function Page() {
           <li className="text-gray-400 truncate">Solar Installers on AI Search</li>
         </ol>
       </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-solar-panel-installers-get-found-on-ai-search.webp"
+              alt="how solar panel installers get found on ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
       {/* Hero */}
       <header className="max-w-4xl mx-auto px-6 pt-10 pb-8">

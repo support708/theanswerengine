@@ -152,6 +152,15 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">Why AI Says Wrong Things About Your Business</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/why-ai-says-wrong-things-about-business.webp"
+              alt="why ai says wrong things about business"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

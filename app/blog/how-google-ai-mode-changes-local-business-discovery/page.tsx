@@ -198,6 +198,15 @@ export default function Page() {
           <span>/</span>
           <span className="text-gray-400">How Google AI Mode Changes Local Business Discovery</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-google-ai-mode-changes-local-business-discovery.webp"
+              alt="how google ai mode changes local business discovery"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       {/* ── HEADER ── */}

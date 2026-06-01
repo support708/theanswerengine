@@ -164,6 +164,15 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Contractors &amp; AI Search</span>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-contractors-and-home-service-companies-win-ai-search.webp"
+              alt="how contractors and home service companies win ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

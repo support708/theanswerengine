@@ -89,7 +89,7 @@ const jsonLd = {
         name: 'The Answer Engine',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png',
+          url: 'https://theanswerengine.ai/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era.webp',
         },
       },
       datePublished: '2026-03-27',
@@ -202,6 +202,15 @@ function Breadcrumb() {
       <span>/</span>
       <span className="text-gray-400">Is Paying for SEO a Waste of Money Now?</span>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era.webp"
+              alt="is paying for seo a waste of money in the ai era"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

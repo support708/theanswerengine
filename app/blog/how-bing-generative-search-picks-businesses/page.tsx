@@ -154,6 +154,15 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">AI Algorithm Series</span>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-bing-generative-search-picks-businesses.svg"
+              alt="how bing generative search picks businesses"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   );
 }
 

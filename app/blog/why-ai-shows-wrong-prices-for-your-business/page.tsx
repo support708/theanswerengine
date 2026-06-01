@@ -189,6 +189,15 @@ export default function Page() {
           <li className="text-gray-400 truncate">Why AI Shows Wrong Prices for Your Business</li>
         </ol>
       </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/why-ai-shows-wrong-prices-for-your-business.webp"
+              alt="why ai shows wrong prices for your business"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
       {/* Hero */}
       <section className="max-w-4xl mx-auto px-6 py-12">

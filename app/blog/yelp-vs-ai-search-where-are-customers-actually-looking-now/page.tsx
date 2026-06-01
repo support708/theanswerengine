@@ -194,6 +194,15 @@ function Breadcrumb() {
         </li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/yelp-vs-ai-search-where-are-customers-actually-looking-now.webp"
+              alt="yelp vs ai search where are customers actually looking now"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

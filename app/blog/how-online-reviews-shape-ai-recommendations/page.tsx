@@ -192,6 +192,15 @@ function Breadcrumb() {
       <span className="mx-2">/</span>
       <span className="text-gray-400">How Online Reviews Shape AI Recommendations</span>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-online-reviews-shape-ai-recommendations.webp"
+              alt="how online reviews shape ai recommendations"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   );
 }
 

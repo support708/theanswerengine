@@ -55,7 +55,7 @@ export default function BlogPost() {
           "name": "The Answer Engine",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+            "url": 'https://theanswerengine.ai/blog/seo-not-generating-leads.webp'
           }
         },
         "datePublished": "2026-01-24",
@@ -164,6 +164,15 @@ export default function BlogPost() {
           <span>/</span>
           <span className="text-gray-400">Why Am I Paying for SEO But Not Getting Leads?</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/seo-not-generating-leads.webp"
+              alt="seo not generating leads"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       <header className="max-w-4xl mx-auto px-6 pb-12">

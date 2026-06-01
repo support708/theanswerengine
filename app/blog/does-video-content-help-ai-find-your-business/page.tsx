@@ -229,6 +229,15 @@ export default function Page() {
           <span>/</span>
           <span className="text-gray-400">{title}</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/does-video-content-help-ai-find-your-business.webp"
+              alt="does video content help ai find your business"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       {/* Hero */}

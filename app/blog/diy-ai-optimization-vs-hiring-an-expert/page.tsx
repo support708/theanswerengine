@@ -220,6 +220,15 @@ function Breadcrumb() {
         <li className="text-gray-400 truncate max-w-[250px]">DIY AI Optimization vs Hiring an Expert</li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/diy-ai-optimization-vs-hiring-an-expert.webp"
+              alt="diy ai optimization vs hiring an expert"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

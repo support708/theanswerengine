@@ -191,6 +191,15 @@ export default function BlogPost() {
           <span>/</span>
           <span className="text-gray-400">Will My Business Vanish If I Stop Doing SEO?</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/will-business-vanish-stop-doing-seo.webp"
+              alt="will business vanish stop doing seo"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       <header className="max-w-4xl mx-auto px-6 pb-12">

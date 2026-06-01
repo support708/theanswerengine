@@ -194,6 +194,15 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
           <span>/</span>
           <span className="text-gray-400">What Happens When a Customer Asks AI to Find a Business Like Yours</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/what-happens-when-customer-asks-ai-find-business.webp"
+              alt="what happens when customer asks ai find business"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       <header className="max-w-4xl mx-auto px-6 pb-12">

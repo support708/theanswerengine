@@ -152,6 +152,15 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Strategy &amp; Tactics</span>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/brand-mentions-vs-backlinks-ai-search.svg"
+              alt="brand mentions vs backlinks ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   );
 }
 

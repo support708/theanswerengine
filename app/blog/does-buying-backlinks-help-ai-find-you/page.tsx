@@ -57,7 +57,7 @@ const jsonLd = {
         '@type': 'Organization',
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
-        logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png' },
+        logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/blog/does-buying-backlinks-help-ai-find-you.webp' },
       },
       mainEntityOfPage: { '@type': 'WebPage', '@id': `https://theanswerengine.ai/blog/${slug}` },
       articleSection: 'Myth Busters',
@@ -138,7 +138,7 @@ const jsonLd = {
       '@type': 'Organization',
       name: 'The Answer Engine',
       url: 'https://theanswerengine.ai',
-      logo: 'https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png',
+      logo: 'https://theanswerengine.ai/blog/does-buying-backlinks-help-ai-find-you.webp',
       description: 'Answer Engine Optimization agency helping local businesses get cited by AI platforms like ChatGPT, Google AI Overviews, Claude, and Perplexity.',
       contactPoint: {
         '@type': 'ContactPoint',
@@ -190,6 +190,15 @@ export default function BlogPost() {
             <span>/</span>
             <span className="text-gray-500">Buying Backlinks and AI Search</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/does-buying-backlinks-help-ai-find-you.webp"
+              alt="does buying backlinks help ai find you"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           <span className="inline-block bg-orange-400/10 text-orange-400 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase mb-6">Myth Busters</span>
 

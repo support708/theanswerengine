@@ -142,6 +142,15 @@ export default function Page() {
           <span>/</span>
           <span className="text-gray-400">Does Social Media Help AI Recommend Your Business</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/does-social-media-help-ai-recommend-your-business.webp"
+              alt="does social media help ai recommend your business"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       {/* HEADER */}

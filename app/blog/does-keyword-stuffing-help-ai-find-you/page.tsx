@@ -184,6 +184,15 @@ export default function BlogPost() {
             <span>/</span>
             <span className="text-white/30">Keyword Stuffing Myth</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/does-keyword-stuffing-help-ai-find-you.webp"
+              alt="does keyword stuffing help ai find you"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">&#9679; MYTH BUSTERS // The Answer Engine Intel</span>
 

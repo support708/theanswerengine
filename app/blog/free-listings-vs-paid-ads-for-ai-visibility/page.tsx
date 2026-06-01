@@ -157,6 +157,15 @@ export default function Page() {
           <li className="text-gray-400 truncate">Free Listings vs Paid Ads for AI Visibility</li>
         </ol>
       </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/free-listings-vs-paid-ads-for-ai-visibility.webp"
+              alt="free listings vs paid ads for ai visibility"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
       {/* Hero */}
       <header className="max-w-4xl mx-auto px-6 pt-12 pb-8">

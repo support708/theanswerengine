@@ -208,6 +208,15 @@ export default function HowToGetInTheAnswerEngine() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">How to Get in the Answer Engine</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-to-get-in-the-answer-engine.webp"
+              alt="how to get in the answer engine"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

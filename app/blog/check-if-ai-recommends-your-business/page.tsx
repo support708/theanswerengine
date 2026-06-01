@@ -221,6 +221,15 @@ export default function CheckAIRecommendation() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">Check If AI Recommends You</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/check-if-ai-recommends-your-business.webp"
+              alt="check if ai recommends your business"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

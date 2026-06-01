@@ -198,6 +198,15 @@ export default function Page() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">Samsung Bixby and Galaxy AI</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-samsung-bixby-and-galaxy-ai-find-businesses.webp"
+              alt="how samsung bixby and galaxy ai find businesses"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Hero */}
           <header className="mb-12 relative overflow-hidden">

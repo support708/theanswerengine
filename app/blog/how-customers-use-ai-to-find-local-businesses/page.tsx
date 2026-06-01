@@ -90,6 +90,15 @@ export default function Page() {
           <span>/</span>
           <span className="text-gray-400">{title}</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-customers-use-ai-to-find-local-businesses.webp"
+              alt="how customers use ai to find local businesses"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       <header className="max-w-4xl mx-auto px-6 pb-12">

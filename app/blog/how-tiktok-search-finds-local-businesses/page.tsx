@@ -166,6 +166,15 @@ export default function BlogPost() {
           <span>/</span>
           <span className="text-gray-400">{title}</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-tiktok-search-finds-local-businesses.webp"
+              alt="how tiktok search finds local businesses"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       {/* HEADER */}

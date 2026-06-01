@@ -179,6 +179,15 @@ export default function ChatGPTCantSeeGBP() {
               <li className="text-gray-300 truncate max-w-xs sm:max-w-none">What ChatGPT Can See</li>
             </ol>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/chatgpt-cant-see-google-business-profile.webp"
+              alt="chatgpt cant see google business profile"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Hero Section */}
           <div className="relative overflow-hidden rounded-2xl mb-12" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>

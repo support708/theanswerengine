@@ -220,6 +220,15 @@ function Breadcrumb() {
         <li className="text-gray-300 truncate max-w-xs">{title}</li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/why-ai-keeps-recommending-the-same-3-businesses.webp"
+              alt="why ai keeps recommending the same 3 businesses"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

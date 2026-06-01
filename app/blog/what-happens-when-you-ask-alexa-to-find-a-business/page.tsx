@@ -219,6 +219,15 @@ function Breadcrumb() {
         <li className="text-gray-300 truncate max-w-xs">{title}</li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/what-happens-when-you-ask-alexa-to-find-a-business.webp"
+              alt="what happens when you ask alexa to find a business"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

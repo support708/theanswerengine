@@ -149,6 +149,15 @@ export default function HowAISearchChangesSalesFunnel() {
           <span>/</span>
           <span className="text-gray-400">How AI Search Changes the Sales Funnel</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-ai-search-changes-sales-funnel.webp"
+              alt="how ai search changes sales funnel"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       <header className="max-w-4xl mx-auto px-6 pb-12">

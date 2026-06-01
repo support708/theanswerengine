@@ -197,6 +197,15 @@ export default function Page() {
           <span>/</span>
           <span className="text-gray-400">AI Visibility After a Name or Address Change</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/what-happens-to-ai-visibility-when-you-change-business-name-or-address.webp"
+              alt="what happens to ai visibility when you change business name or address"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       {/* Hero */}

@@ -195,6 +195,15 @@ export default function Page() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">Why Your New Website Is Invisible to AI</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/why-new-website-invisible-to-ai.webp"
+              alt="why new website invisible to ai"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

@@ -176,6 +176,15 @@ export default function Page() {
           <li className="text-gray-400 truncate max-w-xs">{title}</li>
         </ol>
       </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-to-get-found-on-ai-for-near-me-searches.webp"
+              alt="how to get found on ai for near me searches"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
       {/* Hero */}
       <header className="max-w-4xl mx-auto px-6 py-14">

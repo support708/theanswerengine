@@ -104,6 +104,15 @@ export default function Page() {
       </header>
 
       <article className="max-w-4xl mx-auto px-6 py-4 prose prose-invert prose-lg max-w-none">
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-urgent-care-clinics-get-found-on-ai-search.webp"
+              alt="how urgent care clinics get found on ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
         <h2>Why Urgent Care Is Missing From AI Search</h2>
         <p>
           Urgent care clinics operate on walk-in traffic and Google Ads. But patients now ask ChatGPT and Perplexity "where can I find urgent care near me with short wait times?" Most urgent care clinics are completely invisible in those conversations.

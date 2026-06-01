@@ -187,6 +187,15 @@ export default function AEOvsSEO() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">AEO vs SEO</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/aeo-vs-seo.webp"
+              alt="aeo vs seo"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

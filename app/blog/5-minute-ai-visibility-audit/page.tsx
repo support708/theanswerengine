@@ -187,6 +187,15 @@ function Breadcrumb() {
         <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
       </ol>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/5-minute-ai-visibility-audit.webp"
+              alt="5 minute ai visibility audit"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 

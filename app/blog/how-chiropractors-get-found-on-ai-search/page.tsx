@@ -189,6 +189,15 @@ export default function Page() {
           <li className="text-gray-400 truncate">How Chiropractors Get Found on AI Search</li>
         </ol>
       </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-chiropractors-get-found-on-ai-search.webp"
+              alt="how chiropractors get found on ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
       {/* Hero */}
       <section className="max-w-4xl mx-auto px-6 py-12">

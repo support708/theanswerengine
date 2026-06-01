@@ -172,6 +172,15 @@ export default function AnswerEngineSolutionsPage() {
           <span>/</span>
           <span className="text-gray-400">Answer Engine Solutions</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/answer-engine-solutions.webp"
+              alt="answer engine solutions"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       {/* Hero */}

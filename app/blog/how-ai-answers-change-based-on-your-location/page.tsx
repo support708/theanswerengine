@@ -220,6 +220,15 @@ export default function Page() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">{title}</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-ai-answers-change-based-on-your-location.webp"
+              alt="how ai answers change based on your location"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Hero */}
           <header className="mb-12">

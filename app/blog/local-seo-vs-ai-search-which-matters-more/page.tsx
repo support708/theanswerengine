@@ -181,6 +181,15 @@ export default function LocalSEOvsAISearch() {
                 <li className="text-gray-400">Local SEO vs AI Search</li>
               </ol>
             </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/local-seo-vs-ai-search-which-matters-more.svg"
+              alt="local seo vs ai search which matters more"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
             <div className="flex gap-2 mb-8">
               <div className="w-1.5 h-1.5 bg-white/40" />

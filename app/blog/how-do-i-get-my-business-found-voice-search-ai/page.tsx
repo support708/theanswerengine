@@ -181,6 +181,15 @@ export default function Page() {
               <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
             </ol>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-do-i-get-my-business-found-voice-search-ai.webp"
+              alt="how do i get my business found voice search ai"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Hero Section */}
           <div

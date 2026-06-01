@@ -327,6 +327,15 @@ export default function Page() {
               </li>
             </ol>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/why-ai-recommends-closed-businesses-over-yours.webp"
+              alt="why ai recommends closed businesses over yours"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* SECTION 1 */}
           <section id="the-graveyard-problem" className="mb-14">

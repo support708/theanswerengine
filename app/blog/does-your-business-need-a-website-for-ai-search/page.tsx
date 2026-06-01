@@ -189,6 +189,15 @@ export default function Page() {
           <span>/</span>
           <span className="text-gray-400">Does Your Business Need a Website for AI Search?</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/does-your-business-need-a-website-for-ai-search.webp"
+              alt="does your business need a website for ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       {/* Hero */}

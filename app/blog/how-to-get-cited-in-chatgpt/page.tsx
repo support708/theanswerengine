@@ -86,7 +86,7 @@ const jsonLd = {
         url: 'https://theanswerengine.ai',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png',
+          url: 'https://theanswerengine.ai/blog/how-to-get-cited-in-chatgpt.svg',
         },
       },
       image: {
@@ -253,6 +253,15 @@ export default function Page() {
               </li>
             </ol>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-to-get-cited-in-chatgpt.svg"
+              alt="how to get cited in chatgpt"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Hero */}
           <div

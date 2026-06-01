@@ -39,6 +39,15 @@ export default function Page() {
       </header>
 
       <article className="max-w-4xl mx-auto px-6 py-4 prose prose-invert prose-lg max-w-none">
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/grok-3-ai-search-what-businesses-need-to-know.webp"
+              alt="grok 3 ai search what businesses need to know"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
         <h2>The Grok 3 Moment</h2>
         <p>
           Grok 3 launched in late 2025 with real-time X data access, 45% faster responses than GPT-4, and no content filters. For local service businesses, real estate, and e-commerce, Grok creates a new citation opportunity.

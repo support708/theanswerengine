@@ -185,6 +185,15 @@ export default function Page() {
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">What Content Does ChatGPT Read</span>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/what-content-does-chatgpt-read-on-my-website.webp"
+              alt="what content does chatgpt read on my website"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Header */}
           <header className="mb-12">

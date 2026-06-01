@@ -185,6 +185,15 @@ export default function Page() {
               <li className="text-gray-400 truncate max-w-[200px] sm:max-w-none">How Auto Repair Shops Get Found on AI Search</li>
             </ol>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/how-auto-repair-shops-get-found-on-ai-search.webp"
+              alt="how auto repair shops get found on ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Hero */}
           <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-[#1a1d27] to-[#0F1117] border border-white/5 mb-10 p-8 sm:p-12">

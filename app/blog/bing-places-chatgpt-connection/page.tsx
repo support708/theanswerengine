@@ -229,6 +229,15 @@ export default function BingPlacesChatGPTConnection() {
               <li className="text-gray-300 truncate max-w-xs sm:max-w-none">Bing Places &amp; ChatGPT Connection</li>
             </ol>
           </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/bing-places-chatgpt-connection.webp"
+              alt="bing places chatgpt connection"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
           {/* Hero Section */}
           <div

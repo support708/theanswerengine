@@ -149,6 +149,15 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
           <span>/</span>
           <span className="text-gray-400">Multi-Location Businesses &amp; AI Search</span>
         </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/why-multi-location-businesses-struggle-ai-search.webp"
+              alt="why multi location businesses struggle ai search"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
       </div>
 
       <header className="max-w-4xl mx-auto px-6 pb-12">

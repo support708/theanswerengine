@@ -93,7 +93,7 @@ const jsonLd = {
         name: 'The Answer Engine',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png',
+          url: 'https://theanswerengine.ai/blog/i-spent-thousands-on-seo-and-ai-still-cant-find-me.webp',
         },
       },
       datePublished: '2026-03-29T00:00:00Z',
@@ -247,6 +247,15 @@ export default function ISpentThousandsOnSEOPage() {
               <span>/</span>
               <span style={{ color: '#F27D24' }}>Business Pain Points</span>
             </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/i-spent-thousands-on-seo-and-ai-still-cant-find-me.webp"
+              alt="i spent thousands on seo and ai still cant find me"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
 
             {/* Category badge */}
             <div className="mb-4">

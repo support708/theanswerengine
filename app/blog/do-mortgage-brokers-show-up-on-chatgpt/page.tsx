@@ -157,6 +157,15 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <span className="text-gray-400">Mortgage Brokers &amp; AI Search</span>
     </nav>
+          {/* Championship Cover Image */}
+          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+            <img
+              src="/blog/do-mortgage-brokers-show-up-on-chatgpt.webp"
+              alt="do mortgage brokers show up on chatgpt"
+              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </div>
   )
 }
 
