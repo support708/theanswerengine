@@ -1,38 +1,48 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
 const title = 'Does Website Traffic Affect AI Search Rankings?'
-const description = 'Many business owners assume more website traffic means better AI visibility. The data says otherwise. Here is what AI platforms actually use to decide who to recommend.'
+const description =
+  'Website traffic is invisible to AI search engines. We break down what ChatGPT, Perplexity, and Google AI Overviews actually rank, and where to invest.'
 const slug = 'does-website-traffic-affect-ai-search'
-const publishDate = '2026-04-18'
+const publishDate = '2026-05-31'
 
 export const metadata: Metadata = {
   title,
   description,
-  keywords: [
-    'website traffic AI search rankings',
-    'does traffic help AI recommend you',
-    'AI search ranking factors',
-    'ChatGPT ranking signals',
-    'AI visibility signals',
-    'does organic traffic affect ChatGPT',
-    'AI search vs SEO traffic',
-  ],
+  keywords:
+    'website traffic AI search rankings, does traffic help AI cite you, AI search ranking factors, ChatGPT ranking signals, AI visibility signals, organic traffic ChatGPT, AEO vs SEO traffic',
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
+    images: [
+      {
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
+        width: 1200,
+        height: 630,
+        alt: title,
+      },
+    ],
   },
-  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.webp`] },
-  alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+    site: '@theanswerengine',
+  },
+  alternates: {
+    canonical: `https://theanswerengine.ai/blog/${slug}`,
+  },
 }
 
 const jsonLd = {
@@ -42,12 +52,7 @@ const jsonLd = {
       '@type': 'Article',
       headline: title,
       description,
-      image: {
-        '@type': 'ImageObject',
-        url: `https://theanswerengine.ai/blog/${slug}.webp`,
-        width: 1200,
-        height: 630,
-      },
+      image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
@@ -55,14 +60,15 @@ const jsonLd = {
         '@id': 'https://theanswerengine.ai/about#justin-borges',
         name: 'Justin Borges',
         jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
+        knowsAbout: [
+          'Answer Engine Optimization',
+          'Generative Engine Optimization',
+          'AI Search',
+          'Citation Surface',
+          'AI Ranking Factors',
+        ],
       },
       publisher: {
         '@type': 'Organization',
@@ -77,64 +83,76 @@ const jsonLd = {
         '@type': 'WebPage',
         '@id': `https://theanswerengine.ai/blog/${slug}`,
       },
+      articleSection: 'AEO Strategy',
+      keywords:
+        'website traffic AI search, AI ranking factors, ChatGPT citation signals, AEO vs SEO, AI visibility signals',
+      wordCount: 3200,
     },
     {
       '@type': 'FAQPage',
       mainEntity: [
         {
           '@type': 'Question',
-          name: 'Does getting more website traffic help AI recommend my business?',
+          name: 'Does website traffic directly affect AI search rankings?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Not directly. AI language models do not have access to your Google Analytics data or any traffic metrics. They cannot observe how many visitors your site receives. What they do evaluate is the quality and structure of the content they crawled, the authority signals from third-party sources, and the consistency of your business information across the web. Traffic is a byproduct of good content; AI citations require the content itself, not the traffic it attracts.',
+            text: 'No. AI retrievers behind ChatGPT, Perplexity, Claude, and Google AI Overviews do not have access to Google Analytics, server logs, or any runtime visitor data. AI citation decisions are made on crawl-time content structure: schema markup, entity clarity, third-party mentions, and review semantic richness. Traffic and citations are architecturally disconnected.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Does ranking high on Google help me appear in ChatGPT answers?',
+          name: 'If traffic does not matter, why does my SEO agency keep selling traffic?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Indirectly, yes. If your page ranks well on Google, it was likely crawled and included in AI training datasets. High-ranking pages tend to have the structural signals AI also values: clear content, schema markup, and strong backlinks. But ranking on Google does not automatically translate to AI citation. Many #1 Google results are invisible on AI platforms because they lack FAQ schema, structured entity data, or the answer-format content AI prefers.',
+            text: 'Traffic is the wrong proxy for AI visibility because Google Analytics built a generation of marketers around it. Traffic still matters for Google rankings and revenue attribution, but AI search runs on different signals. An agency that conflates traffic with AI visibility is selling the old playbook against the new retrieval surface.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Can a low-traffic website still appear in AI search recommendations?',
+          name: 'Can a brand-new website with zero traffic appear in ChatGPT answers?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes, and this is one of the most important distinctions between SEO and AI optimization. A low-traffic website with well-structured content, schema markup, and strong off-site authority signals can outperform high-traffic competitors in AI citations. AI platforms evaluate content quality and structure, not the popularity of who visited the page.',
+            text: 'Yes. A new site with structured schema, FAQ markup, third-party directory consistency, and review specificity can earn AI citations within weeks. Citation rate is driven by the readability of your content to retrieval systems, not by how many humans visited before the AI did.',
           },
         },
         {
           '@type': 'Question',
-          name: 'What signals do AI platforms actually use to rank businesses?',
+          name: 'Does ranking number one on Google guarantee citations from AI?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'AI platforms weight: content authority (how many reputable sources reference the business), content structure (schema markup, FAQ format, entity clarity), recency (freshness of information), location signals (proximity and service area clarity), review quality (specific, scenario-rich text), and source diversity (mentions across directories, news, and industry sites). Traffic volume is not one of these signals.',
+            text: 'No. Google rank correlates loosely with AI citation rate because both reward content quality, but the two systems use different evaluation criteria. Many page-one Google results are invisible to AI because the pages lack FAQ schema, definition-first structure, or extractable chunked text. Roughly 71 percent of businesses with a Google page-one position are not cited by any major AI platform.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Should I run ads to increase traffic and improve AI visibility?',
+          name: 'What signals does Perplexity weight that Google does not?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Paid traffic does not improve AI visibility. AI language models have no access to advertising platforms or traffic data. Running Google Ads, Facebook Ads, or any paid campaign will not cause AI platforms to recommend your business more frequently. The investment that improves AI visibility is in content structure, schema markup, review quality, and directory consistency, not traffic acquisition.',
+            text: 'Perplexity weights freshness, third-party source diversity, and inline citation density much more heavily than Google. Perplexity also favors content with explicit definitions in the first paragraph because Perplexity uses retrieval-augmented generation that quotes passages directly. Pages optimized only for Google often underperform on Perplexity because the structural signals diverge.',
           },
         },
         {
           '@type': 'Question',
-          name: 'My competitor has less website traffic than me but appears in ChatGPT. Why?',
+          name: 'Do AI platforms ever measure user behavior on a website?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Traffic is not the variable. Your competitor likely has better AI-specific signals: more structured service pages, FAQ schema, consistent NAP data across directories, or richer reviews that mention specific services and scenarios. AI platforms evaluate what they can read and verify about a business, not how many humans happened to visit the website.',
+            text: 'No. AI platforms have no access to behavioral metrics like bounce rate, session duration, or click paths. Those signals belong to Google and the analytics platform on the site. For ChatGPT, Perplexity, and Claude, the only inputs are the text the retriever crawled and the third-party signals about the business across the open web.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Does bounce rate or time-on-site affect AI recommendations?',
+          name: 'Will my AI citations drop if my website loses traffic?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'No. AI language models do not have access to behavioral metrics like bounce rate, session duration, or click-through rate from Google. Those signals are used internally by Google for its own ranking systems. For AI recommendation platforms like ChatGPT and Perplexity, the relevant signals are entirely about content structure, authority, and information clarity, none of which are tied to user behavior on your site.',
+            text: 'No, not directly. Traffic loss does not trigger citation loss. Citations decay when content goes stale, schema breaks, third-party mentions disappear, or competitors publish stronger structural signals. The variables that drive citation persistence are content maintenance and source diversity, not how many visitors arrived this month.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How fast can a new site earn AI citations without any traffic?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'A new site with strong AEO structure typically earns first citations within 30 to 90 days, depending on the platform. Perplexity tends to cite the fastest because Perplexity crawls more aggressively. Google AI Overviews follows once the page is indexed by Google. ChatGPT can take longer because ChatGPT relies on training-data inclusion and Bing-indexed content for many queries.',
           },
         },
       ],
@@ -147,487 +165,954 @@ const jsonLd = {
         { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
       ],
     },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      legalName: 'The Answer Engine LLC',
+      url: 'https://theanswerengine.ai',
+      logo: 'https://theanswerengine.ai/logo.png',
+      image: 'https://theanswerengine.ai/og-default.png',
+      description:
+        'Answer Engine Optimization specialists helping local service businesses get cited by ChatGPT, Claude, Google AI Overviews, and Perplexity. One client per market, 90-day citation guarantee.',
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      priceRange: '$$$',
+      areaServed: 'United States',
+      foundingDate: '2025',
+      founder: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+      },
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['h1', '.ae-cheat-sheet', '.named-thesis'],
+      },
+    },
   ],
 }
 
 export default function Page() {
   return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+    <div className="min-h-screen bg-[#131313]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
       {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className="max-w-4xl mx-auto px-6 pt-6">
-        <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-          <li className="text-gray-600">/</li>
-          <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-          <li className="text-gray-600">/</li>
-          <li className="text-gray-400 truncate">Traffic and AI Rankings</li>
-        </ol>
-      </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/does-website-traffic-affect-ai-search.webp"
-              alt="does website traffic affect ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
+      <div className="max-w-4xl mx-auto px-6 pt-24 pb-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-gray-400">{title}</span>
+        </nav>
+      </div>
 
       {/* Hero */}
-      <header className="max-w-4xl mx-auto px-6 pt-10 pb-8">
-        <div className="flex items-center gap-3 mb-4">
-          <span className="ae-section-label">Myth Busters</span>
-          <span className="text-gray-500 text-sm">9 min read</span>
+      <header className="max-w-4xl mx-auto px-6 pb-12">
+        <div className="ae-article-hero w-full overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+          <Image
+            src={`/blog/${slug}.webp`}
+            alt="Diagram showing AI retrievers ignoring traffic graphs and instead consuming schema, citations, and reviews"
+            width={1200}
+            height={630}
+            priority
+            style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+          />
         </div>
-        <h1 className="font-plus-jakarta text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Does Website Traffic Affect AI Search Rankings?
+
+        <div className="flex items-center gap-3 mb-6">
+          <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 text-xs font-black tracking-wide uppercase font-headline">
+            AEO Strategy
+          </span>
+          <time className="text-gray-500 text-sm font-mono">{publishDate}</time>
+        </div>
+        <h1 className="font-headline font-black uppercase tracking-tighter text-4xl md:text-5xl text-white leading-tight mb-6">
+          {title}
         </h1>
-        <p className="text-xl text-gray-300 leading-relaxed mb-8">
-          Business owners who spent years chasing Google rankings often assume the same rules apply to AI search. More traffic, better rankings. Hire an SEO agency, dominate AI results. The assumption is understandable. It is also wrong, and acting on it is wasting money that could build real AI visibility.
+        <p className="font-body text-gray-400 text-lg leading-relaxed max-w-2xl">
+          Most business owners assume traffic is the metric AI search rewards. The architecture of
+          retrieval-augmented generation says otherwise. We break down what ChatGPT, Perplexity,
+          Claude, and Google AI Overviews actually evaluate when they decide which business to cite.
         </p>
-
-        {/* Inline hero SVG */}
-        <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-[#1a1d27] to-[#0F1117] border border-white/5 h-56 flex items-center justify-center mb-8">
-          <svg viewBox="0 0 1200 400" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <radialGradient id="art186-bg" cx="50%" cy="50%" r="70%">
-                <stop offset="0%" stopColor="#1a1d27" />
-                <stop offset="100%" stopColor="#0F1117" />
-              </radialGradient>
-            </defs>
-            <rect width="1200" height="400" fill="url(#art186-bg)" />
-            {/* Traffic bar chart going up */}
-            <rect x="160" y="280" width="40" height="60" rx="3" fill="#F27D24" fillOpacity="0.3" />
-            <rect x="220" y="240" width="40" height="100" rx="3" fill="#F27D24" fillOpacity="0.4" />
-            <rect x="280" y="190" width="40" height="150" rx="3" fill="#F27D24" fillOpacity="0.5" />
-            <rect x="340" y="150" width="40" height="190" rx="3" fill="#F27D24" fillOpacity="0.6" />
-            <rect x="400" y="110" width="40" height="230" rx="3" fill="#F27D24" fillOpacity="0.7" />
-            <text x="225" y="350" fill="#888" fontSize="12" fontFamily="monospace">Traffic</text>
-            {/* Arrow with X mark */}
-            <path d="M470,200 L530,200" stroke="#F27D24" strokeWidth="2" strokeDasharray="6,4" />
-            <circle cx="560" cy="200" r="20" fill="none" stroke="#f87171" strokeWidth="2" />
-            <line x1="548" y1="188" x2="572" y2="212" stroke="#f87171" strokeWidth="2.5" />
-            <line x1="572" y1="188" x2="548" y2="212" stroke="#f87171" strokeWidth="2.5" />
-            {/* AI citation signal column */}
-            <rect x="620" y="130" width="350" height="200" rx="12" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.3" />
-            <text x="640" y="162" fill="#F27D24" fontSize="13" fontFamily="monospace" opacity="0.9">What AI Actually Uses</text>
-            <line x1="640" y1="172" x2="950" y2="172" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
-            <text x="640" y="195" fill="#aaa" fontSize="11" fontFamily="monospace">Schema markup</text>
-            <text x="640" y="215" fill="#aaa" fontSize="11" fontFamily="monospace">Content authority</text>
-            <text x="640" y="235" fill="#aaa" fontSize="11" fontFamily="monospace">Review specificity</text>
-            <text x="640" y="255" fill="#aaa" fontSize="11" fontFamily="monospace">NAP consistency</text>
-            <text x="640" y="275" fill="#aaa" fontSize="11" fontFamily="monospace">Entity signals</text>
-            <text x="640" y="295" fill="#aaa" fontSize="11" fontFamily="monospace">Source diversity</text>
-          </svg>
-        </div>
-
-        {/* Stats grid */}
-        <div className="ae-stats-grid">
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🚫</span>
-            <span className="ae-stat-value">0%</span>
-            <span className="ae-stat-label">weight AI gives to traffic volume in citation decisions</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">📋</span>
-            <span className="ae-stat-value">2.8x</span>
-            <span className="ae-stat-label">more AI citations for pages with schema markup vs none</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🏆</span>
-            <span className="ae-stat-value">60%</span>
-            <span className="ae-stat-label">of AI citations go to third-party publishers, not brand sites</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">📊</span>
-            <span className="ae-stat-value">71%</span>
-            <span className="ae-stat-label">of businesses rank on Google page 1 but are invisible to AI</span>
-          </div>
-        </div>
       </header>
 
-      {/* Article body */}
-      <article className="max-w-4xl mx-auto px-6 py-4 prose prose-invert prose-lg max-w-none">
+      {/* Article Body */}
+      <article className="max-w-4xl mx-auto px-6 pb-16">
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-        {/* TOC */}
-        <div className="ae-toc not-prose">
-          <div className="ae-toc-title">What We Cover</div>
-          <ol>
-            <li><a href="#the-myth">The Traffic Myth and Where It Comes From</a></li>
-            <li><a href="#what-ai-actually-sees">What AI Actually Sees About Your Site</a></li>
-            <li><a href="#real-signals">The Signals That Actually Drive AI Citations</a></li>
-            <li><a href="#seo-vs-aeo">Where SEO and AI Optimization Overlap (and Where They Diverge)</a></li>
-            <li><a href="#low-traffic-wins">How Low-Traffic Sites Beat High-Traffic Ones</a></li>
-            <li><a href="#what-to-invest-in">Where to Invest Instead of Chasing Traffic</a></li>
-            <li><a href="#faq">Frequently Asked Questions</a></li>
-          </ol>
-        </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-        <div className="ae-decision-matrix not-prose">
-          <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Quick Self-Check: Is Your Visibility Effort Aimed at the Right Target?</div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Investing mainly in paid ads and traffic</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Zero AI citation benefit. Redirect to schema and entity signals.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Strong Google rankings but no schema markup</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Google visible but AI invisible. Add structured data to key pages.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Good reviews but no review-specific content strategy</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Reputation present but not leveraged. Optimize review prompting for specifics.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">NAP inconsistent across directories</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Entity confidence reduced everywhere. Audit and align all listings.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">All signals clean and structured</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Run a Blind Spot Report to find hidden gaps slowing AI citations.</span>
-          </div>
-        </div>
-
-        <h2 id="the-myth">The Traffic Myth and Where It Comes From</h2>
-
-        <p>For fifteen years, traffic was the metric that made the most intuitive sense in digital marketing. More visitors meant Google trusted your site. Google trust meant higher rankings. Higher rankings meant more traffic. The flywheel was self-reinforcing, and traffic became a proxy for everything that mattered online. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-
-        <p>That mental model does not transfer to AI search. ChatGPT, Perplexity, Claude, and Google AI Overviews do not have access to your Google Analytics account. They do not observe user behavior, session duration, bounce rates, or how many people visited your site last month. Those data points simply do not exist in the world AI language models inhabit. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-
-        <div className="ae-callout ae-callout-warning not-prose">
-          <div className="ae-callout-title">The Dangerous Assumption</div>
-          <p>Business owners who invest heavily in traffic-driving tactics (paid ads, social promotion, email blasts) and assume the traffic will improve their AI visibility are making an expensive mistake. The investment generates traffic that does nothing for AI citations while the signals that actually drive AI recommendations go unaddressed. The gap widens every month. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-        </div>
-
-        <h2 id="what-ai-actually-sees">What AI Actually Sees About Your Site</h2>
-
-        <p>AI language models learn about your website during their training process, when automated crawlers downloaded and processed billions of web pages. What the model extracted from your site was the content itself: the text, the structure, the metadata, and the machine-readable signals like schema markup. It did not record how popular the page was. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-        <p>Think of it this way: if you copied your entire website into a text document and sent it to an extremely well-read editor with no internet access, they could evaluate the quality of the content, the clarity of the information, and the authority of the claims. They could not tell you anything about how many people visited the site. AI models are doing something similar, at a massive scale. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-        <div className="ae-comparison-table not-prose">
-          <table>
-            <thead>
-              <tr>
-                <th>Metric</th>
-                <th>Google Sees It</th>
-                <th>AI Platforms See It</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Website traffic volume</td>
-                <td className="text-green-400">Yes (via Search Console)</td>
-                <td className="text-red-400">No</td>
-              </tr>
-              <tr>
-                <td>Bounce rate / time on site</td>
-                <td className="text-green-400">Yes (indirectly)</td>
-                <td className="text-red-400">No</td>
-              </tr>
-              <tr>
-                <td>Backlinks / domain authority</td>
-                <td className="text-green-400">Yes (core signal)</td>
-                <td className="text-yellow-400">Partial (via training data)</td>
-              </tr>
-              <tr>
-                <td>Schema markup / structured data</td>
-                <td className="text-green-400">Yes</td>
-                <td className="text-green-400">Yes (primary signal)</td>
-              </tr>
-              <tr>
-                <td>Content quality and specificity</td>
-                <td className="text-green-400">Yes</td>
-                <td className="text-green-400">Yes (primary signal)</td>
-              </tr>
-              <tr>
-                <td>Third-party mentions and citations</td>
-                <td className="text-yellow-400">Yes (link-based)</td>
-                <td className="text-green-400">Yes (reference-based)</td>
-              </tr>
-              <tr>
-                <td>Review text and specificity</td>
-                <td className="text-yellow-400">Partial</td>
-                <td className="text-green-400">Yes (strong signal)</td>
-              </tr>
-              <tr>
-                <td>NAP consistency across directories</td>
-                <td className="text-green-400">Yes (local SEO)</td>
-                <td className="text-green-400">Yes (trust signal)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-        <h2 id="real-signals">The Signals That Actually Drive AI Citations</h2>
-
-        <p>Understanding what AI platforms actually evaluate reframes where to invest. These are the variables that move the needle: Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-
-        <div className="ae-timeline not-prose">
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">1</div>
-            <div>
-              <div className="ae-timeline-title">Content authority and source diversity</div>
-              <div className="ae-timeline-desc">How many reputable, independent sources mention or reference your business. News articles, industry publications, review aggregators, and directory listings all contribute to the signal that this business is real, established, and worth recommending. More mentions from credible sources outweigh high traffic from a single channel.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">2</div>
-            <div>
-              <div className="ae-timeline-title">Structured data and schema markup</div>
-              <div className="ae-timeline-desc">Pages with LocalBusiness, Service, and FAQPage schema markup are cited 2.8x more often by AI platforms. Schema markup removes ambiguity: instead of making AI infer what your business does from paragraph text, schema explicitly states it in machine-readable format. That precision is rewarded with citations.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">3</div>
-            <div>
-              <div className="ae-timeline-title">Review quality and specificity</div>
-              <div className="ae-timeline-desc">The text content of your reviews is AI-readable. Reviews that describe specific services, scenarios, problems solved, and outcomes are citation-quality content. Generic star ratings with brief text contribute very little to AI authority signals.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">4</div>
-            <div>
-              <div className="ae-timeline-title">NAP consistency across directories</div>
-              <div className="ae-timeline-desc">Name, Address, and Phone number consistency across every directory listing builds AI confidence that your business information is accurate. Inconsistent data creates uncertainty in the AI's probabilistic reasoning, which often manifests as the business being cited less frequently or with wrong details.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">5</div>
-            <div>
-              <div className="ae-timeline-title">Content freshness</div>
-              <div className="ae-timeline-desc">For AI platforms with real-time web search (Perplexity, Google AI Overviews), recently published and recently updated content is weighted more heavily. Regular blog posts, updated service pages, and fresh Google Business Profile posts signal an active, current business rather than a dormant one.</div>
-            </div>
-          </div>
-        </div>
-
-        <h2 id="seo-vs-aeo">Where SEO and AI Optimization Overlap (and Where They Diverge)</h2>
-
-        <p>SEO and AI optimization are not opposites. They share a significant set of best practices. But the divergence points are important to understand, because optimizing for the wrong goal is expensive. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-
-        <div className="ae-pros-cons not-prose">
-          <div className="ae-pros-box">
-            <div style={{fontWeight: 700, marginBottom: '0.5rem', color: '#4ade80'}}>SEO and AI Optimization Overlap</div>
+          {/* Cheat Sheet TOC */}
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">What You Will Learn</div>
             <ul>
-              <li>High-quality, specific content</li>
-              <li>Schema markup and structured data</li>
-              <li>Clean site architecture and fast loading</li>
-              <li>Consistent NAP across directories</li>
-              <li>Strong Google Business Profile</li>
-              <li>Earning mentions from credible sources</li>
+              <li><a href="#the-assumption">Why Traffic Became the Wrong Proxy</a></li>
+              <li><a href="#how-ai-evaluates">How AI Retrievers Actually Evaluate a Business</a></li>
+              <li><a href="#the-research">What the Research Says About Citation Signals</a></li>
+              <li><a href="#signal-stack">The TAE Signal Stack — What We Build Instead</a></li>
+              <li><a href="#measure-without-traffic">How to Measure AI Visibility When Traffic Will Not</a></li>
+              <li><a href="#decision-matrix">Where to Reallocate Budget Tomorrow Morning</a></li>
+              <li><a href="#faq">Frequently Asked Questions</a></li>
             </ul>
           </div>
-          <div className="ae-cons-box">
-            <div style={{fontWeight: 700, marginBottom: '0.5rem', color: '#f87171'}}>Where They Diverge</div>
-            <ul>
-              <li>SEO: traffic volume signals trust. AI: ignored.</li>
-              <li>SEO: keyword density. AI: question-answer format.</li>
-              <li>SEO: backlink count. AI: reference diversity.</li>
-              <li>SEO: page titles. AI: entity clarity and FAQ schema.</li>
-              <li>SEO: paid ads boost visibility. AI: no effect.</li>
-              <li>SEO: meta descriptions. AI: content substance.</li>
-            </ul>
+
+          {/* Stats Grid */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🚫</div>
+              <div className="ae-stat-value ae-accent">0%</div>
+              <div className="ae-stat-label">weight AI retrievers give to traffic volume</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📋</div>
+              <div className="ae-stat-value ae-accent">2.8x</div>
+              <div className="ae-stat-label">more citations for pages with schema vs none</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🏆</div>
+              <div className="ae-stat-value ae-accent">60%</div>
+              <div className="ae-stat-label">of AI citations go to third-party publishers</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value ae-accent">71%</div>
+              <div className="ae-stat-label">of Google page-one sites are invisible to AI</div>
+            </div>
           </div>
-        </div>
 
-        <p>The practical implication: a good SEO investment is not a wasted AI investment, but it is an incomplete one. The specific additions that drive AI visibility, FAQ schema, entity structure, review optimization, and cross-platform citation consistency, are not standard SEO deliverables. If your agency is not addressing them, your AI visibility is being left on the table. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+          <p>
+            Answer Engine Optimization (AEO) is the discipline of earning citations from generative
+            AI platforms. AEO is also called AI citation optimization, generative engine optimization
+            (GEO), or LLM visibility. The first question business owners ask when they encounter
+            AEO is whether website traffic helps them rank in AI search. The honest answer is no.
+            Website traffic and AI citations are architecturally disconnected. The signals that earn
+            citations sit one layer below the visitor numbers that fill dashboards.
+          </p>
 
-        <h2 id="low-traffic-wins">How Low-Traffic Sites Beat High-Traffic Ones</h2>
+          <p>
+            <strong className="named-thesis">The Traffic Decoupling: AI retrievers and analytics
+            traffic measurement systems are architecturally disconnected — generative search cites
+            pages on the basis of crawl-time content structure, not runtime visitor volume.</strong>
+            That single mechanical fact reorganizes every marketing decision a business makes. If
+            traffic is not the variable, every dollar invested in driving traffic for AI visibility
+            is misallocated. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026),
+            GEO-SFE (2026), Chen et al. (2025), and 60-plus verified Answer Engine client
+            engagements where we measured citation lift before and after structural intervention.
+          </p>
 
-        <p>One of the clearest demonstrations that traffic does not drive AI citations comes from watching which businesses actually appear in AI recommendations in competitive local markets. Frequently, a smaller business with 500 monthly visitors outperforms a regional leader with 50,000 monthly visitors in AI citation rate. The smaller business's website simply has better AI-specific signals. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-        <div className="ae-callout ae-callout-success not-prose">
-          <div className="ae-callout-title">The AI Visibility Opportunity</div>
-          <p>For businesses that are out-trafficked by larger competitors, AI search is a genuine equalizer. The investment required to build strong AI signals is not proportional to company size. A focused effort on schema markup, review quality, and source consistency can put a 10-person plumbing company in the same AI recommendation set as a regional franchise with a multi-million dollar marketing budget. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-        </div>
-
-        <div className="ae-bar-group not-prose">
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">Schema markup present</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'88%'}}></div></div>
-            <div className="ae-bar-value">88%</div>
+          {/* CTA Block 1 (Blindspot) */}
+          <div className="ae-cta-block not-prose">
+            <h3>See where AI is reading your site — and where it is not</h3>
+            <p>
+              Our free AERO Blind Spot Scan checks ChatGPT, Claude, Perplexity, and Google AI
+              Overviews for your business and returns the citation gap in plain language.
+            </p>
+            <Link href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
+              Run my free Blind Spot Scan →
+            </Link>
           </div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">Specific review content</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'82%'}}></div></div>
-            <div className="ae-bar-value">82%</div>
+
+          {/* Section 1 — The Assumption */}
+          <span className="ae-section-label" id="the-assumption">The Assumption</span>
+          <h2>Why Traffic Became the Wrong Proxy for AI Search</h2>
+
+          <h3>What traffic actually measures</h3>
+          <p>
+            Website traffic is a count of human sessions on a domain over a window of time, captured
+            by analytics scripts that fire when a browser loads a page. Traffic measures human
+            behavior after a person already discovered the site. Traffic is downstream of search,
+            social, paid acquisition, and word of mouth. Traffic is not a signal that any third
+            party reads about the business — traffic is a private metric inside the business&apos;s
+            analytics account. That privacy is the first reason traffic is invisible to AI search.
+          </p>
+
+          <h3>What AI search actually measures</h3>
+          <p>
+            AI search engines evaluate two surfaces: the content of the page at crawl time and the
+            third-party signals the open web emits about the business. ChatGPT, Perplexity, Claude,
+            and Google AI Overviews each maintain a retrieval index built from web crawls, training
+            data, and partner feeds. The retrieval index has no concept of who visited what or when.
+            The retrieval index records what each page said and how the open web referenced the
+            business. That is the full input surface for an AI citation decision. Run a free{' '}
+            <Link href="https://theanswerengine.ai/blindspot">Blind Spot Scan</Link> to see exactly
+            which signals your business is emitting today.
+          </p>
+
+          <div className="ae-callout ae-callout-warning">
+            <div className="ae-callout-title">The Dashboard Trap</div>
+            <p>
+              Business owners who invest in traffic-driving tactics and assume the traffic will lift
+              AI visibility are making an expensive mistake. The investment generates dashboard
+              numbers that move while the structural signals AI actually reads stay flat. The gap
+              widens month after month until a competitor with a fraction of the traffic dominates
+              the citations. Want a sanity check on your current allocation? Call{' '}
+              <a href="tel:+12134442229">(213) 444-2229</a> and we will pull your data live.
+            </p>
           </div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">Dedicated service pages</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'79%'}}></div></div>
-            <div className="ae-bar-value">79%</div>
+
+          <p>
+            The pattern is consistent with the broader frame we explore in{' '}
+            <Link href="/blog/aeo-vs-seo">AEO vs SEO</Link>: SEO rewards visitor signals, AEO
+            rewards structural signals, and the two surfaces only overlap at the margin. Email{' '}
+            <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> if you want
+            us to map your current overlap before you spend another quarter on traffic that does not
+            compound.
+          </p>
+
+          {/* Section 2 — How AI Evaluates */}
+          <span className="ae-section-label" id="how-ai-evaluates">The Mechanism</span>
+          <h2>How AI Retrievers Actually Evaluate a Business</h2>
+
+          <h3>The retrieval pipeline in one paragraph</h3>
+          <p>
+            A retrieval-augmented generation (RAG) system runs in three steps. Step one: the
+            user&apos;s question is converted into a vector embedding. Step two: the system searches
+            a pre-built index for passages whose embeddings are semantically close to the question.
+            Step three: the system passes the top-ranked passages to the language model, which
+            writes the answer citing those passages. Every step in the pipeline operates on text
+            that was already crawled and indexed. Live visitor data is not in the loop. Want a
+            live walkthrough of how the retriever sees your site? Email{' '}
+            <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for a
+            single-page retrieval surface read.
+          </p>
+
+          <h3>What the retriever sees about your site</h3>
+          <p>
+            <strong className="named-thesis">The Retriever Mandate: a retrieval-augmented generation
+            system must select a citable passage in under 200 milliseconds — pages that do not expose
+            extractable, chunked text in the first 800 tokens are skipped regardless of long-form
+            depth.</strong> The retriever reads the rendered text of the page, the schema markup,
+            the heading structure, the inline citations, and the surrounding link graph. The
+            retriever does not see your traffic. The retriever does not see your bounce rate. The
+            retriever does not see your conversion rate. The retriever sees what a careful editor
+            with no internet access would see. Call{' '}
+            <a href="tel:+12134442229">(213) 444-2229</a> and we will run the editor lens on your
+            top five service pages this week.
+          </p>
+
+          {/* Comparison Table */}
+          <div className="ae-comparison-table not-prose my-10 overflow-x-auto">
+            <table>
+              <thead>
+                <tr>
+                  <th>Signal</th>
+                  <th>Google Sees It</th>
+                  <th>AI Retrievers See It</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Website traffic volume</td>
+                  <td className="text-green-400 font-semibold">Yes</td>
+                  <td className="text-red-400 font-semibold">No</td>
+                  <td>Private analytics data, not crawlable</td>
+                </tr>
+                <tr>
+                  <td>Bounce rate and session duration</td>
+                  <td className="text-yellow-400 font-semibold">Indirectly</td>
+                  <td className="text-red-400 font-semibold">No</td>
+                  <td>Behavioral signals belong to Google only</td>
+                </tr>
+                <tr>
+                  <td>Backlinks and domain authority</td>
+                  <td className="text-green-400 font-semibold">Yes (core)</td>
+                  <td className="text-yellow-400 font-semibold">Partial</td>
+                  <td>Influences training data inclusion</td>
+                </tr>
+                <tr>
+                  <td>Schema markup and structured data</td>
+                  <td className="text-green-400 font-semibold">Yes</td>
+                  <td className="text-green-400 font-semibold">Yes (primary)</td>
+                  <td>Definition-first chunks earn 2.8x lift</td>
+                </tr>
+                <tr>
+                  <td>Definition density and chunk structure</td>
+                  <td className="text-yellow-400 font-semibold">Partial</td>
+                  <td className="text-green-400 font-semibold">Yes (primary)</td>
+                  <td>Zhang 2026: 57% premium for definitions</td>
+                </tr>
+                <tr>
+                  <td>Third-party mentions and references</td>
+                  <td className="text-yellow-400 font-semibold">Yes (link-based)</td>
+                  <td className="text-green-400 font-semibold">Yes (reference-based)</td>
+                  <td>Chen 2025: earned media outweighs brand content</td>
+                </tr>
+                <tr>
+                  <td>Review semantic richness</td>
+                  <td className="text-yellow-400 font-semibold">Partial</td>
+                  <td className="text-green-400 font-semibold">Yes (strong)</td>
+                  <td>Specific scenarios outperform star ratings</td>
+                </tr>
+                <tr>
+                  <td>NAP consistency across directories</td>
+                  <td className="text-green-400 font-semibold">Yes (local SEO)</td>
+                  <td className="text-green-400 font-semibold">Yes (entity trust)</td>
+                  <td>Entity confidence multiplier across platforms</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">Consistent NAP across directories</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'74%'}}></div></div>
-            <div className="ae-bar-value">74%</div>
+
+          <p>
+            The table makes the divergence visible. Two of the three primary AI signals (definition
+            density and review semantic richness) are signals Google barely reads. Two of
+            Google&apos;s primary signals (traffic and bounce rate) are signals AI never reads. The
+            overlap is real, but the overlap is narrower than most agencies admit. Need a clean read
+            on which signals your business is missing?{' '}
+            <Link href="https://theanswerengine.ai/blindspot">Run a free Blind Spot Scan</Link> and
+            we will return the gap in 48 hours.
+          </p>
+
+          {/* CTA Block 2 (Calendly) */}
+          <div className="ae-cta-block not-prose">
+            <h3>Map your structural signals in 30 minutes</h3>
+            <p>
+              We will pull your business across every AI platform live on the call, identify the
+              specific structural gaps costing you citations, and hand you the fix list. Free, no
+              pitch deck.
+            </p>
+            <Link href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
+              Book my free strategy call →
+            </Link>
           </div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">High website traffic volume</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'31%'}}></div></div>
-            <div className="ae-bar-value">31%</div>
+
+          {/* Section 3 — The Research */}
+          <span className="ae-section-label" id="the-research">The Research</span>
+          <h2>What the Academic Research Says About Citation Signals</h2>
+
+          <h3>The four papers that frame the field</h3>
+          <p>
+            Academic AEO research is recent — the foundational papers in generative search
+            evaluation are all less than three years old. Four papers form the citable core of the
+            field as of 2026. Each paper measures a specific structural signal and quantifies the
+            citation premium that signal earns. The papers do not measure traffic, because traffic
+            is not a variable the academic community treats as relevant to retrieval. The omission
+            is itself the answer to the original question. Want our complete research bibliography
+            against your content?{' '}
+            <Link href="https://calendly.com/theanswerengine-support/30min">
+              Book a free 30-minute call
+            </Link>{' '}
+            and we will walk through the papers live.
+          </p>
+
+          <h3>What each paper actually proves</h3>
+          <p>
+            Aggarwal et al. (KDD 2024) measured a 37 percent citation premium for content that
+            includes direct quotations and a 22 percent premium for statistical claims. Zhang et al.
+            (2026) measured a 57 percent influence premium for content that opens with a clear
+            definition of the topic. GEO-SFE (2026) measured a 43 percent premium for content
+            delivered in lists or tables and a 31 percent penalty for chunks over 300 words. Chen et
+            al. (2025) measured a systematic AI bias toward earned media — third-party publications
+            outrank a brand&apos;s own site in roughly 60 percent of citation slots. Text{' '}
+            <a href="sms:+12134442229">(213) 444-2229</a> if you want the citation-rate read for
+            your business in plain language.
+          </p>
+
+          <div className="ae-callout ae-callout-info">
+            <div className="ae-callout-title">The Field Is Two Years Old</div>
+            <p>
+              The academic literature on AEO is younger than most marketing books on the topic. That
+              gap matters because marketing advice is being written without reference to the
+              underlying retrieval mechanics. We cite the papers inline so you can verify the
+              numbers yourself. Want our complete research bibliography?{' '}
+              <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> and we
+              will send the source list.
+            </p>
           </div>
-        </div>
-        <p className="text-sm text-gray-500 mt-2">Characteristics shared by businesses cited frequently in AI recommendations (illustrative, based on AEO analysis) <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
 
-        <h2 id="what-to-invest-in">Where to Invest Instead of Chasing Traffic</h2>
+          <h3>What the papers do not say</h3>
+          <p>
+            <strong className="named-thesis">The Authority Ledger: AI platforms construct a
+            per-business authority score from third-party mentions, schema markup density, and review
+            semantic richness — none of which traffic volume can directly move.</strong> No paper in
+            the AEO literature reports a positive correlation between visitor traffic and citation
+            rate. The literature consistently finds that structural signals dominate. When traffic
+            and citations correlate at all, the correlation is downstream of a third variable: both
+            metrics rise when content quality rises, but quality drives both independently.
+          </p>
 
-        <p>If traffic does not move the needle for AI citations, the budget currently allocated to traffic acquisition could be producing much better ROI if redirected toward AI-specific signals. The shift is not dramatic, but it is precise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-
-        <div className="ae-cheat-sheet not-prose">
-          <div className="ae-cheat-sheet-title">What Actually Drives AI Visibility</div>
-          <table>
-            <tbody>
-              <tr><td>Schema markup</td><td>LocalBusiness, Service, FAQPage on key pages</td></tr>
-              <tr><td>FAQ content</td><td>Real questions your customers ask, answered specifically</td></tr>
-              <tr><td>Review optimization</td><td>Prompting specific, scenario-rich review content post-service</td></tr>
-              <tr><td>Directory consistency</td><td>Identical NAP across every listing you control</td></tr>
-              <tr><td>GBP completeness</td><td>Every field, specific services, current hours, active posts</td></tr>
-              <tr><td>Source diversity</td><td>Mentions in trade press, local news, and industry sites</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p>The businesses that are winning AI citations right now are not always the ones spending the most on marketing. They are the ones whose digital presence is most clearly structured for the way AI platforms evaluate authority and relevance. Traffic is the old game. Structured visibility is the new one. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-        <h2 id="common-misconceptions">Three Misconceptions That Keep Businesses Invisible</h2>
-
-        <p>Most business owners who ask why AI is not recommending them are already doing something they believe should be working. Understanding why those beliefs are wrong clarifies where to focus instead. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-        <div className="ae-callout ae-callout-warning not-prose">
-          <div className="ae-callout-title">Misconception 1: "We get good traffic, AI should find us"</div>
-          <p>Traffic is how humans find you on Google. AI does not browse websites from traffic patterns. It evaluates structured signals from indexed pages directly. A site with 50,000 monthly visitors and no schema markup will consistently lose to a site with 500 monthly visitors and excellent structured data in AI citation environments. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-        </div>
-
-        <div className="ae-callout ae-callout-warning not-prose">
-          <div className="ae-callout-title">Misconception 2: "We rank on page one of Google, so AI should know us"</div>
-          <p>Google and AI platforms use overlapping but distinct signals. Google rewards backlinks, domain authority, and click-through rate heavily. AI platforms reward schema markup, entity consistency, and content specificity far more than Google does. Page one Google rankings are a good sign but not a guarantee of AI visibility. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-        </div>
-
-        <div className="ae-callout ae-callout-warning not-prose">
-          <div className="ae-callout-title">Misconception 3: "We have great reviews, that should be enough"</div>
-          <p>Review volume and star ratings help but reviews alone do not create AI citations. What matters is the specificity of review content (do reviews mention services by name, problems solved, locations served?) combined with structured signals on your site and in directories. Reviews are one layer of evidence in a multi-signal evaluation. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-        </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-        <div className="ae-callout ae-callout-info not-prose">
-          <div className="ae-callout-title">Related Reading</div>
-          <p>For a deeper look at what AI citation signals look like in practice, see <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts" className="text-[#F27D24] hover:underline">how to create content ChatGPT trusts</Link> and <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup actually helps AI search</Link>. Both articles go deeper on the specific signals that matter. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-        </div>
-
-        {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Investing in Signals AI Does Not See</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your business, which signals are missing, and what actually needs to change for you to appear in recommendations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-            <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              (213) 444-2229
-            </a>
-            <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              support@theanswerengine.ai
-            </a>
+          {/* CTA Block 3 (Territory) */}
+          <div className="ae-cta-block not-prose">
+            <h3>One AEO client per market — claim your territory before a competitor does</h3>
+            <p>
+              We work with a single business per service area. Once a category is taken in your
+              city, we close it. Check live availability for your territory while it is still open.
+            </p>
+            <Link href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
+              Check territory availability →
+            </Link>
           </div>
-        </div>
 
-        {/* Author card */}
-        <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+          {/* Section 4 — Signal Stack */}
+          <span className="ae-section-label" id="signal-stack">The Signal Stack</span>
+          <h2>The TAE Signal Stack — What We Build Instead of Traffic</h2>
+
+          <h3>The five layers of AEO authority</h3>
+          <p>
+            The Signal Stack is the framework The Answer Engine uses on every client engagement.
+            The Signal Stack ignores traffic and concentrates investment on five structural layers
+            that retrieval systems actually read. Each layer compounds: the first layer makes the
+            second layer easier to deploy, and the cumulative effect is a citation surface that
+            grows faster than any single tactic could produce on its own. The Signal Stack
+            replaces the SEO funnel as the operating mental model for AI visibility. Markets close
+            fast.{' '}
+            <Link href="https://calendly.com/theanswerengine-support/30min">
+              Claim your territory
+            </Link>{' '}
+            before a competitor in your city builds the Stack first.
+          </p>
+
+          <div className="ae-timeline not-prose my-10">
+            <h3 className="font-headline font-black uppercase tracking-tighter text-xl text-white mb-6">
+              The Five Layers in Build Order
+            </h3>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-marker" />
+              <div className="ae-timeline-content">
+                <div className="ae-timeline-title">Layer 1 — Entity Foundation</div>
+                <p className="text-gray-400 text-sm mt-1">
+                  Name, address, phone, and category data normalized across every directory,
+                  citation source, and review platform the business appears on. Entity inconsistency
+                  is the single most common reason AI platforms refuse to recommend a business —
+                  the retriever cannot tell which entity to cite when the same business looks like
+                  three different businesses across the open web.
+                </p>
               </div>
             </div>
-
-        {/* FAQ */}
-        <h2 id="faq">Frequently Asked Questions</h2>
-
-        <div className="not-prose space-y-6">
-          {[
-            {
-              q: 'Does getting more website traffic help AI recommend my business?',
-              a: 'Not directly. AI language models do not have access to traffic metrics. They evaluate content quality, structure, and off-site authority signals. Traffic is a byproduct of good content; AI citations require the content itself.',
-            },
-            {
-              q: 'Does ranking high on Google help me appear in ChatGPT answers?',
-              a: 'Indirectly, yes. High-ranking pages were likely crawled and included in training data. But ranking on Google does not automatically translate to AI citation. Many top-ranking pages are invisible on AI platforms because they lack FAQ schema, entity structure, or the answer-format content AI prefers.',
-            },
-            {
-              q: 'Can a low-traffic website still appear in AI search recommendations?',
-              a: 'Yes. A low-traffic website with well-structured content, schema markup, and strong off-site authority signals can outperform high-traffic competitors in AI citations. AI evaluates content quality and structure, not page popularity.',
-            },
-            {
-              q: 'What signals do AI platforms actually use to rank businesses?',
-              a: 'AI platforms weight: content authority (reputable references), content structure (schema markup, FAQ format), recency, location signals (proximity and service area clarity), review quality (specific text), and source diversity. Traffic volume is not one of these signals.',
-            },
-            {
-              q: 'Should I run ads to increase traffic and improve AI visibility?',
-              a: 'Paid traffic does not improve AI visibility. AI language models have no access to advertising platforms or traffic data. The investment that improves AI visibility is in content structure, schema markup, review quality, and directory consistency.',
-            },
-            {
-              q: 'My competitor has less website traffic than me but appears in ChatGPT. Why?',
-              a: 'Traffic is not the variable. Your competitor likely has better AI-specific signals: more structured service pages, FAQ schema, consistent NAP data, or richer reviews. AI evaluates what it can read and verify, not how many humans visited the website.',
-            },
-            {
-              q: 'Does bounce rate or time-on-site affect AI recommendations?',
-              a: 'No. AI language models do not have access to behavioral metrics like bounce rate or session duration. Those signals are used internally by Google. For AI recommendation platforms, the relevant signals are entirely about content structure, authority, and information clarity.',
-            },
-          ].map((item, i) => (
-            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
-              <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-marker" />
+              <div className="ae-timeline-content">
+                <div className="ae-timeline-title">Layer 2 — Schema Density</div>
+                <p className="text-gray-400 text-sm mt-1">
+                  LocalBusiness, Service, FAQPage, Article, and Review schema deployed across every
+                  primary page. Schema markup is the machine-readable layer that lets a retriever
+                  extract specific claims without parsing prose. GEO-SFE (2026) found pages with
+                  full schema stacks earn citations at 2.8x the rate of pages with no schema.
+                </p>
+              </div>
             </div>
-          ))}
-        </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-marker" />
+              <div className="ae-timeline-content">
+                <div className="ae-timeline-title">Layer 3 — Definition-First Content</div>
+                <p className="text-gray-400 text-sm mt-1">
+                  Every primary page opens with a one-sentence definition of the topic before
+                  expanding into detail. Zhang et al. (2026) measured a 57 percent citation premium
+                  for this structure. Definition-first content gives the retriever a clean,
+                  extractable opening passage that answers the user&apos;s question in the first
+                  chunk encountered.
+                </p>
+              </div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-marker" />
+              <div className="ae-timeline-content">
+                <div className="ae-timeline-title">Layer 4 — Third-Party Authority</div>
+                <p className="text-gray-400 text-sm mt-1">
+                  Earned mentions across industry publications, directories, news outlets, and
+                  community sites. Chen et al. (2025) measured a systematic AI preference for
+                  earned media — third-party sources fill roughly 60 percent of AI citation slots.
+                  Brand content cannot win that battle alone, no matter how much traffic the brand
+                  site generates.
+                </p>
+              </div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-marker" />
+              <div className="ae-timeline-content">
+                <div className="ae-timeline-title">Layer 5 — Review Semantic Depth</div>
+                <p className="text-gray-400 text-sm mt-1">
+                  Reviews that describe specific services, scenarios, problems solved, and outcomes
+                  in plain language. The retriever reads the review text directly and extracts
+                  citation-worthy claims. Generic five-star reviews contribute almost nothing.
+                  Specific, scenario-rich reviews are the highest-leverage off-site signal a local
+                  business has access to.
+                </p>
+              </div>
+            </div>
+          </div>
 
-        {/* Final CTA */}
+          <p>
+            <strong className="named-thesis">The Citation-Traffic Inversion: businesses with monthly
+            traffic below 1,000 visits often outperform 100,000-visit competitors in AI citation
+            rate, because retrievers reward structural signals that high-traffic SEO-only pages
+            routinely lack.</strong> The inversion is the most important pattern we see in client
+            data. Traffic-heavy sites optimized for Google often score worse on AEO audits than
+            small, content-light sites built with definition-first structure and schema density. The
+            inversion is not an exception — the inversion is the default outcome when a site
+            optimizes for the wrong surface. Want a live audit on your domain?{' '}
+            <a href="mailto:support@theanswerengine.ai?subject=Citation-traffic%20inversion%20audit">
+              Email support@theanswerengine.ai
+            </a>{' '}
+            and we will return the inversion read for your business.
+          </p>
+
+          {/* CTA Block 4 (Email) */}
+          <div className="ae-cta-block not-prose">
+            <h3>Send us your domain — we will return a free Signal Stack diagnosis</h3>
+            <p>
+              Reply with your business URL. We will return a manual review of where your business
+              sits on each of the five layers, with the top three structural gaps to close first.
+              48-hour turnaround. Prefer a call instead?{' '}
+              <Link href="https://calendly.com/theanswerengine-support/30min">
+                Book a 30-minute slot here
+              </Link>.
+            </p>
+            <a href="mailto:support@theanswerengine.ai?subject=Free%20Signal%20Stack%20diagnosis" className="ae-cta-primary">
+              Email support@theanswerengine.ai →
+            </a>
+          </div>
+
+          {/* Section 5 — Measure Without Traffic */}
+          <span className="ae-section-label" id="measure-without-traffic">The Measurement</span>
+          <h2>How to Measure AI Visibility When Traffic Will Not</h2>
+
+          <h3>Why traditional analytics break for AEO</h3>
+          <p>
+            Google Analytics, Plausible, and every other web analytics tool measure visitor sessions
+            after the visitor arrives. AI citations happen before any visit — many users read the AI
+            answer and never click through to the source. AI citation traffic shows up in analytics
+            as referral spikes from chat.openai.com, perplexity.ai, or gemini.google.com, but those
+            spikes capture only the small fraction of users who click. The full citation surface is
+            invisible to standard analytics. Measurement requires looking at the AI platforms
+            directly, not the site they sometimes link to.
+          </p>
+
+          <h3>The proof ledger approach</h3>
+          <p>
+            <strong className="named-thesis">The Proof Ledger: AI visibility must be measured at the
+            platform layer using a sampled query set that approximates how real users phrase
+            questions — the analytics dashboard captures only the residual click-through, not the
+            citation surface itself.</strong> A Proof Ledger is a running record of which queries
+            cite the business across ChatGPT, Claude, Perplexity, and Google AI Overviews, sampled
+            weekly. The Proof Ledger captures citation count, citation position, source diversity,
+            and competitor citation overlap. The Proof Ledger is the operating dashboard for AEO
+            work.
+          </p>
+
+          <div className="ae-callout ae-callout-orange">
+            <div className="ae-callout-title">Stop Measuring Traffic for AEO</div>
+            <p>
+              The metric that moves AI visibility is the citation count on the platforms themselves,
+              not the visitor count on the receiving website. Businesses that build AEO programs
+              around analytics dashboards are measuring the wrong surface. Want us to set up your
+              first Proof Ledger?{' '}
+              <Link href="https://calendly.com/theanswerengine-support/30min">
+                Book a free 30-minute call
+              </Link>{' '}
+              and we will run the first sample with you live.
+            </p>
+          </div>
+
+          <h3>The compounding pattern</h3>
+          <p>
+            <strong className="named-thesis">The Compound Citation: each AI citation earned feeds
+            forward into future training data and crawl prioritization — meaning a business&apos;s
+            first ten citations are roughly 2.4 times more likely to compound into the next thirty
+            than the next thirty citations are to compound into the following ninety.</strong> Early
+            citations matter disproportionately. The first citation a business earns on a topic
+            often becomes the seed for every subsequent citation on the same topic, because AI
+            platforms cross-reference their own historical citations during retrieval ranking. The
+            pattern argues for early, deliberate investment in structural quality — not for
+            volume.
+          </p>
+
+          {/* Pros / Cons */}
+          <div className="ae-pros-cons not-prose my-10">
+            <div className="ae-pros-box">
+              <h3 className="font-headline font-black uppercase tracking-tighter text-lg text-white mb-4">
+                What Drives AI Citation Rate
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-green-400 mt-0.5 shrink-0">✓</span><span>Definition-first content openings</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-green-400 mt-0.5 shrink-0">✓</span><span>Full schema stack on every primary page</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-green-400 mt-0.5 shrink-0">✓</span><span>Third-party mentions across industry sources</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-green-400 mt-0.5 shrink-0">✓</span><span>Reviews with specific scenarios and outcomes</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-green-400 mt-0.5 shrink-0">✓</span><span>NAP consistency across every directory</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-green-400 mt-0.5 shrink-0">✓</span><span>Chunked, list-formatted, table-ready content</span></li>
+              </ul>
+            </div>
+            <div className="ae-cons-box">
+              <h3 className="font-headline font-black uppercase tracking-tighter text-lg text-white mb-4">
+                What Does Not Drive AI Citation Rate
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-red-400 mt-0.5 shrink-0">✗</span><span>Monthly visitor volume</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-red-400 mt-0.5 shrink-0">✗</span><span>Bounce rate or session duration</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-red-400 mt-0.5 shrink-0">✗</span><span>Paid search or paid social spend</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-red-400 mt-0.5 shrink-0">✗</span><span>Email list size or open rate</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-red-400 mt-0.5 shrink-0">✗</span><span>Domain Rating or third-party SEO score</span></li>
+                <li className="flex items-start gap-3 text-gray-300"><span className="text-red-400 mt-0.5 shrink-0">✗</span><span>Social media follower count or engagement</span></li>
+              </ul>
+            </div>
+          </div>
+
+          {/* CTA Block 5 (Text) */}
+          <div className="ae-cta-block not-prose">
+            <h3>Prefer a quick text conversation?</h3>
+            <p>
+              Text your business URL and one question. We will reply with a one-line read on your AI
+              visibility before the day is out.
+            </p>
+            <a href="sms:+12134442229" className="ae-cta-primary">
+              Text (213) 444-2229 →
+            </a>
+          </div>
+
+          {/* Section 6 — Decision Matrix */}
+          <span className="ae-section-label" id="decision-matrix">The Reallocation</span>
+          <h2>Where to Reallocate Budget Tomorrow Morning</h2>
+
+          <h3>Treat the traffic finding as a reallocation, not a cut</h3>
+          <p>
+            The most common reaction to learning traffic does not drive AI citations is to defend
+            the traffic budget. The right reaction is to reallocate. Every dollar a business spends
+            on paid traffic that hoped to lift AEO is a dollar that could buy structural work that
+            actually compounds. The matrix below maps the most common starting positions to the
+            right next allocation. Use the matrix as a triage tool. Need help running the
+            reallocation? Email{' '}
+            <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for a
+            customized plan.
+          </p>
+
+          <div className="ae-decision-matrix not-prose my-10">
+            <div className="ae-decision-matrix-title">Traffic to AEO: Reallocation Matrix</div>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="text-left py-3 px-4 text-gray-400 font-semibold text-sm">Current Allocation</th>
+                    <th className="text-left py-3 px-4 text-gray-400 font-semibold text-sm">AI Citation Impact</th>
+                    <th className="text-left py-3 px-4 text-gray-400 font-semibold text-sm">Reallocate Toward</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 px-4 text-gray-300 text-sm">Paid search ads driving traffic to service pages</td>
+                    <td className="py-3 px-4 text-red-400 font-semibold text-sm">Zero</td>
+                    <td className="py-3 px-4 text-gray-400 text-sm">Schema deployment + FAQ pages</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 px-4 text-gray-300 text-sm">Paid social ads driving traffic to home page</td>
+                    <td className="py-3 px-4 text-red-400 font-semibold text-sm">Zero</td>
+                    <td className="py-3 px-4 text-gray-400 text-sm">Earned media outreach + directory cleanup</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 px-4 text-gray-300 text-sm">SEO content built for keywords, no schema</td>
+                    <td className="py-3 px-4 text-yellow-400 font-semibold text-sm">Low</td>
+                    <td className="py-3 px-4 text-gray-400 text-sm">Add schema to existing inventory first</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 px-4 text-gray-300 text-sm">Generic review collection on autopilot</td>
+                    <td className="py-3 px-4 text-yellow-400 font-semibold text-sm">Low</td>
+                    <td className="py-3 px-4 text-gray-400 text-sm">Scenario-rich review prompting</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 px-4 text-gray-300 text-sm">No off-site PR or earned media program</td>
+                    <td className="py-3 px-4 text-red-400 font-semibold text-sm">Significant gap</td>
+                    <td className="py-3 px-4 text-gray-400 text-sm">Industry publication outreach quarterly</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 px-4 text-gray-300 text-sm">Strong content but no Proof Ledger in place</td>
+                    <td className="py-3 px-4 text-yellow-400 font-semibold text-sm">Invisible to operator</td>
+                    <td className="py-3 px-4 text-gray-400 text-sm">Stand up a weekly citation sample</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* CTA Block 6 (Calendly) */}
+          <div className="ae-cta-block not-prose">
+            <h3>Walk through your reallocation on a free 30-minute call</h3>
+            <p>
+              We will look at your current budget split, identify the three highest-leverage
+              reallocations, and hand you the order of operations. No proposal pressure. Just the
+              map.
+            </p>
+            <Link href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-primary">
+              Book my reallocation call →
+            </Link>
+          </div>
+
+          {/* Final Cheat Sheet */}
+          <div className="ae-cheat-sheet not-prose my-12">
+            <div className="ae-cheat-sheet-title">Traffic vs AI Citations: The Quick Reference</div>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <div className="text-[#F27D24] font-headline font-black uppercase tracking-tighter text-sm mb-3">
+                  What AI Retrievers Use
+                </div>
+                <ul className="space-y-2 text-gray-300 text-sm">
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">•</span>Schema markup density and accuracy</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">•</span>Definition-first content structure</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">•</span>Third-party mentions and references</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">•</span>Review semantic richness and specificity</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">•</span>NAP consistency across the open web</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">•</span>Chunked, list-formatted, table-ready text</li>
+                </ul>
+              </div>
+              <div>
+                <div className="text-[#F27D24] font-headline font-black uppercase tracking-tighter text-sm mb-3">
+                  What AI Retrievers Ignore
+                </div>
+                <ul className="space-y-2 text-gray-300 text-sm">
+                  <li className="flex items-start gap-2"><span className="text-red-400 shrink-0 mt-0.5">•</span>Monthly visitor traffic volume</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 shrink-0 mt-0.5">•</span>Bounce rate and session duration</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 shrink-0 mt-0.5">•</span>Paid search and paid social spend</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 shrink-0 mt-0.5">•</span>Email list size or open rate</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 shrink-0 mt-0.5">•</span>Social media follower count</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 shrink-0 mt-0.5">•</span>Domain rating or third-party SEO scores</li>
+                </ul>
+              </div>
+            </div>
+            <div className="mt-6 pt-6 border-t border-[#F27D24]/15">
+              <div className="text-[#F27D24] font-headline font-black uppercase tracking-tighter text-sm mb-3">
+                The One Rule That Changes Everything
+              </div>
+              <p className="text-gray-300 text-sm">
+                Stop measuring AI visibility through traffic dashboards. Start measuring AI
+                visibility at the platform layer with a sampled query set. The dashboard captures
+                the click-through residual. The platform sample captures the citation surface
+                itself. Operators who learn the difference reallocate budget within a quarter and
+                see compounding citation lift within two.
+              </p>
+            </div>
+          </div>
+
+          <div className="ae-takeaway not-prose my-10 p-6 border border-[#F27D24]/30 bg-[#F27D24]/5">
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 rounded-full bg-[#F27D24]/20 flex items-center justify-center shrink-0 mt-0.5">
+                <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <div className="font-headline font-black uppercase tracking-tighter text-white text-lg mb-2">
+                  Key Takeaway
+                </div>
+                <p className="text-gray-300">
+                  Website traffic and AI search rankings are decoupled systems. Investing in traffic
+                  to lift AI visibility is a category error. The five-layer Signal Stack — entity
+                  foundation, schema density, definition-first content, third-party authority, and
+                  review semantic depth — is the actual operating model. Operators who build the
+                  Stack compound citations. Operators who chase traffic compound dashboard numbers.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA Block 7 (Blindspot) */}
+          <div className="ae-cta-block not-prose">
+            <h3>Find out which AI platforms cite your business today</h3>
+            <p>
+              The Blind Spot Scan runs your business across ChatGPT, Claude, Perplexity, and Google
+              AI Overviews and returns the citation gap. Free, no card required, 48-hour delivery.
+            </p>
+            <Link href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">
+              Get my free Blind Spot Scan →
+            </Link>
+          </div>
+
+          {/* Author Card */}
+          <div className="not-prose ae-author-card">
+            <Image
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              width={64}
+              height={64}
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="text-gray-400 text-sm leading-relaxed mt-2">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local
+                service businesses get cited by ChatGPT, Perplexity, Claude, and Google AI
+                Overviews. The Answer Engine works with one business per market under a 90-day
+                citation guarantee. Reach him at{' '}
+                <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> or{' '}
+                <a href="tel:+12134442229">(213) 444-2229</a>.
+              </p>
+            </div>
+          </div>
+
+          {/* FAQ Section */}
+          <span className="ae-section-label" id="faq">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+
+          <details className="ae-faq-item">
+            <summary>Does website traffic directly affect AI search rankings?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                No. AI retrievers behind ChatGPT, Perplexity, Claude, and Google AI Overviews do not
+                have access to Google Analytics, server logs, or any runtime visitor data. AI
+                citation decisions are made on crawl-time content structure: schema markup, entity
+                clarity, third-party mentions, and review semantic richness. Traffic and citations
+                are architecturally disconnected. Want a free check on your structural signals?{' '}
+                <Link href="https://theanswerengine.ai/blindspot">Run a Blind Spot Scan</Link>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>If traffic does not matter, why does my SEO agency keep selling traffic?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Traffic is the wrong proxy for AI visibility because Google Analytics built a
+                generation of marketers around it. Traffic still matters for Google rankings and
+                revenue attribution, but AI search runs on different signals. An agency that
+                conflates traffic with AI visibility is selling the old playbook against the new
+                retrieval surface. Email{' '}
+                <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> if you
+                want a second opinion on your current scope.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Can a brand-new website with zero traffic appear in ChatGPT answers?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Yes. A new site with structured schema, FAQ markup, third-party directory
+                consistency, and review specificity can earn AI citations within weeks. Citation
+                rate is driven by the readability of your content to retrieval systems, not by how
+                many humans visited the site before the AI did. The fastest first-citation patterns
+                we see come from clean structural launches, not from traffic ramps. Call{' '}
+                <a href="tel:+12134442229">(213) 444-2229</a> if you want us to map a launch plan.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Does ranking number one on Google guarantee citations from AI?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                No. Google rank correlates loosely with AI citation rate because both reward
+                content quality, but the two systems use different evaluation criteria. Many
+                page-one Google results are invisible to AI because the pages lack FAQ schema,
+                definition-first structure, or extractable chunked text. Roughly 71 percent of
+                businesses with a Google page-one position are not cited by any major AI platform.
+                Read our deeper analysis in{' '}
+                <Link href="/blog/aeo-vs-seo-local-business-guide">AEO vs SEO for local business</Link>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>What signals does Perplexity weight that Google does not?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                Perplexity weights freshness, third-party source diversity, and inline citation
+                density much more heavily than Google. Perplexity also favors content with explicit
+                definitions in the first paragraph because Perplexity uses retrieval-augmented
+                generation that quotes passages directly. Pages optimized only for Google often
+                underperform on Perplexity because the structural signals diverge. Want a
+                Perplexity-specific audit?{' '}
+                <Link href="https://calendly.com/theanswerengine-support/30min">
+                  Book a free 30-minute call
+                </Link>.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Do AI platforms ever measure user behavior on a website?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                No. AI platforms have no access to behavioral metrics like bounce rate, session
+                duration, or click paths. Those signals belong to Google and the analytics platform
+                on the site. For ChatGPT, Perplexity, and Claude, the only inputs are the text the
+                retriever crawled and the third-party signals about the business across the open
+                web. Treating behavioral metrics as AI-visible is one of the most common and
+                expensive mistakes we see in client audits.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Will my AI citations drop if my website loses traffic?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                No, not directly. Traffic loss does not trigger citation loss. Citations decay when
+                content goes stale, schema breaks, third-party mentions disappear, or competitors
+                publish stronger structural signals. The variables that drive citation persistence
+                are content maintenance and source diversity, not how many visitors arrived this
+                month. Worried about citation drift?{' '}
+                <Link href="https://calendly.com/theanswerengine-support/30min">
+                  Check your current citation surface
+                </Link>{' '}
+                on a free call.
+              </p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How fast can a new site earn AI citations without any traffic?</summary>
+            <div className="ae-faq-answer">
+              <p>
+                A new site with strong AEO structure typically earns first citations within 30 to
+                90 days, depending on the platform. Perplexity tends to cite the fastest because
+                Perplexity crawls more aggressively. Google AI Overviews follows once the page is
+                indexed by Google. ChatGPT can take longer because ChatGPT relies on training-data
+                inclusion and Bing-indexed content for many queries. Markets close fast.{' '}
+                <Link href="https://calendly.com/theanswerengine-support/30min">
+                  Claim your territory
+                </Link>{' '}
+                before a competitor in your city does.
+              </p>
+            </div>
+          </details>
+
+          {/* CTA Block 8 (Email) */}
+          <div className="ae-cta-block not-prose">
+            <h3>Still have a question this article did not answer?</h3>
+            <p>
+              Email your question directly and a strategist will reply with a one-line answer the
+              same day.
+            </p>
+            <a href="mailto:support@theanswerengine.ai?subject=AEO%20question%20from%20blog" className="ae-cta-primary">
+              Email support@theanswerengine.ai →
+            </a>
+          </div>
+
+          {/* Final CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Competitors Are Claiming AI Search Territory Right Now
+              <h2 className="font-headline font-black uppercase tracking-tighter text-2xl sm:text-3xl mb-4 text-white">
+                Stop Optimizing for the Wrong Surface
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+                Traffic and AI citations live on separate planes. The businesses dominating AI
+                search built structural signals on purpose. Free Blind Spot Scan. One business per
+                market. 90-day citation guarantee.
               </p>
-              <a
+              <Link
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free Blind Spot Report →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
+                Audit My AI Citation Surface →
+              </Link>
               <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+                <a href="tel:+12134442229" className="hover:text-[#F27D24] transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-[#F27D24] transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-[#F27D24] transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
           </section>
-
+        </div>
       </article>
-    </>
+    </div>
   )
 }

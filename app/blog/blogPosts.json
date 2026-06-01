@@ -5406,19 +5406,20 @@
   },
   {
     "id": 254,
-    "title": "does-website-traffic-affect-ai-search",
+    "title": "Does Website Traffic Affect AI Search Rankings?",
     "slug": "does-website-traffic-affect-ai-search",
-    "excerpt": "AEO insights from The Answer Engine.",
-    "category": "Technical AEO",
-    "author": "The Answer Engine",
-    "readTime": "8 min read",
-    "image": "/blog/does-website-traffic-affect-ai-search.svg",
+    "excerpt": "Website traffic is invisible to AI search engines. We break down what ChatGPT, Perplexity, and Google AI Overviews actually rank, and where to invest.",
+    "category": "AEO Strategy",
+    "author": "Justin Borges",
+    "readTime": "11 min read",
+    "image": "/blog/does-website-traffic-affect-ai-search.webp",
     "publishDate": "2026-05-31",
     "lastModified": "2026-05-31",
     "featured": false,
     "tags": [
       "AEO",
-      "AI Search"
+      "AI Search",
+      "Ranking Factors"
     ]
   },
   {
