@@ -684,6 +684,12 @@
       "email": "scheduling@roofrepairspecialist.com",
       "type": "follow_up_3",
       "sentAt": "2026-06-02T16:00:34.897Z"
+    },
+    {
+      "leadId": "lead_1775743257391_704qei",
+      "email": "ajreyesroofing@gmail.com",
+      "type": "follow_up_3",
+      "sentAt": "2026-06-02T16:00:40.193Z"
     }
   ]
 }
