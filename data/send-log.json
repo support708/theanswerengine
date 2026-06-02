@@ -708,6 +708,12 @@
       "email": "relocation@alliebeth.com",
       "type": "follow_up_2",
       "sentAt": "2026-06-02T16:00:56.415Z"
+    },
+    {
+      "leadId": "lead_1778836981106_612o7z",
+      "email": "dallas@theagencyre.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-06-02T16:01:01.760Z"
     }
   ]
 }
