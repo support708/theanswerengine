@@ -678,6 +678,12 @@
       "email": "barbara@vanpoole.com",
       "type": "follow_up_1",
       "sentAt": "2026-05-25T16:00:15.004Z"
+    },
+    {
+      "leadId": "lead_1775743257391_lsfg3r",
+      "email": "scheduling@roofrepairspecialist.com",
+      "type": "follow_up_3",
+      "sentAt": "2026-06-02T16:00:34.897Z"
     }
   ]
 }
