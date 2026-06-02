@@ -690,6 +690,12 @@
       "email": "ajreyesroofing@gmail.com",
       "type": "follow_up_3",
       "sentAt": "2026-06-02T16:00:40.193Z"
+    },
+    {
+      "leadId": "lead_1775743257391_ivaapu",
+      "email": "info@bumbleroofing.com",
+      "type": "follow_up_3",
+      "sentAt": "2026-06-02T16:00:45.365Z"
     }
   ]
 }
