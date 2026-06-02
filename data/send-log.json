@@ -696,6 +696,12 @@
       "email": "info@bumbleroofing.com",
       "type": "follow_up_3",
       "sentAt": "2026-06-02T16:00:45.365Z"
+    },
+    {
+      "leadId": "lead_1775743257391_4yxq9r",
+      "email": "info@anrroofing.net",
+      "type": "follow_up_3",
+      "sentAt": "2026-06-02T16:00:50.652Z"
     }
   ]
 }
