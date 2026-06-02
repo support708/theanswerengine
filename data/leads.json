@@ -4583,10 +4583,14 @@
       {
         "action": "follow_up_3 send failed: Gmail not configured",
         "timestamp": "2026-06-02T16:00:31.052Z"
+      },
+      {
+        "action": "follow_up_3 auto-sent via Gmail (19e8910b78ecdd74)",
+        "timestamp": "2026-06-02T16:00:36.973Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-06-02T16:00:31.693Z",
+    "updatedAt": "2026-06-02T16:00:37.167Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 26,
     "huntPriority": "P2",
