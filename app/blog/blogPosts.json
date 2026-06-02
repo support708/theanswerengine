@@ -5844,5 +5844,22 @@
       "Perplexity",
       "Claude"
     ]
+  },
+  {
+    "id": 278,
+    "title": "What Is AEO for Small Businesses?",
+    "slug": "aeo-definition-for-small-businesses",
+    "excerpt": "A plain-language definition of Answer Engine Optimization (AEO) for small business operators, with the mechanism, the academic evidence, and the operator playbook for getting cited by ChatGPT, Perplexity, Claude, and Gemini.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/aeo-definition-for-small-businesses.svg",
+    "publishDate": "2026-06-02",
+    "lastModified": "2026-06-02",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
   }
 ]

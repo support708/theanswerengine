@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="60%" stop-color="#131313"/>
+      <stop offset="100%" stop-color="#1a0d05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#FF6A00" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orangeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6A00" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="900" cy="200" r="320" fill="url(#glow)"/>
+  <g opacity="0.18" stroke="#FF6A00" stroke-width="1" fill="none">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="500" y1="0" x2="500" y2="630"/>
+    <line x1="700" y1="0" x2="700" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1100" y1="0" x2="1100" y2="630"/>
+  </g>
+  <g fill="#FF6A00">
+    <circle cx="240" cy="180" r="3"/>
+    <circle cx="380" cy="120" r="3"/>
+    <circle cx="520" cy="260" r="3"/>
+    <circle cx="780" cy="180" r="3"/>
+    <circle cx="920" cy="140" r="3"/>
+    <circle cx="660" cy="320" r="3"/>
+  </g>
+  <g stroke="#FF6A00" stroke-width="1" opacity="0.45" fill="none">
+    <path d="M 240 180 L 380 120 L 520 260 L 660 320 L 780 180 L 920 140"/>
+    <path d="M 240 180 L 520 260"/>
+    <path d="M 380 120 L 780 180"/>
+    <path d="M 660 320 L 920 140"/>
+  </g>
+  <line x1="120" y1="430" x2="1080" y2="430" stroke="url(#orangeLine)" stroke-width="2"/>
+  <text x="120" y="495" font-family="Space Grotesk, Arial, sans-serif" font-size="56" font-weight="900" fill="#FFFFFF" letter-spacing="-2">
+    AEO FOR SMALL BUSINESSES
+  </text>
+  <text x="120" y="540" font-family="Space Grotesk, Arial, sans-serif" font-size="32" font-weight="700" fill="#FF6A00" letter-spacing="-1">
+    ANSWER ENGINE OPTIMIZATION DEFINED
+  </text>
+  <text x="120" y="585" font-family="Courier New, monospace" font-size="14" font-weight="400" fill="#888888" letter-spacing="2">
+    THE ANSWER ENGINE · THEANSWERENGINE.AI
+  </text>
+</svg>
