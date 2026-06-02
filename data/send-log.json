@@ -714,6 +714,12 @@
       "email": "dallas@theagencyre.com",
       "type": "follow_up_2",
       "sentAt": "2026-06-02T16:01:01.760Z"
+    },
+    {
+      "leadId": "lead_1778836981106_aacats",
+      "email": "social@briggsfreeman.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-06-02T16:01:07.139Z"
     }
   ]
 }
