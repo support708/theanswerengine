@@ -572,5 +572,23 @@
     "outreachReadyCount": 6,
     "errors": [],
     "completedAt": "2026-06-01T14:02:36.179Z"
+  },
+  {
+    "id": "hunt_1780408815043_bpgu",
+    "startedAt": "2026-06-02T14:00:15.044Z",
+    "trigger": "cron_daily",
+    "vertical": "Roofing Contractor",
+    "metro": "Los Angeles",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [
+      "Pass 1 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbeZ5nJ1s55HwUJTNVNWM\"}",
+      "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbeZ6ATmLjkKYdYrDPLvH\"}"
+    ],
+    "completedAt": "2026-06-02T14:00:22.231Z"
   }
 ]
