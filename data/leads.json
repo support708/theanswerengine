@@ -8237,7 +8237,7 @@
     "reviewCount": 138,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Allie Beth Allman & Associates, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 1960, #1 luxury brokerage in North Texas, Sotheby's International Realty network, 381 agents across 6 offices",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 138,
       "rating": 4.8,
@@ -8366,10 +8366,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19e5fdd78d287c70)",
         "timestamp": "2026-05-25T16:00:12.386Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19e891135c9ab508)",
+        "timestamp": "2026-06-02T16:01:09.044Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-25T16:00:12.579Z",
+    "updatedAt": "2026-06-02T16:01:09.299Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 31.5,
     "huntPriority": "P2",
