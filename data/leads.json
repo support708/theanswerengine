@@ -8403,7 +8403,7 @@
     "reviewCount": 125,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 2001, #1 team in #1 brokerage, top 1% nationwide, 75+ years combined experience, D Magazine Best Realtor 2006-2018",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 125,
       "rating": 4.9,
@@ -8523,10 +8523,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19e5fdd88060c458)",
         "timestamp": "2026-05-25T16:00:16.886Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19e891146c304e5e)",
+        "timestamp": "2026-06-02T16:01:14.336Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-25T16:00:17.022Z",
+    "updatedAt": "2026-06-02T16:01:14.741Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 31.5,
     "huntPriority": "P2",
