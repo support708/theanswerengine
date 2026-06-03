@@ -9942,7 +9942,7 @@
     "reviewCount": 71,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: John Foy & Associates, Tobin Injury Law, Gary Martin Hays & Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 45+ years in business, $25 million medical malpractice verdict, Super Lawyer recognition, AV Preeminent rating",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "kaufman-injury-law-j7q1",
     "emailDraftId": null,
@@ -9952,10 +9952,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
         "timestamp": "2026-06-01T14:02:36.179Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T14:00:35.993Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T14:00:40.993Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T14:00:50.995Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-06-03T14:00:50.995Z"
       }
     ],
     "createdAt": "2026-06-01T14:02:36.179Z",
-    "updatedAt": "2026-06-01T14:02:36.179Z",
+    "updatedAt": "2026-06-03T14:00:50.995Z",
     "huntSource": "hunt_1780322500278_a75t",
     "huntScore": 38,
     "huntPriority": "P1",
