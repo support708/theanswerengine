@@ -9512,7 +9512,7 @@
     "reviewCount": null,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Since 2001, GAF Certified, known for honest business practices, insurance claims expertise, same-day project completion",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "reveles-roofing-b5ke",
     "emailDraftId": null,
@@ -9522,10 +9522,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 26, outreach-ready: true)",
         "timestamp": "2026-06-01T14:01:37.670Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:30:41.850Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:30:46.852Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:30:56.854Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-06-03T10:30:56.855Z"
       }
     ],
     "createdAt": "2026-06-01T14:01:37.670Z",
-    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-03T10:30:56.855Z",
     "huntSource": "hunt_1780322442611_9lwn",
     "huntScore": 26,
     "huntPriority": "P2",
