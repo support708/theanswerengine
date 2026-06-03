@@ -1506,7 +1506,7 @@ export default function Page() {
                   {
                     step: '3',
                     label: 'AI Query',
-                    action: ,
+                    action: 'Customer asks ChatGPT or a voice assistant: "best HVAC company near me."',
                     channel: 'AI Search',
                   },
                   {
