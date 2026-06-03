@@ -9818,7 +9818,7 @@
     "reviewCount": 13,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: John Foy & Associates, Tobin Injury Law, Gary Martin Hays & Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 32 years in business since 1992, AV Martindale-Hubbell rating, US News 'Best Lawyers in America', selective practice model",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "slappey-sadd-llc-5pc5",
     "emailDraftId": null,
@@ -9828,10 +9828,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 35, outreach-ready: true)",
         "timestamp": "2026-06-01T14:02:36.179Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T13:00:35.846Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T13:00:40.847Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T13:00:50.849Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-06-03T13:00:50.849Z"
       }
     ],
     "createdAt": "2026-06-01T14:02:36.179Z",
-    "updatedAt": "2026-06-01T14:02:36.179Z",
+    "updatedAt": "2026-06-03T13:00:50.849Z",
     "huntSource": "hunt_1780322500278_a75t",
     "huntScore": 35,
     "huntPriority": "P1",
