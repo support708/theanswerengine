@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import Link from 'next/link'
 
+export const dynamic = 'force-dynamic';
+
 
 const title = 'What Is AEO Marketing?'
 const metaTitle = 'What Is AEO Marketing? | The Answer Engine'

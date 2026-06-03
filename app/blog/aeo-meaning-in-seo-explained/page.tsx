@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
+
 
 const TITLE = 'AEO Meaning in SEO Explained | The Answer Engine';
 const DESCRIPTION = 'AEO is Answer Engine Optimization — the SEO discipline that wins citations from ChatGPT, Perplexity, Claude, and Gemini. Definition, mechanism, measurement.';

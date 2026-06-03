@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
+
 
 const TITLE = 'What Is AEO for Small Businesses? | The Answer Engine';
 const DESCRIPTION = 'AEO gets small businesses cited by ChatGPT, Perplexity, Claude, and Gemini. The 2026 definition plus operator playbook. Claim your free AI visibility scan.';
