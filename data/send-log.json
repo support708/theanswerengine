@@ -726,6 +726,12 @@
       "email": "barbara@vanpoole.com",
       "type": "follow_up_2",
       "sentAt": "2026-06-02T16:01:11.913Z"
+    },
+    {
+      "leadId": "lead_1780322497670_qf90uy",
+      "email": "info@dallasroofer.com",
+      "type": "initial",
+      "sentAt": "2026-06-03T09:00:51.686Z"
     }
   ]
 }

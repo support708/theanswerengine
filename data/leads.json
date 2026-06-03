@@ -9175,7 +9175,7 @@
     "reviewCount": 3176,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 1952, 65+ years in business, known as the Rolex of Roofing, supports Operation Mutt 22 (veteran military cause)",
-    "status": "email_drafted",
+    "status": "sent",
     "research": {
       "reviewCount": 3176,
       "rating": 4.9,
@@ -9291,10 +9291,14 @@
       {
         "action": "Email send failed: Gmail not configured",
         "timestamp": "2026-06-03T09:00:44.443Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19e8cb6ce70345bc)",
+        "timestamp": "2026-06-03T09:00:51.686Z"
       }
     ],
     "createdAt": "2026-06-01T14:01:37.670Z",
-    "updatedAt": "2026-06-03T09:00:44.443Z",
+    "updatedAt": "2026-06-03T09:00:51.686Z",
     "huntSource": "hunt_1780322442611_9lwn",
     "huntScore": 26,
     "huntPriority": "P2",
