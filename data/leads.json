@@ -9756,7 +9756,7 @@
     "reviewCount": 15,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: John Foy & Associates, Tobin Injury Law, Gary Martin Hays & Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: $150 million Chrysler verdict, selective caseload approach, trial-focused practice, awards from National Law Journal",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "butler-kahn-9dh2",
     "emailDraftId": null,
@@ -9766,10 +9766,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 35, outreach-ready: true)",
         "timestamp": "2026-06-01T14:02:36.179Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T12:30:35.505Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T12:30:40.506Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T12:30:50.507Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-06-03T12:30:50.507Z"
       }
     ],
     "createdAt": "2026-06-01T14:02:36.179Z",
-    "updatedAt": "2026-06-01T14:02:36.179Z",
+    "updatedAt": "2026-06-03T12:30:50.507Z",
     "huntSource": "hunt_1780322500278_a75t",
     "huntScore": 35,
     "huntPriority": "P1",
