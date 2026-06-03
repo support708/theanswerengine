@@ -5476,19 +5476,21 @@
   },
   {
     "id": 258,
-    "title": "how-faq-sections-help-ai-recommend-your-business",
+    "title": "How FAQ Sections Help AI Recommend Your Business",
     "slug": "how-faq-sections-help-ai-recommend-your-business",
-    "excerpt": "AEO insights from The Answer Engine.",
+    "excerpt": "FAQs are the most citable asset on a local business website. We map the mechanics, the schema, and the bounded-chunk format AI uses to cite your business.",
     "category": "AEO Strategy",
-    "author": "The Answer Engine",
-    "readTime": "8 min read",
+    "author": "Justin Borges",
+    "readTime": "11 min read",
     "image": "/blog/how-faq-sections-help-ai-recommend-your-business.webp",
-    "publishDate": "2026-05-31",
-    "lastModified": "2026-05-31",
+    "publishDate": "2026-06-03",
+    "lastModified": "2026-06-03",
     "featured": false,
     "tags": [
       "AEO",
-      "AI Search"
+      "FAQ",
+      "AI Search",
+      "Schema"
     ]
   },
   {
