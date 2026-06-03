@@ -9647,23 +9647,23 @@
       },
       {
         "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-06-03T11:30:35.554Z"
+        "timestamp": "2026-06-03T11:30:41.802Z"
       },
       {
         "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-06-03T11:30:40.555Z"
+        "timestamp": "2026-06-03T11:30:46.997Z"
       },
       {
         "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-06-03T11:30:50.556Z"
+        "timestamp": "2026-06-03T11:30:57.108Z"
       },
       {
-        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
-        "timestamp": "2026-06-03T11:30:50.557Z"
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbgFWEJmsTk62v8R9aZib\"}",
+        "timestamp": "2026-06-03T11:30:57.216Z"
       }
     ],
     "createdAt": "2026-06-01T14:02:36.179Z",
-    "updatedAt": "2026-06-03T11:30:50.557Z",
+    "updatedAt": "2026-06-03T11:30:57.216Z",
     "huntSource": "hunt_1780322500278_a75t",
     "huntScore": 36,
     "huntPriority": "P1",
