@@ -5956,5 +5956,22 @@
       "Outcome-Anchored Reviews",
       "Real Estate Marketing 2026"
     ]
+  },
+  {
+    "id": 284,
+    "title": "What Is Generative Engine Optimization (GEO)?",
+    "slug": "what-is-generative-engine-optimization-geo",
+    "excerpt": "A plain-language definition of Generative Engine Optimization (GEO) — the academic term for the practice of structuring content so that generative AI engines cite it inline. Includes the KDD 2024 origin, the mechanism, the GEO/AEO equivalence, and the operator playbook.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/what-is-generative-engine-optimization-geo.svg",
+    "publishDate": "2026-06-03",
+    "lastModified": "2026-06-03",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
   }
 ]
