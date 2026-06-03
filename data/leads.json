@@ -9330,7 +9330,7 @@
     "reviewCount": 600,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Lon Smith Roofing, Arrington Roofing, Dwell Roofing & Exteriors. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Veteran-owned, 25+ years in business, 600 Google reviews at 5-star average, GAF Master Elite Certified (top 3% of US roofing companies), 20,000+ roofing systems installed, lifetime workmanship warranty",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "new-view-roofing-d72w",
     "emailDraftId": null,
@@ -9340,10 +9340,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 34, outreach-ready: true)",
         "timestamp": "2026-06-01T14:01:37.670Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T09:30:17.179Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T09:30:22.190Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T09:30:32.191Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-06-03T09:30:32.192Z"
       }
     ],
     "createdAt": "2026-06-01T14:01:37.670Z",
-    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-03T09:30:32.192Z",
     "huntSource": "hunt_1780322442611_9lwn",
     "huntScore": 34,
     "huntPriority": "P2",
