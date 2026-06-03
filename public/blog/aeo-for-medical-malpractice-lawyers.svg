@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="AEO for Medical Malpractice Lawyers — The Answer Engine">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131313"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F27D24"/>
+      <stop offset="100%" stop-color="#cc5500"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F27D24" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#F27D24" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#F27D24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+    <pattern id="ecg" x="0" y="0" width="240" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 0 40 L 40 40 L 60 40 L 70 20 L 85 60 L 100 10 L 115 70 L 130 40 L 240 40"
+            fill="none" stroke="#F27D24" stroke-opacity="0.10" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Ambient glow -->
+  <ellipse cx="950" cy="200" rx="500" ry="320" fill="url(#glow)"/>
+  <ellipse cx="200" cy="500" rx="380" ry="240" fill="url(#glow)" opacity="0.6"/>
+
+  <!-- ECG line band (medical visual metaphor) -->
+  <g transform="translate(0,460)" opacity="0.6">
+    <rect width="1200" height="80" fill="url(#ecg)"/>
+  </g>
+
+  <!-- Caduceus / medical cross emblem -->
+  <g transform="translate(960,180)" opacity="0.9">
+    <!-- Outer ring -->
+    <circle cx="0" cy="0" r="92" fill="none" stroke="#F27D24" stroke-width="3"/>
+    <circle cx="0" cy="0" r="72" fill="#F27D24" fill-opacity="0.06"/>
+    <!-- Plus / medical cross -->
+    <rect x="-12" y="-50" width="24" height="100" fill="#F27D24"/>
+    <rect x="-50" y="-12" width="100" height="24" fill="#F27D24"/>
+  </g>
+
+  <!-- Top-left badge -->
+  <g transform="translate(80,80)">
+    <rect width="14" height="14" fill="#F27D24"/>
+    <text x="28" y="12" font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#F27D24" letter-spacing="2">
+      THE.ANSWER.ENGINE
+    </text>
+  </g>
+
+  <!-- Section label -->
+  <g transform="translate(80,160)">
+    <text font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#F27D24" letter-spacing="3">
+      INDUSTRY VERTICALS · 06
+    </text>
+  </g>
+
+  <!-- Headline -->
+  <g transform="translate(80,210)">
+    <text font-family="Space Grotesk, Inter, sans-serif" font-size="68" font-weight="900" fill="#e5e2e1" letter-spacing="-2.5">
+      <tspan x="0" y="60">AEO FOR MEDICAL</tspan>
+      <tspan x="0" y="130">MALPRACTICE</tspan>
+      <tspan x="0" y="200" fill="#F27D24">LAWYERS</tspan>
+    </text>
+  </g>
+
+  <!-- Subheadline -->
+  <g transform="translate(80,500)">
+    <text font-family="Inter, sans-serif" font-size="20" font-weight="400" fill="#e5e2e1" fill-opacity="0.7" letter-spacing="-0.3">
+      <tspan x="0" y="0">How med-mal practices get cited by ChatGPT,</tspan>
+      <tspan x="0" y="28">Perplexity, and Google AI Overviews.</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom strip -->
+  <g transform="translate(80,580)">
+    <text font-family="Courier New, monospace" font-size="12" font-weight="700" fill="#e5e2e1" fill-opacity="0.45" letter-spacing="2">
+      THEANSWERENGINE.AI · ANSWER ENGINE OPTIMIZATION · 2026
+    </text>
+  </g>
+
+  <!-- Right margin orange accent bar -->
+  <rect x="1180" y="0" width="4" height="630" fill="#F27D24"/>
+
+  <!-- Top corner marks -->
+  <g stroke="#F27D24" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M 60 60 L 60 40 L 80 40"/>
+    <path d="M 1140 40 L 1160 40 L 1160 60"/>
+    <path d="M 60 570 L 60 590 L 80 590"/>
+    <path d="M 1140 590 L 1160 590 L 1160 570"/>
+  </g>
+</svg>
