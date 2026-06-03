@@ -9390,7 +9390,7 @@
     "reviewCount": 25,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1988 (36+ years), 40,000+ completed jobs, A+ BBB rated, Owens Corning and GAF Preferred Contractor",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "bert-roofing-dc6b",
     "emailDraftId": null,
@@ -9400,10 +9400,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 35, outreach-ready: true)",
         "timestamp": "2026-06-01T14:01:37.670Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:00:33.096Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:00:38.098Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:00:48.099Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-06-03T10:00:48.100Z"
       }
     ],
     "createdAt": "2026-06-01T14:01:37.670Z",
-    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-03T10:00:48.100Z",
     "huntSource": "hunt_1780322442611_9lwn",
     "huntScore": 35,
     "huntPriority": "P1",
