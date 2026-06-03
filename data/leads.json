@@ -9451,7 +9451,7 @@
     "reviewCount": 15,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Since 2003 (21+ years), BBB A+ rated, Owens Corning Preferred Contractor, CertainTeed Master Shingle Applicator, expansion to Houston, Austin, San Antonio",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "baker-roofing-construction-vrw1",
     "emailDraftId": null,
@@ -9461,10 +9461,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
         "timestamp": "2026-06-01T14:01:37.670Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:30:16.636Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:30:21.773Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T10:30:31.935Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbgAu1cquLnmyU9ScBMvD\"}",
+        "timestamp": "2026-06-03T10:30:32.175Z"
       }
     ],
     "createdAt": "2026-06-01T14:01:37.670Z",
-    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-03T10:30:32.175Z",
     "huntSource": "hunt_1780322442611_9lwn",
     "huntScore": 33.5,
     "huntPriority": "P2",
