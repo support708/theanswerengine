@@ -9634,7 +9634,7 @@
     "reviewCount": 407,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: John Foy & Associates, Gary Martin Hays & Associates, Morgan & Morgan. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: $100 million jury verdict, perfect 5.0 Google rating, selective caseload, Elite Trial Lawyer recognition",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "tobin-injury-law-fv8s",
     "emailDraftId": null,
@@ -9644,10 +9644,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-06-01T14:02:36.179Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T11:30:35.554Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T11:30:40.555Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T11:30:50.556Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-06-03T11:30:50.557Z"
       }
     ],
     "createdAt": "2026-06-01T14:02:36.179Z",
-    "updatedAt": "2026-06-01T14:02:36.179Z",
+    "updatedAt": "2026-06-03T11:30:50.557Z",
     "huntSource": "hunt_1780322500278_a75t",
     "huntScore": 36,
     "huntPriority": "P1",
