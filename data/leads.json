@@ -9573,7 +9573,7 @@
     "reviewCount": 1300,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: New View Roofing, Lon Smith Roofing, Arrington Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 1,300+ Google reviews at 4.9-star rating, CertainTeed ShingleMaster certified (since 2022), part of RAFTRx family (local service with national scale), 20-point roof inspection",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "blue-hammer-roofing-q893",
     "emailDraftId": null,
@@ -9583,10 +9583,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
         "timestamp": "2026-06-01T14:01:37.670Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T11:00:35.845Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T11:00:40.847Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-06-03T11:00:50.849Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-06-03T11:00:50.849Z"
       }
     ],
     "createdAt": "2026-06-01T14:01:37.670Z",
-    "updatedAt": "2026-06-01T14:01:37.670Z",
+    "updatedAt": "2026-06-03T11:00:50.849Z",
     "huntSource": "hunt_1780322442611_9lwn",
     "huntScore": 38.5,
     "huntPriority": "P1",
