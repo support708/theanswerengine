@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="55%" stop-color="#131313"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.55" r="0.45">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#FF6A00" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fadeRow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a2a2a" stop-opacity="0.08"/>
+      <stop offset="20%" stop-color="#3a3a3a" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#525252" stop-opacity="0.32"/>
+      <stop offset="78%" stop-color="#7a7a7a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#9a9a9a" stop-opacity="0.78"/>
+    </linearGradient>
+    <linearGradient id="orangeHouse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFA94D"/>
+      <stop offset="50%" stop-color="#FF6A00"/>
+      <stop offset="100%" stop-color="#cc5500"/>
+    </linearGradient>
+    <filter id="houseGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#FF6A00" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <symbol id="house" viewBox="0 0 100 90">
+      <path d="M 50 5 L 95 40 L 95 85 L 5 85 L 5 40 Z" fill="currentColor"/>
+      <rect x="42" y="60" width="16" height="25" fill="#131313" fill-opacity="0.6"/>
+    </symbol>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Horizontal baseline -->
+  <line x1="60" y1="430" x2="1140" y2="430" stroke="#FF6A00" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="60" y1="431" x2="1140" y2="431" stroke="#FF6A00" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Row of fading invisible houses -->
+  <g opacity="0.95">
+    <use href="#house" x="100"  y="340" width="80" height="72" color="#2a2a2a" opacity="0.18"/>
+    <use href="#house" x="230"  y="340" width="80" height="72" color="#3a3a3a" opacity="0.28"/>
+    <use href="#house" x="360"  y="340" width="80" height="72" color="#4a4a4a" opacity="0.38"/>
+    <use href="#house" x="490"  y="340" width="80" height="72" color="#5a5a5a" opacity="0.48"/>
+    <use href="#house" x="620"  y="340" width="80" height="72" color="#6a6a6a" opacity="0.58"/>
+    <use href="#house" x="750"  y="340" width="80" height="72" color="#7a7a7a" opacity="0.68"/>
+  </g>
+
+  <!-- The 9% — the bright orange visible house -->
+  <g filter="url(#houseGlow)">
+    <use href="#house" x="930" y="320" width="120" height="108" fill="url(#orangeHouse)" color="#FF6A00"/>
+  </g>
+
+  <!-- Top label bar -->
+  <g font-family="Courier New, monospace" font-size="14" fill="#FF6A00" fill-opacity="0.6" letter-spacing="2">
+    <text x="60" y="80">// THE ANSWER ENGINE</text>
+  </g>
+  <g font-family="Courier New, monospace" font-size="12" fill="#e5e2e1" fill-opacity="0.35" letter-spacing="2">
+    <text x="60" y="105">AEO SIGNAL ANALYSIS · REAL ESTATE</text>
+  </g>
+
+  <!-- Headline -->
+  <g font-family="'Space Grotesk', Arial, sans-serif" font-weight="900" letter-spacing="-2">
+    <text x="60" y="200" font-size="64" fill="#e5e2e1">91% INVISIBLE.</text>
+    <text x="60" y="270" font-size="64" fill="#FF6A00">9% CITED.</text>
+  </g>
+
+  <!-- Subhead -->
+  <g font-family="Inter, Arial, sans-serif" font-size="20" fill="#e5e2e1" fill-opacity="0.7">
+    <text x="60" y="310">Why most real estate agents never appear in ChatGPT,</text>
+    <text x="60" y="335">Perplexity, Claude, or Google AI Overviews.</text>
+  </g>
+
+  <!-- Bottom data strip -->
+  <g font-family="Courier New, monospace" font-size="11" fill="#e5e2e1" fill-opacity="0.4" letter-spacing="1.5">
+    <text x="60"  y="555">QUERY SCAN: 200</text>
+    <text x="280" y="555">PLATFORMS: 4</text>
+    <text x="460" y="555">CITED AGENTS: 9%</text>
+    <text x="690" y="555">DEFINITION LIFT: +57%</text>
+    <text x="960" y="555">OVERLAP: 11%</text>
+  </g>
+
+  <!-- Bottom hairline -->
+  <line x1="60" y1="575" x2="1140" y2="575" stroke="#FF6A00" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Bottom mark -->
+  <g font-family="'Space Grotesk', Arial, sans-serif" font-weight="900" letter-spacing="2" font-size="13">
+    <text x="60" y="600" fill="#FF6A00">THEANSWERENGINE.AI</text>
+    <text x="1140" y="600" fill="#e5e2e1" fill-opacity="0.35" text-anchor="end">// AEO_REPORT_2026.06</text>
+  </g>
+</svg>
