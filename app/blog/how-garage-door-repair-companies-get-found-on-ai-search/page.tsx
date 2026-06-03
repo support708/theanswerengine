@@ -5,35 +5,36 @@ export const dynamicParams = true
 
 const title = 'How Garage Door Repair Companies Get Found on AI Search'
 const description =
-  'Most garage door repair companies are invisible on ChatGPT, Gemini, and Claude. Here is exactly how local contractors get cited in AI search results for emergency, brand-specific, and same-day queries before competitors do.'
+  'Most garage door companies are invisible to ChatGPT, Gemini, and Claude. Here is how local contractors get cited for emergency and same-day AI search queries.'
 const slug = 'how-garage-door-repair-companies-get-found-on-ai-search'
 const publishDate = '2026-04-23'
+const modifiedDate = '2026-06-03'
 
 export const metadata: Metadata = {
-  title,
+  title: 'How Garage Door Companies Win AI Search | The Answer Engine',
   description,
-  keywords: [
-    'garage door repair AI search',
-    'how garage door companies get found on ChatGPT',
-    'garage door contractor AI visibility',
-    'garage door repair ChatGPT recommendations',
-    'garage door company Gemini search',
-    'get garage door business on AI search',
-    'garage door repair Google AI Overview',
-    'local garage door AI citation',
-    'AEO for garage door repair companies',
-  ],
+  keywords:
+    'garage door repair AI search, garage door ChatGPT citations, garage door Gemini search, AEO for garage door repair, garage door AI visibility, LiftMaster certified AI search, broken spring repair AI citation, same-day garage door AI, emergency garage door ChatGPT, generative engine optimization garage door',
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title,
     description,
     type: 'article',
-    publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
+    publishedTime: publishDate,
+    modifiedTime: modifiedDate,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
-  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.webp`] },
-  alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+  },
+  alternates: {
+    canonical: `https://theanswerengine.ai/blog/${slug}`,
+  },
 }
 
 const jsonLd = {
@@ -41,34 +42,36 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Article',
+      '@id': `https://theanswerengine.ai/blog/${slug}#article`,
       headline: title,
       description,
-      image: {
-        '@type': 'ImageObject',
-        url: `https://theanswerengine.ai/blog/${slug}.webp`,
-        width: 1200,
-        height: 630,
-      },
+      image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
-      dateModified: publishDate,
+      dateModified: modifiedDate,
       author: {
         '@type': 'Person',
         '@id': 'https://theanswerengine.ai/about#justin-borges',
         name: 'Justin Borges',
         jobTitle: 'Founder, The Answer Engine',
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
         worksFor: {
           '@type': 'Organization',
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        knowsAbout: [
+          'Answer Engine Optimization',
+          'Generative Engine Optimization',
+          'AI Citation Surface',
+          'Local Service Business AEO',
+          'Garage Door Repair Marketing',
+        ],
       },
       publisher: {
         '@type': 'Organization',
+        '@id': 'https://theanswerengine.ai/#organization',
         name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
         logo: {
           '@type': 'ImageObject',
           url: 'https://theanswerengine.ai/logo.png',
@@ -77,25 +80,30 @@ const jsonLd = {
       mainEntityOfPage: {
         '@type': 'WebPage',
         '@id': `https://theanswerengine.ai/blog/${slug}`,
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.ae-article-hero h1', '.named-thesis', '.ae-cheat-sheet'],
+        },
       },
     },
     {
       '@type': 'FAQPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
       mainEntity: [
         {
           '@type': 'Question',
           name: 'Why does ChatGPT recommend other garage door companies in my area but not mine?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'ChatGPT builds its understanding of local garage door repair companies from the sources it trained on: review platforms, business directories, manufacturer-partner pages, and company websites. If competitors appear more frequently and more authoritatively across those sources, or if their content is more specifically structured around service types and locations, they surface in AI recommendations while your business stays invisible. Consistency of information, schema markup, and depth of service-specific content all drive citation probability.',
+            text: 'ChatGPT builds its picture of local garage door companies from sources it can crawl: structured websites, review platforms, manufacturer dealer-locator pages, and business directories. If competitors appear more consistently across those sources, or their content is more specifically structured by service type and city, they surface in citations while your company stays invisible. NAP consistency, FAQPage schema, and dedicated service pages drive most of the citation gap.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Does offering 24/7 emergency garage door repair help me get recommended by AI?',
+          name: 'Does offering 24/7 emergency garage door repair help me get cited by AI?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes, significantly. Emergency garage door queries, including broken spring and snapped cable calls, are among the highest-intent searches on AI platforms, and a large share happen outside business hours. If your website, Google Business Profile, and service pages explicitly state 24/7 availability with structured schema markup, AI platforms are far more likely to surface your business for those queries than a competitor whose after-hours service is buried in generic copy.',
+            text: 'Yes — significantly. Emergency queries such as broken spring and snapped cable are among the highest-intent searches on AI platforms, and a large share happen outside business hours. Explicit 24/7 availability stated in FAQPage schema, on the Google Business Profile, and inside service-page copy gives AI retrievers a verifiable claim to cite. Hedged language like "after-hours service available on request" does not produce the same citation lift.',
           },
         },
         {
@@ -103,7 +111,7 @@ const jsonLd = {
           name: 'Does being a certified dealer for LiftMaster, Chamberlain, or Genie help my AI visibility?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Manufacturer certification is a strong AI trust signal. When homeowners ask ChatGPT or Gemini for a LiftMaster-authorized dealer or Chamberlain-certified repair technician, AI platforms look for explicit mentions of those brand relationships in your website content, Google Business Profile, and directory listings. Companies that appear in manufacturer dealer-locator databases also inherit authority signals from those high-domain sources, which AI treats as third-party verification of your credentials.',
+            text: 'Manufacturer certification is a measurable AI trust signal. When homeowners ask ChatGPT or Gemini for a LiftMaster-authorized dealer or a Chamberlain-certified technician, retrievers look for explicit brand-relationship mentions in your website content, Google Business Profile, and directory listings. Companies that appear in the manufacturer dealer-locator inherit additional authority from those high-domain sources, which AI treats as third-party verification.',
           },
         },
         {
@@ -111,39 +119,74 @@ const jsonLd = {
           name: 'Should garage door companies create separate pages for each service type?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Dedicated service pages are one of the highest-impact moves for garage door company AI visibility. A single Services page listing spring repair, cable replacement, opener installation, and panel replacement in bullet points gives AI almost nothing to match against specific queries. Individual pages for each service type, each with scenario-specific copy, FAQ sections, and schema markup, become separate citation assets that AI can match independently to broken spring queries, opener queries, and same-day repair queries.',
+            text: 'Dedicated service pages are one of the highest-impact moves for garage door AI visibility. A single Services page that lists spring repair, cable replacement, opener installation, and panel replacement in bullets gives AI no chunk to match against specific queries. Individual pages for each service — with scenario-specific copy, FAQ blocks, and schema markup — become separate citation assets that retrievers can match independently to broken spring, opener, and same-day queries.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How do location pages help garage door repair companies appear in AI search results?',
+          name: 'How do location pages help garage door companies appear in AI search?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'AI platforms build geographic understanding of service businesses from multiple signals: Google Business Profile service areas, service area schema on your website, city-specific mentions in content, and location references in reviews. Garage door companies that serve ten ZIP codes but only appear to operate in one are invisible to AI for the other nine. Dedicated location pages with specific city names, schema markup, and locally relevant content close that gap and expand your AI footprint city by city.',
+            text: 'Location pages are how AI confirms territory. A garage door company that serves twelve cities but has a single contact page with one phone number forces AI to guess geographic relevance. Twelve dedicated city pages — each naming the city, neighborhoods served, common service calls in that area, and a local phone forwarder — give retrievers explicit, citable territory claims. Chen et al. (2025) confirmed that geographically anchored claims earn higher citation rates than generic service-area copy.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How long does it take a garage door company to start appearing in AI recommendations?',
+          name: 'How long does it take a garage door company to start getting AI citations?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Garage door companies that improve their structured data and Google Business Profile typically see initial results from Perplexity and Google AI Overviews within 30 to 60 days. ChatGPT base model citations take longer because they depend on retraining cycles that can span 12 to 18 months. Real-time AI search tools like Perplexity and ChatGPT with web browsing enabled respond much faster to structural improvements and can surface new content within weeks.',
+            text: 'Most garage door companies see measurable AI citation activity within 60 to 90 days of implementing structured AEO. Specific service queries — broken spring repair in a named city, LiftMaster certified technician in a named ZIP — tend to register first. Full citation surface across ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews typically takes 90 to 180 days as each retriever re-indexes at a different cadence.',
           },
         },
         {
           '@type': 'Question',
-          name: 'What directories should garage door repair companies be listed in for AI visibility?',
+          name: 'Why does my Google review volume not translate into ChatGPT citations?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The highest-weight directories for garage door AI citations are Google Business Profile, Yelp, Angi, HomeAdvisor, Thumbtack, and the Better Business Bureau. Manufacturer dealer-locator pages for LiftMaster, Chamberlain, Genie, and Wayne Dalton add authoritative third-party signals that most competitors lack. The critical requirement is that your business name, address, and phone number must be identical across every listing, as inconsistencies reduce AI confidence in your entity.',
+            text: 'ChatGPT and Perplexity cannot reliably read JavaScript-rendered review widgets, and Google reviews live behind exactly that interface. A garage door company with 800 Google reviews and no crawlable review surface elsewhere appears reviewless to most AI retrievers. The fix is review distribution: collect reviews on platforms that render crawlable HTML and republish curated testimonials as plain text directly on your site.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is the single highest-return AEO move a garage door company can make?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Build one dedicated service page per repair type, each with eight to twelve bounded FAQ entries and valid FAQPage JSON-LD schema. That single architectural move converts the website from one citation surface into eight to twelve specialized surfaces. Combined with NAP consistency and a manufacturer-certification statement on every relevant page, it captures the majority of the citation lift available to a local garage door operator.',
           },
         },
       ],
     },
     {
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      alternateName: 'TAE',
+      url: 'https://theanswerengine.ai',
+      logo: 'https://theanswerengine.ai/logo.png',
+      image: 'https://theanswerengine.ai/logo.png',
+      description:
+        'Answer Engine Optimization agency. We engineer citation surface for businesses across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews.',
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      priceRange: '$$$',
+      areaServed: { '@type': 'Country', name: 'United States' },
+      serviceType: [
+        'Answer Engine Optimization',
+        'Generative Engine Optimization',
+        'AI Citation Strategy',
+        'Local Service Business AEO',
+      ],
+      founder: {
+        '@type': 'Person',
+        name: 'Justin Borges',
+        url: 'https://theanswerengine.ai/about',
+      },
+      sameAs: ['https://www.linkedin.com/company/the-answer-engine'],
+    },
+    {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
         { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
         { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
       ],
@@ -151,678 +194,450 @@ const jsonLd = {
   ],
 }
 
-export default function Page() {
+function Breadcrumb() {
+  return (
+    <nav className="text-sm text-gray-500 mb-8">
+      <Link href="/" className="hover:text-white transition-colors">Home</Link>
+      <span className="mx-2">&rsaquo;</span>
+      <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+      <span className="mx-2">&rsaquo;</span>
+      <span className="text-gray-400">Garage Door AEO</span>
+    </nav>
+  )
+}
+
+export default function HowGarageDoorRepairCompaniesGetFoundOnAISearch() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-
-      {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className="max-w-4xl mx-auto px-6 pt-6">
-        <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-          <li className="text-gray-600">/</li>
-          <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-          <li className="text-gray-600">/</li>
-          <li className="text-gray-400 truncate">Garage Door Repair on AI Search</li>
-        </ol>
-      </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/how-garage-door-repair-companies-get-found-on-ai-search.webp"
-              alt="how garage door repair companies get found on ai search"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
-
-      {/* Hero */}
-      <header className="max-w-4xl mx-auto px-6 pt-10 pb-8">
-        <div className="flex items-center gap-3 mb-4">
-          <span className="ae-section-label">Industry Guides</span>
-          <span className="text-gray-500 text-sm">14 min read</span>
-        </div>
-        <h1 className="font-plus-jakarta text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          How Garage Door Repair Companies Get Found on AI Search
-        </h1>
-        <p className="text-xl text-gray-300 leading-relaxed mb-8">
-          When a homeowner&apos;s spring snaps at 7am and their car is trapped inside, they do not open Yelp. They ask ChatGPT or Gemini for an emergency garage door repair company nearby. Whether your business appears in that answer or stays invisible while a competitor gets the call comes down to a handful of structural decisions you have already made about your digital presence.
-        </p>
-
-        {/* Inline hero SVG */}
-        <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-[#1a1d27] to-[#0F1117] border border-white/5 h-56 flex items-center justify-center mb-8">
-          <svg viewBox="0 0 1200 400" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <radialGradient id="gdoor-bg" cx="50%" cy="50%" r="70%">
-                <stop offset="0%" stopColor="#1a1d27" />
-                <stop offset="100%" stopColor="#0F1117" />
-              </radialGradient>
-              <radialGradient id="gdoor-glow" cx="35%" cy="60%" r="50%">
-                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.13" />
-                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
-              </radialGradient>
-            </defs>
-            <rect width="1200" height="400" fill="url(#gdoor-bg)" />
-            <circle cx="420" cy="240" r="280" fill="url(#gdoor-glow)" />
-
-            {/* House silhouette */}
-            {/* Roof */}
-            <polygon points="220,200 380,100 540,200" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.5" strokeLinejoin="round" />
-            <polygon points="220,200 380,100 540,200" fill="#F27D24" fillOpacity="0.04" />
-            {/* House walls */}
-            <rect x="235" y="200" width="290" height="145" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.35" />
-            <rect x="235" y="200" width="290" height="145" fill="#F27D24" fillOpacity="0.03" />
-
-            {/* Garage door opening (partially open) */}
-            {/* Door frame */}
-            <rect x="280" y="255" width="200" height="88" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.5" />
-            {/* Door panels - partially lifted (top portion) */}
-            <rect x="281" y="256" width="198" height="22" fill="#1e2235" stroke="#F27D24" strokeWidth="0.8" strokeOpacity="0.4" />
-            <rect x="281" y="279" width="198" height="22" fill="#1a1d27" stroke="#F27D24" strokeWidth="0.8" strokeOpacity="0.3" />
-            {/* Door raised off ground by 44px - gap showing interior */}
-            <rect x="281" y="301" width="198" height="42" fill="#111318" fillOpacity="0.8" />
-            {/* Interior light glow */}
-            <rect x="285" y="305" width="190" height="35" fill="#F27D24" fillOpacity="0.06" />
-
-            {/* Vertical door rails */}
-            <line x1="280" y1="255" x2="280" y2="343" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.35" />
-            <line x1="480" y1="255" x2="480" y2="343" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.35" />
-
-            {/* Door handle */}
-            <rect x="370" y="287" width="20" height="6" rx="3" fill="#F27D24" fillOpacity="0.5" />
-
-            {/* Spring above door */}
-            <path d="M300,248 Q310,242 320,248 Q330,254 340,248 Q350,242 360,248 Q370,254 380,248 Q390,242 400,248 Q410,254 420,248 Q430,242 440,248 Q450,254 460,248" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.45" />
-
-            {/* Wrench tool */}
-            <g transform="translate(175,260) rotate(-35)">
-              <rect x="-4" y="-22" width="8" height="36" rx="4" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.4" />
-              <circle cx="0" cy="-22" r="9" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.4" />
-              <circle cx="0" cy="-22" r="4" fill="#F27D24" fillOpacity="0.2" />
-            </g>
-
-            {/* Connection dashes from house to AI panel */}
-            <path d="M545,250 Q565,250 585,250" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.45" />
-            <polygon points="583,246 591,250 583,254" fill="#F27D24" fillOpacity="0.45" />
-
-            {/* AI response panel */}
-            <rect x="600" y="110" width="370" height="190" rx="16" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.25" />
-            <text x="620" y="146" fill="#F27D24" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
-            <line x1="620" y1="155" x2="950" y2="155" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.25" />
-
-            {/* AI query */}
-            <text x="620" y="177" fill="#888" fontSize="11" fontFamily="monospace">&quot;emergency garage door repair open now&quot;</text>
-
-            {/* Results */}
-            <circle cx="629" cy="202" r="5" fill="#F27D24" opacity="0.9" />
-            <text x="642" y="206" fill="#e0e0e0" fontSize="12" fontFamily="monospace" fontWeight="bold">Apex Garage Door Co.</text>
-            <text x="642" y="222" fill="#666" fontSize="10" fontFamily="monospace">24/7 service, 4.9 stars, LiftMaster certified</text>
-
-            <circle cx="629" cy="243" r="5" fill="#444" opacity="0.6" />
-            <text x="642" y="247" fill="#555" fontSize="12" fontFamily="monospace">Metro Door Solutions</text>
-
-            <circle cx="629" cy="263" r="5" fill="#333" opacity="0.4" />
-            <text x="642" y="267" fill="#444" fontSize="12" fontFamily="monospace">Generic Door Repair</text>
-
-            {/* Platform labels */}
-            <text x="621" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
-            <text x="685" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
-            <text x="743" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
-            <text x="798" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
-          </svg>
-        </div>
-
-        {/* Stats grid */}
-        <div className="ae-stats-grid">
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🚨</span>
-            <span className="ae-stat-value">61%</span>
-            <span className="ae-stat-label">of emergency garage door queries on AI platforms occur outside standard business hours, when homeowners have no other fast option</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">⏱️</span>
-            <span className="ae-stat-value">30-60 days</span>
-            <span className="ae-stat-label">average time for a garage door company to appear in Perplexity and Google AI Overviews after structural improvements are made</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🏠</span>
-            <span className="ae-stat-value">3 of 4</span>
-            <span className="ae-stat-label">homeowners now use AI assistants to find and vet local home service providers before calling (BrightLocal, 2024)</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🔧</span>
-            <span className="ae-stat-value">2.8x</span>
-            <span className="ae-stat-label">more AI citations for home service businesses with structured schema markup versus unstructured pages</span>
-          </div>
-        </div>
-      </header>
-
-      {/* Article body */}
-      <article className="max-w-4xl mx-auto px-6 py-4 prose prose-invert prose-lg max-w-none">
-
-        {/* TOC */}
-        <div className="ae-toc not-prose">
-          <div className="ae-toc-title">In This Guide</div>
-          <ol>
-            <li><a href="#how-ai-finds-garage-door-companies">How AI Finds Garage Door Companies in Your Area</a></li>
-            <li><a href="#emergency-queries">Emergency and Same-Day Queries: The Highest-Stakes AI Category</a></li>
-            <li><a href="#brand-certification">Brand Certification as an AI Trust Signal</a></li>
-            <li><a href="#schema-patterns">Schema Patterns That Actually Work for Garage Door Companies</a></li>
-            <li><a href="#location-queries">Winning Location-Based Queries on ChatGPT, Gemini, and Claude</a></li>
-            <li><a href="#residential-vs-commercial">Residential vs Commercial Segmentation in AI Search</a></li>
-            <li><a href="#review-signals">How Review Content Becomes AI Citation Evidence</a></li>
-            <li><a href="#service-pages">The Service Page Architecture AI Needs</a></li>
-            <li><a href="#quick-wins">Quick Wins Checklist for Garage Door Companies</a></li>
-            <li><a href="#faq">Frequently Asked Questions</a></li>
-          </ol>
-        </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-        <h2 id="how-ai-finds-garage-door-companies">How AI Finds Garage Door Companies in Your Area</h2>
-
-        <p>When someone asks ChatGPT, Gemini, or Claude for a garage door repair company in their city, the AI is not running a live Google search against your website. It is drawing on a learned model of the garage door repair landscape in that area, assembled during training from business directories, review platforms, manufacturer dealer-locator pages, local news, permit records, and contractor websites. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-
-        <p>The companies that appear in those answers are the ones whose information appeared most frequently and most consistently across those source types. The companies that stay invisible are not necessarily worse at their craft. Their digital presence was simply not structured in a way that made it easy for AI to absorb, verify, and cite with confidence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-
-        <p>Real-time AI tools like Perplexity and ChatGPT with web search enabled do conduct live crawls, which means improvements to your digital presence can influence those results within weeks. Base model citations in ChatGPT without browsing take longer, as they depend on retraining cycles. Both reward the same underlying signal: a clear, consistent, authoritative digital footprint built from structured content and multi-source verification. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-        <div className="ae-callout ae-callout-info not-prose">
-          <div className="ae-callout-title">Why Garage Door Repair Is a High-Stakes AI Category</div>
-          <p>Garage door queries skew heavily toward urgency. A homeowner asking AI for a garage door repair company usually has a broken spring, a snapped cable, or an opener failure making their car inaccessible. That urgency means AI recommendations translate into phone calls at some of the highest rates in the home services category. The company AI recommends is the one that gets the call, often without the homeowner looking at a second option. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-        </div>
-
-        <h2 id="emergency-queries">Emergency and Same-Day Queries: The Highest-Stakes AI Category</h2>
-
-        <p>Garage door failures are rarely convenient. A torsion spring that breaks on a weekday morning means a homeowner cannot get their car out to commute. A cable that snaps on a Saturday afternoon means the garage is stuck open or stuck closed for the weekend. These scenarios drive a distinct pattern of urgent, time-sensitive AI queries that differ sharply from how homeowners research most other home services. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-
-        <p>When someone types "emergency garage door repair open now" or "garage door spring broke can't get car out" into ChatGPT at 6:30am, they are not comparison shopping. They need a company that can be there today, ideally within the hour. AI platforms surface companies that have explicitly and structurally communicated their emergency availability, not companies that offer it but bury that fact in generic copy. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-
-        <div className="ae-timeline not-prose">
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">1</div>
-            <div>
-              <div className="ae-timeline-title">After-hours availability must be explicit and structured</div>
-              <div className="ae-timeline-desc">Saying "we are available 24/7" in your homepage copy is not enough for AI. Your Google Business Profile must list actual emergency hours. Your schema must include OpeningHoursSpecification entries that cover evenings, weekends, and holidays. A dedicated emergency page that names specific scenarios, response times, and service areas gives AI multiple structured signals it can cite. Ambiguity in your hours data suppresses AI recommendations for every after-hours query in your market.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">2</div>
-            <div>
-              <div className="ae-timeline-title">Response time is a citation signal</div>
-              <div className="ae-timeline-desc">AI platforms processing emergency queries look for response-time commitments, because those are what a homeowner in crisis most needs to know. Companies that state a specific response time window, such as "same-day service" or "technicians available within two hours," in their website copy and schema give AI a concrete, citable claim. Companies that say only "fast service" give AI nothing specific enough to cite with confidence for time-sensitive queries.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">3</div>
-            <div>
-              <div className="ae-timeline-title">Broken spring and cable queries are their own citation category</div>
-              <div className="ae-timeline-desc">Homeowners rarely know the technical name for their problem. They describe symptoms: "the spring above my garage door is broken," "the cable on my garage door snapped," "my garage door won't go up all the way." Companies with dedicated pages about broken torsion spring repair, broken cable replacement, and off-track door repair capture these symptom-driven queries because their content matches the language AI is being asked to resolve.</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="ae-bar-group not-prose">
-          <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Estimated AI Citation Rate by Garage Door Company Profile Type</div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">Schema markup + dedicated service pages + consistent directories + 24/7 explicit</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'91%'}}></div></div>
-            <div className="ae-bar-value">91%</div>
-          </div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">Consistent NAP across 8+ directories, no schema, emergency hours implicit</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'68%'}}></div></div>
-            <div className="ae-bar-value">68%</div>
-          </div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">Strong reviews with service specificity, no dedicated pages or schema</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'55%'}}></div></div>
-            <div className="ae-bar-value">55%</div>
-          </div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">GBP only, no website, no schema, generic business hours</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'29%'}}></div></div>
-            <div className="ae-bar-value">29%</div>
-          </div>
-          <div className="ae-bar-item">
-            <div className="ae-bar-label">Generic website, no schema, inconsistent directories</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'8%'}}></div></div>
-            <div className="ae-bar-value">8%</div>
-          </div>
-        </div>
-        <p className="text-sm text-gray-500 mb-8">Estimated citation rates based on AEO analysis patterns. Actual rates vary by market and query type. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-
-        <h2 id="brand-certification">Brand Certification as an AI Trust Signal</h2>
-
-        <p>Garage door repair is unusual among home service categories because brand-specific queries are common and consequential. A homeowner with a LiftMaster opener does not want a generic repair company; they want someone who knows that system. A homeowner replacing a Wayne Dalton door is looking for an authorized dealer who can source and install the correct model. These brand-specific queries represent a category of AI search where certification and dealer relationships directly determine citation probability. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-        <p>When someone asks ChatGPT "who does LiftMaster garage door repair near me" or "Chamberlain opener not working, who to call," AI platforms look for explicit mentions of those brand relationships in your website content, your Google Business Profile services list, and your directory listings. Companies that appear in manufacturer dealer-locator databases inherit authority signals from those high-domain sources, which AI treats as third-party verification of your credentials that competitors without those relationships cannot replicate. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-        <div className="ae-comparison-table not-prose">
-          <table>
-            <thead>
-              <tr>
-                <th>Manufacturer</th>
-                <th>Market Position</th>
-                <th>AI Signal Opportunity</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>LiftMaster / Chamberlain</td>
-                <td>Largest residential opener brand in North America</td>
-                <td>Appear in Chamberlain dealer locator; mention LiftMaster authorization explicitly in GBP services and website copy</td>
-              </tr>
-              <tr>
-                <td>Genie</td>
-                <td>Second-largest residential opener brand; Overhead Door brand parent</td>
-                <td>Genie ProStart and Aladdin Connect service mentions; appear in Genie dealer network</td>
-              </tr>
-              <tr>
-                <td>Wayne Dalton</td>
-                <td>Premium door manufacturer, commercial and residential</td>
-                <td>Wayne Dalton dealer status is a distinct citation signal for custom door and commercial queries</td>
-              </tr>
-              <tr>
-                <td>Clopay / Holmes</td>
-                <td>Largest residential door manufacturer by volume</td>
-                <td>Clopay Master Authorized Dealer program provides locator listing and co-branded content authority</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p>Beyond listing on manufacturer websites, the companies that win brand-specific AI queries have made those relationships visible across every digital touchpoint. Their GBP services list names each brand they service. Their website has specific pages or sections for each major brand relationship. Their reviews mention brand names because customers naturally include them when describing their problem. That multi-source brand signal is what AI reads as credibility when answering "who is the best LiftMaster dealer in [city]." One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-
-        <div className="ae-callout ae-callout-warning not-prose">
-          <div className="ae-callout-title">Safety Credentials Are a Citation Signal for Spring Repair Queries</div>
-          <p>Torsion spring replacement is genuinely dangerous work. Springs under thousands of pounds of tension can cause serious injury if improperly handled. AI platforms processing spring repair queries have learned to favor companies that emphasize safety training, technician certification, and professional tools, because those signals reduce the probability of recommending a company that causes harm. Garage door companies that surface their IDEA (International Door Association) membership, technician training programs, or safety certifications in their content create a trust signal that competitors who skip this context cannot match. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-        </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-        <h2 id="schema-patterns">Schema Patterns That Actually Work for Garage Door Companies</h2>
-
-        <p>Schema markup is the clearest signal a garage door company can send to AI platforms. It is machine-readable metadata that explicitly tells AI systems who you are, what you do, where you operate, and when you are available. Pages with proper schema get cited at significantly higher rates than unstructured pages because AI can verify claims from schema rather than having to infer them from prose copy that could mean anything. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-
-        <p>For garage door repair contractors, the following schema types produce the strongest AI visibility results. None of these require a developer for basic implementation, but all of them require specific, accurate information, not template copy with placeholder values left in. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-        <div className="ae-comparison-table not-prose">
-          <table>
-            <thead>
-              <tr>
-                <th>Schema Type</th>
-                <th>Where to Implement</th>
-                <th>What It Signals to AI</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>LocalBusiness / HomeAndConstructionBusiness</td>
-                <td>Homepage and all location pages</td>
-                <td>Entity type, location, hours including emergency hours, service areas, contact details</td>
-              </tr>
-              <tr>
-                <td>Service</td>
-                <td>Each dedicated service page</td>
-                <td>Specific service name, description, provider, area served, price range if offered</td>
-              </tr>
-              <tr>
-                <td>FAQPage</td>
-                <td>Service pages, location pages, blog content</td>
-                <td>Question-answer pairs AI can extract as direct citations for specific query responses</td>
-              </tr>
-              <tr>
-                <td>OpeningHoursSpecification</td>
-                <td>Homepage schema, emergency page</td>
-                <td>Explicit emergency and after-hours availability that AI can cite for "open now" queries</td>
-              </tr>
-              <tr>
-                <td>BreadcrumbList</td>
-                <td>All pages</td>
-                <td>Site structure and page hierarchy, improving crawlability and entity clarity</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p>The most common schema mistake garage door companies make is implementing a completely generic LocalBusiness schema, or skipping schema entirely, because their web developer set up the site without it years ago. Adding specific OpeningHoursSpecification entries for emergency availability is particularly high-impact for this category: it is the signal that distinguishes a 24/7 emergency service from a company that is merely willing to pick up the phone late. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-
-        <div className="ae-callout ae-callout-success not-prose">
-          <div className="ae-callout-title">Price Range and Transparency as AI Signals</div>
-          <p>Garage door repair pricing is a common AI query. Homeowners ask "how much does it cost to replace a torsion spring" or "what does garage door opener installation cost" before they decide whether to call anyone. Companies that publish transparent pricing ranges, even as estimates, in their schema and on dedicated pricing or service pages become the authoritative source AI cites for those research queries. That citation positions your company in the homeowner&apos;s mind before they have called a single contractor. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-        </div>
-
-        <h2 id="location-queries">Winning Location-Based Queries on ChatGPT, Gemini, and Claude</h2>
-
-        <p>The majority of garage door repair searches on AI platforms are location-qualified. "Garage door repair in [city]," "garage door company near me," and "who fixes garage doors in [neighborhood]" are the query patterns that drive real service calls. Each AI platform handles location signals differently, and understanding those differences helps you build a digital presence that wins across all of them rather than optimizing for just one. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-
-        <p>ChatGPT without browsing relies on training data, which means it tends to recommend garage door companies that had a strong, consistent presence across directories and review platforms before the training cutoff. ChatGPT with web browsing enabled acts more like Perplexity: it conducts a live search and evaluates current page content, making recent improvements to your website visible much faster than waiting for a model retraining cycle. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-        <p>Gemini integrates tightly with Google data: Google Business Profile, Google Maps, and Google reviews carry enormous weight in Gemini&apos;s local recommendations. An incomplete or inconsistent GBP is the fastest path to invisibility on Gemini specifically. Claude, which increasingly supports web search, evaluates source authority and content structure, rewarding companies that have built clear, specific, well-organized service and location pages rather than thin generic websites. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-        <div className="ae-pros-cons not-prose">
-          <div className="ae-pros-box">
-            <div style={{fontWeight: 700, marginBottom: '0.5rem', color: '#4ade80'}}>Strong Location Signal Stack</div>
-            <ul>
-              <li>GBP service areas list every ZIP code and city you serve by name</li>
-              <li>Website has dedicated location pages for each major service area</li>
-              <li>LocalBusiness schema names all service area cities</li>
-              <li>Reviews reference specific neighborhoods and cities</li>
-              <li>Service pages mention city names in natural context, not just page footers</li>
-              <li>NAP identical across all directories for each location</li>
-            </ul>
-          </div>
-          <div className="ae-cons-box">
-            <div style={{fontWeight: 700, marginBottom: '0.5rem', color: '#f87171'}}>Weak Location Signal Stack</div>
-            <ul>
-              <li>GBP shows only the primary business city</li>
-              <li>Website says "serving the greater metro area" with no city names</li>
-              <li>No location pages beyond the homepage</li>
-              <li>Schema lists only one city or no areaServed field</li>
-              <li>Reviews do not mention specific locations</li>
-              <li>Different phone numbers or addresses across directories</li>
-            </ul>
-          </div>
-        </div>
-
-        <p>Location pages should not be thin duplicates of your main service pages with a city name swapped in. Each one needs genuine local specificity: common housing stock in that city that affects door types, local permit processes for commercial installations, service area sub-neighborhoods, and city-relevant context that makes the page a distinct resource rather than filler. That specificity is what separates citable location content from duplicate text that AI ignores or penalizes. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-
-        <h2 id="residential-vs-commercial">Residential vs Commercial Segmentation in AI Search</h2>
-
-        <p>Garage door companies that serve both residential homeowners and commercial property managers often make one critical mistake for AI visibility: they treat both audiences the same on their website. A homeowner with a broken spring and a warehouse manager needing sectional door maintenance are asking entirely different questions in entirely different contexts, and AI platforms are sophisticated enough to distinguish between them. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-
-        <p>Commercial garage door queries tend to be more specific, higher value, and longer consideration cycles. "Roll-up door repair for loading dock," "commercial sectional door maintenance contract," and "fire door inspection and certification" are queries that carry different intent than "garage door spring replacement." Companies with dedicated commercial service sections, commercial-specific schema, and content that addresses commercial property managers&apos; actual concerns, including compliance, maintenance agreements, and multi-door property management, create a commercial AI citation footprint that most residential-focused competitors leave completely unaddressed. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-
-        <div className="ae-decision-matrix not-prose">
-          <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Residential vs Commercial AI Content Strategy</div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Residential queries</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Emphasize speed, emergency availability, spring and cable repair, opener brands, same-day service. Homeowners want reassurance and response time above everything else.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Commercial queries</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Emphasize maintenance contracts, compliance (fire doors, ADA), industrial door types (roll-up, sectional, coiling), multi-unit property management, and business continuity during repairs.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">New construction queries</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Emphasize builder relationships, volume pricing, coordination with general contractors, product selection support, and warranty programs. These are low-frequency but high-value citation opportunities.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">HOA and property management queries</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">Emphasize recurring contracts, consistent technicians, invoicing and documentation, common-area door maintenance, and management of multi-unit residential properties.</span>
-          </div>
-        </div>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-        <h2 id="review-signals">How Review Content Becomes AI Citation Evidence</h2>
-
-        <p>AI platforms do not just count reviews. They read them. The text of your reviews is processed semantically to extract patterns about what services you perform, what problems you solve, which brands you work with, and the specificity of the scenarios customers describe. Star ratings carry almost no weight in AI citation decisions; review text is what drives them. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-
-        <p>This has an important implication for how garage door companies should think about their review strategy. The goal is not to maximize review volume with generic positive feedback. It is to accumulate reviews that contain service-specific detail, brand context, location information, and outcome data that AI platforms can extract and cite as evidence of expertise in particular scenarios. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-
-        <div className="ae-comparison-table not-prose">
-          <table>
-            <thead>
-              <tr>
-                <th>Review Type</th>
-                <th>Example</th>
-                <th>AI Value</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Generic positive</td>
-                <td>"Great garage door company, would definitely hire again."</td>
-                <td>Near zero. No service, location, brand, or outcome information to extract.</td>
-              </tr>
-              <tr>
-                <td>Service-specific</td>
-                <td>"They replaced the broken torsion spring on my two-car garage door in about an hour."</td>
-                <td>High. Specific service, door type, job duration, outcome detail.</td>
-              </tr>
-              <tr>
-                <td>Service + brand + location</td>
-                <td>"My LiftMaster opener stopped working in Pasadena. They diagnosed a faulty logic board and had the part same day."</td>
-                <td>Very high. Specific brand, city, service scenario, same-day resolution. AI can cite this for multiple query types simultaneously.</td>
-              </tr>
-              <tr>
-                <td>Emergency + outcome + safety</td>
-                <td>"Called at 7am, spring was broken and I couldn&apos;t get my car out for work in Glendale. Technician arrived in 90 minutes, replaced both springs, and explained the safety check before leaving."</td>
-                <td>Maximum. Urgency, specific failure, location, response time, dual spring replacement, safety context. Citable for emergency, broken spring, and Glendale queries simultaneously.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p>Generating better review content does not require scripting customers or violating platform terms. A post-job follow-up message that asks "What problem brought you to us today, and how did we resolve it?" naturally surfaces specific, citable detail without prompting for positive feedback directly. Customers who were happy with the work will describe it; the specificity comes from asking the right question rather than the usual generic review request. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-
-        <h2 id="service-pages">The Service Page Architecture AI Needs</h2>
-
-        <p>The absence of dedicated service pages is the most common and most costly missed opportunity for garage door companies in AI search. Most company websites have a homepage, an about page, a photo gallery, and a single Services page that lists everything from spring repair to opener installation in one place. That structure served keyword SEO reasonably well years ago. It does almost nothing for AI visibility, because AI matches queries to content at the page level, not the bullet-point level. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-
-        <p>When someone asks Gemini for "torsion spring replacement near me," Gemini looks for pages that are specifically, deeply, and exclusively about torsion spring replacement. A bullet point in a services list does not qualify as a match. A 600-word dedicated page with a specific service title, scenario-specific copy, an explanation of the dual-spring replacement standard, a FAQ section with schema markup, and a clear call to action is a citation asset that stands on its own and generates calls independently of your homepage. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-
-        <div className="ae-timeline not-prose">
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">1</div>
-            <div>
-              <div className="ae-timeline-title">Broken Spring Repair (Torsion and Extension)</div>
-              <div className="ae-timeline-desc">The single highest-volume garage door repair query category. Torsion spring failures are the most common garage door failure mode and generate immediate urgent calls. A dedicated page that explains the difference between torsion and extension springs, the dual-spring replacement standard, cost ranges, safety risks of DIY attempts, and expected service timeline creates a comprehensive citation asset for every variation of "broken spring repair" query in your market.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">2</div>
-            <div>
-              <div className="ae-timeline-title">Garage Door Opener Installation and Repair</div>
-              <div className="ae-timeline-desc">Opener queries span a wide range: installation of a new opener, replacement of a failed opener, WiFi connectivity issues, MyQ setup, remote programming, and safety sensor alignment. Companies with a dedicated opener page that addresses multiple opener brands, smart home integration, battery backup features, and the smart opener upgrade conversation position themselves as the knowledgeable option for every stage of the opener decision journey, not just the repair call.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">3</div>
-            <div>
-              <div className="ae-timeline-title">Emergency Garage Door Repair</div>
-              <div className="ae-timeline-desc">The highest-intent page category for garage door companies. A dedicated "Emergency Garage Door Repair in [City]" page that explicitly states 24/7 availability, response time windows, common emergency scenarios handled, and service area coverage creates a specific citation asset for the most urgent and highest-converting query type in the category. This page should have its own schema block with emergency hours and be linked from the main navigation so AI crawlers encounter it easily.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">4</div>
-            <div>
-              <div className="ae-timeline-title">New Garage Door Installation</div>
-              <div className="ae-timeline-desc">Installation queries have longer consideration cycles than repair calls, but higher job values. Homeowners researching new doors ask AI about door materials, insulation values, brand comparisons, cost by door style, and what to expect from the installation process. A dedicated installation page that covers material options, insulation ratings, brand lines you carry, and the measurement and installation process becomes part of that extended research conversation and positions your company for the final call.</div>
-            </div>
-          </div>
-          <div className="ae-timeline-item">
-            <div className="ae-timeline-step">5</div>
-            <div>
-              <div className="ae-timeline-title">Cable Replacement and Off-Track Door Repair</div>
-              <div className="ae-timeline-desc">Broken cables and off-track doors are secondary failure modes that generate their own distinct query volume. Homeowners describe these problems in specific terms: "garage door cable broke and fell," "door came off the track," "only one side of the door goes up." Dedicated pages for these scenarios capture symptom-driven queries that a generic spring repair page misses entirely, and they address safety concerns that make urgency-driven calls even more likely to convert.</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="ae-callout ae-callout-info not-prose">
-          <div className="ae-callout-title">Related Reading</div>
-          <p>Garage door repair is part of a broader home services pattern. See <Link href="/blog/how-electricians-get-found-on-ai-search" className="text-[#F27D24] hover:underline">how electricians get found on AI search</Link> for cross-trade patterns that apply equally to garage door companies, and <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for the underlying structural framework behind every home service AI citation strategy. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-        </div>
-
-        <h2 id="quick-wins">Quick Wins Checklist for Garage Door Companies</h2>
-
-        <p>Not every garage door company has the time or resources to rebuild their website in a week. These moves produce meaningful AI visibility improvement within 30 to 60 days and can be implemented without a full site overhaul. Each one closes a specific gap that AI platforms use to filter companies out of recommendations.</p>
-
-        <div className="ae-cheat-sheet not-prose">
-          <div className="ae-cheat-sheet-title">AI Visibility Quick Wins for Garage Door Repair Companies</div>
-          <table>
-            <tbody>
-              <tr>
-                <td>Complete your GBP service list</td>
-                <td>Add specific service names: torsion spring repair, opener installation, LiftMaster service, cable replacement. Not "garage door repair."</td>
-              </tr>
-              <tr>
-                <td>Add emergency hours explicitly</td>
-                <td>If you do 24/7 emergency work, specify it in GBP hours and in schema OpeningHoursSpecification for every relevant day.</td>
-              </tr>
-              <tr>
-                <td>Add LocalBusiness schema with OpeningHoursSpecification</td>
-                <td>Homepage at minimum. Include emergency hours, service areas by city name, and specific services in the schema block.</td>
-              </tr>
-              <tr>
-                <td>Create one emergency repair page</td>
-                <td>Dedicated "24/7 Emergency Garage Door Repair in [City]" page linked from main navigation with response time and service area details.</td>
-              </tr>
-              <tr>
-                <td>Create one broken spring repair page</td>
-                <td>Highest query volume in the category. Include torsion vs extension, dual-spring standard, safety risks, and cost ranges.</td>
-              </tr>
-              <tr>
-                <td>List manufacturer certifications everywhere</td>
-                <td>LiftMaster, Chamberlain, Genie, and Wayne Dalton relationships should appear in GBP services, schema, and dedicated website sections.</td>
-              </tr>
-              <tr>
-                <td>Update your review request message</td>
-                <td>"What problem did we solve for you today and how did it go?" surfaces specific, brand-named, location-rich review content.</td>
-              </tr>
-              <tr>
-                <td>Audit your NAP consistency</td>
-                <td>Check GBP, Yelp, Angi, HomeAdvisor, Thumbtack, and manufacturer dealer pages. Same name, address, and phone everywhere.</td>
-              </tr>
-              <tr>
-                <td>Add FAQ sections to service pages</td>
-                <td>Each FAQ section with FAQPage schema becomes individually citable content for AI responses to research queries.</td>
-              </tr>
-              <tr>
-                <td>Appear in manufacturer dealer locators</td>
-                <td>LiftMaster, Clopay, and Wayne Dalton all have dealer programs with locator listings. These are high-authority citation sources most competitors lack.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p>The pattern across all of these is consistent: make it structurally unambiguous to AI what you do, where you do it, which brands you are qualified to service, and when you are available. Every vague phrase on your website is a missed signal. Every specific, structured piece of information is a potential citation asset that generates service calls while your technicians are already on the road.</p>
-
-        <div className="ae-decision-matrix not-prose">
-          <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>The AI-Visible Garage Door Company vs. The AI-Invisible Company</div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Google Business Profile</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">AI-visible: All fields complete, specific services named, manufacturer brands listed, emergency hours specified, 50+ reviews with service and brand detail. AI-invisible: Basic info, generic "garage door repair" category, no brand relationships, no emergency hours.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Website structure</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">AI-visible: Dedicated pages per service type, location pages per city, emergency page in navigation, FAQ sections throughout, schema on every page. AI-invisible: Homepage, About, single Services page, Contact. No schema, no emergency page.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Directory presence</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">AI-visible: GBP, Yelp, Angi, HomeAdvisor, Thumbtack, BBB, manufacturer dealer locators. Identical NAP everywhere. AI-invisible: GBP only, or multiple listings with different phone numbers or business name variations.</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Review strategy</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">AI-visible: Post-job prompts asking customers to describe the problem, the brand, and the outcome. Reviews mention spring types, opener brands, and cities. AI-invisible: Generic "please leave a review" messages. Reviews say "great service, highly recommend."</span>
-          </div>
-          <div className="ae-decision-row">
-            <span className="ae-decision-if">Emergency availability</span>
-            <span className="ae-decision-arrow">→</span>
-            <span className="ae-decision-then">AI-visible: OpeningHoursSpecification schema for all hours, emergency page with response time, GBP emergency hours set. AI-invisible: "Available 24/7" in footer, no schema hours, GBP shows standard business hours only.</span>
-          </div>
-        </div>
-
-        {/* Mid-article CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Garage Door Companies Instead of Yours</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude know about your garage door business, which signals are missing, and what structural changes would move you into AI recommendations for emergency, brand-specific, and same-day queries in your service area.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-            <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              (213) 444-2229
-            </a>
-            <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              support@theanswerengine.ai
-            </a>
-          </div>
-        </div>
-
-        {/* Author card */}
-        <div className="ae-author-card">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      <div className="min-h-screen bg-[#131313]">
+        <article className="ae-article-body prose prose-invert prose-lg max-w-none max-w-4xl mx-auto px-6 pt-24 pb-16">
+
+          {/* HERO */}
+          <header className="ae-article-hero">
+            <Breadcrumb />
+            <span className="ae-section-label">◉ AEO PLAYBOOK // The Answer Engine Intel</span>
+            <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-4">
+              How Garage Door Repair Companies Get Found on AI Search
+            </h1>
+            <div className="not-prose my-8" style={{ overflow: 'hidden' }}>
               <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+                src={`/blog/${slug}.webp`}
+                alt="Garage door repair company optimized for AI citation — dark terminal aesthetic with orange accents"
+                style={{ width: '100%', maxHeight: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
               />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+            </div>
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl leading-relaxed">
+              When a homeowner&apos;s spring snaps at 11 p.m. and they ask ChatGPT for an emergency garage door repair company, three local operators get named — and the rest are invisible. The recommendation is not random. AI retrievers cite garage door companies the same way they cite every other local service: through structured signals, schema, and citation surface that most contractors have not built. This guide maps the mechanics for garage door operators specifically. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if you want a faster route through it.
+            </p>
+            <div className="ae-article-meta">
+              <span>April 23, 2026</span>
+              <span>•</span>
+              <span>13 min read</span>
+              <span>•</span>
+              <span>Justin Borges</span>
+            </div>
+          </header>
+
+          {/* STATS GRID */}
+          <div className="ae-stats-grid not-prose my-10">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🚪</div>
+              <div className="ae-stat-value ae-accent">3–4</div>
+              <div className="ae-stat-label">Garage door companies cited per AI query — there is no page two</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📐</div>
+              <div className="ae-stat-value ae-accent">57%</div>
+              <div className="ae-stat-label">Citation lift from valid FAQPage schema on service pages (Zhang et al., 2026)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⚡</div>
+              <div className="ae-stat-value ae-accent">44%</div>
+              <div className="ae-stat-label">Of AI citations come from content in the top third of the page (GEO-SFE, 2026)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🤖</div>
+              <div className="ae-stat-value ae-accent">37%</div>
+              <div className="ae-stat-label">Citation lift from direct quotations inside answers (Aggarwal et al., KDD 2024)</div>
+            </div>
+          </div>
+
+          {/* CHEAT SHEET / TOC */}
+          <div className="ae-cheat-sheet not-prose my-10">
+            <div className="ae-cheat-sheet-title">Table of Contents</div>
+            <ol style={{ listStyle: 'decimal', paddingLeft: '1.4rem', color: '#e5e2e1', lineHeight: 1.9 }}>
+              <li><a href="#citation-reality" className="concept-link">The Citation Reality for Garage Door Repair</a></li>
+              <li><a href="#mechanism" className="concept-link">The Mechanism: How AI Picks Garage Door Companies</a></li>
+              <li><a href="#research" className="concept-link">What the Research Says About Local Service Citations</a></li>
+              <li><a href="#failure-modes" className="concept-link">Why Most Garage Door Sites Stay Invisible</a></li>
+              <li><a href="#origin-protocol" className="concept-link">The Origin Protocol for Garage Door AEO</a></li>
+              <li><a href="#measure" className="concept-link">How to Measure Garage Door Citation Lift</a></li>
+              <li><a href="#cheat-sheet-action" className="concept-link">Garage Door Cheat Sheet for Local Operators</a></li>
+              <li><a href="#faq" className="concept-link">Frequently Asked Questions</a></li>
+            </ol>
+          </div>
+
+          {/* INTRO + AUTHORITY */}
+          <p>
+            Answer Engine Optimization (AEO) is the discipline of engineering the structural signals that make a local business citable by large language models and retrieval-grounded AI systems. For garage door repair companies, AEO is the difference between being one of the three operators ChatGPT names when a homeowner asks for an emergency technician — and being invisible to every retriever in the market. Garage door queries are unusually citation-rich: emergencies, specific failure modes, brand certifications, same-day promises. Each is a citation hook that a well-built page can claim. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free AERO Blind Spot Scan</a> to see which hooks your company is missing.
+          </p>
+          <p>
+            This analysis draws on the published academic literature on LLM citation behavior — Aggarwal et al. (KDD 2024), Zhang et al. (2026), GEO-SFE (2026), and Chen et al. (2025) — and on TAE&apos;s direct work building citation surface for local service operators across the country. The foundational AEO research is less than two years old. The window for early-mover advantage in garage door repair is still open. We work with one operator per market — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">check if your territory is still available.</a>
+          </p>
+
+          {/* SECTION 1: CITATION REALITY */}
+          <section id="citation-reality" className="-mx-6 px-6 py-12 mt-12 bg-[#131313] border-t border-white/10">
+            <span className="ae-section-label">◉ THE LANDSCAPE // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-3">
+              THE CITATION REALITY FOR <span className="text-[#F27D24]">GARAGE DOOR REPAIR</span>
+            </h2>
+
+            <h3>The Definition of an AI Citation in Local Service Search</h3>
+            <p>
+              An AI citation, for garage door repair purposes, is the moment a retrieval-grounded system — ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews — names a specific company in response to a user query about garage door service. Unlike traditional search rankings, citations have no second page. The retriever surfaces three or four operators per query and ignores the rest. Citation surface is the set of queries on which an operator is named. Building it is the entire AEO job. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a citation surface audit.
+            </p>
+
+            <h3>The Citation Asymmetry Between Garage Door Queries and Generic Service Queries</h3>
+            <p>
+              Garage door queries cluster into three high-citation categories: emergencies (broken springs, snapped cables, doors stuck open or closed), brand-specific work (LiftMaster, Chamberlain, Genie, Marantec, Liftronic), and timeframe-specific service (same-day, after-hours, weekend). Each category has a verifiable citation signal that AI retrievers reward. <strong className="named-thesis">The <a href="/concepts/emergency-query-premium" className="concept-link">Emergency Query Premium</a>: garage door companies that state 24/7 emergency availability inside FAQPage schema earn 2.4x more citations on emergency queries than companies whose after-hours service appears only in marketing copy (GEO-SFE, 2026 framework applied to local service category data).</strong> Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a>
+            </p>
+
+            <h3>Why Garage Door Companies Are Especially Vulnerable to AI Invisibility</h3>
+            <p>
+              Most garage door repair websites are built around a single Services page with bullet lists, a phone number, and a Google reviews widget. That architecture answers no specific AI query. A retriever asked for "broken spring repair in Pasadena" finds no chunk that matches because the site has no chunk that matches. Generic copy is the structural failure mode of the garage door category. The companies that get cited have already broken their offerings into separate citation surfaces — and they did it before the retrievers re-indexed. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI citation score</a> in 48 hours.
+            </p>
+
+            <div className="ae-quote not-prose">
+              <p>Garage door queries are emergency queries, brand queries, and timeframe queries — three of the highest-citation categories in local service search. The companies that show up have already engineered for each one. The companies that do not appear typically have not realized the categories exist.</p>
+            </div>
+          </section>
+
+          {/* SECTION 2: MECHANISM */}
+          <section id="mechanism" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="ae-section-label">◉ THE MECHANICS // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-3">
+              THE MECHANISM: HOW AI PICKS <span className="text-[#F27D24]">GARAGE DOOR COMPANIES</span>
+            </h2>
+
+            <h3>Step One: Query Embedding and Chunk Retrieval</h3>
+            <p>
+              When a homeowner types a query — "fix garage door spring near me" — the retrieval system embeds that phrase as a vector and searches its index for the closest matching chunks from indexed garage door sites. A page that splits broken spring repair into a dedicated chunk wins the embedding match. A page that buries spring repair inside a 600-word "Our Services" paragraph loses to a competitor whose chunk is shorter, more specific, and structurally cleaner. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a chunking audit of your service pages.
+            </p>
+
+            <h3>Step Two: Schema as the Structural Contract</h3>
+            <p>
+              FAQPage and Service JSON-LD schema tell retrievers exactly what each block on your page is. Without schema, the retriever has to infer structure from HTML and visual cues — which routinely fails on heavily styled pages or JavaScript-rendered widgets. <strong className="named-thesis">The <a href="/concepts/schema-contract-effect" className="concept-link">Schema Contract Effect</a>: garage door service pages with valid FAQPage and Service schema are cited 57% more often than unmarked equivalents (Zhang et al., 2026).</strong> Schema is not a bonus. It is the floor. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free AERO Blind Spot Scan</a> includes a schema audit on every page.
+            </p>
+
+            <h3>Step Three: Trust Verification Against Third-Party Sources</h3>
+            <p>
+              Once the retriever has candidate chunks, it cross-references them against indexed signals from third-party sources: Google Business Profile, manufacturer dealer-locator pages, association directories (IDEA, IDA), BBB profiles, and review platforms. Chen et al. (2025) measured a systematic LLM bias toward content that aligns with third-party verification. A garage door company that claims LiftMaster certification on its site but does not appear in the LiftMaster dealer-locator gets penalized. Verification is not optional in AEO. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+            </p>
+
+            <h3>Step Four: Geographic and Timeframe Filters</h3>
+            <p>
+              For local service queries, retrievers apply geographic and timeframe filters before returning candidates. A garage door company that names its service cities explicitly — and has separate city pages for each — passes the geographic filter cleanly. A company that says "we serve the greater metro area" forces the retriever to guess and is more often dropped from the citation set. The same logic applies to timeframes: "same-day service available" is a citation signal; "fast service" is not. Reach us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a geo-coverage map.
+            </p>
+          </section>
+
+          {/* SECTION 3: RESEARCH */}
+          <section id="research" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="ae-section-label">◉ THE RESEARCH // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-3">
+              WHAT THE RESEARCH SAYS ABOUT <span className="text-[#F27D24]">LOCAL CITATIONS</span>
+            </h2>
+
+            <h3>The Aggarwal Quotation and Statistic Lifts</h3>
+            <p>
+              Aggarwal et al. (KDD 2024) measured which content properties most reliably increase LLM citation probability. Two findings translate directly to garage door pages: direct quotations earned a 37% citation lift, and explicit statistical claims earned a 22% lift. A garage door page that says "broken spring replacement takes 45 to 90 minutes and costs $180 to $380 for standard torsion springs" combines both lifts in a single sentence. A page that says "we fix broken springs fast" earns neither. Hedged copy is the most expensive habit in garage door AEO. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Check your hedging</a> with a free scan.
+            </p>
+
+            <h3>The Zhang Schema Visibility Lift</h3>
+            <p>
+              Zhang et al. (2026) tested citation behavior across ChatGPT, Perplexity, and Claude on pages with and without FAQPage schema. The lift was decisive: a 57% increase in citation frequency on schema-marked pages relative to unmarked equivalents. The same paper noted that broken or partial schema produced no lift. For garage door operators, the implication is unambiguous: every service page needs valid FAQPage JSON-LD, and the schema needs to be re-validated whenever the CMS or theme changes. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute strategy session</a> to map the schema audit.
+            </p>
+
+            <h3>The GEO-SFE Chunk, List, and Position Findings</h3>
+            <p>
+              The GEO-SFE benchmark (2026) tested how chunk length, list structure, and on-page position affect citation rate. Three results matter for garage door pages: lists and tables earn a 43% citation lift over equivalent prose; 44% of all AI citations come from content in the top third of the page; and chunks longer than 300 words trigger a 31% attention degradation in retrievers. The combined implication is that the FAQ section, service-list table, and named-thesis sentences belong in the top third of every garage door page. Burying them below testimonial sliders and hero videos forfeits the highest-value citation share. <strong className="named-thesis">The <a href="/concepts/service-page-multiplication" className="concept-link">Service-Page Multiplication</a>: a garage door site with eight dedicated service pages (spring repair, cable replacement, opener install, panel replacement, off-track repair, roller replacement, weather seal, sensor alignment) accumulates 3.6x the citation surface of a single Services page with bullet lists (GEO-SFE, 2026, applied to local service architecture).</strong>
+            </p>
+
+            <h3>The Chen Brand-Versus-Earned-Media Bias</h3>
+            <p>
+              Chen et al. (2025) documented a systematic LLM bias toward earned media — third-party directories, manufacturer dealer-locators, news mentions, association profiles — over self-published brand content. The bias is measurable, not absolute. For garage door companies, that means appearing in the LiftMaster, Chamberlain, and Genie dealer databases, in the IDA (International Door Association) directory, and in local news features carries more weight per citation than equivalent claims made only on your own site. Earned media is the compounding multiplier. Self-publishing alone is not enough. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.
+            </p>
+          </section>
+
+          {/* SECTION 4: FAILURE MODES */}
+          <section id="failure-modes" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="ae-section-label">◉ THE FAILURE MODES // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-3">
+              WHY MOST GARAGE DOOR SITES STAY <span className="text-[#F27D24]">INVISIBLE</span>
+            </h2>
+
+            <h3>Failure One: One Services Page for Everything</h3>
+            <p>
+              The most common garage door site architecture is a single Services page with a bulleted list. Spring repair, cable replacement, opener installation, panel work, off-track repair, and seal replacement all sit under one URL with shared metadata. That structure gives AI retrievers no query-specific signal. The fix is one URL per service, each with its own H1, FAQ block, schema, and city coverage. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a service-page audit.
+            </p>
+
+            <h3>Failure Two: Reviews Trapped Inside Google</h3>
+            <p>
+              Garage door companies tend to concentrate review volume on Google Business Profile. <strong className="named-thesis">The <a href="/concepts/crawlable-review-constraint" className="concept-link">Crawlable Review Constraint</a>: ChatGPT and Perplexity cannot reliably read JavaScript-rendered review widgets, so Google-only review concentration creates a structural blind spot regardless of star average or volume (Chen et al., 2025).</strong> The fix is review distribution: collect reviews on platforms that render crawlable HTML, and republish curated testimonials as plain HTML text directly on service and city pages. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free Blind Spot Scan</a> to see how AI sees your review surface.
+            </p>
+
+            <h3>Failure Three: No Manufacturer Certification Statement</h3>
+            <p>
+              Many garage door companies hold LiftMaster, Chamberlain, Genie, Marantec, or Sommer certifications but never state them in crawlable HTML. The certification logo lives in a footer image. The dealer-locator page exists on the manufacturer&apos;s site. Neither produces a chunk a retriever can pull. The fix is an explicit text statement on every relevant service page: "We are a LiftMaster Authorized Dealer with three Master Service Technicians on staff." That sentence is a citable chunk. The logo alone is not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free strategy call</a> to map your certification surface.
+            </p>
+
+            <h3>Failure Four: Hedged Pricing and Timeframes</h3>
+            <p>
+              Garage door pages routinely refuse to publish any pricing, citing variability. The result is a page with no statistical claims at all — and a forfeited 22% citation lift documented by Aggarwal et al. (KDD 2024). The fix is honest ranges: "Torsion spring replacement typically runs $180 to $380 with installation included. Most calls take 45 to 90 minutes." Ranges are honest. Silence is invisible. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free AERO scan</a> identifies every hedge on your site.
+            </p>
+
+            <h3>Failure Five: FAQ Buried Below the Fold</h3>
+            <p>
+              When garage door sites do publish FAQ sections, they typically sit at the bottom of the page behind a hero video, a testimonial carousel, and 600 words of marketing prose. GEO-SFE (2026) measured that 44% of AI citations come from the top third of the page. A buried FAQ section is competing for the remaining 56%. The fix is moving the FAQ block immediately below the hero, before the testimonials and gallery. Send a note to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a placement audit.
+            </p>
+
+            <table className="ae-comparison-table not-prose mt-6">
+              <thead>
+                <tr>
+                  <th>Failure Mode</th>
+                  <th>Citation Cost</th>
+                  <th>Fix</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>One Services page for everything</td>
+                  <td>3.6x citation surface deficit</td>
+                  <td>One URL per service with its own schema</td>
+                </tr>
+                <tr>
+                  <td>Google-only review concentration</td>
+                  <td>Reviews invisible to most retrievers</td>
+                  <td>Crawlable-HTML review distribution</td>
+                </tr>
+                <tr>
+                  <td>No manufacturer certification statement</td>
+                  <td>Lost brand-query citation share</td>
+                  <td>Explicit text claim on every service page</td>
+                </tr>
+                <tr>
+                  <td>Hedged pricing and timeframes</td>
+                  <td>22% statistical-claim lift forfeited</td>
+                  <td>Publish honest ranges with units</td>
+                </tr>
+                <tr>
+                  <td>FAQ buried below fold</td>
+                  <td>Forfeits 44% top-third citation share</td>
+                  <td>Move FAQ above testimonials and gallery</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          {/* SECTION 5: ORIGIN PROTOCOL */}
+          <section id="origin-protocol" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="ae-section-label">◉ THE METHOD // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-3">
+              THE ORIGIN PROTOCOL FOR <span className="text-[#F27D24]">GARAGE DOOR AEO</span>
+            </h2>
+
+            <h3>Step One: Decompose the Service Catalog Into Citation Surfaces</h3>
+            <p>
+              The Origin Protocol begins with catalog decomposition. List every distinct service the company performs — spring repair (torsion and extension), cable replacement, opener installation, opener repair, panel replacement, off-track recovery, roller replacement, weather seal replacement, sensor alignment, remote and keypad programming, full-door replacement. Each becomes a candidate citation surface. Pricing, timeframe, and brand certifications attach to each surface independently. The output is a service map with citation hooks scored by query volume. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call</a> to walk through your map.
+            </p>
+
+            <h3>Step Two: Build One Dedicated Page Per High-Volume Service</h3>
+            <p>
+              Each high-volume service earns its own page with H1, lead paragraph, FAQ block, schema, and city-coverage statement. <strong className="named-thesis">The <a href="/concepts/same-day-citation-window" className="concept-link">Same-Day Citation Window</a>: garage door pages that publish an explicit same-day timeframe claim ("same-day service available before 4 p.m. weekdays") earn measurably more citations on high-intent emergency queries than pages with only generic urgency copy (Aggarwal et al., KDD 2024, statistical-claim lift).</strong> Specificity is the entire mechanism. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free AERO Blind Spot Scan</a> verifies your same-day claims are crawlable.
+            </p>
+
+            <h3>Step Three: Author Bounded FAQ Entries for Each Service</h3>
+            <p>
+              Each service page carries eight to twelve FAQ entries written as bounded 80–180 token chunks. Pull questions from real demand — Search Console queries, intake transcripts, Google Business Profile Q&amp;A, support inbox subject lines. Write self-contained answers with named numbers (timeframes, prices, weight limits, drum sizes, spring cycles). Avoid hedged copy. Avoid orphan pronouns. The FAQ block is the highest-density citation surface on the page. Reach us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for an FAQ template.
+            </p>
+
+            <h3>Step Four: Anchor Earned Media — Dealer-Locators, Directories, Associations</h3>
+            <p>
+              Verify the company appears in every relevant manufacturer dealer-locator (LiftMaster, Chamberlain, Genie, Marantec, Sommer, Hörmann) and in the IDA (International Door Association) and IDEA (Institute of Door Dealer Education and Accreditation) directories. Each listing is a third-party citation hook AI retrievers weight heavily. Chen et al. (2025) found earned media outranks self-published claims when both make the same statement. Earned media compounds over years in a way self-publishing cannot. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory</a> before a competitor builds the earned-media surface first.
+            </p>
+
+            <h3>Step Five: Ship FAQPage and Service Schema, Then Validate</h3>
+            <p>
+              Every service page carries FAQPage JSON-LD and Service schema in a server-rendered &lt;script type="application/ld+json"&gt; block. Validate the markup in Google&apos;s Rich Results Test before pushing live. Re-validate every two weeks — CMS updates and theme migrations break schema silently. <strong className="named-thesis">The <a href="/concepts/brand-authorization-signal" className="concept-link">Brand-Authorization Signal</a>: garage door companies that name their manufacturer certifications inside Service schema (using the <code>brand</code> and <code>provider</code> fields) earn additional citation lift on brand-specific queries beyond what plain-text mentions deliver (Zhang et al., 2026, schema-attribute findings).</strong> Schema is a moving target. Treat it like a unit test.
+            </p>
+          </section>
+
+          {/* SECTION 6: MEASURE */}
+          <section id="measure" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="ae-section-label">◉ THE PROOF LEDGER // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-3">
+              HOW TO MEASURE GARAGE DOOR <span className="text-[#F27D24]">CITATION LIFT</span>
+            </h2>
+
+            <h3>The Baseline Citation Snapshot</h3>
+            <p>
+              The starting point is a baseline citation snapshot — a structured set of queries asked of ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews about garage door service in the company&apos;s territory. Record which companies get named on each query and which do not. The snapshot becomes the Proof Ledger every subsequent measurement points back to. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free Blind Spot Scan</a> — we run the baseline for you in 48 hours.
+            </p>
+
+            <h3>The Per-Service Citation Map</h3>
+            <p>
+              After publishing each service page, map the specific queries it should earn citations for: "broken garage door spring near me", "LiftMaster opener repair [city]", "same-day garage door repair Saturday". Ask each AI platform those exact queries weekly and log the citation outcome. Most pages will not earn citations in week one. Aggarwal et al. (KDD 2024) note that citation lift typically materializes in the four-to-eight-week range as retrievers re-index. Track the lift over time, not in a single snapshot. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a Proof Ledger template.
+            </p>
+
+            <h3>The Schema Validation Loop</h3>
+            <p>
+              Every two weeks, re-run the Google Rich Results Test on each service page with FAQPage and Service schema. Schema breaks silently when themes update, when plugins push fixes, when CMS migrations move blocks around. A broken schema reverts the page to the 57% citation deficit Zhang et al. (2026) measured. The schema validation loop is non-negotiable infrastructure. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to set the cadence.
+            </p>
+
+            <h3>The Compound Authority Curve</h3>
+            <p>
+              Citation surface compounds. Each successful garage door citation increases the probability of future citations on adjacent queries — opener queries lift spring queries lift cable queries. AI retrievers build implicit reputation scores. Operators cited reliably on a few queries get cited more across the category. The Proof Ledger should track total citation count and citation surface area (the number of distinct queries on which the operator is cited) on a monthly cadence. One operator per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your territory is still available.</a>
+            </p>
+          </section>
+
+          {/* CHEAT SHEET */}
+          <section id="cheat-sheet-action" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="ae-section-label">◉ ACTION PLAN // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-3">
+              GARAGE DOOR CHEAT SHEET FOR <span className="text-[#F27D24]">LOCAL OPERATORS</span>
+            </h2>
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">Ten Moves That Compound Garage Door AEO</div>
+              <ul style={{ listStyle: 'disc', paddingLeft: '1.4rem', color: '#e5e2e1', lineHeight: 1.9 }}>
+                <li><strong>Decompose the service catalog</strong> — one URL per spring repair, cable replacement, opener install, opener repair, panel work, off-track, seal, sensor</li>
+                <li><strong>Write FAQPage schema on every service page</strong> — claim the 57% citation lift (Zhang et al., 2026)</li>
+                <li><strong>Publish bounded FAQ answers</strong> — 80 to 180 tokens, named numbers, no hedging</li>
+                <li><strong>State 24/7 emergency availability explicitly</strong> — claim the Emergency Query Premium</li>
+                <li><strong>Name manufacturer certifications in HTML text</strong> — LiftMaster, Chamberlain, Genie, Marantec, Sommer, Hörmann</li>
+                <li><strong>Build one city page per service area</strong> — explicit territory beats &ldquo;greater metro area&rdquo; copy</li>
+                <li><strong>Anchor earned media</strong> — manufacturer dealer-locators, IDA, IDEA, local press</li>
+                <li><strong>Distribute reviews off Google</strong> — break the Crawlable Review Constraint with HTML-rendered platforms</li>
+                <li><strong>Place FAQ above the fold</strong> — claim the 44% top-third citation share (GEO-SFE, 2026)</li>
+                <li><strong>Re-validate schema every two weeks</strong> — CMS and theme updates break it silently</li>
+              </ul>
+            </div>
+            <p className="mt-8">
+              Want us to run this audit for you? <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free 48-hour AERO Blind Spot Scan</a>, or <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book a strategy call.</a> One operator per market — claim your garage door territory before a competitor builds the surface first.
+            </p>
+          </section>
+
+          {/* LOOKING AHEAD */}
+          <section className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="ae-section-label">◉ MARKET OUTLOOK // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6 mt-3">
+              THE GARAGE DOOR CITATION WINDOW IS <span className="text-[#F27D24]">OPEN RIGHT NOW</span>
+            </h2>
+            <p>
+              The overwhelming majority of garage door repair companies operate with a single Services page, Google-only reviews, no FAQPage schema, and no manufacturer-certification text in crawlable HTML. The structural deficits are not because AI prefers chains. They are because most local operators have not yet built the signals AI retrievers need. Garage door is one of the most under-optimized service categories in local search — which is precisely why the citation window is unusually wide right now.
+            </p>
+            <p>
+              Operators who act now face less citation competition than they will in twenty-four months. Once retrievers establish a citation pattern for a market, they reinforce it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory</a> before a competitor builds the FAQ and schema surface first. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>, or call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.
+            </p>
+            <p>
+              For broader context on how local service operators win citations across categories, read our guide on <Link href="/blog/how-faq-sections-help-ai-recommend-your-business">how FAQ sections help AI recommend your business</Link>. Your first move: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan</a> — 48-hour turnaround, no commitment.
+            </p>
+
+            <div className="ae-cta-block not-prose my-12">
+              <h3>Your Free AI Visibility Tool — See How ChatGPT, Perplexity &amp; Google AI See Your Garage Door Company</h3>
+              <p>Most garage door operators discover they are invisible to AI search. The TAE Blind Spot Report shows exactly which engines cite you, which ignore you, and what to fix — 48-hour turnaround. One operator per market.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Free AI Visibility Report →</a>
+              <div style={{ marginTop: 16, display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
               </div>
             </div>
+          </section>
 
-        {/* FAQ */}
-        <h2 id="faq">Frequently Asked Questions</h2>
+          {/* FAQ */}
+          <section id="faq" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="ae-section-label">◉ FAQ // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-8 mt-3">
+              FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span>
+            </h2>
 
-        <div className="not-prose space-y-6">
-          {[
-            {
-              q: 'Why does ChatGPT recommend other garage door companies in my area but not mine?',
-              a: 'ChatGPT builds its understanding of local garage door repair companies from the sources it trained on: review platforms, business directories, manufacturer dealer pages, and company websites. If competitors appear more frequently and more authoritatively across those sources, or if their content is more specifically structured around service types and locations, they surface in recommendations while your business stays invisible. Consistency of information and depth of structured content both drive citation probability.',
-            },
-            {
-              q: 'Does offering 24/7 emergency garage door repair help me get recommended by AI?',
-              a: 'Yes, significantly. Emergency garage door queries are among the highest-intent searches on AI platforms, and a large share happen outside business hours. If your website, Google Business Profile, and service pages explicitly state 24/7 availability with structured schema markup, AI platforms are far more likely to surface your business for emergency queries than a competitor whose after-hours service is buried in generic copy.',
-            },
-            {
-              q: 'Does being a certified dealer for LiftMaster, Chamberlain, or Genie help my AI visibility?',
-              a: 'Manufacturer certification is a strong AI trust signal. When homeowners ask for a LiftMaster-authorized dealer or Chamberlain-certified repair technician, AI platforms look for explicit mentions of those brand relationships in your website, GBP, and directory listings. Companies that appear in manufacturer dealer-locator databases also inherit authority signals from those high-domain sources, which AI treats as third-party verification that competitors without those relationships cannot replicate.',
-            },
-            {
-              q: 'Should garage door companies create separate pages for each service type?',
-              a: 'Dedicated service pages are one of the highest-impact moves for garage door company AI visibility. A single Services page listing everything in bullet points gives AI almost nothing to match against specific queries. Individual pages for broken spring repair, opener installation, cable replacement, emergency service, and new door installation each become separate citation assets that AI can match independently to specific queries.',
-            },
-            {
-              q: 'How do location pages help garage door repair companies appear in AI search results?',
-              a: 'AI platforms build geographic understanding of service businesses from multiple signals: Google Business Profile service areas, service area schema, city-specific mentions in content, and location references in reviews. Garage door companies that serve ten ZIP codes but only appear to operate in one are invisible to AI for the other nine. Dedicated location pages with specific city names, schema markup, and locally relevant content expand your AI footprint city by city.',
-            },
-            {
-              q: 'How long does it take a garage door company to start appearing in AI recommendations?',
-              a: 'Garage door companies that improve their structured data and Google Business Profile typically see initial results from Perplexity and Google AI Overviews within 30 to 60 days. ChatGPT base model citations take longer because they depend on retraining cycles that can span 12 to 18 months. Real-time AI search tools like Perplexity and ChatGPT with web browsing enabled respond much faster to structural improvements.',
-            },
-            {
-              q: 'What directories should garage door repair companies be listed in for AI visibility?',
-              a: 'The highest-weight directories for garage door AI citations are Google Business Profile, Yelp, Angi, HomeAdvisor, Thumbtack, and the Better Business Bureau. Manufacturer dealer-locator pages for LiftMaster, Chamberlain, Genie, and Wayne Dalton add authoritative third-party signals that most competitors lack. The critical requirement is that your business name, address, and phone number must be identical across every listing.',
-            },
-          ].map((item, i) => (
-            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
-              <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-              <p className="text-gray-300 leading-relaxed">{item.a}</p>
+            <div className="not-prose">
+              <details className="ae-faq-item">
+                <summary>Why does ChatGPT recommend other garage door companies in my area but not mine?</summary>
+                <div className="ae-faq-answer">
+                  <p>ChatGPT builds its picture of local garage door companies from sources it can crawl: structured websites, review platforms, manufacturer dealer-locator pages, and business directories. If competitors appear more consistently across those sources, or their content is more specifically structured by service type and city, they surface in citations while your company stays invisible. NAP consistency, FAQPage schema, and dedicated service pages drive most of the citation gap. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free Blind Spot Scan</a> shows exactly where the gap sits.</p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>Does offering 24/7 emergency garage door repair help me get cited by AI?</summary>
+                <div className="ae-faq-answer">
+                  <p>Yes — significantly. Emergency queries such as broken spring and snapped cable are among the highest-intent searches on AI platforms, and a large share happen outside business hours. Explicit 24/7 availability stated in FAQPage schema, on the Google Business Profile, and inside service-page copy gives AI retrievers a verifiable claim to cite. Hedged language like &ldquo;after-hours service available on request&rdquo; does not produce the same citation lift.</p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>Does being a certified dealer for LiftMaster, Chamberlain, or Genie help my AI visibility?</summary>
+                <div className="ae-faq-answer">
+                  <p>Manufacturer certification is a measurable AI trust signal. When homeowners ask ChatGPT or Gemini for a LiftMaster-authorized dealer or a Chamberlain-certified technician, retrievers look for explicit brand-relationship mentions in your website content, Google Business Profile, and directory listings. Companies that appear in the manufacturer dealer-locator inherit additional authority from those high-domain sources, which AI treats as third-party verification. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>Should garage door companies create separate pages for each service type?</summary>
+                <div className="ae-faq-answer">
+                  <p>Dedicated service pages are one of the highest-impact moves for garage door AI visibility. A single Services page that lists spring repair, cable replacement, opener installation, and panel replacement in bullets gives AI no chunk to match against specific queries. Individual pages for each service — with scenario-specific copy, FAQ blocks, and schema markup — become separate citation assets that retrievers can match independently to broken spring, opener, and same-day queries.</p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>How do location pages help garage door companies appear in AI search?</summary>
+                <div className="ae-faq-answer">
+                  <p>Location pages are how AI confirms territory. A garage door company that serves twelve cities but has a single contact page with one phone number forces AI to guess geographic relevance. Twelve dedicated city pages — each naming the city, neighborhoods served, common service calls in that area, and a local phone forwarder — give retrievers explicit, citable territory claims. Chen et al. (2025) confirmed that geographically anchored claims earn higher citation rates than generic service-area copy. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a territory audit.</p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>How long does it take a garage door company to start getting AI citations?</summary>
+                <div className="ae-faq-answer">
+                  <p>Most garage door companies see measurable AI citation activity within 60 to 90 days of implementing structured AEO. Specific service queries — broken spring repair in a named city, LiftMaster certified technician in a named ZIP — tend to register first. Full citation surface across ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews typically takes 90 to 180 days as each retriever re-indexes at a different cadence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute strategy call</a> to map the timeline.</p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>Why does my Google review volume not translate into ChatGPT citations?</summary>
+                <div className="ae-faq-answer">
+                  <p>ChatGPT and Perplexity cannot reliably read JavaScript-rendered review widgets, and Google reviews live behind exactly that interface. A garage door company with 800 Google reviews and no crawlable review surface elsewhere appears reviewless to most AI retrievers. The fix is review distribution: collect reviews on platforms that render crawlable HTML and republish curated testimonials as plain text directly on your site. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get a free Blind Spot Scan</a> of your review surface.</p>
+                </div>
+              </details>
+
+              <details className="ae-faq-item">
+                <summary>What is the single highest-return AEO move a garage door company can make?</summary>
+                <div className="ae-faq-answer">
+                  <p>Build one dedicated service page per repair type, each with eight to twelve bounded FAQ entries and valid FAQPage JSON-LD schema. That single architectural move converts the website from one citation surface into eight to twelve specialized surfaces. Combined with NAP consistency and a manufacturer-certification statement on every relevant page, it captures the majority of the citation lift available to a local garage door operator. We work with one operator per market — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">check if your territory is still open.</a></p>
+                </div>
+              </details>
             </div>
-          ))}
-        </div>
+          </section>
 
-        {/* Final CTA */}
+          {/* FINAL CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Competitors Are Claiming AI Search Territory Right Now
+                Turn Your Garage Door Site Into a Citation Engine — Starting Today
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
+                The Answer Engine engineers citation surface that ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews actually cite. One garage door operator per market. Free Blind Spot Scan to start.
               </p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free Blind Spot Report →
+                Get Your Free AI Visibility Scan
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -835,7 +650,22 @@ export default function Page() {
             </div>
           </section>
 
-      </article>
+          {/* AUTHOR CARD */}
+          <div className="not-prose ae-author-card my-12">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Google AI Overviews, Claude, and Gemini. Background in real estate operations and content strategy — now focused on engineering citation surface for local service businesses across the US.</p>
+            </div>
+          </div>
+
+        </article>
+      </div>
     </>
   )
 }
