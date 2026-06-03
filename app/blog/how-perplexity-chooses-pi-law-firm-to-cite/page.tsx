@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
 export const dynamicParams = true
 
 const title = 'How Does Perplexity AI Choose Which PI Law Firm to Cite?'

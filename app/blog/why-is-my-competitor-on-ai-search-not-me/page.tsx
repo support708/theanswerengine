@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
 
 const title = 'Why Is My Competitor on AI Search but Not Me?'
 const description =

@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 export async function generateMetadata(): Promise<Metadata> {
   const title = 'How to Get Cited by AI Search: The Complete Local Business Guide';

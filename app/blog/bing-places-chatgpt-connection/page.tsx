@@ -1,8 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: "Why Bing Places Matters More Than You Think (The ChatGPT Connection)",

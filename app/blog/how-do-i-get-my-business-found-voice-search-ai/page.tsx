@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import Link from 'next/link'
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
 
 const title = 'How Do I Get My Business Found on Voice Search and AI?'
 const metaTitle = 'How to Get Found on Voice Search & AI | The Answer Engine'

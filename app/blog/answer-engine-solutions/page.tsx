@@ -1,8 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 export async function generateMetadata(): Promise<Metadata> {
   const title = "Answer Engine Solutions for Local Service Businesses (2025 Guide)";

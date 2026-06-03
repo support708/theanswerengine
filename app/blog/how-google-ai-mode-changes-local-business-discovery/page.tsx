@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import QuickAssessmentForm from './QuickAssessmentForm'
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
 export const dynamicParams = true
 
 export const metadata: Metadata = {

@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Script from 'next/script';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 const URL = 'https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations';
 const IMAGE = 'https://theanswerengine.ai/blog/do-google-reviews-affect-ai-recommendations.webp';

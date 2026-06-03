@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: 'Realtors Invisible to AI Search | The Answer Engine',

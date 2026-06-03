@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 const TITLE = 'AEO Models: How AI Search Picks Sources | The Answer Engine';
 const DESCRIPTION = 'AEO models pick sources via retrieval scoring, authority signals, and prompt mediation. Learn how ChatGPT, Perplexity, Claude, and Gemini select citations.';

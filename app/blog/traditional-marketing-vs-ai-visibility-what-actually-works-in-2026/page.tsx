@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
 export const dynamicParams = true
 
 const title = 'Traditional Marketing vs AI Visibility: What Actually Works in 2026 | The Answer Engine'
@@ -1508,7 +1506,7 @@ export default function Page() {
                   {
                     step: '3',
                     label: 'AI Query',
-                    action: 'Customer says "Hey, who's the best AC repair near me?" to their AI assistant.',
+                    action: ,
                     channel: 'AI Search',
                   },
                   {

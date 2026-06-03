@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 const TITLE = 'What Is an AEO Prompt? | The Answer Engine';
 const DESCRIPTION = 'An AEO prompt is the natural-language query that triggers an AI search citation. The 2026 definition, mechanism, and measurement playbook. Book a call.';

@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 // ISR Configuration
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 const PUBLISH_DATE = '2025-11-11T09:00:00-08:00';

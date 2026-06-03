@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 const TITLE = 'AEO vs SEO: What’s the Difference? | The Answer Engine';
 const DESCRIPTION = 'AEO targets AI citations from ChatGPT, Perplexity, Claude, and Gemini. SEO targets blue-link rankings. Compare both — claim your territory now.';

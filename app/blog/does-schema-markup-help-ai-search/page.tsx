@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
 
 const title = 'Does Schema Markup Help You Show Up on AI Search?'
 const description =

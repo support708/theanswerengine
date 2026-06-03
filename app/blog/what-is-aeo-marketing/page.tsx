@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import Link from 'next/link'
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
 
 const title = 'What Is AEO Marketing?'
 const metaTitle = 'What Is AEO Marketing? | The Answer Engine'

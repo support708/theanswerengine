@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 // ISR Configuration
-export const revalidate = 86400; // 24 hours
-export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata

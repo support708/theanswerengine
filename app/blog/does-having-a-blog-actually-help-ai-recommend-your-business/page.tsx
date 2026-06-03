@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
-export const revalidate = 86400
-export const dynamic = 'force-static'
 
 const title = 'Does Having a Blog Actually Help AI Recommend Your Business?'
 const description = 'Blogging alone does not get you cited by ChatGPT. The myth-busting truth: what type of blog content AI reads, what it ignores, and why most business blogs are invisible to AI despite being perfectly readable by humans.'

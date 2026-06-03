@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
 
 const TITLE = 'Does ChatGPT Recommend Injury Lawyers? | The Answer Engine';
 const DESCRIPTION = 'ChatGPT recommends personal injury lawyers by name. See the AEO signals that win citations on AI search and how to claim your territory.';
