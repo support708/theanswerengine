@@ -169,7 +169,9 @@ export async function POST(req: NextRequest) {
 
     // Fetch full order from Eventbrite
     const token = process.env.EVENTBRITE_PRIVATE_TOKEN;
-    const orderRes = await fetch(`${apiUrl}?token=${token}&expand=event,attendees`);
+    const orderRes = await fetch(`${apiUrl}?expand=event,attendees`, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
     const order = await orderRes.json() as {
       id: string;
       event_id?: string;
