@@ -14,9 +14,9 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      message: 'Token exchange successful. Check logs for refresh token.',
+      message: 'Token exchange successful. Copy the refreshToken below and send to Claude.',
       accessToken: tokens.access_token.slice(0, 20) + '...',
-      refreshToken: tokens.refresh_token.slice(0, 20) + '...',
+      refreshToken: tokens.refresh_token,
     })
   } catch (error) {
     return NextResponse.json(
