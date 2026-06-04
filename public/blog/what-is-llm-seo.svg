@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="60%" stop-color="#131313"/>
+      <stop offset="100%" stop-color="#1a0d05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.42"/>
+      <stop offset="60%" stop-color="#FF6A00" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orangeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6A00" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Soft ambient glow behind LLM core -->
+  <circle cx="930" cy="210" r="360" fill="url(#glow)"/>
+
+  <!-- Grid -->
+  <g opacity="0.14" stroke="#FF6A00" stroke-width="1" fill="none">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="100" y1="0" x2="100" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="500" y1="0" x2="500" y2="630"/>
+    <line x1="700" y1="0" x2="700" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1100" y1="0" x2="1100" y2="630"/>
+  </g>
+
+  <!-- LLM core: polygonal "model" sphere -->
+  <g transform="translate(930 220)">
+    <circle r="100" fill="url(#coreGlow)"/>
+    <polygon points="-78,-32 -42,-86 42,-86 78,-32 60,52 0,90 -60,52" fill="none" stroke="#FF6A00" stroke-width="1.5" opacity="0.85"/>
+    <polygon points="-54,-22 -28,-58 28,-58 54,-22 40,34 0,60 -40,34" fill="none" stroke="#FF6A00" stroke-width="1" opacity="0.65"/>
+    <circle r="6" fill="#FF6A00"/>
+    <!-- inner nodes -->
+    <g fill="#FF6A00">
+      <circle cx="-78" cy="-32" r="3"/>
+      <circle cx="-42" cy="-86" r="3"/>
+      <circle cx="42" cy="-86" r="3"/>
+      <circle cx="78" cy="-32" r="3"/>
+      <circle cx="60" cy="52" r="3"/>
+      <circle cx="0" cy="90" r="3"/>
+      <circle cx="-60" cy="52" r="3"/>
+    </g>
+  </g>
+
+  <!-- Citation threads radiating out -->
+  <g stroke="#FF6A00" stroke-width="1" opacity="0.55" fill="none">
+    <path d="M 220 170 L 360 110 L 500 250 L 660 200 L 800 160"/>
+    <path d="M 180 280 L 360 260 L 540 320 L 700 280"/>
+    <path d="M 220 170 L 500 250 L 660 320 L 420 340 Z"/>
+    <path d="M 360 110 L 660 200"/>
+    <path d="M 540 320 L 800 160"/>
+  </g>
+
+  <!-- Source nodes feeding into the LLM -->
+  <g fill="#FF6A00">
+    <circle cx="220" cy="170" r="4"/>
+    <circle cx="360" cy="110" r="4"/>
+    <circle cx="500" cy="250" r="4"/>
+    <circle cx="660" cy="200" r="4"/>
+    <circle cx="800" cy="160" r="4"/>
+    <circle cx="180" cy="280" r="4"/>
+    <circle cx="360" cy="260" r="4"/>
+    <circle cx="540" cy="320" r="4"/>
+    <circle cx="700" cy="280" r="4"/>
+    <circle cx="420" cy="340" r="4"/>
+    <circle cx="660" cy="320" r="4"/>
+  </g>
+
+  <!-- Divider -->
+  <line x1="120" y1="430" x2="1080" y2="430" stroke="url(#orangeLine)" stroke-width="2"/>
+
+  <!-- Title block -->
+  <text x="120" y="495" font-family="Space Grotesk, Arial, sans-serif" font-size="60" font-weight="900" fill="#FFFFFF" letter-spacing="-2">
+    WHAT IS LLM SEO?
+  </text>
+  <text x="120" y="540" font-family="Space Grotesk, Arial, sans-serif" font-size="28" font-weight="700" fill="#FF6A00" letter-spacing="-1">
+    LARGE LANGUAGE MODEL CITATION OPTIMIZATION
+  </text>
+  <text x="120" y="585" font-family="Courier New, monospace" font-size="14" font-weight="400" fill="#888888" letter-spacing="2">
+    THE ANSWER ENGINE · THEANSWERENGINE.AI
+  </text>
+</svg>

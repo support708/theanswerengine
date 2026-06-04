@@ -6084,5 +6084,22 @@
       "Hyperlocal Authority",
       "Schema Markup"
     ]
+  },
+  {
+    "id": 289,
+    "title": "What Is LLM SEO?",
+    "slug": "what-is-llm-seo",
+    "excerpt": "A six-step starter process for an operator to begin LLM SEO without prior generative-engine experience, designed to clear the citation threshold of ChatGPT, Claude, Perplexity, and Gemini.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/what-is-llm-seo.svg",
+    "publishDate": "2026-06-04",
+    "lastModified": "2026-06-04",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
   }
 ]
