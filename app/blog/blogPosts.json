@@ -6128,5 +6128,31 @@
       "Answer Engine Optimization",
       "Law Firm AI Visibility"
     ]
+  },
+  {
+    "id": 291,
+    "title": "How ChatGPT Recommends Real Estate Agents (The Exact Algorithm)",
+    "slug": "how-chatgpt-recommends-real-estate-agents",
+    "excerpt": "The retriever architecture, the 5 scored signals, and the Citation Cascade that decides which 3 to 5 real estate agents ChatGPT names per local query — and which ones stay invisible.",
+    "category": "AI Algorithm Series",
+    "author": "Justin Borges",
+    "readTime": "17 min",
+    "image": "/blog/how-chatgpt-recommends-real-estate-agents.svg",
+    "publishDate": "2026-06-04",
+    "lastModified": "2026-06-04",
+    "featured": true,
+    "tags": [
+      "ChatGPT Real Estate",
+      "AI Search Real Estate",
+      "AEO for Real Estate Agents",
+      "Citation Cascade",
+      "Recommendation Slot",
+      "Retriever Architecture",
+      "Real Estate AI Citations",
+      "Perplexity Real Estate",
+      "AI Overviews Real Estate",
+      "Answer Engine Optimization",
+      "Origin Protocol"
+    ]
   }
 ]
