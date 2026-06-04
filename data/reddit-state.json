@@ -193,24 +193,9 @@
     "davis-agency": "2026-04-18T23:07:15.627Z"
   },
   "monthlyStats": {
-    "month": "2026-05",
-    "totalScanned": 5143,
+    "month": "2026-06",
+    "totalScanned": 0,
     "totalQualified": 0,
-    "byClient": {
-      "the-answer-engine": {
-        "opportunities": 0,
-        "digestsSent": 1,
-        "highImpact": 0,
-        "mediumImpact": 0,
-        "lowImpact": 0
-      },
-      "lovery-re": {
-        "opportunities": 0,
-        "digestsSent": 1,
-        "highImpact": 0,
-        "mediumImpact": 0,
-        "lowImpact": 0
-      }
-    }
+    "byClient": {}
   }
 }
