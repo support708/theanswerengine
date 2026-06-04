@@ -6010,5 +6010,26 @@
       "AEO",
       "AI Search"
     ]
+  },
+  {
+    "id": 287,
+    "title": "AEO vs GEO: What is the Difference?",
+    "slug": "aeo-vs-geo",
+    "excerpt": "A technical comparison of Answer Engine Optimization and Generative Engine Optimization — how the terms differ in origin and scope, why the underlying scoring mechanisms are nearly identical, and which frame operators should adopt to capture the maximum citation surface.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "14 min read",
+    "image": "/blog/aeo-vs-geo.webp",
+    "publishDate": "2026-06-03",
+    "lastModified": "2026-06-03",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "GEO",
+      "Generative Engine Optimization",
+      "AI Citations",
+      "Answer Engine Optimization",
+      "AI Search"
+    ]
   }
 ]
