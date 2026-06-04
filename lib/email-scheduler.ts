@@ -146,26 +146,32 @@ export async function remainingSendsToday(): Promise<number> {
 
 // --- Follow-up scheduling ---
 
+// Rolling delays: each gap is measured from when the PREVIOUS step was sent.
+// FU1 = 3d after initial, FU2 = 8d after FU1, FU3 = 16d after FU2, FU4 = 25d after FU3.
 const FOLLOW_UP_DELAYS = {
-  follow_up_1: 3,   // days after sent — competitor update
-  follow_up_2: 8,   // days after sent — social proof / case study
-  follow_up_3: 16,  // days after sent — cost of inaction
-  follow_up_4: 25,  // days after sent — breakup / close the file
+  follow_up_1: 3,
+  follow_up_2: 8,
+  follow_up_3: 16,
+  follow_up_4: 25,
 };
 
-/** Get the date a lead was marked as 'sent' from its action log */
-function getSentDate(lead: Lead): Date | null {
-  // Look for the action log entry that marks it as sent
-  const sentEntry = [...lead.actionLog].reverse().find(
-    entry => entry.action.toLowerCase().includes('sent') || entry.action.toLowerCase().includes('approved')
-  );
-  if (sentEntry) return new Date(sentEntry.timestamp);
+// Maps each next step to the action-log prefix written when the previous step sent.
+const PREV_STEP_ACTION: Record<string, string> = {
+  follow_up_1: 'initial',
+  follow_up_2: 'follow_up_1',
+  follow_up_3: 'follow_up_2',
+  follow_up_4: 'follow_up_3',
+};
 
-  // Fallback: use updatedAt if status is sent or later
-  if (['sent', 'follow_up_1', 'follow_up_2', 'follow_up_3', 'follow_up_4'].includes(lead.status)) {
+/** Returns the send date of the step immediately preceding nextFollowUp */
+function getPrevStepSentDate(lead: Lead, nextFollowUp: keyof typeof FOLLOW_UP_DELAYS): Date | null {
+  const prefix = PREV_STEP_ACTION[nextFollowUp];
+  const entry = lead.actionLog.find(e => e.action.toLowerCase().startsWith(prefix));
+  if (entry) return new Date(entry.timestamp);
+  // Fallback: updatedAt carries the last status-change time
+  if (['sent', 'follow_up_1', 'follow_up_2', 'follow_up_3'].includes(lead.status)) {
     return new Date(lead.updatedAt);
   }
-
   return null;
 }
 
@@ -174,21 +180,23 @@ export function getLeadsDueForFollowUp(leads: Lead[]): { lead: Lead; followUpTyp
   const now = new Date();
   const due: { lead: Lead; followUpType: 'follow_up_1' | 'follow_up_2' | 'follow_up_3' | 'follow_up_4' }[] = [];
 
+  const transitions: Array<{ fromStatus: string; nextFU: keyof typeof FOLLOW_UP_DELAYS }> = [
+    { fromStatus: 'sent',        nextFU: 'follow_up_1' },
+    { fromStatus: 'follow_up_1', nextFU: 'follow_up_2' },
+    { fromStatus: 'follow_up_2', nextFU: 'follow_up_3' },
+    { fromStatus: 'follow_up_3', nextFU: 'follow_up_4' },
+  ];
+
   for (const lead of leads) {
-    const sentDate = getSentDate(lead);
-    if (!sentDate) continue;
-
-    const daysSinceSent = Math.floor((now.getTime() - sentDate.getTime()) / (1000 * 60 * 60 * 24));
-
-    // Determine which follow-up is next based on current status
-    if (lead.status === 'sent' && daysSinceSent >= FOLLOW_UP_DELAYS.follow_up_1) {
-      due.push({ lead, followUpType: 'follow_up_1' });
-    } else if (lead.status === 'follow_up_1' && daysSinceSent >= FOLLOW_UP_DELAYS.follow_up_2) {
-      due.push({ lead, followUpType: 'follow_up_2' });
-    } else if (lead.status === 'follow_up_2' && daysSinceSent >= FOLLOW_UP_DELAYS.follow_up_3) {
-      due.push({ lead, followUpType: 'follow_up_3' });
-    } else if (lead.status === 'follow_up_3' && daysSinceSent >= FOLLOW_UP_DELAYS.follow_up_4) {
-      due.push({ lead, followUpType: 'follow_up_4' });
+    for (const { fromStatus, nextFU } of transitions) {
+      if (lead.status !== fromStatus) continue;
+      const prevDate = getPrevStepSentDate(lead, nextFU);
+      if (!prevDate) continue;
+      const daysSince = Math.floor((now.getTime() - prevDate.getTime()) / (1000 * 60 * 60 * 24));
+      if (daysSince >= FOLLOW_UP_DELAYS[nextFU]) {
+        due.push({ lead, followUpType: nextFU });
+      }
+      break;
     }
   }
 

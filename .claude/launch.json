@@ -1,12 +1,1 @@
-{
-  "version": "0.0.1",
-  "configurations": [
-    {
-      "name": "tae-dev",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "port": 3000,
-      "cwd": "C:\\Users\\Justi\\theanswerengine-nextjs"
-    }
-  ]
-}
+{"version":"0.0.1","configurations":[{"name":"tae-nextjs","runtimeExecutable":"npm","runtimeArgs":["run","dev"],"port":3000}]}

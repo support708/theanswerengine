@@ -75,6 +75,21 @@ const CITY_SUBS = {
   'los angeles': ['LosAngeles', 'AskLosAngeles', 'SanGabrielValley', 'SouthBayLA', 'InlandEmpire'],
   'san diego': ['sandiego', 'SanDiegan'],
   'chula vista': ['sandiego', 'chulavista'],
+  // Orange County (Truedoor primary markets)
+  'anaheim': ['orangecounty', 'Anaheim', 'LosAngeles'],
+  'irvine': ['orangecounty', 'IrvineCA', 'LosAngeles'],
+  'santa ana': ['orangecounty', 'LosAngeles'],
+  'newport beach': ['orangecounty', 'LosAngeles'],
+  'huntington beach': ['orangecounty', 'LosAngeles'],
+  // Inland Empire (Truedoor secondary markets)
+  'riverside': ['Riverside', 'InlandEmpire'],
+  'san bernardino': ['SanBernardino', 'InlandEmpire'],
+  'redlands': ['InlandEmpire', 'Riverside'],
+  'murrieta': ['Murrieta', 'InlandEmpire', 'TemeculaValley'],
+  'temecula': ['TemeculaValley', 'InlandEmpire', 'Murrieta'],
+  'corona': ['InlandEmpire', 'Riverside'],
+  'fontana': ['InlandEmpire', 'SanBernardino'],
+  'ontario': ['InlandEmpire', 'SanBernardino'],
 };
 
 function loadClientConfigs() {
@@ -142,7 +157,7 @@ function loadClientConfigs() {
 // ===== Reddit API =====
 
 async function searchSubreddit(subreddit, query) {
-  const url = `https://www.reddit.com/r/${subreddit}/search.json?q=${encodeURIComponent(query)}&restrict_sr=1&sort=new&t=day&limit=10&raw_json=1`;
+  const url = `https://www.reddit.com/r/${subreddit}/search.json?q=${encodeURIComponent(query)}&restrict_sr=1&sort=new&t=day&limit=25&raw_json=1`;
   const res = await fetch(url, { headers: { 'User-Agent': 'theanswerengine:reddit-monitor:v1.0' } });
   if (!res.ok) return [];
   const data = await res.json();
@@ -304,9 +319,19 @@ async function run() {
     console.log(`  Found ${allPosts.length} posts`);
     totalScanned += allPosts.length;
 
+    const freshnessWindowSec = 30 * 60; // 30 min — 2x the cron interval
+    const nowSec = Date.now() / 1000;
+
     for (const post of allPosts) {
       // DEDUP: skip if already seen
       if (state.seenPostIds[post.id]) {
+        totalSkipped++;
+        continue;
+      }
+
+      // FRESHNESS: skip posts older than 30 min (prevents re-scoring stale day-old posts)
+      if (post.created_utc && (nowSec - post.created_utc) > freshnessWindowSec) {
+        state.seenPostIds[post.id] = Date.now(); // still mark seen to avoid re-checking
         totalSkipped++;
         continue;
       }

@@ -164,3 +164,4 @@ fix-unclosed-divs.py
 
 # Compliance screenshots (artifact directory, not source)
 compliance-screenshots/
+.env*.local

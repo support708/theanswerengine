@@ -16,9 +16,26 @@
  */
 
 require('dotenv').config({ path: '.env.local' });
-const { google } = require('googleapis');
-const path = require('path');
-const fs = require('fs');
+const { google }     = require('googleapis');
+const path           = require('path');
+const fs             = require('fs');
+const { execSync }   = require('child_process');
+
+// Pull missing Gmail creds from Infisical if not in .env.local
+const INFISICAL  = 'C:/Users/Justi/AppData/Roaming/npm/node_modules/@infisical/cli/bin/infisical.exe';
+const PROJECT_ID = 'c08e818c-11b0-4c49-a251-3d81cff9ba1d';
+function getSecret(key) {
+  try {
+    return execSync(
+      `"${INFISICAL}" secrets get ${key} --env=dev --projectId=${PROJECT_ID} --plain --silent`,
+      { encoding: 'utf8' }
+    ).trim();
+  } catch { return ''; }
+}
+if (!process.env.GMAIL_CLIENT_ID)     process.env.GMAIL_CLIENT_ID     = getSecret('GMAIL_CLIENT_ID');
+if (!process.env.GMAIL_CLIENT_SECRET) process.env.GMAIL_CLIENT_SECRET = getSecret('GMAIL_CLIENT_SECRET');
+if (!process.env.GMAIL_REFRESH_TOKEN) process.env.GMAIL_REFRESH_TOKEN = getSecret('GMAIL_REFRESH_TOKEN');
+if (!process.env.GMAIL_SEND_AS)       process.env.GMAIL_SEND_AS       = getSecret('GMAIL_SEND_AS');
 
 // --- Args ---
 const args = Object.fromEntries(
@@ -74,11 +91,45 @@ const questionsText = cfg.questions
   .map((q, i) => `${i + 1}. ${q}`)
   .join('\n');
 
+// --- GSC section (AE-handled vs client-handled) ---
+function gscSection(cfg) {
+  if (cfg.gscHandledByAE) {
+    return `<p style="font-size:14px;line-height:1.65;color:#e5e2e1;margin:0 0 10px 0;">We're handling your Google Search Console setup directly — you'll receive a confirmation email from Google once it's verified. <strong>No action needed on your end for this one.</strong></p>
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.8;color:#e5e2e1;">
+          We'll verify ownership and configure the property under <strong>support@theanswerengine.ai</strong>. This gives us full visibility into impressions, queries, and index coverage so we can track exactly how the content is moving your rankings.
+        </div>`;
+  }
+  return `<p style="font-size:14px;line-height:1.65;color:#e5e2e1;margin:0 0 10px 0;">Add <strong>support@theanswerengine.ai</strong> as an <strong>Owner</strong> on your Search Console property. Owner-level gives us full visibility into impressions, queries, and index coverage so we can track exactly how our content is moving your rankings.</p>
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.8;color:#e5e2e1;">
+          1. Go to <strong>search.google.com/search-console</strong><br>
+          2. Select the <strong>${cfg.websiteUrl}</strong> property<br>
+          3. Click <strong>Settings</strong> (gear icon, bottom left) &rarr; <strong>Users &amp; Permissions</strong><br>
+          4. Click <strong>Add User</strong><br>
+          5. Enter <strong>support@theanswerengine.ai</strong> and set permission to <strong>Owner</strong><br>
+          6. Click <strong>Add</strong>
+        </div>`;
+}
+
+function gscSectionText(cfg) {
+  if (cfg.gscHandledByAE) {
+    return `We're handling your Google Search Console setup directly. You'll get a confirmation from Google when it's verified. No action needed from you.`;
+  }
+  return `- Go to search.google.com/search-console\n- Select ${cfg.websiteUrl}\n- Settings -> Users & Permissions -> Add User\n- Enter support@theanswerengine.ai and set to Owner\n- Click Add`;
+}
+
 // --- CMS-specific instructions ---
 function cmsInstructions(cms, websiteUrl) {
+  if (cms === 'Webflow') {
+    return `
+        <p style="font-size:14px;line-height:1.7;color:#e5e2e1;margin:0 0 10px 0;">We'll handle your Webflow integration and API setup on our end. Just let us know you're good to go with us publishing directly to your blog, and we'll take it from there.</p>
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#e5e2e1;">
+          <strong style="color:#F27D24;">What this means:</strong><br>
+          We'll securely connect to your Webflow account and publish ${cfg.articlesPerMonth} articles/month directly to your blog. You'll see everything published under our account that we share with you, and all articles are fully formatted and SEO-ready the moment they go live. No extra work from you.
+        </div>`;
+  }
   if (cms === 'WordPress') {
     return `
-        <div style="background:#F4F0E8;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#444;margin-bottom:10px;">
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#e5e2e1;margin-bottom:10px;">
           1. Log into your WordPress dashboard at <strong>${websiteUrl}/wp-admin</strong><br>
           2. In the left sidebar, go to <strong>Users &rarr; Add New User</strong><br>
           3. Fill in the following:<br>
@@ -88,11 +139,11 @@ function cmsInstructions(cms, websiteUrl) {
           4. Check <strong>"Send the new user an email about their account"</strong><br>
           5. Click <strong>Add New User</strong>
         </div>
-        <p style="font-size:13px;line-height:1.65;color:#666;margin:0;">We need Administrator-level access so we can properly format posts, set featured images, configure SEO metadata, and publish directly. We'll never touch your plugins, settings, or theme. Only blog content. If you'd prefer to start with <strong>Editor</strong> access, that works too; just know we may need a temporary upgrade for initial setup.</p>`;
+        <p style="font-size:13px;line-height:1.65;color:#888888;margin:0;">We need Administrator-level access so we can properly format posts, set featured images, configure SEO metadata, and publish directly. We'll never touch your plugins, settings, or theme. Only blog content. If you'd prefer to start with <strong>Editor</strong> access, that works too; just know we may need a temporary upgrade for initial setup.</p>`;
   }
   if (cms === 'Squarespace') {
     return `
-        <div style="background:#F4F0E8;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#444;margin-bottom:10px;">
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#e5e2e1;margin-bottom:10px;">
           1. Log into your Squarespace account at <strong>account.squarespace.com</strong><br>
           2. Open your site, go to <strong>Settings &rarr; Permissions &amp; Ownership &rarr; Invite Contributor</strong><br>
           3. Enter <strong>support@theanswerengine.ai</strong><br>
@@ -102,12 +153,15 @@ function cmsInstructions(cms, websiteUrl) {
   }
   // Generic fallback
   return `
-        <div style="background:#F4F0E8;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#444;margin-bottom:10px;">
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#e5e2e1;margin-bottom:10px;">
           Please add <strong>support@theanswerengine.ai</strong> as an Administrator or Editor on your ${cms} site so we can publish articles directly. Reply here and we'll walk you through the exact steps for your platform.
         </div>`;
 }
 
 function cmsInstructionsText(cms, websiteUrl) {
+  if (cms === 'Webflow') {
+    return `We'll handle your Webflow integration and API setup. We'll securely connect to your account and publish articles directly to your blog — fully formatted and SEO-ready. No extra work from you.`;
+  }
   if (cms === 'WordPress') {
     return `- Log into ${websiteUrl}/wp-admin
 - Go to Users -> Add New User
@@ -124,31 +178,28 @@ We need Administrator access to format posts, set featured images, configure SEO
 const htmlBody = `<!DOCTYPE html>
 <html>
 <head><meta charset="UTF-8"></head>
-<body style="margin:0;padding:0;background-color:#ffffff;font-family:'Inter',Helvetica,Arial,sans-serif;color:#0A0A0A;">
+<body style="margin:0;padding:0;background-color:#131313;font-family:Arial,Helvetica,sans-serif;color:#e5e2e1;">
 <div style="max-width:620px;margin:0 auto;padding:40px 32px;">
 
-  <p style="font-size:15px;line-height:1.6;margin:0 0 20px 0;">Hey ${allNames},</p>
-  <p style="font-size:15px;line-height:1.6;margin:0 0 28px 0;">Thrilled to officially have ${cfg.companyName} on the roster. Before we fire up the content machine, I need four things from your side. Instructions for each are below. Nothing here should take more than a few minutes, except the interview (which is worth doing right).</p>
+  <!-- Logo mark -->
+  <div style="margin-bottom:28px;">
+    <img src="https://theanswerengine.ai/mark-1a-orange.png" width="48" height="48" alt="The Answer Engine" style="display:block;">
+  </div>
 
-  <hr style="border:none;border-top:1px solid #E8E4DA;margin:0 0 32px 0;">
+  <p style="font-size:15px;line-height:1.7;color:#e5e2e1;margin:0 0 20px 0;">Hey ${allNames},</p>
+  <p style="font-size:15px;line-height:1.7;color:#e5e2e1;margin:0 0 28px 0;">Thrilled to officially have ${cfg.companyName} on the roster. Before we fire up the content machine, I need four things from your side. Instructions for each are below. Nothing here should take more than a few minutes, except the interview (which is worth doing right).</p>
+
+  <hr style="border:none;border-top:1px solid #1c1c1c;margin:0 0 32px 0;">
 
   <!-- ITEM 1: GSC -->
   <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:32px;">
     <tr>
-      <td width="40" valign="top" style="padding-top:2px;">
-        <span style="display:inline-block;width:28px;height:28px;background:#F27D24;border-radius:50%;text-align:center;line-height:28px;font-family:'Archivo Black','Arial Black',Arial,sans-serif;font-size:13px;font-weight:900;color:#FAF8F2;">1</span>
+      <td width="44" valign="top" style="padding-top:2px;">
+        <span style="display:inline-block;width:28px;height:28px;background:#F27D24;text-align:center;line-height:28px;font-family:'Arial Black',Arial,sans-serif;font-size:13px;font-weight:900;color:#131313;">1</span>
       </td>
       <td valign="top">
-        <p style="font-size:14px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#0A0A0A;margin:0 0 7px 0;">Google Search Console Access</p>
-        <p style="font-size:14px;line-height:1.65;color:#3a3a3a;margin:0 0 10px 0;">Add <strong>support@theanswerengine.ai</strong> as an <strong>Owner</strong> on your Search Console property. Owner-level gives us full visibility into impressions, queries, and index coverage so we can track exactly how our content is moving your rankings.</p>
-        <div style="background:#F4F0E8;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.8;color:#444;">
-          1. Go to <strong>search.google.com/search-console</strong><br>
-          2. Select the <strong>${cfg.websiteUrl}</strong> property<br>
-          3. Click <strong>Settings</strong> (gear icon, bottom left) &rarr; <strong>Users &amp; Permissions</strong><br>
-          4. Click <strong>Add User</strong><br>
-          5. Enter <strong>support@theanswerengine.ai</strong> and set permission to <strong>Owner</strong><br>
-          6. Click <strong>Add</strong>
-        </div>
+        <p style="font-family:'Courier New',Courier,monospace;font-size:10px;font-weight:400;letter-spacing:3px;text-transform:uppercase;color:#F27D24;margin:0 0 9px 0;">Google Search Console Access</p>
+        ${gscSection(cfg)}
       </td>
     </tr>
   </table>
@@ -156,46 +207,46 @@ const htmlBody = `<!DOCTYPE html>
   <!-- ITEM 2: Connect support@ -->
   <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:32px;">
     <tr>
-      <td width="40" valign="top" style="padding-top:2px;">
-        <span style="display:inline-block;width:28px;height:28px;background:#F27D24;border-radius:50%;text-align:center;line-height:28px;font-family:'Archivo Black','Arial Black',Arial,sans-serif;font-size:13px;font-weight:900;color:#FAF8F2;">2</span>
+      <td width="44" valign="top" style="padding-top:2px;">
+        <span style="display:inline-block;width:28px;height:28px;background:#F27D24;text-align:center;line-height:28px;font-family:'Arial Black',Arial,sans-serif;font-size:13px;font-weight:900;color:#131313;">2</span>
       </td>
       <td valign="top">
-        <p style="font-size:14px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#0A0A0A;margin:0 0 7px 0;">Connect with support@theanswerengine.ai</p>
-        <p style="font-size:14px;line-height:1.65;color:#3a3a3a;margin:0;">This is our working inbox for everything ${cfg.companyName}: article drafts, previews, revision requests, approvals. Add it to your contacts now so nothing lands in spam. Reply to this thread or reach out here anytime.</p>
+        <p style="font-family:'Courier New',Courier,monospace;font-size:10px;font-weight:400;letter-spacing:3px;text-transform:uppercase;color:#F27D24;margin:0 0 9px 0;">Connect with support@theanswerengine.ai</p>
+        <p style="font-size:14px;line-height:1.7;color:#e5e2e1;margin:0;">This is our working inbox for everything ${cfg.companyName}: article drafts, previews, revision requests, approvals. Add it to your contacts now so nothing lands in spam. Reply to this thread or reach out here anytime.</p>
       </td>
     </tr>
   </table>
 
-  <!-- ITEM 3: CMS -->
+  ${!cfg.cmsHandledByAE ? `<!-- ITEM 3: CMS -->
   <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:32px;">
     <tr>
-      <td width="40" valign="top" style="padding-top:2px;">
-        <span style="display:inline-block;width:28px;height:28px;background:#F27D24;border-radius:50%;text-align:center;line-height:28px;font-family:'Archivo Black','Arial Black',Arial,sans-serif;font-size:13px;font-weight:900;color:#FAF8F2;">3</span>
+      <td width="44" valign="top" style="padding-top:2px;">
+        <span style="display:inline-block;width:28px;height:28px;background:#F27D24;text-align:center;line-height:28px;font-family:'Arial Black',Arial,sans-serif;font-size:13px;font-weight:900;color:#131313;">3</span>
       </td>
       <td valign="top">
-        <p style="font-size:14px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#0A0A0A;margin:0 0 7px 0;">${cfg.cms} Access</p>
-        <p style="font-size:14px;line-height:1.65;color:#3a3a3a;margin:0 0 10px 0;">We'll be publishing ${cfg.articlesPerMonth} articles/month directly to ${cfg.websiteUrl}. Here's how to add us:</p>
+        <p style="font-family:'Courier New',Courier,monospace;font-size:10px;font-weight:400;letter-spacing:3px;text-transform:uppercase;color:#F27D24;margin:0 0 9px 0;">${cfg.cms} Access</p>
+        <p style="font-size:14px;line-height:1.7;color:#e5e2e1;margin:0 0 10px 0;">We'll be publishing ${cfg.articlesPerMonth} articles/month directly to ${cfg.websiteUrl}. Here's how to add us:</p>
         ${cmsInstructions(cfg.cms, cfg.websiteUrl)}
       </td>
     </tr>
-  </table>
+  </table>` : ''}
 
-  <!-- ITEM 4: Interview -->
+  <!-- Interview -->
   <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:36px;">
     <tr>
-      <td width="40" valign="top" style="padding-top:2px;">
-        <span style="display:inline-block;width:28px;height:28px;background:#F27D24;border-radius:50%;text-align:center;line-height:28px;font-family:'Archivo Black','Arial Black',Arial,sans-serif;font-size:13px;font-weight:900;color:#FAF8F2;">4</span>
+      <td width="44" valign="top" style="padding-top:2px;">
+        <span style="display:inline-block;width:28px;height:28px;background:#F27D24;text-align:center;line-height:28px;font-family:'Arial Black',Arial,sans-serif;font-size:13px;font-weight:900;color:#131313;">${cfg.cmsHandledByAE ? '3' : '4'}</span>
       </td>
       <td valign="top">
-        <p style="font-size:14px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#0A0A0A;margin:0 0 7px 0;">Voice Capture Interview</p>
-        <p style="font-size:14px;line-height:1.65;color:#3a3a3a;margin:0 0 12px 0;">This is the most important step. Everything we write needs to sound like <em>you</em>. ${cfg.companyName}'s language, your perspective on the market, your vision for where this is going. The interview is how we lock that in. The richer your answers, the better the content.</p>
+        <p style="font-family:'Courier New',Courier,monospace;font-size:10px;font-weight:400;letter-spacing:3px;text-transform:uppercase;color:#F27D24;margin:0 0 9px 0;">Voice Capture Interview</p>
+        <p style="font-size:14px;line-height:1.7;color:#e5e2e1;margin:0 0 12px 0;">This is the most important step. Everything we write needs to sound like <em>you</em>. ${cfg.companyName}'s language, your perspective on the market, your vision for where this is going. The interview is how we lock that in. The richer your answers, the better the content.</p>
 
-        <p style="font-size:14px;font-weight:700;color:#0A0A0A;margin:0 0 8px 0;">How it works:</p>
-        <p style="font-size:14px;line-height:1.65;color:#3a3a3a;margin:0 0 14px 0;">This is a ChatGPT self-interview. No call needed, no scheduling. Just you, your phone (or computer), and the questions below. Here's the exact process:</p>
-        <div style="background:#F4F0E8;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#444;margin-bottom:16px;">
+        <p style="font-size:14px;font-weight:700;color:#e5e2e1;margin:0 0 8px 0;">How it works:</p>
+        <p style="font-size:14px;line-height:1.7;color:#e5e2e1;margin:0 0 14px 0;">This is a ChatGPT self-interview. No call needed, no scheduling. Just you, your phone (or computer), and the questions below. Here's the exact process:</p>
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#e5e2e1;margin-bottom:16px;">
           <strong>Step 1:</strong> Open ChatGPT and start a new conversation.<br>
           <strong>Step 2:</strong> Paste this exactly to kick it off:<br>
-          <div style="background:#fff;border:1px solid #ddd;border-radius:3px;padding:10px 12px;margin:8px 0;font-family:monospace;font-size:12px;color:#333;line-height:1.6;">
+          <div style="background:#131313;border:1px solid #1c1c1c;padding:10px 12px;margin:8px 0;font-family:'Courier New',Courier,monospace;font-size:12px;color:#e5e2e1;line-height:1.6;">
             I'm doing a business interview. My name is [your name] and I'm [your title] at ${cfg.companyName}. Please act as my interviewer. I'll give you a list of questions. Ask them one at a time, wait for my full answer, then move to the next. Don't summarize or comment between questions, just keep moving. Here are the questions: [paste the questions below]
           </div>
           <strong>Step 3:</strong> Switch to voice mode (the headphone icon) and just talk. Answer however feels natural. Long answers, tangents, stories, all good.<br>
@@ -203,21 +254,21 @@ const htmlBody = `<!DOCTYPE html>
           <strong>Step 5:</strong> When you're done, send us the transcript (instructions below the questions).
         </div>
 
-        <div style="background:#0A0A0A;color:#FAF8F2;padding:14px 16px;border-radius:4px;margin-bottom:16px;">
-          <p style="font-size:13px;line-height:1.7;margin:0;"><strong style="color:#F27D24;">Feel free to take a collaborative approach on this.</strong> If both of you want to go through the questions, great. If one of you covers something and the other doesn't want to be redundant, totally fine. There's no wrong way. The more we have to work with, the better content we can build. Just make sure ChatGPT knows your name and role at the start so we know whose voice we're reading.</p>
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:14px 16px;margin-bottom:16px;">
+          <p style="font-size:13px;line-height:1.7;color:#e5e2e1;margin:0;"><strong style="color:#F27D24;">Feel free to take a collaborative approach on this.</strong> If both of you want to go through the questions, great. If one of you covers something and the other doesn't want to be redundant, totally fine. There's no wrong way. The more we have to work with, the better content we can build. Just make sure ChatGPT knows your name and role at the start so we know whose voice we're reading.</p>
         </div>
 
-        <p style="font-size:14px;line-height:1.65;color:#3a3a3a;margin:0 0 14px 0;"><strong>Take your time on this.</strong> There's no deadline. If a question sparks a tangent, follow it. We can always trim; we can't manufacture depth we don't have.</p>
+        <p style="font-size:14px;line-height:1.7;color:#e5e2e1;margin:0 0 14px 0;"><strong>Take your time on this.</strong> There's no deadline. If a question sparks a tangent, follow it. We can always trim; we can't manufacture depth we don't have.</p>
 
-        <p style="font-size:14px;font-weight:700;color:#0A0A0A;margin:0 0 10px 0;">The Questions:</p>
-        <div style="background:#F4F0E8;border-left:3px solid #F27D24;padding:16px 16px 16px 20px;">
-          <ol style="font-size:13px;line-height:2.0;color:#333;margin:0;padding-left:18px;">
+        <p style="font-family:'Courier New',Courier,monospace;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#F27D24;margin:0 0 10px 0;">The Questions</p>
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:16px 16px 16px 20px;">
+          <ol style="font-size:13px;line-height:2.0;color:#e5e2e1;margin:0;padding-left:18px;">
             ${questionsHtml}
           </ol>
         </div>
 
-        <p style="font-size:14px;font-weight:700;color:#0A0A0A;margin:16px 0 8px 0;">How to send it back to us:</p>
-        <div style="background:#F4F0E8;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#444;">
+        <p style="font-family:'Courier New',Courier,monospace;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#F27D24;margin:16px 0 8px 0;">How to send it back</p>
+        <div style="background:#0f0f10;border-left:3px solid #F27D24;padding:13px 15px;font-size:13px;line-height:1.9;color:#e5e2e1;">
           <strong>Option A (easiest):</strong> At the top right of your ChatGPT conversation, click the <strong>Share</strong> button and copy the link. Send that link to <a href="mailto:support@theanswerengine.ai" style="color:#F27D24;">support@theanswerengine.ai</a>.<br>
           <strong>Option B:</strong> Copy the full conversation text, paste it into an email, and send to <a href="mailto:support@theanswerengine.ai" style="color:#F27D24;">support@theanswerengine.ai</a>.<br>
           <strong>Option C:</strong> If ChatGPT gives you a download or export option, send us that file.<br><br>
@@ -227,9 +278,9 @@ const htmlBody = `<!DOCTYPE html>
     </tr>
   </table>
 
-  <hr style="border:none;border-top:1px solid #E8E4DA;margin:0 0 24px 0;">
-  <p style="font-size:15px;line-height:1.65;margin:0 0 10px 0;">Once these four are in, I'll lock the content calendar and we'll have the first batch rolling within the week. Fastest way to reach me is replying here or hitting <a href="mailto:support@theanswerengine.ai" style="color:#F27D24;text-decoration:none;">support@theanswerengine.ai</a> directly.</p>
-  <p style="font-size:15px;line-height:1.65;margin:0 0 36px 0;">Let's build something here.</p>
+  <hr style="border:none;border-top:1px solid #1c1c1c;margin:0 0 24px 0;">
+  <p style="font-size:15px;line-height:1.7;color:#e5e2e1;margin:0 0 10px 0;">Once these four are in, I'll lock the content calendar and we'll have the first batch rolling within the week. Fastest way to reach me is replying here or hitting <a href="mailto:support@theanswerengine.ai" style="color:#F27D24;text-decoration:none;">support@theanswerengine.ai</a> directly.</p>
+  <p style="font-size:15px;line-height:1.7;color:#e5e2e1;margin:0 0 40px 0;">Let's build something here.</p>
 
   <!-- Signature -->
   <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="480" style="border-collapse:collapse;max-width:480px;">
@@ -237,41 +288,35 @@ const htmlBody = `<!DOCTYPE html>
       <td style="padding:0 0 2px 0;">
         <table role="presentation" cellpadding="0" cellspacing="0" border="0">
           <tr>
-            <td style="font-family:'Archivo Black','Arial Black',Arial,sans-serif;font-weight:900;font-size:36px;letter-spacing:-0.04em;line-height:1;text-transform:uppercase;color:#0A0A0A;white-space:nowrap;padding:0;">THE&nbsp;</td>
-            <td style="font-family:'Archivo Black','Arial Black',Arial,sans-serif;font-weight:900;font-size:36px;letter-spacing:-0.04em;line-height:1;text-transform:uppercase;color:#FAF8F2;background-color:#F27D24;white-space:nowrap;padding:0 6px 0 6px;">ANSWER</td>
-            <td style="font-family:'Archivo Black','Arial Black',Arial,sans-serif;font-weight:900;font-size:36px;letter-spacing:-0.04em;line-height:1;text-transform:uppercase;color:#0A0A0A;white-space:nowrap;padding:0 0 0 7px;">ENGINE</td>
+            <td style="font-family:'Arial Black',Arial,sans-serif;font-weight:900;font-size:32px;letter-spacing:-0.03em;line-height:1;text-transform:uppercase;color:#e5e2e1;white-space:nowrap;padding:0;">THE&nbsp;</td>
+            <td style="font-family:'Arial Black',Arial,sans-serif;font-weight:900;font-size:32px;letter-spacing:-0.03em;line-height:1;text-transform:uppercase;color:#131313;background-color:#F27D24;white-space:nowrap;padding:0 6px;">[ANSWER]</td>
+            <td style="font-family:'Arial Black',Arial,sans-serif;font-weight:900;font-size:32px;letter-spacing:-0.03em;line-height:1;text-transform:uppercase;color:#e5e2e1;white-space:nowrap;padding:0 0 0 7px;">ENGINE</td>
           </tr>
         </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:6px 0 0 0;">
+        <div style="border-top:3px solid #F27D24;width:100%;font-size:0;line-height:0;">&nbsp;</div>
       </td>
     </tr>
     <tr>
       <td style="padding:7px 0 20px 0;">
-        <span style="font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;font-size:10px;font-weight:400;letter-spacing:0.26em;text-transform:uppercase;color:#F27D24;display:block;">Built so AI cites you</span>
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:0 0 16px 0;">
-        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
-          <tr>
-            <td width="32" style="border-top:2px solid #0A0A0A;font-size:0;line-height:0;">&nbsp;</td>
-            <td width="8" style="font-size:0;line-height:0;">&nbsp;</td>
-            <td style="border-top:1px solid #F4F0E8;font-size:0;line-height:0;">&nbsp;</td>
-          </tr>
-        </table>
+        <span style="font-family:'Courier New',Courier,monospace;font-size:10px;font-weight:400;letter-spacing:4px;text-transform:uppercase;color:#F27D24;display:block;">Become the Answer</span>
       </td>
     </tr>
     <tr>
       <td style="padding:0 0 3px 0;">
-        <span style="font-family:'Inter Tight',Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#0A0A0A;">Justin Borges</span>
-        <span style="font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;font-size:10px;font-weight:400;letter-spacing:0.14em;text-transform:uppercase;color:rgba(10,10,10,0.45);padding-left:8px;">Founder</span>
+        <span style="font-family:'Arial Black',Arial,sans-serif;font-size:12px;font-weight:900;letter-spacing:0.06em;text-transform:uppercase;color:#e5e2e1;">Justin Borges</span>
+        <span style="font-family:'Courier New',Courier,monospace;font-size:10px;font-weight:400;letter-spacing:0.14em;text-transform:uppercase;color:#888888;padding-left:8px;">Founder</span>
       </td>
     </tr>
     <tr>
       <td style="padding:0;">
-        <span style="font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;font-size:10px;font-weight:400;letter-spacing:0.10em;color:rgba(10,10,10,0.50);">
-          <a href="mailto:support@theanswerengine.ai" style="color:rgba(10,10,10,0.50);text-decoration:none;">support@theanswerengine.ai</a>
+        <span style="font-family:'Courier New',Courier,monospace;font-size:10px;font-weight:400;letter-spacing:0.10em;color:#888888;">
+          <a href="mailto:support@theanswerengine.ai" style="color:#888888;text-decoration:none;">support@theanswerengine.ai</a>
           &nbsp;&middot;&nbsp;
-          <a href="https://theanswerengine.ai" style="color:rgba(10,10,10,0.50);text-decoration:none;">theanswerengine.ai</a>
+          <a href="https://theanswerengine.ai" style="color:#888888;text-decoration:none;">theanswerengine.ai</a>
         </span>
       </td>
     </tr>
@@ -289,13 +334,7 @@ Thrilled to officially have ${cfg.companyName} on the roster. Before we fire up 
 ---
 
 1. GOOGLE SEARCH CONSOLE ACCESS
-Add support@theanswerengine.ai as an Owner on your Search Console property.
-
-- Go to search.google.com/search-console
-- Select ${cfg.websiteUrl}
-- Settings -> Users & Permissions -> Add User
-- Enter support@theanswerengine.ai and set to Owner
-- Click Add
+${gscSectionText(cfg)}
 
 ---
 

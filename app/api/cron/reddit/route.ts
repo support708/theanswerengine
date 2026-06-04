@@ -116,7 +116,7 @@ export async function GET(request: NextRequest) {
             const posts = await searchSubreddit(subreddit, query, {
               sort: 'new',
               timeFilter: 'day',
-              limit: 10,
+              limit: 25,
             });
 
             for (const post of posts) {
@@ -145,6 +145,13 @@ export async function GET(request: NextRequest) {
 
         // Skip already-seen posts
         if (isPostSeen(state, post.id)) continue;
+
+        // Skip posts older than 30 min (2x cron interval) — prevents re-scoring stale posts
+        const freshnessWindowSec = 30 * 60;
+        if (post.created_utc && (Date.now() / 1000 - post.created_utc) > freshnessWindowSec) {
+          markPostSeen(state, post.id);
+          continue;
+        }
 
         // Mark as seen immediately
         markPostSeen(state, post.id);
