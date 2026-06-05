@@ -6252,5 +6252,34 @@
       "AEO",
       "AI Search"
     ]
+  },
+  {
+    "id": 295,
+    "title": "What Does ChatGPT Say When Someone Asks for a Personal Injury Lawyer?",
+    "slug": "what-chatgpt-says-personal-injury-lawyer",
+    "excerpt": "ChatGPT outputs personal injury lawyer queries in a fixed three-block response skeleton: disclaimer buffer, named-firm block, follow-up prompt. Position one inside the named-firm block captures 47% of follow-up engagement. The AEO signals that decide which firm lands first.",
+    "category": "Industry Verticals",
+    "author": "Justin Borges",
+    "readTime": "14 min",
+    "image": "/blog/what-chatgpt-says-personal-injury-lawyer.webp",
+    "publishDate": "2026-06-05",
+    "lastModified": "2026-06-05",
+    "featured": false,
+    "tags": [
+      "ChatGPT Personal Injury",
+      "Personal Injury Lawyer",
+      "AEO for Law Firms",
+      "ChatGPT Response Architecture",
+      "Position One Premium",
+      "Named-Firm Block",
+      "Disclaimer Buffer",
+      "Justification Sentence",
+      "Phrasing Sensitivity",
+      "Output Decay Window",
+      "AI Citations",
+      "Answer Engine Optimization",
+      "Perplexity Personal Injury",
+      "LLM Response Output"
+    ]
   }
 ]
