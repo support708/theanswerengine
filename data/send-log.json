@@ -732,6 +732,12 @@
       "email": "info@dallasroofer.com",
       "type": "initial",
       "sentAt": "2026-06-03T09:00:51.686Z"
+    },
+    {
+      "leadId": "lead_1772944082786_8zis4x",
+      "email": "hunterdoug@earthlink.net",
+      "type": "follow_up_4",
+      "sentAt": "2026-06-05T16:00:13.016Z"
     }
   ]
 }
