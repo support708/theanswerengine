@@ -1007,7 +1007,7 @@
     "reviewCount": 400,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: The Electric Connection, Powell Electric, East West Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1985 (40+ years), A+ BBB rating, family-owned, 400+ five-star reviews, BuildZoom score of 117 (top 1%)",
-    "status": "follow_up_3",
+    "status": "follow_up_4",
     "research": {
       "reviewCount": 400,
       "rating": 4.9,
@@ -1131,10 +1131,14 @@
       {
         "action": "follow_up_3 auto-sent via Gmail (19e136362699295c)",
         "timestamp": "2026-05-10T19:35:16.931Z"
+      },
+      {
+        "action": "follow_up_4 auto-sent via Gmail (19e9883bb3c1d327)",
+        "timestamp": "2026-06-05T16:00:32.851Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-05-10T19:35:16.931Z",
+    "updatedAt": "2026-06-05T16:00:32.992Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",
