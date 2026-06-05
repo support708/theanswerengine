@@ -2873,7 +2873,7 @@
     "reviewCount": 157,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2012, 32+ years clinic history, specializes in Japanese color therapy, applied kinesiology, acupuncture",
-    "status": "follow_up_3",
+    "status": "follow_up_4",
     "research": {
       "reviewCount": 157,
       "rating": 4.5,
@@ -2991,10 +2991,14 @@
       {
         "action": "follow_up_3 auto-sent via Gmail (19e1367544c9d00e)",
         "timestamp": "2026-05-10T19:39:52.288Z"
+      },
+      {
+        "action": "follow_up_4 send failed: Gmail not configured",
+        "timestamp": "2026-06-05T16:01:03.306Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-05-10T19:39:52.288Z",
+    "updatedAt": "2026-06-05T16:01:03.483Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
