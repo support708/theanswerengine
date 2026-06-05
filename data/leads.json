@@ -156,7 +156,7 @@
     "reviewCount": 192,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. Pain signals: Over 20 years experience with strong reviews; Lacks comprehensive service pages and AI-friendly content architecture",
-    "status": "follow_up_3",
+    "status": "follow_up_4",
     "research": {
       "reviewCount": 192,
       "rating": 5,
@@ -275,10 +275,14 @@
       {
         "action": "follow_up_3 auto-sent via Gmail (19e13635e9223cde)",
         "timestamp": "2026-05-10T19:35:16.931Z"
+      },
+      {
+        "action": "follow_up_4 auto-sent via Gmail (19e988387047bf02)",
+        "timestamp": "2026-06-05T16:00:19.453Z"
       }
     ],
     "createdAt": "2026-03-08T04:28:02.786Z",
-    "updatedAt": "2026-05-10T19:35:16.931Z",
+    "updatedAt": "2026-06-05T16:00:19.678Z",
     "huntSource": "hunt_1772943739618_2vrc",
     "huntScore": 29.5,
     "huntPriority": "P2"
