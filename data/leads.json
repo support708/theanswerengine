@@ -1864,7 +1864,7 @@
     "reviewCount": 36,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Pediatric dentistry specialist, 10+ years treating children, affordable pricing, multiple locations, accepts financing options",
-    "status": "follow_up_3",
+    "status": "follow_up_4",
     "research": {
       "reviewCount": 36,
       "rating": 4.9,
@@ -1978,10 +1978,14 @@
       {
         "action": "follow_up_3 auto-sent via Gmail (19e136368a0bebbf)",
         "timestamp": "2026-05-10T19:35:16.931Z"
+      },
+      {
+        "action": "follow_up_4 send failed: Gmail not configured",
+        "timestamp": "2026-06-05T16:00:51.360Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-05-10T19:35:16.931Z",
+    "updatedAt": "2026-06-05T16:00:51.492Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 30,
     "huntPriority": "P2",
