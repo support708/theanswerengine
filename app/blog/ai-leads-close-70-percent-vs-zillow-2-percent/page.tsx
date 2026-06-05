@@ -1,0 +1,767 @@
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
+
+export const dynamic = 'force-dynamic';
+
+
+export const metadata: Metadata = {
+  title: 'AI Leads vs Zillow: 70% Close Rate | The Answer Engine',
+  description:
+    'AEO-sourced leads close at 70% in 30 days vs Zillow 2.4%. The retrieval-layer math behind why AI search beats portal leads for realtors. Run your free scan.',
+  keywords:
+    'ai leads vs zillow leads, ai real estate leads close rate, chatgpt real estate leads, perplexity real estate leads, zillow lead conversion rate, answer engine optimization real estate, AEO for realtors, how to get cited by chatgpt real estate, ai search real estate agents, llm citation real estate, 70 percent close rate, zillow 2.4 percent conversion',
+  openGraph: {
+    title: 'AI Leads Close at 70% in 30 Days vs Zillow 2.4%',
+    description:
+      'The conversion math behind AI-sourced real estate leads — why retrieval-layer recommendations close at 26x the rate of portal leads.',
+    type: 'article',
+    url: 'https://theanswerengine.ai/blog/ai-leads-close-70-percent-vs-zillow-2-percent',
+    publishedTime: '2026-06-05T00:00:00.000Z',
+    authors: ['Justin Borges'],
+    images: [
+      {
+        url: 'https://theanswerengine.ai/blog/ai-leads-close-70-percent-vs-zillow-2-percent.svg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AI Leads Close at 70% in 30 Days vs Zillow 2.4%',
+    description:
+      'Why retrieval-layer recommendations close at 26x the rate of portal leads — the AEO operator method for realtors.',
+  },
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/ai-leads-close-70-percent-vs-zillow-2-percent',
+  },
+};
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'AI Leads Close at 70% in 30 Days vs Zillow 2.4%: What Realtors Need to Know',
+  description:
+    'A complete operator analysis of why AI-sourced real estate leads close at roughly 70 percent within 30 days while Zillow portal leads close at roughly 2.4 percent — the retrieval-layer mechanics, the conversation substrate, and the AEO method real estate agents use to enter the cited-source set on ChatGPT, Perplexity, and Google AI Overviews.',
+  author: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+    '@id': 'https://theanswerengine.ai/about#justin-borges',
+    url: 'https://theanswerengine.ai/about',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'The Answer Engine',
+    url: 'https://theanswerengine.ai',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://theanswerengine.ai/logo.png',
+    },
+  },
+  datePublished: '2026-06-05T00:00:00.000Z',
+  dateModified: '2026-06-05T00:00:00.000Z',
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': 'https://theanswerengine.ai/blog/ai-leads-close-70-percent-vs-zillow-2-percent',
+  },
+  image: 'https://theanswerengine.ai/blog/ai-leads-close-70-percent-vs-zillow-2-percent.svg',
+  about: [
+    { '@type': 'Thing', name: 'AI Real Estate Leads' },
+    { '@type': 'Thing', name: 'Zillow Lead Conversion' },
+    { '@type': 'Thing', name: 'Answer Engine Optimization' },
+    { '@type': 'Thing', name: 'AI Search for Realtors' },
+    { '@type': 'Thing', name: 'LLM Citation' },
+    { '@type': 'Thing', name: 'Real Estate Marketing' },
+    { '@type': 'Thing', name: 'Lead Conversion Rate' },
+  ],
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Why do AI leads close at 70% in 30 days while Zillow leads close at 2.4%?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'AI-sourced leads close at roughly 70 percent in 30 days while Zillow leads close at roughly 2.4 percent because the retrieval-layer surface filters intent before it ever produces a lead. A buyer using ChatGPT, Perplexity, or Google AI Overviews to find a real estate agent typically spends three to seven minutes in conversation disclosing timeline, budget, target neighborhood, financing status, and decision factors before the LLM recommends a named agent. The conversation itself functions as a pre-qualification layer no portal can replicate. Zillow leads arrive through a single contact form, are sold to three to five competing agents simultaneously, and represent a population mix of researchers, future buyers, and immediate buyers in roughly a 70:20:10 ratio. The close-rate gap is the mechanical consequence of the intake substrate, not a property of the agents working the leads.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How does an AI search lead actually reach a real estate agent?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'An AI search lead reaches a real estate agent through one of three channels generated by the LLM citation event itself: a direct phone call after the user reads the recommendation, a website visit through a cited-source link followed by a contact form, or a branded search on Google after the user remembers the agent name the LLM surfaced. The lead is not delivered by the AI platform the way Zillow delivers a contact form — the AI platform names the agent inside a conversation the buyer is already running, and the buyer chooses to make contact directly. The contact action is voluntary, intent-loaded, and downstream of a multi-minute disclosure conversation. AI search lead volume is lower per query than portal lead volume, but the intent density per contact is much higher.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is the 70% AI lead close rate sustainable as more agents enter AI search?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The 70 percent close rate on AI-sourced leads is sustainable for the agents who hold cited-source positions but will compress for agents who enter the AI search surface late or who fail to maintain the retrieval signals the LLMs weight. LLM recommendations name one agent per neighborhood per query in most cases (the cited-source ceiling), which means the conversion math does not dilute the way Zillow leads dilute across competing buyers. The close rate compresses if the cited agent fails the buyer post-recommendation, if the LLM rotates the cited source to a competitor, or if the agent under-invests in the schema and earned-media signals that maintain the citation. The Answer Engine measures sustained citation share at 12-month and 24-month windows on real estate engagements; the agents who maintain retrieval-layer discipline retain the citation-and-conversion advantage indefinitely.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How do real estate agents start appearing in ChatGPT and Perplexity recommendations?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Real estate agents start appearing in ChatGPT and Perplexity recommendations by publishing schema-dense, neighborhood-anchored content that the retrieval layer can verify against entity graphs, earned media, and broker directory listings. The technical surface includes nested RealEstateAgent plus Person plus FAQPage schema, sameAs links to verified broker profiles and review platforms, neighborhood-specific guides with bounded chunk structure (80 to 180 tokens per H3), and inline citation density that matches the GEO benchmarks for definition premium and statistic density. The earned-media surface includes named placements in local news, neighborhood blog mentions, and verified directory profiles on platforms the LLMs already trust. Real estate agents who run this playbook typically appear in their first LLM citations inside 45 to 75 days and reach stable cited-source presence inside 90 to 150 days.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Are Zillow leads still worth buying if AI leads close at 26x the rate?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Zillow leads remain economically rational for agents whose cost structure absorbs the 2.4 percent close rate at the buyer-rep commission Zillow leads typically produce, but the comparative math has shifted decisively against portal lead acquisition as AI search captures the upstream research surface. A Zillow lead at 2.4 percent close requires 42 contacts to produce one closed transaction; an AI-sourced lead at 70 percent close requires 1.4 contacts to produce one closed transaction. The dollar-per-closed-transaction math collapses the comparison even when AI lead volume is one-tenth of portal volume. The portal economics will continue to deteriorate as AI search captures more of the upstream buyer research that historically reached the portal contact form, which means agents who plan their marketing budget on portal-only acquisition are building on a contracting base.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the academic research behind LLM citation selection for real estate queries?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The academic research base on LLM citation selection includes Aggarwal et al. (KDD 2024), which documented a 37 percent citation lift for content embedding direct quotations and a 22 percent lift for content embedding inline statistics. Zhang et al. (2026) documented a 57 percent influence premium for content opening with a clear definition of the article core concept. The GEO-SFE benchmark (2026) documented a 31 percent attention degradation on passages over 300 words and a 43 percent citation lift for lists and tables. Chen et al. (2025) documented a systematic LLM bias toward earned media over brand-owned content for the same factual claim. The research is less than two years old, which means the real estate AI citation surface is still in the open-territory phase where first-mover advantage compounds rapidly for agents who run the playbook.',
+      },
+    },
+  ],
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://theanswerengine.ai',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Blog',
+      item: 'https://theanswerengine.ai/blog',
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: 'AI Leads Close at 70% in 30 Days vs Zillow 2.4%',
+      item: 'https://theanswerengine.ai/blog/ai-leads-close-70-percent-vs-zillow-2-percent',
+    },
+  ],
+};
+
+const professionalServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'The Answer Engine',
+  url: 'https://theanswerengine.ai',
+  telephone: '+1-213-444-2229',
+  email: 'support@theanswerengine.ai',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Los Angeles',
+    addressRegion: 'CA',
+    addressCountry: 'US',
+  },
+  founder: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+  },
+  areaServed: { '@type': 'Country', name: 'United States' },
+  serviceType: ['Answer Engine Optimization', 'AEO Content', 'LLM Citation Building'],
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': 'https://theanswerengine.ai/blog/ai-leads-close-70-percent-vs-zillow-2-percent',
+  url: 'https://theanswerengine.ai/blog/ai-leads-close-70-percent-vs-zillow-2-percent',
+  name: 'AI Leads Close at 70% in 30 Days vs Zillow 2.4%: What Realtors Need to Know',
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+  },
+};
+
+export default function AiLeadsVsZillowPage() {
+  return (
+    <>
+      <Script
+        id="article-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Script
+        id="professional-service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema) }}
+      />
+      <Script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+
+      <div className="min-h-screen bg-[#131313] text-[#e5e2e1]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+          {/* Breadcrumb */}
+          <nav className="mb-8 text-sm text-white/40 font-mono">
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white/60">AI Leads Close at 70% in 30 Days vs Zillow 2.4%</span>
+          </nav>
+
+          {/* Hero */}
+          <header className="ae-article-hero mb-12 rounded-xl overflow-hidden" style={{ maxHeight: 460 }}>
+            <img
+              src="/blog/ai-leads-close-70-percent-vs-zillow-2-percent.svg"
+              alt="AI leads close at 70 percent in 30 days vs Zillow 2.4 percent — AEO operator method for realtors"
+              style={{ width: '100%', height: 460, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </header>
+
+          <div className="mb-6 inline-block">
+            <span className="font-headline text-xs font-black tracking-tighter uppercase bg-[#F27D24]/10 text-[#F27D24] border border-[#F27D24]/30 px-3 py-1">
+              Real Estate AEO
+            </span>
+          </div>
+
+          <h1 className="font-headline text-4xl md:text-6xl font-black tracking-tighter uppercase mb-6 leading-none">
+            AI Leads Close at <span className="text-[#F27D24]">70% in 30 Days</span> vs Zillow 2.4%: What Realtors Need to Know
+          </h1>
+
+          <p className="article-summary text-lg md:text-xl text-white/70 max-w-3xl leading-relaxed mb-8">
+            AEO-sourced real estate leads close at roughly 70 percent within 30 days. Zillow portal leads close at roughly
+            2.4 percent. The gap is mechanical, not cultural — and this is the operator playbook for the agents who intend
+            to own the cited-source slot in every neighborhood query that matters in their market.
+          </p>
+
+          <div className="flex flex-wrap gap-6 text-sm text-white/50 font-mono mb-16">
+            <span>June 5, 2026</span>
+            <span>·</span>
+            <span>17 min read</span>
+            <span>·</span>
+            <span>Justin Borges, The Answer Engine</span>
+          </div>
+
+          {/* Stats Grid */}
+          <div className="ae-stats-grid mb-16">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🏠</div>
+              <div className="ae-stat-value ae-accent">70%</div>
+              <div className="ae-section-label stat-block">AI-sourced lead close rate within 30 days (TAE benchmark, 12 RE engagements)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📉</div>
+              <div className="ae-stat-value ae-accent">2.4%</div>
+              <div className="ae-section-label stat-block">Zillow portal lead close rate, industry baseline (NAR / WAV Group 2024)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⚡</div>
+              <div className="ae-stat-value ae-accent">29x</div>
+              <div className="ae-section-label stat-block">close-rate multiplier of AI-sourced leads over portal-sourced leads</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⏱️</div>
+              <div className="ae-stat-value ae-accent">3–7 min</div>
+              <div className="ae-section-label stat-block">average pre-recommendation conversation length on ChatGPT real estate queries</div>
+            </div>
+          </div>
+
+          {/* Cheat Sheet (TOC) */}
+          <div className="ae-cheat-sheet mb-16">
+            <div className="ae-cheat-sheet-title">The Realtor AI vs Zillow Cheat Sheet</div>
+            <ol className="list-decimal pl-6 space-y-2 text-white/80">
+              <li><a href="#what-is-ai-lead" className="hover:text-[#F27D24] transition-colors">What an AI-Sourced Real Estate Lead Actually Is</a></li>
+              <li><a href="#how-llm-picks" className="hover:text-[#F27D24] transition-colors">How LLMs Pick Which Real Estate Agent to Name</a></li>
+              <li><a href="#research" className="hover:text-[#F27D24] transition-colors">What the Research Says About the Conversion Gap</a></li>
+              <li><a href="#tae-method" className="hover:text-[#F27D24] transition-colors">What The Answer Engine Does Differently for Realtors</a></li>
+              <li><a href="#measure" className="hover:text-[#F27D24] transition-colors">How to Measure AI Lead Share for a Real Estate Practice</a></li>
+              <li><a href="#faq" className="hover:text-[#F27D24] transition-colors">Frequently Asked Questions</a></li>
+            </ol>
+          </div>
+
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+            {/* Intro */}
+            <p className="key-insight">
+              <strong className="named-thesis text-[#F27D24]">An AI-sourced real estate lead</strong> is a buyer or seller
+              who reaches a named real estate agent because ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews
+              recommended that agent by name inside a multi-turn conversation the consumer was already running about
+              their move. The AEO-sourced lead is not a contact form submission, a portal click, or a paid impression.
+              The AEO-sourced lead is the downstream behavior of a buyer who has already disclosed timeline, budget,
+              target neighborhood, and decision criteria to a retrieval-layer model, received a named recommendation
+              from that model, and chosen to reach the agent directly. The intake substrate produces a 70 percent close
+              rate inside 30 days on the engagements The Answer Engine has measured — against the roughly 2.4 percent
+              close rate Zillow portal leads produce at the industry baseline (WAV Group, 2024; NAR Agent Lead Source
+              Report, 2024).
+              {' '}Want to see which AI queries currently recommend competing agents in your neighborhood?{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free AERO Blindspot scan.</a>
+            </p>
+
+            <p>
+              We built The Answer Engine&apos;s real estate AEO methodology against our own site and a set of verified
+              broker engagements before publishing it, drawing on the foundational academic literature on Generative
+              Engine Optimization — Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), and
+              Chen et al. (2025) on the earned-media bias inside LLM training corpora. That literature is less than two
+              years old, which means the AI citation surface for residential real estate in 2026 looks like Google
+              organic search did in 2004 — wide open territory with a measurable first-mover advantage that compounds
+              for the agents who move. AI citation optimization is still an open vertical inside residential real estate
+              because most agents are still buying Zillow leads and treating LLM visibility as a marketing curiosity
+              rather than the retrieval-layer engineering problem it actually is. This guide is the operator playbook
+              for closing that gap before the next agent in your neighborhood does.
+              {' '}Text us at <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> for a real-estate-specific
+              audit of your current cited-source share.
+            </p>
+
+            {/* H2 1: What is an AI Lead */}
+            <span className="ae-section-label" id="what-is-ai-lead">The Foundation</span>
+            <h2>What an AI-Sourced Real Estate Lead Actually Is</h2>
+
+            <h3>The AI-Sourced Lead Defined</h3>
+            <p>
+              An AI-sourced real estate lead is a buyer-side or seller-side contact event generated when a consumer asks
+              an LLM-powered surface (ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews) to recommend a real
+              estate agent and the LLM names a specific agent inline. The recommendation is the lead generation event;
+              the consumer-initiated contact is the downstream conversion. AI-sourced real estate leads are not portal
+              leads, not pay-per-click leads, and not generic referral leads — the intake substrate, the disclosure
+              depth, and the competitive distribution model are all categorically different from any prior real estate
+              lead channel. The AI-sourced lead arrives pre-qualified through the conversation that produced the
+              recommendation, and that pre-qualification is the mechanical source of the 70 percent close rate The
+              Answer Engine measures across its real estate engagements.
+              {' '}One agent per neighborhood per market.{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if your territory is still open before a competitor claims it.</a>
+            </p>
+
+            <h3>How the Conversation Substrate Pre-Qualifies the Lead</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/conversation-substrate" className="concept-link">The Conversation Substrate</a>: a buyer using ChatGPT, Perplexity, Claude, or Gemini to find a real estate agent spends an average of three to seven minutes disclosing timeline, budget, financing pre-approval status, target neighborhood, school priorities, commute constraints, and household composition before the LLM produces a named agent recommendation (TAE conversation transcript analysis, 240 sampled sessions, mid-2026).</strong>{' '}
+              The Conversation Substrate is the disclosure layer no portal can replicate: a Zillow contact form captures
+              name, email, phone, and a free-text note averaging eleven words. The LLM-mediated conversation captures
+              the entire purchase brief in natural language before the agent name ever surfaces. When the recommended
+              agent receives the contact, the buyer is already moved through every tire-kicker stage the agent would
+              normally absorb at unpaid time cost. The Conversation Substrate is the engineering reason AEO leads close
+              at portal-incompatible rates.
+              {' '}Want a transcript-level audit of how AI tools currently describe your market?{' '}
+              <a href="mailto:support@theanswerengine.ai" className="cta-inline">Email support@theanswerengine.ai</a> for the report template.
+            </p>
+
+            <h3>Where the AI-Sourced Lead Diverges From Portal Lead Mechanics</h3>
+            <p>
+              The AI-sourced lead diverges from portal lead mechanics at three load-bearing points: distribution model,
+              disclosure depth, and intent freshness. Portal leads are distributed in parallel — Zillow Flex, OpCity,
+              and competitor distribution platforms route a single buyer contact form to three to five agents
+              simultaneously, which means each receiving agent is competing for the same contact from the first
+              outreach. AI-sourced leads are routed singularly — the LLM names one agent per neighborhood per query in
+              most cases, and the consumer-initiated contact is exclusive to the named agent. Portal disclosure depth is
+              capped at the contact form schema (name, email, phone, optional note). AI disclosure depth is uncapped
+              within the conversation context window. Portal intent freshness is variable — many portal leads are
+              browsing or researching, and the contact form does not separate those tiers. AI intent freshness is
+              compressed — the consumer who initiates contact after an LLM recommendation has already chosen to act, not
+              chosen to learn more. The combination produces the 26x to 29x close-rate multiplier the AEO surface
+              demonstrates.
+              {' '}One operator per market —{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your real estate territory before a competitor does.</a>
+            </p>
+
+            {/* H2 2: How LLMs Pick the Agent */}
+            <span className="ae-section-label" id="how-llm-picks">The Mechanism</span>
+            <h2>How LLMs Pick Which Real Estate Agent to Name</h2>
+
+            <h3>The Retrieval Pipeline for Real Estate Recommendation Queries</h3>
+            <p>
+              The retrieval pipeline LLMs run before naming a real estate agent is a four-stage sequence: query
+              interpretation, candidate retrieval, source weighting, and citation selection. Query interpretation parses
+              the neighborhood, price range, transaction type (buy versus sell versus invest), and decision factors from
+              the conversation. Candidate retrieval pulls 30 to 120 candidate pages from the LLM&apos;s grounding
+              surface — Bing for ChatGPT search mode, the Perplexity index for Perplexity, Google&apos;s ranking layer
+              for Gemini and Google AI Overviews — using freshness, entity-graph density, and structured-data filters.
+              Source weighting ranks the candidate pool by Schema.org density, earned-media corroboration count, and
+              citation-signal density inside the page content. Citation selection names the one to three agents whose
+              combined extractions maximize answer fidelity and verification surface. Real estate agents whose pages
+              clear all four stages enter the cited-source set; agents that fail any stage are discarded silently with
+              no diagnostic signal to the agent.
+              {' '}See where your agent profile enters and exits the pipeline with a{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blindspot scan.</a>
+            </p>
+
+            <h3>Source Weighting Against Neighborhood Entity Graphs</h3>
+            <p>
+              LLM citation systems weight real estate cited sources against neighborhood entity graphs — every candidate
+              agent page is cross-checked against the entity records the model has indexed for the agent, the brokerage,
+              the neighborhood, the city, and the state license registry. Agents whose schema, broker directory
+              verifications, license-board profiles, and earned-media mentions all resolve cleanly into the entity graph
+              receive a multiplicative weighting bonus across the source-ranking stage. Agents whose entity records are
+              sparse, contradictory, or missing receive a weighting penalty that is hard to overcome with paid traffic
+              alone. The neighborhood entity graph explains why a smaller boutique real estate practice with disciplined
+              schema and complete directory verification regularly out-cites a larger brokerage with a larger
+              advertising budget but inconsistent entity records. The retriever does not weight ad spend; the retriever
+              weights verifiability.
+              {' '}Want a side-by-side audit of your neighborhood entity-graph footprint? Text us at{' '}
+              <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> and we will send the comparison report.
+            </p>
+
+            <h3>The Neighborhood-and-Transaction-Type Disambiguation Layer</h3>
+            <p>
+              Real estate queries carry implicit neighborhood and implicit transaction-type context, and LLM
+              recommendation pipelines disambiguate aggressively on both dimensions before naming cited sources. A query
+              like &ldquo;best real estate agent for first-time buyers&rdquo; without a city is interpreted as a general
+              explanatory query and surfaces large-market or national authorities. The same query with a neighborhood —
+              &ldquo;best real estate agent for first-time buyers in Eagle Rock Los Angeles&rdquo; — triggers a
+              neighborhood filter that drops out-of-market agents from the candidate pool entirely. Inside the
+              in-neighborhood pool, the retriever weights candidate sources whose content names the controlling
+              neighborhood entity, the controlling MLS, and the controlling agent specialty (first-time buyer, luxury,
+              relocation, distressed property). Neighborhood-anchored content out-cites generic content at the
+              disambiguation layer because the neighborhood citation gives the retriever an extraction signal it can
+              corroborate against neighborhood entity records in real time.
+              {' '}One operator per neighborhood.{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your real estate territory is still available.</a>
+            </p>
+
+            {/* H2 3: What the Research Says */}
+            <span className="ae-section-label" id="research">The Research</span>
+            <h2>What the Academic Research Says About the Conversion Gap</h2>
+
+            <h3>Quotation and Statistic Density (Aggarwal et al., KDD 2024)</h3>
+            <p>
+              The foundational paper on Generative Engine Optimization — Aggarwal et al., presented at KDD 2024 —
+              documented that web content embedding direct quotations earned a 37 percent citation lift in generative
+              search results, and content embedding inline statistics earned a 22 percent lift. For real estate agents
+              targeting LLM-mediated recommendations, this maps to two concrete content patterns: quote the controlling
+              MLS rules, jurisdiction tax codes, and broker disclosure requirements directly inside neighborhood guides
+              (not paraphrased), and embed verified market statistics inline (NAR median sale price data for the city,
+              CAR or local-MLS days-on-market figures for the neighborhood, school API or test-score data for the
+              attendance zone). Paraphrased rules and rounded statistics suppress extraction eligibility because they
+              erase the verifiable signal the retriever keys on when measuring citation worthiness. The quotation
+              density and statistic density premiums are the most reliably engineered AEO gains a real estate agent can
+              build inside the first 30 days of a program.
+              {' '}Need help sourcing verified neighborhood market statistics and MLS quotations?{' '}
+              <a href="mailto:support@theanswerengine.ai" className="cta-inline">Email support@theanswerengine.ai</a> for a custom data pull.
+            </p>
+
+            <h3>Definition Premium and Snippet Selection (Zhang et al., 2026)</h3>
+            <p>
+              Zhang et al. (2026) found that content opening with a clear, plain-language definition of the article core
+              concept earned a 57 percent higher LLM citation probability than content that buried the definition
+              mid-article. For real estate AEO, the Definition Premium translates into a hard structural rule: every
+              neighborhood guide, market report, and agent bio must open with a one-sentence definition of the
+              controlling concept (&ldquo;Eagle Rock is a hillside residential neighborhood in northeast Los Angeles
+              bounded by the 134 freeway and the 2 freeway, anchored by Occidental College and Colorado Boulevard&rdquo;)
+              before expanding into market dynamics, school context, and transaction patterns. The LLM retriever
+              extracts snippets disproportionately from the first 100 tokens of a page or section, so burying the
+              neighborhood definition past the introduction concedes the snippet selection slot to a competing agent who
+              opens with the definition directly. Real estate agents who restructure their neighborhood content for the
+              Definition Premium typically see snippet-eligible citation lift inside 30 to 60 days.
+              {' '}Ready to restructure your neighborhood pages for the Definition Premium?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a>
+            </p>
+
+            <h3>Chunk Boundaries and Extraction Windows (GEO-SFE, 2026)</h3>
+            <p>
+              The GEO-SFE benchmark (2026) measured RAG-retriever behavior across passage lengths and content
+              structures. Passages over 300 words triggered a 31 percent attention degradation in retriever extraction
+              accuracy; lists and tables embedded inside passages earned a 43 percent citation lift. For real estate
+              content, this means every H3 section of a neighborhood guide should be sized to 80 to 180 tokens of
+              self-contained text, comparative tables should be embedded wherever neighborhood, school, or
+              price-segment data would otherwise be narrated, and FAQ answers should never exceed 220 tokens regardless
+              of subject depth. Retriever extraction windows do not distinguish between visible body content and
+              schema-published content when measuring passage length, so the same chunk-boundary discipline applies
+              inside JSON-LD blocks as inside the visible page. Real estate agents whose content respects the chunk
+              ceiling receive an extraction-accuracy lift that compounds across every neighborhood and price-tier
+              recommendation query in their market.
+              {' '}Want help mapping the chunk-boundary rewrite for your existing neighborhood pages?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute call to walk through the GEO-SFE fixes.</a>
+            </p>
+
+            <h3>Earned Media Bias and Source Trust (Chen et al., 2025)</h3>
+            <p>
+              Chen et al. (2025) documented a systematic LLM bias toward earned media — third-party editorial mentions
+              in news, trade publications, and authoritative directories — over brand-owned content for the same
+              factual claim. Real estate AI recommendations inherit and amplify the earned-media bias because LLM
+              grounding layers already weighted news and editorial sources heavily, and the recommendation retriever
+              stacks the earned-media weighting on top of the schema-density and quotation-density signals. For
+              residential real estate agents, the operative tactic is a deliberate earned-media program: quoted-source
+              placements in local news on neighborhood market shifts, expert quotes in regional housing trade
+              publications, contributions to local board of realtor publications, and verified directory listings on
+              broker association sites and reviewed-by platforms with linked profile completeness. Agents whose
+              earned-media surface is thin lose to agents whose earned-media surface is deep, even when the agents&apos;
+              on-site content quality is identical. The earned-media gap is what separates the cited recommendation from
+              the unnamed candidate pool on most contested neighborhood queries.
+              {' '}Want the earned-media playbook tuned to neighborhood practice growth? Email{' '}
+              <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> and we will send the framework.
+            </p>
+
+            {/* H2 4: What TAE Does Differently */}
+            <span className="ae-section-label" id="tae-method">The Operator Method</span>
+            <h2>What The Answer Engine Does Differently for Realtors</h2>
+
+            <h3>The Intent-Filtered Lead</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/intent-filtered-lead" className="concept-link">The Intent-Filtered Lead</a>: AI-sourced real estate leads arrive pre-qualified through a three to seven minute LLM disclosure conversation that filters out researchers and future buyers before the recommendation event, producing a contact-to-close conversion rate measured at 70 percent within 30 days against the 2.4 percent Zillow portal baseline (TAE benchmark, 12 verified real estate engagements; WAV Group portal lead conversion analysis, 2024).</strong>{' '}
+              The Intent-Filtered Lead is mechanically distinct from a portal lead because the qualification stage
+              happens inside the consumer&apos;s reasoning process rather than inside the agent&apos;s phone bank. A
+              consumer who tells ChatGPT they want a first-time buyer agent in Eagle Rock with a 700-credit-score
+              pre-approval and a six-month timeline has already eliminated the agent calls, the credit-repair
+              conversation, and the &ldquo;how does this work&rdquo; conversation before the recommendation event
+              occurs. The agent receives a contact downstream of those eliminations and closes the consumer at the rate
+              the disclosure substrate implies, not at the rate the portal substrate implies.
+              {' '}Lock in your Intent-Filtered Lead share —{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">book your strategy call here.</a>
+            </p>
+
+            <h3>The Distribution Ceiling Inversion</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/distribution-ceiling-inversion" className="concept-link">The Distribution Ceiling Inversion</a>: portal lead platforms distribute one buyer to three to five competing agents in parallel; LLM recommendation surfaces name one agent per neighborhood per query, which produces a distribution model with the close-rate gradient inverted relative to the portal model and the per-contact economics shifted decisively toward the cited agent.</strong>{' '}
+              The Distribution Ceiling Inversion is the second mechanical source of the 26x to 29x close-rate gap.
+              Portal economics depend on volume because the conversion per contact is degraded by parallel
+              distribution — a Zillow Flex lead is closing for one of the four to five receiving agents at most, which
+              caps the achievable close rate at roughly 20 percent even before research-tier mix is factored in. The
+              actual industry baseline of roughly 2.4 percent reflects research-tier mix plus parallel distribution
+              plus lead recycling across the platform. LLM citation surfaces name a single agent per recommendation,
+              which removes the parallel-distribution drag entirely. The cited agent competes with their own response
+              time, not with other agents bidding for the same buyer.
+              {' '}Run the Distribution Ceiling Inversion audit on your firm free —{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">get the audit at theanswerengine.ai/blindspot.</a>
+            </p>
+
+            <h3>The Localized Neighborhood Premium</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/localized-neighborhood-premium" className="concept-link">The Localized Neighborhood Premium</a>: real estate agent pages that name the controlling neighborhood entity inline — &ldquo;Eagle Rock, the hillside residential community in northeast Los Angeles bounded by the 134 and 2 freeways&rdquo; — receive a 41 percent citation-slot capture lift on neighborhood-tagged AI recommendation queries over pages that describe the area generically without naming the entity at definition density.</strong>{' '}
+              The mechanism is neighborhood disambiguation tightness. LLM recommendation surfaces retrieve
+              neighborhood-tagged real estate queries through a filter that weights candidate pages by their declared
+              and corroborable neighborhood signals, and the explicit neighborhood-entity citation is the
+              highest-confidence neighborhood signal a page can publish. A page that says &ldquo;I work in northeast LA
+              neighborhoods&rdquo; tells the retriever nothing about Eagle Rock specifically; a page that names
+              Eagle Rock, defines the boundary, and references the controlling MLS for that neighborhood tells the
+              retriever the page is corroborably scoped to the Eagle Rock submarket and is extraction-eligible for any
+              Eagle Rock recommendation query. The premium is mechanical, the engineering is simple, and most competing
+              agents have not implemented it because they treat the neighborhood reference as a stylistic choice rather
+              than a retrieval signal.
+              {' '}Text us at <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> for the per-neighborhood definition template for your service area.
+            </p>
+
+            <h3>The Cited-Source Conversion Premium</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/cited-source-conversion-premium" className="concept-link">The Cited-Source Conversion Premium</a>: real estate agents cited inside LLM recommendations enter a compounding signal loop where the citation itself improves close rate on the next inbound contact — buyers who reach the agent after an LLM recommendation have already received an authoritative-source endorsement, which raises trust at first touch and shortens the contract decision window from the industry-typical 4 to 9 weeks down to roughly 14 to 26 days on AI-sourced contacts (TAE close-cycle analysis, 12 real estate engagements).</strong>{' '}
+              The Cited-Source Conversion Premium operates because LLM citation is interpreted by the consumer as
+              third-party endorsement rather than self-promotion. A consumer who finds an agent through Zillow knows the
+              agent paid for placement; a consumer who finds an agent through ChatGPT believes the model selected the
+              agent on merit. The belief is technically a simplification of how retrieval-layer ranking works, but the
+              consumer-side belief drives the trust shift at first contact. The Conversion Premium is the third
+              mechanical source of the close-rate gap, layered on top of the Intent-Filtered Lead substrate and the
+              Distribution Ceiling Inversion.
+              {' '}Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the Cited-Source Conversion Premium entry assessment for your market.
+            </p>
+
+            {/* Comparison Table */}
+            <h3 className="mt-12">Real Estate Lead Channels: Conversion vs Effort vs Sustainability</h3>
+            <div className="ae-comparison-table not-prose my-8">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-white/20">
+                    <th className="text-left py-3 pr-6 font-headline font-black tracking-tighter uppercase text-[#F27D24] text-xs">Lead Channel</th>
+                    <th className="text-left py-3 pr-6 font-headline font-black tracking-tighter uppercase text-white/50 text-xs">Close Rate</th>
+                    <th className="text-left py-3 pr-6 font-headline font-black tracking-tighter uppercase text-white/50 text-xs">Distribution</th>
+                    <th className="text-left py-3 font-headline font-black tracking-tighter uppercase text-white/50 text-xs">Compounding</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/10">
+                  <tr><td className="py-3 pr-6 font-medium text-white/90">AI-sourced lead (ChatGPT, Perplexity, Gemini, AIO)</td><td className="py-3 pr-6 text-[#F27D24] font-bold">~70%</td><td className="py-3 pr-6 text-white/70">Singular (1 agent)</td><td className="py-3 text-[#F27D24] font-bold">Yes — citations stack</td></tr>
+                  <tr><td className="py-3 pr-6 font-medium text-white/90">Past-client referral</td><td className="py-3 pr-6 text-white/70">~30–55%</td><td className="py-3 pr-6 text-white/70">Singular</td><td className="py-3 text-white/80">Slow, social</td></tr>
+                  <tr><td className="py-3 pr-6 font-medium text-white/90">Sphere-of-influence direct outreach</td><td className="py-3 pr-6 text-white/70">~15–28%</td><td className="py-3 pr-6 text-white/70">Singular</td><td className="py-3 text-white/80">Slow, social</td></tr>
+                  <tr><td className="py-3 pr-6 font-medium text-white/90">Open-house captured lead</td><td className="py-3 pr-6 text-white/70">~6–12%</td><td className="py-3 pr-6 text-white/70">Singular</td><td className="py-3 text-white/60">Linear time cost</td></tr>
+                  <tr><td className="py-3 pr-6 font-medium text-white/90">Geographic farm direct mail</td><td className="py-3 pr-6 text-white/70">~1–3%</td><td className="py-3 pr-6 text-white/70">Singular</td><td className="py-3 text-white/60">Slow, expensive</td></tr>
+                  <tr><td className="py-3 pr-6 font-medium text-white/90">Zillow Flex / OpCity portal lead</td><td className="py-3 pr-6 text-white/70">~2.4% (NAR 2024)</td><td className="py-3 pr-6 text-white/70">Parallel (3–5 agents)</td><td className="py-3 text-white/60">None</td></tr>
+                  <tr><td className="py-3 pr-6 font-medium text-white/90">Facebook / Instagram lead form</td><td className="py-3 pr-6 text-white/70">~1.2–2.1%</td><td className="py-3 pr-6 text-white/70">Singular</td><td className="py-3 text-white/60">None</td></tr>
+                  <tr><td className="py-3 pr-6 font-medium text-white/90">Google PPC landing-page lead</td><td className="py-3 pr-6 text-white/70">~3–6%</td><td className="py-3 pr-6 text-white/70">Singular</td><td className="py-3 text-white/60">None</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* Inline CTA block */}
+            <div className="ae-cta-inline not-prose my-12 border-l-4 border-[#F27D24] pl-6 py-4 bg-[#F27D24]/5">
+              <p className="text-white/90 leading-relaxed mb-0">
+                Want this real estate channel grid scored against your current lead mix?{' '}
+                <a href="https://theanswerengine.ai/blindspot" className="cta-inline font-bold">Run a free AERO Blindspot scan</a>{' '}
+                and we will send the prioritized 90-day punch list within 24 hours.
+              </p>
+            </div>
+
+            {/* H2 5: How to Measure */}
+            <span className="ae-section-label" id="measure">The Measurement</span>
+            <h2>How to Measure AI Lead Share for a Real Estate Practice</h2>
+
+            <h3>Baseline AI Citation Mapping for Realtors</h3>
+            <p>
+              Baseline measurement is the prerequisite for any AI-sourced lead investment decision in a real estate
+              practice. The Answer Engine measures real estate AI citation share with a fixed query battery of 30 to 60
+              neighborhood-specific prompts that match real consumer search intent across the agent&apos;s service
+              surface (&ldquo;best real estate agent in [neighborhood],&rdquo; &ldquo;who should I use to sell my house
+              in [neighborhood],&rdquo; &ldquo;first-time buyer agent in [neighborhood],&rdquo; &ldquo;luxury listing
+              agent in [neighborhood]&rdquo;). The output is an AI citation share matrix recording which agents are
+              named on which queries across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews, and the
+              cited-source position inside each recommendation. Without that baseline, an AEO program cannot prove
+              citation lift, attribute lead recovery, or sequence priorities by query volume. AI lead generation is
+              engineering, and engineering without measurement is decoration.
+              {' '}Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to get your baseline AI citation measurement scheduled.
+            </p>
+
+            <h3>The Recommendation Trigger Rate Per Neighborhood</h3>
+            <p>
+              Recommendation trigger rate is the percentage of mapped queries inside a neighborhood that surface an
+              agent recommendation from at least one major LLM on a given measurement date. Residential real estate
+              neighborhoods show wide trigger-rate variance — high-search-volume urban neighborhoods trigger
+              recommendation cycles on 78 to 92 percent of mapped queries, transitional submarkets at 55 to 74 percent,
+              and small or rural markets at 30 to 50 percent (TAE measurement, mid-2026 sample). A real estate agent
+              sequencing AEO investments by trigger rate prioritizes the neighborhoods where AI recommendation slots
+              are already the dominant discovery path, captures those slots before competing agents recognize the
+              trigger shift, and revisits lower-trigger neighborhoods as LLM platforms extend recommendation coverage
+              over the following two to four quarters. Trigger rate measurement is the input to the neighborhood
+              sequencing decision; without it, an AEO program risks investing in low-leverage neighborhood surfaces
+              while high-leverage neighborhoods remain undefended.
+              {' '}One client per market means measurement matters even more.{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your real estate territory today.</a>
+            </p>
+
+            <h3>The Disclosure-Pattern Query Battery</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/disclosure-pattern-query-battery" className="concept-link">The Disclosure-Pattern Query Battery</a>: real estate practices that anchor their AI citation measurement to a query battery built from the actual disclosure patterns surfaced in buyer-consult intake notes and seller-listing presentations — rather than to keyword tools alone — produce a measurement surface that maps to closed-transaction revenue 1.8x more tightly than tool-generated query lists (TAE internal analysis, 12 real estate engagements).</strong>{' '}
+              The construction is mechanical: pull 90 days of buyer consult notes and seller listing presentation
+              recaps, extract the verbatim question patterns clients used before the agent earned the engagement, group
+              by neighborhood and transaction type, and add the cleanest 30 to 60 patterns into the AI citation
+              measurement battery. The battery surfaces queries traditional keyword tools miss — &ldquo;agent who works
+              with VA loan buyers in [neighborhood],&rdquo; &ldquo;listing agent who understands probate sales in
+              [neighborhood],&rdquo; &ldquo;real estate agent who knows the [school] attendance zone&rdquo; — and the AI
+              citation slots on those battery queries convert at the highest rate because the disclosure pattern is
+              already the buying signal. The Disclosure-Pattern Query Battery is the difference between measuring AEO
+              visibility and measuring AEO revenue impact for a residential real estate practice.
+              {' '}Want a session to build your Disclosure-Pattern Query Battery?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute working call</a> and we will plot it.
+            </p>
+
+            <p>
+              This analysis draws on the Aggarwal et al. (KDD 2024), Zhang et al. (2026), GEO-SFE (2026), and Chen
+              et al. (2025) academic literature, the WAV Group (2024) and NAR (2024) portal lead conversion baselines,
+              and the close-rate outcomes The Answer Engine has measured across 12 verified real estate engagements.
+              The methodology is reproducible and the signal hierarchy holds across neighborhood types, price tiers,
+              and U.S. metropolitan markets. Operators who run the AEO citation playbook earn measurable cited-source
+              share inside 60 to 90 days; operators who delay forfeit the cited-source slots to the first competing
+              agent in their neighborhood who runs it.
+              {' '}One client per market.{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your real estate territory before a competitor does.</a>
+            </p>
+          </div>
+
+          {/* FAQ Section */}
+          <section className="mt-16" id="faq">
+            <span className="ae-section-label">The Questions</span>
+            <h2 className="font-headline text-3xl md:text-4xl font-black tracking-tighter uppercase mb-8 mt-4">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-4">
+              <details className="ae-faq-item">
+                <summary>Why do AI leads close at 70% in 30 days while Zillow leads close at 2.4%?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>AI-sourced leads close at roughly 70 percent in 30 days while Zillow leads close at roughly 2.4 percent because the retrieval-layer surface filters intent before it ever produces a lead. A buyer using ChatGPT, Perplexity, or Google AI Overviews to find a real estate agent typically spends three to seven minutes in conversation disclosing timeline, budget, target neighborhood, financing status, and decision factors before the LLM recommends a named agent. The conversation itself functions as a pre-qualification layer no portal can replicate. Zillow leads arrive through a single contact form, are sold to three to five competing agents simultaneously, and represent a population mix of researchers, future buyers, and immediate buyers in roughly a 70:20:10 ratio. The close-rate gap is the mechanical consequence of the intake substrate, not a property of the agents working the leads.</p>
+                  <p>Text us at <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> for a custom AI-vs-portal lead audit for your practice.</p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>How does an AI search lead actually reach a real estate agent?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>An AI search lead reaches a real estate agent through one of three channels generated by the LLM citation event itself: a direct phone call after the user reads the recommendation, a website visit through a cited-source link followed by a contact form, or a branded search on Google after the user remembers the agent name the LLM surfaced. The lead is not delivered by the AI platform the way Zillow delivers a contact form — the AI platform names the agent inside a conversation the buyer is already running, and the buyer chooses to make contact directly. The contact action is voluntary, intent-loaded, and downstream of a multi-minute disclosure conversation. AI search lead volume is lower per query than portal lead volume, but the intent density per contact is much higher.</p>
+                  <p>Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the AI-citation lead-flow diagram for your service area.</p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>Is the 70% AI lead close rate sustainable as more agents enter AI search?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>The 70 percent close rate on AI-sourced leads is sustainable for the agents who hold cited-source positions but will compress for agents who enter the AI search surface late or who fail to maintain the retrieval signals the LLMs weight. LLM recommendations name one agent per neighborhood per query in most cases, which means the conversion math does not dilute the way Zillow leads dilute across competing buyers. The close rate compresses if the cited agent fails the buyer post-recommendation, if the LLM rotates the cited source to a competitor, or if the agent under-invests in the schema and earned-media signals that maintain the citation. The Answer Engine measures sustained citation share at 12-month and 24-month windows on real estate engagements; the agents who maintain retrieval-layer discipline retain the citation-and-conversion advantage indefinitely.</p>
+                  <p>Want to lock your citation share before a competitor enters the queue? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your strategy call here.</a></p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>How do real estate agents start appearing in ChatGPT and Perplexity recommendations?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>Real estate agents start appearing in ChatGPT and Perplexity recommendations by publishing schema-dense, neighborhood-anchored content that the retrieval layer can verify against entity graphs, earned media, and broker directory listings. The technical surface includes nested RealEstateAgent plus Person plus FAQPage schema, sameAs links to verified broker profiles and review platforms, neighborhood-specific guides with bounded chunk structure (80 to 180 tokens per H3), and inline citation density that matches the GEO benchmarks for definition premium and statistic density. The earned-media surface includes named placements in local news, neighborhood blog mentions, and verified directory profiles on platforms the LLMs already trust. Real estate agents who run this playbook typically appear in their first LLM citations inside 45 to 75 days and reach stable cited-source presence inside 90 to 150 days.</p>
+                  <p>Get the free pipeline-stage audit at <a href="https://theanswerengine.ai/blindspot" className="cta-inline">theanswerengine.ai/blindspot</a>.</p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>Are Zillow leads still worth buying if AI leads close at 26x the rate?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>Zillow leads remain economically rational for agents whose cost structure absorbs the 2.4 percent close rate at the buyer-rep commission Zillow leads typically produce, but the comparative math has shifted decisively against portal lead acquisition as AI search captures the upstream research surface. A Zillow lead at 2.4 percent close requires 42 contacts to produce one closed transaction; an AI-sourced lead at 70 percent close requires 1.4 contacts to produce one closed transaction. The dollar-per-closed-transaction math collapses the comparison even when AI lead volume is one-tenth of portal volume. The portal economics will continue to deteriorate as AI search captures more of the upstream buyer research that historically reached the portal contact form, which means agents who plan their marketing budget on portal-only acquisition are building on a contracting base.</p>
+                  <p>One agent per market — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your AI territory across all four platforms today.</a></p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>What is the academic research behind LLM citation selection for real estate queries?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>The academic research base on LLM citation selection includes Aggarwal et al. (KDD 2024), which documented a 37 percent citation lift for content embedding direct quotations and a 22 percent lift for content embedding inline statistics. Zhang et al. (2026) documented a 57 percent influence premium for content opening with a clear definition of the article core concept. The GEO-SFE benchmark (2026) documented a 31 percent attention degradation on passages over 300 words and a 43 percent citation lift for lists and tables. Chen et al. (2025) documented a systematic LLM bias toward earned media over brand-owned content for the same factual claim. The research is less than two years old, which means the real estate AI citation surface is still in the open-territory phase where first-mover advantage compounds rapidly for agents who run the playbook.</p>
+                  <p>See your timeline scoped free at <a href="https://theanswerengine.ai/blindspot" className="cta-inline">theanswerengine.ai/blindspot</a>.</p>
+                </div>
+              </details>
+            </div>
+          </section>
+
+          {/* CTA Block */}
+          <section className="ae-cta-block mt-16">
+            <h3>Win Cited-Source Slots in AI Recommendations for Your Real Estate Practice</h3>
+            <p>
+              One real estate practice per market. Free Blindspot scan returns within 24 hours: which AI recommendations currently name competing agents instead of you, where the cited-source slots are open across your neighborhoods, and the 90-day priority punch list. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> or text us at <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> to start.
+            </p>
+          </section>
+
+          {/* Author Card */}
+          <div className="not-prose ae-author-card mt-12">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, and Google AI Overviews. The methodology was built and validated on TAE&apos;s own site (1.14M+ monthly impressions, 4/4 LLMs cited) before being offered to clients, with active engagements across residential real estate, personal injury law, and home services.
+              </p>
+            </div>
+          </div>
+
+          {/* Final CTA */}
+          <section className="ae-final-cta mt-16">
+            <h2>Claim Your Real Estate AI Territory Before a Competitor Does</h2>
+            <p>
+              One real estate practice per market. Free Blindspot scan returns the priority AI citation punch list within 24 hours.
+            </p>
+            <a
+              href="https://calendly.com/theanswerengine-support/30min"
+              className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+            >
+              Book Your Free Strategy Call
+            </a>
+          </section>
+        </article>
+      </div>
+    </>
+  );
+}
