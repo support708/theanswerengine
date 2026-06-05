@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="tm-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161820;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="tm-glow-left" cx="22%" cy="50%" r="42%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="tm-glow-center" cx="55%" cy="55%" r="32%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.22" />
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="tm-glow-right" cx="82%" cy="50%" r="38%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.18" />
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="tm-brand-node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0.4" />
+    </radialGradient>
+    <pattern id="tm-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.3" opacity="0.06"/>
+    </pattern>
+    <marker id="tm-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#FF6A00" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#tm-bg-grad)"/>
+  <rect width="1200" height="630" fill="url(#tm-grid)"/>
+  <rect width="1200" height="630" fill="url(#tm-glow-left)"/>
+  <rect width="1200" height="630" fill="url(#tm-glow-center)"/>
+  <rect width="1200" height="630" fill="url(#tm-glow-right)"/>
+
+  <!-- ===== LEFT: TEAM ROSTER (6 members + brand node) ===== -->
+  <!-- Label -->
+  <text x="60" y="80" font-family="Courier New, monospace" font-size="11" fill="#FF6A00" opacity="0.75" letter-spacing="2">[ TEAM ROSTER ]</text>
+
+  <!-- Brand node (center of left cluster) -->
+  <g>
+    <circle cx="180" cy="200" r="34" fill="url(#tm-brand-node)" stroke="#FF6A00" stroke-width="2"/>
+    <text x="180" y="195" font-family="Space Grotesk, sans-serif" font-weight="900" font-size="13" fill="#0F1117" text-anchor="middle">TEAM</text>
+    <text x="180" y="210" font-family="Space Grotesk, sans-serif" font-weight="900" font-size="13" fill="#0F1117" text-anchor="middle">BRAND</text>
+  </g>
+
+  <!-- Member nodes around brand -->
+  <!-- Member 1 (top-left) -->
+  <g>
+    <rect x="55" y="120" width="80" height="38" rx="6" fill="#FF6A00" opacity="0.14" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.55"/>
+    <circle cx="73" cy="139" r="9" fill="#FF6A00" opacity="0.65"/>
+    <rect x="87" y="132" width="40" height="4" rx="2" fill="#FF6A00" opacity="0.7"/>
+    <rect x="87" y="140" width="32" height="3" rx="1" fill="#FF6A00" opacity="0.4"/>
+    <line x1="135" y1="139" x2="156" y2="189" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Member 2 (top-right) -->
+  <g>
+    <rect x="225" y="120" width="80" height="38" rx="6" fill="#FF6A00" opacity="0.14" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.55"/>
+    <circle cx="243" cy="139" r="9" fill="#FF6A00" opacity="0.65"/>
+    <rect x="257" y="132" width="40" height="4" rx="2" fill="#FF6A00" opacity="0.7"/>
+    <rect x="257" y="140" width="32" height="3" rx="1" fill="#FF6A00" opacity="0.4"/>
+    <line x1="225" y1="139" x2="204" y2="189" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Member 3 (left) -->
+  <g>
+    <rect x="40" y="200" width="80" height="38" rx="6" fill="#FF6A00" opacity="0.14" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.55"/>
+    <circle cx="58" cy="219" r="9" fill="#FF6A00" opacity="0.65"/>
+    <rect x="72" y="212" width="40" height="4" rx="2" fill="#FF6A00" opacity="0.7"/>
+    <rect x="72" y="220" width="32" height="3" rx="1" fill="#FF6A00" opacity="0.4"/>
+    <line x1="120" y1="219" x2="146" y2="208" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Member 4 (right) -->
+  <g>
+    <rect x="240" y="200" width="80" height="38" rx="6" fill="#FF6A00" opacity="0.14" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.55"/>
+    <circle cx="258" cy="219" r="9" fill="#FF6A00" opacity="0.65"/>
+    <rect x="272" y="212" width="40" height="4" rx="2" fill="#FF6A00" opacity="0.7"/>
+    <rect x="272" y="220" width="32" height="3" rx="1" fill="#FF6A00" opacity="0.4"/>
+    <line x1="240" y1="219" x2="214" y2="208" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Member 5 (bottom-left) -->
+  <g>
+    <rect x="55" y="280" width="80" height="38" rx="6" fill="#FF6A00" opacity="0.14" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.55"/>
+    <circle cx="73" cy="299" r="9" fill="#FF6A00" opacity="0.65"/>
+    <rect x="87" y="292" width="40" height="4" rx="2" fill="#FF6A00" opacity="0.7"/>
+    <rect x="87" y="300" width="32" height="3" rx="1" fill="#FF6A00" opacity="0.4"/>
+    <line x1="135" y1="299" x2="158" y2="232" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Member 6 (bottom-right) -->
+  <g>
+    <rect x="225" y="280" width="80" height="38" rx="6" fill="#FF6A00" opacity="0.14" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.55"/>
+    <circle cx="243" cy="299" r="9" fill="#FF6A00" opacity="0.65"/>
+    <rect x="257" y="292" width="40" height="4" rx="2" fill="#FF6A00" opacity="0.7"/>
+    <rect x="257" y="300" width="32" height="3" rx="1" fill="#FF6A00" opacity="0.4"/>
+    <line x1="225" y1="299" x2="202" y2="232" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Caption under roster -->
+  <text x="180" y="360" font-family="Courier New, monospace" font-size="10" fill="#e5e2e1" opacity="0.5" text-anchor="middle">7 retriever surfaces</text>
+  <text x="180" y="376" font-family="Courier New, monospace" font-size="10" fill="#e5e2e1" opacity="0.5" text-anchor="middle">1 brand + 6 members</text>
+
+  <!-- ===== CENTER: RETRIEVER PIPELINE ===== -->
+  <text x="600" y="80" font-family="Courier New, monospace" font-size="11" fill="#FF6A00" opacity="0.75" letter-spacing="2" text-anchor="middle">[ CHATGPT RETRIEVER ]</text>
+
+  <!-- Retriever stack box -->
+  <rect x="465" y="170" width="270" height="220" rx="10" fill="#0F1117" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.55"/>
+
+  <!-- 6 signal rows -->
+  <g font-family="Courier New, monospace" font-size="11" fill="#e5e2e1">
+    <rect x="485" y="190" width="230" height="22" rx="3" fill="#FF6A00" opacity="0.08"/>
+    <text x="495" y="205" fill="#FF6A00" opacity="0.9">01</text>
+    <text x="520" y="205" opacity="0.78">Aggregated Reviews</text>
+
+    <rect x="485" y="218" width="230" height="22" rx="3" fill="#FF6A00" opacity="0.08"/>
+    <text x="495" y="233" fill="#FF6A00" opacity="0.9">02</text>
+    <text x="520" y="233" opacity="0.78">Jurisdictional</text>
+
+    <rect x="485" y="246" width="230" height="22" rx="3" fill="#FF6A00" opacity="0.08"/>
+    <text x="495" y="261" fill="#FF6A00" opacity="0.9">03</text>
+    <text x="520" y="261" opacity="0.78">Roster Coherence</text>
+
+    <rect x="485" y="274" width="230" height="22" rx="3" fill="#FF6A00" opacity="0.08"/>
+    <text x="495" y="289" fill="#FF6A00" opacity="0.9">04</text>
+    <text x="520" y="289" opacity="0.78">Topical Depth</text>
+
+    <rect x="485" y="302" width="230" height="22" rx="3" fill="#FF6A00" opacity="0.08"/>
+    <text x="495" y="317" fill="#FF6A00" opacity="0.9">05</text>
+    <text x="520" y="317" opacity="0.78">Earned Authority</text>
+
+    <rect x="485" y="330" width="230" height="22" rx="3" fill="#FF6A00" opacity="0.12" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="495" y="345" fill="#FF6A00" opacity="1">06</text>
+    <text x="520" y="345" fill="#FF6A00" opacity="0.95">Distributed Authorship</text>
+  </g>
+
+  <text x="600" y="375" font-family="Courier New, monospace" font-size="9" fill="#e5e2e1" opacity="0.45" text-anchor="middle">SCORING VECTOR</text>
+
+  <!-- Arrows: roster → retriever -->
+  <line x1="330" y1="220" x2="465" y2="240" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.65" marker-end="url(#tm-arrow)"/>
+  <line x1="330" y1="280" x2="465" y2="300" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.65" marker-end="url(#tm-arrow)"/>
+
+  <!-- ===== RIGHT: CITATION OUTPUT ===== -->
+  <text x="980" y="80" font-family="Courier New, monospace" font-size="11" fill="#FF6A00" opacity="0.75" letter-spacing="2" text-anchor="middle">[ RECOMMENDATION SLOT ]</text>
+
+  <!-- Output card -->
+  <rect x="830" y="170" width="310" height="220" rx="10" fill="#0F1117" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.55"/>
+
+  <!-- ChatGPT-style answer rows -->
+  <g font-family="Inter, sans-serif" font-size="11" fill="#e5e2e1">
+    <rect x="850" y="190" width="270" height="30" rx="4" fill="#FF6A00" opacity="0.10" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="868" cy="205" r="7" fill="#FF6A00" opacity="0.85"/>
+    <text x="884" y="209" fill="#FF6A00" opacity="0.95" font-weight="700">1. Your Team</text>
+
+    <rect x="850" y="226" width="270" height="30" rx="4" fill="#FF6A00" opacity="0.07"/>
+    <circle cx="868" cy="241" r="7" fill="#FF6A00" opacity="0.55"/>
+    <text x="884" y="245" opacity="0.7">2. Competing Team A</text>
+
+    <rect x="850" y="262" width="270" height="30" rx="4" fill="#FF6A00" opacity="0.07"/>
+    <circle cx="868" cy="277" r="7" fill="#FF6A00" opacity="0.55"/>
+    <text x="884" y="281" opacity="0.7">3. Solo Agent B</text>
+
+    <rect x="850" y="298" width="270" height="30" rx="4" fill="#FF6A00" opacity="0.07"/>
+    <circle cx="868" cy="313" r="7" fill="#FF6A00" opacity="0.55"/>
+    <text x="884" y="317" opacity="0.7">4. Brokerage C</text>
+
+    <rect x="850" y="334" width="270" height="30" rx="4" fill="#FF6A00" opacity="0.07"/>
+    <circle cx="868" cy="349" r="7" fill="#FF6A00" opacity="0.55"/>
+    <text x="884" y="353" opacity="0.7">5. Solo Agent D</text>
+  </g>
+
+  <text x="980" y="378" font-family="Courier New, monospace" font-size="9" fill="#e5e2e1" opacity="0.45" text-anchor="middle">3–5 NAMED PER QUERY</text>
+
+  <!-- Arrow: retriever → output -->
+  <line x1="735" y1="280" x2="830" y2="280" stroke="#FF6A00" stroke-width="2" stroke-opacity="0.75" marker-end="url(#tm-arrow)"/>
+
+  <!-- ===== BOTTOM TITLE BAR ===== -->
+  <line x1="60" y1="445" x2="1140" y2="445" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.35"/>
+
+  <text x="60" y="492" font-family="Space Grotesk, sans-serif" font-weight="900" font-size="38" fill="#e5e2e1" letter-spacing="-1.5">HOW TO RANK YOUR REAL ESTATE TEAM</text>
+  <text x="60" y="534" font-family="Space Grotesk, sans-serif" font-weight="900" font-size="38" fill="#FF6A00" letter-spacing="-1.5">ON CHATGPT</text>
+
+  <text x="60" y="575" font-family="Courier New, monospace" font-size="13" fill="#e5e2e1" opacity="0.55" letter-spacing="0.5">6 retriever signals · Team Citation Surface · 90-day Origin Protocol</text>
+
+  <!-- TAE mark -->
+  <g transform="translate(1020, 555)">
+    <rect x="0" y="0" width="120" height="34" rx="4" fill="#FF6A00" opacity="0.10" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="60" y="22" font-family="Space Grotesk, sans-serif" font-weight="900" font-size="12" fill="#FF6A00" text-anchor="middle" letter-spacing="1">THE ANSWER ENGINE</text>
+  </g>
+</svg>
