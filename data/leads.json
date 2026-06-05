@@ -3531,7 +3531,7 @@
     "reviewCount": null,
     "rating": null,
     "notes": "Inbound form submission 2026-04-08. This is a real estate agent/team in Palmdale CA (Antelope Valley). No website found. Search for real estate agents in Palmdale CA to find top competitors who ARE being cited by AI. The business has essentially zero web presence which IS the blind spot. Score should reflect what is missing, not return zeros. Even 1/10 on each pillar means they have minimal presence.",
-    "status": "follow_up_3",
+    "status": "follow_up_4",
     "source": "inbound",
     "research": {
       "reviewCount": 0,
@@ -3654,10 +3654,14 @@
       {
         "action": "follow_up_3 auto-sent via Gmail (19e13636abe39882)",
         "timestamp": "2026-05-10T19:35:16.931Z"
+      },
+      {
+        "action": "follow_up_4 send failed: Gmail not configured",
+        "timestamp": "2026-06-05T16:01:13.743Z"
       }
     ],
     "createdAt": "2026-04-08T17:31:21.215Z",
-    "updatedAt": "2026-05-10T19:35:16.931Z"
+    "updatedAt": "2026-06-05T16:01:13.908Z"
   },
   {
     "id": "lead_1775681943860_l6kcrj",
