@@ -626,5 +626,23 @@
       "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbiLkDNhUQUf2GEqPycXG\"}"
     ],
     "completedAt": "2026-06-04T14:00:52.336Z"
+  },
+  {
+    "id": "hunt_1780668046017_9cjr",
+    "startedAt": "2026-06-05T14:00:46.017Z",
+    "trigger": "cron_daily",
+    "vertical": "Electrician",
+    "metro": "Atlanta, GA",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [
+      "Pass 1 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbkEYjkXuzbN62J8qYCyB\"}",
+      "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbkEZ7soXBj3kXYfkXN54\"}"
+    ],
+    "completedAt": "2026-06-05T14:00:52.187Z"
   }
 ]
