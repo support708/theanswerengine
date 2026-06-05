@@ -3190,7 +3190,7 @@
     "reviewCount": 150,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 7 years serving LA, specializes in sports medicine, treats professional and Olympic athletes, first office with Tecar therapy in USA",
-    "status": "follow_up_3",
+    "status": "follow_up_4",
     "research": {
       "reviewCount": 150,
       "rating": 5,
@@ -3324,10 +3324,14 @@
       {
         "action": "follow_up_3 auto-sent via Gmail (19e13675978b0bb1)",
         "timestamp": "2026-05-10T19:39:52.288Z"
+      },
+      {
+        "action": "follow_up_4 send failed: Gmail not configured",
+        "timestamp": "2026-06-05T16:01:08.588Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-05-10T19:39:52.288Z",
+    "updatedAt": "2026-06-05T16:01:08.729Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 34.5,
     "huntPriority": "P2",
