@@ -337,7 +337,7 @@
     "reviewCount": 160,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. Pain signals: Family-owned since 1936 with 90 years experience; Excellent reviews but limited content marketing and AI-optimized website structure",
-    "status": "follow_up_3",
+    "status": "follow_up_4",
     "research": {
       "reviewCount": 160,
       "rating": 4.9,
@@ -461,10 +461,14 @@
       {
         "action": "follow_up_3 auto-sent via Gmail (19e13635fcb4dfd2)",
         "timestamp": "2026-05-10T19:35:16.931Z"
+      },
+      {
+        "action": "follow_up_4 auto-sent via Gmail (19e988399c8c5719)",
+        "timestamp": "2026-06-05T16:00:23.778Z"
       }
     ],
     "createdAt": "2026-03-08T04:28:02.786Z",
-    "updatedAt": "2026-05-10T19:35:16.931Z",
+    "updatedAt": "2026-06-05T16:00:23.966Z",
     "huntSource": "hunt_1772943739618_2vrc",
     "huntScore": 35.5,
     "huntPriority": "P1"
