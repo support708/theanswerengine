@@ -1,0 +1,100 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e16;stop-opacity:1" />
+      <stop offset="55%" style="stop-color:#131313;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1c1208;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F27D24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8533;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#F27D24;stop-opacity:0.45" />
+      <stop offset="60%" style="stop-color:#F27D24;stop-opacity:0.10" />
+      <stop offset="100%" style="stop-color:#F27D24;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#F27D24" stroke-width="0.5" opacity="0.07">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Central glow -->
+  <circle cx="850" cy="315" r="240" fill="url(#coreGlow)"/>
+
+  <!-- Source nodes on left feeding into central engine -->
+  <g opacity="0.85">
+    <circle cx="150" cy="140" r="6" fill="#F27D24"/>
+    <circle cx="120" cy="240" r="6" fill="#F27D24"/>
+    <circle cx="135" cy="340" r="6" fill="#F27D24"/>
+    <circle cx="110" cy="440" r="6" fill="#F27D24"/>
+    <circle cx="160" cy="510" r="6" fill="#F27D24"/>
+    <circle cx="240" cy="180" r="4" fill="#F27D24" opacity="0.7"/>
+    <circle cx="220" cy="390" r="4" fill="#F27D24" opacity="0.7"/>
+    <circle cx="260" cy="280" r="4" fill="#F27D24" opacity="0.6"/>
+    <circle cx="300" cy="460" r="4" fill="#F27D24" opacity="0.6"/>
+  </g>
+
+  <!-- Connection lines from sources into central node -->
+  <g stroke="#F27D24" stroke-width="1.25" fill="none" opacity="0.35">
+    <path d="M 150 140 Q 500 200 850 315"/>
+    <path d="M 120 240 Q 500 260 850 315"/>
+    <path d="M 135 340 Q 500 320 850 315"/>
+    <path d="M 110 440 Q 500 380 850 315"/>
+    <path d="M 160 510 Q 500 420 850 315"/>
+    <path d="M 240 180 Q 540 240 850 315" opacity="0.6"/>
+    <path d="M 220 390 Q 540 360 850 315" opacity="0.6"/>
+    <path d="M 260 280 Q 560 300 850 315" opacity="0.55"/>
+    <path d="M 300 460 Q 580 400 850 315" opacity="0.55"/>
+  </g>
+
+  <!-- Central answer engine core -->
+  <circle cx="850" cy="315" r="120" stroke="#F27D24" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <circle cx="850" cy="315" r="90" stroke="#F27D24" stroke-width="1.5" fill="none" opacity="0.75"/>
+  <circle cx="850" cy="315" r="60" stroke="url(#accentGradient)" stroke-width="2" fill="rgba(242,125,36,0.12)"/>
+  <circle cx="850" cy="315" r="22" fill="url(#accentGradient)"/>
+
+  <!-- Outgoing synthesis arrow -->
+  <g stroke="#F27D24" stroke-width="2" fill="none" opacity="0.85">
+    <path d="M 970 315 L 1095 315"/>
+    <path d="M 1080 300 L 1095 315 L 1080 330"/>
+  </g>
+
+  <!-- Output passages on far right -->
+  <g fill="#F27D24" opacity="0.5">
+    <rect x="1110" y="295" width="40" height="6" rx="1"/>
+    <rect x="1110" y="308" width="55" height="6" rx="1"/>
+    <rect x="1110" y="321" width="48" height="6" rx="1"/>
+    <rect x="1110" y="334" width="35" height="6" rx="1"/>
+  </g>
+
+  <!-- Engine label inside core -->
+  <text x="850" y="320" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#131313" text-anchor="middle">ENGINE</text>
+
+  <!-- Title block -->
+  <text x="80" y="100" font-family="Arial Black, Arial, sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" letter-spacing="-2">WHAT IS AN</text>
+  <text x="80" y="160" font-family="Arial Black, Arial, sans-serif" font-size="58" font-weight="900" fill="#F27D24" letter-spacing="-2">ANSWER ENGINE?</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="600" font-family="Courier New, monospace" font-size="14" font-weight="bold" fill="#F27D24" letter-spacing="2" opacity="0.9">THE ANSWER ENGINE  ·  AEO FOUNDATIONS</text>
+
+  <!-- Decorative scan lines on right edge -->
+  <g stroke="#F27D24" stroke-width="0.5" opacity="0.18">
+    <line x1="1050" y1="60" x2="1170" y2="60"/>
+    <line x1="1080" y1="80" x2="1170" y2="80"/>
+    <line x1="1110" y1="100" x2="1170" y2="100"/>
+  </g>
+</svg>

@@ -6154,5 +6154,32 @@
       "Answer Engine Optimization",
       "Origin Protocol"
     ]
+  },
+  {
+    "id": 292,
+    "title": "What Is an Answer Engine?",
+    "slug": "what-is-an-answer-engine",
+    "excerpt": "An answer engine is a generative AI system that synthesizes cited answers — ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews. The 2026 AEO definition, the mechanism, and what its rise means for businesses competing for inline citations.",
+    "category": "AEO Foundations",
+    "author": "Justin Borges",
+    "readTime": "13 min",
+    "image": "/blog/what-is-an-answer-engine.svg",
+    "publishDate": "2026-06-04",
+    "lastModified": "2026-06-04",
+    "featured": false,
+    "tags": [
+      "Answer Engine",
+      "AEO",
+      "Answer Engine Optimization",
+      "Generative AI Search",
+      "AI Citations",
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Gemini",
+      "Google AI Overviews",
+      "LLM Visibility",
+      "AEO Foundations"
+    ]
   }
 ]
