@@ -1,5 +1,32 @@
 [
   {
+    "id": 247,
+    "title": "How Perplexity AI Recommends Real Estate Agents (And the Freshness Trick That Works)",
+    "slug": "how-perplexity-ai-recommends-real-estate-agents",
+    "excerpt": "Perplexity AI weighs content recency more aggressively than any other major AI search surface. The retrieval-layer mechanics behind Perplexity real estate recommendations, the 14-day refresh cadence that captures the recency premium, and the operator method for agents who intend to own cited-source slots on every neighborhood query their market produces.",
+    "category": "Perplexity AEO",
+    "author": "Justin Borges",
+    "readTime": "18 min",
+    "image": "/blog/how-perplexity-ai-recommends-real-estate-agents.svg",
+    "publishDate": "2026-06-06",
+    "lastModified": "2026-06-06",
+    "featured": false,
+    "tags": [
+      "Perplexity AI",
+      "Perplexity Real Estate",
+      "Perplexity AEO",
+      "Real Estate AI Search",
+      "Content Freshness",
+      "Recency Decay Curve",
+      "14-Day Refresh Cadence",
+      "Authority Stack Lock",
+      "AEO for Realtors",
+      "Answer Engine Optimization",
+      "LLM Citation",
+      "Real Estate Agent Recommendations"
+    ]
+  },
+  {
     "id": 246,
     "title": "Personal Injury Law Firm AI Visibility Audit: The 90-Day Citation Share Diagnostic",
     "slug": "personal-injury-law-firm-ai-visibility-audit",
