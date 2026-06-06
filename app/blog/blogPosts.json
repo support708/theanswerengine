@@ -6382,5 +6382,32 @@
       "Neighborhood Entity Mesh",
       "Transaction Proof Schema"
     ]
+  },
+  {
+    "id": 300,
+    "title": "What Is an AEO Tool?",
+    "slug": "what-is-an-aeo-tool",
+    "excerpt": "A practitioner definition of an AEO tool — the four functional categories that matter in 2026, the research behind the structural-signal framework, and how The Answer Engine measures whether an AEO tool is actually working.",
+    "category": "AEO Strategy",
+    "author": "Justin Borges",
+    "readTime": "14 min",
+    "image": "/blog/what-is-an-aeo-tool.svg",
+    "publishDate": "2026-06-06",
+    "lastModified": "2026-06-06",
+    "featured": false,
+    "tags": [
+      "AEO Tool",
+      "Answer Engine Optimization",
+      "AEO Software",
+      "AI Citation Tool",
+      "LLM Visibility",
+      "Schema Validator",
+      "Citation Tracker",
+      "Chunk-Density Auditor",
+      "Proof Ledger",
+      "GEO Software",
+      "ChatGPT Citation",
+      "Perplexity Tracking"
+    ]
   }
 ]

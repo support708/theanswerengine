@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="60%" stop-color="#131313"/>
+      <stop offset="100%" stop-color="#1a0d05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#FF6A00" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orangeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6A00" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="600" cy="220" r="360" fill="url(#glow)"/>
+
+  <!-- Grid -->
+  <g opacity="0.16" stroke="#FF6A00" stroke-width="1" fill="none">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="100" y1="0" x2="100" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="500" y1="0" x2="500" y2="630"/>
+    <line x1="700" y1="0" x2="700" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1100" y1="0" x2="1100" y2="630"/>
+  </g>
+
+  <!-- Central instrument panel — the AEO tool concept -->
+  <g stroke="#FF6A00" stroke-width="2" fill="url(#panelGrad)">
+    <rect x="380" y="120" width="440" height="220" rx="3"/>
+  </g>
+
+  <!-- Inner panel — schema brackets, citation arrows, chart -->
+  <g stroke="#FF6A00" stroke-width="1.4" fill="none" opacity="0.85">
+    <!-- Schema-style bracket on left -->
+    <path d="M 420 165 L 410 165 L 410 295 L 420 295"/>
+    <path d="M 780 165 L 790 165 L 790 295 L 780 295"/>
+
+    <!-- Header row -->
+    <line x1="430" y1="155" x2="540" y2="155" stroke-width="2"/>
+    <circle cx="555" cy="155" r="3" fill="#FF6A00"/>
+    <circle cx="570" cy="155" r="3" fill="#FF6A00"/>
+    <circle cx="585" cy="155" r="3" fill="#FF6A00"/>
+
+    <!-- Mock chart -->
+    <polyline points="430,265 470,240 510,250 550,215 590,225 630,200 670,210 710,180 750,190 770,175"/>
+
+    <!-- Data rows -->
+    <line x1="430" y1="190" x2="600" y2="190" opacity="0.55"/>
+    <line x1="430" y1="208" x2="560" y2="208" opacity="0.45"/>
+    <line x1="620" y1="190" x2="770" y2="190" opacity="0.45"/>
+    <line x1="620" y1="208" x2="730" y2="208" opacity="0.35"/>
+
+    <!-- Bottom signal dots -->
+    <circle cx="445" cy="285" r="2.5" fill="#FF6A00"/>
+    <circle cx="475" cy="285" r="2.5" fill="#FF6A00"/>
+    <circle cx="505" cy="285" r="2.5" fill="#FF6A00"/>
+    <circle cx="535" cy="285" r="2.5" fill="#FF6A00"/>
+    <circle cx="565" cy="285" r="2.5" fill="#FF6A00"/>
+  </g>
+
+  <!-- Four small satellite panels — the four AEO categories -->
+  <g stroke="#FF6A00" stroke-width="1.3" fill="url(#panelGrad)" opacity="0.75">
+    <rect x="100" y="160" width="200" height="60" rx="2"/>
+    <rect x="100" y="240" width="200" height="60" rx="2"/>
+    <rect x="900" y="160" width="200" height="60" rx="2"/>
+    <rect x="900" y="240" width="200" height="60" rx="2"/>
+  </g>
+  <g stroke="#FF6A00" stroke-width="1" opacity="0.55" fill="none">
+    <line x1="115" y1="180" x2="280" y2="180"/>
+    <line x1="115" y1="200" x2="240" y2="200"/>
+    <line x1="115" y1="260" x2="280" y2="260"/>
+    <line x1="115" y1="280" x2="240" y2="280"/>
+    <line x1="915" y1="180" x2="1080" y2="180"/>
+    <line x1="915" y1="200" x2="1040" y2="200"/>
+    <line x1="915" y1="260" x2="1080" y2="260"/>
+    <line x1="915" y1="280" x2="1040" y2="280"/>
+  </g>
+
+  <!-- Connecting citation arrows from satellites to central panel -->
+  <g stroke="#FF6A00" stroke-width="1.2" opacity="0.55" fill="none">
+    <path d="M 300 190 L 380 190"/>
+    <path d="M 300 270 L 380 270"/>
+    <path d="M 900 190 L 820 190"/>
+    <path d="M 900 270 L 820 270"/>
+  </g>
+  <g fill="#FF6A00">
+    <polygon points="380,190 372,186 372,194"/>
+    <polygon points="380,270 372,266 372,274"/>
+    <polygon points="820,190 828,186 828,194"/>
+    <polygon points="820,270 828,266 828,274"/>
+  </g>
+
+  <!-- Horizontal divider -->
+  <line x1="120" y1="430" x2="1080" y2="430" stroke="url(#orangeLine)" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="120" y="495" font-family="Space Grotesk, Arial, sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" letter-spacing="-2">
+    WHAT IS AN AEO TOOL?
+  </text>
+  <text x="120" y="540" font-family="Space Grotesk, Arial, sans-serif" font-size="28" font-weight="700" fill="#FF6A00" letter-spacing="-1">
+    THE FOUR-CATEGORY OPERATOR DEFINITION
+  </text>
+  <text x="120" y="585" font-family="Courier New, monospace" font-size="14" font-weight="400" fill="#888888" letter-spacing="2">
+    THE ANSWER ENGINE · THEANSWERENGINE.AI
+  </text>
+</svg>
