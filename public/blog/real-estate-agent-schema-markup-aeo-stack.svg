@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Real Estate Agent Schema Markup: The AEO Stack That Gets You Cited by AI — The Answer Engine">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131313"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F27D24"/>
+      <stop offset="100%" stop-color="#cc5500"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F27D24" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#F27D24" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#F27D24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Ambient glow -->
+  <ellipse cx="950" cy="180" rx="520" ry="340" fill="url(#glow)"/>
+  <ellipse cx="180" cy="520" rx="380" ry="240" fill="url(#glow)" opacity="0.6"/>
+
+  <!-- Left side: title and brand -->
+  <g transform="translate(70,90)">
+    <!-- Section label -->
+    <rect x="0" y="0" width="220" height="28" fill="#F27D24" fill-opacity="0.12" stroke="#F27D24" stroke-opacity="0.5"/>
+    <text x="110" y="19" font-family="Courier New, monospace" font-size="11" font-weight="700" fill="#F27D24" text-anchor="middle" letter-spacing="2">REAL ESTATE AEO</text>
+
+    <!-- Headline -->
+    <text x="0" y="80" font-family="Space Grotesk, system-ui, sans-serif" font-size="46" font-weight="900" fill="#e5e2e1" letter-spacing="-1.5">REAL ESTATE AGENT</text>
+    <text x="0" y="134" font-family="Space Grotesk, system-ui, sans-serif" font-size="46" font-weight="900" fill="url(#orange)" letter-spacing="-1.5">SCHEMA MARKUP</text>
+    <text x="0" y="184" font-family="Space Grotesk, system-ui, sans-serif" font-size="22" font-weight="700" fill="#e5e2e1" letter-spacing="-0.5" opacity="0.85">THE AEO STACK THAT GETS</text>
+    <text x="0" y="214" font-family="Space Grotesk, system-ui, sans-serif" font-size="22" font-weight="700" fill="#e5e2e1" letter-spacing="-0.5" opacity="0.85">YOU CITED BY AI</text>
+
+    <!-- Divider -->
+    <line x1="0" y1="250" x2="540" y2="250" stroke="#F27D24" stroke-opacity="0.55" stroke-width="1.2"/>
+
+    <!-- Subhead -->
+    <text x="0" y="285" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="500" fill="#e5e2e1" opacity="0.7">The five-node schema stack that gets ChatGPT,</text>
+    <text x="0" y="308" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="500" fill="#e5e2e1" opacity="0.7">Perplexity, Claude, Gemini, and AI Overviews</text>
+    <text x="0" y="331" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="500" fill="#e5e2e1" opacity="0.7">to name your name when buyers are searching.</text>
+
+    <!-- Brand footer -->
+    <rect x="0" y="380" width="540" height="42" fill="#0f0f10" stroke="#F27D24" stroke-opacity="0.35"/>
+    <circle cx="22" cy="401" r="6" fill="#F27D24"/>
+    <text x="40" y="406" font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#F27D24" letter-spacing="2">THE ANSWER ENGINE</text>
+    <text x="530" y="406" font-family="Courier New, monospace" font-size="11" font-weight="700" fill="#e5e2e1" opacity="0.55" text-anchor="end" letter-spacing="1">THEANSWERENGINE.AI</text>
+  </g>
+
+  <!-- Right side: schema stack visualization panel -->
+  <g transform="translate(720,90)" opacity="0.96">
+    <!-- Panel container -->
+    <rect x="0" y="0" width="420" height="450" rx="14" fill="#0f0f10" stroke="#F27D24" stroke-width="1.5" stroke-opacity="0.65"/>
+
+    <!-- Header bar -->
+    <rect x="0" y="0" width="420" height="38" rx="14" fill="#F27D24" fill-opacity="0.12"/>
+    <rect x="0" y="22" width="420" height="16" fill="#F27D24" fill-opacity="0.12"/>
+    <circle cx="22" cy="19" r="6" fill="#F27D24"/>
+    <text x="38" y="24" font-family="Courier New, monospace" font-size="11" font-weight="700" fill="#F27D24" letter-spacing="1.5">AEO SCHEMA STACK</text>
+    <text x="394" y="24" font-family="Courier New, monospace" font-size="9" font-weight="700" fill="#F27D24" fill-opacity="0.55" text-anchor="end" letter-spacing="1">+51% CITATION LIFT</text>
+
+    <!-- Stack nodes -->
+    <!-- Node 1: RealEstateAgent -->
+    <g transform="translate(20,60)">
+      <rect x="0" y="0" width="380" height="62" fill="#F27D24" fill-opacity="0.10" stroke="#F27D24" stroke-opacity="0.7"/>
+      <text x="14" y="22" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#F27D24" letter-spacing="1.2">01 · IDENTITY ANCHOR</text>
+      <text x="14" y="44" font-family="Space Grotesk, system-ui, sans-serif" font-size="18" font-weight="900" fill="#e5e2e1" letter-spacing="-0.4">RealEstateAgent</text>
+      <text x="366" y="44" font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#F27D24" text-anchor="end">+51%</text>
+      <text x="14" y="58" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="400" fill="#e5e2e1" opacity="0.55">@id + sameAs: Zillow, DRE, NAR, brokerage</text>
+    </g>
+
+    <!-- Node 2: ResidenceListing -->
+    <g transform="translate(20,134)">
+      <rect x="0" y="0" width="380" height="62" fill="#F27D24" fill-opacity="0.08" stroke="#F27D24" stroke-opacity="0.55"/>
+      <text x="14" y="22" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#F27D24" letter-spacing="1.2">02 · LISTING TRIPLE LOCK</text>
+      <text x="14" y="44" font-family="Space Grotesk, system-ui, sans-serif" font-size="18" font-weight="900" fill="#e5e2e1" letter-spacing="-0.4">ResidenceListing + Product + Place</text>
+      <text x="366" y="44" font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#F27D24" text-anchor="end">+39%</text>
+      <text x="14" y="58" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="400" fill="#e5e2e1" opacity="0.55">listingId resolves across all three nodes</text>
+    </g>
+
+    <!-- Node 3: Place + GeoCoordinates -->
+    <g transform="translate(20,208)">
+      <rect x="0" y="0" width="380" height="62" fill="#F27D24" fill-opacity="0.08" stroke="#F27D24" stroke-opacity="0.55"/>
+      <text x="14" y="22" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#F27D24" letter-spacing="1.2">03 · NEIGHBORHOOD ENTITY MESH</text>
+      <text x="14" y="44" font-family="Space Grotesk, system-ui, sans-serif" font-size="18" font-weight="900" fill="#e5e2e1" letter-spacing="-0.4">Place + GeoCoordinates</text>
+      <text x="366" y="44" font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#F27D24" text-anchor="end">+44%</text>
+      <text x="14" y="58" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="400" fill="#e5e2e1" opacity="0.55">parentEntity: hood → city → county → state</text>
+    </g>
+
+    <!-- Node 4: RealEstateOrganization -->
+    <g transform="translate(20,282)">
+      <rect x="0" y="0" width="380" height="62" fill="#F27D24" fill-opacity="0.08" stroke="#F27D24" stroke-opacity="0.55"/>
+      <text x="14" y="22" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#F27D24" letter-spacing="1.2">04 · BROKERAGE RESOLUTION CHAIN</text>
+      <text x="14" y="44" font-family="Space Grotesk, system-ui, sans-serif" font-size="18" font-weight="900" fill="#e5e2e1" letter-spacing="-0.4">RealEstateOrganization</text>
+      <text x="366" y="44" font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#F27D24" text-anchor="end">89% verify</text>
+      <text x="14" y="58" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="400" fill="#e5e2e1" opacity="0.55">reciprocal worksFor + employee back-link</text>
+    </g>
+
+    <!-- Node 5: SoldListing -->
+    <g transform="translate(20,356)">
+      <rect x="0" y="0" width="380" height="62" fill="#F27D24" fill-opacity="0.10" stroke="#F27D24" stroke-opacity="0.7"/>
+      <text x="14" y="22" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#F27D24" letter-spacing="1.2">05 · TRANSACTION PROOF SCHEMA</text>
+      <text x="14" y="44" font-family="Space Grotesk, system-ui, sans-serif" font-size="18" font-weight="900" fill="#e5e2e1" letter-spacing="-0.4">SoldListing</text>
+      <text x="366" y="44" font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#F27D24" text-anchor="end">+33%</text>
+      <text x="14" y="58" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="400" fill="#e5e2e1" opacity="0.55">price + DOM + L:S ratio + close date</text>
+    </g>
+  </g>
+
+  <!-- Bottom citation badge -->
+  <g transform="translate(70,560)">
+    <text x="0" y="0" font-family="Courier New, monospace" font-size="11" font-weight="700" fill="#F27D24" opacity="0.85" letter-spacing="1.5">TAE SCHEMA DIAGNOSTIC · 130 SAMPLED AGENT SITES · MID-2026</text>
+  </g>
+</svg>
