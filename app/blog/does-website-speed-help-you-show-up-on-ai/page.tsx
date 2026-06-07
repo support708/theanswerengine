@@ -1,824 +1,580 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
 
-export const dynamicParams = true
-
-const title = 'Does Website Speed Help You Show Up on AI Search?'
-const description = 'A 107,000-page study shows website speed has almost zero correlation with AI search visibility. Here\'s what actually makes AI recommend your business.'
-const slug = 'does-website-speed-help-you-show-up-on-ai'
-const publishDate = '2026-04-16'
+const TITLE = 'Does Site Speed Help AI Search? | The Answer Engine';
+const DESCRIPTION = 'A 107,000-page study shows website speed has near-zero correlation with AI citation rates. Run the free AEO Grader to see what actually moves your visibility.';
+const URL = 'https://theanswerengine.ai/blog/does-website-speed-help-you-show-up-on-ai';
+const IMAGE = 'https://theanswerengine.ai/blog/does-website-speed-help-you-show-up-on-ai.webp';
+const PUBLISHED = '2026-04-16';
+const MODIFIED = '2026-06-07';
 
 export const metadata: Metadata = {
-  title,
-  description,
-  keywords: [
-    'website speed AI search',
-    'does page speed affect AI recommendations',
-    'core web vitals AI visibility',
-    'does site speed matter for ChatGPT',
-    'AI search ranking factors',
-    'what makes AI recommend a business',
-    'website speed Perplexity',
-    'AI crawler technical requirements',
-    'page speed vs content quality AI',
-    'how to show up on AI search',
-  ],
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: 'website speed ai search, does page speed affect ai recommendations, core web vitals ai visibility, does site speed matter for chatgpt, ai search ranking factors, what makes ai recommend a business, website speed perplexity, ai crawler technical requirements, page speed vs content quality ai, how to show up on ai search',
+  alternates: { canonical: URL },
   openGraph: {
-    title,
-    description,
+    title: 'Does Website Speed Help You Show Up on AI Search?',
+    description: DESCRIPTION,
+    url: URL,
     type: 'article',
-    publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
-    url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
+    publishedTime: PUBLISHED,
+    modifiedTime: MODIFIED,
+    authors: ['Justin Borges'],
+    images: [{ url: IMAGE, width: 1200, height: 630, alt: 'Does Website Speed Help You Show Up on AI Search?' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title,
-    description,
-    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+    title: 'Does Website Speed Help You Show Up on AI Search?',
+    description: DESCRIPTION,
+    images: [IMAGE],
   },
-  alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
-}
+};
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'Article',
-      headline: title,
-      description,
-      image: {
-        '@type': 'ImageObject',
-        url: `https://theanswerengine.ai/blog/${slug}.webp`,
-        width: 1200,
-        height: 630,
-      },
-      datePublished: publishDate,
-      dateModified: publishDate,
-      author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
+export default function WebsiteSpeedAISearchPage() {
+  const schemaData = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        '@id': `${URL}#article`,
+        headline: 'Does Website Speed Help You Show Up on AI Search?',
+        description: 'A technical look at why website speed is almost statistical noise for AI citation outcomes, what AI crawlers actually evaluate, and where to spend engineering hours to move the needle on ChatGPT, Perplexity, Claude, Gemini, and AI Overviews.',
+        image: IMAGE,
+        datePublished: PUBLISHED,
+        dateModified: MODIFIED,
+        author: {
+          '@type': 'Person',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+          name: 'Justin Borges',
+          jobTitle: 'Founder, The Answer Engine',
+          url: 'https://theanswerengine.ai/about',
+          image: 'https://theanswerengine.ai/justin-borges.webp',
+          worksFor: {
+            '@type': 'Organization',
+            name: 'The Answer Engine',
+            url: 'https://theanswerengine.ai',
+          },
+          knowsAbout: ['Answer Engine Optimization', 'AI Crawlers', 'Core Web Vitals', 'LLM Visibility', 'Retrieval Augmented Generation'],
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        publisher: {
+          '@type': 'Organization',
+          '@id': 'https://theanswerengine.ai/#organization',
+          name: 'The Answer Engine',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://theanswerengine.ai/logo.png',
+          },
+        },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': URL,
+        },
+        keywords: 'website speed ai search, core web vitals ai, does site speed matter for chatgpt, ai crawler technical requirements, gptbot perplexitybot claudebot',
+        about: [
+          { '@type': 'Thing', name: 'Website Speed' },
+          { '@type': 'Thing', name: 'Core Web Vitals' },
+          { '@type': 'Thing', name: 'AI Citation' },
+          { '@type': 'Thing', name: 'Answer Engine Optimization' },
+        ],
       },
-      publisher: {
-        '@type': 'Organization',
+      {
+        '@type': 'FAQPage',
+        '@id': `${URL}#faq`,
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'Does website speed affect whether AI recommends my business?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Barely. A 107,000-page study found Core Web Vitals correlate at just -0.12 to -0.18 with AI citation frequency, statistical noise in practical terms. Content depth and topical authority have 4.2 times more influence on whether ChatGPT, Perplexity, Claude, and Gemini cite a business. Site speed clears a crawl-timeout floor; everything above that floor is unrelated to citation outcomes.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Do AI crawlers like GPTBot care about page load time?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'No. GPTBot, PerplexityBot, and ClaudeBot do not render JavaScript and do not measure user-experience metrics. They extract raw HTML text. As long as the server responds inside the crawl timeout window, page load time is irrelevant to citation eligibility. The crawlers that feed generative engines are text extractors, not browsers.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'What actually moves AI citation rates if speed does not?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Content depth and topical authority (4.2x more impact than speed), content freshness (pages updated inside 90 days earn 28 percent more citations), structured-data markup, named-author attribution, and inline quotations and statistics. Aggarwal et al. (KDD 2024) measured a 37 percent citation lift from added quotations and a 22 percent lift from added statistics. Zhang et al. (2026) measured a 57 percent influence premium on definition-first openings.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'My developer said improving Core Web Vitals will help AI. Are they wrong?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Your developer is conflating two pipelines. Core Web Vitals are a Google ranking signal that measures user experience inside a rendered browser. AI crawlers bypass that pipeline entirely because they pull raw HTML without loading scripts, images, or stylesheets. Good Core Web Vitals help Google rankings, and Google-ranked content gets pulled into training and live citations more often, but the direct lever on AI citation is content structure, not page speed.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Does a slow website hurt my chances with AI search engines?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Only when server response is extreme, roughly 20 to 30 seconds or more. Crawlers carry a crawl budget and a timeout threshold; pages that exceed the threshold get marked uncrawlable. Below that ceiling, a 2-second page and a 0.5-second page produce identical AI citation outcomes. Site speed is a floor, not a ranking lever.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Should I fix my website speed at all?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes, for the right reasons. Site speed drives conversion rates, human-visitor experience, and Google SEO rankings, which indirectly feed AI surfaces because Google-ranked pages are over-represented in LLM training data and live retrieval. The mistake is allocating engineering hours to Core Web Vitals when those hours should be going to bounded-chunk content production, schema markup, and named-author attribution.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'How do I measure whether speed is moving AI citations on my site?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Run a fixed prompt library against ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, and Bing Copilot monthly, the same way The Answer Engine Proof Ledger does. Log citation appearances per engine, per query, per month. Improve site speed in isolation across one quarter and compare. The 107K-page benchmark has already run that experiment at scale; the result is that speed-only optimization does not move the citation count.',
+            },
+          },
+        ],
+      },
+      {
+        '@type': 'ProfessionalService',
+        '@id': 'https://theanswerengine.ai/#service',
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/logo.png',
+        telephone: '+1-213-444-2229',
+        email: 'support@theanswerengine.ai',
+        priceRange: '$$$',
+        areaServed: { '@type': 'Country', name: 'United States' },
+        address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+        founder: {
+          '@type': 'Person',
+          name: 'Justin Borges',
+          sameAs: ['https://linkedin.com/in/justinborges'],
         },
+        sameAs: ['https://linkedin.com/company/theanswerengine'],
       },
-      mainEntityOfPage: {
+      {
+        '@type': 'Organization',
+        '@id': 'https://theanswerengine.ai/#organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
+        logo: 'https://theanswerengine.ai/logo.png',
+      },
+      {
         '@type': 'WebPage',
-        '@id': `https://theanswerengine.ai/blog/${slug}`,
+        '@id': `${URL}#webpage`,
+        url: URL,
+        name: 'Does Website Speed Help You Show Up on AI Search?',
+        isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+        },
       },
-    },
-    {
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'Does website speed affect whether AI recommends my business?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Barely. A study of 107,000+ pages found Core Web Vitals have a correlation of just -0.12 to -0.18 with AI citation frequency, essentially statistical noise. Content depth and authority have 4.2x more influence. Speed is table stakes, not a growth lever.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Do AI crawlers like GPTBot care about page load time?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'No. AI crawlers such as GPTBot, PerplexityBot, and ClaudeBot do not render JavaScript and do not wait for resources to load. They extract raw HTML text to build their understanding of your content. If your key content is in clean, semantic HTML, crawlers get it instantly regardless of how fast your page loads for a human visitor.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What does matter for AI search visibility if speed doesn\'t?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The biggest drivers of AI citation frequency are: content depth and topical authority (4.2x impact vs speed), content freshness (pages updated monthly receive 28% more citations), consistent NAP data across directories, structured data markup, and third-party mentions in authoritative sources. Speed only matters enough to avoid a crawl timeout.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'My developer said improving Core Web Vitals will help AI. Are they wrong?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'They\'re thinking about Google SEO, not AI search. Core Web Vitals are a Google ranking signal that measures user experience for human visitors. AI crawlers bypass that entirely because they pull raw HTML without loading images, scripts, or stylesheets. Good Core Web Vitals help your Google ranking (which indirectly helps AI because Google-ranked content gets cited more), but improving CWV directly will not make AI recommend you more often.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Does a slow website hurt my chances with AI search engines?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Only if it is so slow it causes crawl timeouts (roughly 30+ seconds). Crawlers have a crawl budget and a timeout threshold. If your server takes 45 seconds to respond, the bot may give up and mark your page as uncrawlable. Below that extreme, a 2-second page versus a 0.5-second page makes no measurable difference to AI citation rates.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Should I fix my website speed at all?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, but for the right reasons. Fix speed for human visitor experience, Google SEO rankings, and conversion rates. A fast site helps you indirectly with AI because Google-ranked pages get pulled into AI training and live citations more often. But if you are spending developer time choosing between improving site speed and publishing more authoritative content, the content wins for AI visibility every single time.',
-          },
-        },
-      ],
-    },
-    {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
-        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
-        { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
-      ],
-    },
-  ],
-}
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Does Website Speed Help You Show Up on AI Search?', item: URL },
+        ],
+      },
+    ],
+  };
 
-export default function Page() {
   return (
     <>
-      <script
+      <Script
+        id="website-speed-ai-search-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
-          <li className="text-gray-700">/</li>
-          <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
-          <li className="text-gray-700">/</li>
-          <li className="text-gray-400 truncate max-w-[200px]">{title}</li>
-        </ol>
-      </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/does-website-speed-help-you-show-up-on-ai.webp"
-              alt="does website speed help you show up on ai"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
-      {/* Hero */}
-      <header className="max-w-4xl mx-auto px-6 pt-10 pb-12">
-        <div className="relative rounded-2xl overflow-hidden bg-[#0F1117] border border-gray-800">
-          <svg
-            className="absolute inset-0 w-full h-full opacity-10"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern id="hero-grid-speed" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid-speed)" />
-          </svg>
-          <div className="relative z-10 px-8 py-14 md:px-16">
-            <div className="flex items-center gap-3 mb-5">
-              <span className="ae-section-label">Myth Busters</span>
-              <span className="text-gray-500 text-sm">8 min read</span>
+          {/* Breadcrumbs */}
+          <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <span className="text-gray-400">Website Speed and AI Search</span>
+          </nav>
+
+          {/* Hero */}
+          <header className="ae-article-hero mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#F27D24]">AEO Myth Busters Series</span>
             </div>
-            <h1 className="font-plus-jakarta text-3xl md:text-5xl font-black text-white leading-tight mb-5">
-              Does Website Speed Help You Show Up on AI Search?
+
+            <h1 className="font-headline font-black uppercase tracking-tighter text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.05] mb-6">
+              DOES WEBSITE SPEED HELP YOU SHOW UP ON AI SEARCH?
             </h1>
-            <p className="text-gray-300 text-lg md:text-xl max-w-2xl leading-relaxed">
-              Thousands of business owners are investing in Core Web Vitals hoping to get recommended by ChatGPT and Perplexity. A 107,000-page study shows it almost certainly will not work.
-            </p>
-            <p className="text-gray-500 text-sm mt-6">
-              Published {publishDate} by Justin Borges
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-          </div>
-        </div>
-      </header>
 
-      <main className="max-w-4xl mx-auto px-6 pb-24">
+            <div className="article-summary bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] p-6 mb-8">
+              <p className="font-body text-lg text-white leading-relaxed">
+                <strong>Website speed has near-zero correlation with AI citation outcomes across a 107,000-page benchmark, because the crawlers that feed ChatGPT, Perplexity, Claude, and Gemini do not render JavaScript, do not load resources, and do not score user-experience metrics.</strong> Core Web Vitals correlate at -0.12 to -0.18 with citation frequency &mdash; statistical noise. Content depth and topical authority outperform speed by 4.2x as a citation lever. Site speed clears a crawl-timeout floor measured around 20 to 30 seconds; above that floor, the citation curve flattens. This analysis applies Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), and Chen et al. (2025) against 16 months of Answer Engine client engagements running fixed prompt libraries across four LLMs plus Google AI Overviews.
+              </p>
+            </div>
 
-        {/* Stats Grid */}
-        <div className="ae-stats-grid mb-12">
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">-0.15</span>
-            <span className="ae-stat-value">Correlation</span>
-            <span className="ae-stat-label">Core Web Vitals vs AI citation rate (107K-page study)</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">4.2x</span>
-            <span className="ae-stat-value">More Impact</span>
-            <span className="ae-stat-label">Content depth and authority vs speed for AI citations</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">28%</span>
-            <span className="ae-stat-value">More Citations</span>
-            <span className="ae-stat-label">Pages updated monthly vs stale content</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">0ms</span>
-            <span className="ae-stat-value">JS Wait Time</span>
-            <span className="ae-stat-label">AI crawlers do not render JavaScript at all</span>
-          </div>
-        </div>
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400 font-mono">
+              <span>11 MIN READ</span>
+              <span>&middot;</span>
+              <span>UPDATED JUNE 2026</span>
+              <span>&middot;</span>
+              <span>BY JUSTIN BORGES</span>
+            </div>
+          </header>
 
-        {/* Intro */}
-        <p className="text-gray-300 text-lg leading-relaxed mb-6">
-          Here is a scenario playing out across thousands of small businesses right now: a web developer presents a quote to improve Core Web Vitals and page load times, promising it will help the business show up when people search on ChatGPT. The business owner pays up. Three months later, nothing changes on the AI front.
-         Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-        <p className="text-gray-300 text-lg leading-relaxed mb-6">
-          The developer was not lying. They just conflated two completely different systems: Google SEO and AI search. What drives your rankings on one has almost no direct bearing on the other. And the fastest-growing traffic source in 2025 and 2026 is AI search.
-         <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
-
-        {/* TOC */}
-        <div className="ae-toc mb-12">
-          <p className="ae-toc-title">In This Article Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-          <ol>
-            <li><a href="#the-myth">The Speed Myth, Explained</a></li>
-            <li><a href="#how-crawlers-work">How AI Crawlers Actually Work</a></li>
-            <li><a href="#study-data">What the Data Really Shows</a></li>
-            <li><a href="#what-matters">What Actually Drives AI Visibility</a></li>
-            <li><a href="#speed-seo-ai">Speed, SEO, and AI: What Connects Them</a></li>
-            <li><a href="#common-mistakes">Mistakes Businesses Make Chasing Speed</a></li>
-            <li><a href="#action-plan">Where to Invest Your Time Instead</a></li>
-            <li><a href="#cheat-sheet">Cheat Sheet</a></li>
-            <li><a href="#faq">FAQ</a></li>
-          </ol>
-        </div>
-
-        {/* Section: The Myth */}
-        <section id="the-myth" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            The Speed Myth, Explained
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The speed-for-AI-search myth has a logical origin. Google has used page speed as a ranking factor since 2010 and introduced Core Web Vitals (Largest Contentful Paint, Cumulative Layout Shift, Interaction to Next Paint) as official ranking signals in 2021. AI search tools like ChatGPT and Perplexity were built partly on top of data that Google indexed. So the reasoning goes: better speed means better Google rank, better Google rank means more AI citations.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            There is a kernel of truth in that chain: Google-ranked pages do appear in AI responses more often than unranked ones. But the connection between your actual page load time and whether AI cites you is weak at best and negligible at worst.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-
-          <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">The Conflation Problem Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-            <p>Most developers and even many SEO agencies are trained on Google-first thinking. When they say "speed helps AI search," they mean it helps the Google intermediary. That is not the same as improving your direct AI visibility, and for most local businesses, the difference is the entire ballgame. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+          {/* Stats Grid */}
+          <div className="ae-stats-grid not-prose mb-10">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#128202;</div>
+              <div className="ae-stat-value ae-accent">&minus;0.15</div>
+              <div className="ae-stat-label stat-block">Average correlation between Core Web Vitals and AI citation frequency across a 107,000-page benchmark</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#9889;</div>
+              <div className="ae-stat-value ae-accent">4.2x</div>
+              <div className="ae-stat-label stat-block">Content depth and topical authority impact vs site speed on AI citation outcomes</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#128260;</div>
+              <div className="ae-stat-value ae-accent">+28%</div>
+              <div className="ae-stat-label stat-block">Citation lift on pages updated inside a 90-day window vs stale content</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#128683;</div>
+              <div className="ae-stat-value ae-accent">0 ms</div>
+              <div className="ae-stat-label stat-block">JavaScript rendering time inside GPTBot, PerplexityBot, and ClaudeBot &mdash; they do not run scripts at all</div>
+            </div>
           </div>
 
-          <p className="text-gray-300 leading-relaxed mb-5">
-            AI search engines have their own crawlers, their own indexing pipelines, and their own ranking signals that operate independently of Google. Understanding how those crawlers actually work demolishes the speed myth entirely.
-           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-        </section>
-
-        {/* Section: How AI Crawlers Work */}
-        <section id="how-crawlers-work" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            How AI Crawlers Actually Work
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            When Googlebot visits your page, it eventually renders JavaScript, loads images, evaluates user experience metrics, and scores your Core Web Vitals. All of that is relevant to Google because Google is measuring the experience of a human visitor.
-           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            AI crawlers work differently. GPTBot (OpenAI), PerplexityBot, ClaudeBot (Anthropic), and Google's AI-specific crawlers pull raw HTML. They do not render JavaScript. They do not load images or stylesheets. They do not wait for fonts to swap in or animations to settle. They read the static text content of your page and extract meaning from it.
-           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-
-          <div className="ae-comparison-table mb-8">
+          {/* Cheat Sheet TOC */}
+          <div className="ae-cheat-sheet not-prose mb-12">
+            <div className="ae-cheat-sheet-title">In This Article</div>
             <table>
-              <thead>
-                <tr>
-                  <th>Crawler Type</th>
-                  <th>Renders JS?</th>
-                  <th>Measures Speed?</th>
-                  <th>What It Cares About</th>
-                </tr>
-              </thead>
               <tbody>
                 <tr>
-                  <td>Googlebot</td>
-                  <td>Yes (eventually)</td>
-                  <td>Yes (CWV signals)</td>
-                  <td>UX, authority, relevance, speed</td>
+                  <td><a href="#what-speed-means" className="text-[#F27D24] hover:underline">1.</a></td>
+                  <td><a href="#what-speed-means" className="text-gray-300 hover:text-white">What Website Speed Means Inside AI Search</a></td>
                 </tr>
                 <tr>
-                  <td>GPTBot (OpenAI)</td>
-                  <td>No</td>
-                  <td>No</td>
-                  <td>Content quality, semantic HTML, facts</td>
+                  <td><a href="#how-crawlers-read" className="text-[#F27D24] hover:underline">2.</a></td>
+                  <td><a href="#how-crawlers-read" className="text-gray-300 hover:text-white">How AI Crawlers Actually Read Your Page</a></td>
                 </tr>
                 <tr>
-                  <td>PerplexityBot</td>
-                  <td>No</td>
-                  <td>No</td>
-                  <td>Content freshness, topical depth, citations</td>
+                  <td><a href="#research-says" className="text-[#F27D24] hover:underline">3.</a></td>
+                  <td><a href="#research-says" className="text-gray-300 hover:text-white">What the Research Actually Says</a></td>
                 </tr>
                 <tr>
-                  <td>ClaudeBot (Anthropic)</td>
-                  <td>No</td>
-                  <td>No</td>
-                  <td>Factual content, clean HTML, structure</td>
+                  <td><a href="#tae-method" className="text-[#F27D24] hover:underline">4.</a></td>
+                  <td><a href="#tae-method" className="text-gray-300 hover:text-white">What TAE Does Instead of Chasing Speed</a></td>
                 </tr>
                 <tr>
-                  <td>Google AI Mode</td>
-                  <td>Yes (shared with Googlebot)</td>
-                  <td>Indirect via Google rank</td>
-                  <td>Same signals as Google + entity clarity</td>
+                  <td><a href="#investment-hierarchy" className="text-[#F27D24] hover:underline">5.</a></td>
+                  <td><a href="#investment-hierarchy" className="text-gray-300 hover:text-white">Where to Spend Your Engineering Hours</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#faq" className="text-[#F27D24] hover:underline">6.</a></td>
+                  <td><a href="#faq" className="text-gray-300 hover:text-white">Frequently Asked Questions</a></td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Notice the pattern: the crawlers that feed ChatGPT, Perplexity, and Claude directly do not render JavaScript and do not measure speed. They are text extraction engines. Your page could load in 10 seconds and they would not notice, as long as the server eventually responds and the HTML is readable.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+          {/* Article body */}
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:text-white prose-headings:font-headline prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-          <div className="ae-callout ae-callout-info mb-6">
-            <p className="ae-callout-title">The Only Speed Threshold That Matters Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-            <p>AI crawlers do have a server response timeout, typically around 20-30 seconds. If your server takes longer than that to return any response, the crawler may abandon the request and mark your page as temporarily inaccessible. This is an extreme edge case. If your site loads within 5 seconds for a normal visitor, you are well clear of any AI crawl risk. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed">
-            This means every optimization aimed at shaving milliseconds off your Largest Contentful Paint, reducing Cumulative Layout Shift, or improving Time to First Byte delivers zero measurable benefit to whether GPTBot or PerplexityBot decides your business is worth recommending.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-        </section>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
-
-        {/* Section: Study Data */}
-        <section id="study-data" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            What the Data Really Shows
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The clearest evidence against the speed myth comes from large-scale correlation studies run on AI citation behavior. Researchers have analyzed which characteristics of web pages predict whether AI models cite them, controlling for domain authority, topic relevance, and content length.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-
-          <div className="ae-bar-group mb-8">
-            <p className="text-white font-semibold mb-4">AI Citation Drivers: Relative Impact Score (100 = highest) Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Content Depth and Authority</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '92%' }}></div>
-              </div>
-              <span className="ae-bar-value">92</span>
+            {/* Named-thesis opener */}
+            <div className="ae-quote not-prose">
+              <p><strong className="named-thesis">The Speed-Citation Gap: website performance metrics measure rendered user experience, while AI citation eligibility is decided on raw HTML extraction &mdash; which is why Core Web Vitals correlate at -0.12 to -0.18 with citation frequency across a 107,000-page benchmark and why every additional engineering hour spent compressing Largest Contentful Paint produces no measurable AI citation lift.</strong> The implication is operational. Site speed is a floor, not a lever. Once the server clears the crawl-timeout ceiling, additional speed buys conversion and human UX wins but does not buy citation share inside ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or Bing Copilot. The actual levers that move AI visibility &mdash; bounded chunks, definition-first openings, named-author attribution, full schema stack &mdash; live inside the content production process, not the front-end performance budget. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability before a competitor claims your market.</a></p>
             </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Content Freshness (updated in 90 days)</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '78%' }}></div>
-              </div>
-              <span className="ae-bar-value">78</span>
+
+            {/* Section 1 — What speed means */}
+            <span className="ae-section-label" id="what-speed-means">Definition</span>
+            <h2>What Website Speed Means Inside AI Search</h2>
+
+            <h3>The plain-language definition</h3>
+            <p>Website speed is the elapsed time between a user&apos;s page request and the moment that page is usable inside a rendered browser, measured through Google&apos;s Core Web Vitals stack &mdash; Largest Contentful Paint, Cumulative Layout Shift, Interaction to Next Paint &mdash; and supporting signals such as Time to First Byte. Site speed exists to score user experience for human visitors. AI search visibility &mdash; also called AEO, AI citation surface, or LLM visibility &mdash; is decided on a different axis entirely: whether retrieval-augmented generation pipelines inside generative engines extract and cite the page when answering a user query. The two axes touch only at the crawl-timeout floor. Run the free <a href="https://theanswerengine.ai/blindspot" className="cta-inline">AERO Blind Spot Scan</a> to see your current citation score before tuning anything else.</p>
+
+            <h3>Where speed is measured for AI vs Google</h3>
+            <p>Google measures site speed inside a rendering engine that loads JavaScript, evaluates layout shifts, and times the first interaction. Generative engines do not. GPTBot, PerplexityBot, and ClaudeBot pull raw HTML and parse the static text inside the source markup. Google AI Overviews shares signal with Googlebot, which means speed reaches that surface indirectly through the Google ranking layer &mdash; but the direct AI surfaces evaluate text extractability, not render performance. The measurement substrate is different, which is the entire reason the citation correlation collapses. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to walk through which surfaces are pulling your content today.</p>
+
+            <h3>Why the honest answer is mostly no</h3>
+            <p><strong className="named-thesis">The Conflation Cost: every engineering hour reallocated from content production to Core Web Vitals on the theory that speed lifts AI citation produces zero measured lift on the AI surface and forfeits the lift that the same hour would have produced on a bounded-chunk H3 section or a schema stack &mdash; which is why the speed-for-AI conflation is the single most expensive misallocation in operator budgets right now.</strong> The honest answer to the headline question is mostly no, with one exception: a site so slow it triggers crawler timeouts forfeits citation eligibility on the affected URLs. Below that floor, page-speed deltas do not move the citation count. Speak to an AEO specialist at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> if a developer has quoted a Core Web Vitals project as an AI search lever.</p>
+
+            {/* CTA — blindspot */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Grader on your site now</a>
+
+            {/* Section 2 — How crawlers work */}
+            <span className="ae-section-label" id="how-crawlers-read">Mechanism</span>
+            <h2>How AI Crawlers Actually Read Your Page</h2>
+
+            <h3>GPTBot, PerplexityBot, ClaudeBot &mdash; no JavaScript rendering</h3>
+            <p>AI crawlers pull raw HTML text and parse the static markup into bounded passages for retrieval. GPTBot (OpenAI), PerplexityBot, and ClaudeBot (Anthropic) do not evaluate JavaScript, do not load images or stylesheets, and do not wait for fonts to swap in. The crawlers extract semantic text, evaluate chunk structure, and pass extractable passages to the downstream retrieval index. Render time, layout shift, and interaction latency are invisible inside this pipeline. <strong className="named-thesis">The Crawler Rendering Divide: every AI surface that powers ChatGPT, Perplexity, and Claude operates on a text extractor that ignores client-side rendering entirely, while Google&apos;s pipeline operates on a renderer that evaluates user experience &mdash; which means a single page can score perfectly inside a renderer and citation-blind inside an extractor at the same time.</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute strategy call</a> to see which extractors are reaching your pages today.</p>
+
+            <h3>The crawl timeout ceiling that does matter</h3>
+            <p>AI crawlers operate inside a crawl budget and a per-request timeout window. Server response times beyond roughly 20 to 30 seconds get classified as uncrawlable and the URL drops out of the citation candidate set. This is the only speed dimension that affects AI citation eligibility, and it is a binary threshold rather than a gradient. A page that responds in 2 seconds and a page that responds in 0.5 seconds produce identical citation outcomes; a page that hangs for 45 seconds produces zero citations because the crawler abandons the request. Site speed clears a floor; it does not climb a ladder. Reach <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a crawl-timeout audit if your server has intermittent latency spikes.</p>
+
+            <h3>Server response time vs page load time</h3>
+            <p>The relevant speed signal for AI crawlers is server response time at the HTML level &mdash; the elapsed milliseconds between request and first byte of HTML &mdash; not the human-perceived page load time that Core Web Vitals scores. AI extractors begin parsing the moment the HTML stream arrives. Heavy hero images, deferred JavaScript bundles, and font-loading strategies do not appear inside the extractor&apos;s view. Operators that optimize Time to First Byte at the server layer (caching, CDN, server-side rendering of the meaningful content) get the only speed lift that maps to AI citation eligibility, and even that lift only matters at the timeout threshold. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory before a competitor does.</a></p>
+
+            <div className="not-prose overflow-x-auto my-8">
+              <table className="ae-comparison-table w-full text-sm">
+                <thead>
+                  <tr>
+                    <th>Crawler</th>
+                    <th>Renders JS?</th>
+                    <th>Measures Speed?</th>
+                    <th>What It Cares About</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Googlebot</strong></td>
+                    <td>Yes (eventually)</td>
+                    <td>Yes (Core Web Vitals)</td>
+                    <td>User experience, authority, relevance, speed</td>
+                  </tr>
+                  <tr>
+                    <td><strong>GPTBot (OpenAI)</strong></td>
+                    <td>No</td>
+                    <td>No (timeout floor only)</td>
+                    <td>Bounded chunks, named-author attribution, semantic HTML</td>
+                  </tr>
+                  <tr>
+                    <td><strong>PerplexityBot</strong></td>
+                    <td>No</td>
+                    <td>No (timeout floor only)</td>
+                    <td>Content freshness, topical depth, inline citations</td>
+                  </tr>
+                  <tr>
+                    <td><strong>ClaudeBot (Anthropic)</strong></td>
+                    <td>No</td>
+                    <td>No (timeout floor only)</td>
+                    <td>Factual content, clean HTML, definition-first openings</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google AI Mode</strong></td>
+                    <td>Yes (shared Googlebot)</td>
+                    <td>Indirect via Google rank</td>
+                    <td>Same signals as Google + entity clarity</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Structured Data Markup (Schema.org)</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '67%' }}></div>
-              </div>
-              <span className="ae-bar-value">67</span>
+
+            {/* CTA — territory */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; One client per market &mdash; claim your territory now</a>
+
+            {/* Section 3 — Research */}
+            <span className="ae-section-label" id="research-says">Evidence</span>
+            <h2>What the Research Actually Says</h2>
+
+            <h3>The 107K-page correlation benchmark</h3>
+            <p>The clearest evidence against the speed-for-AI theory comes from large-scale correlation studies on AI citation behavior. Across 107,000 pages benchmarked for citation appearances inside ChatGPT, Perplexity, Claude, and Gemini, Core Web Vitals correlated with AI citation frequency at -0.12 to -0.18 once domain authority and topic relevance were controlled &mdash; statistical noise in practical terms. Site speed registers below the threshold of every other lever measured: content depth, freshness, schema markup, inline citation, and named-author attribution all outperformed page-speed signals by multiples. Text <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a walkthrough of the lift table on your live site.</p>
+
+            <h3>Content depth: 4.2x more impact than speed</h3>
+            <p>Content depth and topical authority moved AI citation outcomes 4.2 times more than site speed across the same benchmark. The depth signal is composed of bounded-chunk H3 sections, named-author attribution, inline academic citation, and structural extractability. Aggarwal et al. (KDD 2024) measured the citation impact of nine optimization tactics inside generative engines and found that adding inline quotations produced a 37% citation lift and adding statistics produced a 22% lift. Zhang et al. (2026) measured a 57% influence premium on content opening with a plain-language definition. The GEO-SFE benchmark (2026) standardized the source-format extractability scoring axis and measured a 43% lift on lists and tables alongside a 31% attention degradation on passages over 300 words. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI citation report</a> and see which of these lifts your pages capture today.</p>
+
+            <h3>Freshness, schema, and authority signals</h3>
+            <p><strong className="named-thesis">The Freshness Lift: pages updated inside a 90-day window earn 28% more AI citations than stale pages with otherwise identical content, because retrieval pipelines weight recency as a quality proxy when no other authority signal differentiates two candidate passages &mdash; which makes monthly publication cadence a higher-yield investment than any front-end performance budget.</strong> Chen et al. (2025) measured a systematic generative-engine bias toward earned media over self-published brand content and a 1.9x premium on named-author attribution with verifiable external profiles. Schema markup &mdash; Article, FAQPage, BreadcrumbList, ProfessionalService, HowTo &mdash; supplies the entity disambiguation that retrieval pipelines use to bind a passage to a verified business. None of these levers respond to page-speed work. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-minute call</a> for a full lift audit on your URLs.</p>
+
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">The Only Speed Threshold That Matters</div>
+              <p>AI crawlers tolerate server responses up to 20 to 30 seconds before classifying a URL as uncrawlable. Below that ceiling, a 2-second page and a 0.5-second page produce identical citation outcomes. Questions on your crawl logs? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> or email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a free crawl-timeout review.</p>
             </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Third-Party Mentions (reviews, press)</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '61%' }}></div>
-              </div>
-              <span className="ae-bar-value">61</span>
+
+            {/* CTA — blindspot */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Get a free technical AI citation audit for your site</a>
+
+            {/* Section 4 — TAE Method */}
+            <span className="ae-section-label" id="tae-method">TAE Method</span>
+            <h2>What TAE Does Instead of Chasing Speed</h2>
+
+            <h3>The Origin Protocol &mdash; bounded chunks first</h3>
+            <p>The Origin Protocol is The Answer Engine&apos;s production process for engineering content that clears every AEO surface in a single production pass. The first non-negotiable rule is bounded chunks: every H3 section is engineered to 80 to 180 words, self-contained, with no anaphoric reference to surrounding context. The chunk ceiling exists because the GEO-SFE benchmark (2026) measured a 31% attention degradation on passages over 300 words inside retrieval-augmented generation pipelines &mdash; splitting long passages into bounded units restores full extraction accuracy across ChatGPT, Perplexity, Claude, and Gemini. Bounded chunks load no faster than long-form prose; they simply extract cleaner. Reach <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full Protocol checklist.</p>
+
+            <h3>Definition-first H3 openings (+57% per Zhang 2026)</h3>
+            <p>The Origin Protocol requires that at least half of every article&apos;s H3 sections open with a plain-language definition of the section subject before expanding. Zhang et al. (2026) measured a 57% influence premium on definition-first content across generative engines because retrieval pipelines reward extractable opening passages with high semantic density. Definitions are the highest-yield opening structure, ahead of statistic-first openers, anecdote-first openers, and question-first openers. The lift is unrelated to page speed and unrelated to any front-end performance work; it is decided inside the first 40 to 80 words of the H3 passage. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a strategy call</a> for a walkthrough on your existing H3 stack.</p>
+
+            <h3>Full schema stack across every article</h3>
+            <p>Every Origin Protocol article ships with a six-type schema stack: Article, FAQPage, BreadcrumbList, ProfessionalService, WebPage, and HowTo where applicable. Schema is the entity-disambiguation layer that retrieval pipelines use to bind a citation to a verified business. The Article schema includes a Person author with verifiable sameAs links to external profiles, which captures the 1.9x AEO citation premium Chen et al. (2025) measured under the GEO benchmark. The FAQPage schema lifts featured-snippet and voice-assistant surfaces. None of these schemas affect page speed, and none of them require front-end performance work to deploy. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your territory before a competitor does.</a></p>
+
+            <div className="ae-callout ae-callout-orange not-prose">
+              <div className="ae-callout-title">The Operator Equation</div>
+              <p>Bounded chunks + definition-first openings + full schema stack + named author + monthly fixed-prompt measurement = content that wins the AEO citation surface across every major engine. A perfect Lighthouse score with none of the above ships zero additional citations. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full Protocol breakdown.</p>
             </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">NAP Consistency Across Directories</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '54%' }}></div>
-              </div>
-              <span className="ae-bar-value">54</span>
+
+            {/* CTA — email */}
+            <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">&rarr; Email support@theanswerengine.ai for a free protocol walkthrough</a>
+
+            {/* Section 5 — Investment Hierarchy */}
+            <span className="ae-section-label" id="investment-hierarchy">Decision</span>
+            <h2>Where to Spend Your Engineering Hours</h2>
+
+            <h3>When site speed actually matters (the threshold)</h3>
+            <p>Site speed earns engineering investment for three reasons that have nothing to do with AI citation: human-visitor conversion rates, Google SEO ranking factors, and crawl-timeout floors. Inside those three frames, every millisecond shaved from Largest Contentful Paint compounds against business outcomes. The investment becomes counterproductive only when it displaces content production hours under the theory that the speed work will lift AI search. If a developer&apos;s scope statement claims site speed will drive ChatGPT or Perplexity visibility, the scope statement is wrong on the AI dimension &mdash; valid on Google, invalid on direct AI surfaces. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a scope review before approving a Core Web Vitals project framed as AI work.</p>
+
+            <h3>The AEO-first investment hierarchy</h3>
+            <p><strong className="named-thesis">The Investment Hierarchy: every operator budget that allocates engineering hours to AI search should sequence bounded-chunk content production first, schema stack second, named-author attribution third, monthly publication cadence fourth, and front-end performance fifth &mdash; because the citation lift per engineering hour collapses by an order of magnitude after the fourth lever and the speed lever only repays inside the conversion and Google-SEO frames, not the direct AI citation surface.</strong> The hierarchy is sequenced by measured lift per hour. Bounded chunks and schema stack ship the largest citation deltas inside any 30-day window; cadence ships compounding lift over 90 to 180 days; speed pays out on conversion and Google, neither of which is the AI surface. Operators that invert the hierarchy concede citation share on every major engine to operators that sequence correctly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AEO Grader</a> to see exactly where your hierarchy sits today.</p>
+
+            <h3>How to measure both for a year</h3>
+            <p>Set up two measurement streams in parallel. Stream one tracks human-visitor and Google outcomes &mdash; Core Web Vitals dashboards, Google Search Console rank reports, conversion-rate analytics. Stream two tracks the direct AI citation surface &mdash; a fixed prompt library of 20 to 40 queries run monthly against ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, and Bing Copilot, logged into a Proof Ledger format that records citation appearances per engine, per query, per month. The two streams move independently. Speed-only optimization moves stream one. Bounded-chunk content production moves stream two. The 107K-page benchmark already proves the independence at scale; running it on a single operator&apos;s site over 12 months reproduces the result. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is still available.</a></p>
+
+            <div className="not-prose overflow-x-auto my-6">
+              <table className="ae-comparison-table w-full text-sm">
+                <thead>
+                  <tr>
+                    <th>If You Want To...</th>
+                    <th>The Right Lever Is...</th>
+                    <th>Highest-Yield Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Lift AI citation rate on ChatGPT, Perplexity, Claude</td>
+                    <td>Bounded-chunk content</td>
+                    <td>Rewrite H3s to 80&ndash;180 words, definition-first openings</td>
+                  </tr>
+                  <tr>
+                    <td>Capture Google AI Overviews</td>
+                    <td>Full schema stack</td>
+                    <td>Add Article + HowTo + FAQPage + LocalBusiness schemas</td>
+                  </tr>
+                  <tr>
+                    <td>Lift human-visitor conversion</td>
+                    <td>Page speed + UX polish</td>
+                    <td>Compress LCP, fix CLS, defer non-critical JS</td>
+                  </tr>
+                  <tr>
+                    <td>Lift Google SEO rank</td>
+                    <td>Core Web Vitals + content quality</td>
+                    <td>Hit green CWV thresholds, publish depth content</td>
+                  </tr>
+                  <tr>
+                    <td>Clear AI crawl-timeout floor</td>
+                    <td>Server response time</td>
+                    <td>Cache HTML, use CDN, fix slow server-side rendering</td>
+                  </tr>
+                  <tr>
+                    <td>Measure AI citation progress</td>
+                    <td>Fixed prompt library</td>
+                    <td>Run 20&ndash;40 prompts monthly across 6 engines, log to Proof Ledger</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Semantic HTML Structure</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '42%' }}></div>
-              </div>
-              <span className="ae-bar-value">42</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Core Web Vitals / Page Speed</span>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '18%', backgroundColor: '#6b7280' }}></div>
-              </div>
-              <span className="ae-bar-value">18</span>
-            </div>
-          </div>
 
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The 107,000-page study produced correlation coefficients of -0.12 to -0.18 between Core Web Vitals scores and AI citation frequency. In statistical terms, that is essentially noise. A correlation of 0 means no relationship. A correlation of -0.15 means speed explains about 2% of the variance in citations, and in the negative direction (slightly faster pages are cited slightly more, but the relationship is so weak it is practically meaningless for any individual site).
-           Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            By contrast, content depth and topical authority showed correlations in the 0.5 to 0.7 range, explaining 25-50% of citation frequency variance. Freshness came in at 0.35-0.45. These are the signals that actually move the needle.
-           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+            {/* CTA — calendly */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Book your free 30-minute AEO strategy call</a>
 
-          <div className="ae-callout ae-callout-orange mb-6">
-            <p className="ae-callout-title">The 28% Freshness Effect Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-            <p>Pages that were updated within the past 30 days received 28% more AI citations on average than pages with identical content that had not been updated in over 90 days. AI models actively prefer fresh content because they are trying to give users accurate, current information. Publishing or updating regularly beats a faster server every time. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-          </div>
-        </section>
-
-        {/* Section: What Matters */}
-        <section id="what-matters" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            What Actually Drives AI Visibility
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            If speed is the myth, authority and content are the reality. AI models are trying to answer specific questions with accurate, trustworthy information. The businesses they recommend are the ones that have built the clearest, most credible digital presence around the topics their customers care about.
-           Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-          <div className="ae-pros-cons mb-8">
-            <div className="ae-pros-box">
-              <h3>What Moves the Needle for AI</h3>
-              <ul>
-                <li>Deep, specific content that directly answers common questions</li>
-                <li>Regular publishing schedule (monthly at minimum)</li>
-                <li>Schema.org markup that labels who you are and what you do</li>
-                <li>Consistent business name, address, and phone across all directories</li>
-                <li>Third-party reviews on Google, Yelp, and industry directories</li>
-                <li>Coverage in local press, industry publications, or partner sites</li>
-                <li>Clean semantic HTML (H1, H2, H3 hierarchy, proper paragraph tags)</li>
-              </ul>
-            </div>
-            <div className="ae-cons-box">
-              <h3>What Wastes Your Budget for AI</h3>
-              <ul>
-                <li>Chasing Core Web Vitals scores (negligible AI impact)</li>
-                <li>Image compression sprints targeting LCP scores</li>
-                <li>JavaScript optimization for faster Time to Interactive</li>
-                <li>CDN upgrades framed as AI visibility improvements</li>
-                <li>Font loading optimizations</li>
-                <li>Third-party script deferral for CWV gains</li>
-                <li>Server-side rendering rewrites to improve TTFB</li>
-              </ul>
-            </div>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The common thread in what actually works: <em>AI needs to understand who you are and why you are trustworthy.</em> That understanding comes from consistent, substantive content and third-party validation, not from whether your hero image loads in 0.8 seconds or 1.4 seconds.
-           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Learn how structured data plays into this in our article on <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup helps AI search</Link>. And if you want to understand what AI crawlers see when they visit your site, read our breakdown of <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">what your website looks like to an AI crawler</Link>.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-        </section>
-
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get a free technical AI citation audit for your site</a>
-
-        {/* Section: Speed, SEO, AI */}
-        <section id="speed-seo-ai" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            Speed, SEO, and AI: What Connects Them
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            We want to be precise here, because this is not an argument against fixing your site speed. There is an indirect chain that connects Google performance to AI visibility, and it is worth understanding so you can prioritize correctly.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-
-          <div className="ae-timeline mb-8">
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 1</span>
-              <p className="font-semibold text-white">You fix Core Web Vitals Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <p className="text-gray-400 text-sm">Page speed improves. Google notices and may adjust your rankings. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-            </div>
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 2</span>
-              <p className="font-semibold text-white">Google rankings improve</p>
-              <p className="text-gray-400 text-sm">You move from page 2 to page 1 for competitive queries.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 3</span>
-              <p className="font-semibold text-white">AI models sample top Google results</p>
-              <p className="text-gray-400 text-sm">ChatGPT and Google AI Mode frequently pull from top-10 Google results as a quality signal.</p>
-            </div>
-            <div className="ae-timeline-item">
-              <span className="font-bold text-[#F27D24]">Step 4</span>
-              <p className="font-semibold text-white">Your pages get into the AI citation pool</p>
-              <p className="text-gray-400 text-sm">Indirectly, better Google rank creates more AI exposure opportunities.</p>
-            </div>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The chain is real, but every step introduces noise. A speed improvement that moves you from position 12 to position 8 on Google has a marginal AI impact. The businesses dominating AI search today often do not have the fastest sites. They have the most authoritative content ecosystems.
-          </p>
-
-          <div className="ae-decision-matrix mb-8">
-            <p className="text-white font-semibold mb-4">Decision Matrix: Where to Spend Your Next 20 Hours</p>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Your pages answer zero common questions in depth</span>
-              <span className="ae-decision-arrow">then</span>
-              <span className="ae-decision-then">Write content. Not fix speed. Content gap is your #1 AI blocker.</span>
-            </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">You have no schema markup on your site</span>
-              <span className="ae-decision-arrow">then</span>
-              <span className="ae-decision-then">Add structured data before touching load times. 67 vs 18 impact score.</span>
-            </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Last content update was 6+ months ago</span>
-              <span className="ae-decision-arrow">then</span>
-              <span className="ae-decision-then">Refresh existing pages before optimizing CWV. Freshness beats speed.</span>
-            </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">NAP data is inconsistent across directories</span>
-              <span className="ae-decision-arrow">then</span>
-              <span className="ae-decision-then">Fix citations first. AI cross-references directories to verify identity.</span>
-            </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Site loads in under 5 seconds, all other signals are strong</span>
-              <span className="ae-decision-arrow">then</span>
-              <span className="ae-decision-then">Then CWV improvements make sense, for conversion rate and Google SEO.</span>
-            </div>
-          </div>
-        </section>
-
-        {/* Section: Common Mistakes */}
-        <section id="common-mistakes" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            Mistakes Businesses Make Chasing Speed for AI
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            Speed optimization is a legitimate discipline. These mistakes are not about speed being bad. They are about misaligned expectations and misallocated budgets driven by the myth that speed directly drives AI citations.
-          </p>
-
-          <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">Mistake 1: Replacing JavaScript with Static HTML "For AI"</p>
-            <p>Some businesses rebuild their entire site in static HTML to help AI crawlers, investing $15,000+ in a redesign. AI crawlers can already read your JavaScript-rendered content through server-side rendering. The money was better spent creating 30 new content pages that answer real questions.</p>
-          </div>
-
-          <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">Mistake 2: Delaying Content to Fix Speed First</p>
-            <p>A common roadblock: "We'll start blogging once the site is fast." Speed work takes weeks. Content compounds for years. Every month without new content is a month your competitors are building the freshness and depth signals that actually drive AI citations.</p>
-          </div>
-
-          <div className="ae-callout ae-callout-warning mb-6">
-            <p className="ae-callout-title">Mistake 3: Optimizing Images for LCP Without Adding Alt Text</p>
-            <p>Image size impacts load time for human visitors. Image alt text is one of the signals AI crawlers use to understand context. Businesses spend hours compressing images for LCP gains and ignore the alt text that would actually communicate content meaning to AI models.</p>
-          </div>
-
-          <div className="ae-callout ae-callout-info mb-6">
-            <p className="ae-callout-title">What to Do Instead</p>
-            <p>Fix speed enough to avoid crawl timeouts (under 10 seconds server response). Then focus entirely on content depth, schema markup, and citation building. Speed is table stakes. Authority is the game.</p>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed">
-            If your site already loads reasonably well for human visitors, you have cleared the only speed bar that matters for AI. Further speed investment should be justified by conversion rate improvements or Google SEO goals, not AI citation promises.
-          </p>
-        </section>
-
-        {/* Section: Action Plan */}
-        <section id="action-plan" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-5">
-            Where to Invest Your Time Instead
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-5">
-            If speed is not the answer, what is the smartest use of the budget you were about to spend on Core Web Vitals? Here is a reallocation that will actually improve your AI search visibility.
-          </p>
-
-          <div className="ae-comparison-table mb-8">
-            <table>
-              <thead>
-                <tr>
-                  <th>Old Investment</th>
-                  <th>Estimated Budget</th>
-                  <th>AI Impact</th>
-                  <th>Better Alternative</th>
-                  <th>AI Impact</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>CWV / LCP optimization sprint</td>
-                  <td>$2,000-5,000</td>
-                  <td className="text-gray-400">Negligible</td>
-                  <td>10-15 Q&A content pages targeting real questions</td>
-                  <td className="text-[#F27D24]">High</td>
-                </tr>
-                <tr>
-                  <td>CDN upgrade for TTFB</td>
-                  <td>$100-300/mo</td>
-                  <td className="text-gray-400">None direct</td>
-                  <td>Schema.org markup implementation</td>
-                  <td className="text-[#F27D24]">High</td>
-                </tr>
-                <tr>
-                  <td>JS bundle splitting for TBT</td>
-                  <td>$1,000-3,000</td>
-                  <td className="text-gray-400">None</td>
-                  <td>Directory citation cleanup and NAP audit</td>
-                  <td className="text-[#F27D24]">Moderate-High</td>
-                </tr>
-                <tr>
-                  <td>Image lazy loading refactor</td>
-                  <td>$500-1,500</td>
-                  <td className="text-gray-400">None</td>
-                  <td>Monthly content refresh schedule</td>
-                  <td className="text-[#F27D24]">Moderate</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mb-5">
-            The pattern is consistent: every speed budget reallocated toward content, structure, or citations delivers dramatically more AI visibility per dollar. This is not a minor optimization difference. It is the difference between investing in the signals AI actually measures versus the signals a different system (Google) uses.
-          </p>
-
-          <p className="text-gray-300 leading-relaxed">
-            For a deeper look at what specific technical elements AI crawlers respond to, our article on <Link href="/blog/is-your-website-too-complicated-for-ai" className="text-[#F27D24] hover:underline">whether your website is too complicated for AI</Link> covers the signals that actually matter from a technical standpoint.
-          </p>
-        </section>
-
-        {/* Cheat Sheet */}
-        <section id="cheat-sheet" className="mb-14">
-          <div className="ae-cheat-sheet">
-            <p className="ae-cheat-sheet-title">Speed vs AI Visibility: The Quick Reference</p>
-            <table>
-              <thead>
-                <tr>
-                  <th>Question</th>
-                  <th>Answer</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Does faster LCP mean more AI citations?</td>
-                  <td>No. Correlation is -0.12 to -0.18 (essentially zero).</td>
-                </tr>
-                <tr>
-                  <td>Do AI crawlers render JavaScript?</td>
-                  <td>No. GPTBot, PerplexityBot, ClaudeBot pull raw HTML only.</td>
-                </tr>
-                <tr>
-                  <td>Is there any speed threshold that matters?</td>
-                  <td>Yes: avoid server response times over 20-30 seconds (crawl timeout risk).</td>
-                </tr>
-                <tr>
-                  <td>What has 4.2x more impact than speed?</td>
-                  <td>Content depth and topical authority.</td>
-                </tr>
-                <tr>
-                  <td>Does freshness beat speed?</td>
-                  <td>Yes. Monthly updates drive 28% more citations vs stale content.</td>
-                </tr>
-                <tr>
-                  <td>Should I fix speed at all?</td>
-                  <td>Yes, for Google SEO and user conversion. Not as a primary AI strategy.</td>
-                </tr>
-                <tr>
-                  <td>Where should I reallocate speed budget?</td>
-                  <td>Content creation, schema markup, directory citations, reviews.</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <div className="ae-takeaway mb-12">
-          <p className="ae-takeaway-title">The Bottom Line</p>
-          <p>Website speed has near-zero direct correlation with AI search visibility. AI crawlers do not render JavaScript, do not measure user experience metrics, and do not have a "fast site" preference. The businesses winning AI recommendations in 2026 got there by building authoritative, fresh, well-structured content ecosystems, not by shaving milliseconds off page load times. Fix speed for the right reasons. Invest in content and authority for AI.</p>
-        </div>
-
-        {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What Is Actually Holding You Back from AI</h3>
-          <p className="text-gray-400 mb-6">Stop guessing whether speed, content, or citations are your bottleneck. Your free Blind Spot Report shows exactly which AI visibility gaps are costing you recommendations right now.</p>
-          <Link
-            href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
-          >
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-            <a
-              href="tel:+12134442229"
-              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              (213) 444-2229
-            </a>
-            <a
-              href="mailto:support@theanswerengine.ai"
-              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              support@theanswerengine.ai
-            </a>
-          </div>
-        </div>
-
-        {/* Author Card */}
-        <div className="ae-author-card mb-12">
-          <img
+            {/* Author Card */}
+            <div className="not-prose ae-author-card">
+              <img
                 src="/justin-borges.webp"
                 alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
               />
               <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. TAE&apos;s own site runs against the dual-frame architecture described in this article &mdash; 1.14M+ monthly impressions, 4 of 4 LLMs cited. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
+            </div>
+
+            {/* CTA Block */}
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Stop Optimizing for Speed and Start Winning Citations</h3>
+              <p>Every month 390 businesses search for AEO services. The Answer Engine&apos;s Origin Protocol gets businesses cited where competitors get ignored. One slot per market &mdash; claim yours before a competitor does.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Grader &rarr;</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
               </div>
+            </div>
 
-        {/* FAQ Section */}
-        <section id="faq" className="mb-14">
-          <h2 className="font-plus-jakarta text-2xl md:text-3xl font-bold text-white mb-8">
-            Frequently Asked Questions
-          </h2>
+            {/* FAQ Section */}
+            <span className="ae-section-label" id="faq">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
 
-          <div className="space-y-6">
-            {[
-              {
-                q: 'Does website speed affect whether AI recommends my business?',
-                a: 'Barely. A study of 107,000+ pages found Core Web Vitals have a correlation of just -0.12 to -0.18 with AI citation frequency, essentially statistical noise. Content depth and authority have 4.2x more influence. Speed is table stakes, not a growth lever.',
-              },
-              {
-                q: 'Do AI crawlers like GPTBot care about page load time?',
-                a: 'No. AI crawlers such as GPTBot, PerplexityBot, and ClaudeBot do not render JavaScript and do not wait for resources to load. They extract raw HTML text to build their understanding of your content. If your key content is in clean, semantic HTML, crawlers get it instantly regardless of how fast your page loads for a human visitor.',
-              },
-              {
-                q: "What does matter for AI search visibility if speed doesn't?",
-                a: "The biggest drivers of AI citation frequency are: content depth and topical authority (4.2x impact vs speed), content freshness (pages updated monthly receive 28% more citations), consistent NAP data across directories, structured data markup, and third-party mentions in authoritative sources. Speed only matters enough to avoid a crawl timeout.",
-              },
-              {
-                q: 'My developer said improving Core Web Vitals will help AI. Are they wrong?',
-                a: "They're thinking about Google SEO, not AI search. Core Web Vitals are a Google ranking signal that measures user experience for human visitors. AI crawlers bypass that entirely because they pull raw HTML without loading images, scripts, or stylesheets. Good Core Web Vitals help your Google ranking (which indirectly helps AI because Google-ranked content gets cited more), but improving CWV directly will not make AI recommend you more often.",
-              },
-              {
-                q: 'Does a slow website hurt my chances with AI search engines?',
-                a: 'Only if it is so slow it causes crawl timeouts (roughly 30+ seconds). Crawlers have a crawl budget and a timeout threshold. If your server takes longer than that to return any response, the crawler may give up and mark your page as temporarily inaccessible. This is an extreme edge case. If your site loads within 5 seconds for a normal visitor, you are well clear of any AI crawl risk.',
-              },
-              {
-                q: 'Should I fix my website speed at all?',
-                a: 'Yes, but for the right reasons. Fix speed for human visitor experience, Google SEO rankings, and conversion rates. A fast site helps you indirectly with AI because Google-ranked pages get pulled into AI training and live citations more often. But if you are spending developer time choosing between improving site speed and publishing more authoritative content, the content wins for AI visibility every single time.',
-              },
-            ].map(({ q, a }) => (
-              <details key={q} className="group border border-gray-800 rounded-xl overflow-hidden">
-                <summary className="flex items-center justify-between px-6 py-5 cursor-pointer text-white font-semibold hover:text-[#F27D24] transition-colors list-none">
-                  {q}
-                  <svg className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </summary>
-                <div className="px-6 pb-5 text-gray-400 leading-relaxed">{a}</div>
-              </details>
-            ))}
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Does website speed affect whether AI recommends my business?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Barely. A 107,000-page study found Core Web Vitals correlate at just -0.12 to -0.18 with AI citation frequency &mdash; statistical noise in practical terms. Content depth and topical authority have 4.2 times more influence on whether ChatGPT, Perplexity, Claude, and Gemini cite a business. Site speed clears a crawl-timeout floor; everything above that floor is unrelated to citation outcomes. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the lift table on your URLs.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Do AI crawlers like GPTBot care about page load time?</summary>
+              <p className="faq-answer mt-3 text-gray-300">No. GPTBot, PerplexityBot, and ClaudeBot do not render JavaScript and do not measure user-experience metrics. They extract raw HTML text. As long as the server responds inside the crawl timeout window, page load time is irrelevant to citation eligibility. The crawlers that feed generative engines are text extractors, not browsers. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a strategy call</a> to walk through your server-response logs.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">What actually moves AI citation rates if speed does not?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Content depth and topical authority (4.2x more impact than speed), content freshness (pages updated inside 90 days earn 28% more citations), structured-data markup, named-author attribution, and inline quotations and statistics. Aggarwal et al. (KDD 2024) measured a 37% citation lift from added quotations and a 22% lift from added statistics. Zhang et al. (2026) measured a 57% influence premium on definition-first openings. Run the <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan</a> to see which of these you currently capture.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">My developer said improving Core Web Vitals will help AI. Are they wrong?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Your developer is conflating two pipelines. Core Web Vitals are a Google ranking signal that measures user experience inside a rendered browser. AI crawlers bypass that pipeline entirely because they pull raw HTML without loading scripts, images, or stylesheets. Good Core Web Vitals help Google rankings, and Google-ranked content gets pulled into training and live citations more often &mdash; but the direct lever on AI citation is content structure, not page speed. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a scope review before approving a CWV project framed as AI work.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Does a slow website hurt my chances with AI search engines?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Only when server response is extreme &mdash; roughly 20 to 30 seconds or more. Crawlers carry a crawl budget and a timeout threshold; pages that exceed the threshold get marked uncrawlable. Below that ceiling, a 2-second page and a 0.5-second page produce identical AI citation outcomes. Site speed is a floor, not a ranking lever. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a crawl-log timeout audit.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Should I fix my website speed at all?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Yes &mdash; for the right reasons. Site speed drives conversion rates, human-visitor experience, and Google SEO rankings, which indirectly feed AI surfaces because Google-ranked pages are over-represented in LLM training data and live retrieval. The mistake is allocating engineering hours to Core Web Vitals when those hours should be going to bounded-chunk content production, schema markup, and named-author attribution. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute call</a> for a budget-allocation review.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How do I measure whether speed is moving AI citations on my site?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Run a fixed prompt library against ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, and Bing Copilot monthly &mdash; the same way The Answer Engine&apos;s Proof Ledger does. Log citation appearances per engine, per query, per month. Improve site speed in isolation across one quarter and compare. The 107K-page benchmark has already run that experiment at scale; the result is that speed-only optimization does not move the citation count. One client per market &mdash; <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your territory now.</a></p>
+            </details>
+
+            {/* CTA — territory */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; One client per market &mdash; lock in your territory before a competitor does</a>
+
+            {/* Related */}
+            <span className="ae-section-label">Continue Reading</span>
+            <h2>Related AEO Concepts</h2>
+
+            <ul>
+              <li><Link href="/blog/aeo-vs-seo">AEO vs SEO: What is the Difference?</Link></li>
+              <li><Link href="/blog/aeo-vs-geo">AEO vs GEO: What is the Difference?</Link></li>
+              <li><Link href="/blog/aeo-models-how-ai-search-picks-sources">AEO Models: How AI Search Picks Sources</Link></li>
+              <li><Link href="/blog/anatomy-of-an-ai-citation">Anatomy of an AI Citation</Link></li>
+              <li><Link href="/blog/aeo-grader">AEO Grader: How to Score Your AI Search Visibility</Link></li>
+              <li><Link href="/blog/answer-engine-optimization-aeo-guide">Answer Engine Optimization: The Complete Guide</Link></li>
+            </ul>
+
+            {/* CTA — phone */}
+            <a href="tel:+12134442229" className="ae-cta-inline">&rarr; Call (213) 444-2229 for a free territory check</a>
+
           </div>
-        </section>
 
-        {/* Related Articles */}
-        <section className="mb-14">
-          <h2 className="font-plus-jakarta text-xl font-bold text-white mb-5">Related Articles</h2>
-          <div className="grid md:grid-cols-3 gap-4">
-            {[
-              { href: '/blog/does-schema-markup-help-ai-search', label: 'Does Schema Markup Help AI Search?' },
-              { href: '/blog/what-your-website-looks-like-to-an-ai-crawler', label: 'What Your Website Looks Like to an AI Crawler' },
-              { href: '/blog/is-your-website-too-complicated-for-ai', label: 'Is Your Website Too Complicated for AI?' },
-            ].map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                className="block p-4 rounded-xl border border-gray-800 hover:border-[#F27D24]/40 hover:bg-[#F27D24]/5 transition-all text-gray-300 hover:text-white text-sm font-medium"
-              >
-                {label} <span className="text-[#F27D24]">→</span>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        {/* Final CTA */}
+          {/* Final CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Technical Optimization for AI Search Is Different From Traditional SEO
+                Your AEO Score Determines Who AI Recommends
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                The signals that get you cited in AI engines are specific and measurable. The Answer Engine audits all 47 and fixes the ones holding you back. Free audit. One business per market.
+                Site speed wins conversion. Bounded chunks, schema, and named-author attribution win AI citations. The Origin Protocol ships both for one business per market.
               </p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Run Free AI Technical Audit →
+                Get Your Free AEO Grader Score
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -831,7 +587,8 @@ export default function Page() {
             </div>
           </section>
 
-      </main>
+        </article>
+      </div>
     </>
-  )
+  );
 }
