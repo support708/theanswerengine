@@ -4,20 +4,22 @@ import Link from 'next/link'
 export const dynamicParams = true
 
 const title = 'Does Posting Every Day Help AI Find Your Business'
-const description = 'Business owners think daily posting boosts AI visibility. The data tells a different story about what AI platforms actually reward.'
+const description = 'Daily posting does not move AEO citation probability. The Answer Engine breaks down what AI platforms actually reward — get your free Blindspot Scan today.'
 const slug = 'does-posting-every-day-help-ai-find-your-business'
 const publishDate = '2026-03-31'
+const lastModified = '2026-06-07'
 
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
-  keywords: ['daily posting AI visibility', 'content frequency AI search', 'how often to post for AI', 'AI content strategy', 'posting schedule AI recommendations', 'content consistency AI citations', 'LinkedIn AI visibility', 'Answer Engine Optimization posting'],
+  keywords: 'daily posting AI visibility, content frequency AI search, how often to post for AI, AI content strategy, AEO posting cadence, LinkedIn AI visibility, Answer Engine Optimization, AI citation strategy',
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    modifiedTime: lastModified,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -35,7 +37,7 @@ const jsonLd = {
       description,
       image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
-      dateModified: publishDate,
+      dateModified: lastModified,
       author: {
         '@type': 'Person',
         '@id': 'https://theanswerengine.ai/about#justin-borges',
@@ -46,9 +48,10 @@ const jsonLd = {
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'LLM Citation', 'AEO'],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
+        sameAs: ['https://linkedin.com/in/justinborges'],
       },
       publisher: {
         '@type': 'Organization',
@@ -124,15 +127,40 @@ const jsonLd = {
       ],
     },
     {
-      '@type': 'Organization',
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
       name: 'The Answer Engine',
       url: 'https://theanswerengine.ai',
-      logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/logo.png' },
-      contactPoint: {
-        '@type': 'ContactPoint',
-        telephone: '+1-213-444-2229',
-        contactType: 'customer service',
-        email: 'support@theanswerengine.ai',
+      logo: 'https://theanswerengine.ai/logo.png',
+      image: 'https://theanswerengine.ai/logo.png',
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      priceRange: '$$$',
+      areaServed: { '@type': 'Country', name: 'United States' },
+      address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+      founder: { '@type': 'Person', name: 'Justin Borges', '@id': 'https://theanswerengine.ai/about#justin-borges' },
+      foundingDate: '2025',
+      sameAs: ['https://linkedin.com/company/theanswerengine'],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Answer Engine Optimization Services',
+        itemListElement: [
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Answer Engine Optimization' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AEO Content Production' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'LLM Citation Building' } },
+        ],
+      },
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      description,
+      isPartOf: { '@type': 'WebSite', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      speakableSpecification: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.ae-stat-label', '.ae-faq-item summary', 'h2', '.named-thesis'],
       },
     },
   ],
@@ -140,7 +168,7 @@ const jsonLd = {
 
 export default function BlogPost() {
   return (
-    <>
+    <div className="min-h-screen bg-[#131313]">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* HERO */}
@@ -189,7 +217,7 @@ export default function BlogPost() {
 
           <span className="inline-block bg-orange-400/10 text-orange-400 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase mb-6">Myth Busters</span>
 
-          <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
+          <h1 className="font-headline font-black uppercase tracking-tighter text-4xl md:text-5xl text-white leading-tight mb-6">
             {title}
           </h1>
 
@@ -206,11 +234,11 @@ export default function BlogPost() {
       </section>
 
       <article className="max-w-4xl mx-auto px-6 pb-20 pt-12">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
-          <div className="ae-toc not-prose">
-            <div className="ae-toc-title">Table of Contents</div>
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">Table of Contents</div>
             <ul>
               <li><a href="#the-myth">The Daily Posting Myth</a></li>
               <li><a href="#what-data-says">What the Data Actually Shows</a></li>
@@ -256,7 +284,7 @@ export default function BlogPost() {
 
           <p>This advice was designed for social media feeds. Instagram, Facebook, TikTok, and LinkedIn all use engagement-based algorithms that reward recency and frequency. When a human scrolls a feed, your post from three hours ago competes with hundreds of others. Posting daily does increase the odds that a follower sees at least one of your posts that week. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p>But AI search is not a feed. When someone asks ChatGPT, Perplexity, or Google AI Overviews for a recommendation, those platforms do not check how recently you posted on Instagram. They evaluate an entirely different set of signals. And the gap between what social algorithms reward and what AI platforms reward is where most businesses lose visibility without realizing it.</p>
+          <p>But AI search is not a feed. <strong className="named-thesis">The Frequency Fallacy: posting frequency operates on the social media engagement loop, while AI platforms operate on the extraction-ready authority loop — these two surfaces share no overlapping ranking signal.</strong> When someone asks ChatGPT, Perplexity, or Google AI Overviews for a recommendation, those platforms do not check how recently you posted on Instagram. They evaluate whether a specific passage of your content can be lifted, attributed, and used to answer the question without distortion.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">The Core Misconception</div>
@@ -265,8 +293,6 @@ export default function BlogPost() {
 
           <p>The real question is not whether posting every day helps AI find your business. The real question is whether the time you spend creating daily content could be invested in something AI actually values. The data suggests most businesses are making the wrong trade-off.</p>
 
-          {/* CTA 1 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION 2: WHAT DATA SAYS */}
           <span className="ae-section-label" id="what-data-says">The Evidence</span>
@@ -276,7 +302,7 @@ export default function BlogPost() {
 
           <p>A study of AI-cited LinkedIn authors found that 75% of them had posted at least 5 times in the prior 4 weeks. That translates to roughly once per week, not once per day. The top-cited authors were not the most prolific posters. They were the ones whose posts contained original data points, specific expertise, and verifiable claims. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
-          <p>Separately, research into AI citation patterns revealed that content updated within 2 months earns 28% more AI citations than content left untouched. This freshness signal is real, but it rewards updates to existing quality content more than creation of new thin content.</p>
+          <p>Separately, research into AI citation patterns revealed that content updated within 2 months earns 28% more AI citations than content left untouched. <strong className="named-thesis">The Update Premium: existing pages refreshed within 60 days earn measurably more AI attribution than identical-quality new pages with no track record, because retrievers already carry trust signals on the established URL.</strong></p>
 
           <p>Perhaps the most revealing statistic: content with statistics and citations receives 30 to 40% higher AI visibility compared to content without data points. This tells us exactly what AI platforms are looking for. Not volume. Not frequency. Substance. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
 
@@ -316,8 +342,6 @@ export default function BlogPost() {
 
           <p>The pattern is unmistakable. AI platforms do not count your posts. They evaluate whether individual pieces of content deserve to be cited as a trustworthy source. One well-researched article with original insights and supporting data will outperform 30 days of generic content in AI visibility metrics.</p>
 
-          {/* CTA 2 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION 3: FREQUENCY VS QUALITY */}
           <span className="ae-section-label" id="frequency-vs-quality">The Trade-Off</span>
@@ -325,7 +349,7 @@ export default function BlogPost() {
 
           <p>Here is the uncomfortable truth that daily posting advocates rarely acknowledge: most businesses do not have the resources to publish high-quality content every single day. When you force a daily cadence, quality inevitably suffers. Posts get shorter. Data gets thinner. Insights get recycled. And the content starts sounding like every other business in your industry.</p>
 
-          <p>AI platforms are specifically designed to detect this pattern. When a source publishes high volumes of low-substance content, that source gets classified as noise rather than signal. The 45% of consumers who now use AI to find local services are being directed to businesses that demonstrate deep expertise, not businesses that demonstrate high output. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
+          <p>AI ranking models are specifically tuned to detect this collapse. <strong className="named-thesis">The Volume Trap: businesses publishing daily content with no original data are classified as low-signal noise by AI ranking models, not as authority — high cadence without substance actively dampens citation probability rather than lifting it.</strong> The 45% of consumers now using AI to find local services are routed toward operators who demonstrate depth, not operators who demonstrate output. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report</a>.</p>
 
           <table className="ae-comparison-table not-prose">
             <thead>
@@ -375,8 +399,6 @@ export default function BlogPost() {
             <p>The businesses in the 1.2% that ChatGPT recommends did not get there by posting every day. They got there by creating the kind of content that AI cannot ignore: specific, verifiable, authoritative, and structured for extraction. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
           </div>
 
-          {/* CTA 3 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION 4: FRESHNESS SIGNAL */}
           <span className="ae-section-label" id="freshness-signal">The Nuance</span>
@@ -386,7 +408,7 @@ export default function BlogPost() {
 
           <p>AI platforms distinguish between two types of freshness. The first is publication freshness: when was this content originally published? The second is update freshness: when was this content last modified with meaningful changes? The second type carries significantly more weight.</p>
 
-          <p>A comprehensive service page published six months ago that gets updated with new statistics, expanded FAQ answers, and refreshed case references will outperform a brand-new blog post that covers the same topic with less depth. Updating your existing best content is one of the highest-leverage activities for AI visibility. Yet most businesses ignore their existing pages entirely while chasing the daily posting treadmill. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+          <p>A comprehensive service page published six months ago that gets updated with new statistics, expanded FAQ answers, and refreshed case references will outperform a brand-new blog post that covers the same topic with less depth. <strong className="named-thesis">The Definition Premium: content that opens with a clear, plain-language definition of its subject earns 57% higher citation probability than content that buries the definition mid-article (Zhang et al., 2026) — because retrievers extract definition-first chunks preferentially.</strong> Updating your existing best content is one of the highest-leverage activities for AI visibility. Yet most operators ignore their existing pages entirely while chasing the daily posting treadmill. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Update Advantage</div>
@@ -395,8 +417,6 @@ export default function BlogPost() {
 
           <p>This is why the daily posting advice can actually hurt your AI visibility. Every hour spent writing a throwaway social post is an hour not spent updating the pages that AI platforms are already evaluating. For businesses that want to learn more about why freshness matters and how to implement it properly, our deep dive on <Link href="/blog/why-fresh-content-key-ai-search-visibility">why fresh content is the key to AI search visibility</Link> covers the mechanics in detail. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
 
-          {/* CTA 4 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION 5: WHAT AI REWARDS */}
           <span className="ae-section-label" id="what-ai-rewards">The Signals</span>
@@ -404,7 +424,9 @@ export default function BlogPost() {
 
           <p>If daily posting is not the answer, what is? AI platforms evaluate a specific set of content characteristics when deciding which sources to cite. None of them are tied to how frequently you publish. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
 
-          <p>Content with statistics and citations gets 30 to 40% higher AI visibility. This single data point reveals more about AI priorities than any posting frequency study. AI platforms are answer machines. They need content that provides definitive, verifiable answers to specific questions. When your content includes concrete data points that can be cross-referenced against other sources, it becomes exponentially more valuable to AI.</p>
+          <p>Content with statistics and citations earns 30 to 40% higher AI visibility. <strong className="named-thesis">The Substance Multiplier: substance-dense content — passages with statistics, quotations, and named citations — earns 30 to 40% higher AI visibility than identical content stripped of data points, because verifiability is the dominant variable AI retrievers optimize against (Aggarwal et al., KDD 2024).</strong> AI platforms are answer machines. They need extraction surfaces that provide definitive, cross-referenceable answers to specific queries.</p>
+
+          <p>There is a second signal most operators miss: chunk size. <strong className="named-thesis">The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers — splitting long blocks into bounded units of 80 to 180 tokens restores full extraction accuracy (GEO-SFE benchmarks, 2026).</strong> This is why our content reads as compact, self-contained sections rather than long flowing prose. Each section is engineered to be lifted in isolation.</p>
 
           <div className="ae-decision-matrix not-prose">
             <div className="ae-decision-title">What AI Evaluates When Deciding to Cite Your Content</div>
@@ -441,8 +463,6 @@ export default function BlogPost() {
 
           <p>The businesses that get cited by AI are not the loudest. They are the most useful. Their content answers questions directly, supports claims with evidence, and structures information in formats AI can easily extract and present to users. Our guide on <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts">how to create content that ChatGPT actually trusts</Link> explores these structural requirements in depth. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
 
-          {/* CTA 5 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION 6: LINKEDIN FACTOR */}
           <span className="ae-section-label" id="linkedin-factor">The Platform</span>
@@ -479,8 +499,6 @@ export default function BlogPost() {
 
           <p>If you are already posting on LinkedIn regularly, the shift is not about posting less. It is about posting differently. Every post becomes an opportunity to feed AI platforms with citable, verifiable content. Or it becomes noise that dilutes your authority signal. The choice is entirely in what you put into each post, not how many posts you make.</p>
 
-          {/* CTA 6 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION 7: THE REAL PROBLEM */}
           <span className="ae-section-label" id="the-real-problem">The Gap</span>
@@ -499,8 +517,6 @@ export default function BlogPost() {
 
           <p>If your blog is full of content but AI still cannot find you, our analysis of <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether blogging actually helps AI recommend your business</Link> explains the structural gaps that most business blogs share.</p>
 
-          {/* CTA 7 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* SECTION 8: SMART CADENCE */}
           <span className="ae-section-label" id="smart-cadence">The Strategy</span>
@@ -525,8 +541,6 @@ export default function BlogPost() {
 
           <p>The specifics of how to implement these principles, including the exact content structures, update schedules, and authority-building sequences that drive AI citations, are where most businesses need expert guidance. The principles are public knowledge. The implementation is where competitive advantage lives.</p>
 
-          {/* CTA 8 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* TAKEAWAY */}
           <div className="ae-takeaway not-prose">
@@ -534,99 +548,79 @@ export default function BlogPost() {
             <p>Posting every day does not help AI find your business. Posting content that AI can verify, extract, and cite as authoritative does. The frequency question is a distraction from the real challenge: creating content that meets the specific quality, structure, and authority thresholds AI platforms require before they will recommend you. Most businesses are solving the wrong problem.</p>
           </div>
 
-          {/* CTA 9 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* DIVIDER */}
           <hr />
 
-          {/* 3-TIER CTA BLOCK */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Posting Into the Void</h3>
-            <p className="text-gray-400 mb-6">Your free Blind Spot Report reveals exactly what AI platforms see when they evaluate your business, and what they skip entirely. No daily posting required.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+          {/* CTA BLOCK */}
+          <div className="ae-cta-block not-prose my-16">
+            <h3>Stop Posting Into the Void — Get Cited Instead</h3>
+            <p>Your free Blindspot Scan reveals exactly what AI platforms see when they evaluate your business, and what they skip entirely. No daily posting required. One operator per market.</p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free Blindspot Scan →</a>
+            <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">support@theanswerengine.ai</a>
             </div>
           </div>
 
-          {/* CTA 10 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
+          <div className="not-prose ae-author-card">
+            <img src="/justin-borges.webp" alt="Justin Borges"
+                 style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }} />
             <div>
-              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges</p>
-              <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
-              <div className="flex flex-wrap gap-4 mt-3 text-sm">
-                <span className="text-gray-500">2+ years specialized AEO experience</span>
-                <span className="text-gray-500">50+ local business implementations</span>
-                <span className="text-gray-500">500+ schema deployments</span>
-              </div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, and Google AI Overviews. Reach out at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> or <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
           </div>
 
-          {/* CTA 11 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* FAQ SECTION */}
           <span className="ae-section-label" id="faq">FAQ</span>
           <h2>Frequently Asked Questions</h2>
 
-          <div className="space-y-6 not-prose">
-            {[
-              {
-                q: "Does posting every day help AI find my business?",
-                a: "Not directly. AI platforms do not reward posting frequency as a ranking signal. They evaluate content quality, authority signals, data consistency, and cross-platform verification. A business posting one high-quality, well-structured article per week will outperform a business posting thin daily content. What matters is whether your content contains verifiable claims, structured data, and direct answers to questions AI users actually ask."
-              },
-              {
-                q: "How often should I post to be visible in AI search results?",
-                a: "Research shows that 75% of AI-cited LinkedIn authors posted at least 5 times in the prior 4 weeks. Content updated within 2 months earns 28% more AI citations than stale content. The sweet spot is consistent, quality-driven publishing rather than daily volume. Posting 2 to 3 times per week with substantive, well-structured content outperforms daily thin posts in every AI visibility metric."
-              },
-              {
-                q: "Does LinkedIn posting frequency affect AI visibility?",
-                a: "LinkedIn content can appear in AI search results within hours or even minutes of publishing. The platform has become a significant source that AI platforms reference for professional and business authority signals. However, AI platforms evaluate the substance of your LinkedIn posts, not how many you publish. Posts with original data, specific expertise, and verifiable claims get cited. Generic motivational content does not, regardless of frequency."
-              },
-              {
-                q: "Why does content with statistics get more AI citations?",
-                a: "Content that includes statistics and citations receives 30 to 40% higher AI visibility compared to content without data points. AI platforms prioritize verifiable, specific information because their core function is providing accurate answers. When your content contains concrete numbers, research citations, and measurable claims, AI can verify those claims against other sources and confidently cite you as an authority."
-              },
-              {
-                q: "What percentage of local businesses get recommended by ChatGPT?",
-                a: "ChatGPT recommends only about 1.2% of local businesses. Despite 45% of consumers now using AI to find local services, the vast majority of businesses are completely invisible to AI platforms. This is not a frequency problem. It is a discoverability and authority problem that requires strategic content optimization, not more posts."
-              },
-              {
-                q: "Is it better to post frequently or update existing content for AI visibility?",
-                a: "Updating existing content is often more effective than creating new posts. Content updated within 2 months earns significantly more AI citations because AI platforms prefer current, accurate information over dated content. Refreshing your best-performing pages with new data, updated statistics, and expanded answers signals active authority to AI crawlers more effectively than publishing new thin content daily."
-              }
-            ].map((faq, i) => (
-              <div key={i} className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
-                <h3 className="text-xl font-semibold mb-3 text-white font-plus-jakarta">
-                  {faq.q}
-                </h3>
-                <p className="text-gray-400 leading-relaxed">
-                  {faq.a}
-                </p>
+          <div className="not-prose">
+            <details className="ae-faq-item">
+              <summary>Does posting every day help AI find my business?</summary>
+              <div className="ae-faq-answer">
+                <p>No. AI platforms do not reward posting frequency as a ranking signal. They evaluate content substance, citation density, structured extraction surfaces, and cross-platform authority. One well-structured Answer Engine Optimization (AEO) article per week outperforms a month of thin daily posts on every measurable citation metric.</p>
               </div>
-            ))}
+            </details>
+            <details className="ae-faq-item">
+              <summary>How often should I post to be visible in AI search results?</summary>
+              <div className="ae-faq-answer">
+                <p>Research on AI-cited LinkedIn authors shows 75% posted at least 5 times in the prior 4 weeks — roughly once per week. Content refreshed within 2 months earns 28% more citations than stale pages. The AEO sweet spot is 1 to 2 substantive publications per week, not daily volume.</p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>Does LinkedIn posting frequency affect AI citation visibility?</summary>
+              <div className="ae-faq-answer">
+                <p>LinkedIn posts can appear in AI search results within minutes of publishing, making LinkedIn one of the fastest AEO surfaces available. But AI retrievers evaluate substance, not cadence. Posts with original data, named credentials, and verifiable claims earn citation. Motivational content does not, regardless of how often it ships.</p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>Why does content with statistics get more AI citations?</summary>
+              <div className="ae-faq-answer">
+                <p>Content with statistics and citations earns 30 to 40% higher AI visibility because LLM retrievers reward verifiability. Aggarwal et al. (KDD 2024) found that quotations boost citation likelihood by 37% and statistics by 22%. Numbers create cross-referenceable claims — the exact surface RAG systems extract.</p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>What percentage of local businesses get recommended by ChatGPT?</summary>
+              <div className="ae-faq-answer">
+                <p>ChatGPT recommends approximately 1.2% of local businesses despite 45% of consumers now using AI for local discovery. The bottleneck is not frequency — it is discoverability and structured authority. Posting daily into a vacuum does not move citation probability. Permanent authority does.</p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>Is it better to post frequently or update existing content for AEO?</summary>
+              <div className="ae-faq-answer">
+                <p>Updating existing pages outperforms publishing new thin content. Content refreshed within 2 months earns 28% more AI citations. Refreshing a page that already carries trust signals is the single highest-leverage AEO activity for most operators. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom update audit.</p>
+              </div>
+            </details>
           </div>
 
-          {/* CTA 12 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
-          {/* CTA 13 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* CTA BLOCK */}
             <div className="ae-cta-block not-prose my-16">
@@ -639,11 +633,7 @@ export default function BlogPost() {
               </div>
             </div>
 
-          {/* CTA 14 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
-          {/* CTA 15 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* RELATED ARTICLES */}
           <span className="ae-section-label">Keep Reading</span>
@@ -652,7 +642,7 @@ export default function BlogPost() {
           <div className="space-y-4 not-prose">
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/why-fresh-content-key-ai-search-visibility" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
                   Why Fresh Content Is the Key to AI Search Visibility
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -662,7 +652,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
                   Does Having a Blog Actually Help AI Recommend Your Business?
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -672,7 +662,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
                   How to Create Content That ChatGPT Actually Trusts
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -682,8 +672,6 @@ export default function BlogPost() {
             </div>
           </div>
 
-          {/* CTA 16 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* FINAL CTA */}
           <section className="ae-final-cta not-prose">
@@ -713,6 +701,6 @@ export default function BlogPost() {
 
         </div>
       </article>
-    </>
+    </div>
   )
 }
