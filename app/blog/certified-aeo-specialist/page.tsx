@@ -1,643 +1,537 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
 
-export async function generateMetadata(): Promise<Metadata> {
-  const title = "Certified AEO Specialist | The Answer Engine";
-  const description = "A certified AEO specialist optimizes content for citation by ChatGPT, Perplexity, and Google AI Overviews. Learn what the role requires, how it differs from SEO, and how to hire one.";
+const TITLE = 'What Is a Certified AEO Specialist? | The Answer Engine';
+const DESCRIPTION = 'A Certified AEO Specialist engineers content for citation by ChatGPT, Perplexity, Claude, and Gemini. Get the role definition and run your free AEO scan.';
+const URL = 'https://theanswerengine.ai/blog/certified-aeo-specialist';
+const IMAGE = 'https://theanswerengine.ai/blog/certified-aeo-specialist.webp';
+const PUBLISHED = '2026-06-07';
 
-  return {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      type: 'article',
-      url: 'https://theanswerengine.ai/blog/certified-aeo-specialist',
-      images: [{ url: '/images/certified-aeo-specialist.png', width: 1200, height: 630 }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-    },
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/certified-aeo-specialist',
-    },
-  };
-}
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: 'certified aeo specialist, what is an aeo specialist, aeo certification, answer engine optimization specialist, hire aeo expert, aeo vs seo specialist, llm visibility consultant, generative engine optimization specialist',
+  alternates: { canonical: URL },
+  openGraph: {
+    title: 'What Is a Certified AEO Specialist?',
+    description: DESCRIPTION,
+    url: URL,
+    type: 'article',
+    publishedTime: PUBLISHED,
+    authors: ['Justin Borges'],
+    images: [{ url: IMAGE, width: 1200, height: 630, alt: 'What Is a Certified AEO Specialist?' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What Is a Certified AEO Specialist?',
+    description: DESCRIPTION,
+    images: [IMAGE],
+  },
+};
 
-export default function CertifiedAEOSpecialist() {
+export default function CertifiedAEOSpecialistPage() {
   const schemaData = {
-    "@context": "https://schema.org",
-    "@graph": [
+    '@context': 'https://schema.org',
+    '@graph': [
       {
-        "@type": "Article",
-        "@id": "https://theanswerengine.ai/blog/certified-aeo-specialist#article",
-        "headline": "What Is a Certified AEO Specialist?",
-        "description": "A certified AEO specialist optimizes content for citation by ChatGPT, Perplexity, and Google AI Overviews. Learn what the role requires, how it differs from SEO, and how to hire one.",
-        "image": "https://theanswerengine.ai/images/certified-aeo-specialist.png",
-        "datePublished": "2026-05-29",
-        "dateModified": "2026-05-29",
-        "author": {
-          "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#justin-borges",
-          "name": "Justin Borges",
-          "jobTitle": "Founder, The Answer Engine",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai"
+        '@type': 'Article',
+        '@id': `${URL}#article`,
+        headline: 'What Is a Certified AEO Specialist?',
+        description: 'A Certified AEO Specialist engineers content for citation by ChatGPT, Perplexity, Claude, and Gemini. Learn what the role actually requires, how it differs from SEO, and how to hire one.',
+        image: IMAGE,
+        datePublished: PUBLISHED,
+        dateModified: PUBLISHED,
+        author: {
+          '@type': 'Person',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+          name: 'Justin Borges',
+          jobTitle: 'Founder, The Answer Engine',
+          url: 'https://theanswerengine.ai/about',
+          image: 'https://theanswerengine.ai/justin-borges.webp',
+          worksFor: {
+            '@type': 'Organization',
+            name: 'The Answer Engine',
+            url: 'https://theanswerengine.ai',
           },
-          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "AEO Certification", "Citation Optimization"],
-          "url": "https://theanswerengine.ai/about",
-          "image": "https://theanswerengine.ai/justin-borges.webp"
+          knowsAbout: ['Answer Engine Optimization', 'Generative Engine Optimization', 'AI Citations', 'LLM Visibility', 'Schema Engineering', 'AEO Certification'],
         },
-        "publisher": {
-          "@type": "Organization",
-          "name": "The Answer Engine",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png"
-          }
+        publisher: {
+          '@type': 'Organization',
+          '@id': 'https://theanswerengine.ai/#organization',
+          name: 'The Answer Engine',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://theanswerengine.ai/logo.png',
+          },
         },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://theanswerengine.ai/blog/certified-aeo-specialist"
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': URL,
         },
-        "about": [
-          { "@type": "Thing", "name": "Answer Engine Optimization" },
-          { "@type": "Thing", "name": "AEO Certification" }
-        ]
+        keywords: 'certified aeo specialist, aeo certification, answer engine optimization specialist, hire aeo expert, llm visibility consultant',
+        about: [
+          { '@type': 'Thing', name: 'Answer Engine Optimization' },
+          { '@type': 'Thing', name: 'AEO Certification' },
+          { '@type': 'Thing', name: 'AI Citations' },
+          { '@type': 'Thing', name: 'LLM Visibility' },
+        ],
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://theanswerengine.ai/blog/certified-aeo-specialist#faq",
-        "mainEntity": [
+        '@type': 'FAQPage',
+        '@id': `${URL}#faq`,
+        mainEntity: [
           {
-            "@type": "Question",
-            "name": "What is a certified AEO specialist?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A certified AEO specialist is a practitioner trained in Answer Engine Optimization, the discipline of structuring content so AI platforms like ChatGPT, Perplexity, and Google AI Overviews extract and cite it in their responses. The role requires knowledge of RAG architecture, schema markup, semantic chunking, entity authority, and multi-platform citation mechanics. Certification programs from organizations like The AEO Institute provide structured curricula, though real-world citation results are the only meaningful performance benchmark."
-            }
+            '@type': 'Question',
+            name: 'What is a Certified AEO Specialist?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'A Certified AEO Specialist is a practitioner trained to engineer content for citation by AI platforms — ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. The role enforces bounded-chunk content structure, definition-first H3 openings, the full six-layer schema stack, named-author setup, named-thesis writing, inline academic citations, and a fixed Proof Ledger measurement cadence across all four major LLMs. Certification confirms theory fluency; client citation data confirms operational competence.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "How is an AEO specialist different from an SEO specialist?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "An SEO specialist optimizes for Google's ranking algorithm, targeting link signals, keyword density, and crawl efficiency. An AEO specialist optimizes for retrieval-augmented generation (RAG) systems, targeting passage extraction quality, entity recognition, schema integrity, and co-citation patterns. SEO tracks rankings and organic clicks. AEO tracks citation rate, citation position, and attribution frequency across AI platforms."
-            }
+            '@type': 'Question',
+            name: 'How is a Certified AEO Specialist different from an SEO consultant?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'An SEO consultant optimizes for Google ranking — link signals, keyword density, crawl efficiency, organic clicks. A Certified AEO Specialist optimizes for retrieval-augmented generation pipelines — passage extractability, entity recognition, schema integrity, named-author authority, and citation appearances across ChatGPT, Perplexity, Claude, and Gemini. SEO tracks rankings. AEO tracks citations. The Origin Protocol restructures content so the same draft clears both thresholds in a single pass.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "What does an AEO specialist actually do day-to-day?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Day-to-day work includes running AERO scans to audit current AI citation gaps, writing and restructuring content into bounded semantic chunks (80-180 tokens per H3), adding FAQ sections with natural-language query matching, implementing Article, FAQPage, and LocalBusiness schema, running multi-platform citation tests across ChatGPT, Perplexity, and Google AI Overviews, and iterating based on citation velocity data rather than ranking reports."
-            }
+            '@type': 'Question',
+            name: 'Is AEO certification required to do the work?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Formal certification is one signal. It is not the only signal. The AEO field is under two years old as a named academic discipline, and no certifying body has a track record long enough to be definitive. When hiring, prioritize demonstrated citation results over certificates. Ask candidates for a Proof Ledger — a fixed 20-query library run monthly against ChatGPT, Perplexity, Claude, and Gemini. Certification proves the practitioner studied the playbook; the Proof Ledger proves the practitioner can execute it.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "Is AEO certification necessary to hire someone?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Formal certification is one signal, not the whole picture. The AEO field is under two years old as a named academic discipline, and no certification body has long enough track record to be definitive. When hiring, prioritize demonstrated citation results over certificates. Ask candidates to show you a before-and-after citation test on a real domain. Certification shows they studied the theory. Client citation data shows they can execute."
-            }
+            '@type': 'Question',
+            name: 'What does a Certified AEO Specialist actually do day-to-day?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Day-to-day work includes running AEO Blindspot Scans to baseline a domain against 47 citation signals, restructuring pages into 80-to-180-word bounded chunks with definition-first H3 openings, installing the full six-layer schema stack (Article, FAQPage, BreadcrumbList, ProfessionalService, WebPage, HowTo), assigning named authors with sameAs chains to verifiable external authority profiles, writing three to five named-thesis sentences per article, citing primary research inline, publishing on a weekly cadence, and re-running the fixed Proof Ledger across all four major LLMs on the first business day of every month.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "How long does it take to see results from AEO work?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Citation velocity data from TAE client engagements shows a typical 60-90 day window from content restructuring to measurable citation lift. First citations appear faster on Perplexity (which crawls aggressively) than on ChatGPT (which relies on training data and web browsing separately). TAE's internal data shows the 16-article threshold produces compounding citation probability starting around week 10."
-            }
+            '@type': 'Question',
+            name: 'How long does it take a Certified AEO Specialist to produce citations?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'For a baseline domain with no prior AEO work, the typical Proof Ledger arc is zero to two citations on commercial-local queries in month one, three to eight citations across categories in month two as Perplexity and ChatGPT search index new structural content, and ten to twenty citations by month three as Gemini and Google AI Overviews incorporate the indexed signals. Sites with existing FAQ schema, named-author content, or strong domain authority typically see first citations inside the first 30 days. Below ten citations across all four engines at the 90-day mark indicates a cadence or structural failure, not a measurement floor.',
+            },
           },
           {
-            "@type": "Question",
-            "name": "What is the AERO scan and why does it matter?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "An AERO scan is a structured diagnostic that tests your business across 10-15 AI-representative queries, measures citation rate, citation position, and attribution quality on ChatGPT, Perplexity, and Google AI Overviews, and identifies the specific content gaps causing citation failures. TAE offers a free AERO scan at theanswerengine.ai. The scan takes 24-48 hours and produces a prioritized fix list, not a generic recommendations report."
-            }
-          }
-        ]
+            '@type': 'Question',
+            name: 'How much does it cost to hire a Certified AEO Specialist?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Rates vary by engagement scope. A single-domain Origin Protocol audit and structural rebuild typically falls in the $5,000 to $15,000 range as a one-time project. Ongoing Origin Protocol production — weekly Origin-Protocol articles, monthly Proof Ledger measurement, quarterly schema audits — operates as a monthly retainer that scales with publication cadence and vertical competitiveness. The Answer Engine works with one operator per market and per vertical, which sets the territory rate at the upper end. Reach support@theanswerengine.ai for a vertical-specific scope.',
+            },
+          },
+        ],
       },
       {
-        "@type": "Organization",
-        "@id": "https://theanswerengine.ai/#organization",
-        "name": "The Answer Engine",
-        "url": "https://theanswerengine.ai",
-        "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
-        "description": "Answer Engine Optimization agency helping local service businesses get cited by AI platforms."
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://theanswerengine.ai/#localbusiness",
-        "name": "The Answer Engine",
-        "description": "Answer Engine Optimization agency for local service businesses",
-        "url": "https://theanswerengine.ai",
-        "telephone": "+1-213-444-2229",
-        "email": "support@theanswerengine.ai",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Los Angeles",
-          "addressRegion": "CA",
-          "addressCountry": "US"
+        '@type': 'ProfessionalService',
+        '@id': 'https://theanswerengine.ai/#professionalservice',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
+        telephone: '+1-213-444-2229',
+        email: 'support@theanswerengine.ai',
+        priceRange: '$$',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Los Angeles',
+          addressRegion: 'CA',
+          addressCountry: 'US',
         },
-        "priceRange": "$",
-        "openingHours": "Mo-Fr 09:00-18:00"
+        areaServed: 'United States',
+        founder: {
+          '@type': 'Person',
+          name: 'Justin Borges',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+          sameAs: ['https://linkedin.com/in/justinborges'],
+        },
+        sameAs: ['https://linkedin.com/company/theanswerengine'],
       },
       {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://theanswerengine.ai/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://theanswerengine.ai/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Certified AEO Specialist" }
-        ]
-      }
-    ]
+        '@type': 'Organization',
+        '@id': 'https://theanswerengine.ai/#organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
+        logo: 'https://theanswerengine.ai/logo.png',
+      },
+      {
+        '@type': 'WebPage',
+        '@id': `${URL}#webpage`,
+        url: URL,
+        name: 'What Is a Certified AEO Specialist?',
+        isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
+          { '@type': 'ListItem', position: 3, name: 'What Is a Certified AEO Specialist?', item: URL },
+        ],
+      },
+    ],
   };
+
+  const schemaJson = JSON.stringify(schemaData);
 
   return (
     <>
       <Script
         id="certified-aeo-specialist-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        dangerouslySetInnerHTML={{ __html: schemaJson }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F]">
-        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          {/* Breadcrumbs */}
-          <nav className="text-sm text-gray-500 mb-8">
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+
+          <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">&rsaquo;</span>
             <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <span className="mx-2">&rsaquo;</span>
-            <span className="text-gray-400">Certified AEO Specialist</span>
+            <span className="text-gray-400">What Is a Certified AEO Specialist?</span>
           </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/certified-aeo-specialist.webp"
-              alt="certified aeo specialist"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
 
-          {/* Header */}
-          <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-white">AEO Education / Role Definition</span>
+          <header className="ae-article-hero mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#F27D24]">AEO Role Definition</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              What Is a Certified AEO Specialist?
+            <h1 className="font-headline font-black uppercase tracking-tighter text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.05] mb-6">
+              WHAT IS A CERTIFIED AEO SPECIALIST?
             </h1>
 
-            {/* Featured Image */}
-            <div className="mb-8 rounded-xl overflow-hidden border border-white/[0.05]">
+            <div className="w-full overflow-hidden mb-8" style={{ maxHeight: 440 }}>
               <img
-                src="/images/certified-aeo-specialist.png"
-                alt="Certified AEO Specialist guide showing what the role requires and how it differs from SEO"
-                className="w-full grayscale brightness-75"
+                src="/blog/certified-aeo-specialist.webp"
+                alt="Certified AEO Specialist: the role, the playbook, and the measurement"
+                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
+                loading="eager"
               />
             </div>
 
-            {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-lg text-white leading-relaxed">
-                <strong>A certified AEO specialist is a practitioner trained to optimize content for extraction and citation by AI platforms: ChatGPT, Perplexity, Google AI Overviews, and Gemini.</strong> The role differs from SEO in its optimization target. SEO targets Google&apos;s ranking algorithm. AEO targets retrieval-augmented generation (RAG) systems that synthesize content into direct answers. Formal certification signals training, but citation rate data is the only measurement that matters.
+            <div className="article-summary bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] p-6 mb-8">
+              <p className="font-body text-lg text-white leading-relaxed">
+                <strong>A Certified AEO Specialist is a practitioner trained to engineer content for citation by AI platforms &mdash; ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews.</strong> The role enforces bounded-chunk content structure, the full six-layer schema stack, named-author setup with sameAs chains, named-thesis writing, inline academic citation, and a fixed monthly Proof Ledger measurement cadence. Certification confirms the practitioner studied the playbook. The Proof Ledger confirms the practitioner can execute it. This guide defines the role, distinguishes it from SEO consulting, and gives operators the hiring criteria that separate certified specialists from rebranded SEO generalists.
               </p>
             </div>
 
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>12 min read</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span>Published May 2026</span>
-              </div>
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400 font-mono">
+              <span>14 MIN READ</span>
+              <span>&middot;</span>
+              <span>UPDATED JUNE 2026</span>
+              <span>&middot;</span>
+              <span>BY JUSTIN BORGES</span>
             </div>
           </header>
 
-          {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-
-            {/* Stats Grid */}
-            <div className="ae-stats-grid not-prose">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📊</div>
-                <div className="ae-stat-value ae-accent">40%</div>
-                <div className="ae-stat-label">GEO visibility boost from structured content</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🎯</div>
-                <div className="ae-stat-value ae-accent">57%</div>
-                <div className="ae-stat-label">Higher citation probability from definition-first structure</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🤖</div>
-                <div className="ae-stat-value ae-accent">90%</div>
-                <div className="ae-stat-label">ChatGPT citations come from outside Google&apos;s top 20</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">⏱️</div>
-                <div className="ae-stat-value ae-accent">60-90</div>
-                <div className="ae-stat-label">days from restructuring to measurable citation lift</div>
-              </div>
+          <div className="ae-stats-grid not-prose mb-10">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#127919;</div>
+              <div className="ae-stat-value ae-accent">+57%</div>
+              <div className="ae-stat-label">Influence premium on definition-first content (Zhang et al., 2026)</div>
             </div>
-
-            {/* TOC */}
-            <div className="not-prose bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mb-10">
-              <p className="text-xs font-mono uppercase tracking-widest text-[#F27D24] mb-4">In This Article Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-              <ol className="grid grid-cols-1 sm:grid-cols-2 gap-2 list-none m-0 p-0">
-                {[
-                  ["#what-aeo-means", "What AEO Actually Means"],
-                  ["#aeo-vs-seo", "AEO vs. SEO: The Core Difference"],
-                  ["#what-aeo-does", "What an AEO Specialist Does"],
-                  ["#certification-landscape", "The Certification Landscape"],
-                  ["#hiring-criteria", "How to Evaluate and Hire One"],
-                  ["#tae-approach", "How TAE Approaches AEO Work"],
-                  ["#cheat-sheet", "Quick Reference Cheat Sheet"],
-                  ["#faq", "Frequently Asked Questions"],
-                ].map(([href, label], i) => (
-                  <li key={href} className="text-sm">
-                    <a href={href} className="text-gray-400 hover:text-[#F27D24] transition-colors no-underline">
-                      <span className="text-[#F27D24] font-mono mr-2">{i + 1}.</span>{label}
-                    </a>
-                  </li>
-                ))}
-              </ol>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#128202;</div>
+              <div className="ae-stat-value ae-accent">+37%</div>
+              <div className="ae-stat-label">Citation lift from inline quotations across LLMs (Aggarwal et al., KDD 2024)</div>
             </div>
-
-            {/* Section 1 */}
-            <span className="ae-section-label" id="what-aeo-means">What AEO Actually Means</span>
-            <h2>The Definition of Answer Engine Optimization</h2>
-
-            <p>Answer Engine Optimization (AEO) is the discipline of structuring and distributing content so that AI platforms can extract, synthesize, and cite it when generating responses to user queries. The &quot;answer engines&quot; in question are ChatGPT, Perplexity AI, Google AI Overviews, Gemini, and any retrieval-augmented generation (RAG) system that produces sourced responses. AEO is also called AI citation optimization and LLM visibility optimization in practitioner communities. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-
-            <p>The academic foundation is recent and specific. Aggarwal et al. published the foundational GEO (Generative Engine Optimization) paper at KDD 2024, introducing the first formal benchmark for measuring content visibility in generative engine responses. That paper demonstrated that adding quotations increased GEO visibility by 37%, and adding statistics increased visibility by 22%. The field is under two years old as a named research area. Any professional claiming years of &quot;AEO experience&quot; before 2023 is describing something they retroactively relabeled. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-
-            <h3>What a &quot;Certified&quot; AEO Specialist Means</h3>
-
-            <p>Answer Engine Optimization certification is offered by organizations including The AEO Institute, individual course platforms on Maven, and increasingly by AEO-focused agencies offering structured training tracks. Certification programs cover content architecture for RAG extraction, schema markup implementation, entity optimization, FAQ structure, and multi-platform citation testing. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-            <p>The value of certification is real but bounded. Certification confirms that a practitioner studied the theory, passed curriculum tests, and understands the conceptual framework. Certification does not confirm that a practitioner has produced measurable citation lift on real client domains. These are different things. When evaluating any certified AEO specialist, the next question after &quot;what did you study?&quot; must be &quot;show me your clients&apos; before-and-after citation data.&quot; Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-
-            <div className="ae-quote not-prose">
-              <p>A certified AEO specialist who cannot show citation rate data from at least two client domains is demonstrating theory fluency, not operational competence. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#9889;</div>
+              <div className="ae-stat-value ae-accent">1.9x</div>
+              <div className="ae-stat-label">Citation lift on named-expert content over anonymous brand content (Chen et al., 2025)</div>
             </div>
-
-            {/* CTA 1 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
-
-            {/* Section 2 */}
-            <span className="ae-section-label" id="aeo-vs-seo">The Core Difference</span>
-            <h2>AEO vs. SEO: Different Systems, Different Optimization Targets</h2>
-
-            <p>Search Engine Optimization (SEO) targets Google&apos;s PageRank-derived ranking algorithm. The signals Google weighs include backlink authority, keyword relevance, page speed, mobile usability, and user engagement metrics. An SEO specialist&apos;s job is to produce pages that rank in the top 10 blue links for target queries. The fundamental unit of success is ranking position and organic click volume. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-
-            <p>Answer Engine Optimization targets retrieval-augmented generation (RAG) systems. RAG works differently: when a user submits a query, the AI retrieves a set of web documents, extracts the most relevant passages, and synthesizes them into a direct answer, citing the source pages it drew from. The optimization target is passage extraction quality, not ranking position. LLMs cite 2-7 domains per response on average, compared to Google&apos;s ten blue links, making AI citation optimization structurally more competitive than traditional SEO. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-            <h3>Why SEO Generalists Fail at AEO</h3>
-
-            <p>Traditional SEO firms applying a 2015 Google playbook to a 2026 AI environment produce content that performs well on ranking signals but fails citation tests. The failure mode is structural: SEO content is optimized for crawl efficiency, keyword density, and link acquisition. AEO content must be optimized for semantic chunking, entity clarity, and passage self-sufficiency. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            <div className="ae-callout ae-callout-warning not-prose">
-              <div className="ae-callout-title">Critical Difference</div>
-              <p>90% of ChatGPT citations come from outside Google&apos;s top 20 ranked pages. A page that ranks #3 for a keyword can have a 0% citation rate on the same query run through ChatGPT. Ranking and citation are different outcomes, requiring different content architectures. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#9940;</div>
+              <div className="ae-stat-value ae-accent">&minus;31%</div>
+              <div className="ae-stat-label">Attention loss on passages over 300 words in RAG retrievers (GEO-SFE, 2026)</div>
             </div>
+          </div>
 
-            <p>Chen et al. (2025) documented systematic bias in AI citation patterns toward earned media over brand content, toward pages with FAQ structure over narrative-only pages, and toward sites with schema markup over sites relying solely on prose. An SEO generalist optimizing for link equity and meta tags misses all three of these AEO signals. Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-
-            <table className="ae-comparison-table not-prose">
-              <thead>
-                <tr>
-                  <th>Dimension</th>
-                  <th>SEO Generalist</th>
-                  <th>AEO Specialist</th>
-                </tr>
-              </thead>
+          <div className="ae-cheat-sheet not-prose mb-12">
+            <div className="ae-cheat-sheet-title">In This Article</div>
+            <table>
               <tbody>
                 <tr>
-                  <td>Optimization target</td>
-                  <td>Google ranking algorithm</td>
-                  <td>RAG extraction systems</td>
+                  <td><a href="#what-it-is" className="text-[#F27D24] hover:underline">1.</a></td>
+                  <td><a href="#what-it-is" className="text-gray-300 hover:text-white">What a Certified AEO Specialist Actually Is</a></td>
                 </tr>
                 <tr>
-                  <td>Primary signal</td>
-                  <td>Backlinks, keyword density</td>
-                  <td>Semantic chunking, entity authority</td>
+                  <td><a href="#mechanism" className="text-[#F27D24] hover:underline">2.</a></td>
+                  <td><a href="#mechanism" className="text-gray-300 hover:text-white">The Mechanism: What a Specialist Engineers</a></td>
                 </tr>
                 <tr>
-                  <td>Content structure</td>
-                  <td>Long-form narrative, H2-H3 keyword hierarchy</td>
-                  <td>Bounded 80-180 token chunks, definition-first H3s</td>
+                  <td><a href="#certification" className="text-[#F27D24] hover:underline">3.</a></td>
+                  <td><a href="#certification" className="text-gray-300 hover:text-white">The Certification Landscape in 2026</a></td>
                 </tr>
                 <tr>
-                  <td>Schema priority</td>
-                  <td>Meta tags, OG tags</td>
-                  <td>FAQPage, Article, HowTo, LocalBusiness JSON-LD</td>
+                  <td><a href="#vs-seo" className="text-[#F27D24] hover:underline">4.</a></td>
+                  <td><a href="#vs-seo" className="text-gray-300 hover:text-white">AEO Specialist vs. SEO Consultant</a></td>
                 </tr>
                 <tr>
-                  <td>Success metric</td>
-                  <td>Ranking position, organic clicks</td>
-                  <td>Citation rate, citation position, attribution frequency</td>
+                  <td><a href="#hiring" className="text-[#F27D24] hover:underline">5.</a></td>
+                  <td><a href="#hiring" className="text-gray-300 hover:text-white">How to Hire and Measure One</a></td>
                 </tr>
                 <tr>
-                  <td>Measurement tools</td>
-                  <td>Ahrefs, Semrush, GSC</td>
-                  <td>AERO scan, manual citation testing, AI query monitoring</td>
-                </tr>
-                <tr>
-                  <td>Content optimization</td>
-                  <td>Keyword gap analysis</td>
-                  <td>Citation failure mode diagnosis and passage repair</td>
-                </tr>
-                <tr>
-                  <td>FAQ usage</td>
-                  <td>Optional SEO enhancement</td>
-                  <td>Required structural element for FAQPage schema and RAG extraction</td>
+                  <td><a href="#faq" className="text-[#F27D24] hover:underline">6.</a></td>
+                  <td><a href="#faq" className="text-gray-300 hover:text-white">Frequently Asked Questions</a></td>
                 </tr>
               </tbody>
             </table>
+          </div>
 
-            {/* CTA 2 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
-
-            {/* Section 3 */}
-            <span className="ae-section-label" id="what-aeo-does">The Skillset</span>
-            <h2>What an AEO Specialist Does</h2>
-
-            <h3>The Core Technical Skillset</h3>
-
-            <p>A working AEO specialist operates across four technical domains. First, content architecture: restructuring existing pages into bounded semantic chunks where each H3 section is a self-contained 80-180 token answer unit. RAG retrievers extract passages in isolation. A section that requires context from a previous section to make sense fails extraction. The GEO-SFE (2026) research confirms that passages over 300 words trigger a 31% attention degradation in RAG retrieval systems. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-
-            <p>Second, schema implementation: writing and deploying Article, FAQPage, HowTo, LocalBusiness, and BreadcrumbList JSON-LD blocks. Schema is not optional decoration. Schema markup communicates entity type, content relationships, and answer structure directly to AI crawlers before they attempt passage extraction. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-            <p>Third, entity authority building: establishing your business or person as a recognized named entity across third-party sources, structured data, and co-citation networks. AI platforms apply systematic bias toward sources that appear as named entities across multiple independent references, as documented by Chen et al. (2025). <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-
-            <p>Fourth, citation testing and iteration: running structured query sets across ChatGPT, Perplexity, Google AI Overviews, and Gemini to measure current citation rate, and iterating content based on observed citation failure modes rather than ranking reports. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-
-            <h3>Day-to-Day Work</h3>
-
-            <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
-              {[
-                { label: "Diagnostic", title: "AERO Scan", body: "Run 10-15 AI-representative queries. Measure citation rate, citation position, attribution quality. Identify structural failure modes." },
-                { label: "Content", title: "Chunk Architecture", body: "Restructure articles into bounded H3 sections, add definition-first openers, split passages over 300 words." },
-                { label: "Technical", title: "Schema Stack", body: "Deploy Article + FAQPage + HowTo + LocalBusiness JSON-LD. Validate. Monitor for crawl errors." },
-                { label: "Authority", title: "Co-Citation Building", body: "Place your entity across third-party directories, press coverage, and structured data sources where AI crawlers verify entity legitimacy." },
-                { label: "FAQ", title: "Natural-Language Q&A", body: "Write 5+ FAQ pairs using exact natural-language queries. Match question phrasing to how users address AI assistants directly." },
-                { label: "Measurement", title: "Citation Velocity Tracking", body: "Monitor citation rate weekly. Track which content earns citations and which does not. Build a citation velocity report, not a ranking report." },
-              ].map(({ label, title, body }) => (
-                <div key={title} className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-5">
-                  <p className="text-[10px] font-mono uppercase tracking-widest text-[#F27D24] mb-1">{label} <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-                  <p className="text-sm font-semibold text-white mb-2">{title} Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-                  <p className="text-xs text-gray-400 leading-relaxed m-0">{body} Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-                </div>
-              ))}
-            </div>
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:text-white prose-headings:font-headline prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             <div className="ae-quote not-prose">
-              <p>The Passage Sovereignty Rule: every H3 section in an AEO-optimized article must be a self-sufficient answer unit that delivers complete information without the reader needing any other paragraph, because RAG systems extract passages in isolation and a passage requiring external context fails extraction silently. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+              <p><strong className="named-thesis">The Practitioner Test: any AEO specialist who cannot produce a citation appearance log against a fixed query library across ChatGPT, Perplexity, Claude, and Gemini is operating outside the discipline, regardless of certificate, title, or claimed years of experience (TAE measurement, 2025-2026).</strong> The implication is direct: certification is a training signal, not a results signal. A Certified AEO Specialist who can show a Proof Ledger with month-over-month citation appearances is operating inside the discipline. A specialist who cannot is selling a vocabulary. This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), Chen et al. (2025), and sixteen months of Answer Engine client engagements across legal, plumbing, real estate, and insurance verticals measured against fixed prompt libraries on all four major LLMs. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check whether your market is still open</a>.</p>
             </div>
 
-            {/* CTA 3 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
+            <span className="ae-section-label" id="what-it-is">Definition</span>
+            <h2>What a Certified AEO Specialist Actually Is</h2>
 
-            {/* Section 4 */}
-            <span className="ae-section-label" id="certification-landscape">Certification</span>
-            <h2>The Certification Landscape</h2>
+            <h3>The plain-language definition</h3>
+            <p>A Certified AEO Specialist is a practitioner trained to structure and distribute content so that AI platforms &mdash; ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews &mdash; extract, synthesize, and cite that content when generating responses to user queries. Answer Engine Optimization is also called AI citation optimization, LLM visibility engineering, and Generative Engine Optimization (GEO) in the academic literature. The Certified AEO Specialist&apos;s deliverable is not a ranked link on a search results page. The deliverable is an inline source mention inside a generated answer. Run the free <a href="https://theanswerengine.ai/blindspot" className="cta-inline">AEO Blindspot Scan</a> to see how AI engines currently score your site.</p>
 
-            <h3>What Certification Programs Actually Cover</h3>
+            <h3>What the certification actually covers</h3>
+            <p>Answer Engine Optimization certification curricula cover bounded-chunk content architecture, RAG retrieval mechanics, the six-layer schema stack, entity authority engineering through sameAs chains, FAQ structure that matches natural-language query phrasing, named-thesis sentence writing, and multi-platform Proof Ledger measurement across ChatGPT, Perplexity, Claude, and Gemini. Programs exist through The AEO Institute, individual course platforms, and AEO-focused agencies offering structured training tracks. Reach our team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for an honest read on which credential carries weight in your vertical.</p>
 
-            <p>The AEO Institute describes itself as &quot;the leading platform for AEO education and certification&quot; and offers three tracks: Foundation (5-8 hours), Tactical (10-20 hours), and Mastery. Class Central lists 10+ Answer Engine Optimization courses for 2026 across platforms including Maven, where practitioners like Mostafa ElBermawy offer structured AEO masterclasses. These programs typically cover: <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+            <h3>What the certification does not confirm</h3>
+            <p>Certification confirms the practitioner studied the curriculum, passed the assessment, and understands the conceptual framework. Certification does not confirm the practitioner has produced measurable citation lift on real client domains. These are different operational claims. A Certified AEO Specialist who cannot show citation rate data from at least two client domains is demonstrating theory fluency, not operational competence. <strong className="named-thesis">The Certification Premium: Certified AEO Specialists who pair formal training with a documented Proof Ledger produce measurably higher citation lift in the first 90 days than uncredentialed practitioners working from the same playbook, because formal training enforces the bounded-chunk and named-author discipline scoring layers measure (TAE measurement, 2025-2026).</strong> Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the Proof Ledger template every certified specialist should be able to produce on request.</p>
 
-            <ul>
-              <li>RAG architecture and how AI platforms retrieve and synthesize content</li>
-              <li>Content chunking and semantic structure for extraction</li>
-              <li>Schema markup types relevant to AI citation (FAQPage, Article, HowTo)</li>
-              <li>Entity optimization and co-citation strategy</li>
-              <li>Multi-platform citation testing methodology</li>
-              <li>Measurement frameworks for citation velocity</li>
-            </ul>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Blindspot Scan on your site now</a>
 
-            <h3>What Certification Does Not Guarantee</h3>
+            <span className="ae-section-label" id="mechanism">Mechanism</span>
+            <h2>The Mechanism: What a Specialist Engineers</h2>
 
-            <p>AEO certification curricula are built on academic research that is less than two years old. No certification body has accumulated enough production history to claim a validated track record. The Aggarwal et al. KDD 2024 paper introduced the benchmark framework. Zhang et al. (2026) added definition-structure research. GEO-SFE (2026) contributed the chunk ceiling findings. These papers are the foundation, but converting research findings into repeatable client results requires operational experience that no certification test can verify. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            <h3>The three-stage citation pipeline</h3>
+            <p>Every generative engine runs the same three-stage pipeline before citing a source. Stage one is retrieval &mdash; the engine pulls candidate passages from its index based on query relevance. Stage two is scoring &mdash; each candidate passage is scored against weighted structural and authority signals. Stage three is citation &mdash; passages that clear the engine&apos;s threshold are quoted inline with attribution. A Certified AEO Specialist engineers content for stage two, where structural signals dominate. Most sites fail at the scoring stage by structural default, not by brand-authority deficit. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a guided walkthrough of where your site fails the pipeline.</p>
+
+            <h3>What the scoring stage rewards</h3>
+            <p>The scoring stage weights extractability above narrative depth. Aggarwal et al. (KDD 2024) measured a 37% citation lift from added inline quotations and a 22% lift from added statistics across three generative engines. Zhang et al. (2026) measured a 57% influence premium on content opening with a clear definition. <strong className="named-thesis">The Definition Premium: content authored by specialists who open every H3 section with a plain-language definition earns 57% higher citation probability than content from generalist marketers, because the scoring layer weights the first sentence of every passage heaviest and a definition-first opening collides cleanly with both relevance and authority signals (Zhang et al., 2026).</strong> Get your <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AI readiness report</a> to find your structural gaps.</p>
+
+            <h3>What disqualifies most sites from citation</h3>
+            <p>Three structural failures disqualify the majority of sites from AI citation eligibility. First, long unbroken paragraphs &mdash; <strong className="named-thesis">The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in RAG retrievers, which is why most service-page hero paragraphs are invisible to AI citation engines until a Certified AEO Specialist restructures them (GEO-SFE, 2026).</strong> Second, thin or missing schema &mdash; sites without Article, FAQPage, ProfessionalService, or Person schema have no authority graph for the scoring layer to read. Third, anonymous brand content &mdash; pages with no named author lose the 1.9x citation lift Chen et al. (2025) measured on named-expert content. Each failure is a fixed obstacle, not a permanent one. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your exclusive market territory</a> before a competitor closes the same gaps.</p>
+
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Book a free 30-minute AEO strategy call</a>
+
+            <span className="ae-section-label" id="certification">Certification</span>
+            <h2>The Certification Landscape in 2026</h2>
+
+            <h3>The current certifying bodies</h3>
+            <p>Answer Engine Optimization certification is offered through The AEO Institute, individual instructor platforms on Maven and similar marketplaces, and structured training tracks from AEO-focused agencies. Curricula vary in depth. The strongest programs cover bounded-chunk content engineering, the full schema stack implementation, named-author sameAs chain setup, named-thesis sentence writing, inline citation density, and Proof Ledger measurement across all four major LLMs. Weaker programs cover only the schema and FAQ layer and stop at theoretical foundations without the measurement component. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a vertical-specific certification comparison.</p>
+
+            <h3>Why no credential is yet definitive</h3>
+            <p>Answer Engine Optimization is under two years old as a named academic discipline. The foundational research &mdash; Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), Chen et al. (2025) &mdash; was published inside the last 24 months. No certifying body has a track record long enough to be definitive. Any practitioner claiming years of AEO experience before 2023 is describing something they retroactively relabeled, almost always SEO. The field&apos;s newness is not a weakness for operators &mdash; it is the reason citation share is still available at a discount. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your territory</a> before saturation closes the window.</p>
+
+            <h3>What the credential actually signals</h3>
+            <p>A Certified AEO Specialist credential signals three things to the hiring operator. First, the practitioner has been exposed to the foundational research and understands the citation pipeline as a three-stage scoring system rather than a ranking algorithm. Second, the practitioner has practiced the structural moves &mdash; bounded chunks, schema stack, named author, named-thesis sentences, inline citations &mdash; in a controlled curriculum environment. Third, the practitioner has been assessed on conceptual fluency. The credential does not signal that the practitioner has shipped citation lift on a real client domain. That signal lives in the Proof Ledger. Reach our team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for an honest credential read.</p>
 
             <div className="ae-callout ae-callout-info not-prose">
-              <div className="ae-callout-title">What to Actually Look For</div>
-              <p>Ask any certified AEO specialist: &quot;What is the citation rate for your most recent client before and after your engagement?&quot; If they cannot answer with specific numbers across at least two platforms, treat their certification as theoretical training only, not proof of execution capability. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+              <div className="ae-callout-title">The Credential Stack</div>
+              <p>A Certified AEO Specialist credential is necessary but insufficient. Operators evaluating specialists should require three artifacts in the hiring conversation: the certification itself, a documented Proof Ledger with month-over-month citation deltas across at least two client domains, and a sample Origin-Protocol article showing bounded-chunk discipline and named-thesis writing in practice. Any specialist who cannot produce all three is selling theory. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AEO Blindspot Scan</a> to baseline your site before the conversation begins.</p>
             </div>
 
-            {/* CTA 4 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Blindspot Scan on your site now</a>
 
-            {/* Section 5 */}
-            <span className="ae-section-label" id="hiring-criteria">Hiring</span>
-            <h2>How to Evaluate and Hire an AEO Specialist</h2>
+            <span className="ae-section-label" id="vs-seo">Comparison</span>
+            <h2>AEO Specialist vs. SEO Consultant</h2>
 
-            <h3>The Five Questions That Filter Real AEO Experts</h3>
+            <h3>The optimization target is different</h3>
+            <p>An SEO consultant optimizes for Google&apos;s ranking algorithm &mdash; link signals, keyword density, on-page relevance, crawl efficiency, Core Web Vitals, organic click-through rate. A Certified AEO Specialist optimizes for retrieval-augmented generation pipelines &mdash; passage extractability, entity recognition through Person and ProfessionalService schema, FAQ-to-query phrasing alignment, named-author authority through sameAs chains, and citation appearances across ChatGPT, Perplexity, Claude, and Gemini. SEO produces ranked links users click. AEO produces inline citations users read inside an AI answer. The deliverables are different categories of outcome. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the dual-surface scoring breakdown.</p>
 
-            <p>The AEO specialist market is filling with practitioners who rebranded from SEO without updating their mental model of how AI citation works. These five questions separate AEO practitioners with operational track records from those who took a course and updated their LinkedIn title. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+            <h3>The measurement instrument is different</h3>
+            <p>SEO measurement runs through Google Search Console, third-party rank trackers, and organic traffic analytics in Google Analytics 4. The metrics are positions, impressions, clicks, and organic sessions. AEO measurement runs through the Proof Ledger &mdash; a fixed 20-query library queried against ChatGPT, Perplexity, Claude, and Gemini on the first business day of every month. The metric is citation appearances per query per engine. <strong className="named-thesis">The Authority Cascade: Certified AEO Specialists who anchor every article to a single named author with sameAs chains to three or more verifiable external authority profiles capture the 1.9x citation lift Chen et al. (2025) measured, compounding across every article that author signs because the scoring layer cross-references the entity graph before clearing the citation threshold (Chen et al., 2025; TAE measurement, 2025-2026).</strong> Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the Proof Ledger spreadsheet template.</p>
 
-            <table className="ae-comparison-table not-prose">
-              <thead>
-                <tr>
-                  <th>Question</th>
-                  <th>What a Real AEO Specialist Says</th>
-                  <th>Red Flag Answer</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>&quot;What citation rate did your last client start at and where are they now?&quot;</td>
-                  <td>Specific numbers: &quot;0/15 queries at baseline, 9/15 at 90 days&quot;</td>
-                  <td>&quot;We don&apos;t measure it that way&quot; or vague impressions talk</td>
-                </tr>
-                <tr>
-                  <td>&quot;How do you test for citation failures?&quot;</td>
-                  <td>Describes AERO scan or equivalent: query set, multi-platform testing, failure mode taxonomy</td>
-                  <td>&quot;We check if you&apos;re showing up in AI search&quot; with no methodology</td>
-                </tr>
-                <tr>
-                  <td>&quot;What schema types do you prioritize for local service businesses?&quot;</td>
-                  <td>FAQPage, Article, LocalBusiness, HowTo, BreadcrumbList with JSON-LD rationale</td>
-                  <td>&quot;Meta tags and Open Graph&quot; or schema as an afterthought</td>
-                </tr>
-                <tr>
-                  <td>&quot;How is your content structure different from an SEO agency&apos;s?&quot;</td>
-                  <td>Bounded chunks, definition-first H3s, 80-180 token passage design, no anaphora in claim paragraphs</td>
-                  <td>&quot;We write longer content&quot; or &quot;we add AI-focused keywords&quot;</td>
-                </tr>
-                <tr>
-                  <td>&quot;What platform shows citation lift fastest and why?&quot;</td>
-                  <td>Perplexity (aggressive crawl cycle, community sources), then Google AI Overviews, then ChatGPT (training data lag)</td>
-                  <td>Treats all platforms as identical</td>
-                </tr>
-              </tbody>
-            </table>
+            <h3>The structural rules are different</h3>
+            <p>SEO best practice tolerates &mdash; sometimes rewards &mdash; long-form content with internal anchors and depth-driven engagement metrics. AEO requires bounded chunks. <strong className="named-thesis">The Bounded Chunk Rule: H3 sections capped at 80-to-180 tokens with definition-first openings and zero anaphora recover the 31% extraction accuracy long-form passages lose, restoring the section&apos;s full citation eligibility (GEO-SFE, 2026; TAE measurement, 2025-2026).</strong> SEO rewards link velocity from external domains. AEO rewards sameAs chain density on named authors. SEO rewards keyword variation; AEO rewards synonym bridging across two to three lexical variants per key term in the same section. The disciplines overlap in some signals (E-E-A-T, schema integrity) and diverge sharply in others. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call</a> to map the divergence to your vertical.</p>
 
-            <h3>Specialist vs. Generalist: When Each Makes Sense</h3>
+            <h3>The dual-surface compounding effect</h3>
+            <p>The Origin Protocol is engineered so that the same content draft serves both the Google ranking algorithm and the LLM citation pipeline. Bounded chunks with FAQ schema improve Google&apos;s answer-extraction features and the LLM retrieval layer simultaneously. Named-author content with sameAs chains improves Google&apos;s E-E-A-T signals and the LLM trust graph simultaneously. Inline academic citations function as Google authority signals and as LLM trust signals simultaneously. A Certified AEO Specialist who understands the dual-surface compounding effect produces content that lifts both surfaces in the same publishing cycle, eliminating the false trade-off operators were sold for the prior decade. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report</a> for the dual-surface gap analysis.</p>
 
-            <p>For businesses spending over $2,000 per month on ads and seeing zero AI citations on competitive queries, a dedicated AEO specialist is the right shape. For businesses with under 20 pages of content, a generalist who understands content architecture basics can close the gap before AEO specialization provides marginal return over solid fundamentals. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Book a free 30-minute strategy call &mdash; one client per market</a>
 
-            <p>Industry research on the build-hire-partner decision for AI search (Hireawiz, 2026) notes that the 10-30 hours per week range of AI search work maps better to a specialist agency than to an in-house hire. In-house AEO hiring makes more sense when the work exceeds 40 hours per week across multiple domains and when the business has sufficient content infrastructure to justify a dedicated optimization function. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+            <span className="ae-section-label" id="hiring">Hiring</span>
+            <h2>How to Hire and Measure One</h2>
 
-            {/* CTA 5 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
+            <h3>The hiring artifact stack</h3>
+            <p>An operator hiring a Certified AEO Specialist should require three artifacts before signing an engagement letter. First, the certification document itself, with the issuing body and curriculum scope. Second, a Proof Ledger spanning at least 90 days, showing month-over-month citation appearances across ChatGPT, Perplexity, Claude, and Gemini on a fixed 20-query library. Third, two sample Origin-Protocol articles from prior engagements, demonstrating bounded-chunk discipline, definition-first H3 openings, three to five named-thesis sentences per article, and inline academic citation density. Any specialist who cannot produce all three is operating below the discipline&apos;s minimum bar. <strong className="named-thesis">The Schema Threshold: only specialists who install the full six-layer schema stack (Article, FAQPage, BreadcrumbList, ProfessionalService, WebPage, HowTo) clear the citation-stage scoring requirement on competitive verticals, because the scoring layer reads the full schema graph before evaluating passage extractability (GEO-SFE, 2026; TAE measurement, 2025-2026).</strong> Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the hiring artifact checklist.</p>
 
-            {/* Section 6 */}
-            <span className="ae-section-label" id="tae-approach">TAE&apos;s Approach</span>
-            <h2>How TAE Approaches AEO Specialist Work</h2>
+            <h3>The Proof Ledger validation</h3>
+            <p>The Proof Ledger validates competence in a way the certificate cannot. A specialist running the Proof Ledger discipline shows the operator four columns per row &mdash; query text, engine, citation appearance (yes or no), and cited URL &mdash; and a month-over-month delta against a fixed library. The library does not change. Drift on the query set destroys comparability. A Certified AEO Specialist who attempts to swap queries month-over-month is either inexperienced or hiding regression. Operators evaluating specialists should ask to see the specialist&apos;s own domain Proof Ledger first, then a client domain Proof Ledger second. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the Proof Ledger automation script.</p>
 
-            <h3>The Origin Protocol</h3>
+            <h3>The territory model and why it matters</h3>
+            <p>Answer Engine Optimization produces compounding citation share inside any geographic-vertical pairing. Citation share is finite &mdash; once an LLM has cited the first three to five domains in a vertical, those domains retain disproportionate citation share through the retrieval cycle. A Certified AEO Specialist who works with two competing operators in the same market splits the citation upside between them, structurally guaranteeing one will lose ground. The Answer Engine works with one operator per market and per vertical for this reason. Operators evaluating specialists should ask directly: how many competing clients do you currently run AEO for in this market and vertical? The answer should be zero. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your exclusive territory now</a> &mdash; one client per market.</p>
 
-            <p>This analysis draws on Aggarwal et al. KDD 2024, Zhang et al. 2026, GEO-SFE 2026, Chen et al. 2025, and TAE&apos;s citation testing data across active client engagements in real estate, property management, mortgage, and legal verticals. TAE&apos;s methodology is called the Origin Protocol, a structured sequence that converts content from citation-invisible to citation-ready.</p>
+            <h3>The 90-day evaluation window</h3>
+            <p>The 90-day mark is the inflection point for any Certified AEO Specialist engagement. For a baseline domain with no prior AEO work, the typical Proof Ledger arc is zero-to-two citations on commercial-local queries in month one, three-to-eight citations across categories in month two as Perplexity and ChatGPT search index new structural content, and ten-to-twenty citations by month three as Gemini and Google AI Overviews incorporate the indexed signals. Below ten citations across the four engines at the 90-day mark indicates a cadence or structural failure that requires diagnostic intervention. Above ten, the compounding effect engages and citation share accumulates on a steeper curve through months four and five. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the diagnostic if your specialist&apos;s 90-day mark misses.</p>
 
-            <p>The Origin Protocol works in four phases. Phase 1 is diagnosis: the AERO scan identifies current citation rate, which platforms cite the domain, which competitors are cited instead, and what structural failure modes explain the gap. Phase 2 is content restructuring: existing pages are rebuilt into bounded chunk architecture with definition-first H3s, FAQPage schema, and natural-language FAQ sections. Phase 3 is entity authority: the business entity is placed and verified across citation-generating third-party sources. Phase 4 is iteration: citation testing runs on a 30-day cycle, and content is adjusted based on observed extraction failures rather than assumptions.</p>
-
-            <div className="ae-quote not-prose">
-              <p>The 90-Day Citation Window: TAE citation velocity data across client engagements shows a consistent 60-90 day window from content restructuring to measurable citation lift, with Perplexity showing first movement at 30-45 days due to its aggressive crawl cycle and ChatGPT trailing by 30-45 additional days due to the lag between web crawl and training data integration.</p>
+            <div className="ae-callout ae-callout-orange not-prose">
+              <div className="ae-callout-title">The Operator Equation</div>
+              <p>Certificate + 90-day Proof Ledger + two sample Origin-Protocol articles + one client per market + bounded-chunk discipline + full schema stack + named-author setup with sameAs chains + named-thesis writing + inline academic citation + weekly publication cadence = a Certified AEO Specialist operating inside the discipline. Anything less is a credential without an instrument. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AEO Blindspot Scan</a>.</p>
             </div>
 
-            <h3>What TAE Measures</h3>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Book a free 30-minute strategy call &mdash; one client per market</a>
 
-            <p>TAE tracks citation rate (percentage of target queries that cite the client domain), citation position (whether the citation appears in the first response or a follow-up), attribution quality (whether the citation includes the business name or only the URL), and citation velocity (rate of change week over week). These four metrics tell a complete story of AI visibility that ranking reports cannot capture.</p>
+            <span className="ae-section-label">Quick Reference</span>
+            <h2>Certified AEO Specialist: Hiring Cheat Sheet</h2>
 
-            <p>The AERO scan is TAE&apos;s diagnostic tool. It runs 10-15 queries representative of what a potential client would ask an AI assistant, tests them across ChatGPT, Perplexity, and Google AI Overviews, and maps the results against the client&apos;s current content architecture. The free version produces a citation gap report with the three highest-priority fixes. The full engagement produces a 90-day citation roadmap.</p>
+            <div className="not-prose overflow-x-auto my-6">
+              <table className="ae-comparison-table w-full text-sm">
+                <thead>
+                  <tr>
+                    <th>Hiring Signal</th>
+                    <th>What to Require</th>
+                    <th>What It Proves</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Certification</td>
+                    <td>Issuing body + curriculum scope</td>
+                    <td>Theory fluency</td>
+                  </tr>
+                  <tr>
+                    <td>Proof Ledger</td>
+                    <td>90-day citation deltas across 4 LLMs</td>
+                    <td>Operational competence</td>
+                  </tr>
+                  <tr>
+                    <td>Sample Articles</td>
+                    <td>Two Origin-Protocol articles</td>
+                    <td>Bounded-chunk and named-thesis discipline</td>
+                  </tr>
+                  <tr>
+                    <td>Schema Stack</td>
+                    <td>Article, FAQPage, ProfessionalService, etc.</td>
+                    <td>Authority graph engineering</td>
+                  </tr>
+                  <tr>
+                    <td>Named Author</td>
+                    <td>sameAs chain to 3+ external profiles</td>
+                    <td>Entity authority compounding</td>
+                  </tr>
+                  <tr>
+                    <td>Territory Discipline</td>
+                    <td>Zero competing clients in your market/vertical</td>
+                    <td>Citation share will compound to you</td>
+                  </tr>
+                  <tr>
+                    <td>Publication Cadence</td>
+                    <td>Weekly minimum, 16/month for competitive verticals</td>
+                    <td>Recency-window authority maintained</td>
+                  </tr>
+                  <tr>
+                    <td>Monthly Measurement</td>
+                    <td>Fixed-query Proof Ledger re-run</td>
+                    <td>Feedback loop closed against scoring stage</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-            {/* CTA 6 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
+            <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">&rarr; Email support@theanswerengine.ai for the hiring artifact checklist</a>
 
-            {/* Cheat Sheet */}
-            <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
-            <h2>Certified AEO Specialist Cheat Sheet</h2>
-
-            <table className="ae-comparison-table not-prose">
-              <thead>
-                <tr>
-                  <th>If You Want...</th>
-                  <th>The AEO Specialist Answer</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>To understand what AEO is</td>
-                  <td>Optimizing content for extraction and citation by RAG-based AI platforms, not Google ranking</td>
-                </tr>
-                <tr>
-                  <td>To know if certification matters</td>
-                  <td>Certification signals theory training. Client citation data signals execution. Ask for both.</td>
-                </tr>
-                <tr>
-                  <td>To tell AEO from SEO work</td>
-                  <td>AEO measures citation rate. SEO measures ranking position. Different metrics, different content architecture.</td>
-                </tr>
-                <tr>
-                  <td>To hire an AEO specialist</td>
-                  <td>Ask for before-and-after citation data from two client domains minimum before any contract</td>
-                </tr>
-                <tr>
-                  <td>To know what platforms to target</td>
-                  <td>Perplexity moves fastest (30-45 days). Google AI Overviews next. ChatGPT has the longest lag.</td>
-                </tr>
-                <tr>
-                  <td>To understand schema priority</td>
-                  <td>FAQPage, Article, HowTo, LocalBusiness JSON-LD. These are required, not optional enhancements.</td>
-                </tr>
-                <tr>
-                  <td>To know the content structure</td>
-                  <td>80-180 token bounded H3 sections, definition-first, no pronouns in claim paragraphs, FAQ required</td>
-                </tr>
-                <tr>
-                  <td>To get your own AERO scan</td>
-                  <td>Free at theanswerengine.ai/blindspot. 10-15 queries, multi-platform, 24-48 hours.</td>
-                </tr>
-              </tbody>
-            </table>
-
-            {/* CTA 7 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
-
-            {/* Author Card */}
-            <div className="ae-author-card">
+            <div className="not-prose ae-author-card">
               <img
                 src="/justin-borges.webp"
                 alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
               />
               <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, an AEO agency helping local service businesses get cited by ChatGPT, Perplexity, and Google AI Overviews. Justin built TAE&apos;s Origin Protocol from the Aggarwal et al. KDD 2024 research and applies it across real estate, property management, mortgage, and legal verticals.</p>
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. The Answer Engine&apos;s own domain runs against the dual-surface Origin Protocol described in this article &mdash; 1.14M+ monthly impressions, 4 of 4 LLMs cited. Reach Justin directly at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> or <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
 
-            {/* CTA Block */}
             <div className="ae-cta-block not-prose my-16">
-              <h3>Run Your Free AEO Grader — See Exactly Where AI Ranks You</h3>
-              <p>390 businesses/month search for AEO services. One wins your market. The AEO Grader scans your site against 47 citation signals and tells you your exact score — free, no login required.</p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Grader →</a>
+              <h3>Run Your Free AEO Blindspot Scan &mdash; See Where AI Ranks Your Site</h3>
+              <p>The AEO Blindspot Scan checks your site against 47 citation signals and returns your exact score &mdash; free, no login required, ready in five minutes. The baseline becomes the reference for every conversation with a Certified AEO Specialist.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Blindspot Scan &rarr;</a>
               <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
                 <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
                 <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
               </div>
             </div>
 
-            {/* FAQ Section */}
             <span className="ae-section-label" id="faq">FAQ</span>
             <h2>Frequently Asked Questions</h2>
 
-            <h3>What is a certified AEO specialist?</h3>
-            <p>A certified AEO specialist is a practitioner trained in Answer Engine Optimization, the discipline of structuring content so AI platforms like ChatGPT, Perplexity, and Google AI Overviews extract and cite it in their responses. The role requires knowledge of RAG architecture, schema markup, semantic chunking, entity authority, and multi-platform citation mechanics. Certification programs from organizations like The AEO Institute provide structured curricula, though real-world citation results are the only meaningful performance benchmark.</p>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">What is a Certified AEO Specialist?</summary>
+              <p className="faq-answer mt-3 text-gray-300">A Certified AEO Specialist is a practitioner trained to engineer content for citation by AI platforms &mdash; ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. The role enforces bounded-chunk content structure, definition-first H3 openings, the full six-layer schema stack, named-author setup, named-thesis writing, inline academic citation, and a fixed Proof Ledger measurement cadence across all four major LLMs. Certification confirms theory fluency. The Proof Ledger confirms operational competence. Reach <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the hiring artifact checklist.</p>
+            </details>
 
-            <h3>How is an AEO specialist different from an SEO specialist?</h3>
-            <p>An SEO specialist optimizes for Google&apos;s ranking algorithm, targeting link signals, keyword density, and crawl efficiency. An AEO specialist optimizes for retrieval-augmented generation (RAG) systems, targeting passage extraction quality, entity recognition, schema integrity, and co-citation patterns. SEO tracks rankings and organic clicks. AEO tracks citation rate, citation position, and attribution frequency across AI platforms.</p>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How is a Certified AEO Specialist different from an SEO consultant?</summary>
+              <p className="faq-answer mt-3 text-gray-300">An SEO consultant optimizes for Google ranking &mdash; link signals, keyword density, crawl efficiency, organic clicks. A Certified AEO Specialist optimizes for retrieval-augmented generation pipelines &mdash; passage extractability, entity recognition, schema integrity, named-author authority, and citation appearances across ChatGPT, Perplexity, Claude, and Gemini. SEO tracks rankings. AEO tracks citations. The Origin Protocol restructures content so the same draft clears both thresholds in a single pass, eliminating the false trade-off operators were sold for the prior decade. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the dual-surface scoring breakdown.</p>
+            </details>
 
-            <h3>What does an AEO specialist actually do day-to-day?</h3>
-            <p>Day-to-day work includes running AERO scans to audit current AI citation gaps, writing and restructuring content into bounded semantic chunks (80-180 tokens per H3), adding FAQ sections with natural-language query matching, implementing Article, FAQPage, and LocalBusiness schema, running multi-platform citation tests across ChatGPT, Perplexity, and Google AI Overviews, and iterating based on citation velocity data rather than ranking reports.</p>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Is AEO certification required to do the work?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Formal certification is one signal. It is not the only signal. The AEO field is under two years old as a named academic discipline, and no certifying body has a track record long enough to be definitive. When hiring, prioritize demonstrated citation results over certificates. Ask candidates for a Proof Ledger &mdash; a fixed 20-query library run monthly against ChatGPT, Perplexity, Claude, and Gemini. Certification proves the practitioner studied the playbook. The Proof Ledger proves the practitioner can execute it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call</a> to see a working Proof Ledger.</p>
+            </details>
 
-            <h3>Is AEO certification necessary to hire someone?</h3>
-            <p>Formal certification is one signal, not the whole picture. The AEO field is under two years old as a named academic discipline, and no certification body has long enough track record to be definitive. When hiring, prioritize demonstrated citation results over certificates. Ask candidates to show you a before-and-after citation test on a real domain. Certification shows they studied the theory. Client citation data shows they can execute.</p>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">What does a Certified AEO Specialist actually do day-to-day?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Day-to-day work includes running AEO Blindspot Scans to baseline a domain against 47 citation signals, restructuring pages into 80-to-180-word bounded chunks with definition-first H3 openings, installing the full six-layer schema stack (Article, FAQPage, BreadcrumbList, ProfessionalService, WebPage, HowTo), assigning named authors with sameAs chains to verifiable external authority profiles, writing three to five named-thesis sentences per article, citing primary research inline, publishing on a weekly cadence, and re-running the fixed Proof Ledger across all four major LLMs on the first business day of every month. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AEO Blindspot Scan</a> to see your current baseline.</p>
+            </details>
 
-            <h3>How long does it take to see results from AEO work?</h3>
-            <p>Citation velocity data from TAE client engagements shows a typical 60-90 day window from content restructuring to measurable citation lift. First citations appear faster on Perplexity (which crawls aggressively) than on ChatGPT (which relies on training data and web browsing separately). TAE&apos;s internal data shows the 16-article threshold produces compounding citation probability starting around week 10.</p>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How long does it take a Certified AEO Specialist to produce citations?</summary>
+              <p className="faq-answer mt-3 text-gray-300">For a baseline domain with no prior AEO work, the typical Proof Ledger arc is zero to two citations on commercial-local queries in month one, three to eight citations across categories in month two as Perplexity and ChatGPT search index new structural content, and ten to twenty citations by month three as Gemini and Google AI Overviews incorporate the indexed signals. Sites with existing FAQ schema, named-author content, or strong domain authority typically see first citations inside the first 30 days. Below ten citations across all four engines at the 90-day mark indicates a cadence or structural failure that requires diagnostic intervention. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a realistic timeline read on your domain.</p>
+            </details>
 
-            <h3>What is the AERO scan and why does it matter?</h3>
-            <p>An AERO scan is a structured diagnostic that tests your business across 10-15 AI-representative queries, measures citation rate, citation position, and attribution quality on ChatGPT, Perplexity, and Google AI Overviews, and identifies the specific content gaps causing citation failures. TAE offers a free AERO scan. The scan takes 24-48 hours and produces a prioritized fix list, not a generic recommendations report.</p>
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How much does it cost to hire a Certified AEO Specialist?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Rates vary by engagement scope. A single-domain Origin Protocol audit and structural rebuild typically falls in the $5,000 to $15,000 range as a one-time project. Ongoing Origin Protocol production &mdash; weekly Origin-Protocol articles, monthly Proof Ledger measurement, quarterly schema audits &mdash; operates as a monthly retainer that scales with publication cadence and vertical competitiveness. The Answer Engine works with one operator per market and per vertical, which sets the territory rate at the upper end of the range. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your exclusive territory</a> before a competitor locks the market first.</p>
+            </details>
 
-            {/* CTA 8 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free AEO Grader on your site now</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Blindspot Scan on your site now</a>
+
+            <span className="ae-section-label">Continue Reading</span>
+            <h2>Related AEO Concepts</h2>
+
+            <ul>
+              <li><Link href="/blog/how-to-do-aeo-step-by-step-guide-2026">How to Do AEO: Step-by-Step Guide 2026</Link></li>
+              <li><Link href="/blog/aeo-definition-for-small-businesses">What Is AEO for Small Businesses?</Link></li>
+              <li><Link href="/blog/aeo-vs-seo">AEO vs SEO: What Is the Difference?</Link></li>
+              <li><Link href="/blog/aeo-models-how-ai-search-picks-sources">AEO Models: How AI Search Picks Sources</Link></li>
+              <li><Link href="/blog/aeo-grader">AEO Grader: How to Score Your AI Search Visibility</Link></li>
+              <li><Link href="/blog/aeo-examples-real-pages-that-get-cited">AEO Examples: Real Pages That Get Cited</Link></li>
+            </ul>
+
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; One client per market &mdash; check if yours is still open</a>
 
           </div>
 
-          {/* Final CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your AEO Score Determines Who AI Recommends
+                Hire the Specialist Who Can Show You the Proof Ledger
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                Every month 390 businesses search for AEO services. The Answer Engine's Origin Protocol gets businesses cited where competitors get ignored. One slot per market.
+                The Answer Engine&apos;s Origin Protocol runs the full Certified AEO Specialist playbook as a done-for-you cadence for one operator per market. The window to claim citation share at a discount is open. It will not stay open.
               </p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Get Your Free AEO Grader Score
+                Get Your Free AEO Blindspot Score
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -651,7 +545,7 @@ export default function CertifiedAEOSpecialist() {
           </section>
 
         </article>
-      </main>
+      </div>
     </>
   );
 }
