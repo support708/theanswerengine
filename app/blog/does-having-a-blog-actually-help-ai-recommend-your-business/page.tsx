@@ -3,25 +3,25 @@ import Link from 'next/link'
 
 
 const title = 'Does Having a Blog Actually Help AI Recommend Your Business?'
-const description = 'Blogging alone does not get you cited by ChatGPT. The myth-busting truth: what type of blog content AI reads, what it ignores, and why most business blogs are invisible to AI despite being perfectly readable by humans.'
+const description = 'Blogging alone does not get you cited by ChatGPT. We unpack what AI reads, what it ignores, and why most business blogs are invisible to AI despite ranking on Google.'
 const slug = 'does-having-a-blog-actually-help-ai-recommend-your-business'
 const publishDate = '2026-03-25'
 
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
-  keywords: ['does blogging help AI', 'blog AI recommendations', 'blog content ChatGPT citations', 'business blog AI visibility', 'blog SEO AI search', 'content marketing AI era', 'Answer Engine Optimization blog', 'AI citations blog posts'],
+  keywords: 'does blogging help AI, blog AI recommendations, blog content ChatGPT citations, business blog AI visibility, Answer Engine Optimization, AEO, LLM visibility, AI citations',
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['Justin Borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
   },
-  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.svg`] },
+  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.webp`] },
   alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
 }
 
@@ -32,7 +32,7 @@ const jsonLd = {
       '@type': 'Article',
       headline: title,
       description,
-      image: `https://theanswerengine.ai/blog/${slug}.svg`,
+      image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
@@ -40,14 +40,10 @@ const jsonLd = {
         '@id': 'https://theanswerengine.ai/about#justin-borges',
         name: 'Justin Borges',
         jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
-        },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
+        sameAs: ['https://linkedin.com/in/justinborges'],
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'LLM Citation Strategy', 'Generative Engine Optimization'],
       },
       publisher: {
         '@type': 'Organization',
@@ -57,8 +53,8 @@ const jsonLd = {
       },
       mainEntityOfPage: { '@type': 'WebPage', '@id': `https://theanswerengine.ai/blog/${slug}` },
       articleSection: 'Myth Busters',
-      keywords: 'does blogging help AI, blog content ChatGPT citations, business blog AI visibility, content marketing AI era, Answer Engine Optimization blog',
-      wordCount: 3100,
+      keywords: 'does blogging help AI, blog content ChatGPT citations, business blog AI visibility, Answer Engine Optimization, AEO blog strategy',
+      wordCount: 3200,
       inLanguage: 'en-US',
     },
     {
@@ -122,16 +118,51 @@ const jsonLd = {
         { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
       ],
     },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+      telephone: '(213) 444-2229',
+      email: 'support@theanswerengine.ai',
+      areaServed: { '@type': 'Country', name: 'United States' },
+      address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+      founder: { '@type': 'Person', name: 'Justin Borges' },
+      foundingDate: '2025',
+      sameAs: ['https://linkedin.com/company/theanswerengine'],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'AEO Services',
+        itemListElement: [
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Answer Engine Optimization' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AEO Content Production' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'LLM Citation Building' } },
+        ],
+      },
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      description,
+      inLanguage: 'en-US',
+      isPartOf: { '@type': 'WebSite', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block', '.named-thesis'],
+      },
+    },
   ],
 }
 
 export default function BlogPost() {
   return (
-    <>
+    <div className="min-h-screen bg-[#131313]">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* BREADCRUMB */}
-      <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
+      <div className="max-w-4xl mx-auto px-6 pt-24 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
           <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
@@ -156,9 +187,9 @@ export default function BlogPost() {
           <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Myth Busters</span>
           <time className="text-gray-500 text-sm">{publishDate}</time>
         </div>
-        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">{title}</h1>
-        <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">
-          You have a blog. You publish regularly. You cover the topics your customers search for. So why isn&apos;t ChatGPT recommending you? The uncomfortable answer: most business blogs are structured for humans and ignored by AI. Here is the evidence, the nuance, and the exact line between a blog that gets cited and one that gets skipped.
+        <h1 className="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter text-white leading-tight mb-6">{title}</h1>
+        <p className="article-summary font-body text-gray-400 text-lg leading-relaxed max-w-2xl">
+          You have a blog. You publish regularly. You cover the topics your customers search for. So why is ChatGPT not recommending you? The uncomfortable answer: most business blogs are structured for humans and ignored by AI. Here is the evidence, the nuance, and the exact line between a blog that gets cited and one that gets skipped.
         </p>
         <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">
           <span>By Justin Borges</span>
@@ -167,12 +198,12 @@ export default function BlogPost() {
         </div>
       </header>
 
-      <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+      <article className="ae-article-body max-w-4xl mx-auto px-6 pb-20">
+        <div className="prose prose-invert prose-lg max-w-none">
 
           {/* TABLE OF CONTENTS */}
-          <div className="ae-toc not-prose">
-            <div className="ae-toc-title">Table of Contents</div>
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">Table of Contents</div>
             <ul>
               <li><a href="#the-myth">The Myth: Any Blog Helps AI Find You</a></li>
               <li><a href="#what-ai-reads">What AI Actually Looks for in Blog Content</a></li>
@@ -187,31 +218,35 @@ export default function BlogPost() {
 
           {/* STATS GRID */}
           <div className="ae-stats-grid not-prose">
-            <div className="ae-stat-card">
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">📐</div>
               <div className="ae-stat-value ae-accent">2.8x</div>
               <div className="ae-stat-label">MORE AI CITATIONS WITH ORGANIZED HEADINGS</div>
             </div>
-            <div className="ae-stat-card">
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">📝</div>
               <div className="ae-stat-value ae-accent">5.1</div>
               <div className="ae-stat-label">AVG AI CITATIONS: POSTS OVER 2,900 WORDS</div>
             </div>
-            <div className="ae-stat-card">
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">❓</div>
               <div className="ae-stat-value ae-accent">3.2x</div>
-              <div className="ae-stat-label">MORE GOOGLE AI OVERVIEW APPEARANCES WITH FAQ SCHEMA</div>
+              <div className="ae-stat-label">MORE GOOGLE AI OVERVIEW HITS WITH FAQ SCHEMA</div>
             </div>
-            <div className="ae-stat-card">
+            <div className="ae-stat-card stat-block">
+              <div className="ae-stat-emoji">💰</div>
               <div className="ae-stat-value ae-accent">4.4x</div>
-              <div className="ae-stat-label">HIGHER CONVERSION RATE: AI-REFERRED TRAFFIC</div>
+              <div className="ae-stat-label">HIGHER CONVERSION: AI-REFERRED TRAFFIC</div>
             </div>
           </div>
 
-          <p>
-            The question feels straightforward. You have a blog. You post regularly. Shouldn&apos;t that make AI platforms more likely to recommend your business? The answer is: it depends on factors most blogs completely ignore.
-           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+          <p className="key-insight">
+            The question feels straightforward. You have a blog. You post regularly. Should AI platforms not be more likely to recommend your business? The answer: it depends on factors most blogs completely ignore. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a>
+          </p>
 
           <p>
-            Blogging can help AI visibility dramatically. But the version of blogging most businesses are doing, the keyword-stuffed, thin-content, SEO-for-Google approach, has almost no effect on whether ChatGPT, Perplexity, or Google AI Overviews surface your name when a potential customer asks for a recommendation.
-           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+            <strong className="named-thesis">The Structure Premium: blog content that opens with a definition, then delivers a self-contained answer within 80 to 180 words, earns a measurable citation lift across ChatGPT, Perplexity, and Google AI Overviews — Zhang et al. (2026) measured a 57 percent influence premium for definition-first passages.</strong> Blogging done the way most businesses do it — keyword-stuffed, thin-content, optimized for Google rankings — has almost no effect on whether AI platforms surface your name when a potential customer asks for a recommendation. Start with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan</a> to see where your content sits.
+          </p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Myth Alert</div>
@@ -242,8 +277,8 @@ export default function BlogPost() {
           </div>
 
           <p>
-            There is also the external validation problem. AI platforms do not evaluate your blog in isolation. They look for corroboration: are other sources referencing this content? Are there brand mentions across trusted sites? A well-structured blog post that no one has ever linked to, discussed, or quoted still registers as a low-authority source to AI. Blogging without a distribution and citation strategy is like building a library that no one visits.
-           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            There is also the validation problem. AI platforms do not evaluate a blog in isolation. AI looks for corroboration: are other sources referencing this content? Are there brand mentions across trusted sites? <strong className="named-thesis">The Validation Network: AI citation systems weight a source by the density of authoritative third-party mentions pointing at it — Chen et al. (2025) documented a systematic bias toward content with external corroboration over isolated brand-owned content.</strong> A well-structured blog post that no one has ever linked to, discussed, or quoted still registers as a low-authority source. Blogging without a distribution and citation strategy is like building a library that no one visits. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a>
+          </p>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -258,8 +293,8 @@ export default function BlogPost() {
           <h2>What AI Actually Looks for in Blog Content</h2>
 
           <p>
-            AI platforms evaluate blog content against a different rubric than Google. Understanding this rubric is the difference between a blog that generates citations and one that generates nothing.
-           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            AI platforms evaluate blog content against a different rubric than Google. <strong>An answer capsule</strong> — a self-contained block of text that fully addresses a single question — is the unit of currency in AI citation. <strong className="named-thesis">The Citation Capsule: bounded passages of 80 to 180 tokens that open with a definition and resolve a single question without anaphora are the highest-performing structural unit in AI-cited content (GEO-SFE, 2026, which also documented a 31 percent attention degradation in chunks over 300 words).</strong> One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a>
+          </p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
@@ -270,12 +305,12 @@ export default function BlogPost() {
             <div className="ae-timeline-item">
               <div className="ae-timeline-step">Signal 2</div>
               <div className="ae-timeline-title">Question-Based H2 Headings</div>
-              <div className="ae-timeline-desc">Pages with well-organized headings are 2.8x more likely to earn citations in AI search results. AI maps headings to user prompts. A heading like &quot;How Much Does Roof Replacement Cost?&quot; matches directly to the way real users phrase questions to AI. &quot;Pricing Overview&quot; does not create that match.</div>
+              <div className="ae-timeline-desc">Pages with well-organized question-style headings are 2.8x more likely to earn citations in AI search results. AI maps headings directly to user prompts. A heading like &quot;How Much Does Roof Replacement Cost?&quot; matches the way real users phrase questions to ChatGPT. &quot;Pricing Overview&quot; does not create that match. The Question-Match Index measures this alignment between heading phrasing and prompt phrasing.</div>
             </div>
             <div className="ae-timeline-item">
               <div className="ae-timeline-step">Signal 3</div>
               <div className="ae-timeline-title">High Entity Density</div>
-              <div className="ae-timeline-desc">Entity density means how many specific, verifiable facts, names, places, statistics, and defined concepts your content contains per paragraph. AI evaluates entity density as a proxy for expertise. Vague, general content reads as low authority. Specific, citable claims read as high authority.</div>
+              <div className="ae-timeline-desc">Entity density means how many specific, verifiable facts, names, places, statistics, and defined concepts a piece of content contains per paragraph. AI evaluates entity density as a proxy for expertise. Vague, general content reads as low authority. Specific, citable claims read as high authority. Aggarwal et al. (KDD 2024): inline statistics +22 percent citation lift, inline quotations +37 percent citation lift.</div>
             </div>
             <div className="ae-timeline-item">
               <div className="ae-timeline-step">Signal 4</div>
@@ -499,8 +534,8 @@ export default function BlogPost() {
            Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
           <p>
-            The reason is structural. Google and AI platforms are solving different problems. Google ranks pages. AI platforms answer questions. Those two goals require different types of content signals.
-           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
+            The reason is structural. Google and AI platforms are solving different problems. Google ranks pages. AI platforms answer questions. Those two goals require different content signals. <strong className="named-thesis">The Dual-Engine Surface: content architected with answer-first capsules, FAQPage schema, and 6:1 assertive-to-hedged language wins both Google rankings and AI citations in a single pass — content optimized for one system alone loses ground in the other.</strong> Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.
+          </p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Critical Distinction</div>
@@ -613,18 +648,18 @@ export default function BlogPost() {
             <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
-              </div>
+          <div className="not-prose ae-author-card">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, and Google AI Overviews. He built and validated AEO on TAE&apos;s own site (1.14M+ monthly impressions, 4/4 LLMs cited) before offering the service to clients.</p>
             </div>
+          </div>
 
           {/* 3-TIER CTA BLOCK */}
             <div className="ae-cta-block not-prose my-16">
@@ -641,35 +676,47 @@ export default function BlogPost() {
           <span className="ae-section-label" id="faq">FAQ</span>
           <h2>Frequently Asked Questions</h2>
 
-          <h3>Does having a blog help AI recommend my business?</h3>
-          <p>
-            It depends entirely on how your blog is structured. A blog with well-organized headings, direct answers, FAQ sections, and authoritative citations can significantly increase your AI citation rate. A blog that reads like a stream of consciousness, buries its key points, or targets thin topics adds almost no AI value even if it ranks well on Google. The blog itself is not the signal: the structure and substance inside it is.
-          </p>
+          <details className="ae-faq-item">
+            <summary>Does having a blog help AI recommend my business?</summary>
+            <div className="faq-answer">
+              <p>It depends entirely on how the blog is structured. A blog with question-based headings, front-loaded direct answers, FAQ sections with schema, and authoritative citations earns a measurable lift in AI citation rate. A blog that buries key points, targets thin topics, or reads as stream of consciousness adds almost no AI value even if it ranks on Google. The blog itself is not the signal — the structure and substance inside it is. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get a free Blind Spot Scan</a> to see where your blog scores.</p>
+            </div>
+          </details>
 
-          <h3>What type of blog content is most likely to get cited by ChatGPT?</h3>
-          <p>
-            Content with front-loaded direct answers, question-based H2 headings, verifiable statistics, structured FAQ sections, and 120 to 180 words between headings is cited at significantly higher rates. Articles over 2,900 words average 5.1 AI citations, while those under 800 words average just 3.2. Answer capsules, short definitive blocks that address a single question, are the single strongest structural pattern associated with ChatGPT citations.
-          </p>
+          <details className="ae-faq-item">
+            <summary>What type of blog content is most likely to get cited by ChatGPT?</summary>
+            <div className="faq-answer">
+              <p>Content with front-loaded direct answers, question-based H2 headings, verifiable statistics, structured FAQ sections, and 120 to 180 words between headings is cited at significantly higher rates. Aggarwal et al. (KDD 2024) measured a 37 percent lift for inline quotations and 22 percent for inline statistics. Articles over 2,900 words average 5.1 AI citations, while those under 800 words average 3.2. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a content review.</p>
+            </div>
+          </details>
 
-          <h3>Why does my blog rank on Google but still not get cited by AI?</h3>
-          <p>
-            Google rankings and AI citations use different scoring systems. Google rewards keyword relevance, backlinks, and technical SEO. AI platforms reward clarity, directness, entity density, and structured answers. A blog post optimized for keyword density may dominate Google while being completely ignored by ChatGPT. This is the core gap most businesses miss: SEO and AEO require different content strategies.
-          </p>
+          <details className="ae-faq-item">
+            <summary>Why does my blog rank on Google but still not get cited by AI?</summary>
+            <div className="faq-answer">
+              <p>Google rankings and AI citations use different scoring systems. Google rewards keyword relevance, backlinks, and technical SEO. AI platforms reward clarity, directness, entity density, and structured answers. A blog post optimized for keyword density may dominate Google while being completely ignored by ChatGPT. This is the core gap most businesses miss: SEO and AEO require different content strategies. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute strategy call.</a></p>
+            </div>
+          </details>
 
-          <h3>How often should I publish blog content for AI visibility?</h3>
-          <p>
-            Consistency matters more than frequency for AI visibility. AI platforms prioritize freshness when comparing similar sources, so regular publishing signals that your site is active and authoritative. However, ten high-quality posts per year outperform 52 thin weekly posts. AI evaluates whether your content provides definitive answers, not how often you add pages to your site.
-          </p>
+          <details className="ae-faq-item">
+            <summary>How often should I publish blog content for AI visibility?</summary>
+            <div className="faq-answer">
+              <p>Consistency outranks frequency for AI visibility. AI platforms prioritize freshness when comparing similar sources, so regular publishing signals a site is active and authoritative. Ten high-quality posts per year outperform 52 thin weekly posts. AI evaluates whether the content provides definitive answers — not how often pages are added. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to scope a cadence.</p>
+            </div>
+          </details>
 
-          <h3>Do blog posts help with Perplexity and Google AI Overviews differently?</h3>
-          <p>
-            Yes. Google AI Overviews favor established domains and pages that already rank in the top 10 organic results, meaning your blog SEO still matters for Google. Perplexity draws heavily from Reddit and community sources, so blog posts need strong external validation to appear there. ChatGPT has its own training data preferences. A blog strategy that works for one platform requires platform-specific tuning to work across all three.
-          </p>
+          <details className="ae-faq-item">
+            <summary>Do blog posts help with Perplexity and Google AI Overviews differently?</summary>
+            <div className="faq-answer">
+              <p>Yes. Google AI Overviews favor established domains and pages already ranking in the top 10 organic results, so blog SEO still matters for Google. Perplexity draws heavily from Reddit and community sources, so blog posts need external validation to appear there. ChatGPT has its own training data preferences. A blog strategy that works for one platform requires platform-specific tuning to work across all three. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Free platform-by-platform scan.</a></p>
+            </div>
+          </details>
 
-          <h3>Does publishing blog content without external links pointing to it help AI visibility?</h3>
-          <p>
-            Isolated blog content with no external validation is rarely cited by AI. AI platforms do not just crawl your website in isolation. They evaluate whether your business and content are referenced, discussed, and corroborated across authoritative external sources. A blog post needs external mentions, backlinks, or community discussion to become a trusted citation source for AI. Your content strategy must extend beyond your own site.
-          </p>
+          <details className="ae-faq-item">
+            <summary>Does publishing blog content without external links pointing to it help AI visibility?</summary>
+            <div className="faq-answer">
+              <p>Isolated blog content with no external validation is rarely cited by AI. AI platforms do not crawl a website in isolation — AI evaluates whether the business and content are referenced, discussed, and corroborated across authoritative external sources. A blog post needs external mentions, backlinks, or community discussion to become a trusted citation source. The content strategy must extend beyond your own site. Markets fill fast — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">lock your territory now.</a></p>
+            </div>
+          </details>
 
           {/* CTA 9 */}
             <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
@@ -702,6 +749,6 @@ export default function BlogPost() {
 
         </div>
       </article>
-    </>
+    </div>
   )
 }
