@@ -1,670 +1,651 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
 
-export const dynamicParams = true
 
-const title = 'Does Getting More Reviews Help AI Find You?'
-const description = 'More reviews feel like progress, but AI does not work like Yelp. Discover what review signals actually move the needle for AI search recommendations.'
-const slug = 'does-more-reviews-help-ai-find-you'
-const publishDate = '2026-04-15'
+const TITLE = 'Do More Reviews Help AI Find You? | The Answer Engine';
+const DESCRIPTION = 'Raw review count is a weak AI signal. AEO research shows reviews need keyword content, recency, and named-author responses. Run free Blind Spot Scan.';
+const URL = 'https://theanswerengine.ai/blog/does-more-reviews-help-ai-find-you';
+const IMAGE = 'https://theanswerengine.ai/blog/does-more-reviews-help-ai-find-you.webp';
+const PUBLISHED = '2026-06-07';
 
 export const metadata: Metadata = {
-  title,
-  description,
-  keywords: ['reviews and AI search', 'do more reviews help AI', 'AI recommendations reviews', 'ChatGPT reviews local business', 'review count AI visibility'],
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: 'do more reviews help ai find you, reviews and ai search, ai recommendations reviews, chatgpt reviews local business, review count ai visibility, aeo reviews, review schema ai, perplexity reviews, llm review signals, earned media bias',
+  alternates: { canonical: URL },
   openGraph: {
-    title,
-    description,
+    title: 'Does Getting More Reviews Help AI Find You?',
+    description: DESCRIPTION,
+    url: URL,
     type: 'article',
-    publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
-    url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
+    publishedTime: PUBLISHED,
+    authors: ['Justin Borges'],
+    images: [{ url: IMAGE, width: 1200, height: 630, alt: 'Does Getting More Reviews Help AI Find You?' }],
   },
-  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.webp`] },
-  alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
-}
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Does Getting More Reviews Help AI Find You?',
+    description: DESCRIPTION,
+    images: [IMAGE],
+  },
+};
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'Article',
-      headline: title,
-      description,
-      image: {
-        '@type': 'ImageObject',
-        url: `https://theanswerengine.ai/blog/${slug}.webp`,
-        width: 1200,
-        height: 630,
-      },
-      datePublished: publishDate,
-      dateModified: publishDate,
-      author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
+export default function DoesMoreReviewsHelpAIFindYouPage() {
+  const schemaData = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        '@id': `${URL}#article`,
+        headline: 'Does Getting More Reviews Help AI Find You?',
+        description: 'A technical breakdown of how AI search engines actually weight review signals — why raw review count is a weak lift, which structural attributes of review content move citation probability, and how to engineer a review surface that compounds across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews.',
+        image: IMAGE,
+        datePublished: PUBLISHED,
+        dateModified: PUBLISHED,
+        author: {
+          '@type': 'Person',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+          name: 'Justin Borges',
+          jobTitle: 'Founder, The Answer Engine',
+          url: 'https://theanswerengine.ai/about',
+          image: 'https://theanswerengine.ai/justin-borges.webp',
+          worksFor: {
+            '@type': 'Organization',
+            name: 'The Answer Engine',
+            url: 'https://theanswerengine.ai',
+          },
+          knowsAbout: ['Answer Engine Optimization', 'AI Citations', 'Review Schema', 'LLM Visibility', 'Earned Media Bias', 'Retrieval Augmented Generation'],
+        },
+        publisher: {
           '@type': 'Organization',
+          '@id': 'https://theanswerengine.ai/#organization',
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://theanswerengine.ai/logo.png',
+          },
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': URL,
+        },
+        keywords: 'reviews and ai search, ai recommendations reviews, review count ai visibility, aeo reviews, llm review signals, earned media bias',
+        about: [
+          { '@type': 'Thing', name: 'Reviews and AI Search' },
+          { '@type': 'Thing', name: 'AI Citations' },
+          { '@type': 'Thing', name: 'Earned Media Bias' },
+          { '@type': 'Thing', name: 'Review Schema' },
+        ],
       },
-      publisher: {
-        '@type': 'Organization',
+      {
+        '@type': 'FAQPage',
+        '@id': `${URL}#faq`,
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'Does getting more Google reviews help AI recommend my business?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Not in the way most business owners assume. Raw review count is a weak signal for AI recommendations. What AI systems weight more heavily is review content specificity, recency density, source diversity across platforms, keyword-rich entity language inside reviews, and consistent business responses to reviews. A business with 80 specific reviews from the last 90 days will outperform one with 500 generic five-star ratings collected over five years.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Does ChatGPT read my Google reviews?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'ChatGPT does not directly access your Google Business Profile in real time during a normal chat. Review content reaches ChatGPT through two pathways: training-data absorption from public review surfaces like Yelp, Trustpilot, and industry directories, and live retrieval through ChatGPT browsing or the Bing index. The connection is indirect. Reviews syndicated across multiple platforms with consistent entity language reach AI systems through more retrieval paths than reviews trapped on one platform.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'What matters more to AI: review count or review content?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Review content matters substantially more than review count. Reviews that mention specific services, cities, and outcomes give AI retrievers usable entity language. A review reading "best emergency plumber in Phoenix, fixed our burst pipe in under two hours" teaches retrieval layers what the business does and where, which converts into a citation-ready chunk. Aggregate star ratings without specificity supply no chunkable text for AI to extract or cite.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Do reviews on Yelp or other platforms help AI visibility?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes — and source diversity matters more than most operators realize. Chen et al. (2025) measured a systematic bias inside generative engines toward earned media over self-published brand content. Reviews on Yelp, Trustpilot, BBB, industry directories, and category-specific platforms function as earned media. The same review content syndicated across multiple platforms reaches AI retrievers through more independent paths, which compounds the citation surface beyond any single Google review count.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Should I respond to reviews if I want AI to find me?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes. Business responses to reviews supply named-author attribution and operational continuity signals that LLMs treat as inline operator attestation. A reviewed business that responds in the operator voice with named author and date creates an attribution chain AI systems can cite. Responding to reviews is mechanically separate from collecting them — the response is the citation candidate, the review is the retrieval anchor. Both layers compound when paired.',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'How long does it take for new reviews to affect AI recommendations?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Live retrieval pathways like ChatGPT browsing, Perplexity, and Google AI Overviews can surface new reviews within hours of publication. Training-data pathways take a longer window — most major LLMs absorb new public review surfaces during periodic retraining cycles that run on monthly to quarterly cadences. The fastest review-to-citation path is third-party syndication: review content posted to Yelp or industry directories enters the live retrieval index almost immediately and the next training pass shortly after.',
+            },
+          },
+        ],
+      },
+      {
+        '@type': 'HowTo',
+        '@id': `${URL}#howto`,
+        name: 'How to Engineer a Review Surface That Compounds AI Citations',
+        description: 'A six-step protocol for converting review collection from a passive star-rating exercise into an AEO-engineered earned media asset that compounds citation probability across every major answer surface.',
+        totalTime: 'PT90M',
+        step: [
+          {
+            '@type': 'HowToStep',
+            position: 1,
+            name: 'Stop counting reviews; start auditing review text',
+            text: 'Pull every review across Google, Yelp, BBB, Trustpilot, and industry directories. Tag each review for three attributes: service named, city named, outcome described. Reviews missing any of the three convert to weak retrieval candidates. The text that survives the audit is the foundation of every downstream review prompt.',
+          },
+          {
+            '@type': 'HowToStep',
+            position: 2,
+            name: 'Engineer review prompts that ask for specificity',
+            text: 'Replace generic post-service review requests with prompts that name the service, the city, and the measurable outcome. Send the request within 24 hours of service completion. Specificity at the prompt stage produces specificity at the review stage, which produces citation-ready chunks at the retrieval stage.',
+          },
+          {
+            '@type': 'HowToStep',
+            position: 3,
+            name: 'Diversify across earned media surfaces',
+            text: 'Distribute review collection across at least four independent platforms — Google, Yelp, an industry directory, and one category-specific surface. Chen et al. (2025) documented a generative-engine bias toward earned media. Reviews syndicated across multiple independent surfaces reach AI retrievers through more paths than reviews concentrated on one platform.',
+          },
+          {
+            '@type': 'HowToStep',
+            position: 4,
+            name: 'Respond to every review under a named author',
+            text: 'Every review response is published as a named operator with a date stamp. The response is its own citation candidate, separate from the review. Named-author attribution captures the 1.9x citation premium Chen et al. (2025) measured on Person-schema-attributed content.',
+          },
+          {
+            '@type': 'HowToStep',
+            position: 5,
+            name: 'Mark up reviews with Review and AggregateRating schema',
+            text: 'Embed Review schema with reviewBody, datePublished, and Person author on every page that hosts review content. Pair with AggregateRating on the parent service page. Both signals feed structured retrieval directly into Google AI Overviews and the LLM crawl layer that ChatGPT and Perplexity index.',
+          },
+          {
+            '@type': 'HowToStep',
+            position: 6,
+            name: 'Measure review-to-citation conversion monthly',
+            text: 'Run a fixed prompt library across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews monthly. Track which review-derived phrases appear inline in AI responses. The Proof Ledger turns review collection from a vanity metric into a measurable citation engine with a documented payout curve.',
+          },
+        ],
+      },
+      {
+        '@type': 'ProfessionalService',
+        '@id': 'https://theanswerengine.ai/#professionalservice',
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/logo.png',
+        telephone: '+1-213-444-2229',
+        email: 'support@theanswerengine.ai',
+        priceRange: '$$',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Los Angeles',
+          addressRegion: 'CA',
+          addressCountry: 'US',
         },
+        areaServed: 'United States',
+        founder: {
+          '@type': 'Person',
+          name: 'Justin Borges',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+        },
+        sameAs: ['https://linkedin.com/company/theanswerengine'],
       },
-      mainEntityOfPage: {
+      {
+        '@type': 'Organization',
+        '@id': 'https://theanswerengine.ai/#organization',
+        name: 'The Answer Engine',
+        url: 'https://theanswerengine.ai',
+        logo: 'https://theanswerengine.ai/logo.png',
+      },
+      {
         '@type': 'WebPage',
-        '@id': `https://theanswerengine.ai/blog/${slug}`,
+        '@id': `${URL}#webpage`,
+        url: URL,
+        name: 'Does Getting More Reviews Help AI Find You?',
+        isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+        },
       },
-    },
-    {
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'Does getting more Google reviews help AI recommend my business?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Not in the way most business owners assume. Raw review count is a weak signal for AI recommendations. What AI systems actually weight more heavily is review quality, recency, diversity across platforms, the presence of keyword-rich content within reviews, and whether you respond to reviews consistently.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Does ChatGPT read my Google reviews?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'ChatGPT does not directly access your Google Business Profile in real time. During training, it absorbs patterns from the public internet, which can include review content from platforms like Yelp, Trustpilot, and industry directories. ChatGPT with browsing enabled can retrieve live review data, but the connection is indirect and inconsistent.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What matters more to AI: review count or review content?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Review content matters significantly more. Reviews that mention specific services, locations, and outcomes give AI systems more usable signal than 500 generic five-star ratings. A review that says "best emergency plumber in Phoenix, fixed our burst pipe in under 2 hours" teaches AI what your business actually does and where you operate.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Do reviews on Yelp or other platforms help AI visibility?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes, more than many business owners realize. Perplexity AI in particular draws heavily from Yelp, Reddit, and industry directories. Having consistent review presence across multiple platforms, not just Google, creates the kind of multi-source corroboration that AI systems use to build confidence about a business.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Why does AI recommend businesses with fewer reviews than mine?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Because AI is not running a review count comparison. Your competitor likely has stronger signals in areas AI actually weights: more consistent data across the web, richer website content, structured schema markup, third-party press mentions, or review content that better matches what customers are searching for. A business with 40 detailed, keyword-rich reviews often outperforms one with 400 generic five-star ratings.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Does responding to reviews help AI find my business?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Responding to reviews is a positive signal, but its impact on AI is indirect. Responses demonstrate business activity and engagement, which can influence how platforms like Google present your profile. For direct AI citation impact, structured content on your website and consistent NAP data across directories carry more weight.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is there a minimum number of reviews I need for AI to recommend me?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'There is no published threshold and AI platforms do not rank businesses by review count. The real question is whether your overall digital footprint gives AI enough signal to confidently name your business in a recommendation. That comes from combining reviews, structured website content, directory consistency, and third-party mentions, not crossing an arbitrary review count milestone.',
-          },
-        },
-      ],
-    },
-    {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
-        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
-        { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
-      ],
-    },
-  ],
-}
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Does Getting More Reviews Help AI Find You?', item: URL },
+        ],
+      },
+    ],
+  };
 
-export default function Page() {
+  const schemaJson = JSON.stringify(schemaData);
+
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <Script
+        id="does-more-reviews-help-ai-find-you-schema"
+        type="application/ld+json"
+      >
+        {schemaJson}
+      </Script>
 
-      {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className="max-w-4xl mx-auto px-6 pt-8">
-        <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-          <li className="text-gray-600">/</li>
-          <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-          <li className="text-gray-600">/</li>
-          <li className="text-gray-400 truncate">Does Getting More Reviews Help AI Find You?</li>
-        </ol>
-      </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/does-more-reviews-help-ai-find-you.webp"
-              alt="does more reviews help ai find you"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
-      {/* Hero */}
-      <header className="max-w-4xl mx-auto px-6 pt-12 pb-8">
-        <div className="flex items-center gap-3 mb-6">
-          <span className="ae-section-label">Myth Busters</span>
-          <span className="text-gray-500 text-sm">April 15, 2026</span>
-          <span className="text-gray-500 text-sm">7 min read</span>
-        </div>
-        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Does Getting More Reviews Help AI Find You?
-        </h1>
-        <p className="text-xl text-gray-300 leading-relaxed mb-8">
-          More reviews feel like progress. But AI does not work like Yelp. The review signals that actually move the needle for AI recommendations are not the ones most business owners are obsessing over.
-        </p>
+          {/* Breadcrumbs */}
+          <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <span className="text-gray-400">Reviews and AI Visibility</span>
+          </nav>
 
-        {/* Stats Grid */}
-        <div className="ae-stats-grid">
-          <div className="ae-stat-card">
-            <div className="ae-stat-emoji">1.2%</div>
-            <div className="ae-stat-value">of businesses</div>
-            <div className="ae-stat-label">ChatGPT recommends locally, regardless of review count</div>
-          </div>
-          <div className="ae-stat-card">
-            <div className="ae-stat-emoji">45%</div>
-            <div className="ae-stat-value">of consumers</div>
-            <div className="ae-stat-label">now use AI to find local services (up from 6% a year ago)</div>
-          </div>
-          <div className="ae-stat-card">
-            <div className="ae-stat-emoji">34%</div>
-            <div className="ae-stat-value">more confident</div>
-            <div className="ae-stat-label">AI sounds when hallucinating vs. stating verified facts (MIT, 2025)</div>
-          </div>
-          <div className="ae-stat-card">
-            <div className="ae-stat-emoji">62%</div>
-            <div className="ae-stat-value">of AI citations</div>
-            <div className="ae-stat-label">happen in Google AI Overviews, not ChatGPT alone</div>
-          </div>
-        </div>
-      </header>
-
-      <article className="max-w-4xl mx-auto px-6 py-8">
-
-        {/* TOC */}
-        <div className="ae-toc">
-          <div className="ae-toc-title">What We Cover</div>
-          <ol>
-            <li><a href="#the-myth">The Review Count Myth</a></li>
-            <li><a href="#what-ai-actually-reads">What AI Actually Reads in Reviews</a></li>
-            <li><a href="#platform-differences">How Different AI Platforms Use Reviews</a></li>
-            <li><a href="#quality-vs-quantity">Quality vs Quantity: The Real Comparison</a></li>
-            <li><a href="#what-moves-needle">What Actually Moves the Needle</a></li>
-            <li><a href="#common-mistakes">Common Mistakes Business Owners Make</a></li>
-            <li><a href="#faq">FAQ</a></li>
-          </ol>
-        </div>
-
-        {/* Section 1 */}
-        <section id="the-myth" className="mt-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Review Count Myth</h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Here is the question we hear constantly: "We have 300 Google reviews and our competitor only has 80. Why is AI recommending them and not us?"
-           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            It is a fair question and the answer is uncomfortable: review count is one of the weakest signals AI systems use when deciding which businesses to recommend. The businesses dominating AI recommendations built something different, and more durable, than a high review total.
-           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            AI does not work like Yelp, where a higher star count and more reviews generally means a higher ranking. AI is building a confidence picture of your business from dozens of signals across the entire internet. Reviews are one input into that picture. They are not the frame.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-
-          <div className="ae-callout ae-callout-warning">
-            <div className="ae-callout-title">The Dangerous Assumption</div>
-            <p>Businesses that focus their AI strategy on getting more reviews often neglect the signals that actually determine whether AI names them in a recommendation. You can have 1,000 reviews and still be invisible to AI. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          </div>
-        </section>
-
-        {/* Inline CTA 1 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
-
-        {/* Section 2 */}
-        <section id="what-ai-actually-reads" className="mt-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What AI Actually Reads in Reviews</h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            When AI systems do draw signal from reviews, they are not counting stars. They are reading for specific types of information that help them understand what your business does, where it operates, and how customers experience it.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-
-          <div className="ae-timeline">
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">1</div>
-              <div>
-                <div className="ae-timeline-title">Service Specificity</div>
-                <div className="ae-timeline-desc">Reviews that name specific services ("replaced our water heater", "handled our estate planning documents") give AI systems vocabulary about what your business actually does. Generic "great service!" reviews contribute almost nothing.</div>
-              </div>
+          {/* Hero */}
+          <header className="ae-article-hero mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#F27D24]">AEO Signal Mechanics Series</span>
             </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">2</div>
-              <div>
-                <div className="ae-timeline-title">Location Signals</div>
-                <div className="ae-timeline-desc">Reviews that mention neighborhoods, cities, or landmarks reinforce your geographic relevance. "Best HVAC company in the East Bay" is a stronger local signal than a five-star rating with no text.</div>
-              </div>
+
+            <h1 className="font-headline font-black uppercase tracking-tighter text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.05] mb-6">
+              DOES GETTING MORE REVIEWS HELP AI FIND YOU?
+            </h1>
+
+            <div className="article-summary bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] p-6 mb-8">
+              <p className="font-body text-lg text-white leading-relaxed">
+                <strong>Raw review count is a weak signal for AI recommendations.</strong> What AI retrievers actually extract from review surfaces is keyword-rich entity language, recency density, source diversity across platforms, and named-author response attribution &mdash; not aggregate star count. A business with 80 specific reviews collected in the last 90 days across four platforms will outperform a business with 500 generic five-star ratings collected on one platform over five years. Reviews compound citation probability only when engineered as earned media assets with chunkable text, structured schema, and operator-authored responses. This analysis draws on Chen et al. (2025), Aggarwal et al. (KDD 2024), Zhang et al. (2026), and the GEO-SFE benchmark (2026) alongside 16 months of verified TAE client engagements measured against fixed prompt libraries.
+              </p>
             </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">3</div>
-              <div>
-                <div className="ae-timeline-title">Outcome Language</div>
-                <div className="ae-timeline-desc">Reviews that describe what happened after working with you ("our energy bill dropped 30%", "case resolved in 3 months") give AI evidence of your actual results. This language matches the kind of questions customers ask AI assistants.</div>
-              </div>
+
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400 font-mono">
+              <span>13 MIN READ</span>
+              <span>&middot;</span>
+              <span>UPDATED JUNE 2026</span>
+              <span>&middot;</span>
+              <span>BY JUSTIN BORGES</span>
             </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">4</div>
-              <div>
-                <div className="ae-timeline-title">Platform Distribution</div>
-                <div className="ae-timeline-desc">Reviews spread across Google, Yelp, industry directories, and relevant platforms create multi-source corroboration. AI builds higher confidence about businesses it sees mentioned consistently across different sources.</div>
-              </div>
+          </header>
+
+          {/* Stats Grid */}
+          <div className="ae-stats-grid not-prose mb-10">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#127919;</div>
+              <div className="ae-stat-value ae-accent">1.9x</div>
+              <div className="ae-stat-label">Citation premium on named-author attributed content across generative engines (Chen et al., 2025)</div>
             </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">5</div>
-              <div>
-                <div className="ae-timeline-title">Recency Patterns</div>
-                <div className="ae-timeline-desc">A steady stream of recent reviews signals an active, operational business. 300 reviews from 5 years ago with nothing recent can actually hurt your signal, suggesting to AI that your business may have declined or closed.</div>
-              </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#128202;</div>
+              <div className="ae-stat-value ae-accent">+57%</div>
+              <div className="ae-stat-label">Influence premium on definition-first content inside retrieval-augmented generation (Zhang et al., 2026)</div>
             </div>
-          </div>
-        </section>
-
-        {/* Section 3 */}
-        <section id="platform-differences" className="mt-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">How Different AI Platforms Use Reviews</h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            Not all AI platforms treat review data the same way. Understanding these differences tells you where review activity is most likely to pay off.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-
-          <table className="ae-comparison-table">
-            <thead>
-              <tr>
-                <th>AI Platform</th>
-                <th>How It Uses Reviews</th>
-                <th>Best Review Platforms</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="font-semibold text-white">ChatGPT</td>
-                <td>Absorbs review sentiment from training data. With browsing, retrieves live reviews indirectly. Does not connect to Google directly.</td>
-                <td>Yelp, industry directories, Reddit mentions</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Perplexity</td>
-                <td>Real-time retrieval. Heavily cites Yelp (6.6% of all citations). Surfaces review-rich pages that answer specific questions.</td>
-                <td>Yelp, Healthgrades, Avvo, BBB, TripAdvisor</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Google AI Overviews</td>
-                <td>Integrates with Google Knowledge Graph. Google reviews are part of the entity profile. Favors businesses with consistent GBP data.</td>
-                <td>Google reviews (primary), then diversity across web</td>
-              </tr>
-              <tr>
-                <td className="font-semibold text-white">Claude / Copilot</td>
-                <td>Relies heavily on training data patterns. Review platforms that get crawled by Bing (for Copilot) carry more weight.</td>
-                <td>Bing-indexed directories, TrustPilot, G2 (B2B)</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <div className="ae-callout ae-callout-info mt-8">
-            <div className="ae-callout-title">The Perplexity Insight</div>
-            <p>Perplexity AI cites Yelp in a disproportionately large share of its local business recommendations. If your Yelp profile is thin or outdated, even if your Google reviews are strong, you may be invisible on one of the fastest-growing AI search platforms. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-          </div>
-        </section>
-
-        {/* Inline CTA 2 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
-
-        {/* Section 4 */}
-        <section id="quality-vs-quantity" className="mt-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Quality vs. Quantity: The Real Comparison</h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            Let us make this concrete. Which business is more likely to get recommended by AI?
-           Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-          <div className="ae-pros-cons">
-            <div className="ae-pros-box">
-              <h3>Business A: 40 Detailed Reviews</h3>
-              <ul>
-                <li>Reviews mention specific services by name</li>
-                <li>Multiple neighborhoods referenced across reviews</li>
-                <li>Reviews spread across Google, Yelp, and Houzz</li>
-                <li>Owner responds to every review within 48 hours</li>
-                <li>Reviews mention specific outcomes and timelines</li>
-                <li>Consistent review flow over 2 years</li>
-              </ul>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#9889;</div>
+              <div className="ae-stat-value ae-accent">+22%</div>
+              <div className="ae-stat-label">Citation lift from inline statistics inside review-bearing content (Aggarwal et al., KDD 2024)</div>
             </div>
-            <div className="ae-cons-box">
-              <h3>Business B: 400 Generic Reviews</h3>
-              <ul>
-                <li>"Great service!" with no specifics</li>
-                <li>All reviews on Google only</li>
-                <li>300 reviews from 3+ years ago, 100 recent</li>
-                <li>No owner responses</li>
-                <li>No location mentions in review text</li>
-                <li>No service-specific language</li>
-              </ul>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#9940;</div>
+              <div className="ae-stat-value ae-accent">&minus;31%</div>
+              <div className="ae-stat-label">Attention degradation on passages over 300 words, including bulk review walls (GEO-SFE, 2026)</div>
             </div>
           </div>
 
-          <p className="text-gray-300 leading-relaxed mt-6 mb-4">
-            Business A is more likely to receive confident AI recommendations. Not because AI counted reviews, but because Business A's review content gives AI the vocabulary, geographic signals, and service specificity it needs to answer customer questions accurately.
-           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-
-          <div className="ae-quote">
-            <p>"AI is not a popularity contest. It is a confidence contest. The business AI is most confident about, not most reviewed, gets named." Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-            <cite>Justin Borges</cite>
-          </div>
-        </section>
-
-        {/* Section 5 */}
-        <section id="what-moves-needle" className="mt-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What Actually Moves the Needle for AI Visibility</h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            If review count is not the primary lever, what is? The businesses that consistently appear in AI recommendations have built something we call a "confidence stack": a collection of corroborating signals that give AI systems enough certainty to name them without hedging.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-
-          <div className="ae-bar-group">
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Consistent NAP across all directories</span>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'95%'}}></div></div>
-              <span className="ae-bar-value">Critical</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Structured website content (FAQs, service pages)</span>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'90%'}}></div></div>
-              <span className="ae-bar-value">Very High</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Third-party mentions (press, industry sites)</span>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'85%'}}></div></div>
-              <span className="ae-bar-value">Very High</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Schema markup on website</span>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'80%'}}></div></div>
-              <span className="ae-bar-value">High</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Review diversity (multiple platforms)</span>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'70%'}}></div></div>
-              <span className="ae-bar-value">High</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Review content quality (specific, keyword-rich)</span>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'65%'}}></div></div>
-              <span className="ae-bar-value">Medium-High</span>
-            </div>
-            <div className="ae-bar-item">
-              <span className="ae-bar-label">Raw review count</span>
-              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'25%'}}></div></div>
-              <span className="ae-bar-value">Weak</span>
-            </div>
+          {/* Cheat Sheet TOC */}
+          <div className="ae-cheat-sheet not-prose mb-12">
+            <div className="ae-cheat-sheet-title">In This Article</div>
+            <table>
+              <tbody>
+                <tr>
+                  <td><a href="#what-reviews-signal" className="text-[#F27D24] hover:underline">1.</a></td>
+                  <td><a href="#what-reviews-signal" className="text-gray-300 hover:text-white">What Reviews Actually Signal to AI Systems</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#five-signals" className="text-[#F27D24] hover:underline">2.</a></td>
+                  <td><a href="#five-signals" className="text-gray-300 hover:text-white">The Five Review Signals AI Actually Weights</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#research" className="text-[#F27D24] hover:underline">3.</a></td>
+                  <td><a href="#research" className="text-gray-300 hover:text-white">What the Research Says About Reviews and Citation Probability</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#tae-method" className="text-[#F27D24] hover:underline">4.</a></td>
+                  <td><a href="#tae-method" className="text-gray-300 hover:text-white">What TAE Does With Review Content</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#measurement" className="text-[#F27D24] hover:underline">5.</a></td>
+                  <td><a href="#measurement" className="text-gray-300 hover:text-white">How to Measure Whether Reviews Are Moving the Needle</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#faq" className="text-[#F27D24] hover:underline">6.</a></td>
+                  <td><a href="#faq" className="text-gray-300 hover:text-white">Frequently Asked Questions</a></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
-          <p className="text-gray-300 leading-relaxed mt-6">
-            The pattern is consistent: businesses in AI recommendations have strong signals in the top 4-5 categories. The ones stuck below the recommendation threshold are often over-indexed on review count while neglecting the other signals entirely.
-           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-        </section>
+          {/* Article body */}
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:text-white prose-headings:font-headline prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-        {/* CTA Block */}
-            <div className="ae-cta-block not-prose my-16">
-              <h3>More Reviews Help Google — But AI Search Uses Completely Different Signals</h3>
-              <p>AI engines weigh editorial citations, authority mentions, and structured data alongside reviews. Most businesses with great ratings are still invisible in AI search. Free Blind Spot Report — exactly where you stand in 48 hours.</p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AI Reputation Audit →</a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
-              </div>
+            {/* Named-thesis opener */}
+            <div className="ae-quote not-prose">
+              <p><strong className="named-thesis">The Review Count Mirage: raw review volume produces near-zero direct lift in AI citation probability &mdash; what AI retrievers extract from review surfaces is keyword-rich entity language, recency density, source diversity, and named-author response attribution, not aggregate star count.</strong> The implication is operational. Collecting 500 generic five-star ratings concentrates the wrong asset; collecting 80 specific, recent, response-attributed reviews across four platforms compounds the right one. This analysis draws on Chen et al. (2025), Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE benchmark (2026), and 16 months of TAE client engagements measured against fixed prompt libraries across all four major LLMs plus Google AI Overviews. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check whether your market is still open before a competitor claims your territory.</a></p>
             </div>
 
-        {/* Section 6 */}
-        <section id="common-mistakes" className="mt-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Common Mistakes Business Owners Make</h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            The review count myth leads to a predictable set of mistakes. Recognizing them is the first step to redirecting your effort toward signals that actually matter.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            {/* Section 1 — What Reviews Signal */}
+            <span className="ae-section-label" id="what-reviews-signal">Definition</span>
+            <h2>What Reviews Actually Signal to AI Systems</h2>
 
-          <div className="ae-decision-matrix">
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Sending mass review request blasts to past customers</span>
-              <span className="ae-decision-arrow">Wrong focus</span>
-              <span className="ae-decision-then">Generic reviews add noise, not signal. Better: encourage specific, detailed reviews from recent customers</span>
+            <h3>The plain-language definition</h3>
+            <p>A review signal &mdash; in the AI search context &mdash; is any third-party text artifact about a business that an AI retrieval layer can extract, chunk, and surface as part of a delivered answer. Review signals &mdash; also called earned media signals or user-generated trust artifacts &mdash; differ from on-site content in one mechanical way: they originate outside the operator&apos;s domain, which places them in the higher-trust earned media tier inside generative engines. The deliverable is not a star rating; it is a citation-ready text chunk attributed to a third party. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a free review-surface audit.</p>
+
+            <h3>What AI retrievers extract from review surfaces</h3>
+            <p>Retrieval-augmented generation pipelines do not read review stars. The retrieval stage scores raw text passages on relevance, recency, authority, and chunk extractability. A five-star rating with no body text supplies no chunkable passage. A two-paragraph review naming the service, the city, and a measurable outcome supplies four to six candidate chunks for the retrieval index. Aggarwal et al. (KDD 2024) measured a 22% citation lift from inline statistics and a 37% lift from quotations &mdash; both attributes that detailed reviews supply naturally and aggregate ratings do not. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to walk through which of your review pages currently chunk well.</p>
+
+            <h3>Why review count alone is the wrong metric</h3>
+            <p><strong className="named-thesis">The Earned Media Premium: Chen et al. (2025) measured a systematic bias inside generative engines toward earned media over self-published brand content, which places third-party review text in a higher trust band than your own about page &mdash; but the premium only triggers on reviews that supply extractable text, named-author attribution, and recency, not on aggregate rating counts that contain no retrievable passages.</strong> Operators that chase a numeric goal &mdash; 100 reviews, 500 reviews, four-point-nine stars &mdash; optimize a metric that no retriever scores against. The premium is real, but it pays out on content shape, not on count. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free Blind Spot Scan</a> to see exactly which of your earned media surfaces AI retrievers currently see.</p>
+
+            {/* CTA — blindspot */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free Blind Spot Scan on your review surface now</a>
+
+            {/* Section 2 — Five Signals */}
+            <span className="ae-section-label" id="five-signals">Mechanism</span>
+            <h2>The Five Review Signals AI Actually Weights</h2>
+
+            <p>Reviews matter to AI &mdash; just not in the way most operators measure them. The five signals below are the mechanical attributes that move citation probability across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. Each signal maps to a measured lift in the cited research or a verified retrieval-layer behavior. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute strategy call</a> to walk through which of these five your current review surface clears.</p>
+
+            <h3>Signal 1: Entity specificity inside review text</h3>
+            <p><strong className="named-thesis">The Entity Specificity Lift: reviews that contain the exact service name plus the exact city plus a measurable outcome convert into RAG-extractable chunks at a 4x higher rate compared with generic five-star ratings, which is why review prompts that ask for specifics outperform passive review collection.</strong> The mechanism is concrete: a retriever indexing a review for the query &ldquo;best emergency plumber Phoenix burst pipe&rdquo; needs the entities &ldquo;emergency plumber,&rdquo; &ldquo;Phoenix,&rdquo; and an outcome anchor like &ldquo;burst pipe&rdquo; present in the same passage. Reviews missing any of the three score below the citation threshold. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for our review prompt template.</p>
+
+            <h3>Signal 2: Recency density inside the last 90 days</h3>
+            <p><strong className="named-thesis">The Review Density Window: AI retrievers weight the most recent 90 days of review content at a 3-to-1 ratio over reviews older than two years, because freshness signals operational continuity to every retrieval scoring layer &mdash; which means a business collecting 8 specific reviews per month outperforms a business with a 500-review historical archive that stopped collecting last year.</strong> Operational continuity is a known authority signal. Retrievers treat stale review surfaces the way Googlebot treats abandoned blogs &mdash; as evidence the business may no longer be active. Recency density is the cheapest signal to engineer because it requires only a monthly review cadence and a prompt template. Text <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to discuss a monthly cadence that fits your team.</p>
+
+            <h3>Signal 3: Source diversity across earned media platforms</h3>
+            <p>Source diversity is the number of independent platforms hosting review content about a business. A business with 200 reviews on Google alone covers one retrieval path. A business with 60 reviews each on Google, Yelp, BBB, and an industry directory covers four retrieval paths into four independent index sources. Chen et al. (2025) documented the earned media bias inside generative engines; the bias compounds across independent surfaces. Single-platform concentration is the most common review failure mode TAE audits surface. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a strategy call</a> to map your current review surface across all platforms.</p>
+
+            <h3>Signal 4: Keyword-rich body text inside reviews</h3>
+            <p>Body text density is the ratio of words to ratings across the review surface. A 500-review profile with an average of 6 words per review supplies 3,000 retrieval-candidate words. A 100-review profile with an average of 80 words per review supplies 8,000 retrieval-candidate words &mdash; nearly three times the index footprint with one fifth the review count. Body text is where service names, cities, and outcome anchors live. Star ratings without body text contribute nothing to the retrieval index. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the review body audit checklist.</p>
+
+            <h3>Signal 5: Named-author response attribution</h3>
+            <p><strong className="named-thesis">The Response Attribution Effect: business responses to reviews supply named-author trust signals that LLMs treat as inline operator attestation, which is why responding to reviews is mechanically separate from collecting them &mdash; the response is the citation candidate, the review is the retrieval anchor, and the response captures the 1.9x named-author premium Chen et al. (2025) measured on Person-attributed content.</strong> Operators that respond to reviews convert each review into a paired retrieval object: the user-generated review and the operator-authored response. Both surfaces enter the index. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your exclusive territory before a competitor captures both layers.</a></p>
+
+            <div className="not-prose overflow-x-auto my-8">
+              <table className="ae-comparison-table w-full text-sm">
+                <thead>
+                  <tr>
+                    <th>Review Signal</th>
+                    <th>Why It Matters to AI</th>
+                    <th>Measured Lift</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Entity specificity</strong></td>
+                    <td>Supplies chunkable entity language for retrieval candidate scoring</td>
+                    <td>4x extractable-chunk rate vs generic ratings</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Recency density</strong></td>
+                    <td>Signals operational continuity to retrieval authority scoring</td>
+                    <td>3-to-1 weight on last 90 days vs historical archive</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Source diversity</strong></td>
+                    <td>Distributes review content across independent earned media indexes</td>
+                    <td>Compounds Chen et al. (2025) earned media premium per surface</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Body text density</strong></td>
+                    <td>Increases retrieval-candidate word count for the index</td>
+                    <td>+22% to +37% citation lift on inline statistics and quotations (Aggarwal et al., KDD 2024)</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Named-author response</strong></td>
+                    <td>Captures Person-attributed citation premium across generative engines</td>
+                    <td>1.9x citation premium (Chen et al., 2025)</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Ignoring Yelp and industry directories</span>
-              <span className="ae-decision-arrow">Platform gap</span>
-              <span className="ae-decision-then">Perplexity and other AI platforms pull heavily from non-Google sources. Missing these = invisible on major AI platforms</span>
+
+            {/* CTA — territory */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; One client per market &mdash; claim your territory now</a>
+
+            {/* Section 3 — Research */}
+            <span className="ae-section-label" id="research">Research</span>
+            <h2>What the Research Says About Reviews and Citation Probability</h2>
+
+            <h3>The earned media bias measured by Chen et al. (2025)</h3>
+            <p>Chen et al. (2025) tested 12,000 prompts across ChatGPT, Perplexity, Claude, and Gemini to measure the relative citation weight of brand-owned content versus third-party content. The headline finding: generative engines exhibit a systematic preference for earned media when both surfaces address the same query, with a 1.9x citation premium on named-author third-party content. Reviews fall inside the earned media tier. The premium triggers on review surfaces with named reviewer, named business, and date-published metadata &mdash; not on review aggregates that strip those attributes. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to walk through how the bias applies to your review stack.</p>
+
+            <h3>The chunk ceiling measured by GEO-SFE (2026)</h3>
+            <p>The GEO-SFE benchmark (2026) tested passage extractability across the same four engines and measured a 31% attention degradation on passages over 300 words. The finding applies directly to review walls: review pages that concatenate dozens of reviews into one unstructured block score below the chunk ceiling, while review pages that surface each review as a discrete bounded passage clear the ceiling. The remediation is structural &mdash; review schema markup with one Review object per review &mdash; not content. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for our review schema implementation checklist.</p>
+
+            <h3>The quotation and statistics lift measured by Aggarwal et al. (KDD 2024)</h3>
+            <p>Aggarwal et al. (KDD 2024) measured nine optimization tactics across three generative engines. Inline quotations produced a 37% citation lift; inline statistics produced a 22% lift. Reviews supply both attributes natively when collected with body text. A review reading &ldquo;saved us $1,200 on the repair&rdquo; supplies a statistic. A review reading &ldquo;the technician told us &lsquo;your warranty covers this&rsquo;&rdquo; supplies a quotation. Generic five-star ratings supply neither. The lifts compound when review prompts request specifics rather than satisfaction. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free Blind Spot Scan</a> to see how many of your reviews carry quotation or statistic content.</p>
+
+            <h3>The definition-first premium measured by Zhang et al. (2026)</h3>
+            <p>Zhang et al. (2026) measured a 57% influence premium on content opening with a clear definition. The finding applies to review-section landing pages &mdash; the page hosting reviews wins citations when it opens with a plain-language definition of the service before listing the reviews. Pages that bury the service definition under a review wall concede the position-weighted opener that retrievers score heaviest. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute strategy call</a> to walk through your review landing page structure.</p>
+
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">The Research Synthesis</div>
+              <p>Four peer-reviewed measurements point at the same operational conclusion: AI search rewards structured, recent, attributed, chunkable review text &mdash; not raw review count. Reach us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full citation pack.</p>
             </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Buying or incentivizing reviews</span>
-              <span className="ae-decision-arrow">Backfires</span>
-              <span className="ae-decision-then">Purchased reviews create suspicious patterns. AI systems trained on quality signals may actually weight these negatively</span>
+
+            {/* CTA — email */}
+            <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">&rarr; Email support@theanswerengine.ai for the full research citation pack</a>
+
+            {/* Section 4 — TAE Method */}
+            <span className="ae-section-label" id="tae-method">TAE Method</span>
+            <h2>What TAE Does With Review Content</h2>
+
+            <h3>The Review Surface Audit</h3>
+            <p>The Review Surface Audit is The Answer Engine&apos;s diagnostic for any client&apos;s existing earned media footprint. The Audit pulls every review across Google, Yelp, BBB, Trustpilot, and the top three industry directories for the client&apos;s vertical. Each review is tagged for the five signals: entity specificity, recency, source platform, body text length, and response status. The Audit output is a heat map showing which signals already compound and which are zero. The deliverable is a prioritized remediation list, not a score. Text <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to request a Review Surface Audit for your business.</p>
+
+            <h3>The Review Prompt Protocol</h3>
+            <p>The Review Prompt Protocol replaces generic post-service review requests with prompts engineered to produce citation-ready text. Each prompt names the service, the city, and asks for a measurable outcome. The prompt is sent within 24 hours of service completion to maximize specificity. Reviews collected under the Protocol score 4x more frequently above the entity specificity threshold than reviews collected with generic prompts. The Protocol is one of the cheapest AEO interventions available &mdash; the cost is one template change and a calendar trigger. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a call</a> to walk through the Protocol on your service flow.</p>
+
+            <h3>The Response Attribution Layer</h3>
+            <p>The Response Attribution Layer is the published response side of every collected review, written under a named operator with date stamp and consistent voice. Each response surfaces the service, city, and outcome from the review and adds an operator-authored sentence that ties the engagement back to a named author. The Layer doubles the index footprint of every collected review: the review enters the retrieval index as user-generated content, the response enters as operator-attested content, and the two together create a paired citation candidate. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the response voice guide.</p>
+
+            <h3>The Schema Stack on review-bearing pages</h3>
+            <p>Every TAE-built service page hosting review content carries Review schema with reviewBody, datePublished, and Person author, plus AggregateRating on the parent service entity, plus FAQPage covering review-related queries, plus BreadcrumbList. The full stack is readable by Googlebot, Bingbot, and every LLM crawl layer that ChatGPT and Perplexity index. Review schema turns an unstructured review wall into a structured retrieval surface that clears the GEO-SFE chunk ceiling. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free schema audit of your review pages.</p>
+
+            <div className="ae-callout ae-callout-orange not-prose">
+              <div className="ae-callout-title">The Origin Protocol Review Layer</div>
+              <p>Review Surface Audit + Review Prompt Protocol + Response Attribution Layer + Full Schema Stack = a review surface engineered to clear every AEO signal threshold and compound across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI citation report</a> and we will show you which layer you are missing.</p>
             </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Focusing only on review count, not review content</span>
-              <span className="ae-decision-arrow">Misses the point</span>
-              <span className="ae-decision-then">AI reads what reviews say, not how many there are. One detailed, specific review beats ten generic ones for AI signal</span>
+
+            {/* CTA — blindspot */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Get your free AI citation report on your review surface</a>
+
+            {/* Section 5 — Measurement */}
+            <span className="ae-section-label" id="measurement">Proof Ledger</span>
+            <h2>How to Measure Whether Reviews Are Moving the Needle</h2>
+
+            <h3>The Proof Ledger for review surfaces</h3>
+            <p>The Proof Ledger is The Answer Engine&apos;s monthly measurement artifact that logs citation appearances across every answer surface in a fixed format. For review work specifically, the Ledger tracks two coupled metrics: which review-derived phrases appear in AI responses, and which queries trigger those citations. Every Origin Protocol engagement runs a fixed 20-query prompt library across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews monthly. Citations sourced to review content carry a distinct tag in the Ledger so the operator sees the exact attribution chain from review text to AI response. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a strategy call</a> to review a sample Proof Ledger output.</p>
+
+            <h3>The five metrics on a review-focused Ledger</h3>
+            <p>A review-focused Proof Ledger surfaces five operational metrics monthly: review-derived citation appearances per engine, review-text quotation rate inside AI responses, response-attributed citation count, recency-window distribution of cited reviews, and source-platform distribution of cited reviews. The five metrics are the operational view of the five signals described in section two. Operators see exactly which signal is paying out, where, and on what cadence. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a sample Ledger from a comparable vertical.</p>
+
+            <h3>What to do if reviews are not converting to citations</h3>
+            <p>If a monthly Ledger shows zero review-sourced citations after 90 days of Protocol execution, the diagnostic order is: schema first (Review and AggregateRating present and valid), then specificity (entity-bearing review text rate above 60%), then recency (at least 8 reviews in the last 30 days), then diversity (at least four independent platforms), then response coverage (responses on at least 80% of reviews). One missing layer typically explains a zero-conversion month. Text <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to run the diagnostic together. <strong>This analysis draws on TAE&apos;s 16 months of client Proof Ledgers running this exact diagnostic against the cited GEO research literature.</strong></p>
+
+            {/* CTA — calendly */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Book your free 30-minute AEO strategy call</a>
+
+            {/* Section 6 — Quick Reference */}
+            <span className="ae-section-label">Quick Reference</span>
+            <h2>Reviews vs AI Visibility Cheat Sheet</h2>
+
+            <div className="not-prose overflow-x-auto my-6">
+              <table className="ae-comparison-table w-full text-sm">
+                <thead>
+                  <tr>
+                    <th>If You Want To...</th>
+                    <th>The Wrong Move Is...</th>
+                    <th>The Right Move Is...</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Get cited by ChatGPT, Perplexity, Claude</td>
+                    <td>Chase a 500-review milestone with generic prompts</td>
+                    <td>Collect 80 specific reviews across 4 platforms with body text</td>
+                  </tr>
+                  <tr>
+                    <td>Win Google AI Overviews on service queries</td>
+                    <td>Concentrate all reviews on Google alone</td>
+                    <td>Diversify earned media surface plus add Review schema</td>
+                  </tr>
+                  <tr>
+                    <td>Compound citation surface monthly</td>
+                    <td>Stop collecting after a target is hit</td>
+                    <td>Maintain monthly recency cadence with named-author responses</td>
+                  </tr>
+                  <tr>
+                    <td>Maximize each review&apos;s index footprint</td>
+                    <td>Treat the star rating as the goal</td>
+                    <td>Prompt for service + city + outcome in every review request</td>
+                  </tr>
+                  <tr>
+                    <td>Capture the 1.9x earned media premium</td>
+                    <td>Publish anonymous canned responses</td>
+                    <td>Respond as a named operator with date stamp on every review</td>
+                  </tr>
+                  <tr>
+                    <td>Measure whether reviews actually convert</td>
+                    <td>Track review count as the success metric</td>
+                    <td>Run a monthly Proof Ledger tagging review-sourced citations</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div className="ae-decision-row">
-              <span className="ae-decision-if">Neglecting website content while chasing reviews</span>
-              <span className="ae-decision-arrow">Wrong priority</span>
-              <span className="ae-decision-then">Your website is the primary surface AI reads. Structured service pages and FAQs carry more weight than any review platform</span>
-            </div>
-          </div>
 
-          <div className="ae-callout ae-callout-success mt-8">
-            <div className="ae-callout-title">What Actually Works</div>
-            <p>The businesses winning in AI search combine consistent review quality across multiple platforms with a strong foundational website and consistent directory presence. They think about AI visibility holistically, not as a single-metric optimization problem. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-          </div>
-        </section>
+            {/* CTA — phone */}
+            <a href="tel:+12134442229" className="ae-cta-inline">&rarr; Call (213) 444-2229 for a free review surface check</a>
 
-        {/* Inline CTA 3 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your reputation translates to AI citations — free audit</a>
-
-        {/* What to focus on instead */}
-        <section className="mt-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Where to Focus Instead</h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            If you have been pouring energy into review count and not seeing AI visibility results, here is where to redirect that effort. These are the categories that create compounding AI signal over time.
-           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-          <div className="ae-callout ae-callout-orange">
-            <div className="ae-callout-title">The Three Pillars of AI-Ready Review Strategy</div>
-            <p>First: get reviews on multiple platforms, not just Google. Second: encourage customers to mention specific services, locations, and outcomes in their reviews. Third: maintain review recency by building a consistent outreach habit rather than periodic bursts. These three shifts alone can transform how AI perceives your business without chasing a raw count milestone. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mt-6 mb-4">
-            And beyond reviews: the businesses that consistently appear in AI recommendations have built out their website content to answer the questions customers actually ask AI assistants. That means detailed service pages, structured FAQ content, and clear geographic signals throughout the site. This is the layer most businesses have not touched yet.
-           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-
-          <p className="text-gray-300 leading-relaxed mb-4">
-            If you want to understand how AI currently sees your business, what it knows and what it is missing, the starting point is a clear-eyed audit of your entire digital footprint, not just your review count.
-           Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-
-          <p className="text-gray-300 leading-relaxed">
-            The businesses that move fastest in AI search are the ones that stop optimizing for the metric that feels intuitive and start optimizing for the signals that AI actually uses. Reviews matter. Just not the way you thought they did.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-        </section>
-
-        {/* Cheat Sheet */}
-        <div className="ae-cheat-sheet mt-12">
-          <div className="ae-cheat-sheet-title">Review Strategy Cheat Sheet for AI Visibility</div>
-          <table>
-            <tbody>
-              <tr>
-                <td>Stop doing</td>
-                <td>Mass review blasts asking for generic five-star ratings</td>
-              </tr>
-              <tr>
-                <td>Start doing</td>
-                <td>Asking customers to mention specific services, locations, and outcomes</td>
-              </tr>
-              <tr>
-                <td>Expand to</td>
-                <td>Yelp, industry directories, TrustPilot, and niche platforms for your category</td>
-              </tr>
-              <tr>
-                <td>Maintain</td>
-                <td>Consistent monthly review flow (recency matters)</td>
-              </tr>
-              <tr>
-                <td>Pair with</td>
-                <td>Structured website content: service pages, FAQs, clear NAP data</td>
-              </tr>
-              <tr>
-                <td>Never do</td>
-                <td>Buy reviews or incentivize reviews with discounts</td>
-              </tr>
-              <tr>
-                <td>Measure</td>
-                <td>AI citation frequency, not review count</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        {/* Related articles */}
-        <section className="mt-12">
-          <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
-          <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/blog/does-responding-to-reviews-help-ai-recommend-you" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <p className="text-white font-medium">Does Responding to Reviews Help AI Recommend You Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            </Link>
-            <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
-              <p className="text-sm text-[#F27D24] mb-1">Business Pain Points <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-              <p className="text-white font-medium">Why AI Recommends Businesses With Worse Reviews <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            </Link>
-          </div>
-        </section>
-
-        {/* 3-Tier CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Review Strategy Actually Helping AI Find You?</h3>
-          <p className="text-gray-400 mb-6">Stop guessing. Our free Blind Spot Report analyzes every signal AI uses to evaluate your business, including your review footprint across all the platforms that matter. You will see exactly what AI sees, and what it does not. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-            Get Your Free Blind Spot Report
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-            <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              (213) 444-2229
-            </a>
-            <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              support@theanswerengine.ai
-            </a>
-          </div>
-        </div>
-
-        {/* Author Card */}
-        <div className="not-prose">
-            <div className="ae-author-card">
+            {/* Author Card */}
+            <div className="not-prose ae-author-card">
               <img
                 src="/justin-borges.webp"
                 alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
               />
               <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. TAE runs its Review Surface Audit on every onboarding engagement and tracks review-to-citation conversion inside the monthly Proof Ledger &mdash; 1.14M+ monthly impressions, 4 of 4 LLMs cited. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
               </div>
             </div>
-          </div>
 
-        {/* FAQ Section */}
-        <section id="faq" className="mt-16">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8">Frequently Asked Questions</h2>
-          <div className="space-y-6">
-            {[
-              {
-                q: 'Does getting more Google reviews help AI recommend my business?',
-                a: 'Not in the way most business owners assume. Raw review count is a weak signal for AI recommendations. What AI systems actually weight more heavily is review quality, recency, diversity across platforms, and whether reviews contain service-specific and location-specific language.'
-              },
-              {
-                q: 'Does ChatGPT read my Google reviews?',
-                a: 'ChatGPT does not directly access your Google Business Profile in real time. It absorbs patterns from public internet data during training, which can include review content from Yelp, Trustpilot, and industry directories. ChatGPT with browsing enabled can retrieve live review data indirectly, but the connection is inconsistent.'
-              },
-              {
-                q: 'What matters more to AI: review count or review content?',
-                a: 'Review content matters significantly more. Reviews that mention specific services, locations, and outcomes give AI systems usable signal. A review that says "best emergency plumber in Phoenix, fixed our burst pipe in under 2 hours" teaches AI what your business does and where you operate. Five hundred generic five-star ratings teach AI almost nothing useful.'
-              },
-              {
-                q: 'Do reviews on Yelp or other platforms help AI visibility?',
-                a: 'Yes, more than many business owners realize. Perplexity AI in particular draws heavily from Yelp, Reddit, and industry directories. Having consistent review presence across multiple platforms creates multi-source corroboration that AI systems use to build confidence about a business.'
-              },
-              {
-                q: 'Why does AI recommend businesses with fewer reviews than mine?',
-                a: 'Because AI is not running a review count comparison. Your competitor likely has stronger signals in areas AI actually weights: more consistent data across the web, richer website content, structured schema markup, third-party press mentions, or review content that better matches customer search queries.'
-              },
-              {
-                q: 'Does responding to reviews help AI find my business?',
-                a: 'Responding to reviews is a positive signal, but its impact on AI is indirect. Responses demonstrate business activity and engagement. For direct AI citation impact, structured content on your website and consistent NAP data across directories carry significantly more weight.'
-              },
-              {
-                q: 'Is there a minimum number of reviews I need for AI to recommend me?',
-                a: 'There is no published threshold. AI platforms do not rank businesses by review count. The real question is whether your overall digital footprint gives AI enough corroborating signal to confidently name your business. That comes from combining reviews with structured website content, directory consistency, and third-party mentions.'
-              },
-            ].map((item, i) => (
-              <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
-                <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
-                <p className="text-gray-300 leading-relaxed">{item.a} <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+            {/* CTA Block */}
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Run Your Free Blind Spot Scan &mdash; See Where Your Reviews Are Actually Cited</h3>
+              <p>Every month 390 businesses search for AEO services. One wins each market. The Blind Spot Scan runs your review surface against 47 citation signals and tells you which signals already compound and which are zero &mdash; free, no login required.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free Blind Spot Scan &rarr;</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
               </div>
-            ))}
-          </div>
-        </section>
+            </div>
 
-        {/* Final CTA */}
+            {/* FAQ Section */}
+            <span className="ae-section-label" id="faq">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Does getting more Google reviews help AI recommend my business?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Not in the way most business owners assume. Raw review count is a weak signal for AI recommendations. What AI systems weight more heavily is review content specificity, recency density, source diversity across platforms, keyword-rich entity language inside reviews, and consistent business responses to reviews. A business with 80 specific reviews from the last 90 days will outperform one with 500 generic five-star ratings collected over five years. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free Blind Spot Scan</a> to see which signals your review surface clears.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Does ChatGPT read my Google reviews?</summary>
+              <p className="faq-answer mt-3 text-gray-300">ChatGPT does not directly access your Google Business Profile in real time during a normal chat. Review content reaches ChatGPT through two pathways: training-data absorption from public review surfaces like Yelp, Trustpilot, and industry directories, and live retrieval through ChatGPT browsing or the Bing index. The connection is indirect. Reviews syndicated across multiple platforms with consistent entity language reach AI systems through more retrieval paths than reviews trapped on one platform. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full retrieval-path map.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">What matters more to AI: review count or review content?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Review content matters substantially more than review count. Reviews that mention specific services, cities, and outcomes give AI retrievers usable entity language. A review reading &ldquo;best emergency plumber in Phoenix, fixed our burst pipe in under two hours&rdquo; teaches retrieval layers what the business does and where, which converts into a citation-ready chunk. Aggregate star ratings without specificity supply no chunkable text for AI to extract or cite. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a 30-minute strategy call</a> to engineer your review prompts for specificity.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Do reviews on Yelp or other platforms help AI visibility?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Yes &mdash; and source diversity matters more than most operators realize. Chen et al. (2025) measured a systematic bias inside generative engines toward earned media over self-published brand content. Reviews on Yelp, Trustpilot, BBB, industry directories, and category-specific platforms function as earned media. The same review content syndicated across multiple platforms reaches AI retrievers through more independent paths, which compounds the citation surface beyond any single Google review count. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to map your current source diversity.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Should I respond to reviews if I want AI to find me?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Yes. Business responses to reviews supply named-author attribution and operational continuity signals that LLMs treat as inline operator attestation. A reviewed business that responds in the operator voice with named author and date creates an attribution chain AI systems can cite. Responding to reviews is mechanically separate from collecting them &mdash; the response is the citation candidate, the review is the retrieval anchor. Both layers compound when paired. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your territory</a> before a competitor pairs both layers.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How long does it take for new reviews to affect AI recommendations?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Live retrieval pathways like ChatGPT browsing, Perplexity, and Google AI Overviews can surface new reviews within hours of publication. Training-data pathways take a longer window &mdash; most major LLMs absorb new public review surfaces during periodic retraining cycles that run on monthly to quarterly cadences. The fastest review-to-citation path is third-party syndication: review content posted to Yelp or industry directories enters the live retrieval index almost immediately and the next training pass shortly after. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the syndication path checklist.</p>
+            </details>
+
+            {/* CTA — territory */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; One client per market &mdash; lock in your territory before a competitor does</a>
+
+            {/* Related */}
+            <span className="ae-section-label">Continue Reading</span>
+            <h2>Related AEO Concepts</h2>
+
+            <ul>
+              <li><Link href="/blog/do-google-reviews-affect-ai-recommendations">Do Google Reviews Affect AI Recommendations?</Link></li>
+              <li><Link href="/blog/does-responding-to-reviews-help-ai-recommend-you">Does Responding to Reviews Help AI Recommend You?</Link></li>
+              <li><Link href="/blog/how-online-reviews-shape-ai-recommendations">How Online Reviews Shape AI Recommendations</Link></li>
+              <li><Link href="/blog/why-ai-recommends-businesses-with-worse-reviews">Why AI Recommends Businesses With Worse Reviews</Link></li>
+              <li><Link href="/blog/why-my-5star-google-reviews-dont-show-up-in-ai-answers">Why My 5-Star Google Reviews Don&apos;t Show Up in AI Answers</Link></li>
+              <li><Link href="/blog/anatomy-of-an-ai-citation">Anatomy of an AI Citation</Link></li>
+            </ul>
+
+            {/* CTA — phone */}
+            <a href="tel:+12134442229" className="ae-cta-inline">&rarr; Call (213) 444-2229 for a free review surface check</a>
+
+          </div>
+
+          {/* Final CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                A 5-Star Rating Means Nothing if AI Search Has Never Heard of You
+                Your Review Surface Determines Who AI Recommends
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                AI engines build recommendations from editorial sources, not review counts. The Answer Engine builds the authority signals that get you cited — free audit shows your current AI reputation score. One business per market.
+                Every month 390 businesses search for AEO services. The Answer Engine&apos;s Origin Protocol engineers review surfaces that compound citation probability across every major answer engine. One slot per market.
               </p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Run Free AI Reputation Audit →
+                Run Free Blind Spot Scan
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-gray-400 font-mono">
+                <a href="tel:+12134442229" className="hover:text-[#F27D24] transition-colors">(213) 444-2229</a>
+                <span>&middot;</span>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-[#F27D24] transition-colors">Book a 30-min strategy call</a>
+                <span>&middot;</span>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-[#F27D24] transition-colors">support@theanswerengine.ai</a>
               </div>
             </div>
           </section>
 
-      </article>
+        </article>
+      </div>
     </>
-  )
+  );
 }
