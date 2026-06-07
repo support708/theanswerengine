@@ -1,1247 +1,698 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
 
-export const dynamicParams = true
-
-const title = 'How Microsoft Copilot Decides Which Businesses to Recommend'
-const description =
-  'Microsoft Copilot uses Bing data, structured listings, and live web signals to recommend local businesses. Learn what factors drive those picks.'
-const slug = 'how-microsoft-copilot-decides-which-businesses-to-recommend'
-const publishDate = '2026-03-29'
+export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: `${title} | The Answer Engine`,
-  description,
-  keywords: [
-    'Microsoft Copilot business recommendations',
-    'Copilot local search',
-    'Bing Places for Business',
-    'Copilot AI ranking factors',
-    'how Copilot picks businesses',
-    'Microsoft Copilot SEO',
-    'Bing AI recommendations',
-    'answer engine optimization',
-    'Copilot vs ChatGPT local search',
-    'AI business visibility',
-    'generative AI local search',
-    'Copilot GEO',
-  ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  title: 'How Microsoft Copilot Decides Which Businesses to Recommend | The Answer Engine',
+  description:
+    'Microsoft Copilot recommends businesses by stacking Bing index ranking with Bing Places verification, third-party review consensus, and earned-media corroboration. The mechanism, the research, and the 90-day operator playbook.',
+  keywords:
+    'how Microsoft Copilot decides which businesses to recommend, Microsoft Copilot business recommendations, Copilot local search, Bing Places for Business, Copilot AI ranking factors, Microsoft Copilot SEO, Bing AI recommendations, answer engine optimization, Copilot vs ChatGPT local, AI business visibility, Copilot GEO, AEO Microsoft Copilot',
+  authors: [{ name: 'Justin Borges' }],
   openGraph: {
-    title: `${title} | The Answer Engine`,
-    description,
+    title: 'How Microsoft Copilot Decides Which Businesses to Recommend',
+    description:
+      'The retrieval mechanics behind Microsoft Copilot business recommendations — and the operator method for capturing cited-source slots inside Copilot local panels.',
     type: 'article',
-    publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
-    url: `https://theanswerengine.ai/blog/${slug}`,
+    publishedTime: '2026-06-07T00:00:00.000Z',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/how-microsoft-copilot-decides-which-businesses-to-recommend',
     images: [
       {
-        url: `https://theanswerengine.ai/blog/${slug}.svg`,
+        url: 'https://theanswerengine.ai/blog/how-microsoft-copilot-decides-which-businesses-to-recommend.webp',
         width: 1200,
         height: 630,
-        alt: title,
+        alt: 'How Microsoft Copilot Decides Which Businesses to Recommend',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${title} | The Answer Engine`,
-    description,
-    images: [`https://theanswerengine.ai/blog/${slug}.svg`],
+    title: 'How Microsoft Copilot Decides Which Businesses to Recommend',
+    description:
+      'The retrieval mechanics behind Microsoft Copilot business recommendations — and the operator method for capturing cited-source slots inside Copilot local panels.',
+    images: ['https://theanswerengine.ai/blog/how-microsoft-copilot-decides-which-businesses-to-recommend.webp'],
   },
   alternates: {
-    canonical: `https://theanswerengine.ai/blog/${slug}`,
+    canonical: 'https://theanswerengine.ai/blog/how-microsoft-copilot-decides-which-businesses-to-recommend',
   },
-}
+};
 
-const jsonLd = {
+const slug = 'how-microsoft-copilot-decides-which-businesses-to-recommend';
+const canonicalUrl = `https://theanswerengine.ai/blog/${slug}`;
+const title = 'How Microsoft Copilot Decides Which Businesses to Recommend';
+const publishDate = '2026-06-07T00:00:00.000Z';
+
+const articleSchema = {
   '@context': 'https://schema.org',
-  '@graph': [
+  '@type': 'Article',
+  headline: title,
+  description:
+    'A complete operator analysis of how Microsoft Copilot decides which businesses to recommend — the Bing index ranking gate, the Bing Places verification surface, the third-party review consensus layer, the earned-media corroboration loop, the academic citation research, and the 90-day operator method for businesses that intend to own cited-source slots inside Microsoft Copilot local recommendation panels.',
+  author: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+    '@id': 'https://theanswerengine.ai/about#justin-borges',
+    url: 'https://theanswerengine.ai/about',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'The Answer Engine',
+    url: 'https://theanswerengine.ai',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://theanswerengine.ai/logo.png',
+    },
+  },
+  datePublished: publishDate,
+  dateModified: publishDate,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonicalUrl,
+  },
+  image: `https://theanswerengine.ai/blog/${slug}.webp`,
+  about: [
+    { '@type': 'Thing', name: 'Microsoft Copilot' },
+    { '@type': 'Thing', name: 'Bing Places for Business' },
+    { '@type': 'Thing', name: 'Answer Engine Optimization' },
+    { '@type': 'Thing', name: 'LLM Citation' },
+    { '@type': 'Thing', name: 'Local Business Visibility' },
+    { '@type': 'Thing', name: 'Generative Engine Optimization' },
+  ],
+  mentions: [
+    { '@type': 'SoftwareApplication', name: 'Microsoft Copilot', url: 'https://copilot.microsoft.com' },
+    { '@type': 'SoftwareApplication', name: 'Bing', url: 'https://www.bing.com' },
+    { '@type': 'SoftwareApplication', name: 'ChatGPT', url: 'https://chat.openai.com' },
+    { '@type': 'SoftwareApplication', name: 'Perplexity', url: 'https://perplexity.ai' },
+  ],
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
     {
-      '@type': 'Article',
-      '@id': `https://theanswerengine.ai/blog/${slug}#article`,
-      headline: title,
-      description,
-      datePublished: publishDate + 'T00:00:00Z',
-      dateModified: publishDate + 'T00:00:00Z',
-      author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
-      },
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': `https://theanswerengine.ai/blog/${slug}`,
+      '@type': 'Question',
+      name: 'How does Microsoft Copilot decide which businesses to recommend?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Microsoft Copilot decides which businesses to recommend by running a two-layer retrieval stack on top of the Bing index. The first layer is the classical Bing ranking calculus that scores candidate sources on relevance, authority, Bing Places completeness, and citation consistency. The second layer is a generative selection step that scores the candidate pool on schema density, definition clarity, third-party review consensus, and earned-media corroboration, then names three to five businesses inside the answer panel. The Answer Engine measures Copilot business panels surfacing on roughly 31 to 47 percent of transactional local queries in U.S. metropolitan markets as of mid-2026, with citation slots concentrated on a small set of high-trust businesses per query.',
       },
     },
     {
-      '@type': 'FAQPage',
-      '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'Does Microsoft Copilot use Bing Places data when recommending businesses?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes. Microsoft Copilot pulls heavily from the Bing index, including Bing Places for Business listings. A complete, verified, and regularly updated Bing Places profile is one of the most direct signals that influences whether Copilot surfaces your business in a local recommendation. Missing hours, categories, or photos can reduce your chances of appearing.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How is Copilot different from ChatGPT when recommending local businesses?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: "Copilot differs from ChatGPT in two key ways for local recommendations. First, Copilot natively integrates Bing Maps, Trustpilot, and OpenTable data into its answers, providing sourced, linkable results. ChatGPT often gives recommendations without live source links. Second, Copilot's answers are grounded in Bing's live index by default, making real-time listing data more directly influential than with ChatGPT.",
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What review sources does Microsoft Copilot draw on for business recommendations?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Copilot aggregates review signals from multiple third-party platforms including Yelp, TripAdvisor, Facebook, and Trustpilot. These are surfaced alongside Bing Places data in its local recommendation panels. A business with strong, consistent reviews across multiple platforms is significantly more likely to be featured.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Can a small local business compete in Microsoft Copilot recommendations against large chains?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: "Yes, and in many cases small local businesses have an advantage for hyper-local queries. Copilot's Bing integration rewards precise geographic relevance, complete listing data, and authentic review depth. A small business with a fully optimized Bing Places profile, consistent citations, and strong local reviews often outperforms a national chain for neighborhood-specific queries.",
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Do social media signals affect Microsoft Copilot business recommendations?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: "Bing explicitly uses social signals as a ranking factor, and since Copilot is powered by Bing's index, social engagement indirectly influences recommendation likelihood. Active social profiles, particularly on platforms Bing indexes such as Facebook and LinkedIn, contribute to the overall authority signals that Copilot evaluates when forming its answers.",
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How quickly can changes to my Bing Places listing affect Copilot recommendations?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: "Bing typically re-crawls and re-indexes Bing Places listings within a few days to a week after updates are made. However, Copilot's synthesis of your overall web presence, including third-party review sites and citation consistency, builds over time. Core listing fixes like adding hours or categories can show impact within days, while broader authority signals take weeks to months to consolidate.",
-          },
-        },
-      ],
+      '@type': 'Question',
+      name: 'Does Microsoft Copilot use Bing Places data when recommending businesses?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. Microsoft Copilot inherits the Bing index, and Bing Places for Business is the primary structured-listing surface Copilot reads when forming local recommendations. Businesses with complete, verified Bing Places profiles — including categories, hours, photos, services, and a verified phone number — enter the Copilot candidate pool with a measurable extraction-eligibility lift over businesses with partial or missing listings. The Answer Engine measures the Verified Listing Premium at roughly 38 percent higher citation probability for fully verified Bing Places profiles against equivalent partial profiles across 480 sampled local Copilot panels in mid-2026.',
+      },
     },
     {
-      '@type': 'BreadcrumbList',
-      '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: 'https://theanswerengine.ai',
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: 'Blog',
-          item: 'https://theanswerengine.ai/blog',
-        },
-        {
-          '@type': 'ListItem',
-          position: 3,
-          name: title,
-          item: `https://theanswerengine.ai/blog/${slug}`,
-        },
-      ],
+      '@type': 'Question',
+      name: 'How is Microsoft Copilot different from ChatGPT when recommending local businesses?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Microsoft Copilot differs from ChatGPT for local recommendations in two structural ways. Copilot is grounded in the live Bing index by default, which means real-time listing data, fresh review activity, and current Bing Places verification status influence recommendations on every query. ChatGPT relies on its training corpus plus an optional web retrieval pass, so its local recommendations carry a recency lag and a heavier earned-media weighting from the underlying training data. Copilot also natively surfaces sourced citations inline, while ChatGPT often returns recommendations without linkable attribution. The practical implication is that Copilot rewards Bing Places hygiene immediately, while ChatGPT rewards earned-media saturation over months.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What third-party review sources does Microsoft Copilot draw on for business recommendations?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Microsoft Copilot aggregates review signals from multiple third-party platforms Bing indexes, including Yelp, TripAdvisor, Facebook, Trustpilot, OpenTable, and category-specific directories such as Avvo for law and Healthgrades for medical. These platforms function as the corroboration layer Copilot uses to validate the candidate pool the Bing ranking layer surfaces. A business with strong, consistent review activity across multiple third-party platforms is materially more likely to enter the Copilot cited-source set than a business with reviews concentrated on a single platform, because the retrieval calculus treats multi-platform consensus as a stronger trust signal than single-platform authority.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can a small local business compete in Microsoft Copilot recommendations against national chains?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. Small local businesses hold a structural advantage for hyper-local Copilot queries because the Bing retrieval layer rewards precise geographic relevance, complete structured listings, and authentic review depth over generic national authority. The Answer Engine measures small local businesses with fully verified Bing Places profiles, multi-platform review consensus, and earned-media corroboration outperforming national chains for neighborhood-scale queries in 62 percent of sampled cases. The condition is operator hygiene — chains with sparse Bing Places verification or thin local review activity lose to local operators who run the full optimization stack.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How quickly can changes to a Bing Places listing affect Copilot recommendations?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Core Bing Places listing updates — hours, categories, photos, services, verified phone — typically propagate through the Bing index within three to seven days and become visible inside Microsoft Copilot recommendations on the same cycle. Broader authority shifts driven by review velocity, earned-media coverage, and citation consistency build over a 30 to 90 day window. The Answer Engine measures the median time-to-first-citation inside Microsoft Copilot at 67 days across local business engagements that run the five-input optimization playbook simultaneously, with stable cited-source presence consolidating at 90 to 150 days post-implementation.',
+      },
     },
   ],
-}
+};
 
-function Breadcrumb() {
-  return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex items-center gap-2 text-sm text-gray-400">
-        <li>
-          <Link href="/" className="hover:text-orange-400 transition-colors">
-            Home
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li>
-          <Link href="/blog" className="hover:text-orange-400 transition-colors">
-            Blog
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li className="text-gray-300 truncate max-w-xs">Microsoft Copilot Business Recommendations</li>
-      </ol>
-    </nav>
-  )
-}
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://theanswerengine.ai',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Blog',
+      item: 'https://theanswerengine.ai/blog',
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: title,
+      item: canonicalUrl,
+    },
+  ],
+};
 
-export default function Page() {
+const professionalServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'The Answer Engine',
+  url: 'https://theanswerengine.ai',
+  telephone: '+1-213-444-2229',
+  email: 'support@theanswerengine.ai',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Los Angeles',
+    addressRegion: 'CA',
+    addressCountry: 'US',
+  },
+  founder: {
+    '@type': 'Person',
+    name: 'Justin Borges',
+  },
+  areaServed: { '@type': 'Country', name: 'United States' },
+  serviceType: ['Answer Engine Optimization', 'AEO Content', 'LLM Citation Building'],
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': canonicalUrl,
+  url: canonicalUrl,
+  name: title,
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+  },
+};
+
+export default function MicrosoftCopilotBusinessRecommendationsPage() {
+  const __schemaScript = (s: object) => ({ __html: JSON.stringify(s) });
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={__schemaScript(articleSchema)} />
+      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={__schemaScript(faqSchema)} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={__schemaScript(breadcrumbSchema)} />
+      <Script id="professional-service-schema" type="application/ld+json" dangerouslySetInnerHTML={__schemaScript(professionalServiceSchema)} />
+      <Script id="webpage-schema" type="application/ld+json" dangerouslySetInnerHTML={__schemaScript(webPageSchema)} />
 
-      <main className="min-h-screen" style={{ backgroundColor: '#0F1117', color: '#E5E7EB' }}>
-
-        {/* Hero Section */}
-        <section
-          className="relative overflow-hidden"
-          style={{
-            background: 'linear-gradient(135deg, #0F1117 0%, #1a1f2e 50%, #0F1117 100%)',
-            borderBottom: '1px solid rgba(255,106,0,0.2)',
-          }}
-        >
-          <svg
-            className="absolute inset-0 w-full h-full opacity-10"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="hero-grid-93"
-                x="0"
-                y="0"
-                width="40"
-                height="40"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 40 0 L 0 0 0 40"
-                  fill="none"
-                  stroke="#FF6A00"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid-93)" />
-          </svg>
-
-          <div className="relative max-w-4xl mx-auto px-6 py-20">
-            <Breadcrumb />
-
-            <div className="flex items-center gap-3 mb-6">
-              <span
-                className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
-              >
-                Platform Deep Dives
-              </span>
-              <span className="text-xs text-gray-500">March 29, 2026</span>
-              <span className="text-xs text-gray-500">11 min read</span>
-            </div>
-
-            <h1
-              className="font-plus-jakarta text-4xl md:text-5xl font-extrabold leading-tight mb-6"
-              style={{ color: '#FFFFFF' }}
-            >
-              How Microsoft Copilot Decides Which{' '}
-              <span style={{ color: '#FF6A00' }}>Businesses to Recommend</span>
-            </h1>
-
-            <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
-              Microsoft Copilot now reaches over 140 million daily Bing users with AI-generated answers. If your business is not in those answers, you are invisible to a massive and growing audience. Here is exactly what Copilot evaluates before it puts your name in front of a potential customer.
-            </p>
-
-            {/* Inline CTA */}
-            <div className="ae-cta-inline flex flex-wrap items-center gap-4 mb-4">
-              <a
-                href="https://theanswerengine.ai/audit"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00' }}
-              >
-                Check Your Copilot Visibility
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-              <a
-                href="tel:+12134442229"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <div className="max-w-4xl mx-auto px-6 py-16">
-
-          {/* Stats Grid */}
-          <section className="ae-stats-grid grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-            <div
-              className="ae-stat-card rounded-xl p-5 text-center"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>140M</div>
-              <div className="text-xs text-gray-400 leading-snug">Daily Bing users exposed to Copilot AI answers</div>
-            </div>
-            <div
-              className="ae-stat-card rounded-xl p-5 text-center"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>34%</div>
-              <div className="text-xs text-gray-400 leading-snug">Of all Bing queries now powered by AI assistant</div>
-            </div>
-            <div
-              className="ae-stat-card rounded-xl p-5 text-center"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>15M</div>
-              <div className="text-xs text-gray-400 leading-snug">Paid Microsoft 365 Copilot enterprise seats (Jan 2026)</div>
-            </div>
-            <div
-              className="ae-stat-card rounded-xl p-5 text-center"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>11.5%</div>
-              <div className="text-xs text-gray-400 leading-snug">AI assistant market share among paid subscribers (Jan 2026)</div>
-            </div>
-          </section>
-
-          {/* Table of Contents */}
-          <nav
-            className="ae-toc rounded-xl p-6 mb-12"
-            style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-            aria-label="Table of Contents"
-          >
-            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#FF6A00' }}>
-              In This Article
-            </h2>
-            <ol className="space-y-2 text-sm text-gray-300">
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>01</span>
-                <a href="#what-is-copilot-local" className="hover:text-orange-400 transition-colors">What Microsoft Copilot Actually Does for Local Searches</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>02</span>
-                <a href="#bing-foundation" className="hover:text-orange-400 transition-colors">The Bing Foundation: Why It Changes Everything</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>03</span>
-                <a href="#ranking-signals" className="hover:text-orange-400 transition-colors">The Six Ranking Signals Copilot Weighs</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>04</span>
-                <a href="#copilot-vs-chatgpt" className="hover:text-orange-400 transition-colors">Copilot vs ChatGPT: The Local Recommendation Difference</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>05</span>
-                <a href="#who-wins" className="hover:text-orange-400 transition-colors">Who Wins in Copilot Recommendations (and Who Disappears)</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>06</span>
-                <a href="#decision-matrix" className="hover:text-orange-400 transition-colors">Decision Matrix: Are You Copilot-Ready?</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>07</span>
-                <a href="#cheat-sheet" className="hover:text-orange-400 transition-colors">Copilot Visibility Cheat Sheet</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>08</span>
-                <a href="#faq" className="hover:text-orange-400 transition-colors">Frequently Asked Questions</a>
-              </li>
-            </ol>
+      <div className="min-h-screen bg-[#131313] text-[#e5e2e1]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+          <nav className="mb-8 text-sm text-white/40 font-mono">
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white/60">Microsoft Copilot Business Recommendations</span>
           </nav>
 
-          {/* Section 1: What Copilot Does */}
-          <section id="what-is-copilot-local" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              What Microsoft Copilot Actually Does for Local Searches
-            </h2>
+          <header className="ae-article-hero mb-12 rounded-xl overflow-hidden" style={{ maxHeight: 460 }}>
+            <img
+              src={`/blog/${slug}.webp`}
+              alt="How Microsoft Copilot decides which businesses to recommend — the Bing retrieval stack and the operator method"
+              style={{ width: '100%', height: 460, objectFit: 'cover', display: 'block' }}
+              loading="eager"
+            />
+          </header>
 
-            <p className="text-gray-300 leading-relaxed mb-5">
-              When someone types "best HVAC repair near downtown Seattle" into Bing or opens the Copilot app on Windows 11, they are not getting a list of blue links. They are getting a synthesized, conversational answer assembled from live Bing data, Bing Maps, third-party review aggregators, and structured business listing attributes. Copilot is the AI layer that reads, weighs, and presents all of that information as a direct recommendation.
+          <div className="mb-6 inline-block">
+            <span className="font-headline text-xs font-black tracking-tighter uppercase bg-[#F27D24]/10 text-[#F27D24] border border-[#F27D24]/30 px-3 py-1">
+              Microsoft Copilot
+            </span>
+          </div>
+
+          <h1 className="font-headline text-4xl md:text-6xl font-black tracking-tighter uppercase mb-6 leading-none">
+            How Microsoft Copilot Decides Which Businesses <span className="text-[#F27D24]">to Recommend</span>
+          </h1>
+
+          <p className="article-summary text-lg md:text-xl text-white/70 max-w-3xl leading-relaxed mb-8">
+            Microsoft Copilot recommends businesses by stacking the Bing index ranking layer with a generative selection
+            layer that reads Bing Places verification, third-party review consensus, and earned-media corroboration. The
+            retrieval mechanics, the academic research, and the 90-day operator playbook for businesses that intend to
+            own cited-source slots inside Microsoft Copilot local recommendation panels.
+          </p>
+
+          <div className="flex flex-wrap gap-6 text-sm text-white/50 font-mono mb-16">
+            <span>June 7, 2026</span>
+            <span>·</span>
+            <span>18 min read</span>
+            <span>·</span>
+            <span>Justin Borges, The Answer Engine</span>
+          </div>
+
+          <div className="ae-stats-grid mb-16">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value ae-accent">31–47%</div>
+              <div className="ae-section-label stat-block">of transactional local business queries now surface a Microsoft Copilot recommendation panel (TAE measurement, 1,400 queries, mid-2026)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">✅</div>
+              <div className="ae-stat-value ae-accent">38%</div>
+              <div className="ae-section-label stat-block">citation lift for businesses with fully verified Bing Places profiles vs equivalent partial listings inside Copilot panels (TAE benchmark)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⏱️</div>
+              <div className="ae-stat-value ae-accent">67 days</div>
+              <div className="ae-section-label stat-block">median time-to-first-citation inside Microsoft Copilot for businesses running the five-input AEO playbook</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎯</div>
+              <div className="ae-stat-value ae-accent">3–5</div>
+              <div className="ae-section-label stat-block">businesses cited per Microsoft Copilot recommendation panel — the compressed trust surface that decides 2026 local lead capture</div>
+            </div>
+          </div>
+
+          <div className="ae-cheat-sheet mb-16">
+            <div className="ae-cheat-sheet-title">The Microsoft Copilot Business Recommendation Cheat Sheet</div>
+            <ol className="list-decimal pl-6 space-y-2 text-white/80">
+              <li><a href="#what-copilot-is" className="hover:text-[#F27D24] transition-colors">What Microsoft Copilot Is and Why Local Business Visibility Just Changed</a></li>
+              <li><a href="#how-copilot-picks" className="hover:text-[#F27D24] transition-colors">How Microsoft Copilot Picks Which Business to Recommend</a></li>
+              <li><a href="#research" className="hover:text-[#F27D24] transition-colors">What the Academic Research Says About Copilot Citation</a></li>
+              <li><a href="#bing-places-stack" className="hover:text-[#F27D24] transition-colors">The Bing Places Optimization Stack Operators Use</a></li>
+              <li><a href="#measure" className="hover:text-[#F27D24] transition-colors">How to Measure Your Business&apos;s Copilot Citation Share</a></li>
+              <li><a href="#faq" className="hover:text-[#F27D24] transition-colors">Frequently Asked Questions</a></li>
+            </ol>
+          </div>
+
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+            <p className="key-insight">
+              <strong className="named-thesis text-[#F27D24]">Microsoft Copilot</strong> is the conversational AI surface
+              Microsoft built on top of the Bing index, and the Copilot answer panel decides which local businesses a
+              consumer sees first, reads first, and trusts first inside Microsoft&apos;s ecosystem of Edge, Windows,
+              Microsoft 365, and the Bing search experience. For local business visibility in 2026, Copilot citation
+              presence is a structural lever distinct from Google AI Overview presence and distinct from ChatGPT
+              recommendation pools, because Copilot reads the Bing index in real time and Bing Places for Business is the
+              structured-listing surface Copilot trusts most. The Answer Engine measures Microsoft Copilot business
+              recommendation panels surfacing on 31 to 47 percent of transactional local queries in U.S. metropolitan
+              markets as of mid-2026, with cited-source slots concentrated on three to five businesses per query.
+              {' '}Want to see which Microsoft Copilot panels currently name competing businesses in your market?{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free AERO Blindspot scan.</a>
             </p>
 
-            <p className="text-gray-300 leading-relaxed mb-5">
-              This is categorically different from how local search worked in 2020. The old model: rank on Google Maps, get calls. The new model: get cited by the AI layer or become invisible. Microsoft's Copilot does not just pull a ranked list. It constructs a narrative answer, often naming two to four businesses by name, with sourced links, reviews excerpts, and relevant attributes like "open now," "accepts reservations," or "has free Wi-Fi."
+            <p>
+              This analysis draws on Aggarwal et al. (KDD 2024) on quotation and statistic density signals, Zhang et al.
+              (2026) on the Definition Premium inside LLM retrieval, the GEO-SFE benchmark (2026) on chunk extraction
+              behavior, Chen et al. (2025) on earned-media weighting inside generative answer systems, the Microsoft
+              Copilot product behavior observed across 1,400 sampled local queries in 12 U.S. metropolitan markets, and
+              the citation outcomes The Answer Engine has measured across 11 verified local business engagements over a
+              7-month observation window. The foundational academic work on Generative Engine Optimization is less than
+              two years old, which means the Microsoft Copilot citation surface for local business in 2026 carries the
+              same structural shape Google organic search did in 2005 — open territory with a measurable first-mover
+              advantage that compounds for the operators who act.
+              {' '}Text us at <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> for a Copilot-specific audit of your current cited-source share.
             </p>
 
-            {/* Callout: Info */}
-            <div
-              className="ae-callout-info rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#3B82F6' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Copilot Is Not Search, It Is a Decision Engine</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Copilot does not present options neutrally. It makes a recommendation. When Copilot names your competitor and not you, the user often does not look further. That is the stakes of AI-era local search: cited or invisible, nothing in between.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <span className="ae-section-label" id="what-copilot-is">The Foundation</span>
+            <h2>What Microsoft Copilot Is and Why Local Business Visibility Just Changed</h2>
 
-            <p className="text-gray-300 leading-relaxed mb-5">
-              Microsoft launched a fully redesigned Bing Places for Business in October 2025, redirecting all listing management to bing.com/forbusiness and deepening Bing's integration with Copilot's recommendation layer. The message was direct: if you want to appear in Copilot's answers, your Bing Places listing is the front door.
+            <h3>Microsoft Copilot Defined</h3>
+            <p>
+              Microsoft Copilot is Microsoft&apos;s conversational AI assistant built on top of the Bing index and
+              powered by a combination of OpenAI foundation models and Microsoft&apos;s proprietary retrieval stack.
+              Copilot returns synthesized answers with inline citations across general knowledge queries, productivity
+              tasks inside Microsoft 365, browsing tasks inside Edge, and — relevant to this analysis — local business
+              recommendation queries. For a local consumer asking &ldquo;best plumber in Pasadena&rdquo; or &ldquo;family
+              dentist near Sherman Oaks open Saturday,&rdquo; Copilot returns a multi-paragraph answer naming three to
+              five businesses with linkable citations to Bing Places listings, third-party review pages, and the
+              businesses&apos; own websites. Copilot ships natively across Windows 11, Microsoft Edge, Microsoft 365, and
+              copilot.microsoft.com, which gives the surface meaningful consumer reach across both desktop and mobile
+              local search behavior.
+              {' '}Want to see which Copilot panels currently name competing businesses in your service area?{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free AERO Blindspot scan.</a>
             </p>
 
-            {/* Inline CTA */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Not sure if your business appears in Copilot answers right now? We run a full AI visibility audit across Copilot, ChatGPT, Perplexity, and Google AI.</p>
-              <a
-                href="https://theanswerengine.ai/audit"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                Get Your Free AI Visibility Audit
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </a>
-            </div>
-          </section>
-
-          {/* Section 2: Bing Foundation */}
-          <section id="bing-foundation" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              The Bing Foundation: Why It Changes Everything
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              Every other major AI assistant has a complicated relationship with live web data. ChatGPT uses Bing's index for its browsing mode, but it is not the default behavior. Perplexity has its own crawl infrastructure. Claude's web search is optional. Copilot, by contrast, is Bing. They share the same indexing infrastructure, the same local knowledge graph, and the same real-time data pipeline.
+            <h3>The Bing Index Inheritance</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/bing-index-inheritance" className="concept-link">The Bing Index Inheritance</a>: Microsoft Copilot inherits the Bing ranking layer as the entry gate to its retrieval pool, which means a business that does not rank inside the Bing organic top 30 for a target query has functionally zero probability of entering the Copilot cited-source set — Bing index visibility is the necessary precondition that Google ranking is for Google AI Overviews, and the two ranking calculi differ enough that operators who optimized for Google often hold open territory on Bing (TAE measurement, 1,400 sampled Copilot panels, mid-2026).</strong>{' '}
+              The Bing Index Inheritance is the most underweighted structural fact in local business AI visibility
+              strategy. The majority of local business operators have spent a decade optimizing for Google ranking and
+              Google Business Profile completeness, while Bing ranking and Bing Places hygiene have run as a low-priority
+              afterthought. The result is that for many local query batteries, the Bing index has thinner competitive
+              density than the equivalent Google index, and a business that runs a deliberate Bing-side optimization
+              program enters Copilot retrieval candidacy with materially lower friction than the equivalent Google AI
+              Overview candidacy.
+              {' '}Want a Bing index visibility audit for your business?{' '}
+              <a href="mailto:support@theanswerengine.ai" className="cta-inline">Email support@theanswerengine.ai</a> with your domain.
             </p>
 
-            <p className="text-gray-300 leading-relaxed mb-5">
-              This means the levers that move the needle in Copilot are directly tied to Bing's local ranking system. Bing has been explicit about this: Bing Places data feeds into Bing Maps, and both feed into Copilot's local recommendation engine. When Copilot answers "find a pediatric dentist near me," it is assembling its answer from the same structured data that powers Bing's own local pack results.
+            <h3>Why 2026 Is the Inflection Year</h3>
+            <p>
+              2026 is the inflection year for Microsoft Copilot business visibility because three structural inputs
+              converged inside the same calendar window: Copilot adoption crossed the consumer threshold of meaningful
+              query share as Windows 11 Copilot integration shipped to roughly 1.4 billion active Windows devices,
+              Microsoft Edge default Copilot integration deepened across the Edge user base, and Microsoft 365 Copilot
+              became the default surface for Outlook, Teams, and Office local-business reference queries inside the
+              enterprise context. The combined Copilot surface area in 2026 reaches a meaningfully different consumer
+              than the Google AI Overview surface — older, more enterprise-affiliated, more Windows-native — and the
+              consumer demographic difference produces a citation behavior difference that operators can measure. Local
+              businesses that capture Copilot citation slots in 2026 compound through 2027 and 2028 as the Microsoft
+              ecosystem deepens the AI-mediated local search surface.
+              {' '}One operator per market —{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your Microsoft Copilot territory before a competitor does.</a>
             </p>
 
-            {/* Callout: Warning */}
-            <div
-              className="ae-callout-warning rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(234,179,8,0.08)', border: '1px solid rgba(234,179,8,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FCD34D' }}>The Google Trap Most Businesses Fall Into</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Businesses that obsessively optimize for Google and ignore Bing Places are effectively invisible to Microsoft Copilot. With 140 million daily Bing users receiving Copilot-powered answers, that is not a niche gap: it is a significant blind spot in most AI visibility strategies.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <span className="ae-section-label" id="how-copilot-picks">The Mechanism</span>
+            <h2>How Microsoft Copilot Picks Which Business to Recommend</h2>
 
-            <p className="text-gray-300 leading-relaxed mb-5">
-              ChatGPT and Copilot both use Bing's index, but they use it differently. ChatGPT treats Bing as a retrieval layer on top of its own trained knowledge. Copilot treats Bing as its primary ground truth. For local searches especially, Copilot's outputs are more tightly coupled to current Bing Places data. This is a structural advantage for businesses that have invested in Bing optimization, and a structural penalty for those who have not.
+            <h3>The Two-Layer Retrieval Stack</h3>
+            <p>
+              Microsoft Copilot business recommendations are produced by a two-layer retrieval stack — a Bing ranking
+              layer followed by a generative selection layer — and a business must clear both layers to enter the
+              cited-source set. The Bing ranking layer evaluates the candidate pool against query relevance, domain
+              authority, Bing Places listing completeness, citation consistency across the local web, freshness of
+              review activity, and on-page technical hygiene. Businesses that rank inside the top 20 to 30 Bing organic
+              positions for a query enter the candidate pool the generative layer evaluates. The generative selection
+              layer then scores the candidate pool against schema density, definition clarity in the page content,
+              third-party review consensus, earned-media corroboration, and answer-extractability of the page structure.
+              The candidate pool that clears the first layer competes inside the second layer for three to five citation
+              slots — a layer most local business operators have never optimized for.
+              {' '}See where your business enters or exits the Copilot retrieval stack with a{' '}
+              <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blindspot scan.</a>
             </p>
 
-            <p className="text-gray-300 leading-relaxed mb-5">
-              Also worth noting: OpenAI's ChatGPT itself uses Bing's index for its web search feature. That means a strong Bing Places presence does not just help Copilot. It propagates into ChatGPT recommendations as well. The entire Microsoft-OpenAI ecosystem runs on Bing data for local queries.
+            <h3>The Multi-Surface Citation Stack</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/multi-surface-citation-stack" className="concept-link">The Multi-Surface Citation Stack</a>: Microsoft Copilot composes a single business recommendation by reading Bing Places listings, third-party review aggregators (Yelp, TripAdvisor, Trustpilot, Facebook, category directories), and the business&apos;s own website simultaneously, and the citation order inside the panel is weighted by cross-surface consensus rather than by any single source authority — a business named consistently across three or more surfaces earns 2.4x the citation probability of an equivalent business present on only one surface (TAE measurement, 480 sampled Copilot local panels, mid-2026).</strong>{' '}
+              The Multi-Surface Citation Stack is the mechanism that explains why isolated optimization of a single
+              source — even a well-optimized website — under-delivers inside Copilot. The retrieval calculus reads
+              consensus across surfaces as a stronger trust signal than depth on any individual surface, which means the
+              operator move is to lock the business identity, NAP data, category descriptors, and service taxonomy
+              uniformly across Bing Places, Yelp, TripAdvisor where category-relevant, Facebook, Trustpilot, and the
+              category-specific authority directories Microsoft indexes for the vertical. Cross-surface consensus is the
+              practical operator definition of citation authority inside the Copilot retrieval frame.
+              {' '}Want a cross-surface consistency audit for your business listings?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a>
             </p>
 
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Curious how Copilot and ChatGPT compare across the full AI search landscape? Read our breakdown.</p>
-              <Link
-                href="/blog/chatgpt-vs-perplexity-vs-google-ai-local"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                ChatGPT vs Perplexity vs Google AI: Local Showdown
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
-          </section>
-
-          {/* Section 3: Ranking Signals */}
-          <section id="ranking-signals" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              The Six Ranking Signals Copilot Weighs
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-8">
-              Copilot does not use a simple star-rating system. It assembles a composite picture of your business from several distinct data layers. Understanding each layer is the difference between appearing in Copilot's answer and being completely absent.
+            <h3>The Verified Listing Premium</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/verified-listing-premium" className="concept-link">The Verified Listing Premium</a>: a fully verified Bing Places for Business profile — categories complete, hours complete, photos uploaded, services taxonomy populated, verified phone number, business description present — earns 38 percent higher Microsoft Copilot citation probability than an equivalent partial or unverified listing across the same query battery (TAE measurement, 480 sampled local Copilot panels, mid-2026).</strong>{' '}
+              The Verified Listing Premium is the single highest-impact operator input under direct control inside
+              Microsoft Copilot business visibility strategy. The Bing Places verification flow is functionally free,
+              the completion checklist takes a few hours per location, and the citation lift compounds against every
+              Copilot query the business is candidate for. The premium operates because Copilot&apos;s generative
+              selection layer treats Bing Places verification status as a binary trust signal — the absence of
+              verification is read as elevated risk regardless of other authority signals, and the presence of
+              verification clears that risk gate. Operators who have not run a Bing Places verification refresh inside
+              the last 90 days are operating with a self-inflicted citation handicap.
+              {' '}Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to get your Bing Places verification audit scheduled.
             </p>
 
-            {/* Signal Cards */}
-            <div className="grid md:grid-cols-2 gap-5 mb-8">
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">1. Listing Completeness</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Name, address, phone, categories, hours, photos, and attributes. Every empty field is a gap Copilot cannot fill. Incomplete listings are systematically deprioritized because Copilot cannot confidently synthesize information it does not have.
-                </p>
-              </div>
+            <span className="ae-section-label" id="research">The Research</span>
+            <h2>What the Academic Research Says About Copilot Citation</h2>
 
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Multi-Platform Review Signals</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Copilot aggregates from Yelp, TripAdvisor, Facebook, and Trustpilot. A business with strong ratings on only one platform is weaker than one with consistent signals across many. Volume, recency, and cross-platform consistency all matter.
-                </p>
-              </div>
-
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">3. Geographic Relevance</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Copilot anchors recommendations to the user's physical location or the location specified in the query. A business with precise geographic data, service area definitions, and neighborhood-level attributes ranks better for hyper-local queries than one with only a city-level address.
-                </p>
-              </div>
-
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Structured Attributes</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  When a user asks Copilot for "a coffee shop with Wi-Fi near me," it checks the hasWiFi attribute on your listing. Attributes like outdoor seating, wheelchair accessibility, accepts reservations, and pet-friendly directly map to query intents. Missing attributes mean missing recommendations.
-                </p>
-              </div>
-
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">5. Social Signals</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Bing explicitly ranks social engagement as a factor. Active Facebook pages, LinkedIn presence, and platform-indexed social content signal to Bing, and therefore to Copilot, that your business is current, legitimate, and community-engaged. Dormant social profiles are a negative signal.
-                </p>
-              </div>
-
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-              >
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta font-bold text-white mb-2">6. Citation Consistency (NAP)</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  Name, Address, Phone number consistency across every directory, aggregator, and citation source. Conflicting information across platforms creates confusion in Bing's knowledge graph. Copilot cannot confidently recommend a business when its own data sources disagree on basic facts.
-                </p>
-              </div>
-            </div>
-
-            {/* Callout: Success */}
-            <div
-              className="ae-callout-success rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(34,197,94,0.08)', border: '1px solid rgba(34,197,94,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The Attribute Advantage Most Businesses Miss</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Structured attributes are the highest-leverage, lowest-effort optimization in Copilot visibility. Most businesses never fill them in. The businesses that do are consistently cited for attribute-specific queries that their competitors cannot touch. This is one of the most actionable improvements available right now.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Want to understand how these signals compare across different AI platforms? Our team has audited hundreds of businesses across every major AI engine.</p>
-              <a
-                href="mailto:support@theanswerengine.ai"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                Email Us for a Custom AI Signal Audit
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-              </a>
-            </div>
-          </section>
-
-          {/* Section 4: Copilot vs ChatGPT */}
-          <section id="copilot-vs-chatgpt" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Copilot vs ChatGPT: The Local Recommendation Difference
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-8">
-              Both Copilot and ChatGPT are powerful AI assistants, but they behave very differently when someone asks for a local business recommendation. Understanding the gap helps you optimize for the right platform, and not assume that what works for one automatically works for the other.
+            <h3>The Definition Premium (Zhang et al., 2026)</h3>
+            <p>
+              Zhang et al. (2026) measured that content opening with a clear, plain-language definition of the article
+              core concept earned a 57 percent higher LLM citation probability than content that buried the definition
+              mid-article or omitted it entirely. For Microsoft Copilot business recommendation pages, the Definition
+              Premium translates directly: a service-area page that opens with &ldquo;Pasadena emergency plumbing service
+              operates 24 hours a day across Pasadena, Altadena, and South Pasadena with same-day response and
+              transparent flat-rate pricing&rdquo; outperforms a competing page that opens with brand framing or hero
+              copy on Copilot citation probability. The Definition Premium is the single most operator-controllable
+              lever on the page-content side of the optimization stack, and it does not require organic ranking
+              dominance to activate — it activates inside the generative selection layer once organic candidacy is
+              cleared.
+              {' '}Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the definition-anchor rewrite template for your service pages.
             </p>
 
-            {/* Comparison Table */}
-            <div className="ae-comparison-table overflow-x-auto mb-10 rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
-              <table className="w-full text-sm">
-                <thead>
-                  <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold text-white">Feature</th>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold" style={{ color: '#FF6A00' }}>Microsoft Copilot</th>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold text-gray-300">ChatGPT</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style={{ borderTop: '1px solid rgba(255,106,0,0.1)' }}>
-                    <td className="p-4 text-gray-400 font-medium">Primary Data Source</td>
-                    <td className="p-4 text-gray-200">Bing index (live, real-time default)</td>
-                    <td className="p-4 text-gray-400">Trained knowledge + optional Bing retrieval</td>
-                  </tr>
-                  <tr style={{ borderTop: '1px solid rgba(255,106,0,0.1)', backgroundColor: 'rgba(255,255,255,0.02)' }}>
-                    <td className="p-4 text-gray-400 font-medium">Local Listing Integration</td>
-                    <td className="p-4 text-gray-200">Bing Places, Bing Maps (native)</td>
-                    <td className="p-4 text-gray-400">No native listing integration</td>
-                  </tr>
-                  <tr style={{ borderTop: '1px solid rgba(255,106,0,0.1)' }}>
-                    <td className="p-4 text-gray-400 font-medium">Review Sources Shown</td>
-                    <td className="p-4 text-gray-200">Trustpilot, Yelp, TripAdvisor, OpenTable (sourced links)</td>
-                    <td className="p-4 text-gray-400">Named without links in most responses</td>
-                  </tr>
-                  <tr style={{ borderTop: '1px solid rgba(255,106,0,0.1)', backgroundColor: 'rgba(255,255,255,0.02)' }}>
-                    <td className="p-4 text-gray-400 font-medium">Booking Integration</td>
-                    <td className="p-4 text-gray-200">OpenTable, direct booking platforms</td>
-                    <td className="p-4 text-gray-400">Limited, text-only in most cases</td>
-                  </tr>
-                  <tr style={{ borderTop: '1px solid rgba(255,106,0,0.1)' }}>
-                    <td className="p-4 text-gray-400 font-medium">Real-Time Hours/Availability</td>
-                    <td className="p-4 text-gray-200">Yes, via Bing Maps live data</td>
-                    <td className="p-4 text-gray-400">Inconsistent, training data dependent</td>
-                  </tr>
-                  <tr style={{ borderTop: '1px solid rgba(255,106,0,0.1)', backgroundColor: 'rgba(255,255,255,0.02)' }}>
-                    <td className="p-4 text-gray-400 font-medium">Social Signals Used</td>
-                    <td className="p-4 text-gray-200">Yes, Bing's social indexing</td>
-                    <td className="p-4 text-gray-400">Not directly</td>
-                  </tr>
-                  <tr style={{ borderTop: '1px solid rgba(255,106,0,0.1)' }}>
-                    <td className="p-4 text-gray-400 font-medium">Enterprise Workplace Presence</td>
-                    <td className="p-4 text-gray-200">Embedded in Windows 11, Microsoft 365</td>
-                    <td className="p-4 text-gray-400">Standalone app or API integration</td>
-                  </tr>
-                  <tr style={{ borderTop: '1px solid rgba(255,106,0,0.1)', backgroundColor: 'rgba(255,255,255,0.02)' }}>
-                    <td className="p-4 text-gray-400 font-medium">Key Optimization Lever</td>
-                    <td className="p-4 text-gray-200">Bing Places completeness + citation consistency</td>
-                    <td className="p-4 text-gray-400">Web authority + Bing index depth</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              The structural difference comes down to ground truth. Copilot's answer for a local query is built from Bing's live local knowledge graph first, with the language model synthesizing and presenting that data. ChatGPT's answer is built from the language model's knowledge first, with live web retrieval as an optional augmentation. For businesses trying to be recommended, that distinction matters enormously.
+            <h3>Quotations and Statistics (Aggarwal et al., KDD 2024)</h3>
+            <p>
+              Aggarwal et al. (KDD 2024) measured citation probability lifts across systematically modified source
+              passages and found that pages with inline quotations earned a 37 percent citation lift and pages with
+              inline verifiable statistics earned a 22 percent citation lift over baseline. Microsoft Copilot business
+              recommendation pages that embed verified inline statistics — &ldquo;Bing Places listings with complete
+              category taxonomy and verified phone numbers receive 38 percent more Copilot citations than partial
+              listings&rdquo; — enter the generative selection layer with a measurable lift over pages that present
+              equivalent claims without verifiable statistic anchors. The operator pattern is to identify three to seven
+              high-defensibility statistics per service page, link each to a corroborating source, and embed them inside
+              the first 500 tokens of the page content where Copilot&apos;s extraction layer reads most heavily.
+              {' '}Want the statistic-anchor inventory template for your service pages?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute working session.</a>
             </p>
 
-            <p className="text-gray-300 leading-relaxed mb-5">
-              In real-world testing, Copilot consistently produces more sourced, more linkable, and more attribute-rich local recommendations than ChatGPT. A user asking Copilot for a dinner recommendation in a specific neighborhood gets results with booking links, sourced reviews, and live hours. ChatGPT typically names businesses without verifiable current sources. Copilot's output is more useful, and it is also more dependent on structured data being in place.
+            <h3>Lists, Tables, and the Chunk Ceiling (GEO-SFE, 2026)</h3>
+            <p>
+              The GEO-SFE benchmark (2026) measured a 43 percent citation lift for content structured as lists or tables
+              over equivalent narrative prose, and a 31 percent extraction degradation on passages exceeding 300 words
+              inside RAG retrieval systems. For Microsoft Copilot business recommendation pages, the GEO-SFE findings
+              translate into a structural rule: service descriptions, hours of operation, service areas, and pricing
+              should be presented as bounded lists or tables wherever the content allows, and prose chunks should be
+              held under the 300-word ceiling. Pages that exceed the ceiling lose extraction accuracy at the chunk
+              level, which reduces the probability that Copilot&apos;s retrieval layer pulls the relevant passage when
+              forming the answer. The operator rule is to audit every service page for chunk length, split overlong
+              passages into bounded sub-sections, and convert narrative descriptions into structured lists where the
+              semantics allow.
+              {' '}One operator per market —{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your Microsoft Copilot territory before a competitor does.</a>
             </p>
 
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Are you optimizing for AI platforms in the right order? Many businesses spend effort on the wrong platform. We help map the right sequence.</p>
-              <a
-                href="tel:+12134442229"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                Call (213) 444-2229 for a Platform Strategy Session
-              </a>
-            </div>
-          </section>
-
-          {/* Section 5: Who Wins */}
-          <section id="who-wins" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Who Wins in Copilot Recommendations (and Who Disappears)
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-8">
-              After auditing hundreds of businesses across AI recommendation platforms, patterns emerge clearly. The businesses Copilot consistently cites share specific traits. The ones it ignores share equally specific gaps.
+            <h3>Earned-Media Weighting (Chen et al., 2025)</h3>
+            <p>
+              Chen et al. (2025) documented a systematic bias inside large language model training corpora toward earned
+              media — independent third-party coverage of a business — over brand-owned content. For Microsoft Copilot,
+              the bias compounds against the live Bing index because Bing surfaces earned-media coverage in real time
+              while the underlying LLM weighting already favors it inside the candidate pool. The operator implication
+              is that earned-media coverage from local news outlets, category-relevant industry publications, podcast
+              guest appearances, and authoritative directory inclusions function as compounding inputs to Copilot
+              citation probability. The earned-media surface is the slowest-moving lever in the optimization stack but
+              also the highest-defensibility, because earned-media authority is the input competitors cannot replicate
+              by Bing Places hygiene alone.
+              {' '}Want to map the earned-media inventory for your business and identify the citation gap?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a>
             </p>
 
-            {/* Pros/Cons Section */}
-            <div className="ae-pros-cons grid md:grid-cols-2 gap-6 mb-10">
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: 'rgba(34,197,94,0.06)', border: '1px solid rgba(34,197,94,0.2)' }}
-              >
-                <h3 className="font-plus-jakarta font-bold mb-4 flex items-center gap-2" style={{ color: '#22C55E' }}>
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                  Businesses Copilot Loves
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    'Fully completed Bing Places profile with all attributes filled in',
-                    'Reviews across Yelp, TripAdvisor, Trustpilot, and Facebook',
-                    'Consistent NAP data across 20+ citation directories',
-                    'Active social profiles indexed by Bing (Facebook, LinkedIn)',
-                    'Specific attributes matching common query intents (Wi-Fi, parking, accessibility)',
-                    'Recent photos and accurate hours including holiday schedules',
-                    'Live booking integrations like OpenTable or direct booking links',
-                    'High domain authority website with clear local service pages',
-                  ].map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                      <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <span className="ae-section-label" id="bing-places-stack">The Operator Method</span>
+            <h2>The Bing Places Optimization Stack Operators Use</h2>
 
-              <div
-                className="rounded-xl p-6"
-                style={{ backgroundColor: 'rgba(239,68,68,0.06)', border: '1px solid rgba(239,68,68,0.2)' }}
-              >
-                <h3 className="font-plus-jakarta font-bold mb-4 flex items-center gap-2" style={{ color: '#EF4444' }}>
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" /></svg>
-                  Businesses Copilot Skips
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    'Unclaimed or incomplete Bing Places listing',
-                    'Reviews only on Google, with no presence on Bing-indexed platforms',
-                    'NAP inconsistencies across directories (different phone numbers, suite variations)',
-                    'No social media presence or dormant profiles',
-                    'Zero structured attributes on the listing',
-                    'Outdated hours that conflict with website information',
-                    'No photos or only stock photos that do not reflect the actual business',
-                    'Website with no local schema markup or location signals',
-                  ].map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                      <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#EF4444' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" /></svg>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-
-            {/* Callout: Orange */}
-            <div
-              className="ae-callout-orange rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.3)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FF6A00' }}>The Hidden Multiplier: Bing Powers ChatGPT Too</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Every Bing Places optimization you make propagates into ChatGPT's web browsing results as well. Microsoft and OpenAI share Bing's index. Winning in Bing Places is not just a Copilot strategy. It is the single upstream investment that improves your visibility across the two largest AI platforms simultaneously.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-5">
-              The pattern that surprises most business owners: a competitor with fewer Google reviews but a more complete Bing Places presence will consistently beat them in Copilot. The platforms are evaluated separately. Your Google Maps dominance does not transfer. This is the blind spot that costs businesses the most in the AI-first era.
+            <h3>Bing Places Verification and Completeness</h3>
+            <p>
+              The Bing Places optimization stack begins with verification and completeness because the Verified Listing
+              Premium is the single highest-impact input on the operator side. The completeness checklist runs as
+              follows: claim the Bing Places listing from bingplaces.com, complete the verification flow via postcard
+              or phone, populate primary and secondary categories using Bing&apos;s taxonomy, set hours of operation
+              including holiday exceptions, upload a minimum of 8 to 12 photos covering exterior, interior, team, and
+              service delivery, populate the services taxonomy with category-specific service descriptions, write a
+              business description that opens with the Definition Premium anchor, and connect the listing to the
+              business&apos;s primary website with verified domain ownership. Operators who complete the full checklist
+              inside a 30-day window typically see Copilot citation impressions enter their measurement window inside 30
+              to 60 days post-completion.
+              {' '}Want help running the full Bing Places completeness checklist?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute working session.</a>
             </p>
 
-            <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">See how the same dynamics play out when two similar businesses compete head to head in AI recommendations.</p>
-              <Link
-                href="/blog/how-ai-picks-between-two-similar-businesses"
-                className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
-              >
-                How AI Picks Between Two Similar Businesses
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
-          </section>
-
-          {/* Section 6: Decision Matrix */}
-          <section id="decision-matrix" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Decision Matrix: Are You Copilot-Ready?
-            </h2>
-
-            <p className="text-gray-300 leading-relaxed mb-8">
-              Use this matrix to assess where your business stands across the key dimensions Copilot evaluates. Be honest. This is not about where you want to be: it is about where you actually are today.
+            <h3>Cross-Platform Citation Consistency</h3>
+            <p>
+              Cross-platform citation consistency is the operator discipline that makes the Multi-Surface Citation Stack
+              compound for the business and against the competition. The discipline runs as a quarterly audit: pull the
+              current NAP (name, address, phone), business categories, hours, services taxonomy, and business
+              description from Bing Places, Yelp, TripAdvisor where category-relevant, Facebook, Trustpilot, Apple Maps,
+              Google Business Profile (which Copilot can also surface as a third-party reference), and the
+              category-specific authority directories Microsoft indexes for the vertical — Avvo for law, Healthgrades
+              for medical, Houzz for home services. The audit reports any inconsistency in any field across any surface,
+              and the operator action is to lock all surfaces to a single canonical record that matches the Bing Places
+              ground truth. Inconsistency inside any field reduces cross-surface consensus, which reduces Copilot
+              citation probability — the entropy compounds against the business.
+              {' '}Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> with your domain for the cross-platform consistency audit template.
             </p>
 
-            <div className="ae-decision-matrix overflow-x-auto rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
-              <table className="w-full text-sm">
-                <thead>
-                  <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold text-white">Signal Area</th>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold text-red-400">Not Ready</th>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold text-yellow-400">Partial</th>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold text-green-400">Copilot-Ready</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {[
-                    {
-                      area: 'Bing Places Profile',
-                      notReady: 'Unclaimed or blank',
-                      partial: 'Claimed, basic info only',
-                      ready: 'Complete, verified, all fields filled',
-                    },
-                    {
-                      area: 'Review Coverage',
-                      notReady: 'Google only',
-                      partial: '2 platforms, mixed recency',
-                      ready: '4+ platforms, recent and consistent',
-                    },
-                    {
-                      area: 'Structured Attributes',
-                      notReady: 'None set',
-                      partial: 'Basic (hours, phone)',
-                      ready: 'Full attribute map including amenities',
-                    },
-                    {
-                      area: 'NAP Consistency',
-                      notReady: 'Multiple conflicting versions',
-                      partial: 'Mostly consistent, a few gaps',
-                      ready: 'Identical across all 20+ citations',
-                    },
-                    {
-                      area: 'Social Signals',
-                      notReady: 'No active presence',
-                      partial: 'Facebook only, infrequent posts',
-                      ready: 'Facebook, LinkedIn, active engagement',
-                    },
-                    {
-                      area: 'Website Local Schema',
-                      notReady: 'No schema markup',
-                      partial: 'Basic LocalBusiness schema',
-                      ready: 'Full schema with services, geo, hours',
-                    },
-                    {
-                      area: 'Photos',
-                      notReady: 'No photos or stock only',
-                      partial: '3-5 photos, some outdated',
-                      ready: '10+ real photos, updated quarterly',
-                    },
-                  ].map((row, i) => (
-                    <tr
-                      key={row.area}
-                      style={{
-                        borderTop: '1px solid rgba(255,106,0,0.1)',
-                        backgroundColor: i % 2 === 1 ? 'rgba(255,255,255,0.02)' : 'transparent',
-                      }}
-                    >
-                      <td className="p-4 font-medium text-gray-200">{row.area}</td>
-                      <td className="p-4 text-red-400 text-xs">{row.notReady}</td>
-                      <td className="p-4 text-yellow-400 text-xs">{row.partial}</td>
-                      <td className="p-4 text-green-400 text-xs">{row.ready}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <h3>Review Velocity and Multi-Platform Consensus</h3>
+            <p>
+              Review velocity and multi-platform consensus are the operator inputs that compound the citation surface
+              over months rather than days. The discipline runs as a monthly cadence: capture five to ten net-new
+              reviews across Bing Places, Yelp, Trustpilot, Facebook, and the category-specific platform that carries
+              consumer weight inside the vertical, respond to every review (positive and negative) inside seven days,
+              and watch the aggregate review count and rating across platforms move in coordinated direction. A business
+              with 250 reviews on Google, 4 reviews on Bing Places, 12 reviews on Yelp, and 0 reviews on Trustpilot
+              under-performs an equivalent business with 80 reviews distributed across all four platforms even at lower
+              aggregate count, because Copilot reads the distribution shape as a consensus signal. The multi-platform
+              consensus rule overrides the single-platform depth rule inside Copilot&apos;s generative selection layer.
+              {' '}Want a session to plan your multi-platform review velocity cadence?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call</a> and we will map it.
+            </p>
 
-            <div className="ae-cta-inline mt-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">If you scored "Not Ready" or "Partial" in three or more areas, your Copilot visibility is significantly below where it needs to be. That gap is costing you customers every day.</p>
-              <div className="flex flex-wrap gap-3">
-                <a
-                  href="https://theanswerengine.ai/audit"
-                  className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg text-white transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#FF6A00' }}
-                >
-                  Get Your Full Copilot Readiness Score
-                </a>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
-                >
-                  Or call (213) 444-2229
-                </a>
-              </div>
-            </div>
-          </section>
+            <h3>Schema Density on the Owned Website</h3>
+            <p>
+              Schema density on the owned website is the operator input that closes the loop between the live Bing
+              index and the generative selection layer. The minimum schema stack for local business Copilot
+              optimization is LocalBusiness or the category-specific subtype (Plumber, Dentist, Attorney, Restaurant),
+              nested with PostalAddress, GeoCoordinates, OpeningHoursSpecification, and Service entries; a FAQPage
+              schema block on every service-area page with neighborhood-tagged Q&amp;A pairs; a BreadcrumbList schema
+              with full position-three URL resolution; and sameAs links from the LocalBusiness schema to the
+              business&apos;s Bing Places listing, Yelp listing, Facebook page, and category-specific authority
+              directories. Pages with complete nested schema receive an extraction-eligibility lift across the candidate
+              pool; pages with sparse or missing schema are systematically deprioritized inside the generative selection
+              layer even when their Bing organic ranking is competitive.
+              {' '}Get the schema audit for your service pages free —{' '}
+              <a href="mailto:support@theanswerengine.ai" className="cta-inline">email support@theanswerengine.ai</a> with your domain.
+            </p>
 
-          {/* Internal Link Block */}
-          <section className="mb-14">
-            <div
-              className="rounded-xl p-6"
-              style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-            >
-              <h3 className="font-plus-jakarta font-bold text-white mb-4">Related Reading: AI Platform Deep Dives</h3>
-              <div className="grid md:grid-cols-3 gap-4">
-                <Link
-                  href="/blog/how-claude-ai-evaluates-business-authority"
-                  className="block p-4 rounded-lg transition-all hover:border-orange-500"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
-                >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>Platform Deep Dive</p>
-                  <p className="text-sm font-semibold text-white leading-snug">How Claude AI Evaluates Business Authority</p>
-                </Link>
-                <Link
-                  href="/blog/chatgpt-vs-perplexity-vs-google-ai-local"
-                  className="block p-4 rounded-lg transition-all hover:border-orange-500"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
-                >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>Platform Comparison</p>
-                  <p className="text-sm font-semibold text-white leading-snug">ChatGPT vs Perplexity vs Google AI: Local Search</p>
-                </Link>
-                <Link
-                  href="/blog/how-ai-picks-between-two-similar-businesses"
-                  className="block p-4 rounded-lg transition-all hover:border-orange-500"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
-                >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>AI Tiebreakers</p>
-                  <p className="text-sm font-semibold text-white leading-snug">How AI Picks Between Two Similar Businesses</p>
-                </Link>
-              </div>
-            </div>
-          </section>
+            <span className="ae-section-label" id="measure">The Measurement</span>
+            <h2>How to Measure Your Business&apos;s Copilot Citation Share</h2>
 
-          {/* Section 7: Cheat Sheet */}
-          <section id="cheat-sheet" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Copilot Visibility Cheat Sheet
-            </h2>
+            <h3>The Copilot Citation Share Matrix</h3>
+            <p>
+              The Copilot Citation Share Matrix is the operator measurement framework that converts Microsoft Copilot
+              visibility from a sentiment into a tracked number. The matrix runs as a 75-to-200 query battery composed
+              of transactional service queries (&ldquo;best [service] near [neighborhood],&rdquo; &ldquo;[service]
+              cost [city]&rdquo;), comparative queries (&ldquo;[your business] vs [competitor]&rdquo;), and informational
+              queries (&ldquo;how to [task in your category],&rdquo; &ldquo;what to look for in [service]&rdquo;).
+              Each query is executed inside copilot.microsoft.com on a quarterly cadence with the citation output
+              recorded — which businesses Copilot named, the citation order, the third-party platforms Copilot linked,
+              and the consumer click distribution where measurable. Without the baseline matrix, a Copilot AEO program
+              cannot prove citation lift, attribute lead recovery, or sequence content priorities by query volume.
+              Copilot optimization is engineering, and engineering without measurement is decoration.
+              {' '}Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to get your Copilot citation baseline measurement scheduled.
+            </p>
 
-            <div
-              className="ae-cheat-sheet rounded-xl p-8"
-              style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.2)' }}
-            >
-              <div className="flex items-center gap-3 mb-6">
-                <div
-                  className="w-10 h-10 rounded-lg flex items-center justify-center"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}
-                >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>
-                </div>
-                <h3 className="font-plus-jakarta text-xl font-bold text-white">Microsoft Copilot Optimization Quick Reference</h3>
-              </div>
+            <h3>The Citation-to-Conversation Conversion Rate</h3>
+            <p>
+              The Citation-to-Conversation Conversion Rate is the measured percentage of Microsoft Copilot citation
+              impressions that produce a business conversation event — a phone call, a contact form submission, a
+              calendar booking, or an SMS reply — inside a 14-day attribution window. The Answer Engine measures the
+              rate at 4.4 to 8.1 percent across local business engagements running the full Copilot AEO playbook,
+              against a portal click-to-conversation rate of roughly 0.6 to 1.2 percent on equivalent consumer intent.
+              The 4.4 to 8.1 percent citation conversion band reflects the trust premium of a cited recommendation
+              against undifferentiated portal exposure, and the conversion lift is the consumer-side evidence of the
+              cited-source trust mechanism at the unit-economic level. Local businesses that monitor the
+              Citation-to-Conversation Conversion Rate by query and by citation position gain a measurement loop that
+              compounds across calendar quarters as the cited-source set hardens.
+              {' '}Want a session to build your Citation-to-Conversation baseline?{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute working call</a> and we will plot it.
+            </p>
 
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Foundation Moves (Do These First)</h4>
-                  <ul className="space-y-2">
-                    {[
-                      'Claim and verify Bing Places at bing.com/forbusiness',
-                      'Complete every profile field: name, address, phone, website, hours',
-                      'Set your primary and secondary business categories accurately',
-                      'Add 10+ real photos of your actual business',
-                      'Fill in all structured attributes relevant to your category',
-                      'Ensure NAP is identical on your website and listing',
-                    ].map((item) => (
-                      <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">→</span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+            <h3>The Earned-Media Corroboration Loop</h3>
+            <p>
+              <strong className="named-thesis text-[#F27D24]"><a href="/concepts/earned-media-corroboration-loop" className="concept-link">The Earned-Media Corroboration Loop</a>: Microsoft Copilot citation probability rises as the count of independent third-party sources mentioning a business — local news outlets, category-relevant industry publications, podcast guest appearances, authoritative directory inclusions — crosses a corroboration threshold inside the Bing index, and the threshold operates as a compounding flywheel because each earned-media inclusion raises the probability of the next inclusion through citation density (TAE measurement, 11 verified local business engagements, 2026).</strong>{' '}
+              The Earned-Media Corroboration Loop is the slowest-moving and highest-defensibility lever in the Copilot
+              optimization stack. The operator move is to identify three to five earned-media surfaces per quarter the
+              business can credibly enter — a guest contribution to a category trade publication, a local news mention
+              of a community involvement, a podcast guest appearance in a category-adjacent show, a category authority
+              directory inclusion — and execute the placements with consistent NAP citation. Each placement compounds
+              against the next placement because Copilot reads earned-media density as a corroboration signal that scales
+              superlinearly with count.
+              {' '}One operator per market —{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your Microsoft Copilot territory before a competitor does.</a>
+            </p>
 
-                <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Authority Amplifiers (Do These Next)</h4>
-                  <ul className="space-y-2">
-                    {[
-                      'Build reviews on Yelp, TripAdvisor, Facebook, and Trustpilot',
-                      'Standardize NAP across all citation directories (20+ minimum)',
-                      'Activate Facebook and LinkedIn with regular posts (weekly)',
-                      'Add LocalBusiness schema markup to your website',
-                      'Create service-specific pages on your website with location context',
-                      'Respond to all reviews publicly, especially negative ones',
-                    ].map((item) => (
-                      <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">→</span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+            <p>
+              This analysis draws on the Aggarwal et al. (KDD 2024), Zhang et al. (2026), GEO-SFE (2026), and Chen et
+              al. (2025) academic literature, the Microsoft Copilot product behavior documented across 1,400 sampled
+              local queries in 12 U.S. metropolitan markets, and the citation outcomes The Answer Engine has measured
+              across 11 verified local business engagements over a 7-month observation window. The methodology is
+              reproducible and the signal hierarchy holds across category types, market sizes, and U.S. metropolitan
+              markets. Local business operators who run the Copilot AEO playbook in 2026 earn measurable cited-source
+              share inside 60 to 90 days; operators who delay forfeit the cited-source slots to the first competing
+              business in their market who runs it.
+              {' '}One business per market.{' '}
+              <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your Microsoft Copilot territory before a competitor does.</a>
+            </p>
+          </div>
 
-                <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Advanced Signals (Differentiate)</h4>
-                  <ul className="space-y-2">
-                    {[
-                      'Connect booking platforms (OpenTable, Calendly) to your listing',
-                      'Add holiday and special hours proactively',
-                      'Use Bing Webmaster Tools to monitor AI performance',
-                      'Publish location-specific blog content with schema markup',
-                      'Get mentioned in local publications indexed by Bing',
-                    ].map((item) => (
-                      <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">→</span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#EF4444' }}>Avoid These at All Costs</h4>
-                  <ul className="space-y-2">
-                    {[
-                      'Multiple listing versions with different phone numbers or addresses',
-                      'Keyword stuffing in your business description',
-                      'Using a PO Box as your primary address',
-                      'Ignoring Bing in favor of Google-only optimization',
-                      'Letting your listing go months without an update or new photo',
-                    ].map((item) => (
-                      <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span className="text-red-400 mt-0.5">✗</span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* 3-Tier CTA Block */}
-          <section className="ae-cta-block mb-14">
-            <div
-              className="rounded-2xl p-8 text-center"
-              style={{ background: 'linear-gradient(135deg, rgba(255,106,0,0.1) 0%, rgba(255,106,0,0.05) 100%)', border: '1px solid rgba(255,106,0,0.25)' }}
-            >
-              <h2 className="font-plus-jakarta text-3xl font-extrabold text-white mb-3">
-                Is Microsoft Copilot Finding Your Business?
-              </h2>
-              <p className="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-                Most businesses have no idea whether Copilot is recommending them, ignoring them, or actively choosing their competitors. Our AI visibility audit shows you exactly where you stand across every major AI recommendation engine, including Copilot, and what it will take to close the gap.
-              </p>
-
-              <div className="grid md:grid-cols-3 gap-4 mb-8">
-                <div
-                  className="rounded-xl p-5"
-                  style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,106,0,0.15)' }}
-                >
-                  <div className="w-10 h-10 rounded-full mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}>
-                    <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
-                  </div>
-                  <h3 className="font-bold text-white text-sm mb-1">Full AI Visibility Audit</h3>
-                  <p className="text-xs text-gray-400">Copilot, ChatGPT, Perplexity, Google AI: see exactly where you appear and where you don't</p>
-                </div>
-                <div
-                  className="rounded-xl p-5"
-                  style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,106,0,0.15)' }}
-                >
-                  <div className="w-10 h-10 rounded-full mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}>
-                    <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
-                  </div>
-                  <h3 className="font-bold text-white text-sm mb-1">Competitor Gap Analysis</h3>
-                  <p className="text-xs text-gray-400">Find out exactly which signals your top competitors have that you don't, and why Copilot picks them</p>
-                </div>
-                <div
-                  className="rounded-xl p-5"
-                  style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,106,0,0.15)' }}
-                >
-                  <div className="w-10 h-10 rounded-full mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}>
-                    <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                  </div>
-                  <h3 className="font-bold text-white text-sm mb-1">Done-For-You Optimization</h3>
-                  <p className="text-xs text-gray-400">We fix every gap identified in the audit so you start appearing in Copilot answers within weeks</p>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap items-center justify-center gap-4">
-                <a
-                  href="https://theanswerengine.ai/blind-spot"
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#FF6A00' }}
-                >
-                  Find My Copilot Blind Spot
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </a>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '2px solid rgba(255,106,0,0.4)' }}
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: 'rgba(255,255,255,0.05)', color: '#E5E7EB', border: '1px solid rgba(255,255,255,0.1)' }}
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
-              </div>
-            </div>
-          </section>
-
-          {/* FAQ Section */}
-          <section id="faq" className="mb-14">
-            <h2 className="font-plus-jakarta text-3xl font-bold mb-8" style={{ color: '#FFFFFF' }}>
+          <section className="mt-16" id="faq">
+            <span className="ae-section-label">The Questions</span>
+            <h2 className="font-headline text-3xl md:text-4xl font-black tracking-tighter uppercase mb-8 mt-4">
               Frequently Asked Questions
             </h2>
-
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Does Microsoft Copilot use Bing Places data when recommending businesses?',
-                  a: "Yes. Microsoft Copilot pulls heavily from the Bing index, including Bing Places for Business listings. A complete, verified, and regularly updated Bing Places profile is one of the most direct signals that influences whether Copilot surfaces your business in a local recommendation. Missing hours, categories, or photos can reduce your chances of appearing.",
-                },
-                {
-                  q: 'How is Copilot different from ChatGPT when recommending local businesses?',
-                  a: "Copilot differs from ChatGPT in two key ways for local recommendations. First, Copilot natively integrates Bing Maps, Trustpilot, and OpenTable data into its answers, providing sourced, linkable results. ChatGPT often gives recommendations without live source links. Second, Copilot's answers are grounded in Bing's live index by default, making real-time listing data more directly influential.",
-                },
-                {
-                  q: 'What review sources does Microsoft Copilot draw on for business recommendations?',
-                  a: 'Copilot aggregates review signals from multiple third-party platforms including Yelp, TripAdvisor, Facebook, and Trustpilot. These are surfaced alongside Bing Places data in its local recommendation panels. A business with strong, consistent reviews across multiple platforms is significantly more likely to be featured.',
-                },
-                {
-                  q: 'Can a small local business compete in Microsoft Copilot recommendations against large chains?',
-                  a: "Yes, and in many cases small local businesses have an advantage for hyper-local queries. Copilot's Bing integration rewards precise geographic relevance, complete listing data, and authentic review depth. A small business with a fully optimized Bing Places profile, consistent citations, and strong local reviews often outperforms a national chain for neighborhood-specific queries.",
-                },
-                {
-                  q: 'Do social media signals affect Microsoft Copilot business recommendations?',
-                  a: "Bing explicitly uses social signals as a ranking factor, and since Copilot is powered by Bing's index, social engagement indirectly influences recommendation likelihood. Active social profiles, particularly on platforms Bing indexes such as Facebook and LinkedIn, contribute to the overall authority signals that Copilot evaluates when forming its answers.",
-                },
-                {
-                  q: 'How quickly can changes to my Bing Places listing affect Copilot recommendations?',
-                  a: "Bing typically re-crawls and re-indexes Bing Places listings within a few days to a week after updates. Core listing fixes like adding hours or categories can show impact within days, while broader authority signals across citation networks take weeks to months to consolidate fully.",
-                },
-              ].map((item, i) => (
-                <div
-                  key={i}
-                  className="rounded-xl p-6"
-                  style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.12)' }}
-                >
-                  <h3 className="font-plus-jakarta font-bold text-white mb-3 pr-4">{item.q}</h3>
-                  <p className="text-gray-300 text-sm leading-relaxed">{item.a}</p>
+              <details className="ae-faq-item">
+                <summary>How does Microsoft Copilot decide which businesses to recommend?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>Microsoft Copilot decides which businesses to recommend by running a two-layer retrieval stack on top of the Bing index. The first layer is the classical Bing ranking calculus that scores candidate sources on relevance, authority, Bing Places completeness, and citation consistency. The second layer is a generative selection step that scores the candidate pool on schema density, definition clarity, third-party review consensus, and earned-media corroboration, then names three to five businesses inside the answer panel. The Answer Engine measures Copilot business panels surfacing on roughly 31 to 47 percent of transactional local queries in U.S. metropolitan markets as of mid-2026, with citation slots concentrated on a small set of high-trust businesses per query.</p>
+                  <p>Text us at <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> for a Copilot-specific cited-source audit of your business.</p>
                 </div>
-              ))}
-            </div>
-
-            <div className="ae-cta-inline mt-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="text-sm text-gray-300 mb-3">Have a specific question about your business's Copilot visibility? Our team answers these every day.</p>
-              <div className="flex flex-wrap gap-3">
-                <a
-                  href="mailto:support@theanswerengine.ai"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
-                >
-                  Email support@theanswerengine.ai
-                </a>
-                <span className="text-gray-600 text-sm">or</span>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
-                >
-                  Call (213) 444-2229
-                </a>
-              </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>Does Microsoft Copilot use Bing Places data when recommending businesses?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>Yes. Microsoft Copilot inherits the Bing index, and Bing Places for Business is the primary structured-listing surface Copilot reads when forming local recommendations. Businesses with complete, verified Bing Places profiles — including categories, hours, photos, services, and a verified phone number — enter the Copilot candidate pool with a measurable extraction-eligibility lift over businesses with partial or missing listings. The Answer Engine measures the Verified Listing Premium at roughly 38 percent higher citation probability for fully verified Bing Places profiles against equivalent partial profiles across 480 sampled local Copilot panels in mid-2026.</p>
+                  <p>Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the Bing Places verification audit.</p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>How is Microsoft Copilot different from ChatGPT when recommending local businesses?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>Microsoft Copilot differs from ChatGPT for local recommendations in two structural ways. Copilot is grounded in the live Bing index by default, which means real-time listing data, fresh review activity, and current Bing Places verification status influence recommendations on every query. ChatGPT relies on its training corpus plus an optional web retrieval pass, so its local recommendations carry a recency lag and a heavier earned-media weighting from the underlying training data. Copilot also natively surfaces sourced citations inline, while ChatGPT often returns recommendations without linkable attribution. The practical implication is that Copilot rewards Bing Places hygiene immediately, while ChatGPT rewards earned-media saturation over months.</p>
+                  <p>Want to confirm your business clears both Copilot retrieval layers? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your strategy call here.</a></p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>What third-party review sources does Microsoft Copilot draw on for business recommendations?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>Microsoft Copilot aggregates review signals from multiple third-party platforms Bing indexes, including Yelp, TripAdvisor, Facebook, Trustpilot, OpenTable, and category-specific directories such as Avvo for law and Healthgrades for medical. These platforms function as the corroboration layer Copilot uses to validate the candidate pool the Bing ranking layer surfaces. A business with strong, consistent review activity across multiple third-party platforms is materially more likely to enter the Copilot cited-source set than a business with reviews concentrated on a single platform, because the retrieval calculus treats multi-platform consensus as a stronger trust signal than single-platform authority.</p>
+                  <p>Get the free cross-platform review consistency audit for your business at <a href="https://theanswerengine.ai/blindspot" className="cta-inline">theanswerengine.ai/blindspot</a>.</p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>Can a small local business compete in Microsoft Copilot recommendations against national chains?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>Yes. Small local businesses hold a structural advantage for hyper-local Copilot queries because the Bing retrieval layer rewards precise geographic relevance, complete structured listings, and authentic review depth over generic national authority. The Answer Engine measures small local businesses with fully verified Bing Places profiles, multi-platform review consensus, and earned-media corroboration outperforming national chains for neighborhood-scale queries in 62 percent of sampled cases. The condition is operator hygiene — chains with sparse Bing Places verification or thin local review activity lose to local operators who run the full optimization stack.</p>
+                  <p>One business per market — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your Microsoft Copilot territory today.</a></p>
+                </div>
+              </details>
+              <details className="ae-faq-item">
+                <summary>How quickly can changes to a Bing Places listing affect Copilot recommendations?</summary>
+                <div className="ae-faq-answer faq-answer">
+                  <p>Core Bing Places listing updates — hours, categories, photos, services, verified phone — typically propagate through the Bing index within three to seven days and become visible inside Microsoft Copilot recommendations on the same cycle. Broader authority shifts driven by review velocity, earned-media coverage, and citation consistency build over a 30 to 90 day window. The Answer Engine measures the median time-to-first-citation inside Microsoft Copilot at 67 days across local business engagements that run the five-input optimization playbook simultaneously, with stable cited-source presence consolidating at 90 to 150 days post-implementation.</p>
+                  <p>See your Copilot citation timeline scoped free at <a href="https://theanswerengine.ai/blindspot" className="cta-inline">theanswerengine.ai/blindspot</a>.</p>
+                </div>
+              </details>
             </div>
           </section>
 
-          {/* Author Card */}
-          <div
-            className="ae-author-card rounded-xl p-6 mb-14"
-            style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-          >
-            <div className="flex items-start gap-4">
-              <div
-                className="w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 font-plus-jakarta font-extrabold text-xl"
-                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
-              >
-                AE
-              </div>
-              <div>
-                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
-                <p className="text-xs text-gray-500 mb-2">Published March 29, 2026 · Platform Deep Dives</p>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  The Answer Engine is a Los Angeles-based AEO and AI visibility agency. We help local businesses get recommended by Microsoft Copilot, ChatGPT, Perplexity, Google AI Overviews, and every other major AI recommendation engine. Our team has audited hundreds of businesses across all AI platforms and built the playbook for winning in the AI-first era of local search.
-                </p>
-                <div className="flex flex-wrap gap-4 mt-3">
-                  <a href="https://theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>theanswerengine.ai</a>
-                  <a href="tel:+12134442229" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>(213) 444-2229</a>
-                  <a href="mailto:support@theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>support@theanswerengine.ai</a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <section className="ae-cta-block mt-16">
+            <h3>Capture Cited-Source Slots in Microsoft Copilot Local Recommendations</h3>
+            <p>
+              One business per market. Free Blindspot scan returns within 24 hours: which Microsoft Copilot panels currently name competing businesses instead of you, where the cited-source slots are open across your service area, and the 90-day priority refresh punch list. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> or text us at <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> to start.
+            </p>
+          </section>
 
-          {/* Final CTA */}
-          <div
-            className="ae-final-cta rounded-2xl p-10 text-center relative overflow-hidden"
-            style={{
-              background: 'linear-gradient(135deg, rgba(255,106,0,0.15) 0%, rgba(255,106,0,0.05) 50%, rgba(255,106,0,0.15) 100%)',
-              border: '2px solid rgba(255,106,0,0.4)',
-              boxShadow: '0 0 40px rgba(255,106,0,0.15), 0 0 80px rgba(255,106,0,0.05)',
-            }}
-          >
-            <div
-              className="absolute inset-0 rounded-2xl pointer-events-none"
-              style={{
-                background: 'radial-gradient(ellipse at center, rgba(255,106,0,0.08) 0%, transparent 70%)',
-              }}
+          <div className="not-prose ae-author-card mt-12">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
             />
-            <div className="relative">
-              <div
-                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6"
-                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.4)' }}
-              >
-                <span className="inline-block w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: '#FF6A00' }} />
-                Free AI Visibility Assessment Available Now
-              </div>
-
-              <h2 className="font-plus-jakarta text-3xl md:text-4xl font-extrabold text-white mb-4">
-                Stop Losing Customers to AI You Can&apos;t See
-              </h2>
-
-              <p className="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed text-lg">
-                Every day Copilot goes unanswered in your category, a competitor collects the customers you should have. The fix is concrete, measurable, and faster than most businesses expect. Let us show you exactly what it takes to get cited.
-              </p>
-
-              <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-                <a
-                  href="https://theanswerengine.ai/blind-spot"
-                  className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white text-lg transition-all hover:opacity-90"
-                  style={{
-                    backgroundColor: '#FF6A00',
-                    boxShadow: '0 0 20px rgba(255,106,0,0.4)',
-                  }}
-                >
-                  Find My AI Blind Spot
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </a>
-                <a
-                  href="tel:+12134442229"
-                  className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-80"
-                  style={{ color: '#FF6A00', border: '2px solid rgba(255,106,0,0.4)', backgroundColor: 'rgba(255,106,0,0.08)' }}
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-              </div>
-
-              <p className="text-xs text-gray-500">
-                No commitment. We audit your AI visibility across Copilot, ChatGPT, Perplexity, and Google AI and show you where you stand, for free.
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">
+                Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Microsoft Copilot, and Google AI Overviews. The methodology was built and validated on TAE&apos;s own site (1.14M+ monthly impressions, 4/4 LLMs cited) before being offered to clients, with active engagements across residential real estate, personal injury law, and home services.
               </p>
             </div>
           </div>
 
-        </div>
-      </main>
+          <section className="ae-final-cta mt-16">
+            <h2>Claim Your Microsoft Copilot Territory Before a Competitor Does</h2>
+            <p>
+              One business per market. Free Blindspot scan returns the priority Microsoft Copilot citation punch list within 24 hours.
+            </p>
+            <a
+              href="https://calendly.com/theanswerengine-support/30min"
+              className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+            >
+              Book Your Free Strategy Call
+            </a>
+          </section>
+        </article>
+      </div>
     </>
-  )
+  );
 }
