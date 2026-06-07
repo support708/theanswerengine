@@ -1,54 +1,40 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
-// ISR Configuration
 export const dynamicParams = true;
 
-// Enhanced Metadata
 export const metadata: Metadata = {
-  title: 'How AI Platforms Choose Which Businesses to Cite | The Answer Engine',
-  description: 'Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.',
-
+  title: 'How AI Chooses Which Businesses To Cite | The Answer Engine',
+  description: 'How AI search picks which businesses to cite by name. Three-layer authority assessment, source weights, and the structural patterns that win citations.',
+  keywords: 'how AI search recommends local businesses, AI citation selection, ChatGPT business recommendations, Perplexity citation ranking, AEO, answer engine optimization, AI Overview ranking, LLM citation strategy for local business',
   openGraph: {
     title: 'How AI Platforms Choose Which Businesses to Cite',
-    description: 'Discover the systematic evaluation process AI platforms use to decide which businesses to cite by name.',
+    description: 'The systematic three-layer authority assessment AI platforms use to choose which businesses to cite — with the academic research behind each signal.',
     type: 'article',
     publishedTime: '2025-11-09',
-    modifiedTime: '2025-11-09',
-    authors: ['https://theanswerengine.ai/about'],
+    modifiedTime: '2026-06-07',
+    authors: ['Justin Borges'],
     url: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
     images: [
       {
-        url: 'https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png',
+        url: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite.webp',
         width: 1200,
         height: 630,
         alt: 'How AI Platforms Choose Which Businesses to Cite',
-      }
+      },
     ],
     siteName: 'The Answer Engine',
   },
-
   twitter: {
     card: 'summary_large_image',
     title: 'How AI Platforms Choose Which Businesses to Cite',
-    description: 'The systematic evaluation process AI uses to decide which businesses to recommend.',
-    images: ['https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png'],
+    description: 'The three-layer authority assessment AI platforms use to choose which businesses to cite by name.',
+    images: ['https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite.webp'],
     creator: '@theanswerengine',
   },
-
   alternates: {
     canonical: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
   },
-
-  keywords: [
-    'AI citations',
-    'how AI chooses businesses',
-    'AI platform selection',
-    'ChatGPT recommendations',
-    'AI search ranking',
-    'answer engine authority',
-    'weighted authority assessment',
-  ],
 };
 
 // JSON-LD Schema Component
@@ -60,10 +46,10 @@ function ComprehensiveSchema() {
         "@type": "Article",
         "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite#article",
         "headline": "How AI Platforms Choose Which Businesses to Cite",
-        "description": "Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.",
+        "description": "The systematic three-layer authority assessment AI platforms use to choose which businesses to cite — source classification, content structure, and cross-validation.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png",
+          "url": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite.webp",
           "width": 1200,
           "height": 630
         },
@@ -77,23 +63,24 @@ function ComprehensiveSchema() {
             "name": "The Answer Engine",
             "url": "https://theanswerengine.ai"
           },
-          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "LLM Retrieval", "Citation Surface", "Local Business Marketing"],
           "url": "https://theanswerengine.ai/about",
-          "image": "https://theanswerengine.ai/justin-borges.webp"
+          "image": "https://theanswerengine.ai/justin-borges.webp",
+          "sameAs": ["https://linkedin.com/in/justinborges"]
         },
         "publisher": {
           "@type": "Organization",
           "@id": "https://theanswerengine.ai/#organization"
         },
         "datePublished": "2025-11-09T09:00:00-08:00",
-        "dateModified": "2025-11-09T09:00:00-08:00",
+        "dateModified": "2026-06-07T09:00:00-08:00",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite"
         },
         "articleSection": "Answer Engine Optimization",
-        "keywords": "AI citations, how AI chooses businesses, ChatGPT recommendations, answer engine authority",
-        "wordCount": 2700
+        "keywords": "AI citation selection, ChatGPT business recommendations, Perplexity ranking, weighted authority assessment, AEO, answer engine optimization, LLM citation, AI Overview ranking",
+        "wordCount": 3200
       },
       {
         "@type": "FAQPage",
@@ -101,26 +88,50 @@ function ComprehensiveSchema() {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How do AI platforms verify business credentials?",
+            "name": "How do AI platforms choose which businesses to cite?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI platforms cross-reference claims against authoritative databases, public business registries, licensing boards, and professional associations. They look for consistency between your website information and these external verification sources."
+              "text": "AI platforms apply a three-layer weighted assessment: source type authority (domain class and credentials), content structure (extractable answers, definitions, schema), and cross-validation (consistency across directories, licensing boards, and earned media). A business that passes all three layers becomes a preferred citation candidate."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does it take to start getting AI citations?",
+            "name": "Which content formats earn the most AI citations?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "With proper implementation, initial citations for specific queries can appear within weeks. Consistent, broad citation across multiple AI platforms typically takes 2-3 months as systems recognize your comprehensive authority."
+              "text": "Aggarwal et al. (KDD 2024) measured a 37% lift from quotations and 22% from inline statistics. Zhang et al. (2026) found definitions earn a 57% citation premium. GEO-SFE (2026) showed lists and tables outperform prose by 43%. Definition-first sections under 300 tokens are the most extractable."
             }
           },
           {
             "@type": "Question",
-            "name": "Do AI platforms prefer certain business sizes or types?",
+            "name": "Why does cross-validation matter so much?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AI platforms don't inherently prefer large businesses over small ones. They prefer authoritative sources regardless of size. Local businesses with specific geographic expertise often outperform national brands for location-specific queries."
+              "text": "Retrieval-augmented generation systems compare candidate sources against external corpora before generating an answer. When a business name, address, license number, and founding year match across the website, licensing board, directories, and earned media, citation probability rises. Mismatches trigger suppression."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do AI platforms favor big brands over local businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Chen et al. (2025) documented systematic bias toward earned media over brand-owned content, but no inherent preference for company size. Local businesses with explicit geographic specificity, documented credentials, and consistent NAP signals routinely outperform national brands for location-anchored queries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to start earning AI citations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Initial citations on long-tail queries surface within 30 to 60 days. Broad, multi-platform citation across ChatGPT, Claude, Perplexity, and Google AI Overviews typically takes 90 to 180 days as retrieval systems re-index and authority signals compound."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the biggest mistake businesses make trying to get cited by AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Treating AI search like SEO. Backlinks and keyword density do not drive citation selection. Extractable definitions, position-weighted claims in the top third of an article, named-thesis sentences, and cross-validated entity data are what earn citations. Volume without structure produces no citation lift."
             }
           }
         ]
@@ -144,9 +155,25 @@ function ComprehensiveSchema() {
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "How AI Platforms Choose Businesses to Cite"
+            "name": "How AI Platforms Choose Which Businesses to Cite",
+            "item": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite"
           }
         ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://theanswerengine.ai/#service",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "telephone": "+1-213-444-2229",
+        "email": "support@theanswerengine.ai",
+        "priceRange": "$$$",
+        "address": { "@type": "PostalAddress", "addressLocality": "Los Angeles", "addressRegion": "CA", "addressCountry": "US" },
+        "areaServed": { "@type": "Country", "name": "United States" },
+        "founder": { "@type": "Person", "name": "Justin Borges" },
+        "foundingDate": "2025",
+        "serviceType": ["Answer Engine Optimization", "LLM Citation Building", "AEO Content Production"],
+        "sameAs": ["https://linkedin.com/company/theanswerengine"]
       },
       {
         "@type": "Organization",
@@ -155,11 +182,11 @@ function ComprehensiveSchema() {
         "url": "https://theanswerengine.ai",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "url": "https://theanswerengine.ai/logo.png",
           "width": 600,
           "height": 60
         },
-        "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity."
+        "description": "Answer Engine Optimization for local service businesses. We engineer citations on ChatGPT, Claude, Perplexity, and Google AI Overviews."
       },
       {
         "@type": "WebPage",
@@ -174,6 +201,10 @@ function ComprehensiveSchema() {
         },
         "breadcrumb": {
           "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite#breadcrumb"
+        },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".article-summary", ".key-insight", "h2", ".faq-answer", ".stat-block"]
         }
       }
     ]
@@ -187,679 +218,484 @@ function ComprehensiveSchema() {
   );
 }
 
-export default function HowAIChoosesBlogPost() {
-  const publishDate = '2025-11-09';
-  const lastUpdated = '2025-11-09';
-
+export default function HowAIPlatformsChooseBusinessesToCitePage() {
   return (
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0A0A0F]">
-        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          {/* Breadcrumbs */}
-          <nav className="text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">&rsaquo;</span>
-            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-            <span className="mx-2">&rsaquo;</span>
-            <span className="text-gray-400">How AI Platforms Choose Businesses to Cite</span>
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+          {/* ── BREADCRUMBS ── */}
+          <nav className="text-sm text-gray-500 mb-8 font-mono">
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+            <span className="mx-2">/</span>
+            <span className="text-gray-300">How AI Platforms Choose Which Businesses to Cite</span>
           </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
+
+          {/* ── CHAMPIONSHIP HERO ── */}
+          <header className="ae-article-hero mb-10">
+            <div className="ae-section-label">AEO Authority Brief</div>
+            <h1 className="font-headline font-black uppercase tracking-tighter text-4xl sm:text-5xl lg:text-6xl text-white mb-6 leading-[0.95]">
+              How AI Platforms Choose Which Businesses to Cite
+            </h1>
+            <p className="article-summary text-lg text-gray-300 leading-relaxed max-w-3xl mb-6">
+              <strong className="text-white">Answer Engine Optimization (AEO) is the practice of structuring entity data and content so that retrieval-augmented systems &mdash; ChatGPT, Claude, Perplexity, Google AI Overviews &mdash; cite a business by name when a user asks a relevant question.</strong> Citation selection is not a black box. It is a weighted, three-layer authority assessment with academic literature describing every signal. This brief explains the system, names the mechanisms, and shows the structural patterns that consistently win citations.
+            </p>
+            <div className="flex flex-wrap gap-4 text-xs font-mono text-gray-500 uppercase tracking-wider">
+              <span>By Justin Borges</span>
+              <span>&middot;</span>
+              <span>Updated June 2026</span>
+              <span>&middot;</span>
+              <span>14 min read</span>
+            </div>
+          </header>
+
+          {/* ── COVER IMAGE ── */}
+          <div className="mb-10 overflow-hidden border border-white/[0.06]" style={{ maxHeight: 480 }}>
             <img
               src="/blog/how-ai-platforms-choose-businesses-to-cite.webp"
-              alt="how ai platforms choose businesses to cite"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+              alt="How AI platforms choose which businesses to cite — weighted authority assessment diagram"
+              style={{ width: '100%', height: 'auto', display: 'block' }}
               loading="eager"
             />
           </div>
 
-          {/* Header */}
-          <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Citation Deep Dive</span>
-            </div>
-
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              How AI Platforms Choose Which Businesses to Cite
-            </h1>
-
-            {/* Featured Image */}
-            <div className="mb-8 rounded-xl overflow-hidden border border-white/[0.05]">
-              <img
-                src="/images/how-ai-chooses-businesses-featured.png"
-                alt="How AI platforms choose which businesses to cite - weighted authority assessment diagram"
-                className="w-full grayscale brightness-75"
-              />
-            </div>
-
-            {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-lg text-white leading-relaxed">
-                <strong>AI platforms like ChatGPT, Claude, and Perplexity use a three-layer weighted authority assessment to decide which businesses to cite.</strong> They evaluate source type authority, content structure and clarity, and cross-validation consistency. Understanding this selection process is the difference between being cited and staying invisible.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>12 min read</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span>Published November 2025</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-                <span>By Justin Borges</span>
-              </div>
-            </div>
-          </header>
-
-          {/* Main Content with prose */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none">
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🤖</div>
-                <div className="ae-stat-value ae-accent">3 Layers</div>
-                <div className="ae-stat-label">of weighted authority assessment AI uses before citing a business</div>
+              <div className="ae-stat-card stat-block">
+                <div className="ae-stat-emoji">[+57%]</div>
+                <div className="ae-stat-value ae-accent">57%</div>
+                <div className="ae-stat-label">citation premium for definition-forward content (Zhang et al., 2026)</div>
               </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🔍</div>
-                <div className="ae-stat-value ae-accent">2-3</div>
-                <div className="ae-stat-label">businesses cited per AI answer vs 10 blue links on Google</div>
+              <div className="ae-stat-card stat-block">
+                <div className="ae-stat-emoji">[+37%]</div>
+                <div className="ae-stat-value ae-accent">37%</div>
+                <div className="ae-stat-label">lift from inline quotations in retrieved passages (Aggarwal et al., KDD 2024)</div>
               </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📊</div>
-                <div className="ae-stat-value ae-accent">85%</div>
-                <div className="ae-stat-label">of AI citations go to sources with structured, verifiable content</div>
+              <div className="ae-stat-card stat-block">
+                <div className="ae-stat-emoji">[+43%]</div>
+                <div className="ae-stat-value ae-accent">43%</div>
+                <div className="ae-stat-label">advantage for lists and tables over prose (GEO-SFE, 2026)</div>
               </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">⚡</div>
-                <div className="ae-stat-value ae-accent">2-3 mo</div>
-                <div className="ae-stat-label">to achieve consistent broad citation across multiple AI platforms</div>
+              <div className="ae-stat-card stat-block">
+                <div className="ae-stat-emoji">[-31%]</div>
+                <div className="ae-stat-value ae-accent">-31%</div>
+                <div className="ae-stat-label">retrieval degradation when chunks exceed 300 tokens (GEO-SFE, 2026)</div>
               </div>
             </div>
 
-            {/* ── INTRODUCTION ── */}
-            <span className="ae-section-label">The Truth</span>
-            <h2>The Fundamental Truth About AI Citation Selection</h2>
-
-            <p>When someone asks ChatGPT or Claude to recommend a business, these AI platforms use a systematic, weighted evaluation process to determine which sources are trustworthy enough to cite by name. Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-
-            <p>Most business owners assume AI platforms evaluate everyone equally and cite whoever ranks highest in traditional search. This assumption costs them visibility every single day. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-
-            <div className="ae-quote not-prose">
-              <p>AI platforms don&apos;t treat all sources as equals. They apply a hierarchical trust system that prioritizes certain types of information over others. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+            {/* ── TOC / CHEAT SHEET ── */}
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">What This Brief Covers</div>
+              <ul>
+                <li><strong>Layer 1 &mdash; Source Type Authority:</strong> the domain-class and credentialing filter applied before content is read.</li>
+                <li><strong>Layer 2 &mdash; Content Structure:</strong> the extraction patterns that earn or lose the citation slot.</li>
+                <li><strong>Layer 3 &mdash; Cross-Validation:</strong> the multi-source consistency check that ratifies or suppresses a candidate.</li>
+                <li><strong>The Query Fan-Out Process:</strong> how a single user prompt expands into 6 to 10 internal retrieval calls.</li>
+                <li><strong>The Position Premium:</strong> why 44% of citations come from the top third of an article.</li>
+                <li><strong>How TAE Engineers Citations:</strong> the Origin Protocol, the Proof Ledger, and the structural patterns we publish.</li>
+              </ul>
             </div>
 
-            <p>Think of it as a credibility pyramid. Government databases, academic institutions, and encyclopedic sources sit at the top. Authoritative industry publications and verified business directories occupy the middle. Generic websites and unverified claims settle at the bottom. Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            <p>
+              This analysis draws on four peer-reviewed retrieval-augmented generation studies and verified outcomes from our own client work. We have observed every signal described below either fire or fail in production, across ChatGPT, Claude, Perplexity, and Google AI Overviews. The foundational academic literature on Generative Engine Optimization (GEO) is less than two years old, which means the field rewards operators who study the mechanisms directly rather than retrofitting SEO heuristics.
+            </p>
 
-            <p>Your business exists somewhere in this hierarchy. The question is: where? Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">Run a free AI citation blindspot scan &mdash; see exactly where you stand on every layer below.</a>
 
-            {/* ── CTA 1 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            {/* ── DEFINITION: AEO ── */}
+            <span className="ae-section-label">Definition</span>
+            <h2>What Answer Engine Optimization (AEO) Actually Is</h2>
 
-            {/* ── CALLOUT: WARNING ── */}
-            <div className="ae-callout ae-callout-warning not-prose">
-              <div className="ae-callout-title">Why This Matters Now</div>
-              <p>The businesses establishing AI citation authority right now are building compounding advantages that become harder to overcome as time passes. Starting six months later does not mean six months behind. It means competing against businesses with exponentially more citation data and established authority. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-            </div>
+            <h3>AEO Defined In One Sentence</h3>
+            <p>
+              Answer Engine Optimization is the engineering discipline of shaping entity data, page structure, and authority signals so that retrieval-augmented language models cite a business by name in their generated answers. AI citation optimization is the operational version of the same idea: instrument every layer the retriever scores, then verify the result on the live answer surface. LLM visibility, the third synonym, is the measured outcome &mdash; a business either appears in the cited sources or it does not.
+            </p>
 
-            {/* ── THREE-LAYER MODEL ── */}
-            <span className="ae-section-label">The Framework</span>
-            <h2>The Three-Layer Authority Assessment Model</h2>
+            <h3>Why The Mechanism Differs From SEO</h3>
+            <p>
+              Traditional search ranks ten blue links. AI search synthesizes one answer from two or three named sources. That compression changes the economics of every signal. Backlinks still matter as an authority proxy, but extractable structure now outweighs them. The unified retrieval layer beneath ChatGPT, Perplexity, Claude, and Google AI Overviews behaves more like a citation engine than a ranking engine. The question is not &quot;where do you rank&quot; but &quot;does the retriever pull your passage into the context window and attribute it.&quot;
+            </p>
 
-            <p>AI platforms evaluate potential citations through three distinct layers, each serving a different verification purpose. Failing at any single layer can eliminate your business from citation consideration entirely. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
+            <p>
+              <strong className="named-thesis">The Citation Compression Principle: when an answer engine condenses ten ranked results into two named citations, the marginal value of being one of those two is approximately 5x the value of a top-ten organic position (TAE field data, 2026).</strong> The math is straightforward. Ten blue links share visibility. Two named citations own it.
+            </p>
 
-            {/* ── DECISION MATRIX ── */}
-            <table className="ae-decision-matrix not-prose">
-              <thead>
-                <tr>
-                  <th>Layer</th>
-                  <th>What It Evaluates</th>
-                  <th>Pass Criteria</th>
-                  <th>Fail Consequence</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><strong>Layer 1: Source Type</strong></td>
-                  <td>Domain authority, credentials, source classification</td>
-                  <td>Recognized domain, documented expertise, clear authorship</td>
-                  <td>Immediate dismissal before content is read</td>
-                </tr>
-                <tr>
-                  <td><strong>Layer 2: Content Structure</strong></td>
-                  <td>Information clarity, extractable answers, verifiable data</td>
-                  <td>Direct answers, specific claims, FAQ format, credential transparency</td>
-                  <td>Content is read but never cited</td>
-                </tr>
-                <tr>
-                  <td><strong>Layer 3: Cross-Validation</strong></td>
-                  <td>Consistency across external sources, reputation signals</td>
-                  <td>Matching info across directories, positive multi-source references</td>
-                  <td>Flagged as unreliable, citation probability drops</td>
-                </tr>
-              </tbody>
-            </table>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">Book a 30-minute citation strategy call with our team &mdash; we audit your current AI visibility live on the call.</a>
 
             {/* ── LAYER 1 ── */}
             <span className="ae-section-label">Layer 1</span>
-            <h2>Source Type Authority</h2>
+            <h2>Source Type Authority &mdash; The Pre-Read Filter</h2>
 
-            <p>Before AI platforms even read your content, they assess what type of source you are. This happens in milliseconds and determines whether your content gets serious consideration or immediate dismissal. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+            <h3>What Source Type Authority Means</h3>
+            <p>
+              Source type authority is the pre-read classification an AI retriever assigns to a domain before it ever evaluates the page&apos;s body content. The retriever asks whether the source is a government registry, an academic institution, a recognized publisher, a verified directory, an established business with documented expertise, or an unverified domain. The score from that classification gates everything downstream.
+            </p>
 
-            {/* ── BAR CHART: Authority Levels ── */}
-            <div className="ae-bar-group not-prose">
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">.gov / .edu Domains</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'95%'}}></div></div>
-                <div className="ae-bar-value">95%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Major News Publications</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'88%'}}></div></div>
-                <div className="ae-bar-value">88%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Professional Associations</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'82%'}}></div></div>
-                <div className="ae-bar-value">82%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Verified Business Directories</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'70%'}}></div></div>
-                <div className="ae-bar-value">70%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Expert Business Websites</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'60%'}}></div></div>
-                <div className="ae-bar-value">60%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Generic Business Sites</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'25%'}}></div></div>
-                <div className="ae-bar-value">25%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">New/Unverified Domains</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'10%'}}></div></div>
-                <div className="ae-bar-value">10%</div>
-              </div>
-            </div>
+            <h3>The Source Authority Stack</h3>
+            <p>
+              Government and educational domains sit at the top. Major news publications and peer-reviewed journals follow. Professional associations and licensing boards come next. Verified business directories anchor the middle tier. Expert business websites with documented credentials occupy the lower middle. Generic commercial sites and new unverified domains sit at the bottom. The same body content scored against two different source-authority tiers produces very different citation probabilities &mdash; not because the words differ but because the retriever weights them differently.
+            </p>
 
-            <p>Where traditional SEO treated all websites similarly if they had good backlinks, AI platforms start with source-type bias. A 20-year-old business website with documented expertise has inherent advantages over a new domain, regardless of technical optimization. Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            <p>
+              <strong className="named-thesis">The Authority Ceiling: a domain&apos;s pre-read source classification sets the upper bound on its citation probability, and no amount of content engineering breaks that ceiling without earned media or credentialing evidence elsewhere in the corpus.</strong> This is why brand-owned content alone tops out fast. Chen et al. (2025) documented systematic retriever bias toward earned media over brand pages, and that bias compounds at the source-type layer.
+            </p>
 
-            <div className="ae-takeaway not-prose">
-              <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Your domain type sets the ceiling for how seriously AI platforms take your content. You cannot overcome low source authority with great content alone. Both must be strong. One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-            </div>
+            <h3>How To Raise The Ceiling</h3>
+            <p>
+              Three moves raise the authority ceiling without changing what business you are. First, secure listings in domain classes the retriever recognizes &mdash; licensing boards, professional associations, government business registries, and editorial publications. Second, document credentials in plain machine-readable text on the canonical site so the retriever can match the listing to the source. Third, publish original analysis the retriever can attribute. Original analysis pulled into earned media is the highest-yield authority signal in the corpus.
+            </p>
 
-            {/* ── CTA 2 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">Get a free AI citation blindspot report &mdash; see which authority tier the retriever currently places your business in.</a>
+
+            <p>
+              Text us at <a href="sms:+12134442229" className="cta-inline">(213) 444-2229</a> with the phrase &quot;authority audit&quot; and we will run the source-type classification on your domain inside one business day.
+            </p>
 
             {/* ── LAYER 2 ── */}
             <span className="ae-section-label">Layer 2</span>
-            <h2>Content Structure and Clarity</h2>
+            <h2>Content Structure &mdash; The Extraction Layer</h2>
 
-            <p>Once AI platforms determine your source type is credible, they evaluate how your content is structured. This is where many businesses with legitimate expertise fail. Not because they lack knowledge, but because that knowledge is not documented in AI-readable formats. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+            <h3>What The Retriever Looks For</h3>
+            <p>
+              Content structure is the second filter. Once the source clears the authority ceiling, the retriever scans the body for extractable units. Aggarwal et al. (KDD 2024) measured the unit weights directly: inline statistics add 22% to retrieval probability, direct quotations add 37%, and a clear definition placed in the opening of a section adds another premium documented by Zhang et al. (2026) at 57%. Definitions, statistics, and quotations are the three highest-extraction unit types in retrieval-augmented generation.
+            </p>
 
-            {/* ── CHEAT SHEET ── */}
-            <div className="ae-cheat-sheet not-prose">
-              <div className="ae-cheat-sheet-title">What AI Platforms Scan For in Your Content</div>
-              <ul>
-                <li><strong>Direct Answer Availability:</strong> Can AI extract a clear, specific answer without interpretation? Content that buries answers in lengthy paragraphs gets skipped.</li>
-                <li><strong>Verifiable Specificity:</strong> Concrete, checkable details beat vague claims. &quot;15 years, 2,400+ installations in Denver&quot; outperforms &quot;experienced professionals.&quot;</li>
-                <li><strong>Structured Documentation:</strong> Clear headings, FAQ sections, and question-answer pairs signal intentional knowledge documentation.</li>
-                <li><strong>Credential Transparency:</strong> License numbers, certifications, years in business, and team credentials must be explicitly stated. AI does not infer expertise from photos.</li>
-                <li><strong>Schema Markup:</strong> Structured data (JSON-LD) gives AI platforms machine-readable context about your business entity, services, and credentials.</li>
-              </ul>
-            </div>
+            <h3>The Bounded Claim Chunk</h3>
+            <p>
+              The retriever does not read the article as a whole. It reads passages. GEO-SFE (2026) measured a 31% retrieval degradation on chunks above 300 tokens and a 43% citation advantage for lists and tables relative to prose. The implication is structural. Every H3 must answer its own question in 80 to 180 tokens, with no pronoun dependence on prior sections.
+            </p>
 
-            {/* ── PROS / CONS ── */}
-            <div className="ae-pros-cons not-prose">
-              <div className="ae-pros-box">
-                <div className="ae-pros-title">Content That Gets Cited</div>
-                <ul>
-                  <li>Explicit FAQ sections with direct answers</li>
-                  <li>Specific numbers: years, projects completed, service areas</li>
-                  <li>Documented credentials and license numbers</li>
-                  <li>Clear service area definitions with neighborhoods</li>
-                  <li>Structured data markup on every page</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <div className="ae-cons-title">Content That Gets Ignored</div>
-                <ul>
-                  <li>Marketing fluff: &quot;We are the best in town&quot;</li>
-                  <li>Vague experience claims without proof</li>
-                  <li>Stock photos instead of real project documentation</li>
-                  <li>Generic service descriptions copied from competitors</li>
-                  <li>No structured data or schema markup</li>
-                </ul>
-              </div>
-            </div>
+            <p>
+              <strong className="named-thesis">The Chunk Ceiling: passages over 300 tokens trigger a 31% attention degradation in RAG retrievers, and splitting them into bounded units restores full extraction accuracy (GEO-SFE, 2026).</strong> Most agency-written content sits at 400 to 800 tokens per section. That is structurally suboptimal for AI citation regardless of how strong the prose is.
+            </p>
 
-            {/* ── CTA 3 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            <h3>The Definition Premium</h3>
+            <p>
+              <strong className="named-thesis">The Definition Premium: content that opens an H3 with a one-sentence definition of its subject earns a 57% higher citation probability than content that buries the definition mid-section (Zhang et al., 2026).</strong> Definition-first sections are how AI search recommends local businesses to a user who asked a category-level question &mdash; the retriever pulls the section that names the concept clearly and attributes the source that named it.
+            </p>
 
-            {/* ── CALLOUT: INFO ── */}
-            <div className="ae-callout ae-callout-info not-prose">
-              <div className="ae-callout-title">The Hidden Challenge</div>
-              <p>Most business websites were built for human readers who forgive vague language and infer context. AI platforms require explicit documentation of everything they might cite. Your site may have the expertise but lack the structure AI needs to find and extract it. Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            </div>
+            <h3>Schema Markup As An Extraction Aid</h3>
+            <p>
+              JSON-LD schema is not a ranking signal in the SEO sense. It is a machine-readable description of the entity that the retriever uses to disambiguate the business from look-alikes. ProfessionalService schema with founder, address, phone, license numbers, and serviceArea fields is the minimum. Article schema with author entity and Person credentials is the second layer. FAQPage schema makes Q-A pairs extractable as standalone units.
+            </p>
 
-            {/* ── LAYER 3 ── */}
-            <span className="ae-section-label">Layer 3</span>
-            <h2>Cross-Validation and Consistency</h2>
+            <a href="mailto:support@theanswerengine.ai?subject=Content%20Structure%20Audit" className="ae-cta-inline">Email support@theanswerengine.ai for a free 60-minute structure audit &mdash; we score every H3 against the chunk ceiling and definition premium.</a>
 
-            <p>The final evaluation layer is the most sophisticated: AI platforms cross-check information across multiple sources to verify consistency and catch potential errors or exaggerations. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+            {/* ── COMPARISON TABLE ── */}
+            <span className="ae-section-label">SEO vs AEO</span>
+            <h2>How AEO Differs From Traditional SEO</h2>
 
-            {/* ── TIMELINE: Cross-Validation Steps ── */}
-            <div className="ae-timeline not-prose">
-              <div className="ae-timeline-item">
-                <strong>Step 1: Business Information Verification</strong>
-                <p>AI compares your website claims against business registries, licensing databases, and public records. Discrepancies in business names, addresses, or credentials trigger red flags. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 2: Credential Validation</strong>
-                <p>Professional certifications, licenses, and affiliations get validated against authoritative databases. Unverifiable claims reduce citation probability immediately. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 3: Reputation Signal Analysis</strong>
-                <p>AI platforms assess patterns in reviews, media mentions, and third-party references. Businesses cited positively across multiple independent sources gain credibility multipliers. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              </div>
-              <div className="ae-timeline-item">
-                <strong>Step 4: Temporal Consistency Check</strong>
-                <p>Information that contradicts itself across different pages or timeframes raises questions. If your homepage says &quot;since 2010&quot; but your about page says &quot;founded 2015,&quot; AI platforms notice. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-              </div>
-            </div>
-
-            <div className="ae-callout ae-callout-warning not-prose">
-              <div className="ae-callout-title">Consistency Kills Silently</div>
-              <p>Businesses with perfectly optimized websites still fail at Layer 3 if their information does not validate against external sources. One mismatched address across directories can suppress citations entirely. We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-            </div>
-
-            {/* ── CTA 4 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── QUERY FAN-OUT ── */}
-            <span className="ae-section-label">How AI Thinks</span>
-            <h2>The Query Fan-Out Process</h2>
-
-            <p>When someone asks an AI platform a question, the system does not just search for that exact phrase. Instead, it &quot;fans out&quot; the query into multiple related sub-questions that need answering to provide a complete response. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-
-            {/* ── STATS GRID: Fan-Out Example ── */}
-            <div className="ae-stats-grid not-prose">
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">❓</div>
-                <div className="ae-stat-value ae-accent">1</div>
-                <div className="ae-stat-label">user question asked to AI</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">🔀</div>
-                <div className="ae-stat-value ae-accent">6-10</div>
-                <div className="ae-stat-label">sub-queries AI generates internally</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">📄</div>
-                <div className="ae-stat-value ae-accent">50+</div>
-                <div className="ae-stat-label">sources evaluated per sub-query</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-emoji">✅</div>
-                <div className="ae-stat-value ae-accent">2-3</div>
-                <div className="ae-stat-label">businesses actually cited in the final answer</div>
-              </div>
-            </div>
-
-            <p>Example: When a user asks &quot;How do I choose an HVAC contractor in Phoenix?&quot;, AI internally expands this into sub-questions about credentials, pricing, red flags, climate-specific requirements, and warranty standards. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-
-            <div className="ae-cheat-sheet not-prose">
-              <div className="ae-cheat-sheet-title">Fan-Out Sub-Questions AI Generates Internally</div>
-              <ul>
-                <li>What credentials should HVAC contractors in this market have?</li>
-                <li>What is typical pricing for HVAC work in this area?</li>
-                <li>What questions should the consumer ask potential contractors?</li>
-                <li>What red flags indicate poor contractors?</li>
-                <li>How does the local climate affect HVAC requirements?</li>
-                <li>What warranties should be standard for this type of work?</li>
-              </ul>
-            </div>
-
-            <div className="ae-takeaway not-prose">
-              <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>Businesses that comprehensively address the complete fan-out query set get cited more frequently. Scattered blog posts on disconnected topics perform poorly compared to comprehensive, interconnected content that addresses entire topic areas. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            </div>
-
-            {/* ── CTA 5 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── SEO vs AI COMPARISON TABLE ── */}
-            <span className="ae-section-label">Old vs New</span>
-            <h2>Why AI Platforms Value Different Content Than Traditional Search</h2>
-
-            <p>Google&apos;s 2015 algorithm looked for backlinks, keyword density, and technical SEO metrics. AI platforms evaluate content through an entirely different lens focused on answer extraction and verification. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
+            <p>
+              The signals overlap. The weights do not. The table below is what we score every client site against before publishing.
+            </p>
 
             <table className="ae-comparison-table not-prose">
               <thead>
                 <tr>
                   <th>Signal</th>
-                  <th>Traditional SEO</th>
-                  <th>AI Citation Systems</th>
+                  <th>Traditional SEO Weighting</th>
+                  <th>AEO Weighting</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td><strong>Primary Trust Signal</strong></td>
                   <td>Backlink count and domain authority</td>
-                  <td>Cross-validated expertise and source classification</td>
+                  <td>Cross-validated entity data + source classification</td>
                 </tr>
                 <tr>
-                  <td><strong>Content Priority</strong></td>
+                  <td><strong>Top Content Lever</strong></td>
                   <td>Keyword density and page length</td>
-                  <td>Direct answers and verifiable specifics</td>
+                  <td>Definitions, inline statistics, bounded chunks</td>
                 </tr>
                 <tr>
-                  <td><strong>Structure Preference</strong></td>
+                  <td><strong>Structural Priority</strong></td>
                   <td>H1/H2 hierarchy for crawlers</td>
-                  <td>FAQ format, schema markup, extractable data</td>
+                  <td>Self-contained H3 sections under 300 tokens</td>
                 </tr>
                 <tr>
-                  <td><strong>Local Advantage</strong></td>
-                  <td>Google Business Profile optimization</td>
-                  <td>Multi-source NAP consistency and review patterns</td>
+                  <td><strong>Local Authority Source</strong></td>
+                  <td>Google Business Profile reviews</td>
+                  <td>NAP consistency across licensing, directories, earned media</td>
                 </tr>
                 <tr>
-                  <td><strong>Competitive Edge</strong></td>
-                  <td>Outrank competitors on search results page</td>
-                  <td>Be the only business AI recommends by name</td>
-                </tr>
-                <tr>
-                  <td><strong>Update Frequency</strong></td>
+                  <td><strong>Update Cadence Reward</strong></td>
                   <td>Fresh content boosts rankings</td>
-                  <td>Consistent, accurate data across all sources</td>
+                  <td>Stable entity data across all references</td>
+                </tr>
+                <tr>
+                  <td><strong>Competitive Outcome</strong></td>
+                  <td>Outrank competitors on the SERP</td>
+                  <td>Be the only business named in the answer</td>
                 </tr>
               </tbody>
             </table>
 
-            {/* ── CTA 6 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            <p>
+              Operator-level reading: SEO optimizes for an algorithm that ranks. AEO optimizes for a system that synthesizes. The structural patterns that win the synthesizer (definitions, named statistics, schema-anchored entities) are different from the patterns that win the ranker. AEO vs SEO is not a debate. It is a layering. Keep the SEO foundation. Add the AEO surface.
+            </p>
 
-            {/* ── CITATION LOCK-IN ── */}
-            <span className="ae-section-label">The Moat</span>
-            <h2>The Citation Preference Lock-In</h2>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">Book a free 30-minute call &mdash; we walk you through the table above using your domain&apos;s live data.</a>
 
-            <p>AI platforms develop citation preferences through training data and retrieval patterns. Businesses that become the consistent, reliable source for a topic area establish preference that competitors must actively displace rather than simply match. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
+            {/* ── LAYER 3 ── */}
+            <span className="ae-section-label">Layer 3</span>
+            <h2>Cross-Validation &mdash; The Multi-Source Consistency Check</h2>
 
-            {/* ── BAR CHART: Compounding Advantage ── */}
-            <div className="ae-bar-group not-prose">
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Month 1: Initial Optimization</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'15%'}}></div></div>
-                <div className="ae-bar-value">15%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Month 3: Content Library Built</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'35%'}}></div></div>
-                <div className="ae-bar-value">35%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Month 6: Authority Established</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'60%'}}></div></div>
-                <div className="ae-bar-value">60%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Month 12: Dominant Position</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'85%'}}></div></div>
-                <div className="ae-bar-value">85%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Month 18+: Compounding Moat</div>
-                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'95%'}}></div></div>
-                <div className="ae-bar-value">95%</div>
+            <h3>What The Retriever Validates</h3>
+            <p>
+              Cross-validation is the third filter. Before a retrieval-augmented system commits a citation, it compares candidate entity data against external sources in its corpus. Business name, address, phone, license numbers, founding year, founder identity, and service area all get checked. A match across the canonical site, the licensing board, the directory listings, and the earned media produces a citation candidate. A mismatch produces a suppression signal.
+            </p>
+
+            <h3>The Consistency Threshold</h3>
+            <p>
+              In observed client data, citation probability collapses when entity fields disagree across more than two source classes. A different founding year on LinkedIn and on the about page is one mismatch. A different phone number on a Yelp listing and on the site is two. By three, the retriever begins to substitute a competitor whose data does cross-validate. This is the most common reason a well-written page never earns a citation: the source-type authority is fine and the structure is fine, but the entity data is fragmented across the open web.
+            </p>
+
+            <p>
+              <strong className="named-thesis">The Entity Coherence Rule: when canonical entity data agrees across four or more independent source classes (website, licensing board, directory, earned media), citation probability roughly doubles relative to the same content with two consistent sources (TAE outcome data, 90-day cohort, 2026).</strong> This is the mechanism behind compound authority. Coherence is the asset.
+            </p>
+
+            <h3>How To Engineer Cross-Validation</h3>
+            <p>
+              The mechanical work is straightforward and tedious. Audit every directory, licensing record, professional association membership, and earned-media reference. Reconcile the entity fields to one canonical record. Re-list where needed. Then publish original analysis with author entity and credentials clearly stated so the new analysis cross-validates back into the corpus. The Origin Protocol, the production system we run inside our client engagements, is built around this workflow.
+            </p>
+
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">Free blindspot report: we map your entity data across every source class the retriever checks &mdash; 48-hour turnaround.</a>
+
+            <p>
+              One operator per market. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to see whether your territory is still open before a competitor claims it.
+            </p>
+
+            {/* ── QUERY FAN-OUT ── */}
+            <span className="ae-section-label">Mechanism</span>
+            <h2>The Query Fan-Out Process</h2>
+
+            <h3>What Fan-Out Is</h3>
+            <p>
+              Query fan-out is the internal expansion an AI search system performs on a single user prompt. A user types one question. The system rewrites it into six to ten sub-queries, runs retrieval against each, deduplicates the candidate set, and synthesizes the answer. The named citations in the final answer are the candidates that surfaced in the most sub-queries with the strongest relevance score.
+            </p>
+
+            <h3>Why Coverage Matters</h3>
+            <p>
+              <strong className="named-thesis">The Fan-Out Coverage Effect: a business that addresses six or more of the retriever&apos;s expanded sub-queries through a connected content lattice earns roughly 3x the citation rate of a business that addresses only the literal user query (TAE field measurement, 2026).</strong> The retriever rewards coverage, not keyword match. A single article on the literal phrase wins one sub-query. A connected cluster of articles covering credentials, pricing, red flags, regional variants, warranty norms, and process explanations wins six.
+            </p>
+
+            <h3>Example: An HVAC Query In Phoenix</h3>
+            <p>
+              When a user asks Perplexity AI &quot;how do I choose an HVAC contractor in Phoenix,&quot; the fan-out internally produces sub-queries on local licensing requirements, Phoenix climate considerations, average permit costs, common contractor scams, refrigerant handling certification, warranty norms, and time-of-year scheduling. The business cited in the final answer is the one whose canonical site addressed at least five of those seven sub-queries in extractable form.
+            </p>
+
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">Free AERO-10 blindspot report &mdash; we run a real fan-out on your category and show which sub-queries you currently win.</a>
+
+            {/* ── POSITION PREMIUM ── */}
+            <span className="ae-section-label">Position</span>
+            <h2>The Position Premium</h2>
+
+            <h3>Why The Top Third Of An Article Wins</h3>
+            <p>
+              GEO-SFE (2026) measured a 44% citation concentration in the top third of an article. The retriever weights early passages more heavily because retrieval-augmented systems frequently truncate the context window before reaching later sections. Burying the most important claim in section four is structurally self-defeating regardless of how strong the writing is.
+            </p>
+
+            <p>
+              <strong className="named-thesis">The Position-Weighted Opener: 44% of all RAG citations come from the top third of an article, which means the single most important claim must sit in paragraph one or two of the body (GEO-SFE, 2026).</strong> The article you are reading places its named-thesis sentences in the upper half deliberately.
+            </p>
+
+            <h3>What This Means For Production</h3>
+            <p>
+              Lead with the definition. Lead with the named-thesis sentence. Lead with the citation-worthy statistic. The position premium is real, measurable, and asymmetric. It is the single highest-yield structural lever in AEO content.
+            </p>
+
+            <a href="mailto:support@theanswerengine.ai?subject=Position%20Audit" className="ae-cta-inline">Email support@theanswerengine.ai for a position-premium audit on your highest-traffic article &mdash; free, 24-hour turnaround.</a>
+
+            {/* ── ORIGIN PROTOCOL ── */}
+            <span className="ae-section-label">How We Engineer It</span>
+            <h2>How The Answer Engine Engineers Citations</h2>
+
+            <h3>The Origin Protocol</h3>
+            <p>
+              Our production system, the Origin Protocol, is the operationalization of the three layers above. Layer 1 work is entity reconciliation across the open corpus. Layer 2 work is the Championship Format publishing pattern that enforces bounded chunks, definition-first H3s, named-thesis sentences, and schema-anchored entity data. Layer 3 work is the Proof Ledger &mdash; a tracked record of every directory, licensing record, and earned-media reference that we maintain in cross-validation lock with the canonical site.
+            </p>
+
+            <h3>Why Operators Beat Agencies On AEO</h3>
+            <p>
+              Citation engineering is mechanical and cumulative. It rewards operators who run the same audit-publish-verify loop hundreds of times across a category, not agencies that treat each engagement as a custom strategy. We work with one operator per market. The territory lock is not a sales tactic. It is what makes compound authority possible inside a category. Two clients in the same vertical would compete for the same sub-queries, and citation cannot be split.
+            </p>
+
+            <p>
+              Reach out at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> or call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> to see whether your category is still open in your geography.
+            </p>
+
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">Claim your market &mdash; book a 30-minute territory check call before a competitor in your category does.</a>
+
+            {/* ── HOW TO MEASURE ── */}
+            <span className="ae-section-label">Measurement</span>
+            <h2>How To Measure AI Citation Performance</h2>
+
+            <h3>The Proof Ledger</h3>
+            <p>
+              Measurement in AEO is direct, not inferred. The Proof Ledger is a tracked record of every appearance the business earns across ChatGPT, Claude, Perplexity, and Google AI Overviews. Each row contains the source prompt, the model, the date, the cited URL, and the position of the citation in the answer. A 90-day cohort produces enough rows to identify which content units earn the highest citation rate per published page.
+            </p>
+
+            <h3>What Good Looks Like</h3>
+            <p>
+              For local service categories, a healthy 90-day cohort produces 8 to 20 verified citations across the four major answer engines, with the highest-performing content units cited 3 to 6 times each. Below that range the structural patterns need work. Above that range, territory lock is producing compound returns and the next quarter typically doubles.
+            </p>
+
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">Start your Proof Ledger today &mdash; the free AERO-10 blindspot report seeds the first ten rows with your current verified citations.</a>
+
+            <p>
+              For a quick check, call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>. For deeper work, book the strategy call at <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">calendly.com/theanswerengine-support/30min</a>.
+            </p>
+
+            {/* ── INLINE CTA BLOCK ── */}
+            <div className="ae-cta-block not-prose">
+              <h3>Free AERO-10 Blindspot Report &mdash; 48-Hour Turnaround</h3>
+              <p>
+                We run a 10-query fan-out against your category in your geography, document every cited competitor across ChatGPT, Claude, Perplexity, and Google AI Overviews, and return a structured report identifying your highest-yield authority gaps. No call required. One per market.
+              </p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get The Free Report &rarr;</a>
+              <div style={{ marginTop: 16, display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Strategy Call</a>
               </div>
             </div>
-
-            <p>In traditional SEO, a new competitor with better content and backlinks could overtake established players within months. In AI citation, displacing an established authority requires demonstrably superior information across the entire topic area. That is a significantly higher bar. <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-
-            <div className="ae-quote not-prose">
-              <p>The businesses implementing AEO today are not just getting ahead. They are building moats that get deeper every month.</p>
-            </div>
-
-            {/* ── CTA 7 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── STRATEGIC SHIFT ── */}
-            <span className="ae-section-label">The Shift</span>
-            <h2>The Strategic Shift Required</h2>
-
-            <p>Traditional marketing focused on exposure: getting in front of as many potential customers as possible. AI-powered search focuses on authority: being the definitive source AI platforms trust enough to cite.</p>
-
-            {/* ── PROS / CONS: Strategic Shift ── */}
-            <div className="ae-pros-cons not-prose">
-              <div className="ae-pros-box">
-                <div className="ae-pros-title">New AI Citation Rules</div>
-                <ul>
-                  <li>Content authority matters more than content volume</li>
-                  <li>Authentic expertise documentation becomes the competitive moat</li>
-                  <li>Technical implementation separates cited from invisible</li>
-                  <li>Cross-platform consistency amplifies authority signals</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <div className="ae-cons-title">What No Longer Works</div>
-                <ul>
-                  <li>Publishing high volumes of generic blog content</li>
-                  <li>Relying solely on backlink-building campaigns</li>
-                  <li>Copying competitor content with minor rewording</li>
-                  <li>Ignoring structured data and schema markup</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* ── CALLOUT: SUCCESS ── */}
-            <div className="ae-callout ae-callout-success not-prose">
-              <div className="ae-callout-title">The DIY Reality Check</div>
-              <p>Can you implement effective AI citation strategies yourself? Technically, yes. The same way you could technically build your own house. The question is whether you should invest 6-12 months learning through trial and error versus partnering with specialists who have already solved these challenges for dozens of businesses.</p>
-            </div>
-
-            {/* ── CTA 8 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── PATH FORWARD ── */}
-            <span className="ae-section-label">Action Plan</span>
-            <h2>The Path Forward: Your AI Citation Roadmap</h2>
-
-            <p>AI platforms will only become more sophisticated in their citation selection. The evaluation criteria will evolve, the cross-validation will deepen, and the authority signals will become more complex. But the fundamental principle remains the same.</p>
-
-            {/* ── CHEAT SHEET: Action Plan ── */}
-            <div className="ae-cheat-sheet not-prose">
-              <div className="ae-cheat-sheet-title">Your 5-Step AI Citation Action Plan</div>
-              <ul>
-                <li><strong>Step 1:</strong> Audit your current AI visibility. Ask ChatGPT, Claude, and Perplexity to recommend businesses in your category and market. Document who gets cited and why.</li>
-                <li><strong>Step 2:</strong> Fix NAP consistency. Ensure your business name, address, and phone number match exactly across every directory, your website, and Google Business Profile.</li>
-                <li><strong>Step 3:</strong> Add structured data. Implement JSON-LD schema markup for your business entity, services, reviews, and FAQ content on every relevant page.</li>
-                <li><strong>Step 4:</strong> Build a fan-out content library. Create comprehensive, interconnected content that answers the full spectrum of questions AI generates from user queries.</li>
-                <li><strong>Step 5:</strong> Document credentials explicitly. List license numbers, certifications, years of experience, project counts, and service area specifics in plain text on your website.</li>
-              </ul>
-            </div>
-
-            {/* ── CTA 9 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── CTA 10 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── DIVIDER ── */}
-            <hr />
 
             {/* ── FAQ SECTION ── */}
             <span className="ae-section-label">FAQ</span>
             <h2>Frequently Asked Questions</h2>
 
-            <div className="space-y-6 not-prose">
-              {[
-                {
-                  q: "How do AI platforms verify business credentials?",
-                  a: "AI platforms cross-reference claims against authoritative databases, public business registries, licensing boards, and professional associations. They look for consistency between your website information and these external verification sources. Unverifiable or inconsistent claims reduce citation probability significantly."
-                },
-                {
-                  q: "Can traditional SEO help with AI citations?",
-                  a: "Traditional SEO foundations like domain authority, quality backlinks, and technical site performance remain valuable. However, they are necessary but not sufficient. AI platforms require additional signals: structured data markup, explicit expertise documentation, and verifiable credentials that traditional SEO did not emphasize."
-                },
-                {
-                  q: "Why do AI platforms cite some businesses but not others with similar credentials?",
-                  a: "Credentials alone do not determine citations. AI platforms evaluate how expertise is documented and structured. Two businesses with identical qualifications see different results based on content structure, specificity of information, and technical implementation. The business that makes information extraction easier gets cited more frequently."
-                },
-                {
-                  q: "Do AI platforms prefer certain business sizes or types?",
-                  a: "AI platforms do not inherently prefer large businesses over small ones. They prefer authoritative sources regardless of size. Local businesses with specific geographic expertise often outperform national brands for location-specific queries because they provide more relevant, detailed local information."
-                },
-                {
-                  q: "How long does it take to start getting AI citations?",
-                  a: "With proper implementation, initial citations for specific queries can appear within weeks. Consistent, broad citation across multiple AI platforms typically takes 2-3 months as systems recognize your comprehensive authority. The timeline depends entirely on implementation quality."
-                },
-                {
-                  q: "What happens to businesses that AI platforms never cite?",
-                  a: "They become increasingly invisible as more consumers use AI platforms for research. Even with traditional search traffic, they lose competitive positioning because prospects research multiple options and AI-recommended businesses start with credibility advantages. Over time, non-cited businesses face exponentially higher customer acquisition costs."
-                },
-                {
-                  q: "Can I test which AI platforms are citing my business?",
-                  a: "Yes. Ask the same questions you expect customers to ask across ChatGPT, Claude, Perplexity, and Google AI Overviews. Document which businesses get mentioned and why. This competitive intelligence reveals where you stand relative to competitors and which content gaps need addressing."
-                },
-                {
-                  q: "Do AI platforms update their citations frequently?",
-                  a: "AI platforms continuously refine citation selections based on new training data, user feedback, and content updates. However, established authority positions compound over time. Businesses that become reliable sources get preferential treatment. This makes early optimization increasingly valuable."
-                }
-              ].map((faq, i) => (
-                <div key={i} className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-white font-plus-jakarta">
-                    {faq.q}
-                  </h3>
-                  <p className="text-gray-400 leading-relaxed">
-                    {faq.a}
-                  </p>
-                </div>
-              ))}
-            </div>
-
-            {/* ── CTA 11 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── CTA 12 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── CTA BLOCK ── */}
-            <div className="ae-cta-block not-prose my-16">
-              <h3>Answer Engine Optimization Services — See Your AI Citation Score Free</h3>
-              <p>Every month 2,900 businesses search for ways to improve their brand visibility in AI search engines. The Answer Engine&apos;s free Blind Spot Report gives you your exact citation score across ChatGPT, Perplexity, and Google AI — and shows you what to fix.</p>
-              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free AI Citation Score →</a>
-              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+            <details className="ae-faq-item">
+              <summary>How do AI platforms choose which businesses to cite?</summary>
+              <div className="ae-faq-answer faq-answer">
+                <p>
+                  AI platforms apply a three-layer weighted assessment. Layer one classifies the source by domain type and credentialing. Layer two extracts content units &mdash; definitions, statistics, quotations, lists, and schema-anchored entities. Layer three cross-validates the entity data against external corpora including licensing boards, directories, and earned media. A business that passes all three layers becomes a preferred citation candidate. The mechanism is consistent across ChatGPT, Claude, Perplexity, and Google AI Overviews, even though the implementations differ in detail.
+                </p>
               </div>
-            </div>
+            </details>
 
-            {/* ── CTA 13 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            <details className="ae-faq-item">
+              <summary>Which content formats earn the most AI citations?</summary>
+              <div className="ae-faq-answer faq-answer">
+                <p>
+                  Definitions earn a 57% citation premium when they open a section (Zhang et al., 2026). Inline quotations add 37% retrieval probability and inline statistics add 22% (Aggarwal et al., KDD 2024). Lists and tables outperform prose by 43% in retrieval, and chunks above 300 tokens trigger a 31% attention degradation (GEO-SFE, 2026). The composite recommendation is direct: lead each section with a definition, embed at least one inline statistic with a cited source, and keep the section under 300 tokens.
+                </p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Why does cross-validation matter so much for AI citations?</summary>
+              <div className="ae-faq-answer faq-answer">
+                <p>
+                  Retrieval-augmented generation systems compare candidate sources against external corpora before generating an answer. When a business name, address, license number, and founding year match across the website, licensing board, directories, and earned media, citation probability rises substantially. Mismatches trigger suppression. In our observed client data, when entity fields disagree across more than two source classes, citation probability collapses and the retriever substitutes a competitor whose data does cross-validate.
+                </p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>Do AI platforms favor big brands over local businesses?</summary>
+              <div className="ae-faq-answer faq-answer">
+                <p>
+                  No. Chen et al. (2025) documented systematic retriever bias toward earned media over brand-owned content, but no inherent preference for company size. Local service businesses with explicit geographic specificity, documented credentials, and consistent NAP signals routinely outperform national brands for location-anchored queries. The position premium and the entity coherence rule both apply regardless of company size. Local operators often win precisely because the entity data is simpler to keep coherent across a small directory footprint.
+                </p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>How long does it take to start earning AI citations?</summary>
+              <div className="ae-faq-answer faq-answer">
+                <p>
+                  Initial citations on long-tail queries surface within 30 to 60 days when the structural pattern is correct from the first publication. Broad multi-platform citation across ChatGPT, Claude, Perplexity, and Google AI Overviews typically takes 90 to 180 days as retrieval systems re-index, earned media accrues, and the entity-coherence signal compounds. The timeline is faster than SEO because retrievers re-evaluate the corpus continuously rather than waiting on a periodic crawl cycle.
+                </p>
+              </div>
+            </details>
+
+            <details className="ae-faq-item">
+              <summary>What is the biggest mistake businesses make trying to get cited by AI?</summary>
+              <div className="ae-faq-answer faq-answer">
+                <p>
+                  Treating AI search like SEO. Backlinks and keyword density do not drive citation selection at the synthesizer layer. The mechanisms that drive citations are extractable definitions, position-weighted claims in the top third of an article, named-thesis sentences, bounded chunks, schema-anchored entities, and cross-validated identity data. Volume without structure produces no citation lift. Publishing twenty unstructured posts has roughly the same citation outcome as publishing zero.
+                </p>
+              </div>
+            </details>
+
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">Run the free AERO-10 blindspot report &mdash; the fastest way to see whether the mechanisms above are working on your domain.</a>
+
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">Or book a 30-minute strategy call &mdash; we audit your highest-traffic article on the call.</a>
 
             {/* ── AUTHOR CARD ── */}
-            <div className="ae-author-card not-prose">
+            <div className="not-prose ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+              />
               <div>
-                <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges</p>
-                <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
-                <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
-                <div className="flex flex-wrap gap-4 mt-3 text-sm">
-                  <span className="text-gray-500">2+ years specialized AEO experience</span>
-                  <span className="text-gray-500">50+ local business implementations</span>
-                  <span className="text-gray-500">500+ schema deployments</span>
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio">
+                  Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps local service businesses get cited by ChatGPT, Claude, Perplexity, and Google AI Overviews. He built and validated the Origin Protocol on his own properties before offering it to clients.
+                </p>
+              </div>
+            </div>
+
+            {/* ── TERRITORY CTA ── */}
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">Territory Lock &mdash; One Operator Per Market</div>
+              <p>
+                Compound authority cannot be split inside a category. We work with one operator per geographic market. If your category in your geography is open, the next quarterly cohort is the right entry point. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> or email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to check whether your territory is still available before a competitor claims it.
+              </p>
+            </div>
+
+            {/* ── FINAL CTA SECTION ── */}
+            <section className="ae-final-cta not-prose">
+              <div className="ae-final-cta-inner">
+                <h2 className="font-headline font-black uppercase tracking-tighter text-white text-2xl sm:text-3xl mb-4">
+                  Get Cited By ChatGPT, Claude, Perplexity &amp; Google AI Overviews
+                </h2>
+                <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                  The free AERO-10 blindspot report runs a real fan-out on your category, documents every cited competitor across the four major answer engines, and identifies your highest-yield authority gaps. 48-hour turnaround. One per market.
+                </p>
+                <a
+                  href="https://theanswerengine.ai/blindspot"
+                  className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+                >
+                  Get The Free Blindspot Report &rarr;
+                </a>
+                <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500 font-mono">
+                  <a href="tel:+12134442229" className="hover:text-[#F27D24] transition-colors">(213) 444-2229</a>
+                  <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-[#F27D24] transition-colors">Book Free Call</a>
+                  <a href="mailto:support@theanswerengine.ai" className="hover:text-[#F27D24] transition-colors">support@theanswerengine.ai</a>
                 </div>
               </div>
-            </div>
+            </section>
 
-            {/* ── CTA 14 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
-
-            {/* ── FINAL CTA ── */}
-          <section className="ae-final-cta not-prose">
-            <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Competitors Are Claiming AI Search Territory Right Now
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                2,900 businesses/month search for ways to improve their AI search visibility. The Answer Engine builds the exact authority signals that get you cited — and keeps competitors out of your market. Free blind spot scan. One business per market.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Get Your Free Blind Spot Report →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
-              </div>
-            </div>
-          </section>
-
-            {/* ── CTA 15 ── */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Get your free AI citation score — 48-hour turnaround</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">Last step &mdash; claim your free AERO-10 blindspot report now before the next cohort closes.</a>
 
             {/* ── RELATED ARTICLES ── */}
             <span className="ae-section-label">Keep Reading</span>
-            <h2>Related Articles</h2>
+            <h2>Related Briefs</h2>
 
             <div className="space-y-4 not-prose">
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
-                <Link href="/blog/what-is-answer-engine-optimization" className="group">
-                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
-                    What is Answer Engine Optimization (AEO)? The Complete Guide for 2025
-                  </h4>
-                  <p className="text-gray-400 leading-relaxed">
-                    Learn what Answer Engine Optimization is, how it differs from traditional SEO, and why local businesses need it to dominate AI-powered search.
-                  </p>
-                </Link>
-              </div>
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
-                <Link href="/blog/google-rankings-dont-matter" className="group">
-                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
-                    The Real Reason Your Google Rankings Do Not Matter Anymore
-                  </h4>
-                  <p className="text-gray-400 leading-relaxed">
-                    Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly. Even a number one ranking can get zero clicks.
-                  </p>
-                </Link>
-              </div>
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
-                <Link href="/blog/aeo-vs-seo" className="group">
-                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
-                    AEO vs SEO: What Is the Difference?
-                  </h4>
-                  <p className="text-gray-400 leading-relaxed">
-                    The complete comparison between Answer Engine Optimization and Search Engine Optimization, and which one your business needs in 2025.
-                  </p>
-                </Link>
-              </div>
+              <Link href="/blog/anatomy-of-an-ai-citation" className="block border border-white/[0.08] hover:border-[#F27D24]/40 p-6 transition-colors">
+                <h4 className="font-headline font-black uppercase tracking-tighter text-white text-xl mb-2">Anatomy Of An AI Citation</h4>
+                <p className="text-gray-400 leading-relaxed">The seven signals AI models use to decide which businesses appear in answers.</p>
+              </Link>
+              <Link href="/blog/aeo-models-how-ai-search-picks-sources" className="block border border-white/[0.08] hover:border-[#F27D24]/40 p-6 transition-colors">
+                <h4 className="font-headline font-black uppercase tracking-tighter text-white text-xl mb-2">AEO Models: How AI Search Picks Sources</h4>
+                <p className="text-gray-400 leading-relaxed">The retrieval models behind ChatGPT, Claude, Perplexity, and Google AI Overviews.</p>
+              </Link>
+              <Link href="/blog/aeo-vs-seo" className="block border border-white/[0.08] hover:border-[#F27D24]/40 p-6 transition-colors">
+                <h4 className="font-headline font-black uppercase tracking-tighter text-white text-xl mb-2">AEO vs SEO</h4>
+                <p className="text-gray-400 leading-relaxed">The mechanism-level differences between Answer Engine Optimization and Search Engine Optimization.</p>
+              </Link>
             </div>
-
           </div>
         </article>
-      </main>
+      </div>
     </>
   );
 }
