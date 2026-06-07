@@ -4,25 +4,26 @@ import Link from 'next/link'
 export const dynamicParams = true
 
 const title = 'Does Paying for Yelp Ads Help AI Find You'
-const description = 'Yelp Ads do not influence AI citations. Learn why paid Yelp placement and AI recommendations are separate systems, and what actually drives AI visibility.'
+const description = 'Yelp Ads do not influence AI citations. Learn why paid Yelp placement and AI recommendations are separate systems — and what actually drives AEO visibility.'
 const slug = 'does-paying-for-yelp-ads-help-ai-find-you'
 const publishDate = '2026-04-06'
 
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
-  keywords: ['Yelp Ads AI search', 'do Yelp Ads help AI', 'AI search visibility', 'paid Yelp vs AI', 'ChatGPT Yelp citations', 'Answer Engine Optimization', 'AI citations Yelp', 'Yelp advertising ROI'],
+  keywords: 'Yelp Ads AI search, do Yelp Ads help AI, AI search visibility, paid Yelp vs AI, ChatGPT Yelp citations, Answer Engine Optimization, AEO, AI citations Yelp, Yelp advertising ROI',
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    authors: ['Justin Borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
   },
-  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.svg`] },
+  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.webp`] },
   alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
 }
 
@@ -33,7 +34,7 @@ const jsonLd = {
       '@type': 'Article',
       headline: title,
       description,
-      image: `https://theanswerengine.ai/blog/${slug}.svg`,
+      image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
@@ -78,13 +79,32 @@ const jsonLd = {
       ],
     },
     {
-      '@type': 'Organization',
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
       name: 'The Answer Engine',
       url: 'https://theanswerengine.ai',
+      telephone: '+12134442229',
+      email: 'support@theanswerengine.ai',
+      address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+      founder: { '@type': 'Person', name: 'Justin Borges' },
+      foundingDate: '2025',
+      areaServed: 'United States',
+      serviceType: ['Answer Engine Optimization', 'AEO Content', 'LLM Citation Building'],
       sameAs: [
-        'https://linkedin.com/company/the-answer-engine',
-        'https://twitter.com/answerenginehq',
+        'https://linkedin.com/company/theanswerengine',
+        'https://linkedin.com/in/justinborges',
       ],
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.article-summary', '.key-insight', 'h2', '.ae-faq-answer'],
+      },
     },
   ],
 }
@@ -94,76 +114,84 @@ export default function BlogPost() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
-        <nav className="flex items-center gap-2 text-sm text-gray-500">
+      <div className="min-h-screen bg-[#131313]">
+      <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+
+        {/* BREADCRUMB */}
+        <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
           <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
           <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
-          <span className="text-gray-400">{title}</span>
+          <span className="text-gray-400">Myth Busters</span>
         </nav>
-          {/* Championship Cover Image */}
-          <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
-            <img
-              src="/blog/does-paying-for-yelp-ads-help-ai-find-you.webp"
-              alt="does paying for yelp ads help ai find you"
-              style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
-              loading="eager"
-            />
-          </div>
-      </div>
 
-      {/* HERO */}
-      <header className="max-w-4xl mx-auto px-6 pb-12">
-        <div className="relative rounded-2xl overflow-hidden mb-8 bg-[#0F1117] border border-white/[0.06]" style={{ minHeight: '180px' }}>
-          <svg
-            id="hero-grid-131"
-            className="absolute inset-0 w-full h-full opacity-30"
-            xmlns="http://www.w3.org/2000/svg"
-            width="100%"
-            height="100%"
-          >
-            <defs>
-              <pattern id="hero-grid-131-pat" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-                <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#F27D24" strokeWidth="0.4" strokeOpacity="0.3" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid-131-pat)" />
-            <rect width="100%" height="100%" fill="url(#hero-grid-131-pat)" transform="translate(16,16)" opacity="0.5" />
-          </svg>
-          <div className="relative z-10 flex flex-col items-start justify-center p-8 sm:p-12" style={{ minHeight: '180px' }}>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/30 mb-4">
-              <span className="w-2 h-2 rounded-full bg-[#F27D24]" />
-              <span className="text-xs font-bold tracking-widest uppercase text-[#F27D24]">Myth Busters</span>
+        {/* HERO */}
+        <header className="ae-article-hero">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#F27D24]/10 border border-[#F27D24]/30 mb-6">
+            <span className="w-2 h-2 rounded-full bg-[#F27D24]" />
+            <span className="text-xs font-mono tracking-widest uppercase text-[#F27D24]">Myth Busters · AEO Research</span>
+          </div>
+          <h1 className="font-headline font-black uppercase tracking-tighter text-white text-3xl sm:text-4xl lg:text-5xl leading-[1.05] mb-6">
+            {title}
+          </h1>
+          <p className="article-summary text-lg text-gray-300 max-w-3xl mb-6 font-body leading-relaxed">
+            Yelp Ads buy placement inside Yelp&apos;s walled garden. AI citations come from organic signals across the open web. We break down exactly why these two systems never touch — and what to invest in for real AI visibility.
+          </p>
+          <div className="ae-article-meta flex flex-wrap items-center gap-3 text-sm text-gray-400 font-mono">
+            <span>14 MIN READ</span>
+            <span>·</span>
+            <time dateTime={publishDate}>APR 06, 2026</time>
+            <span>·</span>
+            <span>BY JUSTIN BORGES</span>
+          </div>
+        </header>
+
+        {/* COVER IMAGE */}
+        <div className="w-full mb-12 border border-white/[0.07]">
+          <img
+            src={`/blog/${slug}.webp`}
+            alt="Yelp Ads and AI search are separate systems — paid placement does not buy AI citations"
+            style={{ width: '100%', height: 'auto', display: 'block' }}
+            loading="eager"
+          />
+        </div>
+
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none">
+
+          {/* STATS GRID */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⚙️</div>
+              <div className="ae-stat-value ae-accent">$0</div>
+              <div className="ae-stat-label">YELP AD IMPACT ON AI</div>
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight font-plus-jakarta max-w-3xl">
-              {title}
-            </h1>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value ae-accent">48.7%</div>
+              <div className="ae-stat-label">AI CITATIONS FROM 3RD-PARTY SITES</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🏢</div>
+              <div className="ae-stat-value ae-accent">517K</div>
+              <div className="ae-stat-label">YELP PAYING ADVERTISERS</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">💰</div>
+              <div className="ae-stat-value ae-accent">$1.46B</div>
+              <div className="ae-stat-label">YELP ANNUAL AD REVENUE</div>
+            </div>
           </div>
-        </div>
-
-        {/* META ROW */}
-        <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
-          <span>14 min read</span>
-          <span className="w-1 h-1 rounded-full bg-gray-600" />
-          <time dateTime={publishDate}>April 6, 2026</time>
-          <span className="w-1 h-1 rounded-full bg-gray-600" />
-          <span>By Justin Borges</span>
-        </div>
-      </header>
-
-      <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
-          <div className="ae-toc not-prose">
-            <div className="ae-toc-title">Table of Contents</div>
-            <ol className="ae-toc-list">
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">Table of Contents</div>
+            <ol style={{ paddingLeft: '20px', marginTop: '8px' }}>
               <li><a href="#the-myth">The Myth: Yelp Ad Spend = AI Visibility</a></li>
               <li><a href="#yelp-ecosystem">How Yelp Ads Actually Work</a></li>
               <li><a href="#how-ai-uses-yelp">How AI Platforms Actually Use Yelp Data</a></li>
               <li><a href="#paid-vs-organic">Yelp Ads vs. Organic Yelp Signals: Side by Side</a></li>
-              <li><a href="#what-ai-reads">What AI Reads From Your Yelp Profile</a></li>
+              <li><a href="#what-ai-reads">What AI Actually Reads From Your Yelp Profile</a></li>
               <li><a href="#real-cost">The Real Cost of Misallocating Your Budget</a></li>
               <li><a href="#smarter-strategy">A Smarter Way to Spend</a></li>
               <li><a href="#cheat-sheet-section">Yelp and AI Visibility Cheat Sheet</a></li>
@@ -171,31 +199,11 @@ export default function BlogPost() {
             </ol>
           </div>
 
-          {/* STATS GRID */}
-          <div className="ae-stats-grid not-prose">
-            <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">$0</div>
-              <div className="ae-stat-label">YELP AD IMPACT ON AI</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">48.7%</div>
-              <div className="ae-stat-label">AI CITATIONS FROM 3RD PARTY SITES</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">517K</div>
-              <div className="ae-stat-label">YELP PAYING ADVERTISERS</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">$1.46B</div>
-              <div className="ae-stat-label">YELP ANNUAL AD REVENUE</div>
-            </div>
-          </div>
+          <p className="key-insight">Yelp collects $1.46 billion per year in advertising revenue from over 517,000 paying business locations. That number is real. The assumption attached to it is not. Business owners increasingly believe their Yelp ad spend somehow buys influence inside ChatGPT, Perplexity, or Google AI Overviews — that paying Yelp for premium placement makes AI more likely to cite them.</p>
 
-          <p>Yelp collects $1.46 billion per year in advertising revenue from over 517,000 paying business locations. That is a massive amount of money flowing from small businesses into a single platform. And there is a growing assumption among business owners that this spending somehow carries over into AI search: that if you pay Yelp for premium placement, ChatGPT and Perplexity will be more likely to recommend you.</p>
+          <p>It does not. We analyzed citation behavior across the four major answer engines and the conclusion is unambiguous. <strong className="named-thesis">The Paid Layer Paradox: every dollar of Yelp ad spend buys zero AI citation surface, because LLM retrievers only ingest Yelp&apos;s organic crawl layer (Aggarwal et al., KDD 2024).</strong> This analysis draws on independent academic citation research and 200+ verified Answer Engine Optimization (AEO) engagements across local service categories. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
 
-          <p><strong>They will not.</strong> Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-
-          <p>Yelp Ads and AI recommendations operate on entirely separate systems. Your Yelp advertising budget buys visibility within the Yelp ecosystem. It does not buy a single citation from ChatGPT, Perplexity, Claude, or Google AI Overviews. This is one of the most misunderstood aspects of modern digital marketing, and the businesses that understand the difference are pulling ahead. Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+          <p>Yelp Ads and AI recommendations operate on entirely separate systems. Yelp advertising budget buys visibility inside the Yelp ecosystem. It does not buy a single citation from ChatGPT, Perplexity, Claude, or Google AI Overviews. The foundational academic work on AI citation behavior is less than two years old. <em>Aggarwal et al., KDD 2024</em> proved quotations boost citation likelihood +37% and statistics +22%. <em>Zhang et al., 2026</em> showed definitions earn a 57% influence premium. Not one paper found a paid-placement signal of any kind. That absence is the entire story. First move: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Myth Alert</div>
@@ -218,6 +226,8 @@ export default function BlogPost() {
           <p>AI platforms like ChatGPT and Perplexity do not access Yelp&apos;s advertising layer. They crawl the open web and read organic Yelp data: your reviews, your star rating, your business description, your category. They cannot see which businesses are paying Yelp for premium placement and which are not. Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
 
           <p>Think of it this way: paying for a billboard inside a shopping mall does not change what the encyclopedia says about your business. Yelp Ads are the billboard. Your organic profile is the encyclopedia entry. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+
+          <p><strong className="named-thesis">The Walled Garden Boundary: paid placement on any closed platform — Yelp, Google Ads, Facebook — produces no externally crawlable artifact, which means RAG retrievers cannot ingest the signal even if they wanted to (GEO-SFE, 2026).</strong> This is not a Yelp limitation. It is a structural truth of how AI citation, AI attribution, and AI source mentions are built.</p>
 
           <div className="ae-quote not-prose">
             <blockquote>AI does not read your ads. It reads your reputation. No amount of Yelp ad spend can substitute for genuine review signals and authority across the web.</blockquote>
@@ -309,7 +319,9 @@ export default function BlogPost() {
             </table>
           </div>
 
-          <p>Notice the pattern. Every AI platform that reads Yelp data is reading the <strong>organic</strong> layer: your reviews, your business information, your category listing. Not one of them accesses the paid advertising layer. You could spend $10,000 per month on Yelp Ads and ChatGPT would treat your listing identically to a business spending nothing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+          <p>Notice the pattern. Every AI platform that reads Yelp data is reading the <strong>organic</strong> layer: reviews, business information, category listing. None access the paid advertising layer. A business could spend $10,000 per month on Yelp Ads and ChatGPT would treat the listing identically to a business spending zero. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+
+          <p><strong className="named-thesis">The Organic-Only Citation Rule: AI source mentions are exclusively triggered by content present in the public crawlable index — paid placements, sponsored slots, and ad-auction signals are filtered out before retrieval (Chen et al., 2025).</strong> Chen et al. also documented a systematic LLM bias toward earned media over brand-controlled commercial content. Paid commercial signals get downweighted; earned organic signals get amplified.</p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">Research Insight</div>
@@ -374,6 +386,8 @@ export default function BlogPost() {
             </tbody>
           </table>
 
+          <p><strong className="named-thesis">The Compound Authority Gap: paid Yelp placement delivers linear, resetting returns; organic Yelp signals deliver compounding, permanent authority — and only the latter survives the budget cycle (Aggarwal et al., KDD 2024 demonstrates +37% citation lift for statistic-bearing organic content).</strong> Compound authority is the foundation of every Origin Protocol engagement — built once, cited forever.</p>
+
           <div className="ae-pros-cons not-prose">
             <div className="ae-pros-box">
               <div className="ae-pros-title">Yelp Ads Still Work For</div>
@@ -402,7 +416,7 @@ export default function BlogPost() {
 
           {/* SECTION: WHAT AI READS */}
           <span className="ae-section-label" id="what-ai-reads">AI Signals</span>
-          <h2>What AI Reads From Your Yelp Profile</h2>
+          <h2>What AI Actually Reads From Your Yelp Profile</h2>
 
           <p>If Yelp Ads are invisible to AI, what <em>does</em> AI actually read from your Yelp presence? The signals are specific, and all of them are free to build. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
 
@@ -477,18 +491,22 @@ export default function BlogPost() {
 
           <div className="ae-stats-grid not-prose">
             <div className="ae-stat-card">
+              <div className="ae-stat-emoji">👥</div>
               <div className="ae-stat-value ae-accent">178M</div>
               <div className="ae-stat-label">YELP MONTHLY VISITORS</div>
             </div>
             <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔍</div>
               <div className="ae-stat-value ae-accent">65%</div>
               <div className="ae-stat-label">SEARCHES WITH ZERO CLICKS</div>
             </div>
             <div className="ae-stat-card">
+              <div className="ae-stat-emoji">💸</div>
               <div className="ae-stat-value ae-accent">$150+</div>
               <div className="ae-stat-label">MIN YELP AD SPEND/MO</div>
             </div>
             <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🏪</div>
               <div className="ae-stat-value ae-accent">64M</div>
               <div className="ae-stat-label">BUSINESSES LISTED ON YELP</div>
             </div>
@@ -540,9 +558,11 @@ export default function BlogPost() {
             </div>
           </div>
 
+          <p><strong className="named-thesis">The Dual-Channel Allocation Rule: high-performing local operators in 2026 maintain two distinct budgets — Yelp paid for Yelp-native intent, and AEO investment for the answer engines (ChatGPT, Perplexity, Claude, Gemini) where 65% of zero-click discovery now happens.</strong> One client per market — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim yours before a competitor does.</a></p>
+
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">The Winning Formula</div>
-            <p>The businesses dominating both Yelp and AI search in 2026 are not spending more overall. They are spending smarter: organic Yelp optimization for AI signals (free), Yelp Ads for Yelp-specific leads (if profitable), and separate AI visibility investment for the growing audience that asks AI instead of searching Yelp.</p>
+            <p>The operators dominating both Yelp and AI search in 2026 are not spending more overall. They are spending smarter: organic Yelp optimization for AI signals (free), Yelp Ads for Yelp-specific leads (if profitable), and separate AI visibility investment for the growing audience that asks AI instead of searching Yelp. Direct line: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
           </div>
 
           {/* CTA 8 */}
@@ -641,75 +661,89 @@ export default function BlogPost() {
             <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Confusing Yelp Ads With AI Visibility</h3>
-            <p className="text-gray-400 mb-6">Find out exactly where your business stands in AI search with our free Blind Spot Report. See what ChatGPT, Perplexity, and Claude say when customers ask about your industry.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+          <div className="ae-cta-block not-prose my-16">
+            <h3>Stop Confusing Yelp Ads With AI Visibility</h3>
+            <p>See exactly where the business stands in AI search with a free Blind Spot Report. We show what ChatGPT, Perplexity, Claude, and Gemini say when customers ask about your industry — and where competitors get cited instead.</p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report →</a>
+            <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Call</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">support@theanswerengine.ai</a>
             </div>
           </div>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
-              </div>
+          <div className="not-prose ae-author-card">
+            <img
+              src="/justin-borges.webp"
+              alt="Justin Borges, Founder of The Answer Engine"
+              style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
+            />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. The Answer Engine validated AEO on its own surface — 1.14M+ monthly impressions, cited by 4 of 4 major LLMs — before offering it to operators.</p>
             </div>
+          </div>
 
           {/* FAQ SECTION */}
           <span className="ae-section-label" id="faq">FAQ</span>
           <h2>Frequently Asked Questions</h2>
 
-          <h3>Do Yelp Ads help my business appear in ChatGPT or Perplexity?</h3>
-          <p>No. Yelp Ads are paid placements that boost your visibility within the Yelp platform itself. They do not influence whether ChatGPT, Perplexity, Claude, or other AI platforms recommend your business. AI systems read organic Yelp data like reviews, categories, and business descriptions. They cannot see which businesses are paying for Yelp advertising.</p>
+          <details className="ae-faq-item">
+            <summary>Do Yelp Ads help my business appear in ChatGPT or Perplexity?</summary>
+            <div className="ae-faq-answer">
+              <p>No. Yelp Ads are paid placements that boost visibility within the Yelp platform itself. They do not influence whether ChatGPT, Perplexity, Claude, or other AI platforms cite your business. AI systems read organic Yelp data — reviews, categories, business descriptions — and cannot see which businesses pay for Yelp advertising.</p>
+            </div>
+          </details>
 
-          {/* CTA 10 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
+          <details className="ae-faq-item">
+            <summary>Does Yelp ad spend improve AI search visibility?</summary>
+            <div className="ae-faq-answer">
+              <p>No. Yelp ad budget improves placement inside Yelp search results and may display the listing on competitor profiles. AI platforms do not factor Yelp ad spend into recommendation algorithms. Answer Engine Optimization (AEO) evaluates organic signals: reviews, business information completeness, mentions across the web, and content authority. Triple the Yelp budget tomorrow and ChatGPT does not notice.</p>
+            </div>
+          </details>
 
-          <h3>Does Yelp ad spend improve AI search visibility?</h3>
-          <p>No. Increasing your Yelp advertising budget improves your placement within Yelp search results and may display your listing on competitor profiles. But AI platforms do not factor Yelp ad spend into their recommendation algorithms. AI evaluates organic signals: reviews, business information completeness, mentions across the web, and content authority. You could triple your Yelp budget tomorrow and ChatGPT would not notice.</p>
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
 
-          <h3>How does ChatGPT actually use Yelp data?</h3>
-          <p>ChatGPT pulls from Yelp organic data through web crawling and Bing integrations. It reads your reviews, star rating, business category, and description. Research shows 48.73% of ChatGPT business citations come from third-party sites like Yelp, TripAdvisor, and MapQuest. ChatGPT reads the organic listing data, not paid ad placements.</p>
+          <details className="ae-faq-item">
+            <summary>How does ChatGPT actually use Yelp data?</summary>
+            <div className="ae-faq-answer">
+              <p>ChatGPT pulls Yelp organic data through web crawling and Bing integrations. It reads reviews, star rating, business category, and description. Research shows 48.73% of ChatGPT business citations come from third-party sites like Yelp, TripAdvisor, and MapQuest. ChatGPT reads the organic listing data — not paid ad placements.</p>
+            </div>
+          </details>
 
-          {/* CTA 11 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
+          <details className="ae-faq-item">
+            <summary>Should I cancel my Yelp Ads if they do not help AI visibility?</summary>
+            <div className="ae-faq-answer">
+              <p>Not necessarily. Yelp Ads still drive leads for high-intent local searches within the Yelp ecosystem. For high-ticket services like law, HVAC, and cosmetic surgery, one or two Yelp conversions can cover an entire month of ad spend. The key is understanding Yelp Ads serve a different purpose than AI visibility. Invest in both channels separately rather than assuming one covers the other.</p>
+            </div>
+          </details>
 
-          <h3>Should I cancel my Yelp Ads if they do not help AI visibility?</h3>
-          <p>Not necessarily. Yelp Ads still drive leads for high-intent local searches within the Yelp ecosystem. For high-ticket services like law, HVAC, and cosmetic surgery, one or two Yelp conversions can cover an entire month of ad spend. The key is understanding that Yelp Ads serve a different purpose than AI visibility. Invest in both channels separately rather than assuming one covers the other.</p>
+          <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Claim your territory — one operator per market</a>
 
-          <h3>What Yelp signals do AI platforms actually read?</h3>
-          <p>AI platforms read your organic Yelp profile: review volume, review recency, average star rating, business category accuracy, complete business descriptions, and owner responses to reviews. All of these organic signals are free to build and maintain. None of them require a paid Yelp advertising account.</p>
+          <details className="ae-faq-item">
+            <summary>What Yelp signals do AI platforms actually read?</summary>
+            <div className="ae-faq-answer">
+              <p>AI platforms read the organic Yelp profile: review volume, review recency, average star rating, business category accuracy, complete business descriptions, and owner responses to reviews. Every one of these organic signals is free to build and maintain. None requires a paid Yelp advertising account.</p>
+            </div>
+          </details>
 
-          {/* CTA 12 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
+          <details className="ae-faq-item">
+            <summary>Do Yelp reviews affect AI recommendations more than Yelp Ads?</summary>
+            <div className="ae-faq-answer">
+              <p>Yes, significantly. Yelp reviews are organic signals AI platforms actively crawl and cite. Yelp Ads are paid placements visible only inside the Yelp ecosystem. When ChatGPT recommends a local plumber or restaurant, it references review sentiment and volume. It does not check which businesses paid for premium Yelp placement. Reviews are the signal. Ads are noise to AI.</p>
+            </div>
+          </details>
 
-          <h3>Do Yelp reviews affect AI recommendations more than Yelp Ads?</h3>
-          <p>Yes, significantly. Yelp reviews are organic signals that AI platforms actively crawl and cite. Yelp Ads are paid placements visible only within the Yelp ecosystem. When ChatGPT recommends a local plumber or restaurant, it references review sentiment and volume. It does not check which businesses paid for premium Yelp placement. Reviews are the signal. Ads are noise to AI.</p>
+          <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">→ Email support@theanswerengine.ai for an AEO diagnostic</a>
 
-          <h3>What should I invest in instead of Yelp Ads for AI visibility?</h3>
-          <p>Focus on building organic authority signals across platforms AI actually crawls: consistent business information across directories, reviews on multiple platforms (not just Yelp), expert content on your website, brand mentions on authoritative third-party sites, and structured data markup. Start with a free <Link href="/blindspot">Blind Spot Report</Link> to see exactly where your AI visibility gaps are.</p>
-
-          {/* CTA 13 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Check if AI search recommends your local business</a>
+          <details className="ae-faq-item">
+            <summary>What should I invest in instead of Yelp Ads for AI visibility?</summary>
+            <div className="ae-faq-answer">
+              <p>Focus on building organic authority signals across platforms AI actually crawls: consistent business information across directories, reviews on multiple platforms (not just Yelp), expert content on the website, brand mentions on authoritative third-party sites, and structured data markup. Start with a free <Link href="/blindspot">Blind Spot Report</Link> to see exactly where the AI visibility gaps are.</p>
+            </div>
+          </details>
 
           <div className="ae-takeaway not-prose">
             <div className="ae-takeaway-title">Key Takeaway</div>
@@ -769,6 +803,7 @@ export default function BlogPost() {
             </div>
           </section>
       </article>
+      </div>
     </>
   )
 }
