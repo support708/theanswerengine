@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="How Google AI Overviews Are Changing Real Estate Lead Generation in 2025 — The Answer Engine">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131313"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F27D24"/>
+      <stop offset="100%" stop-color="#cc5500"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F27D24" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#F27D24" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#F27D24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Ambient glow -->
+  <ellipse cx="950" cy="180" rx="520" ry="340" fill="url(#glow)"/>
+  <ellipse cx="180" cy="520" rx="380" ry="240" fill="url(#glow)" opacity="0.6"/>
+
+  <!-- Right side: AI Overview panel mock -->
+  <g transform="translate(720,90)" opacity="0.96">
+    <!-- Panel container -->
+    <rect x="0" y="0" width="420" height="450" rx="14" fill="#0f0f10" stroke="#F27D24" stroke-width="1.5" stroke-opacity="0.65"/>
+
+    <!-- Header bar (mock Google AI Overview header) -->
+    <rect x="0" y="0" width="420" height="38" rx="14" fill="#F27D24" fill-opacity="0.12"/>
+    <rect x="0" y="22" width="420" height="16" fill="#F27D24" fill-opacity="0.12"/>
+    <circle cx="22" cy="19" r="6" fill="#F27D24"/>
+    <text x="38" y="24" font-family="Courier New, monospace" font-size="11" font-weight="700" fill="#F27D24" letter-spacing="1.5">AI OVERVIEW — REAL ESTATE</text>
+    <text x="394" y="24" font-family="Courier New, monospace" font-size="9" font-weight="700" fill="#F27D24" fill-opacity="0.55" text-anchor="end" letter-spacing="1">GOOGLE</text>
+
+    <!-- AI Overview answer lines (compressed citation set) -->
+    <g transform="translate(24,58)">
+      <text x="0" y="10" font-family="Courier New, monospace" font-size="9" font-weight="700" fill="#F27D24" letter-spacing="1">CITED SOURCES (3–5)</text>
+
+      <!-- Cited source rows -->
+      <g transform="translate(0,22)">
+        <rect x="0" y="0" width="372" height="28" rx="4" fill="#F27D24" fill-opacity="0.06" stroke="#F27D24" stroke-width="1"/>
+        <circle cx="14" cy="14" r="7" fill="#F27D24"/>
+        <text x="14" y="18" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="900" fill="#131313" text-anchor="middle">1</text>
+        <text x="32" y="18" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#e5e2e1">CITED-SOURCE AGENT · NEIGHBORHOOD GUIDE</text>
+      </g>
+
+      <g transform="translate(0,58)">
+        <rect x="0" y="0" width="372" height="28" rx="4" fill="#F27D24" fill-opacity="0.06" stroke="#F27D24" stroke-width="1"/>
+        <circle cx="14" cy="14" r="7" fill="#F27D24" fill-opacity="0.85"/>
+        <text x="14" y="18" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="900" fill="#131313" text-anchor="middle">2</text>
+        <text x="32" y="18" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#e5e2e1">MARKET REPORT · MEDIAN SALE PRICE</text>
+      </g>
+
+      <g transform="translate(0,94)">
+        <rect x="0" y="0" width="372" height="28" rx="4" fill="#F27D24" fill-opacity="0.06" stroke="#F27D24" stroke-width="1"/>
+        <circle cx="14" cy="14" r="7" fill="#F27D24" fill-opacity="0.7"/>
+        <text x="14" y="18" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="900" fill="#131313" text-anchor="middle">3</text>
+        <text x="32" y="18" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#e5e2e1">PROCESS GUIDE · FIRST-TIME BUYER</text>
+      </g>
+
+      <!-- Dropped uncited sources -->
+      <g transform="translate(0,138)" opacity="0.35">
+        <line x1="0" y1="14" x2="372" y2="14" stroke="#e5e2e1" stroke-width="1" stroke-dasharray="4 4"/>
+        <text x="186" y="32" font-family="Courier New, monospace" font-size="9" font-weight="700" fill="#e5e2e1" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">POSITIONS 4–10 — UNCITED, NO TRAFFIC</text>
+      </g>
+    </g>
+
+    <!-- Divider -->
+    <line x1="24" y1="232" x2="396" y2="232" stroke="#F27D24" stroke-width="1" stroke-opacity="0.35"/>
+
+    <!-- AIO presence callout -->
+    <text x="210" y="262" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#F27D24" letter-spacing="1.5" text-anchor="middle">AIO PRESENCE — RE QUERIES</text>
+    <text x="210" y="332" font-family="Space Grotesk, sans-serif" font-size="74" font-weight="900" fill="url(#orange)" text-anchor="middle" letter-spacing="-3">31–47%</text>
+    <text x="210" y="358" font-family="Courier New, monospace" font-size="9" font-weight="700" fill="#e5e2e1" fill-opacity="0.55" text-anchor="middle" letter-spacing="1.5">U.S. METROS · MID-2026</text>
+
+    <!-- Lead inversion ledger -->
+    <g transform="translate(24,388)">
+      <rect x="0" y="0" width="372" height="46" rx="6" fill="#F27D24" fill-opacity="0.1" stroke="#F27D24" stroke-width="1.5"/>
+      <text x="14" y="20" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#F27D24" letter-spacing="1">AIO LEAD CLOSE</text>
+      <text x="358" y="21" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="900" fill="#F27D24" text-anchor="end">58–71%</text>
+      <text x="14" y="38" font-family="Courier New, monospace" font-size="9" font-weight="700" fill="#e5e2e1" fill-opacity="0.5" letter-spacing="1">VS ZILLOW 2–4%</text>
+      <text x="358" y="38" font-family="Courier New, monospace" font-size="9" font-weight="700" fill="#e5e2e1" fill-opacity="0.5" text-anchor="end" letter-spacing="1">60-DAY WINDOW</text>
+    </g>
+  </g>
+
+  <!-- Left-side text -->
+  <g transform="translate(60,120)">
+    <!-- Eyebrow -->
+    <rect x="0" y="0" width="3" height="14" fill="#F27D24"/>
+    <text x="14" y="12" font-family="Courier New, monospace" font-size="11" font-weight="700" fill="#F27D24" letter-spacing="2.5">GOOGLE AI OVERVIEWS / REAL ESTATE</text>
+
+    <!-- Main headline -->
+    <text x="0" y="62" font-family="Space Grotesk, Inter, sans-serif" font-size="46" font-weight="900" fill="#e5e2e1" letter-spacing="-2">HOW GOOGLE AI</text>
+    <text x="0" y="112" font-family="Space Grotesk, Inter, sans-serif" font-size="46" font-weight="900" fill="#e5e2e1" letter-spacing="-2">OVERVIEWS ARE</text>
+    <text x="0" y="162" font-family="Space Grotesk, Inter, sans-serif" font-size="46" font-weight="900" fill="url(#orange)" letter-spacing="-2">CHANGING REAL ESTATE</text>
+    <text x="0" y="212" font-family="Space Grotesk, Inter, sans-serif" font-size="32" font-weight="900" fill="#e5e2e1" letter-spacing="-1.5">LEAD GENERATION IN 2025</text>
+
+    <!-- Subheadline -->
+    <text x="0" y="262" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#e5e2e1" fill-opacity="0.7">The retrieval mechanics behind AI Overview citation slots.</text>
+    <text x="0" y="285" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#e5e2e1" fill-opacity="0.7">The 2025 lead generation inversion against portal traffic.</text>
+
+    <!-- Stats row -->
+    <g transform="translate(0,330)">
+      <text x="0" y="0" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="900" fill="#F27D24" letter-spacing="-1">3–5</text>
+      <text x="0" y="22" font-family="Courier New, monospace" font-size="10" fill="#e5e2e1" fill-opacity="0.55" letter-spacing="0.5">CITED SOURCES PER PANEL</text>
+    </g>
+    <g transform="translate(180,330)">
+      <text x="0" y="0" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="900" fill="#F27D24" letter-spacing="-1">67 DAYS</text>
+      <text x="0" y="22" font-family="Courier New, monospace" font-size="10" fill="#e5e2e1" fill-opacity="0.55" letter-spacing="0.5">MEDIAN FIRST-CITATION TIME</text>
+    </g>
+    <g transform="translate(420,330)">
+      <text x="0" y="0" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="900" fill="#F27D24" letter-spacing="-1">2-LAYER</text>
+      <text x="0" y="22" font-family="Courier New, monospace" font-size="10" fill="#e5e2e1" fill-opacity="0.55" letter-spacing="0.5">RETRIEVAL STACK</text>
+    </g>
+  </g>
+
+  <!-- Footer branding -->
+  <g transform="translate(60,560)">
+    <rect x="0" y="0" width="3" height="36" fill="#F27D24"/>
+    <text x="14" y="16" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="900" fill="#e5e2e1" letter-spacing="0.5">THE ANSWER ENGINE</text>
+    <text x="14" y="32" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#F27D24" fill-opacity="0.7" letter-spacing="1.5">theanswerengine.ai · GEO/AEO OPERATORS</text>
+  </g>
+</svg>
