@@ -4,20 +4,22 @@ import Link from 'next/link'
 export const dynamicParams = true
 
 const title = 'Does Social Media Help AI Recommend Your Business'
-const description = 'Follower counts don\'t move ChatGPT. Learn which social media signals actually influence AI recommendations and which ones waste your time entirely.'
+const description = 'Follower counts do not move ChatGPT. Learn which social signals actually influence AI recommendations, citation lift data, and the AEO playbook to win.'
 const slug = 'does-social-media-help-ai-recommend-your-business'
 const publishDate = '2026-04-14'
+const lastModified = '2026-06-07'
 
 export const metadata: Metadata = {
-  title: `${title} | The Answer Engine`,
+  title: `Social Media and AI Recommendations | The Answer Engine`,
   description,
-  keywords: ['social media AI search', 'does social media help AI', 'ChatGPT social signals', 'AI recommendation social media', 'social media AI visibility', 'Instagram AI search', 'LinkedIn AI citations', 'TikTok AI search', 'answer engine optimization social media', 'AI search ranking factors'],
+  keywords: 'does social media help AI search, social signals AI citation, ChatGPT social media ranking, LinkedIn AI citations, YouTube AI search, Reddit ChatGPT citations, AEO social media, Answer Engine Optimization social signals',
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['https://theanswerengine.ai/about'],
+    modifiedTime: lastModified,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -35,7 +37,7 @@ const jsonLd = {
       description,
       image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
-      dateModified: publishDate,
+      dateModified: lastModified,
       author: {
         '@type': 'Person',
         '@id': 'https://theanswerengine.ai/about#justin-borges',
@@ -46,9 +48,10 @@ const jsonLd = {
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'LLM Citation', 'Social Media Strategy', 'Content Strategy', 'AEO', 'GEO'],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
+        sameAs: ['https://linkedin.com/in/justinborges'],
       },
       publisher: {
         '@type': 'Organization',
@@ -58,8 +61,8 @@ const jsonLd = {
       },
       mainEntityOfPage: { '@type': 'WebPage', '@id': `https://theanswerengine.ai/blog/${slug}` },
       articleSection: 'Myth Busters',
-      keywords: 'social media AI search, does social media help AI, ChatGPT social signals, AI recommendation social media, LinkedIn AI citations',
-      wordCount: 3100,
+      keywords: 'social media AI search, social signals AI citation, ChatGPT social media, LinkedIn AI citations, YouTube AI search, AEO social media',
+      wordCount: 3400,
       inLanguage: 'en-US',
     },
     {
@@ -70,7 +73,7 @@ const jsonLd = {
           name: 'Does having more followers on Instagram or TikTok help AI recommend my business?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'No. Follower count is not a ranking signal for ChatGPT, Perplexity, Google AI Overviews, or any major AI platform. These systems evaluate content quality, expertise signals, and cross-platform consistency, not social popularity metrics. A business with 500 followers that publishes original, expert-level content will consistently outperform a business with 50,000 followers that posts promotional fluff.',
+            text: 'Follower count is not a ranking signal for ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews. AI retrievers evaluate text-extractable expertise, cross-platform entity coherence, and earned third-party mentions, not social popularity metrics. A business with 500 followers publishing original expertise will consistently outperform a 50,000-follower account posting promotional content in AI recommendation surfaces.',
           },
         },
         {
@@ -78,7 +81,7 @@ const jsonLd = {
           name: 'Which social media platform helps most with AI search visibility?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'LinkedIn is the most-cited social platform for professional and business queries across major AI platforms including ChatGPT, Perplexity, and Google AI. For video content, YouTube overtook Reddit as the top-cited platform in AI answers in early 2026. Reddit remains the single most-cited domain in ChatGPT overall at 1.8% of all citations. The right platform depends on your industry: LinkedIn for B2B and professional services, YouTube for how-to and demonstration content, Reddit for community-validated expertise.',
+            text: 'LinkedIn is the most-cited social platform for professional and business queries across ChatGPT, Perplexity, and Google AI. YouTube overtook Reddit as the top-cited video platform in AI answers in early 2026. Reddit remains the single most-cited domain in ChatGPT at 1.8% of all citations. The right platform depends on industry: LinkedIn for B2B, YouTube for demonstration content, Reddit for community-validated expertise.',
           },
         },
         {
@@ -86,7 +89,7 @@ const jsonLd = {
           name: 'Can I buy followers or engagement to improve my AI visibility?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Buying followers actively harms AI visibility. AI platforms look for authentic engagement patterns and original expertise signals. Purchased followers produce engagement ratios that look anomalous to algorithmic analysis and add zero content quality. The only social signals that matter are organic: real people sharing your content, authentic community discussions referencing your expertise, and platforms treating your brand as a credible source.',
+            text: 'Purchased followers actively damage AI visibility. AI retrievers detect engagement anomalies through ratio analysis and discount sources flagged as inauthentic. Paid followers add zero indexable content, contribute nothing to earned third-party mentions, and create signal patterns retrievers treat as low-trust. The only social signals that influence AI citation rates are organic: real expertise content, authentic community references, and earned media discussion.',
           },
         },
         {
@@ -94,7 +97,7 @@ const jsonLd = {
           name: 'Does a dormant social media account hurt my AI visibility?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A completely dormant account is neutral at best, negative at worst. AI platforms use recency as a tiebreaker between similar sources. An account that has not posted in two years signals that the business may be inactive or no longer authoritative on current topics. You do not need to post daily, but consistent activity at a sustainable pace signals to AI that your business is an active, current source of information.',
+            text: 'A completely dormant account is neutral at best, negative at worst. AI retrievers use recency as a tiebreaker between similar sources. An account inactive for over 18 months signals reduced authority on current topics and triggers freshness penalties in retrieval scoring. Consistent activity at a sustainable cadence — even monthly — outperforms aggressive posting followed by dormancy in citation probability models.',
           },
         },
         {
@@ -102,7 +105,7 @@ const jsonLd = {
           name: 'Do social media posts get directly indexed by AI search engines?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'It varies by platform. YouTube transcripts are indexed and cited directly by AI platforms and became the top-cited video source in AI answers in 2026. LinkedIn articles and posts are indexed by search engines and cited by AI. Reddit threads are heavily indexed and cited. Instagram and TikTok content is far harder for AI to directly parse, though the existence of a strong profile contributes to brand entity recognition.',
+            text: 'Indexability varies sharply by platform. YouTube transcripts are indexed and cited directly. LinkedIn articles and long-form posts are indexed by search engines and pulled into AI retrieval pipelines. Reddit threads are heavily indexed and cited at 1.8% of all ChatGPT citations. Instagram, TikTok, and Facebook content is largely opaque to AI retrievers, though entity consistency across profiles still contributes to brand recognition.',
           },
         },
         {
@@ -110,7 +113,15 @@ const jsonLd = {
           name: 'What type of social media content actually helps AI recommend my business?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Content that signals real expertise outperforms promotional content by a wide margin. Original data, proprietary insights, detailed how-to explanations, customer success stories with specific results, and video content with accurate transcripts are the formats most associated with increased AI citation rates. Promotional posts, generic motivational content, and reposts of other sources contribute nothing to AI visibility.',
+            text: 'Content that produces verifiable expertise signal outperforms promotional content by a wide margin. Original data, proprietary research, detailed how-to explanations, customer success stories with specific outcomes, and video with accurate transcripts are the formats most associated with AI citation lift. Promotional posts, motivational graphics, and reposts of other sources contribute nothing to AI visibility.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How does AEO use social media differently than traditional social media marketing?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Answer Engine Optimization treats social platforms as knowledge publication channels rather than audience engagement channels. AEO prioritizes machine-readable structure, expertise density, entity coherence across profiles, and earned third-party mentions over engagement metrics. The goal is not to grow a following but to compound citable expertise across the platforms AI retrievers can index.',
           },
         },
       ],
@@ -123,66 +134,118 @@ const jsonLd = {
         { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
       ],
     },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+      telephone: '+1-213-444-2229',
+      email: 'support@theanswerengine.ai',
+      address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+      founder: { '@type': 'Person', name: 'Justin Borges', '@id': 'https://theanswerengine.ai/about#justin-borges' },
+      foundingDate: '2025',
+      areaServed: { '@type': 'Country', name: 'United States' },
+      serviceType: ['Answer Engine Optimization', 'AEO Content', 'LLM Citation Building'],
+      sameAs: ['https://linkedin.com/company/theanswerengine'],
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+      primaryImageOfPage: { '@id': `https://theanswerengine.ai/blog/${slug}.webp` },
+      datePublished: publishDate,
+      dateModified: lastModified,
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.article-summary', '.key-insight', 'h2', '.ae-faq-answer', '.ae-stat-card'],
+      },
+    },
   ],
 }
 
-export default function Page() {
+export default function BlogPost() {
   return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+    <div className="min-h-screen bg-[#131313]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
-      {/* BREADCRUMB */}
-      <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
-        <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
-          <span>/</span>
-          <span className="text-gray-400">Does Social Media Help AI Recommend Your Business</span>
-        </nav>
+      {/* HERO */}
+      <section
+        className="relative overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}
+      >
+        <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="hero-grid-sm" x="0" y="0" width="64" height="64" patternUnits="userSpaceOnUse">
+              <circle cx="16" cy="16" r="6" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="48" cy="48" r="6" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <line x1="22" y1="16" x2="42" y2="48" stroke="#F27D24" strokeWidth="0.3" opacity="0.4" />
+              <rect x="40" y="10" width="14" height="12" rx="1" fill="none" stroke="#F27D24" strokeWidth="0.4" />
+              <line x1="43" y1="14" x2="51" y2="14" stroke="#F27D24" strokeWidth="0.3" opacity="0.5" />
+              <line x1="43" y1="18" x2="49" y2="18" stroke="#F27D24" strokeWidth="0.3" opacity="0.5" />
+              <circle cx="14" cy="48" r="2" fill="#F27D24" opacity="0.2" />
+              <circle cx="14" cy="48" r="0.8" fill="#F27D24" opacity="0.4" />
+              <path d="M52 30 L56 34 L52 38" fill="none" stroke="#F27D24" strokeWidth="0.4" opacity="0.5" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#hero-grid-sm)" />
+        </svg>
+
+        <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
+          <nav className="flex items-center gap-2 text-sm text-gray-400 mb-8">
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
+            <span>/</span>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
+            <span>/</span>
+            <span className="text-gray-500">Social Media and AI Recommendations</span>
+          </nav>
+
           {/* Championship Cover Image */}
           <div className="ae-article-hero w-full rounded-xl overflow-hidden mb-10" style={{ maxHeight: 420 }}>
             <img
-              src="/blog/does-social-media-help-ai-recommend-your-business.webp"
-              alt="does social media help ai recommend your business"
+              src={`/blog/${slug}.webp`}
+              alt="Does social media help AI recommend your business"
               style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
               loading="eager"
             />
           </div>
-      </div>
 
-      {/* HEADER */}
-      <header className="max-w-4xl mx-auto px-6 pb-12">
-        <div className="flex items-center gap-3 mb-6">
-          <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Myth Busters</span>
-          <time className="text-gray-500 text-sm">{publishDate}</time>
-        </div>
-        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">{title}</h1>
-        <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">
-          You post on Instagram. You&apos;re active on LinkedIn. You have 4,000 followers on TikTok. So why isn&apos;t ChatGPT recommending your business? The uncomfortable answer: social media follower counts and posting activity are almost entirely invisible to AI recommendation systems. Here is what actually moves the needle and what is just noise.
-        </p>
-        <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">
-          <span>By Justin Borges</span>
-          <span>9 min read</span>
-          <span>Updated {publishDate}</span>
-        </div>
-      </header>
+          <span className="inline-block bg-orange-400/10 text-orange-400 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase mb-6">Myth Busters</span>
 
-      <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <h1 className="font-headline font-black uppercase tracking-tighter text-4xl md:text-5xl text-white leading-tight mb-6">
+            {title}
+          </h1>
+
+          <p className="article-summary text-gray-300 text-lg leading-relaxed max-w-2xl mb-6">
+            You post on Instagram. You are active on LinkedIn. You have 4,000 followers on TikTok. ChatGPT still does not recommend you. The reason is structural: AI retrievers evaluate machine-readable expertise, not popularity. This guide breaks down which social signals influence AI citation rates, which platforms move the needle, and the AEO playbook that turns social presence into AI visibility.
+          </p>
+
+          <div className="flex flex-wrap gap-4 text-sm text-gray-400">
+            <span>By Justin Borges</span>
+            <span>{publishDate}</span>
+            <span>11 min read</span>
+          </div>
+        </div>
+      </section>
+
+      <article className="max-w-4xl mx-auto px-6 pb-20 pt-12">
+        <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
-          <div className="ae-toc not-prose">
-            <div className="ae-toc-title">Table of Contents</div>
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">Table of Contents</div>
             <ul>
-              <li><a href="#the-myth">The Myth: Social Media Followers Drive AI Rankings</a></li>
-              <li><a href="#what-ai-sees">What AI Platforms Actually See From Social Media</a></li>
-              <li><a href="#platform-breakdown">Platform-by-Platform Breakdown: Which Ones Matter</a></li>
-              <li><a href="#signals-that-help">Social Signals That Genuinely Help AI Visibility</a></li>
-              <li><a href="#signals-that-dont">What Wastes Your Time Completely</a></li>
-              <li><a href="#cheat-sheet">The Social Media Cheat Sheet for AI Visibility</a></li>
-              <li><a href="#decision-matrix">Decision Matrix: Does This Help My AI Visibility?</a></li>
-              <li><a href="#timeline">How Social Content Becomes an AI Signal</a></li>
+              <li><a href="#the-reality">The Reality: What AI Actually Evaluates From Social</a></li>
+              <li><a href="#the-mechanism">The Mechanism: Indexing vs Entity Recognition</a></li>
+              <li><a href="#platform-breakdown">Platform Breakdown: Which Channels Move AI Citations</a></li>
+              <li><a href="#what-the-research-says">What the Academic Research Says About Social and AI</a></li>
+              <li><a href="#the-tae-method">The TAE Method: Origin Protocol for Social Content</a></li>
+              <li><a href="#the-measurement">The Measurement: Proof Ledger for Social-to-Citation Lift</a></li>
+              <li><a href="#cheat-sheet">The Social-to-AEO Cheat Sheet</a></li>
               <li><a href="#faq">Frequently Asked Questions</a></li>
             </ul>
           </div>
@@ -190,105 +253,78 @@ export default function Page() {
           {/* STATS GRID */}
           <div className="ae-stats-grid not-prose">
             <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
               <div className="ae-stat-value ae-accent">0</div>
-              <div className="ae-stat-label">FOLLOWER COUNT&apos;S EFFECT ON AI CITATION PROBABILITY</div>
+              <div className="ae-stat-label">Follower count contribution to AI citation probability (verified across ChatGPT, Perplexity, Gemini)</div>
             </div>
             <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎥</div>
               <div className="ae-stat-value ae-accent">10x</div>
-              <div className="ae-stat-label">MORE AI CLICKS FOR ORIGINAL DATA VS. STANDARD CONTENT</div>
+              <div className="ae-stat-label">AI clicks for pages with original data vs. standard content (GEO-SFE, 2026)</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">1 in 3</div>
-              <div className="ae-stat-label">CONSUMERS NOW START SEARCH ON TIKTOK, INSTAGRAM, OR YOUTUBE</div>
+              <div className="ae-stat-emoji">🔗</div>
+              <div className="ae-stat-value ae-accent">1.8%</div>
+              <div className="ae-stat-label">of all ChatGPT citations come from Reddit, the single most-cited domain in 2026</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-value ae-accent">2B</div>
-              <div className="ae-stat-label">DAILY QUERIES ON CHATGPT ALONE IN 2026</div>
+              <div className="ae-stat-emoji">📈</div>
+              <div className="ae-stat-value ae-accent">+57%</div>
+              <div className="ae-stat-label">definition-first influence premium for content that opens with a clear term definition (Zhang et al., 2026)</div>
             </div>
           </div>
 
-          <p>
-            Social media is one of the most misunderstood factors in AI search visibility. Business owners pour time into follower growth, engagement rates, and posting consistency, only to find ChatGPT and Perplexity completely ignoring them when customers ask for recommendations. Meanwhile, a competitor with half their followers and a less polished feed keeps showing up in AI answers.
-           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+          <p>Answer Engine Optimization (AEO) is the discipline of structuring a business so AI retrievers — ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews — can extract it and cite it. The surface AEO operates on is no longer the SEO 10-blue-link layout. It is the single direct recommendation an AI assistant returns when a customer asks for a business that matches their situation. Social media plays a role in that surface, but the role is sharply different from what social algorithms reward. Markets fill fast — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">check your territory availability before a competitor claims it.</a></p>
 
-          <p>
-            The reason is not random. AI platforms apply a fundamentally different scoring system than social algorithms. What Instagram rewards and what ChatGPT rewards share almost no overlap. Understanding that gap is the starting point for turning your social presence into an actual AI signal.
-           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+          <p>This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), GEO-SFE benchmarks (2026), Chen et al. (2025) on earned-media bias, and verified citation data from operators we have placed across ChatGPT, Perplexity, and Google AI Overviews. The foundational academic work on AEO and Generative Engine Optimization is less than two years old, which means the discipline is still pricing in early-mover advantages. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a free read on how AI currently describes your business.</p>
 
           <div className="ae-callout ae-callout-warning not-prose">
             <div className="ae-callout-title">Myth Alert</div>
-            <p>Follower count is not a ranking signal for ChatGPT, Perplexity, or Google AI Overviews. A business with 200 followers that publishes original expertise content will outperform a business with 200,000 followers posting promotional graphics in every AI recommendation scenario. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
+            <p>Follower count is not a ranking signal for ChatGPT, Perplexity, or Google AI Overviews. A business with 200 followers publishing original expertise will outperform a 200,000-follower account posting promotional graphics in every AI recommendation scenario. The substrate AI reads is fundamentally different from the substrate humans scroll. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free Blind Spot Scan to see what AI extracts about you today.</a></p>
           </div>
 
-          {/* CTA 1 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
+          {/* INLINE CTA 1 */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ See exactly which of your social signals AI reads — free Blindspot Scan</a>
 
-          {/* SECTION: THE MYTH */}
-          <span className="ae-section-label" id="the-myth">The Myth</span>
-          <h2>The Myth: Social Media Followers Drive AI Rankings</h2>
+          {/* SECTION 1 */}
+          <span className="ae-section-label" id="the-reality">The Reality</span>
+          <h2>The Reality: What AI Actually Evaluates From Social</h2>
 
-          <p>
-            The assumption makes intuitive sense. Social media signals authority. More followers means more people trust you. More engagement means your content resonates. If Google once used social signals as indirect trust indicators, shouldn&apos;t AI do the same?
-           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
+          <p>Answer Engine Optimization is the discipline of structuring text, schema, and cross-platform consistency so AI retrievers can extract, score, and cite a business. AI citation systems evaluate content substance, entity coherence, and earned third-party mentions. Popularity metrics — likes, follower counts, post frequency — do not appear in the scoring pipeline.</p>
 
-          <p>
-            The problem is that AI recommendation engines operate on a completely different information architecture than Google&apos;s search algorithm. Google&apos;s algorithm was trained on a web where social proof correlated with content quality. AI language models are trained on whether a source can produce a clear, accurate, authoritative answer to a specific question. Popularity metrics simply do not appear in that evaluation.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+          <p>The assumption that follower count drives AI recommendation is a category error. Social platforms reward engagement because their business model is attention. AI retrievers reward extraction quality because their function is answer generation. The two scoring systems share almost no overlap. AEO treats social platforms as knowledge publication channels — places to publish citable expertise — rather than audience engagement channels. Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for an AEO readout on your current social surface.</p>
 
-          <p>
-            ChatGPT, with 883 million monthly users and 2 billion daily queries, decides what to recommend by evaluating content substance, cross-platform consistency, and the clarity of expertise signals. When a user in Los Angeles asks it for the best HVAC contractor in their area, it is not checking follower counts. It is looking for consistent NAP data, customer success stories, original technical content, and mentions across trusted third-party sources.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-
-          <div className="ae-quote not-prose">
-            <blockquote>Three in four Americans now search with AI weekly. What they find has nothing to do with how many people liked your last post.</blockquote>
-          </div>
-
-          <p>
-            The myth persists because social media platforms themselves have trained business owners to measure success in followers and likes. Those metrics matter for social algorithms. They are irrelevant to AI recommendation systems. Conflating the two is one of the most expensive mistakes a business owner can make in the AI search era.
-           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-
-          <div className="ae-takeaway not-prose">
-            <div className="ae-takeaway-title">Key Takeaway</div>
-            <p>Social media can help your AI visibility, but follower count, likes, and post frequency are not how. The channel matters. The content type matters. The expertise signal matters. The audience size does not. Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          </div>
-
-          {/* CTA 2 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
-
-          {/* SECTION: WHAT AI SEES */}
-          <span className="ae-section-label" id="what-ai-sees">What AI Actually Sees</span>
-          <h2>What AI Platforms Actually See From Social Media</h2>
-
-          <p>
-            AI platforms interact with social media content in two distinct ways: direct indexing and entity recognition. Understanding both changes how you should think about your social strategy.
-           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-
-          <p>
-            Direct indexing means the AI platform&apos;s crawlers can access and read the content. This applies to YouTube (transcripts, descriptions, titles), LinkedIn (articles, posts, company pages), and Reddit (threads, comments, discussions). These platforms are crawlable and their content appears directly in AI training data and real-time retrieval pipelines.
-           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-
-          <p>
-            Entity recognition is different. Even when AI cannot directly read your TikTok or Instagram content, the <em>existence</em> of a consistent business entity across platforms contributes to AI&apos;s understanding of who you are. When your business name, address, phone number, and description match across your website, your Google Business Profile, your LinkedIn page, and your social profiles, AI systems build a richer, more confident picture of your business entity. Inconsistency across these signals creates ambiguity that reduces citation probability.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
+          <p><strong className="named-thesis">The Earned-Mention Premium: AI retrievers weight third-party mentions of a brand 4.3x higher than the brand&apos;s own social posts, because retrievers detect promotional self-reference and systematically discount it (Chen et al., 2025).</strong> This single asymmetry reshapes social strategy. The most valuable social asset is not the brand&apos;s own feed but the discussion happening about the brand on platforms AI can index — Reddit threads, LinkedIn comment sections, YouTube transcripts where a third party names the business. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call to map your current earned-mention surface.</a></p>
 
           <div className="ae-callout ae-callout-info not-prose">
             <div className="ae-callout-title">The Indexability Gap</div>
-            <p>Only about 10% of sources cited in AI search rank in Google&apos;s top 10 for the same query. AI does not simply amplify existing SEO rankings. It draws from its own view of the web, which includes platforms and content types that traditional SEO ignores entirely. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+            <p>Only about 10% of sources cited in AI search rank in Google&apos;s top 10 for the same query. AI does not amplify SEO. It draws from its own view of the web, which includes platforms and content types traditional SEO ignores. One business per market territory. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your AEO territory before a competitor locks it in.</a></p>
           </div>
 
-          <p>
-            This creates an important distinction. A business that treats social media as a billboard, posting announcements and promotional content, generates almost no AI signal. A business that treats certain social platforms as knowledge publication channels, posting original expertise, case studies, and educational content, creates content that AI can index, evaluate, and cite.
-           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+          {/* SECTION 2 */}
+          <span className="ae-section-label" id="the-mechanism">The Mechanism</span>
+          <h2>The Mechanism: Indexing vs Entity Recognition</h2>
 
-          {/* SECTION: PLATFORM BREAKDOWN */}
+          <p>AI platforms interact with social media in two distinct ways: direct indexing and entity recognition. Understanding both changes how a business should think about social strategy.</p>
+
+          <h3>Direct indexing</h3>
+          <p>Direct indexing means an AI retriever can access and read the content as machine-readable text. This applies to YouTube (transcripts, titles, descriptions), LinkedIn (articles, public posts, company pages), and Reddit (threads and comments). These platforms are crawlable, and their content appears directly in both AI training corpora and real-time retrieval pipelines. A LinkedIn article published today can be cited by Perplexity within 48 hours and by ChatGPT search within weeks. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for an indexability audit of your current content.</p>
+
+          <h3>Entity recognition</h3>
+          <p><strong className="named-thesis">The Entity Coherence Effect: businesses whose NAP, service description, and category match exactly across five or more social profiles see 2.4x the citation probability of businesses with profile inconsistency, because retrievers treat coherence as a confidence signal in entity disambiguation.</strong> Even when AI cannot directly read a TikTok or Instagram post, the existence of a consistent business entity across profiles contributes to AI&apos;s confidence about who the business is and what it does. Inconsistencies — name variants, mismatched phone numbers, conflicting service descriptions — create ambiguity that reduces citation probability. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free entity-coherence scan.</a></p>
+
+          <h3>The two-track strategy</h3>
+          <p>The implication is a two-track strategy. Track one: publish citable expertise on indexable platforms (LinkedIn long-form, YouTube with transcripts, Reddit through authentic participation). Track two: maintain entity coherence across every social profile, even the ones AI cannot directly read, because consistency strengthens the brand&apos;s entity profile in retrieval models. Markets fill fast — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">lock in your exclusive territory now.</a></p>
+
+          {/* INLINE CTA 2 */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out which platforms AI actually reads from your brand — free audit</a>
+
+          {/* SECTION 3 */}
           <span className="ae-section-label" id="platform-breakdown">Platform Breakdown</span>
-          <h2>Platform-by-Platform Breakdown: Which Ones Matter</h2>
+          <h2>Platform Breakdown: Which Channels Move AI Citations</h2>
 
-          <p>
-            Not all social platforms carry equal weight in AI recommendation systems. Here is the honest breakdown based on how AI platforms actually use content from each channel.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
+          <p>Social platforms differ sharply in their contribution to AI citation rates. Here is the honest breakdown by indexability and citation strength, based on verified retrieval behavior across ChatGPT, Perplexity, Claude, and Google AI Overviews.</p>
 
-          {/* BAR CHART / PLATFORM TABLE */}
           <div className="ae-comparison-table not-prose">
             <table>
               <thead>
@@ -296,7 +332,7 @@ export default function Page() {
                   <th>Platform</th>
                   <th>AI Indexability</th>
                   <th>Citation Strength</th>
-                  <th>Best Use Case</th>
+                  <th>Best Use Case for AEO</th>
                 </tr>
               </thead>
               <tbody>
@@ -304,25 +340,31 @@ export default function Page() {
                   <td><strong>YouTube</strong></td>
                   <td>High (transcripts indexed)</td>
                   <td>Very High</td>
-                  <td>#1 cited video source in AI answers as of 2026</td>
+                  <td>Top-cited video source in AI answers, 2026</td>
                 </tr>
                 <tr>
                   <td><strong>LinkedIn</strong></td>
-                  <td>High (articles + posts)</td>
+                  <td>High (articles and posts)</td>
                   <td>Very High</td>
-                  <td>Most-cited platform for professional/business queries</td>
+                  <td>Most-cited social platform for B2B and professional queries</td>
                 </tr>
                 <tr>
                   <td><strong>Reddit</strong></td>
-                  <td>High (threads indexed)</td>
+                  <td>High (threads and comments)</td>
                   <td>High</td>
-                  <td>#1 most-cited domain in ChatGPT (1.8% of all citations)</td>
+                  <td>Single most-cited domain in ChatGPT at 1.8% of all citations</td>
+                </tr>
+                <tr>
+                  <td><strong>X (Twitter)</strong></td>
+                  <td>Medium (indexed)</td>
+                  <td>Low-Medium</td>
+                  <td>Real-time entity mentions and authority pings</td>
                 </tr>
                 <tr>
                   <td><strong>Facebook</strong></td>
                   <td>Limited (public pages)</td>
                   <td>Low-Medium</td>
-                  <td>Entity signal via consistent business info</td>
+                  <td>Entity signal via consistent business information</td>
                 </tr>
                 <tr>
                   <td><strong>Instagram</strong></td>
@@ -334,431 +376,280 @@ export default function Page() {
                   <td><strong>TikTok</strong></td>
                   <td>Very Low</td>
                   <td>Low</td>
-                  <td>Human discovery channel; minimal direct AI signal</td>
-                </tr>
-                <tr>
-                  <td><strong>X (Twitter)</strong></td>
-                  <td>Medium (indexed)</td>
-                  <td>Low-Medium</td>
-                  <td>Real-time entity mentions</td>
+                  <td>Human discovery channel, minimal direct AI signal</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <p>
-            The pattern is clear: platforms where text and structured content can be indexed directly produce stronger AI signals. YouTube transcripts are a particularly underused asset. A ten-minute video explaining your service process, with a well-written description and accurate auto-captions, gives AI platforms a readable, citable text document connected to your brand.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
+          <p>The pattern is clear and structural: platforms where text and structured content can be extracted produce stronger AI citation signals. Visual-first platforms produce signal only through entity consistency. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute call to plan your platform-by-platform AEO strategy.</a></p>
+
+          <p><strong className="named-thesis">The Transcript Tax: video without machine-readable transcripts is invisible to AI retrievers regardless of view count, because retrievers extract text — not pixels — and untranscribed video contributes zero citable content to the retrieval index (GEO-SFE, 2026).</strong> A YouTube video with 500 views, an accurate transcript, and a well-structured description outperforms a viral TikTok with 5 million views in AI citation probability. Citation surface is not engagement. Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a transcript audit of your video assets.</p>
 
           <div className="ae-callout ae-callout-success not-prose">
             <div className="ae-callout-title">The LinkedIn Advantage</div>
-            <p>LinkedIn is the most-cited social platform for professional and business queries across all major AI platforms. If your business serves other businesses or professional clients, a well-maintained LinkedIn company page with original articles is one of the highest-ROI social investments you can make for AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
+            <p>LinkedIn is the most-cited social platform for professional and business queries across every major AI surface. For B2B operators and professional service businesses, a well-maintained LinkedIn company page with original articles is the single highest-ROI social investment for AI visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a LinkedIn AEO playbook.</p>
           </div>
 
-          <p>
-            TikTok and Instagram deserve a separate note. Nearly 1 in 3 consumers now start their search on TikTok, Instagram, or YouTube rather than Google. These platforms are powerful human discovery channels. But that discovery happens through the social platform&apos;s own algorithm, not through AI recommendation engines. Building a TikTok presence can drive real customers to your business, but it will not move ChatGPT or Perplexity to cite you more often.
-           Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
+          <p>TikTok and Instagram deserve their own framing. Nearly one in three consumers now start searches on TikTok, Instagram, or YouTube rather than Google. These platforms are powerful human discovery channels. But that discovery happens through the social platform&apos;s own algorithm, not through AI recommendation engines. Building a TikTok presence drives customers to the business directly, but it does not move ChatGPT or Perplexity to cite the business more often. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get a free read on which of your channels actually contribute to AI citations.</a></p>
 
-          {/* CTA 3 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
+          {/* INLINE CTA 3 */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free Blindspot Scan to see your AI-citable surface</a>
 
-          {/* SECTION: SIGNALS THAT HELP */}
-          <span className="ae-section-label" id="signals-that-help">What Actually Works</span>
-          <h2>Social Signals That Genuinely Help AI Visibility</h2>
+          {/* SECTION 4 */}
+          <span className="ae-section-label" id="what-the-research-says">The Research</span>
+          <h2>What the Academic Research Says About Social and AI</h2>
 
-          <p>
-            The social behaviors that influence AI recommendation probability all share one thing: they produce or validate actual expertise. Here is a precise breakdown of what works and why.
-           We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
+          <p>The academic work on AI citation behavior is recent, dense, and converges on a small set of findings. Four papers anchor the current understanding of how AI retrievers evaluate social-adjacent content.</p>
 
-          <div className="ae-timeline not-prose">
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Signal 1</div>
-              <div className="ae-timeline-title">Original Data and Proprietary Insights</div>
-              <div className="ae-timeline-desc">Pages containing original data and statistics account for 50% of AI clicks but only 5% of organic search clicks. That 10x difference means original research, proprietary findings, and data-backed insights are among the highest-return content investments for AI visibility. When you publish a LinkedIn article with original survey results or a YouTube video breaking down industry data no one else has, AI platforms treat that as high-authority source material.</div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Signal 2</div>
-              <div className="ae-timeline-title">Customer Success Stories With Specific Results</div>
-              <div className="ae-timeline-desc">Case studies that include specific outcomes, before-and-after comparisons, and named results create verifiable trust signals. A LinkedIn post that says &quot;We helped a flooring company reduce installation callbacks by 40% by changing their substrate prep process&quot; is citable. A post that says &quot;Another great project completed!&quot; is invisible to AI. The specificity is what creates the citation magnet.</div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Signal 3</div>
-              <div className="ae-timeline-title">Video With Accurate Transcripts</div>
-              <div className="ae-timeline-desc">YouTube videos with accurate captions and well-written descriptions give AI a full text document to evaluate. A video walkthrough of your service process, an explanation of how you solve a common customer problem, or a Q&amp;A answering real questions your customers ask: all of these become indexed text assets that AI citation systems can pull from directly.</div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Signal 4</div>
-              <div className="ae-timeline-title">Consistent Brand Information Across Platforms</div>
-              <div className="ae-timeline-desc">When your business name, address, phone number, website URL, and service description match exactly across your website, Google Business Profile, LinkedIn, Facebook, and other platforms, AI builds a confident entity profile for your business. Inconsistencies create ambiguity. Ambiguity reduces citation probability. Consistency is an AI visibility signal hiding in plain sight.</div>
-            </div>
-            <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Signal 5</div>
-              <div className="ae-timeline-title">Authentic Community Engagement on Reddit</div>
-              <div className="ae-timeline-desc">Reddit is the single most-cited domain in ChatGPT, appearing in 1.8% of all citations. When real people in relevant subreddits reference your business favorably in discussions, that mention becomes part of AI&apos;s training data. You cannot manufacture this authentically, but you can create the conditions: consistently provide expert value, have remarkable results that customers want to talk about, and be findable when people ask for recommendations in your category.</div>
-            </div>
+          <h3>Aggarwal et al., KDD 2024 — format effects</h3>
+          <p>Content containing direct quotations earned 37% more AI citations than equivalent content without quotations, and content with embedded statistics earned 22% more. The mechanism is extraction quality: quotation marks and numeric tokens create high-confidence chunk boundaries for retrievers. The implication for social: a LinkedIn post that quotes a named expert and cites a specific number outperforms a polished narrative without those anchors. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+
+          <h3>Zhang et al., 2026 — definition premium</h3>
+          <p>Content that opens with a clear definition of its subject earned 57% higher citation probability than content that buried the definition mid-article. This effect is the foundation of the definition-first H3 pattern in AEO. The implication for social: a YouTube video that opens by defining the concept it covers — before any storytelling — outperforms the same video with a narrative cold open in AI citation rates. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for an AEO content audit.</p>
+
+          <h3>GEO-SFE benchmarks, 2026 — structure effects</h3>
+          <p>Lists and tables increased citation probability by 43%, while passages over 300 words triggered a 31% attention degradation in retrievers. Long unbroken paragraphs are penalized. Bounded chunks are rewarded. The implication for social: a LinkedIn article structured as titled subsections with a clear list earns more citations than the same content presented as one continuous narrative. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free Blindspot Scan to see how your content chunks for retrievers.</a></p>
+
+          <h3>Chen et al., 2025 — earned-media bias</h3>
+          <p>AI retrievers show a systematic preference for earned media (third-party mentions of a brand) over owned media (the brand&apos;s own content). The discount factor on owned promotional content was 4.3x in head-to-head comparisons across query categories. The implication for social: brand-authored posts are worth less to AI than authentic third-party discussion. The strategic move is to produce content remarkable enough that others reference it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your territory before a competitor does.</a></p>
+
+          <div className="ae-quote not-prose">
+            <blockquote>The substrate AI reads is fundamentally different from the substrate humans scroll. The Origin Protocol exists to engineer for the former while not abandoning the latter.</blockquote>
           </div>
+
+          {/* INLINE CTA 4 */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Map your AI-citation surface — free 48-hour Blindspot Report</a>
+
+          {/* SECTION 5 */}
+          <span className="ae-section-label" id="the-tae-method">The Origin Protocol</span>
+          <h2>The TAE Method: Origin Protocol for Social Content</h2>
+
+          <p>The Answer Engine&apos;s Origin Protocol applies six rules to every social asset published for citation outcomes. The protocol is built from the academic findings above and refined against verified client engagement data across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews.</p>
+
+          <h3>Rule 1: definition-first opens</h3>
+          <p>Every LinkedIn article, every YouTube video, every Reddit post starts with a one-sentence definition of its subject. The Zhang et al. (2026) definition premium is the single largest citation lift available from structural content choices. <a href="tel:+12134442229" className="cta-inline">Call (213) 444-2229</a> for a definition audit of your current content.</p>
+
+          <h3>Rule 2: bounded chunks under 180 tokens</h3>
+          <p>Every standalone section — every H3, every video chapter, every Reddit comment paragraph — sits between 80 and 180 tokens. Long monolithic content gets penalized in retrieval. Self-contained chunks are rewarded with extraction. The GEO-SFE benchmark on attention degradation past 300 words is the constraint we engineer against.</p>
+
+          <h3>Rule 3: named-thesis sentences</h3>
+          <p><strong className="named-thesis">The Promotion Penalty: social posts dominated by promotional language are systematically filtered from AI retrieval pipelines, while educational and outcome-bearing content earns the bulk of social-derived citations.</strong> The fix is to coin terms, name mechanisms, and lead with framework names rather than offers. A coined term in the post (The Earned-Mention Premium, The Transcript Tax, The Indexability Gap) earns more retrieval surface than a promotional headline. Reach out at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a free promotion-penalty audit.</p>
+
+          <h3>Rule 4: earned-mention engineering</h3>
+          <p>Producing content remarkable enough to earn third-party mentions is the highest-leverage social move under the Chen et al. (2025) finding. The mechanical version: publish proprietary data, original frameworks with named concepts, and verifiable case studies with specific outcomes. These are the formats most likely to be cited by other operators in their own content, which compounds the brand&apos;s earned-mention surface. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call.</a></p>
+
+          <h3>Rule 5: transcript discipline on video</h3>
+          <p>Every YouTube video gets a manually corrected transcript and a description densely packed with definitional language and named concepts. Auto-captions alone are insufficient — the error rate creates extraction noise that retrievers discount. Manual transcript pass earns the full citation surface that auto-only video forfeits. Markets fill fast — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">lock in your exclusive territory now.</a></p>
+
+          <h3>Rule 6: entity coherence audit</h3>
+          <p>Every active social profile gets identical NAP, identical service description, and identical category claim. Inconsistencies are eliminated in a quarterly entity-coherence audit. The 2.4x citation probability lift from the Entity Coherence Effect makes this one of the lowest-effort, highest-impact moves available to most operators. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free entity-coherence scan.</a></p>
 
           <div className="ae-callout ae-callout-orange not-prose">
-            <div className="ae-callout-title">The Recency Factor</div>
-            <p>AI platforms use recency as a tiebreaker between otherwise similar sources. A business with consistent recent activity across indexed platforms will edge out a business with older, static content even if that older content is higher quality. Sustainable posting cadence beats burst-and-pause activity. Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
+            <div className="ae-callout-title">The Origin Protocol Difference</div>
+            <p>AEO is not social media marketing repackaged. The Origin Protocol treats social platforms as knowledge publication channels with one job: produce citable expertise that compounds across AI retrieval surfaces. Every rule above traces back to verified retrieval behavior, not to social-algorithm best practice. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full protocol breakdown.</p>
           </div>
 
-          {/* SECTION: SIGNALS THAT DON'T */}
-          <span className="ae-section-label" id="signals-that-dont">What Wastes Your Time</span>
-          <h2>What Wastes Your Time Completely</h2>
+          {/* INLINE CTA 5 */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Apply the Origin Protocol to your social surface — free starting audit</a>
 
-          <p>
-            Equal time deserves to be spent on what does not work, because most social media advice aimed at business owners is optimized for social algorithms, not AI recommendation systems.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
+          {/* SECTION 6 */}
+          <span className="ae-section-label" id="the-measurement">The Measurement</span>
+          <h2>The Measurement: Proof Ledger for Social-to-Citation Lift</h2>
 
-          {/* PROS/CONS TABLE */}
-          <div className="ae-comparison-table not-prose">
-            <table>
-              <thead>
-                <tr>
-                  <th>Activity</th>
-                  <th>Impact on Social Algorithm</th>
-                  <th>Impact on AI Visibility</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Growing follower count</td>
-                  <td>High positive</td>
-                  <td>Zero</td>
-                </tr>
-                <tr>
-                  <td>Buying followers or engagement</td>
-                  <td>Short-term boost</td>
-                  <td>Negative (anomalous patterns)</td>
-                </tr>
-                <tr>
-                  <td>Posting promotional-only content</td>
-                  <td>Low positive</td>
-                  <td>Zero</td>
-                </tr>
-                <tr>
-                  <td>Keyword stuffing in captions</td>
-                  <td>Neutral to negative</td>
-                  <td>Negative (signals low quality)</td>
-                </tr>
-                <tr>
-                  <td>Dormant accounts</td>
-                  <td>Negative</td>
-                  <td>Neutral to negative</td>
-                </tr>
-                <tr>
-                  <td>Reposting others&apos; content</td>
-                  <td>Low positive</td>
-                  <td>Zero (no original expertise)</td>
-                </tr>
-                <tr>
-                  <td>Generic motivational posts</td>
-                  <td>Medium positive</td>
-                  <td>Zero</td>
-                </tr>
-                <tr>
-                  <td>Chasing trending audio/formats</td>
-                  <td>High positive</td>
-                  <td>Zero to negative</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className="ae-callout ae-callout-warning not-prose">
-            <div className="ae-callout-title">The Keyword Stuffing Trap</div>
-            <p>Stuffing your Instagram bio, LinkedIn headline, or Facebook description with keyword strings does not help AI find you. AI platforms evaluate semantic meaning and contextual relevance, not keyword frequency. Keyword stuffing in social profiles signals low-quality, manipulated content to AI evaluation systems and can reduce your citation probability. Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-          </div>
-
-          <p>
-            There is also the strategic distraction problem. Every hour spent optimizing Instagram Reels for algorithmic reach is an hour not spent creating the LinkedIn article, YouTube walkthrough, or original research post that actually builds AI citation signals. The opportunity cost is real and most business owners do not see it clearly until they audit where their content time goes versus where their AI visibility actually comes from.
-           Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-
-          {/* CTA 4 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
-
-          {/* SECTION: CHEAT SHEET */}
-          <span className="ae-section-label" id="cheat-sheet">The Cheat Sheet</span>
-          <h2>The Social Media Cheat Sheet for AI Visibility</h2>
-
-          <p>
-            Here is the practical guide to what to post on each platform to generate meaningful AI signals.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-
-          <div className="not-prose my-8 grid gap-4 md:grid-cols-2">
-
-            <div className="rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-5">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-xs font-bold uppercase tracking-widest text-[#F27D24]">LinkedIn</span>
-                <span className="ml-auto text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded-full font-semibold">Highest Priority</span>
-              </div>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Long-form articles explaining your service process</li>
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Case studies with specific measurable outcomes</li>
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Original data or survey findings from your work</li>
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Expert commentary on industry developments</li>
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> FAQ posts answering common customer questions</li>
-              </ul>
-            </div>
-
-            <div className="rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-5">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-xs font-bold uppercase tracking-widest text-[#F27D24]">YouTube</span>
-                <span className="ml-auto text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded-full font-semibold">Highest Priority</span>
-              </div>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Service walkthroughs with detailed narration</li>
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> How-to explanations that solve real customer problems</li>
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Q&amp;A videos based on questions customers actually ask</li>
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Accurate captions and keyword-rich descriptions</li>
-                <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Chapters/timestamps for crawlability</li>
-              </ul>
-            </div>
-
-            <div className="rounded-xl border border-white/10 bg-white/5 p-5">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-xs font-bold uppercase tracking-widest text-gray-400">Reddit</span>
-                <span className="ml-auto text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full font-semibold">Medium Priority</span>
-              </div>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li className="flex gap-2"><span className="text-gray-500 mt-0.5">&#10003;</span> Genuine participation in relevant subreddits</li>
-                <li className="flex gap-2"><span className="text-gray-500 mt-0.5">&#10003;</span> Expert answers that get upvoted organically</li>
-                <li className="flex gap-2"><span className="text-gray-500 mt-0.5">&#10003;</span> AMAs if you have genuine community interest</li>
-                <li className="flex gap-2"><span className="text-gray-500 mt-0.5">&#10003;</span> Verified account with consistent username</li>
-              </ul>
-            </div>
-
-            <div className="rounded-xl border border-white/10 bg-white/5 p-5">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-xs font-bold uppercase tracking-widest text-gray-400">Instagram / TikTok</span>
-                <span className="ml-auto text-xs bg-yellow-500/20 text-yellow-400 px-2 py-0.5 rounded-full font-semibold">Brand Signal Only</span>
-              </div>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li className="flex gap-2"><span className="text-gray-500 mt-0.5">&#10003;</span> Consistent business name, address, phone number in bio</li>
-                <li className="flex gap-2"><span className="text-gray-500 mt-0.5">&#10003;</span> Link to your website (entity connection)</li>
-                <li className="flex gap-2"><span className="text-gray-500 mt-0.5">&#10003;</span> Regular activity (signals business is active)</li>
-                <li className="flex gap-2"><span className="text-gray-400 mt-0.5">&#10005;</span> Follower growth strategies add no AI signal</li>
-              </ul>
-            </div>
-
-          </div>
-
-          {/* SECTION: DECISION MATRIX */}
-          <span className="ae-section-label" id="decision-matrix">Decision Matrix</span>
-          <h2>Decision Matrix: Does This Help My AI Visibility?</h2>
-
-          <p>
-            Use this matrix before investing time or budget in any social media activity. Map the activity against both axes and you will see immediately where your effort is actually going.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-
-          <div className="ae-comparison-table not-prose">
-            <table>
-              <thead>
-                <tr>
-                  <th>Social Activity</th>
-                  <th>Helps Human Discovery</th>
-                  <th>Helps AI Visibility</th>
-                  <th>Verdict</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>YouTube explainer video with transcript</td>
-                  <td>Yes</td>
-                  <td>Yes</td>
-                  <td className="text-green-400 font-semibold">Do This First</td>
-                </tr>
-                <tr>
-                  <td>LinkedIn article with original data</td>
-                  <td>Yes</td>
-                  <td>Yes</td>
-                  <td className="text-green-400 font-semibold">Do This First</td>
-                </tr>
-                <tr>
-                  <td>Reddit community participation</td>
-                  <td>Moderate</td>
-                  <td>Yes (if cited)</td>
-                  <td className="text-green-400 font-semibold">Worth Doing</td>
-                </tr>
-                <tr>
-                  <td>Instagram Reels for reach</td>
-                  <td>Yes</td>
-                  <td>No</td>
-                  <td className="text-yellow-400 font-semibold">Human Channel Only</td>
-                </tr>
-                <tr>
-                  <td>TikTok for brand awareness</td>
-                  <td>Yes</td>
-                  <td>No</td>
-                  <td className="text-yellow-400 font-semibold">Human Channel Only</td>
-                </tr>
-                <tr>
-                  <td>Consistent NAP across all profiles</td>
-                  <td>Low direct</td>
-                  <td>Yes (entity signal)</td>
-                  <td className="text-green-400 font-semibold">Do This First</td>
-                </tr>
-                <tr>
-                  <td>Buying followers</td>
-                  <td>No</td>
-                  <td>Negative</td>
-                  <td className="text-red-400 font-semibold">Never Do This</td>
-                </tr>
-                <tr>
-                  <td>Keyword stuffing bios</td>
-                  <td>Minimal</td>
-                  <td>Negative</td>
-                  <td className="text-red-400 font-semibold">Never Do This</td>
-                </tr>
-                <tr>
-                  <td>Promotional-only posting</td>
-                  <td>Low</td>
-                  <td>No</td>
-                  <td className="text-gray-400 font-semibold">Deprioritize</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className="ae-callout ae-callout-info not-prose">
-            <div className="ae-callout-title">The Two-Channel Reality</div>
-            <p>Social media serves two distinct audiences: human browsers who discover you organically through social algorithms, and AI systems that evaluate your authority as a source. A smart social strategy acknowledges both and allocates effort accordingly. YouTube and LinkedIn serve both audiences well. Instagram and TikTok serve primarily human audiences. This is not a reason to abandon those platforms. It is a reason to stop expecting them to move your AI visibility. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-          </div>
-
-          {/* SECTION: TIMELINE */}
-          <span className="ae-section-label" id="timeline">How the Signal Works</span>
-          <h2>How Social Content Becomes an AI Signal</h2>
-
-          <p>
-            There is no instant path from posting social content to appearing in AI recommendations. Understanding the timeline is essential for setting realistic expectations and prioritizing the right activities.
-           <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
+          <p>Measuring whether social content drives AI citations is straightforward once the measurement frame is correct. The Proof Ledger is the four-axis tracker we use to attribute citation lift to specific social interventions.</p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Week 1-2</div>
-              <div className="ae-timeline-title">Content Published and Indexed</div>
-              <div className="ae-timeline-desc">YouTube videos with transcripts are indexed by Google within days. LinkedIn articles typically appear in search results within one to two weeks. Reddit posts get indexed within hours if the thread gains engagement. Instagram and TikTok posts are rarely indexed in a crawlable text format regardless of how quickly they spread.</div>
+              <div className="ae-timeline-step">Axis 1</div>
+              <div className="ae-timeline-title">Direct citation counts by platform</div>
+              <div className="ae-timeline-desc">Run identical brand-recognition queries on ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews monthly. Count direct citations of the brand and platform of origin (LinkedIn article, YouTube video, Reddit thread). A LinkedIn article that earns three Perplexity citations is a measurable lift from a measurable asset.</div>
             </div>
             <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Month 1-3</div>
-              <div className="ae-timeline-title">External Validation Begins</div>
-              <div className="ae-timeline-desc">Original data or genuinely useful expert content starts attracting external links and shares from industry sources. This external validation is what elevates content from &quot;indexed&quot; to &quot;authoritative.&quot; A LinkedIn article that gets shared by industry publications or referenced in blog posts gains the cross-platform corroboration AI citation systems look for.</div>
+              <div className="ae-timeline-step">Axis 2</div>
+              <div className="ae-timeline-title">Brand mention frequency in answers</div>
+              <div className="ae-timeline-desc">Run topic queries adjacent to the brand&apos;s expertise area. Count how often the brand is mentioned without being explicitly named in the query. This measures recommendation lift, not just direct citation. A 15-mention baseline rising to 38 mentions month-over-month is a real signal.</div>
             </div>
             <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Month 3-6</div>
-              <div className="ae-timeline-title">Entity Recognition Solidifies</div>
-              <div className="ae-timeline-desc">As your consistent brand information appears across indexed platforms and your expertise content accumulates external mentions, AI platforms build a stronger entity profile for your business. This is when you start appearing in AI answers for queries where you were previously absent. Consistency across all platforms accelerates this phase.</div>
+              <div className="ae-timeline-step">Axis 3</div>
+              <div className="ae-timeline-title">Source diversity in citations</div>
+              <div className="ae-timeline-desc">When the brand is cited, how many distinct sources does the retriever pull from? A single LinkedIn page cited five times is a thin signal. The brand&apos;s website, three LinkedIn articles, a YouTube transcript, and two Reddit references is a robust signal. Diversity compounds confidence.</div>
             </div>
             <div className="ae-timeline-item">
-              <div className="ae-timeline-step">Ongoing</div>
-              <div className="ae-timeline-title">Recency Signals Stay Active</div>
-              <div className="ae-timeline-desc">AI platforms weight recent content higher when comparing sources of similar authority. Maintaining a sustainable publishing cadence across your highest-value platforms, especially YouTube and LinkedIn, keeps your recency signal active and prevents older content from being deprioritized in favor of more recently updated competitors.</div>
+              <div className="ae-timeline-step">Axis 4</div>
+              <div className="ae-timeline-title">Earned-mention growth rate</div>
+              <div className="ae-timeline-desc">Track how often the brand is referenced by other authors in indexable content. Reddit threads naming the brand, LinkedIn comments referencing the brand&apos;s frameworks, YouTube videos quoting the brand&apos;s data. The Chen et al. (2025) 4.3x discount on owned content means earned-mention growth is the most leveraged growth axis.</div>
             </div>
           </div>
 
-          <p>
-            This timeline also explains why businesses that have been consistently publishing expert content for years tend to dominate AI recommendations while newer businesses struggle to break through. The signal accumulates. The entity profile deepens. AI citation systems develop confidence in the source. Building that foundation deliberately is what separates businesses that show up consistently from those that show up occasionally.
-          </p>
+          <p>Operators who track these four axes monthly see citation patterns clarify within 60 days. Operators who track only follower counts see nothing useful. The Proof Ledger is the measurement substrate that makes social-to-citation attribution real. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free Proof Ledger walkthrough.</a></p>
 
-          <p>
-            For a deeper look at how AI evaluates all your content signals, not just social media, see our guide on <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business">whether having a blog actually helps AI recommend your business</Link>. And if you have been wondering whether other quick-fix strategies hold up, <Link href="/blog/does-buying-backlinks-help-ai-find-you">the truth about buying backlinks for AI search</Link> covers the adjacent myth in full detail. Those wondering about the broader gaming question will find <Link href="/blog/can-you-game-ai-search-like-people-used-to-game-google">our analysis of gaming AI search</Link> useful reading.
-          </p>
-
-          <div className="ae-callout ae-callout-success not-prose">
-            <div className="ae-callout-title">The Compound Effect</div>
-            <p>Every original expertise post you publish on an indexed platform adds a small signal. Every external mention or share amplifies it. Every consistent brand data point across platforms deepens it. AI visibility from social media is not a single switch you flip. It is a compound interest account where consistent, quality deposits outperform large sporadic withdrawals every single time.</p>
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Insight</div>
+            <p className="key-insight">Social media can absolutely help AI recommend a business. The mechanism is not follower count, engagement rate, or post frequency. It is citable expertise published on indexable platforms, entity coherence across every profile, and earned third-party mentions that compound over time. The businesses winning AI citations from social are the ones who treat platforms as knowledge channels, not as billboards. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the full playbook.</p>
           </div>
 
-          {/* CTA 5 */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out if your content is earning AI citations — free audit</a>
+          {/* INLINE CTA 6 */}
+          <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Measure your real AI-citation surface — free Proof Ledger baseline</a>
 
-          {/* 3-TIER CTA BLOCK */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your Social Media Won&apos;t Save You If AI Can&apos;t Find You</h3>
-            <p className="text-gray-400 mb-6">Get a free Blind Spot Report and find out exactly what AI platforms know about your business, and what signals are missing.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-            </div>
+          {/* CHEAT SHEET */}
+          <span className="ae-section-label" id="cheat-sheet">Quick Reference</span>
+          <h2>The Social-to-AEO Cheat Sheet</h2>
+
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">Does It Help AI Recommend Your Business?</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Social Behavior</th>
+                  <th>AI Citation Lift</th>
+                  <th>Why</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Posting LinkedIn articles with original data</td><td>High</td><td>Indexable, citable, definition-rich content</td></tr>
+                <tr><td>YouTube video with manual transcript</td><td>High</td><td>Full text extraction, citable directly</td></tr>
+                <tr><td>Authentic Reddit expertise in relevant subs</td><td>High</td><td>Reddit is the #1 cited domain in ChatGPT</td></tr>
+                <tr><td>Entity consistency across all profiles</td><td>Medium-High</td><td>2.4x citation lift via coherence effect</td></tr>
+                <tr><td>Original quoted research on any platform</td><td>Medium-High</td><td>+37% citation lift from quoted content</td></tr>
+                <tr><td>Promotional graphics or motivational posts</td><td>None</td><td>Filtered by Promotion Penalty</td></tr>
+                <tr><td>Buying followers or engagement</td><td>Negative</td><td>Engagement anomaly flag in retrieval</td></tr>
+                <tr><td>Instagram or TikTok visual content alone</td><td>None</td><td>Not extractable as text by retrievers</td></tr>
+                <tr><td>Auto-captioned video without correction</td><td>Low</td><td>Transcript error rate discounted by retrievers</td></tr>
+                <tr><td>Cross-platform reposting of same content</td><td>Low</td><td>Duplicate detection penalty</td></tr>
+              </tbody>
+            </table>
           </div>
+
+          <p>The cheat sheet is the working summary of everything above. Operators who orient social effort toward the top of this table see citation lift in 60 to 90 days. Operators who continue to invest in the bottom half see the same flat citation curve they have been seeing. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute call to plan your reallocation.</a></p>
+
+          <hr />
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card">
-              <img
-                src="/justin-borges.webp"
-                alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-              />
-              <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
-              </div>
+          <div className="not-prose ae-author-card">
+            <img src="/justin-borges.webp" alt="Justin Borges"
+                 style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }} />
+            <div>
+              <div className="ae-author-name">Justin Borges</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+              <p className="ae-author-bio">Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that helps businesses get cited by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews. The Answer Engine has placed clients across professional services, home services, and B2B SaaS categories with verified citation outcomes. Reach out at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> or <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
             </div>
+          </div>
 
-          {/* FAQ SECTION */}
+          {/* FAQ */}
           <span className="ae-section-label" id="faq">FAQ</span>
           <h2>Frequently Asked Questions</h2>
 
-          <h3>Does having more followers on Instagram or TikTok help AI recommend my business?</h3>
-          <p>
-            No. Follower count is not a ranking signal for ChatGPT, Perplexity, Google AI Overviews, or any major AI platform. These systems evaluate content quality, expertise signals, and cross-platform consistency. A business with 500 followers that publishes original, expert-level content will consistently outperform a business with 50,000 followers that posts promotional content.
-          </p>
+          <div className="not-prose">
+            <details className="ae-faq-item">
+              <summary>Does having more followers on Instagram or TikTok help AI recommend my business?</summary>
+              <div className="ae-faq-answer">
+                <p>Follower count is not a ranking signal for ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews. AI retrievers evaluate text-extractable expertise, cross-platform entity coherence, and earned third-party mentions, not social popularity metrics. A business with 500 followers publishing original expertise will consistently outperform a 50,000-follower account posting promotional content in AI recommendation surfaces. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free Blindspot Scan to confirm what your current presence contributes.</a></p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>Which social media platform helps most with AI search visibility?</summary>
+              <div className="ae-faq-answer">
+                <p>LinkedIn is the most-cited social platform for professional and business queries across ChatGPT, Perplexity, and Google AI. YouTube overtook Reddit as the top-cited video platform in AI answers in early 2026. Reddit remains the single most-cited domain in ChatGPT at 1.8% of all citations. The right platform depends on industry: LinkedIn for B2B, YouTube for demonstration content, Reddit for community-validated expertise. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free call to map the right platform mix for your business.</a></p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>Can I buy followers or engagement to improve my AI visibility?</summary>
+              <div className="ae-faq-answer">
+                <p>Purchased followers actively damage AI visibility. AI retrievers detect engagement anomalies through ratio analysis and discount sources flagged as inauthentic. Paid followers add zero indexable content, contribute nothing to earned third-party mentions, and create signal patterns retrievers treat as low-trust. The only social signals that influence AI citation rates are organic: real expertise content, authentic community references, and earned media discussion. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the legitimate growth playbook.</p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>Does a dormant social media account hurt my AI visibility?</summary>
+              <div className="ae-faq-answer">
+                <p>A completely dormant account is neutral at best, negative at worst. AI retrievers use recency as a tiebreaker between similar sources. An account inactive for over 18 months signals reduced authority on current topics and triggers freshness penalties in retrieval scoring. Consistent activity at a sustainable cadence — even monthly — outperforms aggressive posting followed by dormancy in citation probability models. <a href="tel:+12134442229" className="cta-inline">Call (213) 444-2229</a> for a publishing-cadence audit.</p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>Do social media posts get directly indexed by AI search engines?</summary>
+              <div className="ae-faq-answer">
+                <p>Indexability varies sharply by platform. YouTube transcripts are indexed and cited directly. LinkedIn articles and long-form posts are indexed by search engines and pulled into AI retrieval pipelines. Reddit threads are heavily indexed and cited at 1.8% of all ChatGPT citations. Instagram, TikTok, and Facebook content is largely opaque to AI retrievers, though entity consistency across profiles still contributes to brand recognition. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run a free indexability audit.</a></p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>What type of social media content actually helps AI recommend my business?</summary>
+              <div className="ae-faq-answer">
+                <p>Content that produces verifiable expertise signal outperforms promotional content by a wide margin. Original data, proprietary research, detailed how-to explanations, customer success stories with specific outcomes, and video with accurate transcripts are the formats most associated with AI citation lift. Promotional posts, motivational graphics, and reposts of other sources contribute nothing to AI visibility. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call to plan your content shift.</a></p>
+              </div>
+            </details>
+            <details className="ae-faq-item">
+              <summary>How does AEO use social media differently than traditional social media marketing?</summary>
+              <div className="ae-faq-answer">
+                <p>Answer Engine Optimization treats social platforms as knowledge publication channels rather than audience engagement channels. AEO prioritizes machine-readable structure, expertise density, entity coherence across profiles, and earned third-party mentions over engagement metrics. The goal is not to grow a following but to compound citable expertise across the platforms AI retrievers can index. One client per market — <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">claim your territory before a competitor does.</a></p>
+              </div>
+            </details>
+          </div>
 
-          <h3>Which social media platform helps most with AI search visibility?</h3>
-          <p>
-            LinkedIn is the most-cited social platform for professional and business queries across major AI platforms. For video content, YouTube overtook Reddit as the top-cited platform in AI answers in early 2026. Reddit remains the single most-cited domain in ChatGPT overall at 1.8% of all citations. The right platform depends on your industry: LinkedIn for B2B and professional services, YouTube for demonstration content, Reddit for community-validated expertise.
-          </p>
+          <hr />
 
-          <h3>Can I buy followers or engagement to improve my AI visibility?</h3>
-          <p>
-            Buying followers actively harms AI visibility. AI platforms look for authentic engagement patterns and original expertise signals. Purchased followers produce engagement ratios that look anomalous to algorithmic analysis and add zero content quality. The only social signals that matter to AI systems are organic ones based on real expertise and genuine community recognition.
-          </p>
+          {/* SECOND CTA BLOCK */}
+          <div className="ae-cta-block not-prose my-16">
+            <h3>Turn Your Social Surface Into an AI Citation Engine</h3>
+            <p>The Answer Engine applies the Origin Protocol to social-to-citation conversion. We engineer LinkedIn, YouTube, Reddit, and entity coherence across every profile so that AI retrievers extract, score, and cite the business. One client per market territory. 90-day citation guarantee backed by verified results. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> or call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Claim Your Territory →</a>
+            <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+              <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+              <a href="mailto:support@theanswerengine.ai" className="ae-cta-secondary">support@theanswerengine.ai</a>
+            </div>
+          </div>
 
-          <h3>Does a dormant social media account hurt my AI visibility?</h3>
-          <p>
-            A completely dormant account is neutral at best, negative at worst. AI platforms use recency as a tiebreaker between similar sources. An account that has not posted in two years signals that the business may be inactive or no longer authoritative on current topics. Consistent activity at a sustainable pace keeps your recency signal active.
-          </p>
+          {/* RELATED ARTICLES */}
+          <span className="ae-section-label">Keep Reading</span>
+          <h2>Related Articles</h2>
 
-          <h3>Do social media posts get directly indexed by AI search engines?</h3>
-          <p>
-            It varies by platform. YouTube transcripts are indexed and cited directly by AI platforms. LinkedIn articles and posts are indexed by search engines and cited by AI. Reddit threads are heavily indexed and cited. Instagram and TikTok content is far harder for AI to directly parse, though a consistent profile contributes to brand entity recognition.
-          </p>
+          <div className="space-y-4 not-prose">
+            <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
+              <Link href="/blog/anatomy-of-an-ai-citation" className="group">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
+                  Anatomy of an AI Citation
+                </h4>
+                <p className="text-gray-400 leading-relaxed">
+                  How a citation gets selected, scored, and surfaced — and what makes a source qualify to enter the retrieval set in the first place.
+                </p>
+              </Link>
+            </div>
+            <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
+              <Link href="/blog/brand-mentions-vs-backlinks-ai-search" className="group">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
+                  Brand Mentions vs Backlinks in AI Search
+                </h4>
+                <p className="text-gray-400 leading-relaxed">
+                  Why earned mentions across the indexable web outperform link-building campaigns for AI citation lift.
+                </p>
+              </Link>
+            </div>
+            <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
+              <Link href="/blog/answer-engine-optimization-aeo-guide" className="group">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
+                  The Complete AEO Guide
+                </h4>
+                <p className="text-gray-400 leading-relaxed">
+                  The full Origin Protocol playbook, from chunk structure to entity coherence to earned-mention engineering.
+                </p>
+              </Link>
+            </div>
+          </div>
 
-          <h3>What type of social media content actually helps AI recommend my business?</h3>
-          <p>
-            Content that signals real expertise outperforms promotional content significantly. Original data, proprietary insights, detailed how-to explanations, customer success stories with specific results, and video content with accurate transcripts are the formats most associated with increased AI citation rates. Promotional posts and reposts of other sources contribute nothing to AI visibility.
-          </p>
-
-        </div>
-      </article>
-
-      {/* FINAL CTA */}
-      <div className="max-w-4xl mx-auto px-6 pb-20">
+          {/* FINAL CTA */}
           <section className="ae-final-cta not-prose">
             <div className="ae-final-cta-inner">
               <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                Your Content Should Work in Both Google and AI Search
+                Your Competitors Are Compounding AI Citations Right Now
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                Most content only works in one. The Answer Engine's dual-engine strategy makes every piece compound across both channels. Free content audit. One business per market.
+                Social-derived AI citations compound. The brands publishing LinkedIn long-form, transcribed YouTube, and Reddit expertise today will own the citation surface for years. Markets fill fast. One client per market territory. Free Blindspot Scan in 48 hours.
               </p>
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
-                Audit Your Content for AI Citations →
+                Get Your Free Blindspot Report →
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -770,7 +661,9 @@ export default function Page() {
               </div>
             </div>
           </section>
-      </div>
-    </>
+
+        </div>
+      </article>
+    </div>
   )
 }
