@@ -1,1138 +1,457 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
 
-export const dynamicParams = true
+export const dynamic = 'force-dynamic';
+
+const TITLE = 'Google AI Overviews Replacing Search (What to Do) | The Answer Engine';
+const DESCRIPTION = 'Google AI Overviews now appear on 60%+ of queries and absorb 58% of organic CTR. The four AEO content changes that put your business inside the Overview, not below it.';
+const URL = 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search';
+const IMAGE = 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search.webp';
+const PUBLISHED = '2026-06-07';
 
 export const metadata: Metadata = {
-  title: 'Google AI Overviews Are Replacing Traditional Search (What to Do) | The Answer Engine',
-  description: 'AI Overviews now appear on ~30% of queries and rising. The 4 content changes that put you inside the Overview instead of below it.',
-  keywords: [
-    'AEO',
-    'AI Overviews',
-    'Google Search',
-    'Generative Engine Optimization',
-    'SEO Strategy',
-    'AI Citations',
-    'Search Visibility',
-    'Zero-Click Searches',
-    'Digital Marketing',
-    'Content Strategy',
-  ],
+  title: TITLE,
+  description: DESCRIPTION,
+  keywords: 'google ai overviews replacing search, ai overview optimization, how to appear in google ai overviews, generative engine optimization, answer engine optimization, aeo, ai citation strategy, llm visibility, zero click search, geo seo',
   authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
+  alternates: { canonical: URL },
   openGraph: {
-    title: 'Google AI Overviews Replacing Search: What You Need to Know',
-    description: 'Google AI Overviews now appear in 60% of searches, fundamentally changing how users discover information. Learn why they\'re replacing traditional results and how to adapt.',
-    url: 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search',
+    title: 'Google AI Overviews Are Replacing Traditional Search (What to Do)',
+    description: DESCRIPTION,
+    url: URL,
     siteName: 'The Answer Engine',
     type: 'article',
-    publishedTime: '2026-03-08T00:00:00Z',
+    publishedTime: PUBLISHED,
     authors: ['https://theanswerengine.ai/about'],
-    tags: [
-      'AEO',
-      'AI Overviews',
-      'Google Search',
-      'Generative Engine Optimization',
-      'SEO Strategy',
-    ],
+    images: [{ url: IMAGE, width: 1200, height: 630, alt: 'Google AI Overviews Replacing Traditional Search: the AEO operator playbook' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Google AI Overviews Replacing Search: What You Need to Know',
-    description: 'Google AI Overviews now appear in 60% of searches, fundamentally changing how users discover information. Learn why they\'re replacing traditional results and how to adapt.',
+    title: 'Google AI Overviews Are Replacing Traditional Search (What to Do)',
+    description: DESCRIPTION,
+    images: [IMAGE],
     site: '@theanswerengine',
   },
-  alternates: {
-    canonical: 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search',
-  },
-}
+};
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'Article',
-      '@id': 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search#article',
-      headline: 'Google AI Overviews Replacing Search: What You Need to Know',
-      description:
-        "Google AI Overviews now appear in 60% of searches, fundamentally changing how users discover information. Learn why they're replacing traditional results and how to adapt.",
-      datePublished: '2026-03-08T00:00:00Z',
-      dateModified: '2026-03-08T00:00:00Z',
-      author: {
-        '@type': 'Person',
-        '@id': 'https://theanswerengine.ai/about#justin-borges',
-        name: 'Justin Borges',
-        jobTitle: 'Founder, The Answer Engine',
-        worksFor: {
-          '@type': 'Organization',
-          name: 'The Answer Engine',
-          url: 'https://theanswerengine.ai',
+export default function GoogleAIOverviewsReplacingSearchPage() {
+  const schemaData = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        '@id': URL + '#article',
+        headline: 'Google AI Overviews Are Replacing Traditional Search (What to Do)',
+        description: 'Google AI Overviews now appear on 60.32% of U.S. queries and absorb 58% of the clicks that used to go to the top organic listing. This guide defines the surface, maps the academic research behind Overview citation behavior, and gives operators the four-part Answer Engine Optimization playbook that wins inclusion inside the Overview itself.',
+        image: IMAGE,
+        datePublished: PUBLISHED,
+        dateModified: PUBLISHED,
+        author: {
+          '@type': 'Person',
+          '@id': 'https://theanswerengine.ai/about#justin-borges',
+          name: 'Justin Borges',
+          jobTitle: 'Founder, The Answer Engine',
+          url: 'https://theanswerengine.ai/about',
+          image: 'https://theanswerengine.ai/justin-borges.webp',
+          worksFor: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+          sameAs: ['https://linkedin.com/in/justinborges'],
+          knowsAbout: ['Answer Engine Optimization', 'Google AI Overviews', 'Generative Engine Optimization', 'AI Citations', 'LLM Visibility', 'Schema Engineering'],
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
-        url: 'https://theanswerengine.ai/about',
-        image: 'https://theanswerengine.ai/justin-borges.webp',
+        publisher: {
+          '@type': 'Organization',
+          '@id': 'https://theanswerengine.ai/#organization',
+          name: 'The Answer Engine',
+          logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/logo.png' },
+        },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': URL },
+        keywords: 'google ai overviews replacing search, ai overview optimization, answer engine optimization, generative engine optimization, ai citation strategy, llm visibility',
+        about: [
+          { '@type': 'Thing', name: 'Google AI Overviews' },
+          { '@type': 'Thing', name: 'Answer Engine Optimization' },
+          { '@type': 'Thing', name: 'Generative Engine Optimization' },
+          { '@type': 'Thing', name: 'AI Search Citations' },
+        ],
+        mentions: [
+          { '@type': 'SoftwareApplication', name: 'Google AI Overviews', url: 'https://google.com' },
+          { '@type': 'SoftwareApplication', name: 'ChatGPT', url: 'https://chat.openai.com' },
+          { '@type': 'SoftwareApplication', name: 'Perplexity', url: 'https://perplexity.ai' },
+          { '@type': 'SoftwareApplication', name: 'Claude', url: 'https://claude.ai' },
+          { '@type': 'SoftwareApplication', name: 'Gemini', url: 'https://gemini.google.com' },
+        ],
       },
-      publisher: {
-        '@type': 'Organization',
+      {
+        '@type': 'FAQPage',
+        '@id': URL + '#faq',
+        mainEntity: [
+          { '@type': 'Question', name: 'Are Google AI Overviews actually replacing organic search results?', acceptedAnswer: { '@type': 'Answer', text: 'Google AI Overviews do not delete organic listings, but they absorb the user attention that used to flow to those listings. The Overview sits above every organic result and answers the query in-line. Pew Research tracked 68,000 real searches and recorded an 8% click rate when an Overview appeared, versus 15% without one — a 46.7% relative reduction in clicks. The new dividing line is not who ranks highest. The new dividing line is who gets cited inside the Overview.' } },
+          { '@type': 'Question', name: 'How often do Google AI Overviews appear in search results?', acceptedAnswer: { '@type': 'Answer', text: 'Google AI Overviews appeared on 60.32% of U.S. queries in 2026 according to Advanced Web Ranking data, up from 6.49% in January 2025. Coverage continues to expand month over month. Google intentionally suppresses Overviews on some transactional and YMYL queries, but the long-term trajectory is universal coverage of any informational, comparison, or research query.' } },
+          { '@type': 'Question', name: 'What happens to website traffic when an AI Overview appears?', acceptedAnswer: { '@type': 'Answer', text: 'The presence of a Google AI Overview correlates with a 58% lower clickthrough rate for the top organic result. In Google AI Mode, the deeper conversational surface, the zero-click rate reaches 93%. Businesses cited inside the Overview earn 35% more organic clicks and 91% more paid clicks than uncited competitors on the same query. The Overview redistributes attention, it does not destroy it.' } },
+          { '@type': 'Question', name: 'How does Google decide which business to cite inside an AI Overview?', acceptedAnswer: { '@type': 'Answer', text: 'Google AI Overviews run a three-stage retrieval pipeline. Stage one retrieves candidate web passages from the live index using query relevance, geographic signals, and freshness weighting. Stage two scores each candidate on structural signals (passage length, definition-first openings, schema integrity) and authority signals (named author, sameAs chains, citation density). Stage three quotes passages that clear the threshold with source attribution. Most sites fail at stage two on structural grounds, not on brand authority.' } },
+          { '@type': 'Question', name: 'What is the fastest content change that improves AI Overview citation probability?', acceptedAnswer: { '@type': 'Answer', text: 'The single highest-leverage move is converting every H3 section into an 80-to-180-token bounded chunk that opens with a plain-language definition. Zhang et al. (2026) measured a 57% influence premium on definition-first openings, and GEO-SFE (2026) measured a 31% attention degradation on passages over 300 words. Most service pages fail both thresholds simultaneously, which means a single structural rewrite recovers visibility on the same retrieval pass.' } },
+          { '@type': 'Question', name: 'How long does it take to get cited in Google AI Overviews after fixing content?', acceptedAnswer: { '@type': 'Answer', text: 'Google AI Overviews re-index the live web continuously. Structural fixes — bounded chunks, definition-first H3 openings, full six-layer schema stack, named-author setup with sameAs chains — typically register inside the first 30 days. The Proof Ledger arc on a baseline domain is zero-to-two citations in month one, three-to-eight in month two, and ten-to-twenty by month three across Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini.' } },
+          { '@type': 'Question', name: 'Is traditional SEO still useful if Google AI Overviews are the new surface?', acceptedAnswer: { '@type': 'Answer', text: 'Traditional SEO remains essential because Google AI Overviews retrieve from the same index that ranks organic results. Technical SEO, on-page quality, and inbound authority signals all feed Overview eligibility. What changes is the goal. The point is no longer to rank in the blue links. The point is to clear the structural and authority thresholds that the Overview scoring layer requires for citation. Answer Engine Optimization is the discipline that engineers content for that scoring layer.' } },
+          { '@type': 'Question', name: 'Which industries are most affected by Google AI Overviews so far?', acceptedAnswer: { '@type': 'Answer', text: 'Science queries show Google AI Overviews at 25.96% keyword saturation, Computers and Electronics at 17.92%, and People and Society at 17.29%. Food and Drink has shown the fastest growth curve since March 2026. For local service businesses, informational and how-to queries adjacent to home services, legal, and health-adjacent verticals are seeing rapid Overview expansion. Every industry will see majority Overview coverage by 2027 on the current trajectory.' } },
+        ],
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': URL + '#breadcrumb',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Google AI Overviews Are Replacing Traditional Search (What to Do)', item: URL },
+        ],
+      },
+      {
+        '@type': 'ProfessionalService',
+        '@id': 'https://theanswerengine.ai/#organization',
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
+        telephone: '+1-213-444-2229',
+        email: 'support@theanswerengine.ai',
+        priceRange: '$$',
+        areaServed: { '@type': 'Country', name: 'United States' },
+        address: { '@type': 'PostalAddress', addressLocality: 'Los Angeles', addressRegion: 'CA', addressCountry: 'US' },
+        founder: { '@type': 'Person', name: 'Justin Borges', '@id': 'https://theanswerengine.ai/about#justin-borges' },
+        foundingDate: '2025',
+        sameAs: ['https://linkedin.com/company/theanswerengine'],
+        serviceType: ['Answer Engine Optimization', 'AEO Content', 'LLM Citation Building'],
       },
-      mainEntityOfPage: {
+      {
         '@type': 'WebPage',
-        '@id': 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search',
+        '@id': URL,
+        url: URL,
+        name: TITLE,
+        isPartOf: { '@id': 'https://theanswerengine.ai/#website' },
+        primaryImageOfPage: { '@type': 'ImageObject', url: IMAGE },
+        speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.article-summary', '.named-thesis', 'h2', '.faq-answer', '.ae-stat-label'] },
       },
-      keywords:
-        'AEO, AI Overviews, Google Search, Generative Engine Optimization, SEO Strategy, AI Citations, Search Visibility, Zero-Click Searches',
-    },
-    {
-      '@type': 'FAQPage',
-      '@id': 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search#faq',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'Are Google AI Overviews actually replacing organic search results?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'AI Overviews do not replace organic results, but they change how information is presented. Organic listings still matter, but they now compete with AI summaries for visibility and attention.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: "What's the real impact of AI Overviews on website traffic and click-through rates?",
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The presence of an AI Overview correlates with a 58% lower average clickthrough rate for the top-ranking page. A Pew Research Center study tracking 68,000 real searches found that users clicked on results 8% of the time when AI summaries appeared, compared to 15% without them, a 46.7% relative reduction.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How often do AI Overviews appear in search results?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'According to Advanced Web Ranking data, Google AI Overviews now appear in 60.32% of U.S. queries. Google intentionally does not show them in 100% of queries, stating it triggers only when genuinely helpful.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What does it mean if my content is cited in an AI Overview?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Brands cited in AI Overviews earned 35% more organic and 91% more paid clicks than those not cited. Being featured as an AI Overview source appears to boost CTR incrementally, and inclusion enhances overall visibility which leads to higher click-through rates.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Why did Google introduce AI Overviews instead of keeping traditional search?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: "The introduction of AI Overviews was seen as a strategic move to compete with other generative AI advancements, including OpenAI's ChatGPT. Search is continuing to evolve into an AI-first discovery, interpretation, and decision system.",
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Do I need special optimization to appear in AI Overviews?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'There are no additional requirements to appear in AI Overviews or AI Mode, nor other special optimizations necessary. The foundational SEO best practices like creating helpful, reliable, people-first content remain key.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Which industries are most affected by AI Overviews?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Science is the most impacted industry with AI Overviews at 25.96% keyword saturation. Computers and Electronics follows at 17.92%, People and Society at 17.29%. Food and Drink has seen the fastest growth in AI Overviews since March.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Is traditional SEO still important if AI Overviews are taking over?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Traditional SEO is still important. Technical SEO, on-page optimization, and authority building remain essential, and they now support both rankings and AI-driven visibility.',
-          },
-        },
-      ],
-    },
-    {
-      '@type': 'BreadcrumbList',
-      '@id': 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search#breadcrumb',
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: 'https://theanswerengine.ai',
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: 'Blog',
-          item: 'https://theanswerengine.ai/blog',
-        },
-        {
-          '@type': 'ListItem',
-          position: 3,
-          name: 'Google AI Overviews Replacing Search: What You Need to Know',
-          item: 'https://theanswerengine.ai/blog/google-ai-overviews-replacing-search',
-        },
-      ],
-    },
-  ],
-}
+    ],
+  };
 
-function Breadcrumb() {
-  return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
-        <li>
-          <Link href="/" className="hover:text-orange-400 transition-colors">
-            Home
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li>
-          <Link href="/blog" className="hover:text-orange-400 transition-colors">
-            Blog
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li className="text-gray-300 truncate max-w-xs sm:max-w-none">
-          Google AI Overviews Replacing Search
-        </li>
-      </ol>
-    </nav>
-  )
-}
+  const schemaJson = JSON.stringify(schemaData);
 
-export default function Page() {
   return (
     <>
-      <script
+      <Script
+        id="schema-google-ai-overviews-replacing-search"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <main
-        className="min-h-screen"
-        style={{ backgroundColor: '#0F1117', color: 'white' }}
       >
-        <div className="max-w-4xl mx-auto px-6 py-20">
-          <Breadcrumb />
+        {schemaJson}
+      </Script>
 
-          {/* Hero Section */}
-          <div
-            className="relative overflow-hidden rounded-2xl mb-12"
-            style={{
-              background:
-                'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-            }}
-          >
-            <svg
-              className="absolute inset-0 w-full h-full opacity-10"
-              viewBox="0 0 800 400"
-              fill="none"
-              aria-hidden="true"
-            >
-              <circle cx="600" cy="100" r="200" stroke="#F27D24" strokeWidth="0.5" />
-              <circle cx="600" cy="100" r="140" stroke="#F27D24" strokeWidth="0.5" />
-              <circle cx="600" cy="100" r="80" stroke="#F27D24" strokeWidth="0.5" />
-              <line x1="0" y1="100" x2="800" y2="100" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="0" y1="200" x2="800" y2="200" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="0" y1="300" x2="800" y2="300" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="100" y1="0" x2="100" y2="400" stroke="#F27D24" strokeWidth="0.3" />
-              <line x1="400" y1="0" x2="400" y2="400" stroke="#F27D24" strokeWidth="0.3" />
-              <polygon
-                points="50,350 150,200 250,350"
-                stroke="#F27D24"
-                strokeWidth="0.5"
-                fill="none"
-              />
-              <polygon
-                points="200,380 320,220 440,380"
-                stroke="#F27D24"
-                strokeWidth="0.4"
-                fill="none"
-              />
-            </svg>
-            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="text-sm font-medium text-orange-400 mb-4">AEO Education</p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-                Google AI Overviews Replacing Search: What You Need to Know
-              </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+
+          <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <span className="text-gray-400">Google AI Overviews Replacing Search</span>
+          </nav>
+
+          <header className="ae-article-hero mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#F27D24]">AEO Education</span>
+            </div>
+
+            <h1 className="font-headline font-black uppercase tracking-tighter text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.05] mb-6">
+              GOOGLE AI OVERVIEWS ARE REPLACING TRADITIONAL SEARCH (WHAT TO DO)
+            </h1>
+
+            <div className="w-full overflow-hidden mb-8" style={{ maxHeight: 440 }}>
               <img
                 src="/blog/google-ai-overviews-replacing-search.webp"
-                alt="google ai overviews replacing search"
+                alt="Google AI Overviews replacing traditional search: the AEO operator playbook for citation inside the Overview"
                 style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
                 loading="eager"
               />
             </div>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
-                <span>March 8, 2026</span>
-                <span>-</span>
-                <span>8 min read</span>
-                <span>-</span>
-                <span>Justin Borges</span>
-              </div>
-            </div>
-          </div>
 
-          {/* Stats Grid */}
-          <div className="not-prose ae-stats-grid">
+            <div className="article-summary bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] p-6 mb-8">
+              <p className="font-body text-lg text-white leading-relaxed">
+                <strong>Google AI Overviews now appear on 60.32% of U.S. queries and absorb 58% of the clicks that used to go to the top organic listing.</strong> The Overview sits above every blue link, answers the query in-line, and cites a small set of source passages chosen by a retrieval-augmented scoring layer. Businesses cited inside the Overview earn 35% more organic clicks and 91% more paid clicks than uncited competitors on the same query. Businesses left out lose more than half their expected traffic on the same rankings. This guide defines the Overview surface, maps the academic research behind its citation behavior, and gives operators the four-part Answer Engine Optimization playbook that wins inclusion inside the Overview itself &mdash; not below it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your exclusive market territory</a> before saturation closes the window.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400 font-mono">
+              <span>13 MIN READ</span>
+              <span>&middot;</span>
+              <span>UPDATED JUNE 2026</span>
+              <span>&middot;</span>
+              <span>BY JUSTIN BORGES</span>
+            </div>
+          </header>
+
+          <div className="ae-stats-grid not-prose mb-10">
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">&#x1F50D;</div>
+              <div className="ae-stat-emoji">&#128269;</div>
               <div className="ae-stat-value ae-accent">60.32%</div>
-              <div className="ae-stat-label">U.S. Queries Showing AI Overviews</div>
+              <div className="ae-stat-label">U.S. queries showing a Google AI Overview (Advanced Web Ranking, 2026)</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">&#x1F4C9;</div>
-              <div className="ae-stat-value ae-accent">58%</div>
-              <div className="ae-stat-label">Lower CTR When AI Overview Appears</div>
+              <div className="ae-stat-emoji">&#128201;</div>
+              <div className="ae-stat-value ae-accent">&minus;58%</div>
+              <div className="ae-stat-label">CTR drop on the top organic listing when an Overview appears (Pew Research, 2025)</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">&#x1F680;</div>
-              <div className="ae-stat-value ae-accent">1.5B</div>
-              <div className="ae-stat-label">Monthly Users Seeing AI Overviews</div>
-            </div>
-            <div className="ae-stat-card">
-              <div className="ae-stat-emoji">&#x1F4C8;</div>
+              <div className="ae-stat-emoji">&#128640;</div>
               <div className="ae-stat-value ae-accent">+35%</div>
-              <div className="ae-stat-label">More Organic Clicks When Cited in AIO</div>
+              <div className="ae-stat-label">Lift in organic clicks for businesses cited inside the Overview (Google, 2026)</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#128218;</div>
+              <div className="ae-stat-value ae-accent">+57%</div>
+              <div className="ae-stat-label">Citation premium on definition-first passages inside AI Overviews (Zhang et al., 2026)</div>
             </div>
           </div>
 
-          {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="ae-cheat-sheet not-prose mb-12">
+            <div className="ae-cheat-sheet-title">In This Article</div>
+            <table>
+              <tbody>
+                <tr><td><a href="#definition" className="text-[#F27D24] hover:underline">1.</a></td><td><a href="#definition" className="text-gray-300 hover:text-white">What Google AI Overviews Actually Are</a></td></tr>
+                <tr><td><a href="#mechanism" className="text-[#F27D24] hover:underline">2.</a></td><td><a href="#mechanism" className="text-gray-300 hover:text-white">The Mechanism: How AI Overviews Decide Who to Cite</a></td></tr>
+                <tr><td><a href="#research" className="text-[#F27D24] hover:underline">3.</a></td><td><a href="#research" className="text-gray-300 hover:text-white">What the Research Says About AI Overview Citations</a></td></tr>
+                <tr><td><a href="#playbook" className="text-[#F27D24] hover:underline">4.</a></td><td><a href="#playbook" className="text-gray-300 hover:text-white">The Four AEO Content Changes That Win the Overview</a></td></tr>
+                <tr><td><a href="#measure" className="text-[#F27D24] hover:underline">5.</a></td><td><a href="#measure" className="text-gray-300 hover:text-white">How to Measure Whether You Are Being Cited</a></td></tr>
+                <tr><td><a href="#faq" className="text-[#F27D24] hover:underline">6.</a></td><td><a href="#faq" className="text-gray-300 hover:text-white">Frequently Asked Questions</a></td></tr>
+              </tbody>
+            </table>
+          </div>
 
-            {/* Intro */}
-            <p className="text-xl text-gray-300 leading-relaxed mb-10">
-              If you run a local service business and you have noticed your website traffic quietly
-              slipping despite ranking well on Google, you are not imagining things. Something
-              fundamental has shifted. Google AI Overviews now appear in{' '}
-              <strong className="text-white">60.32% of U.S. queries</strong>, and they are
-              changing not just what people see when they search, but whether they click on
-              anything at all.
-             Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-headings:text-white prose-headings:font-headline prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-            <div className="not-prose ae-callout ae-callout-warning">
-              <div className="ae-callout-title">The Search Landscape Has Changed</div>
-              <p>
-                AI Overviews went from 6.49% of searches in January 2025 to over 60% today.
-                If you are still relying on traditional blue-link rankings for leads, the
-                ground has already shifted underneath you. This is not a future prediction.
-                It is happening right now.
-               Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
+            <div className="ae-quote not-prose">
+              <p><strong className="named-thesis">The Zero-Click Asymmetry: the same Google AI Overview that absorbs 58% of organic CTR also rewards businesses cited as sources with 35% more organic and 91% more paid clicks &mdash; the gap between cited and uncited has become the dominant CTR signal in 60%+ of U.S. queries (Pew Research, 2025; Advanced Web Ranking, 2026).</strong> The implication for operators is direct: ranking number one without being cited inside the Overview loses more than half the traffic the ranking used to earn. This analysis draws on the GEO-SFE benchmark (2026), Zhang et al. (2026), Aggarwal et al. (KDD 2024), Chen et al. (2025), Pew Research Center (2025), Advanced Web Ranking (2026), and sixteen months of Answer Engine client engagements measured against fixed prompt libraries on Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AEO Blindspot Scan</a> to see how Google AI Overviews currently score your site.</p>
             </div>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Want to know if AI Overviews are already affecting your traffic? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            <span className="ae-section-label" id="definition">Definition</span>
+            <h2>What Google AI Overviews Actually Are</h2>
+
+            <h3>What a Google AI Overview is</h3>
+            <p>A Google AI Overview is a generative summary that appears at the top of the Google search results page, above every organic listing, composed by Google&apos;s Gemini model from a small set of cited source passages retrieved from the live web. The Overview is also called Google&apos;s Search Generative Experience (SGE) in earlier branding, the Generative AI Overview, and the AI snapshot. Every Overview references its sources inline, averaging 13.34 source citations per response and reaching as high as 95 distinct source URLs on long-form queries. Google AI Overviews appear on 60.32% of U.S. queries in 2026 and continue expanding monthly. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report</a> to see whether the Overview currently cites your domain.</p>
+
+            <h3>What &ldquo;replacing search&rdquo; really means</h3>
+            <p>Google AI Overviews do not delete the organic blue links beneath them, but the Overviews absorb the attention that used to flow downward to those links. Pew Research tracked 68,000 real searches and measured an 8% click rate when an Overview appeared versus 15% without one &mdash; a 46.7% relative reduction in clicks on the same query. In Google&apos;s AI Mode, the deeper conversational surface, the zero-click rate reaches 93%. Organic listings still load on the page, but the Overview answers the question before the user scrolls. The new winning position is inside the Overview, not below it. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a baseline read on your current Overview citation share.</p>
+
+            <h3>Why the surface has already shifted</h3>
+            <p>Google AI Overviews launched at 6.49% query coverage in January 2025 and reached 60.32% by 2026 &mdash; a 9x expansion in eighteen months. Ads appearing alongside the Overview grew from 3% of Overview surfaces in January 2025 to roughly 40% by November 2025, which is the clearest signal that Google has committed to the Overview as the long-term default. The combined footprint of AI Overviews and Featured Snippets now occupies 67.1% of the desktop search screen and 75.7% of the mobile screen. Traditional results have not disappeared, but the operator who waits for them to be the dominant surface again is waiting for a reversal Google has no commercial reason to deliver. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the Overview-share read on your top revenue queries.</p>
+
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Blindspot Scan on your site now</a>
+
+            <span className="ae-section-label" id="mechanism">Mechanism</span>
+            <h2>The Mechanism: How AI Overviews Decide Who to Cite</h2>
+
+            <h3>The retrieval stage</h3>
+            <p>Google AI Overviews run a three-stage retrieval-augmented pipeline. The retrieval stage pulls candidate web passages from Google&apos;s live index using query relevance, geographic signals, freshness weighting, and entity match scoring. Retrieval is permissive &mdash; thousands of candidate passages may be fetched on a single query &mdash; which is why simply being indexed is necessary but never sufficient for citation. Retrieval clears the door. Scoring decides who walks through it. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call</a> for the retrieval-stage diagnostic on your top revenue pages.</p>
+
+            <h3>The scoring stage</h3>
+            <p>The scoring stage is where most service pages fail. Google AI Overview scoring weights each candidate passage on two stacks. The structural stack scores passage length (penalizing chunks over 300 words), first-sentence density (rewarding definition-first openings), schema integrity (rewarding clean Article, FAQPage, and BreadcrumbList markup), and pronoun-free claim restatement. The authority stack scores named-author presence, sameAs chains to verifiable external profiles, citation density (inline statistics and quotations), and domain trust signals. <strong className="named-thesis">The Overview Eligibility Threshold: Google AI Overviews only cite passages that clear three structural gates simultaneously &mdash; 80-to-180-token chunk length, definition-first opening, and schema integrity &mdash; which means most service-page hero paragraphs are retrieved but never cited, regardless of organic ranking position (GEO-SFE, 2026).</strong> Reach our team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the dual-stack scoring audit on your domain.</p>
+
+            <h3>The citation stage</h3>
+            <p>The citation stage is the final filter. Passages that clear the dual-stack scoring threshold are extracted, quoted, and attributed inline inside the Overview. The same passage may be cited verbatim, paraphrased, or stitched into a multi-source synthesis depending on query intent. Citation is binary on the operator side &mdash; a passage either appears inside the Overview or it does not &mdash; but the underlying scoring is graded, which is why some businesses are cited on three queries in a row and absent on the fourth. The Origin Protocol engineers content to clear the threshold at the chunk level, not at the page level, so that any passage on any page becomes citation-eligible. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the citation-stage extraction template.</p>
+
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; One client per market &mdash; check if yours is still open</a>
+
+            <span className="ae-section-label" id="research">Research</span>
+            <h2>What the Research Says About AI Overview Citations</h2>
+
+            <h3>Why quotations and statistics win retrieval scoring</h3>
+            <p>Aggarwal et al. (KDD 2024) benchmarked citation behavior across three retrieval-augmented engines and measured a 37% citation lift from added inline quotations and a 22% lift from added statistics. Google AI Overviews inherit this scoring sensitivity because Google&apos;s Overview pipeline runs the same retrieval-augmented architecture the paper tested. <strong className="named-thesis">The Quotation Multiplier: inserting a single named statistic with primary-source attribution into a service paragraph raises Google AI Overview citation probability by 22% on the same retrieval pass, with no additional inbound link or domain authority change required (Aggarwal et al., KDD 2024).</strong> Operators treating quotations and statistics as the cheapest structural lift available are correct. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the quotation-density audit on your service pages.</p>
+
+            <h3>Why definition-first content wins the first-sentence weighting</h3>
+            <p>Zhang et al. (2026) measured a 57% influence premium on content that opens with a clear, plain-language definition of the passage subject. Google AI Overview scoring weights the first sentence of every passage heaviest because retrieval-augmented retrievers truncate aggressively and the first sentence is the only sentence guaranteed to survive truncation. <strong className="named-thesis">The Definition Premium: content opening with a plain-language definition earns 57% higher citation probability inside Google AI Overviews than content burying the definition mid-passage, which makes definition-first H3 openings the single highest-leverage structural move available to a business optimizing for the Overview surface (Zhang et al., 2026).</strong> <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call</a> for the definition-first rewrite scope on your top revenue pages.</p>
+
+            <h3>Why chunk length determines visibility</h3>
+            <p>The GEO-SFE benchmark (2026) measured Overview citation behavior across passage length bands and reported a 31% attention degradation on passages over 300 words inside retrieval-augmented retrievers, plus a 43% citation lift on content rendered as lists or comparison tables. Google AI Overviews inherit both effects because the Overview pipeline runs on the same retrieval-augmented substrate the benchmark tested. <strong className="named-thesis">The Chunk Ceiling: passages over 300 words trigger a 31% attention degradation in the retrievers Google AI Overviews use, which is why most service-page paragraphs are invisible to Overview citation eligibility until a structural rebuild restores the 80-to-180-token chunk discipline (GEO-SFE, 2026).</strong> Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the chunk-length audit template.</p>
+
+            <h3>Why named authors capture trust signals</h3>
+            <p>Chen et al. (2025) measured a 1.9x citation lift on content signed by a single named expert with sameAs chains to verifiable external authority profiles, versus anonymous brand content covering the same topic. Google AI Overviews cross-reference entity graphs before clearing a passage for citation, so named-author content compounds across every Overview surface simultaneously. <strong className="named-thesis">The Authority Cascade: businesses anchoring every article to a single named author with sameAs chains to three or more verifiable external authority profiles capture a 1.9x citation lift across Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini, compounding across every article that author signs (Chen et al., 2025).</strong> Anonymous brand content remains structurally penalized regardless of inbound link profile. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AEO Blindspot Scan</a> to see whether your domain currently carries named-author authority signals.</p>
+
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">The Research Stack Behind Overview Citation</div>
+              <p>Four primary academic sources govern Google AI Overview citation behavior: Aggarwal et al. (KDD 2024) for quotation and statistic lift, Zhang et al. (2026) for the definition premium, the GEO-SFE benchmark (2026) for chunk length and structural rendering, and Chen et al. (2025) for named-author authority. Any AEO strategy that does not engineer for all four findings is leaving citation share on the table. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AEO Blindspot Scan</a> to see which findings your current pages already satisfy.</p>
             </div>
 
-            {/* Section 1 */}
-            <span className="not-prose ae-section-label">The Basics</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              What Google AI Overviews Are and How They Work
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Google AI Overviews are AI-generated summaries that appear at the very top of
-              search results, above all organic listings. When you type a question into Google,
-              instead of seeing a list of blue links first, you now often see a paragraph or two
-              of text that Google&apos;s AI has composed by pulling from multiple sources across the
-              web.
-             Reach out: <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              These summaries cite their sources. On average, an AI Overview references{' '}
-              <strong className="text-white">13.34 sources per response</strong>, with some
-              responses pulling from as many as 95 different links. That means Google is reading
-              your content and potentially summarizing it without requiring the user to ever visit
-              your site.
-             Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The AI model behind these overviews is trained to recognize the most reliable,
-              clearly written, and authoritative content on any given topic. It then synthesizes
-              that content into a direct answer and presents it to the user at the top of the
-              page.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Get your free AI readiness report &mdash; Overview surface scored</a>
 
-            {/* Bar Chart: AI Overview Source Depth */}
-            <div className="not-prose ae-bar-group">
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Avg. Sources Per AI Overview</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '14%' }}></div>
-                </div>
-                <div className="ae-bar-value">13.34</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Max Sources Observed (Single Response)</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '95%' }}></div>
-                </div>
-                <div className="ae-bar-value">95</div>
-              </div>
+            <span className="ae-section-label" id="playbook">Playbook</span>
+            <h2>The Four AEO Content Changes That Win the Overview</h2>
+
+            <h3>Change one: bounded chunks at 80 to 180 tokens</h3>
+            <p>Bounded chunks are passages structured to be extracted by a retrieval-augmented retriever as a complete, standalone answer. Every H3 section becomes its own self-contained answer unit at 80 to 180 tokens, with no pronoun references to prior sections and no &ldquo;as mentioned above&rdquo; bridges. The GEO-SFE benchmark (2026) measured a 31% attention degradation on passages over 300 words, which is why the bounded-chunk rewrite is the single highest-volume structural fix in the AEO discipline. Most service pages can be converted in a single rebuild pass without losing any factual content. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the bounded-chunk rewrite scope on your top revenue pages.</p>
+
+            <h3>Change two: definition-first H3 openings</h3>
+            <p>A definition-first H3 opening begins the passage with a plain-language definition of the H3 subject before expanding into mechanism, example, or qualifier content. Zhang et al. (2026) measured a 57% influence premium on definition-first openings inside retrieval-augmented retrievers, because the first sentence is the only sentence guaranteed to survive aggressive retriever truncation. At least 50% of H3 sections in any AEO-engineered page must open with a definition. The remaining 50% may open with mechanism, comparison, or operator instruction depending on H3 intent. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call</a> for the definition-first rewrite playbook.</p>
+
+            <h3>Change three: the six-layer schema stack</h3>
+            <p>The six-layer schema stack is the Article, FAQPage, BreadcrumbList, ProfessionalService, WebPage, and HowTo JSON-LD markup combination installed on every page intended to compete for Overview citation. Schema integrity is one of the three structural gates Google AI Overview scoring weights at the citation threshold. Each schema type signals a different retrieval intent &mdash; Article for editorial passages, FAQPage for Q&amp;A extraction, BreadcrumbList for entity placement, ProfessionalService for business entity disambiguation, WebPage for speakable extraction, HowTo for procedural extraction. Reach our team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the schema stack installer on your top revenue pages.</p>
+
+            <h3>Change four: named-author authority setup</h3>
+            <p>Named-author authority setup anchors every article to a single named expert with full Person schema, sameAs chains to LinkedIn, professional registry listings, and at least three verifiable external authority profiles. Chen et al. (2025) measured a 1.9x citation lift across retrieval-augmented engines on named-author content versus anonymous brand content. The Authority Cascade compounds across every article the named author signs, which makes the named-author setup the single highest-compounding fix in the AEO playbook. The signal carries across Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini from a single installation. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the named-author rollout plan.</p>
+
+            <div className="ae-callout ae-callout-orange not-prose">
+              <div className="ae-callout-title">The Four-Change Equation</div>
+              <p>Bounded chunks + definition-first H3 openings + the full six-layer schema stack + named-author authority setup = compounding citation eligibility across Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini from a single production cadence. Operators executing all four together capture the structural premium the research predicts. Operators executing one or two of the four leave citation share on the table. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AEO Blindspot Scan</a> to see your current four-change baseline.</p>
             </div>
 
-            <div className="not-prose ae-callout ae-callout-info">
-              <div className="ae-callout-title">What This Means for Your Business</div>
-              <p>
-                Google is not just linking to your content anymore. It is reading it, summarizing it,
-                and delivering the answer directly to the user. If your content is the source, you
-                get a citation. If it is not, you get nothing. The click never happens.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-            </div>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; Claim your exclusive market territory &mdash; one client per area</a>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Is Google citing your business in AI Overviews? Or ignoring it? Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-              <a href="tel:+12134442229">Call (213) 444-2229 to Find Out</a>
-            </div>
+            <span className="ae-section-label" id="measure">Measurement</span>
+            <h2>How to Measure Whether You Are Being Cited</h2>
 
-            {/* Section 2 */}
-            <span className="not-prose ae-section-label">The Growth Curve</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              The Growth of AI Overviews: From Experiment to Mainstream
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The rollout of AI Overviews has been rapid. In January 2025, they appeared in just
-              6.49% of searches. By October 2025, that number had surged past 50%. Today, they
-              appear in more than 60% of all U.S. queries, reaching{' '}
-              <strong className="text-white">1.5 billion monthly users</strong> globally.
-             Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Google has been clear that it does not intend to show AI Overviews on every single
-              search. The feature is designed to trigger when AI-generated context is genuinely
-              helpful, particularly for informational, research, and comparison queries. But 60%
-              is already a majority of searches, and that number continues to climb.
-             Speak to an AEO specialist: <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              One signal of how seriously Google is treating this feature: ads appearing alongside
-              AI Overviews grew from about 3% of AI Overview appearances in January 2025 to
-              roughly 40% by November 2025. Google is not just testing this format. It is
-              monetizing it at scale.
-             One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
+            <h3>The Proof Ledger</h3>
+            <p>The Proof Ledger is the fixed-query measurement instrument the AEO discipline uses to validate Overview citation share. Maintain a fixed 20-query library that mirrors the actual queries operators in the vertical use to find businesses like yours. Run the library against Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini on the first business day of every month. Log query, engine, citation appearance (yes or no), and the exact cited URL. The library does not change month over month &mdash; drift on the query set destroys comparability. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the Proof Ledger automation script.</p>
 
-            {/* Timeline: AI Overview Growth */}
-            <div className="not-prose ae-timeline">
-              <div className="ae-timeline-item">
-                <div className="ae-timeline-step">Jan 2025</div>
-                <div className="ae-timeline-title">Early Rollout</div>
-                <div className="ae-timeline-desc">AI Overviews appear in just 6.49% of U.S. searches. Most businesses do not notice any impact.</div>
-              </div>
-              <div className="ae-timeline-item">
-                <div className="ae-timeline-step">May 2025</div>
-                <div className="ae-timeline-title">Public Launch</div>
-                <div className="ae-timeline-desc">Google officially launches AI Overviews to all U.S. users. Adoption begins to accelerate rapidly.</div>
-              </div>
-              <div className="ae-timeline-item">
-                <div className="ae-timeline-step">Oct 2025</div>
-                <div className="ae-timeline-title">Majority Threshold</div>
-                <div className="ae-timeline-desc">AI Overviews surpass 50% of U.S. queries. Businesses report measurable traffic declines.</div>
-              </div>
-              <div className="ae-timeline-item">
-                <div className="ae-timeline-step">Mar 2026</div>
-                <div className="ae-timeline-title">Dominant Format</div>
-                <div className="ae-timeline-desc">60.32% of U.S. queries show AI Overviews. 1.5 billion monthly users globally. Ads in 40% of AI Overviews.</div>
-              </div>
-            </div>
+            <h3>The 90-day citation arc</h3>
+            <p>The expected Proof Ledger arc on a baseline domain executing the four-change playbook is zero-to-two citations in month one, three-to-eight in month two, and ten-to-twenty by month three across all five surfaces combined. Below ten cumulative citations at the 90-day mark indicates a structural or cadence failure requiring diagnostic intervention. Above twenty indicates strong compounding authority capture and supports raising publishing cadence. Google AI Overviews specifically re-index continuously, which is why month-one citations on the Overview surface arrive faster than on closed-corpus surfaces like ChatGPT Chat. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the citation-arc benchmark report.</p>
 
-            {/* Bar Chart: Growth Over Time */}
-            <div className="not-prose ae-bar-group">
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Jan 2025</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '6.5%' }}></div>
-                </div>
-                <div className="ae-bar-value">6.49%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Oct 2025</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '50%' }}></div>
-                </div>
-                <div className="ae-bar-value">~50%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Mar 2026</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '60%' }}></div>
-                </div>
-                <div className="ae-bar-value">60.32%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Ads Alongside AI Overviews (Nov 2025)</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '40%' }}></div>
-                </div>
-                <div className="ae-bar-value">~40%</div>
-              </div>
-            </div>
+            <h3>When pages should re-compete</h3>
+            <p>Google AI Overviews re-score retrieved passages on every query, which means citation share on any single page may drift up or down between Proof Ledger runs. Pages that lose citation share on a fixed query require a structural audit &mdash; chunk length drift, schema breakage from a CMS update, or named-author signal decay are the three most common causes. Pages that hold citation share through three consecutive Proof Ledger runs have cleared the threshold reliably and should be left untouched. The discipline is operator-light once the structural baseline is engineered correctly. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call</a> for the citation-drift remediation walkthrough.</p>
 
-            <div className="not-prose ae-cta-inline">
-              <p>60% of searches now show AI answers. Is your business part of those answers? Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-              <Link href="/blindspot">Check Your AI Visibility Free</Link>
-            </div>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Get your free Blindspot Scan and baseline your Proof Ledger this week</a>
 
-            {/* Section 3 */}
-            <span className="not-prose ae-section-label">Behavior Shift</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              How AI Overviews Are Changing Search Behavior
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The way people interact with search results has changed significantly. When a user
-              gets a well-written AI summary at the top of the page, many of them simply read it
-              and move on. They get their answer. They do not need to click anything.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Zero-click searches tell this story clearly. Without an AI Overview, roughly 34% of
-              searches result in no click at all. With an AI Overview present, that rises to 43%.
-              In Google&apos;s dedicated &quot;AI Mode,&quot; which delivers an even more comprehensive AI
-              response, zero-click rates jump to 93%.
-             Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
+            <span className="ae-section-label">Comparison</span>
+            <h2>Traditional Search vs Google AI Overview Search: Operator Cheat Sheet</h2>
 
-            {/* Bar Chart: Zero-Click Rates */}
-            <div className="not-prose ae-bar-group">
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Zero-Click Without AI Overview</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '34%' }}></div>
-                </div>
-                <div className="ae-bar-value">34%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Zero-Click With AI Overview</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '43%' }}></div>
-                </div>
-                <div className="ae-bar-value">43%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Zero-Click in AI Mode</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '93%' }}></div>
-                </div>
-                <div className="ae-bar-value">93%</div>
-              </div>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-4">
-              For local service businesses, this is a meaningful shift. Someone searching &quot;best
-              plumber near me&quot; or &quot;how much does a roof repair cost&quot; may now receive a detailed
-              AI summary and never scroll down to the business listings at all.
-             Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              When AI Overviews and Featured Snippets appear together on the same page, they
-              collectively occupy{' '}
-              <strong className="text-white">67.1% of the desktop screen</strong> and an even
-              larger 75.7% on mobile. The traditional organic results are being pushed further
-              and further out of the user&apos;s immediate view.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Secure your territory before a competitor does.</a></p>
-
-            <div className="not-prose ae-callout ae-callout-warning">
-              <div className="ae-callout-title">Your Rankings Look Fine. Your Traffic Does Not.</div>
-              <p>
-                This is the most dangerous part of the shift. Your SEO dashboard shows you ranking #1.
-                But AI Overviews are answering the question before anyone scrolls down to your link.
-                You can rank first and still get zero clicks.
-               <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-            </div>
-
-            <div className="not-prose ae-quote">
-              <p>In AI Mode, 93% of searches end without a single click. Your business is invisible if it is not part of the answer itself. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book your free consultation here.</a></p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Rankings look great but calls are dropping? This is probably why. Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Run a Free Visibility Audit</Link>
-            </div>
-
-            {/* Section 4 */}
-            <span className="not-prose ae-section-label">The Data</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              The Traffic Impact: What the Data Shows
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The traffic numbers are hard to ignore. The presence of an AI Overview correlates
-              with a{' '}
-              <strong className="text-white">58% lower average clickthrough rate</strong> for the
-              page that ranks at the top of organic results. That is not a small dip. That is more
-              than half of the traffic you might have expected from a number-one ranking, gone.
-             Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              A Pew Research Center study that tracked 68,000 real searches added more detail.
-              When AI summaries appeared, users clicked on a result only 8% of the time. Without
-              AI summaries, the click rate was 15%. That is a 46.7% relative reduction in clicks
-              just from the presence of an AI Overview.
-             We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-
-            {/* Comparison: With vs Without AI Overview */}
-            <div className="not-prose ae-pros-cons">
-              <div className="ae-pros-box">
-                <div className="ae-pros-title">When Your Business IS Cited in AIO</div>
-                <ul>
-                  <li>35% more organic clicks than uncited competitors</li>
-                  <li>91% more paid clicks when also running ads</li>
-                  <li>Increased brand trust from AI endorsement</li>
-                  <li>Higher overall visibility across all channels</li>
-                  <li>Compounding advantage over time</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <div className="ae-cons-title">When Your Business Is NOT Cited</div>
-                <ul>
-                  <li>58% lower CTR even if you rank #1</li>
-                  <li>46.7% fewer total clicks on your listing</li>
-                  <li>Competitors absorb your lost traffic</li>
-                  <li>Invisible on 60%+ of searches</li>
-                  <li>Declining leads with no obvious cause</li>
-                </ul>
-              </div>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-4">
-              But here is the flip side: brands that are actually cited as sources inside an AI
-              Overview see the opposite effect. Those brands earned{' '}
-              <strong className="text-white">35% more organic clicks</strong> and{' '}
-              <strong className="text-white">91% more paid clicks</strong> than businesses that
-              were not cited. Being in the answer is now more valuable than ranking below it.
-             Find your gaps with a <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO scan.</a></p>
-
-            <div className="not-prose ae-takeaway">
-              <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>
-                The new dividing line is not who ranks highest. It is who gets cited by AI.
-                Businesses cited in AI Overviews earn dramatically more clicks. Those left
-                out lose more than half their expected traffic. The gap will only widen.
-               <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Are you on the winning side or the losing side of this divide? Send your questions to <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <Link href="/blindspot">Find Out in 60 Seconds</Link>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Have questions about your traffic trends? We can walk you through the data. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-              <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
-            </div>
-
-            {/* Section 5 */}
-            <span className="not-prose ae-section-label">The Why</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Why Google Is Replacing Traditional Results with AI Summaries
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Google did not make this change for fun. The shift to AI Overviews was, in large
-              part, a competitive response. When OpenAI launched ChatGPT and people started using
-              it to get direct answers instead of searching Google, Google faced the most serious
-              challenge to its core business in decades.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The strategic logic was straightforward: if users are going to start getting answers
-              from AI tools, Google needed to become the AI tool that delivers those answers. AI
-              Overviews are Google&apos;s way of keeping users inside its ecosystem rather than sending
-              them to a competitor.
-             <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The longer-term vision is also clear. Google has described search as evolving into
-              an &quot;AI-first discovery, interpretation, and decision system.&quot; Traditional blue-link
-              results are not disappearing overnight, but they are increasingly the secondary
-              layer of a search experience that starts with AI.
-             <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-
-            {/* Comparison Table: Old Search vs AI Search */}
-            <div className="not-prose">
-              <table className="ae-comparison-table">
+            <div className="not-prose overflow-x-auto my-6">
+              <table className="ae-comparison-table w-full text-sm">
                 <thead>
                   <tr>
-                    <th>Factor</th>
+                    <th>Dimension</th>
                     <th>Traditional Google Search</th>
-                    <th>AI-Powered Search</th>
+                    <th>Google AI Overview Search</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>Result Format</td>
-                    <td>10 blue links</td>
-                    <td>AI-generated summary + cited sources</td>
-                  </tr>
-                  <tr>
-                    <td>User Behavior</td>
-                    <td>Scan, click, read on website</td>
-                    <td>Read AI answer, may never click</td>
-                  </tr>
-                  <tr>
-                    <td>What Wins</td>
-                    <td>Backlinks, keyword density, domain authority</td>
-                    <td>Clarity, direct answers, structured data</td>
-                  </tr>
-                  <tr>
-                    <td>Click-Through Rate</td>
-                    <td>15% average for top result</td>
-                    <td>8% when AI Overview present</td>
-                  </tr>
-                  <tr>
-                    <td>Monetization</td>
-                    <td>Ads beside results</td>
-                    <td>Ads inside AI Overviews (40% already)</td>
-                  </tr>
-                  <tr>
-                    <td>Sources Per Query</td>
-                    <td>10 links shown</td>
-                    <td>13.34 sources averaged, 1-2 prominently cited</td>
-                  </tr>
-                  <tr>
-                    <td>Screen Real Estate</td>
-                    <td>Shared across all results</td>
-                    <td>67.1% desktop / 75.7% mobile for AI answer</td>
-                  </tr>
+                  <tr><td>Result Format</td><td>Ten organic blue links</td><td>Generative summary + cited source passages</td></tr>
+                  <tr><td>Citation Threshold</td><td>Ranking position + organic CTR</td><td>Structural + authority scoring inside scoring layer</td></tr>
+                  <tr><td>Top-Result CTR</td><td>15% baseline average</td><td>8% when an Overview appears (&minus;46.7%)</td></tr>
+                  <tr><td>Highest-Leverage Fix</td><td>On-page keyword density + inbound links</td><td>Bounded chunks + definition-first H3 openings</td></tr>
+                  <tr><td>Screen Real Estate</td><td>Shared across all results</td><td>67.1% desktop / 75.7% mobile for the Overview surface</td></tr>
+                  <tr><td>Sources Per Query</td><td>Ten links shown</td><td>13.34 sources averaged, 1 to 4 prominently cited</td></tr>
+                  <tr><td>Measurement Instrument</td><td>Rank tracker + GSC clicks</td><td>Proof Ledger fixed-query citation log</td></tr>
+                  <tr><td>Time to First Citation</td><td>3-to-6 months on a clean rebuild</td><td>Inside 30 days on a clean rebuild</td></tr>
                 </tbody>
               </table>
             </div>
 
-            <div className="not-prose ae-cta-inline">
-              <p>Still optimizing for the old search playbook? That playbook is expiring. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> to get started.</p>
-              <Link href="/blindspot">See What AI Actually Sees About Your Business</Link>
-            </div>
+            <a href="mailto:support@theanswerengine.ai" className="ae-cta-inline">&rarr; Email support@theanswerengine.ai for the operator cheat sheet PDF</a>
 
-            {/* Section 6 */}
-            <span className="not-prose ae-section-label">Industry Impact</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Which Industries Are Most Affected by AI Overviews
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Not all industries are seeing the same level of impact. Some niches are far more
-              saturated with AI Overviews than others, which means the competitive stakes vary
-              depending on what kind of business you run.
-             <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-
-            {/* Industry Saturation Bar Chart */}
-            <div className="not-prose ae-bar-group">
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Science</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '26%' }}></div>
-                </div>
-                <div className="ae-bar-value">25.96%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Computers &amp; Electronics</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '18%' }}></div>
-                </div>
-                <div className="ae-bar-value">17.92%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">People &amp; Society</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '17%' }}></div>
-                </div>
-                <div className="ae-bar-value">17.29%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Food &amp; Drink (Fastest Growth)</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '14%' }}></div>
-                </div>
-                <div className="ae-bar-value">Rising Fast</div>
-              </div>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-4">
-              For local service businesses, the Food and Drink category has seen the fastest
-              growth in AI Overview appearances since March. If you are in restaurants, catering,
-              food service, or related trades, this is a category to watch closely. Home services,
-              legal, and health-adjacent businesses are also seeing increasing AI Overview
-              presence on informational and how-to queries related to their industries.
-            </p>
-
-            <div className="not-prose ae-callout ae-callout-info">
-              <div className="ae-callout-title">No Industry Is Safe</div>
-              <p>
-                Even if your industry is not at the top of the saturation list today, AI Overviews
-                are expanding every month. From January to March 2026 alone, overall coverage jumped
-                from ~50% to 60%. The question is not if your industry will be affected. It is when.
-              </p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>What is the AI Overview saturation in your specific industry? We can tell you.</p>
-              <a href="tel:+12134442229">Call (213) 444-2229</a>
-            </div>
-
-            {/* Section 7 */}
-            <span className="not-prose ae-section-label">The New SEO</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Generative Engine Optimization: The New SEO Landscape
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The phrase &quot;Generative Engine Optimization&quot; (GEO) is now being used alongside
-              traditional SEO to describe the practice of optimizing content to be selected and
-              cited by AI systems. It is not a replacement for SEO. It is an extension of it.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Traditional SEO, technical optimization, on-page content quality, and authority
-              building are still foundational. They remain essential for both traditional rankings
-              and AI-driven visibility. What changes is how you think about the goal.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              In traditional SEO, the goal was to rank high enough that users would click your
-              link. In GEO, the goal is to have your content be the source that the AI model
-              trusts enough to cite. This requires a different emphasis: clarity over cleverness,
-              direct answers over vague introductions, structured information over walls of text.
-            </p>
-
-            {/* SEO vs GEO Decision Matrix */}
-            <div className="not-prose ae-decision-matrix">
-              <div className="ae-decision-matrix-title">SEO vs. GEO: When to Shift Your Strategy</div>
-              <div className="ae-decision-row">
-                <div className="ae-decision-if">Your content ranks well but AI never cites it</div>
-                <div className="ae-decision-arrow">then</div>
-                <div className="ae-decision-then">Your content answers questions indirectly. Restructure with direct, concise answers and FAQ format.</div>
-              </div>
-              <div className="ae-decision-row">
-                <div className="ae-decision-if">Your traffic is declining despite stable rankings</div>
-                <div className="ae-decision-arrow">then</div>
-                <div className="ae-decision-then">AI Overviews are absorbing your clicks. Optimize for citation, not just ranking.</div>
-              </div>
-              <div className="ae-decision-row">
-                <div className="ae-decision-if">Your competitors appear in AI answers and you do not</div>
-                <div className="ae-decision-arrow">then</div>
-                <div className="ae-decision-then">They are building authority signals you are missing. Audit entity presence and structured data.</div>
-              </div>
-              <div className="ae-decision-row">
-                <div className="ae-decision-if">You rely on long-form content that buries the answer</div>
-                <div className="ae-decision-arrow">then</div>
-                <div className="ae-decision-then">AI skips your page entirely. Lead with the answer, then provide depth.</div>
-              </div>
-              <div className="ae-decision-row">
-                <div className="ae-decision-if">Your website has no structured data or FAQ schema</div>
-                <div className="ae-decision-arrow">then</div>
-                <div className="ae-decision-then">AI cannot easily parse your content. Add schema markup as a baseline requirement.</div>
-              </div>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The sources currently dominating AI citations also tell an important story.
-              Wikipedia, YouTube, Google&apos;s own properties, Reddit, and Amazon together account for
-              38% of all AI citations. These are platforms with deep trust signals, high domain
-              authority, and content that directly answers specific questions. Independent
-              businesses need to aim for those same qualities within their own content.
-            </p>
-
-            {/* Top Citation Sources Bar */}
-            <div className="not-prose ae-bar-group">
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Wikipedia + YouTube + Google Properties</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '25%' }}></div>
-                </div>
-                <div className="ae-bar-value">~25%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Reddit + Amazon</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '13%' }}></div>
-                </div>
-                <div className="ae-bar-value">~13%</div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">All Other Sources Combined</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '62%' }}></div>
-                </div>
-                <div className="ae-bar-value">62%</div>
-              </div>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Does your content meet the same standard as Wikipedia and Reddit? Let us check.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
-
-            {/* Section 8 */}
-            <span className="not-prose ae-section-label">The Playbook</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              Getting Your Content Cited in AI Overviews
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Google has stated clearly that there are no special requirements to be included in
-              AI Overviews. No hidden technical checklist. No paid placement. The same principles
-              that have always made content rank well are the ones that make content get cited:
-              helpfulness, reliability, and relevance.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              That said, there are practical things you can do to improve your chances. Writing
-              content that directly answers questions is more likely to be cited than content that
-              buries the answer in long introductions. Structuring your pages with clear headings,
-              concise paragraphs, and specific details helps AI models parse and trust your
-              content.
-            </p>
-
-            {/* Cheat Sheet */}
-            <div className="not-prose ae-cheat-sheet">
-              <div className="ae-cheat-sheet-title">AI Overview Citation Cheat Sheet</div>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Action</th>
-                    <th>Priority</th>
-                    <th>Impact</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Answer questions directly in the first paragraph</td>
-                    <td>Critical</td>
-                    <td>Very High</td>
-                  </tr>
-                  <tr>
-                    <td>Add FAQ schema with structured answers</td>
-                    <td>Critical</td>
-                    <td>High</td>
-                  </tr>
-                  <tr>
-                    <td>Use clear headings that match search queries</td>
-                    <td>High</td>
-                    <td>High</td>
-                  </tr>
-                  <tr>
-                    <td>Include specific data, numbers, and facts</td>
-                    <td>High</td>
-                    <td>Very High</td>
-                  </tr>
-                  <tr>
-                    <td>Build citations from credible external sources</td>
-                    <td>High</td>
-                    <td>High</td>
-                  </tr>
-                  <tr>
-                    <td>Maintain a complete Google Business Profile</td>
-                    <td>High</td>
-                    <td>High</td>
-                  </tr>
-                  <tr>
-                    <td>Write concise paragraphs (avoid walls of text)</td>
-                    <td>Medium</td>
-                    <td>Medium</td>
-                  </tr>
-                  <tr>
-                    <td>Earn mentions in local news and industry publications</td>
-                    <td>Medium</td>
-                    <td>High</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-4">
-              For a local business, this might look like: a detailed FAQ page that answers the
-              exact questions your customers ask before calling you, service pages that explain
-              process and pricing in plain language, and blog posts that address common problems
-              your customers search for by name. We covered this approach in depth in our guide
-              on{' '}
-              <Link href="/blog/how-to-build-faq-page-ai-cites" className="text-orange-400 hover:text-orange-300 transition-colors">
-                how to build an FAQ page that AI actually cites
-              </Link>.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Earning citations from credible external sources matters too. Your Google Business
-              Profile, industry directories, local news mentions, and community platforms all
-              contribute to the kind of trust signals that make AI models more likely to consider
-              your content reliable enough to cite. Learn more about which directories matter most
-              in our guide to{' '}
-              <Link href="/blog/directory-listings-that-help-ai-find-business" className="text-orange-400 hover:text-orange-300 transition-colors">
-                directory listings that help AI find your business
-              </Link>.
-            </p>
-
-            <div className="not-prose ae-callout ae-callout-success">
-              <div className="ae-callout-title">The Good News</div>
-              <p>
-                Google has confirmed there is no paid placement or secret formula for AI Overview
-                citations. The same foundational principles that make content rank well are what get
-                it cited. If you are already creating helpful, reliable content, you are closer
-                than you think. You just need to structure it for AI consumption.
-              </p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Not sure where your content stands? We will audit it for free.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Prefer a walkthrough? Email us your website and we will take a look.</p>
-              <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
-            </div>
-
-            {/* Section 9 */}
-            <span className="not-prose ae-section-label">The Future</span>
-            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
-              The Future of Search: AI-First Discovery
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              What comes next is not hard to see. Search is becoming less about navigating to
-              websites and more about getting answers. The tools that provide those answers,
-              whether it is Google&apos;s AI Overviews, ChatGPT, Perplexity, or something not yet
-              launched, will control how billions of people discover businesses, make decisions,
-              and spend money.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              For local service businesses, this creates a real and present risk. If the AI tools
-              that people are using to find services in your area do not know you exist, or do not
-              trust your content enough to cite it, you are effectively invisible to a growing
-              share of potential customers.
-            </p>
-
-            <div className="not-prose ae-quote">
-              <p>The question for your business is not whether AI search matters. The question is whether you are ready for it. And every month you wait, the gap between you and your competitors grows wider.</p>
-            </div>
-
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The businesses that will win in this environment are the ones that understand AI
-              visibility as a distinct goal, not just a side effect of traditional SEO. Your
-              website, your listings, your reviews, and your content all need to be optimized not
-              just for human readers clicking links, but for AI systems deciding whose answer is
-              worth surfacing. This is the core principle behind{' '}
-              <Link href="/blog/what-is-answer-engine-optimization" className="text-orange-400 hover:text-orange-300 transition-colors">
-                answer engine optimization
-              </Link>.
-            </p>
-
-            <div className="not-prose ae-takeaway">
-              <div className="ae-takeaway-title">Bottom Line</div>
-              <p>
-                AI Overviews are not coming. They are here. They dominate 60%+ of searches, they
-                absorb 58% of the clicks that used to go to your website, and they reward the
-                businesses that AI trusts enough to cite. The shift is irreversible. Adapting is
-                not optional.
-              </p>
-            </div>
-
-            <div className="not-prose ae-cta-inline">
-              <p>Do not wait for the shift to finish. Find out where you stand right now.</p>
-              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            </div>
-          </article>
-
-          {/* Author Card */}
-          <div className="not-prose">
-            <div className="ae-author-card">
+            <div className="not-prose ae-author-card">
               <img
                 src="/justin-borges.webp"
                 alt="Justin Borges, Founder of The Answer Engine"
-                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24', flexShrink: 0 }}
               />
               <div>
-                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
-                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
-                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+                <div className="ae-author-name">Justin Borges</div>
+                <div className="ae-author-role">Founder, The Answer Engine</div>
+                <p className="ae-author-bio" style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(229,226,225,0.65)', lineHeight: 1.6 }}>Justin Borges is the founder of The Answer Engine, a GEO/AEO firm that engineers citation share for businesses inside Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini. The Answer Engine&apos;s own domain runs against the Origin Protocol described in this article &mdash; 1.14M+ monthly impressions, 4 of 4 LLMs cited. Reach Justin directly at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> or <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
               </div>
             </div>
+
+            <div className="ae-cta-block not-prose my-16">
+              <h3>Run Your Free AEO Blindspot Scan &mdash; See Where Google AI Overviews Rank Your Site</h3>
+              <p>The AEO Blindspot Scan checks your site against 47 citation signals scored across Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini &mdash; free, no login required, ready in five minutes. The baseline becomes the reference for every conversation about closing the Overview citation gap.</p>
+              <a href="https://theanswerengine.ai/blindspot" className="ae-cta-primary">Run Free AEO Blindspot Scan &rarr;</a>
+              <div style={{ marginTop: '16px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-secondary">Book Free Strategy Call</a>
+                <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+              </div>
+            </div>
+
+            <span className="ae-section-label" id="faq">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Are Google AI Overviews actually replacing organic search results?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Google AI Overviews do not delete the organic listings beneath them, but the Overviews absorb the attention that used to flow to those listings. Pew Research tracked 68,000 real searches and recorded an 8% click rate when an Overview appeared, versus 15% without one &mdash; a 46.7% relative reduction in clicks. The new dividing line is not who ranks highest. The new dividing line is who gets cited inside the Overview. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the Overview-share read on your top revenue queries.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How often do Google AI Overviews appear in search results?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Google AI Overviews appeared on 60.32% of U.S. queries in 2026 according to Advanced Web Ranking, up from 6.49% in January 2025. Coverage continues to expand month over month. Google intentionally suppresses Overviews on some transactional and YMYL queries, but the long-term trajectory is universal coverage of any informational, comparison, or research query. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the Overview-share read on your specific vertical.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">What happens to website traffic when an AI Overview appears?</summary>
+              <p className="faq-answer mt-3 text-gray-300">The presence of a Google AI Overview correlates with a 58% lower clickthrough rate for the top organic result. In Google AI Mode, the deeper conversational surface, the zero-click rate reaches 93%. Businesses cited inside the Overview earn 35% more organic clicks and 91% more paid clicks than uncited competitors on the same query. The Overview redistributes attention. It does not destroy it. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run the free AEO Blindspot Scan</a> to see where your site sits on the cited-versus-uncited line.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How does Google decide which business to cite inside an AI Overview?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Google AI Overviews run a three-stage retrieval-augmented pipeline. Stage one retrieves candidate web passages from the live index using query relevance, geographic signals, and freshness weighting. Stage two scores each candidate on structural signals (chunk length, definition-first openings, schema integrity) and authority signals (named author, sameAs chains, citation density). Stage three quotes passages that clear the threshold with source attribution. Most sites fail at stage two on structural grounds, not on brand authority. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy call</a> for the scoring-stage diagnostic on your domain.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">What is the fastest content change that improves AI Overview citation probability?</summary>
+              <p className="faq-answer mt-3 text-gray-300">The single highest-leverage move is converting every H3 section into an 80-to-180-token bounded chunk that opens with a plain-language definition. Zhang et al. (2026) measured a 57% influence premium on definition-first openings, and GEO-SFE (2026) measured a 31% attention degradation on passages over 300 words. Most service pages fail both thresholds simultaneously, which means a single structural rewrite recovers visibility on the same retrieval pass. Reach our team at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the rewrite scope on your top revenue pages.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">How long does it take to get cited in Google AI Overviews after fixing content?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Google AI Overviews re-index the live web continuously. Structural fixes &mdash; bounded chunks, definition-first H3 openings, full six-layer schema stack, named-author setup with sameAs chains &mdash; typically register inside the first 30 days. The Proof Ledger arc on a baseline domain is zero-to-two citations in month one, three-to-eight in month two, and ten-to-twenty by month three across Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your exclusive territory</a> &mdash; one client per market.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Is traditional SEO still useful if Google AI Overviews are the new surface?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Traditional SEO remains essential because Google AI Overviews retrieve from the same index that ranks organic results. Technical SEO, on-page quality, and inbound authority signals all feed Overview eligibility. What changes is the goal. The point is no longer to rank in the blue links. The point is to clear the structural and authority thresholds that the Overview scoring layer requires for citation. Answer Engine Optimization is the discipline that engineers content for that scoring layer. Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for the SEO-to-AEO transition scope.</p>
+            </details>
+
+            <details className="ae-faq-item border border-white/[0.08] p-5 mb-3 bg-white/[0.02]">
+              <summary className="cursor-pointer font-headline font-black uppercase tracking-tight text-white text-base">Which industries are most affected by Google AI Overviews so far?</summary>
+              <p className="faq-answer mt-3 text-gray-300">Science queries show Google AI Overviews at 25.96% keyword saturation, Computers and Electronics at 17.92%, and People and Society at 17.29%. Food and Drink has shown the fastest growth curve since March 2026. For local service businesses, informational and how-to queries adjacent to home services, legal, and health-adjacent verticals are seeing rapid Overview expansion. Every industry will see majority Overview coverage by 2027 on the current trajectory. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for the vertical-specific saturation read.</p>
+            </details>
+
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">&rarr; Run the free AEO Blindspot Scan on your site now</a>
+
+            <span className="ae-section-label">Continue Reading</span>
+            <h2>Related AEO Concepts</h2>
+
+            <ul>
+              <li><Link href="/blog/how-to-get-featured-in-google-ai-overviews">How to Get Featured in Google AI Overviews</Link></li>
+              <li><Link href="/blog/aeo-vs-seo">AEO vs SEO: What Is the Difference?</Link></li>
+              <li><Link href="/blog/aeo-models-how-ai-search-picks-sources">AEO Models: How AI Search Picks Sources</Link></li>
+              <li><Link href="/blog/aeo-grader">AEO Grader: How to Score Your AI Search Visibility</Link></li>
+              <li><Link href="/blog/aeo-examples-real-pages-that-get-cited">AEO Examples: Real Pages That Get Cited</Link></li>
+              <li><Link href="/blog/chatgpt-search-vs-chatgpt-chat-for-businesses">ChatGPT Search vs ChatGPT Chat for Businesses</Link></li>
+            </ul>
+
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">&rarr; One client per market &mdash; check if yours is still open</a>
+
           </div>
 
-          {/* CTA Block */}
-          <div className="not-prose ae-cta-block">
-            <h3>Ready to See If AI Is Costing You Leads?</h3>
-            <p>Get a free, no-obligation analysis of your business visibility across Google AI Overviews, ChatGPT, Gemini, and Perplexity.</p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
-              <Link href="/blindspot" className="ae-cta-primary">
-                Get Your Free Blind Spot Report
-              </Link>
-            </div>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
+          <section className="ae-final-cta not-prose">
+            <div className="ae-final-cta-inner">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
+                Win the Google AI Overview Before a Competitor Closes the Market
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                The Answer Engine&apos;s Origin Protocol engineers citation share inside Google AI Overviews, ChatGPT Search, Perplexity, Claude, and Gemini from a single production cadence, for one operator per market and per vertical. The window to claim citation share at a discount is open. It will not stay open.
+              </p>
+              <a
+                href="https://theanswerengine.ai/blindspot"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              >
+                Get Your Free AEO Blindspot Score
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-            </div>
-            <p className="text-gray-500 text-sm mt-4">No pitch, just the data.</p>
-          </div>
-
-          {/* FAQ Section */}
-          <section className="mt-16 mb-16">
-            <h2 className="text-2xl font-bold text-white mb-8 font-plus-jakarta">
-              Frequently Asked Questions
-            </h2>
-            <div className="grid gap-4">
-              {[
-                {
-                  q: 'Are Google AI Overviews actually replacing organic search results?',
-                  a: 'AI Overviews do not replace organic results outright, but they change how information is presented. Organic listings still appear on the page, but they now compete with AI summaries for the user\'s attention. Being in the AI summary is increasingly more valuable than ranking just below it.',
-                },
-                {
-                  q: 'What\'s the real impact of AI Overviews on website traffic and click-through rates?',
-                  a: 'The presence of an AI Overview correlates with a 58% lower average clickthrough rate for the top-ranking page. A Pew Research Center study tracking 68,000 real searches found that users clicked on results 8% of the time when AI summaries appeared, compared to 15% without them. That is a 46.7% relative reduction in clicks.',
-                },
-                {
-                  q: 'How often do AI Overviews appear in search results?',
-                  a: 'According to Advanced Web Ranking data, Google AI Overviews now appear in 60.32% of U.S. queries. Google intentionally does not trigger them in every search, only when it determines an AI-generated overview would be genuinely helpful to the user.',
-                },
-                {
-                  q: 'What does it mean if my content is cited in an AI Overview?',
-                  a: 'Being cited is a significant advantage. Brands cited in AI Overviews earned 35% more organic clicks and 91% more paid clicks than those not cited. Inclusion as a source enhances overall visibility and drives measurably higher click-through rates across both organic and paid channels.',
-                },
-                {
-                  q: 'Why did Google introduce AI Overviews instead of keeping traditional search?',
-                  a: 'The introduction of AI Overviews was a strategic response to competition from generative AI tools like OpenAI\'s ChatGPT. Google needed to evolve its product to keep users in its ecosystem. The longer-term vision is for search to become an AI-first discovery, interpretation, and decision system, not just a list of links.',
-                },
-                {
-                  q: 'Do I need special optimization to appear in AI Overviews?',
-                  a: 'No. Google has stated there are no additional technical requirements or special optimizations needed to appear in AI Overviews or AI Mode. The same foundational SEO principles apply: create helpful, reliable, people-first content that directly and clearly answers the questions your audience is searching for.',
-                },
-                {
-                  q: 'Which industries are most affected by AI Overviews?',
-                  a: 'Science is the most impacted industry with AI Overviews appearing in 25.96% of keyword searches in that category. Computers and Electronics follows at 17.92%, and People and Society at 17.29%. Food and Drink has seen the fastest growth in AI Overview appearances since March, making it a category businesses in that space need to monitor closely.',
-                },
-                {
-                  q: 'Is traditional SEO still important if AI Overviews are taking over?',
-                  a: 'Yes. Technical SEO, on-page optimization, and authority building remain essential. They are not being replaced by AI optimization, they are being extended by it. Strong traditional SEO now supports both conventional rankings and AI-driven visibility. The two goals reinforce each other.',
-                },
-              ].map((faq, i) => (
-                <div
-                  key={i}
-                  className="rounded-xl border border-gray-800 bg-gray-900/50 p-6"
-                >
-                  <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">
-                    {faq.q}
-                  </h3>
-                  <p className="text-gray-400 leading-relaxed">{faq.a}</p>
-                </div>
-              ))}
+              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
+                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
+                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
+              </div>
             </div>
           </section>
 
-          {/* Final CTA */}
-          <div className="not-prose ae-final-cta">
-            <div className="ae-final-cta-pulse"></div>
-            <h2>Is AI Search Stealing Your Traffic?</h2>
-            <p>
-              AI Overviews appear in 60%+ of searches and absorb 58% of the clicks that used to
-              go to your website. Find out exactly where your business stands with a free,
-              no-obligation analysis.
-            </p>
-            <Link href="/blindspot" className="ae-cta-primary">
-              Get Your Free Blind Spot Report
-            </Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
-            </div>
-            <p className="text-gray-500 text-sm mt-4">No pitch, just the data.</p>
-          </div>
-
-        </div>
-      </main>
+        </article>
+      </div>
     </>
-  )
+  );
 }
