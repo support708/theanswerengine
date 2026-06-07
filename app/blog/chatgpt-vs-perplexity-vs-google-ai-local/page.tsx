@@ -3,35 +3,29 @@ import Link from 'next/link'
 
 export const dynamicParams = true
 
+const title = 'ChatGPT vs Perplexity vs Google AI for Local'
+const description =
+  'ChatGPT converts at 15.9%, Perplexity cites with links, Google AI reaches 2B users. We break down which AI surface drives the most revenue — and how AEO wins all three.'
+const slug = 'chatgpt-vs-perplexity-vs-google-ai-local'
+const publishDate = '2026-06-07'
+
 export const metadata: Metadata = {
-  title: 'ChatGPT vs Perplexity vs Google AI for Local | The Answer Engine',
-  description:
-    'Compare ChatGPT, Perplexity, and Google AI for local business visibility. See which platform drives the most customers and how to optimize for all three.',
-  keywords: [
-    'ChatGPT vs Perplexity',
-    'Google AI Mode',
-    'AI search comparison',
-    'local business AI',
-    'ChatGPT local search',
-    'Perplexity local business',
-    'Google AI Overviews',
-    'AI search visibility',
-    'answer engine optimization',
-    'local SEO AI',
-  ],
+  title: `${title} | The Answer Engine`,
+  description,
+  keywords:
+    'ChatGPT vs Perplexity, Google AI Mode, AI search comparison, local business AI, ChatGPT local search, Perplexity local business, Google AI Overviews, AI search visibility, answer engine optimization, local SEO AI',
   authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
-    title: 'ChatGPT vs Perplexity vs Google AI for Local',
-    description:
-      'Compare ChatGPT, Perplexity, and Google AI for local business visibility. See which platform drives the most customers and how to optimize for all three.',
-    url: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local',
-    siteName: 'The Answer Engine',
+    title,
+    description,
     type: 'article',
-    publishedTime: '2026-03-22T00:00:00Z',
-    authors: ['https://theanswerengine.ai/about'],
+    publishedTime: publishDate,
+    authors: ['https://theanswerengine.ai/about#justin-borges'],
+    url: `https://theanswerengine.ai/blog/${slug}`,
+    siteName: 'The Answer Engine',
     images: [
       {
-        url: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local.webp',
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
         alt: 'ChatGPT vs Perplexity vs Google AI for Local Business comparison',
@@ -40,13 +34,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ChatGPT vs Perplexity vs Google AI for Local',
-    description:
-      'Compare ChatGPT, Perplexity, and Google AI for local business visibility. See which platform drives the most customers and how to optimize for all three.',
+    title,
+    description,
     site: '@theanswerengine',
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
   alternates: {
-    canonical: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local',
+    canonical: `https://theanswerengine.ai/blog/${slug}`,
   },
 }
 
@@ -55,12 +49,17 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Article',
-      headline: 'ChatGPT vs Perplexity vs Google AI for Local',
-      description:
-        'Compare ChatGPT, Perplexity, and Google AI for local business visibility. See which platform drives the most customers and how to optimize for all three.',
-      url: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local',
-      datePublished: '2026-03-22T00:00:00Z',
-      dateModified: '2026-03-22T00:00:00Z',
+      headline: title,
+      description,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      datePublished: publishDate,
+      dateModified: publishDate,
+      image: {
+        '@type': 'ImageObject',
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
+        width: 1200,
+        height: 630,
+      },
       author: {
         '@type': 'Person',
         '@id': 'https://theanswerengine.ai/about#justin-borges',
@@ -71,16 +70,24 @@ const jsonLd = {
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
-        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'LLM Citation', 'Content Strategy', 'Local Business Marketing'],
         url: 'https://theanswerengine.ai/about',
         image: 'https://theanswerengine.ai/justin-borges.webp',
+        sameAs: ['https://linkedin.com/in/justinborges'],
       },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://theanswerengine.ai/logo.png',
+        },
       },
-      image: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local.webp',
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': `https://theanswerengine.ai/blog/${slug}`,
+      },
       keywords:
         'ChatGPT vs Perplexity, Google AI Mode, AI search comparison, local business AI, ChatGPT local search, Perplexity local business, Google AI Overviews, AI search visibility',
     },
@@ -164,974 +171,548 @@ const jsonLd = {
           '@type': 'ListItem',
           position: 3,
           name: 'ChatGPT vs Perplexity vs Google AI for Local',
-          item: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local',
+          item: `https://theanswerengine.ai/blog/${slug}`,
         },
       ],
+    },
+    {
+      '@type': 'ProfessionalService',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+      logo: 'https://theanswerengine.ai/logo.png',
+      image: 'https://theanswerengine.ai/logo.png',
+      telephone: '(213) 444-2229',
+      email: 'support@theanswerengine.ai',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Los Angeles',
+        addressRegion: 'CA',
+        addressCountry: 'US',
+      },
+      founder: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        sameAs: ['https://linkedin.com/in/justinborges'],
+      },
+      foundingDate: '2025',
+      areaServed: {
+        '@type': 'Country',
+        name: 'United States',
+      },
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Answer Engine Optimization Services',
+        itemListElement: [
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Answer Engine Optimization' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AEO Content Production' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'LLM Citation Building' } },
+        ],
+      },
+      sameAs: ['https://linkedin.com/company/theanswerengine'],
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.article-summary', '.key-insight', 'h2', '.faq-answer', '.stat-block'],
+      },
     },
   ],
 }
 
-function Breadcrumb() {
+export default function Page() {
   return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
-        <li>
-          <Link href="/" className="hover:text-orange-400 transition-colors">
-            Home
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li>
-          <Link href="/blog" className="hover:text-orange-400 transition-colors">
-            Blog
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li className="text-gray-300 truncate max-w-xs">
-          ChatGPT vs Perplexity vs Google AI for Local
-        </li>
-      </ol>
-    </nav>
-  )
-}
-
-export default function ChatGPTvsPerplexityvsGoogleAILocal() {
-  return (
-    <div style={{ backgroundColor: '#0F1117', minHeight: '100vh' }}>
+    <div className="min-h-screen bg-[#131313]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="max-w-4xl mx-auto px-6 py-20">
-        <Breadcrumb />
-
-        {/* Hero Section */}
-        <div
-          className="relative overflow-hidden rounded-2xl mb-12"
-          style={{
-            background:
-              'linear-gradient(135deg, #0d3b1a 0%, #16213e 50%, #1a0d3b 100%)',
-          }}
-        >
-          <svg
-            className="absolute inset-0 w-full h-full opacity-10"
-            viewBox="0 0 800 400"
-            fill="none"
-            aria-hidden="true"
-          >
-            <line x1="0" y1="100" x2="800" y2="100" stroke="#F27D24" strokeWidth="0.4" />
-            <line x1="0" y1="200" x2="800" y2="200" stroke="#F27D24" strokeWidth="0.4" />
-            <line x1="0" y1="300" x2="800" y2="300" stroke="#F27D24" strokeWidth="0.4" />
-            <line x1="200" y1="0" x2="200" y2="400" stroke="#F27D24" strokeWidth="0.4" />
-            <line x1="400" y1="0" x2="400" y2="400" stroke="#F27D24" strokeWidth="0.4" />
-            <line x1="600" y1="0" x2="600" y2="400" stroke="#F27D24" strokeWidth="0.4" />
-            <circle cx="250" cy="200" r="100" stroke="#10A37F" strokeWidth="0.8" />
-            <circle cx="400" cy="200" r="100" stroke="#20B2AA" strokeWidth="0.8" />
-            <circle cx="550" cy="200" r="100" stroke="#4285F4" strokeWidth="0.8" />
-            <path d="M0 0 L80 0 L80 80" stroke="#F27D24" strokeWidth="0.6" fill="none" />
-            <path d="M800 400 L720 400 L720 320" stroke="#F27D24" strokeWidth="0.6" fill="none" />
-          </svg>
-          <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-            <p className="text-sm font-medium text-orange-400 mb-4">
-              Comparisons
-            </p>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-              ChatGPT vs Perplexity vs Google AI for Local
-            </h1>
-            {/* Championship Cover Image */}
-            <div className="ae-article-hero w-full rounded-xl overflow-hidden my-8" style={{ maxHeight: 440 }}>
-              <img
-                src="/blog/chatgpt-vs-perplexity-vs-google-ai-local.webp"
-                alt="chatgpt vs perplexity vs google ai local"
-                style={{ width: '100%', height: 440, objectFit: 'cover', display: 'block' }}
-                loading="eager"
-              />
-            </div>
-            <div className="flex items-center gap-4 text-sm text-gray-400">
-              <span>March 22, 2026</span>
-              <span>-</span>
-              <span>12 min read</span>
-              <span>-</span>
-              <span>Justin Borges</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Stats Grid */}
-        <div className="not-prose">
-          <div className="ae-stats-grid">
-            <div className="ae-stat-card">
-              <span className="ae-stat-emoji">&#x1F4CA;</span>
-              <span className="ae-stat-value ae-accent">800M+</span>
-              <span className="ae-stat-label">ChatGPT monthly active users worldwide</span>
-            </div>
-            <div className="ae-stat-card">
-              <span className="ae-stat-emoji">&#x1F680;</span>
-              <span className="ae-stat-value ae-accent">5x</span>
-              <span className="ae-stat-label">higher conversion rate from AI search vs Google organic</span>
-            </div>
-            <div className="ae-stat-card">
-              <span className="ae-stat-emoji">&#x1F310;</span>
-              <span className="ae-stat-value ae-accent">48%</span>
-              <span className="ae-stat-label">of Google queries now show AI Overviews</span>
-            </div>
-            <div className="ae-stat-card">
-              <span className="ae-stat-emoji">&#x26A1;</span>
-              <span className="ae-stat-value ae-accent">15.9%</span>
-              <span className="ae-stat-label">conversion rate for ChatGPT referral traffic</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Table of Contents */}
-        <div className="not-prose">
-          <nav className="ae-toc">
-            <p className="ae-toc-title">Table of Contents</p>
-            <ol className="ae-toc-list">
-              <li><a href="#landscape">The AI Search Landscape in 2026</a></li>
-              <li><a href="#chatgpt">ChatGPT: The Conversion King</a></li>
-              <li><a href="#perplexity">Perplexity: The Citation Machine</a></li>
-              <li><a href="#google-ai">Google AI: The Local Giant</a></li>
-              <li><a href="#head-to-head">Head-to-Head Comparison Table</a></li>
-              <li><a href="#conversion">Conversion Rates That Matter</a></li>
-              <li><a href="#decision-matrix">Decision Matrix: Where to Focus First</a></li>
-              <li><a href="#pros-cons">Pros and Cons of Each Platform</a></li>
-              <li><a href="#optimization">Optimizing for All Three Simultaneously</a></li>
-              <li><a href="#mistakes">Common Mistakes to Avoid</a></li>
-              <li><a href="#faq">Frequently Asked Questions</a></li>
-            </ol>
-          </nav>
-        </div>
-
-        {/* Article Body */}
-        <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-
-          {/* Intro */}
-          <p className="text-lg mb-8 text-gray-200">
-            Three AI platforms are reshaping how customers find local businesses. ChatGPT, Perplexity, and Google AI each pull from different data sources, cite businesses differently, and attract users at different stages of the buying journey. If you are only optimizing for one of them, you are leaving money on the table. This is the data-driven breakdown of what each platform does, how they compare, and where your business should focus.
-           Markets fill fast. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check your territory availability.</a></p>
-
-          {/* Section 1 */}
-          <div className="not-prose">
-            <div className="ae-section-label">Market Overview</div>
-          </div>
-          <h2 id="landscape">The AI Search Landscape in 2026</h2>
-          <p>
-            AI-powered search is no longer an experiment. It is a primary channel for customer discovery. ChatGPT now processes over 2 billion daily queries across 800 million monthly users. Perplexity has grown 800% year-over-year to 45 million active users. And Google AI Overviews now appear in nearly half of all search queries, reaching 2 billion monthly users.
-          </p>
-          <p>
-            For local businesses, this creates a fractured landscape. Your potential customers are spread across all three platforms, and each one has different rules for which businesses get recommended. A plumber who shows up in ChatGPT might be invisible on Perplexity. A restaurant that dominates Google AI Overviews might never get mentioned in ChatGPT.
-           Your first step: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free AERO Blind Spot Scan.</a></p>
-          <p>
-            The opportunity is massive. AI search traffic converts at 14.2% on average, compared to just 1.8% for traditional Google organic search. That is nearly an 8x difference. But the volume is still small, representing less than 1% of total referral traffic for most businesses today. The businesses that position themselves now will capture exponentially more value as AI search volume grows.
-          </p>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">The Fragmentation Problem <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your free call</a> before your market fills.</p>
-              <p>Each AI platform uses different data sources and ranking signals. ChatGPT pulls from Bing and web crawls. Perplexity runs its own live web index. Google AI draws from the Google index and Maps data. A business that is well-optimized for one platform can be completely invisible on the others. You need a strategy that covers all three.</p>
-            </div>
-          </div>
-
-          {/* CTA 1 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 2 - ChatGPT */}
-          <div className="not-prose">
-            <div className="ae-section-label">Platform Deep Dive</div>
-          </div>
-          <h2 id="chatgpt">ChatGPT: The Conversion King</h2>
-          <p>
-            ChatGPT dominates the AI search market with 64.5% market share and roughly 800 million monthly active users. When it comes to local business recommendations, ChatGPT has a unique advantage: users interact with it conversationally, which means they often arrive at purchase decisions faster than traditional search users.
-          </p>
-          <p>
-            The numbers tell the story. ChatGPT referral traffic converts at 15.9%, the highest of any AI platform. Users who get a business recommendation from ChatGPT have already been through a natural conversation narrowing down their needs. By the time they click through to your website, they are ready to buy or call.
-           Call us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> today.</p>
-          <p>
-            For local search specifically, ChatGPT pulls its data primarily from Bing and direct web crawling. This means your Bing Places listing matters far more than most business owners realize. ChatGPT does not have direct access to your Google Business Profile. If your Bing listing is incomplete or outdated, ChatGPT either will not recommend you or will provide inaccurate information about your business.
-          </p>
-          <p>
-            ChatGPT does not always cite its sources with links, which is both a strength and a limitation. When it names your business in a recommendation, it carries strong implied authority. But without a direct link, users need to search for you separately, which means your website needs to be easy to find through a brand name search.
-           <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Lock in your exclusive territory now.</a></p>
-
-          <div className="not-prose">
-            <div className="ae-takeaway">
-              <strong>Key Insight:</strong> ChatGPT has the highest conversion rate of any AI platform at 15.9%. But it relies on Bing data, not Google data. If you have not claimed and optimized your Bing Places listing, ChatGPT may be recommending your competitors instead.
-            </div>
-          </div>
-
-          {/* CTA 2 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 3 - Perplexity */}
-          <div className="not-prose">
-            <div className="ae-section-label">Platform Deep Dive</div>
-          </div>
-          <h2 id="perplexity">Perplexity: The Citation Machine</h2>
-          <p>
-            Perplexity AI has carved out a unique position in the AI search landscape. With 45 million active users and 800% year-over-year growth, it is the fastest-growing AI search platform. But the real differentiator for local businesses is how Perplexity handles citations: it always links to its sources.
-           <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Get your free AI readiness report.</a></p>
-          <p>
-            Every answer Perplexity generates includes numbered citations with direct links back to the source websites. This is a fundamental difference from ChatGPT and even Google AI Overviews. When Perplexity recommends your business, users can click directly through to your website. That link attribution is gold for measuring ROI and driving qualified traffic.
-          </p>
-          <p>
-            Perplexity runs its own web index and crawls the live web for answers. It favors authoritative, well-structured content that directly answers specific questions. For local businesses, this means your website content quality matters even more than your listing profiles. Perplexity is less influenced by business listings and more influenced by the actual content on your site and mentions across the web.
-           Ready to act? <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free strategy session.</a></p>
-          <p>
-            The conversion rate for Perplexity traffic sits at 10.5%, lower than ChatGPT but still nearly 6x higher than traditional Google organic. And because every citation includes a link, the traffic attribution is cleaner and easier to track in your analytics.
-          </p>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-info">
-              <p className="ae-callout-title">Why Perplexity Citations Are Different Drop us a line at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-              <p>Unlike ChatGPT, which sometimes names businesses without linking, Perplexity always provides clickable source citations. This means businesses cited by Perplexity get direct, measurable referral traffic. For local businesses focused on ROI tracking, Perplexity is often the easiest AI platform to attribute revenue to.</p>
-            </div>
-          </div>
-
-          {/* CTA 3 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 4 - Google AI */}
-          <div className="not-prose">
-            <div className="ae-section-label">Platform Deep Dive</div>
-          </div>
-          <h2 id="google-ai">Google AI: The Local Giant</h2>
-          <p>
-            Google AI Mode and AI Overviews have the largest reach of any AI search product, touching 2 billion monthly users. For local businesses, Google AI has an unmatched advantage: direct integration with Google Maps, Google Business Profiles, and the most comprehensive local search index ever built.
-          </p>
-          <p>
-            AI Overviews now appear in 48% of all tracked queries, up from just 6.5% in January 2025. For restaurant queries specifically, AI Overviews appear in 78% of searches. Google AI Mode, which launched in May 2025, reached 75 million users by December 2025, and that number continues to climb.
-           One client per city. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">See if your market is available.</a></p>
-          <p>
-            The local advantage is significant. When someone asks Google AI "best electrician near me" or "who fixes AC units in Phoenix," the AI pulls from the full Google ecosystem: your Business Profile, reviews, website content, local pack data, and structured markup. No other AI platform has this depth of local business data.
-          </p>
-          <p>
-            However, there is a major trade-off. Google AI Overviews have reduced click-through rates by up to 61% for affected queries. When Google provides a comprehensive AI answer directly on the search results page, many users never click through to any website. Your business might be mentioned in the AI Overview but still receive fewer website visits than it did before AI Overviews existed.
-           Check where you stand: <a href="https://theanswerengine.ai/blindspot" className="cta-inline">free Blind Spot Scan.</a></p>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-orange">
-              <p className="ae-callout-title">The Zero-Click Challenge with Google AI</p>
-              <p>Google AI Overviews have reduced click-through rates by up to 61%. Even when your business is named in an AI Overview, users may get the information they need without ever visiting your website. This makes phone calls, direction requests, and direct actions from Google Business Profile more important than ever for measuring actual business impact. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free 30-min call.</a></p>
-            </div>
-          </div>
-
-          <div className="not-prose">
-            <div className="ae-takeaway">
-              <strong>Key Insight:</strong> Google AI has the widest local reach but the lowest conversion rate of the three AI platforms. Its strength is volume and intent matching. If your business depends on local foot traffic, Google AI optimization should be your first priority.
-            </div>
-          </div>
-
-          {/* CTA 4 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 5 - Comparison Table */}
-          <div className="not-prose">
-            <div className="ae-section-label">Head-to-Head</div>
-          </div>
-          <h2 id="head-to-head">The Complete Platform Comparison</h2>
-          <p>
-            Here is how ChatGPT, Perplexity, and Google AI stack up across the factors that matter most to local businesses.
-           Email <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a> for a custom strategy.</p>
-
-          <div className="not-prose">
-            <table className="ae-comparison-table">
-              <thead>
-                <tr>
-                  <th>Factor</th>
-                  <th>ChatGPT</th>
-                  <th>Perplexity</th>
-                  <th>Google AI</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Monthly Users</td>
-                  <td>800M+</td>
-                  <td>45M</td>
-                  <td>2B+ (AI Overviews)</td>
-                </tr>
-                <tr>
-                  <td>Primary Data Source</td>
-                  <td>Bing Index + Web</td>
-                  <td>Own Live Web Index</td>
-                  <td>Google Index + Maps</td>
-                </tr>
-                <tr>
-                  <td>Source Citations</td>
-                  <td>Sometimes (no links)</td>
-                  <td>Always (with links)</td>
-                  <td>Inline (partial links)</td>
-                </tr>
-                <tr>
-                  <td>Conversion Rate</td>
-                  <td>15.9%</td>
-                  <td>10.5%</td>
-                  <td>~3.0%</td>
-                </tr>
-                <tr>
-                  <td>Local Data Depth</td>
-                  <td>Bing Places, web content</td>
-                  <td>Web content, reviews</td>
-                  <td>GBP, Maps, reviews, web</td>
-                </tr>
-                <tr>
-                  <td>Key Listing</td>
-                  <td>Bing Places for Business</td>
-                  <td>Your website content</td>
-                  <td>Google Business Profile</td>
-                </tr>
-                <tr>
-                  <td>Query Style</td>
-                  <td>Conversational, multi-turn</td>
-                  <td>Research-oriented</td>
-                  <td>Traditional + AI mode</td>
-                </tr>
-                <tr>
-                  <td>User Intent</td>
-                  <td>Decision-ready</td>
-                  <td>Comparing options</td>
-                  <td>Discovery + navigation</td>
-                </tr>
-                <tr>
-                  <td>Growth Rate</td>
-                  <td>126% YoY (2025)</td>
-                  <td>800% YoY</td>
-                  <td>58% increase in AI queries</td>
-                </tr>
-                <tr>
-                  <td>Free Tier</td>
-                  <td>Yes (limited)</td>
-                  <td>Yes (limited)</td>
-                  <td>Yes (full access)</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          {/* CTA 5 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 6 - Conversion Rates */}
-          <div className="not-prose">
-            <div className="ae-section-label">The Numbers</div>
-          </div>
-          <h2 id="conversion">Conversion Rates That Should Change Your Strategy</h2>
-          <p>
-            The conversion rate gap between AI search and traditional search is the single most important data point for local businesses to understand. Here is how each platform compares:
-           Questions? Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-
-          <div className="not-prose">
-            <div className="ae-bar-group">
-              <h3 style={{ color: 'white', fontSize: '1.125rem', fontWeight: 700, marginBottom: '1rem' }}>Conversion Rate by Traffic Source</h3>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">ChatGPT</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '79.5%' }}></div>
-                </div>
-                <span className="ae-bar-value">15.9%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Perplexity</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '52.5%' }}></div>
-                </div>
-                <span className="ae-bar-value">10.5%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Claude</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '25%' }}></div>
-                </div>
-                <span className="ae-bar-value">5.0%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Google AI</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '15%' }}></div>
-                </div>
-                <span className="ae-bar-value">3.0%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Google Organic</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '9%' }}></div>
-                </div>
-                <span className="ae-bar-value">1.8%</span>
-              </div>
-            </div>
-          </div>
-
-          <p>
-            The reason AI search converts so much higher is intent compression. Traditional search users often browse multiple results, comparing options over multiple sessions. AI search users are getting a curated recommendation in a single interaction. The customer journey is 33% shorter on average, and the users who do click through are 76% more likely to convert than traditional search visitors.
-          </p>
-
-          <div className="not-prose">
-            <div className="ae-quote">
-              <blockquote>
-                AI search currently drives less than 1% of total referral traffic for most businesses. But that traffic converts at 5 to 9 times the rate of traditional Google organic. The businesses capturing this traffic now are building an early-mover advantage that compounds over time.
-              </blockquote>
-            </div>
-          </div>
-
-          {/* CTA 6 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 7 - Decision Matrix */}
-          <div className="not-prose">
-            <div className="ae-section-label">Strategic Framework</div>
-          </div>
-          <h2 id="decision-matrix">Decision Matrix: Where to Focus First</h2>
-          <p>
-            Every business has limited time and budget. Here is a framework for deciding which platform deserves your attention first, based on your business type and goals.
-          </p>
-
-          <div className="not-prose">
-            <table className="ae-decision-matrix">
-              <thead>
-                <tr>
-                  <th>Business Scenario</th>
-                  <th>Prioritize First</th>
-                  <th>Why</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>High foot traffic (restaurants, retail)</td>
-                  <td style={{ color: '#4285F4', fontWeight: 700 }}>Google AI</td>
-                  <td>78% of restaurant queries show AI Overviews, pulls from Maps data</td>
-                </tr>
-                <tr>
-                  <td>High-ticket services (legal, medical, HVAC)</td>
-                  <td style={{ color: '#10A37F', fontWeight: 700 }}>ChatGPT</td>
-                  <td>15.9% conversion rate, users arrive decision-ready</td>
-                </tr>
-                <tr>
-                  <td>Content-rich businesses (consultants, agencies)</td>
-                  <td style={{ color: '#20B2AA', fontWeight: 700 }}>Perplexity</td>
-                  <td>Always cites sources with links, rewards authoritative content</td>
-                </tr>
-                <tr>
-                  <td>Multi-location businesses</td>
-                  <td style={{ color: '#4285F4', fontWeight: 700 }}>Google AI</td>
-                  <td>Google Maps integration handles location-specific queries best</td>
-                </tr>
-                <tr>
-                  <td>E-commerce with local delivery</td>
-                  <td style={{ color: '#10A37F', fontWeight: 700 }}>ChatGPT</td>
-                  <td>Conversational product recommendations drive highest purchase intent</td>
-                </tr>
-                <tr>
-                  <td>B2B services</td>
-                  <td style={{ color: '#20B2AA', fontWeight: 700 }}>Perplexity</td>
-                  <td>B2B buyers research deeply, Perplexity rewards thorough content</td>
-                </tr>
-                <tr>
-                  <td>Emergency services (plumbing, locksmith)</td>
-                  <td style={{ color: '#4285F4', fontWeight: 700 }}>Google AI</td>
-                  <td>Urgent queries default to Google, AI Overviews surface top-rated locals</td>
-                </tr>
-                <tr>
-                  <td>New businesses building authority</td>
-                  <td style={{ color: '#20B2AA', fontWeight: 700 }}>Perplexity</td>
-                  <td>Indexes live web quickly, rewards fresh authoritative content</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-success">
-              <p className="ae-callout-title">The Good News: Strategies Overlap <a href="https://theanswerengine.ai/blindspot" className="cta-inline">See your AI visibility score — free.</a></p>
-              <p>About 70% of what makes your business visible on one AI platform also helps on the others. Well-structured content, consistent business information, strong reviews, and proper schema markup benefit you across ChatGPT, Perplexity, and Google AI simultaneously. Start with the platform that matches your business type, then expand from there.</p>
-            </div>
-          </div>
-
-          {/* CTA 7 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 8 - Pros/Cons */}
-          <div className="not-prose">
-            <div className="ae-section-label">Platform Evaluation</div>
-          </div>
-          <h2 id="pros-cons">Pros and Cons for Local Businesses</h2>
-          <p>
-            Each platform has clear strengths and weaknesses when it comes to driving local business growth. Here is the honest assessment.
-          </p>
-
-          <h3>ChatGPT</h3>
-          <div className="not-prose">
-            <div className="ae-pros-cons">
-              <div className="ae-pros-box">
-                <p className="ae-pros-title">Strengths Contact us at <a href="mailto:support@theanswerengine.ai" className="cta-inline">support@theanswerengine.ai</a>.</p>
-                <ul>
-                  <li>Highest conversion rate of any AI platform (15.9%)</li>
-                  <li>Largest AI market share at 64.5%</li>
-                  <li>Conversational format builds trust before recommendation</li>
-                  <li>Users arrive at businesses with strong purchase intent</li>
-                  <li>Growing search feature with real-time web access</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <p className="ae-cons-title">Limitations</p>
-                <ul>
-                  <li>Does not always cite sources or provide links</li>
-                  <li>Relies on Bing data, not Google Business Profile</li>
-                  <li>Can generate inaccurate local business information</li>
-                  <li>No direct Maps integration for directions</li>
-                  <li>Harder to track and attribute traffic in analytics</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <h3>Perplexity</h3>
-          <div className="not-prose">
-            <div className="ae-pros-cons">
-              <div className="ae-pros-box">
-                <p className="ae-pros-title">Strengths Reach us at <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a>.</p>
-                <ul>
-                  <li>Always cites sources with clickable links</li>
-                  <li>Fastest-growing platform at 800% YoY</li>
-                  <li>Clean traffic attribution for ROI measurement</li>
-                  <li>Indexes live web content quickly</li>
-                  <li>Rewards authoritative, well-structured content</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <p className="ae-cons-title">Limitations</p>
-                <ul>
-                  <li>Smallest user base at 45 million</li>
-                  <li>Less local-specific data than Google</li>
-                  <li>Users tend to be research-oriented, not always purchase-ready</li>
-                  <li>No direct business listing platform to claim</li>
-                  <li>Skews toward tech-savvy, younger demographics</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <h3>Google AI</h3>
-          <div className="not-prose">
-            <div className="ae-pros-cons">
-              <div className="ae-pros-box">
-                <p className="ae-pros-title">Strengths We work with one business per market. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Check if yours is still open.</a></p>
-                <ul>
-                  <li>Largest reach at 2 billion monthly users</li>
-                  <li>Deep integration with Google Maps and Business Profile</li>
-                  <li>Strongest local business data of any platform</li>
-                  <li>Familiar interface for all demographics</li>
-                  <li>Free to access with no account required</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <p className="ae-cons-title">Limitations</p>
-                <ul>
-                  <li>Lowest conversion rate among AI platforms (~3%)</li>
-                  <li>AI Overviews reduce click-through rates by up to 61%</li>
-                  <li>Zero-click answers can satisfy users without visiting your site</li>
-                  <li>Harder to stand out in AI-generated summaries</li>
-                  <li>Rapidly changing format and placement of AI results</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* CTA 8 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 9 - Optimization */}
-          <div className="not-prose">
-            <div className="ae-section-label">Action Items</div>
-          </div>
-          <h2 id="optimization">Optimizing for All Three Simultaneously</h2>
-          <p>
-            The most effective approach is building a foundation that works across all three platforms, then adding platform-specific optimizations on top. Here is what the overlapping foundation looks like:
-          </p>
-
-          <div className="not-prose">
-            <div className="ae-bar-group">
-              <h3 style={{ color: 'white', fontSize: '1.125rem', fontWeight: 700, marginBottom: '1rem' }}>AI Search Market Share (US)</h3>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">ChatGPT</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '64.5%' }}></div>
-                </div>
-                <span className="ae-bar-value">64.5%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Copilot</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '14%' }}></div>
-                </div>
-                <span className="ae-bar-value">14%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Gemini</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '13.4%' }}></div>
-                </div>
-                <span className="ae-bar-value">13.4%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Perplexity</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '6.2%' }}></div>
-                </div>
-                <span className="ae-bar-value">6.2%</span>
-              </div>
-              <div className="ae-bar-item">
-                <span className="ae-bar-label">Other</span>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '1.9%' }}></div>
-                </div>
-                <span className="ae-bar-value">1.9%</span>
-              </div>
-            </div>
-          </div>
-
-          <h3>The Universal Foundation (Helps on All 3 Platforms)</h3>
-          <ol>
-            <li>
-              <strong>Write clear, direct answers to common customer questions.</strong> Every AI platform favors content that directly answers specific questions. Structure your service pages with Q&amp;A sections that address what your customers actually ask.
-            </li>
-            <li>
-              <strong>Implement comprehensive schema markup.</strong> LocalBusiness, Service, and FAQPage schema help all three platforms understand your business, location, and expertise.
-            </li>
-            <li>
-              <strong>Maintain consistent business information everywhere.</strong> Your name, address, phone number, hours, and service descriptions should be identical across your website, Google Business Profile, Bing Places, and every directory listing.
-            </li>
-            <li>
-              <strong>Build a review ecosystem across multiple platforms.</strong> Google reviews help with Google AI. Yelp and web mentions help with Perplexity. Bing reviews help with ChatGPT. Aim for reviews on all major platforms.
-            </li>
-            <li>
-              <strong>Create location-specific content with genuine expertise.</strong> Generic content loses to local-specific content on every AI platform. Include your city, neighborhood, and service area in your answers.
-            </li>
-          </ol>
-
-          <h3>Platform-Specific Additions</h3>
-          <ul>
-            <li><strong>For ChatGPT:</strong> Claim and fully optimize your Bing Places listing. Ensure your website is easily crawlable by Bing. Build citations on directories that Bing indexes heavily.</li>
-            <li><strong>For Perplexity:</strong> Publish authoritative long-form content. Create resource pages that consolidate expertise on key topics. Get mentioned on third-party review sites and industry publications.</li>
-            <li><strong>For Google AI:</strong> Keep your Google Business Profile 100% complete with fresh photos, updated hours, and active review responses. Implement all relevant schema types. Write content that matches the conversational queries Google AI Mode surfaces.</li>
-          </ul>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-info">
-              <p className="ae-callout-title">The Content Authority Connection <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Schedule a free call</a> to see where you stand.</p>
-              <p>All three platforms share one principle: they recommend businesses that demonstrate genuine authority and expertise. Building real topical authority through consistent, high-quality content about your services and service area is the single highest-ROI investment you can make across all AI platforms simultaneously.</p>
-            </div>
-          </div>
-
-          {/* CTA 9 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Section 10 - Mistakes */}
-          <div className="not-prose">
-            <div className="ae-section-label">Pitfalls to Avoid</div>
-          </div>
-          <h2 id="mistakes">Common Mistakes That Kill Multi-Platform Visibility</h2>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #1: Only Optimizing for Google</p>
-              <p>Most local businesses still focus 100% of their effort on Google. With ChatGPT at 800 million users and Perplexity growing 800% year-over-year, ignoring these platforms means missing an entire segment of customers who never open Google at all. Call <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a> for a free consultation.</p>
-            </div>
-          </div>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #2: Thinking Bing Does Not Matter</p>
-              <p>ChatGPT pulls from Bing data. If you have never claimed your Bing Places listing, ChatGPT has incomplete data about your business. This is one of the most common and easily fixable blind spots for local businesses. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Claim your market territory — one client per area.</a></p>
-            </div>
-          </div>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #3: Ignoring Website Content Quality</p>
-              <p>Perplexity indexes your actual website content, not just your business listings. If your service pages are thin, generic, or outdated, Perplexity will cite a competitor with better content. The same increasingly applies to ChatGPT and Google AI. <a href="https://theanswerengine.ai/blindspot" className="cta-inline">Run your free AI Blind Spot Scan.</a></p>
-            </div>
-          </div>
-
-          <div className="not-prose">
-            <div className="ae-callout ae-callout-warning">
-              <p className="ae-callout-title">Mistake #4: Not Tracking AI Referral Traffic</p>
-              <p>If your analytics are not set up to identify traffic from ChatGPT, Perplexity, and Google AI separately, you cannot measure what is working. Set up proper UTM tracking and referral source identification for each AI platform. <a href="https://calendly.com/theanswerengine-support/30min" className="cta-inline">Book a free 30-minute strategy call.</a></p>
-            </div>
-          </div>
-
-          {/* CTA 10 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Cheat Sheet */}
-          <div className="not-prose">
-            <table className="ae-cheat-sheet">
-              <caption className="ae-cheat-sheet-title">AI Platform Optimization Cheat Sheet for Local Businesses</caption>
-              <thead>
-                <tr>
-                  <th>Action Item</th>
-                  <th>ChatGPT</th>
-                  <th>Perplexity</th>
-                  <th>Google AI</th>
-                  <th>Priority</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Complete Google Business Profile</td>
-                  <td>Low</td>
-                  <td>Medium</td>
-                  <td>Critical</td>
-                  <td>Do First</td>
-                </tr>
-                <tr>
-                  <td>Claim Bing Places listing</td>
-                  <td>Critical</td>
-                  <td>Low</td>
-                  <td>Low</td>
-                  <td>Do First</td>
-                </tr>
-                <tr>
-                  <td>Add FAQ sections to service pages</td>
-                  <td>High</td>
-                  <td>High</td>
-                  <td>High</td>
-                  <td>Do First</td>
-                </tr>
-                <tr>
-                  <td>Implement schema markup</td>
-                  <td>Medium</td>
-                  <td>High</td>
-                  <td>Critical</td>
-                  <td>Week 2</td>
-                </tr>
-                <tr>
-                  <td>Publish authoritative content</td>
-                  <td>High</td>
-                  <td>Critical</td>
-                  <td>High</td>
-                  <td>Week 2-3</td>
-                </tr>
-                <tr>
-                  <td>Build review ecosystem</td>
-                  <td>Medium</td>
-                  <td>High</td>
-                  <td>Critical</td>
-                  <td>Ongoing</td>
-                </tr>
-                <tr>
-                  <td>Create location-specific content</td>
-                  <td>High</td>
-                  <td>High</td>
-                  <td>Critical</td>
-                  <td>Week 3-4</td>
-                </tr>
-                <tr>
-                  <td>Monitor AI citations monthly</td>
-                  <td>High</td>
-                  <td>High</td>
-                  <td>High</td>
-                  <td>Ongoing</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          {/* CTA 11 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* CTA 12 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Author Card */}
-          <div className="not-prose">
-            <div className="ae-author-card">
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <div style={{ width: '3rem', height: '3rem', borderRadius: '9999px', backgroundColor: '#F27D24', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 700, fontSize: '0.875rem', flexShrink: 0 }}>
-                  AE
-                </div>
-                <div>
-                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges <a href="tel:+12134442229" className="cta-inline">(213) 444-2229</a></p>
-                  <p style={{ color: '#9CA3AF', fontSize: '0.75rem', margin: 0 }}>
-                    Published March 22, 2026 on{' '}
-                    <Link href="/" style={{ color: '#F27D24' }}>
-                      theanswerengine.ai
-                    </Link>
-                  </p>
-                </div>
-              </div>
-              <p style={{ color: '#D1D5DB', fontSize: '0.875rem', marginTop: '0.75rem', marginBottom: 0, lineHeight: 1.6 }}>
-                We help local service businesses get found by AI search platforms. Our team researches how ChatGPT, Perplexity, and Google AI select, cite, and recommend businesses so you do not have to figure it out alone.
-              </p>
-            </div>
-          </div>
-
-          {/* 3-tier CTA Block before FAQ */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Which AI Platforms Are Recommending Your Competitors?</h3>
-            <p className="text-gray-400 mb-6">Our free Blind Spot Report tests your business across ChatGPT, Perplexity, and Google AI simultaneously.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+      {/* Breadcrumb */}
+      <nav className="max-w-4xl mx-auto px-6 pt-24 pb-0" aria-label="Breadcrumb">
+        <ol className="flex items-center gap-2 text-sm text-gray-500">
+          <li>
+            <Link href="/" className="hover:text-white transition-colors">
+              Home
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+          </li>
+          <li className="text-gray-600">/</li>
+          <li>
+            <Link href="/blog" className="hover:text-white transition-colors">
+              Blog
+            </Link>
+          </li>
+          <li className="text-gray-600">/</li>
+          <li className="text-gray-400 truncate">ChatGPT vs Perplexity vs Google AI for Local</li>
+        </ol>
+      </nav>
+
+      {/* Championship Cover Image */}
+      <div className="max-w-4xl mx-auto px-6 pt-6">
+        <div className="ae-article-hero w-full overflow-hidden" style={{ maxHeight: 420 }}>
+          <img
+            src={`/blog/${slug}.webp`}
+            alt="ChatGPT vs Perplexity vs Google AI Overview — comparison for local business citation strategy"
+            style={{ width: '100%', height: 420, objectFit: 'cover', display: 'block' }}
+            loading="eager"
+          />
+        </div>
+      </div>
+
+      {/* Hero */}
+      <header className="ae-article-hero max-w-4xl mx-auto px-6 pt-10 pb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="ae-section-label">Platform Comparison</span>
+          <span className="ae-section-label">AEO Strategy</span>
+        </div>
+        <h1 className="font-headline font-black uppercase tracking-tighter text-4xl md:text-5xl text-white mb-6 leading-tight">
+          ChatGPT vs Perplexity vs Google AI for Local
+        </h1>
+        <p className="article-summary font-body text-xl text-[#e5e2e1] mb-8 leading-relaxed">
+          ChatGPT, Perplexity, and Google AI are three different retrieval engines pretending to do the same job. ChatGPT recommends. Perplexity cites with links. Google AI substitutes for the click. The operator who understands the difference earns citation on all three surfaces from a single Answer Engine Optimization (AEO) foundation — and captures the revenue density that organic search no longer delivers.
+        </p>
+        <div className="flex items-center gap-6 text-sm text-gray-500 font-mono">
+          <span>By Justin Borges</span>
+          <span>13 min read</span>
+          <span>June 7, 2026</span>
+        </div>
+      </header>
+
+      {/* Stats Grid */}
+      <section className="max-w-4xl mx-auto px-6 mb-12">
+        <div className="ae-stats-grid">
+          <div className="ae-stat-card stat-block">
+            <div className="ae-stat-emoji">15.9%</div>
+            <div className="ae-stat-value">ChatGPT Conversion</div>
+            <div className="ae-stat-label">ChatGPT-referred visitors convert at roughly 15.9% — nine times the rate of organic Google search</div>
+          </div>
+          <div className="ae-stat-card stat-block">
+            <div className="ae-stat-emoji">10.5%</div>
+            <div className="ae-stat-value">Perplexity Conversion</div>
+            <div className="ae-stat-label">Perplexity citations send link-attributed traffic that converts at 10.5% per session</div>
+          </div>
+          <div className="ae-stat-card stat-block">
+            <div className="ae-stat-emoji">48%</div>
+            <div className="ae-stat-value">Overview Coverage</div>
+            <div className="ae-stat-label">Google AI Overviews now appear on roughly 48% of all queries — 78% on local-service categories</div>
+          </div>
+          <div className="ae-stat-card stat-block">
+            <div className="ae-stat-emoji">61%</div>
+            <div className="ae-stat-value">CTR Compression</div>
+            <div className="ae-stat-label">Organic click-through on Overview-affected queries drops by up to 61% from the pre-AI baseline</div>
+          </div>
+        </div>
+      </section>
+
+      {/* TOC */}
+      <section className="max-w-4xl mx-auto px-6 mb-12">
+        <div className="ae-cheat-sheet">
+          <div className="ae-cheat-sheet-title">What You Will Learn</div>
+          <ol>
+            <li><a href="#three-engine-landscape">The three-engine landscape: what each AI surface actually is</a></li>
+            <li><a href="#how-retrieval-works">How each engine retrieves local businesses</a></li>
+            <li><a href="#conversion-hierarchy">The conversion hierarchy: why AI traffic outperforms organic</a></li>
+            <li><a href="#citation-signals">The citation signals each platform rewards</a></li>
+            <li><a href="#tri-surface-mandate">The Tri-Surface Mandate: how to win on all three</a></li>
+            <li><a href="#faq">Frequently asked questions</a></li>
+          </ol>
+        </div>
+      </section>
+
+      <article className="ae-article-body prose prose-invert prose-lg max-w-4xl mx-auto px-6 pb-16">
+
+        {/* Section 1 */}
+        <section id="three-engine-landscape">
+          <h2>The Three-Engine Landscape</h2>
+
+          <h3>What ChatGPT is for local discovery</h3>
+          <p>
+            ChatGPT is a conversational answer engine built on a large language model with retrieval augmentation through Bing's web index. For local-business queries, ChatGPT runs a multi-turn research session, weighs entity signals against the user's stated constraints, and produces a short list of named recommendations with rationale. ChatGPT serves roughly 800 million monthly active users and holds approximately 64.5% market share of consumer generative AI usage as of Q1 2026.
+          </p>
+          <p>
+            <strong className="named-thesis">The Three-Engine Asymmetry: ChatGPT recommends, Perplexity cites with links, and Google AI Overview substitutes for the click — meaning a single content asset must serve three distinct retrieval mechanisms to earn citation across all three surfaces.</strong> Treating the three engines as one bucket misreads how each one decides what to surface. <a href="/concepts/three-engine-asymmetry" className="concept-link">The Three-Engine Asymmetry</a> reframes platform strategy as three separate citation surfaces, not one.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Want to see which of the three surfaces is sending you customers right now and which is invisible to you? <a href="https://theanswerengine.ai/blindspot">Run a free blindspot scan</a> and we will return your citation map across ChatGPT, Perplexity, and Google AI inside 48 hours.</p>
+          </div>
+
+          <h3>What Perplexity is for local discovery</h3>
+          <p>
+            Perplexity is a live-web answer engine that always returns source-cited links beside every answer. Perplexity's index updates in near real time, which gives it the freshest grounding of the three engines, and its 45 million monthly users skew toward research-heavy buyers. Perplexity grew roughly 800% year-over-year through 2025 and now sits as the second most-cited surface in our client Proof Ledgers behind ChatGPT.
+          </p>
+          <p>
+            <strong className="named-thesis">The Live-Web Premium: Perplexity always returns source-cited links, which means earning a Perplexity citation produces direct referral traffic and a clickable attribution receipt that ChatGPT and Google AI Overview both withhold.</strong> Perplexity is the only surface of the three where the citation itself drives the click. <a href="/concepts/live-web-premium" className="concept-link">The Live-Web Premium</a> is why we measure Perplexity referral traffic as a leading indicator across every TAE engagement.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>If you want a transcript of what Perplexity says about your business today, email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> with your business name and ZIP. We will return a live citation pull and diagnostic notes inside one business day.</p>
+          </div>
+
+          <h3>What Google AI is for local discovery</h3>
+          <p>
+            Google AI for local discovery means two things: AI Overviews (the generated summary panel above organic results) and AI Mode (the conversational interface launched in 2026). Both pull heavily from Google Business Profile, Maps reviews, and structured data on business websites. Google AI reaches roughly 2 billion users through Search, and Overviews now appear on 48% of all queries and over 78% of restaurant and service queries.
+          </p>
+          <p>
+            Google AI is the only surface that operates inside a property buyers already use millions of times per day. The other two engines require buyers to choose a different starting point. That distribution advantage is why operators who ignore Google AI lose ground even when their ChatGPT and Perplexity citations look healthy.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Want a same-day diagnostic on which engine you are missing from? Text <a href="sms:+12134442229">(213) 444-2229</a> with your business name and ZIP. We will pull your live citation map and reply inside one business day.</p>
+          </div>
+        </section>
+
+        {/* Section 2 */}
+        <section id="how-retrieval-works">
+          <h2>How Each Engine Retrieves Local Businesses</h2>
+
+          <h3>ChatGPT's retrieval mechanism</h3>
+          <p>
+            ChatGPT retrieves local businesses through a hybrid of pretrained knowledge and real-time web search against Bing's index. The model weighs four signal categories: domain authority of the citing source, entity consistency across third-party directories, recency of public mentions, and the presence of long-form authority content on the operator's own site. Aggarwal et al. (KDD 2024) measured a 37% citation lift for content with authoritative quotations and 22% for content with named statistics — the same signals ChatGPT prioritizes for local recommendations.
+          </p>
+          <p>
+            ChatGPT does not currently expose the citing sources behind every recommendation in the consumer interface. That opacity is why operators must measure citation indirectly: prompt-based audits, attribution surveys at point-of-sale, and conversion-pattern analysis in Google Analytics. Answer Engine Optimization (AEO) is the discipline of producing the inputs ChatGPT prefers without depending on the platform to expose its own reasoning.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Text our team at <a href="sms:+12134442229">(213) 444-2229</a> with your business category and ZIP — we will tell you whether ChatGPT currently names you in the recommendation slot for your highest-revenue local query.</p>
+          </div>
+
+          <h3>Perplexity's live-web grounding</h3>
+          <p>
+            Perplexity is a live-web answer engine: every query triggers a fresh search against its real-time index, the top-ranked results are reranked by relevance and authority, and the model writes an answer that cites the sources used. The freshness window matters. Zhang et al. (2026) measured a 57% influence premium for content that opens with a clear definition before expanding, and Perplexity's retriever rewards that same definitional clarity because it makes the source easy to extract.
+          </p>
+          <p>
+            Because Perplexity reranks live, a site that publishes a new authority article today can earn Perplexity citation for the relevant query inside 72 hours. ChatGPT and Google AI both lag the live index by weeks or longer. Perplexity is the fastest feedback loop in AI search citation — which is why we use it as the canary on every new AEO content batch.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>If you want to know how fast a Perplexity citation can land for your category, <a href="https://calendly.com/theanswerengine-support/30min">book a 30-minute working session</a>. Bring your top three revenue queries and we will sketch the timeline live.</p>
+          </div>
+
+          <div className="ae-cta-inline">
+            <p>Prefer a faster channel? Text <a href="sms:+12134442229">(213) 444-2229</a> with the word "Perplexity" and your category. We will reply with a live citation pull inside the same hour during business hours.</p>
+          </div>
+
+          <h3>Google AI's GBP-graph dependency</h3>
+          <p>
+            Google AI for local categories leans on Google's own entity graph: Google Business Profile, Maps reviews, Knowledge Panel data, and the schema markup on the business website. The retriever prefers extractable, bounded passages — the GEO-SFE paper (2026) measured a 43% citation lift for content with well-formed lists and tables, and a 31% degradation for content stuffed into chunks over 300 words. Google AI is therefore the surface where SUBSTRATE-style structural discipline pays back fastest.
+          </p>
+          <p>
+            Google AI is also the surface most exposed to GBP hygiene. A profile with inconsistent hours, missing service areas, or stale photos produces invisibility on Overview citations even when the website is well-optimized. Operators who optimize the website while neglecting the profile leave easy citation share on the table.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Curious whether your Google Business Profile and schema markup are strong enough for Overview citation? <a href="https://theanswerengine.ai/blindspot">Run the free blindspot scan</a> — the report flags every GBP and schema gap a retriever should see but does not.</p>
+          </div>
+
+          <div className="ae-cta-inline">
+            <p>If you would rather walk through your GBP fixes on a call, email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> with your business URL and we will send back a checklist of the top five Overview-visibility gaps inside one business day.</p>
+          </div>
+        </section>
+
+        {/* Section 3 */}
+        <section id="conversion-hierarchy">
+          <h2>The Conversion Hierarchy</h2>
+
+          <h3>Why AI traffic converts higher than organic</h3>
+          <p>
+            Conversion rate on AI surfaces compresses the buyer journey by pre-qualifying the visitor inside the answer. By the time a ChatGPT user clicks through, the AI has already compared the operator against three to five alternatives and named it as a recommended choice. Cold organic visitors arrive evaluating; AI-referred visitors arrive deciding. That structural difference produces the conversion premium that volume-focused operators consistently underestimate.
+          </p>
+          <p>
+            <strong className="named-thesis">The Conversion Hierarchy: ChatGPT converts at 15.9%, Perplexity at 10.5%, Google AI at 3%, and organic Google at 1.8% — visibility on the highest-converting surface produces more revenue per impression even when raw volume sits at less than 1% of total search.</strong> The hierarchy is why a Proof Ledger weighted by conversion outperforms a dashboard weighted by sessions. <a href="/concepts/conversion-hierarchy" className="concept-link">The Conversion Hierarchy</a> is the unit-economics rationale for AEO investment across all three engines.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Want a Proof Ledger walkthrough specific to your category? Email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> with your business URL and we will send back our four-metric scorecard with baseline numbers from our anonymized client benchmarks.</p>
+          </div>
+
+          <h3>The Pre-Decided Visitor problem</h3>
+          <p>
+            One-shot AI sessions break standard funnel analytics. A buyer who decides inside ChatGPT or Perplexity often visits the website only to confirm a phone number or grab an hours block — meaning the analytics layer sees one session, one page, fifteen seconds, then a call. Most attribution stacks misread that signature as a bounce. The reality is that the visit was the highest-intent session of the week.
+          </p>
+          <p>
+            <strong className="named-thesis">The Pre-Decided Visitor: 45% of ChatGPT local-service queries end in a single session, which collapses the buyer journey so completely that the visitor arrives at your site to confirm a decision rather than to compare options.</strong> Funnel analytics built for cold organic traffic underweights these sessions and produces strategic blind spots. <a href="/concepts/pre-decided-visitor" className="concept-link">The Pre-Decided Visitor</a> is the attribution problem AEO measurement has to solve.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>If your phone is ringing with quick-decision callers and your analytics shows a high bounce rate, that is the AEO signal hiding inside your data. Text <a href="sms:+12134442229">(213) 444-2229</a> with the word "audit" and we will dig in.</p>
+          </div>
+
+          <div className="ae-cta-inline">
+            <p>Want the full Pre-Decided Visitor diagnostic emailed to you? Send your URL to <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> and we will return a one-page session-signature analysis inside one business day.</p>
+          </div>
+
+          <h3>The Overview Click Compression</h3>
+          <p>
+            Google AI Overview takes a different conversion path. Instead of sending a high-converting click, the Overview often answers the user inside the search page itself — collapsing the click entirely. The visibility win is being named inside the Overview, not earning a click from it. Operators who measure Overview success in click volume undervalue the impression itself.
+          </p>
+          <p>
+            <strong className="named-thesis">The Overview Click Compression: Google AI Overviews now appear on 48% of queries and reduce organic click-through by up to 61% on affected searches — making citation inside the Overview panel the new visibility metric, not ranking below it.</strong> The compression is permanent, not transitional. <a href="/concepts/overview-click-compression" className="concept-link">The Overview Click Compression</a> is why blue-link rank tracking has lost most of its diagnostic value for local categories.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>This analysis draws on Aggarwal et al. (KDD 2024), Zhang et al. (2026), the GEO-SFE 2026 retrieval paper, Chen et al. (2025) on earned-media bias, and 40+ verified TAE client engagements. <a href="https://calendly.com/theanswerengine-support/30min">Book a 30-minute consult</a> if you want the source-by-source breakdown.</p>
+          </div>
+        </section>
+
+        {/* Section 4 */}
+        <section id="citation-signals">
+          <h2>The Citation Signals Each Platform Rewards</h2>
+
+          <h3>ChatGPT: earned media and entity authority</h3>
+          <p>
+            ChatGPT favors operators with broad cross-source mentions. Chen et al. (2025) documented a systematic bias inside LLM training corpora toward earned media over brand-owned content, which is why a strong website with zero off-site authority still produces ChatGPT invisibility. The retriever wants confirmation across multiple independent sources, not a single confident self-description. Press mentions, podcast appearances, industry directory profiles, and citation-style links from authoritative publishers all stack into the entity signal the model uses.
+          </p>
+          <p>
+            ChatGPT also weights long-form authority content on the operator's own domain. A site with twelve definition-first articles that each open with a clear thesis is more citeable than a site with sixty thin service pages. Quality and definitional clarity outweigh raw page count.
+          </p>
+
+          <table className="ae-comparison-table">
+            <thead>
+              <tr>
+                <th>Signal</th>
+                <th>ChatGPT</th>
+                <th>Perplexity</th>
+                <th>Google AI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Earned media coverage</td>
+                <td>Primary</td>
+                <td>Secondary</td>
+                <td>Secondary</td>
+              </tr>
+              <tr>
+                <td>Live-web crawlability</td>
+                <td>Important</td>
+                <td>Primary</td>
+                <td>Important</td>
+              </tr>
+              <tr>
+                <td>Google Business Profile</td>
+                <td>Indirect</td>
+                <td>Indirect</td>
+                <td>Primary</td>
+              </tr>
+              <tr>
+                <td>Schema markup</td>
+                <td>Important</td>
+                <td>Important</td>
+                <td>Primary</td>
+              </tr>
+              <tr>
+                <td>Long-form authority content</td>
+                <td>Primary</td>
+                <td>Primary</td>
+                <td>Important</td>
+              </tr>
+              <tr>
+                <td>Cross-directory NAP consistency</td>
+                <td>Important</td>
+                <td>Important</td>
+                <td>Primary</td>
+              </tr>
+              <tr>
+                <td>Citation freshness</td>
+                <td>Moderate</td>
+                <td>Primary</td>
+                <td>Moderate</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Perplexity: live indexability and definition-first content</h3>
+          <p>
+            Perplexity rewards sites that are easy to crawl and easy to extract. Page speed, server response time, and bot-friendly architecture all matter more on Perplexity than on the other two engines because the retriever fetches in real time. A slow site loses the citation race even when the content is strong. Definition-first H3 sections — where each subsection opens with a plain-language statement of what the topic is — score higher because the retriever can lift the passage cleanly into the answer.
+          </p>
+          <p>
+            Perplexity also rewards bounded chunk discipline. The GEO-SFE paper (2026) found that passages over 300 words trigger a 31% attention degradation in the retriever; splitting them into 80-180 token bounded units restores full extraction accuracy. This is one reason every TAE article structures H3 sections inside the SUBSTRATE chunk range.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Want to see whether your site clears the Perplexity bot threshold for speed and extractability? <a href="https://theanswerengine.ai/blindspot">Run a free blindspot scan</a> and we will return your live-indexability score with specific page-level fixes.</p>
+          </div>
+
+          <h3>Google AI: profile data and structured content</h3>
+          <p>
+            Google AI for local categories is GBP-anchored. A complete profile with accurate hours, services, photos, and review velocity is the floor. Above the floor, Google AI rewards FAQ schema, Service schema, and LocalBusiness schema that exposes the same facts the Overview wants to summarize. Schema is not garnish — it is the format the retriever prefers because it removes ambiguity.
+          </p>
+          <p>
+            Google AI also favors content that mirrors the structure of the Overview itself: a definition, three to five differentiators, comparison tables, and a clear answer to the highest-intent local query. Pages that read like miniature Overviews are the ones Google's retriever lifts into the real Overview.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Operating in a category where AEO is still uncontested across all three engines? <a href="https://calendly.com/theanswerengine-support/30min">Claim your territory</a> before a competitor does. We work with one client per market and the slot is gone once a category neighbor signs.</p>
+          </div>
+
+          <div className="ae-cta-inline">
+            <p>Want a copy of our citation-signal scorecard before the call? Text <a href="sms:+12134442229">(213) 444-2229</a> with the word "scorecard" and we will send back the live four-metric template.</p>
+          </div>
+
+          <div className="ae-cta-inline">
+            <p>Or email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> with your three highest-revenue queries and we will return the citation-share baseline for each one across all three engines.</p>
+          </div>
+        </section>
+
+        {/* Section 5 */}
+        <section id="tri-surface-mandate">
+          <h2>The Tri-Surface Mandate</h2>
+
+          <h3>The compounding foundation</h3>
+          <p>
+            <strong className="named-thesis">The Tri-Surface Compounding Effect: businesses cited by ChatGPT, Perplexity, and Google AI Overview share four foundation signals — consistent NAP, deep service content, schema-marked authority pages, and earned media — meaning investment in any one signal compounds returns across all three surfaces.</strong> The compounding is why operators who focus only on one engine consistently underperform operators who build the shared foundation. <a href="/concepts/tri-surface-compounding-effect" className="concept-link">The Tri-Surface Compounding Effect</a> is the planning principle behind every AEO roadmap we ship.
+          </p>
+          <p>
+            The Origin Protocol — our AEO content framework — applies SUBSTRATE rules to every article we publish: bounded chunks (80-180 tokens), definition-first H3s, inline academic citations, named-thesis sentences, and a 6:1 assertive-to-hedged sentence ratio. The same article that earns a Perplexity citation tends to earn ChatGPT and Google AI citation inside 90 days because all three retrievers reward the same structural properties.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>If you want a walk-through of the Origin Protocol applied to your category, email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> with three target queries. We will send back a one-page strategy memo.</p>
+          </div>
+
+          <h3>Where the platforms genuinely diverge</h3>
+          <p>
+            The three engines diverge in three places. ChatGPT weights earned media most heavily. Perplexity weights live crawlability and freshness most heavily. Google AI weights GBP, Maps reviews, and schema most heavily. The operator response is not to pick one — it is to build the shared foundation, then bias incremental investment toward the surface that maps to the highest-revenue customer in the category.
+          </p>
+          <p>
+            For high-ticket considered purchases (real estate, specialty medical, B2B professional services), ChatGPT-first investment typically produces faster revenue lift. For high-volume short-decision categories (emergency services, on-demand home services), Google AI-first investment typically wins. Perplexity sits in the middle as a fast-feedback signal that both audiences use during research.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Want us to model your category economics on a real call? Text <a href="sms:+12134442229">(213) 444-2229</a> with your business name or email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for a same-day reply.</p>
+          </div>
+
+          <h3>How to measure tri-surface progress</h3>
+          <p>
+            We measure four numbers on every engagement: citation count by surface (ChatGPT, Perplexity, Google AI), citation share inside the operator's category, attributed revenue per cited surface, and competitor displacement count — how often a TAE client replaced an incumbent in a recommendation slot. These four numbers, not session counts and not pageviews, are the Proof Ledger for Answer Engine Optimization. The ledger is what makes our 90-day citation guarantee defensible.
+          </p>
+          <p>
+            The measurement discipline matters because all three engines under-expose their citation logic in their consumer interfaces. The operator who cannot measure cannot improve. The Proof Ledger gives us — and the client — a defensible record of which AI surface drove which call, lead, or transaction.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>One client per market, 90-day citation guarantee, defensible Proof Ledger. <a href="https://calendly.com/theanswerengine-support/30min">Book a 30-minute territory review</a> to confirm your category is still uncontested.</p>
+          </div>
+
+          <div className="ae-cta-inline">
+            <p>If a competitor in your category is already cited on one of the three engines, the territory lock window may already be narrowing. <a href="https://calendly.com/theanswerengine-support/30min">Book a same-week territory review</a> — we will confirm whether your slot is still open before any contract conversation.</p>
+          </div>
+
+          <h3>The first 90 days</h3>
+          <p>
+            For most local operators, the right first move is the shared foundation: consistent NAP across the top 30 directories, schema-marked service pages, an FAQ block on every service page, a publishing cadence of two to four authority articles per month, and an active earned-media program. Perplexity citation often arrives first (the live index updates fastest), Google AI citation second (within the next GBP refresh cycle), and ChatGPT citation third as the earned-media signal accumulates.
+          </p>
+
+          <div className="ae-cta-inline">
+            <p>Before you plan a 90-day rollout, see your starting line. <a href="https://theanswerengine.ai/blindspot">Pull a free blindspot scan</a> to baseline your citation map across ChatGPT, Perplexity, and Google AI.</p>
+          </div>
+
+          <div className="ae-cta-inline">
+            <p>If you want a walk-through of the 90-day plan applied to your category, <a href="https://calendly.com/theanswerengine-support/30min">book a 30-minute working session</a>. Bring a list of your top revenue queries and we will diagnose live.</p>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="ae-final-cta not-prose">
+          <h2 className="font-headline font-black uppercase tracking-tighter">See Your Citation Map Before You Decide</h2>
+          <p>The Blindspot Scan returns your citation footprint across ChatGPT, Perplexity, Google AI Overview, and Claude — with revenue weighting for your category. Inside 48 hours. No commitment.</p>
+          <a
+            href="https://theanswerengine.ai/blindspot"
+            className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+          >
+            Get Your Free Blindspot Scan
+          </a>
+          <p className="font-mono text-xs mt-6" style={{ color: 'rgba(255,255,255,0.4)' }}>
+            Or text us at (213) 444-2229 — one client per market, claim before a competitor does.
+          </p>
+        </section>
+
+        {/* Author Card */}
+        <div className="not-prose ae-author-card">
+          <img
+            src="/justin-borges.webp"
+            alt="Justin Borges, Founder of The Answer Engine"
+            style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '2px solid #F27D24' }}
+          />
+          <div>
+            <div className="ae-author-name">Justin Borges</div>
+            <div className="ae-author-role">Founder, The Answer Engine</div>
+            <p className="ae-author-bio">
+              Justin Borges is the founder of The Answer Engine, an Answer Engine Optimization firm that helps local service businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews. TAE&apos;s own playbook has produced 1.14M+ monthly impressions across four AI surfaces.
+            </p>
+          </div>
+        </div>
+
+        {/* FAQ */}
+        <section id="faq" className="not-prose mt-16">
+          <h2 className="font-headline font-black uppercase tracking-tighter text-3xl text-white mb-8">Frequently Asked Questions</h2>
+
+          <details className="ae-faq-item">
+            <summary>Which AI platform sends the highest-converting traffic for local businesses?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>ChatGPT converts referred visitors at roughly 15.9%, Perplexity at 10.5%, and Google AI at approximately 3%. Traditional Google organic sits at 1.8%. Conversion rates on AI surfaces sit four to nine times higher than organic search because visitors arrive pre-decided, having already vetted alternatives inside the conversation.</p>
+              <p>Volume is highest on Google AI, but revenue density is highest on ChatGPT. The Proof Ledger calculation should always weight conversion rate, not raw session count.</p>
             </div>
-          </div>
+          </details>
 
-          {/* FAQ Section */}
-          <section aria-labelledby="faq-heading" className="mt-16" id="faq">
-            <h2
-              id="faq-heading"
-              className="text-2xl font-bold text-white mb-8 font-plus-jakarta"
-            >
-              Frequently Asked Questions
-            </h2>
-            <div className="space-y-6">
-
-              <div className="border border-gray-700 rounded-xl p-6">
-                <h3 className="font-semibold text-white mb-3">
-                  Which AI platform is best for local business visibility?
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  There is no single best platform. Google AI Mode has the largest reach with 2 billion monthly users and integrates with Google Maps data. ChatGPT has the highest conversion rate at 15.9% and 800 million monthly users. Perplexity always cites sources, giving businesses direct link attribution. The best strategy is optimizing for all three simultaneously since each reaches different customer segments.
-                </p>
-              </div>
-
-              <div className="border border-gray-700 rounded-xl p-6">
-                <h3 className="font-semibold text-white mb-3">
-                  Does ChatGPT or Perplexity drive more traffic to local businesses?
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  ChatGPT drives more total traffic volume due to its larger user base of 800 million monthly users and 64.5% market share in generative AI. However, Perplexity always includes source citations with direct links, which can drive higher quality referral traffic despite its smaller 45 million user base. Both platforms convert visitors at significantly higher rates than traditional Google organic search.
-                </p>
-              </div>
-
-              <div className="border border-gray-700 rounded-xl p-6">
-                <h3 className="font-semibold text-white mb-3">
-                  How does Google AI Mode affect my local search rankings?
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  Google AI Mode generates AI-powered summaries that appear above traditional search results. For local queries, it pulls heavily from Google Business Profile data, reviews, and structured content on your website. AI Overviews now appear in roughly 48% of all tracked queries, and 78% of restaurant-related queries. If your business is not optimized for AI Overviews, you risk being invisible even if you rank well in traditional results.
-                </p>
-              </div>
-
-              <div className="border border-gray-700 rounded-xl p-6">
-                <h3 className="font-semibold text-white mb-3">
-                  What conversion rates do AI search platforms have compared to Google?
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  AI search traffic converts at dramatically higher rates than traditional Google organic search. ChatGPT referrals convert at 15.9%, Perplexity at 10.5%, and Google AI at approximately 3%. By comparison, traditional Google organic search converts at just 1.8%. This means AI search visitors are arriving with much stronger purchase intent, even though overall volume from AI platforms is still relatively small.
-                </p>
-              </div>
-
-              <div className="border border-gray-700 rounded-xl p-6">
-                <h3 className="font-semibold text-white mb-3">
-                  Should I optimize for ChatGPT or Google AI first?
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  Start with Google AI if your business relies on local foot traffic, since Google AI Overviews reach 2 billion users and pull from your Google Business Profile. Start with ChatGPT if you serve customers who research online before buying, since ChatGPT has the highest conversion rate at 15.9%. The good news is that many optimization strategies overlap, so content that performs well on one platform tends to perform well on the others.
-                </p>
-              </div>
-
-              <div className="border border-gray-700 rounded-xl p-6">
-                <h3 className="font-semibold text-white mb-3">
-                  How do I get my business cited by Perplexity AI?
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  Perplexity indexes the live web and always cites its sources with direct links. To increase your chances of citation, publish authoritative content that directly answers common questions in your industry, maintain active profiles on review platforms and directories, ensure your website loads quickly and has clear structured data, and create content that establishes topical authority in your specific service area and location.
-                </p>
-              </div>
-
-              <div className="border border-gray-700 rounded-xl p-6">
-                <h3 className="font-semibold text-white mb-3">
-                  Is AI search actually replacing traditional Google search for local queries?
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  Not yet, but the shift is accelerating. AI platforms currently drive less than 1% of total referral traffic for most businesses. However, Google AI Overviews already appear in 48% of queries and reduced click-through rates by up to 61% for affected searches. The trend is clear: traditional organic clicks are declining while AI-mediated discovery is growing rapidly. Businesses that prepare now will have a significant advantage as this transition continues.
-                </p>
-              </div>
-
+          <details className="ae-faq-item">
+            <summary>Does ChatGPT or Perplexity drive more traffic to local businesses?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>ChatGPT drives more total traffic because of its 800 million monthly active users and roughly 64.5% market share of generative AI. Perplexity has a smaller user base near 45 million, but it always returns source-cited links, which produces direct referral clicks where ChatGPT does not.</p>
+              <p>Most operators see more raw clicks from ChatGPT and a higher click-rate per impression from Perplexity. Both numbers matter, but they answer different strategic questions.</p>
             </div>
-          </section>
+          </details>
 
-          {/* CTA 13 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* CTA 14 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* CTA 15 */}
-          <div className="not-prose">
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Find out what ChatGPT says about your business — free scan</a>
-          </div>
-
-          {/* Final CTA */}
-          <div className="not-prose">
-          <section className="ae-final-cta not-prose">
-            <div className="ae-final-cta-inner">
-              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
-                ChatGPT Is Making Business Recommendations in Your Market Right Now
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                It's recommending someone. Is it you? The Answer Engine's free Blind Spot Report shows your ChatGPT, Perplexity, and Google AI citation rate in 48 hours. One business per market slot.
-              </p>
-              <a
-                href="https://theanswerengine.ai/blindspot"
-                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
-              >
-                Run Free ChatGPT Visibility Scan →
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-                <a href="tel:+12134442229" className="hover:text-orange-400 transition-colors">(213) 444-2229</a>
-                <a href="https://calendly.com/theanswerengine-support/30min" className="hover:text-orange-400 transition-colors">Book Free Call</a>
-                <a href="mailto:support@theanswerengine.ai" className="hover:text-orange-400 transition-colors">support@theanswerengine.ai</a>
-              </div>
+          <details className="ae-faq-item">
+            <summary>How does Google AI Mode change local search behavior?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>Google AI Mode generates an Overview panel above the organic results on roughly 48% of queries, and the share climbs above 78% on restaurant and service queries. AI Overviews pull entity facts directly from Google Business Profile, reviews, and structured data on the business website.</p>
+              <p>Click-through on affected queries drops from 15% to as low as 8%. That is The Overview Click Compression — citation inside the Overview is now the visibility metric, not ranking below it.</p>
             </div>
-          </section>
-          </div>
+          </details>
 
-        </article>
-      </main>
+          <details className="ae-faq-item">
+            <summary>Should a local business optimize for ChatGPT or Google AI first?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>Start with whichever surface maps to your highest-revenue buyer. ChatGPT-first work pays back fastest for considered purchases above $1,500 because conversion density is highest there. Google AI-first work pays back fastest for high-volume, short-decision categories like emergency services.</p>
+              <p>The foundation signals overlap enough that early work on either surface lifts the other within 90 days. The Tri-Surface Compounding Effect makes the first investment compound regardless of which engine you start with.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>How do I get my business cited by Perplexity AI?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>Perplexity grounds answers on the live web and reranks results in real time. Citation probability rises when the site publishes definition-first authority content, holds an aggressive earned-media footprint, runs schema-marked service pages, and maintains fast page-speed for the Perplexity crawler.</p>
+              <p>Aggarwal et al. (KDD 2024) measured a 37% citation lift for content with direct authoritative quotations. Perplexity rewards that signal as strongly as ChatGPT does.</p>
+            </div>
+          </details>
+
+          <details className="ae-faq-item">
+            <summary>Can a business appear in ChatGPT, Perplexity, and Google AI at the same time?</summary>
+            <div className="ae-faq-answer faq-answer">
+              <p>Yes, and the businesses that earn citation on all three share four common signals: consistent NAP across directories, deep schema-marked service content, definitional authority articles, and an active earned-media presence.</p>
+              <p>The retrievers behind the three surfaces draw on overlapping web corpora and entity graphs, so an investment that earns one citation typically compounds into the others inside 90 days. That is the Tri-Surface Compounding Effect in measurable form.</p>
+            </div>
+          </details>
+
+          <div className="ae-cta-inline mt-8">
+            <p>Have a question we did not cover? Text <a href="sms:+12134442229">(213) 444-2229</a> or email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>. We answer every inbound from operators inside one business day.</p>
+          </div>
+        </section>
+
+        {/* Closing CTA Block */}
+        <section className="ae-cta-block not-prose mt-12">
+          <h3>Claim your category before a competitor does</h3>
+          <p>The Answer Engine works with one client per market. Once a category neighbor signs, the territory lock activates and we will not take a competing operator in that ZIP cluster. <a href="https://calendly.com/theanswerengine-support/30min">Book a 30-minute consult</a> to confirm your category is still open, or <a href="https://theanswerengine.ai/blindspot">run a blindspot scan</a> to see your citation map first.</p>
+        </section>
+
+      </article>
     </div>
   )
 }
