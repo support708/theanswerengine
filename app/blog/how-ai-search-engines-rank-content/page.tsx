@@ -6,7 +6,7 @@ import Link from 'next/link';
 const TITLE = 'How AI Search Engines Rank Content | The Answer Engine';
 const DESCRIPTION = 'AI search engines rank content with a composite of similarity, authority, and extractability. Learn the seven signals that decide AEO citation order.';
 const URL = 'https://theanswerengine.ai/blog/how-ai-search-engines-rank-content';
-const IMAGE = 'https://theanswerengine.ai/blog/how-ai-search-engines-rank-content.webp';
+const IMAGE = 'https://theanswerengine.ai/blog/how-ai-search-engines-rank-content.svg';
 const PUBLISHED = '2026-06-07';
 
 export const metadata: Metadata = {

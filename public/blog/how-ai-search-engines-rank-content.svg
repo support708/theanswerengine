@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgRank" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0e02;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#131313;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0c1a1f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F27D24;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#F27D24;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#F27D24;stop-opacity:0" />
+    </linearGradient>
+    <filter id="glowRank"><feGaussianBlur stdDeviation="8" result="blurR"/><feMerge><feMergeNode in="blurR"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="14" result="blurS"/><feMerge><feMergeNode in="blurS"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgRank)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#F27D24" stroke-width="0.5">
+    <line x1="0" y1="126" x2="1200" y2="126"/>
+    <line x1="0" y1="252" x2="1200" y2="252"/>
+    <line x1="0" y1="378" x2="1200" y2="378"/>
+    <line x1="0" y1="504" x2="1200" y2="504"/>
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+  </g>
+
+  <!-- Category label -->
+  <g transform="translate(80, 80)">
+    <rect x="0" y="0" width="220" height="32" rx="0" fill="rgba(242,125,36,0.08)" stroke="rgba(242,125,36,0.4)" stroke-width="1"/>
+    <text x="14" y="21" font-family="Courier New, monospace" font-size="11" fill="#F27D24" letter-spacing="2.5">AEO MECHANISM SERIES</text>
+  </g>
+
+  <!-- Headline -->
+  <g transform="translate(80, 145)">
+    <text font-family="Space Grotesk, Arial Black, sans-serif" font-weight="900" font-size="68" fill="#ffffff" letter-spacing="-2.5">
+      <tspan x="0" y="0">HOW AI SEARCH</tspan>
+      <tspan x="0" y="78">ENGINES RANK</tspan>
+      <tspan x="0" y="156" fill="#F27D24">CONTENT.</tspan>
+    </text>
+  </g>
+
+  <!-- Subhead -->
+  <g transform="translate(80, 440)">
+    <text font-family="Inter, system-ui, sans-serif" font-size="20" fill="rgba(229,226,225,0.7)" font-weight="400">
+      <tspan x="0" y="0">The composite ranking score: similarity</tspan>
+      <tspan x="0" y="30">× authority × extractability.</tspan>
+    </text>
+  </g>
+
+  <!-- Composite formula visual (right side) -->
+  <g transform="translate(720, 130)" filter="url(#softGlow)">
+    <rect x="0" y="0" width="380" height="380" rx="0" fill="rgba(255,255,255,0.03)" stroke="rgba(242,125,36,0.25)" stroke-width="1"/>
+
+    <!-- Three factor boxes -->
+    <g transform="translate(30, 40)">
+      <rect x="0" y="0" width="320" height="80" rx="0" fill="rgba(242,125,36,0.08)" stroke="rgba(242,125,36,0.4)" stroke-width="1.5"/>
+      <text x="160" y="32" font-family="Courier New, monospace" font-size="11" fill="rgba(242,125,36,0.7)" text-anchor="middle" letter-spacing="2">FACTOR 01</text>
+      <text x="160" y="62" font-family="Space Grotesk, Arial Black, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">SIMILARITY</text>
+    </g>
+
+    <text x="190" y="148" font-family="Space Grotesk, Arial Black, sans-serif" font-weight="900" font-size="28" fill="#F27D24" text-anchor="middle">×</text>
+
+    <g transform="translate(30, 160)">
+      <rect x="0" y="0" width="320" height="80" rx="0" fill="rgba(242,125,36,0.08)" stroke="rgba(242,125,36,0.4)" stroke-width="1.5"/>
+      <text x="160" y="32" font-family="Courier New, monospace" font-size="11" fill="rgba(242,125,36,0.7)" text-anchor="middle" letter-spacing="2">FACTOR 02</text>
+      <text x="160" y="62" font-family="Space Grotesk, Arial Black, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">AUTHORITY</text>
+    </g>
+
+    <text x="190" y="268" font-family="Space Grotesk, Arial Black, sans-serif" font-weight="900" font-size="28" fill="#F27D24" text-anchor="middle">×</text>
+
+    <g transform="translate(30, 280)">
+      <rect x="0" y="0" width="320" height="80" rx="0" fill="rgba(242,125,36,0.15)" stroke="#F27D24" stroke-width="1.5" filter="url(#glowRank)"/>
+      <text x="160" y="32" font-family="Courier New, monospace" font-size="11" fill="#F27D24" text-anchor="middle" letter-spacing="2">FACTOR 03</text>
+      <text x="160" y="62" font-family="Space Grotesk, Arial Black, sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">EXTRACTABILITY</text>
+    </g>
+  </g>
+
+  <!-- Orange beam at bottom -->
+  <rect x="0" y="560" width="1200" height="2" fill="url(#orangeBeam)"/>
+
+  <!-- Footer label -->
+  <g transform="translate(80, 580)">
+    <text font-family="Courier New, monospace" font-size="12" fill="rgba(229,226,225,0.4)" letter-spacing="1.5">THE ANSWER ENGINE · THEANSWERENGINE.AI · AEO MECHANISM SERIES</text>
+  </g>
+
+  <!-- Justin signature -->
+  <g transform="translate(1080, 590)">
+    <text font-family="Courier New, monospace" font-size="11" fill="rgba(242,125,36,0.6)" text-anchor="end" letter-spacing="1">BY JUSTIN BORGES</text>
+  </g>
+</svg>

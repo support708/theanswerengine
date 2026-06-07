@@ -6526,5 +6526,22 @@
       "Schema Stack",
       "Named Author"
     ]
+  },
+  {
+    "id": 302,
+    "title": "How AI Search Engines Rank Content",
+    "slug": "how-ai-search-engines-rank-content",
+    "excerpt": "A technical breakdown of the composite ranking score used by ChatGPT, Perplexity, Claude, Gemini, and Google AI Mode to order sources for citation, with the seven structural signals that determine ranking weight.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/how-ai-search-engines-rank-content.svg",
+    "publishDate": "2026-06-07",
+    "lastModified": "2026-06-07",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
   }
 ]
